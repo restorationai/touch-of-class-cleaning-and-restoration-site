@@ -1,22 +1,22 @@
 # Site Plan Report — FireDEX Butler
 
-- Template: `restoration` v0.2.0
-- Generated: 2026-07-09T05:14:43.468479+00:00
+- Template: `restoration` v0.3.0
+- Generated: 2026-09-20T14:13:09.652057+00:00
 - Domain: `firedex.net`
-- Services selected: 17 of 46 catalog entries
-- Service areas: 9
+- Services selected: 18 of 65 catalog entries
+- Service areas: 15
 - Cross-product enabled: True
-- Total URLs: **200**
-- Total internal links: 1607 (avg 8.0 per page)
+- Total URLs: **305**
+- Total internal links: 2503 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 153 |
-| `service-landing` | 17 |
+| `service-area-service` | 252 |
+| `service-landing` | 18 |
+| `service-area` | 14 |
 | `blog-post` | 12 |
-| `service-area` | 9 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -40,10 +40,11 @@
 - `odor-removal` — Odor Removal and Deodorization (specialty, priority 7)
 - `mold-remediation` — Mold Remediation (core, priority 10)
 - `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
-- `biohazard-cleanup` — Biohazard and Trauma Cleanup (specialty, priority 8)
+- `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
 - `commercial-restoration` — Commercial Restoration (core, priority 9)
 - `reconstruction` — Reconstruction Services (core, priority 9)
 - `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
+- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 
 ## Service areas
 
@@ -56,6 +57,12 @@
 - `butler-pa` — Butler, PA
 - `gibsonia-pa` — Gibsonia, PA
 - `beaver-falls-pa` — Beaver Falls, PA
+- `economy-pa` — Economy, PA
+- `franklin-park-pa` — Franklin Park, PA
+- `baden-pa` — Baden, PA
+- `bell-acres-pa` — Bell Acres, PA
+- `monaca-pa` — Monaca, PA
+- `sewickley-heights-pa` — Sewickley Heights, PA
 
 ## Top 10 priority pages
 
@@ -70,7 +77,7 @@
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization cranberry township |
 | `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration cranberry township |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration cranberry township |
-| `/service-areas/cranberry-township-pa/` | `service-area` | 7.2 | restoration services cranberry township |
+| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup cranberry township |
 
 ## Validation
 

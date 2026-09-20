@@ -96,7 +96,8 @@
       }
     },
     "color_locked": true,
-    "color_source": "brand-kit"
+    "color_source": "brand-kit",
+    "ga4_measurement_id": "G-M4N5NVD0WN"
   },
   "template": "restoration",
   "services": [
@@ -331,6 +332,36 @@
         "89006"
       ],
       "local_notes": "Older historic-district homes here often need careful water-damage restoration due to aging plumbing."
+    },
+    {
+      "city": "Winchester",
+      "state": "NV",
+      "slug": "winchester-nv"
+    },
+    {
+      "city": "Summerlin South",
+      "state": "NV",
+      "slug": "summerlin-south-nv"
+    },
+    {
+      "city": "Enterprise",
+      "state": "NV",
+      "slug": "enterprise-nv"
+    },
+    {
+      "city": "Blue Diamond",
+      "state": "NV",
+      "slug": "blue-diamond-nv"
+    },
+    {
+      "city": "Mount Charleston",
+      "state": "NV",
+      "slug": "mount-charleston-nv"
+    },
+    {
+      "city": "Nelson",
+      "state": "NV",
+      "slug": "nelson-nv"
     }
   ]
 }

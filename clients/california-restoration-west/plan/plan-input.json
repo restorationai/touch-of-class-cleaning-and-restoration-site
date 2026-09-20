@@ -25,7 +25,9 @@
       "Licensed & Insured",
       "24/7 Emergency Service",
       "Locally Owned & Operated"
-    ]
+    ],
+    "ga4_measurement_id": "G-5DKZE0DK8C",
+    "place_id": "ChIJx7cmNM8b-ioRFlPXDWY8C-A"
   },
   "services": [
     "water-damage-restoration",
@@ -81,6 +83,36 @@
       "city": "Fillmore",
       "state": "CA",
       "slug": "fillmore-ca"
+    },
+    {
+      "city": "Mira Monte",
+      "state": "CA",
+      "slug": "mira-monte-ca"
+    },
+    {
+      "city": "Oak View",
+      "state": "CA",
+      "slug": "oak-view-ca"
+    },
+    {
+      "city": "Somis",
+      "state": "CA",
+      "slug": "somis-ca"
+    },
+    {
+      "city": "San Buenaventura (Ventura)",
+      "state": "CA",
+      "slug": "san-buenaventura-ventura-ca"
+    },
+    {
+      "city": "Moorpark",
+      "state": "CA",
+      "slug": "moorpark-ca"
+    },
+    {
+      "city": "Santa Rosa Valley",
+      "state": "CA",
+      "slug": "santa-rosa-valley-ca"
     }
   ],
   "template": "restoration",

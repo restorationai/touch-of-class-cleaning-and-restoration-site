@@ -98,6 +98,36 @@
       "state": "CA",
       "slug": "temecula-ca",
       "primary": false
+    },
+    {
+      "city": "Harmony Grove",
+      "state": "CA",
+      "slug": "harmony-grove-ca"
+    },
+    {
+      "city": "Hidden Meadows",
+      "state": "CA",
+      "slug": "hidden-meadows-ca"
+    },
+    {
+      "city": "Bonsall",
+      "state": "CA",
+      "slug": "bonsall-ca"
+    },
+    {
+      "city": "Rancho Santa Fe",
+      "state": "CA",
+      "slug": "rancho-santa-fe-ca"
+    },
+    {
+      "city": "Valley Center",
+      "state": "CA",
+      "slug": "valley-center-ca"
+    },
+    {
+      "city": "Fairbanks Ranch",
+      "state": "CA",
+      "slug": "fairbanks-ranch-ca"
     }
   ],
   "brand": {
@@ -107,8 +137,18 @@
     "hours": "24/7 Emergency Service",
     "founded_year": "",
     "license_numbers": [],
-    "certifications": [],
-    "google_maps_api_key": "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU"
+    "certifications": [
+      "IICRC Certified",
+      "EPA Lead-Safe Certified"
+    ],
+    "google_maps_api_key": "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
+    "licensed_insured_attested": true,
+    "place_id": "ChIJJ3gQpF913IAR-Hs5M4WEiAs",
+    "lat": 33.1434,
+    "lng": -117.1661,
+    "city": "San Marcos",
+    "state": "CA",
+    "ga4_measurement_id": "G-BPB9R60M10"
   },
   "cross_product": true,
   "keyword_strategy": "conservative",

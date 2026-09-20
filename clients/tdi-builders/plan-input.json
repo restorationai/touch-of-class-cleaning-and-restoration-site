@@ -183,6 +183,11 @@
       "city": "North Highlands",
       "state": "CA",
       "slug": "north-highlands-ca"
+    },
+    {
+      "city": "Antelope",
+      "state": "CA",
+      "slug": "antelope-ca"
     }
   ],
   "template": "construction",

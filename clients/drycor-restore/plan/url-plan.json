@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-17T20:46:25.737117+00:00",
+  "generated_at": "2026-09-20T14:13:07.837185+00:00",
   "input_summary": {
     "service_count": 9,
-    "service_area_count": 61,
+    "service_area_count": 67,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -66,12 +66,14 @@
         "/service-areas/dover-fl/",
         "/service-areas/dundee-fl/",
         "/service-areas/dunedin-fl/",
+        "/service-areas/east-lake-orient-park-fl/",
         "/service-areas/ellenton-fl/",
         "/service-areas/englewood-fl/",
         "/service-areas/gibsonton-fl/",
         "/service-areas/haines-city-fl/",
         "/service-areas/holiday-fl/",
         "/service-areas/holmes-beach-fl/",
+        "/service-areas/lake-magdalene-fl/",
         "/service-areas/lake-wales-fl/",
         "/service-areas/lakeland-fl/",
         "/service-areas/lakewood-ranch-fl/",
@@ -80,6 +82,7 @@
         "/service-areas/lithia-fl/",
         "/service-areas/longboat-key-fl/",
         "/service-areas/lutz-fl/",
+        "/service-areas/mango-fl/",
         "/service-areas/mulberry-fl/",
         "/service-areas/new-port-richey-fl/",
         "/service-areas/nokomis-fl/",
@@ -88,8 +91,10 @@
         "/service-areas/oldsmar-fl/",
         "/service-areas/osprey-fl/",
         "/service-areas/palm-harbor-fl/",
+        "/service-areas/palm-river-clair-mel-fl/",
         "/service-areas/palmetto-fl/",
         "/service-areas/parrish-fl/",
+        "/service-areas/pebble-creek-fl/",
         "/service-areas/pinellas-park-fl/",
         "/service-areas/plant-city-fl/",
         "/service-areas/polk-city-fl/",
@@ -108,6 +113,7 @@
         "/service-areas/tarpon-springs-fl/",
         "/service-areas/temple-terrace-fl/",
         "/service-areas/trinity-fl/",
+        "/service-areas/university-fl/",
         "/service-areas/valrico-fl/",
         "/service-areas/venice-fl/",
         "/service-areas/wesley-chapel-fl/",
@@ -198,12 +204,14 @@
         "/service-areas/dover-fl/",
         "/service-areas/dundee-fl/",
         "/service-areas/dunedin-fl/",
+        "/service-areas/east-lake-orient-park-fl/",
         "/service-areas/ellenton-fl/",
         "/service-areas/englewood-fl/",
         "/service-areas/gibsonton-fl/",
         "/service-areas/haines-city-fl/",
         "/service-areas/holiday-fl/",
         "/service-areas/holmes-beach-fl/",
+        "/service-areas/lake-magdalene-fl/",
         "/service-areas/lake-wales-fl/",
         "/service-areas/lakeland-fl/",
         "/service-areas/lakewood-ranch-fl/",
@@ -212,6 +220,7 @@
         "/service-areas/lithia-fl/",
         "/service-areas/longboat-key-fl/",
         "/service-areas/lutz-fl/",
+        "/service-areas/mango-fl/",
         "/service-areas/mulberry-fl/",
         "/service-areas/new-port-richey-fl/",
         "/service-areas/nokomis-fl/",
@@ -220,8 +229,10 @@
         "/service-areas/oldsmar-fl/",
         "/service-areas/osprey-fl/",
         "/service-areas/palm-harbor-fl/",
+        "/service-areas/palm-river-clair-mel-fl/",
         "/service-areas/palmetto-fl/",
         "/service-areas/parrish-fl/",
+        "/service-areas/pebble-creek-fl/",
         "/service-areas/pinellas-park-fl/",
         "/service-areas/plant-city-fl/",
         "/service-areas/polk-city-fl/",
@@ -240,6 +251,7 @@
         "/service-areas/tarpon-springs-fl/",
         "/service-areas/temple-terrace-fl/",
         "/service-areas/trinity-fl/",
+        "/service-areas/university-fl/",
         "/service-areas/valrico-fl/",
         "/service-areas/venice-fl/",
         "/service-areas/wesley-chapel-fl/",
@@ -3563,6 +3575,282 @@
         "/service-areas/venice-fl/general-contracting/",
         "/service-areas/venice-fl/emergency-board-up-tarping/",
         "/service-areas/venice-fl/contents-restoration-storage/",
+        "/service-areas/anna-maria-fl/",
+        "/service-areas/apollo-beach-fl/",
+        "/service-areas/auburndale-fl/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mango-fl/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Mango, FL | DRYCOR RESTORE",
+      "h1": "Restoration Services in Mango",
+      "meta_description": "Serving Mango, FL with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (813) 829-1091.",
+      "primary_keyword": "restoration services mango",
+      "secondary_keywords": [
+        "mango restoration company",
+        "damage restoration mango",
+        "mango disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/mango-fl/fire-damage-restoration/",
+        "/service-areas/mango-fl/mold-remediation/",
+        "/service-areas/mango-fl/water-damage-restoration/",
+        "/service-areas/mango-fl/sewage-cleanup/",
+        "/service-areas/mango-fl/storm-damage-restoration/",
+        "/service-areas/mango-fl/water-cleanup/",
+        "/service-areas/mango-fl/general-contracting/",
+        "/service-areas/mango-fl/emergency-board-up-tarping/",
+        "/service-areas/mango-fl/contents-restoration-storage/",
+        "/service-areas/anna-maria-fl/",
+        "/service-areas/apollo-beach-fl/",
+        "/service-areas/auburndale-fl/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-lake-orient-park-fl/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in East Lake-Orient Park, FL | DRYCOR RESTORE",
+      "h1": "Restoration Services in East Lake-Orient Park",
+      "meta_description": "Serving East Lake-Orient Park, FL with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (813) 829-1091.",
+      "primary_keyword": "restoration services east lake-orient park",
+      "secondary_keywords": [
+        "east lake-orient park restoration company",
+        "damage restoration east lake-orient park",
+        "east lake-orient park disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/east-lake-orient-park-fl/fire-damage-restoration/",
+        "/service-areas/east-lake-orient-park-fl/mold-remediation/",
+        "/service-areas/east-lake-orient-park-fl/water-damage-restoration/",
+        "/service-areas/east-lake-orient-park-fl/sewage-cleanup/",
+        "/service-areas/east-lake-orient-park-fl/storm-damage-restoration/",
+        "/service-areas/east-lake-orient-park-fl/water-cleanup/",
+        "/service-areas/east-lake-orient-park-fl/general-contracting/",
+        "/service-areas/east-lake-orient-park-fl/emergency-board-up-tarping/",
+        "/service-areas/east-lake-orient-park-fl/contents-restoration-storage/",
+        "/service-areas/anna-maria-fl/",
+        "/service-areas/apollo-beach-fl/",
+        "/service-areas/auburndale-fl/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pebble-creek-fl/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Pebble Creek, FL | DRYCOR RESTORE",
+      "h1": "Restoration Services in Pebble Creek",
+      "meta_description": "Serving Pebble Creek, FL with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (813) 829-1091.",
+      "primary_keyword": "restoration services pebble creek",
+      "secondary_keywords": [
+        "pebble creek restoration company",
+        "damage restoration pebble creek",
+        "pebble creek disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/pebble-creek-fl/fire-damage-restoration/",
+        "/service-areas/pebble-creek-fl/mold-remediation/",
+        "/service-areas/pebble-creek-fl/water-damage-restoration/",
+        "/service-areas/pebble-creek-fl/sewage-cleanup/",
+        "/service-areas/pebble-creek-fl/storm-damage-restoration/",
+        "/service-areas/pebble-creek-fl/water-cleanup/",
+        "/service-areas/pebble-creek-fl/general-contracting/",
+        "/service-areas/pebble-creek-fl/emergency-board-up-tarping/",
+        "/service-areas/pebble-creek-fl/contents-restoration-storage/",
+        "/service-areas/anna-maria-fl/",
+        "/service-areas/apollo-beach-fl/",
+        "/service-areas/auburndale-fl/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-fl/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in University, FL | DRYCOR RESTORE",
+      "h1": "Restoration Services in University",
+      "meta_description": "Serving University, FL with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (813) 829-1091.",
+      "primary_keyword": "restoration services university",
+      "secondary_keywords": [
+        "university restoration company",
+        "damage restoration university",
+        "university disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/university-fl/fire-damage-restoration/",
+        "/service-areas/university-fl/mold-remediation/",
+        "/service-areas/university-fl/water-damage-restoration/",
+        "/service-areas/university-fl/sewage-cleanup/",
+        "/service-areas/university-fl/storm-damage-restoration/",
+        "/service-areas/university-fl/water-cleanup/",
+        "/service-areas/university-fl/general-contracting/",
+        "/service-areas/university-fl/emergency-board-up-tarping/",
+        "/service-areas/university-fl/contents-restoration-storage/",
+        "/service-areas/anna-maria-fl/",
+        "/service-areas/apollo-beach-fl/",
+        "/service-areas/auburndale-fl/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/palm-river-clair-mel-fl/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Palm River-Clair Mel, FL | DRYCOR RESTORE",
+      "h1": "Restoration Services in Palm River-Clair Mel",
+      "meta_description": "Serving Palm River-Clair Mel, FL with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (813) 829-1091.",
+      "primary_keyword": "restoration services palm river-clair mel",
+      "secondary_keywords": [
+        "palm river-clair mel restoration company",
+        "damage restoration palm river-clair mel",
+        "palm river-clair mel disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/palm-river-clair-mel-fl/fire-damage-restoration/",
+        "/service-areas/palm-river-clair-mel-fl/mold-remediation/",
+        "/service-areas/palm-river-clair-mel-fl/water-damage-restoration/",
+        "/service-areas/palm-river-clair-mel-fl/sewage-cleanup/",
+        "/service-areas/palm-river-clair-mel-fl/storm-damage-restoration/",
+        "/service-areas/palm-river-clair-mel-fl/water-cleanup/",
+        "/service-areas/palm-river-clair-mel-fl/general-contracting/",
+        "/service-areas/palm-river-clair-mel-fl/emergency-board-up-tarping/",
+        "/service-areas/palm-river-clair-mel-fl/contents-restoration-storage/",
+        "/service-areas/anna-maria-fl/",
+        "/service-areas/apollo-beach-fl/",
+        "/service-areas/auburndale-fl/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-magdalene-fl/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Lake Magdalene, FL | DRYCOR RESTORE",
+      "h1": "Restoration Services in Lake Magdalene",
+      "meta_description": "Serving Lake Magdalene, FL with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (813) 829-1091.",
+      "primary_keyword": "restoration services lake magdalene",
+      "secondary_keywords": [
+        "lake magdalene restoration company",
+        "damage restoration lake magdalene",
+        "lake magdalene disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/lake-magdalene-fl/fire-damage-restoration/",
+        "/service-areas/lake-magdalene-fl/mold-remediation/",
+        "/service-areas/lake-magdalene-fl/water-damage-restoration/",
+        "/service-areas/lake-magdalene-fl/sewage-cleanup/",
+        "/service-areas/lake-magdalene-fl/storm-damage-restoration/",
+        "/service-areas/lake-magdalene-fl/water-cleanup/",
+        "/service-areas/lake-magdalene-fl/general-contracting/",
+        "/service-areas/lake-magdalene-fl/emergency-board-up-tarping/",
+        "/service-areas/lake-magdalene-fl/contents-restoration-storage/",
         "/service-areas/anna-maria-fl/",
         "/service-areas/apollo-beach-fl/",
         "/service-areas/auburndale-fl/"
@@ -27083,6 +27371,2358 @@
         "/service-areas/venice-fl/",
         "/service-areas/venice-fl/fire-damage-restoration/",
         "/service-areas/venice-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/emergency-board-up-tarping/",
+        "/service-areas/apollo-beach-fl/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mango-fl/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Mango, FL | DRYCOR RESTORE",
+      "h1": "Water Damage Restoration in Mango",
+      "meta_description": "24/7 water damage restoration in Mango, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "water damage restoration mango",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/mango-fl/",
+        "/service-areas/mango-fl/fire-damage-restoration/",
+        "/service-areas/mango-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/water-damage-restoration/",
+        "/service-areas/apollo-beach-fl/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mango-fl/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Mango, FL | DRYCOR RESTORE",
+      "h1": "Fire Damage Restoration in Mango",
+      "meta_description": "24/7 fire damage restoration in Mango, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "fire damage restoration mango",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/mango-fl/",
+        "/service-areas/mango-fl/mold-remediation/",
+        "/service-areas/mango-fl/water-damage-restoration/",
+        "/service-areas/anna-maria-fl/fire-damage-restoration/",
+        "/service-areas/apollo-beach-fl/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mango-fl/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Mango, FL | DRYCOR RESTORE",
+      "h1": "Mold Remediation in Mango",
+      "meta_description": "24/7 mold remediation in Mango, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "mold remediation mango",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/mango-fl/",
+        "/service-areas/mango-fl/fire-damage-restoration/",
+        "/service-areas/mango-fl/water-damage-restoration/",
+        "/service-areas/anna-maria-fl/mold-remediation/",
+        "/service-areas/apollo-beach-fl/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mango-fl/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Mango, FL | DRYCOR RESTORE",
+      "h1": "Contents Restoration & Storage in Mango",
+      "meta_description": "24/7 contents restoration & storage in Mango, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "contents restoration & storage mango",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/mango-fl/",
+        "/service-areas/mango-fl/fire-damage-restoration/",
+        "/service-areas/mango-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/contents-restoration-storage/",
+        "/service-areas/apollo-beach-fl/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mango-fl/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Mango, FL | DRYCOR RESTORE",
+      "h1": "Renovations, Remodels and General Contracting in Mango",
+      "meta_description": "24/7 renovations, remodels and general contracting in Mango, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "renovations, remodels and general contracting mango",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/mango-fl/",
+        "/service-areas/mango-fl/fire-damage-restoration/",
+        "/service-areas/mango-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/general-contracting/",
+        "/service-areas/apollo-beach-fl/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mango-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Mango, FL | DRYCOR RESTORE",
+      "h1": "Storm Damage Restoration in Mango",
+      "meta_description": "24/7 storm damage restoration in Mango, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "storm damage restoration mango",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/mango-fl/",
+        "/service-areas/mango-fl/fire-damage-restoration/",
+        "/service-areas/mango-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/storm-damage-restoration/",
+        "/service-areas/apollo-beach-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mango-fl/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Mango, FL | DRYCOR RESTORE",
+      "h1": "Emergency Water Cleanup in Mango",
+      "meta_description": "24/7 emergency water cleanup in Mango, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency water cleanup mango",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/mango-fl/",
+        "/service-areas/mango-fl/fire-damage-restoration/",
+        "/service-areas/mango-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/water-cleanup/",
+        "/service-areas/apollo-beach-fl/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mango-fl/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Mango, FL | DRYCOR RESTORE",
+      "h1": "Sewage Cleanup and Sanitization in Mango",
+      "meta_description": "24/7 sewage cleanup and sanitization in Mango, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "sewage cleanup and sanitization mango",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/mango-fl/",
+        "/service-areas/mango-fl/fire-damage-restoration/",
+        "/service-areas/mango-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/sewage-cleanup/",
+        "/service-areas/apollo-beach-fl/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mango-fl/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Mango, FL | DRYCOR RESTORE",
+      "h1": "Emergency Board-Up and Tarping in Mango",
+      "meta_description": "24/7 emergency board-up and tarping in Mango, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency board-up and tarping mango",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/mango-fl/",
+        "/service-areas/mango-fl/fire-damage-restoration/",
+        "/service-areas/mango-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/emergency-board-up-tarping/",
+        "/service-areas/apollo-beach-fl/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-lake-orient-park-fl/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in East Lake-Orient Park, FL | DRYCOR RESTORE",
+      "h1": "Water Damage Restoration in East Lake-Orient Park",
+      "meta_description": "24/7 water damage restoration in East Lake-Orient Park, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "water damage restoration east lake-orient park",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/east-lake-orient-park-fl/",
+        "/service-areas/east-lake-orient-park-fl/fire-damage-restoration/",
+        "/service-areas/east-lake-orient-park-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/water-damage-restoration/",
+        "/service-areas/apollo-beach-fl/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-lake-orient-park-fl/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in East Lake-Orient Park, FL | DRYCOR RESTORE",
+      "h1": "Fire Damage Restoration in East Lake-Orient Park",
+      "meta_description": "24/7 fire damage restoration in East Lake-Orient Park, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "fire damage restoration east lake-orient park",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/east-lake-orient-park-fl/",
+        "/service-areas/east-lake-orient-park-fl/mold-remediation/",
+        "/service-areas/east-lake-orient-park-fl/water-damage-restoration/",
+        "/service-areas/anna-maria-fl/fire-damage-restoration/",
+        "/service-areas/apollo-beach-fl/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-lake-orient-park-fl/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in East Lake-Orient Park, FL | DRYCOR RESTORE",
+      "h1": "Mold Remediation in East Lake-Orient Park",
+      "meta_description": "24/7 mold remediation in East Lake-Orient Park, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "mold remediation east lake-orient park",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/east-lake-orient-park-fl/",
+        "/service-areas/east-lake-orient-park-fl/fire-damage-restoration/",
+        "/service-areas/east-lake-orient-park-fl/water-damage-restoration/",
+        "/service-areas/anna-maria-fl/mold-remediation/",
+        "/service-areas/apollo-beach-fl/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-lake-orient-park-fl/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in East Lake-Orient Park, FL | DRYCOR RESTORE",
+      "h1": "Contents Restoration & Storage in East Lake-Orient Park",
+      "meta_description": "24/7 contents restoration & storage in East Lake-Orient Park, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "contents restoration & storage east lake-orient park",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/east-lake-orient-park-fl/",
+        "/service-areas/east-lake-orient-park-fl/fire-damage-restoration/",
+        "/service-areas/east-lake-orient-park-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/contents-restoration-storage/",
+        "/service-areas/apollo-beach-fl/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-lake-orient-park-fl/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in East Lake-Orient Park, FL | DRYCOR RESTORE",
+      "h1": "Renovations, Remodels and General Contracting in East Lake-Orient Park",
+      "meta_description": "24/7 renovations, remodels and general contracting in East Lake-Orient Park, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "renovations, remodels and general contracting east lake-orient park",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/east-lake-orient-park-fl/",
+        "/service-areas/east-lake-orient-park-fl/fire-damage-restoration/",
+        "/service-areas/east-lake-orient-park-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/general-contracting/",
+        "/service-areas/apollo-beach-fl/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-lake-orient-park-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in East Lake-Orient Park, FL | DRYCOR RESTORE",
+      "h1": "Storm Damage Restoration in East Lake-Orient Park",
+      "meta_description": "24/7 storm damage restoration in East Lake-Orient Park, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "storm damage restoration east lake-orient park",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/east-lake-orient-park-fl/",
+        "/service-areas/east-lake-orient-park-fl/fire-damage-restoration/",
+        "/service-areas/east-lake-orient-park-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/storm-damage-restoration/",
+        "/service-areas/apollo-beach-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-lake-orient-park-fl/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in East Lake-Orient Park, FL | DRYCOR RESTORE",
+      "h1": "Emergency Water Cleanup in East Lake-Orient Park",
+      "meta_description": "24/7 emergency water cleanup in East Lake-Orient Park, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency water cleanup east lake-orient park",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/east-lake-orient-park-fl/",
+        "/service-areas/east-lake-orient-park-fl/fire-damage-restoration/",
+        "/service-areas/east-lake-orient-park-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/water-cleanup/",
+        "/service-areas/apollo-beach-fl/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-lake-orient-park-fl/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in East Lake-Orient Park, FL | DRYCOR RESTORE",
+      "h1": "Sewage Cleanup and Sanitization in East Lake-Orient Park",
+      "meta_description": "24/7 sewage cleanup and sanitization in East Lake-Orient Park, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "sewage cleanup and sanitization east lake-orient park",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/east-lake-orient-park-fl/",
+        "/service-areas/east-lake-orient-park-fl/fire-damage-restoration/",
+        "/service-areas/east-lake-orient-park-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/sewage-cleanup/",
+        "/service-areas/apollo-beach-fl/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-lake-orient-park-fl/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in East Lake-Orient Park, FL | DRYCOR RESTORE",
+      "h1": "Emergency Board-Up and Tarping in East Lake-Orient Park",
+      "meta_description": "24/7 emergency board-up and tarping in East Lake-Orient Park, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency board-up and tarping east lake-orient park",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/east-lake-orient-park-fl/",
+        "/service-areas/east-lake-orient-park-fl/fire-damage-restoration/",
+        "/service-areas/east-lake-orient-park-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/emergency-board-up-tarping/",
+        "/service-areas/apollo-beach-fl/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pebble-creek-fl/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Pebble Creek, FL | DRYCOR RESTORE",
+      "h1": "Water Damage Restoration in Pebble Creek",
+      "meta_description": "24/7 water damage restoration in Pebble Creek, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "water damage restoration pebble creek",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/pebble-creek-fl/",
+        "/service-areas/pebble-creek-fl/fire-damage-restoration/",
+        "/service-areas/pebble-creek-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/water-damage-restoration/",
+        "/service-areas/apollo-beach-fl/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pebble-creek-fl/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Pebble Creek, FL | DRYCOR RESTORE",
+      "h1": "Fire Damage Restoration in Pebble Creek",
+      "meta_description": "24/7 fire damage restoration in Pebble Creek, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "fire damage restoration pebble creek",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/pebble-creek-fl/",
+        "/service-areas/pebble-creek-fl/mold-remediation/",
+        "/service-areas/pebble-creek-fl/water-damage-restoration/",
+        "/service-areas/anna-maria-fl/fire-damage-restoration/",
+        "/service-areas/apollo-beach-fl/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pebble-creek-fl/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Pebble Creek, FL | DRYCOR RESTORE",
+      "h1": "Mold Remediation in Pebble Creek",
+      "meta_description": "24/7 mold remediation in Pebble Creek, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "mold remediation pebble creek",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/pebble-creek-fl/",
+        "/service-areas/pebble-creek-fl/fire-damage-restoration/",
+        "/service-areas/pebble-creek-fl/water-damage-restoration/",
+        "/service-areas/anna-maria-fl/mold-remediation/",
+        "/service-areas/apollo-beach-fl/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pebble-creek-fl/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Pebble Creek, FL | DRYCOR RESTORE",
+      "h1": "Contents Restoration & Storage in Pebble Creek",
+      "meta_description": "24/7 contents restoration & storage in Pebble Creek, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "contents restoration & storage pebble creek",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/pebble-creek-fl/",
+        "/service-areas/pebble-creek-fl/fire-damage-restoration/",
+        "/service-areas/pebble-creek-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/contents-restoration-storage/",
+        "/service-areas/apollo-beach-fl/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pebble-creek-fl/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Pebble Creek, FL | DRYCOR RESTORE",
+      "h1": "Renovations, Remodels and General Contracting in Pebble Creek",
+      "meta_description": "24/7 renovations, remodels and general contracting in Pebble Creek, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "renovations, remodels and general contracting pebble creek",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/pebble-creek-fl/",
+        "/service-areas/pebble-creek-fl/fire-damage-restoration/",
+        "/service-areas/pebble-creek-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/general-contracting/",
+        "/service-areas/apollo-beach-fl/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pebble-creek-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Pebble Creek, FL | DRYCOR RESTORE",
+      "h1": "Storm Damage Restoration in Pebble Creek",
+      "meta_description": "24/7 storm damage restoration in Pebble Creek, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "storm damage restoration pebble creek",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/pebble-creek-fl/",
+        "/service-areas/pebble-creek-fl/fire-damage-restoration/",
+        "/service-areas/pebble-creek-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/storm-damage-restoration/",
+        "/service-areas/apollo-beach-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pebble-creek-fl/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Pebble Creek, FL | DRYCOR RESTORE",
+      "h1": "Emergency Water Cleanup in Pebble Creek",
+      "meta_description": "24/7 emergency water cleanup in Pebble Creek, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency water cleanup pebble creek",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/pebble-creek-fl/",
+        "/service-areas/pebble-creek-fl/fire-damage-restoration/",
+        "/service-areas/pebble-creek-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/water-cleanup/",
+        "/service-areas/apollo-beach-fl/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pebble-creek-fl/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Pebble Creek, FL | DRYCOR RESTORE",
+      "h1": "Sewage Cleanup and Sanitization in Pebble Creek",
+      "meta_description": "24/7 sewage cleanup and sanitization in Pebble Creek, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "sewage cleanup and sanitization pebble creek",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/pebble-creek-fl/",
+        "/service-areas/pebble-creek-fl/fire-damage-restoration/",
+        "/service-areas/pebble-creek-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/sewage-cleanup/",
+        "/service-areas/apollo-beach-fl/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pebble-creek-fl/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Pebble Creek, FL | DRYCOR RESTORE",
+      "h1": "Emergency Board-Up and Tarping in Pebble Creek",
+      "meta_description": "24/7 emergency board-up and tarping in Pebble Creek, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency board-up and tarping pebble creek",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/pebble-creek-fl/",
+        "/service-areas/pebble-creek-fl/fire-damage-restoration/",
+        "/service-areas/pebble-creek-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/emergency-board-up-tarping/",
+        "/service-areas/apollo-beach-fl/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-fl/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in University, FL | DRYCOR RESTORE",
+      "h1": "Water Damage Restoration in University",
+      "meta_description": "24/7 water damage restoration in University, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "water damage restoration university",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/university-fl/",
+        "/service-areas/university-fl/fire-damage-restoration/",
+        "/service-areas/university-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/water-damage-restoration/",
+        "/service-areas/apollo-beach-fl/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-fl/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in University, FL | DRYCOR RESTORE",
+      "h1": "Fire Damage Restoration in University",
+      "meta_description": "24/7 fire damage restoration in University, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "fire damage restoration university",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/university-fl/",
+        "/service-areas/university-fl/mold-remediation/",
+        "/service-areas/university-fl/water-damage-restoration/",
+        "/service-areas/anna-maria-fl/fire-damage-restoration/",
+        "/service-areas/apollo-beach-fl/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-fl/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in University, FL | DRYCOR RESTORE",
+      "h1": "Mold Remediation in University",
+      "meta_description": "24/7 mold remediation in University, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "mold remediation university",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/university-fl/",
+        "/service-areas/university-fl/fire-damage-restoration/",
+        "/service-areas/university-fl/water-damage-restoration/",
+        "/service-areas/anna-maria-fl/mold-remediation/",
+        "/service-areas/apollo-beach-fl/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-fl/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in University, FL | DRYCOR RESTORE",
+      "h1": "Contents Restoration & Storage in University",
+      "meta_description": "24/7 contents restoration & storage in University, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "contents restoration & storage university",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/university-fl/",
+        "/service-areas/university-fl/fire-damage-restoration/",
+        "/service-areas/university-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/contents-restoration-storage/",
+        "/service-areas/apollo-beach-fl/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-fl/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in University, FL | DRYCOR RESTORE",
+      "h1": "Renovations, Remodels and General Contracting in University",
+      "meta_description": "24/7 renovations, remodels and general contracting in University, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "renovations, remodels and general contracting university",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/university-fl/",
+        "/service-areas/university-fl/fire-damage-restoration/",
+        "/service-areas/university-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/general-contracting/",
+        "/service-areas/apollo-beach-fl/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in University, FL | DRYCOR RESTORE",
+      "h1": "Storm Damage Restoration in University",
+      "meta_description": "24/7 storm damage restoration in University, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "storm damage restoration university",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/university-fl/",
+        "/service-areas/university-fl/fire-damage-restoration/",
+        "/service-areas/university-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/storm-damage-restoration/",
+        "/service-areas/apollo-beach-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-fl/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in University, FL | DRYCOR RESTORE",
+      "h1": "Emergency Water Cleanup in University",
+      "meta_description": "24/7 emergency water cleanup in University, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency water cleanup university",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/university-fl/",
+        "/service-areas/university-fl/fire-damage-restoration/",
+        "/service-areas/university-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/water-cleanup/",
+        "/service-areas/apollo-beach-fl/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-fl/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in University, FL | DRYCOR RESTORE",
+      "h1": "Sewage Cleanup and Sanitization in University",
+      "meta_description": "24/7 sewage cleanup and sanitization in University, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "sewage cleanup and sanitization university",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/university-fl/",
+        "/service-areas/university-fl/fire-damage-restoration/",
+        "/service-areas/university-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/sewage-cleanup/",
+        "/service-areas/apollo-beach-fl/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-fl/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in University, FL | DRYCOR RESTORE",
+      "h1": "Emergency Board-Up and Tarping in University",
+      "meta_description": "24/7 emergency board-up and tarping in University, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency board-up and tarping university",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/university-fl/",
+        "/service-areas/university-fl/fire-damage-restoration/",
+        "/service-areas/university-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/emergency-board-up-tarping/",
+        "/service-areas/apollo-beach-fl/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/palm-river-clair-mel-fl/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Palm River-Clair Mel, FL | DRYCOR RESTORE",
+      "h1": "Water Damage Restoration in Palm River-Clair Mel",
+      "meta_description": "24/7 water damage restoration in Palm River-Clair Mel, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "water damage restoration palm river-clair mel",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/palm-river-clair-mel-fl/",
+        "/service-areas/palm-river-clair-mel-fl/fire-damage-restoration/",
+        "/service-areas/palm-river-clair-mel-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/water-damage-restoration/",
+        "/service-areas/apollo-beach-fl/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/palm-river-clair-mel-fl/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Palm River-Clair Mel, FL | DRYCOR RESTORE",
+      "h1": "Fire Damage Restoration in Palm River-Clair Mel",
+      "meta_description": "24/7 fire damage restoration in Palm River-Clair Mel, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "fire damage restoration palm river-clair mel",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/palm-river-clair-mel-fl/",
+        "/service-areas/palm-river-clair-mel-fl/mold-remediation/",
+        "/service-areas/palm-river-clair-mel-fl/water-damage-restoration/",
+        "/service-areas/anna-maria-fl/fire-damage-restoration/",
+        "/service-areas/apollo-beach-fl/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/palm-river-clair-mel-fl/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Palm River-Clair Mel, FL | DRYCOR RESTORE",
+      "h1": "Mold Remediation in Palm River-Clair Mel",
+      "meta_description": "24/7 mold remediation in Palm River-Clair Mel, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "mold remediation palm river-clair mel",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/palm-river-clair-mel-fl/",
+        "/service-areas/palm-river-clair-mel-fl/fire-damage-restoration/",
+        "/service-areas/palm-river-clair-mel-fl/water-damage-restoration/",
+        "/service-areas/anna-maria-fl/mold-remediation/",
+        "/service-areas/apollo-beach-fl/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/palm-river-clair-mel-fl/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Palm River-Clair Mel, FL | DRYCOR RESTORE",
+      "h1": "Contents Restoration & Storage in Palm River-Clair Mel",
+      "meta_description": "24/7 contents restoration & storage in Palm River-Clair Mel, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "contents restoration & storage palm river-clair mel",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/palm-river-clair-mel-fl/",
+        "/service-areas/palm-river-clair-mel-fl/fire-damage-restoration/",
+        "/service-areas/palm-river-clair-mel-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/contents-restoration-storage/",
+        "/service-areas/apollo-beach-fl/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/palm-river-clair-mel-fl/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Palm River-Clair Mel, FL | DRYCOR RESTORE",
+      "h1": "Renovations, Remodels and General Contracting in Palm River-Clair Mel",
+      "meta_description": "24/7 renovations, remodels and general contracting in Palm River-Clair Mel, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "renovations, remodels and general contracting palm river-clair mel",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/palm-river-clair-mel-fl/",
+        "/service-areas/palm-river-clair-mel-fl/fire-damage-restoration/",
+        "/service-areas/palm-river-clair-mel-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/general-contracting/",
+        "/service-areas/apollo-beach-fl/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/palm-river-clair-mel-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Palm River-Clair Mel, FL | DRYCOR RESTORE",
+      "h1": "Storm Damage Restoration in Palm River-Clair Mel",
+      "meta_description": "24/7 storm damage restoration in Palm River-Clair Mel, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "storm damage restoration palm river-clair mel",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/palm-river-clair-mel-fl/",
+        "/service-areas/palm-river-clair-mel-fl/fire-damage-restoration/",
+        "/service-areas/palm-river-clair-mel-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/storm-damage-restoration/",
+        "/service-areas/apollo-beach-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/palm-river-clair-mel-fl/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Palm River-Clair Mel, FL | DRYCOR RESTORE",
+      "h1": "Emergency Water Cleanup in Palm River-Clair Mel",
+      "meta_description": "24/7 emergency water cleanup in Palm River-Clair Mel, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency water cleanup palm river-clair mel",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/palm-river-clair-mel-fl/",
+        "/service-areas/palm-river-clair-mel-fl/fire-damage-restoration/",
+        "/service-areas/palm-river-clair-mel-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/water-cleanup/",
+        "/service-areas/apollo-beach-fl/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/palm-river-clair-mel-fl/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Palm River-Clair Mel, FL | DRYCOR RESTORE",
+      "h1": "Sewage Cleanup and Sanitization in Palm River-Clair Mel",
+      "meta_description": "24/7 sewage cleanup and sanitization in Palm River-Clair Mel, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "sewage cleanup and sanitization palm river-clair mel",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/palm-river-clair-mel-fl/",
+        "/service-areas/palm-river-clair-mel-fl/fire-damage-restoration/",
+        "/service-areas/palm-river-clair-mel-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/sewage-cleanup/",
+        "/service-areas/apollo-beach-fl/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/palm-river-clair-mel-fl/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Palm River-Clair Mel, FL | DRYCOR RESTORE",
+      "h1": "Emergency Board-Up and Tarping in Palm River-Clair Mel",
+      "meta_description": "24/7 emergency board-up and tarping in Palm River-Clair Mel, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency board-up and tarping palm river-clair mel",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/palm-river-clair-mel-fl/",
+        "/service-areas/palm-river-clair-mel-fl/fire-damage-restoration/",
+        "/service-areas/palm-river-clair-mel-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/emergency-board-up-tarping/",
+        "/service-areas/apollo-beach-fl/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-magdalene-fl/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Lake Magdalene, FL | DRYCOR RESTORE",
+      "h1": "Water Damage Restoration in Lake Magdalene",
+      "meta_description": "24/7 water damage restoration in Lake Magdalene, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "water damage restoration lake magdalene",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/lake-magdalene-fl/",
+        "/service-areas/lake-magdalene-fl/fire-damage-restoration/",
+        "/service-areas/lake-magdalene-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/water-damage-restoration/",
+        "/service-areas/apollo-beach-fl/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-magdalene-fl/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Lake Magdalene, FL | DRYCOR RESTORE",
+      "h1": "Fire Damage Restoration in Lake Magdalene",
+      "meta_description": "24/7 fire damage restoration in Lake Magdalene, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "fire damage restoration lake magdalene",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/lake-magdalene-fl/",
+        "/service-areas/lake-magdalene-fl/mold-remediation/",
+        "/service-areas/lake-magdalene-fl/water-damage-restoration/",
+        "/service-areas/anna-maria-fl/fire-damage-restoration/",
+        "/service-areas/apollo-beach-fl/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-magdalene-fl/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Lake Magdalene, FL | DRYCOR RESTORE",
+      "h1": "Mold Remediation in Lake Magdalene",
+      "meta_description": "24/7 mold remediation in Lake Magdalene, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "mold remediation lake magdalene",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/lake-magdalene-fl/",
+        "/service-areas/lake-magdalene-fl/fire-damage-restoration/",
+        "/service-areas/lake-magdalene-fl/water-damage-restoration/",
+        "/service-areas/anna-maria-fl/mold-remediation/",
+        "/service-areas/apollo-beach-fl/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-magdalene-fl/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Lake Magdalene, FL | DRYCOR RESTORE",
+      "h1": "Contents Restoration & Storage in Lake Magdalene",
+      "meta_description": "24/7 contents restoration & storage in Lake Magdalene, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "contents restoration & storage lake magdalene",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/lake-magdalene-fl/",
+        "/service-areas/lake-magdalene-fl/fire-damage-restoration/",
+        "/service-areas/lake-magdalene-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/contents-restoration-storage/",
+        "/service-areas/apollo-beach-fl/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-magdalene-fl/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Lake Magdalene, FL | DRYCOR RESTORE",
+      "h1": "Renovations, Remodels and General Contracting in Lake Magdalene",
+      "meta_description": "24/7 renovations, remodels and general contracting in Lake Magdalene, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "renovations, remodels and general contracting lake magdalene",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/lake-magdalene-fl/",
+        "/service-areas/lake-magdalene-fl/fire-damage-restoration/",
+        "/service-areas/lake-magdalene-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/general-contracting/",
+        "/service-areas/apollo-beach-fl/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-magdalene-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Lake Magdalene, FL | DRYCOR RESTORE",
+      "h1": "Storm Damage Restoration in Lake Magdalene",
+      "meta_description": "24/7 storm damage restoration in Lake Magdalene, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "storm damage restoration lake magdalene",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/lake-magdalene-fl/",
+        "/service-areas/lake-magdalene-fl/fire-damage-restoration/",
+        "/service-areas/lake-magdalene-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/storm-damage-restoration/",
+        "/service-areas/apollo-beach-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-magdalene-fl/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Lake Magdalene, FL | DRYCOR RESTORE",
+      "h1": "Emergency Water Cleanup in Lake Magdalene",
+      "meta_description": "24/7 emergency water cleanup in Lake Magdalene, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency water cleanup lake magdalene",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/lake-magdalene-fl/",
+        "/service-areas/lake-magdalene-fl/fire-damage-restoration/",
+        "/service-areas/lake-magdalene-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/water-cleanup/",
+        "/service-areas/apollo-beach-fl/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-magdalene-fl/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Lake Magdalene, FL | DRYCOR RESTORE",
+      "h1": "Sewage Cleanup and Sanitization in Lake Magdalene",
+      "meta_description": "24/7 sewage cleanup and sanitization in Lake Magdalene, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "sewage cleanup and sanitization lake magdalene",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/lake-magdalene-fl/",
+        "/service-areas/lake-magdalene-fl/fire-damage-restoration/",
+        "/service-areas/lake-magdalene-fl/mold-remediation/",
+        "/service-areas/anna-maria-fl/sewage-cleanup/",
+        "/service-areas/apollo-beach-fl/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-magdalene-fl/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Lake Magdalene, FL | DRYCOR RESTORE",
+      "h1": "Emergency Board-Up and Tarping in Lake Magdalene",
+      "meta_description": "24/7 emergency board-up and tarping in Lake Magdalene, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency board-up and tarping lake magdalene",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/lake-magdalene-fl/",
+        "/service-areas/lake-magdalene-fl/fire-damage-restoration/",
+        "/service-areas/lake-magdalene-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/emergency-board-up-tarping/",
         "/service-areas/apollo-beach-fl/emergency-board-up-tarping/",
         "/contact/"

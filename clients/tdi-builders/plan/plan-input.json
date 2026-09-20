@@ -158,6 +158,36 @@
       "city": "Turlock",
       "state": "CA",
       "slug": "turlock-ca"
+    },
+    {
+      "city": "Rio Linda",
+      "state": "CA",
+      "slug": "rio-linda-ca"
+    },
+    {
+      "city": "Elverta",
+      "state": "CA",
+      "slug": "elverta-ca"
+    },
+    {
+      "city": "McClellan Park",
+      "state": "CA",
+      "slug": "mcclellan-park-ca"
+    },
+    {
+      "city": "Arden-Arcade",
+      "state": "CA",
+      "slug": "arden-arcade-ca"
+    },
+    {
+      "city": "North Highlands",
+      "state": "CA",
+      "slug": "north-highlands-ca"
+    },
+    {
+      "city": "Antelope",
+      "state": "CA",
+      "slug": "antelope-ca"
     }
   ],
   "template": "construction",

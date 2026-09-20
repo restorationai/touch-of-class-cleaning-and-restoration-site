@@ -239,6 +239,11 @@
       "city": "Arvin",
       "state": "CA",
       "slug": "arvin-ca"
+    },
+    {
+      "city": "Dustin Acres",
+      "state": "CA",
+      "slug": "dustin-acres-ca"
     }
   ],
   "brand": {

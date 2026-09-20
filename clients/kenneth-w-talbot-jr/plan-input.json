@@ -105,6 +105,11 @@
       "city": "Vernon",
       "state": "FL",
       "slug": "vernon-fl"
+    },
+    {
+      "city": "Wright",
+      "state": "FL",
+      "slug": "wright-fl"
     }
   ],
   "template": "restoration",

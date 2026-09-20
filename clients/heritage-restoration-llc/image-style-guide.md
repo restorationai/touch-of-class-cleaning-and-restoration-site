@@ -69,7 +69,7 @@ Per-client brand colors take priority. The values below are substituted from `pl
 
 | Role | Source | Value for this client |
 |------|--------|----------------------|
-| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#0d1b3e` | **#0d1b3e** |
+| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#184080` | **#184080** |
 | Accent (emergency markings, CTAs that appear in promo shots) | `#f97316` | **#f97316** |
 | Logo color (if a worker's uniform back is visible) | derived from brand logo | match Heritage Restoration LLC's logo |
 | Skin / texture / restoration materials | natural and neutral | warm wood tones for housing stock, cool concrete grays, real surface textures |
@@ -98,7 +98,7 @@ Per-client brand colors take priority. The values below are substituted from `pl
 Every image that depicts a person must show a worker in branded company uniform. This is non-negotiable for visual consistency and trust signaling.
 
 ### Uniform specifications
-- **Top**: Polo or work shirt in the client's primary brand color (`#0d1b3e`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal uniform with the brand color visible as logo embroidery, accent stripe, or branded hat.
+- **Top**: Polo or work shirt in the client's primary brand color (`#184080`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal uniform with the brand color visible as logo embroidery, accent stripe, or branded hat.
 - **Bottom**: Neutral work pants (charcoal, dark navy, or khaki). Subordinate to the top.
 - **Branding**: Heritage Restoration LLC or Heritage Restoration LLC embroidered on chest or back. IICRC certification badge visible on sleeve or chest where it makes sense.
 - **PPE**: Match the service context (see service-specific notes below) — gloves always, respirators / face shields / Tyvek suits when the service warrants it.
@@ -185,7 +185,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Storm Damage Restoration, Renovations, Remodels and General Contracting, Water Cleanup)
+- [ ] (continue for each of Water Damage Restoration, Storm Damage Restoration, Renovations, Remodels and General Contracting, Emergency Water Cleanup)
 
 ### Service area pages (one image per city served)
 - [ ] Little Falls hero — exterior shot, regional housing stock, evocative of the city

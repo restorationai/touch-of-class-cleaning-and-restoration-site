@@ -453,6 +453,31 @@
       "triaged_at": "2026-08-05T05:47:45Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMsked38E6AQlcCmXv_JREkDZxc5w9zwHRUxYx7": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMsked38E6AQlcCmXv_JREkDZxc5w9zwHRUxYx7.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784594708149/job-photos/posted/gbp-AF1QipMsked38E6AQlcCmXv_JREkDZxc5w9zwHRUxYx7.jpg",
+      "width": 1760,
+      "height": 2048,
+      "bytes": 150053,
+      "sha1": "415709d5222c969f",
+      "exif": {},
+      "category": "crew",
+      "subject": "Two men posing in front of branded PuroClean van",
+      "quality": 72,
+      "slots": {
+        "hero": 35,
+        "team": 68,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Casual social pose with non-uniformed guest; not a professional crew shot.",
+      "triaged_at": "2026-09-20T14:08:54Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipMtuXaJB10sWHqmTFF9pkOOnbp5xZ_IgWJxE6wx": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMtuXaJB10sWHqmTFF9pkOOnbp5xZ_IgWJxE6wx.jpg",
@@ -1667,6 +1692,34 @@
       "triaged_at": "2026-08-05T05:49:28Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipPJGS9jkkxSecBdjQ9LIqrjW2kHa-QJWQQdEYYE": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPJGS9jkkxSecBdjQ9LIqrjW2kHa-QJWQQdEYYE.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784594708149/job-photos/posted/gbp-AF1QipPJGS9jkkxSecBdjQ9LIqrjW2kHa-QJWQQdEYYE.jpg",
+      "width": 2560,
+      "height": 2560,
+      "bytes": 725009,
+      "sha1": "7404735d92caee34",
+      "exif": {
+        "taken_at": "2026:04:16 15:40:41"
+      },
+      "category": "equipment",
+      "subject": "PuroClean containment enclosure with microbial hazard warning sign",
+      "quality": 74,
+      "slots": {
+        "hero": 18,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "biohazard-cleanup"
+      ],
+      "flags": [],
+      "reason": "Clear containment setup reads well for remediation services; cluttered background limits hero use.",
+      "triaged_at": "2026-09-20T14:08:54Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipPJfAAPrKKkeJSLOITDfiXR-_3x15KHAchp6pD4": {
       "source": "gbp",
       "storage": "job-photos/posted/r1788980303_gbp-AF1QipPJfAAPrKKkeJSLOITDfiXR-_3x15KHAchp6pD4.jpg",
@@ -2645,5 +2698,5 @@
       "file": "/images/services.webp"
     }
   },
-  "triaged_at": "2026-09-15T14:06:47Z"
+  "triaged_at": "2026-09-20T14:08:54Z"
 }

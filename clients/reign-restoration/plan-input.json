@@ -374,6 +374,11 @@
       "city": "McLendon-Chisholm",
       "state": "TX",
       "slug": "mclendon-chisholm-tx"
+    },
+    {
+      "city": "Caddo Mills",
+      "state": "TX",
+      "slug": "caddo-mills-tx"
     }
   ],
   "template": "restoration",

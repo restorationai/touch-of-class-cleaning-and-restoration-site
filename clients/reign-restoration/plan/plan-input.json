@@ -28,7 +28,8 @@
       "24/7 Emergency Service",
       "Locally Owned & Operated"
     ],
-    "place_id": "ChIJXzVQsb7lS4YR7G33273qh8c"
+    "place_id": "ChIJXzVQsb7lS4YR7G33273qh8c",
+    "ga4_measurement_id": "G-NBFCYGQXJY"
   },
   "services": [
     "water-damage-restoration",
@@ -348,6 +349,36 @@
       "city": "Terrell",
       "state": "TX",
       "slug": "terrell-tx"
+    },
+    {
+      "city": "Nevada",
+      "state": "TX",
+      "slug": "nevada-tx"
+    },
+    {
+      "city": "Union Valley",
+      "state": "TX",
+      "slug": "union-valley-tx"
+    },
+    {
+      "city": "Josephine",
+      "state": "TX",
+      "slug": "josephine-tx"
+    },
+    {
+      "city": "Lavon",
+      "state": "TX",
+      "slug": "lavon-tx"
+    },
+    {
+      "city": "McLendon-Chisholm",
+      "state": "TX",
+      "slug": "mclendon-chisholm-tx"
+    },
+    {
+      "city": "Caddo Mills",
+      "state": "TX",
+      "slug": "caddo-mills-tx"
     }
   ],
   "template": "restoration",

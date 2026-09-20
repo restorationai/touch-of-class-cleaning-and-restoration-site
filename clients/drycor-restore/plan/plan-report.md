@@ -1,20 +1,20 @@
 # Site Plan Report — DRYCOR RESTORE
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-17T20:46:25.754381+00:00
+- Generated: 2026-09-20T14:13:07.876366+00:00
 - Domain: `drycor.com`
 - Services selected: 9 of 65 catalog entries
-- Service areas: 61
+- Service areas: 67
 - Cross-product enabled: True
-- Total URLs: **626**
-- Total internal links: 4955 (avg 7.9 per page)
+- Total URLs: **686**
+- Total internal links: 5429 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 540 |
-| `service-area` | 60 |
+| `service-area-service` | 594 |
+| `service-area` | 66 |
 | `service-landing` | 9 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -100,6 +100,12 @@
 - `tarpon-springs-fl` — Tarpon Springs, FL
 - `trinity-fl` — Trinity, FL
 - `venice-fl` — Venice, FL
+- `mango-fl` — Mango, FL
+- `east-lake-orient-park-fl` — East Lake-Orient Park, FL
+- `pebble-creek-fl` — Pebble Creek, FL
+- `university-fl` — University, FL
+- `palm-river-clair-mel-fl` — Palm River-Clair Mel, FL
+- `lake-magdalene-fl` — Lake Magdalene, FL
 
 ## Top 10 priority pages
 

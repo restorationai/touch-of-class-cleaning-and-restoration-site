@@ -1,22 +1,22 @@
 # Site Plan Report — Davis Construction Contractors
 
-- Template: `restoration` v0.1.0
-- Generated: 2026-05-21T22:47:46.837441+00:00
+- Template: `construction` v0.1.0
+- Generated: 2026-09-20T14:13:03.527188+00:00
 - Domain: `davisconstructioncontractors.com`
-- Services selected: 9 of 40 catalog entries
-- Service areas: 3
+- Services selected: 9 of 23 catalog entries
+- Service areas: 9
 - Cross-product enabled: True
-- Total URLs: **60**
-- Total internal links: 389 (avg 6.5 per page)
+- Total URLs: **110**
+- Total internal links: 829 (avg 7.5 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 27 |
+| `service-area-service` | 72 |
 | `blog-post` | 12 |
 | `service-landing` | 9 |
-| `service-area` | 3 |
+| `service-area` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -27,36 +27,42 @@
 
 ## Selected services
 
-- `home-remodeling` — Home Remodeling (construction, priority 10)
-- `new-construction` — New Home Construction (construction, priority 9)
-- `decks-pergolas-fences` — Decks, Pergolas and Fences (construction, priority 9)
-- `roofing` — Roofing Installation and Replacement (construction, priority 10)
-- `siding-gutters` — Siding and Gutters (construction, priority 8)
-- `painting-trim` — Painting and Trim (construction, priority 7)
-- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
-- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
-- `mold-remediation` — Mold Remediation (core, priority 10)
+- `home-remodeling` — Home Remodeling (core, priority 10)
+- `new-construction` — New Home Construction (core, priority 9)
+- `decks-pergolas-fences` — Decks, Pergolas and Fences (core, priority 9)
+- `roofing` — Roofing Installation and Replacement (core, priority 10)
+- `siding-gutters` — Siding and Gutters (core, priority 8)
+- `painting-trim` — Painting and Trim (core, priority 7)
+- `water-damage-restoration` — Water Damage Restoration (restoration, priority 7)
+- `storm-damage-restoration` — Storm Damage Restoration (restoration, priority 7)
+- `mold-remediation` — Mold Remediation (restoration, priority 7)
 
 ## Service areas
 
 - `madison-al` — Madison, AL *(primary)*
 - `huntsville-al` — Huntsville, AL
 - `athens-al` — Athens, AL
+- `moores-mill-al` — Moores Mill, AL
+- `redstone-arsenal-al` — Redstone Arsenal, AL
+- `meridianville-al` — Meridianville, AL
+- `hazel-green-al` — Hazel Green, AL
+- `new-market-al` — New Market, AL
+- `harvest-al` — Harvest, AL
 
 ## Top 10 priority pages
 
 | URL | Archetype | Priority | Primary keyword |
 | --- | --- | --- | --- |
 | `/services/home-remodeling/` | `service-landing` | 9.0 | home remodeling madison |
-| `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation madison |
 | `/services/roofing/` | `service-landing` | 9.0 | roofing installation and replacement madison |
-| `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration madison |
 | `/services/decks-pergolas-fences/` | `service-landing` | 8.1 | decks, pergolas and fences madison |
 | `/services/new-construction/` | `service-landing` | 8.1 | new home construction madison |
-| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration madison |
-| `/service-areas/madison-al/` | `service-area` | 7.2 | restoration services madison |
 | `/services/siding-gutters/` | `service-landing` | 7.2 | siding and gutters madison |
 | `/service-areas/athens-al/home-remodeling/` | `service-area-service` | 7.0 | home remodeling athens |
+| `/service-areas/athens-al/roofing/` | `service-area-service` | 7.0 | roofing installation and replacement athens |
+| `/service-areas/harvest-al/home-remodeling/` | `service-area-service` | 7.0 | home remodeling harvest |
+| `/service-areas/harvest-al/roofing/` | `service-area-service` | 7.0 | roofing installation and replacement harvest |
+| `/service-areas/hazel-green-al/home-remodeling/` | `service-area-service` | 7.0 | home remodeling hazel green |
 
 ## Validation
 

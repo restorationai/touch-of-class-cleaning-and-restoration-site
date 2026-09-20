@@ -394,6 +394,36 @@
         "98467"
       ],
       "local_notes": "West Pierce County suburb between Tacoma and the Narrows, home of Chambers Bay (2015 U.S. Open). Housing is dominated by 1960s\u201370s ramblers and split-levels with aging original supply lines, cast-iron drains, and minimal crawl-space vapor protection \u2014 slow appliance and supply-line leaks are the classic loss here. Day Island's low-lying waterfront homes face tidal flooding and saltwater exposure; bluff-top properties above Chambers Creek deal with winter slope drainage pushing water into daylight basements."
+    },
+    {
+      "city": "Lakeland North",
+      "state": "WA",
+      "slug": "lakeland-north-wa"
+    },
+    {
+      "city": "Des Moines",
+      "state": "WA",
+      "slug": "des-moines-wa"
+    },
+    {
+      "city": "Lakeland South",
+      "state": "WA",
+      "slug": "lakeland-south-wa"
+    },
+    {
+      "city": "Algona",
+      "state": "WA",
+      "slug": "algona-wa"
+    },
+    {
+      "city": "Milton",
+      "state": "WA",
+      "slug": "milton-wa"
+    },
+    {
+      "city": "Pacific",
+      "state": "WA",
+      "slug": "pacific-wa"
     }
   ],
   "brand": {

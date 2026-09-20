@@ -351,6 +351,36 @@
       "city": "Venice",
       "state": "FL",
       "slug": "venice-fl"
+    },
+    {
+      "city": "Mango",
+      "state": "FL",
+      "slug": "mango-fl"
+    },
+    {
+      "city": "East Lake-Orient Park",
+      "state": "FL",
+      "slug": "east-lake-orient-park-fl"
+    },
+    {
+      "city": "Pebble Creek",
+      "state": "FL",
+      "slug": "pebble-creek-fl"
+    },
+    {
+      "city": "University",
+      "state": "FL",
+      "slug": "university-fl"
+    },
+    {
+      "city": "Palm River-Clair Mel",
+      "state": "FL",
+      "slug": "palm-river-clair-mel-fl"
+    },
+    {
+      "city": "Lake Magdalene",
+      "state": "FL",
+      "slug": "lake-magdalene-fl"
     }
   ],
   "template": "restoration",

@@ -1,22 +1,22 @@
 # Site Plan Report — AAA Water Damage Restoration & Carpet Care
 
-- Template: `restoration` v0.2.0
-- Generated: 2026-07-09T05:15:32.512174+00:00
+- Template: `restoration` v0.3.0
+- Generated: 2026-09-20T14:12:50.352321+00:00
 - Domain: `aaawaterdamagehawaii.com`
-- Services selected: 10 of 46 catalog entries
-- Service areas: 13
+- Services selected: 11 of 65 catalog entries
+- Service areas: 19
 - Cross-product enabled: True
-- Total URLs: **174**
-- Total internal links: 1386 (avg 8.0 per page)
+- Total URLs: **248**
+- Total internal links: 1983 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 130 |
-| `service-area` | 13 |
+| `service-area-service` | 198 |
+| `service-area` | 18 |
 | `blog-post` | 12 |
-| `service-landing` | 10 |
+| `service-landing` | 11 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -37,6 +37,7 @@
 - `upholstery-cleaning` — Upholstery Cleaning (adjacent, priority 4)
 - `flood-equipment-rental` — Flood & Drying Equipment Rental (adjacent, priority 3)
 - `commercial-restoration` — Commercial Restoration (core, priority 9)
+- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 
 ## Service areas
 
@@ -53,6 +54,12 @@
 - `ewa-beach-hi` — Ewa Beach, HI
 - `kapolei-hi` — Kapolei, HI
 - `mililani-hi` — Mililani, HI
+- `urban-honolulu-hi` — Urban Honolulu, HI
+- `hickam-housing-hi` — Hickam Housing, HI
+- `east-honolulu-hi` — East Honolulu, HI
+- `waimanalo-hi` — Waimanalo, HI
+- `heeia-hi` — Heeia, HI
+- `kahaluu-hi` — Kahaluu, HI
 
 ## Top 10 priority pages
 
@@ -63,7 +70,7 @@
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration honolulu |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration honolulu |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization honolulu |
-| `/service-areas/honolulu-hi/` | `service-area` | 7.2 | restoration services honolulu |
+| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup honolulu |
 | `/services/burst-pipe-repair/` | `service-landing` | 7.2 | burst pipe cleanup and repair honolulu |
 | `/services/mold-inspection-testing/` | `service-landing` | 7.2 | mold inspection and testing honolulu |
 | `/service-areas/aiea-hi/mold-remediation/` | `service-area-service` | 7.0 | mold remediation aiea |

@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-16T07:48:48.705766+00:00",
+  "generated_at": "2026-09-20T14:13:15.861906+00:00",
   "input_summary": {
     "service_count": 4,
-    "service_area_count": 9,
+    "service_area_count": 15,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -48,12 +48,18 @@
         "/services/general-contracting/",
         "/service-areas/baxter-mn/",
         "/service-areas/brainerd-mn/",
+        "/service-areas/elmdale-mn/",
+        "/service-areas/flensburg-mn/",
         "/service-areas/foley-mn/",
+        "/service-areas/fort-ripley-mn/",
         "/service-areas/pierz-mn/",
+        "/service-areas/randall-mn/",
         "/service-areas/royalton-mn/",
         "/service-areas/sartell-mn/",
         "/service-areas/sauk-rapids-mn/",
-        "/service-areas/st-cloud-mn/"
+        "/service-areas/sobieski-mn/",
+        "/service-areas/st-cloud-mn/",
+        "/service-areas/swanville-mn/"
       ]
     },
     {
@@ -123,12 +129,18 @@
         "/",
         "/service-areas/baxter-mn/",
         "/service-areas/brainerd-mn/",
+        "/service-areas/elmdale-mn/",
+        "/service-areas/flensburg-mn/",
         "/service-areas/foley-mn/",
+        "/service-areas/fort-ripley-mn/",
         "/service-areas/pierz-mn/",
+        "/service-areas/randall-mn/",
         "/service-areas/royalton-mn/",
         "/service-areas/sartell-mn/",
         "/service-areas/sauk-rapids-mn/",
-        "/service-areas/st-cloud-mn/"
+        "/service-areas/sobieski-mn/",
+        "/service-areas/st-cloud-mn/",
+        "/service-areas/swanville-mn/"
       ]
     },
     {
@@ -272,12 +284,17 @@
         "/contact/",
         "/service-areas/baxter-mn/water-damage-restoration/",
         "/service-areas/brainerd-mn/water-damage-restoration/",
+        "/service-areas/elmdale-mn/water-damage-restoration/",
+        "/service-areas/flensburg-mn/water-damage-restoration/",
         "/service-areas/foley-mn/water-damage-restoration/",
+        "/service-areas/fort-ripley-mn/water-damage-restoration/",
         "/service-areas/pierz-mn/water-damage-restoration/",
+        "/service-areas/randall-mn/water-damage-restoration/",
         "/service-areas/royalton-mn/water-damage-restoration/",
         "/service-areas/sartell-mn/water-damage-restoration/",
         "/service-areas/sauk-rapids-mn/water-damage-restoration/",
-        "/service-areas/st-cloud-mn/water-damage-restoration/",
+        "/service-areas/sobieski-mn/water-damage-restoration/",
+        "/services/water-cleanup/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
         "/blog/choosing-a-restoration-company/"
@@ -321,12 +338,16 @@
         "/contact/",
         "/service-areas/baxter-mn/storm-damage-restoration/",
         "/service-areas/brainerd-mn/storm-damage-restoration/",
+        "/service-areas/elmdale-mn/storm-damage-restoration/",
+        "/service-areas/flensburg-mn/storm-damage-restoration/",
         "/service-areas/foley-mn/storm-damage-restoration/",
+        "/service-areas/fort-ripley-mn/storm-damage-restoration/",
         "/service-areas/pierz-mn/storm-damage-restoration/",
+        "/service-areas/randall-mn/storm-damage-restoration/",
         "/service-areas/royalton-mn/storm-damage-restoration/",
         "/service-areas/sartell-mn/storm-damage-restoration/",
         "/service-areas/sauk-rapids-mn/storm-damage-restoration/",
-        "/service-areas/st-cloud-mn/storm-damage-restoration/",
+        "/service-areas/sobieski-mn/storm-damage-restoration/",
         "/blog/storm-damage-insurance-claim-checklist/"
       ]
     },
@@ -369,12 +390,16 @@
         "/contact/",
         "/service-areas/baxter-mn/general-contracting/",
         "/service-areas/brainerd-mn/general-contracting/",
+        "/service-areas/elmdale-mn/general-contracting/",
+        "/service-areas/flensburg-mn/general-contracting/",
         "/service-areas/foley-mn/general-contracting/",
+        "/service-areas/fort-ripley-mn/general-contracting/",
         "/service-areas/pierz-mn/general-contracting/",
+        "/service-areas/randall-mn/general-contracting/",
         "/service-areas/royalton-mn/general-contracting/",
         "/service-areas/sartell-mn/general-contracting/",
         "/service-areas/sauk-rapids-mn/general-contracting/",
-        "/service-areas/st-cloud-mn/general-contracting/"
+        "/service-areas/sobieski-mn/general-contracting/"
       ]
     },
     {
@@ -386,8 +411,9 @@
       "title": "Water Cleanup in Little Falls | Heritage Restoration LLC",
       "h1": "Water Cleanup in Little Falls",
       "meta_description": "Water cleanup in Little Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "water cleanup little falls",
+      "primary_keyword": "emergency water cleanup little falls",
       "secondary_keywords": [
+        "water cleanup",
         "water damage cleanup",
         "water clean up",
         "flood water cleanup",
@@ -414,12 +440,17 @@
         "/contact/",
         "/service-areas/baxter-mn/water-cleanup/",
         "/service-areas/brainerd-mn/water-cleanup/",
+        "/service-areas/elmdale-mn/water-cleanup/",
+        "/service-areas/flensburg-mn/water-cleanup/",
         "/service-areas/foley-mn/water-cleanup/",
+        "/service-areas/fort-ripley-mn/water-cleanup/",
         "/service-areas/pierz-mn/water-cleanup/",
+        "/service-areas/randall-mn/water-cleanup/",
         "/service-areas/royalton-mn/water-cleanup/",
         "/service-areas/sartell-mn/water-cleanup/",
         "/service-areas/sauk-rapids-mn/water-cleanup/",
-        "/service-areas/st-cloud-mn/water-cleanup/"
+        "/service-areas/sobieski-mn/water-cleanup/",
+        "/services/water-damage-restoration/"
       ]
     },
     {
@@ -460,7 +491,7 @@
         "/service-areas/st-cloud-mn/general-contracting/",
         "/service-areas/baxter-mn/",
         "/service-areas/brainerd-mn/",
-        "/service-areas/foley-mn/"
+        "/service-areas/elmdale-mn/"
       ]
     },
     {
@@ -501,7 +532,7 @@
         "/service-areas/sartell-mn/general-contracting/",
         "/service-areas/baxter-mn/",
         "/service-areas/brainerd-mn/",
-        "/service-areas/foley-mn/"
+        "/service-areas/elmdale-mn/"
       ]
     },
     {
@@ -542,7 +573,7 @@
         "/service-areas/sauk-rapids-mn/general-contracting/",
         "/service-areas/baxter-mn/",
         "/service-areas/brainerd-mn/",
-        "/service-areas/foley-mn/"
+        "/service-areas/elmdale-mn/"
       ]
     },
     {
@@ -582,8 +613,8 @@
         "/service-areas/brainerd-mn/water-cleanup/",
         "/service-areas/brainerd-mn/general-contracting/",
         "/service-areas/baxter-mn/",
-        "/service-areas/foley-mn/",
-        "/service-areas/pierz-mn/"
+        "/service-areas/elmdale-mn/",
+        "/service-areas/flensburg-mn/"
       ]
     },
     {
@@ -623,8 +654,8 @@
         "/service-areas/baxter-mn/water-cleanup/",
         "/service-areas/baxter-mn/general-contracting/",
         "/service-areas/brainerd-mn/",
-        "/service-areas/foley-mn/",
-        "/service-areas/pierz-mn/"
+        "/service-areas/elmdale-mn/",
+        "/service-areas/flensburg-mn/"
       ]
     },
     {
@@ -665,7 +696,7 @@
         "/service-areas/foley-mn/general-contracting/",
         "/service-areas/baxter-mn/",
         "/service-areas/brainerd-mn/",
-        "/service-areas/pierz-mn/"
+        "/service-areas/elmdale-mn/"
       ]
     },
     {
@@ -706,7 +737,7 @@
         "/service-areas/royalton-mn/general-contracting/",
         "/service-areas/baxter-mn/",
         "/service-areas/brainerd-mn/",
-        "/service-areas/foley-mn/"
+        "/service-areas/elmdale-mn/"
       ]
     },
     {
@@ -747,7 +778,253 @@
         "/service-areas/pierz-mn/general-contracting/",
         "/service-areas/baxter-mn/",
         "/service-areas/brainerd-mn/",
-        "/service-areas/foley-mn/"
+        "/service-areas/elmdale-mn/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sobieski-mn/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Sobieski, MN | Heritage Restoration LLC",
+      "h1": "Restoration Services in Sobieski",
+      "meta_description": "Serving Sobieski, MN with water, fire, mold, and storm damage restoration. IICRC-certified team. Call (320) 733-8868.",
+      "primary_keyword": "restoration services sobieski",
+      "secondary_keywords": [
+        "sobieski restoration company",
+        "damage restoration sobieski",
+        "sobieski disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/sobieski-mn/water-damage-restoration/",
+        "/service-areas/sobieski-mn/storm-damage-restoration/",
+        "/service-areas/sobieski-mn/water-cleanup/",
+        "/service-areas/sobieski-mn/general-contracting/",
+        "/service-areas/baxter-mn/",
+        "/service-areas/brainerd-mn/",
+        "/service-areas/elmdale-mn/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/flensburg-mn/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Flensburg, MN | Heritage Restoration LLC",
+      "h1": "Restoration Services in Flensburg",
+      "meta_description": "Serving Flensburg, MN with water, fire, mold, and storm damage restoration. IICRC-certified team. Call (320) 733-8868.",
+      "primary_keyword": "restoration services flensburg",
+      "secondary_keywords": [
+        "flensburg restoration company",
+        "damage restoration flensburg",
+        "flensburg disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/flensburg-mn/water-damage-restoration/",
+        "/service-areas/flensburg-mn/storm-damage-restoration/",
+        "/service-areas/flensburg-mn/water-cleanup/",
+        "/service-areas/flensburg-mn/general-contracting/",
+        "/service-areas/baxter-mn/",
+        "/service-areas/brainerd-mn/",
+        "/service-areas/elmdale-mn/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/randall-mn/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Randall, MN | Heritage Restoration LLC",
+      "h1": "Restoration Services in Randall",
+      "meta_description": "Serving Randall, MN with water, fire, mold, and storm damage restoration. IICRC-certified team. Call (320) 733-8868.",
+      "primary_keyword": "restoration services randall",
+      "secondary_keywords": [
+        "randall restoration company",
+        "damage restoration randall",
+        "randall disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/randall-mn/water-damage-restoration/",
+        "/service-areas/randall-mn/storm-damage-restoration/",
+        "/service-areas/randall-mn/water-cleanup/",
+        "/service-areas/randall-mn/general-contracting/",
+        "/service-areas/baxter-mn/",
+        "/service-areas/brainerd-mn/",
+        "/service-areas/elmdale-mn/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/elmdale-mn/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Elmdale, MN | Heritage Restoration LLC",
+      "h1": "Restoration Services in Elmdale",
+      "meta_description": "Serving Elmdale, MN with water, fire, mold, and storm damage restoration. IICRC-certified team. Call (320) 733-8868.",
+      "primary_keyword": "restoration services elmdale",
+      "secondary_keywords": [
+        "elmdale restoration company",
+        "damage restoration elmdale",
+        "elmdale disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/elmdale-mn/water-damage-restoration/",
+        "/service-areas/elmdale-mn/storm-damage-restoration/",
+        "/service-areas/elmdale-mn/water-cleanup/",
+        "/service-areas/elmdale-mn/general-contracting/",
+        "/service-areas/baxter-mn/",
+        "/service-areas/brainerd-mn/",
+        "/service-areas/flensburg-mn/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fort-ripley-mn/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Fort Ripley, MN | Heritage Restoration LLC",
+      "h1": "Restoration Services in Fort Ripley",
+      "meta_description": "Serving Fort Ripley, MN with water, fire, mold, and storm damage restoration. IICRC-certified team. Call (320) 733-8868.",
+      "primary_keyword": "restoration services fort ripley",
+      "secondary_keywords": [
+        "fort ripley restoration company",
+        "damage restoration fort ripley",
+        "fort ripley disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/fort-ripley-mn/water-damage-restoration/",
+        "/service-areas/fort-ripley-mn/storm-damage-restoration/",
+        "/service-areas/fort-ripley-mn/water-cleanup/",
+        "/service-areas/fort-ripley-mn/general-contracting/",
+        "/service-areas/baxter-mn/",
+        "/service-areas/brainerd-mn/",
+        "/service-areas/elmdale-mn/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/swanville-mn/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Swanville, MN | Heritage Restoration LLC",
+      "h1": "Restoration Services in Swanville",
+      "meta_description": "Serving Swanville, MN with water, fire, mold, and storm damage restoration. IICRC-certified team. Call (320) 733-8868.",
+      "primary_keyword": "restoration services swanville",
+      "secondary_keywords": [
+        "swanville restoration company",
+        "damage restoration swanville",
+        "swanville disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/swanville-mn/water-damage-restoration/",
+        "/service-areas/swanville-mn/storm-damage-restoration/",
+        "/service-areas/swanville-mn/water-cleanup/",
+        "/service-areas/swanville-mn/general-contracting/",
+        "/service-areas/baxter-mn/",
+        "/service-areas/brainerd-mn/",
+        "/service-areas/elmdale-mn/"
       ]
     },
     {
@@ -893,8 +1170,9 @@
       "title": "Water Cleanup in St. Cloud, MN | Heritage Restoration LLC",
       "h1": "Water Cleanup in St. Cloud",
       "meta_description": "Water cleanup in St. Cloud, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "water cleanup st. cloud",
+      "primary_keyword": "emergency water cleanup st. cloud",
       "secondary_keywords": [
+        "water cleanup",
         "water damage cleanup",
         "water clean up",
         "flood water cleanup",
@@ -1069,8 +1347,9 @@
       "title": "Water Cleanup in Sartell, MN | Heritage Restoration LLC",
       "h1": "Water Cleanup in Sartell",
       "meta_description": "Water cleanup in Sartell, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "water cleanup sartell",
+      "primary_keyword": "emergency water cleanup sartell",
       "secondary_keywords": [
+        "water cleanup",
         "water damage cleanup",
         "water clean up",
         "flood water cleanup",
@@ -1245,8 +1524,9 @@
       "title": "Water Cleanup in Sauk Rapids, MN | Heritage Restoration LLC",
       "h1": "Water Cleanup in Sauk Rapids",
       "meta_description": "Water cleanup in Sauk Rapids, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "water cleanup sauk rapids",
+      "primary_keyword": "emergency water cleanup sauk rapids",
       "secondary_keywords": [
+        "water cleanup",
         "water damage cleanup",
         "water clean up",
         "flood water cleanup",
@@ -1318,7 +1598,7 @@
         "/service-areas/brainerd-mn/storm-damage-restoration/",
         "/service-areas/brainerd-mn/water-cleanup/",
         "/service-areas/baxter-mn/water-damage-restoration/",
-        "/service-areas/foley-mn/water-damage-restoration/",
+        "/service-areas/elmdale-mn/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1362,7 +1642,7 @@
         "/service-areas/brainerd-mn/water-damage-restoration/",
         "/service-areas/brainerd-mn/water-cleanup/",
         "/service-areas/baxter-mn/storm-damage-restoration/",
-        "/service-areas/foley-mn/storm-damage-restoration/",
+        "/service-areas/elmdale-mn/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1407,7 +1687,7 @@
         "/service-areas/brainerd-mn/water-damage-restoration/",
         "/service-areas/brainerd-mn/storm-damage-restoration/",
         "/service-areas/baxter-mn/general-contracting/",
-        "/service-areas/foley-mn/general-contracting/",
+        "/service-areas/elmdale-mn/general-contracting/",
         "/contact/"
       ]
     },
@@ -1421,8 +1701,9 @@
       "title": "Water Cleanup in Brainerd, MN | Heritage Restoration LLC",
       "h1": "Water Cleanup in Brainerd",
       "meta_description": "Water cleanup in Brainerd, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "water cleanup brainerd",
+      "primary_keyword": "emergency water cleanup brainerd",
       "secondary_keywords": [
+        "water cleanup",
         "water damage cleanup",
         "water clean up",
         "flood water cleanup",
@@ -1450,7 +1731,7 @@
         "/service-areas/brainerd-mn/water-damage-restoration/",
         "/service-areas/brainerd-mn/storm-damage-restoration/",
         "/service-areas/baxter-mn/water-cleanup/",
-        "/service-areas/foley-mn/water-cleanup/",
+        "/service-areas/elmdale-mn/water-cleanup/",
         "/contact/"
       ]
     },
@@ -1494,7 +1775,7 @@
         "/service-areas/baxter-mn/storm-damage-restoration/",
         "/service-areas/baxter-mn/water-cleanup/",
         "/service-areas/brainerd-mn/water-damage-restoration/",
-        "/service-areas/foley-mn/water-damage-restoration/",
+        "/service-areas/elmdale-mn/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1538,7 +1819,7 @@
         "/service-areas/baxter-mn/water-damage-restoration/",
         "/service-areas/baxter-mn/water-cleanup/",
         "/service-areas/brainerd-mn/storm-damage-restoration/",
-        "/service-areas/foley-mn/storm-damage-restoration/",
+        "/service-areas/elmdale-mn/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1583,7 +1864,7 @@
         "/service-areas/baxter-mn/water-damage-restoration/",
         "/service-areas/baxter-mn/storm-damage-restoration/",
         "/service-areas/brainerd-mn/general-contracting/",
-        "/service-areas/foley-mn/general-contracting/",
+        "/service-areas/elmdale-mn/general-contracting/",
         "/contact/"
       ]
     },
@@ -1597,8 +1878,9 @@
       "title": "Water Cleanup in Baxter, MN | Heritage Restoration LLC",
       "h1": "Water Cleanup in Baxter",
       "meta_description": "Water cleanup in Baxter, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "water cleanup baxter",
+      "primary_keyword": "emergency water cleanup baxter",
       "secondary_keywords": [
+        "water cleanup",
         "water damage cleanup",
         "water clean up",
         "flood water cleanup",
@@ -1626,7 +1908,7 @@
         "/service-areas/baxter-mn/water-damage-restoration/",
         "/service-areas/baxter-mn/storm-damage-restoration/",
         "/service-areas/brainerd-mn/water-cleanup/",
-        "/service-areas/foley-mn/water-cleanup/",
+        "/service-areas/elmdale-mn/water-cleanup/",
         "/contact/"
       ]
     },
@@ -1773,8 +2055,9 @@
       "title": "Water Cleanup in Foley, MN | Heritage Restoration LLC",
       "h1": "Water Cleanup in Foley",
       "meta_description": "Water cleanup in Foley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "water cleanup foley",
+      "primary_keyword": "emergency water cleanup foley",
       "secondary_keywords": [
+        "water cleanup",
         "water damage cleanup",
         "water clean up",
         "flood water cleanup",
@@ -1949,8 +2232,9 @@
       "title": "Water Cleanup in Royalton, MN | Heritage Restoration LLC",
       "h1": "Water Cleanup in Royalton",
       "meta_description": "Water cleanup in Royalton, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "water cleanup royalton",
+      "primary_keyword": "emergency water cleanup royalton",
       "secondary_keywords": [
+        "water cleanup",
         "water damage cleanup",
         "water clean up",
         "flood water cleanup",
@@ -2125,8 +2409,9 @@
       "title": "Water Cleanup in Pierz, MN | Heritage Restoration LLC",
       "h1": "Water Cleanup in Pierz",
       "meta_description": "Water cleanup in Pierz, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "water cleanup pierz",
+      "primary_keyword": "emergency water cleanup pierz",
       "secondary_keywords": [
+        "water cleanup",
         "water damage cleanup",
         "water clean up",
         "flood water cleanup",
@@ -2153,6 +2438,1068 @@
         "/service-areas/pierz-mn/",
         "/service-areas/pierz-mn/water-damage-restoration/",
         "/service-areas/pierz-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/water-cleanup/",
+        "/service-areas/brainerd-mn/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sobieski-mn/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Sobieski, MN | Heritage Restoration LLC",
+      "h1": "Water Damage Restoration in Sobieski",
+      "meta_description": "Water damage restoration in Sobieski, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "water damage restoration sobieski",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/sobieski-mn/",
+        "/service-areas/sobieski-mn/storm-damage-restoration/",
+        "/service-areas/sobieski-mn/water-cleanup/",
+        "/service-areas/baxter-mn/water-damage-restoration/",
+        "/service-areas/brainerd-mn/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sobieski-mn/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Sobieski, MN | Heritage Restoration LLC",
+      "h1": "Storm Damage Restoration in Sobieski",
+      "meta_description": "Storm damage restoration in Sobieski, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "storm damage restoration sobieski",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/sobieski-mn/",
+        "/service-areas/sobieski-mn/water-damage-restoration/",
+        "/service-areas/sobieski-mn/water-cleanup/",
+        "/service-areas/baxter-mn/storm-damage-restoration/",
+        "/service-areas/brainerd-mn/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sobieski-mn/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Sobieski, MN | Heritage Restoration LLC",
+      "h1": "Renovations, Remodels and General Contracting in Sobieski",
+      "meta_description": "Renovations, remodels and general contracting in Sobieski, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "renovations, remodels and general contracting sobieski",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/sobieski-mn/",
+        "/service-areas/sobieski-mn/water-damage-restoration/",
+        "/service-areas/sobieski-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/general-contracting/",
+        "/service-areas/brainerd-mn/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sobieski-mn/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Sobieski, MN | Heritage Restoration LLC",
+      "h1": "Water Cleanup in Sobieski",
+      "meta_description": "Water cleanup in Sobieski, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "emergency water cleanup sobieski",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/sobieski-mn/",
+        "/service-areas/sobieski-mn/water-damage-restoration/",
+        "/service-areas/sobieski-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/water-cleanup/",
+        "/service-areas/brainerd-mn/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/flensburg-mn/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Flensburg, MN | Heritage Restoration LLC",
+      "h1": "Water Damage Restoration in Flensburg",
+      "meta_description": "Water damage restoration in Flensburg, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "water damage restoration flensburg",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/flensburg-mn/",
+        "/service-areas/flensburg-mn/storm-damage-restoration/",
+        "/service-areas/flensburg-mn/water-cleanup/",
+        "/service-areas/baxter-mn/water-damage-restoration/",
+        "/service-areas/brainerd-mn/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/flensburg-mn/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Flensburg, MN | Heritage Restoration LLC",
+      "h1": "Storm Damage Restoration in Flensburg",
+      "meta_description": "Storm damage restoration in Flensburg, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "storm damage restoration flensburg",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/flensburg-mn/",
+        "/service-areas/flensburg-mn/water-damage-restoration/",
+        "/service-areas/flensburg-mn/water-cleanup/",
+        "/service-areas/baxter-mn/storm-damage-restoration/",
+        "/service-areas/brainerd-mn/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/flensburg-mn/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Flensburg, MN | Heritage Restoration LLC",
+      "h1": "Renovations, Remodels and General Contracting in Flensburg",
+      "meta_description": "Renovations, remodels and general contracting in Flensburg, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "renovations, remodels and general contracting flensburg",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/flensburg-mn/",
+        "/service-areas/flensburg-mn/water-damage-restoration/",
+        "/service-areas/flensburg-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/general-contracting/",
+        "/service-areas/brainerd-mn/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/flensburg-mn/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Flensburg, MN | Heritage Restoration LLC",
+      "h1": "Water Cleanup in Flensburg",
+      "meta_description": "Water cleanup in Flensburg, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "emergency water cleanup flensburg",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/flensburg-mn/",
+        "/service-areas/flensburg-mn/water-damage-restoration/",
+        "/service-areas/flensburg-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/water-cleanup/",
+        "/service-areas/brainerd-mn/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/randall-mn/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Randall, MN | Heritage Restoration LLC",
+      "h1": "Water Damage Restoration in Randall",
+      "meta_description": "Water damage restoration in Randall, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "water damage restoration randall",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/randall-mn/",
+        "/service-areas/randall-mn/storm-damage-restoration/",
+        "/service-areas/randall-mn/water-cleanup/",
+        "/service-areas/baxter-mn/water-damage-restoration/",
+        "/service-areas/brainerd-mn/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/randall-mn/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Randall, MN | Heritage Restoration LLC",
+      "h1": "Storm Damage Restoration in Randall",
+      "meta_description": "Storm damage restoration in Randall, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "storm damage restoration randall",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/randall-mn/",
+        "/service-areas/randall-mn/water-damage-restoration/",
+        "/service-areas/randall-mn/water-cleanup/",
+        "/service-areas/baxter-mn/storm-damage-restoration/",
+        "/service-areas/brainerd-mn/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/randall-mn/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Randall, MN | Heritage Restoration LLC",
+      "h1": "Renovations, Remodels and General Contracting in Randall",
+      "meta_description": "Renovations, remodels and general contracting in Randall, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "renovations, remodels and general contracting randall",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/randall-mn/",
+        "/service-areas/randall-mn/water-damage-restoration/",
+        "/service-areas/randall-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/general-contracting/",
+        "/service-areas/brainerd-mn/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/randall-mn/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Randall, MN | Heritage Restoration LLC",
+      "h1": "Water Cleanup in Randall",
+      "meta_description": "Water cleanup in Randall, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "emergency water cleanup randall",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/randall-mn/",
+        "/service-areas/randall-mn/water-damage-restoration/",
+        "/service-areas/randall-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/water-cleanup/",
+        "/service-areas/brainerd-mn/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/elmdale-mn/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Elmdale, MN | Heritage Restoration LLC",
+      "h1": "Water Damage Restoration in Elmdale",
+      "meta_description": "Water damage restoration in Elmdale, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "water damage restoration elmdale",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/elmdale-mn/",
+        "/service-areas/elmdale-mn/storm-damage-restoration/",
+        "/service-areas/elmdale-mn/water-cleanup/",
+        "/service-areas/baxter-mn/water-damage-restoration/",
+        "/service-areas/brainerd-mn/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/elmdale-mn/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Elmdale, MN | Heritage Restoration LLC",
+      "h1": "Storm Damage Restoration in Elmdale",
+      "meta_description": "Storm damage restoration in Elmdale, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "storm damage restoration elmdale",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/elmdale-mn/",
+        "/service-areas/elmdale-mn/water-damage-restoration/",
+        "/service-areas/elmdale-mn/water-cleanup/",
+        "/service-areas/baxter-mn/storm-damage-restoration/",
+        "/service-areas/brainerd-mn/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/elmdale-mn/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Elmdale, MN | Heritage Restoration LLC",
+      "h1": "Renovations, Remodels and General Contracting in Elmdale",
+      "meta_description": "Renovations, remodels and general contracting in Elmdale, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "renovations, remodels and general contracting elmdale",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/elmdale-mn/",
+        "/service-areas/elmdale-mn/water-damage-restoration/",
+        "/service-areas/elmdale-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/general-contracting/",
+        "/service-areas/brainerd-mn/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/elmdale-mn/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Elmdale, MN | Heritage Restoration LLC",
+      "h1": "Water Cleanup in Elmdale",
+      "meta_description": "Water cleanup in Elmdale, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "emergency water cleanup elmdale",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/elmdale-mn/",
+        "/service-areas/elmdale-mn/water-damage-restoration/",
+        "/service-areas/elmdale-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/water-cleanup/",
+        "/service-areas/brainerd-mn/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fort-ripley-mn/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Fort Ripley, MN | Heritage Restoration LLC",
+      "h1": "Water Damage Restoration in Fort Ripley",
+      "meta_description": "Water damage restoration in Fort Ripley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "water damage restoration fort ripley",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/fort-ripley-mn/",
+        "/service-areas/fort-ripley-mn/storm-damage-restoration/",
+        "/service-areas/fort-ripley-mn/water-cleanup/",
+        "/service-areas/baxter-mn/water-damage-restoration/",
+        "/service-areas/brainerd-mn/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fort-ripley-mn/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Fort Ripley, MN | Heritage Restoration LLC",
+      "h1": "Storm Damage Restoration in Fort Ripley",
+      "meta_description": "Storm damage restoration in Fort Ripley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "storm damage restoration fort ripley",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/fort-ripley-mn/",
+        "/service-areas/fort-ripley-mn/water-damage-restoration/",
+        "/service-areas/fort-ripley-mn/water-cleanup/",
+        "/service-areas/baxter-mn/storm-damage-restoration/",
+        "/service-areas/brainerd-mn/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fort-ripley-mn/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Fort Ripley, MN | Heritage Restoration LLC",
+      "h1": "Renovations, Remodels and General Contracting in Fort Ripley",
+      "meta_description": "Renovations, remodels and general contracting in Fort Ripley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "renovations, remodels and general contracting fort ripley",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/fort-ripley-mn/",
+        "/service-areas/fort-ripley-mn/water-damage-restoration/",
+        "/service-areas/fort-ripley-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/general-contracting/",
+        "/service-areas/brainerd-mn/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fort-ripley-mn/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Fort Ripley, MN | Heritage Restoration LLC",
+      "h1": "Water Cleanup in Fort Ripley",
+      "meta_description": "Water cleanup in Fort Ripley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "emergency water cleanup fort ripley",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/fort-ripley-mn/",
+        "/service-areas/fort-ripley-mn/water-damage-restoration/",
+        "/service-areas/fort-ripley-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/water-cleanup/",
+        "/service-areas/brainerd-mn/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/swanville-mn/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Swanville, MN | Heritage Restoration LLC",
+      "h1": "Water Damage Restoration in Swanville",
+      "meta_description": "Water damage restoration in Swanville, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "water damage restoration swanville",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/swanville-mn/",
+        "/service-areas/swanville-mn/storm-damage-restoration/",
+        "/service-areas/swanville-mn/water-cleanup/",
+        "/service-areas/baxter-mn/water-damage-restoration/",
+        "/service-areas/brainerd-mn/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/swanville-mn/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Swanville, MN | Heritage Restoration LLC",
+      "h1": "Storm Damage Restoration in Swanville",
+      "meta_description": "Storm damage restoration in Swanville, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "storm damage restoration swanville",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/swanville-mn/",
+        "/service-areas/swanville-mn/water-damage-restoration/",
+        "/service-areas/swanville-mn/water-cleanup/",
+        "/service-areas/baxter-mn/storm-damage-restoration/",
+        "/service-areas/brainerd-mn/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/swanville-mn/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Swanville, MN | Heritage Restoration LLC",
+      "h1": "Renovations, Remodels and General Contracting in Swanville",
+      "meta_description": "Renovations, remodels and general contracting in Swanville, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "renovations, remodels and general contracting swanville",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/swanville-mn/",
+        "/service-areas/swanville-mn/water-damage-restoration/",
+        "/service-areas/swanville-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/general-contracting/",
+        "/service-areas/brainerd-mn/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/swanville-mn/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Swanville, MN | Heritage Restoration LLC",
+      "h1": "Water Cleanup in Swanville",
+      "meta_description": "Water cleanup in Swanville, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "emergency water cleanup swanville",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/swanville-mn/",
+        "/service-areas/swanville-mn/water-damage-restoration/",
+        "/service-areas/swanville-mn/storm-damage-restoration/",
         "/service-areas/baxter-mn/water-cleanup/",
         "/service-areas/brainerd-mn/water-cleanup/",
         "/contact/"

@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-07-27T17:34:32.858291+00:00",
+  "generated_at": "2026-09-20T14:13:46.748826+00:00",
   "input_summary": {
-    "service_count": 6,
-    "service_area_count": 9,
+    "service_count": 7,
+    "service_area_count": 15,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -48,14 +48,20 @@
         "/services/flood-damage-restoration/",
         "/services/smoke-damage-restoration/",
         "/services/storm-damage-restoration/",
-        "/service-areas/davie-fl/",
+        "/services/water-cleanup/",
         "/service-areas/cooper-city-fl/",
+        "/service-areas/dania-beach-fl/",
         "/service-areas/fort-lauderdale-fl/",
+        "/service-areas/hallandale-beach-fl/",
         "/service-areas/hollywood-fl/",
+        "/service-areas/lauderdale-lakes-fl/",
+        "/service-areas/lauderhill-fl/",
+        "/service-areas/miami-gardens-fl/",
         "/service-areas/miramar-fl/",
         "/service-areas/pembroke-pines-fl/",
         "/service-areas/plantation-fl/",
         "/service-areas/sunrise-fl/",
+        "/service-areas/west-park-fl/",
         "/service-areas/weston-fl/"
       ]
     },
@@ -94,7 +100,8 @@
         "/services/water-damage-restoration/",
         "/services/flood-damage-restoration/",
         "/services/smoke-damage-restoration/",
-        "/services/storm-damage-restoration/"
+        "/services/storm-damage-restoration/",
+        "/services/water-cleanup/"
       ]
     },
     {
@@ -126,14 +133,19 @@
       "status": "planned",
       "internal_links_out": [
         "/",
-        "/service-areas/davie-fl/",
         "/service-areas/cooper-city-fl/",
+        "/service-areas/dania-beach-fl/",
         "/service-areas/fort-lauderdale-fl/",
+        "/service-areas/hallandale-beach-fl/",
         "/service-areas/hollywood-fl/",
+        "/service-areas/lauderdale-lakes-fl/",
+        "/service-areas/lauderhill-fl/",
+        "/service-areas/miami-gardens-fl/",
         "/service-areas/miramar-fl/",
         "/service-areas/pembroke-pines-fl/",
         "/service-areas/plantation-fl/",
         "/service-areas/sunrise-fl/",
+        "/service-areas/west-park-fl/",
         "/service-areas/weston-fl/"
       ]
     },
@@ -281,14 +293,18 @@
         "/services/",
         "/contact/",
         "/service-areas/cooper-city-fl/water-damage-restoration/",
-        "/service-areas/davie-fl/water-damage-restoration/",
+        "/service-areas/dania-beach-fl/water-damage-restoration/",
         "/service-areas/fort-lauderdale-fl/water-damage-restoration/",
+        "/service-areas/hallandale-beach-fl/water-damage-restoration/",
         "/service-areas/hollywood-fl/water-damage-restoration/",
+        "/service-areas/lauderdale-lakes-fl/water-damage-restoration/",
+        "/service-areas/lauderhill-fl/water-damage-restoration/",
+        "/service-areas/miami-gardens-fl/water-damage-restoration/",
         "/service-areas/miramar-fl/water-damage-restoration/",
         "/service-areas/pembroke-pines-fl/water-damage-restoration/",
         "/service-areas/plantation-fl/water-damage-restoration/",
         "/service-areas/sunrise-fl/water-damage-restoration/",
-        "/service-areas/weston-fl/water-damage-restoration/",
+        "/services/water-cleanup/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
         "/blog/choosing-a-restoration-company/"
@@ -331,14 +347,17 @@
         "/services/",
         "/contact/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
-        "/service-areas/davie-fl/fire-damage-restoration/",
+        "/service-areas/dania-beach-fl/fire-damage-restoration/",
         "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
+        "/service-areas/hallandale-beach-fl/fire-damage-restoration/",
         "/service-areas/hollywood-fl/fire-damage-restoration/",
+        "/service-areas/lauderdale-lakes-fl/fire-damage-restoration/",
+        "/service-areas/lauderhill-fl/fire-damage-restoration/",
+        "/service-areas/miami-gardens-fl/fire-damage-restoration/",
         "/service-areas/miramar-fl/fire-damage-restoration/",
         "/service-areas/pembroke-pines-fl/fire-damage-restoration/",
         "/service-areas/plantation-fl/fire-damage-restoration/",
         "/service-areas/sunrise-fl/fire-damage-restoration/",
-        "/service-areas/weston-fl/fire-damage-restoration/",
         "/blog/choosing-a-restoration-company/",
         "/blog/fire-damage-restoration-process/",
         "/blog/smoke-odor-removal-techniques/"
@@ -381,14 +400,17 @@
         "/services/",
         "/contact/",
         "/service-areas/cooper-city-fl/mold-remediation/",
-        "/service-areas/davie-fl/mold-remediation/",
+        "/service-areas/dania-beach-fl/mold-remediation/",
         "/service-areas/fort-lauderdale-fl/mold-remediation/",
+        "/service-areas/hallandale-beach-fl/mold-remediation/",
         "/service-areas/hollywood-fl/mold-remediation/",
+        "/service-areas/lauderdale-lakes-fl/mold-remediation/",
+        "/service-areas/lauderhill-fl/mold-remediation/",
+        "/service-areas/miami-gardens-fl/mold-remediation/",
         "/service-areas/miramar-fl/mold-remediation/",
         "/service-areas/pembroke-pines-fl/mold-remediation/",
         "/service-areas/plantation-fl/mold-remediation/",
         "/service-areas/sunrise-fl/mold-remediation/",
-        "/service-areas/weston-fl/mold-remediation/",
         "/blog/choosing-a-restoration-company/",
         "/blog/how-to-test-for-mold/",
         "/blog/signs-of-hidden-mold/"
@@ -431,14 +453,17 @@
         "/services/",
         "/contact/",
         "/service-areas/cooper-city-fl/storm-damage-restoration/",
-        "/service-areas/davie-fl/storm-damage-restoration/",
+        "/service-areas/dania-beach-fl/storm-damage-restoration/",
         "/service-areas/fort-lauderdale-fl/storm-damage-restoration/",
+        "/service-areas/hallandale-beach-fl/storm-damage-restoration/",
         "/service-areas/hollywood-fl/storm-damage-restoration/",
+        "/service-areas/lauderdale-lakes-fl/storm-damage-restoration/",
+        "/service-areas/lauderhill-fl/storm-damage-restoration/",
+        "/service-areas/miami-gardens-fl/storm-damage-restoration/",
         "/service-areas/miramar-fl/storm-damage-restoration/",
         "/service-areas/pembroke-pines-fl/storm-damage-restoration/",
         "/service-areas/plantation-fl/storm-damage-restoration/",
         "/service-areas/sunrise-fl/storm-damage-restoration/",
-        "/service-areas/weston-fl/storm-damage-restoration/",
         "/blog/storm-damage-insurance-claim-checklist/"
       ]
     },
@@ -479,14 +504,17 @@
         "/services/",
         "/contact/",
         "/service-areas/cooper-city-fl/flood-damage-restoration/",
-        "/service-areas/davie-fl/flood-damage-restoration/",
+        "/service-areas/dania-beach-fl/flood-damage-restoration/",
         "/service-areas/fort-lauderdale-fl/flood-damage-restoration/",
+        "/service-areas/hallandale-beach-fl/flood-damage-restoration/",
         "/service-areas/hollywood-fl/flood-damage-restoration/",
+        "/service-areas/lauderdale-lakes-fl/flood-damage-restoration/",
+        "/service-areas/lauderhill-fl/flood-damage-restoration/",
+        "/service-areas/miami-gardens-fl/flood-damage-restoration/",
         "/service-areas/miramar-fl/flood-damage-restoration/",
         "/service-areas/pembroke-pines-fl/flood-damage-restoration/",
         "/service-areas/plantation-fl/flood-damage-restoration/",
-        "/service-areas/sunrise-fl/flood-damage-restoration/",
-        "/service-areas/weston-fl/flood-damage-restoration/"
+        "/service-areas/sunrise-fl/flood-damage-restoration/"
       ]
     },
     {
@@ -526,16 +554,70 @@
         "/services/",
         "/contact/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/service-areas/davie-fl/smoke-damage-restoration/",
+        "/service-areas/dania-beach-fl/smoke-damage-restoration/",
         "/service-areas/fort-lauderdale-fl/smoke-damage-restoration/",
+        "/service-areas/hallandale-beach-fl/smoke-damage-restoration/",
         "/service-areas/hollywood-fl/smoke-damage-restoration/",
+        "/service-areas/lauderdale-lakes-fl/smoke-damage-restoration/",
+        "/service-areas/lauderhill-fl/smoke-damage-restoration/",
+        "/service-areas/miami-gardens-fl/smoke-damage-restoration/",
         "/service-areas/miramar-fl/smoke-damage-restoration/",
         "/service-areas/pembroke-pines-fl/smoke-damage-restoration/",
         "/service-areas/plantation-fl/smoke-damage-restoration/",
         "/service-areas/sunrise-fl/smoke-damage-restoration/",
-        "/service-areas/weston-fl/smoke-damage-restoration/",
         "/blog/fire-damage-restoration-process/",
         "/blog/smoke-odor-removal-techniques/"
+      ]
+    },
+    {
+      "url_path": "/services/water-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Water Cleanup in Davie | RestorationXpress",
+      "h1": "Water Cleanup in Davie",
+      "meta_description": "Water cleanup in Davie and surrounding areas. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "emergency water cleanup davie",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/cooper-city-fl/water-cleanup/",
+        "/service-areas/dania-beach-fl/water-cleanup/",
+        "/service-areas/fort-lauderdale-fl/water-cleanup/",
+        "/service-areas/hallandale-beach-fl/water-cleanup/",
+        "/service-areas/hollywood-fl/water-cleanup/",
+        "/service-areas/lauderdale-lakes-fl/water-cleanup/",
+        "/service-areas/lauderhill-fl/water-cleanup/",
+        "/service-areas/miami-gardens-fl/water-cleanup/",
+        "/service-areas/miramar-fl/water-cleanup/",
+        "/service-areas/pembroke-pines-fl/water-cleanup/",
+        "/service-areas/plantation-fl/water-cleanup/",
+        "/service-areas/sunrise-fl/water-cleanup/",
+        "/services/water-damage-restoration/"
       ]
     },
     {
@@ -576,9 +658,10 @@
         "/service-areas/fort-lauderdale-fl/flood-damage-restoration/",
         "/service-areas/fort-lauderdale-fl/smoke-damage-restoration/",
         "/service-areas/fort-lauderdale-fl/storm-damage-restoration/",
-        "/service-areas/davie-fl/",
+        "/service-areas/fort-lauderdale-fl/water-cleanup/",
         "/service-areas/cooper-city-fl/",
-        "/service-areas/hollywood-fl/"
+        "/service-areas/dania-beach-fl/",
+        "/service-areas/hallandale-beach-fl/"
       ]
     },
     {
@@ -619,8 +702,9 @@
         "/service-areas/hollywood-fl/flood-damage-restoration/",
         "/service-areas/hollywood-fl/smoke-damage-restoration/",
         "/service-areas/hollywood-fl/storm-damage-restoration/",
-        "/service-areas/davie-fl/",
+        "/service-areas/hollywood-fl/water-cleanup/",
         "/service-areas/cooper-city-fl/",
+        "/service-areas/dania-beach-fl/",
         "/service-areas/fort-lauderdale-fl/"
       ]
     },
@@ -662,8 +746,9 @@
         "/service-areas/plantation-fl/flood-damage-restoration/",
         "/service-areas/plantation-fl/smoke-damage-restoration/",
         "/service-areas/plantation-fl/storm-damage-restoration/",
-        "/service-areas/davie-fl/",
+        "/service-areas/plantation-fl/water-cleanup/",
         "/service-areas/cooper-city-fl/",
+        "/service-areas/dania-beach-fl/",
         "/service-areas/fort-lauderdale-fl/"
       ]
     },
@@ -705,8 +790,9 @@
         "/service-areas/sunrise-fl/flood-damage-restoration/",
         "/service-areas/sunrise-fl/smoke-damage-restoration/",
         "/service-areas/sunrise-fl/storm-damage-restoration/",
-        "/service-areas/davie-fl/",
+        "/service-areas/sunrise-fl/water-cleanup/",
         "/service-areas/cooper-city-fl/",
+        "/service-areas/dania-beach-fl/",
         "/service-areas/fort-lauderdale-fl/"
       ]
     },
@@ -748,9 +834,10 @@
         "/service-areas/cooper-city-fl/flood-damage-restoration/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
         "/service-areas/cooper-city-fl/storm-damage-restoration/",
-        "/service-areas/davie-fl/",
+        "/service-areas/cooper-city-fl/water-cleanup/",
+        "/service-areas/dania-beach-fl/",
         "/service-areas/fort-lauderdale-fl/",
-        "/service-areas/hollywood-fl/"
+        "/service-areas/hallandale-beach-fl/"
       ]
     },
     {
@@ -791,8 +878,9 @@
         "/service-areas/weston-fl/flood-damage-restoration/",
         "/service-areas/weston-fl/smoke-damage-restoration/",
         "/service-areas/weston-fl/storm-damage-restoration/",
-        "/service-areas/davie-fl/",
+        "/service-areas/weston-fl/water-cleanup/",
         "/service-areas/cooper-city-fl/",
+        "/service-areas/dania-beach-fl/",
         "/service-areas/fort-lauderdale-fl/"
       ]
     },
@@ -834,8 +922,9 @@
         "/service-areas/pembroke-pines-fl/flood-damage-restoration/",
         "/service-areas/pembroke-pines-fl/smoke-damage-restoration/",
         "/service-areas/pembroke-pines-fl/storm-damage-restoration/",
-        "/service-areas/davie-fl/",
+        "/service-areas/pembroke-pines-fl/water-cleanup/",
         "/service-areas/cooper-city-fl/",
+        "/service-areas/dania-beach-fl/",
         "/service-areas/fort-lauderdale-fl/"
       ]
     },
@@ -877,8 +966,273 @@
         "/service-areas/miramar-fl/flood-damage-restoration/",
         "/service-areas/miramar-fl/smoke-damage-restoration/",
         "/service-areas/miramar-fl/storm-damage-restoration/",
-        "/service-areas/davie-fl/",
+        "/service-areas/miramar-fl/water-cleanup/",
         "/service-areas/cooper-city-fl/",
+        "/service-areas/dania-beach-fl/",
+        "/service-areas/fort-lauderdale-fl/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/dania-beach-fl/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Dania Beach, FL | RestorationXpress ",
+      "h1": "Restoration Services in Dania Beach",
+      "meta_description": "Serving Dania Beach, FL with water, fire, mold, and storm damage restoration. Experienced team. Call (954) 964-6471.",
+      "primary_keyword": "restoration services dania beach",
+      "secondary_keywords": [
+        "dania beach restoration company",
+        "damage restoration dania beach",
+        "dania beach disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/dania-beach-fl/fire-damage-restoration/",
+        "/service-areas/dania-beach-fl/mold-remediation/",
+        "/service-areas/dania-beach-fl/water-damage-restoration/",
+        "/service-areas/dania-beach-fl/flood-damage-restoration/",
+        "/service-areas/dania-beach-fl/smoke-damage-restoration/",
+        "/service-areas/dania-beach-fl/storm-damage-restoration/",
+        "/service-areas/dania-beach-fl/water-cleanup/",
+        "/service-areas/cooper-city-fl/",
+        "/service-areas/fort-lauderdale-fl/",
+        "/service-areas/hallandale-beach-fl/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/west-park-fl/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in West Park, FL | RestorationXpress ",
+      "h1": "Restoration Services in West Park",
+      "meta_description": "Serving West Park, FL with water, fire, mold, and storm damage restoration. Experienced team. Call (954) 964-6471.",
+      "primary_keyword": "restoration services west park",
+      "secondary_keywords": [
+        "west park restoration company",
+        "damage restoration west park",
+        "west park disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/west-park-fl/fire-damage-restoration/",
+        "/service-areas/west-park-fl/mold-remediation/",
+        "/service-areas/west-park-fl/water-damage-restoration/",
+        "/service-areas/west-park-fl/flood-damage-restoration/",
+        "/service-areas/west-park-fl/smoke-damage-restoration/",
+        "/service-areas/west-park-fl/storm-damage-restoration/",
+        "/service-areas/west-park-fl/water-cleanup/",
+        "/service-areas/cooper-city-fl/",
+        "/service-areas/dania-beach-fl/",
+        "/service-areas/fort-lauderdale-fl/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/miami-gardens-fl/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Miami Gardens, FL | RestorationXpress ",
+      "h1": "Restoration Services in Miami Gardens",
+      "meta_description": "Serving Miami Gardens, FL with water, fire, mold, and storm damage restoration. Experienced team. Call (954) 964-6471.",
+      "primary_keyword": "restoration services miami gardens",
+      "secondary_keywords": [
+        "miami gardens restoration company",
+        "damage restoration miami gardens",
+        "miami gardens disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/miami-gardens-fl/fire-damage-restoration/",
+        "/service-areas/miami-gardens-fl/mold-remediation/",
+        "/service-areas/miami-gardens-fl/water-damage-restoration/",
+        "/service-areas/miami-gardens-fl/flood-damage-restoration/",
+        "/service-areas/miami-gardens-fl/smoke-damage-restoration/",
+        "/service-areas/miami-gardens-fl/storm-damage-restoration/",
+        "/service-areas/miami-gardens-fl/water-cleanup/",
+        "/service-areas/cooper-city-fl/",
+        "/service-areas/dania-beach-fl/",
+        "/service-areas/fort-lauderdale-fl/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lauderhill-fl/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Lauderhill, FL | RestorationXpress ",
+      "h1": "Restoration Services in Lauderhill",
+      "meta_description": "Serving Lauderhill, FL with water, fire, mold, and storm damage restoration. Experienced team. Call (954) 964-6471.",
+      "primary_keyword": "restoration services lauderhill",
+      "secondary_keywords": [
+        "lauderhill restoration company",
+        "damage restoration lauderhill",
+        "lauderhill disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/lauderhill-fl/fire-damage-restoration/",
+        "/service-areas/lauderhill-fl/mold-remediation/",
+        "/service-areas/lauderhill-fl/water-damage-restoration/",
+        "/service-areas/lauderhill-fl/flood-damage-restoration/",
+        "/service-areas/lauderhill-fl/smoke-damage-restoration/",
+        "/service-areas/lauderhill-fl/storm-damage-restoration/",
+        "/service-areas/lauderhill-fl/water-cleanup/",
+        "/service-areas/cooper-city-fl/",
+        "/service-areas/dania-beach-fl/",
+        "/service-areas/fort-lauderdale-fl/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hallandale-beach-fl/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Hallandale Beach, FL | RestorationXpress ",
+      "h1": "Restoration Services in Hallandale Beach",
+      "meta_description": "Serving Hallandale Beach, FL with water, fire, mold, and storm damage restoration. Experienced team. Call (954) 964-6471.",
+      "primary_keyword": "restoration services hallandale beach",
+      "secondary_keywords": [
+        "hallandale beach restoration company",
+        "damage restoration hallandale beach",
+        "hallandale beach disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/hallandale-beach-fl/fire-damage-restoration/",
+        "/service-areas/hallandale-beach-fl/mold-remediation/",
+        "/service-areas/hallandale-beach-fl/water-damage-restoration/",
+        "/service-areas/hallandale-beach-fl/flood-damage-restoration/",
+        "/service-areas/hallandale-beach-fl/smoke-damage-restoration/",
+        "/service-areas/hallandale-beach-fl/storm-damage-restoration/",
+        "/service-areas/hallandale-beach-fl/water-cleanup/",
+        "/service-areas/cooper-city-fl/",
+        "/service-areas/dania-beach-fl/",
+        "/service-areas/fort-lauderdale-fl/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lauderdale-lakes-fl/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Lauderdale Lakes, FL | RestorationXpress ",
+      "h1": "Restoration Services in Lauderdale Lakes",
+      "meta_description": "Serving Lauderdale Lakes, FL with water, fire, mold, and storm damage restoration. Experienced team. Call (954) 964-6471.",
+      "primary_keyword": "restoration services lauderdale lakes",
+      "secondary_keywords": [
+        "lauderdale lakes restoration company",
+        "damage restoration lauderdale lakes",
+        "lauderdale lakes disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/lauderdale-lakes-fl/fire-damage-restoration/",
+        "/service-areas/lauderdale-lakes-fl/mold-remediation/",
+        "/service-areas/lauderdale-lakes-fl/water-damage-restoration/",
+        "/service-areas/lauderdale-lakes-fl/flood-damage-restoration/",
+        "/service-areas/lauderdale-lakes-fl/smoke-damage-restoration/",
+        "/service-areas/lauderdale-lakes-fl/storm-damage-restoration/",
+        "/service-areas/lauderdale-lakes-fl/water-cleanup/",
+        "/service-areas/cooper-city-fl/",
+        "/service-areas/dania-beach-fl/",
         "/service-areas/fort-lauderdale-fl/"
       ]
     },
@@ -922,7 +1276,7 @@
         "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
         "/service-areas/fort-lauderdale-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-damage-restoration/",
-        "/service-areas/davie-fl/water-damage-restoration/",
+        "/service-areas/dania-beach-fl/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -966,7 +1320,7 @@
         "/service-areas/fort-lauderdale-fl/mold-remediation/",
         "/service-areas/fort-lauderdale-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
-        "/service-areas/davie-fl/fire-damage-restoration/",
+        "/service-areas/dania-beach-fl/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1010,7 +1364,7 @@
         "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
         "/service-areas/fort-lauderdale-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
-        "/service-areas/davie-fl/mold-remediation/",
+        "/service-areas/dania-beach-fl/mold-remediation/",
         "/contact/"
       ]
     },
@@ -1054,7 +1408,7 @@
         "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
         "/service-areas/fort-lauderdale-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/storm-damage-restoration/",
-        "/service-areas/davie-fl/storm-damage-restoration/",
+        "/service-areas/dania-beach-fl/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1098,7 +1452,7 @@
         "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
         "/service-areas/fort-lauderdale-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/flood-damage-restoration/",
-        "/service-areas/davie-fl/flood-damage-restoration/",
+        "/service-areas/dania-beach-fl/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1142,7 +1496,51 @@
         "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
         "/service-areas/fort-lauderdale-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/service-areas/davie-fl/smoke-damage-restoration/",
+        "/service-areas/dania-beach-fl/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fort-lauderdale-fl/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Fort Lauderdale, FL | RestorationXpress",
+      "h1": "Water Cleanup in Fort Lauderdale",
+      "meta_description": "Water cleanup in Fort Lauderdale, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "emergency water cleanup fort lauderdale",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/fort-lauderdale-fl/",
+        "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
+        "/service-areas/fort-lauderdale-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/water-cleanup/",
+        "/service-areas/dania-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -1186,7 +1584,7 @@
         "/service-areas/hollywood-fl/fire-damage-restoration/",
         "/service-areas/hollywood-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-damage-restoration/",
-        "/service-areas/davie-fl/water-damage-restoration/",
+        "/service-areas/dania-beach-fl/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1230,7 +1628,7 @@
         "/service-areas/hollywood-fl/mold-remediation/",
         "/service-areas/hollywood-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
-        "/service-areas/davie-fl/fire-damage-restoration/",
+        "/service-areas/dania-beach-fl/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1274,7 +1672,7 @@
         "/service-areas/hollywood-fl/fire-damage-restoration/",
         "/service-areas/hollywood-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
-        "/service-areas/davie-fl/mold-remediation/",
+        "/service-areas/dania-beach-fl/mold-remediation/",
         "/contact/"
       ]
     },
@@ -1318,7 +1716,7 @@
         "/service-areas/hollywood-fl/fire-damage-restoration/",
         "/service-areas/hollywood-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/storm-damage-restoration/",
-        "/service-areas/davie-fl/storm-damage-restoration/",
+        "/service-areas/dania-beach-fl/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1362,7 +1760,7 @@
         "/service-areas/hollywood-fl/fire-damage-restoration/",
         "/service-areas/hollywood-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/flood-damage-restoration/",
-        "/service-areas/davie-fl/flood-damage-restoration/",
+        "/service-areas/dania-beach-fl/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1406,7 +1804,51 @@
         "/service-areas/hollywood-fl/fire-damage-restoration/",
         "/service-areas/hollywood-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/service-areas/davie-fl/smoke-damage-restoration/",
+        "/service-areas/dania-beach-fl/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hollywood-fl/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Hollywood, FL | RestorationXpress",
+      "h1": "Water Cleanup in Hollywood",
+      "meta_description": "Water cleanup in Hollywood, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "emergency water cleanup hollywood",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/hollywood-fl/",
+        "/service-areas/hollywood-fl/fire-damage-restoration/",
+        "/service-areas/hollywood-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/water-cleanup/",
+        "/service-areas/dania-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -1450,7 +1892,7 @@
         "/service-areas/plantation-fl/fire-damage-restoration/",
         "/service-areas/plantation-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-damage-restoration/",
-        "/service-areas/davie-fl/water-damage-restoration/",
+        "/service-areas/dania-beach-fl/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1494,7 +1936,7 @@
         "/service-areas/plantation-fl/mold-remediation/",
         "/service-areas/plantation-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
-        "/service-areas/davie-fl/fire-damage-restoration/",
+        "/service-areas/dania-beach-fl/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1538,7 +1980,7 @@
         "/service-areas/plantation-fl/fire-damage-restoration/",
         "/service-areas/plantation-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
-        "/service-areas/davie-fl/mold-remediation/",
+        "/service-areas/dania-beach-fl/mold-remediation/",
         "/contact/"
       ]
     },
@@ -1582,7 +2024,7 @@
         "/service-areas/plantation-fl/fire-damage-restoration/",
         "/service-areas/plantation-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/storm-damage-restoration/",
-        "/service-areas/davie-fl/storm-damage-restoration/",
+        "/service-areas/dania-beach-fl/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1626,7 +2068,7 @@
         "/service-areas/plantation-fl/fire-damage-restoration/",
         "/service-areas/plantation-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/flood-damage-restoration/",
-        "/service-areas/davie-fl/flood-damage-restoration/",
+        "/service-areas/dania-beach-fl/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1670,7 +2112,51 @@
         "/service-areas/plantation-fl/fire-damage-restoration/",
         "/service-areas/plantation-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/service-areas/davie-fl/smoke-damage-restoration/",
+        "/service-areas/dania-beach-fl/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/plantation-fl/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Plantation, FL | RestorationXpress",
+      "h1": "Water Cleanup in Plantation",
+      "meta_description": "Water cleanup in Plantation, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "emergency water cleanup plantation",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/plantation-fl/",
+        "/service-areas/plantation-fl/fire-damage-restoration/",
+        "/service-areas/plantation-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/water-cleanup/",
+        "/service-areas/dania-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -1714,7 +2200,7 @@
         "/service-areas/sunrise-fl/fire-damage-restoration/",
         "/service-areas/sunrise-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-damage-restoration/",
-        "/service-areas/davie-fl/water-damage-restoration/",
+        "/service-areas/dania-beach-fl/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1758,7 +2244,7 @@
         "/service-areas/sunrise-fl/mold-remediation/",
         "/service-areas/sunrise-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
-        "/service-areas/davie-fl/fire-damage-restoration/",
+        "/service-areas/dania-beach-fl/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1802,7 +2288,7 @@
         "/service-areas/sunrise-fl/fire-damage-restoration/",
         "/service-areas/sunrise-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
-        "/service-areas/davie-fl/mold-remediation/",
+        "/service-areas/dania-beach-fl/mold-remediation/",
         "/contact/"
       ]
     },
@@ -1846,7 +2332,7 @@
         "/service-areas/sunrise-fl/fire-damage-restoration/",
         "/service-areas/sunrise-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/storm-damage-restoration/",
-        "/service-areas/davie-fl/storm-damage-restoration/",
+        "/service-areas/dania-beach-fl/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1890,7 +2376,7 @@
         "/service-areas/sunrise-fl/fire-damage-restoration/",
         "/service-areas/sunrise-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/flood-damage-restoration/",
-        "/service-areas/davie-fl/flood-damage-restoration/",
+        "/service-areas/dania-beach-fl/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1934,7 +2420,51 @@
         "/service-areas/sunrise-fl/fire-damage-restoration/",
         "/service-areas/sunrise-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/service-areas/davie-fl/smoke-damage-restoration/",
+        "/service-areas/dania-beach-fl/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sunrise-fl/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Sunrise, FL | RestorationXpress",
+      "h1": "Water Cleanup in Sunrise",
+      "meta_description": "Water cleanup in Sunrise, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "emergency water cleanup sunrise",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/sunrise-fl/",
+        "/service-areas/sunrise-fl/fire-damage-restoration/",
+        "/service-areas/sunrise-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/water-cleanup/",
+        "/service-areas/dania-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -1977,7 +2507,7 @@
         "/service-areas/cooper-city-fl/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
-        "/service-areas/davie-fl/water-damage-restoration/",
+        "/service-areas/dania-beach-fl/water-damage-restoration/",
         "/service-areas/fort-lauderdale-fl/water-damage-restoration/",
         "/contact/"
       ]
@@ -2021,7 +2551,7 @@
         "/service-areas/cooper-city-fl/",
         "/service-areas/cooper-city-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-damage-restoration/",
-        "/service-areas/davie-fl/fire-damage-restoration/",
+        "/service-areas/dania-beach-fl/fire-damage-restoration/",
         "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
         "/contact/"
       ]
@@ -2065,7 +2595,7 @@
         "/service-areas/cooper-city-fl/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
         "/service-areas/cooper-city-fl/water-damage-restoration/",
-        "/service-areas/davie-fl/mold-remediation/",
+        "/service-areas/dania-beach-fl/mold-remediation/",
         "/service-areas/fort-lauderdale-fl/mold-remediation/",
         "/contact/"
       ]
@@ -2109,7 +2639,7 @@
         "/service-areas/cooper-city-fl/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
-        "/service-areas/davie-fl/storm-damage-restoration/",
+        "/service-areas/dania-beach-fl/storm-damage-restoration/",
         "/service-areas/fort-lauderdale-fl/storm-damage-restoration/",
         "/contact/"
       ]
@@ -2153,7 +2683,7 @@
         "/service-areas/cooper-city-fl/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
-        "/service-areas/davie-fl/flood-damage-restoration/",
+        "/service-areas/dania-beach-fl/flood-damage-restoration/",
         "/service-areas/fort-lauderdale-fl/flood-damage-restoration/",
         "/contact/"
       ]
@@ -2197,8 +2727,52 @@
         "/service-areas/cooper-city-fl/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
-        "/service-areas/davie-fl/smoke-damage-restoration/",
+        "/service-areas/dania-beach-fl/smoke-damage-restoration/",
         "/service-areas/fort-lauderdale-fl/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cooper-city-fl/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Cooper City, FL | RestorationXpress",
+      "h1": "Water Cleanup in Cooper City",
+      "meta_description": "Water cleanup in Cooper City, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "emergency water cleanup cooper city",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/cooper-city-fl/",
+        "/service-areas/cooper-city-fl/fire-damage-restoration/",
+        "/service-areas/cooper-city-fl/mold-remediation/",
+        "/service-areas/dania-beach-fl/water-cleanup/",
+        "/service-areas/fort-lauderdale-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2242,7 +2816,7 @@
         "/service-areas/weston-fl/fire-damage-restoration/",
         "/service-areas/weston-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-damage-restoration/",
-        "/service-areas/davie-fl/water-damage-restoration/",
+        "/service-areas/dania-beach-fl/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2286,7 +2860,7 @@
         "/service-areas/weston-fl/mold-remediation/",
         "/service-areas/weston-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
-        "/service-areas/davie-fl/fire-damage-restoration/",
+        "/service-areas/dania-beach-fl/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2330,7 +2904,7 @@
         "/service-areas/weston-fl/fire-damage-restoration/",
         "/service-areas/weston-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
-        "/service-areas/davie-fl/mold-remediation/",
+        "/service-areas/dania-beach-fl/mold-remediation/",
         "/contact/"
       ]
     },
@@ -2374,7 +2948,7 @@
         "/service-areas/weston-fl/fire-damage-restoration/",
         "/service-areas/weston-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/storm-damage-restoration/",
-        "/service-areas/davie-fl/storm-damage-restoration/",
+        "/service-areas/dania-beach-fl/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2418,7 +2992,7 @@
         "/service-areas/weston-fl/fire-damage-restoration/",
         "/service-areas/weston-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/flood-damage-restoration/",
-        "/service-areas/davie-fl/flood-damage-restoration/",
+        "/service-areas/dania-beach-fl/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2462,7 +3036,51 @@
         "/service-areas/weston-fl/fire-damage-restoration/",
         "/service-areas/weston-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/service-areas/davie-fl/smoke-damage-restoration/",
+        "/service-areas/dania-beach-fl/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/weston-fl/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Weston, FL | RestorationXpress",
+      "h1": "Water Cleanup in Weston",
+      "meta_description": "Water cleanup in Weston, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "emergency water cleanup weston",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/weston-fl/",
+        "/service-areas/weston-fl/fire-damage-restoration/",
+        "/service-areas/weston-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/water-cleanup/",
+        "/service-areas/dania-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2506,7 +3124,7 @@
         "/service-areas/pembroke-pines-fl/fire-damage-restoration/",
         "/service-areas/pembroke-pines-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-damage-restoration/",
-        "/service-areas/davie-fl/water-damage-restoration/",
+        "/service-areas/dania-beach-fl/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2550,7 +3168,7 @@
         "/service-areas/pembroke-pines-fl/mold-remediation/",
         "/service-areas/pembroke-pines-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
-        "/service-areas/davie-fl/fire-damage-restoration/",
+        "/service-areas/dania-beach-fl/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2594,7 +3212,7 @@
         "/service-areas/pembroke-pines-fl/fire-damage-restoration/",
         "/service-areas/pembroke-pines-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
-        "/service-areas/davie-fl/mold-remediation/",
+        "/service-areas/dania-beach-fl/mold-remediation/",
         "/contact/"
       ]
     },
@@ -2638,7 +3256,7 @@
         "/service-areas/pembroke-pines-fl/fire-damage-restoration/",
         "/service-areas/pembroke-pines-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/storm-damage-restoration/",
-        "/service-areas/davie-fl/storm-damage-restoration/",
+        "/service-areas/dania-beach-fl/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2682,7 +3300,7 @@
         "/service-areas/pembroke-pines-fl/fire-damage-restoration/",
         "/service-areas/pembroke-pines-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/flood-damage-restoration/",
-        "/service-areas/davie-fl/flood-damage-restoration/",
+        "/service-areas/dania-beach-fl/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2726,7 +3344,51 @@
         "/service-areas/pembroke-pines-fl/fire-damage-restoration/",
         "/service-areas/pembroke-pines-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/service-areas/davie-fl/smoke-damage-restoration/",
+        "/service-areas/dania-beach-fl/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pembroke-pines-fl/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Pembroke Pines, FL | RestorationXpress",
+      "h1": "Water Cleanup in Pembroke Pines",
+      "meta_description": "Water cleanup in Pembroke Pines, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "emergency water cleanup pembroke pines",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/pembroke-pines-fl/",
+        "/service-areas/pembroke-pines-fl/fire-damage-restoration/",
+        "/service-areas/pembroke-pines-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/water-cleanup/",
+        "/service-areas/dania-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2770,7 +3432,7 @@
         "/service-areas/miramar-fl/fire-damage-restoration/",
         "/service-areas/miramar-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-damage-restoration/",
-        "/service-areas/davie-fl/water-damage-restoration/",
+        "/service-areas/dania-beach-fl/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2814,7 +3476,7 @@
         "/service-areas/miramar-fl/mold-remediation/",
         "/service-areas/miramar-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
-        "/service-areas/davie-fl/fire-damage-restoration/",
+        "/service-areas/dania-beach-fl/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2858,7 +3520,7 @@
         "/service-areas/miramar-fl/fire-damage-restoration/",
         "/service-areas/miramar-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
-        "/service-areas/davie-fl/mold-remediation/",
+        "/service-areas/dania-beach-fl/mold-remediation/",
         "/contact/"
       ]
     },
@@ -2902,7 +3564,7 @@
         "/service-areas/miramar-fl/fire-damage-restoration/",
         "/service-areas/miramar-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/storm-damage-restoration/",
-        "/service-areas/davie-fl/storm-damage-restoration/",
+        "/service-areas/dania-beach-fl/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2946,7 +3608,7 @@
         "/service-areas/miramar-fl/fire-damage-restoration/",
         "/service-areas/miramar-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/flood-damage-restoration/",
-        "/service-areas/davie-fl/flood-damage-restoration/",
+        "/service-areas/dania-beach-fl/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2990,7 +3652,1899 @@
         "/service-areas/miramar-fl/fire-damage-restoration/",
         "/service-areas/miramar-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/service-areas/davie-fl/smoke-damage-restoration/",
+        "/service-areas/dania-beach-fl/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/miramar-fl/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Miramar, FL | RestorationXpress",
+      "h1": "Water Cleanup in Miramar",
+      "meta_description": "Water cleanup in Miramar, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "emergency water cleanup miramar",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/miramar-fl/",
+        "/service-areas/miramar-fl/fire-damage-restoration/",
+        "/service-areas/miramar-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/water-cleanup/",
+        "/service-areas/dania-beach-fl/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/dania-beach-fl/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Dania Beach, FL | RestorationXpress ",
+      "h1": "Water Damage Restoration in Dania Beach",
+      "meta_description": "Water damage restoration in Dania Beach, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "water damage restoration dania beach",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/dania-beach-fl/",
+        "/service-areas/dania-beach-fl/fire-damage-restoration/",
+        "/service-areas/dania-beach-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/water-damage-restoration/",
+        "/service-areas/fort-lauderdale-fl/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/dania-beach-fl/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Dania Beach, FL | RestorationXpress ",
+      "h1": "Fire Damage Restoration in Dania Beach",
+      "meta_description": "Fire damage restoration in Dania Beach, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "fire damage restoration dania beach",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/dania-beach-fl/",
+        "/service-areas/dania-beach-fl/mold-remediation/",
+        "/service-areas/dania-beach-fl/water-damage-restoration/",
+        "/service-areas/cooper-city-fl/fire-damage-restoration/",
+        "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/dania-beach-fl/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Dania Beach, FL | RestorationXpress ",
+      "h1": "Mold Remediation in Dania Beach",
+      "meta_description": "Mold remediation in Dania Beach, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "mold remediation dania beach",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/dania-beach-fl/",
+        "/service-areas/dania-beach-fl/fire-damage-restoration/",
+        "/service-areas/dania-beach-fl/water-damage-restoration/",
+        "/service-areas/cooper-city-fl/mold-remediation/",
+        "/service-areas/fort-lauderdale-fl/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/dania-beach-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Dania Beach, FL | RestorationXpress ",
+      "h1": "Storm Damage Restoration in Dania Beach",
+      "meta_description": "Storm damage restoration in Dania Beach, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "storm damage restoration dania beach",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/dania-beach-fl/",
+        "/service-areas/dania-beach-fl/fire-damage-restoration/",
+        "/service-areas/dania-beach-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/storm-damage-restoration/",
+        "/service-areas/fort-lauderdale-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/dania-beach-fl/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Dania Beach, FL | RestorationXpress ",
+      "h1": "Flood Damage Restoration in Dania Beach",
+      "meta_description": "Flood damage restoration in Dania Beach, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "flood damage restoration dania beach",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/dania-beach-fl/",
+        "/service-areas/dania-beach-fl/fire-damage-restoration/",
+        "/service-areas/dania-beach-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/flood-damage-restoration/",
+        "/service-areas/fort-lauderdale-fl/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/dania-beach-fl/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Dania Beach, FL | RestorationXpress ",
+      "h1": "Smoke Damage Restoration in Dania Beach",
+      "meta_description": "Smoke damage restoration in Dania Beach, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "smoke damage restoration dania beach",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/dania-beach-fl/",
+        "/service-areas/dania-beach-fl/fire-damage-restoration/",
+        "/service-areas/dania-beach-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/smoke-damage-restoration/",
+        "/service-areas/fort-lauderdale-fl/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/dania-beach-fl/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Dania Beach, FL | RestorationXpress",
+      "h1": "Water Cleanup in Dania Beach",
+      "meta_description": "Water cleanup in Dania Beach, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "emergency water cleanup dania beach",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/dania-beach-fl/",
+        "/service-areas/dania-beach-fl/fire-damage-restoration/",
+        "/service-areas/dania-beach-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/water-cleanup/",
+        "/service-areas/fort-lauderdale-fl/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/west-park-fl/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in West Park, FL | RestorationXpress ",
+      "h1": "Water Damage Restoration in West Park",
+      "meta_description": "Water damage restoration in West Park, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "water damage restoration west park",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/west-park-fl/",
+        "/service-areas/west-park-fl/fire-damage-restoration/",
+        "/service-areas/west-park-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/water-damage-restoration/",
+        "/service-areas/dania-beach-fl/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/west-park-fl/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in West Park, FL | RestorationXpress ",
+      "h1": "Fire Damage Restoration in West Park",
+      "meta_description": "Fire damage restoration in West Park, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "fire damage restoration west park",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/west-park-fl/",
+        "/service-areas/west-park-fl/mold-remediation/",
+        "/service-areas/west-park-fl/water-damage-restoration/",
+        "/service-areas/cooper-city-fl/fire-damage-restoration/",
+        "/service-areas/dania-beach-fl/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/west-park-fl/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in West Park, FL | RestorationXpress ",
+      "h1": "Mold Remediation in West Park",
+      "meta_description": "Mold remediation in West Park, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "mold remediation west park",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/west-park-fl/",
+        "/service-areas/west-park-fl/fire-damage-restoration/",
+        "/service-areas/west-park-fl/water-damage-restoration/",
+        "/service-areas/cooper-city-fl/mold-remediation/",
+        "/service-areas/dania-beach-fl/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/west-park-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in West Park, FL | RestorationXpress ",
+      "h1": "Storm Damage Restoration in West Park",
+      "meta_description": "Storm damage restoration in West Park, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "storm damage restoration west park",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/west-park-fl/",
+        "/service-areas/west-park-fl/fire-damage-restoration/",
+        "/service-areas/west-park-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/storm-damage-restoration/",
+        "/service-areas/dania-beach-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/west-park-fl/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in West Park, FL | RestorationXpress ",
+      "h1": "Flood Damage Restoration in West Park",
+      "meta_description": "Flood damage restoration in West Park, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "flood damage restoration west park",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/west-park-fl/",
+        "/service-areas/west-park-fl/fire-damage-restoration/",
+        "/service-areas/west-park-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/flood-damage-restoration/",
+        "/service-areas/dania-beach-fl/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/west-park-fl/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in West Park, FL | RestorationXpress ",
+      "h1": "Smoke Damage Restoration in West Park",
+      "meta_description": "Smoke damage restoration in West Park, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "smoke damage restoration west park",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/west-park-fl/",
+        "/service-areas/west-park-fl/fire-damage-restoration/",
+        "/service-areas/west-park-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/smoke-damage-restoration/",
+        "/service-areas/dania-beach-fl/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/west-park-fl/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in West Park, FL | RestorationXpress",
+      "h1": "Water Cleanup in West Park",
+      "meta_description": "Water cleanup in West Park, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "emergency water cleanup west park",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/west-park-fl/",
+        "/service-areas/west-park-fl/fire-damage-restoration/",
+        "/service-areas/west-park-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/water-cleanup/",
+        "/service-areas/dania-beach-fl/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/miami-gardens-fl/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Miami Gardens, FL | RestorationXpress ",
+      "h1": "Water Damage Restoration in Miami Gardens",
+      "meta_description": "Water damage restoration in Miami Gardens, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "water damage restoration miami gardens",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/miami-gardens-fl/",
+        "/service-areas/miami-gardens-fl/fire-damage-restoration/",
+        "/service-areas/miami-gardens-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/water-damage-restoration/",
+        "/service-areas/dania-beach-fl/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/miami-gardens-fl/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Miami Gardens, FL | RestorationXpress ",
+      "h1": "Fire Damage Restoration in Miami Gardens",
+      "meta_description": "Fire damage restoration in Miami Gardens, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "fire damage restoration miami gardens",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/miami-gardens-fl/",
+        "/service-areas/miami-gardens-fl/mold-remediation/",
+        "/service-areas/miami-gardens-fl/water-damage-restoration/",
+        "/service-areas/cooper-city-fl/fire-damage-restoration/",
+        "/service-areas/dania-beach-fl/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/miami-gardens-fl/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Miami Gardens, FL | RestorationXpress ",
+      "h1": "Mold Remediation in Miami Gardens",
+      "meta_description": "Mold remediation in Miami Gardens, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "mold remediation miami gardens",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/miami-gardens-fl/",
+        "/service-areas/miami-gardens-fl/fire-damage-restoration/",
+        "/service-areas/miami-gardens-fl/water-damage-restoration/",
+        "/service-areas/cooper-city-fl/mold-remediation/",
+        "/service-areas/dania-beach-fl/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/miami-gardens-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Miami Gardens, FL | RestorationXpress ",
+      "h1": "Storm Damage Restoration in Miami Gardens",
+      "meta_description": "Storm damage restoration in Miami Gardens, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "storm damage restoration miami gardens",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/miami-gardens-fl/",
+        "/service-areas/miami-gardens-fl/fire-damage-restoration/",
+        "/service-areas/miami-gardens-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/storm-damage-restoration/",
+        "/service-areas/dania-beach-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/miami-gardens-fl/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Miami Gardens, FL | RestorationXpress ",
+      "h1": "Flood Damage Restoration in Miami Gardens",
+      "meta_description": "Flood damage restoration in Miami Gardens, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "flood damage restoration miami gardens",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/miami-gardens-fl/",
+        "/service-areas/miami-gardens-fl/fire-damage-restoration/",
+        "/service-areas/miami-gardens-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/flood-damage-restoration/",
+        "/service-areas/dania-beach-fl/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/miami-gardens-fl/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Miami Gardens, FL | RestorationXpress ",
+      "h1": "Smoke Damage Restoration in Miami Gardens",
+      "meta_description": "Smoke damage restoration in Miami Gardens, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "smoke damage restoration miami gardens",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/miami-gardens-fl/",
+        "/service-areas/miami-gardens-fl/fire-damage-restoration/",
+        "/service-areas/miami-gardens-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/smoke-damage-restoration/",
+        "/service-areas/dania-beach-fl/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/miami-gardens-fl/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Miami Gardens, FL | RestorationXpress",
+      "h1": "Water Cleanup in Miami Gardens",
+      "meta_description": "Water cleanup in Miami Gardens, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "emergency water cleanup miami gardens",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/miami-gardens-fl/",
+        "/service-areas/miami-gardens-fl/fire-damage-restoration/",
+        "/service-areas/miami-gardens-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/water-cleanup/",
+        "/service-areas/dania-beach-fl/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lauderhill-fl/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Lauderhill, FL | RestorationXpress ",
+      "h1": "Water Damage Restoration in Lauderhill",
+      "meta_description": "Water damage restoration in Lauderhill, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "water damage restoration lauderhill",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/lauderhill-fl/",
+        "/service-areas/lauderhill-fl/fire-damage-restoration/",
+        "/service-areas/lauderhill-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/water-damage-restoration/",
+        "/service-areas/dania-beach-fl/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lauderhill-fl/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Lauderhill, FL | RestorationXpress ",
+      "h1": "Fire Damage Restoration in Lauderhill",
+      "meta_description": "Fire damage restoration in Lauderhill, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "fire damage restoration lauderhill",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/lauderhill-fl/",
+        "/service-areas/lauderhill-fl/mold-remediation/",
+        "/service-areas/lauderhill-fl/water-damage-restoration/",
+        "/service-areas/cooper-city-fl/fire-damage-restoration/",
+        "/service-areas/dania-beach-fl/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lauderhill-fl/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Lauderhill, FL | RestorationXpress ",
+      "h1": "Mold Remediation in Lauderhill",
+      "meta_description": "Mold remediation in Lauderhill, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "mold remediation lauderhill",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/lauderhill-fl/",
+        "/service-areas/lauderhill-fl/fire-damage-restoration/",
+        "/service-areas/lauderhill-fl/water-damage-restoration/",
+        "/service-areas/cooper-city-fl/mold-remediation/",
+        "/service-areas/dania-beach-fl/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lauderhill-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Lauderhill, FL | RestorationXpress ",
+      "h1": "Storm Damage Restoration in Lauderhill",
+      "meta_description": "Storm damage restoration in Lauderhill, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "storm damage restoration lauderhill",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/lauderhill-fl/",
+        "/service-areas/lauderhill-fl/fire-damage-restoration/",
+        "/service-areas/lauderhill-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/storm-damage-restoration/",
+        "/service-areas/dania-beach-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lauderhill-fl/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Lauderhill, FL | RestorationXpress ",
+      "h1": "Flood Damage Restoration in Lauderhill",
+      "meta_description": "Flood damage restoration in Lauderhill, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "flood damage restoration lauderhill",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/lauderhill-fl/",
+        "/service-areas/lauderhill-fl/fire-damage-restoration/",
+        "/service-areas/lauderhill-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/flood-damage-restoration/",
+        "/service-areas/dania-beach-fl/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lauderhill-fl/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Lauderhill, FL | RestorationXpress ",
+      "h1": "Smoke Damage Restoration in Lauderhill",
+      "meta_description": "Smoke damage restoration in Lauderhill, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "smoke damage restoration lauderhill",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/lauderhill-fl/",
+        "/service-areas/lauderhill-fl/fire-damage-restoration/",
+        "/service-areas/lauderhill-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/smoke-damage-restoration/",
+        "/service-areas/dania-beach-fl/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lauderhill-fl/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Lauderhill, FL | RestorationXpress",
+      "h1": "Water Cleanup in Lauderhill",
+      "meta_description": "Water cleanup in Lauderhill, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "emergency water cleanup lauderhill",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/lauderhill-fl/",
+        "/service-areas/lauderhill-fl/fire-damage-restoration/",
+        "/service-areas/lauderhill-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/water-cleanup/",
+        "/service-areas/dania-beach-fl/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hallandale-beach-fl/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Hallandale Beach, FL | RestorationXpress ",
+      "h1": "Water Damage Restoration in Hallandale Beach",
+      "meta_description": "Water damage restoration in Hallandale Beach, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "water damage restoration hallandale beach",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/hallandale-beach-fl/",
+        "/service-areas/hallandale-beach-fl/fire-damage-restoration/",
+        "/service-areas/hallandale-beach-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/water-damage-restoration/",
+        "/service-areas/dania-beach-fl/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hallandale-beach-fl/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Hallandale Beach, FL | RestorationXpress ",
+      "h1": "Fire Damage Restoration in Hallandale Beach",
+      "meta_description": "Fire damage restoration in Hallandale Beach, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "fire damage restoration hallandale beach",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/hallandale-beach-fl/",
+        "/service-areas/hallandale-beach-fl/mold-remediation/",
+        "/service-areas/hallandale-beach-fl/water-damage-restoration/",
+        "/service-areas/cooper-city-fl/fire-damage-restoration/",
+        "/service-areas/dania-beach-fl/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hallandale-beach-fl/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Hallandale Beach, FL | RestorationXpress ",
+      "h1": "Mold Remediation in Hallandale Beach",
+      "meta_description": "Mold remediation in Hallandale Beach, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "mold remediation hallandale beach",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/hallandale-beach-fl/",
+        "/service-areas/hallandale-beach-fl/fire-damage-restoration/",
+        "/service-areas/hallandale-beach-fl/water-damage-restoration/",
+        "/service-areas/cooper-city-fl/mold-remediation/",
+        "/service-areas/dania-beach-fl/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hallandale-beach-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Hallandale Beach, FL | RestorationXpress ",
+      "h1": "Storm Damage Restoration in Hallandale Beach",
+      "meta_description": "Storm damage restoration in Hallandale Beach, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "storm damage restoration hallandale beach",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/hallandale-beach-fl/",
+        "/service-areas/hallandale-beach-fl/fire-damage-restoration/",
+        "/service-areas/hallandale-beach-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/storm-damage-restoration/",
+        "/service-areas/dania-beach-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hallandale-beach-fl/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Hallandale Beach, FL | RestorationXpress ",
+      "h1": "Flood Damage Restoration in Hallandale Beach",
+      "meta_description": "Flood damage restoration in Hallandale Beach, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "flood damage restoration hallandale beach",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/hallandale-beach-fl/",
+        "/service-areas/hallandale-beach-fl/fire-damage-restoration/",
+        "/service-areas/hallandale-beach-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/flood-damage-restoration/",
+        "/service-areas/dania-beach-fl/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hallandale-beach-fl/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Hallandale Beach, FL | RestorationXpress ",
+      "h1": "Smoke Damage Restoration in Hallandale Beach",
+      "meta_description": "Smoke damage restoration in Hallandale Beach, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "smoke damage restoration hallandale beach",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/hallandale-beach-fl/",
+        "/service-areas/hallandale-beach-fl/fire-damage-restoration/",
+        "/service-areas/hallandale-beach-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/smoke-damage-restoration/",
+        "/service-areas/dania-beach-fl/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hallandale-beach-fl/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Hallandale Beach, FL | RestorationXpress",
+      "h1": "Water Cleanup in Hallandale Beach",
+      "meta_description": "Water cleanup in Hallandale Beach, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "emergency water cleanup hallandale beach",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/hallandale-beach-fl/",
+        "/service-areas/hallandale-beach-fl/fire-damage-restoration/",
+        "/service-areas/hallandale-beach-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/water-cleanup/",
+        "/service-areas/dania-beach-fl/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lauderdale-lakes-fl/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Lauderdale Lakes, FL | RestorationXpress ",
+      "h1": "Water Damage Restoration in Lauderdale Lakes",
+      "meta_description": "Water damage restoration in Lauderdale Lakes, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "water damage restoration lauderdale lakes",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/lauderdale-lakes-fl/",
+        "/service-areas/lauderdale-lakes-fl/fire-damage-restoration/",
+        "/service-areas/lauderdale-lakes-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/water-damage-restoration/",
+        "/service-areas/dania-beach-fl/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lauderdale-lakes-fl/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Lauderdale Lakes, FL | RestorationXpress ",
+      "h1": "Fire Damage Restoration in Lauderdale Lakes",
+      "meta_description": "Fire damage restoration in Lauderdale Lakes, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "fire damage restoration lauderdale lakes",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/lauderdale-lakes-fl/",
+        "/service-areas/lauderdale-lakes-fl/mold-remediation/",
+        "/service-areas/lauderdale-lakes-fl/water-damage-restoration/",
+        "/service-areas/cooper-city-fl/fire-damage-restoration/",
+        "/service-areas/dania-beach-fl/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lauderdale-lakes-fl/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Lauderdale Lakes, FL | RestorationXpress ",
+      "h1": "Mold Remediation in Lauderdale Lakes",
+      "meta_description": "Mold remediation in Lauderdale Lakes, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "mold remediation lauderdale lakes",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/lauderdale-lakes-fl/",
+        "/service-areas/lauderdale-lakes-fl/fire-damage-restoration/",
+        "/service-areas/lauderdale-lakes-fl/water-damage-restoration/",
+        "/service-areas/cooper-city-fl/mold-remediation/",
+        "/service-areas/dania-beach-fl/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lauderdale-lakes-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Lauderdale Lakes, FL | RestorationXpress ",
+      "h1": "Storm Damage Restoration in Lauderdale Lakes",
+      "meta_description": "Storm damage restoration in Lauderdale Lakes, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "storm damage restoration lauderdale lakes",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/lauderdale-lakes-fl/",
+        "/service-areas/lauderdale-lakes-fl/fire-damage-restoration/",
+        "/service-areas/lauderdale-lakes-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/storm-damage-restoration/",
+        "/service-areas/dania-beach-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lauderdale-lakes-fl/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Lauderdale Lakes, FL | RestorationXpress ",
+      "h1": "Flood Damage Restoration in Lauderdale Lakes",
+      "meta_description": "Flood damage restoration in Lauderdale Lakes, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "flood damage restoration lauderdale lakes",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/lauderdale-lakes-fl/",
+        "/service-areas/lauderdale-lakes-fl/fire-damage-restoration/",
+        "/service-areas/lauderdale-lakes-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/flood-damage-restoration/",
+        "/service-areas/dania-beach-fl/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lauderdale-lakes-fl/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Lauderdale Lakes, FL | RestorationXpress ",
+      "h1": "Smoke Damage Restoration in Lauderdale Lakes",
+      "meta_description": "Smoke damage restoration in Lauderdale Lakes, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "smoke damage restoration lauderdale lakes",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/lauderdale-lakes-fl/",
+        "/service-areas/lauderdale-lakes-fl/fire-damage-restoration/",
+        "/service-areas/lauderdale-lakes-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/smoke-damage-restoration/",
+        "/service-areas/dania-beach-fl/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lauderdale-lakes-fl/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Lauderdale Lakes, FL | RestorationXpress",
+      "h1": "Water Cleanup in Lauderdale Lakes",
+      "meta_description": "Water cleanup in Lauderdale Lakes, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "emergency water cleanup lauderdale lakes",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/lauderdale-lakes-fl/",
+        "/service-areas/lauderdale-lakes-fl/fire-damage-restoration/",
+        "/service-areas/lauderdale-lakes-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/water-cleanup/",
+        "/service-areas/dania-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },

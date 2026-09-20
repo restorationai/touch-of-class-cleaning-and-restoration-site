@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-08-29T16:23:49.875088+00:00",
+  "generated_at": "2026-09-20T14:13:27.869337+00:00",
   "input_summary": {
     "service_count": 13,
-    "service_area_count": 8,
+    "service_area_count": 14,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -55,13 +55,19 @@
         "/services/commercial-fire-restoration/",
         "/services/contents-restoration-pack-out/",
         "/services/contents-restoration-storage/",
+        "/service-areas/blue-diamond-nv/",
         "/service-areas/boulder-city-nv/",
+        "/service-areas/enterprise-nv/",
         "/service-areas/henderson-nv/",
+        "/service-areas/mount-charleston-nv/",
+        "/service-areas/nelson-nv/",
         "/service-areas/north-las-vegas-nv/",
         "/service-areas/paradise-nv/",
         "/service-areas/spring-valley-nv/",
+        "/service-areas/summerlin-south-nv/",
         "/service-areas/sunrise-manor-nv/",
-        "/service-areas/whitney-nv/"
+        "/service-areas/whitney-nv/",
+        "/service-areas/winchester-nv/"
       ]
     },
     {
@@ -138,13 +144,19 @@
       "status": "planned",
       "internal_links_out": [
         "/",
+        "/service-areas/blue-diamond-nv/",
         "/service-areas/boulder-city-nv/",
+        "/service-areas/enterprise-nv/",
         "/service-areas/henderson-nv/",
+        "/service-areas/mount-charleston-nv/",
+        "/service-areas/nelson-nv/",
         "/service-areas/north-las-vegas-nv/",
         "/service-areas/paradise-nv/",
         "/service-areas/spring-valley-nv/",
+        "/service-areas/summerlin-south-nv/",
         "/service-areas/sunrise-manor-nv/",
-        "/service-areas/whitney-nv/"
+        "/service-areas/whitney-nv/",
+        "/service-areas/winchester-nv/"
       ]
     },
     {
@@ -290,11 +302,16 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/service-areas/henderson-nv/fire-damage-restoration/",
+        "/service-areas/mount-charleston-nv/fire-damage-restoration/",
+        "/service-areas/nelson-nv/fire-damage-restoration/",
         "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
         "/service-areas/paradise-nv/fire-damage-restoration/",
         "/service-areas/spring-valley-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-south-nv/fire-damage-restoration/",
         "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
         "/service-areas/whitney-nv/fire-damage-restoration/",
         "/blog/choosing-a-restoration-company/",
@@ -338,11 +355,16 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/enterprise-nv/mold-remediation/",
         "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/mount-charleston-nv/mold-remediation/",
+        "/service-areas/nelson-nv/mold-remediation/",
         "/service-areas/north-las-vegas-nv/mold-remediation/",
         "/service-areas/paradise-nv/mold-remediation/",
         "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/summerlin-south-nv/mold-remediation/",
         "/service-areas/sunrise-manor-nv/mold-remediation/",
         "/service-areas/whitney-nv/mold-remediation/",
         "/blog/choosing-a-restoration-company/",
@@ -386,13 +408,19 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/service-areas/enterprise-nv/water-damage-restoration/",
         "/service-areas/henderson-nv/water-damage-restoration/",
+        "/service-areas/mount-charleston-nv/water-damage-restoration/",
+        "/service-areas/nelson-nv/water-damage-restoration/",
         "/service-areas/north-las-vegas-nv/water-damage-restoration/",
         "/service-areas/paradise-nv/water-damage-restoration/",
         "/service-areas/spring-valley-nv/water-damage-restoration/",
+        "/service-areas/summerlin-south-nv/water-damage-restoration/",
         "/service-areas/sunrise-manor-nv/water-damage-restoration/",
         "/service-areas/whitney-nv/water-damage-restoration/",
+        "/services/water-cleanup/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
         "/blog/choosing-a-restoration-company/"
@@ -434,11 +462,16 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
         "/service-areas/boulder-city-nv/sewage-cleanup/",
+        "/service-areas/enterprise-nv/sewage-cleanup/",
         "/service-areas/henderson-nv/sewage-cleanup/",
+        "/service-areas/mount-charleston-nv/sewage-cleanup/",
+        "/service-areas/nelson-nv/sewage-cleanup/",
         "/service-areas/north-las-vegas-nv/sewage-cleanup/",
         "/service-areas/paradise-nv/sewage-cleanup/",
         "/service-areas/spring-valley-nv/sewage-cleanup/",
+        "/service-areas/summerlin-south-nv/sewage-cleanup/",
         "/service-areas/sunrise-manor-nv/sewage-cleanup/",
         "/service-areas/whitney-nv/sewage-cleanup/",
         "/blog/sewage-backup-health-risks/"
@@ -480,11 +513,16 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
         "/service-areas/boulder-city-nv/biohazard-cleanup/",
+        "/service-areas/enterprise-nv/biohazard-cleanup/",
         "/service-areas/henderson-nv/biohazard-cleanup/",
+        "/service-areas/mount-charleston-nv/biohazard-cleanup/",
+        "/service-areas/nelson-nv/biohazard-cleanup/",
         "/service-areas/north-las-vegas-nv/biohazard-cleanup/",
         "/service-areas/paradise-nv/biohazard-cleanup/",
         "/service-areas/spring-valley-nv/biohazard-cleanup/",
+        "/service-areas/summerlin-south-nv/biohazard-cleanup/",
         "/service-areas/sunrise-manor-nv/biohazard-cleanup/",
         "/service-areas/whitney-nv/biohazard-cleanup/"
       ]
@@ -519,11 +557,16 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/blue-diamond-nv/burst-frozen-pipes/",
         "/service-areas/boulder-city-nv/burst-frozen-pipes/",
+        "/service-areas/enterprise-nv/burst-frozen-pipes/",
         "/service-areas/henderson-nv/burst-frozen-pipes/",
+        "/service-areas/mount-charleston-nv/burst-frozen-pipes/",
+        "/service-areas/nelson-nv/burst-frozen-pipes/",
         "/service-areas/north-las-vegas-nv/burst-frozen-pipes/",
         "/service-areas/paradise-nv/burst-frozen-pipes/",
         "/service-areas/spring-valley-nv/burst-frozen-pipes/",
+        "/service-areas/summerlin-south-nv/burst-frozen-pipes/",
         "/service-areas/sunrise-manor-nv/burst-frozen-pipes/",
         "/service-areas/whitney-nv/burst-frozen-pipes/"
       ]
@@ -558,11 +601,16 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/blue-diamond-nv/commercial-fire-restoration/",
         "/service-areas/boulder-city-nv/commercial-fire-restoration/",
+        "/service-areas/enterprise-nv/commercial-fire-restoration/",
         "/service-areas/henderson-nv/commercial-fire-restoration/",
+        "/service-areas/mount-charleston-nv/commercial-fire-restoration/",
+        "/service-areas/nelson-nv/commercial-fire-restoration/",
         "/service-areas/north-las-vegas-nv/commercial-fire-restoration/",
         "/service-areas/paradise-nv/commercial-fire-restoration/",
         "/service-areas/spring-valley-nv/commercial-fire-restoration/",
+        "/service-areas/summerlin-south-nv/commercial-fire-restoration/",
         "/service-areas/sunrise-manor-nv/commercial-fire-restoration/",
         "/service-areas/whitney-nv/commercial-fire-restoration/"
       ]
@@ -597,11 +645,16 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
         "/service-areas/boulder-city-nv/contents-restoration-storage/",
+        "/service-areas/enterprise-nv/contents-restoration-storage/",
         "/service-areas/henderson-nv/contents-restoration-storage/",
+        "/service-areas/mount-charleston-nv/contents-restoration-storage/",
+        "/service-areas/nelson-nv/contents-restoration-storage/",
         "/service-areas/north-las-vegas-nv/contents-restoration-storage/",
         "/service-areas/paradise-nv/contents-restoration-storage/",
         "/service-areas/spring-valley-nv/contents-restoration-storage/",
+        "/service-areas/summerlin-south-nv/contents-restoration-storage/",
         "/service-areas/sunrise-manor-nv/contents-restoration-storage/",
         "/service-areas/whitney-nv/contents-restoration-storage/"
       ]
@@ -615,8 +668,9 @@
       "title": "Water Cleanup in Las Vegas | PuroClean of East Las Vegas",
       "h1": "Water Cleanup in Las Vegas",
       "meta_description": "Water cleanup in Las Vegas and surrounding areas. Insurance billing accepted. Call +17025513040.",
-      "primary_keyword": "water cleanup las vegas",
+      "primary_keyword": "emergency water cleanup las vegas",
       "secondary_keywords": [
+        "water cleanup",
         "water damage cleanup",
         "water clean up",
         "flood water cleanup",
@@ -641,13 +695,19 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
         "/service-areas/boulder-city-nv/water-cleanup/",
+        "/service-areas/enterprise-nv/water-cleanup/",
         "/service-areas/henderson-nv/water-cleanup/",
+        "/service-areas/mount-charleston-nv/water-cleanup/",
+        "/service-areas/nelson-nv/water-cleanup/",
         "/service-areas/north-las-vegas-nv/water-cleanup/",
         "/service-areas/paradise-nv/water-cleanup/",
         "/service-areas/spring-valley-nv/water-cleanup/",
+        "/service-areas/summerlin-south-nv/water-cleanup/",
         "/service-areas/sunrise-manor-nv/water-cleanup/",
-        "/service-areas/whitney-nv/water-cleanup/"
+        "/service-areas/whitney-nv/water-cleanup/",
+        "/services/water-damage-restoration/"
       ]
     },
     {
@@ -686,11 +746,16 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/blue-diamond-nv/commercial-restoration/",
         "/service-areas/boulder-city-nv/commercial-restoration/",
+        "/service-areas/enterprise-nv/commercial-restoration/",
         "/service-areas/henderson-nv/commercial-restoration/",
+        "/service-areas/mount-charleston-nv/commercial-restoration/",
+        "/service-areas/nelson-nv/commercial-restoration/",
         "/service-areas/north-las-vegas-nv/commercial-restoration/",
         "/service-areas/paradise-nv/commercial-restoration/",
         "/service-areas/spring-valley-nv/commercial-restoration/",
+        "/service-areas/summerlin-south-nv/commercial-restoration/",
         "/service-areas/sunrise-manor-nv/commercial-restoration/",
         "/service-areas/whitney-nv/commercial-restoration/"
       ]
@@ -725,11 +790,16 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
         "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
+        "/service-areas/enterprise-nv/contents-restoration-pack-out/",
         "/service-areas/henderson-nv/contents-restoration-pack-out/",
+        "/service-areas/mount-charleston-nv/contents-restoration-pack-out/",
+        "/service-areas/nelson-nv/contents-restoration-pack-out/",
         "/service-areas/north-las-vegas-nv/contents-restoration-pack-out/",
         "/service-areas/paradise-nv/contents-restoration-pack-out/",
         "/service-areas/spring-valley-nv/contents-restoration-pack-out/",
+        "/service-areas/summerlin-south-nv/contents-restoration-pack-out/",
         "/service-areas/sunrise-manor-nv/contents-restoration-pack-out/",
         "/service-areas/whitney-nv/contents-restoration-pack-out/"
       ]
@@ -770,11 +840,16 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/blue-diamond-nv/mold-inspection-testing/",
         "/service-areas/boulder-city-nv/mold-inspection-testing/",
+        "/service-areas/enterprise-nv/mold-inspection-testing/",
         "/service-areas/henderson-nv/mold-inspection-testing/",
+        "/service-areas/mount-charleston-nv/mold-inspection-testing/",
+        "/service-areas/nelson-nv/mold-inspection-testing/",
         "/service-areas/north-las-vegas-nv/mold-inspection-testing/",
         "/service-areas/paradise-nv/mold-inspection-testing/",
         "/service-areas/spring-valley-nv/mold-inspection-testing/",
+        "/service-areas/summerlin-south-nv/mold-inspection-testing/",
         "/service-areas/sunrise-manor-nv/mold-inspection-testing/",
         "/service-areas/whitney-nv/mold-inspection-testing/",
         "/blog/how-to-test-for-mold/"
@@ -810,11 +885,16 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/blue-diamond-nv/basement-flood-cleanup/",
         "/service-areas/boulder-city-nv/basement-flood-cleanup/",
+        "/service-areas/enterprise-nv/basement-flood-cleanup/",
         "/service-areas/henderson-nv/basement-flood-cleanup/",
+        "/service-areas/mount-charleston-nv/basement-flood-cleanup/",
+        "/service-areas/nelson-nv/basement-flood-cleanup/",
         "/service-areas/north-las-vegas-nv/basement-flood-cleanup/",
         "/service-areas/paradise-nv/basement-flood-cleanup/",
         "/service-areas/spring-valley-nv/basement-flood-cleanup/",
+        "/service-areas/summerlin-south-nv/basement-flood-cleanup/",
         "/service-areas/sunrise-manor-nv/basement-flood-cleanup/",
         "/service-areas/whitney-nv/basement-flood-cleanup/"
       ]
@@ -864,9 +944,9 @@
         "/service-areas/henderson-nv/commercial-fire-restoration/",
         "/service-areas/henderson-nv/contents-restoration-pack-out/",
         "/service-areas/henderson-nv/contents-restoration-storage/",
+        "/service-areas/blue-diamond-nv/",
         "/service-areas/boulder-city-nv/",
-        "/service-areas/north-las-vegas-nv/",
-        "/service-areas/paradise-nv/"
+        "/service-areas/enterprise-nv/"
       ]
     },
     {
@@ -914,9 +994,9 @@
         "/service-areas/north-las-vegas-nv/commercial-fire-restoration/",
         "/service-areas/north-las-vegas-nv/contents-restoration-pack-out/",
         "/service-areas/north-las-vegas-nv/contents-restoration-storage/",
+        "/service-areas/blue-diamond-nv/",
         "/service-areas/boulder-city-nv/",
-        "/service-areas/henderson-nv/",
-        "/service-areas/paradise-nv/"
+        "/service-areas/enterprise-nv/"
       ]
     },
     {
@@ -964,9 +1044,9 @@
         "/service-areas/paradise-nv/commercial-fire-restoration/",
         "/service-areas/paradise-nv/contents-restoration-pack-out/",
         "/service-areas/paradise-nv/contents-restoration-storage/",
+        "/service-areas/blue-diamond-nv/",
         "/service-areas/boulder-city-nv/",
-        "/service-areas/henderson-nv/",
-        "/service-areas/north-las-vegas-nv/"
+        "/service-areas/enterprise-nv/"
       ]
     },
     {
@@ -1014,9 +1094,9 @@
         "/service-areas/spring-valley-nv/commercial-fire-restoration/",
         "/service-areas/spring-valley-nv/contents-restoration-pack-out/",
         "/service-areas/spring-valley-nv/contents-restoration-storage/",
+        "/service-areas/blue-diamond-nv/",
         "/service-areas/boulder-city-nv/",
-        "/service-areas/henderson-nv/",
-        "/service-areas/north-las-vegas-nv/"
+        "/service-areas/enterprise-nv/"
       ]
     },
     {
@@ -1064,9 +1144,9 @@
         "/service-areas/sunrise-manor-nv/commercial-fire-restoration/",
         "/service-areas/sunrise-manor-nv/contents-restoration-pack-out/",
         "/service-areas/sunrise-manor-nv/contents-restoration-storage/",
+        "/service-areas/blue-diamond-nv/",
         "/service-areas/boulder-city-nv/",
-        "/service-areas/henderson-nv/",
-        "/service-areas/north-las-vegas-nv/"
+        "/service-areas/enterprise-nv/"
       ]
     },
     {
@@ -1114,9 +1194,9 @@
         "/service-areas/whitney-nv/commercial-fire-restoration/",
         "/service-areas/whitney-nv/contents-restoration-pack-out/",
         "/service-areas/whitney-nv/contents-restoration-storage/",
+        "/service-areas/blue-diamond-nv/",
         "/service-areas/boulder-city-nv/",
-        "/service-areas/henderson-nv/",
-        "/service-areas/north-las-vegas-nv/"
+        "/service-areas/enterprise-nv/"
       ]
     },
     {
@@ -1164,9 +1244,309 @@
         "/service-areas/boulder-city-nv/commercial-fire-restoration/",
         "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
         "/service-areas/boulder-city-nv/contents-restoration-storage/",
-        "/service-areas/henderson-nv/",
-        "/service-areas/north-las-vegas-nv/",
-        "/service-areas/paradise-nv/"
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/henderson-nv/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/winchester-nv/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Winchester, NV | PuroClean of East Las Vegas",
+      "h1": "Restoration Services in Winchester",
+      "meta_description": "Serving Winchester, NV with water, fire, mold, and storm damage restoration. Experienced team. Call +17025513040.",
+      "primary_keyword": "restoration services winchester",
+      "secondary_keywords": [
+        "winchester restoration company",
+        "damage restoration winchester",
+        "winchester disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/winchester-nv/fire-damage-restoration/",
+        "/service-areas/winchester-nv/mold-remediation/",
+        "/service-areas/winchester-nv/water-damage-restoration/",
+        "/service-areas/winchester-nv/commercial-restoration/",
+        "/service-areas/winchester-nv/sewage-cleanup/",
+        "/service-areas/winchester-nv/water-cleanup/",
+        "/service-areas/winchester-nv/biohazard-cleanup/",
+        "/service-areas/winchester-nv/mold-inspection-testing/",
+        "/service-areas/winchester-nv/basement-flood-cleanup/",
+        "/service-areas/winchester-nv/burst-frozen-pipes/",
+        "/service-areas/winchester-nv/commercial-fire-restoration/",
+        "/service-areas/winchester-nv/contents-restoration-pack-out/",
+        "/service-areas/winchester-nv/contents-restoration-storage/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/enterprise-nv/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-south-nv/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Summerlin South, NV | PuroClean of East Las Vegas",
+      "h1": "Restoration Services in Summerlin South",
+      "meta_description": "Serving Summerlin South, NV with water, fire, mold, and storm damage restoration. Experienced team. Call +17025513040.",
+      "primary_keyword": "restoration services summerlin south",
+      "secondary_keywords": [
+        "summerlin south restoration company",
+        "damage restoration summerlin south",
+        "summerlin south disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/summerlin-south-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-south-nv/mold-remediation/",
+        "/service-areas/summerlin-south-nv/water-damage-restoration/",
+        "/service-areas/summerlin-south-nv/commercial-restoration/",
+        "/service-areas/summerlin-south-nv/sewage-cleanup/",
+        "/service-areas/summerlin-south-nv/water-cleanup/",
+        "/service-areas/summerlin-south-nv/biohazard-cleanup/",
+        "/service-areas/summerlin-south-nv/mold-inspection-testing/",
+        "/service-areas/summerlin-south-nv/basement-flood-cleanup/",
+        "/service-areas/summerlin-south-nv/burst-frozen-pipes/",
+        "/service-areas/summerlin-south-nv/commercial-fire-restoration/",
+        "/service-areas/summerlin-south-nv/contents-restoration-pack-out/",
+        "/service-areas/summerlin-south-nv/contents-restoration-storage/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/enterprise-nv/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/enterprise-nv/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Enterprise, NV | PuroClean of East Las Vegas",
+      "h1": "Restoration Services in Enterprise",
+      "meta_description": "Serving Enterprise, NV with water, fire, mold, and storm damage restoration. Experienced team. Call +17025513040.",
+      "primary_keyword": "restoration services enterprise",
+      "secondary_keywords": [
+        "enterprise restoration company",
+        "damage restoration enterprise",
+        "enterprise disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/enterprise-nv/water-damage-restoration/",
+        "/service-areas/enterprise-nv/commercial-restoration/",
+        "/service-areas/enterprise-nv/sewage-cleanup/",
+        "/service-areas/enterprise-nv/water-cleanup/",
+        "/service-areas/enterprise-nv/biohazard-cleanup/",
+        "/service-areas/enterprise-nv/mold-inspection-testing/",
+        "/service-areas/enterprise-nv/basement-flood-cleanup/",
+        "/service-areas/enterprise-nv/burst-frozen-pipes/",
+        "/service-areas/enterprise-nv/commercial-fire-restoration/",
+        "/service-areas/enterprise-nv/contents-restoration-pack-out/",
+        "/service-areas/enterprise-nv/contents-restoration-storage/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/henderson-nv/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Blue Diamond, NV | PuroClean of East Las Vegas",
+      "h1": "Restoration Services in Blue Diamond",
+      "meta_description": "Serving Blue Diamond, NV with water, fire, mold, and storm damage restoration. Experienced team. Call +17025513040.",
+      "primary_keyword": "restoration services blue diamond",
+      "secondary_keywords": [
+        "blue diamond restoration company",
+        "damage restoration blue diamond",
+        "blue diamond disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/commercial-restoration/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
+        "/service-areas/blue-diamond-nv/mold-inspection-testing/",
+        "/service-areas/blue-diamond-nv/basement-flood-cleanup/",
+        "/service-areas/blue-diamond-nv/burst-frozen-pipes/",
+        "/service-areas/blue-diamond-nv/commercial-fire-restoration/",
+        "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
+        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/henderson-nv/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mount-charleston-nv/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Mount Charleston, NV | PuroClean of East Las Vegas",
+      "h1": "Restoration Services in Mount Charleston",
+      "meta_description": "Serving Mount Charleston, NV with water, fire, mold, and storm damage restoration. Experienced team. Call +17025513040.",
+      "primary_keyword": "restoration services mount charleston",
+      "secondary_keywords": [
+        "mount charleston restoration company",
+        "damage restoration mount charleston",
+        "mount charleston disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/mount-charleston-nv/fire-damage-restoration/",
+        "/service-areas/mount-charleston-nv/mold-remediation/",
+        "/service-areas/mount-charleston-nv/water-damage-restoration/",
+        "/service-areas/mount-charleston-nv/commercial-restoration/",
+        "/service-areas/mount-charleston-nv/sewage-cleanup/",
+        "/service-areas/mount-charleston-nv/water-cleanup/",
+        "/service-areas/mount-charleston-nv/biohazard-cleanup/",
+        "/service-areas/mount-charleston-nv/mold-inspection-testing/",
+        "/service-areas/mount-charleston-nv/basement-flood-cleanup/",
+        "/service-areas/mount-charleston-nv/burst-frozen-pipes/",
+        "/service-areas/mount-charleston-nv/commercial-fire-restoration/",
+        "/service-areas/mount-charleston-nv/contents-restoration-pack-out/",
+        "/service-areas/mount-charleston-nv/contents-restoration-storage/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/enterprise-nv/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nelson-nv/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Nelson, NV | PuroClean of East Las Vegas",
+      "h1": "Restoration Services in Nelson",
+      "meta_description": "Serving Nelson, NV with water, fire, mold, and storm damage restoration. Experienced team. Call +17025513040.",
+      "primary_keyword": "restoration services nelson",
+      "secondary_keywords": [
+        "nelson restoration company",
+        "damage restoration nelson",
+        "nelson disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/nelson-nv/fire-damage-restoration/",
+        "/service-areas/nelson-nv/mold-remediation/",
+        "/service-areas/nelson-nv/water-damage-restoration/",
+        "/service-areas/nelson-nv/commercial-restoration/",
+        "/service-areas/nelson-nv/sewage-cleanup/",
+        "/service-areas/nelson-nv/water-cleanup/",
+        "/service-areas/nelson-nv/biohazard-cleanup/",
+        "/service-areas/nelson-nv/mold-inspection-testing/",
+        "/service-areas/nelson-nv/basement-flood-cleanup/",
+        "/service-areas/nelson-nv/burst-frozen-pipes/",
+        "/service-areas/nelson-nv/commercial-fire-restoration/",
+        "/service-areas/nelson-nv/contents-restoration-pack-out/",
+        "/service-areas/nelson-nv/contents-restoration-storage/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/enterprise-nv/"
       ]
     },
     {
@@ -1208,8 +1588,8 @@
         "/service-areas/henderson-nv/",
         "/service-areas/henderson-nv/mold-remediation/",
         "/service-areas/henderson-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
-        "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1252,8 +1632,8 @@
         "/service-areas/henderson-nv/",
         "/service-areas/henderson-nv/fire-damage-restoration/",
         "/service-areas/henderson-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/north-las-vegas-nv/mold-remediation/",
         "/contact/"
       ]
     },
@@ -1296,8 +1676,8 @@
         "/service-areas/henderson-nv/",
         "/service-areas/henderson-nv/fire-damage-restoration/",
         "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
-        "/service-areas/north-las-vegas-nv/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1340,8 +1720,8 @@
         "/service-areas/henderson-nv/",
         "/service-areas/henderson-nv/fire-damage-restoration/",
         "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
         "/service-areas/boulder-city-nv/sewage-cleanup/",
-        "/service-areas/north-las-vegas-nv/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -1384,8 +1764,8 @@
         "/service-areas/henderson-nv/",
         "/service-areas/henderson-nv/fire-damage-restoration/",
         "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
         "/service-areas/boulder-city-nv/biohazard-cleanup/",
-        "/service-areas/north-las-vegas-nv/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -1422,8 +1802,8 @@
         "/service-areas/henderson-nv/",
         "/service-areas/henderson-nv/fire-damage-restoration/",
         "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/burst-frozen-pipes/",
         "/service-areas/boulder-city-nv/burst-frozen-pipes/",
-        "/service-areas/north-las-vegas-nv/burst-frozen-pipes/",
         "/contact/"
       ]
     },
@@ -1460,8 +1840,8 @@
         "/service-areas/henderson-nv/",
         "/service-areas/henderson-nv/fire-damage-restoration/",
         "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/commercial-fire-restoration/",
         "/service-areas/boulder-city-nv/commercial-fire-restoration/",
-        "/service-areas/north-las-vegas-nv/commercial-fire-restoration/",
         "/contact/"
       ]
     },
@@ -1498,8 +1878,8 @@
         "/service-areas/henderson-nv/",
         "/service-areas/henderson-nv/fire-damage-restoration/",
         "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
         "/service-areas/boulder-city-nv/contents-restoration-storage/",
-        "/service-areas/north-las-vegas-nv/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -1513,8 +1893,9 @@
       "title": "Water Cleanup in Henderson, NV | PuroClean of East Las Vegas",
       "h1": "Water Cleanup in Henderson",
       "meta_description": "Water cleanup in Henderson, NV. Insurance billing accepted. Call +17025513040.",
-      "primary_keyword": "water cleanup henderson",
+      "primary_keyword": "emergency water cleanup henderson",
       "secondary_keywords": [
+        "water cleanup",
         "water damage cleanup",
         "water clean up",
         "flood water cleanup",
@@ -1541,8 +1922,8 @@
         "/service-areas/henderson-nv/",
         "/service-areas/henderson-nv/fire-damage-restoration/",
         "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
         "/service-areas/boulder-city-nv/water-cleanup/",
-        "/service-areas/north-las-vegas-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -1585,8 +1966,8 @@
         "/service-areas/henderson-nv/",
         "/service-areas/henderson-nv/fire-damage-restoration/",
         "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/commercial-restoration/",
         "/service-areas/boulder-city-nv/commercial-restoration/",
-        "/service-areas/north-las-vegas-nv/commercial-restoration/",
         "/contact/"
       ]
     },
@@ -1623,8 +2004,8 @@
         "/service-areas/henderson-nv/",
         "/service-areas/henderson-nv/fire-damage-restoration/",
         "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
         "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
-        "/service-areas/north-las-vegas-nv/contents-restoration-pack-out/",
         "/contact/"
       ]
     },
@@ -1667,8 +2048,8 @@
         "/service-areas/henderson-nv/",
         "/service-areas/henderson-nv/fire-damage-restoration/",
         "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/mold-inspection-testing/",
         "/service-areas/boulder-city-nv/mold-inspection-testing/",
-        "/service-areas/north-las-vegas-nv/mold-inspection-testing/",
         "/contact/"
       ]
     },
@@ -1705,8 +2086,8 @@
         "/service-areas/henderson-nv/",
         "/service-areas/henderson-nv/fire-damage-restoration/",
         "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/basement-flood-cleanup/",
         "/service-areas/boulder-city-nv/basement-flood-cleanup/",
-        "/service-areas/north-las-vegas-nv/basement-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -1749,8 +2130,8 @@
         "/service-areas/north-las-vegas-nv/",
         "/service-areas/north-las-vegas-nv/mold-remediation/",
         "/service-areas/north-las-vegas-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
-        "/service-areas/henderson-nv/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1793,8 +2174,8 @@
         "/service-areas/north-las-vegas-nv/",
         "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
         "/service-areas/north-las-vegas-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/henderson-nv/mold-remediation/",
         "/contact/"
       ]
     },
@@ -1837,8 +2218,8 @@
         "/service-areas/north-las-vegas-nv/",
         "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
         "/service-areas/north-las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
-        "/service-areas/henderson-nv/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1881,8 +2262,8 @@
         "/service-areas/north-las-vegas-nv/",
         "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
         "/service-areas/north-las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
         "/service-areas/boulder-city-nv/sewage-cleanup/",
-        "/service-areas/henderson-nv/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -1925,8 +2306,8 @@
         "/service-areas/north-las-vegas-nv/",
         "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
         "/service-areas/north-las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
         "/service-areas/boulder-city-nv/biohazard-cleanup/",
-        "/service-areas/henderson-nv/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -1963,8 +2344,8 @@
         "/service-areas/north-las-vegas-nv/",
         "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
         "/service-areas/north-las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/burst-frozen-pipes/",
         "/service-areas/boulder-city-nv/burst-frozen-pipes/",
-        "/service-areas/henderson-nv/burst-frozen-pipes/",
         "/contact/"
       ]
     },
@@ -2001,8 +2382,8 @@
         "/service-areas/north-las-vegas-nv/",
         "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
         "/service-areas/north-las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/commercial-fire-restoration/",
         "/service-areas/boulder-city-nv/commercial-fire-restoration/",
-        "/service-areas/henderson-nv/commercial-fire-restoration/",
         "/contact/"
       ]
     },
@@ -2039,8 +2420,8 @@
         "/service-areas/north-las-vegas-nv/",
         "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
         "/service-areas/north-las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
         "/service-areas/boulder-city-nv/contents-restoration-storage/",
-        "/service-areas/henderson-nv/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -2054,8 +2435,9 @@
       "title": "Water Cleanup in North Las Vegas, NV | PuroClean of East Las Vegas",
       "h1": "Water Cleanup in North Las Vegas",
       "meta_description": "Water cleanup in North Las Vegas, NV. Insurance billing accepted. Call +17025513040.",
-      "primary_keyword": "water cleanup north las vegas",
+      "primary_keyword": "emergency water cleanup north las vegas",
       "secondary_keywords": [
+        "water cleanup",
         "water damage cleanup",
         "water clean up",
         "flood water cleanup",
@@ -2082,8 +2464,8 @@
         "/service-areas/north-las-vegas-nv/",
         "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
         "/service-areas/north-las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
         "/service-areas/boulder-city-nv/water-cleanup/",
-        "/service-areas/henderson-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2126,8 +2508,8 @@
         "/service-areas/north-las-vegas-nv/",
         "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
         "/service-areas/north-las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/commercial-restoration/",
         "/service-areas/boulder-city-nv/commercial-restoration/",
-        "/service-areas/henderson-nv/commercial-restoration/",
         "/contact/"
       ]
     },
@@ -2164,8 +2546,8 @@
         "/service-areas/north-las-vegas-nv/",
         "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
         "/service-areas/north-las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
         "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
-        "/service-areas/henderson-nv/contents-restoration-pack-out/",
         "/contact/"
       ]
     },
@@ -2208,8 +2590,8 @@
         "/service-areas/north-las-vegas-nv/",
         "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
         "/service-areas/north-las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/mold-inspection-testing/",
         "/service-areas/boulder-city-nv/mold-inspection-testing/",
-        "/service-areas/henderson-nv/mold-inspection-testing/",
         "/contact/"
       ]
     },
@@ -2246,8 +2628,8 @@
         "/service-areas/north-las-vegas-nv/",
         "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
         "/service-areas/north-las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/basement-flood-cleanup/",
         "/service-areas/boulder-city-nv/basement-flood-cleanup/",
-        "/service-areas/henderson-nv/basement-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -2290,8 +2672,8 @@
         "/service-areas/paradise-nv/",
         "/service-areas/paradise-nv/mold-remediation/",
         "/service-areas/paradise-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
-        "/service-areas/henderson-nv/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2334,8 +2716,8 @@
         "/service-areas/paradise-nv/",
         "/service-areas/paradise-nv/fire-damage-restoration/",
         "/service-areas/paradise-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/henderson-nv/mold-remediation/",
         "/contact/"
       ]
     },
@@ -2378,8 +2760,8 @@
         "/service-areas/paradise-nv/",
         "/service-areas/paradise-nv/fire-damage-restoration/",
         "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
-        "/service-areas/henderson-nv/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2422,8 +2804,8 @@
         "/service-areas/paradise-nv/",
         "/service-areas/paradise-nv/fire-damage-restoration/",
         "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
         "/service-areas/boulder-city-nv/sewage-cleanup/",
-        "/service-areas/henderson-nv/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -2466,8 +2848,8 @@
         "/service-areas/paradise-nv/",
         "/service-areas/paradise-nv/fire-damage-restoration/",
         "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
         "/service-areas/boulder-city-nv/biohazard-cleanup/",
-        "/service-areas/henderson-nv/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -2504,8 +2886,8 @@
         "/service-areas/paradise-nv/",
         "/service-areas/paradise-nv/fire-damage-restoration/",
         "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/burst-frozen-pipes/",
         "/service-areas/boulder-city-nv/burst-frozen-pipes/",
-        "/service-areas/henderson-nv/burst-frozen-pipes/",
         "/contact/"
       ]
     },
@@ -2542,8 +2924,8 @@
         "/service-areas/paradise-nv/",
         "/service-areas/paradise-nv/fire-damage-restoration/",
         "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/commercial-fire-restoration/",
         "/service-areas/boulder-city-nv/commercial-fire-restoration/",
-        "/service-areas/henderson-nv/commercial-fire-restoration/",
         "/contact/"
       ]
     },
@@ -2580,8 +2962,8 @@
         "/service-areas/paradise-nv/",
         "/service-areas/paradise-nv/fire-damage-restoration/",
         "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
         "/service-areas/boulder-city-nv/contents-restoration-storage/",
-        "/service-areas/henderson-nv/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -2595,8 +2977,9 @@
       "title": "Water Cleanup in Paradise, NV | PuroClean of East Las Vegas",
       "h1": "Water Cleanup in Paradise",
       "meta_description": "Water cleanup in Paradise, NV. Insurance billing accepted. Call +17025513040.",
-      "primary_keyword": "water cleanup paradise",
+      "primary_keyword": "emergency water cleanup paradise",
       "secondary_keywords": [
+        "water cleanup",
         "water damage cleanup",
         "water clean up",
         "flood water cleanup",
@@ -2623,8 +3006,8 @@
         "/service-areas/paradise-nv/",
         "/service-areas/paradise-nv/fire-damage-restoration/",
         "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
         "/service-areas/boulder-city-nv/water-cleanup/",
-        "/service-areas/henderson-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2667,8 +3050,8 @@
         "/service-areas/paradise-nv/",
         "/service-areas/paradise-nv/fire-damage-restoration/",
         "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/commercial-restoration/",
         "/service-areas/boulder-city-nv/commercial-restoration/",
-        "/service-areas/henderson-nv/commercial-restoration/",
         "/contact/"
       ]
     },
@@ -2705,8 +3088,8 @@
         "/service-areas/paradise-nv/",
         "/service-areas/paradise-nv/fire-damage-restoration/",
         "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
         "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
-        "/service-areas/henderson-nv/contents-restoration-pack-out/",
         "/contact/"
       ]
     },
@@ -2749,8 +3132,8 @@
         "/service-areas/paradise-nv/",
         "/service-areas/paradise-nv/fire-damage-restoration/",
         "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/mold-inspection-testing/",
         "/service-areas/boulder-city-nv/mold-inspection-testing/",
-        "/service-areas/henderson-nv/mold-inspection-testing/",
         "/contact/"
       ]
     },
@@ -2787,8 +3170,8 @@
         "/service-areas/paradise-nv/",
         "/service-areas/paradise-nv/fire-damage-restoration/",
         "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/basement-flood-cleanup/",
         "/service-areas/boulder-city-nv/basement-flood-cleanup/",
-        "/service-areas/henderson-nv/basement-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -2831,8 +3214,8 @@
         "/service-areas/spring-valley-nv/",
         "/service-areas/spring-valley-nv/mold-remediation/",
         "/service-areas/spring-valley-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
-        "/service-areas/henderson-nv/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2875,8 +3258,8 @@
         "/service-areas/spring-valley-nv/",
         "/service-areas/spring-valley-nv/fire-damage-restoration/",
         "/service-areas/spring-valley-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/henderson-nv/mold-remediation/",
         "/contact/"
       ]
     },
@@ -2919,8 +3302,8 @@
         "/service-areas/spring-valley-nv/",
         "/service-areas/spring-valley-nv/fire-damage-restoration/",
         "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
-        "/service-areas/henderson-nv/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2963,8 +3346,8 @@
         "/service-areas/spring-valley-nv/",
         "/service-areas/spring-valley-nv/fire-damage-restoration/",
         "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
         "/service-areas/boulder-city-nv/sewage-cleanup/",
-        "/service-areas/henderson-nv/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -3007,8 +3390,8 @@
         "/service-areas/spring-valley-nv/",
         "/service-areas/spring-valley-nv/fire-damage-restoration/",
         "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
         "/service-areas/boulder-city-nv/biohazard-cleanup/",
-        "/service-areas/henderson-nv/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -3045,8 +3428,8 @@
         "/service-areas/spring-valley-nv/",
         "/service-areas/spring-valley-nv/fire-damage-restoration/",
         "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/burst-frozen-pipes/",
         "/service-areas/boulder-city-nv/burst-frozen-pipes/",
-        "/service-areas/henderson-nv/burst-frozen-pipes/",
         "/contact/"
       ]
     },
@@ -3083,8 +3466,8 @@
         "/service-areas/spring-valley-nv/",
         "/service-areas/spring-valley-nv/fire-damage-restoration/",
         "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/commercial-fire-restoration/",
         "/service-areas/boulder-city-nv/commercial-fire-restoration/",
-        "/service-areas/henderson-nv/commercial-fire-restoration/",
         "/contact/"
       ]
     },
@@ -3121,8 +3504,8 @@
         "/service-areas/spring-valley-nv/",
         "/service-areas/spring-valley-nv/fire-damage-restoration/",
         "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
         "/service-areas/boulder-city-nv/contents-restoration-storage/",
-        "/service-areas/henderson-nv/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -3136,8 +3519,9 @@
       "title": "Water Cleanup in Spring Valley, NV | PuroClean of East Las Vegas",
       "h1": "Water Cleanup in Spring Valley",
       "meta_description": "Water cleanup in Spring Valley, NV. Insurance billing accepted. Call +17025513040.",
-      "primary_keyword": "water cleanup spring valley",
+      "primary_keyword": "emergency water cleanup spring valley",
       "secondary_keywords": [
+        "water cleanup",
         "water damage cleanup",
         "water clean up",
         "flood water cleanup",
@@ -3164,8 +3548,8 @@
         "/service-areas/spring-valley-nv/",
         "/service-areas/spring-valley-nv/fire-damage-restoration/",
         "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
         "/service-areas/boulder-city-nv/water-cleanup/",
-        "/service-areas/henderson-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3208,8 +3592,8 @@
         "/service-areas/spring-valley-nv/",
         "/service-areas/spring-valley-nv/fire-damage-restoration/",
         "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/commercial-restoration/",
         "/service-areas/boulder-city-nv/commercial-restoration/",
-        "/service-areas/henderson-nv/commercial-restoration/",
         "/contact/"
       ]
     },
@@ -3246,8 +3630,8 @@
         "/service-areas/spring-valley-nv/",
         "/service-areas/spring-valley-nv/fire-damage-restoration/",
         "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
         "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
-        "/service-areas/henderson-nv/contents-restoration-pack-out/",
         "/contact/"
       ]
     },
@@ -3290,8 +3674,8 @@
         "/service-areas/spring-valley-nv/",
         "/service-areas/spring-valley-nv/fire-damage-restoration/",
         "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/mold-inspection-testing/",
         "/service-areas/boulder-city-nv/mold-inspection-testing/",
-        "/service-areas/henderson-nv/mold-inspection-testing/",
         "/contact/"
       ]
     },
@@ -3328,8 +3712,8 @@
         "/service-areas/spring-valley-nv/",
         "/service-areas/spring-valley-nv/fire-damage-restoration/",
         "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/basement-flood-cleanup/",
         "/service-areas/boulder-city-nv/basement-flood-cleanup/",
-        "/service-areas/henderson-nv/basement-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -3372,8 +3756,8 @@
         "/service-areas/sunrise-manor-nv/",
         "/service-areas/sunrise-manor-nv/mold-remediation/",
         "/service-areas/sunrise-manor-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
-        "/service-areas/henderson-nv/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3416,8 +3800,8 @@
         "/service-areas/sunrise-manor-nv/",
         "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
         "/service-areas/sunrise-manor-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/henderson-nv/mold-remediation/",
         "/contact/"
       ]
     },
@@ -3460,8 +3844,8 @@
         "/service-areas/sunrise-manor-nv/",
         "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
         "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
-        "/service-areas/henderson-nv/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3504,8 +3888,8 @@
         "/service-areas/sunrise-manor-nv/",
         "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
         "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
         "/service-areas/boulder-city-nv/sewage-cleanup/",
-        "/service-areas/henderson-nv/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -3548,8 +3932,8 @@
         "/service-areas/sunrise-manor-nv/",
         "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
         "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
         "/service-areas/boulder-city-nv/biohazard-cleanup/",
-        "/service-areas/henderson-nv/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -3586,8 +3970,8 @@
         "/service-areas/sunrise-manor-nv/",
         "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
         "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/burst-frozen-pipes/",
         "/service-areas/boulder-city-nv/burst-frozen-pipes/",
-        "/service-areas/henderson-nv/burst-frozen-pipes/",
         "/contact/"
       ]
     },
@@ -3624,8 +4008,8 @@
         "/service-areas/sunrise-manor-nv/",
         "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
         "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/commercial-fire-restoration/",
         "/service-areas/boulder-city-nv/commercial-fire-restoration/",
-        "/service-areas/henderson-nv/commercial-fire-restoration/",
         "/contact/"
       ]
     },
@@ -3662,8 +4046,8 @@
         "/service-areas/sunrise-manor-nv/",
         "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
         "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
         "/service-areas/boulder-city-nv/contents-restoration-storage/",
-        "/service-areas/henderson-nv/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -3677,8 +4061,9 @@
       "title": "Water Cleanup in Sunrise Manor, NV | PuroClean of East Las Vegas",
       "h1": "Water Cleanup in Sunrise Manor",
       "meta_description": "Water cleanup in Sunrise Manor, NV. Insurance billing accepted. Call +17025513040.",
-      "primary_keyword": "water cleanup sunrise manor",
+      "primary_keyword": "emergency water cleanup sunrise manor",
       "secondary_keywords": [
+        "water cleanup",
         "water damage cleanup",
         "water clean up",
         "flood water cleanup",
@@ -3705,8 +4090,8 @@
         "/service-areas/sunrise-manor-nv/",
         "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
         "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
         "/service-areas/boulder-city-nv/water-cleanup/",
-        "/service-areas/henderson-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3749,8 +4134,8 @@
         "/service-areas/sunrise-manor-nv/",
         "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
         "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/commercial-restoration/",
         "/service-areas/boulder-city-nv/commercial-restoration/",
-        "/service-areas/henderson-nv/commercial-restoration/",
         "/contact/"
       ]
     },
@@ -3787,8 +4172,8 @@
         "/service-areas/sunrise-manor-nv/",
         "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
         "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
         "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
-        "/service-areas/henderson-nv/contents-restoration-pack-out/",
         "/contact/"
       ]
     },
@@ -3831,8 +4216,8 @@
         "/service-areas/sunrise-manor-nv/",
         "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
         "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/mold-inspection-testing/",
         "/service-areas/boulder-city-nv/mold-inspection-testing/",
-        "/service-areas/henderson-nv/mold-inspection-testing/",
         "/contact/"
       ]
     },
@@ -3869,8 +4254,8 @@
         "/service-areas/sunrise-manor-nv/",
         "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
         "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/basement-flood-cleanup/",
         "/service-areas/boulder-city-nv/basement-flood-cleanup/",
-        "/service-areas/henderson-nv/basement-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -3913,8 +4298,8 @@
         "/service-areas/whitney-nv/",
         "/service-areas/whitney-nv/mold-remediation/",
         "/service-areas/whitney-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
-        "/service-areas/henderson-nv/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3957,8 +4342,8 @@
         "/service-areas/whitney-nv/",
         "/service-areas/whitney-nv/fire-damage-restoration/",
         "/service-areas/whitney-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/henderson-nv/mold-remediation/",
         "/contact/"
       ]
     },
@@ -4001,8 +4386,8 @@
         "/service-areas/whitney-nv/",
         "/service-areas/whitney-nv/fire-damage-restoration/",
         "/service-areas/whitney-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
-        "/service-areas/henderson-nv/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4045,8 +4430,8 @@
         "/service-areas/whitney-nv/",
         "/service-areas/whitney-nv/fire-damage-restoration/",
         "/service-areas/whitney-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
         "/service-areas/boulder-city-nv/sewage-cleanup/",
-        "/service-areas/henderson-nv/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -4089,8 +4474,8 @@
         "/service-areas/whitney-nv/",
         "/service-areas/whitney-nv/fire-damage-restoration/",
         "/service-areas/whitney-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
         "/service-areas/boulder-city-nv/biohazard-cleanup/",
-        "/service-areas/henderson-nv/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -4127,8 +4512,8 @@
         "/service-areas/whitney-nv/",
         "/service-areas/whitney-nv/fire-damage-restoration/",
         "/service-areas/whitney-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/burst-frozen-pipes/",
         "/service-areas/boulder-city-nv/burst-frozen-pipes/",
-        "/service-areas/henderson-nv/burst-frozen-pipes/",
         "/contact/"
       ]
     },
@@ -4165,8 +4550,8 @@
         "/service-areas/whitney-nv/",
         "/service-areas/whitney-nv/fire-damage-restoration/",
         "/service-areas/whitney-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/commercial-fire-restoration/",
         "/service-areas/boulder-city-nv/commercial-fire-restoration/",
-        "/service-areas/henderson-nv/commercial-fire-restoration/",
         "/contact/"
       ]
     },
@@ -4203,8 +4588,8 @@
         "/service-areas/whitney-nv/",
         "/service-areas/whitney-nv/fire-damage-restoration/",
         "/service-areas/whitney-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
         "/service-areas/boulder-city-nv/contents-restoration-storage/",
-        "/service-areas/henderson-nv/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -4218,8 +4603,9 @@
       "title": "Water Cleanup in Whitney, NV | PuroClean of East Las Vegas",
       "h1": "Water Cleanup in Whitney",
       "meta_description": "Water cleanup in Whitney, NV. Insurance billing accepted. Call +17025513040.",
-      "primary_keyword": "water cleanup whitney",
+      "primary_keyword": "emergency water cleanup whitney",
       "secondary_keywords": [
+        "water cleanup",
         "water damage cleanup",
         "water clean up",
         "flood water cleanup",
@@ -4246,8 +4632,8 @@
         "/service-areas/whitney-nv/",
         "/service-areas/whitney-nv/fire-damage-restoration/",
         "/service-areas/whitney-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
         "/service-areas/boulder-city-nv/water-cleanup/",
-        "/service-areas/henderson-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4290,8 +4676,8 @@
         "/service-areas/whitney-nv/",
         "/service-areas/whitney-nv/fire-damage-restoration/",
         "/service-areas/whitney-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/commercial-restoration/",
         "/service-areas/boulder-city-nv/commercial-restoration/",
-        "/service-areas/henderson-nv/commercial-restoration/",
         "/contact/"
       ]
     },
@@ -4328,8 +4714,8 @@
         "/service-areas/whitney-nv/",
         "/service-areas/whitney-nv/fire-damage-restoration/",
         "/service-areas/whitney-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
         "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
-        "/service-areas/henderson-nv/contents-restoration-pack-out/",
         "/contact/"
       ]
     },
@@ -4372,8 +4758,8 @@
         "/service-areas/whitney-nv/",
         "/service-areas/whitney-nv/fire-damage-restoration/",
         "/service-areas/whitney-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/mold-inspection-testing/",
         "/service-areas/boulder-city-nv/mold-inspection-testing/",
-        "/service-areas/henderson-nv/mold-inspection-testing/",
         "/contact/"
       ]
     },
@@ -4410,8 +4796,8 @@
         "/service-areas/whitney-nv/",
         "/service-areas/whitney-nv/fire-damage-restoration/",
         "/service-areas/whitney-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/basement-flood-cleanup/",
         "/service-areas/boulder-city-nv/basement-flood-cleanup/",
-        "/service-areas/henderson-nv/basement-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -4454,8 +4840,8 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/boulder-city-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
-        "/service-areas/henderson-nv/fire-damage-restoration/",
-        "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4498,8 +4884,8 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
-        "/service-areas/henderson-nv/mold-remediation/",
-        "/service-areas/north-las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/enterprise-nv/mold-remediation/",
         "/contact/"
       ]
     },
@@ -4542,8 +4928,8 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/henderson-nv/water-damage-restoration/",
-        "/service-areas/north-las-vegas-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
+        "/service-areas/enterprise-nv/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4586,8 +4972,8 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/henderson-nv/sewage-cleanup/",
-        "/service-areas/north-las-vegas-nv/sewage-cleanup/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
+        "/service-areas/enterprise-nv/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -4630,8 +5016,8 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/henderson-nv/biohazard-cleanup/",
-        "/service-areas/north-las-vegas-nv/biohazard-cleanup/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
+        "/service-areas/enterprise-nv/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -4668,8 +5054,8 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/henderson-nv/burst-frozen-pipes/",
-        "/service-areas/north-las-vegas-nv/burst-frozen-pipes/",
+        "/service-areas/blue-diamond-nv/burst-frozen-pipes/",
+        "/service-areas/enterprise-nv/burst-frozen-pipes/",
         "/contact/"
       ]
     },
@@ -4706,8 +5092,8 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/henderson-nv/commercial-fire-restoration/",
-        "/service-areas/north-las-vegas-nv/commercial-fire-restoration/",
+        "/service-areas/blue-diamond-nv/commercial-fire-restoration/",
+        "/service-areas/enterprise-nv/commercial-fire-restoration/",
         "/contact/"
       ]
     },
@@ -4744,8 +5130,8 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/henderson-nv/contents-restoration-storage/",
-        "/service-areas/north-las-vegas-nv/contents-restoration-storage/",
+        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
+        "/service-areas/enterprise-nv/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -4759,8 +5145,9 @@
       "title": "Water Cleanup in Boulder City, NV | PuroClean of East Las Vegas",
       "h1": "Water Cleanup in Boulder City",
       "meta_description": "Water cleanup in Boulder City, NV. Insurance billing accepted. Call +17025513040.",
-      "primary_keyword": "water cleanup boulder city",
+      "primary_keyword": "emergency water cleanup boulder city",
       "secondary_keywords": [
+        "water cleanup",
         "water damage cleanup",
         "water clean up",
         "flood water cleanup",
@@ -4787,8 +5174,8 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/henderson-nv/water-cleanup/",
-        "/service-areas/north-las-vegas-nv/water-cleanup/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
+        "/service-areas/enterprise-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4831,8 +5218,8 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/henderson-nv/commercial-restoration/",
-        "/service-areas/north-las-vegas-nv/commercial-restoration/",
+        "/service-areas/blue-diamond-nv/commercial-restoration/",
+        "/service-areas/enterprise-nv/commercial-restoration/",
         "/contact/"
       ]
     },
@@ -4869,8 +5256,8 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/henderson-nv/contents-restoration-pack-out/",
-        "/service-areas/north-las-vegas-nv/contents-restoration-pack-out/",
+        "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
+        "/service-areas/enterprise-nv/contents-restoration-pack-out/",
         "/contact/"
       ]
     },
@@ -4913,8 +5300,8 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/henderson-nv/mold-inspection-testing/",
-        "/service-areas/north-las-vegas-nv/mold-inspection-testing/",
+        "/service-areas/blue-diamond-nv/mold-inspection-testing/",
+        "/service-areas/enterprise-nv/mold-inspection-testing/",
         "/contact/"
       ]
     },
@@ -4951,8 +5338,3260 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/henderson-nv/basement-flood-cleanup/",
-        "/service-areas/north-las-vegas-nv/basement-flood-cleanup/",
+        "/service-areas/blue-diamond-nv/basement-flood-cleanup/",
+        "/service-areas/enterprise-nv/basement-flood-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/winchester-nv/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Winchester, NV | PuroClean of East Las Vegas",
+      "h1": "Fire Damage Restoration in Winchester",
+      "meta_description": "Fire damage restoration in Winchester, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "fire damage restoration winchester",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/winchester-nv/",
+        "/service-areas/winchester-nv/mold-remediation/",
+        "/service-areas/winchester-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/winchester-nv/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Winchester, NV | PuroClean of East Las Vegas",
+      "h1": "Mold Remediation in Winchester",
+      "meta_description": "Mold remediation in Winchester, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "mold remediation winchester",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/winchester-nv/",
+        "/service-areas/winchester-nv/fire-damage-restoration/",
+        "/service-areas/winchester-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/winchester-nv/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Winchester, NV | PuroClean of East Las Vegas",
+      "h1": "Water Damage Restoration in Winchester",
+      "meta_description": "Water damage restoration in Winchester, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "water damage restoration winchester",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/winchester-nv/",
+        "/service-areas/winchester-nv/fire-damage-restoration/",
+        "/service-areas/winchester-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/winchester-nv/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Winchester, NV | PuroClean of East Las Vegas",
+      "h1": "Sewage Cleanup and Sanitization in Winchester",
+      "meta_description": "Sewage cleanup and sanitization in Winchester, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "sewage cleanup and sanitization winchester",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/winchester-nv/",
+        "/service-areas/winchester-nv/fire-damage-restoration/",
+        "/service-areas/winchester-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
+        "/service-areas/boulder-city-nv/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/winchester-nv/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Winchester, NV | PuroClean of East Las Vegas",
+      "h1": "Biohazard Cleanup in Winchester",
+      "meta_description": "Biohazard cleanup in Winchester, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "biohazard cleanup winchester",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/winchester-nv/",
+        "/service-areas/winchester-nv/fire-damage-restoration/",
+        "/service-areas/winchester-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
+        "/service-areas/boulder-city-nv/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/winchester-nv/burst-frozen-pipes/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst & Frozen Pipes in Winchester, NV | PuroClean of East Las Vegas",
+      "h1": "Burst & Frozen Pipes in Winchester",
+      "meta_description": "Burst & frozen pipes in Winchester, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "burst & frozen pipes winchester",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-frozen-pipes/",
+        "/service-areas/winchester-nv/",
+        "/service-areas/winchester-nv/fire-damage-restoration/",
+        "/service-areas/winchester-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/burst-frozen-pipes/",
+        "/service-areas/boulder-city-nv/burst-frozen-pipes/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/winchester-nv/commercial-fire-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Commercial Fire Restoration in Winchester, NV | PuroClean of East Las Vegas",
+      "h1": "Commercial Fire Restoration in Winchester",
+      "meta_description": "Commercial fire restoration in Winchester, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "commercial fire restoration winchester",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/commercial-fire-restoration/",
+        "/service-areas/winchester-nv/",
+        "/service-areas/winchester-nv/fire-damage-restoration/",
+        "/service-areas/winchester-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/commercial-fire-restoration/",
+        "/service-areas/boulder-city-nv/commercial-fire-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/winchester-nv/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Winchester, NV | PuroClean of East Las Vegas",
+      "h1": "Contents Restoration & Storage in Winchester",
+      "meta_description": "Contents restoration & storage in Winchester, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "contents restoration & storage winchester",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/winchester-nv/",
+        "/service-areas/winchester-nv/fire-damage-restoration/",
+        "/service-areas/winchester-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
+        "/service-areas/boulder-city-nv/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/winchester-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Winchester, NV | PuroClean of East Las Vegas",
+      "h1": "Water Cleanup in Winchester",
+      "meta_description": "Water cleanup in Winchester, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "emergency water cleanup winchester",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/winchester-nv/",
+        "/service-areas/winchester-nv/fire-damage-restoration/",
+        "/service-areas/winchester-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/winchester-nv/commercial-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Commercial Restoration in Winchester, NV | PuroClean of East Las Vegas",
+      "h1": "Commercial Restoration in Winchester",
+      "meta_description": "Commercial restoration in Winchester, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "commercial restoration winchester",
+      "secondary_keywords": [
+        "commercial water damage",
+        "commercial fire damage",
+        "business restoration",
+        "office restoration",
+        "retail restoration"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/commercial-restoration/",
+        "/service-areas/winchester-nv/",
+        "/service-areas/winchester-nv/fire-damage-restoration/",
+        "/service-areas/winchester-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/commercial-restoration/",
+        "/service-areas/boulder-city-nv/commercial-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/winchester-nv/contents-restoration-pack-out/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Pack-Out in Winchester, NV | PuroClean of East Las Vegas",
+      "h1": "Contents Restoration & Pack-Out in Winchester",
+      "meta_description": "Contents restoration & pack-out in Winchester, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "contents restoration & pack-out winchester",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-pack-out/",
+        "/service-areas/winchester-nv/",
+        "/service-areas/winchester-nv/fire-damage-restoration/",
+        "/service-areas/winchester-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
+        "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/winchester-nv/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Winchester, NV | PuroClean of East Las Vegas",
+      "h1": "Mold Inspection and Testing in Winchester",
+      "meta_description": "Mold inspection and testing in Winchester, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "mold inspection and testing winchester",
+      "secondary_keywords": [
+        "mold inspection",
+        "mold testing",
+        "indoor air quality testing",
+        "mold spore testing",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/winchester-nv/",
+        "/service-areas/winchester-nv/fire-damage-restoration/",
+        "/service-areas/winchester-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/mold-inspection-testing/",
+        "/service-areas/boulder-city-nv/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/winchester-nv/basement-flood-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flood Cleanup in Winchester, NV | PuroClean of East Las Vegas",
+      "h1": "Basement Flood Cleanup in Winchester",
+      "meta_description": "Basement flood cleanup in Winchester, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "basement flood cleanup winchester",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flood-cleanup/",
+        "/service-areas/winchester-nv/",
+        "/service-areas/winchester-nv/fire-damage-restoration/",
+        "/service-areas/winchester-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/basement-flood-cleanup/",
+        "/service-areas/boulder-city-nv/basement-flood-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-south-nv/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Summerlin South, NV | PuroClean of East Las Vegas",
+      "h1": "Fire Damage Restoration in Summerlin South",
+      "meta_description": "Fire damage restoration in Summerlin South, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "fire damage restoration summerlin south",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/summerlin-south-nv/",
+        "/service-areas/summerlin-south-nv/mold-remediation/",
+        "/service-areas/summerlin-south-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-south-nv/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Summerlin South, NV | PuroClean of East Las Vegas",
+      "h1": "Mold Remediation in Summerlin South",
+      "meta_description": "Mold remediation in Summerlin South, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "mold remediation summerlin south",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/summerlin-south-nv/",
+        "/service-areas/summerlin-south-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-south-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-south-nv/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Summerlin South, NV | PuroClean of East Las Vegas",
+      "h1": "Water Damage Restoration in Summerlin South",
+      "meta_description": "Water damage restoration in Summerlin South, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "water damage restoration summerlin south",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/summerlin-south-nv/",
+        "/service-areas/summerlin-south-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-south-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-south-nv/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Summerlin South, NV | PuroClean of East Las Vegas",
+      "h1": "Sewage Cleanup and Sanitization in Summerlin South",
+      "meta_description": "Sewage cleanup and sanitization in Summerlin South, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "sewage cleanup and sanitization summerlin south",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/summerlin-south-nv/",
+        "/service-areas/summerlin-south-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-south-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
+        "/service-areas/boulder-city-nv/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-south-nv/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Summerlin South, NV | PuroClean of East Las Vegas",
+      "h1": "Biohazard Cleanup in Summerlin South",
+      "meta_description": "Biohazard cleanup in Summerlin South, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "biohazard cleanup summerlin south",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/summerlin-south-nv/",
+        "/service-areas/summerlin-south-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-south-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
+        "/service-areas/boulder-city-nv/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-south-nv/burst-frozen-pipes/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst & Frozen Pipes in Summerlin South, NV | PuroClean of East Las Vegas",
+      "h1": "Burst & Frozen Pipes in Summerlin South",
+      "meta_description": "Burst & frozen pipes in Summerlin South, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "burst & frozen pipes summerlin south",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-frozen-pipes/",
+        "/service-areas/summerlin-south-nv/",
+        "/service-areas/summerlin-south-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-south-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/burst-frozen-pipes/",
+        "/service-areas/boulder-city-nv/burst-frozen-pipes/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-south-nv/commercial-fire-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Commercial Fire Restoration in Summerlin South, NV | PuroClean of East Las Vegas",
+      "h1": "Commercial Fire Restoration in Summerlin South",
+      "meta_description": "Commercial fire restoration in Summerlin South, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "commercial fire restoration summerlin south",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/commercial-fire-restoration/",
+        "/service-areas/summerlin-south-nv/",
+        "/service-areas/summerlin-south-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-south-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/commercial-fire-restoration/",
+        "/service-areas/boulder-city-nv/commercial-fire-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-south-nv/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Summerlin South, NV | PuroClean of East Las Vegas",
+      "h1": "Contents Restoration & Storage in Summerlin South",
+      "meta_description": "Contents restoration & storage in Summerlin South, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "contents restoration & storage summerlin south",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/summerlin-south-nv/",
+        "/service-areas/summerlin-south-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-south-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
+        "/service-areas/boulder-city-nv/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-south-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Summerlin South, NV | PuroClean of East Las Vegas",
+      "h1": "Water Cleanup in Summerlin South",
+      "meta_description": "Water cleanup in Summerlin South, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "emergency water cleanup summerlin south",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/summerlin-south-nv/",
+        "/service-areas/summerlin-south-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-south-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-south-nv/commercial-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Commercial Restoration in Summerlin South, NV | PuroClean of East Las Vegas",
+      "h1": "Commercial Restoration in Summerlin South",
+      "meta_description": "Commercial restoration in Summerlin South, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "commercial restoration summerlin south",
+      "secondary_keywords": [
+        "commercial water damage",
+        "commercial fire damage",
+        "business restoration",
+        "office restoration",
+        "retail restoration"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/commercial-restoration/",
+        "/service-areas/summerlin-south-nv/",
+        "/service-areas/summerlin-south-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-south-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/commercial-restoration/",
+        "/service-areas/boulder-city-nv/commercial-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-south-nv/contents-restoration-pack-out/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Pack-Out in Summerlin South, NV | PuroClean of East Las Vegas",
+      "h1": "Contents Restoration & Pack-Out in Summerlin South",
+      "meta_description": "Contents restoration & pack-out in Summerlin South, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "contents restoration & pack-out summerlin south",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-pack-out/",
+        "/service-areas/summerlin-south-nv/",
+        "/service-areas/summerlin-south-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-south-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
+        "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-south-nv/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Summerlin South, NV | PuroClean of East Las Vegas",
+      "h1": "Mold Inspection and Testing in Summerlin South",
+      "meta_description": "Mold inspection and testing in Summerlin South, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "mold inspection and testing summerlin south",
+      "secondary_keywords": [
+        "mold inspection",
+        "mold testing",
+        "indoor air quality testing",
+        "mold spore testing",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/summerlin-south-nv/",
+        "/service-areas/summerlin-south-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-south-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/mold-inspection-testing/",
+        "/service-areas/boulder-city-nv/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-south-nv/basement-flood-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flood Cleanup in Summerlin South, NV | PuroClean of East Las Vegas",
+      "h1": "Basement Flood Cleanup in Summerlin South",
+      "meta_description": "Basement flood cleanup in Summerlin South, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "basement flood cleanup summerlin south",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flood-cleanup/",
+        "/service-areas/summerlin-south-nv/",
+        "/service-areas/summerlin-south-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-south-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/basement-flood-cleanup/",
+        "/service-areas/boulder-city-nv/basement-flood-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/enterprise-nv/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Enterprise, NV | PuroClean of East Las Vegas",
+      "h1": "Fire Damage Restoration in Enterprise",
+      "meta_description": "Fire damage restoration in Enterprise, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "fire damage restoration enterprise",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/enterprise-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/enterprise-nv/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Enterprise, NV | PuroClean of East Las Vegas",
+      "h1": "Mold Remediation in Enterprise",
+      "meta_description": "Mold remediation in Enterprise, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "mold remediation enterprise",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/enterprise-nv/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Enterprise, NV | PuroClean of East Las Vegas",
+      "h1": "Water Damage Restoration in Enterprise",
+      "meta_description": "Water damage restoration in Enterprise, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "water damage restoration enterprise",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/enterprise-nv/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Enterprise, NV | PuroClean of East Las Vegas",
+      "h1": "Sewage Cleanup and Sanitization in Enterprise",
+      "meta_description": "Sewage cleanup and sanitization in Enterprise, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "sewage cleanup and sanitization enterprise",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
+        "/service-areas/boulder-city-nv/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/enterprise-nv/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Enterprise, NV | PuroClean of East Las Vegas",
+      "h1": "Biohazard Cleanup in Enterprise",
+      "meta_description": "Biohazard cleanup in Enterprise, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "biohazard cleanup enterprise",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
+        "/service-areas/boulder-city-nv/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/enterprise-nv/burst-frozen-pipes/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst & Frozen Pipes in Enterprise, NV | PuroClean of East Las Vegas",
+      "h1": "Burst & Frozen Pipes in Enterprise",
+      "meta_description": "Burst & frozen pipes in Enterprise, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "burst & frozen pipes enterprise",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-frozen-pipes/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/burst-frozen-pipes/",
+        "/service-areas/boulder-city-nv/burst-frozen-pipes/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/enterprise-nv/commercial-fire-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Commercial Fire Restoration in Enterprise, NV | PuroClean of East Las Vegas",
+      "h1": "Commercial Fire Restoration in Enterprise",
+      "meta_description": "Commercial fire restoration in Enterprise, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "commercial fire restoration enterprise",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/commercial-fire-restoration/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/commercial-fire-restoration/",
+        "/service-areas/boulder-city-nv/commercial-fire-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/enterprise-nv/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Enterprise, NV | PuroClean of East Las Vegas",
+      "h1": "Contents Restoration & Storage in Enterprise",
+      "meta_description": "Contents restoration & storage in Enterprise, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "contents restoration & storage enterprise",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
+        "/service-areas/boulder-city-nv/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/enterprise-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Enterprise, NV | PuroClean of East Las Vegas",
+      "h1": "Water Cleanup in Enterprise",
+      "meta_description": "Water cleanup in Enterprise, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "emergency water cleanup enterprise",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/enterprise-nv/commercial-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Commercial Restoration in Enterprise, NV | PuroClean of East Las Vegas",
+      "h1": "Commercial Restoration in Enterprise",
+      "meta_description": "Commercial restoration in Enterprise, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "commercial restoration enterprise",
+      "secondary_keywords": [
+        "commercial water damage",
+        "commercial fire damage",
+        "business restoration",
+        "office restoration",
+        "retail restoration"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/commercial-restoration/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/commercial-restoration/",
+        "/service-areas/boulder-city-nv/commercial-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/enterprise-nv/contents-restoration-pack-out/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Pack-Out in Enterprise, NV | PuroClean of East Las Vegas",
+      "h1": "Contents Restoration & Pack-Out in Enterprise",
+      "meta_description": "Contents restoration & pack-out in Enterprise, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "contents restoration & pack-out enterprise",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-pack-out/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
+        "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/enterprise-nv/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Enterprise, NV | PuroClean of East Las Vegas",
+      "h1": "Mold Inspection and Testing in Enterprise",
+      "meta_description": "Mold inspection and testing in Enterprise, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "mold inspection and testing enterprise",
+      "secondary_keywords": [
+        "mold inspection",
+        "mold testing",
+        "indoor air quality testing",
+        "mold spore testing",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/mold-inspection-testing/",
+        "/service-areas/boulder-city-nv/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/enterprise-nv/basement-flood-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flood Cleanup in Enterprise, NV | PuroClean of East Las Vegas",
+      "h1": "Basement Flood Cleanup in Enterprise",
+      "meta_description": "Basement flood cleanup in Enterprise, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "basement flood cleanup enterprise",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flood-cleanup/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/basement-flood-cleanup/",
+        "/service-areas/boulder-city-nv/basement-flood-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Blue Diamond, NV | PuroClean of East Las Vegas",
+      "h1": "Fire Damage Restoration in Blue Diamond",
+      "meta_description": "Fire damage restoration in Blue Diamond, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "fire damage restoration blue diamond",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Blue Diamond, NV | PuroClean of East Las Vegas",
+      "h1": "Mold Remediation in Blue Diamond",
+      "meta_description": "Mold remediation in Blue Diamond, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "mold remediation blue diamond",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Blue Diamond, NV | PuroClean of East Las Vegas",
+      "h1": "Water Damage Restoration in Blue Diamond",
+      "meta_description": "Water damage restoration in Blue Diamond, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "water damage restoration blue diamond",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/service-areas/enterprise-nv/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Blue Diamond, NV | PuroClean of East Las Vegas",
+      "h1": "Sewage Cleanup and Sanitization in Blue Diamond",
+      "meta_description": "Sewage cleanup and sanitization in Blue Diamond, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "sewage cleanup and sanitization blue diamond",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/sewage-cleanup/",
+        "/service-areas/enterprise-nv/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Blue Diamond, NV | PuroClean of East Las Vegas",
+      "h1": "Biohazard Cleanup in Blue Diamond",
+      "meta_description": "Biohazard cleanup in Blue Diamond, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "biohazard cleanup blue diamond",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/biohazard-cleanup/",
+        "/service-areas/enterprise-nv/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/burst-frozen-pipes/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst & Frozen Pipes in Blue Diamond, NV | PuroClean of East Las Vegas",
+      "h1": "Burst & Frozen Pipes in Blue Diamond",
+      "meta_description": "Burst & frozen pipes in Blue Diamond, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "burst & frozen pipes blue diamond",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-frozen-pipes/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/burst-frozen-pipes/",
+        "/service-areas/enterprise-nv/burst-frozen-pipes/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/commercial-fire-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Commercial Fire Restoration in Blue Diamond, NV | PuroClean of East Las Vegas",
+      "h1": "Commercial Fire Restoration in Blue Diamond",
+      "meta_description": "Commercial fire restoration in Blue Diamond, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "commercial fire restoration blue diamond",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/commercial-fire-restoration/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/commercial-fire-restoration/",
+        "/service-areas/enterprise-nv/commercial-fire-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Blue Diamond, NV | PuroClean of East Las Vegas",
+      "h1": "Contents Restoration & Storage in Blue Diamond",
+      "meta_description": "Contents restoration & storage in Blue Diamond, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "contents restoration & storage blue diamond",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/contents-restoration-storage/",
+        "/service-areas/enterprise-nv/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Blue Diamond, NV | PuroClean of East Las Vegas",
+      "h1": "Water Cleanup in Blue Diamond",
+      "meta_description": "Water cleanup in Blue Diamond, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "emergency water cleanup blue diamond",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
+        "/service-areas/enterprise-nv/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/commercial-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Commercial Restoration in Blue Diamond, NV | PuroClean of East Las Vegas",
+      "h1": "Commercial Restoration in Blue Diamond",
+      "meta_description": "Commercial restoration in Blue Diamond, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "commercial restoration blue diamond",
+      "secondary_keywords": [
+        "commercial water damage",
+        "commercial fire damage",
+        "business restoration",
+        "office restoration",
+        "retail restoration"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/commercial-restoration/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/commercial-restoration/",
+        "/service-areas/enterprise-nv/commercial-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Pack-Out in Blue Diamond, NV | PuroClean of East Las Vegas",
+      "h1": "Contents Restoration & Pack-Out in Blue Diamond",
+      "meta_description": "Contents restoration & pack-out in Blue Diamond, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "contents restoration & pack-out blue diamond",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-pack-out/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
+        "/service-areas/enterprise-nv/contents-restoration-pack-out/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Blue Diamond, NV | PuroClean of East Las Vegas",
+      "h1": "Mold Inspection and Testing in Blue Diamond",
+      "meta_description": "Mold inspection and testing in Blue Diamond, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "mold inspection and testing blue diamond",
+      "secondary_keywords": [
+        "mold inspection",
+        "mold testing",
+        "indoor air quality testing",
+        "mold spore testing",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/mold-inspection-testing/",
+        "/service-areas/enterprise-nv/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/basement-flood-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flood Cleanup in Blue Diamond, NV | PuroClean of East Las Vegas",
+      "h1": "Basement Flood Cleanup in Blue Diamond",
+      "meta_description": "Basement flood cleanup in Blue Diamond, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "basement flood cleanup blue diamond",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flood-cleanup/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/basement-flood-cleanup/",
+        "/service-areas/enterprise-nv/basement-flood-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mount-charleston-nv/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Mount Charleston, NV | PuroClean of East Las Vegas",
+      "h1": "Fire Damage Restoration in Mount Charleston",
+      "meta_description": "Fire damage restoration in Mount Charleston, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "fire damage restoration mount charleston",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/mount-charleston-nv/",
+        "/service-areas/mount-charleston-nv/mold-remediation/",
+        "/service-areas/mount-charleston-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mount-charleston-nv/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Mount Charleston, NV | PuroClean of East Las Vegas",
+      "h1": "Mold Remediation in Mount Charleston",
+      "meta_description": "Mold remediation in Mount Charleston, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "mold remediation mount charleston",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/mount-charleston-nv/",
+        "/service-areas/mount-charleston-nv/fire-damage-restoration/",
+        "/service-areas/mount-charleston-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mount-charleston-nv/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Mount Charleston, NV | PuroClean of East Las Vegas",
+      "h1": "Water Damage Restoration in Mount Charleston",
+      "meta_description": "Water damage restoration in Mount Charleston, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "water damage restoration mount charleston",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/mount-charleston-nv/",
+        "/service-areas/mount-charleston-nv/fire-damage-restoration/",
+        "/service-areas/mount-charleston-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mount-charleston-nv/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Mount Charleston, NV | PuroClean of East Las Vegas",
+      "h1": "Sewage Cleanup and Sanitization in Mount Charleston",
+      "meta_description": "Sewage cleanup and sanitization in Mount Charleston, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "sewage cleanup and sanitization mount charleston",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/mount-charleston-nv/",
+        "/service-areas/mount-charleston-nv/fire-damage-restoration/",
+        "/service-areas/mount-charleston-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
+        "/service-areas/boulder-city-nv/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mount-charleston-nv/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Mount Charleston, NV | PuroClean of East Las Vegas",
+      "h1": "Biohazard Cleanup in Mount Charleston",
+      "meta_description": "Biohazard cleanup in Mount Charleston, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "biohazard cleanup mount charleston",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/mount-charleston-nv/",
+        "/service-areas/mount-charleston-nv/fire-damage-restoration/",
+        "/service-areas/mount-charleston-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
+        "/service-areas/boulder-city-nv/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mount-charleston-nv/burst-frozen-pipes/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst & Frozen Pipes in Mount Charleston, NV | PuroClean of East Las Vegas",
+      "h1": "Burst & Frozen Pipes in Mount Charleston",
+      "meta_description": "Burst & frozen pipes in Mount Charleston, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "burst & frozen pipes mount charleston",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-frozen-pipes/",
+        "/service-areas/mount-charleston-nv/",
+        "/service-areas/mount-charleston-nv/fire-damage-restoration/",
+        "/service-areas/mount-charleston-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/burst-frozen-pipes/",
+        "/service-areas/boulder-city-nv/burst-frozen-pipes/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mount-charleston-nv/commercial-fire-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Commercial Fire Restoration in Mount Charleston, NV | PuroClean of East Las Vegas",
+      "h1": "Commercial Fire Restoration in Mount Charleston",
+      "meta_description": "Commercial fire restoration in Mount Charleston, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "commercial fire restoration mount charleston",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/commercial-fire-restoration/",
+        "/service-areas/mount-charleston-nv/",
+        "/service-areas/mount-charleston-nv/fire-damage-restoration/",
+        "/service-areas/mount-charleston-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/commercial-fire-restoration/",
+        "/service-areas/boulder-city-nv/commercial-fire-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mount-charleston-nv/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Mount Charleston, NV | PuroClean of East Las Vegas",
+      "h1": "Contents Restoration & Storage in Mount Charleston",
+      "meta_description": "Contents restoration & storage in Mount Charleston, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "contents restoration & storage mount charleston",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/mount-charleston-nv/",
+        "/service-areas/mount-charleston-nv/fire-damage-restoration/",
+        "/service-areas/mount-charleston-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
+        "/service-areas/boulder-city-nv/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mount-charleston-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Mount Charleston, NV | PuroClean of East Las Vegas",
+      "h1": "Water Cleanup in Mount Charleston",
+      "meta_description": "Water cleanup in Mount Charleston, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "emergency water cleanup mount charleston",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/mount-charleston-nv/",
+        "/service-areas/mount-charleston-nv/fire-damage-restoration/",
+        "/service-areas/mount-charleston-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mount-charleston-nv/commercial-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Commercial Restoration in Mount Charleston, NV | PuroClean of East Las Vegas",
+      "h1": "Commercial Restoration in Mount Charleston",
+      "meta_description": "Commercial restoration in Mount Charleston, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "commercial restoration mount charleston",
+      "secondary_keywords": [
+        "commercial water damage",
+        "commercial fire damage",
+        "business restoration",
+        "office restoration",
+        "retail restoration"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/commercial-restoration/",
+        "/service-areas/mount-charleston-nv/",
+        "/service-areas/mount-charleston-nv/fire-damage-restoration/",
+        "/service-areas/mount-charleston-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/commercial-restoration/",
+        "/service-areas/boulder-city-nv/commercial-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mount-charleston-nv/contents-restoration-pack-out/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Pack-Out in Mount Charleston, NV | PuroClean of East Las Vegas",
+      "h1": "Contents Restoration & Pack-Out in Mount Charleston",
+      "meta_description": "Contents restoration & pack-out in Mount Charleston, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "contents restoration & pack-out mount charleston",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-pack-out/",
+        "/service-areas/mount-charleston-nv/",
+        "/service-areas/mount-charleston-nv/fire-damage-restoration/",
+        "/service-areas/mount-charleston-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
+        "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mount-charleston-nv/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Mount Charleston, NV | PuroClean of East Las Vegas",
+      "h1": "Mold Inspection and Testing in Mount Charleston",
+      "meta_description": "Mold inspection and testing in Mount Charleston, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "mold inspection and testing mount charleston",
+      "secondary_keywords": [
+        "mold inspection",
+        "mold testing",
+        "indoor air quality testing",
+        "mold spore testing",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/mount-charleston-nv/",
+        "/service-areas/mount-charleston-nv/fire-damage-restoration/",
+        "/service-areas/mount-charleston-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/mold-inspection-testing/",
+        "/service-areas/boulder-city-nv/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mount-charleston-nv/basement-flood-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flood Cleanup in Mount Charleston, NV | PuroClean of East Las Vegas",
+      "h1": "Basement Flood Cleanup in Mount Charleston",
+      "meta_description": "Basement flood cleanup in Mount Charleston, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "basement flood cleanup mount charleston",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flood-cleanup/",
+        "/service-areas/mount-charleston-nv/",
+        "/service-areas/mount-charleston-nv/fire-damage-restoration/",
+        "/service-areas/mount-charleston-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/basement-flood-cleanup/",
+        "/service-areas/boulder-city-nv/basement-flood-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nelson-nv/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Nelson, NV | PuroClean of East Las Vegas",
+      "h1": "Fire Damage Restoration in Nelson",
+      "meta_description": "Fire damage restoration in Nelson, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "fire damage restoration nelson",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/nelson-nv/",
+        "/service-areas/nelson-nv/mold-remediation/",
+        "/service-areas/nelson-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nelson-nv/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Nelson, NV | PuroClean of East Las Vegas",
+      "h1": "Mold Remediation in Nelson",
+      "meta_description": "Mold remediation in Nelson, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "mold remediation nelson",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/nelson-nv/",
+        "/service-areas/nelson-nv/fire-damage-restoration/",
+        "/service-areas/nelson-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nelson-nv/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Nelson, NV | PuroClean of East Las Vegas",
+      "h1": "Water Damage Restoration in Nelson",
+      "meta_description": "Water damage restoration in Nelson, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "water damage restoration nelson",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/nelson-nv/",
+        "/service-areas/nelson-nv/fire-damage-restoration/",
+        "/service-areas/nelson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nelson-nv/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Nelson, NV | PuroClean of East Las Vegas",
+      "h1": "Sewage Cleanup and Sanitization in Nelson",
+      "meta_description": "Sewage cleanup and sanitization in Nelson, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "sewage cleanup and sanitization nelson",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/nelson-nv/",
+        "/service-areas/nelson-nv/fire-damage-restoration/",
+        "/service-areas/nelson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
+        "/service-areas/boulder-city-nv/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nelson-nv/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Nelson, NV | PuroClean of East Las Vegas",
+      "h1": "Biohazard Cleanup in Nelson",
+      "meta_description": "Biohazard cleanup in Nelson, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "biohazard cleanup nelson",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/nelson-nv/",
+        "/service-areas/nelson-nv/fire-damage-restoration/",
+        "/service-areas/nelson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
+        "/service-areas/boulder-city-nv/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nelson-nv/burst-frozen-pipes/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst & Frozen Pipes in Nelson, NV | PuroClean of East Las Vegas",
+      "h1": "Burst & Frozen Pipes in Nelson",
+      "meta_description": "Burst & frozen pipes in Nelson, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "burst & frozen pipes nelson",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-frozen-pipes/",
+        "/service-areas/nelson-nv/",
+        "/service-areas/nelson-nv/fire-damage-restoration/",
+        "/service-areas/nelson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/burst-frozen-pipes/",
+        "/service-areas/boulder-city-nv/burst-frozen-pipes/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nelson-nv/commercial-fire-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Commercial Fire Restoration in Nelson, NV | PuroClean of East Las Vegas",
+      "h1": "Commercial Fire Restoration in Nelson",
+      "meta_description": "Commercial fire restoration in Nelson, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "commercial fire restoration nelson",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/commercial-fire-restoration/",
+        "/service-areas/nelson-nv/",
+        "/service-areas/nelson-nv/fire-damage-restoration/",
+        "/service-areas/nelson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/commercial-fire-restoration/",
+        "/service-areas/boulder-city-nv/commercial-fire-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nelson-nv/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Nelson, NV | PuroClean of East Las Vegas",
+      "h1": "Contents Restoration & Storage in Nelson",
+      "meta_description": "Contents restoration & storage in Nelson, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "contents restoration & storage nelson",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/nelson-nv/",
+        "/service-areas/nelson-nv/fire-damage-restoration/",
+        "/service-areas/nelson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
+        "/service-areas/boulder-city-nv/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nelson-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Nelson, NV | PuroClean of East Las Vegas",
+      "h1": "Water Cleanup in Nelson",
+      "meta_description": "Water cleanup in Nelson, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "emergency water cleanup nelson",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/nelson-nv/",
+        "/service-areas/nelson-nv/fire-damage-restoration/",
+        "/service-areas/nelson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nelson-nv/commercial-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Commercial Restoration in Nelson, NV | PuroClean of East Las Vegas",
+      "h1": "Commercial Restoration in Nelson",
+      "meta_description": "Commercial restoration in Nelson, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "commercial restoration nelson",
+      "secondary_keywords": [
+        "commercial water damage",
+        "commercial fire damage",
+        "business restoration",
+        "office restoration",
+        "retail restoration"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/commercial-restoration/",
+        "/service-areas/nelson-nv/",
+        "/service-areas/nelson-nv/fire-damage-restoration/",
+        "/service-areas/nelson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/commercial-restoration/",
+        "/service-areas/boulder-city-nv/commercial-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nelson-nv/contents-restoration-pack-out/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Pack-Out in Nelson, NV | PuroClean of East Las Vegas",
+      "h1": "Contents Restoration & Pack-Out in Nelson",
+      "meta_description": "Contents restoration & pack-out in Nelson, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "contents restoration & pack-out nelson",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-pack-out/",
+        "/service-areas/nelson-nv/",
+        "/service-areas/nelson-nv/fire-damage-restoration/",
+        "/service-areas/nelson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
+        "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nelson-nv/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Nelson, NV | PuroClean of East Las Vegas",
+      "h1": "Mold Inspection and Testing in Nelson",
+      "meta_description": "Mold inspection and testing in Nelson, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "mold inspection and testing nelson",
+      "secondary_keywords": [
+        "mold inspection",
+        "mold testing",
+        "indoor air quality testing",
+        "mold spore testing",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/nelson-nv/",
+        "/service-areas/nelson-nv/fire-damage-restoration/",
+        "/service-areas/nelson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/mold-inspection-testing/",
+        "/service-areas/boulder-city-nv/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nelson-nv/basement-flood-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flood Cleanup in Nelson, NV | PuroClean of East Las Vegas",
+      "h1": "Basement Flood Cleanup in Nelson",
+      "meta_description": "Basement flood cleanup in Nelson, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "basement flood cleanup nelson",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flood-cleanup/",
+        "/service-areas/nelson-nv/",
+        "/service-areas/nelson-nv/fire-damage-restoration/",
+        "/service-areas/nelson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/basement-flood-cleanup/",
+        "/service-areas/boulder-city-nv/basement-flood-cleanup/",
         "/contact/"
       ]
     },

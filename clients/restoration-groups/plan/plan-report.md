@@ -1,21 +1,21 @@
 # Site Plan Report — The Restoration Group
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-08-29T16:37:27.357079+00:00
+- Generated: 2026-09-20T14:13:45.174566+00:00
 - Domain: `therestorationgroup.com`
-- Services selected: 20 of 60 catalog entries
-- Service areas: 53
+- Services selected: 18 of 65 catalog entries
+- Service areas: 59
 - Cross-product enabled: True
-- Total URLs: **1133**
-- Total internal links: 9102 (avg 8.0 per page)
+- Total URLs: **1141**
+- Total internal links: 9146 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 1040 |
-| `service-area` | 52 |
-| `service-landing` | 20 |
+| `service-area-service` | 1044 |
+| `service-area` | 58 |
+| `service-landing` | 18 |
 | `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -41,9 +41,7 @@
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
 - `commercial-restoration` — Commercial Restoration (core, priority 9)
-- `reconstruction` — Reconstruction Services (core, priority 9)
-- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
-- `water-cleanup` — Water Cleanup (core, priority 9)
+- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 - `contents-restoration-pack-out` — Contents Restoration & Pack-Out (adjacent, priority 5)
 - `basement-flood-cleanup` — Basement Flood Cleanup (adjacent, priority 5)
 - `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
@@ -103,6 +101,12 @@
 - `hoboken-nj` — Hoboken, NJ
 - `bayonne-nj` — Bayonne, NJ
 - `north-bergen-nj` — North Bergen, NJ
+- `mountainside-nj` — Mountainside, NJ
+- `short-hills-nj` — Short Hills, NJ
+- `colonia-nj` — Colonia, NJ
+- `new-providence-nj` — New Providence, NJ
+- `avenel-nj` — Avenel, NJ
+- `chatham-nj` — Chatham, NJ
 
 ## Top 10 priority pages
 
@@ -113,11 +117,11 @@
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration kenilworth |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration kenilworth |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration kenilworth |
-| `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services kenilworth |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization kenilworth |
 | `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration kenilworth |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration kenilworth |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | water cleanup kenilworth |
+| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup kenilworth |
+| `/services/basement-flooding-cleanup/` | `service-landing` | 7.2 | basement flooding cleanup kenilworth |
 
 ## Validation
 

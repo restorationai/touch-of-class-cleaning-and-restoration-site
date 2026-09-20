@@ -46,15 +46,15 @@ export const brand = {
   sameAsUrls: ["https://maps.google.com/maps?cid=15917989220887052070", "https://www.yelp.com/biz/crew-construction-and-restoration-sioux-falls", "https://www.bbb.org/us/sd/sioux-falls/profile/fire-water-damage-restoration/crew-construction-restoration-0714-300168398", "https://www.facebook.com/CrewSiouxFalls/", "https://www.bing.com/maps?ss=ypid.YN841719F0A3CAB26F"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
-  gbpRatingValue: "4.8",
-  gbpReviewCount: "506",
+  gbpRatingValue: "4.9",
+  gbpReviewCount: "554",
   gbpReviews: [
-    { author: "Noa", rating: 5, text: "Sy is super professional and has astounding communication skills!! Highly recommend crew and especially Sy for all your needs!!", when: "September 2026" },
-    { author: "Sarah", rating: 5, text: "Jayden was outstanding to work with! From start to finish, he was professional, knowledgeable, and went above and beyond on all aspects of our project. I highly recommend Jayden and his crew! 5 stars!", when: "September 2026" },
-    { author: "Mallory", rating: 5, text: "Sy is exceptional at his job!! So kind and respectful and knows what he’s going!!! Love Crew!", when: "September 2026" },
-    { author: "Larry", rating: 5, text: "Brandi, Daniel and Jesse are definitely top of the line professional and prompt. Had my hot water heater replaced and back up and going so quick I was shocked. Thank you all!", when: "September 2026" },
-    { author: "John", rating: 5, text: "Zach Trey and sy... awesome guys vary professional they were here at the time they said just all round grate guys", when: "September 2026" },
-    { author: "Ryan", rating: 5, text: "Bryson, did a great job at cleaning up our sewage back up!", when: "August 2026" },
+    { author: "Dave", rating: 5, text: "Zach did a great job remiating mold at one of my rentals - thanks", when: "September 2026" },
+    { author: "Caleb", rating: 5, text: "Zach was professional, on time, helpful, or great to work with would be perfect.", when: "September 2026" },
+    { author: "Kaylee", rating: 5, text: "Zach was amazing to work with!!", when: "September 2026" },
+    { author: "Chelsey", rating: 5, text: "Zach was knowledgeable and very helpful", when: "September 2026" },
+    { author: "J", rating: 5, text: "Zach is wonderful. Easy on the eyes ;)", when: "September 2026" },
+    { author: "Sadie", rating: 5, text: "Zach is great to work with. He’s communicative, prompt, and can be counted on to execute accordingly. I highly recommend working with Zach.", when: "September 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Sioux Falls, SD.",
   ctaLabel: "24/7 Emergency Line",

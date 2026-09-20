@@ -1,21 +1,21 @@
 # Site Plan Report — Home Pride Restoration and Cleaning
 
-- Template: `restoration` v0.2.0
-- Generated: 2026-06-26T05:13:37.646662+00:00
+- Template: `restoration` v0.3.0
+- Generated: 2026-09-20T14:13:18.570996+00:00
 - Domain: `homepriderestorationandcleaning.com`
-- Services selected: 19 of 45 catalog entries
-- Service areas: 12
+- Services selected: 20 of 65 catalog entries
+- Service areas: 18
 - Cross-product enabled: True
-- Total URLs: **280**
-- Total internal links: 2313 (avg 8.3 per page)
+- Total URLs: **398**
+- Total internal links: 3262 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 228 |
-| `service-landing` | 19 |
-| `service-area` | 12 |
+| `service-area-service` | 340 |
+| `service-landing` | 20 |
+| `service-area` | 17 |
 | `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -46,6 +46,7 @@
 - `fabric-protection` — Fabric Protection (adjacent, priority 5)
 - `junk-debris-removal` — Junk & Debris Removal (adjacent, priority 5)
 - `crawl-space-encapsulation` — Crawl Space Encapsulation (adjacent, priority 5)
+- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 
 ## Service areas
 
@@ -61,6 +62,12 @@
 - `riverton-ut` — Riverton, UT
 - `heber-city-ut` — Heber City, UT
 - `park-city-ut` — Park City, UT
+- `vineyard-ut` — Vineyard, UT
+- `highland-ut` — Highland, UT
+- `lindon-ut` — Lindon, UT
+- `fairfield-ut` — Fairfield, UT
+- `cedar-hills-ut` — Cedar Hills, UT
+- `cedar-fort-ut` — Cedar Fort, UT
 
 ## Top 10 priority pages
 
@@ -72,7 +79,7 @@
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization saratoga springs |
 | `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration saratoga springs |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration saratoga springs |
-| `/service-areas/saratoga-springs-ut/` | `service-area` | 7.2 | restoration services saratoga springs |
+| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup saratoga springs |
 | `/services/basement-flooding-cleanup/` | `service-landing` | 7.2 | basement flooding cleanup saratoga springs |
 | `/services/burst-pipe-repair/` | `service-landing` | 7.2 | burst pipe cleanup and repair saratoga springs |
 | `/services/mold-inspection-testing/` | `service-landing` | 7.2 | mold inspection and testing saratoga springs |

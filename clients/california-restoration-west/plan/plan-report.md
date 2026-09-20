@@ -1,20 +1,20 @@
 # Site Plan Report — California Restoration West 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-08-26T01:45:01.950066+00:00
-- Domain: `None`
-- Services selected: 6 of 55 catalog entries
-- Service areas: 9
+- Generated: 2026-09-20T14:12:59.436743+00:00
+- Domain: `californiarestorationwest.com`
+- Services selected: 6 of 65 catalog entries
+- Service areas: 15
 - Cross-product enabled: True
-- Total URLs: **79**
-- Total internal links: 578 (avg 7.3 per page)
+- Total URLs: **121**
+- Total internal links: 934 (avg 7.7 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 48 |
-| `service-area` | 8 |
+| `service-area-service` | 84 |
+| `service-area` | 14 |
 | `blog-post` | 8 |
 | `service-landing` | 6 |
 | `legal` | 3 |
@@ -32,7 +32,7 @@
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
 - `crawl-space-encapsulation` — Crawl Space Encapsulation (adjacent, priority 5)
-- `water-cleanup` — Water Cleanup (core, priority 9)
+- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 
 ## Service areas
 
@@ -45,6 +45,12 @@
 - `port-hueneme-ca` — Port Hueneme, CA
 - `ojai-ca` — Ojai, CA
 - `fillmore-ca` — Fillmore, CA
+- `mira-monte-ca` — Mira Monte, CA
+- `oak-view-ca` — Oak View, CA
+- `somis-ca` — Somis, CA
+- `san-buenaventura-ventura-ca` — San Buenaventura (Ventura), CA
+- `moorpark-ca` — Moorpark, CA
+- `santa-rosa-valley-ca` — Santa Rosa Valley, CA
 
 ## Top 10 priority pages
 
@@ -53,13 +59,13 @@
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation ventura |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration ventura |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration ventura |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | water cleanup ventura |
+| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup ventura |
 | `/service-areas/camarillo-ca/mold-remediation/` | `service-area-service` | 7.0 | mold remediation camarillo |
 | `/service-areas/camarillo-ca/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration camarillo |
 | `/service-areas/fillmore-ca/mold-remediation/` | `service-area-service` | 7.0 | mold remediation fillmore |
 | `/service-areas/fillmore-ca/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration fillmore |
-| `/service-areas/ojai-ca/mold-remediation/` | `service-area-service` | 7.0 | mold remediation ojai |
-| `/service-areas/ojai-ca/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration ojai |
+| `/service-areas/mira-monte-ca/mold-remediation/` | `service-area-service` | 7.0 | mold remediation mira monte |
+| `/service-areas/mira-monte-ca/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration mira monte |
 
 ## Validation
 

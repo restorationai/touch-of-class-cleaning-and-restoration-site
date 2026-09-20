@@ -214,6 +214,36 @@
         "93561"
       ],
       "local_notes": "Mountain city at ~4,000 ft between the valley and the Mojave \u2014 the one place in the service area with real winters. Hard freezes and occasional snow mean frozen and burst pipes, failed heat tape, and heating emergencies that valley companies rarely see; furnaces, heat pumps and ductless systems run year-round. Outlying gated communities (Bear Valley Springs, Stallion Springs) rely on wells, pressure tanks and septic, and long driveways reward a company willing to make the drive."
+    },
+    {
+      "city": "East Niles",
+      "state": "CA",
+      "slug": "east-niles-ca"
+    },
+    {
+      "city": "Lamont",
+      "state": "CA",
+      "slug": "lamont-ca"
+    },
+    {
+      "city": "Tarina",
+      "state": "CA",
+      "slug": "tarina-ca"
+    },
+    {
+      "city": "Weedpatch",
+      "state": "CA",
+      "slug": "weedpatch-ca"
+    },
+    {
+      "city": "Arvin",
+      "state": "CA",
+      "slug": "arvin-ca"
+    },
+    {
+      "city": "Dustin Acres",
+      "state": "CA",
+      "slug": "dustin-acres-ca"
     }
   ],
   "brand": {
@@ -223,7 +253,9 @@
     "email": "info@allproplumbingheatingandair.com",
     "hours": "24/7",
     "founded_year": "",
-    "license_numbers": [],
+    "license_numbers": [
+      "960566"
+    ],
     "certifications": [],
     "tagline": "24/7 plumbing, heating and air service in Bakersfield, CA.",
     "sister_company": {
@@ -231,7 +263,11 @@
       "url": "https://prorestorationca.com",
       "relationship": "sister company"
     },
-    "google_maps_api_key": "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU"
+    "google_maps_api_key": "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
+    "place_id": "ChIJYX-sGVdD6oARZNr_2oUREuM",
+    "lat": 35.3739,
+    "lng": -119.0195,
+    "ga4_measurement_id": "G-S1L0GF0J60"
   },
   "cross_product": true,
   "keyword_strategy": "conservative",

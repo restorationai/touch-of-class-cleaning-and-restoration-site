@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-08-05T00:44:49.817338+00:00",
+  "generated_at": "2026-09-20T14:13:42.673191+00:00",
   "input_summary": {
-    "service_count": 6,
-    "service_area_count": 17,
+    "service_count": 7,
+    "service_area_count": 23,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -48,23 +48,29 @@
         "/services/mold-remediation/",
         "/services/water-damage-restoration/",
         "/services/storm-damage-restoration/",
+        "/services/water-cleanup/",
         "/services/general-contracting/",
         "/services/contents-restoration/",
-        "/service-areas/royse-city-tx/",
         "/service-areas/allen-tx/",
+        "/service-areas/caddo-mills-tx/",
         "/service-areas/dallas-tx/",
         "/service-areas/fate-tx/",
         "/service-areas/frisco-tx/",
         "/service-areas/garland-tx/",
         "/service-areas/greenville-tx/",
         "/service-areas/highland-park-tx/",
+        "/service-areas/josephine-tx/",
+        "/service-areas/lavon-tx/",
         "/service-areas/mckinney-tx/",
+        "/service-areas/mclendon-chisholm-tx/",
         "/service-areas/mesquite-tx/",
+        "/service-areas/nevada-tx/",
         "/service-areas/plano-tx/",
         "/service-areas/richardson-tx/",
         "/service-areas/rockwall-tx/",
         "/service-areas/rowlett-tx/",
         "/service-areas/terrell-tx/",
+        "/service-areas/union-valley-tx/",
         "/service-areas/university-park-tx/",
         "/service-areas/wylie-tx/"
       ]
@@ -103,6 +109,7 @@
         "/services/mold-remediation/",
         "/services/water-damage-restoration/",
         "/services/storm-damage-restoration/",
+        "/services/water-cleanup/",
         "/services/general-contracting/",
         "/services/contents-restoration/"
       ]
@@ -136,21 +143,26 @@
       "status": "planned",
       "internal_links_out": [
         "/",
-        "/service-areas/royse-city-tx/",
         "/service-areas/allen-tx/",
+        "/service-areas/caddo-mills-tx/",
         "/service-areas/dallas-tx/",
         "/service-areas/fate-tx/",
         "/service-areas/frisco-tx/",
         "/service-areas/garland-tx/",
         "/service-areas/greenville-tx/",
         "/service-areas/highland-park-tx/",
+        "/service-areas/josephine-tx/",
+        "/service-areas/lavon-tx/",
         "/service-areas/mckinney-tx/",
+        "/service-areas/mclendon-chisholm-tx/",
         "/service-areas/mesquite-tx/",
+        "/service-areas/nevada-tx/",
         "/service-areas/plano-tx/",
         "/service-areas/richardson-tx/",
         "/service-areas/rockwall-tx/",
         "/service-areas/rowlett-tx/",
         "/service-areas/terrell-tx/",
+        "/service-areas/union-valley-tx/",
         "/service-areas/university-park-tx/",
         "/service-areas/wylie-tx/"
       ]
@@ -297,17 +309,18 @@
         "/services/",
         "/contact/",
         "/service-areas/allen-tx/water-damage-restoration/",
+        "/service-areas/caddo-mills-tx/water-damage-restoration/",
         "/service-areas/dallas-tx/water-damage-restoration/",
         "/service-areas/fate-tx/water-damage-restoration/",
         "/service-areas/frisco-tx/water-damage-restoration/",
         "/service-areas/garland-tx/water-damage-restoration/",
         "/service-areas/greenville-tx/water-damage-restoration/",
         "/service-areas/highland-park-tx/water-damage-restoration/",
+        "/service-areas/josephine-tx/water-damage-restoration/",
+        "/service-areas/lavon-tx/water-damage-restoration/",
         "/service-areas/mckinney-tx/water-damage-restoration/",
-        "/service-areas/mesquite-tx/water-damage-restoration/",
-        "/service-areas/plano-tx/water-damage-restoration/",
-        "/service-areas/richardson-tx/water-damage-restoration/",
-        "/service-areas/rockwall-tx/water-damage-restoration/",
+        "/service-areas/mclendon-chisholm-tx/water-damage-restoration/",
+        "/services/water-cleanup/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
         "/blog/choosing-a-restoration-company/"
@@ -350,17 +363,17 @@
         "/services/",
         "/contact/",
         "/service-areas/allen-tx/fire-damage-restoration/",
+        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
         "/service-areas/dallas-tx/fire-damage-restoration/",
         "/service-areas/fate-tx/fire-damage-restoration/",
         "/service-areas/frisco-tx/fire-damage-restoration/",
         "/service-areas/garland-tx/fire-damage-restoration/",
         "/service-areas/greenville-tx/fire-damage-restoration/",
         "/service-areas/highland-park-tx/fire-damage-restoration/",
+        "/service-areas/josephine-tx/fire-damage-restoration/",
+        "/service-areas/lavon-tx/fire-damage-restoration/",
         "/service-areas/mckinney-tx/fire-damage-restoration/",
-        "/service-areas/mesquite-tx/fire-damage-restoration/",
-        "/service-areas/plano-tx/fire-damage-restoration/",
-        "/service-areas/richardson-tx/fire-damage-restoration/",
-        "/service-areas/rockwall-tx/fire-damage-restoration/",
+        "/service-areas/mclendon-chisholm-tx/fire-damage-restoration/",
         "/blog/choosing-a-restoration-company/",
         "/blog/fire-damage-restoration-process/"
       ]
@@ -402,17 +415,17 @@
         "/services/",
         "/contact/",
         "/service-areas/allen-tx/mold-remediation/",
+        "/service-areas/caddo-mills-tx/mold-remediation/",
         "/service-areas/dallas-tx/mold-remediation/",
         "/service-areas/fate-tx/mold-remediation/",
         "/service-areas/frisco-tx/mold-remediation/",
         "/service-areas/garland-tx/mold-remediation/",
         "/service-areas/greenville-tx/mold-remediation/",
         "/service-areas/highland-park-tx/mold-remediation/",
+        "/service-areas/josephine-tx/mold-remediation/",
+        "/service-areas/lavon-tx/mold-remediation/",
         "/service-areas/mckinney-tx/mold-remediation/",
-        "/service-areas/mesquite-tx/mold-remediation/",
-        "/service-areas/plano-tx/mold-remediation/",
-        "/service-areas/richardson-tx/mold-remediation/",
-        "/service-areas/rockwall-tx/mold-remediation/",
+        "/service-areas/mclendon-chisholm-tx/mold-remediation/",
         "/blog/choosing-a-restoration-company/",
         "/blog/how-to-test-for-mold/",
         "/blog/signs-of-hidden-mold/"
@@ -455,17 +468,17 @@
         "/services/",
         "/contact/",
         "/service-areas/allen-tx/storm-damage-restoration/",
+        "/service-areas/caddo-mills-tx/storm-damage-restoration/",
         "/service-areas/dallas-tx/storm-damage-restoration/",
         "/service-areas/fate-tx/storm-damage-restoration/",
         "/service-areas/frisco-tx/storm-damage-restoration/",
         "/service-areas/garland-tx/storm-damage-restoration/",
         "/service-areas/greenville-tx/storm-damage-restoration/",
         "/service-areas/highland-park-tx/storm-damage-restoration/",
+        "/service-areas/josephine-tx/storm-damage-restoration/",
+        "/service-areas/lavon-tx/storm-damage-restoration/",
         "/service-areas/mckinney-tx/storm-damage-restoration/",
-        "/service-areas/mesquite-tx/storm-damage-restoration/",
-        "/service-areas/plano-tx/storm-damage-restoration/",
-        "/service-areas/richardson-tx/storm-damage-restoration/",
-        "/service-areas/rockwall-tx/storm-damage-restoration/"
+        "/service-areas/mclendon-chisholm-tx/storm-damage-restoration/"
       ]
     },
     {
@@ -506,17 +519,17 @@
         "/services/",
         "/contact/",
         "/service-areas/allen-tx/general-contracting/",
+        "/service-areas/caddo-mills-tx/general-contracting/",
         "/service-areas/dallas-tx/general-contracting/",
         "/service-areas/fate-tx/general-contracting/",
         "/service-areas/frisco-tx/general-contracting/",
         "/service-areas/garland-tx/general-contracting/",
         "/service-areas/greenville-tx/general-contracting/",
         "/service-areas/highland-park-tx/general-contracting/",
+        "/service-areas/josephine-tx/general-contracting/",
+        "/service-areas/lavon-tx/general-contracting/",
         "/service-areas/mckinney-tx/general-contracting/",
-        "/service-areas/mesquite-tx/general-contracting/",
-        "/service-areas/plano-tx/general-contracting/",
-        "/service-areas/richardson-tx/general-contracting/",
-        "/service-areas/rockwall-tx/general-contracting/"
+        "/service-areas/mclendon-chisholm-tx/general-contracting/"
       ]
     },
     {
@@ -556,17 +569,69 @@
         "/services/",
         "/contact/",
         "/service-areas/allen-tx/contents-restoration/",
+        "/service-areas/caddo-mills-tx/contents-restoration/",
         "/service-areas/dallas-tx/contents-restoration/",
         "/service-areas/fate-tx/contents-restoration/",
         "/service-areas/frisco-tx/contents-restoration/",
         "/service-areas/garland-tx/contents-restoration/",
         "/service-areas/greenville-tx/contents-restoration/",
         "/service-areas/highland-park-tx/contents-restoration/",
+        "/service-areas/josephine-tx/contents-restoration/",
+        "/service-areas/lavon-tx/contents-restoration/",
         "/service-areas/mckinney-tx/contents-restoration/",
-        "/service-areas/mesquite-tx/contents-restoration/",
-        "/service-areas/plano-tx/contents-restoration/",
-        "/service-areas/richardson-tx/contents-restoration/",
-        "/service-areas/rockwall-tx/contents-restoration/"
+        "/service-areas/mclendon-chisholm-tx/contents-restoration/"
+      ]
+    },
+    {
+      "url_path": "/services/water-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Royse City | Reign Restoration",
+      "h1": "Emergency Water Cleanup in Royse City",
+      "meta_description": "24/7 emergency water cleanup in Royse City and surrounding areas. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "emergency water cleanup royse city",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/allen-tx/water-cleanup/",
+        "/service-areas/caddo-mills-tx/water-cleanup/",
+        "/service-areas/dallas-tx/water-cleanup/",
+        "/service-areas/fate-tx/water-cleanup/",
+        "/service-areas/frisco-tx/water-cleanup/",
+        "/service-areas/garland-tx/water-cleanup/",
+        "/service-areas/greenville-tx/water-cleanup/",
+        "/service-areas/highland-park-tx/water-cleanup/",
+        "/service-areas/josephine-tx/water-cleanup/",
+        "/service-areas/lavon-tx/water-cleanup/",
+        "/service-areas/mckinney-tx/water-cleanup/",
+        "/service-areas/mclendon-chisholm-tx/water-cleanup/",
+        "/services/water-damage-restoration/"
       ]
     },
     {
@@ -605,10 +670,11 @@
         "/service-areas/rockwall-tx/mold-remediation/",
         "/service-areas/rockwall-tx/water-damage-restoration/",
         "/service-areas/rockwall-tx/storm-damage-restoration/",
+        "/service-areas/rockwall-tx/water-cleanup/",
         "/service-areas/rockwall-tx/general-contracting/",
         "/service-areas/rockwall-tx/contents-restoration/",
-        "/service-areas/royse-city-tx/",
         "/service-areas/allen-tx/",
+        "/service-areas/caddo-mills-tx/",
         "/service-areas/dallas-tx/"
       ]
     },
@@ -648,10 +714,11 @@
         "/service-areas/fate-tx/mold-remediation/",
         "/service-areas/fate-tx/water-damage-restoration/",
         "/service-areas/fate-tx/storm-damage-restoration/",
+        "/service-areas/fate-tx/water-cleanup/",
         "/service-areas/fate-tx/general-contracting/",
         "/service-areas/fate-tx/contents-restoration/",
-        "/service-areas/royse-city-tx/",
         "/service-areas/allen-tx/",
+        "/service-areas/caddo-mills-tx/",
         "/service-areas/dallas-tx/"
       ]
     },
@@ -691,10 +758,11 @@
         "/service-areas/rowlett-tx/mold-remediation/",
         "/service-areas/rowlett-tx/water-damage-restoration/",
         "/service-areas/rowlett-tx/storm-damage-restoration/",
+        "/service-areas/rowlett-tx/water-cleanup/",
         "/service-areas/rowlett-tx/general-contracting/",
         "/service-areas/rowlett-tx/contents-restoration/",
-        "/service-areas/royse-city-tx/",
         "/service-areas/allen-tx/",
+        "/service-areas/caddo-mills-tx/",
         "/service-areas/dallas-tx/"
       ]
     },
@@ -734,10 +802,11 @@
         "/service-areas/wylie-tx/mold-remediation/",
         "/service-areas/wylie-tx/water-damage-restoration/",
         "/service-areas/wylie-tx/storm-damage-restoration/",
+        "/service-areas/wylie-tx/water-cleanup/",
         "/service-areas/wylie-tx/general-contracting/",
         "/service-areas/wylie-tx/contents-restoration/",
-        "/service-areas/royse-city-tx/",
         "/service-areas/allen-tx/",
+        "/service-areas/caddo-mills-tx/",
         "/service-areas/dallas-tx/"
       ]
     },
@@ -777,10 +846,11 @@
         "/service-areas/garland-tx/mold-remediation/",
         "/service-areas/garland-tx/water-damage-restoration/",
         "/service-areas/garland-tx/storm-damage-restoration/",
+        "/service-areas/garland-tx/water-cleanup/",
         "/service-areas/garland-tx/general-contracting/",
         "/service-areas/garland-tx/contents-restoration/",
-        "/service-areas/royse-city-tx/",
         "/service-areas/allen-tx/",
+        "/service-areas/caddo-mills-tx/",
         "/service-areas/dallas-tx/"
       ]
     },
@@ -820,10 +890,11 @@
         "/service-areas/mesquite-tx/mold-remediation/",
         "/service-areas/mesquite-tx/water-damage-restoration/",
         "/service-areas/mesquite-tx/storm-damage-restoration/",
+        "/service-areas/mesquite-tx/water-cleanup/",
         "/service-areas/mesquite-tx/general-contracting/",
         "/service-areas/mesquite-tx/contents-restoration/",
-        "/service-areas/royse-city-tx/",
         "/service-areas/allen-tx/",
+        "/service-areas/caddo-mills-tx/",
         "/service-areas/dallas-tx/"
       ]
     },
@@ -863,10 +934,11 @@
         "/service-areas/dallas-tx/mold-remediation/",
         "/service-areas/dallas-tx/water-damage-restoration/",
         "/service-areas/dallas-tx/storm-damage-restoration/",
+        "/service-areas/dallas-tx/water-cleanup/",
         "/service-areas/dallas-tx/general-contracting/",
         "/service-areas/dallas-tx/contents-restoration/",
-        "/service-areas/royse-city-tx/",
         "/service-areas/allen-tx/",
+        "/service-areas/caddo-mills-tx/",
         "/service-areas/fate-tx/"
       ]
     },
@@ -906,10 +978,11 @@
         "/service-areas/richardson-tx/mold-remediation/",
         "/service-areas/richardson-tx/water-damage-restoration/",
         "/service-areas/richardson-tx/storm-damage-restoration/",
+        "/service-areas/richardson-tx/water-cleanup/",
         "/service-areas/richardson-tx/general-contracting/",
         "/service-areas/richardson-tx/contents-restoration/",
-        "/service-areas/royse-city-tx/",
         "/service-areas/allen-tx/",
+        "/service-areas/caddo-mills-tx/",
         "/service-areas/dallas-tx/"
       ]
     },
@@ -949,10 +1022,11 @@
         "/service-areas/plano-tx/mold-remediation/",
         "/service-areas/plano-tx/water-damage-restoration/",
         "/service-areas/plano-tx/storm-damage-restoration/",
+        "/service-areas/plano-tx/water-cleanup/",
         "/service-areas/plano-tx/general-contracting/",
         "/service-areas/plano-tx/contents-restoration/",
-        "/service-areas/royse-city-tx/",
         "/service-areas/allen-tx/",
+        "/service-areas/caddo-mills-tx/",
         "/service-areas/dallas-tx/"
       ]
     },
@@ -992,9 +1066,10 @@
         "/service-areas/allen-tx/mold-remediation/",
         "/service-areas/allen-tx/water-damage-restoration/",
         "/service-areas/allen-tx/storm-damage-restoration/",
+        "/service-areas/allen-tx/water-cleanup/",
         "/service-areas/allen-tx/general-contracting/",
         "/service-areas/allen-tx/contents-restoration/",
-        "/service-areas/royse-city-tx/",
+        "/service-areas/caddo-mills-tx/",
         "/service-areas/dallas-tx/",
         "/service-areas/fate-tx/"
       ]
@@ -1035,10 +1110,11 @@
         "/service-areas/mckinney-tx/mold-remediation/",
         "/service-areas/mckinney-tx/water-damage-restoration/",
         "/service-areas/mckinney-tx/storm-damage-restoration/",
+        "/service-areas/mckinney-tx/water-cleanup/",
         "/service-areas/mckinney-tx/general-contracting/",
         "/service-areas/mckinney-tx/contents-restoration/",
-        "/service-areas/royse-city-tx/",
         "/service-areas/allen-tx/",
+        "/service-areas/caddo-mills-tx/",
         "/service-areas/dallas-tx/"
       ]
     },
@@ -1078,10 +1154,11 @@
         "/service-areas/frisco-tx/mold-remediation/",
         "/service-areas/frisco-tx/water-damage-restoration/",
         "/service-areas/frisco-tx/storm-damage-restoration/",
+        "/service-areas/frisco-tx/water-cleanup/",
         "/service-areas/frisco-tx/general-contracting/",
         "/service-areas/frisco-tx/contents-restoration/",
-        "/service-areas/royse-city-tx/",
         "/service-areas/allen-tx/",
+        "/service-areas/caddo-mills-tx/",
         "/service-areas/dallas-tx/"
       ]
     },
@@ -1121,10 +1198,11 @@
         "/service-areas/highland-park-tx/mold-remediation/",
         "/service-areas/highland-park-tx/water-damage-restoration/",
         "/service-areas/highland-park-tx/storm-damage-restoration/",
+        "/service-areas/highland-park-tx/water-cleanup/",
         "/service-areas/highland-park-tx/general-contracting/",
         "/service-areas/highland-park-tx/contents-restoration/",
-        "/service-areas/royse-city-tx/",
         "/service-areas/allen-tx/",
+        "/service-areas/caddo-mills-tx/",
         "/service-areas/dallas-tx/"
       ]
     },
@@ -1164,10 +1242,11 @@
         "/service-areas/university-park-tx/mold-remediation/",
         "/service-areas/university-park-tx/water-damage-restoration/",
         "/service-areas/university-park-tx/storm-damage-restoration/",
+        "/service-areas/university-park-tx/water-cleanup/",
         "/service-areas/university-park-tx/general-contracting/",
         "/service-areas/university-park-tx/contents-restoration/",
-        "/service-areas/royse-city-tx/",
         "/service-areas/allen-tx/",
+        "/service-areas/caddo-mills-tx/",
         "/service-areas/dallas-tx/"
       ]
     },
@@ -1207,10 +1286,11 @@
         "/service-areas/greenville-tx/mold-remediation/",
         "/service-areas/greenville-tx/water-damage-restoration/",
         "/service-areas/greenville-tx/storm-damage-restoration/",
+        "/service-areas/greenville-tx/water-cleanup/",
         "/service-areas/greenville-tx/general-contracting/",
         "/service-areas/greenville-tx/contents-restoration/",
-        "/service-areas/royse-city-tx/",
         "/service-areas/allen-tx/",
+        "/service-areas/caddo-mills-tx/",
         "/service-areas/dallas-tx/"
       ]
     },
@@ -1250,11 +1330,276 @@
         "/service-areas/terrell-tx/mold-remediation/",
         "/service-areas/terrell-tx/water-damage-restoration/",
         "/service-areas/terrell-tx/storm-damage-restoration/",
+        "/service-areas/terrell-tx/water-cleanup/",
         "/service-areas/terrell-tx/general-contracting/",
         "/service-areas/terrell-tx/contents-restoration/",
-        "/service-areas/royse-city-tx/",
         "/service-areas/allen-tx/",
+        "/service-areas/caddo-mills-tx/",
         "/service-areas/dallas-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nevada-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Nevada, TX | Reign Restoration",
+      "h1": "Restoration Services in Nevada",
+      "meta_description": "Serving Nevada, TX with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (214) 304-0621.",
+      "primary_keyword": "restoration services nevada",
+      "secondary_keywords": [
+        "nevada restoration company",
+        "damage restoration nevada",
+        "nevada disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/nevada-tx/fire-damage-restoration/",
+        "/service-areas/nevada-tx/mold-remediation/",
+        "/service-areas/nevada-tx/water-damage-restoration/",
+        "/service-areas/nevada-tx/storm-damage-restoration/",
+        "/service-areas/nevada-tx/water-cleanup/",
+        "/service-areas/nevada-tx/general-contracting/",
+        "/service-areas/nevada-tx/contents-restoration/",
+        "/service-areas/allen-tx/",
+        "/service-areas/caddo-mills-tx/",
+        "/service-areas/dallas-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/union-valley-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Union Valley, TX | Reign Restoration",
+      "h1": "Restoration Services in Union Valley",
+      "meta_description": "Serving Union Valley, TX with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (214) 304-0621.",
+      "primary_keyword": "restoration services union valley",
+      "secondary_keywords": [
+        "union valley restoration company",
+        "damage restoration union valley",
+        "union valley disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/union-valley-tx/fire-damage-restoration/",
+        "/service-areas/union-valley-tx/mold-remediation/",
+        "/service-areas/union-valley-tx/water-damage-restoration/",
+        "/service-areas/union-valley-tx/storm-damage-restoration/",
+        "/service-areas/union-valley-tx/water-cleanup/",
+        "/service-areas/union-valley-tx/general-contracting/",
+        "/service-areas/union-valley-tx/contents-restoration/",
+        "/service-areas/allen-tx/",
+        "/service-areas/caddo-mills-tx/",
+        "/service-areas/dallas-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/josephine-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Josephine, TX | Reign Restoration",
+      "h1": "Restoration Services in Josephine",
+      "meta_description": "Serving Josephine, TX with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (214) 304-0621.",
+      "primary_keyword": "restoration services josephine",
+      "secondary_keywords": [
+        "josephine restoration company",
+        "damage restoration josephine",
+        "josephine disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/josephine-tx/fire-damage-restoration/",
+        "/service-areas/josephine-tx/mold-remediation/",
+        "/service-areas/josephine-tx/water-damage-restoration/",
+        "/service-areas/josephine-tx/storm-damage-restoration/",
+        "/service-areas/josephine-tx/water-cleanup/",
+        "/service-areas/josephine-tx/general-contracting/",
+        "/service-areas/josephine-tx/contents-restoration/",
+        "/service-areas/allen-tx/",
+        "/service-areas/caddo-mills-tx/",
+        "/service-areas/dallas-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lavon-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Lavon, TX | Reign Restoration",
+      "h1": "Restoration Services in Lavon",
+      "meta_description": "Serving Lavon, TX with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (214) 304-0621.",
+      "primary_keyword": "restoration services lavon",
+      "secondary_keywords": [
+        "lavon restoration company",
+        "damage restoration lavon",
+        "lavon disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/lavon-tx/fire-damage-restoration/",
+        "/service-areas/lavon-tx/mold-remediation/",
+        "/service-areas/lavon-tx/water-damage-restoration/",
+        "/service-areas/lavon-tx/storm-damage-restoration/",
+        "/service-areas/lavon-tx/water-cleanup/",
+        "/service-areas/lavon-tx/general-contracting/",
+        "/service-areas/lavon-tx/contents-restoration/",
+        "/service-areas/allen-tx/",
+        "/service-areas/caddo-mills-tx/",
+        "/service-areas/dallas-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mclendon-chisholm-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in McLendon-Chisholm, TX | Reign Restoration",
+      "h1": "Restoration Services in McLendon-Chisholm",
+      "meta_description": "Serving McLendon-Chisholm, TX with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (214) 304-0621.",
+      "primary_keyword": "restoration services mclendon-chisholm",
+      "secondary_keywords": [
+        "mclendon-chisholm restoration company",
+        "damage restoration mclendon-chisholm",
+        "mclendon-chisholm disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/mclendon-chisholm-tx/fire-damage-restoration/",
+        "/service-areas/mclendon-chisholm-tx/mold-remediation/",
+        "/service-areas/mclendon-chisholm-tx/water-damage-restoration/",
+        "/service-areas/mclendon-chisholm-tx/storm-damage-restoration/",
+        "/service-areas/mclendon-chisholm-tx/water-cleanup/",
+        "/service-areas/mclendon-chisholm-tx/general-contracting/",
+        "/service-areas/mclendon-chisholm-tx/contents-restoration/",
+        "/service-areas/allen-tx/",
+        "/service-areas/caddo-mills-tx/",
+        "/service-areas/dallas-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/caddo-mills-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Caddo Mills, TX | Reign Restoration",
+      "h1": "Restoration Services in Caddo Mills",
+      "meta_description": "Serving Caddo Mills, TX with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (214) 304-0621.",
+      "primary_keyword": "restoration services caddo mills",
+      "secondary_keywords": [
+        "caddo mills restoration company",
+        "damage restoration caddo mills",
+        "caddo mills disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
+        "/service-areas/caddo-mills-tx/mold-remediation/",
+        "/service-areas/caddo-mills-tx/water-damage-restoration/",
+        "/service-areas/caddo-mills-tx/storm-damage-restoration/",
+        "/service-areas/caddo-mills-tx/water-cleanup/",
+        "/service-areas/caddo-mills-tx/general-contracting/",
+        "/service-areas/caddo-mills-tx/contents-restoration/",
+        "/service-areas/allen-tx/",
+        "/service-areas/dallas-tx/",
+        "/service-areas/fate-tx/"
       ]
     },
     {
@@ -1297,7 +1642,7 @@
         "/service-areas/rockwall-tx/fire-damage-restoration/",
         "/service-areas/rockwall-tx/mold-remediation/",
         "/service-areas/allen-tx/water-damage-restoration/",
-        "/service-areas/dallas-tx/water-damage-restoration/",
+        "/service-areas/caddo-mills-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1341,7 +1686,7 @@
         "/service-areas/rockwall-tx/mold-remediation/",
         "/service-areas/rockwall-tx/water-damage-restoration/",
         "/service-areas/allen-tx/fire-damage-restoration/",
-        "/service-areas/dallas-tx/fire-damage-restoration/",
+        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1385,7 +1730,7 @@
         "/service-areas/rockwall-tx/fire-damage-restoration/",
         "/service-areas/rockwall-tx/water-damage-restoration/",
         "/service-areas/allen-tx/mold-remediation/",
-        "/service-areas/dallas-tx/mold-remediation/",
+        "/service-areas/caddo-mills-tx/mold-remediation/",
         "/contact/"
       ]
     },
@@ -1429,7 +1774,7 @@
         "/service-areas/rockwall-tx/fire-damage-restoration/",
         "/service-areas/rockwall-tx/mold-remediation/",
         "/service-areas/allen-tx/storm-damage-restoration/",
-        "/service-areas/dallas-tx/storm-damage-restoration/",
+        "/service-areas/caddo-mills-tx/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1474,7 +1819,7 @@
         "/service-areas/rockwall-tx/fire-damage-restoration/",
         "/service-areas/rockwall-tx/mold-remediation/",
         "/service-areas/allen-tx/general-contracting/",
-        "/service-areas/dallas-tx/general-contracting/",
+        "/service-areas/caddo-mills-tx/general-contracting/",
         "/contact/"
       ]
     },
@@ -1518,7 +1863,52 @@
         "/service-areas/rockwall-tx/fire-damage-restoration/",
         "/service-areas/rockwall-tx/mold-remediation/",
         "/service-areas/allen-tx/contents-restoration/",
-        "/service-areas/dallas-tx/contents-restoration/",
+        "/service-areas/caddo-mills-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rockwall-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Rockwall, TX | Reign Restoration",
+      "h1": "Emergency Water Cleanup in Rockwall",
+      "meta_description": "24/7 emergency water cleanup in Rockwall, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "emergency water cleanup rockwall",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/rockwall-tx/",
+        "/service-areas/rockwall-tx/fire-damage-restoration/",
+        "/service-areas/rockwall-tx/mold-remediation/",
+        "/service-areas/allen-tx/water-cleanup/",
+        "/service-areas/caddo-mills-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -1562,7 +1952,7 @@
         "/service-areas/fate-tx/fire-damage-restoration/",
         "/service-areas/fate-tx/mold-remediation/",
         "/service-areas/allen-tx/water-damage-restoration/",
-        "/service-areas/dallas-tx/water-damage-restoration/",
+        "/service-areas/caddo-mills-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1606,7 +1996,7 @@
         "/service-areas/fate-tx/mold-remediation/",
         "/service-areas/fate-tx/water-damage-restoration/",
         "/service-areas/allen-tx/fire-damage-restoration/",
-        "/service-areas/dallas-tx/fire-damage-restoration/",
+        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1650,7 +2040,7 @@
         "/service-areas/fate-tx/fire-damage-restoration/",
         "/service-areas/fate-tx/water-damage-restoration/",
         "/service-areas/allen-tx/mold-remediation/",
-        "/service-areas/dallas-tx/mold-remediation/",
+        "/service-areas/caddo-mills-tx/mold-remediation/",
         "/contact/"
       ]
     },
@@ -1694,7 +2084,7 @@
         "/service-areas/fate-tx/fire-damage-restoration/",
         "/service-areas/fate-tx/mold-remediation/",
         "/service-areas/allen-tx/storm-damage-restoration/",
-        "/service-areas/dallas-tx/storm-damage-restoration/",
+        "/service-areas/caddo-mills-tx/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1739,7 +2129,7 @@
         "/service-areas/fate-tx/fire-damage-restoration/",
         "/service-areas/fate-tx/mold-remediation/",
         "/service-areas/allen-tx/general-contracting/",
-        "/service-areas/dallas-tx/general-contracting/",
+        "/service-areas/caddo-mills-tx/general-contracting/",
         "/contact/"
       ]
     },
@@ -1783,7 +2173,52 @@
         "/service-areas/fate-tx/fire-damage-restoration/",
         "/service-areas/fate-tx/mold-remediation/",
         "/service-areas/allen-tx/contents-restoration/",
-        "/service-areas/dallas-tx/contents-restoration/",
+        "/service-areas/caddo-mills-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fate-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Fate, TX | Reign Restoration",
+      "h1": "Emergency Water Cleanup in Fate",
+      "meta_description": "24/7 emergency water cleanup in Fate, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "emergency water cleanup fate",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/fate-tx/",
+        "/service-areas/fate-tx/fire-damage-restoration/",
+        "/service-areas/fate-tx/mold-remediation/",
+        "/service-areas/allen-tx/water-cleanup/",
+        "/service-areas/caddo-mills-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -1827,7 +2262,7 @@
         "/service-areas/rowlett-tx/fire-damage-restoration/",
         "/service-areas/rowlett-tx/mold-remediation/",
         "/service-areas/allen-tx/water-damage-restoration/",
-        "/service-areas/dallas-tx/water-damage-restoration/",
+        "/service-areas/caddo-mills-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1871,7 +2306,7 @@
         "/service-areas/rowlett-tx/mold-remediation/",
         "/service-areas/rowlett-tx/water-damage-restoration/",
         "/service-areas/allen-tx/fire-damage-restoration/",
-        "/service-areas/dallas-tx/fire-damage-restoration/",
+        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1915,7 +2350,7 @@
         "/service-areas/rowlett-tx/fire-damage-restoration/",
         "/service-areas/rowlett-tx/water-damage-restoration/",
         "/service-areas/allen-tx/mold-remediation/",
-        "/service-areas/dallas-tx/mold-remediation/",
+        "/service-areas/caddo-mills-tx/mold-remediation/",
         "/contact/"
       ]
     },
@@ -1959,7 +2394,7 @@
         "/service-areas/rowlett-tx/fire-damage-restoration/",
         "/service-areas/rowlett-tx/mold-remediation/",
         "/service-areas/allen-tx/storm-damage-restoration/",
-        "/service-areas/dallas-tx/storm-damage-restoration/",
+        "/service-areas/caddo-mills-tx/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2004,7 +2439,7 @@
         "/service-areas/rowlett-tx/fire-damage-restoration/",
         "/service-areas/rowlett-tx/mold-remediation/",
         "/service-areas/allen-tx/general-contracting/",
-        "/service-areas/dallas-tx/general-contracting/",
+        "/service-areas/caddo-mills-tx/general-contracting/",
         "/contact/"
       ]
     },
@@ -2048,7 +2483,52 @@
         "/service-areas/rowlett-tx/fire-damage-restoration/",
         "/service-areas/rowlett-tx/mold-remediation/",
         "/service-areas/allen-tx/contents-restoration/",
-        "/service-areas/dallas-tx/contents-restoration/",
+        "/service-areas/caddo-mills-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rowlett-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Rowlett, TX | Reign Restoration",
+      "h1": "Emergency Water Cleanup in Rowlett",
+      "meta_description": "24/7 emergency water cleanup in Rowlett, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "emergency water cleanup rowlett",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/rowlett-tx/",
+        "/service-areas/rowlett-tx/fire-damage-restoration/",
+        "/service-areas/rowlett-tx/mold-remediation/",
+        "/service-areas/allen-tx/water-cleanup/",
+        "/service-areas/caddo-mills-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2092,7 +2572,7 @@
         "/service-areas/wylie-tx/fire-damage-restoration/",
         "/service-areas/wylie-tx/mold-remediation/",
         "/service-areas/allen-tx/water-damage-restoration/",
-        "/service-areas/dallas-tx/water-damage-restoration/",
+        "/service-areas/caddo-mills-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2136,7 +2616,7 @@
         "/service-areas/wylie-tx/mold-remediation/",
         "/service-areas/wylie-tx/water-damage-restoration/",
         "/service-areas/allen-tx/fire-damage-restoration/",
-        "/service-areas/dallas-tx/fire-damage-restoration/",
+        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2180,7 +2660,7 @@
         "/service-areas/wylie-tx/fire-damage-restoration/",
         "/service-areas/wylie-tx/water-damage-restoration/",
         "/service-areas/allen-tx/mold-remediation/",
-        "/service-areas/dallas-tx/mold-remediation/",
+        "/service-areas/caddo-mills-tx/mold-remediation/",
         "/contact/"
       ]
     },
@@ -2224,7 +2704,7 @@
         "/service-areas/wylie-tx/fire-damage-restoration/",
         "/service-areas/wylie-tx/mold-remediation/",
         "/service-areas/allen-tx/storm-damage-restoration/",
-        "/service-areas/dallas-tx/storm-damage-restoration/",
+        "/service-areas/caddo-mills-tx/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2269,7 +2749,7 @@
         "/service-areas/wylie-tx/fire-damage-restoration/",
         "/service-areas/wylie-tx/mold-remediation/",
         "/service-areas/allen-tx/general-contracting/",
-        "/service-areas/dallas-tx/general-contracting/",
+        "/service-areas/caddo-mills-tx/general-contracting/",
         "/contact/"
       ]
     },
@@ -2313,7 +2793,52 @@
         "/service-areas/wylie-tx/fire-damage-restoration/",
         "/service-areas/wylie-tx/mold-remediation/",
         "/service-areas/allen-tx/contents-restoration/",
-        "/service-areas/dallas-tx/contents-restoration/",
+        "/service-areas/caddo-mills-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/wylie-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Wylie, TX | Reign Restoration",
+      "h1": "Emergency Water Cleanup in Wylie",
+      "meta_description": "24/7 emergency water cleanup in Wylie, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "emergency water cleanup wylie",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/wylie-tx/",
+        "/service-areas/wylie-tx/fire-damage-restoration/",
+        "/service-areas/wylie-tx/mold-remediation/",
+        "/service-areas/allen-tx/water-cleanup/",
+        "/service-areas/caddo-mills-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2357,7 +2882,7 @@
         "/service-areas/garland-tx/fire-damage-restoration/",
         "/service-areas/garland-tx/mold-remediation/",
         "/service-areas/allen-tx/water-damage-restoration/",
-        "/service-areas/dallas-tx/water-damage-restoration/",
+        "/service-areas/caddo-mills-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2401,7 +2926,7 @@
         "/service-areas/garland-tx/mold-remediation/",
         "/service-areas/garland-tx/water-damage-restoration/",
         "/service-areas/allen-tx/fire-damage-restoration/",
-        "/service-areas/dallas-tx/fire-damage-restoration/",
+        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2445,7 +2970,7 @@
         "/service-areas/garland-tx/fire-damage-restoration/",
         "/service-areas/garland-tx/water-damage-restoration/",
         "/service-areas/allen-tx/mold-remediation/",
-        "/service-areas/dallas-tx/mold-remediation/",
+        "/service-areas/caddo-mills-tx/mold-remediation/",
         "/contact/"
       ]
     },
@@ -2489,7 +3014,7 @@
         "/service-areas/garland-tx/fire-damage-restoration/",
         "/service-areas/garland-tx/mold-remediation/",
         "/service-areas/allen-tx/storm-damage-restoration/",
-        "/service-areas/dallas-tx/storm-damage-restoration/",
+        "/service-areas/caddo-mills-tx/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2534,7 +3059,7 @@
         "/service-areas/garland-tx/fire-damage-restoration/",
         "/service-areas/garland-tx/mold-remediation/",
         "/service-areas/allen-tx/general-contracting/",
-        "/service-areas/dallas-tx/general-contracting/",
+        "/service-areas/caddo-mills-tx/general-contracting/",
         "/contact/"
       ]
     },
@@ -2578,7 +3103,52 @@
         "/service-areas/garland-tx/fire-damage-restoration/",
         "/service-areas/garland-tx/mold-remediation/",
         "/service-areas/allen-tx/contents-restoration/",
-        "/service-areas/dallas-tx/contents-restoration/",
+        "/service-areas/caddo-mills-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/garland-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Garland, TX | Reign Restoration",
+      "h1": "Emergency Water Cleanup in Garland",
+      "meta_description": "24/7 emergency water cleanup in Garland, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "emergency water cleanup garland",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/garland-tx/",
+        "/service-areas/garland-tx/fire-damage-restoration/",
+        "/service-areas/garland-tx/mold-remediation/",
+        "/service-areas/allen-tx/water-cleanup/",
+        "/service-areas/caddo-mills-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2622,7 +3192,7 @@
         "/service-areas/mesquite-tx/fire-damage-restoration/",
         "/service-areas/mesquite-tx/mold-remediation/",
         "/service-areas/allen-tx/water-damage-restoration/",
-        "/service-areas/dallas-tx/water-damage-restoration/",
+        "/service-areas/caddo-mills-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2666,7 +3236,7 @@
         "/service-areas/mesquite-tx/mold-remediation/",
         "/service-areas/mesquite-tx/water-damage-restoration/",
         "/service-areas/allen-tx/fire-damage-restoration/",
-        "/service-areas/dallas-tx/fire-damage-restoration/",
+        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2710,7 +3280,7 @@
         "/service-areas/mesquite-tx/fire-damage-restoration/",
         "/service-areas/mesquite-tx/water-damage-restoration/",
         "/service-areas/allen-tx/mold-remediation/",
-        "/service-areas/dallas-tx/mold-remediation/",
+        "/service-areas/caddo-mills-tx/mold-remediation/",
         "/contact/"
       ]
     },
@@ -2754,7 +3324,7 @@
         "/service-areas/mesquite-tx/fire-damage-restoration/",
         "/service-areas/mesquite-tx/mold-remediation/",
         "/service-areas/allen-tx/storm-damage-restoration/",
-        "/service-areas/dallas-tx/storm-damage-restoration/",
+        "/service-areas/caddo-mills-tx/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2799,7 +3369,7 @@
         "/service-areas/mesquite-tx/fire-damage-restoration/",
         "/service-areas/mesquite-tx/mold-remediation/",
         "/service-areas/allen-tx/general-contracting/",
-        "/service-areas/dallas-tx/general-contracting/",
+        "/service-areas/caddo-mills-tx/general-contracting/",
         "/contact/"
       ]
     },
@@ -2843,7 +3413,52 @@
         "/service-areas/mesquite-tx/fire-damage-restoration/",
         "/service-areas/mesquite-tx/mold-remediation/",
         "/service-areas/allen-tx/contents-restoration/",
-        "/service-areas/dallas-tx/contents-restoration/",
+        "/service-areas/caddo-mills-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mesquite-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Mesquite, TX | Reign Restoration",
+      "h1": "Emergency Water Cleanup in Mesquite",
+      "meta_description": "24/7 emergency water cleanup in Mesquite, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "emergency water cleanup mesquite",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/mesquite-tx/",
+        "/service-areas/mesquite-tx/fire-damage-restoration/",
+        "/service-areas/mesquite-tx/mold-remediation/",
+        "/service-areas/allen-tx/water-cleanup/",
+        "/service-areas/caddo-mills-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2887,7 +3502,7 @@
         "/service-areas/dallas-tx/fire-damage-restoration/",
         "/service-areas/dallas-tx/mold-remediation/",
         "/service-areas/allen-tx/water-damage-restoration/",
-        "/service-areas/fate-tx/water-damage-restoration/",
+        "/service-areas/caddo-mills-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2931,7 +3546,7 @@
         "/service-areas/dallas-tx/mold-remediation/",
         "/service-areas/dallas-tx/water-damage-restoration/",
         "/service-areas/allen-tx/fire-damage-restoration/",
-        "/service-areas/fate-tx/fire-damage-restoration/",
+        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2975,7 +3590,7 @@
         "/service-areas/dallas-tx/fire-damage-restoration/",
         "/service-areas/dallas-tx/water-damage-restoration/",
         "/service-areas/allen-tx/mold-remediation/",
-        "/service-areas/fate-tx/mold-remediation/",
+        "/service-areas/caddo-mills-tx/mold-remediation/",
         "/contact/"
       ]
     },
@@ -3019,7 +3634,7 @@
         "/service-areas/dallas-tx/fire-damage-restoration/",
         "/service-areas/dallas-tx/mold-remediation/",
         "/service-areas/allen-tx/storm-damage-restoration/",
-        "/service-areas/fate-tx/storm-damage-restoration/",
+        "/service-areas/caddo-mills-tx/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3064,7 +3679,7 @@
         "/service-areas/dallas-tx/fire-damage-restoration/",
         "/service-areas/dallas-tx/mold-remediation/",
         "/service-areas/allen-tx/general-contracting/",
-        "/service-areas/fate-tx/general-contracting/",
+        "/service-areas/caddo-mills-tx/general-contracting/",
         "/contact/"
       ]
     },
@@ -3108,7 +3723,52 @@
         "/service-areas/dallas-tx/fire-damage-restoration/",
         "/service-areas/dallas-tx/mold-remediation/",
         "/service-areas/allen-tx/contents-restoration/",
-        "/service-areas/fate-tx/contents-restoration/",
+        "/service-areas/caddo-mills-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/dallas-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Dallas, TX | Reign Restoration",
+      "h1": "Emergency Water Cleanup in Dallas",
+      "meta_description": "24/7 emergency water cleanup in Dallas, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "emergency water cleanup dallas",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/dallas-tx/",
+        "/service-areas/dallas-tx/fire-damage-restoration/",
+        "/service-areas/dallas-tx/mold-remediation/",
+        "/service-areas/allen-tx/water-cleanup/",
+        "/service-areas/caddo-mills-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3152,7 +3812,7 @@
         "/service-areas/richardson-tx/fire-damage-restoration/",
         "/service-areas/richardson-tx/mold-remediation/",
         "/service-areas/allen-tx/water-damage-restoration/",
-        "/service-areas/dallas-tx/water-damage-restoration/",
+        "/service-areas/caddo-mills-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3196,7 +3856,7 @@
         "/service-areas/richardson-tx/mold-remediation/",
         "/service-areas/richardson-tx/water-damage-restoration/",
         "/service-areas/allen-tx/fire-damage-restoration/",
-        "/service-areas/dallas-tx/fire-damage-restoration/",
+        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3240,7 +3900,7 @@
         "/service-areas/richardson-tx/fire-damage-restoration/",
         "/service-areas/richardson-tx/water-damage-restoration/",
         "/service-areas/allen-tx/mold-remediation/",
-        "/service-areas/dallas-tx/mold-remediation/",
+        "/service-areas/caddo-mills-tx/mold-remediation/",
         "/contact/"
       ]
     },
@@ -3284,7 +3944,7 @@
         "/service-areas/richardson-tx/fire-damage-restoration/",
         "/service-areas/richardson-tx/mold-remediation/",
         "/service-areas/allen-tx/storm-damage-restoration/",
-        "/service-areas/dallas-tx/storm-damage-restoration/",
+        "/service-areas/caddo-mills-tx/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3329,7 +3989,7 @@
         "/service-areas/richardson-tx/fire-damage-restoration/",
         "/service-areas/richardson-tx/mold-remediation/",
         "/service-areas/allen-tx/general-contracting/",
-        "/service-areas/dallas-tx/general-contracting/",
+        "/service-areas/caddo-mills-tx/general-contracting/",
         "/contact/"
       ]
     },
@@ -3373,7 +4033,52 @@
         "/service-areas/richardson-tx/fire-damage-restoration/",
         "/service-areas/richardson-tx/mold-remediation/",
         "/service-areas/allen-tx/contents-restoration/",
-        "/service-areas/dallas-tx/contents-restoration/",
+        "/service-areas/caddo-mills-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/richardson-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Richardson, TX | Reign Restoration",
+      "h1": "Emergency Water Cleanup in Richardson",
+      "meta_description": "24/7 emergency water cleanup in Richardson, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "emergency water cleanup richardson",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/richardson-tx/",
+        "/service-areas/richardson-tx/fire-damage-restoration/",
+        "/service-areas/richardson-tx/mold-remediation/",
+        "/service-areas/allen-tx/water-cleanup/",
+        "/service-areas/caddo-mills-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3417,7 +4122,7 @@
         "/service-areas/plano-tx/fire-damage-restoration/",
         "/service-areas/plano-tx/mold-remediation/",
         "/service-areas/allen-tx/water-damage-restoration/",
-        "/service-areas/dallas-tx/water-damage-restoration/",
+        "/service-areas/caddo-mills-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3461,7 +4166,7 @@
         "/service-areas/plano-tx/mold-remediation/",
         "/service-areas/plano-tx/water-damage-restoration/",
         "/service-areas/allen-tx/fire-damage-restoration/",
-        "/service-areas/dallas-tx/fire-damage-restoration/",
+        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3505,7 +4210,7 @@
         "/service-areas/plano-tx/fire-damage-restoration/",
         "/service-areas/plano-tx/water-damage-restoration/",
         "/service-areas/allen-tx/mold-remediation/",
-        "/service-areas/dallas-tx/mold-remediation/",
+        "/service-areas/caddo-mills-tx/mold-remediation/",
         "/contact/"
       ]
     },
@@ -3549,7 +4254,7 @@
         "/service-areas/plano-tx/fire-damage-restoration/",
         "/service-areas/plano-tx/mold-remediation/",
         "/service-areas/allen-tx/storm-damage-restoration/",
-        "/service-areas/dallas-tx/storm-damage-restoration/",
+        "/service-areas/caddo-mills-tx/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3594,7 +4299,7 @@
         "/service-areas/plano-tx/fire-damage-restoration/",
         "/service-areas/plano-tx/mold-remediation/",
         "/service-areas/allen-tx/general-contracting/",
-        "/service-areas/dallas-tx/general-contracting/",
+        "/service-areas/caddo-mills-tx/general-contracting/",
         "/contact/"
       ]
     },
@@ -3638,7 +4343,52 @@
         "/service-areas/plano-tx/fire-damage-restoration/",
         "/service-areas/plano-tx/mold-remediation/",
         "/service-areas/allen-tx/contents-restoration/",
-        "/service-areas/dallas-tx/contents-restoration/",
+        "/service-areas/caddo-mills-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/plano-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Plano, TX | Reign Restoration",
+      "h1": "Emergency Water Cleanup in Plano",
+      "meta_description": "24/7 emergency water cleanup in Plano, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "emergency water cleanup plano",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/plano-tx/",
+        "/service-areas/plano-tx/fire-damage-restoration/",
+        "/service-areas/plano-tx/mold-remediation/",
+        "/service-areas/allen-tx/water-cleanup/",
+        "/service-areas/caddo-mills-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3681,8 +4431,8 @@
         "/service-areas/allen-tx/",
         "/service-areas/allen-tx/fire-damage-restoration/",
         "/service-areas/allen-tx/mold-remediation/",
+        "/service-areas/caddo-mills-tx/water-damage-restoration/",
         "/service-areas/dallas-tx/water-damage-restoration/",
-        "/service-areas/fate-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3725,8 +4475,8 @@
         "/service-areas/allen-tx/",
         "/service-areas/allen-tx/mold-remediation/",
         "/service-areas/allen-tx/water-damage-restoration/",
+        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
         "/service-areas/dallas-tx/fire-damage-restoration/",
-        "/service-areas/fate-tx/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3769,8 +4519,8 @@
         "/service-areas/allen-tx/",
         "/service-areas/allen-tx/fire-damage-restoration/",
         "/service-areas/allen-tx/water-damage-restoration/",
+        "/service-areas/caddo-mills-tx/mold-remediation/",
         "/service-areas/dallas-tx/mold-remediation/",
-        "/service-areas/fate-tx/mold-remediation/",
         "/contact/"
       ]
     },
@@ -3813,8 +4563,8 @@
         "/service-areas/allen-tx/",
         "/service-areas/allen-tx/fire-damage-restoration/",
         "/service-areas/allen-tx/mold-remediation/",
+        "/service-areas/caddo-mills-tx/storm-damage-restoration/",
         "/service-areas/dallas-tx/storm-damage-restoration/",
-        "/service-areas/fate-tx/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3858,8 +4608,8 @@
         "/service-areas/allen-tx/",
         "/service-areas/allen-tx/fire-damage-restoration/",
         "/service-areas/allen-tx/mold-remediation/",
+        "/service-areas/caddo-mills-tx/general-contracting/",
         "/service-areas/dallas-tx/general-contracting/",
-        "/service-areas/fate-tx/general-contracting/",
         "/contact/"
       ]
     },
@@ -3902,8 +4652,53 @@
         "/service-areas/allen-tx/",
         "/service-areas/allen-tx/fire-damage-restoration/",
         "/service-areas/allen-tx/mold-remediation/",
+        "/service-areas/caddo-mills-tx/contents-restoration/",
         "/service-areas/dallas-tx/contents-restoration/",
-        "/service-areas/fate-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/allen-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Allen, TX | Reign Restoration",
+      "h1": "Emergency Water Cleanup in Allen",
+      "meta_description": "24/7 emergency water cleanup in Allen, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "emergency water cleanup allen",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/allen-tx/",
+        "/service-areas/allen-tx/fire-damage-restoration/",
+        "/service-areas/allen-tx/mold-remediation/",
+        "/service-areas/caddo-mills-tx/water-cleanup/",
+        "/service-areas/dallas-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3947,7 +4742,7 @@
         "/service-areas/mckinney-tx/fire-damage-restoration/",
         "/service-areas/mckinney-tx/mold-remediation/",
         "/service-areas/allen-tx/water-damage-restoration/",
-        "/service-areas/dallas-tx/water-damage-restoration/",
+        "/service-areas/caddo-mills-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3991,7 +4786,7 @@
         "/service-areas/mckinney-tx/mold-remediation/",
         "/service-areas/mckinney-tx/water-damage-restoration/",
         "/service-areas/allen-tx/fire-damage-restoration/",
-        "/service-areas/dallas-tx/fire-damage-restoration/",
+        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4035,7 +4830,7 @@
         "/service-areas/mckinney-tx/fire-damage-restoration/",
         "/service-areas/mckinney-tx/water-damage-restoration/",
         "/service-areas/allen-tx/mold-remediation/",
-        "/service-areas/dallas-tx/mold-remediation/",
+        "/service-areas/caddo-mills-tx/mold-remediation/",
         "/contact/"
       ]
     },
@@ -4079,7 +4874,7 @@
         "/service-areas/mckinney-tx/fire-damage-restoration/",
         "/service-areas/mckinney-tx/mold-remediation/",
         "/service-areas/allen-tx/storm-damage-restoration/",
-        "/service-areas/dallas-tx/storm-damage-restoration/",
+        "/service-areas/caddo-mills-tx/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4124,7 +4919,7 @@
         "/service-areas/mckinney-tx/fire-damage-restoration/",
         "/service-areas/mckinney-tx/mold-remediation/",
         "/service-areas/allen-tx/general-contracting/",
-        "/service-areas/dallas-tx/general-contracting/",
+        "/service-areas/caddo-mills-tx/general-contracting/",
         "/contact/"
       ]
     },
@@ -4168,7 +4963,52 @@
         "/service-areas/mckinney-tx/fire-damage-restoration/",
         "/service-areas/mckinney-tx/mold-remediation/",
         "/service-areas/allen-tx/contents-restoration/",
-        "/service-areas/dallas-tx/contents-restoration/",
+        "/service-areas/caddo-mills-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mckinney-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in McKinney, TX | Reign Restoration",
+      "h1": "Emergency Water Cleanup in McKinney",
+      "meta_description": "24/7 emergency water cleanup in McKinney, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "emergency water cleanup mckinney",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/mckinney-tx/",
+        "/service-areas/mckinney-tx/fire-damage-restoration/",
+        "/service-areas/mckinney-tx/mold-remediation/",
+        "/service-areas/allen-tx/water-cleanup/",
+        "/service-areas/caddo-mills-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4212,7 +5052,7 @@
         "/service-areas/frisco-tx/fire-damage-restoration/",
         "/service-areas/frisco-tx/mold-remediation/",
         "/service-areas/allen-tx/water-damage-restoration/",
-        "/service-areas/dallas-tx/water-damage-restoration/",
+        "/service-areas/caddo-mills-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4256,7 +5096,7 @@
         "/service-areas/frisco-tx/mold-remediation/",
         "/service-areas/frisco-tx/water-damage-restoration/",
         "/service-areas/allen-tx/fire-damage-restoration/",
-        "/service-areas/dallas-tx/fire-damage-restoration/",
+        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4300,7 +5140,7 @@
         "/service-areas/frisco-tx/fire-damage-restoration/",
         "/service-areas/frisco-tx/water-damage-restoration/",
         "/service-areas/allen-tx/mold-remediation/",
-        "/service-areas/dallas-tx/mold-remediation/",
+        "/service-areas/caddo-mills-tx/mold-remediation/",
         "/contact/"
       ]
     },
@@ -4344,7 +5184,7 @@
         "/service-areas/frisco-tx/fire-damage-restoration/",
         "/service-areas/frisco-tx/mold-remediation/",
         "/service-areas/allen-tx/storm-damage-restoration/",
-        "/service-areas/dallas-tx/storm-damage-restoration/",
+        "/service-areas/caddo-mills-tx/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4389,7 +5229,7 @@
         "/service-areas/frisco-tx/fire-damage-restoration/",
         "/service-areas/frisco-tx/mold-remediation/",
         "/service-areas/allen-tx/general-contracting/",
-        "/service-areas/dallas-tx/general-contracting/",
+        "/service-areas/caddo-mills-tx/general-contracting/",
         "/contact/"
       ]
     },
@@ -4433,7 +5273,52 @@
         "/service-areas/frisco-tx/fire-damage-restoration/",
         "/service-areas/frisco-tx/mold-remediation/",
         "/service-areas/allen-tx/contents-restoration/",
-        "/service-areas/dallas-tx/contents-restoration/",
+        "/service-areas/caddo-mills-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/frisco-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Frisco, TX | Reign Restoration",
+      "h1": "Emergency Water Cleanup in Frisco",
+      "meta_description": "24/7 emergency water cleanup in Frisco, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "emergency water cleanup frisco",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/frisco-tx/",
+        "/service-areas/frisco-tx/fire-damage-restoration/",
+        "/service-areas/frisco-tx/mold-remediation/",
+        "/service-areas/allen-tx/water-cleanup/",
+        "/service-areas/caddo-mills-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4477,7 +5362,7 @@
         "/service-areas/highland-park-tx/fire-damage-restoration/",
         "/service-areas/highland-park-tx/mold-remediation/",
         "/service-areas/allen-tx/water-damage-restoration/",
-        "/service-areas/dallas-tx/water-damage-restoration/",
+        "/service-areas/caddo-mills-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4521,7 +5406,7 @@
         "/service-areas/highland-park-tx/mold-remediation/",
         "/service-areas/highland-park-tx/water-damage-restoration/",
         "/service-areas/allen-tx/fire-damage-restoration/",
-        "/service-areas/dallas-tx/fire-damage-restoration/",
+        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4565,7 +5450,7 @@
         "/service-areas/highland-park-tx/fire-damage-restoration/",
         "/service-areas/highland-park-tx/water-damage-restoration/",
         "/service-areas/allen-tx/mold-remediation/",
-        "/service-areas/dallas-tx/mold-remediation/",
+        "/service-areas/caddo-mills-tx/mold-remediation/",
         "/contact/"
       ]
     },
@@ -4609,7 +5494,7 @@
         "/service-areas/highland-park-tx/fire-damage-restoration/",
         "/service-areas/highland-park-tx/mold-remediation/",
         "/service-areas/allen-tx/storm-damage-restoration/",
-        "/service-areas/dallas-tx/storm-damage-restoration/",
+        "/service-areas/caddo-mills-tx/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4654,7 +5539,7 @@
         "/service-areas/highland-park-tx/fire-damage-restoration/",
         "/service-areas/highland-park-tx/mold-remediation/",
         "/service-areas/allen-tx/general-contracting/",
-        "/service-areas/dallas-tx/general-contracting/",
+        "/service-areas/caddo-mills-tx/general-contracting/",
         "/contact/"
       ]
     },
@@ -4698,7 +5583,52 @@
         "/service-areas/highland-park-tx/fire-damage-restoration/",
         "/service-areas/highland-park-tx/mold-remediation/",
         "/service-areas/allen-tx/contents-restoration/",
-        "/service-areas/dallas-tx/contents-restoration/",
+        "/service-areas/caddo-mills-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/highland-park-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Highland Park, TX | Reign Restoration",
+      "h1": "Emergency Water Cleanup in Highland Park",
+      "meta_description": "24/7 emergency water cleanup in Highland Park, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "emergency water cleanup highland park",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/highland-park-tx/",
+        "/service-areas/highland-park-tx/fire-damage-restoration/",
+        "/service-areas/highland-park-tx/mold-remediation/",
+        "/service-areas/allen-tx/water-cleanup/",
+        "/service-areas/caddo-mills-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4742,7 +5672,7 @@
         "/service-areas/university-park-tx/fire-damage-restoration/",
         "/service-areas/university-park-tx/mold-remediation/",
         "/service-areas/allen-tx/water-damage-restoration/",
-        "/service-areas/dallas-tx/water-damage-restoration/",
+        "/service-areas/caddo-mills-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4786,7 +5716,7 @@
         "/service-areas/university-park-tx/mold-remediation/",
         "/service-areas/university-park-tx/water-damage-restoration/",
         "/service-areas/allen-tx/fire-damage-restoration/",
-        "/service-areas/dallas-tx/fire-damage-restoration/",
+        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4830,7 +5760,7 @@
         "/service-areas/university-park-tx/fire-damage-restoration/",
         "/service-areas/university-park-tx/water-damage-restoration/",
         "/service-areas/allen-tx/mold-remediation/",
-        "/service-areas/dallas-tx/mold-remediation/",
+        "/service-areas/caddo-mills-tx/mold-remediation/",
         "/contact/"
       ]
     },
@@ -4874,7 +5804,7 @@
         "/service-areas/university-park-tx/fire-damage-restoration/",
         "/service-areas/university-park-tx/mold-remediation/",
         "/service-areas/allen-tx/storm-damage-restoration/",
-        "/service-areas/dallas-tx/storm-damage-restoration/",
+        "/service-areas/caddo-mills-tx/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4919,7 +5849,7 @@
         "/service-areas/university-park-tx/fire-damage-restoration/",
         "/service-areas/university-park-tx/mold-remediation/",
         "/service-areas/allen-tx/general-contracting/",
-        "/service-areas/dallas-tx/general-contracting/",
+        "/service-areas/caddo-mills-tx/general-contracting/",
         "/contact/"
       ]
     },
@@ -4963,7 +5893,52 @@
         "/service-areas/university-park-tx/fire-damage-restoration/",
         "/service-areas/university-park-tx/mold-remediation/",
         "/service-areas/allen-tx/contents-restoration/",
-        "/service-areas/dallas-tx/contents-restoration/",
+        "/service-areas/caddo-mills-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-park-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in University Park, TX | Reign Restoration",
+      "h1": "Emergency Water Cleanup in University Park",
+      "meta_description": "24/7 emergency water cleanup in University Park, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "emergency water cleanup university park",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/university-park-tx/",
+        "/service-areas/university-park-tx/fire-damage-restoration/",
+        "/service-areas/university-park-tx/mold-remediation/",
+        "/service-areas/allen-tx/water-cleanup/",
+        "/service-areas/caddo-mills-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -5007,7 +5982,7 @@
         "/service-areas/greenville-tx/fire-damage-restoration/",
         "/service-areas/greenville-tx/mold-remediation/",
         "/service-areas/allen-tx/water-damage-restoration/",
-        "/service-areas/dallas-tx/water-damage-restoration/",
+        "/service-areas/caddo-mills-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5051,7 +6026,7 @@
         "/service-areas/greenville-tx/mold-remediation/",
         "/service-areas/greenville-tx/water-damage-restoration/",
         "/service-areas/allen-tx/fire-damage-restoration/",
-        "/service-areas/dallas-tx/fire-damage-restoration/",
+        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5095,7 +6070,7 @@
         "/service-areas/greenville-tx/fire-damage-restoration/",
         "/service-areas/greenville-tx/water-damage-restoration/",
         "/service-areas/allen-tx/mold-remediation/",
-        "/service-areas/dallas-tx/mold-remediation/",
+        "/service-areas/caddo-mills-tx/mold-remediation/",
         "/contact/"
       ]
     },
@@ -5139,7 +6114,7 @@
         "/service-areas/greenville-tx/fire-damage-restoration/",
         "/service-areas/greenville-tx/mold-remediation/",
         "/service-areas/allen-tx/storm-damage-restoration/",
-        "/service-areas/dallas-tx/storm-damage-restoration/",
+        "/service-areas/caddo-mills-tx/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5184,7 +6159,7 @@
         "/service-areas/greenville-tx/fire-damage-restoration/",
         "/service-areas/greenville-tx/mold-remediation/",
         "/service-areas/allen-tx/general-contracting/",
-        "/service-areas/dallas-tx/general-contracting/",
+        "/service-areas/caddo-mills-tx/general-contracting/",
         "/contact/"
       ]
     },
@@ -5228,7 +6203,52 @@
         "/service-areas/greenville-tx/fire-damage-restoration/",
         "/service-areas/greenville-tx/mold-remediation/",
         "/service-areas/allen-tx/contents-restoration/",
-        "/service-areas/dallas-tx/contents-restoration/",
+        "/service-areas/caddo-mills-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/greenville-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Greenville, TX | Reign Restoration",
+      "h1": "Emergency Water Cleanup in Greenville",
+      "meta_description": "24/7 emergency water cleanup in Greenville, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "emergency water cleanup greenville",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/greenville-tx/",
+        "/service-areas/greenville-tx/fire-damage-restoration/",
+        "/service-areas/greenville-tx/mold-remediation/",
+        "/service-areas/allen-tx/water-cleanup/",
+        "/service-areas/caddo-mills-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -5272,7 +6292,7 @@
         "/service-areas/terrell-tx/fire-damage-restoration/",
         "/service-areas/terrell-tx/mold-remediation/",
         "/service-areas/allen-tx/water-damage-restoration/",
-        "/service-areas/dallas-tx/water-damage-restoration/",
+        "/service-areas/caddo-mills-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5316,7 +6336,7 @@
         "/service-areas/terrell-tx/mold-remediation/",
         "/service-areas/terrell-tx/water-damage-restoration/",
         "/service-areas/allen-tx/fire-damage-restoration/",
-        "/service-areas/dallas-tx/fire-damage-restoration/",
+        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5360,7 +6380,7 @@
         "/service-areas/terrell-tx/fire-damage-restoration/",
         "/service-areas/terrell-tx/water-damage-restoration/",
         "/service-areas/allen-tx/mold-remediation/",
-        "/service-areas/dallas-tx/mold-remediation/",
+        "/service-areas/caddo-mills-tx/mold-remediation/",
         "/contact/"
       ]
     },
@@ -5404,7 +6424,7 @@
         "/service-areas/terrell-tx/fire-damage-restoration/",
         "/service-areas/terrell-tx/mold-remediation/",
         "/service-areas/allen-tx/storm-damage-restoration/",
-        "/service-areas/dallas-tx/storm-damage-restoration/",
+        "/service-areas/caddo-mills-tx/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5449,7 +6469,7 @@
         "/service-areas/terrell-tx/fire-damage-restoration/",
         "/service-areas/terrell-tx/mold-remediation/",
         "/service-areas/allen-tx/general-contracting/",
-        "/service-areas/dallas-tx/general-contracting/",
+        "/service-areas/caddo-mills-tx/general-contracting/",
         "/contact/"
       ]
     },
@@ -5493,7 +6513,1912 @@
         "/service-areas/terrell-tx/fire-damage-restoration/",
         "/service-areas/terrell-tx/mold-remediation/",
         "/service-areas/allen-tx/contents-restoration/",
+        "/service-areas/caddo-mills-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/terrell-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Terrell, TX | Reign Restoration",
+      "h1": "Emergency Water Cleanup in Terrell",
+      "meta_description": "24/7 emergency water cleanup in Terrell, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "emergency water cleanup terrell",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/terrell-tx/",
+        "/service-areas/terrell-tx/fire-damage-restoration/",
+        "/service-areas/terrell-tx/mold-remediation/",
+        "/service-areas/allen-tx/water-cleanup/",
+        "/service-areas/caddo-mills-tx/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nevada-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Nevada, TX | Reign Restoration",
+      "h1": "Water Damage Restoration in Nevada",
+      "meta_description": "24/7 water damage restoration in Nevada, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "water damage restoration nevada",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/nevada-tx/",
+        "/service-areas/nevada-tx/fire-damage-restoration/",
+        "/service-areas/nevada-tx/mold-remediation/",
+        "/service-areas/allen-tx/water-damage-restoration/",
+        "/service-areas/caddo-mills-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nevada-tx/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Nevada, TX | Reign Restoration",
+      "h1": "Fire Damage Restoration in Nevada",
+      "meta_description": "24/7 fire damage restoration in Nevada, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "fire damage restoration nevada",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/nevada-tx/",
+        "/service-areas/nevada-tx/mold-remediation/",
+        "/service-areas/nevada-tx/water-damage-restoration/",
+        "/service-areas/allen-tx/fire-damage-restoration/",
+        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nevada-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Nevada, TX | Reign Restoration",
+      "h1": "Mold Remediation in Nevada",
+      "meta_description": "24/7 mold remediation in Nevada, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "mold remediation nevada",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/nevada-tx/",
+        "/service-areas/nevada-tx/fire-damage-restoration/",
+        "/service-areas/nevada-tx/water-damage-restoration/",
+        "/service-areas/allen-tx/mold-remediation/",
+        "/service-areas/caddo-mills-tx/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nevada-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Nevada, TX | Reign Restoration",
+      "h1": "Storm Damage Restoration in Nevada",
+      "meta_description": "24/7 storm damage restoration in Nevada, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "storm damage restoration nevada",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/nevada-tx/",
+        "/service-areas/nevada-tx/fire-damage-restoration/",
+        "/service-areas/nevada-tx/mold-remediation/",
+        "/service-areas/allen-tx/storm-damage-restoration/",
+        "/service-areas/caddo-mills-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nevada-tx/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Nevada, TX | Reign Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Nevada",
+      "meta_description": "24/7 renovations, remodels and general contracting in Nevada, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "renovations, remodels and general contracting nevada",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/nevada-tx/",
+        "/service-areas/nevada-tx/fire-damage-restoration/",
+        "/service-areas/nevada-tx/mold-remediation/",
+        "/service-areas/allen-tx/general-contracting/",
+        "/service-areas/caddo-mills-tx/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nevada-tx/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Nevada, TX | Reign Restoration",
+      "h1": "Contents Restoration and Storage in Nevada",
+      "meta_description": "24/7 contents restoration and storage in Nevada, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "contents restoration and storage nevada",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/nevada-tx/",
+        "/service-areas/nevada-tx/fire-damage-restoration/",
+        "/service-areas/nevada-tx/mold-remediation/",
+        "/service-areas/allen-tx/contents-restoration/",
+        "/service-areas/caddo-mills-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nevada-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Nevada, TX | Reign Restoration",
+      "h1": "Emergency Water Cleanup in Nevada",
+      "meta_description": "24/7 emergency water cleanup in Nevada, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "emergency water cleanup nevada",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/nevada-tx/",
+        "/service-areas/nevada-tx/fire-damage-restoration/",
+        "/service-areas/nevada-tx/mold-remediation/",
+        "/service-areas/allen-tx/water-cleanup/",
+        "/service-areas/caddo-mills-tx/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/union-valley-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Union Valley, TX | Reign Restoration",
+      "h1": "Water Damage Restoration in Union Valley",
+      "meta_description": "24/7 water damage restoration in Union Valley, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "water damage restoration union valley",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/union-valley-tx/",
+        "/service-areas/union-valley-tx/fire-damage-restoration/",
+        "/service-areas/union-valley-tx/mold-remediation/",
+        "/service-areas/allen-tx/water-damage-restoration/",
+        "/service-areas/caddo-mills-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/union-valley-tx/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Union Valley, TX | Reign Restoration",
+      "h1": "Fire Damage Restoration in Union Valley",
+      "meta_description": "24/7 fire damage restoration in Union Valley, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "fire damage restoration union valley",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/union-valley-tx/",
+        "/service-areas/union-valley-tx/mold-remediation/",
+        "/service-areas/union-valley-tx/water-damage-restoration/",
+        "/service-areas/allen-tx/fire-damage-restoration/",
+        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/union-valley-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Union Valley, TX | Reign Restoration",
+      "h1": "Mold Remediation in Union Valley",
+      "meta_description": "24/7 mold remediation in Union Valley, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "mold remediation union valley",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/union-valley-tx/",
+        "/service-areas/union-valley-tx/fire-damage-restoration/",
+        "/service-areas/union-valley-tx/water-damage-restoration/",
+        "/service-areas/allen-tx/mold-remediation/",
+        "/service-areas/caddo-mills-tx/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/union-valley-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Union Valley, TX | Reign Restoration",
+      "h1": "Storm Damage Restoration in Union Valley",
+      "meta_description": "24/7 storm damage restoration in Union Valley, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "storm damage restoration union valley",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/union-valley-tx/",
+        "/service-areas/union-valley-tx/fire-damage-restoration/",
+        "/service-areas/union-valley-tx/mold-remediation/",
+        "/service-areas/allen-tx/storm-damage-restoration/",
+        "/service-areas/caddo-mills-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/union-valley-tx/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Union Valley, TX | Reign Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Union Valley",
+      "meta_description": "24/7 renovations, remodels and general contracting in Union Valley, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "renovations, remodels and general contracting union valley",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/union-valley-tx/",
+        "/service-areas/union-valley-tx/fire-damage-restoration/",
+        "/service-areas/union-valley-tx/mold-remediation/",
+        "/service-areas/allen-tx/general-contracting/",
+        "/service-areas/caddo-mills-tx/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/union-valley-tx/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Union Valley, TX | Reign Restoration",
+      "h1": "Contents Restoration and Storage in Union Valley",
+      "meta_description": "24/7 contents restoration and storage in Union Valley, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "contents restoration and storage union valley",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/union-valley-tx/",
+        "/service-areas/union-valley-tx/fire-damage-restoration/",
+        "/service-areas/union-valley-tx/mold-remediation/",
+        "/service-areas/allen-tx/contents-restoration/",
+        "/service-areas/caddo-mills-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/union-valley-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Union Valley, TX | Reign Restoration",
+      "h1": "Emergency Water Cleanup in Union Valley",
+      "meta_description": "24/7 emergency water cleanup in Union Valley, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "emergency water cleanup union valley",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/union-valley-tx/",
+        "/service-areas/union-valley-tx/fire-damage-restoration/",
+        "/service-areas/union-valley-tx/mold-remediation/",
+        "/service-areas/allen-tx/water-cleanup/",
+        "/service-areas/caddo-mills-tx/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/josephine-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Josephine, TX | Reign Restoration",
+      "h1": "Water Damage Restoration in Josephine",
+      "meta_description": "24/7 water damage restoration in Josephine, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "water damage restoration josephine",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/josephine-tx/",
+        "/service-areas/josephine-tx/fire-damage-restoration/",
+        "/service-areas/josephine-tx/mold-remediation/",
+        "/service-areas/allen-tx/water-damage-restoration/",
+        "/service-areas/caddo-mills-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/josephine-tx/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Josephine, TX | Reign Restoration",
+      "h1": "Fire Damage Restoration in Josephine",
+      "meta_description": "24/7 fire damage restoration in Josephine, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "fire damage restoration josephine",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/josephine-tx/",
+        "/service-areas/josephine-tx/mold-remediation/",
+        "/service-areas/josephine-tx/water-damage-restoration/",
+        "/service-areas/allen-tx/fire-damage-restoration/",
+        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/josephine-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Josephine, TX | Reign Restoration",
+      "h1": "Mold Remediation in Josephine",
+      "meta_description": "24/7 mold remediation in Josephine, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "mold remediation josephine",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/josephine-tx/",
+        "/service-areas/josephine-tx/fire-damage-restoration/",
+        "/service-areas/josephine-tx/water-damage-restoration/",
+        "/service-areas/allen-tx/mold-remediation/",
+        "/service-areas/caddo-mills-tx/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/josephine-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Josephine, TX | Reign Restoration",
+      "h1": "Storm Damage Restoration in Josephine",
+      "meta_description": "24/7 storm damage restoration in Josephine, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "storm damage restoration josephine",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/josephine-tx/",
+        "/service-areas/josephine-tx/fire-damage-restoration/",
+        "/service-areas/josephine-tx/mold-remediation/",
+        "/service-areas/allen-tx/storm-damage-restoration/",
+        "/service-areas/caddo-mills-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/josephine-tx/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Josephine, TX | Reign Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Josephine",
+      "meta_description": "24/7 renovations, remodels and general contracting in Josephine, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "renovations, remodels and general contracting josephine",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/josephine-tx/",
+        "/service-areas/josephine-tx/fire-damage-restoration/",
+        "/service-areas/josephine-tx/mold-remediation/",
+        "/service-areas/allen-tx/general-contracting/",
+        "/service-areas/caddo-mills-tx/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/josephine-tx/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Josephine, TX | Reign Restoration",
+      "h1": "Contents Restoration and Storage in Josephine",
+      "meta_description": "24/7 contents restoration and storage in Josephine, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "contents restoration and storage josephine",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/josephine-tx/",
+        "/service-areas/josephine-tx/fire-damage-restoration/",
+        "/service-areas/josephine-tx/mold-remediation/",
+        "/service-areas/allen-tx/contents-restoration/",
+        "/service-areas/caddo-mills-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/josephine-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Josephine, TX | Reign Restoration",
+      "h1": "Emergency Water Cleanup in Josephine",
+      "meta_description": "24/7 emergency water cleanup in Josephine, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "emergency water cleanup josephine",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/josephine-tx/",
+        "/service-areas/josephine-tx/fire-damage-restoration/",
+        "/service-areas/josephine-tx/mold-remediation/",
+        "/service-areas/allen-tx/water-cleanup/",
+        "/service-areas/caddo-mills-tx/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lavon-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Lavon, TX | Reign Restoration",
+      "h1": "Water Damage Restoration in Lavon",
+      "meta_description": "24/7 water damage restoration in Lavon, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "water damage restoration lavon",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/lavon-tx/",
+        "/service-areas/lavon-tx/fire-damage-restoration/",
+        "/service-areas/lavon-tx/mold-remediation/",
+        "/service-areas/allen-tx/water-damage-restoration/",
+        "/service-areas/caddo-mills-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lavon-tx/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Lavon, TX | Reign Restoration",
+      "h1": "Fire Damage Restoration in Lavon",
+      "meta_description": "24/7 fire damage restoration in Lavon, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "fire damage restoration lavon",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/lavon-tx/",
+        "/service-areas/lavon-tx/mold-remediation/",
+        "/service-areas/lavon-tx/water-damage-restoration/",
+        "/service-areas/allen-tx/fire-damage-restoration/",
+        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lavon-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Lavon, TX | Reign Restoration",
+      "h1": "Mold Remediation in Lavon",
+      "meta_description": "24/7 mold remediation in Lavon, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "mold remediation lavon",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/lavon-tx/",
+        "/service-areas/lavon-tx/fire-damage-restoration/",
+        "/service-areas/lavon-tx/water-damage-restoration/",
+        "/service-areas/allen-tx/mold-remediation/",
+        "/service-areas/caddo-mills-tx/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lavon-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Lavon, TX | Reign Restoration",
+      "h1": "Storm Damage Restoration in Lavon",
+      "meta_description": "24/7 storm damage restoration in Lavon, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "storm damage restoration lavon",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/lavon-tx/",
+        "/service-areas/lavon-tx/fire-damage-restoration/",
+        "/service-areas/lavon-tx/mold-remediation/",
+        "/service-areas/allen-tx/storm-damage-restoration/",
+        "/service-areas/caddo-mills-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lavon-tx/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Lavon, TX | Reign Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Lavon",
+      "meta_description": "24/7 renovations, remodels and general contracting in Lavon, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "renovations, remodels and general contracting lavon",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/lavon-tx/",
+        "/service-areas/lavon-tx/fire-damage-restoration/",
+        "/service-areas/lavon-tx/mold-remediation/",
+        "/service-areas/allen-tx/general-contracting/",
+        "/service-areas/caddo-mills-tx/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lavon-tx/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Lavon, TX | Reign Restoration",
+      "h1": "Contents Restoration and Storage in Lavon",
+      "meta_description": "24/7 contents restoration and storage in Lavon, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "contents restoration and storage lavon",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/lavon-tx/",
+        "/service-areas/lavon-tx/fire-damage-restoration/",
+        "/service-areas/lavon-tx/mold-remediation/",
+        "/service-areas/allen-tx/contents-restoration/",
+        "/service-areas/caddo-mills-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lavon-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Lavon, TX | Reign Restoration",
+      "h1": "Emergency Water Cleanup in Lavon",
+      "meta_description": "24/7 emergency water cleanup in Lavon, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "emergency water cleanup lavon",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/lavon-tx/",
+        "/service-areas/lavon-tx/fire-damage-restoration/",
+        "/service-areas/lavon-tx/mold-remediation/",
+        "/service-areas/allen-tx/water-cleanup/",
+        "/service-areas/caddo-mills-tx/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mclendon-chisholm-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in McLendon-Chisholm, TX | Reign Restoration",
+      "h1": "Water Damage Restoration in McLendon-Chisholm",
+      "meta_description": "24/7 water damage restoration in McLendon-Chisholm, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "water damage restoration mclendon-chisholm",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/mclendon-chisholm-tx/",
+        "/service-areas/mclendon-chisholm-tx/fire-damage-restoration/",
+        "/service-areas/mclendon-chisholm-tx/mold-remediation/",
+        "/service-areas/allen-tx/water-damage-restoration/",
+        "/service-areas/caddo-mills-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mclendon-chisholm-tx/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in McLendon-Chisholm, TX | Reign Restoration",
+      "h1": "Fire Damage Restoration in McLendon-Chisholm",
+      "meta_description": "24/7 fire damage restoration in McLendon-Chisholm, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "fire damage restoration mclendon-chisholm",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/mclendon-chisholm-tx/",
+        "/service-areas/mclendon-chisholm-tx/mold-remediation/",
+        "/service-areas/mclendon-chisholm-tx/water-damage-restoration/",
+        "/service-areas/allen-tx/fire-damage-restoration/",
+        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mclendon-chisholm-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in McLendon-Chisholm, TX | Reign Restoration",
+      "h1": "Mold Remediation in McLendon-Chisholm",
+      "meta_description": "24/7 mold remediation in McLendon-Chisholm, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "mold remediation mclendon-chisholm",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/mclendon-chisholm-tx/",
+        "/service-areas/mclendon-chisholm-tx/fire-damage-restoration/",
+        "/service-areas/mclendon-chisholm-tx/water-damage-restoration/",
+        "/service-areas/allen-tx/mold-remediation/",
+        "/service-areas/caddo-mills-tx/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mclendon-chisholm-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in McLendon-Chisholm, TX | Reign Restoration",
+      "h1": "Storm Damage Restoration in McLendon-Chisholm",
+      "meta_description": "24/7 storm damage restoration in McLendon-Chisholm, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "storm damage restoration mclendon-chisholm",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/mclendon-chisholm-tx/",
+        "/service-areas/mclendon-chisholm-tx/fire-damage-restoration/",
+        "/service-areas/mclendon-chisholm-tx/mold-remediation/",
+        "/service-areas/allen-tx/storm-damage-restoration/",
+        "/service-areas/caddo-mills-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mclendon-chisholm-tx/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in McLendon-Chisholm, TX | Reign Restoration",
+      "h1": "Renovations, Remodels and General Contracting in McLendon-Chisholm",
+      "meta_description": "24/7 renovations, remodels and general contracting in McLendon-Chisholm, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "renovations, remodels and general contracting mclendon-chisholm",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/mclendon-chisholm-tx/",
+        "/service-areas/mclendon-chisholm-tx/fire-damage-restoration/",
+        "/service-areas/mclendon-chisholm-tx/mold-remediation/",
+        "/service-areas/allen-tx/general-contracting/",
+        "/service-areas/caddo-mills-tx/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mclendon-chisholm-tx/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in McLendon-Chisholm, TX | Reign Restoration",
+      "h1": "Contents Restoration and Storage in McLendon-Chisholm",
+      "meta_description": "24/7 contents restoration and storage in McLendon-Chisholm, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "contents restoration and storage mclendon-chisholm",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/mclendon-chisholm-tx/",
+        "/service-areas/mclendon-chisholm-tx/fire-damage-restoration/",
+        "/service-areas/mclendon-chisholm-tx/mold-remediation/",
+        "/service-areas/allen-tx/contents-restoration/",
+        "/service-areas/caddo-mills-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mclendon-chisholm-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in McLendon-Chisholm, TX | Reign Restoration",
+      "h1": "Emergency Water Cleanup in McLendon-Chisholm",
+      "meta_description": "24/7 emergency water cleanup in McLendon-Chisholm, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "emergency water cleanup mclendon-chisholm",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/mclendon-chisholm-tx/",
+        "/service-areas/mclendon-chisholm-tx/fire-damage-restoration/",
+        "/service-areas/mclendon-chisholm-tx/mold-remediation/",
+        "/service-areas/allen-tx/water-cleanup/",
+        "/service-areas/caddo-mills-tx/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/caddo-mills-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Caddo Mills, TX | Reign Restoration",
+      "h1": "Water Damage Restoration in Caddo Mills",
+      "meta_description": "24/7 water damage restoration in Caddo Mills, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "water damage restoration caddo mills",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/caddo-mills-tx/",
+        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
+        "/service-areas/caddo-mills-tx/mold-remediation/",
+        "/service-areas/allen-tx/water-damage-restoration/",
+        "/service-areas/dallas-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/caddo-mills-tx/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Caddo Mills, TX | Reign Restoration",
+      "h1": "Fire Damage Restoration in Caddo Mills",
+      "meta_description": "24/7 fire damage restoration in Caddo Mills, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "fire damage restoration caddo mills",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/caddo-mills-tx/",
+        "/service-areas/caddo-mills-tx/mold-remediation/",
+        "/service-areas/caddo-mills-tx/water-damage-restoration/",
+        "/service-areas/allen-tx/fire-damage-restoration/",
+        "/service-areas/dallas-tx/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/caddo-mills-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Caddo Mills, TX | Reign Restoration",
+      "h1": "Mold Remediation in Caddo Mills",
+      "meta_description": "24/7 mold remediation in Caddo Mills, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "mold remediation caddo mills",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/caddo-mills-tx/",
+        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
+        "/service-areas/caddo-mills-tx/water-damage-restoration/",
+        "/service-areas/allen-tx/mold-remediation/",
+        "/service-areas/dallas-tx/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/caddo-mills-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Caddo Mills, TX | Reign Restoration",
+      "h1": "Storm Damage Restoration in Caddo Mills",
+      "meta_description": "24/7 storm damage restoration in Caddo Mills, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "storm damage restoration caddo mills",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/caddo-mills-tx/",
+        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
+        "/service-areas/caddo-mills-tx/mold-remediation/",
+        "/service-areas/allen-tx/storm-damage-restoration/",
+        "/service-areas/dallas-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/caddo-mills-tx/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Caddo Mills, TX | Reign Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Caddo Mills",
+      "meta_description": "24/7 renovations, remodels and general contracting in Caddo Mills, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "renovations, remodels and general contracting caddo mills",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/caddo-mills-tx/",
+        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
+        "/service-areas/caddo-mills-tx/mold-remediation/",
+        "/service-areas/allen-tx/general-contracting/",
+        "/service-areas/dallas-tx/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/caddo-mills-tx/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Caddo Mills, TX | Reign Restoration",
+      "h1": "Contents Restoration and Storage in Caddo Mills",
+      "meta_description": "24/7 contents restoration and storage in Caddo Mills, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "contents restoration and storage caddo mills",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/caddo-mills-tx/",
+        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
+        "/service-areas/caddo-mills-tx/mold-remediation/",
+        "/service-areas/allen-tx/contents-restoration/",
         "/service-areas/dallas-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/caddo-mills-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Caddo Mills, TX | Reign Restoration",
+      "h1": "Emergency Water Cleanup in Caddo Mills",
+      "meta_description": "24/7 emergency water cleanup in Caddo Mills, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "emergency water cleanup caddo mills",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/caddo-mills-tx/",
+        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
+        "/service-areas/caddo-mills-tx/mold-remediation/",
+        "/service-areas/allen-tx/water-cleanup/",
+        "/service-areas/dallas-tx/water-cleanup/",
         "/contact/"
       ]
     },

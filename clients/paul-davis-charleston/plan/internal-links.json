@@ -1,0 +1,692 @@
+{
+  "/": [
+    "/services/",
+    "/service-areas/",
+    "/contact/",
+    "/about/",
+    "/services/fire-damage-restoration/",
+    "/services/mold-remediation/",
+    "/services/water-damage-restoration/",
+    "/services/water-cleanup/",
+    "/service-areas/awendaw-sc/",
+    "/service-areas/goose-creek-sc/",
+    "/service-areas/hanahan-sc/",
+    "/service-areas/isle-of-palms-sc/",
+    "/service-areas/james-island-sc/",
+    "/service-areas/ladson-sc/",
+    "/service-areas/mount-pleasant-sc/",
+    "/service-areas/north-charleston-sc/",
+    "/service-areas/sullivan-s-island-sc/",
+    "/service-areas/summerville-sc/"
+  ],
+  "/services/": [
+    "/",
+    "/services/fire-damage-restoration/",
+    "/services/mold-remediation/",
+    "/services/water-damage-restoration/",
+    "/services/water-cleanup/"
+  ],
+  "/service-areas/": [
+    "/",
+    "/service-areas/awendaw-sc/",
+    "/service-areas/goose-creek-sc/",
+    "/service-areas/hanahan-sc/",
+    "/service-areas/isle-of-palms-sc/",
+    "/service-areas/james-island-sc/",
+    "/service-areas/ladson-sc/",
+    "/service-areas/mount-pleasant-sc/",
+    "/service-areas/north-charleston-sc/",
+    "/service-areas/sullivan-s-island-sc/",
+    "/service-areas/summerville-sc/"
+  ],
+  "/blog/": [
+    "/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/does-homeowners-insurance-cover-water-damage/",
+    "/blog/fire-damage-restoration-process/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/signs-of-hidden-mold/",
+    "/blog/black-mold-vs-regular-mold/",
+    "/blog/how-long-does-water-damage-restoration-take/",
+    "/blog/mold-after-water-damage/",
+    "/blog/basement-flooding-prevention/",
+    "/blog/smoke-odor-removal-techniques/"
+  ],
+  "/about/": [
+    "/",
+    "/services/",
+    "/contact/"
+  ],
+  "/contact/": [
+    "/",
+    "/services/",
+    "/service-areas/"
+  ],
+  "/services/water-damage-restoration/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/awendaw-sc/water-damage-restoration/",
+    "/service-areas/goose-creek-sc/water-damage-restoration/",
+    "/service-areas/hanahan-sc/water-damage-restoration/",
+    "/service-areas/isle-of-palms-sc/water-damage-restoration/",
+    "/service-areas/james-island-sc/water-damage-restoration/",
+    "/service-areas/ladson-sc/water-damage-restoration/",
+    "/service-areas/mount-pleasant-sc/water-damage-restoration/",
+    "/service-areas/north-charleston-sc/water-damage-restoration/",
+    "/service-areas/sullivan-s-island-sc/water-damage-restoration/",
+    "/service-areas/summerville-sc/water-damage-restoration/",
+    "/services/water-cleanup/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/services/fire-damage-restoration/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/awendaw-sc/fire-damage-restoration/",
+    "/service-areas/goose-creek-sc/fire-damage-restoration/",
+    "/service-areas/hanahan-sc/fire-damage-restoration/",
+    "/service-areas/isle-of-palms-sc/fire-damage-restoration/",
+    "/service-areas/james-island-sc/fire-damage-restoration/",
+    "/service-areas/ladson-sc/fire-damage-restoration/",
+    "/service-areas/mount-pleasant-sc/fire-damage-restoration/",
+    "/service-areas/north-charleston-sc/fire-damage-restoration/",
+    "/service-areas/sullivan-s-island-sc/fire-damage-restoration/",
+    "/service-areas/summerville-sc/fire-damage-restoration/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/fire-damage-restoration-process/",
+    "/blog/smoke-odor-removal-techniques/"
+  ],
+  "/services/mold-remediation/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/awendaw-sc/mold-remediation/",
+    "/service-areas/goose-creek-sc/mold-remediation/",
+    "/service-areas/hanahan-sc/mold-remediation/",
+    "/service-areas/isle-of-palms-sc/mold-remediation/",
+    "/service-areas/james-island-sc/mold-remediation/",
+    "/service-areas/ladson-sc/mold-remediation/",
+    "/service-areas/mount-pleasant-sc/mold-remediation/",
+    "/service-areas/north-charleston-sc/mold-remediation/",
+    "/service-areas/sullivan-s-island-sc/mold-remediation/",
+    "/service-areas/summerville-sc/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/signs-of-hidden-mold/"
+  ],
+  "/services/water-cleanup/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/awendaw-sc/water-cleanup/",
+    "/service-areas/goose-creek-sc/water-cleanup/",
+    "/service-areas/hanahan-sc/water-cleanup/",
+    "/service-areas/isle-of-palms-sc/water-cleanup/",
+    "/service-areas/james-island-sc/water-cleanup/",
+    "/service-areas/ladson-sc/water-cleanup/",
+    "/service-areas/mount-pleasant-sc/water-cleanup/",
+    "/service-areas/north-charleston-sc/water-cleanup/",
+    "/service-areas/sullivan-s-island-sc/water-cleanup/",
+    "/service-areas/summerville-sc/water-cleanup/",
+    "/services/water-damage-restoration/"
+  ],
+  "/service-areas/mount-pleasant-sc/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/mount-pleasant-sc/fire-damage-restoration/",
+    "/service-areas/mount-pleasant-sc/mold-remediation/",
+    "/service-areas/mount-pleasant-sc/water-damage-restoration/",
+    "/service-areas/mount-pleasant-sc/water-cleanup/",
+    "/service-areas/awendaw-sc/",
+    "/service-areas/goose-creek-sc/",
+    "/service-areas/hanahan-sc/"
+  ],
+  "/service-areas/north-charleston-sc/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/north-charleston-sc/fire-damage-restoration/",
+    "/service-areas/north-charleston-sc/mold-remediation/",
+    "/service-areas/north-charleston-sc/water-damage-restoration/",
+    "/service-areas/north-charleston-sc/water-cleanup/",
+    "/service-areas/awendaw-sc/",
+    "/service-areas/goose-creek-sc/",
+    "/service-areas/hanahan-sc/"
+  ],
+  "/service-areas/summerville-sc/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/summerville-sc/fire-damage-restoration/",
+    "/service-areas/summerville-sc/mold-remediation/",
+    "/service-areas/summerville-sc/water-damage-restoration/",
+    "/service-areas/summerville-sc/water-cleanup/",
+    "/service-areas/awendaw-sc/",
+    "/service-areas/goose-creek-sc/",
+    "/service-areas/hanahan-sc/"
+  ],
+  "/service-areas/james-island-sc/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/james-island-sc/fire-damage-restoration/",
+    "/service-areas/james-island-sc/mold-remediation/",
+    "/service-areas/james-island-sc/water-damage-restoration/",
+    "/service-areas/james-island-sc/water-cleanup/",
+    "/service-areas/awendaw-sc/",
+    "/service-areas/goose-creek-sc/",
+    "/service-areas/hanahan-sc/"
+  ],
+  "/service-areas/hanahan-sc/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/hanahan-sc/fire-damage-restoration/",
+    "/service-areas/hanahan-sc/mold-remediation/",
+    "/service-areas/hanahan-sc/water-damage-restoration/",
+    "/service-areas/hanahan-sc/water-cleanup/",
+    "/service-areas/awendaw-sc/",
+    "/service-areas/goose-creek-sc/",
+    "/service-areas/isle-of-palms-sc/"
+  ],
+  "/service-areas/goose-creek-sc/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/goose-creek-sc/fire-damage-restoration/",
+    "/service-areas/goose-creek-sc/mold-remediation/",
+    "/service-areas/goose-creek-sc/water-damage-restoration/",
+    "/service-areas/goose-creek-sc/water-cleanup/",
+    "/service-areas/awendaw-sc/",
+    "/service-areas/hanahan-sc/",
+    "/service-areas/isle-of-palms-sc/"
+  ],
+  "/service-areas/sullivan-s-island-sc/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/sullivan-s-island-sc/fire-damage-restoration/",
+    "/service-areas/sullivan-s-island-sc/mold-remediation/",
+    "/service-areas/sullivan-s-island-sc/water-damage-restoration/",
+    "/service-areas/sullivan-s-island-sc/water-cleanup/",
+    "/service-areas/awendaw-sc/",
+    "/service-areas/goose-creek-sc/",
+    "/service-areas/hanahan-sc/"
+  ],
+  "/service-areas/isle-of-palms-sc/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/isle-of-palms-sc/fire-damage-restoration/",
+    "/service-areas/isle-of-palms-sc/mold-remediation/",
+    "/service-areas/isle-of-palms-sc/water-damage-restoration/",
+    "/service-areas/isle-of-palms-sc/water-cleanup/",
+    "/service-areas/awendaw-sc/",
+    "/service-areas/goose-creek-sc/",
+    "/service-areas/hanahan-sc/"
+  ],
+  "/service-areas/ladson-sc/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/ladson-sc/fire-damage-restoration/",
+    "/service-areas/ladson-sc/mold-remediation/",
+    "/service-areas/ladson-sc/water-damage-restoration/",
+    "/service-areas/ladson-sc/water-cleanup/",
+    "/service-areas/awendaw-sc/",
+    "/service-areas/goose-creek-sc/",
+    "/service-areas/hanahan-sc/"
+  ],
+  "/service-areas/awendaw-sc/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/awendaw-sc/fire-damage-restoration/",
+    "/service-areas/awendaw-sc/mold-remediation/",
+    "/service-areas/awendaw-sc/water-damage-restoration/",
+    "/service-areas/awendaw-sc/water-cleanup/",
+    "/service-areas/goose-creek-sc/",
+    "/service-areas/hanahan-sc/",
+    "/service-areas/isle-of-palms-sc/"
+  ],
+  "/service-areas/mount-pleasant-sc/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/mount-pleasant-sc/",
+    "/service-areas/mount-pleasant-sc/fire-damage-restoration/",
+    "/service-areas/mount-pleasant-sc/mold-remediation/",
+    "/service-areas/awendaw-sc/water-damage-restoration/",
+    "/service-areas/goose-creek-sc/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/mount-pleasant-sc/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/mount-pleasant-sc/",
+    "/service-areas/mount-pleasant-sc/mold-remediation/",
+    "/service-areas/mount-pleasant-sc/water-damage-restoration/",
+    "/service-areas/awendaw-sc/fire-damage-restoration/",
+    "/service-areas/goose-creek-sc/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/mount-pleasant-sc/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/mount-pleasant-sc/",
+    "/service-areas/mount-pleasant-sc/fire-damage-restoration/",
+    "/service-areas/mount-pleasant-sc/water-damage-restoration/",
+    "/service-areas/awendaw-sc/mold-remediation/",
+    "/service-areas/goose-creek-sc/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/mount-pleasant-sc/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/mount-pleasant-sc/",
+    "/service-areas/mount-pleasant-sc/fire-damage-restoration/",
+    "/service-areas/mount-pleasant-sc/mold-remediation/",
+    "/service-areas/awendaw-sc/water-cleanup/",
+    "/service-areas/goose-creek-sc/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/north-charleston-sc/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/north-charleston-sc/",
+    "/service-areas/north-charleston-sc/fire-damage-restoration/",
+    "/service-areas/north-charleston-sc/mold-remediation/",
+    "/service-areas/awendaw-sc/water-damage-restoration/",
+    "/service-areas/goose-creek-sc/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/north-charleston-sc/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/north-charleston-sc/",
+    "/service-areas/north-charleston-sc/mold-remediation/",
+    "/service-areas/north-charleston-sc/water-damage-restoration/",
+    "/service-areas/awendaw-sc/fire-damage-restoration/",
+    "/service-areas/goose-creek-sc/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/north-charleston-sc/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/north-charleston-sc/",
+    "/service-areas/north-charleston-sc/fire-damage-restoration/",
+    "/service-areas/north-charleston-sc/water-damage-restoration/",
+    "/service-areas/awendaw-sc/mold-remediation/",
+    "/service-areas/goose-creek-sc/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/north-charleston-sc/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/north-charleston-sc/",
+    "/service-areas/north-charleston-sc/fire-damage-restoration/",
+    "/service-areas/north-charleston-sc/mold-remediation/",
+    "/service-areas/awendaw-sc/water-cleanup/",
+    "/service-areas/goose-creek-sc/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/summerville-sc/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/summerville-sc/",
+    "/service-areas/summerville-sc/fire-damage-restoration/",
+    "/service-areas/summerville-sc/mold-remediation/",
+    "/service-areas/awendaw-sc/water-damage-restoration/",
+    "/service-areas/goose-creek-sc/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/summerville-sc/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/summerville-sc/",
+    "/service-areas/summerville-sc/mold-remediation/",
+    "/service-areas/summerville-sc/water-damage-restoration/",
+    "/service-areas/awendaw-sc/fire-damage-restoration/",
+    "/service-areas/goose-creek-sc/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/summerville-sc/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/summerville-sc/",
+    "/service-areas/summerville-sc/fire-damage-restoration/",
+    "/service-areas/summerville-sc/water-damage-restoration/",
+    "/service-areas/awendaw-sc/mold-remediation/",
+    "/service-areas/goose-creek-sc/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/summerville-sc/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/summerville-sc/",
+    "/service-areas/summerville-sc/fire-damage-restoration/",
+    "/service-areas/summerville-sc/mold-remediation/",
+    "/service-areas/awendaw-sc/water-cleanup/",
+    "/service-areas/goose-creek-sc/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/james-island-sc/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/james-island-sc/",
+    "/service-areas/james-island-sc/fire-damage-restoration/",
+    "/service-areas/james-island-sc/mold-remediation/",
+    "/service-areas/awendaw-sc/water-damage-restoration/",
+    "/service-areas/goose-creek-sc/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/james-island-sc/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/james-island-sc/",
+    "/service-areas/james-island-sc/mold-remediation/",
+    "/service-areas/james-island-sc/water-damage-restoration/",
+    "/service-areas/awendaw-sc/fire-damage-restoration/",
+    "/service-areas/goose-creek-sc/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/james-island-sc/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/james-island-sc/",
+    "/service-areas/james-island-sc/fire-damage-restoration/",
+    "/service-areas/james-island-sc/water-damage-restoration/",
+    "/service-areas/awendaw-sc/mold-remediation/",
+    "/service-areas/goose-creek-sc/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/james-island-sc/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/james-island-sc/",
+    "/service-areas/james-island-sc/fire-damage-restoration/",
+    "/service-areas/james-island-sc/mold-remediation/",
+    "/service-areas/awendaw-sc/water-cleanup/",
+    "/service-areas/goose-creek-sc/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/hanahan-sc/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/hanahan-sc/",
+    "/service-areas/hanahan-sc/fire-damage-restoration/",
+    "/service-areas/hanahan-sc/mold-remediation/",
+    "/service-areas/awendaw-sc/water-damage-restoration/",
+    "/service-areas/goose-creek-sc/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/hanahan-sc/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/hanahan-sc/",
+    "/service-areas/hanahan-sc/mold-remediation/",
+    "/service-areas/hanahan-sc/water-damage-restoration/",
+    "/service-areas/awendaw-sc/fire-damage-restoration/",
+    "/service-areas/goose-creek-sc/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/hanahan-sc/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/hanahan-sc/",
+    "/service-areas/hanahan-sc/fire-damage-restoration/",
+    "/service-areas/hanahan-sc/water-damage-restoration/",
+    "/service-areas/awendaw-sc/mold-remediation/",
+    "/service-areas/goose-creek-sc/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/hanahan-sc/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/hanahan-sc/",
+    "/service-areas/hanahan-sc/fire-damage-restoration/",
+    "/service-areas/hanahan-sc/mold-remediation/",
+    "/service-areas/awendaw-sc/water-cleanup/",
+    "/service-areas/goose-creek-sc/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/goose-creek-sc/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/goose-creek-sc/",
+    "/service-areas/goose-creek-sc/fire-damage-restoration/",
+    "/service-areas/goose-creek-sc/mold-remediation/",
+    "/service-areas/awendaw-sc/water-damage-restoration/",
+    "/service-areas/hanahan-sc/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/goose-creek-sc/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/goose-creek-sc/",
+    "/service-areas/goose-creek-sc/mold-remediation/",
+    "/service-areas/goose-creek-sc/water-damage-restoration/",
+    "/service-areas/awendaw-sc/fire-damage-restoration/",
+    "/service-areas/hanahan-sc/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/goose-creek-sc/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/goose-creek-sc/",
+    "/service-areas/goose-creek-sc/fire-damage-restoration/",
+    "/service-areas/goose-creek-sc/water-damage-restoration/",
+    "/service-areas/awendaw-sc/mold-remediation/",
+    "/service-areas/hanahan-sc/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/goose-creek-sc/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/goose-creek-sc/",
+    "/service-areas/goose-creek-sc/fire-damage-restoration/",
+    "/service-areas/goose-creek-sc/mold-remediation/",
+    "/service-areas/awendaw-sc/water-cleanup/",
+    "/service-areas/hanahan-sc/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/sullivan-s-island-sc/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/sullivan-s-island-sc/",
+    "/service-areas/sullivan-s-island-sc/fire-damage-restoration/",
+    "/service-areas/sullivan-s-island-sc/mold-remediation/",
+    "/service-areas/awendaw-sc/water-damage-restoration/",
+    "/service-areas/goose-creek-sc/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sullivan-s-island-sc/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/sullivan-s-island-sc/",
+    "/service-areas/sullivan-s-island-sc/mold-remediation/",
+    "/service-areas/sullivan-s-island-sc/water-damage-restoration/",
+    "/service-areas/awendaw-sc/fire-damage-restoration/",
+    "/service-areas/goose-creek-sc/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sullivan-s-island-sc/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/sullivan-s-island-sc/",
+    "/service-areas/sullivan-s-island-sc/fire-damage-restoration/",
+    "/service-areas/sullivan-s-island-sc/water-damage-restoration/",
+    "/service-areas/awendaw-sc/mold-remediation/",
+    "/service-areas/goose-creek-sc/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/sullivan-s-island-sc/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/sullivan-s-island-sc/",
+    "/service-areas/sullivan-s-island-sc/fire-damage-restoration/",
+    "/service-areas/sullivan-s-island-sc/mold-remediation/",
+    "/service-areas/awendaw-sc/water-cleanup/",
+    "/service-areas/goose-creek-sc/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/isle-of-palms-sc/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/isle-of-palms-sc/",
+    "/service-areas/isle-of-palms-sc/fire-damage-restoration/",
+    "/service-areas/isle-of-palms-sc/mold-remediation/",
+    "/service-areas/awendaw-sc/water-damage-restoration/",
+    "/service-areas/goose-creek-sc/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/isle-of-palms-sc/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/isle-of-palms-sc/",
+    "/service-areas/isle-of-palms-sc/mold-remediation/",
+    "/service-areas/isle-of-palms-sc/water-damage-restoration/",
+    "/service-areas/awendaw-sc/fire-damage-restoration/",
+    "/service-areas/goose-creek-sc/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/isle-of-palms-sc/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/isle-of-palms-sc/",
+    "/service-areas/isle-of-palms-sc/fire-damage-restoration/",
+    "/service-areas/isle-of-palms-sc/water-damage-restoration/",
+    "/service-areas/awendaw-sc/mold-remediation/",
+    "/service-areas/goose-creek-sc/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/isle-of-palms-sc/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/isle-of-palms-sc/",
+    "/service-areas/isle-of-palms-sc/fire-damage-restoration/",
+    "/service-areas/isle-of-palms-sc/mold-remediation/",
+    "/service-areas/awendaw-sc/water-cleanup/",
+    "/service-areas/goose-creek-sc/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/ladson-sc/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/ladson-sc/",
+    "/service-areas/ladson-sc/fire-damage-restoration/",
+    "/service-areas/ladson-sc/mold-remediation/",
+    "/service-areas/awendaw-sc/water-damage-restoration/",
+    "/service-areas/goose-creek-sc/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/ladson-sc/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/ladson-sc/",
+    "/service-areas/ladson-sc/mold-remediation/",
+    "/service-areas/ladson-sc/water-damage-restoration/",
+    "/service-areas/awendaw-sc/fire-damage-restoration/",
+    "/service-areas/goose-creek-sc/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/ladson-sc/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/ladson-sc/",
+    "/service-areas/ladson-sc/fire-damage-restoration/",
+    "/service-areas/ladson-sc/water-damage-restoration/",
+    "/service-areas/awendaw-sc/mold-remediation/",
+    "/service-areas/goose-creek-sc/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/ladson-sc/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/ladson-sc/",
+    "/service-areas/ladson-sc/fire-damage-restoration/",
+    "/service-areas/ladson-sc/mold-remediation/",
+    "/service-areas/awendaw-sc/water-cleanup/",
+    "/service-areas/goose-creek-sc/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/awendaw-sc/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/awendaw-sc/",
+    "/service-areas/awendaw-sc/fire-damage-restoration/",
+    "/service-areas/awendaw-sc/mold-remediation/",
+    "/service-areas/goose-creek-sc/water-damage-restoration/",
+    "/service-areas/hanahan-sc/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/awendaw-sc/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/awendaw-sc/",
+    "/service-areas/awendaw-sc/mold-remediation/",
+    "/service-areas/awendaw-sc/water-damage-restoration/",
+    "/service-areas/goose-creek-sc/fire-damage-restoration/",
+    "/service-areas/hanahan-sc/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/awendaw-sc/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/awendaw-sc/",
+    "/service-areas/awendaw-sc/fire-damage-restoration/",
+    "/service-areas/awendaw-sc/water-damage-restoration/",
+    "/service-areas/goose-creek-sc/mold-remediation/",
+    "/service-areas/hanahan-sc/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/awendaw-sc/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/awendaw-sc/",
+    "/service-areas/awendaw-sc/fire-damage-restoration/",
+    "/service-areas/awendaw-sc/mold-remediation/",
+    "/service-areas/goose-creek-sc/water-cleanup/",
+    "/service-areas/hanahan-sc/water-cleanup/",
+    "/contact/"
+  ],
+  "/blog/what-to-do-first-24-hours-water-damage/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+  ],
+  "/blog/burst-pipe-emergency-checklist/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+  ],
+  "/blog/does-homeowners-insurance-cover-water-damage/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/blog/signs-of-hidden-mold/": [
+    "/blog/",
+    "/services/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/black-mold-vs-regular-mold/"
+  ],
+  "/blog/how-to-test-for-mold/": [
+    "/blog/",
+    "/services/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/signs-of-hidden-mold/",
+    "/blog/black-mold-vs-regular-mold/"
+  ],
+  "/blog/fire-damage-restoration-process/": [
+    "/blog/",
+    "/services/fire-damage-restoration/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/smoke-odor-removal-techniques/"
+  ],
+  "/blog/choosing-a-restoration-company/": [
+    "/blog/",
+    "/services/fire-damage-restoration/",
+    "/services/mold-remediation/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+  ],
+  "/blog/black-mold-vs-regular-mold/": [
+    "/blog/",
+    "/services/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/signs-of-hidden-mold/"
+  ],
+  "/blog/how-long-does-water-damage-restoration-take/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/blog/mold-after-water-damage/": [
+    "/blog/",
+    "/services/mold-remediation/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/blog/smoke-odor-removal-techniques/": [
+    "/blog/",
+    "/services/fire-damage-restoration/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/fire-damage-restoration-process/"
+  ],
+  "/blog/basement-flooding-prevention/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/privacy/": [],
+  "/terms/": [],
+  "/accessibility/": []
+}

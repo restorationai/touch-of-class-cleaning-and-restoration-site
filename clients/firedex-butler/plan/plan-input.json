@@ -262,6 +262,36 @@
         "15010"
       ],
       "local_notes": "Beaver County mill town on the Beaver River, home to Geneva College \u2014 FireDEX holds a Beaver County Chamber membership and serves the county from Cranberry via Route 68/I-76 in about 25 minutes. Pre-war brick rowhomes and frame houses on College Hill and the numbered avenues run original cast-iron drains, galvanized lines and aging furnaces: burst pipes, sewage backups and space-heater fires are the recurring losses. River-valley humidity and stone foundations make chronic basement moisture and mold common, and the older commercial stock along Seventh Avenue adds sprinkler-discharge and roof-leak commercial work."
+    },
+    {
+      "city": "Economy",
+      "state": "PA",
+      "slug": "economy-pa"
+    },
+    {
+      "city": "Franklin Park",
+      "state": "PA",
+      "slug": "franklin-park-pa"
+    },
+    {
+      "city": "Baden",
+      "state": "PA",
+      "slug": "baden-pa"
+    },
+    {
+      "city": "Bell Acres",
+      "state": "PA",
+      "slug": "bell-acres-pa"
+    },
+    {
+      "city": "Monaca",
+      "state": "PA",
+      "slug": "monaca-pa"
+    },
+    {
+      "city": "Sewickley Heights",
+      "state": "PA",
+      "slug": "sewickley-heights-pa"
     }
   ],
   "brand": {
@@ -292,7 +322,10 @@
     "primary_color": "#c8102e",
     "primary_dark": "#a30d25",
     "primary_light": "#f9cbd3",
-    "accent_color": "#e5304c"
+    "accent_color": "#e5304c",
+    "lat": 40.7099,
+    "lng": -80.1061,
+    "ga4_measurement_id": "G-65LP4WBQWM"
   },
   "cross_product": true,
   "keyword_strategy": "conservative",

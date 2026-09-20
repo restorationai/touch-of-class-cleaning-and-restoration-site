@@ -1,22 +1,22 @@
 # Site Plan Report — Life Savers Restoration LLC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-08-05T18:22:21.266957+00:00
-- Domain: `None`
-- Services selected: 7 of 54 catalog entries
-- Service areas: 9
+- Generated: 2026-09-20T14:13:21.397016+00:00
+- Domain: `lifesaversrestorationvegas.com`
+- Services selected: 8 of 65 catalog entries
+- Service areas: 15
 - Cross-product enabled: True
-- Total URLs: **96**
-- Total internal links: 727 (avg 7.6 per page)
+- Total URLs: **151**
+- Total internal links: 1193 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 63 |
-| `service-area` | 9 |
+| `service-area-service` | 112 |
+| `service-area` | 14 |
+| `service-landing` | 8 |
 | `blog-post` | 8 |
-| `service-landing` | 7 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -34,6 +34,7 @@
 - `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
 - `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
+- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 
 ## Service areas
 
@@ -46,6 +47,12 @@
 - `sunrise-manor-nv` — Sunrise Manor, NV
 - `boulder-city-nv` — Boulder City, NV
 - `whitney-nv` — Whitney, NV
+- `winchester-nv` — Winchester, NV
+- `nellis-afb-nv` — Nellis AFB, NV
+- `summerlin-south-nv` — Summerlin South, NV
+- `blue-diamond-nv` — Blue Diamond, NV
+- `nelson-nv` — Nelson, NV
+- `goodsprings-nv` — Goodsprings, NV
 
 ## Top 10 priority pages
 
@@ -56,11 +63,11 @@
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration henderson |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization henderson |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration henderson |
-| `/service-areas/henderson-nv/` | `service-area` | 7.2 | restoration services henderson |
+| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup henderson |
 | `/services/biohazard-cleanup/` | `service-landing` | 7.2 | biohazard cleanup henderson |
-| `/service-areas/boulder-city-nv/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration boulder city |
-| `/service-areas/boulder-city-nv/mold-remediation/` | `service-area-service` | 7.0 | mold remediation boulder city |
-| `/service-areas/boulder-city-nv/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration boulder city |
+| `/service-areas/blue-diamond-nv/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration blue diamond |
+| `/service-areas/blue-diamond-nv/mold-remediation/` | `service-area-service` | 7.0 | mold remediation blue diamond |
+| `/service-areas/blue-diamond-nv/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration blue diamond |
 
 ## Validation
 

@@ -83,7 +83,8 @@ The values below are auto-populated from `plan-input.json` at planning time. Per
 2. **One crew uniform color per client, everywhere.** Each client's style guide declares exactly one uniform color (derived from their real-world crew wear / brand identity), and every image — hero, team, services, per-service, blog heroes — uses it. Never mix uniform colors across a client's image library.
 
 3. **If the client has an existing website, harvest its photos FIRST.** Before generating any imagery, crawl the client's existing site (e.g. wp-content/uploads on WordPress) and collect real crew / vehicle / job photos. Use real photos directly where quality allows; otherwise use them as style and livery references for generation (real fleet photos define what the vans must look like). Save the harvest to `clients//harvested/`.
-4. **Multi-van fleet, everywhere (2026-07-29).** Hero images always show MULTIPLE matching branded vans (two-three, staggered), and the branded vans also appear in the About/team photo and the Services imagery whenever the scene allows. The client's real logo rides on every van per rule 1. One van alone is the exception (tight interior shots), never the default.
+4. **Fleet of THREE branded vehicles, everywhere (2026-08-18, was two-three since 2026-07-29).** Hero images always show a fleet of exactly THREE matching branded vehicles (staggered, classic restoration-trade vans unless the client's real fleet documents otherwise), and the branded vehicles also appear in the About/team photo and the Services imagery whenever the scene allows. The client's real logo rides on every vehicle per rule 1. One vehicle alone is the exception (tight interior shots), never the default.
+   **No vehicle photos is NOT a reason to skip vehicles (Santino 2026-08-18, reversing the 2026-08-10 no-invented-livery rule):** when the client's photo library has no vehicle, generate the classic professional livery anyway — clean panel vans in the brand's primary color scheme carrying the real logo mark per rule 1. A branded fleet is part of the polished look even when the real fleet is one unmarked pickup. PRECEDENCE: real documented livery always beats invented livery — the moment real fleet photos exist (harvest or client-sent), they define the vehicles and this default retires for that client. A client's explicit no-vehicles instruction (VAN-OVERRIDE) still wins over everything.
 
 
 
@@ -139,8 +140,8 @@ Per-client brand colors take priority. The values below are substituted from `pl
 
 | Role | Source | Value for this client |
 |------|--------|----------------------|
-| Primary brand color (site accents; in scenes as warm gold GRADE, not gold objects) | `#a07828` | **#a07828** (from his Best of Las Vegas gold badges) |
-| Accent (only on the REAL fleet wrap: red banner/phone; never invented elsewhere) | real wrap | red, per LIVERY-REFERENCE photo only |
+| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#a07828` | **#a07828** |
+| Accent (emergency markings, CTAs that appear in promo shots) | `#f97316` | **#f97316** |
 | Logo color (if a worker's uniform back is visible) | derived from brand logo | match Life Savers Restoration LLC's logo |
 | Skin / texture / restoration materials | natural and neutral | warm wood tones for housing stock, cool concrete grays, real surface textures |
 | Environment-specific atmospherics | regional | varies — see "Setting & Environment" below for Henderson |
@@ -168,7 +169,7 @@ Per-client brand colors take priority. The values below are substituted from `pl
 Every image that depicts a person must show a worker in branded company uniform. This is non-negotiable for visual consistency and trust signaling.
 
 ### Uniform specifications
-- **Top**: SUPERSEDED by CREW-OVERRIDE above — no branded uniform is documented for this client; sealed white Tyvek where PPE is warranted, otherwise plain neutral charcoal workwear with no invented branding.
+- **Top**: Polo or work shirt in the client's primary brand color (`#a07828`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal uniform with the brand color visible as logo embroidery, accent stripe, or branded hat.
 - **Bottom**: Neutral work pants (charcoal, dark navy, or khaki). Subordinate to the top.
 - **Branding**: Life Savers Restoration LLC or Life Savers Restoration LLC embroidered on chest or back. IICRC certification badge visible on sleeve or chest where it makes sense.
 - **PPE**: Match the service context (see service-specific notes below) — gloves always, respirators / face shields / Tyvek suits when the service warrants it.
@@ -255,7 +256,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Mold Remediation, Fire Damage Restoration, Storm Damage Restoration, Sewage Cleanup and Sanitization, Biohazard Cleanup, Contents Restoration and Storage)
+- [ ] (continue for each of Water Damage Restoration, Mold Remediation, Fire Damage Restoration, Storm Damage Restoration, Sewage Cleanup and Sanitization, Biohazard Cleanup, Contents Restoration and Storage, Emergency Water Cleanup)
 
 ### Service area pages (one image per city served)
 - [ ] Henderson hero — exterior shot, regional housing stock, evocative of the city
@@ -280,8 +281,3 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 ## Style guide version
 
 This guide is generated from `templates/restoration/image-style-guide.template.md` v1.1 (2026-07-11: added Standing Brand Rules — real vehicle logos, single declared uniform color, harvest-first). When the canonical template updates, existing clients keep their pinned version unless explicitly regenerated. Bump the version + add a changelog entry when changing structural rules (e.g., adding new mandatory PPE conventions).
-
-### Changelog
-
-- **v1.3-lsr (2026-08-10)** — AI-FIRST doctrine reversal (Santino 2026-08-10, fleet-wide, see `scripts/dev_agent.md` Imagery doctrine). All 10 launch slots regenerated to the polished AI look; `photo-manifest.json` slot pins cleared (archived under `slots_retired_2026-08-10`), real photos now REFERENCES only (`LIVERY-REFERENCE:` / `PPE-REFERENCE:` unchanged). Trigger: Santino rejected the real team.webp pick (two guys pressure washing does not read as a team). Rule 3 rewritten from prefer-no-vehicle to vehicles-follow-the-real-wrap-zero-readable-text; `VAN-OVERRIDE:` now describes the matched white fleet (box truck + Transit) instead of a single reluctant van; `CREW-OVERRIDE:` now specifies the 3-4 person team composition. All client FACTS (white fleet, multicolor LSR diamond wrap, sealed white Tyvek, white + gold `#a07828` light look, Las Vegas Valley) unchanged.
-- **v1.2-lsr (2026-08-10)** — Visual pass. Added the CLIENT DIRECTION block: light white+gold `#a07828` direction from his real Best of Las Vegas gold badges, real WHITE fleet facts (GMC box truck + Transit van, multicolor LSR diamond wrap — reference photo pinned via `LIVERY-REFERENCE:`), sealed-white-Tyvek crew facts (`PPE-REFERENCE:`), Las Vegas Valley setting, and `VAN-OVERRIDE:` / `CREW-OVERRIDE:` / `MOOD-OVERRIDE:` for `scripts/gen_site_images.py`. All 10 launch slots (hero, team, services, 7 service cards) filled with his REAL GBP photographs via `photo_harvest.py apply`; hero manually promoted (square original, hand-checked 16:9 crop — see `photo-manifest.json` slot note); mold card manually pinned to the flood-cut shot over the higher-scoring devastation shot. Corrected the mis-populated navy `#0d1b3e` boilerplate values to the shipped gold.

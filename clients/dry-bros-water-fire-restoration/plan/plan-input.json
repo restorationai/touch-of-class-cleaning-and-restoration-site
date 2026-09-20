@@ -94,6 +94,36 @@
       "city": "Des Plaines",
       "state": "IL",
       "slug": "des-plaines-il"
+    },
+    {
+      "city": "Stickney",
+      "state": "IL",
+      "slug": "stickney-il"
+    },
+    {
+      "city": "Bedford Park",
+      "state": "IL",
+      "slug": "bedford-park-il"
+    },
+    {
+      "city": "Lincolnwood",
+      "state": "IL",
+      "slug": "lincolnwood-il"
+    },
+    {
+      "city": "River Forest",
+      "state": "IL",
+      "slug": "river-forest-il"
+    },
+    {
+      "city": "Forest Park",
+      "state": "IL",
+      "slug": "forest-park-il"
+    },
+    {
+      "city": "Lyons",
+      "state": "IL",
+      "slug": "lyons-il"
     }
   ],
   "template": "restoration",

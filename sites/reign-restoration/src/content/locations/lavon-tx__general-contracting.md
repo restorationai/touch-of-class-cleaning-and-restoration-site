@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Renovations, Remodels and General Contracting in Lavon, TX | Reign Restoration"
+h1: "Renovations, Remodels and General Contracting in Lavon"
+meta_description: "24/7 renovations, remodels and general contracting in Lavon, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+primary_keyword: "renovations, remodels and general contracting lavon"
+secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
+search_intent: "local_commercial"
+priority: 5.6
+plan_hash: "55663c49c5f7b477"
+generated_at: "2026-09-20T14:13:42.835262+00:00"
+manual_override: false
+internal_links: ["/services/general-contracting/", "/service-areas/lavon-tx/", "/service-areas/lavon-tx/fire-damage-restoration/", "/service-areas/lavon-tx/mold-remediation/", "/service-areas/allen-tx/general-contracting/", "/service-areas/caddo-mills-tx/general-contracting/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lavon", "url": "/service-areas/lavon-tx/"}, {"name": "Renovations, Remodels and General Contracting"}]
+faq: []
+area_slug: "lavon-tx"
+service_slug: "general-contracting"
+city: "Lavon"
+state: "TX"
+service_display: "Renovations, Remodels and General Contracting"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug reign-restoration` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Renovations, Remodels and General Contracting in Lavon.

@@ -16,18 +16,24 @@
     "/services/storm-damage-restoration/",
     "/services/water-damage-restoration/",
     "/services/garage-construction/",
+    "/service-areas/antelope-ca/",
+    "/service-areas/arden-arcade-ca/",
     "/service-areas/carmichael-ca/",
     "/service-areas/citrus-heights-ca/",
     "/service-areas/el-dorado-hills-ca/",
     "/service-areas/elk-grove-ca/",
+    "/service-areas/elverta-ca/",
     "/service-areas/fair-oaks-ca/",
     "/service-areas/folsom-ca/",
     "/service-areas/granite-bay-ca/",
     "/service-areas/lincoln-ca/",
     "/service-areas/loomis-ca/",
     "/service-areas/manteca-ca/",
+    "/service-areas/mcclellan-park-ca/",
     "/service-areas/modesto-ca/",
+    "/service-areas/north-highlands-ca/",
     "/service-areas/rancho-cordova-ca/",
+    "/service-areas/rio-linda-ca/",
     "/service-areas/rocklin-ca/",
     "/service-areas/roseville-ca/",
     "/service-areas/turlock-ca/",
@@ -50,18 +56,24 @@
   ],
   "/service-areas/": [
     "/",
+    "/service-areas/antelope-ca/",
+    "/service-areas/arden-arcade-ca/",
     "/service-areas/carmichael-ca/",
     "/service-areas/citrus-heights-ca/",
     "/service-areas/el-dorado-hills-ca/",
     "/service-areas/elk-grove-ca/",
+    "/service-areas/elverta-ca/",
     "/service-areas/fair-oaks-ca/",
     "/service-areas/folsom-ca/",
     "/service-areas/granite-bay-ca/",
     "/service-areas/lincoln-ca/",
     "/service-areas/loomis-ca/",
     "/service-areas/manteca-ca/",
+    "/service-areas/mcclellan-park-ca/",
     "/service-areas/modesto-ca/",
+    "/service-areas/north-highlands-ca/",
     "/service-areas/rancho-cordova-ca/",
+    "/service-areas/rio-linda-ca/",
     "/service-areas/rocklin-ca/",
     "/service-areas/roseville-ca/",
     "/service-areas/turlock-ca/",
@@ -91,34 +103,34 @@
   "/services/commercial-construction/": [
     "/services/",
     "/contact/",
+    "/service-areas/antelope-ca/commercial-construction/",
+    "/service-areas/arden-arcade-ca/commercial-construction/",
     "/service-areas/carmichael-ca/commercial-construction/",
     "/service-areas/citrus-heights-ca/commercial-construction/",
     "/service-areas/el-dorado-hills-ca/commercial-construction/",
     "/service-areas/elk-grove-ca/commercial-construction/",
+    "/service-areas/elverta-ca/commercial-construction/",
     "/service-areas/fair-oaks-ca/commercial-construction/",
     "/service-areas/folsom-ca/commercial-construction/",
     "/service-areas/granite-bay-ca/commercial-construction/",
     "/service-areas/lincoln-ca/commercial-construction/",
-    "/service-areas/loomis-ca/commercial-construction/",
-    "/service-areas/manteca-ca/commercial-construction/",
-    "/service-areas/modesto-ca/commercial-construction/",
-    "/service-areas/rancho-cordova-ca/commercial-construction/"
+    "/service-areas/loomis-ca/commercial-construction/"
   ],
   "/services/general-contracting/": [
     "/services/",
     "/contact/",
+    "/service-areas/antelope-ca/general-contracting/",
+    "/service-areas/arden-arcade-ca/general-contracting/",
     "/service-areas/carmichael-ca/general-contracting/",
     "/service-areas/citrus-heights-ca/general-contracting/",
     "/service-areas/el-dorado-hills-ca/general-contracting/",
     "/service-areas/elk-grove-ca/general-contracting/",
+    "/service-areas/elverta-ca/general-contracting/",
     "/service-areas/fair-oaks-ca/general-contracting/",
     "/service-areas/folsom-ca/general-contracting/",
     "/service-areas/granite-bay-ca/general-contracting/",
     "/service-areas/lincoln-ca/general-contracting/",
     "/service-areas/loomis-ca/general-contracting/",
-    "/service-areas/manteca-ca/general-contracting/",
-    "/service-areas/modesto-ca/general-contracting/",
-    "/service-areas/rancho-cordova-ca/general-contracting/",
     "/blog/choosing-a-general-contractor/",
     "/blog/how-to-plan-a-home-remodel/",
     "/blog/do-you-need-a-permit/"
@@ -126,102 +138,102 @@
   "/services/new-construction/": [
     "/services/",
     "/contact/",
+    "/service-areas/antelope-ca/new-construction/",
+    "/service-areas/arden-arcade-ca/new-construction/",
     "/service-areas/carmichael-ca/new-construction/",
     "/service-areas/citrus-heights-ca/new-construction/",
     "/service-areas/el-dorado-hills-ca/new-construction/",
     "/service-areas/elk-grove-ca/new-construction/",
+    "/service-areas/elverta-ca/new-construction/",
     "/service-areas/fair-oaks-ca/new-construction/",
     "/service-areas/folsom-ca/new-construction/",
     "/service-areas/granite-bay-ca/new-construction/",
     "/service-areas/lincoln-ca/new-construction/",
     "/service-areas/loomis-ca/new-construction/",
-    "/service-areas/manteca-ca/new-construction/",
-    "/service-areas/modesto-ca/new-construction/",
-    "/service-areas/rancho-cordova-ca/new-construction/",
     "/blog/choosing-a-general-contractor/"
   ],
   "/services/fire-smoke-rebuilding/": [
     "/services/",
     "/contact/",
+    "/service-areas/antelope-ca/fire-smoke-rebuilding/",
+    "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/",
     "/service-areas/carmichael-ca/fire-smoke-rebuilding/",
     "/service-areas/citrus-heights-ca/fire-smoke-rebuilding/",
     "/service-areas/el-dorado-hills-ca/fire-smoke-rebuilding/",
     "/service-areas/elk-grove-ca/fire-smoke-rebuilding/",
+    "/service-areas/elverta-ca/fire-smoke-rebuilding/",
     "/service-areas/fair-oaks-ca/fire-smoke-rebuilding/",
     "/service-areas/folsom-ca/fire-smoke-rebuilding/",
     "/service-areas/granite-bay-ca/fire-smoke-rebuilding/",
     "/service-areas/lincoln-ca/fire-smoke-rebuilding/",
-    "/service-areas/loomis-ca/fire-smoke-rebuilding/",
-    "/service-areas/manteca-ca/fire-smoke-rebuilding/",
-    "/service-areas/modesto-ca/fire-smoke-rebuilding/",
-    "/service-areas/rancho-cordova-ca/fire-smoke-rebuilding/"
+    "/service-areas/loomis-ca/fire-smoke-rebuilding/"
   ],
   "/services/water-damage-restoration/": [
     "/services/",
     "/contact/",
+    "/service-areas/antelope-ca/water-damage-restoration/",
+    "/service-areas/arden-arcade-ca/water-damage-restoration/",
     "/service-areas/carmichael-ca/water-damage-restoration/",
     "/service-areas/citrus-heights-ca/water-damage-restoration/",
     "/service-areas/el-dorado-hills-ca/water-damage-restoration/",
     "/service-areas/elk-grove-ca/water-damage-restoration/",
+    "/service-areas/elverta-ca/water-damage-restoration/",
     "/service-areas/fair-oaks-ca/water-damage-restoration/",
     "/service-areas/folsom-ca/water-damage-restoration/",
     "/service-areas/granite-bay-ca/water-damage-restoration/",
     "/service-areas/lincoln-ca/water-damage-restoration/",
-    "/service-areas/loomis-ca/water-damage-restoration/",
-    "/service-areas/manteca-ca/water-damage-restoration/",
-    "/service-areas/modesto-ca/water-damage-restoration/",
-    "/service-areas/rancho-cordova-ca/water-damage-restoration/"
+    "/service-areas/loomis-ca/water-damage-restoration/"
   ],
   "/services/storm-damage-restoration/": [
     "/services/",
     "/contact/",
+    "/service-areas/antelope-ca/storm-damage-restoration/",
+    "/service-areas/arden-arcade-ca/storm-damage-restoration/",
     "/service-areas/carmichael-ca/storm-damage-restoration/",
     "/service-areas/citrus-heights-ca/storm-damage-restoration/",
     "/service-areas/el-dorado-hills-ca/storm-damage-restoration/",
     "/service-areas/elk-grove-ca/storm-damage-restoration/",
+    "/service-areas/elverta-ca/storm-damage-restoration/",
     "/service-areas/fair-oaks-ca/storm-damage-restoration/",
     "/service-areas/folsom-ca/storm-damage-restoration/",
     "/service-areas/granite-bay-ca/storm-damage-restoration/",
     "/service-areas/lincoln-ca/storm-damage-restoration/",
     "/service-areas/loomis-ca/storm-damage-restoration/",
-    "/service-areas/manteca-ca/storm-damage-restoration/",
-    "/service-areas/modesto-ca/storm-damage-restoration/",
-    "/service-areas/rancho-cordova-ca/storm-damage-restoration/",
     "/blog/storm-damage-insurance-claim-checklist/",
     "/blog/storm-damage-repair-process/"
   ],
   "/services/mold-remediation/": [
     "/services/",
     "/contact/",
+    "/service-areas/antelope-ca/mold-remediation/",
+    "/service-areas/arden-arcade-ca/mold-remediation/",
     "/service-areas/carmichael-ca/mold-remediation/",
     "/service-areas/citrus-heights-ca/mold-remediation/",
     "/service-areas/el-dorado-hills-ca/mold-remediation/",
     "/service-areas/elk-grove-ca/mold-remediation/",
+    "/service-areas/elverta-ca/mold-remediation/",
     "/service-areas/fair-oaks-ca/mold-remediation/",
     "/service-areas/folsom-ca/mold-remediation/",
     "/service-areas/granite-bay-ca/mold-remediation/",
     "/service-areas/lincoln-ca/mold-remediation/",
     "/service-areas/loomis-ca/mold-remediation/",
-    "/service-areas/manteca-ca/mold-remediation/",
-    "/service-areas/modesto-ca/mold-remediation/",
-    "/service-areas/rancho-cordova-ca/mold-remediation/",
     "/blog/mold-found-during-renovation/"
   ],
   "/services/home-remodeling/": [
     "/services/",
     "/contact/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
     "/service-areas/carmichael-ca/home-remodeling/",
     "/service-areas/citrus-heights-ca/home-remodeling/",
     "/service-areas/el-dorado-hills-ca/home-remodeling/",
     "/service-areas/elk-grove-ca/home-remodeling/",
+    "/service-areas/elverta-ca/home-remodeling/",
     "/service-areas/fair-oaks-ca/home-remodeling/",
     "/service-areas/folsom-ca/home-remodeling/",
     "/service-areas/granite-bay-ca/home-remodeling/",
     "/service-areas/lincoln-ca/home-remodeling/",
     "/service-areas/loomis-ca/home-remodeling/",
-    "/service-areas/manteca-ca/home-remodeling/",
-    "/service-areas/modesto-ca/home-remodeling/",
-    "/service-areas/rancho-cordova-ca/home-remodeling/",
     "/blog/choosing-a-general-contractor/",
     "/blog/how-to-plan-a-home-remodel/",
     "/blog/do-you-need-a-permit/"
@@ -229,67 +241,67 @@
   "/services/kitchen-remodeling/": [
     "/services/",
     "/contact/",
+    "/service-areas/antelope-ca/kitchen-remodeling/",
+    "/service-areas/arden-arcade-ca/kitchen-remodeling/",
     "/service-areas/carmichael-ca/kitchen-remodeling/",
     "/service-areas/citrus-heights-ca/kitchen-remodeling/",
     "/service-areas/el-dorado-hills-ca/kitchen-remodeling/",
     "/service-areas/elk-grove-ca/kitchen-remodeling/",
+    "/service-areas/elverta-ca/kitchen-remodeling/",
     "/service-areas/fair-oaks-ca/kitchen-remodeling/",
     "/service-areas/folsom-ca/kitchen-remodeling/",
     "/service-areas/granite-bay-ca/kitchen-remodeling/",
     "/service-areas/lincoln-ca/kitchen-remodeling/",
     "/service-areas/loomis-ca/kitchen-remodeling/",
-    "/service-areas/manteca-ca/kitchen-remodeling/",
-    "/service-areas/modesto-ca/kitchen-remodeling/",
-    "/service-areas/rancho-cordova-ca/kitchen-remodeling/",
     "/blog/kitchen-remodel-cost-breakdown/"
   ],
   "/services/bathroom-remodeling/": [
     "/services/",
     "/contact/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
     "/service-areas/carmichael-ca/bathroom-remodeling/",
     "/service-areas/citrus-heights-ca/bathroom-remodeling/",
     "/service-areas/el-dorado-hills-ca/bathroom-remodeling/",
     "/service-areas/elk-grove-ca/bathroom-remodeling/",
+    "/service-areas/elverta-ca/bathroom-remodeling/",
     "/service-areas/fair-oaks-ca/bathroom-remodeling/",
     "/service-areas/folsom-ca/bathroom-remodeling/",
     "/service-areas/granite-bay-ca/bathroom-remodeling/",
     "/service-areas/lincoln-ca/bathroom-remodeling/",
-    "/service-areas/loomis-ca/bathroom-remodeling/",
-    "/service-areas/manteca-ca/bathroom-remodeling/",
-    "/service-areas/modesto-ca/bathroom-remodeling/",
-    "/service-areas/rancho-cordova-ca/bathroom-remodeling/"
+    "/service-areas/loomis-ca/bathroom-remodeling/"
   ],
   "/services/garage-construction/": [
     "/services/",
     "/contact/",
+    "/service-areas/antelope-ca/garage-construction/",
+    "/service-areas/arden-arcade-ca/garage-construction/",
     "/service-areas/carmichael-ca/garage-construction/",
     "/service-areas/citrus-heights-ca/garage-construction/",
     "/service-areas/el-dorado-hills-ca/garage-construction/",
     "/service-areas/elk-grove-ca/garage-construction/",
+    "/service-areas/elverta-ca/garage-construction/",
     "/service-areas/fair-oaks-ca/garage-construction/",
     "/service-areas/folsom-ca/garage-construction/",
     "/service-areas/granite-bay-ca/garage-construction/",
     "/service-areas/lincoln-ca/garage-construction/",
-    "/service-areas/loomis-ca/garage-construction/",
-    "/service-areas/manteca-ca/garage-construction/",
-    "/service-areas/modesto-ca/garage-construction/",
-    "/service-areas/rancho-cordova-ca/garage-construction/"
+    "/service-areas/loomis-ca/garage-construction/"
   ],
   "/services/room-addition/": [
     "/services/",
     "/contact/",
+    "/service-areas/antelope-ca/room-addition/",
+    "/service-areas/arden-arcade-ca/room-addition/",
     "/service-areas/carmichael-ca/room-addition/",
     "/service-areas/citrus-heights-ca/room-addition/",
     "/service-areas/el-dorado-hills-ca/room-addition/",
     "/service-areas/elk-grove-ca/room-addition/",
+    "/service-areas/elverta-ca/room-addition/",
     "/service-areas/fair-oaks-ca/room-addition/",
     "/service-areas/folsom-ca/room-addition/",
     "/service-areas/granite-bay-ca/room-addition/",
     "/service-areas/lincoln-ca/room-addition/",
     "/service-areas/loomis-ca/room-addition/",
-    "/service-areas/manteca-ca/room-addition/",
-    "/service-areas/modesto-ca/room-addition/",
-    "/service-areas/rancho-cordova-ca/room-addition/",
     "/blog/do-you-need-a-permit/"
   ],
   "/service-areas/roseville-ca/": [
@@ -307,9 +319,9 @@
     "/service-areas/roseville-ca/storm-damage-restoration/",
     "/service-areas/roseville-ca/water-damage-restoration/",
     "/service-areas/roseville-ca/garage-construction/",
-    "/service-areas/carmichael-ca/",
-    "/service-areas/citrus-heights-ca/",
-    "/service-areas/el-dorado-hills-ca/"
+    "/service-areas/antelope-ca/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/carmichael-ca/"
   ],
   "/service-areas/elk-grove-ca/": [
     "/service-areas/",
@@ -326,9 +338,9 @@
     "/service-areas/elk-grove-ca/storm-damage-restoration/",
     "/service-areas/elk-grove-ca/water-damage-restoration/",
     "/service-areas/elk-grove-ca/garage-construction/",
-    "/service-areas/carmichael-ca/",
-    "/service-areas/citrus-heights-ca/",
-    "/service-areas/el-dorado-hills-ca/"
+    "/service-areas/antelope-ca/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/carmichael-ca/"
   ],
   "/service-areas/folsom-ca/": [
     "/service-areas/",
@@ -345,9 +357,9 @@
     "/service-areas/folsom-ca/storm-damage-restoration/",
     "/service-areas/folsom-ca/water-damage-restoration/",
     "/service-areas/folsom-ca/garage-construction/",
-    "/service-areas/carmichael-ca/",
-    "/service-areas/citrus-heights-ca/",
-    "/service-areas/el-dorado-hills-ca/"
+    "/service-areas/antelope-ca/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/carmichael-ca/"
   ],
   "/service-areas/modesto-ca/": [
     "/service-areas/",
@@ -364,9 +376,9 @@
     "/service-areas/modesto-ca/storm-damage-restoration/",
     "/service-areas/modesto-ca/water-damage-restoration/",
     "/service-areas/modesto-ca/garage-construction/",
-    "/service-areas/carmichael-ca/",
-    "/service-areas/citrus-heights-ca/",
-    "/service-areas/el-dorado-hills-ca/"
+    "/service-areas/antelope-ca/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/carmichael-ca/"
   ],
   "/service-areas/rocklin-ca/": [
     "/service-areas/",
@@ -383,9 +395,9 @@
     "/service-areas/rocklin-ca/storm-damage-restoration/",
     "/service-areas/rocklin-ca/water-damage-restoration/",
     "/service-areas/rocklin-ca/garage-construction/",
-    "/service-areas/carmichael-ca/",
-    "/service-areas/citrus-heights-ca/",
-    "/service-areas/el-dorado-hills-ca/"
+    "/service-areas/antelope-ca/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/carmichael-ca/"
   ],
   "/service-areas/citrus-heights-ca/": [
     "/service-areas/",
@@ -402,9 +414,9 @@
     "/service-areas/citrus-heights-ca/storm-damage-restoration/",
     "/service-areas/citrus-heights-ca/water-damage-restoration/",
     "/service-areas/citrus-heights-ca/garage-construction/",
-    "/service-areas/carmichael-ca/",
-    "/service-areas/el-dorado-hills-ca/",
-    "/service-areas/elk-grove-ca/"
+    "/service-areas/antelope-ca/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/carmichael-ca/"
   ],
   "/service-areas/rancho-cordova-ca/": [
     "/service-areas/",
@@ -421,9 +433,9 @@
     "/service-areas/rancho-cordova-ca/storm-damage-restoration/",
     "/service-areas/rancho-cordova-ca/water-damage-restoration/",
     "/service-areas/rancho-cordova-ca/garage-construction/",
-    "/service-areas/carmichael-ca/",
-    "/service-areas/citrus-heights-ca/",
-    "/service-areas/el-dorado-hills-ca/"
+    "/service-areas/antelope-ca/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/carmichael-ca/"
   ],
   "/service-areas/fair-oaks-ca/": [
     "/service-areas/",
@@ -440,9 +452,9 @@
     "/service-areas/fair-oaks-ca/storm-damage-restoration/",
     "/service-areas/fair-oaks-ca/water-damage-restoration/",
     "/service-areas/fair-oaks-ca/garage-construction/",
-    "/service-areas/carmichael-ca/",
-    "/service-areas/citrus-heights-ca/",
-    "/service-areas/el-dorado-hills-ca/"
+    "/service-areas/antelope-ca/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/carmichael-ca/"
   ],
   "/service-areas/carmichael-ca/": [
     "/service-areas/",
@@ -459,9 +471,9 @@
     "/service-areas/carmichael-ca/storm-damage-restoration/",
     "/service-areas/carmichael-ca/water-damage-restoration/",
     "/service-areas/carmichael-ca/garage-construction/",
-    "/service-areas/citrus-heights-ca/",
-    "/service-areas/el-dorado-hills-ca/",
-    "/service-areas/elk-grove-ca/"
+    "/service-areas/antelope-ca/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/citrus-heights-ca/"
   ],
   "/service-areas/west-sacramento-ca/": [
     "/service-areas/",
@@ -478,9 +490,9 @@
     "/service-areas/west-sacramento-ca/storm-damage-restoration/",
     "/service-areas/west-sacramento-ca/water-damage-restoration/",
     "/service-areas/west-sacramento-ca/garage-construction/",
-    "/service-areas/carmichael-ca/",
-    "/service-areas/citrus-heights-ca/",
-    "/service-areas/el-dorado-hills-ca/"
+    "/service-areas/antelope-ca/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/carmichael-ca/"
   ],
   "/service-areas/lincoln-ca/": [
     "/service-areas/",
@@ -497,9 +509,9 @@
     "/service-areas/lincoln-ca/storm-damage-restoration/",
     "/service-areas/lincoln-ca/water-damage-restoration/",
     "/service-areas/lincoln-ca/garage-construction/",
-    "/service-areas/carmichael-ca/",
-    "/service-areas/citrus-heights-ca/",
-    "/service-areas/el-dorado-hills-ca/"
+    "/service-areas/antelope-ca/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/carmichael-ca/"
   ],
   "/service-areas/granite-bay-ca/": [
     "/service-areas/",
@@ -516,9 +528,9 @@
     "/service-areas/granite-bay-ca/storm-damage-restoration/",
     "/service-areas/granite-bay-ca/water-damage-restoration/",
     "/service-areas/granite-bay-ca/garage-construction/",
-    "/service-areas/carmichael-ca/",
-    "/service-areas/citrus-heights-ca/",
-    "/service-areas/el-dorado-hills-ca/"
+    "/service-areas/antelope-ca/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/carmichael-ca/"
   ],
   "/service-areas/el-dorado-hills-ca/": [
     "/service-areas/",
@@ -535,9 +547,9 @@
     "/service-areas/el-dorado-hills-ca/storm-damage-restoration/",
     "/service-areas/el-dorado-hills-ca/water-damage-restoration/",
     "/service-areas/el-dorado-hills-ca/garage-construction/",
-    "/service-areas/carmichael-ca/",
-    "/service-areas/citrus-heights-ca/",
-    "/service-areas/elk-grove-ca/"
+    "/service-areas/antelope-ca/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/carmichael-ca/"
   ],
   "/service-areas/loomis-ca/": [
     "/service-areas/",
@@ -554,9 +566,9 @@
     "/service-areas/loomis-ca/storm-damage-restoration/",
     "/service-areas/loomis-ca/water-damage-restoration/",
     "/service-areas/loomis-ca/garage-construction/",
-    "/service-areas/carmichael-ca/",
-    "/service-areas/citrus-heights-ca/",
-    "/service-areas/el-dorado-hills-ca/"
+    "/service-areas/antelope-ca/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/carmichael-ca/"
   ],
   "/service-areas/manteca-ca/": [
     "/service-areas/",
@@ -573,9 +585,9 @@
     "/service-areas/manteca-ca/storm-damage-restoration/",
     "/service-areas/manteca-ca/water-damage-restoration/",
     "/service-areas/manteca-ca/garage-construction/",
-    "/service-areas/carmichael-ca/",
-    "/service-areas/citrus-heights-ca/",
-    "/service-areas/el-dorado-hills-ca/"
+    "/service-areas/antelope-ca/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/carmichael-ca/"
   ],
   "/service-areas/turlock-ca/": [
     "/service-areas/",
@@ -592,17 +604,131 @@
     "/service-areas/turlock-ca/storm-damage-restoration/",
     "/service-areas/turlock-ca/water-damage-restoration/",
     "/service-areas/turlock-ca/garage-construction/",
+    "/service-areas/antelope-ca/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/carmichael-ca/"
+  ],
+  "/service-areas/rio-linda-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/rio-linda-ca/home-remodeling/",
+    "/service-areas/rio-linda-ca/bathroom-remodeling/",
+    "/service-areas/rio-linda-ca/kitchen-remodeling/",
+    "/service-areas/rio-linda-ca/new-construction/",
+    "/service-areas/rio-linda-ca/general-contracting/",
+    "/service-areas/rio-linda-ca/room-addition/",
+    "/service-areas/rio-linda-ca/commercial-construction/",
+    "/service-areas/rio-linda-ca/fire-smoke-rebuilding/",
+    "/service-areas/rio-linda-ca/mold-remediation/",
+    "/service-areas/rio-linda-ca/storm-damage-restoration/",
+    "/service-areas/rio-linda-ca/water-damage-restoration/",
+    "/service-areas/rio-linda-ca/garage-construction/",
+    "/service-areas/antelope-ca/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/carmichael-ca/"
+  ],
+  "/service-areas/elverta-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/elverta-ca/home-remodeling/",
+    "/service-areas/elverta-ca/bathroom-remodeling/",
+    "/service-areas/elverta-ca/kitchen-remodeling/",
+    "/service-areas/elverta-ca/new-construction/",
+    "/service-areas/elverta-ca/general-contracting/",
+    "/service-areas/elverta-ca/room-addition/",
+    "/service-areas/elverta-ca/commercial-construction/",
+    "/service-areas/elverta-ca/fire-smoke-rebuilding/",
+    "/service-areas/elverta-ca/mold-remediation/",
+    "/service-areas/elverta-ca/storm-damage-restoration/",
+    "/service-areas/elverta-ca/water-damage-restoration/",
+    "/service-areas/elverta-ca/garage-construction/",
+    "/service-areas/antelope-ca/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/carmichael-ca/"
+  ],
+  "/service-areas/mcclellan-park-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/mcclellan-park-ca/home-remodeling/",
+    "/service-areas/mcclellan-park-ca/bathroom-remodeling/",
+    "/service-areas/mcclellan-park-ca/kitchen-remodeling/",
+    "/service-areas/mcclellan-park-ca/new-construction/",
+    "/service-areas/mcclellan-park-ca/general-contracting/",
+    "/service-areas/mcclellan-park-ca/room-addition/",
+    "/service-areas/mcclellan-park-ca/commercial-construction/",
+    "/service-areas/mcclellan-park-ca/fire-smoke-rebuilding/",
+    "/service-areas/mcclellan-park-ca/mold-remediation/",
+    "/service-areas/mcclellan-park-ca/storm-damage-restoration/",
+    "/service-areas/mcclellan-park-ca/water-damage-restoration/",
+    "/service-areas/mcclellan-park-ca/garage-construction/",
+    "/service-areas/antelope-ca/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/carmichael-ca/"
+  ],
+  "/service-areas/arden-arcade-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/kitchen-remodeling/",
+    "/service-areas/arden-arcade-ca/new-construction/",
+    "/service-areas/arden-arcade-ca/general-contracting/",
+    "/service-areas/arden-arcade-ca/room-addition/",
+    "/service-areas/arden-arcade-ca/commercial-construction/",
+    "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/",
+    "/service-areas/arden-arcade-ca/mold-remediation/",
+    "/service-areas/arden-arcade-ca/storm-damage-restoration/",
+    "/service-areas/arden-arcade-ca/water-damage-restoration/",
+    "/service-areas/arden-arcade-ca/garage-construction/",
+    "/service-areas/antelope-ca/",
     "/service-areas/carmichael-ca/",
-    "/service-areas/citrus-heights-ca/",
-    "/service-areas/el-dorado-hills-ca/"
+    "/service-areas/citrus-heights-ca/"
+  ],
+  "/service-areas/north-highlands-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/north-highlands-ca/home-remodeling/",
+    "/service-areas/north-highlands-ca/bathroom-remodeling/",
+    "/service-areas/north-highlands-ca/kitchen-remodeling/",
+    "/service-areas/north-highlands-ca/new-construction/",
+    "/service-areas/north-highlands-ca/general-contracting/",
+    "/service-areas/north-highlands-ca/room-addition/",
+    "/service-areas/north-highlands-ca/commercial-construction/",
+    "/service-areas/north-highlands-ca/fire-smoke-rebuilding/",
+    "/service-areas/north-highlands-ca/mold-remediation/",
+    "/service-areas/north-highlands-ca/storm-damage-restoration/",
+    "/service-areas/north-highlands-ca/water-damage-restoration/",
+    "/service-areas/north-highlands-ca/garage-construction/",
+    "/service-areas/antelope-ca/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/carmichael-ca/"
+  ],
+  "/service-areas/antelope-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/new-construction/",
+    "/service-areas/antelope-ca/general-contracting/",
+    "/service-areas/antelope-ca/room-addition/",
+    "/service-areas/antelope-ca/commercial-construction/",
+    "/service-areas/antelope-ca/fire-smoke-rebuilding/",
+    "/service-areas/antelope-ca/mold-remediation/",
+    "/service-areas/antelope-ca/storm-damage-restoration/",
+    "/service-areas/antelope-ca/water-damage-restoration/",
+    "/service-areas/antelope-ca/garage-construction/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/carmichael-ca/",
+    "/service-areas/citrus-heights-ca/"
   ],
   "/service-areas/roseville-ca/commercial-construction/": [
     "/services/commercial-construction/",
     "/service-areas/roseville-ca/",
     "/service-areas/roseville-ca/home-remodeling/",
     "/service-areas/roseville-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/commercial-construction/",
-    "/service-areas/citrus-heights-ca/commercial-construction/",
+    "/service-areas/antelope-ca/commercial-construction/",
+    "/service-areas/arden-arcade-ca/commercial-construction/",
     "/contact/"
   ],
   "/service-areas/roseville-ca/general-contracting/": [
@@ -610,8 +736,8 @@
     "/service-areas/roseville-ca/",
     "/service-areas/roseville-ca/home-remodeling/",
     "/service-areas/roseville-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/general-contracting/",
-    "/service-areas/citrus-heights-ca/general-contracting/",
+    "/service-areas/antelope-ca/general-contracting/",
+    "/service-areas/arden-arcade-ca/general-contracting/",
     "/contact/"
   ],
   "/service-areas/roseville-ca/new-construction/": [
@@ -619,8 +745,8 @@
     "/service-areas/roseville-ca/",
     "/service-areas/roseville-ca/home-remodeling/",
     "/service-areas/roseville-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/new-construction/",
-    "/service-areas/citrus-heights-ca/new-construction/",
+    "/service-areas/antelope-ca/new-construction/",
+    "/service-areas/arden-arcade-ca/new-construction/",
     "/contact/"
   ],
   "/service-areas/roseville-ca/fire-smoke-rebuilding/": [
@@ -628,8 +754,8 @@
     "/service-areas/roseville-ca/",
     "/service-areas/roseville-ca/home-remodeling/",
     "/service-areas/roseville-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/fire-smoke-rebuilding/",
-    "/service-areas/citrus-heights-ca/fire-smoke-rebuilding/",
+    "/service-areas/antelope-ca/fire-smoke-rebuilding/",
+    "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/roseville-ca/water-damage-restoration/": [
@@ -637,8 +763,8 @@
     "/service-areas/roseville-ca/",
     "/service-areas/roseville-ca/home-remodeling/",
     "/service-areas/roseville-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/water-damage-restoration/",
-    "/service-areas/citrus-heights-ca/water-damage-restoration/",
+    "/service-areas/antelope-ca/water-damage-restoration/",
+    "/service-areas/arden-arcade-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/roseville-ca/storm-damage-restoration/": [
@@ -646,8 +772,8 @@
     "/service-areas/roseville-ca/",
     "/service-areas/roseville-ca/home-remodeling/",
     "/service-areas/roseville-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/storm-damage-restoration/",
-    "/service-areas/citrus-heights-ca/storm-damage-restoration/",
+    "/service-areas/antelope-ca/storm-damage-restoration/",
+    "/service-areas/arden-arcade-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/roseville-ca/mold-remediation/": [
@@ -655,8 +781,8 @@
     "/service-areas/roseville-ca/",
     "/service-areas/roseville-ca/home-remodeling/",
     "/service-areas/roseville-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/mold-remediation/",
-    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/antelope-ca/mold-remediation/",
+    "/service-areas/arden-arcade-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/roseville-ca/home-remodeling/": [
@@ -664,8 +790,8 @@
     "/service-areas/roseville-ca/",
     "/service-areas/roseville-ca/bathroom-remodeling/",
     "/service-areas/roseville-ca/kitchen-remodeling/",
-    "/service-areas/carmichael-ca/home-remodeling/",
-    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/roseville-ca/kitchen-remodeling/": [
@@ -673,8 +799,8 @@
     "/service-areas/roseville-ca/",
     "/service-areas/roseville-ca/home-remodeling/",
     "/service-areas/roseville-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/kitchen-remodeling/",
-    "/service-areas/citrus-heights-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/kitchen-remodeling/",
+    "/service-areas/arden-arcade-ca/kitchen-remodeling/",
     "/contact/"
   ],
   "/service-areas/roseville-ca/bathroom-remodeling/": [
@@ -682,8 +808,8 @@
     "/service-areas/roseville-ca/",
     "/service-areas/roseville-ca/home-remodeling/",
     "/service-areas/roseville-ca/kitchen-remodeling/",
-    "/service-areas/carmichael-ca/bathroom-remodeling/",
-    "/service-areas/citrus-heights-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
     "/contact/"
   ],
   "/service-areas/roseville-ca/garage-construction/": [
@@ -691,8 +817,8 @@
     "/service-areas/roseville-ca/",
     "/service-areas/roseville-ca/home-remodeling/",
     "/service-areas/roseville-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/garage-construction/",
-    "/service-areas/citrus-heights-ca/garage-construction/",
+    "/service-areas/antelope-ca/garage-construction/",
+    "/service-areas/arden-arcade-ca/garage-construction/",
     "/contact/"
   ],
   "/service-areas/roseville-ca/room-addition/": [
@@ -700,8 +826,8 @@
     "/service-areas/roseville-ca/",
     "/service-areas/roseville-ca/home-remodeling/",
     "/service-areas/roseville-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/room-addition/",
-    "/service-areas/citrus-heights-ca/room-addition/",
+    "/service-areas/antelope-ca/room-addition/",
+    "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
   "/service-areas/elk-grove-ca/commercial-construction/": [
@@ -709,8 +835,8 @@
     "/service-areas/elk-grove-ca/",
     "/service-areas/elk-grove-ca/home-remodeling/",
     "/service-areas/elk-grove-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/commercial-construction/",
-    "/service-areas/citrus-heights-ca/commercial-construction/",
+    "/service-areas/antelope-ca/commercial-construction/",
+    "/service-areas/arden-arcade-ca/commercial-construction/",
     "/contact/"
   ],
   "/service-areas/elk-grove-ca/general-contracting/": [
@@ -718,8 +844,8 @@
     "/service-areas/elk-grove-ca/",
     "/service-areas/elk-grove-ca/home-remodeling/",
     "/service-areas/elk-grove-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/general-contracting/",
-    "/service-areas/citrus-heights-ca/general-contracting/",
+    "/service-areas/antelope-ca/general-contracting/",
+    "/service-areas/arden-arcade-ca/general-contracting/",
     "/contact/"
   ],
   "/service-areas/elk-grove-ca/new-construction/": [
@@ -727,8 +853,8 @@
     "/service-areas/elk-grove-ca/",
     "/service-areas/elk-grove-ca/home-remodeling/",
     "/service-areas/elk-grove-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/new-construction/",
-    "/service-areas/citrus-heights-ca/new-construction/",
+    "/service-areas/antelope-ca/new-construction/",
+    "/service-areas/arden-arcade-ca/new-construction/",
     "/contact/"
   ],
   "/service-areas/elk-grove-ca/fire-smoke-rebuilding/": [
@@ -736,8 +862,8 @@
     "/service-areas/elk-grove-ca/",
     "/service-areas/elk-grove-ca/home-remodeling/",
     "/service-areas/elk-grove-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/fire-smoke-rebuilding/",
-    "/service-areas/citrus-heights-ca/fire-smoke-rebuilding/",
+    "/service-areas/antelope-ca/fire-smoke-rebuilding/",
+    "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/elk-grove-ca/water-damage-restoration/": [
@@ -745,8 +871,8 @@
     "/service-areas/elk-grove-ca/",
     "/service-areas/elk-grove-ca/home-remodeling/",
     "/service-areas/elk-grove-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/water-damage-restoration/",
-    "/service-areas/citrus-heights-ca/water-damage-restoration/",
+    "/service-areas/antelope-ca/water-damage-restoration/",
+    "/service-areas/arden-arcade-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/elk-grove-ca/storm-damage-restoration/": [
@@ -754,8 +880,8 @@
     "/service-areas/elk-grove-ca/",
     "/service-areas/elk-grove-ca/home-remodeling/",
     "/service-areas/elk-grove-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/storm-damage-restoration/",
-    "/service-areas/citrus-heights-ca/storm-damage-restoration/",
+    "/service-areas/antelope-ca/storm-damage-restoration/",
+    "/service-areas/arden-arcade-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/elk-grove-ca/mold-remediation/": [
@@ -763,8 +889,8 @@
     "/service-areas/elk-grove-ca/",
     "/service-areas/elk-grove-ca/home-remodeling/",
     "/service-areas/elk-grove-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/mold-remediation/",
-    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/antelope-ca/mold-remediation/",
+    "/service-areas/arden-arcade-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/elk-grove-ca/home-remodeling/": [
@@ -772,8 +898,8 @@
     "/service-areas/elk-grove-ca/",
     "/service-areas/elk-grove-ca/bathroom-remodeling/",
     "/service-areas/elk-grove-ca/kitchen-remodeling/",
-    "/service-areas/carmichael-ca/home-remodeling/",
-    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/elk-grove-ca/kitchen-remodeling/": [
@@ -781,8 +907,8 @@
     "/service-areas/elk-grove-ca/",
     "/service-areas/elk-grove-ca/home-remodeling/",
     "/service-areas/elk-grove-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/kitchen-remodeling/",
-    "/service-areas/citrus-heights-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/kitchen-remodeling/",
+    "/service-areas/arden-arcade-ca/kitchen-remodeling/",
     "/contact/"
   ],
   "/service-areas/elk-grove-ca/bathroom-remodeling/": [
@@ -790,8 +916,8 @@
     "/service-areas/elk-grove-ca/",
     "/service-areas/elk-grove-ca/home-remodeling/",
     "/service-areas/elk-grove-ca/kitchen-remodeling/",
-    "/service-areas/carmichael-ca/bathroom-remodeling/",
-    "/service-areas/citrus-heights-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
     "/contact/"
   ],
   "/service-areas/elk-grove-ca/garage-construction/": [
@@ -799,8 +925,8 @@
     "/service-areas/elk-grove-ca/",
     "/service-areas/elk-grove-ca/home-remodeling/",
     "/service-areas/elk-grove-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/garage-construction/",
-    "/service-areas/citrus-heights-ca/garage-construction/",
+    "/service-areas/antelope-ca/garage-construction/",
+    "/service-areas/arden-arcade-ca/garage-construction/",
     "/contact/"
   ],
   "/service-areas/elk-grove-ca/room-addition/": [
@@ -808,8 +934,8 @@
     "/service-areas/elk-grove-ca/",
     "/service-areas/elk-grove-ca/home-remodeling/",
     "/service-areas/elk-grove-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/room-addition/",
-    "/service-areas/citrus-heights-ca/room-addition/",
+    "/service-areas/antelope-ca/room-addition/",
+    "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
   "/service-areas/folsom-ca/commercial-construction/": [
@@ -817,8 +943,8 @@
     "/service-areas/folsom-ca/",
     "/service-areas/folsom-ca/home-remodeling/",
     "/service-areas/folsom-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/commercial-construction/",
-    "/service-areas/citrus-heights-ca/commercial-construction/",
+    "/service-areas/antelope-ca/commercial-construction/",
+    "/service-areas/arden-arcade-ca/commercial-construction/",
     "/contact/"
   ],
   "/service-areas/folsom-ca/general-contracting/": [
@@ -826,8 +952,8 @@
     "/service-areas/folsom-ca/",
     "/service-areas/folsom-ca/home-remodeling/",
     "/service-areas/folsom-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/general-contracting/",
-    "/service-areas/citrus-heights-ca/general-contracting/",
+    "/service-areas/antelope-ca/general-contracting/",
+    "/service-areas/arden-arcade-ca/general-contracting/",
     "/contact/"
   ],
   "/service-areas/folsom-ca/new-construction/": [
@@ -835,8 +961,8 @@
     "/service-areas/folsom-ca/",
     "/service-areas/folsom-ca/home-remodeling/",
     "/service-areas/folsom-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/new-construction/",
-    "/service-areas/citrus-heights-ca/new-construction/",
+    "/service-areas/antelope-ca/new-construction/",
+    "/service-areas/arden-arcade-ca/new-construction/",
     "/contact/"
   ],
   "/service-areas/folsom-ca/fire-smoke-rebuilding/": [
@@ -844,8 +970,8 @@
     "/service-areas/folsom-ca/",
     "/service-areas/folsom-ca/home-remodeling/",
     "/service-areas/folsom-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/fire-smoke-rebuilding/",
-    "/service-areas/citrus-heights-ca/fire-smoke-rebuilding/",
+    "/service-areas/antelope-ca/fire-smoke-rebuilding/",
+    "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/folsom-ca/water-damage-restoration/": [
@@ -853,8 +979,8 @@
     "/service-areas/folsom-ca/",
     "/service-areas/folsom-ca/home-remodeling/",
     "/service-areas/folsom-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/water-damage-restoration/",
-    "/service-areas/citrus-heights-ca/water-damage-restoration/",
+    "/service-areas/antelope-ca/water-damage-restoration/",
+    "/service-areas/arden-arcade-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/folsom-ca/storm-damage-restoration/": [
@@ -862,8 +988,8 @@
     "/service-areas/folsom-ca/",
     "/service-areas/folsom-ca/home-remodeling/",
     "/service-areas/folsom-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/storm-damage-restoration/",
-    "/service-areas/citrus-heights-ca/storm-damage-restoration/",
+    "/service-areas/antelope-ca/storm-damage-restoration/",
+    "/service-areas/arden-arcade-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/folsom-ca/mold-remediation/": [
@@ -871,8 +997,8 @@
     "/service-areas/folsom-ca/",
     "/service-areas/folsom-ca/home-remodeling/",
     "/service-areas/folsom-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/mold-remediation/",
-    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/antelope-ca/mold-remediation/",
+    "/service-areas/arden-arcade-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/folsom-ca/home-remodeling/": [
@@ -880,8 +1006,8 @@
     "/service-areas/folsom-ca/",
     "/service-areas/folsom-ca/bathroom-remodeling/",
     "/service-areas/folsom-ca/kitchen-remodeling/",
-    "/service-areas/carmichael-ca/home-remodeling/",
-    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/folsom-ca/kitchen-remodeling/": [
@@ -889,8 +1015,8 @@
     "/service-areas/folsom-ca/",
     "/service-areas/folsom-ca/home-remodeling/",
     "/service-areas/folsom-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/kitchen-remodeling/",
-    "/service-areas/citrus-heights-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/kitchen-remodeling/",
+    "/service-areas/arden-arcade-ca/kitchen-remodeling/",
     "/contact/"
   ],
   "/service-areas/folsom-ca/bathroom-remodeling/": [
@@ -898,8 +1024,8 @@
     "/service-areas/folsom-ca/",
     "/service-areas/folsom-ca/home-remodeling/",
     "/service-areas/folsom-ca/kitchen-remodeling/",
-    "/service-areas/carmichael-ca/bathroom-remodeling/",
-    "/service-areas/citrus-heights-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
     "/contact/"
   ],
   "/service-areas/folsom-ca/garage-construction/": [
@@ -907,8 +1033,8 @@
     "/service-areas/folsom-ca/",
     "/service-areas/folsom-ca/home-remodeling/",
     "/service-areas/folsom-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/garage-construction/",
-    "/service-areas/citrus-heights-ca/garage-construction/",
+    "/service-areas/antelope-ca/garage-construction/",
+    "/service-areas/arden-arcade-ca/garage-construction/",
     "/contact/"
   ],
   "/service-areas/folsom-ca/room-addition/": [
@@ -916,8 +1042,8 @@
     "/service-areas/folsom-ca/",
     "/service-areas/folsom-ca/home-remodeling/",
     "/service-areas/folsom-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/room-addition/",
-    "/service-areas/citrus-heights-ca/room-addition/",
+    "/service-areas/antelope-ca/room-addition/",
+    "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
   "/service-areas/modesto-ca/commercial-construction/": [
@@ -925,8 +1051,8 @@
     "/service-areas/modesto-ca/",
     "/service-areas/modesto-ca/home-remodeling/",
     "/service-areas/modesto-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/commercial-construction/",
-    "/service-areas/citrus-heights-ca/commercial-construction/",
+    "/service-areas/antelope-ca/commercial-construction/",
+    "/service-areas/arden-arcade-ca/commercial-construction/",
     "/contact/"
   ],
   "/service-areas/modesto-ca/general-contracting/": [
@@ -934,8 +1060,8 @@
     "/service-areas/modesto-ca/",
     "/service-areas/modesto-ca/home-remodeling/",
     "/service-areas/modesto-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/general-contracting/",
-    "/service-areas/citrus-heights-ca/general-contracting/",
+    "/service-areas/antelope-ca/general-contracting/",
+    "/service-areas/arden-arcade-ca/general-contracting/",
     "/contact/"
   ],
   "/service-areas/modesto-ca/new-construction/": [
@@ -943,8 +1069,8 @@
     "/service-areas/modesto-ca/",
     "/service-areas/modesto-ca/home-remodeling/",
     "/service-areas/modesto-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/new-construction/",
-    "/service-areas/citrus-heights-ca/new-construction/",
+    "/service-areas/antelope-ca/new-construction/",
+    "/service-areas/arden-arcade-ca/new-construction/",
     "/contact/"
   ],
   "/service-areas/modesto-ca/fire-smoke-rebuilding/": [
@@ -952,8 +1078,8 @@
     "/service-areas/modesto-ca/",
     "/service-areas/modesto-ca/home-remodeling/",
     "/service-areas/modesto-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/fire-smoke-rebuilding/",
-    "/service-areas/citrus-heights-ca/fire-smoke-rebuilding/",
+    "/service-areas/antelope-ca/fire-smoke-rebuilding/",
+    "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/modesto-ca/water-damage-restoration/": [
@@ -961,8 +1087,8 @@
     "/service-areas/modesto-ca/",
     "/service-areas/modesto-ca/home-remodeling/",
     "/service-areas/modesto-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/water-damage-restoration/",
-    "/service-areas/citrus-heights-ca/water-damage-restoration/",
+    "/service-areas/antelope-ca/water-damage-restoration/",
+    "/service-areas/arden-arcade-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/modesto-ca/storm-damage-restoration/": [
@@ -970,8 +1096,8 @@
     "/service-areas/modesto-ca/",
     "/service-areas/modesto-ca/home-remodeling/",
     "/service-areas/modesto-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/storm-damage-restoration/",
-    "/service-areas/citrus-heights-ca/storm-damage-restoration/",
+    "/service-areas/antelope-ca/storm-damage-restoration/",
+    "/service-areas/arden-arcade-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/modesto-ca/mold-remediation/": [
@@ -979,8 +1105,8 @@
     "/service-areas/modesto-ca/",
     "/service-areas/modesto-ca/home-remodeling/",
     "/service-areas/modesto-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/mold-remediation/",
-    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/antelope-ca/mold-remediation/",
+    "/service-areas/arden-arcade-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/modesto-ca/home-remodeling/": [
@@ -988,8 +1114,8 @@
     "/service-areas/modesto-ca/",
     "/service-areas/modesto-ca/bathroom-remodeling/",
     "/service-areas/modesto-ca/kitchen-remodeling/",
-    "/service-areas/carmichael-ca/home-remodeling/",
-    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/modesto-ca/kitchen-remodeling/": [
@@ -997,8 +1123,8 @@
     "/service-areas/modesto-ca/",
     "/service-areas/modesto-ca/home-remodeling/",
     "/service-areas/modesto-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/kitchen-remodeling/",
-    "/service-areas/citrus-heights-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/kitchen-remodeling/",
+    "/service-areas/arden-arcade-ca/kitchen-remodeling/",
     "/contact/"
   ],
   "/service-areas/modesto-ca/bathroom-remodeling/": [
@@ -1006,8 +1132,8 @@
     "/service-areas/modesto-ca/",
     "/service-areas/modesto-ca/home-remodeling/",
     "/service-areas/modesto-ca/kitchen-remodeling/",
-    "/service-areas/carmichael-ca/bathroom-remodeling/",
-    "/service-areas/citrus-heights-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
     "/contact/"
   ],
   "/service-areas/modesto-ca/garage-construction/": [
@@ -1015,8 +1141,8 @@
     "/service-areas/modesto-ca/",
     "/service-areas/modesto-ca/home-remodeling/",
     "/service-areas/modesto-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/garage-construction/",
-    "/service-areas/citrus-heights-ca/garage-construction/",
+    "/service-areas/antelope-ca/garage-construction/",
+    "/service-areas/arden-arcade-ca/garage-construction/",
     "/contact/"
   ],
   "/service-areas/modesto-ca/room-addition/": [
@@ -1024,8 +1150,8 @@
     "/service-areas/modesto-ca/",
     "/service-areas/modesto-ca/home-remodeling/",
     "/service-areas/modesto-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/room-addition/",
-    "/service-areas/citrus-heights-ca/room-addition/",
+    "/service-areas/antelope-ca/room-addition/",
+    "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
   "/service-areas/rocklin-ca/commercial-construction/": [
@@ -1033,8 +1159,8 @@
     "/service-areas/rocklin-ca/",
     "/service-areas/rocklin-ca/home-remodeling/",
     "/service-areas/rocklin-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/commercial-construction/",
-    "/service-areas/citrus-heights-ca/commercial-construction/",
+    "/service-areas/antelope-ca/commercial-construction/",
+    "/service-areas/arden-arcade-ca/commercial-construction/",
     "/contact/"
   ],
   "/service-areas/rocklin-ca/general-contracting/": [
@@ -1042,8 +1168,8 @@
     "/service-areas/rocklin-ca/",
     "/service-areas/rocklin-ca/home-remodeling/",
     "/service-areas/rocklin-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/general-contracting/",
-    "/service-areas/citrus-heights-ca/general-contracting/",
+    "/service-areas/antelope-ca/general-contracting/",
+    "/service-areas/arden-arcade-ca/general-contracting/",
     "/contact/"
   ],
   "/service-areas/rocklin-ca/new-construction/": [
@@ -1051,8 +1177,8 @@
     "/service-areas/rocklin-ca/",
     "/service-areas/rocklin-ca/home-remodeling/",
     "/service-areas/rocklin-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/new-construction/",
-    "/service-areas/citrus-heights-ca/new-construction/",
+    "/service-areas/antelope-ca/new-construction/",
+    "/service-areas/arden-arcade-ca/new-construction/",
     "/contact/"
   ],
   "/service-areas/rocklin-ca/fire-smoke-rebuilding/": [
@@ -1060,8 +1186,8 @@
     "/service-areas/rocklin-ca/",
     "/service-areas/rocklin-ca/home-remodeling/",
     "/service-areas/rocklin-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/fire-smoke-rebuilding/",
-    "/service-areas/citrus-heights-ca/fire-smoke-rebuilding/",
+    "/service-areas/antelope-ca/fire-smoke-rebuilding/",
+    "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/rocklin-ca/water-damage-restoration/": [
@@ -1069,8 +1195,8 @@
     "/service-areas/rocklin-ca/",
     "/service-areas/rocklin-ca/home-remodeling/",
     "/service-areas/rocklin-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/water-damage-restoration/",
-    "/service-areas/citrus-heights-ca/water-damage-restoration/",
+    "/service-areas/antelope-ca/water-damage-restoration/",
+    "/service-areas/arden-arcade-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/rocklin-ca/storm-damage-restoration/": [
@@ -1078,8 +1204,8 @@
     "/service-areas/rocklin-ca/",
     "/service-areas/rocklin-ca/home-remodeling/",
     "/service-areas/rocklin-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/storm-damage-restoration/",
-    "/service-areas/citrus-heights-ca/storm-damage-restoration/",
+    "/service-areas/antelope-ca/storm-damage-restoration/",
+    "/service-areas/arden-arcade-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/rocklin-ca/mold-remediation/": [
@@ -1087,8 +1213,8 @@
     "/service-areas/rocklin-ca/",
     "/service-areas/rocklin-ca/home-remodeling/",
     "/service-areas/rocklin-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/mold-remediation/",
-    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/antelope-ca/mold-remediation/",
+    "/service-areas/arden-arcade-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/rocklin-ca/home-remodeling/": [
@@ -1096,8 +1222,8 @@
     "/service-areas/rocklin-ca/",
     "/service-areas/rocklin-ca/bathroom-remodeling/",
     "/service-areas/rocklin-ca/kitchen-remodeling/",
-    "/service-areas/carmichael-ca/home-remodeling/",
-    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/rocklin-ca/kitchen-remodeling/": [
@@ -1105,8 +1231,8 @@
     "/service-areas/rocklin-ca/",
     "/service-areas/rocklin-ca/home-remodeling/",
     "/service-areas/rocklin-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/kitchen-remodeling/",
-    "/service-areas/citrus-heights-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/kitchen-remodeling/",
+    "/service-areas/arden-arcade-ca/kitchen-remodeling/",
     "/contact/"
   ],
   "/service-areas/rocklin-ca/bathroom-remodeling/": [
@@ -1114,8 +1240,8 @@
     "/service-areas/rocklin-ca/",
     "/service-areas/rocklin-ca/home-remodeling/",
     "/service-areas/rocklin-ca/kitchen-remodeling/",
-    "/service-areas/carmichael-ca/bathroom-remodeling/",
-    "/service-areas/citrus-heights-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
     "/contact/"
   ],
   "/service-areas/rocklin-ca/garage-construction/": [
@@ -1123,8 +1249,8 @@
     "/service-areas/rocklin-ca/",
     "/service-areas/rocklin-ca/home-remodeling/",
     "/service-areas/rocklin-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/garage-construction/",
-    "/service-areas/citrus-heights-ca/garage-construction/",
+    "/service-areas/antelope-ca/garage-construction/",
+    "/service-areas/arden-arcade-ca/garage-construction/",
     "/contact/"
   ],
   "/service-areas/rocklin-ca/room-addition/": [
@@ -1132,8 +1258,8 @@
     "/service-areas/rocklin-ca/",
     "/service-areas/rocklin-ca/home-remodeling/",
     "/service-areas/rocklin-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/room-addition/",
-    "/service-areas/citrus-heights-ca/room-addition/",
+    "/service-areas/antelope-ca/room-addition/",
+    "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
   "/service-areas/citrus-heights-ca/commercial-construction/": [
@@ -1141,8 +1267,8 @@
     "/service-areas/citrus-heights-ca/",
     "/service-areas/citrus-heights-ca/home-remodeling/",
     "/service-areas/citrus-heights-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/commercial-construction/",
-    "/service-areas/el-dorado-hills-ca/commercial-construction/",
+    "/service-areas/antelope-ca/commercial-construction/",
+    "/service-areas/arden-arcade-ca/commercial-construction/",
     "/contact/"
   ],
   "/service-areas/citrus-heights-ca/general-contracting/": [
@@ -1150,8 +1276,8 @@
     "/service-areas/citrus-heights-ca/",
     "/service-areas/citrus-heights-ca/home-remodeling/",
     "/service-areas/citrus-heights-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/general-contracting/",
-    "/service-areas/el-dorado-hills-ca/general-contracting/",
+    "/service-areas/antelope-ca/general-contracting/",
+    "/service-areas/arden-arcade-ca/general-contracting/",
     "/contact/"
   ],
   "/service-areas/citrus-heights-ca/new-construction/": [
@@ -1159,8 +1285,8 @@
     "/service-areas/citrus-heights-ca/",
     "/service-areas/citrus-heights-ca/home-remodeling/",
     "/service-areas/citrus-heights-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/new-construction/",
-    "/service-areas/el-dorado-hills-ca/new-construction/",
+    "/service-areas/antelope-ca/new-construction/",
+    "/service-areas/arden-arcade-ca/new-construction/",
     "/contact/"
   ],
   "/service-areas/citrus-heights-ca/fire-smoke-rebuilding/": [
@@ -1168,8 +1294,8 @@
     "/service-areas/citrus-heights-ca/",
     "/service-areas/citrus-heights-ca/home-remodeling/",
     "/service-areas/citrus-heights-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/fire-smoke-rebuilding/",
-    "/service-areas/el-dorado-hills-ca/fire-smoke-rebuilding/",
+    "/service-areas/antelope-ca/fire-smoke-rebuilding/",
+    "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/citrus-heights-ca/water-damage-restoration/": [
@@ -1177,8 +1303,8 @@
     "/service-areas/citrus-heights-ca/",
     "/service-areas/citrus-heights-ca/home-remodeling/",
     "/service-areas/citrus-heights-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/water-damage-restoration/",
-    "/service-areas/el-dorado-hills-ca/water-damage-restoration/",
+    "/service-areas/antelope-ca/water-damage-restoration/",
+    "/service-areas/arden-arcade-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/citrus-heights-ca/storm-damage-restoration/": [
@@ -1186,8 +1312,8 @@
     "/service-areas/citrus-heights-ca/",
     "/service-areas/citrus-heights-ca/home-remodeling/",
     "/service-areas/citrus-heights-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/storm-damage-restoration/",
-    "/service-areas/el-dorado-hills-ca/storm-damage-restoration/",
+    "/service-areas/antelope-ca/storm-damage-restoration/",
+    "/service-areas/arden-arcade-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/citrus-heights-ca/mold-remediation/": [
@@ -1195,8 +1321,8 @@
     "/service-areas/citrus-heights-ca/",
     "/service-areas/citrus-heights-ca/home-remodeling/",
     "/service-areas/citrus-heights-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/mold-remediation/",
-    "/service-areas/el-dorado-hills-ca/mold-remediation/",
+    "/service-areas/antelope-ca/mold-remediation/",
+    "/service-areas/arden-arcade-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/citrus-heights-ca/home-remodeling/": [
@@ -1204,8 +1330,8 @@
     "/service-areas/citrus-heights-ca/",
     "/service-areas/citrus-heights-ca/bathroom-remodeling/",
     "/service-areas/citrus-heights-ca/kitchen-remodeling/",
-    "/service-areas/carmichael-ca/home-remodeling/",
-    "/service-areas/el-dorado-hills-ca/home-remodeling/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/citrus-heights-ca/kitchen-remodeling/": [
@@ -1213,8 +1339,8 @@
     "/service-areas/citrus-heights-ca/",
     "/service-areas/citrus-heights-ca/home-remodeling/",
     "/service-areas/citrus-heights-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/kitchen-remodeling/",
-    "/service-areas/el-dorado-hills-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/kitchen-remodeling/",
+    "/service-areas/arden-arcade-ca/kitchen-remodeling/",
     "/contact/"
   ],
   "/service-areas/citrus-heights-ca/bathroom-remodeling/": [
@@ -1222,8 +1348,8 @@
     "/service-areas/citrus-heights-ca/",
     "/service-areas/citrus-heights-ca/home-remodeling/",
     "/service-areas/citrus-heights-ca/kitchen-remodeling/",
-    "/service-areas/carmichael-ca/bathroom-remodeling/",
-    "/service-areas/el-dorado-hills-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
     "/contact/"
   ],
   "/service-areas/citrus-heights-ca/garage-construction/": [
@@ -1231,8 +1357,8 @@
     "/service-areas/citrus-heights-ca/",
     "/service-areas/citrus-heights-ca/home-remodeling/",
     "/service-areas/citrus-heights-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/garage-construction/",
-    "/service-areas/el-dorado-hills-ca/garage-construction/",
+    "/service-areas/antelope-ca/garage-construction/",
+    "/service-areas/arden-arcade-ca/garage-construction/",
     "/contact/"
   ],
   "/service-areas/citrus-heights-ca/room-addition/": [
@@ -1240,8 +1366,8 @@
     "/service-areas/citrus-heights-ca/",
     "/service-areas/citrus-heights-ca/home-remodeling/",
     "/service-areas/citrus-heights-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/room-addition/",
-    "/service-areas/el-dorado-hills-ca/room-addition/",
+    "/service-areas/antelope-ca/room-addition/",
+    "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
   "/service-areas/rancho-cordova-ca/commercial-construction/": [
@@ -1249,8 +1375,8 @@
     "/service-areas/rancho-cordova-ca/",
     "/service-areas/rancho-cordova-ca/home-remodeling/",
     "/service-areas/rancho-cordova-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/commercial-construction/",
-    "/service-areas/citrus-heights-ca/commercial-construction/",
+    "/service-areas/antelope-ca/commercial-construction/",
+    "/service-areas/arden-arcade-ca/commercial-construction/",
     "/contact/"
   ],
   "/service-areas/rancho-cordova-ca/general-contracting/": [
@@ -1258,8 +1384,8 @@
     "/service-areas/rancho-cordova-ca/",
     "/service-areas/rancho-cordova-ca/home-remodeling/",
     "/service-areas/rancho-cordova-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/general-contracting/",
-    "/service-areas/citrus-heights-ca/general-contracting/",
+    "/service-areas/antelope-ca/general-contracting/",
+    "/service-areas/arden-arcade-ca/general-contracting/",
     "/contact/"
   ],
   "/service-areas/rancho-cordova-ca/new-construction/": [
@@ -1267,8 +1393,8 @@
     "/service-areas/rancho-cordova-ca/",
     "/service-areas/rancho-cordova-ca/home-remodeling/",
     "/service-areas/rancho-cordova-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/new-construction/",
-    "/service-areas/citrus-heights-ca/new-construction/",
+    "/service-areas/antelope-ca/new-construction/",
+    "/service-areas/arden-arcade-ca/new-construction/",
     "/contact/"
   ],
   "/service-areas/rancho-cordova-ca/fire-smoke-rebuilding/": [
@@ -1276,8 +1402,8 @@
     "/service-areas/rancho-cordova-ca/",
     "/service-areas/rancho-cordova-ca/home-remodeling/",
     "/service-areas/rancho-cordova-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/fire-smoke-rebuilding/",
-    "/service-areas/citrus-heights-ca/fire-smoke-rebuilding/",
+    "/service-areas/antelope-ca/fire-smoke-rebuilding/",
+    "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/rancho-cordova-ca/water-damage-restoration/": [
@@ -1285,8 +1411,8 @@
     "/service-areas/rancho-cordova-ca/",
     "/service-areas/rancho-cordova-ca/home-remodeling/",
     "/service-areas/rancho-cordova-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/water-damage-restoration/",
-    "/service-areas/citrus-heights-ca/water-damage-restoration/",
+    "/service-areas/antelope-ca/water-damage-restoration/",
+    "/service-areas/arden-arcade-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/rancho-cordova-ca/storm-damage-restoration/": [
@@ -1294,8 +1420,8 @@
     "/service-areas/rancho-cordova-ca/",
     "/service-areas/rancho-cordova-ca/home-remodeling/",
     "/service-areas/rancho-cordova-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/storm-damage-restoration/",
-    "/service-areas/citrus-heights-ca/storm-damage-restoration/",
+    "/service-areas/antelope-ca/storm-damage-restoration/",
+    "/service-areas/arden-arcade-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/rancho-cordova-ca/mold-remediation/": [
@@ -1303,8 +1429,8 @@
     "/service-areas/rancho-cordova-ca/",
     "/service-areas/rancho-cordova-ca/home-remodeling/",
     "/service-areas/rancho-cordova-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/mold-remediation/",
-    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/antelope-ca/mold-remediation/",
+    "/service-areas/arden-arcade-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/rancho-cordova-ca/home-remodeling/": [
@@ -1312,8 +1438,8 @@
     "/service-areas/rancho-cordova-ca/",
     "/service-areas/rancho-cordova-ca/bathroom-remodeling/",
     "/service-areas/rancho-cordova-ca/kitchen-remodeling/",
-    "/service-areas/carmichael-ca/home-remodeling/",
-    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/rancho-cordova-ca/kitchen-remodeling/": [
@@ -1321,8 +1447,8 @@
     "/service-areas/rancho-cordova-ca/",
     "/service-areas/rancho-cordova-ca/home-remodeling/",
     "/service-areas/rancho-cordova-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/kitchen-remodeling/",
-    "/service-areas/citrus-heights-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/kitchen-remodeling/",
+    "/service-areas/arden-arcade-ca/kitchen-remodeling/",
     "/contact/"
   ],
   "/service-areas/rancho-cordova-ca/bathroom-remodeling/": [
@@ -1330,8 +1456,8 @@
     "/service-areas/rancho-cordova-ca/",
     "/service-areas/rancho-cordova-ca/home-remodeling/",
     "/service-areas/rancho-cordova-ca/kitchen-remodeling/",
-    "/service-areas/carmichael-ca/bathroom-remodeling/",
-    "/service-areas/citrus-heights-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
     "/contact/"
   ],
   "/service-areas/rancho-cordova-ca/garage-construction/": [
@@ -1339,8 +1465,8 @@
     "/service-areas/rancho-cordova-ca/",
     "/service-areas/rancho-cordova-ca/home-remodeling/",
     "/service-areas/rancho-cordova-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/garage-construction/",
-    "/service-areas/citrus-heights-ca/garage-construction/",
+    "/service-areas/antelope-ca/garage-construction/",
+    "/service-areas/arden-arcade-ca/garage-construction/",
     "/contact/"
   ],
   "/service-areas/rancho-cordova-ca/room-addition/": [
@@ -1348,8 +1474,8 @@
     "/service-areas/rancho-cordova-ca/",
     "/service-areas/rancho-cordova-ca/home-remodeling/",
     "/service-areas/rancho-cordova-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/room-addition/",
-    "/service-areas/citrus-heights-ca/room-addition/",
+    "/service-areas/antelope-ca/room-addition/",
+    "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
   "/service-areas/fair-oaks-ca/commercial-construction/": [
@@ -1357,8 +1483,8 @@
     "/service-areas/fair-oaks-ca/",
     "/service-areas/fair-oaks-ca/home-remodeling/",
     "/service-areas/fair-oaks-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/commercial-construction/",
-    "/service-areas/citrus-heights-ca/commercial-construction/",
+    "/service-areas/antelope-ca/commercial-construction/",
+    "/service-areas/arden-arcade-ca/commercial-construction/",
     "/contact/"
   ],
   "/service-areas/fair-oaks-ca/general-contracting/": [
@@ -1366,8 +1492,8 @@
     "/service-areas/fair-oaks-ca/",
     "/service-areas/fair-oaks-ca/home-remodeling/",
     "/service-areas/fair-oaks-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/general-contracting/",
-    "/service-areas/citrus-heights-ca/general-contracting/",
+    "/service-areas/antelope-ca/general-contracting/",
+    "/service-areas/arden-arcade-ca/general-contracting/",
     "/contact/"
   ],
   "/service-areas/fair-oaks-ca/new-construction/": [
@@ -1375,8 +1501,8 @@
     "/service-areas/fair-oaks-ca/",
     "/service-areas/fair-oaks-ca/home-remodeling/",
     "/service-areas/fair-oaks-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/new-construction/",
-    "/service-areas/citrus-heights-ca/new-construction/",
+    "/service-areas/antelope-ca/new-construction/",
+    "/service-areas/arden-arcade-ca/new-construction/",
     "/contact/"
   ],
   "/service-areas/fair-oaks-ca/fire-smoke-rebuilding/": [
@@ -1384,8 +1510,8 @@
     "/service-areas/fair-oaks-ca/",
     "/service-areas/fair-oaks-ca/home-remodeling/",
     "/service-areas/fair-oaks-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/fire-smoke-rebuilding/",
-    "/service-areas/citrus-heights-ca/fire-smoke-rebuilding/",
+    "/service-areas/antelope-ca/fire-smoke-rebuilding/",
+    "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/fair-oaks-ca/water-damage-restoration/": [
@@ -1393,8 +1519,8 @@
     "/service-areas/fair-oaks-ca/",
     "/service-areas/fair-oaks-ca/home-remodeling/",
     "/service-areas/fair-oaks-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/water-damage-restoration/",
-    "/service-areas/citrus-heights-ca/water-damage-restoration/",
+    "/service-areas/antelope-ca/water-damage-restoration/",
+    "/service-areas/arden-arcade-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/fair-oaks-ca/storm-damage-restoration/": [
@@ -1402,8 +1528,8 @@
     "/service-areas/fair-oaks-ca/",
     "/service-areas/fair-oaks-ca/home-remodeling/",
     "/service-areas/fair-oaks-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/storm-damage-restoration/",
-    "/service-areas/citrus-heights-ca/storm-damage-restoration/",
+    "/service-areas/antelope-ca/storm-damage-restoration/",
+    "/service-areas/arden-arcade-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/fair-oaks-ca/mold-remediation/": [
@@ -1411,8 +1537,8 @@
     "/service-areas/fair-oaks-ca/",
     "/service-areas/fair-oaks-ca/home-remodeling/",
     "/service-areas/fair-oaks-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/mold-remediation/",
-    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/antelope-ca/mold-remediation/",
+    "/service-areas/arden-arcade-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/fair-oaks-ca/home-remodeling/": [
@@ -1420,8 +1546,8 @@
     "/service-areas/fair-oaks-ca/",
     "/service-areas/fair-oaks-ca/bathroom-remodeling/",
     "/service-areas/fair-oaks-ca/kitchen-remodeling/",
-    "/service-areas/carmichael-ca/home-remodeling/",
-    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/fair-oaks-ca/kitchen-remodeling/": [
@@ -1429,8 +1555,8 @@
     "/service-areas/fair-oaks-ca/",
     "/service-areas/fair-oaks-ca/home-remodeling/",
     "/service-areas/fair-oaks-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/kitchen-remodeling/",
-    "/service-areas/citrus-heights-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/kitchen-remodeling/",
+    "/service-areas/arden-arcade-ca/kitchen-remodeling/",
     "/contact/"
   ],
   "/service-areas/fair-oaks-ca/bathroom-remodeling/": [
@@ -1438,8 +1564,8 @@
     "/service-areas/fair-oaks-ca/",
     "/service-areas/fair-oaks-ca/home-remodeling/",
     "/service-areas/fair-oaks-ca/kitchen-remodeling/",
-    "/service-areas/carmichael-ca/bathroom-remodeling/",
-    "/service-areas/citrus-heights-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
     "/contact/"
   ],
   "/service-areas/fair-oaks-ca/garage-construction/": [
@@ -1447,8 +1573,8 @@
     "/service-areas/fair-oaks-ca/",
     "/service-areas/fair-oaks-ca/home-remodeling/",
     "/service-areas/fair-oaks-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/garage-construction/",
-    "/service-areas/citrus-heights-ca/garage-construction/",
+    "/service-areas/antelope-ca/garage-construction/",
+    "/service-areas/arden-arcade-ca/garage-construction/",
     "/contact/"
   ],
   "/service-areas/fair-oaks-ca/room-addition/": [
@@ -1456,8 +1582,8 @@
     "/service-areas/fair-oaks-ca/",
     "/service-areas/fair-oaks-ca/home-remodeling/",
     "/service-areas/fair-oaks-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/room-addition/",
-    "/service-areas/citrus-heights-ca/room-addition/",
+    "/service-areas/antelope-ca/room-addition/",
+    "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
   "/service-areas/carmichael-ca/commercial-construction/": [
@@ -1465,8 +1591,8 @@
     "/service-areas/carmichael-ca/",
     "/service-areas/carmichael-ca/home-remodeling/",
     "/service-areas/carmichael-ca/bathroom-remodeling/",
-    "/service-areas/citrus-heights-ca/commercial-construction/",
-    "/service-areas/el-dorado-hills-ca/commercial-construction/",
+    "/service-areas/antelope-ca/commercial-construction/",
+    "/service-areas/arden-arcade-ca/commercial-construction/",
     "/contact/"
   ],
   "/service-areas/carmichael-ca/general-contracting/": [
@@ -1474,8 +1600,8 @@
     "/service-areas/carmichael-ca/",
     "/service-areas/carmichael-ca/home-remodeling/",
     "/service-areas/carmichael-ca/bathroom-remodeling/",
-    "/service-areas/citrus-heights-ca/general-contracting/",
-    "/service-areas/el-dorado-hills-ca/general-contracting/",
+    "/service-areas/antelope-ca/general-contracting/",
+    "/service-areas/arden-arcade-ca/general-contracting/",
     "/contact/"
   ],
   "/service-areas/carmichael-ca/new-construction/": [
@@ -1483,8 +1609,8 @@
     "/service-areas/carmichael-ca/",
     "/service-areas/carmichael-ca/home-remodeling/",
     "/service-areas/carmichael-ca/bathroom-remodeling/",
-    "/service-areas/citrus-heights-ca/new-construction/",
-    "/service-areas/el-dorado-hills-ca/new-construction/",
+    "/service-areas/antelope-ca/new-construction/",
+    "/service-areas/arden-arcade-ca/new-construction/",
     "/contact/"
   ],
   "/service-areas/carmichael-ca/fire-smoke-rebuilding/": [
@@ -1492,8 +1618,8 @@
     "/service-areas/carmichael-ca/",
     "/service-areas/carmichael-ca/home-remodeling/",
     "/service-areas/carmichael-ca/bathroom-remodeling/",
-    "/service-areas/citrus-heights-ca/fire-smoke-rebuilding/",
-    "/service-areas/el-dorado-hills-ca/fire-smoke-rebuilding/",
+    "/service-areas/antelope-ca/fire-smoke-rebuilding/",
+    "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/carmichael-ca/water-damage-restoration/": [
@@ -1501,8 +1627,8 @@
     "/service-areas/carmichael-ca/",
     "/service-areas/carmichael-ca/home-remodeling/",
     "/service-areas/carmichael-ca/bathroom-remodeling/",
-    "/service-areas/citrus-heights-ca/water-damage-restoration/",
-    "/service-areas/el-dorado-hills-ca/water-damage-restoration/",
+    "/service-areas/antelope-ca/water-damage-restoration/",
+    "/service-areas/arden-arcade-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/carmichael-ca/storm-damage-restoration/": [
@@ -1510,8 +1636,8 @@
     "/service-areas/carmichael-ca/",
     "/service-areas/carmichael-ca/home-remodeling/",
     "/service-areas/carmichael-ca/bathroom-remodeling/",
-    "/service-areas/citrus-heights-ca/storm-damage-restoration/",
-    "/service-areas/el-dorado-hills-ca/storm-damage-restoration/",
+    "/service-areas/antelope-ca/storm-damage-restoration/",
+    "/service-areas/arden-arcade-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/carmichael-ca/mold-remediation/": [
@@ -1519,8 +1645,8 @@
     "/service-areas/carmichael-ca/",
     "/service-areas/carmichael-ca/home-remodeling/",
     "/service-areas/carmichael-ca/bathroom-remodeling/",
-    "/service-areas/citrus-heights-ca/mold-remediation/",
-    "/service-areas/el-dorado-hills-ca/mold-remediation/",
+    "/service-areas/antelope-ca/mold-remediation/",
+    "/service-areas/arden-arcade-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/carmichael-ca/home-remodeling/": [
@@ -1528,8 +1654,8 @@
     "/service-areas/carmichael-ca/",
     "/service-areas/carmichael-ca/bathroom-remodeling/",
     "/service-areas/carmichael-ca/kitchen-remodeling/",
-    "/service-areas/citrus-heights-ca/home-remodeling/",
-    "/service-areas/el-dorado-hills-ca/home-remodeling/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/carmichael-ca/kitchen-remodeling/": [
@@ -1537,8 +1663,8 @@
     "/service-areas/carmichael-ca/",
     "/service-areas/carmichael-ca/home-remodeling/",
     "/service-areas/carmichael-ca/bathroom-remodeling/",
-    "/service-areas/citrus-heights-ca/kitchen-remodeling/",
-    "/service-areas/el-dorado-hills-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/kitchen-remodeling/",
+    "/service-areas/arden-arcade-ca/kitchen-remodeling/",
     "/contact/"
   ],
   "/service-areas/carmichael-ca/bathroom-remodeling/": [
@@ -1546,8 +1672,8 @@
     "/service-areas/carmichael-ca/",
     "/service-areas/carmichael-ca/home-remodeling/",
     "/service-areas/carmichael-ca/kitchen-remodeling/",
-    "/service-areas/citrus-heights-ca/bathroom-remodeling/",
-    "/service-areas/el-dorado-hills-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
     "/contact/"
   ],
   "/service-areas/carmichael-ca/garage-construction/": [
@@ -1555,8 +1681,8 @@
     "/service-areas/carmichael-ca/",
     "/service-areas/carmichael-ca/home-remodeling/",
     "/service-areas/carmichael-ca/bathroom-remodeling/",
-    "/service-areas/citrus-heights-ca/garage-construction/",
-    "/service-areas/el-dorado-hills-ca/garage-construction/",
+    "/service-areas/antelope-ca/garage-construction/",
+    "/service-areas/arden-arcade-ca/garage-construction/",
     "/contact/"
   ],
   "/service-areas/carmichael-ca/room-addition/": [
@@ -1564,8 +1690,8 @@
     "/service-areas/carmichael-ca/",
     "/service-areas/carmichael-ca/home-remodeling/",
     "/service-areas/carmichael-ca/bathroom-remodeling/",
-    "/service-areas/citrus-heights-ca/room-addition/",
-    "/service-areas/el-dorado-hills-ca/room-addition/",
+    "/service-areas/antelope-ca/room-addition/",
+    "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
   "/service-areas/west-sacramento-ca/commercial-construction/": [
@@ -1573,8 +1699,8 @@
     "/service-areas/west-sacramento-ca/",
     "/service-areas/west-sacramento-ca/home-remodeling/",
     "/service-areas/west-sacramento-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/commercial-construction/",
-    "/service-areas/citrus-heights-ca/commercial-construction/",
+    "/service-areas/antelope-ca/commercial-construction/",
+    "/service-areas/arden-arcade-ca/commercial-construction/",
     "/contact/"
   ],
   "/service-areas/west-sacramento-ca/general-contracting/": [
@@ -1582,8 +1708,8 @@
     "/service-areas/west-sacramento-ca/",
     "/service-areas/west-sacramento-ca/home-remodeling/",
     "/service-areas/west-sacramento-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/general-contracting/",
-    "/service-areas/citrus-heights-ca/general-contracting/",
+    "/service-areas/antelope-ca/general-contracting/",
+    "/service-areas/arden-arcade-ca/general-contracting/",
     "/contact/"
   ],
   "/service-areas/west-sacramento-ca/new-construction/": [
@@ -1591,8 +1717,8 @@
     "/service-areas/west-sacramento-ca/",
     "/service-areas/west-sacramento-ca/home-remodeling/",
     "/service-areas/west-sacramento-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/new-construction/",
-    "/service-areas/citrus-heights-ca/new-construction/",
+    "/service-areas/antelope-ca/new-construction/",
+    "/service-areas/arden-arcade-ca/new-construction/",
     "/contact/"
   ],
   "/service-areas/west-sacramento-ca/fire-smoke-rebuilding/": [
@@ -1600,8 +1726,8 @@
     "/service-areas/west-sacramento-ca/",
     "/service-areas/west-sacramento-ca/home-remodeling/",
     "/service-areas/west-sacramento-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/fire-smoke-rebuilding/",
-    "/service-areas/citrus-heights-ca/fire-smoke-rebuilding/",
+    "/service-areas/antelope-ca/fire-smoke-rebuilding/",
+    "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/west-sacramento-ca/water-damage-restoration/": [
@@ -1609,8 +1735,8 @@
     "/service-areas/west-sacramento-ca/",
     "/service-areas/west-sacramento-ca/home-remodeling/",
     "/service-areas/west-sacramento-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/water-damage-restoration/",
-    "/service-areas/citrus-heights-ca/water-damage-restoration/",
+    "/service-areas/antelope-ca/water-damage-restoration/",
+    "/service-areas/arden-arcade-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/west-sacramento-ca/storm-damage-restoration/": [
@@ -1618,8 +1744,8 @@
     "/service-areas/west-sacramento-ca/",
     "/service-areas/west-sacramento-ca/home-remodeling/",
     "/service-areas/west-sacramento-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/storm-damage-restoration/",
-    "/service-areas/citrus-heights-ca/storm-damage-restoration/",
+    "/service-areas/antelope-ca/storm-damage-restoration/",
+    "/service-areas/arden-arcade-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/west-sacramento-ca/mold-remediation/": [
@@ -1627,8 +1753,8 @@
     "/service-areas/west-sacramento-ca/",
     "/service-areas/west-sacramento-ca/home-remodeling/",
     "/service-areas/west-sacramento-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/mold-remediation/",
-    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/antelope-ca/mold-remediation/",
+    "/service-areas/arden-arcade-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/west-sacramento-ca/home-remodeling/": [
@@ -1636,8 +1762,8 @@
     "/service-areas/west-sacramento-ca/",
     "/service-areas/west-sacramento-ca/bathroom-remodeling/",
     "/service-areas/west-sacramento-ca/kitchen-remodeling/",
-    "/service-areas/carmichael-ca/home-remodeling/",
-    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/west-sacramento-ca/kitchen-remodeling/": [
@@ -1645,8 +1771,8 @@
     "/service-areas/west-sacramento-ca/",
     "/service-areas/west-sacramento-ca/home-remodeling/",
     "/service-areas/west-sacramento-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/kitchen-remodeling/",
-    "/service-areas/citrus-heights-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/kitchen-remodeling/",
+    "/service-areas/arden-arcade-ca/kitchen-remodeling/",
     "/contact/"
   ],
   "/service-areas/west-sacramento-ca/bathroom-remodeling/": [
@@ -1654,8 +1780,8 @@
     "/service-areas/west-sacramento-ca/",
     "/service-areas/west-sacramento-ca/home-remodeling/",
     "/service-areas/west-sacramento-ca/kitchen-remodeling/",
-    "/service-areas/carmichael-ca/bathroom-remodeling/",
-    "/service-areas/citrus-heights-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
     "/contact/"
   ],
   "/service-areas/west-sacramento-ca/garage-construction/": [
@@ -1663,8 +1789,8 @@
     "/service-areas/west-sacramento-ca/",
     "/service-areas/west-sacramento-ca/home-remodeling/",
     "/service-areas/west-sacramento-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/garage-construction/",
-    "/service-areas/citrus-heights-ca/garage-construction/",
+    "/service-areas/antelope-ca/garage-construction/",
+    "/service-areas/arden-arcade-ca/garage-construction/",
     "/contact/"
   ],
   "/service-areas/west-sacramento-ca/room-addition/": [
@@ -1672,8 +1798,8 @@
     "/service-areas/west-sacramento-ca/",
     "/service-areas/west-sacramento-ca/home-remodeling/",
     "/service-areas/west-sacramento-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/room-addition/",
-    "/service-areas/citrus-heights-ca/room-addition/",
+    "/service-areas/antelope-ca/room-addition/",
+    "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
   "/service-areas/lincoln-ca/commercial-construction/": [
@@ -1681,8 +1807,8 @@
     "/service-areas/lincoln-ca/",
     "/service-areas/lincoln-ca/home-remodeling/",
     "/service-areas/lincoln-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/commercial-construction/",
-    "/service-areas/citrus-heights-ca/commercial-construction/",
+    "/service-areas/antelope-ca/commercial-construction/",
+    "/service-areas/arden-arcade-ca/commercial-construction/",
     "/contact/"
   ],
   "/service-areas/lincoln-ca/general-contracting/": [
@@ -1690,8 +1816,8 @@
     "/service-areas/lincoln-ca/",
     "/service-areas/lincoln-ca/home-remodeling/",
     "/service-areas/lincoln-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/general-contracting/",
-    "/service-areas/citrus-heights-ca/general-contracting/",
+    "/service-areas/antelope-ca/general-contracting/",
+    "/service-areas/arden-arcade-ca/general-contracting/",
     "/contact/"
   ],
   "/service-areas/lincoln-ca/new-construction/": [
@@ -1699,8 +1825,8 @@
     "/service-areas/lincoln-ca/",
     "/service-areas/lincoln-ca/home-remodeling/",
     "/service-areas/lincoln-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/new-construction/",
-    "/service-areas/citrus-heights-ca/new-construction/",
+    "/service-areas/antelope-ca/new-construction/",
+    "/service-areas/arden-arcade-ca/new-construction/",
     "/contact/"
   ],
   "/service-areas/lincoln-ca/fire-smoke-rebuilding/": [
@@ -1708,8 +1834,8 @@
     "/service-areas/lincoln-ca/",
     "/service-areas/lincoln-ca/home-remodeling/",
     "/service-areas/lincoln-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/fire-smoke-rebuilding/",
-    "/service-areas/citrus-heights-ca/fire-smoke-rebuilding/",
+    "/service-areas/antelope-ca/fire-smoke-rebuilding/",
+    "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/lincoln-ca/water-damage-restoration/": [
@@ -1717,8 +1843,8 @@
     "/service-areas/lincoln-ca/",
     "/service-areas/lincoln-ca/home-remodeling/",
     "/service-areas/lincoln-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/water-damage-restoration/",
-    "/service-areas/citrus-heights-ca/water-damage-restoration/",
+    "/service-areas/antelope-ca/water-damage-restoration/",
+    "/service-areas/arden-arcade-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/lincoln-ca/storm-damage-restoration/": [
@@ -1726,8 +1852,8 @@
     "/service-areas/lincoln-ca/",
     "/service-areas/lincoln-ca/home-remodeling/",
     "/service-areas/lincoln-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/storm-damage-restoration/",
-    "/service-areas/citrus-heights-ca/storm-damage-restoration/",
+    "/service-areas/antelope-ca/storm-damage-restoration/",
+    "/service-areas/arden-arcade-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/lincoln-ca/mold-remediation/": [
@@ -1735,8 +1861,8 @@
     "/service-areas/lincoln-ca/",
     "/service-areas/lincoln-ca/home-remodeling/",
     "/service-areas/lincoln-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/mold-remediation/",
-    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/antelope-ca/mold-remediation/",
+    "/service-areas/arden-arcade-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/lincoln-ca/home-remodeling/": [
@@ -1744,8 +1870,8 @@
     "/service-areas/lincoln-ca/",
     "/service-areas/lincoln-ca/bathroom-remodeling/",
     "/service-areas/lincoln-ca/kitchen-remodeling/",
-    "/service-areas/carmichael-ca/home-remodeling/",
-    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/lincoln-ca/kitchen-remodeling/": [
@@ -1753,8 +1879,8 @@
     "/service-areas/lincoln-ca/",
     "/service-areas/lincoln-ca/home-remodeling/",
     "/service-areas/lincoln-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/kitchen-remodeling/",
-    "/service-areas/citrus-heights-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/kitchen-remodeling/",
+    "/service-areas/arden-arcade-ca/kitchen-remodeling/",
     "/contact/"
   ],
   "/service-areas/lincoln-ca/bathroom-remodeling/": [
@@ -1762,8 +1888,8 @@
     "/service-areas/lincoln-ca/",
     "/service-areas/lincoln-ca/home-remodeling/",
     "/service-areas/lincoln-ca/kitchen-remodeling/",
-    "/service-areas/carmichael-ca/bathroom-remodeling/",
-    "/service-areas/citrus-heights-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
     "/contact/"
   ],
   "/service-areas/lincoln-ca/garage-construction/": [
@@ -1771,8 +1897,8 @@
     "/service-areas/lincoln-ca/",
     "/service-areas/lincoln-ca/home-remodeling/",
     "/service-areas/lincoln-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/garage-construction/",
-    "/service-areas/citrus-heights-ca/garage-construction/",
+    "/service-areas/antelope-ca/garage-construction/",
+    "/service-areas/arden-arcade-ca/garage-construction/",
     "/contact/"
   ],
   "/service-areas/lincoln-ca/room-addition/": [
@@ -1780,8 +1906,8 @@
     "/service-areas/lincoln-ca/",
     "/service-areas/lincoln-ca/home-remodeling/",
     "/service-areas/lincoln-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/room-addition/",
-    "/service-areas/citrus-heights-ca/room-addition/",
+    "/service-areas/antelope-ca/room-addition/",
+    "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
   "/service-areas/granite-bay-ca/commercial-construction/": [
@@ -1789,8 +1915,8 @@
     "/service-areas/granite-bay-ca/",
     "/service-areas/granite-bay-ca/home-remodeling/",
     "/service-areas/granite-bay-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/commercial-construction/",
-    "/service-areas/citrus-heights-ca/commercial-construction/",
+    "/service-areas/antelope-ca/commercial-construction/",
+    "/service-areas/arden-arcade-ca/commercial-construction/",
     "/contact/"
   ],
   "/service-areas/granite-bay-ca/general-contracting/": [
@@ -1798,8 +1924,8 @@
     "/service-areas/granite-bay-ca/",
     "/service-areas/granite-bay-ca/home-remodeling/",
     "/service-areas/granite-bay-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/general-contracting/",
-    "/service-areas/citrus-heights-ca/general-contracting/",
+    "/service-areas/antelope-ca/general-contracting/",
+    "/service-areas/arden-arcade-ca/general-contracting/",
     "/contact/"
   ],
   "/service-areas/granite-bay-ca/new-construction/": [
@@ -1807,8 +1933,8 @@
     "/service-areas/granite-bay-ca/",
     "/service-areas/granite-bay-ca/home-remodeling/",
     "/service-areas/granite-bay-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/new-construction/",
-    "/service-areas/citrus-heights-ca/new-construction/",
+    "/service-areas/antelope-ca/new-construction/",
+    "/service-areas/arden-arcade-ca/new-construction/",
     "/contact/"
   ],
   "/service-areas/granite-bay-ca/fire-smoke-rebuilding/": [
@@ -1816,8 +1942,8 @@
     "/service-areas/granite-bay-ca/",
     "/service-areas/granite-bay-ca/home-remodeling/",
     "/service-areas/granite-bay-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/fire-smoke-rebuilding/",
-    "/service-areas/citrus-heights-ca/fire-smoke-rebuilding/",
+    "/service-areas/antelope-ca/fire-smoke-rebuilding/",
+    "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/granite-bay-ca/water-damage-restoration/": [
@@ -1825,8 +1951,8 @@
     "/service-areas/granite-bay-ca/",
     "/service-areas/granite-bay-ca/home-remodeling/",
     "/service-areas/granite-bay-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/water-damage-restoration/",
-    "/service-areas/citrus-heights-ca/water-damage-restoration/",
+    "/service-areas/antelope-ca/water-damage-restoration/",
+    "/service-areas/arden-arcade-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/granite-bay-ca/storm-damage-restoration/": [
@@ -1834,8 +1960,8 @@
     "/service-areas/granite-bay-ca/",
     "/service-areas/granite-bay-ca/home-remodeling/",
     "/service-areas/granite-bay-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/storm-damage-restoration/",
-    "/service-areas/citrus-heights-ca/storm-damage-restoration/",
+    "/service-areas/antelope-ca/storm-damage-restoration/",
+    "/service-areas/arden-arcade-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/granite-bay-ca/mold-remediation/": [
@@ -1843,8 +1969,8 @@
     "/service-areas/granite-bay-ca/",
     "/service-areas/granite-bay-ca/home-remodeling/",
     "/service-areas/granite-bay-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/mold-remediation/",
-    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/antelope-ca/mold-remediation/",
+    "/service-areas/arden-arcade-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/granite-bay-ca/home-remodeling/": [
@@ -1852,8 +1978,8 @@
     "/service-areas/granite-bay-ca/",
     "/service-areas/granite-bay-ca/bathroom-remodeling/",
     "/service-areas/granite-bay-ca/kitchen-remodeling/",
-    "/service-areas/carmichael-ca/home-remodeling/",
-    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/granite-bay-ca/kitchen-remodeling/": [
@@ -1861,8 +1987,8 @@
     "/service-areas/granite-bay-ca/",
     "/service-areas/granite-bay-ca/home-remodeling/",
     "/service-areas/granite-bay-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/kitchen-remodeling/",
-    "/service-areas/citrus-heights-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/kitchen-remodeling/",
+    "/service-areas/arden-arcade-ca/kitchen-remodeling/",
     "/contact/"
   ],
   "/service-areas/granite-bay-ca/bathroom-remodeling/": [
@@ -1870,8 +1996,8 @@
     "/service-areas/granite-bay-ca/",
     "/service-areas/granite-bay-ca/home-remodeling/",
     "/service-areas/granite-bay-ca/kitchen-remodeling/",
-    "/service-areas/carmichael-ca/bathroom-remodeling/",
-    "/service-areas/citrus-heights-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
     "/contact/"
   ],
   "/service-areas/granite-bay-ca/garage-construction/": [
@@ -1879,8 +2005,8 @@
     "/service-areas/granite-bay-ca/",
     "/service-areas/granite-bay-ca/home-remodeling/",
     "/service-areas/granite-bay-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/garage-construction/",
-    "/service-areas/citrus-heights-ca/garage-construction/",
+    "/service-areas/antelope-ca/garage-construction/",
+    "/service-areas/arden-arcade-ca/garage-construction/",
     "/contact/"
   ],
   "/service-areas/granite-bay-ca/room-addition/": [
@@ -1888,8 +2014,8 @@
     "/service-areas/granite-bay-ca/",
     "/service-areas/granite-bay-ca/home-remodeling/",
     "/service-areas/granite-bay-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/room-addition/",
-    "/service-areas/citrus-heights-ca/room-addition/",
+    "/service-areas/antelope-ca/room-addition/",
+    "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
   "/service-areas/el-dorado-hills-ca/commercial-construction/": [
@@ -1897,8 +2023,8 @@
     "/service-areas/el-dorado-hills-ca/",
     "/service-areas/el-dorado-hills-ca/home-remodeling/",
     "/service-areas/el-dorado-hills-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/commercial-construction/",
-    "/service-areas/citrus-heights-ca/commercial-construction/",
+    "/service-areas/antelope-ca/commercial-construction/",
+    "/service-areas/arden-arcade-ca/commercial-construction/",
     "/contact/"
   ],
   "/service-areas/el-dorado-hills-ca/general-contracting/": [
@@ -1906,8 +2032,8 @@
     "/service-areas/el-dorado-hills-ca/",
     "/service-areas/el-dorado-hills-ca/home-remodeling/",
     "/service-areas/el-dorado-hills-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/general-contracting/",
-    "/service-areas/citrus-heights-ca/general-contracting/",
+    "/service-areas/antelope-ca/general-contracting/",
+    "/service-areas/arden-arcade-ca/general-contracting/",
     "/contact/"
   ],
   "/service-areas/el-dorado-hills-ca/new-construction/": [
@@ -1915,8 +2041,8 @@
     "/service-areas/el-dorado-hills-ca/",
     "/service-areas/el-dorado-hills-ca/home-remodeling/",
     "/service-areas/el-dorado-hills-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/new-construction/",
-    "/service-areas/citrus-heights-ca/new-construction/",
+    "/service-areas/antelope-ca/new-construction/",
+    "/service-areas/arden-arcade-ca/new-construction/",
     "/contact/"
   ],
   "/service-areas/el-dorado-hills-ca/fire-smoke-rebuilding/": [
@@ -1924,8 +2050,8 @@
     "/service-areas/el-dorado-hills-ca/",
     "/service-areas/el-dorado-hills-ca/home-remodeling/",
     "/service-areas/el-dorado-hills-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/fire-smoke-rebuilding/",
-    "/service-areas/citrus-heights-ca/fire-smoke-rebuilding/",
+    "/service-areas/antelope-ca/fire-smoke-rebuilding/",
+    "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/el-dorado-hills-ca/water-damage-restoration/": [
@@ -1933,8 +2059,8 @@
     "/service-areas/el-dorado-hills-ca/",
     "/service-areas/el-dorado-hills-ca/home-remodeling/",
     "/service-areas/el-dorado-hills-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/water-damage-restoration/",
-    "/service-areas/citrus-heights-ca/water-damage-restoration/",
+    "/service-areas/antelope-ca/water-damage-restoration/",
+    "/service-areas/arden-arcade-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/el-dorado-hills-ca/storm-damage-restoration/": [
@@ -1942,8 +2068,8 @@
     "/service-areas/el-dorado-hills-ca/",
     "/service-areas/el-dorado-hills-ca/home-remodeling/",
     "/service-areas/el-dorado-hills-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/storm-damage-restoration/",
-    "/service-areas/citrus-heights-ca/storm-damage-restoration/",
+    "/service-areas/antelope-ca/storm-damage-restoration/",
+    "/service-areas/arden-arcade-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/el-dorado-hills-ca/mold-remediation/": [
@@ -1951,8 +2077,8 @@
     "/service-areas/el-dorado-hills-ca/",
     "/service-areas/el-dorado-hills-ca/home-remodeling/",
     "/service-areas/el-dorado-hills-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/mold-remediation/",
-    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/antelope-ca/mold-remediation/",
+    "/service-areas/arden-arcade-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/el-dorado-hills-ca/home-remodeling/": [
@@ -1960,8 +2086,8 @@
     "/service-areas/el-dorado-hills-ca/",
     "/service-areas/el-dorado-hills-ca/bathroom-remodeling/",
     "/service-areas/el-dorado-hills-ca/kitchen-remodeling/",
-    "/service-areas/carmichael-ca/home-remodeling/",
-    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/el-dorado-hills-ca/kitchen-remodeling/": [
@@ -1969,8 +2095,8 @@
     "/service-areas/el-dorado-hills-ca/",
     "/service-areas/el-dorado-hills-ca/home-remodeling/",
     "/service-areas/el-dorado-hills-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/kitchen-remodeling/",
-    "/service-areas/citrus-heights-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/kitchen-remodeling/",
+    "/service-areas/arden-arcade-ca/kitchen-remodeling/",
     "/contact/"
   ],
   "/service-areas/el-dorado-hills-ca/bathroom-remodeling/": [
@@ -1978,8 +2104,8 @@
     "/service-areas/el-dorado-hills-ca/",
     "/service-areas/el-dorado-hills-ca/home-remodeling/",
     "/service-areas/el-dorado-hills-ca/kitchen-remodeling/",
-    "/service-areas/carmichael-ca/bathroom-remodeling/",
-    "/service-areas/citrus-heights-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
     "/contact/"
   ],
   "/service-areas/el-dorado-hills-ca/garage-construction/": [
@@ -1987,8 +2113,8 @@
     "/service-areas/el-dorado-hills-ca/",
     "/service-areas/el-dorado-hills-ca/home-remodeling/",
     "/service-areas/el-dorado-hills-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/garage-construction/",
-    "/service-areas/citrus-heights-ca/garage-construction/",
+    "/service-areas/antelope-ca/garage-construction/",
+    "/service-areas/arden-arcade-ca/garage-construction/",
     "/contact/"
   ],
   "/service-areas/el-dorado-hills-ca/room-addition/": [
@@ -1996,8 +2122,8 @@
     "/service-areas/el-dorado-hills-ca/",
     "/service-areas/el-dorado-hills-ca/home-remodeling/",
     "/service-areas/el-dorado-hills-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/room-addition/",
-    "/service-areas/citrus-heights-ca/room-addition/",
+    "/service-areas/antelope-ca/room-addition/",
+    "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
   "/service-areas/loomis-ca/commercial-construction/": [
@@ -2005,8 +2131,8 @@
     "/service-areas/loomis-ca/",
     "/service-areas/loomis-ca/home-remodeling/",
     "/service-areas/loomis-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/commercial-construction/",
-    "/service-areas/citrus-heights-ca/commercial-construction/",
+    "/service-areas/antelope-ca/commercial-construction/",
+    "/service-areas/arden-arcade-ca/commercial-construction/",
     "/contact/"
   ],
   "/service-areas/loomis-ca/general-contracting/": [
@@ -2014,8 +2140,8 @@
     "/service-areas/loomis-ca/",
     "/service-areas/loomis-ca/home-remodeling/",
     "/service-areas/loomis-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/general-contracting/",
-    "/service-areas/citrus-heights-ca/general-contracting/",
+    "/service-areas/antelope-ca/general-contracting/",
+    "/service-areas/arden-arcade-ca/general-contracting/",
     "/contact/"
   ],
   "/service-areas/loomis-ca/new-construction/": [
@@ -2023,8 +2149,8 @@
     "/service-areas/loomis-ca/",
     "/service-areas/loomis-ca/home-remodeling/",
     "/service-areas/loomis-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/new-construction/",
-    "/service-areas/citrus-heights-ca/new-construction/",
+    "/service-areas/antelope-ca/new-construction/",
+    "/service-areas/arden-arcade-ca/new-construction/",
     "/contact/"
   ],
   "/service-areas/loomis-ca/fire-smoke-rebuilding/": [
@@ -2032,8 +2158,8 @@
     "/service-areas/loomis-ca/",
     "/service-areas/loomis-ca/home-remodeling/",
     "/service-areas/loomis-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/fire-smoke-rebuilding/",
-    "/service-areas/citrus-heights-ca/fire-smoke-rebuilding/",
+    "/service-areas/antelope-ca/fire-smoke-rebuilding/",
+    "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/loomis-ca/water-damage-restoration/": [
@@ -2041,8 +2167,8 @@
     "/service-areas/loomis-ca/",
     "/service-areas/loomis-ca/home-remodeling/",
     "/service-areas/loomis-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/water-damage-restoration/",
-    "/service-areas/citrus-heights-ca/water-damage-restoration/",
+    "/service-areas/antelope-ca/water-damage-restoration/",
+    "/service-areas/arden-arcade-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/loomis-ca/storm-damage-restoration/": [
@@ -2050,8 +2176,8 @@
     "/service-areas/loomis-ca/",
     "/service-areas/loomis-ca/home-remodeling/",
     "/service-areas/loomis-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/storm-damage-restoration/",
-    "/service-areas/citrus-heights-ca/storm-damage-restoration/",
+    "/service-areas/antelope-ca/storm-damage-restoration/",
+    "/service-areas/arden-arcade-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/loomis-ca/mold-remediation/": [
@@ -2059,8 +2185,8 @@
     "/service-areas/loomis-ca/",
     "/service-areas/loomis-ca/home-remodeling/",
     "/service-areas/loomis-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/mold-remediation/",
-    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/antelope-ca/mold-remediation/",
+    "/service-areas/arden-arcade-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/loomis-ca/home-remodeling/": [
@@ -2068,8 +2194,8 @@
     "/service-areas/loomis-ca/",
     "/service-areas/loomis-ca/bathroom-remodeling/",
     "/service-areas/loomis-ca/kitchen-remodeling/",
-    "/service-areas/carmichael-ca/home-remodeling/",
-    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/loomis-ca/kitchen-remodeling/": [
@@ -2077,8 +2203,8 @@
     "/service-areas/loomis-ca/",
     "/service-areas/loomis-ca/home-remodeling/",
     "/service-areas/loomis-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/kitchen-remodeling/",
-    "/service-areas/citrus-heights-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/kitchen-remodeling/",
+    "/service-areas/arden-arcade-ca/kitchen-remodeling/",
     "/contact/"
   ],
   "/service-areas/loomis-ca/bathroom-remodeling/": [
@@ -2086,8 +2212,8 @@
     "/service-areas/loomis-ca/",
     "/service-areas/loomis-ca/home-remodeling/",
     "/service-areas/loomis-ca/kitchen-remodeling/",
-    "/service-areas/carmichael-ca/bathroom-remodeling/",
-    "/service-areas/citrus-heights-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
     "/contact/"
   ],
   "/service-areas/loomis-ca/garage-construction/": [
@@ -2095,8 +2221,8 @@
     "/service-areas/loomis-ca/",
     "/service-areas/loomis-ca/home-remodeling/",
     "/service-areas/loomis-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/garage-construction/",
-    "/service-areas/citrus-heights-ca/garage-construction/",
+    "/service-areas/antelope-ca/garage-construction/",
+    "/service-areas/arden-arcade-ca/garage-construction/",
     "/contact/"
   ],
   "/service-areas/loomis-ca/room-addition/": [
@@ -2104,8 +2230,8 @@
     "/service-areas/loomis-ca/",
     "/service-areas/loomis-ca/home-remodeling/",
     "/service-areas/loomis-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/room-addition/",
-    "/service-areas/citrus-heights-ca/room-addition/",
+    "/service-areas/antelope-ca/room-addition/",
+    "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
   "/service-areas/manteca-ca/commercial-construction/": [
@@ -2113,8 +2239,8 @@
     "/service-areas/manteca-ca/",
     "/service-areas/manteca-ca/home-remodeling/",
     "/service-areas/manteca-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/commercial-construction/",
-    "/service-areas/citrus-heights-ca/commercial-construction/",
+    "/service-areas/antelope-ca/commercial-construction/",
+    "/service-areas/arden-arcade-ca/commercial-construction/",
     "/contact/"
   ],
   "/service-areas/manteca-ca/general-contracting/": [
@@ -2122,8 +2248,8 @@
     "/service-areas/manteca-ca/",
     "/service-areas/manteca-ca/home-remodeling/",
     "/service-areas/manteca-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/general-contracting/",
-    "/service-areas/citrus-heights-ca/general-contracting/",
+    "/service-areas/antelope-ca/general-contracting/",
+    "/service-areas/arden-arcade-ca/general-contracting/",
     "/contact/"
   ],
   "/service-areas/manteca-ca/new-construction/": [
@@ -2131,8 +2257,8 @@
     "/service-areas/manteca-ca/",
     "/service-areas/manteca-ca/home-remodeling/",
     "/service-areas/manteca-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/new-construction/",
-    "/service-areas/citrus-heights-ca/new-construction/",
+    "/service-areas/antelope-ca/new-construction/",
+    "/service-areas/arden-arcade-ca/new-construction/",
     "/contact/"
   ],
   "/service-areas/manteca-ca/fire-smoke-rebuilding/": [
@@ -2140,8 +2266,8 @@
     "/service-areas/manteca-ca/",
     "/service-areas/manteca-ca/home-remodeling/",
     "/service-areas/manteca-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/fire-smoke-rebuilding/",
-    "/service-areas/citrus-heights-ca/fire-smoke-rebuilding/",
+    "/service-areas/antelope-ca/fire-smoke-rebuilding/",
+    "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/manteca-ca/water-damage-restoration/": [
@@ -2149,8 +2275,8 @@
     "/service-areas/manteca-ca/",
     "/service-areas/manteca-ca/home-remodeling/",
     "/service-areas/manteca-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/water-damage-restoration/",
-    "/service-areas/citrus-heights-ca/water-damage-restoration/",
+    "/service-areas/antelope-ca/water-damage-restoration/",
+    "/service-areas/arden-arcade-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/manteca-ca/storm-damage-restoration/": [
@@ -2158,8 +2284,8 @@
     "/service-areas/manteca-ca/",
     "/service-areas/manteca-ca/home-remodeling/",
     "/service-areas/manteca-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/storm-damage-restoration/",
-    "/service-areas/citrus-heights-ca/storm-damage-restoration/",
+    "/service-areas/antelope-ca/storm-damage-restoration/",
+    "/service-areas/arden-arcade-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/manteca-ca/mold-remediation/": [
@@ -2167,8 +2293,8 @@
     "/service-areas/manteca-ca/",
     "/service-areas/manteca-ca/home-remodeling/",
     "/service-areas/manteca-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/mold-remediation/",
-    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/antelope-ca/mold-remediation/",
+    "/service-areas/arden-arcade-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/manteca-ca/home-remodeling/": [
@@ -2176,8 +2302,8 @@
     "/service-areas/manteca-ca/",
     "/service-areas/manteca-ca/bathroom-remodeling/",
     "/service-areas/manteca-ca/kitchen-remodeling/",
-    "/service-areas/carmichael-ca/home-remodeling/",
-    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/manteca-ca/kitchen-remodeling/": [
@@ -2185,8 +2311,8 @@
     "/service-areas/manteca-ca/",
     "/service-areas/manteca-ca/home-remodeling/",
     "/service-areas/manteca-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/kitchen-remodeling/",
-    "/service-areas/citrus-heights-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/kitchen-remodeling/",
+    "/service-areas/arden-arcade-ca/kitchen-remodeling/",
     "/contact/"
   ],
   "/service-areas/manteca-ca/bathroom-remodeling/": [
@@ -2194,8 +2320,8 @@
     "/service-areas/manteca-ca/",
     "/service-areas/manteca-ca/home-remodeling/",
     "/service-areas/manteca-ca/kitchen-remodeling/",
-    "/service-areas/carmichael-ca/bathroom-remodeling/",
-    "/service-areas/citrus-heights-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
     "/contact/"
   ],
   "/service-areas/manteca-ca/garage-construction/": [
@@ -2203,8 +2329,8 @@
     "/service-areas/manteca-ca/",
     "/service-areas/manteca-ca/home-remodeling/",
     "/service-areas/manteca-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/garage-construction/",
-    "/service-areas/citrus-heights-ca/garage-construction/",
+    "/service-areas/antelope-ca/garage-construction/",
+    "/service-areas/arden-arcade-ca/garage-construction/",
     "/contact/"
   ],
   "/service-areas/manteca-ca/room-addition/": [
@@ -2212,8 +2338,8 @@
     "/service-areas/manteca-ca/",
     "/service-areas/manteca-ca/home-remodeling/",
     "/service-areas/manteca-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/room-addition/",
-    "/service-areas/citrus-heights-ca/room-addition/",
+    "/service-areas/antelope-ca/room-addition/",
+    "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
   "/service-areas/turlock-ca/commercial-construction/": [
@@ -2221,8 +2347,8 @@
     "/service-areas/turlock-ca/",
     "/service-areas/turlock-ca/home-remodeling/",
     "/service-areas/turlock-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/commercial-construction/",
-    "/service-areas/citrus-heights-ca/commercial-construction/",
+    "/service-areas/antelope-ca/commercial-construction/",
+    "/service-areas/arden-arcade-ca/commercial-construction/",
     "/contact/"
   ],
   "/service-areas/turlock-ca/general-contracting/": [
@@ -2230,8 +2356,8 @@
     "/service-areas/turlock-ca/",
     "/service-areas/turlock-ca/home-remodeling/",
     "/service-areas/turlock-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/general-contracting/",
-    "/service-areas/citrus-heights-ca/general-contracting/",
+    "/service-areas/antelope-ca/general-contracting/",
+    "/service-areas/arden-arcade-ca/general-contracting/",
     "/contact/"
   ],
   "/service-areas/turlock-ca/new-construction/": [
@@ -2239,8 +2365,8 @@
     "/service-areas/turlock-ca/",
     "/service-areas/turlock-ca/home-remodeling/",
     "/service-areas/turlock-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/new-construction/",
-    "/service-areas/citrus-heights-ca/new-construction/",
+    "/service-areas/antelope-ca/new-construction/",
+    "/service-areas/arden-arcade-ca/new-construction/",
     "/contact/"
   ],
   "/service-areas/turlock-ca/fire-smoke-rebuilding/": [
@@ -2248,8 +2374,8 @@
     "/service-areas/turlock-ca/",
     "/service-areas/turlock-ca/home-remodeling/",
     "/service-areas/turlock-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/fire-smoke-rebuilding/",
-    "/service-areas/citrus-heights-ca/fire-smoke-rebuilding/",
+    "/service-areas/antelope-ca/fire-smoke-rebuilding/",
+    "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/turlock-ca/water-damage-restoration/": [
@@ -2257,8 +2383,8 @@
     "/service-areas/turlock-ca/",
     "/service-areas/turlock-ca/home-remodeling/",
     "/service-areas/turlock-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/water-damage-restoration/",
-    "/service-areas/citrus-heights-ca/water-damage-restoration/",
+    "/service-areas/antelope-ca/water-damage-restoration/",
+    "/service-areas/arden-arcade-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/turlock-ca/storm-damage-restoration/": [
@@ -2266,8 +2392,8 @@
     "/service-areas/turlock-ca/",
     "/service-areas/turlock-ca/home-remodeling/",
     "/service-areas/turlock-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/storm-damage-restoration/",
-    "/service-areas/citrus-heights-ca/storm-damage-restoration/",
+    "/service-areas/antelope-ca/storm-damage-restoration/",
+    "/service-areas/arden-arcade-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/turlock-ca/mold-remediation/": [
@@ -2275,8 +2401,8 @@
     "/service-areas/turlock-ca/",
     "/service-areas/turlock-ca/home-remodeling/",
     "/service-areas/turlock-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/mold-remediation/",
-    "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/antelope-ca/mold-remediation/",
+    "/service-areas/arden-arcade-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/turlock-ca/home-remodeling/": [
@@ -2284,8 +2410,8 @@
     "/service-areas/turlock-ca/",
     "/service-areas/turlock-ca/bathroom-remodeling/",
     "/service-areas/turlock-ca/kitchen-remodeling/",
-    "/service-areas/carmichael-ca/home-remodeling/",
-    "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/turlock-ca/kitchen-remodeling/": [
@@ -2293,8 +2419,8 @@
     "/service-areas/turlock-ca/",
     "/service-areas/turlock-ca/home-remodeling/",
     "/service-areas/turlock-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/kitchen-remodeling/",
-    "/service-areas/citrus-heights-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/kitchen-remodeling/",
+    "/service-areas/arden-arcade-ca/kitchen-remodeling/",
     "/contact/"
   ],
   "/service-areas/turlock-ca/bathroom-remodeling/": [
@@ -2302,8 +2428,8 @@
     "/service-areas/turlock-ca/",
     "/service-areas/turlock-ca/home-remodeling/",
     "/service-areas/turlock-ca/kitchen-remodeling/",
-    "/service-areas/carmichael-ca/bathroom-remodeling/",
-    "/service-areas/citrus-heights-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
     "/contact/"
   ],
   "/service-areas/turlock-ca/garage-construction/": [
@@ -2311,8 +2437,8 @@
     "/service-areas/turlock-ca/",
     "/service-areas/turlock-ca/home-remodeling/",
     "/service-areas/turlock-ca/bathroom-remodeling/",
-    "/service-areas/carmichael-ca/garage-construction/",
-    "/service-areas/citrus-heights-ca/garage-construction/",
+    "/service-areas/antelope-ca/garage-construction/",
+    "/service-areas/arden-arcade-ca/garage-construction/",
     "/contact/"
   ],
   "/service-areas/turlock-ca/room-addition/": [
@@ -2320,8 +2446,656 @@
     "/service-areas/turlock-ca/",
     "/service-areas/turlock-ca/home-remodeling/",
     "/service-areas/turlock-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/room-addition/",
+    "/service-areas/arden-arcade-ca/room-addition/",
+    "/contact/"
+  ],
+  "/service-areas/rio-linda-ca/commercial-construction/": [
+    "/services/commercial-construction/",
+    "/service-areas/rio-linda-ca/",
+    "/service-areas/rio-linda-ca/home-remodeling/",
+    "/service-areas/rio-linda-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/commercial-construction/",
+    "/service-areas/arden-arcade-ca/commercial-construction/",
+    "/contact/"
+  ],
+  "/service-areas/rio-linda-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/rio-linda-ca/",
+    "/service-areas/rio-linda-ca/home-remodeling/",
+    "/service-areas/rio-linda-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/general-contracting/",
+    "/service-areas/arden-arcade-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/rio-linda-ca/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/rio-linda-ca/",
+    "/service-areas/rio-linda-ca/home-remodeling/",
+    "/service-areas/rio-linda-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/new-construction/",
+    "/service-areas/arden-arcade-ca/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/rio-linda-ca/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/rio-linda-ca/",
+    "/service-areas/rio-linda-ca/home-remodeling/",
+    "/service-areas/rio-linda-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/fire-smoke-rebuilding/",
+    "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/",
+    "/contact/"
+  ],
+  "/service-areas/rio-linda-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/rio-linda-ca/",
+    "/service-areas/rio-linda-ca/home-remodeling/",
+    "/service-areas/rio-linda-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/water-damage-restoration/",
+    "/service-areas/arden-arcade-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/rio-linda-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/rio-linda-ca/",
+    "/service-areas/rio-linda-ca/home-remodeling/",
+    "/service-areas/rio-linda-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/storm-damage-restoration/",
+    "/service-areas/arden-arcade-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/rio-linda-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/rio-linda-ca/",
+    "/service-areas/rio-linda-ca/home-remodeling/",
+    "/service-areas/rio-linda-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/mold-remediation/",
+    "/service-areas/arden-arcade-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/rio-linda-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/rio-linda-ca/",
+    "/service-areas/rio-linda-ca/bathroom-remodeling/",
+    "/service-areas/rio-linda-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/rio-linda-ca/kitchen-remodeling/": [
+    "/services/kitchen-remodeling/",
+    "/service-areas/rio-linda-ca/",
+    "/service-areas/rio-linda-ca/home-remodeling/",
+    "/service-areas/rio-linda-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/kitchen-remodeling/",
+    "/service-areas/arden-arcade-ca/kitchen-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/rio-linda-ca/bathroom-remodeling/": [
+    "/services/bathroom-remodeling/",
+    "/service-areas/rio-linda-ca/",
+    "/service-areas/rio-linda-ca/home-remodeling/",
+    "/service-areas/rio-linda-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/rio-linda-ca/garage-construction/": [
+    "/services/garage-construction/",
+    "/service-areas/rio-linda-ca/",
+    "/service-areas/rio-linda-ca/home-remodeling/",
+    "/service-areas/rio-linda-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/garage-construction/",
+    "/service-areas/arden-arcade-ca/garage-construction/",
+    "/contact/"
+  ],
+  "/service-areas/rio-linda-ca/room-addition/": [
+    "/services/room-addition/",
+    "/service-areas/rio-linda-ca/",
+    "/service-areas/rio-linda-ca/home-remodeling/",
+    "/service-areas/rio-linda-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/room-addition/",
+    "/service-areas/arden-arcade-ca/room-addition/",
+    "/contact/"
+  ],
+  "/service-areas/elverta-ca/commercial-construction/": [
+    "/services/commercial-construction/",
+    "/service-areas/elverta-ca/",
+    "/service-areas/elverta-ca/home-remodeling/",
+    "/service-areas/elverta-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/commercial-construction/",
+    "/service-areas/arden-arcade-ca/commercial-construction/",
+    "/contact/"
+  ],
+  "/service-areas/elverta-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/elverta-ca/",
+    "/service-areas/elverta-ca/home-remodeling/",
+    "/service-areas/elverta-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/general-contracting/",
+    "/service-areas/arden-arcade-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/elverta-ca/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/elverta-ca/",
+    "/service-areas/elverta-ca/home-remodeling/",
+    "/service-areas/elverta-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/new-construction/",
+    "/service-areas/arden-arcade-ca/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/elverta-ca/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/elverta-ca/",
+    "/service-areas/elverta-ca/home-remodeling/",
+    "/service-areas/elverta-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/fire-smoke-rebuilding/",
+    "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/",
+    "/contact/"
+  ],
+  "/service-areas/elverta-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/elverta-ca/",
+    "/service-areas/elverta-ca/home-remodeling/",
+    "/service-areas/elverta-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/water-damage-restoration/",
+    "/service-areas/arden-arcade-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/elverta-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/elverta-ca/",
+    "/service-areas/elverta-ca/home-remodeling/",
+    "/service-areas/elverta-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/storm-damage-restoration/",
+    "/service-areas/arden-arcade-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/elverta-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/elverta-ca/",
+    "/service-areas/elverta-ca/home-remodeling/",
+    "/service-areas/elverta-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/mold-remediation/",
+    "/service-areas/arden-arcade-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/elverta-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/elverta-ca/",
+    "/service-areas/elverta-ca/bathroom-remodeling/",
+    "/service-areas/elverta-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/elverta-ca/kitchen-remodeling/": [
+    "/services/kitchen-remodeling/",
+    "/service-areas/elverta-ca/",
+    "/service-areas/elverta-ca/home-remodeling/",
+    "/service-areas/elverta-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/kitchen-remodeling/",
+    "/service-areas/arden-arcade-ca/kitchen-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/elverta-ca/bathroom-remodeling/": [
+    "/services/bathroom-remodeling/",
+    "/service-areas/elverta-ca/",
+    "/service-areas/elverta-ca/home-remodeling/",
+    "/service-areas/elverta-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/elverta-ca/garage-construction/": [
+    "/services/garage-construction/",
+    "/service-areas/elverta-ca/",
+    "/service-areas/elverta-ca/home-remodeling/",
+    "/service-areas/elverta-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/garage-construction/",
+    "/service-areas/arden-arcade-ca/garage-construction/",
+    "/contact/"
+  ],
+  "/service-areas/elverta-ca/room-addition/": [
+    "/services/room-addition/",
+    "/service-areas/elverta-ca/",
+    "/service-areas/elverta-ca/home-remodeling/",
+    "/service-areas/elverta-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/room-addition/",
+    "/service-areas/arden-arcade-ca/room-addition/",
+    "/contact/"
+  ],
+  "/service-areas/mcclellan-park-ca/commercial-construction/": [
+    "/services/commercial-construction/",
+    "/service-areas/mcclellan-park-ca/",
+    "/service-areas/mcclellan-park-ca/home-remodeling/",
+    "/service-areas/mcclellan-park-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/commercial-construction/",
+    "/service-areas/arden-arcade-ca/commercial-construction/",
+    "/contact/"
+  ],
+  "/service-areas/mcclellan-park-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/mcclellan-park-ca/",
+    "/service-areas/mcclellan-park-ca/home-remodeling/",
+    "/service-areas/mcclellan-park-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/general-contracting/",
+    "/service-areas/arden-arcade-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/mcclellan-park-ca/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/mcclellan-park-ca/",
+    "/service-areas/mcclellan-park-ca/home-remodeling/",
+    "/service-areas/mcclellan-park-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/new-construction/",
+    "/service-areas/arden-arcade-ca/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/mcclellan-park-ca/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/mcclellan-park-ca/",
+    "/service-areas/mcclellan-park-ca/home-remodeling/",
+    "/service-areas/mcclellan-park-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/fire-smoke-rebuilding/",
+    "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/",
+    "/contact/"
+  ],
+  "/service-areas/mcclellan-park-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/mcclellan-park-ca/",
+    "/service-areas/mcclellan-park-ca/home-remodeling/",
+    "/service-areas/mcclellan-park-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/water-damage-restoration/",
+    "/service-areas/arden-arcade-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/mcclellan-park-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/mcclellan-park-ca/",
+    "/service-areas/mcclellan-park-ca/home-remodeling/",
+    "/service-areas/mcclellan-park-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/storm-damage-restoration/",
+    "/service-areas/arden-arcade-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/mcclellan-park-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/mcclellan-park-ca/",
+    "/service-areas/mcclellan-park-ca/home-remodeling/",
+    "/service-areas/mcclellan-park-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/mold-remediation/",
+    "/service-areas/arden-arcade-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/mcclellan-park-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/mcclellan-park-ca/",
+    "/service-areas/mcclellan-park-ca/bathroom-remodeling/",
+    "/service-areas/mcclellan-park-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/mcclellan-park-ca/kitchen-remodeling/": [
+    "/services/kitchen-remodeling/",
+    "/service-areas/mcclellan-park-ca/",
+    "/service-areas/mcclellan-park-ca/home-remodeling/",
+    "/service-areas/mcclellan-park-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/kitchen-remodeling/",
+    "/service-areas/arden-arcade-ca/kitchen-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/mcclellan-park-ca/bathroom-remodeling/": [
+    "/services/bathroom-remodeling/",
+    "/service-areas/mcclellan-park-ca/",
+    "/service-areas/mcclellan-park-ca/home-remodeling/",
+    "/service-areas/mcclellan-park-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/mcclellan-park-ca/garage-construction/": [
+    "/services/garage-construction/",
+    "/service-areas/mcclellan-park-ca/",
+    "/service-areas/mcclellan-park-ca/home-remodeling/",
+    "/service-areas/mcclellan-park-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/garage-construction/",
+    "/service-areas/arden-arcade-ca/garage-construction/",
+    "/contact/"
+  ],
+  "/service-areas/mcclellan-park-ca/room-addition/": [
+    "/services/room-addition/",
+    "/service-areas/mcclellan-park-ca/",
+    "/service-areas/mcclellan-park-ca/home-remodeling/",
+    "/service-areas/mcclellan-park-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/room-addition/",
+    "/service-areas/arden-arcade-ca/room-addition/",
+    "/contact/"
+  ],
+  "/service-areas/arden-arcade-ca/commercial-construction/": [
+    "/services/commercial-construction/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/commercial-construction/",
+    "/service-areas/carmichael-ca/commercial-construction/",
+    "/contact/"
+  ],
+  "/service-areas/arden-arcade-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/general-contracting/",
+    "/service-areas/carmichael-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/arden-arcade-ca/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/new-construction/",
+    "/service-areas/carmichael-ca/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/fire-smoke-rebuilding/",
+    "/service-areas/carmichael-ca/fire-smoke-rebuilding/",
+    "/contact/"
+  ],
+  "/service-areas/arden-arcade-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/water-damage-restoration/",
+    "/service-areas/carmichael-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/arden-arcade-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/storm-damage-restoration/",
+    "/service-areas/carmichael-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/arden-arcade-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/mold-remediation/",
+    "/service-areas/carmichael-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/arden-arcade-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/arden-arcade-ca/kitchen-remodeling/": [
+    "/services/kitchen-remodeling/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/kitchen-remodeling/",
+    "/service-areas/carmichael-ca/kitchen-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/arden-arcade-ca/bathroom-remodeling/": [
+    "/services/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/carmichael-ca/bathroom-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/arden-arcade-ca/garage-construction/": [
+    "/services/garage-construction/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/garage-construction/",
+    "/service-areas/carmichael-ca/garage-construction/",
+    "/contact/"
+  ],
+  "/service-areas/arden-arcade-ca/room-addition/": [
+    "/services/room-addition/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/room-addition/",
     "/service-areas/carmichael-ca/room-addition/",
-    "/service-areas/citrus-heights-ca/room-addition/",
+    "/contact/"
+  ],
+  "/service-areas/north-highlands-ca/commercial-construction/": [
+    "/services/commercial-construction/",
+    "/service-areas/north-highlands-ca/",
+    "/service-areas/north-highlands-ca/home-remodeling/",
+    "/service-areas/north-highlands-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/commercial-construction/",
+    "/service-areas/arden-arcade-ca/commercial-construction/",
+    "/contact/"
+  ],
+  "/service-areas/north-highlands-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/north-highlands-ca/",
+    "/service-areas/north-highlands-ca/home-remodeling/",
+    "/service-areas/north-highlands-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/general-contracting/",
+    "/service-areas/arden-arcade-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/north-highlands-ca/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/north-highlands-ca/",
+    "/service-areas/north-highlands-ca/home-remodeling/",
+    "/service-areas/north-highlands-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/new-construction/",
+    "/service-areas/arden-arcade-ca/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/north-highlands-ca/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/north-highlands-ca/",
+    "/service-areas/north-highlands-ca/home-remodeling/",
+    "/service-areas/north-highlands-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/fire-smoke-rebuilding/",
+    "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/",
+    "/contact/"
+  ],
+  "/service-areas/north-highlands-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/north-highlands-ca/",
+    "/service-areas/north-highlands-ca/home-remodeling/",
+    "/service-areas/north-highlands-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/water-damage-restoration/",
+    "/service-areas/arden-arcade-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/north-highlands-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/north-highlands-ca/",
+    "/service-areas/north-highlands-ca/home-remodeling/",
+    "/service-areas/north-highlands-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/storm-damage-restoration/",
+    "/service-areas/arden-arcade-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/north-highlands-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/north-highlands-ca/",
+    "/service-areas/north-highlands-ca/home-remodeling/",
+    "/service-areas/north-highlands-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/mold-remediation/",
+    "/service-areas/arden-arcade-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/north-highlands-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/north-highlands-ca/",
+    "/service-areas/north-highlands-ca/bathroom-remodeling/",
+    "/service-areas/north-highlands-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/north-highlands-ca/kitchen-remodeling/": [
+    "/services/kitchen-remodeling/",
+    "/service-areas/north-highlands-ca/",
+    "/service-areas/north-highlands-ca/home-remodeling/",
+    "/service-areas/north-highlands-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/kitchen-remodeling/",
+    "/service-areas/arden-arcade-ca/kitchen-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/north-highlands-ca/bathroom-remodeling/": [
+    "/services/bathroom-remodeling/",
+    "/service-areas/north-highlands-ca/",
+    "/service-areas/north-highlands-ca/home-remodeling/",
+    "/service-areas/north-highlands-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/north-highlands-ca/garage-construction/": [
+    "/services/garage-construction/",
+    "/service-areas/north-highlands-ca/",
+    "/service-areas/north-highlands-ca/home-remodeling/",
+    "/service-areas/north-highlands-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/garage-construction/",
+    "/service-areas/arden-arcade-ca/garage-construction/",
+    "/contact/"
+  ],
+  "/service-areas/north-highlands-ca/room-addition/": [
+    "/services/room-addition/",
+    "/service-areas/north-highlands-ca/",
+    "/service-areas/north-highlands-ca/home-remodeling/",
+    "/service-areas/north-highlands-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/room-addition/",
+    "/service-areas/arden-arcade-ca/room-addition/",
+    "/contact/"
+  ],
+  "/service-areas/antelope-ca/commercial-construction/": [
+    "/services/commercial-construction/",
+    "/service-areas/antelope-ca/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/commercial-construction/",
+    "/service-areas/carmichael-ca/commercial-construction/",
+    "/contact/"
+  ],
+  "/service-areas/antelope-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/antelope-ca/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/general-contracting/",
+    "/service-areas/carmichael-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/antelope-ca/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/antelope-ca/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/new-construction/",
+    "/service-areas/carmichael-ca/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/antelope-ca/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/antelope-ca/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/",
+    "/service-areas/carmichael-ca/fire-smoke-rebuilding/",
+    "/contact/"
+  ],
+  "/service-areas/antelope-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/antelope-ca/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/water-damage-restoration/",
+    "/service-areas/carmichael-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/antelope-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/antelope-ca/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/storm-damage-restoration/",
+    "/service-areas/carmichael-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/antelope-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/antelope-ca/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/mold-remediation/",
+    "/service-areas/carmichael-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/antelope-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/antelope-ca/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/kitchen-remodeling/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
+    "/service-areas/carmichael-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/antelope-ca/kitchen-remodeling/": [
+    "/services/kitchen-remodeling/",
+    "/service-areas/antelope-ca/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/kitchen-remodeling/",
+    "/service-areas/carmichael-ca/kitchen-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/antelope-ca/bathroom-remodeling/": [
+    "/services/bathroom-remodeling/",
+    "/service-areas/antelope-ca/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/antelope-ca/kitchen-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
+    "/service-areas/carmichael-ca/bathroom-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/antelope-ca/garage-construction/": [
+    "/services/garage-construction/",
+    "/service-areas/antelope-ca/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/garage-construction/",
+    "/service-areas/carmichael-ca/garage-construction/",
+    "/contact/"
+  ],
+  "/service-areas/antelope-ca/room-addition/": [
+    "/services/room-addition/",
+    "/service-areas/antelope-ca/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/room-addition/",
+    "/service-areas/carmichael-ca/room-addition/",
     "/contact/"
   ],
   "/blog/how-to-plan-a-home-remodel/": [

@@ -115,6 +115,11 @@
       "city": "Nelson",
       "state": "NV",
       "slug": "nelson-nv"
+    },
+    {
+      "city": "Goodsprings",
+      "state": "NV",
+      "slug": "goodsprings-nv"
     }
   ],
   "template": "restoration",

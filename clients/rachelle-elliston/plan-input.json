@@ -1,97 +1,102 @@
 {
- "brand": {
-  "display_name": "Desert Valley Contracting Inc ",
-  "lat": 36.2005191,
-  "lng": -115.1214745,
-  "place_id": "ChIJHe5ukQHCyIARitorWulYy8U",
-  "phone": "(702) 633-5033",
-  "email": "relliston@desertvalleyco.com",
-  "street_address": "3808 N Octagon Rd",
-  "city": "North Las Vegas",
-  "state": "NV",
-  "postal_code": "89030",
-  "theme": "light",
-  "certifications": [
-   "IICRC CERTIFIED FIRM",
-   "IICRC AMRT (MOLD)",
-   "OSHA TRAINED",
-   "IICRC FSRT (FIRE & SMOKE)",
-   "IICRC WRT (WATER)",
-   "IICRC ASD (STRUCTURAL DRYING)",
-   "EPA LEAD-SAFE CERTIFIED"
+  "brand": {
+    "display_name": "Desert Valley Contracting Inc ",
+    "lat": 36.2005191,
+    "lng": -115.1214745,
+    "place_id": "ChIJHe5ukQHCyIARitorWulYy8U",
+    "phone": "(702) 633-5033",
+    "email": "relliston@desertvalleyco.com",
+    "street_address": "3808 N Octagon Rd",
+    "city": "North Las Vegas",
+    "state": "NV",
+    "postal_code": "89030",
+    "theme": "light",
+    "certifications": [
+      "IICRC CERTIFIED FIRM",
+      "IICRC AMRT (MOLD)",
+      "OSHA TRAINED",
+      "IICRC FSRT (FIRE & SMOKE)",
+      "IICRC WRT (WATER)",
+      "IICRC ASD (STRUCTURAL DRYING)",
+      "EPA LEAD-SAFE CERTIFIED"
+    ],
+    "license_numbers": [
+      "0072652-B & B6"
+    ],
+    "hours": "24/7",
+    "licensed_insured_attested": true,
+    "founded_year": "2000",
+    "trust_badges": [
+      "IICRC Certified Firm",
+      "Licensed & Insured",
+      "24/7 Emergency Service",
+      "Locally Owned & Operated"
+    ]
+  },
+  "services": [
+    "water-damage-restoration",
+    "fire-damage-restoration",
+    "mold-remediation",
+    "storm-damage-restoration",
+    "general-contracting",
+    "sewage-cleanup",
+    "biohazard-cleanup",
+    "contents-restoration-storage",
+    "water-cleanup"
   ],
-  "license_numbers": [
-   "0072652-B & B6"
+  "service_areas": [
+    {
+      "city": "North Las Vegas",
+      "state": "NV",
+      "slug": "north-las-vegas-nv",
+      "primary": true
+    },
+    {
+      "city": "Las Vegas",
+      "state": "NV",
+      "slug": "las-vegas-nv"
+    },
+    {
+      "city": "Henderson",
+      "state": "NV",
+      "slug": "henderson-nv"
+    },
+    {
+      "city": "Paradise",
+      "state": "NV",
+      "slug": "paradise-nv"
+    },
+    {
+      "city": "Spring Valley",
+      "state": "NV",
+      "slug": "spring-valley-nv"
+    },
+    {
+      "city": "Sunrise Manor",
+      "state": "NV",
+      "slug": "sunrise-manor-nv"
+    },
+    {
+      "city": "Enterprise",
+      "state": "NV",
+      "slug": "enterprise-nv"
+    },
+    {
+      "city": "Summerlin",
+      "state": "NV",
+      "slug": "summerlin-nv"
+    },
+    {
+      "city": "Boulder City",
+      "state": "NV",
+      "slug": "boulder-city-nv"
+    },
+    {
+      "city": "Winchester",
+      "state": "NV",
+      "slug": "winchester-nv"
+    }
   ],
-  "hours": "24/7",
-  "licensed_insured_attested": true,
-  "founded_year": "2000",
-  "trust_badges": [
-   "IICRC Certified Firm",
-   "Licensed & Insured",
-   "24/7 Emergency Service",
-   "Locally Owned & Operated"
-  ]
- },
- "services": [
-  "water-damage-restoration",
-  "fire-damage-restoration",
-  "mold-remediation",
-  "storm-damage-restoration",
-  "general-contracting",
-  "sewage-cleanup",
-  "biohazard-cleanup",
-  "contents-restoration-storage",
-  "water-cleanup"
- ],
- "service_areas": [
-  {
-   "city": "North Las Vegas",
-   "state": "NV",
-   "slug": "north-las-vegas-nv",
-   "primary": true
-  },
-  {
-   "city": "Las Vegas",
-   "state": "NV",
-   "slug": "las-vegas-nv"
-  },
-  {
-   "city": "Henderson",
-   "state": "NV",
-   "slug": "henderson-nv"
-  },
-  {
-   "city": "Paradise",
-   "state": "NV",
-   "slug": "paradise-nv"
-  },
-  {
-   "city": "Spring Valley",
-   "state": "NV",
-   "slug": "spring-valley-nv"
-  },
-  {
-   "city": "Sunrise Manor",
-   "state": "NV",
-   "slug": "sunrise-manor-nv"
-  },
-  {
-   "city": "Enterprise",
-   "state": "NV",
-   "slug": "enterprise-nv"
-  },
-  {
-   "city": "Summerlin",
-   "state": "NV",
-   "slug": "summerlin-nv"
-  },
-  {
-   "city": "Boulder City",
-   "state": "NV",
-   "slug": "boulder-city-nv"
-  }
- ],
- "template": "restoration",
- "blog_seed_count": 8
+  "template": "restoration",
+  "blog_seed_count": 8
 }

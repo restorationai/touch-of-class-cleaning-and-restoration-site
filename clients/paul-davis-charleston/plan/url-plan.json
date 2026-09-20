@@ -1,0 +1,3122 @@
+{
+  "template": "restoration",
+  "template_version": "0.3.0",
+  "generated_at": "2026-09-20T14:13:24.867330+00:00",
+  "input_summary": {
+    "service_count": 4,
+    "service_area_count": 11,
+    "cross_product": true,
+    "blog_seed_count": 12
+  },
+  "pages": [
+    {
+      "url_path": "/",
+      "archetype": "home",
+      "vars_keys": [],
+      "title": "Paul Davis Restoration of Charleston | Restoration Services in Charleston, SC",
+      "h1": "Restoration Services in Charleston",
+      "meta_description": "Paul Davis Restoration of Charleston provides water, fire, mold, and storm damage restoration across Charleston and surrounding areas. Call.",
+      "primary_keyword": "restoration services charleston",
+      "secondary_keywords": [
+        "restoration company near me"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1200,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2",
+        "inline-3"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "aggregate-rating"
+      ],
+      "priority": 5.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/service-areas/",
+        "/contact/",
+        "/about/",
+        "/services/fire-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/services/water-cleanup/",
+        "/service-areas/awendaw-sc/",
+        "/service-areas/goose-creek-sc/",
+        "/service-areas/hanahan-sc/",
+        "/service-areas/isle-of-palms-sc/",
+        "/service-areas/james-island-sc/",
+        "/service-areas/ladson-sc/",
+        "/service-areas/mount-pleasant-sc/",
+        "/service-areas/north-charleston-sc/",
+        "/service-areas/sullivan-s-island-sc/",
+        "/service-areas/summerville-sc/"
+      ]
+    },
+    {
+      "url_path": "/services/",
+      "archetype": "services-hub",
+      "vars_keys": [],
+      "title": "Restoration Services in Charleston | Paul Davis Restoration of Charleston",
+      "h1": "Our Restoration Services",
+      "meta_description": "Full-service restoration in Charleston: water, fire, mold, storm, biohazard, and commercial restoration. Prompt scheduling. Call.",
+      "primary_keyword": "restoration services charleston",
+      "secondary_keywords": [
+        "damage restoration services",
+        "property restoration services",
+        "disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 800,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 4.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/fire-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/services/water-cleanup/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/",
+      "archetype": "service-areas-hub",
+      "vars_keys": [],
+      "title": "Service Areas | Paul Davis Restoration of Charleston Restoration",
+      "h1": "Areas We Serve",
+      "meta_description": "Paul Davis Restoration of Charleston provides restoration services across Charleston and the surrounding region. Find your city.",
+      "primary_keyword": "paul davis restoration of charleston service areas",
+      "secondary_keywords": [
+        "restoration service area",
+        "cities we serve",
+        "local restoration coverage"
+      ],
+      "search_intent": "navigational_local",
+      "target_word_count": 500,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/service-areas/awendaw-sc/",
+        "/service-areas/goose-creek-sc/",
+        "/service-areas/hanahan-sc/",
+        "/service-areas/isle-of-palms-sc/",
+        "/service-areas/james-island-sc/",
+        "/service-areas/ladson-sc/",
+        "/service-areas/mount-pleasant-sc/",
+        "/service-areas/north-charleston-sc/",
+        "/service-areas/sullivan-s-island-sc/",
+        "/service-areas/summerville-sc/"
+      ]
+    },
+    {
+      "url_path": "/blog/",
+      "archetype": "blog-index",
+      "vars_keys": [],
+      "title": "Restoration Blog | Paul Davis Restoration of Charleston",
+      "h1": "Restoration Resources and Insights",
+      "meta_description": "Guides, checklists, and explainers from Paul Davis Restoration of Charleston on water, fire, mold, and storm damage restoration.",
+      "primary_keyword": "restoration blog charleston",
+      "secondary_keywords": [
+        "restoration guides",
+        "damage restoration tips",
+        "restoration insights"
+      ],
+      "search_intent": "informational_browse",
+      "target_word_count": 300,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "website",
+        "breadcrumb-list"
+      ],
+      "priority": 3.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/fire-damage-restoration-process/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/",
+        "/blog/black-mold-vs-regular-mold/",
+        "/blog/how-long-does-water-damage-restoration-take/",
+        "/blog/mold-after-water-damage/",
+        "/blog/basement-flooding-prevention/",
+        "/blog/smoke-odor-removal-techniques/"
+      ]
+    },
+    {
+      "url_path": "/about/",
+      "archetype": "about",
+      "vars_keys": [],
+      "title": "About Paul Davis Restoration of Charleston | Charleston Restoration Company",
+      "h1": "About Paul Davis Restoration of Charleston",
+      "meta_description": "Paul Davis Restoration of Charleston has served Charleston since. Meet our restoration team. Locally owned.",
+      "primary_keyword": "paul davis restoration of charleston charleston",
+      "secondary_keywords": [
+        "local restoration company",
+        "iicrc certified restoration",
+        "licensed restoration contractor"
+      ],
+      "search_intent": "navigational_trust",
+      "target_word_count": 700,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "aggregate-rating",
+        "breadcrumb-list"
+      ],
+      "priority": 2.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/contact/",
+      "archetype": "contact",
+      "vars_keys": [],
+      "title": "Contact Paul Davis Restoration of Charleston | Restoration in Charleston",
+      "h1": "Contact Paul Davis Restoration of Charleston",
+      "meta_description": "Call for restoration services in Charleston and surrounding areas. Free estimates. Direct insurance billing.",
+      "primary_keyword": "paul davis restoration of charleston contact",
+      "secondary_keywords": [
+        "restoration company contact"
+      ],
+      "search_intent": "navigational_action",
+      "target_word_count": 400,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 2.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/",
+        "/service-areas/"
+      ]
+    },
+    {
+      "url_path": "/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Water Damage Restoration in Charleston | Paul Davis Restoration of Charleston",
+      "h1": "Water Damage Restoration in Charleston",
+      "meta_description": "Water damage restoration in Charleston and surrounding areas. Insurance billing accepted. Call.",
+      "primary_keyword": "water damage restoration charleston",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/awendaw-sc/water-damage-restoration/",
+        "/service-areas/goose-creek-sc/water-damage-restoration/",
+        "/service-areas/hanahan-sc/water-damage-restoration/",
+        "/service-areas/isle-of-palms-sc/water-damage-restoration/",
+        "/service-areas/james-island-sc/water-damage-restoration/",
+        "/service-areas/ladson-sc/water-damage-restoration/",
+        "/service-areas/mount-pleasant-sc/water-damage-restoration/",
+        "/service-areas/north-charleston-sc/water-damage-restoration/",
+        "/service-areas/sullivan-s-island-sc/water-damage-restoration/",
+        "/service-areas/summerville-sc/water-damage-restoration/",
+        "/services/water-cleanup/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/services/fire-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Charleston | Paul Davis Restoration of Charleston",
+      "h1": "Fire Damage Restoration in Charleston",
+      "meta_description": "Fire damage restoration in Charleston and surrounding areas. Insurance billing accepted. Call.",
+      "primary_keyword": "fire damage restoration charleston",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/awendaw-sc/fire-damage-restoration/",
+        "/service-areas/goose-creek-sc/fire-damage-restoration/",
+        "/service-areas/hanahan-sc/fire-damage-restoration/",
+        "/service-areas/isle-of-palms-sc/fire-damage-restoration/",
+        "/service-areas/james-island-sc/fire-damage-restoration/",
+        "/service-areas/ladson-sc/fire-damage-restoration/",
+        "/service-areas/mount-pleasant-sc/fire-damage-restoration/",
+        "/service-areas/north-charleston-sc/fire-damage-restoration/",
+        "/service-areas/sullivan-s-island-sc/fire-damage-restoration/",
+        "/service-areas/summerville-sc/fire-damage-restoration/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/fire-damage-restoration-process/",
+        "/blog/smoke-odor-removal-techniques/"
+      ]
+    },
+    {
+      "url_path": "/services/mold-remediation/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Mold Remediation in Charleston | Paul Davis Restoration of Charleston",
+      "h1": "Mold Remediation in Charleston",
+      "meta_description": "Mold remediation in Charleston and surrounding areas. Insurance billing accepted. Call.",
+      "primary_keyword": "mold remediation charleston",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/awendaw-sc/mold-remediation/",
+        "/service-areas/goose-creek-sc/mold-remediation/",
+        "/service-areas/hanahan-sc/mold-remediation/",
+        "/service-areas/isle-of-palms-sc/mold-remediation/",
+        "/service-areas/james-island-sc/mold-remediation/",
+        "/service-areas/ladson-sc/mold-remediation/",
+        "/service-areas/mount-pleasant-sc/mold-remediation/",
+        "/service-areas/north-charleston-sc/mold-remediation/",
+        "/service-areas/sullivan-s-island-sc/mold-remediation/",
+        "/service-areas/summerville-sc/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/"
+      ]
+    },
+    {
+      "url_path": "/services/water-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Water Cleanup in Charleston | Paul Davis Restoration of Charleston",
+      "h1": "Water Cleanup in Charleston",
+      "meta_description": "Water cleanup in Charleston and surrounding areas. Insurance billing accepted. Call.",
+      "primary_keyword": "emergency water cleanup charleston",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/awendaw-sc/water-cleanup/",
+        "/service-areas/goose-creek-sc/water-cleanup/",
+        "/service-areas/hanahan-sc/water-cleanup/",
+        "/service-areas/isle-of-palms-sc/water-cleanup/",
+        "/service-areas/james-island-sc/water-cleanup/",
+        "/service-areas/ladson-sc/water-cleanup/",
+        "/service-areas/mount-pleasant-sc/water-cleanup/",
+        "/service-areas/north-charleston-sc/water-cleanup/",
+        "/service-areas/sullivan-s-island-sc/water-cleanup/",
+        "/service-areas/summerville-sc/water-cleanup/",
+        "/services/water-damage-restoration/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mount-pleasant-sc/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Mount Pleasant, SC | Paul Davis Restoration of Charleston",
+      "h1": "Restoration Services in Mount Pleasant",
+      "meta_description": "Serving Mount Pleasant, SC with water, fire, mold, and storm damage restoration. Experienced team. Call.",
+      "primary_keyword": "restoration services mount pleasant",
+      "secondary_keywords": [
+        "mount pleasant restoration company",
+        "damage restoration mount pleasant",
+        "mount pleasant disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/mount-pleasant-sc/fire-damage-restoration/",
+        "/service-areas/mount-pleasant-sc/mold-remediation/",
+        "/service-areas/mount-pleasant-sc/water-damage-restoration/",
+        "/service-areas/mount-pleasant-sc/water-cleanup/",
+        "/service-areas/awendaw-sc/",
+        "/service-areas/goose-creek-sc/",
+        "/service-areas/hanahan-sc/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/north-charleston-sc/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in North Charleston, SC | Paul Davis Restoration of Charleston",
+      "h1": "Restoration Services in North Charleston",
+      "meta_description": "Serving North Charleston, SC with water, fire, mold, and storm damage restoration. Experienced team. Call.",
+      "primary_keyword": "restoration services north charleston",
+      "secondary_keywords": [
+        "north charleston restoration company",
+        "damage restoration north charleston",
+        "north charleston disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/north-charleston-sc/fire-damage-restoration/",
+        "/service-areas/north-charleston-sc/mold-remediation/",
+        "/service-areas/north-charleston-sc/water-damage-restoration/",
+        "/service-areas/north-charleston-sc/water-cleanup/",
+        "/service-areas/awendaw-sc/",
+        "/service-areas/goose-creek-sc/",
+        "/service-areas/hanahan-sc/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerville-sc/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Summerville, SC | Paul Davis Restoration of Charleston",
+      "h1": "Restoration Services in Summerville",
+      "meta_description": "Serving Summerville, SC with water, fire, mold, and storm damage restoration. Experienced team. Call.",
+      "primary_keyword": "restoration services summerville",
+      "secondary_keywords": [
+        "summerville restoration company",
+        "damage restoration summerville",
+        "summerville disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/summerville-sc/fire-damage-restoration/",
+        "/service-areas/summerville-sc/mold-remediation/",
+        "/service-areas/summerville-sc/water-damage-restoration/",
+        "/service-areas/summerville-sc/water-cleanup/",
+        "/service-areas/awendaw-sc/",
+        "/service-areas/goose-creek-sc/",
+        "/service-areas/hanahan-sc/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/james-island-sc/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in James Island, SC | Paul Davis Restoration of Charleston",
+      "h1": "Restoration Services in James Island",
+      "meta_description": "Serving James Island, SC with water, fire, mold, and storm damage restoration. Experienced team. Call.",
+      "primary_keyword": "restoration services james island",
+      "secondary_keywords": [
+        "james island restoration company",
+        "damage restoration james island",
+        "james island disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/james-island-sc/fire-damage-restoration/",
+        "/service-areas/james-island-sc/mold-remediation/",
+        "/service-areas/james-island-sc/water-damage-restoration/",
+        "/service-areas/james-island-sc/water-cleanup/",
+        "/service-areas/awendaw-sc/",
+        "/service-areas/goose-creek-sc/",
+        "/service-areas/hanahan-sc/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hanahan-sc/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Hanahan, SC | Paul Davis Restoration of Charleston",
+      "h1": "Restoration Services in Hanahan",
+      "meta_description": "Serving Hanahan, SC with water, fire, mold, and storm damage restoration. Experienced team. Call.",
+      "primary_keyword": "restoration services hanahan",
+      "secondary_keywords": [
+        "hanahan restoration company",
+        "damage restoration hanahan",
+        "hanahan disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/hanahan-sc/fire-damage-restoration/",
+        "/service-areas/hanahan-sc/mold-remediation/",
+        "/service-areas/hanahan-sc/water-damage-restoration/",
+        "/service-areas/hanahan-sc/water-cleanup/",
+        "/service-areas/awendaw-sc/",
+        "/service-areas/goose-creek-sc/",
+        "/service-areas/isle-of-palms-sc/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/goose-creek-sc/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Goose Creek, SC | Paul Davis Restoration of Charleston",
+      "h1": "Restoration Services in Goose Creek",
+      "meta_description": "Serving Goose Creek, SC with water, fire, mold, and storm damage restoration. Experienced team. Call.",
+      "primary_keyword": "restoration services goose creek",
+      "secondary_keywords": [
+        "goose creek restoration company",
+        "damage restoration goose creek",
+        "goose creek disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/goose-creek-sc/fire-damage-restoration/",
+        "/service-areas/goose-creek-sc/mold-remediation/",
+        "/service-areas/goose-creek-sc/water-damage-restoration/",
+        "/service-areas/goose-creek-sc/water-cleanup/",
+        "/service-areas/awendaw-sc/",
+        "/service-areas/hanahan-sc/",
+        "/service-areas/isle-of-palms-sc/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sullivan-s-island-sc/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Sullivan's Island, SC | Paul Davis Restoration of Charleston",
+      "h1": "Restoration Services in Sullivan's Island",
+      "meta_description": "Serving Sullivan's Island, SC with water, fire, mold, and storm damage restoration. Experienced team. Call.",
+      "primary_keyword": "restoration services sullivan's island",
+      "secondary_keywords": [
+        "sullivan's island restoration company",
+        "damage restoration sullivan's island",
+        "sullivan's island disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/sullivan-s-island-sc/fire-damage-restoration/",
+        "/service-areas/sullivan-s-island-sc/mold-remediation/",
+        "/service-areas/sullivan-s-island-sc/water-damage-restoration/",
+        "/service-areas/sullivan-s-island-sc/water-cleanup/",
+        "/service-areas/awendaw-sc/",
+        "/service-areas/goose-creek-sc/",
+        "/service-areas/hanahan-sc/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/isle-of-palms-sc/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Isle of Palms, SC | Paul Davis Restoration of Charleston",
+      "h1": "Restoration Services in Isle of Palms",
+      "meta_description": "Serving Isle of Palms, SC with water, fire, mold, and storm damage restoration. Experienced team. Call.",
+      "primary_keyword": "restoration services isle of palms",
+      "secondary_keywords": [
+        "isle of palms restoration company",
+        "damage restoration isle of palms",
+        "isle of palms disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/isle-of-palms-sc/fire-damage-restoration/",
+        "/service-areas/isle-of-palms-sc/mold-remediation/",
+        "/service-areas/isle-of-palms-sc/water-damage-restoration/",
+        "/service-areas/isle-of-palms-sc/water-cleanup/",
+        "/service-areas/awendaw-sc/",
+        "/service-areas/goose-creek-sc/",
+        "/service-areas/hanahan-sc/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ladson-sc/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Ladson, SC | Paul Davis Restoration of Charleston",
+      "h1": "Restoration Services in Ladson",
+      "meta_description": "Serving Ladson, SC with water, fire, mold, and storm damage restoration. Experienced team. Call.",
+      "primary_keyword": "restoration services ladson",
+      "secondary_keywords": [
+        "ladson restoration company",
+        "damage restoration ladson",
+        "ladson disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/ladson-sc/fire-damage-restoration/",
+        "/service-areas/ladson-sc/mold-remediation/",
+        "/service-areas/ladson-sc/water-damage-restoration/",
+        "/service-areas/ladson-sc/water-cleanup/",
+        "/service-areas/awendaw-sc/",
+        "/service-areas/goose-creek-sc/",
+        "/service-areas/hanahan-sc/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/awendaw-sc/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Awendaw, SC | Paul Davis Restoration of Charleston",
+      "h1": "Restoration Services in Awendaw",
+      "meta_description": "Serving Awendaw, SC with water, fire, mold, and storm damage restoration. Experienced team. Call.",
+      "primary_keyword": "restoration services awendaw",
+      "secondary_keywords": [
+        "awendaw restoration company",
+        "damage restoration awendaw",
+        "awendaw disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/awendaw-sc/fire-damage-restoration/",
+        "/service-areas/awendaw-sc/mold-remediation/",
+        "/service-areas/awendaw-sc/water-damage-restoration/",
+        "/service-areas/awendaw-sc/water-cleanup/",
+        "/service-areas/goose-creek-sc/",
+        "/service-areas/hanahan-sc/",
+        "/service-areas/isle-of-palms-sc/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mount-pleasant-sc/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Mount Pleasant, SC | Paul Davis Restoration of Charleston",
+      "h1": "Water Damage Restoration in Mount Pleasant",
+      "meta_description": "Water damage restoration in Mount Pleasant, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "water damage restoration mount pleasant",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/mount-pleasant-sc/",
+        "/service-areas/mount-pleasant-sc/fire-damage-restoration/",
+        "/service-areas/mount-pleasant-sc/mold-remediation/",
+        "/service-areas/awendaw-sc/water-damage-restoration/",
+        "/service-areas/goose-creek-sc/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mount-pleasant-sc/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Mount Pleasant, SC | Paul Davis Restoration of Charleston",
+      "h1": "Fire Damage Restoration in Mount Pleasant",
+      "meta_description": "Fire damage restoration in Mount Pleasant, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "fire damage restoration mount pleasant",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/mount-pleasant-sc/",
+        "/service-areas/mount-pleasant-sc/mold-remediation/",
+        "/service-areas/mount-pleasant-sc/water-damage-restoration/",
+        "/service-areas/awendaw-sc/fire-damage-restoration/",
+        "/service-areas/goose-creek-sc/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mount-pleasant-sc/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Mount Pleasant, SC | Paul Davis Restoration of Charleston",
+      "h1": "Mold Remediation in Mount Pleasant",
+      "meta_description": "Mold remediation in Mount Pleasant, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "mold remediation mount pleasant",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/mount-pleasant-sc/",
+        "/service-areas/mount-pleasant-sc/fire-damage-restoration/",
+        "/service-areas/mount-pleasant-sc/water-damage-restoration/",
+        "/service-areas/awendaw-sc/mold-remediation/",
+        "/service-areas/goose-creek-sc/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mount-pleasant-sc/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Mount Pleasant, SC | Paul Davis Restoration of Charleston",
+      "h1": "Water Cleanup in Mount Pleasant",
+      "meta_description": "Water cleanup in Mount Pleasant, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "emergency water cleanup mount pleasant",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/mount-pleasant-sc/",
+        "/service-areas/mount-pleasant-sc/fire-damage-restoration/",
+        "/service-areas/mount-pleasant-sc/mold-remediation/",
+        "/service-areas/awendaw-sc/water-cleanup/",
+        "/service-areas/goose-creek-sc/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/north-charleston-sc/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in North Charleston, SC | Paul Davis Restoration of Charleston",
+      "h1": "Water Damage Restoration in North Charleston",
+      "meta_description": "Water damage restoration in North Charleston, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "water damage restoration north charleston",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/north-charleston-sc/",
+        "/service-areas/north-charleston-sc/fire-damage-restoration/",
+        "/service-areas/north-charleston-sc/mold-remediation/",
+        "/service-areas/awendaw-sc/water-damage-restoration/",
+        "/service-areas/goose-creek-sc/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/north-charleston-sc/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in North Charleston, SC | Paul Davis Restoration of Charleston",
+      "h1": "Fire Damage Restoration in North Charleston",
+      "meta_description": "Fire damage restoration in North Charleston, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "fire damage restoration north charleston",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/north-charleston-sc/",
+        "/service-areas/north-charleston-sc/mold-remediation/",
+        "/service-areas/north-charleston-sc/water-damage-restoration/",
+        "/service-areas/awendaw-sc/fire-damage-restoration/",
+        "/service-areas/goose-creek-sc/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/north-charleston-sc/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in North Charleston, SC | Paul Davis Restoration of Charleston",
+      "h1": "Mold Remediation in North Charleston",
+      "meta_description": "Mold remediation in North Charleston, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "mold remediation north charleston",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/north-charleston-sc/",
+        "/service-areas/north-charleston-sc/fire-damage-restoration/",
+        "/service-areas/north-charleston-sc/water-damage-restoration/",
+        "/service-areas/awendaw-sc/mold-remediation/",
+        "/service-areas/goose-creek-sc/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/north-charleston-sc/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in North Charleston, SC | Paul Davis Restoration of Charleston",
+      "h1": "Water Cleanup in North Charleston",
+      "meta_description": "Water cleanup in North Charleston, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "emergency water cleanup north charleston",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/north-charleston-sc/",
+        "/service-areas/north-charleston-sc/fire-damage-restoration/",
+        "/service-areas/north-charleston-sc/mold-remediation/",
+        "/service-areas/awendaw-sc/water-cleanup/",
+        "/service-areas/goose-creek-sc/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerville-sc/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Summerville, SC | Paul Davis Restoration of Charleston",
+      "h1": "Water Damage Restoration in Summerville",
+      "meta_description": "Water damage restoration in Summerville, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "water damage restoration summerville",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/summerville-sc/",
+        "/service-areas/summerville-sc/fire-damage-restoration/",
+        "/service-areas/summerville-sc/mold-remediation/",
+        "/service-areas/awendaw-sc/water-damage-restoration/",
+        "/service-areas/goose-creek-sc/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerville-sc/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Summerville, SC | Paul Davis Restoration of Charleston",
+      "h1": "Fire Damage Restoration in Summerville",
+      "meta_description": "Fire damage restoration in Summerville, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "fire damage restoration summerville",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/summerville-sc/",
+        "/service-areas/summerville-sc/mold-remediation/",
+        "/service-areas/summerville-sc/water-damage-restoration/",
+        "/service-areas/awendaw-sc/fire-damage-restoration/",
+        "/service-areas/goose-creek-sc/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerville-sc/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Summerville, SC | Paul Davis Restoration of Charleston",
+      "h1": "Mold Remediation in Summerville",
+      "meta_description": "Mold remediation in Summerville, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "mold remediation summerville",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/summerville-sc/",
+        "/service-areas/summerville-sc/fire-damage-restoration/",
+        "/service-areas/summerville-sc/water-damage-restoration/",
+        "/service-areas/awendaw-sc/mold-remediation/",
+        "/service-areas/goose-creek-sc/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerville-sc/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Summerville, SC | Paul Davis Restoration of Charleston",
+      "h1": "Water Cleanup in Summerville",
+      "meta_description": "Water cleanup in Summerville, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "emergency water cleanup summerville",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/summerville-sc/",
+        "/service-areas/summerville-sc/fire-damage-restoration/",
+        "/service-areas/summerville-sc/mold-remediation/",
+        "/service-areas/awendaw-sc/water-cleanup/",
+        "/service-areas/goose-creek-sc/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/james-island-sc/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in James Island, SC | Paul Davis Restoration of Charleston",
+      "h1": "Water Damage Restoration in James Island",
+      "meta_description": "Water damage restoration in James Island, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "water damage restoration james island",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/james-island-sc/",
+        "/service-areas/james-island-sc/fire-damage-restoration/",
+        "/service-areas/james-island-sc/mold-remediation/",
+        "/service-areas/awendaw-sc/water-damage-restoration/",
+        "/service-areas/goose-creek-sc/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/james-island-sc/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in James Island, SC | Paul Davis Restoration of Charleston",
+      "h1": "Fire Damage Restoration in James Island",
+      "meta_description": "Fire damage restoration in James Island, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "fire damage restoration james island",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/james-island-sc/",
+        "/service-areas/james-island-sc/mold-remediation/",
+        "/service-areas/james-island-sc/water-damage-restoration/",
+        "/service-areas/awendaw-sc/fire-damage-restoration/",
+        "/service-areas/goose-creek-sc/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/james-island-sc/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in James Island, SC | Paul Davis Restoration of Charleston",
+      "h1": "Mold Remediation in James Island",
+      "meta_description": "Mold remediation in James Island, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "mold remediation james island",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/james-island-sc/",
+        "/service-areas/james-island-sc/fire-damage-restoration/",
+        "/service-areas/james-island-sc/water-damage-restoration/",
+        "/service-areas/awendaw-sc/mold-remediation/",
+        "/service-areas/goose-creek-sc/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/james-island-sc/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in James Island, SC | Paul Davis Restoration of Charleston",
+      "h1": "Water Cleanup in James Island",
+      "meta_description": "Water cleanup in James Island, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "emergency water cleanup james island",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/james-island-sc/",
+        "/service-areas/james-island-sc/fire-damage-restoration/",
+        "/service-areas/james-island-sc/mold-remediation/",
+        "/service-areas/awendaw-sc/water-cleanup/",
+        "/service-areas/goose-creek-sc/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hanahan-sc/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Hanahan, SC | Paul Davis Restoration of Charleston",
+      "h1": "Water Damage Restoration in Hanahan",
+      "meta_description": "Water damage restoration in Hanahan, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "water damage restoration hanahan",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/hanahan-sc/",
+        "/service-areas/hanahan-sc/fire-damage-restoration/",
+        "/service-areas/hanahan-sc/mold-remediation/",
+        "/service-areas/awendaw-sc/water-damage-restoration/",
+        "/service-areas/goose-creek-sc/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hanahan-sc/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Hanahan, SC | Paul Davis Restoration of Charleston",
+      "h1": "Fire Damage Restoration in Hanahan",
+      "meta_description": "Fire damage restoration in Hanahan, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "fire damage restoration hanahan",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/hanahan-sc/",
+        "/service-areas/hanahan-sc/mold-remediation/",
+        "/service-areas/hanahan-sc/water-damage-restoration/",
+        "/service-areas/awendaw-sc/fire-damage-restoration/",
+        "/service-areas/goose-creek-sc/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hanahan-sc/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Hanahan, SC | Paul Davis Restoration of Charleston",
+      "h1": "Mold Remediation in Hanahan",
+      "meta_description": "Mold remediation in Hanahan, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "mold remediation hanahan",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/hanahan-sc/",
+        "/service-areas/hanahan-sc/fire-damage-restoration/",
+        "/service-areas/hanahan-sc/water-damage-restoration/",
+        "/service-areas/awendaw-sc/mold-remediation/",
+        "/service-areas/goose-creek-sc/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hanahan-sc/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Hanahan, SC | Paul Davis Restoration of Charleston",
+      "h1": "Water Cleanup in Hanahan",
+      "meta_description": "Water cleanup in Hanahan, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "emergency water cleanup hanahan",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/hanahan-sc/",
+        "/service-areas/hanahan-sc/fire-damage-restoration/",
+        "/service-areas/hanahan-sc/mold-remediation/",
+        "/service-areas/awendaw-sc/water-cleanup/",
+        "/service-areas/goose-creek-sc/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/goose-creek-sc/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Goose Creek, SC | Paul Davis Restoration of Charleston",
+      "h1": "Water Damage Restoration in Goose Creek",
+      "meta_description": "Water damage restoration in Goose Creek, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "water damage restoration goose creek",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/goose-creek-sc/",
+        "/service-areas/goose-creek-sc/fire-damage-restoration/",
+        "/service-areas/goose-creek-sc/mold-remediation/",
+        "/service-areas/awendaw-sc/water-damage-restoration/",
+        "/service-areas/hanahan-sc/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/goose-creek-sc/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Goose Creek, SC | Paul Davis Restoration of Charleston",
+      "h1": "Fire Damage Restoration in Goose Creek",
+      "meta_description": "Fire damage restoration in Goose Creek, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "fire damage restoration goose creek",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/goose-creek-sc/",
+        "/service-areas/goose-creek-sc/mold-remediation/",
+        "/service-areas/goose-creek-sc/water-damage-restoration/",
+        "/service-areas/awendaw-sc/fire-damage-restoration/",
+        "/service-areas/hanahan-sc/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/goose-creek-sc/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Goose Creek, SC | Paul Davis Restoration of Charleston",
+      "h1": "Mold Remediation in Goose Creek",
+      "meta_description": "Mold remediation in Goose Creek, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "mold remediation goose creek",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/goose-creek-sc/",
+        "/service-areas/goose-creek-sc/fire-damage-restoration/",
+        "/service-areas/goose-creek-sc/water-damage-restoration/",
+        "/service-areas/awendaw-sc/mold-remediation/",
+        "/service-areas/hanahan-sc/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/goose-creek-sc/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Goose Creek, SC | Paul Davis Restoration of Charleston",
+      "h1": "Water Cleanup in Goose Creek",
+      "meta_description": "Water cleanup in Goose Creek, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "emergency water cleanup goose creek",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/goose-creek-sc/",
+        "/service-areas/goose-creek-sc/fire-damage-restoration/",
+        "/service-areas/goose-creek-sc/mold-remediation/",
+        "/service-areas/awendaw-sc/water-cleanup/",
+        "/service-areas/hanahan-sc/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sullivan-s-island-sc/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Sullivan's Island, SC | Paul Davis Restoration of Charleston",
+      "h1": "Water Damage Restoration in Sullivan's Island",
+      "meta_description": "Water damage restoration in Sullivan's Island, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "water damage restoration sullivan's island",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/sullivan-s-island-sc/",
+        "/service-areas/sullivan-s-island-sc/fire-damage-restoration/",
+        "/service-areas/sullivan-s-island-sc/mold-remediation/",
+        "/service-areas/awendaw-sc/water-damage-restoration/",
+        "/service-areas/goose-creek-sc/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sullivan-s-island-sc/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Sullivan's Island, SC | Paul Davis Restoration of Charleston",
+      "h1": "Fire Damage Restoration in Sullivan's Island",
+      "meta_description": "Fire damage restoration in Sullivan's Island, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "fire damage restoration sullivan's island",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/sullivan-s-island-sc/",
+        "/service-areas/sullivan-s-island-sc/mold-remediation/",
+        "/service-areas/sullivan-s-island-sc/water-damage-restoration/",
+        "/service-areas/awendaw-sc/fire-damage-restoration/",
+        "/service-areas/goose-creek-sc/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sullivan-s-island-sc/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Sullivan's Island, SC | Paul Davis Restoration of Charleston",
+      "h1": "Mold Remediation in Sullivan's Island",
+      "meta_description": "Mold remediation in Sullivan's Island, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "mold remediation sullivan's island",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/sullivan-s-island-sc/",
+        "/service-areas/sullivan-s-island-sc/fire-damage-restoration/",
+        "/service-areas/sullivan-s-island-sc/water-damage-restoration/",
+        "/service-areas/awendaw-sc/mold-remediation/",
+        "/service-areas/goose-creek-sc/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sullivan-s-island-sc/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Sullivan's Island, SC | Paul Davis Restoration of Charleston",
+      "h1": "Water Cleanup in Sullivan's Island",
+      "meta_description": "Water cleanup in Sullivan's Island, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "emergency water cleanup sullivan's island",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/sullivan-s-island-sc/",
+        "/service-areas/sullivan-s-island-sc/fire-damage-restoration/",
+        "/service-areas/sullivan-s-island-sc/mold-remediation/",
+        "/service-areas/awendaw-sc/water-cleanup/",
+        "/service-areas/goose-creek-sc/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/isle-of-palms-sc/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Isle of Palms, SC | Paul Davis Restoration of Charleston",
+      "h1": "Water Damage Restoration in Isle of Palms",
+      "meta_description": "Water damage restoration in Isle of Palms, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "water damage restoration isle of palms",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/isle-of-palms-sc/",
+        "/service-areas/isle-of-palms-sc/fire-damage-restoration/",
+        "/service-areas/isle-of-palms-sc/mold-remediation/",
+        "/service-areas/awendaw-sc/water-damage-restoration/",
+        "/service-areas/goose-creek-sc/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/isle-of-palms-sc/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Isle of Palms, SC | Paul Davis Restoration of Charleston",
+      "h1": "Fire Damage Restoration in Isle of Palms",
+      "meta_description": "Fire damage restoration in Isle of Palms, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "fire damage restoration isle of palms",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/isle-of-palms-sc/",
+        "/service-areas/isle-of-palms-sc/mold-remediation/",
+        "/service-areas/isle-of-palms-sc/water-damage-restoration/",
+        "/service-areas/awendaw-sc/fire-damage-restoration/",
+        "/service-areas/goose-creek-sc/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/isle-of-palms-sc/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Isle of Palms, SC | Paul Davis Restoration of Charleston",
+      "h1": "Mold Remediation in Isle of Palms",
+      "meta_description": "Mold remediation in Isle of Palms, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "mold remediation isle of palms",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/isle-of-palms-sc/",
+        "/service-areas/isle-of-palms-sc/fire-damage-restoration/",
+        "/service-areas/isle-of-palms-sc/water-damage-restoration/",
+        "/service-areas/awendaw-sc/mold-remediation/",
+        "/service-areas/goose-creek-sc/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/isle-of-palms-sc/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Isle of Palms, SC | Paul Davis Restoration of Charleston",
+      "h1": "Water Cleanup in Isle of Palms",
+      "meta_description": "Water cleanup in Isle of Palms, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "emergency water cleanup isle of palms",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/isle-of-palms-sc/",
+        "/service-areas/isle-of-palms-sc/fire-damage-restoration/",
+        "/service-areas/isle-of-palms-sc/mold-remediation/",
+        "/service-areas/awendaw-sc/water-cleanup/",
+        "/service-areas/goose-creek-sc/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ladson-sc/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Ladson, SC | Paul Davis Restoration of Charleston",
+      "h1": "Water Damage Restoration in Ladson",
+      "meta_description": "Water damage restoration in Ladson, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "water damage restoration ladson",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/ladson-sc/",
+        "/service-areas/ladson-sc/fire-damage-restoration/",
+        "/service-areas/ladson-sc/mold-remediation/",
+        "/service-areas/awendaw-sc/water-damage-restoration/",
+        "/service-areas/goose-creek-sc/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ladson-sc/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Ladson, SC | Paul Davis Restoration of Charleston",
+      "h1": "Fire Damage Restoration in Ladson",
+      "meta_description": "Fire damage restoration in Ladson, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "fire damage restoration ladson",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/ladson-sc/",
+        "/service-areas/ladson-sc/mold-remediation/",
+        "/service-areas/ladson-sc/water-damage-restoration/",
+        "/service-areas/awendaw-sc/fire-damage-restoration/",
+        "/service-areas/goose-creek-sc/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ladson-sc/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Ladson, SC | Paul Davis Restoration of Charleston",
+      "h1": "Mold Remediation in Ladson",
+      "meta_description": "Mold remediation in Ladson, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "mold remediation ladson",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/ladson-sc/",
+        "/service-areas/ladson-sc/fire-damage-restoration/",
+        "/service-areas/ladson-sc/water-damage-restoration/",
+        "/service-areas/awendaw-sc/mold-remediation/",
+        "/service-areas/goose-creek-sc/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ladson-sc/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Ladson, SC | Paul Davis Restoration of Charleston",
+      "h1": "Water Cleanup in Ladson",
+      "meta_description": "Water cleanup in Ladson, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "emergency water cleanup ladson",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/ladson-sc/",
+        "/service-areas/ladson-sc/fire-damage-restoration/",
+        "/service-areas/ladson-sc/mold-remediation/",
+        "/service-areas/awendaw-sc/water-cleanup/",
+        "/service-areas/goose-creek-sc/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/awendaw-sc/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Awendaw, SC | Paul Davis Restoration of Charleston",
+      "h1": "Water Damage Restoration in Awendaw",
+      "meta_description": "Water damage restoration in Awendaw, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "water damage restoration awendaw",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/awendaw-sc/",
+        "/service-areas/awendaw-sc/fire-damage-restoration/",
+        "/service-areas/awendaw-sc/mold-remediation/",
+        "/service-areas/goose-creek-sc/water-damage-restoration/",
+        "/service-areas/hanahan-sc/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/awendaw-sc/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Awendaw, SC | Paul Davis Restoration of Charleston",
+      "h1": "Fire Damage Restoration in Awendaw",
+      "meta_description": "Fire damage restoration in Awendaw, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "fire damage restoration awendaw",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/awendaw-sc/",
+        "/service-areas/awendaw-sc/mold-remediation/",
+        "/service-areas/awendaw-sc/water-damage-restoration/",
+        "/service-areas/goose-creek-sc/fire-damage-restoration/",
+        "/service-areas/hanahan-sc/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/awendaw-sc/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Awendaw, SC | Paul Davis Restoration of Charleston",
+      "h1": "Mold Remediation in Awendaw",
+      "meta_description": "Mold remediation in Awendaw, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "mold remediation awendaw",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/awendaw-sc/",
+        "/service-areas/awendaw-sc/fire-damage-restoration/",
+        "/service-areas/awendaw-sc/water-damage-restoration/",
+        "/service-areas/goose-creek-sc/mold-remediation/",
+        "/service-areas/hanahan-sc/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/awendaw-sc/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Awendaw, SC | Paul Davis Restoration of Charleston",
+      "h1": "Water Cleanup in Awendaw",
+      "meta_description": "Water cleanup in Awendaw, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "emergency water cleanup awendaw",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/awendaw-sc/",
+        "/service-areas/awendaw-sc/fire-damage-restoration/",
+        "/service-areas/awendaw-sc/mold-remediation/",
+        "/service-areas/goose-creek-sc/water-cleanup/",
+        "/service-areas/hanahan-sc/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/blog/what-to-do-first-24-hours-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "What To Do in the First 24 Hours After Water Damage",
+      "h1": "What To Do in the First 24 Hours After Water Damage",
+      "meta_description": "",
+      "primary_keyword": "what to do in the first 24 hours after water damage",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/burst-pipe-emergency-checklist/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Burst Pipe Checklist: Step-by-Step Response",
+      "h1": "Burst Pipe Checklist: Step-by-Step Response",
+      "meta_description": "",
+      "primary_keyword": "burst pipe checklist stepbystep response",
+      "secondary_keywords": [
+        "water damage restoration",
+        "appliance leak cleanup"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/does-homeowners-insurance-cover-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Does Homeowners Insurance Cover Water Damage? A Plain-English Guide",
+      "h1": "Does Homeowners Insurance Cover Water Damage? A Plain-English Guide",
+      "meta_description": "",
+      "primary_keyword": "does homeowners insurance cover water damage a plainenglish guide",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_insurance",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/signs-of-hidden-mold/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "7 Signs You Have Hidden Mold (and What To Do Next)",
+      "h1": "7 Signs You Have Hidden Mold (and What To Do Next)",
+      "meta_description": "",
+      "primary_keyword": "7 signs you have hidden mold and what to do next",
+      "secondary_keywords": [
+        "mold remediation"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ]
+    },
+    {
+      "url_path": "/blog/how-to-test-for-mold/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How To Test for Mold in Your Home (DIY Kits vs a Pro Inspection)",
+      "h1": "How To Test for Mold in Your Home (DIY Kits vs a Pro Inspection)",
+      "meta_description": "",
+      "primary_keyword": "how to test for mold in your home diy kits vs a pro inspection",
+      "secondary_keywords": [
+        "mold remediation",
+        "mold inspection and testing"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/signs-of-hidden-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ]
+    },
+    {
+      "url_path": "/blog/fire-damage-restoration-process/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "The Fire Damage Restoration Process, Explained",
+      "h1": "The Fire Damage Restoration Process, Explained",
+      "meta_description": "",
+      "primary_keyword": "the fire damage restoration process explained",
+      "secondary_keywords": [
+        "fire damage restoration",
+        "smoke damage restoration"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/fire-damage-restoration/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/smoke-odor-removal-techniques/"
+      ]
+    },
+    {
+      "url_path": "/blog/choosing-a-restoration-company/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How To Choose a Restoration Company in  (Without Getting Burned)",
+      "h1": "How To Choose a Restoration Company in  (Without Getting Burned)",
+      "meta_description": "",
+      "primary_keyword": "how to choose a restoration company in  without getting burned",
+      "secondary_keywords": [
+        "water damage restoration",
+        "fire damage restoration",
+        "mold remediation"
+      ],
+      "search_intent": "commercial_decision",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/fire-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/black-mold-vs-regular-mold/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Black Mold vs Regular Mold: How To Tell the Difference",
+      "h1": "Black Mold vs Regular Mold: How To Tell the Difference",
+      "meta_description": "",
+      "primary_keyword": "black mold vs regular mold how to tell the difference",
+      "secondary_keywords": [
+        "mold remediation"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/"
+      ]
+    },
+    {
+      "url_path": "/blog/how-long-does-water-damage-restoration-take/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How Long Does Water Damage Restoration Actually Take?",
+      "h1": "How Long Does Water Damage Restoration Actually Take?",
+      "meta_description": "",
+      "primary_keyword": "how long does water damage restoration actually take",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_process",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/mold-after-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How Quickly Does Mold Grow After Water Damage?",
+      "h1": "How Quickly Does Mold Grow After Water Damage?",
+      "meta_description": "",
+      "primary_keyword": "how quickly does mold grow after water damage",
+      "secondary_keywords": [
+        "mold remediation",
+        "water damage restoration"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/smoke-odor-removal-techniques/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How Professionals Remove Smoke Odor (and Why DIY Usually Fails)",
+      "h1": "How Professionals Remove Smoke Odor (and Why DIY Usually Fails)",
+      "meta_description": "",
+      "primary_keyword": "how professionals remove smoke odor and why diy usually fails",
+      "secondary_keywords": [
+        "smoke damage restoration",
+        "fire damage restoration"
+      ],
+      "search_intent": "informational_specialty",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/fire-damage-restoration/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/fire-damage-restoration-process/"
+      ]
+    },
+    {
+      "url_path": "/blog/basement-flooding-prevention/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "8 Ways To Prevent Basement Flooding This Season",
+      "h1": "8 Ways To Prevent Basement Flooding This Season",
+      "meta_description": "",
+      "primary_keyword": "8 ways to prevent basement flooding this season",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_prevention",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/privacy/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Privacy Policy | Paul Davis Restoration of Charleston",
+      "h1": "Privacy Policy",
+      "meta_description": "Privacy Policy | {brand.display_name}.",
+      "primary_keyword": "paul davis restoration of charleston privacy",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 600,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    },
+    {
+      "url_path": "/terms/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Terms of Service | Paul Davis Restoration of Charleston",
+      "h1": "Terms of Service",
+      "meta_description": "Terms of Service | {brand.display_name}.",
+      "primary_keyword": "paul davis restoration of charleston terms",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 600,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    },
+    {
+      "url_path": "/accessibility/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Accessibility Statement | Paul Davis Restoration of Charleston",
+      "h1": "Accessibility Statement",
+      "meta_description": "Accessibility Statement | {brand.display_name}.",
+      "primary_keyword": "paul davis restoration of charleston accessibility",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 400,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    }
+  ]
+}

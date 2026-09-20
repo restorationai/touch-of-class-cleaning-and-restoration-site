@@ -58,8 +58,9 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "5.0",
-  gbpReviewCount: "7",
+  gbpReviewCount: "8",
   gbpReviews: [
+    { author: "Atila", rating: 5, text: "Jimmy provided excellent water restoration service. He was professional, responsive, and did a great job from start to finish. I really appreciate his attention to detail and customer service. Highly recommended!", when: "September 2026" },
     { author: "Jeffrey", rating: 5, text: "Jimmy is Very Professional and knowledgeable. One of the best in the industry.", when: "November 2025" },
     { author: "Garret", rating: 5, text: "Jim did an amazing job taking care of my clients water damage problem. They were happy with results and the knowledge he provided. I only recommend him as he’s experienced, professional, and shows up prompt.", when: "November 2025" },
     { author: "Davis", rating: 5, text: "Jimmy and his team were great to work with — professional, responsive, and did excellent work here in the Thousand Oaks/Conejo Valley area. Highly recommend them for anyone looking for reliable, quality service.", when: "November 2025" },

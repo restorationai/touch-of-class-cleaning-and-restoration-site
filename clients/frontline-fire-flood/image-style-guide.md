@@ -20,6 +20,12 @@ VAN-OVERRIDE: a fleet of exactly THREE matching Ram ProMaster high-roof cargo va
 This guide is consulted by every image-generation call (Skill 3 launch images, Skill 4 blog hero images, future image regenerations). The goal: a viewer scrolling through the site should feel like one professional photographer documented one company on one continuous job. No stylistic drift from page to page.
 
 The values below are auto-populated from `plan-input.json` at planning time. Per-client brand colors come from the client's logo / brand identity — NOT from the canonical starter palette. The structural conventions (camera, lens, lighting, composition) are restoration-vertical canonical and shared across all Rank AI clients.
+
+---
+
+This guide is consulted by every image-generation call (Skill 3 launch images, Skill 4 blog hero images, future image regenerations). The goal: a viewer scrolling through the site should feel like one professional photographer documented one company on one continuous job. No stylistic drift from page to page.
+
+The values below are auto-populated from `plan-input.json` at planning time. Per-client brand colors come from the client's logo / brand identity — NOT from the canonical starter palette. The structural conventions (camera, lens, lighting, composition) are restoration-vertical canonical and shared across all Rank AI clients.
 ---
 
 ## STANDING BRAND RULES (2026-07-11) — apply to EVERY image, every client
@@ -202,7 +208,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Fire Damage Restoration, Mold Remediation, Storm Damage Restoration, Sewage Cleanup and Sanitization, Asbestos Abatement, Emergency Board-Up and Tarping, Contents Restoration & Storage, Water Cleanup)
+- [ ] (continue for each of Water Damage Restoration, Fire Damage Restoration, Mold Remediation, Storm Damage Restoration, Sewage Cleanup and Sanitization, Asbestos Abatement, Emergency Board-Up and Tarping, Contents Restoration & Storage, Emergency Water Cleanup)
 
 ### Service area pages (one image per city served)
 - [ ] Lakewood hero — exterior shot, regional housing stock, evocative of the city

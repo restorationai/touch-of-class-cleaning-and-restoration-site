@@ -1,21 +1,21 @@
 # Site Plan Report — Desert Valley Contracting Inc 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T04:57:05.435530+00:00
+- Generated: 2026-09-20T14:13:40.940382+00:00
 - Domain: `desertvalleycontracting.net`
 - Services selected: 9 of 65 catalog entries
-- Service areas: 9
+- Service areas: 10
 - Cross-product enabled: True
-- Total URLs: **106**
-- Total internal links: 811 (avg 7.7 per page)
+- Total URLs: **116**
+- Total internal links: 899 (avg 7.8 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 72 |
+| `service-area-service` | 81 |
 | `service-landing` | 9 |
-| `service-area` | 8 |
+| `service-area` | 9 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -48,6 +48,7 @@
 - `enterprise-nv` — Enterprise, NV
 - `summerlin-nv` — Summerlin, NV
 - `boulder-city-nv` — Boulder City, NV
+- `winchester-nv` — Winchester, NV
 
 ## Top 10 priority pages
 

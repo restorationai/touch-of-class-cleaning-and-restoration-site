@@ -1,0 +1,72 @@
+# Site Plan Report — Paul Davis Restoration of Charleston
+
+- Template: `restoration` v0.3.0
+- Generated: 2026-09-20T14:13:24.872086+00:00
+- Domain: `None`
+- Services selected: 4 of 65 catalog entries
+- Service areas: 11
+- Cross-product enabled: True
+- Total URLs: **75**
+- Total internal links: 543 (avg 7.2 per page)
+
+## URLs by archetype
+
+| Archetype | Count |
+| --- | --- |
+| `service-area-service` | 40 |
+| `blog-post` | 12 |
+| `service-area` | 10 |
+| `service-landing` | 4 |
+| `legal` | 3 |
+| `home` | 1 |
+| `services-hub` | 1 |
+| `service-areas-hub` | 1 |
+| `blog-index` | 1 |
+| `about` | 1 |
+| `contact` | 1 |
+
+## Selected services
+
+- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
+- `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
+- `mold-remediation` — Mold Remediation (core, priority 10)
+- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
+
+## Service areas
+
+- `charleston-sc` — Charleston, SC *(primary)*
+- `mount-pleasant-sc` — Mount Pleasant, SC
+- `north-charleston-sc` — North Charleston, SC
+- `summerville-sc` — Summerville, SC
+- `james-island-sc` — James Island, SC
+- `hanahan-sc` — Hanahan, SC
+- `goose-creek-sc` — Goose Creek, SC
+- `sullivan-s-island-sc` — Sullivan's Island, SC
+- `isle-of-palms-sc` — Isle of Palms, SC
+- `ladson-sc` — Ladson, SC
+- `awendaw-sc` — Awendaw, SC
+
+## Top 10 priority pages
+
+| URL | Archetype | Priority | Primary keyword |
+| --- | --- | --- | --- |
+| `/services/fire-damage-restoration/` | `service-landing` | 9.0 | fire damage restoration charleston |
+| `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation charleston |
+| `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration charleston |
+| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup charleston |
+| `/service-areas/awendaw-sc/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration awendaw |
+| `/service-areas/awendaw-sc/mold-remediation/` | `service-area-service` | 7.0 | mold remediation awendaw |
+| `/service-areas/awendaw-sc/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration awendaw |
+| `/service-areas/goose-creek-sc/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration goose creek |
+| `/service-areas/goose-creek-sc/mold-remediation/` | `service-area-service` | 7.0 | mold remediation goose creek |
+| `/service-areas/goose-creek-sc/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration goose creek |
+
+## Validation
+
+All checks passed.
+
+## Next steps
+
+1. Open `content-map.csv` and skim the URL list. Edit titles/keywords inline if needed.
+2. Run `plan_site.py validate --slug {slug}` after edits.
+3. Hand the plan dir off to Skill 3 (`rank-ai-build-site`) when it exists.

@@ -1,21 +1,21 @@
 # Site Plan Report — RT Olson Plumbing, Heating and Air Conditioning
 
 - Template: `plumbing` v0.1.0
-- Generated: 2026-09-03T03:01:26.577465+00:00
+- Generated: 2026-09-20T14:13:48.440599+00:00
 - Domain: `rtolsonplumbing.com`
-- Services selected: 11 of 22 catalog entries
-- Service areas: 34
+- Services selected: 12 of 22 catalog entries
+- Service areas: 40
 - Cross-product enabled: True
-- Total URLs: **424**
-- Total internal links: 3364 (avg 7.9 per page)
+- Total URLs: **536**
+- Total internal links: 4264 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 363 |
-| `service-area` | 33 |
-| `service-landing` | 11 |
+| `service-area-service` | 468 |
+| `service-area` | 39 |
+| `service-landing` | 12 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -38,6 +38,7 @@
 - `ac-repair` — Air Conditioning Repair (core, priority 10)
 - `furnace-repair` — Furnace Repair (core, priority 9)
 - `indoor-air-quality` — Indoor Air Quality Services (specialty, priority 6)
+- `repiping` — Whole-House Repiping (specialty, priority 7)
 
 ## Service areas
 
@@ -75,6 +76,12 @@
 - `san-bernardino-ca` — San Bernardino, CA
 - `hemet-ca` — Hemet, CA
 - `san-jacinto-ca` — San Jacinto, CA
+- `silverado-ca` — Silverado, CA
+- `temescal-valley-ca` — Temescal Valley, CA
+- `lake-mathews-ca` — Lake Mathews, CA
+- `woodcrest-ca` — Woodcrest, CA
+- `trabuco-canyon-ca` — Trabuco Canyon, CA
+- `north-tustin-ca` — North Tustin, CA
 
 ## Top 10 priority pages
 

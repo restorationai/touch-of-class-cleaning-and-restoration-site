@@ -419,6 +419,11 @@
       "city": "Milton",
       "state": "WA",
       "slug": "milton-wa"
+    },
+    {
+      "city": "Pacific",
+      "state": "WA",
+      "slug": "pacific-wa"
     }
   ],
   "brand": {

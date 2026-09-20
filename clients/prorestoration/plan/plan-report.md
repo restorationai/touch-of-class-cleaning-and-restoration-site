@@ -1,22 +1,22 @@
 # Site Plan Report — ProRestoration Services
 
-- Template: `restoration` v0.2.0
-- Generated: 2026-07-08T18:41:56.659823+00:00
+- Template: `restoration` v0.3.0
+- Generated: 2026-09-20T14:13:26.385658+00:00
 - Domain: `prorestorationca.com`
-- Services selected: 16 of 45 catalog entries
-- Service areas: 11
+- Services selected: 17 of 65 catalog entries
+- Service areas: 17
 - Cross-product enabled: True
-- Total URLs: **224**
-- Total internal links: 1828 (avg 8.2 per page)
+- Total URLs: **326**
+- Total internal links: 2665 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 176 |
-| `service-landing` | 16 |
+| `service-area-service` | 272 |
+| `service-landing` | 17 |
+| `service-area` | 16 |
 | `blog-post` | 12 |
-| `service-area` | 11 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -43,6 +43,7 @@
 - `reconstruction` — Reconstruction Services (core, priority 9)
 - `home-remodeling` — Home Remodeling (construction, priority 10)
 - `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
+- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 
 ## Service areas
 
@@ -57,6 +58,12 @@
 - `arvin-ca` — Arvin, CA
 - `lamont-ca` — Lamont, CA
 - `lake-isabella-ca` — Lake Isabella, CA
+- `east-niles-ca` — East Niles, CA
+- `tarina-ca` — Tarina, CA
+- `weedpatch-ca` — Weedpatch, CA
+- `buttonwillow-ca` — Buttonwillow, CA
+- `dustin-acres-ca` — Dustin Acres, CA
+- `mcfarland-ca` — McFarland, CA
 
 ## Top 10 priority pages
 
@@ -71,7 +78,7 @@
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization bakersfield |
 | `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration bakersfield |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration bakersfield |
-| `/service-areas/bakersfield-ca/` | `service-area` | 7.2 | restoration services bakersfield |
+| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup bakersfield |
 
 ## Validation
 

@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-08-05T18:22:21.261783+00:00",
+  "generated_at": "2026-09-20T14:13:21.387442+00:00",
   "input_summary": {
-    "service_count": 7,
-    "service_area_count": 9,
+    "service_count": 8,
+    "service_area_count": 15,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -49,17 +49,23 @@
         "/services/water-damage-restoration/",
         "/services/sewage-cleanup/",
         "/services/storm-damage-restoration/",
+        "/services/water-cleanup/",
         "/services/biohazard-cleanup/",
         "/services/contents-restoration/",
-        "/service-areas/henderson-nv/",
+        "/service-areas/blue-diamond-nv/",
         "/service-areas/boulder-city-nv/",
         "/service-areas/enterprise-nv/",
+        "/service-areas/goodsprings-nv/",
         "/service-areas/las-vegas-nv/",
+        "/service-areas/nellis-afb-nv/",
+        "/service-areas/nelson-nv/",
         "/service-areas/north-las-vegas-nv/",
         "/service-areas/paradise-nv/",
         "/service-areas/spring-valley-nv/",
+        "/service-areas/summerlin-south-nv/",
         "/service-areas/sunrise-manor-nv/",
-        "/service-areas/whitney-nv/"
+        "/service-areas/whitney-nv/",
+        "/service-areas/winchester-nv/"
       ]
     },
     {
@@ -97,6 +103,7 @@
         "/services/water-damage-restoration/",
         "/services/sewage-cleanup/",
         "/services/storm-damage-restoration/",
+        "/services/water-cleanup/",
         "/services/biohazard-cleanup/",
         "/services/contents-restoration/"
       ]
@@ -130,15 +137,20 @@
       "status": "planned",
       "internal_links_out": [
         "/",
-        "/service-areas/henderson-nv/",
+        "/service-areas/blue-diamond-nv/",
         "/service-areas/boulder-city-nv/",
         "/service-areas/enterprise-nv/",
+        "/service-areas/goodsprings-nv/",
         "/service-areas/las-vegas-nv/",
+        "/service-areas/nellis-afb-nv/",
+        "/service-areas/nelson-nv/",
         "/service-areas/north-las-vegas-nv/",
         "/service-areas/paradise-nv/",
         "/service-areas/spring-valley-nv/",
+        "/service-areas/summerlin-south-nv/",
         "/service-areas/sunrise-manor-nv/",
-        "/service-areas/whitney-nv/"
+        "/service-areas/whitney-nv/",
+        "/service-areas/winchester-nv/"
       ]
     },
     {
@@ -282,15 +294,19 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
         "/service-areas/enterprise-nv/water-damage-restoration/",
-        "/service-areas/henderson-nv/water-damage-restoration/",
+        "/service-areas/goodsprings-nv/water-damage-restoration/",
         "/service-areas/las-vegas-nv/water-damage-restoration/",
+        "/service-areas/nellis-afb-nv/water-damage-restoration/",
+        "/service-areas/nelson-nv/water-damage-restoration/",
         "/service-areas/north-las-vegas-nv/water-damage-restoration/",
         "/service-areas/paradise-nv/water-damage-restoration/",
         "/service-areas/spring-valley-nv/water-damage-restoration/",
+        "/service-areas/summerlin-south-nv/water-damage-restoration/",
         "/service-areas/sunrise-manor-nv/water-damage-restoration/",
-        "/service-areas/whitney-nv/water-damage-restoration/",
+        "/services/water-cleanup/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
         "/blog/choosing-a-restoration-company/"
@@ -332,15 +348,18 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/mold-remediation/",
         "/service-areas/enterprise-nv/mold-remediation/",
-        "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/goodsprings-nv/mold-remediation/",
         "/service-areas/las-vegas-nv/mold-remediation/",
+        "/service-areas/nellis-afb-nv/mold-remediation/",
+        "/service-areas/nelson-nv/mold-remediation/",
         "/service-areas/north-las-vegas-nv/mold-remediation/",
         "/service-areas/paradise-nv/mold-remediation/",
         "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/summerlin-south-nv/mold-remediation/",
         "/service-areas/sunrise-manor-nv/mold-remediation/",
-        "/service-areas/whitney-nv/mold-remediation/",
         "/blog/choosing-a-restoration-company/",
         "/blog/how-to-test-for-mold/",
         "/blog/signs-of-hidden-mold/"
@@ -382,15 +401,18 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
         "/service-areas/enterprise-nv/fire-damage-restoration/",
-        "/service-areas/henderson-nv/fire-damage-restoration/",
+        "/service-areas/goodsprings-nv/fire-damage-restoration/",
         "/service-areas/las-vegas-nv/fire-damage-restoration/",
+        "/service-areas/nellis-afb-nv/fire-damage-restoration/",
+        "/service-areas/nelson-nv/fire-damage-restoration/",
         "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
         "/service-areas/paradise-nv/fire-damage-restoration/",
         "/service-areas/spring-valley-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-south-nv/fire-damage-restoration/",
         "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
-        "/service-areas/whitney-nv/fire-damage-restoration/",
         "/blog/choosing-a-restoration-company/",
         "/blog/fire-damage-restoration-process/"
       ]
@@ -431,15 +453,18 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/blue-diamond-nv/storm-damage-restoration/",
         "/service-areas/boulder-city-nv/storm-damage-restoration/",
         "/service-areas/enterprise-nv/storm-damage-restoration/",
-        "/service-areas/henderson-nv/storm-damage-restoration/",
+        "/service-areas/goodsprings-nv/storm-damage-restoration/",
         "/service-areas/las-vegas-nv/storm-damage-restoration/",
+        "/service-areas/nellis-afb-nv/storm-damage-restoration/",
+        "/service-areas/nelson-nv/storm-damage-restoration/",
         "/service-areas/north-las-vegas-nv/storm-damage-restoration/",
         "/service-areas/paradise-nv/storm-damage-restoration/",
         "/service-areas/spring-valley-nv/storm-damage-restoration/",
-        "/service-areas/sunrise-manor-nv/storm-damage-restoration/",
-        "/service-areas/whitney-nv/storm-damage-restoration/"
+        "/service-areas/summerlin-south-nv/storm-damage-restoration/",
+        "/service-areas/sunrise-manor-nv/storm-damage-restoration/"
       ]
     },
     {
@@ -478,15 +503,18 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
         "/service-areas/boulder-city-nv/sewage-cleanup/",
         "/service-areas/enterprise-nv/sewage-cleanup/",
-        "/service-areas/henderson-nv/sewage-cleanup/",
+        "/service-areas/goodsprings-nv/sewage-cleanup/",
         "/service-areas/las-vegas-nv/sewage-cleanup/",
+        "/service-areas/nellis-afb-nv/sewage-cleanup/",
+        "/service-areas/nelson-nv/sewage-cleanup/",
         "/service-areas/north-las-vegas-nv/sewage-cleanup/",
         "/service-areas/paradise-nv/sewage-cleanup/",
         "/service-areas/spring-valley-nv/sewage-cleanup/",
-        "/service-areas/sunrise-manor-nv/sewage-cleanup/",
-        "/service-areas/whitney-nv/sewage-cleanup/"
+        "/service-areas/summerlin-south-nv/sewage-cleanup/",
+        "/service-areas/sunrise-manor-nv/sewage-cleanup/"
       ]
     },
     {
@@ -525,15 +553,18 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
         "/service-areas/boulder-city-nv/biohazard-cleanup/",
         "/service-areas/enterprise-nv/biohazard-cleanup/",
-        "/service-areas/henderson-nv/biohazard-cleanup/",
+        "/service-areas/goodsprings-nv/biohazard-cleanup/",
         "/service-areas/las-vegas-nv/biohazard-cleanup/",
+        "/service-areas/nellis-afb-nv/biohazard-cleanup/",
+        "/service-areas/nelson-nv/biohazard-cleanup/",
         "/service-areas/north-las-vegas-nv/biohazard-cleanup/",
         "/service-areas/paradise-nv/biohazard-cleanup/",
         "/service-areas/spring-valley-nv/biohazard-cleanup/",
-        "/service-areas/sunrise-manor-nv/biohazard-cleanup/",
-        "/service-areas/whitney-nv/biohazard-cleanup/"
+        "/service-areas/summerlin-south-nv/biohazard-cleanup/",
+        "/service-areas/sunrise-manor-nv/biohazard-cleanup/"
       ]
     },
     {
@@ -572,15 +603,70 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/blue-diamond-nv/contents-restoration/",
         "/service-areas/boulder-city-nv/contents-restoration/",
         "/service-areas/enterprise-nv/contents-restoration/",
-        "/service-areas/henderson-nv/contents-restoration/",
+        "/service-areas/goodsprings-nv/contents-restoration/",
         "/service-areas/las-vegas-nv/contents-restoration/",
+        "/service-areas/nellis-afb-nv/contents-restoration/",
+        "/service-areas/nelson-nv/contents-restoration/",
         "/service-areas/north-las-vegas-nv/contents-restoration/",
         "/service-areas/paradise-nv/contents-restoration/",
         "/service-areas/spring-valley-nv/contents-restoration/",
-        "/service-areas/sunrise-manor-nv/contents-restoration/",
-        "/service-areas/whitney-nv/contents-restoration/"
+        "/service-areas/summerlin-south-nv/contents-restoration/",
+        "/service-areas/sunrise-manor-nv/contents-restoration/"
+      ]
+    },
+    {
+      "url_path": "/services/water-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Henderson | Life Savers Restoration LLC",
+      "h1": "Emergency Water Cleanup in Henderson",
+      "meta_description": "24/7 emergency water cleanup in Henderson and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "emergency water cleanup henderson",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
+        "/service-areas/enterprise-nv/water-cleanup/",
+        "/service-areas/goodsprings-nv/water-cleanup/",
+        "/service-areas/las-vegas-nv/water-cleanup/",
+        "/service-areas/nellis-afb-nv/water-cleanup/",
+        "/service-areas/nelson-nv/water-cleanup/",
+        "/service-areas/north-las-vegas-nv/water-cleanup/",
+        "/service-areas/paradise-nv/water-cleanup/",
+        "/service-areas/spring-valley-nv/water-cleanup/",
+        "/service-areas/summerlin-south-nv/water-cleanup/",
+        "/service-areas/sunrise-manor-nv/water-cleanup/",
+        "/services/water-damage-restoration/"
       ]
     },
     {
@@ -620,9 +706,10 @@
         "/service-areas/las-vegas-nv/water-damage-restoration/",
         "/service-areas/las-vegas-nv/sewage-cleanup/",
         "/service-areas/las-vegas-nv/storm-damage-restoration/",
+        "/service-areas/las-vegas-nv/water-cleanup/",
         "/service-areas/las-vegas-nv/biohazard-cleanup/",
         "/service-areas/las-vegas-nv/contents-restoration/",
-        "/service-areas/henderson-nv/",
+        "/service-areas/blue-diamond-nv/",
         "/service-areas/boulder-city-nv/",
         "/service-areas/enterprise-nv/"
       ]
@@ -664,9 +751,10 @@
         "/service-areas/north-las-vegas-nv/water-damage-restoration/",
         "/service-areas/north-las-vegas-nv/sewage-cleanup/",
         "/service-areas/north-las-vegas-nv/storm-damage-restoration/",
+        "/service-areas/north-las-vegas-nv/water-cleanup/",
         "/service-areas/north-las-vegas-nv/biohazard-cleanup/",
         "/service-areas/north-las-vegas-nv/contents-restoration/",
-        "/service-areas/henderson-nv/",
+        "/service-areas/blue-diamond-nv/",
         "/service-areas/boulder-city-nv/",
         "/service-areas/enterprise-nv/"
       ]
@@ -708,9 +796,10 @@
         "/service-areas/paradise-nv/water-damage-restoration/",
         "/service-areas/paradise-nv/sewage-cleanup/",
         "/service-areas/paradise-nv/storm-damage-restoration/",
+        "/service-areas/paradise-nv/water-cleanup/",
         "/service-areas/paradise-nv/biohazard-cleanup/",
         "/service-areas/paradise-nv/contents-restoration/",
-        "/service-areas/henderson-nv/",
+        "/service-areas/blue-diamond-nv/",
         "/service-areas/boulder-city-nv/",
         "/service-areas/enterprise-nv/"
       ]
@@ -752,9 +841,10 @@
         "/service-areas/spring-valley-nv/water-damage-restoration/",
         "/service-areas/spring-valley-nv/sewage-cleanup/",
         "/service-areas/spring-valley-nv/storm-damage-restoration/",
+        "/service-areas/spring-valley-nv/water-cleanup/",
         "/service-areas/spring-valley-nv/biohazard-cleanup/",
         "/service-areas/spring-valley-nv/contents-restoration/",
-        "/service-areas/henderson-nv/",
+        "/service-areas/blue-diamond-nv/",
         "/service-areas/boulder-city-nv/",
         "/service-areas/enterprise-nv/"
       ]
@@ -796,11 +886,12 @@
         "/service-areas/enterprise-nv/water-damage-restoration/",
         "/service-areas/enterprise-nv/sewage-cleanup/",
         "/service-areas/enterprise-nv/storm-damage-restoration/",
+        "/service-areas/enterprise-nv/water-cleanup/",
         "/service-areas/enterprise-nv/biohazard-cleanup/",
         "/service-areas/enterprise-nv/contents-restoration/",
-        "/service-areas/henderson-nv/",
+        "/service-areas/blue-diamond-nv/",
         "/service-areas/boulder-city-nv/",
-        "/service-areas/las-vegas-nv/"
+        "/service-areas/goodsprings-nv/"
       ]
     },
     {
@@ -840,9 +931,10 @@
         "/service-areas/sunrise-manor-nv/water-damage-restoration/",
         "/service-areas/sunrise-manor-nv/sewage-cleanup/",
         "/service-areas/sunrise-manor-nv/storm-damage-restoration/",
+        "/service-areas/sunrise-manor-nv/water-cleanup/",
         "/service-areas/sunrise-manor-nv/biohazard-cleanup/",
         "/service-areas/sunrise-manor-nv/contents-restoration/",
-        "/service-areas/henderson-nv/",
+        "/service-areas/blue-diamond-nv/",
         "/service-areas/boulder-city-nv/",
         "/service-areas/enterprise-nv/"
       ]
@@ -884,11 +976,12 @@
         "/service-areas/boulder-city-nv/water-damage-restoration/",
         "/service-areas/boulder-city-nv/sewage-cleanup/",
         "/service-areas/boulder-city-nv/storm-damage-restoration/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
         "/service-areas/boulder-city-nv/biohazard-cleanup/",
         "/service-areas/boulder-city-nv/contents-restoration/",
-        "/service-areas/henderson-nv/",
+        "/service-areas/blue-diamond-nv/",
         "/service-areas/enterprise-nv/",
-        "/service-areas/las-vegas-nv/"
+        "/service-areas/goodsprings-nv/"
       ]
     },
     {
@@ -928,9 +1021,280 @@
         "/service-areas/whitney-nv/water-damage-restoration/",
         "/service-areas/whitney-nv/sewage-cleanup/",
         "/service-areas/whitney-nv/storm-damage-restoration/",
+        "/service-areas/whitney-nv/water-cleanup/",
         "/service-areas/whitney-nv/biohazard-cleanup/",
         "/service-areas/whitney-nv/contents-restoration/",
-        "/service-areas/henderson-nv/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/enterprise-nv/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/winchester-nv/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Winchester, NV | Life Savers Restoration LLC",
+      "h1": "Restoration Services in Winchester",
+      "meta_description": "Serving Winchester, NV with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (702) 845-1325.",
+      "primary_keyword": "restoration services winchester",
+      "secondary_keywords": [
+        "winchester restoration company",
+        "damage restoration winchester",
+        "winchester disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/winchester-nv/fire-damage-restoration/",
+        "/service-areas/winchester-nv/mold-remediation/",
+        "/service-areas/winchester-nv/water-damage-restoration/",
+        "/service-areas/winchester-nv/sewage-cleanup/",
+        "/service-areas/winchester-nv/storm-damage-restoration/",
+        "/service-areas/winchester-nv/water-cleanup/",
+        "/service-areas/winchester-nv/biohazard-cleanup/",
+        "/service-areas/winchester-nv/contents-restoration/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/enterprise-nv/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nellis-afb-nv/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Nellis AFB, NV | Life Savers Restoration LLC",
+      "h1": "Restoration Services in Nellis AFB",
+      "meta_description": "Serving Nellis AFB, NV with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (702) 845-1325.",
+      "primary_keyword": "restoration services nellis afb",
+      "secondary_keywords": [
+        "nellis afb restoration company",
+        "damage restoration nellis afb",
+        "nellis afb disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/nellis-afb-nv/fire-damage-restoration/",
+        "/service-areas/nellis-afb-nv/mold-remediation/",
+        "/service-areas/nellis-afb-nv/water-damage-restoration/",
+        "/service-areas/nellis-afb-nv/sewage-cleanup/",
+        "/service-areas/nellis-afb-nv/storm-damage-restoration/",
+        "/service-areas/nellis-afb-nv/water-cleanup/",
+        "/service-areas/nellis-afb-nv/biohazard-cleanup/",
+        "/service-areas/nellis-afb-nv/contents-restoration/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/enterprise-nv/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-south-nv/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Summerlin South, NV | Life Savers Restoration LLC",
+      "h1": "Restoration Services in Summerlin South",
+      "meta_description": "Serving Summerlin South, NV with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (702) 845-1325.",
+      "primary_keyword": "restoration services summerlin south",
+      "secondary_keywords": [
+        "summerlin south restoration company",
+        "damage restoration summerlin south",
+        "summerlin south disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/summerlin-south-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-south-nv/mold-remediation/",
+        "/service-areas/summerlin-south-nv/water-damage-restoration/",
+        "/service-areas/summerlin-south-nv/sewage-cleanup/",
+        "/service-areas/summerlin-south-nv/storm-damage-restoration/",
+        "/service-areas/summerlin-south-nv/water-cleanup/",
+        "/service-areas/summerlin-south-nv/biohazard-cleanup/",
+        "/service-areas/summerlin-south-nv/contents-restoration/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/enterprise-nv/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Blue Diamond, NV | Life Savers Restoration LLC",
+      "h1": "Restoration Services in Blue Diamond",
+      "meta_description": "Serving Blue Diamond, NV with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (702) 845-1325.",
+      "primary_keyword": "restoration services blue diamond",
+      "secondary_keywords": [
+        "blue diamond restoration company",
+        "damage restoration blue diamond",
+        "blue diamond disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
+        "/service-areas/blue-diamond-nv/storm-damage-restoration/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
+        "/service-areas/blue-diamond-nv/contents-restoration/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/goodsprings-nv/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nelson-nv/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Nelson, NV | Life Savers Restoration LLC",
+      "h1": "Restoration Services in Nelson",
+      "meta_description": "Serving Nelson, NV with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (702) 845-1325.",
+      "primary_keyword": "restoration services nelson",
+      "secondary_keywords": [
+        "nelson restoration company",
+        "damage restoration nelson",
+        "nelson disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/nelson-nv/fire-damage-restoration/",
+        "/service-areas/nelson-nv/mold-remediation/",
+        "/service-areas/nelson-nv/water-damage-restoration/",
+        "/service-areas/nelson-nv/sewage-cleanup/",
+        "/service-areas/nelson-nv/storm-damage-restoration/",
+        "/service-areas/nelson-nv/water-cleanup/",
+        "/service-areas/nelson-nv/biohazard-cleanup/",
+        "/service-areas/nelson-nv/contents-restoration/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/enterprise-nv/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/goodsprings-nv/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Goodsprings, NV | Life Savers Restoration LLC",
+      "h1": "Restoration Services in Goodsprings",
+      "meta_description": "Serving Goodsprings, NV with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (702) 845-1325.",
+      "primary_keyword": "restoration services goodsprings",
+      "secondary_keywords": [
+        "goodsprings restoration company",
+        "damage restoration goodsprings",
+        "goodsprings disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/goodsprings-nv/fire-damage-restoration/",
+        "/service-areas/goodsprings-nv/mold-remediation/",
+        "/service-areas/goodsprings-nv/water-damage-restoration/",
+        "/service-areas/goodsprings-nv/sewage-cleanup/",
+        "/service-areas/goodsprings-nv/storm-damage-restoration/",
+        "/service-areas/goodsprings-nv/water-cleanup/",
+        "/service-areas/goodsprings-nv/biohazard-cleanup/",
+        "/service-areas/goodsprings-nv/contents-restoration/",
+        "/service-areas/blue-diamond-nv/",
         "/service-areas/boulder-city-nv/",
         "/service-areas/enterprise-nv/"
       ]
@@ -974,8 +1338,8 @@
         "/service-areas/las-vegas-nv/",
         "/service-areas/las-vegas-nv/fire-damage-restoration/",
         "/service-areas/las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
-        "/service-areas/enterprise-nv/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1018,8 +1382,8 @@
         "/service-areas/las-vegas-nv/",
         "/service-areas/las-vegas-nv/fire-damage-restoration/",
         "/service-areas/las-vegas-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/enterprise-nv/mold-remediation/",
         "/contact/"
       ]
     },
@@ -1062,8 +1426,8 @@
         "/service-areas/las-vegas-nv/",
         "/service-areas/las-vegas-nv/mold-remediation/",
         "/service-areas/las-vegas-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
-        "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1106,8 +1470,8 @@
         "/service-areas/las-vegas-nv/",
         "/service-areas/las-vegas-nv/fire-damage-restoration/",
         "/service-areas/las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/storm-damage-restoration/",
         "/service-areas/boulder-city-nv/storm-damage-restoration/",
-        "/service-areas/enterprise-nv/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1150,8 +1514,8 @@
         "/service-areas/las-vegas-nv/",
         "/service-areas/las-vegas-nv/fire-damage-restoration/",
         "/service-areas/las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
         "/service-areas/boulder-city-nv/sewage-cleanup/",
-        "/service-areas/enterprise-nv/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -1194,8 +1558,8 @@
         "/service-areas/las-vegas-nv/",
         "/service-areas/las-vegas-nv/fire-damage-restoration/",
         "/service-areas/las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
         "/service-areas/boulder-city-nv/biohazard-cleanup/",
-        "/service-areas/enterprise-nv/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -1238,8 +1602,53 @@
         "/service-areas/las-vegas-nv/",
         "/service-areas/las-vegas-nv/fire-damage-restoration/",
         "/service-areas/las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration/",
         "/service-areas/boulder-city-nv/contents-restoration/",
-        "/service-areas/enterprise-nv/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/las-vegas-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Las Vegas, NV | Life Savers Restoration LLC",
+      "h1": "Emergency Water Cleanup in Las Vegas",
+      "meta_description": "24/7 emergency water cleanup in Las Vegas, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "emergency water cleanup las vegas",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/las-vegas-nv/",
+        "/service-areas/las-vegas-nv/fire-damage-restoration/",
+        "/service-areas/las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -1282,8 +1691,8 @@
         "/service-areas/north-las-vegas-nv/",
         "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
         "/service-areas/north-las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
-        "/service-areas/enterprise-nv/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1326,8 +1735,8 @@
         "/service-areas/north-las-vegas-nv/",
         "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
         "/service-areas/north-las-vegas-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/enterprise-nv/mold-remediation/",
         "/contact/"
       ]
     },
@@ -1370,8 +1779,8 @@
         "/service-areas/north-las-vegas-nv/",
         "/service-areas/north-las-vegas-nv/mold-remediation/",
         "/service-areas/north-las-vegas-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
-        "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1414,8 +1823,8 @@
         "/service-areas/north-las-vegas-nv/",
         "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
         "/service-areas/north-las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/storm-damage-restoration/",
         "/service-areas/boulder-city-nv/storm-damage-restoration/",
-        "/service-areas/enterprise-nv/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1458,8 +1867,8 @@
         "/service-areas/north-las-vegas-nv/",
         "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
         "/service-areas/north-las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
         "/service-areas/boulder-city-nv/sewage-cleanup/",
-        "/service-areas/enterprise-nv/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -1502,8 +1911,8 @@
         "/service-areas/north-las-vegas-nv/",
         "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
         "/service-areas/north-las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
         "/service-areas/boulder-city-nv/biohazard-cleanup/",
-        "/service-areas/enterprise-nv/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -1546,8 +1955,53 @@
         "/service-areas/north-las-vegas-nv/",
         "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
         "/service-areas/north-las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration/",
         "/service-areas/boulder-city-nv/contents-restoration/",
-        "/service-areas/enterprise-nv/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/north-las-vegas-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in North Las Vegas, NV | Life Savers Restoration LLC",
+      "h1": "Emergency Water Cleanup in North Las Vegas",
+      "meta_description": "24/7 emergency water cleanup in North Las Vegas, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "emergency water cleanup north las vegas",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/north-las-vegas-nv/",
+        "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
+        "/service-areas/north-las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -1590,8 +2044,8 @@
         "/service-areas/paradise-nv/",
         "/service-areas/paradise-nv/fire-damage-restoration/",
         "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
-        "/service-areas/enterprise-nv/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1634,8 +2088,8 @@
         "/service-areas/paradise-nv/",
         "/service-areas/paradise-nv/fire-damage-restoration/",
         "/service-areas/paradise-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/enterprise-nv/mold-remediation/",
         "/contact/"
       ]
     },
@@ -1678,8 +2132,8 @@
         "/service-areas/paradise-nv/",
         "/service-areas/paradise-nv/mold-remediation/",
         "/service-areas/paradise-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
-        "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1722,8 +2176,8 @@
         "/service-areas/paradise-nv/",
         "/service-areas/paradise-nv/fire-damage-restoration/",
         "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/storm-damage-restoration/",
         "/service-areas/boulder-city-nv/storm-damage-restoration/",
-        "/service-areas/enterprise-nv/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1766,8 +2220,8 @@
         "/service-areas/paradise-nv/",
         "/service-areas/paradise-nv/fire-damage-restoration/",
         "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
         "/service-areas/boulder-city-nv/sewage-cleanup/",
-        "/service-areas/enterprise-nv/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -1810,8 +2264,8 @@
         "/service-areas/paradise-nv/",
         "/service-areas/paradise-nv/fire-damage-restoration/",
         "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
         "/service-areas/boulder-city-nv/biohazard-cleanup/",
-        "/service-areas/enterprise-nv/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -1854,8 +2308,53 @@
         "/service-areas/paradise-nv/",
         "/service-areas/paradise-nv/fire-damage-restoration/",
         "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration/",
         "/service-areas/boulder-city-nv/contents-restoration/",
-        "/service-areas/enterprise-nv/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/paradise-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Paradise, NV | Life Savers Restoration LLC",
+      "h1": "Emergency Water Cleanup in Paradise",
+      "meta_description": "24/7 emergency water cleanup in Paradise, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "emergency water cleanup paradise",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/paradise-nv/",
+        "/service-areas/paradise-nv/fire-damage-restoration/",
+        "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -1898,8 +2397,8 @@
         "/service-areas/spring-valley-nv/",
         "/service-areas/spring-valley-nv/fire-damage-restoration/",
         "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
-        "/service-areas/enterprise-nv/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1942,8 +2441,8 @@
         "/service-areas/spring-valley-nv/",
         "/service-areas/spring-valley-nv/fire-damage-restoration/",
         "/service-areas/spring-valley-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/enterprise-nv/mold-remediation/",
         "/contact/"
       ]
     },
@@ -1986,8 +2485,8 @@
         "/service-areas/spring-valley-nv/",
         "/service-areas/spring-valley-nv/mold-remediation/",
         "/service-areas/spring-valley-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
-        "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2030,8 +2529,8 @@
         "/service-areas/spring-valley-nv/",
         "/service-areas/spring-valley-nv/fire-damage-restoration/",
         "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/storm-damage-restoration/",
         "/service-areas/boulder-city-nv/storm-damage-restoration/",
-        "/service-areas/enterprise-nv/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2074,8 +2573,8 @@
         "/service-areas/spring-valley-nv/",
         "/service-areas/spring-valley-nv/fire-damage-restoration/",
         "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
         "/service-areas/boulder-city-nv/sewage-cleanup/",
-        "/service-areas/enterprise-nv/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -2118,8 +2617,8 @@
         "/service-areas/spring-valley-nv/",
         "/service-areas/spring-valley-nv/fire-damage-restoration/",
         "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
         "/service-areas/boulder-city-nv/biohazard-cleanup/",
-        "/service-areas/enterprise-nv/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -2162,8 +2661,53 @@
         "/service-areas/spring-valley-nv/",
         "/service-areas/spring-valley-nv/fire-damage-restoration/",
         "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration/",
         "/service-areas/boulder-city-nv/contents-restoration/",
-        "/service-areas/enterprise-nv/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spring-valley-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Spring Valley, NV | Life Savers Restoration LLC",
+      "h1": "Emergency Water Cleanup in Spring Valley",
+      "meta_description": "24/7 emergency water cleanup in Spring Valley, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "emergency water cleanup spring valley",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/spring-valley-nv/",
+        "/service-areas/spring-valley-nv/fire-damage-restoration/",
+        "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2206,8 +2750,8 @@
         "/service-areas/enterprise-nv/",
         "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
-        "/service-areas/henderson-nv/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2250,8 +2794,8 @@
         "/service-areas/enterprise-nv/",
         "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/service-areas/enterprise-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/henderson-nv/mold-remediation/",
         "/contact/"
       ]
     },
@@ -2294,8 +2838,8 @@
         "/service-areas/enterprise-nv/",
         "/service-areas/enterprise-nv/mold-remediation/",
         "/service-areas/enterprise-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
-        "/service-areas/henderson-nv/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2338,8 +2882,8 @@
         "/service-areas/enterprise-nv/",
         "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/storm-damage-restoration/",
         "/service-areas/boulder-city-nv/storm-damage-restoration/",
-        "/service-areas/henderson-nv/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2382,8 +2926,8 @@
         "/service-areas/enterprise-nv/",
         "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
         "/service-areas/boulder-city-nv/sewage-cleanup/",
-        "/service-areas/henderson-nv/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -2426,8 +2970,8 @@
         "/service-areas/enterprise-nv/",
         "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
         "/service-areas/boulder-city-nv/biohazard-cleanup/",
-        "/service-areas/henderson-nv/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -2470,8 +3014,53 @@
         "/service-areas/enterprise-nv/",
         "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration/",
         "/service-areas/boulder-city-nv/contents-restoration/",
-        "/service-areas/henderson-nv/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/enterprise-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Enterprise, NV | Life Savers Restoration LLC",
+      "h1": "Emergency Water Cleanup in Enterprise",
+      "meta_description": "24/7 emergency water cleanup in Enterprise, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "emergency water cleanup enterprise",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2514,8 +3103,8 @@
         "/service-areas/sunrise-manor-nv/",
         "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
         "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
-        "/service-areas/enterprise-nv/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2558,8 +3147,8 @@
         "/service-areas/sunrise-manor-nv/",
         "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
         "/service-areas/sunrise-manor-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/enterprise-nv/mold-remediation/",
         "/contact/"
       ]
     },
@@ -2602,8 +3191,8 @@
         "/service-areas/sunrise-manor-nv/",
         "/service-areas/sunrise-manor-nv/mold-remediation/",
         "/service-areas/sunrise-manor-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
-        "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2646,8 +3235,8 @@
         "/service-areas/sunrise-manor-nv/",
         "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
         "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/storm-damage-restoration/",
         "/service-areas/boulder-city-nv/storm-damage-restoration/",
-        "/service-areas/enterprise-nv/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2690,8 +3279,8 @@
         "/service-areas/sunrise-manor-nv/",
         "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
         "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
         "/service-areas/boulder-city-nv/sewage-cleanup/",
-        "/service-areas/enterprise-nv/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -2734,8 +3323,8 @@
         "/service-areas/sunrise-manor-nv/",
         "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
         "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
         "/service-areas/boulder-city-nv/biohazard-cleanup/",
-        "/service-areas/enterprise-nv/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -2778,8 +3367,53 @@
         "/service-areas/sunrise-manor-nv/",
         "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
         "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration/",
         "/service-areas/boulder-city-nv/contents-restoration/",
-        "/service-areas/enterprise-nv/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sunrise-manor-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Sunrise Manor, NV | Life Savers Restoration LLC",
+      "h1": "Emergency Water Cleanup in Sunrise Manor",
+      "meta_description": "24/7 emergency water cleanup in Sunrise Manor, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "emergency water cleanup sunrise manor",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/sunrise-manor-nv/",
+        "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
+        "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2822,8 +3456,8 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
         "/service-areas/enterprise-nv/water-damage-restoration/",
-        "/service-areas/henderson-nv/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2866,8 +3500,8 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/enterprise-nv/mold-remediation/",
-        "/service-areas/henderson-nv/mold-remediation/",
         "/contact/"
       ]
     },
@@ -2910,8 +3544,8 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/boulder-city-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
         "/service-areas/enterprise-nv/fire-damage-restoration/",
-        "/service-areas/henderson-nv/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2954,8 +3588,8 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/storm-damage-restoration/",
         "/service-areas/enterprise-nv/storm-damage-restoration/",
-        "/service-areas/henderson-nv/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2998,8 +3632,8 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
         "/service-areas/enterprise-nv/sewage-cleanup/",
-        "/service-areas/henderson-nv/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -3042,8 +3676,8 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
         "/service-areas/enterprise-nv/biohazard-cleanup/",
-        "/service-areas/henderson-nv/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -3086,8 +3720,53 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration/",
         "/service-areas/enterprise-nv/contents-restoration/",
-        "/service-areas/henderson-nv/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/boulder-city-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Boulder City, NV | Life Savers Restoration LLC",
+      "h1": "Emergency Water Cleanup in Boulder City",
+      "meta_description": "24/7 emergency water cleanup in Boulder City, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "emergency water cleanup boulder city",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
+        "/service-areas/enterprise-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3130,8 +3809,8 @@
         "/service-areas/whitney-nv/",
         "/service-areas/whitney-nv/fire-damage-restoration/",
         "/service-areas/whitney-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
-        "/service-areas/enterprise-nv/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3174,8 +3853,8 @@
         "/service-areas/whitney-nv/",
         "/service-areas/whitney-nv/fire-damage-restoration/",
         "/service-areas/whitney-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/enterprise-nv/mold-remediation/",
         "/contact/"
       ]
     },
@@ -3218,8 +3897,8 @@
         "/service-areas/whitney-nv/",
         "/service-areas/whitney-nv/mold-remediation/",
         "/service-areas/whitney-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
-        "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3262,8 +3941,8 @@
         "/service-areas/whitney-nv/",
         "/service-areas/whitney-nv/fire-damage-restoration/",
         "/service-areas/whitney-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/storm-damage-restoration/",
         "/service-areas/boulder-city-nv/storm-damage-restoration/",
-        "/service-areas/enterprise-nv/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3306,8 +3985,8 @@
         "/service-areas/whitney-nv/",
         "/service-areas/whitney-nv/fire-damage-restoration/",
         "/service-areas/whitney-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
         "/service-areas/boulder-city-nv/sewage-cleanup/",
-        "/service-areas/enterprise-nv/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -3350,8 +4029,8 @@
         "/service-areas/whitney-nv/",
         "/service-areas/whitney-nv/fire-damage-restoration/",
         "/service-areas/whitney-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
         "/service-areas/boulder-city-nv/biohazard-cleanup/",
-        "/service-areas/enterprise-nv/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -3394,8 +4073,2171 @@
         "/service-areas/whitney-nv/",
         "/service-areas/whitney-nv/fire-damage-restoration/",
         "/service-areas/whitney-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration/",
+        "/service-areas/boulder-city-nv/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/whitney-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Whitney, NV | Life Savers Restoration LLC",
+      "h1": "Emergency Water Cleanup in Whitney",
+      "meta_description": "24/7 emergency water cleanup in Whitney, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "emergency water cleanup whitney",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/whitney-nv/",
+        "/service-areas/whitney-nv/fire-damage-restoration/",
+        "/service-areas/whitney-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/winchester-nv/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Winchester, NV | Life Savers Restoration LLC",
+      "h1": "Water Damage Restoration in Winchester",
+      "meta_description": "24/7 water damage restoration in Winchester, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "water damage restoration winchester",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/winchester-nv/",
+        "/service-areas/winchester-nv/fire-damage-restoration/",
+        "/service-areas/winchester-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/winchester-nv/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Winchester, NV | Life Savers Restoration LLC",
+      "h1": "Mold Remediation in Winchester",
+      "meta_description": "24/7 mold remediation in Winchester, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "mold remediation winchester",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/winchester-nv/",
+        "/service-areas/winchester-nv/fire-damage-restoration/",
+        "/service-areas/winchester-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/winchester-nv/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Winchester, NV | Life Savers Restoration LLC",
+      "h1": "Fire Damage Restoration in Winchester",
+      "meta_description": "24/7 fire damage restoration in Winchester, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "fire damage restoration winchester",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/winchester-nv/",
+        "/service-areas/winchester-nv/mold-remediation/",
+        "/service-areas/winchester-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/winchester-nv/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Winchester, NV | Life Savers Restoration LLC",
+      "h1": "Storm Damage Restoration in Winchester",
+      "meta_description": "24/7 storm damage restoration in Winchester, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "storm damage restoration winchester",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/winchester-nv/",
+        "/service-areas/winchester-nv/fire-damage-restoration/",
+        "/service-areas/winchester-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/storm-damage-restoration/",
+        "/service-areas/boulder-city-nv/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/winchester-nv/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Winchester, NV | Life Savers Restoration LLC",
+      "h1": "Sewage Cleanup and Sanitization in Winchester",
+      "meta_description": "24/7 sewage cleanup and sanitization in Winchester, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "sewage cleanup and sanitization winchester",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/winchester-nv/",
+        "/service-areas/winchester-nv/fire-damage-restoration/",
+        "/service-areas/winchester-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
+        "/service-areas/boulder-city-nv/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/winchester-nv/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Winchester, NV | Life Savers Restoration LLC",
+      "h1": "Biohazard Cleanup in Winchester",
+      "meta_description": "24/7 biohazard cleanup in Winchester, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "biohazard cleanup winchester",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/winchester-nv/",
+        "/service-areas/winchester-nv/fire-damage-restoration/",
+        "/service-areas/winchester-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
+        "/service-areas/boulder-city-nv/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/winchester-nv/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Winchester, NV | Life Savers Restoration LLC",
+      "h1": "Contents Restoration and Storage in Winchester",
+      "meta_description": "24/7 contents restoration and storage in Winchester, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "contents restoration and storage winchester",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/winchester-nv/",
+        "/service-areas/winchester-nv/fire-damage-restoration/",
+        "/service-areas/winchester-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration/",
+        "/service-areas/boulder-city-nv/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/winchester-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Winchester, NV | Life Savers Restoration LLC",
+      "h1": "Emergency Water Cleanup in Winchester",
+      "meta_description": "24/7 emergency water cleanup in Winchester, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "emergency water cleanup winchester",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/winchester-nv/",
+        "/service-areas/winchester-nv/fire-damage-restoration/",
+        "/service-areas/winchester-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nellis-afb-nv/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Nellis AFB, NV | Life Savers Restoration LLC",
+      "h1": "Water Damage Restoration in Nellis AFB",
+      "meta_description": "24/7 water damage restoration in Nellis AFB, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "water damage restoration nellis afb",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/nellis-afb-nv/",
+        "/service-areas/nellis-afb-nv/fire-damage-restoration/",
+        "/service-areas/nellis-afb-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nellis-afb-nv/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Nellis AFB, NV | Life Savers Restoration LLC",
+      "h1": "Mold Remediation in Nellis AFB",
+      "meta_description": "24/7 mold remediation in Nellis AFB, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "mold remediation nellis afb",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/nellis-afb-nv/",
+        "/service-areas/nellis-afb-nv/fire-damage-restoration/",
+        "/service-areas/nellis-afb-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nellis-afb-nv/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Nellis AFB, NV | Life Savers Restoration LLC",
+      "h1": "Fire Damage Restoration in Nellis AFB",
+      "meta_description": "24/7 fire damage restoration in Nellis AFB, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "fire damage restoration nellis afb",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/nellis-afb-nv/",
+        "/service-areas/nellis-afb-nv/mold-remediation/",
+        "/service-areas/nellis-afb-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nellis-afb-nv/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Nellis AFB, NV | Life Savers Restoration LLC",
+      "h1": "Storm Damage Restoration in Nellis AFB",
+      "meta_description": "24/7 storm damage restoration in Nellis AFB, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "storm damage restoration nellis afb",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/nellis-afb-nv/",
+        "/service-areas/nellis-afb-nv/fire-damage-restoration/",
+        "/service-areas/nellis-afb-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/storm-damage-restoration/",
+        "/service-areas/boulder-city-nv/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nellis-afb-nv/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Nellis AFB, NV | Life Savers Restoration LLC",
+      "h1": "Sewage Cleanup and Sanitization in Nellis AFB",
+      "meta_description": "24/7 sewage cleanup and sanitization in Nellis AFB, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "sewage cleanup and sanitization nellis afb",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/nellis-afb-nv/",
+        "/service-areas/nellis-afb-nv/fire-damage-restoration/",
+        "/service-areas/nellis-afb-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
+        "/service-areas/boulder-city-nv/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nellis-afb-nv/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Nellis AFB, NV | Life Savers Restoration LLC",
+      "h1": "Biohazard Cleanup in Nellis AFB",
+      "meta_description": "24/7 biohazard cleanup in Nellis AFB, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "biohazard cleanup nellis afb",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/nellis-afb-nv/",
+        "/service-areas/nellis-afb-nv/fire-damage-restoration/",
+        "/service-areas/nellis-afb-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
+        "/service-areas/boulder-city-nv/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nellis-afb-nv/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Nellis AFB, NV | Life Savers Restoration LLC",
+      "h1": "Contents Restoration and Storage in Nellis AFB",
+      "meta_description": "24/7 contents restoration and storage in Nellis AFB, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "contents restoration and storage nellis afb",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/nellis-afb-nv/",
+        "/service-areas/nellis-afb-nv/fire-damage-restoration/",
+        "/service-areas/nellis-afb-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration/",
+        "/service-areas/boulder-city-nv/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nellis-afb-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Nellis AFB, NV | Life Savers Restoration LLC",
+      "h1": "Emergency Water Cleanup in Nellis AFB",
+      "meta_description": "24/7 emergency water cleanup in Nellis AFB, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "emergency water cleanup nellis afb",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/nellis-afb-nv/",
+        "/service-areas/nellis-afb-nv/fire-damage-restoration/",
+        "/service-areas/nellis-afb-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-south-nv/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Summerlin South, NV | Life Savers Restoration LLC",
+      "h1": "Water Damage Restoration in Summerlin South",
+      "meta_description": "24/7 water damage restoration in Summerlin South, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "water damage restoration summerlin south",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/summerlin-south-nv/",
+        "/service-areas/summerlin-south-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-south-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-south-nv/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Summerlin South, NV | Life Savers Restoration LLC",
+      "h1": "Mold Remediation in Summerlin South",
+      "meta_description": "24/7 mold remediation in Summerlin South, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "mold remediation summerlin south",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/summerlin-south-nv/",
+        "/service-areas/summerlin-south-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-south-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-south-nv/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Summerlin South, NV | Life Savers Restoration LLC",
+      "h1": "Fire Damage Restoration in Summerlin South",
+      "meta_description": "24/7 fire damage restoration in Summerlin South, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "fire damage restoration summerlin south",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/summerlin-south-nv/",
+        "/service-areas/summerlin-south-nv/mold-remediation/",
+        "/service-areas/summerlin-south-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-south-nv/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Summerlin South, NV | Life Savers Restoration LLC",
+      "h1": "Storm Damage Restoration in Summerlin South",
+      "meta_description": "24/7 storm damage restoration in Summerlin South, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "storm damage restoration summerlin south",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/summerlin-south-nv/",
+        "/service-areas/summerlin-south-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-south-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/storm-damage-restoration/",
+        "/service-areas/boulder-city-nv/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-south-nv/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Summerlin South, NV | Life Savers Restoration LLC",
+      "h1": "Sewage Cleanup and Sanitization in Summerlin South",
+      "meta_description": "24/7 sewage cleanup and sanitization in Summerlin South, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "sewage cleanup and sanitization summerlin south",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/summerlin-south-nv/",
+        "/service-areas/summerlin-south-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-south-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
+        "/service-areas/boulder-city-nv/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-south-nv/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Summerlin South, NV | Life Savers Restoration LLC",
+      "h1": "Biohazard Cleanup in Summerlin South",
+      "meta_description": "24/7 biohazard cleanup in Summerlin South, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "biohazard cleanup summerlin south",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/summerlin-south-nv/",
+        "/service-areas/summerlin-south-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-south-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
+        "/service-areas/boulder-city-nv/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-south-nv/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Summerlin South, NV | Life Savers Restoration LLC",
+      "h1": "Contents Restoration and Storage in Summerlin South",
+      "meta_description": "24/7 contents restoration and storage in Summerlin South, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "contents restoration and storage summerlin south",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/summerlin-south-nv/",
+        "/service-areas/summerlin-south-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-south-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration/",
+        "/service-areas/boulder-city-nv/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-south-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Summerlin South, NV | Life Savers Restoration LLC",
+      "h1": "Emergency Water Cleanup in Summerlin South",
+      "meta_description": "24/7 emergency water cleanup in Summerlin South, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "emergency water cleanup summerlin south",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/summerlin-south-nv/",
+        "/service-areas/summerlin-south-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-south-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Blue Diamond, NV | Life Savers Restoration LLC",
+      "h1": "Water Damage Restoration in Blue Diamond",
+      "meta_description": "24/7 water damage restoration in Blue Diamond, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "water damage restoration blue diamond",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/service-areas/enterprise-nv/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Blue Diamond, NV | Life Savers Restoration LLC",
+      "h1": "Mold Remediation in Blue Diamond",
+      "meta_description": "24/7 mold remediation in Blue Diamond, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "mold remediation blue diamond",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Blue Diamond, NV | Life Savers Restoration LLC",
+      "h1": "Fire Damage Restoration in Blue Diamond",
+      "meta_description": "24/7 fire damage restoration in Blue Diamond, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "fire damage restoration blue diamond",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Blue Diamond, NV | Life Savers Restoration LLC",
+      "h1": "Storm Damage Restoration in Blue Diamond",
+      "meta_description": "24/7 storm damage restoration in Blue Diamond, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "storm damage restoration blue diamond",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/storm-damage-restoration/",
+        "/service-areas/enterprise-nv/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Blue Diamond, NV | Life Savers Restoration LLC",
+      "h1": "Sewage Cleanup and Sanitization in Blue Diamond",
+      "meta_description": "24/7 sewage cleanup and sanitization in Blue Diamond, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "sewage cleanup and sanitization blue diamond",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/sewage-cleanup/",
+        "/service-areas/enterprise-nv/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Blue Diamond, NV | Life Savers Restoration LLC",
+      "h1": "Biohazard Cleanup in Blue Diamond",
+      "meta_description": "24/7 biohazard cleanup in Blue Diamond, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "biohazard cleanup blue diamond",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/biohazard-cleanup/",
+        "/service-areas/enterprise-nv/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Blue Diamond, NV | Life Savers Restoration LLC",
+      "h1": "Contents Restoration and Storage in Blue Diamond",
+      "meta_description": "24/7 contents restoration and storage in Blue Diamond, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "contents restoration and storage blue diamond",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/contents-restoration/",
         "/service-areas/enterprise-nv/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Blue Diamond, NV | Life Savers Restoration LLC",
+      "h1": "Emergency Water Cleanup in Blue Diamond",
+      "meta_description": "24/7 emergency water cleanup in Blue Diamond, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "emergency water cleanup blue diamond",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
+        "/service-areas/enterprise-nv/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nelson-nv/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Nelson, NV | Life Savers Restoration LLC",
+      "h1": "Water Damage Restoration in Nelson",
+      "meta_description": "24/7 water damage restoration in Nelson, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "water damage restoration nelson",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/nelson-nv/",
+        "/service-areas/nelson-nv/fire-damage-restoration/",
+        "/service-areas/nelson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nelson-nv/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Nelson, NV | Life Savers Restoration LLC",
+      "h1": "Mold Remediation in Nelson",
+      "meta_description": "24/7 mold remediation in Nelson, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "mold remediation nelson",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/nelson-nv/",
+        "/service-areas/nelson-nv/fire-damage-restoration/",
+        "/service-areas/nelson-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nelson-nv/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Nelson, NV | Life Savers Restoration LLC",
+      "h1": "Fire Damage Restoration in Nelson",
+      "meta_description": "24/7 fire damage restoration in Nelson, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "fire damage restoration nelson",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/nelson-nv/",
+        "/service-areas/nelson-nv/mold-remediation/",
+        "/service-areas/nelson-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nelson-nv/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Nelson, NV | Life Savers Restoration LLC",
+      "h1": "Storm Damage Restoration in Nelson",
+      "meta_description": "24/7 storm damage restoration in Nelson, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "storm damage restoration nelson",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/nelson-nv/",
+        "/service-areas/nelson-nv/fire-damage-restoration/",
+        "/service-areas/nelson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/storm-damage-restoration/",
+        "/service-areas/boulder-city-nv/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nelson-nv/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Nelson, NV | Life Savers Restoration LLC",
+      "h1": "Sewage Cleanup and Sanitization in Nelson",
+      "meta_description": "24/7 sewage cleanup and sanitization in Nelson, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "sewage cleanup and sanitization nelson",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/nelson-nv/",
+        "/service-areas/nelson-nv/fire-damage-restoration/",
+        "/service-areas/nelson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
+        "/service-areas/boulder-city-nv/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nelson-nv/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Nelson, NV | Life Savers Restoration LLC",
+      "h1": "Biohazard Cleanup in Nelson",
+      "meta_description": "24/7 biohazard cleanup in Nelson, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "biohazard cleanup nelson",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/nelson-nv/",
+        "/service-areas/nelson-nv/fire-damage-restoration/",
+        "/service-areas/nelson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
+        "/service-areas/boulder-city-nv/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nelson-nv/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Nelson, NV | Life Savers Restoration LLC",
+      "h1": "Contents Restoration and Storage in Nelson",
+      "meta_description": "24/7 contents restoration and storage in Nelson, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "contents restoration and storage nelson",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/nelson-nv/",
+        "/service-areas/nelson-nv/fire-damage-restoration/",
+        "/service-areas/nelson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration/",
+        "/service-areas/boulder-city-nv/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/nelson-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Nelson, NV | Life Savers Restoration LLC",
+      "h1": "Emergency Water Cleanup in Nelson",
+      "meta_description": "24/7 emergency water cleanup in Nelson, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "emergency water cleanup nelson",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/nelson-nv/",
+        "/service-areas/nelson-nv/fire-damage-restoration/",
+        "/service-areas/nelson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/goodsprings-nv/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Goodsprings, NV | Life Savers Restoration LLC",
+      "h1": "Water Damage Restoration in Goodsprings",
+      "meta_description": "24/7 water damage restoration in Goodsprings, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "water damage restoration goodsprings",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/goodsprings-nv/",
+        "/service-areas/goodsprings-nv/fire-damage-restoration/",
+        "/service-areas/goodsprings-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/goodsprings-nv/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Goodsprings, NV | Life Savers Restoration LLC",
+      "h1": "Mold Remediation in Goodsprings",
+      "meta_description": "24/7 mold remediation in Goodsprings, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "mold remediation goodsprings",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/goodsprings-nv/",
+        "/service-areas/goodsprings-nv/fire-damage-restoration/",
+        "/service-areas/goodsprings-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/goodsprings-nv/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Goodsprings, NV | Life Savers Restoration LLC",
+      "h1": "Fire Damage Restoration in Goodsprings",
+      "meta_description": "24/7 fire damage restoration in Goodsprings, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "fire damage restoration goodsprings",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/goodsprings-nv/",
+        "/service-areas/goodsprings-nv/mold-remediation/",
+        "/service-areas/goodsprings-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/goodsprings-nv/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Goodsprings, NV | Life Savers Restoration LLC",
+      "h1": "Storm Damage Restoration in Goodsprings",
+      "meta_description": "24/7 storm damage restoration in Goodsprings, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "storm damage restoration goodsprings",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/goodsprings-nv/",
+        "/service-areas/goodsprings-nv/fire-damage-restoration/",
+        "/service-areas/goodsprings-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/storm-damage-restoration/",
+        "/service-areas/boulder-city-nv/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/goodsprings-nv/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Goodsprings, NV | Life Savers Restoration LLC",
+      "h1": "Sewage Cleanup and Sanitization in Goodsprings",
+      "meta_description": "24/7 sewage cleanup and sanitization in Goodsprings, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "sewage cleanup and sanitization goodsprings",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/goodsprings-nv/",
+        "/service-areas/goodsprings-nv/fire-damage-restoration/",
+        "/service-areas/goodsprings-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
+        "/service-areas/boulder-city-nv/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/goodsprings-nv/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Goodsprings, NV | Life Savers Restoration LLC",
+      "h1": "Biohazard Cleanup in Goodsprings",
+      "meta_description": "24/7 biohazard cleanup in Goodsprings, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "biohazard cleanup goodsprings",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/goodsprings-nv/",
+        "/service-areas/goodsprings-nv/fire-damage-restoration/",
+        "/service-areas/goodsprings-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
+        "/service-areas/boulder-city-nv/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/goodsprings-nv/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Goodsprings, NV | Life Savers Restoration LLC",
+      "h1": "Contents Restoration and Storage in Goodsprings",
+      "meta_description": "24/7 contents restoration and storage in Goodsprings, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "contents restoration and storage goodsprings",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/goodsprings-nv/",
+        "/service-areas/goodsprings-nv/fire-damage-restoration/",
+        "/service-areas/goodsprings-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration/",
+        "/service-areas/boulder-city-nv/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/goodsprings-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Goodsprings, NV | Life Savers Restoration LLC",
+      "h1": "Emergency Water Cleanup in Goodsprings",
+      "meta_description": "24/7 emergency water cleanup in Goodsprings, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "emergency water cleanup goodsprings",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/goodsprings-nv/",
+        "/service-areas/goodsprings-nv/fire-damage-restoration/",
+        "/service-areas/goodsprings-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
         "/contact/"
       ]
     },

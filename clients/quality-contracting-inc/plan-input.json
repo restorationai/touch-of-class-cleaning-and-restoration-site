@@ -118,6 +118,11 @@
       "city": "Southbridge Town",
       "state": "MA",
       "slug": "southbridge-town-ma"
+    },
+    {
+      "city": "Sturbridge",
+      "state": "MA",
+      "slug": "sturbridge-ma"
     }
   ],
   "service_radius_description": "Southern New England, with crews responding across a 50 mile radius of Auburn"

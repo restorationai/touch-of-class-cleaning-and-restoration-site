@@ -123,6 +123,11 @@
       "city": "Valley Center",
       "state": "CA",
       "slug": "valley-center-ca"
+    },
+    {
+      "city": "Fairbanks Ranch",
+      "state": "CA",
+      "slug": "fairbanks-ranch-ca"
     }
   ],
   "brand": {

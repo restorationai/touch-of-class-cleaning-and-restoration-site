@@ -90,6 +90,11 @@
       "city": "Boulder City",
       "state": "NV",
       "slug": "boulder-city-nv"
+    },
+    {
+      "city": "Winchester",
+      "state": "NV",
+      "slug": "winchester-nv"
     }
   ],
   "template": "restoration",

@@ -3,8 +3,19 @@
 This guide is consulted by every image-generation call (Skill 3 launch images, Skill 4 blog hero images, future image regenerations). The goal: a viewer scrolling through the site should feel like one professional photographer documented one company on one continuous job. No stylistic drift from page to page.
 
 The values below are auto-populated from `plan-input.json` at planning time. Per-client brand colors come from the client's logo / brand identity — NOT from the canonical starter palette. The structural conventions (camera, lens, lighting, composition) are restoration-vertical canonical and shared across all Rank AI clients.
-
 ---
+
+## STANDING BRAND RULES (2026-07-11) — apply to EVERY image, every client
+
+1. **Vehicles carry the client's REAL logo.** Any generated image featuring a company vehicle must show the client's actual logo mark on the vehicle. Supply the real logo file (rasterize SVGs to a clean PNG on white first) as a reference image to `gemini_edit_image` / `gemini_generate_image`, and iterate until the mark on the vehicle reads faithfully — correct shape and colors, sized so lettering stays clean or is naturally implied at distance. The no-text rule still applies to everything EXCEPT the logo mark itself (no phone numbers, URLs, license numbers, or other readable text). If the model cannot render the wordmark cleanly at vehicle-side size after 3 attempts on an image, fall back to a two-color mark impression (brand-color blocks/swoosh, no letters) or a naturally defocused decal, and note the fallback.
+
+2. **One crew uniform color per client, everywhere.** Each client's style guide declares exactly one uniform color (derived from their real-world crew wear / brand identity), and every image — hero, team, services, per-service, blog heroes — uses it. Never mix uniform colors across a client's image library.
+
+3. **If the client has an existing website, harvest its photos FIRST.** Before generating any imagery, crawl the client's existing site (e.g. wp-content/uploads on WordPress) and collect real crew / vehicle / job photos. Use real photos directly where quality allows; otherwise use them as style and livery references for generation (real fleet photos define what the vans must look like). Save the harvest to `clients//harvested/`.
+4. **Fleet of THREE branded vehicles, everywhere (2026-08-18, was two-three since 2026-07-29).** Hero images always show a fleet of exactly THREE matching branded vehicles (staggered, classic restoration-trade vans unless the client's real fleet documents otherwise), and the branded vehicles also appear in the About/team photo and the Services imagery whenever the scene allows. The client's real logo rides on every vehicle per rule 1. One vehicle alone is the exception (tight interior shots), never the default.
+   **No vehicle photos is NOT a reason to skip vehicles (Santino 2026-08-18, reversing the 2026-08-10 no-invented-livery rule):** when the client's photo library has no vehicle, generate the classic professional livery anyway — clean panel vans in the brand's primary color scheme carrying the real logo mark per rule 1. A branded fleet is part of the polished look even when the real fleet is one unmarked pickup. PRECEDENCE: real documented livery always beats invented livery — the moment real fleet photos exist (harvest or client-sent), they define the vehicles and this default retires for that client. A client's explicit no-vehicles instruction (VAN-OVERRIDE) still wins over everything.
+
+
 
 ## Camera & Lens Setup
 
@@ -89,7 +100,7 @@ Every image that depicts a person must show a worker in branded company uniform.
 ### Uniform specifications
 - **Top**: Polo or work shirt in the client's primary brand color (`#c8102e`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal uniform with the brand color visible as logo embroidery, accent stripe, or branded hat.
 - **Bottom**: Neutral work pants (charcoal, dark navy, or khaki). Subordinate to the top.
-- **Branding**: FireDEX Butler or FireDEX embroidered on chest or back. NO certification badges (IICRC/RIA claimed on legacy site but unconfirmed — no cert insignia until Robert confirms). Prefer a navy (`#102a43`) polo or softshell with red (`#c8102e`) FireDEX embroidery/accent stripe — navy reads better on-site than a full red shirt.
+- **Branding**: FireDEX Butler or FireDEX embroidered on chest or back. IICRC certification badge visible on sleeve or chest where it makes sense.
 - **PPE**: Match the service context (see service-specific notes below) — gloves always, respirators / face shields / Tyvek suits when the service warrants it.
 - **Footwear**: Sturdy work boots, never sneakers.
 
@@ -133,9 +144,8 @@ The worker's uniform stays the same; their PPE and equipment shift per service. 
 
 - **Primary setting**: Cranberry Township and surrounding PA residential and commercial properties
 - **Local housing stock cues**: Cranberry Township, PA — named neighborhoods: Fernway, Fox Run, Park Place, Ehrman Farms, Glen Eden · landmarks: Cranberry Township Community Park, UPMC Lemieux Sports Complex, Cranberry Commons · Butler County's fastest-growing township (~33k) at the I-79/Turnpike crossroads, 20 minutes north of Pittsburgh. Nearly every home has a basement — many finished — so sump-pump failures during spring thaw and summer thunderstorms are the signature water loss, alongside frozen and burst supply lines in January polar snaps. 1960s Fernway plats carry end-of-life galvanized plumbing while 1990s-2020s two-story plans see washing-machine hose, water-heater and second-floor bathroom failures that soak finished lower levels. Heavy clay soil sends hydrostatic seepage through foundation walls in wet springs; Brush Creek drainage backs up in cloudburst storms. FireDEX's own shop sits on Marshall Rd, so Cranberry response is measured in minutes. Other cities served: Wexford, Mars, Zelienople, Evans City, Seven Fields. — these details should appear in backgrounds and environmental context, NOT as the subject. They quietly anchor "this was shot in Cranberry Township."
-- **Regional weather / season**: Western Pennsylvania winter/water context — overcast gray skies, bare deciduous trees (oaks, maples), patchy snow on lawns and rooflines, wet slushy driveways, road salt residue on truck fenders. Freeze-thaw is the story: icicles on gutters, frost on basement windows, steam of breath in cold-arrival shots. Spring variant: rain-soaked lawns, downspouts running, saturated clay-soil flowerbeds. Housing stock: brick and vinyl-sided two-story suburban homes with basements (Cranberry/Wexford/Seven Fields plats), pre-war brick foursquares for Butler/Beaver Falls/Zelienople scenes. Rolling wooded hills in backgrounds, never flat horizons.
-- **Time of day**: Mix of golden-hour exteriors and neutral-light interiors. Reserve dusk/blue-hour for "arrival" hero shots specifically — a winter blue-hour arrival (truck lights on, light snow) is this brand's signature frame.
-- **WATER-FIRST BRAND RULE (overrides the fire name)**: FireDEX Butler is positioned water-first. Site-wide launch imagery (hero-bg, team, services) must depict WATER work — extraction, flooded basement, moisture meters, air movers, winter burst-pipe response. **NO flames, no burning structures, no glowing embers, no fire-in-progress anywhere.** Charred/soot aftermath is allowed ONLY on fire/smoke/soot service-page imagery, and always post-fire, cold, and controlled. When in doubt, shoot water.
+- **Regional weather / season**: Nearly every home has a basement — many finished — so sump-pump failures during spring thaw and summer thunderstorms are the signature water loss, alongside frozen and burst supply lines in January polar snaps. — affects exterior shots especially. Pacific Northwest: wet roads, evergreen silhouettes, cedar siding, low gray cloud cover for "we just arrived in the rain" shots. Adapt per client.
+- **Time of day**: Mix of golden-hour exteriors and neutral-light interiors. Reserve dusk/blue-hour for "arrival" hero shots specifically.
 
 ### Specifically AVOID
 - **Tropical or non-regional vegetation**. Match the client's actual region.
@@ -175,7 +185,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Flood Damage Restoration, Basement Flooding Cleanup, Sewage Cleanup and Sanitization, Burst Pipe Cleanup and Repair, Frozen Pipe Restoration, Storm Damage Restoration, Fire Damage Restoration, Smoke Damage Restoration, Soot Removal, Odor Removal and Deodorization, Mold Remediation, Mold Inspection and Testing, Biohazard and Trauma Cleanup, Commercial Restoration, Reconstruction Services, Renovations, Remodels and General Contracting)
+- [ ] (continue for each of Water Damage Restoration, Flood Damage Restoration, Basement Flooding Cleanup, Sewage Cleanup and Sanitization, Burst Pipe Cleanup and Repair, Frozen Pipe Restoration, Storm Damage Restoration, Fire Damage Restoration, Smoke Damage Restoration, Soot Removal, Odor Removal and Deodorization, Mold Remediation, Mold Inspection and Testing, Biohazard Cleanup, Commercial Restoration, Reconstruction Services, Renovations, Remodels and General Contracting, Emergency Water Cleanup)
 
 ### Service area pages (one image per city served)
 - [ ] Cranberry Township hero — exterior shot, regional housing stock, evocative of the city
@@ -199,4 +209,4 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 
 ## Style guide version
 
-This guide is generated from `templates/restoration/image-style-guide.template.md` v1.0. When the canonical template updates, existing clients keep their pinned version unless explicitly regenerated. Bump the version + add a changelog entry when changing structural rules (e.g., adding new mandatory PPE conventions).
+This guide is generated from `templates/restoration/image-style-guide.template.md` v1.1 (2026-07-11: added Standing Brand Rules — real vehicle logos, single declared uniform color, harvest-first). When the canonical template updates, existing clients keep their pinned version unless explicitly regenerated. Bump the version + add a changelog entry when changing structural rules (e.g., adding new mandatory PPE conventions).

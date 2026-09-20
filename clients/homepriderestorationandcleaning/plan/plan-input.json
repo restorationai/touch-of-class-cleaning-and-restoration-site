@@ -93,6 +93,36 @@
       "state": "UT",
       "slug": "park-city-ut",
       "primary": false
+    },
+    {
+      "city": "Vineyard",
+      "state": "UT",
+      "slug": "vineyard-ut"
+    },
+    {
+      "city": "Highland",
+      "state": "UT",
+      "slug": "highland-ut"
+    },
+    {
+      "city": "Lindon",
+      "state": "UT",
+      "slug": "lindon-ut"
+    },
+    {
+      "city": "Fairfield",
+      "state": "UT",
+      "slug": "fairfield-ut"
+    },
+    {
+      "city": "Cedar Hills",
+      "state": "UT",
+      "slug": "cedar-hills-ut"
+    },
+    {
+      "city": "Cedar Fort",
+      "state": "UT",
+      "slug": "cedar-fort-ut"
     }
   ],
   "brand": {
@@ -113,7 +143,9 @@
     "street_address": "78 W Wildflower Dr",
     "postal_code": "84045",
     "place_id": "ChIJGzr1iePDLCsR1fkC5O33F10",
-    "google_cid": "6708102771096353237"
+    "google_cid": "6708102771096353237",
+    "ga4_measurement_id": "G-6X1L63FBE5",
+    "clarity_project_id": "xdojyl8enb"
   },
   "cross_product": true,
   "keyword_strategy": "conservative",

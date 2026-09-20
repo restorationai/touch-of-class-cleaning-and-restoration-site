@@ -215,6 +215,11 @@
       "city": "Kenly",
       "state": "NC",
       "slug": "kenly-nc"
+    },
+    {
+      "city": "Clayton",
+      "state": "NC",
+      "slug": "clayton-nc"
     }
   ],
   "template": "restoration",

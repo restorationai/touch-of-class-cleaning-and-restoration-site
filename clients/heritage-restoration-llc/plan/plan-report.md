@@ -1,20 +1,20 @@
 # Site Plan Report — Heritage Restoration LLC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-16T07:48:48.709814+00:00
+- Generated: 2026-09-20T14:13:15.868014+00:00
 - Domain: `heritagermn.com`
-- Services selected: 4 of 64 catalog entries
-- Service areas: 9
+- Services selected: 4 of 65 catalog entries
+- Service areas: 15
 - Cross-product enabled: True
-- Total URLs: **61**
-- Total internal links: 422 (avg 6.9 per page)
+- Total URLs: **91**
+- Total internal links: 674 (avg 7.4 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 32 |
-| `service-area` | 8 |
+| `service-area-service` | 56 |
+| `service-area` | 14 |
 | `blog-post` | 8 |
 | `service-landing` | 4 |
 | `legal` | 3 |
@@ -30,7 +30,7 @@
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
-- `water-cleanup` — Water Cleanup (core, priority 9)
+- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 
 ## Service areas
 
@@ -43,6 +43,12 @@
 - `foley-mn` — Foley, MN
 - `royalton-mn` — Royalton, MN
 - `pierz-mn` — Pierz, MN
+- `sobieski-mn` — Sobieski, MN
+- `flensburg-mn` — Flensburg, MN
+- `randall-mn` — Randall, MN
+- `elmdale-mn` — Elmdale, MN
+- `fort-ripley-mn` — Fort Ripley, MN
+- `swanville-mn` — Swanville, MN
 
 ## Top 10 priority pages
 
@@ -50,14 +56,14 @@
 | --- | --- | --- | --- |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration little falls |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration little falls |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | water cleanup little falls |
+| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup little falls |
 | `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting little falls |
 | `/service-areas/baxter-mn/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration baxter |
 | `/service-areas/brainerd-mn/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration brainerd |
+| `/service-areas/elmdale-mn/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration elmdale |
+| `/service-areas/flensburg-mn/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration flensburg |
 | `/service-areas/foley-mn/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration foley |
-| `/service-areas/pierz-mn/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration pierz |
-| `/service-areas/royalton-mn/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration royalton |
-| `/service-areas/sartell-mn/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration sartell |
+| `/service-areas/fort-ripley-mn/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration fort ripley |
 
 ## Validation
 

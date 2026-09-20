@@ -105,6 +105,11 @@
       "city": "Draper",
       "state": "UT",
       "slug": "draper-ut"
+    },
+    {
+      "city": "Bluffdale",
+      "state": "UT",
+      "slug": "bluffdale-ut"
     }
   ],
   "template": "restoration",

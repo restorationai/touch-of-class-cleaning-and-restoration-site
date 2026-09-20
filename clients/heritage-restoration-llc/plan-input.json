@@ -108,6 +108,11 @@
       "city": "Fort Ripley",
       "state": "MN",
       "slug": "fort-ripley-mn"
+    },
+    {
+      "city": "Swanville",
+      "state": "MN",
+      "slug": "swanville-mn"
     }
   ],
   "template": "restoration",

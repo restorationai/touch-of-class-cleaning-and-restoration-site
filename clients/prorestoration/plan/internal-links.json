@@ -13,6 +13,7 @@
     "/services/sewage-cleanup/",
     "/services/smoke-damage-restoration/",
     "/services/storm-damage-restoration/",
+    "/services/water-cleanup/",
     "/services/burst-pipe-repair/",
     "/services/general-contracting/",
     "/services/mold-inspection-testing/",
@@ -21,15 +22,21 @@
     "/services/appliance-leak-cleanup/",
     "/services/carpet-cleaning/",
     "/service-areas/arvin-ca/",
+    "/service-areas/buttonwillow-ca/",
     "/service-areas/delano-ca/",
+    "/service-areas/dustin-acres-ca/",
+    "/service-areas/east-niles-ca/",
     "/service-areas/lake-isabella-ca/",
     "/service-areas/lamont-ca/",
+    "/service-areas/mcfarland-ca/",
     "/service-areas/oildale-ca/",
     "/service-areas/rosedale-ca/",
     "/service-areas/shafter-ca/",
     "/service-areas/taft-ca/",
+    "/service-areas/tarina-ca/",
     "/service-areas/tehachapi-ca/",
-    "/service-areas/wasco-ca/"
+    "/service-areas/wasco-ca/",
+    "/service-areas/weedpatch-ca/"
   ],
   "/services/": [
     "/",
@@ -42,6 +49,7 @@
     "/services/sewage-cleanup/",
     "/services/smoke-damage-restoration/",
     "/services/storm-damage-restoration/",
+    "/services/water-cleanup/",
     "/services/burst-pipe-repair/",
     "/services/general-contracting/",
     "/services/mold-inspection-testing/",
@@ -53,15 +61,21 @@
   "/service-areas/": [
     "/",
     "/service-areas/arvin-ca/",
+    "/service-areas/buttonwillow-ca/",
     "/service-areas/delano-ca/",
+    "/service-areas/dustin-acres-ca/",
+    "/service-areas/east-niles-ca/",
     "/service-areas/lake-isabella-ca/",
     "/service-areas/lamont-ca/",
+    "/service-areas/mcfarland-ca/",
     "/service-areas/oildale-ca/",
     "/service-areas/rosedale-ca/",
     "/service-areas/shafter-ca/",
     "/service-areas/taft-ca/",
+    "/service-areas/tarina-ca/",
     "/service-areas/tehachapi-ca/",
-    "/service-areas/wasco-ca/"
+    "/service-areas/wasco-ca/",
+    "/service-areas/weedpatch-ca/"
   ],
   "/blog/": [
     "/",
@@ -92,15 +106,18 @@
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/water-damage-restoration/",
+    "/service-areas/buttonwillow-ca/water-damage-restoration/",
     "/service-areas/delano-ca/water-damage-restoration/",
+    "/service-areas/dustin-acres-ca/water-damage-restoration/",
+    "/service-areas/east-niles-ca/water-damage-restoration/",
     "/service-areas/lake-isabella-ca/water-damage-restoration/",
     "/service-areas/lamont-ca/water-damage-restoration/",
+    "/service-areas/mcfarland-ca/water-damage-restoration/",
     "/service-areas/oildale-ca/water-damage-restoration/",
     "/service-areas/rosedale-ca/water-damage-restoration/",
     "/service-areas/shafter-ca/water-damage-restoration/",
     "/service-areas/taft-ca/water-damage-restoration/",
-    "/service-areas/tehachapi-ca/water-damage-restoration/",
-    "/service-areas/wasco-ca/water-damage-restoration/",
+    "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/"
@@ -109,72 +126,82 @@
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/flood-damage-restoration/",
+    "/service-areas/buttonwillow-ca/flood-damage-restoration/",
     "/service-areas/delano-ca/flood-damage-restoration/",
+    "/service-areas/dustin-acres-ca/flood-damage-restoration/",
+    "/service-areas/east-niles-ca/flood-damage-restoration/",
     "/service-areas/lake-isabella-ca/flood-damage-restoration/",
     "/service-areas/lamont-ca/flood-damage-restoration/",
+    "/service-areas/mcfarland-ca/flood-damage-restoration/",
     "/service-areas/oildale-ca/flood-damage-restoration/",
     "/service-areas/rosedale-ca/flood-damage-restoration/",
     "/service-areas/shafter-ca/flood-damage-restoration/",
-    "/service-areas/taft-ca/flood-damage-restoration/",
-    "/service-areas/tehachapi-ca/flood-damage-restoration/",
-    "/service-areas/wasco-ca/flood-damage-restoration/"
+    "/service-areas/taft-ca/flood-damage-restoration/"
   ],
   "/services/burst-pipe-repair/": [
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/burst-pipe-repair/",
+    "/service-areas/buttonwillow-ca/burst-pipe-repair/",
     "/service-areas/delano-ca/burst-pipe-repair/",
+    "/service-areas/dustin-acres-ca/burst-pipe-repair/",
+    "/service-areas/east-niles-ca/burst-pipe-repair/",
     "/service-areas/lake-isabella-ca/burst-pipe-repair/",
     "/service-areas/lamont-ca/burst-pipe-repair/",
+    "/service-areas/mcfarland-ca/burst-pipe-repair/",
     "/service-areas/oildale-ca/burst-pipe-repair/",
     "/service-areas/rosedale-ca/burst-pipe-repair/",
     "/service-areas/shafter-ca/burst-pipe-repair/",
-    "/service-areas/taft-ca/burst-pipe-repair/",
-    "/service-areas/tehachapi-ca/burst-pipe-repair/",
-    "/service-areas/wasco-ca/burst-pipe-repair/"
+    "/service-areas/taft-ca/burst-pipe-repair/"
   ],
   "/services/appliance-leak-cleanup/": [
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/appliance-leak-cleanup/",
+    "/service-areas/buttonwillow-ca/appliance-leak-cleanup/",
     "/service-areas/delano-ca/appliance-leak-cleanup/",
+    "/service-areas/dustin-acres-ca/appliance-leak-cleanup/",
+    "/service-areas/east-niles-ca/appliance-leak-cleanup/",
     "/service-areas/lake-isabella-ca/appliance-leak-cleanup/",
     "/service-areas/lamont-ca/appliance-leak-cleanup/",
+    "/service-areas/mcfarland-ca/appliance-leak-cleanup/",
     "/service-areas/oildale-ca/appliance-leak-cleanup/",
     "/service-areas/rosedale-ca/appliance-leak-cleanup/",
     "/service-areas/shafter-ca/appliance-leak-cleanup/",
     "/service-areas/taft-ca/appliance-leak-cleanup/",
-    "/service-areas/tehachapi-ca/appliance-leak-cleanup/",
-    "/service-areas/wasco-ca/appliance-leak-cleanup/",
     "/blog/burst-pipe-emergency-checklist/"
   ],
   "/services/sewage-cleanup/": [
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/sewage-cleanup/",
+    "/service-areas/buttonwillow-ca/sewage-cleanup/",
     "/service-areas/delano-ca/sewage-cleanup/",
+    "/service-areas/dustin-acres-ca/sewage-cleanup/",
+    "/service-areas/east-niles-ca/sewage-cleanup/",
     "/service-areas/lake-isabella-ca/sewage-cleanup/",
     "/service-areas/lamont-ca/sewage-cleanup/",
+    "/service-areas/mcfarland-ca/sewage-cleanup/",
     "/service-areas/oildale-ca/sewage-cleanup/",
     "/service-areas/rosedale-ca/sewage-cleanup/",
     "/service-areas/shafter-ca/sewage-cleanup/",
-    "/service-areas/taft-ca/sewage-cleanup/",
-    "/service-areas/tehachapi-ca/sewage-cleanup/",
-    "/service-areas/wasco-ca/sewage-cleanup/"
+    "/service-areas/taft-ca/sewage-cleanup/"
   ],
   "/services/fire-damage-restoration/": [
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/fire-damage-restoration/",
+    "/service-areas/dustin-acres-ca/fire-damage-restoration/",
+    "/service-areas/east-niles-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/fire-damage-restoration/",
+    "/service-areas/mcfarland-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/fire-damage-restoration/",
-    "/service-areas/tehachapi-ca/fire-damage-restoration/",
-    "/service-areas/wasco-ca/fire-damage-restoration/",
     "/blog/choosing-a-restoration-company/",
     "/blog/fire-damage-restoration-process/",
     "/blog/smoke-odor-removal-techniques/"
@@ -183,15 +210,17 @@
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/smoke-damage-restoration/",
+    "/service-areas/buttonwillow-ca/smoke-damage-restoration/",
     "/service-areas/delano-ca/smoke-damage-restoration/",
+    "/service-areas/dustin-acres-ca/smoke-damage-restoration/",
+    "/service-areas/east-niles-ca/smoke-damage-restoration/",
     "/service-areas/lake-isabella-ca/smoke-damage-restoration/",
     "/service-areas/lamont-ca/smoke-damage-restoration/",
+    "/service-areas/mcfarland-ca/smoke-damage-restoration/",
     "/service-areas/oildale-ca/smoke-damage-restoration/",
     "/service-areas/rosedale-ca/smoke-damage-restoration/",
     "/service-areas/shafter-ca/smoke-damage-restoration/",
     "/service-areas/taft-ca/smoke-damage-restoration/",
-    "/service-areas/tehachapi-ca/smoke-damage-restoration/",
-    "/service-areas/wasco-ca/smoke-damage-restoration/",
     "/blog/fire-damage-restoration-process/",
     "/blog/smoke-odor-removal-techniques/"
   ],
@@ -199,43 +228,49 @@
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/soot-removal/",
+    "/service-areas/buttonwillow-ca/soot-removal/",
     "/service-areas/delano-ca/soot-removal/",
+    "/service-areas/dustin-acres-ca/soot-removal/",
+    "/service-areas/east-niles-ca/soot-removal/",
     "/service-areas/lake-isabella-ca/soot-removal/",
     "/service-areas/lamont-ca/soot-removal/",
+    "/service-areas/mcfarland-ca/soot-removal/",
     "/service-areas/oildale-ca/soot-removal/",
     "/service-areas/rosedale-ca/soot-removal/",
     "/service-areas/shafter-ca/soot-removal/",
-    "/service-areas/taft-ca/soot-removal/",
-    "/service-areas/tehachapi-ca/soot-removal/",
-    "/service-areas/wasco-ca/soot-removal/"
+    "/service-areas/taft-ca/soot-removal/"
   ],
   "/services/odor-removal/": [
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/odor-removal/",
+    "/service-areas/buttonwillow-ca/odor-removal/",
     "/service-areas/delano-ca/odor-removal/",
+    "/service-areas/dustin-acres-ca/odor-removal/",
+    "/service-areas/east-niles-ca/odor-removal/",
     "/service-areas/lake-isabella-ca/odor-removal/",
     "/service-areas/lamont-ca/odor-removal/",
+    "/service-areas/mcfarland-ca/odor-removal/",
     "/service-areas/oildale-ca/odor-removal/",
     "/service-areas/rosedale-ca/odor-removal/",
     "/service-areas/shafter-ca/odor-removal/",
-    "/service-areas/taft-ca/odor-removal/",
-    "/service-areas/tehachapi-ca/odor-removal/",
-    "/service-areas/wasco-ca/odor-removal/"
+    "/service-areas/taft-ca/odor-removal/"
   ],
   "/services/mold-remediation/": [
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/mold-remediation/",
+    "/service-areas/buttonwillow-ca/mold-remediation/",
     "/service-areas/delano-ca/mold-remediation/",
+    "/service-areas/dustin-acres-ca/mold-remediation/",
+    "/service-areas/east-niles-ca/mold-remediation/",
     "/service-areas/lake-isabella-ca/mold-remediation/",
     "/service-areas/lamont-ca/mold-remediation/",
+    "/service-areas/mcfarland-ca/mold-remediation/",
     "/service-areas/oildale-ca/mold-remediation/",
     "/service-areas/rosedale-ca/mold-remediation/",
     "/service-areas/shafter-ca/mold-remediation/",
     "/service-areas/taft-ca/mold-remediation/",
-    "/service-areas/tehachapi-ca/mold-remediation/",
-    "/service-areas/wasco-ca/mold-remediation/",
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
     "/blog/signs-of-hidden-mold/"
@@ -244,89 +279,118 @@
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/mold-inspection-testing/",
+    "/service-areas/buttonwillow-ca/mold-inspection-testing/",
     "/service-areas/delano-ca/mold-inspection-testing/",
+    "/service-areas/dustin-acres-ca/mold-inspection-testing/",
+    "/service-areas/east-niles-ca/mold-inspection-testing/",
     "/service-areas/lake-isabella-ca/mold-inspection-testing/",
     "/service-areas/lamont-ca/mold-inspection-testing/",
+    "/service-areas/mcfarland-ca/mold-inspection-testing/",
     "/service-areas/oildale-ca/mold-inspection-testing/",
     "/service-areas/rosedale-ca/mold-inspection-testing/",
     "/service-areas/shafter-ca/mold-inspection-testing/",
     "/service-areas/taft-ca/mold-inspection-testing/",
-    "/service-areas/tehachapi-ca/mold-inspection-testing/",
-    "/service-areas/wasco-ca/mold-inspection-testing/",
     "/blog/how-to-test-for-mold/"
   ],
   "/services/storm-damage-restoration/": [
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
+    "/service-areas/buttonwillow-ca/storm-damage-restoration/",
     "/service-areas/delano-ca/storm-damage-restoration/",
+    "/service-areas/dustin-acres-ca/storm-damage-restoration/",
+    "/service-areas/east-niles-ca/storm-damage-restoration/",
     "/service-areas/lake-isabella-ca/storm-damage-restoration/",
     "/service-areas/lamont-ca/storm-damage-restoration/",
+    "/service-areas/mcfarland-ca/storm-damage-restoration/",
     "/service-areas/oildale-ca/storm-damage-restoration/",
     "/service-areas/rosedale-ca/storm-damage-restoration/",
     "/service-areas/shafter-ca/storm-damage-restoration/",
     "/service-areas/taft-ca/storm-damage-restoration/",
-    "/service-areas/tehachapi-ca/storm-damage-restoration/",
-    "/service-areas/wasco-ca/storm-damage-restoration/",
     "/blog/storm-damage-insurance-claim-checklist/"
   ],
   "/services/carpet-cleaning/": [
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/carpet-cleaning/",
+    "/service-areas/buttonwillow-ca/carpet-cleaning/",
     "/service-areas/delano-ca/carpet-cleaning/",
+    "/service-areas/dustin-acres-ca/carpet-cleaning/",
+    "/service-areas/east-niles-ca/carpet-cleaning/",
     "/service-areas/lake-isabella-ca/carpet-cleaning/",
     "/service-areas/lamont-ca/carpet-cleaning/",
+    "/service-areas/mcfarland-ca/carpet-cleaning/",
     "/service-areas/oildale-ca/carpet-cleaning/",
     "/service-areas/rosedale-ca/carpet-cleaning/",
     "/service-areas/shafter-ca/carpet-cleaning/",
-    "/service-areas/taft-ca/carpet-cleaning/",
-    "/service-areas/tehachapi-ca/carpet-cleaning/",
-    "/service-areas/wasco-ca/carpet-cleaning/"
+    "/service-areas/taft-ca/carpet-cleaning/"
   ],
   "/services/reconstruction/": [
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/reconstruction/",
+    "/service-areas/buttonwillow-ca/reconstruction/",
     "/service-areas/delano-ca/reconstruction/",
+    "/service-areas/dustin-acres-ca/reconstruction/",
+    "/service-areas/east-niles-ca/reconstruction/",
     "/service-areas/lake-isabella-ca/reconstruction/",
     "/service-areas/lamont-ca/reconstruction/",
+    "/service-areas/mcfarland-ca/reconstruction/",
     "/service-areas/oildale-ca/reconstruction/",
     "/service-areas/rosedale-ca/reconstruction/",
     "/service-areas/shafter-ca/reconstruction/",
-    "/service-areas/taft-ca/reconstruction/",
-    "/service-areas/tehachapi-ca/reconstruction/",
-    "/service-areas/wasco-ca/reconstruction/"
+    "/service-areas/taft-ca/reconstruction/"
   ],
   "/services/home-remodeling/": [
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
     "/service-areas/delano-ca/home-remodeling/",
+    "/service-areas/dustin-acres-ca/home-remodeling/",
+    "/service-areas/east-niles-ca/home-remodeling/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/lamont-ca/home-remodeling/",
+    "/service-areas/mcfarland-ca/home-remodeling/",
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/taft-ca/home-remodeling/",
-    "/service-areas/tehachapi-ca/home-remodeling/",
-    "/service-areas/wasco-ca/home-remodeling/",
     "/services/general-contracting/"
   ],
   "/services/general-contracting/": [
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/general-contracting/",
+    "/service-areas/buttonwillow-ca/general-contracting/",
     "/service-areas/delano-ca/general-contracting/",
+    "/service-areas/dustin-acres-ca/general-contracting/",
+    "/service-areas/east-niles-ca/general-contracting/",
     "/service-areas/lake-isabella-ca/general-contracting/",
     "/service-areas/lamont-ca/general-contracting/",
+    "/service-areas/mcfarland-ca/general-contracting/",
     "/service-areas/oildale-ca/general-contracting/",
     "/service-areas/rosedale-ca/general-contracting/",
     "/service-areas/shafter-ca/general-contracting/",
     "/service-areas/taft-ca/general-contracting/",
-    "/service-areas/tehachapi-ca/general-contracting/",
-    "/service-areas/wasco-ca/general-contracting/",
     "/services/home-remodeling/"
+  ],
+  "/services/water-cleanup/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/arvin-ca/water-cleanup/",
+    "/service-areas/buttonwillow-ca/water-cleanup/",
+    "/service-areas/delano-ca/water-cleanup/",
+    "/service-areas/dustin-acres-ca/water-cleanup/",
+    "/service-areas/east-niles-ca/water-cleanup/",
+    "/service-areas/lake-isabella-ca/water-cleanup/",
+    "/service-areas/lamont-ca/water-cleanup/",
+    "/service-areas/mcfarland-ca/water-cleanup/",
+    "/service-areas/oildale-ca/water-cleanup/",
+    "/service-areas/rosedale-ca/water-cleanup/",
+    "/service-areas/shafter-ca/water-cleanup/",
+    "/service-areas/taft-ca/water-cleanup/",
+    "/services/water-damage-restoration/"
   ],
   "/service-areas/oildale-ca/": [
     "/service-areas/",
@@ -340,6 +404,7 @@
     "/service-areas/oildale-ca/sewage-cleanup/",
     "/service-areas/oildale-ca/smoke-damage-restoration/",
     "/service-areas/oildale-ca/storm-damage-restoration/",
+    "/service-areas/oildale-ca/water-cleanup/",
     "/service-areas/oildale-ca/burst-pipe-repair/",
     "/service-areas/oildale-ca/general-contracting/",
     "/service-areas/oildale-ca/mold-inspection-testing/",
@@ -348,6 +413,7 @@
     "/service-areas/oildale-ca/appliance-leak-cleanup/",
     "/service-areas/oildale-ca/carpet-cleaning/",
     "/service-areas/arvin-ca/",
+    "/service-areas/buttonwillow-ca/",
     "/service-areas/delano-ca/"
   ],
   "/service-areas/rosedale-ca/": [
@@ -362,6 +428,7 @@
     "/service-areas/rosedale-ca/sewage-cleanup/",
     "/service-areas/rosedale-ca/smoke-damage-restoration/",
     "/service-areas/rosedale-ca/storm-damage-restoration/",
+    "/service-areas/rosedale-ca/water-cleanup/",
     "/service-areas/rosedale-ca/burst-pipe-repair/",
     "/service-areas/rosedale-ca/general-contracting/",
     "/service-areas/rosedale-ca/mold-inspection-testing/",
@@ -370,6 +437,7 @@
     "/service-areas/rosedale-ca/appliance-leak-cleanup/",
     "/service-areas/rosedale-ca/carpet-cleaning/",
     "/service-areas/arvin-ca/",
+    "/service-areas/buttonwillow-ca/",
     "/service-areas/delano-ca/"
   ],
   "/service-areas/delano-ca/": [
@@ -384,6 +452,7 @@
     "/service-areas/delano-ca/sewage-cleanup/",
     "/service-areas/delano-ca/smoke-damage-restoration/",
     "/service-areas/delano-ca/storm-damage-restoration/",
+    "/service-areas/delano-ca/water-cleanup/",
     "/service-areas/delano-ca/burst-pipe-repair/",
     "/service-areas/delano-ca/general-contracting/",
     "/service-areas/delano-ca/mold-inspection-testing/",
@@ -392,7 +461,8 @@
     "/service-areas/delano-ca/appliance-leak-cleanup/",
     "/service-areas/delano-ca/carpet-cleaning/",
     "/service-areas/arvin-ca/",
-    "/service-areas/lake-isabella-ca/"
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/dustin-acres-ca/"
   ],
   "/service-areas/shafter-ca/": [
     "/service-areas/",
@@ -406,6 +476,7 @@
     "/service-areas/shafter-ca/sewage-cleanup/",
     "/service-areas/shafter-ca/smoke-damage-restoration/",
     "/service-areas/shafter-ca/storm-damage-restoration/",
+    "/service-areas/shafter-ca/water-cleanup/",
     "/service-areas/shafter-ca/burst-pipe-repair/",
     "/service-areas/shafter-ca/general-contracting/",
     "/service-areas/shafter-ca/mold-inspection-testing/",
@@ -414,6 +485,7 @@
     "/service-areas/shafter-ca/appliance-leak-cleanup/",
     "/service-areas/shafter-ca/carpet-cleaning/",
     "/service-areas/arvin-ca/",
+    "/service-areas/buttonwillow-ca/",
     "/service-areas/delano-ca/"
   ],
   "/service-areas/wasco-ca/": [
@@ -428,6 +500,7 @@
     "/service-areas/wasco-ca/sewage-cleanup/",
     "/service-areas/wasco-ca/smoke-damage-restoration/",
     "/service-areas/wasco-ca/storm-damage-restoration/",
+    "/service-areas/wasco-ca/water-cleanup/",
     "/service-areas/wasco-ca/burst-pipe-repair/",
     "/service-areas/wasco-ca/general-contracting/",
     "/service-areas/wasco-ca/mold-inspection-testing/",
@@ -436,6 +509,7 @@
     "/service-areas/wasco-ca/appliance-leak-cleanup/",
     "/service-areas/wasco-ca/carpet-cleaning/",
     "/service-areas/arvin-ca/",
+    "/service-areas/buttonwillow-ca/",
     "/service-areas/delano-ca/"
   ],
   "/service-areas/taft-ca/": [
@@ -450,6 +524,7 @@
     "/service-areas/taft-ca/sewage-cleanup/",
     "/service-areas/taft-ca/smoke-damage-restoration/",
     "/service-areas/taft-ca/storm-damage-restoration/",
+    "/service-areas/taft-ca/water-cleanup/",
     "/service-areas/taft-ca/burst-pipe-repair/",
     "/service-areas/taft-ca/general-contracting/",
     "/service-areas/taft-ca/mold-inspection-testing/",
@@ -458,6 +533,7 @@
     "/service-areas/taft-ca/appliance-leak-cleanup/",
     "/service-areas/taft-ca/carpet-cleaning/",
     "/service-areas/arvin-ca/",
+    "/service-areas/buttonwillow-ca/",
     "/service-areas/delano-ca/"
   ],
   "/service-areas/tehachapi-ca/": [
@@ -472,6 +548,7 @@
     "/service-areas/tehachapi-ca/sewage-cleanup/",
     "/service-areas/tehachapi-ca/smoke-damage-restoration/",
     "/service-areas/tehachapi-ca/storm-damage-restoration/",
+    "/service-areas/tehachapi-ca/water-cleanup/",
     "/service-areas/tehachapi-ca/burst-pipe-repair/",
     "/service-areas/tehachapi-ca/general-contracting/",
     "/service-areas/tehachapi-ca/mold-inspection-testing/",
@@ -480,6 +557,7 @@
     "/service-areas/tehachapi-ca/appliance-leak-cleanup/",
     "/service-areas/tehachapi-ca/carpet-cleaning/",
     "/service-areas/arvin-ca/",
+    "/service-areas/buttonwillow-ca/",
     "/service-areas/delano-ca/"
   ],
   "/service-areas/arvin-ca/": [
@@ -494,6 +572,7 @@
     "/service-areas/arvin-ca/sewage-cleanup/",
     "/service-areas/arvin-ca/smoke-damage-restoration/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
+    "/service-areas/arvin-ca/water-cleanup/",
     "/service-areas/arvin-ca/burst-pipe-repair/",
     "/service-areas/arvin-ca/general-contracting/",
     "/service-areas/arvin-ca/mold-inspection-testing/",
@@ -501,8 +580,9 @@
     "/service-areas/arvin-ca/soot-removal/",
     "/service-areas/arvin-ca/appliance-leak-cleanup/",
     "/service-areas/arvin-ca/carpet-cleaning/",
+    "/service-areas/buttonwillow-ca/",
     "/service-areas/delano-ca/",
-    "/service-areas/lake-isabella-ca/"
+    "/service-areas/dustin-acres-ca/"
   ],
   "/service-areas/lamont-ca/": [
     "/service-areas/",
@@ -516,6 +596,7 @@
     "/service-areas/lamont-ca/sewage-cleanup/",
     "/service-areas/lamont-ca/smoke-damage-restoration/",
     "/service-areas/lamont-ca/storm-damage-restoration/",
+    "/service-areas/lamont-ca/water-cleanup/",
     "/service-areas/lamont-ca/burst-pipe-repair/",
     "/service-areas/lamont-ca/general-contracting/",
     "/service-areas/lamont-ca/mold-inspection-testing/",
@@ -524,6 +605,7 @@
     "/service-areas/lamont-ca/appliance-leak-cleanup/",
     "/service-areas/lamont-ca/carpet-cleaning/",
     "/service-areas/arvin-ca/",
+    "/service-areas/buttonwillow-ca/",
     "/service-areas/delano-ca/"
   ],
   "/service-areas/lake-isabella-ca/": [
@@ -538,6 +620,7 @@
     "/service-areas/lake-isabella-ca/sewage-cleanup/",
     "/service-areas/lake-isabella-ca/smoke-damage-restoration/",
     "/service-areas/lake-isabella-ca/storm-damage-restoration/",
+    "/service-areas/lake-isabella-ca/water-cleanup/",
     "/service-areas/lake-isabella-ca/burst-pipe-repair/",
     "/service-areas/lake-isabella-ca/general-contracting/",
     "/service-areas/lake-isabella-ca/mold-inspection-testing/",
@@ -546,6 +629,151 @@
     "/service-areas/lake-isabella-ca/appliance-leak-cleanup/",
     "/service-areas/lake-isabella-ca/carpet-cleaning/",
     "/service-areas/arvin-ca/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/delano-ca/"
+  ],
+  "/service-areas/east-niles-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/east-niles-ca/fire-damage-restoration/",
+    "/service-areas/east-niles-ca/home-remodeling/",
+    "/service-areas/east-niles-ca/mold-remediation/",
+    "/service-areas/east-niles-ca/water-damage-restoration/",
+    "/service-areas/east-niles-ca/flood-damage-restoration/",
+    "/service-areas/east-niles-ca/reconstruction/",
+    "/service-areas/east-niles-ca/sewage-cleanup/",
+    "/service-areas/east-niles-ca/smoke-damage-restoration/",
+    "/service-areas/east-niles-ca/storm-damage-restoration/",
+    "/service-areas/east-niles-ca/water-cleanup/",
+    "/service-areas/east-niles-ca/burst-pipe-repair/",
+    "/service-areas/east-niles-ca/general-contracting/",
+    "/service-areas/east-niles-ca/mold-inspection-testing/",
+    "/service-areas/east-niles-ca/odor-removal/",
+    "/service-areas/east-niles-ca/soot-removal/",
+    "/service-areas/east-niles-ca/appliance-leak-cleanup/",
+    "/service-areas/east-niles-ca/carpet-cleaning/",
+    "/service-areas/arvin-ca/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/delano-ca/"
+  ],
+  "/service-areas/tarina-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/tarina-ca/fire-damage-restoration/",
+    "/service-areas/tarina-ca/home-remodeling/",
+    "/service-areas/tarina-ca/mold-remediation/",
+    "/service-areas/tarina-ca/water-damage-restoration/",
+    "/service-areas/tarina-ca/flood-damage-restoration/",
+    "/service-areas/tarina-ca/reconstruction/",
+    "/service-areas/tarina-ca/sewage-cleanup/",
+    "/service-areas/tarina-ca/smoke-damage-restoration/",
+    "/service-areas/tarina-ca/storm-damage-restoration/",
+    "/service-areas/tarina-ca/water-cleanup/",
+    "/service-areas/tarina-ca/burst-pipe-repair/",
+    "/service-areas/tarina-ca/general-contracting/",
+    "/service-areas/tarina-ca/mold-inspection-testing/",
+    "/service-areas/tarina-ca/odor-removal/",
+    "/service-areas/tarina-ca/soot-removal/",
+    "/service-areas/tarina-ca/appliance-leak-cleanup/",
+    "/service-areas/tarina-ca/carpet-cleaning/",
+    "/service-areas/arvin-ca/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/delano-ca/"
+  ],
+  "/service-areas/weedpatch-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/weedpatch-ca/fire-damage-restoration/",
+    "/service-areas/weedpatch-ca/home-remodeling/",
+    "/service-areas/weedpatch-ca/mold-remediation/",
+    "/service-areas/weedpatch-ca/water-damage-restoration/",
+    "/service-areas/weedpatch-ca/flood-damage-restoration/",
+    "/service-areas/weedpatch-ca/reconstruction/",
+    "/service-areas/weedpatch-ca/sewage-cleanup/",
+    "/service-areas/weedpatch-ca/smoke-damage-restoration/",
+    "/service-areas/weedpatch-ca/storm-damage-restoration/",
+    "/service-areas/weedpatch-ca/water-cleanup/",
+    "/service-areas/weedpatch-ca/burst-pipe-repair/",
+    "/service-areas/weedpatch-ca/general-contracting/",
+    "/service-areas/weedpatch-ca/mold-inspection-testing/",
+    "/service-areas/weedpatch-ca/odor-removal/",
+    "/service-areas/weedpatch-ca/soot-removal/",
+    "/service-areas/weedpatch-ca/appliance-leak-cleanup/",
+    "/service-areas/weedpatch-ca/carpet-cleaning/",
+    "/service-areas/arvin-ca/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/delano-ca/"
+  ],
+  "/service-areas/buttonwillow-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/mold-remediation/",
+    "/service-areas/buttonwillow-ca/water-damage-restoration/",
+    "/service-areas/buttonwillow-ca/flood-damage-restoration/",
+    "/service-areas/buttonwillow-ca/reconstruction/",
+    "/service-areas/buttonwillow-ca/sewage-cleanup/",
+    "/service-areas/buttonwillow-ca/smoke-damage-restoration/",
+    "/service-areas/buttonwillow-ca/storm-damage-restoration/",
+    "/service-areas/buttonwillow-ca/water-cleanup/",
+    "/service-areas/buttonwillow-ca/burst-pipe-repair/",
+    "/service-areas/buttonwillow-ca/general-contracting/",
+    "/service-areas/buttonwillow-ca/mold-inspection-testing/",
+    "/service-areas/buttonwillow-ca/odor-removal/",
+    "/service-areas/buttonwillow-ca/soot-removal/",
+    "/service-areas/buttonwillow-ca/appliance-leak-cleanup/",
+    "/service-areas/buttonwillow-ca/carpet-cleaning/",
+    "/service-areas/arvin-ca/",
+    "/service-areas/delano-ca/",
+    "/service-areas/dustin-acres-ca/"
+  ],
+  "/service-areas/dustin-acres-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/dustin-acres-ca/fire-damage-restoration/",
+    "/service-areas/dustin-acres-ca/home-remodeling/",
+    "/service-areas/dustin-acres-ca/mold-remediation/",
+    "/service-areas/dustin-acres-ca/water-damage-restoration/",
+    "/service-areas/dustin-acres-ca/flood-damage-restoration/",
+    "/service-areas/dustin-acres-ca/reconstruction/",
+    "/service-areas/dustin-acres-ca/sewage-cleanup/",
+    "/service-areas/dustin-acres-ca/smoke-damage-restoration/",
+    "/service-areas/dustin-acres-ca/storm-damage-restoration/",
+    "/service-areas/dustin-acres-ca/water-cleanup/",
+    "/service-areas/dustin-acres-ca/burst-pipe-repair/",
+    "/service-areas/dustin-acres-ca/general-contracting/",
+    "/service-areas/dustin-acres-ca/mold-inspection-testing/",
+    "/service-areas/dustin-acres-ca/odor-removal/",
+    "/service-areas/dustin-acres-ca/soot-removal/",
+    "/service-areas/dustin-acres-ca/appliance-leak-cleanup/",
+    "/service-areas/dustin-acres-ca/carpet-cleaning/",
+    "/service-areas/arvin-ca/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/delano-ca/"
+  ],
+  "/service-areas/mcfarland-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/mcfarland-ca/fire-damage-restoration/",
+    "/service-areas/mcfarland-ca/home-remodeling/",
+    "/service-areas/mcfarland-ca/mold-remediation/",
+    "/service-areas/mcfarland-ca/water-damage-restoration/",
+    "/service-areas/mcfarland-ca/flood-damage-restoration/",
+    "/service-areas/mcfarland-ca/reconstruction/",
+    "/service-areas/mcfarland-ca/sewage-cleanup/",
+    "/service-areas/mcfarland-ca/smoke-damage-restoration/",
+    "/service-areas/mcfarland-ca/storm-damage-restoration/",
+    "/service-areas/mcfarland-ca/water-cleanup/",
+    "/service-areas/mcfarland-ca/burst-pipe-repair/",
+    "/service-areas/mcfarland-ca/general-contracting/",
+    "/service-areas/mcfarland-ca/mold-inspection-testing/",
+    "/service-areas/mcfarland-ca/odor-removal/",
+    "/service-areas/mcfarland-ca/soot-removal/",
+    "/service-areas/mcfarland-ca/appliance-leak-cleanup/",
+    "/service-areas/mcfarland-ca/carpet-cleaning/",
+    "/service-areas/arvin-ca/",
+    "/service-areas/buttonwillow-ca/",
     "/service-areas/delano-ca/"
   ],
   "/service-areas/oildale-ca/water-damage-restoration/": [
@@ -554,6 +782,7 @@
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/water-damage-restoration/",
+    "/service-areas/buttonwillow-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/flood-damage-restoration/": [
@@ -562,6 +791,7 @@
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/flood-damage-restoration/",
+    "/service-areas/buttonwillow-ca/flood-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/burst-pipe-repair/": [
@@ -570,6 +800,7 @@
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/burst-pipe-repair/",
+    "/service-areas/buttonwillow-ca/burst-pipe-repair/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/appliance-leak-cleanup/": [
@@ -578,6 +809,7 @@
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/appliance-leak-cleanup/",
+    "/service-areas/buttonwillow-ca/appliance-leak-cleanup/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/sewage-cleanup/": [
@@ -586,6 +818,7 @@
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/sewage-cleanup/",
+    "/service-areas/buttonwillow-ca/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/fire-damage-restoration/": [
@@ -594,6 +827,7 @@
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/oildale-ca/mold-remediation/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/smoke-damage-restoration/": [
@@ -602,6 +836,7 @@
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/smoke-damage-restoration/",
+    "/service-areas/buttonwillow-ca/smoke-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/soot-removal/": [
@@ -610,6 +845,7 @@
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/soot-removal/",
+    "/service-areas/buttonwillow-ca/soot-removal/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/odor-removal/": [
@@ -618,6 +854,7 @@
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/odor-removal/",
+    "/service-areas/buttonwillow-ca/odor-removal/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/mold-remediation/": [
@@ -626,6 +863,7 @@
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-remediation/",
+    "/service-areas/buttonwillow-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/mold-inspection-testing/": [
@@ -634,6 +872,7 @@
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-inspection-testing/",
+    "/service-areas/buttonwillow-ca/mold-inspection-testing/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/storm-damage-restoration/": [
@@ -642,6 +881,7 @@
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
+    "/service-areas/buttonwillow-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/carpet-cleaning/": [
@@ -650,6 +890,7 @@
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/carpet-cleaning/",
+    "/service-areas/buttonwillow-ca/carpet-cleaning/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/reconstruction/": [
@@ -658,6 +899,7 @@
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/reconstruction/",
+    "/service-areas/buttonwillow-ca/reconstruction/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/home-remodeling/": [
@@ -666,6 +908,7 @@
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/mold-remediation/",
     "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/general-contracting/": [
@@ -674,6 +917,16 @@
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/general-contracting/",
+    "/service-areas/buttonwillow-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/oildale-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/oildale-ca/",
+    "/service-areas/oildale-ca/fire-damage-restoration/",
+    "/service-areas/oildale-ca/home-remodeling/",
+    "/service-areas/arvin-ca/water-cleanup/",
+    "/service-areas/buttonwillow-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/water-damage-restoration/": [
@@ -682,6 +935,7 @@
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/arvin-ca/water-damage-restoration/",
+    "/service-areas/buttonwillow-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/flood-damage-restoration/": [
@@ -690,6 +944,7 @@
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/arvin-ca/flood-damage-restoration/",
+    "/service-areas/buttonwillow-ca/flood-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/burst-pipe-repair/": [
@@ -698,6 +953,7 @@
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/arvin-ca/burst-pipe-repair/",
+    "/service-areas/buttonwillow-ca/burst-pipe-repair/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/appliance-leak-cleanup/": [
@@ -706,6 +962,7 @@
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/arvin-ca/appliance-leak-cleanup/",
+    "/service-areas/buttonwillow-ca/appliance-leak-cleanup/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/sewage-cleanup/": [
@@ -714,6 +971,7 @@
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/arvin-ca/sewage-cleanup/",
+    "/service-areas/buttonwillow-ca/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/fire-damage-restoration/": [
@@ -722,6 +980,7 @@
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/rosedale-ca/mold-remediation/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/smoke-damage-restoration/": [
@@ -730,6 +989,7 @@
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/arvin-ca/smoke-damage-restoration/",
+    "/service-areas/buttonwillow-ca/smoke-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/soot-removal/": [
@@ -738,6 +998,7 @@
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/arvin-ca/soot-removal/",
+    "/service-areas/buttonwillow-ca/soot-removal/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/odor-removal/": [
@@ -746,6 +1007,7 @@
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/arvin-ca/odor-removal/",
+    "/service-areas/buttonwillow-ca/odor-removal/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/mold-remediation/": [
@@ -754,6 +1016,7 @@
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-remediation/",
+    "/service-areas/buttonwillow-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/mold-inspection-testing/": [
@@ -762,6 +1025,7 @@
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-inspection-testing/",
+    "/service-areas/buttonwillow-ca/mold-inspection-testing/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/storm-damage-restoration/": [
@@ -770,6 +1034,7 @@
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
+    "/service-areas/buttonwillow-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/carpet-cleaning/": [
@@ -778,6 +1043,7 @@
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/arvin-ca/carpet-cleaning/",
+    "/service-areas/buttonwillow-ca/carpet-cleaning/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/reconstruction/": [
@@ -786,6 +1052,7 @@
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/arvin-ca/reconstruction/",
+    "/service-areas/buttonwillow-ca/reconstruction/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/home-remodeling/": [
@@ -794,6 +1061,7 @@
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/mold-remediation/",
     "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/general-contracting/": [
@@ -802,6 +1070,16 @@
     "/service-areas/rosedale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/arvin-ca/general-contracting/",
+    "/service-areas/buttonwillow-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/rosedale-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/rosedale-ca/",
+    "/service-areas/rosedale-ca/fire-damage-restoration/",
+    "/service-areas/rosedale-ca/home-remodeling/",
+    "/service-areas/arvin-ca/water-cleanup/",
+    "/service-areas/buttonwillow-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/delano-ca/water-damage-restoration/": [
@@ -810,6 +1088,7 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/water-damage-restoration/",
+    "/service-areas/buttonwillow-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/delano-ca/flood-damage-restoration/": [
@@ -818,6 +1097,7 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/flood-damage-restoration/",
+    "/service-areas/buttonwillow-ca/flood-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/delano-ca/burst-pipe-repair/": [
@@ -826,6 +1106,7 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/burst-pipe-repair/",
+    "/service-areas/buttonwillow-ca/burst-pipe-repair/",
     "/contact/"
   ],
   "/service-areas/delano-ca/appliance-leak-cleanup/": [
@@ -834,6 +1115,7 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/appliance-leak-cleanup/",
+    "/service-areas/buttonwillow-ca/appliance-leak-cleanup/",
     "/contact/"
   ],
   "/service-areas/delano-ca/sewage-cleanup/": [
@@ -842,6 +1124,7 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/sewage-cleanup/",
+    "/service-areas/buttonwillow-ca/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/delano-ca/fire-damage-restoration/": [
@@ -850,6 +1133,7 @@
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/delano-ca/mold-remediation/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/delano-ca/smoke-damage-restoration/": [
@@ -858,6 +1142,7 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/smoke-damage-restoration/",
+    "/service-areas/buttonwillow-ca/smoke-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/delano-ca/soot-removal/": [
@@ -866,6 +1151,7 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/soot-removal/",
+    "/service-areas/buttonwillow-ca/soot-removal/",
     "/contact/"
   ],
   "/service-areas/delano-ca/odor-removal/": [
@@ -874,6 +1160,7 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/odor-removal/",
+    "/service-areas/buttonwillow-ca/odor-removal/",
     "/contact/"
   ],
   "/service-areas/delano-ca/mold-remediation/": [
@@ -882,6 +1169,7 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-remediation/",
+    "/service-areas/buttonwillow-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/delano-ca/mold-inspection-testing/": [
@@ -890,6 +1178,7 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-inspection-testing/",
+    "/service-areas/buttonwillow-ca/mold-inspection-testing/",
     "/contact/"
   ],
   "/service-areas/delano-ca/storm-damage-restoration/": [
@@ -898,6 +1187,7 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
+    "/service-areas/buttonwillow-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/delano-ca/carpet-cleaning/": [
@@ -906,6 +1196,7 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/carpet-cleaning/",
+    "/service-areas/buttonwillow-ca/carpet-cleaning/",
     "/contact/"
   ],
   "/service-areas/delano-ca/reconstruction/": [
@@ -914,6 +1205,7 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/reconstruction/",
+    "/service-areas/buttonwillow-ca/reconstruction/",
     "/contact/"
   ],
   "/service-areas/delano-ca/home-remodeling/": [
@@ -922,6 +1214,7 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/mold-remediation/",
     "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/delano-ca/general-contracting/": [
@@ -930,6 +1223,16 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/general-contracting/",
+    "/service-areas/buttonwillow-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/delano-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/delano-ca/",
+    "/service-areas/delano-ca/fire-damage-restoration/",
+    "/service-areas/delano-ca/home-remodeling/",
+    "/service-areas/arvin-ca/water-cleanup/",
+    "/service-areas/buttonwillow-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/water-damage-restoration/": [
@@ -938,6 +1241,7 @@
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/arvin-ca/water-damage-restoration/",
+    "/service-areas/buttonwillow-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/flood-damage-restoration/": [
@@ -946,6 +1250,7 @@
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/arvin-ca/flood-damage-restoration/",
+    "/service-areas/buttonwillow-ca/flood-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/burst-pipe-repair/": [
@@ -954,6 +1259,7 @@
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/arvin-ca/burst-pipe-repair/",
+    "/service-areas/buttonwillow-ca/burst-pipe-repair/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/appliance-leak-cleanup/": [
@@ -962,6 +1268,7 @@
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/arvin-ca/appliance-leak-cleanup/",
+    "/service-areas/buttonwillow-ca/appliance-leak-cleanup/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/sewage-cleanup/": [
@@ -970,6 +1277,7 @@
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/arvin-ca/sewage-cleanup/",
+    "/service-areas/buttonwillow-ca/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/fire-damage-restoration/": [
@@ -978,6 +1286,7 @@
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/shafter-ca/mold-remediation/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/smoke-damage-restoration/": [
@@ -986,6 +1295,7 @@
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/arvin-ca/smoke-damage-restoration/",
+    "/service-areas/buttonwillow-ca/smoke-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/soot-removal/": [
@@ -994,6 +1304,7 @@
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/arvin-ca/soot-removal/",
+    "/service-areas/buttonwillow-ca/soot-removal/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/odor-removal/": [
@@ -1002,6 +1313,7 @@
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/arvin-ca/odor-removal/",
+    "/service-areas/buttonwillow-ca/odor-removal/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/mold-remediation/": [
@@ -1010,6 +1322,7 @@
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-remediation/",
+    "/service-areas/buttonwillow-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/mold-inspection-testing/": [
@@ -1018,6 +1331,7 @@
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-inspection-testing/",
+    "/service-areas/buttonwillow-ca/mold-inspection-testing/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/storm-damage-restoration/": [
@@ -1026,6 +1340,7 @@
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
+    "/service-areas/buttonwillow-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/carpet-cleaning/": [
@@ -1034,6 +1349,7 @@
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/arvin-ca/carpet-cleaning/",
+    "/service-areas/buttonwillow-ca/carpet-cleaning/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/reconstruction/": [
@@ -1042,6 +1358,7 @@
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/arvin-ca/reconstruction/",
+    "/service-areas/buttonwillow-ca/reconstruction/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/home-remodeling/": [
@@ -1050,6 +1367,7 @@
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/mold-remediation/",
     "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/general-contracting/": [
@@ -1058,6 +1376,16 @@
     "/service-areas/shafter-ca/fire-damage-restoration/",
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/arvin-ca/general-contracting/",
+    "/service-areas/buttonwillow-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/shafter-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/shafter-ca/",
+    "/service-areas/shafter-ca/fire-damage-restoration/",
+    "/service-areas/shafter-ca/home-remodeling/",
+    "/service-areas/arvin-ca/water-cleanup/",
+    "/service-areas/buttonwillow-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/water-damage-restoration/": [
@@ -1066,6 +1394,7 @@
     "/service-areas/wasco-ca/fire-damage-restoration/",
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/water-damage-restoration/",
+    "/service-areas/buttonwillow-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/flood-damage-restoration/": [
@@ -1074,6 +1403,7 @@
     "/service-areas/wasco-ca/fire-damage-restoration/",
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/flood-damage-restoration/",
+    "/service-areas/buttonwillow-ca/flood-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/burst-pipe-repair/": [
@@ -1082,6 +1412,7 @@
     "/service-areas/wasco-ca/fire-damage-restoration/",
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/burst-pipe-repair/",
+    "/service-areas/buttonwillow-ca/burst-pipe-repair/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/appliance-leak-cleanup/": [
@@ -1090,6 +1421,7 @@
     "/service-areas/wasco-ca/fire-damage-restoration/",
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/appliance-leak-cleanup/",
+    "/service-areas/buttonwillow-ca/appliance-leak-cleanup/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/sewage-cleanup/": [
@@ -1098,6 +1430,7 @@
     "/service-areas/wasco-ca/fire-damage-restoration/",
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/sewage-cleanup/",
+    "/service-areas/buttonwillow-ca/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/fire-damage-restoration/": [
@@ -1106,6 +1439,7 @@
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/wasco-ca/mold-remediation/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/smoke-damage-restoration/": [
@@ -1114,6 +1448,7 @@
     "/service-areas/wasco-ca/fire-damage-restoration/",
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/smoke-damage-restoration/",
+    "/service-areas/buttonwillow-ca/smoke-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/soot-removal/": [
@@ -1122,6 +1457,7 @@
     "/service-areas/wasco-ca/fire-damage-restoration/",
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/soot-removal/",
+    "/service-areas/buttonwillow-ca/soot-removal/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/odor-removal/": [
@@ -1130,6 +1466,7 @@
     "/service-areas/wasco-ca/fire-damage-restoration/",
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/odor-removal/",
+    "/service-areas/buttonwillow-ca/odor-removal/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/mold-remediation/": [
@@ -1138,6 +1475,7 @@
     "/service-areas/wasco-ca/fire-damage-restoration/",
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-remediation/",
+    "/service-areas/buttonwillow-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/mold-inspection-testing/": [
@@ -1146,6 +1484,7 @@
     "/service-areas/wasco-ca/fire-damage-restoration/",
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-inspection-testing/",
+    "/service-areas/buttonwillow-ca/mold-inspection-testing/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/storm-damage-restoration/": [
@@ -1154,6 +1493,7 @@
     "/service-areas/wasco-ca/fire-damage-restoration/",
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
+    "/service-areas/buttonwillow-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/carpet-cleaning/": [
@@ -1162,6 +1502,7 @@
     "/service-areas/wasco-ca/fire-damage-restoration/",
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/carpet-cleaning/",
+    "/service-areas/buttonwillow-ca/carpet-cleaning/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/reconstruction/": [
@@ -1170,6 +1511,7 @@
     "/service-areas/wasco-ca/fire-damage-restoration/",
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/reconstruction/",
+    "/service-areas/buttonwillow-ca/reconstruction/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/home-remodeling/": [
@@ -1178,6 +1520,7 @@
     "/service-areas/wasco-ca/fire-damage-restoration/",
     "/service-areas/wasco-ca/mold-remediation/",
     "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/general-contracting/": [
@@ -1186,6 +1529,16 @@
     "/service-areas/wasco-ca/fire-damage-restoration/",
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/general-contracting/",
+    "/service-areas/buttonwillow-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/wasco-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/wasco-ca/",
+    "/service-areas/wasco-ca/fire-damage-restoration/",
+    "/service-areas/wasco-ca/home-remodeling/",
+    "/service-areas/arvin-ca/water-cleanup/",
+    "/service-areas/buttonwillow-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/taft-ca/water-damage-restoration/": [
@@ -1194,6 +1547,7 @@
     "/service-areas/taft-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/arvin-ca/water-damage-restoration/",
+    "/service-areas/buttonwillow-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/taft-ca/flood-damage-restoration/": [
@@ -1202,6 +1556,7 @@
     "/service-areas/taft-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/arvin-ca/flood-damage-restoration/",
+    "/service-areas/buttonwillow-ca/flood-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/taft-ca/burst-pipe-repair/": [
@@ -1210,6 +1565,7 @@
     "/service-areas/taft-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/arvin-ca/burst-pipe-repair/",
+    "/service-areas/buttonwillow-ca/burst-pipe-repair/",
     "/contact/"
   ],
   "/service-areas/taft-ca/appliance-leak-cleanup/": [
@@ -1218,6 +1574,7 @@
     "/service-areas/taft-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/arvin-ca/appliance-leak-cleanup/",
+    "/service-areas/buttonwillow-ca/appliance-leak-cleanup/",
     "/contact/"
   ],
   "/service-areas/taft-ca/sewage-cleanup/": [
@@ -1226,6 +1583,7 @@
     "/service-areas/taft-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/arvin-ca/sewage-cleanup/",
+    "/service-areas/buttonwillow-ca/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/taft-ca/fire-damage-restoration/": [
@@ -1234,6 +1592,7 @@
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/taft-ca/mold-remediation/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/taft-ca/smoke-damage-restoration/": [
@@ -1242,6 +1601,7 @@
     "/service-areas/taft-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/arvin-ca/smoke-damage-restoration/",
+    "/service-areas/buttonwillow-ca/smoke-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/taft-ca/soot-removal/": [
@@ -1250,6 +1610,7 @@
     "/service-areas/taft-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/arvin-ca/soot-removal/",
+    "/service-areas/buttonwillow-ca/soot-removal/",
     "/contact/"
   ],
   "/service-areas/taft-ca/odor-removal/": [
@@ -1258,6 +1619,7 @@
     "/service-areas/taft-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/arvin-ca/odor-removal/",
+    "/service-areas/buttonwillow-ca/odor-removal/",
     "/contact/"
   ],
   "/service-areas/taft-ca/mold-remediation/": [
@@ -1266,6 +1628,7 @@
     "/service-areas/taft-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-remediation/",
+    "/service-areas/buttonwillow-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/taft-ca/mold-inspection-testing/": [
@@ -1274,6 +1637,7 @@
     "/service-areas/taft-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-inspection-testing/",
+    "/service-areas/buttonwillow-ca/mold-inspection-testing/",
     "/contact/"
   ],
   "/service-areas/taft-ca/storm-damage-restoration/": [
@@ -1282,6 +1646,7 @@
     "/service-areas/taft-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
+    "/service-areas/buttonwillow-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/taft-ca/carpet-cleaning/": [
@@ -1290,6 +1655,7 @@
     "/service-areas/taft-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/arvin-ca/carpet-cleaning/",
+    "/service-areas/buttonwillow-ca/carpet-cleaning/",
     "/contact/"
   ],
   "/service-areas/taft-ca/reconstruction/": [
@@ -1298,6 +1664,7 @@
     "/service-areas/taft-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/arvin-ca/reconstruction/",
+    "/service-areas/buttonwillow-ca/reconstruction/",
     "/contact/"
   ],
   "/service-areas/taft-ca/home-remodeling/": [
@@ -1306,6 +1673,7 @@
     "/service-areas/taft-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/mold-remediation/",
     "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/taft-ca/general-contracting/": [
@@ -1314,6 +1682,16 @@
     "/service-areas/taft-ca/fire-damage-restoration/",
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/arvin-ca/general-contracting/",
+    "/service-areas/buttonwillow-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/taft-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/taft-ca/",
+    "/service-areas/taft-ca/fire-damage-restoration/",
+    "/service-areas/taft-ca/home-remodeling/",
+    "/service-areas/arvin-ca/water-cleanup/",
+    "/service-areas/buttonwillow-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/water-damage-restoration/": [
@@ -1322,6 +1700,7 @@
     "/service-areas/tehachapi-ca/fire-damage-restoration/",
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/water-damage-restoration/",
+    "/service-areas/buttonwillow-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/flood-damage-restoration/": [
@@ -1330,6 +1709,7 @@
     "/service-areas/tehachapi-ca/fire-damage-restoration/",
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/flood-damage-restoration/",
+    "/service-areas/buttonwillow-ca/flood-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/burst-pipe-repair/": [
@@ -1338,6 +1718,7 @@
     "/service-areas/tehachapi-ca/fire-damage-restoration/",
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/burst-pipe-repair/",
+    "/service-areas/buttonwillow-ca/burst-pipe-repair/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/appliance-leak-cleanup/": [
@@ -1346,6 +1727,7 @@
     "/service-areas/tehachapi-ca/fire-damage-restoration/",
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/appliance-leak-cleanup/",
+    "/service-areas/buttonwillow-ca/appliance-leak-cleanup/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/sewage-cleanup/": [
@@ -1354,6 +1736,7 @@
     "/service-areas/tehachapi-ca/fire-damage-restoration/",
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/sewage-cleanup/",
+    "/service-areas/buttonwillow-ca/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/fire-damage-restoration/": [
@@ -1362,6 +1745,7 @@
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/tehachapi-ca/mold-remediation/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/smoke-damage-restoration/": [
@@ -1370,6 +1754,7 @@
     "/service-areas/tehachapi-ca/fire-damage-restoration/",
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/smoke-damage-restoration/",
+    "/service-areas/buttonwillow-ca/smoke-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/soot-removal/": [
@@ -1378,6 +1763,7 @@
     "/service-areas/tehachapi-ca/fire-damage-restoration/",
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/soot-removal/",
+    "/service-areas/buttonwillow-ca/soot-removal/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/odor-removal/": [
@@ -1386,6 +1772,7 @@
     "/service-areas/tehachapi-ca/fire-damage-restoration/",
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/odor-removal/",
+    "/service-areas/buttonwillow-ca/odor-removal/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/mold-remediation/": [
@@ -1394,6 +1781,7 @@
     "/service-areas/tehachapi-ca/fire-damage-restoration/",
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-remediation/",
+    "/service-areas/buttonwillow-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/mold-inspection-testing/": [
@@ -1402,6 +1790,7 @@
     "/service-areas/tehachapi-ca/fire-damage-restoration/",
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-inspection-testing/",
+    "/service-areas/buttonwillow-ca/mold-inspection-testing/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/storm-damage-restoration/": [
@@ -1410,6 +1799,7 @@
     "/service-areas/tehachapi-ca/fire-damage-restoration/",
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
+    "/service-areas/buttonwillow-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/carpet-cleaning/": [
@@ -1418,6 +1808,7 @@
     "/service-areas/tehachapi-ca/fire-damage-restoration/",
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/carpet-cleaning/",
+    "/service-areas/buttonwillow-ca/carpet-cleaning/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/reconstruction/": [
@@ -1426,6 +1817,7 @@
     "/service-areas/tehachapi-ca/fire-damage-restoration/",
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/reconstruction/",
+    "/service-areas/buttonwillow-ca/reconstruction/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/home-remodeling/": [
@@ -1434,6 +1826,7 @@
     "/service-areas/tehachapi-ca/fire-damage-restoration/",
     "/service-areas/tehachapi-ca/mold-remediation/",
     "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/general-contracting/": [
@@ -1442,6 +1835,16 @@
     "/service-areas/tehachapi-ca/fire-damage-restoration/",
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/general-contracting/",
+    "/service-areas/buttonwillow-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/tehachapi-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/tehachapi-ca/",
+    "/service-areas/tehachapi-ca/fire-damage-restoration/",
+    "/service-areas/tehachapi-ca/home-remodeling/",
+    "/service-areas/arvin-ca/water-cleanup/",
+    "/service-areas/buttonwillow-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/arvin-ca/water-damage-restoration/": [
@@ -1449,6 +1852,7 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
     "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/water-damage-restoration/",
     "/service-areas/delano-ca/water-damage-restoration/",
     "/contact/"
   ],
@@ -1457,6 +1861,7 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
     "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/flood-damage-restoration/",
     "/service-areas/delano-ca/flood-damage-restoration/",
     "/contact/"
   ],
@@ -1465,6 +1870,7 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
     "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/burst-pipe-repair/",
     "/service-areas/delano-ca/burst-pipe-repair/",
     "/contact/"
   ],
@@ -1473,6 +1879,7 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
     "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/appliance-leak-cleanup/",
     "/service-areas/delano-ca/appliance-leak-cleanup/",
     "/contact/"
   ],
@@ -1481,6 +1888,7 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
     "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/sewage-cleanup/",
     "/service-areas/delano-ca/sewage-cleanup/",
     "/contact/"
   ],
@@ -1489,6 +1897,7 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-remediation/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/contact/"
   ],
@@ -1497,6 +1906,7 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
     "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/smoke-damage-restoration/",
     "/service-areas/delano-ca/smoke-damage-restoration/",
     "/contact/"
   ],
@@ -1505,6 +1915,7 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
     "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/soot-removal/",
     "/service-areas/delano-ca/soot-removal/",
     "/contact/"
   ],
@@ -1513,6 +1924,7 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
     "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/odor-removal/",
     "/service-areas/delano-ca/odor-removal/",
     "/contact/"
   ],
@@ -1521,6 +1933,7 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
     "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/mold-remediation/",
     "/service-areas/delano-ca/mold-remediation/",
     "/contact/"
   ],
@@ -1529,6 +1942,7 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
     "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/mold-inspection-testing/",
     "/service-areas/delano-ca/mold-inspection-testing/",
     "/contact/"
   ],
@@ -1537,6 +1951,7 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
     "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/storm-damage-restoration/",
     "/service-areas/delano-ca/storm-damage-restoration/",
     "/contact/"
   ],
@@ -1545,6 +1960,7 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
     "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/carpet-cleaning/",
     "/service-areas/delano-ca/carpet-cleaning/",
     "/contact/"
   ],
@@ -1553,6 +1969,7 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
     "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/reconstruction/",
     "/service-areas/delano-ca/reconstruction/",
     "/contact/"
   ],
@@ -1561,6 +1978,7 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
     "/service-areas/arvin-ca/mold-remediation/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
     "/service-areas/delano-ca/home-remodeling/",
     "/contact/"
   ],
@@ -1569,7 +1987,17 @@
     "/service-areas/arvin-ca/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
     "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/general-contracting/",
     "/service-areas/delano-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/arvin-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/arvin-ca/",
+    "/service-areas/arvin-ca/fire-damage-restoration/",
+    "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/water-cleanup/",
+    "/service-areas/delano-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/water-damage-restoration/": [
@@ -1578,6 +2006,7 @@
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/water-damage-restoration/",
+    "/service-areas/buttonwillow-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/flood-damage-restoration/": [
@@ -1586,6 +2015,7 @@
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/flood-damage-restoration/",
+    "/service-areas/buttonwillow-ca/flood-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/burst-pipe-repair/": [
@@ -1594,6 +2024,7 @@
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/burst-pipe-repair/",
+    "/service-areas/buttonwillow-ca/burst-pipe-repair/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/appliance-leak-cleanup/": [
@@ -1602,6 +2033,7 @@
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/appliance-leak-cleanup/",
+    "/service-areas/buttonwillow-ca/appliance-leak-cleanup/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/sewage-cleanup/": [
@@ -1610,6 +2042,7 @@
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/sewage-cleanup/",
+    "/service-areas/buttonwillow-ca/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/fire-damage-restoration/": [
@@ -1618,6 +2051,7 @@
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/lamont-ca/mold-remediation/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/smoke-damage-restoration/": [
@@ -1626,6 +2060,7 @@
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/smoke-damage-restoration/",
+    "/service-areas/buttonwillow-ca/smoke-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/soot-removal/": [
@@ -1634,6 +2069,7 @@
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/soot-removal/",
+    "/service-areas/buttonwillow-ca/soot-removal/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/odor-removal/": [
@@ -1642,6 +2078,7 @@
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/odor-removal/",
+    "/service-areas/buttonwillow-ca/odor-removal/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/mold-remediation/": [
@@ -1650,6 +2087,7 @@
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-remediation/",
+    "/service-areas/buttonwillow-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/mold-inspection-testing/": [
@@ -1658,6 +2096,7 @@
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-inspection-testing/",
+    "/service-areas/buttonwillow-ca/mold-inspection-testing/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/storm-damage-restoration/": [
@@ -1666,6 +2105,7 @@
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
+    "/service-areas/buttonwillow-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/carpet-cleaning/": [
@@ -1674,6 +2114,7 @@
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/carpet-cleaning/",
+    "/service-areas/buttonwillow-ca/carpet-cleaning/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/reconstruction/": [
@@ -1682,6 +2123,7 @@
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/reconstruction/",
+    "/service-areas/buttonwillow-ca/reconstruction/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/home-remodeling/": [
@@ -1690,6 +2132,7 @@
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/mold-remediation/",
     "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/general-contracting/": [
@@ -1698,6 +2141,16 @@
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/general-contracting/",
+    "/service-areas/buttonwillow-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/lamont-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/lamont-ca/",
+    "/service-areas/lamont-ca/fire-damage-restoration/",
+    "/service-areas/lamont-ca/home-remodeling/",
+    "/service-areas/arvin-ca/water-cleanup/",
+    "/service-areas/buttonwillow-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/water-damage-restoration/": [
@@ -1706,6 +2159,7 @@
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/arvin-ca/water-damage-restoration/",
+    "/service-areas/buttonwillow-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/flood-damage-restoration/": [
@@ -1714,6 +2168,7 @@
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/arvin-ca/flood-damage-restoration/",
+    "/service-areas/buttonwillow-ca/flood-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/burst-pipe-repair/": [
@@ -1722,6 +2177,7 @@
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/arvin-ca/burst-pipe-repair/",
+    "/service-areas/buttonwillow-ca/burst-pipe-repair/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/appliance-leak-cleanup/": [
@@ -1730,6 +2186,7 @@
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/arvin-ca/appliance-leak-cleanup/",
+    "/service-areas/buttonwillow-ca/appliance-leak-cleanup/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/sewage-cleanup/": [
@@ -1738,6 +2195,7 @@
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/arvin-ca/sewage-cleanup/",
+    "/service-areas/buttonwillow-ca/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/fire-damage-restoration/": [
@@ -1746,6 +2204,7 @@
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/lake-isabella-ca/mold-remediation/",
     "/service-areas/arvin-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/smoke-damage-restoration/": [
@@ -1754,6 +2213,7 @@
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/arvin-ca/smoke-damage-restoration/",
+    "/service-areas/buttonwillow-ca/smoke-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/soot-removal/": [
@@ -1762,6 +2222,7 @@
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/arvin-ca/soot-removal/",
+    "/service-areas/buttonwillow-ca/soot-removal/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/odor-removal/": [
@@ -1770,6 +2231,7 @@
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/arvin-ca/odor-removal/",
+    "/service-areas/buttonwillow-ca/odor-removal/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/mold-remediation/": [
@@ -1778,6 +2240,7 @@
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-remediation/",
+    "/service-areas/buttonwillow-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/mold-inspection-testing/": [
@@ -1786,6 +2249,7 @@
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/arvin-ca/mold-inspection-testing/",
+    "/service-areas/buttonwillow-ca/mold-inspection-testing/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/storm-damage-restoration/": [
@@ -1794,6 +2258,7 @@
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
+    "/service-areas/buttonwillow-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/carpet-cleaning/": [
@@ -1802,6 +2267,7 @@
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/arvin-ca/carpet-cleaning/",
+    "/service-areas/buttonwillow-ca/carpet-cleaning/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/reconstruction/": [
@@ -1810,6 +2276,7 @@
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/arvin-ca/reconstruction/",
+    "/service-areas/buttonwillow-ca/reconstruction/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/home-remodeling/": [
@@ -1818,6 +2285,7 @@
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/mold-remediation/",
     "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/general-contracting/": [
@@ -1826,6 +2294,934 @@
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/arvin-ca/general-contracting/",
+    "/service-areas/buttonwillow-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/lake-isabella-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/lake-isabella-ca/",
+    "/service-areas/lake-isabella-ca/fire-damage-restoration/",
+    "/service-areas/lake-isabella-ca/home-remodeling/",
+    "/service-areas/arvin-ca/water-cleanup/",
+    "/service-areas/buttonwillow-ca/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/east-niles-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/east-niles-ca/",
+    "/service-areas/east-niles-ca/fire-damage-restoration/",
+    "/service-areas/east-niles-ca/home-remodeling/",
+    "/service-areas/arvin-ca/water-damage-restoration/",
+    "/service-areas/buttonwillow-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/east-niles-ca/flood-damage-restoration/": [
+    "/services/flood-damage-restoration/",
+    "/service-areas/east-niles-ca/",
+    "/service-areas/east-niles-ca/fire-damage-restoration/",
+    "/service-areas/east-niles-ca/home-remodeling/",
+    "/service-areas/arvin-ca/flood-damage-restoration/",
+    "/service-areas/buttonwillow-ca/flood-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/east-niles-ca/burst-pipe-repair/": [
+    "/services/burst-pipe-repair/",
+    "/service-areas/east-niles-ca/",
+    "/service-areas/east-niles-ca/fire-damage-restoration/",
+    "/service-areas/east-niles-ca/home-remodeling/",
+    "/service-areas/arvin-ca/burst-pipe-repair/",
+    "/service-areas/buttonwillow-ca/burst-pipe-repair/",
+    "/contact/"
+  ],
+  "/service-areas/east-niles-ca/appliance-leak-cleanup/": [
+    "/services/appliance-leak-cleanup/",
+    "/service-areas/east-niles-ca/",
+    "/service-areas/east-niles-ca/fire-damage-restoration/",
+    "/service-areas/east-niles-ca/home-remodeling/",
+    "/service-areas/arvin-ca/appliance-leak-cleanup/",
+    "/service-areas/buttonwillow-ca/appliance-leak-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/east-niles-ca/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/east-niles-ca/",
+    "/service-areas/east-niles-ca/fire-damage-restoration/",
+    "/service-areas/east-niles-ca/home-remodeling/",
+    "/service-areas/arvin-ca/sewage-cleanup/",
+    "/service-areas/buttonwillow-ca/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/east-niles-ca/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/east-niles-ca/",
+    "/service-areas/east-niles-ca/home-remodeling/",
+    "/service-areas/east-niles-ca/mold-remediation/",
+    "/service-areas/arvin-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/east-niles-ca/smoke-damage-restoration/": [
+    "/services/smoke-damage-restoration/",
+    "/service-areas/east-niles-ca/",
+    "/service-areas/east-niles-ca/fire-damage-restoration/",
+    "/service-areas/east-niles-ca/home-remodeling/",
+    "/service-areas/arvin-ca/smoke-damage-restoration/",
+    "/service-areas/buttonwillow-ca/smoke-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/east-niles-ca/soot-removal/": [
+    "/services/soot-removal/",
+    "/service-areas/east-niles-ca/",
+    "/service-areas/east-niles-ca/fire-damage-restoration/",
+    "/service-areas/east-niles-ca/home-remodeling/",
+    "/service-areas/arvin-ca/soot-removal/",
+    "/service-areas/buttonwillow-ca/soot-removal/",
+    "/contact/"
+  ],
+  "/service-areas/east-niles-ca/odor-removal/": [
+    "/services/odor-removal/",
+    "/service-areas/east-niles-ca/",
+    "/service-areas/east-niles-ca/fire-damage-restoration/",
+    "/service-areas/east-niles-ca/home-remodeling/",
+    "/service-areas/arvin-ca/odor-removal/",
+    "/service-areas/buttonwillow-ca/odor-removal/",
+    "/contact/"
+  ],
+  "/service-areas/east-niles-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/east-niles-ca/",
+    "/service-areas/east-niles-ca/fire-damage-restoration/",
+    "/service-areas/east-niles-ca/home-remodeling/",
+    "/service-areas/arvin-ca/mold-remediation/",
+    "/service-areas/buttonwillow-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/east-niles-ca/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/east-niles-ca/",
+    "/service-areas/east-niles-ca/fire-damage-restoration/",
+    "/service-areas/east-niles-ca/home-remodeling/",
+    "/service-areas/arvin-ca/mold-inspection-testing/",
+    "/service-areas/buttonwillow-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/east-niles-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/east-niles-ca/",
+    "/service-areas/east-niles-ca/fire-damage-restoration/",
+    "/service-areas/east-niles-ca/home-remodeling/",
+    "/service-areas/arvin-ca/storm-damage-restoration/",
+    "/service-areas/buttonwillow-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/east-niles-ca/carpet-cleaning/": [
+    "/services/carpet-cleaning/",
+    "/service-areas/east-niles-ca/",
+    "/service-areas/east-niles-ca/fire-damage-restoration/",
+    "/service-areas/east-niles-ca/home-remodeling/",
+    "/service-areas/arvin-ca/carpet-cleaning/",
+    "/service-areas/buttonwillow-ca/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/east-niles-ca/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/east-niles-ca/",
+    "/service-areas/east-niles-ca/fire-damage-restoration/",
+    "/service-areas/east-niles-ca/home-remodeling/",
+    "/service-areas/arvin-ca/reconstruction/",
+    "/service-areas/buttonwillow-ca/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/east-niles-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/east-niles-ca/",
+    "/service-areas/east-niles-ca/fire-damage-restoration/",
+    "/service-areas/east-niles-ca/mold-remediation/",
+    "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/east-niles-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/east-niles-ca/",
+    "/service-areas/east-niles-ca/fire-damage-restoration/",
+    "/service-areas/east-niles-ca/home-remodeling/",
+    "/service-areas/arvin-ca/general-contracting/",
+    "/service-areas/buttonwillow-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/east-niles-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/east-niles-ca/",
+    "/service-areas/east-niles-ca/fire-damage-restoration/",
+    "/service-areas/east-niles-ca/home-remodeling/",
+    "/service-areas/arvin-ca/water-cleanup/",
+    "/service-areas/buttonwillow-ca/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/tarina-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/tarina-ca/",
+    "/service-areas/tarina-ca/fire-damage-restoration/",
+    "/service-areas/tarina-ca/home-remodeling/",
+    "/service-areas/arvin-ca/water-damage-restoration/",
+    "/service-areas/buttonwillow-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/tarina-ca/flood-damage-restoration/": [
+    "/services/flood-damage-restoration/",
+    "/service-areas/tarina-ca/",
+    "/service-areas/tarina-ca/fire-damage-restoration/",
+    "/service-areas/tarina-ca/home-remodeling/",
+    "/service-areas/arvin-ca/flood-damage-restoration/",
+    "/service-areas/buttonwillow-ca/flood-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/tarina-ca/burst-pipe-repair/": [
+    "/services/burst-pipe-repair/",
+    "/service-areas/tarina-ca/",
+    "/service-areas/tarina-ca/fire-damage-restoration/",
+    "/service-areas/tarina-ca/home-remodeling/",
+    "/service-areas/arvin-ca/burst-pipe-repair/",
+    "/service-areas/buttonwillow-ca/burst-pipe-repair/",
+    "/contact/"
+  ],
+  "/service-areas/tarina-ca/appliance-leak-cleanup/": [
+    "/services/appliance-leak-cleanup/",
+    "/service-areas/tarina-ca/",
+    "/service-areas/tarina-ca/fire-damage-restoration/",
+    "/service-areas/tarina-ca/home-remodeling/",
+    "/service-areas/arvin-ca/appliance-leak-cleanup/",
+    "/service-areas/buttonwillow-ca/appliance-leak-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/tarina-ca/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/tarina-ca/",
+    "/service-areas/tarina-ca/fire-damage-restoration/",
+    "/service-areas/tarina-ca/home-remodeling/",
+    "/service-areas/arvin-ca/sewage-cleanup/",
+    "/service-areas/buttonwillow-ca/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/tarina-ca/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/tarina-ca/",
+    "/service-areas/tarina-ca/home-remodeling/",
+    "/service-areas/tarina-ca/mold-remediation/",
+    "/service-areas/arvin-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/tarina-ca/smoke-damage-restoration/": [
+    "/services/smoke-damage-restoration/",
+    "/service-areas/tarina-ca/",
+    "/service-areas/tarina-ca/fire-damage-restoration/",
+    "/service-areas/tarina-ca/home-remodeling/",
+    "/service-areas/arvin-ca/smoke-damage-restoration/",
+    "/service-areas/buttonwillow-ca/smoke-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/tarina-ca/soot-removal/": [
+    "/services/soot-removal/",
+    "/service-areas/tarina-ca/",
+    "/service-areas/tarina-ca/fire-damage-restoration/",
+    "/service-areas/tarina-ca/home-remodeling/",
+    "/service-areas/arvin-ca/soot-removal/",
+    "/service-areas/buttonwillow-ca/soot-removal/",
+    "/contact/"
+  ],
+  "/service-areas/tarina-ca/odor-removal/": [
+    "/services/odor-removal/",
+    "/service-areas/tarina-ca/",
+    "/service-areas/tarina-ca/fire-damage-restoration/",
+    "/service-areas/tarina-ca/home-remodeling/",
+    "/service-areas/arvin-ca/odor-removal/",
+    "/service-areas/buttonwillow-ca/odor-removal/",
+    "/contact/"
+  ],
+  "/service-areas/tarina-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/tarina-ca/",
+    "/service-areas/tarina-ca/fire-damage-restoration/",
+    "/service-areas/tarina-ca/home-remodeling/",
+    "/service-areas/arvin-ca/mold-remediation/",
+    "/service-areas/buttonwillow-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/tarina-ca/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/tarina-ca/",
+    "/service-areas/tarina-ca/fire-damage-restoration/",
+    "/service-areas/tarina-ca/home-remodeling/",
+    "/service-areas/arvin-ca/mold-inspection-testing/",
+    "/service-areas/buttonwillow-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/tarina-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/tarina-ca/",
+    "/service-areas/tarina-ca/fire-damage-restoration/",
+    "/service-areas/tarina-ca/home-remodeling/",
+    "/service-areas/arvin-ca/storm-damage-restoration/",
+    "/service-areas/buttonwillow-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/tarina-ca/carpet-cleaning/": [
+    "/services/carpet-cleaning/",
+    "/service-areas/tarina-ca/",
+    "/service-areas/tarina-ca/fire-damage-restoration/",
+    "/service-areas/tarina-ca/home-remodeling/",
+    "/service-areas/arvin-ca/carpet-cleaning/",
+    "/service-areas/buttonwillow-ca/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/tarina-ca/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/tarina-ca/",
+    "/service-areas/tarina-ca/fire-damage-restoration/",
+    "/service-areas/tarina-ca/home-remodeling/",
+    "/service-areas/arvin-ca/reconstruction/",
+    "/service-areas/buttonwillow-ca/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/tarina-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/tarina-ca/",
+    "/service-areas/tarina-ca/fire-damage-restoration/",
+    "/service-areas/tarina-ca/mold-remediation/",
+    "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/tarina-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/tarina-ca/",
+    "/service-areas/tarina-ca/fire-damage-restoration/",
+    "/service-areas/tarina-ca/home-remodeling/",
+    "/service-areas/arvin-ca/general-contracting/",
+    "/service-areas/buttonwillow-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/tarina-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/tarina-ca/",
+    "/service-areas/tarina-ca/fire-damage-restoration/",
+    "/service-areas/tarina-ca/home-remodeling/",
+    "/service-areas/arvin-ca/water-cleanup/",
+    "/service-areas/buttonwillow-ca/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/weedpatch-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/weedpatch-ca/",
+    "/service-areas/weedpatch-ca/fire-damage-restoration/",
+    "/service-areas/weedpatch-ca/home-remodeling/",
+    "/service-areas/arvin-ca/water-damage-restoration/",
+    "/service-areas/buttonwillow-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/weedpatch-ca/flood-damage-restoration/": [
+    "/services/flood-damage-restoration/",
+    "/service-areas/weedpatch-ca/",
+    "/service-areas/weedpatch-ca/fire-damage-restoration/",
+    "/service-areas/weedpatch-ca/home-remodeling/",
+    "/service-areas/arvin-ca/flood-damage-restoration/",
+    "/service-areas/buttonwillow-ca/flood-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/weedpatch-ca/burst-pipe-repair/": [
+    "/services/burst-pipe-repair/",
+    "/service-areas/weedpatch-ca/",
+    "/service-areas/weedpatch-ca/fire-damage-restoration/",
+    "/service-areas/weedpatch-ca/home-remodeling/",
+    "/service-areas/arvin-ca/burst-pipe-repair/",
+    "/service-areas/buttonwillow-ca/burst-pipe-repair/",
+    "/contact/"
+  ],
+  "/service-areas/weedpatch-ca/appliance-leak-cleanup/": [
+    "/services/appliance-leak-cleanup/",
+    "/service-areas/weedpatch-ca/",
+    "/service-areas/weedpatch-ca/fire-damage-restoration/",
+    "/service-areas/weedpatch-ca/home-remodeling/",
+    "/service-areas/arvin-ca/appliance-leak-cleanup/",
+    "/service-areas/buttonwillow-ca/appliance-leak-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/weedpatch-ca/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/weedpatch-ca/",
+    "/service-areas/weedpatch-ca/fire-damage-restoration/",
+    "/service-areas/weedpatch-ca/home-remodeling/",
+    "/service-areas/arvin-ca/sewage-cleanup/",
+    "/service-areas/buttonwillow-ca/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/weedpatch-ca/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/weedpatch-ca/",
+    "/service-areas/weedpatch-ca/home-remodeling/",
+    "/service-areas/weedpatch-ca/mold-remediation/",
+    "/service-areas/arvin-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/weedpatch-ca/smoke-damage-restoration/": [
+    "/services/smoke-damage-restoration/",
+    "/service-areas/weedpatch-ca/",
+    "/service-areas/weedpatch-ca/fire-damage-restoration/",
+    "/service-areas/weedpatch-ca/home-remodeling/",
+    "/service-areas/arvin-ca/smoke-damage-restoration/",
+    "/service-areas/buttonwillow-ca/smoke-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/weedpatch-ca/soot-removal/": [
+    "/services/soot-removal/",
+    "/service-areas/weedpatch-ca/",
+    "/service-areas/weedpatch-ca/fire-damage-restoration/",
+    "/service-areas/weedpatch-ca/home-remodeling/",
+    "/service-areas/arvin-ca/soot-removal/",
+    "/service-areas/buttonwillow-ca/soot-removal/",
+    "/contact/"
+  ],
+  "/service-areas/weedpatch-ca/odor-removal/": [
+    "/services/odor-removal/",
+    "/service-areas/weedpatch-ca/",
+    "/service-areas/weedpatch-ca/fire-damage-restoration/",
+    "/service-areas/weedpatch-ca/home-remodeling/",
+    "/service-areas/arvin-ca/odor-removal/",
+    "/service-areas/buttonwillow-ca/odor-removal/",
+    "/contact/"
+  ],
+  "/service-areas/weedpatch-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/weedpatch-ca/",
+    "/service-areas/weedpatch-ca/fire-damage-restoration/",
+    "/service-areas/weedpatch-ca/home-remodeling/",
+    "/service-areas/arvin-ca/mold-remediation/",
+    "/service-areas/buttonwillow-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/weedpatch-ca/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/weedpatch-ca/",
+    "/service-areas/weedpatch-ca/fire-damage-restoration/",
+    "/service-areas/weedpatch-ca/home-remodeling/",
+    "/service-areas/arvin-ca/mold-inspection-testing/",
+    "/service-areas/buttonwillow-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/weedpatch-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/weedpatch-ca/",
+    "/service-areas/weedpatch-ca/fire-damage-restoration/",
+    "/service-areas/weedpatch-ca/home-remodeling/",
+    "/service-areas/arvin-ca/storm-damage-restoration/",
+    "/service-areas/buttonwillow-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/weedpatch-ca/carpet-cleaning/": [
+    "/services/carpet-cleaning/",
+    "/service-areas/weedpatch-ca/",
+    "/service-areas/weedpatch-ca/fire-damage-restoration/",
+    "/service-areas/weedpatch-ca/home-remodeling/",
+    "/service-areas/arvin-ca/carpet-cleaning/",
+    "/service-areas/buttonwillow-ca/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/weedpatch-ca/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/weedpatch-ca/",
+    "/service-areas/weedpatch-ca/fire-damage-restoration/",
+    "/service-areas/weedpatch-ca/home-remodeling/",
+    "/service-areas/arvin-ca/reconstruction/",
+    "/service-areas/buttonwillow-ca/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/weedpatch-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/weedpatch-ca/",
+    "/service-areas/weedpatch-ca/fire-damage-restoration/",
+    "/service-areas/weedpatch-ca/mold-remediation/",
+    "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/weedpatch-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/weedpatch-ca/",
+    "/service-areas/weedpatch-ca/fire-damage-restoration/",
+    "/service-areas/weedpatch-ca/home-remodeling/",
+    "/service-areas/arvin-ca/general-contracting/",
+    "/service-areas/buttonwillow-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/weedpatch-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/weedpatch-ca/",
+    "/service-areas/weedpatch-ca/fire-damage-restoration/",
+    "/service-areas/weedpatch-ca/home-remodeling/",
+    "/service-areas/arvin-ca/water-cleanup/",
+    "/service-areas/buttonwillow-ca/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
+    "/service-areas/arvin-ca/water-damage-restoration/",
+    "/service-areas/delano-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/flood-damage-restoration/": [
+    "/services/flood-damage-restoration/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
+    "/service-areas/arvin-ca/flood-damage-restoration/",
+    "/service-areas/delano-ca/flood-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/burst-pipe-repair/": [
+    "/services/burst-pipe-repair/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
+    "/service-areas/arvin-ca/burst-pipe-repair/",
+    "/service-areas/delano-ca/burst-pipe-repair/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/appliance-leak-cleanup/": [
+    "/services/appliance-leak-cleanup/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
+    "/service-areas/arvin-ca/appliance-leak-cleanup/",
+    "/service-areas/delano-ca/appliance-leak-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
+    "/service-areas/arvin-ca/sewage-cleanup/",
+    "/service-areas/delano-ca/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/mold-remediation/",
+    "/service-areas/arvin-ca/fire-damage-restoration/",
+    "/service-areas/delano-ca/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/smoke-damage-restoration/": [
+    "/services/smoke-damage-restoration/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
+    "/service-areas/arvin-ca/smoke-damage-restoration/",
+    "/service-areas/delano-ca/smoke-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/soot-removal/": [
+    "/services/soot-removal/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
+    "/service-areas/arvin-ca/soot-removal/",
+    "/service-areas/delano-ca/soot-removal/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/odor-removal/": [
+    "/services/odor-removal/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
+    "/service-areas/arvin-ca/odor-removal/",
+    "/service-areas/delano-ca/odor-removal/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
+    "/service-areas/arvin-ca/mold-remediation/",
+    "/service-areas/delano-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
+    "/service-areas/arvin-ca/mold-inspection-testing/",
+    "/service-areas/delano-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
+    "/service-areas/arvin-ca/storm-damage-restoration/",
+    "/service-areas/delano-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/carpet-cleaning/": [
+    "/services/carpet-cleaning/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
+    "/service-areas/arvin-ca/carpet-cleaning/",
+    "/service-areas/delano-ca/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
+    "/service-areas/arvin-ca/reconstruction/",
+    "/service-areas/delano-ca/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/mold-remediation/",
+    "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/delano-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
+    "/service-areas/arvin-ca/general-contracting/",
+    "/service-areas/delano-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
+    "/service-areas/arvin-ca/water-cleanup/",
+    "/service-areas/delano-ca/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/dustin-acres-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/dustin-acres-ca/",
+    "/service-areas/dustin-acres-ca/fire-damage-restoration/",
+    "/service-areas/dustin-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/water-damage-restoration/",
+    "/service-areas/buttonwillow-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/dustin-acres-ca/flood-damage-restoration/": [
+    "/services/flood-damage-restoration/",
+    "/service-areas/dustin-acres-ca/",
+    "/service-areas/dustin-acres-ca/fire-damage-restoration/",
+    "/service-areas/dustin-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/flood-damage-restoration/",
+    "/service-areas/buttonwillow-ca/flood-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/dustin-acres-ca/burst-pipe-repair/": [
+    "/services/burst-pipe-repair/",
+    "/service-areas/dustin-acres-ca/",
+    "/service-areas/dustin-acres-ca/fire-damage-restoration/",
+    "/service-areas/dustin-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/burst-pipe-repair/",
+    "/service-areas/buttonwillow-ca/burst-pipe-repair/",
+    "/contact/"
+  ],
+  "/service-areas/dustin-acres-ca/appliance-leak-cleanup/": [
+    "/services/appliance-leak-cleanup/",
+    "/service-areas/dustin-acres-ca/",
+    "/service-areas/dustin-acres-ca/fire-damage-restoration/",
+    "/service-areas/dustin-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/appliance-leak-cleanup/",
+    "/service-areas/buttonwillow-ca/appliance-leak-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/dustin-acres-ca/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/dustin-acres-ca/",
+    "/service-areas/dustin-acres-ca/fire-damage-restoration/",
+    "/service-areas/dustin-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/sewage-cleanup/",
+    "/service-areas/buttonwillow-ca/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/dustin-acres-ca/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/dustin-acres-ca/",
+    "/service-areas/dustin-acres-ca/home-remodeling/",
+    "/service-areas/dustin-acres-ca/mold-remediation/",
+    "/service-areas/arvin-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/dustin-acres-ca/smoke-damage-restoration/": [
+    "/services/smoke-damage-restoration/",
+    "/service-areas/dustin-acres-ca/",
+    "/service-areas/dustin-acres-ca/fire-damage-restoration/",
+    "/service-areas/dustin-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/smoke-damage-restoration/",
+    "/service-areas/buttonwillow-ca/smoke-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/dustin-acres-ca/soot-removal/": [
+    "/services/soot-removal/",
+    "/service-areas/dustin-acres-ca/",
+    "/service-areas/dustin-acres-ca/fire-damage-restoration/",
+    "/service-areas/dustin-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/soot-removal/",
+    "/service-areas/buttonwillow-ca/soot-removal/",
+    "/contact/"
+  ],
+  "/service-areas/dustin-acres-ca/odor-removal/": [
+    "/services/odor-removal/",
+    "/service-areas/dustin-acres-ca/",
+    "/service-areas/dustin-acres-ca/fire-damage-restoration/",
+    "/service-areas/dustin-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/odor-removal/",
+    "/service-areas/buttonwillow-ca/odor-removal/",
+    "/contact/"
+  ],
+  "/service-areas/dustin-acres-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/dustin-acres-ca/",
+    "/service-areas/dustin-acres-ca/fire-damage-restoration/",
+    "/service-areas/dustin-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/mold-remediation/",
+    "/service-areas/buttonwillow-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/dustin-acres-ca/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/dustin-acres-ca/",
+    "/service-areas/dustin-acres-ca/fire-damage-restoration/",
+    "/service-areas/dustin-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/mold-inspection-testing/",
+    "/service-areas/buttonwillow-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/dustin-acres-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/dustin-acres-ca/",
+    "/service-areas/dustin-acres-ca/fire-damage-restoration/",
+    "/service-areas/dustin-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/storm-damage-restoration/",
+    "/service-areas/buttonwillow-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/dustin-acres-ca/carpet-cleaning/": [
+    "/services/carpet-cleaning/",
+    "/service-areas/dustin-acres-ca/",
+    "/service-areas/dustin-acres-ca/fire-damage-restoration/",
+    "/service-areas/dustin-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/carpet-cleaning/",
+    "/service-areas/buttonwillow-ca/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/dustin-acres-ca/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/dustin-acres-ca/",
+    "/service-areas/dustin-acres-ca/fire-damage-restoration/",
+    "/service-areas/dustin-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/reconstruction/",
+    "/service-areas/buttonwillow-ca/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/dustin-acres-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/dustin-acres-ca/",
+    "/service-areas/dustin-acres-ca/fire-damage-restoration/",
+    "/service-areas/dustin-acres-ca/mold-remediation/",
+    "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/dustin-acres-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/dustin-acres-ca/",
+    "/service-areas/dustin-acres-ca/fire-damage-restoration/",
+    "/service-areas/dustin-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/general-contracting/",
+    "/service-areas/buttonwillow-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/dustin-acres-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/dustin-acres-ca/",
+    "/service-areas/dustin-acres-ca/fire-damage-restoration/",
+    "/service-areas/dustin-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/water-cleanup/",
+    "/service-areas/buttonwillow-ca/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/fire-damage-restoration/",
+    "/service-areas/mcfarland-ca/home-remodeling/",
+    "/service-areas/arvin-ca/water-damage-restoration/",
+    "/service-areas/buttonwillow-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/flood-damage-restoration/": [
+    "/services/flood-damage-restoration/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/fire-damage-restoration/",
+    "/service-areas/mcfarland-ca/home-remodeling/",
+    "/service-areas/arvin-ca/flood-damage-restoration/",
+    "/service-areas/buttonwillow-ca/flood-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/burst-pipe-repair/": [
+    "/services/burst-pipe-repair/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/fire-damage-restoration/",
+    "/service-areas/mcfarland-ca/home-remodeling/",
+    "/service-areas/arvin-ca/burst-pipe-repair/",
+    "/service-areas/buttonwillow-ca/burst-pipe-repair/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/appliance-leak-cleanup/": [
+    "/services/appliance-leak-cleanup/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/fire-damage-restoration/",
+    "/service-areas/mcfarland-ca/home-remodeling/",
+    "/service-areas/arvin-ca/appliance-leak-cleanup/",
+    "/service-areas/buttonwillow-ca/appliance-leak-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/fire-damage-restoration/",
+    "/service-areas/mcfarland-ca/home-remodeling/",
+    "/service-areas/arvin-ca/sewage-cleanup/",
+    "/service-areas/buttonwillow-ca/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/home-remodeling/",
+    "/service-areas/mcfarland-ca/mold-remediation/",
+    "/service-areas/arvin-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/smoke-damage-restoration/": [
+    "/services/smoke-damage-restoration/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/fire-damage-restoration/",
+    "/service-areas/mcfarland-ca/home-remodeling/",
+    "/service-areas/arvin-ca/smoke-damage-restoration/",
+    "/service-areas/buttonwillow-ca/smoke-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/soot-removal/": [
+    "/services/soot-removal/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/fire-damage-restoration/",
+    "/service-areas/mcfarland-ca/home-remodeling/",
+    "/service-areas/arvin-ca/soot-removal/",
+    "/service-areas/buttonwillow-ca/soot-removal/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/odor-removal/": [
+    "/services/odor-removal/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/fire-damage-restoration/",
+    "/service-areas/mcfarland-ca/home-remodeling/",
+    "/service-areas/arvin-ca/odor-removal/",
+    "/service-areas/buttonwillow-ca/odor-removal/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/fire-damage-restoration/",
+    "/service-areas/mcfarland-ca/home-remodeling/",
+    "/service-areas/arvin-ca/mold-remediation/",
+    "/service-areas/buttonwillow-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/fire-damage-restoration/",
+    "/service-areas/mcfarland-ca/home-remodeling/",
+    "/service-areas/arvin-ca/mold-inspection-testing/",
+    "/service-areas/buttonwillow-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/fire-damage-restoration/",
+    "/service-areas/mcfarland-ca/home-remodeling/",
+    "/service-areas/arvin-ca/storm-damage-restoration/",
+    "/service-areas/buttonwillow-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/carpet-cleaning/": [
+    "/services/carpet-cleaning/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/fire-damage-restoration/",
+    "/service-areas/mcfarland-ca/home-remodeling/",
+    "/service-areas/arvin-ca/carpet-cleaning/",
+    "/service-areas/buttonwillow-ca/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/fire-damage-restoration/",
+    "/service-areas/mcfarland-ca/home-remodeling/",
+    "/service-areas/arvin-ca/reconstruction/",
+    "/service-areas/buttonwillow-ca/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/fire-damage-restoration/",
+    "/service-areas/mcfarland-ca/mold-remediation/",
+    "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/fire-damage-restoration/",
+    "/service-areas/mcfarland-ca/home-remodeling/",
+    "/service-areas/arvin-ca/general-contracting/",
+    "/service-areas/buttonwillow-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/fire-damage-restoration/",
+    "/service-areas/mcfarland-ca/home-remodeling/",
+    "/service-areas/arvin-ca/water-cleanup/",
+    "/service-areas/buttonwillow-ca/water-cleanup/",
     "/contact/"
   ],
   "/blog/what-to-do-first-24-hours-water-damage/": [

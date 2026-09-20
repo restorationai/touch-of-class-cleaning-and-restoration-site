@@ -1,21 +1,21 @@
 # Site Plan Report — Arch Enviornmental Group LLC
 
 - Template: `environmental` v0.1.0
-- Generated: 2026-09-07T23:08:22.608730+00:00
+- Generated: 2026-09-20T14:12:56.623642+00:00
 - Domain: `archenviroservice.com`
 - Services selected: 16 of 16 catalog entries
-- Service areas: 14
+- Service areas: 19
 - Cross-product enabled: True
-- Total URLs: **254**
-- Total internal links: 2075 (avg 8.2 per page)
+- Total URLs: **339**
+- Total internal links: 2750 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 208 |
+| `service-area-service` | 288 |
+| `service-area` | 18 |
 | `service-landing` | 16 |
-| `service-area` | 13 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -60,6 +60,11 @@
 - `tulare-ca` — Tulare, CA
 - `lemoore-ca` — Lemoore, CA
 - `porterville-ca` — Porterville, CA
+- `parlier-ca` — Parlier, CA
+- `centerville-ca` — Centerville, CA
+- `minkler-ca` — Minkler, CA
+- `orange-cove-ca` — Orange Cove, CA
+- `easton-ca` — Easton, CA
 
 ## Top 10 priority pages
 
@@ -74,7 +79,7 @@
 | `/services/water-quality-testing/` | `service-landing` | 7.2 | water quality testing kingsburg |
 | `/service-areas/bakersfield-ca/indoor-air-quality-testing/` | `service-area-service` | 7.0 | indoor air quality testing bakersfield |
 | `/service-areas/bakersfield-ca/mold-inspection-testing/` | `service-area-service` | 7.0 | mold inspection and testing bakersfield |
-| `/service-areas/clovis-ca/indoor-air-quality-testing/` | `service-area-service` | 7.0 | indoor air quality testing clovis |
+| `/service-areas/centerville-ca/indoor-air-quality-testing/` | `service-area-service` | 7.0 | indoor air quality testing centerville |
 
 ## Validation
 

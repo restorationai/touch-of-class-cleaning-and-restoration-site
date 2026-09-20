@@ -296,6 +296,36 @@
         "93283"
       ],
       "local_notes": "Kern River Valley hub an hour up the canyon from Bakersfield. Older cabins and manufactured homes freeze in winter \u2014 burst pipes in seasonal properties often run for days before discovery, producing severe water and mold damage. The 2016 Erskine Fire destroyed ~280 homes here, and wildfire remains the valley's defining risk (smoke, ash, total-loss rebuilds). Isabella Dam's completed safety modifications eased flood fears, but storm runoff still hits low-lying Bodfish and South Lake parcels. Few if any restoration contractors are based in the valley."
+    },
+    {
+      "city": "East Niles",
+      "state": "CA",
+      "slug": "east-niles-ca"
+    },
+    {
+      "city": "Tarina",
+      "state": "CA",
+      "slug": "tarina-ca"
+    },
+    {
+      "city": "Weedpatch",
+      "state": "CA",
+      "slug": "weedpatch-ca"
+    },
+    {
+      "city": "Buttonwillow",
+      "state": "CA",
+      "slug": "buttonwillow-ca"
+    },
+    {
+      "city": "Dustin Acres",
+      "state": "CA",
+      "slug": "dustin-acres-ca"
+    },
+    {
+      "city": "McFarland",
+      "state": "CA",
+      "slug": "mcfarland-ca"
     }
   ],
   "brand": {
@@ -310,6 +340,8 @@
     "postal_code": "93308",
     "place_id": "ChIJH_3NClVC6oAR3mxvd5xofrQ",
     "google_cid": "13005947795120549086",
+    "lat": 35.392,
+    "lng": -119.09,
     "license_numbers": [
       "960566"
     ],
@@ -323,7 +355,8 @@
       "https://www.google.com/maps?cid=13005947795120549086"
     ],
     "google_maps_api_key": "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
-    "licensed_insured_attested": true
+    "licensed_insured_attested": true,
+    "ga4_measurement_id": "G-LQE0DXHG08"
   },
   "cross_product": true,
   "keyword_strategy": "conservative",

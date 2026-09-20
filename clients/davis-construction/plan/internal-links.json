@@ -5,48 +5,60 @@
     "/contact/",
     "/about/",
     "/services/home-remodeling/",
-    "/services/mold-remediation/",
     "/services/roofing/",
-    "/services/water-damage-restoration/",
     "/services/decks-pergolas-fences/",
     "/services/new-construction/",
-    "/services/storm-damage-restoration/",
     "/services/siding-gutters/",
+    "/services/mold-remediation/",
     "/services/painting-trim/",
+    "/services/storm-damage-restoration/",
+    "/services/water-damage-restoration/",
     "/service-areas/athens-al/",
-    "/service-areas/huntsville-al/"
+    "/service-areas/harvest-al/",
+    "/service-areas/hazel-green-al/",
+    "/service-areas/huntsville-al/",
+    "/service-areas/meridianville-al/",
+    "/service-areas/moores-mill-al/",
+    "/service-areas/new-market-al/",
+    "/service-areas/redstone-arsenal-al/"
   ],
   "/services/": [
     "/",
     "/services/home-remodeling/",
-    "/services/mold-remediation/",
     "/services/roofing/",
-    "/services/water-damage-restoration/",
     "/services/decks-pergolas-fences/",
     "/services/new-construction/",
-    "/services/storm-damage-restoration/",
     "/services/siding-gutters/",
-    "/services/painting-trim/"
+    "/services/mold-remediation/",
+    "/services/painting-trim/",
+    "/services/storm-damage-restoration/",
+    "/services/water-damage-restoration/"
   ],
   "/service-areas/": [
     "/",
     "/service-areas/athens-al/",
-    "/service-areas/huntsville-al/"
+    "/service-areas/harvest-al/",
+    "/service-areas/hazel-green-al/",
+    "/service-areas/huntsville-al/",
+    "/service-areas/meridianville-al/",
+    "/service-areas/moores-mill-al/",
+    "/service-areas/new-market-al/",
+    "/service-areas/redstone-arsenal-al/"
   ],
   "/blog/": [
     "/",
-    "/blog/burst-pipe-emergency-checklist/",
-    "/blog/what-to-do-first-24-hours-water-damage/",
-    "/blog/choosing-a-restoration-company/",
-    "/blog/does-homeowners-insurance-cover-water-damage/",
-    "/blog/signs-of-hidden-mold/",
-    "/blog/black-mold-vs-regular-mold/",
-    "/blog/how-long-does-water-damage-restoration-take/",
-    "/blog/mold-after-water-damage/",
+    "/blog/choosing-a-general-contractor/",
+    "/blog/how-to-plan-a-home-remodel/",
+    "/blog/do-you-need-a-permit/",
+    "/blog/kitchen-remodel-cost-breakdown/",
+    "/blog/roofing-material-comparison/",
+    "/blog/how-long-does-roof-replacement-take/",
+    "/blog/how-long-to-build-a-house/",
+    "/blog/mold-found-during-renovation/",
+    "/blog/siding-options-compared/",
     "/blog/storm-damage-insurance-claim-checklist/",
-    "/blog/basement-flooding-prevention/",
-    "/blog/commercial-water-damage-business-continuity/",
-    "/blog/iicrc-certification-explained/"
+    "/blog/storm-damage-repair-process/",
+    "/blog/wood-vs-composite-decking/"
   ],
   "/about/": [
     "/",
@@ -62,153 +74,321 @@
     "/services/",
     "/contact/",
     "/service-areas/athens-al/home-remodeling/",
-    "/service-areas/huntsville-al/home-remodeling/"
+    "/service-areas/harvest-al/home-remodeling/",
+    "/service-areas/hazel-green-al/home-remodeling/",
+    "/service-areas/huntsville-al/home-remodeling/",
+    "/service-areas/meridianville-al/home-remodeling/",
+    "/service-areas/moores-mill-al/home-remodeling/",
+    "/service-areas/new-market-al/home-remodeling/",
+    "/service-areas/redstone-arsenal-al/home-remodeling/",
+    "/blog/choosing-a-general-contractor/",
+    "/blog/how-to-plan-a-home-remodel/",
+    "/blog/do-you-need-a-permit/"
   ],
   "/services/new-construction/": [
     "/services/",
     "/contact/",
     "/service-areas/athens-al/new-construction/",
-    "/service-areas/huntsville-al/new-construction/"
+    "/service-areas/harvest-al/new-construction/",
+    "/service-areas/hazel-green-al/new-construction/",
+    "/service-areas/huntsville-al/new-construction/",
+    "/service-areas/meridianville-al/new-construction/",
+    "/service-areas/moores-mill-al/new-construction/",
+    "/service-areas/new-market-al/new-construction/",
+    "/service-areas/redstone-arsenal-al/new-construction/",
+    "/blog/choosing-a-general-contractor/",
+    "/blog/how-long-to-build-a-house/"
   ],
   "/services/decks-pergolas-fences/": [
     "/services/",
     "/contact/",
     "/service-areas/athens-al/decks-pergolas-fences/",
-    "/service-areas/huntsville-al/decks-pergolas-fences/"
+    "/service-areas/harvest-al/decks-pergolas-fences/",
+    "/service-areas/hazel-green-al/decks-pergolas-fences/",
+    "/service-areas/huntsville-al/decks-pergolas-fences/",
+    "/service-areas/meridianville-al/decks-pergolas-fences/",
+    "/service-areas/moores-mill-al/decks-pergolas-fences/",
+    "/service-areas/new-market-al/decks-pergolas-fences/",
+    "/service-areas/redstone-arsenal-al/decks-pergolas-fences/",
+    "/blog/wood-vs-composite-decking/"
   ],
   "/services/roofing/": [
     "/services/",
     "/contact/",
     "/service-areas/athens-al/roofing/",
-    "/service-areas/huntsville-al/roofing/"
+    "/service-areas/harvest-al/roofing/",
+    "/service-areas/hazel-green-al/roofing/",
+    "/service-areas/huntsville-al/roofing/",
+    "/service-areas/meridianville-al/roofing/",
+    "/service-areas/moores-mill-al/roofing/",
+    "/service-areas/new-market-al/roofing/",
+    "/service-areas/redstone-arsenal-al/roofing/",
+    "/blog/roofing-material-comparison/",
+    "/blog/how-long-does-roof-replacement-take/",
+    "/blog/storm-damage-repair-process/"
   ],
   "/services/siding-gutters/": [
     "/services/",
     "/contact/",
     "/service-areas/athens-al/siding-gutters/",
-    "/service-areas/huntsville-al/siding-gutters/"
+    "/service-areas/harvest-al/siding-gutters/",
+    "/service-areas/hazel-green-al/siding-gutters/",
+    "/service-areas/huntsville-al/siding-gutters/",
+    "/service-areas/meridianville-al/siding-gutters/",
+    "/service-areas/moores-mill-al/siding-gutters/",
+    "/service-areas/new-market-al/siding-gutters/",
+    "/service-areas/redstone-arsenal-al/siding-gutters/",
+    "/blog/siding-options-compared/"
   ],
   "/services/painting-trim/": [
     "/services/",
     "/contact/",
     "/service-areas/athens-al/painting-trim/",
-    "/service-areas/huntsville-al/painting-trim/"
+    "/service-areas/harvest-al/painting-trim/",
+    "/service-areas/hazel-green-al/painting-trim/",
+    "/service-areas/huntsville-al/painting-trim/",
+    "/service-areas/meridianville-al/painting-trim/",
+    "/service-areas/moores-mill-al/painting-trim/",
+    "/service-areas/new-market-al/painting-trim/",
+    "/service-areas/redstone-arsenal-al/painting-trim/"
   ],
   "/services/water-damage-restoration/": [
     "/services/",
     "/contact/",
     "/service-areas/athens-al/water-damage-restoration/",
+    "/service-areas/harvest-al/water-damage-restoration/",
+    "/service-areas/hazel-green-al/water-damage-restoration/",
     "/service-areas/huntsville-al/water-damage-restoration/",
-    "/blog/burst-pipe-emergency-checklist/",
-    "/blog/what-to-do-first-24-hours-water-damage/",
-    "/blog/choosing-a-restoration-company/"
+    "/service-areas/meridianville-al/water-damage-restoration/",
+    "/service-areas/moores-mill-al/water-damage-restoration/",
+    "/service-areas/new-market-al/water-damage-restoration/",
+    "/service-areas/redstone-arsenal-al/water-damage-restoration/"
   ],
   "/services/storm-damage-restoration/": [
     "/services/",
     "/contact/",
     "/service-areas/athens-al/storm-damage-restoration/",
+    "/service-areas/harvest-al/storm-damage-restoration/",
+    "/service-areas/hazel-green-al/storm-damage-restoration/",
     "/service-areas/huntsville-al/storm-damage-restoration/",
-    "/blog/storm-damage-insurance-claim-checklist/"
+    "/service-areas/meridianville-al/storm-damage-restoration/",
+    "/service-areas/moores-mill-al/storm-damage-restoration/",
+    "/service-areas/new-market-al/storm-damage-restoration/",
+    "/service-areas/redstone-arsenal-al/storm-damage-restoration/",
+    "/blog/storm-damage-insurance-claim-checklist/",
+    "/blog/storm-damage-repair-process/"
   ],
   "/services/mold-remediation/": [
     "/services/",
     "/contact/",
     "/service-areas/athens-al/mold-remediation/",
+    "/service-areas/harvest-al/mold-remediation/",
+    "/service-areas/hazel-green-al/mold-remediation/",
     "/service-areas/huntsville-al/mold-remediation/",
-    "/blog/choosing-a-restoration-company/",
-    "/blog/signs-of-hidden-mold/",
-    "/blog/black-mold-vs-regular-mold/"
+    "/service-areas/meridianville-al/mold-remediation/",
+    "/service-areas/moores-mill-al/mold-remediation/",
+    "/service-areas/new-market-al/mold-remediation/",
+    "/service-areas/redstone-arsenal-al/mold-remediation/",
+    "/blog/mold-found-during-renovation/"
   ],
   "/service-areas/huntsville-al/": [
     "/service-areas/",
     "/contact/",
     "/service-areas/huntsville-al/home-remodeling/",
-    "/service-areas/huntsville-al/mold-remediation/",
     "/service-areas/huntsville-al/roofing/",
-    "/service-areas/huntsville-al/water-damage-restoration/",
     "/service-areas/huntsville-al/decks-pergolas-fences/",
     "/service-areas/huntsville-al/new-construction/",
-    "/service-areas/huntsville-al/storm-damage-restoration/",
     "/service-areas/huntsville-al/siding-gutters/",
+    "/service-areas/huntsville-al/mold-remediation/",
     "/service-areas/huntsville-al/painting-trim/",
-    "/service-areas/athens-al/"
+    "/service-areas/huntsville-al/storm-damage-restoration/",
+    "/service-areas/huntsville-al/water-damage-restoration/",
+    "/service-areas/athens-al/",
+    "/service-areas/harvest-al/",
+    "/service-areas/hazel-green-al/"
   ],
   "/service-areas/athens-al/": [
     "/service-areas/",
     "/contact/",
     "/service-areas/athens-al/home-remodeling/",
-    "/service-areas/athens-al/mold-remediation/",
     "/service-areas/athens-al/roofing/",
-    "/service-areas/athens-al/water-damage-restoration/",
     "/service-areas/athens-al/decks-pergolas-fences/",
     "/service-areas/athens-al/new-construction/",
-    "/service-areas/athens-al/storm-damage-restoration/",
     "/service-areas/athens-al/siding-gutters/",
+    "/service-areas/athens-al/mold-remediation/",
     "/service-areas/athens-al/painting-trim/",
+    "/service-areas/athens-al/storm-damage-restoration/",
+    "/service-areas/athens-al/water-damage-restoration/",
+    "/service-areas/harvest-al/",
+    "/service-areas/hazel-green-al/",
+    "/service-areas/huntsville-al/"
+  ],
+  "/service-areas/moores-mill-al/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/moores-mill-al/home-remodeling/",
+    "/service-areas/moores-mill-al/roofing/",
+    "/service-areas/moores-mill-al/decks-pergolas-fences/",
+    "/service-areas/moores-mill-al/new-construction/",
+    "/service-areas/moores-mill-al/siding-gutters/",
+    "/service-areas/moores-mill-al/mold-remediation/",
+    "/service-areas/moores-mill-al/painting-trim/",
+    "/service-areas/moores-mill-al/storm-damage-restoration/",
+    "/service-areas/moores-mill-al/water-damage-restoration/",
+    "/service-areas/athens-al/",
+    "/service-areas/harvest-al/",
+    "/service-areas/hazel-green-al/"
+  ],
+  "/service-areas/redstone-arsenal-al/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/redstone-arsenal-al/home-remodeling/",
+    "/service-areas/redstone-arsenal-al/roofing/",
+    "/service-areas/redstone-arsenal-al/decks-pergolas-fences/",
+    "/service-areas/redstone-arsenal-al/new-construction/",
+    "/service-areas/redstone-arsenal-al/siding-gutters/",
+    "/service-areas/redstone-arsenal-al/mold-remediation/",
+    "/service-areas/redstone-arsenal-al/painting-trim/",
+    "/service-areas/redstone-arsenal-al/storm-damage-restoration/",
+    "/service-areas/redstone-arsenal-al/water-damage-restoration/",
+    "/service-areas/athens-al/",
+    "/service-areas/harvest-al/",
+    "/service-areas/hazel-green-al/"
+  ],
+  "/service-areas/meridianville-al/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/meridianville-al/home-remodeling/",
+    "/service-areas/meridianville-al/roofing/",
+    "/service-areas/meridianville-al/decks-pergolas-fences/",
+    "/service-areas/meridianville-al/new-construction/",
+    "/service-areas/meridianville-al/siding-gutters/",
+    "/service-areas/meridianville-al/mold-remediation/",
+    "/service-areas/meridianville-al/painting-trim/",
+    "/service-areas/meridianville-al/storm-damage-restoration/",
+    "/service-areas/meridianville-al/water-damage-restoration/",
+    "/service-areas/athens-al/",
+    "/service-areas/harvest-al/",
+    "/service-areas/hazel-green-al/"
+  ],
+  "/service-areas/hazel-green-al/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/hazel-green-al/home-remodeling/",
+    "/service-areas/hazel-green-al/roofing/",
+    "/service-areas/hazel-green-al/decks-pergolas-fences/",
+    "/service-areas/hazel-green-al/new-construction/",
+    "/service-areas/hazel-green-al/siding-gutters/",
+    "/service-areas/hazel-green-al/mold-remediation/",
+    "/service-areas/hazel-green-al/painting-trim/",
+    "/service-areas/hazel-green-al/storm-damage-restoration/",
+    "/service-areas/hazel-green-al/water-damage-restoration/",
+    "/service-areas/athens-al/",
+    "/service-areas/harvest-al/",
+    "/service-areas/huntsville-al/"
+  ],
+  "/service-areas/new-market-al/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/new-market-al/home-remodeling/",
+    "/service-areas/new-market-al/roofing/",
+    "/service-areas/new-market-al/decks-pergolas-fences/",
+    "/service-areas/new-market-al/new-construction/",
+    "/service-areas/new-market-al/siding-gutters/",
+    "/service-areas/new-market-al/mold-remediation/",
+    "/service-areas/new-market-al/painting-trim/",
+    "/service-areas/new-market-al/storm-damage-restoration/",
+    "/service-areas/new-market-al/water-damage-restoration/",
+    "/service-areas/athens-al/",
+    "/service-areas/harvest-al/",
+    "/service-areas/hazel-green-al/"
+  ],
+  "/service-areas/harvest-al/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/harvest-al/home-remodeling/",
+    "/service-areas/harvest-al/roofing/",
+    "/service-areas/harvest-al/decks-pergolas-fences/",
+    "/service-areas/harvest-al/new-construction/",
+    "/service-areas/harvest-al/siding-gutters/",
+    "/service-areas/harvest-al/mold-remediation/",
+    "/service-areas/harvest-al/painting-trim/",
+    "/service-areas/harvest-al/storm-damage-restoration/",
+    "/service-areas/harvest-al/water-damage-restoration/",
+    "/service-areas/athens-al/",
+    "/service-areas/hazel-green-al/",
     "/service-areas/huntsville-al/"
   ],
   "/service-areas/huntsville-al/home-remodeling/": [
     "/services/home-remodeling/",
     "/service-areas/huntsville-al/",
-    "/service-areas/huntsville-al/mold-remediation/",
     "/service-areas/huntsville-al/roofing/",
+    "/service-areas/huntsville-al/decks-pergolas-fences/",
     "/service-areas/athens-al/home-remodeling/",
+    "/service-areas/harvest-al/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/huntsville-al/new-construction/": [
     "/services/new-construction/",
     "/service-areas/huntsville-al/",
     "/service-areas/huntsville-al/home-remodeling/",
-    "/service-areas/huntsville-al/mold-remediation/",
+    "/service-areas/huntsville-al/roofing/",
     "/service-areas/athens-al/new-construction/",
+    "/service-areas/harvest-al/new-construction/",
     "/contact/"
   ],
   "/service-areas/huntsville-al/decks-pergolas-fences/": [
     "/services/decks-pergolas-fences/",
     "/service-areas/huntsville-al/",
     "/service-areas/huntsville-al/home-remodeling/",
-    "/service-areas/huntsville-al/mold-remediation/",
+    "/service-areas/huntsville-al/roofing/",
     "/service-areas/athens-al/decks-pergolas-fences/",
+    "/service-areas/harvest-al/decks-pergolas-fences/",
     "/contact/"
   ],
   "/service-areas/huntsville-al/roofing/": [
     "/services/roofing/",
     "/service-areas/huntsville-al/",
     "/service-areas/huntsville-al/home-remodeling/",
-    "/service-areas/huntsville-al/mold-remediation/",
+    "/service-areas/huntsville-al/decks-pergolas-fences/",
     "/service-areas/athens-al/roofing/",
+    "/service-areas/harvest-al/roofing/",
     "/contact/"
   ],
   "/service-areas/huntsville-al/siding-gutters/": [
     "/services/siding-gutters/",
     "/service-areas/huntsville-al/",
     "/service-areas/huntsville-al/home-remodeling/",
-    "/service-areas/huntsville-al/mold-remediation/",
+    "/service-areas/huntsville-al/roofing/",
     "/service-areas/athens-al/siding-gutters/",
+    "/service-areas/harvest-al/siding-gutters/",
     "/contact/"
   ],
   "/service-areas/huntsville-al/painting-trim/": [
     "/services/painting-trim/",
     "/service-areas/huntsville-al/",
     "/service-areas/huntsville-al/home-remodeling/",
-    "/service-areas/huntsville-al/mold-remediation/",
+    "/service-areas/huntsville-al/roofing/",
     "/service-areas/athens-al/painting-trim/",
+    "/service-areas/harvest-al/painting-trim/",
     "/contact/"
   ],
   "/service-areas/huntsville-al/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/huntsville-al/",
     "/service-areas/huntsville-al/home-remodeling/",
-    "/service-areas/huntsville-al/mold-remediation/",
+    "/service-areas/huntsville-al/roofing/",
     "/service-areas/athens-al/water-damage-restoration/",
+    "/service-areas/harvest-al/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/huntsville-al/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/huntsville-al/",
     "/service-areas/huntsville-al/home-remodeling/",
-    "/service-areas/huntsville-al/mold-remediation/",
+    "/service-areas/huntsville-al/roofing/",
     "/service-areas/athens-al/storm-damage-restoration/",
+    "/service-areas/harvest-al/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/huntsville-al/mold-remediation/": [
@@ -217,70 +397,79 @@
     "/service-areas/huntsville-al/home-remodeling/",
     "/service-areas/huntsville-al/roofing/",
     "/service-areas/athens-al/mold-remediation/",
+    "/service-areas/harvest-al/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/athens-al/home-remodeling/": [
     "/services/home-remodeling/",
     "/service-areas/athens-al/",
-    "/service-areas/athens-al/mold-remediation/",
     "/service-areas/athens-al/roofing/",
-    "/service-areas/huntsville-al/home-remodeling/",
+    "/service-areas/athens-al/decks-pergolas-fences/",
+    "/service-areas/harvest-al/home-remodeling/",
+    "/service-areas/hazel-green-al/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/athens-al/new-construction/": [
     "/services/new-construction/",
     "/service-areas/athens-al/",
     "/service-areas/athens-al/home-remodeling/",
-    "/service-areas/athens-al/mold-remediation/",
-    "/service-areas/huntsville-al/new-construction/",
+    "/service-areas/athens-al/roofing/",
+    "/service-areas/harvest-al/new-construction/",
+    "/service-areas/hazel-green-al/new-construction/",
     "/contact/"
   ],
   "/service-areas/athens-al/decks-pergolas-fences/": [
     "/services/decks-pergolas-fences/",
     "/service-areas/athens-al/",
     "/service-areas/athens-al/home-remodeling/",
-    "/service-areas/athens-al/mold-remediation/",
-    "/service-areas/huntsville-al/decks-pergolas-fences/",
+    "/service-areas/athens-al/roofing/",
+    "/service-areas/harvest-al/decks-pergolas-fences/",
+    "/service-areas/hazel-green-al/decks-pergolas-fences/",
     "/contact/"
   ],
   "/service-areas/athens-al/roofing/": [
     "/services/roofing/",
     "/service-areas/athens-al/",
     "/service-areas/athens-al/home-remodeling/",
-    "/service-areas/athens-al/mold-remediation/",
-    "/service-areas/huntsville-al/roofing/",
+    "/service-areas/athens-al/decks-pergolas-fences/",
+    "/service-areas/harvest-al/roofing/",
+    "/service-areas/hazel-green-al/roofing/",
     "/contact/"
   ],
   "/service-areas/athens-al/siding-gutters/": [
     "/services/siding-gutters/",
     "/service-areas/athens-al/",
     "/service-areas/athens-al/home-remodeling/",
-    "/service-areas/athens-al/mold-remediation/",
-    "/service-areas/huntsville-al/siding-gutters/",
+    "/service-areas/athens-al/roofing/",
+    "/service-areas/harvest-al/siding-gutters/",
+    "/service-areas/hazel-green-al/siding-gutters/",
     "/contact/"
   ],
   "/service-areas/athens-al/painting-trim/": [
     "/services/painting-trim/",
     "/service-areas/athens-al/",
     "/service-areas/athens-al/home-remodeling/",
-    "/service-areas/athens-al/mold-remediation/",
-    "/service-areas/huntsville-al/painting-trim/",
+    "/service-areas/athens-al/roofing/",
+    "/service-areas/harvest-al/painting-trim/",
+    "/service-areas/hazel-green-al/painting-trim/",
     "/contact/"
   ],
   "/service-areas/athens-al/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/athens-al/",
     "/service-areas/athens-al/home-remodeling/",
-    "/service-areas/athens-al/mold-remediation/",
-    "/service-areas/huntsville-al/water-damage-restoration/",
+    "/service-areas/athens-al/roofing/",
+    "/service-areas/harvest-al/water-damage-restoration/",
+    "/service-areas/hazel-green-al/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/athens-al/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/athens-al/",
     "/service-areas/athens-al/home-remodeling/",
-    "/service-areas/athens-al/mold-remediation/",
-    "/service-areas/huntsville-al/storm-damage-restoration/",
+    "/service-areas/athens-al/roofing/",
+    "/service-areas/harvest-al/storm-damage-restoration/",
+    "/service-areas/hazel-green-al/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/athens-al/mold-remediation/": [
@@ -288,92 +477,570 @@
     "/service-areas/athens-al/",
     "/service-areas/athens-al/home-remodeling/",
     "/service-areas/athens-al/roofing/",
-    "/service-areas/huntsville-al/mold-remediation/",
+    "/service-areas/harvest-al/mold-remediation/",
+    "/service-areas/hazel-green-al/mold-remediation/",
     "/contact/"
   ],
-  "/blog/what-to-do-first-24-hours-water-damage/": [
-    "/blog/",
-    "/services/water-damage-restoration/",
-    "/blog/burst-pipe-emergency-checklist/",
-    "/blog/choosing-a-restoration-company/",
-    "/blog/does-homeowners-insurance-cover-water-damage/"
+  "/service-areas/moores-mill-al/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/moores-mill-al/",
+    "/service-areas/moores-mill-al/roofing/",
+    "/service-areas/moores-mill-al/decks-pergolas-fences/",
+    "/service-areas/athens-al/home-remodeling/",
+    "/service-areas/harvest-al/home-remodeling/",
+    "/contact/"
   ],
-  "/blog/burst-pipe-emergency-checklist/": [
-    "/blog/",
-    "/services/water-damage-restoration/",
-    "/blog/what-to-do-first-24-hours-water-damage/",
-    "/blog/choosing-a-restoration-company/",
-    "/blog/does-homeowners-insurance-cover-water-damage/"
+  "/service-areas/moores-mill-al/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/moores-mill-al/",
+    "/service-areas/moores-mill-al/home-remodeling/",
+    "/service-areas/moores-mill-al/roofing/",
+    "/service-areas/athens-al/new-construction/",
+    "/service-areas/harvest-al/new-construction/",
+    "/contact/"
   ],
-  "/blog/does-homeowners-insurance-cover-water-damage/": [
-    "/blog/",
-    "/services/water-damage-restoration/",
-    "/blog/burst-pipe-emergency-checklist/",
-    "/blog/what-to-do-first-24-hours-water-damage/",
-    "/blog/choosing-a-restoration-company/"
+  "/service-areas/moores-mill-al/decks-pergolas-fences/": [
+    "/services/decks-pergolas-fences/",
+    "/service-areas/moores-mill-al/",
+    "/service-areas/moores-mill-al/home-remodeling/",
+    "/service-areas/moores-mill-al/roofing/",
+    "/service-areas/athens-al/decks-pergolas-fences/",
+    "/service-areas/harvest-al/decks-pergolas-fences/",
+    "/contact/"
   ],
-  "/blog/signs-of-hidden-mold/": [
-    "/blog/",
+  "/service-areas/moores-mill-al/roofing/": [
+    "/services/roofing/",
+    "/service-areas/moores-mill-al/",
+    "/service-areas/moores-mill-al/home-remodeling/",
+    "/service-areas/moores-mill-al/decks-pergolas-fences/",
+    "/service-areas/athens-al/roofing/",
+    "/service-areas/harvest-al/roofing/",
+    "/contact/"
+  ],
+  "/service-areas/moores-mill-al/siding-gutters/": [
+    "/services/siding-gutters/",
+    "/service-areas/moores-mill-al/",
+    "/service-areas/moores-mill-al/home-remodeling/",
+    "/service-areas/moores-mill-al/roofing/",
+    "/service-areas/athens-al/siding-gutters/",
+    "/service-areas/harvest-al/siding-gutters/",
+    "/contact/"
+  ],
+  "/service-areas/moores-mill-al/painting-trim/": [
+    "/services/painting-trim/",
+    "/service-areas/moores-mill-al/",
+    "/service-areas/moores-mill-al/home-remodeling/",
+    "/service-areas/moores-mill-al/roofing/",
+    "/service-areas/athens-al/painting-trim/",
+    "/service-areas/harvest-al/painting-trim/",
+    "/contact/"
+  ],
+  "/service-areas/moores-mill-al/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/moores-mill-al/",
+    "/service-areas/moores-mill-al/home-remodeling/",
+    "/service-areas/moores-mill-al/roofing/",
+    "/service-areas/athens-al/water-damage-restoration/",
+    "/service-areas/harvest-al/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/moores-mill-al/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/moores-mill-al/",
+    "/service-areas/moores-mill-al/home-remodeling/",
+    "/service-areas/moores-mill-al/roofing/",
+    "/service-areas/athens-al/storm-damage-restoration/",
+    "/service-areas/harvest-al/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/moores-mill-al/mold-remediation/": [
     "/services/mold-remediation/",
-    "/blog/choosing-a-restoration-company/",
-    "/blog/black-mold-vs-regular-mold/",
-    "/blog/mold-after-water-damage/"
+    "/service-areas/moores-mill-al/",
+    "/service-areas/moores-mill-al/home-remodeling/",
+    "/service-areas/moores-mill-al/roofing/",
+    "/service-areas/athens-al/mold-remediation/",
+    "/service-areas/harvest-al/mold-remediation/",
+    "/contact/"
   ],
-  "/blog/choosing-a-restoration-company/": [
-    "/blog/",
-    "/services/mold-remediation/",
+  "/service-areas/redstone-arsenal-al/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/redstone-arsenal-al/",
+    "/service-areas/redstone-arsenal-al/roofing/",
+    "/service-areas/redstone-arsenal-al/decks-pergolas-fences/",
+    "/service-areas/athens-al/home-remodeling/",
+    "/service-areas/harvest-al/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/redstone-arsenal-al/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/redstone-arsenal-al/",
+    "/service-areas/redstone-arsenal-al/home-remodeling/",
+    "/service-areas/redstone-arsenal-al/roofing/",
+    "/service-areas/athens-al/new-construction/",
+    "/service-areas/harvest-al/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/redstone-arsenal-al/decks-pergolas-fences/": [
+    "/services/decks-pergolas-fences/",
+    "/service-areas/redstone-arsenal-al/",
+    "/service-areas/redstone-arsenal-al/home-remodeling/",
+    "/service-areas/redstone-arsenal-al/roofing/",
+    "/service-areas/athens-al/decks-pergolas-fences/",
+    "/service-areas/harvest-al/decks-pergolas-fences/",
+    "/contact/"
+  ],
+  "/service-areas/redstone-arsenal-al/roofing/": [
+    "/services/roofing/",
+    "/service-areas/redstone-arsenal-al/",
+    "/service-areas/redstone-arsenal-al/home-remodeling/",
+    "/service-areas/redstone-arsenal-al/decks-pergolas-fences/",
+    "/service-areas/athens-al/roofing/",
+    "/service-areas/harvest-al/roofing/",
+    "/contact/"
+  ],
+  "/service-areas/redstone-arsenal-al/siding-gutters/": [
+    "/services/siding-gutters/",
+    "/service-areas/redstone-arsenal-al/",
+    "/service-areas/redstone-arsenal-al/home-remodeling/",
+    "/service-areas/redstone-arsenal-al/roofing/",
+    "/service-areas/athens-al/siding-gutters/",
+    "/service-areas/harvest-al/siding-gutters/",
+    "/contact/"
+  ],
+  "/service-areas/redstone-arsenal-al/painting-trim/": [
+    "/services/painting-trim/",
+    "/service-areas/redstone-arsenal-al/",
+    "/service-areas/redstone-arsenal-al/home-remodeling/",
+    "/service-areas/redstone-arsenal-al/roofing/",
+    "/service-areas/athens-al/painting-trim/",
+    "/service-areas/harvest-al/painting-trim/",
+    "/contact/"
+  ],
+  "/service-areas/redstone-arsenal-al/water-damage-restoration/": [
     "/services/water-damage-restoration/",
-    "/blog/burst-pipe-emergency-checklist/",
-    "/blog/what-to-do-first-24-hours-water-damage/",
-    "/blog/does-homeowners-insurance-cover-water-damage/"
+    "/service-areas/redstone-arsenal-al/",
+    "/service-areas/redstone-arsenal-al/home-remodeling/",
+    "/service-areas/redstone-arsenal-al/roofing/",
+    "/service-areas/athens-al/water-damage-restoration/",
+    "/service-areas/harvest-al/water-damage-restoration/",
+    "/contact/"
   ],
-  "/blog/black-mold-vs-regular-mold/": [
-    "/blog/",
+  "/service-areas/redstone-arsenal-al/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/redstone-arsenal-al/",
+    "/service-areas/redstone-arsenal-al/home-remodeling/",
+    "/service-areas/redstone-arsenal-al/roofing/",
+    "/service-areas/athens-al/storm-damage-restoration/",
+    "/service-areas/harvest-al/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/redstone-arsenal-al/mold-remediation/": [
     "/services/mold-remediation/",
-    "/blog/choosing-a-restoration-company/",
-    "/blog/signs-of-hidden-mold/",
-    "/blog/mold-after-water-damage/"
+    "/service-areas/redstone-arsenal-al/",
+    "/service-areas/redstone-arsenal-al/home-remodeling/",
+    "/service-areas/redstone-arsenal-al/roofing/",
+    "/service-areas/athens-al/mold-remediation/",
+    "/service-areas/harvest-al/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/meridianville-al/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/meridianville-al/",
+    "/service-areas/meridianville-al/roofing/",
+    "/service-areas/meridianville-al/decks-pergolas-fences/",
+    "/service-areas/athens-al/home-remodeling/",
+    "/service-areas/harvest-al/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/meridianville-al/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/meridianville-al/",
+    "/service-areas/meridianville-al/home-remodeling/",
+    "/service-areas/meridianville-al/roofing/",
+    "/service-areas/athens-al/new-construction/",
+    "/service-areas/harvest-al/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/meridianville-al/decks-pergolas-fences/": [
+    "/services/decks-pergolas-fences/",
+    "/service-areas/meridianville-al/",
+    "/service-areas/meridianville-al/home-remodeling/",
+    "/service-areas/meridianville-al/roofing/",
+    "/service-areas/athens-al/decks-pergolas-fences/",
+    "/service-areas/harvest-al/decks-pergolas-fences/",
+    "/contact/"
+  ],
+  "/service-areas/meridianville-al/roofing/": [
+    "/services/roofing/",
+    "/service-areas/meridianville-al/",
+    "/service-areas/meridianville-al/home-remodeling/",
+    "/service-areas/meridianville-al/decks-pergolas-fences/",
+    "/service-areas/athens-al/roofing/",
+    "/service-areas/harvest-al/roofing/",
+    "/contact/"
+  ],
+  "/service-areas/meridianville-al/siding-gutters/": [
+    "/services/siding-gutters/",
+    "/service-areas/meridianville-al/",
+    "/service-areas/meridianville-al/home-remodeling/",
+    "/service-areas/meridianville-al/roofing/",
+    "/service-areas/athens-al/siding-gutters/",
+    "/service-areas/harvest-al/siding-gutters/",
+    "/contact/"
+  ],
+  "/service-areas/meridianville-al/painting-trim/": [
+    "/services/painting-trim/",
+    "/service-areas/meridianville-al/",
+    "/service-areas/meridianville-al/home-remodeling/",
+    "/service-areas/meridianville-al/roofing/",
+    "/service-areas/athens-al/painting-trim/",
+    "/service-areas/harvest-al/painting-trim/",
+    "/contact/"
+  ],
+  "/service-areas/meridianville-al/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/meridianville-al/",
+    "/service-areas/meridianville-al/home-remodeling/",
+    "/service-areas/meridianville-al/roofing/",
+    "/service-areas/athens-al/water-damage-restoration/",
+    "/service-areas/harvest-al/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/meridianville-al/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/meridianville-al/",
+    "/service-areas/meridianville-al/home-remodeling/",
+    "/service-areas/meridianville-al/roofing/",
+    "/service-areas/athens-al/storm-damage-restoration/",
+    "/service-areas/harvest-al/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/meridianville-al/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/meridianville-al/",
+    "/service-areas/meridianville-al/home-remodeling/",
+    "/service-areas/meridianville-al/roofing/",
+    "/service-areas/athens-al/mold-remediation/",
+    "/service-areas/harvest-al/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/hazel-green-al/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/hazel-green-al/",
+    "/service-areas/hazel-green-al/roofing/",
+    "/service-areas/hazel-green-al/decks-pergolas-fences/",
+    "/service-areas/athens-al/home-remodeling/",
+    "/service-areas/harvest-al/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/hazel-green-al/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/hazel-green-al/",
+    "/service-areas/hazel-green-al/home-remodeling/",
+    "/service-areas/hazel-green-al/roofing/",
+    "/service-areas/athens-al/new-construction/",
+    "/service-areas/harvest-al/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/hazel-green-al/decks-pergolas-fences/": [
+    "/services/decks-pergolas-fences/",
+    "/service-areas/hazel-green-al/",
+    "/service-areas/hazel-green-al/home-remodeling/",
+    "/service-areas/hazel-green-al/roofing/",
+    "/service-areas/athens-al/decks-pergolas-fences/",
+    "/service-areas/harvest-al/decks-pergolas-fences/",
+    "/contact/"
+  ],
+  "/service-areas/hazel-green-al/roofing/": [
+    "/services/roofing/",
+    "/service-areas/hazel-green-al/",
+    "/service-areas/hazel-green-al/home-remodeling/",
+    "/service-areas/hazel-green-al/decks-pergolas-fences/",
+    "/service-areas/athens-al/roofing/",
+    "/service-areas/harvest-al/roofing/",
+    "/contact/"
+  ],
+  "/service-areas/hazel-green-al/siding-gutters/": [
+    "/services/siding-gutters/",
+    "/service-areas/hazel-green-al/",
+    "/service-areas/hazel-green-al/home-remodeling/",
+    "/service-areas/hazel-green-al/roofing/",
+    "/service-areas/athens-al/siding-gutters/",
+    "/service-areas/harvest-al/siding-gutters/",
+    "/contact/"
+  ],
+  "/service-areas/hazel-green-al/painting-trim/": [
+    "/services/painting-trim/",
+    "/service-areas/hazel-green-al/",
+    "/service-areas/hazel-green-al/home-remodeling/",
+    "/service-areas/hazel-green-al/roofing/",
+    "/service-areas/athens-al/painting-trim/",
+    "/service-areas/harvest-al/painting-trim/",
+    "/contact/"
+  ],
+  "/service-areas/hazel-green-al/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/hazel-green-al/",
+    "/service-areas/hazel-green-al/home-remodeling/",
+    "/service-areas/hazel-green-al/roofing/",
+    "/service-areas/athens-al/water-damage-restoration/",
+    "/service-areas/harvest-al/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/hazel-green-al/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/hazel-green-al/",
+    "/service-areas/hazel-green-al/home-remodeling/",
+    "/service-areas/hazel-green-al/roofing/",
+    "/service-areas/athens-al/storm-damage-restoration/",
+    "/service-areas/harvest-al/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/hazel-green-al/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/hazel-green-al/",
+    "/service-areas/hazel-green-al/home-remodeling/",
+    "/service-areas/hazel-green-al/roofing/",
+    "/service-areas/athens-al/mold-remediation/",
+    "/service-areas/harvest-al/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/new-market-al/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/new-market-al/",
+    "/service-areas/new-market-al/roofing/",
+    "/service-areas/new-market-al/decks-pergolas-fences/",
+    "/service-areas/athens-al/home-remodeling/",
+    "/service-areas/harvest-al/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/new-market-al/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/new-market-al/",
+    "/service-areas/new-market-al/home-remodeling/",
+    "/service-areas/new-market-al/roofing/",
+    "/service-areas/athens-al/new-construction/",
+    "/service-areas/harvest-al/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/new-market-al/decks-pergolas-fences/": [
+    "/services/decks-pergolas-fences/",
+    "/service-areas/new-market-al/",
+    "/service-areas/new-market-al/home-remodeling/",
+    "/service-areas/new-market-al/roofing/",
+    "/service-areas/athens-al/decks-pergolas-fences/",
+    "/service-areas/harvest-al/decks-pergolas-fences/",
+    "/contact/"
+  ],
+  "/service-areas/new-market-al/roofing/": [
+    "/services/roofing/",
+    "/service-areas/new-market-al/",
+    "/service-areas/new-market-al/home-remodeling/",
+    "/service-areas/new-market-al/decks-pergolas-fences/",
+    "/service-areas/athens-al/roofing/",
+    "/service-areas/harvest-al/roofing/",
+    "/contact/"
+  ],
+  "/service-areas/new-market-al/siding-gutters/": [
+    "/services/siding-gutters/",
+    "/service-areas/new-market-al/",
+    "/service-areas/new-market-al/home-remodeling/",
+    "/service-areas/new-market-al/roofing/",
+    "/service-areas/athens-al/siding-gutters/",
+    "/service-areas/harvest-al/siding-gutters/",
+    "/contact/"
+  ],
+  "/service-areas/new-market-al/painting-trim/": [
+    "/services/painting-trim/",
+    "/service-areas/new-market-al/",
+    "/service-areas/new-market-al/home-remodeling/",
+    "/service-areas/new-market-al/roofing/",
+    "/service-areas/athens-al/painting-trim/",
+    "/service-areas/harvest-al/painting-trim/",
+    "/contact/"
+  ],
+  "/service-areas/new-market-al/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/new-market-al/",
+    "/service-areas/new-market-al/home-remodeling/",
+    "/service-areas/new-market-al/roofing/",
+    "/service-areas/athens-al/water-damage-restoration/",
+    "/service-areas/harvest-al/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/new-market-al/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/new-market-al/",
+    "/service-areas/new-market-al/home-remodeling/",
+    "/service-areas/new-market-al/roofing/",
+    "/service-areas/athens-al/storm-damage-restoration/",
+    "/service-areas/harvest-al/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/new-market-al/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/new-market-al/",
+    "/service-areas/new-market-al/home-remodeling/",
+    "/service-areas/new-market-al/roofing/",
+    "/service-areas/athens-al/mold-remediation/",
+    "/service-areas/harvest-al/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/harvest-al/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/harvest-al/",
+    "/service-areas/harvest-al/roofing/",
+    "/service-areas/harvest-al/decks-pergolas-fences/",
+    "/service-areas/athens-al/home-remodeling/",
+    "/service-areas/hazel-green-al/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/harvest-al/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/harvest-al/",
+    "/service-areas/harvest-al/home-remodeling/",
+    "/service-areas/harvest-al/roofing/",
+    "/service-areas/athens-al/new-construction/",
+    "/service-areas/hazel-green-al/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/harvest-al/decks-pergolas-fences/": [
+    "/services/decks-pergolas-fences/",
+    "/service-areas/harvest-al/",
+    "/service-areas/harvest-al/home-remodeling/",
+    "/service-areas/harvest-al/roofing/",
+    "/service-areas/athens-al/decks-pergolas-fences/",
+    "/service-areas/hazel-green-al/decks-pergolas-fences/",
+    "/contact/"
+  ],
+  "/service-areas/harvest-al/roofing/": [
+    "/services/roofing/",
+    "/service-areas/harvest-al/",
+    "/service-areas/harvest-al/home-remodeling/",
+    "/service-areas/harvest-al/decks-pergolas-fences/",
+    "/service-areas/athens-al/roofing/",
+    "/service-areas/hazel-green-al/roofing/",
+    "/contact/"
+  ],
+  "/service-areas/harvest-al/siding-gutters/": [
+    "/services/siding-gutters/",
+    "/service-areas/harvest-al/",
+    "/service-areas/harvest-al/home-remodeling/",
+    "/service-areas/harvest-al/roofing/",
+    "/service-areas/athens-al/siding-gutters/",
+    "/service-areas/hazel-green-al/siding-gutters/",
+    "/contact/"
+  ],
+  "/service-areas/harvest-al/painting-trim/": [
+    "/services/painting-trim/",
+    "/service-areas/harvest-al/",
+    "/service-areas/harvest-al/home-remodeling/",
+    "/service-areas/harvest-al/roofing/",
+    "/service-areas/athens-al/painting-trim/",
+    "/service-areas/hazel-green-al/painting-trim/",
+    "/contact/"
+  ],
+  "/service-areas/harvest-al/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/harvest-al/",
+    "/service-areas/harvest-al/home-remodeling/",
+    "/service-areas/harvest-al/roofing/",
+    "/service-areas/athens-al/water-damage-restoration/",
+    "/service-areas/hazel-green-al/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/harvest-al/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/harvest-al/",
+    "/service-areas/harvest-al/home-remodeling/",
+    "/service-areas/harvest-al/roofing/",
+    "/service-areas/athens-al/storm-damage-restoration/",
+    "/service-areas/hazel-green-al/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/harvest-al/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/harvest-al/",
+    "/service-areas/harvest-al/home-remodeling/",
+    "/service-areas/harvest-al/roofing/",
+    "/service-areas/athens-al/mold-remediation/",
+    "/service-areas/hazel-green-al/mold-remediation/",
+    "/contact/"
+  ],
+  "/blog/how-to-plan-a-home-remodel/": [
+    "/blog/",
+    "/services/home-remodeling/",
+    "/blog/choosing-a-general-contractor/",
+    "/blog/do-you-need-a-permit/",
+    "/blog/kitchen-remodel-cost-breakdown/"
+  ],
+  "/blog/choosing-a-general-contractor/": [
+    "/blog/",
+    "/services/home-remodeling/",
+    "/services/new-construction/",
+    "/blog/how-to-plan-a-home-remodel/",
+    "/blog/do-you-need-a-permit/",
+    "/blog/kitchen-remodel-cost-breakdown/"
+  ],
+  "/blog/kitchen-remodel-cost-breakdown/": [
+    "/blog/",
+    "/services/home-remodeling/",
+    "/blog/choosing-a-general-contractor/",
+    "/blog/how-to-plan-a-home-remodel/",
+    "/blog/do-you-need-a-permit/"
+  ],
+  "/blog/roofing-material-comparison/": [
+    "/blog/",
+    "/services/roofing/",
+    "/blog/how-long-does-roof-replacement-take/",
+    "/blog/storm-damage-repair-process/"
+  ],
+  "/blog/do-you-need-a-permit/": [
+    "/blog/",
+    "/services/home-remodeling/",
+    "/blog/choosing-a-general-contractor/",
+    "/blog/how-to-plan-a-home-remodel/",
+    "/blog/kitchen-remodel-cost-breakdown/"
+  ],
+  "/blog/how-long-does-roof-replacement-take/": [
+    "/blog/",
+    "/services/roofing/",
+    "/blog/roofing-material-comparison/",
+    "/blog/storm-damage-repair-process/"
+  ],
+  "/blog/wood-vs-composite-decking/": [
+    "/blog/",
+    "/services/decks-pergolas-fences/"
+  ],
+  "/blog/siding-options-compared/": [
+    "/blog/",
+    "/services/siding-gutters/"
+  ],
+  "/blog/storm-damage-repair-process/": [
+    "/blog/",
+    "/services/roofing/",
+    "/services/storm-damage-restoration/",
+    "/blog/roofing-material-comparison/",
+    "/blog/how-long-does-roof-replacement-take/",
+    "/blog/storm-damage-insurance-claim-checklist/"
   ],
   "/blog/storm-damage-insurance-claim-checklist/": [
     "/blog/",
-    "/services/storm-damage-restoration/"
+    "/services/storm-damage-restoration/",
+    "/blog/storm-damage-repair-process/"
   ],
-  "/blog/how-long-does-water-damage-restoration-take/": [
+  "/blog/mold-found-during-renovation/": [
     "/blog/",
-    "/services/water-damage-restoration/",
-    "/blog/burst-pipe-emergency-checklist/",
-    "/blog/what-to-do-first-24-hours-water-damage/",
-    "/blog/choosing-a-restoration-company/"
-  ],
-  "/blog/mold-after-water-damage/": [
-    "/blog/",
+    "/services/home-remodeling/",
     "/services/mold-remediation/",
-    "/services/water-damage-restoration/",
-    "/blog/burst-pipe-emergency-checklist/",
-    "/blog/what-to-do-first-24-hours-water-damage/",
-    "/blog/choosing-a-restoration-company/"
+    "/blog/choosing-a-general-contractor/",
+    "/blog/how-to-plan-a-home-remodel/",
+    "/blog/do-you-need-a-permit/"
   ],
-  "/blog/basement-flooding-prevention/": [
+  "/blog/how-long-to-build-a-house/": [
     "/blog/",
-    "/services/water-damage-restoration/",
-    "/blog/burst-pipe-emergency-checklist/",
-    "/blog/what-to-do-first-24-hours-water-damage/",
-    "/blog/choosing-a-restoration-company/"
-  ],
-  "/blog/commercial-water-damage-business-continuity/": [
-    "/blog/",
-    "/services/water-damage-restoration/",
-    "/blog/burst-pipe-emergency-checklist/",
-    "/blog/what-to-do-first-24-hours-water-damage/",
-    "/blog/choosing-a-restoration-company/"
-  ],
-  "/blog/iicrc-certification-explained/": [
-    "/blog/",
-    "/services/mold-remediation/",
-    "/services/water-damage-restoration/",
-    "/blog/burst-pipe-emergency-checklist/",
-    "/blog/what-to-do-first-24-hours-water-damage/",
-    "/blog/choosing-a-restoration-company/"
+    "/services/new-construction/",
+    "/blog/choosing-a-general-contractor/"
   ],
   "/privacy/": [],
   "/terms/": [],

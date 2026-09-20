@@ -1,10 +1,10 @@
 {
-  "template": "restoration",
+  "template": "construction",
   "template_version": "0.1.0",
-  "generated_at": "2026-05-21T22:47:46.833203+00:00",
+  "generated_at": "2026-09-20T14:13:03.519861+00:00",
   "input_summary": {
     "service_count": 9,
-    "service_area_count": 3,
+    "service_area_count": 9,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -13,14 +13,14 @@
       "url_path": "/",
       "archetype": "home",
       "vars_keys": [],
-      "title": "Davis Construction Contractors | Restoration Services in Madison, AL",
-      "h1": "24/7 Restoration Services in Madison",
-      "meta_description": "Davis Construction Contractors provides 24/7 water, fire, mold, and storm damage restoration across Madison and surrounding areas. Licensed, insured, IICRC-certified. Call (256) 771-0326.",
-      "primary_keyword": "restoration services madison",
+      "title": "Davis Construction Contractors | General Contractor in Madison, AL",
+      "h1": "Trusted General Contractor in Madison",
+      "meta_description": "Davis Construction Contractors is a licensed general contractor serving Madison and surrounding areas \u2014 remodeling, new construction, roofing, and exterior work. Free estimates. Call (256) 771-0326.",
+      "primary_keyword": "general contractor madison",
       "secondary_keywords": [
-        "restoration company near me",
-        "24/7 damage restoration",
-        "emergency restoration"
+        "general contractor near me",
+        "home remodeling contractor",
+        "licensed construction company"
       ],
       "search_intent": "local_commercial",
       "target_word_count": 1200,
@@ -45,31 +45,36 @@
         "/contact/",
         "/about/",
         "/services/home-remodeling/",
-        "/services/mold-remediation/",
         "/services/roofing/",
-        "/services/water-damage-restoration/",
         "/services/decks-pergolas-fences/",
         "/services/new-construction/",
-        "/services/storm-damage-restoration/",
         "/services/siding-gutters/",
+        "/services/mold-remediation/",
         "/services/painting-trim/",
-        "/service-areas/madison-al/",
+        "/services/storm-damage-restoration/",
+        "/services/water-damage-restoration/",
         "/service-areas/athens-al/",
-        "/service-areas/huntsville-al/"
+        "/service-areas/harvest-al/",
+        "/service-areas/hazel-green-al/",
+        "/service-areas/huntsville-al/",
+        "/service-areas/meridianville-al/",
+        "/service-areas/moores-mill-al/",
+        "/service-areas/new-market-al/",
+        "/service-areas/redstone-arsenal-al/"
       ]
     },
     {
       "url_path": "/services/",
       "archetype": "services-hub",
       "vars_keys": [],
-      "title": "Restoration Services in Madison | Davis Construction Contractors",
-      "h1": "Our Restoration Services",
-      "meta_description": "Full-service restoration in Madison: water, fire, mold, storm, biohazard, and commercial restoration. 24/7 response. Call (256) 771-0326.",
-      "primary_keyword": "restoration services madison",
+      "title": "Construction Services in Madison | Davis Construction Contractors",
+      "h1": "Our Construction Services",
+      "meta_description": "Full-service general contracting in Madison: remodeling, new construction, roofing, siding, decks, and painting. Free estimates. Call (256) 771-0326.",
+      "primary_keyword": "construction services madison",
       "secondary_keywords": [
-        "damage restoration services",
-        "property restoration services",
-        "disaster restoration"
+        "general contracting services",
+        "home construction services",
+        "remodeling services"
       ],
       "search_intent": "local_commercial",
       "target_word_count": 800,
@@ -89,28 +94,28 @@
       "internal_links_out": [
         "/",
         "/services/home-remodeling/",
-        "/services/mold-remediation/",
         "/services/roofing/",
-        "/services/water-damage-restoration/",
         "/services/decks-pergolas-fences/",
         "/services/new-construction/",
-        "/services/storm-damage-restoration/",
         "/services/siding-gutters/",
-        "/services/painting-trim/"
+        "/services/mold-remediation/",
+        "/services/painting-trim/",
+        "/services/storm-damage-restoration/",
+        "/services/water-damage-restoration/"
       ]
     },
     {
       "url_path": "/service-areas/",
       "archetype": "service-areas-hub",
       "vars_keys": [],
-      "title": "Service Areas | Davis Construction Contractors Restoration",
+      "title": "Service Areas | Davis Construction Contractors Construction",
       "h1": "Areas We Serve",
-      "meta_description": "Davis Construction Contractors provides 24/7 restoration services across Madison and the surrounding region. Find your city.",
+      "meta_description": "Davis Construction Contractors builds and remodels across Madison and the surrounding region. Find your city.",
       "primary_keyword": "davis construction contractors service areas",
       "secondary_keywords": [
-        "restoration service area",
+        "construction service area",
         "cities we serve",
-        "local restoration coverage"
+        "local contractor coverage"
       ],
       "search_intent": "navigational_local",
       "target_word_count": 500,
@@ -128,23 +133,28 @@
       "status": "planned",
       "internal_links_out": [
         "/",
-        "/service-areas/madison-al/",
         "/service-areas/athens-al/",
-        "/service-areas/huntsville-al/"
+        "/service-areas/harvest-al/",
+        "/service-areas/hazel-green-al/",
+        "/service-areas/huntsville-al/",
+        "/service-areas/meridianville-al/",
+        "/service-areas/moores-mill-al/",
+        "/service-areas/new-market-al/",
+        "/service-areas/redstone-arsenal-al/"
       ]
     },
     {
       "url_path": "/blog/",
       "archetype": "blog-index",
       "vars_keys": [],
-      "title": "Restoration Blog | Davis Construction Contractors",
-      "h1": "Restoration Resources and Insights",
-      "meta_description": "Guides, checklists, and explainers from Davis Construction Contractors on water, fire, mold, and storm damage restoration.",
-      "primary_keyword": "restoration blog madison",
+      "title": "Construction Blog | Davis Construction Contractors",
+      "h1": "Construction Resources and Insights",
+      "meta_description": "Guides, checklists, and explainers from Davis Construction Contractors on remodeling, new construction, roofing, and home improvement projects.",
+      "primary_keyword": "construction blog madison",
       "secondary_keywords": [
-        "restoration guides",
-        "damage restoration tips",
-        "restoration insights"
+        "construction guides",
+        "home remodeling tips",
+        "home improvement insights"
       ],
       "search_intent": "informational_browse",
       "target_word_count": 300,
@@ -160,32 +170,32 @@
       "status": "planned",
       "internal_links_out": [
         "/",
-        "/blog/burst-pipe-emergency-checklist/",
-        "/blog/what-to-do-first-24-hours-water-damage/",
-        "/blog/choosing-a-restoration-company/",
-        "/blog/does-homeowners-insurance-cover-water-damage/",
-        "/blog/signs-of-hidden-mold/",
-        "/blog/black-mold-vs-regular-mold/",
-        "/blog/how-long-does-water-damage-restoration-take/",
-        "/blog/mold-after-water-damage/",
+        "/blog/choosing-a-general-contractor/",
+        "/blog/how-to-plan-a-home-remodel/",
+        "/blog/do-you-need-a-permit/",
+        "/blog/kitchen-remodel-cost-breakdown/",
+        "/blog/roofing-material-comparison/",
+        "/blog/how-long-does-roof-replacement-take/",
+        "/blog/how-long-to-build-a-house/",
+        "/blog/mold-found-during-renovation/",
+        "/blog/siding-options-compared/",
         "/blog/storm-damage-insurance-claim-checklist/",
-        "/blog/basement-flooding-prevention/",
-        "/blog/commercial-water-damage-business-continuity/",
-        "/blog/iicrc-certification-explained/"
+        "/blog/storm-damage-repair-process/",
+        "/blog/wood-vs-composite-decking/"
       ]
     },
     {
       "url_path": "/about/",
       "archetype": "about",
       "vars_keys": [],
-      "title": "About Davis Construction Contractors | Madison Restoration Company",
+      "title": "About Davis Construction Contractors | Madison Construction Company",
       "h1": "About Davis Construction Contractors",
-      "meta_description": "Davis Construction Contractors has served Madison since 2008. Meet our IICRC-certified restoration team. Licensed, insured, locally owned.",
+      "meta_description": "Davis Construction Contractors has served Madison since 2008. Meet our licensed construction team. Licensed, insured, locally owned.",
       "primary_keyword": "davis construction contractors madison",
       "secondary_keywords": [
-        "local restoration company",
-        "iicrc certified restoration",
-        "licensed restoration contractor"
+        "local construction company",
+        "licensed general contractor",
+        "insured remodeling contractor"
       ],
       "search_intent": "navigational_trust",
       "target_word_count": 700,
@@ -213,14 +223,14 @@
       "url_path": "/contact/",
       "archetype": "contact",
       "vars_keys": [],
-      "title": "Contact Davis Construction Contractors | 24/7 Restoration in Madison",
+      "title": "Contact Davis Construction Contractors | Free Estimates in Madison",
       "h1": "Contact Davis Construction Contractors",
-      "meta_description": "Call (256) 771-0326 for 24/7 emergency restoration in Madison and surrounding areas. Free estimates. Direct insurance billing.",
+      "meta_description": "Call (256) 771-0326 for a free estimate on your construction or remodeling project in Madison and surrounding areas. Licensed and insured.",
       "primary_keyword": "davis construction contractors contact",
       "secondary_keywords": [
-        "restoration company contact",
-        "24/7 restoration phone",
-        "emergency restoration near me"
+        "construction company contact",
+        "free construction estimate",
+        "general contractor near me"
       ],
       "search_intent": "navigational_action",
       "target_word_count": 400,
@@ -250,14 +260,14 @@
       ],
       "title": "Home Remodeling in Madison | Davis Construction Contractors",
       "h1": "Home Remodeling in Madison",
-      "meta_description": "24/7 home remodeling in Madison and surrounding areas. IICRC-certified, insurance billing accepted. Call (256) 771-0326.",
+      "meta_description": "Trusted home remodeling in Madison and surrounding areas. Licensed general contractor, free estimates, on-time and on-budget. Call (256) 771-0326.",
       "primary_keyword": "home remodeling madison",
       "secondary_keywords": [
         "home renovation",
-        "kitchen remodel",
-        "bathroom remodel",
         "whole home remodel",
-        "interior remodeling contractor"
+        "interior remodeling contractor",
+        "house renovation contractor",
+        "remodeling company"
       ],
       "search_intent": "local_commercial",
       "target_word_count": 1100,
@@ -279,8 +289,16 @@
         "/services/",
         "/contact/",
         "/service-areas/athens-al/home-remodeling/",
+        "/service-areas/harvest-al/home-remodeling/",
+        "/service-areas/hazel-green-al/home-remodeling/",
         "/service-areas/huntsville-al/home-remodeling/",
-        "/service-areas/madison-al/home-remodeling/"
+        "/service-areas/meridianville-al/home-remodeling/",
+        "/service-areas/moores-mill-al/home-remodeling/",
+        "/service-areas/new-market-al/home-remodeling/",
+        "/service-areas/redstone-arsenal-al/home-remodeling/",
+        "/blog/choosing-a-general-contractor/",
+        "/blog/how-to-plan-a-home-remodel/",
+        "/blog/do-you-need-a-permit/"
       ]
     },
     {
@@ -291,7 +309,7 @@
       ],
       "title": "New Home Construction in Madison | Davis Construction Contractors",
       "h1": "New Home Construction in Madison",
-      "meta_description": "24/7 new home construction in Madison and surrounding areas. IICRC-certified, insurance billing accepted. Call (256) 771-0326.",
+      "meta_description": "Trusted new home construction in Madison and surrounding areas. Licensed general contractor, free estimates, on-time and on-budget. Call (256) 771-0326.",
       "primary_keyword": "new home construction madison",
       "secondary_keywords": [
         "custom home builder",
@@ -320,8 +338,15 @@
         "/services/",
         "/contact/",
         "/service-areas/athens-al/new-construction/",
+        "/service-areas/harvest-al/new-construction/",
+        "/service-areas/hazel-green-al/new-construction/",
         "/service-areas/huntsville-al/new-construction/",
-        "/service-areas/madison-al/new-construction/"
+        "/service-areas/meridianville-al/new-construction/",
+        "/service-areas/moores-mill-al/new-construction/",
+        "/service-areas/new-market-al/new-construction/",
+        "/service-areas/redstone-arsenal-al/new-construction/",
+        "/blog/choosing-a-general-contractor/",
+        "/blog/how-long-to-build-a-house/"
       ]
     },
     {
@@ -332,7 +357,7 @@
       ],
       "title": "Decks, Pergolas and Fences in Madison | Davis Construction Contractors",
       "h1": "Decks, Pergolas and Fences in Madison",
-      "meta_description": "24/7 decks, pergolas and fences in Madison and surrounding areas. IICRC-certified, insurance billing accepted. Call (256) 771-0326.",
+      "meta_description": "Trusted decks, pergolas and fences in Madison and surrounding areas. Licensed general contractor, free estimates, on-time and on-budget. Call (256) 771-0326.",
       "primary_keyword": "decks, pergolas and fences madison",
       "secondary_keywords": [
         "deck builder",
@@ -361,8 +386,14 @@
         "/services/",
         "/contact/",
         "/service-areas/athens-al/decks-pergolas-fences/",
+        "/service-areas/harvest-al/decks-pergolas-fences/",
+        "/service-areas/hazel-green-al/decks-pergolas-fences/",
         "/service-areas/huntsville-al/decks-pergolas-fences/",
-        "/service-areas/madison-al/decks-pergolas-fences/"
+        "/service-areas/meridianville-al/decks-pergolas-fences/",
+        "/service-areas/moores-mill-al/decks-pergolas-fences/",
+        "/service-areas/new-market-al/decks-pergolas-fences/",
+        "/service-areas/redstone-arsenal-al/decks-pergolas-fences/",
+        "/blog/wood-vs-composite-decking/"
       ]
     },
     {
@@ -373,7 +404,7 @@
       ],
       "title": "Roofing Installation and Replacement in Madison | Davis Construction Contractors",
       "h1": "Roofing Installation and Replacement in Madison",
-      "meta_description": "24/7 roofing installation and replacement in Madison and surrounding areas. IICRC-certified, insurance billing accepted. Call (256) 771-0326.",
+      "meta_description": "Trusted roofing installation and replacement in Madison and surrounding areas. Licensed general contractor, free estimates, on-time and on-budget. Call (256) 771-0326.",
       "primary_keyword": "roofing installation and replacement madison",
       "secondary_keywords": [
         "roofing contractor",
@@ -402,8 +433,16 @@
         "/services/",
         "/contact/",
         "/service-areas/athens-al/roofing/",
+        "/service-areas/harvest-al/roofing/",
+        "/service-areas/hazel-green-al/roofing/",
         "/service-areas/huntsville-al/roofing/",
-        "/service-areas/madison-al/roofing/"
+        "/service-areas/meridianville-al/roofing/",
+        "/service-areas/moores-mill-al/roofing/",
+        "/service-areas/new-market-al/roofing/",
+        "/service-areas/redstone-arsenal-al/roofing/",
+        "/blog/roofing-material-comparison/",
+        "/blog/how-long-does-roof-replacement-take/",
+        "/blog/storm-damage-repair-process/"
       ]
     },
     {
@@ -414,7 +453,7 @@
       ],
       "title": "Siding and Gutters in Madison | Davis Construction Contractors",
       "h1": "Siding and Gutters in Madison",
-      "meta_description": "24/7 siding and gutters in Madison and surrounding areas. IICRC-certified, insurance billing accepted. Call (256) 771-0326.",
+      "meta_description": "Trusted siding and gutters in Madison and surrounding areas. Licensed general contractor, free estimates, on-time and on-budget. Call (256) 771-0326.",
       "primary_keyword": "siding and gutters madison",
       "secondary_keywords": [
         "siding contractor",
@@ -443,8 +482,14 @@
         "/services/",
         "/contact/",
         "/service-areas/athens-al/siding-gutters/",
+        "/service-areas/harvest-al/siding-gutters/",
+        "/service-areas/hazel-green-al/siding-gutters/",
         "/service-areas/huntsville-al/siding-gutters/",
-        "/service-areas/madison-al/siding-gutters/"
+        "/service-areas/meridianville-al/siding-gutters/",
+        "/service-areas/moores-mill-al/siding-gutters/",
+        "/service-areas/new-market-al/siding-gutters/",
+        "/service-areas/redstone-arsenal-al/siding-gutters/",
+        "/blog/siding-options-compared/"
       ]
     },
     {
@@ -455,7 +500,7 @@
       ],
       "title": "Painting and Trim in Madison | Davis Construction Contractors",
       "h1": "Painting and Trim in Madison",
-      "meta_description": "24/7 painting and trim in Madison and surrounding areas. IICRC-certified, insurance billing accepted. Call (256) 771-0326.",
+      "meta_description": "Trusted painting and trim in Madison and surrounding areas. Licensed general contractor, free estimates, on-time and on-budget. Call (256) 771-0326.",
       "primary_keyword": "painting and trim madison",
       "secondary_keywords": [
         "painting contractor",
@@ -484,8 +529,13 @@
         "/services/",
         "/contact/",
         "/service-areas/athens-al/painting-trim/",
+        "/service-areas/harvest-al/painting-trim/",
+        "/service-areas/hazel-green-al/painting-trim/",
         "/service-areas/huntsville-al/painting-trim/",
-        "/service-areas/madison-al/painting-trim/"
+        "/service-areas/meridianville-al/painting-trim/",
+        "/service-areas/moores-mill-al/painting-trim/",
+        "/service-areas/new-market-al/painting-trim/",
+        "/service-areas/redstone-arsenal-al/painting-trim/"
       ]
     },
     {
@@ -496,16 +546,16 @@
       ],
       "title": "Water Damage Restoration in Madison | Davis Construction Contractors",
       "h1": "Water Damage Restoration in Madison",
-      "meta_description": "24/7 water damage restoration in Madison and surrounding areas. IICRC-certified, insurance billing accepted. Call (256) 771-0326.",
+      "meta_description": "Trusted water damage restoration in Madison and surrounding areas. Licensed general contractor, free estimates, on-time and on-budget. Call (256) 771-0326.",
       "primary_keyword": "water damage restoration madison",
       "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
+        "water damage repair",
+        "water damage rebuild",
+        "drywall water damage repair",
+        "ceiling water damage repair",
+        "post-leak renovation"
       ],
-      "search_intent": "local_emergency",
+      "search_intent": "local_commercial",
       "target_word_count": 1100,
       "image_roles": [
         "hero",
@@ -519,17 +569,19 @@
         "faq",
         "breadcrumb-list"
       ],
-      "priority": 9.0,
+      "priority": 6.3,
       "status": "planned",
       "internal_links_out": [
         "/services/",
         "/contact/",
         "/service-areas/athens-al/water-damage-restoration/",
+        "/service-areas/harvest-al/water-damage-restoration/",
+        "/service-areas/hazel-green-al/water-damage-restoration/",
         "/service-areas/huntsville-al/water-damage-restoration/",
-        "/service-areas/madison-al/water-damage-restoration/",
-        "/blog/burst-pipe-emergency-checklist/",
-        "/blog/what-to-do-first-24-hours-water-damage/",
-        "/blog/choosing-a-restoration-company/"
+        "/service-areas/meridianville-al/water-damage-restoration/",
+        "/service-areas/moores-mill-al/water-damage-restoration/",
+        "/service-areas/new-market-al/water-damage-restoration/",
+        "/service-areas/redstone-arsenal-al/water-damage-restoration/"
       ]
     },
     {
@@ -540,16 +592,16 @@
       ],
       "title": "Storm Damage Restoration in Madison | Davis Construction Contractors",
       "h1": "Storm Damage Restoration in Madison",
-      "meta_description": "24/7 storm damage restoration in Madison and surrounding areas. IICRC-certified, insurance billing accepted. Call (256) 771-0326.",
+      "meta_description": "Trusted storm damage restoration in Madison and surrounding areas. Licensed general contractor, free estimates, on-time and on-budget. Call (256) 771-0326.",
       "primary_keyword": "storm damage restoration madison",
       "secondary_keywords": [
-        "hurricane damage cleanup",
-        "tornado damage cleanup",
-        "tree damage cleanup",
-        "storm cleanup services",
-        "severe weather damage repair"
+        "storm damage repair",
+        "roof storm damage repair",
+        "siding storm damage repair",
+        "wind damage repair contractor",
+        "storm damage rebuild"
       ],
-      "search_intent": "local_emergency",
+      "search_intent": "local_commercial",
       "target_word_count": 1100,
       "image_roles": [
         "hero",
@@ -563,15 +615,21 @@
         "faq",
         "breadcrumb-list"
       ],
-      "priority": 8.1,
+      "priority": 6.3,
       "status": "planned",
       "internal_links_out": [
         "/services/",
         "/contact/",
         "/service-areas/athens-al/storm-damage-restoration/",
+        "/service-areas/harvest-al/storm-damage-restoration/",
+        "/service-areas/hazel-green-al/storm-damage-restoration/",
         "/service-areas/huntsville-al/storm-damage-restoration/",
-        "/service-areas/madison-al/storm-damage-restoration/",
-        "/blog/storm-damage-insurance-claim-checklist/"
+        "/service-areas/meridianville-al/storm-damage-restoration/",
+        "/service-areas/moores-mill-al/storm-damage-restoration/",
+        "/service-areas/new-market-al/storm-damage-restoration/",
+        "/service-areas/redstone-arsenal-al/storm-damage-restoration/",
+        "/blog/storm-damage-insurance-claim-checklist/",
+        "/blog/storm-damage-repair-process/"
       ]
     },
     {
@@ -582,14 +640,14 @@
       ],
       "title": "Mold Remediation in Madison | Davis Construction Contractors",
       "h1": "Mold Remediation in Madison",
-      "meta_description": "24/7 mold remediation in Madison and surrounding areas. IICRC-certified, insurance billing accepted. Call (256) 771-0326.",
+      "meta_description": "Trusted mold remediation in Madison and surrounding areas. Licensed general contractor, free estimates, on-time and on-budget. Call (256) 771-0326.",
       "primary_keyword": "mold remediation madison",
       "secondary_keywords": [
         "mold removal",
-        "black mold remediation",
-        "mold abatement",
-        "mold containment",
-        "mold cleanup"
+        "mold remediation contractor",
+        "mold repair and rebuild",
+        "mold-safe renovation",
+        "post-remediation reconstruction"
       ],
       "search_intent": "local_health",
       "target_word_count": 1100,
@@ -605,17 +663,20 @@
         "faq",
         "breadcrumb-list"
       ],
-      "priority": 9.0,
+      "priority": 6.3,
       "status": "planned",
       "internal_links_out": [
         "/services/",
         "/contact/",
         "/service-areas/athens-al/mold-remediation/",
+        "/service-areas/harvest-al/mold-remediation/",
+        "/service-areas/hazel-green-al/mold-remediation/",
         "/service-areas/huntsville-al/mold-remediation/",
-        "/service-areas/madison-al/mold-remediation/",
-        "/blog/choosing-a-restoration-company/",
-        "/blog/signs-of-hidden-mold/",
-        "/blog/black-mold-vs-regular-mold/"
+        "/service-areas/meridianville-al/mold-remediation/",
+        "/service-areas/moores-mill-al/mold-remediation/",
+        "/service-areas/new-market-al/mold-remediation/",
+        "/service-areas/redstone-arsenal-al/mold-remediation/",
+        "/blog/mold-found-during-renovation/"
       ]
     },
     {
@@ -624,14 +685,14 @@
       "vars_keys": [
         "area"
       ],
-      "title": "Restoration Services in Huntsville, AL | Davis Construction Contractors",
-      "h1": "Restoration Services in Huntsville",
-      "meta_description": "Serving Huntsville, AL with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (256) 771-0326.",
-      "primary_keyword": "restoration services huntsville",
+      "title": "Construction Services in Huntsville, AL | Davis Construction Contractors",
+      "h1": "Construction Services in Huntsville",
+      "meta_description": "Serving Huntsville, AL with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (256) 771-0326 for a free estimate.",
+      "primary_keyword": "construction services huntsville",
       "secondary_keywords": [
-        "huntsville restoration company",
-        "damage restoration huntsville",
-        "huntsville disaster restoration"
+        "huntsville construction company",
+        "general contractor huntsville",
+        "huntsville remodeling contractor"
       ],
       "search_intent": "local_commercial",
       "target_word_count": 900,
@@ -651,16 +712,17 @@
         "/service-areas/",
         "/contact/",
         "/service-areas/huntsville-al/home-remodeling/",
-        "/service-areas/huntsville-al/mold-remediation/",
         "/service-areas/huntsville-al/roofing/",
-        "/service-areas/huntsville-al/water-damage-restoration/",
         "/service-areas/huntsville-al/decks-pergolas-fences/",
         "/service-areas/huntsville-al/new-construction/",
-        "/service-areas/huntsville-al/storm-damage-restoration/",
         "/service-areas/huntsville-al/siding-gutters/",
+        "/service-areas/huntsville-al/mold-remediation/",
         "/service-areas/huntsville-al/painting-trim/",
-        "/service-areas/madison-al/",
-        "/service-areas/athens-al/"
+        "/service-areas/huntsville-al/storm-damage-restoration/",
+        "/service-areas/huntsville-al/water-damage-restoration/",
+        "/service-areas/athens-al/",
+        "/service-areas/harvest-al/",
+        "/service-areas/hazel-green-al/"
       ]
     },
     {
@@ -669,14 +731,14 @@
       "vars_keys": [
         "area"
       ],
-      "title": "Restoration Services in Athens, AL | Davis Construction Contractors",
-      "h1": "Restoration Services in Athens",
-      "meta_description": "Serving Athens, AL with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (256) 771-0326.",
-      "primary_keyword": "restoration services athens",
+      "title": "Construction Services in Athens, AL | Davis Construction Contractors",
+      "h1": "Construction Services in Athens",
+      "meta_description": "Serving Athens, AL with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (256) 771-0326 for a free estimate.",
+      "primary_keyword": "construction services athens",
       "secondary_keywords": [
-        "athens restoration company",
-        "damage restoration athens",
-        "athens disaster restoration"
+        "athens construction company",
+        "general contractor athens",
+        "athens remodeling contractor"
       ],
       "search_intent": "local_commercial",
       "target_word_count": 900,
@@ -696,15 +758,292 @@
         "/service-areas/",
         "/contact/",
         "/service-areas/athens-al/home-remodeling/",
-        "/service-areas/athens-al/mold-remediation/",
         "/service-areas/athens-al/roofing/",
-        "/service-areas/athens-al/water-damage-restoration/",
         "/service-areas/athens-al/decks-pergolas-fences/",
         "/service-areas/athens-al/new-construction/",
-        "/service-areas/athens-al/storm-damage-restoration/",
         "/service-areas/athens-al/siding-gutters/",
+        "/service-areas/athens-al/mold-remediation/",
         "/service-areas/athens-al/painting-trim/",
-        "/service-areas/madison-al/",
+        "/service-areas/athens-al/storm-damage-restoration/",
+        "/service-areas/athens-al/water-damage-restoration/",
+        "/service-areas/harvest-al/",
+        "/service-areas/hazel-green-al/",
+        "/service-areas/huntsville-al/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/moores-mill-al/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Construction Services in Moores Mill, AL | Davis Construction Contractors",
+      "h1": "Construction Services in Moores Mill",
+      "meta_description": "Serving Moores Mill, AL with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (256) 771-0326 for a free estimate.",
+      "primary_keyword": "construction services moores mill",
+      "secondary_keywords": [
+        "moores mill construction company",
+        "general contractor moores mill",
+        "moores mill remodeling contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/moores-mill-al/home-remodeling/",
+        "/service-areas/moores-mill-al/roofing/",
+        "/service-areas/moores-mill-al/decks-pergolas-fences/",
+        "/service-areas/moores-mill-al/new-construction/",
+        "/service-areas/moores-mill-al/siding-gutters/",
+        "/service-areas/moores-mill-al/mold-remediation/",
+        "/service-areas/moores-mill-al/painting-trim/",
+        "/service-areas/moores-mill-al/storm-damage-restoration/",
+        "/service-areas/moores-mill-al/water-damage-restoration/",
+        "/service-areas/athens-al/",
+        "/service-areas/harvest-al/",
+        "/service-areas/hazel-green-al/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/redstone-arsenal-al/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Construction Services in Redstone Arsenal, AL | Davis Construction Contractors",
+      "h1": "Construction Services in Redstone Arsenal",
+      "meta_description": "Serving Redstone Arsenal, AL with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (256) 771-0326 for a free estimate.",
+      "primary_keyword": "construction services redstone arsenal",
+      "secondary_keywords": [
+        "redstone arsenal construction company",
+        "general contractor redstone arsenal",
+        "redstone arsenal remodeling contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/redstone-arsenal-al/home-remodeling/",
+        "/service-areas/redstone-arsenal-al/roofing/",
+        "/service-areas/redstone-arsenal-al/decks-pergolas-fences/",
+        "/service-areas/redstone-arsenal-al/new-construction/",
+        "/service-areas/redstone-arsenal-al/siding-gutters/",
+        "/service-areas/redstone-arsenal-al/mold-remediation/",
+        "/service-areas/redstone-arsenal-al/painting-trim/",
+        "/service-areas/redstone-arsenal-al/storm-damage-restoration/",
+        "/service-areas/redstone-arsenal-al/water-damage-restoration/",
+        "/service-areas/athens-al/",
+        "/service-areas/harvest-al/",
+        "/service-areas/hazel-green-al/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/meridianville-al/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Construction Services in Meridianville, AL | Davis Construction Contractors",
+      "h1": "Construction Services in Meridianville",
+      "meta_description": "Serving Meridianville, AL with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (256) 771-0326 for a free estimate.",
+      "primary_keyword": "construction services meridianville",
+      "secondary_keywords": [
+        "meridianville construction company",
+        "general contractor meridianville",
+        "meridianville remodeling contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/meridianville-al/home-remodeling/",
+        "/service-areas/meridianville-al/roofing/",
+        "/service-areas/meridianville-al/decks-pergolas-fences/",
+        "/service-areas/meridianville-al/new-construction/",
+        "/service-areas/meridianville-al/siding-gutters/",
+        "/service-areas/meridianville-al/mold-remediation/",
+        "/service-areas/meridianville-al/painting-trim/",
+        "/service-areas/meridianville-al/storm-damage-restoration/",
+        "/service-areas/meridianville-al/water-damage-restoration/",
+        "/service-areas/athens-al/",
+        "/service-areas/harvest-al/",
+        "/service-areas/hazel-green-al/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hazel-green-al/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Construction Services in Hazel Green, AL | Davis Construction Contractors",
+      "h1": "Construction Services in Hazel Green",
+      "meta_description": "Serving Hazel Green, AL with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (256) 771-0326 for a free estimate.",
+      "primary_keyword": "construction services hazel green",
+      "secondary_keywords": [
+        "hazel green construction company",
+        "general contractor hazel green",
+        "hazel green remodeling contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/hazel-green-al/home-remodeling/",
+        "/service-areas/hazel-green-al/roofing/",
+        "/service-areas/hazel-green-al/decks-pergolas-fences/",
+        "/service-areas/hazel-green-al/new-construction/",
+        "/service-areas/hazel-green-al/siding-gutters/",
+        "/service-areas/hazel-green-al/mold-remediation/",
+        "/service-areas/hazel-green-al/painting-trim/",
+        "/service-areas/hazel-green-al/storm-damage-restoration/",
+        "/service-areas/hazel-green-al/water-damage-restoration/",
+        "/service-areas/athens-al/",
+        "/service-areas/harvest-al/",
+        "/service-areas/huntsville-al/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/new-market-al/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Construction Services in New Market, AL | Davis Construction Contractors",
+      "h1": "Construction Services in New Market",
+      "meta_description": "Serving New Market, AL with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (256) 771-0326 for a free estimate.",
+      "primary_keyword": "construction services new market",
+      "secondary_keywords": [
+        "new market construction company",
+        "general contractor new market",
+        "new market remodeling contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/new-market-al/home-remodeling/",
+        "/service-areas/new-market-al/roofing/",
+        "/service-areas/new-market-al/decks-pergolas-fences/",
+        "/service-areas/new-market-al/new-construction/",
+        "/service-areas/new-market-al/siding-gutters/",
+        "/service-areas/new-market-al/mold-remediation/",
+        "/service-areas/new-market-al/painting-trim/",
+        "/service-areas/new-market-al/storm-damage-restoration/",
+        "/service-areas/new-market-al/water-damage-restoration/",
+        "/service-areas/athens-al/",
+        "/service-areas/harvest-al/",
+        "/service-areas/hazel-green-al/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/harvest-al/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Construction Services in Harvest, AL | Davis Construction Contractors",
+      "h1": "Construction Services in Harvest",
+      "meta_description": "Serving Harvest, AL with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (256) 771-0326 for a free estimate.",
+      "primary_keyword": "construction services harvest",
+      "secondary_keywords": [
+        "harvest construction company",
+        "general contractor harvest",
+        "harvest remodeling contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/harvest-al/home-remodeling/",
+        "/service-areas/harvest-al/roofing/",
+        "/service-areas/harvest-al/decks-pergolas-fences/",
+        "/service-areas/harvest-al/new-construction/",
+        "/service-areas/harvest-al/siding-gutters/",
+        "/service-areas/harvest-al/mold-remediation/",
+        "/service-areas/harvest-al/painting-trim/",
+        "/service-areas/harvest-al/storm-damage-restoration/",
+        "/service-areas/harvest-al/water-damage-restoration/",
+        "/service-areas/athens-al/",
+        "/service-areas/hazel-green-al/",
         "/service-areas/huntsville-al/"
       ]
     },
@@ -717,14 +1056,14 @@
       ],
       "title": "Home Remodeling in Huntsville, AL | Davis Construction Contractors",
       "h1": "Home Remodeling in Huntsville",
-      "meta_description": "24/7 home remodeling in Huntsville, AL. IICRC-certified, insurance billing accepted. Call (256) 771-0326.",
+      "meta_description": "Trusted home remodeling in Huntsville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
       "primary_keyword": "home remodeling huntsville",
       "secondary_keywords": [
         "home renovation",
-        "kitchen remodel",
-        "bathroom remodel",
         "whole home remodel",
-        "interior remodeling contractor"
+        "interior remodeling contractor",
+        "house renovation contractor",
+        "remodeling company"
       ],
       "search_intent": "local_commercial",
       "target_word_count": 900,
@@ -745,10 +1084,10 @@
       "internal_links_out": [
         "/services/home-remodeling/",
         "/service-areas/huntsville-al/",
-        "/service-areas/huntsville-al/mold-remediation/",
         "/service-areas/huntsville-al/roofing/",
+        "/service-areas/huntsville-al/decks-pergolas-fences/",
         "/service-areas/athens-al/home-remodeling/",
-        "/service-areas/madison-al/home-remodeling/",
+        "/service-areas/harvest-al/home-remodeling/",
         "/contact/"
       ]
     },
@@ -761,7 +1100,7 @@
       ],
       "title": "New Home Construction in Huntsville, AL | Davis Construction Contractors",
       "h1": "New Home Construction in Huntsville",
-      "meta_description": "24/7 new home construction in Huntsville, AL. IICRC-certified, insurance billing accepted. Call (256) 771-0326.",
+      "meta_description": "Trusted new home construction in Huntsville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
       "primary_keyword": "new home construction huntsville",
       "secondary_keywords": [
         "custom home builder",
@@ -790,9 +1129,9 @@
         "/services/new-construction/",
         "/service-areas/huntsville-al/",
         "/service-areas/huntsville-al/home-remodeling/",
-        "/service-areas/huntsville-al/mold-remediation/",
+        "/service-areas/huntsville-al/roofing/",
         "/service-areas/athens-al/new-construction/",
-        "/service-areas/madison-al/new-construction/",
+        "/service-areas/harvest-al/new-construction/",
         "/contact/"
       ]
     },
@@ -805,7 +1144,7 @@
       ],
       "title": "Decks, Pergolas and Fences in Huntsville, AL | Davis Construction Contractors",
       "h1": "Decks, Pergolas and Fences in Huntsville",
-      "meta_description": "24/7 decks, pergolas and fences in Huntsville, AL. IICRC-certified, insurance billing accepted. Call (256) 771-0326.",
+      "meta_description": "Trusted decks, pergolas and fences in Huntsville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
       "primary_keyword": "decks, pergolas and fences huntsville",
       "secondary_keywords": [
         "deck builder",
@@ -834,9 +1173,9 @@
         "/services/decks-pergolas-fences/",
         "/service-areas/huntsville-al/",
         "/service-areas/huntsville-al/home-remodeling/",
-        "/service-areas/huntsville-al/mold-remediation/",
+        "/service-areas/huntsville-al/roofing/",
         "/service-areas/athens-al/decks-pergolas-fences/",
-        "/service-areas/madison-al/decks-pergolas-fences/",
+        "/service-areas/harvest-al/decks-pergolas-fences/",
         "/contact/"
       ]
     },
@@ -849,7 +1188,7 @@
       ],
       "title": "Roofing Installation and Replacement in Huntsville, AL | Davis Construction Contractors",
       "h1": "Roofing Installation and Replacement in Huntsville",
-      "meta_description": "24/7 roofing installation and replacement in Huntsville, AL. IICRC-certified, insurance billing accepted. Call (256) 771-0326.",
+      "meta_description": "Trusted roofing installation and replacement in Huntsville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
       "primary_keyword": "roofing installation and replacement huntsville",
       "secondary_keywords": [
         "roofing contractor",
@@ -878,9 +1217,9 @@
         "/services/roofing/",
         "/service-areas/huntsville-al/",
         "/service-areas/huntsville-al/home-remodeling/",
-        "/service-areas/huntsville-al/mold-remediation/",
+        "/service-areas/huntsville-al/decks-pergolas-fences/",
         "/service-areas/athens-al/roofing/",
-        "/service-areas/madison-al/roofing/",
+        "/service-areas/harvest-al/roofing/",
         "/contact/"
       ]
     },
@@ -893,7 +1232,7 @@
       ],
       "title": "Siding and Gutters in Huntsville, AL | Davis Construction Contractors",
       "h1": "Siding and Gutters in Huntsville",
-      "meta_description": "24/7 siding and gutters in Huntsville, AL. IICRC-certified, insurance billing accepted. Call (256) 771-0326.",
+      "meta_description": "Trusted siding and gutters in Huntsville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
       "primary_keyword": "siding and gutters huntsville",
       "secondary_keywords": [
         "siding contractor",
@@ -922,9 +1261,9 @@
         "/services/siding-gutters/",
         "/service-areas/huntsville-al/",
         "/service-areas/huntsville-al/home-remodeling/",
-        "/service-areas/huntsville-al/mold-remediation/",
+        "/service-areas/huntsville-al/roofing/",
         "/service-areas/athens-al/siding-gutters/",
-        "/service-areas/madison-al/siding-gutters/",
+        "/service-areas/harvest-al/siding-gutters/",
         "/contact/"
       ]
     },
@@ -937,7 +1276,7 @@
       ],
       "title": "Painting and Trim in Huntsville, AL | Davis Construction Contractors",
       "h1": "Painting and Trim in Huntsville",
-      "meta_description": "24/7 painting and trim in Huntsville, AL. IICRC-certified, insurance billing accepted. Call (256) 771-0326.",
+      "meta_description": "Trusted painting and trim in Huntsville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
       "primary_keyword": "painting and trim huntsville",
       "secondary_keywords": [
         "painting contractor",
@@ -966,9 +1305,9 @@
         "/services/painting-trim/",
         "/service-areas/huntsville-al/",
         "/service-areas/huntsville-al/home-remodeling/",
-        "/service-areas/huntsville-al/mold-remediation/",
+        "/service-areas/huntsville-al/roofing/",
         "/service-areas/athens-al/painting-trim/",
-        "/service-areas/madison-al/painting-trim/",
+        "/service-areas/harvest-al/painting-trim/",
         "/contact/"
       ]
     },
@@ -981,16 +1320,16 @@
       ],
       "title": "Water Damage Restoration in Huntsville, AL | Davis Construction Contractors",
       "h1": "Water Damage Restoration in Huntsville",
-      "meta_description": "24/7 water damage restoration in Huntsville, AL. IICRC-certified, insurance billing accepted. Call (256) 771-0326.",
+      "meta_description": "Trusted water damage restoration in Huntsville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
       "primary_keyword": "water damage restoration huntsville",
       "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
+        "water damage repair",
+        "water damage rebuild",
+        "drywall water damage repair",
+        "ceiling water damage repair",
+        "post-leak renovation"
       ],
-      "search_intent": "local_emergency",
+      "search_intent": "local_commercial",
       "target_word_count": 900,
       "image_roles": [
         "hero",
@@ -1004,15 +1343,15 @@
         "faq",
         "breadcrumb-list"
       ],
-      "priority": 7.0,
+      "priority": 4.9,
       "status": "planned",
       "internal_links_out": [
         "/services/water-damage-restoration/",
         "/service-areas/huntsville-al/",
         "/service-areas/huntsville-al/home-remodeling/",
-        "/service-areas/huntsville-al/mold-remediation/",
+        "/service-areas/huntsville-al/roofing/",
         "/service-areas/athens-al/water-damage-restoration/",
-        "/service-areas/madison-al/water-damage-restoration/",
+        "/service-areas/harvest-al/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1025,16 +1364,16 @@
       ],
       "title": "Storm Damage Restoration in Huntsville, AL | Davis Construction Contractors",
       "h1": "Storm Damage Restoration in Huntsville",
-      "meta_description": "24/7 storm damage restoration in Huntsville, AL. IICRC-certified, insurance billing accepted. Call (256) 771-0326.",
+      "meta_description": "Trusted storm damage restoration in Huntsville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
       "primary_keyword": "storm damage restoration huntsville",
       "secondary_keywords": [
-        "hurricane damage cleanup",
-        "tornado damage cleanup",
-        "tree damage cleanup",
-        "storm cleanup services",
-        "severe weather damage repair"
+        "storm damage repair",
+        "roof storm damage repair",
+        "siding storm damage repair",
+        "wind damage repair contractor",
+        "storm damage rebuild"
       ],
-      "search_intent": "local_emergency",
+      "search_intent": "local_commercial",
       "target_word_count": 900,
       "image_roles": [
         "hero",
@@ -1048,15 +1387,15 @@
         "faq",
         "breadcrumb-list"
       ],
-      "priority": 6.3,
+      "priority": 4.9,
       "status": "planned",
       "internal_links_out": [
         "/services/storm-damage-restoration/",
         "/service-areas/huntsville-al/",
         "/service-areas/huntsville-al/home-remodeling/",
-        "/service-areas/huntsville-al/mold-remediation/",
+        "/service-areas/huntsville-al/roofing/",
         "/service-areas/athens-al/storm-damage-restoration/",
-        "/service-areas/madison-al/storm-damage-restoration/",
+        "/service-areas/harvest-al/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1069,14 +1408,14 @@
       ],
       "title": "Mold Remediation in Huntsville, AL | Davis Construction Contractors",
       "h1": "Mold Remediation in Huntsville",
-      "meta_description": "24/7 mold remediation in Huntsville, AL. IICRC-certified, insurance billing accepted. Call (256) 771-0326.",
+      "meta_description": "Trusted mold remediation in Huntsville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
       "primary_keyword": "mold remediation huntsville",
       "secondary_keywords": [
         "mold removal",
-        "black mold remediation",
-        "mold abatement",
-        "mold containment",
-        "mold cleanup"
+        "mold remediation contractor",
+        "mold repair and rebuild",
+        "mold-safe renovation",
+        "post-remediation reconstruction"
       ],
       "search_intent": "local_health",
       "target_word_count": 900,
@@ -1092,7 +1431,7 @@
         "faq",
         "breadcrumb-list"
       ],
-      "priority": 7.0,
+      "priority": 4.9,
       "status": "planned",
       "internal_links_out": [
         "/services/mold-remediation/",
@@ -1100,7 +1439,7 @@
         "/service-areas/huntsville-al/home-remodeling/",
         "/service-areas/huntsville-al/roofing/",
         "/service-areas/athens-al/mold-remediation/",
-        "/service-areas/madison-al/mold-remediation/",
+        "/service-areas/harvest-al/mold-remediation/",
         "/contact/"
       ]
     },
@@ -1113,14 +1452,14 @@
       ],
       "title": "Home Remodeling in Athens, AL | Davis Construction Contractors",
       "h1": "Home Remodeling in Athens",
-      "meta_description": "24/7 home remodeling in Athens, AL. IICRC-certified, insurance billing accepted. Call (256) 771-0326.",
+      "meta_description": "Trusted home remodeling in Athens, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
       "primary_keyword": "home remodeling athens",
       "secondary_keywords": [
         "home renovation",
-        "kitchen remodel",
-        "bathroom remodel",
         "whole home remodel",
-        "interior remodeling contractor"
+        "interior remodeling contractor",
+        "house renovation contractor",
+        "remodeling company"
       ],
       "search_intent": "local_commercial",
       "target_word_count": 900,
@@ -1141,10 +1480,10 @@
       "internal_links_out": [
         "/services/home-remodeling/",
         "/service-areas/athens-al/",
-        "/service-areas/athens-al/mold-remediation/",
         "/service-areas/athens-al/roofing/",
-        "/service-areas/huntsville-al/home-remodeling/",
-        "/service-areas/madison-al/home-remodeling/",
+        "/service-areas/athens-al/decks-pergolas-fences/",
+        "/service-areas/harvest-al/home-remodeling/",
+        "/service-areas/hazel-green-al/home-remodeling/",
         "/contact/"
       ]
     },
@@ -1157,7 +1496,7 @@
       ],
       "title": "New Home Construction in Athens, AL | Davis Construction Contractors",
       "h1": "New Home Construction in Athens",
-      "meta_description": "24/7 new home construction in Athens, AL. IICRC-certified, insurance billing accepted. Call (256) 771-0326.",
+      "meta_description": "Trusted new home construction in Athens, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
       "primary_keyword": "new home construction athens",
       "secondary_keywords": [
         "custom home builder",
@@ -1186,9 +1525,9 @@
         "/services/new-construction/",
         "/service-areas/athens-al/",
         "/service-areas/athens-al/home-remodeling/",
-        "/service-areas/athens-al/mold-remediation/",
-        "/service-areas/huntsville-al/new-construction/",
-        "/service-areas/madison-al/new-construction/",
+        "/service-areas/athens-al/roofing/",
+        "/service-areas/harvest-al/new-construction/",
+        "/service-areas/hazel-green-al/new-construction/",
         "/contact/"
       ]
     },
@@ -1201,7 +1540,7 @@
       ],
       "title": "Decks, Pergolas and Fences in Athens, AL | Davis Construction Contractors",
       "h1": "Decks, Pergolas and Fences in Athens",
-      "meta_description": "24/7 decks, pergolas and fences in Athens, AL. IICRC-certified, insurance billing accepted. Call (256) 771-0326.",
+      "meta_description": "Trusted decks, pergolas and fences in Athens, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
       "primary_keyword": "decks, pergolas and fences athens",
       "secondary_keywords": [
         "deck builder",
@@ -1230,9 +1569,9 @@
         "/services/decks-pergolas-fences/",
         "/service-areas/athens-al/",
         "/service-areas/athens-al/home-remodeling/",
-        "/service-areas/athens-al/mold-remediation/",
-        "/service-areas/huntsville-al/decks-pergolas-fences/",
-        "/service-areas/madison-al/decks-pergolas-fences/",
+        "/service-areas/athens-al/roofing/",
+        "/service-areas/harvest-al/decks-pergolas-fences/",
+        "/service-areas/hazel-green-al/decks-pergolas-fences/",
         "/contact/"
       ]
     },
@@ -1245,7 +1584,7 @@
       ],
       "title": "Roofing Installation and Replacement in Athens, AL | Davis Construction Contractors",
       "h1": "Roofing Installation and Replacement in Athens",
-      "meta_description": "24/7 roofing installation and replacement in Athens, AL. IICRC-certified, insurance billing accepted. Call (256) 771-0326.",
+      "meta_description": "Trusted roofing installation and replacement in Athens, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
       "primary_keyword": "roofing installation and replacement athens",
       "secondary_keywords": [
         "roofing contractor",
@@ -1274,9 +1613,9 @@
         "/services/roofing/",
         "/service-areas/athens-al/",
         "/service-areas/athens-al/home-remodeling/",
-        "/service-areas/athens-al/mold-remediation/",
-        "/service-areas/huntsville-al/roofing/",
-        "/service-areas/madison-al/roofing/",
+        "/service-areas/athens-al/decks-pergolas-fences/",
+        "/service-areas/harvest-al/roofing/",
+        "/service-areas/hazel-green-al/roofing/",
         "/contact/"
       ]
     },
@@ -1289,7 +1628,7 @@
       ],
       "title": "Siding and Gutters in Athens, AL | Davis Construction Contractors",
       "h1": "Siding and Gutters in Athens",
-      "meta_description": "24/7 siding and gutters in Athens, AL. IICRC-certified, insurance billing accepted. Call (256) 771-0326.",
+      "meta_description": "Trusted siding and gutters in Athens, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
       "primary_keyword": "siding and gutters athens",
       "secondary_keywords": [
         "siding contractor",
@@ -1318,9 +1657,9 @@
         "/services/siding-gutters/",
         "/service-areas/athens-al/",
         "/service-areas/athens-al/home-remodeling/",
-        "/service-areas/athens-al/mold-remediation/",
-        "/service-areas/huntsville-al/siding-gutters/",
-        "/service-areas/madison-al/siding-gutters/",
+        "/service-areas/athens-al/roofing/",
+        "/service-areas/harvest-al/siding-gutters/",
+        "/service-areas/hazel-green-al/siding-gutters/",
         "/contact/"
       ]
     },
@@ -1333,7 +1672,7 @@
       ],
       "title": "Painting and Trim in Athens, AL | Davis Construction Contractors",
       "h1": "Painting and Trim in Athens",
-      "meta_description": "24/7 painting and trim in Athens, AL. IICRC-certified, insurance billing accepted. Call (256) 771-0326.",
+      "meta_description": "Trusted painting and trim in Athens, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
       "primary_keyword": "painting and trim athens",
       "secondary_keywords": [
         "painting contractor",
@@ -1362,9 +1701,9 @@
         "/services/painting-trim/",
         "/service-areas/athens-al/",
         "/service-areas/athens-al/home-remodeling/",
-        "/service-areas/athens-al/mold-remediation/",
-        "/service-areas/huntsville-al/painting-trim/",
-        "/service-areas/madison-al/painting-trim/",
+        "/service-areas/athens-al/roofing/",
+        "/service-areas/harvest-al/painting-trim/",
+        "/service-areas/hazel-green-al/painting-trim/",
         "/contact/"
       ]
     },
@@ -1377,16 +1716,148 @@
       ],
       "title": "Water Damage Restoration in Athens, AL | Davis Construction Contractors",
       "h1": "Water Damage Restoration in Athens",
-      "meta_description": "24/7 water damage restoration in Athens, AL. IICRC-certified, insurance billing accepted. Call (256) 771-0326.",
+      "meta_description": "Trusted water damage restoration in Athens, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
       "primary_keyword": "water damage restoration athens",
       "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
+        "water damage repair",
+        "water damage rebuild",
+        "drywall water damage repair",
+        "ceiling water damage repair",
+        "post-leak renovation"
       ],
-      "search_intent": "local_emergency",
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/athens-al/",
+        "/service-areas/athens-al/home-remodeling/",
+        "/service-areas/athens-al/roofing/",
+        "/service-areas/harvest-al/water-damage-restoration/",
+        "/service-areas/hazel-green-al/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/athens-al/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Athens, AL | Davis Construction Contractors",
+      "h1": "Storm Damage Restoration in Athens",
+      "meta_description": "Trusted storm damage restoration in Athens, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "storm damage restoration athens",
+      "secondary_keywords": [
+        "storm damage repair",
+        "roof storm damage repair",
+        "siding storm damage repair",
+        "wind damage repair contractor",
+        "storm damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/athens-al/",
+        "/service-areas/athens-al/home-remodeling/",
+        "/service-areas/athens-al/roofing/",
+        "/service-areas/harvest-al/storm-damage-restoration/",
+        "/service-areas/hazel-green-al/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/athens-al/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Athens, AL | Davis Construction Contractors",
+      "h1": "Mold Remediation in Athens",
+      "meta_description": "Trusted mold remediation in Athens, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "mold remediation athens",
+      "secondary_keywords": [
+        "mold removal",
+        "mold remediation contractor",
+        "mold repair and rebuild",
+        "mold-safe renovation",
+        "post-remediation reconstruction"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/athens-al/",
+        "/service-areas/athens-al/home-remodeling/",
+        "/service-areas/athens-al/roofing/",
+        "/service-areas/harvest-al/mold-remediation/",
+        "/service-areas/hazel-green-al/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/moores-mill-al/home-remodeling/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Home Remodeling in Moores Mill, AL | Davis Construction Contractors",
+      "h1": "Home Remodeling in Moores Mill",
+      "meta_description": "Trusted home remodeling in Moores Mill, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "home remodeling moores mill",
+      "secondary_keywords": [
+        "home renovation",
+        "whole home remodel",
+        "interior remodeling contractor",
+        "house renovation contractor",
+        "remodeling company"
+      ],
+      "search_intent": "local_commercial",
       "target_word_count": 900,
       "image_roles": [
         "hero",
@@ -1403,34 +1874,34 @@
       "priority": 7.0,
       "status": "planned",
       "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/athens-al/",
+        "/services/home-remodeling/",
+        "/service-areas/moores-mill-al/",
+        "/service-areas/moores-mill-al/roofing/",
+        "/service-areas/moores-mill-al/decks-pergolas-fences/",
         "/service-areas/athens-al/home-remodeling/",
-        "/service-areas/athens-al/mold-remediation/",
-        "/service-areas/huntsville-al/water-damage-restoration/",
-        "/service-areas/madison-al/water-damage-restoration/",
+        "/service-areas/harvest-al/home-remodeling/",
         "/contact/"
       ]
     },
     {
-      "url_path": "/service-areas/athens-al/storm-damage-restoration/",
+      "url_path": "/service-areas/moores-mill-al/new-construction/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Storm Damage Restoration in Athens, AL | Davis Construction Contractors",
-      "h1": "Storm Damage Restoration in Athens",
-      "meta_description": "24/7 storm damage restoration in Athens, AL. IICRC-certified, insurance billing accepted. Call (256) 771-0326.",
-      "primary_keyword": "storm damage restoration athens",
+      "title": "New Home Construction in Moores Mill, AL | Davis Construction Contractors",
+      "h1": "New Home Construction in Moores Mill",
+      "meta_description": "Trusted new home construction in Moores Mill, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "new home construction moores mill",
       "secondary_keywords": [
-        "hurricane damage cleanup",
-        "tornado damage cleanup",
-        "tree damage cleanup",
-        "storm cleanup services",
-        "severe weather damage repair"
+        "custom home builder",
+        "new home builder",
+        "build a house",
+        "residential construction",
+        "ground-up construction"
       ],
-      "search_intent": "local_emergency",
+      "search_intent": "local_commercial",
       "target_word_count": 900,
       "image_roles": [
         "hero",
@@ -1447,34 +1918,78 @@
       "priority": 6.3,
       "status": "planned",
       "internal_links_out": [
-        "/services/storm-damage-restoration/",
-        "/service-areas/athens-al/",
-        "/service-areas/athens-al/home-remodeling/",
-        "/service-areas/athens-al/mold-remediation/",
-        "/service-areas/huntsville-al/storm-damage-restoration/",
-        "/service-areas/madison-al/storm-damage-restoration/",
+        "/services/new-construction/",
+        "/service-areas/moores-mill-al/",
+        "/service-areas/moores-mill-al/home-remodeling/",
+        "/service-areas/moores-mill-al/roofing/",
+        "/service-areas/athens-al/new-construction/",
+        "/service-areas/harvest-al/new-construction/",
         "/contact/"
       ]
     },
     {
-      "url_path": "/service-areas/athens-al/mold-remediation/",
+      "url_path": "/service-areas/moores-mill-al/decks-pergolas-fences/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Mold Remediation in Athens, AL | Davis Construction Contractors",
-      "h1": "Mold Remediation in Athens",
-      "meta_description": "24/7 mold remediation in Athens, AL. IICRC-certified, insurance billing accepted. Call (256) 771-0326.",
-      "primary_keyword": "mold remediation athens",
+      "title": "Decks, Pergolas and Fences in Moores Mill, AL | Davis Construction Contractors",
+      "h1": "Decks, Pergolas and Fences in Moores Mill",
+      "meta_description": "Trusted decks, pergolas and fences in Moores Mill, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "decks, pergolas and fences moores mill",
       "secondary_keywords": [
-        "mold removal",
-        "black mold remediation",
-        "mold abatement",
-        "mold containment",
-        "mold cleanup"
+        "deck builder",
+        "deck installation",
+        "pergola builder",
+        "fence installation",
+        "outdoor structure contractor"
       ],
-      "search_intent": "local_health",
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/decks-pergolas-fences/",
+        "/service-areas/moores-mill-al/",
+        "/service-areas/moores-mill-al/home-remodeling/",
+        "/service-areas/moores-mill-al/roofing/",
+        "/service-areas/athens-al/decks-pergolas-fences/",
+        "/service-areas/harvest-al/decks-pergolas-fences/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/moores-mill-al/roofing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Roofing Installation and Replacement in Moores Mill, AL | Davis Construction Contractors",
+      "h1": "Roofing Installation and Replacement in Moores Mill",
+      "meta_description": "Trusted roofing installation and replacement in Moores Mill, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "roofing installation and replacement moores mill",
+      "secondary_keywords": [
+        "roofing contractor",
+        "roof replacement",
+        "new roof installation",
+        "residential roofing",
+        "roof repair"
+      ],
+      "search_intent": "local_commercial",
       "target_word_count": 900,
       "image_roles": [
         "hero",
@@ -1491,30 +2006,35 @@
       "priority": 7.0,
       "status": "planned",
       "internal_links_out": [
-        "/services/mold-remediation/",
-        "/service-areas/athens-al/",
-        "/service-areas/athens-al/home-remodeling/",
+        "/services/roofing/",
+        "/service-areas/moores-mill-al/",
+        "/service-areas/moores-mill-al/home-remodeling/",
+        "/service-areas/moores-mill-al/decks-pergolas-fences/",
         "/service-areas/athens-al/roofing/",
-        "/service-areas/huntsville-al/mold-remediation/",
-        "/service-areas/madison-al/mold-remediation/",
+        "/service-areas/harvest-al/roofing/",
         "/contact/"
       ]
     },
     {
-      "url_path": "/blog/what-to-do-first-24-hours-water-damage/",
-      "archetype": "blog-post",
+      "url_path": "/service-areas/moores-mill-al/siding-gutters/",
+      "archetype": "service-area-service",
       "vars_keys": [
-        "post"
+        "area",
+        "service"
       ],
-      "title": "What To Do in the First 24 Hours After Water Damage",
-      "h1": "What To Do in the First 24 Hours After Water Damage",
-      "meta_description": "",
-      "primary_keyword": "what to do in the first 24 hours after water damage",
+      "title": "Siding and Gutters in Moores Mill, AL | Davis Construction Contractors",
+      "h1": "Siding and Gutters in Moores Mill",
+      "meta_description": "Trusted siding and gutters in Moores Mill, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "siding and gutters moores mill",
       "secondary_keywords": [
-        "water damage restoration"
+        "siding contractor",
+        "siding installation",
+        "siding replacement",
+        "gutter installation",
+        "exterior contractor"
       ],
-      "search_intent": "informational_emergency",
-      "target_word_count": 1400,
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
       "image_roles": [
         "hero",
         "og",
@@ -1522,36 +2042,43 @@
         "inline-2"
       ],
       "schema_stubs": [
-        "blog-posting",
+        "service",
+        "local-business",
         "faq",
         "breadcrumb-list"
       ],
-      "priority": 6.0,
+      "priority": 5.6,
       "status": "planned",
       "internal_links_out": [
-        "/blog/",
-        "/services/water-damage-restoration/",
-        "/blog/burst-pipe-emergency-checklist/",
-        "/blog/choosing-a-restoration-company/",
-        "/blog/does-homeowners-insurance-cover-water-damage/"
+        "/services/siding-gutters/",
+        "/service-areas/moores-mill-al/",
+        "/service-areas/moores-mill-al/home-remodeling/",
+        "/service-areas/moores-mill-al/roofing/",
+        "/service-areas/athens-al/siding-gutters/",
+        "/service-areas/harvest-al/siding-gutters/",
+        "/contact/"
       ]
     },
     {
-      "url_path": "/blog/burst-pipe-emergency-checklist/",
-      "archetype": "blog-post",
+      "url_path": "/service-areas/moores-mill-al/painting-trim/",
+      "archetype": "service-area-service",
       "vars_keys": [
-        "post"
+        "area",
+        "service"
       ],
-      "title": "Burst Pipe Emergency Checklist: Step-by-Step Response",
-      "h1": "Burst Pipe Emergency Checklist: Step-by-Step Response",
-      "meta_description": "",
-      "primary_keyword": "burst pipe emergency checklist stepbystep response",
+      "title": "Painting and Trim in Moores Mill, AL | Davis Construction Contractors",
+      "h1": "Painting and Trim in Moores Mill",
+      "meta_description": "Trusted painting and trim in Moores Mill, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "painting and trim moores mill",
       "secondary_keywords": [
-        "water damage restoration",
-        "appliance leak cleanup"
+        "painting contractor",
+        "interior painting",
+        "exterior painting",
+        "house painter",
+        "trim painting"
       ],
-      "search_intent": "informational_emergency",
-      "target_word_count": 1400,
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
       "image_roles": [
         "hero",
         "og",
@@ -1559,35 +2086,43 @@
         "inline-2"
       ],
       "schema_stubs": [
-        "blog-posting",
+        "service",
+        "local-business",
         "faq",
         "breadcrumb-list"
       ],
-      "priority": 6.0,
+      "priority": 4.9,
       "status": "planned",
       "internal_links_out": [
-        "/blog/",
-        "/services/water-damage-restoration/",
-        "/blog/what-to-do-first-24-hours-water-damage/",
-        "/blog/choosing-a-restoration-company/",
-        "/blog/does-homeowners-insurance-cover-water-damage/"
+        "/services/painting-trim/",
+        "/service-areas/moores-mill-al/",
+        "/service-areas/moores-mill-al/home-remodeling/",
+        "/service-areas/moores-mill-al/roofing/",
+        "/service-areas/athens-al/painting-trim/",
+        "/service-areas/harvest-al/painting-trim/",
+        "/contact/"
       ]
     },
     {
-      "url_path": "/blog/does-homeowners-insurance-cover-water-damage/",
-      "archetype": "blog-post",
+      "url_path": "/service-areas/moores-mill-al/water-damage-restoration/",
+      "archetype": "service-area-service",
       "vars_keys": [
-        "post"
+        "area",
+        "service"
       ],
-      "title": "Does Homeowners Insurance Cover Water Damage? A Plain-English Guide",
-      "h1": "Does Homeowners Insurance Cover Water Damage? A Plain-English Guide",
-      "meta_description": "",
-      "primary_keyword": "does homeowners insurance cover water damage a plainenglish guide",
+      "title": "Water Damage Restoration in Moores Mill, AL | Davis Construction Contractors",
+      "h1": "Water Damage Restoration in Moores Mill",
+      "meta_description": "Trusted water damage restoration in Moores Mill, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "water damage restoration moores mill",
       "secondary_keywords": [
-        "water damage restoration"
+        "water damage repair",
+        "water damage rebuild",
+        "drywall water damage repair",
+        "ceiling water damage repair",
+        "post-leak renovation"
       ],
-      "search_intent": "informational_insurance",
-      "target_word_count": 1400,
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
       "image_roles": [
         "hero",
         "og",
@@ -1595,35 +2130,43 @@
         "inline-2"
       ],
       "schema_stubs": [
-        "blog-posting",
+        "service",
+        "local-business",
         "faq",
         "breadcrumb-list"
       ],
-      "priority": 5.4,
+      "priority": 4.9,
       "status": "planned",
       "internal_links_out": [
-        "/blog/",
         "/services/water-damage-restoration/",
-        "/blog/burst-pipe-emergency-checklist/",
-        "/blog/what-to-do-first-24-hours-water-damage/",
-        "/blog/choosing-a-restoration-company/"
+        "/service-areas/moores-mill-al/",
+        "/service-areas/moores-mill-al/home-remodeling/",
+        "/service-areas/moores-mill-al/roofing/",
+        "/service-areas/athens-al/water-damage-restoration/",
+        "/service-areas/harvest-al/water-damage-restoration/",
+        "/contact/"
       ]
     },
     {
-      "url_path": "/blog/signs-of-hidden-mold/",
-      "archetype": "blog-post",
+      "url_path": "/service-areas/moores-mill-al/storm-damage-restoration/",
+      "archetype": "service-area-service",
       "vars_keys": [
-        "post"
+        "area",
+        "service"
       ],
-      "title": "7 Signs You Have Hidden Mold (and What To Do Next)",
-      "h1": "7 Signs You Have Hidden Mold (and What To Do Next)",
-      "meta_description": "",
-      "primary_keyword": "7 signs you have hidden mold and what to do next",
+      "title": "Storm Damage Restoration in Moores Mill, AL | Davis Construction Contractors",
+      "h1": "Storm Damage Restoration in Moores Mill",
+      "meta_description": "Trusted storm damage restoration in Moores Mill, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "storm damage restoration moores mill",
       "secondary_keywords": [
-        "mold remediation"
+        "storm damage repair",
+        "roof storm damage repair",
+        "siding storm damage repair",
+        "wind damage repair contractor",
+        "storm damage rebuild"
       ],
-      "search_intent": "informational_health",
-      "target_word_count": 1400,
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
       "image_roles": [
         "hero",
         "og",
@@ -1631,34 +2174,2136 @@
         "inline-2"
       ],
       "schema_stubs": [
-        "blog-posting",
+        "service",
+        "local-business",
         "faq",
         "breadcrumb-list"
       ],
-      "priority": 5.4,
+      "priority": 4.9,
       "status": "planned",
       "internal_links_out": [
-        "/blog/",
+        "/services/storm-damage-restoration/",
+        "/service-areas/moores-mill-al/",
+        "/service-areas/moores-mill-al/home-remodeling/",
+        "/service-areas/moores-mill-al/roofing/",
+        "/service-areas/athens-al/storm-damage-restoration/",
+        "/service-areas/harvest-al/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/moores-mill-al/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Moores Mill, AL | Davis Construction Contractors",
+      "h1": "Mold Remediation in Moores Mill",
+      "meta_description": "Trusted mold remediation in Moores Mill, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "mold remediation moores mill",
+      "secondary_keywords": [
+        "mold removal",
+        "mold remediation contractor",
+        "mold repair and rebuild",
+        "mold-safe renovation",
+        "post-remediation reconstruction"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
         "/services/mold-remediation/",
-        "/blog/choosing-a-restoration-company/",
-        "/blog/black-mold-vs-regular-mold/",
-        "/blog/mold-after-water-damage/"
+        "/service-areas/moores-mill-al/",
+        "/service-areas/moores-mill-al/home-remodeling/",
+        "/service-areas/moores-mill-al/roofing/",
+        "/service-areas/athens-al/mold-remediation/",
+        "/service-areas/harvest-al/mold-remediation/",
+        "/contact/"
       ]
     },
     {
-      "url_path": "/blog/choosing-a-restoration-company/",
+      "url_path": "/service-areas/redstone-arsenal-al/home-remodeling/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Home Remodeling in Redstone Arsenal, AL | Davis Construction Contractors",
+      "h1": "Home Remodeling in Redstone Arsenal",
+      "meta_description": "Trusted home remodeling in Redstone Arsenal, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "home remodeling redstone arsenal",
+      "secondary_keywords": [
+        "home renovation",
+        "whole home remodel",
+        "interior remodeling contractor",
+        "house renovation contractor",
+        "remodeling company"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/home-remodeling/",
+        "/service-areas/redstone-arsenal-al/",
+        "/service-areas/redstone-arsenal-al/roofing/",
+        "/service-areas/redstone-arsenal-al/decks-pergolas-fences/",
+        "/service-areas/athens-al/home-remodeling/",
+        "/service-areas/harvest-al/home-remodeling/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/redstone-arsenal-al/new-construction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "New Home Construction in Redstone Arsenal, AL | Davis Construction Contractors",
+      "h1": "New Home Construction in Redstone Arsenal",
+      "meta_description": "Trusted new home construction in Redstone Arsenal, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "new home construction redstone arsenal",
+      "secondary_keywords": [
+        "custom home builder",
+        "new home builder",
+        "build a house",
+        "residential construction",
+        "ground-up construction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/new-construction/",
+        "/service-areas/redstone-arsenal-al/",
+        "/service-areas/redstone-arsenal-al/home-remodeling/",
+        "/service-areas/redstone-arsenal-al/roofing/",
+        "/service-areas/athens-al/new-construction/",
+        "/service-areas/harvest-al/new-construction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/redstone-arsenal-al/decks-pergolas-fences/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Decks, Pergolas and Fences in Redstone Arsenal, AL | Davis Construction Contractors",
+      "h1": "Decks, Pergolas and Fences in Redstone Arsenal",
+      "meta_description": "Trusted decks, pergolas and fences in Redstone Arsenal, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "decks, pergolas and fences redstone arsenal",
+      "secondary_keywords": [
+        "deck builder",
+        "deck installation",
+        "pergola builder",
+        "fence installation",
+        "outdoor structure contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/decks-pergolas-fences/",
+        "/service-areas/redstone-arsenal-al/",
+        "/service-areas/redstone-arsenal-al/home-remodeling/",
+        "/service-areas/redstone-arsenal-al/roofing/",
+        "/service-areas/athens-al/decks-pergolas-fences/",
+        "/service-areas/harvest-al/decks-pergolas-fences/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/redstone-arsenal-al/roofing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Roofing Installation and Replacement in Redstone Arsenal, AL | Davis Construction Contractors",
+      "h1": "Roofing Installation and Replacement in Redstone Arsenal",
+      "meta_description": "Trusted roofing installation and replacement in Redstone Arsenal, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "roofing installation and replacement redstone arsenal",
+      "secondary_keywords": [
+        "roofing contractor",
+        "roof replacement",
+        "new roof installation",
+        "residential roofing",
+        "roof repair"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/roofing/",
+        "/service-areas/redstone-arsenal-al/",
+        "/service-areas/redstone-arsenal-al/home-remodeling/",
+        "/service-areas/redstone-arsenal-al/decks-pergolas-fences/",
+        "/service-areas/athens-al/roofing/",
+        "/service-areas/harvest-al/roofing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/redstone-arsenal-al/siding-gutters/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Siding and Gutters in Redstone Arsenal, AL | Davis Construction Contractors",
+      "h1": "Siding and Gutters in Redstone Arsenal",
+      "meta_description": "Trusted siding and gutters in Redstone Arsenal, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "siding and gutters redstone arsenal",
+      "secondary_keywords": [
+        "siding contractor",
+        "siding installation",
+        "siding replacement",
+        "gutter installation",
+        "exterior contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/siding-gutters/",
+        "/service-areas/redstone-arsenal-al/",
+        "/service-areas/redstone-arsenal-al/home-remodeling/",
+        "/service-areas/redstone-arsenal-al/roofing/",
+        "/service-areas/athens-al/siding-gutters/",
+        "/service-areas/harvest-al/siding-gutters/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/redstone-arsenal-al/painting-trim/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Painting and Trim in Redstone Arsenal, AL | Davis Construction Contractors",
+      "h1": "Painting and Trim in Redstone Arsenal",
+      "meta_description": "Trusted painting and trim in Redstone Arsenal, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "painting and trim redstone arsenal",
+      "secondary_keywords": [
+        "painting contractor",
+        "interior painting",
+        "exterior painting",
+        "house painter",
+        "trim painting"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/painting-trim/",
+        "/service-areas/redstone-arsenal-al/",
+        "/service-areas/redstone-arsenal-al/home-remodeling/",
+        "/service-areas/redstone-arsenal-al/roofing/",
+        "/service-areas/athens-al/painting-trim/",
+        "/service-areas/harvest-al/painting-trim/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/redstone-arsenal-al/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Redstone Arsenal, AL | Davis Construction Contractors",
+      "h1": "Water Damage Restoration in Redstone Arsenal",
+      "meta_description": "Trusted water damage restoration in Redstone Arsenal, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "water damage restoration redstone arsenal",
+      "secondary_keywords": [
+        "water damage repair",
+        "water damage rebuild",
+        "drywall water damage repair",
+        "ceiling water damage repair",
+        "post-leak renovation"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/redstone-arsenal-al/",
+        "/service-areas/redstone-arsenal-al/home-remodeling/",
+        "/service-areas/redstone-arsenal-al/roofing/",
+        "/service-areas/athens-al/water-damage-restoration/",
+        "/service-areas/harvest-al/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/redstone-arsenal-al/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Redstone Arsenal, AL | Davis Construction Contractors",
+      "h1": "Storm Damage Restoration in Redstone Arsenal",
+      "meta_description": "Trusted storm damage restoration in Redstone Arsenal, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "storm damage restoration redstone arsenal",
+      "secondary_keywords": [
+        "storm damage repair",
+        "roof storm damage repair",
+        "siding storm damage repair",
+        "wind damage repair contractor",
+        "storm damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/redstone-arsenal-al/",
+        "/service-areas/redstone-arsenal-al/home-remodeling/",
+        "/service-areas/redstone-arsenal-al/roofing/",
+        "/service-areas/athens-al/storm-damage-restoration/",
+        "/service-areas/harvest-al/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/redstone-arsenal-al/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Redstone Arsenal, AL | Davis Construction Contractors",
+      "h1": "Mold Remediation in Redstone Arsenal",
+      "meta_description": "Trusted mold remediation in Redstone Arsenal, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "mold remediation redstone arsenal",
+      "secondary_keywords": [
+        "mold removal",
+        "mold remediation contractor",
+        "mold repair and rebuild",
+        "mold-safe renovation",
+        "post-remediation reconstruction"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/redstone-arsenal-al/",
+        "/service-areas/redstone-arsenal-al/home-remodeling/",
+        "/service-areas/redstone-arsenal-al/roofing/",
+        "/service-areas/athens-al/mold-remediation/",
+        "/service-areas/harvest-al/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/meridianville-al/home-remodeling/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Home Remodeling in Meridianville, AL | Davis Construction Contractors",
+      "h1": "Home Remodeling in Meridianville",
+      "meta_description": "Trusted home remodeling in Meridianville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "home remodeling meridianville",
+      "secondary_keywords": [
+        "home renovation",
+        "whole home remodel",
+        "interior remodeling contractor",
+        "house renovation contractor",
+        "remodeling company"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/home-remodeling/",
+        "/service-areas/meridianville-al/",
+        "/service-areas/meridianville-al/roofing/",
+        "/service-areas/meridianville-al/decks-pergolas-fences/",
+        "/service-areas/athens-al/home-remodeling/",
+        "/service-areas/harvest-al/home-remodeling/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/meridianville-al/new-construction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "New Home Construction in Meridianville, AL | Davis Construction Contractors",
+      "h1": "New Home Construction in Meridianville",
+      "meta_description": "Trusted new home construction in Meridianville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "new home construction meridianville",
+      "secondary_keywords": [
+        "custom home builder",
+        "new home builder",
+        "build a house",
+        "residential construction",
+        "ground-up construction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/new-construction/",
+        "/service-areas/meridianville-al/",
+        "/service-areas/meridianville-al/home-remodeling/",
+        "/service-areas/meridianville-al/roofing/",
+        "/service-areas/athens-al/new-construction/",
+        "/service-areas/harvest-al/new-construction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/meridianville-al/decks-pergolas-fences/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Decks, Pergolas and Fences in Meridianville, AL | Davis Construction Contractors",
+      "h1": "Decks, Pergolas and Fences in Meridianville",
+      "meta_description": "Trusted decks, pergolas and fences in Meridianville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "decks, pergolas and fences meridianville",
+      "secondary_keywords": [
+        "deck builder",
+        "deck installation",
+        "pergola builder",
+        "fence installation",
+        "outdoor structure contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/decks-pergolas-fences/",
+        "/service-areas/meridianville-al/",
+        "/service-areas/meridianville-al/home-remodeling/",
+        "/service-areas/meridianville-al/roofing/",
+        "/service-areas/athens-al/decks-pergolas-fences/",
+        "/service-areas/harvest-al/decks-pergolas-fences/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/meridianville-al/roofing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Roofing Installation and Replacement in Meridianville, AL | Davis Construction Contractors",
+      "h1": "Roofing Installation and Replacement in Meridianville",
+      "meta_description": "Trusted roofing installation and replacement in Meridianville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "roofing installation and replacement meridianville",
+      "secondary_keywords": [
+        "roofing contractor",
+        "roof replacement",
+        "new roof installation",
+        "residential roofing",
+        "roof repair"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/roofing/",
+        "/service-areas/meridianville-al/",
+        "/service-areas/meridianville-al/home-remodeling/",
+        "/service-areas/meridianville-al/decks-pergolas-fences/",
+        "/service-areas/athens-al/roofing/",
+        "/service-areas/harvest-al/roofing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/meridianville-al/siding-gutters/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Siding and Gutters in Meridianville, AL | Davis Construction Contractors",
+      "h1": "Siding and Gutters in Meridianville",
+      "meta_description": "Trusted siding and gutters in Meridianville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "siding and gutters meridianville",
+      "secondary_keywords": [
+        "siding contractor",
+        "siding installation",
+        "siding replacement",
+        "gutter installation",
+        "exterior contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/siding-gutters/",
+        "/service-areas/meridianville-al/",
+        "/service-areas/meridianville-al/home-remodeling/",
+        "/service-areas/meridianville-al/roofing/",
+        "/service-areas/athens-al/siding-gutters/",
+        "/service-areas/harvest-al/siding-gutters/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/meridianville-al/painting-trim/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Painting and Trim in Meridianville, AL | Davis Construction Contractors",
+      "h1": "Painting and Trim in Meridianville",
+      "meta_description": "Trusted painting and trim in Meridianville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "painting and trim meridianville",
+      "secondary_keywords": [
+        "painting contractor",
+        "interior painting",
+        "exterior painting",
+        "house painter",
+        "trim painting"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/painting-trim/",
+        "/service-areas/meridianville-al/",
+        "/service-areas/meridianville-al/home-remodeling/",
+        "/service-areas/meridianville-al/roofing/",
+        "/service-areas/athens-al/painting-trim/",
+        "/service-areas/harvest-al/painting-trim/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/meridianville-al/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Meridianville, AL | Davis Construction Contractors",
+      "h1": "Water Damage Restoration in Meridianville",
+      "meta_description": "Trusted water damage restoration in Meridianville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "water damage restoration meridianville",
+      "secondary_keywords": [
+        "water damage repair",
+        "water damage rebuild",
+        "drywall water damage repair",
+        "ceiling water damage repair",
+        "post-leak renovation"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/meridianville-al/",
+        "/service-areas/meridianville-al/home-remodeling/",
+        "/service-areas/meridianville-al/roofing/",
+        "/service-areas/athens-al/water-damage-restoration/",
+        "/service-areas/harvest-al/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/meridianville-al/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Meridianville, AL | Davis Construction Contractors",
+      "h1": "Storm Damage Restoration in Meridianville",
+      "meta_description": "Trusted storm damage restoration in Meridianville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "storm damage restoration meridianville",
+      "secondary_keywords": [
+        "storm damage repair",
+        "roof storm damage repair",
+        "siding storm damage repair",
+        "wind damage repair contractor",
+        "storm damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/meridianville-al/",
+        "/service-areas/meridianville-al/home-remodeling/",
+        "/service-areas/meridianville-al/roofing/",
+        "/service-areas/athens-al/storm-damage-restoration/",
+        "/service-areas/harvest-al/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/meridianville-al/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Meridianville, AL | Davis Construction Contractors",
+      "h1": "Mold Remediation in Meridianville",
+      "meta_description": "Trusted mold remediation in Meridianville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "mold remediation meridianville",
+      "secondary_keywords": [
+        "mold removal",
+        "mold remediation contractor",
+        "mold repair and rebuild",
+        "mold-safe renovation",
+        "post-remediation reconstruction"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/meridianville-al/",
+        "/service-areas/meridianville-al/home-remodeling/",
+        "/service-areas/meridianville-al/roofing/",
+        "/service-areas/athens-al/mold-remediation/",
+        "/service-areas/harvest-al/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hazel-green-al/home-remodeling/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Home Remodeling in Hazel Green, AL | Davis Construction Contractors",
+      "h1": "Home Remodeling in Hazel Green",
+      "meta_description": "Trusted home remodeling in Hazel Green, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "home remodeling hazel green",
+      "secondary_keywords": [
+        "home renovation",
+        "whole home remodel",
+        "interior remodeling contractor",
+        "house renovation contractor",
+        "remodeling company"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/home-remodeling/",
+        "/service-areas/hazel-green-al/",
+        "/service-areas/hazel-green-al/roofing/",
+        "/service-areas/hazel-green-al/decks-pergolas-fences/",
+        "/service-areas/athens-al/home-remodeling/",
+        "/service-areas/harvest-al/home-remodeling/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hazel-green-al/new-construction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "New Home Construction in Hazel Green, AL | Davis Construction Contractors",
+      "h1": "New Home Construction in Hazel Green",
+      "meta_description": "Trusted new home construction in Hazel Green, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "new home construction hazel green",
+      "secondary_keywords": [
+        "custom home builder",
+        "new home builder",
+        "build a house",
+        "residential construction",
+        "ground-up construction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/new-construction/",
+        "/service-areas/hazel-green-al/",
+        "/service-areas/hazel-green-al/home-remodeling/",
+        "/service-areas/hazel-green-al/roofing/",
+        "/service-areas/athens-al/new-construction/",
+        "/service-areas/harvest-al/new-construction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hazel-green-al/decks-pergolas-fences/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Decks, Pergolas and Fences in Hazel Green, AL | Davis Construction Contractors",
+      "h1": "Decks, Pergolas and Fences in Hazel Green",
+      "meta_description": "Trusted decks, pergolas and fences in Hazel Green, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "decks, pergolas and fences hazel green",
+      "secondary_keywords": [
+        "deck builder",
+        "deck installation",
+        "pergola builder",
+        "fence installation",
+        "outdoor structure contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/decks-pergolas-fences/",
+        "/service-areas/hazel-green-al/",
+        "/service-areas/hazel-green-al/home-remodeling/",
+        "/service-areas/hazel-green-al/roofing/",
+        "/service-areas/athens-al/decks-pergolas-fences/",
+        "/service-areas/harvest-al/decks-pergolas-fences/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hazel-green-al/roofing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Roofing Installation and Replacement in Hazel Green, AL | Davis Construction Contractors",
+      "h1": "Roofing Installation and Replacement in Hazel Green",
+      "meta_description": "Trusted roofing installation and replacement in Hazel Green, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "roofing installation and replacement hazel green",
+      "secondary_keywords": [
+        "roofing contractor",
+        "roof replacement",
+        "new roof installation",
+        "residential roofing",
+        "roof repair"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/roofing/",
+        "/service-areas/hazel-green-al/",
+        "/service-areas/hazel-green-al/home-remodeling/",
+        "/service-areas/hazel-green-al/decks-pergolas-fences/",
+        "/service-areas/athens-al/roofing/",
+        "/service-areas/harvest-al/roofing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hazel-green-al/siding-gutters/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Siding and Gutters in Hazel Green, AL | Davis Construction Contractors",
+      "h1": "Siding and Gutters in Hazel Green",
+      "meta_description": "Trusted siding and gutters in Hazel Green, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "siding and gutters hazel green",
+      "secondary_keywords": [
+        "siding contractor",
+        "siding installation",
+        "siding replacement",
+        "gutter installation",
+        "exterior contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/siding-gutters/",
+        "/service-areas/hazel-green-al/",
+        "/service-areas/hazel-green-al/home-remodeling/",
+        "/service-areas/hazel-green-al/roofing/",
+        "/service-areas/athens-al/siding-gutters/",
+        "/service-areas/harvest-al/siding-gutters/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hazel-green-al/painting-trim/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Painting and Trim in Hazel Green, AL | Davis Construction Contractors",
+      "h1": "Painting and Trim in Hazel Green",
+      "meta_description": "Trusted painting and trim in Hazel Green, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "painting and trim hazel green",
+      "secondary_keywords": [
+        "painting contractor",
+        "interior painting",
+        "exterior painting",
+        "house painter",
+        "trim painting"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/painting-trim/",
+        "/service-areas/hazel-green-al/",
+        "/service-areas/hazel-green-al/home-remodeling/",
+        "/service-areas/hazel-green-al/roofing/",
+        "/service-areas/athens-al/painting-trim/",
+        "/service-areas/harvest-al/painting-trim/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hazel-green-al/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Hazel Green, AL | Davis Construction Contractors",
+      "h1": "Water Damage Restoration in Hazel Green",
+      "meta_description": "Trusted water damage restoration in Hazel Green, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "water damage restoration hazel green",
+      "secondary_keywords": [
+        "water damage repair",
+        "water damage rebuild",
+        "drywall water damage repair",
+        "ceiling water damage repair",
+        "post-leak renovation"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/hazel-green-al/",
+        "/service-areas/hazel-green-al/home-remodeling/",
+        "/service-areas/hazel-green-al/roofing/",
+        "/service-areas/athens-al/water-damage-restoration/",
+        "/service-areas/harvest-al/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hazel-green-al/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Hazel Green, AL | Davis Construction Contractors",
+      "h1": "Storm Damage Restoration in Hazel Green",
+      "meta_description": "Trusted storm damage restoration in Hazel Green, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "storm damage restoration hazel green",
+      "secondary_keywords": [
+        "storm damage repair",
+        "roof storm damage repair",
+        "siding storm damage repair",
+        "wind damage repair contractor",
+        "storm damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/hazel-green-al/",
+        "/service-areas/hazel-green-al/home-remodeling/",
+        "/service-areas/hazel-green-al/roofing/",
+        "/service-areas/athens-al/storm-damage-restoration/",
+        "/service-areas/harvest-al/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hazel-green-al/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Hazel Green, AL | Davis Construction Contractors",
+      "h1": "Mold Remediation in Hazel Green",
+      "meta_description": "Trusted mold remediation in Hazel Green, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "mold remediation hazel green",
+      "secondary_keywords": [
+        "mold removal",
+        "mold remediation contractor",
+        "mold repair and rebuild",
+        "mold-safe renovation",
+        "post-remediation reconstruction"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/hazel-green-al/",
+        "/service-areas/hazel-green-al/home-remodeling/",
+        "/service-areas/hazel-green-al/roofing/",
+        "/service-areas/athens-al/mold-remediation/",
+        "/service-areas/harvest-al/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/new-market-al/home-remodeling/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Home Remodeling in New Market, AL | Davis Construction Contractors",
+      "h1": "Home Remodeling in New Market",
+      "meta_description": "Trusted home remodeling in New Market, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "home remodeling new market",
+      "secondary_keywords": [
+        "home renovation",
+        "whole home remodel",
+        "interior remodeling contractor",
+        "house renovation contractor",
+        "remodeling company"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/home-remodeling/",
+        "/service-areas/new-market-al/",
+        "/service-areas/new-market-al/roofing/",
+        "/service-areas/new-market-al/decks-pergolas-fences/",
+        "/service-areas/athens-al/home-remodeling/",
+        "/service-areas/harvest-al/home-remodeling/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/new-market-al/new-construction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "New Home Construction in New Market, AL | Davis Construction Contractors",
+      "h1": "New Home Construction in New Market",
+      "meta_description": "Trusted new home construction in New Market, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "new home construction new market",
+      "secondary_keywords": [
+        "custom home builder",
+        "new home builder",
+        "build a house",
+        "residential construction",
+        "ground-up construction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/new-construction/",
+        "/service-areas/new-market-al/",
+        "/service-areas/new-market-al/home-remodeling/",
+        "/service-areas/new-market-al/roofing/",
+        "/service-areas/athens-al/new-construction/",
+        "/service-areas/harvest-al/new-construction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/new-market-al/decks-pergolas-fences/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Decks, Pergolas and Fences in New Market, AL | Davis Construction Contractors",
+      "h1": "Decks, Pergolas and Fences in New Market",
+      "meta_description": "Trusted decks, pergolas and fences in New Market, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "decks, pergolas and fences new market",
+      "secondary_keywords": [
+        "deck builder",
+        "deck installation",
+        "pergola builder",
+        "fence installation",
+        "outdoor structure contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/decks-pergolas-fences/",
+        "/service-areas/new-market-al/",
+        "/service-areas/new-market-al/home-remodeling/",
+        "/service-areas/new-market-al/roofing/",
+        "/service-areas/athens-al/decks-pergolas-fences/",
+        "/service-areas/harvest-al/decks-pergolas-fences/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/new-market-al/roofing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Roofing Installation and Replacement in New Market, AL | Davis Construction Contractors",
+      "h1": "Roofing Installation and Replacement in New Market",
+      "meta_description": "Trusted roofing installation and replacement in New Market, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "roofing installation and replacement new market",
+      "secondary_keywords": [
+        "roofing contractor",
+        "roof replacement",
+        "new roof installation",
+        "residential roofing",
+        "roof repair"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/roofing/",
+        "/service-areas/new-market-al/",
+        "/service-areas/new-market-al/home-remodeling/",
+        "/service-areas/new-market-al/decks-pergolas-fences/",
+        "/service-areas/athens-al/roofing/",
+        "/service-areas/harvest-al/roofing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/new-market-al/siding-gutters/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Siding and Gutters in New Market, AL | Davis Construction Contractors",
+      "h1": "Siding and Gutters in New Market",
+      "meta_description": "Trusted siding and gutters in New Market, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "siding and gutters new market",
+      "secondary_keywords": [
+        "siding contractor",
+        "siding installation",
+        "siding replacement",
+        "gutter installation",
+        "exterior contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/siding-gutters/",
+        "/service-areas/new-market-al/",
+        "/service-areas/new-market-al/home-remodeling/",
+        "/service-areas/new-market-al/roofing/",
+        "/service-areas/athens-al/siding-gutters/",
+        "/service-areas/harvest-al/siding-gutters/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/new-market-al/painting-trim/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Painting and Trim in New Market, AL | Davis Construction Contractors",
+      "h1": "Painting and Trim in New Market",
+      "meta_description": "Trusted painting and trim in New Market, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "painting and trim new market",
+      "secondary_keywords": [
+        "painting contractor",
+        "interior painting",
+        "exterior painting",
+        "house painter",
+        "trim painting"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/painting-trim/",
+        "/service-areas/new-market-al/",
+        "/service-areas/new-market-al/home-remodeling/",
+        "/service-areas/new-market-al/roofing/",
+        "/service-areas/athens-al/painting-trim/",
+        "/service-areas/harvest-al/painting-trim/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/new-market-al/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in New Market, AL | Davis Construction Contractors",
+      "h1": "Water Damage Restoration in New Market",
+      "meta_description": "Trusted water damage restoration in New Market, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "water damage restoration new market",
+      "secondary_keywords": [
+        "water damage repair",
+        "water damage rebuild",
+        "drywall water damage repair",
+        "ceiling water damage repair",
+        "post-leak renovation"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/new-market-al/",
+        "/service-areas/new-market-al/home-remodeling/",
+        "/service-areas/new-market-al/roofing/",
+        "/service-areas/athens-al/water-damage-restoration/",
+        "/service-areas/harvest-al/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/new-market-al/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in New Market, AL | Davis Construction Contractors",
+      "h1": "Storm Damage Restoration in New Market",
+      "meta_description": "Trusted storm damage restoration in New Market, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "storm damage restoration new market",
+      "secondary_keywords": [
+        "storm damage repair",
+        "roof storm damage repair",
+        "siding storm damage repair",
+        "wind damage repair contractor",
+        "storm damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/new-market-al/",
+        "/service-areas/new-market-al/home-remodeling/",
+        "/service-areas/new-market-al/roofing/",
+        "/service-areas/athens-al/storm-damage-restoration/",
+        "/service-areas/harvest-al/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/new-market-al/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in New Market, AL | Davis Construction Contractors",
+      "h1": "Mold Remediation in New Market",
+      "meta_description": "Trusted mold remediation in New Market, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "mold remediation new market",
+      "secondary_keywords": [
+        "mold removal",
+        "mold remediation contractor",
+        "mold repair and rebuild",
+        "mold-safe renovation",
+        "post-remediation reconstruction"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/new-market-al/",
+        "/service-areas/new-market-al/home-remodeling/",
+        "/service-areas/new-market-al/roofing/",
+        "/service-areas/athens-al/mold-remediation/",
+        "/service-areas/harvest-al/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/harvest-al/home-remodeling/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Home Remodeling in Harvest, AL | Davis Construction Contractors",
+      "h1": "Home Remodeling in Harvest",
+      "meta_description": "Trusted home remodeling in Harvest, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "home remodeling harvest",
+      "secondary_keywords": [
+        "home renovation",
+        "whole home remodel",
+        "interior remodeling contractor",
+        "house renovation contractor",
+        "remodeling company"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/home-remodeling/",
+        "/service-areas/harvest-al/",
+        "/service-areas/harvest-al/roofing/",
+        "/service-areas/harvest-al/decks-pergolas-fences/",
+        "/service-areas/athens-al/home-remodeling/",
+        "/service-areas/hazel-green-al/home-remodeling/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/harvest-al/new-construction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "New Home Construction in Harvest, AL | Davis Construction Contractors",
+      "h1": "New Home Construction in Harvest",
+      "meta_description": "Trusted new home construction in Harvest, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "new home construction harvest",
+      "secondary_keywords": [
+        "custom home builder",
+        "new home builder",
+        "build a house",
+        "residential construction",
+        "ground-up construction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/new-construction/",
+        "/service-areas/harvest-al/",
+        "/service-areas/harvest-al/home-remodeling/",
+        "/service-areas/harvest-al/roofing/",
+        "/service-areas/athens-al/new-construction/",
+        "/service-areas/hazel-green-al/new-construction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/harvest-al/decks-pergolas-fences/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Decks, Pergolas and Fences in Harvest, AL | Davis Construction Contractors",
+      "h1": "Decks, Pergolas and Fences in Harvest",
+      "meta_description": "Trusted decks, pergolas and fences in Harvest, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "decks, pergolas and fences harvest",
+      "secondary_keywords": [
+        "deck builder",
+        "deck installation",
+        "pergola builder",
+        "fence installation",
+        "outdoor structure contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/decks-pergolas-fences/",
+        "/service-areas/harvest-al/",
+        "/service-areas/harvest-al/home-remodeling/",
+        "/service-areas/harvest-al/roofing/",
+        "/service-areas/athens-al/decks-pergolas-fences/",
+        "/service-areas/hazel-green-al/decks-pergolas-fences/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/harvest-al/roofing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Roofing Installation and Replacement in Harvest, AL | Davis Construction Contractors",
+      "h1": "Roofing Installation and Replacement in Harvest",
+      "meta_description": "Trusted roofing installation and replacement in Harvest, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "roofing installation and replacement harvest",
+      "secondary_keywords": [
+        "roofing contractor",
+        "roof replacement",
+        "new roof installation",
+        "residential roofing",
+        "roof repair"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/roofing/",
+        "/service-areas/harvest-al/",
+        "/service-areas/harvest-al/home-remodeling/",
+        "/service-areas/harvest-al/decks-pergolas-fences/",
+        "/service-areas/athens-al/roofing/",
+        "/service-areas/hazel-green-al/roofing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/harvest-al/siding-gutters/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Siding and Gutters in Harvest, AL | Davis Construction Contractors",
+      "h1": "Siding and Gutters in Harvest",
+      "meta_description": "Trusted siding and gutters in Harvest, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "siding and gutters harvest",
+      "secondary_keywords": [
+        "siding contractor",
+        "siding installation",
+        "siding replacement",
+        "gutter installation",
+        "exterior contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/siding-gutters/",
+        "/service-areas/harvest-al/",
+        "/service-areas/harvest-al/home-remodeling/",
+        "/service-areas/harvest-al/roofing/",
+        "/service-areas/athens-al/siding-gutters/",
+        "/service-areas/hazel-green-al/siding-gutters/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/harvest-al/painting-trim/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Painting and Trim in Harvest, AL | Davis Construction Contractors",
+      "h1": "Painting and Trim in Harvest",
+      "meta_description": "Trusted painting and trim in Harvest, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "painting and trim harvest",
+      "secondary_keywords": [
+        "painting contractor",
+        "interior painting",
+        "exterior painting",
+        "house painter",
+        "trim painting"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/painting-trim/",
+        "/service-areas/harvest-al/",
+        "/service-areas/harvest-al/home-remodeling/",
+        "/service-areas/harvest-al/roofing/",
+        "/service-areas/athens-al/painting-trim/",
+        "/service-areas/hazel-green-al/painting-trim/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/harvest-al/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Harvest, AL | Davis Construction Contractors",
+      "h1": "Water Damage Restoration in Harvest",
+      "meta_description": "Trusted water damage restoration in Harvest, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "water damage restoration harvest",
+      "secondary_keywords": [
+        "water damage repair",
+        "water damage rebuild",
+        "drywall water damage repair",
+        "ceiling water damage repair",
+        "post-leak renovation"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/harvest-al/",
+        "/service-areas/harvest-al/home-remodeling/",
+        "/service-areas/harvest-al/roofing/",
+        "/service-areas/athens-al/water-damage-restoration/",
+        "/service-areas/hazel-green-al/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/harvest-al/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Harvest, AL | Davis Construction Contractors",
+      "h1": "Storm Damage Restoration in Harvest",
+      "meta_description": "Trusted storm damage restoration in Harvest, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "storm damage restoration harvest",
+      "secondary_keywords": [
+        "storm damage repair",
+        "roof storm damage repair",
+        "siding storm damage repair",
+        "wind damage repair contractor",
+        "storm damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/harvest-al/",
+        "/service-areas/harvest-al/home-remodeling/",
+        "/service-areas/harvest-al/roofing/",
+        "/service-areas/athens-al/storm-damage-restoration/",
+        "/service-areas/hazel-green-al/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/harvest-al/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Harvest, AL | Davis Construction Contractors",
+      "h1": "Mold Remediation in Harvest",
+      "meta_description": "Trusted mold remediation in Harvest, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "mold remediation harvest",
+      "secondary_keywords": [
+        "mold removal",
+        "mold remediation contractor",
+        "mold repair and rebuild",
+        "mold-safe renovation",
+        "post-remediation reconstruction"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/harvest-al/",
+        "/service-areas/harvest-al/home-remodeling/",
+        "/service-areas/harvest-al/roofing/",
+        "/service-areas/athens-al/mold-remediation/",
+        "/service-areas/hazel-green-al/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/blog/how-to-plan-a-home-remodel/",
       "archetype": "blog-post",
       "vars_keys": [
         "post"
       ],
-      "title": "How To Choose a Restoration Company in  (Without Getting Burned)",
-      "h1": "How To Choose a Restoration Company in  (Without Getting Burned)",
+      "title": "How To Plan a Home Remodel: A Step-by-Step Guide",
+      "h1": "How To Plan a Home Remodel: A Step-by-Step Guide",
       "meta_description": "",
-      "primary_keyword": "how to choose a restoration company in  without getting burned",
+      "primary_keyword": "how to plan a home remodel a stepbystep guide",
       "secondary_keywords": [
-        "water damage restoration",
-        "fire damage restoration",
-        "mold remediation"
+        "home remodeling",
+        "renovations, remodels and general contracting"
+      ],
+      "search_intent": "informational_process",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/home-remodeling/",
+        "/blog/choosing-a-general-contractor/",
+        "/blog/do-you-need-a-permit/",
+        "/blog/kitchen-remodel-cost-breakdown/"
+      ]
+    },
+    {
+      "url_path": "/blog/choosing-a-general-contractor/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How To Choose a General Contractor in  (Without Getting Burned)",
+      "h1": "How To Choose a General Contractor in  (Without Getting Burned)",
+      "meta_description": "",
+      "primary_keyword": "how to choose a general contractor in  without getting burned",
+      "secondary_keywords": [
+        "renovations, remodels and general contracting",
+        "home remodeling",
+        "new home construction"
+      ],
+      "search_intent": "commercial_decision",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/home-remodeling/",
+        "/services/new-construction/",
+        "/blog/how-to-plan-a-home-remodel/",
+        "/blog/do-you-need-a-permit/",
+        "/blog/kitchen-remodel-cost-breakdown/"
+      ]
+    },
+    {
+      "url_path": "/blog/kitchen-remodel-cost-breakdown/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How Much Does a Kitchen Remodel Cost? A Realistic Budget Breakdown",
+      "h1": "How Much Does a Kitchen Remodel Cost? A Realistic Budget Breakdown",
+      "meta_description": "",
+      "primary_keyword": "how much does a kitchen remodel cost a realistic budget breakdown",
+      "secondary_keywords": [
+        "kitchen remodeling",
+        "home remodeling"
       ],
       "search_intent": "commercial_decision",
       "target_word_count": 1400,
@@ -1677,27 +4322,99 @@
       "status": "planned",
       "internal_links_out": [
         "/blog/",
-        "/services/mold-remediation/",
-        "/services/water-damage-restoration/",
-        "/blog/burst-pipe-emergency-checklist/",
-        "/blog/what-to-do-first-24-hours-water-damage/",
-        "/blog/does-homeowners-insurance-cover-water-damage/"
+        "/services/home-remodeling/",
+        "/blog/choosing-a-general-contractor/",
+        "/blog/how-to-plan-a-home-remodel/",
+        "/blog/do-you-need-a-permit/"
       ]
     },
     {
-      "url_path": "/blog/black-mold-vs-regular-mold/",
+      "url_path": "/blog/roofing-material-comparison/",
       "archetype": "blog-post",
       "vars_keys": [
         "post"
       ],
-      "title": "Black Mold vs Regular Mold: How To Tell the Difference",
-      "h1": "Black Mold vs Regular Mold: How To Tell the Difference",
+      "title": "Asphalt vs Metal vs Tile: Choosing the Right Roofing Material",
+      "h1": "Asphalt vs Metal vs Tile: Choosing the Right Roofing Material",
       "meta_description": "",
-      "primary_keyword": "black mold vs regular mold how to tell the difference",
+      "primary_keyword": "asphalt vs metal vs tile choosing the right roofing material",
       "secondary_keywords": [
-        "mold remediation"
+        "roofing installation and replacement"
       ],
-      "search_intent": "informational_health",
+      "search_intent": "informational_specialty",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/roofing/",
+        "/blog/how-long-does-roof-replacement-take/",
+        "/blog/storm-damage-repair-process/"
+      ]
+    },
+    {
+      "url_path": "/blog/do-you-need-a-permit/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Do You Need a Permit for That? Home Project Permits, Explained",
+      "h1": "Do You Need a Permit for That? Home Project Permits, Explained",
+      "meta_description": "",
+      "primary_keyword": "do you need a permit for that home project permits explained",
+      "secondary_keywords": [
+        "renovations, remodels and general contracting",
+        "home remodeling",
+        "room additions and home additions"
+      ],
+      "search_intent": "informational_process",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/home-remodeling/",
+        "/blog/choosing-a-general-contractor/",
+        "/blog/how-to-plan-a-home-remodel/",
+        "/blog/kitchen-remodel-cost-breakdown/"
+      ]
+    },
+    {
+      "url_path": "/blog/how-long-does-roof-replacement-take/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How Long Does a Roof Replacement Actually Take?",
+      "h1": "How Long Does a Roof Replacement Actually Take?",
+      "meta_description": "",
+      "primary_keyword": "how long does a roof replacement actually take",
+      "secondary_keywords": [
+        "roofing installation and replacement"
+      ],
+      "search_intent": "informational_process",
       "target_word_count": 1400,
       "image_roles": [
         "hero",
@@ -1714,10 +4431,113 @@
       "status": "planned",
       "internal_links_out": [
         "/blog/",
-        "/services/mold-remediation/",
-        "/blog/choosing-a-restoration-company/",
-        "/blog/signs-of-hidden-mold/",
-        "/blog/mold-after-water-damage/"
+        "/services/roofing/",
+        "/blog/roofing-material-comparison/",
+        "/blog/storm-damage-repair-process/"
+      ]
+    },
+    {
+      "url_path": "/blog/wood-vs-composite-decking/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Wood vs Composite Decking: Which Is Right for Your Backyard?",
+      "h1": "Wood vs Composite Decking: Which Is Right for Your Backyard?",
+      "meta_description": "",
+      "primary_keyword": "wood vs composite decking which is right for your backyard",
+      "secondary_keywords": [
+        "decks, pergolas and fences"
+      ],
+      "search_intent": "informational_specialty",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/decks-pergolas-fences/"
+      ]
+    },
+    {
+      "url_path": "/blog/siding-options-compared/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Vinyl, Fiber Cement, or Wood? Home Siding Options Compared",
+      "h1": "Vinyl, Fiber Cement, or Wood? Home Siding Options Compared",
+      "meta_description": "",
+      "primary_keyword": "vinyl fiber cement or wood home siding options compared",
+      "secondary_keywords": [
+        "siding and gutters"
+      ],
+      "search_intent": "informational_specialty",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/siding-gutters/"
+      ]
+    },
+    {
+      "url_path": "/blog/storm-damage-repair-process/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "The Storm Damage Repair Process: From Inspection to Finished Rebuild",
+      "h1": "The Storm Damage Repair Process: From Inspection to Finished Rebuild",
+      "meta_description": "",
+      "primary_keyword": "the storm damage repair process from inspection to finished rebuild",
+      "secondary_keywords": [
+        "storm damage restoration",
+        "roofing installation and replacement"
+      ],
+      "search_intent": "informational_process",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/roofing/",
+        "/services/storm-damage-restoration/",
+        "/blog/roofing-material-comparison/",
+        "/blog/how-long-does-roof-replacement-take/",
+        "/blog/storm-damage-insurance-claim-checklist/"
       ]
     },
     {
@@ -1726,10 +4546,10 @@
       "vars_keys": [
         "post"
       ],
-      "title": "Storm Damage Insurance Claim Checklist (Use This Before You Call Your Insurer)",
-      "h1": "Storm Damage Insurance Claim Checklist (Use This Before You Call Your Insurer)",
+      "title": "Storm Damage Insurance Claim Checklist for Homeowners",
+      "h1": "Storm Damage Insurance Claim Checklist for Homeowners",
       "meta_description": "",
-      "primary_keyword": "storm damage insurance claim checklist use this before you call your insurer",
+      "primary_keyword": "storm damage insurance claim checklist for homeowners",
       "secondary_keywords": [
         "storm damage restoration"
       ],
@@ -1750,21 +4570,60 @@
       "status": "planned",
       "internal_links_out": [
         "/blog/",
-        "/services/storm-damage-restoration/"
+        "/services/storm-damage-restoration/",
+        "/blog/storm-damage-repair-process/"
       ]
     },
     {
-      "url_path": "/blog/how-long-does-water-damage-restoration-take/",
+      "url_path": "/blog/mold-found-during-renovation/",
       "archetype": "blog-post",
       "vars_keys": [
         "post"
       ],
-      "title": "How Long Does Water Damage Restoration Actually Take?",
-      "h1": "How Long Does Water Damage Restoration Actually Take?",
+      "title": "Found Mold During a Renovation? Here's What Happens Next",
+      "h1": "Found Mold During a Renovation? Here's What Happens Next",
       "meta_description": "",
-      "primary_keyword": "how long does water damage restoration actually take",
+      "primary_keyword": "found mold during a renovation heres what happens next",
       "secondary_keywords": [
-        "water damage restoration"
+        "mold remediation",
+        "home remodeling"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/home-remodeling/",
+        "/services/mold-remediation/",
+        "/blog/choosing-a-general-contractor/",
+        "/blog/how-to-plan-a-home-remodel/",
+        "/blog/do-you-need-a-permit/"
+      ]
+    },
+    {
+      "url_path": "/blog/how-long-to-build-a-house/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How Long Does It Take To Build a House? A Realistic Timeline",
+      "h1": "How Long Does It Take To Build a House? A Realistic Timeline",
+      "meta_description": "",
+      "primary_keyword": "how long does it take to build a house a realistic timeline",
+      "secondary_keywords": [
+        "new home construction"
       ],
       "search_intent": "informational_process",
       "target_word_count": 1400,
@@ -1783,160 +4642,8 @@
       "status": "planned",
       "internal_links_out": [
         "/blog/",
-        "/services/water-damage-restoration/",
-        "/blog/burst-pipe-emergency-checklist/",
-        "/blog/what-to-do-first-24-hours-water-damage/",
-        "/blog/choosing-a-restoration-company/"
-      ]
-    },
-    {
-      "url_path": "/blog/mold-after-water-damage/",
-      "archetype": "blog-post",
-      "vars_keys": [
-        "post"
-      ],
-      "title": "How Quickly Does Mold Grow After Water Damage?",
-      "h1": "How Quickly Does Mold Grow After Water Damage?",
-      "meta_description": "",
-      "primary_keyword": "how quickly does mold grow after water damage",
-      "secondary_keywords": [
-        "mold remediation",
-        "water damage restoration"
-      ],
-      "search_intent": "informational_emergency",
-      "target_word_count": 1400,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "blog-posting",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.8,
-      "status": "planned",
-      "internal_links_out": [
-        "/blog/",
-        "/services/mold-remediation/",
-        "/services/water-damage-restoration/",
-        "/blog/burst-pipe-emergency-checklist/",
-        "/blog/what-to-do-first-24-hours-water-damage/",
-        "/blog/choosing-a-restoration-company/"
-      ]
-    },
-    {
-      "url_path": "/blog/basement-flooding-prevention/",
-      "archetype": "blog-post",
-      "vars_keys": [
-        "post"
-      ],
-      "title": "8 Ways To Prevent Basement Flooding This Season",
-      "h1": "8 Ways To Prevent Basement Flooding This Season",
-      "meta_description": "",
-      "primary_keyword": "8 ways to prevent basement flooding this season",
-      "secondary_keywords": [
-        "water damage restoration"
-      ],
-      "search_intent": "informational_prevention",
-      "target_word_count": 1400,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "blog-posting",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.2,
-      "status": "planned",
-      "internal_links_out": [
-        "/blog/",
-        "/services/water-damage-restoration/",
-        "/blog/burst-pipe-emergency-checklist/",
-        "/blog/what-to-do-first-24-hours-water-damage/",
-        "/blog/choosing-a-restoration-company/"
-      ]
-    },
-    {
-      "url_path": "/blog/commercial-water-damage-business-continuity/",
-      "archetype": "blog-post",
-      "vars_keys": [
-        "post"
-      ],
-      "title": "Commercial Water Damage: Protecting Business Continuity After a Loss",
-      "h1": "Commercial Water Damage: Protecting Business Continuity After a Loss",
-      "meta_description": "",
-      "primary_keyword": "commercial water damage protecting business continuity after a loss",
-      "secondary_keywords": [
-        "commercial restoration",
-        "water damage restoration"
-      ],
-      "search_intent": "informational_b2b",
-      "target_word_count": 1400,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "blog-posting",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.2,
-      "status": "planned",
-      "internal_links_out": [
-        "/blog/",
-        "/services/water-damage-restoration/",
-        "/blog/burst-pipe-emergency-checklist/",
-        "/blog/what-to-do-first-24-hours-water-damage/",
-        "/blog/choosing-a-restoration-company/"
-      ]
-    },
-    {
-      "url_path": "/blog/iicrc-certification-explained/",
-      "archetype": "blog-post",
-      "vars_keys": [
-        "post"
-      ],
-      "title": "What IICRC Certification Means (and Why You Should Hire It)",
-      "h1": "What IICRC Certification Means (and Why You Should Hire It)",
-      "meta_description": "",
-      "primary_keyword": "what iicrc certification means and why you should hire it",
-      "secondary_keywords": [
-        "water damage restoration",
-        "mold remediation",
-        "fire damage restoration"
-      ],
-      "search_intent": "informational_trust",
-      "target_word_count": 1400,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "blog-posting",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.6,
-      "status": "planned",
-      "internal_links_out": [
-        "/blog/",
-        "/services/mold-remediation/",
-        "/services/water-damage-restoration/",
-        "/blog/burst-pipe-emergency-checklist/",
-        "/blog/what-to-do-first-24-hours-water-damage/",
-        "/blog/choosing-a-restoration-company/"
+        "/services/new-construction/",
+        "/blog/choosing-a-general-contractor/"
       ]
     },
     {

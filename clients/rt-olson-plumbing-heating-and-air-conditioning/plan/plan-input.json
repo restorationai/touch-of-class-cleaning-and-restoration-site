@@ -35,7 +35,8 @@
     "water-softeners-filtration",
     "ac-repair",
     "furnace-repair",
-    "indoor-air-quality"
+    "indoor-air-quality",
+    "repiping"
   ],
   "service_areas": [
     {
@@ -86,103 +87,158 @@
     },
     {
       "city": "Eastvale",
-      "state": "CA"
+      "state": "CA",
+      "slug": "eastvale-ca"
     },
     {
       "city": "Lake Elsinore",
-      "state": "CA"
+      "state": "CA",
+      "slug": "lake-elsinore-ca"
     },
     {
       "city": "Jurupa Valley",
-      "state": "CA"
+      "state": "CA",
+      "slug": "jurupa-valley-ca"
     },
     {
       "city": "Mira Loma",
-      "state": "CA"
+      "state": "CA",
+      "slug": "mira-loma-ca"
     },
     {
       "city": "Wildomar",
-      "state": "CA"
+      "state": "CA",
+      "slug": "wildomar-ca"
     },
     {
       "city": "Temecula",
-      "state": "CA"
+      "state": "CA",
+      "slug": "temecula-ca"
     },
     {
       "city": "Murrieta",
-      "state": "CA"
+      "state": "CA",
+      "slug": "murrieta-ca"
     },
     {
       "city": "Menifee",
-      "state": "CA"
+      "state": "CA",
+      "slug": "menifee-ca"
     },
     {
       "city": "Canyon Lake",
-      "state": "CA"
+      "state": "CA",
+      "slug": "canyon-lake-ca"
     },
     {
       "city": "Sun City",
-      "state": "CA"
+      "state": "CA",
+      "slug": "sun-city-ca"
     },
     {
       "city": "French Valley",
-      "state": "CA"
+      "state": "CA",
+      "slug": "french-valley-ca"
     },
     {
       "city": "Winchester",
-      "state": "CA"
+      "state": "CA",
+      "slug": "winchester-ca"
     },
     {
       "city": "Ontario Ranch",
-      "state": "CA"
+      "state": "CA",
+      "slug": "ontario-ranch-ca"
     },
     {
       "city": "Chino Hills",
-      "state": "CA"
+      "state": "CA",
+      "slug": "chino-hills-ca"
     },
     {
       "city": "Fontana",
-      "state": "CA"
+      "state": "CA",
+      "slug": "fontana-ca"
     },
     {
       "city": "Upland",
-      "state": "CA"
+      "state": "CA",
+      "slug": "upland-ca"
     },
     {
       "city": "Claremont",
-      "state": "CA"
+      "state": "CA",
+      "slug": "claremont-ca"
     },
     {
       "city": "Pomona",
-      "state": "CA"
+      "state": "CA",
+      "slug": "pomona-ca"
     },
     {
       "city": "Montclair",
-      "state": "CA"
+      "state": "CA",
+      "slug": "montclair-ca"
     },
     {
       "city": "Bloomington",
-      "state": "CA"
+      "state": "CA",
+      "slug": "bloomington-ca"
     },
     {
       "city": "Rialto",
-      "state": "CA"
+      "state": "CA",
+      "slug": "rialto-ca"
     },
     {
       "city": "Diamond Bar",
-      "state": "CA"
+      "state": "CA",
+      "slug": "diamond-bar-ca"
     },
     {
       "city": "San Bernardino",
-      "state": "CA"
+      "state": "CA",
+      "slug": "san-bernardino-ca"
     },
     {
       "city": "Hemet",
-      "state": "CA"
+      "state": "CA",
+      "slug": "hemet-ca"
     },
     {
       "city": "San Jacinto",
-      "state": "CA"
+      "state": "CA",
+      "slug": "san-jacinto-ca"
+    },
+    {
+      "city": "Silverado",
+      "state": "CA",
+      "slug": "silverado-ca"
+    },
+    {
+      "city": "Temescal Valley",
+      "state": "CA",
+      "slug": "temescal-valley-ca"
+    },
+    {
+      "city": "Lake Mathews",
+      "state": "CA",
+      "slug": "lake-mathews-ca"
+    },
+    {
+      "city": "Woodcrest",
+      "state": "CA",
+      "slug": "woodcrest-ca"
+    },
+    {
+      "city": "Trabuco Canyon",
+      "state": "CA",
+      "slug": "trabuco-canyon-ca"
+    },
+    {
+      "city": "North Tustin",
+      "state": "CA",
+      "slug": "north-tustin-ca"
     }
   ],
   "template": "plumbing",

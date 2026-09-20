@@ -1,20 +1,20 @@
 # Site Plan Report — Frontline Fire & Flood
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-11T18:01:06.388639+00:00
+- Generated: 2026-09-20T14:13:13.103813+00:00
 - Domain: `frontlinefireflood.com`
-- Services selected: 9 of 64 catalog entries
-- Service areas: 26
+- Services selected: 9 of 65 catalog entries
+- Service areas: 32
 - Cross-product enabled: True
-- Total URLs: **276**
-- Total internal links: 2188 (avg 7.9 per page)
+- Total URLs: **336**
+- Total internal links: 2664 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 225 |
-| `service-area` | 25 |
+| `service-area-service` | 279 |
+| `service-area` | 31 |
 | `service-landing` | 9 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -35,7 +35,7 @@
 - `asbestos-abatement` — Asbestos Abatement (specialty, priority 6)
 - `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
 - `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
-- `water-cleanup` — Water Cleanup (core, priority 9)
+- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 
 ## Service areas
 
@@ -65,6 +65,12 @@
 - `bremerton-wa` — Bremerton, WA
 - `port-orchard-wa` — Port Orchard, WA
 - `centralia-wa` — Centralia, WA
+- `mcchord-afb-wa` — McChord AFB, WA
+- `steilacoom-wa` — Steilacoom, WA
+- `north-fort-lewis-wa` — North Fort Lewis, WA
+- `midland-wa` — Midland, WA
+- `fircrest-wa` — Fircrest, WA
+- `fort-lewis-wa` — Fort Lewis, WA
 
 ## Top 10 priority pages
 
@@ -75,7 +81,7 @@
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration lakewood |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization lakewood |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration lakewood |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | water cleanup lakewood |
+| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup lakewood |
 | `/service-areas/auburn-wa/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration auburn |
 | `/service-areas/auburn-wa/mold-remediation/` | `service-area-service` | 7.0 | mold remediation auburn |
 | `/service-areas/auburn-wa/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration auburn |

@@ -368,6 +368,11 @@
       "city": "Heeia",
       "state": "HI",
       "slug": "heeia-hi"
+    },
+    {
+      "city": "Kahaluu",
+      "state": "HI",
+      "slug": "kahaluu-hi"
     }
   ],
   "brand": {

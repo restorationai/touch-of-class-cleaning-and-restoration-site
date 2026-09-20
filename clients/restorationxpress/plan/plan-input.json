@@ -11,7 +11,9 @@
     "street_address": "4700 SW 51 ST SUIT 205 DAVIE FL33314 ",
     "postal_code": "33314",
     "theme": "light",
-    "logo_url": "/images/logo.png"
+    "logo_url": "/images/logo.png",
+    "place_id": "ChIJCzaMJr6p2YgRt87XYVAI8ek",
+    "ga4_measurement_id": "G-YMWBHG8Y4F"
   },
   "template": "restoration",
   "services": [
@@ -256,6 +258,36 @@
         "33029"
       ],
       "local_notes": "Rapidly growing western developments and older eastern homes both benefit from local rapid response."
+    },
+    {
+      "city": "Dania Beach",
+      "state": "FL",
+      "slug": "dania-beach-fl"
+    },
+    {
+      "city": "West Park",
+      "state": "FL",
+      "slug": "west-park-fl"
+    },
+    {
+      "city": "Miami Gardens",
+      "state": "FL",
+      "slug": "miami-gardens-fl"
+    },
+    {
+      "city": "Lauderhill",
+      "state": "FL",
+      "slug": "lauderhill-fl"
+    },
+    {
+      "city": "Hallandale Beach",
+      "state": "FL",
+      "slug": "hallandale-beach-fl"
+    },
+    {
+      "city": "Lauderdale Lakes",
+      "state": "FL",
+      "slug": "lauderdale-lakes-fl"
     }
   ]
 }

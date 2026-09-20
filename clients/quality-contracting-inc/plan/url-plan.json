@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-08-11T15:53:46.818446+00:00",
+  "generated_at": "2026-09-20T14:13:32.409529+00:00",
   "input_summary": {
-    "service_count": 10,
-    "service_area_count": 12,
+    "service_count": 11,
+    "service_area_count": 18,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -47,22 +47,28 @@
         "/services/water-damage-restoration/",
         "/services/sewage-cleanup/",
         "/services/storm-damage-restoration/",
+        "/services/water-cleanup/",
         "/services/biohazard-cleanup/",
         "/services/emergency-board-up-tarping/",
         "/services/air-duct-cleaning/",
         "/services/contents-restoration/",
         "/services/crawl-space-encapsulation/",
-        "/service-areas/auburn-ma/",
+        "/service-areas/east-douglas-ma/",
         "/service-areas/framingham-ma/",
         "/service-areas/hopkinton-ma/",
         "/service-areas/natick-ma/",
         "/service-areas/needham-ma/",
         "/service-areas/newton-ma/",
+        "/service-areas/northborough-ma/",
+        "/service-areas/oxford-ma/",
         "/service-areas/shrewsbury-ma/",
         "/service-areas/southborough-ma/",
+        "/service-areas/southbridge-town-ma/",
+        "/service-areas/sturbridge-ma/",
         "/service-areas/wellesley-ma/",
         "/service-areas/westborough-ma/",
         "/service-areas/weston-ma/",
+        "/service-areas/whitinsville-ma/",
         "/service-areas/worcester-ma/"
       ]
     },
@@ -101,6 +107,7 @@
         "/services/water-damage-restoration/",
         "/services/sewage-cleanup/",
         "/services/storm-damage-restoration/",
+        "/services/water-cleanup/",
         "/services/biohazard-cleanup/",
         "/services/emergency-board-up-tarping/",
         "/services/air-duct-cleaning/",
@@ -137,17 +144,22 @@
       "status": "planned",
       "internal_links_out": [
         "/",
-        "/service-areas/auburn-ma/",
+        "/service-areas/east-douglas-ma/",
         "/service-areas/framingham-ma/",
         "/service-areas/hopkinton-ma/",
         "/service-areas/natick-ma/",
         "/service-areas/needham-ma/",
         "/service-areas/newton-ma/",
+        "/service-areas/northborough-ma/",
+        "/service-areas/oxford-ma/",
         "/service-areas/shrewsbury-ma/",
         "/service-areas/southborough-ma/",
+        "/service-areas/southbridge-town-ma/",
+        "/service-areas/sturbridge-ma/",
         "/service-areas/wellesley-ma/",
         "/service-areas/westborough-ma/",
         "/service-areas/weston-ma/",
+        "/service-areas/whitinsville-ma/",
         "/service-areas/worcester-ma/"
       ]
     },
@@ -290,18 +302,19 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
-        "/service-areas/auburn-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/service-areas/framingham-ma/water-damage-restoration/",
         "/service-areas/hopkinton-ma/water-damage-restoration/",
         "/service-areas/natick-ma/water-damage-restoration/",
         "/service-areas/needham-ma/water-damage-restoration/",
         "/service-areas/newton-ma/water-damage-restoration/",
+        "/service-areas/northborough-ma/water-damage-restoration/",
+        "/service-areas/oxford-ma/water-damage-restoration/",
         "/service-areas/shrewsbury-ma/water-damage-restoration/",
         "/service-areas/southborough-ma/water-damage-restoration/",
-        "/service-areas/wellesley-ma/water-damage-restoration/",
-        "/service-areas/westborough-ma/water-damage-restoration/",
-        "/service-areas/weston-ma/water-damage-restoration/",
-        "/service-areas/worcester-ma/water-damage-restoration/",
+        "/service-areas/southbridge-town-ma/water-damage-restoration/",
+        "/service-areas/sturbridge-ma/water-damage-restoration/",
+        "/services/water-cleanup/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
         "/blog/choosing-a-restoration-company/"
@@ -343,18 +356,18 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
-        "/service-areas/auburn-ma/storm-damage-restoration/",
+        "/service-areas/east-douglas-ma/storm-damage-restoration/",
         "/service-areas/framingham-ma/storm-damage-restoration/",
         "/service-areas/hopkinton-ma/storm-damage-restoration/",
         "/service-areas/natick-ma/storm-damage-restoration/",
         "/service-areas/needham-ma/storm-damage-restoration/",
         "/service-areas/newton-ma/storm-damage-restoration/",
+        "/service-areas/northborough-ma/storm-damage-restoration/",
+        "/service-areas/oxford-ma/storm-damage-restoration/",
         "/service-areas/shrewsbury-ma/storm-damage-restoration/",
         "/service-areas/southborough-ma/storm-damage-restoration/",
-        "/service-areas/wellesley-ma/storm-damage-restoration/",
-        "/service-areas/westborough-ma/storm-damage-restoration/",
-        "/service-areas/weston-ma/storm-damage-restoration/",
-        "/service-areas/worcester-ma/storm-damage-restoration/"
+        "/service-areas/southbridge-town-ma/storm-damage-restoration/",
+        "/service-areas/sturbridge-ma/storm-damage-restoration/"
       ]
     },
     {
@@ -393,18 +406,18 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
-        "/service-areas/auburn-ma/fire-damage-restoration/",
+        "/service-areas/east-douglas-ma/fire-damage-restoration/",
         "/service-areas/framingham-ma/fire-damage-restoration/",
         "/service-areas/hopkinton-ma/fire-damage-restoration/",
         "/service-areas/natick-ma/fire-damage-restoration/",
         "/service-areas/needham-ma/fire-damage-restoration/",
         "/service-areas/newton-ma/fire-damage-restoration/",
+        "/service-areas/northborough-ma/fire-damage-restoration/",
+        "/service-areas/oxford-ma/fire-damage-restoration/",
         "/service-areas/shrewsbury-ma/fire-damage-restoration/",
         "/service-areas/southborough-ma/fire-damage-restoration/",
-        "/service-areas/wellesley-ma/fire-damage-restoration/",
-        "/service-areas/westborough-ma/fire-damage-restoration/",
-        "/service-areas/weston-ma/fire-damage-restoration/",
-        "/service-areas/worcester-ma/fire-damage-restoration/",
+        "/service-areas/southbridge-town-ma/fire-damage-restoration/",
+        "/service-areas/sturbridge-ma/fire-damage-restoration/",
         "/blog/choosing-a-restoration-company/",
         "/blog/fire-damage-restoration-process/"
       ]
@@ -445,18 +458,18 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
-        "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/mold-remediation/",
         "/service-areas/framingham-ma/mold-remediation/",
         "/service-areas/hopkinton-ma/mold-remediation/",
         "/service-areas/natick-ma/mold-remediation/",
         "/service-areas/needham-ma/mold-remediation/",
         "/service-areas/newton-ma/mold-remediation/",
+        "/service-areas/northborough-ma/mold-remediation/",
+        "/service-areas/oxford-ma/mold-remediation/",
         "/service-areas/shrewsbury-ma/mold-remediation/",
         "/service-areas/southborough-ma/mold-remediation/",
-        "/service-areas/wellesley-ma/mold-remediation/",
-        "/service-areas/westborough-ma/mold-remediation/",
-        "/service-areas/weston-ma/mold-remediation/",
-        "/service-areas/worcester-ma/mold-remediation/",
+        "/service-areas/southbridge-town-ma/mold-remediation/",
+        "/service-areas/sturbridge-ma/mold-remediation/",
         "/blog/choosing-a-restoration-company/",
         "/blog/how-to-test-for-mold/",
         "/blog/signs-of-hidden-mold/"
@@ -498,18 +511,18 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
-        "/service-areas/auburn-ma/sewage-cleanup/",
+        "/service-areas/east-douglas-ma/sewage-cleanup/",
         "/service-areas/framingham-ma/sewage-cleanup/",
         "/service-areas/hopkinton-ma/sewage-cleanup/",
         "/service-areas/natick-ma/sewage-cleanup/",
         "/service-areas/needham-ma/sewage-cleanup/",
         "/service-areas/newton-ma/sewage-cleanup/",
+        "/service-areas/northborough-ma/sewage-cleanup/",
+        "/service-areas/oxford-ma/sewage-cleanup/",
         "/service-areas/shrewsbury-ma/sewage-cleanup/",
         "/service-areas/southborough-ma/sewage-cleanup/",
-        "/service-areas/wellesley-ma/sewage-cleanup/",
-        "/service-areas/westborough-ma/sewage-cleanup/",
-        "/service-areas/weston-ma/sewage-cleanup/",
-        "/service-areas/worcester-ma/sewage-cleanup/"
+        "/service-areas/southbridge-town-ma/sewage-cleanup/",
+        "/service-areas/sturbridge-ma/sewage-cleanup/"
       ]
     },
     {
@@ -548,18 +561,18 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
-        "/service-areas/auburn-ma/biohazard-cleanup/",
+        "/service-areas/east-douglas-ma/biohazard-cleanup/",
         "/service-areas/framingham-ma/biohazard-cleanup/",
         "/service-areas/hopkinton-ma/biohazard-cleanup/",
         "/service-areas/natick-ma/biohazard-cleanup/",
         "/service-areas/needham-ma/biohazard-cleanup/",
         "/service-areas/newton-ma/biohazard-cleanup/",
+        "/service-areas/northborough-ma/biohazard-cleanup/",
+        "/service-areas/oxford-ma/biohazard-cleanup/",
         "/service-areas/shrewsbury-ma/biohazard-cleanup/",
         "/service-areas/southborough-ma/biohazard-cleanup/",
-        "/service-areas/wellesley-ma/biohazard-cleanup/",
-        "/service-areas/westborough-ma/biohazard-cleanup/",
-        "/service-areas/weston-ma/biohazard-cleanup/",
-        "/service-areas/worcester-ma/biohazard-cleanup/"
+        "/service-areas/southbridge-town-ma/biohazard-cleanup/",
+        "/service-areas/sturbridge-ma/biohazard-cleanup/"
       ]
     },
     {
@@ -596,18 +609,18 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
-        "/service-areas/auburn-ma/emergency-board-up-tarping/",
+        "/service-areas/east-douglas-ma/emergency-board-up-tarping/",
         "/service-areas/framingham-ma/emergency-board-up-tarping/",
         "/service-areas/hopkinton-ma/emergency-board-up-tarping/",
         "/service-areas/natick-ma/emergency-board-up-tarping/",
         "/service-areas/needham-ma/emergency-board-up-tarping/",
         "/service-areas/newton-ma/emergency-board-up-tarping/",
+        "/service-areas/northborough-ma/emergency-board-up-tarping/",
+        "/service-areas/oxford-ma/emergency-board-up-tarping/",
         "/service-areas/shrewsbury-ma/emergency-board-up-tarping/",
         "/service-areas/southborough-ma/emergency-board-up-tarping/",
-        "/service-areas/wellesley-ma/emergency-board-up-tarping/",
-        "/service-areas/westborough-ma/emergency-board-up-tarping/",
-        "/service-areas/weston-ma/emergency-board-up-tarping/",
-        "/service-areas/worcester-ma/emergency-board-up-tarping/"
+        "/service-areas/southbridge-town-ma/emergency-board-up-tarping/",
+        "/service-areas/sturbridge-ma/emergency-board-up-tarping/"
       ]
     },
     {
@@ -646,18 +659,18 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
-        "/service-areas/auburn-ma/contents-restoration/",
+        "/service-areas/east-douglas-ma/contents-restoration/",
         "/service-areas/framingham-ma/contents-restoration/",
         "/service-areas/hopkinton-ma/contents-restoration/",
         "/service-areas/natick-ma/contents-restoration/",
         "/service-areas/needham-ma/contents-restoration/",
         "/service-areas/newton-ma/contents-restoration/",
+        "/service-areas/northborough-ma/contents-restoration/",
+        "/service-areas/oxford-ma/contents-restoration/",
         "/service-areas/shrewsbury-ma/contents-restoration/",
         "/service-areas/southborough-ma/contents-restoration/",
-        "/service-areas/wellesley-ma/contents-restoration/",
-        "/service-areas/westborough-ma/contents-restoration/",
-        "/service-areas/weston-ma/contents-restoration/",
-        "/service-areas/worcester-ma/contents-restoration/"
+        "/service-areas/southbridge-town-ma/contents-restoration/",
+        "/service-areas/sturbridge-ma/contents-restoration/"
       ]
     },
     {
@@ -696,18 +709,18 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
-        "/service-areas/auburn-ma/air-duct-cleaning/",
+        "/service-areas/east-douglas-ma/air-duct-cleaning/",
         "/service-areas/framingham-ma/air-duct-cleaning/",
         "/service-areas/hopkinton-ma/air-duct-cleaning/",
         "/service-areas/natick-ma/air-duct-cleaning/",
         "/service-areas/needham-ma/air-duct-cleaning/",
         "/service-areas/newton-ma/air-duct-cleaning/",
+        "/service-areas/northborough-ma/air-duct-cleaning/",
+        "/service-areas/oxford-ma/air-duct-cleaning/",
         "/service-areas/shrewsbury-ma/air-duct-cleaning/",
         "/service-areas/southborough-ma/air-duct-cleaning/",
-        "/service-areas/wellesley-ma/air-duct-cleaning/",
-        "/service-areas/westborough-ma/air-duct-cleaning/",
-        "/service-areas/weston-ma/air-duct-cleaning/",
-        "/service-areas/worcester-ma/air-duct-cleaning/"
+        "/service-areas/southbridge-town-ma/air-duct-cleaning/",
+        "/service-areas/sturbridge-ma/air-duct-cleaning/"
       ]
     },
     {
@@ -740,18 +753,69 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
-        "/service-areas/auburn-ma/crawl-space-encapsulation/",
+        "/service-areas/east-douglas-ma/crawl-space-encapsulation/",
         "/service-areas/framingham-ma/crawl-space-encapsulation/",
         "/service-areas/hopkinton-ma/crawl-space-encapsulation/",
         "/service-areas/natick-ma/crawl-space-encapsulation/",
         "/service-areas/needham-ma/crawl-space-encapsulation/",
         "/service-areas/newton-ma/crawl-space-encapsulation/",
+        "/service-areas/northborough-ma/crawl-space-encapsulation/",
+        "/service-areas/oxford-ma/crawl-space-encapsulation/",
         "/service-areas/shrewsbury-ma/crawl-space-encapsulation/",
         "/service-areas/southborough-ma/crawl-space-encapsulation/",
-        "/service-areas/wellesley-ma/crawl-space-encapsulation/",
-        "/service-areas/westborough-ma/crawl-space-encapsulation/",
-        "/service-areas/weston-ma/crawl-space-encapsulation/",
-        "/service-areas/worcester-ma/crawl-space-encapsulation/"
+        "/service-areas/southbridge-town-ma/crawl-space-encapsulation/",
+        "/service-areas/sturbridge-ma/crawl-space-encapsulation/"
+      ]
+    },
+    {
+      "url_path": "/services/water-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Water Cleanup in Auburn | Quality Contracting, Inc.",
+      "h1": "Water Cleanup in Auburn",
+      "meta_description": "Water cleanup in Auburn and surrounding areas. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency water cleanup auburn",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/east-douglas-ma/water-cleanup/",
+        "/service-areas/framingham-ma/water-cleanup/",
+        "/service-areas/hopkinton-ma/water-cleanup/",
+        "/service-areas/natick-ma/water-cleanup/",
+        "/service-areas/needham-ma/water-cleanup/",
+        "/service-areas/newton-ma/water-cleanup/",
+        "/service-areas/northborough-ma/water-cleanup/",
+        "/service-areas/oxford-ma/water-cleanup/",
+        "/service-areas/shrewsbury-ma/water-cleanup/",
+        "/service-areas/southborough-ma/water-cleanup/",
+        "/service-areas/southbridge-town-ma/water-cleanup/",
+        "/service-areas/sturbridge-ma/water-cleanup/",
+        "/services/water-damage-restoration/"
       ]
     },
     {
@@ -791,12 +855,13 @@
         "/service-areas/worcester-ma/water-damage-restoration/",
         "/service-areas/worcester-ma/sewage-cleanup/",
         "/service-areas/worcester-ma/storm-damage-restoration/",
+        "/service-areas/worcester-ma/water-cleanup/",
         "/service-areas/worcester-ma/biohazard-cleanup/",
         "/service-areas/worcester-ma/emergency-board-up-tarping/",
         "/service-areas/worcester-ma/air-duct-cleaning/",
         "/service-areas/worcester-ma/contents-restoration/",
         "/service-areas/worcester-ma/crawl-space-encapsulation/",
-        "/service-areas/auburn-ma/",
+        "/service-areas/east-douglas-ma/",
         "/service-areas/framingham-ma/",
         "/service-areas/hopkinton-ma/"
       ]
@@ -838,12 +903,13 @@
         "/service-areas/shrewsbury-ma/water-damage-restoration/",
         "/service-areas/shrewsbury-ma/sewage-cleanup/",
         "/service-areas/shrewsbury-ma/storm-damage-restoration/",
+        "/service-areas/shrewsbury-ma/water-cleanup/",
         "/service-areas/shrewsbury-ma/biohazard-cleanup/",
         "/service-areas/shrewsbury-ma/emergency-board-up-tarping/",
         "/service-areas/shrewsbury-ma/air-duct-cleaning/",
         "/service-areas/shrewsbury-ma/contents-restoration/",
         "/service-areas/shrewsbury-ma/crawl-space-encapsulation/",
-        "/service-areas/auburn-ma/",
+        "/service-areas/east-douglas-ma/",
         "/service-areas/framingham-ma/",
         "/service-areas/hopkinton-ma/"
       ]
@@ -885,12 +951,13 @@
         "/service-areas/westborough-ma/water-damage-restoration/",
         "/service-areas/westborough-ma/sewage-cleanup/",
         "/service-areas/westborough-ma/storm-damage-restoration/",
+        "/service-areas/westborough-ma/water-cleanup/",
         "/service-areas/westborough-ma/biohazard-cleanup/",
         "/service-areas/westborough-ma/emergency-board-up-tarping/",
         "/service-areas/westborough-ma/air-duct-cleaning/",
         "/service-areas/westborough-ma/contents-restoration/",
         "/service-areas/westborough-ma/crawl-space-encapsulation/",
-        "/service-areas/auburn-ma/",
+        "/service-areas/east-douglas-ma/",
         "/service-areas/framingham-ma/",
         "/service-areas/hopkinton-ma/"
       ]
@@ -932,12 +999,13 @@
         "/service-areas/southborough-ma/water-damage-restoration/",
         "/service-areas/southborough-ma/sewage-cleanup/",
         "/service-areas/southborough-ma/storm-damage-restoration/",
+        "/service-areas/southborough-ma/water-cleanup/",
         "/service-areas/southborough-ma/biohazard-cleanup/",
         "/service-areas/southborough-ma/emergency-board-up-tarping/",
         "/service-areas/southborough-ma/air-duct-cleaning/",
         "/service-areas/southborough-ma/contents-restoration/",
         "/service-areas/southborough-ma/crawl-space-encapsulation/",
-        "/service-areas/auburn-ma/",
+        "/service-areas/east-douglas-ma/",
         "/service-areas/framingham-ma/",
         "/service-areas/hopkinton-ma/"
       ]
@@ -979,12 +1047,13 @@
         "/service-areas/hopkinton-ma/water-damage-restoration/",
         "/service-areas/hopkinton-ma/sewage-cleanup/",
         "/service-areas/hopkinton-ma/storm-damage-restoration/",
+        "/service-areas/hopkinton-ma/water-cleanup/",
         "/service-areas/hopkinton-ma/biohazard-cleanup/",
         "/service-areas/hopkinton-ma/emergency-board-up-tarping/",
         "/service-areas/hopkinton-ma/air-duct-cleaning/",
         "/service-areas/hopkinton-ma/contents-restoration/",
         "/service-areas/hopkinton-ma/crawl-space-encapsulation/",
-        "/service-areas/auburn-ma/",
+        "/service-areas/east-douglas-ma/",
         "/service-areas/framingham-ma/",
         "/service-areas/natick-ma/"
       ]
@@ -1026,12 +1095,13 @@
         "/service-areas/framingham-ma/water-damage-restoration/",
         "/service-areas/framingham-ma/sewage-cleanup/",
         "/service-areas/framingham-ma/storm-damage-restoration/",
+        "/service-areas/framingham-ma/water-cleanup/",
         "/service-areas/framingham-ma/biohazard-cleanup/",
         "/service-areas/framingham-ma/emergency-board-up-tarping/",
         "/service-areas/framingham-ma/air-duct-cleaning/",
         "/service-areas/framingham-ma/contents-restoration/",
         "/service-areas/framingham-ma/crawl-space-encapsulation/",
-        "/service-areas/auburn-ma/",
+        "/service-areas/east-douglas-ma/",
         "/service-areas/hopkinton-ma/",
         "/service-areas/natick-ma/"
       ]
@@ -1073,12 +1143,13 @@
         "/service-areas/natick-ma/water-damage-restoration/",
         "/service-areas/natick-ma/sewage-cleanup/",
         "/service-areas/natick-ma/storm-damage-restoration/",
+        "/service-areas/natick-ma/water-cleanup/",
         "/service-areas/natick-ma/biohazard-cleanup/",
         "/service-areas/natick-ma/emergency-board-up-tarping/",
         "/service-areas/natick-ma/air-duct-cleaning/",
         "/service-areas/natick-ma/contents-restoration/",
         "/service-areas/natick-ma/crawl-space-encapsulation/",
-        "/service-areas/auburn-ma/",
+        "/service-areas/east-douglas-ma/",
         "/service-areas/framingham-ma/",
         "/service-areas/hopkinton-ma/"
       ]
@@ -1120,12 +1191,13 @@
         "/service-areas/wellesley-ma/water-damage-restoration/",
         "/service-areas/wellesley-ma/sewage-cleanup/",
         "/service-areas/wellesley-ma/storm-damage-restoration/",
+        "/service-areas/wellesley-ma/water-cleanup/",
         "/service-areas/wellesley-ma/biohazard-cleanup/",
         "/service-areas/wellesley-ma/emergency-board-up-tarping/",
         "/service-areas/wellesley-ma/air-duct-cleaning/",
         "/service-areas/wellesley-ma/contents-restoration/",
         "/service-areas/wellesley-ma/crawl-space-encapsulation/",
-        "/service-areas/auburn-ma/",
+        "/service-areas/east-douglas-ma/",
         "/service-areas/framingham-ma/",
         "/service-areas/hopkinton-ma/"
       ]
@@ -1167,12 +1239,13 @@
         "/service-areas/needham-ma/water-damage-restoration/",
         "/service-areas/needham-ma/sewage-cleanup/",
         "/service-areas/needham-ma/storm-damage-restoration/",
+        "/service-areas/needham-ma/water-cleanup/",
         "/service-areas/needham-ma/biohazard-cleanup/",
         "/service-areas/needham-ma/emergency-board-up-tarping/",
         "/service-areas/needham-ma/air-duct-cleaning/",
         "/service-areas/needham-ma/contents-restoration/",
         "/service-areas/needham-ma/crawl-space-encapsulation/",
-        "/service-areas/auburn-ma/",
+        "/service-areas/east-douglas-ma/",
         "/service-areas/framingham-ma/",
         "/service-areas/hopkinton-ma/"
       ]
@@ -1214,12 +1287,13 @@
         "/service-areas/newton-ma/water-damage-restoration/",
         "/service-areas/newton-ma/sewage-cleanup/",
         "/service-areas/newton-ma/storm-damage-restoration/",
+        "/service-areas/newton-ma/water-cleanup/",
         "/service-areas/newton-ma/biohazard-cleanup/",
         "/service-areas/newton-ma/emergency-board-up-tarping/",
         "/service-areas/newton-ma/air-duct-cleaning/",
         "/service-areas/newton-ma/contents-restoration/",
         "/service-areas/newton-ma/crawl-space-encapsulation/",
-        "/service-areas/auburn-ma/",
+        "/service-areas/east-douglas-ma/",
         "/service-areas/framingham-ma/",
         "/service-areas/hopkinton-ma/"
       ]
@@ -1261,12 +1335,301 @@
         "/service-areas/weston-ma/water-damage-restoration/",
         "/service-areas/weston-ma/sewage-cleanup/",
         "/service-areas/weston-ma/storm-damage-restoration/",
+        "/service-areas/weston-ma/water-cleanup/",
         "/service-areas/weston-ma/biohazard-cleanup/",
         "/service-areas/weston-ma/emergency-board-up-tarping/",
         "/service-areas/weston-ma/air-duct-cleaning/",
         "/service-areas/weston-ma/contents-restoration/",
         "/service-areas/weston-ma/crawl-space-encapsulation/",
-        "/service-areas/auburn-ma/",
+        "/service-areas/east-douglas-ma/",
+        "/service-areas/framingham-ma/",
+        "/service-areas/hopkinton-ma/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oxford-ma/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Oxford, MA | Quality Contracting, Inc.",
+      "h1": "Restoration Services in Oxford",
+      "meta_description": "Serving Oxford, MA with water, fire, mold, and storm damage restoration. Experienced team. Call (508) 756-8800.",
+      "primary_keyword": "restoration services oxford",
+      "secondary_keywords": [
+        "oxford restoration company",
+        "damage restoration oxford",
+        "oxford disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/oxford-ma/fire-damage-restoration/",
+        "/service-areas/oxford-ma/mold-remediation/",
+        "/service-areas/oxford-ma/water-damage-restoration/",
+        "/service-areas/oxford-ma/sewage-cleanup/",
+        "/service-areas/oxford-ma/storm-damage-restoration/",
+        "/service-areas/oxford-ma/water-cleanup/",
+        "/service-areas/oxford-ma/biohazard-cleanup/",
+        "/service-areas/oxford-ma/emergency-board-up-tarping/",
+        "/service-areas/oxford-ma/air-duct-cleaning/",
+        "/service-areas/oxford-ma/contents-restoration/",
+        "/service-areas/oxford-ma/crawl-space-encapsulation/",
+        "/service-areas/east-douglas-ma/",
+        "/service-areas/framingham-ma/",
+        "/service-areas/hopkinton-ma/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/whitinsville-ma/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Whitinsville, MA | Quality Contracting, Inc.",
+      "h1": "Restoration Services in Whitinsville",
+      "meta_description": "Serving Whitinsville, MA with water, fire, mold, and storm damage restoration. Experienced team. Call (508) 756-8800.",
+      "primary_keyword": "restoration services whitinsville",
+      "secondary_keywords": [
+        "whitinsville restoration company",
+        "damage restoration whitinsville",
+        "whitinsville disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/whitinsville-ma/fire-damage-restoration/",
+        "/service-areas/whitinsville-ma/mold-remediation/",
+        "/service-areas/whitinsville-ma/water-damage-restoration/",
+        "/service-areas/whitinsville-ma/sewage-cleanup/",
+        "/service-areas/whitinsville-ma/storm-damage-restoration/",
+        "/service-areas/whitinsville-ma/water-cleanup/",
+        "/service-areas/whitinsville-ma/biohazard-cleanup/",
+        "/service-areas/whitinsville-ma/emergency-board-up-tarping/",
+        "/service-areas/whitinsville-ma/air-duct-cleaning/",
+        "/service-areas/whitinsville-ma/contents-restoration/",
+        "/service-areas/whitinsville-ma/crawl-space-encapsulation/",
+        "/service-areas/east-douglas-ma/",
+        "/service-areas/framingham-ma/",
+        "/service-areas/hopkinton-ma/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-douglas-ma/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in East Douglas, MA | Quality Contracting, Inc.",
+      "h1": "Restoration Services in East Douglas",
+      "meta_description": "Serving East Douglas, MA with water, fire, mold, and storm damage restoration. Experienced team. Call (508) 756-8800.",
+      "primary_keyword": "restoration services east douglas",
+      "secondary_keywords": [
+        "east douglas restoration company",
+        "damage restoration east douglas",
+        "east douglas disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/east-douglas-ma/fire-damage-restoration/",
+        "/service-areas/east-douglas-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/sewage-cleanup/",
+        "/service-areas/east-douglas-ma/storm-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-cleanup/",
+        "/service-areas/east-douglas-ma/biohazard-cleanup/",
+        "/service-areas/east-douglas-ma/emergency-board-up-tarping/",
+        "/service-areas/east-douglas-ma/air-duct-cleaning/",
+        "/service-areas/east-douglas-ma/contents-restoration/",
+        "/service-areas/east-douglas-ma/crawl-space-encapsulation/",
+        "/service-areas/framingham-ma/",
+        "/service-areas/hopkinton-ma/",
+        "/service-areas/natick-ma/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/northborough-ma/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Northborough, MA | Quality Contracting, Inc.",
+      "h1": "Restoration Services in Northborough",
+      "meta_description": "Serving Northborough, MA with water, fire, mold, and storm damage restoration. Experienced team. Call (508) 756-8800.",
+      "primary_keyword": "restoration services northborough",
+      "secondary_keywords": [
+        "northborough restoration company",
+        "damage restoration northborough",
+        "northborough disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/northborough-ma/fire-damage-restoration/",
+        "/service-areas/northborough-ma/mold-remediation/",
+        "/service-areas/northborough-ma/water-damage-restoration/",
+        "/service-areas/northborough-ma/sewage-cleanup/",
+        "/service-areas/northborough-ma/storm-damage-restoration/",
+        "/service-areas/northborough-ma/water-cleanup/",
+        "/service-areas/northborough-ma/biohazard-cleanup/",
+        "/service-areas/northborough-ma/emergency-board-up-tarping/",
+        "/service-areas/northborough-ma/air-duct-cleaning/",
+        "/service-areas/northborough-ma/contents-restoration/",
+        "/service-areas/northborough-ma/crawl-space-encapsulation/",
+        "/service-areas/east-douglas-ma/",
+        "/service-areas/framingham-ma/",
+        "/service-areas/hopkinton-ma/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/southbridge-town-ma/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Southbridge Town, MA | Quality Contracting, Inc.",
+      "h1": "Restoration Services in Southbridge Town",
+      "meta_description": "Serving Southbridge Town, MA with water, fire, mold, and storm damage restoration. Experienced team. Call (508) 756-8800.",
+      "primary_keyword": "restoration services southbridge town",
+      "secondary_keywords": [
+        "southbridge town restoration company",
+        "damage restoration southbridge town",
+        "southbridge town disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/southbridge-town-ma/fire-damage-restoration/",
+        "/service-areas/southbridge-town-ma/mold-remediation/",
+        "/service-areas/southbridge-town-ma/water-damage-restoration/",
+        "/service-areas/southbridge-town-ma/sewage-cleanup/",
+        "/service-areas/southbridge-town-ma/storm-damage-restoration/",
+        "/service-areas/southbridge-town-ma/water-cleanup/",
+        "/service-areas/southbridge-town-ma/biohazard-cleanup/",
+        "/service-areas/southbridge-town-ma/emergency-board-up-tarping/",
+        "/service-areas/southbridge-town-ma/air-duct-cleaning/",
+        "/service-areas/southbridge-town-ma/contents-restoration/",
+        "/service-areas/southbridge-town-ma/crawl-space-encapsulation/",
+        "/service-areas/east-douglas-ma/",
+        "/service-areas/framingham-ma/",
+        "/service-areas/hopkinton-ma/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sturbridge-ma/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Sturbridge, MA | Quality Contracting, Inc.",
+      "h1": "Restoration Services in Sturbridge",
+      "meta_description": "Serving Sturbridge, MA with water, fire, mold, and storm damage restoration. Experienced team. Call (508) 756-8800.",
+      "primary_keyword": "restoration services sturbridge",
+      "secondary_keywords": [
+        "sturbridge restoration company",
+        "damage restoration sturbridge",
+        "sturbridge disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/sturbridge-ma/fire-damage-restoration/",
+        "/service-areas/sturbridge-ma/mold-remediation/",
+        "/service-areas/sturbridge-ma/water-damage-restoration/",
+        "/service-areas/sturbridge-ma/sewage-cleanup/",
+        "/service-areas/sturbridge-ma/storm-damage-restoration/",
+        "/service-areas/sturbridge-ma/water-cleanup/",
+        "/service-areas/sturbridge-ma/biohazard-cleanup/",
+        "/service-areas/sturbridge-ma/emergency-board-up-tarping/",
+        "/service-areas/sturbridge-ma/air-duct-cleaning/",
+        "/service-areas/sturbridge-ma/contents-restoration/",
+        "/service-areas/sturbridge-ma/crawl-space-encapsulation/",
+        "/service-areas/east-douglas-ma/",
         "/service-areas/framingham-ma/",
         "/service-areas/hopkinton-ma/"
       ]
@@ -1310,7 +1673,7 @@
         "/service-areas/worcester-ma/",
         "/service-areas/worcester-ma/fire-damage-restoration/",
         "/service-areas/worcester-ma/mold-remediation/",
-        "/service-areas/auburn-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/service-areas/framingham-ma/water-damage-restoration/",
         "/contact/"
       ]
@@ -1354,7 +1717,7 @@
         "/service-areas/worcester-ma/",
         "/service-areas/worcester-ma/fire-damage-restoration/",
         "/service-areas/worcester-ma/mold-remediation/",
-        "/service-areas/auburn-ma/storm-damage-restoration/",
+        "/service-areas/east-douglas-ma/storm-damage-restoration/",
         "/service-areas/framingham-ma/storm-damage-restoration/",
         "/contact/"
       ]
@@ -1398,7 +1761,7 @@
         "/service-areas/worcester-ma/",
         "/service-areas/worcester-ma/mold-remediation/",
         "/service-areas/worcester-ma/water-damage-restoration/",
-        "/service-areas/auburn-ma/fire-damage-restoration/",
+        "/service-areas/east-douglas-ma/fire-damage-restoration/",
         "/service-areas/framingham-ma/fire-damage-restoration/",
         "/contact/"
       ]
@@ -1442,7 +1805,7 @@
         "/service-areas/worcester-ma/",
         "/service-areas/worcester-ma/fire-damage-restoration/",
         "/service-areas/worcester-ma/water-damage-restoration/",
-        "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/mold-remediation/",
         "/service-areas/framingham-ma/mold-remediation/",
         "/contact/"
       ]
@@ -1486,7 +1849,7 @@
         "/service-areas/worcester-ma/",
         "/service-areas/worcester-ma/fire-damage-restoration/",
         "/service-areas/worcester-ma/mold-remediation/",
-        "/service-areas/auburn-ma/sewage-cleanup/",
+        "/service-areas/east-douglas-ma/sewage-cleanup/",
         "/service-areas/framingham-ma/sewage-cleanup/",
         "/contact/"
       ]
@@ -1530,7 +1893,7 @@
         "/service-areas/worcester-ma/",
         "/service-areas/worcester-ma/fire-damage-restoration/",
         "/service-areas/worcester-ma/mold-remediation/",
-        "/service-areas/auburn-ma/biohazard-cleanup/",
+        "/service-areas/east-douglas-ma/biohazard-cleanup/",
         "/service-areas/framingham-ma/biohazard-cleanup/",
         "/contact/"
       ]
@@ -1572,7 +1935,7 @@
         "/service-areas/worcester-ma/",
         "/service-areas/worcester-ma/fire-damage-restoration/",
         "/service-areas/worcester-ma/mold-remediation/",
-        "/service-areas/auburn-ma/emergency-board-up-tarping/",
+        "/service-areas/east-douglas-ma/emergency-board-up-tarping/",
         "/service-areas/framingham-ma/emergency-board-up-tarping/",
         "/contact/"
       ]
@@ -1616,7 +1979,7 @@
         "/service-areas/worcester-ma/",
         "/service-areas/worcester-ma/fire-damage-restoration/",
         "/service-areas/worcester-ma/mold-remediation/",
-        "/service-areas/auburn-ma/contents-restoration/",
+        "/service-areas/east-douglas-ma/contents-restoration/",
         "/service-areas/framingham-ma/contents-restoration/",
         "/contact/"
       ]
@@ -1660,7 +2023,7 @@
         "/service-areas/worcester-ma/",
         "/service-areas/worcester-ma/fire-damage-restoration/",
         "/service-areas/worcester-ma/mold-remediation/",
-        "/service-areas/auburn-ma/air-duct-cleaning/",
+        "/service-areas/east-douglas-ma/air-duct-cleaning/",
         "/service-areas/framingham-ma/air-duct-cleaning/",
         "/contact/"
       ]
@@ -1698,8 +2061,52 @@
         "/service-areas/worcester-ma/",
         "/service-areas/worcester-ma/fire-damage-restoration/",
         "/service-areas/worcester-ma/mold-remediation/",
-        "/service-areas/auburn-ma/crawl-space-encapsulation/",
+        "/service-areas/east-douglas-ma/crawl-space-encapsulation/",
         "/service-areas/framingham-ma/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/worcester-ma/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Worcester, MA | Quality Contracting, Inc.",
+      "h1": "Water Cleanup in Worcester",
+      "meta_description": "Water cleanup in Worcester, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency water cleanup worcester",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/worcester-ma/",
+        "/service-areas/worcester-ma/fire-damage-restoration/",
+        "/service-areas/worcester-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/water-cleanup/",
+        "/service-areas/framingham-ma/water-cleanup/",
         "/contact/"
       ]
     },
@@ -1742,7 +2149,7 @@
         "/service-areas/shrewsbury-ma/",
         "/service-areas/shrewsbury-ma/fire-damage-restoration/",
         "/service-areas/shrewsbury-ma/mold-remediation/",
-        "/service-areas/auburn-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/service-areas/framingham-ma/water-damage-restoration/",
         "/contact/"
       ]
@@ -1786,7 +2193,7 @@
         "/service-areas/shrewsbury-ma/",
         "/service-areas/shrewsbury-ma/fire-damage-restoration/",
         "/service-areas/shrewsbury-ma/mold-remediation/",
-        "/service-areas/auburn-ma/storm-damage-restoration/",
+        "/service-areas/east-douglas-ma/storm-damage-restoration/",
         "/service-areas/framingham-ma/storm-damage-restoration/",
         "/contact/"
       ]
@@ -1830,7 +2237,7 @@
         "/service-areas/shrewsbury-ma/",
         "/service-areas/shrewsbury-ma/mold-remediation/",
         "/service-areas/shrewsbury-ma/water-damage-restoration/",
-        "/service-areas/auburn-ma/fire-damage-restoration/",
+        "/service-areas/east-douglas-ma/fire-damage-restoration/",
         "/service-areas/framingham-ma/fire-damage-restoration/",
         "/contact/"
       ]
@@ -1874,7 +2281,7 @@
         "/service-areas/shrewsbury-ma/",
         "/service-areas/shrewsbury-ma/fire-damage-restoration/",
         "/service-areas/shrewsbury-ma/water-damage-restoration/",
-        "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/mold-remediation/",
         "/service-areas/framingham-ma/mold-remediation/",
         "/contact/"
       ]
@@ -1918,7 +2325,7 @@
         "/service-areas/shrewsbury-ma/",
         "/service-areas/shrewsbury-ma/fire-damage-restoration/",
         "/service-areas/shrewsbury-ma/mold-remediation/",
-        "/service-areas/auburn-ma/sewage-cleanup/",
+        "/service-areas/east-douglas-ma/sewage-cleanup/",
         "/service-areas/framingham-ma/sewage-cleanup/",
         "/contact/"
       ]
@@ -1962,7 +2369,7 @@
         "/service-areas/shrewsbury-ma/",
         "/service-areas/shrewsbury-ma/fire-damage-restoration/",
         "/service-areas/shrewsbury-ma/mold-remediation/",
-        "/service-areas/auburn-ma/biohazard-cleanup/",
+        "/service-areas/east-douglas-ma/biohazard-cleanup/",
         "/service-areas/framingham-ma/biohazard-cleanup/",
         "/contact/"
       ]
@@ -2004,7 +2411,7 @@
         "/service-areas/shrewsbury-ma/",
         "/service-areas/shrewsbury-ma/fire-damage-restoration/",
         "/service-areas/shrewsbury-ma/mold-remediation/",
-        "/service-areas/auburn-ma/emergency-board-up-tarping/",
+        "/service-areas/east-douglas-ma/emergency-board-up-tarping/",
         "/service-areas/framingham-ma/emergency-board-up-tarping/",
         "/contact/"
       ]
@@ -2048,7 +2455,7 @@
         "/service-areas/shrewsbury-ma/",
         "/service-areas/shrewsbury-ma/fire-damage-restoration/",
         "/service-areas/shrewsbury-ma/mold-remediation/",
-        "/service-areas/auburn-ma/contents-restoration/",
+        "/service-areas/east-douglas-ma/contents-restoration/",
         "/service-areas/framingham-ma/contents-restoration/",
         "/contact/"
       ]
@@ -2092,7 +2499,7 @@
         "/service-areas/shrewsbury-ma/",
         "/service-areas/shrewsbury-ma/fire-damage-restoration/",
         "/service-areas/shrewsbury-ma/mold-remediation/",
-        "/service-areas/auburn-ma/air-duct-cleaning/",
+        "/service-areas/east-douglas-ma/air-duct-cleaning/",
         "/service-areas/framingham-ma/air-duct-cleaning/",
         "/contact/"
       ]
@@ -2130,8 +2537,52 @@
         "/service-areas/shrewsbury-ma/",
         "/service-areas/shrewsbury-ma/fire-damage-restoration/",
         "/service-areas/shrewsbury-ma/mold-remediation/",
-        "/service-areas/auburn-ma/crawl-space-encapsulation/",
+        "/service-areas/east-douglas-ma/crawl-space-encapsulation/",
         "/service-areas/framingham-ma/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/shrewsbury-ma/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Shrewsbury, MA | Quality Contracting, Inc.",
+      "h1": "Water Cleanup in Shrewsbury",
+      "meta_description": "Water cleanup in Shrewsbury, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency water cleanup shrewsbury",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/shrewsbury-ma/",
+        "/service-areas/shrewsbury-ma/fire-damage-restoration/",
+        "/service-areas/shrewsbury-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/water-cleanup/",
+        "/service-areas/framingham-ma/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2174,7 +2625,7 @@
         "/service-areas/westborough-ma/",
         "/service-areas/westborough-ma/fire-damage-restoration/",
         "/service-areas/westborough-ma/mold-remediation/",
-        "/service-areas/auburn-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/service-areas/framingham-ma/water-damage-restoration/",
         "/contact/"
       ]
@@ -2218,7 +2669,7 @@
         "/service-areas/westborough-ma/",
         "/service-areas/westborough-ma/fire-damage-restoration/",
         "/service-areas/westborough-ma/mold-remediation/",
-        "/service-areas/auburn-ma/storm-damage-restoration/",
+        "/service-areas/east-douglas-ma/storm-damage-restoration/",
         "/service-areas/framingham-ma/storm-damage-restoration/",
         "/contact/"
       ]
@@ -2262,7 +2713,7 @@
         "/service-areas/westborough-ma/",
         "/service-areas/westborough-ma/mold-remediation/",
         "/service-areas/westborough-ma/water-damage-restoration/",
-        "/service-areas/auburn-ma/fire-damage-restoration/",
+        "/service-areas/east-douglas-ma/fire-damage-restoration/",
         "/service-areas/framingham-ma/fire-damage-restoration/",
         "/contact/"
       ]
@@ -2306,7 +2757,7 @@
         "/service-areas/westborough-ma/",
         "/service-areas/westborough-ma/fire-damage-restoration/",
         "/service-areas/westborough-ma/water-damage-restoration/",
-        "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/mold-remediation/",
         "/service-areas/framingham-ma/mold-remediation/",
         "/contact/"
       ]
@@ -2350,7 +2801,7 @@
         "/service-areas/westborough-ma/",
         "/service-areas/westborough-ma/fire-damage-restoration/",
         "/service-areas/westborough-ma/mold-remediation/",
-        "/service-areas/auburn-ma/sewage-cleanup/",
+        "/service-areas/east-douglas-ma/sewage-cleanup/",
         "/service-areas/framingham-ma/sewage-cleanup/",
         "/contact/"
       ]
@@ -2394,7 +2845,7 @@
         "/service-areas/westborough-ma/",
         "/service-areas/westborough-ma/fire-damage-restoration/",
         "/service-areas/westborough-ma/mold-remediation/",
-        "/service-areas/auburn-ma/biohazard-cleanup/",
+        "/service-areas/east-douglas-ma/biohazard-cleanup/",
         "/service-areas/framingham-ma/biohazard-cleanup/",
         "/contact/"
       ]
@@ -2436,7 +2887,7 @@
         "/service-areas/westborough-ma/",
         "/service-areas/westborough-ma/fire-damage-restoration/",
         "/service-areas/westborough-ma/mold-remediation/",
-        "/service-areas/auburn-ma/emergency-board-up-tarping/",
+        "/service-areas/east-douglas-ma/emergency-board-up-tarping/",
         "/service-areas/framingham-ma/emergency-board-up-tarping/",
         "/contact/"
       ]
@@ -2480,7 +2931,7 @@
         "/service-areas/westborough-ma/",
         "/service-areas/westborough-ma/fire-damage-restoration/",
         "/service-areas/westborough-ma/mold-remediation/",
-        "/service-areas/auburn-ma/contents-restoration/",
+        "/service-areas/east-douglas-ma/contents-restoration/",
         "/service-areas/framingham-ma/contents-restoration/",
         "/contact/"
       ]
@@ -2524,7 +2975,7 @@
         "/service-areas/westborough-ma/",
         "/service-areas/westborough-ma/fire-damage-restoration/",
         "/service-areas/westborough-ma/mold-remediation/",
-        "/service-areas/auburn-ma/air-duct-cleaning/",
+        "/service-areas/east-douglas-ma/air-duct-cleaning/",
         "/service-areas/framingham-ma/air-duct-cleaning/",
         "/contact/"
       ]
@@ -2562,8 +3013,52 @@
         "/service-areas/westborough-ma/",
         "/service-areas/westborough-ma/fire-damage-restoration/",
         "/service-areas/westborough-ma/mold-remediation/",
-        "/service-areas/auburn-ma/crawl-space-encapsulation/",
+        "/service-areas/east-douglas-ma/crawl-space-encapsulation/",
         "/service-areas/framingham-ma/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/westborough-ma/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Westborough, MA | Quality Contracting, Inc.",
+      "h1": "Water Cleanup in Westborough",
+      "meta_description": "Water cleanup in Westborough, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency water cleanup westborough",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/westborough-ma/",
+        "/service-areas/westborough-ma/fire-damage-restoration/",
+        "/service-areas/westborough-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/water-cleanup/",
+        "/service-areas/framingham-ma/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2606,7 +3101,7 @@
         "/service-areas/southborough-ma/",
         "/service-areas/southborough-ma/fire-damage-restoration/",
         "/service-areas/southborough-ma/mold-remediation/",
-        "/service-areas/auburn-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/service-areas/framingham-ma/water-damage-restoration/",
         "/contact/"
       ]
@@ -2650,7 +3145,7 @@
         "/service-areas/southborough-ma/",
         "/service-areas/southborough-ma/fire-damage-restoration/",
         "/service-areas/southborough-ma/mold-remediation/",
-        "/service-areas/auburn-ma/storm-damage-restoration/",
+        "/service-areas/east-douglas-ma/storm-damage-restoration/",
         "/service-areas/framingham-ma/storm-damage-restoration/",
         "/contact/"
       ]
@@ -2694,7 +3189,7 @@
         "/service-areas/southborough-ma/",
         "/service-areas/southborough-ma/mold-remediation/",
         "/service-areas/southborough-ma/water-damage-restoration/",
-        "/service-areas/auburn-ma/fire-damage-restoration/",
+        "/service-areas/east-douglas-ma/fire-damage-restoration/",
         "/service-areas/framingham-ma/fire-damage-restoration/",
         "/contact/"
       ]
@@ -2738,7 +3233,7 @@
         "/service-areas/southborough-ma/",
         "/service-areas/southborough-ma/fire-damage-restoration/",
         "/service-areas/southborough-ma/water-damage-restoration/",
-        "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/mold-remediation/",
         "/service-areas/framingham-ma/mold-remediation/",
         "/contact/"
       ]
@@ -2782,7 +3277,7 @@
         "/service-areas/southborough-ma/",
         "/service-areas/southborough-ma/fire-damage-restoration/",
         "/service-areas/southborough-ma/mold-remediation/",
-        "/service-areas/auburn-ma/sewage-cleanup/",
+        "/service-areas/east-douglas-ma/sewage-cleanup/",
         "/service-areas/framingham-ma/sewage-cleanup/",
         "/contact/"
       ]
@@ -2826,7 +3321,7 @@
         "/service-areas/southborough-ma/",
         "/service-areas/southborough-ma/fire-damage-restoration/",
         "/service-areas/southborough-ma/mold-remediation/",
-        "/service-areas/auburn-ma/biohazard-cleanup/",
+        "/service-areas/east-douglas-ma/biohazard-cleanup/",
         "/service-areas/framingham-ma/biohazard-cleanup/",
         "/contact/"
       ]
@@ -2868,7 +3363,7 @@
         "/service-areas/southborough-ma/",
         "/service-areas/southborough-ma/fire-damage-restoration/",
         "/service-areas/southborough-ma/mold-remediation/",
-        "/service-areas/auburn-ma/emergency-board-up-tarping/",
+        "/service-areas/east-douglas-ma/emergency-board-up-tarping/",
         "/service-areas/framingham-ma/emergency-board-up-tarping/",
         "/contact/"
       ]
@@ -2912,7 +3407,7 @@
         "/service-areas/southborough-ma/",
         "/service-areas/southborough-ma/fire-damage-restoration/",
         "/service-areas/southborough-ma/mold-remediation/",
-        "/service-areas/auburn-ma/contents-restoration/",
+        "/service-areas/east-douglas-ma/contents-restoration/",
         "/service-areas/framingham-ma/contents-restoration/",
         "/contact/"
       ]
@@ -2956,7 +3451,7 @@
         "/service-areas/southborough-ma/",
         "/service-areas/southborough-ma/fire-damage-restoration/",
         "/service-areas/southborough-ma/mold-remediation/",
-        "/service-areas/auburn-ma/air-duct-cleaning/",
+        "/service-areas/east-douglas-ma/air-duct-cleaning/",
         "/service-areas/framingham-ma/air-duct-cleaning/",
         "/contact/"
       ]
@@ -2994,8 +3489,52 @@
         "/service-areas/southborough-ma/",
         "/service-areas/southborough-ma/fire-damage-restoration/",
         "/service-areas/southborough-ma/mold-remediation/",
-        "/service-areas/auburn-ma/crawl-space-encapsulation/",
+        "/service-areas/east-douglas-ma/crawl-space-encapsulation/",
         "/service-areas/framingham-ma/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/southborough-ma/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Southborough, MA | Quality Contracting, Inc.",
+      "h1": "Water Cleanup in Southborough",
+      "meta_description": "Water cleanup in Southborough, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency water cleanup southborough",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/southborough-ma/",
+        "/service-areas/southborough-ma/fire-damage-restoration/",
+        "/service-areas/southborough-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/water-cleanup/",
+        "/service-areas/framingham-ma/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3038,7 +3577,7 @@
         "/service-areas/hopkinton-ma/",
         "/service-areas/hopkinton-ma/fire-damage-restoration/",
         "/service-areas/hopkinton-ma/mold-remediation/",
-        "/service-areas/auburn-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/service-areas/framingham-ma/water-damage-restoration/",
         "/contact/"
       ]
@@ -3082,7 +3621,7 @@
         "/service-areas/hopkinton-ma/",
         "/service-areas/hopkinton-ma/fire-damage-restoration/",
         "/service-areas/hopkinton-ma/mold-remediation/",
-        "/service-areas/auburn-ma/storm-damage-restoration/",
+        "/service-areas/east-douglas-ma/storm-damage-restoration/",
         "/service-areas/framingham-ma/storm-damage-restoration/",
         "/contact/"
       ]
@@ -3126,7 +3665,7 @@
         "/service-areas/hopkinton-ma/",
         "/service-areas/hopkinton-ma/mold-remediation/",
         "/service-areas/hopkinton-ma/water-damage-restoration/",
-        "/service-areas/auburn-ma/fire-damage-restoration/",
+        "/service-areas/east-douglas-ma/fire-damage-restoration/",
         "/service-areas/framingham-ma/fire-damage-restoration/",
         "/contact/"
       ]
@@ -3170,7 +3709,7 @@
         "/service-areas/hopkinton-ma/",
         "/service-areas/hopkinton-ma/fire-damage-restoration/",
         "/service-areas/hopkinton-ma/water-damage-restoration/",
-        "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/mold-remediation/",
         "/service-areas/framingham-ma/mold-remediation/",
         "/contact/"
       ]
@@ -3214,7 +3753,7 @@
         "/service-areas/hopkinton-ma/",
         "/service-areas/hopkinton-ma/fire-damage-restoration/",
         "/service-areas/hopkinton-ma/mold-remediation/",
-        "/service-areas/auburn-ma/sewage-cleanup/",
+        "/service-areas/east-douglas-ma/sewage-cleanup/",
         "/service-areas/framingham-ma/sewage-cleanup/",
         "/contact/"
       ]
@@ -3258,7 +3797,7 @@
         "/service-areas/hopkinton-ma/",
         "/service-areas/hopkinton-ma/fire-damage-restoration/",
         "/service-areas/hopkinton-ma/mold-remediation/",
-        "/service-areas/auburn-ma/biohazard-cleanup/",
+        "/service-areas/east-douglas-ma/biohazard-cleanup/",
         "/service-areas/framingham-ma/biohazard-cleanup/",
         "/contact/"
       ]
@@ -3300,7 +3839,7 @@
         "/service-areas/hopkinton-ma/",
         "/service-areas/hopkinton-ma/fire-damage-restoration/",
         "/service-areas/hopkinton-ma/mold-remediation/",
-        "/service-areas/auburn-ma/emergency-board-up-tarping/",
+        "/service-areas/east-douglas-ma/emergency-board-up-tarping/",
         "/service-areas/framingham-ma/emergency-board-up-tarping/",
         "/contact/"
       ]
@@ -3344,7 +3883,7 @@
         "/service-areas/hopkinton-ma/",
         "/service-areas/hopkinton-ma/fire-damage-restoration/",
         "/service-areas/hopkinton-ma/mold-remediation/",
-        "/service-areas/auburn-ma/contents-restoration/",
+        "/service-areas/east-douglas-ma/contents-restoration/",
         "/service-areas/framingham-ma/contents-restoration/",
         "/contact/"
       ]
@@ -3388,7 +3927,7 @@
         "/service-areas/hopkinton-ma/",
         "/service-areas/hopkinton-ma/fire-damage-restoration/",
         "/service-areas/hopkinton-ma/mold-remediation/",
-        "/service-areas/auburn-ma/air-duct-cleaning/",
+        "/service-areas/east-douglas-ma/air-duct-cleaning/",
         "/service-areas/framingham-ma/air-duct-cleaning/",
         "/contact/"
       ]
@@ -3426,8 +3965,52 @@
         "/service-areas/hopkinton-ma/",
         "/service-areas/hopkinton-ma/fire-damage-restoration/",
         "/service-areas/hopkinton-ma/mold-remediation/",
-        "/service-areas/auburn-ma/crawl-space-encapsulation/",
+        "/service-areas/east-douglas-ma/crawl-space-encapsulation/",
         "/service-areas/framingham-ma/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hopkinton-ma/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Hopkinton, MA | Quality Contracting, Inc.",
+      "h1": "Water Cleanup in Hopkinton",
+      "meta_description": "Water cleanup in Hopkinton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency water cleanup hopkinton",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/hopkinton-ma/",
+        "/service-areas/hopkinton-ma/fire-damage-restoration/",
+        "/service-areas/hopkinton-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/water-cleanup/",
+        "/service-areas/framingham-ma/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3470,7 +4053,7 @@
         "/service-areas/framingham-ma/",
         "/service-areas/framingham-ma/fire-damage-restoration/",
         "/service-areas/framingham-ma/mold-remediation/",
-        "/service-areas/auburn-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/service-areas/hopkinton-ma/water-damage-restoration/",
         "/contact/"
       ]
@@ -3514,7 +4097,7 @@
         "/service-areas/framingham-ma/",
         "/service-areas/framingham-ma/fire-damage-restoration/",
         "/service-areas/framingham-ma/mold-remediation/",
-        "/service-areas/auburn-ma/storm-damage-restoration/",
+        "/service-areas/east-douglas-ma/storm-damage-restoration/",
         "/service-areas/hopkinton-ma/storm-damage-restoration/",
         "/contact/"
       ]
@@ -3558,7 +4141,7 @@
         "/service-areas/framingham-ma/",
         "/service-areas/framingham-ma/mold-remediation/",
         "/service-areas/framingham-ma/water-damage-restoration/",
-        "/service-areas/auburn-ma/fire-damage-restoration/",
+        "/service-areas/east-douglas-ma/fire-damage-restoration/",
         "/service-areas/hopkinton-ma/fire-damage-restoration/",
         "/contact/"
       ]
@@ -3602,7 +4185,7 @@
         "/service-areas/framingham-ma/",
         "/service-areas/framingham-ma/fire-damage-restoration/",
         "/service-areas/framingham-ma/water-damage-restoration/",
-        "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/mold-remediation/",
         "/service-areas/hopkinton-ma/mold-remediation/",
         "/contact/"
       ]
@@ -3646,7 +4229,7 @@
         "/service-areas/framingham-ma/",
         "/service-areas/framingham-ma/fire-damage-restoration/",
         "/service-areas/framingham-ma/mold-remediation/",
-        "/service-areas/auburn-ma/sewage-cleanup/",
+        "/service-areas/east-douglas-ma/sewage-cleanup/",
         "/service-areas/hopkinton-ma/sewage-cleanup/",
         "/contact/"
       ]
@@ -3690,7 +4273,7 @@
         "/service-areas/framingham-ma/",
         "/service-areas/framingham-ma/fire-damage-restoration/",
         "/service-areas/framingham-ma/mold-remediation/",
-        "/service-areas/auburn-ma/biohazard-cleanup/",
+        "/service-areas/east-douglas-ma/biohazard-cleanup/",
         "/service-areas/hopkinton-ma/biohazard-cleanup/",
         "/contact/"
       ]
@@ -3732,7 +4315,7 @@
         "/service-areas/framingham-ma/",
         "/service-areas/framingham-ma/fire-damage-restoration/",
         "/service-areas/framingham-ma/mold-remediation/",
-        "/service-areas/auburn-ma/emergency-board-up-tarping/",
+        "/service-areas/east-douglas-ma/emergency-board-up-tarping/",
         "/service-areas/hopkinton-ma/emergency-board-up-tarping/",
         "/contact/"
       ]
@@ -3776,7 +4359,7 @@
         "/service-areas/framingham-ma/",
         "/service-areas/framingham-ma/fire-damage-restoration/",
         "/service-areas/framingham-ma/mold-remediation/",
-        "/service-areas/auburn-ma/contents-restoration/",
+        "/service-areas/east-douglas-ma/contents-restoration/",
         "/service-areas/hopkinton-ma/contents-restoration/",
         "/contact/"
       ]
@@ -3820,7 +4403,7 @@
         "/service-areas/framingham-ma/",
         "/service-areas/framingham-ma/fire-damage-restoration/",
         "/service-areas/framingham-ma/mold-remediation/",
-        "/service-areas/auburn-ma/air-duct-cleaning/",
+        "/service-areas/east-douglas-ma/air-duct-cleaning/",
         "/service-areas/hopkinton-ma/air-duct-cleaning/",
         "/contact/"
       ]
@@ -3858,8 +4441,52 @@
         "/service-areas/framingham-ma/",
         "/service-areas/framingham-ma/fire-damage-restoration/",
         "/service-areas/framingham-ma/mold-remediation/",
-        "/service-areas/auburn-ma/crawl-space-encapsulation/",
+        "/service-areas/east-douglas-ma/crawl-space-encapsulation/",
         "/service-areas/hopkinton-ma/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/framingham-ma/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Framingham, MA | Quality Contracting, Inc.",
+      "h1": "Water Cleanup in Framingham",
+      "meta_description": "Water cleanup in Framingham, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency water cleanup framingham",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/framingham-ma/",
+        "/service-areas/framingham-ma/fire-damage-restoration/",
+        "/service-areas/framingham-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/water-cleanup/",
+        "/service-areas/hopkinton-ma/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3902,7 +4529,7 @@
         "/service-areas/natick-ma/",
         "/service-areas/natick-ma/fire-damage-restoration/",
         "/service-areas/natick-ma/mold-remediation/",
-        "/service-areas/auburn-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/service-areas/framingham-ma/water-damage-restoration/",
         "/contact/"
       ]
@@ -3946,7 +4573,7 @@
         "/service-areas/natick-ma/",
         "/service-areas/natick-ma/fire-damage-restoration/",
         "/service-areas/natick-ma/mold-remediation/",
-        "/service-areas/auburn-ma/storm-damage-restoration/",
+        "/service-areas/east-douglas-ma/storm-damage-restoration/",
         "/service-areas/framingham-ma/storm-damage-restoration/",
         "/contact/"
       ]
@@ -3990,7 +4617,7 @@
         "/service-areas/natick-ma/",
         "/service-areas/natick-ma/mold-remediation/",
         "/service-areas/natick-ma/water-damage-restoration/",
-        "/service-areas/auburn-ma/fire-damage-restoration/",
+        "/service-areas/east-douglas-ma/fire-damage-restoration/",
         "/service-areas/framingham-ma/fire-damage-restoration/",
         "/contact/"
       ]
@@ -4034,7 +4661,7 @@
         "/service-areas/natick-ma/",
         "/service-areas/natick-ma/fire-damage-restoration/",
         "/service-areas/natick-ma/water-damage-restoration/",
-        "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/mold-remediation/",
         "/service-areas/framingham-ma/mold-remediation/",
         "/contact/"
       ]
@@ -4078,7 +4705,7 @@
         "/service-areas/natick-ma/",
         "/service-areas/natick-ma/fire-damage-restoration/",
         "/service-areas/natick-ma/mold-remediation/",
-        "/service-areas/auburn-ma/sewage-cleanup/",
+        "/service-areas/east-douglas-ma/sewage-cleanup/",
         "/service-areas/framingham-ma/sewage-cleanup/",
         "/contact/"
       ]
@@ -4122,7 +4749,7 @@
         "/service-areas/natick-ma/",
         "/service-areas/natick-ma/fire-damage-restoration/",
         "/service-areas/natick-ma/mold-remediation/",
-        "/service-areas/auburn-ma/biohazard-cleanup/",
+        "/service-areas/east-douglas-ma/biohazard-cleanup/",
         "/service-areas/framingham-ma/biohazard-cleanup/",
         "/contact/"
       ]
@@ -4164,7 +4791,7 @@
         "/service-areas/natick-ma/",
         "/service-areas/natick-ma/fire-damage-restoration/",
         "/service-areas/natick-ma/mold-remediation/",
-        "/service-areas/auburn-ma/emergency-board-up-tarping/",
+        "/service-areas/east-douglas-ma/emergency-board-up-tarping/",
         "/service-areas/framingham-ma/emergency-board-up-tarping/",
         "/contact/"
       ]
@@ -4208,7 +4835,7 @@
         "/service-areas/natick-ma/",
         "/service-areas/natick-ma/fire-damage-restoration/",
         "/service-areas/natick-ma/mold-remediation/",
-        "/service-areas/auburn-ma/contents-restoration/",
+        "/service-areas/east-douglas-ma/contents-restoration/",
         "/service-areas/framingham-ma/contents-restoration/",
         "/contact/"
       ]
@@ -4252,7 +4879,7 @@
         "/service-areas/natick-ma/",
         "/service-areas/natick-ma/fire-damage-restoration/",
         "/service-areas/natick-ma/mold-remediation/",
-        "/service-areas/auburn-ma/air-duct-cleaning/",
+        "/service-areas/east-douglas-ma/air-duct-cleaning/",
         "/service-areas/framingham-ma/air-duct-cleaning/",
         "/contact/"
       ]
@@ -4290,8 +4917,52 @@
         "/service-areas/natick-ma/",
         "/service-areas/natick-ma/fire-damage-restoration/",
         "/service-areas/natick-ma/mold-remediation/",
-        "/service-areas/auburn-ma/crawl-space-encapsulation/",
+        "/service-areas/east-douglas-ma/crawl-space-encapsulation/",
         "/service-areas/framingham-ma/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/natick-ma/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Natick, MA | Quality Contracting, Inc.",
+      "h1": "Water Cleanup in Natick",
+      "meta_description": "Water cleanup in Natick, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency water cleanup natick",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/natick-ma/",
+        "/service-areas/natick-ma/fire-damage-restoration/",
+        "/service-areas/natick-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/water-cleanup/",
+        "/service-areas/framingham-ma/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4334,7 +5005,7 @@
         "/service-areas/wellesley-ma/",
         "/service-areas/wellesley-ma/fire-damage-restoration/",
         "/service-areas/wellesley-ma/mold-remediation/",
-        "/service-areas/auburn-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/service-areas/framingham-ma/water-damage-restoration/",
         "/contact/"
       ]
@@ -4378,7 +5049,7 @@
         "/service-areas/wellesley-ma/",
         "/service-areas/wellesley-ma/fire-damage-restoration/",
         "/service-areas/wellesley-ma/mold-remediation/",
-        "/service-areas/auburn-ma/storm-damage-restoration/",
+        "/service-areas/east-douglas-ma/storm-damage-restoration/",
         "/service-areas/framingham-ma/storm-damage-restoration/",
         "/contact/"
       ]
@@ -4422,7 +5093,7 @@
         "/service-areas/wellesley-ma/",
         "/service-areas/wellesley-ma/mold-remediation/",
         "/service-areas/wellesley-ma/water-damage-restoration/",
-        "/service-areas/auburn-ma/fire-damage-restoration/",
+        "/service-areas/east-douglas-ma/fire-damage-restoration/",
         "/service-areas/framingham-ma/fire-damage-restoration/",
         "/contact/"
       ]
@@ -4466,7 +5137,7 @@
         "/service-areas/wellesley-ma/",
         "/service-areas/wellesley-ma/fire-damage-restoration/",
         "/service-areas/wellesley-ma/water-damage-restoration/",
-        "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/mold-remediation/",
         "/service-areas/framingham-ma/mold-remediation/",
         "/contact/"
       ]
@@ -4510,7 +5181,7 @@
         "/service-areas/wellesley-ma/",
         "/service-areas/wellesley-ma/fire-damage-restoration/",
         "/service-areas/wellesley-ma/mold-remediation/",
-        "/service-areas/auburn-ma/sewage-cleanup/",
+        "/service-areas/east-douglas-ma/sewage-cleanup/",
         "/service-areas/framingham-ma/sewage-cleanup/",
         "/contact/"
       ]
@@ -4554,7 +5225,7 @@
         "/service-areas/wellesley-ma/",
         "/service-areas/wellesley-ma/fire-damage-restoration/",
         "/service-areas/wellesley-ma/mold-remediation/",
-        "/service-areas/auburn-ma/biohazard-cleanup/",
+        "/service-areas/east-douglas-ma/biohazard-cleanup/",
         "/service-areas/framingham-ma/biohazard-cleanup/",
         "/contact/"
       ]
@@ -4596,7 +5267,7 @@
         "/service-areas/wellesley-ma/",
         "/service-areas/wellesley-ma/fire-damage-restoration/",
         "/service-areas/wellesley-ma/mold-remediation/",
-        "/service-areas/auburn-ma/emergency-board-up-tarping/",
+        "/service-areas/east-douglas-ma/emergency-board-up-tarping/",
         "/service-areas/framingham-ma/emergency-board-up-tarping/",
         "/contact/"
       ]
@@ -4640,7 +5311,7 @@
         "/service-areas/wellesley-ma/",
         "/service-areas/wellesley-ma/fire-damage-restoration/",
         "/service-areas/wellesley-ma/mold-remediation/",
-        "/service-areas/auburn-ma/contents-restoration/",
+        "/service-areas/east-douglas-ma/contents-restoration/",
         "/service-areas/framingham-ma/contents-restoration/",
         "/contact/"
       ]
@@ -4684,7 +5355,7 @@
         "/service-areas/wellesley-ma/",
         "/service-areas/wellesley-ma/fire-damage-restoration/",
         "/service-areas/wellesley-ma/mold-remediation/",
-        "/service-areas/auburn-ma/air-duct-cleaning/",
+        "/service-areas/east-douglas-ma/air-duct-cleaning/",
         "/service-areas/framingham-ma/air-duct-cleaning/",
         "/contact/"
       ]
@@ -4722,8 +5393,52 @@
         "/service-areas/wellesley-ma/",
         "/service-areas/wellesley-ma/fire-damage-restoration/",
         "/service-areas/wellesley-ma/mold-remediation/",
-        "/service-areas/auburn-ma/crawl-space-encapsulation/",
+        "/service-areas/east-douglas-ma/crawl-space-encapsulation/",
         "/service-areas/framingham-ma/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/wellesley-ma/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Wellesley, MA | Quality Contracting, Inc.",
+      "h1": "Water Cleanup in Wellesley",
+      "meta_description": "Water cleanup in Wellesley, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency water cleanup wellesley",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/wellesley-ma/",
+        "/service-areas/wellesley-ma/fire-damage-restoration/",
+        "/service-areas/wellesley-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/water-cleanup/",
+        "/service-areas/framingham-ma/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4766,7 +5481,7 @@
         "/service-areas/needham-ma/",
         "/service-areas/needham-ma/fire-damage-restoration/",
         "/service-areas/needham-ma/mold-remediation/",
-        "/service-areas/auburn-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/service-areas/framingham-ma/water-damage-restoration/",
         "/contact/"
       ]
@@ -4810,7 +5525,7 @@
         "/service-areas/needham-ma/",
         "/service-areas/needham-ma/fire-damage-restoration/",
         "/service-areas/needham-ma/mold-remediation/",
-        "/service-areas/auburn-ma/storm-damage-restoration/",
+        "/service-areas/east-douglas-ma/storm-damage-restoration/",
         "/service-areas/framingham-ma/storm-damage-restoration/",
         "/contact/"
       ]
@@ -4854,7 +5569,7 @@
         "/service-areas/needham-ma/",
         "/service-areas/needham-ma/mold-remediation/",
         "/service-areas/needham-ma/water-damage-restoration/",
-        "/service-areas/auburn-ma/fire-damage-restoration/",
+        "/service-areas/east-douglas-ma/fire-damage-restoration/",
         "/service-areas/framingham-ma/fire-damage-restoration/",
         "/contact/"
       ]
@@ -4898,7 +5613,7 @@
         "/service-areas/needham-ma/",
         "/service-areas/needham-ma/fire-damage-restoration/",
         "/service-areas/needham-ma/water-damage-restoration/",
-        "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/mold-remediation/",
         "/service-areas/framingham-ma/mold-remediation/",
         "/contact/"
       ]
@@ -4942,7 +5657,7 @@
         "/service-areas/needham-ma/",
         "/service-areas/needham-ma/fire-damage-restoration/",
         "/service-areas/needham-ma/mold-remediation/",
-        "/service-areas/auburn-ma/sewage-cleanup/",
+        "/service-areas/east-douglas-ma/sewage-cleanup/",
         "/service-areas/framingham-ma/sewage-cleanup/",
         "/contact/"
       ]
@@ -4986,7 +5701,7 @@
         "/service-areas/needham-ma/",
         "/service-areas/needham-ma/fire-damage-restoration/",
         "/service-areas/needham-ma/mold-remediation/",
-        "/service-areas/auburn-ma/biohazard-cleanup/",
+        "/service-areas/east-douglas-ma/biohazard-cleanup/",
         "/service-areas/framingham-ma/biohazard-cleanup/",
         "/contact/"
       ]
@@ -5028,7 +5743,7 @@
         "/service-areas/needham-ma/",
         "/service-areas/needham-ma/fire-damage-restoration/",
         "/service-areas/needham-ma/mold-remediation/",
-        "/service-areas/auburn-ma/emergency-board-up-tarping/",
+        "/service-areas/east-douglas-ma/emergency-board-up-tarping/",
         "/service-areas/framingham-ma/emergency-board-up-tarping/",
         "/contact/"
       ]
@@ -5072,7 +5787,7 @@
         "/service-areas/needham-ma/",
         "/service-areas/needham-ma/fire-damage-restoration/",
         "/service-areas/needham-ma/mold-remediation/",
-        "/service-areas/auburn-ma/contents-restoration/",
+        "/service-areas/east-douglas-ma/contents-restoration/",
         "/service-areas/framingham-ma/contents-restoration/",
         "/contact/"
       ]
@@ -5116,7 +5831,7 @@
         "/service-areas/needham-ma/",
         "/service-areas/needham-ma/fire-damage-restoration/",
         "/service-areas/needham-ma/mold-remediation/",
-        "/service-areas/auburn-ma/air-duct-cleaning/",
+        "/service-areas/east-douglas-ma/air-duct-cleaning/",
         "/service-areas/framingham-ma/air-duct-cleaning/",
         "/contact/"
       ]
@@ -5154,8 +5869,52 @@
         "/service-areas/needham-ma/",
         "/service-areas/needham-ma/fire-damage-restoration/",
         "/service-areas/needham-ma/mold-remediation/",
-        "/service-areas/auburn-ma/crawl-space-encapsulation/",
+        "/service-areas/east-douglas-ma/crawl-space-encapsulation/",
         "/service-areas/framingham-ma/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/needham-ma/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Needham, MA | Quality Contracting, Inc.",
+      "h1": "Water Cleanup in Needham",
+      "meta_description": "Water cleanup in Needham, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency water cleanup needham",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/needham-ma/",
+        "/service-areas/needham-ma/fire-damage-restoration/",
+        "/service-areas/needham-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/water-cleanup/",
+        "/service-areas/framingham-ma/water-cleanup/",
         "/contact/"
       ]
     },
@@ -5198,7 +5957,7 @@
         "/service-areas/newton-ma/",
         "/service-areas/newton-ma/fire-damage-restoration/",
         "/service-areas/newton-ma/mold-remediation/",
-        "/service-areas/auburn-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/service-areas/framingham-ma/water-damage-restoration/",
         "/contact/"
       ]
@@ -5242,7 +6001,7 @@
         "/service-areas/newton-ma/",
         "/service-areas/newton-ma/fire-damage-restoration/",
         "/service-areas/newton-ma/mold-remediation/",
-        "/service-areas/auburn-ma/storm-damage-restoration/",
+        "/service-areas/east-douglas-ma/storm-damage-restoration/",
         "/service-areas/framingham-ma/storm-damage-restoration/",
         "/contact/"
       ]
@@ -5286,7 +6045,7 @@
         "/service-areas/newton-ma/",
         "/service-areas/newton-ma/mold-remediation/",
         "/service-areas/newton-ma/water-damage-restoration/",
-        "/service-areas/auburn-ma/fire-damage-restoration/",
+        "/service-areas/east-douglas-ma/fire-damage-restoration/",
         "/service-areas/framingham-ma/fire-damage-restoration/",
         "/contact/"
       ]
@@ -5330,7 +6089,7 @@
         "/service-areas/newton-ma/",
         "/service-areas/newton-ma/fire-damage-restoration/",
         "/service-areas/newton-ma/water-damage-restoration/",
-        "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/mold-remediation/",
         "/service-areas/framingham-ma/mold-remediation/",
         "/contact/"
       ]
@@ -5374,7 +6133,7 @@
         "/service-areas/newton-ma/",
         "/service-areas/newton-ma/fire-damage-restoration/",
         "/service-areas/newton-ma/mold-remediation/",
-        "/service-areas/auburn-ma/sewage-cleanup/",
+        "/service-areas/east-douglas-ma/sewage-cleanup/",
         "/service-areas/framingham-ma/sewage-cleanup/",
         "/contact/"
       ]
@@ -5418,7 +6177,7 @@
         "/service-areas/newton-ma/",
         "/service-areas/newton-ma/fire-damage-restoration/",
         "/service-areas/newton-ma/mold-remediation/",
-        "/service-areas/auburn-ma/biohazard-cleanup/",
+        "/service-areas/east-douglas-ma/biohazard-cleanup/",
         "/service-areas/framingham-ma/biohazard-cleanup/",
         "/contact/"
       ]
@@ -5460,7 +6219,7 @@
         "/service-areas/newton-ma/",
         "/service-areas/newton-ma/fire-damage-restoration/",
         "/service-areas/newton-ma/mold-remediation/",
-        "/service-areas/auburn-ma/emergency-board-up-tarping/",
+        "/service-areas/east-douglas-ma/emergency-board-up-tarping/",
         "/service-areas/framingham-ma/emergency-board-up-tarping/",
         "/contact/"
       ]
@@ -5504,7 +6263,7 @@
         "/service-areas/newton-ma/",
         "/service-areas/newton-ma/fire-damage-restoration/",
         "/service-areas/newton-ma/mold-remediation/",
-        "/service-areas/auburn-ma/contents-restoration/",
+        "/service-areas/east-douglas-ma/contents-restoration/",
         "/service-areas/framingham-ma/contents-restoration/",
         "/contact/"
       ]
@@ -5548,7 +6307,7 @@
         "/service-areas/newton-ma/",
         "/service-areas/newton-ma/fire-damage-restoration/",
         "/service-areas/newton-ma/mold-remediation/",
-        "/service-areas/auburn-ma/air-duct-cleaning/",
+        "/service-areas/east-douglas-ma/air-duct-cleaning/",
         "/service-areas/framingham-ma/air-duct-cleaning/",
         "/contact/"
       ]
@@ -5586,8 +6345,52 @@
         "/service-areas/newton-ma/",
         "/service-areas/newton-ma/fire-damage-restoration/",
         "/service-areas/newton-ma/mold-remediation/",
-        "/service-areas/auburn-ma/crawl-space-encapsulation/",
+        "/service-areas/east-douglas-ma/crawl-space-encapsulation/",
         "/service-areas/framingham-ma/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/newton-ma/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Newton, MA | Quality Contracting, Inc.",
+      "h1": "Water Cleanup in Newton",
+      "meta_description": "Water cleanup in Newton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency water cleanup newton",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/newton-ma/",
+        "/service-areas/newton-ma/fire-damage-restoration/",
+        "/service-areas/newton-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/water-cleanup/",
+        "/service-areas/framingham-ma/water-cleanup/",
         "/contact/"
       ]
     },
@@ -5630,7 +6433,7 @@
         "/service-areas/weston-ma/",
         "/service-areas/weston-ma/fire-damage-restoration/",
         "/service-areas/weston-ma/mold-remediation/",
-        "/service-areas/auburn-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/service-areas/framingham-ma/water-damage-restoration/",
         "/contact/"
       ]
@@ -5674,7 +6477,7 @@
         "/service-areas/weston-ma/",
         "/service-areas/weston-ma/fire-damage-restoration/",
         "/service-areas/weston-ma/mold-remediation/",
-        "/service-areas/auburn-ma/storm-damage-restoration/",
+        "/service-areas/east-douglas-ma/storm-damage-restoration/",
         "/service-areas/framingham-ma/storm-damage-restoration/",
         "/contact/"
       ]
@@ -5718,7 +6521,7 @@
         "/service-areas/weston-ma/",
         "/service-areas/weston-ma/mold-remediation/",
         "/service-areas/weston-ma/water-damage-restoration/",
-        "/service-areas/auburn-ma/fire-damage-restoration/",
+        "/service-areas/east-douglas-ma/fire-damage-restoration/",
         "/service-areas/framingham-ma/fire-damage-restoration/",
         "/contact/"
       ]
@@ -5762,7 +6565,7 @@
         "/service-areas/weston-ma/",
         "/service-areas/weston-ma/fire-damage-restoration/",
         "/service-areas/weston-ma/water-damage-restoration/",
-        "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/mold-remediation/",
         "/service-areas/framingham-ma/mold-remediation/",
         "/contact/"
       ]
@@ -5806,7 +6609,7 @@
         "/service-areas/weston-ma/",
         "/service-areas/weston-ma/fire-damage-restoration/",
         "/service-areas/weston-ma/mold-remediation/",
-        "/service-areas/auburn-ma/sewage-cleanup/",
+        "/service-areas/east-douglas-ma/sewage-cleanup/",
         "/service-areas/framingham-ma/sewage-cleanup/",
         "/contact/"
       ]
@@ -5850,7 +6653,7 @@
         "/service-areas/weston-ma/",
         "/service-areas/weston-ma/fire-damage-restoration/",
         "/service-areas/weston-ma/mold-remediation/",
-        "/service-areas/auburn-ma/biohazard-cleanup/",
+        "/service-areas/east-douglas-ma/biohazard-cleanup/",
         "/service-areas/framingham-ma/biohazard-cleanup/",
         "/contact/"
       ]
@@ -5892,7 +6695,7 @@
         "/service-areas/weston-ma/",
         "/service-areas/weston-ma/fire-damage-restoration/",
         "/service-areas/weston-ma/mold-remediation/",
-        "/service-areas/auburn-ma/emergency-board-up-tarping/",
+        "/service-areas/east-douglas-ma/emergency-board-up-tarping/",
         "/service-areas/framingham-ma/emergency-board-up-tarping/",
         "/contact/"
       ]
@@ -5936,7 +6739,7 @@
         "/service-areas/weston-ma/",
         "/service-areas/weston-ma/fire-damage-restoration/",
         "/service-areas/weston-ma/mold-remediation/",
-        "/service-areas/auburn-ma/contents-restoration/",
+        "/service-areas/east-douglas-ma/contents-restoration/",
         "/service-areas/framingham-ma/contents-restoration/",
         "/contact/"
       ]
@@ -5980,7 +6783,7 @@
         "/service-areas/weston-ma/",
         "/service-areas/weston-ma/fire-damage-restoration/",
         "/service-areas/weston-ma/mold-remediation/",
-        "/service-areas/auburn-ma/air-duct-cleaning/",
+        "/service-areas/east-douglas-ma/air-duct-cleaning/",
         "/service-areas/framingham-ma/air-duct-cleaning/",
         "/contact/"
       ]
@@ -6018,8 +6821,2908 @@
         "/service-areas/weston-ma/",
         "/service-areas/weston-ma/fire-damage-restoration/",
         "/service-areas/weston-ma/mold-remediation/",
-        "/service-areas/auburn-ma/crawl-space-encapsulation/",
+        "/service-areas/east-douglas-ma/crawl-space-encapsulation/",
         "/service-areas/framingham-ma/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/weston-ma/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Weston, MA | Quality Contracting, Inc.",
+      "h1": "Water Cleanup in Weston",
+      "meta_description": "Water cleanup in Weston, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency water cleanup weston",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/weston-ma/",
+        "/service-areas/weston-ma/fire-damage-restoration/",
+        "/service-areas/weston-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/water-cleanup/",
+        "/service-areas/framingham-ma/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oxford-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Oxford, MA | Quality Contracting, Inc.",
+      "h1": "Water Damage Restoration in Oxford",
+      "meta_description": "Water damage restoration in Oxford, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration oxford",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/oxford-ma/",
+        "/service-areas/oxford-ma/fire-damage-restoration/",
+        "/service-areas/oxford-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
+        "/service-areas/framingham-ma/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oxford-ma/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Oxford, MA | Quality Contracting, Inc.",
+      "h1": "Storm Damage Restoration in Oxford",
+      "meta_description": "Storm damage restoration in Oxford, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "storm damage restoration oxford",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/oxford-ma/",
+        "/service-areas/oxford-ma/fire-damage-restoration/",
+        "/service-areas/oxford-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/storm-damage-restoration/",
+        "/service-areas/framingham-ma/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oxford-ma/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Oxford, MA | Quality Contracting, Inc.",
+      "h1": "Fire Damage Restoration in Oxford",
+      "meta_description": "Fire damage restoration in Oxford, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "fire damage restoration oxford",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/oxford-ma/",
+        "/service-areas/oxford-ma/mold-remediation/",
+        "/service-areas/oxford-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/fire-damage-restoration/",
+        "/service-areas/framingham-ma/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oxford-ma/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Oxford, MA | Quality Contracting, Inc.",
+      "h1": "Mold Remediation in Oxford",
+      "meta_description": "Mold remediation in Oxford, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "mold remediation oxford",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/oxford-ma/",
+        "/service-areas/oxford-ma/fire-damage-restoration/",
+        "/service-areas/oxford-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/mold-remediation/",
+        "/service-areas/framingham-ma/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oxford-ma/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Oxford, MA | Quality Contracting, Inc.",
+      "h1": "Sewage Cleanup and Sanitization in Oxford",
+      "meta_description": "Sewage cleanup and sanitization in Oxford, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "sewage cleanup and sanitization oxford",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/oxford-ma/",
+        "/service-areas/oxford-ma/fire-damage-restoration/",
+        "/service-areas/oxford-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/sewage-cleanup/",
+        "/service-areas/framingham-ma/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oxford-ma/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Oxford, MA | Quality Contracting, Inc.",
+      "h1": "Biohazard Cleanup in Oxford",
+      "meta_description": "Biohazard cleanup in Oxford, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "biohazard cleanup oxford",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/oxford-ma/",
+        "/service-areas/oxford-ma/fire-damage-restoration/",
+        "/service-areas/oxford-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/biohazard-cleanup/",
+        "/service-areas/framingham-ma/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oxford-ma/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Board-Up and Tarping in Oxford, MA | Quality Contracting, Inc.",
+      "h1": "Board-Up and Tarping in Oxford",
+      "meta_description": "Board-up and tarping in Oxford, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency board-up and tarping oxford",
+      "secondary_keywords": [
+        "roof tarping",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/oxford-ma/",
+        "/service-areas/oxford-ma/fire-damage-restoration/",
+        "/service-areas/oxford-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/emergency-board-up-tarping/",
+        "/service-areas/framingham-ma/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oxford-ma/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Oxford, MA | Quality Contracting, Inc.",
+      "h1": "Contents Restoration and Storage in Oxford",
+      "meta_description": "Contents restoration and storage in Oxford, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "contents restoration and storage oxford",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/oxford-ma/",
+        "/service-areas/oxford-ma/fire-damage-restoration/",
+        "/service-areas/oxford-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/contents-restoration/",
+        "/service-areas/framingham-ma/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oxford-ma/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Oxford, MA | Quality Contracting, Inc.",
+      "h1": "Air Duct Cleaning in Oxford",
+      "meta_description": "Air duct cleaning in Oxford, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "air duct cleaning oxford",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/oxford-ma/",
+        "/service-areas/oxford-ma/fire-damage-restoration/",
+        "/service-areas/oxford-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/air-duct-cleaning/",
+        "/service-areas/framingham-ma/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oxford-ma/crawl-space-encapsulation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Encapsulation in Oxford, MA | Quality Contracting, Inc.",
+      "h1": "Crawl Space Encapsulation in Oxford",
+      "meta_description": "Crawl space encapsulation in Oxford, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "crawl space encapsulation oxford",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/oxford-ma/",
+        "/service-areas/oxford-ma/fire-damage-restoration/",
+        "/service-areas/oxford-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/crawl-space-encapsulation/",
+        "/service-areas/framingham-ma/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oxford-ma/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Oxford, MA | Quality Contracting, Inc.",
+      "h1": "Water Cleanup in Oxford",
+      "meta_description": "Water cleanup in Oxford, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency water cleanup oxford",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/oxford-ma/",
+        "/service-areas/oxford-ma/fire-damage-restoration/",
+        "/service-areas/oxford-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/water-cleanup/",
+        "/service-areas/framingham-ma/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/whitinsville-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Whitinsville, MA | Quality Contracting, Inc.",
+      "h1": "Water Damage Restoration in Whitinsville",
+      "meta_description": "Water damage restoration in Whitinsville, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration whitinsville",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/whitinsville-ma/",
+        "/service-areas/whitinsville-ma/fire-damage-restoration/",
+        "/service-areas/whitinsville-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
+        "/service-areas/framingham-ma/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/whitinsville-ma/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Whitinsville, MA | Quality Contracting, Inc.",
+      "h1": "Storm Damage Restoration in Whitinsville",
+      "meta_description": "Storm damage restoration in Whitinsville, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "storm damage restoration whitinsville",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/whitinsville-ma/",
+        "/service-areas/whitinsville-ma/fire-damage-restoration/",
+        "/service-areas/whitinsville-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/storm-damage-restoration/",
+        "/service-areas/framingham-ma/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/whitinsville-ma/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Whitinsville, MA | Quality Contracting, Inc.",
+      "h1": "Fire Damage Restoration in Whitinsville",
+      "meta_description": "Fire damage restoration in Whitinsville, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "fire damage restoration whitinsville",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/whitinsville-ma/",
+        "/service-areas/whitinsville-ma/mold-remediation/",
+        "/service-areas/whitinsville-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/fire-damage-restoration/",
+        "/service-areas/framingham-ma/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/whitinsville-ma/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Whitinsville, MA | Quality Contracting, Inc.",
+      "h1": "Mold Remediation in Whitinsville",
+      "meta_description": "Mold remediation in Whitinsville, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "mold remediation whitinsville",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/whitinsville-ma/",
+        "/service-areas/whitinsville-ma/fire-damage-restoration/",
+        "/service-areas/whitinsville-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/mold-remediation/",
+        "/service-areas/framingham-ma/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/whitinsville-ma/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Whitinsville, MA | Quality Contracting, Inc.",
+      "h1": "Sewage Cleanup and Sanitization in Whitinsville",
+      "meta_description": "Sewage cleanup and sanitization in Whitinsville, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "sewage cleanup and sanitization whitinsville",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/whitinsville-ma/",
+        "/service-areas/whitinsville-ma/fire-damage-restoration/",
+        "/service-areas/whitinsville-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/sewage-cleanup/",
+        "/service-areas/framingham-ma/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/whitinsville-ma/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Whitinsville, MA | Quality Contracting, Inc.",
+      "h1": "Biohazard Cleanup in Whitinsville",
+      "meta_description": "Biohazard cleanup in Whitinsville, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "biohazard cleanup whitinsville",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/whitinsville-ma/",
+        "/service-areas/whitinsville-ma/fire-damage-restoration/",
+        "/service-areas/whitinsville-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/biohazard-cleanup/",
+        "/service-areas/framingham-ma/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/whitinsville-ma/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Board-Up and Tarping in Whitinsville, MA | Quality Contracting, Inc.",
+      "h1": "Board-Up and Tarping in Whitinsville",
+      "meta_description": "Board-up and tarping in Whitinsville, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency board-up and tarping whitinsville",
+      "secondary_keywords": [
+        "roof tarping",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/whitinsville-ma/",
+        "/service-areas/whitinsville-ma/fire-damage-restoration/",
+        "/service-areas/whitinsville-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/emergency-board-up-tarping/",
+        "/service-areas/framingham-ma/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/whitinsville-ma/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Whitinsville, MA | Quality Contracting, Inc.",
+      "h1": "Contents Restoration and Storage in Whitinsville",
+      "meta_description": "Contents restoration and storage in Whitinsville, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "contents restoration and storage whitinsville",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/whitinsville-ma/",
+        "/service-areas/whitinsville-ma/fire-damage-restoration/",
+        "/service-areas/whitinsville-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/contents-restoration/",
+        "/service-areas/framingham-ma/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/whitinsville-ma/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Whitinsville, MA | Quality Contracting, Inc.",
+      "h1": "Air Duct Cleaning in Whitinsville",
+      "meta_description": "Air duct cleaning in Whitinsville, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "air duct cleaning whitinsville",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/whitinsville-ma/",
+        "/service-areas/whitinsville-ma/fire-damage-restoration/",
+        "/service-areas/whitinsville-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/air-duct-cleaning/",
+        "/service-areas/framingham-ma/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/whitinsville-ma/crawl-space-encapsulation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Encapsulation in Whitinsville, MA | Quality Contracting, Inc.",
+      "h1": "Crawl Space Encapsulation in Whitinsville",
+      "meta_description": "Crawl space encapsulation in Whitinsville, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "crawl space encapsulation whitinsville",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/whitinsville-ma/",
+        "/service-areas/whitinsville-ma/fire-damage-restoration/",
+        "/service-areas/whitinsville-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/crawl-space-encapsulation/",
+        "/service-areas/framingham-ma/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/whitinsville-ma/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Whitinsville, MA | Quality Contracting, Inc.",
+      "h1": "Water Cleanup in Whitinsville",
+      "meta_description": "Water cleanup in Whitinsville, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency water cleanup whitinsville",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/whitinsville-ma/",
+        "/service-areas/whitinsville-ma/fire-damage-restoration/",
+        "/service-areas/whitinsville-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/water-cleanup/",
+        "/service-areas/framingham-ma/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-douglas-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in East Douglas, MA | Quality Contracting, Inc.",
+      "h1": "Water Damage Restoration in East Douglas",
+      "meta_description": "Water damage restoration in East Douglas, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration east douglas",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/",
+        "/service-areas/east-douglas-ma/fire-damage-restoration/",
+        "/service-areas/east-douglas-ma/mold-remediation/",
+        "/service-areas/framingham-ma/water-damage-restoration/",
+        "/service-areas/hopkinton-ma/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-douglas-ma/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in East Douglas, MA | Quality Contracting, Inc.",
+      "h1": "Storm Damage Restoration in East Douglas",
+      "meta_description": "Storm damage restoration in East Douglas, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "storm damage restoration east douglas",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/east-douglas-ma/",
+        "/service-areas/east-douglas-ma/fire-damage-restoration/",
+        "/service-areas/east-douglas-ma/mold-remediation/",
+        "/service-areas/framingham-ma/storm-damage-restoration/",
+        "/service-areas/hopkinton-ma/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-douglas-ma/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in East Douglas, MA | Quality Contracting, Inc.",
+      "h1": "Fire Damage Restoration in East Douglas",
+      "meta_description": "Fire damage restoration in East Douglas, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "fire damage restoration east douglas",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/east-douglas-ma/",
+        "/service-areas/east-douglas-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
+        "/service-areas/framingham-ma/fire-damage-restoration/",
+        "/service-areas/hopkinton-ma/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-douglas-ma/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in East Douglas, MA | Quality Contracting, Inc.",
+      "h1": "Mold Remediation in East Douglas",
+      "meta_description": "Mold remediation in East Douglas, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "mold remediation east douglas",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/east-douglas-ma/",
+        "/service-areas/east-douglas-ma/fire-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
+        "/service-areas/framingham-ma/mold-remediation/",
+        "/service-areas/hopkinton-ma/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-douglas-ma/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in East Douglas, MA | Quality Contracting, Inc.",
+      "h1": "Sewage Cleanup and Sanitization in East Douglas",
+      "meta_description": "Sewage cleanup and sanitization in East Douglas, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "sewage cleanup and sanitization east douglas",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/east-douglas-ma/",
+        "/service-areas/east-douglas-ma/fire-damage-restoration/",
+        "/service-areas/east-douglas-ma/mold-remediation/",
+        "/service-areas/framingham-ma/sewage-cleanup/",
+        "/service-areas/hopkinton-ma/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-douglas-ma/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in East Douglas, MA | Quality Contracting, Inc.",
+      "h1": "Biohazard Cleanup in East Douglas",
+      "meta_description": "Biohazard cleanup in East Douglas, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "biohazard cleanup east douglas",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/east-douglas-ma/",
+        "/service-areas/east-douglas-ma/fire-damage-restoration/",
+        "/service-areas/east-douglas-ma/mold-remediation/",
+        "/service-areas/framingham-ma/biohazard-cleanup/",
+        "/service-areas/hopkinton-ma/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-douglas-ma/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Board-Up and Tarping in East Douglas, MA | Quality Contracting, Inc.",
+      "h1": "Board-Up and Tarping in East Douglas",
+      "meta_description": "Board-up and tarping in East Douglas, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency board-up and tarping east douglas",
+      "secondary_keywords": [
+        "roof tarping",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/east-douglas-ma/",
+        "/service-areas/east-douglas-ma/fire-damage-restoration/",
+        "/service-areas/east-douglas-ma/mold-remediation/",
+        "/service-areas/framingham-ma/emergency-board-up-tarping/",
+        "/service-areas/hopkinton-ma/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-douglas-ma/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in East Douglas, MA | Quality Contracting, Inc.",
+      "h1": "Contents Restoration and Storage in East Douglas",
+      "meta_description": "Contents restoration and storage in East Douglas, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "contents restoration and storage east douglas",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/east-douglas-ma/",
+        "/service-areas/east-douglas-ma/fire-damage-restoration/",
+        "/service-areas/east-douglas-ma/mold-remediation/",
+        "/service-areas/framingham-ma/contents-restoration/",
+        "/service-areas/hopkinton-ma/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-douglas-ma/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in East Douglas, MA | Quality Contracting, Inc.",
+      "h1": "Air Duct Cleaning in East Douglas",
+      "meta_description": "Air duct cleaning in East Douglas, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "air duct cleaning east douglas",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/east-douglas-ma/",
+        "/service-areas/east-douglas-ma/fire-damage-restoration/",
+        "/service-areas/east-douglas-ma/mold-remediation/",
+        "/service-areas/framingham-ma/air-duct-cleaning/",
+        "/service-areas/hopkinton-ma/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-douglas-ma/crawl-space-encapsulation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Encapsulation in East Douglas, MA | Quality Contracting, Inc.",
+      "h1": "Crawl Space Encapsulation in East Douglas",
+      "meta_description": "Crawl space encapsulation in East Douglas, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "crawl space encapsulation east douglas",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/east-douglas-ma/",
+        "/service-areas/east-douglas-ma/fire-damage-restoration/",
+        "/service-areas/east-douglas-ma/mold-remediation/",
+        "/service-areas/framingham-ma/crawl-space-encapsulation/",
+        "/service-areas/hopkinton-ma/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-douglas-ma/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in East Douglas, MA | Quality Contracting, Inc.",
+      "h1": "Water Cleanup in East Douglas",
+      "meta_description": "Water cleanup in East Douglas, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency water cleanup east douglas",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/east-douglas-ma/",
+        "/service-areas/east-douglas-ma/fire-damage-restoration/",
+        "/service-areas/east-douglas-ma/mold-remediation/",
+        "/service-areas/framingham-ma/water-cleanup/",
+        "/service-areas/hopkinton-ma/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/northborough-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Northborough, MA | Quality Contracting, Inc.",
+      "h1": "Water Damage Restoration in Northborough",
+      "meta_description": "Water damage restoration in Northborough, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration northborough",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/northborough-ma/",
+        "/service-areas/northborough-ma/fire-damage-restoration/",
+        "/service-areas/northborough-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
+        "/service-areas/framingham-ma/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/northborough-ma/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Northborough, MA | Quality Contracting, Inc.",
+      "h1": "Storm Damage Restoration in Northborough",
+      "meta_description": "Storm damage restoration in Northborough, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "storm damage restoration northborough",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/northborough-ma/",
+        "/service-areas/northborough-ma/fire-damage-restoration/",
+        "/service-areas/northborough-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/storm-damage-restoration/",
+        "/service-areas/framingham-ma/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/northborough-ma/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Northborough, MA | Quality Contracting, Inc.",
+      "h1": "Fire Damage Restoration in Northborough",
+      "meta_description": "Fire damage restoration in Northborough, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "fire damage restoration northborough",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/northborough-ma/",
+        "/service-areas/northborough-ma/mold-remediation/",
+        "/service-areas/northborough-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/fire-damage-restoration/",
+        "/service-areas/framingham-ma/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/northborough-ma/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Northborough, MA | Quality Contracting, Inc.",
+      "h1": "Mold Remediation in Northborough",
+      "meta_description": "Mold remediation in Northborough, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "mold remediation northborough",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/northborough-ma/",
+        "/service-areas/northborough-ma/fire-damage-restoration/",
+        "/service-areas/northborough-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/mold-remediation/",
+        "/service-areas/framingham-ma/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/northborough-ma/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Northborough, MA | Quality Contracting, Inc.",
+      "h1": "Sewage Cleanup and Sanitization in Northborough",
+      "meta_description": "Sewage cleanup and sanitization in Northborough, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "sewage cleanup and sanitization northborough",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/northborough-ma/",
+        "/service-areas/northborough-ma/fire-damage-restoration/",
+        "/service-areas/northborough-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/sewage-cleanup/",
+        "/service-areas/framingham-ma/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/northborough-ma/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Northborough, MA | Quality Contracting, Inc.",
+      "h1": "Biohazard Cleanup in Northborough",
+      "meta_description": "Biohazard cleanup in Northborough, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "biohazard cleanup northborough",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/northborough-ma/",
+        "/service-areas/northborough-ma/fire-damage-restoration/",
+        "/service-areas/northborough-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/biohazard-cleanup/",
+        "/service-areas/framingham-ma/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/northborough-ma/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Board-Up and Tarping in Northborough, MA | Quality Contracting, Inc.",
+      "h1": "Board-Up and Tarping in Northborough",
+      "meta_description": "Board-up and tarping in Northborough, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency board-up and tarping northborough",
+      "secondary_keywords": [
+        "roof tarping",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/northborough-ma/",
+        "/service-areas/northborough-ma/fire-damage-restoration/",
+        "/service-areas/northborough-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/emergency-board-up-tarping/",
+        "/service-areas/framingham-ma/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/northborough-ma/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Northborough, MA | Quality Contracting, Inc.",
+      "h1": "Contents Restoration and Storage in Northborough",
+      "meta_description": "Contents restoration and storage in Northborough, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "contents restoration and storage northborough",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/northborough-ma/",
+        "/service-areas/northborough-ma/fire-damage-restoration/",
+        "/service-areas/northborough-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/contents-restoration/",
+        "/service-areas/framingham-ma/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/northborough-ma/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Northborough, MA | Quality Contracting, Inc.",
+      "h1": "Air Duct Cleaning in Northborough",
+      "meta_description": "Air duct cleaning in Northborough, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "air duct cleaning northborough",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/northborough-ma/",
+        "/service-areas/northborough-ma/fire-damage-restoration/",
+        "/service-areas/northborough-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/air-duct-cleaning/",
+        "/service-areas/framingham-ma/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/northborough-ma/crawl-space-encapsulation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Encapsulation in Northborough, MA | Quality Contracting, Inc.",
+      "h1": "Crawl Space Encapsulation in Northborough",
+      "meta_description": "Crawl space encapsulation in Northborough, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "crawl space encapsulation northborough",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/northborough-ma/",
+        "/service-areas/northborough-ma/fire-damage-restoration/",
+        "/service-areas/northborough-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/crawl-space-encapsulation/",
+        "/service-areas/framingham-ma/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/northborough-ma/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Northborough, MA | Quality Contracting, Inc.",
+      "h1": "Water Cleanup in Northborough",
+      "meta_description": "Water cleanup in Northborough, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency water cleanup northborough",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/northborough-ma/",
+        "/service-areas/northborough-ma/fire-damage-restoration/",
+        "/service-areas/northborough-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/water-cleanup/",
+        "/service-areas/framingham-ma/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/southbridge-town-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Southbridge Town, MA | Quality Contracting, Inc.",
+      "h1": "Water Damage Restoration in Southbridge Town",
+      "meta_description": "Water damage restoration in Southbridge Town, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration southbridge town",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/southbridge-town-ma/",
+        "/service-areas/southbridge-town-ma/fire-damage-restoration/",
+        "/service-areas/southbridge-town-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
+        "/service-areas/framingham-ma/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/southbridge-town-ma/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Southbridge Town, MA | Quality Contracting, Inc.",
+      "h1": "Storm Damage Restoration in Southbridge Town",
+      "meta_description": "Storm damage restoration in Southbridge Town, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "storm damage restoration southbridge town",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/southbridge-town-ma/",
+        "/service-areas/southbridge-town-ma/fire-damage-restoration/",
+        "/service-areas/southbridge-town-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/storm-damage-restoration/",
+        "/service-areas/framingham-ma/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/southbridge-town-ma/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Southbridge Town, MA | Quality Contracting, Inc.",
+      "h1": "Fire Damage Restoration in Southbridge Town",
+      "meta_description": "Fire damage restoration in Southbridge Town, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "fire damage restoration southbridge town",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/southbridge-town-ma/",
+        "/service-areas/southbridge-town-ma/mold-remediation/",
+        "/service-areas/southbridge-town-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/fire-damage-restoration/",
+        "/service-areas/framingham-ma/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/southbridge-town-ma/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Southbridge Town, MA | Quality Contracting, Inc.",
+      "h1": "Mold Remediation in Southbridge Town",
+      "meta_description": "Mold remediation in Southbridge Town, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "mold remediation southbridge town",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/southbridge-town-ma/",
+        "/service-areas/southbridge-town-ma/fire-damage-restoration/",
+        "/service-areas/southbridge-town-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/mold-remediation/",
+        "/service-areas/framingham-ma/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/southbridge-town-ma/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Southbridge Town, MA | Quality Contracting, Inc.",
+      "h1": "Sewage Cleanup and Sanitization in Southbridge Town",
+      "meta_description": "Sewage cleanup and sanitization in Southbridge Town, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "sewage cleanup and sanitization southbridge town",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/southbridge-town-ma/",
+        "/service-areas/southbridge-town-ma/fire-damage-restoration/",
+        "/service-areas/southbridge-town-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/sewage-cleanup/",
+        "/service-areas/framingham-ma/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/southbridge-town-ma/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Southbridge Town, MA | Quality Contracting, Inc.",
+      "h1": "Biohazard Cleanup in Southbridge Town",
+      "meta_description": "Biohazard cleanup in Southbridge Town, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "biohazard cleanup southbridge town",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/southbridge-town-ma/",
+        "/service-areas/southbridge-town-ma/fire-damage-restoration/",
+        "/service-areas/southbridge-town-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/biohazard-cleanup/",
+        "/service-areas/framingham-ma/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/southbridge-town-ma/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Board-Up and Tarping in Southbridge Town, MA | Quality Contracting, Inc.",
+      "h1": "Board-Up and Tarping in Southbridge Town",
+      "meta_description": "Board-up and tarping in Southbridge Town, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency board-up and tarping southbridge town",
+      "secondary_keywords": [
+        "roof tarping",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/southbridge-town-ma/",
+        "/service-areas/southbridge-town-ma/fire-damage-restoration/",
+        "/service-areas/southbridge-town-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/emergency-board-up-tarping/",
+        "/service-areas/framingham-ma/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/southbridge-town-ma/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Southbridge Town, MA | Quality Contracting, Inc.",
+      "h1": "Contents Restoration and Storage in Southbridge Town",
+      "meta_description": "Contents restoration and storage in Southbridge Town, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "contents restoration and storage southbridge town",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/southbridge-town-ma/",
+        "/service-areas/southbridge-town-ma/fire-damage-restoration/",
+        "/service-areas/southbridge-town-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/contents-restoration/",
+        "/service-areas/framingham-ma/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/southbridge-town-ma/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Southbridge Town, MA | Quality Contracting, Inc.",
+      "h1": "Air Duct Cleaning in Southbridge Town",
+      "meta_description": "Air duct cleaning in Southbridge Town, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "air duct cleaning southbridge town",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/southbridge-town-ma/",
+        "/service-areas/southbridge-town-ma/fire-damage-restoration/",
+        "/service-areas/southbridge-town-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/air-duct-cleaning/",
+        "/service-areas/framingham-ma/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/southbridge-town-ma/crawl-space-encapsulation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Encapsulation in Southbridge Town, MA | Quality Contracting, Inc.",
+      "h1": "Crawl Space Encapsulation in Southbridge Town",
+      "meta_description": "Crawl space encapsulation in Southbridge Town, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "crawl space encapsulation southbridge town",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/southbridge-town-ma/",
+        "/service-areas/southbridge-town-ma/fire-damage-restoration/",
+        "/service-areas/southbridge-town-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/crawl-space-encapsulation/",
+        "/service-areas/framingham-ma/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/southbridge-town-ma/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Southbridge Town, MA | Quality Contracting, Inc.",
+      "h1": "Water Cleanup in Southbridge Town",
+      "meta_description": "Water cleanup in Southbridge Town, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency water cleanup southbridge town",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/southbridge-town-ma/",
+        "/service-areas/southbridge-town-ma/fire-damage-restoration/",
+        "/service-areas/southbridge-town-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/water-cleanup/",
+        "/service-areas/framingham-ma/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sturbridge-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Sturbridge, MA | Quality Contracting, Inc.",
+      "h1": "Water Damage Restoration in Sturbridge",
+      "meta_description": "Water damage restoration in Sturbridge, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration sturbridge",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/sturbridge-ma/",
+        "/service-areas/sturbridge-ma/fire-damage-restoration/",
+        "/service-areas/sturbridge-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
+        "/service-areas/framingham-ma/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sturbridge-ma/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Sturbridge, MA | Quality Contracting, Inc.",
+      "h1": "Storm Damage Restoration in Sturbridge",
+      "meta_description": "Storm damage restoration in Sturbridge, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "storm damage restoration sturbridge",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/sturbridge-ma/",
+        "/service-areas/sturbridge-ma/fire-damage-restoration/",
+        "/service-areas/sturbridge-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/storm-damage-restoration/",
+        "/service-areas/framingham-ma/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sturbridge-ma/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Sturbridge, MA | Quality Contracting, Inc.",
+      "h1": "Fire Damage Restoration in Sturbridge",
+      "meta_description": "Fire damage restoration in Sturbridge, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "fire damage restoration sturbridge",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/sturbridge-ma/",
+        "/service-areas/sturbridge-ma/mold-remediation/",
+        "/service-areas/sturbridge-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/fire-damage-restoration/",
+        "/service-areas/framingham-ma/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sturbridge-ma/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Sturbridge, MA | Quality Contracting, Inc.",
+      "h1": "Mold Remediation in Sturbridge",
+      "meta_description": "Mold remediation in Sturbridge, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "mold remediation sturbridge",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/sturbridge-ma/",
+        "/service-areas/sturbridge-ma/fire-damage-restoration/",
+        "/service-areas/sturbridge-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/mold-remediation/",
+        "/service-areas/framingham-ma/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sturbridge-ma/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Sturbridge, MA | Quality Contracting, Inc.",
+      "h1": "Sewage Cleanup and Sanitization in Sturbridge",
+      "meta_description": "Sewage cleanup and sanitization in Sturbridge, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "sewage cleanup and sanitization sturbridge",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/sturbridge-ma/",
+        "/service-areas/sturbridge-ma/fire-damage-restoration/",
+        "/service-areas/sturbridge-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/sewage-cleanup/",
+        "/service-areas/framingham-ma/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sturbridge-ma/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Sturbridge, MA | Quality Contracting, Inc.",
+      "h1": "Biohazard Cleanup in Sturbridge",
+      "meta_description": "Biohazard cleanup in Sturbridge, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "biohazard cleanup sturbridge",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/sturbridge-ma/",
+        "/service-areas/sturbridge-ma/fire-damage-restoration/",
+        "/service-areas/sturbridge-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/biohazard-cleanup/",
+        "/service-areas/framingham-ma/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sturbridge-ma/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Board-Up and Tarping in Sturbridge, MA | Quality Contracting, Inc.",
+      "h1": "Board-Up and Tarping in Sturbridge",
+      "meta_description": "Board-up and tarping in Sturbridge, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency board-up and tarping sturbridge",
+      "secondary_keywords": [
+        "roof tarping",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/sturbridge-ma/",
+        "/service-areas/sturbridge-ma/fire-damage-restoration/",
+        "/service-areas/sturbridge-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/emergency-board-up-tarping/",
+        "/service-areas/framingham-ma/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sturbridge-ma/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Sturbridge, MA | Quality Contracting, Inc.",
+      "h1": "Contents Restoration and Storage in Sturbridge",
+      "meta_description": "Contents restoration and storage in Sturbridge, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "contents restoration and storage sturbridge",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/sturbridge-ma/",
+        "/service-areas/sturbridge-ma/fire-damage-restoration/",
+        "/service-areas/sturbridge-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/contents-restoration/",
+        "/service-areas/framingham-ma/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sturbridge-ma/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Sturbridge, MA | Quality Contracting, Inc.",
+      "h1": "Air Duct Cleaning in Sturbridge",
+      "meta_description": "Air duct cleaning in Sturbridge, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "air duct cleaning sturbridge",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/sturbridge-ma/",
+        "/service-areas/sturbridge-ma/fire-damage-restoration/",
+        "/service-areas/sturbridge-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/air-duct-cleaning/",
+        "/service-areas/framingham-ma/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sturbridge-ma/crawl-space-encapsulation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Encapsulation in Sturbridge, MA | Quality Contracting, Inc.",
+      "h1": "Crawl Space Encapsulation in Sturbridge",
+      "meta_description": "Crawl space encapsulation in Sturbridge, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "crawl space encapsulation sturbridge",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/sturbridge-ma/",
+        "/service-areas/sturbridge-ma/fire-damage-restoration/",
+        "/service-areas/sturbridge-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/crawl-space-encapsulation/",
+        "/service-areas/framingham-ma/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sturbridge-ma/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Sturbridge, MA | Quality Contracting, Inc.",
+      "h1": "Water Cleanup in Sturbridge",
+      "meta_description": "Water cleanup in Sturbridge, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency water cleanup sturbridge",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/sturbridge-ma/",
+        "/service-areas/sturbridge-ma/fire-damage-restoration/",
+        "/service-areas/sturbridge-ma/mold-remediation/",
+        "/service-areas/east-douglas-ma/water-cleanup/",
+        "/service-areas/framingham-ma/water-cleanup/",
         "/contact/"
       ]
     },

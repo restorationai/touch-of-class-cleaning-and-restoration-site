@@ -10,6 +10,8 @@
     "state": "CA",
     "postal_code": "92883",
     "theme": "light",
+    "primary_color": "#007fb2",
+    "accent_color": "#fe0000",
     "licensed_insured_attested": true,
     "founded_year": "2020",
     "trust_badges": [
@@ -27,7 +29,8 @@
     "license_numbers": [
       "1083555"
     ],
-    "hours": "24/7"
+    "hours": "24/7",
+    "ga4_measurement_id": "G-211581WVBQ"
   },
   "services": [
     "water-damage-restoration",
@@ -88,6 +91,36 @@
       "city": "Chino Hills",
       "state": "CA",
       "slug": "chino-hills-ca"
+    },
+    {
+      "city": "Eastvale",
+      "state": "CA",
+      "slug": "eastvale-ca"
+    },
+    {
+      "city": "Silverado",
+      "state": "CA",
+      "slug": "silverado-ca"
+    },
+    {
+      "city": "Jurupa Valley",
+      "state": "CA",
+      "slug": "jurupa-valley-ca"
+    },
+    {
+      "city": "Temescal Valley",
+      "state": "CA",
+      "slug": "temescal-valley-ca"
+    },
+    {
+      "city": "Yorba Linda",
+      "state": "CA",
+      "slug": "yorba-linda-ca"
+    },
+    {
+      "city": "Lake Mathews",
+      "state": "CA",
+      "slug": "lake-mathews-ca"
     }
   ],
   "template": "restoration",

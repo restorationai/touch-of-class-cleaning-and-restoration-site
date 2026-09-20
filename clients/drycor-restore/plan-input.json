@@ -376,6 +376,11 @@
       "city": "Palm River-Clair Mel",
       "state": "FL",
       "slug": "palm-river-clair-mel-fl"
+    },
+    {
+      "city": "Lake Magdalene",
+      "state": "FL",
+      "slug": "lake-magdalene-fl"
     }
   ],
   "template": "restoration",

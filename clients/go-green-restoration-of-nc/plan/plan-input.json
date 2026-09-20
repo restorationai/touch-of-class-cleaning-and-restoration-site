@@ -14,7 +14,8 @@
     "theme": "light",
     "primary_color": "#15803d",
     "hours": "24/7",
-    "place_id": "ChIJhWCvh9tJrIkRkCEs58UBIRw"
+    "place_id": "ChIJhWCvh9tJrIkRkCEs58UBIRw",
+    "ga4_measurement_id": "G-FB7ZB4MR6V"
   },
   "services": [
     "water-damage-restoration",
@@ -189,6 +190,36 @@
         "27597"
       ],
       "local_notes": "Small-town core with rural properties on the edges; well-and-crawl-space homes are typical."
+    },
+    {
+      "city": "Wendell",
+      "state": "NC",
+      "slug": "wendell-nc"
+    },
+    {
+      "city": "Archer Lodge",
+      "state": "NC",
+      "slug": "archer-lodge-nc"
+    },
+    {
+      "city": "Lake Royale",
+      "state": "NC",
+      "slug": "lake-royale-nc"
+    },
+    {
+      "city": "Spring Hope",
+      "state": "NC",
+      "slug": "spring-hope-nc"
+    },
+    {
+      "city": "Kenly",
+      "state": "NC",
+      "slug": "kenly-nc"
+    },
+    {
+      "city": "Clayton",
+      "state": "NC",
+      "slug": "clayton-nc"
     }
   ],
   "template": "restoration",

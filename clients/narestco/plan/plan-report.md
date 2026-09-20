@@ -1,21 +1,21 @@
 # Site Plan Report — National Restoration Construction
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-07-15T05:24:58.117362+00:00
+- Generated: 2026-09-20T14:13:23.083763+00:00
 - Domain: `narestco.com`
-- Services selected: 22 of 48 catalog entries
-- Service areas: 14
+- Services selected: 23 of 65 catalog entries
+- Service areas: 20
 - Cross-product enabled: True
-- Total URLs: **365**
-- Total internal links: 3015 (avg 8.3 per page)
+- Total URLs: **500**
+- Total internal links: 4100 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 308 |
-| `service-landing` | 22 |
-| `service-area` | 14 |
+| `service-area-service` | 437 |
+| `service-landing` | 23 |
+| `service-area` | 19 |
 | `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -49,6 +49,7 @@
 - `hoarding-cleanup` — Hoarding Cleanup (specialty, priority 6)
 - `reconstruction` — Reconstruction Services (core, priority 9)
 - `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
+- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 
 ## Service areas
 
@@ -66,6 +67,12 @@
 - `bremerton-wa` — Bremerton, WA
 - `port-orchard-wa` — Port Orchard, WA
 - `university-place-wa` — University Place, WA
+- `lakeland-north-wa` — Lakeland North, WA
+- `des-moines-wa` — Des Moines, WA
+- `lakeland-south-wa` — Lakeland South, WA
+- `algona-wa` — Algona, WA
+- `milton-wa` — Milton, WA
+- `pacific-wa` — Pacific, WA
 
 ## Top 10 priority pages
 
@@ -79,7 +86,7 @@
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization federal way |
 | `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration federal way |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration federal way |
-| `/service-areas/federal-way-wa/` | `service-area` | 7.2 | restoration services federal way |
+| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup federal way |
 | `/services/basement-flooding-cleanup/` | `service-landing` | 7.2 | basement flooding cleanup federal way |
 
 ## Validation

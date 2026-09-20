@@ -1,22 +1,22 @@
 # Site Plan Report — RestorationXpress 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-07-27T17:34:32.863579+00:00
-- Domain: `None`
-- Services selected: 6 of 50 catalog entries
-- Service areas: 9
+- Generated: 2026-09-20T14:13:46.757752+00:00
+- Domain: `restorationxpress.com`
+- Services selected: 7 of 65 catalog entries
+- Service areas: 15
 - Cross-product enabled: True
-- Total URLs: **90**
-- Total internal links: 670 (avg 7.4 per page)
+- Total URLs: **140**
+- Total internal links: 1093 (avg 7.8 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 54 |
+| `service-area-service` | 98 |
+| `service-area` | 14 |
 | `blog-post` | 12 |
-| `service-area` | 9 |
-| `service-landing` | 6 |
+| `service-landing` | 7 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -33,6 +33,7 @@
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
 - `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
+- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 
 ## Service areas
 
@@ -45,6 +46,12 @@
 - `weston-fl` — Weston, FL
 - `pembroke-pines-fl` — Pembroke Pines, FL
 - `miramar-fl` — Miramar, FL
+- `dania-beach-fl` — Dania Beach, FL
+- `west-park-fl` — West Park, FL
+- `miami-gardens-fl` — Miami Gardens, FL
+- `lauderhill-fl` — Lauderhill, FL
+- `hallandale-beach-fl` — Hallandale Beach, FL
+- `lauderdale-lakes-fl` — Lauderdale Lakes, FL
 
 ## Top 10 priority pages
 
@@ -56,7 +63,7 @@
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration davie |
 | `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration davie |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration davie |
-| `/service-areas/davie-fl/` | `service-area` | 7.2 | restoration services davie |
+| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup davie |
 | `/service-areas/cooper-city-fl/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration cooper city |
 | `/service-areas/cooper-city-fl/mold-remediation/` | `service-area-service` | 7.0 | mold remediation cooper city |
 | `/service-areas/cooper-city-fl/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration cooper city |

@@ -1,22 +1,22 @@
 # Site Plan Report — Dry Bros Water & Fire Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-17T15:06:19.345222+00:00
-- Domain: `None`
+- Generated: 2026-09-20T14:13:04.748222+00:00
+- Domain: `drybros.com`
 - Services selected: 13 of 65 catalog entries
-- Service areas: 8
+- Service areas: 14
 - Cross-product enabled: True
-- Total URLs: **128**
-- Total internal links: 993 (avg 7.8 per page)
+- Total URLs: **212**
+- Total internal links: 1724 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 91 |
+| `service-area-service` | 169 |
 | `service-landing` | 13 |
+| `service-area` | 13 |
 | `blog-post` | 8 |
-| `service-area` | 7 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -51,6 +51,12 @@
 - `skokie-il` — Skokie, IL
 - `berwyn-il` — Berwyn, IL
 - `des-plaines-il` — Des Plaines, IL
+- `stickney-il` — Stickney, IL
+- `bedford-park-il` — Bedford Park, IL
+- `lincolnwood-il` — Lincolnwood, IL
+- `river-forest-il` — River Forest, IL
+- `forest-park-il` — Forest Park, IL
+- `lyons-il` — Lyons, IL
 
 ## Top 10 priority pages
 

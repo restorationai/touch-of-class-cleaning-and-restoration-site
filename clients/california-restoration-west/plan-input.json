@@ -108,6 +108,11 @@
       "city": "Moorpark",
       "state": "CA",
       "slug": "moorpark-ca"
+    },
+    {
+      "city": "Santa Rosa Valley",
+      "state": "CA",
+      "slug": "santa-rosa-valley-ca"
     }
   ],
   "template": "restoration",

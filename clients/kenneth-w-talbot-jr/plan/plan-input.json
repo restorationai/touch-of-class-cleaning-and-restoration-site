@@ -18,7 +18,7 @@
     "founded_year": "2020",
     "trust_badges": [
       "Licensed & Insured",
-      "24/7 Emergency Service",
+      "Veteran Owned & Operated",
       "Locally Owned & Operated"
     ]
   },
@@ -80,6 +80,36 @@
       "city": "Valparaiso",
       "state": "FL",
       "slug": "valparaiso-fl"
+    },
+    {
+      "city": "Ebro",
+      "state": "FL",
+      "slug": "ebro-fl"
+    },
+    {
+      "city": "Ponce de Leon",
+      "state": "FL",
+      "slug": "ponce-de-leon-fl"
+    },
+    {
+      "city": "Westville",
+      "state": "FL",
+      "slug": "westville-fl"
+    },
+    {
+      "city": "Eglin AFB",
+      "state": "FL",
+      "slug": "eglin-afb-fl"
+    },
+    {
+      "city": "Vernon",
+      "state": "FL",
+      "slug": "vernon-fl"
+    },
+    {
+      "city": "Wright",
+      "state": "FL",
+      "slug": "wright-fl"
     }
   ],
   "template": "restoration",

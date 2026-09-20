@@ -1,22 +1,22 @@
 # Site Plan Report — All Pro Plumbing Heating and Air
 
 - Template: `plumbing` v0.1.0
-- Generated: 2026-07-08T18:41:50.796770+00:00
+- Generated: 2026-09-20T14:12:54.827982+00:00
 - Domain: `allproplumbingheatingandair.com`
 - Services selected: 22 of 22 catalog entries
-- Service areas: 7
+- Service areas: 13
 - Cross-product enabled: True
-- Total URLs: **204**
-- Total internal links: 1608 (avg 7.9 per page)
+- Total URLs: **319**
+- Total internal links: 2633 (avg 8.3 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 154 |
+| `service-area-service` | 264 |
 | `service-landing` | 22 |
+| `service-area` | 12 |
 | `blog-post` | 12 |
-| `service-area` | 7 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -59,6 +59,12 @@
 - `delano-ca` — Delano, CA
 - `taft-ca` — Taft, CA
 - `tehachapi-ca` — Tehachapi, CA
+- `east-niles-ca` — East Niles, CA
+- `lamont-ca` — Lamont, CA
+- `tarina-ca` — Tarina, CA
+- `weedpatch-ca` — Weedpatch, CA
+- `arvin-ca` — Arvin, CA
+- `dustin-acres-ca` — Dustin Acres, CA
 
 ## Top 10 priority pages
 
@@ -73,7 +79,7 @@
 | `/services/furnace-repair/` | `service-landing` | 8.1 | furnace repair bakersfield |
 | `/services/sewer-line-repair/` | `service-landing` | 8.1 | sewer line repair and replacement bakersfield |
 | `/services/water-heater-installation/` | `service-landing` | 8.1 | water heater installation and replacement bakersfield |
-| `/service-areas/bakersfield-ca/` | `service-area` | 7.2 | plumber bakersfield |
+| `/services/furnace-installation/` | `service-landing` | 7.2 | furnace installation and replacement bakersfield |
 
 ## Validation
 

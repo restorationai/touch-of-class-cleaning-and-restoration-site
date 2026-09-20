@@ -1,22 +1,22 @@
 # Site Plan Report — PuroClean of East Las Vegas
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-08-29T16:23:49.882963+00:00
+- Generated: 2026-09-20T14:13:27.882164+00:00
 - Domain: `purocleaneastlasvegas.com`
-- Services selected: 13 of 60 catalog entries
-- Service areas: 8
+- Services selected: 13 of 65 catalog entries
+- Service areas: 14
 - Cross-product enabled: True
-- Total URLs: **132**
-- Total internal links: 1015 (avg 7.7 per page)
+- Total URLs: **216**
+- Total internal links: 1748 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 91 |
+| `service-area-service` | 169 |
 | `service-landing` | 13 |
+| `service-area` | 13 |
 | `blog-post` | 12 |
-| `service-area` | 7 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -35,7 +35,7 @@
 - `burst-frozen-pipes` — Burst & Frozen Pipes (adjacent, priority 5)
 - `commercial-fire-restoration` — Commercial Fire Restoration (adjacent, priority 5)
 - `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
-- `water-cleanup` — Water Cleanup (core, priority 9)
+- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 - `commercial-restoration` — Commercial Restoration (core, priority 9)
 - `contents-restoration-pack-out` — Contents Restoration & Pack-Out (adjacent, priority 5)
 - `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
@@ -51,6 +51,12 @@
 - `sunrise-manor-nv` — Sunrise Manor, NV
 - `whitney-nv` — Whitney, NV
 - `boulder-city-nv` — Boulder City, NV
+- `winchester-nv` — Winchester, NV
+- `summerlin-south-nv` — Summerlin South, NV
+- `enterprise-nv` — Enterprise, NV
+- `blue-diamond-nv` — Blue Diamond, NV
+- `mount-charleston-nv` — Mount Charleston, NV
+- `nelson-nv` — Nelson, NV
 
 ## Top 10 priority pages
 
@@ -61,11 +67,11 @@
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration las vegas |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration las vegas |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization las vegas |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | water cleanup las vegas |
+| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup las vegas |
 | `/services/biohazard-cleanup/` | `service-landing` | 7.2 | biohazard cleanup las vegas |
 | `/services/mold-inspection-testing/` | `service-landing` | 7.2 | mold inspection and testing las vegas |
-| `/service-areas/boulder-city-nv/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration boulder city |
-| `/service-areas/boulder-city-nv/mold-remediation/` | `service-area-service` | 7.0 | mold remediation boulder city |
+| `/service-areas/blue-diamond-nv/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration blue diamond |
+| `/service-areas/blue-diamond-nv/mold-remediation/` | `service-area-service` | 7.0 | mold remediation blue diamond |
 
 ## Validation
 

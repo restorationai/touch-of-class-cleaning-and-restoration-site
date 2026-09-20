@@ -283,6 +283,11 @@
       "city": "Hallandale Beach",
       "state": "FL",
       "slug": "hallandale-beach-fl"
+    },
+    {
+      "city": "Lauderdale Lakes",
+      "state": "FL",
+      "slug": "lauderdale-lakes-fl"
     }
   ]
 }

@@ -14,7 +14,7 @@
   "status": "active",
   "company_id": "CO-1783527517866",
   "created_at": "2026-07-10T00:00:00+00:00",
-  "updated_at": "2026-09-18T11:08:22.547730+00:00",
+  "updated_at": "2026-09-20T14:13:45.175304+00:00",
   "nap": {
     "name": "The Restoration Group",
     "street": "500 S 31st St",
@@ -53,8 +53,8 @@
   "plan": {
     "template": "restoration",
     "template_version": "0.3.0",
-    "url_count": 1133,
-    "generated_at": "2026-08-29T16:37:27.358115+00:00"
+    "url_count": 1141,
+    "generated_at": "2026-09-20T14:13:45.175296+00:00"
   },
   "build": {
     "scaffolded_at": "2026-07-11T01:57:15.798619+00:00",

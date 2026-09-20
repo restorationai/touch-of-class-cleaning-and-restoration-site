@@ -133,6 +133,11 @@
       "city": "Orange Cove",
       "state": "CA",
       "slug": "orange-cove-ca"
+    },
+    {
+      "city": "Easton",
+      "state": "CA",
+      "slug": "easton-ca"
     }
   ],
   "template": "environmental",

@@ -11,6 +11,8 @@
     "state": "MN",
     "postal_code": "56345",
     "theme": "light",
+    "primary_color": "#184080",
+    "color_source": "sampled from the client logo (public/images/logo.png, 2026-09-17): royal navy #184080 is the dominant flat fill of the H house mark and the HERITAGE RESTORATION wordmark; gold ~#f8d888 is the secondary accent (house window + wordmark divider).",
     "certifications": [
       "IICRC WRT (WATER)",
       "IICRC FSRT (FIRE & SMOKE)",
@@ -81,6 +83,36 @@
       "city": "Pierz",
       "state": "MN",
       "slug": "pierz-mn"
+    },
+    {
+      "city": "Sobieski",
+      "state": "MN",
+      "slug": "sobieski-mn"
+    },
+    {
+      "city": "Flensburg",
+      "state": "MN",
+      "slug": "flensburg-mn"
+    },
+    {
+      "city": "Randall",
+      "state": "MN",
+      "slug": "randall-mn"
+    },
+    {
+      "city": "Elmdale",
+      "state": "MN",
+      "slug": "elmdale-mn"
+    },
+    {
+      "city": "Fort Ripley",
+      "state": "MN",
+      "slug": "fort-ripley-mn"
+    },
+    {
+      "city": "Swanville",
+      "state": "MN",
+      "slug": "swanville-mn"
     }
   ],
   "template": "restoration",

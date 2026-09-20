@@ -1,20 +1,20 @@
 # Site Plan Report — Veterans Remediation & Restoration 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-03T22:41:58.346213+00:00
-- Domain: `None`
-- Services selected: 5 of 60 catalog entries
-- Service areas: 10
+- Generated: 2026-09-20T14:13:19.921581+00:00
+- Domain: `veteransremediation.com`
+- Services selected: 5 of 65 catalog entries
+- Service areas: 16
 - Cross-product enabled: True
-- Total URLs: **76**
-- Total internal links: 557 (avg 7.3 per page)
+- Total URLs: **112**
+- Total internal links: 856 (avg 7.6 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 45 |
-| `service-area` | 9 |
+| `service-area-service` | 75 |
+| `service-area` | 15 |
 | `blog-post` | 8 |
 | `service-landing` | 5 |
 | `legal` | 3 |
@@ -31,7 +31,7 @@
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
 - `mold-remediation` — Mold Remediation (core, priority 10)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
-- `water-cleanup` — Water Cleanup (core, priority 9)
+- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 
 ## Service areas
 
@@ -45,6 +45,12 @@
 - `crestview-fl` — Crestview, FL
 - `defuniak-springs-fl` — DeFuniak Springs, FL
 - `valparaiso-fl` — Valparaiso, FL
+- `ebro-fl` — Ebro, FL
+- `ponce-de-leon-fl` — Ponce de Leon, FL
+- `westville-fl` — Westville, FL
+- `eglin-afb-fl` — Eglin AFB, FL
+- `vernon-fl` — Vernon, FL
+- `wright-fl` — Wright, FL
 
 ## Top 10 priority pages
 
@@ -54,7 +60,7 @@
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation freeport |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration freeport |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration freeport |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | water cleanup freeport |
+| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup freeport |
 | `/service-areas/crestview-fl/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration crestview |
 | `/service-areas/crestview-fl/mold-remediation/` | `service-area-service` | 7.0 | mold remediation crestview |
 | `/service-areas/crestview-fl/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration crestview |

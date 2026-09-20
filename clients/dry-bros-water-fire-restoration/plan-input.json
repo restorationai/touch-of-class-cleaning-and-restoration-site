@@ -119,6 +119,11 @@
       "city": "Forest Park",
       "state": "IL",
       "slug": "forest-park-il"
+    },
+    {
+      "city": "Lyons",
+      "state": "IL",
+      "slug": "lyons-il"
     }
   ],
   "template": "restoration",

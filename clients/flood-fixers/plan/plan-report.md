@@ -1,22 +1,22 @@
 # Site Plan Report — Flood Fixers
 
-- Template: `restoration` v0.2.0
-- Generated: 2026-06-29T20:20:14.191922+00:00
+- Template: `restoration` v0.3.0
+- Generated: 2026-09-20T14:13:11.187580+00:00
 - Domain: `flood-fixers.com`
-- Services selected: 6 of 45 catalog entries
-- Service areas: 15
+- Services selected: 7 of 65 catalog entries
+- Service areas: 21
 - Cross-product enabled: True
-- Total URLs: **129**
-- Total internal links: 991 (avg 7.7 per page)
+- Total URLs: **185**
+- Total internal links: 1444 (avg 7.8 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 90 |
-| `service-area` | 15 |
+| `service-area-service` | 140 |
+| `service-area` | 20 |
 | `blog-post` | 9 |
-| `service-landing` | 6 |
+| `service-landing` | 7 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -33,6 +33,7 @@
 - `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
 - `reconstruction` — Reconstruction Services (core, priority 9)
 - `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
+- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 
 ## Service areas
 
@@ -51,6 +52,12 @@
 - `national-city-ca` — National City, CA
 - `spring-valley-ca` — Spring Valley, CA
 - `temecula-ca` — Temecula, CA
+- `harmony-grove-ca` — Harmony Grove, CA
+- `hidden-meadows-ca` — Hidden Meadows, CA
+- `bonsall-ca` — Bonsall, CA
+- `rancho-santa-fe-ca` — Rancho Santa Fe, CA
+- `valley-center-ca` — Valley Center, CA
+- `fairbanks-ranch-ca` — Fairbanks Ranch, CA
 
 ## Top 10 priority pages
 
@@ -59,13 +66,13 @@
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration san diego |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration san diego |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services san diego |
-| `/service-areas/san-diego-ca/` | `service-area` | 7.2 | restoration services san diego |
+| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup san diego |
 | `/services/basement-flooding-cleanup/` | `service-landing` | 7.2 | basement flooding cleanup san diego |
 | `/services/burst-pipe-repair/` | `service-landing` | 7.2 | burst pipe cleanup and repair san diego |
 | `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting san diego |
+| `/service-areas/bonsall-ca/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration bonsall |
 | `/service-areas/carlsbad-ca/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration carlsbad |
 | `/service-areas/chula-vista-ca/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration chula vista |
-| `/service-areas/el-cajon-ca/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration el cajon |
 
 ## Validation
 

@@ -1,21 +1,21 @@
 # Site Plan Report — Dry County Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-08-10T02:39:11.951939+00:00
-- Domain: `None`
-- Services selected: 11 of 54 catalog entries
-- Service areas: 9
+- Generated: 2026-09-20T14:13:06.236036+00:00
+- Domain: `drycountyrestoration.com`
+- Services selected: 12 of 65 catalog entries
+- Service areas: 15
 - Cross-product enabled: True
-- Total URLs: **136**
-- Total internal links: 1067 (avg 7.8 per page)
+- Total URLs: **211**
+- Total internal links: 1705 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 99 |
-| `service-landing` | 11 |
-| `service-area` | 9 |
+| `service-area-service` | 168 |
+| `service-area` | 14 |
+| `service-landing` | 12 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -38,6 +38,7 @@
 - `air-duct-cleaning` — Air Duct Cleaning (adjacent, priority 5)
 - `carpet-cleaning` — Carpet Cleaning (adjacent, priority 4)
 - `post-construction-cleaning` — Post-Construction and Specialty Cleaning (supporting, priority 4)
+- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 
 ## Service areas
 
@@ -50,6 +51,12 @@
 - `norco-ca` — Norco, CA
 - `chino-ca` — Chino, CA
 - `chino-hills-ca` — Chino Hills, CA
+- `eastvale-ca` — Eastvale, CA
+- `silverado-ca` — Silverado, CA
+- `jurupa-valley-ca` — Jurupa Valley, CA
+- `temescal-valley-ca` — Temescal Valley, CA
+- `yorba-linda-ca` — Yorba Linda, CA
+- `lake-mathews-ca` — Lake Mathews, CA
 
 ## Top 10 priority pages
 
@@ -60,7 +67,7 @@
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration corona |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization corona |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration corona |
-| `/service-areas/corona-ca/` | `service-area` | 7.2 | restoration services corona |
+| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup corona |
 | `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting corona |
 | `/service-areas/anaheim-ca/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration anaheim |
 | `/service-areas/anaheim-ca/mold-remediation/` | `service-area-service` | 7.0 | mold remediation anaheim |

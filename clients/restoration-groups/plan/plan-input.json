@@ -25,8 +25,6 @@
     "storm-damage-restoration",
     "emergency-board-up-tarping",
     "commercial-restoration",
-    "reconstruction",
-    "general-contracting",
     "water-cleanup",
     "contents-restoration-pack-out",
     "basement-flood-cleanup",
@@ -1405,6 +1403,36 @@
         "07047"
       ],
       "local_notes": "North Bergen straddles the Palisades ridge above the Hudson, and its low-lying western flats near the Meadowlands and Tonnelle Avenue are flood-prone \u2014 heavy rain and Ida in 2021 overwhelmed storm drains, backing water into basements. It's one of the state's densest towns: packed with early 20th-century multi-family walkups, brick and frame two- and three-family homes on hillside lots, and older rental stock with aging plumbing and cast-iron drains. Overcrowded units drive frequent tenant water damage and basement mold. The Bergenline and Tonnelle corridors generate commercial sprinkler, roof-leak and retail losses."
+    },
+    {
+      "city": "Mountainside",
+      "state": "NJ",
+      "slug": "mountainside-nj"
+    },
+    {
+      "city": "Short Hills",
+      "state": "NJ",
+      "slug": "short-hills-nj"
+    },
+    {
+      "city": "Colonia",
+      "state": "NJ",
+      "slug": "colonia-nj"
+    },
+    {
+      "city": "New Providence",
+      "state": "NJ",
+      "slug": "new-providence-nj"
+    },
+    {
+      "city": "Avenel",
+      "state": "NJ",
+      "slug": "avenel-nj"
+    },
+    {
+      "city": "Chatham",
+      "state": "NJ",
+      "slug": "chatham-nj"
     }
   ],
   "brand": {
@@ -1419,7 +1447,7 @@
     "postal_code": "07033",
     "lat": "40.6749",
     "lng": "-74.2957",
-    "place_id": "ChIJfZMnExzVxiIRkevldLILJW8",
+    "place_id": "ChIJWYxcvlr6wokRi9KZOyNx400",
     "google_cid": "8008820373441604497",
     "license_numbers": [],
     "license_authority": "NJ Division of Consumer Affairs",
@@ -1446,7 +1474,8 @@
     "primary_color": "#1498d5",
     "primary_dark": "#0c5d83",
     "primary_light": "#bae4f7",
-    "accent_color": "#09435d"
+    "accent_color": "#09435d",
+    "ga4_measurement_id": "G-E4FC6VR918"
   },
   "service_radius_description": "Union County NJ home base (Kenilworth) with statewide New Jersey focus plus the Brooklyn and Manhattan NY metro",
   "cross_product": true,

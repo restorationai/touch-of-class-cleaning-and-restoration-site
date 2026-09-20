@@ -30,7 +30,10 @@
       "Licensed & Insured",
       "24/7 Emergency Service",
       "Locally Owned & Operated"
-    ]
+    ],
+    "place_id": "ChIJSxyUH2zVyIARwWXDMRxNoos",
+    "primary_color": "#a07828",
+    "ga4_measurement_id": "G-EGE48LYQVZ"
   },
   "services": [
     "water-damage-restoration",
@@ -87,6 +90,36 @@
       "city": "Whitney",
       "state": "NV",
       "slug": "whitney-nv"
+    },
+    {
+      "city": "Winchester",
+      "state": "NV",
+      "slug": "winchester-nv"
+    },
+    {
+      "city": "Nellis AFB",
+      "state": "NV",
+      "slug": "nellis-afb-nv"
+    },
+    {
+      "city": "Summerlin South",
+      "state": "NV",
+      "slug": "summerlin-south-nv"
+    },
+    {
+      "city": "Blue Diamond",
+      "state": "NV",
+      "slug": "blue-diamond-nv"
+    },
+    {
+      "city": "Nelson",
+      "state": "NV",
+      "slug": "nelson-nv"
+    },
+    {
+      "city": "Goodsprings",
+      "state": "NV",
+      "slug": "goodsprings-nv"
     }
   ],
   "template": "restoration",

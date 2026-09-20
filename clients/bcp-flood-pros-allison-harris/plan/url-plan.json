@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-08T20:30:44.449342+00:00",
+  "generated_at": "2026-09-20T14:12:57.987212+00:00",
   "input_summary": {
     "service_count": 11,
-    "service_area_count": 9,
+    "service_area_count": 15,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -53,14 +53,20 @@
         "/services/emergency-board-up-tarping/",
         "/services/contents-restoration-storage/",
         "/services/flood-equipment-rental/",
+        "/service-areas/alpine-ut/",
+        "/service-areas/bluffdale-ut/",
+        "/service-areas/cedar-hills-ut/",
+        "/service-areas/draper-ut/",
         "/service-areas/highland-ut/",
         "/service-areas/lehi-ut/",
+        "/service-areas/lindon-ut/",
         "/service-areas/orem-ut/",
         "/service-areas/pleasant-grove-ut/",
         "/service-areas/provo-ut/",
         "/service-areas/saratoga-springs-ut/",
         "/service-areas/spanish-fork-ut/",
-        "/service-areas/springville-ut/"
+        "/service-areas/springville-ut/",
+        "/service-areas/vineyard-ut/"
       ]
     },
     {
@@ -135,14 +141,20 @@
       "status": "planned",
       "internal_links_out": [
         "/",
+        "/service-areas/alpine-ut/",
+        "/service-areas/bluffdale-ut/",
+        "/service-areas/cedar-hills-ut/",
+        "/service-areas/draper-ut/",
         "/service-areas/highland-ut/",
         "/service-areas/lehi-ut/",
+        "/service-areas/lindon-ut/",
         "/service-areas/orem-ut/",
         "/service-areas/pleasant-grove-ut/",
         "/service-areas/provo-ut/",
         "/service-areas/saratoga-springs-ut/",
         "/service-areas/spanish-fork-ut/",
-        "/service-areas/springville-ut/"
+        "/service-areas/springville-ut/",
+        "/service-areas/vineyard-ut/"
       ]
     },
     {
@@ -284,14 +296,19 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/alpine-ut/water-damage-restoration/",
+        "/service-areas/bluffdale-ut/water-damage-restoration/",
+        "/service-areas/cedar-hills-ut/water-damage-restoration/",
+        "/service-areas/draper-ut/water-damage-restoration/",
         "/service-areas/highland-ut/water-damage-restoration/",
         "/service-areas/lehi-ut/water-damage-restoration/",
+        "/service-areas/lindon-ut/water-damage-restoration/",
         "/service-areas/orem-ut/water-damage-restoration/",
         "/service-areas/pleasant-grove-ut/water-damage-restoration/",
         "/service-areas/provo-ut/water-damage-restoration/",
         "/service-areas/saratoga-springs-ut/water-damage-restoration/",
         "/service-areas/spanish-fork-ut/water-damage-restoration/",
-        "/service-areas/springville-ut/water-damage-restoration/",
+        "/services/water-cleanup/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
         "/blog/choosing-a-restoration-company/"
@@ -333,14 +350,18 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/alpine-ut/storm-damage-restoration/",
+        "/service-areas/bluffdale-ut/storm-damage-restoration/",
+        "/service-areas/cedar-hills-ut/storm-damage-restoration/",
+        "/service-areas/draper-ut/storm-damage-restoration/",
         "/service-areas/highland-ut/storm-damage-restoration/",
         "/service-areas/lehi-ut/storm-damage-restoration/",
+        "/service-areas/lindon-ut/storm-damage-restoration/",
         "/service-areas/orem-ut/storm-damage-restoration/",
         "/service-areas/pleasant-grove-ut/storm-damage-restoration/",
         "/service-areas/provo-ut/storm-damage-restoration/",
         "/service-areas/saratoga-springs-ut/storm-damage-restoration/",
-        "/service-areas/spanish-fork-ut/storm-damage-restoration/",
-        "/service-areas/springville-ut/storm-damage-restoration/"
+        "/service-areas/spanish-fork-ut/storm-damage-restoration/"
       ]
     },
     {
@@ -379,14 +400,18 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/alpine-ut/fire-damage-restoration/",
+        "/service-areas/bluffdale-ut/fire-damage-restoration/",
+        "/service-areas/cedar-hills-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
         "/service-areas/highland-ut/fire-damage-restoration/",
         "/service-areas/lehi-ut/fire-damage-restoration/",
+        "/service-areas/lindon-ut/fire-damage-restoration/",
         "/service-areas/orem-ut/fire-damage-restoration/",
         "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
         "/service-areas/provo-ut/fire-damage-restoration/",
         "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
         "/service-areas/spanish-fork-ut/fire-damage-restoration/",
-        "/service-areas/springville-ut/fire-damage-restoration/",
         "/blog/choosing-a-restoration-company/",
         "/blog/fire-damage-restoration-process/"
       ]
@@ -428,14 +453,18 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/alpine-ut/general-contracting/",
+        "/service-areas/bluffdale-ut/general-contracting/",
+        "/service-areas/cedar-hills-ut/general-contracting/",
+        "/service-areas/draper-ut/general-contracting/",
         "/service-areas/highland-ut/general-contracting/",
         "/service-areas/lehi-ut/general-contracting/",
+        "/service-areas/lindon-ut/general-contracting/",
         "/service-areas/orem-ut/general-contracting/",
         "/service-areas/pleasant-grove-ut/general-contracting/",
         "/service-areas/provo-ut/general-contracting/",
         "/service-areas/saratoga-springs-ut/general-contracting/",
-        "/service-areas/spanish-fork-ut/general-contracting/",
-        "/service-areas/springville-ut/general-contracting/"
+        "/service-areas/spanish-fork-ut/general-contracting/"
       ]
     },
     {
@@ -474,14 +503,18 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/alpine-ut/sewage-cleanup/",
+        "/service-areas/bluffdale-ut/sewage-cleanup/",
+        "/service-areas/cedar-hills-ut/sewage-cleanup/",
+        "/service-areas/draper-ut/sewage-cleanup/",
         "/service-areas/highland-ut/sewage-cleanup/",
         "/service-areas/lehi-ut/sewage-cleanup/",
+        "/service-areas/lindon-ut/sewage-cleanup/",
         "/service-areas/orem-ut/sewage-cleanup/",
         "/service-areas/pleasant-grove-ut/sewage-cleanup/",
         "/service-areas/provo-ut/sewage-cleanup/",
         "/service-areas/saratoga-springs-ut/sewage-cleanup/",
-        "/service-areas/spanish-fork-ut/sewage-cleanup/",
-        "/service-areas/springville-ut/sewage-cleanup/"
+        "/service-areas/spanish-fork-ut/sewage-cleanup/"
       ]
     },
     {
@@ -518,14 +551,18 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/alpine-ut/emergency-board-up-tarping/",
+        "/service-areas/bluffdale-ut/emergency-board-up-tarping/",
+        "/service-areas/cedar-hills-ut/emergency-board-up-tarping/",
+        "/service-areas/draper-ut/emergency-board-up-tarping/",
         "/service-areas/highland-ut/emergency-board-up-tarping/",
         "/service-areas/lehi-ut/emergency-board-up-tarping/",
+        "/service-areas/lindon-ut/emergency-board-up-tarping/",
         "/service-areas/orem-ut/emergency-board-up-tarping/",
         "/service-areas/pleasant-grove-ut/emergency-board-up-tarping/",
         "/service-areas/provo-ut/emergency-board-up-tarping/",
         "/service-areas/saratoga-springs-ut/emergency-board-up-tarping/",
-        "/service-areas/spanish-fork-ut/emergency-board-up-tarping/",
-        "/service-areas/springville-ut/emergency-board-up-tarping/"
+        "/service-areas/spanish-fork-ut/emergency-board-up-tarping/"
       ]
     },
     {
@@ -537,8 +574,9 @@
       "title": "Water Cleanup in American Fork | FIX Restoration",
       "h1": "Water Cleanup in American Fork",
       "meta_description": "Water cleanup in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "water cleanup american fork",
+      "primary_keyword": "emergency water cleanup american fork",
       "secondary_keywords": [
+        "water cleanup",
         "water damage cleanup",
         "water clean up",
         "flood water cleanup",
@@ -563,14 +601,19 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/alpine-ut/water-cleanup/",
+        "/service-areas/bluffdale-ut/water-cleanup/",
+        "/service-areas/cedar-hills-ut/water-cleanup/",
+        "/service-areas/draper-ut/water-cleanup/",
         "/service-areas/highland-ut/water-cleanup/",
         "/service-areas/lehi-ut/water-cleanup/",
+        "/service-areas/lindon-ut/water-cleanup/",
         "/service-areas/orem-ut/water-cleanup/",
         "/service-areas/pleasant-grove-ut/water-cleanup/",
         "/service-areas/provo-ut/water-cleanup/",
         "/service-areas/saratoga-springs-ut/water-cleanup/",
         "/service-areas/spanish-fork-ut/water-cleanup/",
-        "/service-areas/springville-ut/water-cleanup/"
+        "/services/water-damage-restoration/"
       ]
     },
     {
@@ -609,14 +652,18 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/alpine-ut/mold-remediation/",
+        "/service-areas/bluffdale-ut/mold-remediation/",
+        "/service-areas/cedar-hills-ut/mold-remediation/",
+        "/service-areas/draper-ut/mold-remediation/",
         "/service-areas/highland-ut/mold-remediation/",
         "/service-areas/lehi-ut/mold-remediation/",
+        "/service-areas/lindon-ut/mold-remediation/",
         "/service-areas/orem-ut/mold-remediation/",
         "/service-areas/pleasant-grove-ut/mold-remediation/",
         "/service-areas/provo-ut/mold-remediation/",
         "/service-areas/saratoga-springs-ut/mold-remediation/",
         "/service-areas/spanish-fork-ut/mold-remediation/",
-        "/service-areas/springville-ut/mold-remediation/",
         "/blog/choosing-a-restoration-company/",
         "/blog/how-to-test-for-mold/",
         "/blog/signs-of-hidden-mold/"
@@ -658,14 +705,18 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/alpine-ut/biohazard-cleanup/",
+        "/service-areas/bluffdale-ut/biohazard-cleanup/",
+        "/service-areas/cedar-hills-ut/biohazard-cleanup/",
+        "/service-areas/draper-ut/biohazard-cleanup/",
         "/service-areas/highland-ut/biohazard-cleanup/",
         "/service-areas/lehi-ut/biohazard-cleanup/",
+        "/service-areas/lindon-ut/biohazard-cleanup/",
         "/service-areas/orem-ut/biohazard-cleanup/",
         "/service-areas/pleasant-grove-ut/biohazard-cleanup/",
         "/service-areas/provo-ut/biohazard-cleanup/",
         "/service-areas/saratoga-springs-ut/biohazard-cleanup/",
-        "/service-areas/spanish-fork-ut/biohazard-cleanup/",
-        "/service-areas/springville-ut/biohazard-cleanup/"
+        "/service-areas/spanish-fork-ut/biohazard-cleanup/"
       ]
     },
     {
@@ -698,14 +749,18 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/alpine-ut/contents-restoration-storage/",
+        "/service-areas/bluffdale-ut/contents-restoration-storage/",
+        "/service-areas/cedar-hills-ut/contents-restoration-storage/",
+        "/service-areas/draper-ut/contents-restoration-storage/",
         "/service-areas/highland-ut/contents-restoration-storage/",
         "/service-areas/lehi-ut/contents-restoration-storage/",
+        "/service-areas/lindon-ut/contents-restoration-storage/",
         "/service-areas/orem-ut/contents-restoration-storage/",
         "/service-areas/pleasant-grove-ut/contents-restoration-storage/",
         "/service-areas/provo-ut/contents-restoration-storage/",
         "/service-areas/saratoga-springs-ut/contents-restoration-storage/",
-        "/service-areas/spanish-fork-ut/contents-restoration-storage/",
-        "/service-areas/springville-ut/contents-restoration-storage/"
+        "/service-areas/spanish-fork-ut/contents-restoration-storage/"
       ]
     },
     {
@@ -744,14 +799,18 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/alpine-ut/flood-equipment-rental/",
+        "/service-areas/bluffdale-ut/flood-equipment-rental/",
+        "/service-areas/cedar-hills-ut/flood-equipment-rental/",
+        "/service-areas/draper-ut/flood-equipment-rental/",
         "/service-areas/highland-ut/flood-equipment-rental/",
         "/service-areas/lehi-ut/flood-equipment-rental/",
+        "/service-areas/lindon-ut/flood-equipment-rental/",
         "/service-areas/orem-ut/flood-equipment-rental/",
         "/service-areas/pleasant-grove-ut/flood-equipment-rental/",
         "/service-areas/provo-ut/flood-equipment-rental/",
         "/service-areas/saratoga-springs-ut/flood-equipment-rental/",
-        "/service-areas/spanish-fork-ut/flood-equipment-rental/",
-        "/service-areas/springville-ut/flood-equipment-rental/"
+        "/service-areas/spanish-fork-ut/flood-equipment-rental/"
       ]
     },
     {
@@ -797,9 +856,9 @@
         "/service-areas/provo-ut/emergency-board-up-tarping/",
         "/service-areas/provo-ut/contents-restoration-storage/",
         "/service-areas/provo-ut/flood-equipment-rental/",
-        "/service-areas/highland-ut/",
-        "/service-areas/lehi-ut/",
-        "/service-areas/orem-ut/"
+        "/service-areas/alpine-ut/",
+        "/service-areas/bluffdale-ut/",
+        "/service-areas/cedar-hills-ut/"
       ]
     },
     {
@@ -845,9 +904,9 @@
         "/service-areas/orem-ut/emergency-board-up-tarping/",
         "/service-areas/orem-ut/contents-restoration-storage/",
         "/service-areas/orem-ut/flood-equipment-rental/",
-        "/service-areas/highland-ut/",
-        "/service-areas/lehi-ut/",
-        "/service-areas/pleasant-grove-ut/"
+        "/service-areas/alpine-ut/",
+        "/service-areas/bluffdale-ut/",
+        "/service-areas/cedar-hills-ut/"
       ]
     },
     {
@@ -893,9 +952,9 @@
         "/service-areas/lehi-ut/emergency-board-up-tarping/",
         "/service-areas/lehi-ut/contents-restoration-storage/",
         "/service-areas/lehi-ut/flood-equipment-rental/",
-        "/service-areas/highland-ut/",
-        "/service-areas/orem-ut/",
-        "/service-areas/pleasant-grove-ut/"
+        "/service-areas/alpine-ut/",
+        "/service-areas/bluffdale-ut/",
+        "/service-areas/cedar-hills-ut/"
       ]
     },
     {
@@ -941,9 +1000,9 @@
         "/service-areas/pleasant-grove-ut/emergency-board-up-tarping/",
         "/service-areas/pleasant-grove-ut/contents-restoration-storage/",
         "/service-areas/pleasant-grove-ut/flood-equipment-rental/",
-        "/service-areas/highland-ut/",
-        "/service-areas/lehi-ut/",
-        "/service-areas/orem-ut/"
+        "/service-areas/alpine-ut/",
+        "/service-areas/bluffdale-ut/",
+        "/service-areas/cedar-hills-ut/"
       ]
     },
     {
@@ -989,9 +1048,9 @@
         "/service-areas/spanish-fork-ut/emergency-board-up-tarping/",
         "/service-areas/spanish-fork-ut/contents-restoration-storage/",
         "/service-areas/spanish-fork-ut/flood-equipment-rental/",
-        "/service-areas/highland-ut/",
-        "/service-areas/lehi-ut/",
-        "/service-areas/orem-ut/"
+        "/service-areas/alpine-ut/",
+        "/service-areas/bluffdale-ut/",
+        "/service-areas/cedar-hills-ut/"
       ]
     },
     {
@@ -1037,9 +1096,9 @@
         "/service-areas/springville-ut/emergency-board-up-tarping/",
         "/service-areas/springville-ut/contents-restoration-storage/",
         "/service-areas/springville-ut/flood-equipment-rental/",
-        "/service-areas/highland-ut/",
-        "/service-areas/lehi-ut/",
-        "/service-areas/orem-ut/"
+        "/service-areas/alpine-ut/",
+        "/service-areas/bluffdale-ut/",
+        "/service-areas/cedar-hills-ut/"
       ]
     },
     {
@@ -1085,9 +1144,9 @@
         "/service-areas/saratoga-springs-ut/emergency-board-up-tarping/",
         "/service-areas/saratoga-springs-ut/contents-restoration-storage/",
         "/service-areas/saratoga-springs-ut/flood-equipment-rental/",
-        "/service-areas/highland-ut/",
-        "/service-areas/lehi-ut/",
-        "/service-areas/orem-ut/"
+        "/service-areas/alpine-ut/",
+        "/service-areas/bluffdale-ut/",
+        "/service-areas/cedar-hills-ut/"
       ]
     },
     {
@@ -1133,9 +1192,297 @@
         "/service-areas/highland-ut/emergency-board-up-tarping/",
         "/service-areas/highland-ut/contents-restoration-storage/",
         "/service-areas/highland-ut/flood-equipment-rental/",
-        "/service-areas/lehi-ut/",
-        "/service-areas/orem-ut/",
-        "/service-areas/pleasant-grove-ut/"
+        "/service-areas/alpine-ut/",
+        "/service-areas/bluffdale-ut/",
+        "/service-areas/cedar-hills-ut/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cedar-hills-ut/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Cedar Hills, UT | FIX Restoration",
+      "h1": "Restoration Services in Cedar Hills",
+      "meta_description": "Serving Cedar Hills, UT with water, fire, mold, and storm damage restoration. Experienced team. Call (801) 930-9750.",
+      "primary_keyword": "restoration services cedar hills",
+      "secondary_keywords": [
+        "cedar hills restoration company",
+        "damage restoration cedar hills",
+        "cedar hills disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/cedar-hills-ut/fire-damage-restoration/",
+        "/service-areas/cedar-hills-ut/mold-remediation/",
+        "/service-areas/cedar-hills-ut/water-damage-restoration/",
+        "/service-areas/cedar-hills-ut/sewage-cleanup/",
+        "/service-areas/cedar-hills-ut/storm-damage-restoration/",
+        "/service-areas/cedar-hills-ut/water-cleanup/",
+        "/service-areas/cedar-hills-ut/biohazard-cleanup/",
+        "/service-areas/cedar-hills-ut/general-contracting/",
+        "/service-areas/cedar-hills-ut/emergency-board-up-tarping/",
+        "/service-areas/cedar-hills-ut/contents-restoration-storage/",
+        "/service-areas/cedar-hills-ut/flood-equipment-rental/",
+        "/service-areas/alpine-ut/",
+        "/service-areas/bluffdale-ut/",
+        "/service-areas/draper-ut/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lindon-ut/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Lindon, UT | FIX Restoration",
+      "h1": "Restoration Services in Lindon",
+      "meta_description": "Serving Lindon, UT with water, fire, mold, and storm damage restoration. Experienced team. Call (801) 930-9750.",
+      "primary_keyword": "restoration services lindon",
+      "secondary_keywords": [
+        "lindon restoration company",
+        "damage restoration lindon",
+        "lindon disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/lindon-ut/fire-damage-restoration/",
+        "/service-areas/lindon-ut/mold-remediation/",
+        "/service-areas/lindon-ut/water-damage-restoration/",
+        "/service-areas/lindon-ut/sewage-cleanup/",
+        "/service-areas/lindon-ut/storm-damage-restoration/",
+        "/service-areas/lindon-ut/water-cleanup/",
+        "/service-areas/lindon-ut/biohazard-cleanup/",
+        "/service-areas/lindon-ut/general-contracting/",
+        "/service-areas/lindon-ut/emergency-board-up-tarping/",
+        "/service-areas/lindon-ut/contents-restoration-storage/",
+        "/service-areas/lindon-ut/flood-equipment-rental/",
+        "/service-areas/alpine-ut/",
+        "/service-areas/bluffdale-ut/",
+        "/service-areas/cedar-hills-ut/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/alpine-ut/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Alpine, UT | FIX Restoration",
+      "h1": "Restoration Services in Alpine",
+      "meta_description": "Serving Alpine, UT with water, fire, mold, and storm damage restoration. Experienced team. Call (801) 930-9750.",
+      "primary_keyword": "restoration services alpine",
+      "secondary_keywords": [
+        "alpine restoration company",
+        "damage restoration alpine",
+        "alpine disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/alpine-ut/fire-damage-restoration/",
+        "/service-areas/alpine-ut/mold-remediation/",
+        "/service-areas/alpine-ut/water-damage-restoration/",
+        "/service-areas/alpine-ut/sewage-cleanup/",
+        "/service-areas/alpine-ut/storm-damage-restoration/",
+        "/service-areas/alpine-ut/water-cleanup/",
+        "/service-areas/alpine-ut/biohazard-cleanup/",
+        "/service-areas/alpine-ut/general-contracting/",
+        "/service-areas/alpine-ut/emergency-board-up-tarping/",
+        "/service-areas/alpine-ut/contents-restoration-storage/",
+        "/service-areas/alpine-ut/flood-equipment-rental/",
+        "/service-areas/bluffdale-ut/",
+        "/service-areas/cedar-hills-ut/",
+        "/service-areas/draper-ut/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/vineyard-ut/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Vineyard, UT | FIX Restoration",
+      "h1": "Restoration Services in Vineyard",
+      "meta_description": "Serving Vineyard, UT with water, fire, mold, and storm damage restoration. Experienced team. Call (801) 930-9750.",
+      "primary_keyword": "restoration services vineyard",
+      "secondary_keywords": [
+        "vineyard restoration company",
+        "damage restoration vineyard",
+        "vineyard disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/vineyard-ut/fire-damage-restoration/",
+        "/service-areas/vineyard-ut/mold-remediation/",
+        "/service-areas/vineyard-ut/water-damage-restoration/",
+        "/service-areas/vineyard-ut/sewage-cleanup/",
+        "/service-areas/vineyard-ut/storm-damage-restoration/",
+        "/service-areas/vineyard-ut/water-cleanup/",
+        "/service-areas/vineyard-ut/biohazard-cleanup/",
+        "/service-areas/vineyard-ut/general-contracting/",
+        "/service-areas/vineyard-ut/emergency-board-up-tarping/",
+        "/service-areas/vineyard-ut/contents-restoration-storage/",
+        "/service-areas/vineyard-ut/flood-equipment-rental/",
+        "/service-areas/alpine-ut/",
+        "/service-areas/bluffdale-ut/",
+        "/service-areas/cedar-hills-ut/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Draper, UT | FIX Restoration",
+      "h1": "Restoration Services in Draper",
+      "meta_description": "Serving Draper, UT with water, fire, mold, and storm damage restoration. Experienced team. Call (801) 930-9750.",
+      "primary_keyword": "restoration services draper",
+      "secondary_keywords": [
+        "draper restoration company",
+        "damage restoration draper",
+        "draper disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/draper-ut/water-damage-restoration/",
+        "/service-areas/draper-ut/sewage-cleanup/",
+        "/service-areas/draper-ut/storm-damage-restoration/",
+        "/service-areas/draper-ut/water-cleanup/",
+        "/service-areas/draper-ut/biohazard-cleanup/",
+        "/service-areas/draper-ut/general-contracting/",
+        "/service-areas/draper-ut/emergency-board-up-tarping/",
+        "/service-areas/draper-ut/contents-restoration-storage/",
+        "/service-areas/draper-ut/flood-equipment-rental/",
+        "/service-areas/alpine-ut/",
+        "/service-areas/bluffdale-ut/",
+        "/service-areas/cedar-hills-ut/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bluffdale-ut/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Bluffdale, UT | FIX Restoration",
+      "h1": "Restoration Services in Bluffdale",
+      "meta_description": "Serving Bluffdale, UT with water, fire, mold, and storm damage restoration. Experienced team. Call (801) 930-9750.",
+      "primary_keyword": "restoration services bluffdale",
+      "secondary_keywords": [
+        "bluffdale restoration company",
+        "damage restoration bluffdale",
+        "bluffdale disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/bluffdale-ut/fire-damage-restoration/",
+        "/service-areas/bluffdale-ut/mold-remediation/",
+        "/service-areas/bluffdale-ut/water-damage-restoration/",
+        "/service-areas/bluffdale-ut/sewage-cleanup/",
+        "/service-areas/bluffdale-ut/storm-damage-restoration/",
+        "/service-areas/bluffdale-ut/water-cleanup/",
+        "/service-areas/bluffdale-ut/biohazard-cleanup/",
+        "/service-areas/bluffdale-ut/general-contracting/",
+        "/service-areas/bluffdale-ut/emergency-board-up-tarping/",
+        "/service-areas/bluffdale-ut/contents-restoration-storage/",
+        "/service-areas/bluffdale-ut/flood-equipment-rental/",
+        "/service-areas/alpine-ut/",
+        "/service-areas/cedar-hills-ut/",
+        "/service-areas/draper-ut/"
       ]
     },
     {
@@ -1177,8 +1524,8 @@
         "/service-areas/provo-ut/",
         "/service-areas/provo-ut/fire-damage-restoration/",
         "/service-areas/provo-ut/mold-remediation/",
-        "/service-areas/highland-ut/water-damage-restoration/",
-        "/service-areas/lehi-ut/water-damage-restoration/",
+        "/service-areas/alpine-ut/water-damage-restoration/",
+        "/service-areas/bluffdale-ut/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1221,8 +1568,8 @@
         "/service-areas/provo-ut/",
         "/service-areas/provo-ut/fire-damage-restoration/",
         "/service-areas/provo-ut/mold-remediation/",
-        "/service-areas/highland-ut/storm-damage-restoration/",
-        "/service-areas/lehi-ut/storm-damage-restoration/",
+        "/service-areas/alpine-ut/storm-damage-restoration/",
+        "/service-areas/bluffdale-ut/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1265,8 +1612,8 @@
         "/service-areas/provo-ut/",
         "/service-areas/provo-ut/mold-remediation/",
         "/service-areas/provo-ut/water-damage-restoration/",
-        "/service-areas/highland-ut/fire-damage-restoration/",
-        "/service-areas/lehi-ut/fire-damage-restoration/",
+        "/service-areas/alpine-ut/fire-damage-restoration/",
+        "/service-areas/bluffdale-ut/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1310,8 +1657,8 @@
         "/service-areas/provo-ut/",
         "/service-areas/provo-ut/fire-damage-restoration/",
         "/service-areas/provo-ut/mold-remediation/",
-        "/service-areas/highland-ut/general-contracting/",
-        "/service-areas/lehi-ut/general-contracting/",
+        "/service-areas/alpine-ut/general-contracting/",
+        "/service-areas/bluffdale-ut/general-contracting/",
         "/contact/"
       ]
     },
@@ -1354,8 +1701,8 @@
         "/service-areas/provo-ut/",
         "/service-areas/provo-ut/fire-damage-restoration/",
         "/service-areas/provo-ut/mold-remediation/",
-        "/service-areas/highland-ut/sewage-cleanup/",
-        "/service-areas/lehi-ut/sewage-cleanup/",
+        "/service-areas/alpine-ut/sewage-cleanup/",
+        "/service-areas/bluffdale-ut/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -1396,8 +1743,8 @@
         "/service-areas/provo-ut/",
         "/service-areas/provo-ut/fire-damage-restoration/",
         "/service-areas/provo-ut/mold-remediation/",
-        "/service-areas/highland-ut/emergency-board-up-tarping/",
-        "/service-areas/lehi-ut/emergency-board-up-tarping/",
+        "/service-areas/alpine-ut/emergency-board-up-tarping/",
+        "/service-areas/bluffdale-ut/emergency-board-up-tarping/",
         "/contact/"
       ]
     },
@@ -1411,8 +1758,9 @@
       "title": "Water Cleanup in Provo, UT | FIX Restoration",
       "h1": "Water Cleanup in Provo",
       "meta_description": "Water cleanup in Provo, UT. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "water cleanup provo",
+      "primary_keyword": "emergency water cleanup provo",
       "secondary_keywords": [
+        "water cleanup",
         "water damage cleanup",
         "water clean up",
         "flood water cleanup",
@@ -1439,8 +1787,8 @@
         "/service-areas/provo-ut/",
         "/service-areas/provo-ut/fire-damage-restoration/",
         "/service-areas/provo-ut/mold-remediation/",
-        "/service-areas/highland-ut/water-cleanup/",
-        "/service-areas/lehi-ut/water-cleanup/",
+        "/service-areas/alpine-ut/water-cleanup/",
+        "/service-areas/bluffdale-ut/water-cleanup/",
         "/contact/"
       ]
     },
@@ -1483,8 +1831,8 @@
         "/service-areas/provo-ut/",
         "/service-areas/provo-ut/fire-damage-restoration/",
         "/service-areas/provo-ut/water-damage-restoration/",
-        "/service-areas/highland-ut/mold-remediation/",
-        "/service-areas/lehi-ut/mold-remediation/",
+        "/service-areas/alpine-ut/mold-remediation/",
+        "/service-areas/bluffdale-ut/mold-remediation/",
         "/contact/"
       ]
     },
@@ -1527,8 +1875,8 @@
         "/service-areas/provo-ut/",
         "/service-areas/provo-ut/fire-damage-restoration/",
         "/service-areas/provo-ut/mold-remediation/",
-        "/service-areas/highland-ut/biohazard-cleanup/",
-        "/service-areas/lehi-ut/biohazard-cleanup/",
+        "/service-areas/alpine-ut/biohazard-cleanup/",
+        "/service-areas/bluffdale-ut/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -1565,8 +1913,8 @@
         "/service-areas/provo-ut/",
         "/service-areas/provo-ut/fire-damage-restoration/",
         "/service-areas/provo-ut/mold-remediation/",
-        "/service-areas/highland-ut/contents-restoration-storage/",
-        "/service-areas/lehi-ut/contents-restoration-storage/",
+        "/service-areas/alpine-ut/contents-restoration-storage/",
+        "/service-areas/bluffdale-ut/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -1609,8 +1957,8 @@
         "/service-areas/provo-ut/",
         "/service-areas/provo-ut/fire-damage-restoration/",
         "/service-areas/provo-ut/mold-remediation/",
-        "/service-areas/highland-ut/flood-equipment-rental/",
-        "/service-areas/lehi-ut/flood-equipment-rental/",
+        "/service-areas/alpine-ut/flood-equipment-rental/",
+        "/service-areas/bluffdale-ut/flood-equipment-rental/",
         "/contact/"
       ]
     },
@@ -1653,8 +2001,8 @@
         "/service-areas/orem-ut/",
         "/service-areas/orem-ut/fire-damage-restoration/",
         "/service-areas/orem-ut/mold-remediation/",
-        "/service-areas/highland-ut/water-damage-restoration/",
-        "/service-areas/lehi-ut/water-damage-restoration/",
+        "/service-areas/alpine-ut/water-damage-restoration/",
+        "/service-areas/bluffdale-ut/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1697,8 +2045,8 @@
         "/service-areas/orem-ut/",
         "/service-areas/orem-ut/fire-damage-restoration/",
         "/service-areas/orem-ut/mold-remediation/",
-        "/service-areas/highland-ut/storm-damage-restoration/",
-        "/service-areas/lehi-ut/storm-damage-restoration/",
+        "/service-areas/alpine-ut/storm-damage-restoration/",
+        "/service-areas/bluffdale-ut/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1741,8 +2089,8 @@
         "/service-areas/orem-ut/",
         "/service-areas/orem-ut/mold-remediation/",
         "/service-areas/orem-ut/water-damage-restoration/",
-        "/service-areas/highland-ut/fire-damage-restoration/",
-        "/service-areas/lehi-ut/fire-damage-restoration/",
+        "/service-areas/alpine-ut/fire-damage-restoration/",
+        "/service-areas/bluffdale-ut/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1786,8 +2134,8 @@
         "/service-areas/orem-ut/",
         "/service-areas/orem-ut/fire-damage-restoration/",
         "/service-areas/orem-ut/mold-remediation/",
-        "/service-areas/highland-ut/general-contracting/",
-        "/service-areas/lehi-ut/general-contracting/",
+        "/service-areas/alpine-ut/general-contracting/",
+        "/service-areas/bluffdale-ut/general-contracting/",
         "/contact/"
       ]
     },
@@ -1830,8 +2178,8 @@
         "/service-areas/orem-ut/",
         "/service-areas/orem-ut/fire-damage-restoration/",
         "/service-areas/orem-ut/mold-remediation/",
-        "/service-areas/highland-ut/sewage-cleanup/",
-        "/service-areas/lehi-ut/sewage-cleanup/",
+        "/service-areas/alpine-ut/sewage-cleanup/",
+        "/service-areas/bluffdale-ut/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -1872,8 +2220,8 @@
         "/service-areas/orem-ut/",
         "/service-areas/orem-ut/fire-damage-restoration/",
         "/service-areas/orem-ut/mold-remediation/",
-        "/service-areas/highland-ut/emergency-board-up-tarping/",
-        "/service-areas/lehi-ut/emergency-board-up-tarping/",
+        "/service-areas/alpine-ut/emergency-board-up-tarping/",
+        "/service-areas/bluffdale-ut/emergency-board-up-tarping/",
         "/contact/"
       ]
     },
@@ -1887,8 +2235,9 @@
       "title": "Water Cleanup in Orem, UT | FIX Restoration",
       "h1": "Water Cleanup in Orem",
       "meta_description": "Water cleanup in Orem, UT. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "water cleanup orem",
+      "primary_keyword": "emergency water cleanup orem",
       "secondary_keywords": [
+        "water cleanup",
         "water damage cleanup",
         "water clean up",
         "flood water cleanup",
@@ -1915,8 +2264,8 @@
         "/service-areas/orem-ut/",
         "/service-areas/orem-ut/fire-damage-restoration/",
         "/service-areas/orem-ut/mold-remediation/",
-        "/service-areas/highland-ut/water-cleanup/",
-        "/service-areas/lehi-ut/water-cleanup/",
+        "/service-areas/alpine-ut/water-cleanup/",
+        "/service-areas/bluffdale-ut/water-cleanup/",
         "/contact/"
       ]
     },
@@ -1959,8 +2308,8 @@
         "/service-areas/orem-ut/",
         "/service-areas/orem-ut/fire-damage-restoration/",
         "/service-areas/orem-ut/water-damage-restoration/",
-        "/service-areas/highland-ut/mold-remediation/",
-        "/service-areas/lehi-ut/mold-remediation/",
+        "/service-areas/alpine-ut/mold-remediation/",
+        "/service-areas/bluffdale-ut/mold-remediation/",
         "/contact/"
       ]
     },
@@ -2003,8 +2352,8 @@
         "/service-areas/orem-ut/",
         "/service-areas/orem-ut/fire-damage-restoration/",
         "/service-areas/orem-ut/mold-remediation/",
-        "/service-areas/highland-ut/biohazard-cleanup/",
-        "/service-areas/lehi-ut/biohazard-cleanup/",
+        "/service-areas/alpine-ut/biohazard-cleanup/",
+        "/service-areas/bluffdale-ut/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -2041,8 +2390,8 @@
         "/service-areas/orem-ut/",
         "/service-areas/orem-ut/fire-damage-restoration/",
         "/service-areas/orem-ut/mold-remediation/",
-        "/service-areas/highland-ut/contents-restoration-storage/",
-        "/service-areas/lehi-ut/contents-restoration-storage/",
+        "/service-areas/alpine-ut/contents-restoration-storage/",
+        "/service-areas/bluffdale-ut/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -2085,8 +2434,8 @@
         "/service-areas/orem-ut/",
         "/service-areas/orem-ut/fire-damage-restoration/",
         "/service-areas/orem-ut/mold-remediation/",
-        "/service-areas/highland-ut/flood-equipment-rental/",
-        "/service-areas/lehi-ut/flood-equipment-rental/",
+        "/service-areas/alpine-ut/flood-equipment-rental/",
+        "/service-areas/bluffdale-ut/flood-equipment-rental/",
         "/contact/"
       ]
     },
@@ -2129,8 +2478,8 @@
         "/service-areas/lehi-ut/",
         "/service-areas/lehi-ut/fire-damage-restoration/",
         "/service-areas/lehi-ut/mold-remediation/",
-        "/service-areas/highland-ut/water-damage-restoration/",
-        "/service-areas/orem-ut/water-damage-restoration/",
+        "/service-areas/alpine-ut/water-damage-restoration/",
+        "/service-areas/bluffdale-ut/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2173,8 +2522,8 @@
         "/service-areas/lehi-ut/",
         "/service-areas/lehi-ut/fire-damage-restoration/",
         "/service-areas/lehi-ut/mold-remediation/",
-        "/service-areas/highland-ut/storm-damage-restoration/",
-        "/service-areas/orem-ut/storm-damage-restoration/",
+        "/service-areas/alpine-ut/storm-damage-restoration/",
+        "/service-areas/bluffdale-ut/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2217,8 +2566,8 @@
         "/service-areas/lehi-ut/",
         "/service-areas/lehi-ut/mold-remediation/",
         "/service-areas/lehi-ut/water-damage-restoration/",
-        "/service-areas/highland-ut/fire-damage-restoration/",
-        "/service-areas/orem-ut/fire-damage-restoration/",
+        "/service-areas/alpine-ut/fire-damage-restoration/",
+        "/service-areas/bluffdale-ut/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2262,8 +2611,8 @@
         "/service-areas/lehi-ut/",
         "/service-areas/lehi-ut/fire-damage-restoration/",
         "/service-areas/lehi-ut/mold-remediation/",
-        "/service-areas/highland-ut/general-contracting/",
-        "/service-areas/orem-ut/general-contracting/",
+        "/service-areas/alpine-ut/general-contracting/",
+        "/service-areas/bluffdale-ut/general-contracting/",
         "/contact/"
       ]
     },
@@ -2306,8 +2655,8 @@
         "/service-areas/lehi-ut/",
         "/service-areas/lehi-ut/fire-damage-restoration/",
         "/service-areas/lehi-ut/mold-remediation/",
-        "/service-areas/highland-ut/sewage-cleanup/",
-        "/service-areas/orem-ut/sewage-cleanup/",
+        "/service-areas/alpine-ut/sewage-cleanup/",
+        "/service-areas/bluffdale-ut/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -2348,8 +2697,8 @@
         "/service-areas/lehi-ut/",
         "/service-areas/lehi-ut/fire-damage-restoration/",
         "/service-areas/lehi-ut/mold-remediation/",
-        "/service-areas/highland-ut/emergency-board-up-tarping/",
-        "/service-areas/orem-ut/emergency-board-up-tarping/",
+        "/service-areas/alpine-ut/emergency-board-up-tarping/",
+        "/service-areas/bluffdale-ut/emergency-board-up-tarping/",
         "/contact/"
       ]
     },
@@ -2363,8 +2712,9 @@
       "title": "Water Cleanup in Lehi, UT | FIX Restoration",
       "h1": "Water Cleanup in Lehi",
       "meta_description": "Water cleanup in Lehi, UT. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "water cleanup lehi",
+      "primary_keyword": "emergency water cleanup lehi",
       "secondary_keywords": [
+        "water cleanup",
         "water damage cleanup",
         "water clean up",
         "flood water cleanup",
@@ -2391,8 +2741,8 @@
         "/service-areas/lehi-ut/",
         "/service-areas/lehi-ut/fire-damage-restoration/",
         "/service-areas/lehi-ut/mold-remediation/",
-        "/service-areas/highland-ut/water-cleanup/",
-        "/service-areas/orem-ut/water-cleanup/",
+        "/service-areas/alpine-ut/water-cleanup/",
+        "/service-areas/bluffdale-ut/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2435,8 +2785,8 @@
         "/service-areas/lehi-ut/",
         "/service-areas/lehi-ut/fire-damage-restoration/",
         "/service-areas/lehi-ut/water-damage-restoration/",
-        "/service-areas/highland-ut/mold-remediation/",
-        "/service-areas/orem-ut/mold-remediation/",
+        "/service-areas/alpine-ut/mold-remediation/",
+        "/service-areas/bluffdale-ut/mold-remediation/",
         "/contact/"
       ]
     },
@@ -2479,8 +2829,8 @@
         "/service-areas/lehi-ut/",
         "/service-areas/lehi-ut/fire-damage-restoration/",
         "/service-areas/lehi-ut/mold-remediation/",
-        "/service-areas/highland-ut/biohazard-cleanup/",
-        "/service-areas/orem-ut/biohazard-cleanup/",
+        "/service-areas/alpine-ut/biohazard-cleanup/",
+        "/service-areas/bluffdale-ut/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -2517,8 +2867,8 @@
         "/service-areas/lehi-ut/",
         "/service-areas/lehi-ut/fire-damage-restoration/",
         "/service-areas/lehi-ut/mold-remediation/",
-        "/service-areas/highland-ut/contents-restoration-storage/",
-        "/service-areas/orem-ut/contents-restoration-storage/",
+        "/service-areas/alpine-ut/contents-restoration-storage/",
+        "/service-areas/bluffdale-ut/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -2561,8 +2911,8 @@
         "/service-areas/lehi-ut/",
         "/service-areas/lehi-ut/fire-damage-restoration/",
         "/service-areas/lehi-ut/mold-remediation/",
-        "/service-areas/highland-ut/flood-equipment-rental/",
-        "/service-areas/orem-ut/flood-equipment-rental/",
+        "/service-areas/alpine-ut/flood-equipment-rental/",
+        "/service-areas/bluffdale-ut/flood-equipment-rental/",
         "/contact/"
       ]
     },
@@ -2605,8 +2955,8 @@
         "/service-areas/pleasant-grove-ut/",
         "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
         "/service-areas/pleasant-grove-ut/mold-remediation/",
-        "/service-areas/highland-ut/water-damage-restoration/",
-        "/service-areas/lehi-ut/water-damage-restoration/",
+        "/service-areas/alpine-ut/water-damage-restoration/",
+        "/service-areas/bluffdale-ut/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2649,8 +2999,8 @@
         "/service-areas/pleasant-grove-ut/",
         "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
         "/service-areas/pleasant-grove-ut/mold-remediation/",
-        "/service-areas/highland-ut/storm-damage-restoration/",
-        "/service-areas/lehi-ut/storm-damage-restoration/",
+        "/service-areas/alpine-ut/storm-damage-restoration/",
+        "/service-areas/bluffdale-ut/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2693,8 +3043,8 @@
         "/service-areas/pleasant-grove-ut/",
         "/service-areas/pleasant-grove-ut/mold-remediation/",
         "/service-areas/pleasant-grove-ut/water-damage-restoration/",
-        "/service-areas/highland-ut/fire-damage-restoration/",
-        "/service-areas/lehi-ut/fire-damage-restoration/",
+        "/service-areas/alpine-ut/fire-damage-restoration/",
+        "/service-areas/bluffdale-ut/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2738,8 +3088,8 @@
         "/service-areas/pleasant-grove-ut/",
         "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
         "/service-areas/pleasant-grove-ut/mold-remediation/",
-        "/service-areas/highland-ut/general-contracting/",
-        "/service-areas/lehi-ut/general-contracting/",
+        "/service-areas/alpine-ut/general-contracting/",
+        "/service-areas/bluffdale-ut/general-contracting/",
         "/contact/"
       ]
     },
@@ -2782,8 +3132,8 @@
         "/service-areas/pleasant-grove-ut/",
         "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
         "/service-areas/pleasant-grove-ut/mold-remediation/",
-        "/service-areas/highland-ut/sewage-cleanup/",
-        "/service-areas/lehi-ut/sewage-cleanup/",
+        "/service-areas/alpine-ut/sewage-cleanup/",
+        "/service-areas/bluffdale-ut/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -2824,8 +3174,8 @@
         "/service-areas/pleasant-grove-ut/",
         "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
         "/service-areas/pleasant-grove-ut/mold-remediation/",
-        "/service-areas/highland-ut/emergency-board-up-tarping/",
-        "/service-areas/lehi-ut/emergency-board-up-tarping/",
+        "/service-areas/alpine-ut/emergency-board-up-tarping/",
+        "/service-areas/bluffdale-ut/emergency-board-up-tarping/",
         "/contact/"
       ]
     },
@@ -2839,8 +3189,9 @@
       "title": "Water Cleanup in Pleasant Grove, UT | FIX Restoration",
       "h1": "Water Cleanup in Pleasant Grove",
       "meta_description": "Water cleanup in Pleasant Grove, UT. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "water cleanup pleasant grove",
+      "primary_keyword": "emergency water cleanup pleasant grove",
       "secondary_keywords": [
+        "water cleanup",
         "water damage cleanup",
         "water clean up",
         "flood water cleanup",
@@ -2867,8 +3218,8 @@
         "/service-areas/pleasant-grove-ut/",
         "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
         "/service-areas/pleasant-grove-ut/mold-remediation/",
-        "/service-areas/highland-ut/water-cleanup/",
-        "/service-areas/lehi-ut/water-cleanup/",
+        "/service-areas/alpine-ut/water-cleanup/",
+        "/service-areas/bluffdale-ut/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2911,8 +3262,8 @@
         "/service-areas/pleasant-grove-ut/",
         "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
         "/service-areas/pleasant-grove-ut/water-damage-restoration/",
-        "/service-areas/highland-ut/mold-remediation/",
-        "/service-areas/lehi-ut/mold-remediation/",
+        "/service-areas/alpine-ut/mold-remediation/",
+        "/service-areas/bluffdale-ut/mold-remediation/",
         "/contact/"
       ]
     },
@@ -2955,8 +3306,8 @@
         "/service-areas/pleasant-grove-ut/",
         "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
         "/service-areas/pleasant-grove-ut/mold-remediation/",
-        "/service-areas/highland-ut/biohazard-cleanup/",
-        "/service-areas/lehi-ut/biohazard-cleanup/",
+        "/service-areas/alpine-ut/biohazard-cleanup/",
+        "/service-areas/bluffdale-ut/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -2993,8 +3344,8 @@
         "/service-areas/pleasant-grove-ut/",
         "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
         "/service-areas/pleasant-grove-ut/mold-remediation/",
-        "/service-areas/highland-ut/contents-restoration-storage/",
-        "/service-areas/lehi-ut/contents-restoration-storage/",
+        "/service-areas/alpine-ut/contents-restoration-storage/",
+        "/service-areas/bluffdale-ut/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -3037,8 +3388,8 @@
         "/service-areas/pleasant-grove-ut/",
         "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
         "/service-areas/pleasant-grove-ut/mold-remediation/",
-        "/service-areas/highland-ut/flood-equipment-rental/",
-        "/service-areas/lehi-ut/flood-equipment-rental/",
+        "/service-areas/alpine-ut/flood-equipment-rental/",
+        "/service-areas/bluffdale-ut/flood-equipment-rental/",
         "/contact/"
       ]
     },
@@ -3081,8 +3432,8 @@
         "/service-areas/spanish-fork-ut/",
         "/service-areas/spanish-fork-ut/fire-damage-restoration/",
         "/service-areas/spanish-fork-ut/mold-remediation/",
-        "/service-areas/highland-ut/water-damage-restoration/",
-        "/service-areas/lehi-ut/water-damage-restoration/",
+        "/service-areas/alpine-ut/water-damage-restoration/",
+        "/service-areas/bluffdale-ut/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3125,8 +3476,8 @@
         "/service-areas/spanish-fork-ut/",
         "/service-areas/spanish-fork-ut/fire-damage-restoration/",
         "/service-areas/spanish-fork-ut/mold-remediation/",
-        "/service-areas/highland-ut/storm-damage-restoration/",
-        "/service-areas/lehi-ut/storm-damage-restoration/",
+        "/service-areas/alpine-ut/storm-damage-restoration/",
+        "/service-areas/bluffdale-ut/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3169,8 +3520,8 @@
         "/service-areas/spanish-fork-ut/",
         "/service-areas/spanish-fork-ut/mold-remediation/",
         "/service-areas/spanish-fork-ut/water-damage-restoration/",
-        "/service-areas/highland-ut/fire-damage-restoration/",
-        "/service-areas/lehi-ut/fire-damage-restoration/",
+        "/service-areas/alpine-ut/fire-damage-restoration/",
+        "/service-areas/bluffdale-ut/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3214,8 +3565,8 @@
         "/service-areas/spanish-fork-ut/",
         "/service-areas/spanish-fork-ut/fire-damage-restoration/",
         "/service-areas/spanish-fork-ut/mold-remediation/",
-        "/service-areas/highland-ut/general-contracting/",
-        "/service-areas/lehi-ut/general-contracting/",
+        "/service-areas/alpine-ut/general-contracting/",
+        "/service-areas/bluffdale-ut/general-contracting/",
         "/contact/"
       ]
     },
@@ -3258,8 +3609,8 @@
         "/service-areas/spanish-fork-ut/",
         "/service-areas/spanish-fork-ut/fire-damage-restoration/",
         "/service-areas/spanish-fork-ut/mold-remediation/",
-        "/service-areas/highland-ut/sewage-cleanup/",
-        "/service-areas/lehi-ut/sewage-cleanup/",
+        "/service-areas/alpine-ut/sewage-cleanup/",
+        "/service-areas/bluffdale-ut/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -3300,8 +3651,8 @@
         "/service-areas/spanish-fork-ut/",
         "/service-areas/spanish-fork-ut/fire-damage-restoration/",
         "/service-areas/spanish-fork-ut/mold-remediation/",
-        "/service-areas/highland-ut/emergency-board-up-tarping/",
-        "/service-areas/lehi-ut/emergency-board-up-tarping/",
+        "/service-areas/alpine-ut/emergency-board-up-tarping/",
+        "/service-areas/bluffdale-ut/emergency-board-up-tarping/",
         "/contact/"
       ]
     },
@@ -3315,8 +3666,9 @@
       "title": "Water Cleanup in Spanish Fork, UT | FIX Restoration",
       "h1": "Water Cleanup in Spanish Fork",
       "meta_description": "Water cleanup in Spanish Fork, UT. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "water cleanup spanish fork",
+      "primary_keyword": "emergency water cleanup spanish fork",
       "secondary_keywords": [
+        "water cleanup",
         "water damage cleanup",
         "water clean up",
         "flood water cleanup",
@@ -3343,8 +3695,8 @@
         "/service-areas/spanish-fork-ut/",
         "/service-areas/spanish-fork-ut/fire-damage-restoration/",
         "/service-areas/spanish-fork-ut/mold-remediation/",
-        "/service-areas/highland-ut/water-cleanup/",
-        "/service-areas/lehi-ut/water-cleanup/",
+        "/service-areas/alpine-ut/water-cleanup/",
+        "/service-areas/bluffdale-ut/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3387,8 +3739,8 @@
         "/service-areas/spanish-fork-ut/",
         "/service-areas/spanish-fork-ut/fire-damage-restoration/",
         "/service-areas/spanish-fork-ut/water-damage-restoration/",
-        "/service-areas/highland-ut/mold-remediation/",
-        "/service-areas/lehi-ut/mold-remediation/",
+        "/service-areas/alpine-ut/mold-remediation/",
+        "/service-areas/bluffdale-ut/mold-remediation/",
         "/contact/"
       ]
     },
@@ -3431,8 +3783,8 @@
         "/service-areas/spanish-fork-ut/",
         "/service-areas/spanish-fork-ut/fire-damage-restoration/",
         "/service-areas/spanish-fork-ut/mold-remediation/",
-        "/service-areas/highland-ut/biohazard-cleanup/",
-        "/service-areas/lehi-ut/biohazard-cleanup/",
+        "/service-areas/alpine-ut/biohazard-cleanup/",
+        "/service-areas/bluffdale-ut/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -3469,8 +3821,8 @@
         "/service-areas/spanish-fork-ut/",
         "/service-areas/spanish-fork-ut/fire-damage-restoration/",
         "/service-areas/spanish-fork-ut/mold-remediation/",
-        "/service-areas/highland-ut/contents-restoration-storage/",
-        "/service-areas/lehi-ut/contents-restoration-storage/",
+        "/service-areas/alpine-ut/contents-restoration-storage/",
+        "/service-areas/bluffdale-ut/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -3513,8 +3865,8 @@
         "/service-areas/spanish-fork-ut/",
         "/service-areas/spanish-fork-ut/fire-damage-restoration/",
         "/service-areas/spanish-fork-ut/mold-remediation/",
-        "/service-areas/highland-ut/flood-equipment-rental/",
-        "/service-areas/lehi-ut/flood-equipment-rental/",
+        "/service-areas/alpine-ut/flood-equipment-rental/",
+        "/service-areas/bluffdale-ut/flood-equipment-rental/",
         "/contact/"
       ]
     },
@@ -3557,8 +3909,8 @@
         "/service-areas/springville-ut/",
         "/service-areas/springville-ut/fire-damage-restoration/",
         "/service-areas/springville-ut/mold-remediation/",
-        "/service-areas/highland-ut/water-damage-restoration/",
-        "/service-areas/lehi-ut/water-damage-restoration/",
+        "/service-areas/alpine-ut/water-damage-restoration/",
+        "/service-areas/bluffdale-ut/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3601,8 +3953,8 @@
         "/service-areas/springville-ut/",
         "/service-areas/springville-ut/fire-damage-restoration/",
         "/service-areas/springville-ut/mold-remediation/",
-        "/service-areas/highland-ut/storm-damage-restoration/",
-        "/service-areas/lehi-ut/storm-damage-restoration/",
+        "/service-areas/alpine-ut/storm-damage-restoration/",
+        "/service-areas/bluffdale-ut/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3645,8 +3997,8 @@
         "/service-areas/springville-ut/",
         "/service-areas/springville-ut/mold-remediation/",
         "/service-areas/springville-ut/water-damage-restoration/",
-        "/service-areas/highland-ut/fire-damage-restoration/",
-        "/service-areas/lehi-ut/fire-damage-restoration/",
+        "/service-areas/alpine-ut/fire-damage-restoration/",
+        "/service-areas/bluffdale-ut/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3690,8 +4042,8 @@
         "/service-areas/springville-ut/",
         "/service-areas/springville-ut/fire-damage-restoration/",
         "/service-areas/springville-ut/mold-remediation/",
-        "/service-areas/highland-ut/general-contracting/",
-        "/service-areas/lehi-ut/general-contracting/",
+        "/service-areas/alpine-ut/general-contracting/",
+        "/service-areas/bluffdale-ut/general-contracting/",
         "/contact/"
       ]
     },
@@ -3734,8 +4086,8 @@
         "/service-areas/springville-ut/",
         "/service-areas/springville-ut/fire-damage-restoration/",
         "/service-areas/springville-ut/mold-remediation/",
-        "/service-areas/highland-ut/sewage-cleanup/",
-        "/service-areas/lehi-ut/sewage-cleanup/",
+        "/service-areas/alpine-ut/sewage-cleanup/",
+        "/service-areas/bluffdale-ut/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -3776,8 +4128,8 @@
         "/service-areas/springville-ut/",
         "/service-areas/springville-ut/fire-damage-restoration/",
         "/service-areas/springville-ut/mold-remediation/",
-        "/service-areas/highland-ut/emergency-board-up-tarping/",
-        "/service-areas/lehi-ut/emergency-board-up-tarping/",
+        "/service-areas/alpine-ut/emergency-board-up-tarping/",
+        "/service-areas/bluffdale-ut/emergency-board-up-tarping/",
         "/contact/"
       ]
     },
@@ -3791,8 +4143,9 @@
       "title": "Water Cleanup in Springville, UT | FIX Restoration",
       "h1": "Water Cleanup in Springville",
       "meta_description": "Water cleanup in Springville, UT. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "water cleanup springville",
+      "primary_keyword": "emergency water cleanup springville",
       "secondary_keywords": [
+        "water cleanup",
         "water damage cleanup",
         "water clean up",
         "flood water cleanup",
@@ -3819,8 +4172,8 @@
         "/service-areas/springville-ut/",
         "/service-areas/springville-ut/fire-damage-restoration/",
         "/service-areas/springville-ut/mold-remediation/",
-        "/service-areas/highland-ut/water-cleanup/",
-        "/service-areas/lehi-ut/water-cleanup/",
+        "/service-areas/alpine-ut/water-cleanup/",
+        "/service-areas/bluffdale-ut/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3863,8 +4216,8 @@
         "/service-areas/springville-ut/",
         "/service-areas/springville-ut/fire-damage-restoration/",
         "/service-areas/springville-ut/water-damage-restoration/",
-        "/service-areas/highland-ut/mold-remediation/",
-        "/service-areas/lehi-ut/mold-remediation/",
+        "/service-areas/alpine-ut/mold-remediation/",
+        "/service-areas/bluffdale-ut/mold-remediation/",
         "/contact/"
       ]
     },
@@ -3907,8 +4260,8 @@
         "/service-areas/springville-ut/",
         "/service-areas/springville-ut/fire-damage-restoration/",
         "/service-areas/springville-ut/mold-remediation/",
-        "/service-areas/highland-ut/biohazard-cleanup/",
-        "/service-areas/lehi-ut/biohazard-cleanup/",
+        "/service-areas/alpine-ut/biohazard-cleanup/",
+        "/service-areas/bluffdale-ut/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -3945,8 +4298,8 @@
         "/service-areas/springville-ut/",
         "/service-areas/springville-ut/fire-damage-restoration/",
         "/service-areas/springville-ut/mold-remediation/",
-        "/service-areas/highland-ut/contents-restoration-storage/",
-        "/service-areas/lehi-ut/contents-restoration-storage/",
+        "/service-areas/alpine-ut/contents-restoration-storage/",
+        "/service-areas/bluffdale-ut/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -3989,8 +4342,8 @@
         "/service-areas/springville-ut/",
         "/service-areas/springville-ut/fire-damage-restoration/",
         "/service-areas/springville-ut/mold-remediation/",
-        "/service-areas/highland-ut/flood-equipment-rental/",
-        "/service-areas/lehi-ut/flood-equipment-rental/",
+        "/service-areas/alpine-ut/flood-equipment-rental/",
+        "/service-areas/bluffdale-ut/flood-equipment-rental/",
         "/contact/"
       ]
     },
@@ -4033,8 +4386,8 @@
         "/service-areas/saratoga-springs-ut/",
         "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
         "/service-areas/saratoga-springs-ut/mold-remediation/",
-        "/service-areas/highland-ut/water-damage-restoration/",
-        "/service-areas/lehi-ut/water-damage-restoration/",
+        "/service-areas/alpine-ut/water-damage-restoration/",
+        "/service-areas/bluffdale-ut/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4077,8 +4430,8 @@
         "/service-areas/saratoga-springs-ut/",
         "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
         "/service-areas/saratoga-springs-ut/mold-remediation/",
-        "/service-areas/highland-ut/storm-damage-restoration/",
-        "/service-areas/lehi-ut/storm-damage-restoration/",
+        "/service-areas/alpine-ut/storm-damage-restoration/",
+        "/service-areas/bluffdale-ut/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4121,8 +4474,8 @@
         "/service-areas/saratoga-springs-ut/",
         "/service-areas/saratoga-springs-ut/mold-remediation/",
         "/service-areas/saratoga-springs-ut/water-damage-restoration/",
-        "/service-areas/highland-ut/fire-damage-restoration/",
-        "/service-areas/lehi-ut/fire-damage-restoration/",
+        "/service-areas/alpine-ut/fire-damage-restoration/",
+        "/service-areas/bluffdale-ut/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4166,8 +4519,8 @@
         "/service-areas/saratoga-springs-ut/",
         "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
         "/service-areas/saratoga-springs-ut/mold-remediation/",
-        "/service-areas/highland-ut/general-contracting/",
-        "/service-areas/lehi-ut/general-contracting/",
+        "/service-areas/alpine-ut/general-contracting/",
+        "/service-areas/bluffdale-ut/general-contracting/",
         "/contact/"
       ]
     },
@@ -4210,8 +4563,8 @@
         "/service-areas/saratoga-springs-ut/",
         "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
         "/service-areas/saratoga-springs-ut/mold-remediation/",
-        "/service-areas/highland-ut/sewage-cleanup/",
-        "/service-areas/lehi-ut/sewage-cleanup/",
+        "/service-areas/alpine-ut/sewage-cleanup/",
+        "/service-areas/bluffdale-ut/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -4252,8 +4605,8 @@
         "/service-areas/saratoga-springs-ut/",
         "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
         "/service-areas/saratoga-springs-ut/mold-remediation/",
-        "/service-areas/highland-ut/emergency-board-up-tarping/",
-        "/service-areas/lehi-ut/emergency-board-up-tarping/",
+        "/service-areas/alpine-ut/emergency-board-up-tarping/",
+        "/service-areas/bluffdale-ut/emergency-board-up-tarping/",
         "/contact/"
       ]
     },
@@ -4267,8 +4620,9 @@
       "title": "Water Cleanup in Saratoga Springs, UT | FIX Restoration",
       "h1": "Water Cleanup in Saratoga Springs",
       "meta_description": "Water cleanup in Saratoga Springs, UT. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "water cleanup saratoga springs",
+      "primary_keyword": "emergency water cleanup saratoga springs",
       "secondary_keywords": [
+        "water cleanup",
         "water damage cleanup",
         "water clean up",
         "flood water cleanup",
@@ -4295,8 +4649,8 @@
         "/service-areas/saratoga-springs-ut/",
         "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
         "/service-areas/saratoga-springs-ut/mold-remediation/",
-        "/service-areas/highland-ut/water-cleanup/",
-        "/service-areas/lehi-ut/water-cleanup/",
+        "/service-areas/alpine-ut/water-cleanup/",
+        "/service-areas/bluffdale-ut/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4339,8 +4693,8 @@
         "/service-areas/saratoga-springs-ut/",
         "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
         "/service-areas/saratoga-springs-ut/water-damage-restoration/",
-        "/service-areas/highland-ut/mold-remediation/",
-        "/service-areas/lehi-ut/mold-remediation/",
+        "/service-areas/alpine-ut/mold-remediation/",
+        "/service-areas/bluffdale-ut/mold-remediation/",
         "/contact/"
       ]
     },
@@ -4383,8 +4737,8 @@
         "/service-areas/saratoga-springs-ut/",
         "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
         "/service-areas/saratoga-springs-ut/mold-remediation/",
-        "/service-areas/highland-ut/biohazard-cleanup/",
-        "/service-areas/lehi-ut/biohazard-cleanup/",
+        "/service-areas/alpine-ut/biohazard-cleanup/",
+        "/service-areas/bluffdale-ut/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -4421,8 +4775,8 @@
         "/service-areas/saratoga-springs-ut/",
         "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
         "/service-areas/saratoga-springs-ut/mold-remediation/",
-        "/service-areas/highland-ut/contents-restoration-storage/",
-        "/service-areas/lehi-ut/contents-restoration-storage/",
+        "/service-areas/alpine-ut/contents-restoration-storage/",
+        "/service-areas/bluffdale-ut/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -4465,8 +4819,8 @@
         "/service-areas/saratoga-springs-ut/",
         "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
         "/service-areas/saratoga-springs-ut/mold-remediation/",
-        "/service-areas/highland-ut/flood-equipment-rental/",
-        "/service-areas/lehi-ut/flood-equipment-rental/",
+        "/service-areas/alpine-ut/flood-equipment-rental/",
+        "/service-areas/bluffdale-ut/flood-equipment-rental/",
         "/contact/"
       ]
     },
@@ -4509,8 +4863,8 @@
         "/service-areas/highland-ut/",
         "/service-areas/highland-ut/fire-damage-restoration/",
         "/service-areas/highland-ut/mold-remediation/",
-        "/service-areas/lehi-ut/water-damage-restoration/",
-        "/service-areas/orem-ut/water-damage-restoration/",
+        "/service-areas/alpine-ut/water-damage-restoration/",
+        "/service-areas/bluffdale-ut/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4553,8 +4907,8 @@
         "/service-areas/highland-ut/",
         "/service-areas/highland-ut/fire-damage-restoration/",
         "/service-areas/highland-ut/mold-remediation/",
-        "/service-areas/lehi-ut/storm-damage-restoration/",
-        "/service-areas/orem-ut/storm-damage-restoration/",
+        "/service-areas/alpine-ut/storm-damage-restoration/",
+        "/service-areas/bluffdale-ut/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4597,8 +4951,8 @@
         "/service-areas/highland-ut/",
         "/service-areas/highland-ut/mold-remediation/",
         "/service-areas/highland-ut/water-damage-restoration/",
-        "/service-areas/lehi-ut/fire-damage-restoration/",
-        "/service-areas/orem-ut/fire-damage-restoration/",
+        "/service-areas/alpine-ut/fire-damage-restoration/",
+        "/service-areas/bluffdale-ut/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4642,8 +4996,8 @@
         "/service-areas/highland-ut/",
         "/service-areas/highland-ut/fire-damage-restoration/",
         "/service-areas/highland-ut/mold-remediation/",
-        "/service-areas/lehi-ut/general-contracting/",
-        "/service-areas/orem-ut/general-contracting/",
+        "/service-areas/alpine-ut/general-contracting/",
+        "/service-areas/bluffdale-ut/general-contracting/",
         "/contact/"
       ]
     },
@@ -4686,8 +5040,8 @@
         "/service-areas/highland-ut/",
         "/service-areas/highland-ut/fire-damage-restoration/",
         "/service-areas/highland-ut/mold-remediation/",
-        "/service-areas/lehi-ut/sewage-cleanup/",
-        "/service-areas/orem-ut/sewage-cleanup/",
+        "/service-areas/alpine-ut/sewage-cleanup/",
+        "/service-areas/bluffdale-ut/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -4728,8 +5082,8 @@
         "/service-areas/highland-ut/",
         "/service-areas/highland-ut/fire-damage-restoration/",
         "/service-areas/highland-ut/mold-remediation/",
-        "/service-areas/lehi-ut/emergency-board-up-tarping/",
-        "/service-areas/orem-ut/emergency-board-up-tarping/",
+        "/service-areas/alpine-ut/emergency-board-up-tarping/",
+        "/service-areas/bluffdale-ut/emergency-board-up-tarping/",
         "/contact/"
       ]
     },
@@ -4743,8 +5097,9 @@
       "title": "Water Cleanup in Highland, UT | FIX Restoration",
       "h1": "Water Cleanup in Highland",
       "meta_description": "Water cleanup in Highland, UT. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "water cleanup highland",
+      "primary_keyword": "emergency water cleanup highland",
       "secondary_keywords": [
+        "water cleanup",
         "water damage cleanup",
         "water clean up",
         "flood water cleanup",
@@ -4771,8 +5126,8 @@
         "/service-areas/highland-ut/",
         "/service-areas/highland-ut/fire-damage-restoration/",
         "/service-areas/highland-ut/mold-remediation/",
-        "/service-areas/lehi-ut/water-cleanup/",
-        "/service-areas/orem-ut/water-cleanup/",
+        "/service-areas/alpine-ut/water-cleanup/",
+        "/service-areas/bluffdale-ut/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4815,8 +5170,8 @@
         "/service-areas/highland-ut/",
         "/service-areas/highland-ut/fire-damage-restoration/",
         "/service-areas/highland-ut/water-damage-restoration/",
-        "/service-areas/lehi-ut/mold-remediation/",
-        "/service-areas/orem-ut/mold-remediation/",
+        "/service-areas/alpine-ut/mold-remediation/",
+        "/service-areas/bluffdale-ut/mold-remediation/",
         "/contact/"
       ]
     },
@@ -4859,8 +5214,8 @@
         "/service-areas/highland-ut/",
         "/service-areas/highland-ut/fire-damage-restoration/",
         "/service-areas/highland-ut/mold-remediation/",
-        "/service-areas/lehi-ut/biohazard-cleanup/",
-        "/service-areas/orem-ut/biohazard-cleanup/",
+        "/service-areas/alpine-ut/biohazard-cleanup/",
+        "/service-areas/bluffdale-ut/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -4897,8 +5252,8 @@
         "/service-areas/highland-ut/",
         "/service-areas/highland-ut/fire-damage-restoration/",
         "/service-areas/highland-ut/mold-remediation/",
-        "/service-areas/lehi-ut/contents-restoration-storage/",
-        "/service-areas/orem-ut/contents-restoration-storage/",
+        "/service-areas/alpine-ut/contents-restoration-storage/",
+        "/service-areas/bluffdale-ut/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -4941,8 +5296,2870 @@
         "/service-areas/highland-ut/",
         "/service-areas/highland-ut/fire-damage-restoration/",
         "/service-areas/highland-ut/mold-remediation/",
-        "/service-areas/lehi-ut/flood-equipment-rental/",
-        "/service-areas/orem-ut/flood-equipment-rental/",
+        "/service-areas/alpine-ut/flood-equipment-rental/",
+        "/service-areas/bluffdale-ut/flood-equipment-rental/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cedar-hills-ut/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Cedar Hills, UT | FIX Restoration",
+      "h1": "Water Damage Restoration in Cedar Hills",
+      "meta_description": "Water damage restoration in Cedar Hills, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "water damage restoration cedar hills",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/cedar-hills-ut/",
+        "/service-areas/cedar-hills-ut/fire-damage-restoration/",
+        "/service-areas/cedar-hills-ut/mold-remediation/",
+        "/service-areas/alpine-ut/water-damage-restoration/",
+        "/service-areas/bluffdale-ut/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cedar-hills-ut/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Cedar Hills, UT | FIX Restoration",
+      "h1": "Storm Damage Restoration in Cedar Hills",
+      "meta_description": "Storm damage restoration in Cedar Hills, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "storm damage restoration cedar hills",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/cedar-hills-ut/",
+        "/service-areas/cedar-hills-ut/fire-damage-restoration/",
+        "/service-areas/cedar-hills-ut/mold-remediation/",
+        "/service-areas/alpine-ut/storm-damage-restoration/",
+        "/service-areas/bluffdale-ut/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cedar-hills-ut/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Cedar Hills, UT | FIX Restoration",
+      "h1": "Fire Damage Restoration in Cedar Hills",
+      "meta_description": "Fire damage restoration in Cedar Hills, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "fire damage restoration cedar hills",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/cedar-hills-ut/",
+        "/service-areas/cedar-hills-ut/mold-remediation/",
+        "/service-areas/cedar-hills-ut/water-damage-restoration/",
+        "/service-areas/alpine-ut/fire-damage-restoration/",
+        "/service-areas/bluffdale-ut/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cedar-hills-ut/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Cedar Hills, UT | FIX Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Cedar Hills",
+      "meta_description": "Renovations, remodels and general contracting in Cedar Hills, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "renovations, remodels and general contracting cedar hills",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/cedar-hills-ut/",
+        "/service-areas/cedar-hills-ut/fire-damage-restoration/",
+        "/service-areas/cedar-hills-ut/mold-remediation/",
+        "/service-areas/alpine-ut/general-contracting/",
+        "/service-areas/bluffdale-ut/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cedar-hills-ut/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Cedar Hills, UT | FIX Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Cedar Hills",
+      "meta_description": "Sewage cleanup and sanitization in Cedar Hills, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "sewage cleanup and sanitization cedar hills",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/cedar-hills-ut/",
+        "/service-areas/cedar-hills-ut/fire-damage-restoration/",
+        "/service-areas/cedar-hills-ut/mold-remediation/",
+        "/service-areas/alpine-ut/sewage-cleanup/",
+        "/service-areas/bluffdale-ut/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cedar-hills-ut/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Board-Up and Tarping in Cedar Hills, UT | FIX Restoration",
+      "h1": "Board-Up and Tarping in Cedar Hills",
+      "meta_description": "Board-up and tarping in Cedar Hills, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "emergency board-up and tarping cedar hills",
+      "secondary_keywords": [
+        "roof tarping",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/cedar-hills-ut/",
+        "/service-areas/cedar-hills-ut/fire-damage-restoration/",
+        "/service-areas/cedar-hills-ut/mold-remediation/",
+        "/service-areas/alpine-ut/emergency-board-up-tarping/",
+        "/service-areas/bluffdale-ut/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cedar-hills-ut/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Cedar Hills, UT | FIX Restoration",
+      "h1": "Water Cleanup in Cedar Hills",
+      "meta_description": "Water cleanup in Cedar Hills, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "emergency water cleanup cedar hills",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/cedar-hills-ut/",
+        "/service-areas/cedar-hills-ut/fire-damage-restoration/",
+        "/service-areas/cedar-hills-ut/mold-remediation/",
+        "/service-areas/alpine-ut/water-cleanup/",
+        "/service-areas/bluffdale-ut/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cedar-hills-ut/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Cedar Hills, UT | FIX Restoration",
+      "h1": "Mold Remediation in Cedar Hills",
+      "meta_description": "Mold remediation in Cedar Hills, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "mold remediation cedar hills",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/cedar-hills-ut/",
+        "/service-areas/cedar-hills-ut/fire-damage-restoration/",
+        "/service-areas/cedar-hills-ut/water-damage-restoration/",
+        "/service-areas/alpine-ut/mold-remediation/",
+        "/service-areas/bluffdale-ut/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cedar-hills-ut/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Cedar Hills, UT | FIX Restoration",
+      "h1": "Biohazard Cleanup in Cedar Hills",
+      "meta_description": "Biohazard cleanup in Cedar Hills, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "biohazard cleanup cedar hills",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/cedar-hills-ut/",
+        "/service-areas/cedar-hills-ut/fire-damage-restoration/",
+        "/service-areas/cedar-hills-ut/mold-remediation/",
+        "/service-areas/alpine-ut/biohazard-cleanup/",
+        "/service-areas/bluffdale-ut/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cedar-hills-ut/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Cedar Hills, UT | FIX Restoration",
+      "h1": "Contents Restoration & Storage in Cedar Hills",
+      "meta_description": "Contents restoration & storage in Cedar Hills, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "contents restoration & storage cedar hills",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/cedar-hills-ut/",
+        "/service-areas/cedar-hills-ut/fire-damage-restoration/",
+        "/service-areas/cedar-hills-ut/mold-remediation/",
+        "/service-areas/alpine-ut/contents-restoration-storage/",
+        "/service-areas/bluffdale-ut/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cedar-hills-ut/flood-equipment-rental/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood & Drying Equipment Rental in Cedar Hills, UT | FIX Restoration",
+      "h1": "Flood & Drying Equipment Rental in Cedar Hills",
+      "meta_description": "Flood & drying equipment rental in Cedar Hills, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "flood & drying equipment rental cedar hills",
+      "secondary_keywords": [
+        "water damage equipment rental",
+        "dehumidifier rental",
+        "air mover rental",
+        "carpet drying fan rental",
+        "flood pump rental"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-equipment-rental/",
+        "/service-areas/cedar-hills-ut/",
+        "/service-areas/cedar-hills-ut/fire-damage-restoration/",
+        "/service-areas/cedar-hills-ut/mold-remediation/",
+        "/service-areas/alpine-ut/flood-equipment-rental/",
+        "/service-areas/bluffdale-ut/flood-equipment-rental/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lindon-ut/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Lindon, UT | FIX Restoration",
+      "h1": "Water Damage Restoration in Lindon",
+      "meta_description": "Water damage restoration in Lindon, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "water damage restoration lindon",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/lindon-ut/",
+        "/service-areas/lindon-ut/fire-damage-restoration/",
+        "/service-areas/lindon-ut/mold-remediation/",
+        "/service-areas/alpine-ut/water-damage-restoration/",
+        "/service-areas/bluffdale-ut/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lindon-ut/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Lindon, UT | FIX Restoration",
+      "h1": "Storm Damage Restoration in Lindon",
+      "meta_description": "Storm damage restoration in Lindon, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "storm damage restoration lindon",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/lindon-ut/",
+        "/service-areas/lindon-ut/fire-damage-restoration/",
+        "/service-areas/lindon-ut/mold-remediation/",
+        "/service-areas/alpine-ut/storm-damage-restoration/",
+        "/service-areas/bluffdale-ut/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lindon-ut/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Lindon, UT | FIX Restoration",
+      "h1": "Fire Damage Restoration in Lindon",
+      "meta_description": "Fire damage restoration in Lindon, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "fire damage restoration lindon",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/lindon-ut/",
+        "/service-areas/lindon-ut/mold-remediation/",
+        "/service-areas/lindon-ut/water-damage-restoration/",
+        "/service-areas/alpine-ut/fire-damage-restoration/",
+        "/service-areas/bluffdale-ut/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lindon-ut/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Lindon, UT | FIX Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Lindon",
+      "meta_description": "Renovations, remodels and general contracting in Lindon, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "renovations, remodels and general contracting lindon",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/lindon-ut/",
+        "/service-areas/lindon-ut/fire-damage-restoration/",
+        "/service-areas/lindon-ut/mold-remediation/",
+        "/service-areas/alpine-ut/general-contracting/",
+        "/service-areas/bluffdale-ut/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lindon-ut/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Lindon, UT | FIX Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Lindon",
+      "meta_description": "Sewage cleanup and sanitization in Lindon, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "sewage cleanup and sanitization lindon",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/lindon-ut/",
+        "/service-areas/lindon-ut/fire-damage-restoration/",
+        "/service-areas/lindon-ut/mold-remediation/",
+        "/service-areas/alpine-ut/sewage-cleanup/",
+        "/service-areas/bluffdale-ut/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lindon-ut/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Board-Up and Tarping in Lindon, UT | FIX Restoration",
+      "h1": "Board-Up and Tarping in Lindon",
+      "meta_description": "Board-up and tarping in Lindon, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "emergency board-up and tarping lindon",
+      "secondary_keywords": [
+        "roof tarping",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/lindon-ut/",
+        "/service-areas/lindon-ut/fire-damage-restoration/",
+        "/service-areas/lindon-ut/mold-remediation/",
+        "/service-areas/alpine-ut/emergency-board-up-tarping/",
+        "/service-areas/bluffdale-ut/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lindon-ut/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Lindon, UT | FIX Restoration",
+      "h1": "Water Cleanup in Lindon",
+      "meta_description": "Water cleanup in Lindon, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "emergency water cleanup lindon",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/lindon-ut/",
+        "/service-areas/lindon-ut/fire-damage-restoration/",
+        "/service-areas/lindon-ut/mold-remediation/",
+        "/service-areas/alpine-ut/water-cleanup/",
+        "/service-areas/bluffdale-ut/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lindon-ut/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Lindon, UT | FIX Restoration",
+      "h1": "Mold Remediation in Lindon",
+      "meta_description": "Mold remediation in Lindon, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "mold remediation lindon",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/lindon-ut/",
+        "/service-areas/lindon-ut/fire-damage-restoration/",
+        "/service-areas/lindon-ut/water-damage-restoration/",
+        "/service-areas/alpine-ut/mold-remediation/",
+        "/service-areas/bluffdale-ut/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lindon-ut/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Lindon, UT | FIX Restoration",
+      "h1": "Biohazard Cleanup in Lindon",
+      "meta_description": "Biohazard cleanup in Lindon, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "biohazard cleanup lindon",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/lindon-ut/",
+        "/service-areas/lindon-ut/fire-damage-restoration/",
+        "/service-areas/lindon-ut/mold-remediation/",
+        "/service-areas/alpine-ut/biohazard-cleanup/",
+        "/service-areas/bluffdale-ut/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lindon-ut/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Lindon, UT | FIX Restoration",
+      "h1": "Contents Restoration & Storage in Lindon",
+      "meta_description": "Contents restoration & storage in Lindon, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "contents restoration & storage lindon",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/lindon-ut/",
+        "/service-areas/lindon-ut/fire-damage-restoration/",
+        "/service-areas/lindon-ut/mold-remediation/",
+        "/service-areas/alpine-ut/contents-restoration-storage/",
+        "/service-areas/bluffdale-ut/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lindon-ut/flood-equipment-rental/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood & Drying Equipment Rental in Lindon, UT | FIX Restoration",
+      "h1": "Flood & Drying Equipment Rental in Lindon",
+      "meta_description": "Flood & drying equipment rental in Lindon, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "flood & drying equipment rental lindon",
+      "secondary_keywords": [
+        "water damage equipment rental",
+        "dehumidifier rental",
+        "air mover rental",
+        "carpet drying fan rental",
+        "flood pump rental"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-equipment-rental/",
+        "/service-areas/lindon-ut/",
+        "/service-areas/lindon-ut/fire-damage-restoration/",
+        "/service-areas/lindon-ut/mold-remediation/",
+        "/service-areas/alpine-ut/flood-equipment-rental/",
+        "/service-areas/bluffdale-ut/flood-equipment-rental/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/alpine-ut/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Alpine, UT | FIX Restoration",
+      "h1": "Water Damage Restoration in Alpine",
+      "meta_description": "Water damage restoration in Alpine, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "water damage restoration alpine",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/alpine-ut/",
+        "/service-areas/alpine-ut/fire-damage-restoration/",
+        "/service-areas/alpine-ut/mold-remediation/",
+        "/service-areas/bluffdale-ut/water-damage-restoration/",
+        "/service-areas/cedar-hills-ut/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/alpine-ut/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Alpine, UT | FIX Restoration",
+      "h1": "Storm Damage Restoration in Alpine",
+      "meta_description": "Storm damage restoration in Alpine, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "storm damage restoration alpine",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/alpine-ut/",
+        "/service-areas/alpine-ut/fire-damage-restoration/",
+        "/service-areas/alpine-ut/mold-remediation/",
+        "/service-areas/bluffdale-ut/storm-damage-restoration/",
+        "/service-areas/cedar-hills-ut/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/alpine-ut/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Alpine, UT | FIX Restoration",
+      "h1": "Fire Damage Restoration in Alpine",
+      "meta_description": "Fire damage restoration in Alpine, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "fire damage restoration alpine",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/alpine-ut/",
+        "/service-areas/alpine-ut/mold-remediation/",
+        "/service-areas/alpine-ut/water-damage-restoration/",
+        "/service-areas/bluffdale-ut/fire-damage-restoration/",
+        "/service-areas/cedar-hills-ut/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/alpine-ut/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Alpine, UT | FIX Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Alpine",
+      "meta_description": "Renovations, remodels and general contracting in Alpine, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "renovations, remodels and general contracting alpine",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/alpine-ut/",
+        "/service-areas/alpine-ut/fire-damage-restoration/",
+        "/service-areas/alpine-ut/mold-remediation/",
+        "/service-areas/bluffdale-ut/general-contracting/",
+        "/service-areas/cedar-hills-ut/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/alpine-ut/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Alpine, UT | FIX Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Alpine",
+      "meta_description": "Sewage cleanup and sanitization in Alpine, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "sewage cleanup and sanitization alpine",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/alpine-ut/",
+        "/service-areas/alpine-ut/fire-damage-restoration/",
+        "/service-areas/alpine-ut/mold-remediation/",
+        "/service-areas/bluffdale-ut/sewage-cleanup/",
+        "/service-areas/cedar-hills-ut/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/alpine-ut/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Board-Up and Tarping in Alpine, UT | FIX Restoration",
+      "h1": "Board-Up and Tarping in Alpine",
+      "meta_description": "Board-up and tarping in Alpine, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "emergency board-up and tarping alpine",
+      "secondary_keywords": [
+        "roof tarping",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/alpine-ut/",
+        "/service-areas/alpine-ut/fire-damage-restoration/",
+        "/service-areas/alpine-ut/mold-remediation/",
+        "/service-areas/bluffdale-ut/emergency-board-up-tarping/",
+        "/service-areas/cedar-hills-ut/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/alpine-ut/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Alpine, UT | FIX Restoration",
+      "h1": "Water Cleanup in Alpine",
+      "meta_description": "Water cleanup in Alpine, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "emergency water cleanup alpine",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/alpine-ut/",
+        "/service-areas/alpine-ut/fire-damage-restoration/",
+        "/service-areas/alpine-ut/mold-remediation/",
+        "/service-areas/bluffdale-ut/water-cleanup/",
+        "/service-areas/cedar-hills-ut/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/alpine-ut/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Alpine, UT | FIX Restoration",
+      "h1": "Mold Remediation in Alpine",
+      "meta_description": "Mold remediation in Alpine, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "mold remediation alpine",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/alpine-ut/",
+        "/service-areas/alpine-ut/fire-damage-restoration/",
+        "/service-areas/alpine-ut/water-damage-restoration/",
+        "/service-areas/bluffdale-ut/mold-remediation/",
+        "/service-areas/cedar-hills-ut/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/alpine-ut/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Alpine, UT | FIX Restoration",
+      "h1": "Biohazard Cleanup in Alpine",
+      "meta_description": "Biohazard cleanup in Alpine, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "biohazard cleanup alpine",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/alpine-ut/",
+        "/service-areas/alpine-ut/fire-damage-restoration/",
+        "/service-areas/alpine-ut/mold-remediation/",
+        "/service-areas/bluffdale-ut/biohazard-cleanup/",
+        "/service-areas/cedar-hills-ut/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/alpine-ut/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Alpine, UT | FIX Restoration",
+      "h1": "Contents Restoration & Storage in Alpine",
+      "meta_description": "Contents restoration & storage in Alpine, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "contents restoration & storage alpine",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/alpine-ut/",
+        "/service-areas/alpine-ut/fire-damage-restoration/",
+        "/service-areas/alpine-ut/mold-remediation/",
+        "/service-areas/bluffdale-ut/contents-restoration-storage/",
+        "/service-areas/cedar-hills-ut/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/alpine-ut/flood-equipment-rental/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood & Drying Equipment Rental in Alpine, UT | FIX Restoration",
+      "h1": "Flood & Drying Equipment Rental in Alpine",
+      "meta_description": "Flood & drying equipment rental in Alpine, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "flood & drying equipment rental alpine",
+      "secondary_keywords": [
+        "water damage equipment rental",
+        "dehumidifier rental",
+        "air mover rental",
+        "carpet drying fan rental",
+        "flood pump rental"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-equipment-rental/",
+        "/service-areas/alpine-ut/",
+        "/service-areas/alpine-ut/fire-damage-restoration/",
+        "/service-areas/alpine-ut/mold-remediation/",
+        "/service-areas/bluffdale-ut/flood-equipment-rental/",
+        "/service-areas/cedar-hills-ut/flood-equipment-rental/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/vineyard-ut/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Vineyard, UT | FIX Restoration",
+      "h1": "Water Damage Restoration in Vineyard",
+      "meta_description": "Water damage restoration in Vineyard, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "water damage restoration vineyard",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/vineyard-ut/",
+        "/service-areas/vineyard-ut/fire-damage-restoration/",
+        "/service-areas/vineyard-ut/mold-remediation/",
+        "/service-areas/alpine-ut/water-damage-restoration/",
+        "/service-areas/bluffdale-ut/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/vineyard-ut/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Vineyard, UT | FIX Restoration",
+      "h1": "Storm Damage Restoration in Vineyard",
+      "meta_description": "Storm damage restoration in Vineyard, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "storm damage restoration vineyard",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/vineyard-ut/",
+        "/service-areas/vineyard-ut/fire-damage-restoration/",
+        "/service-areas/vineyard-ut/mold-remediation/",
+        "/service-areas/alpine-ut/storm-damage-restoration/",
+        "/service-areas/bluffdale-ut/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/vineyard-ut/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Vineyard, UT | FIX Restoration",
+      "h1": "Fire Damage Restoration in Vineyard",
+      "meta_description": "Fire damage restoration in Vineyard, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "fire damage restoration vineyard",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/vineyard-ut/",
+        "/service-areas/vineyard-ut/mold-remediation/",
+        "/service-areas/vineyard-ut/water-damage-restoration/",
+        "/service-areas/alpine-ut/fire-damage-restoration/",
+        "/service-areas/bluffdale-ut/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/vineyard-ut/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Vineyard, UT | FIX Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Vineyard",
+      "meta_description": "Renovations, remodels and general contracting in Vineyard, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "renovations, remodels and general contracting vineyard",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/vineyard-ut/",
+        "/service-areas/vineyard-ut/fire-damage-restoration/",
+        "/service-areas/vineyard-ut/mold-remediation/",
+        "/service-areas/alpine-ut/general-contracting/",
+        "/service-areas/bluffdale-ut/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/vineyard-ut/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Vineyard, UT | FIX Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Vineyard",
+      "meta_description": "Sewage cleanup and sanitization in Vineyard, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "sewage cleanup and sanitization vineyard",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/vineyard-ut/",
+        "/service-areas/vineyard-ut/fire-damage-restoration/",
+        "/service-areas/vineyard-ut/mold-remediation/",
+        "/service-areas/alpine-ut/sewage-cleanup/",
+        "/service-areas/bluffdale-ut/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/vineyard-ut/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Board-Up and Tarping in Vineyard, UT | FIX Restoration",
+      "h1": "Board-Up and Tarping in Vineyard",
+      "meta_description": "Board-up and tarping in Vineyard, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "emergency board-up and tarping vineyard",
+      "secondary_keywords": [
+        "roof tarping",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/vineyard-ut/",
+        "/service-areas/vineyard-ut/fire-damage-restoration/",
+        "/service-areas/vineyard-ut/mold-remediation/",
+        "/service-areas/alpine-ut/emergency-board-up-tarping/",
+        "/service-areas/bluffdale-ut/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/vineyard-ut/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Vineyard, UT | FIX Restoration",
+      "h1": "Water Cleanup in Vineyard",
+      "meta_description": "Water cleanup in Vineyard, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "emergency water cleanup vineyard",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/vineyard-ut/",
+        "/service-areas/vineyard-ut/fire-damage-restoration/",
+        "/service-areas/vineyard-ut/mold-remediation/",
+        "/service-areas/alpine-ut/water-cleanup/",
+        "/service-areas/bluffdale-ut/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/vineyard-ut/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Vineyard, UT | FIX Restoration",
+      "h1": "Mold Remediation in Vineyard",
+      "meta_description": "Mold remediation in Vineyard, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "mold remediation vineyard",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/vineyard-ut/",
+        "/service-areas/vineyard-ut/fire-damage-restoration/",
+        "/service-areas/vineyard-ut/water-damage-restoration/",
+        "/service-areas/alpine-ut/mold-remediation/",
+        "/service-areas/bluffdale-ut/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/vineyard-ut/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Vineyard, UT | FIX Restoration",
+      "h1": "Biohazard Cleanup in Vineyard",
+      "meta_description": "Biohazard cleanup in Vineyard, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "biohazard cleanup vineyard",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/vineyard-ut/",
+        "/service-areas/vineyard-ut/fire-damage-restoration/",
+        "/service-areas/vineyard-ut/mold-remediation/",
+        "/service-areas/alpine-ut/biohazard-cleanup/",
+        "/service-areas/bluffdale-ut/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/vineyard-ut/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Vineyard, UT | FIX Restoration",
+      "h1": "Contents Restoration & Storage in Vineyard",
+      "meta_description": "Contents restoration & storage in Vineyard, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "contents restoration & storage vineyard",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/vineyard-ut/",
+        "/service-areas/vineyard-ut/fire-damage-restoration/",
+        "/service-areas/vineyard-ut/mold-remediation/",
+        "/service-areas/alpine-ut/contents-restoration-storage/",
+        "/service-areas/bluffdale-ut/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/vineyard-ut/flood-equipment-rental/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood & Drying Equipment Rental in Vineyard, UT | FIX Restoration",
+      "h1": "Flood & Drying Equipment Rental in Vineyard",
+      "meta_description": "Flood & drying equipment rental in Vineyard, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "flood & drying equipment rental vineyard",
+      "secondary_keywords": [
+        "water damage equipment rental",
+        "dehumidifier rental",
+        "air mover rental",
+        "carpet drying fan rental",
+        "flood pump rental"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-equipment-rental/",
+        "/service-areas/vineyard-ut/",
+        "/service-areas/vineyard-ut/fire-damage-restoration/",
+        "/service-areas/vineyard-ut/mold-remediation/",
+        "/service-areas/alpine-ut/flood-equipment-rental/",
+        "/service-areas/bluffdale-ut/flood-equipment-rental/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Draper, UT | FIX Restoration",
+      "h1": "Water Damage Restoration in Draper",
+      "meta_description": "Water damage restoration in Draper, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "water damage restoration draper",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/alpine-ut/water-damage-restoration/",
+        "/service-areas/bluffdale-ut/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Draper, UT | FIX Restoration",
+      "h1": "Storm Damage Restoration in Draper",
+      "meta_description": "Storm damage restoration in Draper, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "storm damage restoration draper",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/alpine-ut/storm-damage-restoration/",
+        "/service-areas/bluffdale-ut/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Draper, UT | FIX Restoration",
+      "h1": "Fire Damage Restoration in Draper",
+      "meta_description": "Fire damage restoration in Draper, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "fire damage restoration draper",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/draper-ut/water-damage-restoration/",
+        "/service-areas/alpine-ut/fire-damage-restoration/",
+        "/service-areas/bluffdale-ut/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Draper, UT | FIX Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Draper",
+      "meta_description": "Renovations, remodels and general contracting in Draper, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "renovations, remodels and general contracting draper",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/alpine-ut/general-contracting/",
+        "/service-areas/bluffdale-ut/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Draper, UT | FIX Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Draper",
+      "meta_description": "Sewage cleanup and sanitization in Draper, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "sewage cleanup and sanitization draper",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/alpine-ut/sewage-cleanup/",
+        "/service-areas/bluffdale-ut/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Board-Up and Tarping in Draper, UT | FIX Restoration",
+      "h1": "Board-Up and Tarping in Draper",
+      "meta_description": "Board-up and tarping in Draper, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "emergency board-up and tarping draper",
+      "secondary_keywords": [
+        "roof tarping",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/alpine-ut/emergency-board-up-tarping/",
+        "/service-areas/bluffdale-ut/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Draper, UT | FIX Restoration",
+      "h1": "Water Cleanup in Draper",
+      "meta_description": "Water cleanup in Draper, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "emergency water cleanup draper",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/alpine-ut/water-cleanup/",
+        "/service-areas/bluffdale-ut/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Draper, UT | FIX Restoration",
+      "h1": "Mold Remediation in Draper",
+      "meta_description": "Mold remediation in Draper, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "mold remediation draper",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/water-damage-restoration/",
+        "/service-areas/alpine-ut/mold-remediation/",
+        "/service-areas/bluffdale-ut/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Draper, UT | FIX Restoration",
+      "h1": "Biohazard Cleanup in Draper",
+      "meta_description": "Biohazard cleanup in Draper, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "biohazard cleanup draper",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/alpine-ut/biohazard-cleanup/",
+        "/service-areas/bluffdale-ut/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Draper, UT | FIX Restoration",
+      "h1": "Contents Restoration & Storage in Draper",
+      "meta_description": "Contents restoration & storage in Draper, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "contents restoration & storage draper",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/alpine-ut/contents-restoration-storage/",
+        "/service-areas/bluffdale-ut/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/flood-equipment-rental/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood & Drying Equipment Rental in Draper, UT | FIX Restoration",
+      "h1": "Flood & Drying Equipment Rental in Draper",
+      "meta_description": "Flood & drying equipment rental in Draper, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "flood & drying equipment rental draper",
+      "secondary_keywords": [
+        "water damage equipment rental",
+        "dehumidifier rental",
+        "air mover rental",
+        "carpet drying fan rental",
+        "flood pump rental"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-equipment-rental/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/alpine-ut/flood-equipment-rental/",
+        "/service-areas/bluffdale-ut/flood-equipment-rental/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bluffdale-ut/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Bluffdale, UT | FIX Restoration",
+      "h1": "Water Damage Restoration in Bluffdale",
+      "meta_description": "Water damage restoration in Bluffdale, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "water damage restoration bluffdale",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/bluffdale-ut/",
+        "/service-areas/bluffdale-ut/fire-damage-restoration/",
+        "/service-areas/bluffdale-ut/mold-remediation/",
+        "/service-areas/alpine-ut/water-damage-restoration/",
+        "/service-areas/cedar-hills-ut/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bluffdale-ut/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Bluffdale, UT | FIX Restoration",
+      "h1": "Storm Damage Restoration in Bluffdale",
+      "meta_description": "Storm damage restoration in Bluffdale, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "storm damage restoration bluffdale",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/bluffdale-ut/",
+        "/service-areas/bluffdale-ut/fire-damage-restoration/",
+        "/service-areas/bluffdale-ut/mold-remediation/",
+        "/service-areas/alpine-ut/storm-damage-restoration/",
+        "/service-areas/cedar-hills-ut/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bluffdale-ut/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Bluffdale, UT | FIX Restoration",
+      "h1": "Fire Damage Restoration in Bluffdale",
+      "meta_description": "Fire damage restoration in Bluffdale, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "fire damage restoration bluffdale",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/bluffdale-ut/",
+        "/service-areas/bluffdale-ut/mold-remediation/",
+        "/service-areas/bluffdale-ut/water-damage-restoration/",
+        "/service-areas/alpine-ut/fire-damage-restoration/",
+        "/service-areas/cedar-hills-ut/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bluffdale-ut/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Bluffdale, UT | FIX Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Bluffdale",
+      "meta_description": "Renovations, remodels and general contracting in Bluffdale, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "renovations, remodels and general contracting bluffdale",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/bluffdale-ut/",
+        "/service-areas/bluffdale-ut/fire-damage-restoration/",
+        "/service-areas/bluffdale-ut/mold-remediation/",
+        "/service-areas/alpine-ut/general-contracting/",
+        "/service-areas/cedar-hills-ut/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bluffdale-ut/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Bluffdale, UT | FIX Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Bluffdale",
+      "meta_description": "Sewage cleanup and sanitization in Bluffdale, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "sewage cleanup and sanitization bluffdale",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/bluffdale-ut/",
+        "/service-areas/bluffdale-ut/fire-damage-restoration/",
+        "/service-areas/bluffdale-ut/mold-remediation/",
+        "/service-areas/alpine-ut/sewage-cleanup/",
+        "/service-areas/cedar-hills-ut/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bluffdale-ut/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Board-Up and Tarping in Bluffdale, UT | FIX Restoration",
+      "h1": "Board-Up and Tarping in Bluffdale",
+      "meta_description": "Board-up and tarping in Bluffdale, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "emergency board-up and tarping bluffdale",
+      "secondary_keywords": [
+        "roof tarping",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/bluffdale-ut/",
+        "/service-areas/bluffdale-ut/fire-damage-restoration/",
+        "/service-areas/bluffdale-ut/mold-remediation/",
+        "/service-areas/alpine-ut/emergency-board-up-tarping/",
+        "/service-areas/cedar-hills-ut/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bluffdale-ut/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Bluffdale, UT | FIX Restoration",
+      "h1": "Water Cleanup in Bluffdale",
+      "meta_description": "Water cleanup in Bluffdale, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "emergency water cleanup bluffdale",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/bluffdale-ut/",
+        "/service-areas/bluffdale-ut/fire-damage-restoration/",
+        "/service-areas/bluffdale-ut/mold-remediation/",
+        "/service-areas/alpine-ut/water-cleanup/",
+        "/service-areas/cedar-hills-ut/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bluffdale-ut/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Bluffdale, UT | FIX Restoration",
+      "h1": "Mold Remediation in Bluffdale",
+      "meta_description": "Mold remediation in Bluffdale, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "mold remediation bluffdale",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/bluffdale-ut/",
+        "/service-areas/bluffdale-ut/fire-damage-restoration/",
+        "/service-areas/bluffdale-ut/water-damage-restoration/",
+        "/service-areas/alpine-ut/mold-remediation/",
+        "/service-areas/cedar-hills-ut/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bluffdale-ut/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Bluffdale, UT | FIX Restoration",
+      "h1": "Biohazard Cleanup in Bluffdale",
+      "meta_description": "Biohazard cleanup in Bluffdale, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "biohazard cleanup bluffdale",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/bluffdale-ut/",
+        "/service-areas/bluffdale-ut/fire-damage-restoration/",
+        "/service-areas/bluffdale-ut/mold-remediation/",
+        "/service-areas/alpine-ut/biohazard-cleanup/",
+        "/service-areas/cedar-hills-ut/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bluffdale-ut/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Bluffdale, UT | FIX Restoration",
+      "h1": "Contents Restoration & Storage in Bluffdale",
+      "meta_description": "Contents restoration & storage in Bluffdale, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "contents restoration & storage bluffdale",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/bluffdale-ut/",
+        "/service-areas/bluffdale-ut/fire-damage-restoration/",
+        "/service-areas/bluffdale-ut/mold-remediation/",
+        "/service-areas/alpine-ut/contents-restoration-storage/",
+        "/service-areas/cedar-hills-ut/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bluffdale-ut/flood-equipment-rental/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood & Drying Equipment Rental in Bluffdale, UT | FIX Restoration",
+      "h1": "Flood & Drying Equipment Rental in Bluffdale",
+      "meta_description": "Flood & drying equipment rental in Bluffdale, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "flood & drying equipment rental bluffdale",
+      "secondary_keywords": [
+        "water damage equipment rental",
+        "dehumidifier rental",
+        "air mover rental",
+        "carpet drying fan rental",
+        "flood pump rental"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-equipment-rental/",
+        "/service-areas/bluffdale-ut/",
+        "/service-areas/bluffdale-ut/fire-damage-restoration/",
+        "/service-areas/bluffdale-ut/mold-remediation/",
+        "/service-areas/alpine-ut/flood-equipment-rental/",
+        "/service-areas/cedar-hills-ut/flood-equipment-rental/",
         "/contact/"
       ]
     },

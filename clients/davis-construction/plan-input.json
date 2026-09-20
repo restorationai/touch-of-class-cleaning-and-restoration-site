@@ -114,6 +114,11 @@
       "city": "New Market",
       "state": "AL",
       "slug": "new-market-al"
+    },
+    {
+      "city": "Harvest",
+      "state": "AL",
+      "slug": "harvest-al"
     }
   ],
   "brand": {

@@ -321,6 +321,11 @@
       "city": "Dustin Acres",
       "state": "CA",
       "slug": "dustin-acres-ca"
+    },
+    {
+      "city": "McFarland",
+      "state": "CA",
+      "slug": "mcfarland-ca"
     }
   ],
   "brand": {

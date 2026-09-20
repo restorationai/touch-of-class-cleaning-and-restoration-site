@@ -1,6 +1,6 @@
 {
   "_source": "Greenfield build 2026-07-08 from clients/aaa-water-damage/intel/audit-2026-07-09.md. Santino's uncle Christopher Pruett. NO owned site has ever existed; domain aaawaterdamagehawaii.com verified available but NOT yet registered \u2014 preview only.",
-  "_claims_policy": "STRICT truth gate per audit. VERIFIED ONLY: 5.0/19 Google reviews (GBP-sync fields only \u2014 never hardcoded in copy), 24/7 availability, the service list below. UNVERIFIED \u2014 excluded until uncle confirms: 'since 1994', any license number, IICRC, insured/bonded, commercial client name-drops (Hawaii Theater Center, Hawaii Film Studio, Chuck E. Cheese, HPHA, Marie Hansen, Young Properties). Drywall/painting/remodel service pages deliberately OMITTED until an HI contractor license number is on file.",
+  "_claims_policy": "STRICT truth gate per audit. VERIFIED ONLY: 5.0/19 Google reviews (GBP-sync fields only \u2014 never hardcoded in copy), 24/7 availability, the service list below, '25+ years in business' (operator-attested by Santino 2026-07-09 \u2014 round tenure only, never a specific year). UNVERIFIED \u2014 excluded until uncle confirms: 'since 1994' or any specific founding year, any license number, IICRC, insured/bonded, commercial client name-drops (Hawaii Theater Center, Hawaii Film Studio, Chuck E. Cheese, HPHA, Marie Hansen, Young Properties). Drywall/painting/remodel service pages deliberately OMITTED until an HI contractor license number is on file.",
   "_intake_pending": [
     "register aaawaterdamagehawaii.com (+ aaafloodservice.com defensive redirect)",
     "HI contractor license number + classification (gates adding drywall-repair/painting/remodel services)",
@@ -343,6 +343,36 @@
         "96789"
       ],
       "local_notes": "Central Oahu's flagship planned community \u2014 1970s-90s Mililani Town homes are now 30-50 years old with original supply lines, water heaters and washer connections failing on schedule, while newer Mililani Mauka adds two-story tract plans with upstairs-bath losses. Strong association standards mean owners want repairs documented and finishes matched. Cooler, wetter uplands climate keeps interior humidity high, and military families from Schofield and Wheeler rotate constantly \u2014 rental turnovers drive steady carpet-cleaning demand."
+    },
+    {
+      "city": "Urban Honolulu",
+      "state": "HI",
+      "slug": "urban-honolulu-hi"
+    },
+    {
+      "city": "Hickam Housing",
+      "state": "HI",
+      "slug": "hickam-housing-hi"
+    },
+    {
+      "city": "East Honolulu",
+      "state": "HI",
+      "slug": "east-honolulu-hi"
+    },
+    {
+      "city": "Waimanalo",
+      "state": "HI",
+      "slug": "waimanalo-hi"
+    },
+    {
+      "city": "Heeia",
+      "state": "HI",
+      "slug": "heeia-hi"
+    },
+    {
+      "city": "Kahaluu",
+      "state": "HI",
+      "slug": "kahaluu-hi"
     }
   ],
   "brand": {
@@ -366,13 +396,23 @@
     ],
     "google_maps_api_key": "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
     "licensed_insured_attested": false,
+    "_years_in_business_note": "25+ Years in Business is operator-attested by Santino (owner's nephew) 2026-07-09. Copy may say 'over 25 years' / 'serving Oahu for over 25 years'. Do NOT state a specific founding year (e.g. 'since 1994') until documented \u2014 founded_year stays empty.",
+    "years_in_business_attested": "25+",
+    "trust_badges": [
+      "Locally Owned",
+      "25+ Years in Business",
+      "24/7 Emergency Service"
+    ],
     "logo_url": "",
     "tagline": "24/7 water damage restoration & carpet care across Oahu.",
     "dark_color": "#0f172a",
-    "primary_color": "#0284c7",
-    "primary_dark": "#0369a1",
-    "primary_light": "#bae6fd",
-    "accent_color": "#f97316"
+    "primary_color": "#d40e1e",
+    "primary_dark": "#b10818",
+    "primary_light": "#fcc8ca",
+    "accent_color": "#0e3167",
+    "lat": 21.3045,
+    "lng": -157.8557,
+    "ga4_measurement_id": "G-YESCZ9R462"
   },
   "cross_product": true,
   "keyword_strategy": "conservative",

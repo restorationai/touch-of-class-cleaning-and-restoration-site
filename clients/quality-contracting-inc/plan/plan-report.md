@@ -1,21 +1,21 @@
 # Site Plan Report — Quality Contracting, Inc.
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-08-11T15:53:46.828209+00:00
-- Domain: `None`
-- Services selected: 10 of 54 catalog entries
-- Service areas: 12
+- Generated: 2026-09-20T14:13:32.423781+00:00
+- Domain: `qualitycontracting.us`
+- Services selected: 11 of 65 catalog entries
+- Service areas: 18
 - Cross-product enabled: True
-- Total URLs: **159**
-- Total internal links: 1273 (avg 8.0 per page)
+- Total URLs: **232**
+- Total internal links: 1862 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 120 |
-| `service-area` | 12 |
-| `service-landing` | 10 |
+| `service-area-service` | 187 |
+| `service-area` | 17 |
+| `service-landing` | 11 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -37,6 +37,7 @@
 - `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
 - `air-duct-cleaning` — Air Duct Cleaning (adjacent, priority 5)
 - `crawl-space-encapsulation` — Crawl Space Encapsulation (adjacent, priority 5)
+- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 
 ## Service areas
 
@@ -52,6 +53,12 @@
 - `needham-ma` — Needham, MA
 - `newton-ma` — Newton, MA
 - `weston-ma` — Weston, MA
+- `oxford-ma` — Oxford, MA
+- `whitinsville-ma` — Whitinsville, MA
+- `east-douglas-ma` — East Douglas, MA
+- `northborough-ma` — Northborough, MA
+- `southbridge-town-ma` — Southbridge Town, MA
+- `sturbridge-ma` — Sturbridge, MA
 
 ## Top 10 priority pages
 
@@ -62,11 +69,11 @@
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration auburn |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization auburn |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration auburn |
-| `/service-areas/auburn-ma/` | `service-area` | 7.2 | restoration services auburn |
+| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup auburn |
 | `/services/biohazard-cleanup/` | `service-landing` | 7.2 | biohazard cleanup auburn |
-| `/service-areas/auburn-ma/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration auburn |
-| `/service-areas/auburn-ma/mold-remediation/` | `service-area-service` | 7.0 | mold remediation auburn |
-| `/service-areas/auburn-ma/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration auburn |
+| `/service-areas/east-douglas-ma/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration east douglas |
+| `/service-areas/east-douglas-ma/mold-remediation/` | `service-area-service` | 7.0 | mold remediation east douglas |
+| `/service-areas/east-douglas-ma/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration east douglas |
 
 ## Validation
 

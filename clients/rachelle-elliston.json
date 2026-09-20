@@ -16,10 +16,10 @@
   "plan": {
     "template": "restoration",
     "template_version": "0.3.0",
-    "url_count": 106,
-    "generated_at": "2026-09-20T04:57:05.435770+00:00"
+    "url_count": 116,
+    "generated_at": "2026-09-20T14:13:40.940613+00:00"
   },
-  "updated_at": "2026-09-20T10:29:06.757157+00:00",
+  "updated_at": "2026-09-20T14:13:40.940619+00:00",
   "indexnow_key": "f3b38a06dacc496dbc6d4557c17786a4",
   "build": {
     "scaffolded_at": "2026-09-20T04:57:16.264488+00:00",
@@ -29,7 +29,7 @@
     "url_count": 106,
     "pages_status": "created",
     "last_rendered_at": "2026-09-20T05:16:51.620198+00:00",
-    "last_pushed_main_at": "2026-09-20T10:29:06.757140+00:00"
+    "last_pushed_main_at": "2026-09-20T14:09:42.820849+00:00"
   },
   "build_status": "pushed_main"
 }

@@ -94,7 +94,8 @@ The values below are auto-populated from `plan-input.json` at planning time. Per
 2. **One crew uniform color per client, everywhere.** Each client's style guide declares exactly one uniform color (derived from their real-world crew wear / brand identity), and every image — hero, team, services, per-service, blog heroes — uses it. Never mix uniform colors across a client's image library.
 
 3. **If the client has an existing website, harvest its photos FIRST.** Before generating any imagery, crawl the client's existing site (e.g. wp-content/uploads on WordPress) and collect real crew / vehicle / job photos. Use real photos directly where quality allows; otherwise use them as style and livery references for generation (real fleet photos define what the vans must look like). Save the harvest to `clients//harvested/`.
-4. **Multi-van fleet, everywhere (2026-07-29).** Hero images always show MULTIPLE matching branded vans (two-three, staggered), and the branded vans also appear in the About/team photo and the Services imagery whenever the scene allows. The client's real logo rides on every van per rule 1. One van alone is the exception (tight interior shots), never the default.
+4. **Fleet of THREE branded vehicles, everywhere (2026-08-18, was two-three since 2026-07-29).** Hero images always show a fleet of exactly THREE matching branded vehicles (staggered, classic restoration-trade vans unless the client's real fleet documents otherwise), and the branded vehicles also appear in the About/team photo and the Services imagery whenever the scene allows. The client's real logo rides on every vehicle per rule 1. One vehicle alone is the exception (tight interior shots), never the default.
+   **No vehicle photos is NOT a reason to skip vehicles (Santino 2026-08-18, reversing the 2026-08-10 no-invented-livery rule):** when the client's photo library has no vehicle, generate the classic professional livery anyway — clean panel vans in the brand's primary color scheme carrying the real logo mark per rule 1. A branded fleet is part of the polished look even when the real fleet is one unmarked pickup. PRECEDENCE: real documented livery always beats invented livery — the moment real fleet photos exist (harvest or client-sent), they define the vehicles and this default retires for that client. A client's explicit no-vehicles instruction (VAN-OVERRIDE) still wins over everything.
 
 
 
@@ -150,8 +151,8 @@ Per-client brand colors take priority. The values below are substituted from `pl
 
 | Role | Source | Value for this client |
 |------|--------|----------------------|
-| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#0d1b3e` | **#0d1b3e** |
-| Accent (emergency markings, CTAs that appear in promo shots) | `#f97316` | **#f97316** |
+| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#007fb2` | **#007fb2** |
+| Accent (emergency markings, CTAs that appear in promo shots) | `#fe0000` | **#fe0000** |
 | Logo color (if a worker's uniform back is visible) | derived from brand logo | match Dry County Restoration's logo |
 | Skin / texture / restoration materials | natural and neutral | warm wood tones for housing stock, cool concrete grays, real surface textures |
 | Environment-specific atmospherics | regional | varies — see "Setting & Environment" below for Corona |
@@ -179,7 +180,7 @@ Per-client brand colors take priority. The values below are substituted from `pl
 Every image that depicts a person must show a worker in branded company uniform. This is non-negotiable for visual consistency and trust signaling.
 
 ### Uniform specifications
-- **Top**: Polo or work shirt in the client's primary brand color (`#0d1b3e`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal uniform with the brand color visible as logo embroidery, accent stripe, or branded hat.
+- **Top**: Polo or work shirt in the client's primary brand color (`#007fb2`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal uniform with the brand color visible as logo embroidery, accent stripe, or branded hat.
 - **Bottom**: Neutral work pants (charcoal, dark navy, or khaki). Subordinate to the top.
 - **Branding**: Dry County Restoration or Dry County Restoration embroidered on chest or back. IICRC certification badge visible on sleeve or chest where it makes sense.
 - **PPE**: Match the service context (see service-specific notes below) — gloves always, respirators / face shields / Tyvek suits when the service warrants it.
@@ -266,7 +267,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Fire Damage Restoration, Mold Remediation, Renovations, Remodels and General Contracting, Storm Damage Restoration, Sewage Cleanup and Sanitization, Emergency Board-Up and Tarping, Contents Restoration and Storage, Air Duct Cleaning, Carpet Cleaning, Post-Construction and Specialty Cleaning)
+- [ ] (continue for each of Water Damage Restoration, Fire Damage Restoration, Mold Remediation, Renovations, Remodels and General Contracting, Storm Damage Restoration, Sewage Cleanup and Sanitization, Emergency Board-Up and Tarping, Contents Restoration and Storage, Air Duct Cleaning, Carpet Cleaning, Post-Construction and Specialty Cleaning, Emergency Water Cleanup)
 
 ### Service area pages (one image per city served)
 - [ ] Corona hero — exterior shot, regional housing stock, evocative of the city
@@ -291,8 +292,3 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 ## Style guide version
 
 This guide is generated from `templates/restoration/image-style-guide.template.md` v1.1 (2026-07-11: added Standing Brand Rules — real vehicle logos, single declared uniform color, harvest-first). When the canonical template updates, existing clients keep their pinned version unless explicitly regenerated. Bump the version + add a changelog entry when changing structural rules (e.g., adding new mandatory PPE conventions).
-
-### Changelog
-
-- **v1.2-dcr (2026-08-10)** — Full visual pass under the AI-FIRST doctrine (Santino 2026-08-10, see `scripts/dev_agent.md` Imagery doctrine). Added the CLIENT DIRECTION block: light white + blue `#007fb2` direction sampled from the real logo's wordmark (red `#fe0000` tagline accent, site chrome only), a no-vehicles directive because their 85-asset harvest contains zero vehicle photographs (never invent livery), sealed-white-Tyvek crew facts with magenta-P100-cartridge respirators pinned via two PPE reference photos, real-equipment facts (blue air movers, blue-gray LGR dehumidifiers, teal-taped poly containment) as `EQUIPMENT-OVERRIDE:`, Corona / Inland Empire CA setting, and mascot-stays-on-the-logo rule. The black/orange and blue-shirt "uniform" photos in the harvest were judged website stock and explicitly excluded from crew facts. One real-photo exception per doctrine: the blue-cabinet kitchen remodel (q=82, their best asset) holds the general-contracting card, pinned in `photo-manifest.json`.
-- **v1.3-dcr (2026-08-18)** — Image revamp ahead of Bob Olson's 2026-08-19 meeting, fixing his four complaints. The 08-10 no-vehicles directive is REVERSED per fleet doctrine (Santino 2026-08-18): replaced with a `VAN-OVERRIDE` for a fleet of exactly THREE matching white panel vans carrying the real logo mark (invented classic livery now allowed; real van photos replace it the moment Bob sends them). `CREW-OVERRIDE` rewritten so PPE is strictly SITUATIONAL — sealed Tyvek + respirator only inside mold / sewage / biohazard / Cat-3 containment scenes; hero, team and all trade scenes (roof, board-up, storm, fire, carpet, air-duct, contents, post-construction, general contracting) use plain neutral charcoal workwear, and a sealed suit on the hero or a roof is an AUTOMATIC REJECT. The two PPE reference photos are no longer injected globally (that was what forced hazmat onto the hero and roof in v1); the sealed-suit spec now rides in the CREW-OVERRIDE and containment scene text. Blue kept as an accent, not the dominant frame color. Core set + all service cards regenerated (general-contracting real photo untouched); About page given its own composition instead of reusing the hero.

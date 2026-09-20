@@ -15,6 +15,12 @@ Client said: "replace images with provided branded photos." He rejected the gene
 VAN-OVERRIDE: a fleet of white Ford Transit vans plus a blue/teal box truck in The Restoration Group livery, matching the reference photos exactly — the ring-dot logo mark and brand-colour panels only, no readable wrap lettering, phone number or URL.
 LIVERY-REFERENCE: harvested/real-van-branded.jpg
 LIVERY-REFERENCE: harvested/real-box-truck-branded.jpg
+
+---
+
+This guide is consulted by every image-generation call (Skill 3 launch images, Skill 4 blog hero images, future image regenerations). The goal: a viewer scrolling through the site should feel like one professional photographer documented one company on one continuous job. No stylistic drift from page to page.
+
+The values below are auto-populated from `plan-input.json` at planning time. Per-client brand colors come from the client's logo / brand identity — NOT from the canonical starter palette. The structural conventions (camera, lens, lighting, composition) are restoration-vertical canonical and shared across all Rank AI clients.
 ---
 
 ## STANDING BRAND RULES (2026-07-11) — apply to EVERY image, every client
@@ -197,7 +203,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Flood Damage Restoration, Burst Pipe Cleanup and Repair, Basement Flooding Cleanup, Appliance Leak Cleanup, Sewage Cleanup and Sanitization, Fire Damage Restoration, Smoke Damage Restoration, Odor Removal and Deodorization, Mold Remediation, Mold Inspection and Testing, Storm Damage Restoration, Emergency Board-Up and Tarping, Commercial Restoration, Reconstruction Services, Renovations, Remodels and General Contracting, Water Cleanup, Contents Restoration & Pack-Out, Basement Flood Cleanup, Biohazard Cleanup)
+- [ ] (continue for each of Water Damage Restoration, Flood Damage Restoration, Burst Pipe Cleanup and Repair, Basement Flooding Cleanup, Appliance Leak Cleanup, Sewage Cleanup and Sanitization, Fire Damage Restoration, Smoke Damage Restoration, Odor Removal and Deodorization, Mold Remediation, Mold Inspection and Testing, Storm Damage Restoration, Emergency Board-Up and Tarping, Commercial Restoration, Emergency Water Cleanup, Contents Restoration & Pack-Out, Basement Flood Cleanup, Biohazard Cleanup)
 
 ### Service area pages (one image per city served)
 - [ ] Kenilworth hero — exterior shot, regional housing stock, evocative of the city

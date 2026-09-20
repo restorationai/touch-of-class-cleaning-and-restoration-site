@@ -1,21 +1,21 @@
 # Site Plan Report — FIX Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-08T20:30:44.456281+00:00
-- Domain: `None`
-- Services selected: 11 of 60 catalog entries
-- Service areas: 9
+- Generated: 2026-09-20T14:12:57.999111+00:00
+- Domain: `fixofutah.com`
+- Services selected: 11 of 65 catalog entries
+- Service areas: 15
 - Cross-product enabled: True
-- Total URLs: **124**
-- Total internal links: 961 (avg 7.8 per page)
+- Total URLs: **196**
+- Total internal links: 1577 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 88 |
+| `service-area-service` | 154 |
+| `service-area` | 14 |
 | `service-landing` | 11 |
-| `service-area` | 8 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -33,7 +33,7 @@
 - `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
 - `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
-- `water-cleanup` — Water Cleanup (core, priority 9)
+- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 - `mold-remediation` — Mold Remediation (core, priority 10)
 - `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
 - `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
@@ -50,6 +50,12 @@
 - `springville-ut` — Springville, UT
 - `saratoga-springs-ut` — Saratoga Springs, UT
 - `highland-ut` — Highland, UT
+- `cedar-hills-ut` — Cedar Hills, UT
+- `lindon-ut` — Lindon, UT
+- `alpine-ut` — Alpine, UT
+- `vineyard-ut` — Vineyard, UT
+- `draper-ut` — Draper, UT
+- `bluffdale-ut` — Bluffdale, UT
 
 ## Top 10 priority pages
 
@@ -60,11 +66,11 @@
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration american fork |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization american fork |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration american fork |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | water cleanup american fork |
+| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup american fork |
 | `/services/biohazard-cleanup/` | `service-landing` | 7.2 | biohazard cleanup american fork |
 | `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting american fork |
-| `/service-areas/highland-ut/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration highland |
-| `/service-areas/highland-ut/mold-remediation/` | `service-area-service` | 7.0 | mold remediation highland |
+| `/service-areas/alpine-ut/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration alpine |
+| `/service-areas/alpine-ut/mold-remediation/` | `service-area-service` | 7.0 | mold remediation alpine |
 
 ## Validation
 

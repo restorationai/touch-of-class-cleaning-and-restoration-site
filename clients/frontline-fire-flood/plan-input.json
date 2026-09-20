@@ -203,6 +203,11 @@
       "city": "Fircrest",
       "state": "WA",
       "slug": "fircrest-wa"
+    },
+    {
+      "city": "Fort Lewis",
+      "state": "WA",
+      "slug": "fort-lewis-wa"
     }
   ],
   "template": "restoration",

@@ -3,8 +3,19 @@
 This guide is consulted by every image-generation call (Skill 3 launch images, Skill 4 blog hero images, future image regenerations). The goal: a viewer scrolling through the site should feel like one professional photographer documented one company on one continuous job. No stylistic drift from page to page.
 
 The values below are auto-populated from `plan-input.json` at planning time. Per-client brand colors come from the client's logo / brand identity — NOT from the canonical starter palette. The structural conventions (camera, lens, lighting, composition) are restoration-vertical canonical and shared across all Rank AI clients.
-
 ---
+
+## STANDING BRAND RULES (2026-07-11) — apply to EVERY image, every client
+
+1. **Vehicles carry the client's REAL logo.** Any generated image featuring a company vehicle must show the client's actual logo mark on the vehicle. Supply the real logo file (rasterize SVGs to a clean PNG on white first) as a reference image to `gemini_edit_image` / `gemini_generate_image`, and iterate until the mark on the vehicle reads faithfully — correct shape and colors, sized so lettering stays clean or is naturally implied at distance. The no-text rule still applies to everything EXCEPT the logo mark itself (no phone numbers, URLs, license numbers, or other readable text). If the model cannot render the wordmark cleanly at vehicle-side size after 3 attempts on an image, fall back to a two-color mark impression (brand-color blocks/swoosh, no letters) or a naturally defocused decal, and note the fallback.
+
+2. **One crew uniform color per client, everywhere.** Each client's style guide declares exactly one uniform color (derived from their real-world crew wear / brand identity), and every image — hero, team, services, per-service, blog heroes — uses it. Never mix uniform colors across a client's image library.
+
+3. **If the client has an existing website, harvest its photos FIRST.** Before generating any imagery, crawl the client's existing site (e.g. wp-content/uploads on WordPress) and collect real crew / vehicle / job photos. Use real photos directly where quality allows; otherwise use them as style and livery references for generation (real fleet photos define what the vans must look like). Save the harvest to `clients//harvested/`.
+4. **Fleet of THREE branded vehicles, everywhere (2026-08-18, was two-three since 2026-07-29).** Hero images always show a fleet of exactly THREE matching branded vehicles (staggered, classic restoration-trade vans unless the client's real fleet documents otherwise), and the branded vehicles also appear in the About/team photo and the Services imagery whenever the scene allows. The client's real logo rides on every vehicle per rule 1. One vehicle alone is the exception (tight interior shots), never the default.
+   **No vehicle photos is NOT a reason to skip vehicles (Santino 2026-08-18, reversing the 2026-08-10 no-invented-livery rule):** when the client's photo library has no vehicle, generate the classic professional livery anyway — clean panel vans in the brand's primary color scheme carrying the real logo mark per rule 1. A branded fleet is part of the polished look even when the real fleet is one unmarked pickup. PRECEDENCE: real documented livery always beats invented livery — the moment real fleet photos exist (harvest or client-sent), they define the vehicles and this default retires for that client. A client's explicit no-vehicles instruction (VAN-OVERRIDE) still wins over everything.
+
+
 
 ## Camera & Lens Setup
 
@@ -58,8 +69,8 @@ Per-client brand colors take priority. The values below are substituted from `pl
 
 | Role | Source | Value for this client |
 |------|--------|----------------------|
-| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#d40e1e` | **#d40e1e** (AAA logo red — sampled from the real logo; vehicles are WHITE with red lettering/decals, crew shirts are RED — matches the client's real fleet photos in `clients/aaa-water-damage/`) |
-| Accent (emergency markings, CTAs that appear in promo shots) | `#0e3167` | **#0e3167** (logo navy) |
+| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#d40e1e` | **#d40e1e** |
+| Accent (emergency markings, CTAs that appear in promo shots) | `#0e3167` | **#0e3167** |
 | Logo color (if a worker's uniform back is visible) | derived from brand logo | match AAA Water Damage Restoration & Carpet Care's logo |
 | Skin / texture / restoration materials | natural and neutral | warm wood tones for housing stock, cool concrete grays, real surface textures |
 | Environment-specific atmospherics | regional | varies — see "Setting & Environment" below for Honolulu |
@@ -87,9 +98,9 @@ Per-client brand colors take priority. The values below are substituted from `pl
 Every image that depicts a person must show a worker in branded company uniform. This is non-negotiable for visual consistency and trust signaling.
 
 ### Uniform specifications
-- **Top**: Polo or work shirt in the client's primary brand color (`#d40e1e` — RED, matching the real crew photos). Use the red directly.
+- **Top**: Polo or work shirt in the client's primary brand color (`#d40e1e`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal uniform with the brand color visible as logo embroidery, accent stripe, or branded hat.
 - **Bottom**: Neutral work pants (charcoal, dark navy, or khaki). Subordinate to the top.
-- **Branding**: AAA Water Damage Restoration & Carpet Care or AAA Water Damage embroidered on chest or back. **NO certification badges of any kind** (client has no verified certs — claims gate); no readable phone numbers or URLs.
+- **Branding**: AAA Water Damage Restoration & Carpet Care or AAA Water Damage embroidered on chest or back. IICRC certification badge visible on sleeve or chest where it makes sense.
 - **PPE**: Match the service context (see service-specific notes below) — gloves always, respirators / face shields / Tyvek suits when the service warrants it.
 - **Footwear**: Sturdy work boots, never sneakers.
 
@@ -133,22 +144,12 @@ The worker's uniform stays the same; their PPE and equipment shift per service. 
 
 - **Primary setting**: Honolulu and surrounding HI residential and commercial properties
 - **Local housing stock cues**: Honolulu, HI — named neighborhoods: Waikiki, Kakaako, Ala Moana, Downtown Honolulu, Makiki · landmarks: Waikiki Beach, Ala Moana Center, Iolani Palace · Urban Honolulu is condo country — high-rise towers in Waikiki, Kakaako and Ala Moana where a single failed supply line or water heater on an upper floor cascades through multiple units and triggers HOA and AOAO insurance coordination. Tropical humidity means soaked drywall and carpet can show visible mold within 24-48 hours year-round, so extraction speed matters more here than almost any mainland market. Older walk-ups in Makiki and Moiliili add galvanized-pipe failures and single-wall construction that wicks water fast; salt-laden trade winds corrode valves, angle stops and appliance connections faster than mainland norms. Heavy vacation-rental inventory in Waikiki puts a premium on overnight dry-outs between guest stays. Other cities served: Hawaii Kai, Kahala, Aina Haina, Kaimuki, Diamond Head. — these details should appear in backgrounds and environmental context, NOT as the subject. They quietly anchor "this was shot in Honolulu."
-- **Regional weather / season**: Tropical humidity means soaked drywall and carpet can show visible mold within 24-48 hours year-round, so extraction speed matters more here than almost any mainland market. — affects exterior shots especially.
-
-### Hawaii-specific environment rules (THIS CLIENT — read before every generation)
-
-- **Light**: Bright tropical daylight with soft trade-wind cloud texture, or warm island golden hour. Higher ambient brightness than mainland shoots; interiors still neutral/cool under work lights.
-- **Architecture**: Oahu housing stock ONLY — single-wall wood-frame homes with corrugated or standing-seam metal roofs, lava-rock walls, hollow-tile/CMU construction, plantation-era cottages, 1960s-80s Kaiser-era Hawaii Kai homes, mid-rise and high-rise condo towers (Waikiki/Kakaako) for condo-loss scenes, marina-front townhomes.
-- **Vegetation & backdrop**: Palms, plumeria, monstera, hibiscus hedges, banyan trees; Koolau ridgelines, ocean or marina glimpses, volcanic-rock retaining walls. Tropical vegetation is REQUIRED regional context here, not an error.
-- **Crew/van scenes**: WHITE company van or box truck with red (#d40e1e) lettering/decals (matches the real AAA Flood Service fleet — see `AAA Water Damage 2.jpg` / `AAA Water Damage Hawaii.webp`), crew in RED polos, on an island residential street — think Hawaii Kai cul-de-sac with Koko Head in haze, not a mainland subdivision.
-- **Absolutely NO mainland suburbia**: no Texas ranch homes, no evergreen/PNW streets, no fall foliage, no snow, no brick colonials, no desert xeriscape.
-- **Carpet & upholstery pillar shots**: truck-mounted extraction wand with clean stripes in a Hawaii living room (tile + area rug or wall-to-wall carpet, jalousie windows, tropical light through screens); mobile propane steam unit context for apartment/condo corridors.
-- **Equipment-rental shots**: staged LGR dehumidifiers, air movers and extraction gear on a hand truck / in a garage, clean rental-counter feel — no worker required.
+- **Regional weather / season**: Tropical humidity means soaked drywall and carpet can show visible mold within 24-48 hours year-round, so extraction speed matters more here than almost any mainland market. — affects exterior shots especially. Pacific Northwest: wet roads, evergreen silhouettes, cedar siding, low gray cloud cover for "we just arrived in the rain" shots. Adapt per client.
 - **Time of day**: Mix of golden-hour exteriors and neutral-light interiors. Reserve dusk/blue-hour for "arrival" hero shots specifically.
 
 ### Specifically AVOID
-- **Non-regional vegetation or mainland scenery**. This is a HAWAII client: tropical vegetation is required; evergreens, fall foliage, snow and desert are the errors here.
-- **Wrong housing styles**. Don't show a Texas ranch home or mainland tract suburbia for an Oahu client.
+- **Tropical or non-regional vegetation**. Match the client's actual region.
+- **Wrong housing styles**. Don't show a Texas ranch home for a Seattle client.
 - **Recognizable faces**. Backs, side angles, shadowed-brim cap shots only.
 - **Brand competitors in the frame**. No visible Servpro / Stanley Steemer / Restoration 1 trucks or branding.
 - **AI-obvious artifacts**: distorted text on equipment labels, melted hand geometry, impossible tool shapes, extra fingers. If a generated image shows any of these, regenerate.
@@ -184,7 +185,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Flood Damage Restoration, Burst Pipe Cleanup and Repair, Sewage Cleanup and Sanitization, Mold Remediation, Mold Inspection and Testing, Carpet Cleaning, Upholstery Cleaning, Flood & Drying Equipment Rental, Commercial Restoration)
+- [ ] (continue for each of Water Damage Restoration, Flood Damage Restoration, Burst Pipe Cleanup and Repair, Sewage Cleanup and Sanitization, Mold Remediation, Mold Inspection and Testing, Carpet Cleaning, Upholstery Cleaning, Flood & Drying Equipment Rental, Commercial Restoration, Emergency Water Cleanup)
 
 ### Service area pages (one image per city served)
 - [ ] Honolulu hero — exterior shot, regional housing stock, evocative of the city
@@ -208,4 +209,4 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 
 ## Style guide version
 
-This guide is generated from `templates/restoration/image-style-guide.template.md` v1.0. When the canonical template updates, existing clients keep their pinned version unless explicitly regenerated. Bump the version + add a changelog entry when changing structural rules (e.g., adding new mandatory PPE conventions).
+This guide is generated from `templates/restoration/image-style-guide.template.md` v1.1 (2026-07-11: added Standing Brand Rules — real vehicle logos, single declared uniform color, harvest-first). When the canonical template updates, existing clients keep their pinned version unless explicitly regenerated. Bump the version + add a changelog entry when changing structural rules (e.g., adding new mandatory PPE conventions).

@@ -1,20 +1,20 @@
 # Site Plan Report — TDI USA, Inc.
 
 - Template: `construction` v0.1.0
-- Generated: 2026-09-17T22:59:01.122439+00:00
+- Generated: 2026-09-20T14:13:49.411567+00:00
 - Domain: `tdiusa.com`
 - Services selected: 12 of 23 catalog entries
-- Service areas: 17
+- Service areas: 23
 - Cross-product enabled: True
-- Total URLs: **237**
-- Total internal links: 1916 (avg 8.1 per page)
+- Total URLs: **315**
+- Total internal links: 2534 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 192 |
-| `service-area` | 16 |
+| `service-area-service` | 264 |
+| `service-area` | 22 |
 | `service-landing` | 12 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -59,6 +59,12 @@
 - `loomis-ca` — Loomis, CA
 - `manteca-ca` — Manteca, CA
 - `turlock-ca` — Turlock, CA
+- `rio-linda-ca` — Rio Linda, CA
+- `elverta-ca` — Elverta, CA
+- `mcclellan-park-ca` — McClellan Park, CA
+- `arden-arcade-ca` — Arden-Arcade, CA
+- `north-highlands-ca` — North Highlands, CA
+- `antelope-ca` — Antelope, CA
 
 ## Top 10 priority pages
 
@@ -70,10 +76,10 @@
 | `/services/new-construction/` | `service-landing` | 8.1 | new home construction sacramento |
 | `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting sacramento |
 | `/services/room-addition/` | `service-landing` | 7.2 | room additions and home additions sacramento |
+| `/service-areas/antelope-ca/home-remodeling/` | `service-area-service` | 7.0 | home remodeling antelope |
+| `/service-areas/arden-arcade-ca/home-remodeling/` | `service-area-service` | 7.0 | home remodeling arden-arcade |
 | `/service-areas/carmichael-ca/home-remodeling/` | `service-area-service` | 7.0 | home remodeling carmichael |
 | `/service-areas/citrus-heights-ca/home-remodeling/` | `service-area-service` | 7.0 | home remodeling citrus heights |
-| `/service-areas/el-dorado-hills-ca/home-remodeling/` | `service-area-service` | 7.0 | home remodeling el dorado hills |
-| `/service-areas/elk-grove-ca/home-remodeling/` | `service-area-service` | 7.0 | home remodeling elk grove |
 
 ## Validation
 

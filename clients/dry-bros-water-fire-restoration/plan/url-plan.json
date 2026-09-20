@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-17T15:06:19.339988+00:00",
+  "generated_at": "2026-09-20T14:13:04.735432+00:00",
   "input_summary": {
     "service_count": 13,
-    "service_area_count": 8,
+    "service_area_count": 14,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -57,13 +57,19 @@
         "/services/emergency-board-up-tarping/",
         "/services/odor-removal/",
         "/services/contents-restoration/",
+        "/service-areas/bedford-park-il/",
         "/service-areas/berwyn-il/",
         "/service-areas/cicero-il/",
         "/service-areas/des-plaines-il/",
         "/service-areas/evanston-il/",
+        "/service-areas/forest-park-il/",
+        "/service-areas/lincolnwood-il/",
+        "/service-areas/lyons-il/",
         "/service-areas/naperville-il/",
         "/service-areas/oak-park-il/",
-        "/service-areas/skokie-il/"
+        "/service-areas/river-forest-il/",
+        "/service-areas/skokie-il/",
+        "/service-areas/stickney-il/"
       ]
     },
     {
@@ -140,13 +146,19 @@
       "status": "planned",
       "internal_links_out": [
         "/",
+        "/service-areas/bedford-park-il/",
         "/service-areas/berwyn-il/",
         "/service-areas/cicero-il/",
         "/service-areas/des-plaines-il/",
         "/service-areas/evanston-il/",
+        "/service-areas/forest-park-il/",
+        "/service-areas/lincolnwood-il/",
+        "/service-areas/lyons-il/",
         "/service-areas/naperville-il/",
         "/service-areas/oak-park-il/",
-        "/service-areas/skokie-il/"
+        "/service-areas/river-forest-il/",
+        "/service-areas/skokie-il/",
+        "/service-areas/stickney-il/"
       ]
     },
     {
@@ -290,12 +302,17 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/bedford-park-il/water-damage-restoration/",
         "/service-areas/berwyn-il/water-damage-restoration/",
         "/service-areas/cicero-il/water-damage-restoration/",
         "/service-areas/des-plaines-il/water-damage-restoration/",
         "/service-areas/evanston-il/water-damage-restoration/",
+        "/service-areas/forest-park-il/water-damage-restoration/",
+        "/service-areas/lincolnwood-il/water-damage-restoration/",
+        "/service-areas/lyons-il/water-damage-restoration/",
         "/service-areas/naperville-il/water-damage-restoration/",
         "/service-areas/oak-park-il/water-damage-restoration/",
+        "/service-areas/river-forest-il/water-damage-restoration/",
         "/service-areas/skokie-il/water-damage-restoration/",
         "/services/water-cleanup/",
         "/blog/burst-pipe-emergency-checklist/",
@@ -339,12 +356,17 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/bedford-park-il/fire-damage-restoration/",
         "/service-areas/berwyn-il/fire-damage-restoration/",
         "/service-areas/cicero-il/fire-damage-restoration/",
         "/service-areas/des-plaines-il/fire-damage-restoration/",
         "/service-areas/evanston-il/fire-damage-restoration/",
+        "/service-areas/forest-park-il/fire-damage-restoration/",
+        "/service-areas/lincolnwood-il/fire-damage-restoration/",
+        "/service-areas/lyons-il/fire-damage-restoration/",
         "/service-areas/naperville-il/fire-damage-restoration/",
         "/service-areas/oak-park-il/fire-damage-restoration/",
+        "/service-areas/river-forest-il/fire-damage-restoration/",
         "/service-areas/skokie-il/fire-damage-restoration/",
         "/blog/choosing-a-restoration-company/",
         "/blog/fire-damage-restoration-process/"
@@ -386,12 +408,17 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/bedford-park-il/mold-remediation/",
         "/service-areas/berwyn-il/mold-remediation/",
         "/service-areas/cicero-il/mold-remediation/",
         "/service-areas/des-plaines-il/mold-remediation/",
         "/service-areas/evanston-il/mold-remediation/",
+        "/service-areas/forest-park-il/mold-remediation/",
+        "/service-areas/lincolnwood-il/mold-remediation/",
+        "/service-areas/lyons-il/mold-remediation/",
         "/service-areas/naperville-il/mold-remediation/",
         "/service-areas/oak-park-il/mold-remediation/",
+        "/service-areas/river-forest-il/mold-remediation/",
         "/service-areas/skokie-il/mold-remediation/",
         "/blog/choosing-a-restoration-company/",
         "/blog/how-to-test-for-mold/",
@@ -435,12 +462,17 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/bedford-park-il/water-cleanup/",
         "/service-areas/berwyn-il/water-cleanup/",
         "/service-areas/cicero-il/water-cleanup/",
         "/service-areas/des-plaines-il/water-cleanup/",
         "/service-areas/evanston-il/water-cleanup/",
+        "/service-areas/forest-park-il/water-cleanup/",
+        "/service-areas/lincolnwood-il/water-cleanup/",
+        "/service-areas/lyons-il/water-cleanup/",
         "/service-areas/naperville-il/water-cleanup/",
         "/service-areas/oak-park-il/water-cleanup/",
+        "/service-areas/river-forest-il/water-cleanup/",
         "/service-areas/skokie-il/water-cleanup/",
         "/services/water-damage-restoration/"
       ]
@@ -481,12 +513,17 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/bedford-park-il/flood-damage-restoration/",
         "/service-areas/berwyn-il/flood-damage-restoration/",
         "/service-areas/cicero-il/flood-damage-restoration/",
         "/service-areas/des-plaines-il/flood-damage-restoration/",
         "/service-areas/evanston-il/flood-damage-restoration/",
+        "/service-areas/forest-park-il/flood-damage-restoration/",
+        "/service-areas/lincolnwood-il/flood-damage-restoration/",
+        "/service-areas/lyons-il/flood-damage-restoration/",
         "/service-areas/naperville-il/flood-damage-restoration/",
         "/service-areas/oak-park-il/flood-damage-restoration/",
+        "/service-areas/river-forest-il/flood-damage-restoration/",
         "/service-areas/skokie-il/flood-damage-restoration/"
       ]
     },
@@ -526,12 +563,17 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/bedford-park-il/burst-pipe-repair/",
         "/service-areas/berwyn-il/burst-pipe-repair/",
         "/service-areas/cicero-il/burst-pipe-repair/",
         "/service-areas/des-plaines-il/burst-pipe-repair/",
         "/service-areas/evanston-il/burst-pipe-repair/",
+        "/service-areas/forest-park-il/burst-pipe-repair/",
+        "/service-areas/lincolnwood-il/burst-pipe-repair/",
+        "/service-areas/lyons-il/burst-pipe-repair/",
         "/service-areas/naperville-il/burst-pipe-repair/",
         "/service-areas/oak-park-il/burst-pipe-repair/",
+        "/service-areas/river-forest-il/burst-pipe-repair/",
         "/service-areas/skokie-il/burst-pipe-repair/"
       ]
     },
@@ -571,12 +613,17 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/bedford-park-il/basement-flooding-cleanup/",
         "/service-areas/berwyn-il/basement-flooding-cleanup/",
         "/service-areas/cicero-il/basement-flooding-cleanup/",
         "/service-areas/des-plaines-il/basement-flooding-cleanup/",
         "/service-areas/evanston-il/basement-flooding-cleanup/",
+        "/service-areas/forest-park-il/basement-flooding-cleanup/",
+        "/service-areas/lincolnwood-il/basement-flooding-cleanup/",
+        "/service-areas/lyons-il/basement-flooding-cleanup/",
         "/service-areas/naperville-il/basement-flooding-cleanup/",
         "/service-areas/oak-park-il/basement-flooding-cleanup/",
+        "/service-areas/river-forest-il/basement-flooding-cleanup/",
         "/service-areas/skokie-il/basement-flooding-cleanup/"
       ]
     },
@@ -616,12 +663,17 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/bedford-park-il/sewage-cleanup/",
         "/service-areas/berwyn-il/sewage-cleanup/",
         "/service-areas/cicero-il/sewage-cleanup/",
         "/service-areas/des-plaines-il/sewage-cleanup/",
         "/service-areas/evanston-il/sewage-cleanup/",
+        "/service-areas/forest-park-il/sewage-cleanup/",
+        "/service-areas/lincolnwood-il/sewage-cleanup/",
+        "/service-areas/lyons-il/sewage-cleanup/",
         "/service-areas/naperville-il/sewage-cleanup/",
         "/service-areas/oak-park-il/sewage-cleanup/",
+        "/service-areas/river-forest-il/sewage-cleanup/",
         "/service-areas/skokie-il/sewage-cleanup/"
       ]
     },
@@ -661,12 +713,17 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/bedford-park-il/smoke-damage-restoration/",
         "/service-areas/berwyn-il/smoke-damage-restoration/",
         "/service-areas/cicero-il/smoke-damage-restoration/",
         "/service-areas/des-plaines-il/smoke-damage-restoration/",
         "/service-areas/evanston-il/smoke-damage-restoration/",
+        "/service-areas/forest-park-il/smoke-damage-restoration/",
+        "/service-areas/lincolnwood-il/smoke-damage-restoration/",
+        "/service-areas/lyons-il/smoke-damage-restoration/",
         "/service-areas/naperville-il/smoke-damage-restoration/",
         "/service-areas/oak-park-il/smoke-damage-restoration/",
+        "/service-areas/river-forest-il/smoke-damage-restoration/",
         "/service-areas/skokie-il/smoke-damage-restoration/",
         "/blog/fire-damage-restoration-process/"
       ]
@@ -707,12 +764,17 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/bedford-park-il/odor-removal/",
         "/service-areas/berwyn-il/odor-removal/",
         "/service-areas/cicero-il/odor-removal/",
         "/service-areas/des-plaines-il/odor-removal/",
         "/service-areas/evanston-il/odor-removal/",
+        "/service-areas/forest-park-il/odor-removal/",
+        "/service-areas/lincolnwood-il/odor-removal/",
+        "/service-areas/lyons-il/odor-removal/",
         "/service-areas/naperville-il/odor-removal/",
         "/service-areas/oak-park-il/odor-removal/",
+        "/service-areas/river-forest-il/odor-removal/",
         "/service-areas/skokie-il/odor-removal/"
       ]
     },
@@ -752,12 +814,17 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/bedford-park-il/storm-damage-restoration/",
         "/service-areas/berwyn-il/storm-damage-restoration/",
         "/service-areas/cicero-il/storm-damage-restoration/",
         "/service-areas/des-plaines-il/storm-damage-restoration/",
         "/service-areas/evanston-il/storm-damage-restoration/",
+        "/service-areas/forest-park-il/storm-damage-restoration/",
+        "/service-areas/lincolnwood-il/storm-damage-restoration/",
+        "/service-areas/lyons-il/storm-damage-restoration/",
         "/service-areas/naperville-il/storm-damage-restoration/",
         "/service-areas/oak-park-il/storm-damage-restoration/",
+        "/service-areas/river-forest-il/storm-damage-restoration/",
         "/service-areas/skokie-il/storm-damage-restoration/"
       ]
     },
@@ -797,12 +864,17 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/bedford-park-il/emergency-board-up-tarping/",
         "/service-areas/berwyn-il/emergency-board-up-tarping/",
         "/service-areas/cicero-il/emergency-board-up-tarping/",
         "/service-areas/des-plaines-il/emergency-board-up-tarping/",
         "/service-areas/evanston-il/emergency-board-up-tarping/",
+        "/service-areas/forest-park-il/emergency-board-up-tarping/",
+        "/service-areas/lincolnwood-il/emergency-board-up-tarping/",
+        "/service-areas/lyons-il/emergency-board-up-tarping/",
         "/service-areas/naperville-il/emergency-board-up-tarping/",
         "/service-areas/oak-park-il/emergency-board-up-tarping/",
+        "/service-areas/river-forest-il/emergency-board-up-tarping/",
         "/service-areas/skokie-il/emergency-board-up-tarping/"
       ]
     },
@@ -842,12 +914,17 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/bedford-park-il/contents-restoration/",
         "/service-areas/berwyn-il/contents-restoration/",
         "/service-areas/cicero-il/contents-restoration/",
         "/service-areas/des-plaines-il/contents-restoration/",
         "/service-areas/evanston-il/contents-restoration/",
+        "/service-areas/forest-park-il/contents-restoration/",
+        "/service-areas/lincolnwood-il/contents-restoration/",
+        "/service-areas/lyons-il/contents-restoration/",
         "/service-areas/naperville-il/contents-restoration/",
         "/service-areas/oak-park-il/contents-restoration/",
+        "/service-areas/river-forest-il/contents-restoration/",
         "/service-areas/skokie-il/contents-restoration/"
       ]
     },
@@ -896,9 +973,9 @@
         "/service-areas/naperville-il/emergency-board-up-tarping/",
         "/service-areas/naperville-il/odor-removal/",
         "/service-areas/naperville-il/contents-restoration/",
+        "/service-areas/bedford-park-il/",
         "/service-areas/berwyn-il/",
-        "/service-areas/cicero-il/",
-        "/service-areas/des-plaines-il/"
+        "/service-areas/cicero-il/"
       ]
     },
     {
@@ -946,9 +1023,9 @@
         "/service-areas/cicero-il/emergency-board-up-tarping/",
         "/service-areas/cicero-il/odor-removal/",
         "/service-areas/cicero-il/contents-restoration/",
+        "/service-areas/bedford-park-il/",
         "/service-areas/berwyn-il/",
-        "/service-areas/des-plaines-il/",
-        "/service-areas/evanston-il/"
+        "/service-areas/des-plaines-il/"
       ]
     },
     {
@@ -996,9 +1073,9 @@
         "/service-areas/evanston-il/emergency-board-up-tarping/",
         "/service-areas/evanston-il/odor-removal/",
         "/service-areas/evanston-il/contents-restoration/",
+        "/service-areas/bedford-park-il/",
         "/service-areas/berwyn-il/",
-        "/service-areas/cicero-il/",
-        "/service-areas/des-plaines-il/"
+        "/service-areas/cicero-il/"
       ]
     },
     {
@@ -1046,9 +1123,9 @@
         "/service-areas/oak-park-il/emergency-board-up-tarping/",
         "/service-areas/oak-park-il/odor-removal/",
         "/service-areas/oak-park-il/contents-restoration/",
+        "/service-areas/bedford-park-il/",
         "/service-areas/berwyn-il/",
-        "/service-areas/cicero-il/",
-        "/service-areas/des-plaines-il/"
+        "/service-areas/cicero-il/"
       ]
     },
     {
@@ -1096,9 +1173,9 @@
         "/service-areas/skokie-il/emergency-board-up-tarping/",
         "/service-areas/skokie-il/odor-removal/",
         "/service-areas/skokie-il/contents-restoration/",
+        "/service-areas/bedford-park-il/",
         "/service-areas/berwyn-il/",
-        "/service-areas/cicero-il/",
-        "/service-areas/des-plaines-il/"
+        "/service-areas/cicero-il/"
       ]
     },
     {
@@ -1146,9 +1223,9 @@
         "/service-areas/berwyn-il/emergency-board-up-tarping/",
         "/service-areas/berwyn-il/odor-removal/",
         "/service-areas/berwyn-il/contents-restoration/",
+        "/service-areas/bedford-park-il/",
         "/service-areas/cicero-il/",
-        "/service-areas/des-plaines-il/",
-        "/service-areas/evanston-il/"
+        "/service-areas/des-plaines-il/"
       ]
     },
     {
@@ -1196,9 +1273,309 @@
         "/service-areas/des-plaines-il/emergency-board-up-tarping/",
         "/service-areas/des-plaines-il/odor-removal/",
         "/service-areas/des-plaines-il/contents-restoration/",
+        "/service-areas/bedford-park-il/",
+        "/service-areas/berwyn-il/",
+        "/service-areas/cicero-il/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/stickney-il/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Stickney, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Restoration Services in Stickney",
+      "meta_description": "Serving Stickney, IL with 24/7 water, fire, mold, and storm damage restoration. Experienced team. Call (877) 379-2767.",
+      "primary_keyword": "restoration services stickney",
+      "secondary_keywords": [
+        "stickney restoration company",
+        "damage restoration stickney",
+        "stickney disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/stickney-il/fire-damage-restoration/",
+        "/service-areas/stickney-il/mold-remediation/",
+        "/service-areas/stickney-il/water-damage-restoration/",
+        "/service-areas/stickney-il/flood-damage-restoration/",
+        "/service-areas/stickney-il/sewage-cleanup/",
+        "/service-areas/stickney-il/smoke-damage-restoration/",
+        "/service-areas/stickney-il/storm-damage-restoration/",
+        "/service-areas/stickney-il/water-cleanup/",
+        "/service-areas/stickney-il/basement-flooding-cleanup/",
+        "/service-areas/stickney-il/burst-pipe-repair/",
+        "/service-areas/stickney-il/emergency-board-up-tarping/",
+        "/service-areas/stickney-il/odor-removal/",
+        "/service-areas/stickney-il/contents-restoration/",
+        "/service-areas/bedford-park-il/",
+        "/service-areas/berwyn-il/",
+        "/service-areas/cicero-il/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bedford-park-il/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Bedford Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Restoration Services in Bedford Park",
+      "meta_description": "Serving Bedford Park, IL with 24/7 water, fire, mold, and storm damage restoration. Experienced team. Call (877) 379-2767.",
+      "primary_keyword": "restoration services bedford park",
+      "secondary_keywords": [
+        "bedford park restoration company",
+        "damage restoration bedford park",
+        "bedford park disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/bedford-park-il/fire-damage-restoration/",
+        "/service-areas/bedford-park-il/mold-remediation/",
+        "/service-areas/bedford-park-il/water-damage-restoration/",
+        "/service-areas/bedford-park-il/flood-damage-restoration/",
+        "/service-areas/bedford-park-il/sewage-cleanup/",
+        "/service-areas/bedford-park-il/smoke-damage-restoration/",
+        "/service-areas/bedford-park-il/storm-damage-restoration/",
+        "/service-areas/bedford-park-il/water-cleanup/",
+        "/service-areas/bedford-park-il/basement-flooding-cleanup/",
+        "/service-areas/bedford-park-il/burst-pipe-repair/",
+        "/service-areas/bedford-park-il/emergency-board-up-tarping/",
+        "/service-areas/bedford-park-il/odor-removal/",
+        "/service-areas/bedford-park-il/contents-restoration/",
         "/service-areas/berwyn-il/",
         "/service-areas/cicero-il/",
-        "/service-areas/evanston-il/"
+        "/service-areas/des-plaines-il/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lincolnwood-il/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Lincolnwood, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Restoration Services in Lincolnwood",
+      "meta_description": "Serving Lincolnwood, IL with 24/7 water, fire, mold, and storm damage restoration. Experienced team. Call (877) 379-2767.",
+      "primary_keyword": "restoration services lincolnwood",
+      "secondary_keywords": [
+        "lincolnwood restoration company",
+        "damage restoration lincolnwood",
+        "lincolnwood disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/lincolnwood-il/fire-damage-restoration/",
+        "/service-areas/lincolnwood-il/mold-remediation/",
+        "/service-areas/lincolnwood-il/water-damage-restoration/",
+        "/service-areas/lincolnwood-il/flood-damage-restoration/",
+        "/service-areas/lincolnwood-il/sewage-cleanup/",
+        "/service-areas/lincolnwood-il/smoke-damage-restoration/",
+        "/service-areas/lincolnwood-il/storm-damage-restoration/",
+        "/service-areas/lincolnwood-il/water-cleanup/",
+        "/service-areas/lincolnwood-il/basement-flooding-cleanup/",
+        "/service-areas/lincolnwood-il/burst-pipe-repair/",
+        "/service-areas/lincolnwood-il/emergency-board-up-tarping/",
+        "/service-areas/lincolnwood-il/odor-removal/",
+        "/service-areas/lincolnwood-il/contents-restoration/",
+        "/service-areas/bedford-park-il/",
+        "/service-areas/berwyn-il/",
+        "/service-areas/cicero-il/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/river-forest-il/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in River Forest, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Restoration Services in River Forest",
+      "meta_description": "Serving River Forest, IL with 24/7 water, fire, mold, and storm damage restoration. Experienced team. Call (877) 379-2767.",
+      "primary_keyword": "restoration services river forest",
+      "secondary_keywords": [
+        "river forest restoration company",
+        "damage restoration river forest",
+        "river forest disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/river-forest-il/fire-damage-restoration/",
+        "/service-areas/river-forest-il/mold-remediation/",
+        "/service-areas/river-forest-il/water-damage-restoration/",
+        "/service-areas/river-forest-il/flood-damage-restoration/",
+        "/service-areas/river-forest-il/sewage-cleanup/",
+        "/service-areas/river-forest-il/smoke-damage-restoration/",
+        "/service-areas/river-forest-il/storm-damage-restoration/",
+        "/service-areas/river-forest-il/water-cleanup/",
+        "/service-areas/river-forest-il/basement-flooding-cleanup/",
+        "/service-areas/river-forest-il/burst-pipe-repair/",
+        "/service-areas/river-forest-il/emergency-board-up-tarping/",
+        "/service-areas/river-forest-il/odor-removal/",
+        "/service-areas/river-forest-il/contents-restoration/",
+        "/service-areas/bedford-park-il/",
+        "/service-areas/berwyn-il/",
+        "/service-areas/cicero-il/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/forest-park-il/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Forest Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Restoration Services in Forest Park",
+      "meta_description": "Serving Forest Park, IL with 24/7 water, fire, mold, and storm damage restoration. Experienced team. Call (877) 379-2767.",
+      "primary_keyword": "restoration services forest park",
+      "secondary_keywords": [
+        "forest park restoration company",
+        "damage restoration forest park",
+        "forest park disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/forest-park-il/fire-damage-restoration/",
+        "/service-areas/forest-park-il/mold-remediation/",
+        "/service-areas/forest-park-il/water-damage-restoration/",
+        "/service-areas/forest-park-il/flood-damage-restoration/",
+        "/service-areas/forest-park-il/sewage-cleanup/",
+        "/service-areas/forest-park-il/smoke-damage-restoration/",
+        "/service-areas/forest-park-il/storm-damage-restoration/",
+        "/service-areas/forest-park-il/water-cleanup/",
+        "/service-areas/forest-park-il/basement-flooding-cleanup/",
+        "/service-areas/forest-park-il/burst-pipe-repair/",
+        "/service-areas/forest-park-il/emergency-board-up-tarping/",
+        "/service-areas/forest-park-il/odor-removal/",
+        "/service-areas/forest-park-il/contents-restoration/",
+        "/service-areas/bedford-park-il/",
+        "/service-areas/berwyn-il/",
+        "/service-areas/cicero-il/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lyons-il/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Lyons, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Restoration Services in Lyons",
+      "meta_description": "Serving Lyons, IL with 24/7 water, fire, mold, and storm damage restoration. Experienced team. Call (877) 379-2767.",
+      "primary_keyword": "restoration services lyons",
+      "secondary_keywords": [
+        "lyons restoration company",
+        "damage restoration lyons",
+        "lyons disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/lyons-il/fire-damage-restoration/",
+        "/service-areas/lyons-il/mold-remediation/",
+        "/service-areas/lyons-il/water-damage-restoration/",
+        "/service-areas/lyons-il/flood-damage-restoration/",
+        "/service-areas/lyons-il/sewage-cleanup/",
+        "/service-areas/lyons-il/smoke-damage-restoration/",
+        "/service-areas/lyons-il/storm-damage-restoration/",
+        "/service-areas/lyons-il/water-cleanup/",
+        "/service-areas/lyons-il/basement-flooding-cleanup/",
+        "/service-areas/lyons-il/burst-pipe-repair/",
+        "/service-areas/lyons-il/emergency-board-up-tarping/",
+        "/service-areas/lyons-il/odor-removal/",
+        "/service-areas/lyons-il/contents-restoration/",
+        "/service-areas/bedford-park-il/",
+        "/service-areas/berwyn-il/",
+        "/service-areas/cicero-il/"
       ]
     },
     {
@@ -1240,8 +1617,8 @@
         "/service-areas/naperville-il/",
         "/service-areas/naperville-il/fire-damage-restoration/",
         "/service-areas/naperville-il/mold-remediation/",
+        "/service-areas/bedford-park-il/water-damage-restoration/",
         "/service-areas/berwyn-il/water-damage-restoration/",
-        "/service-areas/cicero-il/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1284,8 +1661,8 @@
         "/service-areas/naperville-il/",
         "/service-areas/naperville-il/mold-remediation/",
         "/service-areas/naperville-il/water-damage-restoration/",
+        "/service-areas/bedford-park-il/fire-damage-restoration/",
         "/service-areas/berwyn-il/fire-damage-restoration/",
-        "/service-areas/cicero-il/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1328,8 +1705,8 @@
         "/service-areas/naperville-il/",
         "/service-areas/naperville-il/fire-damage-restoration/",
         "/service-areas/naperville-il/water-damage-restoration/",
+        "/service-areas/bedford-park-il/mold-remediation/",
         "/service-areas/berwyn-il/mold-remediation/",
-        "/service-areas/cicero-il/mold-remediation/",
         "/contact/"
       ]
     },
@@ -1373,8 +1750,8 @@
         "/service-areas/naperville-il/",
         "/service-areas/naperville-il/fire-damage-restoration/",
         "/service-areas/naperville-il/mold-remediation/",
+        "/service-areas/bedford-park-il/water-cleanup/",
         "/service-areas/berwyn-il/water-cleanup/",
-        "/service-areas/cicero-il/water-cleanup/",
         "/contact/"
       ]
     },
@@ -1417,8 +1794,8 @@
         "/service-areas/naperville-il/",
         "/service-areas/naperville-il/fire-damage-restoration/",
         "/service-areas/naperville-il/mold-remediation/",
+        "/service-areas/bedford-park-il/flood-damage-restoration/",
         "/service-areas/berwyn-il/flood-damage-restoration/",
-        "/service-areas/cicero-il/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1461,8 +1838,8 @@
         "/service-areas/naperville-il/",
         "/service-areas/naperville-il/fire-damage-restoration/",
         "/service-areas/naperville-il/mold-remediation/",
+        "/service-areas/bedford-park-il/burst-pipe-repair/",
         "/service-areas/berwyn-il/burst-pipe-repair/",
-        "/service-areas/cicero-il/burst-pipe-repair/",
         "/contact/"
       ]
     },
@@ -1505,8 +1882,8 @@
         "/service-areas/naperville-il/",
         "/service-areas/naperville-il/fire-damage-restoration/",
         "/service-areas/naperville-il/mold-remediation/",
+        "/service-areas/bedford-park-il/basement-flooding-cleanup/",
         "/service-areas/berwyn-il/basement-flooding-cleanup/",
-        "/service-areas/cicero-il/basement-flooding-cleanup/",
         "/contact/"
       ]
     },
@@ -1549,8 +1926,8 @@
         "/service-areas/naperville-il/",
         "/service-areas/naperville-il/fire-damage-restoration/",
         "/service-areas/naperville-il/mold-remediation/",
+        "/service-areas/bedford-park-il/sewage-cleanup/",
         "/service-areas/berwyn-il/sewage-cleanup/",
-        "/service-areas/cicero-il/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -1593,8 +1970,8 @@
         "/service-areas/naperville-il/",
         "/service-areas/naperville-il/fire-damage-restoration/",
         "/service-areas/naperville-il/mold-remediation/",
+        "/service-areas/bedford-park-il/smoke-damage-restoration/",
         "/service-areas/berwyn-il/smoke-damage-restoration/",
-        "/service-areas/cicero-il/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1637,8 +2014,8 @@
         "/service-areas/naperville-il/",
         "/service-areas/naperville-il/fire-damage-restoration/",
         "/service-areas/naperville-il/mold-remediation/",
+        "/service-areas/bedford-park-il/odor-removal/",
         "/service-areas/berwyn-il/odor-removal/",
-        "/service-areas/cicero-il/odor-removal/",
         "/contact/"
       ]
     },
@@ -1681,8 +2058,8 @@
         "/service-areas/naperville-il/",
         "/service-areas/naperville-il/fire-damage-restoration/",
         "/service-areas/naperville-il/mold-remediation/",
+        "/service-areas/bedford-park-il/storm-damage-restoration/",
         "/service-areas/berwyn-il/storm-damage-restoration/",
-        "/service-areas/cicero-il/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1725,8 +2102,8 @@
         "/service-areas/naperville-il/",
         "/service-areas/naperville-il/fire-damage-restoration/",
         "/service-areas/naperville-il/mold-remediation/",
+        "/service-areas/bedford-park-il/emergency-board-up-tarping/",
         "/service-areas/berwyn-il/emergency-board-up-tarping/",
-        "/service-areas/cicero-il/emergency-board-up-tarping/",
         "/contact/"
       ]
     },
@@ -1769,8 +2146,8 @@
         "/service-areas/naperville-il/",
         "/service-areas/naperville-il/fire-damage-restoration/",
         "/service-areas/naperville-il/mold-remediation/",
+        "/service-areas/bedford-park-il/contents-restoration/",
         "/service-areas/berwyn-il/contents-restoration/",
-        "/service-areas/cicero-il/contents-restoration/",
         "/contact/"
       ]
     },
@@ -1813,8 +2190,8 @@
         "/service-areas/cicero-il/",
         "/service-areas/cicero-il/fire-damage-restoration/",
         "/service-areas/cicero-il/mold-remediation/",
+        "/service-areas/bedford-park-il/water-damage-restoration/",
         "/service-areas/berwyn-il/water-damage-restoration/",
-        "/service-areas/des-plaines-il/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1857,8 +2234,8 @@
         "/service-areas/cicero-il/",
         "/service-areas/cicero-il/mold-remediation/",
         "/service-areas/cicero-il/water-damage-restoration/",
+        "/service-areas/bedford-park-il/fire-damage-restoration/",
         "/service-areas/berwyn-il/fire-damage-restoration/",
-        "/service-areas/des-plaines-il/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1901,8 +2278,8 @@
         "/service-areas/cicero-il/",
         "/service-areas/cicero-il/fire-damage-restoration/",
         "/service-areas/cicero-il/water-damage-restoration/",
+        "/service-areas/bedford-park-il/mold-remediation/",
         "/service-areas/berwyn-il/mold-remediation/",
-        "/service-areas/des-plaines-il/mold-remediation/",
         "/contact/"
       ]
     },
@@ -1946,8 +2323,8 @@
         "/service-areas/cicero-il/",
         "/service-areas/cicero-il/fire-damage-restoration/",
         "/service-areas/cicero-il/mold-remediation/",
+        "/service-areas/bedford-park-il/water-cleanup/",
         "/service-areas/berwyn-il/water-cleanup/",
-        "/service-areas/des-plaines-il/water-cleanup/",
         "/contact/"
       ]
     },
@@ -1990,8 +2367,8 @@
         "/service-areas/cicero-il/",
         "/service-areas/cicero-il/fire-damage-restoration/",
         "/service-areas/cicero-il/mold-remediation/",
+        "/service-areas/bedford-park-il/flood-damage-restoration/",
         "/service-areas/berwyn-il/flood-damage-restoration/",
-        "/service-areas/des-plaines-il/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2034,8 +2411,8 @@
         "/service-areas/cicero-il/",
         "/service-areas/cicero-il/fire-damage-restoration/",
         "/service-areas/cicero-il/mold-remediation/",
+        "/service-areas/bedford-park-il/burst-pipe-repair/",
         "/service-areas/berwyn-il/burst-pipe-repair/",
-        "/service-areas/des-plaines-il/burst-pipe-repair/",
         "/contact/"
       ]
     },
@@ -2078,8 +2455,8 @@
         "/service-areas/cicero-il/",
         "/service-areas/cicero-il/fire-damage-restoration/",
         "/service-areas/cicero-il/mold-remediation/",
+        "/service-areas/bedford-park-il/basement-flooding-cleanup/",
         "/service-areas/berwyn-il/basement-flooding-cleanup/",
-        "/service-areas/des-plaines-il/basement-flooding-cleanup/",
         "/contact/"
       ]
     },
@@ -2122,8 +2499,8 @@
         "/service-areas/cicero-il/",
         "/service-areas/cicero-il/fire-damage-restoration/",
         "/service-areas/cicero-il/mold-remediation/",
+        "/service-areas/bedford-park-il/sewage-cleanup/",
         "/service-areas/berwyn-il/sewage-cleanup/",
-        "/service-areas/des-plaines-il/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -2166,8 +2543,8 @@
         "/service-areas/cicero-il/",
         "/service-areas/cicero-il/fire-damage-restoration/",
         "/service-areas/cicero-il/mold-remediation/",
+        "/service-areas/bedford-park-il/smoke-damage-restoration/",
         "/service-areas/berwyn-il/smoke-damage-restoration/",
-        "/service-areas/des-plaines-il/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2210,8 +2587,8 @@
         "/service-areas/cicero-il/",
         "/service-areas/cicero-il/fire-damage-restoration/",
         "/service-areas/cicero-il/mold-remediation/",
+        "/service-areas/bedford-park-il/odor-removal/",
         "/service-areas/berwyn-il/odor-removal/",
-        "/service-areas/des-plaines-il/odor-removal/",
         "/contact/"
       ]
     },
@@ -2254,8 +2631,8 @@
         "/service-areas/cicero-il/",
         "/service-areas/cicero-il/fire-damage-restoration/",
         "/service-areas/cicero-il/mold-remediation/",
+        "/service-areas/bedford-park-il/storm-damage-restoration/",
         "/service-areas/berwyn-il/storm-damage-restoration/",
-        "/service-areas/des-plaines-il/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2298,8 +2675,8 @@
         "/service-areas/cicero-il/",
         "/service-areas/cicero-il/fire-damage-restoration/",
         "/service-areas/cicero-il/mold-remediation/",
+        "/service-areas/bedford-park-il/emergency-board-up-tarping/",
         "/service-areas/berwyn-il/emergency-board-up-tarping/",
-        "/service-areas/des-plaines-il/emergency-board-up-tarping/",
         "/contact/"
       ]
     },
@@ -2342,8 +2719,8 @@
         "/service-areas/cicero-il/",
         "/service-areas/cicero-il/fire-damage-restoration/",
         "/service-areas/cicero-il/mold-remediation/",
+        "/service-areas/bedford-park-il/contents-restoration/",
         "/service-areas/berwyn-il/contents-restoration/",
-        "/service-areas/des-plaines-il/contents-restoration/",
         "/contact/"
       ]
     },
@@ -2386,8 +2763,8 @@
         "/service-areas/evanston-il/",
         "/service-areas/evanston-il/fire-damage-restoration/",
         "/service-areas/evanston-il/mold-remediation/",
+        "/service-areas/bedford-park-il/water-damage-restoration/",
         "/service-areas/berwyn-il/water-damage-restoration/",
-        "/service-areas/cicero-il/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2430,8 +2807,8 @@
         "/service-areas/evanston-il/",
         "/service-areas/evanston-il/mold-remediation/",
         "/service-areas/evanston-il/water-damage-restoration/",
+        "/service-areas/bedford-park-il/fire-damage-restoration/",
         "/service-areas/berwyn-il/fire-damage-restoration/",
-        "/service-areas/cicero-il/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2474,8 +2851,8 @@
         "/service-areas/evanston-il/",
         "/service-areas/evanston-il/fire-damage-restoration/",
         "/service-areas/evanston-il/water-damage-restoration/",
+        "/service-areas/bedford-park-il/mold-remediation/",
         "/service-areas/berwyn-il/mold-remediation/",
-        "/service-areas/cicero-il/mold-remediation/",
         "/contact/"
       ]
     },
@@ -2519,8 +2896,8 @@
         "/service-areas/evanston-il/",
         "/service-areas/evanston-il/fire-damage-restoration/",
         "/service-areas/evanston-il/mold-remediation/",
+        "/service-areas/bedford-park-il/water-cleanup/",
         "/service-areas/berwyn-il/water-cleanup/",
-        "/service-areas/cicero-il/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2563,8 +2940,8 @@
         "/service-areas/evanston-il/",
         "/service-areas/evanston-il/fire-damage-restoration/",
         "/service-areas/evanston-il/mold-remediation/",
+        "/service-areas/bedford-park-il/flood-damage-restoration/",
         "/service-areas/berwyn-il/flood-damage-restoration/",
-        "/service-areas/cicero-il/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2607,8 +2984,8 @@
         "/service-areas/evanston-il/",
         "/service-areas/evanston-il/fire-damage-restoration/",
         "/service-areas/evanston-il/mold-remediation/",
+        "/service-areas/bedford-park-il/burst-pipe-repair/",
         "/service-areas/berwyn-il/burst-pipe-repair/",
-        "/service-areas/cicero-il/burst-pipe-repair/",
         "/contact/"
       ]
     },
@@ -2651,8 +3028,8 @@
         "/service-areas/evanston-il/",
         "/service-areas/evanston-il/fire-damage-restoration/",
         "/service-areas/evanston-il/mold-remediation/",
+        "/service-areas/bedford-park-il/basement-flooding-cleanup/",
         "/service-areas/berwyn-il/basement-flooding-cleanup/",
-        "/service-areas/cicero-il/basement-flooding-cleanup/",
         "/contact/"
       ]
     },
@@ -2695,8 +3072,8 @@
         "/service-areas/evanston-il/",
         "/service-areas/evanston-il/fire-damage-restoration/",
         "/service-areas/evanston-il/mold-remediation/",
+        "/service-areas/bedford-park-il/sewage-cleanup/",
         "/service-areas/berwyn-il/sewage-cleanup/",
-        "/service-areas/cicero-il/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -2739,8 +3116,8 @@
         "/service-areas/evanston-il/",
         "/service-areas/evanston-il/fire-damage-restoration/",
         "/service-areas/evanston-il/mold-remediation/",
+        "/service-areas/bedford-park-il/smoke-damage-restoration/",
         "/service-areas/berwyn-il/smoke-damage-restoration/",
-        "/service-areas/cicero-il/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2783,8 +3160,8 @@
         "/service-areas/evanston-il/",
         "/service-areas/evanston-il/fire-damage-restoration/",
         "/service-areas/evanston-il/mold-remediation/",
+        "/service-areas/bedford-park-il/odor-removal/",
         "/service-areas/berwyn-il/odor-removal/",
-        "/service-areas/cicero-il/odor-removal/",
         "/contact/"
       ]
     },
@@ -2827,8 +3204,8 @@
         "/service-areas/evanston-il/",
         "/service-areas/evanston-il/fire-damage-restoration/",
         "/service-areas/evanston-il/mold-remediation/",
+        "/service-areas/bedford-park-il/storm-damage-restoration/",
         "/service-areas/berwyn-il/storm-damage-restoration/",
-        "/service-areas/cicero-il/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2871,8 +3248,8 @@
         "/service-areas/evanston-il/",
         "/service-areas/evanston-il/fire-damage-restoration/",
         "/service-areas/evanston-il/mold-remediation/",
+        "/service-areas/bedford-park-il/emergency-board-up-tarping/",
         "/service-areas/berwyn-il/emergency-board-up-tarping/",
-        "/service-areas/cicero-il/emergency-board-up-tarping/",
         "/contact/"
       ]
     },
@@ -2915,8 +3292,8 @@
         "/service-areas/evanston-il/",
         "/service-areas/evanston-il/fire-damage-restoration/",
         "/service-areas/evanston-il/mold-remediation/",
+        "/service-areas/bedford-park-il/contents-restoration/",
         "/service-areas/berwyn-il/contents-restoration/",
-        "/service-areas/cicero-il/contents-restoration/",
         "/contact/"
       ]
     },
@@ -2959,8 +3336,8 @@
         "/service-areas/oak-park-il/",
         "/service-areas/oak-park-il/fire-damage-restoration/",
         "/service-areas/oak-park-il/mold-remediation/",
+        "/service-areas/bedford-park-il/water-damage-restoration/",
         "/service-areas/berwyn-il/water-damage-restoration/",
-        "/service-areas/cicero-il/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3003,8 +3380,8 @@
         "/service-areas/oak-park-il/",
         "/service-areas/oak-park-il/mold-remediation/",
         "/service-areas/oak-park-il/water-damage-restoration/",
+        "/service-areas/bedford-park-il/fire-damage-restoration/",
         "/service-areas/berwyn-il/fire-damage-restoration/",
-        "/service-areas/cicero-il/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3047,8 +3424,8 @@
         "/service-areas/oak-park-il/",
         "/service-areas/oak-park-il/fire-damage-restoration/",
         "/service-areas/oak-park-il/water-damage-restoration/",
+        "/service-areas/bedford-park-il/mold-remediation/",
         "/service-areas/berwyn-il/mold-remediation/",
-        "/service-areas/cicero-il/mold-remediation/",
         "/contact/"
       ]
     },
@@ -3092,8 +3469,8 @@
         "/service-areas/oak-park-il/",
         "/service-areas/oak-park-il/fire-damage-restoration/",
         "/service-areas/oak-park-il/mold-remediation/",
+        "/service-areas/bedford-park-il/water-cleanup/",
         "/service-areas/berwyn-il/water-cleanup/",
-        "/service-areas/cicero-il/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3136,8 +3513,8 @@
         "/service-areas/oak-park-il/",
         "/service-areas/oak-park-il/fire-damage-restoration/",
         "/service-areas/oak-park-il/mold-remediation/",
+        "/service-areas/bedford-park-il/flood-damage-restoration/",
         "/service-areas/berwyn-il/flood-damage-restoration/",
-        "/service-areas/cicero-il/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3180,8 +3557,8 @@
         "/service-areas/oak-park-il/",
         "/service-areas/oak-park-il/fire-damage-restoration/",
         "/service-areas/oak-park-il/mold-remediation/",
+        "/service-areas/bedford-park-il/burst-pipe-repair/",
         "/service-areas/berwyn-il/burst-pipe-repair/",
-        "/service-areas/cicero-il/burst-pipe-repair/",
         "/contact/"
       ]
     },
@@ -3224,8 +3601,8 @@
         "/service-areas/oak-park-il/",
         "/service-areas/oak-park-il/fire-damage-restoration/",
         "/service-areas/oak-park-il/mold-remediation/",
+        "/service-areas/bedford-park-il/basement-flooding-cleanup/",
         "/service-areas/berwyn-il/basement-flooding-cleanup/",
-        "/service-areas/cicero-il/basement-flooding-cleanup/",
         "/contact/"
       ]
     },
@@ -3268,8 +3645,8 @@
         "/service-areas/oak-park-il/",
         "/service-areas/oak-park-il/fire-damage-restoration/",
         "/service-areas/oak-park-il/mold-remediation/",
+        "/service-areas/bedford-park-il/sewage-cleanup/",
         "/service-areas/berwyn-il/sewage-cleanup/",
-        "/service-areas/cicero-il/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -3312,8 +3689,8 @@
         "/service-areas/oak-park-il/",
         "/service-areas/oak-park-il/fire-damage-restoration/",
         "/service-areas/oak-park-il/mold-remediation/",
+        "/service-areas/bedford-park-il/smoke-damage-restoration/",
         "/service-areas/berwyn-il/smoke-damage-restoration/",
-        "/service-areas/cicero-il/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3356,8 +3733,8 @@
         "/service-areas/oak-park-il/",
         "/service-areas/oak-park-il/fire-damage-restoration/",
         "/service-areas/oak-park-il/mold-remediation/",
+        "/service-areas/bedford-park-il/odor-removal/",
         "/service-areas/berwyn-il/odor-removal/",
-        "/service-areas/cicero-il/odor-removal/",
         "/contact/"
       ]
     },
@@ -3400,8 +3777,8 @@
         "/service-areas/oak-park-il/",
         "/service-areas/oak-park-il/fire-damage-restoration/",
         "/service-areas/oak-park-il/mold-remediation/",
+        "/service-areas/bedford-park-il/storm-damage-restoration/",
         "/service-areas/berwyn-il/storm-damage-restoration/",
-        "/service-areas/cicero-il/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3444,8 +3821,8 @@
         "/service-areas/oak-park-il/",
         "/service-areas/oak-park-il/fire-damage-restoration/",
         "/service-areas/oak-park-il/mold-remediation/",
+        "/service-areas/bedford-park-il/emergency-board-up-tarping/",
         "/service-areas/berwyn-il/emergency-board-up-tarping/",
-        "/service-areas/cicero-il/emergency-board-up-tarping/",
         "/contact/"
       ]
     },
@@ -3488,8 +3865,8 @@
         "/service-areas/oak-park-il/",
         "/service-areas/oak-park-il/fire-damage-restoration/",
         "/service-areas/oak-park-il/mold-remediation/",
+        "/service-areas/bedford-park-il/contents-restoration/",
         "/service-areas/berwyn-il/contents-restoration/",
-        "/service-areas/cicero-il/contents-restoration/",
         "/contact/"
       ]
     },
@@ -3532,8 +3909,8 @@
         "/service-areas/skokie-il/",
         "/service-areas/skokie-il/fire-damage-restoration/",
         "/service-areas/skokie-il/mold-remediation/",
+        "/service-areas/bedford-park-il/water-damage-restoration/",
         "/service-areas/berwyn-il/water-damage-restoration/",
-        "/service-areas/cicero-il/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3576,8 +3953,8 @@
         "/service-areas/skokie-il/",
         "/service-areas/skokie-il/mold-remediation/",
         "/service-areas/skokie-il/water-damage-restoration/",
+        "/service-areas/bedford-park-il/fire-damage-restoration/",
         "/service-areas/berwyn-il/fire-damage-restoration/",
-        "/service-areas/cicero-il/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3620,8 +3997,8 @@
         "/service-areas/skokie-il/",
         "/service-areas/skokie-il/fire-damage-restoration/",
         "/service-areas/skokie-il/water-damage-restoration/",
+        "/service-areas/bedford-park-il/mold-remediation/",
         "/service-areas/berwyn-il/mold-remediation/",
-        "/service-areas/cicero-il/mold-remediation/",
         "/contact/"
       ]
     },
@@ -3665,8 +4042,8 @@
         "/service-areas/skokie-il/",
         "/service-areas/skokie-il/fire-damage-restoration/",
         "/service-areas/skokie-il/mold-remediation/",
+        "/service-areas/bedford-park-il/water-cleanup/",
         "/service-areas/berwyn-il/water-cleanup/",
-        "/service-areas/cicero-il/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3709,8 +4086,8 @@
         "/service-areas/skokie-il/",
         "/service-areas/skokie-il/fire-damage-restoration/",
         "/service-areas/skokie-il/mold-remediation/",
+        "/service-areas/bedford-park-il/flood-damage-restoration/",
         "/service-areas/berwyn-il/flood-damage-restoration/",
-        "/service-areas/cicero-il/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3753,8 +4130,8 @@
         "/service-areas/skokie-il/",
         "/service-areas/skokie-il/fire-damage-restoration/",
         "/service-areas/skokie-il/mold-remediation/",
+        "/service-areas/bedford-park-il/burst-pipe-repair/",
         "/service-areas/berwyn-il/burst-pipe-repair/",
-        "/service-areas/cicero-il/burst-pipe-repair/",
         "/contact/"
       ]
     },
@@ -3797,8 +4174,8 @@
         "/service-areas/skokie-il/",
         "/service-areas/skokie-il/fire-damage-restoration/",
         "/service-areas/skokie-il/mold-remediation/",
+        "/service-areas/bedford-park-il/basement-flooding-cleanup/",
         "/service-areas/berwyn-il/basement-flooding-cleanup/",
-        "/service-areas/cicero-il/basement-flooding-cleanup/",
         "/contact/"
       ]
     },
@@ -3841,8 +4218,8 @@
         "/service-areas/skokie-il/",
         "/service-areas/skokie-il/fire-damage-restoration/",
         "/service-areas/skokie-il/mold-remediation/",
+        "/service-areas/bedford-park-il/sewage-cleanup/",
         "/service-areas/berwyn-il/sewage-cleanup/",
-        "/service-areas/cicero-il/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -3885,8 +4262,8 @@
         "/service-areas/skokie-il/",
         "/service-areas/skokie-il/fire-damage-restoration/",
         "/service-areas/skokie-il/mold-remediation/",
+        "/service-areas/bedford-park-il/smoke-damage-restoration/",
         "/service-areas/berwyn-il/smoke-damage-restoration/",
-        "/service-areas/cicero-il/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3929,8 +4306,8 @@
         "/service-areas/skokie-il/",
         "/service-areas/skokie-il/fire-damage-restoration/",
         "/service-areas/skokie-il/mold-remediation/",
+        "/service-areas/bedford-park-il/odor-removal/",
         "/service-areas/berwyn-il/odor-removal/",
-        "/service-areas/cicero-il/odor-removal/",
         "/contact/"
       ]
     },
@@ -3973,8 +4350,8 @@
         "/service-areas/skokie-il/",
         "/service-areas/skokie-il/fire-damage-restoration/",
         "/service-areas/skokie-il/mold-remediation/",
+        "/service-areas/bedford-park-il/storm-damage-restoration/",
         "/service-areas/berwyn-il/storm-damage-restoration/",
-        "/service-areas/cicero-il/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4017,8 +4394,8 @@
         "/service-areas/skokie-il/",
         "/service-areas/skokie-il/fire-damage-restoration/",
         "/service-areas/skokie-il/mold-remediation/",
+        "/service-areas/bedford-park-il/emergency-board-up-tarping/",
         "/service-areas/berwyn-il/emergency-board-up-tarping/",
-        "/service-areas/cicero-il/emergency-board-up-tarping/",
         "/contact/"
       ]
     },
@@ -4061,8 +4438,8 @@
         "/service-areas/skokie-il/",
         "/service-areas/skokie-il/fire-damage-restoration/",
         "/service-areas/skokie-il/mold-remediation/",
+        "/service-areas/bedford-park-il/contents-restoration/",
         "/service-areas/berwyn-il/contents-restoration/",
-        "/service-areas/cicero-il/contents-restoration/",
         "/contact/"
       ]
     },
@@ -4105,8 +4482,8 @@
         "/service-areas/berwyn-il/",
         "/service-areas/berwyn-il/fire-damage-restoration/",
         "/service-areas/berwyn-il/mold-remediation/",
+        "/service-areas/bedford-park-il/water-damage-restoration/",
         "/service-areas/cicero-il/water-damage-restoration/",
-        "/service-areas/des-plaines-il/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4149,8 +4526,8 @@
         "/service-areas/berwyn-il/",
         "/service-areas/berwyn-il/mold-remediation/",
         "/service-areas/berwyn-il/water-damage-restoration/",
+        "/service-areas/bedford-park-il/fire-damage-restoration/",
         "/service-areas/cicero-il/fire-damage-restoration/",
-        "/service-areas/des-plaines-il/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4193,8 +4570,8 @@
         "/service-areas/berwyn-il/",
         "/service-areas/berwyn-il/fire-damage-restoration/",
         "/service-areas/berwyn-il/water-damage-restoration/",
+        "/service-areas/bedford-park-il/mold-remediation/",
         "/service-areas/cicero-il/mold-remediation/",
-        "/service-areas/des-plaines-il/mold-remediation/",
         "/contact/"
       ]
     },
@@ -4238,8 +4615,8 @@
         "/service-areas/berwyn-il/",
         "/service-areas/berwyn-il/fire-damage-restoration/",
         "/service-areas/berwyn-il/mold-remediation/",
+        "/service-areas/bedford-park-il/water-cleanup/",
         "/service-areas/cicero-il/water-cleanup/",
-        "/service-areas/des-plaines-il/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4282,8 +4659,8 @@
         "/service-areas/berwyn-il/",
         "/service-areas/berwyn-il/fire-damage-restoration/",
         "/service-areas/berwyn-il/mold-remediation/",
+        "/service-areas/bedford-park-il/flood-damage-restoration/",
         "/service-areas/cicero-il/flood-damage-restoration/",
-        "/service-areas/des-plaines-il/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4326,8 +4703,8 @@
         "/service-areas/berwyn-il/",
         "/service-areas/berwyn-il/fire-damage-restoration/",
         "/service-areas/berwyn-il/mold-remediation/",
+        "/service-areas/bedford-park-il/burst-pipe-repair/",
         "/service-areas/cicero-il/burst-pipe-repair/",
-        "/service-areas/des-plaines-il/burst-pipe-repair/",
         "/contact/"
       ]
     },
@@ -4370,8 +4747,8 @@
         "/service-areas/berwyn-il/",
         "/service-areas/berwyn-il/fire-damage-restoration/",
         "/service-areas/berwyn-il/mold-remediation/",
+        "/service-areas/bedford-park-il/basement-flooding-cleanup/",
         "/service-areas/cicero-il/basement-flooding-cleanup/",
-        "/service-areas/des-plaines-il/basement-flooding-cleanup/",
         "/contact/"
       ]
     },
@@ -4414,8 +4791,8 @@
         "/service-areas/berwyn-il/",
         "/service-areas/berwyn-il/fire-damage-restoration/",
         "/service-areas/berwyn-il/mold-remediation/",
+        "/service-areas/bedford-park-il/sewage-cleanup/",
         "/service-areas/cicero-il/sewage-cleanup/",
-        "/service-areas/des-plaines-il/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -4458,8 +4835,8 @@
         "/service-areas/berwyn-il/",
         "/service-areas/berwyn-il/fire-damage-restoration/",
         "/service-areas/berwyn-il/mold-remediation/",
+        "/service-areas/bedford-park-il/smoke-damage-restoration/",
         "/service-areas/cicero-il/smoke-damage-restoration/",
-        "/service-areas/des-plaines-il/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4502,8 +4879,8 @@
         "/service-areas/berwyn-il/",
         "/service-areas/berwyn-il/fire-damage-restoration/",
         "/service-areas/berwyn-il/mold-remediation/",
+        "/service-areas/bedford-park-il/odor-removal/",
         "/service-areas/cicero-il/odor-removal/",
-        "/service-areas/des-plaines-il/odor-removal/",
         "/contact/"
       ]
     },
@@ -4546,8 +4923,8 @@
         "/service-areas/berwyn-il/",
         "/service-areas/berwyn-il/fire-damage-restoration/",
         "/service-areas/berwyn-il/mold-remediation/",
+        "/service-areas/bedford-park-il/storm-damage-restoration/",
         "/service-areas/cicero-il/storm-damage-restoration/",
-        "/service-areas/des-plaines-il/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4590,8 +4967,8 @@
         "/service-areas/berwyn-il/",
         "/service-areas/berwyn-il/fire-damage-restoration/",
         "/service-areas/berwyn-il/mold-remediation/",
+        "/service-areas/bedford-park-il/emergency-board-up-tarping/",
         "/service-areas/cicero-il/emergency-board-up-tarping/",
-        "/service-areas/des-plaines-il/emergency-board-up-tarping/",
         "/contact/"
       ]
     },
@@ -4634,8 +5011,8 @@
         "/service-areas/berwyn-il/",
         "/service-areas/berwyn-il/fire-damage-restoration/",
         "/service-areas/berwyn-il/mold-remediation/",
+        "/service-areas/bedford-park-il/contents-restoration/",
         "/service-areas/cicero-il/contents-restoration/",
-        "/service-areas/des-plaines-il/contents-restoration/",
         "/contact/"
       ]
     },
@@ -4678,8 +5055,8 @@
         "/service-areas/des-plaines-il/",
         "/service-areas/des-plaines-il/fire-damage-restoration/",
         "/service-areas/des-plaines-il/mold-remediation/",
+        "/service-areas/bedford-park-il/water-damage-restoration/",
         "/service-areas/berwyn-il/water-damage-restoration/",
-        "/service-areas/cicero-il/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4722,8 +5099,8 @@
         "/service-areas/des-plaines-il/",
         "/service-areas/des-plaines-il/mold-remediation/",
         "/service-areas/des-plaines-il/water-damage-restoration/",
+        "/service-areas/bedford-park-il/fire-damage-restoration/",
         "/service-areas/berwyn-il/fire-damage-restoration/",
-        "/service-areas/cicero-il/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4766,8 +5143,8 @@
         "/service-areas/des-plaines-il/",
         "/service-areas/des-plaines-il/fire-damage-restoration/",
         "/service-areas/des-plaines-il/water-damage-restoration/",
+        "/service-areas/bedford-park-il/mold-remediation/",
         "/service-areas/berwyn-il/mold-remediation/",
-        "/service-areas/cicero-il/mold-remediation/",
         "/contact/"
       ]
     },
@@ -4811,8 +5188,8 @@
         "/service-areas/des-plaines-il/",
         "/service-areas/des-plaines-il/fire-damage-restoration/",
         "/service-areas/des-plaines-il/mold-remediation/",
+        "/service-areas/bedford-park-il/water-cleanup/",
         "/service-areas/berwyn-il/water-cleanup/",
-        "/service-areas/cicero-il/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4855,8 +5232,8 @@
         "/service-areas/des-plaines-il/",
         "/service-areas/des-plaines-il/fire-damage-restoration/",
         "/service-areas/des-plaines-il/mold-remediation/",
+        "/service-areas/bedford-park-il/flood-damage-restoration/",
         "/service-areas/berwyn-il/flood-damage-restoration/",
-        "/service-areas/cicero-il/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4899,8 +5276,8 @@
         "/service-areas/des-plaines-il/",
         "/service-areas/des-plaines-il/fire-damage-restoration/",
         "/service-areas/des-plaines-il/mold-remediation/",
+        "/service-areas/bedford-park-il/burst-pipe-repair/",
         "/service-areas/berwyn-il/burst-pipe-repair/",
-        "/service-areas/cicero-il/burst-pipe-repair/",
         "/contact/"
       ]
     },
@@ -4943,8 +5320,8 @@
         "/service-areas/des-plaines-il/",
         "/service-areas/des-plaines-il/fire-damage-restoration/",
         "/service-areas/des-plaines-il/mold-remediation/",
+        "/service-areas/bedford-park-il/basement-flooding-cleanup/",
         "/service-areas/berwyn-il/basement-flooding-cleanup/",
-        "/service-areas/cicero-il/basement-flooding-cleanup/",
         "/contact/"
       ]
     },
@@ -4987,8 +5364,8 @@
         "/service-areas/des-plaines-il/",
         "/service-areas/des-plaines-il/fire-damage-restoration/",
         "/service-areas/des-plaines-il/mold-remediation/",
+        "/service-areas/bedford-park-il/sewage-cleanup/",
         "/service-areas/berwyn-il/sewage-cleanup/",
-        "/service-areas/cicero-il/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -5031,8 +5408,8 @@
         "/service-areas/des-plaines-il/",
         "/service-areas/des-plaines-il/fire-damage-restoration/",
         "/service-areas/des-plaines-il/mold-remediation/",
+        "/service-areas/bedford-park-il/smoke-damage-restoration/",
         "/service-areas/berwyn-il/smoke-damage-restoration/",
-        "/service-areas/cicero-il/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5075,8 +5452,8 @@
         "/service-areas/des-plaines-il/",
         "/service-areas/des-plaines-il/fire-damage-restoration/",
         "/service-areas/des-plaines-il/mold-remediation/",
+        "/service-areas/bedford-park-il/odor-removal/",
         "/service-areas/berwyn-il/odor-removal/",
-        "/service-areas/cicero-il/odor-removal/",
         "/contact/"
       ]
     },
@@ -5119,8 +5496,8 @@
         "/service-areas/des-plaines-il/",
         "/service-areas/des-plaines-il/fire-damage-restoration/",
         "/service-areas/des-plaines-il/mold-remediation/",
+        "/service-areas/bedford-park-il/storm-damage-restoration/",
         "/service-areas/berwyn-il/storm-damage-restoration/",
-        "/service-areas/cicero-il/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5163,8 +5540,8 @@
         "/service-areas/des-plaines-il/",
         "/service-areas/des-plaines-il/fire-damage-restoration/",
         "/service-areas/des-plaines-il/mold-remediation/",
+        "/service-areas/bedford-park-il/emergency-board-up-tarping/",
         "/service-areas/berwyn-il/emergency-board-up-tarping/",
-        "/service-areas/cicero-il/emergency-board-up-tarping/",
         "/contact/"
       ]
     },
@@ -5207,8 +5584,3446 @@
         "/service-areas/des-plaines-il/",
         "/service-areas/des-plaines-il/fire-damage-restoration/",
         "/service-areas/des-plaines-il/mold-remediation/",
+        "/service-areas/bedford-park-il/contents-restoration/",
+        "/service-areas/berwyn-il/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/stickney-il/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Stickney, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Water Damage Restoration in Stickney",
+      "meta_description": "24/7 water damage restoration in Stickney, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "water damage restoration stickney",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/stickney-il/",
+        "/service-areas/stickney-il/fire-damage-restoration/",
+        "/service-areas/stickney-il/mold-remediation/",
+        "/service-areas/bedford-park-il/water-damage-restoration/",
+        "/service-areas/berwyn-il/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/stickney-il/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Stickney, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Fire Damage Restoration in Stickney",
+      "meta_description": "24/7 fire damage restoration in Stickney, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "fire damage restoration stickney",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/stickney-il/",
+        "/service-areas/stickney-il/mold-remediation/",
+        "/service-areas/stickney-il/water-damage-restoration/",
+        "/service-areas/bedford-park-il/fire-damage-restoration/",
+        "/service-areas/berwyn-il/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/stickney-il/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Stickney, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Mold Remediation in Stickney",
+      "meta_description": "24/7 mold remediation in Stickney, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "mold remediation stickney",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/stickney-il/",
+        "/service-areas/stickney-il/fire-damage-restoration/",
+        "/service-areas/stickney-il/water-damage-restoration/",
+        "/service-areas/bedford-park-il/mold-remediation/",
+        "/service-areas/berwyn-il/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/stickney-il/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Stickney, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Emergency Water Cleanup in Stickney",
+      "meta_description": "24/7 emergency water cleanup in Stickney, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "emergency water cleanup stickney",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/stickney-il/",
+        "/service-areas/stickney-il/fire-damage-restoration/",
+        "/service-areas/stickney-il/mold-remediation/",
+        "/service-areas/bedford-park-il/water-cleanup/",
+        "/service-areas/berwyn-il/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/stickney-il/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Stickney, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Flood Damage Restoration in Stickney",
+      "meta_description": "24/7 flood damage restoration in Stickney, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "flood damage restoration stickney",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/stickney-il/",
+        "/service-areas/stickney-il/fire-damage-restoration/",
+        "/service-areas/stickney-il/mold-remediation/",
+        "/service-areas/bedford-park-il/flood-damage-restoration/",
+        "/service-areas/berwyn-il/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/stickney-il/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Stickney, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Burst Pipe Cleanup and Repair in Stickney",
+      "meta_description": "24/7 burst pipe cleanup and repair in Stickney, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "burst pipe cleanup and repair stickney",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/stickney-il/",
+        "/service-areas/stickney-il/fire-damage-restoration/",
+        "/service-areas/stickney-il/mold-remediation/",
+        "/service-areas/bedford-park-il/burst-pipe-repair/",
+        "/service-areas/berwyn-il/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/stickney-il/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in Stickney, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Basement Flooding Cleanup in Stickney",
+      "meta_description": "24/7 basement flooding cleanup in Stickney, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "basement flooding cleanup stickney",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/stickney-il/",
+        "/service-areas/stickney-il/fire-damage-restoration/",
+        "/service-areas/stickney-il/mold-remediation/",
+        "/service-areas/bedford-park-il/basement-flooding-cleanup/",
+        "/service-areas/berwyn-il/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/stickney-il/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Stickney, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Stickney",
+      "meta_description": "24/7 sewage cleanup and sanitization in Stickney, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "sewage cleanup and sanitization stickney",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/stickney-il/",
+        "/service-areas/stickney-il/fire-damage-restoration/",
+        "/service-areas/stickney-il/mold-remediation/",
+        "/service-areas/bedford-park-il/sewage-cleanup/",
+        "/service-areas/berwyn-il/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/stickney-il/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Stickney, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Smoke Damage Restoration in Stickney",
+      "meta_description": "24/7 smoke damage restoration in Stickney, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "smoke damage restoration stickney",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/stickney-il/",
+        "/service-areas/stickney-il/fire-damage-restoration/",
+        "/service-areas/stickney-il/mold-remediation/",
+        "/service-areas/bedford-park-il/smoke-damage-restoration/",
+        "/service-areas/berwyn-il/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/stickney-il/odor-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Odor Removal and Deodorization in Stickney, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Odor Removal and Deodorization in Stickney",
+      "meta_description": "24/7 odor removal and deodorization in Stickney, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "odor removal and deodorization stickney",
+      "secondary_keywords": [
+        "smoke odor removal",
+        "ozone treatment",
+        "hydroxyl deodorization",
+        "thermal fogging",
+        "professional odor elimination"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/odor-removal/",
+        "/service-areas/stickney-il/",
+        "/service-areas/stickney-il/fire-damage-restoration/",
+        "/service-areas/stickney-il/mold-remediation/",
+        "/service-areas/bedford-park-il/odor-removal/",
+        "/service-areas/berwyn-il/odor-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/stickney-il/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Stickney, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Storm Damage Restoration in Stickney",
+      "meta_description": "24/7 storm damage restoration in Stickney, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "storm damage restoration stickney",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/stickney-il/",
+        "/service-areas/stickney-il/fire-damage-restoration/",
+        "/service-areas/stickney-il/mold-remediation/",
+        "/service-areas/bedford-park-il/storm-damage-restoration/",
+        "/service-areas/berwyn-il/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/stickney-il/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Stickney, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Emergency Board-Up and Tarping in Stickney",
+      "meta_description": "24/7 emergency board-up and tarping in Stickney, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "emergency board-up and tarping stickney",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/stickney-il/",
+        "/service-areas/stickney-il/fire-damage-restoration/",
+        "/service-areas/stickney-il/mold-remediation/",
+        "/service-areas/bedford-park-il/emergency-board-up-tarping/",
+        "/service-areas/berwyn-il/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/stickney-il/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Stickney, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Contents Restoration and Storage in Stickney",
+      "meta_description": "24/7 contents restoration and storage in Stickney, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "contents restoration and storage stickney",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/stickney-il/",
+        "/service-areas/stickney-il/fire-damage-restoration/",
+        "/service-areas/stickney-il/mold-remediation/",
+        "/service-areas/bedford-park-il/contents-restoration/",
+        "/service-areas/berwyn-il/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bedford-park-il/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Bedford Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Water Damage Restoration in Bedford Park",
+      "meta_description": "24/7 water damage restoration in Bedford Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "water damage restoration bedford park",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/bedford-park-il/",
+        "/service-areas/bedford-park-il/fire-damage-restoration/",
+        "/service-areas/bedford-park-il/mold-remediation/",
+        "/service-areas/berwyn-il/water-damage-restoration/",
+        "/service-areas/cicero-il/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bedford-park-il/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Bedford Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Fire Damage Restoration in Bedford Park",
+      "meta_description": "24/7 fire damage restoration in Bedford Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "fire damage restoration bedford park",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/bedford-park-il/",
+        "/service-areas/bedford-park-il/mold-remediation/",
+        "/service-areas/bedford-park-il/water-damage-restoration/",
+        "/service-areas/berwyn-il/fire-damage-restoration/",
+        "/service-areas/cicero-il/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bedford-park-il/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Bedford Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Mold Remediation in Bedford Park",
+      "meta_description": "24/7 mold remediation in Bedford Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "mold remediation bedford park",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/bedford-park-il/",
+        "/service-areas/bedford-park-il/fire-damage-restoration/",
+        "/service-areas/bedford-park-il/water-damage-restoration/",
+        "/service-areas/berwyn-il/mold-remediation/",
+        "/service-areas/cicero-il/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bedford-park-il/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Bedford Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Emergency Water Cleanup in Bedford Park",
+      "meta_description": "24/7 emergency water cleanup in Bedford Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "emergency water cleanup bedford park",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/bedford-park-il/",
+        "/service-areas/bedford-park-il/fire-damage-restoration/",
+        "/service-areas/bedford-park-il/mold-remediation/",
+        "/service-areas/berwyn-il/water-cleanup/",
+        "/service-areas/cicero-il/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bedford-park-il/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Bedford Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Flood Damage Restoration in Bedford Park",
+      "meta_description": "24/7 flood damage restoration in Bedford Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "flood damage restoration bedford park",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/bedford-park-il/",
+        "/service-areas/bedford-park-il/fire-damage-restoration/",
+        "/service-areas/bedford-park-il/mold-remediation/",
+        "/service-areas/berwyn-il/flood-damage-restoration/",
+        "/service-areas/cicero-il/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bedford-park-il/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Bedford Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Burst Pipe Cleanup and Repair in Bedford Park",
+      "meta_description": "24/7 burst pipe cleanup and repair in Bedford Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "burst pipe cleanup and repair bedford park",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/bedford-park-il/",
+        "/service-areas/bedford-park-il/fire-damage-restoration/",
+        "/service-areas/bedford-park-il/mold-remediation/",
+        "/service-areas/berwyn-il/burst-pipe-repair/",
+        "/service-areas/cicero-il/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bedford-park-il/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in Bedford Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Basement Flooding Cleanup in Bedford Park",
+      "meta_description": "24/7 basement flooding cleanup in Bedford Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "basement flooding cleanup bedford park",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/bedford-park-il/",
+        "/service-areas/bedford-park-il/fire-damage-restoration/",
+        "/service-areas/bedford-park-il/mold-remediation/",
+        "/service-areas/berwyn-il/basement-flooding-cleanup/",
+        "/service-areas/cicero-il/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bedford-park-il/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Bedford Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Bedford Park",
+      "meta_description": "24/7 sewage cleanup and sanitization in Bedford Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "sewage cleanup and sanitization bedford park",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/bedford-park-il/",
+        "/service-areas/bedford-park-il/fire-damage-restoration/",
+        "/service-areas/bedford-park-il/mold-remediation/",
+        "/service-areas/berwyn-il/sewage-cleanup/",
+        "/service-areas/cicero-il/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bedford-park-il/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Bedford Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Smoke Damage Restoration in Bedford Park",
+      "meta_description": "24/7 smoke damage restoration in Bedford Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "smoke damage restoration bedford park",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/bedford-park-il/",
+        "/service-areas/bedford-park-il/fire-damage-restoration/",
+        "/service-areas/bedford-park-il/mold-remediation/",
+        "/service-areas/berwyn-il/smoke-damage-restoration/",
+        "/service-areas/cicero-il/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bedford-park-il/odor-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Odor Removal and Deodorization in Bedford Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Odor Removal and Deodorization in Bedford Park",
+      "meta_description": "24/7 odor removal and deodorization in Bedford Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "odor removal and deodorization bedford park",
+      "secondary_keywords": [
+        "smoke odor removal",
+        "ozone treatment",
+        "hydroxyl deodorization",
+        "thermal fogging",
+        "professional odor elimination"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/odor-removal/",
+        "/service-areas/bedford-park-il/",
+        "/service-areas/bedford-park-il/fire-damage-restoration/",
+        "/service-areas/bedford-park-il/mold-remediation/",
+        "/service-areas/berwyn-il/odor-removal/",
+        "/service-areas/cicero-il/odor-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bedford-park-il/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Bedford Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Storm Damage Restoration in Bedford Park",
+      "meta_description": "24/7 storm damage restoration in Bedford Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "storm damage restoration bedford park",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/bedford-park-il/",
+        "/service-areas/bedford-park-il/fire-damage-restoration/",
+        "/service-areas/bedford-park-il/mold-remediation/",
+        "/service-areas/berwyn-il/storm-damage-restoration/",
+        "/service-areas/cicero-il/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bedford-park-il/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Bedford Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Emergency Board-Up and Tarping in Bedford Park",
+      "meta_description": "24/7 emergency board-up and tarping in Bedford Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "emergency board-up and tarping bedford park",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/bedford-park-il/",
+        "/service-areas/bedford-park-il/fire-damage-restoration/",
+        "/service-areas/bedford-park-il/mold-remediation/",
+        "/service-areas/berwyn-il/emergency-board-up-tarping/",
+        "/service-areas/cicero-il/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bedford-park-il/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Bedford Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Contents Restoration and Storage in Bedford Park",
+      "meta_description": "24/7 contents restoration and storage in Bedford Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "contents restoration and storage bedford park",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/bedford-park-il/",
+        "/service-areas/bedford-park-il/fire-damage-restoration/",
+        "/service-areas/bedford-park-il/mold-remediation/",
         "/service-areas/berwyn-il/contents-restoration/",
         "/service-areas/cicero-il/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lincolnwood-il/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Lincolnwood, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Water Damage Restoration in Lincolnwood",
+      "meta_description": "24/7 water damage restoration in Lincolnwood, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "water damage restoration lincolnwood",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/lincolnwood-il/",
+        "/service-areas/lincolnwood-il/fire-damage-restoration/",
+        "/service-areas/lincolnwood-il/mold-remediation/",
+        "/service-areas/bedford-park-il/water-damage-restoration/",
+        "/service-areas/berwyn-il/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lincolnwood-il/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Lincolnwood, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Fire Damage Restoration in Lincolnwood",
+      "meta_description": "24/7 fire damage restoration in Lincolnwood, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "fire damage restoration lincolnwood",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/lincolnwood-il/",
+        "/service-areas/lincolnwood-il/mold-remediation/",
+        "/service-areas/lincolnwood-il/water-damage-restoration/",
+        "/service-areas/bedford-park-il/fire-damage-restoration/",
+        "/service-areas/berwyn-il/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lincolnwood-il/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Lincolnwood, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Mold Remediation in Lincolnwood",
+      "meta_description": "24/7 mold remediation in Lincolnwood, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "mold remediation lincolnwood",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/lincolnwood-il/",
+        "/service-areas/lincolnwood-il/fire-damage-restoration/",
+        "/service-areas/lincolnwood-il/water-damage-restoration/",
+        "/service-areas/bedford-park-il/mold-remediation/",
+        "/service-areas/berwyn-il/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lincolnwood-il/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Lincolnwood, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Emergency Water Cleanup in Lincolnwood",
+      "meta_description": "24/7 emergency water cleanup in Lincolnwood, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "emergency water cleanup lincolnwood",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/lincolnwood-il/",
+        "/service-areas/lincolnwood-il/fire-damage-restoration/",
+        "/service-areas/lincolnwood-il/mold-remediation/",
+        "/service-areas/bedford-park-il/water-cleanup/",
+        "/service-areas/berwyn-il/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lincolnwood-il/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Lincolnwood, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Flood Damage Restoration in Lincolnwood",
+      "meta_description": "24/7 flood damage restoration in Lincolnwood, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "flood damage restoration lincolnwood",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/lincolnwood-il/",
+        "/service-areas/lincolnwood-il/fire-damage-restoration/",
+        "/service-areas/lincolnwood-il/mold-remediation/",
+        "/service-areas/bedford-park-il/flood-damage-restoration/",
+        "/service-areas/berwyn-il/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lincolnwood-il/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Lincolnwood, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Burst Pipe Cleanup and Repair in Lincolnwood",
+      "meta_description": "24/7 burst pipe cleanup and repair in Lincolnwood, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "burst pipe cleanup and repair lincolnwood",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/lincolnwood-il/",
+        "/service-areas/lincolnwood-il/fire-damage-restoration/",
+        "/service-areas/lincolnwood-il/mold-remediation/",
+        "/service-areas/bedford-park-il/burst-pipe-repair/",
+        "/service-areas/berwyn-il/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lincolnwood-il/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in Lincolnwood, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Basement Flooding Cleanup in Lincolnwood",
+      "meta_description": "24/7 basement flooding cleanup in Lincolnwood, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "basement flooding cleanup lincolnwood",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/lincolnwood-il/",
+        "/service-areas/lincolnwood-il/fire-damage-restoration/",
+        "/service-areas/lincolnwood-il/mold-remediation/",
+        "/service-areas/bedford-park-il/basement-flooding-cleanup/",
+        "/service-areas/berwyn-il/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lincolnwood-il/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Lincolnwood, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Lincolnwood",
+      "meta_description": "24/7 sewage cleanup and sanitization in Lincolnwood, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "sewage cleanup and sanitization lincolnwood",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/lincolnwood-il/",
+        "/service-areas/lincolnwood-il/fire-damage-restoration/",
+        "/service-areas/lincolnwood-il/mold-remediation/",
+        "/service-areas/bedford-park-il/sewage-cleanup/",
+        "/service-areas/berwyn-il/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lincolnwood-il/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Lincolnwood, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Smoke Damage Restoration in Lincolnwood",
+      "meta_description": "24/7 smoke damage restoration in Lincolnwood, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "smoke damage restoration lincolnwood",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/lincolnwood-il/",
+        "/service-areas/lincolnwood-il/fire-damage-restoration/",
+        "/service-areas/lincolnwood-il/mold-remediation/",
+        "/service-areas/bedford-park-il/smoke-damage-restoration/",
+        "/service-areas/berwyn-il/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lincolnwood-il/odor-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Odor Removal and Deodorization in Lincolnwood, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Odor Removal and Deodorization in Lincolnwood",
+      "meta_description": "24/7 odor removal and deodorization in Lincolnwood, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "odor removal and deodorization lincolnwood",
+      "secondary_keywords": [
+        "smoke odor removal",
+        "ozone treatment",
+        "hydroxyl deodorization",
+        "thermal fogging",
+        "professional odor elimination"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/odor-removal/",
+        "/service-areas/lincolnwood-il/",
+        "/service-areas/lincolnwood-il/fire-damage-restoration/",
+        "/service-areas/lincolnwood-il/mold-remediation/",
+        "/service-areas/bedford-park-il/odor-removal/",
+        "/service-areas/berwyn-il/odor-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lincolnwood-il/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Lincolnwood, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Storm Damage Restoration in Lincolnwood",
+      "meta_description": "24/7 storm damage restoration in Lincolnwood, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "storm damage restoration lincolnwood",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/lincolnwood-il/",
+        "/service-areas/lincolnwood-il/fire-damage-restoration/",
+        "/service-areas/lincolnwood-il/mold-remediation/",
+        "/service-areas/bedford-park-il/storm-damage-restoration/",
+        "/service-areas/berwyn-il/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lincolnwood-il/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Lincolnwood, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Emergency Board-Up and Tarping in Lincolnwood",
+      "meta_description": "24/7 emergency board-up and tarping in Lincolnwood, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "emergency board-up and tarping lincolnwood",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/lincolnwood-il/",
+        "/service-areas/lincolnwood-il/fire-damage-restoration/",
+        "/service-areas/lincolnwood-il/mold-remediation/",
+        "/service-areas/bedford-park-il/emergency-board-up-tarping/",
+        "/service-areas/berwyn-il/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lincolnwood-il/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Lincolnwood, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Contents Restoration and Storage in Lincolnwood",
+      "meta_description": "24/7 contents restoration and storage in Lincolnwood, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "contents restoration and storage lincolnwood",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/lincolnwood-il/",
+        "/service-areas/lincolnwood-il/fire-damage-restoration/",
+        "/service-areas/lincolnwood-il/mold-remediation/",
+        "/service-areas/bedford-park-il/contents-restoration/",
+        "/service-areas/berwyn-il/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/river-forest-il/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in River Forest, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Water Damage Restoration in River Forest",
+      "meta_description": "24/7 water damage restoration in River Forest, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "water damage restoration river forest",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/river-forest-il/",
+        "/service-areas/river-forest-il/fire-damage-restoration/",
+        "/service-areas/river-forest-il/mold-remediation/",
+        "/service-areas/bedford-park-il/water-damage-restoration/",
+        "/service-areas/berwyn-il/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/river-forest-il/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in River Forest, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Fire Damage Restoration in River Forest",
+      "meta_description": "24/7 fire damage restoration in River Forest, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "fire damage restoration river forest",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/river-forest-il/",
+        "/service-areas/river-forest-il/mold-remediation/",
+        "/service-areas/river-forest-il/water-damage-restoration/",
+        "/service-areas/bedford-park-il/fire-damage-restoration/",
+        "/service-areas/berwyn-il/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/river-forest-il/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in River Forest, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Mold Remediation in River Forest",
+      "meta_description": "24/7 mold remediation in River Forest, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "mold remediation river forest",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/river-forest-il/",
+        "/service-areas/river-forest-il/fire-damage-restoration/",
+        "/service-areas/river-forest-il/water-damage-restoration/",
+        "/service-areas/bedford-park-il/mold-remediation/",
+        "/service-areas/berwyn-il/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/river-forest-il/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in River Forest, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Emergency Water Cleanup in River Forest",
+      "meta_description": "24/7 emergency water cleanup in River Forest, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "emergency water cleanup river forest",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/river-forest-il/",
+        "/service-areas/river-forest-il/fire-damage-restoration/",
+        "/service-areas/river-forest-il/mold-remediation/",
+        "/service-areas/bedford-park-il/water-cleanup/",
+        "/service-areas/berwyn-il/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/river-forest-il/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in River Forest, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Flood Damage Restoration in River Forest",
+      "meta_description": "24/7 flood damage restoration in River Forest, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "flood damage restoration river forest",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/river-forest-il/",
+        "/service-areas/river-forest-il/fire-damage-restoration/",
+        "/service-areas/river-forest-il/mold-remediation/",
+        "/service-areas/bedford-park-il/flood-damage-restoration/",
+        "/service-areas/berwyn-il/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/river-forest-il/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in River Forest, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Burst Pipe Cleanup and Repair in River Forest",
+      "meta_description": "24/7 burst pipe cleanup and repair in River Forest, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "burst pipe cleanup and repair river forest",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/river-forest-il/",
+        "/service-areas/river-forest-il/fire-damage-restoration/",
+        "/service-areas/river-forest-il/mold-remediation/",
+        "/service-areas/bedford-park-il/burst-pipe-repair/",
+        "/service-areas/berwyn-il/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/river-forest-il/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in River Forest, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Basement Flooding Cleanup in River Forest",
+      "meta_description": "24/7 basement flooding cleanup in River Forest, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "basement flooding cleanup river forest",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/river-forest-il/",
+        "/service-areas/river-forest-il/fire-damage-restoration/",
+        "/service-areas/river-forest-il/mold-remediation/",
+        "/service-areas/bedford-park-il/basement-flooding-cleanup/",
+        "/service-areas/berwyn-il/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/river-forest-il/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in River Forest, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Sewage Cleanup and Sanitization in River Forest",
+      "meta_description": "24/7 sewage cleanup and sanitization in River Forest, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "sewage cleanup and sanitization river forest",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/river-forest-il/",
+        "/service-areas/river-forest-il/fire-damage-restoration/",
+        "/service-areas/river-forest-il/mold-remediation/",
+        "/service-areas/bedford-park-il/sewage-cleanup/",
+        "/service-areas/berwyn-il/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/river-forest-il/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in River Forest, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Smoke Damage Restoration in River Forest",
+      "meta_description": "24/7 smoke damage restoration in River Forest, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "smoke damage restoration river forest",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/river-forest-il/",
+        "/service-areas/river-forest-il/fire-damage-restoration/",
+        "/service-areas/river-forest-il/mold-remediation/",
+        "/service-areas/bedford-park-il/smoke-damage-restoration/",
+        "/service-areas/berwyn-il/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/river-forest-il/odor-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Odor Removal and Deodorization in River Forest, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Odor Removal and Deodorization in River Forest",
+      "meta_description": "24/7 odor removal and deodorization in River Forest, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "odor removal and deodorization river forest",
+      "secondary_keywords": [
+        "smoke odor removal",
+        "ozone treatment",
+        "hydroxyl deodorization",
+        "thermal fogging",
+        "professional odor elimination"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/odor-removal/",
+        "/service-areas/river-forest-il/",
+        "/service-areas/river-forest-il/fire-damage-restoration/",
+        "/service-areas/river-forest-il/mold-remediation/",
+        "/service-areas/bedford-park-il/odor-removal/",
+        "/service-areas/berwyn-il/odor-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/river-forest-il/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in River Forest, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Storm Damage Restoration in River Forest",
+      "meta_description": "24/7 storm damage restoration in River Forest, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "storm damage restoration river forest",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/river-forest-il/",
+        "/service-areas/river-forest-il/fire-damage-restoration/",
+        "/service-areas/river-forest-il/mold-remediation/",
+        "/service-areas/bedford-park-il/storm-damage-restoration/",
+        "/service-areas/berwyn-il/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/river-forest-il/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in River Forest, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Emergency Board-Up and Tarping in River Forest",
+      "meta_description": "24/7 emergency board-up and tarping in River Forest, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "emergency board-up and tarping river forest",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/river-forest-il/",
+        "/service-areas/river-forest-il/fire-damage-restoration/",
+        "/service-areas/river-forest-il/mold-remediation/",
+        "/service-areas/bedford-park-il/emergency-board-up-tarping/",
+        "/service-areas/berwyn-il/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/river-forest-il/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in River Forest, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Contents Restoration and Storage in River Forest",
+      "meta_description": "24/7 contents restoration and storage in River Forest, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "contents restoration and storage river forest",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/river-forest-il/",
+        "/service-areas/river-forest-il/fire-damage-restoration/",
+        "/service-areas/river-forest-il/mold-remediation/",
+        "/service-areas/bedford-park-il/contents-restoration/",
+        "/service-areas/berwyn-il/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/forest-park-il/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Forest Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Water Damage Restoration in Forest Park",
+      "meta_description": "24/7 water damage restoration in Forest Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "water damage restoration forest park",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/forest-park-il/",
+        "/service-areas/forest-park-il/fire-damage-restoration/",
+        "/service-areas/forest-park-il/mold-remediation/",
+        "/service-areas/bedford-park-il/water-damage-restoration/",
+        "/service-areas/berwyn-il/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/forest-park-il/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Forest Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Fire Damage Restoration in Forest Park",
+      "meta_description": "24/7 fire damage restoration in Forest Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "fire damage restoration forest park",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/forest-park-il/",
+        "/service-areas/forest-park-il/mold-remediation/",
+        "/service-areas/forest-park-il/water-damage-restoration/",
+        "/service-areas/bedford-park-il/fire-damage-restoration/",
+        "/service-areas/berwyn-il/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/forest-park-il/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Forest Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Mold Remediation in Forest Park",
+      "meta_description": "24/7 mold remediation in Forest Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "mold remediation forest park",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/forest-park-il/",
+        "/service-areas/forest-park-il/fire-damage-restoration/",
+        "/service-areas/forest-park-il/water-damage-restoration/",
+        "/service-areas/bedford-park-il/mold-remediation/",
+        "/service-areas/berwyn-il/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/forest-park-il/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Forest Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Emergency Water Cleanup in Forest Park",
+      "meta_description": "24/7 emergency water cleanup in Forest Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "emergency water cleanup forest park",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/forest-park-il/",
+        "/service-areas/forest-park-il/fire-damage-restoration/",
+        "/service-areas/forest-park-il/mold-remediation/",
+        "/service-areas/bedford-park-il/water-cleanup/",
+        "/service-areas/berwyn-il/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/forest-park-il/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Forest Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Flood Damage Restoration in Forest Park",
+      "meta_description": "24/7 flood damage restoration in Forest Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "flood damage restoration forest park",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/forest-park-il/",
+        "/service-areas/forest-park-il/fire-damage-restoration/",
+        "/service-areas/forest-park-il/mold-remediation/",
+        "/service-areas/bedford-park-il/flood-damage-restoration/",
+        "/service-areas/berwyn-il/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/forest-park-il/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Forest Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Burst Pipe Cleanup and Repair in Forest Park",
+      "meta_description": "24/7 burst pipe cleanup and repair in Forest Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "burst pipe cleanup and repair forest park",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/forest-park-il/",
+        "/service-areas/forest-park-il/fire-damage-restoration/",
+        "/service-areas/forest-park-il/mold-remediation/",
+        "/service-areas/bedford-park-il/burst-pipe-repair/",
+        "/service-areas/berwyn-il/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/forest-park-il/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in Forest Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Basement Flooding Cleanup in Forest Park",
+      "meta_description": "24/7 basement flooding cleanup in Forest Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "basement flooding cleanup forest park",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/forest-park-il/",
+        "/service-areas/forest-park-il/fire-damage-restoration/",
+        "/service-areas/forest-park-il/mold-remediation/",
+        "/service-areas/bedford-park-il/basement-flooding-cleanup/",
+        "/service-areas/berwyn-il/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/forest-park-il/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Forest Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Forest Park",
+      "meta_description": "24/7 sewage cleanup and sanitization in Forest Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "sewage cleanup and sanitization forest park",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/forest-park-il/",
+        "/service-areas/forest-park-il/fire-damage-restoration/",
+        "/service-areas/forest-park-il/mold-remediation/",
+        "/service-areas/bedford-park-il/sewage-cleanup/",
+        "/service-areas/berwyn-il/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/forest-park-il/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Forest Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Smoke Damage Restoration in Forest Park",
+      "meta_description": "24/7 smoke damage restoration in Forest Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "smoke damage restoration forest park",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/forest-park-il/",
+        "/service-areas/forest-park-il/fire-damage-restoration/",
+        "/service-areas/forest-park-il/mold-remediation/",
+        "/service-areas/bedford-park-il/smoke-damage-restoration/",
+        "/service-areas/berwyn-il/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/forest-park-il/odor-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Odor Removal and Deodorization in Forest Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Odor Removal and Deodorization in Forest Park",
+      "meta_description": "24/7 odor removal and deodorization in Forest Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "odor removal and deodorization forest park",
+      "secondary_keywords": [
+        "smoke odor removal",
+        "ozone treatment",
+        "hydroxyl deodorization",
+        "thermal fogging",
+        "professional odor elimination"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/odor-removal/",
+        "/service-areas/forest-park-il/",
+        "/service-areas/forest-park-il/fire-damage-restoration/",
+        "/service-areas/forest-park-il/mold-remediation/",
+        "/service-areas/bedford-park-il/odor-removal/",
+        "/service-areas/berwyn-il/odor-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/forest-park-il/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Forest Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Storm Damage Restoration in Forest Park",
+      "meta_description": "24/7 storm damage restoration in Forest Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "storm damage restoration forest park",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/forest-park-il/",
+        "/service-areas/forest-park-il/fire-damage-restoration/",
+        "/service-areas/forest-park-il/mold-remediation/",
+        "/service-areas/bedford-park-il/storm-damage-restoration/",
+        "/service-areas/berwyn-il/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/forest-park-il/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Forest Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Emergency Board-Up and Tarping in Forest Park",
+      "meta_description": "24/7 emergency board-up and tarping in Forest Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "emergency board-up and tarping forest park",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/forest-park-il/",
+        "/service-areas/forest-park-il/fire-damage-restoration/",
+        "/service-areas/forest-park-il/mold-remediation/",
+        "/service-areas/bedford-park-il/emergency-board-up-tarping/",
+        "/service-areas/berwyn-il/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/forest-park-il/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Forest Park, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Contents Restoration and Storage in Forest Park",
+      "meta_description": "24/7 contents restoration and storage in Forest Park, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "contents restoration and storage forest park",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/forest-park-il/",
+        "/service-areas/forest-park-il/fire-damage-restoration/",
+        "/service-areas/forest-park-il/mold-remediation/",
+        "/service-areas/bedford-park-il/contents-restoration/",
+        "/service-areas/berwyn-il/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lyons-il/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Lyons, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Water Damage Restoration in Lyons",
+      "meta_description": "24/7 water damage restoration in Lyons, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "water damage restoration lyons",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/lyons-il/",
+        "/service-areas/lyons-il/fire-damage-restoration/",
+        "/service-areas/lyons-il/mold-remediation/",
+        "/service-areas/bedford-park-il/water-damage-restoration/",
+        "/service-areas/berwyn-il/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lyons-il/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Lyons, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Fire Damage Restoration in Lyons",
+      "meta_description": "24/7 fire damage restoration in Lyons, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "fire damage restoration lyons",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/lyons-il/",
+        "/service-areas/lyons-il/mold-remediation/",
+        "/service-areas/lyons-il/water-damage-restoration/",
+        "/service-areas/bedford-park-il/fire-damage-restoration/",
+        "/service-areas/berwyn-il/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lyons-il/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Lyons, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Mold Remediation in Lyons",
+      "meta_description": "24/7 mold remediation in Lyons, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "mold remediation lyons",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/lyons-il/",
+        "/service-areas/lyons-il/fire-damage-restoration/",
+        "/service-areas/lyons-il/water-damage-restoration/",
+        "/service-areas/bedford-park-il/mold-remediation/",
+        "/service-areas/berwyn-il/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lyons-il/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Lyons, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Emergency Water Cleanup in Lyons",
+      "meta_description": "24/7 emergency water cleanup in Lyons, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "emergency water cleanup lyons",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/lyons-il/",
+        "/service-areas/lyons-il/fire-damage-restoration/",
+        "/service-areas/lyons-il/mold-remediation/",
+        "/service-areas/bedford-park-il/water-cleanup/",
+        "/service-areas/berwyn-il/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lyons-il/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Lyons, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Flood Damage Restoration in Lyons",
+      "meta_description": "24/7 flood damage restoration in Lyons, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "flood damage restoration lyons",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/lyons-il/",
+        "/service-areas/lyons-il/fire-damage-restoration/",
+        "/service-areas/lyons-il/mold-remediation/",
+        "/service-areas/bedford-park-il/flood-damage-restoration/",
+        "/service-areas/berwyn-il/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lyons-il/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Lyons, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Burst Pipe Cleanup and Repair in Lyons",
+      "meta_description": "24/7 burst pipe cleanup and repair in Lyons, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "burst pipe cleanup and repair lyons",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/lyons-il/",
+        "/service-areas/lyons-il/fire-damage-restoration/",
+        "/service-areas/lyons-il/mold-remediation/",
+        "/service-areas/bedford-park-il/burst-pipe-repair/",
+        "/service-areas/berwyn-il/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lyons-il/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in Lyons, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Basement Flooding Cleanup in Lyons",
+      "meta_description": "24/7 basement flooding cleanup in Lyons, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "basement flooding cleanup lyons",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/lyons-il/",
+        "/service-areas/lyons-il/fire-damage-restoration/",
+        "/service-areas/lyons-il/mold-remediation/",
+        "/service-areas/bedford-park-il/basement-flooding-cleanup/",
+        "/service-areas/berwyn-il/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lyons-il/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Lyons, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Lyons",
+      "meta_description": "24/7 sewage cleanup and sanitization in Lyons, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "sewage cleanup and sanitization lyons",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/lyons-il/",
+        "/service-areas/lyons-il/fire-damage-restoration/",
+        "/service-areas/lyons-il/mold-remediation/",
+        "/service-areas/bedford-park-il/sewage-cleanup/",
+        "/service-areas/berwyn-il/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lyons-il/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Lyons, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Smoke Damage Restoration in Lyons",
+      "meta_description": "24/7 smoke damage restoration in Lyons, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "smoke damage restoration lyons",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/lyons-il/",
+        "/service-areas/lyons-il/fire-damage-restoration/",
+        "/service-areas/lyons-il/mold-remediation/",
+        "/service-areas/bedford-park-il/smoke-damage-restoration/",
+        "/service-areas/berwyn-il/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lyons-il/odor-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Odor Removal and Deodorization in Lyons, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Odor Removal and Deodorization in Lyons",
+      "meta_description": "24/7 odor removal and deodorization in Lyons, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "odor removal and deodorization lyons",
+      "secondary_keywords": [
+        "smoke odor removal",
+        "ozone treatment",
+        "hydroxyl deodorization",
+        "thermal fogging",
+        "professional odor elimination"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/odor-removal/",
+        "/service-areas/lyons-il/",
+        "/service-areas/lyons-il/fire-damage-restoration/",
+        "/service-areas/lyons-il/mold-remediation/",
+        "/service-areas/bedford-park-il/odor-removal/",
+        "/service-areas/berwyn-il/odor-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lyons-il/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Lyons, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Storm Damage Restoration in Lyons",
+      "meta_description": "24/7 storm damage restoration in Lyons, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "storm damage restoration lyons",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/lyons-il/",
+        "/service-areas/lyons-il/fire-damage-restoration/",
+        "/service-areas/lyons-il/mold-remediation/",
+        "/service-areas/bedford-park-il/storm-damage-restoration/",
+        "/service-areas/berwyn-il/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lyons-il/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Lyons, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Emergency Board-Up and Tarping in Lyons",
+      "meta_description": "24/7 emergency board-up and tarping in Lyons, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "emergency board-up and tarping lyons",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/lyons-il/",
+        "/service-areas/lyons-il/fire-damage-restoration/",
+        "/service-areas/lyons-il/mold-remediation/",
+        "/service-areas/bedford-park-il/emergency-board-up-tarping/",
+        "/service-areas/berwyn-il/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lyons-il/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Lyons, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Contents Restoration and Storage in Lyons",
+      "meta_description": "24/7 contents restoration and storage in Lyons, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "contents restoration and storage lyons",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/lyons-il/",
+        "/service-areas/lyons-il/fire-damage-restoration/",
+        "/service-areas/lyons-il/mold-remediation/",
+        "/service-areas/bedford-park-il/contents-restoration/",
+        "/service-areas/berwyn-il/contents-restoration/",
         "/contact/"
       ]
     },

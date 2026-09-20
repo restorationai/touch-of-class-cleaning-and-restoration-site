@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Insulation Removal & Installation in Spring Hope, NC | Go Green Restoration of NC"
+h1: "Insulation Removal & Installation in Spring Hope"
+meta_description: "24/7 insulation removal & installation in Spring Hope, NC. Insurance billing accepted. Call (919) 906-5473."
+primary_keyword: "insulation removal & installation spring hope"
+secondary_keywords: ["attic insulation removal", "crawl space insulation replacement", "blown-in insulation"]
+search_intent: "local_specialty"
+priority: 3.5
+plan_hash: "3a98562c144a9a4e"
+generated_at: "2026-09-20T14:13:14.687198+00:00"
+manual_override: false
+internal_links: ["/services/insulation-removal-installation/", "/service-areas/spring-hope-nc/", "/service-areas/spring-hope-nc/fire-damage-restoration/", "/service-areas/spring-hope-nc/mold-remediation/", "/service-areas/archer-lodge-nc/insulation-removal-installation/", "/service-areas/clayton-nc/insulation-removal-installation/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Spring Hope", "url": "/service-areas/spring-hope-nc/"}, {"name": "Insulation Removal & Installation"}]
+faq: []
+area_slug: "spring-hope-nc"
+service_slug: "insulation-removal-installation"
+city: "Spring Hope"
+state: "NC"
+service_display: "Insulation Removal & Installation"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug go-green-restoration-of-nc` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Insulation Removal & Installation in Spring Hope.

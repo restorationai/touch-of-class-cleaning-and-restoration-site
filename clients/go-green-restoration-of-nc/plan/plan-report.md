@@ -1,22 +1,22 @@
 # Site Plan Report — Go Green Restoration of NC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-08-10T10:36:12.078319+00:00
+- Generated: 2026-09-20T14:13:14.541637+00:00
 - Domain: `gogreenrestorationofnc.com`
-- Services selected: 7 of 54 catalog entries
-- Service areas: 8
+- Services selected: 8 of 65 catalog entries
+- Service areas: 14
 - Cross-product enabled: True
-- Total URLs: **88**
-- Total internal links: 657 (avg 7.5 per page)
+- Total URLs: **142**
+- Total internal links: 1122 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 56 |
-| `service-area` | 8 |
+| `service-area-service` | 104 |
+| `service-area` | 13 |
+| `service-landing` | 8 |
 | `blog-post` | 8 |
-| `service-landing` | 7 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -34,6 +34,7 @@
 - `air-duct-cleaning` — Air Duct Cleaning (adjacent, priority 5)
 - `carpet-cleaning` — Carpet Cleaning (adjacent, priority 4)
 - `insulation-removal-installation` — Insulation Removal & Installation (adjacent, priority 5)
+- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 
 ## Service areas
 
@@ -45,6 +46,12 @@
 - `smithfield-nc` — Smithfield, NC
 - `wake-forest-nc` — Wake Forest, NC
 - `zebulon-nc` — Zebulon, NC
+- `wendell-nc` — Wendell, NC
+- `archer-lodge-nc` — Archer Lodge, NC
+- `lake-royale-nc` — Lake Royale, NC
+- `spring-hope-nc` — Spring Hope, NC
+- `kenly-nc` — Kenly, NC
+- `clayton-nc` — Clayton, NC
 
 ## Top 10 priority pages
 
@@ -53,13 +60,13 @@
 | `/services/fire-damage-restoration/` | `service-landing` | 9.0 | fire damage restoration middlesex |
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation middlesex |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration middlesex |
-| `/service-areas/middlesex-nc/` | `service-area` | 7.2 | restoration services middlesex |
-| `/service-areas/durham-nc/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration durham |
-| `/service-areas/durham-nc/mold-remediation/` | `service-area-service` | 7.0 | mold remediation durham |
-| `/service-areas/durham-nc/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration durham |
-| `/service-areas/middlesex-nc/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration middlesex |
-| `/service-areas/middlesex-nc/mold-remediation/` | `service-area-service` | 7.0 | mold remediation middlesex |
-| `/service-areas/middlesex-nc/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration middlesex |
+| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup middlesex |
+| `/service-areas/archer-lodge-nc/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration archer lodge |
+| `/service-areas/archer-lodge-nc/mold-remediation/` | `service-area-service` | 7.0 | mold remediation archer lodge |
+| `/service-areas/archer-lodge-nc/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration archer lodge |
+| `/service-areas/clayton-nc/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration clayton |
+| `/service-areas/clayton-nc/mold-remediation/` | `service-area-service` | 7.0 | mold remediation clayton |
+| `/service-areas/clayton-nc/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration clayton |
 
 ## Validation
 

@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Upholstery Cleaning in Fairfield, UT | Home Pride Restoration and Cleaning"
+h1: "Upholstery Cleaning in Fairfield"
+meta_description: "24/7 upholstery cleaning in Fairfield, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+primary_keyword: "upholstery cleaning fairfield"
+secondary_keywords: ["sofa cleaning", "couch cleaning", "furniture steam cleaning", "leather upholstery cleaning", "fabric upholstery cleaning"]
+search_intent: "local_specialty"
+priority: 2.8
+plan_hash: "4d3d500c050c75a0"
+generated_at: "2026-09-20T14:13:18.731879+00:00"
+manual_override: false
+internal_links: ["/services/upholstery-cleaning/", "/service-areas/fairfield-ut/", "/service-areas/fairfield-ut/fire-damage-restoration/", "/service-areas/fairfield-ut/mold-remediation/", "/service-areas/american-fork-ut/upholstery-cleaning/", "/service-areas/cedar-fort-ut/upholstery-cleaning/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fairfield", "url": "/service-areas/fairfield-ut/"}, {"name": "Upholstery Cleaning"}]
+faq: []
+area_slug: "fairfield-ut"
+service_slug: "upholstery-cleaning"
+city: "Fairfield"
+state: "UT"
+service_display: "Upholstery Cleaning"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug homepriderestorationandcleaning` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Upholstery Cleaning in Fairfield.
