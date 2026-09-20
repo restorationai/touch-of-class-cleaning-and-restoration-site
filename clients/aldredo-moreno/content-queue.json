@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-09-carpet-upholstery-cleaning",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-09T14:41:57Z",
       "priority": 1,
       "content_type": "target_term",
@@ -51,7 +51,8 @@
           "context": "olstery be cleaned professionally? The IICRC S100 standard for residential carpet ca",
           "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
         }
-      ]
+      ],
+      "published_verified_at": "2026-09-20T14:23:35Z"
     },
     {
       "id": "2026-09-09-air-duct-hvac-cleaning",
