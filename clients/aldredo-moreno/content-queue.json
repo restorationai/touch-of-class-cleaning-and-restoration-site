@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-09-carpet-upholstery-cleaning",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-09T14:41:57Z",
       "priority": 1,
       "content_type": "target_term",
@@ -11,7 +11,47 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": "goldsmith-tx",
-      "source": "app target-term (onboarding)"
+      "source": "app target-term (onboarding)",
+      "written_at": "2026-09-20T14:22:16Z",
+      "post_url": "https://theacs-enterprises.com/blog/carpet-upholstery-cleaning/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/carpet-upholstery-cleaning.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "before selecting a cleaning method. The IICRC S100 standard provides guidance on matc",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/carpet-upholstery-cleaning.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "rofessionally cleaned?\", \"answer\": \"The IICRC recommends professional cleaning every",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/carpet-upholstery-cleaning.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "t, and residue. This is the method the [IICRC](https://www.iicrc.org) recommends for",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/carpet-upholstery-cleaning.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "olstery be cleaned professionally? The IICRC S100 standard for residential carpet ca",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
     },
     {
       "id": "2026-09-09-air-duct-hvac-cleaning",
