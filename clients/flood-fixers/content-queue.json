@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-18-water-damage-restoration-cost-ca",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-18T14:38:19Z",
       "priority": 1,
       "prioritized": true,
@@ -40,7 +40,8 @@
           "context": "drying job can become a $10,000 or more mold remediation and rebuild. Early extraction and dryin",
           "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
         }
-      ]
+      ],
+      "published_verified_at": "2026-09-20T14:34:24Z"
     },
     {
       "id": "2026-07-23-best-water-damage-restoration-in-san-diego-ca",
