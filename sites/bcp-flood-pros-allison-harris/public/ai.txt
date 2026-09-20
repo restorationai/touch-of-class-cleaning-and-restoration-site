@@ -30,8 +30,8 @@ User-agent: Bytespider
 Disallow: /
 
 # AI training data summary
-# Site: https://bcp-flood-pros-allison-harris.invalid/
+# Site: https://fixofutah.com/
 # Maintainer: FIX Restoration
 # Contact: scott.noland@gofloodpros.com
-# Sitemap: https://bcp-flood-pros-allison-harris.invalid/sitemap-index.xml
-# LLM index: https://bcp-flood-pros-allison-harris.invalid/llms.txt
+# Sitemap: https://fixofutah.com/sitemap-index.xml
+# LLM index: https://fixofutah.com/llms.txt
