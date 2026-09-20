@@ -125,6 +125,11 @@
       "city": "Laurel Hill",
       "state": "FL",
       "slug": "laurel-hill-fl"
+    },
+    {
+      "city": "Harold",
+      "state": "FL",
+      "slug": "harold-fl"
     }
   ],
   "template": "restoration",

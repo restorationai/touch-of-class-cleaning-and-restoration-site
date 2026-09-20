@@ -259,6 +259,11 @@
       "city": "McFarland",
       "state": "CA",
       "slug": "mcfarland-ca"
+    },
+    {
+      "city": "Keene",
+      "state": "CA",
+      "slug": "keene-ca"
     }
   ],
   "brand": {

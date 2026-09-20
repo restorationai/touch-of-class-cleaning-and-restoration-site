@@ -138,6 +138,11 @@
       "city": "Draper",
       "state": "UT",
       "slug": "draper-ut"
+    },
+    {
+      "city": "Lake Shore",
+      "state": "UT",
+      "slug": "lake-shore-ut"
     }
   ],
   "brand": {

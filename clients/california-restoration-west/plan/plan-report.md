@@ -1,20 +1,20 @@
 # Site Plan Report — California Restoration West 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T19:36:46.925710+00:00
+- Generated: 2026-09-20T20:41:36.369093+00:00
 - Domain: `californiarestorationwest.com`
 - Services selected: 6 of 65 catalog entries
-- Service areas: 18
+- Service areas: 19
 - Cross-product enabled: True
-- Total URLs: **142**
-- Total internal links: 1099 (avg 7.7 per page)
+- Total URLs: **149**
+- Total internal links: 1154 (avg 7.7 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 102 |
-| `service-area` | 17 |
+| `service-area-service` | 108 |
+| `service-area` | 18 |
 | `blog-post` | 8 |
 | `service-landing` | 6 |
 | `legal` | 3 |
@@ -54,6 +54,7 @@
 - `piru-ca` — Piru, CA
 - `hasley-canyon-ca` — Hasley Canyon, CA
 - `lake-sherwood-ca` — Lake Sherwood, CA
+- `carpinteria-ca` — Carpinteria, CA
 
 ## Top 10 priority pages
 
@@ -65,10 +66,10 @@
 | `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup ventura |
 | `/service-areas/camarillo-ca/mold-remediation/` | `service-area-service` | 7.0 | mold remediation camarillo |
 | `/service-areas/camarillo-ca/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration camarillo |
+| `/service-areas/carpinteria-ca/mold-remediation/` | `service-area-service` | 7.0 | mold remediation carpinteria |
+| `/service-areas/carpinteria-ca/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration carpinteria |
 | `/service-areas/fillmore-ca/mold-remediation/` | `service-area-service` | 7.0 | mold remediation fillmore |
 | `/service-areas/fillmore-ca/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration fillmore |
-| `/service-areas/hasley-canyon-ca/mold-remediation/` | `service-area-service` | 7.0 | mold remediation hasley canyon |
-| `/service-areas/hasley-canyon-ca/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration hasley canyon |
 
 ## Validation
 

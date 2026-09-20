@@ -377,6 +377,11 @@
       "city": "Indian Springs",
       "state": "NV",
       "slug": "indian-springs-nv"
+    },
+    {
+      "city": "Moapa Valley",
+      "state": "NV",
+      "slug": "moapa-valley-nv"
     }
   ]
 }

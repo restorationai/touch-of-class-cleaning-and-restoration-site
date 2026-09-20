@@ -34,6 +34,7 @@
     "/service-areas/gibsonia-pa/",
     "/service-areas/mars-pa/",
     "/service-areas/monaca-pa/",
+    "/service-areas/prospect-pa/",
     "/service-areas/seven-fields-pa/",
     "/service-areas/sewickley-heights-pa/",
     "/service-areas/sewickley-hills-pa/",
@@ -75,6 +76,7 @@
     "/service-areas/gibsonia-pa/",
     "/service-areas/mars-pa/",
     "/service-areas/monaca-pa/",
+    "/service-areas/prospect-pa/",
     "/service-areas/seven-fields-pa/",
     "/service-areas/sewickley-heights-pa/",
     "/service-areas/sewickley-hills-pa/",
@@ -833,6 +835,31 @@
     "/service-areas/aliquippa-pa/",
     "/service-areas/baden-pa/",
     "/service-areas/beaver-falls-pa/"
+  ],
+  "/service-areas/prospect-pa/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/prospect-pa/fire-damage-restoration/",
+    "/service-areas/prospect-pa/mold-remediation/",
+    "/service-areas/prospect-pa/water-damage-restoration/",
+    "/service-areas/prospect-pa/commercial-restoration/",
+    "/service-areas/prospect-pa/flood-damage-restoration/",
+    "/service-areas/prospect-pa/reconstruction/",
+    "/service-areas/prospect-pa/sewage-cleanup/",
+    "/service-areas/prospect-pa/smoke-damage-restoration/",
+    "/service-areas/prospect-pa/storm-damage-restoration/",
+    "/service-areas/prospect-pa/water-cleanup/",
+    "/service-areas/prospect-pa/basement-flooding-cleanup/",
+    "/service-areas/prospect-pa/biohazard-cleanup/",
+    "/service-areas/prospect-pa/burst-pipe-repair/",
+    "/service-areas/prospect-pa/general-contracting/",
+    "/service-areas/prospect-pa/mold-inspection-testing/",
+    "/service-areas/prospect-pa/frozen-pipe-restoration/",
+    "/service-areas/prospect-pa/odor-removal/",
+    "/service-areas/prospect-pa/soot-removal/",
+    "/service-areas/aliquippa-pa/",
+    "/service-areas/allison-park-pa/",
+    "/service-areas/baden-pa/"
   ],
   "/service-areas/wexford-pa/water-damage-restoration/": [
     "/services/water-damage-restoration/",
@@ -3586,6 +3613,168 @@
     "/service-areas/allison-park-pa/mold-remediation/",
     "/service-areas/aliquippa-pa/water-cleanup/",
     "/service-areas/baden-pa/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/prospect-pa/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/prospect-pa/",
+    "/service-areas/prospect-pa/fire-damage-restoration/",
+    "/service-areas/prospect-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/water-damage-restoration/",
+    "/service-areas/allison-park-pa/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/prospect-pa/flood-damage-restoration/": [
+    "/services/flood-damage-restoration/",
+    "/service-areas/prospect-pa/",
+    "/service-areas/prospect-pa/fire-damage-restoration/",
+    "/service-areas/prospect-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/flood-damage-restoration/",
+    "/service-areas/allison-park-pa/flood-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/prospect-pa/basement-flooding-cleanup/": [
+    "/services/basement-flooding-cleanup/",
+    "/service-areas/prospect-pa/",
+    "/service-areas/prospect-pa/fire-damage-restoration/",
+    "/service-areas/prospect-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/basement-flooding-cleanup/",
+    "/service-areas/allison-park-pa/basement-flooding-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/prospect-pa/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/prospect-pa/",
+    "/service-areas/prospect-pa/fire-damage-restoration/",
+    "/service-areas/prospect-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/sewage-cleanup/",
+    "/service-areas/allison-park-pa/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/prospect-pa/burst-pipe-repair/": [
+    "/services/burst-pipe-repair/",
+    "/service-areas/prospect-pa/",
+    "/service-areas/prospect-pa/fire-damage-restoration/",
+    "/service-areas/prospect-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/burst-pipe-repair/",
+    "/service-areas/allison-park-pa/burst-pipe-repair/",
+    "/contact/"
+  ],
+  "/service-areas/prospect-pa/frozen-pipe-restoration/": [
+    "/services/frozen-pipe-restoration/",
+    "/service-areas/prospect-pa/",
+    "/service-areas/prospect-pa/fire-damage-restoration/",
+    "/service-areas/prospect-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/frozen-pipe-restoration/",
+    "/service-areas/allison-park-pa/frozen-pipe-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/prospect-pa/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/prospect-pa/",
+    "/service-areas/prospect-pa/fire-damage-restoration/",
+    "/service-areas/prospect-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/storm-damage-restoration/",
+    "/service-areas/allison-park-pa/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/prospect-pa/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/prospect-pa/",
+    "/service-areas/prospect-pa/mold-remediation/",
+    "/service-areas/prospect-pa/water-damage-restoration/",
+    "/service-areas/aliquippa-pa/fire-damage-restoration/",
+    "/service-areas/allison-park-pa/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/prospect-pa/smoke-damage-restoration/": [
+    "/services/smoke-damage-restoration/",
+    "/service-areas/prospect-pa/",
+    "/service-areas/prospect-pa/fire-damage-restoration/",
+    "/service-areas/prospect-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/smoke-damage-restoration/",
+    "/service-areas/allison-park-pa/smoke-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/prospect-pa/soot-removal/": [
+    "/services/soot-removal/",
+    "/service-areas/prospect-pa/",
+    "/service-areas/prospect-pa/fire-damage-restoration/",
+    "/service-areas/prospect-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/soot-removal/",
+    "/service-areas/allison-park-pa/soot-removal/",
+    "/contact/"
+  ],
+  "/service-areas/prospect-pa/odor-removal/": [
+    "/services/odor-removal/",
+    "/service-areas/prospect-pa/",
+    "/service-areas/prospect-pa/fire-damage-restoration/",
+    "/service-areas/prospect-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/odor-removal/",
+    "/service-areas/allison-park-pa/odor-removal/",
+    "/contact/"
+  ],
+  "/service-areas/prospect-pa/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/prospect-pa/",
+    "/service-areas/prospect-pa/fire-damage-restoration/",
+    "/service-areas/prospect-pa/water-damage-restoration/",
+    "/service-areas/aliquippa-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/prospect-pa/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/prospect-pa/",
+    "/service-areas/prospect-pa/fire-damage-restoration/",
+    "/service-areas/prospect-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/mold-inspection-testing/",
+    "/service-areas/allison-park-pa/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/prospect-pa/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/prospect-pa/",
+    "/service-areas/prospect-pa/fire-damage-restoration/",
+    "/service-areas/prospect-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/biohazard-cleanup/",
+    "/service-areas/allison-park-pa/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/prospect-pa/commercial-restoration/": [
+    "/services/commercial-restoration/",
+    "/service-areas/prospect-pa/",
+    "/service-areas/prospect-pa/fire-damage-restoration/",
+    "/service-areas/prospect-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/commercial-restoration/",
+    "/service-areas/allison-park-pa/commercial-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/prospect-pa/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/prospect-pa/",
+    "/service-areas/prospect-pa/fire-damage-restoration/",
+    "/service-areas/prospect-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/reconstruction/",
+    "/service-areas/allison-park-pa/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/prospect-pa/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/prospect-pa/",
+    "/service-areas/prospect-pa/fire-damage-restoration/",
+    "/service-areas/prospect-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/general-contracting/",
+    "/service-areas/allison-park-pa/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/prospect-pa/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/prospect-pa/",
+    "/service-areas/prospect-pa/fire-damage-restoration/",
+    "/service-areas/prospect-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/water-cleanup/",
+    "/service-areas/allison-park-pa/water-cleanup/",
     "/contact/"
   ],
   "/blog/what-to-do-first-24-hours-water-damage/": [

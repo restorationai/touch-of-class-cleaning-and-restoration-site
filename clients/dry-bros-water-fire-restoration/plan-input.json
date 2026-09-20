@@ -139,6 +139,11 @@
       "city": "North Riverside",
       "state": "IL",
       "slug": "north-riverside-il"
+    },
+    {
+      "city": "Melrose Park",
+      "state": "IL",
+      "slug": "melrose-park-il"
     }
   ],
   "template": "restoration",

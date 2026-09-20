@@ -136,6 +136,11 @@
       "city": "North Tustin",
       "state": "CA",
       "slug": "north-tustin-ca"
+    },
+    {
+      "city": "Montclair",
+      "state": "CA",
+      "slug": "montclair-ca"
     }
   ],
   "template": "restoration",

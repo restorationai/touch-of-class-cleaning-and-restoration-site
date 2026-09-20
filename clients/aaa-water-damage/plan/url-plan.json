@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-20T19:36:37.519377+00:00",
+  "generated_at": "2026-09-20T20:41:17.436547+00:00",
   "input_summary": {
     "service_count": 11,
-    "service_area_count": 22,
+    "service_area_count": 23,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -68,6 +68,7 @@
         "/service-areas/kahaluu-hi/",
         "/service-areas/kailua-hi/",
         "/service-areas/kaimuki-hi/",
+        "/service-areas/kalaeloa-hi/",
         "/service-areas/kaneohe-base-hi/",
         "/service-areas/kaneohe-hi/",
         "/service-areas/kapolei-hi/",
@@ -163,6 +164,7 @@
         "/service-areas/kahaluu-hi/",
         "/service-areas/kailua-hi/",
         "/service-areas/kaimuki-hi/",
+        "/service-areas/kalaeloa-hi/",
         "/service-areas/kaneohe-base-hi/",
         "/service-areas/kaneohe-hi/",
         "/service-areas/kapolei-hi/",
@@ -1847,6 +1849,54 @@
         "/service-areas/waiahole-waikane-hi/carpet-cleaning/",
         "/service-areas/waiahole-waikane-hi/upholstery-cleaning/",
         "/service-areas/waiahole-waikane-hi/flood-equipment-rental/",
+        "/service-areas/aiea-hi/",
+        "/service-areas/aina-haina-hi/",
+        "/service-areas/diamond-head-hi/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/kalaeloa-hi/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Kalaeloa, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Restoration Services in Kalaeloa",
+      "meta_description": "Serving Kalaeloa, HI with 24/7 water, fire, mold, and storm damage restoration. Experienced team. Call (808) 349-3407.",
+      "primary_keyword": "restoration services kalaeloa",
+      "secondary_keywords": [
+        "kalaeloa restoration company",
+        "damage restoration kalaeloa",
+        "kalaeloa disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/kalaeloa-hi/mold-remediation/",
+        "/service-areas/kalaeloa-hi/water-damage-restoration/",
+        "/service-areas/kalaeloa-hi/commercial-restoration/",
+        "/service-areas/kalaeloa-hi/flood-damage-restoration/",
+        "/service-areas/kalaeloa-hi/sewage-cleanup/",
+        "/service-areas/kalaeloa-hi/water-cleanup/",
+        "/service-areas/kalaeloa-hi/burst-pipe-repair/",
+        "/service-areas/kalaeloa-hi/mold-inspection-testing/",
+        "/service-areas/kalaeloa-hi/carpet-cleaning/",
+        "/service-areas/kalaeloa-hi/upholstery-cleaning/",
+        "/service-areas/kalaeloa-hi/flood-equipment-rental/",
         "/service-areas/aiea-hi/",
         "/service-areas/aina-haina-hi/",
         "/service-areas/diamond-head-hi/"
@@ -12032,6 +12082,491 @@
         "/service-areas/waiahole-waikane-hi/",
         "/service-areas/waiahole-waikane-hi/mold-remediation/",
         "/service-areas/waiahole-waikane-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/water-cleanup/",
+        "/service-areas/aina-haina-hi/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/kalaeloa-hi/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Kalaeloa, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Water Damage Restoration in Kalaeloa",
+      "meta_description": "24/7 water damage restoration in Kalaeloa, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "water damage restoration kalaeloa",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/kalaeloa-hi/",
+        "/service-areas/kalaeloa-hi/mold-remediation/",
+        "/service-areas/kalaeloa-hi/commercial-restoration/",
+        "/service-areas/aiea-hi/water-damage-restoration/",
+        "/service-areas/aina-haina-hi/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/kalaeloa-hi/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Kalaeloa, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Flood Damage Restoration in Kalaeloa",
+      "meta_description": "24/7 flood damage restoration in Kalaeloa, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "flood damage restoration kalaeloa",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/kalaeloa-hi/",
+        "/service-areas/kalaeloa-hi/mold-remediation/",
+        "/service-areas/kalaeloa-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/flood-damage-restoration/",
+        "/service-areas/aina-haina-hi/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/kalaeloa-hi/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Kalaeloa, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Burst Pipe Cleanup and Repair in Kalaeloa",
+      "meta_description": "24/7 burst pipe cleanup and repair in Kalaeloa, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "burst pipe cleanup and repair kalaeloa",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/kalaeloa-hi/",
+        "/service-areas/kalaeloa-hi/mold-remediation/",
+        "/service-areas/kalaeloa-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/burst-pipe-repair/",
+        "/service-areas/aina-haina-hi/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/kalaeloa-hi/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Kalaeloa, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Sewage Cleanup and Sanitization in Kalaeloa",
+      "meta_description": "24/7 sewage cleanup and sanitization in Kalaeloa, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "sewage cleanup and sanitization kalaeloa",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/kalaeloa-hi/",
+        "/service-areas/kalaeloa-hi/mold-remediation/",
+        "/service-areas/kalaeloa-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/sewage-cleanup/",
+        "/service-areas/aina-haina-hi/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/kalaeloa-hi/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Kalaeloa, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Mold Remediation in Kalaeloa",
+      "meta_description": "24/7 mold remediation in Kalaeloa, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "mold remediation kalaeloa",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/kalaeloa-hi/",
+        "/service-areas/kalaeloa-hi/water-damage-restoration/",
+        "/service-areas/kalaeloa-hi/commercial-restoration/",
+        "/service-areas/aiea-hi/mold-remediation/",
+        "/service-areas/aina-haina-hi/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/kalaeloa-hi/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Kalaeloa, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Mold Inspection and Testing in Kalaeloa",
+      "meta_description": "24/7 mold inspection and testing in Kalaeloa, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "mold inspection and testing kalaeloa",
+      "secondary_keywords": [
+        "mold inspection",
+        "mold testing",
+        "indoor air quality testing",
+        "mold spore testing",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/kalaeloa-hi/",
+        "/service-areas/kalaeloa-hi/mold-remediation/",
+        "/service-areas/kalaeloa-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/mold-inspection-testing/",
+        "/service-areas/aina-haina-hi/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/kalaeloa-hi/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Kalaeloa, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Carpet Cleaning in Kalaeloa",
+      "meta_description": "24/7 carpet cleaning in Kalaeloa, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "carpet cleaning kalaeloa",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/kalaeloa-hi/",
+        "/service-areas/kalaeloa-hi/mold-remediation/",
+        "/service-areas/kalaeloa-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/carpet-cleaning/",
+        "/service-areas/aina-haina-hi/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/kalaeloa-hi/upholstery-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Upholstery Cleaning in Kalaeloa, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Upholstery Cleaning in Kalaeloa",
+      "meta_description": "24/7 upholstery cleaning in Kalaeloa, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "upholstery cleaning kalaeloa",
+      "secondary_keywords": [
+        "sofa cleaning",
+        "couch cleaning",
+        "furniture steam cleaning",
+        "leather upholstery cleaning",
+        "fabric upholstery cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/upholstery-cleaning/",
+        "/service-areas/kalaeloa-hi/",
+        "/service-areas/kalaeloa-hi/mold-remediation/",
+        "/service-areas/kalaeloa-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/upholstery-cleaning/",
+        "/service-areas/aina-haina-hi/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/kalaeloa-hi/flood-equipment-rental/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood & Drying Equipment Rental in Kalaeloa, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Flood & Drying Equipment Rental in Kalaeloa",
+      "meta_description": "24/7 flood & drying equipment rental in Kalaeloa, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "flood & drying equipment rental kalaeloa",
+      "secondary_keywords": [
+        "water damage equipment rental",
+        "dehumidifier rental",
+        "air mover rental",
+        "carpet drying fan rental",
+        "flood pump rental"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-equipment-rental/",
+        "/service-areas/kalaeloa-hi/",
+        "/service-areas/kalaeloa-hi/mold-remediation/",
+        "/service-areas/kalaeloa-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/flood-equipment-rental/",
+        "/service-areas/aina-haina-hi/flood-equipment-rental/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/kalaeloa-hi/commercial-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Commercial Restoration in Kalaeloa, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Commercial Restoration in Kalaeloa",
+      "meta_description": "24/7 commercial restoration in Kalaeloa, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "commercial restoration kalaeloa",
+      "secondary_keywords": [
+        "commercial water damage",
+        "commercial fire damage",
+        "business restoration",
+        "office restoration",
+        "retail restoration"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/commercial-restoration/",
+        "/service-areas/kalaeloa-hi/",
+        "/service-areas/kalaeloa-hi/mold-remediation/",
+        "/service-areas/kalaeloa-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/commercial-restoration/",
+        "/service-areas/aina-haina-hi/commercial-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/kalaeloa-hi/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Kalaeloa, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Emergency Water Cleanup in Kalaeloa",
+      "meta_description": "24/7 emergency water cleanup in Kalaeloa, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water cleanup kalaeloa",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/kalaeloa-hi/",
+        "/service-areas/kalaeloa-hi/mold-remediation/",
+        "/service-areas/kalaeloa-hi/water-damage-restoration/",
         "/service-areas/aiea-hi/water-cleanup/",
         "/service-areas/aina-haina-hi/water-cleanup/",
         "/contact/"

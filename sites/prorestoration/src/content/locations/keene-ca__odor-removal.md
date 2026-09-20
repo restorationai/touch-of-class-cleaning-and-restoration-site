@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Odor Removal and Deodorization in Keene, CA | ProRestoration Services"
+h1: "Odor Removal and Deodorization in Keene"
+meta_description: "24/7 odor removal and deodorization in Keene, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
+primary_keyword: "odor removal and deodorization keene"
+secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
+search_intent: "local_specialty"
+priority: 4.9
+plan_hash: "d401e23965318c0f"
+generated_at: "2026-09-20T20:42:04.135889+00:00"
+manual_override: false
+internal_links: ["/services/odor-removal/", "/service-areas/keene-ca/", "/service-areas/keene-ca/fire-damage-restoration/", "/service-areas/keene-ca/home-remodeling/", "/service-areas/arvin-ca/odor-removal/", "/service-areas/bear-valley-springs-ca/odor-removal/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Keene", "url": "/service-areas/keene-ca/"}, {"name": "Odor Removal and Deodorization"}]
+faq: []
+area_slug: "keene-ca"
+service_slug: "odor-removal"
+city: "Keene"
+state: "CA"
+service_display: "Odor Removal and Deodorization"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug prorestoration` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Odor Removal and Deodorization in Keene.

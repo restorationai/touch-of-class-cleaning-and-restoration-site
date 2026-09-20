@@ -223,6 +223,11 @@
       "city": "Clover Creek",
       "state": "WA",
       "slug": "clover-creek-wa"
+    },
+    {
+      "city": "Wollochet",
+      "state": "WA",
+      "slug": "wollochet-wa"
     }
   ],
   "template": "restoration",

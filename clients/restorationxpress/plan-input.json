@@ -303,6 +303,11 @@
       "city": "Country Club",
       "state": "FL",
       "slug": "country-club-fl"
+    },
+    {
+      "city": "Aventura",
+      "state": "FL",
+      "slug": "aventura-fl"
     }
   ]
 }

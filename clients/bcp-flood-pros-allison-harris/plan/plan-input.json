@@ -125,6 +125,11 @@
       "city": "Herriman",
       "state": "UT",
       "slug": "herriman-ut"
+    },
+    {
+      "city": "Riverton",
+      "state": "UT",
+      "slug": "riverton-ut"
     }
   ],
   "template": "restoration",

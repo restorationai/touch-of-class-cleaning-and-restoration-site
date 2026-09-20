@@ -1,21 +1,21 @@
 # Site Plan Report — Davis Construction Contractors
 
 - Template: `construction` v0.1.0
-- Generated: 2026-09-20T19:36:51.254541+00:00
+- Generated: 2026-09-20T20:41:40.479280+00:00
 - Domain: `davisconstructioncontractors.com`
 - Services selected: 9 of 23 catalog entries
-- Service areas: 12
+- Service areas: 13
 - Cross-product enabled: True
-- Total URLs: **140**
-- Total internal links: 1093 (avg 7.8 per page)
+- Total URLs: **150**
+- Total internal links: 1181 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 99 |
+| `service-area-service` | 108 |
+| `service-area` | 12 |
 | `blog-post` | 12 |
-| `service-area` | 11 |
 | `service-landing` | 9 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -51,6 +51,7 @@
 - `gurley-al` — Gurley, AL
 - `owens-cross-roads-al` — Owens Cross Roads, AL
 - `triana-al` — Triana, AL
+- `new-hope-al` — New Hope, AL
 
 ## Top 10 priority pages
 

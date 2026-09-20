@@ -203,6 +203,11 @@
       "city": "Florin",
       "state": "CA",
       "slug": "florin-ca"
+    },
+    {
+      "city": "Woodland",
+      "state": "CA",
+      "slug": "woodland-ca"
     }
   ],
   "template": "construction",

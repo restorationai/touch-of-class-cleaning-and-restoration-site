@@ -27,6 +27,7 @@
     "/service-areas/orem-ut/",
     "/service-areas/pleasant-grove-ut/",
     "/service-areas/provo-ut/",
+    "/service-areas/riverton-ut/",
     "/service-areas/sandy-ut/",
     "/service-areas/saratoga-springs-ut/",
     "/service-areas/spanish-fork-ut/",
@@ -61,6 +62,7 @@
     "/service-areas/orem-ut/",
     "/service-areas/pleasant-grove-ut/",
     "/service-areas/provo-ut/",
+    "/service-areas/riverton-ut/",
     "/service-areas/sandy-ut/",
     "/service-areas/saratoga-springs-ut/",
     "/service-areas/spanish-fork-ut/",
@@ -576,6 +578,24 @@
     "/service-areas/herriman-ut/emergency-board-up-tarping/",
     "/service-areas/herriman-ut/contents-restoration-storage/",
     "/service-areas/herriman-ut/flood-equipment-rental/",
+    "/service-areas/alpine-ut/",
+    "/service-areas/bluffdale-ut/",
+    "/service-areas/cedar-hills-ut/"
+  ],
+  "/service-areas/riverton-ut/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/riverton-ut/fire-damage-restoration/",
+    "/service-areas/riverton-ut/mold-remediation/",
+    "/service-areas/riverton-ut/water-damage-restoration/",
+    "/service-areas/riverton-ut/sewage-cleanup/",
+    "/service-areas/riverton-ut/storm-damage-restoration/",
+    "/service-areas/riverton-ut/water-cleanup/",
+    "/service-areas/riverton-ut/biohazard-cleanup/",
+    "/service-areas/riverton-ut/general-contracting/",
+    "/service-areas/riverton-ut/emergency-board-up-tarping/",
+    "/service-areas/riverton-ut/contents-restoration-storage/",
+    "/service-areas/riverton-ut/flood-equipment-rental/",
     "/service-areas/alpine-ut/",
     "/service-areas/bluffdale-ut/",
     "/service-areas/cedar-hills-ut/"
@@ -2259,6 +2279,105 @@
     "/service-areas/herriman-ut/",
     "/service-areas/herriman-ut/fire-damage-restoration/",
     "/service-areas/herriman-ut/mold-remediation/",
+    "/service-areas/alpine-ut/flood-equipment-rental/",
+    "/service-areas/bluffdale-ut/flood-equipment-rental/",
+    "/contact/"
+  ],
+  "/service-areas/riverton-ut/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/riverton-ut/",
+    "/service-areas/riverton-ut/fire-damage-restoration/",
+    "/service-areas/riverton-ut/mold-remediation/",
+    "/service-areas/alpine-ut/water-damage-restoration/",
+    "/service-areas/bluffdale-ut/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/riverton-ut/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/riverton-ut/",
+    "/service-areas/riverton-ut/fire-damage-restoration/",
+    "/service-areas/riverton-ut/mold-remediation/",
+    "/service-areas/alpine-ut/storm-damage-restoration/",
+    "/service-areas/bluffdale-ut/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/riverton-ut/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/riverton-ut/",
+    "/service-areas/riverton-ut/mold-remediation/",
+    "/service-areas/riverton-ut/water-damage-restoration/",
+    "/service-areas/alpine-ut/fire-damage-restoration/",
+    "/service-areas/bluffdale-ut/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/riverton-ut/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/riverton-ut/",
+    "/service-areas/riverton-ut/fire-damage-restoration/",
+    "/service-areas/riverton-ut/mold-remediation/",
+    "/service-areas/alpine-ut/general-contracting/",
+    "/service-areas/bluffdale-ut/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/riverton-ut/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/riverton-ut/",
+    "/service-areas/riverton-ut/fire-damage-restoration/",
+    "/service-areas/riverton-ut/mold-remediation/",
+    "/service-areas/alpine-ut/sewage-cleanup/",
+    "/service-areas/bluffdale-ut/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/riverton-ut/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/riverton-ut/",
+    "/service-areas/riverton-ut/fire-damage-restoration/",
+    "/service-areas/riverton-ut/mold-remediation/",
+    "/service-areas/alpine-ut/emergency-board-up-tarping/",
+    "/service-areas/bluffdale-ut/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/riverton-ut/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/riverton-ut/",
+    "/service-areas/riverton-ut/fire-damage-restoration/",
+    "/service-areas/riverton-ut/mold-remediation/",
+    "/service-areas/alpine-ut/water-cleanup/",
+    "/service-areas/bluffdale-ut/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/riverton-ut/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/riverton-ut/",
+    "/service-areas/riverton-ut/fire-damage-restoration/",
+    "/service-areas/riverton-ut/water-damage-restoration/",
+    "/service-areas/alpine-ut/mold-remediation/",
+    "/service-areas/bluffdale-ut/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/riverton-ut/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/riverton-ut/",
+    "/service-areas/riverton-ut/fire-damage-restoration/",
+    "/service-areas/riverton-ut/mold-remediation/",
+    "/service-areas/alpine-ut/biohazard-cleanup/",
+    "/service-areas/bluffdale-ut/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/riverton-ut/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/riverton-ut/",
+    "/service-areas/riverton-ut/fire-damage-restoration/",
+    "/service-areas/riverton-ut/mold-remediation/",
+    "/service-areas/alpine-ut/contents-restoration-storage/",
+    "/service-areas/bluffdale-ut/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/riverton-ut/flood-equipment-rental/": [
+    "/services/flood-equipment-rental/",
+    "/service-areas/riverton-ut/",
+    "/service-areas/riverton-ut/fire-damage-restoration/",
+    "/service-areas/riverton-ut/mold-remediation/",
     "/service-areas/alpine-ut/flood-equipment-rental/",
     "/service-areas/bluffdale-ut/flood-equipment-rental/",
     "/contact/"

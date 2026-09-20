@@ -13,6 +13,7 @@
     "/services/general-contracting/",
     "/service-areas/bonsall-ca/",
     "/service-areas/camp-pendleton-mainside-ca/",
+    "/service-areas/camp-pendleton-south-ca/",
     "/service-areas/carlsbad-ca/",
     "/service-areas/chula-vista-ca/",
     "/service-areas/del-mar-ca/",
@@ -49,6 +50,7 @@
     "/",
     "/service-areas/bonsall-ca/",
     "/service-areas/camp-pendleton-mainside-ca/",
+    "/service-areas/camp-pendleton-south-ca/",
     "/service-areas/carlsbad-ca/",
     "/service-areas/chula-vista-ca/",
     "/service-areas/del-mar-ca/",
@@ -98,6 +100,7 @@
     "/contact/",
     "/service-areas/bonsall-ca/water-damage-restoration/",
     "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/",
+    "/service-areas/camp-pendleton-south-ca/water-damage-restoration/",
     "/service-areas/carlsbad-ca/water-damage-restoration/",
     "/service-areas/chula-vista-ca/water-damage-restoration/",
     "/service-areas/del-mar-ca/water-damage-restoration/",
@@ -107,7 +110,6 @@
     "/service-areas/fairbanks-ranch-ca/water-damage-restoration/",
     "/service-areas/harmony-grove-ca/water-damage-restoration/",
     "/service-areas/hidden-meadows-ca/water-damage-restoration/",
-    "/service-areas/la-mesa-ca/water-damage-restoration/",
     "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -118,6 +120,7 @@
     "/contact/",
     "/service-areas/bonsall-ca/flood-damage-restoration/",
     "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/",
+    "/service-areas/camp-pendleton-south-ca/flood-damage-restoration/",
     "/service-areas/carlsbad-ca/flood-damage-restoration/",
     "/service-areas/chula-vista-ca/flood-damage-restoration/",
     "/service-areas/del-mar-ca/flood-damage-restoration/",
@@ -126,14 +129,14 @@
     "/service-areas/escondido-ca/flood-damage-restoration/",
     "/service-areas/fairbanks-ranch-ca/flood-damage-restoration/",
     "/service-areas/harmony-grove-ca/flood-damage-restoration/",
-    "/service-areas/hidden-meadows-ca/flood-damage-restoration/",
-    "/service-areas/la-mesa-ca/flood-damage-restoration/"
+    "/service-areas/hidden-meadows-ca/flood-damage-restoration/"
   ],
   "/services/burst-pipe-repair/": [
     "/services/",
     "/contact/",
     "/service-areas/bonsall-ca/burst-pipe-repair/",
     "/service-areas/camp-pendleton-mainside-ca/burst-pipe-repair/",
+    "/service-areas/camp-pendleton-south-ca/burst-pipe-repair/",
     "/service-areas/carlsbad-ca/burst-pipe-repair/",
     "/service-areas/chula-vista-ca/burst-pipe-repair/",
     "/service-areas/del-mar-ca/burst-pipe-repair/",
@@ -142,14 +145,14 @@
     "/service-areas/escondido-ca/burst-pipe-repair/",
     "/service-areas/fairbanks-ranch-ca/burst-pipe-repair/",
     "/service-areas/harmony-grove-ca/burst-pipe-repair/",
-    "/service-areas/hidden-meadows-ca/burst-pipe-repair/",
-    "/service-areas/la-mesa-ca/burst-pipe-repair/"
+    "/service-areas/hidden-meadows-ca/burst-pipe-repair/"
   ],
   "/services/basement-flooding-cleanup/": [
     "/services/",
     "/contact/",
     "/service-areas/bonsall-ca/basement-flooding-cleanup/",
     "/service-areas/camp-pendleton-mainside-ca/basement-flooding-cleanup/",
+    "/service-areas/camp-pendleton-south-ca/basement-flooding-cleanup/",
     "/service-areas/carlsbad-ca/basement-flooding-cleanup/",
     "/service-areas/chula-vista-ca/basement-flooding-cleanup/",
     "/service-areas/del-mar-ca/basement-flooding-cleanup/",
@@ -158,14 +161,14 @@
     "/service-areas/escondido-ca/basement-flooding-cleanup/",
     "/service-areas/fairbanks-ranch-ca/basement-flooding-cleanup/",
     "/service-areas/harmony-grove-ca/basement-flooding-cleanup/",
-    "/service-areas/hidden-meadows-ca/basement-flooding-cleanup/",
-    "/service-areas/la-mesa-ca/basement-flooding-cleanup/"
+    "/service-areas/hidden-meadows-ca/basement-flooding-cleanup/"
   ],
   "/services/reconstruction/": [
     "/services/",
     "/contact/",
     "/service-areas/bonsall-ca/reconstruction/",
     "/service-areas/camp-pendleton-mainside-ca/reconstruction/",
+    "/service-areas/camp-pendleton-south-ca/reconstruction/",
     "/service-areas/carlsbad-ca/reconstruction/",
     "/service-areas/chula-vista-ca/reconstruction/",
     "/service-areas/del-mar-ca/reconstruction/",
@@ -174,14 +177,14 @@
     "/service-areas/escondido-ca/reconstruction/",
     "/service-areas/fairbanks-ranch-ca/reconstruction/",
     "/service-areas/harmony-grove-ca/reconstruction/",
-    "/service-areas/hidden-meadows-ca/reconstruction/",
-    "/service-areas/la-mesa-ca/reconstruction/"
+    "/service-areas/hidden-meadows-ca/reconstruction/"
   ],
   "/services/general-contracting/": [
     "/services/",
     "/contact/",
     "/service-areas/bonsall-ca/general-contracting/",
     "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
+    "/service-areas/camp-pendleton-south-ca/general-contracting/",
     "/service-areas/carlsbad-ca/general-contracting/",
     "/service-areas/chula-vista-ca/general-contracting/",
     "/service-areas/del-mar-ca/general-contracting/",
@@ -190,14 +193,14 @@
     "/service-areas/escondido-ca/general-contracting/",
     "/service-areas/fairbanks-ranch-ca/general-contracting/",
     "/service-areas/harmony-grove-ca/general-contracting/",
-    "/service-areas/hidden-meadows-ca/general-contracting/",
-    "/service-areas/la-mesa-ca/general-contracting/"
+    "/service-areas/hidden-meadows-ca/general-contracting/"
   ],
   "/services/water-cleanup/": [
     "/services/",
     "/contact/",
     "/service-areas/bonsall-ca/water-cleanup/",
     "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
+    "/service-areas/camp-pendleton-south-ca/water-cleanup/",
     "/service-areas/carlsbad-ca/water-cleanup/",
     "/service-areas/chula-vista-ca/water-cleanup/",
     "/service-areas/del-mar-ca/water-cleanup/",
@@ -207,7 +210,6 @@
     "/service-areas/fairbanks-ranch-ca/water-cleanup/",
     "/service-areas/harmony-grove-ca/water-cleanup/",
     "/service-areas/hidden-meadows-ca/water-cleanup/",
-    "/service-areas/la-mesa-ca/water-cleanup/",
     "/services/water-damage-restoration/"
   ],
   "/service-areas/chula-vista-ca/": [
@@ -222,7 +224,7 @@
     "/service-areas/chula-vista-ca/general-contracting/",
     "/service-areas/bonsall-ca/",
     "/service-areas/camp-pendleton-mainside-ca/",
-    "/service-areas/carlsbad-ca/"
+    "/service-areas/camp-pendleton-south-ca/"
   ],
   "/service-areas/oceanside-ca/": [
     "/service-areas/",
@@ -236,7 +238,7 @@
     "/service-areas/oceanside-ca/general-contracting/",
     "/service-areas/bonsall-ca/",
     "/service-areas/camp-pendleton-mainside-ca/",
-    "/service-areas/carlsbad-ca/"
+    "/service-areas/camp-pendleton-south-ca/"
   ],
   "/service-areas/escondido-ca/": [
     "/service-areas/",
@@ -250,7 +252,7 @@
     "/service-areas/escondido-ca/general-contracting/",
     "/service-areas/bonsall-ca/",
     "/service-areas/camp-pendleton-mainside-ca/",
-    "/service-areas/carlsbad-ca/"
+    "/service-areas/camp-pendleton-south-ca/"
   ],
   "/service-areas/carlsbad-ca/": [
     "/service-areas/",
@@ -264,7 +266,7 @@
     "/service-areas/carlsbad-ca/general-contracting/",
     "/service-areas/bonsall-ca/",
     "/service-areas/camp-pendleton-mainside-ca/",
-    "/service-areas/chula-vista-ca/"
+    "/service-areas/camp-pendleton-south-ca/"
   ],
   "/service-areas/el-cajon-ca/": [
     "/service-areas/",
@@ -278,7 +280,7 @@
     "/service-areas/el-cajon-ca/general-contracting/",
     "/service-areas/bonsall-ca/",
     "/service-areas/camp-pendleton-mainside-ca/",
-    "/service-areas/carlsbad-ca/"
+    "/service-areas/camp-pendleton-south-ca/"
   ],
   "/service-areas/vista-ca/": [
     "/service-areas/",
@@ -292,7 +294,7 @@
     "/service-areas/vista-ca/general-contracting/",
     "/service-areas/bonsall-ca/",
     "/service-areas/camp-pendleton-mainside-ca/",
-    "/service-areas/carlsbad-ca/"
+    "/service-areas/camp-pendleton-south-ca/"
   ],
   "/service-areas/san-marcos-ca/": [
     "/service-areas/",
@@ -306,7 +308,7 @@
     "/service-areas/san-marcos-ca/general-contracting/",
     "/service-areas/bonsall-ca/",
     "/service-areas/camp-pendleton-mainside-ca/",
-    "/service-areas/carlsbad-ca/"
+    "/service-areas/camp-pendleton-south-ca/"
   ],
   "/service-areas/encinitas-ca/": [
     "/service-areas/",
@@ -320,7 +322,7 @@
     "/service-areas/encinitas-ca/general-contracting/",
     "/service-areas/bonsall-ca/",
     "/service-areas/camp-pendleton-mainside-ca/",
-    "/service-areas/carlsbad-ca/"
+    "/service-areas/camp-pendleton-south-ca/"
   ],
   "/service-areas/la-mesa-ca/": [
     "/service-areas/",
@@ -334,7 +336,7 @@
     "/service-areas/la-mesa-ca/general-contracting/",
     "/service-areas/bonsall-ca/",
     "/service-areas/camp-pendleton-mainside-ca/",
-    "/service-areas/carlsbad-ca/"
+    "/service-areas/camp-pendleton-south-ca/"
   ],
   "/service-areas/santee-ca/": [
     "/service-areas/",
@@ -348,7 +350,7 @@
     "/service-areas/santee-ca/general-contracting/",
     "/service-areas/bonsall-ca/",
     "/service-areas/camp-pendleton-mainside-ca/",
-    "/service-areas/carlsbad-ca/"
+    "/service-areas/camp-pendleton-south-ca/"
   ],
   "/service-areas/poway-ca/": [
     "/service-areas/",
@@ -362,7 +364,7 @@
     "/service-areas/poway-ca/general-contracting/",
     "/service-areas/bonsall-ca/",
     "/service-areas/camp-pendleton-mainside-ca/",
-    "/service-areas/carlsbad-ca/"
+    "/service-areas/camp-pendleton-south-ca/"
   ],
   "/service-areas/national-city-ca/": [
     "/service-areas/",
@@ -376,7 +378,7 @@
     "/service-areas/national-city-ca/general-contracting/",
     "/service-areas/bonsall-ca/",
     "/service-areas/camp-pendleton-mainside-ca/",
-    "/service-areas/carlsbad-ca/"
+    "/service-areas/camp-pendleton-south-ca/"
   ],
   "/service-areas/spring-valley-ca/": [
     "/service-areas/",
@@ -390,7 +392,7 @@
     "/service-areas/spring-valley-ca/general-contracting/",
     "/service-areas/bonsall-ca/",
     "/service-areas/camp-pendleton-mainside-ca/",
-    "/service-areas/carlsbad-ca/"
+    "/service-areas/camp-pendleton-south-ca/"
   ],
   "/service-areas/temecula-ca/": [
     "/service-areas/",
@@ -404,7 +406,7 @@
     "/service-areas/temecula-ca/general-contracting/",
     "/service-areas/bonsall-ca/",
     "/service-areas/camp-pendleton-mainside-ca/",
-    "/service-areas/carlsbad-ca/"
+    "/service-areas/camp-pendleton-south-ca/"
   ],
   "/service-areas/harmony-grove-ca/": [
     "/service-areas/",
@@ -418,7 +420,7 @@
     "/service-areas/harmony-grove-ca/general-contracting/",
     "/service-areas/bonsall-ca/",
     "/service-areas/camp-pendleton-mainside-ca/",
-    "/service-areas/carlsbad-ca/"
+    "/service-areas/camp-pendleton-south-ca/"
   ],
   "/service-areas/hidden-meadows-ca/": [
     "/service-areas/",
@@ -432,7 +434,7 @@
     "/service-areas/hidden-meadows-ca/general-contracting/",
     "/service-areas/bonsall-ca/",
     "/service-areas/camp-pendleton-mainside-ca/",
-    "/service-areas/carlsbad-ca/"
+    "/service-areas/camp-pendleton-south-ca/"
   ],
   "/service-areas/bonsall-ca/": [
     "/service-areas/",
@@ -445,8 +447,8 @@
     "/service-areas/bonsall-ca/burst-pipe-repair/",
     "/service-areas/bonsall-ca/general-contracting/",
     "/service-areas/camp-pendleton-mainside-ca/",
-    "/service-areas/carlsbad-ca/",
-    "/service-areas/chula-vista-ca/"
+    "/service-areas/camp-pendleton-south-ca/",
+    "/service-areas/carlsbad-ca/"
   ],
   "/service-areas/rancho-santa-fe-ca/": [
     "/service-areas/",
@@ -460,7 +462,7 @@
     "/service-areas/rancho-santa-fe-ca/general-contracting/",
     "/service-areas/bonsall-ca/",
     "/service-areas/camp-pendleton-mainside-ca/",
-    "/service-areas/carlsbad-ca/"
+    "/service-areas/camp-pendleton-south-ca/"
   ],
   "/service-areas/valley-center-ca/": [
     "/service-areas/",
@@ -474,7 +476,7 @@
     "/service-areas/valley-center-ca/general-contracting/",
     "/service-areas/bonsall-ca/",
     "/service-areas/camp-pendleton-mainside-ca/",
-    "/service-areas/carlsbad-ca/"
+    "/service-areas/camp-pendleton-south-ca/"
   ],
   "/service-areas/fairbanks-ranch-ca/": [
     "/service-areas/",
@@ -488,7 +490,7 @@
     "/service-areas/fairbanks-ranch-ca/general-contracting/",
     "/service-areas/bonsall-ca/",
     "/service-areas/camp-pendleton-mainside-ca/",
-    "/service-areas/carlsbad-ca/"
+    "/service-areas/camp-pendleton-south-ca/"
   ],
   "/service-areas/solana-beach-ca/": [
     "/service-areas/",
@@ -502,7 +504,7 @@
     "/service-areas/solana-beach-ca/general-contracting/",
     "/service-areas/bonsall-ca/",
     "/service-areas/camp-pendleton-mainside-ca/",
-    "/service-areas/carlsbad-ca/"
+    "/service-areas/camp-pendleton-south-ca/"
   ],
   "/service-areas/del-mar-ca/": [
     "/service-areas/",
@@ -516,7 +518,7 @@
     "/service-areas/del-mar-ca/general-contracting/",
     "/service-areas/bonsall-ca/",
     "/service-areas/camp-pendleton-mainside-ca/",
-    "/service-areas/carlsbad-ca/"
+    "/service-areas/camp-pendleton-south-ca/"
   ],
   "/service-areas/camp-pendleton-mainside-ca/": [
     "/service-areas/",
@@ -529,8 +531,22 @@
     "/service-areas/camp-pendleton-mainside-ca/burst-pipe-repair/",
     "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
     "/service-areas/bonsall-ca/",
-    "/service-areas/carlsbad-ca/",
-    "/service-areas/chula-vista-ca/"
+    "/service-areas/camp-pendleton-south-ca/",
+    "/service-areas/carlsbad-ca/"
+  ],
+  "/service-areas/camp-pendleton-south-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/camp-pendleton-south-ca/water-damage-restoration/",
+    "/service-areas/camp-pendleton-south-ca/flood-damage-restoration/",
+    "/service-areas/camp-pendleton-south-ca/reconstruction/",
+    "/service-areas/camp-pendleton-south-ca/water-cleanup/",
+    "/service-areas/camp-pendleton-south-ca/basement-flooding-cleanup/",
+    "/service-areas/camp-pendleton-south-ca/burst-pipe-repair/",
+    "/service-areas/camp-pendleton-south-ca/general-contracting/",
+    "/service-areas/bonsall-ca/",
+    "/service-areas/camp-pendleton-mainside-ca/",
+    "/service-areas/carlsbad-ca/"
   ],
   "/service-areas/chula-vista-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
@@ -1546,7 +1562,7 @@
     "/service-areas/bonsall-ca/flood-damage-restoration/",
     "/service-areas/bonsall-ca/reconstruction/",
     "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/",
-    "/service-areas/carlsbad-ca/water-damage-restoration/",
+    "/service-areas/camp-pendleton-south-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/bonsall-ca/flood-damage-restoration/": [
@@ -1555,7 +1571,7 @@
     "/service-areas/bonsall-ca/water-damage-restoration/",
     "/service-areas/bonsall-ca/reconstruction/",
     "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/",
-    "/service-areas/carlsbad-ca/flood-damage-restoration/",
+    "/service-areas/camp-pendleton-south-ca/flood-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/bonsall-ca/burst-pipe-repair/": [
@@ -1564,7 +1580,7 @@
     "/service-areas/bonsall-ca/water-damage-restoration/",
     "/service-areas/bonsall-ca/flood-damage-restoration/",
     "/service-areas/camp-pendleton-mainside-ca/burst-pipe-repair/",
-    "/service-areas/carlsbad-ca/burst-pipe-repair/",
+    "/service-areas/camp-pendleton-south-ca/burst-pipe-repair/",
     "/contact/"
   ],
   "/service-areas/bonsall-ca/basement-flooding-cleanup/": [
@@ -1573,7 +1589,7 @@
     "/service-areas/bonsall-ca/water-damage-restoration/",
     "/service-areas/bonsall-ca/flood-damage-restoration/",
     "/service-areas/camp-pendleton-mainside-ca/basement-flooding-cleanup/",
-    "/service-areas/carlsbad-ca/basement-flooding-cleanup/",
+    "/service-areas/camp-pendleton-south-ca/basement-flooding-cleanup/",
     "/contact/"
   ],
   "/service-areas/bonsall-ca/reconstruction/": [
@@ -1582,7 +1598,7 @@
     "/service-areas/bonsall-ca/water-damage-restoration/",
     "/service-areas/bonsall-ca/flood-damage-restoration/",
     "/service-areas/camp-pendleton-mainside-ca/reconstruction/",
-    "/service-areas/carlsbad-ca/reconstruction/",
+    "/service-areas/camp-pendleton-south-ca/reconstruction/",
     "/contact/"
   ],
   "/service-areas/bonsall-ca/general-contracting/": [
@@ -1591,7 +1607,7 @@
     "/service-areas/bonsall-ca/water-damage-restoration/",
     "/service-areas/bonsall-ca/flood-damage-restoration/",
     "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
-    "/service-areas/carlsbad-ca/general-contracting/",
+    "/service-areas/camp-pendleton-south-ca/general-contracting/",
     "/contact/"
   ],
   "/service-areas/bonsall-ca/water-cleanup/": [
@@ -1600,7 +1616,7 @@
     "/service-areas/bonsall-ca/water-damage-restoration/",
     "/service-areas/bonsall-ca/flood-damage-restoration/",
     "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
-    "/service-areas/carlsbad-ca/water-cleanup/",
+    "/service-areas/camp-pendleton-south-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/rancho-santa-fe-ca/water-damage-restoration/": [
@@ -1924,7 +1940,7 @@
     "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/",
     "/service-areas/camp-pendleton-mainside-ca/reconstruction/",
     "/service-areas/bonsall-ca/water-damage-restoration/",
-    "/service-areas/carlsbad-ca/water-damage-restoration/",
+    "/service-areas/camp-pendleton-south-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/": [
@@ -1933,7 +1949,7 @@
     "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/",
     "/service-areas/camp-pendleton-mainside-ca/reconstruction/",
     "/service-areas/bonsall-ca/flood-damage-restoration/",
-    "/service-areas/carlsbad-ca/flood-damage-restoration/",
+    "/service-areas/camp-pendleton-south-ca/flood-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/camp-pendleton-mainside-ca/burst-pipe-repair/": [
@@ -1942,7 +1958,7 @@
     "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/",
     "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/",
     "/service-areas/bonsall-ca/burst-pipe-repair/",
-    "/service-areas/carlsbad-ca/burst-pipe-repair/",
+    "/service-areas/camp-pendleton-south-ca/burst-pipe-repair/",
     "/contact/"
   ],
   "/service-areas/camp-pendleton-mainside-ca/basement-flooding-cleanup/": [
@@ -1951,7 +1967,7 @@
     "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/",
     "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/",
     "/service-areas/bonsall-ca/basement-flooding-cleanup/",
-    "/service-areas/carlsbad-ca/basement-flooding-cleanup/",
+    "/service-areas/camp-pendleton-south-ca/basement-flooding-cleanup/",
     "/contact/"
   ],
   "/service-areas/camp-pendleton-mainside-ca/reconstruction/": [
@@ -1960,7 +1976,7 @@
     "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/",
     "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/",
     "/service-areas/bonsall-ca/reconstruction/",
-    "/service-areas/carlsbad-ca/reconstruction/",
+    "/service-areas/camp-pendleton-south-ca/reconstruction/",
     "/contact/"
   ],
   "/service-areas/camp-pendleton-mainside-ca/general-contracting/": [
@@ -1969,7 +1985,7 @@
     "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/",
     "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/",
     "/service-areas/bonsall-ca/general-contracting/",
-    "/service-areas/carlsbad-ca/general-contracting/",
+    "/service-areas/camp-pendleton-south-ca/general-contracting/",
     "/contact/"
   ],
   "/service-areas/camp-pendleton-mainside-ca/water-cleanup/": [
@@ -1978,7 +1994,70 @@
     "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/",
     "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/",
     "/service-areas/bonsall-ca/water-cleanup/",
-    "/service-areas/carlsbad-ca/water-cleanup/",
+    "/service-areas/camp-pendleton-south-ca/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/camp-pendleton-south-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/camp-pendleton-south-ca/",
+    "/service-areas/camp-pendleton-south-ca/flood-damage-restoration/",
+    "/service-areas/camp-pendleton-south-ca/reconstruction/",
+    "/service-areas/bonsall-ca/water-damage-restoration/",
+    "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/camp-pendleton-south-ca/flood-damage-restoration/": [
+    "/services/flood-damage-restoration/",
+    "/service-areas/camp-pendleton-south-ca/",
+    "/service-areas/camp-pendleton-south-ca/water-damage-restoration/",
+    "/service-areas/camp-pendleton-south-ca/reconstruction/",
+    "/service-areas/bonsall-ca/flood-damage-restoration/",
+    "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/camp-pendleton-south-ca/burst-pipe-repair/": [
+    "/services/burst-pipe-repair/",
+    "/service-areas/camp-pendleton-south-ca/",
+    "/service-areas/camp-pendleton-south-ca/water-damage-restoration/",
+    "/service-areas/camp-pendleton-south-ca/flood-damage-restoration/",
+    "/service-areas/bonsall-ca/burst-pipe-repair/",
+    "/service-areas/camp-pendleton-mainside-ca/burst-pipe-repair/",
+    "/contact/"
+  ],
+  "/service-areas/camp-pendleton-south-ca/basement-flooding-cleanup/": [
+    "/services/basement-flooding-cleanup/",
+    "/service-areas/camp-pendleton-south-ca/",
+    "/service-areas/camp-pendleton-south-ca/water-damage-restoration/",
+    "/service-areas/camp-pendleton-south-ca/flood-damage-restoration/",
+    "/service-areas/bonsall-ca/basement-flooding-cleanup/",
+    "/service-areas/camp-pendleton-mainside-ca/basement-flooding-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/camp-pendleton-south-ca/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/camp-pendleton-south-ca/",
+    "/service-areas/camp-pendleton-south-ca/water-damage-restoration/",
+    "/service-areas/camp-pendleton-south-ca/flood-damage-restoration/",
+    "/service-areas/bonsall-ca/reconstruction/",
+    "/service-areas/camp-pendleton-mainside-ca/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/camp-pendleton-south-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/camp-pendleton-south-ca/",
+    "/service-areas/camp-pendleton-south-ca/water-damage-restoration/",
+    "/service-areas/camp-pendleton-south-ca/flood-damage-restoration/",
+    "/service-areas/bonsall-ca/general-contracting/",
+    "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/camp-pendleton-south-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/camp-pendleton-south-ca/",
+    "/service-areas/camp-pendleton-south-ca/water-damage-restoration/",
+    "/service-areas/camp-pendleton-south-ca/flood-damage-restoration/",
+    "/service-areas/bonsall-ca/water-cleanup/",
+    "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
     "/contact/"
   ],
   "/blog/what-to-do-first-24-hours-water-damage/": [

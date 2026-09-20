@@ -1,20 +1,20 @@
 # Site Plan Report — TDI USA, Inc.
 
 - Template: `construction` v0.1.0
-- Generated: 2026-09-20T19:37:26.678789+00:00
+- Generated: 2026-09-20T20:42:26.164138+00:00
 - Domain: `tdiusa.com`
 - Services selected: 12 of 23 catalog entries
-- Service areas: 26
+- Service areas: 27
 - Cross-product enabled: True
-- Total URLs: **354**
-- Total internal links: 2843 (avg 8.0 per page)
+- Total URLs: **367**
+- Total internal links: 2946 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 300 |
-| `service-area` | 25 |
+| `service-area-service` | 312 |
+| `service-area` | 26 |
 | `service-landing` | 12 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -68,6 +68,7 @@
 - `foothill-farms-ca` — Foothill Farms, CA
 - `rosemont-ca` — Rosemont, CA
 - `florin-ca` — Florin, CA
+- `woodland-ca` — Woodland, CA
 
 ## Top 10 priority pages
 

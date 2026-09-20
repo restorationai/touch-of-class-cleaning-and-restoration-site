@@ -23,6 +23,7 @@
     "/service-areas/sauk-rapids-mn/",
     "/service-areas/sobieski-mn/",
     "/service-areas/st-cloud-mn/",
+    "/service-areas/st-stephen-mn/",
     "/service-areas/swanville-mn/",
     "/service-areas/upsala-mn/"
   ],
@@ -50,6 +51,7 @@
     "/service-areas/sauk-rapids-mn/",
     "/service-areas/sobieski-mn/",
     "/service-areas/st-cloud-mn/",
+    "/service-areas/st-stephen-mn/",
     "/service-areas/swanville-mn/",
     "/service-areas/upsala-mn/"
   ],
@@ -327,6 +329,17 @@
     "/service-areas/harding-mn/storm-damage-restoration/",
     "/service-areas/harding-mn/water-cleanup/",
     "/service-areas/harding-mn/general-contracting/",
+    "/service-areas/baxter-mn/",
+    "/service-areas/brainerd-mn/",
+    "/service-areas/elmdale-mn/"
+  ],
+  "/service-areas/st-stephen-mn/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/st-stephen-mn/water-damage-restoration/",
+    "/service-areas/st-stephen-mn/storm-damage-restoration/",
+    "/service-areas/st-stephen-mn/water-cleanup/",
+    "/service-areas/st-stephen-mn/general-contracting/",
     "/service-areas/baxter-mn/",
     "/service-areas/brainerd-mn/",
     "/service-areas/elmdale-mn/"
@@ -939,6 +952,42 @@
     "/service-areas/harding-mn/",
     "/service-areas/harding-mn/water-damage-restoration/",
     "/service-areas/harding-mn/storm-damage-restoration/",
+    "/service-areas/baxter-mn/water-cleanup/",
+    "/service-areas/brainerd-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/st-stephen-mn/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/st-stephen-mn/",
+    "/service-areas/st-stephen-mn/storm-damage-restoration/",
+    "/service-areas/st-stephen-mn/water-cleanup/",
+    "/service-areas/baxter-mn/water-damage-restoration/",
+    "/service-areas/brainerd-mn/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/st-stephen-mn/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/st-stephen-mn/",
+    "/service-areas/st-stephen-mn/water-damage-restoration/",
+    "/service-areas/st-stephen-mn/water-cleanup/",
+    "/service-areas/baxter-mn/storm-damage-restoration/",
+    "/service-areas/brainerd-mn/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/st-stephen-mn/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/st-stephen-mn/",
+    "/service-areas/st-stephen-mn/water-damage-restoration/",
+    "/service-areas/st-stephen-mn/storm-damage-restoration/",
+    "/service-areas/baxter-mn/general-contracting/",
+    "/service-areas/brainerd-mn/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/st-stephen-mn/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/st-stephen-mn/",
+    "/service-areas/st-stephen-mn/water-damage-restoration/",
+    "/service-areas/st-stephen-mn/storm-damage-restoration/",
     "/service-areas/baxter-mn/water-cleanup/",
     "/service-areas/brainerd-mn/water-cleanup/",
     "/contact/"

@@ -1,21 +1,21 @@
 # Site Plan Report — FireDEX Butler
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T19:36:56.806251+00:00
+- Generated: 2026-09-20T20:41:46.310444+00:00
 - Domain: `firedex.net`
 - Services selected: 18 of 65 catalog entries
-- Service areas: 18
+- Service areas: 19
 - Cross-product enabled: True
-- Total URLs: **362**
-- Total internal links: 2956 (avg 8.2 per page)
+- Total URLs: **381**
+- Total internal links: 3107 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 306 |
+| `service-area-service` | 324 |
 | `service-landing` | 18 |
-| `service-area` | 17 |
+| `service-area` | 18 |
 | `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -66,6 +66,7 @@
 - `aliquippa-pa` — Aliquippa, PA
 - `sewickley-hills-pa` — Sewickley Hills, PA
 - `allison-park-pa` — Allison Park, PA
+- `prospect-pa` — Prospect, PA
 
 ## Top 10 priority pages
 

@@ -388,6 +388,11 @@
       "city": "Waiahole-Waikane",
       "state": "HI",
       "slug": "waiahole-waikane-hi"
+    },
+    {
+      "city": "Kalaeloa",
+      "state": "HI",
+      "slug": "kalaeloa-hi"
     }
   ],
   "brand": {

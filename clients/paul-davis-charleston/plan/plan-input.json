@@ -82,6 +82,11 @@
       "city": "Ravenel",
       "state": "SC",
       "slug": "ravenel-sc"
+    },
+    {
+      "city": "Moncks Corner",
+      "state": "SC",
+      "slug": "moncks-corner-sc"
     }
   ]
 }

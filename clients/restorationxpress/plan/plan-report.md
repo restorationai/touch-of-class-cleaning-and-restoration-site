@@ -1,20 +1,20 @@
 # Site Plan Report — RestorationXpress 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T19:37:24.374114+00:00
+- Generated: 2026-09-20T20:42:23.395662+00:00
 - Domain: `restorationxpress.com`
 - Services selected: 7 of 65 catalog entries
-- Service areas: 18
+- Service areas: 19
 - Cross-product enabled: True
-- Total URLs: **164**
-- Total internal links: 1282 (avg 7.8 per page)
+- Total URLs: **172**
+- Total internal links: 1345 (avg 7.8 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 119 |
-| `service-area` | 17 |
+| `service-area-service` | 126 |
+| `service-area` | 18 |
 | `blog-post` | 12 |
 | `service-landing` | 7 |
 | `legal` | 3 |
@@ -55,6 +55,7 @@
 - `southwest-ranches-fl` — Southwest Ranches, FL
 - `oakland-park-fl` — Oakland Park, FL
 - `country-club-fl` — Country Club, FL
+- `aventura-fl` — Aventura, FL
 
 ## Top 10 priority pages
 
@@ -67,9 +68,9 @@
 | `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration davie |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration davie |
 | `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup davie |
-| `/service-areas/cooper-city-fl/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration cooper city |
-| `/service-areas/cooper-city-fl/mold-remediation/` | `service-area-service` | 7.0 | mold remediation cooper city |
-| `/service-areas/cooper-city-fl/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration cooper city |
+| `/service-areas/aventura-fl/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration aventura |
+| `/service-areas/aventura-fl/mold-remediation/` | `service-area-service` | 7.0 | mold remediation aventura |
+| `/service-areas/aventura-fl/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration aventura |
 
 ## Validation
 

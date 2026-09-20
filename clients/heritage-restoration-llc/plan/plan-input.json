@@ -128,6 +128,11 @@
       "city": "Harding",
       "state": "MN",
       "slug": "harding-mn"
+    },
+    {
+      "city": "St. Stephen",
+      "state": "MN",
+      "slug": "st-stephen-mn"
     }
   ],
   "template": "restoration",

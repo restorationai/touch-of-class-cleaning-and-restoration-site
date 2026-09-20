@@ -21,6 +21,7 @@
     "/service-areas/raleigh-nc/",
     "/service-areas/rocky-mount-nc/",
     "/service-areas/rolesville-nc/",
+    "/service-areas/selma-nc/",
     "/service-areas/smithfield-nc/",
     "/service-areas/spring-hope-nc/",
     "/service-areas/wake-forest-nc/",
@@ -51,6 +52,7 @@
     "/service-areas/raleigh-nc/",
     "/service-areas/rocky-mount-nc/",
     "/service-areas/rolesville-nc/",
+    "/service-areas/selma-nc/",
     "/service-areas/smithfield-nc/",
     "/service-areas/spring-hope-nc/",
     "/service-areas/wake-forest-nc/",
@@ -92,9 +94,9 @@
     "/service-areas/raleigh-nc/water-damage-restoration/",
     "/service-areas/rocky-mount-nc/water-damage-restoration/",
     "/service-areas/rolesville-nc/water-damage-restoration/",
+    "/service-areas/selma-nc/water-damage-restoration/",
     "/service-areas/smithfield-nc/water-damage-restoration/",
     "/service-areas/spring-hope-nc/water-damage-restoration/",
-    "/service-areas/wake-forest-nc/water-damage-restoration/",
     "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -112,9 +114,9 @@
     "/service-areas/raleigh-nc/fire-damage-restoration/",
     "/service-areas/rocky-mount-nc/fire-damage-restoration/",
     "/service-areas/rolesville-nc/fire-damage-restoration/",
+    "/service-areas/selma-nc/fire-damage-restoration/",
     "/service-areas/smithfield-nc/fire-damage-restoration/",
     "/service-areas/spring-hope-nc/fire-damage-restoration/",
-    "/service-areas/wake-forest-nc/fire-damage-restoration/",
     "/blog/choosing-a-restoration-company/",
     "/blog/fire-damage-restoration-process/"
   ],
@@ -130,9 +132,9 @@
     "/service-areas/raleigh-nc/mold-remediation/",
     "/service-areas/rocky-mount-nc/mold-remediation/",
     "/service-areas/rolesville-nc/mold-remediation/",
+    "/service-areas/selma-nc/mold-remediation/",
     "/service-areas/smithfield-nc/mold-remediation/",
     "/service-areas/spring-hope-nc/mold-remediation/",
-    "/service-areas/wake-forest-nc/mold-remediation/",
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
     "/blog/signs-of-hidden-mold/"
@@ -149,9 +151,9 @@
     "/service-areas/raleigh-nc/crawl-space-encapsulation/",
     "/service-areas/rocky-mount-nc/crawl-space-encapsulation/",
     "/service-areas/rolesville-nc/crawl-space-encapsulation/",
+    "/service-areas/selma-nc/crawl-space-encapsulation/",
     "/service-areas/smithfield-nc/crawl-space-encapsulation/",
-    "/service-areas/spring-hope-nc/crawl-space-encapsulation/",
-    "/service-areas/wake-forest-nc/crawl-space-encapsulation/"
+    "/service-areas/spring-hope-nc/crawl-space-encapsulation/"
   ],
   "/services/air-duct-cleaning/": [
     "/services/",
@@ -165,9 +167,9 @@
     "/service-areas/raleigh-nc/air-duct-cleaning/",
     "/service-areas/rocky-mount-nc/air-duct-cleaning/",
     "/service-areas/rolesville-nc/air-duct-cleaning/",
+    "/service-areas/selma-nc/air-duct-cleaning/",
     "/service-areas/smithfield-nc/air-duct-cleaning/",
-    "/service-areas/spring-hope-nc/air-duct-cleaning/",
-    "/service-areas/wake-forest-nc/air-duct-cleaning/"
+    "/service-areas/spring-hope-nc/air-duct-cleaning/"
   ],
   "/services/carpet-cleaning/": [
     "/services/",
@@ -181,9 +183,9 @@
     "/service-areas/raleigh-nc/carpet-cleaning/",
     "/service-areas/rocky-mount-nc/carpet-cleaning/",
     "/service-areas/rolesville-nc/carpet-cleaning/",
+    "/service-areas/selma-nc/carpet-cleaning/",
     "/service-areas/smithfield-nc/carpet-cleaning/",
-    "/service-areas/spring-hope-nc/carpet-cleaning/",
-    "/service-areas/wake-forest-nc/carpet-cleaning/"
+    "/service-areas/spring-hope-nc/carpet-cleaning/"
   ],
   "/services/insulation-removal-installation/": [
     "/services/",
@@ -197,9 +199,9 @@
     "/service-areas/raleigh-nc/insulation-removal-installation/",
     "/service-areas/rocky-mount-nc/insulation-removal-installation/",
     "/service-areas/rolesville-nc/insulation-removal-installation/",
+    "/service-areas/selma-nc/insulation-removal-installation/",
     "/service-areas/smithfield-nc/insulation-removal-installation/",
-    "/service-areas/spring-hope-nc/insulation-removal-installation/",
-    "/service-areas/wake-forest-nc/insulation-removal-installation/"
+    "/service-areas/spring-hope-nc/insulation-removal-installation/"
   ],
   "/services/water-cleanup/": [
     "/services/",
@@ -213,9 +215,9 @@
     "/service-areas/raleigh-nc/water-cleanup/",
     "/service-areas/rocky-mount-nc/water-cleanup/",
     "/service-areas/rolesville-nc/water-cleanup/",
+    "/service-areas/selma-nc/water-cleanup/",
     "/service-areas/smithfield-nc/water-cleanup/",
     "/service-areas/spring-hope-nc/water-cleanup/",
-    "/service-areas/wake-forest-nc/water-cleanup/",
     "/services/water-damage-restoration/"
   ],
   "/service-areas/raleigh-nc/": [
@@ -454,6 +456,21 @@
     "/service-areas/rolesville-nc/crawl-space-encapsulation/",
     "/service-areas/rolesville-nc/insulation-removal-installation/",
     "/service-areas/rolesville-nc/carpet-cleaning/",
+    "/service-areas/archer-lodge-nc/",
+    "/service-areas/clayton-nc/",
+    "/service-areas/durham-nc/"
+  ],
+  "/service-areas/selma-nc/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/selma-nc/fire-damage-restoration/",
+    "/service-areas/selma-nc/mold-remediation/",
+    "/service-areas/selma-nc/water-damage-restoration/",
+    "/service-areas/selma-nc/water-cleanup/",
+    "/service-areas/selma-nc/air-duct-cleaning/",
+    "/service-areas/selma-nc/crawl-space-encapsulation/",
+    "/service-areas/selma-nc/insulation-removal-installation/",
+    "/service-areas/selma-nc/carpet-cleaning/",
     "/service-areas/archer-lodge-nc/",
     "/service-areas/clayton-nc/",
     "/service-areas/durham-nc/"
@@ -1606,6 +1623,78 @@
     "/service-areas/rolesville-nc/",
     "/service-areas/rolesville-nc/fire-damage-restoration/",
     "/service-areas/rolesville-nc/mold-remediation/",
+    "/service-areas/archer-lodge-nc/water-cleanup/",
+    "/service-areas/clayton-nc/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/selma-nc/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/selma-nc/",
+    "/service-areas/selma-nc/fire-damage-restoration/",
+    "/service-areas/selma-nc/mold-remediation/",
+    "/service-areas/archer-lodge-nc/water-damage-restoration/",
+    "/service-areas/clayton-nc/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/selma-nc/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/selma-nc/",
+    "/service-areas/selma-nc/mold-remediation/",
+    "/service-areas/selma-nc/water-damage-restoration/",
+    "/service-areas/archer-lodge-nc/fire-damage-restoration/",
+    "/service-areas/clayton-nc/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/selma-nc/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/selma-nc/",
+    "/service-areas/selma-nc/fire-damage-restoration/",
+    "/service-areas/selma-nc/water-damage-restoration/",
+    "/service-areas/archer-lodge-nc/mold-remediation/",
+    "/service-areas/clayton-nc/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/selma-nc/crawl-space-encapsulation/": [
+    "/services/crawl-space-encapsulation/",
+    "/service-areas/selma-nc/",
+    "/service-areas/selma-nc/fire-damage-restoration/",
+    "/service-areas/selma-nc/mold-remediation/",
+    "/service-areas/archer-lodge-nc/crawl-space-encapsulation/",
+    "/service-areas/clayton-nc/crawl-space-encapsulation/",
+    "/contact/"
+  ],
+  "/service-areas/selma-nc/air-duct-cleaning/": [
+    "/services/air-duct-cleaning/",
+    "/service-areas/selma-nc/",
+    "/service-areas/selma-nc/fire-damage-restoration/",
+    "/service-areas/selma-nc/mold-remediation/",
+    "/service-areas/archer-lodge-nc/air-duct-cleaning/",
+    "/service-areas/clayton-nc/air-duct-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/selma-nc/carpet-cleaning/": [
+    "/services/carpet-cleaning/",
+    "/service-areas/selma-nc/",
+    "/service-areas/selma-nc/fire-damage-restoration/",
+    "/service-areas/selma-nc/mold-remediation/",
+    "/service-areas/archer-lodge-nc/carpet-cleaning/",
+    "/service-areas/clayton-nc/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/selma-nc/insulation-removal-installation/": [
+    "/services/insulation-removal-installation/",
+    "/service-areas/selma-nc/",
+    "/service-areas/selma-nc/fire-damage-restoration/",
+    "/service-areas/selma-nc/mold-remediation/",
+    "/service-areas/archer-lodge-nc/insulation-removal-installation/",
+    "/service-areas/clayton-nc/insulation-removal-installation/",
+    "/contact/"
+  ],
+  "/service-areas/selma-nc/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/selma-nc/",
+    "/service-areas/selma-nc/fire-damage-restoration/",
+    "/service-areas/selma-nc/mold-remediation/",
     "/service-areas/archer-lodge-nc/water-cleanup/",
     "/service-areas/clayton-nc/water-cleanup/",
     "/contact/"

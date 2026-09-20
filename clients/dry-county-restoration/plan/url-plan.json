@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-20T19:36:53.950421+00:00",
+  "generated_at": "2026-09-20T20:41:43.280684+00:00",
   "input_summary": {
     "service_count": 12,
-    "service_area_count": 18,
+    "service_area_count": 19,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -63,6 +63,7 @@
         "/service-areas/fullerton-ca/",
         "/service-areas/jurupa-valley-ca/",
         "/service-areas/lake-mathews-ca/",
+        "/service-areas/montclair-ca/",
         "/service-areas/norco-ca/",
         "/service-areas/north-tustin-ca/",
         "/service-areas/ontario-ca/",
@@ -155,6 +156,7 @@
         "/service-areas/fullerton-ca/",
         "/service-areas/jurupa-valley-ca/",
         "/service-areas/lake-mathews-ca/",
+        "/service-areas/montclair-ca/",
         "/service-areas/norco-ca/",
         "/service-areas/north-tustin-ca/",
         "/service-areas/ontario-ca/",
@@ -315,11 +317,11 @@
         "/service-areas/fullerton-ca/water-damage-restoration/",
         "/service-areas/jurupa-valley-ca/water-damage-restoration/",
         "/service-areas/lake-mathews-ca/water-damage-restoration/",
+        "/service-areas/montclair-ca/water-damage-restoration/",
         "/service-areas/norco-ca/water-damage-restoration/",
         "/service-areas/north-tustin-ca/water-damage-restoration/",
         "/service-areas/ontario-ca/water-damage-restoration/",
         "/service-areas/riverside-ca/water-damage-restoration/",
-        "/service-areas/santa-ana-ca/water-damage-restoration/",
         "/services/water-cleanup/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
@@ -369,11 +371,11 @@
         "/service-areas/fullerton-ca/fire-damage-restoration/",
         "/service-areas/jurupa-valley-ca/fire-damage-restoration/",
         "/service-areas/lake-mathews-ca/fire-damage-restoration/",
+        "/service-areas/montclair-ca/fire-damage-restoration/",
         "/service-areas/norco-ca/fire-damage-restoration/",
         "/service-areas/north-tustin-ca/fire-damage-restoration/",
         "/service-areas/ontario-ca/fire-damage-restoration/",
         "/service-areas/riverside-ca/fire-damage-restoration/",
-        "/service-areas/santa-ana-ca/fire-damage-restoration/",
         "/blog/choosing-a-restoration-company/",
         "/blog/fire-damage-restoration-process/"
       ]
@@ -421,11 +423,11 @@
         "/service-areas/fullerton-ca/mold-remediation/",
         "/service-areas/jurupa-valley-ca/mold-remediation/",
         "/service-areas/lake-mathews-ca/mold-remediation/",
+        "/service-areas/montclair-ca/mold-remediation/",
         "/service-areas/norco-ca/mold-remediation/",
         "/service-areas/north-tustin-ca/mold-remediation/",
         "/service-areas/ontario-ca/mold-remediation/",
         "/service-areas/riverside-ca/mold-remediation/",
-        "/service-areas/santa-ana-ca/mold-remediation/",
         "/blog/choosing-a-restoration-company/",
         "/blog/how-to-test-for-mold/",
         "/blog/signs-of-hidden-mold/"
@@ -475,11 +477,11 @@
         "/service-areas/fullerton-ca/general-contracting/",
         "/service-areas/jurupa-valley-ca/general-contracting/",
         "/service-areas/lake-mathews-ca/general-contracting/",
+        "/service-areas/montclair-ca/general-contracting/",
         "/service-areas/norco-ca/general-contracting/",
         "/service-areas/north-tustin-ca/general-contracting/",
         "/service-areas/ontario-ca/general-contracting/",
-        "/service-areas/riverside-ca/general-contracting/",
-        "/service-areas/santa-ana-ca/general-contracting/"
+        "/service-areas/riverside-ca/general-contracting/"
       ]
     },
     {
@@ -525,11 +527,11 @@
         "/service-areas/fullerton-ca/storm-damage-restoration/",
         "/service-areas/jurupa-valley-ca/storm-damage-restoration/",
         "/service-areas/lake-mathews-ca/storm-damage-restoration/",
+        "/service-areas/montclair-ca/storm-damage-restoration/",
         "/service-areas/norco-ca/storm-damage-restoration/",
         "/service-areas/north-tustin-ca/storm-damage-restoration/",
         "/service-areas/ontario-ca/storm-damage-restoration/",
-        "/service-areas/riverside-ca/storm-damage-restoration/",
-        "/service-areas/santa-ana-ca/storm-damage-restoration/"
+        "/service-areas/riverside-ca/storm-damage-restoration/"
       ]
     },
     {
@@ -575,11 +577,11 @@
         "/service-areas/fullerton-ca/sewage-cleanup/",
         "/service-areas/jurupa-valley-ca/sewage-cleanup/",
         "/service-areas/lake-mathews-ca/sewage-cleanup/",
+        "/service-areas/montclair-ca/sewage-cleanup/",
         "/service-areas/norco-ca/sewage-cleanup/",
         "/service-areas/north-tustin-ca/sewage-cleanup/",
         "/service-areas/ontario-ca/sewage-cleanup/",
-        "/service-areas/riverside-ca/sewage-cleanup/",
-        "/service-areas/santa-ana-ca/sewage-cleanup/"
+        "/service-areas/riverside-ca/sewage-cleanup/"
       ]
     },
     {
@@ -625,11 +627,11 @@
         "/service-areas/fullerton-ca/emergency-board-up-tarping/",
         "/service-areas/jurupa-valley-ca/emergency-board-up-tarping/",
         "/service-areas/lake-mathews-ca/emergency-board-up-tarping/",
+        "/service-areas/montclair-ca/emergency-board-up-tarping/",
         "/service-areas/norco-ca/emergency-board-up-tarping/",
         "/service-areas/north-tustin-ca/emergency-board-up-tarping/",
         "/service-areas/ontario-ca/emergency-board-up-tarping/",
-        "/service-areas/riverside-ca/emergency-board-up-tarping/",
-        "/service-areas/santa-ana-ca/emergency-board-up-tarping/"
+        "/service-areas/riverside-ca/emergency-board-up-tarping/"
       ]
     },
     {
@@ -675,11 +677,11 @@
         "/service-areas/fullerton-ca/contents-restoration/",
         "/service-areas/jurupa-valley-ca/contents-restoration/",
         "/service-areas/lake-mathews-ca/contents-restoration/",
+        "/service-areas/montclair-ca/contents-restoration/",
         "/service-areas/norco-ca/contents-restoration/",
         "/service-areas/north-tustin-ca/contents-restoration/",
         "/service-areas/ontario-ca/contents-restoration/",
-        "/service-areas/riverside-ca/contents-restoration/",
-        "/service-areas/santa-ana-ca/contents-restoration/"
+        "/service-areas/riverside-ca/contents-restoration/"
       ]
     },
     {
@@ -725,11 +727,11 @@
         "/service-areas/fullerton-ca/air-duct-cleaning/",
         "/service-areas/jurupa-valley-ca/air-duct-cleaning/",
         "/service-areas/lake-mathews-ca/air-duct-cleaning/",
+        "/service-areas/montclair-ca/air-duct-cleaning/",
         "/service-areas/norco-ca/air-duct-cleaning/",
         "/service-areas/north-tustin-ca/air-duct-cleaning/",
         "/service-areas/ontario-ca/air-duct-cleaning/",
-        "/service-areas/riverside-ca/air-duct-cleaning/",
-        "/service-areas/santa-ana-ca/air-duct-cleaning/"
+        "/service-areas/riverside-ca/air-duct-cleaning/"
       ]
     },
     {
@@ -775,11 +777,11 @@
         "/service-areas/fullerton-ca/carpet-cleaning/",
         "/service-areas/jurupa-valley-ca/carpet-cleaning/",
         "/service-areas/lake-mathews-ca/carpet-cleaning/",
+        "/service-areas/montclair-ca/carpet-cleaning/",
         "/service-areas/norco-ca/carpet-cleaning/",
         "/service-areas/north-tustin-ca/carpet-cleaning/",
         "/service-areas/ontario-ca/carpet-cleaning/",
-        "/service-areas/riverside-ca/carpet-cleaning/",
-        "/service-areas/santa-ana-ca/carpet-cleaning/"
+        "/service-areas/riverside-ca/carpet-cleaning/"
       ]
     },
     {
@@ -824,11 +826,11 @@
         "/service-areas/fullerton-ca/post-construction-cleaning/",
         "/service-areas/jurupa-valley-ca/post-construction-cleaning/",
         "/service-areas/lake-mathews-ca/post-construction-cleaning/",
+        "/service-areas/montclair-ca/post-construction-cleaning/",
         "/service-areas/norco-ca/post-construction-cleaning/",
         "/service-areas/north-tustin-ca/post-construction-cleaning/",
         "/service-areas/ontario-ca/post-construction-cleaning/",
-        "/service-areas/riverside-ca/post-construction-cleaning/",
-        "/service-areas/santa-ana-ca/post-construction-cleaning/"
+        "/service-areas/riverside-ca/post-construction-cleaning/"
       ]
     },
     {
@@ -875,11 +877,11 @@
         "/service-areas/fullerton-ca/water-cleanup/",
         "/service-areas/jurupa-valley-ca/water-cleanup/",
         "/service-areas/lake-mathews-ca/water-cleanup/",
+        "/service-areas/montclair-ca/water-cleanup/",
         "/service-areas/norco-ca/water-cleanup/",
         "/service-areas/north-tustin-ca/water-cleanup/",
         "/service-areas/ontario-ca/water-cleanup/",
         "/service-areas/riverside-ca/water-cleanup/",
-        "/service-areas/santa-ana-ca/water-cleanup/",
         "/services/water-damage-restoration/"
       ]
     },
@@ -1711,6 +1713,55 @@
         "/service-areas/north-tustin-ca/contents-restoration/",
         "/service-areas/north-tustin-ca/carpet-cleaning/",
         "/service-areas/north-tustin-ca/post-construction-cleaning/",
+        "/service-areas/anaheim-ca/",
+        "/service-areas/chino-ca/",
+        "/service-areas/chino-hills-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/montclair-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Montclair, CA | Dry County Restoration",
+      "h1": "Restoration Services in Montclair",
+      "meta_description": "Serving Montclair, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (951) 667-9910.",
+      "primary_keyword": "restoration services montclair",
+      "secondary_keywords": [
+        "montclair restoration company",
+        "damage restoration montclair",
+        "montclair disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/montclair-ca/fire-damage-restoration/",
+        "/service-areas/montclair-ca/mold-remediation/",
+        "/service-areas/montclair-ca/water-damage-restoration/",
+        "/service-areas/montclair-ca/sewage-cleanup/",
+        "/service-areas/montclair-ca/storm-damage-restoration/",
+        "/service-areas/montclair-ca/water-cleanup/",
+        "/service-areas/montclair-ca/general-contracting/",
+        "/service-areas/montclair-ca/emergency-board-up-tarping/",
+        "/service-areas/montclair-ca/air-duct-cleaning/",
+        "/service-areas/montclair-ca/contents-restoration/",
+        "/service-areas/montclair-ca/carpet-cleaning/",
+        "/service-areas/montclair-ca/post-construction-cleaning/",
         "/service-areas/anaheim-ca/",
         "/service-areas/chino-ca/",
         "/service-areas/chino-hills-ca/"
@@ -10704,6 +10755,535 @@
         "/service-areas/north-tustin-ca/",
         "/service-areas/north-tustin-ca/fire-damage-restoration/",
         "/service-areas/north-tustin-ca/mold-remediation/",
+        "/service-areas/anaheim-ca/water-cleanup/",
+        "/service-areas/chino-ca/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/montclair-ca/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Montclair, CA | Dry County Restoration",
+      "h1": "Water Damage Restoration in Montclair",
+      "meta_description": "24/7 water damage restoration in Montclair, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
+      "primary_keyword": "water damage restoration montclair",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/montclair-ca/",
+        "/service-areas/montclair-ca/fire-damage-restoration/",
+        "/service-areas/montclair-ca/mold-remediation/",
+        "/service-areas/anaheim-ca/water-damage-restoration/",
+        "/service-areas/chino-ca/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/montclair-ca/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Montclair, CA | Dry County Restoration",
+      "h1": "Fire Damage Restoration in Montclair",
+      "meta_description": "24/7 fire damage restoration in Montclair, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
+      "primary_keyword": "fire damage restoration montclair",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/montclair-ca/",
+        "/service-areas/montclair-ca/mold-remediation/",
+        "/service-areas/montclair-ca/water-damage-restoration/",
+        "/service-areas/anaheim-ca/fire-damage-restoration/",
+        "/service-areas/chino-ca/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/montclair-ca/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Montclair, CA | Dry County Restoration",
+      "h1": "Mold Remediation in Montclair",
+      "meta_description": "24/7 mold remediation in Montclair, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
+      "primary_keyword": "mold remediation montclair",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/montclair-ca/",
+        "/service-areas/montclair-ca/fire-damage-restoration/",
+        "/service-areas/montclair-ca/water-damage-restoration/",
+        "/service-areas/anaheim-ca/mold-remediation/",
+        "/service-areas/chino-ca/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/montclair-ca/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Montclair, CA | Dry County Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Montclair",
+      "meta_description": "24/7 renovations, remodels and general contracting in Montclair, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
+      "primary_keyword": "renovations, remodels and general contracting montclair",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/montclair-ca/",
+        "/service-areas/montclair-ca/fire-damage-restoration/",
+        "/service-areas/montclair-ca/mold-remediation/",
+        "/service-areas/anaheim-ca/general-contracting/",
+        "/service-areas/chino-ca/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/montclair-ca/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Montclair, CA | Dry County Restoration",
+      "h1": "Storm Damage Restoration in Montclair",
+      "meta_description": "24/7 storm damage restoration in Montclair, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
+      "primary_keyword": "storm damage restoration montclair",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/montclair-ca/",
+        "/service-areas/montclair-ca/fire-damage-restoration/",
+        "/service-areas/montclair-ca/mold-remediation/",
+        "/service-areas/anaheim-ca/storm-damage-restoration/",
+        "/service-areas/chino-ca/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/montclair-ca/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Montclair, CA | Dry County Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Montclair",
+      "meta_description": "24/7 sewage cleanup and sanitization in Montclair, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
+      "primary_keyword": "sewage cleanup and sanitization montclair",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/montclair-ca/",
+        "/service-areas/montclair-ca/fire-damage-restoration/",
+        "/service-areas/montclair-ca/mold-remediation/",
+        "/service-areas/anaheim-ca/sewage-cleanup/",
+        "/service-areas/chino-ca/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/montclair-ca/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Montclair, CA | Dry County Restoration",
+      "h1": "Emergency Board-Up and Tarping in Montclair",
+      "meta_description": "24/7 emergency board-up and tarping in Montclair, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
+      "primary_keyword": "emergency board-up and tarping montclair",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/montclair-ca/",
+        "/service-areas/montclair-ca/fire-damage-restoration/",
+        "/service-areas/montclair-ca/mold-remediation/",
+        "/service-areas/anaheim-ca/emergency-board-up-tarping/",
+        "/service-areas/chino-ca/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/montclair-ca/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Montclair, CA | Dry County Restoration",
+      "h1": "Contents Restoration and Storage in Montclair",
+      "meta_description": "24/7 contents restoration and storage in Montclair, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
+      "primary_keyword": "contents restoration and storage montclair",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/montclair-ca/",
+        "/service-areas/montclair-ca/fire-damage-restoration/",
+        "/service-areas/montclair-ca/mold-remediation/",
+        "/service-areas/anaheim-ca/contents-restoration/",
+        "/service-areas/chino-ca/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/montclair-ca/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Montclair, CA | Dry County Restoration",
+      "h1": "Air Duct Cleaning in Montclair",
+      "meta_description": "24/7 air duct cleaning in Montclair, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
+      "primary_keyword": "air duct cleaning montclair",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/montclair-ca/",
+        "/service-areas/montclair-ca/fire-damage-restoration/",
+        "/service-areas/montclair-ca/mold-remediation/",
+        "/service-areas/anaheim-ca/air-duct-cleaning/",
+        "/service-areas/chino-ca/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/montclair-ca/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Montclair, CA | Dry County Restoration",
+      "h1": "Carpet Cleaning in Montclair",
+      "meta_description": "24/7 carpet cleaning in Montclair, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
+      "primary_keyword": "carpet cleaning montclair",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/montclair-ca/",
+        "/service-areas/montclair-ca/fire-damage-restoration/",
+        "/service-areas/montclair-ca/mold-remediation/",
+        "/service-areas/anaheim-ca/carpet-cleaning/",
+        "/service-areas/chino-ca/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/montclair-ca/post-construction-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction and Specialty Cleaning in Montclair, CA | Dry County Restoration",
+      "h1": "Post-Construction and Specialty Cleaning in Montclair",
+      "meta_description": "24/7 post-construction and specialty cleaning in Montclair, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
+      "primary_keyword": "post-construction and specialty cleaning montclair",
+      "secondary_keywords": [
+        "post construction cleanup",
+        "construction debris cleaning",
+        "final clean",
+        "deep cleaning after renovation"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-cleaning/",
+        "/service-areas/montclair-ca/",
+        "/service-areas/montclair-ca/fire-damage-restoration/",
+        "/service-areas/montclair-ca/mold-remediation/",
+        "/service-areas/anaheim-ca/post-construction-cleaning/",
+        "/service-areas/chino-ca/post-construction-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/montclair-ca/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Montclair, CA | Dry County Restoration",
+      "h1": "Emergency Water Cleanup in Montclair",
+      "meta_description": "24/7 emergency water cleanup in Montclair, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
+      "primary_keyword": "emergency water cleanup montclair",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/montclair-ca/",
+        "/service-areas/montclair-ca/fire-damage-restoration/",
+        "/service-areas/montclair-ca/mold-remediation/",
         "/service-areas/anaheim-ca/water-cleanup/",
         "/service-areas/chino-ca/water-cleanup/",
         "/contact/"

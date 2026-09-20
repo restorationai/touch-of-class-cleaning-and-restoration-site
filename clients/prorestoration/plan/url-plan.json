@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-20T19:37:14.997531+00:00",
+  "generated_at": "2026-09-20T20:42:03.950826+00:00",
   "input_summary": {
     "service_count": 17,
-    "service_area_count": 20,
+    "service_area_count": 21,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -67,6 +67,7 @@
         "/service-areas/delano-ca/",
         "/service-areas/dustin-acres-ca/",
         "/service-areas/east-niles-ca/",
+        "/service-areas/keene-ca/",
         "/service-areas/lake-isabella-ca/",
         "/service-areas/lamont-ca/",
         "/service-areas/mcfarland-ca/",
@@ -166,6 +167,7 @@
         "/service-areas/delano-ca/",
         "/service-areas/dustin-acres-ca/",
         "/service-areas/east-niles-ca/",
+        "/service-areas/keene-ca/",
         "/service-areas/lake-isabella-ca/",
         "/service-areas/lamont-ca/",
         "/service-areas/mcfarland-ca/",
@@ -332,12 +334,12 @@
         "/service-areas/delano-ca/water-damage-restoration/",
         "/service-areas/dustin-acres-ca/water-damage-restoration/",
         "/service-areas/east-niles-ca/water-damage-restoration/",
+        "/service-areas/keene-ca/water-damage-restoration/",
         "/service-areas/lake-isabella-ca/water-damage-restoration/",
         "/service-areas/lamont-ca/water-damage-restoration/",
         "/service-areas/mcfarland-ca/water-damage-restoration/",
         "/service-areas/oildale-ca/water-damage-restoration/",
         "/service-areas/rosedale-ca/water-damage-restoration/",
-        "/service-areas/shafter-ca/water-damage-restoration/",
         "/services/water-cleanup/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
@@ -386,12 +388,12 @@
         "/service-areas/delano-ca/flood-damage-restoration/",
         "/service-areas/dustin-acres-ca/flood-damage-restoration/",
         "/service-areas/east-niles-ca/flood-damage-restoration/",
+        "/service-areas/keene-ca/flood-damage-restoration/",
         "/service-areas/lake-isabella-ca/flood-damage-restoration/",
         "/service-areas/lamont-ca/flood-damage-restoration/",
         "/service-areas/mcfarland-ca/flood-damage-restoration/",
         "/service-areas/oildale-ca/flood-damage-restoration/",
-        "/service-areas/rosedale-ca/flood-damage-restoration/",
-        "/service-areas/shafter-ca/flood-damage-restoration/"
+        "/service-areas/rosedale-ca/flood-damage-restoration/"
       ]
     },
     {
@@ -436,12 +438,12 @@
         "/service-areas/delano-ca/burst-pipe-repair/",
         "/service-areas/dustin-acres-ca/burst-pipe-repair/",
         "/service-areas/east-niles-ca/burst-pipe-repair/",
+        "/service-areas/keene-ca/burst-pipe-repair/",
         "/service-areas/lake-isabella-ca/burst-pipe-repair/",
         "/service-areas/lamont-ca/burst-pipe-repair/",
         "/service-areas/mcfarland-ca/burst-pipe-repair/",
         "/service-areas/oildale-ca/burst-pipe-repair/",
-        "/service-areas/rosedale-ca/burst-pipe-repair/",
-        "/service-areas/shafter-ca/burst-pipe-repair/"
+        "/service-areas/rosedale-ca/burst-pipe-repair/"
       ]
     },
     {
@@ -486,12 +488,12 @@
         "/service-areas/delano-ca/appliance-leak-cleanup/",
         "/service-areas/dustin-acres-ca/appliance-leak-cleanup/",
         "/service-areas/east-niles-ca/appliance-leak-cleanup/",
+        "/service-areas/keene-ca/appliance-leak-cleanup/",
         "/service-areas/lake-isabella-ca/appliance-leak-cleanup/",
         "/service-areas/lamont-ca/appliance-leak-cleanup/",
         "/service-areas/mcfarland-ca/appliance-leak-cleanup/",
         "/service-areas/oildale-ca/appliance-leak-cleanup/",
         "/service-areas/rosedale-ca/appliance-leak-cleanup/",
-        "/service-areas/shafter-ca/appliance-leak-cleanup/",
         "/blog/burst-pipe-emergency-checklist/"
       ]
     },
@@ -537,12 +539,12 @@
         "/service-areas/delano-ca/sewage-cleanup/",
         "/service-areas/dustin-acres-ca/sewage-cleanup/",
         "/service-areas/east-niles-ca/sewage-cleanup/",
+        "/service-areas/keene-ca/sewage-cleanup/",
         "/service-areas/lake-isabella-ca/sewage-cleanup/",
         "/service-areas/lamont-ca/sewage-cleanup/",
         "/service-areas/mcfarland-ca/sewage-cleanup/",
         "/service-areas/oildale-ca/sewage-cleanup/",
-        "/service-areas/rosedale-ca/sewage-cleanup/",
-        "/service-areas/shafter-ca/sewage-cleanup/"
+        "/service-areas/rosedale-ca/sewage-cleanup/"
       ]
     },
     {
@@ -587,12 +589,12 @@
         "/service-areas/delano-ca/fire-damage-restoration/",
         "/service-areas/dustin-acres-ca/fire-damage-restoration/",
         "/service-areas/east-niles-ca/fire-damage-restoration/",
+        "/service-areas/keene-ca/fire-damage-restoration/",
         "/service-areas/lake-isabella-ca/fire-damage-restoration/",
         "/service-areas/lamont-ca/fire-damage-restoration/",
         "/service-areas/mcfarland-ca/fire-damage-restoration/",
         "/service-areas/oildale-ca/fire-damage-restoration/",
         "/service-areas/rosedale-ca/fire-damage-restoration/",
-        "/service-areas/shafter-ca/fire-damage-restoration/",
         "/blog/choosing-a-restoration-company/",
         "/blog/fire-damage-restoration-process/",
         "/blog/smoke-odor-removal-techniques/"
@@ -640,12 +642,12 @@
         "/service-areas/delano-ca/smoke-damage-restoration/",
         "/service-areas/dustin-acres-ca/smoke-damage-restoration/",
         "/service-areas/east-niles-ca/smoke-damage-restoration/",
+        "/service-areas/keene-ca/smoke-damage-restoration/",
         "/service-areas/lake-isabella-ca/smoke-damage-restoration/",
         "/service-areas/lamont-ca/smoke-damage-restoration/",
         "/service-areas/mcfarland-ca/smoke-damage-restoration/",
         "/service-areas/oildale-ca/smoke-damage-restoration/",
         "/service-areas/rosedale-ca/smoke-damage-restoration/",
-        "/service-areas/shafter-ca/smoke-damage-restoration/",
         "/blog/fire-damage-restoration-process/",
         "/blog/smoke-odor-removal-techniques/"
       ]
@@ -692,12 +694,12 @@
         "/service-areas/delano-ca/soot-removal/",
         "/service-areas/dustin-acres-ca/soot-removal/",
         "/service-areas/east-niles-ca/soot-removal/",
+        "/service-areas/keene-ca/soot-removal/",
         "/service-areas/lake-isabella-ca/soot-removal/",
         "/service-areas/lamont-ca/soot-removal/",
         "/service-areas/mcfarland-ca/soot-removal/",
         "/service-areas/oildale-ca/soot-removal/",
-        "/service-areas/rosedale-ca/soot-removal/",
-        "/service-areas/shafter-ca/soot-removal/"
+        "/service-areas/rosedale-ca/soot-removal/"
       ]
     },
     {
@@ -742,12 +744,12 @@
         "/service-areas/delano-ca/odor-removal/",
         "/service-areas/dustin-acres-ca/odor-removal/",
         "/service-areas/east-niles-ca/odor-removal/",
+        "/service-areas/keene-ca/odor-removal/",
         "/service-areas/lake-isabella-ca/odor-removal/",
         "/service-areas/lamont-ca/odor-removal/",
         "/service-areas/mcfarland-ca/odor-removal/",
         "/service-areas/oildale-ca/odor-removal/",
-        "/service-areas/rosedale-ca/odor-removal/",
-        "/service-areas/shafter-ca/odor-removal/"
+        "/service-areas/rosedale-ca/odor-removal/"
       ]
     },
     {
@@ -792,12 +794,12 @@
         "/service-areas/delano-ca/mold-remediation/",
         "/service-areas/dustin-acres-ca/mold-remediation/",
         "/service-areas/east-niles-ca/mold-remediation/",
+        "/service-areas/keene-ca/mold-remediation/",
         "/service-areas/lake-isabella-ca/mold-remediation/",
         "/service-areas/lamont-ca/mold-remediation/",
         "/service-areas/mcfarland-ca/mold-remediation/",
         "/service-areas/oildale-ca/mold-remediation/",
         "/service-areas/rosedale-ca/mold-remediation/",
-        "/service-areas/shafter-ca/mold-remediation/",
         "/blog/choosing-a-restoration-company/",
         "/blog/how-to-test-for-mold/",
         "/blog/signs-of-hidden-mold/"
@@ -845,12 +847,12 @@
         "/service-areas/delano-ca/mold-inspection-testing/",
         "/service-areas/dustin-acres-ca/mold-inspection-testing/",
         "/service-areas/east-niles-ca/mold-inspection-testing/",
+        "/service-areas/keene-ca/mold-inspection-testing/",
         "/service-areas/lake-isabella-ca/mold-inspection-testing/",
         "/service-areas/lamont-ca/mold-inspection-testing/",
         "/service-areas/mcfarland-ca/mold-inspection-testing/",
         "/service-areas/oildale-ca/mold-inspection-testing/",
         "/service-areas/rosedale-ca/mold-inspection-testing/",
-        "/service-areas/shafter-ca/mold-inspection-testing/",
         "/blog/how-to-test-for-mold/"
       ]
     },
@@ -896,12 +898,12 @@
         "/service-areas/delano-ca/storm-damage-restoration/",
         "/service-areas/dustin-acres-ca/storm-damage-restoration/",
         "/service-areas/east-niles-ca/storm-damage-restoration/",
+        "/service-areas/keene-ca/storm-damage-restoration/",
         "/service-areas/lake-isabella-ca/storm-damage-restoration/",
         "/service-areas/lamont-ca/storm-damage-restoration/",
         "/service-areas/mcfarland-ca/storm-damage-restoration/",
         "/service-areas/oildale-ca/storm-damage-restoration/",
         "/service-areas/rosedale-ca/storm-damage-restoration/",
-        "/service-areas/shafter-ca/storm-damage-restoration/",
         "/blog/storm-damage-insurance-claim-checklist/"
       ]
     },
@@ -947,12 +949,12 @@
         "/service-areas/delano-ca/carpet-cleaning/",
         "/service-areas/dustin-acres-ca/carpet-cleaning/",
         "/service-areas/east-niles-ca/carpet-cleaning/",
+        "/service-areas/keene-ca/carpet-cleaning/",
         "/service-areas/lake-isabella-ca/carpet-cleaning/",
         "/service-areas/lamont-ca/carpet-cleaning/",
         "/service-areas/mcfarland-ca/carpet-cleaning/",
         "/service-areas/oildale-ca/carpet-cleaning/",
-        "/service-areas/rosedale-ca/carpet-cleaning/",
-        "/service-areas/shafter-ca/carpet-cleaning/"
+        "/service-areas/rosedale-ca/carpet-cleaning/"
       ]
     },
     {
@@ -997,12 +999,12 @@
         "/service-areas/delano-ca/reconstruction/",
         "/service-areas/dustin-acres-ca/reconstruction/",
         "/service-areas/east-niles-ca/reconstruction/",
+        "/service-areas/keene-ca/reconstruction/",
         "/service-areas/lake-isabella-ca/reconstruction/",
         "/service-areas/lamont-ca/reconstruction/",
         "/service-areas/mcfarland-ca/reconstruction/",
         "/service-areas/oildale-ca/reconstruction/",
-        "/service-areas/rosedale-ca/reconstruction/",
-        "/service-areas/shafter-ca/reconstruction/"
+        "/service-areas/rosedale-ca/reconstruction/"
       ]
     },
     {
@@ -1047,12 +1049,12 @@
         "/service-areas/delano-ca/home-remodeling/",
         "/service-areas/dustin-acres-ca/home-remodeling/",
         "/service-areas/east-niles-ca/home-remodeling/",
+        "/service-areas/keene-ca/home-remodeling/",
         "/service-areas/lake-isabella-ca/home-remodeling/",
         "/service-areas/lamont-ca/home-remodeling/",
         "/service-areas/mcfarland-ca/home-remodeling/",
         "/service-areas/oildale-ca/home-remodeling/",
         "/service-areas/rosedale-ca/home-remodeling/",
-        "/service-areas/shafter-ca/home-remodeling/",
         "/services/general-contracting/"
       ]
     },
@@ -1099,12 +1101,12 @@
         "/service-areas/delano-ca/general-contracting/",
         "/service-areas/dustin-acres-ca/general-contracting/",
         "/service-areas/east-niles-ca/general-contracting/",
+        "/service-areas/keene-ca/general-contracting/",
         "/service-areas/lake-isabella-ca/general-contracting/",
         "/service-areas/lamont-ca/general-contracting/",
         "/service-areas/mcfarland-ca/general-contracting/",
         "/service-areas/oildale-ca/general-contracting/",
         "/service-areas/rosedale-ca/general-contracting/",
-        "/service-areas/shafter-ca/general-contracting/",
         "/services/home-remodeling/"
       ]
     },
@@ -1151,12 +1153,12 @@
         "/service-areas/delano-ca/water-cleanup/",
         "/service-areas/dustin-acres-ca/water-cleanup/",
         "/service-areas/east-niles-ca/water-cleanup/",
+        "/service-areas/keene-ca/water-cleanup/",
         "/service-areas/lake-isabella-ca/water-cleanup/",
         "/service-areas/lamont-ca/water-cleanup/",
         "/service-areas/mcfarland-ca/water-cleanup/",
         "/service-areas/oildale-ca/water-cleanup/",
         "/service-areas/rosedale-ca/water-cleanup/",
-        "/service-areas/shafter-ca/water-cleanup/",
         "/services/water-damage-restoration/"
       ]
     },
@@ -2184,6 +2186,60 @@
         "/service-areas/arvin-ca/",
         "/service-areas/buttonwillow-ca/",
         "/service-areas/delano-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Keene, CA | ProRestoration Services",
+      "h1": "Restoration Services in Keene",
+      "meta_description": "Serving Keene, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (661) 393-9306.",
+      "primary_keyword": "restoration services keene",
+      "secondary_keywords": [
+        "keene restoration company",
+        "damage restoration keene",
+        "keene disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/keene-ca/fire-damage-restoration/",
+        "/service-areas/keene-ca/home-remodeling/",
+        "/service-areas/keene-ca/mold-remediation/",
+        "/service-areas/keene-ca/water-damage-restoration/",
+        "/service-areas/keene-ca/flood-damage-restoration/",
+        "/service-areas/keene-ca/reconstruction/",
+        "/service-areas/keene-ca/sewage-cleanup/",
+        "/service-areas/keene-ca/smoke-damage-restoration/",
+        "/service-areas/keene-ca/storm-damage-restoration/",
+        "/service-areas/keene-ca/water-cleanup/",
+        "/service-areas/keene-ca/burst-pipe-repair/",
+        "/service-areas/keene-ca/general-contracting/",
+        "/service-areas/keene-ca/mold-inspection-testing/",
+        "/service-areas/keene-ca/odor-removal/",
+        "/service-areas/keene-ca/soot-removal/",
+        "/service-areas/keene-ca/appliance-leak-cleanup/",
+        "/service-areas/keene-ca/carpet-cleaning/",
+        "/service-areas/arvin-ca/",
+        "/service-areas/bear-valley-springs-ca/",
+        "/service-areas/buttonwillow-ca/"
       ]
     },
     {
@@ -16433,6 +16489,756 @@
         "/service-areas/bear-valley-springs-ca/home-remodeling/",
         "/service-areas/arvin-ca/water-cleanup/",
         "/service-areas/buttonwillow-ca/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Keene, CA | ProRestoration Services",
+      "h1": "Water Damage Restoration in Keene",
+      "meta_description": "24/7 water damage restoration in Keene, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "water damage restoration keene",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/fire-damage-restoration/",
+        "/service-areas/keene-ca/home-remodeling/",
+        "/service-areas/arvin-ca/water-damage-restoration/",
+        "/service-areas/bear-valley-springs-ca/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Keene, CA | ProRestoration Services",
+      "h1": "Flood Damage Restoration in Keene",
+      "meta_description": "24/7 flood damage restoration in Keene, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "flood damage restoration keene",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/fire-damage-restoration/",
+        "/service-areas/keene-ca/home-remodeling/",
+        "/service-areas/arvin-ca/flood-damage-restoration/",
+        "/service-areas/bear-valley-springs-ca/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Keene, CA | ProRestoration Services",
+      "h1": "Burst Pipe Cleanup and Repair in Keene",
+      "meta_description": "24/7 burst pipe cleanup and repair in Keene, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "burst pipe cleanup and repair keene",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/fire-damage-restoration/",
+        "/service-areas/keene-ca/home-remodeling/",
+        "/service-areas/arvin-ca/burst-pipe-repair/",
+        "/service-areas/bear-valley-springs-ca/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/appliance-leak-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Appliance Leak Cleanup in Keene, CA | ProRestoration Services",
+      "h1": "Appliance Leak Cleanup in Keene",
+      "meta_description": "24/7 appliance leak cleanup in Keene, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "appliance leak cleanup keene",
+      "secondary_keywords": [
+        "dishwasher leak cleanup",
+        "washing machine flood",
+        "refrigerator leak cleanup",
+        "water heater leak cleanup",
+        "ice maker line leak"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/appliance-leak-cleanup/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/fire-damage-restoration/",
+        "/service-areas/keene-ca/home-remodeling/",
+        "/service-areas/arvin-ca/appliance-leak-cleanup/",
+        "/service-areas/bear-valley-springs-ca/appliance-leak-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Keene, CA | ProRestoration Services",
+      "h1": "Sewage Cleanup and Sanitization in Keene",
+      "meta_description": "24/7 sewage cleanup and sanitization in Keene, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "sewage cleanup and sanitization keene",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/fire-damage-restoration/",
+        "/service-areas/keene-ca/home-remodeling/",
+        "/service-areas/arvin-ca/sewage-cleanup/",
+        "/service-areas/bear-valley-springs-ca/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Keene, CA | ProRestoration Services",
+      "h1": "Fire Damage Restoration in Keene",
+      "meta_description": "24/7 fire damage restoration in Keene, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "fire damage restoration keene",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/home-remodeling/",
+        "/service-areas/keene-ca/mold-remediation/",
+        "/service-areas/arvin-ca/fire-damage-restoration/",
+        "/service-areas/bear-valley-springs-ca/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Keene, CA | ProRestoration Services",
+      "h1": "Smoke Damage Restoration in Keene",
+      "meta_description": "24/7 smoke damage restoration in Keene, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "smoke damage restoration keene",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/fire-damage-restoration/",
+        "/service-areas/keene-ca/home-remodeling/",
+        "/service-areas/arvin-ca/smoke-damage-restoration/",
+        "/service-areas/bear-valley-springs-ca/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/soot-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Soot Removal in Keene, CA | ProRestoration Services",
+      "h1": "Soot Removal in Keene",
+      "meta_description": "24/7 soot removal in Keene, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "soot removal keene",
+      "secondary_keywords": [
+        "soot cleaning",
+        "soot residue removal",
+        "post-fire soot cleanup",
+        "soot damage cleanup",
+        "soot wall cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/soot-removal/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/fire-damage-restoration/",
+        "/service-areas/keene-ca/home-remodeling/",
+        "/service-areas/arvin-ca/soot-removal/",
+        "/service-areas/bear-valley-springs-ca/soot-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/odor-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Odor Removal and Deodorization in Keene, CA | ProRestoration Services",
+      "h1": "Odor Removal and Deodorization in Keene",
+      "meta_description": "24/7 odor removal and deodorization in Keene, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "odor removal and deodorization keene",
+      "secondary_keywords": [
+        "smoke odor removal",
+        "ozone treatment",
+        "hydroxyl deodorization",
+        "thermal fogging",
+        "professional odor elimination"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/odor-removal/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/fire-damage-restoration/",
+        "/service-areas/keene-ca/home-remodeling/",
+        "/service-areas/arvin-ca/odor-removal/",
+        "/service-areas/bear-valley-springs-ca/odor-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Keene, CA | ProRestoration Services",
+      "h1": "Mold Remediation in Keene",
+      "meta_description": "24/7 mold remediation in Keene, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "mold remediation keene",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/fire-damage-restoration/",
+        "/service-areas/keene-ca/home-remodeling/",
+        "/service-areas/arvin-ca/mold-remediation/",
+        "/service-areas/bear-valley-springs-ca/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Keene, CA | ProRestoration Services",
+      "h1": "Mold Inspection and Testing in Keene",
+      "meta_description": "24/7 mold inspection and testing in Keene, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "mold inspection and testing keene",
+      "secondary_keywords": [
+        "mold inspection",
+        "mold testing",
+        "indoor air quality testing",
+        "mold spore testing",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/fire-damage-restoration/",
+        "/service-areas/keene-ca/home-remodeling/",
+        "/service-areas/arvin-ca/mold-inspection-testing/",
+        "/service-areas/bear-valley-springs-ca/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Keene, CA | ProRestoration Services",
+      "h1": "Storm Damage Restoration in Keene",
+      "meta_description": "24/7 storm damage restoration in Keene, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "storm damage restoration keene",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/fire-damage-restoration/",
+        "/service-areas/keene-ca/home-remodeling/",
+        "/service-areas/arvin-ca/storm-damage-restoration/",
+        "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Keene, CA | ProRestoration Services",
+      "h1": "Carpet Cleaning in Keene",
+      "meta_description": "24/7 carpet cleaning in Keene, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "carpet cleaning keene",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/fire-damage-restoration/",
+        "/service-areas/keene-ca/home-remodeling/",
+        "/service-areas/arvin-ca/carpet-cleaning/",
+        "/service-areas/bear-valley-springs-ca/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/reconstruction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Reconstruction Services in Keene, CA | ProRestoration Services",
+      "h1": "Reconstruction Services in Keene",
+      "meta_description": "24/7 reconstruction services in Keene, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "reconstruction services keene",
+      "secondary_keywords": [
+        "post-damage reconstruction",
+        "rebuild services",
+        "structural reconstruction",
+        "post-disaster rebuilding",
+        "fire damage reconstruction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/reconstruction/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/fire-damage-restoration/",
+        "/service-areas/keene-ca/home-remodeling/",
+        "/service-areas/arvin-ca/reconstruction/",
+        "/service-areas/bear-valley-springs-ca/reconstruction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/home-remodeling/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Home Remodeling in Keene, CA | ProRestoration Services",
+      "h1": "Home Remodeling in Keene",
+      "meta_description": "24/7 home remodeling in Keene, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "home remodeling keene",
+      "secondary_keywords": [
+        "home renovation",
+        "kitchen remodel",
+        "bathroom remodel",
+        "whole home remodel",
+        "interior remodeling contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/home-remodeling/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/fire-damage-restoration/",
+        "/service-areas/keene-ca/mold-remediation/",
+        "/service-areas/arvin-ca/home-remodeling/",
+        "/service-areas/bear-valley-springs-ca/home-remodeling/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Keene, CA | ProRestoration Services",
+      "h1": "Renovations, Remodels and General Contracting in Keene",
+      "meta_description": "24/7 renovations, remodels and general contracting in Keene, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "renovations, remodels and general contracting keene",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/fire-damage-restoration/",
+        "/service-areas/keene-ca/home-remodeling/",
+        "/service-areas/arvin-ca/general-contracting/",
+        "/service-areas/bear-valley-springs-ca/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Keene, CA | ProRestoration Services",
+      "h1": "Emergency Water Cleanup in Keene",
+      "meta_description": "24/7 emergency water cleanup in Keene, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "emergency water cleanup keene",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/fire-damage-restoration/",
+        "/service-areas/keene-ca/home-remodeling/",
+        "/service-areas/arvin-ca/water-cleanup/",
+        "/service-areas/bear-valley-springs-ca/water-cleanup/",
         "/contact/"
       ]
     },

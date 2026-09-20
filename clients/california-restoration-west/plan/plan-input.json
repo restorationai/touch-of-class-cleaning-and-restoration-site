@@ -128,6 +128,11 @@
       "city": "Lake Sherwood",
       "state": "CA",
       "slug": "lake-sherwood-ca"
+    },
+    {
+      "city": "Carpinteria",
+      "state": "CA",
+      "slug": "carpinteria-ca"
     }
   ],
   "template": "restoration",

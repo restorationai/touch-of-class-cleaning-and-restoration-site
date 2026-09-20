@@ -1,10 +1,10 @@
 {
   "template": "plumbing",
   "template_version": "0.1.0",
-  "generated_at": "2026-09-20T19:36:42.554225+00:00",
+  "generated_at": "2026-09-20T20:41:32.018392+00:00",
   "input_summary": {
     "service_count": 22,
-    "service_area_count": 16,
+    "service_area_count": 17,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -72,6 +72,7 @@
         "/service-areas/delano-ca/",
         "/service-areas/dustin-acres-ca/",
         "/service-areas/east-niles-ca/",
+        "/service-areas/keene-ca/",
         "/service-areas/lamont-ca/",
         "/service-areas/mcfarland-ca/",
         "/service-areas/oildale-ca/",
@@ -172,6 +173,7 @@
         "/service-areas/delano-ca/",
         "/service-areas/dustin-acres-ca/",
         "/service-areas/east-niles-ca/",
+        "/service-areas/keene-ca/",
         "/service-areas/lamont-ca/",
         "/service-areas/mcfarland-ca/",
         "/service-areas/oildale-ca/",
@@ -334,12 +336,12 @@
         "/service-areas/delano-ca/emergency-plumbing/",
         "/service-areas/dustin-acres-ca/emergency-plumbing/",
         "/service-areas/east-niles-ca/emergency-plumbing/",
+        "/service-areas/keene-ca/emergency-plumbing/",
         "/service-areas/lamont-ca/emergency-plumbing/",
         "/service-areas/mcfarland-ca/emergency-plumbing/",
         "/service-areas/oildale-ca/emergency-plumbing/",
         "/service-areas/rosedale-ca/emergency-plumbing/",
         "/service-areas/shafter-ca/emergency-plumbing/",
-        "/service-areas/taft-ca/emergency-plumbing/",
         "/blog/what-to-do-burst-pipe/"
       ]
     },
@@ -385,12 +387,12 @@
         "/service-areas/delano-ca/burst-pipe-repair/",
         "/service-areas/dustin-acres-ca/burst-pipe-repair/",
         "/service-areas/east-niles-ca/burst-pipe-repair/",
+        "/service-areas/keene-ca/burst-pipe-repair/",
         "/service-areas/lamont-ca/burst-pipe-repair/",
         "/service-areas/mcfarland-ca/burst-pipe-repair/",
         "/service-areas/oildale-ca/burst-pipe-repair/",
         "/service-areas/rosedale-ca/burst-pipe-repair/",
         "/service-areas/shafter-ca/burst-pipe-repair/",
-        "/service-areas/taft-ca/burst-pipe-repair/",
         "/blog/what-to-do-burst-pipe/"
       ]
     },
@@ -436,12 +438,12 @@
         "/service-areas/delano-ca/drain-cleaning/",
         "/service-areas/dustin-acres-ca/drain-cleaning/",
         "/service-areas/east-niles-ca/drain-cleaning/",
+        "/service-areas/keene-ca/drain-cleaning/",
         "/service-areas/lamont-ca/drain-cleaning/",
         "/service-areas/mcfarland-ca/drain-cleaning/",
         "/service-areas/oildale-ca/drain-cleaning/",
         "/service-areas/rosedale-ca/drain-cleaning/",
         "/service-areas/shafter-ca/drain-cleaning/",
-        "/service-areas/taft-ca/drain-cleaning/",
         "/blog/drain-cleaning-diy-vs-pro/",
         "/blog/hydro-jetting-vs-snaking/"
       ]
@@ -488,12 +490,12 @@
         "/service-areas/delano-ca/sewer-line-repair/",
         "/service-areas/dustin-acres-ca/sewer-line-repair/",
         "/service-areas/east-niles-ca/sewer-line-repair/",
+        "/service-areas/keene-ca/sewer-line-repair/",
         "/service-areas/lamont-ca/sewer-line-repair/",
         "/service-areas/mcfarland-ca/sewer-line-repair/",
         "/service-areas/oildale-ca/sewer-line-repair/",
         "/service-areas/rosedale-ca/sewer-line-repair/",
         "/service-areas/shafter-ca/sewer-line-repair/",
-        "/service-areas/taft-ca/sewer-line-repair/",
         "/blog/hydro-jetting-vs-snaking/",
         "/blog/trenchless-sewer-repair-explained/"
       ]
@@ -540,12 +542,12 @@
         "/service-areas/delano-ca/water-heater-repair/",
         "/service-areas/dustin-acres-ca/water-heater-repair/",
         "/service-areas/east-niles-ca/water-heater-repair/",
+        "/service-areas/keene-ca/water-heater-repair/",
         "/service-areas/lamont-ca/water-heater-repair/",
         "/service-areas/mcfarland-ca/water-heater-repair/",
         "/service-areas/oildale-ca/water-heater-repair/",
         "/service-areas/rosedale-ca/water-heater-repair/",
         "/service-areas/shafter-ca/water-heater-repair/",
-        "/service-areas/taft-ca/water-heater-repair/",
         "/blog/water-heater-lifespan-repair-or-replace/"
       ]
     },
@@ -591,12 +593,12 @@
         "/service-areas/delano-ca/water-heater-installation/",
         "/service-areas/dustin-acres-ca/water-heater-installation/",
         "/service-areas/east-niles-ca/water-heater-installation/",
+        "/service-areas/keene-ca/water-heater-installation/",
         "/service-areas/lamont-ca/water-heater-installation/",
         "/service-areas/mcfarland-ca/water-heater-installation/",
         "/service-areas/oildale-ca/water-heater-installation/",
         "/service-areas/rosedale-ca/water-heater-installation/",
         "/service-areas/shafter-ca/water-heater-installation/",
-        "/service-areas/taft-ca/water-heater-installation/",
         "/blog/tankless-vs-tank-water-heater/",
         "/blog/water-heater-lifespan-repair-or-replace/"
       ]
@@ -643,12 +645,12 @@
         "/service-areas/delano-ca/leak-detection/",
         "/service-areas/dustin-acres-ca/leak-detection/",
         "/service-areas/east-niles-ca/leak-detection/",
+        "/service-areas/keene-ca/leak-detection/",
         "/service-areas/lamont-ca/leak-detection/",
         "/service-areas/mcfarland-ca/leak-detection/",
         "/service-areas/oildale-ca/leak-detection/",
         "/service-areas/rosedale-ca/leak-detection/",
         "/service-areas/shafter-ca/leak-detection/",
-        "/service-areas/taft-ca/leak-detection/",
         "/blog/low-water-pressure-causes/",
         "/blog/signs-of-a-slab-leak/"
       ]
@@ -695,12 +697,12 @@
         "/service-areas/delano-ca/slab-leak-repair/",
         "/service-areas/dustin-acres-ca/slab-leak-repair/",
         "/service-areas/east-niles-ca/slab-leak-repair/",
+        "/service-areas/keene-ca/slab-leak-repair/",
         "/service-areas/lamont-ca/slab-leak-repair/",
         "/service-areas/mcfarland-ca/slab-leak-repair/",
         "/service-areas/oildale-ca/slab-leak-repair/",
         "/service-areas/rosedale-ca/slab-leak-repair/",
         "/service-areas/shafter-ca/slab-leak-repair/",
-        "/service-areas/taft-ca/slab-leak-repair/",
         "/blog/signs-of-a-slab-leak/"
       ]
     },
@@ -746,12 +748,12 @@
         "/service-areas/delano-ca/repiping/",
         "/service-areas/dustin-acres-ca/repiping/",
         "/service-areas/east-niles-ca/repiping/",
+        "/service-areas/keene-ca/repiping/",
         "/service-areas/lamont-ca/repiping/",
         "/service-areas/mcfarland-ca/repiping/",
         "/service-areas/oildale-ca/repiping/",
         "/service-areas/rosedale-ca/repiping/",
         "/service-areas/shafter-ca/repiping/",
-        "/service-areas/taft-ca/repiping/",
         "/blog/low-water-pressure-causes/"
       ]
     },
@@ -797,12 +799,12 @@
         "/service-areas/delano-ca/gas-line-services/",
         "/service-areas/dustin-acres-ca/gas-line-services/",
         "/service-areas/east-niles-ca/gas-line-services/",
+        "/service-areas/keene-ca/gas-line-services/",
         "/service-areas/lamont-ca/gas-line-services/",
         "/service-areas/mcfarland-ca/gas-line-services/",
         "/service-areas/oildale-ca/gas-line-services/",
         "/service-areas/rosedale-ca/gas-line-services/",
         "/service-areas/shafter-ca/gas-line-services/",
-        "/service-areas/taft-ca/gas-line-services/",
         "/blog/gas-leak-what-to-do/"
       ]
     },
@@ -848,12 +850,12 @@
         "/service-areas/delano-ca/sump-pumps/",
         "/service-areas/dustin-acres-ca/sump-pumps/",
         "/service-areas/east-niles-ca/sump-pumps/",
+        "/service-areas/keene-ca/sump-pumps/",
         "/service-areas/lamont-ca/sump-pumps/",
         "/service-areas/mcfarland-ca/sump-pumps/",
         "/service-areas/oildale-ca/sump-pumps/",
         "/service-areas/rosedale-ca/sump-pumps/",
-        "/service-areas/shafter-ca/sump-pumps/",
-        "/service-areas/taft-ca/sump-pumps/"
+        "/service-areas/shafter-ca/sump-pumps/"
       ]
     },
     {
@@ -898,12 +900,12 @@
         "/service-areas/delano-ca/water-softeners-filtration/",
         "/service-areas/dustin-acres-ca/water-softeners-filtration/",
         "/service-areas/east-niles-ca/water-softeners-filtration/",
+        "/service-areas/keene-ca/water-softeners-filtration/",
         "/service-areas/lamont-ca/water-softeners-filtration/",
         "/service-areas/mcfarland-ca/water-softeners-filtration/",
         "/service-areas/oildale-ca/water-softeners-filtration/",
         "/service-areas/rosedale-ca/water-softeners-filtration/",
-        "/service-areas/shafter-ca/water-softeners-filtration/",
-        "/service-areas/taft-ca/water-softeners-filtration/"
+        "/service-areas/shafter-ca/water-softeners-filtration/"
       ]
     },
     {
@@ -948,12 +950,12 @@
         "/service-areas/delano-ca/toilet-faucet-repair/",
         "/service-areas/dustin-acres-ca/toilet-faucet-repair/",
         "/service-areas/east-niles-ca/toilet-faucet-repair/",
+        "/service-areas/keene-ca/toilet-faucet-repair/",
         "/service-areas/lamont-ca/toilet-faucet-repair/",
         "/service-areas/mcfarland-ca/toilet-faucet-repair/",
         "/service-areas/oildale-ca/toilet-faucet-repair/",
         "/service-areas/rosedale-ca/toilet-faucet-repair/",
-        "/service-areas/shafter-ca/toilet-faucet-repair/",
-        "/service-areas/taft-ca/toilet-faucet-repair/"
+        "/service-areas/shafter-ca/toilet-faucet-repair/"
       ]
     },
     {
@@ -998,12 +1000,12 @@
         "/service-areas/delano-ca/garbage-disposal/",
         "/service-areas/dustin-acres-ca/garbage-disposal/",
         "/service-areas/east-niles-ca/garbage-disposal/",
+        "/service-areas/keene-ca/garbage-disposal/",
         "/service-areas/lamont-ca/garbage-disposal/",
         "/service-areas/mcfarland-ca/garbage-disposal/",
         "/service-areas/oildale-ca/garbage-disposal/",
         "/service-areas/rosedale-ca/garbage-disposal/",
-        "/service-areas/shafter-ca/garbage-disposal/",
-        "/service-areas/taft-ca/garbage-disposal/"
+        "/service-areas/shafter-ca/garbage-disposal/"
       ]
     },
     {
@@ -1048,12 +1050,12 @@
         "/service-areas/delano-ca/furnace-repair/",
         "/service-areas/dustin-acres-ca/furnace-repair/",
         "/service-areas/east-niles-ca/furnace-repair/",
+        "/service-areas/keene-ca/furnace-repair/",
         "/service-areas/lamont-ca/furnace-repair/",
         "/service-areas/mcfarland-ca/furnace-repair/",
         "/service-areas/oildale-ca/furnace-repair/",
         "/service-areas/rosedale-ca/furnace-repair/",
         "/service-areas/shafter-ca/furnace-repair/",
-        "/service-areas/taft-ca/furnace-repair/",
         "/blog/furnace-repair-or-replace/"
       ]
     },
@@ -1099,12 +1101,12 @@
         "/service-areas/delano-ca/furnace-installation/",
         "/service-areas/dustin-acres-ca/furnace-installation/",
         "/service-areas/east-niles-ca/furnace-installation/",
+        "/service-areas/keene-ca/furnace-installation/",
         "/service-areas/lamont-ca/furnace-installation/",
         "/service-areas/mcfarland-ca/furnace-installation/",
         "/service-areas/oildale-ca/furnace-installation/",
         "/service-areas/rosedale-ca/furnace-installation/",
         "/service-areas/shafter-ca/furnace-installation/",
-        "/service-areas/taft-ca/furnace-installation/",
         "/blog/furnace-repair-or-replace/",
         "/blog/heat-pump-vs-furnace/"
       ]
@@ -1151,12 +1153,12 @@
         "/service-areas/delano-ca/heat-pump-services/",
         "/service-areas/dustin-acres-ca/heat-pump-services/",
         "/service-areas/east-niles-ca/heat-pump-services/",
+        "/service-areas/keene-ca/heat-pump-services/",
         "/service-areas/lamont-ca/heat-pump-services/",
         "/service-areas/mcfarland-ca/heat-pump-services/",
         "/service-areas/oildale-ca/heat-pump-services/",
         "/service-areas/rosedale-ca/heat-pump-services/",
         "/service-areas/shafter-ca/heat-pump-services/",
-        "/service-areas/taft-ca/heat-pump-services/",
         "/blog/heat-pump-vs-furnace/"
       ]
     },
@@ -1202,12 +1204,12 @@
         "/service-areas/delano-ca/ac-repair/",
         "/service-areas/dustin-acres-ca/ac-repair/",
         "/service-areas/east-niles-ca/ac-repair/",
+        "/service-areas/keene-ca/ac-repair/",
         "/service-areas/lamont-ca/ac-repair/",
         "/service-areas/mcfarland-ca/ac-repair/",
         "/service-areas/oildale-ca/ac-repair/",
         "/service-areas/rosedale-ca/ac-repair/",
-        "/service-areas/shafter-ca/ac-repair/",
-        "/service-areas/taft-ca/ac-repair/"
+        "/service-areas/shafter-ca/ac-repair/"
       ]
     },
     {
@@ -1252,12 +1254,12 @@
         "/service-areas/delano-ca/ac-installation/",
         "/service-areas/dustin-acres-ca/ac-installation/",
         "/service-areas/east-niles-ca/ac-installation/",
+        "/service-areas/keene-ca/ac-installation/",
         "/service-areas/lamont-ca/ac-installation/",
         "/service-areas/mcfarland-ca/ac-installation/",
         "/service-areas/oildale-ca/ac-installation/",
         "/service-areas/rosedale-ca/ac-installation/",
         "/service-areas/shafter-ca/ac-installation/",
-        "/service-areas/taft-ca/ac-installation/",
         "/blog/how-much-does-a-new-ac-cost/"
       ]
     },
@@ -1303,12 +1305,12 @@
         "/service-areas/delano-ca/ductless-mini-splits/",
         "/service-areas/dustin-acres-ca/ductless-mini-splits/",
         "/service-areas/east-niles-ca/ductless-mini-splits/",
+        "/service-areas/keene-ca/ductless-mini-splits/",
         "/service-areas/lamont-ca/ductless-mini-splits/",
         "/service-areas/mcfarland-ca/ductless-mini-splits/",
         "/service-areas/oildale-ca/ductless-mini-splits/",
         "/service-areas/rosedale-ca/ductless-mini-splits/",
-        "/service-areas/shafter-ca/ductless-mini-splits/",
-        "/service-areas/taft-ca/ductless-mini-splits/"
+        "/service-areas/shafter-ca/ductless-mini-splits/"
       ]
     },
     {
@@ -1353,12 +1355,12 @@
         "/service-areas/delano-ca/ductwork/",
         "/service-areas/dustin-acres-ca/ductwork/",
         "/service-areas/east-niles-ca/ductwork/",
+        "/service-areas/keene-ca/ductwork/",
         "/service-areas/lamont-ca/ductwork/",
         "/service-areas/mcfarland-ca/ductwork/",
         "/service-areas/oildale-ca/ductwork/",
         "/service-areas/rosedale-ca/ductwork/",
-        "/service-areas/shafter-ca/ductwork/",
-        "/service-areas/taft-ca/ductwork/"
+        "/service-areas/shafter-ca/ductwork/"
       ]
     },
     {
@@ -1403,12 +1405,12 @@
         "/service-areas/delano-ca/indoor-air-quality/",
         "/service-areas/dustin-acres-ca/indoor-air-quality/",
         "/service-areas/east-niles-ca/indoor-air-quality/",
+        "/service-areas/keene-ca/indoor-air-quality/",
         "/service-areas/lamont-ca/indoor-air-quality/",
         "/service-areas/mcfarland-ca/indoor-air-quality/",
         "/service-areas/oildale-ca/indoor-air-quality/",
         "/service-areas/rosedale-ca/indoor-air-quality/",
-        "/service-areas/shafter-ca/indoor-air-quality/",
-        "/service-areas/taft-ca/indoor-air-quality/"
+        "/service-areas/shafter-ca/indoor-air-quality/"
       ]
     },
     {
@@ -2291,6 +2293,65 @@
         "/service-areas/mcfarland-ca/sump-pumps/",
         "/service-areas/mcfarland-ca/water-softeners-filtration/",
         "/service-areas/mcfarland-ca/garbage-disposal/",
+        "/service-areas/arvin-ca/",
+        "/service-areas/bear-valley-springs-ca/",
+        "/service-areas/buttonwillow-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Plumbing, Heating & Air in Keene, CA | All Pro Plumbing Heating and Air",
+      "h1": "Plumbing, Heating and Air in Keene",
+      "meta_description": "Serving Keene, CA with 24/7 emergency plumbing plus heating and air conditioning service. Licensed and insured. Call (661) 863-9242.",
+      "primary_keyword": "plumber keene",
+      "secondary_keywords": [
+        "keene plumbing company",
+        "emergency plumber keene",
+        "keene hvac company"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/keene-ca/ac-repair/",
+        "/service-areas/keene-ca/drain-cleaning/",
+        "/service-areas/keene-ca/emergency-plumbing/",
+        "/service-areas/keene-ca/water-heater-repair/",
+        "/service-areas/keene-ca/ac-installation/",
+        "/service-areas/keene-ca/burst-pipe-repair/",
+        "/service-areas/keene-ca/furnace-repair/",
+        "/service-areas/keene-ca/sewer-line-repair/",
+        "/service-areas/keene-ca/water-heater-installation/",
+        "/service-areas/keene-ca/furnace-installation/",
+        "/service-areas/keene-ca/gas-line-services/",
+        "/service-areas/keene-ca/ductless-mini-splits/",
+        "/service-areas/keene-ca/heat-pump-services/",
+        "/service-areas/keene-ca/leak-detection/",
+        "/service-areas/keene-ca/repiping/",
+        "/service-areas/keene-ca/slab-leak-repair/",
+        "/service-areas/keene-ca/toilet-faucet-repair/",
+        "/service-areas/keene-ca/ductwork/",
+        "/service-areas/keene-ca/indoor-air-quality/",
+        "/service-areas/keene-ca/sump-pumps/",
+        "/service-areas/keene-ca/water-softeners-filtration/",
+        "/service-areas/keene-ca/garbage-disposal/",
         "/service-areas/arvin-ca/",
         "/service-areas/bear-valley-springs-ca/",
         "/service-areas/buttonwillow-ca/"
@@ -16811,6 +16872,974 @@
         "/service-areas/mcfarland-ca/",
         "/service-areas/mcfarland-ca/ac-repair/",
         "/service-areas/mcfarland-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/indoor-air-quality/",
+        "/service-areas/bear-valley-springs-ca/indoor-air-quality/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in Keene, CA | All Pro Plumbing Heating and Air",
+      "h1": "Emergency Plumbing in Keene",
+      "meta_description": "Trusted emergency plumbing in Keene, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "emergency plumbing keene",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "after hours plumber",
+        "plumber near me now",
+        "same day plumbing repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/ac-repair/",
+        "/service-areas/keene-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/emergency-plumbing/",
+        "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst and Leaking Pipe Repair in Keene, CA | All Pro Plumbing Heating and Air",
+      "h1": "Burst and Leaking Pipe Repair in Keene",
+      "meta_description": "Trusted burst and leaking pipe repair in Keene, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "burst and leaking pipe repair keene",
+      "secondary_keywords": [
+        "burst pipe repair",
+        "pipe burst in wall",
+        "water line repair",
+        "leaking pipe repair",
+        "frozen pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/ac-repair/",
+        "/service-areas/keene-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/burst-pipe-repair/",
+        "/service-areas/bear-valley-springs-ca/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/drain-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Drain Cleaning in Keene, CA | All Pro Plumbing Heating and Air",
+      "h1": "Drain Cleaning in Keene",
+      "meta_description": "Trusted drain cleaning in Keene, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "drain cleaning keene",
+      "secondary_keywords": [
+        "clogged drain cleaning",
+        "hydro jetting",
+        "rooter service",
+        "kitchen sink clog removal",
+        "shower drain clog"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/drain-cleaning/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/ac-repair/",
+        "/service-areas/keene-ca/emergency-plumbing/",
+        "/service-areas/arvin-ca/drain-cleaning/",
+        "/service-areas/bear-valley-springs-ca/drain-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/sewer-line-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewer Line Repair and Replacement in Keene, CA | All Pro Plumbing Heating and Air",
+      "h1": "Sewer Line Repair and Replacement in Keene",
+      "meta_description": "Trusted sewer line repair and replacement in Keene, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "sewer line repair and replacement keene",
+      "secondary_keywords": [
+        "sewer backup",
+        "trenchless sewer repair",
+        "sewer line replacement",
+        "sewer camera inspection",
+        "collapsed sewer line repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewer-line-repair/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/ac-repair/",
+        "/service-areas/keene-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/sewer-line-repair/",
+        "/service-areas/bear-valley-springs-ca/sewer-line-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/water-heater-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Heater Repair in Keene, CA | All Pro Plumbing Heating and Air",
+      "h1": "Water Heater Repair in Keene",
+      "meta_description": "Trusted water heater repair in Keene, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "water heater repair keene",
+      "secondary_keywords": [
+        "water heater not working",
+        "no hot water",
+        "water heater leaking",
+        "hot water heater repair",
+        "same day water heater service"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-heater-repair/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/ac-repair/",
+        "/service-areas/keene-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/water-heater-repair/",
+        "/service-areas/bear-valley-springs-ca/water-heater-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/water-heater-installation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Heater Installation and Replacement in Keene, CA | All Pro Plumbing Heating and Air",
+      "h1": "Water Heater Installation and Replacement in Keene",
+      "meta_description": "Trusted water heater installation and replacement in Keene, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "water heater installation and replacement keene",
+      "secondary_keywords": [
+        "water heater replacement",
+        "tankless water heater installation",
+        "tankless vs tank water heater",
+        "50 gallon water heater install",
+        "tankless water heater cost"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-heater-installation/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/ac-repair/",
+        "/service-areas/keene-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/water-heater-installation/",
+        "/service-areas/bear-valley-springs-ca/water-heater-installation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/leak-detection/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Leak Detection in Keene, CA | All Pro Plumbing Heating and Air",
+      "h1": "Leak Detection in Keene",
+      "meta_description": "Trusted leak detection in Keene, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "leak detection keene",
+      "secondary_keywords": [
+        "water leak detection",
+        "electronic leak detection",
+        "hidden leak detection",
+        "high water bill leak",
+        "underground water leak detection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/leak-detection/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/ac-repair/",
+        "/service-areas/keene-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/leak-detection/",
+        "/service-areas/bear-valley-springs-ca/leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/slab-leak-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Slab Leak Repair in Keene, CA | All Pro Plumbing Heating and Air",
+      "h1": "Slab Leak Repair in Keene",
+      "meta_description": "Trusted slab leak repair in Keene, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "slab leak repair keene",
+      "secondary_keywords": [
+        "slab leak detection",
+        "under slab plumbing repair",
+        "hot spot on floor leak",
+        "slab leak reroute",
+        "foundation water leak repair"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/slab-leak-repair/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/ac-repair/",
+        "/service-areas/keene-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/slab-leak-repair/",
+        "/service-areas/bear-valley-springs-ca/slab-leak-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/repiping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Whole-House Repiping in Keene, CA | All Pro Plumbing Heating and Air",
+      "h1": "Whole-House Repiping in Keene",
+      "meta_description": "Trusted whole-house repiping in Keene, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "whole-house repiping keene",
+      "secondary_keywords": [
+        "whole house repipe",
+        "copper repiping",
+        "PEX repiping",
+        "galvanized pipe replacement",
+        "polybutylene pipe replacement"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/repiping/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/ac-repair/",
+        "/service-areas/keene-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/repiping/",
+        "/service-areas/bear-valley-springs-ca/repiping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/gas-line-services/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Gas Line Installation and Leak Repair in Keene, CA | All Pro Plumbing Heating and Air",
+      "h1": "Gas Line Installation and Leak Repair in Keene",
+      "meta_description": "Trusted gas line installation and leak repair in Keene, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "gas line installation and leak repair keene",
+      "secondary_keywords": [
+        "gas leak repair",
+        "gas line installation",
+        "gas leak detection",
+        "gas line for stove",
+        "earthquake gas shutoff valve"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/gas-line-services/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/ac-repair/",
+        "/service-areas/keene-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/gas-line-services/",
+        "/service-areas/bear-valley-springs-ca/gas-line-services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/sump-pumps/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sump Pump Installation and Repair in Keene, CA | All Pro Plumbing Heating and Air",
+      "h1": "Sump Pump Installation and Repair in Keene",
+      "meta_description": "Trusted sump pump installation and repair in Keene, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "sump pump installation and repair keene",
+      "secondary_keywords": [
+        "sump pump installation",
+        "sump pump replacement",
+        "battery backup sump pump",
+        "sump pump not working",
+        "sewage ejector pump"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sump-pumps/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/ac-repair/",
+        "/service-areas/keene-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/sump-pumps/",
+        "/service-areas/bear-valley-springs-ca/sump-pumps/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/water-softeners-filtration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Softeners and Filtration Systems in Keene, CA | All Pro Plumbing Heating and Air",
+      "h1": "Water Softeners and Filtration Systems in Keene",
+      "meta_description": "Trusted water softeners and filtration systems in Keene, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "water softeners and filtration systems keene",
+      "secondary_keywords": [
+        "water softener installation",
+        "whole house water filtration",
+        "reverse osmosis system installation",
+        "hard water treatment",
+        "water conditioner install"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-softeners-filtration/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/ac-repair/",
+        "/service-areas/keene-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/water-softeners-filtration/",
+        "/service-areas/bear-valley-springs-ca/water-softeners-filtration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/toilet-faucet-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Toilet, Faucet and Fixture Services in Keene, CA | All Pro Plumbing Heating and Air",
+      "h1": "Toilet, Faucet and Fixture Services in Keene",
+      "meta_description": "Trusted toilet, faucet and fixture services in Keene, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "toilet, faucet and fixture services keene",
+      "secondary_keywords": [
+        "toilet repair",
+        "toilet installation",
+        "faucet replacement",
+        "shower valve repair",
+        "running toilet fix"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/toilet-faucet-repair/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/ac-repair/",
+        "/service-areas/keene-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/toilet-faucet-repair/",
+        "/service-areas/bear-valley-springs-ca/toilet-faucet-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/garbage-disposal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Garbage Disposal Repair and Installation in Keene, CA | All Pro Plumbing Heating and Air",
+      "h1": "Garbage Disposal Repair and Installation in Keene",
+      "meta_description": "Trusted garbage disposal repair and installation in Keene, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "garbage disposal repair and installation keene",
+      "secondary_keywords": [
+        "garbage disposal replacement",
+        "garbage disposal humming",
+        "garbage disposal jammed",
+        "disposal installation",
+        "garbage disposal leaking"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/garbage-disposal/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/ac-repair/",
+        "/service-areas/keene-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/garbage-disposal/",
+        "/service-areas/bear-valley-springs-ca/garbage-disposal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/furnace-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Furnace Repair in Keene, CA | All Pro Plumbing Heating and Air",
+      "h1": "Furnace Repair in Keene",
+      "meta_description": "Trusted furnace repair in Keene, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "furnace repair keene",
+      "secondary_keywords": [
+        "furnace not working",
+        "heater repair",
+        "no heat repair",
+        "emergency furnace repair",
+        "furnace blowing cold air"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/furnace-repair/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/ac-repair/",
+        "/service-areas/keene-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/furnace-repair/",
+        "/service-areas/bear-valley-springs-ca/furnace-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/furnace-installation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Furnace Installation and Replacement in Keene, CA | All Pro Plumbing Heating and Air",
+      "h1": "Furnace Installation and Replacement in Keene",
+      "meta_description": "Trusted furnace installation and replacement in Keene, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "furnace installation and replacement keene",
+      "secondary_keywords": [
+        "furnace replacement",
+        "new furnace cost",
+        "high efficiency furnace installation",
+        "gas furnace installation",
+        "furnace replacement near me"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/furnace-installation/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/ac-repair/",
+        "/service-areas/keene-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/furnace-installation/",
+        "/service-areas/bear-valley-springs-ca/furnace-installation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/heat-pump-services/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Heat Pump Installation and Repair in Keene, CA | All Pro Plumbing Heating and Air",
+      "h1": "Heat Pump Installation and Repair in Keene",
+      "meta_description": "Trusted heat pump installation and repair in Keene, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "heat pump installation and repair keene",
+      "secondary_keywords": [
+        "heat pump installation",
+        "heat pump repair",
+        "heat pump vs furnace",
+        "heat pump replacement cost",
+        "heat pump rebates"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/heat-pump-services/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/ac-repair/",
+        "/service-areas/keene-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/heat-pump-services/",
+        "/service-areas/bear-valley-springs-ca/heat-pump-services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/ac-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Conditioning Repair in Keene, CA | All Pro Plumbing Heating and Air",
+      "h1": "Air Conditioning Repair in Keene",
+      "meta_description": "Trusted air conditioning repair in Keene, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "air conditioning repair keene",
+      "secondary_keywords": [
+        "ac not cooling",
+        "air conditioner repair",
+        "central air repair",
+        "ac refrigerant leak repair",
+        "hvac repair near me"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/ac-repair/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/drain-cleaning/",
+        "/service-areas/keene-ca/emergency-plumbing/",
+        "/service-areas/arvin-ca/ac-repair/",
+        "/service-areas/bear-valley-springs-ca/ac-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/ac-installation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "AC Installation and Replacement in Keene, CA | All Pro Plumbing Heating and Air",
+      "h1": "AC Installation and Replacement in Keene",
+      "meta_description": "Trusted ac installation and replacement in Keene, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "ac installation and replacement keene",
+      "secondary_keywords": [
+        "ac replacement",
+        "central air installation",
+        "new ac unit cost",
+        "hvac installation",
+        "high SEER2 air conditioner"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/ac-installation/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/ac-repair/",
+        "/service-areas/keene-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/ac-installation/",
+        "/service-areas/bear-valley-springs-ca/ac-installation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/ductless-mini-splits/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Ductless Mini-Split Systems in Keene, CA | All Pro Plumbing Heating and Air",
+      "h1": "Ductless Mini-Split Systems in Keene",
+      "meta_description": "Trusted ductless mini-split systems in Keene, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "ductless mini-split systems keene",
+      "secondary_keywords": [
+        "mini split installation",
+        "ductless AC installation",
+        "mini split for garage",
+        "multi zone mini split",
+        "mini split heat pump"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/ductless-mini-splits/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/ac-repair/",
+        "/service-areas/keene-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/ductless-mini-splits/",
+        "/service-areas/bear-valley-springs-ca/ductless-mini-splits/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/ductwork/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Ductwork Repair and Installation in Keene, CA | All Pro Plumbing Heating and Air",
+      "h1": "Ductwork Repair and Installation in Keene",
+      "meta_description": "Trusted ductwork repair and installation in Keene, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "ductwork repair and installation keene",
+      "secondary_keywords": [
+        "duct replacement",
+        "duct sealing",
+        "air duct repair",
+        "ductwork installation",
+        "leaky duct testing"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/ductwork/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/ac-repair/",
+        "/service-areas/keene-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/ductwork/",
+        "/service-areas/bear-valley-springs-ca/ductwork/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/keene-ca/indoor-air-quality/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Indoor Air Quality Services in Keene, CA | All Pro Plumbing Heating and Air",
+      "h1": "Indoor Air Quality Services in Keene",
+      "meta_description": "Trusted indoor air quality services in Keene, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "indoor air quality services keene",
+      "secondary_keywords": [
+        "whole house air purifier",
+        "UV air purifier for HVAC",
+        "whole home humidifier installation",
+        "HVAC filtration upgrade",
+        "indoor air quality testing"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/indoor-air-quality/",
+        "/service-areas/keene-ca/",
+        "/service-areas/keene-ca/ac-repair/",
+        "/service-areas/keene-ca/drain-cleaning/",
         "/service-areas/arvin-ca/indoor-air-quality/",
         "/service-areas/bear-valley-springs-ca/indoor-air-quality/",
         "/contact/"

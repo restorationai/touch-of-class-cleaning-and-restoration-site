@@ -27,6 +27,7 @@
     "/service-areas/delano-ca/",
     "/service-areas/dustin-acres-ca/",
     "/service-areas/east-niles-ca/",
+    "/service-areas/keene-ca/",
     "/service-areas/lake-isabella-ca/",
     "/service-areas/lamont-ca/",
     "/service-areas/mcfarland-ca/",
@@ -69,6 +70,7 @@
     "/service-areas/delano-ca/",
     "/service-areas/dustin-acres-ca/",
     "/service-areas/east-niles-ca/",
+    "/service-areas/keene-ca/",
     "/service-areas/lake-isabella-ca/",
     "/service-areas/lamont-ca/",
     "/service-areas/mcfarland-ca/",
@@ -117,12 +119,12 @@
     "/service-areas/delano-ca/water-damage-restoration/",
     "/service-areas/dustin-acres-ca/water-damage-restoration/",
     "/service-areas/east-niles-ca/water-damage-restoration/",
+    "/service-areas/keene-ca/water-damage-restoration/",
     "/service-areas/lake-isabella-ca/water-damage-restoration/",
     "/service-areas/lamont-ca/water-damage-restoration/",
     "/service-areas/mcfarland-ca/water-damage-restoration/",
     "/service-areas/oildale-ca/water-damage-restoration/",
     "/service-areas/rosedale-ca/water-damage-restoration/",
-    "/service-areas/shafter-ca/water-damage-restoration/",
     "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -137,12 +139,12 @@
     "/service-areas/delano-ca/flood-damage-restoration/",
     "/service-areas/dustin-acres-ca/flood-damage-restoration/",
     "/service-areas/east-niles-ca/flood-damage-restoration/",
+    "/service-areas/keene-ca/flood-damage-restoration/",
     "/service-areas/lake-isabella-ca/flood-damage-restoration/",
     "/service-areas/lamont-ca/flood-damage-restoration/",
     "/service-areas/mcfarland-ca/flood-damage-restoration/",
     "/service-areas/oildale-ca/flood-damage-restoration/",
-    "/service-areas/rosedale-ca/flood-damage-restoration/",
-    "/service-areas/shafter-ca/flood-damage-restoration/"
+    "/service-areas/rosedale-ca/flood-damage-restoration/"
   ],
   "/services/burst-pipe-repair/": [
     "/services/",
@@ -153,12 +155,12 @@
     "/service-areas/delano-ca/burst-pipe-repair/",
     "/service-areas/dustin-acres-ca/burst-pipe-repair/",
     "/service-areas/east-niles-ca/burst-pipe-repair/",
+    "/service-areas/keene-ca/burst-pipe-repair/",
     "/service-areas/lake-isabella-ca/burst-pipe-repair/",
     "/service-areas/lamont-ca/burst-pipe-repair/",
     "/service-areas/mcfarland-ca/burst-pipe-repair/",
     "/service-areas/oildale-ca/burst-pipe-repair/",
-    "/service-areas/rosedale-ca/burst-pipe-repair/",
-    "/service-areas/shafter-ca/burst-pipe-repair/"
+    "/service-areas/rosedale-ca/burst-pipe-repair/"
   ],
   "/services/appliance-leak-cleanup/": [
     "/services/",
@@ -169,12 +171,12 @@
     "/service-areas/delano-ca/appliance-leak-cleanup/",
     "/service-areas/dustin-acres-ca/appliance-leak-cleanup/",
     "/service-areas/east-niles-ca/appliance-leak-cleanup/",
+    "/service-areas/keene-ca/appliance-leak-cleanup/",
     "/service-areas/lake-isabella-ca/appliance-leak-cleanup/",
     "/service-areas/lamont-ca/appliance-leak-cleanup/",
     "/service-areas/mcfarland-ca/appliance-leak-cleanup/",
     "/service-areas/oildale-ca/appliance-leak-cleanup/",
     "/service-areas/rosedale-ca/appliance-leak-cleanup/",
-    "/service-areas/shafter-ca/appliance-leak-cleanup/",
     "/blog/burst-pipe-emergency-checklist/"
   ],
   "/services/sewage-cleanup/": [
@@ -186,12 +188,12 @@
     "/service-areas/delano-ca/sewage-cleanup/",
     "/service-areas/dustin-acres-ca/sewage-cleanup/",
     "/service-areas/east-niles-ca/sewage-cleanup/",
+    "/service-areas/keene-ca/sewage-cleanup/",
     "/service-areas/lake-isabella-ca/sewage-cleanup/",
     "/service-areas/lamont-ca/sewage-cleanup/",
     "/service-areas/mcfarland-ca/sewage-cleanup/",
     "/service-areas/oildale-ca/sewage-cleanup/",
-    "/service-areas/rosedale-ca/sewage-cleanup/",
-    "/service-areas/shafter-ca/sewage-cleanup/"
+    "/service-areas/rosedale-ca/sewage-cleanup/"
   ],
   "/services/fire-damage-restoration/": [
     "/services/",
@@ -202,12 +204,12 @@
     "/service-areas/delano-ca/fire-damage-restoration/",
     "/service-areas/dustin-acres-ca/fire-damage-restoration/",
     "/service-areas/east-niles-ca/fire-damage-restoration/",
+    "/service-areas/keene-ca/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/fire-damage-restoration/",
     "/service-areas/lamont-ca/fire-damage-restoration/",
     "/service-areas/mcfarland-ca/fire-damage-restoration/",
     "/service-areas/oildale-ca/fire-damage-restoration/",
     "/service-areas/rosedale-ca/fire-damage-restoration/",
-    "/service-areas/shafter-ca/fire-damage-restoration/",
     "/blog/choosing-a-restoration-company/",
     "/blog/fire-damage-restoration-process/",
     "/blog/smoke-odor-removal-techniques/"
@@ -221,12 +223,12 @@
     "/service-areas/delano-ca/smoke-damage-restoration/",
     "/service-areas/dustin-acres-ca/smoke-damage-restoration/",
     "/service-areas/east-niles-ca/smoke-damage-restoration/",
+    "/service-areas/keene-ca/smoke-damage-restoration/",
     "/service-areas/lake-isabella-ca/smoke-damage-restoration/",
     "/service-areas/lamont-ca/smoke-damage-restoration/",
     "/service-areas/mcfarland-ca/smoke-damage-restoration/",
     "/service-areas/oildale-ca/smoke-damage-restoration/",
     "/service-areas/rosedale-ca/smoke-damage-restoration/",
-    "/service-areas/shafter-ca/smoke-damage-restoration/",
     "/blog/fire-damage-restoration-process/",
     "/blog/smoke-odor-removal-techniques/"
   ],
@@ -239,12 +241,12 @@
     "/service-areas/delano-ca/soot-removal/",
     "/service-areas/dustin-acres-ca/soot-removal/",
     "/service-areas/east-niles-ca/soot-removal/",
+    "/service-areas/keene-ca/soot-removal/",
     "/service-areas/lake-isabella-ca/soot-removal/",
     "/service-areas/lamont-ca/soot-removal/",
     "/service-areas/mcfarland-ca/soot-removal/",
     "/service-areas/oildale-ca/soot-removal/",
-    "/service-areas/rosedale-ca/soot-removal/",
-    "/service-areas/shafter-ca/soot-removal/"
+    "/service-areas/rosedale-ca/soot-removal/"
   ],
   "/services/odor-removal/": [
     "/services/",
@@ -255,12 +257,12 @@
     "/service-areas/delano-ca/odor-removal/",
     "/service-areas/dustin-acres-ca/odor-removal/",
     "/service-areas/east-niles-ca/odor-removal/",
+    "/service-areas/keene-ca/odor-removal/",
     "/service-areas/lake-isabella-ca/odor-removal/",
     "/service-areas/lamont-ca/odor-removal/",
     "/service-areas/mcfarland-ca/odor-removal/",
     "/service-areas/oildale-ca/odor-removal/",
-    "/service-areas/rosedale-ca/odor-removal/",
-    "/service-areas/shafter-ca/odor-removal/"
+    "/service-areas/rosedale-ca/odor-removal/"
   ],
   "/services/mold-remediation/": [
     "/services/",
@@ -271,12 +273,12 @@
     "/service-areas/delano-ca/mold-remediation/",
     "/service-areas/dustin-acres-ca/mold-remediation/",
     "/service-areas/east-niles-ca/mold-remediation/",
+    "/service-areas/keene-ca/mold-remediation/",
     "/service-areas/lake-isabella-ca/mold-remediation/",
     "/service-areas/lamont-ca/mold-remediation/",
     "/service-areas/mcfarland-ca/mold-remediation/",
     "/service-areas/oildale-ca/mold-remediation/",
     "/service-areas/rosedale-ca/mold-remediation/",
-    "/service-areas/shafter-ca/mold-remediation/",
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
     "/blog/signs-of-hidden-mold/"
@@ -290,12 +292,12 @@
     "/service-areas/delano-ca/mold-inspection-testing/",
     "/service-areas/dustin-acres-ca/mold-inspection-testing/",
     "/service-areas/east-niles-ca/mold-inspection-testing/",
+    "/service-areas/keene-ca/mold-inspection-testing/",
     "/service-areas/lake-isabella-ca/mold-inspection-testing/",
     "/service-areas/lamont-ca/mold-inspection-testing/",
     "/service-areas/mcfarland-ca/mold-inspection-testing/",
     "/service-areas/oildale-ca/mold-inspection-testing/",
     "/service-areas/rosedale-ca/mold-inspection-testing/",
-    "/service-areas/shafter-ca/mold-inspection-testing/",
     "/blog/how-to-test-for-mold/"
   ],
   "/services/storm-damage-restoration/": [
@@ -307,12 +309,12 @@
     "/service-areas/delano-ca/storm-damage-restoration/",
     "/service-areas/dustin-acres-ca/storm-damage-restoration/",
     "/service-areas/east-niles-ca/storm-damage-restoration/",
+    "/service-areas/keene-ca/storm-damage-restoration/",
     "/service-areas/lake-isabella-ca/storm-damage-restoration/",
     "/service-areas/lamont-ca/storm-damage-restoration/",
     "/service-areas/mcfarland-ca/storm-damage-restoration/",
     "/service-areas/oildale-ca/storm-damage-restoration/",
     "/service-areas/rosedale-ca/storm-damage-restoration/",
-    "/service-areas/shafter-ca/storm-damage-restoration/",
     "/blog/storm-damage-insurance-claim-checklist/"
   ],
   "/services/carpet-cleaning/": [
@@ -324,12 +326,12 @@
     "/service-areas/delano-ca/carpet-cleaning/",
     "/service-areas/dustin-acres-ca/carpet-cleaning/",
     "/service-areas/east-niles-ca/carpet-cleaning/",
+    "/service-areas/keene-ca/carpet-cleaning/",
     "/service-areas/lake-isabella-ca/carpet-cleaning/",
     "/service-areas/lamont-ca/carpet-cleaning/",
     "/service-areas/mcfarland-ca/carpet-cleaning/",
     "/service-areas/oildale-ca/carpet-cleaning/",
-    "/service-areas/rosedale-ca/carpet-cleaning/",
-    "/service-areas/shafter-ca/carpet-cleaning/"
+    "/service-areas/rosedale-ca/carpet-cleaning/"
   ],
   "/services/reconstruction/": [
     "/services/",
@@ -340,12 +342,12 @@
     "/service-areas/delano-ca/reconstruction/",
     "/service-areas/dustin-acres-ca/reconstruction/",
     "/service-areas/east-niles-ca/reconstruction/",
+    "/service-areas/keene-ca/reconstruction/",
     "/service-areas/lake-isabella-ca/reconstruction/",
     "/service-areas/lamont-ca/reconstruction/",
     "/service-areas/mcfarland-ca/reconstruction/",
     "/service-areas/oildale-ca/reconstruction/",
-    "/service-areas/rosedale-ca/reconstruction/",
-    "/service-areas/shafter-ca/reconstruction/"
+    "/service-areas/rosedale-ca/reconstruction/"
   ],
   "/services/home-remodeling/": [
     "/services/",
@@ -356,12 +358,12 @@
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/dustin-acres-ca/home-remodeling/",
     "/service-areas/east-niles-ca/home-remodeling/",
+    "/service-areas/keene-ca/home-remodeling/",
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/mcfarland-ca/home-remodeling/",
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/rosedale-ca/home-remodeling/",
-    "/service-areas/shafter-ca/home-remodeling/",
     "/services/general-contracting/"
   ],
   "/services/general-contracting/": [
@@ -373,12 +375,12 @@
     "/service-areas/delano-ca/general-contracting/",
     "/service-areas/dustin-acres-ca/general-contracting/",
     "/service-areas/east-niles-ca/general-contracting/",
+    "/service-areas/keene-ca/general-contracting/",
     "/service-areas/lake-isabella-ca/general-contracting/",
     "/service-areas/lamont-ca/general-contracting/",
     "/service-areas/mcfarland-ca/general-contracting/",
     "/service-areas/oildale-ca/general-contracting/",
     "/service-areas/rosedale-ca/general-contracting/",
-    "/service-areas/shafter-ca/general-contracting/",
     "/services/home-remodeling/"
   ],
   "/services/water-cleanup/": [
@@ -390,12 +392,12 @@
     "/service-areas/delano-ca/water-cleanup/",
     "/service-areas/dustin-acres-ca/water-cleanup/",
     "/service-areas/east-niles-ca/water-cleanup/",
+    "/service-areas/keene-ca/water-cleanup/",
     "/service-areas/lake-isabella-ca/water-cleanup/",
     "/service-areas/lamont-ca/water-cleanup/",
     "/service-areas/mcfarland-ca/water-cleanup/",
     "/service-areas/oildale-ca/water-cleanup/",
     "/service-areas/rosedale-ca/water-cleanup/",
-    "/service-areas/shafter-ca/water-cleanup/",
     "/services/water-damage-restoration/"
   ],
   "/service-areas/oildale-ca/": [
@@ -853,6 +855,30 @@
     "/service-areas/arvin-ca/",
     "/service-areas/buttonwillow-ca/",
     "/service-areas/delano-ca/"
+  ],
+  "/service-areas/keene-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/keene-ca/fire-damage-restoration/",
+    "/service-areas/keene-ca/home-remodeling/",
+    "/service-areas/keene-ca/mold-remediation/",
+    "/service-areas/keene-ca/water-damage-restoration/",
+    "/service-areas/keene-ca/flood-damage-restoration/",
+    "/service-areas/keene-ca/reconstruction/",
+    "/service-areas/keene-ca/sewage-cleanup/",
+    "/service-areas/keene-ca/smoke-damage-restoration/",
+    "/service-areas/keene-ca/storm-damage-restoration/",
+    "/service-areas/keene-ca/water-cleanup/",
+    "/service-areas/keene-ca/burst-pipe-repair/",
+    "/service-areas/keene-ca/general-contracting/",
+    "/service-areas/keene-ca/mold-inspection-testing/",
+    "/service-areas/keene-ca/odor-removal/",
+    "/service-areas/keene-ca/soot-removal/",
+    "/service-areas/keene-ca/appliance-leak-cleanup/",
+    "/service-areas/keene-ca/carpet-cleaning/",
+    "/service-areas/arvin-ca/",
+    "/service-areas/bear-valley-springs-ca/",
+    "/service-areas/buttonwillow-ca/"
   ],
   "/service-areas/oildale-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
@@ -3759,6 +3785,159 @@
     "/service-areas/bear-valley-springs-ca/home-remodeling/",
     "/service-areas/arvin-ca/water-cleanup/",
     "/service-areas/buttonwillow-ca/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/keene-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/keene-ca/",
+    "/service-areas/keene-ca/fire-damage-restoration/",
+    "/service-areas/keene-ca/home-remodeling/",
+    "/service-areas/arvin-ca/water-damage-restoration/",
+    "/service-areas/bear-valley-springs-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/keene-ca/flood-damage-restoration/": [
+    "/services/flood-damage-restoration/",
+    "/service-areas/keene-ca/",
+    "/service-areas/keene-ca/fire-damage-restoration/",
+    "/service-areas/keene-ca/home-remodeling/",
+    "/service-areas/arvin-ca/flood-damage-restoration/",
+    "/service-areas/bear-valley-springs-ca/flood-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/keene-ca/burst-pipe-repair/": [
+    "/services/burst-pipe-repair/",
+    "/service-areas/keene-ca/",
+    "/service-areas/keene-ca/fire-damage-restoration/",
+    "/service-areas/keene-ca/home-remodeling/",
+    "/service-areas/arvin-ca/burst-pipe-repair/",
+    "/service-areas/bear-valley-springs-ca/burst-pipe-repair/",
+    "/contact/"
+  ],
+  "/service-areas/keene-ca/appliance-leak-cleanup/": [
+    "/services/appliance-leak-cleanup/",
+    "/service-areas/keene-ca/",
+    "/service-areas/keene-ca/fire-damage-restoration/",
+    "/service-areas/keene-ca/home-remodeling/",
+    "/service-areas/arvin-ca/appliance-leak-cleanup/",
+    "/service-areas/bear-valley-springs-ca/appliance-leak-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/keene-ca/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/keene-ca/",
+    "/service-areas/keene-ca/fire-damage-restoration/",
+    "/service-areas/keene-ca/home-remodeling/",
+    "/service-areas/arvin-ca/sewage-cleanup/",
+    "/service-areas/bear-valley-springs-ca/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/keene-ca/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/keene-ca/",
+    "/service-areas/keene-ca/home-remodeling/",
+    "/service-areas/keene-ca/mold-remediation/",
+    "/service-areas/arvin-ca/fire-damage-restoration/",
+    "/service-areas/bear-valley-springs-ca/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/keene-ca/smoke-damage-restoration/": [
+    "/services/smoke-damage-restoration/",
+    "/service-areas/keene-ca/",
+    "/service-areas/keene-ca/fire-damage-restoration/",
+    "/service-areas/keene-ca/home-remodeling/",
+    "/service-areas/arvin-ca/smoke-damage-restoration/",
+    "/service-areas/bear-valley-springs-ca/smoke-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/keene-ca/soot-removal/": [
+    "/services/soot-removal/",
+    "/service-areas/keene-ca/",
+    "/service-areas/keene-ca/fire-damage-restoration/",
+    "/service-areas/keene-ca/home-remodeling/",
+    "/service-areas/arvin-ca/soot-removal/",
+    "/service-areas/bear-valley-springs-ca/soot-removal/",
+    "/contact/"
+  ],
+  "/service-areas/keene-ca/odor-removal/": [
+    "/services/odor-removal/",
+    "/service-areas/keene-ca/",
+    "/service-areas/keene-ca/fire-damage-restoration/",
+    "/service-areas/keene-ca/home-remodeling/",
+    "/service-areas/arvin-ca/odor-removal/",
+    "/service-areas/bear-valley-springs-ca/odor-removal/",
+    "/contact/"
+  ],
+  "/service-areas/keene-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/keene-ca/",
+    "/service-areas/keene-ca/fire-damage-restoration/",
+    "/service-areas/keene-ca/home-remodeling/",
+    "/service-areas/arvin-ca/mold-remediation/",
+    "/service-areas/bear-valley-springs-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/keene-ca/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/keene-ca/",
+    "/service-areas/keene-ca/fire-damage-restoration/",
+    "/service-areas/keene-ca/home-remodeling/",
+    "/service-areas/arvin-ca/mold-inspection-testing/",
+    "/service-areas/bear-valley-springs-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/keene-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/keene-ca/",
+    "/service-areas/keene-ca/fire-damage-restoration/",
+    "/service-areas/keene-ca/home-remodeling/",
+    "/service-areas/arvin-ca/storm-damage-restoration/",
+    "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/keene-ca/carpet-cleaning/": [
+    "/services/carpet-cleaning/",
+    "/service-areas/keene-ca/",
+    "/service-areas/keene-ca/fire-damage-restoration/",
+    "/service-areas/keene-ca/home-remodeling/",
+    "/service-areas/arvin-ca/carpet-cleaning/",
+    "/service-areas/bear-valley-springs-ca/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/keene-ca/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/keene-ca/",
+    "/service-areas/keene-ca/fire-damage-restoration/",
+    "/service-areas/keene-ca/home-remodeling/",
+    "/service-areas/arvin-ca/reconstruction/",
+    "/service-areas/bear-valley-springs-ca/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/keene-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/keene-ca/",
+    "/service-areas/keene-ca/fire-damage-restoration/",
+    "/service-areas/keene-ca/mold-remediation/",
+    "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/bear-valley-springs-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/keene-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/keene-ca/",
+    "/service-areas/keene-ca/fire-damage-restoration/",
+    "/service-areas/keene-ca/home-remodeling/",
+    "/service-areas/arvin-ca/general-contracting/",
+    "/service-areas/bear-valley-springs-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/keene-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/keene-ca/",
+    "/service-areas/keene-ca/fire-damage-restoration/",
+    "/service-areas/keene-ca/home-remodeling/",
+    "/service-areas/arvin-ca/water-cleanup/",
+    "/service-areas/bear-valley-springs-ca/water-cleanup/",
     "/contact/"
   ],
   "/blog/what-to-do-first-24-hours-water-damage/": [

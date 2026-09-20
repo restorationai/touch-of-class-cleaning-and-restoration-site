@@ -341,6 +341,11 @@
       "city": "Bear Valley Springs",
       "state": "CA",
       "slug": "bear-valley-springs-ca"
+    },
+    {
+      "city": "Keene",
+      "state": "CA",
+      "slug": "keene-ca"
     }
   ],
   "brand": {

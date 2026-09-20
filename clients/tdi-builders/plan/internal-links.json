@@ -40,7 +40,8 @@
     "/service-areas/rosemont-ca/",
     "/service-areas/roseville-ca/",
     "/service-areas/turlock-ca/",
-    "/service-areas/west-sacramento-ca/"
+    "/service-areas/west-sacramento-ca/",
+    "/service-areas/woodland-ca/"
   ],
   "/services/": [
     "/",
@@ -83,7 +84,8 @@
     "/service-areas/rosemont-ca/",
     "/service-areas/roseville-ca/",
     "/service-areas/turlock-ca/",
-    "/service-areas/west-sacramento-ca/"
+    "/service-areas/west-sacramento-ca/",
+    "/service-areas/woodland-ca/"
   ],
   "/blog/": [
     "/",
@@ -781,6 +783,25 @@
     "/service-areas/florin-ca/storm-damage-restoration/",
     "/service-areas/florin-ca/water-damage-restoration/",
     "/service-areas/florin-ca/garage-construction/",
+    "/service-areas/antelope-ca/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/carmichael-ca/"
+  ],
+  "/service-areas/woodland-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/woodland-ca/home-remodeling/",
+    "/service-areas/woodland-ca/bathroom-remodeling/",
+    "/service-areas/woodland-ca/kitchen-remodeling/",
+    "/service-areas/woodland-ca/new-construction/",
+    "/service-areas/woodland-ca/general-contracting/",
+    "/service-areas/woodland-ca/room-addition/",
+    "/service-areas/woodland-ca/commercial-construction/",
+    "/service-areas/woodland-ca/fire-smoke-rebuilding/",
+    "/service-areas/woodland-ca/mold-remediation/",
+    "/service-areas/woodland-ca/storm-damage-restoration/",
+    "/service-areas/woodland-ca/water-damage-restoration/",
+    "/service-areas/woodland-ca/garage-construction/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
     "/service-areas/carmichael-ca/"
@@ -3481,6 +3502,114 @@
     "/service-areas/florin-ca/",
     "/service-areas/florin-ca/home-remodeling/",
     "/service-areas/florin-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/room-addition/",
+    "/service-areas/arden-arcade-ca/room-addition/",
+    "/contact/"
+  ],
+  "/service-areas/woodland-ca/commercial-construction/": [
+    "/services/commercial-construction/",
+    "/service-areas/woodland-ca/",
+    "/service-areas/woodland-ca/home-remodeling/",
+    "/service-areas/woodland-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/commercial-construction/",
+    "/service-areas/arden-arcade-ca/commercial-construction/",
+    "/contact/"
+  ],
+  "/service-areas/woodland-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/woodland-ca/",
+    "/service-areas/woodland-ca/home-remodeling/",
+    "/service-areas/woodland-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/general-contracting/",
+    "/service-areas/arden-arcade-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/woodland-ca/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/woodland-ca/",
+    "/service-areas/woodland-ca/home-remodeling/",
+    "/service-areas/woodland-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/new-construction/",
+    "/service-areas/arden-arcade-ca/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/woodland-ca/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/woodland-ca/",
+    "/service-areas/woodland-ca/home-remodeling/",
+    "/service-areas/woodland-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/fire-smoke-rebuilding/",
+    "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/",
+    "/contact/"
+  ],
+  "/service-areas/woodland-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/woodland-ca/",
+    "/service-areas/woodland-ca/home-remodeling/",
+    "/service-areas/woodland-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/water-damage-restoration/",
+    "/service-areas/arden-arcade-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/woodland-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/woodland-ca/",
+    "/service-areas/woodland-ca/home-remodeling/",
+    "/service-areas/woodland-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/storm-damage-restoration/",
+    "/service-areas/arden-arcade-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/woodland-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/woodland-ca/",
+    "/service-areas/woodland-ca/home-remodeling/",
+    "/service-areas/woodland-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/mold-remediation/",
+    "/service-areas/arden-arcade-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/woodland-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/woodland-ca/",
+    "/service-areas/woodland-ca/bathroom-remodeling/",
+    "/service-areas/woodland-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/woodland-ca/kitchen-remodeling/": [
+    "/services/kitchen-remodeling/",
+    "/service-areas/woodland-ca/",
+    "/service-areas/woodland-ca/home-remodeling/",
+    "/service-areas/woodland-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/kitchen-remodeling/",
+    "/service-areas/arden-arcade-ca/kitchen-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/woodland-ca/bathroom-remodeling/": [
+    "/services/bathroom-remodeling/",
+    "/service-areas/woodland-ca/",
+    "/service-areas/woodland-ca/home-remodeling/",
+    "/service-areas/woodland-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/woodland-ca/garage-construction/": [
+    "/services/garage-construction/",
+    "/service-areas/woodland-ca/",
+    "/service-areas/woodland-ca/home-remodeling/",
+    "/service-areas/woodland-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/garage-construction/",
+    "/service-areas/arden-arcade-ca/garage-construction/",
+    "/contact/"
+  ],
+  "/service-areas/woodland-ca/room-addition/": [
+    "/services/room-addition/",
+    "/service-areas/woodland-ca/",
+    "/service-areas/woodland-ca/home-remodeling/",
+    "/service-areas/woodland-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/room-addition/",
     "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"

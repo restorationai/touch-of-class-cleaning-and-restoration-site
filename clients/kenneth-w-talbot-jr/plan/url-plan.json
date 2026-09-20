@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-20T19:37:08.379822+00:00",
+  "generated_at": "2026-09-20T20:41:56.988456+00:00",
   "input_summary": {
     "service_count": 5,
-    "service_area_count": 19,
+    "service_area_count": 20,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -55,6 +55,7 @@
         "/service-areas/ebro-fl/",
         "/service-areas/eglin-afb-fl/",
         "/service-areas/fort-walton-beach-fl/",
+        "/service-areas/harold-fl/",
         "/service-areas/hurlburt-field-fl/",
         "/service-areas/laurel-hill-fl/",
         "/service-areas/miramar-beach-fl/",
@@ -141,6 +142,7 @@
         "/service-areas/ebro-fl/",
         "/service-areas/eglin-afb-fl/",
         "/service-areas/fort-walton-beach-fl/",
+        "/service-areas/harold-fl/",
         "/service-areas/hurlburt-field-fl/",
         "/service-areas/laurel-hill-fl/",
         "/service-areas/miramar-beach-fl/",
@@ -302,12 +304,12 @@
         "/service-areas/ebro-fl/water-damage-restoration/",
         "/service-areas/eglin-afb-fl/water-damage-restoration/",
         "/service-areas/fort-walton-beach-fl/water-damage-restoration/",
+        "/service-areas/harold-fl/water-damage-restoration/",
         "/service-areas/hurlburt-field-fl/water-damage-restoration/",
         "/service-areas/laurel-hill-fl/water-damage-restoration/",
         "/service-areas/miramar-beach-fl/water-damage-restoration/",
         "/service-areas/niceville-fl/water-damage-restoration/",
         "/service-areas/panama-city-beach-fl/water-damage-restoration/",
-        "/service-areas/paxton-fl/water-damage-restoration/",
         "/services/water-cleanup/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
@@ -356,12 +358,12 @@
         "/service-areas/ebro-fl/fire-damage-restoration/",
         "/service-areas/eglin-afb-fl/fire-damage-restoration/",
         "/service-areas/fort-walton-beach-fl/fire-damage-restoration/",
+        "/service-areas/harold-fl/fire-damage-restoration/",
         "/service-areas/hurlburt-field-fl/fire-damage-restoration/",
         "/service-areas/laurel-hill-fl/fire-damage-restoration/",
         "/service-areas/miramar-beach-fl/fire-damage-restoration/",
         "/service-areas/niceville-fl/fire-damage-restoration/",
         "/service-areas/panama-city-beach-fl/fire-damage-restoration/",
-        "/service-areas/paxton-fl/fire-damage-restoration/",
         "/blog/choosing-a-restoration-company/",
         "/blog/fire-damage-restoration-process/"
       ]
@@ -408,12 +410,12 @@
         "/service-areas/ebro-fl/mold-remediation/",
         "/service-areas/eglin-afb-fl/mold-remediation/",
         "/service-areas/fort-walton-beach-fl/mold-remediation/",
+        "/service-areas/harold-fl/mold-remediation/",
         "/service-areas/hurlburt-field-fl/mold-remediation/",
         "/service-areas/laurel-hill-fl/mold-remediation/",
         "/service-areas/miramar-beach-fl/mold-remediation/",
         "/service-areas/niceville-fl/mold-remediation/",
         "/service-areas/panama-city-beach-fl/mold-remediation/",
-        "/service-areas/paxton-fl/mold-remediation/",
         "/blog/choosing-a-restoration-company/",
         "/blog/how-to-test-for-mold/",
         "/blog/signs-of-hidden-mold/"
@@ -461,12 +463,12 @@
         "/service-areas/ebro-fl/storm-damage-restoration/",
         "/service-areas/eglin-afb-fl/storm-damage-restoration/",
         "/service-areas/fort-walton-beach-fl/storm-damage-restoration/",
+        "/service-areas/harold-fl/storm-damage-restoration/",
         "/service-areas/hurlburt-field-fl/storm-damage-restoration/",
         "/service-areas/laurel-hill-fl/storm-damage-restoration/",
         "/service-areas/miramar-beach-fl/storm-damage-restoration/",
         "/service-areas/niceville-fl/storm-damage-restoration/",
-        "/service-areas/panama-city-beach-fl/storm-damage-restoration/",
-        "/service-areas/paxton-fl/storm-damage-restoration/"
+        "/service-areas/panama-city-beach-fl/storm-damage-restoration/"
       ]
     },
     {
@@ -512,12 +514,12 @@
         "/service-areas/ebro-fl/water-cleanup/",
         "/service-areas/eglin-afb-fl/water-cleanup/",
         "/service-areas/fort-walton-beach-fl/water-cleanup/",
+        "/service-areas/harold-fl/water-cleanup/",
         "/service-areas/hurlburt-field-fl/water-cleanup/",
         "/service-areas/laurel-hill-fl/water-cleanup/",
         "/service-areas/miramar-beach-fl/water-cleanup/",
         "/service-areas/niceville-fl/water-cleanup/",
         "/service-areas/panama-city-beach-fl/water-cleanup/",
-        "/service-areas/paxton-fl/water-cleanup/",
         "/services/water-damage-restoration/"
       ]
     },
@@ -1272,6 +1274,48 @@
         "/service-areas/laurel-hill-fl/water-damage-restoration/",
         "/service-areas/laurel-hill-fl/storm-damage-restoration/",
         "/service-areas/laurel-hill-fl/water-cleanup/",
+        "/service-areas/crestview-fl/",
+        "/service-areas/defuniak-springs-fl/",
+        "/service-areas/destin-fl/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/harold-fl/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Harold, FL | Veterans Remediation & Restoration ",
+      "h1": "Restoration Services in Harold",
+      "meta_description": "Serving Harold, FL with 24/7 water, fire, mold, and storm damage restoration. Experienced team. Call (337) 344-1248.",
+      "primary_keyword": "restoration services harold",
+      "secondary_keywords": [
+        "harold restoration company",
+        "damage restoration harold",
+        "harold disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/harold-fl/fire-damage-restoration/",
+        "/service-areas/harold-fl/mold-remediation/",
+        "/service-areas/harold-fl/water-damage-restoration/",
+        "/service-areas/harold-fl/storm-damage-restoration/",
+        "/service-areas/harold-fl/water-cleanup/",
         "/service-areas/crestview-fl/",
         "/service-areas/defuniak-springs-fl/",
         "/service-areas/destin-fl/"
@@ -5250,6 +5294,227 @@
         "/service-areas/laurel-hill-fl/",
         "/service-areas/laurel-hill-fl/fire-damage-restoration/",
         "/service-areas/laurel-hill-fl/mold-remediation/",
+        "/service-areas/crestview-fl/water-cleanup/",
+        "/service-areas/defuniak-springs-fl/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/harold-fl/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Harold, FL | Veterans Remediation & Restoration ",
+      "h1": "Water Damage Restoration in Harold",
+      "meta_description": "24/7 water damage restoration in Harold, FL. Insurance billing accepted. Call (337) 344-1248.",
+      "primary_keyword": "water damage restoration harold",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/harold-fl/",
+        "/service-areas/harold-fl/fire-damage-restoration/",
+        "/service-areas/harold-fl/mold-remediation/",
+        "/service-areas/crestview-fl/water-damage-restoration/",
+        "/service-areas/defuniak-springs-fl/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/harold-fl/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Harold, FL | Veterans Remediation & Restoration ",
+      "h1": "Fire Damage Restoration in Harold",
+      "meta_description": "24/7 fire damage restoration in Harold, FL. Insurance billing accepted. Call (337) 344-1248.",
+      "primary_keyword": "fire damage restoration harold",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/harold-fl/",
+        "/service-areas/harold-fl/mold-remediation/",
+        "/service-areas/harold-fl/water-damage-restoration/",
+        "/service-areas/crestview-fl/fire-damage-restoration/",
+        "/service-areas/defuniak-springs-fl/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/harold-fl/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Harold, FL | Veterans Remediation & Restoration ",
+      "h1": "Mold Remediation in Harold",
+      "meta_description": "24/7 mold remediation in Harold, FL. Insurance billing accepted. Call (337) 344-1248.",
+      "primary_keyword": "mold remediation harold",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/harold-fl/",
+        "/service-areas/harold-fl/fire-damage-restoration/",
+        "/service-areas/harold-fl/water-damage-restoration/",
+        "/service-areas/crestview-fl/mold-remediation/",
+        "/service-areas/defuniak-springs-fl/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/harold-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Harold, FL | Veterans Remediation & Restoration ",
+      "h1": "Storm Damage Restoration in Harold",
+      "meta_description": "24/7 storm damage restoration in Harold, FL. Insurance billing accepted. Call (337) 344-1248.",
+      "primary_keyword": "storm damage restoration harold",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/harold-fl/",
+        "/service-areas/harold-fl/fire-damage-restoration/",
+        "/service-areas/harold-fl/mold-remediation/",
+        "/service-areas/crestview-fl/storm-damage-restoration/",
+        "/service-areas/defuniak-springs-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/harold-fl/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Harold, FL | Veterans Remediation & Restoration ",
+      "h1": "Emergency Water Cleanup in Harold",
+      "meta_description": "24/7 emergency water cleanup in Harold, FL. Insurance billing accepted. Call (337) 344-1248.",
+      "primary_keyword": "emergency water cleanup harold",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/harold-fl/",
+        "/service-areas/harold-fl/fire-damage-restoration/",
+        "/service-areas/harold-fl/mold-remediation/",
         "/service-areas/crestview-fl/water-cleanup/",
         "/service-areas/defuniak-springs-fl/water-cleanup/",
         "/contact/"

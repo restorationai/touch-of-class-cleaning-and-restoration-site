@@ -134,6 +134,11 @@
       "city": "Triana",
       "state": "AL",
       "slug": "triana-al"
+    },
+    {
+      "city": "New Hope",
+      "state": "AL",
+      "slug": "new-hope-al"
     }
   ],
   "brand": {

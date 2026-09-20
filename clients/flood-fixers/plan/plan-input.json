@@ -143,6 +143,11 @@
       "city": "Camp Pendleton Mainside",
       "state": "CA",
       "slug": "camp-pendleton-mainside-ca"
+    },
+    {
+      "city": "Camp Pendleton South",
+      "state": "CA",
+      "slug": "camp-pendleton-south-ca"
     }
   ],
   "brand": {

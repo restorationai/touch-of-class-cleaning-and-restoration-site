@@ -235,6 +235,11 @@
       "city": "Rolesville",
       "state": "NC",
       "slug": "rolesville-nc"
+    },
+    {
+      "city": "Selma",
+      "state": "NC",
+      "slug": "selma-nc"
     }
   ],
   "template": "restoration",

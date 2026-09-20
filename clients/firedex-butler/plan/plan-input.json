@@ -307,6 +307,11 @@
       "city": "Allison Park",
       "state": "PA",
       "slug": "allison-park-pa"
+    },
+    {
+      "city": "Prospect",
+      "state": "PA",
+      "slug": "prospect-pa"
     }
   ],
   "brand": {

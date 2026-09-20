@@ -1,20 +1,20 @@
 # Site Plan Report — Flood Fixers
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T19:36:58.259402+00:00
+- Generated: 2026-09-20T20:41:47.840007+00:00
 - Domain: `flood-fixers.com`
 - Services selected: 7 of 65 catalog entries
-- Service areas: 24
+- Service areas: 25
 - Cross-product enabled: True
-- Total URLs: **209**
-- Total internal links: 1633 (avg 7.8 per page)
+- Total URLs: **217**
+- Total internal links: 1696 (avg 7.8 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 161 |
-| `service-area` | 23 |
+| `service-area-service` | 168 |
+| `service-area` | 24 |
 | `blog-post` | 9 |
 | `service-landing` | 7 |
 | `legal` | 3 |
@@ -61,6 +61,7 @@
 - `solana-beach-ca` — Solana Beach, CA
 - `del-mar-ca` — Del Mar, CA
 - `camp-pendleton-mainside-ca` — Camp Pendleton Mainside, CA
+- `camp-pendleton-south-ca` — Camp Pendleton South, CA
 
 ## Top 10 priority pages
 
@@ -75,7 +76,7 @@
 | `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting san diego |
 | `/service-areas/bonsall-ca/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration bonsall |
 | `/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration camp pendleton mainside |
-| `/service-areas/carlsbad-ca/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration carlsbad |
+| `/service-areas/camp-pendleton-south-ca/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration camp pendleton south |
 
 ## Validation
 

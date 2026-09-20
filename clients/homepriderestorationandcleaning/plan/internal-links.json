@@ -35,6 +35,7 @@
     "/service-areas/heber-city-ut/",
     "/service-areas/herriman-ut/",
     "/service-areas/highland-ut/",
+    "/service-areas/lake-shore-ut/",
     "/service-areas/lehi-ut/",
     "/service-areas/lindon-ut/",
     "/service-areas/orem-ut/",
@@ -81,6 +82,7 @@
     "/service-areas/heber-city-ut/",
     "/service-areas/herriman-ut/",
     "/service-areas/highland-ut/",
+    "/service-areas/lake-shore-ut/",
     "/service-areas/lehi-ut/",
     "/service-areas/lindon-ut/",
     "/service-areas/orem-ut/",
@@ -130,7 +132,7 @@
     "/service-areas/heber-city-ut/water-damage-restoration/",
     "/service-areas/herriman-ut/water-damage-restoration/",
     "/service-areas/highland-ut/water-damage-restoration/",
-    "/service-areas/lehi-ut/water-damage-restoration/",
+    "/service-areas/lake-shore-ut/water-damage-restoration/",
     "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -150,7 +152,7 @@
     "/service-areas/heber-city-ut/burst-pipe-repair/",
     "/service-areas/herriman-ut/burst-pipe-repair/",
     "/service-areas/highland-ut/burst-pipe-repair/",
-    "/service-areas/lehi-ut/burst-pipe-repair/"
+    "/service-areas/lake-shore-ut/burst-pipe-repair/"
   ],
   "/services/frozen-pipe-restoration/": [
     "/services/",
@@ -166,7 +168,7 @@
     "/service-areas/heber-city-ut/frozen-pipe-restoration/",
     "/service-areas/herriman-ut/frozen-pipe-restoration/",
     "/service-areas/highland-ut/frozen-pipe-restoration/",
-    "/service-areas/lehi-ut/frozen-pipe-restoration/"
+    "/service-areas/lake-shore-ut/frozen-pipe-restoration/"
   ],
   "/services/appliance-leak-cleanup/": [
     "/services/",
@@ -182,7 +184,7 @@
     "/service-areas/heber-city-ut/appliance-leak-cleanup/",
     "/service-areas/herriman-ut/appliance-leak-cleanup/",
     "/service-areas/highland-ut/appliance-leak-cleanup/",
-    "/service-areas/lehi-ut/appliance-leak-cleanup/",
+    "/service-areas/lake-shore-ut/appliance-leak-cleanup/",
     "/blog/burst-pipe-emergency-checklist/"
   ],
   "/services/basement-flooding-cleanup/": [
@@ -199,7 +201,7 @@
     "/service-areas/heber-city-ut/basement-flooding-cleanup/",
     "/service-areas/herriman-ut/basement-flooding-cleanup/",
     "/service-areas/highland-ut/basement-flooding-cleanup/",
-    "/service-areas/lehi-ut/basement-flooding-cleanup/"
+    "/service-areas/lake-shore-ut/basement-flooding-cleanup/"
   ],
   "/services/roof-leak-repair/": [
     "/services/",
@@ -215,7 +217,7 @@
     "/service-areas/heber-city-ut/roof-leak-repair/",
     "/service-areas/herriman-ut/roof-leak-repair/",
     "/service-areas/highland-ut/roof-leak-repair/",
-    "/service-areas/lehi-ut/roof-leak-repair/"
+    "/service-areas/lake-shore-ut/roof-leak-repair/"
   ],
   "/services/sewage-cleanup/": [
     "/services/",
@@ -231,7 +233,7 @@
     "/service-areas/heber-city-ut/sewage-cleanup/",
     "/service-areas/herriman-ut/sewage-cleanup/",
     "/service-areas/highland-ut/sewage-cleanup/",
-    "/service-areas/lehi-ut/sewage-cleanup/"
+    "/service-areas/lake-shore-ut/sewage-cleanup/"
   ],
   "/services/storm-damage-restoration/": [
     "/services/",
@@ -247,7 +249,7 @@
     "/service-areas/heber-city-ut/storm-damage-restoration/",
     "/service-areas/herriman-ut/storm-damage-restoration/",
     "/service-areas/highland-ut/storm-damage-restoration/",
-    "/service-areas/lehi-ut/storm-damage-restoration/",
+    "/service-areas/lake-shore-ut/storm-damage-restoration/",
     "/blog/storm-damage-insurance-claim-checklist/"
   ],
   "/services/fire-damage-restoration/": [
@@ -264,7 +266,7 @@
     "/service-areas/heber-city-ut/fire-damage-restoration/",
     "/service-areas/herriman-ut/fire-damage-restoration/",
     "/service-areas/highland-ut/fire-damage-restoration/",
-    "/service-areas/lehi-ut/fire-damage-restoration/",
+    "/service-areas/lake-shore-ut/fire-damage-restoration/",
     "/blog/choosing-a-restoration-company/",
     "/blog/fire-damage-restoration-process/",
     "/blog/smoke-odor-removal-techniques/"
@@ -283,7 +285,7 @@
     "/service-areas/heber-city-ut/smoke-damage-restoration/",
     "/service-areas/herriman-ut/smoke-damage-restoration/",
     "/service-areas/highland-ut/smoke-damage-restoration/",
-    "/service-areas/lehi-ut/smoke-damage-restoration/",
+    "/service-areas/lake-shore-ut/smoke-damage-restoration/",
     "/blog/fire-damage-restoration-process/",
     "/blog/smoke-odor-removal-techniques/"
   ],
@@ -301,7 +303,7 @@
     "/service-areas/heber-city-ut/mold-remediation/",
     "/service-areas/herriman-ut/mold-remediation/",
     "/service-areas/highland-ut/mold-remediation/",
-    "/service-areas/lehi-ut/mold-remediation/",
+    "/service-areas/lake-shore-ut/mold-remediation/",
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
     "/blog/signs-of-hidden-mold/"
@@ -320,7 +322,7 @@
     "/service-areas/heber-city-ut/mold-inspection-testing/",
     "/service-areas/herriman-ut/mold-inspection-testing/",
     "/service-areas/highland-ut/mold-inspection-testing/",
-    "/service-areas/lehi-ut/mold-inspection-testing/",
+    "/service-areas/lake-shore-ut/mold-inspection-testing/",
     "/blog/how-to-test-for-mold/"
   ],
   "/services/carpet-cleaning/": [
@@ -337,7 +339,7 @@
     "/service-areas/heber-city-ut/carpet-cleaning/",
     "/service-areas/herriman-ut/carpet-cleaning/",
     "/service-areas/highland-ut/carpet-cleaning/",
-    "/service-areas/lehi-ut/carpet-cleaning/"
+    "/service-areas/lake-shore-ut/carpet-cleaning/"
   ],
   "/services/odor-removal/": [
     "/services/",
@@ -353,7 +355,7 @@
     "/service-areas/heber-city-ut/odor-removal/",
     "/service-areas/herriman-ut/odor-removal/",
     "/service-areas/highland-ut/odor-removal/",
-    "/service-areas/lehi-ut/odor-removal/"
+    "/service-areas/lake-shore-ut/odor-removal/"
   ],
   "/services/upholstery-cleaning/": [
     "/services/",
@@ -369,7 +371,7 @@
     "/service-areas/heber-city-ut/upholstery-cleaning/",
     "/service-areas/herriman-ut/upholstery-cleaning/",
     "/service-areas/highland-ut/upholstery-cleaning/",
-    "/service-areas/lehi-ut/upholstery-cleaning/"
+    "/service-areas/lake-shore-ut/upholstery-cleaning/"
   ],
   "/services/tile-grout-cleaning/": [
     "/services/",
@@ -385,7 +387,7 @@
     "/service-areas/heber-city-ut/tile-grout-cleaning/",
     "/service-areas/herriman-ut/tile-grout-cleaning/",
     "/service-areas/highland-ut/tile-grout-cleaning/",
-    "/service-areas/lehi-ut/tile-grout-cleaning/"
+    "/service-areas/lake-shore-ut/tile-grout-cleaning/"
   ],
   "/services/fabric-protection/": [
     "/services/",
@@ -401,7 +403,7 @@
     "/service-areas/heber-city-ut/fabric-protection/",
     "/service-areas/herriman-ut/fabric-protection/",
     "/service-areas/highland-ut/fabric-protection/",
-    "/service-areas/lehi-ut/fabric-protection/"
+    "/service-areas/lake-shore-ut/fabric-protection/"
   ],
   "/services/junk-debris-removal/": [
     "/services/",
@@ -417,7 +419,7 @@
     "/service-areas/heber-city-ut/junk-debris-removal/",
     "/service-areas/herriman-ut/junk-debris-removal/",
     "/service-areas/highland-ut/junk-debris-removal/",
-    "/service-areas/lehi-ut/junk-debris-removal/"
+    "/service-areas/lake-shore-ut/junk-debris-removal/"
   ],
   "/services/crawl-space-encapsulation/": [
     "/services/",
@@ -433,7 +435,7 @@
     "/service-areas/heber-city-ut/crawl-space-encapsulation/",
     "/service-areas/herriman-ut/crawl-space-encapsulation/",
     "/service-areas/highland-ut/crawl-space-encapsulation/",
-    "/service-areas/lehi-ut/crawl-space-encapsulation/"
+    "/service-areas/lake-shore-ut/crawl-space-encapsulation/"
   ],
   "/services/water-cleanup/": [
     "/services/",
@@ -449,7 +451,7 @@
     "/service-areas/heber-city-ut/water-cleanup/",
     "/service-areas/herriman-ut/water-cleanup/",
     "/service-areas/highland-ut/water-cleanup/",
-    "/service-areas/lehi-ut/water-cleanup/",
+    "/service-areas/lake-shore-ut/water-cleanup/",
     "/services/water-damage-restoration/"
   ],
   "/service-areas/lehi-ut/": [
@@ -988,6 +990,33 @@
     "/service-areas/draper-ut/carpet-cleaning/",
     "/service-areas/draper-ut/tile-grout-cleaning/",
     "/service-areas/draper-ut/upholstery-cleaning/",
+    "/service-areas/alpine-ut/",
+    "/service-areas/american-fork-ut/",
+    "/service-areas/bluffdale-ut/"
+  ],
+  "/service-areas/lake-shore-ut/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/lake-shore-ut/fire-damage-restoration/",
+    "/service-areas/lake-shore-ut/mold-remediation/",
+    "/service-areas/lake-shore-ut/water-damage-restoration/",
+    "/service-areas/lake-shore-ut/sewage-cleanup/",
+    "/service-areas/lake-shore-ut/smoke-damage-restoration/",
+    "/service-areas/lake-shore-ut/storm-damage-restoration/",
+    "/service-areas/lake-shore-ut/water-cleanup/",
+    "/service-areas/lake-shore-ut/basement-flooding-cleanup/",
+    "/service-areas/lake-shore-ut/burst-pipe-repair/",
+    "/service-areas/lake-shore-ut/mold-inspection-testing/",
+    "/service-areas/lake-shore-ut/frozen-pipe-restoration/",
+    "/service-areas/lake-shore-ut/odor-removal/",
+    "/service-areas/lake-shore-ut/roof-leak-repair/",
+    "/service-areas/lake-shore-ut/appliance-leak-cleanup/",
+    "/service-areas/lake-shore-ut/crawl-space-encapsulation/",
+    "/service-areas/lake-shore-ut/fabric-protection/",
+    "/service-areas/lake-shore-ut/junk-debris-removal/",
+    "/service-areas/lake-shore-ut/carpet-cleaning/",
+    "/service-areas/lake-shore-ut/tile-grout-cleaning/",
+    "/service-areas/lake-shore-ut/upholstery-cleaning/",
     "/service-areas/alpine-ut/",
     "/service-areas/american-fork-ut/",
     "/service-areas/bluffdale-ut/"
@@ -4588,6 +4617,186 @@
     "/service-areas/draper-ut/",
     "/service-areas/draper-ut/fire-damage-restoration/",
     "/service-areas/draper-ut/mold-remediation/",
+    "/service-areas/alpine-ut/water-cleanup/",
+    "/service-areas/american-fork-ut/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/lake-shore-ut/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/lake-shore-ut/",
+    "/service-areas/lake-shore-ut/fire-damage-restoration/",
+    "/service-areas/lake-shore-ut/mold-remediation/",
+    "/service-areas/alpine-ut/water-damage-restoration/",
+    "/service-areas/american-fork-ut/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/lake-shore-ut/burst-pipe-repair/": [
+    "/services/burst-pipe-repair/",
+    "/service-areas/lake-shore-ut/",
+    "/service-areas/lake-shore-ut/fire-damage-restoration/",
+    "/service-areas/lake-shore-ut/mold-remediation/",
+    "/service-areas/alpine-ut/burst-pipe-repair/",
+    "/service-areas/american-fork-ut/burst-pipe-repair/",
+    "/contact/"
+  ],
+  "/service-areas/lake-shore-ut/frozen-pipe-restoration/": [
+    "/services/frozen-pipe-restoration/",
+    "/service-areas/lake-shore-ut/",
+    "/service-areas/lake-shore-ut/fire-damage-restoration/",
+    "/service-areas/lake-shore-ut/mold-remediation/",
+    "/service-areas/alpine-ut/frozen-pipe-restoration/",
+    "/service-areas/american-fork-ut/frozen-pipe-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/lake-shore-ut/appliance-leak-cleanup/": [
+    "/services/appliance-leak-cleanup/",
+    "/service-areas/lake-shore-ut/",
+    "/service-areas/lake-shore-ut/fire-damage-restoration/",
+    "/service-areas/lake-shore-ut/mold-remediation/",
+    "/service-areas/alpine-ut/appliance-leak-cleanup/",
+    "/service-areas/american-fork-ut/appliance-leak-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/lake-shore-ut/basement-flooding-cleanup/": [
+    "/services/basement-flooding-cleanup/",
+    "/service-areas/lake-shore-ut/",
+    "/service-areas/lake-shore-ut/fire-damage-restoration/",
+    "/service-areas/lake-shore-ut/mold-remediation/",
+    "/service-areas/alpine-ut/basement-flooding-cleanup/",
+    "/service-areas/american-fork-ut/basement-flooding-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/lake-shore-ut/roof-leak-repair/": [
+    "/services/roof-leak-repair/",
+    "/service-areas/lake-shore-ut/",
+    "/service-areas/lake-shore-ut/fire-damage-restoration/",
+    "/service-areas/lake-shore-ut/mold-remediation/",
+    "/service-areas/alpine-ut/roof-leak-repair/",
+    "/service-areas/american-fork-ut/roof-leak-repair/",
+    "/contact/"
+  ],
+  "/service-areas/lake-shore-ut/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/lake-shore-ut/",
+    "/service-areas/lake-shore-ut/fire-damage-restoration/",
+    "/service-areas/lake-shore-ut/mold-remediation/",
+    "/service-areas/alpine-ut/sewage-cleanup/",
+    "/service-areas/american-fork-ut/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/lake-shore-ut/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/lake-shore-ut/",
+    "/service-areas/lake-shore-ut/fire-damage-restoration/",
+    "/service-areas/lake-shore-ut/mold-remediation/",
+    "/service-areas/alpine-ut/storm-damage-restoration/",
+    "/service-areas/american-fork-ut/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/lake-shore-ut/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/lake-shore-ut/",
+    "/service-areas/lake-shore-ut/mold-remediation/",
+    "/service-areas/lake-shore-ut/water-damage-restoration/",
+    "/service-areas/alpine-ut/fire-damage-restoration/",
+    "/service-areas/american-fork-ut/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/lake-shore-ut/smoke-damage-restoration/": [
+    "/services/smoke-damage-restoration/",
+    "/service-areas/lake-shore-ut/",
+    "/service-areas/lake-shore-ut/fire-damage-restoration/",
+    "/service-areas/lake-shore-ut/mold-remediation/",
+    "/service-areas/alpine-ut/smoke-damage-restoration/",
+    "/service-areas/american-fork-ut/smoke-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/lake-shore-ut/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/lake-shore-ut/",
+    "/service-areas/lake-shore-ut/fire-damage-restoration/",
+    "/service-areas/lake-shore-ut/water-damage-restoration/",
+    "/service-areas/alpine-ut/mold-remediation/",
+    "/service-areas/american-fork-ut/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/lake-shore-ut/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/lake-shore-ut/",
+    "/service-areas/lake-shore-ut/fire-damage-restoration/",
+    "/service-areas/lake-shore-ut/mold-remediation/",
+    "/service-areas/alpine-ut/mold-inspection-testing/",
+    "/service-areas/american-fork-ut/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/lake-shore-ut/carpet-cleaning/": [
+    "/services/carpet-cleaning/",
+    "/service-areas/lake-shore-ut/",
+    "/service-areas/lake-shore-ut/fire-damage-restoration/",
+    "/service-areas/lake-shore-ut/mold-remediation/",
+    "/service-areas/alpine-ut/carpet-cleaning/",
+    "/service-areas/american-fork-ut/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/lake-shore-ut/odor-removal/": [
+    "/services/odor-removal/",
+    "/service-areas/lake-shore-ut/",
+    "/service-areas/lake-shore-ut/fire-damage-restoration/",
+    "/service-areas/lake-shore-ut/mold-remediation/",
+    "/service-areas/alpine-ut/odor-removal/",
+    "/service-areas/american-fork-ut/odor-removal/",
+    "/contact/"
+  ],
+  "/service-areas/lake-shore-ut/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/lake-shore-ut/",
+    "/service-areas/lake-shore-ut/fire-damage-restoration/",
+    "/service-areas/lake-shore-ut/mold-remediation/",
+    "/service-areas/alpine-ut/upholstery-cleaning/",
+    "/service-areas/american-fork-ut/upholstery-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/lake-shore-ut/tile-grout-cleaning/": [
+    "/services/tile-grout-cleaning/",
+    "/service-areas/lake-shore-ut/",
+    "/service-areas/lake-shore-ut/fire-damage-restoration/",
+    "/service-areas/lake-shore-ut/mold-remediation/",
+    "/service-areas/alpine-ut/tile-grout-cleaning/",
+    "/service-areas/american-fork-ut/tile-grout-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/lake-shore-ut/fabric-protection/": [
+    "/services/fabric-protection/",
+    "/service-areas/lake-shore-ut/",
+    "/service-areas/lake-shore-ut/fire-damage-restoration/",
+    "/service-areas/lake-shore-ut/mold-remediation/",
+    "/service-areas/alpine-ut/fabric-protection/",
+    "/service-areas/american-fork-ut/fabric-protection/",
+    "/contact/"
+  ],
+  "/service-areas/lake-shore-ut/junk-debris-removal/": [
+    "/services/junk-debris-removal/",
+    "/service-areas/lake-shore-ut/",
+    "/service-areas/lake-shore-ut/fire-damage-restoration/",
+    "/service-areas/lake-shore-ut/mold-remediation/",
+    "/service-areas/alpine-ut/junk-debris-removal/",
+    "/service-areas/american-fork-ut/junk-debris-removal/",
+    "/contact/"
+  ],
+  "/service-areas/lake-shore-ut/crawl-space-encapsulation/": [
+    "/services/crawl-space-encapsulation/",
+    "/service-areas/lake-shore-ut/",
+    "/service-areas/lake-shore-ut/fire-damage-restoration/",
+    "/service-areas/lake-shore-ut/mold-remediation/",
+    "/service-areas/alpine-ut/crawl-space-encapsulation/",
+    "/service-areas/american-fork-ut/crawl-space-encapsulation/",
+    "/contact/"
+  ],
+  "/service-areas/lake-shore-ut/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/lake-shore-ut/",
+    "/service-areas/lake-shore-ut/fire-damage-restoration/",
+    "/service-areas/lake-shore-ut/mold-remediation/",
     "/service-areas/alpine-ut/water-cleanup/",
     "/service-areas/american-fork-ut/water-cleanup/",
     "/contact/"

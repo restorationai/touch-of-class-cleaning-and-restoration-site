@@ -439,6 +439,11 @@
       "city": "Fife",
       "state": "WA",
       "slug": "fife-wa"
+    },
+    {
+      "city": "Normandy Park",
+      "state": "WA",
+      "slug": "normandy-park-wa"
     }
   ],
   "brand": {

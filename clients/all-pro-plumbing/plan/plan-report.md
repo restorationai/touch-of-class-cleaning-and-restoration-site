@@ -1,21 +1,21 @@
 # Site Plan Report — All Pro Plumbing Heating and Air
 
 - Template: `plumbing` v0.1.0
-- Generated: 2026-09-20T19:36:42.572749+00:00
+- Generated: 2026-09-20T20:41:32.043871+00:00
 - Domain: `allproplumbingheatingandair.com`
 - Services selected: 22 of 22 catalog entries
-- Service areas: 16
+- Service areas: 17
 - Cross-product enabled: True
-- Total URLs: **388**
-- Total internal links: 3182 (avg 8.2 per page)
+- Total URLs: **411**
+- Total internal links: 3365 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 330 |
+| `service-area-service` | 352 |
 | `service-landing` | 22 |
-| `service-area` | 15 |
+| `service-area` | 16 |
 | `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -68,6 +68,7 @@
 - `bear-valley-springs-ca` — Bear Valley Springs, CA
 - `buttonwillow-ca` — Buttonwillow, CA
 - `mcfarland-ca` — McFarland, CA
+- `keene-ca` — Keene, CA
 
 ## Top 10 priority pages
 

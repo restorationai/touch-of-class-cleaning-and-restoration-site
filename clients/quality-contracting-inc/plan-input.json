@@ -138,6 +138,11 @@
       "city": "Marlborough",
       "state": "MA",
       "slug": "marlborough-ma"
+    },
+    {
+      "city": "Hudson",
+      "state": "MA",
+      "slug": "hudson-ma"
     }
   ],
   "service_radius_description": "Southern New England, with crews responding across a 50 mile radius of Auburn"

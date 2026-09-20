@@ -1,20 +1,20 @@
 # Site Plan Report — Paul Davis Restoration of Charleston
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T19:37:13.468786+00:00
+- Generated: 2026-09-20T20:42:02.207000+00:00
 - Domain: `None`
 - Services selected: 4 of 65 catalog entries
-- Service areas: 14
+- Service areas: 15
 - Cross-product enabled: True
-- Total URLs: **90**
-- Total internal links: 668 (avg 7.4 per page)
+- Total URLs: **95**
+- Total internal links: 707 (avg 7.4 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 52 |
-| `service-area` | 13 |
+| `service-area-service` | 56 |
+| `service-area` | 14 |
 | `blog-post` | 12 |
 | `service-landing` | 4 |
 | `legal` | 3 |
@@ -48,6 +48,7 @@
 - `folly-beach-sc` — Folly Beach, SC
 - `hollywood-sc` — Hollywood, SC
 - `ravenel-sc` — Ravenel, SC
+- `moncks-corner-sc` — Moncks Corner, SC
 
 ## Top 10 priority pages
 

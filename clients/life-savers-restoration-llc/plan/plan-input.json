@@ -135,6 +135,11 @@
       "city": "Cal-Nev-Ari",
       "state": "NV",
       "slug": "cal-nev-ari-nv"
+    },
+    {
+      "city": "Indian Springs",
+      "state": "NV",
+      "slug": "indian-springs-nv"
     }
   ],
   "template": "restoration",

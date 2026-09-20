@@ -1,20 +1,20 @@
 # Site Plan Report — ProRestoration Services
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T19:37:15.015187+00:00
+- Generated: 2026-09-20T20:42:03.974597+00:00
 - Domain: `prorestorationca.com`
 - Services selected: 17 of 65 catalog entries
-- Service areas: 20
+- Service areas: 21
 - Cross-product enabled: True
-- Total URLs: **380**
-- Total internal links: 3094 (avg 8.1 per page)
+- Total URLs: **398**
+- Total internal links: 3237 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 323 |
-| `service-area` | 19 |
+| `service-area-service` | 340 |
+| `service-area` | 20 |
 | `service-landing` | 17 |
 | `blog-post` | 12 |
 | `legal` | 3 |
@@ -67,6 +67,7 @@
 - `valley-acres-ca` — Valley Acres, CA
 - `woody-ca` — Woody, CA
 - `bear-valley-springs-ca` — Bear Valley Springs, CA
+- `keene-ca` — Keene, CA
 
 ## Top 10 priority pages
 
