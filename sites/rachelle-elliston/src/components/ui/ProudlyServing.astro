@@ -1,0 +1,39 @@
+---
+/**
+ * Homepage "Proudly Serving" strip — compact horizontal chip-links to every
+ * city hub (/service-areas/{slug}/). Sits near the bottom of the homepage,
+ * directly above the CTA banner.
+ */
+import { MapPin } from '@lucide/astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+
+const all = (await getCollection('serviceAreas')) as CollectionEntry<'serviceAreas'>[];
+const areas = all.sort((a, b) => {
+  if (a.data.primary && !b.data.primary) return -1;
+  if (!a.data.primary && b.data.primary) return 1;
+  return a.data.city.localeCompare(b.data.city);
+});
+---
+
+{areas.length > 0 && (
+  <section class="bg-white py-14 border-t border-dark/10">
+    <div class="container-wide">
+      <div class="flex items-center gap-4 mb-6">
+        <h2 class="text-xl md:text-2xl font-black uppercase tracking-tighter text-dark-900 whitespace-nowrap mb-0">Proudly Serving</h2>
+        <div class="flex-grow h-0.5 bg-dark/10"></div>
+        <a href="/service-areas/" class="text-xs font-black uppercase tracking-widest text-primary-600 no-underline hover:text-primary-700 whitespace-nowrap">All Areas</a>
+      </div>
+      <div class="flex flex-wrap gap-3">
+        {areas.map((area) => (
+          <a
+            href={`/service-areas/${area.data.area_slug}/`}
+            class="inline-flex items-center gap-2 rounded-full border border-dark/15 bg-white px-4 py-2 text-sm font-bold uppercase tracking-wide text-dark-700 no-underline hover:no-underline hover:border-primary-500 hover:text-primary-600 transition-colors"
+          >
+            <MapPin size={14} class="text-primary-500 shrink-0" />
+            {area.data.city}, {area.data.state}
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+)}

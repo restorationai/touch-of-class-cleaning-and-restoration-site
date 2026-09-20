@@ -1,0 +1,4532 @@
+{
+  "template": "restoration",
+  "template_version": "0.3.0",
+  "generated_at": "2026-09-20T04:57:05.428634+00:00",
+  "input_summary": {
+    "service_count": 9,
+    "service_area_count": 9,
+    "cross_product": true,
+    "blog_seed_count": 8
+  },
+  "pages": [
+    {
+      "url_path": "/",
+      "archetype": "home",
+      "vars_keys": [],
+      "title": "Desert Valley Contracting Inc  | Restoration Services in North Las Vegas, NV",
+      "h1": "24/7 Restoration Services in North Las Vegas",
+      "meta_description": "Desert Valley Contracting Inc  provides 24/7 water, fire, mold, and storm damage restoration across North Las Vegas and surrounding areas. Licensed, insured, IICRC-certified. Call (702) 633-5033.",
+      "primary_keyword": "restoration services north las vegas",
+      "secondary_keywords": [
+        "restoration company near me",
+        "24/7 damage restoration",
+        "emergency restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1200,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2",
+        "inline-3"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "aggregate-rating"
+      ],
+      "priority": 5.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/service-areas/",
+        "/contact/",
+        "/about/",
+        "/services/fire-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/services/sewage-cleanup/",
+        "/services/storm-damage-restoration/",
+        "/services/water-cleanup/",
+        "/services/biohazard-cleanup/",
+        "/services/general-contracting/",
+        "/services/contents-restoration-storage/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/henderson-nv/",
+        "/service-areas/las-vegas-nv/",
+        "/service-areas/paradise-nv/",
+        "/service-areas/spring-valley-nv/",
+        "/service-areas/summerlin-nv/",
+        "/service-areas/sunrise-manor-nv/"
+      ]
+    },
+    {
+      "url_path": "/services/",
+      "archetype": "services-hub",
+      "vars_keys": [],
+      "title": "Restoration Services in North Las Vegas | Desert Valley Contracting Inc ",
+      "h1": "Our Restoration Services",
+      "meta_description": "Full-service restoration in North Las Vegas: water, fire, mold, storm, biohazard, and commercial restoration. 24/7 response. Call (702) 633-5033.",
+      "primary_keyword": "restoration services north las vegas",
+      "secondary_keywords": [
+        "damage restoration services",
+        "property restoration services",
+        "disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 800,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 4.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/fire-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/services/sewage-cleanup/",
+        "/services/storm-damage-restoration/",
+        "/services/water-cleanup/",
+        "/services/biohazard-cleanup/",
+        "/services/general-contracting/",
+        "/services/contents-restoration-storage/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/",
+      "archetype": "service-areas-hub",
+      "vars_keys": [],
+      "title": "Service Areas | Desert Valley Contracting Inc  Restoration",
+      "h1": "Areas We Serve",
+      "meta_description": "Desert Valley Contracting Inc  provides 24/7 restoration services across North Las Vegas and the surrounding region. Find your city.",
+      "primary_keyword": "desert valley contracting inc  service areas",
+      "secondary_keywords": [
+        "restoration service area",
+        "cities we serve",
+        "local restoration coverage"
+      ],
+      "search_intent": "navigational_local",
+      "target_word_count": 500,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/henderson-nv/",
+        "/service-areas/las-vegas-nv/",
+        "/service-areas/paradise-nv/",
+        "/service-areas/spring-valley-nv/",
+        "/service-areas/summerlin-nv/",
+        "/service-areas/sunrise-manor-nv/"
+      ]
+    },
+    {
+      "url_path": "/blog/",
+      "archetype": "blog-index",
+      "vars_keys": [],
+      "title": "Restoration Blog | Desert Valley Contracting Inc ",
+      "h1": "Restoration Resources and Insights",
+      "meta_description": "Guides, checklists, and explainers from Desert Valley Contracting Inc  on water, fire, mold, and storm damage restoration.",
+      "primary_keyword": "restoration blog north las vegas",
+      "secondary_keywords": [
+        "restoration guides",
+        "damage restoration tips",
+        "restoration insights"
+      ],
+      "search_intent": "informational_browse",
+      "target_word_count": 300,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "website",
+        "breadcrumb-list"
+      ],
+      "priority": 3.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/fire-damage-restoration-process/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ]
+    },
+    {
+      "url_path": "/about/",
+      "archetype": "about",
+      "vars_keys": [],
+      "title": "About Desert Valley Contracting Inc  | North Las Vegas Restoration Company",
+      "h1": "About Desert Valley Contracting Inc ",
+      "meta_description": "Desert Valley Contracting Inc  has served North Las Vegas since 2000. Meet our IICRC-certified restoration team. Licensed, insured, locally owned.",
+      "primary_keyword": "desert valley contracting inc  north las vegas",
+      "secondary_keywords": [
+        "local restoration company",
+        "iicrc certified restoration",
+        "licensed restoration contractor"
+      ],
+      "search_intent": "navigational_trust",
+      "target_word_count": 700,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "aggregate-rating",
+        "breadcrumb-list"
+      ],
+      "priority": 2.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/contact/",
+      "archetype": "contact",
+      "vars_keys": [],
+      "title": "Contact Desert Valley Contracting Inc  | 24/7 Restoration in North Las Vegas",
+      "h1": "Contact Desert Valley Contracting Inc ",
+      "meta_description": "Call (702) 633-5033 for 24/7 emergency restoration in North Las Vegas and surrounding areas. Free estimates. Direct insurance billing.",
+      "primary_keyword": "desert valley contracting inc  contact",
+      "secondary_keywords": [
+        "restoration company contact",
+        "24/7 restoration phone",
+        "emergency restoration near me"
+      ],
+      "search_intent": "navigational_action",
+      "target_word_count": 400,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 2.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/",
+        "/service-areas/"
+      ]
+    },
+    {
+      "url_path": "/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Water Damage Restoration in North Las Vegas | Desert Valley Contracting Inc ",
+      "h1": "Water Damage Restoration in North Las Vegas",
+      "meta_description": "24/7 water damage restoration in North Las Vegas and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "water damage restoration north las vegas",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/service-areas/enterprise-nv/water-damage-restoration/",
+        "/service-areas/henderson-nv/water-damage-restoration/",
+        "/service-areas/las-vegas-nv/water-damage-restoration/",
+        "/service-areas/paradise-nv/water-damage-restoration/",
+        "/service-areas/spring-valley-nv/water-damage-restoration/",
+        "/service-areas/summerlin-nv/water-damage-restoration/",
+        "/service-areas/sunrise-manor-nv/water-damage-restoration/",
+        "/services/water-cleanup/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/services/fire-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Fire Damage Restoration in North Las Vegas | Desert Valley Contracting Inc ",
+      "h1": "Fire Damage Restoration in North Las Vegas",
+      "meta_description": "24/7 fire damage restoration in North Las Vegas and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "fire damage restoration north las vegas",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/service-areas/henderson-nv/fire-damage-restoration/",
+        "/service-areas/las-vegas-nv/fire-damage-restoration/",
+        "/service-areas/paradise-nv/fire-damage-restoration/",
+        "/service-areas/spring-valley-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-nv/fire-damage-restoration/",
+        "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/fire-damage-restoration-process/"
+      ]
+    },
+    {
+      "url_path": "/services/mold-remediation/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Mold Remediation in North Las Vegas | Desert Valley Contracting Inc ",
+      "h1": "Mold Remediation in North Las Vegas",
+      "meta_description": "24/7 mold remediation in North Las Vegas and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "mold remediation north las vegas",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/las-vegas-nv/mold-remediation/",
+        "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/summerlin-nv/mold-remediation/",
+        "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/"
+      ]
+    },
+    {
+      "url_path": "/services/storm-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Storm Damage Restoration in North Las Vegas | Desert Valley Contracting Inc ",
+      "h1": "Storm Damage Restoration in North Las Vegas",
+      "meta_description": "24/7 storm damage restoration in North Las Vegas and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "storm damage restoration north las vegas",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/boulder-city-nv/storm-damage-restoration/",
+        "/service-areas/enterprise-nv/storm-damage-restoration/",
+        "/service-areas/henderson-nv/storm-damage-restoration/",
+        "/service-areas/las-vegas-nv/storm-damage-restoration/",
+        "/service-areas/paradise-nv/storm-damage-restoration/",
+        "/service-areas/spring-valley-nv/storm-damage-restoration/",
+        "/service-areas/summerlin-nv/storm-damage-restoration/",
+        "/service-areas/sunrise-manor-nv/storm-damage-restoration/"
+      ]
+    },
+    {
+      "url_path": "/services/general-contracting/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in North Las Vegas | Desert Valley Contracting Inc ",
+      "h1": "Renovations, Remodels and General Contracting in North Las Vegas",
+      "meta_description": "24/7 renovations, remodels and general contracting in North Las Vegas and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "renovations, remodels and general contracting north las vegas",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/boulder-city-nv/general-contracting/",
+        "/service-areas/enterprise-nv/general-contracting/",
+        "/service-areas/henderson-nv/general-contracting/",
+        "/service-areas/las-vegas-nv/general-contracting/",
+        "/service-areas/paradise-nv/general-contracting/",
+        "/service-areas/spring-valley-nv/general-contracting/",
+        "/service-areas/summerlin-nv/general-contracting/",
+        "/service-areas/sunrise-manor-nv/general-contracting/"
+      ]
+    },
+    {
+      "url_path": "/services/sewage-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in North Las Vegas | Desert Valley Contracting Inc ",
+      "h1": "Sewage Cleanup and Sanitization in North Las Vegas",
+      "meta_description": "24/7 sewage cleanup and sanitization in North Las Vegas and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "sewage cleanup and sanitization north las vegas",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/boulder-city-nv/sewage-cleanup/",
+        "/service-areas/enterprise-nv/sewage-cleanup/",
+        "/service-areas/henderson-nv/sewage-cleanup/",
+        "/service-areas/las-vegas-nv/sewage-cleanup/",
+        "/service-areas/paradise-nv/sewage-cleanup/",
+        "/service-areas/spring-valley-nv/sewage-cleanup/",
+        "/service-areas/summerlin-nv/sewage-cleanup/",
+        "/service-areas/sunrise-manor-nv/sewage-cleanup/"
+      ]
+    },
+    {
+      "url_path": "/services/biohazard-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Biohazard Cleanup in North Las Vegas | Desert Valley Contracting Inc ",
+      "h1": "Biohazard Cleanup in North Las Vegas",
+      "meta_description": "24/7 biohazard cleanup in North Las Vegas and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "biohazard cleanup north las vegas",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/boulder-city-nv/biohazard-cleanup/",
+        "/service-areas/enterprise-nv/biohazard-cleanup/",
+        "/service-areas/henderson-nv/biohazard-cleanup/",
+        "/service-areas/las-vegas-nv/biohazard-cleanup/",
+        "/service-areas/paradise-nv/biohazard-cleanup/",
+        "/service-areas/spring-valley-nv/biohazard-cleanup/",
+        "/service-areas/summerlin-nv/biohazard-cleanup/",
+        "/service-areas/sunrise-manor-nv/biohazard-cleanup/"
+      ]
+    },
+    {
+      "url_path": "/services/contents-restoration-storage/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in North Las Vegas | Desert Valley Contracting Inc ",
+      "h1": "Contents Restoration & Storage in North Las Vegas",
+      "meta_description": "24/7 contents restoration & storage in North Las Vegas and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "contents restoration & storage north las vegas",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/boulder-city-nv/contents-restoration-storage/",
+        "/service-areas/enterprise-nv/contents-restoration-storage/",
+        "/service-areas/henderson-nv/contents-restoration-storage/",
+        "/service-areas/las-vegas-nv/contents-restoration-storage/",
+        "/service-areas/paradise-nv/contents-restoration-storage/",
+        "/service-areas/spring-valley-nv/contents-restoration-storage/",
+        "/service-areas/summerlin-nv/contents-restoration-storage/",
+        "/service-areas/sunrise-manor-nv/contents-restoration-storage/"
+      ]
+    },
+    {
+      "url_path": "/services/water-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in North Las Vegas | Desert Valley Contracting Inc ",
+      "h1": "Emergency Water Cleanup in North Las Vegas",
+      "meta_description": "24/7 emergency water cleanup in North Las Vegas and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "emergency water cleanup north las vegas",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
+        "/service-areas/enterprise-nv/water-cleanup/",
+        "/service-areas/henderson-nv/water-cleanup/",
+        "/service-areas/las-vegas-nv/water-cleanup/",
+        "/service-areas/paradise-nv/water-cleanup/",
+        "/service-areas/spring-valley-nv/water-cleanup/",
+        "/service-areas/summerlin-nv/water-cleanup/",
+        "/service-areas/sunrise-manor-nv/water-cleanup/",
+        "/services/water-damage-restoration/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/las-vegas-nv/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Las Vegas, NV | Desert Valley Contracting Inc ",
+      "h1": "Restoration Services in Las Vegas",
+      "meta_description": "Serving Las Vegas, NV with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (702) 633-5033.",
+      "primary_keyword": "restoration services las vegas",
+      "secondary_keywords": [
+        "las vegas restoration company",
+        "damage restoration las vegas",
+        "las vegas disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/las-vegas-nv/fire-damage-restoration/",
+        "/service-areas/las-vegas-nv/mold-remediation/",
+        "/service-areas/las-vegas-nv/water-damage-restoration/",
+        "/service-areas/las-vegas-nv/sewage-cleanup/",
+        "/service-areas/las-vegas-nv/storm-damage-restoration/",
+        "/service-areas/las-vegas-nv/water-cleanup/",
+        "/service-areas/las-vegas-nv/biohazard-cleanup/",
+        "/service-areas/las-vegas-nv/general-contracting/",
+        "/service-areas/las-vegas-nv/contents-restoration-storage/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/henderson-nv/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/henderson-nv/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Henderson, NV | Desert Valley Contracting Inc ",
+      "h1": "Restoration Services in Henderson",
+      "meta_description": "Serving Henderson, NV with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (702) 633-5033.",
+      "primary_keyword": "restoration services henderson",
+      "secondary_keywords": [
+        "henderson restoration company",
+        "damage restoration henderson",
+        "henderson disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/henderson-nv/fire-damage-restoration/",
+        "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/henderson-nv/water-damage-restoration/",
+        "/service-areas/henderson-nv/sewage-cleanup/",
+        "/service-areas/henderson-nv/storm-damage-restoration/",
+        "/service-areas/henderson-nv/water-cleanup/",
+        "/service-areas/henderson-nv/biohazard-cleanup/",
+        "/service-areas/henderson-nv/general-contracting/",
+        "/service-areas/henderson-nv/contents-restoration-storage/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/las-vegas-nv/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/paradise-nv/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Paradise, NV | Desert Valley Contracting Inc ",
+      "h1": "Restoration Services in Paradise",
+      "meta_description": "Serving Paradise, NV with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (702) 633-5033.",
+      "primary_keyword": "restoration services paradise",
+      "secondary_keywords": [
+        "paradise restoration company",
+        "damage restoration paradise",
+        "paradise disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/paradise-nv/fire-damage-restoration/",
+        "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/paradise-nv/water-damage-restoration/",
+        "/service-areas/paradise-nv/sewage-cleanup/",
+        "/service-areas/paradise-nv/storm-damage-restoration/",
+        "/service-areas/paradise-nv/water-cleanup/",
+        "/service-areas/paradise-nv/biohazard-cleanup/",
+        "/service-areas/paradise-nv/general-contracting/",
+        "/service-areas/paradise-nv/contents-restoration-storage/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/henderson-nv/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spring-valley-nv/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Spring Valley, NV | Desert Valley Contracting Inc ",
+      "h1": "Restoration Services in Spring Valley",
+      "meta_description": "Serving Spring Valley, NV with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (702) 633-5033.",
+      "primary_keyword": "restoration services spring valley",
+      "secondary_keywords": [
+        "spring valley restoration company",
+        "damage restoration spring valley",
+        "spring valley disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/spring-valley-nv/fire-damage-restoration/",
+        "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/spring-valley-nv/water-damage-restoration/",
+        "/service-areas/spring-valley-nv/sewage-cleanup/",
+        "/service-areas/spring-valley-nv/storm-damage-restoration/",
+        "/service-areas/spring-valley-nv/water-cleanup/",
+        "/service-areas/spring-valley-nv/biohazard-cleanup/",
+        "/service-areas/spring-valley-nv/general-contracting/",
+        "/service-areas/spring-valley-nv/contents-restoration-storage/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/henderson-nv/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sunrise-manor-nv/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Sunrise Manor, NV | Desert Valley Contracting Inc ",
+      "h1": "Restoration Services in Sunrise Manor",
+      "meta_description": "Serving Sunrise Manor, NV with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (702) 633-5033.",
+      "primary_keyword": "restoration services sunrise manor",
+      "secondary_keywords": [
+        "sunrise manor restoration company",
+        "damage restoration sunrise manor",
+        "sunrise manor disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
+        "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/sunrise-manor-nv/water-damage-restoration/",
+        "/service-areas/sunrise-manor-nv/sewage-cleanup/",
+        "/service-areas/sunrise-manor-nv/storm-damage-restoration/",
+        "/service-areas/sunrise-manor-nv/water-cleanup/",
+        "/service-areas/sunrise-manor-nv/biohazard-cleanup/",
+        "/service-areas/sunrise-manor-nv/general-contracting/",
+        "/service-areas/sunrise-manor-nv/contents-restoration-storage/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/henderson-nv/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/enterprise-nv/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Enterprise, NV | Desert Valley Contracting Inc ",
+      "h1": "Restoration Services in Enterprise",
+      "meta_description": "Serving Enterprise, NV with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (702) 633-5033.",
+      "primary_keyword": "restoration services enterprise",
+      "secondary_keywords": [
+        "enterprise restoration company",
+        "damage restoration enterprise",
+        "enterprise disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/enterprise-nv/water-damage-restoration/",
+        "/service-areas/enterprise-nv/sewage-cleanup/",
+        "/service-areas/enterprise-nv/storm-damage-restoration/",
+        "/service-areas/enterprise-nv/water-cleanup/",
+        "/service-areas/enterprise-nv/biohazard-cleanup/",
+        "/service-areas/enterprise-nv/general-contracting/",
+        "/service-areas/enterprise-nv/contents-restoration-storage/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/henderson-nv/",
+        "/service-areas/las-vegas-nv/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-nv/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Summerlin, NV | Desert Valley Contracting Inc ",
+      "h1": "Restoration Services in Summerlin",
+      "meta_description": "Serving Summerlin, NV with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (702) 633-5033.",
+      "primary_keyword": "restoration services summerlin",
+      "secondary_keywords": [
+        "summerlin restoration company",
+        "damage restoration summerlin",
+        "summerlin disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/summerlin-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-nv/mold-remediation/",
+        "/service-areas/summerlin-nv/water-damage-restoration/",
+        "/service-areas/summerlin-nv/sewage-cleanup/",
+        "/service-areas/summerlin-nv/storm-damage-restoration/",
+        "/service-areas/summerlin-nv/water-cleanup/",
+        "/service-areas/summerlin-nv/biohazard-cleanup/",
+        "/service-areas/summerlin-nv/general-contracting/",
+        "/service-areas/summerlin-nv/contents-restoration-storage/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/henderson-nv/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/boulder-city-nv/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Boulder City, NV | Desert Valley Contracting Inc ",
+      "h1": "Restoration Services in Boulder City",
+      "meta_description": "Serving Boulder City, NV with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (702) 633-5033.",
+      "primary_keyword": "restoration services boulder city",
+      "secondary_keywords": [
+        "boulder city restoration company",
+        "damage restoration boulder city",
+        "boulder city disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/sewage-cleanup/",
+        "/service-areas/boulder-city-nv/storm-damage-restoration/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
+        "/service-areas/boulder-city-nv/biohazard-cleanup/",
+        "/service-areas/boulder-city-nv/general-contracting/",
+        "/service-areas/boulder-city-nv/contents-restoration-storage/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/henderson-nv/",
+        "/service-areas/las-vegas-nv/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/las-vegas-nv/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Las Vegas, NV | Desert Valley Contracting Inc ",
+      "h1": "Water Damage Restoration in Las Vegas",
+      "meta_description": "24/7 water damage restoration in Las Vegas, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "water damage restoration las vegas",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/las-vegas-nv/",
+        "/service-areas/las-vegas-nv/fire-damage-restoration/",
+        "/service-areas/las-vegas-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/service-areas/enterprise-nv/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/las-vegas-nv/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Las Vegas, NV | Desert Valley Contracting Inc ",
+      "h1": "Fire Damage Restoration in Las Vegas",
+      "meta_description": "24/7 fire damage restoration in Las Vegas, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "fire damage restoration las vegas",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/las-vegas-nv/",
+        "/service-areas/las-vegas-nv/mold-remediation/",
+        "/service-areas/las-vegas-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/las-vegas-nv/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Las Vegas, NV | Desert Valley Contracting Inc ",
+      "h1": "Mold Remediation in Las Vegas",
+      "meta_description": "24/7 mold remediation in Las Vegas, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "mold remediation las vegas",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/las-vegas-nv/",
+        "/service-areas/las-vegas-nv/fire-damage-restoration/",
+        "/service-areas/las-vegas-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/las-vegas-nv/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Las Vegas, NV | Desert Valley Contracting Inc ",
+      "h1": "Storm Damage Restoration in Las Vegas",
+      "meta_description": "24/7 storm damage restoration in Las Vegas, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "storm damage restoration las vegas",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/las-vegas-nv/",
+        "/service-areas/las-vegas-nv/fire-damage-restoration/",
+        "/service-areas/las-vegas-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/storm-damage-restoration/",
+        "/service-areas/enterprise-nv/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/las-vegas-nv/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Las Vegas, NV | Desert Valley Contracting Inc ",
+      "h1": "Renovations, Remodels and General Contracting in Las Vegas",
+      "meta_description": "24/7 renovations, remodels and general contracting in Las Vegas, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "renovations, remodels and general contracting las vegas",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/las-vegas-nv/",
+        "/service-areas/las-vegas-nv/fire-damage-restoration/",
+        "/service-areas/las-vegas-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/general-contracting/",
+        "/service-areas/enterprise-nv/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/las-vegas-nv/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Las Vegas, NV | Desert Valley Contracting Inc ",
+      "h1": "Sewage Cleanup and Sanitization in Las Vegas",
+      "meta_description": "24/7 sewage cleanup and sanitization in Las Vegas, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "sewage cleanup and sanitization las vegas",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/las-vegas-nv/",
+        "/service-areas/las-vegas-nv/fire-damage-restoration/",
+        "/service-areas/las-vegas-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/sewage-cleanup/",
+        "/service-areas/enterprise-nv/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/las-vegas-nv/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Las Vegas, NV | Desert Valley Contracting Inc ",
+      "h1": "Biohazard Cleanup in Las Vegas",
+      "meta_description": "24/7 biohazard cleanup in Las Vegas, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "biohazard cleanup las vegas",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/las-vegas-nv/",
+        "/service-areas/las-vegas-nv/fire-damage-restoration/",
+        "/service-areas/las-vegas-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/biohazard-cleanup/",
+        "/service-areas/enterprise-nv/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/las-vegas-nv/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Las Vegas, NV | Desert Valley Contracting Inc ",
+      "h1": "Contents Restoration & Storage in Las Vegas",
+      "meta_description": "24/7 contents restoration & storage in Las Vegas, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "contents restoration & storage las vegas",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/las-vegas-nv/",
+        "/service-areas/las-vegas-nv/fire-damage-restoration/",
+        "/service-areas/las-vegas-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/contents-restoration-storage/",
+        "/service-areas/enterprise-nv/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/las-vegas-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Las Vegas, NV | Desert Valley Contracting Inc ",
+      "h1": "Emergency Water Cleanup in Las Vegas",
+      "meta_description": "24/7 emergency water cleanup in Las Vegas, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "emergency water cleanup las vegas",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/las-vegas-nv/",
+        "/service-areas/las-vegas-nv/fire-damage-restoration/",
+        "/service-areas/las-vegas-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
+        "/service-areas/enterprise-nv/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/henderson-nv/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Henderson, NV | Desert Valley Contracting Inc ",
+      "h1": "Water Damage Restoration in Henderson",
+      "meta_description": "24/7 water damage restoration in Henderson, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "water damage restoration henderson",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/henderson-nv/",
+        "/service-areas/henderson-nv/fire-damage-restoration/",
+        "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/service-areas/enterprise-nv/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/henderson-nv/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Henderson, NV | Desert Valley Contracting Inc ",
+      "h1": "Fire Damage Restoration in Henderson",
+      "meta_description": "24/7 fire damage restoration in Henderson, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "fire damage restoration henderson",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/henderson-nv/",
+        "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/henderson-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/henderson-nv/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Henderson, NV | Desert Valley Contracting Inc ",
+      "h1": "Mold Remediation in Henderson",
+      "meta_description": "24/7 mold remediation in Henderson, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "mold remediation henderson",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/henderson-nv/",
+        "/service-areas/henderson-nv/fire-damage-restoration/",
+        "/service-areas/henderson-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/henderson-nv/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Henderson, NV | Desert Valley Contracting Inc ",
+      "h1": "Storm Damage Restoration in Henderson",
+      "meta_description": "24/7 storm damage restoration in Henderson, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "storm damage restoration henderson",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/henderson-nv/",
+        "/service-areas/henderson-nv/fire-damage-restoration/",
+        "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/storm-damage-restoration/",
+        "/service-areas/enterprise-nv/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/henderson-nv/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Henderson, NV | Desert Valley Contracting Inc ",
+      "h1": "Renovations, Remodels and General Contracting in Henderson",
+      "meta_description": "24/7 renovations, remodels and general contracting in Henderson, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "renovations, remodels and general contracting henderson",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/henderson-nv/",
+        "/service-areas/henderson-nv/fire-damage-restoration/",
+        "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/general-contracting/",
+        "/service-areas/enterprise-nv/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/henderson-nv/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Henderson, NV | Desert Valley Contracting Inc ",
+      "h1": "Sewage Cleanup and Sanitization in Henderson",
+      "meta_description": "24/7 sewage cleanup and sanitization in Henderson, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "sewage cleanup and sanitization henderson",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/henderson-nv/",
+        "/service-areas/henderson-nv/fire-damage-restoration/",
+        "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/sewage-cleanup/",
+        "/service-areas/enterprise-nv/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/henderson-nv/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Henderson, NV | Desert Valley Contracting Inc ",
+      "h1": "Biohazard Cleanup in Henderson",
+      "meta_description": "24/7 biohazard cleanup in Henderson, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "biohazard cleanup henderson",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/henderson-nv/",
+        "/service-areas/henderson-nv/fire-damage-restoration/",
+        "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/biohazard-cleanup/",
+        "/service-areas/enterprise-nv/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/henderson-nv/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Henderson, NV | Desert Valley Contracting Inc ",
+      "h1": "Contents Restoration & Storage in Henderson",
+      "meta_description": "24/7 contents restoration & storage in Henderson, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "contents restoration & storage henderson",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/henderson-nv/",
+        "/service-areas/henderson-nv/fire-damage-restoration/",
+        "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/contents-restoration-storage/",
+        "/service-areas/enterprise-nv/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/henderson-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Henderson, NV | Desert Valley Contracting Inc ",
+      "h1": "Emergency Water Cleanup in Henderson",
+      "meta_description": "24/7 emergency water cleanup in Henderson, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "emergency water cleanup henderson",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/henderson-nv/",
+        "/service-areas/henderson-nv/fire-damage-restoration/",
+        "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
+        "/service-areas/enterprise-nv/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/paradise-nv/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Paradise, NV | Desert Valley Contracting Inc ",
+      "h1": "Water Damage Restoration in Paradise",
+      "meta_description": "24/7 water damage restoration in Paradise, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "water damage restoration paradise",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/paradise-nv/",
+        "/service-areas/paradise-nv/fire-damage-restoration/",
+        "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/service-areas/enterprise-nv/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/paradise-nv/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Paradise, NV | Desert Valley Contracting Inc ",
+      "h1": "Fire Damage Restoration in Paradise",
+      "meta_description": "24/7 fire damage restoration in Paradise, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "fire damage restoration paradise",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/paradise-nv/",
+        "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/paradise-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/paradise-nv/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Paradise, NV | Desert Valley Contracting Inc ",
+      "h1": "Mold Remediation in Paradise",
+      "meta_description": "24/7 mold remediation in Paradise, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "mold remediation paradise",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/paradise-nv/",
+        "/service-areas/paradise-nv/fire-damage-restoration/",
+        "/service-areas/paradise-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/paradise-nv/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Paradise, NV | Desert Valley Contracting Inc ",
+      "h1": "Storm Damage Restoration in Paradise",
+      "meta_description": "24/7 storm damage restoration in Paradise, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "storm damage restoration paradise",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/paradise-nv/",
+        "/service-areas/paradise-nv/fire-damage-restoration/",
+        "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/storm-damage-restoration/",
+        "/service-areas/enterprise-nv/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/paradise-nv/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Paradise, NV | Desert Valley Contracting Inc ",
+      "h1": "Renovations, Remodels and General Contracting in Paradise",
+      "meta_description": "24/7 renovations, remodels and general contracting in Paradise, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "renovations, remodels and general contracting paradise",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/paradise-nv/",
+        "/service-areas/paradise-nv/fire-damage-restoration/",
+        "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/general-contracting/",
+        "/service-areas/enterprise-nv/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/paradise-nv/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Paradise, NV | Desert Valley Contracting Inc ",
+      "h1": "Sewage Cleanup and Sanitization in Paradise",
+      "meta_description": "24/7 sewage cleanup and sanitization in Paradise, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "sewage cleanup and sanitization paradise",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/paradise-nv/",
+        "/service-areas/paradise-nv/fire-damage-restoration/",
+        "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/sewage-cleanup/",
+        "/service-areas/enterprise-nv/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/paradise-nv/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Paradise, NV | Desert Valley Contracting Inc ",
+      "h1": "Biohazard Cleanup in Paradise",
+      "meta_description": "24/7 biohazard cleanup in Paradise, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "biohazard cleanup paradise",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/paradise-nv/",
+        "/service-areas/paradise-nv/fire-damage-restoration/",
+        "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/biohazard-cleanup/",
+        "/service-areas/enterprise-nv/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/paradise-nv/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Paradise, NV | Desert Valley Contracting Inc ",
+      "h1": "Contents Restoration & Storage in Paradise",
+      "meta_description": "24/7 contents restoration & storage in Paradise, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "contents restoration & storage paradise",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/paradise-nv/",
+        "/service-areas/paradise-nv/fire-damage-restoration/",
+        "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/contents-restoration-storage/",
+        "/service-areas/enterprise-nv/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/paradise-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Paradise, NV | Desert Valley Contracting Inc ",
+      "h1": "Emergency Water Cleanup in Paradise",
+      "meta_description": "24/7 emergency water cleanup in Paradise, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "emergency water cleanup paradise",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/paradise-nv/",
+        "/service-areas/paradise-nv/fire-damage-restoration/",
+        "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
+        "/service-areas/enterprise-nv/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spring-valley-nv/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Spring Valley, NV | Desert Valley Contracting Inc ",
+      "h1": "Water Damage Restoration in Spring Valley",
+      "meta_description": "24/7 water damage restoration in Spring Valley, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "water damage restoration spring valley",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/spring-valley-nv/",
+        "/service-areas/spring-valley-nv/fire-damage-restoration/",
+        "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/service-areas/enterprise-nv/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spring-valley-nv/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Spring Valley, NV | Desert Valley Contracting Inc ",
+      "h1": "Fire Damage Restoration in Spring Valley",
+      "meta_description": "24/7 fire damage restoration in Spring Valley, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "fire damage restoration spring valley",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/spring-valley-nv/",
+        "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/spring-valley-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spring-valley-nv/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Spring Valley, NV | Desert Valley Contracting Inc ",
+      "h1": "Mold Remediation in Spring Valley",
+      "meta_description": "24/7 mold remediation in Spring Valley, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "mold remediation spring valley",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/spring-valley-nv/",
+        "/service-areas/spring-valley-nv/fire-damage-restoration/",
+        "/service-areas/spring-valley-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spring-valley-nv/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Spring Valley, NV | Desert Valley Contracting Inc ",
+      "h1": "Storm Damage Restoration in Spring Valley",
+      "meta_description": "24/7 storm damage restoration in Spring Valley, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "storm damage restoration spring valley",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/spring-valley-nv/",
+        "/service-areas/spring-valley-nv/fire-damage-restoration/",
+        "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/storm-damage-restoration/",
+        "/service-areas/enterprise-nv/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spring-valley-nv/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Spring Valley, NV | Desert Valley Contracting Inc ",
+      "h1": "Renovations, Remodels and General Contracting in Spring Valley",
+      "meta_description": "24/7 renovations, remodels and general contracting in Spring Valley, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "renovations, remodels and general contracting spring valley",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/spring-valley-nv/",
+        "/service-areas/spring-valley-nv/fire-damage-restoration/",
+        "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/general-contracting/",
+        "/service-areas/enterprise-nv/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spring-valley-nv/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Spring Valley, NV | Desert Valley Contracting Inc ",
+      "h1": "Sewage Cleanup and Sanitization in Spring Valley",
+      "meta_description": "24/7 sewage cleanup and sanitization in Spring Valley, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "sewage cleanup and sanitization spring valley",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/spring-valley-nv/",
+        "/service-areas/spring-valley-nv/fire-damage-restoration/",
+        "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/sewage-cleanup/",
+        "/service-areas/enterprise-nv/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spring-valley-nv/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Spring Valley, NV | Desert Valley Contracting Inc ",
+      "h1": "Biohazard Cleanup in Spring Valley",
+      "meta_description": "24/7 biohazard cleanup in Spring Valley, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "biohazard cleanup spring valley",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/spring-valley-nv/",
+        "/service-areas/spring-valley-nv/fire-damage-restoration/",
+        "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/biohazard-cleanup/",
+        "/service-areas/enterprise-nv/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spring-valley-nv/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Spring Valley, NV | Desert Valley Contracting Inc ",
+      "h1": "Contents Restoration & Storage in Spring Valley",
+      "meta_description": "24/7 contents restoration & storage in Spring Valley, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "contents restoration & storage spring valley",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/spring-valley-nv/",
+        "/service-areas/spring-valley-nv/fire-damage-restoration/",
+        "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/contents-restoration-storage/",
+        "/service-areas/enterprise-nv/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spring-valley-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Spring Valley, NV | Desert Valley Contracting Inc ",
+      "h1": "Emergency Water Cleanup in Spring Valley",
+      "meta_description": "24/7 emergency water cleanup in Spring Valley, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "emergency water cleanup spring valley",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/spring-valley-nv/",
+        "/service-areas/spring-valley-nv/fire-damage-restoration/",
+        "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
+        "/service-areas/enterprise-nv/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sunrise-manor-nv/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Sunrise Manor, NV | Desert Valley Contracting Inc ",
+      "h1": "Water Damage Restoration in Sunrise Manor",
+      "meta_description": "24/7 water damage restoration in Sunrise Manor, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "water damage restoration sunrise manor",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/sunrise-manor-nv/",
+        "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
+        "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/service-areas/enterprise-nv/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Sunrise Manor, NV | Desert Valley Contracting Inc ",
+      "h1": "Fire Damage Restoration in Sunrise Manor",
+      "meta_description": "24/7 fire damage restoration in Sunrise Manor, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "fire damage restoration sunrise manor",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/sunrise-manor-nv/",
+        "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/sunrise-manor-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sunrise-manor-nv/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Sunrise Manor, NV | Desert Valley Contracting Inc ",
+      "h1": "Mold Remediation in Sunrise Manor",
+      "meta_description": "24/7 mold remediation in Sunrise Manor, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "mold remediation sunrise manor",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/sunrise-manor-nv/",
+        "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
+        "/service-areas/sunrise-manor-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sunrise-manor-nv/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Sunrise Manor, NV | Desert Valley Contracting Inc ",
+      "h1": "Storm Damage Restoration in Sunrise Manor",
+      "meta_description": "24/7 storm damage restoration in Sunrise Manor, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "storm damage restoration sunrise manor",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/sunrise-manor-nv/",
+        "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
+        "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/storm-damage-restoration/",
+        "/service-areas/enterprise-nv/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sunrise-manor-nv/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Sunrise Manor, NV | Desert Valley Contracting Inc ",
+      "h1": "Renovations, Remodels and General Contracting in Sunrise Manor",
+      "meta_description": "24/7 renovations, remodels and general contracting in Sunrise Manor, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "renovations, remodels and general contracting sunrise manor",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/sunrise-manor-nv/",
+        "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
+        "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/general-contracting/",
+        "/service-areas/enterprise-nv/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sunrise-manor-nv/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Sunrise Manor, NV | Desert Valley Contracting Inc ",
+      "h1": "Sewage Cleanup and Sanitization in Sunrise Manor",
+      "meta_description": "24/7 sewage cleanup and sanitization in Sunrise Manor, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "sewage cleanup and sanitization sunrise manor",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/sunrise-manor-nv/",
+        "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
+        "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/sewage-cleanup/",
+        "/service-areas/enterprise-nv/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sunrise-manor-nv/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Sunrise Manor, NV | Desert Valley Contracting Inc ",
+      "h1": "Biohazard Cleanup in Sunrise Manor",
+      "meta_description": "24/7 biohazard cleanup in Sunrise Manor, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "biohazard cleanup sunrise manor",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/sunrise-manor-nv/",
+        "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
+        "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/biohazard-cleanup/",
+        "/service-areas/enterprise-nv/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sunrise-manor-nv/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Sunrise Manor, NV | Desert Valley Contracting Inc ",
+      "h1": "Contents Restoration & Storage in Sunrise Manor",
+      "meta_description": "24/7 contents restoration & storage in Sunrise Manor, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "contents restoration & storage sunrise manor",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/sunrise-manor-nv/",
+        "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
+        "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/contents-restoration-storage/",
+        "/service-areas/enterprise-nv/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sunrise-manor-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Sunrise Manor, NV | Desert Valley Contracting Inc ",
+      "h1": "Emergency Water Cleanup in Sunrise Manor",
+      "meta_description": "24/7 emergency water cleanup in Sunrise Manor, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "emergency water cleanup sunrise manor",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/sunrise-manor-nv/",
+        "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
+        "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
+        "/service-areas/enterprise-nv/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/enterprise-nv/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Enterprise, NV | Desert Valley Contracting Inc ",
+      "h1": "Water Damage Restoration in Enterprise",
+      "meta_description": "24/7 water damage restoration in Enterprise, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "water damage restoration enterprise",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/service-areas/henderson-nv/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/enterprise-nv/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Enterprise, NV | Desert Valley Contracting Inc ",
+      "h1": "Fire Damage Restoration in Enterprise",
+      "meta_description": "24/7 fire damage restoration in Enterprise, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "fire damage restoration enterprise",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/enterprise-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/service-areas/henderson-nv/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/enterprise-nv/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Enterprise, NV | Desert Valley Contracting Inc ",
+      "h1": "Mold Remediation in Enterprise",
+      "meta_description": "24/7 mold remediation in Enterprise, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "mold remediation enterprise",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/henderson-nv/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/enterprise-nv/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Enterprise, NV | Desert Valley Contracting Inc ",
+      "h1": "Storm Damage Restoration in Enterprise",
+      "meta_description": "24/7 storm damage restoration in Enterprise, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "storm damage restoration enterprise",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/storm-damage-restoration/",
+        "/service-areas/henderson-nv/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/enterprise-nv/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Enterprise, NV | Desert Valley Contracting Inc ",
+      "h1": "Renovations, Remodels and General Contracting in Enterprise",
+      "meta_description": "24/7 renovations, remodels and general contracting in Enterprise, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "renovations, remodels and general contracting enterprise",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/general-contracting/",
+        "/service-areas/henderson-nv/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/enterprise-nv/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Enterprise, NV | Desert Valley Contracting Inc ",
+      "h1": "Sewage Cleanup and Sanitization in Enterprise",
+      "meta_description": "24/7 sewage cleanup and sanitization in Enterprise, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "sewage cleanup and sanitization enterprise",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/sewage-cleanup/",
+        "/service-areas/henderson-nv/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/enterprise-nv/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Enterprise, NV | Desert Valley Contracting Inc ",
+      "h1": "Biohazard Cleanup in Enterprise",
+      "meta_description": "24/7 biohazard cleanup in Enterprise, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "biohazard cleanup enterprise",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/biohazard-cleanup/",
+        "/service-areas/henderson-nv/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/enterprise-nv/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Enterprise, NV | Desert Valley Contracting Inc ",
+      "h1": "Contents Restoration & Storage in Enterprise",
+      "meta_description": "24/7 contents restoration & storage in Enterprise, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "contents restoration & storage enterprise",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/contents-restoration-storage/",
+        "/service-areas/henderson-nv/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/enterprise-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Enterprise, NV | Desert Valley Contracting Inc ",
+      "h1": "Emergency Water Cleanup in Enterprise",
+      "meta_description": "24/7 emergency water cleanup in Enterprise, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "emergency water cleanup enterprise",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/enterprise-nv/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
+        "/service-areas/henderson-nv/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-nv/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Summerlin, NV | Desert Valley Contracting Inc ",
+      "h1": "Water Damage Restoration in Summerlin",
+      "meta_description": "24/7 water damage restoration in Summerlin, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "water damage restoration summerlin",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/summerlin-nv/",
+        "/service-areas/summerlin-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/service-areas/enterprise-nv/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-nv/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Summerlin, NV | Desert Valley Contracting Inc ",
+      "h1": "Fire Damage Restoration in Summerlin",
+      "meta_description": "24/7 fire damage restoration in Summerlin, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "fire damage restoration summerlin",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/summerlin-nv/",
+        "/service-areas/summerlin-nv/mold-remediation/",
+        "/service-areas/summerlin-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-nv/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Summerlin, NV | Desert Valley Contracting Inc ",
+      "h1": "Mold Remediation in Summerlin",
+      "meta_description": "24/7 mold remediation in Summerlin, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "mold remediation summerlin",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/summerlin-nv/",
+        "/service-areas/summerlin-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-nv/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Summerlin, NV | Desert Valley Contracting Inc ",
+      "h1": "Storm Damage Restoration in Summerlin",
+      "meta_description": "24/7 storm damage restoration in Summerlin, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "storm damage restoration summerlin",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/summerlin-nv/",
+        "/service-areas/summerlin-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/storm-damage-restoration/",
+        "/service-areas/enterprise-nv/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-nv/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Summerlin, NV | Desert Valley Contracting Inc ",
+      "h1": "Renovations, Remodels and General Contracting in Summerlin",
+      "meta_description": "24/7 renovations, remodels and general contracting in Summerlin, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "renovations, remodels and general contracting summerlin",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/summerlin-nv/",
+        "/service-areas/summerlin-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/general-contracting/",
+        "/service-areas/enterprise-nv/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-nv/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Summerlin, NV | Desert Valley Contracting Inc ",
+      "h1": "Sewage Cleanup and Sanitization in Summerlin",
+      "meta_description": "24/7 sewage cleanup and sanitization in Summerlin, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "sewage cleanup and sanitization summerlin",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/summerlin-nv/",
+        "/service-areas/summerlin-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/sewage-cleanup/",
+        "/service-areas/enterprise-nv/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-nv/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Summerlin, NV | Desert Valley Contracting Inc ",
+      "h1": "Biohazard Cleanup in Summerlin",
+      "meta_description": "24/7 biohazard cleanup in Summerlin, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "biohazard cleanup summerlin",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/summerlin-nv/",
+        "/service-areas/summerlin-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/biohazard-cleanup/",
+        "/service-areas/enterprise-nv/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-nv/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Summerlin, NV | Desert Valley Contracting Inc ",
+      "h1": "Contents Restoration & Storage in Summerlin",
+      "meta_description": "24/7 contents restoration & storage in Summerlin, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "contents restoration & storage summerlin",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/summerlin-nv/",
+        "/service-areas/summerlin-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/contents-restoration-storage/",
+        "/service-areas/enterprise-nv/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/summerlin-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Summerlin, NV | Desert Valley Contracting Inc ",
+      "h1": "Emergency Water Cleanup in Summerlin",
+      "meta_description": "24/7 emergency water cleanup in Summerlin, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "emergency water cleanup summerlin",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/summerlin-nv/",
+        "/service-areas/summerlin-nv/fire-damage-restoration/",
+        "/service-areas/summerlin-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
+        "/service-areas/enterprise-nv/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/boulder-city-nv/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Boulder City, NV | Desert Valley Contracting Inc ",
+      "h1": "Water Damage Restoration in Boulder City",
+      "meta_description": "24/7 water damage restoration in Boulder City, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "water damage restoration boulder city",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/enterprise-nv/water-damage-restoration/",
+        "/service-areas/henderson-nv/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/boulder-city-nv/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Boulder City, NV | Desert Valley Contracting Inc ",
+      "h1": "Fire Damage Restoration in Boulder City",
+      "meta_description": "24/7 fire damage restoration in Boulder City, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "fire damage restoration boulder city",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/service-areas/henderson-nv/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/boulder-city-nv/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Boulder City, NV | Desert Valley Contracting Inc ",
+      "h1": "Mold Remediation in Boulder City",
+      "meta_description": "24/7 mold remediation in Boulder City, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "mold remediation boulder city",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/henderson-nv/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/boulder-city-nv/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Boulder City, NV | Desert Valley Contracting Inc ",
+      "h1": "Storm Damage Restoration in Boulder City",
+      "meta_description": "24/7 storm damage restoration in Boulder City, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "storm damage restoration boulder city",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/enterprise-nv/storm-damage-restoration/",
+        "/service-areas/henderson-nv/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/boulder-city-nv/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Boulder City, NV | Desert Valley Contracting Inc ",
+      "h1": "Renovations, Remodels and General Contracting in Boulder City",
+      "meta_description": "24/7 renovations, remodels and general contracting in Boulder City, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "renovations, remodels and general contracting boulder city",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/enterprise-nv/general-contracting/",
+        "/service-areas/henderson-nv/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/boulder-city-nv/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Boulder City, NV | Desert Valley Contracting Inc ",
+      "h1": "Sewage Cleanup and Sanitization in Boulder City",
+      "meta_description": "24/7 sewage cleanup and sanitization in Boulder City, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "sewage cleanup and sanitization boulder city",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/enterprise-nv/sewage-cleanup/",
+        "/service-areas/henderson-nv/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/boulder-city-nv/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Boulder City, NV | Desert Valley Contracting Inc ",
+      "h1": "Biohazard Cleanup in Boulder City",
+      "meta_description": "24/7 biohazard cleanup in Boulder City, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "biohazard cleanup boulder city",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/enterprise-nv/biohazard-cleanup/",
+        "/service-areas/henderson-nv/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/boulder-city-nv/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Boulder City, NV | Desert Valley Contracting Inc ",
+      "h1": "Contents Restoration & Storage in Boulder City",
+      "meta_description": "24/7 contents restoration & storage in Boulder City, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "contents restoration & storage boulder city",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/enterprise-nv/contents-restoration-storage/",
+        "/service-areas/henderson-nv/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/boulder-city-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Boulder City, NV | Desert Valley Contracting Inc ",
+      "h1": "Emergency Water Cleanup in Boulder City",
+      "meta_description": "24/7 emergency water cleanup in Boulder City, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "emergency water cleanup boulder city",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/enterprise-nv/water-cleanup/",
+        "/service-areas/henderson-nv/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/blog/what-to-do-first-24-hours-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "What To Do in the First 24 Hours After Water Damage",
+      "h1": "What To Do in the First 24 Hours After Water Damage",
+      "meta_description": "",
+      "primary_keyword": "what to do in the first 24 hours after water damage",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/burst-pipe-emergency-checklist/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Burst Pipe Emergency Checklist: Step-by-Step Response",
+      "h1": "Burst Pipe Emergency Checklist: Step-by-Step Response",
+      "meta_description": "",
+      "primary_keyword": "burst pipe emergency checklist stepbystep response",
+      "secondary_keywords": [
+        "water damage restoration",
+        "appliance leak cleanup"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/does-homeowners-insurance-cover-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Does Homeowners Insurance Cover Water Damage? A Plain-English Guide",
+      "h1": "Does Homeowners Insurance Cover Water Damage? A Plain-English Guide",
+      "meta_description": "",
+      "primary_keyword": "does homeowners insurance cover water damage a plainenglish guide",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_insurance",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/signs-of-hidden-mold/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "7 Signs You Have Hidden Mold (and What To Do Next)",
+      "h1": "7 Signs You Have Hidden Mold (and What To Do Next)",
+      "meta_description": "",
+      "primary_keyword": "7 signs you have hidden mold and what to do next",
+      "secondary_keywords": [
+        "mold remediation"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ]
+    },
+    {
+      "url_path": "/blog/how-to-test-for-mold/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How To Test for Mold in Your Home (DIY Kits vs a Pro Inspection)",
+      "h1": "How To Test for Mold in Your Home (DIY Kits vs a Pro Inspection)",
+      "meta_description": "",
+      "primary_keyword": "how to test for mold in your home diy kits vs a pro inspection",
+      "secondary_keywords": [
+        "mold remediation",
+        "mold inspection and testing"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/signs-of-hidden-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ]
+    },
+    {
+      "url_path": "/blog/fire-damage-restoration-process/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "The Fire Damage Restoration Process, Explained",
+      "h1": "The Fire Damage Restoration Process, Explained",
+      "meta_description": "",
+      "primary_keyword": "the fire damage restoration process explained",
+      "secondary_keywords": [
+        "fire damage restoration",
+        "smoke damage restoration"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/fire-damage-restoration/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/choosing-a-restoration-company/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How To Choose a Restoration Company in  (Without Getting Burned)",
+      "h1": "How To Choose a Restoration Company in  (Without Getting Burned)",
+      "meta_description": "",
+      "primary_keyword": "how to choose a restoration company in  without getting burned",
+      "secondary_keywords": [
+        "water damage restoration",
+        "fire damage restoration",
+        "mold remediation"
+      ],
+      "search_intent": "commercial_decision",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/fire-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/black-mold-vs-regular-mold/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Black Mold vs Regular Mold: How To Tell the Difference",
+      "h1": "Black Mold vs Regular Mold: How To Tell the Difference",
+      "meta_description": "",
+      "primary_keyword": "black mold vs regular mold how to tell the difference",
+      "secondary_keywords": [
+        "mold remediation"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/"
+      ]
+    },
+    {
+      "url_path": "/privacy/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Privacy Policy | Desert Valley Contracting Inc ",
+      "h1": "Privacy Policy",
+      "meta_description": "Privacy Policy | {brand.display_name}.",
+      "primary_keyword": "desert valley contracting inc  privacy",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 600,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    },
+    {
+      "url_path": "/terms/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Terms of Service | Desert Valley Contracting Inc ",
+      "h1": "Terms of Service",
+      "meta_description": "Terms of Service | {brand.display_name}.",
+      "primary_keyword": "desert valley contracting inc  terms",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 600,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    },
+    {
+      "url_path": "/accessibility/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Accessibility Statement | Desert Valley Contracting Inc ",
+      "h1": "Accessibility Statement",
+      "meta_description": "Accessibility Statement | {brand.display_name}.",
+      "primary_keyword": "desert valley contracting inc  accessibility",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 400,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    }
+  ]
+}
