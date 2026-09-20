@@ -437,7 +437,8 @@ def _owner_first_name(co: dict) -> str:
     return first.capitalize() if len(first) > 1 else "The client"
 
 
-def _site_serves_us(domain: str, brand_name: str, indexnow_key: str | None = None) -> bool:
+def _site_serves_us(domain: str, brand_name: str, indexnow_key: str | None = None,
+                    slug: str | None = None) -> bool:
     """True only when the domain serves OUR build. Brand-name matching is
     useless here — the client's OLD site obviously contains their name
     (crew3r.com false-positived) — so require our own markers.
@@ -458,8 +459,25 @@ def _site_serves_us(domain: str, brand_name: str, indexnow_key: str | None = Non
                          headers={"User-Agent": "Mozilla/5.0 (rank-ai ledger)"})
         if r.status_code != 200:
             return False
-        # every Astro build links /_astro/ asset bundles; old WP sites never do
-        return "/_astro/" in r.text
+        # 2026-09-20 hardening (FIX Restoration): the old "/_astro/" marker
+        # false-positived on fixofutah.com — the client's PREVIOUS agency
+        # also builds with Astro, so the generic bundle marker stamped
+        # apex_live=true on a site that still runs on their nameservers.
+        # Identity, not vibes: hashed /_astro/ asset FILENAMES are unique
+        # per build — require an exact filename intersection with OUR
+        # deployed preview. No slug/deploy to compare against = not proven.
+        if "/_astro/" not in r.text:
+            return False
+        if not slug:
+            return False
+        try:
+            dep = requests.get(f"https://rankai-{slug}.pages.dev/", timeout=20,
+                               headers={"User-Agent": "Mozilla/5.0 (rank-ai ledger)"})
+            ours = set(re.findall(r"/_astro/[A-Za-z0-9_.-]+\.(?:css|js)", dep.text))
+            theirs = set(re.findall(r"/_astro/[A-Za-z0-9_.-]+\.(?:css|js)", r.text))
+            return bool(ours and (ours & theirs))
+        except Exception:  # noqa: BLE001 — cannot prove identity = not live
+            return False
     except Exception:
         return False
 
@@ -1557,7 +1575,8 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
         live = False
         if domain and built:
             live = _site_serves_us(domain, co.get("name") or "",
-                                   _client_record(slug).get("indexnow_key"))
+                                   _client_record(slug).get("indexnow_key"),
+                                   slug=slug)
         zstat = zones.get(domain, "") if domain else ""
         ours = zstat == "active"
         rows.append({"company_id": cid, "item_key": "site-live", "kind": "auto",
@@ -2141,7 +2160,7 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
         try:
             _site = _sb("GET", f"/rest/v1/marketing_sites?company_id=eq.{cid}"
                         "&select=build_status,cloudflare_pages_url,"
-                        "last_pushed_staging_at,apex_live&limit=1",
+                        "scaffolded_at,last_pushed_staging_at,apex_live&limit=1",
                         prefer="return=representation") or []
             _site = _site[0] if _site else {}
             # apex_live AUTO-HEAL (Santino 2026-09-11: QCI + California
@@ -2165,7 +2184,12 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
             # instant. An open note matching "share now|release early"
             # overrides; Santino's dated holds still extend it the other way.
             import datetime as _dtmod
-            _staged = str(_site.get("last_pushed_staging_at") or "")[:10]
+            # STABLE ANCHOR (2026-09-20): staging pushes re-stamp
+            # last_pushed_staging_at on every redeploy, resetting this
+            # window (the FIX/DryCor clock bug). scaffolded_at is the
+            # immutable first-build moment — prefer it.
+            _staged = str(_site.get("scaffolded_at")
+                          or _site.get("last_pushed_staging_at") or "")[:10]
             _in_window = False
             if _staged and not _site.get("apex_live"):
                 try:
