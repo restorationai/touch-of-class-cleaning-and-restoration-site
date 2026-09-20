@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-20T17:30:01.340536+00:00",
+  "generated_at": "2026-09-20T18:59:13.876794+00:00",
   "input_summary": {
     "service_count": 7,
-    "service_area_count": 24,
+    "service_area_count": 25,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -58,6 +58,7 @@
         "/service-areas/frisco-tx/",
         "/service-areas/garland-tx/",
         "/service-areas/greenville-tx/",
+        "/service-areas/heath-tx/",
         "/service-areas/highland-park-tx/",
         "/service-areas/josephine-tx/",
         "/service-areas/lavon-tx/",
@@ -151,6 +152,7 @@
         "/service-areas/frisco-tx/",
         "/service-areas/garland-tx/",
         "/service-areas/greenville-tx/",
+        "/service-areas/heath-tx/",
         "/service-areas/highland-park-tx/",
         "/service-areas/josephine-tx/",
         "/service-areas/lavon-tx/",
@@ -317,11 +319,11 @@
         "/service-areas/frisco-tx/water-damage-restoration/",
         "/service-areas/garland-tx/water-damage-restoration/",
         "/service-areas/greenville-tx/water-damage-restoration/",
+        "/service-areas/heath-tx/water-damage-restoration/",
         "/service-areas/highland-park-tx/water-damage-restoration/",
         "/service-areas/josephine-tx/water-damage-restoration/",
         "/service-areas/lavon-tx/water-damage-restoration/",
         "/service-areas/mckinney-tx/water-damage-restoration/",
-        "/service-areas/mclendon-chisholm-tx/water-damage-restoration/",
         "/services/water-cleanup/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
@@ -371,11 +373,11 @@
         "/service-areas/frisco-tx/fire-damage-restoration/",
         "/service-areas/garland-tx/fire-damage-restoration/",
         "/service-areas/greenville-tx/fire-damage-restoration/",
+        "/service-areas/heath-tx/fire-damage-restoration/",
         "/service-areas/highland-park-tx/fire-damage-restoration/",
         "/service-areas/josephine-tx/fire-damage-restoration/",
         "/service-areas/lavon-tx/fire-damage-restoration/",
         "/service-areas/mckinney-tx/fire-damage-restoration/",
-        "/service-areas/mclendon-chisholm-tx/fire-damage-restoration/",
         "/blog/choosing-a-restoration-company/",
         "/blog/fire-damage-restoration-process/"
       ]
@@ -423,11 +425,11 @@
         "/service-areas/frisco-tx/mold-remediation/",
         "/service-areas/garland-tx/mold-remediation/",
         "/service-areas/greenville-tx/mold-remediation/",
+        "/service-areas/heath-tx/mold-remediation/",
         "/service-areas/highland-park-tx/mold-remediation/",
         "/service-areas/josephine-tx/mold-remediation/",
         "/service-areas/lavon-tx/mold-remediation/",
         "/service-areas/mckinney-tx/mold-remediation/",
-        "/service-areas/mclendon-chisholm-tx/mold-remediation/",
         "/blog/choosing-a-restoration-company/",
         "/blog/how-to-test-for-mold/",
         "/blog/signs-of-hidden-mold/"
@@ -476,11 +478,11 @@
         "/service-areas/frisco-tx/storm-damage-restoration/",
         "/service-areas/garland-tx/storm-damage-restoration/",
         "/service-areas/greenville-tx/storm-damage-restoration/",
+        "/service-areas/heath-tx/storm-damage-restoration/",
         "/service-areas/highland-park-tx/storm-damage-restoration/",
         "/service-areas/josephine-tx/storm-damage-restoration/",
         "/service-areas/lavon-tx/storm-damage-restoration/",
-        "/service-areas/mckinney-tx/storm-damage-restoration/",
-        "/service-areas/mclendon-chisholm-tx/storm-damage-restoration/"
+        "/service-areas/mckinney-tx/storm-damage-restoration/"
       ]
     },
     {
@@ -527,11 +529,11 @@
         "/service-areas/frisco-tx/general-contracting/",
         "/service-areas/garland-tx/general-contracting/",
         "/service-areas/greenville-tx/general-contracting/",
+        "/service-areas/heath-tx/general-contracting/",
         "/service-areas/highland-park-tx/general-contracting/",
         "/service-areas/josephine-tx/general-contracting/",
         "/service-areas/lavon-tx/general-contracting/",
-        "/service-areas/mckinney-tx/general-contracting/",
-        "/service-areas/mclendon-chisholm-tx/general-contracting/"
+        "/service-areas/mckinney-tx/general-contracting/"
       ]
     },
     {
@@ -577,11 +579,11 @@
         "/service-areas/frisco-tx/contents-restoration/",
         "/service-areas/garland-tx/contents-restoration/",
         "/service-areas/greenville-tx/contents-restoration/",
+        "/service-areas/heath-tx/contents-restoration/",
         "/service-areas/highland-park-tx/contents-restoration/",
         "/service-areas/josephine-tx/contents-restoration/",
         "/service-areas/lavon-tx/contents-restoration/",
-        "/service-areas/mckinney-tx/contents-restoration/",
-        "/service-areas/mclendon-chisholm-tx/contents-restoration/"
+        "/service-areas/mckinney-tx/contents-restoration/"
       ]
     },
     {
@@ -628,11 +630,11 @@
         "/service-areas/frisco-tx/water-cleanup/",
         "/service-areas/garland-tx/water-cleanup/",
         "/service-areas/greenville-tx/water-cleanup/",
+        "/service-areas/heath-tx/water-cleanup/",
         "/service-areas/highland-park-tx/water-cleanup/",
         "/service-areas/josephine-tx/water-cleanup/",
         "/service-areas/lavon-tx/water-cleanup/",
         "/service-areas/mckinney-tx/water-cleanup/",
-        "/service-areas/mclendon-chisholm-tx/water-cleanup/",
         "/services/water-damage-restoration/"
       ]
     },
@@ -1643,6 +1645,50 @@
         "/service-areas/poetry-tx/water-cleanup/",
         "/service-areas/poetry-tx/general-contracting/",
         "/service-areas/poetry-tx/contents-restoration/",
+        "/service-areas/allen-tx/",
+        "/service-areas/caddo-mills-tx/",
+        "/service-areas/dallas-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/heath-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Heath, TX | Reign Restoration",
+      "h1": "Restoration Services in Heath",
+      "meta_description": "Serving Heath, TX with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (214) 304-0621.",
+      "primary_keyword": "restoration services heath",
+      "secondary_keywords": [
+        "heath restoration company",
+        "damage restoration heath",
+        "heath disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/heath-tx/fire-damage-restoration/",
+        "/service-areas/heath-tx/mold-remediation/",
+        "/service-areas/heath-tx/water-damage-restoration/",
+        "/service-areas/heath-tx/storm-damage-restoration/",
+        "/service-areas/heath-tx/water-cleanup/",
+        "/service-areas/heath-tx/general-contracting/",
+        "/service-areas/heath-tx/contents-restoration/",
         "/service-areas/allen-tx/",
         "/service-areas/caddo-mills-tx/",
         "/service-areas/dallas-tx/"
@@ -8773,6 +8819,316 @@
         "/service-areas/poetry-tx/",
         "/service-areas/poetry-tx/fire-damage-restoration/",
         "/service-areas/poetry-tx/mold-remediation/",
+        "/service-areas/allen-tx/water-cleanup/",
+        "/service-areas/caddo-mills-tx/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/heath-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Heath, TX | Reign Restoration",
+      "h1": "Water Damage Restoration in Heath",
+      "meta_description": "24/7 water damage restoration in Heath, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "water damage restoration heath",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/heath-tx/",
+        "/service-areas/heath-tx/fire-damage-restoration/",
+        "/service-areas/heath-tx/mold-remediation/",
+        "/service-areas/allen-tx/water-damage-restoration/",
+        "/service-areas/caddo-mills-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/heath-tx/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Heath, TX | Reign Restoration",
+      "h1": "Fire Damage Restoration in Heath",
+      "meta_description": "24/7 fire damage restoration in Heath, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "fire damage restoration heath",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/heath-tx/",
+        "/service-areas/heath-tx/mold-remediation/",
+        "/service-areas/heath-tx/water-damage-restoration/",
+        "/service-areas/allen-tx/fire-damage-restoration/",
+        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/heath-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Heath, TX | Reign Restoration",
+      "h1": "Mold Remediation in Heath",
+      "meta_description": "24/7 mold remediation in Heath, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "mold remediation heath",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/heath-tx/",
+        "/service-areas/heath-tx/fire-damage-restoration/",
+        "/service-areas/heath-tx/water-damage-restoration/",
+        "/service-areas/allen-tx/mold-remediation/",
+        "/service-areas/caddo-mills-tx/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/heath-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Heath, TX | Reign Restoration",
+      "h1": "Storm Damage Restoration in Heath",
+      "meta_description": "24/7 storm damage restoration in Heath, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "storm damage restoration heath",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/heath-tx/",
+        "/service-areas/heath-tx/fire-damage-restoration/",
+        "/service-areas/heath-tx/mold-remediation/",
+        "/service-areas/allen-tx/storm-damage-restoration/",
+        "/service-areas/caddo-mills-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/heath-tx/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Heath, TX | Reign Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Heath",
+      "meta_description": "24/7 renovations, remodels and general contracting in Heath, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "renovations, remodels and general contracting heath",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/heath-tx/",
+        "/service-areas/heath-tx/fire-damage-restoration/",
+        "/service-areas/heath-tx/mold-remediation/",
+        "/service-areas/allen-tx/general-contracting/",
+        "/service-areas/caddo-mills-tx/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/heath-tx/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Heath, TX | Reign Restoration",
+      "h1": "Contents Restoration and Storage in Heath",
+      "meta_description": "24/7 contents restoration and storage in Heath, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "contents restoration and storage heath",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/heath-tx/",
+        "/service-areas/heath-tx/fire-damage-restoration/",
+        "/service-areas/heath-tx/mold-remediation/",
+        "/service-areas/allen-tx/contents-restoration/",
+        "/service-areas/caddo-mills-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/heath-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Heath, TX | Reign Restoration",
+      "h1": "Emergency Water Cleanup in Heath",
+      "meta_description": "24/7 emergency water cleanup in Heath, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "emergency water cleanup heath",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/heath-tx/",
+        "/service-areas/heath-tx/fire-damage-restoration/",
+        "/service-areas/heath-tx/mold-remediation/",
         "/service-areas/allen-tx/water-cleanup/",
         "/service-areas/caddo-mills-tx/water-cleanup/",
         "/contact/"

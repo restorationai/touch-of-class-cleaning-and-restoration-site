@@ -124,6 +124,11 @@
       "city": "Gurley",
       "state": "AL",
       "slug": "gurley-al"
+    },
+    {
+      "city": "Owens Cross Roads",
+      "state": "AL",
+      "slug": "owens-cross-roads-al"
     }
   ],
   "brand": {

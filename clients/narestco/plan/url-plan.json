@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-20T17:29:50.965573+00:00",
+  "generated_at": "2026-09-20T18:59:02.910961+00:00",
   "input_summary": {
     "service_count": 23,
-    "service_area_count": 21,
+    "service_area_count": 22,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -72,6 +72,7 @@
         "/service-areas/bellevue-wa/",
         "/service-areas/bremerton-wa/",
         "/service-areas/des-moines-wa/",
+        "/service-areas/edgewood-wa/",
         "/service-areas/everett-wa/",
         "/service-areas/gig-harbor-wa/",
         "/service-areas/kent-wa/",
@@ -178,6 +179,7 @@
         "/service-areas/bellevue-wa/",
         "/service-areas/bremerton-wa/",
         "/service-areas/des-moines-wa/",
+        "/service-areas/edgewood-wa/",
         "/service-areas/everett-wa/",
         "/service-areas/gig-harbor-wa/",
         "/service-areas/kent-wa/",
@@ -345,13 +347,13 @@
         "/service-areas/bellevue-wa/water-damage-restoration/",
         "/service-areas/bremerton-wa/water-damage-restoration/",
         "/service-areas/des-moines-wa/water-damage-restoration/",
+        "/service-areas/edgewood-wa/water-damage-restoration/",
         "/service-areas/everett-wa/water-damage-restoration/",
         "/service-areas/gig-harbor-wa/water-damage-restoration/",
         "/service-areas/kent-wa/water-damage-restoration/",
         "/service-areas/kirkland-wa/water-damage-restoration/",
         "/service-areas/lakeland-north-wa/water-damage-restoration/",
         "/service-areas/lakeland-south-wa/water-damage-restoration/",
-        "/service-areas/milton-wa/water-damage-restoration/",
         "/services/water-cleanup/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
@@ -399,13 +401,13 @@
         "/service-areas/bellevue-wa/flood-damage-restoration/",
         "/service-areas/bremerton-wa/flood-damage-restoration/",
         "/service-areas/des-moines-wa/flood-damage-restoration/",
+        "/service-areas/edgewood-wa/flood-damage-restoration/",
         "/service-areas/everett-wa/flood-damage-restoration/",
         "/service-areas/gig-harbor-wa/flood-damage-restoration/",
         "/service-areas/kent-wa/flood-damage-restoration/",
         "/service-areas/kirkland-wa/flood-damage-restoration/",
         "/service-areas/lakeland-north-wa/flood-damage-restoration/",
-        "/service-areas/lakeland-south-wa/flood-damage-restoration/",
-        "/service-areas/milton-wa/flood-damage-restoration/"
+        "/service-areas/lakeland-south-wa/flood-damage-restoration/"
       ]
     },
     {
@@ -449,13 +451,13 @@
         "/service-areas/bellevue-wa/burst-pipe-repair/",
         "/service-areas/bremerton-wa/burst-pipe-repair/",
         "/service-areas/des-moines-wa/burst-pipe-repair/",
+        "/service-areas/edgewood-wa/burst-pipe-repair/",
         "/service-areas/everett-wa/burst-pipe-repair/",
         "/service-areas/gig-harbor-wa/burst-pipe-repair/",
         "/service-areas/kent-wa/burst-pipe-repair/",
         "/service-areas/kirkland-wa/burst-pipe-repair/",
         "/service-areas/lakeland-north-wa/burst-pipe-repair/",
-        "/service-areas/lakeland-south-wa/burst-pipe-repair/",
-        "/service-areas/milton-wa/burst-pipe-repair/"
+        "/service-areas/lakeland-south-wa/burst-pipe-repair/"
       ]
     },
     {
@@ -499,13 +501,13 @@
         "/service-areas/bellevue-wa/basement-flooding-cleanup/",
         "/service-areas/bremerton-wa/basement-flooding-cleanup/",
         "/service-areas/des-moines-wa/basement-flooding-cleanup/",
+        "/service-areas/edgewood-wa/basement-flooding-cleanup/",
         "/service-areas/everett-wa/basement-flooding-cleanup/",
         "/service-areas/gig-harbor-wa/basement-flooding-cleanup/",
         "/service-areas/kent-wa/basement-flooding-cleanup/",
         "/service-areas/kirkland-wa/basement-flooding-cleanup/",
         "/service-areas/lakeland-north-wa/basement-flooding-cleanup/",
-        "/service-areas/lakeland-south-wa/basement-flooding-cleanup/",
-        "/service-areas/milton-wa/basement-flooding-cleanup/"
+        "/service-areas/lakeland-south-wa/basement-flooding-cleanup/"
       ]
     },
     {
@@ -549,13 +551,13 @@
         "/service-areas/bellevue-wa/appliance-leak-cleanup/",
         "/service-areas/bremerton-wa/appliance-leak-cleanup/",
         "/service-areas/des-moines-wa/appliance-leak-cleanup/",
+        "/service-areas/edgewood-wa/appliance-leak-cleanup/",
         "/service-areas/everett-wa/appliance-leak-cleanup/",
         "/service-areas/gig-harbor-wa/appliance-leak-cleanup/",
         "/service-areas/kent-wa/appliance-leak-cleanup/",
         "/service-areas/kirkland-wa/appliance-leak-cleanup/",
         "/service-areas/lakeland-north-wa/appliance-leak-cleanup/",
         "/service-areas/lakeland-south-wa/appliance-leak-cleanup/",
-        "/service-areas/milton-wa/appliance-leak-cleanup/",
         "/blog/burst-pipe-emergency-checklist/"
       ]
     },
@@ -600,13 +602,13 @@
         "/service-areas/bellevue-wa/frozen-pipe-restoration/",
         "/service-areas/bremerton-wa/frozen-pipe-restoration/",
         "/service-areas/des-moines-wa/frozen-pipe-restoration/",
+        "/service-areas/edgewood-wa/frozen-pipe-restoration/",
         "/service-areas/everett-wa/frozen-pipe-restoration/",
         "/service-areas/gig-harbor-wa/frozen-pipe-restoration/",
         "/service-areas/kent-wa/frozen-pipe-restoration/",
         "/service-areas/kirkland-wa/frozen-pipe-restoration/",
         "/service-areas/lakeland-north-wa/frozen-pipe-restoration/",
-        "/service-areas/lakeland-south-wa/frozen-pipe-restoration/",
-        "/service-areas/milton-wa/frozen-pipe-restoration/"
+        "/service-areas/lakeland-south-wa/frozen-pipe-restoration/"
       ]
     },
     {
@@ -650,13 +652,13 @@
         "/service-areas/bellevue-wa/roof-leak-repair/",
         "/service-areas/bremerton-wa/roof-leak-repair/",
         "/service-areas/des-moines-wa/roof-leak-repair/",
+        "/service-areas/edgewood-wa/roof-leak-repair/",
         "/service-areas/everett-wa/roof-leak-repair/",
         "/service-areas/gig-harbor-wa/roof-leak-repair/",
         "/service-areas/kent-wa/roof-leak-repair/",
         "/service-areas/kirkland-wa/roof-leak-repair/",
         "/service-areas/lakeland-north-wa/roof-leak-repair/",
-        "/service-areas/lakeland-south-wa/roof-leak-repair/",
-        "/service-areas/milton-wa/roof-leak-repair/"
+        "/service-areas/lakeland-south-wa/roof-leak-repair/"
       ]
     },
     {
@@ -700,13 +702,13 @@
         "/service-areas/bellevue-wa/sewage-cleanup/",
         "/service-areas/bremerton-wa/sewage-cleanup/",
         "/service-areas/des-moines-wa/sewage-cleanup/",
+        "/service-areas/edgewood-wa/sewage-cleanup/",
         "/service-areas/everett-wa/sewage-cleanup/",
         "/service-areas/gig-harbor-wa/sewage-cleanup/",
         "/service-areas/kent-wa/sewage-cleanup/",
         "/service-areas/kirkland-wa/sewage-cleanup/",
         "/service-areas/lakeland-north-wa/sewage-cleanup/",
-        "/service-areas/lakeland-south-wa/sewage-cleanup/",
-        "/service-areas/milton-wa/sewage-cleanup/"
+        "/service-areas/lakeland-south-wa/sewage-cleanup/"
       ]
     },
     {
@@ -750,13 +752,13 @@
         "/service-areas/bellevue-wa/fire-damage-restoration/",
         "/service-areas/bremerton-wa/fire-damage-restoration/",
         "/service-areas/des-moines-wa/fire-damage-restoration/",
+        "/service-areas/edgewood-wa/fire-damage-restoration/",
         "/service-areas/everett-wa/fire-damage-restoration/",
         "/service-areas/gig-harbor-wa/fire-damage-restoration/",
         "/service-areas/kent-wa/fire-damage-restoration/",
         "/service-areas/kirkland-wa/fire-damage-restoration/",
         "/service-areas/lakeland-north-wa/fire-damage-restoration/",
         "/service-areas/lakeland-south-wa/fire-damage-restoration/",
-        "/service-areas/milton-wa/fire-damage-restoration/",
         "/blog/choosing-a-restoration-company/",
         "/blog/fire-damage-restoration-process/",
         "/blog/smoke-odor-removal-techniques/"
@@ -803,13 +805,13 @@
         "/service-areas/bellevue-wa/smoke-damage-restoration/",
         "/service-areas/bremerton-wa/smoke-damage-restoration/",
         "/service-areas/des-moines-wa/smoke-damage-restoration/",
+        "/service-areas/edgewood-wa/smoke-damage-restoration/",
         "/service-areas/everett-wa/smoke-damage-restoration/",
         "/service-areas/gig-harbor-wa/smoke-damage-restoration/",
         "/service-areas/kent-wa/smoke-damage-restoration/",
         "/service-areas/kirkland-wa/smoke-damage-restoration/",
         "/service-areas/lakeland-north-wa/smoke-damage-restoration/",
         "/service-areas/lakeland-south-wa/smoke-damage-restoration/",
-        "/service-areas/milton-wa/smoke-damage-restoration/",
         "/blog/fire-damage-restoration-process/",
         "/blog/smoke-odor-removal-techniques/"
       ]
@@ -855,13 +857,13 @@
         "/service-areas/bellevue-wa/soot-removal/",
         "/service-areas/bremerton-wa/soot-removal/",
         "/service-areas/des-moines-wa/soot-removal/",
+        "/service-areas/edgewood-wa/soot-removal/",
         "/service-areas/everett-wa/soot-removal/",
         "/service-areas/gig-harbor-wa/soot-removal/",
         "/service-areas/kent-wa/soot-removal/",
         "/service-areas/kirkland-wa/soot-removal/",
         "/service-areas/lakeland-north-wa/soot-removal/",
-        "/service-areas/lakeland-south-wa/soot-removal/",
-        "/service-areas/milton-wa/soot-removal/"
+        "/service-areas/lakeland-south-wa/soot-removal/"
       ]
     },
     {
@@ -905,13 +907,13 @@
         "/service-areas/bellevue-wa/odor-removal/",
         "/service-areas/bremerton-wa/odor-removal/",
         "/service-areas/des-moines-wa/odor-removal/",
+        "/service-areas/edgewood-wa/odor-removal/",
         "/service-areas/everett-wa/odor-removal/",
         "/service-areas/gig-harbor-wa/odor-removal/",
         "/service-areas/kent-wa/odor-removal/",
         "/service-areas/kirkland-wa/odor-removal/",
         "/service-areas/lakeland-north-wa/odor-removal/",
-        "/service-areas/lakeland-south-wa/odor-removal/",
-        "/service-areas/milton-wa/odor-removal/"
+        "/service-areas/lakeland-south-wa/odor-removal/"
       ]
     },
     {
@@ -955,13 +957,13 @@
         "/service-areas/bellevue-wa/mold-remediation/",
         "/service-areas/bremerton-wa/mold-remediation/",
         "/service-areas/des-moines-wa/mold-remediation/",
+        "/service-areas/edgewood-wa/mold-remediation/",
         "/service-areas/everett-wa/mold-remediation/",
         "/service-areas/gig-harbor-wa/mold-remediation/",
         "/service-areas/kent-wa/mold-remediation/",
         "/service-areas/kirkland-wa/mold-remediation/",
         "/service-areas/lakeland-north-wa/mold-remediation/",
         "/service-areas/lakeland-south-wa/mold-remediation/",
-        "/service-areas/milton-wa/mold-remediation/",
         "/blog/choosing-a-restoration-company/",
         "/blog/how-to-test-for-mold/",
         "/blog/signs-of-hidden-mold/"
@@ -1008,13 +1010,13 @@
         "/service-areas/bellevue-wa/mold-inspection-testing/",
         "/service-areas/bremerton-wa/mold-inspection-testing/",
         "/service-areas/des-moines-wa/mold-inspection-testing/",
+        "/service-areas/edgewood-wa/mold-inspection-testing/",
         "/service-areas/everett-wa/mold-inspection-testing/",
         "/service-areas/gig-harbor-wa/mold-inspection-testing/",
         "/service-areas/kent-wa/mold-inspection-testing/",
         "/service-areas/kirkland-wa/mold-inspection-testing/",
         "/service-areas/lakeland-north-wa/mold-inspection-testing/",
         "/service-areas/lakeland-south-wa/mold-inspection-testing/",
-        "/service-areas/milton-wa/mold-inspection-testing/",
         "/blog/how-to-test-for-mold/"
       ]
     },
@@ -1059,13 +1061,13 @@
         "/service-areas/bellevue-wa/storm-damage-restoration/",
         "/service-areas/bremerton-wa/storm-damage-restoration/",
         "/service-areas/des-moines-wa/storm-damage-restoration/",
+        "/service-areas/edgewood-wa/storm-damage-restoration/",
         "/service-areas/everett-wa/storm-damage-restoration/",
         "/service-areas/gig-harbor-wa/storm-damage-restoration/",
         "/service-areas/kent-wa/storm-damage-restoration/",
         "/service-areas/kirkland-wa/storm-damage-restoration/",
         "/service-areas/lakeland-north-wa/storm-damage-restoration/",
         "/service-areas/lakeland-south-wa/storm-damage-restoration/",
-        "/service-areas/milton-wa/storm-damage-restoration/",
         "/blog/storm-damage-insurance-claim-checklist/"
       ]
     },
@@ -1110,13 +1112,13 @@
         "/service-areas/bellevue-wa/biohazard-cleanup/",
         "/service-areas/bremerton-wa/biohazard-cleanup/",
         "/service-areas/des-moines-wa/biohazard-cleanup/",
+        "/service-areas/edgewood-wa/biohazard-cleanup/",
         "/service-areas/everett-wa/biohazard-cleanup/",
         "/service-areas/gig-harbor-wa/biohazard-cleanup/",
         "/service-areas/kent-wa/biohazard-cleanup/",
         "/service-areas/kirkland-wa/biohazard-cleanup/",
         "/service-areas/lakeland-north-wa/biohazard-cleanup/",
-        "/service-areas/lakeland-south-wa/biohazard-cleanup/",
-        "/service-areas/milton-wa/biohazard-cleanup/"
+        "/service-areas/lakeland-south-wa/biohazard-cleanup/"
       ]
     },
     {
@@ -1160,13 +1162,13 @@
         "/service-areas/bellevue-wa/trauma-scene-cleanup/",
         "/service-areas/bremerton-wa/trauma-scene-cleanup/",
         "/service-areas/des-moines-wa/trauma-scene-cleanup/",
+        "/service-areas/edgewood-wa/trauma-scene-cleanup/",
         "/service-areas/everett-wa/trauma-scene-cleanup/",
         "/service-areas/gig-harbor-wa/trauma-scene-cleanup/",
         "/service-areas/kent-wa/trauma-scene-cleanup/",
         "/service-areas/kirkland-wa/trauma-scene-cleanup/",
         "/service-areas/lakeland-north-wa/trauma-scene-cleanup/",
-        "/service-areas/lakeland-south-wa/trauma-scene-cleanup/",
-        "/service-areas/milton-wa/trauma-scene-cleanup/"
+        "/service-areas/lakeland-south-wa/trauma-scene-cleanup/"
       ]
     },
     {
@@ -1210,13 +1212,13 @@
         "/service-areas/bellevue-wa/crime-scene-cleanup/",
         "/service-areas/bremerton-wa/crime-scene-cleanup/",
         "/service-areas/des-moines-wa/crime-scene-cleanup/",
+        "/service-areas/edgewood-wa/crime-scene-cleanup/",
         "/service-areas/everett-wa/crime-scene-cleanup/",
         "/service-areas/gig-harbor-wa/crime-scene-cleanup/",
         "/service-areas/kent-wa/crime-scene-cleanup/",
         "/service-areas/kirkland-wa/crime-scene-cleanup/",
         "/service-areas/lakeland-north-wa/crime-scene-cleanup/",
-        "/service-areas/lakeland-south-wa/crime-scene-cleanup/",
-        "/service-areas/milton-wa/crime-scene-cleanup/"
+        "/service-areas/lakeland-south-wa/crime-scene-cleanup/"
       ]
     },
     {
@@ -1260,13 +1262,13 @@
         "/service-areas/bellevue-wa/unattended-death-cleanup/",
         "/service-areas/bremerton-wa/unattended-death-cleanup/",
         "/service-areas/des-moines-wa/unattended-death-cleanup/",
+        "/service-areas/edgewood-wa/unattended-death-cleanup/",
         "/service-areas/everett-wa/unattended-death-cleanup/",
         "/service-areas/gig-harbor-wa/unattended-death-cleanup/",
         "/service-areas/kent-wa/unattended-death-cleanup/",
         "/service-areas/kirkland-wa/unattended-death-cleanup/",
         "/service-areas/lakeland-north-wa/unattended-death-cleanup/",
-        "/service-areas/lakeland-south-wa/unattended-death-cleanup/",
-        "/service-areas/milton-wa/unattended-death-cleanup/"
+        "/service-areas/lakeland-south-wa/unattended-death-cleanup/"
       ]
     },
     {
@@ -1310,13 +1312,13 @@
         "/service-areas/bellevue-wa/hoarding-cleanup/",
         "/service-areas/bremerton-wa/hoarding-cleanup/",
         "/service-areas/des-moines-wa/hoarding-cleanup/",
+        "/service-areas/edgewood-wa/hoarding-cleanup/",
         "/service-areas/everett-wa/hoarding-cleanup/",
         "/service-areas/gig-harbor-wa/hoarding-cleanup/",
         "/service-areas/kent-wa/hoarding-cleanup/",
         "/service-areas/kirkland-wa/hoarding-cleanup/",
         "/service-areas/lakeland-north-wa/hoarding-cleanup/",
-        "/service-areas/lakeland-south-wa/hoarding-cleanup/",
-        "/service-areas/milton-wa/hoarding-cleanup/"
+        "/service-areas/lakeland-south-wa/hoarding-cleanup/"
       ]
     },
     {
@@ -1360,13 +1362,13 @@
         "/service-areas/bellevue-wa/reconstruction/",
         "/service-areas/bremerton-wa/reconstruction/",
         "/service-areas/des-moines-wa/reconstruction/",
+        "/service-areas/edgewood-wa/reconstruction/",
         "/service-areas/everett-wa/reconstruction/",
         "/service-areas/gig-harbor-wa/reconstruction/",
         "/service-areas/kent-wa/reconstruction/",
         "/service-areas/kirkland-wa/reconstruction/",
         "/service-areas/lakeland-north-wa/reconstruction/",
-        "/service-areas/lakeland-south-wa/reconstruction/",
-        "/service-areas/milton-wa/reconstruction/"
+        "/service-areas/lakeland-south-wa/reconstruction/"
       ]
     },
     {
@@ -1411,13 +1413,13 @@
         "/service-areas/bellevue-wa/general-contracting/",
         "/service-areas/bremerton-wa/general-contracting/",
         "/service-areas/des-moines-wa/general-contracting/",
+        "/service-areas/edgewood-wa/general-contracting/",
         "/service-areas/everett-wa/general-contracting/",
         "/service-areas/gig-harbor-wa/general-contracting/",
         "/service-areas/kent-wa/general-contracting/",
         "/service-areas/kirkland-wa/general-contracting/",
         "/service-areas/lakeland-north-wa/general-contracting/",
-        "/service-areas/lakeland-south-wa/general-contracting/",
-        "/service-areas/milton-wa/general-contracting/"
+        "/service-areas/lakeland-south-wa/general-contracting/"
       ]
     },
     {
@@ -1462,13 +1464,13 @@
         "/service-areas/bellevue-wa/water-cleanup/",
         "/service-areas/bremerton-wa/water-cleanup/",
         "/service-areas/des-moines-wa/water-cleanup/",
+        "/service-areas/edgewood-wa/water-cleanup/",
         "/service-areas/everett-wa/water-cleanup/",
         "/service-areas/gig-harbor-wa/water-cleanup/",
         "/service-areas/kent-wa/water-cleanup/",
         "/service-areas/kirkland-wa/water-cleanup/",
         "/service-areas/lakeland-north-wa/water-cleanup/",
         "/service-areas/lakeland-south-wa/water-cleanup/",
-        "/service-areas/milton-wa/water-cleanup/",
         "/services/water-damage-restoration/"
       ]
     },
@@ -2667,6 +2669,66 @@
         "/service-areas/seatac-wa/crime-scene-cleanup/",
         "/service-areas/seatac-wa/hoarding-cleanup/",
         "/service-areas/seatac-wa/unattended-death-cleanup/",
+        "/service-areas/algona-wa/",
+        "/service-areas/auburn-wa/",
+        "/service-areas/bellevue-wa/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/edgewood-wa/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Edgewood, WA | National Restoration Construction",
+      "h1": "Restoration Services in Edgewood",
+      "meta_description": "Serving Edgewood, WA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (206) 883-0333.",
+      "primary_keyword": "restoration services edgewood",
+      "secondary_keywords": [
+        "edgewood restoration company",
+        "damage restoration edgewood",
+        "edgewood disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/edgewood-wa/fire-damage-restoration/",
+        "/service-areas/edgewood-wa/mold-remediation/",
+        "/service-areas/edgewood-wa/water-damage-restoration/",
+        "/service-areas/edgewood-wa/flood-damage-restoration/",
+        "/service-areas/edgewood-wa/reconstruction/",
+        "/service-areas/edgewood-wa/sewage-cleanup/",
+        "/service-areas/edgewood-wa/smoke-damage-restoration/",
+        "/service-areas/edgewood-wa/storm-damage-restoration/",
+        "/service-areas/edgewood-wa/water-cleanup/",
+        "/service-areas/edgewood-wa/basement-flooding-cleanup/",
+        "/service-areas/edgewood-wa/biohazard-cleanup/",
+        "/service-areas/edgewood-wa/burst-pipe-repair/",
+        "/service-areas/edgewood-wa/general-contracting/",
+        "/service-areas/edgewood-wa/mold-inspection-testing/",
+        "/service-areas/edgewood-wa/frozen-pipe-restoration/",
+        "/service-areas/edgewood-wa/odor-removal/",
+        "/service-areas/edgewood-wa/roof-leak-repair/",
+        "/service-areas/edgewood-wa/soot-removal/",
+        "/service-areas/edgewood-wa/trauma-scene-cleanup/",
+        "/service-areas/edgewood-wa/appliance-leak-cleanup/",
+        "/service-areas/edgewood-wa/crime-scene-cleanup/",
+        "/service-areas/edgewood-wa/hoarding-cleanup/",
+        "/service-areas/edgewood-wa/unattended-death-cleanup/",
         "/service-areas/algona-wa/",
         "/service-areas/auburn-wa/",
         "/service-areas/bellevue-wa/"
@@ -22947,6 +23009,1020 @@
         "/service-areas/seatac-wa/",
         "/service-areas/seatac-wa/fire-damage-restoration/",
         "/service-areas/seatac-wa/mold-remediation/",
+        "/service-areas/algona-wa/water-cleanup/",
+        "/service-areas/auburn-wa/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/edgewood-wa/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Edgewood, WA | National Restoration Construction",
+      "h1": "Water Damage Restoration in Edgewood",
+      "meta_description": "24/7 water damage restoration in Edgewood, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "water damage restoration edgewood",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/edgewood-wa/",
+        "/service-areas/edgewood-wa/fire-damage-restoration/",
+        "/service-areas/edgewood-wa/mold-remediation/",
+        "/service-areas/algona-wa/water-damage-restoration/",
+        "/service-areas/auburn-wa/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/edgewood-wa/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Edgewood, WA | National Restoration Construction",
+      "h1": "Flood Damage Restoration in Edgewood",
+      "meta_description": "24/7 flood damage restoration in Edgewood, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "flood damage restoration edgewood",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/edgewood-wa/",
+        "/service-areas/edgewood-wa/fire-damage-restoration/",
+        "/service-areas/edgewood-wa/mold-remediation/",
+        "/service-areas/algona-wa/flood-damage-restoration/",
+        "/service-areas/auburn-wa/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/edgewood-wa/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Edgewood, WA | National Restoration Construction",
+      "h1": "Burst Pipe Cleanup and Repair in Edgewood",
+      "meta_description": "24/7 burst pipe cleanup and repair in Edgewood, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "burst pipe cleanup and repair edgewood",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/edgewood-wa/",
+        "/service-areas/edgewood-wa/fire-damage-restoration/",
+        "/service-areas/edgewood-wa/mold-remediation/",
+        "/service-areas/algona-wa/burst-pipe-repair/",
+        "/service-areas/auburn-wa/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/edgewood-wa/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in Edgewood, WA | National Restoration Construction",
+      "h1": "Basement Flooding Cleanup in Edgewood",
+      "meta_description": "24/7 basement flooding cleanup in Edgewood, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "basement flooding cleanup edgewood",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/edgewood-wa/",
+        "/service-areas/edgewood-wa/fire-damage-restoration/",
+        "/service-areas/edgewood-wa/mold-remediation/",
+        "/service-areas/algona-wa/basement-flooding-cleanup/",
+        "/service-areas/auburn-wa/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/edgewood-wa/appliance-leak-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Appliance Leak Cleanup in Edgewood, WA | National Restoration Construction",
+      "h1": "Appliance Leak Cleanup in Edgewood",
+      "meta_description": "24/7 appliance leak cleanup in Edgewood, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "appliance leak cleanup edgewood",
+      "secondary_keywords": [
+        "dishwasher leak cleanup",
+        "washing machine flood",
+        "refrigerator leak cleanup",
+        "water heater leak cleanup",
+        "ice maker line leak"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/appliance-leak-cleanup/",
+        "/service-areas/edgewood-wa/",
+        "/service-areas/edgewood-wa/fire-damage-restoration/",
+        "/service-areas/edgewood-wa/mold-remediation/",
+        "/service-areas/algona-wa/appliance-leak-cleanup/",
+        "/service-areas/auburn-wa/appliance-leak-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/edgewood-wa/frozen-pipe-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Frozen Pipe Restoration in Edgewood, WA | National Restoration Construction",
+      "h1": "Frozen Pipe Restoration in Edgewood",
+      "meta_description": "24/7 frozen pipe restoration in Edgewood, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "frozen pipe restoration edgewood",
+      "secondary_keywords": [
+        "frozen pipe damage",
+        "winter pipe burst cleanup",
+        "thawed pipe water damage",
+        "frozen pipe leak repair",
+        "cold weather pipe damage"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/frozen-pipe-restoration/",
+        "/service-areas/edgewood-wa/",
+        "/service-areas/edgewood-wa/fire-damage-restoration/",
+        "/service-areas/edgewood-wa/mold-remediation/",
+        "/service-areas/algona-wa/frozen-pipe-restoration/",
+        "/service-areas/auburn-wa/frozen-pipe-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/edgewood-wa/roof-leak-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Roof Leak Cleanup and Repair in Edgewood, WA | National Restoration Construction",
+      "h1": "Roof Leak Cleanup and Repair in Edgewood",
+      "meta_description": "24/7 roof leak cleanup and repair in Edgewood, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "roof leak cleanup and repair edgewood",
+      "secondary_keywords": [
+        "roof leak cleanup",
+        "ceiling water damage",
+        "attic water damage",
+        "roof leak restoration",
+        "interior roof leak damage"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/roof-leak-repair/",
+        "/service-areas/edgewood-wa/",
+        "/service-areas/edgewood-wa/fire-damage-restoration/",
+        "/service-areas/edgewood-wa/mold-remediation/",
+        "/service-areas/algona-wa/roof-leak-repair/",
+        "/service-areas/auburn-wa/roof-leak-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/edgewood-wa/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Edgewood, WA | National Restoration Construction",
+      "h1": "Sewage Cleanup and Sanitization in Edgewood",
+      "meta_description": "24/7 sewage cleanup and sanitization in Edgewood, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "sewage cleanup and sanitization edgewood",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/edgewood-wa/",
+        "/service-areas/edgewood-wa/fire-damage-restoration/",
+        "/service-areas/edgewood-wa/mold-remediation/",
+        "/service-areas/algona-wa/sewage-cleanup/",
+        "/service-areas/auburn-wa/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/edgewood-wa/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Edgewood, WA | National Restoration Construction",
+      "h1": "Fire Damage Restoration in Edgewood",
+      "meta_description": "24/7 fire damage restoration in Edgewood, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "fire damage restoration edgewood",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/edgewood-wa/",
+        "/service-areas/edgewood-wa/mold-remediation/",
+        "/service-areas/edgewood-wa/water-damage-restoration/",
+        "/service-areas/algona-wa/fire-damage-restoration/",
+        "/service-areas/auburn-wa/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/edgewood-wa/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Edgewood, WA | National Restoration Construction",
+      "h1": "Smoke Damage Restoration in Edgewood",
+      "meta_description": "24/7 smoke damage restoration in Edgewood, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "smoke damage restoration edgewood",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/edgewood-wa/",
+        "/service-areas/edgewood-wa/fire-damage-restoration/",
+        "/service-areas/edgewood-wa/mold-remediation/",
+        "/service-areas/algona-wa/smoke-damage-restoration/",
+        "/service-areas/auburn-wa/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/edgewood-wa/soot-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Soot Removal in Edgewood, WA | National Restoration Construction",
+      "h1": "Soot Removal in Edgewood",
+      "meta_description": "24/7 soot removal in Edgewood, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "soot removal edgewood",
+      "secondary_keywords": [
+        "soot cleaning",
+        "soot residue removal",
+        "post-fire soot cleanup",
+        "soot damage cleanup",
+        "soot wall cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/soot-removal/",
+        "/service-areas/edgewood-wa/",
+        "/service-areas/edgewood-wa/fire-damage-restoration/",
+        "/service-areas/edgewood-wa/mold-remediation/",
+        "/service-areas/algona-wa/soot-removal/",
+        "/service-areas/auburn-wa/soot-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/edgewood-wa/odor-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Odor Removal and Deodorization in Edgewood, WA | National Restoration Construction",
+      "h1": "Odor Removal and Deodorization in Edgewood",
+      "meta_description": "24/7 odor removal and deodorization in Edgewood, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "odor removal and deodorization edgewood",
+      "secondary_keywords": [
+        "smoke odor removal",
+        "ozone treatment",
+        "hydroxyl deodorization",
+        "thermal fogging",
+        "professional odor elimination"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/odor-removal/",
+        "/service-areas/edgewood-wa/",
+        "/service-areas/edgewood-wa/fire-damage-restoration/",
+        "/service-areas/edgewood-wa/mold-remediation/",
+        "/service-areas/algona-wa/odor-removal/",
+        "/service-areas/auburn-wa/odor-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/edgewood-wa/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Edgewood, WA | National Restoration Construction",
+      "h1": "Mold Remediation in Edgewood",
+      "meta_description": "24/7 mold remediation in Edgewood, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "mold remediation edgewood",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/edgewood-wa/",
+        "/service-areas/edgewood-wa/fire-damage-restoration/",
+        "/service-areas/edgewood-wa/water-damage-restoration/",
+        "/service-areas/algona-wa/mold-remediation/",
+        "/service-areas/auburn-wa/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/edgewood-wa/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Edgewood, WA | National Restoration Construction",
+      "h1": "Mold Inspection and Testing in Edgewood",
+      "meta_description": "24/7 mold inspection and testing in Edgewood, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "mold inspection and testing edgewood",
+      "secondary_keywords": [
+        "mold inspection",
+        "mold testing",
+        "indoor air quality testing",
+        "mold spore testing",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/edgewood-wa/",
+        "/service-areas/edgewood-wa/fire-damage-restoration/",
+        "/service-areas/edgewood-wa/mold-remediation/",
+        "/service-areas/algona-wa/mold-inspection-testing/",
+        "/service-areas/auburn-wa/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/edgewood-wa/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Edgewood, WA | National Restoration Construction",
+      "h1": "Storm Damage Restoration in Edgewood",
+      "meta_description": "24/7 storm damage restoration in Edgewood, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "storm damage restoration edgewood",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/edgewood-wa/",
+        "/service-areas/edgewood-wa/fire-damage-restoration/",
+        "/service-areas/edgewood-wa/mold-remediation/",
+        "/service-areas/algona-wa/storm-damage-restoration/",
+        "/service-areas/auburn-wa/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/edgewood-wa/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Edgewood, WA | National Restoration Construction",
+      "h1": "Biohazard Cleanup in Edgewood",
+      "meta_description": "24/7 biohazard cleanup in Edgewood, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "biohazard cleanup edgewood",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/edgewood-wa/",
+        "/service-areas/edgewood-wa/fire-damage-restoration/",
+        "/service-areas/edgewood-wa/mold-remediation/",
+        "/service-areas/algona-wa/biohazard-cleanup/",
+        "/service-areas/auburn-wa/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/edgewood-wa/trauma-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Trauma Scene Cleanup in Edgewood, WA | National Restoration Construction",
+      "h1": "Trauma Scene Cleanup in Edgewood",
+      "meta_description": "24/7 trauma scene cleanup in Edgewood, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "trauma scene cleanup edgewood",
+      "secondary_keywords": [
+        "trauma cleanup services",
+        "trauma scene cleaning",
+        "accident scene cleanup",
+        "crime and trauma decontamination",
+        "emergency trauma cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/trauma-scene-cleanup/",
+        "/service-areas/edgewood-wa/",
+        "/service-areas/edgewood-wa/fire-damage-restoration/",
+        "/service-areas/edgewood-wa/mold-remediation/",
+        "/service-areas/algona-wa/trauma-scene-cleanup/",
+        "/service-areas/auburn-wa/trauma-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/edgewood-wa/crime-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crime Scene Cleanup in Edgewood, WA | National Restoration Construction",
+      "h1": "Crime Scene Cleanup in Edgewood",
+      "meta_description": "24/7 crime scene cleanup in Edgewood, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "crime scene cleanup edgewood",
+      "secondary_keywords": [
+        "crime scene cleaning",
+        "forensic cleanup",
+        "post-crime cleanup",
+        "homicide cleanup",
+        "suicide scene cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crime-scene-cleanup/",
+        "/service-areas/edgewood-wa/",
+        "/service-areas/edgewood-wa/fire-damage-restoration/",
+        "/service-areas/edgewood-wa/mold-remediation/",
+        "/service-areas/algona-wa/crime-scene-cleanup/",
+        "/service-areas/auburn-wa/crime-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/edgewood-wa/unattended-death-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Unattended Death Cleanup in Edgewood, WA | National Restoration Construction",
+      "h1": "Unattended Death Cleanup in Edgewood",
+      "meta_description": "24/7 unattended death cleanup in Edgewood, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "unattended death cleanup edgewood",
+      "secondary_keywords": [
+        "decomposition cleanup",
+        "after death cleaning",
+        "deceased estate cleanup",
+        "odor removal after death",
+        "discreet death cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/unattended-death-cleanup/",
+        "/service-areas/edgewood-wa/",
+        "/service-areas/edgewood-wa/fire-damage-restoration/",
+        "/service-areas/edgewood-wa/mold-remediation/",
+        "/service-areas/algona-wa/unattended-death-cleanup/",
+        "/service-areas/auburn-wa/unattended-death-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/edgewood-wa/hoarding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Hoarding Cleanup in Edgewood, WA | National Restoration Construction",
+      "h1": "Hoarding Cleanup in Edgewood",
+      "meta_description": "24/7 hoarding cleanup in Edgewood, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "hoarding cleanup edgewood",
+      "secondary_keywords": [
+        "hoarder cleanup",
+        "hoarding cleaning services",
+        "hoarding remediation",
+        "hoarder home cleaning",
+        "gross filth cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/hoarding-cleanup/",
+        "/service-areas/edgewood-wa/",
+        "/service-areas/edgewood-wa/fire-damage-restoration/",
+        "/service-areas/edgewood-wa/mold-remediation/",
+        "/service-areas/algona-wa/hoarding-cleanup/",
+        "/service-areas/auburn-wa/hoarding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/edgewood-wa/reconstruction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Reconstruction Services in Edgewood, WA | National Restoration Construction",
+      "h1": "Reconstruction Services in Edgewood",
+      "meta_description": "24/7 reconstruction services in Edgewood, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "reconstruction services edgewood",
+      "secondary_keywords": [
+        "post-damage reconstruction",
+        "rebuild services",
+        "structural reconstruction",
+        "post-disaster rebuilding",
+        "fire damage reconstruction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/reconstruction/",
+        "/service-areas/edgewood-wa/",
+        "/service-areas/edgewood-wa/fire-damage-restoration/",
+        "/service-areas/edgewood-wa/mold-remediation/",
+        "/service-areas/algona-wa/reconstruction/",
+        "/service-areas/auburn-wa/reconstruction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/edgewood-wa/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Edgewood, WA | National Restoration Construction",
+      "h1": "Renovations, Remodels and General Contracting in Edgewood",
+      "meta_description": "24/7 renovations, remodels and general contracting in Edgewood, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "renovations, remodels and general contracting edgewood",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/edgewood-wa/",
+        "/service-areas/edgewood-wa/fire-damage-restoration/",
+        "/service-areas/edgewood-wa/mold-remediation/",
+        "/service-areas/algona-wa/general-contracting/",
+        "/service-areas/auburn-wa/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/edgewood-wa/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Edgewood, WA | National Restoration Construction",
+      "h1": "Emergency Water Cleanup in Edgewood",
+      "meta_description": "24/7 emergency water cleanup in Edgewood, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water cleanup edgewood",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/edgewood-wa/",
+        "/service-areas/edgewood-wa/fire-damage-restoration/",
+        "/service-areas/edgewood-wa/mold-remediation/",
         "/service-areas/algona-wa/water-cleanup/",
         "/service-areas/auburn-wa/water-cleanup/",
         "/contact/"

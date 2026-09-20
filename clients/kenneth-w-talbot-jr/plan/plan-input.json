@@ -115,6 +115,11 @@
       "city": "Hurlburt Field",
       "state": "FL",
       "slug": "hurlburt-field-fl"
+    },
+    {
+      "city": "Paxton",
+      "state": "FL",
+      "slug": "paxton-fl"
     }
   ],
   "template": "restoration",

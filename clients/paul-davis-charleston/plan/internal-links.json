@@ -12,6 +12,7 @@
     "/service-areas/folly-beach-sc/",
     "/service-areas/goose-creek-sc/",
     "/service-areas/hanahan-sc/",
+    "/service-areas/hollywood-sc/",
     "/service-areas/isle-of-palms-sc/",
     "/service-areas/james-island-sc/",
     "/service-areas/ladson-sc/",
@@ -33,6 +34,7 @@
     "/service-areas/folly-beach-sc/",
     "/service-areas/goose-creek-sc/",
     "/service-areas/hanahan-sc/",
+    "/service-areas/hollywood-sc/",
     "/service-areas/isle-of-palms-sc/",
     "/service-areas/james-island-sc/",
     "/service-areas/ladson-sc/",
@@ -73,6 +75,7 @@
     "/service-areas/folly-beach-sc/water-damage-restoration/",
     "/service-areas/goose-creek-sc/water-damage-restoration/",
     "/service-areas/hanahan-sc/water-damage-restoration/",
+    "/service-areas/hollywood-sc/water-damage-restoration/",
     "/service-areas/isle-of-palms-sc/water-damage-restoration/",
     "/service-areas/james-island-sc/water-damage-restoration/",
     "/service-areas/ladson-sc/water-damage-restoration/",
@@ -92,6 +95,7 @@
     "/service-areas/folly-beach-sc/fire-damage-restoration/",
     "/service-areas/goose-creek-sc/fire-damage-restoration/",
     "/service-areas/hanahan-sc/fire-damage-restoration/",
+    "/service-areas/hollywood-sc/fire-damage-restoration/",
     "/service-areas/isle-of-palms-sc/fire-damage-restoration/",
     "/service-areas/james-island-sc/fire-damage-restoration/",
     "/service-areas/ladson-sc/fire-damage-restoration/",
@@ -110,6 +114,7 @@
     "/service-areas/folly-beach-sc/mold-remediation/",
     "/service-areas/goose-creek-sc/mold-remediation/",
     "/service-areas/hanahan-sc/mold-remediation/",
+    "/service-areas/hollywood-sc/mold-remediation/",
     "/service-areas/isle-of-palms-sc/mold-remediation/",
     "/service-areas/james-island-sc/mold-remediation/",
     "/service-areas/ladson-sc/mold-remediation/",
@@ -128,6 +133,7 @@
     "/service-areas/folly-beach-sc/water-cleanup/",
     "/service-areas/goose-creek-sc/water-cleanup/",
     "/service-areas/hanahan-sc/water-cleanup/",
+    "/service-areas/hollywood-sc/water-cleanup/",
     "/service-areas/isle-of-palms-sc/water-cleanup/",
     "/service-areas/james-island-sc/water-cleanup/",
     "/service-areas/ladson-sc/water-cleanup/",
@@ -257,6 +263,17 @@
     "/service-areas/awendaw-sc/",
     "/service-areas/goose-creek-sc/",
     "/service-areas/hanahan-sc/"
+  ],
+  "/service-areas/hollywood-sc/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/hollywood-sc/fire-damage-restoration/",
+    "/service-areas/hollywood-sc/mold-remediation/",
+    "/service-areas/hollywood-sc/water-damage-restoration/",
+    "/service-areas/hollywood-sc/water-cleanup/",
+    "/service-areas/awendaw-sc/",
+    "/service-areas/folly-beach-sc/",
+    "/service-areas/goose-creek-sc/"
   ],
   "/service-areas/mount-pleasant-sc/water-damage-restoration/": [
     "/services/water-damage-restoration/",
@@ -652,6 +669,42 @@
     "/service-areas/folly-beach-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-cleanup/",
     "/service-areas/goose-creek-sc/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/hollywood-sc/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/hollywood-sc/",
+    "/service-areas/hollywood-sc/fire-damage-restoration/",
+    "/service-areas/hollywood-sc/mold-remediation/",
+    "/service-areas/awendaw-sc/water-damage-restoration/",
+    "/service-areas/folly-beach-sc/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/hollywood-sc/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/hollywood-sc/",
+    "/service-areas/hollywood-sc/mold-remediation/",
+    "/service-areas/hollywood-sc/water-damage-restoration/",
+    "/service-areas/awendaw-sc/fire-damage-restoration/",
+    "/service-areas/folly-beach-sc/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/hollywood-sc/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/hollywood-sc/",
+    "/service-areas/hollywood-sc/fire-damage-restoration/",
+    "/service-areas/hollywood-sc/water-damage-restoration/",
+    "/service-areas/awendaw-sc/mold-remediation/",
+    "/service-areas/folly-beach-sc/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/hollywood-sc/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/hollywood-sc/",
+    "/service-areas/hollywood-sc/fire-damage-restoration/",
+    "/service-areas/hollywood-sc/mold-remediation/",
+    "/service-areas/awendaw-sc/water-cleanup/",
+    "/service-areas/folly-beach-sc/water-cleanup/",
     "/contact/"
   ],
   "/blog/what-to-do-first-24-hours-water-damage/": [

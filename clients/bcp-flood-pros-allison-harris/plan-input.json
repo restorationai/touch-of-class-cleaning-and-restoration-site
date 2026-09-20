@@ -115,6 +115,11 @@
       "city": "Eagle Mountain",
       "state": "UT",
       "slug": "eagle-mountain-ut"
+    },
+    {
+      "city": "Sandy",
+      "state": "UT",
+      "slug": "sandy-ut"
     }
   ],
   "template": "restoration",

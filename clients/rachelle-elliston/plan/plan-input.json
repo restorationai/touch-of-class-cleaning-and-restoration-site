@@ -100,6 +100,11 @@
       "city": "Whitney",
       "state": "NV",
       "slug": "whitney-nv"
+    },
+    {
+      "city": "Summerlin South",
+      "state": "NV",
+      "slug": "summerlin-south-nv"
     }
   ],
   "template": "restoration",

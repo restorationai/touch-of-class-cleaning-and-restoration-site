@@ -1,21 +1,21 @@
 # Site Plan Report — All Pro Plumbing Heating and Air
 
 - Template: `plumbing` v0.1.0
-- Generated: 2026-09-20T17:29:20.946622+00:00
+- Generated: 2026-09-20T18:58:30.229695+00:00
 - Domain: `allproplumbingheatingandair.com`
 - Services selected: 22 of 22 catalog entries
-- Service areas: 14
+- Service areas: 15
 - Cross-product enabled: True
-- Total URLs: **342**
-- Total internal links: 2816 (avg 8.2 per page)
+- Total URLs: **365**
+- Total internal links: 2999 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 286 |
+| `service-area-service` | 308 |
 | `service-landing` | 22 |
-| `service-area` | 13 |
+| `service-area` | 14 |
 | `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -66,6 +66,7 @@
 - `arvin-ca` — Arvin, CA
 - `dustin-acres-ca` — Dustin Acres, CA
 - `bear-valley-springs-ca` — Bear Valley Springs, CA
+- `buttonwillow-ca` — Buttonwillow, CA
 
 ## Top 10 priority pages
 

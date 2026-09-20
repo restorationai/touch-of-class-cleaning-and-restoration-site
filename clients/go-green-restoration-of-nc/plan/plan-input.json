@@ -225,6 +225,11 @@
       "city": "Knightdale",
       "state": "NC",
       "slug": "knightdale-nc"
+    },
+    {
+      "city": "Wilson's Mills",
+      "state": "NC",
+      "slug": "wilson-s-mills-nc"
     }
   ],
   "template": "restoration",

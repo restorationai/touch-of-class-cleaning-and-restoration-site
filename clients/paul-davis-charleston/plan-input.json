@@ -72,6 +72,11 @@
       "city": "Folly Beach",
       "state": "SC",
       "slug": "folly-beach-sc"
+    },
+    {
+      "city": "Hollywood",
+      "state": "SC",
+      "slug": "hollywood-sc"
     }
   ]
 }

@@ -21,6 +21,7 @@
     "/service-areas/meridianville-al/",
     "/service-areas/moores-mill-al/",
     "/service-areas/new-market-al/",
+    "/service-areas/owens-cross-roads-al/",
     "/service-areas/redstone-arsenal-al/"
   ],
   "/services/": [
@@ -45,6 +46,7 @@
     "/service-areas/meridianville-al/",
     "/service-areas/moores-mill-al/",
     "/service-areas/new-market-al/",
+    "/service-areas/owens-cross-roads-al/",
     "/service-areas/redstone-arsenal-al/"
   ],
   "/blog/": [
@@ -83,6 +85,7 @@
     "/service-areas/meridianville-al/home-remodeling/",
     "/service-areas/moores-mill-al/home-remodeling/",
     "/service-areas/new-market-al/home-remodeling/",
+    "/service-areas/owens-cross-roads-al/home-remodeling/",
     "/service-areas/redstone-arsenal-al/home-remodeling/",
     "/blog/choosing-a-general-contractor/",
     "/blog/how-to-plan-a-home-remodel/",
@@ -99,6 +102,7 @@
     "/service-areas/meridianville-al/new-construction/",
     "/service-areas/moores-mill-al/new-construction/",
     "/service-areas/new-market-al/new-construction/",
+    "/service-areas/owens-cross-roads-al/new-construction/",
     "/service-areas/redstone-arsenal-al/new-construction/",
     "/blog/choosing-a-general-contractor/",
     "/blog/how-long-to-build-a-house/"
@@ -114,6 +118,7 @@
     "/service-areas/meridianville-al/decks-pergolas-fences/",
     "/service-areas/moores-mill-al/decks-pergolas-fences/",
     "/service-areas/new-market-al/decks-pergolas-fences/",
+    "/service-areas/owens-cross-roads-al/decks-pergolas-fences/",
     "/service-areas/redstone-arsenal-al/decks-pergolas-fences/",
     "/blog/wood-vs-composite-decking/"
   ],
@@ -128,6 +133,7 @@
     "/service-areas/meridianville-al/roofing/",
     "/service-areas/moores-mill-al/roofing/",
     "/service-areas/new-market-al/roofing/",
+    "/service-areas/owens-cross-roads-al/roofing/",
     "/service-areas/redstone-arsenal-al/roofing/",
     "/blog/roofing-material-comparison/",
     "/blog/how-long-does-roof-replacement-take/",
@@ -144,6 +150,7 @@
     "/service-areas/meridianville-al/siding-gutters/",
     "/service-areas/moores-mill-al/siding-gutters/",
     "/service-areas/new-market-al/siding-gutters/",
+    "/service-areas/owens-cross-roads-al/siding-gutters/",
     "/service-areas/redstone-arsenal-al/siding-gutters/",
     "/blog/siding-options-compared/"
   ],
@@ -158,6 +165,7 @@
     "/service-areas/meridianville-al/painting-trim/",
     "/service-areas/moores-mill-al/painting-trim/",
     "/service-areas/new-market-al/painting-trim/",
+    "/service-areas/owens-cross-roads-al/painting-trim/",
     "/service-areas/redstone-arsenal-al/painting-trim/"
   ],
   "/services/water-damage-restoration/": [
@@ -171,6 +179,7 @@
     "/service-areas/meridianville-al/water-damage-restoration/",
     "/service-areas/moores-mill-al/water-damage-restoration/",
     "/service-areas/new-market-al/water-damage-restoration/",
+    "/service-areas/owens-cross-roads-al/water-damage-restoration/",
     "/service-areas/redstone-arsenal-al/water-damage-restoration/"
   ],
   "/services/storm-damage-restoration/": [
@@ -184,6 +193,7 @@
     "/service-areas/meridianville-al/storm-damage-restoration/",
     "/service-areas/moores-mill-al/storm-damage-restoration/",
     "/service-areas/new-market-al/storm-damage-restoration/",
+    "/service-areas/owens-cross-roads-al/storm-damage-restoration/",
     "/service-areas/redstone-arsenal-al/storm-damage-restoration/",
     "/blog/storm-damage-insurance-claim-checklist/",
     "/blog/storm-damage-repair-process/"
@@ -199,6 +209,7 @@
     "/service-areas/meridianville-al/mold-remediation/",
     "/service-areas/moores-mill-al/mold-remediation/",
     "/service-areas/new-market-al/mold-remediation/",
+    "/service-areas/owens-cross-roads-al/mold-remediation/",
     "/service-areas/redstone-arsenal-al/mold-remediation/",
     "/blog/mold-found-during-renovation/"
   ],
@@ -345,6 +356,22 @@
     "/service-areas/athens-al/",
     "/service-areas/harvest-al/",
     "/service-areas/hazel-green-al/"
+  ],
+  "/service-areas/owens-cross-roads-al/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/owens-cross-roads-al/home-remodeling/",
+    "/service-areas/owens-cross-roads-al/roofing/",
+    "/service-areas/owens-cross-roads-al/decks-pergolas-fences/",
+    "/service-areas/owens-cross-roads-al/new-construction/",
+    "/service-areas/owens-cross-roads-al/siding-gutters/",
+    "/service-areas/owens-cross-roads-al/mold-remediation/",
+    "/service-areas/owens-cross-roads-al/painting-trim/",
+    "/service-areas/owens-cross-roads-al/storm-damage-restoration/",
+    "/service-areas/owens-cross-roads-al/water-damage-restoration/",
+    "/service-areas/athens-al/",
+    "/service-areas/gurley-al/",
+    "/service-areas/harvest-al/"
   ],
   "/service-areas/huntsville-al/home-remodeling/": [
     "/services/home-remodeling/",
@@ -1073,6 +1100,87 @@
     "/service-areas/gurley-al/roofing/",
     "/service-areas/athens-al/mold-remediation/",
     "/service-areas/harvest-al/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/owens-cross-roads-al/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/owens-cross-roads-al/",
+    "/service-areas/owens-cross-roads-al/roofing/",
+    "/service-areas/owens-cross-roads-al/decks-pergolas-fences/",
+    "/service-areas/athens-al/home-remodeling/",
+    "/service-areas/gurley-al/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/owens-cross-roads-al/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/owens-cross-roads-al/",
+    "/service-areas/owens-cross-roads-al/home-remodeling/",
+    "/service-areas/owens-cross-roads-al/roofing/",
+    "/service-areas/athens-al/new-construction/",
+    "/service-areas/gurley-al/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/owens-cross-roads-al/decks-pergolas-fences/": [
+    "/services/decks-pergolas-fences/",
+    "/service-areas/owens-cross-roads-al/",
+    "/service-areas/owens-cross-roads-al/home-remodeling/",
+    "/service-areas/owens-cross-roads-al/roofing/",
+    "/service-areas/athens-al/decks-pergolas-fences/",
+    "/service-areas/gurley-al/decks-pergolas-fences/",
+    "/contact/"
+  ],
+  "/service-areas/owens-cross-roads-al/roofing/": [
+    "/services/roofing/",
+    "/service-areas/owens-cross-roads-al/",
+    "/service-areas/owens-cross-roads-al/home-remodeling/",
+    "/service-areas/owens-cross-roads-al/decks-pergolas-fences/",
+    "/service-areas/athens-al/roofing/",
+    "/service-areas/gurley-al/roofing/",
+    "/contact/"
+  ],
+  "/service-areas/owens-cross-roads-al/siding-gutters/": [
+    "/services/siding-gutters/",
+    "/service-areas/owens-cross-roads-al/",
+    "/service-areas/owens-cross-roads-al/home-remodeling/",
+    "/service-areas/owens-cross-roads-al/roofing/",
+    "/service-areas/athens-al/siding-gutters/",
+    "/service-areas/gurley-al/siding-gutters/",
+    "/contact/"
+  ],
+  "/service-areas/owens-cross-roads-al/painting-trim/": [
+    "/services/painting-trim/",
+    "/service-areas/owens-cross-roads-al/",
+    "/service-areas/owens-cross-roads-al/home-remodeling/",
+    "/service-areas/owens-cross-roads-al/roofing/",
+    "/service-areas/athens-al/painting-trim/",
+    "/service-areas/gurley-al/painting-trim/",
+    "/contact/"
+  ],
+  "/service-areas/owens-cross-roads-al/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/owens-cross-roads-al/",
+    "/service-areas/owens-cross-roads-al/home-remodeling/",
+    "/service-areas/owens-cross-roads-al/roofing/",
+    "/service-areas/athens-al/water-damage-restoration/",
+    "/service-areas/gurley-al/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/owens-cross-roads-al/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/owens-cross-roads-al/",
+    "/service-areas/owens-cross-roads-al/home-remodeling/",
+    "/service-areas/owens-cross-roads-al/roofing/",
+    "/service-areas/athens-al/storm-damage-restoration/",
+    "/service-areas/gurley-al/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/owens-cross-roads-al/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/owens-cross-roads-al/",
+    "/service-areas/owens-cross-roads-al/home-remodeling/",
+    "/service-areas/owens-cross-roads-al/roofing/",
+    "/service-areas/athens-al/mold-remediation/",
+    "/service-areas/gurley-al/mold-remediation/",
     "/contact/"
   ],
   "/blog/how-to-plan-a-home-remodel/": [

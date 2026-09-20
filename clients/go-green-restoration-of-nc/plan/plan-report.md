@@ -1,20 +1,20 @@
 # Site Plan Report — Go Green Restoration of NC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T17:29:41.796466+00:00
+- Generated: 2026-09-20T18:58:50.852628+00:00
 - Domain: `gogreenrestorationofnc.com`
 - Services selected: 8 of 65 catalog entries
-- Service areas: 15
+- Service areas: 16
 - Cross-product enabled: True
-- Total URLs: **151**
-- Total internal links: 1193 (avg 7.9 per page)
+- Total URLs: **160**
+- Total internal links: 1264 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 112 |
-| `service-area` | 14 |
+| `service-area-service` | 120 |
+| `service-area` | 15 |
 | `service-landing` | 8 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -53,6 +53,7 @@
 - `kenly-nc` — Kenly, NC
 - `clayton-nc` — Clayton, NC
 - `knightdale-nc` — Knightdale, NC
+- `wilson-s-mills-nc` — Wilson's Mills, NC
 
 ## Top 10 priority pages
 

@@ -24,13 +24,13 @@
   },
   "status": "active",
   "created_at": "2026-06-15T16:36:28.124334+00:00",
-  "updated_at": "2026-09-20T17:29:46.170209+00:00",
+  "updated_at": "2026-09-20T18:58:55.465890+00:00",
   "plan_status": "planned",
   "plan": {
     "template": "restoration",
     "template_version": "0.3.0",
-    "url_count": 419,
-    "generated_at": "2026-09-20T17:29:46.170203+00:00"
+    "url_count": 440,
+    "generated_at": "2026-09-20T18:58:55.465881+00:00"
   },
   "build": {
     "scaffolded_at": "2026-06-15T18:21:11.503890+00:00",

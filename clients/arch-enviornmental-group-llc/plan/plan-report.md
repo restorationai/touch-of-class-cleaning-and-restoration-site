@@ -1,20 +1,20 @@
 # Site Plan Report — Arch Enviornmental Group LLC
 
 - Template: `environmental` v0.1.0
-- Generated: 2026-09-20T17:29:22.582629+00:00
+- Generated: 2026-09-20T18:58:31.967366+00:00
 - Domain: `archenviroservice.com`
 - Services selected: 16 of 16 catalog entries
-- Service areas: 20
+- Service areas: 21
 - Cross-product enabled: True
-- Total URLs: **356**
-- Total internal links: 2885 (avg 8.1 per page)
+- Total URLs: **373**
+- Total internal links: 3020 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 304 |
-| `service-area` | 19 |
+| `service-area-service` | 320 |
+| `service-area` | 20 |
 | `service-landing` | 16 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -66,6 +66,7 @@
 - `orange-cove-ca` — Orange Cove, CA
 - `easton-ca` — Easton, CA
 - `riverdale-ca` — Riverdale, CA
+- `ivanhoe-ca` — Ivanhoe, CA
 
 ## Top 10 priority pages
 

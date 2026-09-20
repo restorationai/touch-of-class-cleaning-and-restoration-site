@@ -118,6 +118,11 @@
       "city": "Piru",
       "state": "CA",
       "slug": "piru-ca"
+    },
+    {
+      "city": "Hasley Canyon",
+      "state": "CA",
+      "slug": "hasley-canyon-ca"
     }
   ],
   "template": "restoration",

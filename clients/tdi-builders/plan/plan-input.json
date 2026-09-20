@@ -193,6 +193,11 @@
       "city": "Foothill Farms",
       "state": "CA",
       "slug": "foothill-farms-ca"
+    },
+    {
+      "city": "Rosemont",
+      "state": "CA",
+      "slug": "rosemont-ca"
     }
   ],
   "template": "construction",

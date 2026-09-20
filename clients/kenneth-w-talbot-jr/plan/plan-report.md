@@ -1,20 +1,20 @@
 # Site Plan Report — Veterans Remediation & Restoration 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T17:29:47.664627+00:00
+- Generated: 2026-09-20T18:58:56.821417+00:00
 - Domain: `veteransremediation.com`
 - Services selected: 5 of 65 catalog entries
-- Service areas: 17
+- Service areas: 18
 - Cross-product enabled: True
-- Total URLs: **118**
-- Total internal links: 903 (avg 7.7 per page)
+- Total URLs: **124**
+- Total internal links: 950 (avg 7.7 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 80 |
-| `service-area` | 16 |
+| `service-area-service` | 85 |
+| `service-area` | 17 |
 | `blog-post` | 8 |
 | `service-landing` | 5 |
 | `legal` | 3 |
@@ -52,6 +52,7 @@
 - `vernon-fl` — Vernon, FL
 - `wright-fl` — Wright, FL
 - `hurlburt-field-fl` — Hurlburt Field, FL
+- `paxton-fl` — Paxton, FL
 
 ## Top 10 priority pages
 

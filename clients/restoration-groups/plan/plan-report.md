@@ -1,20 +1,20 @@
 # Site Plan Report — The Restoration Group
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T17:30:03.461465+00:00
+- Generated: 2026-09-20T18:59:15.832447+00:00
 - Domain: `therestorationgroup.com`
 - Services selected: 18 of 65 catalog entries
-- Service areas: 60
+- Service areas: 61
 - Cross-product enabled: True
-- Total URLs: **1160**
-- Total internal links: 9297 (avg 8.0 per page)
+- Total URLs: **1179**
+- Total internal links: 9448 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 1062 |
-| `service-area` | 59 |
+| `service-area-service` | 1080 |
+| `service-area` | 60 |
 | `service-landing` | 18 |
 | `blog-post` | 12 |
 | `legal` | 3 |
@@ -108,6 +108,7 @@
 - `avenel-nj` — Avenel, NJ
 - `chatham-nj` — Chatham, NJ
 - `watchung-nj` — Watchung, NJ
+- `carteret-nj` — Carteret, NJ
 
 ## Top 10 priority pages
 

@@ -1,20 +1,20 @@
 # Site Plan Report — California Restoration West 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T17:29:25.787197+00:00
+- Generated: 2026-09-20T18:58:35.046901+00:00
 - Domain: `californiarestorationwest.com`
 - Services selected: 6 of 65 catalog entries
-- Service areas: 16
+- Service areas: 17
 - Cross-product enabled: True
-- Total URLs: **128**
-- Total internal links: 989 (avg 7.7 per page)
+- Total URLs: **135**
+- Total internal links: 1044 (avg 7.7 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 90 |
-| `service-area` | 15 |
+| `service-area-service` | 96 |
+| `service-area` | 16 |
 | `blog-post` | 8 |
 | `service-landing` | 6 |
 | `legal` | 3 |
@@ -52,6 +52,7 @@
 - `moorpark-ca` — Moorpark, CA
 - `santa-rosa-valley-ca` — Santa Rosa Valley, CA
 - `piru-ca` — Piru, CA
+- `hasley-canyon-ca` — Hasley Canyon, CA
 
 ## Top 10 priority pages
 
@@ -65,8 +66,8 @@
 | `/service-areas/camarillo-ca/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration camarillo |
 | `/service-areas/fillmore-ca/mold-remediation/` | `service-area-service` | 7.0 | mold remediation fillmore |
 | `/service-areas/fillmore-ca/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration fillmore |
-| `/service-areas/mira-monte-ca/mold-remediation/` | `service-area-service` | 7.0 | mold remediation mira monte |
-| `/service-areas/mira-monte-ca/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration mira monte |
+| `/service-areas/hasley-canyon-ca/mold-remediation/` | `service-area-service` | 7.0 | mold remediation hasley canyon |
+| `/service-areas/hasley-canyon-ca/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration hasley canyon |
 
 ## Validation
 

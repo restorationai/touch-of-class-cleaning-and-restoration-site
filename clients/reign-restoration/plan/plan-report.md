@@ -1,20 +1,20 @@
 # Site Plan Report — Reign Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T17:30:01.353038+00:00
+- Generated: 2026-09-20T18:59:13.889625+00:00
 - Domain: `reign-restoration.com`
 - Services selected: 7 of 65 catalog entries
-- Service areas: 24
+- Service areas: 25
 - Cross-product enabled: True
-- Total URLs: **208**
-- Total internal links: 1632 (avg 7.8 per page)
+- Total URLs: **216**
+- Total internal links: 1695 (avg 7.8 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 161 |
-| `service-area` | 23 |
+| `service-area-service` | 168 |
+| `service-area` | 24 |
 | `blog-post` | 8 |
 | `service-landing` | 7 |
 | `legal` | 3 |
@@ -61,6 +61,7 @@
 - `mclendon-chisholm-tx` — McLendon-Chisholm, TX
 - `caddo-mills-tx` — Caddo Mills, TX
 - `poetry-tx` — Poetry, TX
+- `heath-tx` — Heath, TX
 
 ## Top 10 priority pages
 

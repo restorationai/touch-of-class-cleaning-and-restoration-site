@@ -28,6 +28,7 @@
     "/services/garbage-disposal/",
     "/service-areas/arvin-ca/",
     "/service-areas/bear-valley-springs-ca/",
+    "/service-areas/buttonwillow-ca/",
     "/service-areas/delano-ca/",
     "/service-areas/dustin-acres-ca/",
     "/service-areas/east-niles-ca/",
@@ -69,6 +70,7 @@
     "/",
     "/service-areas/arvin-ca/",
     "/service-areas/bear-valley-springs-ca/",
+    "/service-areas/buttonwillow-ca/",
     "/service-areas/delano-ca/",
     "/service-areas/dustin-acres-ca/",
     "/service-areas/east-niles-ca/",
@@ -111,6 +113,7 @@
     "/contact/",
     "/service-areas/arvin-ca/emergency-plumbing/",
     "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
+    "/service-areas/buttonwillow-ca/emergency-plumbing/",
     "/service-areas/delano-ca/emergency-plumbing/",
     "/service-areas/dustin-acres-ca/emergency-plumbing/",
     "/service-areas/east-niles-ca/emergency-plumbing/",
@@ -120,7 +123,6 @@
     "/service-areas/shafter-ca/emergency-plumbing/",
     "/service-areas/taft-ca/emergency-plumbing/",
     "/service-areas/tarina-ca/emergency-plumbing/",
-    "/service-areas/tehachapi-ca/emergency-plumbing/",
     "/blog/what-to-do-burst-pipe/"
   ],
   "/services/burst-pipe-repair/": [
@@ -128,6 +130,7 @@
     "/contact/",
     "/service-areas/arvin-ca/burst-pipe-repair/",
     "/service-areas/bear-valley-springs-ca/burst-pipe-repair/",
+    "/service-areas/buttonwillow-ca/burst-pipe-repair/",
     "/service-areas/delano-ca/burst-pipe-repair/",
     "/service-areas/dustin-acres-ca/burst-pipe-repair/",
     "/service-areas/east-niles-ca/burst-pipe-repair/",
@@ -137,7 +140,6 @@
     "/service-areas/shafter-ca/burst-pipe-repair/",
     "/service-areas/taft-ca/burst-pipe-repair/",
     "/service-areas/tarina-ca/burst-pipe-repair/",
-    "/service-areas/tehachapi-ca/burst-pipe-repair/",
     "/blog/what-to-do-burst-pipe/"
   ],
   "/services/drain-cleaning/": [
@@ -145,6 +147,7 @@
     "/contact/",
     "/service-areas/arvin-ca/drain-cleaning/",
     "/service-areas/bear-valley-springs-ca/drain-cleaning/",
+    "/service-areas/buttonwillow-ca/drain-cleaning/",
     "/service-areas/delano-ca/drain-cleaning/",
     "/service-areas/dustin-acres-ca/drain-cleaning/",
     "/service-areas/east-niles-ca/drain-cleaning/",
@@ -154,7 +157,6 @@
     "/service-areas/shafter-ca/drain-cleaning/",
     "/service-areas/taft-ca/drain-cleaning/",
     "/service-areas/tarina-ca/drain-cleaning/",
-    "/service-areas/tehachapi-ca/drain-cleaning/",
     "/blog/drain-cleaning-diy-vs-pro/",
     "/blog/hydro-jetting-vs-snaking/"
   ],
@@ -163,6 +165,7 @@
     "/contact/",
     "/service-areas/arvin-ca/sewer-line-repair/",
     "/service-areas/bear-valley-springs-ca/sewer-line-repair/",
+    "/service-areas/buttonwillow-ca/sewer-line-repair/",
     "/service-areas/delano-ca/sewer-line-repair/",
     "/service-areas/dustin-acres-ca/sewer-line-repair/",
     "/service-areas/east-niles-ca/sewer-line-repair/",
@@ -172,7 +175,6 @@
     "/service-areas/shafter-ca/sewer-line-repair/",
     "/service-areas/taft-ca/sewer-line-repair/",
     "/service-areas/tarina-ca/sewer-line-repair/",
-    "/service-areas/tehachapi-ca/sewer-line-repair/",
     "/blog/hydro-jetting-vs-snaking/",
     "/blog/trenchless-sewer-repair-explained/"
   ],
@@ -181,6 +183,7 @@
     "/contact/",
     "/service-areas/arvin-ca/water-heater-repair/",
     "/service-areas/bear-valley-springs-ca/water-heater-repair/",
+    "/service-areas/buttonwillow-ca/water-heater-repair/",
     "/service-areas/delano-ca/water-heater-repair/",
     "/service-areas/dustin-acres-ca/water-heater-repair/",
     "/service-areas/east-niles-ca/water-heater-repair/",
@@ -190,7 +193,6 @@
     "/service-areas/shafter-ca/water-heater-repair/",
     "/service-areas/taft-ca/water-heater-repair/",
     "/service-areas/tarina-ca/water-heater-repair/",
-    "/service-areas/tehachapi-ca/water-heater-repair/",
     "/blog/water-heater-lifespan-repair-or-replace/"
   ],
   "/services/water-heater-installation/": [
@@ -198,6 +200,7 @@
     "/contact/",
     "/service-areas/arvin-ca/water-heater-installation/",
     "/service-areas/bear-valley-springs-ca/water-heater-installation/",
+    "/service-areas/buttonwillow-ca/water-heater-installation/",
     "/service-areas/delano-ca/water-heater-installation/",
     "/service-areas/dustin-acres-ca/water-heater-installation/",
     "/service-areas/east-niles-ca/water-heater-installation/",
@@ -207,7 +210,6 @@
     "/service-areas/shafter-ca/water-heater-installation/",
     "/service-areas/taft-ca/water-heater-installation/",
     "/service-areas/tarina-ca/water-heater-installation/",
-    "/service-areas/tehachapi-ca/water-heater-installation/",
     "/blog/tankless-vs-tank-water-heater/",
     "/blog/water-heater-lifespan-repair-or-replace/"
   ],
@@ -216,6 +218,7 @@
     "/contact/",
     "/service-areas/arvin-ca/leak-detection/",
     "/service-areas/bear-valley-springs-ca/leak-detection/",
+    "/service-areas/buttonwillow-ca/leak-detection/",
     "/service-areas/delano-ca/leak-detection/",
     "/service-areas/dustin-acres-ca/leak-detection/",
     "/service-areas/east-niles-ca/leak-detection/",
@@ -225,7 +228,6 @@
     "/service-areas/shafter-ca/leak-detection/",
     "/service-areas/taft-ca/leak-detection/",
     "/service-areas/tarina-ca/leak-detection/",
-    "/service-areas/tehachapi-ca/leak-detection/",
     "/blog/low-water-pressure-causes/",
     "/blog/signs-of-a-slab-leak/"
   ],
@@ -234,6 +236,7 @@
     "/contact/",
     "/service-areas/arvin-ca/slab-leak-repair/",
     "/service-areas/bear-valley-springs-ca/slab-leak-repair/",
+    "/service-areas/buttonwillow-ca/slab-leak-repair/",
     "/service-areas/delano-ca/slab-leak-repair/",
     "/service-areas/dustin-acres-ca/slab-leak-repair/",
     "/service-areas/east-niles-ca/slab-leak-repair/",
@@ -243,7 +246,6 @@
     "/service-areas/shafter-ca/slab-leak-repair/",
     "/service-areas/taft-ca/slab-leak-repair/",
     "/service-areas/tarina-ca/slab-leak-repair/",
-    "/service-areas/tehachapi-ca/slab-leak-repair/",
     "/blog/signs-of-a-slab-leak/"
   ],
   "/services/repiping/": [
@@ -251,6 +253,7 @@
     "/contact/",
     "/service-areas/arvin-ca/repiping/",
     "/service-areas/bear-valley-springs-ca/repiping/",
+    "/service-areas/buttonwillow-ca/repiping/",
     "/service-areas/delano-ca/repiping/",
     "/service-areas/dustin-acres-ca/repiping/",
     "/service-areas/east-niles-ca/repiping/",
@@ -260,7 +263,6 @@
     "/service-areas/shafter-ca/repiping/",
     "/service-areas/taft-ca/repiping/",
     "/service-areas/tarina-ca/repiping/",
-    "/service-areas/tehachapi-ca/repiping/",
     "/blog/low-water-pressure-causes/"
   ],
   "/services/gas-line-services/": [
@@ -268,6 +270,7 @@
     "/contact/",
     "/service-areas/arvin-ca/gas-line-services/",
     "/service-areas/bear-valley-springs-ca/gas-line-services/",
+    "/service-areas/buttonwillow-ca/gas-line-services/",
     "/service-areas/delano-ca/gas-line-services/",
     "/service-areas/dustin-acres-ca/gas-line-services/",
     "/service-areas/east-niles-ca/gas-line-services/",
@@ -277,7 +280,6 @@
     "/service-areas/shafter-ca/gas-line-services/",
     "/service-areas/taft-ca/gas-line-services/",
     "/service-areas/tarina-ca/gas-line-services/",
-    "/service-areas/tehachapi-ca/gas-line-services/",
     "/blog/gas-leak-what-to-do/"
   ],
   "/services/sump-pumps/": [
@@ -285,6 +287,7 @@
     "/contact/",
     "/service-areas/arvin-ca/sump-pumps/",
     "/service-areas/bear-valley-springs-ca/sump-pumps/",
+    "/service-areas/buttonwillow-ca/sump-pumps/",
     "/service-areas/delano-ca/sump-pumps/",
     "/service-areas/dustin-acres-ca/sump-pumps/",
     "/service-areas/east-niles-ca/sump-pumps/",
@@ -293,14 +296,14 @@
     "/service-areas/rosedale-ca/sump-pumps/",
     "/service-areas/shafter-ca/sump-pumps/",
     "/service-areas/taft-ca/sump-pumps/",
-    "/service-areas/tarina-ca/sump-pumps/",
-    "/service-areas/tehachapi-ca/sump-pumps/"
+    "/service-areas/tarina-ca/sump-pumps/"
   ],
   "/services/water-softeners-filtration/": [
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/water-softeners-filtration/",
     "/service-areas/bear-valley-springs-ca/water-softeners-filtration/",
+    "/service-areas/buttonwillow-ca/water-softeners-filtration/",
     "/service-areas/delano-ca/water-softeners-filtration/",
     "/service-areas/dustin-acres-ca/water-softeners-filtration/",
     "/service-areas/east-niles-ca/water-softeners-filtration/",
@@ -309,14 +312,14 @@
     "/service-areas/rosedale-ca/water-softeners-filtration/",
     "/service-areas/shafter-ca/water-softeners-filtration/",
     "/service-areas/taft-ca/water-softeners-filtration/",
-    "/service-areas/tarina-ca/water-softeners-filtration/",
-    "/service-areas/tehachapi-ca/water-softeners-filtration/"
+    "/service-areas/tarina-ca/water-softeners-filtration/"
   ],
   "/services/toilet-faucet-repair/": [
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/toilet-faucet-repair/",
     "/service-areas/bear-valley-springs-ca/toilet-faucet-repair/",
+    "/service-areas/buttonwillow-ca/toilet-faucet-repair/",
     "/service-areas/delano-ca/toilet-faucet-repair/",
     "/service-areas/dustin-acres-ca/toilet-faucet-repair/",
     "/service-areas/east-niles-ca/toilet-faucet-repair/",
@@ -325,14 +328,14 @@
     "/service-areas/rosedale-ca/toilet-faucet-repair/",
     "/service-areas/shafter-ca/toilet-faucet-repair/",
     "/service-areas/taft-ca/toilet-faucet-repair/",
-    "/service-areas/tarina-ca/toilet-faucet-repair/",
-    "/service-areas/tehachapi-ca/toilet-faucet-repair/"
+    "/service-areas/tarina-ca/toilet-faucet-repair/"
   ],
   "/services/garbage-disposal/": [
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/garbage-disposal/",
     "/service-areas/bear-valley-springs-ca/garbage-disposal/",
+    "/service-areas/buttonwillow-ca/garbage-disposal/",
     "/service-areas/delano-ca/garbage-disposal/",
     "/service-areas/dustin-acres-ca/garbage-disposal/",
     "/service-areas/east-niles-ca/garbage-disposal/",
@@ -341,14 +344,14 @@
     "/service-areas/rosedale-ca/garbage-disposal/",
     "/service-areas/shafter-ca/garbage-disposal/",
     "/service-areas/taft-ca/garbage-disposal/",
-    "/service-areas/tarina-ca/garbage-disposal/",
-    "/service-areas/tehachapi-ca/garbage-disposal/"
+    "/service-areas/tarina-ca/garbage-disposal/"
   ],
   "/services/furnace-repair/": [
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/furnace-repair/",
     "/service-areas/bear-valley-springs-ca/furnace-repair/",
+    "/service-areas/buttonwillow-ca/furnace-repair/",
     "/service-areas/delano-ca/furnace-repair/",
     "/service-areas/dustin-acres-ca/furnace-repair/",
     "/service-areas/east-niles-ca/furnace-repair/",
@@ -358,7 +361,6 @@
     "/service-areas/shafter-ca/furnace-repair/",
     "/service-areas/taft-ca/furnace-repair/",
     "/service-areas/tarina-ca/furnace-repair/",
-    "/service-areas/tehachapi-ca/furnace-repair/",
     "/blog/furnace-repair-or-replace/"
   ],
   "/services/furnace-installation/": [
@@ -366,6 +368,7 @@
     "/contact/",
     "/service-areas/arvin-ca/furnace-installation/",
     "/service-areas/bear-valley-springs-ca/furnace-installation/",
+    "/service-areas/buttonwillow-ca/furnace-installation/",
     "/service-areas/delano-ca/furnace-installation/",
     "/service-areas/dustin-acres-ca/furnace-installation/",
     "/service-areas/east-niles-ca/furnace-installation/",
@@ -375,7 +378,6 @@
     "/service-areas/shafter-ca/furnace-installation/",
     "/service-areas/taft-ca/furnace-installation/",
     "/service-areas/tarina-ca/furnace-installation/",
-    "/service-areas/tehachapi-ca/furnace-installation/",
     "/blog/furnace-repair-or-replace/",
     "/blog/heat-pump-vs-furnace/"
   ],
@@ -384,6 +386,7 @@
     "/contact/",
     "/service-areas/arvin-ca/heat-pump-services/",
     "/service-areas/bear-valley-springs-ca/heat-pump-services/",
+    "/service-areas/buttonwillow-ca/heat-pump-services/",
     "/service-areas/delano-ca/heat-pump-services/",
     "/service-areas/dustin-acres-ca/heat-pump-services/",
     "/service-areas/east-niles-ca/heat-pump-services/",
@@ -393,7 +396,6 @@
     "/service-areas/shafter-ca/heat-pump-services/",
     "/service-areas/taft-ca/heat-pump-services/",
     "/service-areas/tarina-ca/heat-pump-services/",
-    "/service-areas/tehachapi-ca/heat-pump-services/",
     "/blog/heat-pump-vs-furnace/"
   ],
   "/services/ac-repair/": [
@@ -401,6 +403,7 @@
     "/contact/",
     "/service-areas/arvin-ca/ac-repair/",
     "/service-areas/bear-valley-springs-ca/ac-repair/",
+    "/service-areas/buttonwillow-ca/ac-repair/",
     "/service-areas/delano-ca/ac-repair/",
     "/service-areas/dustin-acres-ca/ac-repair/",
     "/service-areas/east-niles-ca/ac-repair/",
@@ -409,14 +412,14 @@
     "/service-areas/rosedale-ca/ac-repair/",
     "/service-areas/shafter-ca/ac-repair/",
     "/service-areas/taft-ca/ac-repair/",
-    "/service-areas/tarina-ca/ac-repair/",
-    "/service-areas/tehachapi-ca/ac-repair/"
+    "/service-areas/tarina-ca/ac-repair/"
   ],
   "/services/ac-installation/": [
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/ac-installation/",
     "/service-areas/bear-valley-springs-ca/ac-installation/",
+    "/service-areas/buttonwillow-ca/ac-installation/",
     "/service-areas/delano-ca/ac-installation/",
     "/service-areas/dustin-acres-ca/ac-installation/",
     "/service-areas/east-niles-ca/ac-installation/",
@@ -426,7 +429,6 @@
     "/service-areas/shafter-ca/ac-installation/",
     "/service-areas/taft-ca/ac-installation/",
     "/service-areas/tarina-ca/ac-installation/",
-    "/service-areas/tehachapi-ca/ac-installation/",
     "/blog/how-much-does-a-new-ac-cost/"
   ],
   "/services/ductless-mini-splits/": [
@@ -434,6 +436,7 @@
     "/contact/",
     "/service-areas/arvin-ca/ductless-mini-splits/",
     "/service-areas/bear-valley-springs-ca/ductless-mini-splits/",
+    "/service-areas/buttonwillow-ca/ductless-mini-splits/",
     "/service-areas/delano-ca/ductless-mini-splits/",
     "/service-areas/dustin-acres-ca/ductless-mini-splits/",
     "/service-areas/east-niles-ca/ductless-mini-splits/",
@@ -442,14 +445,14 @@
     "/service-areas/rosedale-ca/ductless-mini-splits/",
     "/service-areas/shafter-ca/ductless-mini-splits/",
     "/service-areas/taft-ca/ductless-mini-splits/",
-    "/service-areas/tarina-ca/ductless-mini-splits/",
-    "/service-areas/tehachapi-ca/ductless-mini-splits/"
+    "/service-areas/tarina-ca/ductless-mini-splits/"
   ],
   "/services/ductwork/": [
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/ductwork/",
     "/service-areas/bear-valley-springs-ca/ductwork/",
+    "/service-areas/buttonwillow-ca/ductwork/",
     "/service-areas/delano-ca/ductwork/",
     "/service-areas/dustin-acres-ca/ductwork/",
     "/service-areas/east-niles-ca/ductwork/",
@@ -458,14 +461,14 @@
     "/service-areas/rosedale-ca/ductwork/",
     "/service-areas/shafter-ca/ductwork/",
     "/service-areas/taft-ca/ductwork/",
-    "/service-areas/tarina-ca/ductwork/",
-    "/service-areas/tehachapi-ca/ductwork/"
+    "/service-areas/tarina-ca/ductwork/"
   ],
   "/services/indoor-air-quality/": [
     "/services/",
     "/contact/",
     "/service-areas/arvin-ca/indoor-air-quality/",
     "/service-areas/bear-valley-springs-ca/indoor-air-quality/",
+    "/service-areas/buttonwillow-ca/indoor-air-quality/",
     "/service-areas/delano-ca/indoor-air-quality/",
     "/service-areas/dustin-acres-ca/indoor-air-quality/",
     "/service-areas/east-niles-ca/indoor-air-quality/",
@@ -474,8 +477,7 @@
     "/service-areas/rosedale-ca/indoor-air-quality/",
     "/service-areas/shafter-ca/indoor-air-quality/",
     "/service-areas/taft-ca/indoor-air-quality/",
-    "/service-areas/tarina-ca/indoor-air-quality/",
-    "/service-areas/tehachapi-ca/indoor-air-quality/"
+    "/service-areas/tarina-ca/indoor-air-quality/"
   ],
   "/service-areas/oildale-ca/": [
     "/service-areas/",
@@ -504,7 +506,7 @@
     "/service-areas/oildale-ca/garbage-disposal/",
     "/service-areas/arvin-ca/",
     "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/delano-ca/"
+    "/service-areas/buttonwillow-ca/"
   ],
   "/service-areas/rosedale-ca/": [
     "/service-areas/",
@@ -533,7 +535,7 @@
     "/service-areas/rosedale-ca/garbage-disposal/",
     "/service-areas/arvin-ca/",
     "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/delano-ca/"
+    "/service-areas/buttonwillow-ca/"
   ],
   "/service-areas/shafter-ca/": [
     "/service-areas/",
@@ -562,7 +564,7 @@
     "/service-areas/shafter-ca/garbage-disposal/",
     "/service-areas/arvin-ca/",
     "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/delano-ca/"
+    "/service-areas/buttonwillow-ca/"
   ],
   "/service-areas/delano-ca/": [
     "/service-areas/",
@@ -591,7 +593,7 @@
     "/service-areas/delano-ca/garbage-disposal/",
     "/service-areas/arvin-ca/",
     "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/dustin-acres-ca/"
+    "/service-areas/buttonwillow-ca/"
   ],
   "/service-areas/taft-ca/": [
     "/service-areas/",
@@ -620,7 +622,7 @@
     "/service-areas/taft-ca/garbage-disposal/",
     "/service-areas/arvin-ca/",
     "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/delano-ca/"
+    "/service-areas/buttonwillow-ca/"
   ],
   "/service-areas/tehachapi-ca/": [
     "/service-areas/",
@@ -649,7 +651,7 @@
     "/service-areas/tehachapi-ca/garbage-disposal/",
     "/service-areas/arvin-ca/",
     "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/delano-ca/"
+    "/service-areas/buttonwillow-ca/"
   ],
   "/service-areas/east-niles-ca/": [
     "/service-areas/",
@@ -678,7 +680,7 @@
     "/service-areas/east-niles-ca/garbage-disposal/",
     "/service-areas/arvin-ca/",
     "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/delano-ca/"
+    "/service-areas/buttonwillow-ca/"
   ],
   "/service-areas/lamont-ca/": [
     "/service-areas/",
@@ -707,7 +709,7 @@
     "/service-areas/lamont-ca/garbage-disposal/",
     "/service-areas/arvin-ca/",
     "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/delano-ca/"
+    "/service-areas/buttonwillow-ca/"
   ],
   "/service-areas/tarina-ca/": [
     "/service-areas/",
@@ -736,7 +738,7 @@
     "/service-areas/tarina-ca/garbage-disposal/",
     "/service-areas/arvin-ca/",
     "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/delano-ca/"
+    "/service-areas/buttonwillow-ca/"
   ],
   "/service-areas/weedpatch-ca/": [
     "/service-areas/",
@@ -765,7 +767,7 @@
     "/service-areas/weedpatch-ca/garbage-disposal/",
     "/service-areas/arvin-ca/",
     "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/delano-ca/"
+    "/service-areas/buttonwillow-ca/"
   ],
   "/service-areas/arvin-ca/": [
     "/service-areas/",
@@ -793,8 +795,8 @@
     "/service-areas/arvin-ca/water-softeners-filtration/",
     "/service-areas/arvin-ca/garbage-disposal/",
     "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/delano-ca/",
-    "/service-areas/dustin-acres-ca/"
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/delano-ca/"
   ],
   "/service-areas/dustin-acres-ca/": [
     "/service-areas/",
@@ -823,7 +825,7 @@
     "/service-areas/dustin-acres-ca/garbage-disposal/",
     "/service-areas/arvin-ca/",
     "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/delano-ca/"
+    "/service-areas/buttonwillow-ca/"
   ],
   "/service-areas/bear-valley-springs-ca/": [
     "/service-areas/",
@@ -851,8 +853,37 @@
     "/service-areas/bear-valley-springs-ca/water-softeners-filtration/",
     "/service-areas/bear-valley-springs-ca/garbage-disposal/",
     "/service-areas/arvin-ca/",
-    "/service-areas/delano-ca/",
-    "/service-areas/dustin-acres-ca/"
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/delano-ca/"
+  ],
+  "/service-areas/buttonwillow-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/buttonwillow-ca/ac-repair/",
+    "/service-areas/buttonwillow-ca/drain-cleaning/",
+    "/service-areas/buttonwillow-ca/emergency-plumbing/",
+    "/service-areas/buttonwillow-ca/water-heater-repair/",
+    "/service-areas/buttonwillow-ca/ac-installation/",
+    "/service-areas/buttonwillow-ca/burst-pipe-repair/",
+    "/service-areas/buttonwillow-ca/furnace-repair/",
+    "/service-areas/buttonwillow-ca/sewer-line-repair/",
+    "/service-areas/buttonwillow-ca/water-heater-installation/",
+    "/service-areas/buttonwillow-ca/furnace-installation/",
+    "/service-areas/buttonwillow-ca/gas-line-services/",
+    "/service-areas/buttonwillow-ca/ductless-mini-splits/",
+    "/service-areas/buttonwillow-ca/heat-pump-services/",
+    "/service-areas/buttonwillow-ca/leak-detection/",
+    "/service-areas/buttonwillow-ca/repiping/",
+    "/service-areas/buttonwillow-ca/slab-leak-repair/",
+    "/service-areas/buttonwillow-ca/toilet-faucet-repair/",
+    "/service-areas/buttonwillow-ca/ductwork/",
+    "/service-areas/buttonwillow-ca/indoor-air-quality/",
+    "/service-areas/buttonwillow-ca/sump-pumps/",
+    "/service-areas/buttonwillow-ca/water-softeners-filtration/",
+    "/service-areas/buttonwillow-ca/garbage-disposal/",
+    "/service-areas/arvin-ca/",
+    "/service-areas/bear-valley-springs-ca/",
+    "/service-areas/delano-ca/"
   ],
   "/service-areas/oildale-ca/emergency-plumbing/": [
     "/services/emergency-plumbing/",
@@ -2840,7 +2871,7 @@
     "/service-areas/arvin-ca/ac-repair/",
     "/service-areas/arvin-ca/drain-cleaning/",
     "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
-    "/service-areas/delano-ca/emergency-plumbing/",
+    "/service-areas/buttonwillow-ca/emergency-plumbing/",
     "/contact/"
   ],
   "/service-areas/arvin-ca/burst-pipe-repair/": [
@@ -2849,7 +2880,7 @@
     "/service-areas/arvin-ca/ac-repair/",
     "/service-areas/arvin-ca/drain-cleaning/",
     "/service-areas/bear-valley-springs-ca/burst-pipe-repair/",
-    "/service-areas/delano-ca/burst-pipe-repair/",
+    "/service-areas/buttonwillow-ca/burst-pipe-repair/",
     "/contact/"
   ],
   "/service-areas/arvin-ca/drain-cleaning/": [
@@ -2858,7 +2889,7 @@
     "/service-areas/arvin-ca/ac-repair/",
     "/service-areas/arvin-ca/emergency-plumbing/",
     "/service-areas/bear-valley-springs-ca/drain-cleaning/",
-    "/service-areas/delano-ca/drain-cleaning/",
+    "/service-areas/buttonwillow-ca/drain-cleaning/",
     "/contact/"
   ],
   "/service-areas/arvin-ca/sewer-line-repair/": [
@@ -2867,7 +2898,7 @@
     "/service-areas/arvin-ca/ac-repair/",
     "/service-areas/arvin-ca/drain-cleaning/",
     "/service-areas/bear-valley-springs-ca/sewer-line-repair/",
-    "/service-areas/delano-ca/sewer-line-repair/",
+    "/service-areas/buttonwillow-ca/sewer-line-repair/",
     "/contact/"
   ],
   "/service-areas/arvin-ca/water-heater-repair/": [
@@ -2876,7 +2907,7 @@
     "/service-areas/arvin-ca/ac-repair/",
     "/service-areas/arvin-ca/drain-cleaning/",
     "/service-areas/bear-valley-springs-ca/water-heater-repair/",
-    "/service-areas/delano-ca/water-heater-repair/",
+    "/service-areas/buttonwillow-ca/water-heater-repair/",
     "/contact/"
   ],
   "/service-areas/arvin-ca/water-heater-installation/": [
@@ -2885,7 +2916,7 @@
     "/service-areas/arvin-ca/ac-repair/",
     "/service-areas/arvin-ca/drain-cleaning/",
     "/service-areas/bear-valley-springs-ca/water-heater-installation/",
-    "/service-areas/delano-ca/water-heater-installation/",
+    "/service-areas/buttonwillow-ca/water-heater-installation/",
     "/contact/"
   ],
   "/service-areas/arvin-ca/leak-detection/": [
@@ -2894,7 +2925,7 @@
     "/service-areas/arvin-ca/ac-repair/",
     "/service-areas/arvin-ca/drain-cleaning/",
     "/service-areas/bear-valley-springs-ca/leak-detection/",
-    "/service-areas/delano-ca/leak-detection/",
+    "/service-areas/buttonwillow-ca/leak-detection/",
     "/contact/"
   ],
   "/service-areas/arvin-ca/slab-leak-repair/": [
@@ -2903,7 +2934,7 @@
     "/service-areas/arvin-ca/ac-repair/",
     "/service-areas/arvin-ca/drain-cleaning/",
     "/service-areas/bear-valley-springs-ca/slab-leak-repair/",
-    "/service-areas/delano-ca/slab-leak-repair/",
+    "/service-areas/buttonwillow-ca/slab-leak-repair/",
     "/contact/"
   ],
   "/service-areas/arvin-ca/repiping/": [
@@ -2912,7 +2943,7 @@
     "/service-areas/arvin-ca/ac-repair/",
     "/service-areas/arvin-ca/drain-cleaning/",
     "/service-areas/bear-valley-springs-ca/repiping/",
-    "/service-areas/delano-ca/repiping/",
+    "/service-areas/buttonwillow-ca/repiping/",
     "/contact/"
   ],
   "/service-areas/arvin-ca/gas-line-services/": [
@@ -2921,7 +2952,7 @@
     "/service-areas/arvin-ca/ac-repair/",
     "/service-areas/arvin-ca/drain-cleaning/",
     "/service-areas/bear-valley-springs-ca/gas-line-services/",
-    "/service-areas/delano-ca/gas-line-services/",
+    "/service-areas/buttonwillow-ca/gas-line-services/",
     "/contact/"
   ],
   "/service-areas/arvin-ca/sump-pumps/": [
@@ -2930,7 +2961,7 @@
     "/service-areas/arvin-ca/ac-repair/",
     "/service-areas/arvin-ca/drain-cleaning/",
     "/service-areas/bear-valley-springs-ca/sump-pumps/",
-    "/service-areas/delano-ca/sump-pumps/",
+    "/service-areas/buttonwillow-ca/sump-pumps/",
     "/contact/"
   ],
   "/service-areas/arvin-ca/water-softeners-filtration/": [
@@ -2939,7 +2970,7 @@
     "/service-areas/arvin-ca/ac-repair/",
     "/service-areas/arvin-ca/drain-cleaning/",
     "/service-areas/bear-valley-springs-ca/water-softeners-filtration/",
-    "/service-areas/delano-ca/water-softeners-filtration/",
+    "/service-areas/buttonwillow-ca/water-softeners-filtration/",
     "/contact/"
   ],
   "/service-areas/arvin-ca/toilet-faucet-repair/": [
@@ -2948,7 +2979,7 @@
     "/service-areas/arvin-ca/ac-repair/",
     "/service-areas/arvin-ca/drain-cleaning/",
     "/service-areas/bear-valley-springs-ca/toilet-faucet-repair/",
-    "/service-areas/delano-ca/toilet-faucet-repair/",
+    "/service-areas/buttonwillow-ca/toilet-faucet-repair/",
     "/contact/"
   ],
   "/service-areas/arvin-ca/garbage-disposal/": [
@@ -2957,7 +2988,7 @@
     "/service-areas/arvin-ca/ac-repair/",
     "/service-areas/arvin-ca/drain-cleaning/",
     "/service-areas/bear-valley-springs-ca/garbage-disposal/",
-    "/service-areas/delano-ca/garbage-disposal/",
+    "/service-areas/buttonwillow-ca/garbage-disposal/",
     "/contact/"
   ],
   "/service-areas/arvin-ca/furnace-repair/": [
@@ -2966,7 +2997,7 @@
     "/service-areas/arvin-ca/ac-repair/",
     "/service-areas/arvin-ca/drain-cleaning/",
     "/service-areas/bear-valley-springs-ca/furnace-repair/",
-    "/service-areas/delano-ca/furnace-repair/",
+    "/service-areas/buttonwillow-ca/furnace-repair/",
     "/contact/"
   ],
   "/service-areas/arvin-ca/furnace-installation/": [
@@ -2975,7 +3006,7 @@
     "/service-areas/arvin-ca/ac-repair/",
     "/service-areas/arvin-ca/drain-cleaning/",
     "/service-areas/bear-valley-springs-ca/furnace-installation/",
-    "/service-areas/delano-ca/furnace-installation/",
+    "/service-areas/buttonwillow-ca/furnace-installation/",
     "/contact/"
   ],
   "/service-areas/arvin-ca/heat-pump-services/": [
@@ -2984,7 +3015,7 @@
     "/service-areas/arvin-ca/ac-repair/",
     "/service-areas/arvin-ca/drain-cleaning/",
     "/service-areas/bear-valley-springs-ca/heat-pump-services/",
-    "/service-areas/delano-ca/heat-pump-services/",
+    "/service-areas/buttonwillow-ca/heat-pump-services/",
     "/contact/"
   ],
   "/service-areas/arvin-ca/ac-repair/": [
@@ -2993,7 +3024,7 @@
     "/service-areas/arvin-ca/drain-cleaning/",
     "/service-areas/arvin-ca/emergency-plumbing/",
     "/service-areas/bear-valley-springs-ca/ac-repair/",
-    "/service-areas/delano-ca/ac-repair/",
+    "/service-areas/buttonwillow-ca/ac-repair/",
     "/contact/"
   ],
   "/service-areas/arvin-ca/ac-installation/": [
@@ -3002,7 +3033,7 @@
     "/service-areas/arvin-ca/ac-repair/",
     "/service-areas/arvin-ca/drain-cleaning/",
     "/service-areas/bear-valley-springs-ca/ac-installation/",
-    "/service-areas/delano-ca/ac-installation/",
+    "/service-areas/buttonwillow-ca/ac-installation/",
     "/contact/"
   ],
   "/service-areas/arvin-ca/ductless-mini-splits/": [
@@ -3011,7 +3042,7 @@
     "/service-areas/arvin-ca/ac-repair/",
     "/service-areas/arvin-ca/drain-cleaning/",
     "/service-areas/bear-valley-springs-ca/ductless-mini-splits/",
-    "/service-areas/delano-ca/ductless-mini-splits/",
+    "/service-areas/buttonwillow-ca/ductless-mini-splits/",
     "/contact/"
   ],
   "/service-areas/arvin-ca/ductwork/": [
@@ -3020,7 +3051,7 @@
     "/service-areas/arvin-ca/ac-repair/",
     "/service-areas/arvin-ca/drain-cleaning/",
     "/service-areas/bear-valley-springs-ca/ductwork/",
-    "/service-areas/delano-ca/ductwork/",
+    "/service-areas/buttonwillow-ca/ductwork/",
     "/contact/"
   ],
   "/service-areas/arvin-ca/indoor-air-quality/": [
@@ -3029,7 +3060,7 @@
     "/service-areas/arvin-ca/ac-repair/",
     "/service-areas/arvin-ca/drain-cleaning/",
     "/service-areas/bear-valley-springs-ca/indoor-air-quality/",
-    "/service-areas/delano-ca/indoor-air-quality/",
+    "/service-areas/buttonwillow-ca/indoor-air-quality/",
     "/contact/"
   ],
   "/service-areas/dustin-acres-ca/emergency-plumbing/": [
@@ -3236,7 +3267,7 @@
     "/service-areas/bear-valley-springs-ca/ac-repair/",
     "/service-areas/bear-valley-springs-ca/drain-cleaning/",
     "/service-areas/arvin-ca/emergency-plumbing/",
-    "/service-areas/delano-ca/emergency-plumbing/",
+    "/service-areas/buttonwillow-ca/emergency-plumbing/",
     "/contact/"
   ],
   "/service-areas/bear-valley-springs-ca/burst-pipe-repair/": [
@@ -3245,7 +3276,7 @@
     "/service-areas/bear-valley-springs-ca/ac-repair/",
     "/service-areas/bear-valley-springs-ca/drain-cleaning/",
     "/service-areas/arvin-ca/burst-pipe-repair/",
-    "/service-areas/delano-ca/burst-pipe-repair/",
+    "/service-areas/buttonwillow-ca/burst-pipe-repair/",
     "/contact/"
   ],
   "/service-areas/bear-valley-springs-ca/drain-cleaning/": [
@@ -3254,7 +3285,7 @@
     "/service-areas/bear-valley-springs-ca/ac-repair/",
     "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
     "/service-areas/arvin-ca/drain-cleaning/",
-    "/service-areas/delano-ca/drain-cleaning/",
+    "/service-areas/buttonwillow-ca/drain-cleaning/",
     "/contact/"
   ],
   "/service-areas/bear-valley-springs-ca/sewer-line-repair/": [
@@ -3263,7 +3294,7 @@
     "/service-areas/bear-valley-springs-ca/ac-repair/",
     "/service-areas/bear-valley-springs-ca/drain-cleaning/",
     "/service-areas/arvin-ca/sewer-line-repair/",
-    "/service-areas/delano-ca/sewer-line-repair/",
+    "/service-areas/buttonwillow-ca/sewer-line-repair/",
     "/contact/"
   ],
   "/service-areas/bear-valley-springs-ca/water-heater-repair/": [
@@ -3272,7 +3303,7 @@
     "/service-areas/bear-valley-springs-ca/ac-repair/",
     "/service-areas/bear-valley-springs-ca/drain-cleaning/",
     "/service-areas/arvin-ca/water-heater-repair/",
-    "/service-areas/delano-ca/water-heater-repair/",
+    "/service-areas/buttonwillow-ca/water-heater-repair/",
     "/contact/"
   ],
   "/service-areas/bear-valley-springs-ca/water-heater-installation/": [
@@ -3281,7 +3312,7 @@
     "/service-areas/bear-valley-springs-ca/ac-repair/",
     "/service-areas/bear-valley-springs-ca/drain-cleaning/",
     "/service-areas/arvin-ca/water-heater-installation/",
-    "/service-areas/delano-ca/water-heater-installation/",
+    "/service-areas/buttonwillow-ca/water-heater-installation/",
     "/contact/"
   ],
   "/service-areas/bear-valley-springs-ca/leak-detection/": [
@@ -3290,7 +3321,7 @@
     "/service-areas/bear-valley-springs-ca/ac-repair/",
     "/service-areas/bear-valley-springs-ca/drain-cleaning/",
     "/service-areas/arvin-ca/leak-detection/",
-    "/service-areas/delano-ca/leak-detection/",
+    "/service-areas/buttonwillow-ca/leak-detection/",
     "/contact/"
   ],
   "/service-areas/bear-valley-springs-ca/slab-leak-repair/": [
@@ -3299,7 +3330,7 @@
     "/service-areas/bear-valley-springs-ca/ac-repair/",
     "/service-areas/bear-valley-springs-ca/drain-cleaning/",
     "/service-areas/arvin-ca/slab-leak-repair/",
-    "/service-areas/delano-ca/slab-leak-repair/",
+    "/service-areas/buttonwillow-ca/slab-leak-repair/",
     "/contact/"
   ],
   "/service-areas/bear-valley-springs-ca/repiping/": [
@@ -3308,7 +3339,7 @@
     "/service-areas/bear-valley-springs-ca/ac-repair/",
     "/service-areas/bear-valley-springs-ca/drain-cleaning/",
     "/service-areas/arvin-ca/repiping/",
-    "/service-areas/delano-ca/repiping/",
+    "/service-areas/buttonwillow-ca/repiping/",
     "/contact/"
   ],
   "/service-areas/bear-valley-springs-ca/gas-line-services/": [
@@ -3317,7 +3348,7 @@
     "/service-areas/bear-valley-springs-ca/ac-repair/",
     "/service-areas/bear-valley-springs-ca/drain-cleaning/",
     "/service-areas/arvin-ca/gas-line-services/",
-    "/service-areas/delano-ca/gas-line-services/",
+    "/service-areas/buttonwillow-ca/gas-line-services/",
     "/contact/"
   ],
   "/service-areas/bear-valley-springs-ca/sump-pumps/": [
@@ -3326,7 +3357,7 @@
     "/service-areas/bear-valley-springs-ca/ac-repair/",
     "/service-areas/bear-valley-springs-ca/drain-cleaning/",
     "/service-areas/arvin-ca/sump-pumps/",
-    "/service-areas/delano-ca/sump-pumps/",
+    "/service-areas/buttonwillow-ca/sump-pumps/",
     "/contact/"
   ],
   "/service-areas/bear-valley-springs-ca/water-softeners-filtration/": [
@@ -3335,7 +3366,7 @@
     "/service-areas/bear-valley-springs-ca/ac-repair/",
     "/service-areas/bear-valley-springs-ca/drain-cleaning/",
     "/service-areas/arvin-ca/water-softeners-filtration/",
-    "/service-areas/delano-ca/water-softeners-filtration/",
+    "/service-areas/buttonwillow-ca/water-softeners-filtration/",
     "/contact/"
   ],
   "/service-areas/bear-valley-springs-ca/toilet-faucet-repair/": [
@@ -3344,7 +3375,7 @@
     "/service-areas/bear-valley-springs-ca/ac-repair/",
     "/service-areas/bear-valley-springs-ca/drain-cleaning/",
     "/service-areas/arvin-ca/toilet-faucet-repair/",
-    "/service-areas/delano-ca/toilet-faucet-repair/",
+    "/service-areas/buttonwillow-ca/toilet-faucet-repair/",
     "/contact/"
   ],
   "/service-areas/bear-valley-springs-ca/garbage-disposal/": [
@@ -3353,7 +3384,7 @@
     "/service-areas/bear-valley-springs-ca/ac-repair/",
     "/service-areas/bear-valley-springs-ca/drain-cleaning/",
     "/service-areas/arvin-ca/garbage-disposal/",
-    "/service-areas/delano-ca/garbage-disposal/",
+    "/service-areas/buttonwillow-ca/garbage-disposal/",
     "/contact/"
   ],
   "/service-areas/bear-valley-springs-ca/furnace-repair/": [
@@ -3362,7 +3393,7 @@
     "/service-areas/bear-valley-springs-ca/ac-repair/",
     "/service-areas/bear-valley-springs-ca/drain-cleaning/",
     "/service-areas/arvin-ca/furnace-repair/",
-    "/service-areas/delano-ca/furnace-repair/",
+    "/service-areas/buttonwillow-ca/furnace-repair/",
     "/contact/"
   ],
   "/service-areas/bear-valley-springs-ca/furnace-installation/": [
@@ -3371,7 +3402,7 @@
     "/service-areas/bear-valley-springs-ca/ac-repair/",
     "/service-areas/bear-valley-springs-ca/drain-cleaning/",
     "/service-areas/arvin-ca/furnace-installation/",
-    "/service-areas/delano-ca/furnace-installation/",
+    "/service-areas/buttonwillow-ca/furnace-installation/",
     "/contact/"
   ],
   "/service-areas/bear-valley-springs-ca/heat-pump-services/": [
@@ -3380,7 +3411,7 @@
     "/service-areas/bear-valley-springs-ca/ac-repair/",
     "/service-areas/bear-valley-springs-ca/drain-cleaning/",
     "/service-areas/arvin-ca/heat-pump-services/",
-    "/service-areas/delano-ca/heat-pump-services/",
+    "/service-areas/buttonwillow-ca/heat-pump-services/",
     "/contact/"
   ],
   "/service-areas/bear-valley-springs-ca/ac-repair/": [
@@ -3389,7 +3420,7 @@
     "/service-areas/bear-valley-springs-ca/drain-cleaning/",
     "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
     "/service-areas/arvin-ca/ac-repair/",
-    "/service-areas/delano-ca/ac-repair/",
+    "/service-areas/buttonwillow-ca/ac-repair/",
     "/contact/"
   ],
   "/service-areas/bear-valley-springs-ca/ac-installation/": [
@@ -3398,7 +3429,7 @@
     "/service-areas/bear-valley-springs-ca/ac-repair/",
     "/service-areas/bear-valley-springs-ca/drain-cleaning/",
     "/service-areas/arvin-ca/ac-installation/",
-    "/service-areas/delano-ca/ac-installation/",
+    "/service-areas/buttonwillow-ca/ac-installation/",
     "/contact/"
   ],
   "/service-areas/bear-valley-springs-ca/ductless-mini-splits/": [
@@ -3407,7 +3438,7 @@
     "/service-areas/bear-valley-springs-ca/ac-repair/",
     "/service-areas/bear-valley-springs-ca/drain-cleaning/",
     "/service-areas/arvin-ca/ductless-mini-splits/",
-    "/service-areas/delano-ca/ductless-mini-splits/",
+    "/service-areas/buttonwillow-ca/ductless-mini-splits/",
     "/contact/"
   ],
   "/service-areas/bear-valley-springs-ca/ductwork/": [
@@ -3416,7 +3447,7 @@
     "/service-areas/bear-valley-springs-ca/ac-repair/",
     "/service-areas/bear-valley-springs-ca/drain-cleaning/",
     "/service-areas/arvin-ca/ductwork/",
-    "/service-areas/delano-ca/ductwork/",
+    "/service-areas/buttonwillow-ca/ductwork/",
     "/contact/"
   ],
   "/service-areas/bear-valley-springs-ca/indoor-air-quality/": [
@@ -3425,7 +3456,205 @@
     "/service-areas/bear-valley-springs-ca/ac-repair/",
     "/service-areas/bear-valley-springs-ca/drain-cleaning/",
     "/service-areas/arvin-ca/indoor-air-quality/",
-    "/service-areas/delano-ca/indoor-air-quality/",
+    "/service-areas/buttonwillow-ca/indoor-air-quality/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/ac-repair/",
+    "/service-areas/buttonwillow-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/emergency-plumbing/",
+    "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/burst-pipe-repair/": [
+    "/services/burst-pipe-repair/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/ac-repair/",
+    "/service-areas/buttonwillow-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/burst-pipe-repair/",
+    "/service-areas/bear-valley-springs-ca/burst-pipe-repair/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/ac-repair/",
+    "/service-areas/buttonwillow-ca/emergency-plumbing/",
+    "/service-areas/arvin-ca/drain-cleaning/",
+    "/service-areas/bear-valley-springs-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/sewer-line-repair/": [
+    "/services/sewer-line-repair/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/ac-repair/",
+    "/service-areas/buttonwillow-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/sewer-line-repair/",
+    "/service-areas/bear-valley-springs-ca/sewer-line-repair/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/ac-repair/",
+    "/service-areas/buttonwillow-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/water-heater-repair/",
+    "/service-areas/bear-valley-springs-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/ac-repair/",
+    "/service-areas/buttonwillow-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/water-heater-installation/",
+    "/service-areas/bear-valley-springs-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/leak-detection/": [
+    "/services/leak-detection/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/ac-repair/",
+    "/service-areas/buttonwillow-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/leak-detection/",
+    "/service-areas/bear-valley-springs-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/slab-leak-repair/": [
+    "/services/slab-leak-repair/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/ac-repair/",
+    "/service-areas/buttonwillow-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/slab-leak-repair/",
+    "/service-areas/bear-valley-springs-ca/slab-leak-repair/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/repiping/": [
+    "/services/repiping/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/ac-repair/",
+    "/service-areas/buttonwillow-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/repiping/",
+    "/service-areas/bear-valley-springs-ca/repiping/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/gas-line-services/": [
+    "/services/gas-line-services/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/ac-repair/",
+    "/service-areas/buttonwillow-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/gas-line-services/",
+    "/service-areas/bear-valley-springs-ca/gas-line-services/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/sump-pumps/": [
+    "/services/sump-pumps/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/ac-repair/",
+    "/service-areas/buttonwillow-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/sump-pumps/",
+    "/service-areas/bear-valley-springs-ca/sump-pumps/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/ac-repair/",
+    "/service-areas/buttonwillow-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/water-softeners-filtration/",
+    "/service-areas/bear-valley-springs-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/ac-repair/",
+    "/service-areas/buttonwillow-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/toilet-faucet-repair/",
+    "/service-areas/bear-valley-springs-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/ac-repair/",
+    "/service-areas/buttonwillow-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/garbage-disposal/",
+    "/service-areas/bear-valley-springs-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/ac-repair/",
+    "/service-areas/buttonwillow-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/furnace-repair/",
+    "/service-areas/bear-valley-springs-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/furnace-installation/": [
+    "/services/furnace-installation/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/ac-repair/",
+    "/service-areas/buttonwillow-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/furnace-installation/",
+    "/service-areas/bear-valley-springs-ca/furnace-installation/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/heat-pump-services/": [
+    "/services/heat-pump-services/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/ac-repair/",
+    "/service-areas/buttonwillow-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/heat-pump-services/",
+    "/service-areas/bear-valley-springs-ca/heat-pump-services/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/drain-cleaning/",
+    "/service-areas/buttonwillow-ca/emergency-plumbing/",
+    "/service-areas/arvin-ca/ac-repair/",
+    "/service-areas/bear-valley-springs-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/ac-installation/": [
+    "/services/ac-installation/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/ac-repair/",
+    "/service-areas/buttonwillow-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/ac-installation/",
+    "/service-areas/bear-valley-springs-ca/ac-installation/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/ductless-mini-splits/": [
+    "/services/ductless-mini-splits/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/ac-repair/",
+    "/service-areas/buttonwillow-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/ductless-mini-splits/",
+    "/service-areas/bear-valley-springs-ca/ductless-mini-splits/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/ductwork/": [
+    "/services/ductwork/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/ac-repair/",
+    "/service-areas/buttonwillow-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/ductwork/",
+    "/service-areas/bear-valley-springs-ca/ductwork/",
+    "/contact/"
+  ],
+  "/service-areas/buttonwillow-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/ac-repair/",
+    "/service-areas/buttonwillow-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/indoor-air-quality/",
+    "/service-areas/bear-valley-springs-ca/indoor-air-quality/",
     "/contact/"
   ],
   "/blog/what-to-do-burst-pipe/": [

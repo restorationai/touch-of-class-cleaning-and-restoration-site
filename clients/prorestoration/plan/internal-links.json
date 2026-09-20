@@ -37,7 +37,8 @@
     "/service-areas/tehachapi-ca/",
     "/service-areas/valley-acres-ca/",
     "/service-areas/wasco-ca/",
-    "/service-areas/weedpatch-ca/"
+    "/service-areas/weedpatch-ca/",
+    "/service-areas/woody-ca/"
   ],
   "/services/": [
     "/",
@@ -77,7 +78,8 @@
     "/service-areas/tehachapi-ca/",
     "/service-areas/valley-acres-ca/",
     "/service-areas/wasco-ca/",
-    "/service-areas/weedpatch-ca/"
+    "/service-areas/weedpatch-ca/",
+    "/service-areas/woody-ca/"
   ],
   "/blog/": [
     "/",
@@ -798,6 +800,30 @@
     "/service-areas/valley-acres-ca/soot-removal/",
     "/service-areas/valley-acres-ca/appliance-leak-cleanup/",
     "/service-areas/valley-acres-ca/carpet-cleaning/",
+    "/service-areas/arvin-ca/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/delano-ca/"
+  ],
+  "/service-areas/woody-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/woody-ca/fire-damage-restoration/",
+    "/service-areas/woody-ca/home-remodeling/",
+    "/service-areas/woody-ca/mold-remediation/",
+    "/service-areas/woody-ca/water-damage-restoration/",
+    "/service-areas/woody-ca/flood-damage-restoration/",
+    "/service-areas/woody-ca/reconstruction/",
+    "/service-areas/woody-ca/sewage-cleanup/",
+    "/service-areas/woody-ca/smoke-damage-restoration/",
+    "/service-areas/woody-ca/storm-damage-restoration/",
+    "/service-areas/woody-ca/water-cleanup/",
+    "/service-areas/woody-ca/burst-pipe-repair/",
+    "/service-areas/woody-ca/general-contracting/",
+    "/service-areas/woody-ca/mold-inspection-testing/",
+    "/service-areas/woody-ca/odor-removal/",
+    "/service-areas/woody-ca/soot-removal/",
+    "/service-areas/woody-ca/appliance-leak-cleanup/",
+    "/service-areas/woody-ca/carpet-cleaning/",
     "/service-areas/arvin-ca/",
     "/service-areas/buttonwillow-ca/",
     "/service-areas/delano-ca/"
@@ -3399,6 +3425,159 @@
     "/service-areas/valley-acres-ca/",
     "/service-areas/valley-acres-ca/fire-damage-restoration/",
     "/service-areas/valley-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/water-cleanup/",
+    "/service-areas/buttonwillow-ca/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/woody-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/woody-ca/",
+    "/service-areas/woody-ca/fire-damage-restoration/",
+    "/service-areas/woody-ca/home-remodeling/",
+    "/service-areas/arvin-ca/water-damage-restoration/",
+    "/service-areas/buttonwillow-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/woody-ca/flood-damage-restoration/": [
+    "/services/flood-damage-restoration/",
+    "/service-areas/woody-ca/",
+    "/service-areas/woody-ca/fire-damage-restoration/",
+    "/service-areas/woody-ca/home-remodeling/",
+    "/service-areas/arvin-ca/flood-damage-restoration/",
+    "/service-areas/buttonwillow-ca/flood-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/woody-ca/burst-pipe-repair/": [
+    "/services/burst-pipe-repair/",
+    "/service-areas/woody-ca/",
+    "/service-areas/woody-ca/fire-damage-restoration/",
+    "/service-areas/woody-ca/home-remodeling/",
+    "/service-areas/arvin-ca/burst-pipe-repair/",
+    "/service-areas/buttonwillow-ca/burst-pipe-repair/",
+    "/contact/"
+  ],
+  "/service-areas/woody-ca/appliance-leak-cleanup/": [
+    "/services/appliance-leak-cleanup/",
+    "/service-areas/woody-ca/",
+    "/service-areas/woody-ca/fire-damage-restoration/",
+    "/service-areas/woody-ca/home-remodeling/",
+    "/service-areas/arvin-ca/appliance-leak-cleanup/",
+    "/service-areas/buttonwillow-ca/appliance-leak-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/woody-ca/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/woody-ca/",
+    "/service-areas/woody-ca/fire-damage-restoration/",
+    "/service-areas/woody-ca/home-remodeling/",
+    "/service-areas/arvin-ca/sewage-cleanup/",
+    "/service-areas/buttonwillow-ca/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/woody-ca/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/woody-ca/",
+    "/service-areas/woody-ca/home-remodeling/",
+    "/service-areas/woody-ca/mold-remediation/",
+    "/service-areas/arvin-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/woody-ca/smoke-damage-restoration/": [
+    "/services/smoke-damage-restoration/",
+    "/service-areas/woody-ca/",
+    "/service-areas/woody-ca/fire-damage-restoration/",
+    "/service-areas/woody-ca/home-remodeling/",
+    "/service-areas/arvin-ca/smoke-damage-restoration/",
+    "/service-areas/buttonwillow-ca/smoke-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/woody-ca/soot-removal/": [
+    "/services/soot-removal/",
+    "/service-areas/woody-ca/",
+    "/service-areas/woody-ca/fire-damage-restoration/",
+    "/service-areas/woody-ca/home-remodeling/",
+    "/service-areas/arvin-ca/soot-removal/",
+    "/service-areas/buttonwillow-ca/soot-removal/",
+    "/contact/"
+  ],
+  "/service-areas/woody-ca/odor-removal/": [
+    "/services/odor-removal/",
+    "/service-areas/woody-ca/",
+    "/service-areas/woody-ca/fire-damage-restoration/",
+    "/service-areas/woody-ca/home-remodeling/",
+    "/service-areas/arvin-ca/odor-removal/",
+    "/service-areas/buttonwillow-ca/odor-removal/",
+    "/contact/"
+  ],
+  "/service-areas/woody-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/woody-ca/",
+    "/service-areas/woody-ca/fire-damage-restoration/",
+    "/service-areas/woody-ca/home-remodeling/",
+    "/service-areas/arvin-ca/mold-remediation/",
+    "/service-areas/buttonwillow-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/woody-ca/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/woody-ca/",
+    "/service-areas/woody-ca/fire-damage-restoration/",
+    "/service-areas/woody-ca/home-remodeling/",
+    "/service-areas/arvin-ca/mold-inspection-testing/",
+    "/service-areas/buttonwillow-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/woody-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/woody-ca/",
+    "/service-areas/woody-ca/fire-damage-restoration/",
+    "/service-areas/woody-ca/home-remodeling/",
+    "/service-areas/arvin-ca/storm-damage-restoration/",
+    "/service-areas/buttonwillow-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/woody-ca/carpet-cleaning/": [
+    "/services/carpet-cleaning/",
+    "/service-areas/woody-ca/",
+    "/service-areas/woody-ca/fire-damage-restoration/",
+    "/service-areas/woody-ca/home-remodeling/",
+    "/service-areas/arvin-ca/carpet-cleaning/",
+    "/service-areas/buttonwillow-ca/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/woody-ca/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/woody-ca/",
+    "/service-areas/woody-ca/fire-damage-restoration/",
+    "/service-areas/woody-ca/home-remodeling/",
+    "/service-areas/arvin-ca/reconstruction/",
+    "/service-areas/buttonwillow-ca/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/woody-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/woody-ca/",
+    "/service-areas/woody-ca/fire-damage-restoration/",
+    "/service-areas/woody-ca/mold-remediation/",
+    "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/woody-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/woody-ca/",
+    "/service-areas/woody-ca/fire-damage-restoration/",
+    "/service-areas/woody-ca/home-remodeling/",
+    "/service-areas/arvin-ca/general-contracting/",
+    "/service-areas/buttonwillow-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/woody-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/woody-ca/",
+    "/service-areas/woody-ca/fire-damage-restoration/",
+    "/service-areas/woody-ca/home-remodeling/",
     "/service-areas/arvin-ca/water-cleanup/",
     "/service-areas/buttonwillow-ca/water-cleanup/",
     "/contact/"

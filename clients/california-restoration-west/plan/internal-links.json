@@ -12,6 +12,7 @@
     "/services/crawl-space-encapsulation/",
     "/service-areas/camarillo-ca/",
     "/service-areas/fillmore-ca/",
+    "/service-areas/hasley-canyon-ca/",
     "/service-areas/mira-monte-ca/",
     "/service-areas/moorpark-ca/",
     "/service-areas/oak-view-ca/",
@@ -39,6 +40,7 @@
     "/",
     "/service-areas/camarillo-ca/",
     "/service-areas/fillmore-ca/",
+    "/service-areas/hasley-canyon-ca/",
     "/service-areas/mira-monte-ca/",
     "/service-areas/moorpark-ca/",
     "/service-areas/oak-view-ca/",
@@ -79,6 +81,7 @@
     "/contact/",
     "/service-areas/camarillo-ca/water-damage-restoration/",
     "/service-areas/fillmore-ca/water-damage-restoration/",
+    "/service-areas/hasley-canyon-ca/water-damage-restoration/",
     "/service-areas/mira-monte-ca/water-damage-restoration/",
     "/service-areas/moorpark-ca/water-damage-restoration/",
     "/service-areas/oak-view-ca/water-damage-restoration/",
@@ -88,7 +91,6 @@
     "/service-areas/port-hueneme-ca/water-damage-restoration/",
     "/service-areas/san-buenaventura-ventura-ca/water-damage-restoration/",
     "/service-areas/santa-paula-ca/water-damage-restoration/",
-    "/service-areas/santa-rosa-valley-ca/water-damage-restoration/",
     "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -99,6 +101,7 @@
     "/contact/",
     "/service-areas/camarillo-ca/mold-remediation/",
     "/service-areas/fillmore-ca/mold-remediation/",
+    "/service-areas/hasley-canyon-ca/mold-remediation/",
     "/service-areas/mira-monte-ca/mold-remediation/",
     "/service-areas/moorpark-ca/mold-remediation/",
     "/service-areas/oak-view-ca/mold-remediation/",
@@ -108,7 +111,6 @@
     "/service-areas/port-hueneme-ca/mold-remediation/",
     "/service-areas/san-buenaventura-ventura-ca/mold-remediation/",
     "/service-areas/santa-paula-ca/mold-remediation/",
-    "/service-areas/santa-rosa-valley-ca/mold-remediation/",
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
     "/blog/signs-of-hidden-mold/"
@@ -118,6 +120,7 @@
     "/contact/",
     "/service-areas/camarillo-ca/storm-damage-restoration/",
     "/service-areas/fillmore-ca/storm-damage-restoration/",
+    "/service-areas/hasley-canyon-ca/storm-damage-restoration/",
     "/service-areas/mira-monte-ca/storm-damage-restoration/",
     "/service-areas/moorpark-ca/storm-damage-restoration/",
     "/service-areas/oak-view-ca/storm-damage-restoration/",
@@ -127,7 +130,6 @@
     "/service-areas/port-hueneme-ca/storm-damage-restoration/",
     "/service-areas/san-buenaventura-ventura-ca/storm-damage-restoration/",
     "/service-areas/santa-paula-ca/storm-damage-restoration/",
-    "/service-areas/santa-rosa-valley-ca/storm-damage-restoration/",
     "/blog/storm-damage-insurance-claim-checklist/"
   ],
   "/services/contents-restoration/": [
@@ -135,6 +137,7 @@
     "/contact/",
     "/service-areas/camarillo-ca/contents-restoration/",
     "/service-areas/fillmore-ca/contents-restoration/",
+    "/service-areas/hasley-canyon-ca/contents-restoration/",
     "/service-areas/mira-monte-ca/contents-restoration/",
     "/service-areas/moorpark-ca/contents-restoration/",
     "/service-areas/oak-view-ca/contents-restoration/",
@@ -143,14 +146,14 @@
     "/service-areas/piru-ca/contents-restoration/",
     "/service-areas/port-hueneme-ca/contents-restoration/",
     "/service-areas/san-buenaventura-ventura-ca/contents-restoration/",
-    "/service-areas/santa-paula-ca/contents-restoration/",
-    "/service-areas/santa-rosa-valley-ca/contents-restoration/"
+    "/service-areas/santa-paula-ca/contents-restoration/"
   ],
   "/services/crawl-space-encapsulation/": [
     "/services/",
     "/contact/",
     "/service-areas/camarillo-ca/crawl-space-encapsulation/",
     "/service-areas/fillmore-ca/crawl-space-encapsulation/",
+    "/service-areas/hasley-canyon-ca/crawl-space-encapsulation/",
     "/service-areas/mira-monte-ca/crawl-space-encapsulation/",
     "/service-areas/moorpark-ca/crawl-space-encapsulation/",
     "/service-areas/oak-view-ca/crawl-space-encapsulation/",
@@ -159,14 +162,14 @@
     "/service-areas/piru-ca/crawl-space-encapsulation/",
     "/service-areas/port-hueneme-ca/crawl-space-encapsulation/",
     "/service-areas/san-buenaventura-ventura-ca/crawl-space-encapsulation/",
-    "/service-areas/santa-paula-ca/crawl-space-encapsulation/",
-    "/service-areas/santa-rosa-valley-ca/crawl-space-encapsulation/"
+    "/service-areas/santa-paula-ca/crawl-space-encapsulation/"
   ],
   "/services/water-cleanup/": [
     "/services/",
     "/contact/",
     "/service-areas/camarillo-ca/water-cleanup/",
     "/service-areas/fillmore-ca/water-cleanup/",
+    "/service-areas/hasley-canyon-ca/water-cleanup/",
     "/service-areas/mira-monte-ca/water-cleanup/",
     "/service-areas/moorpark-ca/water-cleanup/",
     "/service-areas/oak-view-ca/water-cleanup/",
@@ -176,7 +179,6 @@
     "/service-areas/port-hueneme-ca/water-cleanup/",
     "/service-areas/san-buenaventura-ventura-ca/water-cleanup/",
     "/service-areas/santa-paula-ca/water-cleanup/",
-    "/service-areas/santa-rosa-valley-ca/water-cleanup/",
     "/services/water-damage-restoration/"
   ],
   "/service-areas/oxnard-ca/": [
@@ -190,7 +192,7 @@
     "/service-areas/oxnard-ca/crawl-space-encapsulation/",
     "/service-areas/camarillo-ca/",
     "/service-areas/fillmore-ca/",
-    "/service-areas/mira-monte-ca/"
+    "/service-areas/hasley-canyon-ca/"
   ],
   "/service-areas/thousand-oaks-ca/": [
     "/service-areas/",
@@ -203,7 +205,7 @@
     "/service-areas/thousand-oaks-ca/crawl-space-encapsulation/",
     "/service-areas/camarillo-ca/",
     "/service-areas/fillmore-ca/",
-    "/service-areas/mira-monte-ca/"
+    "/service-areas/hasley-canyon-ca/"
   ],
   "/service-areas/simi-valley-ca/": [
     "/service-areas/",
@@ -216,7 +218,7 @@
     "/service-areas/simi-valley-ca/crawl-space-encapsulation/",
     "/service-areas/camarillo-ca/",
     "/service-areas/fillmore-ca/",
-    "/service-areas/mira-monte-ca/"
+    "/service-areas/hasley-canyon-ca/"
   ],
   "/service-areas/camarillo-ca/": [
     "/service-areas/",
@@ -228,8 +230,8 @@
     "/service-areas/camarillo-ca/contents-restoration/",
     "/service-areas/camarillo-ca/crawl-space-encapsulation/",
     "/service-areas/fillmore-ca/",
-    "/service-areas/mira-monte-ca/",
-    "/service-areas/moorpark-ca/"
+    "/service-areas/hasley-canyon-ca/",
+    "/service-areas/mira-monte-ca/"
   ],
   "/service-areas/santa-paula-ca/": [
     "/service-areas/",
@@ -242,7 +244,7 @@
     "/service-areas/santa-paula-ca/crawl-space-encapsulation/",
     "/service-areas/camarillo-ca/",
     "/service-areas/fillmore-ca/",
-    "/service-areas/mira-monte-ca/"
+    "/service-areas/hasley-canyon-ca/"
   ],
   "/service-areas/port-hueneme-ca/": [
     "/service-areas/",
@@ -255,7 +257,7 @@
     "/service-areas/port-hueneme-ca/crawl-space-encapsulation/",
     "/service-areas/camarillo-ca/",
     "/service-areas/fillmore-ca/",
-    "/service-areas/mira-monte-ca/"
+    "/service-areas/hasley-canyon-ca/"
   ],
   "/service-areas/ojai-ca/": [
     "/service-areas/",
@@ -268,7 +270,7 @@
     "/service-areas/ojai-ca/crawl-space-encapsulation/",
     "/service-areas/camarillo-ca/",
     "/service-areas/fillmore-ca/",
-    "/service-areas/mira-monte-ca/"
+    "/service-areas/hasley-canyon-ca/"
   ],
   "/service-areas/fillmore-ca/": [
     "/service-areas/",
@@ -280,8 +282,8 @@
     "/service-areas/fillmore-ca/contents-restoration/",
     "/service-areas/fillmore-ca/crawl-space-encapsulation/",
     "/service-areas/camarillo-ca/",
-    "/service-areas/mira-monte-ca/",
-    "/service-areas/moorpark-ca/"
+    "/service-areas/hasley-canyon-ca/",
+    "/service-areas/mira-monte-ca/"
   ],
   "/service-areas/mira-monte-ca/": [
     "/service-areas/",
@@ -294,7 +296,7 @@
     "/service-areas/mira-monte-ca/crawl-space-encapsulation/",
     "/service-areas/camarillo-ca/",
     "/service-areas/fillmore-ca/",
-    "/service-areas/moorpark-ca/"
+    "/service-areas/hasley-canyon-ca/"
   ],
   "/service-areas/oak-view-ca/": [
     "/service-areas/",
@@ -307,7 +309,7 @@
     "/service-areas/oak-view-ca/crawl-space-encapsulation/",
     "/service-areas/camarillo-ca/",
     "/service-areas/fillmore-ca/",
-    "/service-areas/mira-monte-ca/"
+    "/service-areas/hasley-canyon-ca/"
   ],
   "/service-areas/somis-ca/": [
     "/service-areas/",
@@ -320,7 +322,7 @@
     "/service-areas/somis-ca/crawl-space-encapsulation/",
     "/service-areas/camarillo-ca/",
     "/service-areas/fillmore-ca/",
-    "/service-areas/mira-monte-ca/"
+    "/service-areas/hasley-canyon-ca/"
   ],
   "/service-areas/san-buenaventura-ventura-ca/": [
     "/service-areas/",
@@ -333,7 +335,7 @@
     "/service-areas/san-buenaventura-ventura-ca/crawl-space-encapsulation/",
     "/service-areas/camarillo-ca/",
     "/service-areas/fillmore-ca/",
-    "/service-areas/mira-monte-ca/"
+    "/service-areas/hasley-canyon-ca/"
   ],
   "/service-areas/moorpark-ca/": [
     "/service-areas/",
@@ -346,7 +348,7 @@
     "/service-areas/moorpark-ca/crawl-space-encapsulation/",
     "/service-areas/camarillo-ca/",
     "/service-areas/fillmore-ca/",
-    "/service-areas/mira-monte-ca/"
+    "/service-areas/hasley-canyon-ca/"
   ],
   "/service-areas/santa-rosa-valley-ca/": [
     "/service-areas/",
@@ -359,7 +361,7 @@
     "/service-areas/santa-rosa-valley-ca/crawl-space-encapsulation/",
     "/service-areas/camarillo-ca/",
     "/service-areas/fillmore-ca/",
-    "/service-areas/mira-monte-ca/"
+    "/service-areas/hasley-canyon-ca/"
   ],
   "/service-areas/piru-ca/": [
     "/service-areas/",
@@ -370,6 +372,19 @@
     "/service-areas/piru-ca/water-cleanup/",
     "/service-areas/piru-ca/contents-restoration/",
     "/service-areas/piru-ca/crawl-space-encapsulation/",
+    "/service-areas/camarillo-ca/",
+    "/service-areas/fillmore-ca/",
+    "/service-areas/hasley-canyon-ca/"
+  ],
+  "/service-areas/hasley-canyon-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/hasley-canyon-ca/mold-remediation/",
+    "/service-areas/hasley-canyon-ca/water-damage-restoration/",
+    "/service-areas/hasley-canyon-ca/storm-damage-restoration/",
+    "/service-areas/hasley-canyon-ca/water-cleanup/",
+    "/service-areas/hasley-canyon-ca/contents-restoration/",
+    "/service-areas/hasley-canyon-ca/crawl-space-encapsulation/",
     "/service-areas/camarillo-ca/",
     "/service-areas/fillmore-ca/",
     "/service-areas/mira-monte-ca/"
@@ -542,7 +557,7 @@
     "/service-areas/camarillo-ca/mold-remediation/",
     "/service-areas/camarillo-ca/storm-damage-restoration/",
     "/service-areas/fillmore-ca/water-damage-restoration/",
-    "/service-areas/mira-monte-ca/water-damage-restoration/",
+    "/service-areas/hasley-canyon-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/camarillo-ca/mold-remediation/": [
@@ -551,7 +566,7 @@
     "/service-areas/camarillo-ca/water-damage-restoration/",
     "/service-areas/camarillo-ca/storm-damage-restoration/",
     "/service-areas/fillmore-ca/mold-remediation/",
-    "/service-areas/mira-monte-ca/mold-remediation/",
+    "/service-areas/hasley-canyon-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/camarillo-ca/storm-damage-restoration/": [
@@ -560,7 +575,7 @@
     "/service-areas/camarillo-ca/mold-remediation/",
     "/service-areas/camarillo-ca/water-damage-restoration/",
     "/service-areas/fillmore-ca/storm-damage-restoration/",
-    "/service-areas/mira-monte-ca/storm-damage-restoration/",
+    "/service-areas/hasley-canyon-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/camarillo-ca/contents-restoration/": [
@@ -569,7 +584,7 @@
     "/service-areas/camarillo-ca/mold-remediation/",
     "/service-areas/camarillo-ca/water-damage-restoration/",
     "/service-areas/fillmore-ca/contents-restoration/",
-    "/service-areas/mira-monte-ca/contents-restoration/",
+    "/service-areas/hasley-canyon-ca/contents-restoration/",
     "/contact/"
   ],
   "/service-areas/camarillo-ca/crawl-space-encapsulation/": [
@@ -578,7 +593,7 @@
     "/service-areas/camarillo-ca/mold-remediation/",
     "/service-areas/camarillo-ca/water-damage-restoration/",
     "/service-areas/fillmore-ca/crawl-space-encapsulation/",
-    "/service-areas/mira-monte-ca/crawl-space-encapsulation/",
+    "/service-areas/hasley-canyon-ca/crawl-space-encapsulation/",
     "/contact/"
   ],
   "/service-areas/camarillo-ca/water-cleanup/": [
@@ -587,7 +602,7 @@
     "/service-areas/camarillo-ca/mold-remediation/",
     "/service-areas/camarillo-ca/water-damage-restoration/",
     "/service-areas/fillmore-ca/water-cleanup/",
-    "/service-areas/mira-monte-ca/water-cleanup/",
+    "/service-areas/hasley-canyon-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/santa-paula-ca/water-damage-restoration/": [
@@ -758,7 +773,7 @@
     "/service-areas/fillmore-ca/mold-remediation/",
     "/service-areas/fillmore-ca/storm-damage-restoration/",
     "/service-areas/camarillo-ca/water-damage-restoration/",
-    "/service-areas/mira-monte-ca/water-damage-restoration/",
+    "/service-areas/hasley-canyon-ca/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/fillmore-ca/mold-remediation/": [
@@ -767,7 +782,7 @@
     "/service-areas/fillmore-ca/water-damage-restoration/",
     "/service-areas/fillmore-ca/storm-damage-restoration/",
     "/service-areas/camarillo-ca/mold-remediation/",
-    "/service-areas/mira-monte-ca/mold-remediation/",
+    "/service-areas/hasley-canyon-ca/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/fillmore-ca/storm-damage-restoration/": [
@@ -776,7 +791,7 @@
     "/service-areas/fillmore-ca/mold-remediation/",
     "/service-areas/fillmore-ca/water-damage-restoration/",
     "/service-areas/camarillo-ca/storm-damage-restoration/",
-    "/service-areas/mira-monte-ca/storm-damage-restoration/",
+    "/service-areas/hasley-canyon-ca/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/fillmore-ca/contents-restoration/": [
@@ -785,7 +800,7 @@
     "/service-areas/fillmore-ca/mold-remediation/",
     "/service-areas/fillmore-ca/water-damage-restoration/",
     "/service-areas/camarillo-ca/contents-restoration/",
-    "/service-areas/mira-monte-ca/contents-restoration/",
+    "/service-areas/hasley-canyon-ca/contents-restoration/",
     "/contact/"
   ],
   "/service-areas/fillmore-ca/crawl-space-encapsulation/": [
@@ -794,7 +809,7 @@
     "/service-areas/fillmore-ca/mold-remediation/",
     "/service-areas/fillmore-ca/water-damage-restoration/",
     "/service-areas/camarillo-ca/crawl-space-encapsulation/",
-    "/service-areas/mira-monte-ca/crawl-space-encapsulation/",
+    "/service-areas/hasley-canyon-ca/crawl-space-encapsulation/",
     "/contact/"
   ],
   "/service-areas/fillmore-ca/water-cleanup/": [
@@ -803,7 +818,7 @@
     "/service-areas/fillmore-ca/mold-remediation/",
     "/service-areas/fillmore-ca/water-damage-restoration/",
     "/service-areas/camarillo-ca/water-cleanup/",
-    "/service-areas/mira-monte-ca/water-cleanup/",
+    "/service-areas/hasley-canyon-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/mira-monte-ca/water-damage-restoration/": [
@@ -1180,6 +1195,60 @@
     "/service-areas/piru-ca/",
     "/service-areas/piru-ca/mold-remediation/",
     "/service-areas/piru-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/water-cleanup/",
+    "/service-areas/fillmore-ca/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/hasley-canyon-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/hasley-canyon-ca/",
+    "/service-areas/hasley-canyon-ca/mold-remediation/",
+    "/service-areas/hasley-canyon-ca/storm-damage-restoration/",
+    "/service-areas/camarillo-ca/water-damage-restoration/",
+    "/service-areas/fillmore-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/hasley-canyon-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/hasley-canyon-ca/",
+    "/service-areas/hasley-canyon-ca/water-damage-restoration/",
+    "/service-areas/hasley-canyon-ca/storm-damage-restoration/",
+    "/service-areas/camarillo-ca/mold-remediation/",
+    "/service-areas/fillmore-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/hasley-canyon-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/hasley-canyon-ca/",
+    "/service-areas/hasley-canyon-ca/mold-remediation/",
+    "/service-areas/hasley-canyon-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/storm-damage-restoration/",
+    "/service-areas/fillmore-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/hasley-canyon-ca/contents-restoration/": [
+    "/services/contents-restoration/",
+    "/service-areas/hasley-canyon-ca/",
+    "/service-areas/hasley-canyon-ca/mold-remediation/",
+    "/service-areas/hasley-canyon-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/contents-restoration/",
+    "/service-areas/fillmore-ca/contents-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/hasley-canyon-ca/crawl-space-encapsulation/": [
+    "/services/crawl-space-encapsulation/",
+    "/service-areas/hasley-canyon-ca/",
+    "/service-areas/hasley-canyon-ca/mold-remediation/",
+    "/service-areas/hasley-canyon-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/crawl-space-encapsulation/",
+    "/service-areas/fillmore-ca/crawl-space-encapsulation/",
+    "/contact/"
+  ],
+  "/service-areas/hasley-canyon-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/hasley-canyon-ca/",
+    "/service-areas/hasley-canyon-ca/mold-remediation/",
+    "/service-areas/hasley-canyon-ca/water-damage-restoration/",
     "/service-areas/camarillo-ca/water-cleanup/",
     "/service-areas/fillmore-ca/water-cleanup/",
     "/contact/"

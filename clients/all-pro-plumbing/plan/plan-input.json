@@ -249,6 +249,11 @@
       "city": "Bear Valley Springs",
       "state": "CA",
       "slug": "bear-valley-springs-ca"
+    },
+    {
+      "city": "Buttonwillow",
+      "state": "CA",
+      "slug": "buttonwillow-ca"
     }
   ],
   "brand": {

@@ -19,6 +19,7 @@
     "/service-areas/aina-haina-hi/",
     "/service-areas/diamond-head-hi/",
     "/service-areas/east-honolulu-hi/",
+    "/service-areas/east-kapolei-hi/",
     "/service-areas/ewa-beach-hi/",
     "/service-areas/hawaii-kai-hi/",
     "/service-areas/heeia-hi/",
@@ -55,6 +56,7 @@
     "/service-areas/aina-haina-hi/",
     "/service-areas/diamond-head-hi/",
     "/service-areas/east-honolulu-hi/",
+    "/service-areas/east-kapolei-hi/",
     "/service-areas/ewa-beach-hi/",
     "/service-areas/hawaii-kai-hi/",
     "/service-areas/heeia-hi/",
@@ -103,6 +105,7 @@
     "/service-areas/aina-haina-hi/water-damage-restoration/",
     "/service-areas/diamond-head-hi/water-damage-restoration/",
     "/service-areas/east-honolulu-hi/water-damage-restoration/",
+    "/service-areas/east-kapolei-hi/water-damage-restoration/",
     "/service-areas/ewa-beach-hi/water-damage-restoration/",
     "/service-areas/hawaii-kai-hi/water-damage-restoration/",
     "/service-areas/heeia-hi/water-damage-restoration/",
@@ -110,7 +113,6 @@
     "/service-areas/kahala-hi/water-damage-restoration/",
     "/service-areas/kahaluu-hi/water-damage-restoration/",
     "/service-areas/kailua-hi/water-damage-restoration/",
-    "/service-areas/kaimuki-hi/water-damage-restoration/",
     "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -123,14 +125,14 @@
     "/service-areas/aina-haina-hi/flood-damage-restoration/",
     "/service-areas/diamond-head-hi/flood-damage-restoration/",
     "/service-areas/east-honolulu-hi/flood-damage-restoration/",
+    "/service-areas/east-kapolei-hi/flood-damage-restoration/",
     "/service-areas/ewa-beach-hi/flood-damage-restoration/",
     "/service-areas/hawaii-kai-hi/flood-damage-restoration/",
     "/service-areas/heeia-hi/flood-damage-restoration/",
     "/service-areas/hickam-housing-hi/flood-damage-restoration/",
     "/service-areas/kahala-hi/flood-damage-restoration/",
     "/service-areas/kahaluu-hi/flood-damage-restoration/",
-    "/service-areas/kailua-hi/flood-damage-restoration/",
-    "/service-areas/kaimuki-hi/flood-damage-restoration/"
+    "/service-areas/kailua-hi/flood-damage-restoration/"
   ],
   "/services/burst-pipe-repair/": [
     "/services/",
@@ -139,14 +141,14 @@
     "/service-areas/aina-haina-hi/burst-pipe-repair/",
     "/service-areas/diamond-head-hi/burst-pipe-repair/",
     "/service-areas/east-honolulu-hi/burst-pipe-repair/",
+    "/service-areas/east-kapolei-hi/burst-pipe-repair/",
     "/service-areas/ewa-beach-hi/burst-pipe-repair/",
     "/service-areas/hawaii-kai-hi/burst-pipe-repair/",
     "/service-areas/heeia-hi/burst-pipe-repair/",
     "/service-areas/hickam-housing-hi/burst-pipe-repair/",
     "/service-areas/kahala-hi/burst-pipe-repair/",
     "/service-areas/kahaluu-hi/burst-pipe-repair/",
-    "/service-areas/kailua-hi/burst-pipe-repair/",
-    "/service-areas/kaimuki-hi/burst-pipe-repair/"
+    "/service-areas/kailua-hi/burst-pipe-repair/"
   ],
   "/services/sewage-cleanup/": [
     "/services/",
@@ -155,6 +157,7 @@
     "/service-areas/aina-haina-hi/sewage-cleanup/",
     "/service-areas/diamond-head-hi/sewage-cleanup/",
     "/service-areas/east-honolulu-hi/sewage-cleanup/",
+    "/service-areas/east-kapolei-hi/sewage-cleanup/",
     "/service-areas/ewa-beach-hi/sewage-cleanup/",
     "/service-areas/hawaii-kai-hi/sewage-cleanup/",
     "/service-areas/heeia-hi/sewage-cleanup/",
@@ -162,7 +165,6 @@
     "/service-areas/kahala-hi/sewage-cleanup/",
     "/service-areas/kahaluu-hi/sewage-cleanup/",
     "/service-areas/kailua-hi/sewage-cleanup/",
-    "/service-areas/kaimuki-hi/sewage-cleanup/",
     "/blog/sewage-backup-health-risks/"
   ],
   "/services/mold-remediation/": [
@@ -172,6 +174,7 @@
     "/service-areas/aina-haina-hi/mold-remediation/",
     "/service-areas/diamond-head-hi/mold-remediation/",
     "/service-areas/east-honolulu-hi/mold-remediation/",
+    "/service-areas/east-kapolei-hi/mold-remediation/",
     "/service-areas/ewa-beach-hi/mold-remediation/",
     "/service-areas/hawaii-kai-hi/mold-remediation/",
     "/service-areas/heeia-hi/mold-remediation/",
@@ -179,7 +182,6 @@
     "/service-areas/kahala-hi/mold-remediation/",
     "/service-areas/kahaluu-hi/mold-remediation/",
     "/service-areas/kailua-hi/mold-remediation/",
-    "/service-areas/kaimuki-hi/mold-remediation/",
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
     "/blog/signs-of-hidden-mold/"
@@ -191,6 +193,7 @@
     "/service-areas/aina-haina-hi/mold-inspection-testing/",
     "/service-areas/diamond-head-hi/mold-inspection-testing/",
     "/service-areas/east-honolulu-hi/mold-inspection-testing/",
+    "/service-areas/east-kapolei-hi/mold-inspection-testing/",
     "/service-areas/ewa-beach-hi/mold-inspection-testing/",
     "/service-areas/hawaii-kai-hi/mold-inspection-testing/",
     "/service-areas/heeia-hi/mold-inspection-testing/",
@@ -198,7 +201,6 @@
     "/service-areas/kahala-hi/mold-inspection-testing/",
     "/service-areas/kahaluu-hi/mold-inspection-testing/",
     "/service-areas/kailua-hi/mold-inspection-testing/",
-    "/service-areas/kaimuki-hi/mold-inspection-testing/",
     "/blog/how-to-test-for-mold/"
   ],
   "/services/carpet-cleaning/": [
@@ -208,14 +210,14 @@
     "/service-areas/aina-haina-hi/carpet-cleaning/",
     "/service-areas/diamond-head-hi/carpet-cleaning/",
     "/service-areas/east-honolulu-hi/carpet-cleaning/",
+    "/service-areas/east-kapolei-hi/carpet-cleaning/",
     "/service-areas/ewa-beach-hi/carpet-cleaning/",
     "/service-areas/hawaii-kai-hi/carpet-cleaning/",
     "/service-areas/heeia-hi/carpet-cleaning/",
     "/service-areas/hickam-housing-hi/carpet-cleaning/",
     "/service-areas/kahala-hi/carpet-cleaning/",
     "/service-areas/kahaluu-hi/carpet-cleaning/",
-    "/service-areas/kailua-hi/carpet-cleaning/",
-    "/service-areas/kaimuki-hi/carpet-cleaning/"
+    "/service-areas/kailua-hi/carpet-cleaning/"
   ],
   "/services/upholstery-cleaning/": [
     "/services/",
@@ -224,14 +226,14 @@
     "/service-areas/aina-haina-hi/upholstery-cleaning/",
     "/service-areas/diamond-head-hi/upholstery-cleaning/",
     "/service-areas/east-honolulu-hi/upholstery-cleaning/",
+    "/service-areas/east-kapolei-hi/upholstery-cleaning/",
     "/service-areas/ewa-beach-hi/upholstery-cleaning/",
     "/service-areas/hawaii-kai-hi/upholstery-cleaning/",
     "/service-areas/heeia-hi/upholstery-cleaning/",
     "/service-areas/hickam-housing-hi/upholstery-cleaning/",
     "/service-areas/kahala-hi/upholstery-cleaning/",
     "/service-areas/kahaluu-hi/upholstery-cleaning/",
-    "/service-areas/kailua-hi/upholstery-cleaning/",
-    "/service-areas/kaimuki-hi/upholstery-cleaning/"
+    "/service-areas/kailua-hi/upholstery-cleaning/"
   ],
   "/services/flood-equipment-rental/": [
     "/services/",
@@ -240,14 +242,14 @@
     "/service-areas/aina-haina-hi/flood-equipment-rental/",
     "/service-areas/diamond-head-hi/flood-equipment-rental/",
     "/service-areas/east-honolulu-hi/flood-equipment-rental/",
+    "/service-areas/east-kapolei-hi/flood-equipment-rental/",
     "/service-areas/ewa-beach-hi/flood-equipment-rental/",
     "/service-areas/hawaii-kai-hi/flood-equipment-rental/",
     "/service-areas/heeia-hi/flood-equipment-rental/",
     "/service-areas/hickam-housing-hi/flood-equipment-rental/",
     "/service-areas/kahala-hi/flood-equipment-rental/",
     "/service-areas/kahaluu-hi/flood-equipment-rental/",
-    "/service-areas/kailua-hi/flood-equipment-rental/",
-    "/service-areas/kaimuki-hi/flood-equipment-rental/"
+    "/service-areas/kailua-hi/flood-equipment-rental/"
   ],
   "/services/commercial-restoration/": [
     "/services/",
@@ -256,6 +258,7 @@
     "/service-areas/aina-haina-hi/commercial-restoration/",
     "/service-areas/diamond-head-hi/commercial-restoration/",
     "/service-areas/east-honolulu-hi/commercial-restoration/",
+    "/service-areas/east-kapolei-hi/commercial-restoration/",
     "/service-areas/ewa-beach-hi/commercial-restoration/",
     "/service-areas/hawaii-kai-hi/commercial-restoration/",
     "/service-areas/heeia-hi/commercial-restoration/",
@@ -263,7 +266,6 @@
     "/service-areas/kahala-hi/commercial-restoration/",
     "/service-areas/kahaluu-hi/commercial-restoration/",
     "/service-areas/kailua-hi/commercial-restoration/",
-    "/service-areas/kaimuki-hi/commercial-restoration/",
     "/blog/commercial-water-damage-business-continuity/"
   ],
   "/services/water-cleanup/": [
@@ -273,6 +275,7 @@
     "/service-areas/aina-haina-hi/water-cleanup/",
     "/service-areas/diamond-head-hi/water-cleanup/",
     "/service-areas/east-honolulu-hi/water-cleanup/",
+    "/service-areas/east-kapolei-hi/water-cleanup/",
     "/service-areas/ewa-beach-hi/water-cleanup/",
     "/service-areas/hawaii-kai-hi/water-cleanup/",
     "/service-areas/heeia-hi/water-cleanup/",
@@ -280,7 +283,6 @@
     "/service-areas/kahala-hi/water-cleanup/",
     "/service-areas/kahaluu-hi/water-cleanup/",
     "/service-areas/kailua-hi/water-cleanup/",
-    "/service-areas/kaimuki-hi/water-cleanup/",
     "/services/water-damage-restoration/"
   ],
   "/service-areas/hawaii-kai-hi/": [
@@ -621,6 +623,24 @@
     "/service-areas/kaneohe-base-hi/carpet-cleaning/",
     "/service-areas/kaneohe-base-hi/upholstery-cleaning/",
     "/service-areas/kaneohe-base-hi/flood-equipment-rental/",
+    "/service-areas/aiea-hi/",
+    "/service-areas/aina-haina-hi/",
+    "/service-areas/diamond-head-hi/"
+  ],
+  "/service-areas/east-kapolei-hi/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/east-kapolei-hi/mold-remediation/",
+    "/service-areas/east-kapolei-hi/water-damage-restoration/",
+    "/service-areas/east-kapolei-hi/commercial-restoration/",
+    "/service-areas/east-kapolei-hi/flood-damage-restoration/",
+    "/service-areas/east-kapolei-hi/sewage-cleanup/",
+    "/service-areas/east-kapolei-hi/water-cleanup/",
+    "/service-areas/east-kapolei-hi/burst-pipe-repair/",
+    "/service-areas/east-kapolei-hi/mold-inspection-testing/",
+    "/service-areas/east-kapolei-hi/carpet-cleaning/",
+    "/service-areas/east-kapolei-hi/upholstery-cleaning/",
+    "/service-areas/east-kapolei-hi/flood-equipment-rental/",
     "/service-areas/aiea-hi/",
     "/service-areas/aina-haina-hi/",
     "/service-areas/diamond-head-hi/"
@@ -2502,6 +2522,105 @@
     "/service-areas/kaneohe-base-hi/",
     "/service-areas/kaneohe-base-hi/mold-remediation/",
     "/service-areas/kaneohe-base-hi/water-damage-restoration/",
+    "/service-areas/aiea-hi/water-cleanup/",
+    "/service-areas/aina-haina-hi/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/east-kapolei-hi/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/east-kapolei-hi/",
+    "/service-areas/east-kapolei-hi/mold-remediation/",
+    "/service-areas/east-kapolei-hi/commercial-restoration/",
+    "/service-areas/aiea-hi/water-damage-restoration/",
+    "/service-areas/aina-haina-hi/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/east-kapolei-hi/flood-damage-restoration/": [
+    "/services/flood-damage-restoration/",
+    "/service-areas/east-kapolei-hi/",
+    "/service-areas/east-kapolei-hi/mold-remediation/",
+    "/service-areas/east-kapolei-hi/water-damage-restoration/",
+    "/service-areas/aiea-hi/flood-damage-restoration/",
+    "/service-areas/aina-haina-hi/flood-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/east-kapolei-hi/burst-pipe-repair/": [
+    "/services/burst-pipe-repair/",
+    "/service-areas/east-kapolei-hi/",
+    "/service-areas/east-kapolei-hi/mold-remediation/",
+    "/service-areas/east-kapolei-hi/water-damage-restoration/",
+    "/service-areas/aiea-hi/burst-pipe-repair/",
+    "/service-areas/aina-haina-hi/burst-pipe-repair/",
+    "/contact/"
+  ],
+  "/service-areas/east-kapolei-hi/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/east-kapolei-hi/",
+    "/service-areas/east-kapolei-hi/mold-remediation/",
+    "/service-areas/east-kapolei-hi/water-damage-restoration/",
+    "/service-areas/aiea-hi/sewage-cleanup/",
+    "/service-areas/aina-haina-hi/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/east-kapolei-hi/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/east-kapolei-hi/",
+    "/service-areas/east-kapolei-hi/water-damage-restoration/",
+    "/service-areas/east-kapolei-hi/commercial-restoration/",
+    "/service-areas/aiea-hi/mold-remediation/",
+    "/service-areas/aina-haina-hi/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/east-kapolei-hi/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/east-kapolei-hi/",
+    "/service-areas/east-kapolei-hi/mold-remediation/",
+    "/service-areas/east-kapolei-hi/water-damage-restoration/",
+    "/service-areas/aiea-hi/mold-inspection-testing/",
+    "/service-areas/aina-haina-hi/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/east-kapolei-hi/carpet-cleaning/": [
+    "/services/carpet-cleaning/",
+    "/service-areas/east-kapolei-hi/",
+    "/service-areas/east-kapolei-hi/mold-remediation/",
+    "/service-areas/east-kapolei-hi/water-damage-restoration/",
+    "/service-areas/aiea-hi/carpet-cleaning/",
+    "/service-areas/aina-haina-hi/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/east-kapolei-hi/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/east-kapolei-hi/",
+    "/service-areas/east-kapolei-hi/mold-remediation/",
+    "/service-areas/east-kapolei-hi/water-damage-restoration/",
+    "/service-areas/aiea-hi/upholstery-cleaning/",
+    "/service-areas/aina-haina-hi/upholstery-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/east-kapolei-hi/flood-equipment-rental/": [
+    "/services/flood-equipment-rental/",
+    "/service-areas/east-kapolei-hi/",
+    "/service-areas/east-kapolei-hi/mold-remediation/",
+    "/service-areas/east-kapolei-hi/water-damage-restoration/",
+    "/service-areas/aiea-hi/flood-equipment-rental/",
+    "/service-areas/aina-haina-hi/flood-equipment-rental/",
+    "/contact/"
+  ],
+  "/service-areas/east-kapolei-hi/commercial-restoration/": [
+    "/services/commercial-restoration/",
+    "/service-areas/east-kapolei-hi/",
+    "/service-areas/east-kapolei-hi/mold-remediation/",
+    "/service-areas/east-kapolei-hi/water-damage-restoration/",
+    "/service-areas/aiea-hi/commercial-restoration/",
+    "/service-areas/aina-haina-hi/commercial-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/east-kapolei-hi/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/east-kapolei-hi/",
+    "/service-areas/east-kapolei-hi/mold-remediation/",
+    "/service-areas/east-kapolei-hi/water-damage-restoration/",
     "/service-areas/aiea-hi/water-cleanup/",
     "/service-areas/aina-haina-hi/water-cleanup/",
     "/contact/"

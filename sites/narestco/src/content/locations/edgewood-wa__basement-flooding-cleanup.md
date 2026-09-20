@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Basement Flooding Cleanup in Edgewood, WA | National Restoration Construction"
+h1: "Basement Flooding Cleanup in Edgewood"
+meta_description: "24/7 basement flooding cleanup in Edgewood, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+primary_keyword: "basement flooding cleanup edgewood"
+secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
+search_intent: "local_emergency"
+priority: 5.6
+plan_hash: "1378354db368433f"
+generated_at: "2026-09-20T18:59:03.094207+00:00"
+manual_override: false
+internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/edgewood-wa/", "/service-areas/edgewood-wa/fire-damage-restoration/", "/service-areas/edgewood-wa/mold-remediation/", "/service-areas/algona-wa/basement-flooding-cleanup/", "/service-areas/auburn-wa/basement-flooding-cleanup/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Edgewood", "url": "/service-areas/edgewood-wa/"}, {"name": "Basement Flooding Cleanup"}]
+faq: []
+area_slug: "edgewood-wa"
+service_slug: "basement-flooding-cleanup"
+city: "Edgewood"
+state: "WA"
+service_display: "Basement Flooding Cleanup"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug narestco` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Basement Flooding Cleanup in Edgewood.

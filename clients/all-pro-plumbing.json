@@ -22,7 +22,7 @@
   },
   "status": "active",
   "created_at": "2026-07-08T16:12:20.849362+00:00",
-  "updated_at": "2026-09-20T17:29:20.946967+00:00",
+  "updated_at": "2026-09-20T18:58:30.230089+00:00",
   "company_id": "CO-1783380243102",
   "nap": {
     "name": "All Pro Plumbing Heating and Air",
@@ -53,8 +53,8 @@
   "plan": {
     "template": "plumbing",
     "template_version": "0.1.0",
-    "url_count": 342,
-    "generated_at": "2026-09-20T17:29:20.946961+00:00"
+    "url_count": 365,
+    "generated_at": "2026-09-20T18:58:30.230082+00:00"
   },
   "build": {
     "scaffolded_at": "2026-07-08T18:42:39.577135+00:00",

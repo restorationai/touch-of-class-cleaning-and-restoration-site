@@ -44,6 +44,7 @@
     "/service-areas/tacoma-wa/",
     "/service-areas/tumwater-wa/",
     "/service-areas/university-place-wa/",
+    "/service-areas/waller-wa/",
     "/service-areas/yelm-wa/"
   ],
   "/services/": [
@@ -91,6 +92,7 @@
     "/service-areas/tacoma-wa/",
     "/service-areas/tumwater-wa/",
     "/service-areas/university-place-wa/",
+    "/service-areas/waller-wa/",
     "/service-areas/yelm-wa/"
   ],
   "/blog/": [
@@ -779,6 +781,22 @@
     "/service-areas/auburn-wa/",
     "/service-areas/bellevue-wa/",
     "/service-areas/bonney-lake-wa/"
+  ],
+  "/service-areas/waller-wa/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/waller-wa/fire-damage-restoration/",
+    "/service-areas/waller-wa/mold-remediation/",
+    "/service-areas/waller-wa/water-damage-restoration/",
+    "/service-areas/waller-wa/sewage-cleanup/",
+    "/service-areas/waller-wa/storm-damage-restoration/",
+    "/service-areas/waller-wa/water-cleanup/",
+    "/service-areas/waller-wa/emergency-board-up-tarping/",
+    "/service-areas/waller-wa/asbestos-abatement/",
+    "/service-areas/waller-wa/contents-restoration-storage/",
+    "/service-areas/anderson-island-wa/",
+    "/service-areas/auburn-wa/",
+    "/service-areas/bellevue-wa/"
   ],
   "/service-areas/tacoma-wa/water-damage-restoration/": [
     "/services/water-damage-restoration/",
@@ -3370,6 +3388,87 @@
     "/service-areas/anderson-island-wa/mold-remediation/",
     "/service-areas/auburn-wa/water-cleanup/",
     "/service-areas/bellevue-wa/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/waller-wa/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/waller-wa/",
+    "/service-areas/waller-wa/fire-damage-restoration/",
+    "/service-areas/waller-wa/mold-remediation/",
+    "/service-areas/anderson-island-wa/water-damage-restoration/",
+    "/service-areas/auburn-wa/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/waller-wa/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/waller-wa/",
+    "/service-areas/waller-wa/mold-remediation/",
+    "/service-areas/waller-wa/water-damage-restoration/",
+    "/service-areas/anderson-island-wa/fire-damage-restoration/",
+    "/service-areas/auburn-wa/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/waller-wa/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/waller-wa/",
+    "/service-areas/waller-wa/fire-damage-restoration/",
+    "/service-areas/waller-wa/water-damage-restoration/",
+    "/service-areas/anderson-island-wa/mold-remediation/",
+    "/service-areas/auburn-wa/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/waller-wa/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/waller-wa/",
+    "/service-areas/waller-wa/fire-damage-restoration/",
+    "/service-areas/waller-wa/mold-remediation/",
+    "/service-areas/anderson-island-wa/storm-damage-restoration/",
+    "/service-areas/auburn-wa/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/waller-wa/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/waller-wa/",
+    "/service-areas/waller-wa/fire-damage-restoration/",
+    "/service-areas/waller-wa/mold-remediation/",
+    "/service-areas/anderson-island-wa/sewage-cleanup/",
+    "/service-areas/auburn-wa/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/waller-wa/asbestos-abatement/": [
+    "/services/asbestos-abatement/",
+    "/service-areas/waller-wa/",
+    "/service-areas/waller-wa/fire-damage-restoration/",
+    "/service-areas/waller-wa/mold-remediation/",
+    "/service-areas/anderson-island-wa/asbestos-abatement/",
+    "/service-areas/auburn-wa/asbestos-abatement/",
+    "/contact/"
+  ],
+  "/service-areas/waller-wa/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/waller-wa/",
+    "/service-areas/waller-wa/fire-damage-restoration/",
+    "/service-areas/waller-wa/mold-remediation/",
+    "/service-areas/anderson-island-wa/emergency-board-up-tarping/",
+    "/service-areas/auburn-wa/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/waller-wa/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/waller-wa/",
+    "/service-areas/waller-wa/fire-damage-restoration/",
+    "/service-areas/waller-wa/mold-remediation/",
+    "/service-areas/anderson-island-wa/contents-restoration-storage/",
+    "/service-areas/auburn-wa/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/waller-wa/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/waller-wa/",
+    "/service-areas/waller-wa/fire-damage-restoration/",
+    "/service-areas/waller-wa/mold-remediation/",
+    "/service-areas/anderson-island-wa/water-cleanup/",
+    "/service-areas/auburn-wa/water-cleanup/",
     "/contact/"
   ],
   "/blog/what-to-do-first-24-hours-water-damage/": [

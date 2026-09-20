@@ -133,6 +133,11 @@
       "city": "Solana Beach",
       "state": "CA",
       "slug": "solana-beach-ca"
+    },
+    {
+      "city": "Del Mar",
+      "state": "CA",
+      "slug": "del-mar-ca"
     }
   ],
   "brand": {
