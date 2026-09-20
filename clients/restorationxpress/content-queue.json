@@ -1063,7 +1063,7 @@
     },
     {
       "id": "2026-09-15-fire-damage-claim-miramar",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-15T14:24:35Z",
       "priority": 1,
       "prioritized": true,
@@ -1073,7 +1073,38 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": "miramar-fl",
-      "source": "gameplan-2026-09-3 (dev-agent)"
+      "source": "gameplan-2026-09-3 (dev-agent)",
+      "written_at": "2026-09-20T14:44:48Z",
+      "post_url": "https://restorationxpress.com/blog/fire-damage-claim-miramar/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/fire-damage-claim-miramar.md",
+          "part": "body",
+          "family": "24/7",
+          "severity": "review",
+          "matched": "24-hour",
+          "context": "to open the claim.** Most carriers have 24-hour claim lines. Opening the claim starts t",
+          "reason": "24-hour availability statement appears to describe a third party (carrier/utility) \u2014 verify it is not about the brand"
+        },
+        {
+          "file": "src/content/blog/fire-damage-claim-miramar.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "different types of smoke residue. The [IICRC S700 standard](https://www.iicrc.org) g",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/fire-damage-claim-miramar.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "surance, and can document their work to IICRC standards, because your carrier will as",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
     },
     {
       "id": "2026-09-15-mold-growth-timeline",
