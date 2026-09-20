@@ -6,6 +6,12 @@ get added. Rule of the road: **nothing below runs without Santino's go**,
 items run in letter order unless he says otherwise, and DONE items keep
 their entry (with date) so the queue doubles as a change log.
 
+MCC auto-accept correction (2026-09-20): auto-accept DID exist — the
+browser-agent daytime sweep ran accept_pending_links() daily until its
+launchd job was disabled Aug 31 (Mini migration made sweeps supervised).
+GBP-side invite+accept never broke (nightly since 08-04). The accept now
+rides nightly ops-sync CI — machine-independent restoration.
+
 Related standing queue: `docs/per-client-conversion-queue.md` (bulk-to-
 per-client conversions — separate track, untouched by this file).
 
@@ -41,16 +47,35 @@ the SITE REVEAL first, GBP connect the next cycle — Santino may reorder.
   hashed-asset identity with our own deploy (FIX's old agency also ships
   Astro; the generic marker had stamped his old site as ours).
 
-## B. Reviews — **HELD for go**
+## B. Reviews — **DONE 2026-09-20**
 
-- **B1** Auto-staging: received customer list (hub upload or texted file)
-  → parsed (CSV/XLSX/contact export) → STAGED review-request rows →
-  card shows "N contacts staged · awaiting activation" → Santino/CSM
-  click activates. Includes backfilling Scott's already-received list.
-- **B2** Review-readiness asks: list exists but sender prerequisites
-  missing (no number / no EIN / compliance not started) → the review
-  agent seeds the specific Monica ask automatically and the card shows
-  WHY it's blocked. (FIX's EIN is the live example.)
+- **B1** Auto-staging SHIPPED: hourly `review_list_stage.py` on the
+  ops-worker turns every hub-uploaded list pin into STAGED rows via the
+  proven `review_enroll.py --staged` loader (dispatcher-invisible; the
+  existing Activate Review Campaign button goes live). First run cleared
+  the backlog: HomeLyft 17 contacts (waiting since Aug 24!), DryCor 280.
+  Unparseable files (PDF) get a one-time ops note; a list with NO phone
+  column (FIX's names+emails export) seeds a Monica ask for a re-export
+  with phones — staging is automatic when the new file lands.
+- **B2** Readiness asks SHIPPED: list on file + no approved sender +
+  missing EIN → a specific Monica ask is seeded (DryCor + FIX got theirs
+  on the first sweep). The reviews card's red chip now says WHY:
+  "sender blocked: no number, needs EIN" instead of a bare
+  "not submitted". Staged mode no longer refuses on a missing sender
+  (stage now, activate later — activation still runs the real preflight).
+
+
+- **B3 (added 2026-09-20, NOT started)**: full sender auto-provisioning
+  chain at signup — create the Twilio subaccount, buy the review-campaign
+  number (LOCAL per the 09-18 decision, auto-forwarded to the business
+  line), write company_phone_setup, then auto-submit compliance the moment
+  the 3 conditions hold (info provided incl EIN + onboarding wizard done +
+  Stripe customer on record). The BACK half (customer profile -> trust ->
+  brand -> campaign, hourly advance; TF verification wizard + resubmit)
+  already exists — B3 is the front leg + the 3-condition trigger.
+  GATED: flips on only after the CRW pilot proves end-to-end (CRW is at
+  a2p_trust, in Twilio review). Also: activation of staged lists stays a
+  human click.
 
 ## C. LSA leads-health — **HELD for go** (approved in principle)
 
