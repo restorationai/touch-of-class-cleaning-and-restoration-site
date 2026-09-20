@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-20-water-damage-restoration-cost-wa",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-20T14:28:52Z",
       "priority": 1,
       "prioritized": true,
@@ -29,7 +29,8 @@
       ],
       "source": "best-of-seeder",
       "written_at": "2026-09-20T14:32:30Z",
-      "post_url": "https://frontlinefireflood.com/blog/water-damage-restoration-cost-wa/"
+      "post_url": "https://frontlinefireflood.com/blog/water-damage-restoration-cost-wa/",
+      "published_verified_at": "2026-09-20T14:33:50Z"
     },
     {
       "id": "2026-09-07-storm-wind-damage-restoration",
