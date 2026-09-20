@@ -477,7 +477,7 @@
     },
     {
       "id": "2026-08-17-how-much-does-a-plumber-cost-to-unclog-a-toilet",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-17T17:38:35Z",
       "written_at": "2026-09-20T14:21:13Z",
       "post_url": "https://allproplumbingheatingandair.com/blog/how-much-does-a-plumber-cost-to-unclog-a-toilet/",
@@ -512,7 +512,8 @@
         "https://www.epa.gov/watersense/residential-toilets"
       ],
       "notes": "Price by escalation tier rather than one number: auger from the bowl, pull-and-reset, branch line, main line, camera inspection. Complements the already-queued 'unclog a drain' post: that one prices drains and sewer laterals, this one stays on the toilet and hands off to it, so cross-link instead of restating. Key diagnostic hook readers search for: if the tub gurgles when the toilet flushes it is a main line, not a toilet. Brand hours are 24/7 so the after-hours premium can be described plainly. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor) and link the CSLB lookup. SCOPE GATE: stay on stopping the water and fixing the pipe. Do not mention mold remediation, structural drying or reconstruction (restoration vertical, sister company ProRestoration Services).",
-      "source": "rank-ai-keyword-researcher"
+      "source": "rank-ai-keyword-researcher",
+      "published_verified_at": "2026-09-20T14:22:35Z"
     },
     {
       "id": "2026-08-17-how-much-does-a-plumber-cost-to-fix-a-pipe",
