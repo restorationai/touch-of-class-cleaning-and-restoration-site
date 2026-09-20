@@ -2194,6 +2194,24 @@ def cmd_scaffold(args) -> int:
     except Exception as _e:  # noqa: BLE001 — never blocks a scaffold
         print(f"    reviews sync skipped ({str(_e)[:80]})")
 
+    # BEFORE/AFTER PAIRS AT BUILD TIME (A4, Santino 2026-09-20): the slider
+    # ships wired but hidden until work.ts holds pairs — populate every new
+    # build with service-matched generated pairs (a populated work.ts, e.g.
+    # real client photos, is never overwritten). Fail-soft like the reviews
+    # sync: an image API hiccup never blocks a scaffold.
+    try:
+        _r = subprocess.run(
+            [sys.executable, str(REPO_ROOT / "scripts" / "gen_site_images.py"),
+             "--slug", slug, "--pairs", "--no-harvest"],
+            capture_output=True, text=True, timeout=1200)
+        for _ln in (_r.stdout or "").strip().splitlines()[-5:]:
+            print(f"    {_ln.strip()}")
+        if _r.returncode != 0:
+            print(f"    pairs generation exit {_r.returncode} "
+                  f"({(_r.stderr or '').strip()[-120:]})")
+    except Exception as _e:  # noqa: BLE001
+        print(f"    pairs generation skipped ({str(_e)[:80]})")
+
     print()
     print("==> Scaffold complete.")
     print(f"    Local working tree: {site_dir}")

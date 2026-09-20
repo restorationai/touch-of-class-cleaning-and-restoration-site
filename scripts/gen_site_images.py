@@ -311,6 +311,168 @@ def generate_service_images(*, slug: str, geo: str, guide: str,
     return 1 if failed else 0
 
 
+# ---------------------------------------------------------------------------
+# BEFORE/AFTER PAIRS (A4, Santino 2026-09-20: "make sure the template would
+# include all of this for new websites"). The homepage slider ships wired but
+# self-hidden until src/data/work.ts holds pairs; the fleet policy (work.ts
+# header, 2026-09-18) says EVERY client gets service-matched showcase pairs
+# at build time — this closes the automation gap. Before is generated fresh;
+# after is an EDIT of the before (passed as a reference image) so the scene
+# geometry matches under the drag slider. SERVICE-MATCHED: only pairs for
+# services in plan-input; catalog order is the priority order; max 4 pairs.
+# A populated work.ts is NEVER overwritten (ACS carries a REAL job photo).
+# ---------------------------------------------------------------------------
+PAIR_CATALOG: list[tuple[str, set, str, str, str, str, str]] = [
+    ("water", {"water-damage-restoration", "water-cleanup", "flood-cleanup",
+               "water-mitigation"},
+     "Water Damage Restoration",
+     "Interior of a family living room with two inches of standing water "
+     "across the floor, waterline staining on the lower walls, furniture "
+     "legs submerged. Shot on a phone by a technician, natural window "
+     "light, no people, no text.",
+     "the SAME living room fully dried and restored: water gone, floor "
+     "clean and dry, walls repaired and freshly painted",
+     "Flooded living room with standing water before restoration",
+     "Same living room fully dried and restored"),
+    ("fire", {"fire-damage-restoration", "smoke-damage-restoration",
+              "fire-and-smoke-restoration"},
+     "Fire & Smoke Restoration",
+     "Interior of a kitchen after a small contained fire: black soot "
+     "staining up the wall and ceiling above the stove, smoke residue on "
+     "cabinets. Shot on a phone, no people, no flames, no text.",
+     "the SAME kitchen fully cleaned and restored: soot gone, wall and "
+     "ceiling repainted clean white, cabinets spotless",
+     "Kitchen with soot and smoke damage before restoration",
+     "Same kitchen fully cleaned and restored after fire damage"),
+    ("mold", {"mold-remediation", "mold-removal", "mold-inspection"},
+     "Mold Remediation",
+     "Corner of a bathroom wall and ceiling with a spreading patch of dark "
+     "mold growth, paint bubbling. Shot on a phone, close enough to see "
+     "texture, no people, no text.",
+     "the SAME bathroom corner fully remediated: mold gone, surface "
+     "repaired and repainted clean, dry and bright",
+     "Bathroom wall with spreading mold before remediation",
+     "Same bathroom wall clean and repainted after mold remediation"),
+    ("sewage", {"sewage-cleanup", "sewage-backup-cleanup"},
+     "Sewage Cleanup",
+     "A basement utility room floor after a sewage backup: dark "
+     "contaminated water pooled around a floor drain, staining the "
+     "concrete. Shot on a phone, no people, no text.",
+     "the SAME basement utility room after professional cleanup: floor "
+     "extracted, disinfected and dry, concrete clean",
+     "Basement floor after a sewage backup before cleanup",
+     "Same basement floor disinfected and dry after cleanup"),
+    ("storm", {"storm-damage-restoration", "storm-damage-repair"},
+     "Storm Damage Restoration",
+     "A residential ceiling and wall corner with a storm leak: sagging wet "
+     "drywall, brown water staining spreading outward. Shot on a phone, "
+     "no people, no text.",
+     "the SAME ceiling and wall fully repaired: new drywall, seamless "
+     "finish, freshly painted, dry",
+     "Storm-damaged ceiling with sagging wet drywall before repair",
+     "Same ceiling fully repaired and repainted after storm damage"),
+    ("carpet", {"carpet-cleaning"},
+     "Carpet Cleaning",
+     "Wall-to-wall beige carpet in a lived-in family room, heavily soiled "
+     "with dark traffic lanes and scattered stains, matted pile. Shot on "
+     "a phone, no people, no text.",
+     "the SAME carpet professionally deep-cleaned: uniform bright color, "
+     "fresh vacuum lines, stains gone",
+     "Heavily soiled carpet with traffic lanes before cleaning",
+     "Same carpet restored to like-new condition after cleaning"),
+    ("duct", {"air-duct-cleaning", "duct-cleaning"},
+     "Air Duct Cleaning",
+     "Looking straight into an open residential HVAC duct: the interior "
+     "caked with grey dust, lint and debris. Shot on a phone with flash, "
+     "no people, no text.",
+     "the SAME duct interior professionally cleaned: bare shining metal, "
+     "spotless",
+     "HVAC duct interior caked with dust before cleaning",
+     "Same duct interior spotless after professional cleaning"),
+    ("tile", {"tile-grout-cleaning", "tile-and-grout-cleaning"},
+     "Tile & Grout Cleaning",
+     "A tiled kitchen floor with grout lines blackened by years of grime, "
+     "tiles dull and dingy. Shot on a phone, no people, no text.",
+     "the SAME tiled floor after professional cleaning: grout lines "
+     "uniformly bright, tiles glossy clean",
+     "Tile floor with blackened grout before cleaning",
+     "Same tile floor with bright grout after professional cleaning"),
+    ("junk", {"junk-debris-removal", "junk-removal", "debris-removal"},
+     "Junk & Debris Removal",
+     "A two-car garage packed with accumulated junk: broken furniture, "
+     "boxes, bags and clutter piled high. Shot on a phone, no people, "
+     "no text.",
+     "the SAME garage completely cleared out and swept clean, empty "
+     "floor visible wall to wall",
+     "Garage packed with junk and debris before removal",
+     "Same garage cleared and swept clean after junk removal"),
+]
+
+_WORK_EMPTY_MARKER = "export const workPairs: BeforeAfterPair[] = [];"
+
+
+def generate_pairs(*, slug: str, geo: str, guide: str) -> None:
+    site = ROOT / "sites" / slug
+    work_p = site / "src" / "data" / "work.ts"
+    if not work_p.exists():
+        print("  pairs: no work.ts (pre-slider scaffold) — skipping")
+        return
+    if _WORK_EMPTY_MARKER not in work_p.read_text():
+        print("  pairs: work.ts already populated — never overwritten")
+        return
+    services = set(json.loads(
+        (ROOT / "clients" / slug / "plan-input.json").read_text()
+    ).get("services") or [])
+    picks = [c for c in PAIR_CATALOG if c[1] & services][:4]
+    if not picks:
+        print("  pairs: no catalog match for this client's services")
+        return
+    out_dir = site / "public" / "images" / "before-after"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    entries = []
+    for kind, _svc, label, before_prompt, after_edit, alt_b, alt_a in picks:
+        b_p, a_p = out_dir / f"{kind}-before.png", out_dir / f"{kind}-after.png"
+        try:
+            if b_p.exists():
+                before_png = b_p.read_bytes()
+                print(f"  pairs: {kind}-before exists — kept")
+            else:
+                before_png = gemini_generate_image(
+                    f"{before_prompt} Photorealistic. {geo} {guide[:600]}",
+                    aspect_ratio="16:9")
+                b_p.write_bytes(before_png)
+                print(f"  pairs: {kind}-before generated")
+            if not a_p.exists():
+                after_png = gemini_generate_image(
+                    "Using the attached photo of this exact room, produce "
+                    f"{after_edit}. IDENTICAL camera angle, layout, "
+                    "architecture and lighting — only the damage and "
+                    "cleanliness change. Photorealistic, no text.",
+                    aspect_ratio="16:9", reference_png=before_png)
+                a_p.write_bytes(after_png)
+                print(f"  pairs: {kind}-after generated (edit of before)")
+        except Exception as e:  # noqa: BLE001 — a failed pair never blocks the rest
+            print(f"  pairs: {kind} FAILED ({str(e)[:90]}) — skipped")
+            continue
+        entries.append((kind, label, alt_b, alt_a))
+    if not entries:
+        print("  pairs: nothing generated — work.ts untouched")
+        return
+    rows = ",\n".join(
+        f'''  {{
+    label: "{label}",
+    beforeSrc: "/images/before-after/{kind}-before.png",
+    beforeAlt: "{alt_b}",
+    afterSrc: "/images/before-after/{kind}-after.png",
+    afterAlt: "{alt_a}",
+  }}''' for kind, label, alt_b, alt_a in entries)
+    txt = work_p.read_text().replace(
+        _WORK_EMPTY_MARKER,
+        "export const workPairs: BeforeAfterPair[] = [\n" + rows + "\n];")
+    work_p.write_text(txt)
+    print(f"  pairs: work.ts populated with {len(entries)} pair(s)")
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--slug", required=True)
@@ -325,6 +487,10 @@ def main() -> int:
     ap.add_argument("--no-harvest", action="store_true",
                     help="skip the real-photo harvest that otherwise runs "
                          "before the first generation for a client")
+    ap.add_argument("--pairs", action="store_true",
+                    help="generate service-matched before/after slider pairs "
+                         "and populate an EMPTY src/data/work.ts (a populated "
+                         "work.ts is never overwritten)")
     args = ap.parse_args()
     slug = args.slug
 
@@ -512,6 +678,10 @@ def main() -> int:
         _Image.open(hero_path).convert("RGB").save(buf, "PNG")
         refs.append(buf.getvalue())
         print("  fleet-continuity reference: public/images/hero-bg.webp")
+
+    if args.pairs:
+        generate_pairs(slug=slug, geo=geo, guide=guide)
+        return 0
 
     if args.services:
         return generate_service_images(

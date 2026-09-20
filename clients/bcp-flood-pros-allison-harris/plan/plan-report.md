@@ -1,7 +1,7 @@
 # Site Plan Report — FIX Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T19:17:06.057656+00:00
+- Generated: 2026-09-20T19:33:24.463223+00:00
 - Domain: `fixofutah.com`
 - Services selected: 11 of 65 catalog entries
 - Service areas: 17
