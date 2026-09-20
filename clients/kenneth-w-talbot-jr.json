@@ -13,7 +13,7 @@
     "url_count": 76,
     "generated_at": "2026-09-03T22:41:58.346418+00:00"
   },
-  "updated_at": "2026-09-18T10:43:17.268146+00:00",
+  "updated_at": "2026-09-20T01:06:20.137045+00:00",
   "indexnow_key": "75dd8f9a32634e4eb180216d9935a31c",
   "build": {
     "scaffolded_at": "2026-09-03T22:42:07.744312+00:00",
@@ -24,9 +24,9 @@
     "pages_status": "exists",
     "last_rendered_at": "2026-09-18T14:33:38.143589+00:00",
     "last_pushed_staging_at": "2026-09-11T05:15:12.751028+00:00",
-    "last_pushed_main_at": "2026-09-18T10:43:17.268127+00:00"
+    "last_pushed_main_at": "2026-09-20T01:06:20.137001+00:00"
   },
-  "build_status": "content_rendered",
+  "build_status": "pushed_main",
   "cutover_prep": {
     "domain": "veteransremediation.com",
     "harvested_at": "2026-09-04T14:16:20+00:00",

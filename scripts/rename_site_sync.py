@@ -56,16 +56,18 @@ _LEGAL_RE = re.compile(r'(\blegalName:\s*")([^"]*)(")')
 
 
 def _display_case(cid: str, filed: str) -> str:
-    """Filings come back ALL CAPS; the chosen suggestion card holds the
-    case we publish everywhere (GBP, citations). Use it when it is the
-    same name; otherwise trust the filed string verbatim."""
+    """The chosen suggestion card is the DISPLAY CANON — the exact string
+    that must print identically on GBP, citations, and the site (Kenny
+    2026-09-19: his 94-char filing is the legal anchor, but the canonical
+    display is a <=90 variant; matching only near-equal strings shipped the
+    ALL-CAPS filing to his site). A chosen row, when present, wins; the
+    filed string is the fallback for clients decided before the card
+    existed."""
     rows = _sb("GET", f"/rest/v1/marketing_gbp_suggestions?company_id=eq.{cid}"
                "&item_type=eq.name&status=eq.chosen&select=item"
                "&order=created_at.desc&limit=1") or []
     chosen = (str(rows[0].get("item")) or "").strip() if rows else ""
-    if chosen and chosen.strip().lower() == filed.strip().lower():
-        return chosen
-    return filed
+    return chosen or filed
 
 
 def _git(args: list) -> None:
@@ -85,11 +87,12 @@ def _llms_patch(slug: str, dba: str, legal: str, dry_run: bool) -> bool:
         return False
     txt = p.read_text()
     line = f"Doing business as: {dba} (registered trade name of {legal})."
-    if dba in txt:
+    if line in txt:
         return False
     if dry_run:
         return True
-    lines = txt.splitlines()
+    lines = [l for l in txt.splitlines()
+             if not l.startswith("Doing business as: ")]  # replace, not stack
     ins = 1 if lines and lines[0].startswith("#") else 0
     lines.insert(ins, "")
     lines.insert(ins + 1, line)
