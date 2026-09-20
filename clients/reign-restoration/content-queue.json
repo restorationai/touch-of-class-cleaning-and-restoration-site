@@ -124,10 +124,10 @@
     },
     {
       "id": "2026-08-26-ceiling-water-damage",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-26T22:20:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-20T14:43:15Z",
+      "post_url": "https://reign-restoration.com/blog/ceiling-water-damage/",
       "primary_keyword": "ceiling water damage",
       "intent": "informational",
       "volume": 3600,
