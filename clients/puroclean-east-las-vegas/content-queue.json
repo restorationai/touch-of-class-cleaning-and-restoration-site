@@ -1156,7 +1156,7 @@
     },
     {
       "id": "2026-09-15-fire-damage-restoration-spring-valley",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-15T14:24:35Z",
       "priority": 1,
       "prioritized": true,
@@ -1166,7 +1166,83 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": "spring-valley-nv",
-      "source": "gameplan-2026-09-3 (dev-agent)"
+      "source": "gameplan-2026-09-3 (dev-agent)",
+      "written_at": "2026-09-20T14:40:50Z",
+      "post_url": "https://purocleaneastlasvegas.com/blog/fire-damage-restoration-spring-valley/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/fire-damage-restoration-spring-valley.md",
+          "part": "frontmatter",
+          "family": "service-scope",
+          "severity": "review",
+          "matched": "structural reconstruction",
+          "context": "dor elimination, contents pack-out, and structural reconstruction back to pre-loss condition. Insurance c",
+          "reason": "names the 'reconstruction' service family but plan-input services are only: fire-damage-restoration, mold-remediation, water-damage-restoration, sewage-cleanup, biohazard-cleanup, burst-frozen-pipes"
+        },
+        {
+          "file": "src/content/blog/fire-damage-restoration-spring-valley.md",
+          "part": "body",
+          "family": "service-scope",
+          "severity": "review",
+          "matched": "Structural reconstruction",
+          "context": "-restoration-pack-out/) protocols. 6. **Structural reconstruction.** Once the structure is clean, dry, an",
+          "reason": "names the 'reconstruction' service family but plan-input services are only: fire-damage-restoration, mold-remediation, water-damage-restoration, sewage-cleanup, biohazard-cleanup, burst-frozen-pipes"
+        },
+        {
+          "file": "src/content/blog/fire-damage-restoration-spring-valley.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "an be saved rather than replaced. The [IICRC](https://www.iicrc.org) publishes stand",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/fire-damage-restoration-spring-valley.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified technician",
+          "context": "tion (the S700 standard) that guide how certified technicians prioritize and sequence this work. Whe",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/fire-damage-restoration-spring-valley.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "ration company, ask whether they follow IICRC S700 protocols. ## What Should You Do",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/fire-damage-restoration-spring-valley.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "re the contractor you hire is licensed, IICRC-certified, and experienced with Clark C",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/fire-damage-restoration-spring-valley.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "as** PuroClean of East Las Vegas is an IICRC-certified restoration company serving S",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/fire-damage-restoration-spring-valley.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified restoration",
+          "context": "PuroClean of East Las Vegas is an IICRC-certified restoration company serving Spring Valley, Las Vega",
+          "reason": "names a certification not present in brand.certifications"
+        }
+      ]
     },
     {
       "id": "2026-09-15-fire-damage-restoration-sunrise-manor",
