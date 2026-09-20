@@ -854,6 +854,18 @@ def fetch_history(contact_id: str, max_msgs: int = HISTORY_MAX_MSGS) -> list[dic
                 # photo-only MMS must be visible in history or the composer
                 # re-asks for photos the client already texted (Jeff, 07-22)
                 tag = f"[sent {n_att} photo/video attachment(s)]"
+                # VISION TAGS (ACS 2026-09-19): inbound images get a one-line
+                # description so the composer knows WHAT the client is
+                # pointing at — a screenshot of our own site is site
+                # feedback, not name feedback. Cached per URL; fail-soft to
+                # the plain count tag.
+                if msg.get("direction") == "inbound":
+                    try:
+                        vt = attachment_vision_tags(msg.get("attachments"))
+                        if vt:
+                            tag = f"[sent {n_att} attachment(s) — {vt}]"
+                    except Exception:  # noqa: BLE001
+                        pass
                 body = f"{body} {tag}".strip() if body else tag
             if not body:
                 continue
@@ -4184,6 +4196,113 @@ def soften_device_assumption(body: str) -> str:
     return out
 
 
+_SVC_DISCLAIM_RE = re.compile(
+    r"\bwe (?:don'?t|do not|never|no longer) (?:do|offer|handle|touch|"
+    r"provide|perform)\s+(?:the\s+)?([a-z][a-z &/-]{2,50}?)"
+    r"(?:\s+(?:work|jobs|side|stuff))?\s*(?:[.!,\n]|$)", re.I)
+
+
+def record_service_disclaimers(company: dict | None, pending: dict) -> None:
+    """A client saying plainly "we don't do X" is a durable SERVICE FACT,
+    not just conversation (single-source-of-truth law; ACS 2026-09-19:
+    "We don't do Mold or fire" + "We don't do the rebuild" had to be
+    hand-carried into the site prompts). Record the exact phrases they
+    used on integration_settings.services_excluded and file ONE ops note
+    so the systems that consume scope (site prompts, GBP services, name
+    slates) get trued up. Records only what they literally named; never
+    infers. Deduped per message."""
+    cid = str((company or {}).get("id") or "")
+    body = str((pending or {}).get("body") or "")
+    if not (cid and body):
+        return
+    hits = []
+    for m in _SVC_DISCLAIM_RE.finditer(body):
+        phrase = re.sub(r"\s+", " ", m.group(1)).strip(" -/&").lower()
+        if phrase and phrase not in ("it", "that", "this", "them", "anything"):
+            hits.append(phrase)
+    if not hits:
+        return
+    import hashlib
+    dkey = ("svc-disclaim:" + cid + ":"
+            + hashlib.sha1(body.encode()).hexdigest()[:12])
+    if kv_get(dkey):
+        return  # this exact message already recorded
+    rows = _sb("GET", f"/rest/v1/companies?id=eq.{cid}"
+               "&select=integration_settings") or []
+    ints = (rows[0].get("integration_settings") if rows else {}) or {}
+    excl = list(ints.get("services_excluded") or [])
+    new = [h for h in hits if h not in excl]
+    if new:
+        ints["services_excluded"] = excl + new
+        _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}",
+            {"integration_settings": ints})
+        _sb("POST", "/rest/v1/marketing_ops_notes",
+            {"company_id": cid, "status": "open", "author": "monica",
+             "body": ("[SERVICE SCOPE] Client stated they do NOT do: "
+                      + ", ".join(new) + f" (from their text: "
+                      f"\"{body[:140]}\"). Recorded on "
+                      "services_excluded. True up wherever scope lives: "
+                      "site content/prompts, GBP services, name "
+                      "candidates, content lanes.")},
+            prefer="return=minimal")
+        print(f"  [svc-disclaim] recorded: {', '.join(new)}")
+    kv_set(dkey, {"at": datetime.now(timezone.utc).isoformat(),
+                  "phrases": hits})
+
+
+_LOCKED_NAME_CACHE: dict = {}
+
+
+def locked_name_violation(company: dict | None, body: str) -> str | None:
+    """Refusal reason when a draft proposes a business name different from
+    the client's LOCKED chosen name, else None (ACS 2026-09-19: Monica
+    misread site feedback and texted 'let's drop carpet and duct from the
+    name. New fit: "..." Want to lock that in?' about a name the client had
+    already been told to file letter for letter). Name changes are a human
+    decision; Monica never renegotiates one. Fail-open when no name is
+    locked."""
+    cid = str((company or {}).get("id") or "")
+    if not cid or not body:
+        return None
+    if cid not in _LOCKED_NAME_CACHE:
+        chosen = ""
+        try:
+            rows = _sb("GET", "/rest/v1/marketing_gbp_suggestions"
+                       f"?company_id=eq.{cid}&item_type=eq.name"
+                       "&status=eq.chosen&select=item&limit=1") or []
+            chosen = str((rows[0] if rows else {}).get("item") or "").strip()
+            if not chosen:
+                kv = kv_get(f"rename-convo:{cid}") or {}
+                chosen = str(kv.get("chosen") or "").strip()
+        except Exception:  # noqa: BLE001 — unknown = no lock = no guard
+            chosen = ""
+        _LOCKED_NAME_CACHE[cid] = chosen
+    chosen = _LOCKED_NAME_CACHE[cid]
+    if not chosen:
+        return None
+
+    def _norm(t: str) -> str:
+        t = re.sub(r"\s*&\s*", " and ", str(t))
+        return re.sub(r"\s+", " ", t).strip().lower().rstrip(".")
+
+    # Net A: a quoted keyworded-name-looking string that is NOT the locked
+    # name (brand prefix + " - " + descriptor is our naming shape).
+    for m in re.finditer(r'"([^"\n]{10,110} - [^"\n]{4,90})"', body):
+        if _norm(m.group(1)) != _norm(chosen):
+            return ("locked-name guard: the draft proposes a name "
+                    f"({m.group(1)[:60]!r}) different from the LOCKED chosen "
+                    f"name — name changes are a human decision, never "
+                    "Monica's. Message held.")
+    # Net B: renegotiation phrasing about the name while a lock exists.
+    if re.search(r"(drop (it|that|those|them)? ?from the name|new fit:|"
+                 r"(change|update|revise|rework) the name|"
+                 r"different name|new name idea)", body, re.I):
+        return ("locked-name guard: the draft renegotiates a LOCKED business "
+                "name. Acknowledge and route to the team instead. "
+                "Message held.")
+    return None
+
+
 def internal_leak_violation(body: str, internal: list[dict] | None,
                             company: dict | None = None) -> str | None:
     """Refusal reason when a draft leaks internal work, else None.
@@ -4506,6 +4625,13 @@ def send_message(contact: dict, channel: str, body: str,
         wrongname = wrong_name_violation(company, contact, body)
         if wrongname:
             raise SendBlocked(wrongname)
+        # LOCKED NAME — Monica never renegotiates a confirmed business
+        # name (ACS 2026-09-19). A sanctioned name change updates the
+        # chosen record FIRST (the FF correction pattern), after which a
+        # draft stating the new canonical passes this guard naturally.
+        lockviol = locked_name_violation(company, body)
+        if lockviol:
+            raise SendBlocked(lockviol)
     # Device wording is fixed in place rather than blocked (see
     # soften_device_assumption): a desktop client should not be told to "tap".
     body = soften_device_assumption(body)
@@ -6287,6 +6413,10 @@ def cmd_compose(args) -> int:
                  else "waiting on a reply")
         print(f"Client {label}: {pending['body'][:90]!r} "
               "(cooldown/nudge-cap bypassed — this send is a reply, not a nudge)")
+        try:
+            record_service_disclaimers(company, pending)
+        except Exception as _e:  # noqa: BLE001 — recording never blocks a reply
+            print(f"  [svc-disclaim] {str(_e)[:80]}")
         if pending.get("recheck"):
             print(f"  [re-check] {pending['recheck']}")
     elif cs.get("awaiting_reply") is None and armed_before:
@@ -7359,6 +7489,25 @@ REPLY_SYSTEM = """\
 You are Monica from Santino's team at Restoration AI, replying after a
 client answered something. Voice: warm, brief, human. NEVER use em dashes or en
 dashes; use a comma or a period instead.
+- ATTRIBUTION — WHICH conversation is this reply about? (ACS 2026-09-19,
+  live failure: the client sent website revision feedback with screenshots
+  of his own preview site; Monica read it through the rename conversation
+  and proposed changing a locked business name he never questioned.)
+  Interpret every client statement relative to (a) the message of OURS it
+  most plausibly answers and (b) any image tags in the history: a
+  screenshot of the client's own website means they are talking about the
+  WEBSITE; a photo of a filing means the DBA; a statement right after a
+  proposed name means the name. "We don't do mold" after a name containing
+  mold is name feedback; the same words with a site screenshot is a site
+  correction. Take the statement at face value and ONLY about the exact
+  services they named, never extend it to other services. If, after the
+  images and the last exchange, it is genuinely unclear which workstream
+  they mean, ask one short question ("Is that about the website or the
+  name?") instead of guessing.
+- LOCKED NAMES ARE FINAL: once a business name has been confirmed and the
+  client told to file it, NEVER propose a different name string yourself.
+  If their message makes the locked name look wrong, acknowledge, say the
+  team will review it, and stop — a human decides name changes.
 - BE SHORT — hard rule (Santino 2026-08-04). One or two short sentences,
   160-200 characters. No preamble, no re-explaining anything already said in
   the thread, no justifying the ask, no closing filler ("let me know if you
@@ -10078,6 +10227,79 @@ def _email_inline_vision(msg: dict) -> list[dict]:
         return out
     except Exception:  # noqa: BLE001
         return []
+
+
+_ATT_TAG_KEY = "attachment-vision-tags"
+_ATT_TAG_CACHE: dict = {}
+_ATT_TAG_LOADED = [False]
+
+
+def attachment_vision_tags(urls: list | None) -> str | None:
+    """One human-readable line per inbound image, so the composer SEES what
+    the client sent (ACS 2026-09-19: "We don't do the rebuild" arrived WITH
+    a screenshot of our own preview site's FAQ, circled — text-only history
+    rendered it "[sent 1 photo attachment]", Monica read the words through
+    the rename lens and proposed unlocking a locked name). Each URL is
+    classified ONCE ever (ops_kv cache), so history replays are free.
+    Returns e.g. "images: screenshot of the client's own preview website
+    (FAQ section about rebuild, circled in red)" or None."""
+    imgs = [u for u in (urls or [])
+            if str(u).rsplit(".", 1)[-1].lower()
+            not in ("mp4", "mov", "m4v", "mpg4", "avi", "vcf", "csv")]
+    if not imgs:
+        return None
+    if not _ATT_TAG_LOADED[0]:
+        try:
+            _ATT_TAG_CACHE.update(kv_get(_ATT_TAG_KEY) or {})
+        except Exception:  # noqa: BLE001
+            pass
+        _ATT_TAG_LOADED[0] = True
+    import hashlib
+    keys = [hashlib.sha1(str(u).encode()).hexdigest()[:16] for u in imgs]
+    fresh = [u for u, k in zip(imgs, keys) if k not in _ATT_TAG_CACHE]
+    if fresh:
+        blocks = _vision_blocks(fresh)
+        if blocks:
+            try:
+                out = anthropic_json(
+                    "You classify images a client texted to their marketing "
+                    "agency, for a conversation transcript. For EACH image, "
+                    "one sentence: what it is and what it shows. If it is a "
+                    "website screenshot, say whose site it appears to be "
+                    "(browser address bar, logo, branding — e.g. 'the "
+                    "client's own preview website (rankai-*.pages.dev)' vs "
+                    "a third-party or competitor site), which section/page "
+                    "is visible, and any client markup (circles, arrows). "
+                    "If it is a document (DBA filing, W9, invoice), name "
+                    "it. If a photo of real-world work, say so plainly.",
+                    'Return STRICT JSON: {"images": [{"line": str}]} — one '
+                    f"entry per image, {len(blocks)} image(s) attached, in "
+                    "order.", max_tokens=800, images=blocks)
+                lines = [str(x.get("line") or "").strip()
+                         for x in (out.get("images") or [])]
+            except Exception as e:  # noqa: BLE001 — vision never blocks history
+                print(f"    [att-vision] failed ({str(e)[:60]})")
+                lines = []
+            it = iter(lines)
+            changed = False
+            for u, k in zip(imgs, keys):
+                if k in _ATT_TAG_CACHE or u not in fresh:
+                    continue
+                ln = next(it, "")
+                if ln:
+                    _ATT_TAG_CACHE[k] = {"line": ln[:300], "at":
+                                         datetime.now(timezone.utc).isoformat()}
+                    changed = True
+            if changed:
+                try:
+                    while len(_ATT_TAG_CACHE) > 500:
+                        _ATT_TAG_CACHE.pop(next(iter(_ATT_TAG_CACHE)))
+                    kv_set(_ATT_TAG_KEY, _ATT_TAG_CACHE)
+                except Exception:  # noqa: BLE001
+                    pass
+    tags = [(_ATT_TAG_CACHE.get(k) or {}).get("line") for k in keys]
+    tags = [t for t in tags if t]
+    return ("images: " + "; ".join(tags)) if tags else None
 
 
 def _vision_blocks(attachments: list | None) -> list[dict]:
@@ -12993,6 +13215,35 @@ def cmd_selfcheck(_args) -> int:
           "with internal work open")
     print(f"  {'ok  ' if other else 'FAIL'} someone else's pages.dev "
           "link still holds")
+
+    # ---- a locked business name is never renegotiated by Monica ----------
+    print("\nlocked-name guard (ACS 2026-09-19):")
+    _LOCKED_NAME_CACHE["CO-selftest"] = (
+        "ACS Enterprise - 24/7 Emergency Water Damage Restoration, "
+        "Carpet and Air Duct Cleaning")
+    _co = {"id": "CO-selftest"}
+    lock_cases = [
+        # Monica's actual bad send: proposes a DIFFERENT quoted name
+        ('Since you don\'t do carpet or duct work, let\'s drop those from '
+         'the name. New fit: "ACS Enterprise - Water Damage Restoration & '
+         'Sewage Cleanup." Want to lock that in?', True),
+        # renegotiation phrasing without quotes still holds
+        ("Happy to rework the name if you want something shorter.", True),
+        # restating the LOCKED name letter for letter passes
+        ('The exact name to file is "ACS Enterprise - 24/7 Emergency Water '
+         'Damage Restoration, Carpet and Air Duct Cleaning", letter for '
+         'letter.', False),
+        # ordinary copy with a hyphen does not trip net A
+        ("Your new site is up - take a look and tell us what you think.",
+         False),
+    ]
+    for draft, want_block in lock_cases:
+        got = locked_name_violation(_co, draft)
+        ok = bool(got) == want_block
+        fails += (not ok)
+        print(f"  {'ok  ' if ok else 'FAIL'} blocked={str(bool(got)):<5} "
+              f"{draft[:56]!r}")
+    _LOCKED_NAME_CACHE.pop("CO-selftest", None)
 
     # ---- file requests are hub-link-only and device-neutral ---------------
     print("\nfile requests: never email, never assume a phone:")
