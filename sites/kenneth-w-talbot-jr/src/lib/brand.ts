@@ -5,8 +5,10 @@
 export const brand = {
   slug: "kenneth-w-talbot-jr",
   displayName: "Veterans Remediation & Restoration ",
+  // Registered DBA / trade name (backfilled by rename_site_sync.py on old scaffolds).
+  dbaName: "VETERANS REMEDIATION & RESTORATION - 24/7 MOLD REMEDIATION, WATER AND FIRE DAMAGE RESTORATION",
   shortName: "Veterans Remediation & Restoration ",
-  legalName: "Veterans Remediation & Restoration ",
+  legalName: "Veterans Remediation & Restoration",
   domain: "veteransremediation.com",
   canonicalUrl: "https://veteransremediation.com",
   phone: "(337) 344-1248",
