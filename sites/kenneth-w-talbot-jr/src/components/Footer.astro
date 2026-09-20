@@ -73,7 +73,7 @@ const year = new Date().getFullYear();
   </div>
 
   <div class="container-wide mt-16 pt-8 border-t border-navy-900/10 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 text-xs text-navy-900/70">
-    <div>© {year} {brand.legalName}. All rights reserved.</div>
+    <div>© {year} {brand.legalName}{(brand as { dbaName?: string }).dbaName ? `, doing business as ${(brand as { dbaName?: string }).dbaName}` : ""}. All rights reserved.</div>
     <div class="flex flex-wrap items-center gap-x-3 gap-y-1">
       <span>{brand.licenseType}</span>
       <span class="text-navy-900/70" aria-hidden="true">·</span>
