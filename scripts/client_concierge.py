@@ -4550,17 +4550,56 @@ def _stamp_preview_reveal(company: dict | None, body: str) -> None:
                "&select=integration_settings") or []
     ints = (rows[0].get("integration_settings") if rows else {}) or {}
     reveal = ints.get("site_reveal") or {}
+    now = datetime.now(timezone.utc)
     if reveal.get("sent_at"):
-        return  # already stamped — the clock never restarts
+        # FOLLOW-UP STAMP (Santino 2026-09-20): a second link-bearing send
+        # 12h+ after the reveal is the one follow-up nudge. Stamped once;
+        # the board's silence-release counts 2 quiet days from HERE.
+        if not reveal.get("followup_sent_at"):
+            try:
+                first = datetime.fromisoformat(
+                    str(reveal["sent_at"]).replace("Z", "+00:00"))
+                if (now - first).total_seconds() >= 12 * 3600:
+                    reveal["followup_sent_at"] = now.isoformat()
+                    ints["site_reveal"] = reveal
+                    _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}",
+                        {"integration_settings": ints})
+                    print(f"  [reveal-stamp] follow-up recorded for {slug}")
+            except ValueError:
+                pass
+        return  # the first-send clock never restarts
     m = re.search(r"https?://\S*rankai-" + re.escape(slug)
                   + r"\.pages\.dev\S*", body)
     ints["site_reveal"] = {
-        "sent_at": datetime.now(timezone.utc).isoformat(),
+        "sent_at": now.isoformat(),
         "url": (m.group(0) if m else f"https://rankai-{slug}.pages.dev"),
     }
     _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}",
         {"integration_settings": ints})
     print(f"  [reveal-stamp] preview reveal recorded for {slug}")
+
+
+def _reveal_followup_due(company: dict | None,
+                         history: list[dict] | None = None) -> bool:
+    """True when the site reveal went out 2+ days ago, the client never
+    replied, and the one follow-up hasn't been sent — the cooldown
+    carve-out that makes silence-release mean 'ignored two touches'."""
+    ints = (company or {}).get("integration_settings") or {}
+    reveal = ints.get("site_reveal") or {}
+    if not reveal.get("sent_at") or reveal.get("followup_sent_at"):
+        return False
+    try:
+        sent = datetime.fromisoformat(
+            str(reveal["sent_at"]).replace("Z", "+00:00"))
+    except ValueError:
+        return False
+    if (datetime.now(timezone.utc) - sent).days < 2:
+        return False
+    for m in history or []:
+        if (m.get("direction") == "in" and m.get("when")
+                and m["when"] > sent):
+            return False  # they replied — the normal reply flow owns this
+    return True
 
 
 def send_message(contact: dict, channel: str, body: str,
@@ -6574,9 +6613,19 @@ def cmd_compose(args) -> int:
               "inspection]")
 
     if args.send:
+        # REVEAL FOLLOW-UP CARVE-OUT (Santino 2026-09-20): after the site
+        # preview goes out, exactly ONE follow-up rides at the 2-day mark —
+        # earlier than the normal cooldown — so the board's silence-release
+        # ("2 quiet days AFTER the follow-up") means the client ignored two
+        # touches, not one. The unlinked-preview guard forces the follow-up
+        # to carry the link, which is what stamps followup_sent_at.
+        followup_due = _reveal_followup_due(company, history)
+        if followup_due:
+            print("  [reveal-followup] preview sent 2d+ ago, no reply, no "
+                  "follow-up yet — cooldown carve-out for one nudge")
         gate = cadence_check(cs, company, contact,
                              boss_override=bool(directives),
-                             client_waiting=owed,
+                             client_waiting=owed or followup_due,
                              reply_to=(pending or {}).get("at"))
         if gate:
             print(f"[gated, no draft: {gate}]")
