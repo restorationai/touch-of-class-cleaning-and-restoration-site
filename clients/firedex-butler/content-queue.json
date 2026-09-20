@@ -264,10 +264,10 @@
     },
     {
       "id": "2026-08-26-water-damage-restoration-cost",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-26T23:55:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-20T14:29:57Z",
+      "post_url": "https://firedex.net/blog/water-damage-restoration-cost/",
       "primary_keyword": "water damage restoration cost",
       "intent": "commercial",
       "volume": 880,
@@ -301,7 +301,36 @@
       ],
       "notes": "Highest-CPC family in the seed (mitigation CPCs run $30-$118 in this market), so the organic version intercepts spend the client would otherwise pay for. Structure by cost driver: water category (1/2/3), square footage, class of drying, equipment days, and whether reconstruction follows mitigation. Give honest ranges and say plainly that most of it is an insurance claim, not out of pocket. No fabricated price tables and no fake calculator: publish ranges with the drivers that move them.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-damage-restoration-cost.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "s water category affect the cost? The [IICRC S500 standard](https://www.iicrc.org/pa",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "g, not just the visible wet floor. The IICRC S500 also defines four classes of water",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "ging to set drying targets based on the IICRC S500 standard, then pull equipment when",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
     },
     {
       "id": "2026-08-26-water-in-basement-after-heavy-rain",
