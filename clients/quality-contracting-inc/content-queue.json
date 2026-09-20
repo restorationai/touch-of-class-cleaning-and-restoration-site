@@ -324,10 +324,10 @@
     },
     {
       "id": "2026-08-27-water-damage-restoration-cost",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-27T06:15:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-20T14:43:38Z",
+      "post_url": "https://qualitycontracting.us/blog/water-damage-restoration-cost/",
       "primary_keyword": "water damage restoration cost",
       "intent": "informational",
       "volume": 880,
@@ -355,7 +355,36 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "Break cost out by category 1/2/3 water and by square footage, then show what insurance typically absorbs. Anchor examples to Worcester County housing stock (older colonials, finished basements). Do not publish a fake price table: give ranges with the variables that move them."
+      "notes": "Break cost out by category 1/2/3 water and by square footage, then show what insurance typically absorbs. Anchor examples to Worcester County housing stock (older colonials, finished basements). Do not publish a fake price table: give ranges with the variables that move them.",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-damage-restoration-cost.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "crobial treatment is required under the IICRC S500 standard.\"}, {\"question\": \"Will my",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "5,000 job. **1. Water category.** The [IICRC S500 standard](https://www.iicrc.org/pa",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "Water class (how far it spread).** The IICRC also classifies losses by how much evap",
+          "reason": "names a certification not present in brand.certifications"
+        }
+      ]
     },
     {
       "id": "2026-08-27-water-damage-hardwood-floors",
