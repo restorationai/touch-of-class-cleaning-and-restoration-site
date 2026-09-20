@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-08-26-water-damage-restoration-cost-hi",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-26T12:43:38Z",
       "priority": 1,
       "prioritized": true,
@@ -27,7 +27,38 @@
         "water cleanup HI",
         "water removal HI"
       ],
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-20T14:22:30Z",
+      "post_url": "https://aaawaterdamagehawaii.com/blog/water-damage-restoration-cost-hi/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-hi.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "2, and 3 water damage?\", \"answer\": \"The IICRC S500 standard defines three water categ",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-hi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "category** is the biggest driver. The [IICRC S500 standard](https://www.iicrc.org) d",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-hi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "ly to confirm drying progress meets the IICRC S500 standard. 5. **Antimicrobial treat",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
     },
     {
       "id": "2026-08-07-best-water-damage-restoration-in-honolulu-hi",
