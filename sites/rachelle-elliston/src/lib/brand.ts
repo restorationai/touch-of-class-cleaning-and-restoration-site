@@ -60,7 +60,7 @@ export const brand = {
   certifications: ["IICRC CERTIFIED FIRM", "IICRC AMRT (MOLD)", "OSHA TRAINED", "IICRC FSRT (FIRE & SMOKE)", "IICRC WRT (WATER)", "IICRC ASD (STRUCTURAL DRYING)", "EPA LEAD-SAFE CERTIFIED"] as string[],
   trustBadges: ["IICRC Certified Firm", "Licensed & Insured", "24/7 Emergency Service", "Locally Owned & Operated"] as string[],
   jobPhotos: [] as string[],
-  sameAsUrls: [] as string[],
+  sameAsUrls: ["https://www.instagram.com/desertvalleycontractinginc/", "https://www.facebook.com/DesertValleyContractor/", "https://www.linkedin.com/company/desert-valley-contracting-inc.", "https://maps.google.com/maps?cid=14252583205007514250", "https://www.yelp.com/biz/desert-valley-contracting-north-las-vegas-3", "https://www.bbb.org/us/nv/north-las-vegas/profile/fire-water-damage-restoration/desert-valley-contracting-inc-1086-78265"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.3",
