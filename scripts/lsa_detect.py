@@ -67,6 +67,28 @@ VERIF_ART_Q = """SELECT local_services_verification_artifact.artifact_type,
 VERIF_GRAN_Q = """SELECT customer.local_services_settings.granular_license_statuses,
                          customer.local_services_settings.granular_insurance_statuses
                   FROM customer"""
+# Impressions = affirmative proof of serving (Santino 2026-09-20: "should
+# our system automatically recognize when an LSA is running?"). Better
+# evidence than parsing verification strings — a campaign showing ads IS
+# serving, whatever the artifact text reads.
+METRICS_Q = """SELECT metrics.impressions, metrics.cost_micros FROM campaign
+               WHERE campaign.advertising_channel_type = 'LOCAL_SERVICES'
+                 AND campaign.status != 'REMOVED'
+                 AND segments.date DURING LAST_7_DAYS"""
+
+
+def fetch_metrics_7d(client, acid: str) -> dict | None:
+    """{'impressions': N, 'cost_usd': X} over the last 7 days, or None when
+    unreadable (never guessed)."""
+    try:
+        imp = cost = 0
+        for r in gaql(client, acid, METRICS_Q):
+            imp += int(r.metrics.impressions or 0)
+            cost += int(r.metrics.cost_micros or 0)
+        return {"impressions": imp, "cost_usd": round(cost / 1e6, 2)}
+    except Exception as e:  # noqa: BLE001 — metrics never break detection
+        print(f"    metrics unreadable for {acid}: {str(e)[:80]}")
+        return None
 # Artifact-history collapse rank — identical to the app's lsa-status edge fn.
 VERIF_RANK = ("PASSED", "PENDING", "FAILED", "CANCELLED", "NO_SUBMISSION")
 VERIF_UNCHECKED = "unchecked"
@@ -168,7 +190,7 @@ USED_ACCOUNTS: set = set()  # one LSA account belongs to exactly one business
 
 def write_lsa(cos: list, company_id: str, acid: str, campaigns: list[dict],
               how: str, dry: bool, results: list,
-              verification: str | None = None) -> None:
+              verification: str | None = None, client=None) -> None:
     if acid in USED_ACCOUNTS:
         # A shared agency Google grant can "see" another client's LSA account
         # (ProRestoration listed Home Pride's 2407662739 on the first run) —
@@ -203,6 +225,10 @@ def write_lsa(cos: list, company_id: str, acid: str, campaigns: list[dict],
                 "detected_at": datetime.now(timezone.utc).isoformat(),
                 "campaign_status": "ENABLED" if enabled else campaigns[0]["status"],
                 "campaigns": campaigns[:5]})
+    m7 = fetch_metrics_7d(client, acid) if client is not None else None
+    if m7 is not None:
+        changed = changed or (lsa.get("metrics_7d") or {}) != m7
+        lsa["metrics_7d"] = m7
     if verification is not None:
         lsa.update({"verification": verification,
                     "verification_checked_at":
@@ -321,7 +347,8 @@ def detect_via_mcc(cos: list, dry: bool, results: list, done: set) -> None:
             continue
         if company_id not in done:
             write_lsa(cos, company_id, acid, _campaigns(rows), how, dry,
-                      results, verification=fetch_verification(client, acid))
+                      results, verification=fetch_verification(client, acid),
+                      client=client)
             done.add(company_id)
 
     for acid, name, camps in unmatched:
@@ -398,7 +425,7 @@ def detect_via_company_tokens(cos: list, dry: bool, results: list, done: set) ->
                     continue
             write_lsa(cos, company_id, acid, _campaigns(rows),
                       "own token", dry, results,
-                      verification=fetch_verification(cl, acid))
+                      verification=fetch_verification(cl, acid), client=cl)
             done.add(company_id)
             break
 
