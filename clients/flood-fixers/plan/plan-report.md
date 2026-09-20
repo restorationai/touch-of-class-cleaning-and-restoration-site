@@ -1,20 +1,20 @@
 # Site Plan Report — Flood Fixers
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T17:29:38.098450+00:00
+- Generated: 2026-09-20T19:17:21.587583+00:00
 - Domain: `flood-fixers.com`
 - Services selected: 7 of 65 catalog entries
-- Service areas: 22
+- Service areas: 23
 - Cross-product enabled: True
-- Total URLs: **193**
-- Total internal links: 1507 (avg 7.8 per page)
+- Total URLs: **201**
+- Total internal links: 1570 (avg 7.8 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 147 |
-| `service-area` | 21 |
+| `service-area-service` | 154 |
+| `service-area` | 22 |
 | `blog-post` | 9 |
 | `service-landing` | 7 |
 | `legal` | 3 |
@@ -59,6 +59,7 @@
 - `valley-center-ca` — Valley Center, CA
 - `fairbanks-ranch-ca` — Fairbanks Ranch, CA
 - `solana-beach-ca` — Solana Beach, CA
+- `del-mar-ca` — Del Mar, CA
 
 ## Top 10 priority pages
 

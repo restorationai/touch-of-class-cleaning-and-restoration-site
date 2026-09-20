@@ -297,6 +297,11 @@
       "city": "Aliquippa",
       "state": "PA",
       "slug": "aliquippa-pa"
+    },
+    {
+      "city": "Sewickley Hills",
+      "state": "PA",
+      "slug": "sewickley-hills-pa"
     }
   ],
   "brand": {

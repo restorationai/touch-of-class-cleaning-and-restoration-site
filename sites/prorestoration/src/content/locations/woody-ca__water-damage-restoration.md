@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Water Damage Restoration in Woody, CA | ProRestoration Services"
+h1: "Water Damage Restoration in Woody"
+meta_description: "24/7 water damage restoration in Woody, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
+primary_keyword: "water damage restoration woody"
+secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
+search_intent: "local_emergency"
+priority: 7.0
+plan_hash: "4326444a421459c5"
+generated_at: "2026-09-20T19:17:39.958355+00:00"
+manual_override: false
+internal_links: ["/services/water-damage-restoration/", "/service-areas/woody-ca/", "/service-areas/woody-ca/fire-damage-restoration/", "/service-areas/woody-ca/home-remodeling/", "/service-areas/arvin-ca/water-damage-restoration/", "/service-areas/buttonwillow-ca/water-damage-restoration/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woody", "url": "/service-areas/woody-ca/"}, {"name": "Water Damage Restoration"}]
+faq: []
+area_slug: "woody-ca"
+service_slug: "water-damage-restoration"
+city: "Woody"
+state: "CA"
+service_display: "Water Damage Restoration"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug prorestoration` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Water Damage Restoration in Woody.

@@ -10,10 +10,10 @@
   "plan": {
     "template": "restoration",
     "template_version": "0.3.0",
-    "url_count": 148,
-    "generated_at": "2026-09-20T17:30:05.569731+00:00"
+    "url_count": 156,
+    "generated_at": "2026-09-20T19:17:50.768674+00:00"
   },
-  "updated_at": "2026-09-20T17:30:05.569738+00:00",
+  "updated_at": "2026-09-20T19:17:50.768677+00:00",
   "build": {
     "scaffolded_at": "2026-07-23T05:41:15.712612+00:00",
     "github_repo": "restorationai/restorationxpress-site",

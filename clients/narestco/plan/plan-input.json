@@ -429,6 +429,11 @@
       "city": "SeaTac",
       "state": "WA",
       "slug": "seatac-wa"
+    },
+    {
+      "city": "Edgewood",
+      "state": "WA",
+      "slug": "edgewood-wa"
     }
   ],
   "brand": {

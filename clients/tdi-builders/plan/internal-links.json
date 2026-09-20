@@ -36,6 +36,7 @@
     "/service-areas/rancho-cordova-ca/",
     "/service-areas/rio-linda-ca/",
     "/service-areas/rocklin-ca/",
+    "/service-areas/rosemont-ca/",
     "/service-areas/roseville-ca/",
     "/service-areas/turlock-ca/",
     "/service-areas/west-sacramento-ca/"
@@ -77,6 +78,7 @@
     "/service-areas/rancho-cordova-ca/",
     "/service-areas/rio-linda-ca/",
     "/service-areas/rocklin-ca/",
+    "/service-areas/rosemont-ca/",
     "/service-areas/roseville-ca/",
     "/service-areas/turlock-ca/",
     "/service-areas/west-sacramento-ca/"
@@ -739,6 +741,25 @@
     "/service-areas/foothill-farms-ca/storm-damage-restoration/",
     "/service-areas/foothill-farms-ca/water-damage-restoration/",
     "/service-areas/foothill-farms-ca/garage-construction/",
+    "/service-areas/antelope-ca/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/carmichael-ca/"
+  ],
+  "/service-areas/rosemont-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/rosemont-ca/home-remodeling/",
+    "/service-areas/rosemont-ca/bathroom-remodeling/",
+    "/service-areas/rosemont-ca/kitchen-remodeling/",
+    "/service-areas/rosemont-ca/new-construction/",
+    "/service-areas/rosemont-ca/general-contracting/",
+    "/service-areas/rosemont-ca/room-addition/",
+    "/service-areas/rosemont-ca/commercial-construction/",
+    "/service-areas/rosemont-ca/fire-smoke-rebuilding/",
+    "/service-areas/rosemont-ca/mold-remediation/",
+    "/service-areas/rosemont-ca/storm-damage-restoration/",
+    "/service-areas/rosemont-ca/water-damage-restoration/",
+    "/service-areas/rosemont-ca/garage-construction/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
     "/service-areas/carmichael-ca/"
@@ -3223,6 +3244,114 @@
     "/service-areas/foothill-farms-ca/",
     "/service-areas/foothill-farms-ca/home-remodeling/",
     "/service-areas/foothill-farms-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/room-addition/",
+    "/service-areas/arden-arcade-ca/room-addition/",
+    "/contact/"
+  ],
+  "/service-areas/rosemont-ca/commercial-construction/": [
+    "/services/commercial-construction/",
+    "/service-areas/rosemont-ca/",
+    "/service-areas/rosemont-ca/home-remodeling/",
+    "/service-areas/rosemont-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/commercial-construction/",
+    "/service-areas/arden-arcade-ca/commercial-construction/",
+    "/contact/"
+  ],
+  "/service-areas/rosemont-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/rosemont-ca/",
+    "/service-areas/rosemont-ca/home-remodeling/",
+    "/service-areas/rosemont-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/general-contracting/",
+    "/service-areas/arden-arcade-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/rosemont-ca/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/rosemont-ca/",
+    "/service-areas/rosemont-ca/home-remodeling/",
+    "/service-areas/rosemont-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/new-construction/",
+    "/service-areas/arden-arcade-ca/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/rosemont-ca/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/rosemont-ca/",
+    "/service-areas/rosemont-ca/home-remodeling/",
+    "/service-areas/rosemont-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/fire-smoke-rebuilding/",
+    "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/",
+    "/contact/"
+  ],
+  "/service-areas/rosemont-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/rosemont-ca/",
+    "/service-areas/rosemont-ca/home-remodeling/",
+    "/service-areas/rosemont-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/water-damage-restoration/",
+    "/service-areas/arden-arcade-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/rosemont-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/rosemont-ca/",
+    "/service-areas/rosemont-ca/home-remodeling/",
+    "/service-areas/rosemont-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/storm-damage-restoration/",
+    "/service-areas/arden-arcade-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/rosemont-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/rosemont-ca/",
+    "/service-areas/rosemont-ca/home-remodeling/",
+    "/service-areas/rosemont-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/mold-remediation/",
+    "/service-areas/arden-arcade-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/rosemont-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/rosemont-ca/",
+    "/service-areas/rosemont-ca/bathroom-remodeling/",
+    "/service-areas/rosemont-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/rosemont-ca/kitchen-remodeling/": [
+    "/services/kitchen-remodeling/",
+    "/service-areas/rosemont-ca/",
+    "/service-areas/rosemont-ca/home-remodeling/",
+    "/service-areas/rosemont-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/kitchen-remodeling/",
+    "/service-areas/arden-arcade-ca/kitchen-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/rosemont-ca/bathroom-remodeling/": [
+    "/services/bathroom-remodeling/",
+    "/service-areas/rosemont-ca/",
+    "/service-areas/rosemont-ca/home-remodeling/",
+    "/service-areas/rosemont-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/rosemont-ca/garage-construction/": [
+    "/services/garage-construction/",
+    "/service-areas/rosemont-ca/",
+    "/service-areas/rosemont-ca/home-remodeling/",
+    "/service-areas/rosemont-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/garage-construction/",
+    "/service-areas/arden-arcade-ca/garage-construction/",
+    "/contact/"
+  ],
+  "/service-areas/rosemont-ca/room-addition/": [
+    "/services/room-addition/",
+    "/service-areas/rosemont-ca/",
+    "/service-areas/rosemont-ca/home-remodeling/",
+    "/service-areas/rosemont-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/room-addition/",
     "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"

@@ -20,6 +20,7 @@
     "/service-areas/lauderhill-fl/",
     "/service-areas/miami-gardens-fl/",
     "/service-areas/miramar-fl/",
+    "/service-areas/oakland-park-fl/",
     "/service-areas/pembroke-pines-fl/",
     "/service-areas/plantation-fl/",
     "/service-areas/southwest-ranches-fl/",
@@ -48,6 +49,7 @@
     "/service-areas/lauderhill-fl/",
     "/service-areas/miami-gardens-fl/",
     "/service-areas/miramar-fl/",
+    "/service-areas/oakland-park-fl/",
     "/service-areas/pembroke-pines-fl/",
     "/service-areas/plantation-fl/",
     "/service-areas/southwest-ranches-fl/",
@@ -92,9 +94,9 @@
     "/service-areas/lauderhill-fl/water-damage-restoration/",
     "/service-areas/miami-gardens-fl/water-damage-restoration/",
     "/service-areas/miramar-fl/water-damage-restoration/",
+    "/service-areas/oakland-park-fl/water-damage-restoration/",
     "/service-areas/pembroke-pines-fl/water-damage-restoration/",
     "/service-areas/plantation-fl/water-damage-restoration/",
-    "/service-areas/southwest-ranches-fl/water-damage-restoration/",
     "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -112,9 +114,9 @@
     "/service-areas/lauderhill-fl/fire-damage-restoration/",
     "/service-areas/miami-gardens-fl/fire-damage-restoration/",
     "/service-areas/miramar-fl/fire-damage-restoration/",
+    "/service-areas/oakland-park-fl/fire-damage-restoration/",
     "/service-areas/pembroke-pines-fl/fire-damage-restoration/",
     "/service-areas/plantation-fl/fire-damage-restoration/",
-    "/service-areas/southwest-ranches-fl/fire-damage-restoration/",
     "/blog/choosing-a-restoration-company/",
     "/blog/fire-damage-restoration-process/",
     "/blog/smoke-odor-removal-techniques/"
@@ -131,9 +133,9 @@
     "/service-areas/lauderhill-fl/mold-remediation/",
     "/service-areas/miami-gardens-fl/mold-remediation/",
     "/service-areas/miramar-fl/mold-remediation/",
+    "/service-areas/oakland-park-fl/mold-remediation/",
     "/service-areas/pembroke-pines-fl/mold-remediation/",
     "/service-areas/plantation-fl/mold-remediation/",
-    "/service-areas/southwest-ranches-fl/mold-remediation/",
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
     "/blog/signs-of-hidden-mold/"
@@ -150,9 +152,9 @@
     "/service-areas/lauderhill-fl/storm-damage-restoration/",
     "/service-areas/miami-gardens-fl/storm-damage-restoration/",
     "/service-areas/miramar-fl/storm-damage-restoration/",
+    "/service-areas/oakland-park-fl/storm-damage-restoration/",
     "/service-areas/pembroke-pines-fl/storm-damage-restoration/",
     "/service-areas/plantation-fl/storm-damage-restoration/",
-    "/service-areas/southwest-ranches-fl/storm-damage-restoration/",
     "/blog/storm-damage-insurance-claim-checklist/"
   ],
   "/services/flood-damage-restoration/": [
@@ -167,9 +169,9 @@
     "/service-areas/lauderhill-fl/flood-damage-restoration/",
     "/service-areas/miami-gardens-fl/flood-damage-restoration/",
     "/service-areas/miramar-fl/flood-damage-restoration/",
+    "/service-areas/oakland-park-fl/flood-damage-restoration/",
     "/service-areas/pembroke-pines-fl/flood-damage-restoration/",
-    "/service-areas/plantation-fl/flood-damage-restoration/",
-    "/service-areas/southwest-ranches-fl/flood-damage-restoration/"
+    "/service-areas/plantation-fl/flood-damage-restoration/"
   ],
   "/services/smoke-damage-restoration/": [
     "/services/",
@@ -183,9 +185,9 @@
     "/service-areas/lauderhill-fl/smoke-damage-restoration/",
     "/service-areas/miami-gardens-fl/smoke-damage-restoration/",
     "/service-areas/miramar-fl/smoke-damage-restoration/",
+    "/service-areas/oakland-park-fl/smoke-damage-restoration/",
     "/service-areas/pembroke-pines-fl/smoke-damage-restoration/",
     "/service-areas/plantation-fl/smoke-damage-restoration/",
-    "/service-areas/southwest-ranches-fl/smoke-damage-restoration/",
     "/blog/fire-damage-restoration-process/",
     "/blog/smoke-odor-removal-techniques/"
   ],
@@ -201,9 +203,9 @@
     "/service-areas/lauderhill-fl/water-cleanup/",
     "/service-areas/miami-gardens-fl/water-cleanup/",
     "/service-areas/miramar-fl/water-cleanup/",
+    "/service-areas/oakland-park-fl/water-cleanup/",
     "/service-areas/pembroke-pines-fl/water-cleanup/",
     "/service-areas/plantation-fl/water-cleanup/",
-    "/service-areas/southwest-ranches-fl/water-cleanup/",
     "/services/water-damage-restoration/"
   ],
   "/service-areas/fort-lauderdale-fl/": [
@@ -412,6 +414,20 @@
     "/service-areas/southwest-ranches-fl/smoke-damage-restoration/",
     "/service-areas/southwest-ranches-fl/storm-damage-restoration/",
     "/service-areas/southwest-ranches-fl/water-cleanup/",
+    "/service-areas/cooper-city-fl/",
+    "/service-areas/dania-beach-fl/",
+    "/service-areas/fort-lauderdale-fl/"
+  ],
+  "/service-areas/oakland-park-fl/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/oakland-park-fl/fire-damage-restoration/",
+    "/service-areas/oakland-park-fl/mold-remediation/",
+    "/service-areas/oakland-park-fl/water-damage-restoration/",
+    "/service-areas/oakland-park-fl/flood-damage-restoration/",
+    "/service-areas/oakland-park-fl/smoke-damage-restoration/",
+    "/service-areas/oakland-park-fl/storm-damage-restoration/",
+    "/service-areas/oakland-park-fl/water-cleanup/",
     "/service-areas/cooper-city-fl/",
     "/service-areas/dania-beach-fl/",
     "/service-areas/fort-lauderdale-fl/"
@@ -1357,6 +1373,69 @@
     "/service-areas/southwest-ranches-fl/",
     "/service-areas/southwest-ranches-fl/fire-damage-restoration/",
     "/service-areas/southwest-ranches-fl/mold-remediation/",
+    "/service-areas/cooper-city-fl/water-cleanup/",
+    "/service-areas/dania-beach-fl/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/oakland-park-fl/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/oakland-park-fl/",
+    "/service-areas/oakland-park-fl/fire-damage-restoration/",
+    "/service-areas/oakland-park-fl/mold-remediation/",
+    "/service-areas/cooper-city-fl/water-damage-restoration/",
+    "/service-areas/dania-beach-fl/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/oakland-park-fl/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/oakland-park-fl/",
+    "/service-areas/oakland-park-fl/mold-remediation/",
+    "/service-areas/oakland-park-fl/water-damage-restoration/",
+    "/service-areas/cooper-city-fl/fire-damage-restoration/",
+    "/service-areas/dania-beach-fl/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/oakland-park-fl/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/oakland-park-fl/",
+    "/service-areas/oakland-park-fl/fire-damage-restoration/",
+    "/service-areas/oakland-park-fl/water-damage-restoration/",
+    "/service-areas/cooper-city-fl/mold-remediation/",
+    "/service-areas/dania-beach-fl/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/oakland-park-fl/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/oakland-park-fl/",
+    "/service-areas/oakland-park-fl/fire-damage-restoration/",
+    "/service-areas/oakland-park-fl/mold-remediation/",
+    "/service-areas/cooper-city-fl/storm-damage-restoration/",
+    "/service-areas/dania-beach-fl/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/oakland-park-fl/flood-damage-restoration/": [
+    "/services/flood-damage-restoration/",
+    "/service-areas/oakland-park-fl/",
+    "/service-areas/oakland-park-fl/fire-damage-restoration/",
+    "/service-areas/oakland-park-fl/mold-remediation/",
+    "/service-areas/cooper-city-fl/flood-damage-restoration/",
+    "/service-areas/dania-beach-fl/flood-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/oakland-park-fl/smoke-damage-restoration/": [
+    "/services/smoke-damage-restoration/",
+    "/service-areas/oakland-park-fl/",
+    "/service-areas/oakland-park-fl/fire-damage-restoration/",
+    "/service-areas/oakland-park-fl/mold-remediation/",
+    "/service-areas/cooper-city-fl/smoke-damage-restoration/",
+    "/service-areas/dania-beach-fl/smoke-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/oakland-park-fl/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/oakland-park-fl/",
+    "/service-areas/oakland-park-fl/fire-damage-restoration/",
+    "/service-areas/oakland-park-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/water-cleanup/",
     "/service-areas/dania-beach-fl/water-cleanup/",
     "/contact/"

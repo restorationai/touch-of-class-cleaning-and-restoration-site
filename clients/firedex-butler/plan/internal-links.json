@@ -35,6 +35,7 @@
     "/service-areas/monaca-pa/",
     "/service-areas/seven-fields-pa/",
     "/service-areas/sewickley-heights-pa/",
+    "/service-areas/sewickley-hills-pa/",
     "/service-areas/wexford-pa/",
     "/service-areas/zelienople-pa/"
   ],
@@ -74,6 +75,7 @@
     "/service-areas/monaca-pa/",
     "/service-areas/seven-fields-pa/",
     "/service-areas/sewickley-heights-pa/",
+    "/service-areas/sewickley-hills-pa/",
     "/service-areas/wexford-pa/",
     "/service-areas/zelienople-pa/"
   ],
@@ -779,6 +781,31 @@
     "/service-areas/baden-pa/",
     "/service-areas/beaver-falls-pa/",
     "/service-areas/bell-acres-pa/"
+  ],
+  "/service-areas/sewickley-hills-pa/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/sewickley-hills-pa/water-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/commercial-restoration/",
+    "/service-areas/sewickley-hills-pa/flood-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/reconstruction/",
+    "/service-areas/sewickley-hills-pa/sewage-cleanup/",
+    "/service-areas/sewickley-hills-pa/smoke-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/storm-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/water-cleanup/",
+    "/service-areas/sewickley-hills-pa/basement-flooding-cleanup/",
+    "/service-areas/sewickley-hills-pa/biohazard-cleanup/",
+    "/service-areas/sewickley-hills-pa/burst-pipe-repair/",
+    "/service-areas/sewickley-hills-pa/general-contracting/",
+    "/service-areas/sewickley-hills-pa/mold-inspection-testing/",
+    "/service-areas/sewickley-hills-pa/frozen-pipe-restoration/",
+    "/service-areas/sewickley-hills-pa/odor-removal/",
+    "/service-areas/sewickley-hills-pa/soot-removal/",
+    "/service-areas/aliquippa-pa/",
+    "/service-areas/baden-pa/",
+    "/service-areas/beaver-falls-pa/"
   ],
   "/service-areas/wexford-pa/water-damage-restoration/": [
     "/services/water-damage-restoration/",
@@ -3208,6 +3235,168 @@
     "/service-areas/aliquippa-pa/mold-remediation/",
     "/service-areas/baden-pa/water-cleanup/",
     "/service-areas/beaver-falls-pa/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/water-damage-restoration/",
+    "/service-areas/baden-pa/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/flood-damage-restoration/": [
+    "/services/flood-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/flood-damage-restoration/",
+    "/service-areas/baden-pa/flood-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/basement-flooding-cleanup/": [
+    "/services/basement-flooding-cleanup/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/basement-flooding-cleanup/",
+    "/service-areas/baden-pa/basement-flooding-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/sewage-cleanup/",
+    "/service-areas/baden-pa/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/burst-pipe-repair/": [
+    "/services/burst-pipe-repair/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/burst-pipe-repair/",
+    "/service-areas/baden-pa/burst-pipe-repair/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/frozen-pipe-restoration/": [
+    "/services/frozen-pipe-restoration/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/frozen-pipe-restoration/",
+    "/service-areas/baden-pa/frozen-pipe-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/storm-damage-restoration/",
+    "/service-areas/baden-pa/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/sewickley-hills-pa/water-damage-restoration/",
+    "/service-areas/aliquippa-pa/fire-damage-restoration/",
+    "/service-areas/baden-pa/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/smoke-damage-restoration/": [
+    "/services/smoke-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/smoke-damage-restoration/",
+    "/service-areas/baden-pa/smoke-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/soot-removal/": [
+    "/services/soot-removal/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/soot-removal/",
+    "/service-areas/baden-pa/soot-removal/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/odor-removal/": [
+    "/services/odor-removal/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/odor-removal/",
+    "/service-areas/baden-pa/odor-removal/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/water-damage-restoration/",
+    "/service-areas/aliquippa-pa/mold-remediation/",
+    "/service-areas/baden-pa/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/mold-inspection-testing/",
+    "/service-areas/baden-pa/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/biohazard-cleanup/",
+    "/service-areas/baden-pa/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/commercial-restoration/": [
+    "/services/commercial-restoration/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/commercial-restoration/",
+    "/service-areas/baden-pa/commercial-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/reconstruction/",
+    "/service-areas/baden-pa/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/general-contracting/",
+    "/service-areas/baden-pa/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/water-cleanup/",
+    "/service-areas/baden-pa/water-cleanup/",
     "/contact/"
   ],
   "/blog/what-to-do-first-24-hours-water-damage/": [

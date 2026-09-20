@@ -293,6 +293,11 @@
       "city": "Southwest Ranches",
       "state": "FL",
       "slug": "southwest-ranches-fl"
+    },
+    {
+      "city": "Oakland Park",
+      "state": "FL",
+      "slug": "oakland-park-fl"
     }
   ]
 }

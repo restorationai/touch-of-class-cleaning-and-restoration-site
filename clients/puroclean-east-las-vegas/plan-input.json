@@ -367,6 +367,11 @@
       "city": "Sandy Valley",
       "state": "NV",
       "slug": "sandy-valley-nv"
+    },
+    {
+      "city": "Moapa Town",
+      "state": "NV",
+      "slug": "moapa-town-nv"
     }
   ]
 }

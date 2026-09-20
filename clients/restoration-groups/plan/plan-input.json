@@ -1438,6 +1438,11 @@
       "city": "Watchung",
       "state": "NJ",
       "slug": "watchung-nj"
+    },
+    {
+      "city": "Carteret",
+      "state": "NJ",
+      "slug": "carteret-nj"
     }
   ],
   "brand": {

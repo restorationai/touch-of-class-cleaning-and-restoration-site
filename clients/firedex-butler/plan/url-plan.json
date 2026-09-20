@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-20T17:29:36.551008+00:00",
+  "generated_at": "2026-09-20T19:17:19.779152+00:00",
   "input_summary": {
     "service_count": 18,
-    "service_area_count": 16,
+    "service_area_count": 17,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -75,6 +75,7 @@
         "/service-areas/monaca-pa/",
         "/service-areas/seven-fields-pa/",
         "/service-areas/sewickley-heights-pa/",
+        "/service-areas/sewickley-hills-pa/",
         "/service-areas/wexford-pa/",
         "/service-areas/zelienople-pa/"
       ]
@@ -171,6 +172,7 @@
         "/service-areas/monaca-pa/",
         "/service-areas/seven-fields-pa/",
         "/service-areas/sewickley-heights-pa/",
+        "/service-areas/sewickley-hills-pa/",
         "/service-areas/wexford-pa/",
         "/service-areas/zelienople-pa/"
       ]
@@ -2024,6 +2026,61 @@
         "/service-areas/baden-pa/",
         "/service-areas/beaver-falls-pa/",
         "/service-areas/bell-acres-pa/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sewickley-hills-pa/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Sewickley Hills, PA | FireDEX Butler",
+      "h1": "Restoration Services in Sewickley Hills",
+      "meta_description": "Serving Sewickley Hills, PA with 24/7 water, fire, mold, and storm damage restoration. Experienced team. Call (724) 452-7400.",
+      "primary_keyword": "restoration services sewickley hills",
+      "secondary_keywords": [
+        "sewickley hills restoration company",
+        "damage restoration sewickley hills",
+        "sewickley hills disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+        "/service-areas/sewickley-hills-pa/mold-remediation/",
+        "/service-areas/sewickley-hills-pa/water-damage-restoration/",
+        "/service-areas/sewickley-hills-pa/commercial-restoration/",
+        "/service-areas/sewickley-hills-pa/flood-damage-restoration/",
+        "/service-areas/sewickley-hills-pa/reconstruction/",
+        "/service-areas/sewickley-hills-pa/sewage-cleanup/",
+        "/service-areas/sewickley-hills-pa/smoke-damage-restoration/",
+        "/service-areas/sewickley-hills-pa/storm-damage-restoration/",
+        "/service-areas/sewickley-hills-pa/water-cleanup/",
+        "/service-areas/sewickley-hills-pa/basement-flooding-cleanup/",
+        "/service-areas/sewickley-hills-pa/biohazard-cleanup/",
+        "/service-areas/sewickley-hills-pa/burst-pipe-repair/",
+        "/service-areas/sewickley-hills-pa/general-contracting/",
+        "/service-areas/sewickley-hills-pa/mold-inspection-testing/",
+        "/service-areas/sewickley-hills-pa/frozen-pipe-restoration/",
+        "/service-areas/sewickley-hills-pa/odor-removal/",
+        "/service-areas/sewickley-hills-pa/soot-removal/",
+        "/service-areas/aliquippa-pa/",
+        "/service-areas/baden-pa/",
+        "/service-areas/beaver-falls-pa/"
       ]
     },
     {
@@ -13933,6 +13990,800 @@
         "/service-areas/aliquippa-pa/mold-remediation/",
         "/service-areas/baden-pa/water-cleanup/",
         "/service-areas/beaver-falls-pa/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sewickley-hills-pa/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Sewickley Hills, PA | FireDEX Butler",
+      "h1": "Water Damage Restoration in Sewickley Hills",
+      "meta_description": "24/7 water damage restoration in Sewickley Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "water damage restoration sewickley hills",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/sewickley-hills-pa/",
+        "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+        "/service-areas/sewickley-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/water-damage-restoration/",
+        "/service-areas/baden-pa/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sewickley-hills-pa/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Sewickley Hills, PA | FireDEX Butler",
+      "h1": "Flood Damage Restoration in Sewickley Hills",
+      "meta_description": "24/7 flood damage restoration in Sewickley Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "flood damage restoration sewickley hills",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/sewickley-hills-pa/",
+        "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+        "/service-areas/sewickley-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/flood-damage-restoration/",
+        "/service-areas/baden-pa/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sewickley-hills-pa/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in Sewickley Hills, PA | FireDEX Butler",
+      "h1": "Basement Flooding Cleanup in Sewickley Hills",
+      "meta_description": "24/7 basement flooding cleanup in Sewickley Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "basement flooding cleanup sewickley hills",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/sewickley-hills-pa/",
+        "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+        "/service-areas/sewickley-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/basement-flooding-cleanup/",
+        "/service-areas/baden-pa/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sewickley-hills-pa/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Sewickley Hills, PA | FireDEX Butler",
+      "h1": "Sewage Cleanup and Sanitization in Sewickley Hills",
+      "meta_description": "24/7 sewage cleanup and sanitization in Sewickley Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "sewage cleanup and sanitization sewickley hills",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/sewickley-hills-pa/",
+        "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+        "/service-areas/sewickley-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/sewage-cleanup/",
+        "/service-areas/baden-pa/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sewickley-hills-pa/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Sewickley Hills, PA | FireDEX Butler",
+      "h1": "Burst Pipe Cleanup and Repair in Sewickley Hills",
+      "meta_description": "24/7 burst pipe cleanup and repair in Sewickley Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "burst pipe cleanup and repair sewickley hills",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/sewickley-hills-pa/",
+        "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+        "/service-areas/sewickley-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/burst-pipe-repair/",
+        "/service-areas/baden-pa/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sewickley-hills-pa/frozen-pipe-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Frozen Pipe Restoration in Sewickley Hills, PA | FireDEX Butler",
+      "h1": "Frozen Pipe Restoration in Sewickley Hills",
+      "meta_description": "24/7 frozen pipe restoration in Sewickley Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "frozen pipe restoration sewickley hills",
+      "secondary_keywords": [
+        "frozen pipe damage",
+        "winter pipe burst cleanup",
+        "thawed pipe water damage",
+        "frozen pipe leak repair",
+        "cold weather pipe damage"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/frozen-pipe-restoration/",
+        "/service-areas/sewickley-hills-pa/",
+        "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+        "/service-areas/sewickley-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/frozen-pipe-restoration/",
+        "/service-areas/baden-pa/frozen-pipe-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sewickley-hills-pa/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Sewickley Hills, PA | FireDEX Butler",
+      "h1": "Storm Damage Restoration in Sewickley Hills",
+      "meta_description": "24/7 storm damage restoration in Sewickley Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "storm damage restoration sewickley hills",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/sewickley-hills-pa/",
+        "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+        "/service-areas/sewickley-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/storm-damage-restoration/",
+        "/service-areas/baden-pa/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Sewickley Hills, PA | FireDEX Butler",
+      "h1": "Fire Damage Restoration in Sewickley Hills",
+      "meta_description": "24/7 fire damage restoration in Sewickley Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "fire damage restoration sewickley hills",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/sewickley-hills-pa/",
+        "/service-areas/sewickley-hills-pa/mold-remediation/",
+        "/service-areas/sewickley-hills-pa/water-damage-restoration/",
+        "/service-areas/aliquippa-pa/fire-damage-restoration/",
+        "/service-areas/baden-pa/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sewickley-hills-pa/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Sewickley Hills, PA | FireDEX Butler",
+      "h1": "Smoke Damage Restoration in Sewickley Hills",
+      "meta_description": "24/7 smoke damage restoration in Sewickley Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "smoke damage restoration sewickley hills",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/sewickley-hills-pa/",
+        "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+        "/service-areas/sewickley-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/smoke-damage-restoration/",
+        "/service-areas/baden-pa/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sewickley-hills-pa/soot-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Soot Removal in Sewickley Hills, PA | FireDEX Butler",
+      "h1": "Soot Removal in Sewickley Hills",
+      "meta_description": "24/7 soot removal in Sewickley Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "soot removal sewickley hills",
+      "secondary_keywords": [
+        "soot cleaning",
+        "soot residue removal",
+        "post-fire soot cleanup",
+        "soot damage cleanup",
+        "soot wall cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/soot-removal/",
+        "/service-areas/sewickley-hills-pa/",
+        "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+        "/service-areas/sewickley-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/soot-removal/",
+        "/service-areas/baden-pa/soot-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sewickley-hills-pa/odor-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Odor Removal and Deodorization in Sewickley Hills, PA | FireDEX Butler",
+      "h1": "Odor Removal and Deodorization in Sewickley Hills",
+      "meta_description": "24/7 odor removal and deodorization in Sewickley Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "odor removal and deodorization sewickley hills",
+      "secondary_keywords": [
+        "smoke odor removal",
+        "ozone treatment",
+        "hydroxyl deodorization",
+        "thermal fogging",
+        "professional odor elimination"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/odor-removal/",
+        "/service-areas/sewickley-hills-pa/",
+        "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+        "/service-areas/sewickley-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/odor-removal/",
+        "/service-areas/baden-pa/odor-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sewickley-hills-pa/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Sewickley Hills, PA | FireDEX Butler",
+      "h1": "Mold Remediation in Sewickley Hills",
+      "meta_description": "24/7 mold remediation in Sewickley Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "mold remediation sewickley hills",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/sewickley-hills-pa/",
+        "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+        "/service-areas/sewickley-hills-pa/water-damage-restoration/",
+        "/service-areas/aliquippa-pa/mold-remediation/",
+        "/service-areas/baden-pa/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sewickley-hills-pa/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Sewickley Hills, PA | FireDEX Butler",
+      "h1": "Mold Inspection and Testing in Sewickley Hills",
+      "meta_description": "24/7 mold inspection and testing in Sewickley Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "mold inspection and testing sewickley hills",
+      "secondary_keywords": [
+        "mold inspection",
+        "mold testing",
+        "indoor air quality testing",
+        "mold spore testing",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/sewickley-hills-pa/",
+        "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+        "/service-areas/sewickley-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/mold-inspection-testing/",
+        "/service-areas/baden-pa/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sewickley-hills-pa/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Sewickley Hills, PA | FireDEX Butler",
+      "h1": "Biohazard Cleanup in Sewickley Hills",
+      "meta_description": "24/7 biohazard cleanup in Sewickley Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "biohazard cleanup sewickley hills",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/sewickley-hills-pa/",
+        "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+        "/service-areas/sewickley-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/biohazard-cleanup/",
+        "/service-areas/baden-pa/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sewickley-hills-pa/commercial-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Commercial Restoration in Sewickley Hills, PA | FireDEX Butler",
+      "h1": "Commercial Restoration in Sewickley Hills",
+      "meta_description": "24/7 commercial restoration in Sewickley Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "commercial restoration sewickley hills",
+      "secondary_keywords": [
+        "commercial water damage",
+        "commercial fire damage",
+        "business restoration",
+        "office restoration",
+        "retail restoration"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/commercial-restoration/",
+        "/service-areas/sewickley-hills-pa/",
+        "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+        "/service-areas/sewickley-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/commercial-restoration/",
+        "/service-areas/baden-pa/commercial-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sewickley-hills-pa/reconstruction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Reconstruction Services in Sewickley Hills, PA | FireDEX Butler",
+      "h1": "Reconstruction Services in Sewickley Hills",
+      "meta_description": "24/7 reconstruction services in Sewickley Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "reconstruction services sewickley hills",
+      "secondary_keywords": [
+        "post-damage reconstruction",
+        "rebuild services",
+        "structural reconstruction",
+        "post-disaster rebuilding",
+        "fire damage reconstruction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/reconstruction/",
+        "/service-areas/sewickley-hills-pa/",
+        "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+        "/service-areas/sewickley-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/reconstruction/",
+        "/service-areas/baden-pa/reconstruction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sewickley-hills-pa/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Sewickley Hills, PA | FireDEX Butler",
+      "h1": "Renovations, Remodels and General Contracting in Sewickley Hills",
+      "meta_description": "24/7 renovations, remodels and general contracting in Sewickley Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "renovations, remodels and general contracting sewickley hills",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/sewickley-hills-pa/",
+        "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+        "/service-areas/sewickley-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/general-contracting/",
+        "/service-areas/baden-pa/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sewickley-hills-pa/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Sewickley Hills, PA | FireDEX Butler",
+      "h1": "Emergency Water Cleanup in Sewickley Hills",
+      "meta_description": "24/7 emergency water cleanup in Sewickley Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "emergency water cleanup sewickley hills",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/sewickley-hills-pa/",
+        "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+        "/service-areas/sewickley-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/water-cleanup/",
+        "/service-areas/baden-pa/water-cleanup/",
         "/contact/"
       ]
     },

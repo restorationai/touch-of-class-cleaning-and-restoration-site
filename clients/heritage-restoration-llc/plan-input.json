@@ -118,6 +118,11 @@
       "city": "Upsala",
       "state": "MN",
       "slug": "upsala-mn"
+    },
+    {
+      "city": "Rice",
+      "state": "MN",
+      "slug": "rice-mn"
     }
   ],
   "template": "restoration",

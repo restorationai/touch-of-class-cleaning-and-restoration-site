@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-20T17:29:25.779130+00:00",
+  "generated_at": "2026-09-20T19:17:07.810678+00:00",
   "input_summary": {
     "service_count": 6,
-    "service_area_count": 16,
+    "service_area_count": 17,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -52,6 +52,7 @@
         "/services/crawl-space-encapsulation/",
         "/service-areas/camarillo-ca/",
         "/service-areas/fillmore-ca/",
+        "/service-areas/hasley-canyon-ca/",
         "/service-areas/mira-monte-ca/",
         "/service-areas/moorpark-ca/",
         "/service-areas/oak-view-ca/",
@@ -136,6 +137,7 @@
         "/",
         "/service-areas/camarillo-ca/",
         "/service-areas/fillmore-ca/",
+        "/service-areas/hasley-canyon-ca/",
         "/service-areas/mira-monte-ca/",
         "/service-areas/moorpark-ca/",
         "/service-areas/oak-view-ca/",
@@ -294,6 +296,7 @@
         "/contact/",
         "/service-areas/camarillo-ca/water-damage-restoration/",
         "/service-areas/fillmore-ca/water-damage-restoration/",
+        "/service-areas/hasley-canyon-ca/water-damage-restoration/",
         "/service-areas/mira-monte-ca/water-damage-restoration/",
         "/service-areas/moorpark-ca/water-damage-restoration/",
         "/service-areas/oak-view-ca/water-damage-restoration/",
@@ -303,7 +306,6 @@
         "/service-areas/port-hueneme-ca/water-damage-restoration/",
         "/service-areas/san-buenaventura-ventura-ca/water-damage-restoration/",
         "/service-areas/santa-paula-ca/water-damage-restoration/",
-        "/service-areas/santa-rosa-valley-ca/water-damage-restoration/",
         "/services/water-cleanup/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
@@ -348,6 +350,7 @@
         "/contact/",
         "/service-areas/camarillo-ca/mold-remediation/",
         "/service-areas/fillmore-ca/mold-remediation/",
+        "/service-areas/hasley-canyon-ca/mold-remediation/",
         "/service-areas/mira-monte-ca/mold-remediation/",
         "/service-areas/moorpark-ca/mold-remediation/",
         "/service-areas/oak-view-ca/mold-remediation/",
@@ -357,7 +360,6 @@
         "/service-areas/port-hueneme-ca/mold-remediation/",
         "/service-areas/san-buenaventura-ventura-ca/mold-remediation/",
         "/service-areas/santa-paula-ca/mold-remediation/",
-        "/service-areas/santa-rosa-valley-ca/mold-remediation/",
         "/blog/choosing-a-restoration-company/",
         "/blog/how-to-test-for-mold/",
         "/blog/signs-of-hidden-mold/"
@@ -401,6 +403,7 @@
         "/contact/",
         "/service-areas/camarillo-ca/storm-damage-restoration/",
         "/service-areas/fillmore-ca/storm-damage-restoration/",
+        "/service-areas/hasley-canyon-ca/storm-damage-restoration/",
         "/service-areas/mira-monte-ca/storm-damage-restoration/",
         "/service-areas/moorpark-ca/storm-damage-restoration/",
         "/service-areas/oak-view-ca/storm-damage-restoration/",
@@ -410,7 +413,6 @@
         "/service-areas/port-hueneme-ca/storm-damage-restoration/",
         "/service-areas/san-buenaventura-ventura-ca/storm-damage-restoration/",
         "/service-areas/santa-paula-ca/storm-damage-restoration/",
-        "/service-areas/santa-rosa-valley-ca/storm-damage-restoration/",
         "/blog/storm-damage-insurance-claim-checklist/"
       ]
     },
@@ -452,6 +454,7 @@
         "/contact/",
         "/service-areas/camarillo-ca/contents-restoration/",
         "/service-areas/fillmore-ca/contents-restoration/",
+        "/service-areas/hasley-canyon-ca/contents-restoration/",
         "/service-areas/mira-monte-ca/contents-restoration/",
         "/service-areas/moorpark-ca/contents-restoration/",
         "/service-areas/oak-view-ca/contents-restoration/",
@@ -460,8 +463,7 @@
         "/service-areas/piru-ca/contents-restoration/",
         "/service-areas/port-hueneme-ca/contents-restoration/",
         "/service-areas/san-buenaventura-ventura-ca/contents-restoration/",
-        "/service-areas/santa-paula-ca/contents-restoration/",
-        "/service-areas/santa-rosa-valley-ca/contents-restoration/"
+        "/service-areas/santa-paula-ca/contents-restoration/"
       ]
     },
     {
@@ -496,6 +498,7 @@
         "/contact/",
         "/service-areas/camarillo-ca/crawl-space-encapsulation/",
         "/service-areas/fillmore-ca/crawl-space-encapsulation/",
+        "/service-areas/hasley-canyon-ca/crawl-space-encapsulation/",
         "/service-areas/mira-monte-ca/crawl-space-encapsulation/",
         "/service-areas/moorpark-ca/crawl-space-encapsulation/",
         "/service-areas/oak-view-ca/crawl-space-encapsulation/",
@@ -504,8 +507,7 @@
         "/service-areas/piru-ca/crawl-space-encapsulation/",
         "/service-areas/port-hueneme-ca/crawl-space-encapsulation/",
         "/service-areas/san-buenaventura-ventura-ca/crawl-space-encapsulation/",
-        "/service-areas/santa-paula-ca/crawl-space-encapsulation/",
-        "/service-areas/santa-rosa-valley-ca/crawl-space-encapsulation/"
+        "/service-areas/santa-paula-ca/crawl-space-encapsulation/"
       ]
     },
     {
@@ -547,6 +549,7 @@
         "/contact/",
         "/service-areas/camarillo-ca/water-cleanup/",
         "/service-areas/fillmore-ca/water-cleanup/",
+        "/service-areas/hasley-canyon-ca/water-cleanup/",
         "/service-areas/mira-monte-ca/water-cleanup/",
         "/service-areas/moorpark-ca/water-cleanup/",
         "/service-areas/oak-view-ca/water-cleanup/",
@@ -556,7 +559,6 @@
         "/service-areas/port-hueneme-ca/water-cleanup/",
         "/service-areas/san-buenaventura-ventura-ca/water-cleanup/",
         "/service-areas/santa-paula-ca/water-cleanup/",
-        "/service-areas/santa-rosa-valley-ca/water-cleanup/",
         "/services/water-damage-restoration/"
       ]
     },
@@ -600,7 +602,7 @@
         "/service-areas/oxnard-ca/crawl-space-encapsulation/",
         "/service-areas/camarillo-ca/",
         "/service-areas/fillmore-ca/",
-        "/service-areas/mira-monte-ca/"
+        "/service-areas/hasley-canyon-ca/"
       ]
     },
     {
@@ -643,7 +645,7 @@
         "/service-areas/thousand-oaks-ca/crawl-space-encapsulation/",
         "/service-areas/camarillo-ca/",
         "/service-areas/fillmore-ca/",
-        "/service-areas/mira-monte-ca/"
+        "/service-areas/hasley-canyon-ca/"
       ]
     },
     {
@@ -686,7 +688,7 @@
         "/service-areas/simi-valley-ca/crawl-space-encapsulation/",
         "/service-areas/camarillo-ca/",
         "/service-areas/fillmore-ca/",
-        "/service-areas/mira-monte-ca/"
+        "/service-areas/hasley-canyon-ca/"
       ]
     },
     {
@@ -728,8 +730,8 @@
         "/service-areas/camarillo-ca/contents-restoration/",
         "/service-areas/camarillo-ca/crawl-space-encapsulation/",
         "/service-areas/fillmore-ca/",
-        "/service-areas/mira-monte-ca/",
-        "/service-areas/moorpark-ca/"
+        "/service-areas/hasley-canyon-ca/",
+        "/service-areas/mira-monte-ca/"
       ]
     },
     {
@@ -772,7 +774,7 @@
         "/service-areas/santa-paula-ca/crawl-space-encapsulation/",
         "/service-areas/camarillo-ca/",
         "/service-areas/fillmore-ca/",
-        "/service-areas/mira-monte-ca/"
+        "/service-areas/hasley-canyon-ca/"
       ]
     },
     {
@@ -815,7 +817,7 @@
         "/service-areas/port-hueneme-ca/crawl-space-encapsulation/",
         "/service-areas/camarillo-ca/",
         "/service-areas/fillmore-ca/",
-        "/service-areas/mira-monte-ca/"
+        "/service-areas/hasley-canyon-ca/"
       ]
     },
     {
@@ -858,7 +860,7 @@
         "/service-areas/ojai-ca/crawl-space-encapsulation/",
         "/service-areas/camarillo-ca/",
         "/service-areas/fillmore-ca/",
-        "/service-areas/mira-monte-ca/"
+        "/service-areas/hasley-canyon-ca/"
       ]
     },
     {
@@ -900,8 +902,8 @@
         "/service-areas/fillmore-ca/contents-restoration/",
         "/service-areas/fillmore-ca/crawl-space-encapsulation/",
         "/service-areas/camarillo-ca/",
-        "/service-areas/mira-monte-ca/",
-        "/service-areas/moorpark-ca/"
+        "/service-areas/hasley-canyon-ca/",
+        "/service-areas/mira-monte-ca/"
       ]
     },
     {
@@ -944,7 +946,7 @@
         "/service-areas/mira-monte-ca/crawl-space-encapsulation/",
         "/service-areas/camarillo-ca/",
         "/service-areas/fillmore-ca/",
-        "/service-areas/moorpark-ca/"
+        "/service-areas/hasley-canyon-ca/"
       ]
     },
     {
@@ -987,7 +989,7 @@
         "/service-areas/oak-view-ca/crawl-space-encapsulation/",
         "/service-areas/camarillo-ca/",
         "/service-areas/fillmore-ca/",
-        "/service-areas/mira-monte-ca/"
+        "/service-areas/hasley-canyon-ca/"
       ]
     },
     {
@@ -1030,7 +1032,7 @@
         "/service-areas/somis-ca/crawl-space-encapsulation/",
         "/service-areas/camarillo-ca/",
         "/service-areas/fillmore-ca/",
-        "/service-areas/mira-monte-ca/"
+        "/service-areas/hasley-canyon-ca/"
       ]
     },
     {
@@ -1073,7 +1075,7 @@
         "/service-areas/san-buenaventura-ventura-ca/crawl-space-encapsulation/",
         "/service-areas/camarillo-ca/",
         "/service-areas/fillmore-ca/",
-        "/service-areas/mira-monte-ca/"
+        "/service-areas/hasley-canyon-ca/"
       ]
     },
     {
@@ -1116,7 +1118,7 @@
         "/service-areas/moorpark-ca/crawl-space-encapsulation/",
         "/service-areas/camarillo-ca/",
         "/service-areas/fillmore-ca/",
-        "/service-areas/mira-monte-ca/"
+        "/service-areas/hasley-canyon-ca/"
       ]
     },
     {
@@ -1159,7 +1161,7 @@
         "/service-areas/santa-rosa-valley-ca/crawl-space-encapsulation/",
         "/service-areas/camarillo-ca/",
         "/service-areas/fillmore-ca/",
-        "/service-areas/mira-monte-ca/"
+        "/service-areas/hasley-canyon-ca/"
       ]
     },
     {
@@ -1200,6 +1202,49 @@
         "/service-areas/piru-ca/water-cleanup/",
         "/service-areas/piru-ca/contents-restoration/",
         "/service-areas/piru-ca/crawl-space-encapsulation/",
+        "/service-areas/camarillo-ca/",
+        "/service-areas/fillmore-ca/",
+        "/service-areas/hasley-canyon-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hasley-canyon-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Hasley Canyon, CA | California Restoration West ",
+      "h1": "Restoration Services in Hasley Canyon",
+      "meta_description": "Serving Hasley Canyon, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (805) 290-7292.",
+      "primary_keyword": "restoration services hasley canyon",
+      "secondary_keywords": [
+        "hasley canyon restoration company",
+        "damage restoration hasley canyon",
+        "hasley canyon disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/hasley-canyon-ca/mold-remediation/",
+        "/service-areas/hasley-canyon-ca/water-damage-restoration/",
+        "/service-areas/hasley-canyon-ca/storm-damage-restoration/",
+        "/service-areas/hasley-canyon-ca/water-cleanup/",
+        "/service-areas/hasley-canyon-ca/contents-restoration/",
+        "/service-areas/hasley-canyon-ca/crawl-space-encapsulation/",
         "/service-areas/camarillo-ca/",
         "/service-areas/fillmore-ca/",
         "/service-areas/mira-monte-ca/"
@@ -2022,7 +2067,7 @@
         "/service-areas/camarillo-ca/mold-remediation/",
         "/service-areas/camarillo-ca/storm-damage-restoration/",
         "/service-areas/fillmore-ca/water-damage-restoration/",
-        "/service-areas/mira-monte-ca/water-damage-restoration/",
+        "/service-areas/hasley-canyon-ca/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2066,7 +2111,7 @@
         "/service-areas/camarillo-ca/water-damage-restoration/",
         "/service-areas/camarillo-ca/storm-damage-restoration/",
         "/service-areas/fillmore-ca/mold-remediation/",
-        "/service-areas/mira-monte-ca/mold-remediation/",
+        "/service-areas/hasley-canyon-ca/mold-remediation/",
         "/contact/"
       ]
     },
@@ -2110,7 +2155,7 @@
         "/service-areas/camarillo-ca/mold-remediation/",
         "/service-areas/camarillo-ca/water-damage-restoration/",
         "/service-areas/fillmore-ca/storm-damage-restoration/",
-        "/service-areas/mira-monte-ca/storm-damage-restoration/",
+        "/service-areas/hasley-canyon-ca/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2154,7 +2199,7 @@
         "/service-areas/camarillo-ca/mold-remediation/",
         "/service-areas/camarillo-ca/water-damage-restoration/",
         "/service-areas/fillmore-ca/contents-restoration/",
-        "/service-areas/mira-monte-ca/contents-restoration/",
+        "/service-areas/hasley-canyon-ca/contents-restoration/",
         "/contact/"
       ]
     },
@@ -2192,7 +2237,7 @@
         "/service-areas/camarillo-ca/mold-remediation/",
         "/service-areas/camarillo-ca/water-damage-restoration/",
         "/service-areas/fillmore-ca/crawl-space-encapsulation/",
-        "/service-areas/mira-monte-ca/crawl-space-encapsulation/",
+        "/service-areas/hasley-canyon-ca/crawl-space-encapsulation/",
         "/contact/"
       ]
     },
@@ -2237,7 +2282,7 @@
         "/service-areas/camarillo-ca/mold-remediation/",
         "/service-areas/camarillo-ca/water-damage-restoration/",
         "/service-areas/fillmore-ca/water-cleanup/",
-        "/service-areas/mira-monte-ca/water-cleanup/",
+        "/service-areas/hasley-canyon-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3058,7 +3103,7 @@
         "/service-areas/fillmore-ca/mold-remediation/",
         "/service-areas/fillmore-ca/storm-damage-restoration/",
         "/service-areas/camarillo-ca/water-damage-restoration/",
-        "/service-areas/mira-monte-ca/water-damage-restoration/",
+        "/service-areas/hasley-canyon-ca/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3102,7 +3147,7 @@
         "/service-areas/fillmore-ca/water-damage-restoration/",
         "/service-areas/fillmore-ca/storm-damage-restoration/",
         "/service-areas/camarillo-ca/mold-remediation/",
-        "/service-areas/mira-monte-ca/mold-remediation/",
+        "/service-areas/hasley-canyon-ca/mold-remediation/",
         "/contact/"
       ]
     },
@@ -3146,7 +3191,7 @@
         "/service-areas/fillmore-ca/mold-remediation/",
         "/service-areas/fillmore-ca/water-damage-restoration/",
         "/service-areas/camarillo-ca/storm-damage-restoration/",
-        "/service-areas/mira-monte-ca/storm-damage-restoration/",
+        "/service-areas/hasley-canyon-ca/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3190,7 +3235,7 @@
         "/service-areas/fillmore-ca/mold-remediation/",
         "/service-areas/fillmore-ca/water-damage-restoration/",
         "/service-areas/camarillo-ca/contents-restoration/",
-        "/service-areas/mira-monte-ca/contents-restoration/",
+        "/service-areas/hasley-canyon-ca/contents-restoration/",
         "/contact/"
       ]
     },
@@ -3228,7 +3273,7 @@
         "/service-areas/fillmore-ca/mold-remediation/",
         "/service-areas/fillmore-ca/water-damage-restoration/",
         "/service-areas/camarillo-ca/crawl-space-encapsulation/",
-        "/service-areas/mira-monte-ca/crawl-space-encapsulation/",
+        "/service-areas/hasley-canyon-ca/crawl-space-encapsulation/",
         "/contact/"
       ]
     },
@@ -3273,7 +3318,7 @@
         "/service-areas/fillmore-ca/mold-remediation/",
         "/service-areas/fillmore-ca/water-damage-restoration/",
         "/service-areas/camarillo-ca/water-cleanup/",
-        "/service-areas/mira-monte-ca/water-cleanup/",
+        "/service-areas/hasley-canyon-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -5085,6 +5130,265 @@
         "/service-areas/piru-ca/",
         "/service-areas/piru-ca/mold-remediation/",
         "/service-areas/piru-ca/water-damage-restoration/",
+        "/service-areas/camarillo-ca/water-cleanup/",
+        "/service-areas/fillmore-ca/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hasley-canyon-ca/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Hasley Canyon, CA | California Restoration West ",
+      "h1": "Water Damage Restoration in Hasley Canyon",
+      "meta_description": "24/7 water damage restoration in Hasley Canyon, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
+      "primary_keyword": "water damage restoration hasley canyon",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/hasley-canyon-ca/",
+        "/service-areas/hasley-canyon-ca/mold-remediation/",
+        "/service-areas/hasley-canyon-ca/storm-damage-restoration/",
+        "/service-areas/camarillo-ca/water-damage-restoration/",
+        "/service-areas/fillmore-ca/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hasley-canyon-ca/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Hasley Canyon, CA | California Restoration West ",
+      "h1": "Mold Remediation in Hasley Canyon",
+      "meta_description": "24/7 mold remediation in Hasley Canyon, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
+      "primary_keyword": "mold remediation hasley canyon",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/hasley-canyon-ca/",
+        "/service-areas/hasley-canyon-ca/water-damage-restoration/",
+        "/service-areas/hasley-canyon-ca/storm-damage-restoration/",
+        "/service-areas/camarillo-ca/mold-remediation/",
+        "/service-areas/fillmore-ca/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hasley-canyon-ca/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Hasley Canyon, CA | California Restoration West ",
+      "h1": "Storm Damage Restoration in Hasley Canyon",
+      "meta_description": "24/7 storm damage restoration in Hasley Canyon, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
+      "primary_keyword": "storm damage restoration hasley canyon",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/hasley-canyon-ca/",
+        "/service-areas/hasley-canyon-ca/mold-remediation/",
+        "/service-areas/hasley-canyon-ca/water-damage-restoration/",
+        "/service-areas/camarillo-ca/storm-damage-restoration/",
+        "/service-areas/fillmore-ca/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hasley-canyon-ca/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Hasley Canyon, CA | California Restoration West ",
+      "h1": "Contents Restoration and Storage in Hasley Canyon",
+      "meta_description": "24/7 contents restoration and storage in Hasley Canyon, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
+      "primary_keyword": "contents restoration and storage hasley canyon",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/hasley-canyon-ca/",
+        "/service-areas/hasley-canyon-ca/mold-remediation/",
+        "/service-areas/hasley-canyon-ca/water-damage-restoration/",
+        "/service-areas/camarillo-ca/contents-restoration/",
+        "/service-areas/fillmore-ca/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hasley-canyon-ca/crawl-space-encapsulation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Encapsulation in Hasley Canyon, CA | California Restoration West ",
+      "h1": "Crawl Space Encapsulation in Hasley Canyon",
+      "meta_description": "24/7 crawl space encapsulation in Hasley Canyon, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
+      "primary_keyword": "crawl space encapsulation hasley canyon",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/hasley-canyon-ca/",
+        "/service-areas/hasley-canyon-ca/mold-remediation/",
+        "/service-areas/hasley-canyon-ca/water-damage-restoration/",
+        "/service-areas/camarillo-ca/crawl-space-encapsulation/",
+        "/service-areas/fillmore-ca/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hasley-canyon-ca/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Hasley Canyon, CA | California Restoration West ",
+      "h1": "Emergency Water Cleanup in Hasley Canyon",
+      "meta_description": "24/7 emergency water cleanup in Hasley Canyon, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
+      "primary_keyword": "emergency water cleanup hasley canyon",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/hasley-canyon-ca/",
+        "/service-areas/hasley-canyon-ca/mold-remediation/",
+        "/service-areas/hasley-canyon-ca/water-damage-restoration/",
         "/service-areas/camarillo-ca/water-cleanup/",
         "/service-areas/fillmore-ca/water-cleanup/",
         "/contact/"

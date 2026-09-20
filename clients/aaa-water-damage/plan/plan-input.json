@@ -378,6 +378,11 @@
       "city": "Kaneohe Base",
       "state": "HI",
       "slug": "kaneohe-base-hi"
+    },
+    {
+      "city": "East Kapolei",
+      "state": "HI",
+      "slug": "east-kapolei-hi"
     }
   ],
   "brand": {

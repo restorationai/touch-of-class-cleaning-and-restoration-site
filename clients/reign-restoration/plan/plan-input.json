@@ -384,6 +384,11 @@
       "city": "Poetry",
       "state": "TX",
       "slug": "poetry-tx"
+    },
+    {
+      "city": "Heath",
+      "state": "TX",
+      "slug": "heath-tx"
     }
   ],
   "template": "restoration",

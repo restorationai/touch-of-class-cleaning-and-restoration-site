@@ -19,6 +19,7 @@
     "/service-areas/miramar-beach-fl/",
     "/service-areas/niceville-fl/",
     "/service-areas/panama-city-beach-fl/",
+    "/service-areas/paxton-fl/",
     "/service-areas/ponce-de-leon-fl/",
     "/service-areas/santa-rosa-beach-fl/",
     "/service-areas/valparaiso-fl/",
@@ -46,6 +47,7 @@
     "/service-areas/miramar-beach-fl/",
     "/service-areas/niceville-fl/",
     "/service-areas/panama-city-beach-fl/",
+    "/service-areas/paxton-fl/",
     "/service-areas/ponce-de-leon-fl/",
     "/service-areas/santa-rosa-beach-fl/",
     "/service-areas/valparaiso-fl/",
@@ -87,8 +89,8 @@
     "/service-areas/miramar-beach-fl/water-damage-restoration/",
     "/service-areas/niceville-fl/water-damage-restoration/",
     "/service-areas/panama-city-beach-fl/water-damage-restoration/",
+    "/service-areas/paxton-fl/water-damage-restoration/",
     "/service-areas/ponce-de-leon-fl/water-damage-restoration/",
-    "/service-areas/santa-rosa-beach-fl/water-damage-restoration/",
     "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -107,8 +109,8 @@
     "/service-areas/miramar-beach-fl/fire-damage-restoration/",
     "/service-areas/niceville-fl/fire-damage-restoration/",
     "/service-areas/panama-city-beach-fl/fire-damage-restoration/",
+    "/service-areas/paxton-fl/fire-damage-restoration/",
     "/service-areas/ponce-de-leon-fl/fire-damage-restoration/",
-    "/service-areas/santa-rosa-beach-fl/fire-damage-restoration/",
     "/blog/choosing-a-restoration-company/",
     "/blog/fire-damage-restoration-process/"
   ],
@@ -125,8 +127,8 @@
     "/service-areas/miramar-beach-fl/mold-remediation/",
     "/service-areas/niceville-fl/mold-remediation/",
     "/service-areas/panama-city-beach-fl/mold-remediation/",
+    "/service-areas/paxton-fl/mold-remediation/",
     "/service-areas/ponce-de-leon-fl/mold-remediation/",
-    "/service-areas/santa-rosa-beach-fl/mold-remediation/",
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
     "/blog/signs-of-hidden-mold/"
@@ -144,8 +146,8 @@
     "/service-areas/miramar-beach-fl/storm-damage-restoration/",
     "/service-areas/niceville-fl/storm-damage-restoration/",
     "/service-areas/panama-city-beach-fl/storm-damage-restoration/",
-    "/service-areas/ponce-de-leon-fl/storm-damage-restoration/",
-    "/service-areas/santa-rosa-beach-fl/storm-damage-restoration/"
+    "/service-areas/paxton-fl/storm-damage-restoration/",
+    "/service-areas/ponce-de-leon-fl/storm-damage-restoration/"
   ],
   "/services/water-cleanup/": [
     "/services/",
@@ -160,8 +162,8 @@
     "/service-areas/miramar-beach-fl/water-cleanup/",
     "/service-areas/niceville-fl/water-cleanup/",
     "/service-areas/panama-city-beach-fl/water-cleanup/",
+    "/service-areas/paxton-fl/water-cleanup/",
     "/service-areas/ponce-de-leon-fl/water-cleanup/",
-    "/service-areas/santa-rosa-beach-fl/water-cleanup/",
     "/services/water-damage-restoration/"
   ],
   "/service-areas/destin-fl/": [
@@ -352,6 +354,18 @@
     "/service-areas/hurlburt-field-fl/water-damage-restoration/",
     "/service-areas/hurlburt-field-fl/storm-damage-restoration/",
     "/service-areas/hurlburt-field-fl/water-cleanup/",
+    "/service-areas/crestview-fl/",
+    "/service-areas/defuniak-springs-fl/",
+    "/service-areas/destin-fl/"
+  ],
+  "/service-areas/paxton-fl/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/paxton-fl/fire-damage-restoration/",
+    "/service-areas/paxton-fl/mold-remediation/",
+    "/service-areas/paxton-fl/water-damage-restoration/",
+    "/service-areas/paxton-fl/storm-damage-restoration/",
+    "/service-areas/paxton-fl/water-cleanup/",
     "/service-areas/crestview-fl/",
     "/service-areas/defuniak-springs-fl/",
     "/service-areas/destin-fl/"
@@ -1072,6 +1086,51 @@
     "/service-areas/hurlburt-field-fl/",
     "/service-areas/hurlburt-field-fl/fire-damage-restoration/",
     "/service-areas/hurlburt-field-fl/mold-remediation/",
+    "/service-areas/crestview-fl/water-cleanup/",
+    "/service-areas/defuniak-springs-fl/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/paxton-fl/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/paxton-fl/",
+    "/service-areas/paxton-fl/fire-damage-restoration/",
+    "/service-areas/paxton-fl/mold-remediation/",
+    "/service-areas/crestview-fl/water-damage-restoration/",
+    "/service-areas/defuniak-springs-fl/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/paxton-fl/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/paxton-fl/",
+    "/service-areas/paxton-fl/mold-remediation/",
+    "/service-areas/paxton-fl/water-damage-restoration/",
+    "/service-areas/crestview-fl/fire-damage-restoration/",
+    "/service-areas/defuniak-springs-fl/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/paxton-fl/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/paxton-fl/",
+    "/service-areas/paxton-fl/fire-damage-restoration/",
+    "/service-areas/paxton-fl/water-damage-restoration/",
+    "/service-areas/crestview-fl/mold-remediation/",
+    "/service-areas/defuniak-springs-fl/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/paxton-fl/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/paxton-fl/",
+    "/service-areas/paxton-fl/fire-damage-restoration/",
+    "/service-areas/paxton-fl/mold-remediation/",
+    "/service-areas/crestview-fl/storm-damage-restoration/",
+    "/service-areas/defuniak-springs-fl/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/paxton-fl/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/paxton-fl/",
+    "/service-areas/paxton-fl/fire-damage-restoration/",
+    "/service-areas/paxton-fl/mold-remediation/",
     "/service-areas/crestview-fl/water-cleanup/",
     "/service-areas/defuniak-springs-fl/water-cleanup/",
     "/contact/"

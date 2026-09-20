@@ -27,6 +27,7 @@
     "/service-areas/bloomfield-nj/",
     "/service-areas/bridgewater-nj/",
     "/service-areas/brooklyn-ny/",
+    "/service-areas/carteret-nj/",
     "/service-areas/chatham-nj/",
     "/service-areas/clark-nj/",
     "/service-areas/clifton-nj/",
@@ -110,6 +111,7 @@
     "/service-areas/bloomfield-nj/",
     "/service-areas/bridgewater-nj/",
     "/service-areas/brooklyn-ny/",
+    "/service-areas/carteret-nj/",
     "/service-areas/chatham-nj/",
     "/service-areas/clark-nj/",
     "/service-areas/clifton-nj/",
@@ -198,13 +200,13 @@
     "/service-areas/bloomfield-nj/water-damage-restoration/",
     "/service-areas/bridgewater-nj/water-damage-restoration/",
     "/service-areas/brooklyn-ny/water-damage-restoration/",
+    "/service-areas/carteret-nj/water-damage-restoration/",
     "/service-areas/chatham-nj/water-damage-restoration/",
     "/service-areas/clark-nj/water-damage-restoration/",
     "/service-areas/clifton-nj/water-damage-restoration/",
     "/service-areas/colonia-nj/water-damage-restoration/",
     "/service-areas/cranford-nj/water-damage-restoration/",
     "/service-areas/east-brunswick-nj/water-damage-restoration/",
-    "/service-areas/east-orange-nj/water-damage-restoration/",
     "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -218,13 +220,13 @@
     "/service-areas/bloomfield-nj/flood-damage-restoration/",
     "/service-areas/bridgewater-nj/flood-damage-restoration/",
     "/service-areas/brooklyn-ny/flood-damage-restoration/",
+    "/service-areas/carteret-nj/flood-damage-restoration/",
     "/service-areas/chatham-nj/flood-damage-restoration/",
     "/service-areas/clark-nj/flood-damage-restoration/",
     "/service-areas/clifton-nj/flood-damage-restoration/",
     "/service-areas/colonia-nj/flood-damage-restoration/",
     "/service-areas/cranford-nj/flood-damage-restoration/",
-    "/service-areas/east-brunswick-nj/flood-damage-restoration/",
-    "/service-areas/east-orange-nj/flood-damage-restoration/"
+    "/service-areas/east-brunswick-nj/flood-damage-restoration/"
   ],
   "/services/burst-pipe-repair/": [
     "/services/",
@@ -234,13 +236,13 @@
     "/service-areas/bloomfield-nj/burst-pipe-repair/",
     "/service-areas/bridgewater-nj/burst-pipe-repair/",
     "/service-areas/brooklyn-ny/burst-pipe-repair/",
+    "/service-areas/carteret-nj/burst-pipe-repair/",
     "/service-areas/chatham-nj/burst-pipe-repair/",
     "/service-areas/clark-nj/burst-pipe-repair/",
     "/service-areas/clifton-nj/burst-pipe-repair/",
     "/service-areas/colonia-nj/burst-pipe-repair/",
     "/service-areas/cranford-nj/burst-pipe-repair/",
-    "/service-areas/east-brunswick-nj/burst-pipe-repair/",
-    "/service-areas/east-orange-nj/burst-pipe-repair/"
+    "/service-areas/east-brunswick-nj/burst-pipe-repair/"
   ],
   "/services/basement-flooding-cleanup/": [
     "/services/",
@@ -250,13 +252,13 @@
     "/service-areas/bloomfield-nj/basement-flooding-cleanup/",
     "/service-areas/bridgewater-nj/basement-flooding-cleanup/",
     "/service-areas/brooklyn-ny/basement-flooding-cleanup/",
+    "/service-areas/carteret-nj/basement-flooding-cleanup/",
     "/service-areas/chatham-nj/basement-flooding-cleanup/",
     "/service-areas/clark-nj/basement-flooding-cleanup/",
     "/service-areas/clifton-nj/basement-flooding-cleanup/",
     "/service-areas/colonia-nj/basement-flooding-cleanup/",
     "/service-areas/cranford-nj/basement-flooding-cleanup/",
-    "/service-areas/east-brunswick-nj/basement-flooding-cleanup/",
-    "/service-areas/east-orange-nj/basement-flooding-cleanup/"
+    "/service-areas/east-brunswick-nj/basement-flooding-cleanup/"
   ],
   "/services/appliance-leak-cleanup/": [
     "/services/",
@@ -266,13 +268,13 @@
     "/service-areas/bloomfield-nj/appliance-leak-cleanup/",
     "/service-areas/bridgewater-nj/appliance-leak-cleanup/",
     "/service-areas/brooklyn-ny/appliance-leak-cleanup/",
+    "/service-areas/carteret-nj/appliance-leak-cleanup/",
     "/service-areas/chatham-nj/appliance-leak-cleanup/",
     "/service-areas/clark-nj/appliance-leak-cleanup/",
     "/service-areas/clifton-nj/appliance-leak-cleanup/",
     "/service-areas/colonia-nj/appliance-leak-cleanup/",
     "/service-areas/cranford-nj/appliance-leak-cleanup/",
     "/service-areas/east-brunswick-nj/appliance-leak-cleanup/",
-    "/service-areas/east-orange-nj/appliance-leak-cleanup/",
     "/blog/burst-pipe-emergency-checklist/"
   ],
   "/services/sewage-cleanup/": [
@@ -283,13 +285,13 @@
     "/service-areas/bloomfield-nj/sewage-cleanup/",
     "/service-areas/bridgewater-nj/sewage-cleanup/",
     "/service-areas/brooklyn-ny/sewage-cleanup/",
+    "/service-areas/carteret-nj/sewage-cleanup/",
     "/service-areas/chatham-nj/sewage-cleanup/",
     "/service-areas/clark-nj/sewage-cleanup/",
     "/service-areas/clifton-nj/sewage-cleanup/",
     "/service-areas/colonia-nj/sewage-cleanup/",
     "/service-areas/cranford-nj/sewage-cleanup/",
-    "/service-areas/east-brunswick-nj/sewage-cleanup/",
-    "/service-areas/east-orange-nj/sewage-cleanup/"
+    "/service-areas/east-brunswick-nj/sewage-cleanup/"
   ],
   "/services/fire-damage-restoration/": [
     "/services/",
@@ -299,13 +301,13 @@
     "/service-areas/bloomfield-nj/fire-damage-restoration/",
     "/service-areas/bridgewater-nj/fire-damage-restoration/",
     "/service-areas/brooklyn-ny/fire-damage-restoration/",
+    "/service-areas/carteret-nj/fire-damage-restoration/",
     "/service-areas/chatham-nj/fire-damage-restoration/",
     "/service-areas/clark-nj/fire-damage-restoration/",
     "/service-areas/clifton-nj/fire-damage-restoration/",
     "/service-areas/colonia-nj/fire-damage-restoration/",
     "/service-areas/cranford-nj/fire-damage-restoration/",
     "/service-areas/east-brunswick-nj/fire-damage-restoration/",
-    "/service-areas/east-orange-nj/fire-damage-restoration/",
     "/blog/choosing-a-restoration-company/",
     "/blog/fire-damage-restoration-process/",
     "/blog/smoke-odor-removal-techniques/"
@@ -318,13 +320,13 @@
     "/service-areas/bloomfield-nj/smoke-damage-restoration/",
     "/service-areas/bridgewater-nj/smoke-damage-restoration/",
     "/service-areas/brooklyn-ny/smoke-damage-restoration/",
+    "/service-areas/carteret-nj/smoke-damage-restoration/",
     "/service-areas/chatham-nj/smoke-damage-restoration/",
     "/service-areas/clark-nj/smoke-damage-restoration/",
     "/service-areas/clifton-nj/smoke-damage-restoration/",
     "/service-areas/colonia-nj/smoke-damage-restoration/",
     "/service-areas/cranford-nj/smoke-damage-restoration/",
     "/service-areas/east-brunswick-nj/smoke-damage-restoration/",
-    "/service-areas/east-orange-nj/smoke-damage-restoration/",
     "/blog/fire-damage-restoration-process/",
     "/blog/smoke-odor-removal-techniques/"
   ],
@@ -336,13 +338,13 @@
     "/service-areas/bloomfield-nj/odor-removal/",
     "/service-areas/bridgewater-nj/odor-removal/",
     "/service-areas/brooklyn-ny/odor-removal/",
+    "/service-areas/carteret-nj/odor-removal/",
     "/service-areas/chatham-nj/odor-removal/",
     "/service-areas/clark-nj/odor-removal/",
     "/service-areas/clifton-nj/odor-removal/",
     "/service-areas/colonia-nj/odor-removal/",
     "/service-areas/cranford-nj/odor-removal/",
-    "/service-areas/east-brunswick-nj/odor-removal/",
-    "/service-areas/east-orange-nj/odor-removal/"
+    "/service-areas/east-brunswick-nj/odor-removal/"
   ],
   "/services/mold-remediation/": [
     "/services/",
@@ -352,13 +354,13 @@
     "/service-areas/bloomfield-nj/mold-remediation/",
     "/service-areas/bridgewater-nj/mold-remediation/",
     "/service-areas/brooklyn-ny/mold-remediation/",
+    "/service-areas/carteret-nj/mold-remediation/",
     "/service-areas/chatham-nj/mold-remediation/",
     "/service-areas/clark-nj/mold-remediation/",
     "/service-areas/clifton-nj/mold-remediation/",
     "/service-areas/colonia-nj/mold-remediation/",
     "/service-areas/cranford-nj/mold-remediation/",
     "/service-areas/east-brunswick-nj/mold-remediation/",
-    "/service-areas/east-orange-nj/mold-remediation/",
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
     "/blog/signs-of-hidden-mold/"
@@ -371,13 +373,13 @@
     "/service-areas/bloomfield-nj/mold-inspection-testing/",
     "/service-areas/bridgewater-nj/mold-inspection-testing/",
     "/service-areas/brooklyn-ny/mold-inspection-testing/",
+    "/service-areas/carteret-nj/mold-inspection-testing/",
     "/service-areas/chatham-nj/mold-inspection-testing/",
     "/service-areas/clark-nj/mold-inspection-testing/",
     "/service-areas/clifton-nj/mold-inspection-testing/",
     "/service-areas/colonia-nj/mold-inspection-testing/",
     "/service-areas/cranford-nj/mold-inspection-testing/",
     "/service-areas/east-brunswick-nj/mold-inspection-testing/",
-    "/service-areas/east-orange-nj/mold-inspection-testing/",
     "/blog/how-to-test-for-mold/"
   ],
   "/services/storm-damage-restoration/": [
@@ -388,13 +390,13 @@
     "/service-areas/bloomfield-nj/storm-damage-restoration/",
     "/service-areas/bridgewater-nj/storm-damage-restoration/",
     "/service-areas/brooklyn-ny/storm-damage-restoration/",
+    "/service-areas/carteret-nj/storm-damage-restoration/",
     "/service-areas/chatham-nj/storm-damage-restoration/",
     "/service-areas/clark-nj/storm-damage-restoration/",
     "/service-areas/clifton-nj/storm-damage-restoration/",
     "/service-areas/colonia-nj/storm-damage-restoration/",
     "/service-areas/cranford-nj/storm-damage-restoration/",
     "/service-areas/east-brunswick-nj/storm-damage-restoration/",
-    "/service-areas/east-orange-nj/storm-damage-restoration/",
     "/blog/storm-damage-insurance-claim-checklist/"
   ],
   "/services/emergency-board-up-tarping/": [
@@ -405,13 +407,13 @@
     "/service-areas/bloomfield-nj/emergency-board-up-tarping/",
     "/service-areas/bridgewater-nj/emergency-board-up-tarping/",
     "/service-areas/brooklyn-ny/emergency-board-up-tarping/",
+    "/service-areas/carteret-nj/emergency-board-up-tarping/",
     "/service-areas/chatham-nj/emergency-board-up-tarping/",
     "/service-areas/clark-nj/emergency-board-up-tarping/",
     "/service-areas/clifton-nj/emergency-board-up-tarping/",
     "/service-areas/colonia-nj/emergency-board-up-tarping/",
     "/service-areas/cranford-nj/emergency-board-up-tarping/",
-    "/service-areas/east-brunswick-nj/emergency-board-up-tarping/",
-    "/service-areas/east-orange-nj/emergency-board-up-tarping/"
+    "/service-areas/east-brunswick-nj/emergency-board-up-tarping/"
   ],
   "/services/commercial-restoration/": [
     "/services/",
@@ -421,13 +423,13 @@
     "/service-areas/bloomfield-nj/commercial-restoration/",
     "/service-areas/bridgewater-nj/commercial-restoration/",
     "/service-areas/brooklyn-ny/commercial-restoration/",
+    "/service-areas/carteret-nj/commercial-restoration/",
     "/service-areas/chatham-nj/commercial-restoration/",
     "/service-areas/clark-nj/commercial-restoration/",
     "/service-areas/clifton-nj/commercial-restoration/",
     "/service-areas/colonia-nj/commercial-restoration/",
     "/service-areas/cranford-nj/commercial-restoration/",
-    "/service-areas/east-brunswick-nj/commercial-restoration/",
-    "/service-areas/east-orange-nj/commercial-restoration/"
+    "/service-areas/east-brunswick-nj/commercial-restoration/"
   ],
   "/services/water-cleanup/": [
     "/services/",
@@ -437,13 +439,13 @@
     "/service-areas/bloomfield-nj/water-cleanup/",
     "/service-areas/bridgewater-nj/water-cleanup/",
     "/service-areas/brooklyn-ny/water-cleanup/",
+    "/service-areas/carteret-nj/water-cleanup/",
     "/service-areas/chatham-nj/water-cleanup/",
     "/service-areas/clark-nj/water-cleanup/",
     "/service-areas/clifton-nj/water-cleanup/",
     "/service-areas/colonia-nj/water-cleanup/",
     "/service-areas/cranford-nj/water-cleanup/",
     "/service-areas/east-brunswick-nj/water-cleanup/",
-    "/service-areas/east-orange-nj/water-cleanup/",
     "/services/water-damage-restoration/"
   ],
   "/services/contents-restoration-pack-out/": [
@@ -454,13 +456,13 @@
     "/service-areas/bloomfield-nj/contents-restoration-pack-out/",
     "/service-areas/bridgewater-nj/contents-restoration-pack-out/",
     "/service-areas/brooklyn-ny/contents-restoration-pack-out/",
+    "/service-areas/carteret-nj/contents-restoration-pack-out/",
     "/service-areas/chatham-nj/contents-restoration-pack-out/",
     "/service-areas/clark-nj/contents-restoration-pack-out/",
     "/service-areas/clifton-nj/contents-restoration-pack-out/",
     "/service-areas/colonia-nj/contents-restoration-pack-out/",
     "/service-areas/cranford-nj/contents-restoration-pack-out/",
-    "/service-areas/east-brunswick-nj/contents-restoration-pack-out/",
-    "/service-areas/east-orange-nj/contents-restoration-pack-out/"
+    "/service-areas/east-brunswick-nj/contents-restoration-pack-out/"
   ],
   "/services/basement-flood-cleanup/": [
     "/services/",
@@ -470,13 +472,13 @@
     "/service-areas/bloomfield-nj/basement-flood-cleanup/",
     "/service-areas/bridgewater-nj/basement-flood-cleanup/",
     "/service-areas/brooklyn-ny/basement-flood-cleanup/",
+    "/service-areas/carteret-nj/basement-flood-cleanup/",
     "/service-areas/chatham-nj/basement-flood-cleanup/",
     "/service-areas/clark-nj/basement-flood-cleanup/",
     "/service-areas/clifton-nj/basement-flood-cleanup/",
     "/service-areas/colonia-nj/basement-flood-cleanup/",
     "/service-areas/cranford-nj/basement-flood-cleanup/",
-    "/service-areas/east-brunswick-nj/basement-flood-cleanup/",
-    "/service-areas/east-orange-nj/basement-flood-cleanup/"
+    "/service-areas/east-brunswick-nj/basement-flood-cleanup/"
   ],
   "/services/biohazard-cleanup/": [
     "/services/",
@@ -486,13 +488,13 @@
     "/service-areas/bloomfield-nj/biohazard-cleanup/",
     "/service-areas/bridgewater-nj/biohazard-cleanup/",
     "/service-areas/brooklyn-ny/biohazard-cleanup/",
+    "/service-areas/carteret-nj/biohazard-cleanup/",
     "/service-areas/chatham-nj/biohazard-cleanup/",
     "/service-areas/clark-nj/biohazard-cleanup/",
     "/service-areas/clifton-nj/biohazard-cleanup/",
     "/service-areas/colonia-nj/biohazard-cleanup/",
     "/service-areas/cranford-nj/biohazard-cleanup/",
-    "/service-areas/east-brunswick-nj/biohazard-cleanup/",
-    "/service-areas/east-orange-nj/biohazard-cleanup/"
+    "/service-areas/east-brunswick-nj/biohazard-cleanup/"
   ],
   "/service-areas/union-nj/": [
     "/service-areas/",
@@ -1962,6 +1964,31 @@
     "/service-areas/watchung-nj/appliance-leak-cleanup/",
     "/service-areas/watchung-nj/basement-flood-cleanup/",
     "/service-areas/watchung-nj/contents-restoration-pack-out/",
+    "/service-areas/avenel-nj/",
+    "/service-areas/bayonne-nj/",
+    "/service-areas/bloomfield-nj/"
+  ],
+  "/service-areas/carteret-nj/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/carteret-nj/fire-damage-restoration/",
+    "/service-areas/carteret-nj/mold-remediation/",
+    "/service-areas/carteret-nj/water-damage-restoration/",
+    "/service-areas/carteret-nj/commercial-restoration/",
+    "/service-areas/carteret-nj/flood-damage-restoration/",
+    "/service-areas/carteret-nj/sewage-cleanup/",
+    "/service-areas/carteret-nj/smoke-damage-restoration/",
+    "/service-areas/carteret-nj/storm-damage-restoration/",
+    "/service-areas/carteret-nj/water-cleanup/",
+    "/service-areas/carteret-nj/basement-flooding-cleanup/",
+    "/service-areas/carteret-nj/biohazard-cleanup/",
+    "/service-areas/carteret-nj/burst-pipe-repair/",
+    "/service-areas/carteret-nj/mold-inspection-testing/",
+    "/service-areas/carteret-nj/emergency-board-up-tarping/",
+    "/service-areas/carteret-nj/odor-removal/",
+    "/service-areas/carteret-nj/appliance-leak-cleanup/",
+    "/service-areas/carteret-nj/basement-flood-cleanup/",
+    "/service-areas/carteret-nj/contents-restoration-pack-out/",
     "/service-areas/avenel-nj/",
     "/service-areas/bayonne-nj/",
     "/service-areas/bloomfield-nj/"
@@ -11520,6 +11547,168 @@
     "/service-areas/watchung-nj/",
     "/service-areas/watchung-nj/fire-damage-restoration/",
     "/service-areas/watchung-nj/mold-remediation/",
+    "/service-areas/avenel-nj/biohazard-cleanup/",
+    "/service-areas/bayonne-nj/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/carteret-nj/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/carteret-nj/",
+    "/service-areas/carteret-nj/fire-damage-restoration/",
+    "/service-areas/carteret-nj/mold-remediation/",
+    "/service-areas/avenel-nj/water-damage-restoration/",
+    "/service-areas/bayonne-nj/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/carteret-nj/flood-damage-restoration/": [
+    "/services/flood-damage-restoration/",
+    "/service-areas/carteret-nj/",
+    "/service-areas/carteret-nj/fire-damage-restoration/",
+    "/service-areas/carteret-nj/mold-remediation/",
+    "/service-areas/avenel-nj/flood-damage-restoration/",
+    "/service-areas/bayonne-nj/flood-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/carteret-nj/burst-pipe-repair/": [
+    "/services/burst-pipe-repair/",
+    "/service-areas/carteret-nj/",
+    "/service-areas/carteret-nj/fire-damage-restoration/",
+    "/service-areas/carteret-nj/mold-remediation/",
+    "/service-areas/avenel-nj/burst-pipe-repair/",
+    "/service-areas/bayonne-nj/burst-pipe-repair/",
+    "/contact/"
+  ],
+  "/service-areas/carteret-nj/basement-flooding-cleanup/": [
+    "/services/basement-flooding-cleanup/",
+    "/service-areas/carteret-nj/",
+    "/service-areas/carteret-nj/fire-damage-restoration/",
+    "/service-areas/carteret-nj/mold-remediation/",
+    "/service-areas/avenel-nj/basement-flooding-cleanup/",
+    "/service-areas/bayonne-nj/basement-flooding-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/carteret-nj/appliance-leak-cleanup/": [
+    "/services/appliance-leak-cleanup/",
+    "/service-areas/carteret-nj/",
+    "/service-areas/carteret-nj/fire-damage-restoration/",
+    "/service-areas/carteret-nj/mold-remediation/",
+    "/service-areas/avenel-nj/appliance-leak-cleanup/",
+    "/service-areas/bayonne-nj/appliance-leak-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/carteret-nj/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/carteret-nj/",
+    "/service-areas/carteret-nj/fire-damage-restoration/",
+    "/service-areas/carteret-nj/mold-remediation/",
+    "/service-areas/avenel-nj/sewage-cleanup/",
+    "/service-areas/bayonne-nj/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/carteret-nj/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/carteret-nj/",
+    "/service-areas/carteret-nj/mold-remediation/",
+    "/service-areas/carteret-nj/water-damage-restoration/",
+    "/service-areas/avenel-nj/fire-damage-restoration/",
+    "/service-areas/bayonne-nj/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/carteret-nj/smoke-damage-restoration/": [
+    "/services/smoke-damage-restoration/",
+    "/service-areas/carteret-nj/",
+    "/service-areas/carteret-nj/fire-damage-restoration/",
+    "/service-areas/carteret-nj/mold-remediation/",
+    "/service-areas/avenel-nj/smoke-damage-restoration/",
+    "/service-areas/bayonne-nj/smoke-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/carteret-nj/odor-removal/": [
+    "/services/odor-removal/",
+    "/service-areas/carteret-nj/",
+    "/service-areas/carteret-nj/fire-damage-restoration/",
+    "/service-areas/carteret-nj/mold-remediation/",
+    "/service-areas/avenel-nj/odor-removal/",
+    "/service-areas/bayonne-nj/odor-removal/",
+    "/contact/"
+  ],
+  "/service-areas/carteret-nj/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/carteret-nj/",
+    "/service-areas/carteret-nj/fire-damage-restoration/",
+    "/service-areas/carteret-nj/water-damage-restoration/",
+    "/service-areas/avenel-nj/mold-remediation/",
+    "/service-areas/bayonne-nj/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/carteret-nj/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/carteret-nj/",
+    "/service-areas/carteret-nj/fire-damage-restoration/",
+    "/service-areas/carteret-nj/mold-remediation/",
+    "/service-areas/avenel-nj/mold-inspection-testing/",
+    "/service-areas/bayonne-nj/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/carteret-nj/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/carteret-nj/",
+    "/service-areas/carteret-nj/fire-damage-restoration/",
+    "/service-areas/carteret-nj/mold-remediation/",
+    "/service-areas/avenel-nj/storm-damage-restoration/",
+    "/service-areas/bayonne-nj/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/carteret-nj/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/carteret-nj/",
+    "/service-areas/carteret-nj/fire-damage-restoration/",
+    "/service-areas/carteret-nj/mold-remediation/",
+    "/service-areas/avenel-nj/emergency-board-up-tarping/",
+    "/service-areas/bayonne-nj/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/carteret-nj/commercial-restoration/": [
+    "/services/commercial-restoration/",
+    "/service-areas/carteret-nj/",
+    "/service-areas/carteret-nj/fire-damage-restoration/",
+    "/service-areas/carteret-nj/mold-remediation/",
+    "/service-areas/avenel-nj/commercial-restoration/",
+    "/service-areas/bayonne-nj/commercial-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/carteret-nj/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/carteret-nj/",
+    "/service-areas/carteret-nj/fire-damage-restoration/",
+    "/service-areas/carteret-nj/mold-remediation/",
+    "/service-areas/avenel-nj/water-cleanup/",
+    "/service-areas/bayonne-nj/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/carteret-nj/contents-restoration-pack-out/": [
+    "/services/contents-restoration-pack-out/",
+    "/service-areas/carteret-nj/",
+    "/service-areas/carteret-nj/fire-damage-restoration/",
+    "/service-areas/carteret-nj/mold-remediation/",
+    "/service-areas/avenel-nj/contents-restoration-pack-out/",
+    "/service-areas/bayonne-nj/contents-restoration-pack-out/",
+    "/contact/"
+  ],
+  "/service-areas/carteret-nj/basement-flood-cleanup/": [
+    "/services/basement-flood-cleanup/",
+    "/service-areas/carteret-nj/",
+    "/service-areas/carteret-nj/fire-damage-restoration/",
+    "/service-areas/carteret-nj/mold-remediation/",
+    "/service-areas/avenel-nj/basement-flood-cleanup/",
+    "/service-areas/bayonne-nj/basement-flood-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/carteret-nj/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/carteret-nj/",
+    "/service-areas/carteret-nj/fire-damage-restoration/",
+    "/service-areas/carteret-nj/mold-remediation/",
     "/service-areas/avenel-nj/biohazard-cleanup/",
     "/service-areas/bayonne-nj/biohazard-cleanup/",
     "/contact/"

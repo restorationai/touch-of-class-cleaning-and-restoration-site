@@ -1,10 +1,10 @@
 {
   "template": "environmental",
   "template_version": "0.1.0",
-  "generated_at": "2026-09-20T17:29:22.561680+00:00",
+  "generated_at": "2026-09-20T19:17:04.252534+00:00",
   "input_summary": {
     "service_count": 16,
-    "service_area_count": 20,
+    "service_area_count": 21,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -68,6 +68,7 @@
         "/service-areas/fowler-ca/",
         "/service-areas/fresno-ca/",
         "/service-areas/hanford-ca/",
+        "/service-areas/ivanhoe-ca/",
         "/service-areas/lemoore-ca/",
         "/service-areas/minkler-ca/",
         "/service-areas/orange-cove-ca/",
@@ -166,6 +167,7 @@
         "/service-areas/fowler-ca/",
         "/service-areas/fresno-ca/",
         "/service-areas/hanford-ca/",
+        "/service-areas/ivanhoe-ca/",
         "/service-areas/lemoore-ca/",
         "/service-areas/minkler-ca/",
         "/service-areas/orange-cove-ca/",
@@ -328,10 +330,10 @@
         "/service-areas/fowler-ca/mold-inspection-testing/",
         "/service-areas/fresno-ca/mold-inspection-testing/",
         "/service-areas/hanford-ca/mold-inspection-testing/",
+        "/service-areas/ivanhoe-ca/mold-inspection-testing/",
         "/service-areas/lemoore-ca/mold-inspection-testing/",
         "/service-areas/minkler-ca/mold-inspection-testing/",
         "/service-areas/orange-cove-ca/mold-inspection-testing/",
-        "/service-areas/parlier-ca/mold-inspection-testing/",
         "/blog/do-i-need-mold-test-before-buying-house/",
         "/blog/how-much-does-mold-inspection-cost/",
         "/blog/air-sampling-vs-surface-sampling/"
@@ -381,10 +383,10 @@
         "/service-areas/fowler-ca/indoor-air-quality-testing/",
         "/service-areas/fresno-ca/indoor-air-quality-testing/",
         "/service-areas/hanford-ca/indoor-air-quality-testing/",
+        "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
         "/service-areas/lemoore-ca/indoor-air-quality-testing/",
         "/service-areas/minkler-ca/indoor-air-quality-testing/",
         "/service-areas/orange-cove-ca/indoor-air-quality-testing/",
-        "/service-areas/parlier-ca/indoor-air-quality-testing/",
         "/blog/signs-of-bad-indoor-air-quality/"
       ]
     },
@@ -432,10 +434,10 @@
         "/service-areas/fowler-ca/asbestos-testing/",
         "/service-areas/fresno-ca/asbestos-testing/",
         "/service-areas/hanford-ca/asbestos-testing/",
+        "/service-areas/ivanhoe-ca/asbestos-testing/",
         "/service-areas/lemoore-ca/asbestos-testing/",
         "/service-areas/minkler-ca/asbestos-testing/",
         "/service-areas/orange-cove-ca/asbestos-testing/",
-        "/service-areas/parlier-ca/asbestos-testing/",
         "/blog/asbestos-test-before-renovation/"
       ]
     },
@@ -483,10 +485,10 @@
         "/service-areas/fowler-ca/lead-paint-testing/",
         "/service-areas/fresno-ca/lead-paint-testing/",
         "/service-areas/hanford-ca/lead-paint-testing/",
+        "/service-areas/ivanhoe-ca/lead-paint-testing/",
         "/service-areas/lemoore-ca/lead-paint-testing/",
         "/service-areas/minkler-ca/lead-paint-testing/",
-        "/service-areas/orange-cove-ca/lead-paint-testing/",
-        "/service-areas/parlier-ca/lead-paint-testing/"
+        "/service-areas/orange-cove-ca/lead-paint-testing/"
       ]
     },
     {
@@ -533,10 +535,10 @@
         "/service-areas/fowler-ca/water-quality-testing/",
         "/service-areas/fresno-ca/water-quality-testing/",
         "/service-areas/hanford-ca/water-quality-testing/",
+        "/service-areas/ivanhoe-ca/water-quality-testing/",
         "/service-areas/lemoore-ca/water-quality-testing/",
         "/service-areas/minkler-ca/water-quality-testing/",
-        "/service-areas/orange-cove-ca/water-quality-testing/",
-        "/service-areas/parlier-ca/water-quality-testing/"
+        "/service-areas/orange-cove-ca/water-quality-testing/"
       ]
     },
     {
@@ -583,10 +585,10 @@
         "/service-areas/fowler-ca/clearance-testing/",
         "/service-areas/fresno-ca/clearance-testing/",
         "/service-areas/hanford-ca/clearance-testing/",
+        "/service-areas/ivanhoe-ca/clearance-testing/",
         "/service-areas/lemoore-ca/clearance-testing/",
         "/service-areas/minkler-ca/clearance-testing/",
         "/service-areas/orange-cove-ca/clearance-testing/",
-        "/service-areas/parlier-ca/clearance-testing/",
         "/blog/why-independent-mold-testing-matters/"
       ]
     },
@@ -634,10 +636,10 @@
         "/service-areas/fowler-ca/environmental-site-assessments/",
         "/service-areas/fresno-ca/environmental-site-assessments/",
         "/service-areas/hanford-ca/environmental-site-assessments/",
+        "/service-areas/ivanhoe-ca/environmental-site-assessments/",
         "/service-areas/lemoore-ca/environmental-site-assessments/",
         "/service-areas/minkler-ca/environmental-site-assessments/",
-        "/service-areas/orange-cove-ca/environmental-site-assessments/",
-        "/service-areas/parlier-ca/environmental-site-assessments/"
+        "/service-areas/orange-cove-ca/environmental-site-assessments/"
       ]
     },
     {
@@ -684,10 +686,10 @@
         "/service-areas/fowler-ca/radon-testing/",
         "/service-areas/fresno-ca/radon-testing/",
         "/service-areas/hanford-ca/radon-testing/",
+        "/service-areas/ivanhoe-ca/radon-testing/",
         "/service-areas/lemoore-ca/radon-testing/",
         "/service-areas/minkler-ca/radon-testing/",
-        "/service-areas/orange-cove-ca/radon-testing/",
-        "/service-areas/parlier-ca/radon-testing/"
+        "/service-areas/orange-cove-ca/radon-testing/"
       ]
     },
     {
@@ -734,10 +736,10 @@
         "/service-areas/fowler-ca/voc-formaldehyde-testing/",
         "/service-areas/fresno-ca/voc-formaldehyde-testing/",
         "/service-areas/hanford-ca/voc-formaldehyde-testing/",
+        "/service-areas/ivanhoe-ca/voc-formaldehyde-testing/",
         "/service-areas/lemoore-ca/voc-formaldehyde-testing/",
         "/service-areas/minkler-ca/voc-formaldehyde-testing/",
-        "/service-areas/orange-cove-ca/voc-formaldehyde-testing/",
-        "/service-areas/parlier-ca/voc-formaldehyde-testing/"
+        "/service-areas/orange-cove-ca/voc-formaldehyde-testing/"
       ]
     },
     {
@@ -784,10 +786,10 @@
         "/service-areas/fowler-ca/sewage-contamination-assessment/",
         "/service-areas/fresno-ca/sewage-contamination-assessment/",
         "/service-areas/hanford-ca/sewage-contamination-assessment/",
+        "/service-areas/ivanhoe-ca/sewage-contamination-assessment/",
         "/service-areas/lemoore-ca/sewage-contamination-assessment/",
         "/service-areas/minkler-ca/sewage-contamination-assessment/",
-        "/service-areas/orange-cove-ca/sewage-contamination-assessment/",
-        "/service-areas/parlier-ca/sewage-contamination-assessment/"
+        "/service-areas/orange-cove-ca/sewage-contamination-assessment/"
       ]
     },
     {
@@ -834,10 +836,10 @@
         "/service-areas/fowler-ca/post-flood-mold-assessment/",
         "/service-areas/fresno-ca/post-flood-mold-assessment/",
         "/service-areas/hanford-ca/post-flood-mold-assessment/",
+        "/service-areas/ivanhoe-ca/post-flood-mold-assessment/",
         "/service-areas/lemoore-ca/post-flood-mold-assessment/",
         "/service-areas/minkler-ca/post-flood-mold-assessment/",
         "/service-areas/orange-cove-ca/post-flood-mold-assessment/",
-        "/service-areas/parlier-ca/post-flood-mold-assessment/",
         "/blog/mold-testing-after-water-damage/"
       ]
     },
@@ -885,10 +887,10 @@
         "/service-areas/fowler-ca/allergen-testing/",
         "/service-areas/fresno-ca/allergen-testing/",
         "/service-areas/hanford-ca/allergen-testing/",
+        "/service-areas/ivanhoe-ca/allergen-testing/",
         "/service-areas/lemoore-ca/allergen-testing/",
         "/service-areas/minkler-ca/allergen-testing/",
-        "/service-areas/orange-cove-ca/allergen-testing/",
-        "/service-areas/parlier-ca/allergen-testing/"
+        "/service-areas/orange-cove-ca/allergen-testing/"
       ]
     },
     {
@@ -935,10 +937,10 @@
         "/service-areas/fowler-ca/hvac-duct-assessments/",
         "/service-areas/fresno-ca/hvac-duct-assessments/",
         "/service-areas/hanford-ca/hvac-duct-assessments/",
+        "/service-areas/ivanhoe-ca/hvac-duct-assessments/",
         "/service-areas/lemoore-ca/hvac-duct-assessments/",
         "/service-areas/minkler-ca/hvac-duct-assessments/",
-        "/service-areas/orange-cove-ca/hvac-duct-assessments/",
-        "/service-areas/parlier-ca/hvac-duct-assessments/"
+        "/service-areas/orange-cove-ca/hvac-duct-assessments/"
       ]
     },
     {
@@ -985,10 +987,10 @@
         "/service-areas/fowler-ca/remediation-oversight/",
         "/service-areas/fresno-ca/remediation-oversight/",
         "/service-areas/hanford-ca/remediation-oversight/",
+        "/service-areas/ivanhoe-ca/remediation-oversight/",
         "/service-areas/lemoore-ca/remediation-oversight/",
         "/service-areas/minkler-ca/remediation-oversight/",
-        "/service-areas/orange-cove-ca/remediation-oversight/",
-        "/service-areas/parlier-ca/remediation-oversight/"
+        "/service-areas/orange-cove-ca/remediation-oversight/"
       ]
     },
     {
@@ -1035,10 +1037,10 @@
         "/service-areas/fowler-ca/compliance-consulting/",
         "/service-areas/fresno-ca/compliance-consulting/",
         "/service-areas/hanford-ca/compliance-consulting/",
+        "/service-areas/ivanhoe-ca/compliance-consulting/",
         "/service-areas/lemoore-ca/compliance-consulting/",
         "/service-areas/minkler-ca/compliance-consulting/",
-        "/service-areas/orange-cove-ca/compliance-consulting/",
-        "/service-areas/parlier-ca/compliance-consulting/"
+        "/service-areas/orange-cove-ca/compliance-consulting/"
       ]
     },
     {
@@ -1085,10 +1087,10 @@
         "/service-areas/fowler-ca/litigation-support-sampling/",
         "/service-areas/fresno-ca/litigation-support-sampling/",
         "/service-areas/hanford-ca/litigation-support-sampling/",
+        "/service-areas/ivanhoe-ca/litigation-support-sampling/",
         "/service-areas/lemoore-ca/litigation-support-sampling/",
         "/service-areas/minkler-ca/litigation-support-sampling/",
-        "/service-areas/orange-cove-ca/litigation-support-sampling/",
-        "/service-areas/parlier-ca/litigation-support-sampling/"
+        "/service-areas/orange-cove-ca/litigation-support-sampling/"
       ]
     },
     {
@@ -2093,6 +2095,59 @@
         "/service-areas/riverdale-ca/allergen-testing/",
         "/service-areas/riverdale-ca/compliance-consulting/",
         "/service-areas/riverdale-ca/litigation-support-sampling/",
+        "/service-areas/bakersfield-ca/",
+        "/service-areas/centerville-ca/",
+        "/service-areas/clovis-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ivanhoe-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Environmental Testing in Ivanhoe, CA | Arch Enviornmental Group LLC",
+      "h1": "Environmental Testing in Ivanhoe",
+      "meta_description": "Serving Ivanhoe, CA with independent mold, air quality, asbestos, lead, and water testing. Certified inspectors, accredited labs. Call (559) 296-2088.",
+      "primary_keyword": "environmental testing ivanhoe",
+      "secondary_keywords": [
+        "ivanhoe environmental testing company",
+        "mold testing ivanhoe",
+        "ivanhoe air quality testing"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+        "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+        "/service-areas/ivanhoe-ca/asbestos-testing/",
+        "/service-areas/ivanhoe-ca/clearance-testing/",
+        "/service-areas/ivanhoe-ca/environmental-site-assessments/",
+        "/service-areas/ivanhoe-ca/lead-paint-testing/",
+        "/service-areas/ivanhoe-ca/water-quality-testing/",
+        "/service-areas/ivanhoe-ca/post-flood-mold-assessment/",
+        "/service-areas/ivanhoe-ca/radon-testing/",
+        "/service-areas/ivanhoe-ca/sewage-contamination-assessment/",
+        "/service-areas/ivanhoe-ca/hvac-duct-assessments/",
+        "/service-areas/ivanhoe-ca/remediation-oversight/",
+        "/service-areas/ivanhoe-ca/voc-formaldehyde-testing/",
+        "/service-areas/ivanhoe-ca/allergen-testing/",
+        "/service-areas/ivanhoe-ca/compliance-consulting/",
+        "/service-areas/ivanhoe-ca/litigation-support-sampling/",
         "/service-areas/bakersfield-ca/",
         "/service-areas/centerville-ca/",
         "/service-areas/clovis-ca/"
@@ -15469,6 +15524,710 @@
         "/service-areas/riverdale-ca/",
         "/service-areas/riverdale-ca/indoor-air-quality-testing/",
         "/service-areas/riverdale-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/litigation-support-sampling/",
+        "/service-areas/centerville-ca/litigation-support-sampling/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Ivanhoe, CA | Arch Enviornmental Group LLC",
+      "h1": "Mold Inspection and Testing in Ivanhoe",
+      "meta_description": "Certified mold inspection and testing in Ivanhoe, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "mold inspection and testing ivanhoe",
+      "secondary_keywords": [
+        "mold inspection near me",
+        "mold testing",
+        "mold spore testing",
+        "air sampling for mold",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/ivanhoe-ca/",
+        "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+        "/service-areas/ivanhoe-ca/asbestos-testing/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
+        "/service-areas/centerville-ca/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Indoor Air Quality Testing in Ivanhoe, CA | Arch Enviornmental Group LLC",
+      "h1": "Indoor Air Quality Testing in Ivanhoe",
+      "meta_description": "Certified indoor air quality testing in Ivanhoe, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "indoor air quality testing ivanhoe",
+      "secondary_keywords": [
+        "indoor air quality testing",
+        "air quality testing near me",
+        "air quality inspection",
+        "home air quality test",
+        "air quality testing cost"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/indoor-air-quality-testing/",
+        "/service-areas/ivanhoe-ca/",
+        "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+        "/service-areas/ivanhoe-ca/asbestos-testing/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
+        "/service-areas/centerville-ca/indoor-air-quality-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ivanhoe-ca/asbestos-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Asbestos Testing and Inspection in Ivanhoe, CA | Arch Enviornmental Group LLC",
+      "h1": "Asbestos Testing and Inspection in Ivanhoe",
+      "meta_description": "Certified asbestos testing and inspection in Ivanhoe, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "asbestos testing and inspection ivanhoe",
+      "secondary_keywords": [
+        "asbestos testing near me",
+        "asbestos inspection",
+        "asbestos test before renovation",
+        "popcorn ceiling asbestos test",
+        "asbestos survey"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/asbestos-testing/",
+        "/service-areas/ivanhoe-ca/",
+        "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+        "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/asbestos-testing/",
+        "/service-areas/centerville-ca/asbestos-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ivanhoe-ca/lead-paint-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Lead Paint Testing and Inspection in Ivanhoe, CA | Arch Enviornmental Group LLC",
+      "h1": "Lead Paint Testing and Inspection in Ivanhoe",
+      "meta_description": "Certified lead paint testing and inspection in Ivanhoe, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "lead paint testing and inspection ivanhoe",
+      "secondary_keywords": [
+        "lead paint testing",
+        "lead paint inspection",
+        "XRF lead testing",
+        "lead risk assessment",
+        "lead test before renovation"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/lead-paint-testing/",
+        "/service-areas/ivanhoe-ca/",
+        "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+        "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/lead-paint-testing/",
+        "/service-areas/centerville-ca/lead-paint-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ivanhoe-ca/water-quality-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Quality Testing in Ivanhoe, CA | Arch Enviornmental Group LLC",
+      "h1": "Water Quality Testing in Ivanhoe",
+      "meta_description": "Certified water quality testing in Ivanhoe, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "water quality testing ivanhoe",
+      "secondary_keywords": [
+        "water quality testing near me",
+        "well water testing",
+        "drinking water testing",
+        "lead in water test",
+        "bacteria water test"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-quality-testing/",
+        "/service-areas/ivanhoe-ca/",
+        "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+        "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/water-quality-testing/",
+        "/service-areas/centerville-ca/water-quality-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ivanhoe-ca/clearance-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Clearance Testing and Post-Remediation Verification in Ivanhoe, CA | Arch Enviornmental Group LLC",
+      "h1": "Clearance Testing and Post-Remediation Verification in Ivanhoe",
+      "meta_description": "Certified clearance testing and post-remediation verification in Ivanhoe, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "clearance testing and post-remediation verification ivanhoe",
+      "secondary_keywords": [
+        "mold clearance testing",
+        "post remediation verification",
+        "clearance air testing",
+        "asbestos clearance testing",
+        "remediation clearance letter"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/clearance-testing/",
+        "/service-areas/ivanhoe-ca/",
+        "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+        "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/clearance-testing/",
+        "/service-areas/centerville-ca/clearance-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ivanhoe-ca/environmental-site-assessments/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Environmental Site Assessments in Ivanhoe, CA | Arch Enviornmental Group LLC",
+      "h1": "Environmental Site Assessments in Ivanhoe",
+      "meta_description": "Certified environmental site assessments in Ivanhoe, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "environmental site assessments ivanhoe",
+      "secondary_keywords": [
+        "phase 1 environmental site assessment",
+        "phase 2 environmental site assessment",
+        "environmental due diligence",
+        "commercial property environmental assessment",
+        "ESA report"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/environmental-site-assessments/",
+        "/service-areas/ivanhoe-ca/",
+        "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+        "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/environmental-site-assessments/",
+        "/service-areas/centerville-ca/environmental-site-assessments/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ivanhoe-ca/radon-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Radon Testing in Ivanhoe, CA | Arch Enviornmental Group LLC",
+      "h1": "Radon Testing in Ivanhoe",
+      "meta_description": "Certified radon testing in Ivanhoe, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "radon testing ivanhoe",
+      "secondary_keywords": [
+        "radon testing near me",
+        "radon test for home",
+        "radon inspection",
+        "radon levels in house",
+        "continuous radon monitoring"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/radon-testing/",
+        "/service-areas/ivanhoe-ca/",
+        "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+        "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/radon-testing/",
+        "/service-areas/centerville-ca/radon-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ivanhoe-ca/voc-formaldehyde-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "VOC and Formaldehyde Testing in Ivanhoe, CA | Arch Enviornmental Group LLC",
+      "h1": "VOC and Formaldehyde Testing in Ivanhoe",
+      "meta_description": "Certified voc and formaldehyde testing in Ivanhoe, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "voc and formaldehyde testing ivanhoe",
+      "secondary_keywords": [
+        "VOC testing",
+        "formaldehyde testing",
+        "chemical odor testing",
+        "off-gassing test",
+        "new construction air quality testing"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/voc-formaldehyde-testing/",
+        "/service-areas/ivanhoe-ca/",
+        "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+        "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/voc-formaldehyde-testing/",
+        "/service-areas/centerville-ca/voc-formaldehyde-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ivanhoe-ca/sewage-contamination-assessment/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Contamination Assessment in Ivanhoe, CA | Arch Enviornmental Group LLC",
+      "h1": "Sewage Contamination Assessment in Ivanhoe",
+      "meta_description": "Certified sewage contamination assessment in Ivanhoe, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "sewage contamination assessment ivanhoe",
+      "secondary_keywords": [
+        "sewage backup testing",
+        "sewage contamination testing",
+        "category 3 water testing",
+        "bacterial contamination testing",
+        "sewage cleanup verification testing"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-contamination-assessment/",
+        "/service-areas/ivanhoe-ca/",
+        "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+        "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/sewage-contamination-assessment/",
+        "/service-areas/centerville-ca/sewage-contamination-assessment/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ivanhoe-ca/post-flood-mold-assessment/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Flood Mold Assessment in Ivanhoe, CA | Arch Enviornmental Group LLC",
+      "h1": "Post-Flood Mold Assessment in Ivanhoe",
+      "meta_description": "Certified post-flood mold assessment in Ivanhoe, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "post-flood mold assessment ivanhoe",
+      "secondary_keywords": [
+        "mold testing after flood",
+        "water damage mold inspection",
+        "mold assessment after water damage",
+        "flood damage air testing",
+        "moisture mapping inspection"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-flood-mold-assessment/",
+        "/service-areas/ivanhoe-ca/",
+        "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+        "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/post-flood-mold-assessment/",
+        "/service-areas/centerville-ca/post-flood-mold-assessment/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ivanhoe-ca/allergen-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Allergen Testing in Ivanhoe, CA | Arch Enviornmental Group LLC",
+      "h1": "Allergen Testing in Ivanhoe",
+      "meta_description": "Certified allergen testing in Ivanhoe, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "allergen testing ivanhoe",
+      "secondary_keywords": [
+        "indoor allergen testing",
+        "dust mite allergen test",
+        "pet dander testing",
+        "allergen screening for home",
+        "dust sample allergen analysis"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/allergen-testing/",
+        "/service-areas/ivanhoe-ca/",
+        "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+        "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/allergen-testing/",
+        "/service-areas/centerville-ca/allergen-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ivanhoe-ca/hvac-duct-assessments/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "HVAC and Duct System Assessments in Ivanhoe, CA | Arch Enviornmental Group LLC",
+      "h1": "HVAC and Duct System Assessments in Ivanhoe",
+      "meta_description": "Certified hvac and duct system assessments in Ivanhoe, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "hvac and duct system assessments ivanhoe",
+      "secondary_keywords": [
+        "HVAC mold inspection",
+        "air duct inspection",
+        "duct contamination testing",
+        "HVAC air quality assessment",
+        "ductwork mold testing"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/hvac-duct-assessments/",
+        "/service-areas/ivanhoe-ca/",
+        "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+        "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/hvac-duct-assessments/",
+        "/service-areas/centerville-ca/hvac-duct-assessments/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ivanhoe-ca/remediation-oversight/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Remediation Oversight and Project Management in Ivanhoe, CA | Arch Enviornmental Group LLC",
+      "h1": "Remediation Oversight and Project Management in Ivanhoe",
+      "meta_description": "Certified remediation oversight and project management in Ivanhoe, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "remediation oversight and project management ivanhoe",
+      "secondary_keywords": [
+        "remediation project management",
+        "mold remediation protocol",
+        "third party remediation oversight",
+        "abatement project monitoring",
+        "remediation scope of work"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/remediation-oversight/",
+        "/service-areas/ivanhoe-ca/",
+        "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+        "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/remediation-oversight/",
+        "/service-areas/centerville-ca/remediation-oversight/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ivanhoe-ca/compliance-consulting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Environmental Compliance Consulting in Ivanhoe, CA | Arch Enviornmental Group LLC",
+      "h1": "Environmental Compliance Consulting in Ivanhoe",
+      "meta_description": "Certified environmental compliance consulting in Ivanhoe, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "environmental compliance consulting ivanhoe",
+      "secondary_keywords": [
+        "environmental compliance consulting",
+        "AHERA compliance inspection",
+        "OSHA air monitoring",
+        "environmental compliance audit",
+        "workplace exposure assessment"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/compliance-consulting/",
+        "/service-areas/ivanhoe-ca/",
+        "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+        "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/compliance-consulting/",
+        "/service-areas/centerville-ca/compliance-consulting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ivanhoe-ca/litigation-support-sampling/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Litigation Support and Forensic Sampling in Ivanhoe, CA | Arch Enviornmental Group LLC",
+      "h1": "Litigation Support and Forensic Sampling in Ivanhoe",
+      "meta_description": "Certified litigation support and forensic sampling in Ivanhoe, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "litigation support and forensic sampling ivanhoe",
+      "secondary_keywords": [
+        "expert witness environmental testing",
+        "forensic mold investigation",
+        "litigation support sampling",
+        "tenant landlord mold dispute testing",
+        "habitability testing"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/litigation-support-sampling/",
+        "/service-areas/ivanhoe-ca/",
+        "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+        "/service-areas/ivanhoe-ca/mold-inspection-testing/",
         "/service-areas/bakersfield-ca/litigation-support-sampling/",
         "/service-areas/centerville-ca/litigation-support-sampling/",
         "/contact/"

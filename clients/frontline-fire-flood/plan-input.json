@@ -213,6 +213,11 @@
       "city": "Anderson Island",
       "state": "WA",
       "slug": "anderson-island-wa"
+    },
+    {
+      "city": "Waller",
+      "state": "WA",
+      "slug": "waller-wa"
     }
   ],
   "template": "restoration",

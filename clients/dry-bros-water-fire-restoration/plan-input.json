@@ -129,6 +129,11 @@
       "city": "Riverside",
       "state": "IL",
       "slug": "riverside-il"
+    },
+    {
+      "city": "Elmwood Park",
+      "state": "IL",
+      "slug": "elmwood-park-il"
     }
   ],
   "template": "restoration",

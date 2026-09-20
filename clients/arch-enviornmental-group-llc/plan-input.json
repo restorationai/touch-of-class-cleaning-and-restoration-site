@@ -143,6 +143,11 @@
       "city": "Riverdale",
       "state": "CA",
       "slug": "riverdale-ca"
+    },
+    {
+      "city": "Ivanhoe",
+      "state": "CA",
+      "slug": "ivanhoe-ca"
     }
   ],
   "template": "environmental",

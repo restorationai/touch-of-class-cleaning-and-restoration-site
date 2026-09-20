@@ -1,21 +1,21 @@
 # Site Plan Report — Paul Davis Restoration of Charleston
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T17:29:53.044601+00:00
+- Generated: 2026-09-20T19:17:38.077542+00:00
 - Domain: `None`
 - Services selected: 4 of 65 catalog entries
-- Service areas: 12
+- Service areas: 13
 - Cross-product enabled: True
-- Total URLs: **80**
-- Total internal links: 586 (avg 7.3 per page)
+- Total URLs: **85**
+- Total internal links: 629 (avg 7.4 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 44 |
+| `service-area-service` | 48 |
+| `service-area` | 12 |
 | `blog-post` | 12 |
-| `service-area` | 11 |
 | `service-landing` | 4 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -46,6 +46,7 @@
 - `ladson-sc` — Ladson, SC
 - `awendaw-sc` — Awendaw, SC
 - `folly-beach-sc` — Folly Beach, SC
+- `hollywood-sc` — Hollywood, SC
 
 ## Top 10 priority pages
 

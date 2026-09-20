@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-20T17:29:32.969348+00:00",
+  "generated_at": "2026-09-20T19:17:16.316615+00:00",
   "input_summary": {
     "service_count": 12,
-    "service_area_count": 16,
+    "service_area_count": 17,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -69,6 +69,7 @@
         "/service-areas/santa-ana-ca/",
         "/service-areas/silverado-ca/",
         "/service-areas/temescal-valley-ca/",
+        "/service-areas/trabuco-canyon-ca/",
         "/service-areas/woodcrest-ca/",
         "/service-areas/yorba-linda-ca/"
       ]
@@ -159,6 +160,7 @@
         "/service-areas/santa-ana-ca/",
         "/service-areas/silverado-ca/",
         "/service-areas/temescal-valley-ca/",
+        "/service-areas/trabuco-canyon-ca/",
         "/service-areas/woodcrest-ca/",
         "/service-areas/yorba-linda-ca/"
       ]
@@ -1609,6 +1611,55 @@
         "/service-areas/woodcrest-ca/contents-restoration/",
         "/service-areas/woodcrest-ca/carpet-cleaning/",
         "/service-areas/woodcrest-ca/post-construction-cleaning/",
+        "/service-areas/anaheim-ca/",
+        "/service-areas/chino-ca/",
+        "/service-areas/chino-hills-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/trabuco-canyon-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Trabuco Canyon, CA | Dry County Restoration",
+      "h1": "Restoration Services in Trabuco Canyon",
+      "meta_description": "Serving Trabuco Canyon, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (951) 667-9910.",
+      "primary_keyword": "restoration services trabuco canyon",
+      "secondary_keywords": [
+        "trabuco canyon restoration company",
+        "damage restoration trabuco canyon",
+        "trabuco canyon disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/trabuco-canyon-ca/fire-damage-restoration/",
+        "/service-areas/trabuco-canyon-ca/mold-remediation/",
+        "/service-areas/trabuco-canyon-ca/water-damage-restoration/",
+        "/service-areas/trabuco-canyon-ca/sewage-cleanup/",
+        "/service-areas/trabuco-canyon-ca/storm-damage-restoration/",
+        "/service-areas/trabuco-canyon-ca/water-cleanup/",
+        "/service-areas/trabuco-canyon-ca/general-contracting/",
+        "/service-areas/trabuco-canyon-ca/emergency-board-up-tarping/",
+        "/service-areas/trabuco-canyon-ca/air-duct-cleaning/",
+        "/service-areas/trabuco-canyon-ca/contents-restoration/",
+        "/service-areas/trabuco-canyon-ca/carpet-cleaning/",
+        "/service-areas/trabuco-canyon-ca/post-construction-cleaning/",
         "/service-areas/anaheim-ca/",
         "/service-areas/chino-ca/",
         "/service-areas/chino-hills-ca/"
@@ -9544,6 +9595,535 @@
         "/service-areas/woodcrest-ca/",
         "/service-areas/woodcrest-ca/fire-damage-restoration/",
         "/service-areas/woodcrest-ca/mold-remediation/",
+        "/service-areas/anaheim-ca/water-cleanup/",
+        "/service-areas/chino-ca/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/trabuco-canyon-ca/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Trabuco Canyon, CA | Dry County Restoration",
+      "h1": "Water Damage Restoration in Trabuco Canyon",
+      "meta_description": "24/7 water damage restoration in Trabuco Canyon, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
+      "primary_keyword": "water damage restoration trabuco canyon",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/trabuco-canyon-ca/",
+        "/service-areas/trabuco-canyon-ca/fire-damage-restoration/",
+        "/service-areas/trabuco-canyon-ca/mold-remediation/",
+        "/service-areas/anaheim-ca/water-damage-restoration/",
+        "/service-areas/chino-ca/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/trabuco-canyon-ca/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Trabuco Canyon, CA | Dry County Restoration",
+      "h1": "Fire Damage Restoration in Trabuco Canyon",
+      "meta_description": "24/7 fire damage restoration in Trabuco Canyon, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
+      "primary_keyword": "fire damage restoration trabuco canyon",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/trabuco-canyon-ca/",
+        "/service-areas/trabuco-canyon-ca/mold-remediation/",
+        "/service-areas/trabuco-canyon-ca/water-damage-restoration/",
+        "/service-areas/anaheim-ca/fire-damage-restoration/",
+        "/service-areas/chino-ca/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/trabuco-canyon-ca/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Trabuco Canyon, CA | Dry County Restoration",
+      "h1": "Mold Remediation in Trabuco Canyon",
+      "meta_description": "24/7 mold remediation in Trabuco Canyon, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
+      "primary_keyword": "mold remediation trabuco canyon",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/trabuco-canyon-ca/",
+        "/service-areas/trabuco-canyon-ca/fire-damage-restoration/",
+        "/service-areas/trabuco-canyon-ca/water-damage-restoration/",
+        "/service-areas/anaheim-ca/mold-remediation/",
+        "/service-areas/chino-ca/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/trabuco-canyon-ca/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Trabuco Canyon, CA | Dry County Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Trabuco Canyon",
+      "meta_description": "24/7 renovations, remodels and general contracting in Trabuco Canyon, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
+      "primary_keyword": "renovations, remodels and general contracting trabuco canyon",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/trabuco-canyon-ca/",
+        "/service-areas/trabuco-canyon-ca/fire-damage-restoration/",
+        "/service-areas/trabuco-canyon-ca/mold-remediation/",
+        "/service-areas/anaheim-ca/general-contracting/",
+        "/service-areas/chino-ca/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/trabuco-canyon-ca/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Trabuco Canyon, CA | Dry County Restoration",
+      "h1": "Storm Damage Restoration in Trabuco Canyon",
+      "meta_description": "24/7 storm damage restoration in Trabuco Canyon, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
+      "primary_keyword": "storm damage restoration trabuco canyon",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/trabuco-canyon-ca/",
+        "/service-areas/trabuco-canyon-ca/fire-damage-restoration/",
+        "/service-areas/trabuco-canyon-ca/mold-remediation/",
+        "/service-areas/anaheim-ca/storm-damage-restoration/",
+        "/service-areas/chino-ca/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/trabuco-canyon-ca/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Trabuco Canyon, CA | Dry County Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Trabuco Canyon",
+      "meta_description": "24/7 sewage cleanup and sanitization in Trabuco Canyon, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
+      "primary_keyword": "sewage cleanup and sanitization trabuco canyon",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/trabuco-canyon-ca/",
+        "/service-areas/trabuco-canyon-ca/fire-damage-restoration/",
+        "/service-areas/trabuco-canyon-ca/mold-remediation/",
+        "/service-areas/anaheim-ca/sewage-cleanup/",
+        "/service-areas/chino-ca/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/trabuco-canyon-ca/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Trabuco Canyon, CA | Dry County Restoration",
+      "h1": "Emergency Board-Up and Tarping in Trabuco Canyon",
+      "meta_description": "24/7 emergency board-up and tarping in Trabuco Canyon, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
+      "primary_keyword": "emergency board-up and tarping trabuco canyon",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/trabuco-canyon-ca/",
+        "/service-areas/trabuco-canyon-ca/fire-damage-restoration/",
+        "/service-areas/trabuco-canyon-ca/mold-remediation/",
+        "/service-areas/anaheim-ca/emergency-board-up-tarping/",
+        "/service-areas/chino-ca/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/trabuco-canyon-ca/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Trabuco Canyon, CA | Dry County Restoration",
+      "h1": "Contents Restoration and Storage in Trabuco Canyon",
+      "meta_description": "24/7 contents restoration and storage in Trabuco Canyon, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
+      "primary_keyword": "contents restoration and storage trabuco canyon",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/trabuco-canyon-ca/",
+        "/service-areas/trabuco-canyon-ca/fire-damage-restoration/",
+        "/service-areas/trabuco-canyon-ca/mold-remediation/",
+        "/service-areas/anaheim-ca/contents-restoration/",
+        "/service-areas/chino-ca/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/trabuco-canyon-ca/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Trabuco Canyon, CA | Dry County Restoration",
+      "h1": "Air Duct Cleaning in Trabuco Canyon",
+      "meta_description": "24/7 air duct cleaning in Trabuco Canyon, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
+      "primary_keyword": "air duct cleaning trabuco canyon",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/trabuco-canyon-ca/",
+        "/service-areas/trabuco-canyon-ca/fire-damage-restoration/",
+        "/service-areas/trabuco-canyon-ca/mold-remediation/",
+        "/service-areas/anaheim-ca/air-duct-cleaning/",
+        "/service-areas/chino-ca/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/trabuco-canyon-ca/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Trabuco Canyon, CA | Dry County Restoration",
+      "h1": "Carpet Cleaning in Trabuco Canyon",
+      "meta_description": "24/7 carpet cleaning in Trabuco Canyon, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
+      "primary_keyword": "carpet cleaning trabuco canyon",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/trabuco-canyon-ca/",
+        "/service-areas/trabuco-canyon-ca/fire-damage-restoration/",
+        "/service-areas/trabuco-canyon-ca/mold-remediation/",
+        "/service-areas/anaheim-ca/carpet-cleaning/",
+        "/service-areas/chino-ca/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/trabuco-canyon-ca/post-construction-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction and Specialty Cleaning in Trabuco Canyon, CA | Dry County Restoration",
+      "h1": "Post-Construction and Specialty Cleaning in Trabuco Canyon",
+      "meta_description": "24/7 post-construction and specialty cleaning in Trabuco Canyon, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
+      "primary_keyword": "post-construction and specialty cleaning trabuco canyon",
+      "secondary_keywords": [
+        "post construction cleanup",
+        "construction debris cleaning",
+        "final clean",
+        "deep cleaning after renovation"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-cleaning/",
+        "/service-areas/trabuco-canyon-ca/",
+        "/service-areas/trabuco-canyon-ca/fire-damage-restoration/",
+        "/service-areas/trabuco-canyon-ca/mold-remediation/",
+        "/service-areas/anaheim-ca/post-construction-cleaning/",
+        "/service-areas/chino-ca/post-construction-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/trabuco-canyon-ca/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Trabuco Canyon, CA | Dry County Restoration",
+      "h1": "Emergency Water Cleanup in Trabuco Canyon",
+      "meta_description": "24/7 emergency water cleanup in Trabuco Canyon, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
+      "primary_keyword": "emergency water cleanup trabuco canyon",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/trabuco-canyon-ca/",
+        "/service-areas/trabuco-canyon-ca/fire-damage-restoration/",
+        "/service-areas/trabuco-canyon-ca/mold-remediation/",
         "/service-areas/anaheim-ca/water-cleanup/",
         "/service-areas/chino-ca/water-cleanup/",
         "/contact/"

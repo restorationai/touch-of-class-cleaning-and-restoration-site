@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-20T17:29:54.722925+00:00",
+  "generated_at": "2026-09-20T19:17:39.854954+00:00",
   "input_summary": {
     "service_count": 17,
-    "service_area_count": 18,
+    "service_area_count": 19,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -77,7 +77,8 @@
         "/service-areas/tehachapi-ca/",
         "/service-areas/valley-acres-ca/",
         "/service-areas/wasco-ca/",
-        "/service-areas/weedpatch-ca/"
+        "/service-areas/weedpatch-ca/",
+        "/service-areas/woody-ca/"
       ]
     },
     {
@@ -174,7 +175,8 @@
         "/service-areas/tehachapi-ca/",
         "/service-areas/valley-acres-ca/",
         "/service-areas/wasco-ca/",
-        "/service-areas/weedpatch-ca/"
+        "/service-areas/weedpatch-ca/",
+        "/service-areas/woody-ca/"
       ]
     },
     {
@@ -2069,6 +2071,60 @@
         "/service-areas/valley-acres-ca/soot-removal/",
         "/service-areas/valley-acres-ca/appliance-leak-cleanup/",
         "/service-areas/valley-acres-ca/carpet-cleaning/",
+        "/service-areas/arvin-ca/",
+        "/service-areas/buttonwillow-ca/",
+        "/service-areas/delano-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/woody-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Woody, CA | ProRestoration Services",
+      "h1": "Restoration Services in Woody",
+      "meta_description": "Serving Woody, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (661) 393-9306.",
+      "primary_keyword": "restoration services woody",
+      "secondary_keywords": [
+        "woody restoration company",
+        "damage restoration woody",
+        "woody disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/woody-ca/fire-damage-restoration/",
+        "/service-areas/woody-ca/home-remodeling/",
+        "/service-areas/woody-ca/mold-remediation/",
+        "/service-areas/woody-ca/water-damage-restoration/",
+        "/service-areas/woody-ca/flood-damage-restoration/",
+        "/service-areas/woody-ca/reconstruction/",
+        "/service-areas/woody-ca/sewage-cleanup/",
+        "/service-areas/woody-ca/smoke-damage-restoration/",
+        "/service-areas/woody-ca/storm-damage-restoration/",
+        "/service-areas/woody-ca/water-cleanup/",
+        "/service-areas/woody-ca/burst-pipe-repair/",
+        "/service-areas/woody-ca/general-contracting/",
+        "/service-areas/woody-ca/mold-inspection-testing/",
+        "/service-areas/woody-ca/odor-removal/",
+        "/service-areas/woody-ca/soot-removal/",
+        "/service-areas/woody-ca/appliance-leak-cleanup/",
+        "/service-areas/woody-ca/carpet-cleaning/",
         "/service-areas/arvin-ca/",
         "/service-areas/buttonwillow-ca/",
         "/service-areas/delano-ca/"
@@ -14819,6 +14875,756 @@
         "/service-areas/valley-acres-ca/",
         "/service-areas/valley-acres-ca/fire-damage-restoration/",
         "/service-areas/valley-acres-ca/home-remodeling/",
+        "/service-areas/arvin-ca/water-cleanup/",
+        "/service-areas/buttonwillow-ca/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/woody-ca/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Woody, CA | ProRestoration Services",
+      "h1": "Water Damage Restoration in Woody",
+      "meta_description": "24/7 water damage restoration in Woody, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "water damage restoration woody",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/woody-ca/",
+        "/service-areas/woody-ca/fire-damage-restoration/",
+        "/service-areas/woody-ca/home-remodeling/",
+        "/service-areas/arvin-ca/water-damage-restoration/",
+        "/service-areas/buttonwillow-ca/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/woody-ca/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Woody, CA | ProRestoration Services",
+      "h1": "Flood Damage Restoration in Woody",
+      "meta_description": "24/7 flood damage restoration in Woody, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "flood damage restoration woody",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/woody-ca/",
+        "/service-areas/woody-ca/fire-damage-restoration/",
+        "/service-areas/woody-ca/home-remodeling/",
+        "/service-areas/arvin-ca/flood-damage-restoration/",
+        "/service-areas/buttonwillow-ca/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/woody-ca/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Woody, CA | ProRestoration Services",
+      "h1": "Burst Pipe Cleanup and Repair in Woody",
+      "meta_description": "24/7 burst pipe cleanup and repair in Woody, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "burst pipe cleanup and repair woody",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/woody-ca/",
+        "/service-areas/woody-ca/fire-damage-restoration/",
+        "/service-areas/woody-ca/home-remodeling/",
+        "/service-areas/arvin-ca/burst-pipe-repair/",
+        "/service-areas/buttonwillow-ca/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/woody-ca/appliance-leak-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Appliance Leak Cleanup in Woody, CA | ProRestoration Services",
+      "h1": "Appliance Leak Cleanup in Woody",
+      "meta_description": "24/7 appliance leak cleanup in Woody, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "appliance leak cleanup woody",
+      "secondary_keywords": [
+        "dishwasher leak cleanup",
+        "washing machine flood",
+        "refrigerator leak cleanup",
+        "water heater leak cleanup",
+        "ice maker line leak"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/appliance-leak-cleanup/",
+        "/service-areas/woody-ca/",
+        "/service-areas/woody-ca/fire-damage-restoration/",
+        "/service-areas/woody-ca/home-remodeling/",
+        "/service-areas/arvin-ca/appliance-leak-cleanup/",
+        "/service-areas/buttonwillow-ca/appliance-leak-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/woody-ca/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Woody, CA | ProRestoration Services",
+      "h1": "Sewage Cleanup and Sanitization in Woody",
+      "meta_description": "24/7 sewage cleanup and sanitization in Woody, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "sewage cleanup and sanitization woody",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/woody-ca/",
+        "/service-areas/woody-ca/fire-damage-restoration/",
+        "/service-areas/woody-ca/home-remodeling/",
+        "/service-areas/arvin-ca/sewage-cleanup/",
+        "/service-areas/buttonwillow-ca/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/woody-ca/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Woody, CA | ProRestoration Services",
+      "h1": "Fire Damage Restoration in Woody",
+      "meta_description": "24/7 fire damage restoration in Woody, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "fire damage restoration woody",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/woody-ca/",
+        "/service-areas/woody-ca/home-remodeling/",
+        "/service-areas/woody-ca/mold-remediation/",
+        "/service-areas/arvin-ca/fire-damage-restoration/",
+        "/service-areas/buttonwillow-ca/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/woody-ca/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Woody, CA | ProRestoration Services",
+      "h1": "Smoke Damage Restoration in Woody",
+      "meta_description": "24/7 smoke damage restoration in Woody, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "smoke damage restoration woody",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/woody-ca/",
+        "/service-areas/woody-ca/fire-damage-restoration/",
+        "/service-areas/woody-ca/home-remodeling/",
+        "/service-areas/arvin-ca/smoke-damage-restoration/",
+        "/service-areas/buttonwillow-ca/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/woody-ca/soot-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Soot Removal in Woody, CA | ProRestoration Services",
+      "h1": "Soot Removal in Woody",
+      "meta_description": "24/7 soot removal in Woody, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "soot removal woody",
+      "secondary_keywords": [
+        "soot cleaning",
+        "soot residue removal",
+        "post-fire soot cleanup",
+        "soot damage cleanup",
+        "soot wall cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/soot-removal/",
+        "/service-areas/woody-ca/",
+        "/service-areas/woody-ca/fire-damage-restoration/",
+        "/service-areas/woody-ca/home-remodeling/",
+        "/service-areas/arvin-ca/soot-removal/",
+        "/service-areas/buttonwillow-ca/soot-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/woody-ca/odor-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Odor Removal and Deodorization in Woody, CA | ProRestoration Services",
+      "h1": "Odor Removal and Deodorization in Woody",
+      "meta_description": "24/7 odor removal and deodorization in Woody, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "odor removal and deodorization woody",
+      "secondary_keywords": [
+        "smoke odor removal",
+        "ozone treatment",
+        "hydroxyl deodorization",
+        "thermal fogging",
+        "professional odor elimination"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/odor-removal/",
+        "/service-areas/woody-ca/",
+        "/service-areas/woody-ca/fire-damage-restoration/",
+        "/service-areas/woody-ca/home-remodeling/",
+        "/service-areas/arvin-ca/odor-removal/",
+        "/service-areas/buttonwillow-ca/odor-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/woody-ca/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Woody, CA | ProRestoration Services",
+      "h1": "Mold Remediation in Woody",
+      "meta_description": "24/7 mold remediation in Woody, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "mold remediation woody",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/woody-ca/",
+        "/service-areas/woody-ca/fire-damage-restoration/",
+        "/service-areas/woody-ca/home-remodeling/",
+        "/service-areas/arvin-ca/mold-remediation/",
+        "/service-areas/buttonwillow-ca/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/woody-ca/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Woody, CA | ProRestoration Services",
+      "h1": "Mold Inspection and Testing in Woody",
+      "meta_description": "24/7 mold inspection and testing in Woody, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "mold inspection and testing woody",
+      "secondary_keywords": [
+        "mold inspection",
+        "mold testing",
+        "indoor air quality testing",
+        "mold spore testing",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/woody-ca/",
+        "/service-areas/woody-ca/fire-damage-restoration/",
+        "/service-areas/woody-ca/home-remodeling/",
+        "/service-areas/arvin-ca/mold-inspection-testing/",
+        "/service-areas/buttonwillow-ca/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/woody-ca/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Woody, CA | ProRestoration Services",
+      "h1": "Storm Damage Restoration in Woody",
+      "meta_description": "24/7 storm damage restoration in Woody, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "storm damage restoration woody",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/woody-ca/",
+        "/service-areas/woody-ca/fire-damage-restoration/",
+        "/service-areas/woody-ca/home-remodeling/",
+        "/service-areas/arvin-ca/storm-damage-restoration/",
+        "/service-areas/buttonwillow-ca/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/woody-ca/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Woody, CA | ProRestoration Services",
+      "h1": "Carpet Cleaning in Woody",
+      "meta_description": "24/7 carpet cleaning in Woody, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "carpet cleaning woody",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/woody-ca/",
+        "/service-areas/woody-ca/fire-damage-restoration/",
+        "/service-areas/woody-ca/home-remodeling/",
+        "/service-areas/arvin-ca/carpet-cleaning/",
+        "/service-areas/buttonwillow-ca/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/woody-ca/reconstruction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Reconstruction Services in Woody, CA | ProRestoration Services",
+      "h1": "Reconstruction Services in Woody",
+      "meta_description": "24/7 reconstruction services in Woody, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "reconstruction services woody",
+      "secondary_keywords": [
+        "post-damage reconstruction",
+        "rebuild services",
+        "structural reconstruction",
+        "post-disaster rebuilding",
+        "fire damage reconstruction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/reconstruction/",
+        "/service-areas/woody-ca/",
+        "/service-areas/woody-ca/fire-damage-restoration/",
+        "/service-areas/woody-ca/home-remodeling/",
+        "/service-areas/arvin-ca/reconstruction/",
+        "/service-areas/buttonwillow-ca/reconstruction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/woody-ca/home-remodeling/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Home Remodeling in Woody, CA | ProRestoration Services",
+      "h1": "Home Remodeling in Woody",
+      "meta_description": "24/7 home remodeling in Woody, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "home remodeling woody",
+      "secondary_keywords": [
+        "home renovation",
+        "kitchen remodel",
+        "bathroom remodel",
+        "whole home remodel",
+        "interior remodeling contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/home-remodeling/",
+        "/service-areas/woody-ca/",
+        "/service-areas/woody-ca/fire-damage-restoration/",
+        "/service-areas/woody-ca/mold-remediation/",
+        "/service-areas/arvin-ca/home-remodeling/",
+        "/service-areas/buttonwillow-ca/home-remodeling/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/woody-ca/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Woody, CA | ProRestoration Services",
+      "h1": "Renovations, Remodels and General Contracting in Woody",
+      "meta_description": "24/7 renovations, remodels and general contracting in Woody, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "renovations, remodels and general contracting woody",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/woody-ca/",
+        "/service-areas/woody-ca/fire-damage-restoration/",
+        "/service-areas/woody-ca/home-remodeling/",
+        "/service-areas/arvin-ca/general-contracting/",
+        "/service-areas/buttonwillow-ca/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/woody-ca/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Woody, CA | ProRestoration Services",
+      "h1": "Emergency Water Cleanup in Woody",
+      "meta_description": "24/7 emergency water cleanup in Woody, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
+      "primary_keyword": "emergency water cleanup woody",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/woody-ca/",
+        "/service-areas/woody-ca/fire-damage-restoration/",
+        "/service-areas/woody-ca/home-remodeling/",
         "/service-areas/arvin-ca/water-cleanup/",
         "/service-areas/buttonwillow-ca/water-cleanup/",
         "/contact/"

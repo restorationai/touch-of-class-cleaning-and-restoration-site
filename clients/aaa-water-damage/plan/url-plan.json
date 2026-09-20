@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-20T17:29:16.071636+00:00",
+  "generated_at": "2026-09-20T19:16:56.846237+00:00",
   "input_summary": {
     "service_count": 11,
-    "service_area_count": 20,
+    "service_area_count": 21,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -59,6 +59,7 @@
         "/service-areas/aina-haina-hi/",
         "/service-areas/diamond-head-hi/",
         "/service-areas/east-honolulu-hi/",
+        "/service-areas/east-kapolei-hi/",
         "/service-areas/ewa-beach-hi/",
         "/service-areas/hawaii-kai-hi/",
         "/service-areas/heeia-hi/",
@@ -152,6 +153,7 @@
         "/service-areas/aina-haina-hi/",
         "/service-areas/diamond-head-hi/",
         "/service-areas/east-honolulu-hi/",
+        "/service-areas/east-kapolei-hi/",
         "/service-areas/ewa-beach-hi/",
         "/service-areas/hawaii-kai-hi/",
         "/service-areas/heeia-hi/",
@@ -318,6 +320,7 @@
         "/service-areas/aina-haina-hi/water-damage-restoration/",
         "/service-areas/diamond-head-hi/water-damage-restoration/",
         "/service-areas/east-honolulu-hi/water-damage-restoration/",
+        "/service-areas/east-kapolei-hi/water-damage-restoration/",
         "/service-areas/ewa-beach-hi/water-damage-restoration/",
         "/service-areas/hawaii-kai-hi/water-damage-restoration/",
         "/service-areas/heeia-hi/water-damage-restoration/",
@@ -325,7 +328,6 @@
         "/service-areas/kahala-hi/water-damage-restoration/",
         "/service-areas/kahaluu-hi/water-damage-restoration/",
         "/service-areas/kailua-hi/water-damage-restoration/",
-        "/service-areas/kaimuki-hi/water-damage-restoration/",
         "/services/water-cleanup/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
@@ -372,14 +374,14 @@
         "/service-areas/aina-haina-hi/flood-damage-restoration/",
         "/service-areas/diamond-head-hi/flood-damage-restoration/",
         "/service-areas/east-honolulu-hi/flood-damage-restoration/",
+        "/service-areas/east-kapolei-hi/flood-damage-restoration/",
         "/service-areas/ewa-beach-hi/flood-damage-restoration/",
         "/service-areas/hawaii-kai-hi/flood-damage-restoration/",
         "/service-areas/heeia-hi/flood-damage-restoration/",
         "/service-areas/hickam-housing-hi/flood-damage-restoration/",
         "/service-areas/kahala-hi/flood-damage-restoration/",
         "/service-areas/kahaluu-hi/flood-damage-restoration/",
-        "/service-areas/kailua-hi/flood-damage-restoration/",
-        "/service-areas/kaimuki-hi/flood-damage-restoration/"
+        "/service-areas/kailua-hi/flood-damage-restoration/"
       ]
     },
     {
@@ -422,14 +424,14 @@
         "/service-areas/aina-haina-hi/burst-pipe-repair/",
         "/service-areas/diamond-head-hi/burst-pipe-repair/",
         "/service-areas/east-honolulu-hi/burst-pipe-repair/",
+        "/service-areas/east-kapolei-hi/burst-pipe-repair/",
         "/service-areas/ewa-beach-hi/burst-pipe-repair/",
         "/service-areas/hawaii-kai-hi/burst-pipe-repair/",
         "/service-areas/heeia-hi/burst-pipe-repair/",
         "/service-areas/hickam-housing-hi/burst-pipe-repair/",
         "/service-areas/kahala-hi/burst-pipe-repair/",
         "/service-areas/kahaluu-hi/burst-pipe-repair/",
-        "/service-areas/kailua-hi/burst-pipe-repair/",
-        "/service-areas/kaimuki-hi/burst-pipe-repair/"
+        "/service-areas/kailua-hi/burst-pipe-repair/"
       ]
     },
     {
@@ -472,6 +474,7 @@
         "/service-areas/aina-haina-hi/sewage-cleanup/",
         "/service-areas/diamond-head-hi/sewage-cleanup/",
         "/service-areas/east-honolulu-hi/sewage-cleanup/",
+        "/service-areas/east-kapolei-hi/sewage-cleanup/",
         "/service-areas/ewa-beach-hi/sewage-cleanup/",
         "/service-areas/hawaii-kai-hi/sewage-cleanup/",
         "/service-areas/heeia-hi/sewage-cleanup/",
@@ -479,7 +482,6 @@
         "/service-areas/kahala-hi/sewage-cleanup/",
         "/service-areas/kahaluu-hi/sewage-cleanup/",
         "/service-areas/kailua-hi/sewage-cleanup/",
-        "/service-areas/kaimuki-hi/sewage-cleanup/",
         "/blog/sewage-backup-health-risks/"
       ]
     },
@@ -523,6 +525,7 @@
         "/service-areas/aina-haina-hi/mold-remediation/",
         "/service-areas/diamond-head-hi/mold-remediation/",
         "/service-areas/east-honolulu-hi/mold-remediation/",
+        "/service-areas/east-kapolei-hi/mold-remediation/",
         "/service-areas/ewa-beach-hi/mold-remediation/",
         "/service-areas/hawaii-kai-hi/mold-remediation/",
         "/service-areas/heeia-hi/mold-remediation/",
@@ -530,7 +533,6 @@
         "/service-areas/kahala-hi/mold-remediation/",
         "/service-areas/kahaluu-hi/mold-remediation/",
         "/service-areas/kailua-hi/mold-remediation/",
-        "/service-areas/kaimuki-hi/mold-remediation/",
         "/blog/choosing-a-restoration-company/",
         "/blog/how-to-test-for-mold/",
         "/blog/signs-of-hidden-mold/"
@@ -576,6 +578,7 @@
         "/service-areas/aina-haina-hi/mold-inspection-testing/",
         "/service-areas/diamond-head-hi/mold-inspection-testing/",
         "/service-areas/east-honolulu-hi/mold-inspection-testing/",
+        "/service-areas/east-kapolei-hi/mold-inspection-testing/",
         "/service-areas/ewa-beach-hi/mold-inspection-testing/",
         "/service-areas/hawaii-kai-hi/mold-inspection-testing/",
         "/service-areas/heeia-hi/mold-inspection-testing/",
@@ -583,7 +586,6 @@
         "/service-areas/kahala-hi/mold-inspection-testing/",
         "/service-areas/kahaluu-hi/mold-inspection-testing/",
         "/service-areas/kailua-hi/mold-inspection-testing/",
-        "/service-areas/kaimuki-hi/mold-inspection-testing/",
         "/blog/how-to-test-for-mold/"
       ]
     },
@@ -627,14 +629,14 @@
         "/service-areas/aina-haina-hi/carpet-cleaning/",
         "/service-areas/diamond-head-hi/carpet-cleaning/",
         "/service-areas/east-honolulu-hi/carpet-cleaning/",
+        "/service-areas/east-kapolei-hi/carpet-cleaning/",
         "/service-areas/ewa-beach-hi/carpet-cleaning/",
         "/service-areas/hawaii-kai-hi/carpet-cleaning/",
         "/service-areas/heeia-hi/carpet-cleaning/",
         "/service-areas/hickam-housing-hi/carpet-cleaning/",
         "/service-areas/kahala-hi/carpet-cleaning/",
         "/service-areas/kahaluu-hi/carpet-cleaning/",
-        "/service-areas/kailua-hi/carpet-cleaning/",
-        "/service-areas/kaimuki-hi/carpet-cleaning/"
+        "/service-areas/kailua-hi/carpet-cleaning/"
       ]
     },
     {
@@ -677,14 +679,14 @@
         "/service-areas/aina-haina-hi/upholstery-cleaning/",
         "/service-areas/diamond-head-hi/upholstery-cleaning/",
         "/service-areas/east-honolulu-hi/upholstery-cleaning/",
+        "/service-areas/east-kapolei-hi/upholstery-cleaning/",
         "/service-areas/ewa-beach-hi/upholstery-cleaning/",
         "/service-areas/hawaii-kai-hi/upholstery-cleaning/",
         "/service-areas/heeia-hi/upholstery-cleaning/",
         "/service-areas/hickam-housing-hi/upholstery-cleaning/",
         "/service-areas/kahala-hi/upholstery-cleaning/",
         "/service-areas/kahaluu-hi/upholstery-cleaning/",
-        "/service-areas/kailua-hi/upholstery-cleaning/",
-        "/service-areas/kaimuki-hi/upholstery-cleaning/"
+        "/service-areas/kailua-hi/upholstery-cleaning/"
       ]
     },
     {
@@ -727,14 +729,14 @@
         "/service-areas/aina-haina-hi/flood-equipment-rental/",
         "/service-areas/diamond-head-hi/flood-equipment-rental/",
         "/service-areas/east-honolulu-hi/flood-equipment-rental/",
+        "/service-areas/east-kapolei-hi/flood-equipment-rental/",
         "/service-areas/ewa-beach-hi/flood-equipment-rental/",
         "/service-areas/hawaii-kai-hi/flood-equipment-rental/",
         "/service-areas/heeia-hi/flood-equipment-rental/",
         "/service-areas/hickam-housing-hi/flood-equipment-rental/",
         "/service-areas/kahala-hi/flood-equipment-rental/",
         "/service-areas/kahaluu-hi/flood-equipment-rental/",
-        "/service-areas/kailua-hi/flood-equipment-rental/",
-        "/service-areas/kaimuki-hi/flood-equipment-rental/"
+        "/service-areas/kailua-hi/flood-equipment-rental/"
       ]
     },
     {
@@ -777,6 +779,7 @@
         "/service-areas/aina-haina-hi/commercial-restoration/",
         "/service-areas/diamond-head-hi/commercial-restoration/",
         "/service-areas/east-honolulu-hi/commercial-restoration/",
+        "/service-areas/east-kapolei-hi/commercial-restoration/",
         "/service-areas/ewa-beach-hi/commercial-restoration/",
         "/service-areas/hawaii-kai-hi/commercial-restoration/",
         "/service-areas/heeia-hi/commercial-restoration/",
@@ -784,7 +787,6 @@
         "/service-areas/kahala-hi/commercial-restoration/",
         "/service-areas/kahaluu-hi/commercial-restoration/",
         "/service-areas/kailua-hi/commercial-restoration/",
-        "/service-areas/kaimuki-hi/commercial-restoration/",
         "/blog/commercial-water-damage-business-continuity/"
       ]
     },
@@ -829,6 +831,7 @@
         "/service-areas/aina-haina-hi/water-cleanup/",
         "/service-areas/diamond-head-hi/water-cleanup/",
         "/service-areas/east-honolulu-hi/water-cleanup/",
+        "/service-areas/east-kapolei-hi/water-cleanup/",
         "/service-areas/ewa-beach-hi/water-cleanup/",
         "/service-areas/hawaii-kai-hi/water-cleanup/",
         "/service-areas/heeia-hi/water-cleanup/",
@@ -836,7 +839,6 @@
         "/service-areas/kahala-hi/water-cleanup/",
         "/service-areas/kahaluu-hi/water-cleanup/",
         "/service-areas/kailua-hi/water-cleanup/",
-        "/service-areas/kaimuki-hi/water-cleanup/",
         "/services/water-damage-restoration/"
       ]
     },
@@ -1747,6 +1749,54 @@
         "/service-areas/kaneohe-base-hi/carpet-cleaning/",
         "/service-areas/kaneohe-base-hi/upholstery-cleaning/",
         "/service-areas/kaneohe-base-hi/flood-equipment-rental/",
+        "/service-areas/aiea-hi/",
+        "/service-areas/aina-haina-hi/",
+        "/service-areas/diamond-head-hi/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-kapolei-hi/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in East Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Restoration Services in East Kapolei",
+      "meta_description": "Serving East Kapolei, HI with 24/7 water, fire, mold, and storm damage restoration. Experienced team. Call (808) 349-3407.",
+      "primary_keyword": "restoration services east kapolei",
+      "secondary_keywords": [
+        "east kapolei restoration company",
+        "damage restoration east kapolei",
+        "east kapolei disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/east-kapolei-hi/mold-remediation/",
+        "/service-areas/east-kapolei-hi/water-damage-restoration/",
+        "/service-areas/east-kapolei-hi/commercial-restoration/",
+        "/service-areas/east-kapolei-hi/flood-damage-restoration/",
+        "/service-areas/east-kapolei-hi/sewage-cleanup/",
+        "/service-areas/east-kapolei-hi/water-cleanup/",
+        "/service-areas/east-kapolei-hi/burst-pipe-repair/",
+        "/service-areas/east-kapolei-hi/mold-inspection-testing/",
+        "/service-areas/east-kapolei-hi/carpet-cleaning/",
+        "/service-areas/east-kapolei-hi/upholstery-cleaning/",
+        "/service-areas/east-kapolei-hi/flood-equipment-rental/",
         "/service-areas/aiea-hi/",
         "/service-areas/aina-haina-hi/",
         "/service-areas/diamond-head-hi/"
@@ -10962,6 +11012,491 @@
         "/service-areas/kaneohe-base-hi/",
         "/service-areas/kaneohe-base-hi/mold-remediation/",
         "/service-areas/kaneohe-base-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/water-cleanup/",
+        "/service-areas/aina-haina-hi/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-kapolei-hi/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in East Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Water Damage Restoration in East Kapolei",
+      "meta_description": "24/7 water damage restoration in East Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "water damage restoration east kapolei",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/east-kapolei-hi/",
+        "/service-areas/east-kapolei-hi/mold-remediation/",
+        "/service-areas/east-kapolei-hi/commercial-restoration/",
+        "/service-areas/aiea-hi/water-damage-restoration/",
+        "/service-areas/aina-haina-hi/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-kapolei-hi/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in East Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Flood Damage Restoration in East Kapolei",
+      "meta_description": "24/7 flood damage restoration in East Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "flood damage restoration east kapolei",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/east-kapolei-hi/",
+        "/service-areas/east-kapolei-hi/mold-remediation/",
+        "/service-areas/east-kapolei-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/flood-damage-restoration/",
+        "/service-areas/aina-haina-hi/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-kapolei-hi/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in East Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Burst Pipe Cleanup and Repair in East Kapolei",
+      "meta_description": "24/7 burst pipe cleanup and repair in East Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "burst pipe cleanup and repair east kapolei",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/east-kapolei-hi/",
+        "/service-areas/east-kapolei-hi/mold-remediation/",
+        "/service-areas/east-kapolei-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/burst-pipe-repair/",
+        "/service-areas/aina-haina-hi/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-kapolei-hi/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in East Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Sewage Cleanup and Sanitization in East Kapolei",
+      "meta_description": "24/7 sewage cleanup and sanitization in East Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "sewage cleanup and sanitization east kapolei",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/east-kapolei-hi/",
+        "/service-areas/east-kapolei-hi/mold-remediation/",
+        "/service-areas/east-kapolei-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/sewage-cleanup/",
+        "/service-areas/aina-haina-hi/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-kapolei-hi/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in East Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Mold Remediation in East Kapolei",
+      "meta_description": "24/7 mold remediation in East Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "mold remediation east kapolei",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/east-kapolei-hi/",
+        "/service-areas/east-kapolei-hi/water-damage-restoration/",
+        "/service-areas/east-kapolei-hi/commercial-restoration/",
+        "/service-areas/aiea-hi/mold-remediation/",
+        "/service-areas/aina-haina-hi/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-kapolei-hi/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in East Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Mold Inspection and Testing in East Kapolei",
+      "meta_description": "24/7 mold inspection and testing in East Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "mold inspection and testing east kapolei",
+      "secondary_keywords": [
+        "mold inspection",
+        "mold testing",
+        "indoor air quality testing",
+        "mold spore testing",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/east-kapolei-hi/",
+        "/service-areas/east-kapolei-hi/mold-remediation/",
+        "/service-areas/east-kapolei-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/mold-inspection-testing/",
+        "/service-areas/aina-haina-hi/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-kapolei-hi/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in East Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Carpet Cleaning in East Kapolei",
+      "meta_description": "24/7 carpet cleaning in East Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "carpet cleaning east kapolei",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/east-kapolei-hi/",
+        "/service-areas/east-kapolei-hi/mold-remediation/",
+        "/service-areas/east-kapolei-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/carpet-cleaning/",
+        "/service-areas/aina-haina-hi/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-kapolei-hi/upholstery-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Upholstery Cleaning in East Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Upholstery Cleaning in East Kapolei",
+      "meta_description": "24/7 upholstery cleaning in East Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "upholstery cleaning east kapolei",
+      "secondary_keywords": [
+        "sofa cleaning",
+        "couch cleaning",
+        "furniture steam cleaning",
+        "leather upholstery cleaning",
+        "fabric upholstery cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/upholstery-cleaning/",
+        "/service-areas/east-kapolei-hi/",
+        "/service-areas/east-kapolei-hi/mold-remediation/",
+        "/service-areas/east-kapolei-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/upholstery-cleaning/",
+        "/service-areas/aina-haina-hi/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-kapolei-hi/flood-equipment-rental/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood & Drying Equipment Rental in East Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Flood & Drying Equipment Rental in East Kapolei",
+      "meta_description": "24/7 flood & drying equipment rental in East Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "flood & drying equipment rental east kapolei",
+      "secondary_keywords": [
+        "water damage equipment rental",
+        "dehumidifier rental",
+        "air mover rental",
+        "carpet drying fan rental",
+        "flood pump rental"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-equipment-rental/",
+        "/service-areas/east-kapolei-hi/",
+        "/service-areas/east-kapolei-hi/mold-remediation/",
+        "/service-areas/east-kapolei-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/flood-equipment-rental/",
+        "/service-areas/aina-haina-hi/flood-equipment-rental/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-kapolei-hi/commercial-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Commercial Restoration in East Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Commercial Restoration in East Kapolei",
+      "meta_description": "24/7 commercial restoration in East Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "commercial restoration east kapolei",
+      "secondary_keywords": [
+        "commercial water damage",
+        "commercial fire damage",
+        "business restoration",
+        "office restoration",
+        "retail restoration"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/commercial-restoration/",
+        "/service-areas/east-kapolei-hi/",
+        "/service-areas/east-kapolei-hi/mold-remediation/",
+        "/service-areas/east-kapolei-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/commercial-restoration/",
+        "/service-areas/aina-haina-hi/commercial-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-kapolei-hi/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in East Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Emergency Water Cleanup in East Kapolei",
+      "meta_description": "24/7 emergency water cleanup in East Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water cleanup east kapolei",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/east-kapolei-hi/",
+        "/service-areas/east-kapolei-hi/mold-remediation/",
+        "/service-areas/east-kapolei-hi/water-damage-restoration/",
         "/service-areas/aiea-hi/water-cleanup/",
         "/service-areas/aina-haina-hi/water-cleanup/",
         "/contact/"

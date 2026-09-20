@@ -1,10 +1,10 @@
 {
   "template": "plumbing",
   "template_version": "0.1.0",
-  "generated_at": "2026-09-20T17:29:20.926379+00:00",
+  "generated_at": "2026-09-20T19:17:02.400360+00:00",
   "input_summary": {
     "service_count": 22,
-    "service_area_count": 14,
+    "service_area_count": 15,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -68,6 +68,7 @@
         "/services/garbage-disposal/",
         "/service-areas/arvin-ca/",
         "/service-areas/bear-valley-springs-ca/",
+        "/service-areas/buttonwillow-ca/",
         "/service-areas/delano-ca/",
         "/service-areas/dustin-acres-ca/",
         "/service-areas/east-niles-ca/",
@@ -166,6 +167,7 @@
         "/",
         "/service-areas/arvin-ca/",
         "/service-areas/bear-valley-springs-ca/",
+        "/service-areas/buttonwillow-ca/",
         "/service-areas/delano-ca/",
         "/service-areas/dustin-acres-ca/",
         "/service-areas/east-niles-ca/",
@@ -326,6 +328,7 @@
         "/contact/",
         "/service-areas/arvin-ca/emergency-plumbing/",
         "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
+        "/service-areas/buttonwillow-ca/emergency-plumbing/",
         "/service-areas/delano-ca/emergency-plumbing/",
         "/service-areas/dustin-acres-ca/emergency-plumbing/",
         "/service-areas/east-niles-ca/emergency-plumbing/",
@@ -335,7 +338,6 @@
         "/service-areas/shafter-ca/emergency-plumbing/",
         "/service-areas/taft-ca/emergency-plumbing/",
         "/service-areas/tarina-ca/emergency-plumbing/",
-        "/service-areas/tehachapi-ca/emergency-plumbing/",
         "/blog/what-to-do-burst-pipe/"
       ]
     },
@@ -377,6 +379,7 @@
         "/contact/",
         "/service-areas/arvin-ca/burst-pipe-repair/",
         "/service-areas/bear-valley-springs-ca/burst-pipe-repair/",
+        "/service-areas/buttonwillow-ca/burst-pipe-repair/",
         "/service-areas/delano-ca/burst-pipe-repair/",
         "/service-areas/dustin-acres-ca/burst-pipe-repair/",
         "/service-areas/east-niles-ca/burst-pipe-repair/",
@@ -386,7 +389,6 @@
         "/service-areas/shafter-ca/burst-pipe-repair/",
         "/service-areas/taft-ca/burst-pipe-repair/",
         "/service-areas/tarina-ca/burst-pipe-repair/",
-        "/service-areas/tehachapi-ca/burst-pipe-repair/",
         "/blog/what-to-do-burst-pipe/"
       ]
     },
@@ -428,6 +430,7 @@
         "/contact/",
         "/service-areas/arvin-ca/drain-cleaning/",
         "/service-areas/bear-valley-springs-ca/drain-cleaning/",
+        "/service-areas/buttonwillow-ca/drain-cleaning/",
         "/service-areas/delano-ca/drain-cleaning/",
         "/service-areas/dustin-acres-ca/drain-cleaning/",
         "/service-areas/east-niles-ca/drain-cleaning/",
@@ -437,7 +440,6 @@
         "/service-areas/shafter-ca/drain-cleaning/",
         "/service-areas/taft-ca/drain-cleaning/",
         "/service-areas/tarina-ca/drain-cleaning/",
-        "/service-areas/tehachapi-ca/drain-cleaning/",
         "/blog/drain-cleaning-diy-vs-pro/",
         "/blog/hydro-jetting-vs-snaking/"
       ]
@@ -480,6 +482,7 @@
         "/contact/",
         "/service-areas/arvin-ca/sewer-line-repair/",
         "/service-areas/bear-valley-springs-ca/sewer-line-repair/",
+        "/service-areas/buttonwillow-ca/sewer-line-repair/",
         "/service-areas/delano-ca/sewer-line-repair/",
         "/service-areas/dustin-acres-ca/sewer-line-repair/",
         "/service-areas/east-niles-ca/sewer-line-repair/",
@@ -489,7 +492,6 @@
         "/service-areas/shafter-ca/sewer-line-repair/",
         "/service-areas/taft-ca/sewer-line-repair/",
         "/service-areas/tarina-ca/sewer-line-repair/",
-        "/service-areas/tehachapi-ca/sewer-line-repair/",
         "/blog/hydro-jetting-vs-snaking/",
         "/blog/trenchless-sewer-repair-explained/"
       ]
@@ -532,6 +534,7 @@
         "/contact/",
         "/service-areas/arvin-ca/water-heater-repair/",
         "/service-areas/bear-valley-springs-ca/water-heater-repair/",
+        "/service-areas/buttonwillow-ca/water-heater-repair/",
         "/service-areas/delano-ca/water-heater-repair/",
         "/service-areas/dustin-acres-ca/water-heater-repair/",
         "/service-areas/east-niles-ca/water-heater-repair/",
@@ -541,7 +544,6 @@
         "/service-areas/shafter-ca/water-heater-repair/",
         "/service-areas/taft-ca/water-heater-repair/",
         "/service-areas/tarina-ca/water-heater-repair/",
-        "/service-areas/tehachapi-ca/water-heater-repair/",
         "/blog/water-heater-lifespan-repair-or-replace/"
       ]
     },
@@ -583,6 +585,7 @@
         "/contact/",
         "/service-areas/arvin-ca/water-heater-installation/",
         "/service-areas/bear-valley-springs-ca/water-heater-installation/",
+        "/service-areas/buttonwillow-ca/water-heater-installation/",
         "/service-areas/delano-ca/water-heater-installation/",
         "/service-areas/dustin-acres-ca/water-heater-installation/",
         "/service-areas/east-niles-ca/water-heater-installation/",
@@ -592,7 +595,6 @@
         "/service-areas/shafter-ca/water-heater-installation/",
         "/service-areas/taft-ca/water-heater-installation/",
         "/service-areas/tarina-ca/water-heater-installation/",
-        "/service-areas/tehachapi-ca/water-heater-installation/",
         "/blog/tankless-vs-tank-water-heater/",
         "/blog/water-heater-lifespan-repair-or-replace/"
       ]
@@ -635,6 +637,7 @@
         "/contact/",
         "/service-areas/arvin-ca/leak-detection/",
         "/service-areas/bear-valley-springs-ca/leak-detection/",
+        "/service-areas/buttonwillow-ca/leak-detection/",
         "/service-areas/delano-ca/leak-detection/",
         "/service-areas/dustin-acres-ca/leak-detection/",
         "/service-areas/east-niles-ca/leak-detection/",
@@ -644,7 +647,6 @@
         "/service-areas/shafter-ca/leak-detection/",
         "/service-areas/taft-ca/leak-detection/",
         "/service-areas/tarina-ca/leak-detection/",
-        "/service-areas/tehachapi-ca/leak-detection/",
         "/blog/low-water-pressure-causes/",
         "/blog/signs-of-a-slab-leak/"
       ]
@@ -687,6 +689,7 @@
         "/contact/",
         "/service-areas/arvin-ca/slab-leak-repair/",
         "/service-areas/bear-valley-springs-ca/slab-leak-repair/",
+        "/service-areas/buttonwillow-ca/slab-leak-repair/",
         "/service-areas/delano-ca/slab-leak-repair/",
         "/service-areas/dustin-acres-ca/slab-leak-repair/",
         "/service-areas/east-niles-ca/slab-leak-repair/",
@@ -696,7 +699,6 @@
         "/service-areas/shafter-ca/slab-leak-repair/",
         "/service-areas/taft-ca/slab-leak-repair/",
         "/service-areas/tarina-ca/slab-leak-repair/",
-        "/service-areas/tehachapi-ca/slab-leak-repair/",
         "/blog/signs-of-a-slab-leak/"
       ]
     },
@@ -738,6 +740,7 @@
         "/contact/",
         "/service-areas/arvin-ca/repiping/",
         "/service-areas/bear-valley-springs-ca/repiping/",
+        "/service-areas/buttonwillow-ca/repiping/",
         "/service-areas/delano-ca/repiping/",
         "/service-areas/dustin-acres-ca/repiping/",
         "/service-areas/east-niles-ca/repiping/",
@@ -747,7 +750,6 @@
         "/service-areas/shafter-ca/repiping/",
         "/service-areas/taft-ca/repiping/",
         "/service-areas/tarina-ca/repiping/",
-        "/service-areas/tehachapi-ca/repiping/",
         "/blog/low-water-pressure-causes/"
       ]
     },
@@ -789,6 +791,7 @@
         "/contact/",
         "/service-areas/arvin-ca/gas-line-services/",
         "/service-areas/bear-valley-springs-ca/gas-line-services/",
+        "/service-areas/buttonwillow-ca/gas-line-services/",
         "/service-areas/delano-ca/gas-line-services/",
         "/service-areas/dustin-acres-ca/gas-line-services/",
         "/service-areas/east-niles-ca/gas-line-services/",
@@ -798,7 +801,6 @@
         "/service-areas/shafter-ca/gas-line-services/",
         "/service-areas/taft-ca/gas-line-services/",
         "/service-areas/tarina-ca/gas-line-services/",
-        "/service-areas/tehachapi-ca/gas-line-services/",
         "/blog/gas-leak-what-to-do/"
       ]
     },
@@ -840,6 +842,7 @@
         "/contact/",
         "/service-areas/arvin-ca/sump-pumps/",
         "/service-areas/bear-valley-springs-ca/sump-pumps/",
+        "/service-areas/buttonwillow-ca/sump-pumps/",
         "/service-areas/delano-ca/sump-pumps/",
         "/service-areas/dustin-acres-ca/sump-pumps/",
         "/service-areas/east-niles-ca/sump-pumps/",
@@ -848,8 +851,7 @@
         "/service-areas/rosedale-ca/sump-pumps/",
         "/service-areas/shafter-ca/sump-pumps/",
         "/service-areas/taft-ca/sump-pumps/",
-        "/service-areas/tarina-ca/sump-pumps/",
-        "/service-areas/tehachapi-ca/sump-pumps/"
+        "/service-areas/tarina-ca/sump-pumps/"
       ]
     },
     {
@@ -890,6 +892,7 @@
         "/contact/",
         "/service-areas/arvin-ca/water-softeners-filtration/",
         "/service-areas/bear-valley-springs-ca/water-softeners-filtration/",
+        "/service-areas/buttonwillow-ca/water-softeners-filtration/",
         "/service-areas/delano-ca/water-softeners-filtration/",
         "/service-areas/dustin-acres-ca/water-softeners-filtration/",
         "/service-areas/east-niles-ca/water-softeners-filtration/",
@@ -898,8 +901,7 @@
         "/service-areas/rosedale-ca/water-softeners-filtration/",
         "/service-areas/shafter-ca/water-softeners-filtration/",
         "/service-areas/taft-ca/water-softeners-filtration/",
-        "/service-areas/tarina-ca/water-softeners-filtration/",
-        "/service-areas/tehachapi-ca/water-softeners-filtration/"
+        "/service-areas/tarina-ca/water-softeners-filtration/"
       ]
     },
     {
@@ -940,6 +942,7 @@
         "/contact/",
         "/service-areas/arvin-ca/toilet-faucet-repair/",
         "/service-areas/bear-valley-springs-ca/toilet-faucet-repair/",
+        "/service-areas/buttonwillow-ca/toilet-faucet-repair/",
         "/service-areas/delano-ca/toilet-faucet-repair/",
         "/service-areas/dustin-acres-ca/toilet-faucet-repair/",
         "/service-areas/east-niles-ca/toilet-faucet-repair/",
@@ -948,8 +951,7 @@
         "/service-areas/rosedale-ca/toilet-faucet-repair/",
         "/service-areas/shafter-ca/toilet-faucet-repair/",
         "/service-areas/taft-ca/toilet-faucet-repair/",
-        "/service-areas/tarina-ca/toilet-faucet-repair/",
-        "/service-areas/tehachapi-ca/toilet-faucet-repair/"
+        "/service-areas/tarina-ca/toilet-faucet-repair/"
       ]
     },
     {
@@ -990,6 +992,7 @@
         "/contact/",
         "/service-areas/arvin-ca/garbage-disposal/",
         "/service-areas/bear-valley-springs-ca/garbage-disposal/",
+        "/service-areas/buttonwillow-ca/garbage-disposal/",
         "/service-areas/delano-ca/garbage-disposal/",
         "/service-areas/dustin-acres-ca/garbage-disposal/",
         "/service-areas/east-niles-ca/garbage-disposal/",
@@ -998,8 +1001,7 @@
         "/service-areas/rosedale-ca/garbage-disposal/",
         "/service-areas/shafter-ca/garbage-disposal/",
         "/service-areas/taft-ca/garbage-disposal/",
-        "/service-areas/tarina-ca/garbage-disposal/",
-        "/service-areas/tehachapi-ca/garbage-disposal/"
+        "/service-areas/tarina-ca/garbage-disposal/"
       ]
     },
     {
@@ -1040,6 +1042,7 @@
         "/contact/",
         "/service-areas/arvin-ca/furnace-repair/",
         "/service-areas/bear-valley-springs-ca/furnace-repair/",
+        "/service-areas/buttonwillow-ca/furnace-repair/",
         "/service-areas/delano-ca/furnace-repair/",
         "/service-areas/dustin-acres-ca/furnace-repair/",
         "/service-areas/east-niles-ca/furnace-repair/",
@@ -1049,7 +1052,6 @@
         "/service-areas/shafter-ca/furnace-repair/",
         "/service-areas/taft-ca/furnace-repair/",
         "/service-areas/tarina-ca/furnace-repair/",
-        "/service-areas/tehachapi-ca/furnace-repair/",
         "/blog/furnace-repair-or-replace/"
       ]
     },
@@ -1091,6 +1093,7 @@
         "/contact/",
         "/service-areas/arvin-ca/furnace-installation/",
         "/service-areas/bear-valley-springs-ca/furnace-installation/",
+        "/service-areas/buttonwillow-ca/furnace-installation/",
         "/service-areas/delano-ca/furnace-installation/",
         "/service-areas/dustin-acres-ca/furnace-installation/",
         "/service-areas/east-niles-ca/furnace-installation/",
@@ -1100,7 +1103,6 @@
         "/service-areas/shafter-ca/furnace-installation/",
         "/service-areas/taft-ca/furnace-installation/",
         "/service-areas/tarina-ca/furnace-installation/",
-        "/service-areas/tehachapi-ca/furnace-installation/",
         "/blog/furnace-repair-or-replace/",
         "/blog/heat-pump-vs-furnace/"
       ]
@@ -1143,6 +1145,7 @@
         "/contact/",
         "/service-areas/arvin-ca/heat-pump-services/",
         "/service-areas/bear-valley-springs-ca/heat-pump-services/",
+        "/service-areas/buttonwillow-ca/heat-pump-services/",
         "/service-areas/delano-ca/heat-pump-services/",
         "/service-areas/dustin-acres-ca/heat-pump-services/",
         "/service-areas/east-niles-ca/heat-pump-services/",
@@ -1152,7 +1155,6 @@
         "/service-areas/shafter-ca/heat-pump-services/",
         "/service-areas/taft-ca/heat-pump-services/",
         "/service-areas/tarina-ca/heat-pump-services/",
-        "/service-areas/tehachapi-ca/heat-pump-services/",
         "/blog/heat-pump-vs-furnace/"
       ]
     },
@@ -1194,6 +1196,7 @@
         "/contact/",
         "/service-areas/arvin-ca/ac-repair/",
         "/service-areas/bear-valley-springs-ca/ac-repair/",
+        "/service-areas/buttonwillow-ca/ac-repair/",
         "/service-areas/delano-ca/ac-repair/",
         "/service-areas/dustin-acres-ca/ac-repair/",
         "/service-areas/east-niles-ca/ac-repair/",
@@ -1202,8 +1205,7 @@
         "/service-areas/rosedale-ca/ac-repair/",
         "/service-areas/shafter-ca/ac-repair/",
         "/service-areas/taft-ca/ac-repair/",
-        "/service-areas/tarina-ca/ac-repair/",
-        "/service-areas/tehachapi-ca/ac-repair/"
+        "/service-areas/tarina-ca/ac-repair/"
       ]
     },
     {
@@ -1244,6 +1246,7 @@
         "/contact/",
         "/service-areas/arvin-ca/ac-installation/",
         "/service-areas/bear-valley-springs-ca/ac-installation/",
+        "/service-areas/buttonwillow-ca/ac-installation/",
         "/service-areas/delano-ca/ac-installation/",
         "/service-areas/dustin-acres-ca/ac-installation/",
         "/service-areas/east-niles-ca/ac-installation/",
@@ -1253,7 +1256,6 @@
         "/service-areas/shafter-ca/ac-installation/",
         "/service-areas/taft-ca/ac-installation/",
         "/service-areas/tarina-ca/ac-installation/",
-        "/service-areas/tehachapi-ca/ac-installation/",
         "/blog/how-much-does-a-new-ac-cost/"
       ]
     },
@@ -1295,6 +1297,7 @@
         "/contact/",
         "/service-areas/arvin-ca/ductless-mini-splits/",
         "/service-areas/bear-valley-springs-ca/ductless-mini-splits/",
+        "/service-areas/buttonwillow-ca/ductless-mini-splits/",
         "/service-areas/delano-ca/ductless-mini-splits/",
         "/service-areas/dustin-acres-ca/ductless-mini-splits/",
         "/service-areas/east-niles-ca/ductless-mini-splits/",
@@ -1303,8 +1306,7 @@
         "/service-areas/rosedale-ca/ductless-mini-splits/",
         "/service-areas/shafter-ca/ductless-mini-splits/",
         "/service-areas/taft-ca/ductless-mini-splits/",
-        "/service-areas/tarina-ca/ductless-mini-splits/",
-        "/service-areas/tehachapi-ca/ductless-mini-splits/"
+        "/service-areas/tarina-ca/ductless-mini-splits/"
       ]
     },
     {
@@ -1345,6 +1347,7 @@
         "/contact/",
         "/service-areas/arvin-ca/ductwork/",
         "/service-areas/bear-valley-springs-ca/ductwork/",
+        "/service-areas/buttonwillow-ca/ductwork/",
         "/service-areas/delano-ca/ductwork/",
         "/service-areas/dustin-acres-ca/ductwork/",
         "/service-areas/east-niles-ca/ductwork/",
@@ -1353,8 +1356,7 @@
         "/service-areas/rosedale-ca/ductwork/",
         "/service-areas/shafter-ca/ductwork/",
         "/service-areas/taft-ca/ductwork/",
-        "/service-areas/tarina-ca/ductwork/",
-        "/service-areas/tehachapi-ca/ductwork/"
+        "/service-areas/tarina-ca/ductwork/"
       ]
     },
     {
@@ -1395,6 +1397,7 @@
         "/contact/",
         "/service-areas/arvin-ca/indoor-air-quality/",
         "/service-areas/bear-valley-springs-ca/indoor-air-quality/",
+        "/service-areas/buttonwillow-ca/indoor-air-quality/",
         "/service-areas/delano-ca/indoor-air-quality/",
         "/service-areas/dustin-acres-ca/indoor-air-quality/",
         "/service-areas/east-niles-ca/indoor-air-quality/",
@@ -1403,8 +1406,7 @@
         "/service-areas/rosedale-ca/indoor-air-quality/",
         "/service-areas/shafter-ca/indoor-air-quality/",
         "/service-areas/taft-ca/indoor-air-quality/",
-        "/service-areas/tarina-ca/indoor-air-quality/",
-        "/service-areas/tehachapi-ca/indoor-air-quality/"
+        "/service-areas/tarina-ca/indoor-air-quality/"
       ]
     },
     {
@@ -1463,7 +1465,7 @@
         "/service-areas/oildale-ca/garbage-disposal/",
         "/service-areas/arvin-ca/",
         "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/delano-ca/"
+        "/service-areas/buttonwillow-ca/"
       ]
     },
     {
@@ -1522,7 +1524,7 @@
         "/service-areas/rosedale-ca/garbage-disposal/",
         "/service-areas/arvin-ca/",
         "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/delano-ca/"
+        "/service-areas/buttonwillow-ca/"
       ]
     },
     {
@@ -1581,7 +1583,7 @@
         "/service-areas/shafter-ca/garbage-disposal/",
         "/service-areas/arvin-ca/",
         "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/delano-ca/"
+        "/service-areas/buttonwillow-ca/"
       ]
     },
     {
@@ -1640,7 +1642,7 @@
         "/service-areas/delano-ca/garbage-disposal/",
         "/service-areas/arvin-ca/",
         "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/dustin-acres-ca/"
+        "/service-areas/buttonwillow-ca/"
       ]
     },
     {
@@ -1699,7 +1701,7 @@
         "/service-areas/taft-ca/garbage-disposal/",
         "/service-areas/arvin-ca/",
         "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/delano-ca/"
+        "/service-areas/buttonwillow-ca/"
       ]
     },
     {
@@ -1758,7 +1760,7 @@
         "/service-areas/tehachapi-ca/garbage-disposal/",
         "/service-areas/arvin-ca/",
         "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/delano-ca/"
+        "/service-areas/buttonwillow-ca/"
       ]
     },
     {
@@ -1817,7 +1819,7 @@
         "/service-areas/east-niles-ca/garbage-disposal/",
         "/service-areas/arvin-ca/",
         "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/delano-ca/"
+        "/service-areas/buttonwillow-ca/"
       ]
     },
     {
@@ -1876,7 +1878,7 @@
         "/service-areas/lamont-ca/garbage-disposal/",
         "/service-areas/arvin-ca/",
         "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/delano-ca/"
+        "/service-areas/buttonwillow-ca/"
       ]
     },
     {
@@ -1935,7 +1937,7 @@
         "/service-areas/tarina-ca/garbage-disposal/",
         "/service-areas/arvin-ca/",
         "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/delano-ca/"
+        "/service-areas/buttonwillow-ca/"
       ]
     },
     {
@@ -1994,7 +1996,7 @@
         "/service-areas/weedpatch-ca/garbage-disposal/",
         "/service-areas/arvin-ca/",
         "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/delano-ca/"
+        "/service-areas/buttonwillow-ca/"
       ]
     },
     {
@@ -2052,8 +2054,8 @@
         "/service-areas/arvin-ca/water-softeners-filtration/",
         "/service-areas/arvin-ca/garbage-disposal/",
         "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/delano-ca/",
-        "/service-areas/dustin-acres-ca/"
+        "/service-areas/buttonwillow-ca/",
+        "/service-areas/delano-ca/"
       ]
     },
     {
@@ -2112,7 +2114,7 @@
         "/service-areas/dustin-acres-ca/garbage-disposal/",
         "/service-areas/arvin-ca/",
         "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/delano-ca/"
+        "/service-areas/buttonwillow-ca/"
       ]
     },
     {
@@ -2170,8 +2172,67 @@
         "/service-areas/bear-valley-springs-ca/water-softeners-filtration/",
         "/service-areas/bear-valley-springs-ca/garbage-disposal/",
         "/service-areas/arvin-ca/",
-        "/service-areas/delano-ca/",
-        "/service-areas/dustin-acres-ca/"
+        "/service-areas/buttonwillow-ca/",
+        "/service-areas/delano-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buttonwillow-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Plumbing, Heating & Air in Buttonwillow, CA | All Pro Plumbing Heating and Air",
+      "h1": "Plumbing, Heating and Air in Buttonwillow",
+      "meta_description": "Serving Buttonwillow, CA with 24/7 emergency plumbing plus heating and air conditioning service. Licensed and insured. Call (661) 863-9242.",
+      "primary_keyword": "plumber buttonwillow",
+      "secondary_keywords": [
+        "buttonwillow plumbing company",
+        "emergency plumber buttonwillow",
+        "buttonwillow hvac company"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/buttonwillow-ca/ac-repair/",
+        "/service-areas/buttonwillow-ca/drain-cleaning/",
+        "/service-areas/buttonwillow-ca/emergency-plumbing/",
+        "/service-areas/buttonwillow-ca/water-heater-repair/",
+        "/service-areas/buttonwillow-ca/ac-installation/",
+        "/service-areas/buttonwillow-ca/burst-pipe-repair/",
+        "/service-areas/buttonwillow-ca/furnace-repair/",
+        "/service-areas/buttonwillow-ca/sewer-line-repair/",
+        "/service-areas/buttonwillow-ca/water-heater-installation/",
+        "/service-areas/buttonwillow-ca/furnace-installation/",
+        "/service-areas/buttonwillow-ca/gas-line-services/",
+        "/service-areas/buttonwillow-ca/ductless-mini-splits/",
+        "/service-areas/buttonwillow-ca/heat-pump-services/",
+        "/service-areas/buttonwillow-ca/leak-detection/",
+        "/service-areas/buttonwillow-ca/repiping/",
+        "/service-areas/buttonwillow-ca/slab-leak-repair/",
+        "/service-areas/buttonwillow-ca/toilet-faucet-repair/",
+        "/service-areas/buttonwillow-ca/ductwork/",
+        "/service-areas/buttonwillow-ca/indoor-air-quality/",
+        "/service-areas/buttonwillow-ca/sump-pumps/",
+        "/service-areas/buttonwillow-ca/water-softeners-filtration/",
+        "/service-areas/buttonwillow-ca/garbage-disposal/",
+        "/service-areas/arvin-ca/",
+        "/service-areas/bear-valley-springs-ca/",
+        "/service-areas/delano-ca/"
       ]
     },
     {
@@ -11894,7 +11955,7 @@
         "/service-areas/arvin-ca/ac-repair/",
         "/service-areas/arvin-ca/drain-cleaning/",
         "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
-        "/service-areas/delano-ca/emergency-plumbing/",
+        "/service-areas/buttonwillow-ca/emergency-plumbing/",
         "/contact/"
       ]
     },
@@ -11938,7 +11999,7 @@
         "/service-areas/arvin-ca/ac-repair/",
         "/service-areas/arvin-ca/drain-cleaning/",
         "/service-areas/bear-valley-springs-ca/burst-pipe-repair/",
-        "/service-areas/delano-ca/burst-pipe-repair/",
+        "/service-areas/buttonwillow-ca/burst-pipe-repair/",
         "/contact/"
       ]
     },
@@ -11982,7 +12043,7 @@
         "/service-areas/arvin-ca/ac-repair/",
         "/service-areas/arvin-ca/emergency-plumbing/",
         "/service-areas/bear-valley-springs-ca/drain-cleaning/",
-        "/service-areas/delano-ca/drain-cleaning/",
+        "/service-areas/buttonwillow-ca/drain-cleaning/",
         "/contact/"
       ]
     },
@@ -12026,7 +12087,7 @@
         "/service-areas/arvin-ca/ac-repair/",
         "/service-areas/arvin-ca/drain-cleaning/",
         "/service-areas/bear-valley-springs-ca/sewer-line-repair/",
-        "/service-areas/delano-ca/sewer-line-repair/",
+        "/service-areas/buttonwillow-ca/sewer-line-repair/",
         "/contact/"
       ]
     },
@@ -12070,7 +12131,7 @@
         "/service-areas/arvin-ca/ac-repair/",
         "/service-areas/arvin-ca/drain-cleaning/",
         "/service-areas/bear-valley-springs-ca/water-heater-repair/",
-        "/service-areas/delano-ca/water-heater-repair/",
+        "/service-areas/buttonwillow-ca/water-heater-repair/",
         "/contact/"
       ]
     },
@@ -12114,7 +12175,7 @@
         "/service-areas/arvin-ca/ac-repair/",
         "/service-areas/arvin-ca/drain-cleaning/",
         "/service-areas/bear-valley-springs-ca/water-heater-installation/",
-        "/service-areas/delano-ca/water-heater-installation/",
+        "/service-areas/buttonwillow-ca/water-heater-installation/",
         "/contact/"
       ]
     },
@@ -12158,7 +12219,7 @@
         "/service-areas/arvin-ca/ac-repair/",
         "/service-areas/arvin-ca/drain-cleaning/",
         "/service-areas/bear-valley-springs-ca/leak-detection/",
-        "/service-areas/delano-ca/leak-detection/",
+        "/service-areas/buttonwillow-ca/leak-detection/",
         "/contact/"
       ]
     },
@@ -12202,7 +12263,7 @@
         "/service-areas/arvin-ca/ac-repair/",
         "/service-areas/arvin-ca/drain-cleaning/",
         "/service-areas/bear-valley-springs-ca/slab-leak-repair/",
-        "/service-areas/delano-ca/slab-leak-repair/",
+        "/service-areas/buttonwillow-ca/slab-leak-repair/",
         "/contact/"
       ]
     },
@@ -12246,7 +12307,7 @@
         "/service-areas/arvin-ca/ac-repair/",
         "/service-areas/arvin-ca/drain-cleaning/",
         "/service-areas/bear-valley-springs-ca/repiping/",
-        "/service-areas/delano-ca/repiping/",
+        "/service-areas/buttonwillow-ca/repiping/",
         "/contact/"
       ]
     },
@@ -12290,7 +12351,7 @@
         "/service-areas/arvin-ca/ac-repair/",
         "/service-areas/arvin-ca/drain-cleaning/",
         "/service-areas/bear-valley-springs-ca/gas-line-services/",
-        "/service-areas/delano-ca/gas-line-services/",
+        "/service-areas/buttonwillow-ca/gas-line-services/",
         "/contact/"
       ]
     },
@@ -12334,7 +12395,7 @@
         "/service-areas/arvin-ca/ac-repair/",
         "/service-areas/arvin-ca/drain-cleaning/",
         "/service-areas/bear-valley-springs-ca/sump-pumps/",
-        "/service-areas/delano-ca/sump-pumps/",
+        "/service-areas/buttonwillow-ca/sump-pumps/",
         "/contact/"
       ]
     },
@@ -12378,7 +12439,7 @@
         "/service-areas/arvin-ca/ac-repair/",
         "/service-areas/arvin-ca/drain-cleaning/",
         "/service-areas/bear-valley-springs-ca/water-softeners-filtration/",
-        "/service-areas/delano-ca/water-softeners-filtration/",
+        "/service-areas/buttonwillow-ca/water-softeners-filtration/",
         "/contact/"
       ]
     },
@@ -12422,7 +12483,7 @@
         "/service-areas/arvin-ca/ac-repair/",
         "/service-areas/arvin-ca/drain-cleaning/",
         "/service-areas/bear-valley-springs-ca/toilet-faucet-repair/",
-        "/service-areas/delano-ca/toilet-faucet-repair/",
+        "/service-areas/buttonwillow-ca/toilet-faucet-repair/",
         "/contact/"
       ]
     },
@@ -12466,7 +12527,7 @@
         "/service-areas/arvin-ca/ac-repair/",
         "/service-areas/arvin-ca/drain-cleaning/",
         "/service-areas/bear-valley-springs-ca/garbage-disposal/",
-        "/service-areas/delano-ca/garbage-disposal/",
+        "/service-areas/buttonwillow-ca/garbage-disposal/",
         "/contact/"
       ]
     },
@@ -12510,7 +12571,7 @@
         "/service-areas/arvin-ca/ac-repair/",
         "/service-areas/arvin-ca/drain-cleaning/",
         "/service-areas/bear-valley-springs-ca/furnace-repair/",
-        "/service-areas/delano-ca/furnace-repair/",
+        "/service-areas/buttonwillow-ca/furnace-repair/",
         "/contact/"
       ]
     },
@@ -12554,7 +12615,7 @@
         "/service-areas/arvin-ca/ac-repair/",
         "/service-areas/arvin-ca/drain-cleaning/",
         "/service-areas/bear-valley-springs-ca/furnace-installation/",
-        "/service-areas/delano-ca/furnace-installation/",
+        "/service-areas/buttonwillow-ca/furnace-installation/",
         "/contact/"
       ]
     },
@@ -12598,7 +12659,7 @@
         "/service-areas/arvin-ca/ac-repair/",
         "/service-areas/arvin-ca/drain-cleaning/",
         "/service-areas/bear-valley-springs-ca/heat-pump-services/",
-        "/service-areas/delano-ca/heat-pump-services/",
+        "/service-areas/buttonwillow-ca/heat-pump-services/",
         "/contact/"
       ]
     },
@@ -12642,7 +12703,7 @@
         "/service-areas/arvin-ca/drain-cleaning/",
         "/service-areas/arvin-ca/emergency-plumbing/",
         "/service-areas/bear-valley-springs-ca/ac-repair/",
-        "/service-areas/delano-ca/ac-repair/",
+        "/service-areas/buttonwillow-ca/ac-repair/",
         "/contact/"
       ]
     },
@@ -12686,7 +12747,7 @@
         "/service-areas/arvin-ca/ac-repair/",
         "/service-areas/arvin-ca/drain-cleaning/",
         "/service-areas/bear-valley-springs-ca/ac-installation/",
-        "/service-areas/delano-ca/ac-installation/",
+        "/service-areas/buttonwillow-ca/ac-installation/",
         "/contact/"
       ]
     },
@@ -12730,7 +12791,7 @@
         "/service-areas/arvin-ca/ac-repair/",
         "/service-areas/arvin-ca/drain-cleaning/",
         "/service-areas/bear-valley-springs-ca/ductless-mini-splits/",
-        "/service-areas/delano-ca/ductless-mini-splits/",
+        "/service-areas/buttonwillow-ca/ductless-mini-splits/",
         "/contact/"
       ]
     },
@@ -12774,7 +12835,7 @@
         "/service-areas/arvin-ca/ac-repair/",
         "/service-areas/arvin-ca/drain-cleaning/",
         "/service-areas/bear-valley-springs-ca/ductwork/",
-        "/service-areas/delano-ca/ductwork/",
+        "/service-areas/buttonwillow-ca/ductwork/",
         "/contact/"
       ]
     },
@@ -12818,7 +12879,7 @@
         "/service-areas/arvin-ca/ac-repair/",
         "/service-areas/arvin-ca/drain-cleaning/",
         "/service-areas/bear-valley-springs-ca/indoor-air-quality/",
-        "/service-areas/delano-ca/indoor-air-quality/",
+        "/service-areas/buttonwillow-ca/indoor-air-quality/",
         "/contact/"
       ]
     },
@@ -13830,7 +13891,7 @@
         "/service-areas/bear-valley-springs-ca/ac-repair/",
         "/service-areas/bear-valley-springs-ca/drain-cleaning/",
         "/service-areas/arvin-ca/emergency-plumbing/",
-        "/service-areas/delano-ca/emergency-plumbing/",
+        "/service-areas/buttonwillow-ca/emergency-plumbing/",
         "/contact/"
       ]
     },
@@ -13874,7 +13935,7 @@
         "/service-areas/bear-valley-springs-ca/ac-repair/",
         "/service-areas/bear-valley-springs-ca/drain-cleaning/",
         "/service-areas/arvin-ca/burst-pipe-repair/",
-        "/service-areas/delano-ca/burst-pipe-repair/",
+        "/service-areas/buttonwillow-ca/burst-pipe-repair/",
         "/contact/"
       ]
     },
@@ -13918,7 +13979,7 @@
         "/service-areas/bear-valley-springs-ca/ac-repair/",
         "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
         "/service-areas/arvin-ca/drain-cleaning/",
-        "/service-areas/delano-ca/drain-cleaning/",
+        "/service-areas/buttonwillow-ca/drain-cleaning/",
         "/contact/"
       ]
     },
@@ -13962,7 +14023,7 @@
         "/service-areas/bear-valley-springs-ca/ac-repair/",
         "/service-areas/bear-valley-springs-ca/drain-cleaning/",
         "/service-areas/arvin-ca/sewer-line-repair/",
-        "/service-areas/delano-ca/sewer-line-repair/",
+        "/service-areas/buttonwillow-ca/sewer-line-repair/",
         "/contact/"
       ]
     },
@@ -14006,7 +14067,7 @@
         "/service-areas/bear-valley-springs-ca/ac-repair/",
         "/service-areas/bear-valley-springs-ca/drain-cleaning/",
         "/service-areas/arvin-ca/water-heater-repair/",
-        "/service-areas/delano-ca/water-heater-repair/",
+        "/service-areas/buttonwillow-ca/water-heater-repair/",
         "/contact/"
       ]
     },
@@ -14050,7 +14111,7 @@
         "/service-areas/bear-valley-springs-ca/ac-repair/",
         "/service-areas/bear-valley-springs-ca/drain-cleaning/",
         "/service-areas/arvin-ca/water-heater-installation/",
-        "/service-areas/delano-ca/water-heater-installation/",
+        "/service-areas/buttonwillow-ca/water-heater-installation/",
         "/contact/"
       ]
     },
@@ -14094,7 +14155,7 @@
         "/service-areas/bear-valley-springs-ca/ac-repair/",
         "/service-areas/bear-valley-springs-ca/drain-cleaning/",
         "/service-areas/arvin-ca/leak-detection/",
-        "/service-areas/delano-ca/leak-detection/",
+        "/service-areas/buttonwillow-ca/leak-detection/",
         "/contact/"
       ]
     },
@@ -14138,7 +14199,7 @@
         "/service-areas/bear-valley-springs-ca/ac-repair/",
         "/service-areas/bear-valley-springs-ca/drain-cleaning/",
         "/service-areas/arvin-ca/slab-leak-repair/",
-        "/service-areas/delano-ca/slab-leak-repair/",
+        "/service-areas/buttonwillow-ca/slab-leak-repair/",
         "/contact/"
       ]
     },
@@ -14182,7 +14243,7 @@
         "/service-areas/bear-valley-springs-ca/ac-repair/",
         "/service-areas/bear-valley-springs-ca/drain-cleaning/",
         "/service-areas/arvin-ca/repiping/",
-        "/service-areas/delano-ca/repiping/",
+        "/service-areas/buttonwillow-ca/repiping/",
         "/contact/"
       ]
     },
@@ -14226,7 +14287,7 @@
         "/service-areas/bear-valley-springs-ca/ac-repair/",
         "/service-areas/bear-valley-springs-ca/drain-cleaning/",
         "/service-areas/arvin-ca/gas-line-services/",
-        "/service-areas/delano-ca/gas-line-services/",
+        "/service-areas/buttonwillow-ca/gas-line-services/",
         "/contact/"
       ]
     },
@@ -14270,7 +14331,7 @@
         "/service-areas/bear-valley-springs-ca/ac-repair/",
         "/service-areas/bear-valley-springs-ca/drain-cleaning/",
         "/service-areas/arvin-ca/sump-pumps/",
-        "/service-areas/delano-ca/sump-pumps/",
+        "/service-areas/buttonwillow-ca/sump-pumps/",
         "/contact/"
       ]
     },
@@ -14314,7 +14375,7 @@
         "/service-areas/bear-valley-springs-ca/ac-repair/",
         "/service-areas/bear-valley-springs-ca/drain-cleaning/",
         "/service-areas/arvin-ca/water-softeners-filtration/",
-        "/service-areas/delano-ca/water-softeners-filtration/",
+        "/service-areas/buttonwillow-ca/water-softeners-filtration/",
         "/contact/"
       ]
     },
@@ -14358,7 +14419,7 @@
         "/service-areas/bear-valley-springs-ca/ac-repair/",
         "/service-areas/bear-valley-springs-ca/drain-cleaning/",
         "/service-areas/arvin-ca/toilet-faucet-repair/",
-        "/service-areas/delano-ca/toilet-faucet-repair/",
+        "/service-areas/buttonwillow-ca/toilet-faucet-repair/",
         "/contact/"
       ]
     },
@@ -14402,7 +14463,7 @@
         "/service-areas/bear-valley-springs-ca/ac-repair/",
         "/service-areas/bear-valley-springs-ca/drain-cleaning/",
         "/service-areas/arvin-ca/garbage-disposal/",
-        "/service-areas/delano-ca/garbage-disposal/",
+        "/service-areas/buttonwillow-ca/garbage-disposal/",
         "/contact/"
       ]
     },
@@ -14446,7 +14507,7 @@
         "/service-areas/bear-valley-springs-ca/ac-repair/",
         "/service-areas/bear-valley-springs-ca/drain-cleaning/",
         "/service-areas/arvin-ca/furnace-repair/",
-        "/service-areas/delano-ca/furnace-repair/",
+        "/service-areas/buttonwillow-ca/furnace-repair/",
         "/contact/"
       ]
     },
@@ -14490,7 +14551,7 @@
         "/service-areas/bear-valley-springs-ca/ac-repair/",
         "/service-areas/bear-valley-springs-ca/drain-cleaning/",
         "/service-areas/arvin-ca/furnace-installation/",
-        "/service-areas/delano-ca/furnace-installation/",
+        "/service-areas/buttonwillow-ca/furnace-installation/",
         "/contact/"
       ]
     },
@@ -14534,7 +14595,7 @@
         "/service-areas/bear-valley-springs-ca/ac-repair/",
         "/service-areas/bear-valley-springs-ca/drain-cleaning/",
         "/service-areas/arvin-ca/heat-pump-services/",
-        "/service-areas/delano-ca/heat-pump-services/",
+        "/service-areas/buttonwillow-ca/heat-pump-services/",
         "/contact/"
       ]
     },
@@ -14578,7 +14639,7 @@
         "/service-areas/bear-valley-springs-ca/drain-cleaning/",
         "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
         "/service-areas/arvin-ca/ac-repair/",
-        "/service-areas/delano-ca/ac-repair/",
+        "/service-areas/buttonwillow-ca/ac-repair/",
         "/contact/"
       ]
     },
@@ -14622,7 +14683,7 @@
         "/service-areas/bear-valley-springs-ca/ac-repair/",
         "/service-areas/bear-valley-springs-ca/drain-cleaning/",
         "/service-areas/arvin-ca/ac-installation/",
-        "/service-areas/delano-ca/ac-installation/",
+        "/service-areas/buttonwillow-ca/ac-installation/",
         "/contact/"
       ]
     },
@@ -14666,7 +14727,7 @@
         "/service-areas/bear-valley-springs-ca/ac-repair/",
         "/service-areas/bear-valley-springs-ca/drain-cleaning/",
         "/service-areas/arvin-ca/ductless-mini-splits/",
-        "/service-areas/delano-ca/ductless-mini-splits/",
+        "/service-areas/buttonwillow-ca/ductless-mini-splits/",
         "/contact/"
       ]
     },
@@ -14710,7 +14771,7 @@
         "/service-areas/bear-valley-springs-ca/ac-repair/",
         "/service-areas/bear-valley-springs-ca/drain-cleaning/",
         "/service-areas/arvin-ca/ductwork/",
-        "/service-areas/delano-ca/ductwork/",
+        "/service-areas/buttonwillow-ca/ductwork/",
         "/contact/"
       ]
     },
@@ -14754,7 +14815,975 @@
         "/service-areas/bear-valley-springs-ca/ac-repair/",
         "/service-areas/bear-valley-springs-ca/drain-cleaning/",
         "/service-areas/arvin-ca/indoor-air-quality/",
-        "/service-areas/delano-ca/indoor-air-quality/",
+        "/service-areas/buttonwillow-ca/indoor-air-quality/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buttonwillow-ca/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in Buttonwillow, CA | All Pro Plumbing Heating and Air",
+      "h1": "Emergency Plumbing in Buttonwillow",
+      "meta_description": "Trusted emergency plumbing in Buttonwillow, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "emergency plumbing buttonwillow",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "after hours plumber",
+        "plumber near me now",
+        "same day plumbing repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/buttonwillow-ca/",
+        "/service-areas/buttonwillow-ca/ac-repair/",
+        "/service-areas/buttonwillow-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/emergency-plumbing/",
+        "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buttonwillow-ca/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst and Leaking Pipe Repair in Buttonwillow, CA | All Pro Plumbing Heating and Air",
+      "h1": "Burst and Leaking Pipe Repair in Buttonwillow",
+      "meta_description": "Trusted burst and leaking pipe repair in Buttonwillow, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "burst and leaking pipe repair buttonwillow",
+      "secondary_keywords": [
+        "burst pipe repair",
+        "pipe burst in wall",
+        "water line repair",
+        "leaking pipe repair",
+        "frozen pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/buttonwillow-ca/",
+        "/service-areas/buttonwillow-ca/ac-repair/",
+        "/service-areas/buttonwillow-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/burst-pipe-repair/",
+        "/service-areas/bear-valley-springs-ca/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buttonwillow-ca/drain-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Drain Cleaning in Buttonwillow, CA | All Pro Plumbing Heating and Air",
+      "h1": "Drain Cleaning in Buttonwillow",
+      "meta_description": "Trusted drain cleaning in Buttonwillow, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "drain cleaning buttonwillow",
+      "secondary_keywords": [
+        "clogged drain cleaning",
+        "hydro jetting",
+        "rooter service",
+        "kitchen sink clog removal",
+        "shower drain clog"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/drain-cleaning/",
+        "/service-areas/buttonwillow-ca/",
+        "/service-areas/buttonwillow-ca/ac-repair/",
+        "/service-areas/buttonwillow-ca/emergency-plumbing/",
+        "/service-areas/arvin-ca/drain-cleaning/",
+        "/service-areas/bear-valley-springs-ca/drain-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buttonwillow-ca/sewer-line-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewer Line Repair and Replacement in Buttonwillow, CA | All Pro Plumbing Heating and Air",
+      "h1": "Sewer Line Repair and Replacement in Buttonwillow",
+      "meta_description": "Trusted sewer line repair and replacement in Buttonwillow, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "sewer line repair and replacement buttonwillow",
+      "secondary_keywords": [
+        "sewer backup",
+        "trenchless sewer repair",
+        "sewer line replacement",
+        "sewer camera inspection",
+        "collapsed sewer line repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewer-line-repair/",
+        "/service-areas/buttonwillow-ca/",
+        "/service-areas/buttonwillow-ca/ac-repair/",
+        "/service-areas/buttonwillow-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/sewer-line-repair/",
+        "/service-areas/bear-valley-springs-ca/sewer-line-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buttonwillow-ca/water-heater-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Heater Repair in Buttonwillow, CA | All Pro Plumbing Heating and Air",
+      "h1": "Water Heater Repair in Buttonwillow",
+      "meta_description": "Trusted water heater repair in Buttonwillow, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "water heater repair buttonwillow",
+      "secondary_keywords": [
+        "water heater not working",
+        "no hot water",
+        "water heater leaking",
+        "hot water heater repair",
+        "same day water heater service"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-heater-repair/",
+        "/service-areas/buttonwillow-ca/",
+        "/service-areas/buttonwillow-ca/ac-repair/",
+        "/service-areas/buttonwillow-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/water-heater-repair/",
+        "/service-areas/bear-valley-springs-ca/water-heater-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buttonwillow-ca/water-heater-installation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Heater Installation and Replacement in Buttonwillow, CA | All Pro Plumbing Heating and Air",
+      "h1": "Water Heater Installation and Replacement in Buttonwillow",
+      "meta_description": "Trusted water heater installation and replacement in Buttonwillow, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "water heater installation and replacement buttonwillow",
+      "secondary_keywords": [
+        "water heater replacement",
+        "tankless water heater installation",
+        "tankless vs tank water heater",
+        "50 gallon water heater install",
+        "tankless water heater cost"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-heater-installation/",
+        "/service-areas/buttonwillow-ca/",
+        "/service-areas/buttonwillow-ca/ac-repair/",
+        "/service-areas/buttonwillow-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/water-heater-installation/",
+        "/service-areas/bear-valley-springs-ca/water-heater-installation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buttonwillow-ca/leak-detection/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Leak Detection in Buttonwillow, CA | All Pro Plumbing Heating and Air",
+      "h1": "Leak Detection in Buttonwillow",
+      "meta_description": "Trusted leak detection in Buttonwillow, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "leak detection buttonwillow",
+      "secondary_keywords": [
+        "water leak detection",
+        "electronic leak detection",
+        "hidden leak detection",
+        "high water bill leak",
+        "underground water leak detection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/leak-detection/",
+        "/service-areas/buttonwillow-ca/",
+        "/service-areas/buttonwillow-ca/ac-repair/",
+        "/service-areas/buttonwillow-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/leak-detection/",
+        "/service-areas/bear-valley-springs-ca/leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buttonwillow-ca/slab-leak-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Slab Leak Repair in Buttonwillow, CA | All Pro Plumbing Heating and Air",
+      "h1": "Slab Leak Repair in Buttonwillow",
+      "meta_description": "Trusted slab leak repair in Buttonwillow, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "slab leak repair buttonwillow",
+      "secondary_keywords": [
+        "slab leak detection",
+        "under slab plumbing repair",
+        "hot spot on floor leak",
+        "slab leak reroute",
+        "foundation water leak repair"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/slab-leak-repair/",
+        "/service-areas/buttonwillow-ca/",
+        "/service-areas/buttonwillow-ca/ac-repair/",
+        "/service-areas/buttonwillow-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/slab-leak-repair/",
+        "/service-areas/bear-valley-springs-ca/slab-leak-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buttonwillow-ca/repiping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Whole-House Repiping in Buttonwillow, CA | All Pro Plumbing Heating and Air",
+      "h1": "Whole-House Repiping in Buttonwillow",
+      "meta_description": "Trusted whole-house repiping in Buttonwillow, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "whole-house repiping buttonwillow",
+      "secondary_keywords": [
+        "whole house repipe",
+        "copper repiping",
+        "PEX repiping",
+        "galvanized pipe replacement",
+        "polybutylene pipe replacement"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/repiping/",
+        "/service-areas/buttonwillow-ca/",
+        "/service-areas/buttonwillow-ca/ac-repair/",
+        "/service-areas/buttonwillow-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/repiping/",
+        "/service-areas/bear-valley-springs-ca/repiping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buttonwillow-ca/gas-line-services/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Gas Line Installation and Leak Repair in Buttonwillow, CA | All Pro Plumbing Heating and Air",
+      "h1": "Gas Line Installation and Leak Repair in Buttonwillow",
+      "meta_description": "Trusted gas line installation and leak repair in Buttonwillow, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "gas line installation and leak repair buttonwillow",
+      "secondary_keywords": [
+        "gas leak repair",
+        "gas line installation",
+        "gas leak detection",
+        "gas line for stove",
+        "earthquake gas shutoff valve"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/gas-line-services/",
+        "/service-areas/buttonwillow-ca/",
+        "/service-areas/buttonwillow-ca/ac-repair/",
+        "/service-areas/buttonwillow-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/gas-line-services/",
+        "/service-areas/bear-valley-springs-ca/gas-line-services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buttonwillow-ca/sump-pumps/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sump Pump Installation and Repair in Buttonwillow, CA | All Pro Plumbing Heating and Air",
+      "h1": "Sump Pump Installation and Repair in Buttonwillow",
+      "meta_description": "Trusted sump pump installation and repair in Buttonwillow, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "sump pump installation and repair buttonwillow",
+      "secondary_keywords": [
+        "sump pump installation",
+        "sump pump replacement",
+        "battery backup sump pump",
+        "sump pump not working",
+        "sewage ejector pump"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sump-pumps/",
+        "/service-areas/buttonwillow-ca/",
+        "/service-areas/buttonwillow-ca/ac-repair/",
+        "/service-areas/buttonwillow-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/sump-pumps/",
+        "/service-areas/bear-valley-springs-ca/sump-pumps/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buttonwillow-ca/water-softeners-filtration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Softeners and Filtration Systems in Buttonwillow, CA | All Pro Plumbing Heating and Air",
+      "h1": "Water Softeners and Filtration Systems in Buttonwillow",
+      "meta_description": "Trusted water softeners and filtration systems in Buttonwillow, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "water softeners and filtration systems buttonwillow",
+      "secondary_keywords": [
+        "water softener installation",
+        "whole house water filtration",
+        "reverse osmosis system installation",
+        "hard water treatment",
+        "water conditioner install"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-softeners-filtration/",
+        "/service-areas/buttonwillow-ca/",
+        "/service-areas/buttonwillow-ca/ac-repair/",
+        "/service-areas/buttonwillow-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/water-softeners-filtration/",
+        "/service-areas/bear-valley-springs-ca/water-softeners-filtration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buttonwillow-ca/toilet-faucet-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Toilet, Faucet and Fixture Services in Buttonwillow, CA | All Pro Plumbing Heating and Air",
+      "h1": "Toilet, Faucet and Fixture Services in Buttonwillow",
+      "meta_description": "Trusted toilet, faucet and fixture services in Buttonwillow, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "toilet, faucet and fixture services buttonwillow",
+      "secondary_keywords": [
+        "toilet repair",
+        "toilet installation",
+        "faucet replacement",
+        "shower valve repair",
+        "running toilet fix"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/toilet-faucet-repair/",
+        "/service-areas/buttonwillow-ca/",
+        "/service-areas/buttonwillow-ca/ac-repair/",
+        "/service-areas/buttonwillow-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/toilet-faucet-repair/",
+        "/service-areas/bear-valley-springs-ca/toilet-faucet-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buttonwillow-ca/garbage-disposal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Garbage Disposal Repair and Installation in Buttonwillow, CA | All Pro Plumbing Heating and Air",
+      "h1": "Garbage Disposal Repair and Installation in Buttonwillow",
+      "meta_description": "Trusted garbage disposal repair and installation in Buttonwillow, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "garbage disposal repair and installation buttonwillow",
+      "secondary_keywords": [
+        "garbage disposal replacement",
+        "garbage disposal humming",
+        "garbage disposal jammed",
+        "disposal installation",
+        "garbage disposal leaking"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/garbage-disposal/",
+        "/service-areas/buttonwillow-ca/",
+        "/service-areas/buttonwillow-ca/ac-repair/",
+        "/service-areas/buttonwillow-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/garbage-disposal/",
+        "/service-areas/bear-valley-springs-ca/garbage-disposal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buttonwillow-ca/furnace-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Furnace Repair in Buttonwillow, CA | All Pro Plumbing Heating and Air",
+      "h1": "Furnace Repair in Buttonwillow",
+      "meta_description": "Trusted furnace repair in Buttonwillow, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "furnace repair buttonwillow",
+      "secondary_keywords": [
+        "furnace not working",
+        "heater repair",
+        "no heat repair",
+        "emergency furnace repair",
+        "furnace blowing cold air"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/furnace-repair/",
+        "/service-areas/buttonwillow-ca/",
+        "/service-areas/buttonwillow-ca/ac-repair/",
+        "/service-areas/buttonwillow-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/furnace-repair/",
+        "/service-areas/bear-valley-springs-ca/furnace-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buttonwillow-ca/furnace-installation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Furnace Installation and Replacement in Buttonwillow, CA | All Pro Plumbing Heating and Air",
+      "h1": "Furnace Installation and Replacement in Buttonwillow",
+      "meta_description": "Trusted furnace installation and replacement in Buttonwillow, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "furnace installation and replacement buttonwillow",
+      "secondary_keywords": [
+        "furnace replacement",
+        "new furnace cost",
+        "high efficiency furnace installation",
+        "gas furnace installation",
+        "furnace replacement near me"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/furnace-installation/",
+        "/service-areas/buttonwillow-ca/",
+        "/service-areas/buttonwillow-ca/ac-repair/",
+        "/service-areas/buttonwillow-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/furnace-installation/",
+        "/service-areas/bear-valley-springs-ca/furnace-installation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buttonwillow-ca/heat-pump-services/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Heat Pump Installation and Repair in Buttonwillow, CA | All Pro Plumbing Heating and Air",
+      "h1": "Heat Pump Installation and Repair in Buttonwillow",
+      "meta_description": "Trusted heat pump installation and repair in Buttonwillow, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "heat pump installation and repair buttonwillow",
+      "secondary_keywords": [
+        "heat pump installation",
+        "heat pump repair",
+        "heat pump vs furnace",
+        "heat pump replacement cost",
+        "heat pump rebates"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/heat-pump-services/",
+        "/service-areas/buttonwillow-ca/",
+        "/service-areas/buttonwillow-ca/ac-repair/",
+        "/service-areas/buttonwillow-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/heat-pump-services/",
+        "/service-areas/bear-valley-springs-ca/heat-pump-services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buttonwillow-ca/ac-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Conditioning Repair in Buttonwillow, CA | All Pro Plumbing Heating and Air",
+      "h1": "Air Conditioning Repair in Buttonwillow",
+      "meta_description": "Trusted air conditioning repair in Buttonwillow, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "air conditioning repair buttonwillow",
+      "secondary_keywords": [
+        "ac not cooling",
+        "air conditioner repair",
+        "central air repair",
+        "ac refrigerant leak repair",
+        "hvac repair near me"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/ac-repair/",
+        "/service-areas/buttonwillow-ca/",
+        "/service-areas/buttonwillow-ca/drain-cleaning/",
+        "/service-areas/buttonwillow-ca/emergency-plumbing/",
+        "/service-areas/arvin-ca/ac-repair/",
+        "/service-areas/bear-valley-springs-ca/ac-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buttonwillow-ca/ac-installation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "AC Installation and Replacement in Buttonwillow, CA | All Pro Plumbing Heating and Air",
+      "h1": "AC Installation and Replacement in Buttonwillow",
+      "meta_description": "Trusted ac installation and replacement in Buttonwillow, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "ac installation and replacement buttonwillow",
+      "secondary_keywords": [
+        "ac replacement",
+        "central air installation",
+        "new ac unit cost",
+        "hvac installation",
+        "high SEER2 air conditioner"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/ac-installation/",
+        "/service-areas/buttonwillow-ca/",
+        "/service-areas/buttonwillow-ca/ac-repair/",
+        "/service-areas/buttonwillow-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/ac-installation/",
+        "/service-areas/bear-valley-springs-ca/ac-installation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buttonwillow-ca/ductless-mini-splits/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Ductless Mini-Split Systems in Buttonwillow, CA | All Pro Plumbing Heating and Air",
+      "h1": "Ductless Mini-Split Systems in Buttonwillow",
+      "meta_description": "Trusted ductless mini-split systems in Buttonwillow, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "ductless mini-split systems buttonwillow",
+      "secondary_keywords": [
+        "mini split installation",
+        "ductless AC installation",
+        "mini split for garage",
+        "multi zone mini split",
+        "mini split heat pump"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/ductless-mini-splits/",
+        "/service-areas/buttonwillow-ca/",
+        "/service-areas/buttonwillow-ca/ac-repair/",
+        "/service-areas/buttonwillow-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/ductless-mini-splits/",
+        "/service-areas/bear-valley-springs-ca/ductless-mini-splits/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buttonwillow-ca/ductwork/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Ductwork Repair and Installation in Buttonwillow, CA | All Pro Plumbing Heating and Air",
+      "h1": "Ductwork Repair and Installation in Buttonwillow",
+      "meta_description": "Trusted ductwork repair and installation in Buttonwillow, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "ductwork repair and installation buttonwillow",
+      "secondary_keywords": [
+        "duct replacement",
+        "duct sealing",
+        "air duct repair",
+        "ductwork installation",
+        "leaky duct testing"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/ductwork/",
+        "/service-areas/buttonwillow-ca/",
+        "/service-areas/buttonwillow-ca/ac-repair/",
+        "/service-areas/buttonwillow-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/ductwork/",
+        "/service-areas/bear-valley-springs-ca/ductwork/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buttonwillow-ca/indoor-air-quality/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Indoor Air Quality Services in Buttonwillow, CA | All Pro Plumbing Heating and Air",
+      "h1": "Indoor Air Quality Services in Buttonwillow",
+      "meta_description": "Trusted indoor air quality services in Buttonwillow, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "indoor air quality services buttonwillow",
+      "secondary_keywords": [
+        "whole house air purifier",
+        "UV air purifier for HVAC",
+        "whole home humidifier installation",
+        "HVAC filtration upgrade",
+        "indoor air quality testing"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/indoor-air-quality/",
+        "/service-areas/buttonwillow-ca/",
+        "/service-areas/buttonwillow-ca/ac-repair/",
+        "/service-areas/buttonwillow-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/indoor-air-quality/",
+        "/service-areas/bear-valley-springs-ca/indoor-air-quality/",
         "/contact/"
       ]
     },

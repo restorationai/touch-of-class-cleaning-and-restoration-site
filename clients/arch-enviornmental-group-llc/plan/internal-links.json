@@ -28,6 +28,7 @@
     "/service-areas/fowler-ca/",
     "/service-areas/fresno-ca/",
     "/service-areas/hanford-ca/",
+    "/service-areas/ivanhoe-ca/",
     "/service-areas/lemoore-ca/",
     "/service-areas/minkler-ca/",
     "/service-areas/orange-cove-ca/",
@@ -69,6 +70,7 @@
     "/service-areas/fowler-ca/",
     "/service-areas/fresno-ca/",
     "/service-areas/hanford-ca/",
+    "/service-areas/ivanhoe-ca/",
     "/service-areas/lemoore-ca/",
     "/service-areas/minkler-ca/",
     "/service-areas/orange-cove-ca/",
@@ -113,10 +115,10 @@
     "/service-areas/fowler-ca/mold-inspection-testing/",
     "/service-areas/fresno-ca/mold-inspection-testing/",
     "/service-areas/hanford-ca/mold-inspection-testing/",
+    "/service-areas/ivanhoe-ca/mold-inspection-testing/",
     "/service-areas/lemoore-ca/mold-inspection-testing/",
     "/service-areas/minkler-ca/mold-inspection-testing/",
     "/service-areas/orange-cove-ca/mold-inspection-testing/",
-    "/service-areas/parlier-ca/mold-inspection-testing/",
     "/blog/do-i-need-mold-test-before-buying-house/",
     "/blog/how-much-does-mold-inspection-cost/",
     "/blog/air-sampling-vs-surface-sampling/"
@@ -132,10 +134,10 @@
     "/service-areas/fowler-ca/indoor-air-quality-testing/",
     "/service-areas/fresno-ca/indoor-air-quality-testing/",
     "/service-areas/hanford-ca/indoor-air-quality-testing/",
+    "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
     "/service-areas/lemoore-ca/indoor-air-quality-testing/",
     "/service-areas/minkler-ca/indoor-air-quality-testing/",
     "/service-areas/orange-cove-ca/indoor-air-quality-testing/",
-    "/service-areas/parlier-ca/indoor-air-quality-testing/",
     "/blog/signs-of-bad-indoor-air-quality/"
   ],
   "/services/asbestos-testing/": [
@@ -149,10 +151,10 @@
     "/service-areas/fowler-ca/asbestos-testing/",
     "/service-areas/fresno-ca/asbestos-testing/",
     "/service-areas/hanford-ca/asbestos-testing/",
+    "/service-areas/ivanhoe-ca/asbestos-testing/",
     "/service-areas/lemoore-ca/asbestos-testing/",
     "/service-areas/minkler-ca/asbestos-testing/",
     "/service-areas/orange-cove-ca/asbestos-testing/",
-    "/service-areas/parlier-ca/asbestos-testing/",
     "/blog/asbestos-test-before-renovation/"
   ],
   "/services/lead-paint-testing/": [
@@ -166,10 +168,10 @@
     "/service-areas/fowler-ca/lead-paint-testing/",
     "/service-areas/fresno-ca/lead-paint-testing/",
     "/service-areas/hanford-ca/lead-paint-testing/",
+    "/service-areas/ivanhoe-ca/lead-paint-testing/",
     "/service-areas/lemoore-ca/lead-paint-testing/",
     "/service-areas/minkler-ca/lead-paint-testing/",
-    "/service-areas/orange-cove-ca/lead-paint-testing/",
-    "/service-areas/parlier-ca/lead-paint-testing/"
+    "/service-areas/orange-cove-ca/lead-paint-testing/"
   ],
   "/services/water-quality-testing/": [
     "/services/",
@@ -182,10 +184,10 @@
     "/service-areas/fowler-ca/water-quality-testing/",
     "/service-areas/fresno-ca/water-quality-testing/",
     "/service-areas/hanford-ca/water-quality-testing/",
+    "/service-areas/ivanhoe-ca/water-quality-testing/",
     "/service-areas/lemoore-ca/water-quality-testing/",
     "/service-areas/minkler-ca/water-quality-testing/",
-    "/service-areas/orange-cove-ca/water-quality-testing/",
-    "/service-areas/parlier-ca/water-quality-testing/"
+    "/service-areas/orange-cove-ca/water-quality-testing/"
   ],
   "/services/clearance-testing/": [
     "/services/",
@@ -198,10 +200,10 @@
     "/service-areas/fowler-ca/clearance-testing/",
     "/service-areas/fresno-ca/clearance-testing/",
     "/service-areas/hanford-ca/clearance-testing/",
+    "/service-areas/ivanhoe-ca/clearance-testing/",
     "/service-areas/lemoore-ca/clearance-testing/",
     "/service-areas/minkler-ca/clearance-testing/",
     "/service-areas/orange-cove-ca/clearance-testing/",
-    "/service-areas/parlier-ca/clearance-testing/",
     "/blog/why-independent-mold-testing-matters/"
   ],
   "/services/environmental-site-assessments/": [
@@ -215,10 +217,10 @@
     "/service-areas/fowler-ca/environmental-site-assessments/",
     "/service-areas/fresno-ca/environmental-site-assessments/",
     "/service-areas/hanford-ca/environmental-site-assessments/",
+    "/service-areas/ivanhoe-ca/environmental-site-assessments/",
     "/service-areas/lemoore-ca/environmental-site-assessments/",
     "/service-areas/minkler-ca/environmental-site-assessments/",
-    "/service-areas/orange-cove-ca/environmental-site-assessments/",
-    "/service-areas/parlier-ca/environmental-site-assessments/"
+    "/service-areas/orange-cove-ca/environmental-site-assessments/"
   ],
   "/services/radon-testing/": [
     "/services/",
@@ -231,10 +233,10 @@
     "/service-areas/fowler-ca/radon-testing/",
     "/service-areas/fresno-ca/radon-testing/",
     "/service-areas/hanford-ca/radon-testing/",
+    "/service-areas/ivanhoe-ca/radon-testing/",
     "/service-areas/lemoore-ca/radon-testing/",
     "/service-areas/minkler-ca/radon-testing/",
-    "/service-areas/orange-cove-ca/radon-testing/",
-    "/service-areas/parlier-ca/radon-testing/"
+    "/service-areas/orange-cove-ca/radon-testing/"
   ],
   "/services/voc-formaldehyde-testing/": [
     "/services/",
@@ -247,10 +249,10 @@
     "/service-areas/fowler-ca/voc-formaldehyde-testing/",
     "/service-areas/fresno-ca/voc-formaldehyde-testing/",
     "/service-areas/hanford-ca/voc-formaldehyde-testing/",
+    "/service-areas/ivanhoe-ca/voc-formaldehyde-testing/",
     "/service-areas/lemoore-ca/voc-formaldehyde-testing/",
     "/service-areas/minkler-ca/voc-formaldehyde-testing/",
-    "/service-areas/orange-cove-ca/voc-formaldehyde-testing/",
-    "/service-areas/parlier-ca/voc-formaldehyde-testing/"
+    "/service-areas/orange-cove-ca/voc-formaldehyde-testing/"
   ],
   "/services/sewage-contamination-assessment/": [
     "/services/",
@@ -263,10 +265,10 @@
     "/service-areas/fowler-ca/sewage-contamination-assessment/",
     "/service-areas/fresno-ca/sewage-contamination-assessment/",
     "/service-areas/hanford-ca/sewage-contamination-assessment/",
+    "/service-areas/ivanhoe-ca/sewage-contamination-assessment/",
     "/service-areas/lemoore-ca/sewage-contamination-assessment/",
     "/service-areas/minkler-ca/sewage-contamination-assessment/",
-    "/service-areas/orange-cove-ca/sewage-contamination-assessment/",
-    "/service-areas/parlier-ca/sewage-contamination-assessment/"
+    "/service-areas/orange-cove-ca/sewage-contamination-assessment/"
   ],
   "/services/post-flood-mold-assessment/": [
     "/services/",
@@ -279,10 +281,10 @@
     "/service-areas/fowler-ca/post-flood-mold-assessment/",
     "/service-areas/fresno-ca/post-flood-mold-assessment/",
     "/service-areas/hanford-ca/post-flood-mold-assessment/",
+    "/service-areas/ivanhoe-ca/post-flood-mold-assessment/",
     "/service-areas/lemoore-ca/post-flood-mold-assessment/",
     "/service-areas/minkler-ca/post-flood-mold-assessment/",
     "/service-areas/orange-cove-ca/post-flood-mold-assessment/",
-    "/service-areas/parlier-ca/post-flood-mold-assessment/",
     "/blog/mold-testing-after-water-damage/"
   ],
   "/services/allergen-testing/": [
@@ -296,10 +298,10 @@
     "/service-areas/fowler-ca/allergen-testing/",
     "/service-areas/fresno-ca/allergen-testing/",
     "/service-areas/hanford-ca/allergen-testing/",
+    "/service-areas/ivanhoe-ca/allergen-testing/",
     "/service-areas/lemoore-ca/allergen-testing/",
     "/service-areas/minkler-ca/allergen-testing/",
-    "/service-areas/orange-cove-ca/allergen-testing/",
-    "/service-areas/parlier-ca/allergen-testing/"
+    "/service-areas/orange-cove-ca/allergen-testing/"
   ],
   "/services/hvac-duct-assessments/": [
     "/services/",
@@ -312,10 +314,10 @@
     "/service-areas/fowler-ca/hvac-duct-assessments/",
     "/service-areas/fresno-ca/hvac-duct-assessments/",
     "/service-areas/hanford-ca/hvac-duct-assessments/",
+    "/service-areas/ivanhoe-ca/hvac-duct-assessments/",
     "/service-areas/lemoore-ca/hvac-duct-assessments/",
     "/service-areas/minkler-ca/hvac-duct-assessments/",
-    "/service-areas/orange-cove-ca/hvac-duct-assessments/",
-    "/service-areas/parlier-ca/hvac-duct-assessments/"
+    "/service-areas/orange-cove-ca/hvac-duct-assessments/"
   ],
   "/services/remediation-oversight/": [
     "/services/",
@@ -328,10 +330,10 @@
     "/service-areas/fowler-ca/remediation-oversight/",
     "/service-areas/fresno-ca/remediation-oversight/",
     "/service-areas/hanford-ca/remediation-oversight/",
+    "/service-areas/ivanhoe-ca/remediation-oversight/",
     "/service-areas/lemoore-ca/remediation-oversight/",
     "/service-areas/minkler-ca/remediation-oversight/",
-    "/service-areas/orange-cove-ca/remediation-oversight/",
-    "/service-areas/parlier-ca/remediation-oversight/"
+    "/service-areas/orange-cove-ca/remediation-oversight/"
   ],
   "/services/compliance-consulting/": [
     "/services/",
@@ -344,10 +346,10 @@
     "/service-areas/fowler-ca/compliance-consulting/",
     "/service-areas/fresno-ca/compliance-consulting/",
     "/service-areas/hanford-ca/compliance-consulting/",
+    "/service-areas/ivanhoe-ca/compliance-consulting/",
     "/service-areas/lemoore-ca/compliance-consulting/",
     "/service-areas/minkler-ca/compliance-consulting/",
-    "/service-areas/orange-cove-ca/compliance-consulting/",
-    "/service-areas/parlier-ca/compliance-consulting/"
+    "/service-areas/orange-cove-ca/compliance-consulting/"
   ],
   "/services/litigation-support-sampling/": [
     "/services/",
@@ -360,10 +362,10 @@
     "/service-areas/fowler-ca/litigation-support-sampling/",
     "/service-areas/fresno-ca/litigation-support-sampling/",
     "/service-areas/hanford-ca/litigation-support-sampling/",
+    "/service-areas/ivanhoe-ca/litigation-support-sampling/",
     "/service-areas/lemoore-ca/litigation-support-sampling/",
     "/service-areas/minkler-ca/litigation-support-sampling/",
-    "/service-areas/orange-cove-ca/litigation-support-sampling/",
-    "/service-areas/parlier-ca/litigation-support-sampling/"
+    "/service-areas/orange-cove-ca/litigation-support-sampling/"
   ],
   "/service-areas/fresno-ca/": [
     "/service-areas/",
@@ -798,6 +800,29 @@
     "/service-areas/riverdale-ca/allergen-testing/",
     "/service-areas/riverdale-ca/compliance-consulting/",
     "/service-areas/riverdale-ca/litigation-support-sampling/",
+    "/service-areas/bakersfield-ca/",
+    "/service-areas/centerville-ca/",
+    "/service-areas/clovis-ca/"
+  ],
+  "/service-areas/ivanhoe-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+    "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+    "/service-areas/ivanhoe-ca/asbestos-testing/",
+    "/service-areas/ivanhoe-ca/clearance-testing/",
+    "/service-areas/ivanhoe-ca/environmental-site-assessments/",
+    "/service-areas/ivanhoe-ca/lead-paint-testing/",
+    "/service-areas/ivanhoe-ca/water-quality-testing/",
+    "/service-areas/ivanhoe-ca/post-flood-mold-assessment/",
+    "/service-areas/ivanhoe-ca/radon-testing/",
+    "/service-areas/ivanhoe-ca/sewage-contamination-assessment/",
+    "/service-areas/ivanhoe-ca/hvac-duct-assessments/",
+    "/service-areas/ivanhoe-ca/remediation-oversight/",
+    "/service-areas/ivanhoe-ca/voc-formaldehyde-testing/",
+    "/service-areas/ivanhoe-ca/allergen-testing/",
+    "/service-areas/ivanhoe-ca/compliance-consulting/",
+    "/service-areas/ivanhoe-ca/litigation-support-sampling/",
     "/service-areas/bakersfield-ca/",
     "/service-areas/centerville-ca/",
     "/service-areas/clovis-ca/"
@@ -3534,6 +3559,150 @@
     "/service-areas/riverdale-ca/",
     "/service-areas/riverdale-ca/indoor-air-quality-testing/",
     "/service-areas/riverdale-ca/mold-inspection-testing/",
+    "/service-areas/bakersfield-ca/litigation-support-sampling/",
+    "/service-areas/centerville-ca/litigation-support-sampling/",
+    "/contact/"
+  ],
+  "/service-areas/ivanhoe-ca/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/ivanhoe-ca/",
+    "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+    "/service-areas/ivanhoe-ca/asbestos-testing/",
+    "/service-areas/bakersfield-ca/mold-inspection-testing/",
+    "/service-areas/centerville-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/ivanhoe-ca/indoor-air-quality-testing/": [
+    "/services/indoor-air-quality-testing/",
+    "/service-areas/ivanhoe-ca/",
+    "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+    "/service-areas/ivanhoe-ca/asbestos-testing/",
+    "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
+    "/service-areas/centerville-ca/indoor-air-quality-testing/",
+    "/contact/"
+  ],
+  "/service-areas/ivanhoe-ca/asbestos-testing/": [
+    "/services/asbestos-testing/",
+    "/service-areas/ivanhoe-ca/",
+    "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+    "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+    "/service-areas/bakersfield-ca/asbestos-testing/",
+    "/service-areas/centerville-ca/asbestos-testing/",
+    "/contact/"
+  ],
+  "/service-areas/ivanhoe-ca/lead-paint-testing/": [
+    "/services/lead-paint-testing/",
+    "/service-areas/ivanhoe-ca/",
+    "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+    "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+    "/service-areas/bakersfield-ca/lead-paint-testing/",
+    "/service-areas/centerville-ca/lead-paint-testing/",
+    "/contact/"
+  ],
+  "/service-areas/ivanhoe-ca/water-quality-testing/": [
+    "/services/water-quality-testing/",
+    "/service-areas/ivanhoe-ca/",
+    "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+    "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+    "/service-areas/bakersfield-ca/water-quality-testing/",
+    "/service-areas/centerville-ca/water-quality-testing/",
+    "/contact/"
+  ],
+  "/service-areas/ivanhoe-ca/clearance-testing/": [
+    "/services/clearance-testing/",
+    "/service-areas/ivanhoe-ca/",
+    "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+    "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+    "/service-areas/bakersfield-ca/clearance-testing/",
+    "/service-areas/centerville-ca/clearance-testing/",
+    "/contact/"
+  ],
+  "/service-areas/ivanhoe-ca/environmental-site-assessments/": [
+    "/services/environmental-site-assessments/",
+    "/service-areas/ivanhoe-ca/",
+    "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+    "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+    "/service-areas/bakersfield-ca/environmental-site-assessments/",
+    "/service-areas/centerville-ca/environmental-site-assessments/",
+    "/contact/"
+  ],
+  "/service-areas/ivanhoe-ca/radon-testing/": [
+    "/services/radon-testing/",
+    "/service-areas/ivanhoe-ca/",
+    "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+    "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+    "/service-areas/bakersfield-ca/radon-testing/",
+    "/service-areas/centerville-ca/radon-testing/",
+    "/contact/"
+  ],
+  "/service-areas/ivanhoe-ca/voc-formaldehyde-testing/": [
+    "/services/voc-formaldehyde-testing/",
+    "/service-areas/ivanhoe-ca/",
+    "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+    "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+    "/service-areas/bakersfield-ca/voc-formaldehyde-testing/",
+    "/service-areas/centerville-ca/voc-formaldehyde-testing/",
+    "/contact/"
+  ],
+  "/service-areas/ivanhoe-ca/sewage-contamination-assessment/": [
+    "/services/sewage-contamination-assessment/",
+    "/service-areas/ivanhoe-ca/",
+    "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+    "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+    "/service-areas/bakersfield-ca/sewage-contamination-assessment/",
+    "/service-areas/centerville-ca/sewage-contamination-assessment/",
+    "/contact/"
+  ],
+  "/service-areas/ivanhoe-ca/post-flood-mold-assessment/": [
+    "/services/post-flood-mold-assessment/",
+    "/service-areas/ivanhoe-ca/",
+    "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+    "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+    "/service-areas/bakersfield-ca/post-flood-mold-assessment/",
+    "/service-areas/centerville-ca/post-flood-mold-assessment/",
+    "/contact/"
+  ],
+  "/service-areas/ivanhoe-ca/allergen-testing/": [
+    "/services/allergen-testing/",
+    "/service-areas/ivanhoe-ca/",
+    "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+    "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+    "/service-areas/bakersfield-ca/allergen-testing/",
+    "/service-areas/centerville-ca/allergen-testing/",
+    "/contact/"
+  ],
+  "/service-areas/ivanhoe-ca/hvac-duct-assessments/": [
+    "/services/hvac-duct-assessments/",
+    "/service-areas/ivanhoe-ca/",
+    "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+    "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+    "/service-areas/bakersfield-ca/hvac-duct-assessments/",
+    "/service-areas/centerville-ca/hvac-duct-assessments/",
+    "/contact/"
+  ],
+  "/service-areas/ivanhoe-ca/remediation-oversight/": [
+    "/services/remediation-oversight/",
+    "/service-areas/ivanhoe-ca/",
+    "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+    "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+    "/service-areas/bakersfield-ca/remediation-oversight/",
+    "/service-areas/centerville-ca/remediation-oversight/",
+    "/contact/"
+  ],
+  "/service-areas/ivanhoe-ca/compliance-consulting/": [
+    "/services/compliance-consulting/",
+    "/service-areas/ivanhoe-ca/",
+    "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+    "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+    "/service-areas/bakersfield-ca/compliance-consulting/",
+    "/service-areas/centerville-ca/compliance-consulting/",
+    "/contact/"
+  ],
+  "/service-areas/ivanhoe-ca/litigation-support-sampling/": [
+    "/services/litigation-support-sampling/",
+    "/service-areas/ivanhoe-ca/",
+    "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
+    "/service-areas/ivanhoe-ca/mold-inspection-testing/",
     "/service-areas/bakersfield-ca/litigation-support-sampling/",
     "/service-areas/centerville-ca/litigation-support-sampling/",
     "/contact/"
