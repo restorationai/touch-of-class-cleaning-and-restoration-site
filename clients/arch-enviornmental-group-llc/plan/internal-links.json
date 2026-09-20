@@ -38,6 +38,7 @@
     "/service-areas/riverdale-ca/",
     "/service-areas/sanger-ca/",
     "/service-areas/selma-ca/",
+    "/service-areas/squaw-valley-ca/",
     "/service-areas/tulare-ca/",
     "/service-areas/visalia-ca/"
   ],
@@ -80,6 +81,7 @@
     "/service-areas/riverdale-ca/",
     "/service-areas/sanger-ca/",
     "/service-areas/selma-ca/",
+    "/service-areas/squaw-valley-ca/",
     "/service-areas/tulare-ca/",
     "/service-areas/visalia-ca/"
   ],
@@ -823,6 +825,29 @@
     "/service-areas/ivanhoe-ca/allergen-testing/",
     "/service-areas/ivanhoe-ca/compliance-consulting/",
     "/service-areas/ivanhoe-ca/litigation-support-sampling/",
+    "/service-areas/bakersfield-ca/",
+    "/service-areas/centerville-ca/",
+    "/service-areas/clovis-ca/"
+  ],
+  "/service-areas/squaw-valley-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/squaw-valley-ca/indoor-air-quality-testing/",
+    "/service-areas/squaw-valley-ca/mold-inspection-testing/",
+    "/service-areas/squaw-valley-ca/asbestos-testing/",
+    "/service-areas/squaw-valley-ca/clearance-testing/",
+    "/service-areas/squaw-valley-ca/environmental-site-assessments/",
+    "/service-areas/squaw-valley-ca/lead-paint-testing/",
+    "/service-areas/squaw-valley-ca/water-quality-testing/",
+    "/service-areas/squaw-valley-ca/post-flood-mold-assessment/",
+    "/service-areas/squaw-valley-ca/radon-testing/",
+    "/service-areas/squaw-valley-ca/sewage-contamination-assessment/",
+    "/service-areas/squaw-valley-ca/hvac-duct-assessments/",
+    "/service-areas/squaw-valley-ca/remediation-oversight/",
+    "/service-areas/squaw-valley-ca/voc-formaldehyde-testing/",
+    "/service-areas/squaw-valley-ca/allergen-testing/",
+    "/service-areas/squaw-valley-ca/compliance-consulting/",
+    "/service-areas/squaw-valley-ca/litigation-support-sampling/",
     "/service-areas/bakersfield-ca/",
     "/service-areas/centerville-ca/",
     "/service-areas/clovis-ca/"
@@ -3703,6 +3728,150 @@
     "/service-areas/ivanhoe-ca/",
     "/service-areas/ivanhoe-ca/indoor-air-quality-testing/",
     "/service-areas/ivanhoe-ca/mold-inspection-testing/",
+    "/service-areas/bakersfield-ca/litigation-support-sampling/",
+    "/service-areas/centerville-ca/litigation-support-sampling/",
+    "/contact/"
+  ],
+  "/service-areas/squaw-valley-ca/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/squaw-valley-ca/",
+    "/service-areas/squaw-valley-ca/indoor-air-quality-testing/",
+    "/service-areas/squaw-valley-ca/asbestos-testing/",
+    "/service-areas/bakersfield-ca/mold-inspection-testing/",
+    "/service-areas/centerville-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/squaw-valley-ca/indoor-air-quality-testing/": [
+    "/services/indoor-air-quality-testing/",
+    "/service-areas/squaw-valley-ca/",
+    "/service-areas/squaw-valley-ca/mold-inspection-testing/",
+    "/service-areas/squaw-valley-ca/asbestos-testing/",
+    "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
+    "/service-areas/centerville-ca/indoor-air-quality-testing/",
+    "/contact/"
+  ],
+  "/service-areas/squaw-valley-ca/asbestos-testing/": [
+    "/services/asbestos-testing/",
+    "/service-areas/squaw-valley-ca/",
+    "/service-areas/squaw-valley-ca/indoor-air-quality-testing/",
+    "/service-areas/squaw-valley-ca/mold-inspection-testing/",
+    "/service-areas/bakersfield-ca/asbestos-testing/",
+    "/service-areas/centerville-ca/asbestos-testing/",
+    "/contact/"
+  ],
+  "/service-areas/squaw-valley-ca/lead-paint-testing/": [
+    "/services/lead-paint-testing/",
+    "/service-areas/squaw-valley-ca/",
+    "/service-areas/squaw-valley-ca/indoor-air-quality-testing/",
+    "/service-areas/squaw-valley-ca/mold-inspection-testing/",
+    "/service-areas/bakersfield-ca/lead-paint-testing/",
+    "/service-areas/centerville-ca/lead-paint-testing/",
+    "/contact/"
+  ],
+  "/service-areas/squaw-valley-ca/water-quality-testing/": [
+    "/services/water-quality-testing/",
+    "/service-areas/squaw-valley-ca/",
+    "/service-areas/squaw-valley-ca/indoor-air-quality-testing/",
+    "/service-areas/squaw-valley-ca/mold-inspection-testing/",
+    "/service-areas/bakersfield-ca/water-quality-testing/",
+    "/service-areas/centerville-ca/water-quality-testing/",
+    "/contact/"
+  ],
+  "/service-areas/squaw-valley-ca/clearance-testing/": [
+    "/services/clearance-testing/",
+    "/service-areas/squaw-valley-ca/",
+    "/service-areas/squaw-valley-ca/indoor-air-quality-testing/",
+    "/service-areas/squaw-valley-ca/mold-inspection-testing/",
+    "/service-areas/bakersfield-ca/clearance-testing/",
+    "/service-areas/centerville-ca/clearance-testing/",
+    "/contact/"
+  ],
+  "/service-areas/squaw-valley-ca/environmental-site-assessments/": [
+    "/services/environmental-site-assessments/",
+    "/service-areas/squaw-valley-ca/",
+    "/service-areas/squaw-valley-ca/indoor-air-quality-testing/",
+    "/service-areas/squaw-valley-ca/mold-inspection-testing/",
+    "/service-areas/bakersfield-ca/environmental-site-assessments/",
+    "/service-areas/centerville-ca/environmental-site-assessments/",
+    "/contact/"
+  ],
+  "/service-areas/squaw-valley-ca/radon-testing/": [
+    "/services/radon-testing/",
+    "/service-areas/squaw-valley-ca/",
+    "/service-areas/squaw-valley-ca/indoor-air-quality-testing/",
+    "/service-areas/squaw-valley-ca/mold-inspection-testing/",
+    "/service-areas/bakersfield-ca/radon-testing/",
+    "/service-areas/centerville-ca/radon-testing/",
+    "/contact/"
+  ],
+  "/service-areas/squaw-valley-ca/voc-formaldehyde-testing/": [
+    "/services/voc-formaldehyde-testing/",
+    "/service-areas/squaw-valley-ca/",
+    "/service-areas/squaw-valley-ca/indoor-air-quality-testing/",
+    "/service-areas/squaw-valley-ca/mold-inspection-testing/",
+    "/service-areas/bakersfield-ca/voc-formaldehyde-testing/",
+    "/service-areas/centerville-ca/voc-formaldehyde-testing/",
+    "/contact/"
+  ],
+  "/service-areas/squaw-valley-ca/sewage-contamination-assessment/": [
+    "/services/sewage-contamination-assessment/",
+    "/service-areas/squaw-valley-ca/",
+    "/service-areas/squaw-valley-ca/indoor-air-quality-testing/",
+    "/service-areas/squaw-valley-ca/mold-inspection-testing/",
+    "/service-areas/bakersfield-ca/sewage-contamination-assessment/",
+    "/service-areas/centerville-ca/sewage-contamination-assessment/",
+    "/contact/"
+  ],
+  "/service-areas/squaw-valley-ca/post-flood-mold-assessment/": [
+    "/services/post-flood-mold-assessment/",
+    "/service-areas/squaw-valley-ca/",
+    "/service-areas/squaw-valley-ca/indoor-air-quality-testing/",
+    "/service-areas/squaw-valley-ca/mold-inspection-testing/",
+    "/service-areas/bakersfield-ca/post-flood-mold-assessment/",
+    "/service-areas/centerville-ca/post-flood-mold-assessment/",
+    "/contact/"
+  ],
+  "/service-areas/squaw-valley-ca/allergen-testing/": [
+    "/services/allergen-testing/",
+    "/service-areas/squaw-valley-ca/",
+    "/service-areas/squaw-valley-ca/indoor-air-quality-testing/",
+    "/service-areas/squaw-valley-ca/mold-inspection-testing/",
+    "/service-areas/bakersfield-ca/allergen-testing/",
+    "/service-areas/centerville-ca/allergen-testing/",
+    "/contact/"
+  ],
+  "/service-areas/squaw-valley-ca/hvac-duct-assessments/": [
+    "/services/hvac-duct-assessments/",
+    "/service-areas/squaw-valley-ca/",
+    "/service-areas/squaw-valley-ca/indoor-air-quality-testing/",
+    "/service-areas/squaw-valley-ca/mold-inspection-testing/",
+    "/service-areas/bakersfield-ca/hvac-duct-assessments/",
+    "/service-areas/centerville-ca/hvac-duct-assessments/",
+    "/contact/"
+  ],
+  "/service-areas/squaw-valley-ca/remediation-oversight/": [
+    "/services/remediation-oversight/",
+    "/service-areas/squaw-valley-ca/",
+    "/service-areas/squaw-valley-ca/indoor-air-quality-testing/",
+    "/service-areas/squaw-valley-ca/mold-inspection-testing/",
+    "/service-areas/bakersfield-ca/remediation-oversight/",
+    "/service-areas/centerville-ca/remediation-oversight/",
+    "/contact/"
+  ],
+  "/service-areas/squaw-valley-ca/compliance-consulting/": [
+    "/services/compliance-consulting/",
+    "/service-areas/squaw-valley-ca/",
+    "/service-areas/squaw-valley-ca/indoor-air-quality-testing/",
+    "/service-areas/squaw-valley-ca/mold-inspection-testing/",
+    "/service-areas/bakersfield-ca/compliance-consulting/",
+    "/service-areas/centerville-ca/compliance-consulting/",
+    "/contact/"
+  ],
+  "/service-areas/squaw-valley-ca/litigation-support-sampling/": [
+    "/services/litigation-support-sampling/",
+    "/service-areas/squaw-valley-ca/",
+    "/service-areas/squaw-valley-ca/indoor-air-quality-testing/",
+    "/service-areas/squaw-valley-ca/mold-inspection-testing/",
     "/service-areas/bakersfield-ca/litigation-support-sampling/",
     "/service-areas/centerville-ca/litigation-support-sampling/",
     "/contact/"

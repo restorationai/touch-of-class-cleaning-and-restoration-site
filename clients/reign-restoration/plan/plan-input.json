@@ -389,6 +389,11 @@
       "city": "Heath",
       "state": "TX",
       "slug": "heath-tx"
+    },
+    {
+      "city": "Farmersville",
+      "state": "TX",
+      "slug": "farmersville-tx"
     }
   ],
   "template": "restoration",

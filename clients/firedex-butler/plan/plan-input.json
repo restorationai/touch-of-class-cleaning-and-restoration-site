@@ -302,6 +302,11 @@
       "city": "Sewickley Hills",
       "state": "PA",
       "slug": "sewickley-hills-pa"
+    },
+    {
+      "city": "Allison Park",
+      "state": "PA",
+      "slug": "allison-park-pa"
     }
   ],
   "brand": {

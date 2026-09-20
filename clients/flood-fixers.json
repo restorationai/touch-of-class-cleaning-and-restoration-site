@@ -23,13 +23,13 @@
   "status": "active",
   "video_publish_mode": "public",
   "created_at": "2026-06-29T20:08:03.446673+00:00",
-  "updated_at": "2026-09-20T18:58:47.164634+00:00",
+  "updated_at": "2026-09-20T19:36:58.259625+00:00",
   "plan_status": "planned",
   "plan": {
     "template": "restoration",
     "template_version": "0.3.0",
-    "url_count": 201,
-    "generated_at": "2026-09-20T18:58:47.164626+00:00"
+    "url_count": 209,
+    "generated_at": "2026-09-20T19:36:58.259620+00:00"
   },
   "build": {
     "scaffolded_at": "2026-06-29T20:29:55.195141+00:00",

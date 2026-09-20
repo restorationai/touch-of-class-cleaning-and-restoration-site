@@ -1,20 +1,20 @@
 # Site Plan Report — RestorationXpress 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T18:59:17.534953+00:00
+- Generated: 2026-09-20T19:37:24.374114+00:00
 - Domain: `restorationxpress.com`
 - Services selected: 7 of 65 catalog entries
-- Service areas: 17
+- Service areas: 18
 - Cross-product enabled: True
-- Total URLs: **156**
-- Total internal links: 1219 (avg 7.8 per page)
+- Total URLs: **164**
+- Total internal links: 1282 (avg 7.8 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 112 |
-| `service-area` | 16 |
+| `service-area-service` | 119 |
+| `service-area` | 17 |
 | `blog-post` | 12 |
 | `service-landing` | 7 |
 | `legal` | 3 |
@@ -54,6 +54,7 @@
 - `lauderdale-lakes-fl` — Lauderdale Lakes, FL
 - `southwest-ranches-fl` — Southwest Ranches, FL
 - `oakland-park-fl` — Oakland Park, FL
+- `country-club-fl` — Country Club, FL
 
 ## Top 10 priority pages
 

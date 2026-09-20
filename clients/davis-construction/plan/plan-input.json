@@ -129,6 +129,11 @@
       "city": "Owens Cross Roads",
       "state": "AL",
       "slug": "owens-cross-roads-al"
+    },
+    {
+      "city": "Triana",
+      "state": "AL",
+      "slug": "triana-al"
     }
   ],
   "brand": {

@@ -120,6 +120,11 @@
       "city": "Sandy",
       "state": "UT",
       "slug": "sandy-ut"
+    },
+    {
+      "city": "Herriman",
+      "state": "UT",
+      "slug": "herriman-ut"
     }
   ],
   "template": "restoration",

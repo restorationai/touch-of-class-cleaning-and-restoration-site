@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-20T18:59:08.467197+00:00",
+  "generated_at": "2026-09-20T19:37:16.500766+00:00",
   "input_summary": {
     "service_count": 13,
-    "service_area_count": 16,
+    "service_area_count": 17,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -59,6 +59,7 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/enterprise-nv/",
         "/service-areas/henderson-nv/",
+        "/service-areas/indian-springs-nv/",
         "/service-areas/moapa-town-nv/",
         "/service-areas/mount-charleston-nv/",
         "/service-areas/nelson-nv/",
@@ -150,6 +151,7 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/enterprise-nv/",
         "/service-areas/henderson-nv/",
+        "/service-areas/indian-springs-nv/",
         "/service-areas/moapa-town-nv/",
         "/service-areas/mount-charleston-nv/",
         "/service-areas/nelson-nv/",
@@ -310,6 +312,7 @@
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
         "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/service-areas/henderson-nv/fire-damage-restoration/",
+        "/service-areas/indian-springs-nv/fire-damage-restoration/",
         "/service-areas/moapa-town-nv/fire-damage-restoration/",
         "/service-areas/mount-charleston-nv/fire-damage-restoration/",
         "/service-areas/nelson-nv/fire-damage-restoration/",
@@ -317,7 +320,6 @@
         "/service-areas/paradise-nv/fire-damage-restoration/",
         "/service-areas/sandy-valley-nv/fire-damage-restoration/",
         "/service-areas/spring-valley-nv/fire-damage-restoration/",
-        "/service-areas/summerlin-south-nv/fire-damage-restoration/",
         "/blog/choosing-a-restoration-company/",
         "/blog/fire-damage-restoration-process/",
         "/blog/smoke-odor-removal-techniques/"
@@ -363,6 +365,7 @@
         "/service-areas/boulder-city-nv/mold-remediation/",
         "/service-areas/enterprise-nv/mold-remediation/",
         "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/indian-springs-nv/mold-remediation/",
         "/service-areas/moapa-town-nv/mold-remediation/",
         "/service-areas/mount-charleston-nv/mold-remediation/",
         "/service-areas/nelson-nv/mold-remediation/",
@@ -370,7 +373,6 @@
         "/service-areas/paradise-nv/mold-remediation/",
         "/service-areas/sandy-valley-nv/mold-remediation/",
         "/service-areas/spring-valley-nv/mold-remediation/",
-        "/service-areas/summerlin-south-nv/mold-remediation/",
         "/blog/choosing-a-restoration-company/",
         "/blog/how-to-test-for-mold/",
         "/blog/signs-of-hidden-mold/"
@@ -416,6 +418,7 @@
         "/service-areas/boulder-city-nv/water-damage-restoration/",
         "/service-areas/enterprise-nv/water-damage-restoration/",
         "/service-areas/henderson-nv/water-damage-restoration/",
+        "/service-areas/indian-springs-nv/water-damage-restoration/",
         "/service-areas/moapa-town-nv/water-damage-restoration/",
         "/service-areas/mount-charleston-nv/water-damage-restoration/",
         "/service-areas/nelson-nv/water-damage-restoration/",
@@ -423,7 +426,6 @@
         "/service-areas/paradise-nv/water-damage-restoration/",
         "/service-areas/sandy-valley-nv/water-damage-restoration/",
         "/service-areas/spring-valley-nv/water-damage-restoration/",
-        "/service-areas/summerlin-south-nv/water-damage-restoration/",
         "/services/water-cleanup/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
@@ -470,6 +472,7 @@
         "/service-areas/boulder-city-nv/sewage-cleanup/",
         "/service-areas/enterprise-nv/sewage-cleanup/",
         "/service-areas/henderson-nv/sewage-cleanup/",
+        "/service-areas/indian-springs-nv/sewage-cleanup/",
         "/service-areas/moapa-town-nv/sewage-cleanup/",
         "/service-areas/mount-charleston-nv/sewage-cleanup/",
         "/service-areas/nelson-nv/sewage-cleanup/",
@@ -477,7 +480,6 @@
         "/service-areas/paradise-nv/sewage-cleanup/",
         "/service-areas/sandy-valley-nv/sewage-cleanup/",
         "/service-areas/spring-valley-nv/sewage-cleanup/",
-        "/service-areas/summerlin-south-nv/sewage-cleanup/",
         "/blog/sewage-backup-health-risks/"
       ]
     },
@@ -521,14 +523,14 @@
         "/service-areas/boulder-city-nv/biohazard-cleanup/",
         "/service-areas/enterprise-nv/biohazard-cleanup/",
         "/service-areas/henderson-nv/biohazard-cleanup/",
+        "/service-areas/indian-springs-nv/biohazard-cleanup/",
         "/service-areas/moapa-town-nv/biohazard-cleanup/",
         "/service-areas/mount-charleston-nv/biohazard-cleanup/",
         "/service-areas/nelson-nv/biohazard-cleanup/",
         "/service-areas/north-las-vegas-nv/biohazard-cleanup/",
         "/service-areas/paradise-nv/biohazard-cleanup/",
         "/service-areas/sandy-valley-nv/biohazard-cleanup/",
-        "/service-areas/spring-valley-nv/biohazard-cleanup/",
-        "/service-areas/summerlin-south-nv/biohazard-cleanup/"
+        "/service-areas/spring-valley-nv/biohazard-cleanup/"
       ]
     },
     {
@@ -565,14 +567,14 @@
         "/service-areas/boulder-city-nv/burst-frozen-pipes/",
         "/service-areas/enterprise-nv/burst-frozen-pipes/",
         "/service-areas/henderson-nv/burst-frozen-pipes/",
+        "/service-areas/indian-springs-nv/burst-frozen-pipes/",
         "/service-areas/moapa-town-nv/burst-frozen-pipes/",
         "/service-areas/mount-charleston-nv/burst-frozen-pipes/",
         "/service-areas/nelson-nv/burst-frozen-pipes/",
         "/service-areas/north-las-vegas-nv/burst-frozen-pipes/",
         "/service-areas/paradise-nv/burst-frozen-pipes/",
         "/service-areas/sandy-valley-nv/burst-frozen-pipes/",
-        "/service-areas/spring-valley-nv/burst-frozen-pipes/",
-        "/service-areas/summerlin-south-nv/burst-frozen-pipes/"
+        "/service-areas/spring-valley-nv/burst-frozen-pipes/"
       ]
     },
     {
@@ -609,14 +611,14 @@
         "/service-areas/boulder-city-nv/commercial-fire-restoration/",
         "/service-areas/enterprise-nv/commercial-fire-restoration/",
         "/service-areas/henderson-nv/commercial-fire-restoration/",
+        "/service-areas/indian-springs-nv/commercial-fire-restoration/",
         "/service-areas/moapa-town-nv/commercial-fire-restoration/",
         "/service-areas/mount-charleston-nv/commercial-fire-restoration/",
         "/service-areas/nelson-nv/commercial-fire-restoration/",
         "/service-areas/north-las-vegas-nv/commercial-fire-restoration/",
         "/service-areas/paradise-nv/commercial-fire-restoration/",
         "/service-areas/sandy-valley-nv/commercial-fire-restoration/",
-        "/service-areas/spring-valley-nv/commercial-fire-restoration/",
-        "/service-areas/summerlin-south-nv/commercial-fire-restoration/"
+        "/service-areas/spring-valley-nv/commercial-fire-restoration/"
       ]
     },
     {
@@ -653,14 +655,14 @@
         "/service-areas/boulder-city-nv/contents-restoration-storage/",
         "/service-areas/enterprise-nv/contents-restoration-storage/",
         "/service-areas/henderson-nv/contents-restoration-storage/",
+        "/service-areas/indian-springs-nv/contents-restoration-storage/",
         "/service-areas/moapa-town-nv/contents-restoration-storage/",
         "/service-areas/mount-charleston-nv/contents-restoration-storage/",
         "/service-areas/nelson-nv/contents-restoration-storage/",
         "/service-areas/north-las-vegas-nv/contents-restoration-storage/",
         "/service-areas/paradise-nv/contents-restoration-storage/",
         "/service-areas/sandy-valley-nv/contents-restoration-storage/",
-        "/service-areas/spring-valley-nv/contents-restoration-storage/",
-        "/service-areas/summerlin-south-nv/contents-restoration-storage/"
+        "/service-areas/spring-valley-nv/contents-restoration-storage/"
       ]
     },
     {
@@ -703,6 +705,7 @@
         "/service-areas/boulder-city-nv/water-cleanup/",
         "/service-areas/enterprise-nv/water-cleanup/",
         "/service-areas/henderson-nv/water-cleanup/",
+        "/service-areas/indian-springs-nv/water-cleanup/",
         "/service-areas/moapa-town-nv/water-cleanup/",
         "/service-areas/mount-charleston-nv/water-cleanup/",
         "/service-areas/nelson-nv/water-cleanup/",
@@ -710,7 +713,6 @@
         "/service-areas/paradise-nv/water-cleanup/",
         "/service-areas/sandy-valley-nv/water-cleanup/",
         "/service-areas/spring-valley-nv/water-cleanup/",
-        "/service-areas/summerlin-south-nv/water-cleanup/",
         "/services/water-damage-restoration/"
       ]
     },
@@ -754,14 +756,14 @@
         "/service-areas/boulder-city-nv/commercial-restoration/",
         "/service-areas/enterprise-nv/commercial-restoration/",
         "/service-areas/henderson-nv/commercial-restoration/",
+        "/service-areas/indian-springs-nv/commercial-restoration/",
         "/service-areas/moapa-town-nv/commercial-restoration/",
         "/service-areas/mount-charleston-nv/commercial-restoration/",
         "/service-areas/nelson-nv/commercial-restoration/",
         "/service-areas/north-las-vegas-nv/commercial-restoration/",
         "/service-areas/paradise-nv/commercial-restoration/",
         "/service-areas/sandy-valley-nv/commercial-restoration/",
-        "/service-areas/spring-valley-nv/commercial-restoration/",
-        "/service-areas/summerlin-south-nv/commercial-restoration/"
+        "/service-areas/spring-valley-nv/commercial-restoration/"
       ]
     },
     {
@@ -798,14 +800,14 @@
         "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
         "/service-areas/enterprise-nv/contents-restoration-pack-out/",
         "/service-areas/henderson-nv/contents-restoration-pack-out/",
+        "/service-areas/indian-springs-nv/contents-restoration-pack-out/",
         "/service-areas/moapa-town-nv/contents-restoration-pack-out/",
         "/service-areas/mount-charleston-nv/contents-restoration-pack-out/",
         "/service-areas/nelson-nv/contents-restoration-pack-out/",
         "/service-areas/north-las-vegas-nv/contents-restoration-pack-out/",
         "/service-areas/paradise-nv/contents-restoration-pack-out/",
         "/service-areas/sandy-valley-nv/contents-restoration-pack-out/",
-        "/service-areas/spring-valley-nv/contents-restoration-pack-out/",
-        "/service-areas/summerlin-south-nv/contents-restoration-pack-out/"
+        "/service-areas/spring-valley-nv/contents-restoration-pack-out/"
       ]
     },
     {
@@ -848,6 +850,7 @@
         "/service-areas/boulder-city-nv/mold-inspection-testing/",
         "/service-areas/enterprise-nv/mold-inspection-testing/",
         "/service-areas/henderson-nv/mold-inspection-testing/",
+        "/service-areas/indian-springs-nv/mold-inspection-testing/",
         "/service-areas/moapa-town-nv/mold-inspection-testing/",
         "/service-areas/mount-charleston-nv/mold-inspection-testing/",
         "/service-areas/nelson-nv/mold-inspection-testing/",
@@ -855,7 +858,6 @@
         "/service-areas/paradise-nv/mold-inspection-testing/",
         "/service-areas/sandy-valley-nv/mold-inspection-testing/",
         "/service-areas/spring-valley-nv/mold-inspection-testing/",
-        "/service-areas/summerlin-south-nv/mold-inspection-testing/",
         "/blog/how-to-test-for-mold/"
       ]
     },
@@ -893,14 +895,14 @@
         "/service-areas/boulder-city-nv/basement-flood-cleanup/",
         "/service-areas/enterprise-nv/basement-flood-cleanup/",
         "/service-areas/henderson-nv/basement-flood-cleanup/",
+        "/service-areas/indian-springs-nv/basement-flood-cleanup/",
         "/service-areas/moapa-town-nv/basement-flood-cleanup/",
         "/service-areas/mount-charleston-nv/basement-flood-cleanup/",
         "/service-areas/nelson-nv/basement-flood-cleanup/",
         "/service-areas/north-las-vegas-nv/basement-flood-cleanup/",
         "/service-areas/paradise-nv/basement-flood-cleanup/",
         "/service-areas/sandy-valley-nv/basement-flood-cleanup/",
-        "/service-areas/spring-valley-nv/basement-flood-cleanup/",
-        "/service-areas/summerlin-south-nv/basement-flood-cleanup/"
+        "/service-areas/spring-valley-nv/basement-flood-cleanup/"
       ]
     },
     {
@@ -1648,6 +1650,56 @@
         "/service-areas/moapa-town-nv/commercial-fire-restoration/",
         "/service-areas/moapa-town-nv/contents-restoration-pack-out/",
         "/service-areas/moapa-town-nv/contents-restoration-storage/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/enterprise-nv/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/indian-springs-nv/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Indian Springs, NV | PuroClean of East Las Vegas",
+      "h1": "Restoration Services in Indian Springs",
+      "meta_description": "Serving Indian Springs, NV with water, fire, mold, and storm damage restoration. Experienced team. Call +17025513040.",
+      "primary_keyword": "restoration services indian springs",
+      "secondary_keywords": [
+        "indian springs restoration company",
+        "damage restoration indian springs",
+        "indian springs disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/indian-springs-nv/fire-damage-restoration/",
+        "/service-areas/indian-springs-nv/mold-remediation/",
+        "/service-areas/indian-springs-nv/water-damage-restoration/",
+        "/service-areas/indian-springs-nv/commercial-restoration/",
+        "/service-areas/indian-springs-nv/sewage-cleanup/",
+        "/service-areas/indian-springs-nv/water-cleanup/",
+        "/service-areas/indian-springs-nv/biohazard-cleanup/",
+        "/service-areas/indian-springs-nv/mold-inspection-testing/",
+        "/service-areas/indian-springs-nv/basement-flood-cleanup/",
+        "/service-areas/indian-springs-nv/burst-frozen-pipes/",
+        "/service-areas/indian-springs-nv/commercial-fire-restoration/",
+        "/service-areas/indian-springs-nv/contents-restoration-pack-out/",
+        "/service-areas/indian-springs-nv/contents-restoration-storage/",
         "/service-areas/blue-diamond-nv/",
         "/service-areas/boulder-city-nv/",
         "/service-areas/enterprise-nv/"
@@ -9778,6 +9830,548 @@
         "/service-areas/moapa-town-nv/",
         "/service-areas/moapa-town-nv/fire-damage-restoration/",
         "/service-areas/moapa-town-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/basement-flood-cleanup/",
+        "/service-areas/boulder-city-nv/basement-flood-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/indian-springs-nv/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Indian Springs, NV | PuroClean of East Las Vegas",
+      "h1": "Fire Damage Restoration in Indian Springs",
+      "meta_description": "Fire damage restoration in Indian Springs, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "fire damage restoration indian springs",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/indian-springs-nv/",
+        "/service-areas/indian-springs-nv/mold-remediation/",
+        "/service-areas/indian-springs-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/indian-springs-nv/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Indian Springs, NV | PuroClean of East Las Vegas",
+      "h1": "Mold Remediation in Indian Springs",
+      "meta_description": "Mold remediation in Indian Springs, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "mold remediation indian springs",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/indian-springs-nv/",
+        "/service-areas/indian-springs-nv/fire-damage-restoration/",
+        "/service-areas/indian-springs-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/indian-springs-nv/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Indian Springs, NV | PuroClean of East Las Vegas",
+      "h1": "Water Damage Restoration in Indian Springs",
+      "meta_description": "Water damage restoration in Indian Springs, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "water damage restoration indian springs",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/indian-springs-nv/",
+        "/service-areas/indian-springs-nv/fire-damage-restoration/",
+        "/service-areas/indian-springs-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/indian-springs-nv/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Indian Springs, NV | PuroClean of East Las Vegas",
+      "h1": "Sewage Cleanup and Sanitization in Indian Springs",
+      "meta_description": "Sewage cleanup and sanitization in Indian Springs, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "sewage cleanup and sanitization indian springs",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/indian-springs-nv/",
+        "/service-areas/indian-springs-nv/fire-damage-restoration/",
+        "/service-areas/indian-springs-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
+        "/service-areas/boulder-city-nv/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/indian-springs-nv/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Indian Springs, NV | PuroClean of East Las Vegas",
+      "h1": "Biohazard Cleanup in Indian Springs",
+      "meta_description": "Biohazard cleanup in Indian Springs, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "biohazard cleanup indian springs",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/indian-springs-nv/",
+        "/service-areas/indian-springs-nv/fire-damage-restoration/",
+        "/service-areas/indian-springs-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
+        "/service-areas/boulder-city-nv/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/indian-springs-nv/burst-frozen-pipes/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst & Frozen Pipes in Indian Springs, NV | PuroClean of East Las Vegas",
+      "h1": "Burst & Frozen Pipes in Indian Springs",
+      "meta_description": "Burst & frozen pipes in Indian Springs, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "burst & frozen pipes indian springs",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-frozen-pipes/",
+        "/service-areas/indian-springs-nv/",
+        "/service-areas/indian-springs-nv/fire-damage-restoration/",
+        "/service-areas/indian-springs-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/burst-frozen-pipes/",
+        "/service-areas/boulder-city-nv/burst-frozen-pipes/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/indian-springs-nv/commercial-fire-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Commercial Fire Restoration in Indian Springs, NV | PuroClean of East Las Vegas",
+      "h1": "Commercial Fire Restoration in Indian Springs",
+      "meta_description": "Commercial fire restoration in Indian Springs, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "commercial fire restoration indian springs",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/commercial-fire-restoration/",
+        "/service-areas/indian-springs-nv/",
+        "/service-areas/indian-springs-nv/fire-damage-restoration/",
+        "/service-areas/indian-springs-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/commercial-fire-restoration/",
+        "/service-areas/boulder-city-nv/commercial-fire-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/indian-springs-nv/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Indian Springs, NV | PuroClean of East Las Vegas",
+      "h1": "Contents Restoration & Storage in Indian Springs",
+      "meta_description": "Contents restoration & storage in Indian Springs, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "contents restoration & storage indian springs",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/indian-springs-nv/",
+        "/service-areas/indian-springs-nv/fire-damage-restoration/",
+        "/service-areas/indian-springs-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
+        "/service-areas/boulder-city-nv/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/indian-springs-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Indian Springs, NV | PuroClean of East Las Vegas",
+      "h1": "Water Cleanup in Indian Springs",
+      "meta_description": "Water cleanup in Indian Springs, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "emergency water cleanup indian springs",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/indian-springs-nv/",
+        "/service-areas/indian-springs-nv/fire-damage-restoration/",
+        "/service-areas/indian-springs-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/indian-springs-nv/commercial-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Commercial Restoration in Indian Springs, NV | PuroClean of East Las Vegas",
+      "h1": "Commercial Restoration in Indian Springs",
+      "meta_description": "Commercial restoration in Indian Springs, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "commercial restoration indian springs",
+      "secondary_keywords": [
+        "commercial water damage",
+        "commercial fire damage",
+        "business restoration",
+        "office restoration",
+        "retail restoration"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/commercial-restoration/",
+        "/service-areas/indian-springs-nv/",
+        "/service-areas/indian-springs-nv/fire-damage-restoration/",
+        "/service-areas/indian-springs-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/commercial-restoration/",
+        "/service-areas/boulder-city-nv/commercial-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/indian-springs-nv/contents-restoration-pack-out/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Pack-Out in Indian Springs, NV | PuroClean of East Las Vegas",
+      "h1": "Contents Restoration & Pack-Out in Indian Springs",
+      "meta_description": "Contents restoration & pack-out in Indian Springs, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "contents restoration & pack-out indian springs",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-pack-out/",
+        "/service-areas/indian-springs-nv/",
+        "/service-areas/indian-springs-nv/fire-damage-restoration/",
+        "/service-areas/indian-springs-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
+        "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/indian-springs-nv/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Indian Springs, NV | PuroClean of East Las Vegas",
+      "h1": "Mold Inspection and Testing in Indian Springs",
+      "meta_description": "Mold inspection and testing in Indian Springs, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "mold inspection and testing indian springs",
+      "secondary_keywords": [
+        "mold inspection",
+        "mold testing",
+        "indoor air quality testing",
+        "mold spore testing",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/indian-springs-nv/",
+        "/service-areas/indian-springs-nv/fire-damage-restoration/",
+        "/service-areas/indian-springs-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/mold-inspection-testing/",
+        "/service-areas/boulder-city-nv/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/indian-springs-nv/basement-flood-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flood Cleanup in Indian Springs, NV | PuroClean of East Las Vegas",
+      "h1": "Basement Flood Cleanup in Indian Springs",
+      "meta_description": "Basement flood cleanup in Indian Springs, NV. Insurance billing accepted. Call +17025513040.",
+      "primary_keyword": "basement flood cleanup indian springs",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flood-cleanup/",
+        "/service-areas/indian-springs-nv/",
+        "/service-areas/indian-springs-nv/fire-damage-restoration/",
+        "/service-areas/indian-springs-nv/mold-remediation/",
         "/service-areas/blue-diamond-nv/basement-flood-cleanup/",
         "/service-areas/boulder-city-nv/basement-flood-cleanup/",
         "/contact/"

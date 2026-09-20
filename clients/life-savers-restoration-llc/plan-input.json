@@ -130,6 +130,11 @@
       "city": "Searchlight",
       "state": "NV",
       "slug": "searchlight-nv"
+    },
+    {
+      "city": "Cal-Nev-Ari",
+      "state": "NV",
+      "slug": "cal-nev-ari-nv"
     }
   ],
   "template": "restoration",

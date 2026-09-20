@@ -254,6 +254,11 @@
       "city": "Buttonwillow",
       "state": "CA",
       "slug": "buttonwillow-ca"
+    },
+    {
+      "city": "McFarland",
+      "state": "CA",
+      "slug": "mcfarland-ca"
     }
   ],
   "brand": {

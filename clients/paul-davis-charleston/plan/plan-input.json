@@ -77,6 +77,11 @@
       "city": "Hollywood",
       "state": "SC",
       "slug": "hollywood-sc"
+    },
+    {
+      "city": "Ravenel",
+      "state": "SC",
+      "slug": "ravenel-sc"
     }
   ]
 }

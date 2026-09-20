@@ -148,6 +148,11 @@
       "city": "Ivanhoe",
       "state": "CA",
       "slug": "ivanhoe-ca"
+    },
+    {
+      "city": "Squaw Valley",
+      "state": "CA",
+      "slug": "squaw-valley-ca"
     }
   ],
   "template": "environmental",

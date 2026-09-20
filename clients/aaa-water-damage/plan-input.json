@@ -383,6 +383,11 @@
       "city": "East Kapolei",
       "state": "HI",
       "slug": "east-kapolei-hi"
+    },
+    {
+      "city": "Waiahole-Waikane",
+      "state": "HI",
+      "slug": "waiahole-waikane-hi"
     }
   ],
   "brand": {

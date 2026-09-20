@@ -1,20 +1,20 @@
 # Site Plan Report — Desert Valley Contracting Inc 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T18:59:12.238079+00:00
+- Generated: 2026-09-20T19:37:19.893944+00:00
 - Domain: `desertvalleycontracting.net`
 - Services selected: 9 of 65 catalog entries
-- Service areas: 12
+- Service areas: 13
 - Cross-product enabled: True
-- Total URLs: **136**
-- Total internal links: 1075 (avg 7.9 per page)
+- Total URLs: **146**
+- Total internal links: 1163 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 99 |
-| `service-area` | 11 |
+| `service-area-service` | 108 |
+| `service-area` | 12 |
 | `service-landing` | 9 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -51,6 +51,7 @@
 - `winchester-nv` — Winchester, NV
 - `whitney-nv` — Whitney, NV
 - `summerlin-south-nv` — Summerlin South, NV
+- `blue-diamond-nv` — Blue Diamond, NV
 
 ## Top 10 priority pages
 
@@ -64,8 +65,8 @@
 | `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup north las vegas |
 | `/services/biohazard-cleanup/` | `service-landing` | 7.2 | biohazard cleanup north las vegas |
 | `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting north las vegas |
-| `/service-areas/boulder-city-nv/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration boulder city |
-| `/service-areas/boulder-city-nv/mold-remediation/` | `service-area-service` | 7.0 | mold remediation boulder city |
+| `/service-areas/blue-diamond-nv/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration blue diamond |
+| `/service-areas/blue-diamond-nv/mold-remediation/` | `service-area-service` | 7.0 | mold remediation blue diamond |
 
 ## Validation
 

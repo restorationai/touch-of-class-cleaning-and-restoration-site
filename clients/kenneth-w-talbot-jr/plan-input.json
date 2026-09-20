@@ -120,6 +120,11 @@
       "city": "Paxton",
       "state": "FL",
       "slug": "paxton-fl"
+    },
+    {
+      "city": "Laurel Hill",
+      "state": "FL",
+      "slug": "laurel-hill-fl"
     }
   ],
   "template": "restoration",

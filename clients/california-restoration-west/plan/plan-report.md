@@ -1,20 +1,20 @@
 # Site Plan Report — California Restoration West 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T18:58:35.046901+00:00
+- Generated: 2026-09-20T19:36:46.925710+00:00
 - Domain: `californiarestorationwest.com`
 - Services selected: 6 of 65 catalog entries
-- Service areas: 17
+- Service areas: 18
 - Cross-product enabled: True
-- Total URLs: **135**
-- Total internal links: 1044 (avg 7.7 per page)
+- Total URLs: **142**
+- Total internal links: 1099 (avg 7.7 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 96 |
-| `service-area` | 16 |
+| `service-area-service` | 102 |
+| `service-area` | 17 |
 | `blog-post` | 8 |
 | `service-landing` | 6 |
 | `legal` | 3 |
@@ -53,6 +53,7 @@
 - `santa-rosa-valley-ca` — Santa Rosa Valley, CA
 - `piru-ca` — Piru, CA
 - `hasley-canyon-ca` — Hasley Canyon, CA
+- `lake-sherwood-ca` — Lake Sherwood, CA
 
 ## Top 10 priority pages
 

@@ -1,20 +1,20 @@
 # Site Plan Report — Life Savers Restoration LLC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T18:59:00.978149+00:00
+- Generated: 2026-09-20T19:37:09.818878+00:00
 - Domain: `lifesaversrestorationvegas.com`
 - Services selected: 8 of 65 catalog entries
-- Service areas: 17
+- Service areas: 18
 - Cross-product enabled: True
-- Total URLs: **169**
-- Total internal links: 1335 (avg 7.9 per page)
+- Total URLs: **178**
+- Total internal links: 1406 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 128 |
-| `service-area` | 16 |
+| `service-area-service` | 136 |
+| `service-area` | 17 |
 | `service-landing` | 8 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -55,6 +55,7 @@
 - `goodsprings-nv` — Goodsprings, NV
 - `sandy-valley-nv` — Sandy Valley, NV
 - `searchlight-nv` — Searchlight, NV
+- `cal-nev-ari-nv` — Cal-Nev-Ari, NV
 
 ## Top 10 priority pages
 

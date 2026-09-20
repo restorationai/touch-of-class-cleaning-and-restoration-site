@@ -133,6 +133,11 @@
       "city": "Milford",
       "state": "MA",
       "slug": "milford-ma"
+    },
+    {
+      "city": "Marlborough",
+      "state": "MA",
+      "slug": "marlborough-ma"
     }
   ],
   "service_radius_description": "Southern New England, with crews responding across a 50 mile radius of Auburn"

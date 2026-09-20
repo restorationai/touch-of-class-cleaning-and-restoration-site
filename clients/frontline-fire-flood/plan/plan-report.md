@@ -1,20 +1,20 @@
 # Site Plan Report — Frontline Fire & Flood
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T18:58:49.102207+00:00
+- Generated: 2026-09-20T19:37:00.185970+00:00
 - Domain: `frontlinefireflood.com`
 - Services selected: 9 of 65 catalog entries
-- Service areas: 34
+- Service areas: 35
 - Cross-product enabled: True
-- Total URLs: **356**
-- Total internal links: 2822 (avg 7.9 per page)
+- Total URLs: **366**
+- Total internal links: 2901 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 297 |
-| `service-area` | 33 |
+| `service-area-service` | 306 |
+| `service-area` | 34 |
 | `service-landing` | 9 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -73,6 +73,7 @@
 - `fort-lewis-wa` — Fort Lewis, WA
 - `anderson-island-wa` — Anderson Island, WA
 - `waller-wa` — Waller, WA
+- `clover-creek-wa` — Clover Creek, WA
 
 ## Top 10 priority pages
 

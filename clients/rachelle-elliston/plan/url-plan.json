@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-20T18:59:12.229410+00:00",
+  "generated_at": "2026-09-20T19:37:19.885786+00:00",
   "input_summary": {
     "service_count": 9,
-    "service_area_count": 12,
+    "service_area_count": 13,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -53,6 +53,7 @@
         "/services/biohazard-cleanup/",
         "/services/general-contracting/",
         "/services/contents-restoration-storage/",
+        "/service-areas/blue-diamond-nv/",
         "/service-areas/boulder-city-nv/",
         "/service-areas/enterprise-nv/",
         "/service-areas/henderson-nv/",
@@ -136,6 +137,7 @@
       "status": "planned",
       "internal_links_out": [
         "/",
+        "/service-areas/blue-diamond-nv/",
         "/service-areas/boulder-city-nv/",
         "/service-areas/enterprise-nv/",
         "/service-areas/henderson-nv/",
@@ -290,6 +292,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
         "/service-areas/enterprise-nv/water-damage-restoration/",
         "/service-areas/henderson-nv/water-damage-restoration/",
@@ -343,6 +346,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
         "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/service-areas/henderson-nv/fire-damage-restoration/",
@@ -394,6 +398,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/mold-remediation/",
         "/service-areas/enterprise-nv/mold-remediation/",
         "/service-areas/henderson-nv/mold-remediation/",
@@ -446,6 +451,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/blue-diamond-nv/storm-damage-restoration/",
         "/service-areas/boulder-city-nv/storm-damage-restoration/",
         "/service-areas/enterprise-nv/storm-damage-restoration/",
         "/service-areas/henderson-nv/storm-damage-restoration/",
@@ -496,6 +502,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/blue-diamond-nv/general-contracting/",
         "/service-areas/boulder-city-nv/general-contracting/",
         "/service-areas/enterprise-nv/general-contracting/",
         "/service-areas/henderson-nv/general-contracting/",
@@ -545,6 +552,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
         "/service-areas/boulder-city-nv/sewage-cleanup/",
         "/service-areas/enterprise-nv/sewage-cleanup/",
         "/service-areas/henderson-nv/sewage-cleanup/",
@@ -594,6 +602,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
         "/service-areas/boulder-city-nv/biohazard-cleanup/",
         "/service-areas/enterprise-nv/biohazard-cleanup/",
         "/service-areas/henderson-nv/biohazard-cleanup/",
@@ -637,6 +646,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
         "/service-areas/boulder-city-nv/contents-restoration-storage/",
         "/service-areas/enterprise-nv/contents-restoration-storage/",
         "/service-areas/henderson-nv/contents-restoration-storage/",
@@ -687,6 +697,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
         "/service-areas/boulder-city-nv/water-cleanup/",
         "/service-areas/enterprise-nv/water-cleanup/",
         "/service-areas/henderson-nv/water-cleanup/",
@@ -742,9 +753,9 @@
         "/service-areas/las-vegas-nv/biohazard-cleanup/",
         "/service-areas/las-vegas-nv/general-contracting/",
         "/service-areas/las-vegas-nv/contents-restoration-storage/",
+        "/service-areas/blue-diamond-nv/",
         "/service-areas/boulder-city-nv/",
-        "/service-areas/enterprise-nv/",
-        "/service-areas/henderson-nv/"
+        "/service-areas/enterprise-nv/"
       ]
     },
     {
@@ -788,9 +799,9 @@
         "/service-areas/henderson-nv/biohazard-cleanup/",
         "/service-areas/henderson-nv/general-contracting/",
         "/service-areas/henderson-nv/contents-restoration-storage/",
+        "/service-areas/blue-diamond-nv/",
         "/service-areas/boulder-city-nv/",
-        "/service-areas/enterprise-nv/",
-        "/service-areas/las-vegas-nv/"
+        "/service-areas/enterprise-nv/"
       ]
     },
     {
@@ -834,9 +845,9 @@
         "/service-areas/paradise-nv/biohazard-cleanup/",
         "/service-areas/paradise-nv/general-contracting/",
         "/service-areas/paradise-nv/contents-restoration-storage/",
+        "/service-areas/blue-diamond-nv/",
         "/service-areas/boulder-city-nv/",
-        "/service-areas/enterprise-nv/",
-        "/service-areas/henderson-nv/"
+        "/service-areas/enterprise-nv/"
       ]
     },
     {
@@ -880,9 +891,9 @@
         "/service-areas/spring-valley-nv/biohazard-cleanup/",
         "/service-areas/spring-valley-nv/general-contracting/",
         "/service-areas/spring-valley-nv/contents-restoration-storage/",
+        "/service-areas/blue-diamond-nv/",
         "/service-areas/boulder-city-nv/",
-        "/service-areas/enterprise-nv/",
-        "/service-areas/henderson-nv/"
+        "/service-areas/enterprise-nv/"
       ]
     },
     {
@@ -926,9 +937,9 @@
         "/service-areas/sunrise-manor-nv/biohazard-cleanup/",
         "/service-areas/sunrise-manor-nv/general-contracting/",
         "/service-areas/sunrise-manor-nv/contents-restoration-storage/",
+        "/service-areas/blue-diamond-nv/",
         "/service-areas/boulder-city-nv/",
-        "/service-areas/enterprise-nv/",
-        "/service-areas/henderson-nv/"
+        "/service-areas/enterprise-nv/"
       ]
     },
     {
@@ -972,9 +983,9 @@
         "/service-areas/enterprise-nv/biohazard-cleanup/",
         "/service-areas/enterprise-nv/general-contracting/",
         "/service-areas/enterprise-nv/contents-restoration-storage/",
+        "/service-areas/blue-diamond-nv/",
         "/service-areas/boulder-city-nv/",
-        "/service-areas/henderson-nv/",
-        "/service-areas/las-vegas-nv/"
+        "/service-areas/henderson-nv/"
       ]
     },
     {
@@ -1018,9 +1029,9 @@
         "/service-areas/summerlin-nv/biohazard-cleanup/",
         "/service-areas/summerlin-nv/general-contracting/",
         "/service-areas/summerlin-nv/contents-restoration-storage/",
+        "/service-areas/blue-diamond-nv/",
         "/service-areas/boulder-city-nv/",
-        "/service-areas/enterprise-nv/",
-        "/service-areas/henderson-nv/"
+        "/service-areas/enterprise-nv/"
       ]
     },
     {
@@ -1064,9 +1075,9 @@
         "/service-areas/boulder-city-nv/biohazard-cleanup/",
         "/service-areas/boulder-city-nv/general-contracting/",
         "/service-areas/boulder-city-nv/contents-restoration-storage/",
+        "/service-areas/blue-diamond-nv/",
         "/service-areas/enterprise-nv/",
-        "/service-areas/henderson-nv/",
-        "/service-areas/las-vegas-nv/"
+        "/service-areas/henderson-nv/"
       ]
     },
     {
@@ -1110,9 +1121,9 @@
         "/service-areas/winchester-nv/biohazard-cleanup/",
         "/service-areas/winchester-nv/general-contracting/",
         "/service-areas/winchester-nv/contents-restoration-storage/",
+        "/service-areas/blue-diamond-nv/",
         "/service-areas/boulder-city-nv/",
-        "/service-areas/enterprise-nv/",
-        "/service-areas/henderson-nv/"
+        "/service-areas/enterprise-nv/"
       ]
     },
     {
@@ -1156,9 +1167,9 @@
         "/service-areas/whitney-nv/biohazard-cleanup/",
         "/service-areas/whitney-nv/general-contracting/",
         "/service-areas/whitney-nv/contents-restoration-storage/",
+        "/service-areas/blue-diamond-nv/",
         "/service-areas/boulder-city-nv/",
-        "/service-areas/enterprise-nv/",
-        "/service-areas/henderson-nv/"
+        "/service-areas/enterprise-nv/"
       ]
     },
     {
@@ -1202,6 +1213,52 @@
         "/service-areas/summerlin-south-nv/biohazard-cleanup/",
         "/service-areas/summerlin-south-nv/general-contracting/",
         "/service-areas/summerlin-south-nv/contents-restoration-storage/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/enterprise-nv/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Blue Diamond, NV | Desert Valley Contracting Inc ",
+      "h1": "Restoration Services in Blue Diamond",
+      "meta_description": "Serving Blue Diamond, NV with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (702) 633-5033.",
+      "primary_keyword": "restoration services blue diamond",
+      "secondary_keywords": [
+        "blue diamond restoration company",
+        "damage restoration blue diamond",
+        "blue diamond disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
+        "/service-areas/blue-diamond-nv/storm-damage-restoration/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
+        "/service-areas/blue-diamond-nv/general-contracting/",
+        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
         "/service-areas/boulder-city-nv/",
         "/service-areas/enterprise-nv/",
         "/service-areas/henderson-nv/"
@@ -1246,8 +1303,8 @@
         "/service-areas/las-vegas-nv/",
         "/service-areas/las-vegas-nv/fire-damage-restoration/",
         "/service-areas/las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
-        "/service-areas/enterprise-nv/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1290,8 +1347,8 @@
         "/service-areas/las-vegas-nv/",
         "/service-areas/las-vegas-nv/mold-remediation/",
         "/service-areas/las-vegas-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
-        "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1334,8 +1391,8 @@
         "/service-areas/las-vegas-nv/",
         "/service-areas/las-vegas-nv/fire-damage-restoration/",
         "/service-areas/las-vegas-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/enterprise-nv/mold-remediation/",
         "/contact/"
       ]
     },
@@ -1378,8 +1435,8 @@
         "/service-areas/las-vegas-nv/",
         "/service-areas/las-vegas-nv/fire-damage-restoration/",
         "/service-areas/las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/storm-damage-restoration/",
         "/service-areas/boulder-city-nv/storm-damage-restoration/",
-        "/service-areas/enterprise-nv/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1423,8 +1480,8 @@
         "/service-areas/las-vegas-nv/",
         "/service-areas/las-vegas-nv/fire-damage-restoration/",
         "/service-areas/las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/general-contracting/",
         "/service-areas/boulder-city-nv/general-contracting/",
-        "/service-areas/enterprise-nv/general-contracting/",
         "/contact/"
       ]
     },
@@ -1467,8 +1524,8 @@
         "/service-areas/las-vegas-nv/",
         "/service-areas/las-vegas-nv/fire-damage-restoration/",
         "/service-areas/las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
         "/service-areas/boulder-city-nv/sewage-cleanup/",
-        "/service-areas/enterprise-nv/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -1511,8 +1568,8 @@
         "/service-areas/las-vegas-nv/",
         "/service-areas/las-vegas-nv/fire-damage-restoration/",
         "/service-areas/las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
         "/service-areas/boulder-city-nv/biohazard-cleanup/",
-        "/service-areas/enterprise-nv/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -1549,8 +1606,8 @@
         "/service-areas/las-vegas-nv/",
         "/service-areas/las-vegas-nv/fire-damage-restoration/",
         "/service-areas/las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
         "/service-areas/boulder-city-nv/contents-restoration-storage/",
-        "/service-areas/enterprise-nv/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -1594,8 +1651,8 @@
         "/service-areas/las-vegas-nv/",
         "/service-areas/las-vegas-nv/fire-damage-restoration/",
         "/service-areas/las-vegas-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
         "/service-areas/boulder-city-nv/water-cleanup/",
-        "/service-areas/enterprise-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -1638,8 +1695,8 @@
         "/service-areas/henderson-nv/",
         "/service-areas/henderson-nv/fire-damage-restoration/",
         "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
-        "/service-areas/enterprise-nv/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1682,8 +1739,8 @@
         "/service-areas/henderson-nv/",
         "/service-areas/henderson-nv/mold-remediation/",
         "/service-areas/henderson-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
-        "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1726,8 +1783,8 @@
         "/service-areas/henderson-nv/",
         "/service-areas/henderson-nv/fire-damage-restoration/",
         "/service-areas/henderson-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/enterprise-nv/mold-remediation/",
         "/contact/"
       ]
     },
@@ -1770,8 +1827,8 @@
         "/service-areas/henderson-nv/",
         "/service-areas/henderson-nv/fire-damage-restoration/",
         "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/storm-damage-restoration/",
         "/service-areas/boulder-city-nv/storm-damage-restoration/",
-        "/service-areas/enterprise-nv/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1815,8 +1872,8 @@
         "/service-areas/henderson-nv/",
         "/service-areas/henderson-nv/fire-damage-restoration/",
         "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/general-contracting/",
         "/service-areas/boulder-city-nv/general-contracting/",
-        "/service-areas/enterprise-nv/general-contracting/",
         "/contact/"
       ]
     },
@@ -1859,8 +1916,8 @@
         "/service-areas/henderson-nv/",
         "/service-areas/henderson-nv/fire-damage-restoration/",
         "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
         "/service-areas/boulder-city-nv/sewage-cleanup/",
-        "/service-areas/enterprise-nv/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -1903,8 +1960,8 @@
         "/service-areas/henderson-nv/",
         "/service-areas/henderson-nv/fire-damage-restoration/",
         "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
         "/service-areas/boulder-city-nv/biohazard-cleanup/",
-        "/service-areas/enterprise-nv/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -1941,8 +1998,8 @@
         "/service-areas/henderson-nv/",
         "/service-areas/henderson-nv/fire-damage-restoration/",
         "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
         "/service-areas/boulder-city-nv/contents-restoration-storage/",
-        "/service-areas/enterprise-nv/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -1986,8 +2043,8 @@
         "/service-areas/henderson-nv/",
         "/service-areas/henderson-nv/fire-damage-restoration/",
         "/service-areas/henderson-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
         "/service-areas/boulder-city-nv/water-cleanup/",
-        "/service-areas/enterprise-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2030,8 +2087,8 @@
         "/service-areas/paradise-nv/",
         "/service-areas/paradise-nv/fire-damage-restoration/",
         "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
-        "/service-areas/enterprise-nv/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2074,8 +2131,8 @@
         "/service-areas/paradise-nv/",
         "/service-areas/paradise-nv/mold-remediation/",
         "/service-areas/paradise-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
-        "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2118,8 +2175,8 @@
         "/service-areas/paradise-nv/",
         "/service-areas/paradise-nv/fire-damage-restoration/",
         "/service-areas/paradise-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/enterprise-nv/mold-remediation/",
         "/contact/"
       ]
     },
@@ -2162,8 +2219,8 @@
         "/service-areas/paradise-nv/",
         "/service-areas/paradise-nv/fire-damage-restoration/",
         "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/storm-damage-restoration/",
         "/service-areas/boulder-city-nv/storm-damage-restoration/",
-        "/service-areas/enterprise-nv/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2207,8 +2264,8 @@
         "/service-areas/paradise-nv/",
         "/service-areas/paradise-nv/fire-damage-restoration/",
         "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/general-contracting/",
         "/service-areas/boulder-city-nv/general-contracting/",
-        "/service-areas/enterprise-nv/general-contracting/",
         "/contact/"
       ]
     },
@@ -2251,8 +2308,8 @@
         "/service-areas/paradise-nv/",
         "/service-areas/paradise-nv/fire-damage-restoration/",
         "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
         "/service-areas/boulder-city-nv/sewage-cleanup/",
-        "/service-areas/enterprise-nv/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -2295,8 +2352,8 @@
         "/service-areas/paradise-nv/",
         "/service-areas/paradise-nv/fire-damage-restoration/",
         "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
         "/service-areas/boulder-city-nv/biohazard-cleanup/",
-        "/service-areas/enterprise-nv/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -2333,8 +2390,8 @@
         "/service-areas/paradise-nv/",
         "/service-areas/paradise-nv/fire-damage-restoration/",
         "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
         "/service-areas/boulder-city-nv/contents-restoration-storage/",
-        "/service-areas/enterprise-nv/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -2378,8 +2435,8 @@
         "/service-areas/paradise-nv/",
         "/service-areas/paradise-nv/fire-damage-restoration/",
         "/service-areas/paradise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
         "/service-areas/boulder-city-nv/water-cleanup/",
-        "/service-areas/enterprise-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2422,8 +2479,8 @@
         "/service-areas/spring-valley-nv/",
         "/service-areas/spring-valley-nv/fire-damage-restoration/",
         "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
-        "/service-areas/enterprise-nv/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2466,8 +2523,8 @@
         "/service-areas/spring-valley-nv/",
         "/service-areas/spring-valley-nv/mold-remediation/",
         "/service-areas/spring-valley-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
-        "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2510,8 +2567,8 @@
         "/service-areas/spring-valley-nv/",
         "/service-areas/spring-valley-nv/fire-damage-restoration/",
         "/service-areas/spring-valley-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/enterprise-nv/mold-remediation/",
         "/contact/"
       ]
     },
@@ -2554,8 +2611,8 @@
         "/service-areas/spring-valley-nv/",
         "/service-areas/spring-valley-nv/fire-damage-restoration/",
         "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/storm-damage-restoration/",
         "/service-areas/boulder-city-nv/storm-damage-restoration/",
-        "/service-areas/enterprise-nv/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2599,8 +2656,8 @@
         "/service-areas/spring-valley-nv/",
         "/service-areas/spring-valley-nv/fire-damage-restoration/",
         "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/general-contracting/",
         "/service-areas/boulder-city-nv/general-contracting/",
-        "/service-areas/enterprise-nv/general-contracting/",
         "/contact/"
       ]
     },
@@ -2643,8 +2700,8 @@
         "/service-areas/spring-valley-nv/",
         "/service-areas/spring-valley-nv/fire-damage-restoration/",
         "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
         "/service-areas/boulder-city-nv/sewage-cleanup/",
-        "/service-areas/enterprise-nv/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -2687,8 +2744,8 @@
         "/service-areas/spring-valley-nv/",
         "/service-areas/spring-valley-nv/fire-damage-restoration/",
         "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
         "/service-areas/boulder-city-nv/biohazard-cleanup/",
-        "/service-areas/enterprise-nv/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -2725,8 +2782,8 @@
         "/service-areas/spring-valley-nv/",
         "/service-areas/spring-valley-nv/fire-damage-restoration/",
         "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
         "/service-areas/boulder-city-nv/contents-restoration-storage/",
-        "/service-areas/enterprise-nv/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -2770,8 +2827,8 @@
         "/service-areas/spring-valley-nv/",
         "/service-areas/spring-valley-nv/fire-damage-restoration/",
         "/service-areas/spring-valley-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
         "/service-areas/boulder-city-nv/water-cleanup/",
-        "/service-areas/enterprise-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2814,8 +2871,8 @@
         "/service-areas/sunrise-manor-nv/",
         "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
         "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
-        "/service-areas/enterprise-nv/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2858,8 +2915,8 @@
         "/service-areas/sunrise-manor-nv/",
         "/service-areas/sunrise-manor-nv/mold-remediation/",
         "/service-areas/sunrise-manor-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
-        "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2902,8 +2959,8 @@
         "/service-areas/sunrise-manor-nv/",
         "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
         "/service-areas/sunrise-manor-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/enterprise-nv/mold-remediation/",
         "/contact/"
       ]
     },
@@ -2946,8 +3003,8 @@
         "/service-areas/sunrise-manor-nv/",
         "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
         "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/storm-damage-restoration/",
         "/service-areas/boulder-city-nv/storm-damage-restoration/",
-        "/service-areas/enterprise-nv/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2991,8 +3048,8 @@
         "/service-areas/sunrise-manor-nv/",
         "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
         "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/general-contracting/",
         "/service-areas/boulder-city-nv/general-contracting/",
-        "/service-areas/enterprise-nv/general-contracting/",
         "/contact/"
       ]
     },
@@ -3035,8 +3092,8 @@
         "/service-areas/sunrise-manor-nv/",
         "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
         "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
         "/service-areas/boulder-city-nv/sewage-cleanup/",
-        "/service-areas/enterprise-nv/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -3079,8 +3136,8 @@
         "/service-areas/sunrise-manor-nv/",
         "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
         "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
         "/service-areas/boulder-city-nv/biohazard-cleanup/",
-        "/service-areas/enterprise-nv/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -3117,8 +3174,8 @@
         "/service-areas/sunrise-manor-nv/",
         "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
         "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
         "/service-areas/boulder-city-nv/contents-restoration-storage/",
-        "/service-areas/enterprise-nv/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -3162,8 +3219,8 @@
         "/service-areas/sunrise-manor-nv/",
         "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
         "/service-areas/sunrise-manor-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
         "/service-areas/boulder-city-nv/water-cleanup/",
-        "/service-areas/enterprise-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3206,8 +3263,8 @@
         "/service-areas/enterprise-nv/",
         "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
-        "/service-areas/henderson-nv/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3250,8 +3307,8 @@
         "/service-areas/enterprise-nv/",
         "/service-areas/enterprise-nv/mold-remediation/",
         "/service-areas/enterprise-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
-        "/service-areas/henderson-nv/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3294,8 +3351,8 @@
         "/service-areas/enterprise-nv/",
         "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/service-areas/enterprise-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/henderson-nv/mold-remediation/",
         "/contact/"
       ]
     },
@@ -3338,8 +3395,8 @@
         "/service-areas/enterprise-nv/",
         "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/storm-damage-restoration/",
         "/service-areas/boulder-city-nv/storm-damage-restoration/",
-        "/service-areas/henderson-nv/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3383,8 +3440,8 @@
         "/service-areas/enterprise-nv/",
         "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/general-contracting/",
         "/service-areas/boulder-city-nv/general-contracting/",
-        "/service-areas/henderson-nv/general-contracting/",
         "/contact/"
       ]
     },
@@ -3427,8 +3484,8 @@
         "/service-areas/enterprise-nv/",
         "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
         "/service-areas/boulder-city-nv/sewage-cleanup/",
-        "/service-areas/henderson-nv/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -3471,8 +3528,8 @@
         "/service-areas/enterprise-nv/",
         "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
         "/service-areas/boulder-city-nv/biohazard-cleanup/",
-        "/service-areas/henderson-nv/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -3509,8 +3566,8 @@
         "/service-areas/enterprise-nv/",
         "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
         "/service-areas/boulder-city-nv/contents-restoration-storage/",
-        "/service-areas/henderson-nv/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -3554,8 +3611,8 @@
         "/service-areas/enterprise-nv/",
         "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/service-areas/enterprise-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
         "/service-areas/boulder-city-nv/water-cleanup/",
-        "/service-areas/henderson-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3598,8 +3655,8 @@
         "/service-areas/summerlin-nv/",
         "/service-areas/summerlin-nv/fire-damage-restoration/",
         "/service-areas/summerlin-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
-        "/service-areas/enterprise-nv/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3642,8 +3699,8 @@
         "/service-areas/summerlin-nv/",
         "/service-areas/summerlin-nv/mold-remediation/",
         "/service-areas/summerlin-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
-        "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3686,8 +3743,8 @@
         "/service-areas/summerlin-nv/",
         "/service-areas/summerlin-nv/fire-damage-restoration/",
         "/service-areas/summerlin-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/enterprise-nv/mold-remediation/",
         "/contact/"
       ]
     },
@@ -3730,8 +3787,8 @@
         "/service-areas/summerlin-nv/",
         "/service-areas/summerlin-nv/fire-damage-restoration/",
         "/service-areas/summerlin-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/storm-damage-restoration/",
         "/service-areas/boulder-city-nv/storm-damage-restoration/",
-        "/service-areas/enterprise-nv/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3775,8 +3832,8 @@
         "/service-areas/summerlin-nv/",
         "/service-areas/summerlin-nv/fire-damage-restoration/",
         "/service-areas/summerlin-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/general-contracting/",
         "/service-areas/boulder-city-nv/general-contracting/",
-        "/service-areas/enterprise-nv/general-contracting/",
         "/contact/"
       ]
     },
@@ -3819,8 +3876,8 @@
         "/service-areas/summerlin-nv/",
         "/service-areas/summerlin-nv/fire-damage-restoration/",
         "/service-areas/summerlin-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
         "/service-areas/boulder-city-nv/sewage-cleanup/",
-        "/service-areas/enterprise-nv/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -3863,8 +3920,8 @@
         "/service-areas/summerlin-nv/",
         "/service-areas/summerlin-nv/fire-damage-restoration/",
         "/service-areas/summerlin-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
         "/service-areas/boulder-city-nv/biohazard-cleanup/",
-        "/service-areas/enterprise-nv/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -3901,8 +3958,8 @@
         "/service-areas/summerlin-nv/",
         "/service-areas/summerlin-nv/fire-damage-restoration/",
         "/service-areas/summerlin-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
         "/service-areas/boulder-city-nv/contents-restoration-storage/",
-        "/service-areas/enterprise-nv/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -3946,8 +4003,8 @@
         "/service-areas/summerlin-nv/",
         "/service-areas/summerlin-nv/fire-damage-restoration/",
         "/service-areas/summerlin-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
         "/service-areas/boulder-city-nv/water-cleanup/",
-        "/service-areas/enterprise-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3990,8 +4047,8 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
         "/service-areas/enterprise-nv/water-damage-restoration/",
-        "/service-areas/henderson-nv/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4034,8 +4091,8 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/boulder-city-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
         "/service-areas/enterprise-nv/fire-damage-restoration/",
-        "/service-areas/henderson-nv/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4078,8 +4135,8 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/enterprise-nv/mold-remediation/",
-        "/service-areas/henderson-nv/mold-remediation/",
         "/contact/"
       ]
     },
@@ -4122,8 +4179,8 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/storm-damage-restoration/",
         "/service-areas/enterprise-nv/storm-damage-restoration/",
-        "/service-areas/henderson-nv/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4167,8 +4224,8 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/general-contracting/",
         "/service-areas/enterprise-nv/general-contracting/",
-        "/service-areas/henderson-nv/general-contracting/",
         "/contact/"
       ]
     },
@@ -4211,8 +4268,8 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
         "/service-areas/enterprise-nv/sewage-cleanup/",
-        "/service-areas/henderson-nv/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -4255,8 +4312,8 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
         "/service-areas/enterprise-nv/biohazard-cleanup/",
-        "/service-areas/henderson-nv/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -4293,8 +4350,8 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
         "/service-areas/enterprise-nv/contents-restoration-storage/",
-        "/service-areas/henderson-nv/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -4338,8 +4395,8 @@
         "/service-areas/boulder-city-nv/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
         "/service-areas/enterprise-nv/water-cleanup/",
-        "/service-areas/henderson-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4382,8 +4439,8 @@
         "/service-areas/winchester-nv/",
         "/service-areas/winchester-nv/fire-damage-restoration/",
         "/service-areas/winchester-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
-        "/service-areas/enterprise-nv/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4426,8 +4483,8 @@
         "/service-areas/winchester-nv/",
         "/service-areas/winchester-nv/mold-remediation/",
         "/service-areas/winchester-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
-        "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4470,8 +4527,8 @@
         "/service-areas/winchester-nv/",
         "/service-areas/winchester-nv/fire-damage-restoration/",
         "/service-areas/winchester-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/enterprise-nv/mold-remediation/",
         "/contact/"
       ]
     },
@@ -4514,8 +4571,8 @@
         "/service-areas/winchester-nv/",
         "/service-areas/winchester-nv/fire-damage-restoration/",
         "/service-areas/winchester-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/storm-damage-restoration/",
         "/service-areas/boulder-city-nv/storm-damage-restoration/",
-        "/service-areas/enterprise-nv/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4559,8 +4616,8 @@
         "/service-areas/winchester-nv/",
         "/service-areas/winchester-nv/fire-damage-restoration/",
         "/service-areas/winchester-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/general-contracting/",
         "/service-areas/boulder-city-nv/general-contracting/",
-        "/service-areas/enterprise-nv/general-contracting/",
         "/contact/"
       ]
     },
@@ -4603,8 +4660,8 @@
         "/service-areas/winchester-nv/",
         "/service-areas/winchester-nv/fire-damage-restoration/",
         "/service-areas/winchester-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
         "/service-areas/boulder-city-nv/sewage-cleanup/",
-        "/service-areas/enterprise-nv/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -4647,8 +4704,8 @@
         "/service-areas/winchester-nv/",
         "/service-areas/winchester-nv/fire-damage-restoration/",
         "/service-areas/winchester-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
         "/service-areas/boulder-city-nv/biohazard-cleanup/",
-        "/service-areas/enterprise-nv/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -4685,8 +4742,8 @@
         "/service-areas/winchester-nv/",
         "/service-areas/winchester-nv/fire-damage-restoration/",
         "/service-areas/winchester-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
         "/service-areas/boulder-city-nv/contents-restoration-storage/",
-        "/service-areas/enterprise-nv/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -4730,8 +4787,8 @@
         "/service-areas/winchester-nv/",
         "/service-areas/winchester-nv/fire-damage-restoration/",
         "/service-areas/winchester-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
         "/service-areas/boulder-city-nv/water-cleanup/",
-        "/service-areas/enterprise-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4774,8 +4831,8 @@
         "/service-areas/whitney-nv/",
         "/service-areas/whitney-nv/fire-damage-restoration/",
         "/service-areas/whitney-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
-        "/service-areas/enterprise-nv/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4818,8 +4875,8 @@
         "/service-areas/whitney-nv/",
         "/service-areas/whitney-nv/mold-remediation/",
         "/service-areas/whitney-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
-        "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4862,8 +4919,8 @@
         "/service-areas/whitney-nv/",
         "/service-areas/whitney-nv/fire-damage-restoration/",
         "/service-areas/whitney-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/enterprise-nv/mold-remediation/",
         "/contact/"
       ]
     },
@@ -4906,8 +4963,8 @@
         "/service-areas/whitney-nv/",
         "/service-areas/whitney-nv/fire-damage-restoration/",
         "/service-areas/whitney-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/storm-damage-restoration/",
         "/service-areas/boulder-city-nv/storm-damage-restoration/",
-        "/service-areas/enterprise-nv/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4951,8 +5008,8 @@
         "/service-areas/whitney-nv/",
         "/service-areas/whitney-nv/fire-damage-restoration/",
         "/service-areas/whitney-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/general-contracting/",
         "/service-areas/boulder-city-nv/general-contracting/",
-        "/service-areas/enterprise-nv/general-contracting/",
         "/contact/"
       ]
     },
@@ -4995,8 +5052,8 @@
         "/service-areas/whitney-nv/",
         "/service-areas/whitney-nv/fire-damage-restoration/",
         "/service-areas/whitney-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
         "/service-areas/boulder-city-nv/sewage-cleanup/",
-        "/service-areas/enterprise-nv/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -5039,8 +5096,8 @@
         "/service-areas/whitney-nv/",
         "/service-areas/whitney-nv/fire-damage-restoration/",
         "/service-areas/whitney-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
         "/service-areas/boulder-city-nv/biohazard-cleanup/",
-        "/service-areas/enterprise-nv/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -5077,8 +5134,8 @@
         "/service-areas/whitney-nv/",
         "/service-areas/whitney-nv/fire-damage-restoration/",
         "/service-areas/whitney-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
         "/service-areas/boulder-city-nv/contents-restoration-storage/",
-        "/service-areas/enterprise-nv/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -5122,8 +5179,8 @@
         "/service-areas/whitney-nv/",
         "/service-areas/whitney-nv/fire-damage-restoration/",
         "/service-areas/whitney-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
         "/service-areas/boulder-city-nv/water-cleanup/",
-        "/service-areas/enterprise-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -5166,8 +5223,8 @@
         "/service-areas/summerlin-south-nv/",
         "/service-areas/summerlin-south-nv/fire-damage-restoration/",
         "/service-areas/summerlin-south-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
         "/service-areas/boulder-city-nv/water-damage-restoration/",
-        "/service-areas/enterprise-nv/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5210,8 +5267,8 @@
         "/service-areas/summerlin-south-nv/",
         "/service-areas/summerlin-south-nv/mold-remediation/",
         "/service-areas/summerlin-south-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
         "/service-areas/boulder-city-nv/fire-damage-restoration/",
-        "/service-areas/enterprise-nv/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5254,8 +5311,8 @@
         "/service-areas/summerlin-south-nv/",
         "/service-areas/summerlin-south-nv/fire-damage-restoration/",
         "/service-areas/summerlin-south-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/enterprise-nv/mold-remediation/",
         "/contact/"
       ]
     },
@@ -5298,8 +5355,8 @@
         "/service-areas/summerlin-south-nv/",
         "/service-areas/summerlin-south-nv/fire-damage-restoration/",
         "/service-areas/summerlin-south-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/storm-damage-restoration/",
         "/service-areas/boulder-city-nv/storm-damage-restoration/",
-        "/service-areas/enterprise-nv/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5343,8 +5400,8 @@
         "/service-areas/summerlin-south-nv/",
         "/service-areas/summerlin-south-nv/fire-damage-restoration/",
         "/service-areas/summerlin-south-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/general-contracting/",
         "/service-areas/boulder-city-nv/general-contracting/",
-        "/service-areas/enterprise-nv/general-contracting/",
         "/contact/"
       ]
     },
@@ -5387,8 +5444,8 @@
         "/service-areas/summerlin-south-nv/",
         "/service-areas/summerlin-south-nv/fire-damage-restoration/",
         "/service-areas/summerlin-south-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
         "/service-areas/boulder-city-nv/sewage-cleanup/",
-        "/service-areas/enterprise-nv/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -5431,8 +5488,8 @@
         "/service-areas/summerlin-south-nv/",
         "/service-areas/summerlin-south-nv/fire-damage-restoration/",
         "/service-areas/summerlin-south-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
         "/service-areas/boulder-city-nv/biohazard-cleanup/",
-        "/service-areas/enterprise-nv/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -5469,8 +5526,8 @@
         "/service-areas/summerlin-south-nv/",
         "/service-areas/summerlin-south-nv/fire-damage-restoration/",
         "/service-areas/summerlin-south-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
         "/service-areas/boulder-city-nv/contents-restoration-storage/",
-        "/service-areas/enterprise-nv/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -5514,6 +5571,398 @@
         "/service-areas/summerlin-south-nv/",
         "/service-areas/summerlin-south-nv/fire-damage-restoration/",
         "/service-areas/summerlin-south-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Blue Diamond, NV | Desert Valley Contracting Inc ",
+      "h1": "Water Damage Restoration in Blue Diamond",
+      "meta_description": "24/7 water damage restoration in Blue Diamond, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "water damage restoration blue diamond",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/service-areas/enterprise-nv/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Blue Diamond, NV | Desert Valley Contracting Inc ",
+      "h1": "Fire Damage Restoration in Blue Diamond",
+      "meta_description": "24/7 fire damage restoration in Blue Diamond, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "fire damage restoration blue diamond",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/service-areas/enterprise-nv/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Blue Diamond, NV | Desert Valley Contracting Inc ",
+      "h1": "Mold Remediation in Blue Diamond",
+      "meta_description": "24/7 mold remediation in Blue Diamond, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "mold remediation blue diamond",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/service-areas/enterprise-nv/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Blue Diamond, NV | Desert Valley Contracting Inc ",
+      "h1": "Storm Damage Restoration in Blue Diamond",
+      "meta_description": "24/7 storm damage restoration in Blue Diamond, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "storm damage restoration blue diamond",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/storm-damage-restoration/",
+        "/service-areas/enterprise-nv/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Blue Diamond, NV | Desert Valley Contracting Inc ",
+      "h1": "Renovations, Remodels and General Contracting in Blue Diamond",
+      "meta_description": "24/7 renovations, remodels and general contracting in Blue Diamond, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "renovations, remodels and general contracting blue diamond",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/general-contracting/",
+        "/service-areas/enterprise-nv/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Blue Diamond, NV | Desert Valley Contracting Inc ",
+      "h1": "Sewage Cleanup and Sanitization in Blue Diamond",
+      "meta_description": "24/7 sewage cleanup and sanitization in Blue Diamond, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "sewage cleanup and sanitization blue diamond",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/sewage-cleanup/",
+        "/service-areas/enterprise-nv/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Blue Diamond, NV | Desert Valley Contracting Inc ",
+      "h1": "Biohazard Cleanup in Blue Diamond",
+      "meta_description": "24/7 biohazard cleanup in Blue Diamond, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "biohazard cleanup blue diamond",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/biohazard-cleanup/",
+        "/service-areas/enterprise-nv/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Blue Diamond, NV | Desert Valley Contracting Inc ",
+      "h1": "Contents Restoration & Storage in Blue Diamond",
+      "meta_description": "24/7 contents restoration & storage in Blue Diamond, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "contents restoration & storage blue diamond",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/contents-restoration-storage/",
+        "/service-areas/enterprise-nv/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/blue-diamond-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Blue Diamond, NV | Desert Valley Contracting Inc ",
+      "h1": "Emergency Water Cleanup in Blue Diamond",
+      "meta_description": "24/7 emergency water cleanup in Blue Diamond, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
+      "primary_keyword": "emergency water cleanup blue diamond",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/water-cleanup/",
         "/service-areas/enterprise-nv/water-cleanup/",
         "/contact/"

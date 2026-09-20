@@ -131,6 +131,11 @@
       "city": "Trabuco Canyon",
       "state": "CA",
       "slug": "trabuco-canyon-ca"
+    },
+    {
+      "city": "North Tustin",
+      "state": "CA",
+      "slug": "north-tustin-ca"
     }
   ],
   "template": "restoration",

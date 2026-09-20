@@ -1,20 +1,20 @@
 # Site Plan Report — Dry County Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T18:58:42.266651+00:00
+- Generated: 2026-09-20T19:36:53.962336+00:00
 - Domain: `drycountyrestoration.com`
 - Services selected: 12 of 65 catalog entries
-- Service areas: 17
+- Service areas: 18
 - Cross-product enabled: True
-- Total URLs: **237**
-- Total internal links: 1911 (avg 8.1 per page)
+- Total URLs: **250**
+- Total internal links: 2014 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 192 |
-| `service-area` | 16 |
+| `service-area-service` | 204 |
+| `service-area` | 17 |
 | `service-landing` | 12 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -59,6 +59,7 @@
 - `lake-mathews-ca` — Lake Mathews, CA
 - `woodcrest-ca` — Woodcrest, CA
 - `trabuco-canyon-ca` — Trabuco Canyon, CA
+- `north-tustin-ca` — North Tustin, CA
 
 ## Top 10 priority pages
 

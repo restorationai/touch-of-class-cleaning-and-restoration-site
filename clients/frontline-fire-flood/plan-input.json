@@ -218,6 +218,11 @@
       "city": "Waller",
       "state": "WA",
       "slug": "waller-wa"
+    },
+    {
+      "city": "Clover Creek",
+      "state": "WA",
+      "slug": "clover-creek-wa"
     }
   ],
   "template": "restoration",

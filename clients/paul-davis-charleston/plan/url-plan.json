@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-20T18:59:04.973007+00:00",
+  "generated_at": "2026-09-20T19:37:13.464090+00:00",
   "input_summary": {
     "service_count": 4,
-    "service_area_count": 13,
+    "service_area_count": 14,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -56,6 +56,7 @@
         "/service-areas/ladson-sc/",
         "/service-areas/mount-pleasant-sc/",
         "/service-areas/north-charleston-sc/",
+        "/service-areas/ravenel-sc/",
         "/service-areas/sullivan-s-island-sc/",
         "/service-areas/summerville-sc/"
       ]
@@ -135,6 +136,7 @@
         "/service-areas/ladson-sc/",
         "/service-areas/mount-pleasant-sc/",
         "/service-areas/north-charleston-sc/",
+        "/service-areas/ravenel-sc/",
         "/service-areas/sullivan-s-island-sc/",
         "/service-areas/summerville-sc/"
       ]
@@ -292,8 +294,8 @@
         "/service-areas/ladson-sc/water-damage-restoration/",
         "/service-areas/mount-pleasant-sc/water-damage-restoration/",
         "/service-areas/north-charleston-sc/water-damage-restoration/",
+        "/service-areas/ravenel-sc/water-damage-restoration/",
         "/service-areas/sullivan-s-island-sc/water-damage-restoration/",
-        "/service-areas/summerville-sc/water-damage-restoration/",
         "/services/water-cleanup/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
@@ -346,8 +348,8 @@
         "/service-areas/ladson-sc/fire-damage-restoration/",
         "/service-areas/mount-pleasant-sc/fire-damage-restoration/",
         "/service-areas/north-charleston-sc/fire-damage-restoration/",
+        "/service-areas/ravenel-sc/fire-damage-restoration/",
         "/service-areas/sullivan-s-island-sc/fire-damage-restoration/",
-        "/service-areas/summerville-sc/fire-damage-restoration/",
         "/blog/choosing-a-restoration-company/",
         "/blog/fire-damage-restoration-process/",
         "/blog/smoke-odor-removal-techniques/"
@@ -399,8 +401,8 @@
         "/service-areas/ladson-sc/mold-remediation/",
         "/service-areas/mount-pleasant-sc/mold-remediation/",
         "/service-areas/north-charleston-sc/mold-remediation/",
+        "/service-areas/ravenel-sc/mold-remediation/",
         "/service-areas/sullivan-s-island-sc/mold-remediation/",
-        "/service-areas/summerville-sc/mold-remediation/",
         "/blog/choosing-a-restoration-company/",
         "/blog/how-to-test-for-mold/",
         "/blog/signs-of-hidden-mold/"
@@ -452,8 +454,8 @@
         "/service-areas/ladson-sc/water-cleanup/",
         "/service-areas/mount-pleasant-sc/water-cleanup/",
         "/service-areas/north-charleston-sc/water-cleanup/",
+        "/service-areas/ravenel-sc/water-cleanup/",
         "/service-areas/sullivan-s-island-sc/water-cleanup/",
-        "/service-areas/summerville-sc/water-cleanup/",
         "/services/water-damage-restoration/"
       ]
     },
@@ -944,6 +946,47 @@
         "/service-areas/hollywood-sc/mold-remediation/",
         "/service-areas/hollywood-sc/water-damage-restoration/",
         "/service-areas/hollywood-sc/water-cleanup/",
+        "/service-areas/awendaw-sc/",
+        "/service-areas/folly-beach-sc/",
+        "/service-areas/goose-creek-sc/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ravenel-sc/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Ravenel, SC | Paul Davis Restoration of Charleston",
+      "h1": "Restoration Services in Ravenel",
+      "meta_description": "Serving Ravenel, SC with water, fire, mold, and storm damage restoration. Experienced team. Call.",
+      "primary_keyword": "restoration services ravenel",
+      "secondary_keywords": [
+        "ravenel restoration company",
+        "damage restoration ravenel",
+        "ravenel disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/ravenel-sc/fire-damage-restoration/",
+        "/service-areas/ravenel-sc/mold-remediation/",
+        "/service-areas/ravenel-sc/water-damage-restoration/",
+        "/service-areas/ravenel-sc/water-cleanup/",
         "/service-areas/awendaw-sc/",
         "/service-areas/folly-beach-sc/",
         "/service-areas/goose-creek-sc/"
@@ -3056,6 +3099,182 @@
         "/service-areas/hollywood-sc/",
         "/service-areas/hollywood-sc/fire-damage-restoration/",
         "/service-areas/hollywood-sc/mold-remediation/",
+        "/service-areas/awendaw-sc/water-cleanup/",
+        "/service-areas/folly-beach-sc/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ravenel-sc/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Ravenel, SC | Paul Davis Restoration of Charleston",
+      "h1": "Water Damage Restoration in Ravenel",
+      "meta_description": "Water damage restoration in Ravenel, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "water damage restoration ravenel",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/ravenel-sc/",
+        "/service-areas/ravenel-sc/fire-damage-restoration/",
+        "/service-areas/ravenel-sc/mold-remediation/",
+        "/service-areas/awendaw-sc/water-damage-restoration/",
+        "/service-areas/folly-beach-sc/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ravenel-sc/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Ravenel, SC | Paul Davis Restoration of Charleston",
+      "h1": "Fire Damage Restoration in Ravenel",
+      "meta_description": "Fire damage restoration in Ravenel, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "fire damage restoration ravenel",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/ravenel-sc/",
+        "/service-areas/ravenel-sc/mold-remediation/",
+        "/service-areas/ravenel-sc/water-damage-restoration/",
+        "/service-areas/awendaw-sc/fire-damage-restoration/",
+        "/service-areas/folly-beach-sc/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ravenel-sc/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Ravenel, SC | Paul Davis Restoration of Charleston",
+      "h1": "Mold Remediation in Ravenel",
+      "meta_description": "Mold remediation in Ravenel, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "mold remediation ravenel",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/ravenel-sc/",
+        "/service-areas/ravenel-sc/fire-damage-restoration/",
+        "/service-areas/ravenel-sc/water-damage-restoration/",
+        "/service-areas/awendaw-sc/mold-remediation/",
+        "/service-areas/folly-beach-sc/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ravenel-sc/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Ravenel, SC | Paul Davis Restoration of Charleston",
+      "h1": "Water Cleanup in Ravenel",
+      "meta_description": "Water cleanup in Ravenel, SC. Insurance billing accepted. Call.",
+      "primary_keyword": "emergency water cleanup ravenel",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/ravenel-sc/",
+        "/service-areas/ravenel-sc/fire-damage-restoration/",
+        "/service-areas/ravenel-sc/mold-remediation/",
         "/service-areas/awendaw-sc/water-cleanup/",
         "/service-areas/folly-beach-sc/water-cleanup/",
         "/contact/"

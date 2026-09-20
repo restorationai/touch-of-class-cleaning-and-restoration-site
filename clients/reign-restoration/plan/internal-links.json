@@ -14,6 +14,7 @@
     "/service-areas/allen-tx/",
     "/service-areas/caddo-mills-tx/",
     "/service-areas/dallas-tx/",
+    "/service-areas/farmersville-tx/",
     "/service-areas/fate-tx/",
     "/service-areas/frisco-tx/",
     "/service-areas/garland-tx/",
@@ -51,6 +52,7 @@
     "/service-areas/allen-tx/",
     "/service-areas/caddo-mills-tx/",
     "/service-areas/dallas-tx/",
+    "/service-areas/farmersville-tx/",
     "/service-areas/fate-tx/",
     "/service-areas/frisco-tx/",
     "/service-areas/garland-tx/",
@@ -100,6 +102,7 @@
     "/service-areas/allen-tx/water-damage-restoration/",
     "/service-areas/caddo-mills-tx/water-damage-restoration/",
     "/service-areas/dallas-tx/water-damage-restoration/",
+    "/service-areas/farmersville-tx/water-damage-restoration/",
     "/service-areas/fate-tx/water-damage-restoration/",
     "/service-areas/frisco-tx/water-damage-restoration/",
     "/service-areas/garland-tx/water-damage-restoration/",
@@ -108,7 +111,6 @@
     "/service-areas/highland-park-tx/water-damage-restoration/",
     "/service-areas/josephine-tx/water-damage-restoration/",
     "/service-areas/lavon-tx/water-damage-restoration/",
-    "/service-areas/mckinney-tx/water-damage-restoration/",
     "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -120,6 +122,7 @@
     "/service-areas/allen-tx/fire-damage-restoration/",
     "/service-areas/caddo-mills-tx/fire-damage-restoration/",
     "/service-areas/dallas-tx/fire-damage-restoration/",
+    "/service-areas/farmersville-tx/fire-damage-restoration/",
     "/service-areas/fate-tx/fire-damage-restoration/",
     "/service-areas/frisco-tx/fire-damage-restoration/",
     "/service-areas/garland-tx/fire-damage-restoration/",
@@ -128,7 +131,6 @@
     "/service-areas/highland-park-tx/fire-damage-restoration/",
     "/service-areas/josephine-tx/fire-damage-restoration/",
     "/service-areas/lavon-tx/fire-damage-restoration/",
-    "/service-areas/mckinney-tx/fire-damage-restoration/",
     "/blog/choosing-a-restoration-company/",
     "/blog/fire-damage-restoration-process/"
   ],
@@ -138,6 +140,7 @@
     "/service-areas/allen-tx/mold-remediation/",
     "/service-areas/caddo-mills-tx/mold-remediation/",
     "/service-areas/dallas-tx/mold-remediation/",
+    "/service-areas/farmersville-tx/mold-remediation/",
     "/service-areas/fate-tx/mold-remediation/",
     "/service-areas/frisco-tx/mold-remediation/",
     "/service-areas/garland-tx/mold-remediation/",
@@ -146,7 +149,6 @@
     "/service-areas/highland-park-tx/mold-remediation/",
     "/service-areas/josephine-tx/mold-remediation/",
     "/service-areas/lavon-tx/mold-remediation/",
-    "/service-areas/mckinney-tx/mold-remediation/",
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
     "/blog/signs-of-hidden-mold/"
@@ -157,6 +159,7 @@
     "/service-areas/allen-tx/storm-damage-restoration/",
     "/service-areas/caddo-mills-tx/storm-damage-restoration/",
     "/service-areas/dallas-tx/storm-damage-restoration/",
+    "/service-areas/farmersville-tx/storm-damage-restoration/",
     "/service-areas/fate-tx/storm-damage-restoration/",
     "/service-areas/frisco-tx/storm-damage-restoration/",
     "/service-areas/garland-tx/storm-damage-restoration/",
@@ -164,8 +167,7 @@
     "/service-areas/heath-tx/storm-damage-restoration/",
     "/service-areas/highland-park-tx/storm-damage-restoration/",
     "/service-areas/josephine-tx/storm-damage-restoration/",
-    "/service-areas/lavon-tx/storm-damage-restoration/",
-    "/service-areas/mckinney-tx/storm-damage-restoration/"
+    "/service-areas/lavon-tx/storm-damage-restoration/"
   ],
   "/services/general-contracting/": [
     "/services/",
@@ -173,6 +175,7 @@
     "/service-areas/allen-tx/general-contracting/",
     "/service-areas/caddo-mills-tx/general-contracting/",
     "/service-areas/dallas-tx/general-contracting/",
+    "/service-areas/farmersville-tx/general-contracting/",
     "/service-areas/fate-tx/general-contracting/",
     "/service-areas/frisco-tx/general-contracting/",
     "/service-areas/garland-tx/general-contracting/",
@@ -180,8 +183,7 @@
     "/service-areas/heath-tx/general-contracting/",
     "/service-areas/highland-park-tx/general-contracting/",
     "/service-areas/josephine-tx/general-contracting/",
-    "/service-areas/lavon-tx/general-contracting/",
-    "/service-areas/mckinney-tx/general-contracting/"
+    "/service-areas/lavon-tx/general-contracting/"
   ],
   "/services/contents-restoration/": [
     "/services/",
@@ -189,6 +191,7 @@
     "/service-areas/allen-tx/contents-restoration/",
     "/service-areas/caddo-mills-tx/contents-restoration/",
     "/service-areas/dallas-tx/contents-restoration/",
+    "/service-areas/farmersville-tx/contents-restoration/",
     "/service-areas/fate-tx/contents-restoration/",
     "/service-areas/frisco-tx/contents-restoration/",
     "/service-areas/garland-tx/contents-restoration/",
@@ -196,8 +199,7 @@
     "/service-areas/heath-tx/contents-restoration/",
     "/service-areas/highland-park-tx/contents-restoration/",
     "/service-areas/josephine-tx/contents-restoration/",
-    "/service-areas/lavon-tx/contents-restoration/",
-    "/service-areas/mckinney-tx/contents-restoration/"
+    "/service-areas/lavon-tx/contents-restoration/"
   ],
   "/services/water-cleanup/": [
     "/services/",
@@ -205,6 +207,7 @@
     "/service-areas/allen-tx/water-cleanup/",
     "/service-areas/caddo-mills-tx/water-cleanup/",
     "/service-areas/dallas-tx/water-cleanup/",
+    "/service-areas/farmersville-tx/water-cleanup/",
     "/service-areas/fate-tx/water-cleanup/",
     "/service-areas/frisco-tx/water-cleanup/",
     "/service-areas/garland-tx/water-cleanup/",
@@ -213,7 +216,6 @@
     "/service-areas/highland-park-tx/water-cleanup/",
     "/service-areas/josephine-tx/water-cleanup/",
     "/service-areas/lavon-tx/water-cleanup/",
-    "/service-areas/mckinney-tx/water-cleanup/",
     "/services/water-damage-restoration/"
   ],
   "/service-areas/rockwall-tx/": [
@@ -312,7 +314,7 @@
     "/service-areas/dallas-tx/contents-restoration/",
     "/service-areas/allen-tx/",
     "/service-areas/caddo-mills-tx/",
-    "/service-areas/fate-tx/"
+    "/service-areas/farmersville-tx/"
   ],
   "/service-areas/richardson-tx/": [
     "/service-areas/",
@@ -354,7 +356,7 @@
     "/service-areas/allen-tx/contents-restoration/",
     "/service-areas/caddo-mills-tx/",
     "/service-areas/dallas-tx/",
-    "/service-areas/fate-tx/"
+    "/service-areas/farmersville-tx/"
   ],
   "/service-areas/mckinney-tx/": [
     "/service-areas/",
@@ -522,7 +524,7 @@
     "/service-areas/caddo-mills-tx/contents-restoration/",
     "/service-areas/allen-tx/",
     "/service-areas/dallas-tx/",
-    "/service-areas/fate-tx/"
+    "/service-areas/farmersville-tx/"
   ],
   "/service-areas/poetry-tx/": [
     "/service-areas/",
@@ -548,6 +550,20 @@
     "/service-areas/heath-tx/water-cleanup/",
     "/service-areas/heath-tx/general-contracting/",
     "/service-areas/heath-tx/contents-restoration/",
+    "/service-areas/allen-tx/",
+    "/service-areas/caddo-mills-tx/",
+    "/service-areas/dallas-tx/"
+  ],
+  "/service-areas/farmersville-tx/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/farmersville-tx/fire-damage-restoration/",
+    "/service-areas/farmersville-tx/mold-remediation/",
+    "/service-areas/farmersville-tx/water-damage-restoration/",
+    "/service-areas/farmersville-tx/storm-damage-restoration/",
+    "/service-areas/farmersville-tx/water-cleanup/",
+    "/service-areas/farmersville-tx/general-contracting/",
+    "/service-areas/farmersville-tx/contents-restoration/",
     "/service-areas/allen-tx/",
     "/service-areas/caddo-mills-tx/",
     "/service-areas/dallas-tx/"
@@ -2060,6 +2076,69 @@
     "/service-areas/heath-tx/",
     "/service-areas/heath-tx/fire-damage-restoration/",
     "/service-areas/heath-tx/mold-remediation/",
+    "/service-areas/allen-tx/water-cleanup/",
+    "/service-areas/caddo-mills-tx/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/farmersville-tx/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/farmersville-tx/",
+    "/service-areas/farmersville-tx/fire-damage-restoration/",
+    "/service-areas/farmersville-tx/mold-remediation/",
+    "/service-areas/allen-tx/water-damage-restoration/",
+    "/service-areas/caddo-mills-tx/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/farmersville-tx/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/farmersville-tx/",
+    "/service-areas/farmersville-tx/mold-remediation/",
+    "/service-areas/farmersville-tx/water-damage-restoration/",
+    "/service-areas/allen-tx/fire-damage-restoration/",
+    "/service-areas/caddo-mills-tx/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/farmersville-tx/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/farmersville-tx/",
+    "/service-areas/farmersville-tx/fire-damage-restoration/",
+    "/service-areas/farmersville-tx/water-damage-restoration/",
+    "/service-areas/allen-tx/mold-remediation/",
+    "/service-areas/caddo-mills-tx/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/farmersville-tx/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/farmersville-tx/",
+    "/service-areas/farmersville-tx/fire-damage-restoration/",
+    "/service-areas/farmersville-tx/mold-remediation/",
+    "/service-areas/allen-tx/storm-damage-restoration/",
+    "/service-areas/caddo-mills-tx/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/farmersville-tx/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/farmersville-tx/",
+    "/service-areas/farmersville-tx/fire-damage-restoration/",
+    "/service-areas/farmersville-tx/mold-remediation/",
+    "/service-areas/allen-tx/general-contracting/",
+    "/service-areas/caddo-mills-tx/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/farmersville-tx/contents-restoration/": [
+    "/services/contents-restoration/",
+    "/service-areas/farmersville-tx/",
+    "/service-areas/farmersville-tx/fire-damage-restoration/",
+    "/service-areas/farmersville-tx/mold-remediation/",
+    "/service-areas/allen-tx/contents-restoration/",
+    "/service-areas/caddo-mills-tx/contents-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/farmersville-tx/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/farmersville-tx/",
+    "/service-areas/farmersville-tx/fire-damage-restoration/",
+    "/service-areas/farmersville-tx/mold-remediation/",
     "/service-areas/allen-tx/water-cleanup/",
     "/service-areas/caddo-mills-tx/water-cleanup/",
     "/contact/"

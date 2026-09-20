@@ -372,6 +372,11 @@
       "city": "Moapa Town",
       "state": "NV",
       "slug": "moapa-town-nv"
+    },
+    {
+      "city": "Indian Springs",
+      "state": "NV",
+      "slug": "indian-springs-nv"
     }
   ]
 }

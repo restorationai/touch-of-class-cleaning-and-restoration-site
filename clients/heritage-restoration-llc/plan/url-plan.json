@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-20T18:58:52.363385+00:00",
+  "generated_at": "2026-09-20T19:37:03.173635+00:00",
   "input_summary": {
     "service_count": 4,
-    "service_area_count": 17,
+    "service_area_count": 18,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -52,6 +52,7 @@
         "/service-areas/flensburg-mn/",
         "/service-areas/foley-mn/",
         "/service-areas/fort-ripley-mn/",
+        "/service-areas/harding-mn/",
         "/service-areas/pierz-mn/",
         "/service-areas/randall-mn/",
         "/service-areas/rice-mn/",
@@ -135,6 +136,7 @@
         "/service-areas/flensburg-mn/",
         "/service-areas/foley-mn/",
         "/service-areas/fort-ripley-mn/",
+        "/service-areas/harding-mn/",
         "/service-areas/pierz-mn/",
         "/service-areas/randall-mn/",
         "/service-areas/rice-mn/",
@@ -292,12 +294,12 @@
         "/service-areas/flensburg-mn/water-damage-restoration/",
         "/service-areas/foley-mn/water-damage-restoration/",
         "/service-areas/fort-ripley-mn/water-damage-restoration/",
+        "/service-areas/harding-mn/water-damage-restoration/",
         "/service-areas/pierz-mn/water-damage-restoration/",
         "/service-areas/randall-mn/water-damage-restoration/",
         "/service-areas/rice-mn/water-damage-restoration/",
         "/service-areas/royalton-mn/water-damage-restoration/",
         "/service-areas/sartell-mn/water-damage-restoration/",
-        "/service-areas/sauk-rapids-mn/water-damage-restoration/",
         "/services/water-cleanup/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
@@ -346,12 +348,12 @@
         "/service-areas/flensburg-mn/storm-damage-restoration/",
         "/service-areas/foley-mn/storm-damage-restoration/",
         "/service-areas/fort-ripley-mn/storm-damage-restoration/",
+        "/service-areas/harding-mn/storm-damage-restoration/",
         "/service-areas/pierz-mn/storm-damage-restoration/",
         "/service-areas/randall-mn/storm-damage-restoration/",
         "/service-areas/rice-mn/storm-damage-restoration/",
         "/service-areas/royalton-mn/storm-damage-restoration/",
         "/service-areas/sartell-mn/storm-damage-restoration/",
-        "/service-areas/sauk-rapids-mn/storm-damage-restoration/",
         "/blog/storm-damage-insurance-claim-checklist/"
       ]
     },
@@ -398,12 +400,12 @@
         "/service-areas/flensburg-mn/general-contracting/",
         "/service-areas/foley-mn/general-contracting/",
         "/service-areas/fort-ripley-mn/general-contracting/",
+        "/service-areas/harding-mn/general-contracting/",
         "/service-areas/pierz-mn/general-contracting/",
         "/service-areas/randall-mn/general-contracting/",
         "/service-areas/rice-mn/general-contracting/",
         "/service-areas/royalton-mn/general-contracting/",
-        "/service-areas/sartell-mn/general-contracting/",
-        "/service-areas/sauk-rapids-mn/general-contracting/"
+        "/service-areas/sartell-mn/general-contracting/"
       ]
     },
     {
@@ -448,12 +450,12 @@
         "/service-areas/flensburg-mn/water-cleanup/",
         "/service-areas/foley-mn/water-cleanup/",
         "/service-areas/fort-ripley-mn/water-cleanup/",
+        "/service-areas/harding-mn/water-cleanup/",
         "/service-areas/pierz-mn/water-cleanup/",
         "/service-areas/randall-mn/water-cleanup/",
         "/service-areas/rice-mn/water-cleanup/",
         "/service-areas/royalton-mn/water-cleanup/",
         "/service-areas/sartell-mn/water-cleanup/",
-        "/service-areas/sauk-rapids-mn/water-cleanup/",
         "/services/water-damage-restoration/"
       ]
     },
@@ -1108,6 +1110,47 @@
         "/service-areas/rice-mn/storm-damage-restoration/",
         "/service-areas/rice-mn/water-cleanup/",
         "/service-areas/rice-mn/general-contracting/",
+        "/service-areas/baxter-mn/",
+        "/service-areas/brainerd-mn/",
+        "/service-areas/elmdale-mn/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/harding-mn/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Harding, MN | Heritage Restoration LLC",
+      "h1": "Restoration Services in Harding",
+      "meta_description": "Serving Harding, MN with water, fire, mold, and storm damage restoration. IICRC-certified team. Call (320) 733-8868.",
+      "primary_keyword": "restoration services harding",
+      "secondary_keywords": [
+        "harding restoration company",
+        "damage restoration harding",
+        "harding disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/harding-mn/water-damage-restoration/",
+        "/service-areas/harding-mn/storm-damage-restoration/",
+        "/service-areas/harding-mn/water-cleanup/",
+        "/service-areas/harding-mn/general-contracting/",
         "/service-areas/baxter-mn/",
         "/service-areas/brainerd-mn/",
         "/service-areas/elmdale-mn/"
@@ -3940,6 +3983,183 @@
         "/service-areas/rice-mn/",
         "/service-areas/rice-mn/water-damage-restoration/",
         "/service-areas/rice-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/water-cleanup/",
+        "/service-areas/brainerd-mn/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/harding-mn/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Harding, MN | Heritage Restoration LLC",
+      "h1": "Water Damage Restoration in Harding",
+      "meta_description": "Water damage restoration in Harding, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "water damage restoration harding",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/harding-mn/",
+        "/service-areas/harding-mn/storm-damage-restoration/",
+        "/service-areas/harding-mn/water-cleanup/",
+        "/service-areas/baxter-mn/water-damage-restoration/",
+        "/service-areas/brainerd-mn/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/harding-mn/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Harding, MN | Heritage Restoration LLC",
+      "h1": "Storm Damage Restoration in Harding",
+      "meta_description": "Storm damage restoration in Harding, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "storm damage restoration harding",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/harding-mn/",
+        "/service-areas/harding-mn/water-damage-restoration/",
+        "/service-areas/harding-mn/water-cleanup/",
+        "/service-areas/baxter-mn/storm-damage-restoration/",
+        "/service-areas/brainerd-mn/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/harding-mn/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Harding, MN | Heritage Restoration LLC",
+      "h1": "Renovations, Remodels and General Contracting in Harding",
+      "meta_description": "Renovations, remodels and general contracting in Harding, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "renovations, remodels and general contracting harding",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/harding-mn/",
+        "/service-areas/harding-mn/water-damage-restoration/",
+        "/service-areas/harding-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/general-contracting/",
+        "/service-areas/brainerd-mn/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/harding-mn/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Harding, MN | Heritage Restoration LLC",
+      "h1": "Water Cleanup in Harding",
+      "meta_description": "Water cleanup in Harding, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "emergency water cleanup harding",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/harding-mn/",
+        "/service-areas/harding-mn/water-damage-restoration/",
+        "/service-areas/harding-mn/storm-damage-restoration/",
         "/service-areas/baxter-mn/water-cleanup/",
         "/service-areas/brainerd-mn/water-cleanup/",
         "/contact/"

@@ -16,6 +16,7 @@
     "/service-areas/eglin-afb-fl/",
     "/service-areas/fort-walton-beach-fl/",
     "/service-areas/hurlburt-field-fl/",
+    "/service-areas/laurel-hill-fl/",
     "/service-areas/miramar-beach-fl/",
     "/service-areas/niceville-fl/",
     "/service-areas/panama-city-beach-fl/",
@@ -44,6 +45,7 @@
     "/service-areas/eglin-afb-fl/",
     "/service-areas/fort-walton-beach-fl/",
     "/service-areas/hurlburt-field-fl/",
+    "/service-areas/laurel-hill-fl/",
     "/service-areas/miramar-beach-fl/",
     "/service-areas/niceville-fl/",
     "/service-areas/panama-city-beach-fl/",
@@ -86,11 +88,11 @@
     "/service-areas/eglin-afb-fl/water-damage-restoration/",
     "/service-areas/fort-walton-beach-fl/water-damage-restoration/",
     "/service-areas/hurlburt-field-fl/water-damage-restoration/",
+    "/service-areas/laurel-hill-fl/water-damage-restoration/",
     "/service-areas/miramar-beach-fl/water-damage-restoration/",
     "/service-areas/niceville-fl/water-damage-restoration/",
     "/service-areas/panama-city-beach-fl/water-damage-restoration/",
     "/service-areas/paxton-fl/water-damage-restoration/",
-    "/service-areas/ponce-de-leon-fl/water-damage-restoration/",
     "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -106,11 +108,11 @@
     "/service-areas/eglin-afb-fl/fire-damage-restoration/",
     "/service-areas/fort-walton-beach-fl/fire-damage-restoration/",
     "/service-areas/hurlburt-field-fl/fire-damage-restoration/",
+    "/service-areas/laurel-hill-fl/fire-damage-restoration/",
     "/service-areas/miramar-beach-fl/fire-damage-restoration/",
     "/service-areas/niceville-fl/fire-damage-restoration/",
     "/service-areas/panama-city-beach-fl/fire-damage-restoration/",
     "/service-areas/paxton-fl/fire-damage-restoration/",
-    "/service-areas/ponce-de-leon-fl/fire-damage-restoration/",
     "/blog/choosing-a-restoration-company/",
     "/blog/fire-damage-restoration-process/"
   ],
@@ -124,11 +126,11 @@
     "/service-areas/eglin-afb-fl/mold-remediation/",
     "/service-areas/fort-walton-beach-fl/mold-remediation/",
     "/service-areas/hurlburt-field-fl/mold-remediation/",
+    "/service-areas/laurel-hill-fl/mold-remediation/",
     "/service-areas/miramar-beach-fl/mold-remediation/",
     "/service-areas/niceville-fl/mold-remediation/",
     "/service-areas/panama-city-beach-fl/mold-remediation/",
     "/service-areas/paxton-fl/mold-remediation/",
-    "/service-areas/ponce-de-leon-fl/mold-remediation/",
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
     "/blog/signs-of-hidden-mold/"
@@ -143,11 +145,11 @@
     "/service-areas/eglin-afb-fl/storm-damage-restoration/",
     "/service-areas/fort-walton-beach-fl/storm-damage-restoration/",
     "/service-areas/hurlburt-field-fl/storm-damage-restoration/",
+    "/service-areas/laurel-hill-fl/storm-damage-restoration/",
     "/service-areas/miramar-beach-fl/storm-damage-restoration/",
     "/service-areas/niceville-fl/storm-damage-restoration/",
     "/service-areas/panama-city-beach-fl/storm-damage-restoration/",
-    "/service-areas/paxton-fl/storm-damage-restoration/",
-    "/service-areas/ponce-de-leon-fl/storm-damage-restoration/"
+    "/service-areas/paxton-fl/storm-damage-restoration/"
   ],
   "/services/water-cleanup/": [
     "/services/",
@@ -159,11 +161,11 @@
     "/service-areas/eglin-afb-fl/water-cleanup/",
     "/service-areas/fort-walton-beach-fl/water-cleanup/",
     "/service-areas/hurlburt-field-fl/water-cleanup/",
+    "/service-areas/laurel-hill-fl/water-cleanup/",
     "/service-areas/miramar-beach-fl/water-cleanup/",
     "/service-areas/niceville-fl/water-cleanup/",
     "/service-areas/panama-city-beach-fl/water-cleanup/",
     "/service-areas/paxton-fl/water-cleanup/",
-    "/service-areas/ponce-de-leon-fl/water-cleanup/",
     "/services/water-damage-restoration/"
   ],
   "/service-areas/destin-fl/": [
@@ -366,6 +368,18 @@
     "/service-areas/paxton-fl/water-damage-restoration/",
     "/service-areas/paxton-fl/storm-damage-restoration/",
     "/service-areas/paxton-fl/water-cleanup/",
+    "/service-areas/crestview-fl/",
+    "/service-areas/defuniak-springs-fl/",
+    "/service-areas/destin-fl/"
+  ],
+  "/service-areas/laurel-hill-fl/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/laurel-hill-fl/fire-damage-restoration/",
+    "/service-areas/laurel-hill-fl/mold-remediation/",
+    "/service-areas/laurel-hill-fl/water-damage-restoration/",
+    "/service-areas/laurel-hill-fl/storm-damage-restoration/",
+    "/service-areas/laurel-hill-fl/water-cleanup/",
     "/service-areas/crestview-fl/",
     "/service-areas/defuniak-springs-fl/",
     "/service-areas/destin-fl/"
@@ -1131,6 +1145,51 @@
     "/service-areas/paxton-fl/",
     "/service-areas/paxton-fl/fire-damage-restoration/",
     "/service-areas/paxton-fl/mold-remediation/",
+    "/service-areas/crestview-fl/water-cleanup/",
+    "/service-areas/defuniak-springs-fl/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/laurel-hill-fl/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/laurel-hill-fl/",
+    "/service-areas/laurel-hill-fl/fire-damage-restoration/",
+    "/service-areas/laurel-hill-fl/mold-remediation/",
+    "/service-areas/crestview-fl/water-damage-restoration/",
+    "/service-areas/defuniak-springs-fl/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/laurel-hill-fl/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/laurel-hill-fl/",
+    "/service-areas/laurel-hill-fl/mold-remediation/",
+    "/service-areas/laurel-hill-fl/water-damage-restoration/",
+    "/service-areas/crestview-fl/fire-damage-restoration/",
+    "/service-areas/defuniak-springs-fl/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/laurel-hill-fl/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/laurel-hill-fl/",
+    "/service-areas/laurel-hill-fl/fire-damage-restoration/",
+    "/service-areas/laurel-hill-fl/water-damage-restoration/",
+    "/service-areas/crestview-fl/mold-remediation/",
+    "/service-areas/defuniak-springs-fl/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/laurel-hill-fl/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/laurel-hill-fl/",
+    "/service-areas/laurel-hill-fl/fire-damage-restoration/",
+    "/service-areas/laurel-hill-fl/mold-remediation/",
+    "/service-areas/crestview-fl/storm-damage-restoration/",
+    "/service-areas/defuniak-springs-fl/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/laurel-hill-fl/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/laurel-hill-fl/",
+    "/service-areas/laurel-hill-fl/fire-damage-restoration/",
+    "/service-areas/laurel-hill-fl/mold-remediation/",
     "/service-areas/crestview-fl/water-cleanup/",
     "/service-areas/defuniak-springs-fl/water-cleanup/",
     "/contact/"

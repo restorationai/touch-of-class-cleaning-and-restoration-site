@@ -198,6 +198,11 @@
       "city": "Rosemont",
       "state": "CA",
       "slug": "rosemont-ca"
+    },
+    {
+      "city": "Florin",
+      "state": "CA",
+      "slug": "florin-ca"
     }
   ],
   "template": "construction",

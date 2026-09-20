@@ -18,6 +18,7 @@
     "/service-areas/ladson-sc/",
     "/service-areas/mount-pleasant-sc/",
     "/service-areas/north-charleston-sc/",
+    "/service-areas/ravenel-sc/",
     "/service-areas/sullivan-s-island-sc/",
     "/service-areas/summerville-sc/"
   ],
@@ -40,6 +41,7 @@
     "/service-areas/ladson-sc/",
     "/service-areas/mount-pleasant-sc/",
     "/service-areas/north-charleston-sc/",
+    "/service-areas/ravenel-sc/",
     "/service-areas/sullivan-s-island-sc/",
     "/service-areas/summerville-sc/"
   ],
@@ -81,8 +83,8 @@
     "/service-areas/ladson-sc/water-damage-restoration/",
     "/service-areas/mount-pleasant-sc/water-damage-restoration/",
     "/service-areas/north-charleston-sc/water-damage-restoration/",
+    "/service-areas/ravenel-sc/water-damage-restoration/",
     "/service-areas/sullivan-s-island-sc/water-damage-restoration/",
-    "/service-areas/summerville-sc/water-damage-restoration/",
     "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -101,8 +103,8 @@
     "/service-areas/ladson-sc/fire-damage-restoration/",
     "/service-areas/mount-pleasant-sc/fire-damage-restoration/",
     "/service-areas/north-charleston-sc/fire-damage-restoration/",
+    "/service-areas/ravenel-sc/fire-damage-restoration/",
     "/service-areas/sullivan-s-island-sc/fire-damage-restoration/",
-    "/service-areas/summerville-sc/fire-damage-restoration/",
     "/blog/choosing-a-restoration-company/",
     "/blog/fire-damage-restoration-process/",
     "/blog/smoke-odor-removal-techniques/"
@@ -120,8 +122,8 @@
     "/service-areas/ladson-sc/mold-remediation/",
     "/service-areas/mount-pleasant-sc/mold-remediation/",
     "/service-areas/north-charleston-sc/mold-remediation/",
+    "/service-areas/ravenel-sc/mold-remediation/",
     "/service-areas/sullivan-s-island-sc/mold-remediation/",
-    "/service-areas/summerville-sc/mold-remediation/",
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
     "/blog/signs-of-hidden-mold/"
@@ -139,8 +141,8 @@
     "/service-areas/ladson-sc/water-cleanup/",
     "/service-areas/mount-pleasant-sc/water-cleanup/",
     "/service-areas/north-charleston-sc/water-cleanup/",
+    "/service-areas/ravenel-sc/water-cleanup/",
     "/service-areas/sullivan-s-island-sc/water-cleanup/",
-    "/service-areas/summerville-sc/water-cleanup/",
     "/services/water-damage-restoration/"
   ],
   "/service-areas/mount-pleasant-sc/": [
@@ -271,6 +273,17 @@
     "/service-areas/hollywood-sc/mold-remediation/",
     "/service-areas/hollywood-sc/water-damage-restoration/",
     "/service-areas/hollywood-sc/water-cleanup/",
+    "/service-areas/awendaw-sc/",
+    "/service-areas/folly-beach-sc/",
+    "/service-areas/goose-creek-sc/"
+  ],
+  "/service-areas/ravenel-sc/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/ravenel-sc/fire-damage-restoration/",
+    "/service-areas/ravenel-sc/mold-remediation/",
+    "/service-areas/ravenel-sc/water-damage-restoration/",
+    "/service-areas/ravenel-sc/water-cleanup/",
     "/service-areas/awendaw-sc/",
     "/service-areas/folly-beach-sc/",
     "/service-areas/goose-creek-sc/"
@@ -703,6 +716,42 @@
     "/service-areas/hollywood-sc/",
     "/service-areas/hollywood-sc/fire-damage-restoration/",
     "/service-areas/hollywood-sc/mold-remediation/",
+    "/service-areas/awendaw-sc/water-cleanup/",
+    "/service-areas/folly-beach-sc/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/ravenel-sc/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/ravenel-sc/",
+    "/service-areas/ravenel-sc/fire-damage-restoration/",
+    "/service-areas/ravenel-sc/mold-remediation/",
+    "/service-areas/awendaw-sc/water-damage-restoration/",
+    "/service-areas/folly-beach-sc/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/ravenel-sc/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/ravenel-sc/",
+    "/service-areas/ravenel-sc/mold-remediation/",
+    "/service-areas/ravenel-sc/water-damage-restoration/",
+    "/service-areas/awendaw-sc/fire-damage-restoration/",
+    "/service-areas/folly-beach-sc/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/ravenel-sc/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/ravenel-sc/",
+    "/service-areas/ravenel-sc/fire-damage-restoration/",
+    "/service-areas/ravenel-sc/water-damage-restoration/",
+    "/service-areas/awendaw-sc/mold-remediation/",
+    "/service-areas/folly-beach-sc/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/ravenel-sc/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/ravenel-sc/",
+    "/service-areas/ravenel-sc/fire-damage-restoration/",
+    "/service-areas/ravenel-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-cleanup/",
     "/service-areas/folly-beach-sc/water-cleanup/",
     "/contact/"

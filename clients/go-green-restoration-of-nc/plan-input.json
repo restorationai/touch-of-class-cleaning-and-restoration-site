@@ -230,6 +230,11 @@
       "city": "Wilson's Mills",
       "state": "NC",
       "slug": "wilson-s-mills-nc"
+    },
+    {
+      "city": "Rolesville",
+      "state": "NC",
+      "slug": "rolesville-nc"
     }
   ],
   "template": "restoration",

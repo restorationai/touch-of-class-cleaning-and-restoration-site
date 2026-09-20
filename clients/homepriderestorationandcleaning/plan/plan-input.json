@@ -133,6 +133,11 @@
       "city": "Alpine",
       "state": "UT",
       "slug": "alpine-ut"
+    },
+    {
+      "city": "Draper",
+      "state": "UT",
+      "slug": "draper-ut"
     }
   ],
   "brand": {

@@ -1,20 +1,20 @@
 # Site Plan Report — Reign Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T18:59:13.889625+00:00
+- Generated: 2026-09-20T19:37:21.396513+00:00
 - Domain: `reign-restoration.com`
 - Services selected: 7 of 65 catalog entries
-- Service areas: 25
+- Service areas: 26
 - Cross-product enabled: True
-- Total URLs: **216**
-- Total internal links: 1695 (avg 7.8 per page)
+- Total URLs: **224**
+- Total internal links: 1758 (avg 7.8 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 168 |
-| `service-area` | 24 |
+| `service-area-service` | 175 |
+| `service-area` | 25 |
 | `blog-post` | 8 |
 | `service-landing` | 7 |
 | `legal` | 3 |
@@ -62,6 +62,7 @@
 - `caddo-mills-tx` — Caddo Mills, TX
 - `poetry-tx` — Poetry, TX
 - `heath-tx` — Heath, TX
+- `farmersville-tx` — Farmersville, TX
 
 ## Top 10 priority pages
 

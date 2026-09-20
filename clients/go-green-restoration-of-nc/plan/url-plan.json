@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-20T18:58:50.842416+00:00",
+  "generated_at": "2026-09-20T19:37:01.875417+00:00",
   "input_summary": {
     "service_count": 8,
-    "service_area_count": 16,
+    "service_area_count": 17,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -60,6 +60,7 @@
         "/service-areas/lake-royale-nc/",
         "/service-areas/raleigh-nc/",
         "/service-areas/rocky-mount-nc/",
+        "/service-areas/rolesville-nc/",
         "/service-areas/smithfield-nc/",
         "/service-areas/spring-hope-nc/",
         "/service-areas/wake-forest-nc/",
@@ -146,6 +147,7 @@
         "/service-areas/lake-royale-nc/",
         "/service-areas/raleigh-nc/",
         "/service-areas/rocky-mount-nc/",
+        "/service-areas/rolesville-nc/",
         "/service-areas/smithfield-nc/",
         "/service-areas/spring-hope-nc/",
         "/service-areas/wake-forest-nc/",
@@ -304,10 +306,10 @@
         "/service-areas/lake-royale-nc/water-damage-restoration/",
         "/service-areas/raleigh-nc/water-damage-restoration/",
         "/service-areas/rocky-mount-nc/water-damage-restoration/",
+        "/service-areas/rolesville-nc/water-damage-restoration/",
         "/service-areas/smithfield-nc/water-damage-restoration/",
         "/service-areas/spring-hope-nc/water-damage-restoration/",
         "/service-areas/wake-forest-nc/water-damage-restoration/",
-        "/service-areas/wendell-nc/water-damage-restoration/",
         "/services/water-cleanup/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
@@ -358,10 +360,10 @@
         "/service-areas/lake-royale-nc/fire-damage-restoration/",
         "/service-areas/raleigh-nc/fire-damage-restoration/",
         "/service-areas/rocky-mount-nc/fire-damage-restoration/",
+        "/service-areas/rolesville-nc/fire-damage-restoration/",
         "/service-areas/smithfield-nc/fire-damage-restoration/",
         "/service-areas/spring-hope-nc/fire-damage-restoration/",
         "/service-areas/wake-forest-nc/fire-damage-restoration/",
-        "/service-areas/wendell-nc/fire-damage-restoration/",
         "/blog/choosing-a-restoration-company/",
         "/blog/fire-damage-restoration-process/"
       ]
@@ -410,10 +412,10 @@
         "/service-areas/lake-royale-nc/mold-remediation/",
         "/service-areas/raleigh-nc/mold-remediation/",
         "/service-areas/rocky-mount-nc/mold-remediation/",
+        "/service-areas/rolesville-nc/mold-remediation/",
         "/service-areas/smithfield-nc/mold-remediation/",
         "/service-areas/spring-hope-nc/mold-remediation/",
         "/service-areas/wake-forest-nc/mold-remediation/",
-        "/service-areas/wendell-nc/mold-remediation/",
         "/blog/choosing-a-restoration-company/",
         "/blog/how-to-test-for-mold/",
         "/blog/signs-of-hidden-mold/"
@@ -457,10 +459,10 @@
         "/service-areas/lake-royale-nc/crawl-space-encapsulation/",
         "/service-areas/raleigh-nc/crawl-space-encapsulation/",
         "/service-areas/rocky-mount-nc/crawl-space-encapsulation/",
+        "/service-areas/rolesville-nc/crawl-space-encapsulation/",
         "/service-areas/smithfield-nc/crawl-space-encapsulation/",
         "/service-areas/spring-hope-nc/crawl-space-encapsulation/",
-        "/service-areas/wake-forest-nc/crawl-space-encapsulation/",
-        "/service-areas/wendell-nc/crawl-space-encapsulation/"
+        "/service-areas/wake-forest-nc/crawl-space-encapsulation/"
       ]
     },
     {
@@ -507,10 +509,10 @@
         "/service-areas/lake-royale-nc/air-duct-cleaning/",
         "/service-areas/raleigh-nc/air-duct-cleaning/",
         "/service-areas/rocky-mount-nc/air-duct-cleaning/",
+        "/service-areas/rolesville-nc/air-duct-cleaning/",
         "/service-areas/smithfield-nc/air-duct-cleaning/",
         "/service-areas/spring-hope-nc/air-duct-cleaning/",
-        "/service-areas/wake-forest-nc/air-duct-cleaning/",
-        "/service-areas/wendell-nc/air-duct-cleaning/"
+        "/service-areas/wake-forest-nc/air-duct-cleaning/"
       ]
     },
     {
@@ -557,10 +559,10 @@
         "/service-areas/lake-royale-nc/carpet-cleaning/",
         "/service-areas/raleigh-nc/carpet-cleaning/",
         "/service-areas/rocky-mount-nc/carpet-cleaning/",
+        "/service-areas/rolesville-nc/carpet-cleaning/",
         "/service-areas/smithfield-nc/carpet-cleaning/",
         "/service-areas/spring-hope-nc/carpet-cleaning/",
-        "/service-areas/wake-forest-nc/carpet-cleaning/",
-        "/service-areas/wendell-nc/carpet-cleaning/"
+        "/service-areas/wake-forest-nc/carpet-cleaning/"
       ]
     },
     {
@@ -605,10 +607,10 @@
         "/service-areas/lake-royale-nc/insulation-removal-installation/",
         "/service-areas/raleigh-nc/insulation-removal-installation/",
         "/service-areas/rocky-mount-nc/insulation-removal-installation/",
+        "/service-areas/rolesville-nc/insulation-removal-installation/",
         "/service-areas/smithfield-nc/insulation-removal-installation/",
         "/service-areas/spring-hope-nc/insulation-removal-installation/",
-        "/service-areas/wake-forest-nc/insulation-removal-installation/",
-        "/service-areas/wendell-nc/insulation-removal-installation/"
+        "/service-areas/wake-forest-nc/insulation-removal-installation/"
       ]
     },
     {
@@ -656,10 +658,10 @@
         "/service-areas/lake-royale-nc/water-cleanup/",
         "/service-areas/raleigh-nc/water-cleanup/",
         "/service-areas/rocky-mount-nc/water-cleanup/",
+        "/service-areas/rolesville-nc/water-cleanup/",
         "/service-areas/smithfield-nc/water-cleanup/",
         "/service-areas/spring-hope-nc/water-cleanup/",
         "/service-areas/wake-forest-nc/water-cleanup/",
-        "/service-areas/wendell-nc/water-cleanup/",
         "/services/water-damage-restoration/"
       ]
     },
@@ -1333,6 +1335,51 @@
         "/service-areas/wilson-s-mills-nc/crawl-space-encapsulation/",
         "/service-areas/wilson-s-mills-nc/insulation-removal-installation/",
         "/service-areas/wilson-s-mills-nc/carpet-cleaning/",
+        "/service-areas/archer-lodge-nc/",
+        "/service-areas/clayton-nc/",
+        "/service-areas/durham-nc/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rolesville-nc/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Rolesville, NC | Go Green Restoration of NC",
+      "h1": "Restoration Services in Rolesville",
+      "meta_description": "Serving Rolesville, NC with 24/7 water, fire, mold, and storm damage restoration. Experienced team. Call (919) 906-5473.",
+      "primary_keyword": "restoration services rolesville",
+      "secondary_keywords": [
+        "rolesville restoration company",
+        "damage restoration rolesville",
+        "rolesville disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/rolesville-nc/fire-damage-restoration/",
+        "/service-areas/rolesville-nc/mold-remediation/",
+        "/service-areas/rolesville-nc/water-damage-restoration/",
+        "/service-areas/rolesville-nc/water-cleanup/",
+        "/service-areas/rolesville-nc/air-duct-cleaning/",
+        "/service-areas/rolesville-nc/crawl-space-encapsulation/",
+        "/service-areas/rolesville-nc/insulation-removal-installation/",
+        "/service-areas/rolesville-nc/carpet-cleaning/",
         "/service-areas/archer-lodge-nc/",
         "/service-areas/clayton-nc/",
         "/service-areas/durham-nc/"
@@ -6508,6 +6555,351 @@
         "/service-areas/wilson-s-mills-nc/",
         "/service-areas/wilson-s-mills-nc/fire-damage-restoration/",
         "/service-areas/wilson-s-mills-nc/mold-remediation/",
+        "/service-areas/archer-lodge-nc/water-cleanup/",
+        "/service-areas/clayton-nc/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rolesville-nc/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Rolesville, NC | Go Green Restoration of NC",
+      "h1": "Water Damage Restoration in Rolesville",
+      "meta_description": "24/7 water damage restoration in Rolesville, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "water damage restoration rolesville",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/rolesville-nc/",
+        "/service-areas/rolesville-nc/fire-damage-restoration/",
+        "/service-areas/rolesville-nc/mold-remediation/",
+        "/service-areas/archer-lodge-nc/water-damage-restoration/",
+        "/service-areas/clayton-nc/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rolesville-nc/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Rolesville, NC | Go Green Restoration of NC",
+      "h1": "Fire Damage Restoration in Rolesville",
+      "meta_description": "24/7 fire damage restoration in Rolesville, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "fire damage restoration rolesville",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/rolesville-nc/",
+        "/service-areas/rolesville-nc/mold-remediation/",
+        "/service-areas/rolesville-nc/water-damage-restoration/",
+        "/service-areas/archer-lodge-nc/fire-damage-restoration/",
+        "/service-areas/clayton-nc/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rolesville-nc/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Rolesville, NC | Go Green Restoration of NC",
+      "h1": "Mold Remediation in Rolesville",
+      "meta_description": "24/7 mold remediation in Rolesville, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "mold remediation rolesville",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/rolesville-nc/",
+        "/service-areas/rolesville-nc/fire-damage-restoration/",
+        "/service-areas/rolesville-nc/water-damage-restoration/",
+        "/service-areas/archer-lodge-nc/mold-remediation/",
+        "/service-areas/clayton-nc/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rolesville-nc/crawl-space-encapsulation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Encapsulation in Rolesville, NC | Go Green Restoration of NC",
+      "h1": "Crawl Space Encapsulation in Rolesville",
+      "meta_description": "24/7 crawl space encapsulation in Rolesville, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "crawl space encapsulation rolesville",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/rolesville-nc/",
+        "/service-areas/rolesville-nc/fire-damage-restoration/",
+        "/service-areas/rolesville-nc/mold-remediation/",
+        "/service-areas/archer-lodge-nc/crawl-space-encapsulation/",
+        "/service-areas/clayton-nc/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rolesville-nc/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Rolesville, NC | Go Green Restoration of NC",
+      "h1": "Air Duct Cleaning in Rolesville",
+      "meta_description": "24/7 air duct cleaning in Rolesville, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "air duct cleaning rolesville",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/rolesville-nc/",
+        "/service-areas/rolesville-nc/fire-damage-restoration/",
+        "/service-areas/rolesville-nc/mold-remediation/",
+        "/service-areas/archer-lodge-nc/air-duct-cleaning/",
+        "/service-areas/clayton-nc/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rolesville-nc/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Rolesville, NC | Go Green Restoration of NC",
+      "h1": "Carpet Cleaning in Rolesville",
+      "meta_description": "24/7 carpet cleaning in Rolesville, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "carpet cleaning rolesville",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/rolesville-nc/",
+        "/service-areas/rolesville-nc/fire-damage-restoration/",
+        "/service-areas/rolesville-nc/mold-remediation/",
+        "/service-areas/archer-lodge-nc/carpet-cleaning/",
+        "/service-areas/clayton-nc/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rolesville-nc/insulation-removal-installation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Insulation Removal & Installation in Rolesville, NC | Go Green Restoration of NC",
+      "h1": "Insulation Removal & Installation in Rolesville",
+      "meta_description": "24/7 insulation removal & installation in Rolesville, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "insulation removal & installation rolesville",
+      "secondary_keywords": [
+        "attic insulation removal",
+        "crawl space insulation replacement",
+        "blown-in insulation"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/insulation-removal-installation/",
+        "/service-areas/rolesville-nc/",
+        "/service-areas/rolesville-nc/fire-damage-restoration/",
+        "/service-areas/rolesville-nc/mold-remediation/",
+        "/service-areas/archer-lodge-nc/insulation-removal-installation/",
+        "/service-areas/clayton-nc/insulation-removal-installation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rolesville-nc/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Rolesville, NC | Go Green Restoration of NC",
+      "h1": "Emergency Water Cleanup in Rolesville",
+      "meta_description": "24/7 emergency water cleanup in Rolesville, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "emergency water cleanup rolesville",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/rolesville-nc/",
+        "/service-areas/rolesville-nc/fire-damage-restoration/",
+        "/service-areas/rolesville-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/water-cleanup/",
         "/service-areas/clayton-nc/water-cleanup/",
         "/contact/"

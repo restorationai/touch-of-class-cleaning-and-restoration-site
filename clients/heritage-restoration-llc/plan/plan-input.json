@@ -123,6 +123,11 @@
       "city": "Rice",
       "state": "MN",
       "slug": "rice-mn"
+    },
+    {
+      "city": "Harding",
+      "state": "MN",
+      "slug": "harding-mn"
     }
   ],
   "template": "restoration",

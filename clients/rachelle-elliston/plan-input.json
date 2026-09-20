@@ -105,6 +105,11 @@
       "city": "Summerlin South",
       "state": "NV",
       "slug": "summerlin-south-nv"
+    },
+    {
+      "city": "Blue Diamond",
+      "state": "NV",
+      "slug": "blue-diamond-nv"
     }
   ],
   "template": "restoration",

@@ -336,6 +336,11 @@
       "city": "Woody",
       "state": "CA",
       "slug": "woody-ca"
+    },
+    {
+      "city": "Bear Valley Springs",
+      "state": "CA",
+      "slug": "bear-valley-springs-ca"
     }
   ],
   "brand": {

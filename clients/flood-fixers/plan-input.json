@@ -138,6 +138,11 @@
       "city": "Del Mar",
       "state": "CA",
       "slug": "del-mar-ca"
+    },
+    {
+      "city": "Camp Pendleton Mainside",
+      "state": "CA",
+      "slug": "camp-pendleton-mainside-ca"
     }
   ],
   "brand": {

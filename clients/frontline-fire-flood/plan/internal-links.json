@@ -20,6 +20,7 @@
     "/service-areas/bremerton-wa/",
     "/service-areas/burien-wa/",
     "/service-areas/centralia-wa/",
+    "/service-areas/clover-creek-wa/",
     "/service-areas/dupont-wa/",
     "/service-areas/federal-way-wa/",
     "/service-areas/fife-wa/",
@@ -68,6 +69,7 @@
     "/service-areas/bremerton-wa/",
     "/service-areas/burien-wa/",
     "/service-areas/centralia-wa/",
+    "/service-areas/clover-creek-wa/",
     "/service-areas/dupont-wa/",
     "/service-areas/federal-way-wa/",
     "/service-areas/fife-wa/",
@@ -126,11 +128,11 @@
     "/service-areas/bremerton-wa/water-damage-restoration/",
     "/service-areas/burien-wa/water-damage-restoration/",
     "/service-areas/centralia-wa/water-damage-restoration/",
+    "/service-areas/clover-creek-wa/water-damage-restoration/",
     "/service-areas/dupont-wa/water-damage-restoration/",
     "/service-areas/federal-way-wa/water-damage-restoration/",
     "/service-areas/fife-wa/water-damage-restoration/",
     "/service-areas/fircrest-wa/water-damage-restoration/",
-    "/service-areas/fort-lewis-wa/water-damage-restoration/",
     "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -146,11 +148,11 @@
     "/service-areas/bremerton-wa/fire-damage-restoration/",
     "/service-areas/burien-wa/fire-damage-restoration/",
     "/service-areas/centralia-wa/fire-damage-restoration/",
+    "/service-areas/clover-creek-wa/fire-damage-restoration/",
     "/service-areas/dupont-wa/fire-damage-restoration/",
     "/service-areas/federal-way-wa/fire-damage-restoration/",
     "/service-areas/fife-wa/fire-damage-restoration/",
     "/service-areas/fircrest-wa/fire-damage-restoration/",
-    "/service-areas/fort-lewis-wa/fire-damage-restoration/",
     "/blog/choosing-a-restoration-company/",
     "/blog/fire-damage-restoration-process/"
   ],
@@ -164,11 +166,11 @@
     "/service-areas/bremerton-wa/mold-remediation/",
     "/service-areas/burien-wa/mold-remediation/",
     "/service-areas/centralia-wa/mold-remediation/",
+    "/service-areas/clover-creek-wa/mold-remediation/",
     "/service-areas/dupont-wa/mold-remediation/",
     "/service-areas/federal-way-wa/mold-remediation/",
     "/service-areas/fife-wa/mold-remediation/",
     "/service-areas/fircrest-wa/mold-remediation/",
-    "/service-areas/fort-lewis-wa/mold-remediation/",
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
     "/blog/signs-of-hidden-mold/"
@@ -183,11 +185,11 @@
     "/service-areas/bremerton-wa/storm-damage-restoration/",
     "/service-areas/burien-wa/storm-damage-restoration/",
     "/service-areas/centralia-wa/storm-damage-restoration/",
+    "/service-areas/clover-creek-wa/storm-damage-restoration/",
     "/service-areas/dupont-wa/storm-damage-restoration/",
     "/service-areas/federal-way-wa/storm-damage-restoration/",
     "/service-areas/fife-wa/storm-damage-restoration/",
-    "/service-areas/fircrest-wa/storm-damage-restoration/",
-    "/service-areas/fort-lewis-wa/storm-damage-restoration/"
+    "/service-areas/fircrest-wa/storm-damage-restoration/"
   ],
   "/services/sewage-cleanup/": [
     "/services/",
@@ -199,11 +201,11 @@
     "/service-areas/bremerton-wa/sewage-cleanup/",
     "/service-areas/burien-wa/sewage-cleanup/",
     "/service-areas/centralia-wa/sewage-cleanup/",
+    "/service-areas/clover-creek-wa/sewage-cleanup/",
     "/service-areas/dupont-wa/sewage-cleanup/",
     "/service-areas/federal-way-wa/sewage-cleanup/",
     "/service-areas/fife-wa/sewage-cleanup/",
-    "/service-areas/fircrest-wa/sewage-cleanup/",
-    "/service-areas/fort-lewis-wa/sewage-cleanup/"
+    "/service-areas/fircrest-wa/sewage-cleanup/"
   ],
   "/services/asbestos-abatement/": [
     "/services/",
@@ -215,11 +217,11 @@
     "/service-areas/bremerton-wa/asbestos-abatement/",
     "/service-areas/burien-wa/asbestos-abatement/",
     "/service-areas/centralia-wa/asbestos-abatement/",
+    "/service-areas/clover-creek-wa/asbestos-abatement/",
     "/service-areas/dupont-wa/asbestos-abatement/",
     "/service-areas/federal-way-wa/asbestos-abatement/",
     "/service-areas/fife-wa/asbestos-abatement/",
-    "/service-areas/fircrest-wa/asbestos-abatement/",
-    "/service-areas/fort-lewis-wa/asbestos-abatement/"
+    "/service-areas/fircrest-wa/asbestos-abatement/"
   ],
   "/services/emergency-board-up-tarping/": [
     "/services/",
@@ -231,11 +233,11 @@
     "/service-areas/bremerton-wa/emergency-board-up-tarping/",
     "/service-areas/burien-wa/emergency-board-up-tarping/",
     "/service-areas/centralia-wa/emergency-board-up-tarping/",
+    "/service-areas/clover-creek-wa/emergency-board-up-tarping/",
     "/service-areas/dupont-wa/emergency-board-up-tarping/",
     "/service-areas/federal-way-wa/emergency-board-up-tarping/",
     "/service-areas/fife-wa/emergency-board-up-tarping/",
-    "/service-areas/fircrest-wa/emergency-board-up-tarping/",
-    "/service-areas/fort-lewis-wa/emergency-board-up-tarping/"
+    "/service-areas/fircrest-wa/emergency-board-up-tarping/"
   ],
   "/services/contents-restoration-storage/": [
     "/services/",
@@ -247,11 +249,11 @@
     "/service-areas/bremerton-wa/contents-restoration-storage/",
     "/service-areas/burien-wa/contents-restoration-storage/",
     "/service-areas/centralia-wa/contents-restoration-storage/",
+    "/service-areas/clover-creek-wa/contents-restoration-storage/",
     "/service-areas/dupont-wa/contents-restoration-storage/",
     "/service-areas/federal-way-wa/contents-restoration-storage/",
     "/service-areas/fife-wa/contents-restoration-storage/",
-    "/service-areas/fircrest-wa/contents-restoration-storage/",
-    "/service-areas/fort-lewis-wa/contents-restoration-storage/"
+    "/service-areas/fircrest-wa/contents-restoration-storage/"
   ],
   "/services/water-cleanup/": [
     "/services/",
@@ -263,11 +265,11 @@
     "/service-areas/bremerton-wa/water-cleanup/",
     "/service-areas/burien-wa/water-cleanup/",
     "/service-areas/centralia-wa/water-cleanup/",
+    "/service-areas/clover-creek-wa/water-cleanup/",
     "/service-areas/dupont-wa/water-cleanup/",
     "/service-areas/federal-way-wa/water-cleanup/",
     "/service-areas/fife-wa/water-cleanup/",
     "/service-areas/fircrest-wa/water-cleanup/",
-    "/service-areas/fort-lewis-wa/water-cleanup/",
     "/services/water-damage-restoration/"
   ],
   "/service-areas/tacoma-wa/": [
@@ -794,6 +796,22 @@
     "/service-areas/waller-wa/emergency-board-up-tarping/",
     "/service-areas/waller-wa/asbestos-abatement/",
     "/service-areas/waller-wa/contents-restoration-storage/",
+    "/service-areas/anderson-island-wa/",
+    "/service-areas/auburn-wa/",
+    "/service-areas/bellevue-wa/"
+  ],
+  "/service-areas/clover-creek-wa/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/clover-creek-wa/fire-damage-restoration/",
+    "/service-areas/clover-creek-wa/mold-remediation/",
+    "/service-areas/clover-creek-wa/water-damage-restoration/",
+    "/service-areas/clover-creek-wa/sewage-cleanup/",
+    "/service-areas/clover-creek-wa/storm-damage-restoration/",
+    "/service-areas/clover-creek-wa/water-cleanup/",
+    "/service-areas/clover-creek-wa/emergency-board-up-tarping/",
+    "/service-areas/clover-creek-wa/asbestos-abatement/",
+    "/service-areas/clover-creek-wa/contents-restoration-storage/",
     "/service-areas/anderson-island-wa/",
     "/service-areas/auburn-wa/",
     "/service-areas/bellevue-wa/"
@@ -3467,6 +3485,87 @@
     "/service-areas/waller-wa/",
     "/service-areas/waller-wa/fire-damage-restoration/",
     "/service-areas/waller-wa/mold-remediation/",
+    "/service-areas/anderson-island-wa/water-cleanup/",
+    "/service-areas/auburn-wa/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/clover-creek-wa/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/clover-creek-wa/",
+    "/service-areas/clover-creek-wa/fire-damage-restoration/",
+    "/service-areas/clover-creek-wa/mold-remediation/",
+    "/service-areas/anderson-island-wa/water-damage-restoration/",
+    "/service-areas/auburn-wa/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/clover-creek-wa/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/clover-creek-wa/",
+    "/service-areas/clover-creek-wa/mold-remediation/",
+    "/service-areas/clover-creek-wa/water-damage-restoration/",
+    "/service-areas/anderson-island-wa/fire-damage-restoration/",
+    "/service-areas/auburn-wa/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/clover-creek-wa/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/clover-creek-wa/",
+    "/service-areas/clover-creek-wa/fire-damage-restoration/",
+    "/service-areas/clover-creek-wa/water-damage-restoration/",
+    "/service-areas/anderson-island-wa/mold-remediation/",
+    "/service-areas/auburn-wa/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/clover-creek-wa/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/clover-creek-wa/",
+    "/service-areas/clover-creek-wa/fire-damage-restoration/",
+    "/service-areas/clover-creek-wa/mold-remediation/",
+    "/service-areas/anderson-island-wa/storm-damage-restoration/",
+    "/service-areas/auburn-wa/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/clover-creek-wa/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/clover-creek-wa/",
+    "/service-areas/clover-creek-wa/fire-damage-restoration/",
+    "/service-areas/clover-creek-wa/mold-remediation/",
+    "/service-areas/anderson-island-wa/sewage-cleanup/",
+    "/service-areas/auburn-wa/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/clover-creek-wa/asbestos-abatement/": [
+    "/services/asbestos-abatement/",
+    "/service-areas/clover-creek-wa/",
+    "/service-areas/clover-creek-wa/fire-damage-restoration/",
+    "/service-areas/clover-creek-wa/mold-remediation/",
+    "/service-areas/anderson-island-wa/asbestos-abatement/",
+    "/service-areas/auburn-wa/asbestos-abatement/",
+    "/contact/"
+  ],
+  "/service-areas/clover-creek-wa/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/clover-creek-wa/",
+    "/service-areas/clover-creek-wa/fire-damage-restoration/",
+    "/service-areas/clover-creek-wa/mold-remediation/",
+    "/service-areas/anderson-island-wa/emergency-board-up-tarping/",
+    "/service-areas/auburn-wa/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/clover-creek-wa/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/clover-creek-wa/",
+    "/service-areas/clover-creek-wa/fire-damage-restoration/",
+    "/service-areas/clover-creek-wa/mold-remediation/",
+    "/service-areas/anderson-island-wa/contents-restoration-storage/",
+    "/service-areas/auburn-wa/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/clover-creek-wa/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/clover-creek-wa/",
+    "/service-areas/clover-creek-wa/fire-damage-restoration/",
+    "/service-areas/clover-creek-wa/mold-remediation/",
     "/service-areas/anderson-island-wa/water-cleanup/",
     "/service-areas/auburn-wa/water-cleanup/",
     "/contact/"

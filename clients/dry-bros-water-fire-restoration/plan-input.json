@@ -134,6 +134,11 @@
       "city": "Elmwood Park",
       "state": "IL",
       "slug": "elmwood-park-il"
+    },
+    {
+      "city": "North Riverside",
+      "state": "IL",
+      "slug": "north-riverside-il"
     }
   ],
   "template": "restoration",

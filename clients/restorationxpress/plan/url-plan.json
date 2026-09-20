@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-20T18:59:17.525250+00:00",
+  "generated_at": "2026-09-20T19:37:24.366080+00:00",
   "input_summary": {
     "service_count": 7,
-    "service_area_count": 17,
+    "service_area_count": 18,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -50,6 +50,7 @@
         "/services/storm-damage-restoration/",
         "/services/water-cleanup/",
         "/service-areas/cooper-city-fl/",
+        "/service-areas/country-club-fl/",
         "/service-areas/dania-beach-fl/",
         "/service-areas/fort-lauderdale-fl/",
         "/service-areas/hallandale-beach-fl/",
@@ -136,6 +137,7 @@
       "internal_links_out": [
         "/",
         "/service-areas/cooper-city-fl/",
+        "/service-areas/country-club-fl/",
         "/service-areas/dania-beach-fl/",
         "/service-areas/fort-lauderdale-fl/",
         "/service-areas/hallandale-beach-fl/",
@@ -297,6 +299,7 @@
         "/services/",
         "/contact/",
         "/service-areas/cooper-city-fl/water-damage-restoration/",
+        "/service-areas/country-club-fl/water-damage-restoration/",
         "/service-areas/dania-beach-fl/water-damage-restoration/",
         "/service-areas/fort-lauderdale-fl/water-damage-restoration/",
         "/service-areas/hallandale-beach-fl/water-damage-restoration/",
@@ -307,7 +310,6 @@
         "/service-areas/miramar-fl/water-damage-restoration/",
         "/service-areas/oakland-park-fl/water-damage-restoration/",
         "/service-areas/pembroke-pines-fl/water-damage-restoration/",
-        "/service-areas/plantation-fl/water-damage-restoration/",
         "/services/water-cleanup/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
@@ -351,6 +353,7 @@
         "/services/",
         "/contact/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
+        "/service-areas/country-club-fl/fire-damage-restoration/",
         "/service-areas/dania-beach-fl/fire-damage-restoration/",
         "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
         "/service-areas/hallandale-beach-fl/fire-damage-restoration/",
@@ -361,7 +364,6 @@
         "/service-areas/miramar-fl/fire-damage-restoration/",
         "/service-areas/oakland-park-fl/fire-damage-restoration/",
         "/service-areas/pembroke-pines-fl/fire-damage-restoration/",
-        "/service-areas/plantation-fl/fire-damage-restoration/",
         "/blog/choosing-a-restoration-company/",
         "/blog/fire-damage-restoration-process/",
         "/blog/smoke-odor-removal-techniques/"
@@ -404,6 +406,7 @@
         "/services/",
         "/contact/",
         "/service-areas/cooper-city-fl/mold-remediation/",
+        "/service-areas/country-club-fl/mold-remediation/",
         "/service-areas/dania-beach-fl/mold-remediation/",
         "/service-areas/fort-lauderdale-fl/mold-remediation/",
         "/service-areas/hallandale-beach-fl/mold-remediation/",
@@ -414,7 +417,6 @@
         "/service-areas/miramar-fl/mold-remediation/",
         "/service-areas/oakland-park-fl/mold-remediation/",
         "/service-areas/pembroke-pines-fl/mold-remediation/",
-        "/service-areas/plantation-fl/mold-remediation/",
         "/blog/choosing-a-restoration-company/",
         "/blog/how-to-test-for-mold/",
         "/blog/signs-of-hidden-mold/"
@@ -457,6 +459,7 @@
         "/services/",
         "/contact/",
         "/service-areas/cooper-city-fl/storm-damage-restoration/",
+        "/service-areas/country-club-fl/storm-damage-restoration/",
         "/service-areas/dania-beach-fl/storm-damage-restoration/",
         "/service-areas/fort-lauderdale-fl/storm-damage-restoration/",
         "/service-areas/hallandale-beach-fl/storm-damage-restoration/",
@@ -467,7 +470,6 @@
         "/service-areas/miramar-fl/storm-damage-restoration/",
         "/service-areas/oakland-park-fl/storm-damage-restoration/",
         "/service-areas/pembroke-pines-fl/storm-damage-restoration/",
-        "/service-areas/plantation-fl/storm-damage-restoration/",
         "/blog/storm-damage-insurance-claim-checklist/"
       ]
     },
@@ -508,6 +510,7 @@
         "/services/",
         "/contact/",
         "/service-areas/cooper-city-fl/flood-damage-restoration/",
+        "/service-areas/country-club-fl/flood-damage-restoration/",
         "/service-areas/dania-beach-fl/flood-damage-restoration/",
         "/service-areas/fort-lauderdale-fl/flood-damage-restoration/",
         "/service-areas/hallandale-beach-fl/flood-damage-restoration/",
@@ -517,8 +520,7 @@
         "/service-areas/miami-gardens-fl/flood-damage-restoration/",
         "/service-areas/miramar-fl/flood-damage-restoration/",
         "/service-areas/oakland-park-fl/flood-damage-restoration/",
-        "/service-areas/pembroke-pines-fl/flood-damage-restoration/",
-        "/service-areas/plantation-fl/flood-damage-restoration/"
+        "/service-areas/pembroke-pines-fl/flood-damage-restoration/"
       ]
     },
     {
@@ -558,6 +560,7 @@
         "/services/",
         "/contact/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
+        "/service-areas/country-club-fl/smoke-damage-restoration/",
         "/service-areas/dania-beach-fl/smoke-damage-restoration/",
         "/service-areas/fort-lauderdale-fl/smoke-damage-restoration/",
         "/service-areas/hallandale-beach-fl/smoke-damage-restoration/",
@@ -568,7 +571,6 @@
         "/service-areas/miramar-fl/smoke-damage-restoration/",
         "/service-areas/oakland-park-fl/smoke-damage-restoration/",
         "/service-areas/pembroke-pines-fl/smoke-damage-restoration/",
-        "/service-areas/plantation-fl/smoke-damage-restoration/",
         "/blog/fire-damage-restoration-process/",
         "/blog/smoke-odor-removal-techniques/"
       ]
@@ -610,6 +612,7 @@
         "/services/",
         "/contact/",
         "/service-areas/cooper-city-fl/water-cleanup/",
+        "/service-areas/country-club-fl/water-cleanup/",
         "/service-areas/dania-beach-fl/water-cleanup/",
         "/service-areas/fort-lauderdale-fl/water-cleanup/",
         "/service-areas/hallandale-beach-fl/water-cleanup/",
@@ -620,7 +623,6 @@
         "/service-areas/miramar-fl/water-cleanup/",
         "/service-areas/oakland-park-fl/water-cleanup/",
         "/service-areas/pembroke-pines-fl/water-cleanup/",
-        "/service-areas/plantation-fl/water-cleanup/",
         "/services/water-damage-restoration/"
       ]
     },
@@ -664,8 +666,8 @@
         "/service-areas/fort-lauderdale-fl/storm-damage-restoration/",
         "/service-areas/fort-lauderdale-fl/water-cleanup/",
         "/service-areas/cooper-city-fl/",
-        "/service-areas/dania-beach-fl/",
-        "/service-areas/hallandale-beach-fl/"
+        "/service-areas/country-club-fl/",
+        "/service-areas/dania-beach-fl/"
       ]
     },
     {
@@ -708,8 +710,8 @@
         "/service-areas/hollywood-fl/storm-damage-restoration/",
         "/service-areas/hollywood-fl/water-cleanup/",
         "/service-areas/cooper-city-fl/",
-        "/service-areas/dania-beach-fl/",
-        "/service-areas/fort-lauderdale-fl/"
+        "/service-areas/country-club-fl/",
+        "/service-areas/dania-beach-fl/"
       ]
     },
     {
@@ -752,8 +754,8 @@
         "/service-areas/plantation-fl/storm-damage-restoration/",
         "/service-areas/plantation-fl/water-cleanup/",
         "/service-areas/cooper-city-fl/",
-        "/service-areas/dania-beach-fl/",
-        "/service-areas/fort-lauderdale-fl/"
+        "/service-areas/country-club-fl/",
+        "/service-areas/dania-beach-fl/"
       ]
     },
     {
@@ -796,8 +798,8 @@
         "/service-areas/sunrise-fl/storm-damage-restoration/",
         "/service-areas/sunrise-fl/water-cleanup/",
         "/service-areas/cooper-city-fl/",
-        "/service-areas/dania-beach-fl/",
-        "/service-areas/fort-lauderdale-fl/"
+        "/service-areas/country-club-fl/",
+        "/service-areas/dania-beach-fl/"
       ]
     },
     {
@@ -839,9 +841,9 @@
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
         "/service-areas/cooper-city-fl/storm-damage-restoration/",
         "/service-areas/cooper-city-fl/water-cleanup/",
+        "/service-areas/country-club-fl/",
         "/service-areas/dania-beach-fl/",
-        "/service-areas/fort-lauderdale-fl/",
-        "/service-areas/hallandale-beach-fl/"
+        "/service-areas/fort-lauderdale-fl/"
       ]
     },
     {
@@ -884,8 +886,8 @@
         "/service-areas/weston-fl/storm-damage-restoration/",
         "/service-areas/weston-fl/water-cleanup/",
         "/service-areas/cooper-city-fl/",
-        "/service-areas/dania-beach-fl/",
-        "/service-areas/fort-lauderdale-fl/"
+        "/service-areas/country-club-fl/",
+        "/service-areas/dania-beach-fl/"
       ]
     },
     {
@@ -928,8 +930,8 @@
         "/service-areas/pembroke-pines-fl/storm-damage-restoration/",
         "/service-areas/pembroke-pines-fl/water-cleanup/",
         "/service-areas/cooper-city-fl/",
-        "/service-areas/dania-beach-fl/",
-        "/service-areas/fort-lauderdale-fl/"
+        "/service-areas/country-club-fl/",
+        "/service-areas/dania-beach-fl/"
       ]
     },
     {
@@ -972,8 +974,8 @@
         "/service-areas/miramar-fl/storm-damage-restoration/",
         "/service-areas/miramar-fl/water-cleanup/",
         "/service-areas/cooper-city-fl/",
-        "/service-areas/dania-beach-fl/",
-        "/service-areas/fort-lauderdale-fl/"
+        "/service-areas/country-club-fl/",
+        "/service-areas/dania-beach-fl/"
       ]
     },
     {
@@ -1016,8 +1018,8 @@
         "/service-areas/dania-beach-fl/storm-damage-restoration/",
         "/service-areas/dania-beach-fl/water-cleanup/",
         "/service-areas/cooper-city-fl/",
-        "/service-areas/fort-lauderdale-fl/",
-        "/service-areas/hallandale-beach-fl/"
+        "/service-areas/country-club-fl/",
+        "/service-areas/fort-lauderdale-fl/"
       ]
     },
     {
@@ -1060,8 +1062,8 @@
         "/service-areas/west-park-fl/storm-damage-restoration/",
         "/service-areas/west-park-fl/water-cleanup/",
         "/service-areas/cooper-city-fl/",
-        "/service-areas/dania-beach-fl/",
-        "/service-areas/fort-lauderdale-fl/"
+        "/service-areas/country-club-fl/",
+        "/service-areas/dania-beach-fl/"
       ]
     },
     {
@@ -1104,8 +1106,8 @@
         "/service-areas/miami-gardens-fl/storm-damage-restoration/",
         "/service-areas/miami-gardens-fl/water-cleanup/",
         "/service-areas/cooper-city-fl/",
-        "/service-areas/dania-beach-fl/",
-        "/service-areas/fort-lauderdale-fl/"
+        "/service-areas/country-club-fl/",
+        "/service-areas/dania-beach-fl/"
       ]
     },
     {
@@ -1148,8 +1150,8 @@
         "/service-areas/lauderhill-fl/storm-damage-restoration/",
         "/service-areas/lauderhill-fl/water-cleanup/",
         "/service-areas/cooper-city-fl/",
-        "/service-areas/dania-beach-fl/",
-        "/service-areas/fort-lauderdale-fl/"
+        "/service-areas/country-club-fl/",
+        "/service-areas/dania-beach-fl/"
       ]
     },
     {
@@ -1192,8 +1194,8 @@
         "/service-areas/hallandale-beach-fl/storm-damage-restoration/",
         "/service-areas/hallandale-beach-fl/water-cleanup/",
         "/service-areas/cooper-city-fl/",
-        "/service-areas/dania-beach-fl/",
-        "/service-areas/fort-lauderdale-fl/"
+        "/service-areas/country-club-fl/",
+        "/service-areas/dania-beach-fl/"
       ]
     },
     {
@@ -1236,8 +1238,8 @@
         "/service-areas/lauderdale-lakes-fl/storm-damage-restoration/",
         "/service-areas/lauderdale-lakes-fl/water-cleanup/",
         "/service-areas/cooper-city-fl/",
-        "/service-areas/dania-beach-fl/",
-        "/service-areas/fort-lauderdale-fl/"
+        "/service-areas/country-club-fl/",
+        "/service-areas/dania-beach-fl/"
       ]
     },
     {
@@ -1280,8 +1282,8 @@
         "/service-areas/southwest-ranches-fl/storm-damage-restoration/",
         "/service-areas/southwest-ranches-fl/water-cleanup/",
         "/service-areas/cooper-city-fl/",
-        "/service-areas/dania-beach-fl/",
-        "/service-areas/fort-lauderdale-fl/"
+        "/service-areas/country-club-fl/",
+        "/service-areas/dania-beach-fl/"
       ]
     },
     {
@@ -1323,6 +1325,50 @@
         "/service-areas/oakland-park-fl/smoke-damage-restoration/",
         "/service-areas/oakland-park-fl/storm-damage-restoration/",
         "/service-areas/oakland-park-fl/water-cleanup/",
+        "/service-areas/cooper-city-fl/",
+        "/service-areas/country-club-fl/",
+        "/service-areas/dania-beach-fl/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/country-club-fl/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Country Club, FL | RestorationXpress ",
+      "h1": "Restoration Services in Country Club",
+      "meta_description": "Serving Country Club, FL with water, fire, mold, and storm damage restoration. Experienced team. Call (954) 964-6471.",
+      "primary_keyword": "restoration services country club",
+      "secondary_keywords": [
+        "country club restoration company",
+        "damage restoration country club",
+        "country club disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/country-club-fl/fire-damage-restoration/",
+        "/service-areas/country-club-fl/mold-remediation/",
+        "/service-areas/country-club-fl/water-damage-restoration/",
+        "/service-areas/country-club-fl/flood-damage-restoration/",
+        "/service-areas/country-club-fl/smoke-damage-restoration/",
+        "/service-areas/country-club-fl/storm-damage-restoration/",
+        "/service-areas/country-club-fl/water-cleanup/",
         "/service-areas/cooper-city-fl/",
         "/service-areas/dania-beach-fl/",
         "/service-areas/fort-lauderdale-fl/"
@@ -1368,7 +1414,7 @@
         "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
         "/service-areas/fort-lauderdale-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-damage-restoration/",
-        "/service-areas/dania-beach-fl/water-damage-restoration/",
+        "/service-areas/country-club-fl/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1412,7 +1458,7 @@
         "/service-areas/fort-lauderdale-fl/mold-remediation/",
         "/service-areas/fort-lauderdale-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
-        "/service-areas/dania-beach-fl/fire-damage-restoration/",
+        "/service-areas/country-club-fl/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1456,7 +1502,7 @@
         "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
         "/service-areas/fort-lauderdale-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
-        "/service-areas/dania-beach-fl/mold-remediation/",
+        "/service-areas/country-club-fl/mold-remediation/",
         "/contact/"
       ]
     },
@@ -1500,7 +1546,7 @@
         "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
         "/service-areas/fort-lauderdale-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/storm-damage-restoration/",
-        "/service-areas/dania-beach-fl/storm-damage-restoration/",
+        "/service-areas/country-club-fl/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1544,7 +1590,7 @@
         "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
         "/service-areas/fort-lauderdale-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/flood-damage-restoration/",
-        "/service-areas/dania-beach-fl/flood-damage-restoration/",
+        "/service-areas/country-club-fl/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1588,7 +1634,7 @@
         "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
         "/service-areas/fort-lauderdale-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/service-areas/dania-beach-fl/smoke-damage-restoration/",
+        "/service-areas/country-club-fl/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1632,7 +1678,7 @@
         "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
         "/service-areas/fort-lauderdale-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-cleanup/",
-        "/service-areas/dania-beach-fl/water-cleanup/",
+        "/service-areas/country-club-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -1676,7 +1722,7 @@
         "/service-areas/hollywood-fl/fire-damage-restoration/",
         "/service-areas/hollywood-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-damage-restoration/",
-        "/service-areas/dania-beach-fl/water-damage-restoration/",
+        "/service-areas/country-club-fl/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1720,7 +1766,7 @@
         "/service-areas/hollywood-fl/mold-remediation/",
         "/service-areas/hollywood-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
-        "/service-areas/dania-beach-fl/fire-damage-restoration/",
+        "/service-areas/country-club-fl/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1764,7 +1810,7 @@
         "/service-areas/hollywood-fl/fire-damage-restoration/",
         "/service-areas/hollywood-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
-        "/service-areas/dania-beach-fl/mold-remediation/",
+        "/service-areas/country-club-fl/mold-remediation/",
         "/contact/"
       ]
     },
@@ -1808,7 +1854,7 @@
         "/service-areas/hollywood-fl/fire-damage-restoration/",
         "/service-areas/hollywood-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/storm-damage-restoration/",
-        "/service-areas/dania-beach-fl/storm-damage-restoration/",
+        "/service-areas/country-club-fl/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1852,7 +1898,7 @@
         "/service-areas/hollywood-fl/fire-damage-restoration/",
         "/service-areas/hollywood-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/flood-damage-restoration/",
-        "/service-areas/dania-beach-fl/flood-damage-restoration/",
+        "/service-areas/country-club-fl/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1896,7 +1942,7 @@
         "/service-areas/hollywood-fl/fire-damage-restoration/",
         "/service-areas/hollywood-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/service-areas/dania-beach-fl/smoke-damage-restoration/",
+        "/service-areas/country-club-fl/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1940,7 +1986,7 @@
         "/service-areas/hollywood-fl/fire-damage-restoration/",
         "/service-areas/hollywood-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-cleanup/",
-        "/service-areas/dania-beach-fl/water-cleanup/",
+        "/service-areas/country-club-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -1984,7 +2030,7 @@
         "/service-areas/plantation-fl/fire-damage-restoration/",
         "/service-areas/plantation-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-damage-restoration/",
-        "/service-areas/dania-beach-fl/water-damage-restoration/",
+        "/service-areas/country-club-fl/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2028,7 +2074,7 @@
         "/service-areas/plantation-fl/mold-remediation/",
         "/service-areas/plantation-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
-        "/service-areas/dania-beach-fl/fire-damage-restoration/",
+        "/service-areas/country-club-fl/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2072,7 +2118,7 @@
         "/service-areas/plantation-fl/fire-damage-restoration/",
         "/service-areas/plantation-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
-        "/service-areas/dania-beach-fl/mold-remediation/",
+        "/service-areas/country-club-fl/mold-remediation/",
         "/contact/"
       ]
     },
@@ -2116,7 +2162,7 @@
         "/service-areas/plantation-fl/fire-damage-restoration/",
         "/service-areas/plantation-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/storm-damage-restoration/",
-        "/service-areas/dania-beach-fl/storm-damage-restoration/",
+        "/service-areas/country-club-fl/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2160,7 +2206,7 @@
         "/service-areas/plantation-fl/fire-damage-restoration/",
         "/service-areas/plantation-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/flood-damage-restoration/",
-        "/service-areas/dania-beach-fl/flood-damage-restoration/",
+        "/service-areas/country-club-fl/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2204,7 +2250,7 @@
         "/service-areas/plantation-fl/fire-damage-restoration/",
         "/service-areas/plantation-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/service-areas/dania-beach-fl/smoke-damage-restoration/",
+        "/service-areas/country-club-fl/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2248,7 +2294,7 @@
         "/service-areas/plantation-fl/fire-damage-restoration/",
         "/service-areas/plantation-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-cleanup/",
-        "/service-areas/dania-beach-fl/water-cleanup/",
+        "/service-areas/country-club-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2292,7 +2338,7 @@
         "/service-areas/sunrise-fl/fire-damage-restoration/",
         "/service-areas/sunrise-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-damage-restoration/",
-        "/service-areas/dania-beach-fl/water-damage-restoration/",
+        "/service-areas/country-club-fl/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2336,7 +2382,7 @@
         "/service-areas/sunrise-fl/mold-remediation/",
         "/service-areas/sunrise-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
-        "/service-areas/dania-beach-fl/fire-damage-restoration/",
+        "/service-areas/country-club-fl/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2380,7 +2426,7 @@
         "/service-areas/sunrise-fl/fire-damage-restoration/",
         "/service-areas/sunrise-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
-        "/service-areas/dania-beach-fl/mold-remediation/",
+        "/service-areas/country-club-fl/mold-remediation/",
         "/contact/"
       ]
     },
@@ -2424,7 +2470,7 @@
         "/service-areas/sunrise-fl/fire-damage-restoration/",
         "/service-areas/sunrise-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/storm-damage-restoration/",
-        "/service-areas/dania-beach-fl/storm-damage-restoration/",
+        "/service-areas/country-club-fl/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2468,7 +2514,7 @@
         "/service-areas/sunrise-fl/fire-damage-restoration/",
         "/service-areas/sunrise-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/flood-damage-restoration/",
-        "/service-areas/dania-beach-fl/flood-damage-restoration/",
+        "/service-areas/country-club-fl/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2512,7 +2558,7 @@
         "/service-areas/sunrise-fl/fire-damage-restoration/",
         "/service-areas/sunrise-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/service-areas/dania-beach-fl/smoke-damage-restoration/",
+        "/service-areas/country-club-fl/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2556,7 +2602,7 @@
         "/service-areas/sunrise-fl/fire-damage-restoration/",
         "/service-areas/sunrise-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-cleanup/",
-        "/service-areas/dania-beach-fl/water-cleanup/",
+        "/service-areas/country-club-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2599,8 +2645,8 @@
         "/service-areas/cooper-city-fl/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
+        "/service-areas/country-club-fl/water-damage-restoration/",
         "/service-areas/dania-beach-fl/water-damage-restoration/",
-        "/service-areas/fort-lauderdale-fl/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2643,8 +2689,8 @@
         "/service-areas/cooper-city-fl/",
         "/service-areas/cooper-city-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-damage-restoration/",
+        "/service-areas/country-club-fl/fire-damage-restoration/",
         "/service-areas/dania-beach-fl/fire-damage-restoration/",
-        "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2687,8 +2733,8 @@
         "/service-areas/cooper-city-fl/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
         "/service-areas/cooper-city-fl/water-damage-restoration/",
+        "/service-areas/country-club-fl/mold-remediation/",
         "/service-areas/dania-beach-fl/mold-remediation/",
-        "/service-areas/fort-lauderdale-fl/mold-remediation/",
         "/contact/"
       ]
     },
@@ -2731,8 +2777,8 @@
         "/service-areas/cooper-city-fl/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
+        "/service-areas/country-club-fl/storm-damage-restoration/",
         "/service-areas/dania-beach-fl/storm-damage-restoration/",
-        "/service-areas/fort-lauderdale-fl/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2775,8 +2821,8 @@
         "/service-areas/cooper-city-fl/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
+        "/service-areas/country-club-fl/flood-damage-restoration/",
         "/service-areas/dania-beach-fl/flood-damage-restoration/",
-        "/service-areas/fort-lauderdale-fl/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2819,8 +2865,8 @@
         "/service-areas/cooper-city-fl/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
+        "/service-areas/country-club-fl/smoke-damage-restoration/",
         "/service-areas/dania-beach-fl/smoke-damage-restoration/",
-        "/service-areas/fort-lauderdale-fl/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2863,8 +2909,8 @@
         "/service-areas/cooper-city-fl/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
+        "/service-areas/country-club-fl/water-cleanup/",
         "/service-areas/dania-beach-fl/water-cleanup/",
-        "/service-areas/fort-lauderdale-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2908,7 +2954,7 @@
         "/service-areas/weston-fl/fire-damage-restoration/",
         "/service-areas/weston-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-damage-restoration/",
-        "/service-areas/dania-beach-fl/water-damage-restoration/",
+        "/service-areas/country-club-fl/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2952,7 +2998,7 @@
         "/service-areas/weston-fl/mold-remediation/",
         "/service-areas/weston-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
-        "/service-areas/dania-beach-fl/fire-damage-restoration/",
+        "/service-areas/country-club-fl/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2996,7 +3042,7 @@
         "/service-areas/weston-fl/fire-damage-restoration/",
         "/service-areas/weston-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
-        "/service-areas/dania-beach-fl/mold-remediation/",
+        "/service-areas/country-club-fl/mold-remediation/",
         "/contact/"
       ]
     },
@@ -3040,7 +3086,7 @@
         "/service-areas/weston-fl/fire-damage-restoration/",
         "/service-areas/weston-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/storm-damage-restoration/",
-        "/service-areas/dania-beach-fl/storm-damage-restoration/",
+        "/service-areas/country-club-fl/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3084,7 +3130,7 @@
         "/service-areas/weston-fl/fire-damage-restoration/",
         "/service-areas/weston-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/flood-damage-restoration/",
-        "/service-areas/dania-beach-fl/flood-damage-restoration/",
+        "/service-areas/country-club-fl/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3128,7 +3174,7 @@
         "/service-areas/weston-fl/fire-damage-restoration/",
         "/service-areas/weston-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/service-areas/dania-beach-fl/smoke-damage-restoration/",
+        "/service-areas/country-club-fl/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3172,7 +3218,7 @@
         "/service-areas/weston-fl/fire-damage-restoration/",
         "/service-areas/weston-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-cleanup/",
-        "/service-areas/dania-beach-fl/water-cleanup/",
+        "/service-areas/country-club-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3216,7 +3262,7 @@
         "/service-areas/pembroke-pines-fl/fire-damage-restoration/",
         "/service-areas/pembroke-pines-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-damage-restoration/",
-        "/service-areas/dania-beach-fl/water-damage-restoration/",
+        "/service-areas/country-club-fl/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3260,7 +3306,7 @@
         "/service-areas/pembroke-pines-fl/mold-remediation/",
         "/service-areas/pembroke-pines-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
-        "/service-areas/dania-beach-fl/fire-damage-restoration/",
+        "/service-areas/country-club-fl/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3304,7 +3350,7 @@
         "/service-areas/pembroke-pines-fl/fire-damage-restoration/",
         "/service-areas/pembroke-pines-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
-        "/service-areas/dania-beach-fl/mold-remediation/",
+        "/service-areas/country-club-fl/mold-remediation/",
         "/contact/"
       ]
     },
@@ -3348,7 +3394,7 @@
         "/service-areas/pembroke-pines-fl/fire-damage-restoration/",
         "/service-areas/pembroke-pines-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/storm-damage-restoration/",
-        "/service-areas/dania-beach-fl/storm-damage-restoration/",
+        "/service-areas/country-club-fl/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3392,7 +3438,7 @@
         "/service-areas/pembroke-pines-fl/fire-damage-restoration/",
         "/service-areas/pembroke-pines-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/flood-damage-restoration/",
-        "/service-areas/dania-beach-fl/flood-damage-restoration/",
+        "/service-areas/country-club-fl/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3436,7 +3482,7 @@
         "/service-areas/pembroke-pines-fl/fire-damage-restoration/",
         "/service-areas/pembroke-pines-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/service-areas/dania-beach-fl/smoke-damage-restoration/",
+        "/service-areas/country-club-fl/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3480,7 +3526,7 @@
         "/service-areas/pembroke-pines-fl/fire-damage-restoration/",
         "/service-areas/pembroke-pines-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-cleanup/",
-        "/service-areas/dania-beach-fl/water-cleanup/",
+        "/service-areas/country-club-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3524,7 +3570,7 @@
         "/service-areas/miramar-fl/fire-damage-restoration/",
         "/service-areas/miramar-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-damage-restoration/",
-        "/service-areas/dania-beach-fl/water-damage-restoration/",
+        "/service-areas/country-club-fl/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3568,7 +3614,7 @@
         "/service-areas/miramar-fl/mold-remediation/",
         "/service-areas/miramar-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
-        "/service-areas/dania-beach-fl/fire-damage-restoration/",
+        "/service-areas/country-club-fl/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3612,7 +3658,7 @@
         "/service-areas/miramar-fl/fire-damage-restoration/",
         "/service-areas/miramar-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
-        "/service-areas/dania-beach-fl/mold-remediation/",
+        "/service-areas/country-club-fl/mold-remediation/",
         "/contact/"
       ]
     },
@@ -3656,7 +3702,7 @@
         "/service-areas/miramar-fl/fire-damage-restoration/",
         "/service-areas/miramar-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/storm-damage-restoration/",
-        "/service-areas/dania-beach-fl/storm-damage-restoration/",
+        "/service-areas/country-club-fl/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3700,7 +3746,7 @@
         "/service-areas/miramar-fl/fire-damage-restoration/",
         "/service-areas/miramar-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/flood-damage-restoration/",
-        "/service-areas/dania-beach-fl/flood-damage-restoration/",
+        "/service-areas/country-club-fl/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3744,7 +3790,7 @@
         "/service-areas/miramar-fl/fire-damage-restoration/",
         "/service-areas/miramar-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/service-areas/dania-beach-fl/smoke-damage-restoration/",
+        "/service-areas/country-club-fl/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3788,7 +3834,7 @@
         "/service-areas/miramar-fl/fire-damage-restoration/",
         "/service-areas/miramar-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-cleanup/",
-        "/service-areas/dania-beach-fl/water-cleanup/",
+        "/service-areas/country-club-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3832,7 +3878,7 @@
         "/service-areas/dania-beach-fl/fire-damage-restoration/",
         "/service-areas/dania-beach-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-damage-restoration/",
-        "/service-areas/fort-lauderdale-fl/water-damage-restoration/",
+        "/service-areas/country-club-fl/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3876,7 +3922,7 @@
         "/service-areas/dania-beach-fl/mold-remediation/",
         "/service-areas/dania-beach-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
-        "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
+        "/service-areas/country-club-fl/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3920,7 +3966,7 @@
         "/service-areas/dania-beach-fl/fire-damage-restoration/",
         "/service-areas/dania-beach-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
-        "/service-areas/fort-lauderdale-fl/mold-remediation/",
+        "/service-areas/country-club-fl/mold-remediation/",
         "/contact/"
       ]
     },
@@ -3964,7 +4010,7 @@
         "/service-areas/dania-beach-fl/fire-damage-restoration/",
         "/service-areas/dania-beach-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/storm-damage-restoration/",
-        "/service-areas/fort-lauderdale-fl/storm-damage-restoration/",
+        "/service-areas/country-club-fl/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4008,7 +4054,7 @@
         "/service-areas/dania-beach-fl/fire-damage-restoration/",
         "/service-areas/dania-beach-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/flood-damage-restoration/",
-        "/service-areas/fort-lauderdale-fl/flood-damage-restoration/",
+        "/service-areas/country-club-fl/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4052,7 +4098,7 @@
         "/service-areas/dania-beach-fl/fire-damage-restoration/",
         "/service-areas/dania-beach-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/service-areas/fort-lauderdale-fl/smoke-damage-restoration/",
+        "/service-areas/country-club-fl/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4096,7 +4142,7 @@
         "/service-areas/dania-beach-fl/fire-damage-restoration/",
         "/service-areas/dania-beach-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-cleanup/",
-        "/service-areas/fort-lauderdale-fl/water-cleanup/",
+        "/service-areas/country-club-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4140,7 +4186,7 @@
         "/service-areas/west-park-fl/fire-damage-restoration/",
         "/service-areas/west-park-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-damage-restoration/",
-        "/service-areas/dania-beach-fl/water-damage-restoration/",
+        "/service-areas/country-club-fl/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4184,7 +4230,7 @@
         "/service-areas/west-park-fl/mold-remediation/",
         "/service-areas/west-park-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
-        "/service-areas/dania-beach-fl/fire-damage-restoration/",
+        "/service-areas/country-club-fl/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4228,7 +4274,7 @@
         "/service-areas/west-park-fl/fire-damage-restoration/",
         "/service-areas/west-park-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
-        "/service-areas/dania-beach-fl/mold-remediation/",
+        "/service-areas/country-club-fl/mold-remediation/",
         "/contact/"
       ]
     },
@@ -4272,7 +4318,7 @@
         "/service-areas/west-park-fl/fire-damage-restoration/",
         "/service-areas/west-park-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/storm-damage-restoration/",
-        "/service-areas/dania-beach-fl/storm-damage-restoration/",
+        "/service-areas/country-club-fl/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4316,7 +4362,7 @@
         "/service-areas/west-park-fl/fire-damage-restoration/",
         "/service-areas/west-park-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/flood-damage-restoration/",
-        "/service-areas/dania-beach-fl/flood-damage-restoration/",
+        "/service-areas/country-club-fl/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4360,7 +4406,7 @@
         "/service-areas/west-park-fl/fire-damage-restoration/",
         "/service-areas/west-park-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/service-areas/dania-beach-fl/smoke-damage-restoration/",
+        "/service-areas/country-club-fl/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4404,7 +4450,7 @@
         "/service-areas/west-park-fl/fire-damage-restoration/",
         "/service-areas/west-park-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-cleanup/",
-        "/service-areas/dania-beach-fl/water-cleanup/",
+        "/service-areas/country-club-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4448,7 +4494,7 @@
         "/service-areas/miami-gardens-fl/fire-damage-restoration/",
         "/service-areas/miami-gardens-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-damage-restoration/",
-        "/service-areas/dania-beach-fl/water-damage-restoration/",
+        "/service-areas/country-club-fl/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4492,7 +4538,7 @@
         "/service-areas/miami-gardens-fl/mold-remediation/",
         "/service-areas/miami-gardens-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
-        "/service-areas/dania-beach-fl/fire-damage-restoration/",
+        "/service-areas/country-club-fl/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4536,7 +4582,7 @@
         "/service-areas/miami-gardens-fl/fire-damage-restoration/",
         "/service-areas/miami-gardens-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
-        "/service-areas/dania-beach-fl/mold-remediation/",
+        "/service-areas/country-club-fl/mold-remediation/",
         "/contact/"
       ]
     },
@@ -4580,7 +4626,7 @@
         "/service-areas/miami-gardens-fl/fire-damage-restoration/",
         "/service-areas/miami-gardens-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/storm-damage-restoration/",
-        "/service-areas/dania-beach-fl/storm-damage-restoration/",
+        "/service-areas/country-club-fl/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4624,7 +4670,7 @@
         "/service-areas/miami-gardens-fl/fire-damage-restoration/",
         "/service-areas/miami-gardens-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/flood-damage-restoration/",
-        "/service-areas/dania-beach-fl/flood-damage-restoration/",
+        "/service-areas/country-club-fl/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4668,7 +4714,7 @@
         "/service-areas/miami-gardens-fl/fire-damage-restoration/",
         "/service-areas/miami-gardens-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/service-areas/dania-beach-fl/smoke-damage-restoration/",
+        "/service-areas/country-club-fl/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4712,7 +4758,7 @@
         "/service-areas/miami-gardens-fl/fire-damage-restoration/",
         "/service-areas/miami-gardens-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-cleanup/",
-        "/service-areas/dania-beach-fl/water-cleanup/",
+        "/service-areas/country-club-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4756,7 +4802,7 @@
         "/service-areas/lauderhill-fl/fire-damage-restoration/",
         "/service-areas/lauderhill-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-damage-restoration/",
-        "/service-areas/dania-beach-fl/water-damage-restoration/",
+        "/service-areas/country-club-fl/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4800,7 +4846,7 @@
         "/service-areas/lauderhill-fl/mold-remediation/",
         "/service-areas/lauderhill-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
-        "/service-areas/dania-beach-fl/fire-damage-restoration/",
+        "/service-areas/country-club-fl/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4844,7 +4890,7 @@
         "/service-areas/lauderhill-fl/fire-damage-restoration/",
         "/service-areas/lauderhill-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
-        "/service-areas/dania-beach-fl/mold-remediation/",
+        "/service-areas/country-club-fl/mold-remediation/",
         "/contact/"
       ]
     },
@@ -4888,7 +4934,7 @@
         "/service-areas/lauderhill-fl/fire-damage-restoration/",
         "/service-areas/lauderhill-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/storm-damage-restoration/",
-        "/service-areas/dania-beach-fl/storm-damage-restoration/",
+        "/service-areas/country-club-fl/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4932,7 +4978,7 @@
         "/service-areas/lauderhill-fl/fire-damage-restoration/",
         "/service-areas/lauderhill-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/flood-damage-restoration/",
-        "/service-areas/dania-beach-fl/flood-damage-restoration/",
+        "/service-areas/country-club-fl/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4976,7 +5022,7 @@
         "/service-areas/lauderhill-fl/fire-damage-restoration/",
         "/service-areas/lauderhill-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/service-areas/dania-beach-fl/smoke-damage-restoration/",
+        "/service-areas/country-club-fl/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5020,7 +5066,7 @@
         "/service-areas/lauderhill-fl/fire-damage-restoration/",
         "/service-areas/lauderhill-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-cleanup/",
-        "/service-areas/dania-beach-fl/water-cleanup/",
+        "/service-areas/country-club-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -5064,7 +5110,7 @@
         "/service-areas/hallandale-beach-fl/fire-damage-restoration/",
         "/service-areas/hallandale-beach-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-damage-restoration/",
-        "/service-areas/dania-beach-fl/water-damage-restoration/",
+        "/service-areas/country-club-fl/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5108,7 +5154,7 @@
         "/service-areas/hallandale-beach-fl/mold-remediation/",
         "/service-areas/hallandale-beach-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
-        "/service-areas/dania-beach-fl/fire-damage-restoration/",
+        "/service-areas/country-club-fl/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5152,7 +5198,7 @@
         "/service-areas/hallandale-beach-fl/fire-damage-restoration/",
         "/service-areas/hallandale-beach-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
-        "/service-areas/dania-beach-fl/mold-remediation/",
+        "/service-areas/country-club-fl/mold-remediation/",
         "/contact/"
       ]
     },
@@ -5196,7 +5242,7 @@
         "/service-areas/hallandale-beach-fl/fire-damage-restoration/",
         "/service-areas/hallandale-beach-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/storm-damage-restoration/",
-        "/service-areas/dania-beach-fl/storm-damage-restoration/",
+        "/service-areas/country-club-fl/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5240,7 +5286,7 @@
         "/service-areas/hallandale-beach-fl/fire-damage-restoration/",
         "/service-areas/hallandale-beach-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/flood-damage-restoration/",
-        "/service-areas/dania-beach-fl/flood-damage-restoration/",
+        "/service-areas/country-club-fl/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5284,7 +5330,7 @@
         "/service-areas/hallandale-beach-fl/fire-damage-restoration/",
         "/service-areas/hallandale-beach-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/service-areas/dania-beach-fl/smoke-damage-restoration/",
+        "/service-areas/country-club-fl/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5328,7 +5374,7 @@
         "/service-areas/hallandale-beach-fl/fire-damage-restoration/",
         "/service-areas/hallandale-beach-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-cleanup/",
-        "/service-areas/dania-beach-fl/water-cleanup/",
+        "/service-areas/country-club-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -5372,7 +5418,7 @@
         "/service-areas/lauderdale-lakes-fl/fire-damage-restoration/",
         "/service-areas/lauderdale-lakes-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-damage-restoration/",
-        "/service-areas/dania-beach-fl/water-damage-restoration/",
+        "/service-areas/country-club-fl/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5416,7 +5462,7 @@
         "/service-areas/lauderdale-lakes-fl/mold-remediation/",
         "/service-areas/lauderdale-lakes-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
-        "/service-areas/dania-beach-fl/fire-damage-restoration/",
+        "/service-areas/country-club-fl/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5460,7 +5506,7 @@
         "/service-areas/lauderdale-lakes-fl/fire-damage-restoration/",
         "/service-areas/lauderdale-lakes-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
-        "/service-areas/dania-beach-fl/mold-remediation/",
+        "/service-areas/country-club-fl/mold-remediation/",
         "/contact/"
       ]
     },
@@ -5504,7 +5550,7 @@
         "/service-areas/lauderdale-lakes-fl/fire-damage-restoration/",
         "/service-areas/lauderdale-lakes-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/storm-damage-restoration/",
-        "/service-areas/dania-beach-fl/storm-damage-restoration/",
+        "/service-areas/country-club-fl/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5548,7 +5594,7 @@
         "/service-areas/lauderdale-lakes-fl/fire-damage-restoration/",
         "/service-areas/lauderdale-lakes-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/flood-damage-restoration/",
-        "/service-areas/dania-beach-fl/flood-damage-restoration/",
+        "/service-areas/country-club-fl/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5592,7 +5638,7 @@
         "/service-areas/lauderdale-lakes-fl/fire-damage-restoration/",
         "/service-areas/lauderdale-lakes-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/service-areas/dania-beach-fl/smoke-damage-restoration/",
+        "/service-areas/country-club-fl/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5636,7 +5682,7 @@
         "/service-areas/lauderdale-lakes-fl/fire-damage-restoration/",
         "/service-areas/lauderdale-lakes-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-cleanup/",
-        "/service-areas/dania-beach-fl/water-cleanup/",
+        "/service-areas/country-club-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -5680,7 +5726,7 @@
         "/service-areas/southwest-ranches-fl/fire-damage-restoration/",
         "/service-areas/southwest-ranches-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-damage-restoration/",
-        "/service-areas/dania-beach-fl/water-damage-restoration/",
+        "/service-areas/country-club-fl/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5724,7 +5770,7 @@
         "/service-areas/southwest-ranches-fl/mold-remediation/",
         "/service-areas/southwest-ranches-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
-        "/service-areas/dania-beach-fl/fire-damage-restoration/",
+        "/service-areas/country-club-fl/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5768,7 +5814,7 @@
         "/service-areas/southwest-ranches-fl/fire-damage-restoration/",
         "/service-areas/southwest-ranches-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
-        "/service-areas/dania-beach-fl/mold-remediation/",
+        "/service-areas/country-club-fl/mold-remediation/",
         "/contact/"
       ]
     },
@@ -5812,7 +5858,7 @@
         "/service-areas/southwest-ranches-fl/fire-damage-restoration/",
         "/service-areas/southwest-ranches-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/storm-damage-restoration/",
-        "/service-areas/dania-beach-fl/storm-damage-restoration/",
+        "/service-areas/country-club-fl/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5856,7 +5902,7 @@
         "/service-areas/southwest-ranches-fl/fire-damage-restoration/",
         "/service-areas/southwest-ranches-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/flood-damage-restoration/",
-        "/service-areas/dania-beach-fl/flood-damage-restoration/",
+        "/service-areas/country-club-fl/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5900,7 +5946,7 @@
         "/service-areas/southwest-ranches-fl/fire-damage-restoration/",
         "/service-areas/southwest-ranches-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/service-areas/dania-beach-fl/smoke-damage-restoration/",
+        "/service-areas/country-club-fl/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5944,7 +5990,7 @@
         "/service-areas/southwest-ranches-fl/fire-damage-restoration/",
         "/service-areas/southwest-ranches-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-cleanup/",
-        "/service-areas/dania-beach-fl/water-cleanup/",
+        "/service-areas/country-club-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -5988,7 +6034,7 @@
         "/service-areas/oakland-park-fl/fire-damage-restoration/",
         "/service-areas/oakland-park-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-damage-restoration/",
-        "/service-areas/dania-beach-fl/water-damage-restoration/",
+        "/service-areas/country-club-fl/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -6032,7 +6078,7 @@
         "/service-areas/oakland-park-fl/mold-remediation/",
         "/service-areas/oakland-park-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
-        "/service-areas/dania-beach-fl/fire-damage-restoration/",
+        "/service-areas/country-club-fl/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -6076,7 +6122,7 @@
         "/service-areas/oakland-park-fl/fire-damage-restoration/",
         "/service-areas/oakland-park-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
-        "/service-areas/dania-beach-fl/mold-remediation/",
+        "/service-areas/country-club-fl/mold-remediation/",
         "/contact/"
       ]
     },
@@ -6120,7 +6166,7 @@
         "/service-areas/oakland-park-fl/fire-damage-restoration/",
         "/service-areas/oakland-park-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/storm-damage-restoration/",
-        "/service-areas/dania-beach-fl/storm-damage-restoration/",
+        "/service-areas/country-club-fl/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -6164,7 +6210,7 @@
         "/service-areas/oakland-park-fl/fire-damage-restoration/",
         "/service-areas/oakland-park-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/flood-damage-restoration/",
-        "/service-areas/dania-beach-fl/flood-damage-restoration/",
+        "/service-areas/country-club-fl/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -6208,7 +6254,7 @@
         "/service-areas/oakland-park-fl/fire-damage-restoration/",
         "/service-areas/oakland-park-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/service-areas/dania-beach-fl/smoke-damage-restoration/",
+        "/service-areas/country-club-fl/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -6251,6 +6297,314 @@
         "/service-areas/oakland-park-fl/",
         "/service-areas/oakland-park-fl/fire-damage-restoration/",
         "/service-areas/oakland-park-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/water-cleanup/",
+        "/service-areas/country-club-fl/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/country-club-fl/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Country Club, FL | RestorationXpress ",
+      "h1": "Water Damage Restoration in Country Club",
+      "meta_description": "Water damage restoration in Country Club, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "water damage restoration country club",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/country-club-fl/",
+        "/service-areas/country-club-fl/fire-damage-restoration/",
+        "/service-areas/country-club-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/water-damage-restoration/",
+        "/service-areas/dania-beach-fl/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/country-club-fl/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Country Club, FL | RestorationXpress ",
+      "h1": "Fire Damage Restoration in Country Club",
+      "meta_description": "Fire damage restoration in Country Club, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "fire damage restoration country club",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/country-club-fl/",
+        "/service-areas/country-club-fl/mold-remediation/",
+        "/service-areas/country-club-fl/water-damage-restoration/",
+        "/service-areas/cooper-city-fl/fire-damage-restoration/",
+        "/service-areas/dania-beach-fl/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/country-club-fl/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Country Club, FL | RestorationXpress ",
+      "h1": "Mold Remediation in Country Club",
+      "meta_description": "Mold remediation in Country Club, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "mold remediation country club",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/country-club-fl/",
+        "/service-areas/country-club-fl/fire-damage-restoration/",
+        "/service-areas/country-club-fl/water-damage-restoration/",
+        "/service-areas/cooper-city-fl/mold-remediation/",
+        "/service-areas/dania-beach-fl/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/country-club-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Country Club, FL | RestorationXpress ",
+      "h1": "Storm Damage Restoration in Country Club",
+      "meta_description": "Storm damage restoration in Country Club, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "storm damage restoration country club",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/country-club-fl/",
+        "/service-areas/country-club-fl/fire-damage-restoration/",
+        "/service-areas/country-club-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/storm-damage-restoration/",
+        "/service-areas/dania-beach-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/country-club-fl/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Country Club, FL | RestorationXpress ",
+      "h1": "Flood Damage Restoration in Country Club",
+      "meta_description": "Flood damage restoration in Country Club, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "flood damage restoration country club",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/country-club-fl/",
+        "/service-areas/country-club-fl/fire-damage-restoration/",
+        "/service-areas/country-club-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/flood-damage-restoration/",
+        "/service-areas/dania-beach-fl/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/country-club-fl/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Country Club, FL | RestorationXpress ",
+      "h1": "Smoke Damage Restoration in Country Club",
+      "meta_description": "Smoke damage restoration in Country Club, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "smoke damage restoration country club",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/country-club-fl/",
+        "/service-areas/country-club-fl/fire-damage-restoration/",
+        "/service-areas/country-club-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/smoke-damage-restoration/",
+        "/service-areas/dania-beach-fl/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/country-club-fl/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Country Club, FL | RestorationXpress",
+      "h1": "Water Cleanup in Country Club",
+      "meta_description": "Water cleanup in Country Club, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "emergency water cleanup country club",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/country-club-fl/",
+        "/service-areas/country-club-fl/fire-damage-restoration/",
+        "/service-areas/country-club-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-cleanup/",
         "/service-areas/dania-beach-fl/water-cleanup/",
         "/contact/"

@@ -1,20 +1,20 @@
 # Site Plan Report — FIX Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T18:58:33.390219+00:00
+- Generated: 2026-09-20T19:36:45.474347+00:00
 - Domain: `fixofutah.com`
 - Services selected: 11 of 65 catalog entries
-- Service areas: 17
+- Service areas: 18
 - Cross-product enabled: True
-- Total URLs: **220**
-- Total internal links: 1767 (avg 8.0 per page)
+- Total URLs: **232**
+- Total internal links: 1862 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 176 |
-| `service-area` | 16 |
+| `service-area-service` | 187 |
+| `service-area` | 17 |
 | `service-landing` | 11 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -58,6 +58,7 @@
 - `bluffdale-ut` — Bluffdale, UT
 - `eagle-mountain-ut` — Eagle Mountain, UT
 - `sandy-ut` — Sandy, UT
+- `herriman-ut` — Herriman, UT
 
 ## Top 10 priority pages
 

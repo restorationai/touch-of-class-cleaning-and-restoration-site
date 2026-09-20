@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-20T18:58:55.440204+00:00",
+  "generated_at": "2026-09-20T19:37:05.897271+00:00",
   "input_summary": {
     "service_count": 20,
-    "service_area_count": 20,
+    "service_area_count": 21,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -69,6 +69,7 @@
         "/service-areas/bluffdale-ut/",
         "/service-areas/cedar-fort-ut/",
         "/service-areas/cedar-hills-ut/",
+        "/service-areas/draper-ut/",
         "/service-areas/eagle-mountain-ut/",
         "/service-areas/fairfield-ut/",
         "/service-areas/heber-city-ut/",
@@ -171,6 +172,7 @@
         "/service-areas/bluffdale-ut/",
         "/service-areas/cedar-fort-ut/",
         "/service-areas/cedar-hills-ut/",
+        "/service-areas/draper-ut/",
         "/service-areas/eagle-mountain-ut/",
         "/service-areas/fairfield-ut/",
         "/service-areas/heber-city-ut/",
@@ -337,13 +339,13 @@
         "/service-areas/bluffdale-ut/water-damage-restoration/",
         "/service-areas/cedar-fort-ut/water-damage-restoration/",
         "/service-areas/cedar-hills-ut/water-damage-restoration/",
+        "/service-areas/draper-ut/water-damage-restoration/",
         "/service-areas/eagle-mountain-ut/water-damage-restoration/",
         "/service-areas/fairfield-ut/water-damage-restoration/",
         "/service-areas/heber-city-ut/water-damage-restoration/",
         "/service-areas/herriman-ut/water-damage-restoration/",
         "/service-areas/highland-ut/water-damage-restoration/",
         "/service-areas/lehi-ut/water-damage-restoration/",
-        "/service-areas/lindon-ut/water-damage-restoration/",
         "/services/water-cleanup/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
@@ -391,13 +393,13 @@
         "/service-areas/bluffdale-ut/burst-pipe-repair/",
         "/service-areas/cedar-fort-ut/burst-pipe-repair/",
         "/service-areas/cedar-hills-ut/burst-pipe-repair/",
+        "/service-areas/draper-ut/burst-pipe-repair/",
         "/service-areas/eagle-mountain-ut/burst-pipe-repair/",
         "/service-areas/fairfield-ut/burst-pipe-repair/",
         "/service-areas/heber-city-ut/burst-pipe-repair/",
         "/service-areas/herriman-ut/burst-pipe-repair/",
         "/service-areas/highland-ut/burst-pipe-repair/",
-        "/service-areas/lehi-ut/burst-pipe-repair/",
-        "/service-areas/lindon-ut/burst-pipe-repair/"
+        "/service-areas/lehi-ut/burst-pipe-repair/"
       ]
     },
     {
@@ -441,13 +443,13 @@
         "/service-areas/bluffdale-ut/frozen-pipe-restoration/",
         "/service-areas/cedar-fort-ut/frozen-pipe-restoration/",
         "/service-areas/cedar-hills-ut/frozen-pipe-restoration/",
+        "/service-areas/draper-ut/frozen-pipe-restoration/",
         "/service-areas/eagle-mountain-ut/frozen-pipe-restoration/",
         "/service-areas/fairfield-ut/frozen-pipe-restoration/",
         "/service-areas/heber-city-ut/frozen-pipe-restoration/",
         "/service-areas/herriman-ut/frozen-pipe-restoration/",
         "/service-areas/highland-ut/frozen-pipe-restoration/",
-        "/service-areas/lehi-ut/frozen-pipe-restoration/",
-        "/service-areas/lindon-ut/frozen-pipe-restoration/"
+        "/service-areas/lehi-ut/frozen-pipe-restoration/"
       ]
     },
     {
@@ -491,13 +493,13 @@
         "/service-areas/bluffdale-ut/appliance-leak-cleanup/",
         "/service-areas/cedar-fort-ut/appliance-leak-cleanup/",
         "/service-areas/cedar-hills-ut/appliance-leak-cleanup/",
+        "/service-areas/draper-ut/appliance-leak-cleanup/",
         "/service-areas/eagle-mountain-ut/appliance-leak-cleanup/",
         "/service-areas/fairfield-ut/appliance-leak-cleanup/",
         "/service-areas/heber-city-ut/appliance-leak-cleanup/",
         "/service-areas/herriman-ut/appliance-leak-cleanup/",
         "/service-areas/highland-ut/appliance-leak-cleanup/",
         "/service-areas/lehi-ut/appliance-leak-cleanup/",
-        "/service-areas/lindon-ut/appliance-leak-cleanup/",
         "/blog/burst-pipe-emergency-checklist/"
       ]
     },
@@ -542,13 +544,13 @@
         "/service-areas/bluffdale-ut/basement-flooding-cleanup/",
         "/service-areas/cedar-fort-ut/basement-flooding-cleanup/",
         "/service-areas/cedar-hills-ut/basement-flooding-cleanup/",
+        "/service-areas/draper-ut/basement-flooding-cleanup/",
         "/service-areas/eagle-mountain-ut/basement-flooding-cleanup/",
         "/service-areas/fairfield-ut/basement-flooding-cleanup/",
         "/service-areas/heber-city-ut/basement-flooding-cleanup/",
         "/service-areas/herriman-ut/basement-flooding-cleanup/",
         "/service-areas/highland-ut/basement-flooding-cleanup/",
-        "/service-areas/lehi-ut/basement-flooding-cleanup/",
-        "/service-areas/lindon-ut/basement-flooding-cleanup/"
+        "/service-areas/lehi-ut/basement-flooding-cleanup/"
       ]
     },
     {
@@ -592,13 +594,13 @@
         "/service-areas/bluffdale-ut/roof-leak-repair/",
         "/service-areas/cedar-fort-ut/roof-leak-repair/",
         "/service-areas/cedar-hills-ut/roof-leak-repair/",
+        "/service-areas/draper-ut/roof-leak-repair/",
         "/service-areas/eagle-mountain-ut/roof-leak-repair/",
         "/service-areas/fairfield-ut/roof-leak-repair/",
         "/service-areas/heber-city-ut/roof-leak-repair/",
         "/service-areas/herriman-ut/roof-leak-repair/",
         "/service-areas/highland-ut/roof-leak-repair/",
-        "/service-areas/lehi-ut/roof-leak-repair/",
-        "/service-areas/lindon-ut/roof-leak-repair/"
+        "/service-areas/lehi-ut/roof-leak-repair/"
       ]
     },
     {
@@ -642,13 +644,13 @@
         "/service-areas/bluffdale-ut/sewage-cleanup/",
         "/service-areas/cedar-fort-ut/sewage-cleanup/",
         "/service-areas/cedar-hills-ut/sewage-cleanup/",
+        "/service-areas/draper-ut/sewage-cleanup/",
         "/service-areas/eagle-mountain-ut/sewage-cleanup/",
         "/service-areas/fairfield-ut/sewage-cleanup/",
         "/service-areas/heber-city-ut/sewage-cleanup/",
         "/service-areas/herriman-ut/sewage-cleanup/",
         "/service-areas/highland-ut/sewage-cleanup/",
-        "/service-areas/lehi-ut/sewage-cleanup/",
-        "/service-areas/lindon-ut/sewage-cleanup/"
+        "/service-areas/lehi-ut/sewage-cleanup/"
       ]
     },
     {
@@ -692,13 +694,13 @@
         "/service-areas/bluffdale-ut/storm-damage-restoration/",
         "/service-areas/cedar-fort-ut/storm-damage-restoration/",
         "/service-areas/cedar-hills-ut/storm-damage-restoration/",
+        "/service-areas/draper-ut/storm-damage-restoration/",
         "/service-areas/eagle-mountain-ut/storm-damage-restoration/",
         "/service-areas/fairfield-ut/storm-damage-restoration/",
         "/service-areas/heber-city-ut/storm-damage-restoration/",
         "/service-areas/herriman-ut/storm-damage-restoration/",
         "/service-areas/highland-ut/storm-damage-restoration/",
         "/service-areas/lehi-ut/storm-damage-restoration/",
-        "/service-areas/lindon-ut/storm-damage-restoration/",
         "/blog/storm-damage-insurance-claim-checklist/"
       ]
     },
@@ -743,13 +745,13 @@
         "/service-areas/bluffdale-ut/fire-damage-restoration/",
         "/service-areas/cedar-fort-ut/fire-damage-restoration/",
         "/service-areas/cedar-hills-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
         "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
         "/service-areas/fairfield-ut/fire-damage-restoration/",
         "/service-areas/heber-city-ut/fire-damage-restoration/",
         "/service-areas/herriman-ut/fire-damage-restoration/",
         "/service-areas/highland-ut/fire-damage-restoration/",
         "/service-areas/lehi-ut/fire-damage-restoration/",
-        "/service-areas/lindon-ut/fire-damage-restoration/",
         "/blog/choosing-a-restoration-company/",
         "/blog/fire-damage-restoration-process/",
         "/blog/smoke-odor-removal-techniques/"
@@ -796,13 +798,13 @@
         "/service-areas/bluffdale-ut/smoke-damage-restoration/",
         "/service-areas/cedar-fort-ut/smoke-damage-restoration/",
         "/service-areas/cedar-hills-ut/smoke-damage-restoration/",
+        "/service-areas/draper-ut/smoke-damage-restoration/",
         "/service-areas/eagle-mountain-ut/smoke-damage-restoration/",
         "/service-areas/fairfield-ut/smoke-damage-restoration/",
         "/service-areas/heber-city-ut/smoke-damage-restoration/",
         "/service-areas/herriman-ut/smoke-damage-restoration/",
         "/service-areas/highland-ut/smoke-damage-restoration/",
         "/service-areas/lehi-ut/smoke-damage-restoration/",
-        "/service-areas/lindon-ut/smoke-damage-restoration/",
         "/blog/fire-damage-restoration-process/",
         "/blog/smoke-odor-removal-techniques/"
       ]
@@ -848,13 +850,13 @@
         "/service-areas/bluffdale-ut/mold-remediation/",
         "/service-areas/cedar-fort-ut/mold-remediation/",
         "/service-areas/cedar-hills-ut/mold-remediation/",
+        "/service-areas/draper-ut/mold-remediation/",
         "/service-areas/eagle-mountain-ut/mold-remediation/",
         "/service-areas/fairfield-ut/mold-remediation/",
         "/service-areas/heber-city-ut/mold-remediation/",
         "/service-areas/herriman-ut/mold-remediation/",
         "/service-areas/highland-ut/mold-remediation/",
         "/service-areas/lehi-ut/mold-remediation/",
-        "/service-areas/lindon-ut/mold-remediation/",
         "/blog/choosing-a-restoration-company/",
         "/blog/how-to-test-for-mold/",
         "/blog/signs-of-hidden-mold/"
@@ -901,13 +903,13 @@
         "/service-areas/bluffdale-ut/mold-inspection-testing/",
         "/service-areas/cedar-fort-ut/mold-inspection-testing/",
         "/service-areas/cedar-hills-ut/mold-inspection-testing/",
+        "/service-areas/draper-ut/mold-inspection-testing/",
         "/service-areas/eagle-mountain-ut/mold-inspection-testing/",
         "/service-areas/fairfield-ut/mold-inspection-testing/",
         "/service-areas/heber-city-ut/mold-inspection-testing/",
         "/service-areas/herriman-ut/mold-inspection-testing/",
         "/service-areas/highland-ut/mold-inspection-testing/",
         "/service-areas/lehi-ut/mold-inspection-testing/",
-        "/service-areas/lindon-ut/mold-inspection-testing/",
         "/blog/how-to-test-for-mold/"
       ]
     },
@@ -952,13 +954,13 @@
         "/service-areas/bluffdale-ut/carpet-cleaning/",
         "/service-areas/cedar-fort-ut/carpet-cleaning/",
         "/service-areas/cedar-hills-ut/carpet-cleaning/",
+        "/service-areas/draper-ut/carpet-cleaning/",
         "/service-areas/eagle-mountain-ut/carpet-cleaning/",
         "/service-areas/fairfield-ut/carpet-cleaning/",
         "/service-areas/heber-city-ut/carpet-cleaning/",
         "/service-areas/herriman-ut/carpet-cleaning/",
         "/service-areas/highland-ut/carpet-cleaning/",
-        "/service-areas/lehi-ut/carpet-cleaning/",
-        "/service-areas/lindon-ut/carpet-cleaning/"
+        "/service-areas/lehi-ut/carpet-cleaning/"
       ]
     },
     {
@@ -1002,13 +1004,13 @@
         "/service-areas/bluffdale-ut/odor-removal/",
         "/service-areas/cedar-fort-ut/odor-removal/",
         "/service-areas/cedar-hills-ut/odor-removal/",
+        "/service-areas/draper-ut/odor-removal/",
         "/service-areas/eagle-mountain-ut/odor-removal/",
         "/service-areas/fairfield-ut/odor-removal/",
         "/service-areas/heber-city-ut/odor-removal/",
         "/service-areas/herriman-ut/odor-removal/",
         "/service-areas/highland-ut/odor-removal/",
-        "/service-areas/lehi-ut/odor-removal/",
-        "/service-areas/lindon-ut/odor-removal/"
+        "/service-areas/lehi-ut/odor-removal/"
       ]
     },
     {
@@ -1052,13 +1054,13 @@
         "/service-areas/bluffdale-ut/upholstery-cleaning/",
         "/service-areas/cedar-fort-ut/upholstery-cleaning/",
         "/service-areas/cedar-hills-ut/upholstery-cleaning/",
+        "/service-areas/draper-ut/upholstery-cleaning/",
         "/service-areas/eagle-mountain-ut/upholstery-cleaning/",
         "/service-areas/fairfield-ut/upholstery-cleaning/",
         "/service-areas/heber-city-ut/upholstery-cleaning/",
         "/service-areas/herriman-ut/upholstery-cleaning/",
         "/service-areas/highland-ut/upholstery-cleaning/",
-        "/service-areas/lehi-ut/upholstery-cleaning/",
-        "/service-areas/lindon-ut/upholstery-cleaning/"
+        "/service-areas/lehi-ut/upholstery-cleaning/"
       ]
     },
     {
@@ -1102,13 +1104,13 @@
         "/service-areas/bluffdale-ut/tile-grout-cleaning/",
         "/service-areas/cedar-fort-ut/tile-grout-cleaning/",
         "/service-areas/cedar-hills-ut/tile-grout-cleaning/",
+        "/service-areas/draper-ut/tile-grout-cleaning/",
         "/service-areas/eagle-mountain-ut/tile-grout-cleaning/",
         "/service-areas/fairfield-ut/tile-grout-cleaning/",
         "/service-areas/heber-city-ut/tile-grout-cleaning/",
         "/service-areas/herriman-ut/tile-grout-cleaning/",
         "/service-areas/highland-ut/tile-grout-cleaning/",
-        "/service-areas/lehi-ut/tile-grout-cleaning/",
-        "/service-areas/lindon-ut/tile-grout-cleaning/"
+        "/service-areas/lehi-ut/tile-grout-cleaning/"
       ]
     },
     {
@@ -1152,13 +1154,13 @@
         "/service-areas/bluffdale-ut/fabric-protection/",
         "/service-areas/cedar-fort-ut/fabric-protection/",
         "/service-areas/cedar-hills-ut/fabric-protection/",
+        "/service-areas/draper-ut/fabric-protection/",
         "/service-areas/eagle-mountain-ut/fabric-protection/",
         "/service-areas/fairfield-ut/fabric-protection/",
         "/service-areas/heber-city-ut/fabric-protection/",
         "/service-areas/herriman-ut/fabric-protection/",
         "/service-areas/highland-ut/fabric-protection/",
-        "/service-areas/lehi-ut/fabric-protection/",
-        "/service-areas/lindon-ut/fabric-protection/"
+        "/service-areas/lehi-ut/fabric-protection/"
       ]
     },
     {
@@ -1202,13 +1204,13 @@
         "/service-areas/bluffdale-ut/junk-debris-removal/",
         "/service-areas/cedar-fort-ut/junk-debris-removal/",
         "/service-areas/cedar-hills-ut/junk-debris-removal/",
+        "/service-areas/draper-ut/junk-debris-removal/",
         "/service-areas/eagle-mountain-ut/junk-debris-removal/",
         "/service-areas/fairfield-ut/junk-debris-removal/",
         "/service-areas/heber-city-ut/junk-debris-removal/",
         "/service-areas/herriman-ut/junk-debris-removal/",
         "/service-areas/highland-ut/junk-debris-removal/",
-        "/service-areas/lehi-ut/junk-debris-removal/",
-        "/service-areas/lindon-ut/junk-debris-removal/"
+        "/service-areas/lehi-ut/junk-debris-removal/"
       ]
     },
     {
@@ -1246,13 +1248,13 @@
         "/service-areas/bluffdale-ut/crawl-space-encapsulation/",
         "/service-areas/cedar-fort-ut/crawl-space-encapsulation/",
         "/service-areas/cedar-hills-ut/crawl-space-encapsulation/",
+        "/service-areas/draper-ut/crawl-space-encapsulation/",
         "/service-areas/eagle-mountain-ut/crawl-space-encapsulation/",
         "/service-areas/fairfield-ut/crawl-space-encapsulation/",
         "/service-areas/heber-city-ut/crawl-space-encapsulation/",
         "/service-areas/herriman-ut/crawl-space-encapsulation/",
         "/service-areas/highland-ut/crawl-space-encapsulation/",
-        "/service-areas/lehi-ut/crawl-space-encapsulation/",
-        "/service-areas/lindon-ut/crawl-space-encapsulation/"
+        "/service-areas/lehi-ut/crawl-space-encapsulation/"
       ]
     },
     {
@@ -1297,13 +1299,13 @@
         "/service-areas/bluffdale-ut/water-cleanup/",
         "/service-areas/cedar-fort-ut/water-cleanup/",
         "/service-areas/cedar-hills-ut/water-cleanup/",
+        "/service-areas/draper-ut/water-cleanup/",
         "/service-areas/eagle-mountain-ut/water-cleanup/",
         "/service-areas/fairfield-ut/water-cleanup/",
         "/service-areas/heber-city-ut/water-cleanup/",
         "/service-areas/herriman-ut/water-cleanup/",
         "/service-areas/highland-ut/water-cleanup/",
         "/service-areas/lehi-ut/water-cleanup/",
-        "/service-areas/lindon-ut/water-cleanup/",
         "/services/water-damage-restoration/"
       ]
     },
@@ -2388,6 +2390,63 @@
         "/service-areas/american-fork-ut/",
         "/service-areas/bluffdale-ut/",
         "/service-areas/cedar-fort-ut/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Draper, UT | Home Pride Restoration and Cleaning",
+      "h1": "Restoration Services in Draper",
+      "meta_description": "Serving Draper, UT with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (801) 995-2437.",
+      "primary_keyword": "restoration services draper",
+      "secondary_keywords": [
+        "draper restoration company",
+        "damage restoration draper",
+        "draper disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/draper-ut/water-damage-restoration/",
+        "/service-areas/draper-ut/sewage-cleanup/",
+        "/service-areas/draper-ut/smoke-damage-restoration/",
+        "/service-areas/draper-ut/storm-damage-restoration/",
+        "/service-areas/draper-ut/water-cleanup/",
+        "/service-areas/draper-ut/basement-flooding-cleanup/",
+        "/service-areas/draper-ut/burst-pipe-repair/",
+        "/service-areas/draper-ut/mold-inspection-testing/",
+        "/service-areas/draper-ut/frozen-pipe-restoration/",
+        "/service-areas/draper-ut/odor-removal/",
+        "/service-areas/draper-ut/roof-leak-repair/",
+        "/service-areas/draper-ut/appliance-leak-cleanup/",
+        "/service-areas/draper-ut/crawl-space-encapsulation/",
+        "/service-areas/draper-ut/fabric-protection/",
+        "/service-areas/draper-ut/junk-debris-removal/",
+        "/service-areas/draper-ut/carpet-cleaning/",
+        "/service-areas/draper-ut/tile-grout-cleaning/",
+        "/service-areas/draper-ut/upholstery-cleaning/",
+        "/service-areas/alpine-ut/",
+        "/service-areas/american-fork-ut/",
+        "/service-areas/bluffdale-ut/"
       ]
     },
     {
@@ -19012,6 +19071,881 @@
         "/service-areas/alpine-ut/mold-remediation/",
         "/service-areas/american-fork-ut/water-cleanup/",
         "/service-areas/bluffdale-ut/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Draper, UT | Home Pride Restoration and Cleaning",
+      "h1": "Water Damage Restoration in Draper",
+      "meta_description": "24/7 water damage restoration in Draper, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "water damage restoration draper",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/alpine-ut/water-damage-restoration/",
+        "/service-areas/american-fork-ut/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Draper, UT | Home Pride Restoration and Cleaning",
+      "h1": "Burst Pipe Cleanup and Repair in Draper",
+      "meta_description": "24/7 burst pipe cleanup and repair in Draper, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "burst pipe cleanup and repair draper",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/alpine-ut/burst-pipe-repair/",
+        "/service-areas/american-fork-ut/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/frozen-pipe-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Frozen Pipe Restoration in Draper, UT | Home Pride Restoration and Cleaning",
+      "h1": "Frozen Pipe Restoration in Draper",
+      "meta_description": "24/7 frozen pipe restoration in Draper, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "frozen pipe restoration draper",
+      "secondary_keywords": [
+        "frozen pipe damage",
+        "winter pipe burst cleanup",
+        "thawed pipe water damage",
+        "frozen pipe leak repair",
+        "cold weather pipe damage"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/frozen-pipe-restoration/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/alpine-ut/frozen-pipe-restoration/",
+        "/service-areas/american-fork-ut/frozen-pipe-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/appliance-leak-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Appliance Leak Cleanup in Draper, UT | Home Pride Restoration and Cleaning",
+      "h1": "Appliance Leak Cleanup in Draper",
+      "meta_description": "24/7 appliance leak cleanup in Draper, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "appliance leak cleanup draper",
+      "secondary_keywords": [
+        "dishwasher leak cleanup",
+        "washing machine flood",
+        "refrigerator leak cleanup",
+        "water heater leak cleanup",
+        "ice maker line leak"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/appliance-leak-cleanup/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/alpine-ut/appliance-leak-cleanup/",
+        "/service-areas/american-fork-ut/appliance-leak-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in Draper, UT | Home Pride Restoration and Cleaning",
+      "h1": "Basement Flooding Cleanup in Draper",
+      "meta_description": "24/7 basement flooding cleanup in Draper, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "basement flooding cleanup draper",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/alpine-ut/basement-flooding-cleanup/",
+        "/service-areas/american-fork-ut/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/roof-leak-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Roof Leak Cleanup and Repair in Draper, UT | Home Pride Restoration and Cleaning",
+      "h1": "Roof Leak Cleanup and Repair in Draper",
+      "meta_description": "24/7 roof leak cleanup and repair in Draper, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "roof leak cleanup and repair draper",
+      "secondary_keywords": [
+        "roof leak cleanup",
+        "ceiling water damage",
+        "attic water damage",
+        "roof leak restoration",
+        "interior roof leak damage"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/roof-leak-repair/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/alpine-ut/roof-leak-repair/",
+        "/service-areas/american-fork-ut/roof-leak-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Draper, UT | Home Pride Restoration and Cleaning",
+      "h1": "Sewage Cleanup and Sanitization in Draper",
+      "meta_description": "24/7 sewage cleanup and sanitization in Draper, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "sewage cleanup and sanitization draper",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/alpine-ut/sewage-cleanup/",
+        "/service-areas/american-fork-ut/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Draper, UT | Home Pride Restoration and Cleaning",
+      "h1": "Storm Damage Restoration in Draper",
+      "meta_description": "24/7 storm damage restoration in Draper, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "storm damage restoration draper",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/alpine-ut/storm-damage-restoration/",
+        "/service-areas/american-fork-ut/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Draper, UT | Home Pride Restoration and Cleaning",
+      "h1": "Fire Damage Restoration in Draper",
+      "meta_description": "24/7 fire damage restoration in Draper, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "fire damage restoration draper",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/draper-ut/water-damage-restoration/",
+        "/service-areas/alpine-ut/fire-damage-restoration/",
+        "/service-areas/american-fork-ut/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Draper, UT | Home Pride Restoration and Cleaning",
+      "h1": "Smoke Damage Restoration in Draper",
+      "meta_description": "24/7 smoke damage restoration in Draper, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "smoke damage restoration draper",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/alpine-ut/smoke-damage-restoration/",
+        "/service-areas/american-fork-ut/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Draper, UT | Home Pride Restoration and Cleaning",
+      "h1": "Mold Remediation in Draper",
+      "meta_description": "24/7 mold remediation in Draper, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "mold remediation draper",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/water-damage-restoration/",
+        "/service-areas/alpine-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Draper, UT | Home Pride Restoration and Cleaning",
+      "h1": "Mold Inspection and Testing in Draper",
+      "meta_description": "24/7 mold inspection and testing in Draper, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "mold inspection and testing draper",
+      "secondary_keywords": [
+        "mold inspection",
+        "mold testing",
+        "indoor air quality testing",
+        "mold spore testing",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/alpine-ut/mold-inspection-testing/",
+        "/service-areas/american-fork-ut/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Draper, UT | Home Pride Restoration and Cleaning",
+      "h1": "Carpet Cleaning in Draper",
+      "meta_description": "24/7 carpet cleaning in Draper, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "carpet cleaning draper",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/alpine-ut/carpet-cleaning/",
+        "/service-areas/american-fork-ut/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/odor-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Odor Removal and Deodorization in Draper, UT | Home Pride Restoration and Cleaning",
+      "h1": "Odor Removal and Deodorization in Draper",
+      "meta_description": "24/7 odor removal and deodorization in Draper, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "odor removal and deodorization draper",
+      "secondary_keywords": [
+        "smoke odor removal",
+        "ozone treatment",
+        "hydroxyl deodorization",
+        "thermal fogging",
+        "professional odor elimination"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/odor-removal/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/alpine-ut/odor-removal/",
+        "/service-areas/american-fork-ut/odor-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/upholstery-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Upholstery Cleaning in Draper, UT | Home Pride Restoration and Cleaning",
+      "h1": "Upholstery Cleaning in Draper",
+      "meta_description": "24/7 upholstery cleaning in Draper, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "upholstery cleaning draper",
+      "secondary_keywords": [
+        "sofa cleaning",
+        "couch cleaning",
+        "furniture steam cleaning",
+        "leather upholstery cleaning",
+        "fabric upholstery cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/upholstery-cleaning/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/alpine-ut/upholstery-cleaning/",
+        "/service-areas/american-fork-ut/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/tile-grout-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Tile & Grout Cleaning in Draper, UT | Home Pride Restoration and Cleaning",
+      "h1": "Tile & Grout Cleaning in Draper",
+      "meta_description": "24/7 tile & grout cleaning in Draper, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "tile & grout cleaning draper",
+      "secondary_keywords": [
+        "grout cleaning",
+        "tile cleaning",
+        "grout sealing",
+        "grout restoration",
+        "floor tile cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/tile-grout-cleaning/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/alpine-ut/tile-grout-cleaning/",
+        "/service-areas/american-fork-ut/tile-grout-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/fabric-protection/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fabric Protection in Draper, UT | Home Pride Restoration and Cleaning",
+      "h1": "Fabric Protection in Draper",
+      "meta_description": "24/7 fabric protection in Draper, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "fabric protection draper",
+      "secondary_keywords": [
+        "carpet protection",
+        "upholstery protection",
+        "stain guard",
+        "scotchgard application",
+        "fabric stain protection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fabric-protection/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/alpine-ut/fabric-protection/",
+        "/service-areas/american-fork-ut/fabric-protection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/junk-debris-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Junk & Debris Removal in Draper, UT | Home Pride Restoration and Cleaning",
+      "h1": "Junk & Debris Removal in Draper",
+      "meta_description": "24/7 junk & debris removal in Draper, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "junk & debris removal draper",
+      "secondary_keywords": [
+        "junk removal",
+        "debris removal",
+        "house cleanout",
+        "garage cleanout",
+        "hauling services"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/junk-debris-removal/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/alpine-ut/junk-debris-removal/",
+        "/service-areas/american-fork-ut/junk-debris-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/crawl-space-encapsulation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Encapsulation in Draper, UT | Home Pride Restoration and Cleaning",
+      "h1": "Crawl Space Encapsulation in Draper",
+      "meta_description": "24/7 crawl space encapsulation in Draper, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "crawl space encapsulation draper",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/alpine-ut/crawl-space-encapsulation/",
+        "/service-areas/american-fork-ut/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/draper-ut/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Draper, UT | Home Pride Restoration and Cleaning",
+      "h1": "Emergency Water Cleanup in Draper",
+      "meta_description": "24/7 emergency water cleanup in Draper, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "emergency water cleanup draper",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/draper-ut/",
+        "/service-areas/draper-ut/fire-damage-restoration/",
+        "/service-areas/draper-ut/mold-remediation/",
+        "/service-areas/alpine-ut/water-cleanup/",
+        "/service-areas/american-fork-ut/water-cleanup/",
         "/contact/"
       ]
     },

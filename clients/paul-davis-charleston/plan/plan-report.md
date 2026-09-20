@@ -1,20 +1,20 @@
 # Site Plan Report — Paul Davis Restoration of Charleston
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T18:59:04.978838+00:00
+- Generated: 2026-09-20T19:37:13.468786+00:00
 - Domain: `None`
 - Services selected: 4 of 65 catalog entries
-- Service areas: 13
+- Service areas: 14
 - Cross-product enabled: True
-- Total URLs: **85**
-- Total internal links: 629 (avg 7.4 per page)
+- Total URLs: **90**
+- Total internal links: 668 (avg 7.4 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 48 |
-| `service-area` | 12 |
+| `service-area-service` | 52 |
+| `service-area` | 13 |
 | `blog-post` | 12 |
 | `service-landing` | 4 |
 | `legal` | 3 |
@@ -47,6 +47,7 @@
 - `awendaw-sc` — Awendaw, SC
 - `folly-beach-sc` — Folly Beach, SC
 - `hollywood-sc` — Hollywood, SC
+- `ravenel-sc` — Ravenel, SC
 
 ## Top 10 priority pages
 

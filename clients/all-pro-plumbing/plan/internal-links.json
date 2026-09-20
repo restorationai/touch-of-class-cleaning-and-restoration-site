@@ -33,6 +33,7 @@
     "/service-areas/dustin-acres-ca/",
     "/service-areas/east-niles-ca/",
     "/service-areas/lamont-ca/",
+    "/service-areas/mcfarland-ca/",
     "/service-areas/oildale-ca/",
     "/service-areas/rosedale-ca/",
     "/service-areas/shafter-ca/",
@@ -75,6 +76,7 @@
     "/service-areas/dustin-acres-ca/",
     "/service-areas/east-niles-ca/",
     "/service-areas/lamont-ca/",
+    "/service-areas/mcfarland-ca/",
     "/service-areas/oildale-ca/",
     "/service-areas/rosedale-ca/",
     "/service-areas/shafter-ca/",
@@ -118,11 +120,11 @@
     "/service-areas/dustin-acres-ca/emergency-plumbing/",
     "/service-areas/east-niles-ca/emergency-plumbing/",
     "/service-areas/lamont-ca/emergency-plumbing/",
+    "/service-areas/mcfarland-ca/emergency-plumbing/",
     "/service-areas/oildale-ca/emergency-plumbing/",
     "/service-areas/rosedale-ca/emergency-plumbing/",
     "/service-areas/shafter-ca/emergency-plumbing/",
     "/service-areas/taft-ca/emergency-plumbing/",
-    "/service-areas/tarina-ca/emergency-plumbing/",
     "/blog/what-to-do-burst-pipe/"
   ],
   "/services/burst-pipe-repair/": [
@@ -135,11 +137,11 @@
     "/service-areas/dustin-acres-ca/burst-pipe-repair/",
     "/service-areas/east-niles-ca/burst-pipe-repair/",
     "/service-areas/lamont-ca/burst-pipe-repair/",
+    "/service-areas/mcfarland-ca/burst-pipe-repair/",
     "/service-areas/oildale-ca/burst-pipe-repair/",
     "/service-areas/rosedale-ca/burst-pipe-repair/",
     "/service-areas/shafter-ca/burst-pipe-repair/",
     "/service-areas/taft-ca/burst-pipe-repair/",
-    "/service-areas/tarina-ca/burst-pipe-repair/",
     "/blog/what-to-do-burst-pipe/"
   ],
   "/services/drain-cleaning/": [
@@ -152,11 +154,11 @@
     "/service-areas/dustin-acres-ca/drain-cleaning/",
     "/service-areas/east-niles-ca/drain-cleaning/",
     "/service-areas/lamont-ca/drain-cleaning/",
+    "/service-areas/mcfarland-ca/drain-cleaning/",
     "/service-areas/oildale-ca/drain-cleaning/",
     "/service-areas/rosedale-ca/drain-cleaning/",
     "/service-areas/shafter-ca/drain-cleaning/",
     "/service-areas/taft-ca/drain-cleaning/",
-    "/service-areas/tarina-ca/drain-cleaning/",
     "/blog/drain-cleaning-diy-vs-pro/",
     "/blog/hydro-jetting-vs-snaking/"
   ],
@@ -170,11 +172,11 @@
     "/service-areas/dustin-acres-ca/sewer-line-repair/",
     "/service-areas/east-niles-ca/sewer-line-repair/",
     "/service-areas/lamont-ca/sewer-line-repair/",
+    "/service-areas/mcfarland-ca/sewer-line-repair/",
     "/service-areas/oildale-ca/sewer-line-repair/",
     "/service-areas/rosedale-ca/sewer-line-repair/",
     "/service-areas/shafter-ca/sewer-line-repair/",
     "/service-areas/taft-ca/sewer-line-repair/",
-    "/service-areas/tarina-ca/sewer-line-repair/",
     "/blog/hydro-jetting-vs-snaking/",
     "/blog/trenchless-sewer-repair-explained/"
   ],
@@ -188,11 +190,11 @@
     "/service-areas/dustin-acres-ca/water-heater-repair/",
     "/service-areas/east-niles-ca/water-heater-repair/",
     "/service-areas/lamont-ca/water-heater-repair/",
+    "/service-areas/mcfarland-ca/water-heater-repair/",
     "/service-areas/oildale-ca/water-heater-repair/",
     "/service-areas/rosedale-ca/water-heater-repair/",
     "/service-areas/shafter-ca/water-heater-repair/",
     "/service-areas/taft-ca/water-heater-repair/",
-    "/service-areas/tarina-ca/water-heater-repair/",
     "/blog/water-heater-lifespan-repair-or-replace/"
   ],
   "/services/water-heater-installation/": [
@@ -205,11 +207,11 @@
     "/service-areas/dustin-acres-ca/water-heater-installation/",
     "/service-areas/east-niles-ca/water-heater-installation/",
     "/service-areas/lamont-ca/water-heater-installation/",
+    "/service-areas/mcfarland-ca/water-heater-installation/",
     "/service-areas/oildale-ca/water-heater-installation/",
     "/service-areas/rosedale-ca/water-heater-installation/",
     "/service-areas/shafter-ca/water-heater-installation/",
     "/service-areas/taft-ca/water-heater-installation/",
-    "/service-areas/tarina-ca/water-heater-installation/",
     "/blog/tankless-vs-tank-water-heater/",
     "/blog/water-heater-lifespan-repair-or-replace/"
   ],
@@ -223,11 +225,11 @@
     "/service-areas/dustin-acres-ca/leak-detection/",
     "/service-areas/east-niles-ca/leak-detection/",
     "/service-areas/lamont-ca/leak-detection/",
+    "/service-areas/mcfarland-ca/leak-detection/",
     "/service-areas/oildale-ca/leak-detection/",
     "/service-areas/rosedale-ca/leak-detection/",
     "/service-areas/shafter-ca/leak-detection/",
     "/service-areas/taft-ca/leak-detection/",
-    "/service-areas/tarina-ca/leak-detection/",
     "/blog/low-water-pressure-causes/",
     "/blog/signs-of-a-slab-leak/"
   ],
@@ -241,11 +243,11 @@
     "/service-areas/dustin-acres-ca/slab-leak-repair/",
     "/service-areas/east-niles-ca/slab-leak-repair/",
     "/service-areas/lamont-ca/slab-leak-repair/",
+    "/service-areas/mcfarland-ca/slab-leak-repair/",
     "/service-areas/oildale-ca/slab-leak-repair/",
     "/service-areas/rosedale-ca/slab-leak-repair/",
     "/service-areas/shafter-ca/slab-leak-repair/",
     "/service-areas/taft-ca/slab-leak-repair/",
-    "/service-areas/tarina-ca/slab-leak-repair/",
     "/blog/signs-of-a-slab-leak/"
   ],
   "/services/repiping/": [
@@ -258,11 +260,11 @@
     "/service-areas/dustin-acres-ca/repiping/",
     "/service-areas/east-niles-ca/repiping/",
     "/service-areas/lamont-ca/repiping/",
+    "/service-areas/mcfarland-ca/repiping/",
     "/service-areas/oildale-ca/repiping/",
     "/service-areas/rosedale-ca/repiping/",
     "/service-areas/shafter-ca/repiping/",
     "/service-areas/taft-ca/repiping/",
-    "/service-areas/tarina-ca/repiping/",
     "/blog/low-water-pressure-causes/"
   ],
   "/services/gas-line-services/": [
@@ -275,11 +277,11 @@
     "/service-areas/dustin-acres-ca/gas-line-services/",
     "/service-areas/east-niles-ca/gas-line-services/",
     "/service-areas/lamont-ca/gas-line-services/",
+    "/service-areas/mcfarland-ca/gas-line-services/",
     "/service-areas/oildale-ca/gas-line-services/",
     "/service-areas/rosedale-ca/gas-line-services/",
     "/service-areas/shafter-ca/gas-line-services/",
     "/service-areas/taft-ca/gas-line-services/",
-    "/service-areas/tarina-ca/gas-line-services/",
     "/blog/gas-leak-what-to-do/"
   ],
   "/services/sump-pumps/": [
@@ -292,11 +294,11 @@
     "/service-areas/dustin-acres-ca/sump-pumps/",
     "/service-areas/east-niles-ca/sump-pumps/",
     "/service-areas/lamont-ca/sump-pumps/",
+    "/service-areas/mcfarland-ca/sump-pumps/",
     "/service-areas/oildale-ca/sump-pumps/",
     "/service-areas/rosedale-ca/sump-pumps/",
     "/service-areas/shafter-ca/sump-pumps/",
-    "/service-areas/taft-ca/sump-pumps/",
-    "/service-areas/tarina-ca/sump-pumps/"
+    "/service-areas/taft-ca/sump-pumps/"
   ],
   "/services/water-softeners-filtration/": [
     "/services/",
@@ -308,11 +310,11 @@
     "/service-areas/dustin-acres-ca/water-softeners-filtration/",
     "/service-areas/east-niles-ca/water-softeners-filtration/",
     "/service-areas/lamont-ca/water-softeners-filtration/",
+    "/service-areas/mcfarland-ca/water-softeners-filtration/",
     "/service-areas/oildale-ca/water-softeners-filtration/",
     "/service-areas/rosedale-ca/water-softeners-filtration/",
     "/service-areas/shafter-ca/water-softeners-filtration/",
-    "/service-areas/taft-ca/water-softeners-filtration/",
-    "/service-areas/tarina-ca/water-softeners-filtration/"
+    "/service-areas/taft-ca/water-softeners-filtration/"
   ],
   "/services/toilet-faucet-repair/": [
     "/services/",
@@ -324,11 +326,11 @@
     "/service-areas/dustin-acres-ca/toilet-faucet-repair/",
     "/service-areas/east-niles-ca/toilet-faucet-repair/",
     "/service-areas/lamont-ca/toilet-faucet-repair/",
+    "/service-areas/mcfarland-ca/toilet-faucet-repair/",
     "/service-areas/oildale-ca/toilet-faucet-repair/",
     "/service-areas/rosedale-ca/toilet-faucet-repair/",
     "/service-areas/shafter-ca/toilet-faucet-repair/",
-    "/service-areas/taft-ca/toilet-faucet-repair/",
-    "/service-areas/tarina-ca/toilet-faucet-repair/"
+    "/service-areas/taft-ca/toilet-faucet-repair/"
   ],
   "/services/garbage-disposal/": [
     "/services/",
@@ -340,11 +342,11 @@
     "/service-areas/dustin-acres-ca/garbage-disposal/",
     "/service-areas/east-niles-ca/garbage-disposal/",
     "/service-areas/lamont-ca/garbage-disposal/",
+    "/service-areas/mcfarland-ca/garbage-disposal/",
     "/service-areas/oildale-ca/garbage-disposal/",
     "/service-areas/rosedale-ca/garbage-disposal/",
     "/service-areas/shafter-ca/garbage-disposal/",
-    "/service-areas/taft-ca/garbage-disposal/",
-    "/service-areas/tarina-ca/garbage-disposal/"
+    "/service-areas/taft-ca/garbage-disposal/"
   ],
   "/services/furnace-repair/": [
     "/services/",
@@ -356,11 +358,11 @@
     "/service-areas/dustin-acres-ca/furnace-repair/",
     "/service-areas/east-niles-ca/furnace-repair/",
     "/service-areas/lamont-ca/furnace-repair/",
+    "/service-areas/mcfarland-ca/furnace-repair/",
     "/service-areas/oildale-ca/furnace-repair/",
     "/service-areas/rosedale-ca/furnace-repair/",
     "/service-areas/shafter-ca/furnace-repair/",
     "/service-areas/taft-ca/furnace-repair/",
-    "/service-areas/tarina-ca/furnace-repair/",
     "/blog/furnace-repair-or-replace/"
   ],
   "/services/furnace-installation/": [
@@ -373,11 +375,11 @@
     "/service-areas/dustin-acres-ca/furnace-installation/",
     "/service-areas/east-niles-ca/furnace-installation/",
     "/service-areas/lamont-ca/furnace-installation/",
+    "/service-areas/mcfarland-ca/furnace-installation/",
     "/service-areas/oildale-ca/furnace-installation/",
     "/service-areas/rosedale-ca/furnace-installation/",
     "/service-areas/shafter-ca/furnace-installation/",
     "/service-areas/taft-ca/furnace-installation/",
-    "/service-areas/tarina-ca/furnace-installation/",
     "/blog/furnace-repair-or-replace/",
     "/blog/heat-pump-vs-furnace/"
   ],
@@ -391,11 +393,11 @@
     "/service-areas/dustin-acres-ca/heat-pump-services/",
     "/service-areas/east-niles-ca/heat-pump-services/",
     "/service-areas/lamont-ca/heat-pump-services/",
+    "/service-areas/mcfarland-ca/heat-pump-services/",
     "/service-areas/oildale-ca/heat-pump-services/",
     "/service-areas/rosedale-ca/heat-pump-services/",
     "/service-areas/shafter-ca/heat-pump-services/",
     "/service-areas/taft-ca/heat-pump-services/",
-    "/service-areas/tarina-ca/heat-pump-services/",
     "/blog/heat-pump-vs-furnace/"
   ],
   "/services/ac-repair/": [
@@ -408,11 +410,11 @@
     "/service-areas/dustin-acres-ca/ac-repair/",
     "/service-areas/east-niles-ca/ac-repair/",
     "/service-areas/lamont-ca/ac-repair/",
+    "/service-areas/mcfarland-ca/ac-repair/",
     "/service-areas/oildale-ca/ac-repair/",
     "/service-areas/rosedale-ca/ac-repair/",
     "/service-areas/shafter-ca/ac-repair/",
-    "/service-areas/taft-ca/ac-repair/",
-    "/service-areas/tarina-ca/ac-repair/"
+    "/service-areas/taft-ca/ac-repair/"
   ],
   "/services/ac-installation/": [
     "/services/",
@@ -424,11 +426,11 @@
     "/service-areas/dustin-acres-ca/ac-installation/",
     "/service-areas/east-niles-ca/ac-installation/",
     "/service-areas/lamont-ca/ac-installation/",
+    "/service-areas/mcfarland-ca/ac-installation/",
     "/service-areas/oildale-ca/ac-installation/",
     "/service-areas/rosedale-ca/ac-installation/",
     "/service-areas/shafter-ca/ac-installation/",
     "/service-areas/taft-ca/ac-installation/",
-    "/service-areas/tarina-ca/ac-installation/",
     "/blog/how-much-does-a-new-ac-cost/"
   ],
   "/services/ductless-mini-splits/": [
@@ -441,11 +443,11 @@
     "/service-areas/dustin-acres-ca/ductless-mini-splits/",
     "/service-areas/east-niles-ca/ductless-mini-splits/",
     "/service-areas/lamont-ca/ductless-mini-splits/",
+    "/service-areas/mcfarland-ca/ductless-mini-splits/",
     "/service-areas/oildale-ca/ductless-mini-splits/",
     "/service-areas/rosedale-ca/ductless-mini-splits/",
     "/service-areas/shafter-ca/ductless-mini-splits/",
-    "/service-areas/taft-ca/ductless-mini-splits/",
-    "/service-areas/tarina-ca/ductless-mini-splits/"
+    "/service-areas/taft-ca/ductless-mini-splits/"
   ],
   "/services/ductwork/": [
     "/services/",
@@ -457,11 +459,11 @@
     "/service-areas/dustin-acres-ca/ductwork/",
     "/service-areas/east-niles-ca/ductwork/",
     "/service-areas/lamont-ca/ductwork/",
+    "/service-areas/mcfarland-ca/ductwork/",
     "/service-areas/oildale-ca/ductwork/",
     "/service-areas/rosedale-ca/ductwork/",
     "/service-areas/shafter-ca/ductwork/",
-    "/service-areas/taft-ca/ductwork/",
-    "/service-areas/tarina-ca/ductwork/"
+    "/service-areas/taft-ca/ductwork/"
   ],
   "/services/indoor-air-quality/": [
     "/services/",
@@ -473,11 +475,11 @@
     "/service-areas/dustin-acres-ca/indoor-air-quality/",
     "/service-areas/east-niles-ca/indoor-air-quality/",
     "/service-areas/lamont-ca/indoor-air-quality/",
+    "/service-areas/mcfarland-ca/indoor-air-quality/",
     "/service-areas/oildale-ca/indoor-air-quality/",
     "/service-areas/rosedale-ca/indoor-air-quality/",
     "/service-areas/shafter-ca/indoor-air-quality/",
-    "/service-areas/taft-ca/indoor-air-quality/",
-    "/service-areas/tarina-ca/indoor-air-quality/"
+    "/service-areas/taft-ca/indoor-air-quality/"
   ],
   "/service-areas/oildale-ca/": [
     "/service-areas/",
@@ -884,6 +886,35 @@
     "/service-areas/arvin-ca/",
     "/service-areas/bear-valley-springs-ca/",
     "/service-areas/delano-ca/"
+  ],
+  "/service-areas/mcfarland-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/mcfarland-ca/ac-repair/",
+    "/service-areas/mcfarland-ca/drain-cleaning/",
+    "/service-areas/mcfarland-ca/emergency-plumbing/",
+    "/service-areas/mcfarland-ca/water-heater-repair/",
+    "/service-areas/mcfarland-ca/ac-installation/",
+    "/service-areas/mcfarland-ca/burst-pipe-repair/",
+    "/service-areas/mcfarland-ca/furnace-repair/",
+    "/service-areas/mcfarland-ca/sewer-line-repair/",
+    "/service-areas/mcfarland-ca/water-heater-installation/",
+    "/service-areas/mcfarland-ca/furnace-installation/",
+    "/service-areas/mcfarland-ca/gas-line-services/",
+    "/service-areas/mcfarland-ca/ductless-mini-splits/",
+    "/service-areas/mcfarland-ca/heat-pump-services/",
+    "/service-areas/mcfarland-ca/leak-detection/",
+    "/service-areas/mcfarland-ca/repiping/",
+    "/service-areas/mcfarland-ca/slab-leak-repair/",
+    "/service-areas/mcfarland-ca/toilet-faucet-repair/",
+    "/service-areas/mcfarland-ca/ductwork/",
+    "/service-areas/mcfarland-ca/indoor-air-quality/",
+    "/service-areas/mcfarland-ca/sump-pumps/",
+    "/service-areas/mcfarland-ca/water-softeners-filtration/",
+    "/service-areas/mcfarland-ca/garbage-disposal/",
+    "/service-areas/arvin-ca/",
+    "/service-areas/bear-valley-springs-ca/",
+    "/service-areas/buttonwillow-ca/"
   ],
   "/service-areas/oildale-ca/emergency-plumbing/": [
     "/services/emergency-plumbing/",
@@ -3653,6 +3684,204 @@
     "/service-areas/buttonwillow-ca/",
     "/service-areas/buttonwillow-ca/ac-repair/",
     "/service-areas/buttonwillow-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/indoor-air-quality/",
+    "/service-areas/bear-valley-springs-ca/indoor-air-quality/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/ac-repair/",
+    "/service-areas/mcfarland-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/emergency-plumbing/",
+    "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/burst-pipe-repair/": [
+    "/services/burst-pipe-repair/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/ac-repair/",
+    "/service-areas/mcfarland-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/burst-pipe-repair/",
+    "/service-areas/bear-valley-springs-ca/burst-pipe-repair/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/ac-repair/",
+    "/service-areas/mcfarland-ca/emergency-plumbing/",
+    "/service-areas/arvin-ca/drain-cleaning/",
+    "/service-areas/bear-valley-springs-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/sewer-line-repair/": [
+    "/services/sewer-line-repair/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/ac-repair/",
+    "/service-areas/mcfarland-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/sewer-line-repair/",
+    "/service-areas/bear-valley-springs-ca/sewer-line-repair/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/ac-repair/",
+    "/service-areas/mcfarland-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/water-heater-repair/",
+    "/service-areas/bear-valley-springs-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/ac-repair/",
+    "/service-areas/mcfarland-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/water-heater-installation/",
+    "/service-areas/bear-valley-springs-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/leak-detection/": [
+    "/services/leak-detection/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/ac-repair/",
+    "/service-areas/mcfarland-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/leak-detection/",
+    "/service-areas/bear-valley-springs-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/slab-leak-repair/": [
+    "/services/slab-leak-repair/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/ac-repair/",
+    "/service-areas/mcfarland-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/slab-leak-repair/",
+    "/service-areas/bear-valley-springs-ca/slab-leak-repair/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/repiping/": [
+    "/services/repiping/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/ac-repair/",
+    "/service-areas/mcfarland-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/repiping/",
+    "/service-areas/bear-valley-springs-ca/repiping/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/gas-line-services/": [
+    "/services/gas-line-services/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/ac-repair/",
+    "/service-areas/mcfarland-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/gas-line-services/",
+    "/service-areas/bear-valley-springs-ca/gas-line-services/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/sump-pumps/": [
+    "/services/sump-pumps/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/ac-repair/",
+    "/service-areas/mcfarland-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/sump-pumps/",
+    "/service-areas/bear-valley-springs-ca/sump-pumps/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/ac-repair/",
+    "/service-areas/mcfarland-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/water-softeners-filtration/",
+    "/service-areas/bear-valley-springs-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/ac-repair/",
+    "/service-areas/mcfarland-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/toilet-faucet-repair/",
+    "/service-areas/bear-valley-springs-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/ac-repair/",
+    "/service-areas/mcfarland-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/garbage-disposal/",
+    "/service-areas/bear-valley-springs-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/ac-repair/",
+    "/service-areas/mcfarland-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/furnace-repair/",
+    "/service-areas/bear-valley-springs-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/furnace-installation/": [
+    "/services/furnace-installation/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/ac-repair/",
+    "/service-areas/mcfarland-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/furnace-installation/",
+    "/service-areas/bear-valley-springs-ca/furnace-installation/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/heat-pump-services/": [
+    "/services/heat-pump-services/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/ac-repair/",
+    "/service-areas/mcfarland-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/heat-pump-services/",
+    "/service-areas/bear-valley-springs-ca/heat-pump-services/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/drain-cleaning/",
+    "/service-areas/mcfarland-ca/emergency-plumbing/",
+    "/service-areas/arvin-ca/ac-repair/",
+    "/service-areas/bear-valley-springs-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/ac-installation/": [
+    "/services/ac-installation/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/ac-repair/",
+    "/service-areas/mcfarland-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/ac-installation/",
+    "/service-areas/bear-valley-springs-ca/ac-installation/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/ductless-mini-splits/": [
+    "/services/ductless-mini-splits/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/ac-repair/",
+    "/service-areas/mcfarland-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/ductless-mini-splits/",
+    "/service-areas/bear-valley-springs-ca/ductless-mini-splits/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/ductwork/": [
+    "/services/ductwork/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/ac-repair/",
+    "/service-areas/mcfarland-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/ductwork/",
+    "/service-areas/bear-valley-springs-ca/ductwork/",
+    "/contact/"
+  ],
+  "/service-areas/mcfarland-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/ac-repair/",
+    "/service-areas/mcfarland-ca/drain-cleaning/",
     "/service-areas/arvin-ca/indoor-air-quality/",
     "/service-areas/bear-valley-springs-ca/indoor-air-quality/",
     "/contact/"

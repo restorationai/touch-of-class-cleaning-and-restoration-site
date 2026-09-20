@@ -123,6 +123,11 @@
       "city": "Hasley Canyon",
       "state": "CA",
       "slug": "hasley-canyon-ca"
+    },
+    {
+      "city": "Lake Sherwood",
+      "state": "CA",
+      "slug": "lake-sherwood-ca"
     }
   ],
   "template": "restoration",
