@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-08-27-best-water-damage-restoration-in-charleston-sc",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-27T04:34:22Z",
       "priority": 1,
       "prioritized": true,
@@ -48,7 +48,182 @@
         "water damage cleanup Charleston",
         "water cleanup Charleston"
       ],
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-20T22:30:26Z",
+      "post_url": "https://None/blog/best-water-damage-restoration-company-in-charleston-sc/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-charleston-sc.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "oration company in Charleston, SC, with IICRC-certified technicians, full-service wat",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-charleston-sc.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified technician",
+          "context": "n company in Charleston, SC, with IICRC-certified technicians, full-service water damage and mold re",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-charleston-sc.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "ny in Charleston?\", \"answer\": \"Look for IICRC certification (specifically the WRT cre",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-charleston-sc.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "ne floors, may take longer to reach the IICRC S500 drying targets.\"}] published_at: \"",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-charleston-sc.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "ion option in Charleston, SC, combining IICRC-certified technicians, full-service wat",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-charleston-sc.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified technician",
+          "context": "tion in Charleston, SC, combining IICRC-certified technicians, full-service water damage and mold re",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-charleston-sc.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "The company's technicians follow the [IICRC S500 Standard for Professional Water Da",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-charleston-sc.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "gle Rating | Reviews | 24/7 Emergency | IICRC Certified | |---|---|---|---|---| | Pau",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-charleston-sc.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "ing, ask these: **Are your technicians IICRC-certified in water damage restoration (",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-charleston-sc.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "water damage restoration (WRT)?** The [IICRC](https://www.iicrc.org) is the governin",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-charleston-sc.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "ng is complete when materials reach the IICRC S500 target moisture content for that m",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-charleston-sc.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "l Davis Restoration of Charleston is an IICRC-certified restoration company serving C",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-charleston-sc.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified restoration",
+          "context": "s Restoration of Charleston is an IICRC-certified restoration company serving Charleston, SC and the",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-charleston-sc.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "137 reviews",
+          "context": "ey hold a 4.8-star Google rating across 137 reviews. SERVPRO's national network can be an",
+          "reason": "claims 137 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-charleston-sc.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "83 reviews",
+          "context": "n holds a 5.0-star Google rating across 83 reviews, a strong signal for a company of their",
+          "reason": "claims 83 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-charleston-sc.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "83 reviews",
+          "context": "ion work in the Lowcountry market. With 83 reviews at a perfect rating, they have a consis",
+          "reason": "claims 83 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-charleston-sc.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "86 reviews",
+          "context": "s holds a 4.9-star Google rating across 86 reviews. The name and rating suggest a company",
+          "reason": "claims 86 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-charleston-sc.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "86 reviews",
+          "context": "loss and the cost of remediation. With 86 reviews at 4.9 stars, they have a strong local",
+          "reason": "claims 86 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-charleston-sc.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "229 reviews",
+          "context": "s holds a 5.0-star Google rating across 229 reviews, the highest review volume on this list",
+          "reason": "claims 229 reviews but no synced gbpReviewCount exists for this site"
+        }
+      ]
     },
     {
       "id": "2026-08-27-does-homeowners-insurance-cover-water-damage",
