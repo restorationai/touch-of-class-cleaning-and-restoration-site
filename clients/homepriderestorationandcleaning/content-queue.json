@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-18-water-damage-restoration-cost-ut",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-18T14:38:24Z",
       "priority": 1,
       "prioritized": true,
@@ -29,7 +29,8 @@
       ],
       "source": "best-of-seeder",
       "written_at": "2026-09-20T14:37:12Z",
-      "post_url": "https://homepriderestorationandcleaning.com/blog/water-damage-restoration-cost-ut/"
+      "post_url": "https://homepriderestorationandcleaning.com/blog/water-damage-restoration-cost-ut/",
+      "published_verified_at": "2026-09-20T14:39:08Z"
     },
     {
       "id": "2026-07-23-best-water-damage-restoration-in-saratoga-springs-ut",
