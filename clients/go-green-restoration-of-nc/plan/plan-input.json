@@ -220,6 +220,11 @@
       "city": "Clayton",
       "state": "NC",
       "slug": "clayton-nc"
+    },
+    {
+      "city": "Knightdale",
+      "state": "NC",
+      "slug": "knightdale-nc"
     }
   ],
   "template": "restoration",

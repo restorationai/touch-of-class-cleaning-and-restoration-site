@@ -1,21 +1,21 @@
 # Site Plan Report — Dry Bros Water & Fire Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T14:13:04.748222+00:00
+- Generated: 2026-09-20T17:29:31.327076+00:00
 - Domain: `drybros.com`
 - Services selected: 13 of 65 catalog entries
-- Service areas: 14
+- Service areas: 15
 - Cross-product enabled: True
-- Total URLs: **212**
-- Total internal links: 1724 (avg 8.1 per page)
+- Total URLs: **226**
+- Total internal links: 1835 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 169 |
+| `service-area-service` | 182 |
+| `service-area` | 14 |
 | `service-landing` | 13 |
-| `service-area` | 13 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -57,6 +57,7 @@
 - `river-forest-il` — River Forest, IL
 - `forest-park-il` — Forest Park, IL
 - `lyons-il` — Lyons, IL
+- `riverside-il` — Riverside, IL
 
 ## Top 10 priority pages
 

@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Storm Damage Restoration in Anderson Island, WA | Frontline Fire & Flood"
+h1: "Storm Damage Restoration in Anderson Island"
+meta_description: "24/7 storm damage restoration in Anderson Island, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
+primary_keyword: "storm damage restoration anderson island"
+secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
+search_intent: "local_emergency"
+priority: 6.3
+plan_hash: "064fdb4c0ad0f3f3"
+generated_at: "2026-09-20T17:29:40.447329+00:00"
+manual_override: false
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/anderson-island-wa/", "/service-areas/anderson-island-wa/fire-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/storm-damage-restoration/", "/service-areas/bellevue-wa/storm-damage-restoration/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Anderson Island", "url": "/service-areas/anderson-island-wa/"}, {"name": "Storm Damage Restoration"}]
+faq: []
+area_slug: "anderson-island-wa"
+service_slug: "storm-damage-restoration"
+city: "Anderson Island"
+state: "WA"
+service_display: "Storm Damage Restoration"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug frontline-fire-flood` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Storm Damage Restoration in Anderson Island.

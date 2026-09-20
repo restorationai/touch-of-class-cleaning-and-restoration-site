@@ -373,6 +373,11 @@
       "city": "Kahaluu",
       "state": "HI",
       "slug": "kahaluu-hi"
+    },
+    {
+      "city": "Kaneohe Base",
+      "state": "HI",
+      "slug": "kaneohe-base-hi"
     }
   ],
   "brand": {

@@ -1,20 +1,20 @@
 # Site Plan Report — Heritage Restoration LLC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T14:13:15.868014+00:00
+- Generated: 2026-09-20T17:29:43.278015+00:00
 - Domain: `heritagermn.com`
 - Services selected: 4 of 65 catalog entries
-- Service areas: 15
+- Service areas: 16
 - Cross-product enabled: True
-- Total URLs: **91**
-- Total internal links: 674 (avg 7.4 per page)
+- Total URLs: **96**
+- Total internal links: 713 (avg 7.4 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 56 |
-| `service-area` | 14 |
+| `service-area-service` | 60 |
+| `service-area` | 15 |
 | `blog-post` | 8 |
 | `service-landing` | 4 |
 | `legal` | 3 |
@@ -49,6 +49,7 @@
 - `elmdale-mn` — Elmdale, MN
 - `fort-ripley-mn` — Fort Ripley, MN
 - `swanville-mn` — Swanville, MN
+- `upsala-mn` — Upsala, MN
 
 ## Top 10 priority pages
 

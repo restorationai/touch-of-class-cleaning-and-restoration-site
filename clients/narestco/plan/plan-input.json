@@ -424,6 +424,11 @@
       "city": "Pacific",
       "state": "WA",
       "slug": "pacific-wa"
+    },
+    {
+      "city": "SeaTac",
+      "state": "WA",
+      "slug": "seatac-wa"
     }
   ],
   "brand": {

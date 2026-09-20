@@ -1,20 +1,20 @@
 # Site Plan Report — Dry County Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T14:13:06.236036+00:00
+- Generated: 2026-09-20T17:29:32.982915+00:00
 - Domain: `drycountyrestoration.com`
 - Services selected: 12 of 65 catalog entries
-- Service areas: 15
+- Service areas: 16
 - Cross-product enabled: True
-- Total URLs: **211**
-- Total internal links: 1705 (avg 8.1 per page)
+- Total URLs: **224**
+- Total internal links: 1808 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 168 |
-| `service-area` | 14 |
+| `service-area-service` | 180 |
+| `service-area` | 15 |
 | `service-landing` | 12 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -57,6 +57,7 @@
 - `temescal-valley-ca` — Temescal Valley, CA
 - `yorba-linda-ca` — Yorba Linda, CA
 - `lake-mathews-ca` — Lake Mathews, CA
+- `woodcrest-ca` — Woodcrest, CA
 
 ## Top 10 priority pages
 

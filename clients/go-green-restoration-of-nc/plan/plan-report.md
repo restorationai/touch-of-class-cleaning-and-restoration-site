@@ -1,20 +1,20 @@
 # Site Plan Report — Go Green Restoration of NC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T14:13:14.541637+00:00
+- Generated: 2026-09-20T17:29:41.796466+00:00
 - Domain: `gogreenrestorationofnc.com`
 - Services selected: 8 of 65 catalog entries
-- Service areas: 14
+- Service areas: 15
 - Cross-product enabled: True
-- Total URLs: **142**
-- Total internal links: 1122 (avg 7.9 per page)
+- Total URLs: **151**
+- Total internal links: 1193 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 104 |
-| `service-area` | 13 |
+| `service-area-service` | 112 |
+| `service-area` | 14 |
 | `service-landing` | 8 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -52,6 +52,7 @@
 - `spring-hope-nc` — Spring Hope, NC
 - `kenly-nc` — Kenly, NC
 - `clayton-nc` — Clayton, NC
+- `knightdale-nc` — Knightdale, NC
 
 ## Top 10 priority pages
 

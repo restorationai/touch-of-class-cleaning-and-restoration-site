@@ -28,6 +28,7 @@
     "/service-areas/naperville-il/",
     "/service-areas/oak-park-il/",
     "/service-areas/river-forest-il/",
+    "/service-areas/riverside-il/",
     "/service-areas/skokie-il/",
     "/service-areas/stickney-il/"
   ],
@@ -60,6 +61,7 @@
     "/service-areas/naperville-il/",
     "/service-areas/oak-park-il/",
     "/service-areas/river-forest-il/",
+    "/service-areas/riverside-il/",
     "/service-areas/skokie-il/",
     "/service-areas/stickney-il/"
   ],
@@ -98,7 +100,7 @@
     "/service-areas/naperville-il/water-damage-restoration/",
     "/service-areas/oak-park-il/water-damage-restoration/",
     "/service-areas/river-forest-il/water-damage-restoration/",
-    "/service-areas/skokie-il/water-damage-restoration/",
+    "/service-areas/riverside-il/water-damage-restoration/",
     "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -118,7 +120,7 @@
     "/service-areas/naperville-il/fire-damage-restoration/",
     "/service-areas/oak-park-il/fire-damage-restoration/",
     "/service-areas/river-forest-il/fire-damage-restoration/",
-    "/service-areas/skokie-il/fire-damage-restoration/",
+    "/service-areas/riverside-il/fire-damage-restoration/",
     "/blog/choosing-a-restoration-company/",
     "/blog/fire-damage-restoration-process/"
   ],
@@ -136,7 +138,7 @@
     "/service-areas/naperville-il/mold-remediation/",
     "/service-areas/oak-park-il/mold-remediation/",
     "/service-areas/river-forest-il/mold-remediation/",
-    "/service-areas/skokie-il/mold-remediation/",
+    "/service-areas/riverside-il/mold-remediation/",
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
     "/blog/signs-of-hidden-mold/"
@@ -155,7 +157,7 @@
     "/service-areas/naperville-il/water-cleanup/",
     "/service-areas/oak-park-il/water-cleanup/",
     "/service-areas/river-forest-il/water-cleanup/",
-    "/service-areas/skokie-il/water-cleanup/",
+    "/service-areas/riverside-il/water-cleanup/",
     "/services/water-damage-restoration/"
   ],
   "/services/flood-damage-restoration/": [
@@ -172,7 +174,7 @@
     "/service-areas/naperville-il/flood-damage-restoration/",
     "/service-areas/oak-park-il/flood-damage-restoration/",
     "/service-areas/river-forest-il/flood-damage-restoration/",
-    "/service-areas/skokie-il/flood-damage-restoration/"
+    "/service-areas/riverside-il/flood-damage-restoration/"
   ],
   "/services/burst-pipe-repair/": [
     "/services/",
@@ -188,7 +190,7 @@
     "/service-areas/naperville-il/burst-pipe-repair/",
     "/service-areas/oak-park-il/burst-pipe-repair/",
     "/service-areas/river-forest-il/burst-pipe-repair/",
-    "/service-areas/skokie-il/burst-pipe-repair/"
+    "/service-areas/riverside-il/burst-pipe-repair/"
   ],
   "/services/basement-flooding-cleanup/": [
     "/services/",
@@ -204,7 +206,7 @@
     "/service-areas/naperville-il/basement-flooding-cleanup/",
     "/service-areas/oak-park-il/basement-flooding-cleanup/",
     "/service-areas/river-forest-il/basement-flooding-cleanup/",
-    "/service-areas/skokie-il/basement-flooding-cleanup/"
+    "/service-areas/riverside-il/basement-flooding-cleanup/"
   ],
   "/services/sewage-cleanup/": [
     "/services/",
@@ -220,7 +222,7 @@
     "/service-areas/naperville-il/sewage-cleanup/",
     "/service-areas/oak-park-il/sewage-cleanup/",
     "/service-areas/river-forest-il/sewage-cleanup/",
-    "/service-areas/skokie-il/sewage-cleanup/"
+    "/service-areas/riverside-il/sewage-cleanup/"
   ],
   "/services/smoke-damage-restoration/": [
     "/services/",
@@ -236,7 +238,7 @@
     "/service-areas/naperville-il/smoke-damage-restoration/",
     "/service-areas/oak-park-il/smoke-damage-restoration/",
     "/service-areas/river-forest-il/smoke-damage-restoration/",
-    "/service-areas/skokie-il/smoke-damage-restoration/",
+    "/service-areas/riverside-il/smoke-damage-restoration/",
     "/blog/fire-damage-restoration-process/"
   ],
   "/services/odor-removal/": [
@@ -253,7 +255,7 @@
     "/service-areas/naperville-il/odor-removal/",
     "/service-areas/oak-park-il/odor-removal/",
     "/service-areas/river-forest-il/odor-removal/",
-    "/service-areas/skokie-il/odor-removal/"
+    "/service-areas/riverside-il/odor-removal/"
   ],
   "/services/storm-damage-restoration/": [
     "/services/",
@@ -269,7 +271,7 @@
     "/service-areas/naperville-il/storm-damage-restoration/",
     "/service-areas/oak-park-il/storm-damage-restoration/",
     "/service-areas/river-forest-il/storm-damage-restoration/",
-    "/service-areas/skokie-il/storm-damage-restoration/"
+    "/service-areas/riverside-il/storm-damage-restoration/"
   ],
   "/services/emergency-board-up-tarping/": [
     "/services/",
@@ -285,7 +287,7 @@
     "/service-areas/naperville-il/emergency-board-up-tarping/",
     "/service-areas/oak-park-il/emergency-board-up-tarping/",
     "/service-areas/river-forest-il/emergency-board-up-tarping/",
-    "/service-areas/skokie-il/emergency-board-up-tarping/"
+    "/service-areas/riverside-il/emergency-board-up-tarping/"
   ],
   "/services/contents-restoration/": [
     "/services/",
@@ -301,7 +303,7 @@
     "/service-areas/naperville-il/contents-restoration/",
     "/service-areas/oak-park-il/contents-restoration/",
     "/service-areas/river-forest-il/contents-restoration/",
-    "/service-areas/skokie-il/contents-restoration/"
+    "/service-areas/riverside-il/contents-restoration/"
   ],
   "/service-areas/naperville-il/": [
     "/service-areas/",
@@ -559,6 +561,26 @@
     "/service-areas/lyons-il/emergency-board-up-tarping/",
     "/service-areas/lyons-il/odor-removal/",
     "/service-areas/lyons-il/contents-restoration/",
+    "/service-areas/bedford-park-il/",
+    "/service-areas/berwyn-il/",
+    "/service-areas/cicero-il/"
+  ],
+  "/service-areas/riverside-il/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/riverside-il/fire-damage-restoration/",
+    "/service-areas/riverside-il/mold-remediation/",
+    "/service-areas/riverside-il/water-damage-restoration/",
+    "/service-areas/riverside-il/flood-damage-restoration/",
+    "/service-areas/riverside-il/sewage-cleanup/",
+    "/service-areas/riverside-il/smoke-damage-restoration/",
+    "/service-areas/riverside-il/storm-damage-restoration/",
+    "/service-areas/riverside-il/water-cleanup/",
+    "/service-areas/riverside-il/basement-flooding-cleanup/",
+    "/service-areas/riverside-il/burst-pipe-repair/",
+    "/service-areas/riverside-il/emergency-board-up-tarping/",
+    "/service-areas/riverside-il/odor-removal/",
+    "/service-areas/riverside-il/contents-restoration/",
     "/service-areas/bedford-park-il/",
     "/service-areas/berwyn-il/",
     "/service-areas/cicero-il/"
@@ -2080,6 +2102,123 @@
     "/service-areas/lyons-il/",
     "/service-areas/lyons-il/fire-damage-restoration/",
     "/service-areas/lyons-il/mold-remediation/",
+    "/service-areas/bedford-park-il/contents-restoration/",
+    "/service-areas/berwyn-il/contents-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/riverside-il/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/riverside-il/",
+    "/service-areas/riverside-il/fire-damage-restoration/",
+    "/service-areas/riverside-il/mold-remediation/",
+    "/service-areas/bedford-park-il/water-damage-restoration/",
+    "/service-areas/berwyn-il/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/riverside-il/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/riverside-il/",
+    "/service-areas/riverside-il/mold-remediation/",
+    "/service-areas/riverside-il/water-damage-restoration/",
+    "/service-areas/bedford-park-il/fire-damage-restoration/",
+    "/service-areas/berwyn-il/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/riverside-il/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/riverside-il/",
+    "/service-areas/riverside-il/fire-damage-restoration/",
+    "/service-areas/riverside-il/water-damage-restoration/",
+    "/service-areas/bedford-park-il/mold-remediation/",
+    "/service-areas/berwyn-il/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/riverside-il/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/riverside-il/",
+    "/service-areas/riverside-il/fire-damage-restoration/",
+    "/service-areas/riverside-il/mold-remediation/",
+    "/service-areas/bedford-park-il/water-cleanup/",
+    "/service-areas/berwyn-il/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/riverside-il/flood-damage-restoration/": [
+    "/services/flood-damage-restoration/",
+    "/service-areas/riverside-il/",
+    "/service-areas/riverside-il/fire-damage-restoration/",
+    "/service-areas/riverside-il/mold-remediation/",
+    "/service-areas/bedford-park-il/flood-damage-restoration/",
+    "/service-areas/berwyn-il/flood-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/riverside-il/burst-pipe-repair/": [
+    "/services/burst-pipe-repair/",
+    "/service-areas/riverside-il/",
+    "/service-areas/riverside-il/fire-damage-restoration/",
+    "/service-areas/riverside-il/mold-remediation/",
+    "/service-areas/bedford-park-il/burst-pipe-repair/",
+    "/service-areas/berwyn-il/burst-pipe-repair/",
+    "/contact/"
+  ],
+  "/service-areas/riverside-il/basement-flooding-cleanup/": [
+    "/services/basement-flooding-cleanup/",
+    "/service-areas/riverside-il/",
+    "/service-areas/riverside-il/fire-damage-restoration/",
+    "/service-areas/riverside-il/mold-remediation/",
+    "/service-areas/bedford-park-il/basement-flooding-cleanup/",
+    "/service-areas/berwyn-il/basement-flooding-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/riverside-il/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/riverside-il/",
+    "/service-areas/riverside-il/fire-damage-restoration/",
+    "/service-areas/riverside-il/mold-remediation/",
+    "/service-areas/bedford-park-il/sewage-cleanup/",
+    "/service-areas/berwyn-il/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/riverside-il/smoke-damage-restoration/": [
+    "/services/smoke-damage-restoration/",
+    "/service-areas/riverside-il/",
+    "/service-areas/riverside-il/fire-damage-restoration/",
+    "/service-areas/riverside-il/mold-remediation/",
+    "/service-areas/bedford-park-il/smoke-damage-restoration/",
+    "/service-areas/berwyn-il/smoke-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/riverside-il/odor-removal/": [
+    "/services/odor-removal/",
+    "/service-areas/riverside-il/",
+    "/service-areas/riverside-il/fire-damage-restoration/",
+    "/service-areas/riverside-il/mold-remediation/",
+    "/service-areas/bedford-park-il/odor-removal/",
+    "/service-areas/berwyn-il/odor-removal/",
+    "/contact/"
+  ],
+  "/service-areas/riverside-il/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/riverside-il/",
+    "/service-areas/riverside-il/fire-damage-restoration/",
+    "/service-areas/riverside-il/mold-remediation/",
+    "/service-areas/bedford-park-il/storm-damage-restoration/",
+    "/service-areas/berwyn-il/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/riverside-il/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/riverside-il/",
+    "/service-areas/riverside-il/fire-damage-restoration/",
+    "/service-areas/riverside-il/mold-remediation/",
+    "/service-areas/bedford-park-il/emergency-board-up-tarping/",
+    "/service-areas/berwyn-il/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/riverside-il/contents-restoration/": [
+    "/services/contents-restoration/",
+    "/service-areas/riverside-il/",
+    "/service-areas/riverside-il/fire-damage-restoration/",
+    "/service-areas/riverside-il/mold-remediation/",
     "/service-areas/bedford-park-il/contents-restoration/",
     "/service-areas/berwyn-il/contents-restoration/",
     "/contact/"

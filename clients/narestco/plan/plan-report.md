@@ -1,21 +1,21 @@
 # Site Plan Report — National Restoration Construction
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T14:13:23.083763+00:00
+- Generated: 2026-09-20T17:29:50.996241+00:00
 - Domain: `narestco.com`
 - Services selected: 23 of 65 catalog entries
-- Service areas: 20
+- Service areas: 21
 - Cross-product enabled: True
-- Total URLs: **500**
-- Total internal links: 4100 (avg 8.2 per page)
+- Total URLs: **524**
+- Total internal links: 4291 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 437 |
+| `service-area-service` | 460 |
 | `service-landing` | 23 |
-| `service-area` | 19 |
+| `service-area` | 20 |
 | `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -73,6 +73,7 @@
 - `algona-wa` — Algona, WA
 - `milton-wa` — Milton, WA
 - `pacific-wa` — Pacific, WA
+- `seatac-wa` — SeaTac, WA
 
 ## Top 10 priority pages
 

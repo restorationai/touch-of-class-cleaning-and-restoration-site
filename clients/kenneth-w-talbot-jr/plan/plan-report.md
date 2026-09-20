@@ -1,20 +1,20 @@
 # Site Plan Report — Veterans Remediation & Restoration 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T14:13:19.921581+00:00
+- Generated: 2026-09-20T17:29:47.664627+00:00
 - Domain: `veteransremediation.com`
 - Services selected: 5 of 65 catalog entries
-- Service areas: 16
+- Service areas: 17
 - Cross-product enabled: True
-- Total URLs: **112**
-- Total internal links: 856 (avg 7.6 per page)
+- Total URLs: **118**
+- Total internal links: 903 (avg 7.7 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 75 |
-| `service-area` | 15 |
+| `service-area-service` | 80 |
+| `service-area` | 16 |
 | `blog-post` | 8 |
 | `service-landing` | 5 |
 | `legal` | 3 |
@@ -51,6 +51,7 @@
 - `eglin-afb-fl` — Eglin AFB, FL
 - `vernon-fl` — Vernon, FL
 - `wright-fl` — Wright, FL
+- `hurlburt-field-fl` — Hurlburt Field, FL
 
 ## Top 10 priority pages
 

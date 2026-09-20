@@ -379,6 +379,11 @@
       "city": "Caddo Mills",
       "state": "TX",
       "slug": "caddo-mills-tx"
+    },
+    {
+      "city": "Poetry",
+      "state": "TX",
+      "slug": "poetry-tx"
     }
   ],
   "template": "restoration",

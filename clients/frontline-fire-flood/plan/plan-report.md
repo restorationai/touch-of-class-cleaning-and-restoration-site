@@ -1,20 +1,20 @@
 # Site Plan Report — Frontline Fire & Flood
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T14:13:13.103813+00:00
+- Generated: 2026-09-20T17:29:40.301601+00:00
 - Domain: `frontlinefireflood.com`
 - Services selected: 9 of 65 catalog entries
-- Service areas: 32
+- Service areas: 33
 - Cross-product enabled: True
-- Total URLs: **336**
-- Total internal links: 2664 (avg 7.9 per page)
+- Total URLs: **346**
+- Total internal links: 2743 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 279 |
-| `service-area` | 31 |
+| `service-area-service` | 288 |
+| `service-area` | 32 |
 | `service-landing` | 9 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -71,6 +71,7 @@
 - `midland-wa` — Midland, WA
 - `fircrest-wa` — Fircrest, WA
 - `fort-lewis-wa` — Fort Lewis, WA
+- `anderson-island-wa` — Anderson Island, WA
 
 ## Top 10 priority pages
 
@@ -82,10 +83,10 @@
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization lakewood |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration lakewood |
 | `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup lakewood |
+| `/service-areas/anderson-island-wa/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration anderson island |
+| `/service-areas/anderson-island-wa/mold-remediation/` | `service-area-service` | 7.0 | mold remediation anderson island |
+| `/service-areas/anderson-island-wa/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration anderson island |
 | `/service-areas/auburn-wa/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration auburn |
-| `/service-areas/auburn-wa/mold-remediation/` | `service-area-service` | 7.0 | mold remediation auburn |
-| `/service-areas/auburn-wa/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration auburn |
-| `/service-areas/bellevue-wa/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration bellevue |
 
 ## Validation
 

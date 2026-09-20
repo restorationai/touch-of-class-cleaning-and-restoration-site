@@ -123,6 +123,11 @@
       "city": "Sturbridge",
       "state": "MA",
       "slug": "sturbridge-ma"
+    },
+    {
+      "city": "Fiskdale",
+      "state": "MA",
+      "slug": "fiskdale-ma"
     }
   ],
   "service_radius_description": "Southern New England, with crews responding across a 50 mile radius of Auburn"

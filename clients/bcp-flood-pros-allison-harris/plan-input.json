@@ -110,6 +110,11 @@
       "city": "Bluffdale",
       "state": "UT",
       "slug": "bluffdale-ut"
+    },
+    {
+      "city": "Eagle Mountain",
+      "state": "UT",
+      "slug": "eagle-mountain-ut"
     }
   ],
   "template": "restoration",

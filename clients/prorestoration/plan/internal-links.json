@@ -35,6 +35,7 @@
     "/service-areas/taft-ca/",
     "/service-areas/tarina-ca/",
     "/service-areas/tehachapi-ca/",
+    "/service-areas/valley-acres-ca/",
     "/service-areas/wasco-ca/",
     "/service-areas/weedpatch-ca/"
   ],
@@ -74,6 +75,7 @@
     "/service-areas/taft-ca/",
     "/service-areas/tarina-ca/",
     "/service-areas/tehachapi-ca/",
+    "/service-areas/valley-acres-ca/",
     "/service-areas/wasco-ca/",
     "/service-areas/weedpatch-ca/"
   ],
@@ -772,6 +774,30 @@
     "/service-areas/mcfarland-ca/soot-removal/",
     "/service-areas/mcfarland-ca/appliance-leak-cleanup/",
     "/service-areas/mcfarland-ca/carpet-cleaning/",
+    "/service-areas/arvin-ca/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/delano-ca/"
+  ],
+  "/service-areas/valley-acres-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/valley-acres-ca/fire-damage-restoration/",
+    "/service-areas/valley-acres-ca/home-remodeling/",
+    "/service-areas/valley-acres-ca/mold-remediation/",
+    "/service-areas/valley-acres-ca/water-damage-restoration/",
+    "/service-areas/valley-acres-ca/flood-damage-restoration/",
+    "/service-areas/valley-acres-ca/reconstruction/",
+    "/service-areas/valley-acres-ca/sewage-cleanup/",
+    "/service-areas/valley-acres-ca/smoke-damage-restoration/",
+    "/service-areas/valley-acres-ca/storm-damage-restoration/",
+    "/service-areas/valley-acres-ca/water-cleanup/",
+    "/service-areas/valley-acres-ca/burst-pipe-repair/",
+    "/service-areas/valley-acres-ca/general-contracting/",
+    "/service-areas/valley-acres-ca/mold-inspection-testing/",
+    "/service-areas/valley-acres-ca/odor-removal/",
+    "/service-areas/valley-acres-ca/soot-removal/",
+    "/service-areas/valley-acres-ca/appliance-leak-cleanup/",
+    "/service-areas/valley-acres-ca/carpet-cleaning/",
     "/service-areas/arvin-ca/",
     "/service-areas/buttonwillow-ca/",
     "/service-areas/delano-ca/"
@@ -3220,6 +3246,159 @@
     "/service-areas/mcfarland-ca/",
     "/service-areas/mcfarland-ca/fire-damage-restoration/",
     "/service-areas/mcfarland-ca/home-remodeling/",
+    "/service-areas/arvin-ca/water-cleanup/",
+    "/service-areas/buttonwillow-ca/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/fire-damage-restoration/",
+    "/service-areas/valley-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/water-damage-restoration/",
+    "/service-areas/buttonwillow-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/flood-damage-restoration/": [
+    "/services/flood-damage-restoration/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/fire-damage-restoration/",
+    "/service-areas/valley-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/flood-damage-restoration/",
+    "/service-areas/buttonwillow-ca/flood-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/burst-pipe-repair/": [
+    "/services/burst-pipe-repair/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/fire-damage-restoration/",
+    "/service-areas/valley-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/burst-pipe-repair/",
+    "/service-areas/buttonwillow-ca/burst-pipe-repair/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/appliance-leak-cleanup/": [
+    "/services/appliance-leak-cleanup/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/fire-damage-restoration/",
+    "/service-areas/valley-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/appliance-leak-cleanup/",
+    "/service-areas/buttonwillow-ca/appliance-leak-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/fire-damage-restoration/",
+    "/service-areas/valley-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/sewage-cleanup/",
+    "/service-areas/buttonwillow-ca/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/home-remodeling/",
+    "/service-areas/valley-acres-ca/mold-remediation/",
+    "/service-areas/arvin-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/smoke-damage-restoration/": [
+    "/services/smoke-damage-restoration/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/fire-damage-restoration/",
+    "/service-areas/valley-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/smoke-damage-restoration/",
+    "/service-areas/buttonwillow-ca/smoke-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/soot-removal/": [
+    "/services/soot-removal/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/fire-damage-restoration/",
+    "/service-areas/valley-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/soot-removal/",
+    "/service-areas/buttonwillow-ca/soot-removal/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/odor-removal/": [
+    "/services/odor-removal/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/fire-damage-restoration/",
+    "/service-areas/valley-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/odor-removal/",
+    "/service-areas/buttonwillow-ca/odor-removal/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/fire-damage-restoration/",
+    "/service-areas/valley-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/mold-remediation/",
+    "/service-areas/buttonwillow-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/fire-damage-restoration/",
+    "/service-areas/valley-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/mold-inspection-testing/",
+    "/service-areas/buttonwillow-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/fire-damage-restoration/",
+    "/service-areas/valley-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/storm-damage-restoration/",
+    "/service-areas/buttonwillow-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/carpet-cleaning/": [
+    "/services/carpet-cleaning/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/fire-damage-restoration/",
+    "/service-areas/valley-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/carpet-cleaning/",
+    "/service-areas/buttonwillow-ca/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/fire-damage-restoration/",
+    "/service-areas/valley-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/reconstruction/",
+    "/service-areas/buttonwillow-ca/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/fire-damage-restoration/",
+    "/service-areas/valley-acres-ca/mold-remediation/",
+    "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/fire-damage-restoration/",
+    "/service-areas/valley-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/general-contracting/",
+    "/service-areas/buttonwillow-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/fire-damage-restoration/",
+    "/service-areas/valley-acres-ca/home-remodeling/",
     "/service-areas/arvin-ca/water-cleanup/",
     "/service-areas/buttonwillow-ca/water-cleanup/",
     "/contact/"

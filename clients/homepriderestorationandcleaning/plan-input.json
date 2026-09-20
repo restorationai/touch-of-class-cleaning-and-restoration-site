@@ -123,6 +123,11 @@
       "city": "Cedar Fort",
       "state": "UT",
       "slug": "cedar-fort-ut"
+    },
+    {
+      "city": "Bluffdale",
+      "state": "UT",
+      "slug": "bluffdale-ut"
     }
   ],
   "brand": {

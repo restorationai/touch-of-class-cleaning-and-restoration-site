@@ -1,21 +1,21 @@
 # Site Plan Report — PuroClean of East Las Vegas
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T14:13:27.882164+00:00
+- Generated: 2026-09-20T17:29:56.258882+00:00
 - Domain: `purocleaneastlasvegas.com`
 - Services selected: 13 of 65 catalog entries
-- Service areas: 14
+- Service areas: 15
 - Cross-product enabled: True
-- Total URLs: **216**
-- Total internal links: 1748 (avg 8.1 per page)
+- Total URLs: **230**
+- Total internal links: 1859 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 169 |
+| `service-area-service` | 182 |
+| `service-area` | 14 |
 | `service-landing` | 13 |
-| `service-area` | 13 |
 | `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -57,6 +57,7 @@
 - `blue-diamond-nv` — Blue Diamond, NV
 - `mount-charleston-nv` — Mount Charleston, NV
 - `nelson-nv` — Nelson, NV
+- `sandy-valley-nv` — Sandy Valley, NV
 
 ## Top 10 priority pages
 

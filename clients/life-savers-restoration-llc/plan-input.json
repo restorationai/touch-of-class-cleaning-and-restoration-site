@@ -120,6 +120,11 @@
       "city": "Goodsprings",
       "state": "NV",
       "slug": "goodsprings-nv"
+    },
+    {
+      "city": "Sandy Valley",
+      "state": "NV",
+      "slug": "sandy-valley-nv"
     }
   ],
   "template": "restoration",

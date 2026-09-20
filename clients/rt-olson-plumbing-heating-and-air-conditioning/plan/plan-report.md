@@ -1,20 +1,20 @@
 # Site Plan Report — RT Olson Plumbing, Heating and Air Conditioning
 
 - Template: `plumbing` v0.1.0
-- Generated: 2026-09-20T14:13:48.440599+00:00
+- Generated: 2026-09-20T17:30:07.475793+00:00
 - Domain: `rtolsonplumbing.com`
 - Services selected: 12 of 22 catalog entries
-- Service areas: 40
+- Service areas: 41
 - Cross-product enabled: True
-- Total URLs: **536**
-- Total internal links: 4264 (avg 8.0 per page)
+- Total URLs: **549**
+- Total internal links: 4367 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 468 |
-| `service-area` | 39 |
+| `service-area-service` | 480 |
+| `service-area` | 40 |
 | `service-landing` | 12 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -82,6 +82,7 @@
 - `woodcrest-ca` — Woodcrest, CA
 - `trabuco-canyon-ca` — Trabuco Canyon, CA
 - `north-tustin-ca` — North Tustin, CA
+- `villa-park-ca` — Villa Park, CA
 
 ## Top 10 priority pages
 

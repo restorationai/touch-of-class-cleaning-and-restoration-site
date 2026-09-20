@@ -1,10 +1,10 @@
 {
   "template": "environmental",
   "template_version": "0.1.0",
-  "generated_at": "2026-09-20T14:12:56.603523+00:00",
+  "generated_at": "2026-09-20T17:29:22.561680+00:00",
   "input_summary": {
     "service_count": 16,
-    "service_area_count": 19,
+    "service_area_count": 20,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -74,6 +74,7 @@
         "/service-areas/parlier-ca/",
         "/service-areas/porterville-ca/",
         "/service-areas/reedley-ca/",
+        "/service-areas/riverdale-ca/",
         "/service-areas/sanger-ca/",
         "/service-areas/selma-ca/",
         "/service-areas/tulare-ca/",
@@ -171,6 +172,7 @@
         "/service-areas/parlier-ca/",
         "/service-areas/porterville-ca/",
         "/service-areas/reedley-ca/",
+        "/service-areas/riverdale-ca/",
         "/service-areas/sanger-ca/",
         "/service-areas/selma-ca/",
         "/service-areas/tulare-ca/",
@@ -2038,6 +2040,59 @@
         "/service-areas/easton-ca/allergen-testing/",
         "/service-areas/easton-ca/compliance-consulting/",
         "/service-areas/easton-ca/litigation-support-sampling/",
+        "/service-areas/bakersfield-ca/",
+        "/service-areas/centerville-ca/",
+        "/service-areas/clovis-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverdale-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Environmental Testing in Riverdale, CA | Arch Enviornmental Group LLC",
+      "h1": "Environmental Testing in Riverdale",
+      "meta_description": "Serving Riverdale, CA with independent mold, air quality, asbestos, lead, and water testing. Certified inspectors, accredited labs. Call (559) 296-2088.",
+      "primary_keyword": "environmental testing riverdale",
+      "secondary_keywords": [
+        "riverdale environmental testing company",
+        "mold testing riverdale",
+        "riverdale air quality testing"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/riverdale-ca/indoor-air-quality-testing/",
+        "/service-areas/riverdale-ca/mold-inspection-testing/",
+        "/service-areas/riverdale-ca/asbestos-testing/",
+        "/service-areas/riverdale-ca/clearance-testing/",
+        "/service-areas/riverdale-ca/environmental-site-assessments/",
+        "/service-areas/riverdale-ca/lead-paint-testing/",
+        "/service-areas/riverdale-ca/water-quality-testing/",
+        "/service-areas/riverdale-ca/post-flood-mold-assessment/",
+        "/service-areas/riverdale-ca/radon-testing/",
+        "/service-areas/riverdale-ca/sewage-contamination-assessment/",
+        "/service-areas/riverdale-ca/hvac-duct-assessments/",
+        "/service-areas/riverdale-ca/remediation-oversight/",
+        "/service-areas/riverdale-ca/voc-formaldehyde-testing/",
+        "/service-areas/riverdale-ca/allergen-testing/",
+        "/service-areas/riverdale-ca/compliance-consulting/",
+        "/service-areas/riverdale-ca/litigation-support-sampling/",
         "/service-areas/bakersfield-ca/",
         "/service-areas/centerville-ca/",
         "/service-areas/clovis-ca/"
@@ -14710,6 +14765,710 @@
         "/service-areas/easton-ca/",
         "/service-areas/easton-ca/indoor-air-quality-testing/",
         "/service-areas/easton-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/litigation-support-sampling/",
+        "/service-areas/centerville-ca/litigation-support-sampling/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverdale-ca/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Riverdale, CA | Arch Enviornmental Group LLC",
+      "h1": "Mold Inspection and Testing in Riverdale",
+      "meta_description": "Certified mold inspection and testing in Riverdale, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "mold inspection and testing riverdale",
+      "secondary_keywords": [
+        "mold inspection near me",
+        "mold testing",
+        "mold spore testing",
+        "air sampling for mold",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/riverdale-ca/",
+        "/service-areas/riverdale-ca/indoor-air-quality-testing/",
+        "/service-areas/riverdale-ca/asbestos-testing/",
+        "/service-areas/bakersfield-ca/mold-inspection-testing/",
+        "/service-areas/centerville-ca/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverdale-ca/indoor-air-quality-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Indoor Air Quality Testing in Riverdale, CA | Arch Enviornmental Group LLC",
+      "h1": "Indoor Air Quality Testing in Riverdale",
+      "meta_description": "Certified indoor air quality testing in Riverdale, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "indoor air quality testing riverdale",
+      "secondary_keywords": [
+        "indoor air quality testing",
+        "air quality testing near me",
+        "air quality inspection",
+        "home air quality test",
+        "air quality testing cost"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/indoor-air-quality-testing/",
+        "/service-areas/riverdale-ca/",
+        "/service-areas/riverdale-ca/mold-inspection-testing/",
+        "/service-areas/riverdale-ca/asbestos-testing/",
+        "/service-areas/bakersfield-ca/indoor-air-quality-testing/",
+        "/service-areas/centerville-ca/indoor-air-quality-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverdale-ca/asbestos-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Asbestos Testing and Inspection in Riverdale, CA | Arch Enviornmental Group LLC",
+      "h1": "Asbestos Testing and Inspection in Riverdale",
+      "meta_description": "Certified asbestos testing and inspection in Riverdale, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "asbestos testing and inspection riverdale",
+      "secondary_keywords": [
+        "asbestos testing near me",
+        "asbestos inspection",
+        "asbestos test before renovation",
+        "popcorn ceiling asbestos test",
+        "asbestos survey"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/asbestos-testing/",
+        "/service-areas/riverdale-ca/",
+        "/service-areas/riverdale-ca/indoor-air-quality-testing/",
+        "/service-areas/riverdale-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/asbestos-testing/",
+        "/service-areas/centerville-ca/asbestos-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverdale-ca/lead-paint-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Lead Paint Testing and Inspection in Riverdale, CA | Arch Enviornmental Group LLC",
+      "h1": "Lead Paint Testing and Inspection in Riverdale",
+      "meta_description": "Certified lead paint testing and inspection in Riverdale, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "lead paint testing and inspection riverdale",
+      "secondary_keywords": [
+        "lead paint testing",
+        "lead paint inspection",
+        "XRF lead testing",
+        "lead risk assessment",
+        "lead test before renovation"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/lead-paint-testing/",
+        "/service-areas/riverdale-ca/",
+        "/service-areas/riverdale-ca/indoor-air-quality-testing/",
+        "/service-areas/riverdale-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/lead-paint-testing/",
+        "/service-areas/centerville-ca/lead-paint-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverdale-ca/water-quality-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Quality Testing in Riverdale, CA | Arch Enviornmental Group LLC",
+      "h1": "Water Quality Testing in Riverdale",
+      "meta_description": "Certified water quality testing in Riverdale, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "water quality testing riverdale",
+      "secondary_keywords": [
+        "water quality testing near me",
+        "well water testing",
+        "drinking water testing",
+        "lead in water test",
+        "bacteria water test"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-quality-testing/",
+        "/service-areas/riverdale-ca/",
+        "/service-areas/riverdale-ca/indoor-air-quality-testing/",
+        "/service-areas/riverdale-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/water-quality-testing/",
+        "/service-areas/centerville-ca/water-quality-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverdale-ca/clearance-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Clearance Testing and Post-Remediation Verification in Riverdale, CA | Arch Enviornmental Group LLC",
+      "h1": "Clearance Testing and Post-Remediation Verification in Riverdale",
+      "meta_description": "Certified clearance testing and post-remediation verification in Riverdale, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "clearance testing and post-remediation verification riverdale",
+      "secondary_keywords": [
+        "mold clearance testing",
+        "post remediation verification",
+        "clearance air testing",
+        "asbestos clearance testing",
+        "remediation clearance letter"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/clearance-testing/",
+        "/service-areas/riverdale-ca/",
+        "/service-areas/riverdale-ca/indoor-air-quality-testing/",
+        "/service-areas/riverdale-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/clearance-testing/",
+        "/service-areas/centerville-ca/clearance-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverdale-ca/environmental-site-assessments/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Environmental Site Assessments in Riverdale, CA | Arch Enviornmental Group LLC",
+      "h1": "Environmental Site Assessments in Riverdale",
+      "meta_description": "Certified environmental site assessments in Riverdale, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "environmental site assessments riverdale",
+      "secondary_keywords": [
+        "phase 1 environmental site assessment",
+        "phase 2 environmental site assessment",
+        "environmental due diligence",
+        "commercial property environmental assessment",
+        "ESA report"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/environmental-site-assessments/",
+        "/service-areas/riverdale-ca/",
+        "/service-areas/riverdale-ca/indoor-air-quality-testing/",
+        "/service-areas/riverdale-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/environmental-site-assessments/",
+        "/service-areas/centerville-ca/environmental-site-assessments/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverdale-ca/radon-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Radon Testing in Riverdale, CA | Arch Enviornmental Group LLC",
+      "h1": "Radon Testing in Riverdale",
+      "meta_description": "Certified radon testing in Riverdale, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "radon testing riverdale",
+      "secondary_keywords": [
+        "radon testing near me",
+        "radon test for home",
+        "radon inspection",
+        "radon levels in house",
+        "continuous radon monitoring"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/radon-testing/",
+        "/service-areas/riverdale-ca/",
+        "/service-areas/riverdale-ca/indoor-air-quality-testing/",
+        "/service-areas/riverdale-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/radon-testing/",
+        "/service-areas/centerville-ca/radon-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverdale-ca/voc-formaldehyde-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "VOC and Formaldehyde Testing in Riverdale, CA | Arch Enviornmental Group LLC",
+      "h1": "VOC and Formaldehyde Testing in Riverdale",
+      "meta_description": "Certified voc and formaldehyde testing in Riverdale, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "voc and formaldehyde testing riverdale",
+      "secondary_keywords": [
+        "VOC testing",
+        "formaldehyde testing",
+        "chemical odor testing",
+        "off-gassing test",
+        "new construction air quality testing"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/voc-formaldehyde-testing/",
+        "/service-areas/riverdale-ca/",
+        "/service-areas/riverdale-ca/indoor-air-quality-testing/",
+        "/service-areas/riverdale-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/voc-formaldehyde-testing/",
+        "/service-areas/centerville-ca/voc-formaldehyde-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverdale-ca/sewage-contamination-assessment/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Contamination Assessment in Riverdale, CA | Arch Enviornmental Group LLC",
+      "h1": "Sewage Contamination Assessment in Riverdale",
+      "meta_description": "Certified sewage contamination assessment in Riverdale, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "sewage contamination assessment riverdale",
+      "secondary_keywords": [
+        "sewage backup testing",
+        "sewage contamination testing",
+        "category 3 water testing",
+        "bacterial contamination testing",
+        "sewage cleanup verification testing"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-contamination-assessment/",
+        "/service-areas/riverdale-ca/",
+        "/service-areas/riverdale-ca/indoor-air-quality-testing/",
+        "/service-areas/riverdale-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/sewage-contamination-assessment/",
+        "/service-areas/centerville-ca/sewage-contamination-assessment/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverdale-ca/post-flood-mold-assessment/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Flood Mold Assessment in Riverdale, CA | Arch Enviornmental Group LLC",
+      "h1": "Post-Flood Mold Assessment in Riverdale",
+      "meta_description": "Certified post-flood mold assessment in Riverdale, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "post-flood mold assessment riverdale",
+      "secondary_keywords": [
+        "mold testing after flood",
+        "water damage mold inspection",
+        "mold assessment after water damage",
+        "flood damage air testing",
+        "moisture mapping inspection"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-flood-mold-assessment/",
+        "/service-areas/riverdale-ca/",
+        "/service-areas/riverdale-ca/indoor-air-quality-testing/",
+        "/service-areas/riverdale-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/post-flood-mold-assessment/",
+        "/service-areas/centerville-ca/post-flood-mold-assessment/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverdale-ca/allergen-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Allergen Testing in Riverdale, CA | Arch Enviornmental Group LLC",
+      "h1": "Allergen Testing in Riverdale",
+      "meta_description": "Certified allergen testing in Riverdale, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "allergen testing riverdale",
+      "secondary_keywords": [
+        "indoor allergen testing",
+        "dust mite allergen test",
+        "pet dander testing",
+        "allergen screening for home",
+        "dust sample allergen analysis"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/allergen-testing/",
+        "/service-areas/riverdale-ca/",
+        "/service-areas/riverdale-ca/indoor-air-quality-testing/",
+        "/service-areas/riverdale-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/allergen-testing/",
+        "/service-areas/centerville-ca/allergen-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverdale-ca/hvac-duct-assessments/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "HVAC and Duct System Assessments in Riverdale, CA | Arch Enviornmental Group LLC",
+      "h1": "HVAC and Duct System Assessments in Riverdale",
+      "meta_description": "Certified hvac and duct system assessments in Riverdale, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "hvac and duct system assessments riverdale",
+      "secondary_keywords": [
+        "HVAC mold inspection",
+        "air duct inspection",
+        "duct contamination testing",
+        "HVAC air quality assessment",
+        "ductwork mold testing"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/hvac-duct-assessments/",
+        "/service-areas/riverdale-ca/",
+        "/service-areas/riverdale-ca/indoor-air-quality-testing/",
+        "/service-areas/riverdale-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/hvac-duct-assessments/",
+        "/service-areas/centerville-ca/hvac-duct-assessments/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverdale-ca/remediation-oversight/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Remediation Oversight and Project Management in Riverdale, CA | Arch Enviornmental Group LLC",
+      "h1": "Remediation Oversight and Project Management in Riverdale",
+      "meta_description": "Certified remediation oversight and project management in Riverdale, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "remediation oversight and project management riverdale",
+      "secondary_keywords": [
+        "remediation project management",
+        "mold remediation protocol",
+        "third party remediation oversight",
+        "abatement project monitoring",
+        "remediation scope of work"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/remediation-oversight/",
+        "/service-areas/riverdale-ca/",
+        "/service-areas/riverdale-ca/indoor-air-quality-testing/",
+        "/service-areas/riverdale-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/remediation-oversight/",
+        "/service-areas/centerville-ca/remediation-oversight/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverdale-ca/compliance-consulting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Environmental Compliance Consulting in Riverdale, CA | Arch Enviornmental Group LLC",
+      "h1": "Environmental Compliance Consulting in Riverdale",
+      "meta_description": "Certified environmental compliance consulting in Riverdale, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "environmental compliance consulting riverdale",
+      "secondary_keywords": [
+        "environmental compliance consulting",
+        "AHERA compliance inspection",
+        "OSHA air monitoring",
+        "environmental compliance audit",
+        "workplace exposure assessment"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/compliance-consulting/",
+        "/service-areas/riverdale-ca/",
+        "/service-areas/riverdale-ca/indoor-air-quality-testing/",
+        "/service-areas/riverdale-ca/mold-inspection-testing/",
+        "/service-areas/bakersfield-ca/compliance-consulting/",
+        "/service-areas/centerville-ca/compliance-consulting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverdale-ca/litigation-support-sampling/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Litigation Support and Forensic Sampling in Riverdale, CA | Arch Enviornmental Group LLC",
+      "h1": "Litigation Support and Forensic Sampling in Riverdale",
+      "meta_description": "Certified litigation support and forensic sampling in Riverdale, CA. Independent inspections with accredited lab analysis. Call (559) 296-2088.",
+      "primary_keyword": "litigation support and forensic sampling riverdale",
+      "secondary_keywords": [
+        "expert witness environmental testing",
+        "forensic mold investigation",
+        "litigation support sampling",
+        "tenant landlord mold dispute testing",
+        "habitability testing"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/litigation-support-sampling/",
+        "/service-areas/riverdale-ca/",
+        "/service-areas/riverdale-ca/indoor-air-quality-testing/",
+        "/service-areas/riverdale-ca/mold-inspection-testing/",
         "/service-areas/bakersfield-ca/litigation-support-sampling/",
         "/service-areas/centerville-ca/litigation-support-sampling/",
         "/contact/"

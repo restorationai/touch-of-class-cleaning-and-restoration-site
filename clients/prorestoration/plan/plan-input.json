@@ -326,6 +326,11 @@
       "city": "McFarland",
       "state": "CA",
       "slug": "mcfarland-ca"
+    },
+    {
+      "city": "Valley Acres",
+      "state": "CA",
+      "slug": "valley-acres-ca"
     }
   ],
   "brand": {

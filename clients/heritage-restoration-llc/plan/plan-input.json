@@ -113,6 +113,11 @@
       "city": "Swanville",
       "state": "MN",
       "slug": "swanville-mn"
+    },
+    {
+      "city": "Upsala",
+      "state": "MN",
+      "slug": "upsala-mn"
     }
   ],
   "template": "restoration",

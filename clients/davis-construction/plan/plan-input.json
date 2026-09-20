@@ -119,6 +119,11 @@
       "city": "Harvest",
       "state": "AL",
       "slug": "harvest-al"
+    },
+    {
+      "city": "Gurley",
+      "state": "AL",
+      "slug": "gurley-al"
     }
   ],
   "brand": {

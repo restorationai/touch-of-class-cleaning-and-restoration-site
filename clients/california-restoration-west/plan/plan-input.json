@@ -113,6 +113,11 @@
       "city": "Santa Rosa Valley",
       "state": "CA",
       "slug": "santa-rosa-valley-ca"
+    },
+    {
+      "city": "Piru",
+      "state": "CA",
+      "slug": "piru-ca"
     }
   ],
   "template": "restoration",

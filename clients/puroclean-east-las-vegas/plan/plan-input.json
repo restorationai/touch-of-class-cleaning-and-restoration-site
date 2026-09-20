@@ -362,6 +362,11 @@
       "city": "Nelson",
       "state": "NV",
       "slug": "nelson-nv"
+    },
+    {
+      "city": "Sandy Valley",
+      "state": "NV",
+      "slug": "sandy-valley-nv"
     }
   ]
 }

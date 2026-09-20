@@ -1,20 +1,20 @@
 # Site Plan Report — DRYCOR RESTORE
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T14:13:07.876366+00:00
+- Generated: 2026-09-20T17:29:34.824592+00:00
 - Domain: `drycor.com`
 - Services selected: 9 of 65 catalog entries
-- Service areas: 67
+- Service areas: 68
 - Cross-product enabled: True
-- Total URLs: **686**
-- Total internal links: 5429 (avg 7.9 per page)
+- Total URLs: **696**
+- Total internal links: 5508 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 594 |
-| `service-area` | 66 |
+| `service-area-service` | 603 |
+| `service-area` | 67 |
 | `service-landing` | 9 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -106,6 +106,7 @@
 - `university-fl` — University, FL
 - `palm-river-clair-mel-fl` — Palm River-Clair Mel, FL
 - `lake-magdalene-fl` — Lake Magdalene, FL
+- `crystal-springs-fl` — Crystal Springs, FL
 
 ## Top 10 priority pages
 

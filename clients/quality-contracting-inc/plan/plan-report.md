@@ -1,20 +1,20 @@
 # Site Plan Report — Quality Contracting, Inc.
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T14:13:32.423781+00:00
+- Generated: 2026-09-20T17:29:58.026450+00:00
 - Domain: `qualitycontracting.us`
 - Services selected: 11 of 65 catalog entries
-- Service areas: 18
+- Service areas: 19
 - Cross-product enabled: True
-- Total URLs: **232**
-- Total internal links: 1862 (avg 8.0 per page)
+- Total URLs: **244**
+- Total internal links: 1957 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 187 |
-| `service-area` | 17 |
+| `service-area-service` | 198 |
+| `service-area` | 18 |
 | `service-landing` | 11 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -59,6 +59,7 @@
 - `northborough-ma` — Northborough, MA
 - `southbridge-town-ma` — Southbridge Town, MA
 - `sturbridge-ma` — Sturbridge, MA
+- `fiskdale-ma` — Fiskdale, MA
 
 ## Top 10 priority pages
 

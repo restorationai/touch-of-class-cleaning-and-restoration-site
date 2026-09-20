@@ -1,10 +1,10 @@
 {
   "template": "construction",
   "template_version": "0.1.0",
-  "generated_at": "2026-09-20T14:13:03.519861+00:00",
+  "generated_at": "2026-09-20T17:29:30.000837+00:00",
   "input_summary": {
     "service_count": 9,
-    "service_area_count": 9,
+    "service_area_count": 10,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -54,6 +54,7 @@
         "/services/storm-damage-restoration/",
         "/services/water-damage-restoration/",
         "/service-areas/athens-al/",
+        "/service-areas/gurley-al/",
         "/service-areas/harvest-al/",
         "/service-areas/hazel-green-al/",
         "/service-areas/huntsville-al/",
@@ -134,6 +135,7 @@
       "internal_links_out": [
         "/",
         "/service-areas/athens-al/",
+        "/service-areas/gurley-al/",
         "/service-areas/harvest-al/",
         "/service-areas/hazel-green-al/",
         "/service-areas/huntsville-al/",
@@ -289,6 +291,7 @@
         "/services/",
         "/contact/",
         "/service-areas/athens-al/home-remodeling/",
+        "/service-areas/gurley-al/home-remodeling/",
         "/service-areas/harvest-al/home-remodeling/",
         "/service-areas/hazel-green-al/home-remodeling/",
         "/service-areas/huntsville-al/home-remodeling/",
@@ -338,6 +341,7 @@
         "/services/",
         "/contact/",
         "/service-areas/athens-al/new-construction/",
+        "/service-areas/gurley-al/new-construction/",
         "/service-areas/harvest-al/new-construction/",
         "/service-areas/hazel-green-al/new-construction/",
         "/service-areas/huntsville-al/new-construction/",
@@ -386,6 +390,7 @@
         "/services/",
         "/contact/",
         "/service-areas/athens-al/decks-pergolas-fences/",
+        "/service-areas/gurley-al/decks-pergolas-fences/",
         "/service-areas/harvest-al/decks-pergolas-fences/",
         "/service-areas/hazel-green-al/decks-pergolas-fences/",
         "/service-areas/huntsville-al/decks-pergolas-fences/",
@@ -433,6 +438,7 @@
         "/services/",
         "/contact/",
         "/service-areas/athens-al/roofing/",
+        "/service-areas/gurley-al/roofing/",
         "/service-areas/harvest-al/roofing/",
         "/service-areas/hazel-green-al/roofing/",
         "/service-areas/huntsville-al/roofing/",
@@ -482,6 +488,7 @@
         "/services/",
         "/contact/",
         "/service-areas/athens-al/siding-gutters/",
+        "/service-areas/gurley-al/siding-gutters/",
         "/service-areas/harvest-al/siding-gutters/",
         "/service-areas/hazel-green-al/siding-gutters/",
         "/service-areas/huntsville-al/siding-gutters/",
@@ -529,6 +536,7 @@
         "/services/",
         "/contact/",
         "/service-areas/athens-al/painting-trim/",
+        "/service-areas/gurley-al/painting-trim/",
         "/service-areas/harvest-al/painting-trim/",
         "/service-areas/hazel-green-al/painting-trim/",
         "/service-areas/huntsville-al/painting-trim/",
@@ -575,6 +583,7 @@
         "/services/",
         "/contact/",
         "/service-areas/athens-al/water-damage-restoration/",
+        "/service-areas/gurley-al/water-damage-restoration/",
         "/service-areas/harvest-al/water-damage-restoration/",
         "/service-areas/hazel-green-al/water-damage-restoration/",
         "/service-areas/huntsville-al/water-damage-restoration/",
@@ -621,6 +630,7 @@
         "/services/",
         "/contact/",
         "/service-areas/athens-al/storm-damage-restoration/",
+        "/service-areas/gurley-al/storm-damage-restoration/",
         "/service-areas/harvest-al/storm-damage-restoration/",
         "/service-areas/hazel-green-al/storm-damage-restoration/",
         "/service-areas/huntsville-al/storm-damage-restoration/",
@@ -669,6 +679,7 @@
         "/services/",
         "/contact/",
         "/service-areas/athens-al/mold-remediation/",
+        "/service-areas/gurley-al/mold-remediation/",
         "/service-areas/harvest-al/mold-remediation/",
         "/service-areas/hazel-green-al/mold-remediation/",
         "/service-areas/huntsville-al/mold-remediation/",
@@ -721,8 +732,8 @@
         "/service-areas/huntsville-al/storm-damage-restoration/",
         "/service-areas/huntsville-al/water-damage-restoration/",
         "/service-areas/athens-al/",
-        "/service-areas/harvest-al/",
-        "/service-areas/hazel-green-al/"
+        "/service-areas/gurley-al/",
+        "/service-areas/harvest-al/"
       ]
     },
     {
@@ -766,9 +777,9 @@
         "/service-areas/athens-al/painting-trim/",
         "/service-areas/athens-al/storm-damage-restoration/",
         "/service-areas/athens-al/water-damage-restoration/",
+        "/service-areas/gurley-al/",
         "/service-areas/harvest-al/",
-        "/service-areas/hazel-green-al/",
-        "/service-areas/huntsville-al/"
+        "/service-areas/hazel-green-al/"
       ]
     },
     {
@@ -813,8 +824,8 @@
         "/service-areas/moores-mill-al/storm-damage-restoration/",
         "/service-areas/moores-mill-al/water-damage-restoration/",
         "/service-areas/athens-al/",
-        "/service-areas/harvest-al/",
-        "/service-areas/hazel-green-al/"
+        "/service-areas/gurley-al/",
+        "/service-areas/harvest-al/"
       ]
     },
     {
@@ -859,8 +870,8 @@
         "/service-areas/redstone-arsenal-al/storm-damage-restoration/",
         "/service-areas/redstone-arsenal-al/water-damage-restoration/",
         "/service-areas/athens-al/",
-        "/service-areas/harvest-al/",
-        "/service-areas/hazel-green-al/"
+        "/service-areas/gurley-al/",
+        "/service-areas/harvest-al/"
       ]
     },
     {
@@ -905,8 +916,8 @@
         "/service-areas/meridianville-al/storm-damage-restoration/",
         "/service-areas/meridianville-al/water-damage-restoration/",
         "/service-areas/athens-al/",
-        "/service-areas/harvest-al/",
-        "/service-areas/hazel-green-al/"
+        "/service-areas/gurley-al/",
+        "/service-areas/harvest-al/"
       ]
     },
     {
@@ -951,8 +962,8 @@
         "/service-areas/hazel-green-al/storm-damage-restoration/",
         "/service-areas/hazel-green-al/water-damage-restoration/",
         "/service-areas/athens-al/",
-        "/service-areas/harvest-al/",
-        "/service-areas/huntsville-al/"
+        "/service-areas/gurley-al/",
+        "/service-areas/harvest-al/"
       ]
     },
     {
@@ -997,8 +1008,8 @@
         "/service-areas/new-market-al/storm-damage-restoration/",
         "/service-areas/new-market-al/water-damage-restoration/",
         "/service-areas/athens-al/",
-        "/service-areas/harvest-al/",
-        "/service-areas/hazel-green-al/"
+        "/service-areas/gurley-al/",
+        "/service-areas/harvest-al/"
       ]
     },
     {
@@ -1043,8 +1054,54 @@
         "/service-areas/harvest-al/storm-damage-restoration/",
         "/service-areas/harvest-al/water-damage-restoration/",
         "/service-areas/athens-al/",
-        "/service-areas/hazel-green-al/",
-        "/service-areas/huntsville-al/"
+        "/service-areas/gurley-al/",
+        "/service-areas/hazel-green-al/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gurley-al/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Construction Services in Gurley, AL | Davis Construction Contractors",
+      "h1": "Construction Services in Gurley",
+      "meta_description": "Serving Gurley, AL with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (256) 771-0326 for a free estimate.",
+      "primary_keyword": "construction services gurley",
+      "secondary_keywords": [
+        "gurley construction company",
+        "general contractor gurley",
+        "gurley remodeling contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/gurley-al/home-remodeling/",
+        "/service-areas/gurley-al/roofing/",
+        "/service-areas/gurley-al/decks-pergolas-fences/",
+        "/service-areas/gurley-al/new-construction/",
+        "/service-areas/gurley-al/siding-gutters/",
+        "/service-areas/gurley-al/mold-remediation/",
+        "/service-areas/gurley-al/painting-trim/",
+        "/service-areas/gurley-al/storm-damage-restoration/",
+        "/service-areas/gurley-al/water-damage-restoration/",
+        "/service-areas/athens-al/",
+        "/service-areas/harvest-al/",
+        "/service-areas/hazel-green-al/"
       ]
     },
     {
@@ -1087,7 +1144,7 @@
         "/service-areas/huntsville-al/roofing/",
         "/service-areas/huntsville-al/decks-pergolas-fences/",
         "/service-areas/athens-al/home-remodeling/",
-        "/service-areas/harvest-al/home-remodeling/",
+        "/service-areas/gurley-al/home-remodeling/",
         "/contact/"
       ]
     },
@@ -1131,7 +1188,7 @@
         "/service-areas/huntsville-al/home-remodeling/",
         "/service-areas/huntsville-al/roofing/",
         "/service-areas/athens-al/new-construction/",
-        "/service-areas/harvest-al/new-construction/",
+        "/service-areas/gurley-al/new-construction/",
         "/contact/"
       ]
     },
@@ -1175,7 +1232,7 @@
         "/service-areas/huntsville-al/home-remodeling/",
         "/service-areas/huntsville-al/roofing/",
         "/service-areas/athens-al/decks-pergolas-fences/",
-        "/service-areas/harvest-al/decks-pergolas-fences/",
+        "/service-areas/gurley-al/decks-pergolas-fences/",
         "/contact/"
       ]
     },
@@ -1219,7 +1276,7 @@
         "/service-areas/huntsville-al/home-remodeling/",
         "/service-areas/huntsville-al/decks-pergolas-fences/",
         "/service-areas/athens-al/roofing/",
-        "/service-areas/harvest-al/roofing/",
+        "/service-areas/gurley-al/roofing/",
         "/contact/"
       ]
     },
@@ -1263,7 +1320,7 @@
         "/service-areas/huntsville-al/home-remodeling/",
         "/service-areas/huntsville-al/roofing/",
         "/service-areas/athens-al/siding-gutters/",
-        "/service-areas/harvest-al/siding-gutters/",
+        "/service-areas/gurley-al/siding-gutters/",
         "/contact/"
       ]
     },
@@ -1307,7 +1364,7 @@
         "/service-areas/huntsville-al/home-remodeling/",
         "/service-areas/huntsville-al/roofing/",
         "/service-areas/athens-al/painting-trim/",
-        "/service-areas/harvest-al/painting-trim/",
+        "/service-areas/gurley-al/painting-trim/",
         "/contact/"
       ]
     },
@@ -1351,7 +1408,7 @@
         "/service-areas/huntsville-al/home-remodeling/",
         "/service-areas/huntsville-al/roofing/",
         "/service-areas/athens-al/water-damage-restoration/",
-        "/service-areas/harvest-al/water-damage-restoration/",
+        "/service-areas/gurley-al/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1395,7 +1452,7 @@
         "/service-areas/huntsville-al/home-remodeling/",
         "/service-areas/huntsville-al/roofing/",
         "/service-areas/athens-al/storm-damage-restoration/",
-        "/service-areas/harvest-al/storm-damage-restoration/",
+        "/service-areas/gurley-al/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1439,7 +1496,7 @@
         "/service-areas/huntsville-al/home-remodeling/",
         "/service-areas/huntsville-al/roofing/",
         "/service-areas/athens-al/mold-remediation/",
-        "/service-areas/harvest-al/mold-remediation/",
+        "/service-areas/gurley-al/mold-remediation/",
         "/contact/"
       ]
     },
@@ -1482,8 +1539,8 @@
         "/service-areas/athens-al/",
         "/service-areas/athens-al/roofing/",
         "/service-areas/athens-al/decks-pergolas-fences/",
+        "/service-areas/gurley-al/home-remodeling/",
         "/service-areas/harvest-al/home-remodeling/",
-        "/service-areas/hazel-green-al/home-remodeling/",
         "/contact/"
       ]
     },
@@ -1526,8 +1583,8 @@
         "/service-areas/athens-al/",
         "/service-areas/athens-al/home-remodeling/",
         "/service-areas/athens-al/roofing/",
+        "/service-areas/gurley-al/new-construction/",
         "/service-areas/harvest-al/new-construction/",
-        "/service-areas/hazel-green-al/new-construction/",
         "/contact/"
       ]
     },
@@ -1570,8 +1627,8 @@
         "/service-areas/athens-al/",
         "/service-areas/athens-al/home-remodeling/",
         "/service-areas/athens-al/roofing/",
+        "/service-areas/gurley-al/decks-pergolas-fences/",
         "/service-areas/harvest-al/decks-pergolas-fences/",
-        "/service-areas/hazel-green-al/decks-pergolas-fences/",
         "/contact/"
       ]
     },
@@ -1614,8 +1671,8 @@
         "/service-areas/athens-al/",
         "/service-areas/athens-al/home-remodeling/",
         "/service-areas/athens-al/decks-pergolas-fences/",
+        "/service-areas/gurley-al/roofing/",
         "/service-areas/harvest-al/roofing/",
-        "/service-areas/hazel-green-al/roofing/",
         "/contact/"
       ]
     },
@@ -1658,8 +1715,8 @@
         "/service-areas/athens-al/",
         "/service-areas/athens-al/home-remodeling/",
         "/service-areas/athens-al/roofing/",
+        "/service-areas/gurley-al/siding-gutters/",
         "/service-areas/harvest-al/siding-gutters/",
-        "/service-areas/hazel-green-al/siding-gutters/",
         "/contact/"
       ]
     },
@@ -1702,8 +1759,8 @@
         "/service-areas/athens-al/",
         "/service-areas/athens-al/home-remodeling/",
         "/service-areas/athens-al/roofing/",
+        "/service-areas/gurley-al/painting-trim/",
         "/service-areas/harvest-al/painting-trim/",
-        "/service-areas/hazel-green-al/painting-trim/",
         "/contact/"
       ]
     },
@@ -1746,8 +1803,8 @@
         "/service-areas/athens-al/",
         "/service-areas/athens-al/home-remodeling/",
         "/service-areas/athens-al/roofing/",
+        "/service-areas/gurley-al/water-damage-restoration/",
         "/service-areas/harvest-al/water-damage-restoration/",
-        "/service-areas/hazel-green-al/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1790,8 +1847,8 @@
         "/service-areas/athens-al/",
         "/service-areas/athens-al/home-remodeling/",
         "/service-areas/athens-al/roofing/",
+        "/service-areas/gurley-al/storm-damage-restoration/",
         "/service-areas/harvest-al/storm-damage-restoration/",
-        "/service-areas/hazel-green-al/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1834,8 +1891,8 @@
         "/service-areas/athens-al/",
         "/service-areas/athens-al/home-remodeling/",
         "/service-areas/athens-al/roofing/",
+        "/service-areas/gurley-al/mold-remediation/",
         "/service-areas/harvest-al/mold-remediation/",
-        "/service-areas/hazel-green-al/mold-remediation/",
         "/contact/"
       ]
     },
@@ -1879,7 +1936,7 @@
         "/service-areas/moores-mill-al/roofing/",
         "/service-areas/moores-mill-al/decks-pergolas-fences/",
         "/service-areas/athens-al/home-remodeling/",
-        "/service-areas/harvest-al/home-remodeling/",
+        "/service-areas/gurley-al/home-remodeling/",
         "/contact/"
       ]
     },
@@ -1923,7 +1980,7 @@
         "/service-areas/moores-mill-al/home-remodeling/",
         "/service-areas/moores-mill-al/roofing/",
         "/service-areas/athens-al/new-construction/",
-        "/service-areas/harvest-al/new-construction/",
+        "/service-areas/gurley-al/new-construction/",
         "/contact/"
       ]
     },
@@ -1967,7 +2024,7 @@
         "/service-areas/moores-mill-al/home-remodeling/",
         "/service-areas/moores-mill-al/roofing/",
         "/service-areas/athens-al/decks-pergolas-fences/",
-        "/service-areas/harvest-al/decks-pergolas-fences/",
+        "/service-areas/gurley-al/decks-pergolas-fences/",
         "/contact/"
       ]
     },
@@ -2011,7 +2068,7 @@
         "/service-areas/moores-mill-al/home-remodeling/",
         "/service-areas/moores-mill-al/decks-pergolas-fences/",
         "/service-areas/athens-al/roofing/",
-        "/service-areas/harvest-al/roofing/",
+        "/service-areas/gurley-al/roofing/",
         "/contact/"
       ]
     },
@@ -2055,7 +2112,7 @@
         "/service-areas/moores-mill-al/home-remodeling/",
         "/service-areas/moores-mill-al/roofing/",
         "/service-areas/athens-al/siding-gutters/",
-        "/service-areas/harvest-al/siding-gutters/",
+        "/service-areas/gurley-al/siding-gutters/",
         "/contact/"
       ]
     },
@@ -2099,7 +2156,7 @@
         "/service-areas/moores-mill-al/home-remodeling/",
         "/service-areas/moores-mill-al/roofing/",
         "/service-areas/athens-al/painting-trim/",
-        "/service-areas/harvest-al/painting-trim/",
+        "/service-areas/gurley-al/painting-trim/",
         "/contact/"
       ]
     },
@@ -2143,7 +2200,7 @@
         "/service-areas/moores-mill-al/home-remodeling/",
         "/service-areas/moores-mill-al/roofing/",
         "/service-areas/athens-al/water-damage-restoration/",
-        "/service-areas/harvest-al/water-damage-restoration/",
+        "/service-areas/gurley-al/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2187,7 +2244,7 @@
         "/service-areas/moores-mill-al/home-remodeling/",
         "/service-areas/moores-mill-al/roofing/",
         "/service-areas/athens-al/storm-damage-restoration/",
-        "/service-areas/harvest-al/storm-damage-restoration/",
+        "/service-areas/gurley-al/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2231,7 +2288,7 @@
         "/service-areas/moores-mill-al/home-remodeling/",
         "/service-areas/moores-mill-al/roofing/",
         "/service-areas/athens-al/mold-remediation/",
-        "/service-areas/harvest-al/mold-remediation/",
+        "/service-areas/gurley-al/mold-remediation/",
         "/contact/"
       ]
     },
@@ -2275,7 +2332,7 @@
         "/service-areas/redstone-arsenal-al/roofing/",
         "/service-areas/redstone-arsenal-al/decks-pergolas-fences/",
         "/service-areas/athens-al/home-remodeling/",
-        "/service-areas/harvest-al/home-remodeling/",
+        "/service-areas/gurley-al/home-remodeling/",
         "/contact/"
       ]
     },
@@ -2319,7 +2376,7 @@
         "/service-areas/redstone-arsenal-al/home-remodeling/",
         "/service-areas/redstone-arsenal-al/roofing/",
         "/service-areas/athens-al/new-construction/",
-        "/service-areas/harvest-al/new-construction/",
+        "/service-areas/gurley-al/new-construction/",
         "/contact/"
       ]
     },
@@ -2363,7 +2420,7 @@
         "/service-areas/redstone-arsenal-al/home-remodeling/",
         "/service-areas/redstone-arsenal-al/roofing/",
         "/service-areas/athens-al/decks-pergolas-fences/",
-        "/service-areas/harvest-al/decks-pergolas-fences/",
+        "/service-areas/gurley-al/decks-pergolas-fences/",
         "/contact/"
       ]
     },
@@ -2407,7 +2464,7 @@
         "/service-areas/redstone-arsenal-al/home-remodeling/",
         "/service-areas/redstone-arsenal-al/decks-pergolas-fences/",
         "/service-areas/athens-al/roofing/",
-        "/service-areas/harvest-al/roofing/",
+        "/service-areas/gurley-al/roofing/",
         "/contact/"
       ]
     },
@@ -2451,7 +2508,7 @@
         "/service-areas/redstone-arsenal-al/home-remodeling/",
         "/service-areas/redstone-arsenal-al/roofing/",
         "/service-areas/athens-al/siding-gutters/",
-        "/service-areas/harvest-al/siding-gutters/",
+        "/service-areas/gurley-al/siding-gutters/",
         "/contact/"
       ]
     },
@@ -2495,7 +2552,7 @@
         "/service-areas/redstone-arsenal-al/home-remodeling/",
         "/service-areas/redstone-arsenal-al/roofing/",
         "/service-areas/athens-al/painting-trim/",
-        "/service-areas/harvest-al/painting-trim/",
+        "/service-areas/gurley-al/painting-trim/",
         "/contact/"
       ]
     },
@@ -2539,7 +2596,7 @@
         "/service-areas/redstone-arsenal-al/home-remodeling/",
         "/service-areas/redstone-arsenal-al/roofing/",
         "/service-areas/athens-al/water-damage-restoration/",
-        "/service-areas/harvest-al/water-damage-restoration/",
+        "/service-areas/gurley-al/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2583,7 +2640,7 @@
         "/service-areas/redstone-arsenal-al/home-remodeling/",
         "/service-areas/redstone-arsenal-al/roofing/",
         "/service-areas/athens-al/storm-damage-restoration/",
-        "/service-areas/harvest-al/storm-damage-restoration/",
+        "/service-areas/gurley-al/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2627,7 +2684,7 @@
         "/service-areas/redstone-arsenal-al/home-remodeling/",
         "/service-areas/redstone-arsenal-al/roofing/",
         "/service-areas/athens-al/mold-remediation/",
-        "/service-areas/harvest-al/mold-remediation/",
+        "/service-areas/gurley-al/mold-remediation/",
         "/contact/"
       ]
     },
@@ -2671,7 +2728,7 @@
         "/service-areas/meridianville-al/roofing/",
         "/service-areas/meridianville-al/decks-pergolas-fences/",
         "/service-areas/athens-al/home-remodeling/",
-        "/service-areas/harvest-al/home-remodeling/",
+        "/service-areas/gurley-al/home-remodeling/",
         "/contact/"
       ]
     },
@@ -2715,7 +2772,7 @@
         "/service-areas/meridianville-al/home-remodeling/",
         "/service-areas/meridianville-al/roofing/",
         "/service-areas/athens-al/new-construction/",
-        "/service-areas/harvest-al/new-construction/",
+        "/service-areas/gurley-al/new-construction/",
         "/contact/"
       ]
     },
@@ -2759,7 +2816,7 @@
         "/service-areas/meridianville-al/home-remodeling/",
         "/service-areas/meridianville-al/roofing/",
         "/service-areas/athens-al/decks-pergolas-fences/",
-        "/service-areas/harvest-al/decks-pergolas-fences/",
+        "/service-areas/gurley-al/decks-pergolas-fences/",
         "/contact/"
       ]
     },
@@ -2803,7 +2860,7 @@
         "/service-areas/meridianville-al/home-remodeling/",
         "/service-areas/meridianville-al/decks-pergolas-fences/",
         "/service-areas/athens-al/roofing/",
-        "/service-areas/harvest-al/roofing/",
+        "/service-areas/gurley-al/roofing/",
         "/contact/"
       ]
     },
@@ -2847,7 +2904,7 @@
         "/service-areas/meridianville-al/home-remodeling/",
         "/service-areas/meridianville-al/roofing/",
         "/service-areas/athens-al/siding-gutters/",
-        "/service-areas/harvest-al/siding-gutters/",
+        "/service-areas/gurley-al/siding-gutters/",
         "/contact/"
       ]
     },
@@ -2891,7 +2948,7 @@
         "/service-areas/meridianville-al/home-remodeling/",
         "/service-areas/meridianville-al/roofing/",
         "/service-areas/athens-al/painting-trim/",
-        "/service-areas/harvest-al/painting-trim/",
+        "/service-areas/gurley-al/painting-trim/",
         "/contact/"
       ]
     },
@@ -2935,7 +2992,7 @@
         "/service-areas/meridianville-al/home-remodeling/",
         "/service-areas/meridianville-al/roofing/",
         "/service-areas/athens-al/water-damage-restoration/",
-        "/service-areas/harvest-al/water-damage-restoration/",
+        "/service-areas/gurley-al/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2979,7 +3036,7 @@
         "/service-areas/meridianville-al/home-remodeling/",
         "/service-areas/meridianville-al/roofing/",
         "/service-areas/athens-al/storm-damage-restoration/",
-        "/service-areas/harvest-al/storm-damage-restoration/",
+        "/service-areas/gurley-al/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3023,7 +3080,7 @@
         "/service-areas/meridianville-al/home-remodeling/",
         "/service-areas/meridianville-al/roofing/",
         "/service-areas/athens-al/mold-remediation/",
-        "/service-areas/harvest-al/mold-remediation/",
+        "/service-areas/gurley-al/mold-remediation/",
         "/contact/"
       ]
     },
@@ -3067,7 +3124,7 @@
         "/service-areas/hazel-green-al/roofing/",
         "/service-areas/hazel-green-al/decks-pergolas-fences/",
         "/service-areas/athens-al/home-remodeling/",
-        "/service-areas/harvest-al/home-remodeling/",
+        "/service-areas/gurley-al/home-remodeling/",
         "/contact/"
       ]
     },
@@ -3111,7 +3168,7 @@
         "/service-areas/hazel-green-al/home-remodeling/",
         "/service-areas/hazel-green-al/roofing/",
         "/service-areas/athens-al/new-construction/",
-        "/service-areas/harvest-al/new-construction/",
+        "/service-areas/gurley-al/new-construction/",
         "/contact/"
       ]
     },
@@ -3155,7 +3212,7 @@
         "/service-areas/hazel-green-al/home-remodeling/",
         "/service-areas/hazel-green-al/roofing/",
         "/service-areas/athens-al/decks-pergolas-fences/",
-        "/service-areas/harvest-al/decks-pergolas-fences/",
+        "/service-areas/gurley-al/decks-pergolas-fences/",
         "/contact/"
       ]
     },
@@ -3199,7 +3256,7 @@
         "/service-areas/hazel-green-al/home-remodeling/",
         "/service-areas/hazel-green-al/decks-pergolas-fences/",
         "/service-areas/athens-al/roofing/",
-        "/service-areas/harvest-al/roofing/",
+        "/service-areas/gurley-al/roofing/",
         "/contact/"
       ]
     },
@@ -3243,7 +3300,7 @@
         "/service-areas/hazel-green-al/home-remodeling/",
         "/service-areas/hazel-green-al/roofing/",
         "/service-areas/athens-al/siding-gutters/",
-        "/service-areas/harvest-al/siding-gutters/",
+        "/service-areas/gurley-al/siding-gutters/",
         "/contact/"
       ]
     },
@@ -3287,7 +3344,7 @@
         "/service-areas/hazel-green-al/home-remodeling/",
         "/service-areas/hazel-green-al/roofing/",
         "/service-areas/athens-al/painting-trim/",
-        "/service-areas/harvest-al/painting-trim/",
+        "/service-areas/gurley-al/painting-trim/",
         "/contact/"
       ]
     },
@@ -3331,7 +3388,7 @@
         "/service-areas/hazel-green-al/home-remodeling/",
         "/service-areas/hazel-green-al/roofing/",
         "/service-areas/athens-al/water-damage-restoration/",
-        "/service-areas/harvest-al/water-damage-restoration/",
+        "/service-areas/gurley-al/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3375,7 +3432,7 @@
         "/service-areas/hazel-green-al/home-remodeling/",
         "/service-areas/hazel-green-al/roofing/",
         "/service-areas/athens-al/storm-damage-restoration/",
-        "/service-areas/harvest-al/storm-damage-restoration/",
+        "/service-areas/gurley-al/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3419,7 +3476,7 @@
         "/service-areas/hazel-green-al/home-remodeling/",
         "/service-areas/hazel-green-al/roofing/",
         "/service-areas/athens-al/mold-remediation/",
-        "/service-areas/harvest-al/mold-remediation/",
+        "/service-areas/gurley-al/mold-remediation/",
         "/contact/"
       ]
     },
@@ -3463,7 +3520,7 @@
         "/service-areas/new-market-al/roofing/",
         "/service-areas/new-market-al/decks-pergolas-fences/",
         "/service-areas/athens-al/home-remodeling/",
-        "/service-areas/harvest-al/home-remodeling/",
+        "/service-areas/gurley-al/home-remodeling/",
         "/contact/"
       ]
     },
@@ -3507,7 +3564,7 @@
         "/service-areas/new-market-al/home-remodeling/",
         "/service-areas/new-market-al/roofing/",
         "/service-areas/athens-al/new-construction/",
-        "/service-areas/harvest-al/new-construction/",
+        "/service-areas/gurley-al/new-construction/",
         "/contact/"
       ]
     },
@@ -3551,7 +3608,7 @@
         "/service-areas/new-market-al/home-remodeling/",
         "/service-areas/new-market-al/roofing/",
         "/service-areas/athens-al/decks-pergolas-fences/",
-        "/service-areas/harvest-al/decks-pergolas-fences/",
+        "/service-areas/gurley-al/decks-pergolas-fences/",
         "/contact/"
       ]
     },
@@ -3595,7 +3652,7 @@
         "/service-areas/new-market-al/home-remodeling/",
         "/service-areas/new-market-al/decks-pergolas-fences/",
         "/service-areas/athens-al/roofing/",
-        "/service-areas/harvest-al/roofing/",
+        "/service-areas/gurley-al/roofing/",
         "/contact/"
       ]
     },
@@ -3639,7 +3696,7 @@
         "/service-areas/new-market-al/home-remodeling/",
         "/service-areas/new-market-al/roofing/",
         "/service-areas/athens-al/siding-gutters/",
-        "/service-areas/harvest-al/siding-gutters/",
+        "/service-areas/gurley-al/siding-gutters/",
         "/contact/"
       ]
     },
@@ -3683,7 +3740,7 @@
         "/service-areas/new-market-al/home-remodeling/",
         "/service-areas/new-market-al/roofing/",
         "/service-areas/athens-al/painting-trim/",
-        "/service-areas/harvest-al/painting-trim/",
+        "/service-areas/gurley-al/painting-trim/",
         "/contact/"
       ]
     },
@@ -3727,7 +3784,7 @@
         "/service-areas/new-market-al/home-remodeling/",
         "/service-areas/new-market-al/roofing/",
         "/service-areas/athens-al/water-damage-restoration/",
-        "/service-areas/harvest-al/water-damage-restoration/",
+        "/service-areas/gurley-al/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3771,7 +3828,7 @@
         "/service-areas/new-market-al/home-remodeling/",
         "/service-areas/new-market-al/roofing/",
         "/service-areas/athens-al/storm-damage-restoration/",
-        "/service-areas/harvest-al/storm-damage-restoration/",
+        "/service-areas/gurley-al/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3815,7 +3872,7 @@
         "/service-areas/new-market-al/home-remodeling/",
         "/service-areas/new-market-al/roofing/",
         "/service-areas/athens-al/mold-remediation/",
-        "/service-areas/harvest-al/mold-remediation/",
+        "/service-areas/gurley-al/mold-remediation/",
         "/contact/"
       ]
     },
@@ -3859,7 +3916,7 @@
         "/service-areas/harvest-al/roofing/",
         "/service-areas/harvest-al/decks-pergolas-fences/",
         "/service-areas/athens-al/home-remodeling/",
-        "/service-areas/hazel-green-al/home-remodeling/",
+        "/service-areas/gurley-al/home-remodeling/",
         "/contact/"
       ]
     },
@@ -3903,7 +3960,7 @@
         "/service-areas/harvest-al/home-remodeling/",
         "/service-areas/harvest-al/roofing/",
         "/service-areas/athens-al/new-construction/",
-        "/service-areas/hazel-green-al/new-construction/",
+        "/service-areas/gurley-al/new-construction/",
         "/contact/"
       ]
     },
@@ -3947,7 +4004,7 @@
         "/service-areas/harvest-al/home-remodeling/",
         "/service-areas/harvest-al/roofing/",
         "/service-areas/athens-al/decks-pergolas-fences/",
-        "/service-areas/hazel-green-al/decks-pergolas-fences/",
+        "/service-areas/gurley-al/decks-pergolas-fences/",
         "/contact/"
       ]
     },
@@ -3991,7 +4048,7 @@
         "/service-areas/harvest-al/home-remodeling/",
         "/service-areas/harvest-al/decks-pergolas-fences/",
         "/service-areas/athens-al/roofing/",
-        "/service-areas/hazel-green-al/roofing/",
+        "/service-areas/gurley-al/roofing/",
         "/contact/"
       ]
     },
@@ -4035,7 +4092,7 @@
         "/service-areas/harvest-al/home-remodeling/",
         "/service-areas/harvest-al/roofing/",
         "/service-areas/athens-al/siding-gutters/",
-        "/service-areas/hazel-green-al/siding-gutters/",
+        "/service-areas/gurley-al/siding-gutters/",
         "/contact/"
       ]
     },
@@ -4079,7 +4136,7 @@
         "/service-areas/harvest-al/home-remodeling/",
         "/service-areas/harvest-al/roofing/",
         "/service-areas/athens-al/painting-trim/",
-        "/service-areas/hazel-green-al/painting-trim/",
+        "/service-areas/gurley-al/painting-trim/",
         "/contact/"
       ]
     },
@@ -4123,7 +4180,7 @@
         "/service-areas/harvest-al/home-remodeling/",
         "/service-areas/harvest-al/roofing/",
         "/service-areas/athens-al/water-damage-restoration/",
-        "/service-areas/hazel-green-al/water-damage-restoration/",
+        "/service-areas/gurley-al/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4167,7 +4224,7 @@
         "/service-areas/harvest-al/home-remodeling/",
         "/service-areas/harvest-al/roofing/",
         "/service-areas/athens-al/storm-damage-restoration/",
-        "/service-areas/hazel-green-al/storm-damage-restoration/",
+        "/service-areas/gurley-al/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4211,7 +4268,403 @@
         "/service-areas/harvest-al/home-remodeling/",
         "/service-areas/harvest-al/roofing/",
         "/service-areas/athens-al/mold-remediation/",
-        "/service-areas/hazel-green-al/mold-remediation/",
+        "/service-areas/gurley-al/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gurley-al/home-remodeling/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Home Remodeling in Gurley, AL | Davis Construction Contractors",
+      "h1": "Home Remodeling in Gurley",
+      "meta_description": "Trusted home remodeling in Gurley, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "home remodeling gurley",
+      "secondary_keywords": [
+        "home renovation",
+        "whole home remodel",
+        "interior remodeling contractor",
+        "house renovation contractor",
+        "remodeling company"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/home-remodeling/",
+        "/service-areas/gurley-al/",
+        "/service-areas/gurley-al/roofing/",
+        "/service-areas/gurley-al/decks-pergolas-fences/",
+        "/service-areas/athens-al/home-remodeling/",
+        "/service-areas/harvest-al/home-remodeling/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gurley-al/new-construction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "New Home Construction in Gurley, AL | Davis Construction Contractors",
+      "h1": "New Home Construction in Gurley",
+      "meta_description": "Trusted new home construction in Gurley, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "new home construction gurley",
+      "secondary_keywords": [
+        "custom home builder",
+        "new home builder",
+        "build a house",
+        "residential construction",
+        "ground-up construction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/new-construction/",
+        "/service-areas/gurley-al/",
+        "/service-areas/gurley-al/home-remodeling/",
+        "/service-areas/gurley-al/roofing/",
+        "/service-areas/athens-al/new-construction/",
+        "/service-areas/harvest-al/new-construction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gurley-al/decks-pergolas-fences/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Decks, Pergolas and Fences in Gurley, AL | Davis Construction Contractors",
+      "h1": "Decks, Pergolas and Fences in Gurley",
+      "meta_description": "Trusted decks, pergolas and fences in Gurley, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "decks, pergolas and fences gurley",
+      "secondary_keywords": [
+        "deck builder",
+        "deck installation",
+        "pergola builder",
+        "fence installation",
+        "outdoor structure contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/decks-pergolas-fences/",
+        "/service-areas/gurley-al/",
+        "/service-areas/gurley-al/home-remodeling/",
+        "/service-areas/gurley-al/roofing/",
+        "/service-areas/athens-al/decks-pergolas-fences/",
+        "/service-areas/harvest-al/decks-pergolas-fences/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gurley-al/roofing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Roofing Installation and Replacement in Gurley, AL | Davis Construction Contractors",
+      "h1": "Roofing Installation and Replacement in Gurley",
+      "meta_description": "Trusted roofing installation and replacement in Gurley, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "roofing installation and replacement gurley",
+      "secondary_keywords": [
+        "roofing contractor",
+        "roof replacement",
+        "new roof installation",
+        "residential roofing",
+        "roof repair"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/roofing/",
+        "/service-areas/gurley-al/",
+        "/service-areas/gurley-al/home-remodeling/",
+        "/service-areas/gurley-al/decks-pergolas-fences/",
+        "/service-areas/athens-al/roofing/",
+        "/service-areas/harvest-al/roofing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gurley-al/siding-gutters/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Siding and Gutters in Gurley, AL | Davis Construction Contractors",
+      "h1": "Siding and Gutters in Gurley",
+      "meta_description": "Trusted siding and gutters in Gurley, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "siding and gutters gurley",
+      "secondary_keywords": [
+        "siding contractor",
+        "siding installation",
+        "siding replacement",
+        "gutter installation",
+        "exterior contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/siding-gutters/",
+        "/service-areas/gurley-al/",
+        "/service-areas/gurley-al/home-remodeling/",
+        "/service-areas/gurley-al/roofing/",
+        "/service-areas/athens-al/siding-gutters/",
+        "/service-areas/harvest-al/siding-gutters/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gurley-al/painting-trim/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Painting and Trim in Gurley, AL | Davis Construction Contractors",
+      "h1": "Painting and Trim in Gurley",
+      "meta_description": "Trusted painting and trim in Gurley, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "painting and trim gurley",
+      "secondary_keywords": [
+        "painting contractor",
+        "interior painting",
+        "exterior painting",
+        "house painter",
+        "trim painting"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/painting-trim/",
+        "/service-areas/gurley-al/",
+        "/service-areas/gurley-al/home-remodeling/",
+        "/service-areas/gurley-al/roofing/",
+        "/service-areas/athens-al/painting-trim/",
+        "/service-areas/harvest-al/painting-trim/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gurley-al/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Gurley, AL | Davis Construction Contractors",
+      "h1": "Water Damage Restoration in Gurley",
+      "meta_description": "Trusted water damage restoration in Gurley, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "water damage restoration gurley",
+      "secondary_keywords": [
+        "water damage repair",
+        "water damage rebuild",
+        "drywall water damage repair",
+        "ceiling water damage repair",
+        "post-leak renovation"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/gurley-al/",
+        "/service-areas/gurley-al/home-remodeling/",
+        "/service-areas/gurley-al/roofing/",
+        "/service-areas/athens-al/water-damage-restoration/",
+        "/service-areas/harvest-al/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gurley-al/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Gurley, AL | Davis Construction Contractors",
+      "h1": "Storm Damage Restoration in Gurley",
+      "meta_description": "Trusted storm damage restoration in Gurley, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "storm damage restoration gurley",
+      "secondary_keywords": [
+        "storm damage repair",
+        "roof storm damage repair",
+        "siding storm damage repair",
+        "wind damage repair contractor",
+        "storm damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/gurley-al/",
+        "/service-areas/gurley-al/home-remodeling/",
+        "/service-areas/gurley-al/roofing/",
+        "/service-areas/athens-al/storm-damage-restoration/",
+        "/service-areas/harvest-al/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gurley-al/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Gurley, AL | Davis Construction Contractors",
+      "h1": "Mold Remediation in Gurley",
+      "meta_description": "Trusted mold remediation in Gurley, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "mold remediation gurley",
+      "secondary_keywords": [
+        "mold removal",
+        "mold remediation contractor",
+        "mold repair and rebuild",
+        "mold-safe renovation",
+        "post-remediation reconstruction"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/gurley-al/",
+        "/service-areas/gurley-al/home-remodeling/",
+        "/service-areas/gurley-al/roofing/",
+        "/service-areas/athens-al/mold-remediation/",
+        "/service-areas/harvest-al/mold-remediation/",
         "/contact/"
       ]
     },

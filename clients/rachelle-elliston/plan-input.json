@@ -95,6 +95,11 @@
       "city": "Winchester",
       "state": "NV",
       "slug": "winchester-nv"
+    },
+    {
+      "city": "Whitney",
+      "state": "NV",
+      "slug": "whitney-nv"
     }
   ],
   "template": "restoration",

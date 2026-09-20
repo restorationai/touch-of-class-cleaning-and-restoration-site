@@ -239,6 +239,11 @@
       "city": "North Tustin",
       "state": "CA",
       "slug": "north-tustin-ca"
+    },
+    {
+      "city": "Villa Park",
+      "state": "CA",
+      "slug": "villa-park-ca"
     }
   ],
   "template": "plumbing",

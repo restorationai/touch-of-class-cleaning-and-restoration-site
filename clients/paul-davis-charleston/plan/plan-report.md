@@ -1,21 +1,21 @@
 # Site Plan Report — Paul Davis Restoration of Charleston
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T14:13:24.872086+00:00
+- Generated: 2026-09-20T17:29:53.044601+00:00
 - Domain: `None`
 - Services selected: 4 of 65 catalog entries
-- Service areas: 11
+- Service areas: 12
 - Cross-product enabled: True
-- Total URLs: **75**
-- Total internal links: 543 (avg 7.2 per page)
+- Total URLs: **80**
+- Total internal links: 586 (avg 7.3 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 40 |
+| `service-area-service` | 44 |
 | `blog-post` | 12 |
-| `service-area` | 10 |
+| `service-area` | 11 |
 | `service-landing` | 4 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -45,6 +45,7 @@
 - `isle-of-palms-sc` — Isle of Palms, SC
 - `ladson-sc` — Ladson, SC
 - `awendaw-sc` — Awendaw, SC
+- `folly-beach-sc` — Folly Beach, SC
 
 ## Top 10 priority pages
 
@@ -57,9 +58,9 @@
 | `/service-areas/awendaw-sc/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration awendaw |
 | `/service-areas/awendaw-sc/mold-remediation/` | `service-area-service` | 7.0 | mold remediation awendaw |
 | `/service-areas/awendaw-sc/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration awendaw |
-| `/service-areas/goose-creek-sc/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration goose creek |
-| `/service-areas/goose-creek-sc/mold-remediation/` | `service-area-service` | 7.0 | mold remediation goose creek |
-| `/service-areas/goose-creek-sc/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration goose creek |
+| `/service-areas/folly-beach-sc/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration folly beach |
+| `/service-areas/folly-beach-sc/mold-remediation/` | `service-area-service` | 7.0 | mold remediation folly beach |
+| `/service-areas/folly-beach-sc/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration folly beach |
 
 ## Validation
 

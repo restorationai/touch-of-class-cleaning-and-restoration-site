@@ -1433,6 +1433,11 @@
       "city": "Chatham",
       "state": "NJ",
       "slug": "chatham-nj"
+    },
+    {
+      "city": "Watchung",
+      "state": "NJ",
+      "slug": "watchung-nj"
     }
   ],
   "brand": {

@@ -1,21 +1,21 @@
 # Site Plan Report — Home Pride Restoration and Cleaning
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T14:13:18.570996+00:00
+- Generated: 2026-09-20T17:29:46.169826+00:00
 - Domain: `homepriderestorationandcleaning.com`
 - Services selected: 20 of 65 catalog entries
-- Service areas: 18
+- Service areas: 19
 - Cross-product enabled: True
-- Total URLs: **398**
-- Total internal links: 3262 (avg 8.2 per page)
+- Total URLs: **419**
+- Total internal links: 3429 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 340 |
+| `service-area-service` | 360 |
 | `service-landing` | 20 |
-| `service-area` | 17 |
+| `service-area` | 18 |
 | `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -68,6 +68,7 @@
 - `fairfield-ut` — Fairfield, UT
 - `cedar-hills-ut` — Cedar Hills, UT
 - `cedar-fort-ut` — Cedar Fort, UT
+- `bluffdale-ut` — Bluffdale, UT
 
 ## Top 10 priority pages
 

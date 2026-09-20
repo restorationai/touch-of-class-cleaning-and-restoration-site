@@ -1,20 +1,20 @@
 # Site Plan Report — California Restoration West 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T14:12:59.436743+00:00
+- Generated: 2026-09-20T17:29:25.787197+00:00
 - Domain: `californiarestorationwest.com`
 - Services selected: 6 of 65 catalog entries
-- Service areas: 15
+- Service areas: 16
 - Cross-product enabled: True
-- Total URLs: **121**
-- Total internal links: 934 (avg 7.7 per page)
+- Total URLs: **128**
+- Total internal links: 989 (avg 7.7 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 84 |
-| `service-area` | 14 |
+| `service-area-service` | 90 |
+| `service-area` | 15 |
 | `blog-post` | 8 |
 | `service-landing` | 6 |
 | `legal` | 3 |
@@ -51,6 +51,7 @@
 - `san-buenaventura-ventura-ca` — San Buenaventura (Ventura), CA
 - `moorpark-ca` — Moorpark, CA
 - `santa-rosa-valley-ca` — Santa Rosa Valley, CA
+- `piru-ca` — Piru, CA
 
 ## Top 10 priority pages
 

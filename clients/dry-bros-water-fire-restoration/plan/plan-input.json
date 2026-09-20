@@ -124,6 +124,11 @@
       "city": "Lyons",
       "state": "IL",
       "slug": "lyons-il"
+    },
+    {
+      "city": "Riverside",
+      "state": "IL",
+      "slug": "riverside-il"
     }
   ],
   "template": "restoration",

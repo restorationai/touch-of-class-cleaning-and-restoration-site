@@ -110,6 +110,11 @@
       "city": "Wright",
       "state": "FL",
       "slug": "wright-fl"
+    },
+    {
+      "city": "Hurlburt Field",
+      "state": "FL",
+      "slug": "hurlburt-field-fl"
     }
   ],
   "template": "restoration",

@@ -138,6 +138,11 @@
       "city": "Easton",
       "state": "CA",
       "slug": "easton-ca"
+    },
+    {
+      "city": "Riverdale",
+      "state": "CA",
+      "slug": "riverdale-ca"
     }
   ],
   "template": "environmental",

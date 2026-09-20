@@ -208,6 +208,11 @@
       "city": "Fort Lewis",
       "state": "WA",
       "slug": "fort-lewis-wa"
+    },
+    {
+      "city": "Anderson Island",
+      "state": "WA",
+      "slug": "anderson-island-wa"
     }
   ],
   "template": "restoration",

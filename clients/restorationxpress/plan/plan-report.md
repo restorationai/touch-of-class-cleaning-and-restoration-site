@@ -1,20 +1,20 @@
 # Site Plan Report — RestorationXpress 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T14:13:46.757752+00:00
+- Generated: 2026-09-20T17:30:05.569468+00:00
 - Domain: `restorationxpress.com`
 - Services selected: 7 of 65 catalog entries
-- Service areas: 15
+- Service areas: 16
 - Cross-product enabled: True
-- Total URLs: **140**
-- Total internal links: 1093 (avg 7.8 per page)
+- Total URLs: **148**
+- Total internal links: 1156 (avg 7.8 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 98 |
-| `service-area` | 14 |
+| `service-area-service` | 105 |
+| `service-area` | 15 |
 | `blog-post` | 12 |
 | `service-landing` | 7 |
 | `legal` | 3 |
@@ -52,6 +52,7 @@
 - `lauderhill-fl` — Lauderhill, FL
 - `hallandale-beach-fl` — Hallandale Beach, FL
 - `lauderdale-lakes-fl` — Lauderdale Lakes, FL
+- `southwest-ranches-fl` — Southwest Ranches, FL
 
 ## Top 10 priority pages
 

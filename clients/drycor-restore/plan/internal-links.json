@@ -21,6 +21,7 @@
     "/service-areas/brandon-fl/",
     "/service-areas/clearwater-beach-fl/",
     "/service-areas/clearwater-fl/",
+    "/service-areas/crystal-springs-fl/",
     "/service-areas/dade-city-fl/",
     "/service-areas/davenport-fl/",
     "/service-areas/dover-fl/",
@@ -102,6 +103,7 @@
     "/service-areas/brandon-fl/",
     "/service-areas/clearwater-beach-fl/",
     "/service-areas/clearwater-fl/",
+    "/service-areas/crystal-springs-fl/",
     "/service-areas/dade-city-fl/",
     "/service-areas/davenport-fl/",
     "/service-areas/dover-fl/",
@@ -193,10 +195,10 @@
     "/service-areas/brandon-fl/water-damage-restoration/",
     "/service-areas/clearwater-beach-fl/water-damage-restoration/",
     "/service-areas/clearwater-fl/water-damage-restoration/",
+    "/service-areas/crystal-springs-fl/water-damage-restoration/",
     "/service-areas/dade-city-fl/water-damage-restoration/",
     "/service-areas/davenport-fl/water-damage-restoration/",
     "/service-areas/dover-fl/water-damage-restoration/",
-    "/service-areas/dundee-fl/water-damage-restoration/",
     "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -213,10 +215,10 @@
     "/service-areas/brandon-fl/fire-damage-restoration/",
     "/service-areas/clearwater-beach-fl/fire-damage-restoration/",
     "/service-areas/clearwater-fl/fire-damage-restoration/",
+    "/service-areas/crystal-springs-fl/fire-damage-restoration/",
     "/service-areas/dade-city-fl/fire-damage-restoration/",
     "/service-areas/davenport-fl/fire-damage-restoration/",
     "/service-areas/dover-fl/fire-damage-restoration/",
-    "/service-areas/dundee-fl/fire-damage-restoration/",
     "/blog/choosing-a-restoration-company/",
     "/blog/fire-damage-restoration-process/"
   ],
@@ -231,10 +233,10 @@
     "/service-areas/brandon-fl/mold-remediation/",
     "/service-areas/clearwater-beach-fl/mold-remediation/",
     "/service-areas/clearwater-fl/mold-remediation/",
+    "/service-areas/crystal-springs-fl/mold-remediation/",
     "/service-areas/dade-city-fl/mold-remediation/",
     "/service-areas/davenport-fl/mold-remediation/",
     "/service-areas/dover-fl/mold-remediation/",
-    "/service-areas/dundee-fl/mold-remediation/",
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
     "/blog/signs-of-hidden-mold/"
@@ -250,10 +252,10 @@
     "/service-areas/brandon-fl/contents-restoration-storage/",
     "/service-areas/clearwater-beach-fl/contents-restoration-storage/",
     "/service-areas/clearwater-fl/contents-restoration-storage/",
+    "/service-areas/crystal-springs-fl/contents-restoration-storage/",
     "/service-areas/dade-city-fl/contents-restoration-storage/",
     "/service-areas/davenport-fl/contents-restoration-storage/",
-    "/service-areas/dover-fl/contents-restoration-storage/",
-    "/service-areas/dundee-fl/contents-restoration-storage/"
+    "/service-areas/dover-fl/contents-restoration-storage/"
   ],
   "/services/general-contracting/": [
     "/services/",
@@ -266,10 +268,10 @@
     "/service-areas/brandon-fl/general-contracting/",
     "/service-areas/clearwater-beach-fl/general-contracting/",
     "/service-areas/clearwater-fl/general-contracting/",
+    "/service-areas/crystal-springs-fl/general-contracting/",
     "/service-areas/dade-city-fl/general-contracting/",
     "/service-areas/davenport-fl/general-contracting/",
-    "/service-areas/dover-fl/general-contracting/",
-    "/service-areas/dundee-fl/general-contracting/"
+    "/service-areas/dover-fl/general-contracting/"
   ],
   "/services/storm-damage-restoration/": [
     "/services/",
@@ -282,10 +284,10 @@
     "/service-areas/brandon-fl/storm-damage-restoration/",
     "/service-areas/clearwater-beach-fl/storm-damage-restoration/",
     "/service-areas/clearwater-fl/storm-damage-restoration/",
+    "/service-areas/crystal-springs-fl/storm-damage-restoration/",
     "/service-areas/dade-city-fl/storm-damage-restoration/",
     "/service-areas/davenport-fl/storm-damage-restoration/",
-    "/service-areas/dover-fl/storm-damage-restoration/",
-    "/service-areas/dundee-fl/storm-damage-restoration/"
+    "/service-areas/dover-fl/storm-damage-restoration/"
   ],
   "/services/water-cleanup/": [
     "/services/",
@@ -298,10 +300,10 @@
     "/service-areas/brandon-fl/water-cleanup/",
     "/service-areas/clearwater-beach-fl/water-cleanup/",
     "/service-areas/clearwater-fl/water-cleanup/",
+    "/service-areas/crystal-springs-fl/water-cleanup/",
     "/service-areas/dade-city-fl/water-cleanup/",
     "/service-areas/davenport-fl/water-cleanup/",
     "/service-areas/dover-fl/water-cleanup/",
-    "/service-areas/dundee-fl/water-cleanup/",
     "/services/water-damage-restoration/"
   ],
   "/services/sewage-cleanup/": [
@@ -315,10 +317,10 @@
     "/service-areas/brandon-fl/sewage-cleanup/",
     "/service-areas/clearwater-beach-fl/sewage-cleanup/",
     "/service-areas/clearwater-fl/sewage-cleanup/",
+    "/service-areas/crystal-springs-fl/sewage-cleanup/",
     "/service-areas/dade-city-fl/sewage-cleanup/",
     "/service-areas/davenport-fl/sewage-cleanup/",
-    "/service-areas/dover-fl/sewage-cleanup/",
-    "/service-areas/dundee-fl/sewage-cleanup/"
+    "/service-areas/dover-fl/sewage-cleanup/"
   ],
   "/services/emergency-board-up-tarping/": [
     "/services/",
@@ -331,10 +333,10 @@
     "/service-areas/brandon-fl/emergency-board-up-tarping/",
     "/service-areas/clearwater-beach-fl/emergency-board-up-tarping/",
     "/service-areas/clearwater-fl/emergency-board-up-tarping/",
+    "/service-areas/crystal-springs-fl/emergency-board-up-tarping/",
     "/service-areas/dade-city-fl/emergency-board-up-tarping/",
     "/service-areas/davenport-fl/emergency-board-up-tarping/",
-    "/service-areas/dover-fl/emergency-board-up-tarping/",
-    "/service-areas/dundee-fl/emergency-board-up-tarping/"
+    "/service-areas/dover-fl/emergency-board-up-tarping/"
   ],
   "/service-areas/tampa-fl/": [
     "/service-areas/",
@@ -1388,6 +1390,22 @@
     "/service-areas/lake-magdalene-fl/general-contracting/",
     "/service-areas/lake-magdalene-fl/emergency-board-up-tarping/",
     "/service-areas/lake-magdalene-fl/contents-restoration-storage/",
+    "/service-areas/anna-maria-fl/",
+    "/service-areas/apollo-beach-fl/",
+    "/service-areas/auburndale-fl/"
+  ],
+  "/service-areas/crystal-springs-fl/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/crystal-springs-fl/fire-damage-restoration/",
+    "/service-areas/crystal-springs-fl/mold-remediation/",
+    "/service-areas/crystal-springs-fl/water-damage-restoration/",
+    "/service-areas/crystal-springs-fl/sewage-cleanup/",
+    "/service-areas/crystal-springs-fl/storm-damage-restoration/",
+    "/service-areas/crystal-springs-fl/water-cleanup/",
+    "/service-areas/crystal-springs-fl/general-contracting/",
+    "/service-areas/crystal-springs-fl/emergency-board-up-tarping/",
+    "/service-areas/crystal-springs-fl/contents-restoration-storage/",
     "/service-areas/anna-maria-fl/",
     "/service-areas/apollo-beach-fl/",
     "/service-areas/auburndale-fl/"
@@ -6734,6 +6752,87 @@
     "/service-areas/lake-magdalene-fl/",
     "/service-areas/lake-magdalene-fl/fire-damage-restoration/",
     "/service-areas/lake-magdalene-fl/mold-remediation/",
+    "/service-areas/anna-maria-fl/emergency-board-up-tarping/",
+    "/service-areas/apollo-beach-fl/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/crystal-springs-fl/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/crystal-springs-fl/",
+    "/service-areas/crystal-springs-fl/fire-damage-restoration/",
+    "/service-areas/crystal-springs-fl/mold-remediation/",
+    "/service-areas/anna-maria-fl/water-damage-restoration/",
+    "/service-areas/apollo-beach-fl/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/crystal-springs-fl/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/crystal-springs-fl/",
+    "/service-areas/crystal-springs-fl/mold-remediation/",
+    "/service-areas/crystal-springs-fl/water-damage-restoration/",
+    "/service-areas/anna-maria-fl/fire-damage-restoration/",
+    "/service-areas/apollo-beach-fl/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/crystal-springs-fl/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/crystal-springs-fl/",
+    "/service-areas/crystal-springs-fl/fire-damage-restoration/",
+    "/service-areas/crystal-springs-fl/water-damage-restoration/",
+    "/service-areas/anna-maria-fl/mold-remediation/",
+    "/service-areas/apollo-beach-fl/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/crystal-springs-fl/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/crystal-springs-fl/",
+    "/service-areas/crystal-springs-fl/fire-damage-restoration/",
+    "/service-areas/crystal-springs-fl/mold-remediation/",
+    "/service-areas/anna-maria-fl/contents-restoration-storage/",
+    "/service-areas/apollo-beach-fl/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/crystal-springs-fl/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/crystal-springs-fl/",
+    "/service-areas/crystal-springs-fl/fire-damage-restoration/",
+    "/service-areas/crystal-springs-fl/mold-remediation/",
+    "/service-areas/anna-maria-fl/general-contracting/",
+    "/service-areas/apollo-beach-fl/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/crystal-springs-fl/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/crystal-springs-fl/",
+    "/service-areas/crystal-springs-fl/fire-damage-restoration/",
+    "/service-areas/crystal-springs-fl/mold-remediation/",
+    "/service-areas/anna-maria-fl/storm-damage-restoration/",
+    "/service-areas/apollo-beach-fl/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/crystal-springs-fl/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/crystal-springs-fl/",
+    "/service-areas/crystal-springs-fl/fire-damage-restoration/",
+    "/service-areas/crystal-springs-fl/mold-remediation/",
+    "/service-areas/anna-maria-fl/water-cleanup/",
+    "/service-areas/apollo-beach-fl/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/crystal-springs-fl/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/crystal-springs-fl/",
+    "/service-areas/crystal-springs-fl/fire-damage-restoration/",
+    "/service-areas/crystal-springs-fl/mold-remediation/",
+    "/service-areas/anna-maria-fl/sewage-cleanup/",
+    "/service-areas/apollo-beach-fl/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/crystal-springs-fl/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/crystal-springs-fl/",
+    "/service-areas/crystal-springs-fl/fire-damage-restoration/",
+    "/service-areas/crystal-springs-fl/mold-remediation/",
     "/service-areas/anna-maria-fl/emergency-board-up-tarping/",
     "/service-areas/apollo-beach-fl/emergency-board-up-tarping/",
     "/contact/"

@@ -1,21 +1,21 @@
 # Site Plan Report — ProRestoration Services
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T14:13:26.385658+00:00
+- Generated: 2026-09-20T17:29:54.742811+00:00
 - Domain: `prorestorationca.com`
 - Services selected: 17 of 65 catalog entries
-- Service areas: 17
+- Service areas: 18
 - Cross-product enabled: True
-- Total URLs: **326**
-- Total internal links: 2665 (avg 8.2 per page)
+- Total URLs: **344**
+- Total internal links: 2808 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 272 |
+| `service-area-service` | 289 |
 | `service-landing` | 17 |
-| `service-area` | 16 |
+| `service-area` | 17 |
 | `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -64,6 +64,7 @@
 - `buttonwillow-ca` — Buttonwillow, CA
 - `dustin-acres-ca` — Dustin Acres, CA
 - `mcfarland-ca` — McFarland, CA
+- `valley-acres-ca` — Valley Acres, CA
 
 ## Top 10 priority pages
 

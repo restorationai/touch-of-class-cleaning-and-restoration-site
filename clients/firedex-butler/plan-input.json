@@ -292,6 +292,11 @@
       "city": "Sewickley Heights",
       "state": "PA",
       "slug": "sewickley-heights-pa"
+    },
+    {
+      "city": "Aliquippa",
+      "state": "PA",
+      "slug": "aliquippa-pa"
     }
   ],
   "brand": {

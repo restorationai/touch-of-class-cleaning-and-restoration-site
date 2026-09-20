@@ -1,20 +1,20 @@
 # Site Plan Report — FIX Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T14:12:57.999111+00:00
+- Generated: 2026-09-20T17:29:24.221443+00:00
 - Domain: `fixofutah.com`
 - Services selected: 11 of 65 catalog entries
-- Service areas: 15
+- Service areas: 16
 - Cross-product enabled: True
-- Total URLs: **196**
-- Total internal links: 1577 (avg 8.0 per page)
+- Total URLs: **208**
+- Total internal links: 1672 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 154 |
-| `service-area` | 14 |
+| `service-area-service` | 165 |
+| `service-area` | 15 |
 | `service-landing` | 11 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -56,6 +56,7 @@
 - `vineyard-ut` — Vineyard, UT
 - `draper-ut` — Draper, UT
 - `bluffdale-ut` — Bluffdale, UT
+- `eagle-mountain-ut` — Eagle Mountain, UT
 
 ## Top 10 priority pages
 

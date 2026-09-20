@@ -1,22 +1,22 @@
 # Site Plan Report — Davis Construction Contractors
 
 - Template: `construction` v0.1.0
-- Generated: 2026-09-20T14:13:03.527188+00:00
+- Generated: 2026-09-20T17:29:30.008741+00:00
 - Domain: `davisconstructioncontractors.com`
 - Services selected: 9 of 23 catalog entries
-- Service areas: 9
+- Service areas: 10
 - Cross-product enabled: True
-- Total URLs: **110**
-- Total internal links: 829 (avg 7.5 per page)
+- Total URLs: **120**
+- Total internal links: 917 (avg 7.6 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 72 |
+| `service-area-service` | 81 |
 | `blog-post` | 12 |
 | `service-landing` | 9 |
-| `service-area` | 8 |
+| `service-area` | 9 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -48,6 +48,7 @@
 - `hazel-green-al` — Hazel Green, AL
 - `new-market-al` — New Market, AL
 - `harvest-al` — Harvest, AL
+- `gurley-al` — Gurley, AL
 
 ## Top 10 priority pages
 
@@ -60,9 +61,9 @@
 | `/services/siding-gutters/` | `service-landing` | 7.2 | siding and gutters madison |
 | `/service-areas/athens-al/home-remodeling/` | `service-area-service` | 7.0 | home remodeling athens |
 | `/service-areas/athens-al/roofing/` | `service-area-service` | 7.0 | roofing installation and replacement athens |
+| `/service-areas/gurley-al/home-remodeling/` | `service-area-service` | 7.0 | home remodeling gurley |
+| `/service-areas/gurley-al/roofing/` | `service-area-service` | 7.0 | roofing installation and replacement gurley |
 | `/service-areas/harvest-al/home-remodeling/` | `service-area-service` | 7.0 | home remodeling harvest |
-| `/service-areas/harvest-al/roofing/` | `service-area-service` | 7.0 | roofing installation and replacement harvest |
-| `/service-areas/hazel-green-al/home-remodeling/` | `service-area-service` | 7.0 | home remodeling hazel green |
 
 ## Validation
 

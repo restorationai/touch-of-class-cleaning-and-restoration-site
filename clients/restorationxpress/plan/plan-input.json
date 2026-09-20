@@ -288,6 +288,11 @@
       "city": "Lauderdale Lakes",
       "state": "FL",
       "slug": "lauderdale-lakes-fl"
+    },
+    {
+      "city": "Southwest Ranches",
+      "state": "FL",
+      "slug": "southwest-ranches-fl"
     }
   ]
 }

@@ -244,6 +244,11 @@
       "city": "Dustin Acres",
       "state": "CA",
       "slug": "dustin-acres-ca"
+    },
+    {
+      "city": "Bear Valley Springs",
+      "state": "CA",
+      "slug": "bear-valley-springs-ca"
     }
   ],
   "brand": {

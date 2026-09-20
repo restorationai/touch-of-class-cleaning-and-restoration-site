@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-20T14:13:45.111236+00:00",
+  "generated_at": "2026-09-20T17:30:03.393643+00:00",
   "input_summary": {
     "service_count": 18,
-    "service_area_count": 59,
+    "service_area_count": 60,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -116,6 +116,7 @@
         "/service-areas/summit-nj/",
         "/service-areas/teaneck-nj/",
         "/service-areas/union-nj/",
+        "/service-areas/watchung-nj/",
         "/service-areas/wayne-nj/",
         "/service-areas/west-orange-nj/",
         "/service-areas/westfield-nj/",
@@ -255,6 +256,7 @@
         "/service-areas/summit-nj/",
         "/service-areas/teaneck-nj/",
         "/service-areas/union-nj/",
+        "/service-areas/watchung-nj/",
         "/service-areas/wayne-nj/",
         "/service-areas/west-orange-nj/",
         "/service-areas/westfield-nj/",
@@ -4457,6 +4459,61 @@
         "/service-areas/chatham-nj/appliance-leak-cleanup/",
         "/service-areas/chatham-nj/basement-flood-cleanup/",
         "/service-areas/chatham-nj/contents-restoration-pack-out/",
+        "/service-areas/avenel-nj/",
+        "/service-areas/bayonne-nj/",
+        "/service-areas/bloomfield-nj/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/watchung-nj/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Watchung, NJ | The Restoration Group",
+      "h1": "Restoration Services in Watchung",
+      "meta_description": "Serving Watchung, NJ with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 650-7422.",
+      "primary_keyword": "restoration services watchung",
+      "secondary_keywords": [
+        "watchung restoration company",
+        "damage restoration watchung",
+        "watchung disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/watchung-nj/fire-damage-restoration/",
+        "/service-areas/watchung-nj/mold-remediation/",
+        "/service-areas/watchung-nj/water-damage-restoration/",
+        "/service-areas/watchung-nj/commercial-restoration/",
+        "/service-areas/watchung-nj/flood-damage-restoration/",
+        "/service-areas/watchung-nj/sewage-cleanup/",
+        "/service-areas/watchung-nj/smoke-damage-restoration/",
+        "/service-areas/watchung-nj/storm-damage-restoration/",
+        "/service-areas/watchung-nj/water-cleanup/",
+        "/service-areas/watchung-nj/basement-flooding-cleanup/",
+        "/service-areas/watchung-nj/biohazard-cleanup/",
+        "/service-areas/watchung-nj/burst-pipe-repair/",
+        "/service-areas/watchung-nj/mold-inspection-testing/",
+        "/service-areas/watchung-nj/emergency-board-up-tarping/",
+        "/service-areas/watchung-nj/odor-removal/",
+        "/service-areas/watchung-nj/appliance-leak-cleanup/",
+        "/service-areas/watchung-nj/basement-flood-cleanup/",
+        "/service-areas/watchung-nj/contents-restoration-pack-out/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -49755,6 +49812,787 @@
         "/service-areas/chatham-nj/",
         "/service-areas/chatham-nj/fire-damage-restoration/",
         "/service-areas/chatham-nj/mold-remediation/",
+        "/service-areas/avenel-nj/biohazard-cleanup/",
+        "/service-areas/bayonne-nj/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/watchung-nj/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Watchung, NJ | The Restoration Group",
+      "h1": "Water Damage Restoration in Watchung",
+      "meta_description": "24/7 water damage restoration in Watchung, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "water damage restoration watchung",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/watchung-nj/",
+        "/service-areas/watchung-nj/fire-damage-restoration/",
+        "/service-areas/watchung-nj/mold-remediation/",
+        "/service-areas/avenel-nj/water-damage-restoration/",
+        "/service-areas/bayonne-nj/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/watchung-nj/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Watchung, NJ | The Restoration Group",
+      "h1": "Flood Damage Restoration in Watchung",
+      "meta_description": "24/7 flood damage restoration in Watchung, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "flood damage restoration watchung",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/watchung-nj/",
+        "/service-areas/watchung-nj/fire-damage-restoration/",
+        "/service-areas/watchung-nj/mold-remediation/",
+        "/service-areas/avenel-nj/flood-damage-restoration/",
+        "/service-areas/bayonne-nj/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/watchung-nj/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Watchung, NJ | The Restoration Group",
+      "h1": "Burst Pipe Cleanup and Repair in Watchung",
+      "meta_description": "24/7 burst pipe cleanup and repair in Watchung, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "burst pipe cleanup and repair watchung",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/watchung-nj/",
+        "/service-areas/watchung-nj/fire-damage-restoration/",
+        "/service-areas/watchung-nj/mold-remediation/",
+        "/service-areas/avenel-nj/burst-pipe-repair/",
+        "/service-areas/bayonne-nj/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/watchung-nj/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in Watchung, NJ | The Restoration Group",
+      "h1": "Basement Flooding Cleanup in Watchung",
+      "meta_description": "24/7 basement flooding cleanup in Watchung, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "basement flooding cleanup watchung",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/watchung-nj/",
+        "/service-areas/watchung-nj/fire-damage-restoration/",
+        "/service-areas/watchung-nj/mold-remediation/",
+        "/service-areas/avenel-nj/basement-flooding-cleanup/",
+        "/service-areas/bayonne-nj/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/watchung-nj/appliance-leak-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Appliance Leak Cleanup in Watchung, NJ | The Restoration Group",
+      "h1": "Appliance Leak Cleanup in Watchung",
+      "meta_description": "24/7 appliance leak cleanup in Watchung, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "appliance leak cleanup watchung",
+      "secondary_keywords": [
+        "dishwasher leak cleanup",
+        "washing machine flood",
+        "refrigerator leak cleanup",
+        "water heater leak cleanup",
+        "ice maker line leak"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/appliance-leak-cleanup/",
+        "/service-areas/watchung-nj/",
+        "/service-areas/watchung-nj/fire-damage-restoration/",
+        "/service-areas/watchung-nj/mold-remediation/",
+        "/service-areas/avenel-nj/appliance-leak-cleanup/",
+        "/service-areas/bayonne-nj/appliance-leak-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/watchung-nj/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Watchung, NJ | The Restoration Group",
+      "h1": "Sewage Cleanup and Sanitization in Watchung",
+      "meta_description": "24/7 sewage cleanup and sanitization in Watchung, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "sewage cleanup and sanitization watchung",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/watchung-nj/",
+        "/service-areas/watchung-nj/fire-damage-restoration/",
+        "/service-areas/watchung-nj/mold-remediation/",
+        "/service-areas/avenel-nj/sewage-cleanup/",
+        "/service-areas/bayonne-nj/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/watchung-nj/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Watchung, NJ | The Restoration Group",
+      "h1": "Fire Damage Restoration in Watchung",
+      "meta_description": "24/7 fire damage restoration in Watchung, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "fire damage restoration watchung",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/watchung-nj/",
+        "/service-areas/watchung-nj/mold-remediation/",
+        "/service-areas/watchung-nj/water-damage-restoration/",
+        "/service-areas/avenel-nj/fire-damage-restoration/",
+        "/service-areas/bayonne-nj/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/watchung-nj/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Watchung, NJ | The Restoration Group",
+      "h1": "Smoke Damage Restoration in Watchung",
+      "meta_description": "24/7 smoke damage restoration in Watchung, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "smoke damage restoration watchung",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/watchung-nj/",
+        "/service-areas/watchung-nj/fire-damage-restoration/",
+        "/service-areas/watchung-nj/mold-remediation/",
+        "/service-areas/avenel-nj/smoke-damage-restoration/",
+        "/service-areas/bayonne-nj/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/watchung-nj/odor-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Odor Removal and Deodorization in Watchung, NJ | The Restoration Group",
+      "h1": "Odor Removal and Deodorization in Watchung",
+      "meta_description": "24/7 odor removal and deodorization in Watchung, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "odor removal and deodorization watchung",
+      "secondary_keywords": [
+        "smoke odor removal",
+        "ozone treatment",
+        "hydroxyl deodorization",
+        "thermal fogging",
+        "professional odor elimination"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/odor-removal/",
+        "/service-areas/watchung-nj/",
+        "/service-areas/watchung-nj/fire-damage-restoration/",
+        "/service-areas/watchung-nj/mold-remediation/",
+        "/service-areas/avenel-nj/odor-removal/",
+        "/service-areas/bayonne-nj/odor-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/watchung-nj/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Watchung, NJ | The Restoration Group",
+      "h1": "Mold Remediation in Watchung",
+      "meta_description": "24/7 mold remediation in Watchung, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "mold remediation watchung",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/watchung-nj/",
+        "/service-areas/watchung-nj/fire-damage-restoration/",
+        "/service-areas/watchung-nj/water-damage-restoration/",
+        "/service-areas/avenel-nj/mold-remediation/",
+        "/service-areas/bayonne-nj/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/watchung-nj/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Watchung, NJ | The Restoration Group",
+      "h1": "Mold Inspection and Testing in Watchung",
+      "meta_description": "24/7 mold inspection and testing in Watchung, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "mold inspection and testing watchung",
+      "secondary_keywords": [
+        "mold inspection",
+        "mold testing",
+        "indoor air quality testing",
+        "mold spore testing",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/watchung-nj/",
+        "/service-areas/watchung-nj/fire-damage-restoration/",
+        "/service-areas/watchung-nj/mold-remediation/",
+        "/service-areas/avenel-nj/mold-inspection-testing/",
+        "/service-areas/bayonne-nj/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/watchung-nj/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Watchung, NJ | The Restoration Group",
+      "h1": "Storm Damage Restoration in Watchung",
+      "meta_description": "24/7 storm damage restoration in Watchung, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "storm damage restoration watchung",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/watchung-nj/",
+        "/service-areas/watchung-nj/fire-damage-restoration/",
+        "/service-areas/watchung-nj/mold-remediation/",
+        "/service-areas/avenel-nj/storm-damage-restoration/",
+        "/service-areas/bayonne-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/watchung-nj/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Watchung, NJ | The Restoration Group",
+      "h1": "Emergency Board-Up and Tarping in Watchung",
+      "meta_description": "24/7 emergency board-up and tarping in Watchung, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "emergency board-up and tarping watchung",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/watchung-nj/",
+        "/service-areas/watchung-nj/fire-damage-restoration/",
+        "/service-areas/watchung-nj/mold-remediation/",
+        "/service-areas/avenel-nj/emergency-board-up-tarping/",
+        "/service-areas/bayonne-nj/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/watchung-nj/commercial-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Commercial Restoration in Watchung, NJ | The Restoration Group",
+      "h1": "Commercial Restoration in Watchung",
+      "meta_description": "24/7 commercial restoration in Watchung, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "commercial restoration watchung",
+      "secondary_keywords": [
+        "commercial water damage",
+        "commercial fire damage",
+        "business restoration",
+        "office restoration",
+        "retail restoration"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/commercial-restoration/",
+        "/service-areas/watchung-nj/",
+        "/service-areas/watchung-nj/fire-damage-restoration/",
+        "/service-areas/watchung-nj/mold-remediation/",
+        "/service-areas/avenel-nj/commercial-restoration/",
+        "/service-areas/bayonne-nj/commercial-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/watchung-nj/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Watchung, NJ | The Restoration Group",
+      "h1": "Emergency Water Cleanup in Watchung",
+      "meta_description": "24/7 emergency water cleanup in Watchung, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "emergency water cleanup watchung",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/watchung-nj/",
+        "/service-areas/watchung-nj/fire-damage-restoration/",
+        "/service-areas/watchung-nj/mold-remediation/",
+        "/service-areas/avenel-nj/water-cleanup/",
+        "/service-areas/bayonne-nj/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/watchung-nj/contents-restoration-pack-out/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Pack-Out in Watchung, NJ | The Restoration Group",
+      "h1": "Contents Restoration & Pack-Out in Watchung",
+      "meta_description": "24/7 contents restoration & pack-out in Watchung, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "contents restoration & pack-out watchung",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-pack-out/",
+        "/service-areas/watchung-nj/",
+        "/service-areas/watchung-nj/fire-damage-restoration/",
+        "/service-areas/watchung-nj/mold-remediation/",
+        "/service-areas/avenel-nj/contents-restoration-pack-out/",
+        "/service-areas/bayonne-nj/contents-restoration-pack-out/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/watchung-nj/basement-flood-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flood Cleanup in Watchung, NJ | The Restoration Group",
+      "h1": "Basement Flood Cleanup in Watchung",
+      "meta_description": "24/7 basement flood cleanup in Watchung, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "basement flood cleanup watchung",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flood-cleanup/",
+        "/service-areas/watchung-nj/",
+        "/service-areas/watchung-nj/fire-damage-restoration/",
+        "/service-areas/watchung-nj/mold-remediation/",
+        "/service-areas/avenel-nj/basement-flood-cleanup/",
+        "/service-areas/bayonne-nj/basement-flood-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/watchung-nj/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Watchung, NJ | The Restoration Group",
+      "h1": "Biohazard Cleanup in Watchung",
+      "meta_description": "24/7 biohazard cleanup in Watchung, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "biohazard cleanup watchung",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/watchung-nj/",
+        "/service-areas/watchung-nj/fire-damage-restoration/",
+        "/service-areas/watchung-nj/mold-remediation/",
         "/service-areas/avenel-nj/biohazard-cleanup/",
         "/service-areas/bayonne-nj/biohazard-cleanup/",
         "/contact/"

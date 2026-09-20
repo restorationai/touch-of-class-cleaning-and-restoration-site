@@ -1,10 +1,10 @@
 {
   "template": "plumbing",
   "template_version": "0.1.0",
-  "generated_at": "2026-09-20T14:13:48.409042+00:00",
+  "generated_at": "2026-09-20T17:30:07.442845+00:00",
   "input_summary": {
     "service_count": 12,
-    "service_area_count": 40,
+    "service_area_count": 41,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -91,6 +91,7 @@
         "/service-areas/temescal-valley-ca/",
         "/service-areas/trabuco-canyon-ca/",
         "/service-areas/upland-ca/",
+        "/service-areas/villa-park-ca/",
         "/service-areas/wildomar-ca/",
         "/service-areas/winchester-ca/",
         "/service-areas/woodcrest-ca/",
@@ -205,6 +206,7 @@
         "/service-areas/temescal-valley-ca/",
         "/service-areas/trabuco-canyon-ca/",
         "/service-areas/upland-ca/",
+        "/service-areas/villa-park-ca/",
         "/service-areas/wildomar-ca/",
         "/service-areas/winchester-ca/",
         "/service-areas/woodcrest-ca/",
@@ -2832,6 +2834,55 @@
         "/service-areas/north-tustin-ca/indoor-air-quality/",
         "/service-areas/north-tustin-ca/water-softeners-filtration/",
         "/service-areas/north-tustin-ca/garbage-disposal/",
+        "/service-areas/anaheim-ca/",
+        "/service-areas/bloomington-ca/",
+        "/service-areas/canyon-lake-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/villa-park-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Plumbing, Heating & Air in Villa Park, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Plumbing, Heating and Air in Villa Park",
+      "meta_description": "Serving Villa Park, CA with 24/7 emergency plumbing plus heating and air conditioning service. Licensed and insured. Call (951) 344-5596.",
+      "primary_keyword": "plumber villa park",
+      "secondary_keywords": [
+        "villa park plumbing company",
+        "emergency plumber villa park",
+        "villa park hvac company"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/villa-park-ca/ac-repair/",
+        "/service-areas/villa-park-ca/drain-cleaning/",
+        "/service-areas/villa-park-ca/emergency-plumbing/",
+        "/service-areas/villa-park-ca/water-heater-repair/",
+        "/service-areas/villa-park-ca/furnace-repair/",
+        "/service-areas/villa-park-ca/water-heater-installation/",
+        "/service-areas/villa-park-ca/leak-detection/",
+        "/service-areas/villa-park-ca/repiping/",
+        "/service-areas/villa-park-ca/toilet-faucet-repair/",
+        "/service-areas/villa-park-ca/indoor-air-quality/",
+        "/service-areas/villa-park-ca/water-softeners-filtration/",
+        "/service-areas/villa-park-ca/garbage-disposal/",
         "/service-areas/anaheim-ca/",
         "/service-areas/bloomington-ca/",
         "/service-areas/canyon-lake-ca/"
@@ -23424,6 +23475,534 @@
         "/service-areas/north-tustin-ca/",
         "/service-areas/north-tustin-ca/ac-repair/",
         "/service-areas/north-tustin-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/repiping/",
+        "/service-areas/bloomington-ca/repiping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/villa-park-ca/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in Villa Park, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Emergency Plumbing in Villa Park",
+      "meta_description": "Trusted emergency plumbing in Villa Park, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "emergency plumbing villa park",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "after hours plumber",
+        "plumber near me now",
+        "same day plumbing repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/villa-park-ca/",
+        "/service-areas/villa-park-ca/ac-repair/",
+        "/service-areas/villa-park-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/emergency-plumbing/",
+        "/service-areas/bloomington-ca/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/villa-park-ca/leak-detection/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Leak Detection in Villa Park, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Leak Detection in Villa Park",
+      "meta_description": "Trusted leak detection in Villa Park, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "leak detection villa park",
+      "secondary_keywords": [
+        "water leak detection",
+        "electronic leak detection",
+        "hidden leak detection",
+        "high water bill leak",
+        "underground water leak detection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/leak-detection/",
+        "/service-areas/villa-park-ca/",
+        "/service-areas/villa-park-ca/ac-repair/",
+        "/service-areas/villa-park-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/leak-detection/",
+        "/service-areas/bloomington-ca/leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/villa-park-ca/drain-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Drain Cleaning in Villa Park, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Drain Cleaning in Villa Park",
+      "meta_description": "Trusted drain cleaning in Villa Park, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "drain cleaning villa park",
+      "secondary_keywords": [
+        "clogged drain cleaning",
+        "hydro jetting",
+        "rooter service",
+        "kitchen sink clog removal",
+        "shower drain clog"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/drain-cleaning/",
+        "/service-areas/villa-park-ca/",
+        "/service-areas/villa-park-ca/ac-repair/",
+        "/service-areas/villa-park-ca/emergency-plumbing/",
+        "/service-areas/anaheim-ca/drain-cleaning/",
+        "/service-areas/bloomington-ca/drain-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/villa-park-ca/water-heater-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Heater Repair in Villa Park, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Water Heater Repair in Villa Park",
+      "meta_description": "Trusted water heater repair in Villa Park, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "water heater repair villa park",
+      "secondary_keywords": [
+        "water heater not working",
+        "no hot water",
+        "water heater leaking",
+        "hot water heater repair",
+        "same day water heater service"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-heater-repair/",
+        "/service-areas/villa-park-ca/",
+        "/service-areas/villa-park-ca/ac-repair/",
+        "/service-areas/villa-park-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/water-heater-repair/",
+        "/service-areas/bloomington-ca/water-heater-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/villa-park-ca/water-heater-installation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Heater Installation and Replacement in Villa Park, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Water Heater Installation and Replacement in Villa Park",
+      "meta_description": "Trusted water heater installation and replacement in Villa Park, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "water heater installation and replacement villa park",
+      "secondary_keywords": [
+        "water heater replacement",
+        "tankless water heater installation",
+        "tankless vs tank water heater",
+        "50 gallon water heater install",
+        "tankless water heater cost"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-heater-installation/",
+        "/service-areas/villa-park-ca/",
+        "/service-areas/villa-park-ca/ac-repair/",
+        "/service-areas/villa-park-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/water-heater-installation/",
+        "/service-areas/bloomington-ca/water-heater-installation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/villa-park-ca/toilet-faucet-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Toilet, Faucet and Fixture Services in Villa Park, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Toilet, Faucet and Fixture Services in Villa Park",
+      "meta_description": "Trusted toilet, faucet and fixture services in Villa Park, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "toilet, faucet and fixture services villa park",
+      "secondary_keywords": [
+        "toilet repair",
+        "toilet installation",
+        "faucet replacement",
+        "shower valve repair",
+        "running toilet fix"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/toilet-faucet-repair/",
+        "/service-areas/villa-park-ca/",
+        "/service-areas/villa-park-ca/ac-repair/",
+        "/service-areas/villa-park-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/toilet-faucet-repair/",
+        "/service-areas/bloomington-ca/toilet-faucet-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/villa-park-ca/garbage-disposal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Garbage Disposal Repair and Installation in Villa Park, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Garbage Disposal Repair and Installation in Villa Park",
+      "meta_description": "Trusted garbage disposal repair and installation in Villa Park, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "garbage disposal repair and installation villa park",
+      "secondary_keywords": [
+        "garbage disposal replacement",
+        "garbage disposal humming",
+        "garbage disposal jammed",
+        "disposal installation",
+        "garbage disposal leaking"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/garbage-disposal/",
+        "/service-areas/villa-park-ca/",
+        "/service-areas/villa-park-ca/ac-repair/",
+        "/service-areas/villa-park-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/garbage-disposal/",
+        "/service-areas/bloomington-ca/garbage-disposal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/villa-park-ca/water-softeners-filtration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Softeners and Filtration Systems in Villa Park, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Water Softeners and Filtration Systems in Villa Park",
+      "meta_description": "Trusted water softeners and filtration systems in Villa Park, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "water softeners and filtration systems villa park",
+      "secondary_keywords": [
+        "water softener installation",
+        "whole house water filtration",
+        "reverse osmosis system installation",
+        "hard water treatment",
+        "water conditioner install"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-softeners-filtration/",
+        "/service-areas/villa-park-ca/",
+        "/service-areas/villa-park-ca/ac-repair/",
+        "/service-areas/villa-park-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/water-softeners-filtration/",
+        "/service-areas/bloomington-ca/water-softeners-filtration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/villa-park-ca/ac-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Conditioning Repair in Villa Park, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Air Conditioning Repair in Villa Park",
+      "meta_description": "Trusted air conditioning repair in Villa Park, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "air conditioning repair villa park",
+      "secondary_keywords": [
+        "ac not cooling",
+        "air conditioner repair",
+        "central air repair",
+        "ac refrigerant leak repair",
+        "hvac repair near me"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/ac-repair/",
+        "/service-areas/villa-park-ca/",
+        "/service-areas/villa-park-ca/drain-cleaning/",
+        "/service-areas/villa-park-ca/emergency-plumbing/",
+        "/service-areas/anaheim-ca/ac-repair/",
+        "/service-areas/bloomington-ca/ac-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/villa-park-ca/furnace-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Furnace Repair in Villa Park, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Furnace Repair in Villa Park",
+      "meta_description": "Trusted furnace repair in Villa Park, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "furnace repair villa park",
+      "secondary_keywords": [
+        "furnace not working",
+        "heater repair",
+        "no heat repair",
+        "emergency furnace repair",
+        "furnace blowing cold air"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/furnace-repair/",
+        "/service-areas/villa-park-ca/",
+        "/service-areas/villa-park-ca/ac-repair/",
+        "/service-areas/villa-park-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/furnace-repair/",
+        "/service-areas/bloomington-ca/furnace-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/villa-park-ca/indoor-air-quality/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Indoor Air Quality Services in Villa Park, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Indoor Air Quality Services in Villa Park",
+      "meta_description": "Trusted indoor air quality services in Villa Park, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "indoor air quality services villa park",
+      "secondary_keywords": [
+        "whole house air purifier",
+        "UV air purifier for HVAC",
+        "whole home humidifier installation",
+        "HVAC filtration upgrade",
+        "indoor air quality testing"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/indoor-air-quality/",
+        "/service-areas/villa-park-ca/",
+        "/service-areas/villa-park-ca/ac-repair/",
+        "/service-areas/villa-park-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/indoor-air-quality/",
+        "/service-areas/bloomington-ca/indoor-air-quality/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/villa-park-ca/repiping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Whole-House Repiping in Villa Park, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Whole-House Repiping in Villa Park",
+      "meta_description": "Trusted whole-house repiping in Villa Park, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "whole-house repiping villa park",
+      "secondary_keywords": [
+        "whole house repipe",
+        "copper repiping",
+        "PEX repiping",
+        "galvanized pipe replacement",
+        "polybutylene pipe replacement"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/repiping/",
+        "/service-areas/villa-park-ca/",
+        "/service-areas/villa-park-ca/ac-repair/",
+        "/service-areas/villa-park-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/repiping/",
         "/service-areas/bloomington-ca/repiping/",
         "/contact/"

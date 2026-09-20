@@ -1,20 +1,20 @@
 # Site Plan Report — TDI USA, Inc.
 
 - Template: `construction` v0.1.0
-- Generated: 2026-09-20T14:13:49.411567+00:00
+- Generated: 2026-09-20T17:30:08.616655+00:00
 - Domain: `tdiusa.com`
 - Services selected: 12 of 23 catalog entries
-- Service areas: 23
+- Service areas: 24
 - Cross-product enabled: True
-- Total URLs: **315**
-- Total internal links: 2534 (avg 8.0 per page)
+- Total URLs: **328**
+- Total internal links: 2637 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 264 |
-| `service-area` | 22 |
+| `service-area-service` | 276 |
+| `service-area` | 23 |
 | `service-landing` | 12 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -65,6 +65,7 @@
 - `arden-arcade-ca` — Arden-Arcade, CA
 - `north-highlands-ca` — North Highlands, CA
 - `antelope-ca` — Antelope, CA
+- `foothill-farms-ca` — Foothill Farms, CA
 
 ## Top 10 priority pages
 

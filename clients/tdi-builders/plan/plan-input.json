@@ -188,6 +188,11 @@
       "city": "Antelope",
       "state": "CA",
       "slug": "antelope-ca"
+    },
+    {
+      "city": "Foothill Farms",
+      "state": "CA",
+      "slug": "foothill-farms-ca"
     }
   ],
   "template": "construction",

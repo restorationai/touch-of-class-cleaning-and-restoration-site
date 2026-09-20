@@ -27,6 +27,7 @@
     "/service-areas/rancho-santa-fe-ca/",
     "/service-areas/san-marcos-ca/",
     "/service-areas/santee-ca/",
+    "/service-areas/solana-beach-ca/",
     "/service-areas/spring-valley-ca/",
     "/service-areas/temecula-ca/",
     "/service-areas/valley-center-ca/",
@@ -60,6 +61,7 @@
     "/service-areas/rancho-santa-fe-ca/",
     "/service-areas/san-marcos-ca/",
     "/service-areas/santee-ca/",
+    "/service-areas/solana-beach-ca/",
     "/service-areas/spring-valley-ca/",
     "/service-areas/temecula-ca/",
     "/service-areas/valley-center-ca/",
@@ -480,6 +482,20 @@
     "/service-areas/fairbanks-ranch-ca/basement-flooding-cleanup/",
     "/service-areas/fairbanks-ranch-ca/burst-pipe-repair/",
     "/service-areas/fairbanks-ranch-ca/general-contracting/",
+    "/service-areas/bonsall-ca/",
+    "/service-areas/carlsbad-ca/",
+    "/service-areas/chula-vista-ca/"
+  ],
+  "/service-areas/solana-beach-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/solana-beach-ca/water-damage-restoration/",
+    "/service-areas/solana-beach-ca/flood-damage-restoration/",
+    "/service-areas/solana-beach-ca/reconstruction/",
+    "/service-areas/solana-beach-ca/water-cleanup/",
+    "/service-areas/solana-beach-ca/basement-flooding-cleanup/",
+    "/service-areas/solana-beach-ca/burst-pipe-repair/",
+    "/service-areas/solana-beach-ca/general-contracting/",
     "/service-areas/bonsall-ca/",
     "/service-areas/carlsbad-ca/",
     "/service-areas/chula-vista-ca/"
@@ -1740,6 +1756,69 @@
     "/service-areas/fairbanks-ranch-ca/",
     "/service-areas/fairbanks-ranch-ca/water-damage-restoration/",
     "/service-areas/fairbanks-ranch-ca/flood-damage-restoration/",
+    "/service-areas/bonsall-ca/water-cleanup/",
+    "/service-areas/carlsbad-ca/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/solana-beach-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/solana-beach-ca/",
+    "/service-areas/solana-beach-ca/flood-damage-restoration/",
+    "/service-areas/solana-beach-ca/reconstruction/",
+    "/service-areas/bonsall-ca/water-damage-restoration/",
+    "/service-areas/carlsbad-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/solana-beach-ca/flood-damage-restoration/": [
+    "/services/flood-damage-restoration/",
+    "/service-areas/solana-beach-ca/",
+    "/service-areas/solana-beach-ca/water-damage-restoration/",
+    "/service-areas/solana-beach-ca/reconstruction/",
+    "/service-areas/bonsall-ca/flood-damage-restoration/",
+    "/service-areas/carlsbad-ca/flood-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/solana-beach-ca/burst-pipe-repair/": [
+    "/services/burst-pipe-repair/",
+    "/service-areas/solana-beach-ca/",
+    "/service-areas/solana-beach-ca/water-damage-restoration/",
+    "/service-areas/solana-beach-ca/flood-damage-restoration/",
+    "/service-areas/bonsall-ca/burst-pipe-repair/",
+    "/service-areas/carlsbad-ca/burst-pipe-repair/",
+    "/contact/"
+  ],
+  "/service-areas/solana-beach-ca/basement-flooding-cleanup/": [
+    "/services/basement-flooding-cleanup/",
+    "/service-areas/solana-beach-ca/",
+    "/service-areas/solana-beach-ca/water-damage-restoration/",
+    "/service-areas/solana-beach-ca/flood-damage-restoration/",
+    "/service-areas/bonsall-ca/basement-flooding-cleanup/",
+    "/service-areas/carlsbad-ca/basement-flooding-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/solana-beach-ca/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/solana-beach-ca/",
+    "/service-areas/solana-beach-ca/water-damage-restoration/",
+    "/service-areas/solana-beach-ca/flood-damage-restoration/",
+    "/service-areas/bonsall-ca/reconstruction/",
+    "/service-areas/carlsbad-ca/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/solana-beach-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/solana-beach-ca/",
+    "/service-areas/solana-beach-ca/water-damage-restoration/",
+    "/service-areas/solana-beach-ca/flood-damage-restoration/",
+    "/service-areas/bonsall-ca/general-contracting/",
+    "/service-areas/carlsbad-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/solana-beach-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/solana-beach-ca/",
+    "/service-areas/solana-beach-ca/water-damage-restoration/",
+    "/service-areas/solana-beach-ca/flood-damage-restoration/",
     "/service-areas/bonsall-ca/water-cleanup/",
     "/service-areas/carlsbad-ca/water-cleanup/",
     "/contact/"

@@ -67,6 +67,11 @@
       "city": "Awendaw",
       "state": "SC",
       "slug": "awendaw-sc"
+    },
+    {
+      "city": "Folly Beach",
+      "state": "SC",
+      "slug": "folly-beach-sc"
     }
   ]
 }

@@ -26,6 +26,7 @@
     "/service-areas/mesquite-tx/",
     "/service-areas/nevada-tx/",
     "/service-areas/plano-tx/",
+    "/service-areas/poetry-tx/",
     "/service-areas/richardson-tx/",
     "/service-areas/rockwall-tx/",
     "/service-areas/rowlett-tx/",
@@ -61,6 +62,7 @@
     "/service-areas/mesquite-tx/",
     "/service-areas/nevada-tx/",
     "/service-areas/plano-tx/",
+    "/service-areas/poetry-tx/",
     "/service-areas/richardson-tx/",
     "/service-areas/rockwall-tx/",
     "/service-areas/rowlett-tx/",
@@ -519,6 +521,20 @@
     "/service-areas/allen-tx/",
     "/service-areas/dallas-tx/",
     "/service-areas/fate-tx/"
+  ],
+  "/service-areas/poetry-tx/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/poetry-tx/fire-damage-restoration/",
+    "/service-areas/poetry-tx/mold-remediation/",
+    "/service-areas/poetry-tx/water-damage-restoration/",
+    "/service-areas/poetry-tx/storm-damage-restoration/",
+    "/service-areas/poetry-tx/water-cleanup/",
+    "/service-areas/poetry-tx/general-contracting/",
+    "/service-areas/poetry-tx/contents-restoration/",
+    "/service-areas/allen-tx/",
+    "/service-areas/caddo-mills-tx/",
+    "/service-areas/dallas-tx/"
   ],
   "/service-areas/rockwall-tx/water-damage-restoration/": [
     "/services/water-damage-restoration/",
@@ -1904,6 +1920,69 @@
     "/service-areas/caddo-mills-tx/mold-remediation/",
     "/service-areas/allen-tx/water-cleanup/",
     "/service-areas/dallas-tx/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/poetry-tx/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/poetry-tx/",
+    "/service-areas/poetry-tx/fire-damage-restoration/",
+    "/service-areas/poetry-tx/mold-remediation/",
+    "/service-areas/allen-tx/water-damage-restoration/",
+    "/service-areas/caddo-mills-tx/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/poetry-tx/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/poetry-tx/",
+    "/service-areas/poetry-tx/mold-remediation/",
+    "/service-areas/poetry-tx/water-damage-restoration/",
+    "/service-areas/allen-tx/fire-damage-restoration/",
+    "/service-areas/caddo-mills-tx/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/poetry-tx/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/poetry-tx/",
+    "/service-areas/poetry-tx/fire-damage-restoration/",
+    "/service-areas/poetry-tx/water-damage-restoration/",
+    "/service-areas/allen-tx/mold-remediation/",
+    "/service-areas/caddo-mills-tx/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/poetry-tx/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/poetry-tx/",
+    "/service-areas/poetry-tx/fire-damage-restoration/",
+    "/service-areas/poetry-tx/mold-remediation/",
+    "/service-areas/allen-tx/storm-damage-restoration/",
+    "/service-areas/caddo-mills-tx/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/poetry-tx/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/poetry-tx/",
+    "/service-areas/poetry-tx/fire-damage-restoration/",
+    "/service-areas/poetry-tx/mold-remediation/",
+    "/service-areas/allen-tx/general-contracting/",
+    "/service-areas/caddo-mills-tx/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/poetry-tx/contents-restoration/": [
+    "/services/contents-restoration/",
+    "/service-areas/poetry-tx/",
+    "/service-areas/poetry-tx/fire-damage-restoration/",
+    "/service-areas/poetry-tx/mold-remediation/",
+    "/service-areas/allen-tx/contents-restoration/",
+    "/service-areas/caddo-mills-tx/contents-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/poetry-tx/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/poetry-tx/",
+    "/service-areas/poetry-tx/fire-damage-restoration/",
+    "/service-areas/poetry-tx/mold-remediation/",
+    "/service-areas/allen-tx/water-cleanup/",
+    "/service-areas/caddo-mills-tx/water-cleanup/",
     "/contact/"
   ],
   "/blog/what-to-do-first-24-hours-water-damage/": [

@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-20T14:13:15.861906+00:00",
+  "generated_at": "2026-09-20T17:29:43.271675+00:00",
   "input_summary": {
     "service_count": 4,
-    "service_area_count": 15,
+    "service_area_count": 16,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -59,7 +59,8 @@
         "/service-areas/sauk-rapids-mn/",
         "/service-areas/sobieski-mn/",
         "/service-areas/st-cloud-mn/",
-        "/service-areas/swanville-mn/"
+        "/service-areas/swanville-mn/",
+        "/service-areas/upsala-mn/"
       ]
     },
     {
@@ -140,7 +141,8 @@
         "/service-areas/sauk-rapids-mn/",
         "/service-areas/sobieski-mn/",
         "/service-areas/st-cloud-mn/",
-        "/service-areas/swanville-mn/"
+        "/service-areas/swanville-mn/",
+        "/service-areas/upsala-mn/"
       ]
     },
     {
@@ -1022,6 +1024,47 @@
         "/service-areas/swanville-mn/storm-damage-restoration/",
         "/service-areas/swanville-mn/water-cleanup/",
         "/service-areas/swanville-mn/general-contracting/",
+        "/service-areas/baxter-mn/",
+        "/service-areas/brainerd-mn/",
+        "/service-areas/elmdale-mn/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/upsala-mn/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Upsala, MN | Heritage Restoration LLC",
+      "h1": "Restoration Services in Upsala",
+      "meta_description": "Serving Upsala, MN with water, fire, mold, and storm damage restoration. IICRC-certified team. Call (320) 733-8868.",
+      "primary_keyword": "restoration services upsala",
+      "secondary_keywords": [
+        "upsala restoration company",
+        "damage restoration upsala",
+        "upsala disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/upsala-mn/water-damage-restoration/",
+        "/service-areas/upsala-mn/storm-damage-restoration/",
+        "/service-areas/upsala-mn/water-cleanup/",
+        "/service-areas/upsala-mn/general-contracting/",
         "/service-areas/baxter-mn/",
         "/service-areas/brainerd-mn/",
         "/service-areas/elmdale-mn/"
@@ -3500,6 +3543,183 @@
         "/service-areas/swanville-mn/",
         "/service-areas/swanville-mn/water-damage-restoration/",
         "/service-areas/swanville-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/water-cleanup/",
+        "/service-areas/brainerd-mn/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/upsala-mn/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Upsala, MN | Heritage Restoration LLC",
+      "h1": "Water Damage Restoration in Upsala",
+      "meta_description": "Water damage restoration in Upsala, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "water damage restoration upsala",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/upsala-mn/",
+        "/service-areas/upsala-mn/storm-damage-restoration/",
+        "/service-areas/upsala-mn/water-cleanup/",
+        "/service-areas/baxter-mn/water-damage-restoration/",
+        "/service-areas/brainerd-mn/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/upsala-mn/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Upsala, MN | Heritage Restoration LLC",
+      "h1": "Storm Damage Restoration in Upsala",
+      "meta_description": "Storm damage restoration in Upsala, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "storm damage restoration upsala",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/upsala-mn/",
+        "/service-areas/upsala-mn/water-damage-restoration/",
+        "/service-areas/upsala-mn/water-cleanup/",
+        "/service-areas/baxter-mn/storm-damage-restoration/",
+        "/service-areas/brainerd-mn/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/upsala-mn/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Upsala, MN | Heritage Restoration LLC",
+      "h1": "Renovations, Remodels and General Contracting in Upsala",
+      "meta_description": "Renovations, remodels and general contracting in Upsala, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "renovations, remodels and general contracting upsala",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/upsala-mn/",
+        "/service-areas/upsala-mn/water-damage-restoration/",
+        "/service-areas/upsala-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/general-contracting/",
+        "/service-areas/brainerd-mn/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/upsala-mn/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Upsala, MN | Heritage Restoration LLC",
+      "h1": "Water Cleanup in Upsala",
+      "meta_description": "Water cleanup in Upsala, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "emergency water cleanup upsala",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/upsala-mn/",
+        "/service-areas/upsala-mn/water-damage-restoration/",
+        "/service-areas/upsala-mn/storm-damage-restoration/",
         "/service-areas/baxter-mn/water-cleanup/",
         "/service-areas/brainerd-mn/water-cleanup/",
         "/contact/"
