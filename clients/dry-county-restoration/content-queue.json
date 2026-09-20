@@ -444,7 +444,7 @@
     },
     {
       "id": "2026-09-17-smoke-damage-restoration",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-17T20:30:00Z",
       "written_at": null,
       "post_url": null,
@@ -482,8 +482,7 @@
         "https://www.iicrc.org/page/IICRCS700",
         "https://www.usfa.fema.gov/prevention/home-fires/after-a-fire/"
       ],
-      "notes": "Biggest uncovered commercial gap found this run: 1600/mo at KD 20 with CPC 31.88 and NO page in the url-plan targeting smoke or soot. SERVICE-FIT FLAG: smoke-damage-restoration and soot-removal are catalog slugs that are NOT in this client's plan-input services[], so this is written as a sub-topic of the in-plan fire-damage-restoration service and tagged that way. Do not promise smoke remediation as a standalone service line. Client holds IICRC WRT/ASD/AMRT but NOT FSRT/OCT; keep claims to their actual certifications. Recommend the team add smoke-damage-restoration to plan-input and build a service page.",
-      "banked_at": "2026-09-17T22:13:26.016223+00:00"
+      "notes": "Biggest uncovered commercial gap found this run: 1600/mo at KD 20 with CPC 31.88 and NO page in the url-plan targeting smoke or soot. SERVICE-FIT FLAG: smoke-damage-restoration and soot-removal are catalog slugs that are NOT in this client's plan-input services[], so this is written as a sub-topic of the in-plan fire-damage-restoration service and tagged that way. Do not promise smoke remediation as a standalone service line. Client holds IICRC WRT/ASD/AMRT but NOT FSRT/OCT; keep claims to their actual certifications. Recommend the team add smoke-damage-restoration to plan-input and build a service page."
     },
     {
       "id": "2026-09-17-fire-damage-restoration-cost",

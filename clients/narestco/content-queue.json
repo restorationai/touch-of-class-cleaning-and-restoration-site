@@ -1015,7 +1015,7 @@
     },
     {
       "id": "2026-08-26-sewage-backup-in-basement",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-26T08:30:38Z",
       "written_at": null,
       "post_url": null,
@@ -1046,8 +1046,7 @@
         "https://www.iicrc.org/page/IICRCS500",
         "https://www.cdc.gov/mold/php/about/index.html"
       ],
-      "notes": "Category 3 black water: lead with the health/safety warning and the 24-48 hour response window. Sensitive-content care (contamination, health). Pair with the sewage cleanup and basement flooding cleanup service pages.",
-      "banked_at": "2026-09-17T22:13:26.022311+00:00"
+      "notes": "Category 3 black water: lead with the health/safety warning and the 24-48 hour response window. Sensitive-content care (contamination, health). Pair with the sewage cleanup and basement flooding cleanup service pages."
     },
     {
       "id": "2026-08-26-does-homeowners-insurance-cover-sewage-backup",
