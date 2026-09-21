@@ -1,6 +1,6 @@
 {
-  "last_kind": "geo",
-  "cycle_pos": 0,
+  "last_kind": "blog",
+  "cycle_pos": 1,
   "geo_cursor": 4,
   "history": [
     {
@@ -50,6 +50,14 @@
       "service": "water-damage-restoration",
       "city": "Escondido",
       "youtube_id": "wbaStPa_ipM"
+    },
+    {
+      "ts": "2026-09-21T16:40:48.187366+00:00",
+      "kind": "blog",
+      "post": "water-damage-restoration-cost-ca",
+      "service": null,
+      "city": null,
+      "youtube_id": "tgg02S6Oj-E"
     }
   ]
 }
