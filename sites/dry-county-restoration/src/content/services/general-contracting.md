@@ -49,19 +49,6 @@ On kitchen remodels specifically, the detail that gets missed most often is vent
 
 Insurance adjusters look for like-for-like replacement documented with material specifications, not just line items. If your pre-loss kitchen had 42-inch upper cabinets and the rebuild scope lists standard 36-inch, that's a depreciation dispute waiting to happen.
 
-## What does Renovations, Remodels and General Contracting cost?
-
-Typical costs vary widely depending on scope, material selections, and whether the project is post-damage (partially covered by insurance) or elective. Most homeowners pay somewhere in the ranges below for common project types, these are industry-typical figures, not Dry County Restoration quotes, and your actual cost will depend on existing conditions, finish level, and permit requirements. Every loss and every remodel is different; Dry County Restoration provides a written scope of work before any work begins. Homeowners insurance typically covers post-damage reconstruction to pre-loss condition, it does not cover elective upgrades, but the rebuild scope can be structured to separate covered work from owner-elected improvements.
-
-| Scenario | Typical range |
-|---|---|
-| Single bathroom remodel (mid-grade finishes) | $8,000 – $18,000 |
-| Kitchen remodel, layout unchanged | $20,000 – $55,000 |
-| Post-damage room rebuild (water or fire, single room) | $12,000 – $35,000 |
-| Post-damage multi-room reconstruction | $40,000 – $120,000+ |
-| Whole-home renovation or addition | $80,000 – $250,000+ |
-| ADU conversion (garage or attached space) | $60,000 – $140,000 |
-
 ## Seasonal and regional considerations
 
 Southern California's dry season brings elevated wildfire risk, and post-fire reconstruction in the Inland Empire has its own permitting and debris-clearance sequencing, county environmental requirements for ash and debris removal must be satisfied before structural rebuilding can begin. If your property was affected by a declared disaster event, there may be expedited permitting pathways available through the City of Corona or Riverside County; we track those windows and can advise on timing.

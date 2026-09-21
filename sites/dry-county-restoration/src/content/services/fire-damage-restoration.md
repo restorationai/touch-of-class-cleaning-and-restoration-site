@@ -49,21 +49,6 @@ A second common failure is skipping the HVAC system. Smoke travels through retur
 
 Insurance adjusters look for a documented scope with line-item detail: which surfaces were cleaned, what method was used, what equipment was deployed, and what the pre- and post-treatment conditions were. A vague invoice without supporting documentation is the fastest path to a reduced or disputed claim. Dry County Restoration's OSHA-trained team produces the kind of structured documentation that holds up through the full claims process.
 
-## What does fire damage restoration cost?
-
-Typical costs run across a wide range depending on the size of the fire, the materials involved, and how far smoke traveled through the structure. Most homeowners pay somewhere in the ranges below, these are industry-typical figures, not quotes.
-
-| Scenario | Typical range |
-|---|---|
-| Single-room kitchen fire, limited smoke spread | $3,500 – $8,000 |
-| Multi-room fire with moderate smoke damage | $8,000 – $25,000 |
-| Whole-house smoke and soot contamination, no structural loss | $15,000 – $40,000 |
-| Partial structural loss with fire and smoke damage | $40,000 – $100,000+ |
-| Contents pack-out and off-site cleaning (per job) | $2,500 – $12,000 |
-| HVAC cleaning following fire event | $800 – $3,500 |
-
-Every fire loss is different, scope, materials, and smoke migration all affect the final number, and Dry County Restoration provides a written scope before any work begins. Homeowners insurance typically covers fire damage restoration in full, including contents cleaning and temporary board-up, subject to your deductible and policy limits.
-
 ## Seasonal and regional considerations
 
 California's fire season extends well into fall, and the Santa Ana winds that push through the Inland Empire can drive embers and smoke into structures that weren't directly in a fire's path. Homes in Corona and the surrounding Riverside County foothills, particularly those near wildland-urban interface areas, face a distinct risk profile: exterior soot and ash deposition from nearby brush fires can infiltrate HVAC systems and attic spaces even when the structure itself is undamaged. This type of loss is frequently underestimated because there's no visible char, but the smoke chemistry is identical and requires the same systematic cleaning response.

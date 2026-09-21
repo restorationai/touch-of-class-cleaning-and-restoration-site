@@ -42,9 +42,9 @@ Most denied renters claims fall into one of four categories, and knowing them ah
 
 **Gradual leaks and neglect.** If a slow drip under your bathroom sink has been going for weeks and eventually warps your cabinet and flooring, that is considered a maintenance issue. Insurers call this "long-term seepage" and it is excluded from virtually every standard policy. The logic: you or your landlord should have caught it. Document any leaks you report to your landlord in writing, that paper trail matters if there is a dispute later.
 
-**Sewage backup and water backup.** A sewer line backup or a drain that reverses is not the same thing as a burst pipe in most policy language. Many standard renters policies exclude water backup entirely. You can usually add a water backup rider for $50-100 per year, worth it if you are in a basement unit or an older building. If raw sewage entered your unit, that is a [Category 3 water event](https://www.iicrc.org), also called black water, and it requires professional [sewage cleanup](/services/sewage-cleanup/), not a DIY mop job.
+**Sewage backup and water backup.** A sewer line backup or a drain that reverses is not the same thing as a burst pipe in most policy language. Many standard renters policies exclude water backup entirely. You can usually add a water backup rider for a modest annual premium, worth it if you are in a basement unit or an older building. If raw sewage entered your unit, that is a [Category 3 water event](https://www.iicrc.org), also called black water, and it requires professional [sewage cleanup](/services/sewage-cleanup/), not a DIY mop job.
 
-**Mold from a covered event.** Some policies cover mold remediation if the mold resulted directly from a covered water event and you reported it promptly. Others cap mold coverage at $1,000-$5,000 or exclude it entirely. Read your declarations page carefully. If mold appears after a water loss, document it immediately and report it to your insurer before any remediation begins.
+**Mold from a covered event.** Some policies cover mold remediation if the mold resulted directly from a covered water event and you reported it promptly. Others cap mold coverage at a low limit or exclude it entirely. Read your declarations page carefully. If mold appears after a water loss, document it immediately and report it to your insurer before any remediation begins.
 
 **Your landlord's property.** The building structure, walls, flooring that is part of the unit, appliances the landlord owns, and common areas are covered under the landlord's dwelling policy, not yours. If the ceiling caves in because of a roof leak, your landlord files the claim, not you. You file for your damaged belongings.
 
@@ -78,7 +78,7 @@ California's high-density housing stock, apartment complexes, condos, multi-fami
 
 ## Should you file a renters insurance claim for water damage?
 
-Not every water event is worth a claim. Filing a claim can raise your premium at renewal, and if your deductible is $500-$1,000, a small loss may not clear it anyway.
+Not every water event is worth a claim. Filing a claim can raise your premium at renewal, and if your deductible is high enough, a small loss may not clear it anyway.
 
 File a claim when:
 - Your personal property loss clearly exceeds your deductible

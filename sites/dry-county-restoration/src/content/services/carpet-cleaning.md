@@ -47,21 +47,6 @@ For commercial carpet cleaning, pile distortion from high foot traffic and impro
 
 On insurance claims involving water damage, adjusters look for documentation that distinguishes pre-existing soil and staining from damage caused by the loss event, photographs taken before cleaning begins are part of a complete claim file.
 
-## What does carpet cleaning cost?
-
-Typical costs vary based on square footage, fiber type, soil level, and whether sanitization or odor treatment is included. Most homeowners pay somewhere in the ranges below for professional carpet cleaning, these are industry-typical figures, not quotes from Dry County Restoration.
-
-| Scenario | Typical range |
-|---|---|
-| Single room, lightly soiled | $75 – $150 |
-| Whole home (3–4 bedrooms), standard cleaning | $250 – $500 |
-| Whole home with pet odor treatment | $400 – $800 |
-| Commercial space (per 1,000 sq ft) | $150 – $350 |
-| Area rug cleaning (per rug, plant-cleaned) | $100 – $300 |
-| Water-damaged carpet extraction and sanitization | $300 – $900+ |
-
-Every job is different, fiber type, soil load, and the presence of biological contamination all affect the scope. Dry County Restoration provides a written scope before any work begins. Homeowners insurance typically does not cover routine cleaning, but it does cover carpet cleaning and extraction when the damage results from a covered peril such as a burst pipe, appliance overflow, or storm intrusion, in those cases, the cleaning is part of the water damage claim.
-
 ## Seasonal and regional considerations
 
 Corona sits in the Inland Empire, where summer temperatures routinely push past 100°F and relative humidity drops well below 20 percent on many days. That low humidity is an advantage for drying times, carpets that would take six hours to dry in a coastal climate often dry in two to three hours here with good airflow. The tradeoff is that dry, dusty conditions mean fine particulate, including construction dust from the area's ongoing residential development, accumulates in carpet fibers faster than in wetter climates. Homes near the 15 or 91 freeway corridors tend to see heavier particulate loading from diesel traffic. Spring and fall Santa Ana wind events push additional dust and allergens indoors, making post-season cleaning a practical choice for households with allergy or asthma concerns.

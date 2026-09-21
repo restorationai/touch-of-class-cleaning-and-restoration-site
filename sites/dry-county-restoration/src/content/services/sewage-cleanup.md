@@ -49,21 +49,6 @@ Insurance adjusters on sewage losses look specifically for documentation of the 
 
 Dry County Restoration is an IICRC Certified Firm with technicians holding IICRC Water Restoration Technician (WRT) and Applied Structural Drying (ASD) credentials, and the team is OSHA trained. License #1083555. Documentation is built into every step of the process, not added afterward.
 
-## What does sewage cleanup and sanitization cost?
-
-Typical costs for sewage backup cleanup vary significantly based on how far the water traveled, what materials were affected, and how long the sewage sat before extraction began. Most homeowners pay somewhere in the ranges below, these are industry-typical figures, not Dry County Restoration quotes, and every loss is different.
-
-| Scenario | Typical industry range |
-|---|---|
-| Single bathroom, minimal spread, hard surfaces only | $1,500 – $3,500 |
-| Single room with carpet and drywall contact | $3,000 – $6,500 |
-| Finished basement, partial flooding | $5,000 – $12,000 |
-| Finished basement, full floor coverage | $10,000 – $25,000+ |
-| Crawl space sewage intrusion | $4,000 – $14,000 |
-| Septic overflow, exterior and interior affected | $6,000 – $20,000+ |
-
-Dry County Restoration provides a written scope of work before any work begins, you will not receive a verbal estimate and a surprise invoice. Homeowners insurance typically covers sudden and accidental sewage backup losses, particularly when the cause is a sewer line failure or a covered peril; coverage for gradual or maintenance-related failures varies by policy and carrier.
-
 ## Seasonal and regional considerations
 
 In the Inland Empire and Corona specifically, the most common driver of municipal sewer backups is winter storm surges, heavy rainfall overwhelming aging clay-pipe laterals that run under homes built in the 1950s through 1980s. Those older pipes are prone to root intrusion and joint separation, and a storm event that pushes the city main to capacity can force sewage back up through the lowest fixture in the house, usually a floor drain or ground-floor toilet, within minutes of peak flow.

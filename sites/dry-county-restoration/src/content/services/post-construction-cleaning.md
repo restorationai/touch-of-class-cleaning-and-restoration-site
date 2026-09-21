@@ -49,21 +49,6 @@ For commercial projects or properties going through a certificate-of-occupancy i
 
 On renovation projects that also involved water damage or mold remediation, the cleaning scope needs to account for post-remediation requirements, surfaces that were encapsulated or treated may have specific cleaning restrictions, and disturbing them improperly can void the remediation work.
 
-## What does post-construction and specialty cleaning cost?
-
-Typical costs for post-construction and specialty cleaning vary based on square footage, the number of trades involved, surface complexity, and whether specialty treatments (adhesive removal, grout haze removal, HEPA air scrubbing) are needed. Most residential projects run in the ranges below, these are industry-typical figures, not quotes.
-
-| Scenario | Typical range |
-|---|---|
-| Single room renovation, standard surfaces | $300 – $700 |
-| Full residential interior, new construction | $1,500 – $4,500 |
-| Full residential interior, heavy trades (tile, drywall, hardwood) | $3,500 – $7,500 |
-| Commercial space, pre-CO inspection clean | $2,500 – $10,000+ |
-| Post-remediation specialty clean (mold or water) | $800 – $3,000 |
-| Vacant property deep clean, move-in ready | $600 – $2,000 |
-
-Every project is different, and Dry County Restoration provides a written scope before any work begins. Homeowners insurance typically does not cover routine post-construction cleaning, but it may cover specialty cleaning that is part of a documented water damage, mold, or fire restoration claim, your adjuster can confirm coverage based on your policy language.
-
 ## Seasonal and regional considerations
 
 In the Inland Empire, construction activity peaks in spring and early summer, and the dry desert air means drywall dust and fine particulate stay airborne longer than in more humid climates. That same low humidity accelerates moisture loss from freshly installed hardwood and grout, which can affect how cleaning chemistry performs, products that need dwell time may dry too quickly in hot, low-humidity conditions. Scheduling the final clean during cooler morning hours, or keeping HVAC off during the cleaning process, helps chemistry work as intended and keeps disturbed dust from recirculating through a running system.

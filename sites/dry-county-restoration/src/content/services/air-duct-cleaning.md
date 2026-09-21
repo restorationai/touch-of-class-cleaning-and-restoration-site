@@ -51,21 +51,6 @@ For insurance-related duct cleaning, most often triggered by fire or smoke damag
 
 Fiberboard duct board interiors that show active mold growth typically cannot be cleaned to an acceptable standard and require replacement, a scope determination that should be made before cleaning begins, not after a brush run has further damaged the liner.
 
-## What does air duct cleaning cost?
-
-Typical costs for residential HVAC duct cleaning vary based on system size, duct material, contamination level, and whether sanitization or dryer vent cleaning is included. Most homeowners pay somewhere in the ranges below for a standard cleaning; losses involving smoke, mold, or water damage to the duct system will generally fall toward the higher end or exceed these ranges depending on the remediation scope required.
-
-| Scenario | Typical industry range |
-|---|---|
-| Standard residential cleaning, 1–2 story home | $350 – $700 |
-| Large home or complex duct layout | $600 – $1,100 |
-| Dryer vent cleaning (added to duct cleaning) | $90 – $175 |
-| Air duct sanitization (antimicrobial treatment) | $150 – $400 |
-| Duct cleaning following smoke or fire damage | $800 – $2,500+ |
-| Fiberboard duct board replacement (per linear foot) | $15 – $35 |
-
-Every system is different, and Dry County Restoration provides a written scope of work before any cleaning begins so you know exactly what is included. Homeowners insurance typically does not cover routine maintenance cleaning, but does cover duct cleaning when it is a documented result of a covered loss, fire, smoke, or water damage that entered the HVAC system.
-
 ## Seasonal and regional considerations
 
 In the Inland Empire, HVAC systems run hard. Summers in Corona regularly push past 100°F, meaning air handlers cycle almost continuously from June through September. That sustained runtime accelerates debris accumulation on blower wheels and filter media, and it means any microbial contamination in the duct system has months of warm, circulated air to spread through.

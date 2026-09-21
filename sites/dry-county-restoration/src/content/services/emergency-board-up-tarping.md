@@ -49,21 +49,6 @@ A second common failure is incomplete coverage. Crews in a hurry will board the 
 
 Finally, documentation quality matters as much as the physical work. An adjuster cannot authorize coverage for secondary damage that occurred after board-up if there's no timestamped record showing what was secured and when. Thorough pre- and post-board-up photography is not optional, it's the evidentiary foundation of the claim.
 
-## What does emergency board-up and tarping cost?
-
-Typical costs run from a few hundred dollars for a single broken window to several thousand for a fire-damaged structure with multiple roof and wall breaches. Most homeowners pay somewhere in the ranges below, based on industry figures, your actual scope depends on the number of openings, roof pitch and accessibility, and whether hazmat conditions (asbestos, lead paint in older construction) affect the work.
-
-| Scenario | Typical industry range |
-|---|---|
-| Single window board-up | $150 – $400 |
-| Multiple windows and exterior door | $400 – $900 |
-| Small roof tarp (single section, accessible pitch) | $500 – $1,500 |
-| Large or steep-pitch roof tarping | $1,500 – $3,500 |
-| Fire-damaged structure, full board-up and tarping | $2,500 – $6,000+ |
-| Commercial property, multiple breaches | $3,000 – $8,000+ |
-
-Every loss is different, and Dry County Restoration provides a written scope before any work begins. Homeowners insurance typically covers emergency board-up and tarping as part of the dwelling protection clause when the damage results from a covered peril, fire, wind, vandalism, and most carriers expect the work to be performed promptly to prevent further loss, which is exactly what this service is designed to do.
-
 ## Seasonal and regional considerations
 
 In the Inland Empire and the Corona area specifically, two seasonal patterns drive the majority of emergency board-up calls. Santa Ana wind events, most frequent from October through March, generate the roof damage and broken-window calls that arrive in clusters after a single overnight wind. A structure left open after that kind of event faces immediate re-exposure if the next Santa Ana follows within days, which is common.

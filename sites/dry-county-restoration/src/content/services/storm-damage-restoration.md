@@ -55,19 +55,6 @@ The most common failure in storm restoration isn't the emergency response, it's 
 
 **Not all wind damage is equal under your policy.** Wind-driven rain that enters through an opening created by the storm is typically covered differently than water that backs up through a drain overwhelmed by rainfall. How the loss is characterized in the initial documentation affects how the claim is processed.
 
-## What does Storm Damage Restoration cost?
-
-Typical costs for storm damage restoration depend heavily on the type of storm event, the size of the affected area, and how much secondary damage, water intrusion, structural movement, debris impact, occurred before the home was stabilized. Most homeowners pay somewhere in the ranges below, based on industry-typical figures; every loss is different, and Dry County Restoration provides a written scope before any work begins so you know exactly what is being done and why. Homeowners insurance typically covers sudden storm-related damage including wind, hail, falling trees, and wind-driven rain intrusion, though flood damage from rising water requires a separate flood policy.
-
-| Scenario | Typical industry range |
-|---|---|
-| Emergency tarping and board-up only | $500 – $1,800 |
-| Tree removal from structure (single tree, no major structural damage) | $1,500 – $5,000 |
-| Roof damage repair with interior drying (moderate, single story) | $4,000 – $12,000 |
-| Wind-driven rain intrusion with structural drying (partial home) | $3,500 – $9,000 |
-| Whole-roof replacement with interior water damage and reconstruction | $18,000 – $45,000+ |
-| Catastrophic multi-system loss (roof, windows, structural, interior) | $40,000 – $100,000+ |
-
 ## Seasonal and regional considerations
 
 Corona and the broader Inland Empire sit at the intersection of two distinct storm patterns that most coastal California markets don't share.

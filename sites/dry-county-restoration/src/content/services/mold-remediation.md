@@ -49,21 +49,6 @@ Insurance adjusters and industrial hygienists look for a written scope of work t
 
 OSHA-trained crews also recognize when a project involves materials that require additional precautions, older homes in Corona and the Inland Empire built before the late 1970s may have asbestos-containing materials in floor tile, joint compound, or popcorn ceilings that become a regulated concern the moment remediation disturbs them.
 
-## What does mold remediation cost?
-
-Typical costs vary significantly based on the size of the affected area, the materials involved, and whether the moisture source requires repair before remediation can begin. Most homeowners pay somewhere in the ranges below, these are industry-typical figures, not Dry County Restoration quotes.
-
-| Scenario | Typical range |
-|---|---|
-| Single wall cavity, limited growth | $1,200 – $3,500 |
-| Bathroom or laundry room, moderate affected area | $2,500 – $6,000 |
-| Finished basement with concealed growth | $5,000 – $15,000 |
-| Attic mold (roof leak or ventilation failure) | $3,000 – $10,000 |
-| Crawl space with widespread joist colonization | $4,000 – $12,000 |
-| Whole-house or multi-room involvement | $10,000 – $30,000+ |
-
-Every loss is different, and Dry County Restoration provides a written scope of work before any remediation begins so you know exactly what is included. Homeowners insurance coverage for mold varies by policy, most policies cover mold that results directly from a covered peril (a burst pipe, storm-driven water intrusion) but exclude mold from long-term neglected leaks or maintenance issues. We document the loss thoroughly to support your claim regardless of carrier.
-
 ## Seasonal and regional considerations
 
 Corona sits at the edge of the Inland Empire where marine layer from the coast compresses against the foothills, creating humidity swings that are less predictable than the desert further east. Late spring and early fall can bring overnight relative humidity high enough to sustain mold growth in poorly ventilated spaces, attics with inadequate ridge venting, crawl spaces without vapor barriers, and interior wall cavities adjacent to north-facing exterior walls are the most common sites. Summer monsoon moisture pushing in from the southeast adds another window of elevated risk, particularly in older wood-frame construction that was not built with modern vapor management in mind.

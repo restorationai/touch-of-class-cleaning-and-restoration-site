@@ -59,21 +59,6 @@ Insurance adjusters look closely at the contents inventory for completeness and 
 
 Ozone treatment applied without removing items from the space first is another common shortcut that backfires: high ozone concentrations can degrade rubber seals, bleach certain dyes, and damage electronics if exposure time is not controlled.
 
-## What does Contents Restoration and Storage cost?
-
-Typical costs depend heavily on the volume of items affected, the type of loss (smoke, water, mold, or combined), and how long storage is required. Most homeowners find that professional contents restoration costs significantly less than replacing belongings outright, which is why carriers generally prefer it.
-
-| Scenario | Typical industry range |
-|---|---|
-| Single room, light smoke, pack-out, clean, return | $1,500 – $4,000 |
-| Whole-home pack-out, fire or water loss | $8,000 – $25,000+ |
-| Climate-controlled storage (per month, moderate volume) | $300 – $900/month |
-| Document and photo recovery (freeze-drying) | $500 – $3,500 |
-| Electronics assessment and cleaning | $200 – $1,500 per item |
-| Specialty items (artwork, antiques, collectibles) | Quoted individually |
-
-These are typical industry figures, every loss is different, and Dry County Restoration provides a written scope of work before any work begins. Homeowners insurance typically covers contents restoration and storage as part of a covered peril claim, including off-site storage costs incurred while the home is uninhabitable, your policy's personal property and additional living expenses provisions are the relevant sections to review with your adjuster.
-
 ## Seasonal and regional considerations
 
 In the Inland Empire, the combination of dry Santa Ana wind events and older wood-frame construction in established Corona neighborhoods creates a fire-risk window that runs roughly from late summer through early winter. Smoke and soot damage from wildfires, even fires burning miles away, can infiltrate homes through HVAC systems and deposit fine particulate on surfaces throughout the interior, affecting contents in rooms that show no visible char or structural damage.

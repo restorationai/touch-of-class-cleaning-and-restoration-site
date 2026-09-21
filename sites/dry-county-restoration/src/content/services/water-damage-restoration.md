@@ -47,21 +47,6 @@ A second common problem is under-equipping a job to reduce cost. Drying is a fun
 
 Insurance adjusters reviewing water damage claims look specifically at daily moisture logs, equipment placement documentation, and whether the drying scope matched the mapped wet zone. Gaps in that documentation create disputes at settlement. The IICRC WRT and ASD certifications held by Dry County Restoration's crew reflect training in exactly this documentation and drying science, not just equipment operation.
 
-## What does Water Damage Restoration cost?
-
-Typical costs for water damage restoration vary significantly based on the size of the affected area, the category of water involved, and whether structural materials need to be removed. Most homeowners pay somewhere in the ranges below, these are industry-typical figures, not quotes, and every loss is different; Dry County Restoration provides a written scope before work begins.
-
-| Scenario | Typical industry range |
-|---|---|
-| Single room, clean water (Category 1) | $1,200 – $3,500 |
-| Multi-room, clean water | $3,500 – $7,500 |
-| Single room, gray water (Category 2) | $2,500 – $5,500 |
-| Sewage or floodwater (Category 3), contained area | $4,000 – $9,000 |
-| Crawl space or subfloor saturation | $2,000 – $6,000 |
-| Full-floor loss with structural drying and demo | $7,000 – $20,000+ |
-
-Homeowners insurance typically covers sudden and accidental water losses, a burst pipe, appliance failure, or roof leak that enters the structure, but generally excludes gradual leaks and ground-level flooding, which requires a separate flood policy.
-
 ## Seasonal and regional considerations
 
 Corona and the surrounding Inland Empire sit in a semi-arid climate, but that doesn't make water damage rare, it changes where it comes from. The region's older housing stock, much of it built in the postwar and 1970s–1990s boom periods, carries aging galvanized and copper supply lines that fail without warning. Hot, dry summers push AC systems hard, and condensate drain failures are a consistent source of Category 1 losses inside walls and ceilings. When winter storms do arrive, particularly atmospheric river events that hit the foothills, they arrive fast and overwhelm drainage systems that aren't built for sustained rainfall. Hillside and canyon-adjacent properties in areas like Temescal Valley face soil saturation and intrusion risk during those events that flat-lot homes don't.
