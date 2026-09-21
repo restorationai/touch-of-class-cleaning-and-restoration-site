@@ -1,7 +1,7 @@
 {
-  "last_kind": "blog",
-  "cycle_pos": 1,
-  "geo_cursor": 4,
+  "last_kind": "geo",
+  "cycle_pos": 2,
+  "geo_cursor": 5,
   "history": [
     {
       "ts": "2026-07-08T17:27:14.746164+00:00",
@@ -58,6 +58,14 @@
       "service": null,
       "city": null,
       "youtube_id": "tgg02S6Oj-E"
+    },
+    {
+      "ts": "2026-09-21T20:20:39.310190+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "water-damage-restoration",
+      "city": "Encinitas",
+      "youtube_id": "W3dOTJU_BWA"
     }
   ]
 }
