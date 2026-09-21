@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-21T14:12:51.832818+00:00",
+  "generated_at": "2026-09-21T19:40:13.848917+00:00",
   "input_summary": {
     "service_count": 11,
-    "service_area_count": 24,
+    "service_area_count": 25,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -75,6 +75,7 @@
         "/service-areas/mililani-hi/",
         "/service-areas/mililani-town-hi/",
         "/service-areas/pearl-city-hi/",
+        "/service-areas/royal-kunia-hi/",
         "/service-areas/urban-honolulu-hi/",
         "/service-areas/waiahole-waikane-hi/",
         "/service-areas/waimanalo-hi/"
@@ -172,6 +173,7 @@
         "/service-areas/mililani-hi/",
         "/service-areas/mililani-town-hi/",
         "/service-areas/pearl-city-hi/",
+        "/service-areas/royal-kunia-hi/",
         "/service-areas/urban-honolulu-hi/",
         "/service-areas/waiahole-waikane-hi/",
         "/service-areas/waimanalo-hi/"
@@ -1947,6 +1949,54 @@
         "/service-areas/mililani-town-hi/carpet-cleaning/",
         "/service-areas/mililani-town-hi/upholstery-cleaning/",
         "/service-areas/mililani-town-hi/flood-equipment-rental/",
+        "/service-areas/aiea-hi/",
+        "/service-areas/aina-haina-hi/",
+        "/service-areas/diamond-head-hi/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/royal-kunia-hi/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Royal Kunia, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Restoration Services in Royal Kunia",
+      "meta_description": "Serving Royal Kunia, HI with 24/7 water, fire, mold, and storm damage restoration. Experienced team. Call (808) 349-3407.",
+      "primary_keyword": "restoration services royal kunia",
+      "secondary_keywords": [
+        "royal kunia restoration company",
+        "damage restoration royal kunia",
+        "royal kunia disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/royal-kunia-hi/mold-remediation/",
+        "/service-areas/royal-kunia-hi/water-damage-restoration/",
+        "/service-areas/royal-kunia-hi/commercial-restoration/",
+        "/service-areas/royal-kunia-hi/flood-damage-restoration/",
+        "/service-areas/royal-kunia-hi/sewage-cleanup/",
+        "/service-areas/royal-kunia-hi/water-cleanup/",
+        "/service-areas/royal-kunia-hi/burst-pipe-repair/",
+        "/service-areas/royal-kunia-hi/mold-inspection-testing/",
+        "/service-areas/royal-kunia-hi/carpet-cleaning/",
+        "/service-areas/royal-kunia-hi/upholstery-cleaning/",
+        "/service-areas/royal-kunia-hi/flood-equipment-rental/",
         "/service-areas/aiea-hi/",
         "/service-areas/aina-haina-hi/",
         "/service-areas/diamond-head-hi/"
@@ -13102,6 +13152,491 @@
         "/service-areas/mililani-town-hi/",
         "/service-areas/mililani-town-hi/mold-remediation/",
         "/service-areas/mililani-town-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/water-cleanup/",
+        "/service-areas/aina-haina-hi/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/royal-kunia-hi/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Royal Kunia, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Water Damage Restoration in Royal Kunia",
+      "meta_description": "24/7 water damage restoration in Royal Kunia, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "water damage restoration royal kunia",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/royal-kunia-hi/",
+        "/service-areas/royal-kunia-hi/mold-remediation/",
+        "/service-areas/royal-kunia-hi/commercial-restoration/",
+        "/service-areas/aiea-hi/water-damage-restoration/",
+        "/service-areas/aina-haina-hi/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/royal-kunia-hi/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Royal Kunia, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Flood Damage Restoration in Royal Kunia",
+      "meta_description": "24/7 flood damage restoration in Royal Kunia, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "flood damage restoration royal kunia",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/royal-kunia-hi/",
+        "/service-areas/royal-kunia-hi/mold-remediation/",
+        "/service-areas/royal-kunia-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/flood-damage-restoration/",
+        "/service-areas/aina-haina-hi/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/royal-kunia-hi/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Royal Kunia, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Burst Pipe Cleanup and Repair in Royal Kunia",
+      "meta_description": "24/7 burst pipe cleanup and repair in Royal Kunia, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "burst pipe cleanup and repair royal kunia",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/royal-kunia-hi/",
+        "/service-areas/royal-kunia-hi/mold-remediation/",
+        "/service-areas/royal-kunia-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/burst-pipe-repair/",
+        "/service-areas/aina-haina-hi/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/royal-kunia-hi/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Royal Kunia, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Sewage Cleanup and Sanitization in Royal Kunia",
+      "meta_description": "24/7 sewage cleanup and sanitization in Royal Kunia, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "sewage cleanup and sanitization royal kunia",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/royal-kunia-hi/",
+        "/service-areas/royal-kunia-hi/mold-remediation/",
+        "/service-areas/royal-kunia-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/sewage-cleanup/",
+        "/service-areas/aina-haina-hi/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/royal-kunia-hi/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Royal Kunia, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Mold Remediation in Royal Kunia",
+      "meta_description": "24/7 mold remediation in Royal Kunia, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "mold remediation royal kunia",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/royal-kunia-hi/",
+        "/service-areas/royal-kunia-hi/water-damage-restoration/",
+        "/service-areas/royal-kunia-hi/commercial-restoration/",
+        "/service-areas/aiea-hi/mold-remediation/",
+        "/service-areas/aina-haina-hi/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/royal-kunia-hi/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Royal Kunia, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Mold Inspection and Testing in Royal Kunia",
+      "meta_description": "24/7 mold inspection and testing in Royal Kunia, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "mold inspection and testing royal kunia",
+      "secondary_keywords": [
+        "mold inspection",
+        "mold testing",
+        "indoor air quality testing",
+        "mold spore testing",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/royal-kunia-hi/",
+        "/service-areas/royal-kunia-hi/mold-remediation/",
+        "/service-areas/royal-kunia-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/mold-inspection-testing/",
+        "/service-areas/aina-haina-hi/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/royal-kunia-hi/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Royal Kunia, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Carpet Cleaning in Royal Kunia",
+      "meta_description": "24/7 carpet cleaning in Royal Kunia, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "carpet cleaning royal kunia",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/royal-kunia-hi/",
+        "/service-areas/royal-kunia-hi/mold-remediation/",
+        "/service-areas/royal-kunia-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/carpet-cleaning/",
+        "/service-areas/aina-haina-hi/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/royal-kunia-hi/upholstery-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Upholstery Cleaning in Royal Kunia, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Upholstery Cleaning in Royal Kunia",
+      "meta_description": "24/7 upholstery cleaning in Royal Kunia, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "upholstery cleaning royal kunia",
+      "secondary_keywords": [
+        "sofa cleaning",
+        "couch cleaning",
+        "furniture steam cleaning",
+        "leather upholstery cleaning",
+        "fabric upholstery cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/upholstery-cleaning/",
+        "/service-areas/royal-kunia-hi/",
+        "/service-areas/royal-kunia-hi/mold-remediation/",
+        "/service-areas/royal-kunia-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/upholstery-cleaning/",
+        "/service-areas/aina-haina-hi/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/royal-kunia-hi/flood-equipment-rental/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood & Drying Equipment Rental in Royal Kunia, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Flood & Drying Equipment Rental in Royal Kunia",
+      "meta_description": "24/7 flood & drying equipment rental in Royal Kunia, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "flood & drying equipment rental royal kunia",
+      "secondary_keywords": [
+        "water damage equipment rental",
+        "dehumidifier rental",
+        "air mover rental",
+        "carpet drying fan rental",
+        "flood pump rental"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-equipment-rental/",
+        "/service-areas/royal-kunia-hi/",
+        "/service-areas/royal-kunia-hi/mold-remediation/",
+        "/service-areas/royal-kunia-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/flood-equipment-rental/",
+        "/service-areas/aina-haina-hi/flood-equipment-rental/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/royal-kunia-hi/commercial-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Commercial Restoration in Royal Kunia, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Commercial Restoration in Royal Kunia",
+      "meta_description": "24/7 commercial restoration in Royal Kunia, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "commercial restoration royal kunia",
+      "secondary_keywords": [
+        "commercial water damage",
+        "commercial fire damage",
+        "business restoration",
+        "office restoration",
+        "retail restoration"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/commercial-restoration/",
+        "/service-areas/royal-kunia-hi/",
+        "/service-areas/royal-kunia-hi/mold-remediation/",
+        "/service-areas/royal-kunia-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/commercial-restoration/",
+        "/service-areas/aina-haina-hi/commercial-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/royal-kunia-hi/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Royal Kunia, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Emergency Water Cleanup in Royal Kunia",
+      "meta_description": "24/7 emergency water cleanup in Royal Kunia, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water cleanup royal kunia",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/royal-kunia-hi/",
+        "/service-areas/royal-kunia-hi/mold-remediation/",
+        "/service-areas/royal-kunia-hi/water-damage-restoration/",
         "/service-areas/aiea-hi/water-cleanup/",
         "/service-areas/aina-haina-hi/water-cleanup/",
         "/contact/"
