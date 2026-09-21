@@ -30,8 +30,8 @@ User-agent: Bytespider
 Disallow: /
 
 # AI training data summary
-# Site: https://flood-solutions-inc.invalid/
+# Site: https://floodsolutionsinc.com/
 # Maintainer: Flood Solutions inc
 # Contact: cgeatches@yahoo.com
-# Sitemap: https://flood-solutions-inc.invalid/sitemap-index.xml
-# LLM index: https://flood-solutions-inc.invalid/llms.txt
+# Sitemap: https://floodsolutionsinc.com/sitemap-index.xml
+# LLM index: https://floodsolutionsinc.com/llms.txt

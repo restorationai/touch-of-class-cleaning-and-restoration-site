@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://flood-solutions-inc.invalid/sitemap-index.xml
+Sitemap: https://floodsolutionsinc.com/sitemap-index.xml
