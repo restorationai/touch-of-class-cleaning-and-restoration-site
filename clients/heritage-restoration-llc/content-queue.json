@@ -183,10 +183,10 @@
     },
     {
       "id": "2026-09-18-water-damage-restoration-process-st-cloud-mn",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-18T23:20:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-21T00:25:20Z",
+      "post_url": "https://heritagermn.com/blog/water-damage-restoration-process-st-cloud-mn/",
       "priority": 1,
       "primary_keyword": "water damage restoration process",
       "intent": "informational",
@@ -219,7 +219,18 @@
       ],
       "notes": "110/mo at KD 1 and genuinely uncovered: the existing timeline post answers how long, not what happens. Structure as inspection, water extraction, structural drying, cleaning and sanitizing, repair and rebuild, with the equipment named at each step (moisture meters, air movers, LGR dehumidifiers). Link the timeline post for duration instead of repeating it. Certifications to cite: IICRC WRT, ASD, FSRT, license BC807677.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-damage-restoration-process-st-cloud-mn.md",
+          "part": "body",
+          "family": "service-scope",
+          "severity": "review",
+          "matched": "mold remediation",
+          "context": "ts a water damage claim from becoming a mold remediation project. If mold is already present whe",
+          "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, storm-damage-restoration, general-contracting, water-cleanup"
+        }
+      ]
     },
     {
       "id": "2026-09-18-how-long-dry-out-walls-water-damage-brainerd-mn",
