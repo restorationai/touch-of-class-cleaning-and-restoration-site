@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Utica, MI | Flood Solutions inc"
+title: "Water Damage Restoration in Utica, MI | Flood & Fire Solutions"
 h1: "Water Damage Restoration in Utica"
 meta_description: "Water damage restoration in Utica, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "water damage restoration utica"

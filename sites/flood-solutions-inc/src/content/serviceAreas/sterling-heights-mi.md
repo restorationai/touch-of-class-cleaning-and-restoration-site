@@ -1,6 +1,6 @@
 ---
 archetype: "service-area"
-title: "Restoration Services in Sterling Heights, MI | Flood Solutions inc"
+title: "Restoration Services in Sterling Heights, MI | Flood & Fire Solutions"
 h1: "Restoration Services in Sterling Heights"
 meta_description: "Serving Sterling Heights, MI with water, fire, mold, and storm damage restoration. Experienced team. Call (586) 580-0197."
 primary_keyword: "restoration services sterling heights"
@@ -19,7 +19,7 @@ state: "MI"
 primary: false
 rendered: true
 ---
-Flood Solutions inc responds to water damage, fire damage, mold, and structural losses for homeowners and property managers throughout Sterling Heights. Operating out of Macomb since 1996, the crew travels west on Hall Road or south on Van Dyke to reach Sterling Heights properties quickly, close enough that a call during business hours gets a real person and a scheduled arrival the same day in most cases. Call (586) 580-0197.
+Flood & Fire Solutions responds to water damage, fire damage, mold, and structural losses for homeowners and property managers throughout Sterling Heights. Operating out of Macomb since 1996, the crew travels west on Hall Road or south on Van Dyke to reach Sterling Heights properties quickly, close enough that a call during business hours gets a real person and a scheduled arrival the same day in most cases. Call (586) 580-0197.
 
 ## Restoration emergencies common in Sterling Heights
 
@@ -55,4 +55,4 @@ From the Macomb headquarters, Sterling Heights is a straightforward run. Hall Ro
 
 Most of Sterling Heights was developed between the late 1950s and the mid-1980s, which means the dominant housing stock is ranch and split-level construction on full basements, poured concrete or concrete block foundations, with some older block walls that are prone to lateral cracking under clay soil pressure. Homes from this era were plumbed with copper supply lines and cast-iron drain stacks; galvanized supply lines appear in the oldest structures and corrode from the inside out. Any scope involving pre-1980 materials should account for the possibility of asbestos-containing floor tile, pipe insulation, or drywall joint compound, and lead paint in pre-1978 homes. The heavy clay soils throughout Macomb County expand when wet and contract in drought, putting consistent lateral pressure on basement walls. Structural or drywall permits for restoration work are issued through the City of Sterling Heights Building Department, and work that touches structural framing, electrical, or mechanical systems typically requires a permit and inspection before close-in.
 
-If your home has been affected by water, fire, smoke, or mold, the sooner the drying or containment process starts, the narrower the scope of repair. Call Flood Solutions inc at (586) 580-0197 to schedule an assessment.
+If your home has been affected by water, fire, smoke, or mold, the sooner the drying or containment process starts, the narrower the scope of repair. Call Flood & Fire Solutions at (586) 580-0197 to schedule an assessment.

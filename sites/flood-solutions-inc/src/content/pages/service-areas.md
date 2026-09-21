@@ -1,8 +1,8 @@
 ---
 archetype: "service-areas-hub"
-title: "Service Areas | Flood Solutions inc Restoration"
+title: "Service Areas | Flood & Fire Solutions Restoration"
 h1: "Areas We Serve"
-meta_description: "Flood Solutions inc provides restoration services across Macomb and the surrounding region. Find your city."
+meta_description: "Flood & Fire Solutions provides restoration services across Macomb and the surrounding region. Find your city."
 primary_keyword: "flood solutions inc service areas"
 secondary_keywords: ["restoration service area", "cities we serve", "local restoration coverage"]
 search_intent: "navigational_local"

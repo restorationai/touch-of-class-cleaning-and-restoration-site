@@ -1,6 +1,6 @@
 ---
 archetype: "legal"
-title: "Privacy Policy | Flood Solutions inc"
+title: "Privacy Policy | Flood & Fire Solutions"
 h1: "Privacy Policy"
 meta_description: "Privacy Policy | {brand.display_name}."
 primary_keyword: "flood solutions inc privacy"

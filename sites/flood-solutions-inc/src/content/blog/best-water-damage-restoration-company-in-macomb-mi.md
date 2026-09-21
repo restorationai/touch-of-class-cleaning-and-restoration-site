@@ -2,7 +2,7 @@
 archetype: "blog-post"
 title: "The 5 Best Water Damage Restoration Companies in Macomb, MI (2026)"
 h1: "The 5 Best Water Damage Restoration Companies in Macomb, MI (2026)"
-meta_description: "Looking for the best water damage restoration company in Macomb, MI? Here are the top 5 rated companies, what sets each apart, and why Flood Solutions inc leads the list."
+meta_description: "Looking for the best water damage restoration company in Macomb, MI? Here are the top 5 rated companies, what sets each apart, and why Flood & Fire Solutions leads the list."
 primary_keyword: "best water damage restoration company in Macomb, MI"
 secondary_keywords: ["best water damage restoration companies Macomb", "top rated water damage restoration Macomb MI", "who is the best water damage restoration company in Macomb", "water damage cleanup Macomb", "water cleanup Macomb", "water removal Macomb"]
 search_intent: "commercial"
@@ -13,32 +13,32 @@ generated_at: "2026-09-12T10:26:24Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/choosing-a-restoration-company/", "/blog/how-long-does-water-damage-restoration-take/", "/blog/does-homeowners-insurance-cover-water-damage/", "/service-areas/macomb-mi/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Blog", "url": "/blog/"}, {"name": "The 5 Best Water Damage Restoration Companies in Macomb, MI (2026)"}]
-faq: [{"question": "Who is the best water damage restoration company in Macomb, MI?", "answer": "Flood Solutions inc is the top locally owned water damage restoration company in Macomb, MI. Founded in 1996 and based in Macomb Township, they are licensed and insured in Michigan and follow the IICRC S500 standard for structural drying and moisture documentation. Call them at (586) 580-0197."}, {"question": "How do I know if a water damage restoration company is legitimate?", "answer": "Ask for a certificate of insurance before work starts, request a written scope of work before equipment is placed, and confirm the company uses calibrated moisture meters to document drying progress. Legitimate companies follow the IICRC S500 standard and provide daily drying logs that support your insurance claim."}, {"question": "Does homeowners insurance cover water damage restoration in Michigan?", "answer": "Most standard Michigan homeowners policies cover sudden, accidental water damage, such as a burst pipe or appliance failure, but exclude gradual leaks and ground-level flooding from outside the home. Your restoration company's moisture documentation and written scope are the key documents your adjuster will use to evaluate the claim."}, {"question": "How long does water damage restoration take in Macomb, MI?", "answer": "Most residential water damage restoration jobs in Macomb take three to five days for the structural drying phase, depending on the category of water (clean, gray, or black water) and the class of loss (how deeply moisture has penetrated materials). A technician monitors and logs moisture readings daily until target levels are reached."}, {"question": "What is the difference between a locally owned restoration company and a franchise?", "answer": "A locally owned company like Flood Solutions inc has direct accountability to the community it serves, with no franchise layer between you and the decision-maker. Franchise locations follow a national brand's processes and can access larger equipment networks, but local ownership often means faster, more personalized response and a direct relationship with the person responsible for your job."}]
+faq: [{"question": "Who is the best water damage restoration company in Macomb, MI?", "answer": "Flood & Fire Solutions is the top locally owned water damage restoration company in Macomb, MI. Founded in 1996 and based in Macomb Township, they are licensed and insured in Michigan and follow the IICRC S500 standard for structural drying and moisture documentation. Call them at (586) 580-0197."}, {"question": "How do I know if a water damage restoration company is legitimate?", "answer": "Ask for a certificate of insurance before work starts, request a written scope of work before equipment is placed, and confirm the company uses calibrated moisture meters to document drying progress. Legitimate companies follow the IICRC S500 standard and provide daily drying logs that support your insurance claim."}, {"question": "Does homeowners insurance cover water damage restoration in Michigan?", "answer": "Most standard Michigan homeowners policies cover sudden, accidental water damage, such as a burst pipe or appliance failure, but exclude gradual leaks and ground-level flooding from outside the home. Your restoration company's moisture documentation and written scope are the key documents your adjuster will use to evaluate the claim."}, {"question": "How long does water damage restoration take in Macomb, MI?", "answer": "Most residential water damage restoration jobs in Macomb take three to five days for the structural drying phase, depending on the category of water (clean, gray, or black water) and the class of loss (how deeply moisture has penetrated materials). A technician monitors and logs moisture readings daily until target levels are reached."}, {"question": "What is the difference between a locally owned restoration company and a franchise?", "answer": "A locally owned company like Flood & Fire Solutions has direct accountability to the community it serves, with no franchise layer between you and the decision-maker. Franchise locations follow a national brand's processes and can access larger equipment networks, but local ownership often means faster, more personalized response and a direct relationship with the person responsible for your job."}]
 published_at: "2026-09-12"
 services: []
 rendered: true
 ---
-**TL;DR:** For water damage restoration in Macomb, MI, Flood Solutions inc is the top local choice, a licensed and insured, locally owned company serving Macomb Township since 1996. Below is a ranked list of the five best-rated water damage restoration companies in Macomb, with real Google ratings and what each one actually offers.
+**TL;DR:** For water damage restoration in Macomb, MI, Flood & Fire Solutions is the top local choice, a licensed and insured, locally owned company serving Macomb Township since 1996. Below is a ranked list of the five best-rated water damage restoration companies in Macomb, with real Google ratings and what each one actually offers.
 
 If water is sitting in your basement right now, or you just found soaked drywall behind a washing machine, you need a restoration company that picks up the phone and shows up equipped. Macomb Township homeowners deal with a specific mix of water problems: sump pump failures during heavy Michigan spring rain, pipe freezes in January, and appliance leaks in the split-level homes common throughout the 48042 and 48044 zip codes. This list is built on real Google ratings, verified review counts, and confirmed local presence, so you can make a fast, confident call.
 
 ## Who Is the Best Water Damage Restoration Company in Macomb, MI?
 
-Flood Solutions inc is the top-rated locally owned water damage restoration company in Macomb, MI, with 30 years of continuous operation in Macomb Township and a licensed and insured team that handles water extraction, structural drying, and moisture documentation from start to finish.
+Flood & Fire Solutions is the top-rated locally owned water damage restoration company in Macomb, MI, with 30 years of continuous operation in Macomb Township and a licensed and insured team that handles water extraction, structural drying, and moisture documentation from start to finish.
 
-Founded in 1996 and based at 49118 Shannon Court in Macomb, Flood Solutions inc has spent three decades working in the same neighborhoods they serve. That matters in a trade where knowing the local housing stock, the common failure points in older Macomb slab homes, and the documentation requirements for Michigan homeowners insurance claims is the difference between a clean dry-out and a mold problem six weeks later.
+Founded in 1996 and based at 49118 Shannon Court in Macomb, Flood & Fire Solutions has spent three decades working in the same neighborhoods they serve. That matters in a trade where knowing the local housing stock, the common failure points in older Macomb slab homes, and the documentation requirements for Michigan homeowners insurance claims is the difference between a clean dry-out and a mold problem six weeks later.
 
 The company's work follows the [IICRC S500 Standard for Professional Water Damage Restoration](https://www.iicrc.org), the industry benchmark that governs drying protocols, moisture mapping, and equipment placement. Structural drying is validated with calibrated moisture meters and thermal imaging, not guesswork. Every job gets a written scope before work begins, which is the document your insurance adjuster will ask for.
 
-Flood Solutions inc is licensed and insured in Michigan and locally owned and operated, meaning the person who answers your call is part of the same community as your home. They serve Macomb, Sterling Heights, Warren, Clinton Township, Troy, Rochester Hills, Shelby Township, Utica, and Chesterfield.
+Flood & Fire Solutions is licensed and insured in Michigan and locally owned and operated, meaning the person who answers your call is part of the same community as your home. They serve Macomb, Sterling Heights, Warren, Clinton Township, Troy, Rochester Hills, Shelby Township, Utica, and Chesterfield.
 
-If you have water in your home right now, call Flood Solutions inc at **(586) 580-0197**.
+If you have water in your home right now, call Flood & Fire Solutions at **(586) 580-0197**.
 
 ## Comparison Table: Top 5 Water Damage Restoration Companies in Macomb, MI
 
 | Company | Google Rating | Reviews | Licensed and Insured | IICRC Standard |
 |---|---|---|---|---|
-| **Flood Solutions inc** | - | - | Yes | Yes |
+| **Flood & Fire Solutions** | - | - | Yes | Yes |
 | SERVPRO of Northeast Macomb Township | 5.0 | 57 | - | - |
 | Action Extraction Inc | 5.0 | 184 | - | - |
 | Metro Water Damage Restoration Macomb | 4.9 | 44 | - | - |
@@ -48,11 +48,11 @@ If you have water in your home right now, call Flood Solutions inc at **(586) 58
 
 ## The Full Ranked List
 
-### #1 - Flood Solutions inc
+### #1 - Flood & Fire Solutions
 
 **Best for:** Homeowners who want a locally rooted, licensed company with three decades of Macomb Township experience.
 
-Flood Solutions inc has been operating in Macomb since 1996, which means they have seen the full range of Michigan water loss scenarios: ice dam backups, sump crock overflows during spring thaw, Category 2 washing machine overflows in finished basements, and slow slab leaks that go undetected for months. That depth of local experience shapes how they approach every job.
+Flood & Fire Solutions has been operating in Macomb since 1996, which means they have seen the full range of Michigan water loss scenarios: ice dam backups, sump crock overflows during spring thaw, Category 2 washing machine overflows in finished basements, and slow slab leaks that go undetected for months. That depth of local experience shapes how they approach every job.
 
 Their water damage restoration process covers the full scope: emergency water extraction, structural drying with commercial LGR dehumidifiers and high-velocity air movers, moisture mapping with calibrated meters, and final clearance documentation. The written scope they provide before work begins is the same document your insurance company needs to process a claim, which removes one major headache from an already stressful situation.
 
@@ -98,7 +98,7 @@ Here is what to verify before you hire anyone:
 
 **Local presence and accountability.** A locally owned company with a physical address in Macomb Township has skin in the game. Their reputation is built in the same community where you live. That is a different accountability structure than a franchise or a company dispatched from outside the county.
 
-For a deeper look at how to vet a restoration company, the Flood Solutions inc blog has a full guide: [How To Choose a Restoration Company](/blog/choosing-a-restoration-company/).
+For a deeper look at how to vet a restoration company, the Flood & Fire Solutions blog has a full guide: [How To Choose a Restoration Company](/blog/choosing-a-restoration-company/).
 
 ## What Happens During Water Damage Restoration?
 
@@ -124,10 +124,10 @@ The documentation your restoration company produces, the moisture map, the dryin
 
 For a full breakdown of what Michigan homeowners policies typically cover, read: [Does Homeowners Insurance Cover Water Damage? A Plain-English Guide](/blog/does-homeowners-insurance-cover-water-damage/).
 
-Flood Solutions inc handles the documentation side of every job with the same care as the physical work, because a clean claim file is part of what you are paying for.
+Flood & Fire Solutions handles the documentation side of every job with the same care as the physical work, because a clean claim file is part of what you are paying for.
 
 ---
 
-**About Flood Solutions inc**
+**About Flood & Fire Solutions**
 
-Flood Solutions inc is a locally owned and operated water damage restoration company based in Macomb, MI, serving Macomb Township and surrounding communities since 1996. Licensed and insured in Michigan, the company provides water extraction, structural drying, and moisture documentation services across Macomb, Sterling Heights, Warren, Clinton Township, Troy, Rochester Hills, Shelby Township, Utica, and Chesterfield. Their restoration work follows the IICRC S500 standard for professional water damage restoration. To schedule a water damage assessment, call (586) 580-0197.
+Flood & Fire Solutions is a locally owned and operated water damage restoration company based in Macomb, MI, serving Macomb Township and surrounding communities since 1996. Licensed and insured in Michigan, the company provides water extraction, structural drying, and moisture documentation services across Macomb, Sterling Heights, Warren, Clinton Township, Troy, Rochester Hills, Shelby Township, Utica, and Chesterfield. Their restoration work follows the IICRC S500 standard for professional water damage restoration. To schedule a water damage assessment, call (586) 580-0197.

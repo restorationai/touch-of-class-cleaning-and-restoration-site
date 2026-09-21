@@ -1,8 +1,8 @@
 ---
 archetype: "about"
-title: "About Flood Solutions inc | Macomb Restoration Company"
-h1: "About Flood Solutions inc"
-meta_description: "Flood Solutions inc has served Macomb since 1996. Meet our restoration team. Licensed, insured, locally owned."
+title: "About Flood & Fire Solutions | Macomb Restoration Company"
+h1: "About Flood & Fire Solutions"
+meta_description: "Flood & Fire Solutions has served Macomb since 1996. Meet our restoration team. Licensed, insured, locally owned."
 primary_keyword: "flood solutions inc macomb"
 secondary_keywords: ["local restoration company", "iicrc certified restoration", "licensed restoration contractor"]
 search_intent: "navigational_trust"
@@ -12,10 +12,10 @@ generated_at: "2026-09-11T16:37:00.443530+00:00"
 manual_override: false
 internal_links: ["/", "/services/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "About"}]
-faq: [{"question": "How long has Flood Solutions inc been in business?", "answer": "Flood Solutions inc has been operating since 1996, serving Macomb County and the surrounding southeast Michigan region. That's nearly 30 years working through water damage, mold, and related restoration work in this specific area and climate."}, {"question": "What areas do you serve?", "answer": "We're based in Macomb, MI and work throughout Macomb County, including Sterling Heights, Clinton Township, Shelby Township, St. Clair Shores, Warren, Chesterfield, and surrounding communities. If you're in southeast Michigan and unsure whether we cover your area, call (586) 580-0197 and we'll let you know directly."}, {"question": "Are you certified to work on older homes that may have lead paint?", "answer": "Pre-1978 homes require specific handling protocols under federal EPA rules whenever renovation or demolition is involved, including water damage tearout. For questions about what certifications apply to your specific job, reach out to us at (586) 580-0197 and we'll walk through what's required and what documentation we can provide."}]
+faq: [{"question": "How long has Flood & Fire Solutions been in business?", "answer": "Flood & Fire Solutions has been operating since 1996, serving Macomb County and the surrounding southeast Michigan region. That's nearly 30 years working through water damage, mold, and related restoration work in this specific area and climate."}, {"question": "What areas do you serve?", "answer": "We're based in Macomb, MI and work throughout Macomb County, including Sterling Heights, Clinton Township, Shelby Township, St. Clair Shores, Warren, Chesterfield, and surrounding communities. If you're in southeast Michigan and unsure whether we cover your area, call (586) 580-0197 and we'll let you know directly."}, {"question": "Are you certified to work on older homes that may have lead paint?", "answer": "Pre-1978 homes require specific handling protocols under federal EPA rules whenever renovation or demolition is involved, including water damage tearout. For questions about what certifications apply to your specific job, reach out to us at (586) 580-0197 and we'll walk through what's required and what documentation we can provide."}]
 rendered: true
 ---
-Flood Solutions inc has been working through water damage, mold, and structural drying jobs in Macomb County since 1996. That's nearly three decades of responding when a pipe bursts at midnight, when a sump pump fails during a spring storm, when a homeowner pulls back drywall and finds something that's been growing there for months. The company was built around a straightforward premise: restoration work done correctly the first time costs less, in money, time, and stress, than work that has to be redone.
+Flood & Fire Solutions has been working through water damage, mold, and structural drying jobs in Macomb County since 1996. That's nearly three decades of responding when a pipe bursts at midnight, when a sump pump fails during a spring storm, when a homeowner pulls back drywall and finds something that's been growing there for months. The company was built around a straightforward premise: restoration work done correctly the first time costs less, in money, time, and stress, than work that has to be redone.
 
 ## What we do
 

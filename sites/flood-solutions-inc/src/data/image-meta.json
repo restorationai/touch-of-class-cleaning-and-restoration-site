@@ -1,4 +1,22 @@
 {
+  "/images/services/fire-damage-restoration.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/sewage-cleanup.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/water-cleanup.webp": {
     "width": 1376,
     "height": 768,

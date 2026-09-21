@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Rochester Hills, MI | Flood Solutions inc"
+title: "Water Damage Restoration in Rochester Hills, MI | Flood & Fire Solutions"
 h1: "Water Damage Restoration in Rochester Hills"
 meta_description: "Water damage restoration in Rochester Hills, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "water damage restoration rochester hills"

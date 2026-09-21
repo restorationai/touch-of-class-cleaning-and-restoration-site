@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Water Cleanup in Rochester Hills, MI | Flood Solutions inc"
+title: "Water Cleanup in Rochester Hills, MI | Flood & Fire Solutions"
 h1: "Water Cleanup in Rochester Hills"
 meta_description: "Water cleanup in Rochester Hills, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "water cleanup rochester hills"

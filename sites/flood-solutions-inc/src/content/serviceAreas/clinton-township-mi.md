@@ -1,6 +1,6 @@
 ---
 archetype: "service-area"
-title: "Restoration Services in Clinton Township, MI | Flood Solutions inc"
+title: "Restoration Services in Clinton Township, MI | Flood & Fire Solutions"
 h1: "Restoration Services in Clinton Township"
 meta_description: "Serving Clinton Township, MI with water, fire, mold, and storm damage restoration. Experienced team. Call (586) 580-0197."
 primary_keyword: "restoration services clinton township"
@@ -19,7 +19,7 @@ state: "MI"
 primary: false
 rendered: true
 ---
-Flood Solutions inc handles water damage, fire and smoke damage, mold remediation, and structural drying for homeowners and property managers throughout Clinton Township. Operating out of Macomb since 1996, the crew reaches Clinton Township quickly via Hall Road and Gratiot Avenue, two of the main corridors connecting the two communities, and carries the documentation, equipment, and insurance-billing process that turns a chaotic loss into a manageable claim.
+Flood & Fire Solutions handles water damage, fire and smoke damage, mold remediation, and structural drying for homeowners and property managers throughout Clinton Township. Operating out of Macomb since 1996, the crew reaches Clinton Township quickly via Hall Road and Gratiot Avenue, two of the main corridors connecting the two communities, and carries the documentation, equipment, and insurance-billing process that turns a chaotic loss into a manageable claim.
 
 ## Restoration emergencies common in Clinton Township
 

@@ -1,8 +1,8 @@
 ---
 archetype: "home"
-title: "Flood Solutions inc | Restoration Services in Macomb, MI"
+title: "Flood & Fire Solutions | Restoration Services in Macomb, MI"
 h1: "Restoration Services in Macomb"
-meta_description: "Flood Solutions inc provides water, fire, mold, and storm damage restoration across Macomb and surrounding areas. Licensed, insured. Call (586) 580-0197."
+meta_description: "Flood & Fire Solutions provides water, fire, mold, and storm damage restoration across Macomb and surrounding areas. Licensed, insured. Call (586) 580-0197."
 primary_keyword: "restoration services macomb"
 secondary_keywords: ["restoration company near me"]
 search_intent: "local_commercial"

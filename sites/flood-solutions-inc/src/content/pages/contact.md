@@ -1,7 +1,7 @@
 ---
 archetype: "contact"
-title: "Contact Flood Solutions inc | Restoration in Macomb"
-h1: "Contact Flood Solutions inc"
+title: "Contact Flood & Fire Solutions | Restoration in Macomb"
+h1: "Contact Flood & Fire Solutions"
 meta_description: "Call (586) 580-0197 for restoration services in Macomb and surrounding areas. Free estimates. Direct insurance billing."
 primary_keyword: "flood solutions inc contact"
 secondary_keywords: ["restoration company contact"]

@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Water Cleanup in Sterling Heights, MI | Flood Solutions inc"
+title: "Water Cleanup in Sterling Heights, MI | Flood & Fire Solutions"
 h1: "Water Cleanup in Sterling Heights"
 meta_description: "Water cleanup in Sterling Heights, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "water cleanup sterling heights"

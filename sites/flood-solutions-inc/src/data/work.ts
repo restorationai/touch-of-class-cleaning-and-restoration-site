@@ -12,4 +12,26 @@ import type { BeforeAfterPair } from "~/components/ui/BeforeAfterSection.astro";
  *   - Cleaning               -> carpet / upholstery / tile & grout
  *   - Remodel/renovation     -> ONLY if the client does GC / remodeling
  */
-export const workPairs: BeforeAfterPair[] = [];
+export const workPairs: BeforeAfterPair[] = [
+  {
+    label: "Water Damage Restoration",
+    beforeSrc: "/images/before-after/water-before.png",
+    beforeAlt: "Flooded living room with standing water before restoration",
+    afterSrc: "/images/before-after/water-after.png",
+    afterAlt: "Same living room fully dried and restored",
+  },
+  {
+    label: "Fire & Smoke Restoration",
+    beforeSrc: "/images/before-after/fire-before.png",
+    beforeAlt: "Kitchen with soot and smoke damage before restoration",
+    afterSrc: "/images/before-after/fire-after.png",
+    afterAlt: "Same kitchen fully cleaned and restored after fire damage",
+  },
+  {
+    label: "Sewage Cleanup",
+    beforeSrc: "/images/before-after/sewage-before.png",
+    beforeAlt: "Basement floor after a sewage backup before cleanup",
+    afterSrc: "/images/before-after/sewage-after.png",
+    afterAlt: "Same basement floor disinfected and dry after cleanup",
+  }
+];

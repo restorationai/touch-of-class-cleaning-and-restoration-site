@@ -4,7 +4,9 @@
     "/service-areas/",
     "/contact/",
     "/about/",
+    "/services/fire-damage-restoration/",
     "/services/water-damage-restoration/",
+    "/services/sewage-cleanup/",
     "/services/water-cleanup/",
     "/service-areas/chesterfield-mi/",
     "/service-areas/clinton-township-mi/",
@@ -17,7 +19,9 @@
   ],
   "/services/": [
     "/",
+    "/services/fire-damage-restoration/",
     "/services/water-damage-restoration/",
+    "/services/sewage-cleanup/",
     "/services/water-cleanup/"
   ],
   "/service-areas/": [
@@ -37,10 +41,10 @@
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/",
     "/blog/does-homeowners-insurance-cover-water-damage/",
+    "/blog/fire-damage-restoration-process/",
     "/blog/how-long-does-water-damage-restoration-take/",
     "/blog/mold-after-water-damage/",
-    "/blog/basement-flooding-prevention/",
-    "/blog/commercial-water-damage-business-continuity/"
+    "/blog/smoke-odor-removal-techniques/"
   ],
   "/about/": [
     "/",
@@ -63,6 +67,7 @@
     "/service-areas/troy-mi/water-damage-restoration/",
     "/service-areas/utica-mi/water-damage-restoration/",
     "/service-areas/warren-mi/water-damage-restoration/",
+    "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/"
@@ -77,12 +82,42 @@
     "/service-areas/sterling-heights-mi/water-cleanup/",
     "/service-areas/troy-mi/water-cleanup/",
     "/service-areas/utica-mi/water-cleanup/",
-    "/service-areas/warren-mi/water-cleanup/"
+    "/service-areas/warren-mi/water-cleanup/",
+    "/services/water-damage-restoration/"
+  ],
+  "/services/fire-damage-restoration/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/chesterfield-mi/fire-damage-restoration/",
+    "/service-areas/clinton-township-mi/fire-damage-restoration/",
+    "/service-areas/rochester-hills-mi/fire-damage-restoration/",
+    "/service-areas/shelby-township-mi/fire-damage-restoration/",
+    "/service-areas/sterling-heights-mi/fire-damage-restoration/",
+    "/service-areas/troy-mi/fire-damage-restoration/",
+    "/service-areas/utica-mi/fire-damage-restoration/",
+    "/service-areas/warren-mi/fire-damage-restoration/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/fire-damage-restoration-process/",
+    "/blog/smoke-odor-removal-techniques/"
+  ],
+  "/services/sewage-cleanup/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/chesterfield-mi/sewage-cleanup/",
+    "/service-areas/clinton-township-mi/sewage-cleanup/",
+    "/service-areas/rochester-hills-mi/sewage-cleanup/",
+    "/service-areas/shelby-township-mi/sewage-cleanup/",
+    "/service-areas/sterling-heights-mi/sewage-cleanup/",
+    "/service-areas/troy-mi/sewage-cleanup/",
+    "/service-areas/utica-mi/sewage-cleanup/",
+    "/service-areas/warren-mi/sewage-cleanup/"
   ],
   "/service-areas/sterling-heights-mi/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/sterling-heights-mi/fire-damage-restoration/",
     "/service-areas/sterling-heights-mi/water-damage-restoration/",
+    "/service-areas/sterling-heights-mi/sewage-cleanup/",
     "/service-areas/sterling-heights-mi/water-cleanup/",
     "/service-areas/chesterfield-mi/",
     "/service-areas/clinton-township-mi/",
@@ -91,7 +126,9 @@
   "/service-areas/warren-mi/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/warren-mi/fire-damage-restoration/",
     "/service-areas/warren-mi/water-damage-restoration/",
+    "/service-areas/warren-mi/sewage-cleanup/",
     "/service-areas/warren-mi/water-cleanup/",
     "/service-areas/chesterfield-mi/",
     "/service-areas/clinton-township-mi/",
@@ -100,7 +137,9 @@
   "/service-areas/clinton-township-mi/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/clinton-township-mi/fire-damage-restoration/",
     "/service-areas/clinton-township-mi/water-damage-restoration/",
+    "/service-areas/clinton-township-mi/sewage-cleanup/",
     "/service-areas/clinton-township-mi/water-cleanup/",
     "/service-areas/chesterfield-mi/",
     "/service-areas/rochester-hills-mi/",
@@ -109,7 +148,9 @@
   "/service-areas/troy-mi/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/troy-mi/fire-damage-restoration/",
     "/service-areas/troy-mi/water-damage-restoration/",
+    "/service-areas/troy-mi/sewage-cleanup/",
     "/service-areas/troy-mi/water-cleanup/",
     "/service-areas/chesterfield-mi/",
     "/service-areas/clinton-township-mi/",
@@ -118,7 +159,9 @@
   "/service-areas/rochester-hills-mi/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/rochester-hills-mi/fire-damage-restoration/",
     "/service-areas/rochester-hills-mi/water-damage-restoration/",
+    "/service-areas/rochester-hills-mi/sewage-cleanup/",
     "/service-areas/rochester-hills-mi/water-cleanup/",
     "/service-areas/chesterfield-mi/",
     "/service-areas/clinton-township-mi/",
@@ -127,7 +170,9 @@
   "/service-areas/shelby-township-mi/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/shelby-township-mi/fire-damage-restoration/",
     "/service-areas/shelby-township-mi/water-damage-restoration/",
+    "/service-areas/shelby-township-mi/sewage-cleanup/",
     "/service-areas/shelby-township-mi/water-cleanup/",
     "/service-areas/chesterfield-mi/",
     "/service-areas/clinton-township-mi/",
@@ -136,7 +181,9 @@
   "/service-areas/utica-mi/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/utica-mi/fire-damage-restoration/",
     "/service-areas/utica-mi/water-damage-restoration/",
+    "/service-areas/utica-mi/sewage-cleanup/",
     "/service-areas/utica-mi/water-cleanup/",
     "/service-areas/chesterfield-mi/",
     "/service-areas/clinton-township-mi/",
@@ -145,7 +192,9 @@
   "/service-areas/chesterfield-mi/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/chesterfield-mi/fire-damage-restoration/",
     "/service-areas/chesterfield-mi/water-damage-restoration/",
+    "/service-areas/chesterfield-mi/sewage-cleanup/",
     "/service-areas/chesterfield-mi/water-cleanup/",
     "/service-areas/clinton-township-mi/",
     "/service-areas/rochester-hills-mi/",
@@ -154,7 +203,8 @@
   "/service-areas/sterling-heights-mi/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/sterling-heights-mi/",
-    "/service-areas/sterling-heights-mi/water-cleanup/",
+    "/service-areas/sterling-heights-mi/fire-damage-restoration/",
+    "/service-areas/sterling-heights-mi/sewage-cleanup/",
     "/service-areas/chesterfield-mi/water-damage-restoration/",
     "/service-areas/clinton-township-mi/water-damage-restoration/",
     "/contact/"
@@ -162,15 +212,35 @@
   "/service-areas/sterling-heights-mi/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/sterling-heights-mi/",
+    "/service-areas/sterling-heights-mi/fire-damage-restoration/",
     "/service-areas/sterling-heights-mi/water-damage-restoration/",
     "/service-areas/chesterfield-mi/water-cleanup/",
     "/service-areas/clinton-township-mi/water-cleanup/",
     "/contact/"
   ],
+  "/service-areas/sterling-heights-mi/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/sterling-heights-mi/",
+    "/service-areas/sterling-heights-mi/water-damage-restoration/",
+    "/service-areas/sterling-heights-mi/sewage-cleanup/",
+    "/service-areas/chesterfield-mi/fire-damage-restoration/",
+    "/service-areas/clinton-township-mi/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sterling-heights-mi/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/sterling-heights-mi/",
+    "/service-areas/sterling-heights-mi/fire-damage-restoration/",
+    "/service-areas/sterling-heights-mi/water-damage-restoration/",
+    "/service-areas/chesterfield-mi/sewage-cleanup/",
+    "/service-areas/clinton-township-mi/sewage-cleanup/",
+    "/contact/"
+  ],
   "/service-areas/warren-mi/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/warren-mi/",
-    "/service-areas/warren-mi/water-cleanup/",
+    "/service-areas/warren-mi/fire-damage-restoration/",
+    "/service-areas/warren-mi/sewage-cleanup/",
     "/service-areas/chesterfield-mi/water-damage-restoration/",
     "/service-areas/clinton-township-mi/water-damage-restoration/",
     "/contact/"
@@ -178,15 +248,35 @@
   "/service-areas/warren-mi/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/warren-mi/",
+    "/service-areas/warren-mi/fire-damage-restoration/",
     "/service-areas/warren-mi/water-damage-restoration/",
     "/service-areas/chesterfield-mi/water-cleanup/",
     "/service-areas/clinton-township-mi/water-cleanup/",
     "/contact/"
   ],
+  "/service-areas/warren-mi/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/warren-mi/",
+    "/service-areas/warren-mi/water-damage-restoration/",
+    "/service-areas/warren-mi/sewage-cleanup/",
+    "/service-areas/chesterfield-mi/fire-damage-restoration/",
+    "/service-areas/clinton-township-mi/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/warren-mi/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/warren-mi/",
+    "/service-areas/warren-mi/fire-damage-restoration/",
+    "/service-areas/warren-mi/water-damage-restoration/",
+    "/service-areas/chesterfield-mi/sewage-cleanup/",
+    "/service-areas/clinton-township-mi/sewage-cleanup/",
+    "/contact/"
+  ],
   "/service-areas/clinton-township-mi/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/clinton-township-mi/",
-    "/service-areas/clinton-township-mi/water-cleanup/",
+    "/service-areas/clinton-township-mi/fire-damage-restoration/",
+    "/service-areas/clinton-township-mi/sewage-cleanup/",
     "/service-areas/chesterfield-mi/water-damage-restoration/",
     "/service-areas/rochester-hills-mi/water-damage-restoration/",
     "/contact/"
@@ -194,15 +284,35 @@
   "/service-areas/clinton-township-mi/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/clinton-township-mi/",
+    "/service-areas/clinton-township-mi/fire-damage-restoration/",
     "/service-areas/clinton-township-mi/water-damage-restoration/",
     "/service-areas/chesterfield-mi/water-cleanup/",
     "/service-areas/rochester-hills-mi/water-cleanup/",
     "/contact/"
   ],
+  "/service-areas/clinton-township-mi/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/clinton-township-mi/",
+    "/service-areas/clinton-township-mi/water-damage-restoration/",
+    "/service-areas/clinton-township-mi/sewage-cleanup/",
+    "/service-areas/chesterfield-mi/fire-damage-restoration/",
+    "/service-areas/rochester-hills-mi/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/clinton-township-mi/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/clinton-township-mi/",
+    "/service-areas/clinton-township-mi/fire-damage-restoration/",
+    "/service-areas/clinton-township-mi/water-damage-restoration/",
+    "/service-areas/chesterfield-mi/sewage-cleanup/",
+    "/service-areas/rochester-hills-mi/sewage-cleanup/",
+    "/contact/"
+  ],
   "/service-areas/troy-mi/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/troy-mi/",
-    "/service-areas/troy-mi/water-cleanup/",
+    "/service-areas/troy-mi/fire-damage-restoration/",
+    "/service-areas/troy-mi/sewage-cleanup/",
     "/service-areas/chesterfield-mi/water-damage-restoration/",
     "/service-areas/clinton-township-mi/water-damage-restoration/",
     "/contact/"
@@ -210,15 +320,35 @@
   "/service-areas/troy-mi/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/troy-mi/",
+    "/service-areas/troy-mi/fire-damage-restoration/",
     "/service-areas/troy-mi/water-damage-restoration/",
     "/service-areas/chesterfield-mi/water-cleanup/",
     "/service-areas/clinton-township-mi/water-cleanup/",
     "/contact/"
   ],
+  "/service-areas/troy-mi/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/troy-mi/",
+    "/service-areas/troy-mi/water-damage-restoration/",
+    "/service-areas/troy-mi/sewage-cleanup/",
+    "/service-areas/chesterfield-mi/fire-damage-restoration/",
+    "/service-areas/clinton-township-mi/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/troy-mi/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/troy-mi/",
+    "/service-areas/troy-mi/fire-damage-restoration/",
+    "/service-areas/troy-mi/water-damage-restoration/",
+    "/service-areas/chesterfield-mi/sewage-cleanup/",
+    "/service-areas/clinton-township-mi/sewage-cleanup/",
+    "/contact/"
+  ],
   "/service-areas/rochester-hills-mi/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/rochester-hills-mi/",
-    "/service-areas/rochester-hills-mi/water-cleanup/",
+    "/service-areas/rochester-hills-mi/fire-damage-restoration/",
+    "/service-areas/rochester-hills-mi/sewage-cleanup/",
     "/service-areas/chesterfield-mi/water-damage-restoration/",
     "/service-areas/clinton-township-mi/water-damage-restoration/",
     "/contact/"
@@ -226,15 +356,35 @@
   "/service-areas/rochester-hills-mi/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/rochester-hills-mi/",
+    "/service-areas/rochester-hills-mi/fire-damage-restoration/",
     "/service-areas/rochester-hills-mi/water-damage-restoration/",
     "/service-areas/chesterfield-mi/water-cleanup/",
     "/service-areas/clinton-township-mi/water-cleanup/",
     "/contact/"
   ],
+  "/service-areas/rochester-hills-mi/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/rochester-hills-mi/",
+    "/service-areas/rochester-hills-mi/water-damage-restoration/",
+    "/service-areas/rochester-hills-mi/sewage-cleanup/",
+    "/service-areas/chesterfield-mi/fire-damage-restoration/",
+    "/service-areas/clinton-township-mi/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/rochester-hills-mi/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/rochester-hills-mi/",
+    "/service-areas/rochester-hills-mi/fire-damage-restoration/",
+    "/service-areas/rochester-hills-mi/water-damage-restoration/",
+    "/service-areas/chesterfield-mi/sewage-cleanup/",
+    "/service-areas/clinton-township-mi/sewage-cleanup/",
+    "/contact/"
+  ],
   "/service-areas/shelby-township-mi/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/shelby-township-mi/",
-    "/service-areas/shelby-township-mi/water-cleanup/",
+    "/service-areas/shelby-township-mi/fire-damage-restoration/",
+    "/service-areas/shelby-township-mi/sewage-cleanup/",
     "/service-areas/chesterfield-mi/water-damage-restoration/",
     "/service-areas/clinton-township-mi/water-damage-restoration/",
     "/contact/"
@@ -242,15 +392,35 @@
   "/service-areas/shelby-township-mi/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/shelby-township-mi/",
+    "/service-areas/shelby-township-mi/fire-damage-restoration/",
     "/service-areas/shelby-township-mi/water-damage-restoration/",
     "/service-areas/chesterfield-mi/water-cleanup/",
     "/service-areas/clinton-township-mi/water-cleanup/",
     "/contact/"
   ],
+  "/service-areas/shelby-township-mi/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/shelby-township-mi/",
+    "/service-areas/shelby-township-mi/water-damage-restoration/",
+    "/service-areas/shelby-township-mi/sewage-cleanup/",
+    "/service-areas/chesterfield-mi/fire-damage-restoration/",
+    "/service-areas/clinton-township-mi/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/shelby-township-mi/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/shelby-township-mi/",
+    "/service-areas/shelby-township-mi/fire-damage-restoration/",
+    "/service-areas/shelby-township-mi/water-damage-restoration/",
+    "/service-areas/chesterfield-mi/sewage-cleanup/",
+    "/service-areas/clinton-township-mi/sewage-cleanup/",
+    "/contact/"
+  ],
   "/service-areas/utica-mi/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/utica-mi/",
-    "/service-areas/utica-mi/water-cleanup/",
+    "/service-areas/utica-mi/fire-damage-restoration/",
+    "/service-areas/utica-mi/sewage-cleanup/",
     "/service-areas/chesterfield-mi/water-damage-restoration/",
     "/service-areas/clinton-township-mi/water-damage-restoration/",
     "/contact/"
@@ -258,15 +428,35 @@
   "/service-areas/utica-mi/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/utica-mi/",
+    "/service-areas/utica-mi/fire-damage-restoration/",
     "/service-areas/utica-mi/water-damage-restoration/",
     "/service-areas/chesterfield-mi/water-cleanup/",
     "/service-areas/clinton-township-mi/water-cleanup/",
     "/contact/"
   ],
+  "/service-areas/utica-mi/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/utica-mi/",
+    "/service-areas/utica-mi/water-damage-restoration/",
+    "/service-areas/utica-mi/sewage-cleanup/",
+    "/service-areas/chesterfield-mi/fire-damage-restoration/",
+    "/service-areas/clinton-township-mi/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/utica-mi/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/utica-mi/",
+    "/service-areas/utica-mi/fire-damage-restoration/",
+    "/service-areas/utica-mi/water-damage-restoration/",
+    "/service-areas/chesterfield-mi/sewage-cleanup/",
+    "/service-areas/clinton-township-mi/sewage-cleanup/",
+    "/contact/"
+  ],
   "/service-areas/chesterfield-mi/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/chesterfield-mi/",
-    "/service-areas/chesterfield-mi/water-cleanup/",
+    "/service-areas/chesterfield-mi/fire-damage-restoration/",
+    "/service-areas/chesterfield-mi/sewage-cleanup/",
     "/service-areas/clinton-township-mi/water-damage-restoration/",
     "/service-areas/rochester-hills-mi/water-damage-restoration/",
     "/contact/"
@@ -274,9 +464,28 @@
   "/service-areas/chesterfield-mi/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/chesterfield-mi/",
+    "/service-areas/chesterfield-mi/fire-damage-restoration/",
     "/service-areas/chesterfield-mi/water-damage-restoration/",
     "/service-areas/clinton-township-mi/water-cleanup/",
     "/service-areas/rochester-hills-mi/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/chesterfield-mi/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/chesterfield-mi/",
+    "/service-areas/chesterfield-mi/water-damage-restoration/",
+    "/service-areas/chesterfield-mi/sewage-cleanup/",
+    "/service-areas/clinton-township-mi/fire-damage-restoration/",
+    "/service-areas/rochester-hills-mi/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/chesterfield-mi/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/chesterfield-mi/",
+    "/service-areas/chesterfield-mi/fire-damage-restoration/",
+    "/service-areas/chesterfield-mi/water-damage-restoration/",
+    "/service-areas/clinton-township-mi/sewage-cleanup/",
+    "/service-areas/rochester-hills-mi/sewage-cleanup/",
     "/contact/"
   ],
   "/blog/what-to-do-first-24-hours-water-damage/": [
@@ -300,8 +509,15 @@
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/"
   ],
+  "/blog/fire-damage-restoration-process/": [
+    "/blog/",
+    "/services/fire-damage-restoration/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/smoke-odor-removal-techniques/"
+  ],
   "/blog/choosing-a-restoration-company/": [
     "/blog/",
+    "/services/fire-damage-restoration/",
     "/services/water-damage-restoration/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -321,19 +537,11 @@
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/"
   ],
-  "/blog/basement-flooding-prevention/": [
+  "/blog/smoke-odor-removal-techniques/": [
     "/blog/",
-    "/services/water-damage-restoration/",
-    "/blog/burst-pipe-emergency-checklist/",
-    "/blog/what-to-do-first-24-hours-water-damage/",
-    "/blog/choosing-a-restoration-company/"
-  ],
-  "/blog/commercial-water-damage-business-continuity/": [
-    "/blog/",
-    "/services/water-damage-restoration/",
-    "/blog/burst-pipe-emergency-checklist/",
-    "/blog/what-to-do-first-24-hours-water-damage/",
-    "/blog/choosing-a-restoration-company/"
+    "/services/fire-damage-restoration/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/fire-damage-restoration-process/"
   ],
   "/privacy/": [],
   "/terms/": [],

@@ -1,6 +1,6 @@
 ---
 archetype: "services-hub"
-title: "Restoration Services in Macomb | Flood Solutions inc"
+title: "Restoration Services in Macomb | Flood & Fire Solutions"
 h1: "Our Restoration Services"
 meta_description: "Full-service restoration in Macomb: water, fire, mold, storm, biohazard, and commercial restoration. Prompt scheduling. Call (586) 580-0197."
 primary_keyword: "restoration services macomb"

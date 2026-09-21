@@ -1,72 +1,87 @@
 {
- "brand": {
-  "display_name": "Flood Solutions inc",
-  "phone": "(586) 580-0197",
-  "email": "cgeatches@yahoo.com",
-  "street_address": "49118 Shannon Court",
-  "city": "MACOMB",
-  "state": "MI",
-  "postal_code": "48042",
-  "theme": "light",
-  "licensed_insured_attested": true,
-  "founded_year": "1996",
-  "trust_badges": [
-   "Licensed & Insured",
-   "Locally Owned & Operated"
+  "brand": {
+    "display_name": "Flood Solutions inc",
+    "phone": "(586) 580-0197",
+    "email": "cgeatches@yahoo.com",
+    "street_address": "49118 Shannon Court",
+    "city": "MACOMB",
+    "state": "MI",
+    "postal_code": "48042",
+    "theme": "light",
+    "licensed_insured_attested": true,
+    "founded_year": "1996",
+    "trust_badges": [
+      "Licensed & Insured",
+      "Locally Owned & Operated"
+    ],
+    "place_id": "ChIJF_GiDO_gJIgR1VZPHRihQr4",
+    "colors": {
+      "primary": "#e63a41",
+      "secondary": "#1273b8",
+      "accent": "#2fb9dd",
+      "palette": [
+        "#e63a41",
+        "#2fb9dd",
+        "#1273b8",
+        "#ffffff"
+      ],
+      "source": "Sampled 2026-09-21 from the client's real logo upload (branding/CO-1789143868981/brand/logo-1790002561665.jpg): red arrow, cyan-outlined FLOOD & FIRE, blue SOLUTIONS INC bar. Site had been shipping scaffold-default near-black (the ACS null-colors class)."
+    }
+  },
+  "services": [
+    "water-damage-restoration",
+    "water-cleanup",
+    "fire-damage-restoration",
+    "sewage-cleanup"
   ],
-  "place_id": "ChIJF_GiDO_gJIgR1VZPHRihQr4"
- },
- "services": [
-  "water-damage-restoration"
- ],
- "service_areas": [
-  {
-   "city": "Macomb",
-   "state": "MI",
-   "slug": "macomb-mi",
-   "primary": true
-  },
-  {
-   "city": "Sterling Heights",
-   "state": "MI",
-   "slug": "sterling-heights-mi"
-  },
-  {
-   "city": "Warren",
-   "state": "MI",
-   "slug": "warren-mi"
-  },
-  {
-   "city": "Clinton Township",
-   "state": "MI",
-   "slug": "clinton-township-mi"
-  },
-  {
-   "city": "Troy",
-   "state": "MI",
-   "slug": "troy-mi"
-  },
-  {
-   "city": "Rochester Hills",
-   "state": "MI",
-   "slug": "rochester-hills-mi"
-  },
-  {
-   "city": "Shelby Township",
-   "state": "MI",
-   "slug": "shelby-township-mi"
-  },
-  {
-   "city": "Utica",
-   "state": "MI",
-   "slug": "utica-mi"
-  },
-  {
-   "city": "Chesterfield",
-   "state": "MI",
-   "slug": "chesterfield-mi"
-  }
- ],
- "template": "restoration",
- "blog_seed_count": 8
+  "service_areas": [
+    {
+      "city": "Macomb",
+      "state": "MI",
+      "slug": "macomb-mi",
+      "primary": true
+    },
+    {
+      "city": "Sterling Heights",
+      "state": "MI",
+      "slug": "sterling-heights-mi"
+    },
+    {
+      "city": "Warren",
+      "state": "MI",
+      "slug": "warren-mi"
+    },
+    {
+      "city": "Clinton Township",
+      "state": "MI",
+      "slug": "clinton-township-mi"
+    },
+    {
+      "city": "Troy",
+      "state": "MI",
+      "slug": "troy-mi"
+    },
+    {
+      "city": "Rochester Hills",
+      "state": "MI",
+      "slug": "rochester-hills-mi"
+    },
+    {
+      "city": "Shelby Township",
+      "state": "MI",
+      "slug": "shelby-township-mi"
+    },
+    {
+      "city": "Utica",
+      "state": "MI",
+      "slug": "utica-mi"
+    },
+    {
+      "city": "Chesterfield",
+      "state": "MI",
+      "slug": "chesterfield-mi"
+    }
+  ],
+  "template": "restoration",
+  "blog_seed_count": 8
 }

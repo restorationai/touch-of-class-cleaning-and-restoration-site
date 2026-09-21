@@ -1,6 +1,6 @@
 ---
 archetype: "legal"
-title: "Terms of Service | Flood Solutions inc"
+title: "Terms of Service | Flood & Fire Solutions"
 h1: "Terms of Service"
 meta_description: "Terms of Service | {brand.display_name}."
 primary_keyword: "flood solutions inc terms"

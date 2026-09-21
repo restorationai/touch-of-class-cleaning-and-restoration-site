@@ -13,10 +13,26 @@
     "trust_badges": [
       "Licensed & Insured",
       "Locally Owned & Operated"
-    ]
+    ],
+    "place_id": "ChIJF_GiDO_gJIgR1VZPHRihQr4",
+    "colors": {
+      "primary": "#e63a41",
+      "secondary": "#1273b8",
+      "accent": "#2fb9dd",
+      "palette": [
+        "#e63a41",
+        "#2fb9dd",
+        "#1273b8",
+        "#ffffff"
+      ],
+      "source": "Sampled 2026-09-21 from the client's real logo upload (branding/CO-1789143868981/brand/logo-1790002561665.jpg): red arrow, cyan-outlined FLOOD & FIRE, blue SOLUTIONS INC bar. Site had been shipping scaffold-default near-black (the ACS null-colors class)."
+    }
   },
   "services": [
-    "water-damage-restoration"
+    "water-damage-restoration",
+    "water-cleanup",
+    "fire-damage-restoration",
+    "sewage-cleanup"
   ],
   "service_areas": [
     {

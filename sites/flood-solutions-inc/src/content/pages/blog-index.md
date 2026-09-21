@@ -1,8 +1,8 @@
 ---
 archetype: "blog-index"
-title: "Restoration Blog | Flood Solutions inc"
+title: "Restoration Blog | Flood & Fire Solutions"
 h1: "Restoration Resources and Insights"
-meta_description: "Guides, checklists, and explainers from Flood Solutions inc on water, fire, mold, and storm damage restoration."
+meta_description: "Guides, checklists, and explainers from Flood & Fire Solutions on water, fire, mold, and storm damage restoration."
 primary_keyword: "restoration blog macomb"
 secondary_keywords: ["restoration guides", "damage restoration tips", "restoration insights"]
 search_intent: "informational_browse"

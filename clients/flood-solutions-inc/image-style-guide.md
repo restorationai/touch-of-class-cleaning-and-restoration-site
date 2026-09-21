@@ -185,7 +185,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Water Cleanup)
+- [ ] (continue for each of Water Damage Restoration, Emergency Water Cleanup, Fire Damage Restoration, Sewage Cleanup and Sanitization)
 
 ### Service area pages (one image per city served)
 - [ ] Macomb hero — exterior shot, regional housing stock, evocative of the city

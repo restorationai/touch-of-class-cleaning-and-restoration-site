@@ -1,6 +1,6 @@
 ---
 archetype: "service-area"
-title: "Restoration Services in Utica, MI | Flood Solutions inc"
+title: "Restoration Services in Utica, MI | Flood & Fire Solutions"
 h1: "Restoration Services in Utica"
 meta_description: "Serving Utica, MI with water, fire, mold, and storm damage restoration. Experienced team. Call (586) 580-0197."
 primary_keyword: "restoration services utica"

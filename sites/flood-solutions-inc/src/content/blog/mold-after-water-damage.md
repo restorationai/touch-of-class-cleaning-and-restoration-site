@@ -71,7 +71,7 @@ Call a water damage restoration professional when:
 - Water has entered wall cavities, under flooring, or into a crawl space, anywhere you can't physically reach to dry.
 - You or anyone in the home has respiratory sensitivities, asthma, or a compromised immune system.
 
-Flood Solutions inc handles both water damage restoration and mold remediation for homes throughout Macomb and the surrounding area. If you're past the first 48 hours and unsure what you're dealing with, a professional assessment can tell you whether you're still in mitigation territory or already into remediation. Reach them at **(586) 580-0197**.
+Flood & Fire Solutions handles both water damage restoration and mold remediation for homes throughout Macomb and the surrounding area. If you're past the first 48 hours and unsure what you're dealing with, a professional assessment can tell you whether you're still in mitigation territory or already into remediation. Reach them at **(586) 580-0197**.
 
 ## The Longer Recovery: What Happens After the Water Is Gone
 
@@ -85,4 +85,4 @@ The full recovery arc from a significant water loss, mitigation, drying, remedia
 
 ---
 
-If you're reading this in the hours after a leak or flood, the most important thing to know is that the timeline is real and it's already running. Getting water out and airflow moving today is meaningfully better than doing the same thing tomorrow. If the situation is beyond what you can manage with household equipment, Flood Solutions inc serves Macomb and the surrounding communities, call **(586) 580-0197** to talk through what you're dealing with.
+If you're reading this in the hours after a leak or flood, the most important thing to know is that the timeline is real and it's already running. Getting water out and airflow moving today is meaningfully better than doing the same thing tomorrow. If the situation is beyond what you can manage with household equipment, Flood & Fire Solutions serves Macomb and the surrounding communities, call **(586) 580-0197** to talk through what you're dealing with.

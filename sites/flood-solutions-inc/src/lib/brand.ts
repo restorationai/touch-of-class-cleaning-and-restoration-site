@@ -4,9 +4,9 @@
 
 export const brand = {
   slug: "flood-solutions-inc",
-  displayName: "Flood Solutions inc",
-  shortName: "Flood Solutions inc",
-  legalName: "Flood Solutions inc",
+  displayName: "Flood & Fire Solutions",
+  shortName: "Flood & Fire Solutions",
+  legalName: "Flood and Fire Solutions Inc",
   domain: "floodsolutionsinc.com",
   canonicalUrl: "https://floodsolutionsinc.com",
   phone: "(586) 580-0197",
@@ -36,13 +36,13 @@ export const brand = {
   lat: "",
   lng: "",
   placeId: "",
-  googleCid: "",
+  googleCid: "13709697340612237013",
   imagesBase: "https://images.floodsolutionsinc.com",
   googleMapsApiKey: "",
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "",
   clarityProjectId: "",
-  logoUrl: "https://images.floodsolutionsinc.com/brand/logo.png",
+  logoUrl: "/images/logo.png",
   licenseNumbers: [] as string[],
   licenseAuthority: "",
   // State license-verification page — the footer links the license number here.
@@ -75,7 +75,7 @@ export const brand = {
   tradeNoun: "restoration",
   specialistPhrase: "Damage Restoration Specialists",
   announcementSuffix: "24/7 Emergency Response",
-  homeAboutBlurb: "Flood Solutions inc serves Macomb and the surrounding MI area with professional damage restoration for homes and businesses. From the first emergency call to the final walkthrough, our team manages the entire recovery — and we answer the phone 24/7, so help is on the way the moment something goes wrong.",
+  homeAboutBlurb: "Flood & Fire Solutions serves Macomb and the surrounding MI area with professional damage restoration for homes and businesses. From the first emergency call to the final walkthrough, our team manages the entire recovery — and we answer the phone 24/7, so help is on the way the moment something goes wrong.",
 } as const;
 
 export const entityId = `${brand.canonicalUrl}/#identity`;

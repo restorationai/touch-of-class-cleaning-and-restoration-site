@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Clinton Township, MI | Flood Solutions inc"
+title: "Water Damage Restoration in Clinton Township, MI | Flood & Fire Solutions"
 h1: "Water Damage Restoration in Clinton Township"
 meta_description: "Water damage restoration in Clinton Township, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "water damage restoration clinton township"

@@ -1,6 +1,6 @@
 ---
 archetype: "service-area"
-title: "Restoration Services in Warren, MI | Flood Solutions inc"
+title: "Restoration Services in Warren, MI | Flood & Fire Solutions"
 h1: "Restoration Services in Warren"
 meta_description: "Serving Warren, MI with water, fire, mold, and storm damage restoration. Experienced team. Call (586) 580-0197."
 primary_keyword: "restoration services warren"
@@ -19,7 +19,7 @@ state: "MI"
 primary: false
 rendered: true
 ---
-Flood Solutions inc has been handling water damage, fire damage, mold remediation, and reconstruction for Warren property owners since 1996, operating out of Macomb and reaching Warren quickly via familiar Macomb County routes. When a pipe bursts behind a finished basement wall or a sump pump fails during a spring storm, the call goes to (586) 580-0197 and a crew gets moving, no hand-offs, no subcontracted guesswork.
+Flood & Fire Solutions has been handling water damage, fire damage, mold remediation, and reconstruction for Warren property owners since 1996, operating out of Macomb and reaching Warren quickly via familiar Macomb County routes. When a pipe bursts behind a finished basement wall or a sump pump fails during a spring storm, the call goes to (586) 580-0197 and a crew gets moving, no hand-offs, no subcontracted guesswork.
 
 ## Restoration emergencies common in Warren
 
@@ -57,4 +57,4 @@ Plumbing in this era typically means copper supply lines and cast-iron drain sta
 
 Warren's soils are predominantly clay-heavy, which expands when saturated and drains slowly, a combination that puts lateral pressure on basement walls and keeps groundwater elevated after sustained rain. Structural repairs and significant reconstruction in Warren require permits through the City of Warren Building Department. Work that exposes or replaces structural framing, alters plumbing, or involves electrical typically triggers a permit and inspection.
 
-When a loss has gone further than you thought, and in Warren's aging housing stock, it often has, call Flood Solutions inc at (586) 580-0197. We assess the full scope, work with your insurance carrier, and handle the job from first extraction to finished reconstruction.
+When a loss has gone further than you thought, and in Warren's aging housing stock, it often has, call Flood & Fire Solutions at (586) 580-0197. We assess the full scope, work with your insurance carrier, and handle the job from first extraction to finished reconstruction.

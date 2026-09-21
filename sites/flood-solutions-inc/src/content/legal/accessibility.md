@@ -1,6 +1,6 @@
 ---
 archetype: "legal"
-title: "Accessibility Statement | Flood Solutions inc"
+title: "Accessibility Statement | Flood & Fire Solutions"
 h1: "Accessibility Statement"
 meta_description: "Accessibility Statement | {brand.display_name}."
 primary_keyword: "flood solutions inc accessibility"
