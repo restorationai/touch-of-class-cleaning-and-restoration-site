@@ -1,6 +1,6 @@
 {
-  "last_kind": "geo",
-  "cycle_pos": 0,
+  "last_kind": "blog",
+  "cycle_pos": 1,
   "geo_cursor": 4,
   "history": [
     {
@@ -50,6 +50,14 @@
       "service": "water-damage-restoration",
       "city": "American Fork",
       "youtube_id": "IQ2DL-nWTEw"
+    },
+    {
+      "ts": "2026-09-21T16:53:15.423926+00:00",
+      "kind": "blog",
+      "post": "water-damage-restoration-cost-ut",
+      "service": null,
+      "city": null,
+      "youtube_id": "uReP-Y9udHI"
     }
   ]
 }
