@@ -626,8 +626,17 @@ def attempt_auto_resubmit(r: dict, ver: dict, apply: bool) -> bool:
         fields["BusinessRegistrationCountry"] = "US"
     elif sname == "legal-name":
         legal = (r.get("legal_business_name") or "").strip()
+        # DryCor 2026-09-21: the vault can hold the DBA, which is exactly
+        # what got rejected. The client's uploaded paperwork outranks it.
+        harvested = _scan_docs_for_legal_name(r)
+        if harvested and harvested.lower() != legal.lower():
+            print(f"  legal-name: docs say '{harvested}' "
+                  f"(vault had '{legal or '—'}') — using it and re-vaulting")
+            legal = harvested
+            _sb("PATCH", f"/rest/v1/company_phone_setup?id=eq.{cid}",
+                {"legal_business_name": legal}, prefer="return=minimal")
         if not legal or legal.lower() == name.lower():
-            print("  legal-name: no distinct vaulted legal name — "
+            print("  legal-name: no distinct legal name in vault or docs — "
                   "escalating")
             return False
         fields["BusinessName"] = legal
@@ -754,6 +763,119 @@ def _scan_docs_for_ein(r: dict) -> str | None:
                 return ein
         except Exception as e:  # noqa: BLE001
             print(f"  (doc-scan {path.split('/')[-1]}: {str(e)[:80]})")
+    return None
+
+
+_LEGAL_SUFFIX_RE = re.compile(
+    r"\b(LLC|L\.L\.C\.|Inc\.?|Incorporated|Corp\.?|Corporation|Ltd\.?|"
+    r"LLP|PLLC|P\.?A\.?|Company|Co\.)\s*$", re.I)
+
+
+def _scan_docs_for_legal_name(r: dict) -> str | None:
+    """The DryCor 2026-09-21 lesson: toll-free/TCR reviewers validate
+    BusinessName against the entity the EIN is registered to, and the vault
+    often holds the DBA the client trades under ("DRYCOR RESTORE"), not the
+    registered entity ("Showalter Construction & Restoration, LLC"). The
+    client's own uploaded paperwork carries the real one — COI insured
+    lines ("<Legal Entity, LLC> DBA <brand>"), IRS EIN letters, W-9s.
+    Read the newest few docs with Claude and return a corporate-suffixed
+    legal entity name, or None. Read-only; the caller decides writes."""
+    cid = r["id"]
+    sb = os.environ["SUPABASE_URL"].rstrip("/")
+    key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+    akey = os.environ.get("ANTHROPIC_API_KEY")
+    if not akey:
+        return None
+    brand = (r["company"].get("name") or "").strip()
+
+    def _ls(prefix: str) -> list[dict]:
+        req = urllib.request.Request(
+            f"{sb}/storage/v1/object/list/branding", method="POST",
+            data=json.dumps({"prefix": prefix, "limit": 30,
+                             "sortBy": {"column": "created_at",
+                                        "order": "desc"}}).encode(),
+            headers={"Authorization": f"Bearer {key}",
+                     "Content-Type": "application/json"})
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return json.load(resp) or []
+        except Exception:  # noqa: BLE001
+            return []
+
+    # {cid}/docs plus every one of its immediate subfolders (insurance/,
+    # other/, inbox/... — clients file paperwork anywhere) + compliance/.
+    folders = [f"{cid}/docs", f"{cid}/compliance"]
+    folders[1:1] = [f"{cid}/docs/{o['name']}" for o in _ls(f"{cid}/docs")
+                    if not o.get("id")]
+    files: list[str] = []
+    for folder in folders:
+        for o in _ls(folder):
+            name = o.get("name") or ""
+            ext = os.path.splitext(name)[1].lower()
+            if o.get("id") and ext in _DOC_EXTS:
+                files.append(f"{folder}/{name}")
+    # PDFs first: legal paperwork (COIs, IRS letters, W-9s) is PDF; loose
+    # images are mostly signatures/logos and each costs a vision call.
+    files.sort(key=lambda p: 0 if p.lower().endswith(".pdf") else 1)
+    for path in files[:6]:
+        ext = os.path.splitext(path)[1].lower()
+        media = _DOC_EXTS[ext]
+        try:
+            req = urllib.request.Request(
+                f"{sb}/storage/v1/object/branding/{path}",
+                headers={"Authorization": f"Bearer {key}"})
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                blob = resp.read()
+        except Exception:  # noqa: BLE001
+            continue
+        if len(blob) > 8_000_000:
+            continue
+        block = ({"type": "document",
+                  "source": {"type": "base64", "media_type": media,
+                             "data": base64.b64encode(blob).decode()}}
+                 if media == "application/pdf" else
+                 {"type": "image",
+                  "source": {"type": "base64", "media_type": media,
+                             "data": base64.b64encode(blob).decode()}})
+        body = {
+            "model": "claude-haiku-4-5-20251001", "max_tokens": 200,
+            "system": "You read one business document. Find the REGISTERED "
+                      "LEGAL ENTITY NAME of the business — the entity that "
+                      "owns its EIN. On insurance certificates it is the "
+                      "INSURED line; the pattern '<Legal Entity, LLC> DBA "
+                      "<brand name>' means the part BEFORE 'DBA' is the "
+                      "legal entity. A bare brand/DBA name with no "
+                      "corporate suffix (LLC, Inc, Corp...) is NOT the "
+                      "answer. Reply with ONLY a JSON object: "
+                      '{"legal_name": "..."} or {"legal_name": null}. '
+                      "Copy the name exactly; never guess.",
+            "messages": [{"role": "user", "content": [
+                block,
+                {"type": "text", "text":
+                    f"The business trades as \"{brand}\". Extract its "
+                    "registered legal entity name."}]}],
+        }
+        try:
+            req = urllib.request.Request(
+                "https://api.anthropic.com/v1/messages", method="POST",
+                data=json.dumps(body).encode(),
+                headers={"x-api-key": akey,
+                         "anthropic-version": "2023-06-01",
+                         "Content-Type": "application/json"})
+            with urllib.request.urlopen(req, timeout=90) as resp:
+                res = json.load(resp)
+            text = "".join(b.get("text", "")
+                           for b in res.get("content") or [])
+            m = re.search(r'"legal_name"\s*:\s*"([^"]{4,120})"', text)
+            if m:
+                cand = m.group(1).strip().rstrip(".")
+                if _LEGAL_SUFFIX_RE.search(cand):
+                    print(f"  [{brand}] legal name '{cand}' read from "
+                          f"uploaded document {path.split('/')[-1]}")
+                    return cand
+        except Exception as e:  # noqa: BLE001
+            print(f"  (legal-name doc-scan {path.split('/')[-1]}: "
+                  f"{str(e)[:80]})")
     return None
 
 
