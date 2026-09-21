@@ -1043,7 +1043,7 @@
     },
     {
       "id": "2026-09-18-what-happens-during-biohazard-cleanup",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-18T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -1075,8 +1075,7 @@
         "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
         "https://www.cdc.gov/infection-control/hcp/environmental-control/index.html"
       ],
-      "notes": "Zero Google volume but the ChatGPT scraper decomposed the seed straight into a five-step process answer, so this is AI-retrieval fuel. Mirror that structure: assessment and written scope, PPE, removal of contaminated materials, disinfection and odor treatment, documentation and insurance paperwork. Keep each step as its own short H2 so an AI engine can lift the passage verbatim.",
-      "banked_at": "2026-09-19T10:23:53.718911+00:00"
+      "notes": "Zero Google volume but the ChatGPT scraper decomposed the seed straight into a five-step process answer, so this is AI-retrieval fuel. Mirror that structure: assessment and written scope, PPE, removal of contaminated materials, disinfection and odor treatment, documentation and insurance paperwork. Keep each step as its own short H2 so an AI engine can lift the passage verbatim."
     },
     {
       "id": "2026-09-18-does-homeowners-insurance-cover-biohazard-cleanup",
