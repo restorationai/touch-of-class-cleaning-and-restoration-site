@@ -4602,6 +4602,59 @@ def _reveal_followup_due(company: dict | None,
     return True
 
 
+_ACK_PROMISE_RE = re.compile(
+    r"\b(we'?ll get|we'?re (?:getting|adding|updating|submitting|removing)|"
+    r"we'?ll (?:add|update|remove|fix|change|handle|take care)|"
+    r"i'?ll (?:get|pass|flag|add|update)|flagging\b|"
+    r"getting (?:that|this|it|your) (?:updated|changed|fixed|added|removed))",
+    re.I)
+
+
+def _capture_acknowledged_work(company: dict | None, contact: dict | None,
+                               body: str) -> None:
+    """Monica promised action -> a capture note exists, always. Pairs the
+    outbound promise with the client's newest inbound so whoever executes
+    (dev agent tonight, or Santino) sees the actual request verbatim."""
+    cid = str((company or {}).get("id") or "")
+    if not (cid and body) or not _ACK_PROMISE_RE.search(body):
+        return
+    # The feedback router may already have filed real work for this — a
+    # second note would be noise. 2-hour overlap window, monica-authored.
+    recent = _sb("GET", "/rest/v1/marketing_ops_notes"
+                 f"?company_id=eq.{cid}&author=eq.monica&status=eq.open"
+                 "&select=body,created_at&order=created_at.desc&limit=5") or []
+    now = datetime.now(timezone.utc)
+    for n in recent:
+        try:
+            age = (now - datetime.fromisoformat(
+                str(n["created_at"]).replace("Z", "+00:00"))).total_seconds()
+        except ValueError:
+            continue
+        if age < 7200 and ("[DEV]" in (n.get("body") or "")
+                           or "[TODO-PROPOSED]" in (n.get("body") or "")
+                           or "[MONICA-ACK]" in (n.get("body") or "")):
+            return
+    inbound = ""
+    try:
+        if contact and contact.get("id"):
+            hist = fetch_history(contact["id"], 6)
+            ins = [m for m in hist if m.get("direction") == "in"
+                   and (m.get("body") or "").strip()]
+            if ins:
+                inbound = str(ins[-1].get("body") or "")[:300]
+    except Exception:  # noqa: BLE001
+        pass
+    _sb("POST", "/rest/v1/marketing_ops_notes",
+        {"company_id": cid, "status": "open", "author": "monica",
+         "body": ("[MONICA-ACK] EXECUTION NEEDED — Monica acknowledged work "
+                  f"to the client.\nClient said: \"{inbound}\"\n"
+                  f"Monica replied: \"{body[:300]}\"\n"
+                  "Route it: convert to a [DEV] task or do it, then resolve "
+                  "this note. Her words and reality must match.")},
+        prefer="return=minimal")
+    print("  [ack-net] capture note filed (promise detected)")
+
+
 def send_message(contact: dict, channel: str, body: str,
                  subject: str | None = None,
                  company: dict | None = None,
@@ -4826,6 +4879,17 @@ def send_message(contact: dict, channel: str, body: str,
             _stamp_preview_reveal(company, body)
         except Exception as _e:  # noqa: BLE001 — stamping never breaks a send
             print(f"  [reveal-stamp] {str(_e)[:80]}")
+        # ACKNOWLEDGMENT NET (Santino 2026-09-21, Alfredo's address +
+        # Addi's removals: Monica said "we'll get it updated" / "flagging
+        # for removal now" and NOTHING captured the work). Any client send
+        # that promises action files a capture note pairing the client's
+        # triggering message — unless the feedback router already filed a
+        # [DEV]/[TODO-PROPOSED] for this company in the last 2 hours.
+        # Monica's words and the work queue can no longer diverge.
+        try:
+            _capture_acknowledged_work(company, contact, body)
+        except Exception as _e:  # noqa: BLE001 — the net never breaks a send
+            print(f"  [ack-net] {str(_e)[:80]}")
         # DURABLE machine-sent marks (2026-09-14, the Mike/Tony instant-reply
         # poisoning): the state-blob ledger races across processes, so a
         # concurrent run can clobber freshly recorded ids and this send then
@@ -7473,6 +7537,13 @@ Fields per entry:
            distorted", "I think you went overboard") is NOT a complaint, it
            is a client doing their job. Getting this wrong in the cautious
            direction just means Santino reads it first.
+BUSINESS-FACT CHANGES ARE FEEDBACK even when nothing is "wrong" and even
+when the site is never mentioned (Alfredo/ACS 2026-09-21: "change my
+address to..." was acknowledged and then executed by nobody). A request to
+change the business address, phone, hours, service areas, or people
+(remove someone from a campaign or a list) is category "brand" or
+"service_area" work on OUR side — it ripples to the site, the records, and
+the campaigns whether or not they say the word "website".
 NOT feedback: compliments, approvals ("go ahead and launch it"), questions
 about how something works, anything about their Google listing / reviews /
 ads / billing, and anything they are going to do themselves.
