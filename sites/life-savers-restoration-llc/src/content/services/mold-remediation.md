@@ -27,7 +27,7 @@ Timeline varies by the size and severity of the affected area. A single bathroom
 
 ## Our process
 
-1. **Inspection and moisture mapping.** Before any material is removed, technicians use moisture meters and thermal imaging to trace the moisture source and define the full extent of growth, including areas where mold is present but not yet visible. Skipping this step is the single most common reason mold returns after remediation.
+1. **Inspection and moisture mapping.** Before any material is removed, technicians use moisture meters and thermal imaging to trace the moisture source and define the full extent of growth, including areas where mold is present but not yet visible. Skipping this step is the single most common reason mold returns after remediation. If you're still deciding whether you even have a problem, our guide to [home mold testing](/blog/how-to-test-for-mold/) walks through DIY kits versus a professional inspection and when each is worth it.
 
 2. **Containment setup.** Affected areas are isolated with poly sheeting and negative air pressure so that disturbing the mold during removal doesn't spread spores to unaffected parts of the home. For larger or more severe losses, full critical barriers with zipper-door entry points are established per IICRC S520 guidelines.
 
