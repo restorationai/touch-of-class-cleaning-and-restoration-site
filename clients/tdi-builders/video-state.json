@@ -1,7 +1,7 @@
 {
-  "last_kind": "blog",
-  "cycle_pos": 1,
-  "geo_cursor": 0,
+  "last_kind": "geo",
+  "cycle_pos": 2,
+  "geo_cursor": 1,
   "history": [
     {
       "ts": "2026-09-21T17:18:48.457892+00:00",
@@ -10,6 +10,14 @@
       "service": null,
       "city": null,
       "youtube_id": "Flv1NhTj5zo"
+    },
+    {
+      "ts": "2026-09-21T20:39:36.093455+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "water-damage-restoration",
+      "city": "Sacramento",
+      "youtube_id": "cSO2Yj8gEKs"
     }
   ]
 }
