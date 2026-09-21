@@ -1,7 +1,7 @@
 {
-  "last_kind": "blog",
-  "cycle_pos": 1,
-  "geo_cursor": 0,
+  "last_kind": "geo",
+  "cycle_pos": 2,
+  "geo_cursor": 1,
   "history": [
     {
       "ts": "2026-09-21T16:26:41.879006+00:00",
@@ -10,6 +10,14 @@
       "service": null,
       "city": null,
       "youtube_id": "PHTQXNb1g8A"
+    },
+    {
+      "ts": "2026-09-21T20:15:04.793078+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "water-damage-restoration",
+      "city": "Sioux Falls",
+      "youtube_id": "q-pm783U0io"
     }
   ]
 }
