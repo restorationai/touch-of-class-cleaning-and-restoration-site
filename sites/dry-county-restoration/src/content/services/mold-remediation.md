@@ -31,7 +31,7 @@ Timeline depends heavily on scope. A single affected wall cavity might be cleare
 
 1. **Moisture investigation and scope definition.** Before containment goes up, we trace the moisture source that fed the growth. Mold is a symptom. If the source, a slow pipe leak, condensation from an improperly insulated duct, a failed roof penetration, is not corrected, remediation is temporary. Thermal imaging and moisture meters map hidden saturation that visual inspection misses.
 
-2. **Containment and negative air pressure.** Poly barriers isolate the work zone. A HEPA-filtered negative air machine exhausts to the exterior, keeping the contained space at lower pressure than surrounding rooms so any disturbed spores move toward the machine, not toward your living space.
+2. **Use of containment to prevent the spread of mold spores.** Poly barriers isolate the work zone. A HEPA-filtered negative air machine exhausts to the exterior, keeping the contained space at lower pressure than surrounding rooms so any disturbed spores move toward the machine, not toward your living space.
 
 3. **Controlled removal of colonized materials.** Affected drywall, insulation, and other porous materials are removed in manageable sections, bagged inside containment, and transported out without cross-contaminating clean areas. Structural wood that can be retained is mechanically cleaned and treated.
 
