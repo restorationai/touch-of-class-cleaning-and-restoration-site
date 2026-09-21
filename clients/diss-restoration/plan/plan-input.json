@@ -27,7 +27,11 @@
       "Licensed & Insured",
       "24/7 Emergency Service",
       "Locally Owned & Operated"
-    ]
+    ],
+    "primary_color": "#123f85",
+    "color_source": "sampled from the client-uploaded logo (branding bucket, 2026-08-05): shield navy #123f85 is the dominant saturated hue at 23.8% of logo pixels; water-blue #378ec4 and fire-orange #da6b29 are the secondary marks",
+    "ga4_measurement_id": "G-QQDEBB808D",
+    "place_id": "ChIJHWRJjvrBM4gRsKk68P7eLjc"
   },
   "services": [
     "water-damage-restoration",
@@ -90,6 +94,66 @@
       "city": "Hubbard",
       "state": "OH",
       "slug": "hubbard-oh"
+    },
+    {
+      "city": "Campbell",
+      "state": "OH",
+      "slug": "campbell-oh"
+    },
+    {
+      "city": "Mineral Ridge",
+      "state": "OH",
+      "slug": "mineral-ridge-oh"
+    },
+    {
+      "city": "Farrell",
+      "state": "PA",
+      "slug": "farrell-pa"
+    },
+    {
+      "city": "Sharon",
+      "state": "PA",
+      "slug": "sharon-pa"
+    },
+    {
+      "city": "Hermitage",
+      "state": "PA",
+      "slug": "hermitage-pa"
+    },
+    {
+      "city": "Sharpsville",
+      "state": "PA",
+      "slug": "sharpsville-pa"
+    },
+    {
+      "city": "Wheatland",
+      "state": "PA",
+      "slug": "wheatland-pa"
+    },
+    {
+      "city": "West Middlesex",
+      "state": "PA",
+      "slug": "west-middlesex-pa"
+    },
+    {
+      "city": "Greenville",
+      "state": "PA",
+      "slug": "greenville-pa"
+    },
+    {
+      "city": "Grove City",
+      "state": "PA",
+      "slug": "grove-city-pa"
+    },
+    {
+      "city": "Mercer",
+      "state": "PA",
+      "slug": "mercer-pa"
+    },
+    {
+      "city": "New Castle",
+      "state": "PA",
+      "slug": "new-castle-pa"
     }
   ],
   "template": "restoration",

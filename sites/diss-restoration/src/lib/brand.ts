@@ -7,10 +7,23 @@ export const brand = {
   displayName: "DISS Restoration",
   shortName: "DISS Restoration",
   legalName: "DISS Restoration",
+  // Registered DBA / trade name — filled by rename_site_sync.py the moment
+  // the state approves the client's DBA filing (empty until then). When set,
+  // the footer carries the "[legal] doing business as [DBA]" line and schema
+  // declares it as the business name, so Google/BrightLocal find the new
+  // name corroborated on the site before and during the GBP rename.
+  dbaName: "",
   domain: "dissrestoration.com",
   canonicalUrl: "https://dissrestoration.com",
   phone: "(724) 981-1441",
   phoneRaw: "+17249811441",
+  // Sitewide call-tracking number (2026-08-24). When BOTH fields are set,
+  // a tiny inline script in BaseLayout swaps every visible phone mention
+  // and tel: link to this number AFTER the page renders. The HTML source,
+  // the JSON-LD in schema.ts, and anything crawlers/citation-checkers read
+  // keep the canonical NAP number above — humans dial the tracked line,
+  // Google sees consistent NAP. Empty = feature off (default at scaffold;
+  // filled by the call-tracking provisioning step).
   trackingPhone: "(724) 578-5739",
   trackingPhoneRaw: "+17245785739",
   email: "info@dissrestoration.com",
@@ -28,15 +41,13 @@ export const brand = {
   postalCode: "16121",
   lat: "41.1035786",
   lng: "-80.6520161",
-  placeId: "",
+  placeId: "ChIJHWRJjvrBM4gRsKk68P7eLjc",
   googleCid: "",
   imagesBase: "https://images.dissrestoration.com",
   googleMapsApiKey: "",
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "G-QQDEBB808D",
   clarityProjectId: "",
-  // local file until the client's domain + R2 bucket exist; switch to
-  // images.{domain}/brand/logo.png at production cutover
   logoUrl: "/images/logo.png",
   licenseNumbers: [] as string[],
   licenseAuthority: "",
@@ -49,7 +60,7 @@ export const brand = {
   certifications: ["IICRC CERTIFIED FIRM", "IICRC WRT (WATER)", "IICRC FSRT (FIRE & SMOKE)", "IICRC AMRT (MOLD)", "EPA LEAD-SAFE CERTIFIED", "OSHA TRAINED", "IICRC ASD (STRUCTURAL DRYING)"] as string[],
   trustBadges: ["IICRC Certified Firm", "Licensed & Insured", "24/7 Emergency Service", "Locally Owned & Operated"] as string[],
   jobPhotos: [] as string[],
-  sameAsUrls: ["https://www.facebook.com/DISSRestoration/", "https://maps.google.com/maps?cid=3976360707548162480", "https://www.bbb.org/us/pa/farrell/profile/fire-water-damage-restoration/diss-restoration-0141-10835"] as string[],
+  sameAsUrls: [] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.7",
@@ -67,6 +78,9 @@ export const brand = {
   // Vertical trade-identity copy — resolved at scaffold time from
   // templates/{vertical}/vertical-tokens.json (see scripts/verticals.py).
   // Components must use these instead of hardcoding a trade phrase.
+  // vertical gates layout too: restoration is call-first, so the homepage
+  // hero renders NO estimate form there (Santino 2026-09-11).
+  vertical: "restoration",
   tradeNoun: "restoration",
   specialistPhrase: "Damage Restoration Specialists",
   announcementSuffix: "24/7 Emergency Response",

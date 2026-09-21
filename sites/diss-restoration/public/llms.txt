@@ -33,11 +33,26 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Struthers, OH](https://dissrestoration.com/service-areas/struthers-oh/)
 - [Canfield, OH](https://dissrestoration.com/service-areas/canfield-oh/)
 - [Hubbard, OH](https://dissrestoration.com/service-areas/hubbard-oh/)
+- [Campbell, OH](https://dissrestoration.com/service-areas/campbell-oh/)
+- [Mineral Ridge, OH](https://dissrestoration.com/service-areas/mineral-ridge-oh/)
+- [Farrell, PA](https://dissrestoration.com/service-areas/farrell-pa/)
+- [Sharon, PA](https://dissrestoration.com/service-areas/sharon-pa/)
+- [Hermitage, PA](https://dissrestoration.com/service-areas/hermitage-pa/)
+- [Sharpsville, PA](https://dissrestoration.com/service-areas/sharpsville-pa/)
+- [Wheatland, PA](https://dissrestoration.com/service-areas/wheatland-pa/)
+- [West Middlesex, PA](https://dissrestoration.com/service-areas/west-middlesex-pa/)
+- [Greenville, PA](https://dissrestoration.com/service-areas/greenville-pa/)
+- [Grove City, PA](https://dissrestoration.com/service-areas/grove-city-pa/)
+- [Mercer, PA](https://dissrestoration.com/service-areas/mercer-pa/)
+- [New Castle, PA](https://dissrestoration.com/service-areas/new-castle-pa/)
 
 ### Resources
 - [Blog](https://dissrestoration.com/blog/): Restoration guides and local resources
 - [About](https://dissrestoration.com/about/): Company background and credentials
 - [Contact](https://dissrestoration.com/contact/): Phone, email, and service request form
+
+### Official profiles
+(profiles listed in page schema)
 - [Emergency](https://dissrestoration.com/emergency/): 24/7 emergency water damage response
 
 ## Key facts

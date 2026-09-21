@@ -104,6 +104,56 @@
       "city": "Mineral Ridge",
       "state": "OH",
       "slug": "mineral-ridge-oh"
+    },
+    {
+      "city": "Farrell",
+      "state": "PA",
+      "slug": "farrell-pa"
+    },
+    {
+      "city": "Sharon",
+      "state": "PA",
+      "slug": "sharon-pa"
+    },
+    {
+      "city": "Hermitage",
+      "state": "PA",
+      "slug": "hermitage-pa"
+    },
+    {
+      "city": "Sharpsville",
+      "state": "PA",
+      "slug": "sharpsville-pa"
+    },
+    {
+      "city": "Wheatland",
+      "state": "PA",
+      "slug": "wheatland-pa"
+    },
+    {
+      "city": "West Middlesex",
+      "state": "PA",
+      "slug": "west-middlesex-pa"
+    },
+    {
+      "city": "Greenville",
+      "state": "PA",
+      "slug": "greenville-pa"
+    },
+    {
+      "city": "Grove City",
+      "state": "PA",
+      "slug": "grove-city-pa"
+    },
+    {
+      "city": "Mercer",
+      "state": "PA",
+      "slug": "mercer-pa"
+    },
+    {
+      "city": "New Castle",
+      "state": "PA",
+      "slug": "new-castle-pa"
     }
   ],
   "template": "restoration",

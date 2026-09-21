@@ -28,8 +28,8 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `DISS Restoration` | plan-input `brand.display_name` | `National Restoration Construction` |
 | `DISS Restoration` | plan-input `brand.short_name` | `NARESTCO` |
 | `DISS Restoration` | plan-input `brand.legal_name` | `National Restoration Construction LLC` |
-| `` | client record `domain` | `narestco.com` |
-| `https://None` | derived | `https://narestco.com` |
+| `dissrestoration.com` | client record `domain` | `narestco.com` |
+| `https://dissrestoration.com` | derived | `https://narestco.com` |
 | `(724) 981-1441` / `+17249811441` | brand.phone | `(206) 883-0333` / `+12068830333` |
 | `info@dissrestoration.com` | brand.email | `info@narestco.com` |
 | `24/7` | brand.hours | `24/7` |
@@ -37,38 +37,50 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `Youngstown` / `OH` | derived from primary area | `Federal Way` / `WA` |
 | `712 Spearman Avenue` / `16121` | brand.street_address / brand.postal_code | |
 | `41.1035786` / `-80.6520161` | brand.lat / brand.lng | from GBP |
-| `` / `` | brand.place_id / brand.google_cid | from GBP |
+| `ChIJHWRJjvrBM4gRsKk68P7eLjc` / `` | brand.place_id / brand.google_cid | from GBP |
 | `[]` | brand.license_numbers (JSON-encoded array) | `["NATIORC792M6"]` |
 | `` / `` | brand.license_authority / brand.license_type | |
 | `["IICRC CERTIFIED FIRM", "IICRC WRT (WATER)", "IICRC FSRT (FIRE & SMOKE)", "IICRC AMRT (MOLD)", "EPA LEAD-SAFE CERTIFIED", "OSHA TRAINED", "IICRC ASD (STRUCTURAL DRYING)"]` | brand.certifications (JSON-encoded array) | `["IICRC", "BBB Accredited"]` |
 | `[]` | brand.same_as_urls (JSON-encoded array) | |
 | `` / `` | from GBP | `5.0` / `31` |
 | `24/7 restoration services in Youngstown, OH.` | brand.tagline | short marketing line |
-| `#dc2626` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
+| `#123f85` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
 | `Inter` / `Inter` | brand.fonts | `Inter` / `Inter` |
-| `https://images.None/brand/logo.png` / `DR` | derived; logo lives on the per-client R2 bucket | |
-| `https://images.None` | `https://images.{domain}` | |
-| `- [Water Damage Restoration](https://None/services/water-damage-restoration/)
-- [Fire Damage Restoration](https://None/services/fire-damage-restoration/)
-- [Mold Remediation](https://None/services/mold-remediation/)
-- [Storm Damage Restoration](https://None/services/storm-damage-restoration/)
-- [Renovations, Remodels and General Contracting](https://None/services/general-contracting/)
-- [Sewage Cleanup and Sanitization](https://None/services/sewage-cleanup/)
-- [Biohazard Cleanup](https://None/services/biohazard-cleanup/)
-- [Contents Restoration and Storage](https://None/services/contents-restoration/)
-- [Asbestos Abatement](https://None/services/asbestos-abatement/)
-- [Emergency Board-Up and Tarping](https://None/services/emergency-board-up-tarping/)
-- [Air Duct Cleaning](https://None/services/air-duct-cleaning/)
-- [Carpet Cleaning](https://None/services/carpet-cleaning/)
-- [Post-Construction and Specialty Cleaning](https://None/services/post-construction-cleaning/)` / `- [Youngstown, OH](https://None/service-areas/youngstown-oh/)
-- [Warren, OH](https://None/service-areas/warren-oh/)
-- [Boardman, OH](https://None/service-areas/boardman-oh/)
-- [Austintown, OH](https://None/service-areas/austintown-oh/)
-- [Niles, OH](https://None/service-areas/niles-oh/)
-- [Girard, OH](https://None/service-areas/girard-oh/)
-- [Struthers, OH](https://None/service-areas/struthers-oh/)
-- [Canfield, OH](https://None/service-areas/canfield-oh/)
-- [Hubbard, OH](https://None/service-areas/hubbard-oh/)` / `IICRC CERTIFIED FIRM, IICRC WRT (WATER), IICRC FSRT (FIRE & SMOKE), IICRC AMRT (MOLD), EPA LEAD-SAFE CERTIFIED, OSHA TRAINED, IICRC ASD (STRUCTURAL DRYING)` / `Greater Youngstown region` | computed at scaffold from plan + brand | |
+| `/images/logo.png` / `DR` | derived; logo lives on the per-client R2 bucket | |
+| `https://images.dissrestoration.com` | `https://images.{domain}` | |
+| `- [Water Damage Restoration](https://dissrestoration.com/services/water-damage-restoration/)
+- [Fire Damage Restoration](https://dissrestoration.com/services/fire-damage-restoration/)
+- [Mold Remediation](https://dissrestoration.com/services/mold-remediation/)
+- [Storm Damage Restoration](https://dissrestoration.com/services/storm-damage-restoration/)
+- [Renovations, Remodels and General Contracting](https://dissrestoration.com/services/general-contracting/)
+- [Sewage Cleanup and Sanitization](https://dissrestoration.com/services/sewage-cleanup/)
+- [Biohazard Cleanup](https://dissrestoration.com/services/biohazard-cleanup/)
+- [Contents Restoration and Storage](https://dissrestoration.com/services/contents-restoration/)
+- [Asbestos Abatement](https://dissrestoration.com/services/asbestos-abatement/)
+- [Emergency Board-Up and Tarping](https://dissrestoration.com/services/emergency-board-up-tarping/)
+- [Air Duct Cleaning](https://dissrestoration.com/services/air-duct-cleaning/)
+- [Carpet Cleaning](https://dissrestoration.com/services/carpet-cleaning/)
+- [Post-Construction and Specialty Cleaning](https://dissrestoration.com/services/post-construction-cleaning/)` / `- [Youngstown, OH](https://dissrestoration.com/service-areas/youngstown-oh/)
+- [Warren, OH](https://dissrestoration.com/service-areas/warren-oh/)
+- [Boardman, OH](https://dissrestoration.com/service-areas/boardman-oh/)
+- [Austintown, OH](https://dissrestoration.com/service-areas/austintown-oh/)
+- [Niles, OH](https://dissrestoration.com/service-areas/niles-oh/)
+- [Girard, OH](https://dissrestoration.com/service-areas/girard-oh/)
+- [Struthers, OH](https://dissrestoration.com/service-areas/struthers-oh/)
+- [Canfield, OH](https://dissrestoration.com/service-areas/canfield-oh/)
+- [Hubbard, OH](https://dissrestoration.com/service-areas/hubbard-oh/)
+- [Campbell, OH](https://dissrestoration.com/service-areas/campbell-oh/)
+- [Mineral Ridge, OH](https://dissrestoration.com/service-areas/mineral-ridge-oh/)
+- [Farrell, PA](https://dissrestoration.com/service-areas/farrell-pa/)
+- [Sharon, PA](https://dissrestoration.com/service-areas/sharon-pa/)
+- [Hermitage, PA](https://dissrestoration.com/service-areas/hermitage-pa/)
+- [Sharpsville, PA](https://dissrestoration.com/service-areas/sharpsville-pa/)
+- [Wheatland, PA](https://dissrestoration.com/service-areas/wheatland-pa/)
+- [West Middlesex, PA](https://dissrestoration.com/service-areas/west-middlesex-pa/)
+- [Greenville, PA](https://dissrestoration.com/service-areas/greenville-pa/)
+- [Grove City, PA](https://dissrestoration.com/service-areas/grove-city-pa/)
+- [Mercer, PA](https://dissrestoration.com/service-areas/mercer-pa/)
+- [New Castle, PA](https://dissrestoration.com/service-areas/new-castle-pa/)` / `IICRC CERTIFIED FIRM, IICRC WRT (WATER), IICRC FSRT (FIRE & SMOKE), IICRC AMRT (MOLD), EPA LEAD-SAFE CERTIFIED, OSHA TRAINED, IICRC ASD (STRUCTURAL DRYING)` / `Greater Youngstown region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

@@ -1,21 +1,21 @@
 # Site Plan Report — DISS Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-08-05T05:08:05.790165+00:00
-- Domain: `None`
-- Services selected: 13 of 54 catalog entries
-- Service areas: 9
+- Generated: 2026-09-21T15:54:24.387878+00:00
+- Domain: `dissrestoration.com`
+- Services selected: 14 of 65 catalog entries
+- Service areas: 21
 - Cross-product enabled: True
-- Total URLs: **156**
-- Total internal links: 1237 (avg 7.9 per page)
+- Total URLs: **331**
+- Total internal links: 2675 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 117 |
-| `service-landing` | 13 |
-| `service-area` | 9 |
+| `service-area-service` | 280 |
+| `service-area` | 20 |
+| `service-landing` | 14 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -40,6 +40,7 @@
 - `air-duct-cleaning` — Air Duct Cleaning (adjacent, priority 5)
 - `carpet-cleaning` — Carpet Cleaning (adjacent, priority 4)
 - `post-construction-cleaning` — Post-Construction and Specialty Cleaning (supporting, priority 4)
+- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 
 ## Service areas
 
@@ -52,6 +53,18 @@
 - `struthers-oh` — Struthers, OH
 - `canfield-oh` — Canfield, OH
 - `hubbard-oh` — Hubbard, OH
+- `campbell-oh` — Campbell, OH
+- `mineral-ridge-oh` — Mineral Ridge, OH
+- `farrell-pa` — Farrell, PA
+- `sharon-pa` — Sharon, PA
+- `hermitage-pa` — Hermitage, PA
+- `sharpsville-pa` — Sharpsville, PA
+- `wheatland-pa` — Wheatland, PA
+- `west-middlesex-pa` — West Middlesex, PA
+- `greenville-pa` — Greenville, PA
+- `grove-city-pa` — Grove City, PA
+- `mercer-pa` — Mercer, PA
+- `new-castle-pa` — New Castle, PA
 
 ## Top 10 priority pages
 
@@ -62,7 +75,7 @@
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration youngstown |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization youngstown |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration youngstown |
-| `/service-areas/youngstown-oh/` | `service-area` | 7.2 | restoration services youngstown |
+| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup youngstown |
 | `/services/biohazard-cleanup/` | `service-landing` | 7.2 | biohazard cleanup youngstown |
 | `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting youngstown |
 | `/service-areas/austintown-oh/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration austintown |
