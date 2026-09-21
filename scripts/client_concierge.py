@@ -4535,11 +4535,20 @@ def _company_slug(cid: str) -> str:
     return _SLUG_CACHE[cid]
 
 
-def _stamp_preview_reveal(company: dict | None, body: str) -> None:
-    """First successful client send carrying THIS client's preview URL =
-    the reveal moment. Writes integration_settings.site_reveal
-    {sent_at, url} exactly once; the Build Stages website board anchors
-    its silence-release clock to sent_at (FIX Restoration 2026-09-20)."""
+def _stamp_preview_reveal(company: dict | None, body: str,
+                          contact: dict | None = None) -> None:
+    """Successful client send carrying THIS client's preview URL = a
+    reveal moment. Writes integration_settings.site_reveal {sent_at, url};
+    the Build Stages website board anchors its silence-release clock to
+    sent_at (FIX Restoration 2026-09-20).
+
+    ROUND RE-ARM (Santino 2026-09-21): revision cycles restart the wait.
+    When the client has REPLIED since the current anchor and we send the
+    link again (the "updates are in, take another look" reply), sent_at
+    moves to now and the follow-up stamp clears — a fresh 2-day wait, one
+    nudge, 2 more quiet days, then Ready to Launch. Without an inbound
+    since the anchor our own resends still never restart the clock (the
+    FIX lesson): the 12h+ second link-send is the one follow-up nudge."""
     cid = str((company or {}).get("id") or "")
     if not (cid and body):
         return
@@ -4552,22 +4561,44 @@ def _stamp_preview_reveal(company: dict | None, body: str) -> None:
     reveal = ints.get("site_reveal") or {}
     now = datetime.now(timezone.utc)
     if reveal.get("sent_at"):
+        try:
+            anchor = datetime.fromisoformat(
+                str(reveal["sent_at"]).replace("Z", "+00:00"))
+        except ValueError:
+            return
+        replied_since = False
+        try:
+            if contact and contact.get("id"):
+                for m in fetch_history(contact["id"], 40) or []:
+                    if (m.get("direction") == "in" and m.get("when")
+                            and m["when"] > anchor):
+                        replied_since = True
+                        break
+        except Exception:  # noqa: BLE001 — history down = no re-arm, safe
+            pass
+        if replied_since:
+            reveal.setdefault("first_sent_at", reveal["sent_at"])
+            reveal["rounds"] = int(reveal.get("rounds") or 1) + 1
+            reveal["sent_at"] = now.isoformat()
+            reveal.pop("followup_sent_at", None)
+            ints["site_reveal"] = reveal
+            _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}",
+                {"integration_settings": ints})
+            print(f"  [reveal-stamp] revision round {reveal['rounds']} "
+                  f"re-armed for {slug} — fresh 2-day wait")
+            return
         # FOLLOW-UP STAMP (Santino 2026-09-20): a second link-bearing send
-        # 12h+ after the reveal is the one follow-up nudge. Stamped once;
-        # the board's silence-release counts 2 quiet days from HERE.
+        # 12h+ after the anchor with no reply is the one follow-up nudge.
+        # Stamped once per round; the board's silence-release counts 2
+        # quiet days from HERE.
         if not reveal.get("followup_sent_at"):
-            try:
-                first = datetime.fromisoformat(
-                    str(reveal["sent_at"]).replace("Z", "+00:00"))
-                if (now - first).total_seconds() >= 12 * 3600:
-                    reveal["followup_sent_at"] = now.isoformat()
-                    ints["site_reveal"] = reveal
-                    _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}",
-                        {"integration_settings": ints})
-                    print(f"  [reveal-stamp] follow-up recorded for {slug}")
-            except ValueError:
-                pass
-        return  # the first-send clock never restarts
+            if (now - anchor).total_seconds() >= 12 * 3600:
+                reveal["followup_sent_at"] = now.isoformat()
+                ints["site_reveal"] = reveal
+                _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}",
+                    {"integration_settings": ints})
+                print(f"  [reveal-stamp] follow-up recorded for {slug}")
+        return  # same-round resends never restart the clock
     m = re.search(r"https?://\S*rankai-" + re.escape(slug)
                   + r"\.pages\.dev\S*", body)
     ints["site_reveal"] = {
@@ -4876,7 +4907,7 @@ def send_message(contact: dict, channel: str, body: str,
         # their preview URL. Stamped once; the board's silence clock starts
         # here and nowhere else.)
         try:
-            _stamp_preview_reveal(company, body)
+            _stamp_preview_reveal(company, body, contact)
         except Exception as _e:  # noqa: BLE001 — stamping never breaks a send
             print(f"  [reveal-stamp] {str(_e)[:80]}")
         # ACKNOWLEDGMENT NET (Santino 2026-09-21, Alfredo's address +
