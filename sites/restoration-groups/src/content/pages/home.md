@@ -19,13 +19,15 @@ When water is soaking into your subfloor, smoke residue is settling into every s
 
 ## Services we handle
 
-**Water damage restoration**, A burst pipe or appliance failure can push water under hardwood, into wall cavities, and beneath tile within minutes; the team extracts standing water, dries structural materials to IICRC S500 standards, and monitors moisture levels until the readings are clean.
+**[Water damage restoration](/services/water-damage-restoration/)**, A burst pipe or appliance failure can push water under hardwood, into wall cavities, and beneath tile within minutes; the team extracts standing water, dries structural materials to IICRC S500 standards, and monitors moisture levels until the readings are clean.
 
-**Fire and smoke damage restoration**, Long after the flames are out, acidic smoke residue keeps corroding metal fixtures and embedding itself in drywall; restoration work here covers soot removal, odor neutralization, and content cleaning to stop the ongoing damage.
+**[Fire and smoke damage restoration](/services/fire-damage-restoration/)**, Long after the flames are out, acidic smoke residue keeps corroding metal fixtures and embedding itself in drywall; our [fire damage restoration](/services/fire-damage-restoration/) work covers soot removal, odor neutralization, and content cleaning to stop the ongoing damage.
 
-**Mold remediation**, In New Jersey's humid summers, mold can begin colonizing a damp surface in as little as 24 to 48 hours; remediation focuses on containing the affected area, removing compromised material, and correcting the moisture source so growth doesn't return.
+**[Mold remediation](/services/mold-remediation/)**, In New Jersey's humid summers, mold can begin colonizing a damp surface in as little as 24 to 48 hours; remediation focuses on containing the affected area, removing compromised material, and correcting the moisture source so growth doesn't return.
 
-**Storm damage restoration**, Whether a nor'easter has pushed water through a failed roof or a fallen tree has opened an exterior wall, the team handles emergency tarping, debris removal, and structural drying to secure and stabilize the property fast.
+**[Storm damage restoration](/services/storm-damage-restoration/)**, Whether a nor'easter has pushed water through a failed roof or a fallen tree has opened an exterior wall, the team handles emergency tarping, debris removal, and structural drying to secure and stabilize the property fast.
+
+**[Commercial restoration](/services/commercial-restoration/)**, Offices, retail spaces, and multi-unit buildings can't simply close while damage is addressed; our [commercial restoration](/services/commercial-restoration/) projects cover large-loss drying, coordinated reconstruction, and the itemized documentation property managers and their carriers need to keep a claim moving.
 
 ## Why homeowners and property managers call us
 
