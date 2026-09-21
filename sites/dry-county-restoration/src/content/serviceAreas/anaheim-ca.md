@@ -35,7 +35,7 @@ Summer brings a different set of risks. Santa Ana wind events push wildfire smok
 
 **Mold remediation** in Anaheim often follows a slow leak behind a dishwasher, under a bathroom tile, or at a roof penetration that went undetected through a dry season. Containment, HEPA filtration, and proper disposal of affected materials are standard steps in any remediation scope.
 
-**Biohazard and trauma cleanup** is handled with the discretion and proper personal protective equipment the situation requires. Dry County Restoration coordinates with property owners and, when applicable, with property managers to document the scope and restore the space to a safe, habitable condition.
+**Biohazard cleanup** is handled with the discretion and proper personal protective equipment the situation requires. Dry County Restoration coordinates with property owners and, when applicable, with property managers to document the scope and restore the space to a safe, habitable condition.
 
 **Reconstruction and build-back** rounds out the service offering. Once drying or remediation is complete and the industrial equipment is gone, the structural and finish work, drywall, flooring, cabinetry, painting, can be coordinated through the same contractor rather than handed off to a separate crew.
 

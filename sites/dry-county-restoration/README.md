@@ -31,7 +31,7 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `` | client record `domain` | `narestco.com` |
 | `https://None` | derived | `https://narestco.com` |
 | `(951) 667-9910` / `+19516679910` | brand.phone | `(206) 883-0333` / `+12068830333` |
-| `stephen@drycountyrestoration.com` | brand.email | `info@narestco.com` |
+| `info@drycountyrestoration.com` | brand.email | `info@narestco.com` |
 | `24/7` | brand.hours | `24/7` |
 | `2020` | brand.founded_year | `2004` |
 | `Corona` / `CA` | derived from primary area | `Federal Way` / `WA` |

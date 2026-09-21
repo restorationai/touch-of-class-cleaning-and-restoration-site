@@ -18,7 +18,7 @@ rendered: true
 ---
 ## What This Policy Covers
 
-This privacy policy explains how Dry County Restoration collects, uses, and protects information submitted through this website. It applies to visitors who contact us through our contact form, request an estimate, or browse our pages. If you have questions about anything here, reach us directly at stephen@drycountyrestoration.com or (951) 667-9910.
+This privacy policy explains how Dry County Restoration collects, uses, and protects information submitted through this website. It applies to visitors who contact us through our contact form, request an estimate, or browse our pages. If you have questions about anything here, reach us directly at info@drycountyrestoration.com or (951) 667-9910.
 
 ## Information We Collect
 
@@ -36,7 +36,7 @@ We retain job-related records for as long as reasonably necessary to fulfill the
 
 ## Your Rights as a California Resident
 
-If you are a California resident, the California Consumer Privacy Act (CCPA) gives you the right to know what personal information we hold about you, request deletion of that information, and opt out of any sale of your data. Because we do not sell personal data, the opt-out right is already satisfied by our practices. To exercise your right to know or request deletion, contact us at stephen@drycountyrestoration.com. We will acknowledge your request within a reasonable timeframe and respond fully within the period required by law.
+If you are a California resident, the California Consumer Privacy Act (CCPA) gives you the right to know what personal information we hold about you, request deletion of that information, and opt out of any sale of your data. Because we do not sell personal data, the opt-out right is already satisfied by our practices. To exercise your right to know or request deletion, contact us at info@drycountyrestoration.com. We will acknowledge your request within a reasonable timeframe and respond fully within the period required by law.
 
 Visitors from outside California or outside the United States are welcome to contact us with privacy questions. While GDPR obligations apply primarily to businesses with a meaningful presence in the European Economic Area, which we do not have, we are happy to address any data concerns directly.
 
@@ -45,7 +45,7 @@ Visitors from outside California or outside the United States are welcome to con
 Dry County Restoration 
 9064 Pulsar Ct., Suite I 
 Corona, CA 92883 
-Email: stephen@drycountyrestoration.com 
+Email: info@drycountyrestoration.com 
 Phone: (951) 667-9910
 
 If something in this policy is unclear, or if you believe your information has been handled in a way that doesn't match what's described here, please reach out. We will take your concern seriously and respond as quickly as we can.

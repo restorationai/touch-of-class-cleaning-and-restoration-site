@@ -41,7 +41,7 @@ Mold can begin colonizing wet building materials within 24 to 48 hours of a mois
 
 ### Biohazard and specialty cleanup
 
-Unattended situations, sewage backups, and trauma scenes require specialized protective protocols and proper disposal under California regulations. We handle these calls with discretion and the appropriate personal protective equipment, and we coordinate with local waste disposal requirements so the property is returned to a safe, habitable condition.
+Sewage backups require specialized protective protocols and proper disposal under California regulations. We handle these calls with discretion and the appropriate personal protective equipment, and we coordinate with local waste disposal requirements so the property is returned to a safe, habitable condition.
 
 ### Reconstruction
 

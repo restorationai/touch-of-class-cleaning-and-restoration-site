@@ -36,7 +36,7 @@ We are a small restoration contractor, not a dedicated web development firm. Whi
 
 If any part of this site is difficult or impossible for you to use, please reach out. We take accessibility feedback seriously and will make reasonable efforts to address reported issues promptly.
 
-**Email:** stephen@drycountyrestoration.com 
+**Email:** info@drycountyrestoration.com 
 **Phone:** (951) 667-9910 
 **Mailing address:** 9064 Pulsar Ct., Suite I, Corona, CA 92883
 

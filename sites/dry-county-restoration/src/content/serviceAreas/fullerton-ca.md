@@ -37,7 +37,7 @@ Santa Ana wind events in fall and early winter carry a different risk: embers an
 
 **Mold remediation**, In a city where many homes still have original wall assemblies and limited vapor management, mold can colonize within 24 to 48 hours of a moisture event. Remediation involves containment, physical removal of affected material, and verification testing, not surface treatment alone.
 
-**Biohazard and specialty cleanup**, Unattended situations, sewage backups, and trauma scenes require personal protective equipment, regulated disposal, and thorough decontamination. This work follows OSHA guidelines and is handled discreetly.
+**Biohazard and specialty cleanup**, including sewage backups, requires personal protective equipment, regulated disposal, and thorough decontamination. This work follows OSHA guidelines and is handled discreetly.
 
 **Reconstruction**, Once mitigation is complete, the same team can manage structural repairs, drywall replacement, flooring, and finish work so the property doesn't sit open while a homeowner coordinates a separate contractor.
 

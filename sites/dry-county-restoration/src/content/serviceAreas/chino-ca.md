@@ -43,7 +43,7 @@ Kitchen fires are the most common source of structural smoke damage in residenti
 
 ### Biohazard and specialty cleanup
 
-Unattended situations, sewage backups, and trauma scenes require licensed handling and proper disposal under California regulations. These calls are handled discreetly and with full personal protective equipment.
+Sewage backups require licensed handling and proper disposal under California regulations. These calls are handled discreetly and with full personal protective equipment.
 
 ## Coverage and how fast we can get there
 

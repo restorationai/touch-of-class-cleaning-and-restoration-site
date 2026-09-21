@@ -41,7 +41,7 @@ Mold growth in Norco often traces back to a slow leak that went unnoticed, a dri
 
 ### Biohazard and specialty cleanup
 
-Unattended situations, sewage backups, and trauma scenes require handling under appropriate safety protocols. Sewage intrusion is particularly relevant in Norco given the age of some lateral lines and the stress that expansive soils place on underground pipe joints.
+Sewage backups require handling under appropriate safety protocols. Sewage intrusion is particularly relevant in Norco given the age of some lateral lines and the stress that expansive soils place on underground pipe joints.
 
 ## Coverage and how fast we can get there
 

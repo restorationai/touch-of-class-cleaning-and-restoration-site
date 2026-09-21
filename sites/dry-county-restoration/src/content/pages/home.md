@@ -19,6 +19,12 @@ When a pipe bursts at 2 a.m. or you find black streaking behind a wall, you need
 
 ## Services we handle
 
+- Water
+- Mold
+- Fire
+- Soot & Ash
+- Smoke
+
 **Water damage mitigation**, Whether it's a supply line failure, a roof leak after a hard rain, or a slow drip that's been hiding inside a cabinet for months, standing water and saturated materials need to be extracted and dried before secondary damage sets in. We use thermal imaging and moisture meters to find water that doesn't show on the surface.
 
 **Structural drying**, Drywall, subfloor, and wall cavities can read dry to the touch while the framing behind them stays saturated. Our drying process follows the IICRC S500 standard, using commercial-grade desiccant and refrigerant dehumidifiers alongside high-velocity air movers to pull moisture out of the structure, not just the air.

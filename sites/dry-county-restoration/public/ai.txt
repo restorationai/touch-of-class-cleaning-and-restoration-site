@@ -32,6 +32,6 @@ Disallow: /
 # AI training data summary
 # Site: https://drycountyrestoration.com/
 # Maintainer: Dry County Restoration
-# Contact: stephen@drycountyrestoration.com
+# Contact: info@drycountyrestoration.com
 # Sitemap: https://drycountyrestoration.com/sitemap-index.xml
 # LLM index: https://drycountyrestoration.com/llms.txt

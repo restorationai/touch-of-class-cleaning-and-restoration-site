@@ -15,7 +15,7 @@ export const brand = {
   // Schema/NAP keep the canonical number above.
   trackingPhone: "(951) 629-3771",
   trackingPhoneRaw: "+19516293771",
-  email: "stephen@drycountyrestoration.com",
+  email: "info@drycountyrestoration.com",
   hours: "24/7",
   foundedYear: "2020",
   primaryCity: "Corona",

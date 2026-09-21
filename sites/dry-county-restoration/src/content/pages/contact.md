@@ -23,7 +23,7 @@ Our line is answered 24 hours a day, 7 days a week, including weekends and holid
 
 ## For estimates and non-urgent inquiries
 
-If you're planning ahead, a mold inspection before listing a home, a second opinion on a previous remediation, or a question about how the insurance billing process works, email us at **stephen@drycountyrestoration.com** or use the contact form on this page. We aim to respond to non-emergency inquiries within one business day. The more detail you include (type of damage, approximate affected area, whether a claim is already open), the faster we can give you a useful answer.
+If you're planning ahead, a mold inspection before listing a home, a second opinion on a previous remediation, or a question about how the insurance billing process works, email us at **info@drycountyrestoration.com** or use the contact form on this page. We aim to respond to non-emergency inquiries within one business day. The more detail you include (type of damage, approximate affected area, whether a claim is already open), the faster we can give you a useful answer.
 
 ## Where we're located
 
