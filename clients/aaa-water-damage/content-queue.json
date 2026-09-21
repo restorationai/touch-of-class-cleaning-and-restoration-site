@@ -1,780 +1,809 @@
 {
-  "items": [
+ "items": [
+  {
+   "id": "2026-09-21-who-to-call-for-water-damage-restoration-in-honolulu-hi",
+   "status": "queued",
+   "queued_at": "2026-09-21T00:20:41Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "who_to_call",
+   "combo_key": "who-to-call-for-water-damage-restoration-in-honolulu-hi",
+   "primary_keyword": "who to call for water damage restoration in Honolulu, HI",
+   "intent": "transactional",
+   "target_word_count": 1200,
+   "city_anchor": "honolulu-hi",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Honolulu",
+    "state": "HI",
+    "competitors": []
+   },
+   "fan_out_cluster": [
+    "who do you call for water damage restoration Honolulu",
+    "who do I call for water damage restoration in Honolulu",
+    "water damage restoration emergency number Honolulu HI",
+    "water removal Honolulu",
+    "water damage cleanup Honolulu",
+    "water cleanup Honolulu"
+   ],
+   "source": "best-of-seeder"
+  },
+  {
+   "id": "2026-08-26-water-damage-restoration-cost-hi",
+   "status": "written",
+   "queued_at": "2026-08-26T12:43:38Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "cost_guide",
+   "combo_key": "water-damage-restoration-cost-hi",
+   "primary_keyword": "water damage restoration cost HI",
+   "intent": "transactional",
+   "target_word_count": 1500,
+   "city_anchor": "honolulu-hi",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Honolulu",
+    "state": "HI",
+    "competitors": []
+   },
+   "fan_out_cluster": [
+    "how much does water damage restoration cost in HI",
+    "water damage restoration price HI",
+    "average cost of water damage restoration HI",
+    "water damage cleanup HI",
+    "water cleanup HI",
+    "water removal HI"
+   ],
+   "source": "best-of-seeder",
+   "written_at": "2026-09-20T14:22:30Z",
+   "post_url": "https://aaawaterdamagehawaii.com/blog/water-damage-restoration-cost-hi/",
+   "claims_flags": [
     {
-      "id": "2026-08-26-water-damage-restoration-cost-hi",
-      "status": "written",
-      "queued_at": "2026-08-26T12:43:38Z",
-      "priority": 1,
-      "prioritized": true,
-      "content_type": "cost_guide",
-      "combo_key": "water-damage-restoration-cost-hi",
-      "primary_keyword": "water damage restoration cost HI",
-      "intent": "transactional",
-      "target_word_count": 1500,
-      "city_anchor": "honolulu-hi",
-      "best_of": {
-        "service": "water-damage-restoration",
-        "service_pretty": "Water Damage Restoration",
-        "city": "Honolulu",
-        "state": "HI",
-        "competitors": []
-      },
-      "fan_out_cluster": [
-        "how much does water damage restoration cost in HI",
-        "water damage restoration price HI",
-        "average cost of water damage restoration HI",
-        "water damage cleanup HI",
-        "water cleanup HI",
-        "water removal HI"
-      ],
-      "source": "best-of-seeder",
-      "written_at": "2026-09-20T14:22:30Z",
-      "post_url": "https://aaawaterdamagehawaii.com/blog/water-damage-restoration-cost-hi/",
-      "claims_flags": [
-        {
-          "file": "src/content/blog/water-damage-restoration-cost-hi.md",
-          "part": "frontmatter",
-          "family": "certification",
-          "severity": "review",
-          "matched": "IICRC",
-          "context": "2, and 3 water damage?\", \"answer\": \"The IICRC S500 standard defines three water categ",
-          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-        },
-        {
-          "file": "src/content/blog/water-damage-restoration-cost-hi.md",
-          "part": "body",
-          "family": "certification",
-          "severity": "review",
-          "matched": "IICRC",
-          "context": "category** is the biggest driver. The [IICRC S500 standard](https://www.iicrc.org) d",
-          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-        },
-        {
-          "file": "src/content/blog/water-damage-restoration-cost-hi.md",
-          "part": "body",
-          "family": "certification",
-          "severity": "review",
-          "matched": "IICRC",
-          "context": "ly to confirm drying progress meets the IICRC S500 standard. 5. **Antimicrobial treat",
-          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-        }
-      ]
+     "file": "src/content/blog/water-damage-restoration-cost-hi.md",
+     "part": "frontmatter",
+     "family": "certification",
+     "severity": "review",
+     "matched": "IICRC",
+     "context": "2, and 3 water damage?\", \"answer\": \"The IICRC S500 standard defines three water categ",
+     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
     },
     {
-      "id": "2026-08-07-best-water-damage-restoration-in-honolulu-hi",
-      "status": "written",
-      "queued_at": "2026-08-07T03:41:42Z",
-      "priority": 1,
-      "prioritized": true,
-      "content_type": "best_of_comparison",
-      "combo_key": "best-water-damage-restoration-in-honolulu-hi",
-      "primary_keyword": "best water damage restoration company in Honolulu, HI",
-      "intent": "commercial",
-      "target_word_count": 1600,
-      "city_anchor": "honolulu-hi",
-      "best_of": {
-        "service": "water-damage-restoration",
-        "service_pretty": "Water Damage Restoration",
-        "city": "Honolulu",
-        "state": "HI",
-        "competitors": [
-          {
-            "name": "NuFinishPro of San Diego",
-            "google_rating": 5,
-            "review_count": 259
-          },
-          {
-            "name": "Servpro Industries LLC",
-            "google_rating": 2.4,
-            "review_count": 60
-          }
-        ]
-      },
-      "fan_out_cluster": [
-        "best water damage restoration companies Honolulu",
-        "top rated water damage restoration Honolulu HI",
-        "who is the best water damage restoration company in Honolulu",
-        "water removal Honolulu",
-        "water damage cleanup Honolulu",
-        "water cleanup Honolulu"
-      ],
-      "source": "best-of-seeder",
-      "written_at": "2026-08-10T17:14:27Z",
-      "post_url": "https://aaawaterdamagehawaii.com/blog/best-water-damage-restoration-company-in-honolulu-hi/",
-      "claims_flags": [
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-honolulu-hi.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "error",
-          "matched": "259 reviews",
-          "context": "Diego holds a 5.0 Google rating across 259 reviews, which is a strong signal of consistent",
-          "reason": "claims 259 reviews but no synced gbpReviewCount exists for this site"
-        },
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-honolulu-hi.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "error",
-          "matched": "60 reviews",
-          "context": "ting carries a 2.4 Google rating across 60 reviews. As with any franchise, service quality",
-          "reason": "claims 60 reviews but no synced gbpReviewCount exists for this site"
-        }
-      ]
+     "file": "src/content/blog/water-damage-restoration-cost-hi.md",
+     "part": "body",
+     "family": "certification",
+     "severity": "review",
+     "matched": "IICRC",
+     "context": "category** is the biggest driver. The [IICRC S500 standard](https://www.iicrc.org) d",
+     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
     },
     {
-      "id": "2026-08-10-hawaii-water-damage-restoration",
-      "status": "written",
-      "queued_at": "2026-08-10T17:12:00Z",
-      "written_at": "2026-08-17T16:51:54Z",
-      "post_url": "https://aaawaterdamagehawaii.com/blog/hawaii-water-damage-restoration-island-guide/",
-      "primary_keyword": "hawaii water damage restoration",
-      "intent": "transactional",
-      "volume": 210,
-      "kd": 20,
-      "fan_out_cluster": [
-        "water damage restoration oahu",
-        "water damage restoration honolulu",
-        "emergency water extraction honolulu",
-        "24 hour water damage restoration honolulu",
-        "water damage cleanup honolulu",
-        "residential water damage restoration near me"
-      ],
-      "suggested_slug": "hawaii-water-damage-restoration-island-guide",
-      "suggested_title": "Hawaii water damage restoration: what island homeowners need to know before they call",
-      "target_word_count": 1600,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/flood-damage-restoration/",
-        "/service-areas/honolulu-hi/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "flood-damage-restoration"
-      ],
-      "city_anchor": "honolulu-hi",
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500"
-      ],
-      "notes": "Island-wide gap: the url-plan covers water damage restoration per-city but has no Oahu or Hawaii-wide page, and 'hawaii water damage restoration' pulls 210/mo at KD 20 with a $21 CPC. Frame around what makes island losses different from mainland losses: year-round humidity collapsing the 24-48 hour mold window, salt-air corrosion on valves and angle stops, single-wall construction that wicks water, high-rise riser failures that cascade through units. Route readers to the per-city pages. Truth gate: no IICRC or license claims, no specific founding year, 'over 25 years' phrasing only.",
-      "source": "keyword-researcher",
-      "seed": "water damage restoration",
-      "claims_flags": [
-        {
-          "file": "src/content/blog/hawaii-water-damage-restoration-island-guide.md",
-          "part": "frontmatter",
-          "family": "certification",
-          "severity": "review",
-          "matched": "IICRC",
-          "context": "lassified as Category 3 water under the IICRC S500 standard, which means it is presum",
-          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-        },
-        {
-          "file": "src/content/blog/hawaii-water-damage-restoration-island-guide.md",
-          "part": "body",
-          "family": "certification",
-          "severity": "review",
-          "matched": "IICRC",
-          "context": "ven with air conditioning running. The [IICRC S500 standard](https://www.iicrc.org/pa",
-          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-        },
-        {
-          "file": "src/content/blog/hawaii-water-damage-restoration-island-guide.md",
-          "part": "body",
-          "family": "certification",
-          "severity": "review",
-          "matched": "IICRC",
-          "context": "y 3 (also called black water) under the IICRC S500 standard, meaning it is presumed c",
-          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-        }
-      ]
-    },
-    {
-      "id": "2026-08-10-water-damage-restoration-cost",
-      "status": "queued",
-      "queued_at": "2026-08-10T17:12:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "water damage restoration cost",
-      "intent": "informational",
-      "volume": 880,
-      "kd": 3,
-      "fan_out_cluster": [
-        "how much does water damage restoration cost",
-        "water damage restoration cost per square foot",
-        "water damage restoration cost calculator",
-        "water damage restoration cost honolulu",
-        "water damage restoration price sheet",
-        "what affects water damage restoration pricing"
-      ],
-      "suggested_slug": "water-damage-restoration-cost",
-      "suggested_title": "Water damage restoration cost: what drives the number (and what it looks like on Oahu)",
-      "target_word_count": 1800,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/flood-equipment-rental/",
-        "/blog/does-homeowners-insurance-cover-water-damage/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "flood-equipment-rental"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500"
-      ],
-      "notes": "Highest-value uncovered informational term in the seed family: 880/mo at KD 3, and none of the 12 planned blog posts touch price. Break cost down by driver (water category, affected square footage, materials removed, drying days, equipment count) rather than publishing a flat price list. Explain mitigation billing vs reconstruction billing separately. Do not publish a fixed price sheet or a guaranteed quote range.",
-      "source": "keyword-researcher",
-      "seed": "water damage restoration"
-    },
-    {
-      "id": "2026-08-10-who-is-responsible-for-water-damage-in-a-condo",
-      "status": "banked",
-      "queued_at": "2026-08-10T17:12:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "who is responsible for water damage in a condo",
-      "intent": "informational",
-      "volume": null,
-      "kd": null,
-      "fan_out_cluster": [
-        "condo water damage honolulu",
-        "ceiling leak from the unit upstairs",
-        "AOAO vs owner responsibility for water damage",
-        "who pays for water damage in a high rise",
-        "condo water damage insurance claim",
-        "what to do when a neighbor's leak floods your unit"
-      ],
-      "suggested_slug": "who-is-responsible-water-damage-condo",
-      "suggested_title": "Who is responsible for water damage in a condo: owner, neighbor, or the AOAO?",
-      "target_word_count": 1600,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/commercial-restoration/",
-        "/service-areas/honolulu-hi/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "commercial-restoration"
-      ],
-      "city_anchor": "honolulu-hi",
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500"
-      ],
-      "notes": "Highest local-fit question in the whole fan-out. Urban Honolulu is condo country (Waikiki, Kakaako, Ala Moana, the Diamond Head Gold Coast co-ops) where one failed riser or supply line soaks the units below and pulls in AOAO coverage alongside the owner's HO-6. Explain the split between association master policy and unit-owner policy in general terms, and what documentation the association's insurer will expect. Keep it educational: state plainly this is not legal or insurance advice and that the governing documents control.",
-      "source": "keyword-researcher",
-      "seed": "water damage restoration",
-      "banked_at": "2026-09-17T22:13:26.007939+00:00"
-    },
-    {
-      "id": "2026-08-10-water-mitigation-vs-water-restoration",
-      "status": "banked",
-      "queued_at": "2026-08-10T17:12:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "what is the difference between water mitigation and water restoration",
-      "intent": "informational",
-      "volume": null,
-      "kd": null,
-      "fan_out_cluster": [
-        "water mitigation vs restoration",
-        "what does water mitigation include",
-        "does mitigation include putting my house back together",
-        "who does the reconstruction after water damage",
-        "mitigation vs reconstruction insurance billing",
-        "what is moisture mapping"
-      ],
-      "suggested_slug": "water-mitigation-vs-water-restoration",
-      "suggested_title": "What is the difference between water mitigation and water restoration (and why your bill has two halves)",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/flood-equipment-rental/",
-        "/blog/how-long-does-water-damage-restoration-take/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "flood-equipment-rental"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500"
-      ],
-      "notes": "ChatGPT's decomposition of the seed named this distinction as extremely important and no planned page covers it. Lay out mitigation (extraction, air movers, dehumidifiers, moisture mapping, controlled demolition, monitoring, documentation) against reconstruction (drywall, flooring, cabinets, trim, paint). Important truth-gate note for this client: drywall, painting and remodel service pages were deliberately omitted pending an HI contractor license number, so the post must describe reconstruction generically and must not offer or imply the client performs licensed reconstruction work.",
-      "source": "keyword-researcher",
-      "seed": "water damage restoration",
-      "banked_at": "2026-09-17T22:13:26.007943+00:00"
-    },
-    {
-      "id": "2026-08-10-how-do-i-know-if-my-house-is-dry-after-water-damage",
-      "status": "banked",
-      "queued_at": "2026-08-10T17:12:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "how do i know if my house is dry after water damage",
-      "intent": "informational",
-      "volume": null,
-      "kd": null,
-      "fan_out_cluster": [
-        "moisture meter readings after water damage",
-        "what is a dry standard in restoration",
-        "how many days should air movers run",
-        "can drywall look dry but still be wet",
-        "should i get drying documentation",
-        "thermal imaging for hidden moisture"
-      ],
-      "suggested_slug": "how-to-know-house-is-dry-after-water-damage",
-      "suggested_title": "How do I know if my house is dry after water damage? The readings to ask for",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/mold-inspection-testing/",
-        "/blog/mold-after-water-damage/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "mold-inspection-testing"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.epa.gov/mold/mold-cleanup-your-home",
-        "https://www.iicrc.org/page/IICRCS500"
-      ],
-      "notes": "ChatGPT called this the single best question a homeowner can ask, and the planned blog only covers how long restoration takes, not how dryness is verified. Give the reader the exact list to ask for: baseline readings, affected materials, daily readings, target dry standard, where readings were taken, and a copy of the drying log. Tie it to Oahu's ambient humidity, which makes 'it feels dry' meaningless year-round.",
-      "source": "keyword-researcher",
-      "seed": "water damage restoration",
-      "banked_at": "2026-09-17T22:13:26.007944+00:00"
-    },
-    {
-      "id": "2026-08-17-mold-remediation-cost",
-      "status": "queued",
-      "queued_at": "2026-08-17T00:00:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "mold remediation cost",
-      "intent": "commercial",
-      "volume": 9900,
-      "kd": 3,
-      "fan_out_cluster": [
-        "how much does mold remediation cost",
-        "mold remediation cost per square foot",
-        "whole-house mold remediation cost",
-        "cost of mold remediation in a condo",
-        "what affects mold remediation pricing",
-        "does the mold remediation quote include reconstruction"
-      ],
-      "suggested_slug": "mold-remediation-cost",
-      "suggested_title": "Mold remediation cost: what drives the number (and what it looks like on Oahu)",
-      "target_word_count": 1800,
-      "internal_link_targets": [
-        "/services/mold-remediation/",
-        "/services/mold-inspection-testing/",
-        "/blog/does-homeowners-insurance-cover-water-damage/"
-      ],
-      "service_tags": [
-        "mold-remediation",
-        "mold-inspection-testing"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.epa.gov/mold/mold-cleanup-your-home"
-      ],
-      "notes": "Highest-value uncovered term in the seed family: 9,900/mo at KD 3 with a $16.92 CPC, and none of the 12 planned blog posts touch mold pricing. Break cost down by driver (square footage affected, containment complexity, materials removed, HVAC involvement, post-remediation verification) instead of publishing a flat price list. Oahu angle: year-round humidity means remediation here often follows a water loss that was never dried to standard, so scope tends to be larger than a mainland comparison quote suggests. Truth gate: no fixed price sheet, no guaranteed quote range. Remediation includes removing affected drywall as part of the mitigation scope, but the post must NOT offer or imply licensed reconstruction, drywall rebuild or painting: those service pages were deliberately omitted pending an HI contractor license number.",
-      "source": "keyword-researcher",
-      "seed": "mold remediation"
-    },
-    {
-      "id": "2026-08-17-does-homeowners-insurance-cover-mold-remediation",
-      "status": "queued",
-      "queued_at": "2026-08-17T00:00:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "does homeowners insurance cover mold remediation",
-      "intent": "informational",
-      "volume": 1000,
-      "kd": 26,
-      "fan_out_cluster": [
-        "what insurance companies cover mold damage",
-        "is mold covered if it came from a burst pipe",
-        "mold exclusion in a homeowners policy",
-        "mold coverage sublimit",
-        "does HO-6 condo insurance cover mold",
-        "what documentation does an adjuster want for mold"
-      ],
-      "suggested_slug": "does-homeowners-insurance-cover-mold-remediation",
-      "suggested_title": "Does homeowners insurance cover mold remediation? What Hawaii policies usually say",
-      "target_word_count": 1600,
-      "internal_link_targets": [
-        "/services/mold-remediation/",
-        "/services/water-damage-restoration/",
-        "/blog/does-homeowners-insurance-cover-water-damage/"
-      ],
-      "service_tags": [
-        "mold-remediation",
-        "water-damage-restoration"
-      ],
-      "city_anchor": "honolulu-hi",
-      "external_authority_candidates": [
-        "https://www.epa.gov/mold/mold-cleanup-your-home"
-      ],
-      "notes": "Decision-stage insurance query, exactly the 24-48-hours-before-they-hire moment the methodology flags as high value: 1,000/mo at KD 26. The existing planned post covers insurance for WATER damage, not mold, so this is a genuine gap rather than a duplicate; cross-link the two. Core explanation: coverage usually turns on whether the mold resulted from a sudden accidental discharge that was addressed promptly versus long-term seepage or deferred maintenance, and most policies carry a mold sublimit. Hawaii angle: ambient humidity means insurers scrutinise the 'sudden vs gradual' line harder here. Keep it educational and state plainly this is not legal or insurance advice and the policy language controls.",
-      "source": "keyword-researcher",
-      "seed": "mold remediation"
-    },
-    {
-      "id": "2026-08-17-who-pays-for-mold-remediation",
-      "status": "queued",
-      "queued_at": "2026-08-17T00:00:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "who pays for mold remediation",
-      "intent": "informational",
-      "volume": 880,
-      "kd": 9,
-      "fan_out_cluster": [
-        "who pays for mold in a condo",
-        "AOAO responsibility for mold",
-        "landlord vs tenant mold responsibility Hawaii",
-        "mold from a neighbor's leak upstairs",
-        "does the association master policy cover mold",
-        "who pays for mold testing"
-      ],
-      "suggested_slug": "who-pays-for-mold-remediation",
-      "suggested_title": "Who pays for mold remediation: owner, landlord, or the AOAO?",
-      "target_word_count": 1600,
-      "internal_link_targets": [
-        "/services/mold-remediation/",
-        "/services/mold-inspection-testing/",
-        "/service-areas/honolulu-hi/"
-      ],
-      "service_tags": [
-        "mold-remediation",
-        "mold-inspection-testing"
-      ],
-      "city_anchor": "honolulu-hi",
-      "external_authority_candidates": [
-        "https://www.epa.gov/mold/mold-cleanup-your-home"
-      ],
-      "notes": "Strongest local fit in the fan-out at 880/mo, KD 9, $14.41 CPC. Urban Honolulu is condo country (Waikiki, Kakaako, Ala Moana, the Diamond Head Gold Coast co-ops) where a riser or supply-line failure seeds mold in units below and pulls the AOAO master policy in alongside the owner's HO-6. Direct sibling to the already-queued 'who is responsible for water damage in a condo' post: cross-link them and keep the scopes distinct (that one is the water loss, this one is the mold that follows). Also cover the landlord/tenant split given Kaneohe and Mililani rental turnover. Educational framing only, governing documents control, not legal advice.",
-      "source": "keyword-researcher",
-      "seed": "mold remediation"
-    },
-    {
-      "id": "2026-08-17-how-long-does-mold-remediation-take",
-      "status": "queued",
-      "queued_at": "2026-08-17T00:00:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "how long does mold remediation take",
-      "intent": "informational",
-      "volume": 720,
-      "kd": 0,
-      "fan_out_cluster": [
-        "mold remediation process step by step",
-        "how many days is containment up",
-        "when can i move back in after mold remediation",
-        "what is post-remediation verification",
-        "how long does it take to dry after mold removal",
-        "why does remediation take longer in humid climates"
-      ],
-      "suggested_slug": "how-long-does-mold-remediation-take",
-      "suggested_title": "How long does mold remediation take? A realistic timeline for Hawaii homes",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/mold-remediation/",
-        "/services/mold-inspection-testing/",
-        "/blog/mold-after-water-damage/"
-      ],
-      "service_tags": [
-        "mold-remediation",
-        "mold-inspection-testing"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.epa.gov/mold/mold-remediation-schools-and-commercial-buildings-guide"
-      ],
-      "notes": "720/mo at KD 0 with a $17.80 CPC: the easiest ranking target in the set and high commercial value. The planned blog covers how long WATER DAMAGE restoration takes, not mold, so this is uncovered. Walk the reader through assessment, containment, HEPA filtration, removal of affected materials, cleaning, drying, and post-remediation verification, giving realistic day ranges per phase rather than one number. Hawaii angle: trade-wind humidity keeps ambient moisture high year-round, so the drying and clearance phases routinely run longer than mainland timelines. Do not promise a specific turnaround, and do not claim IICRC certification or any cert number: none are on file for this client.",
-      "source": "keyword-researcher",
-      "seed": "mold remediation"
-    },
-    {
-      "id": "2026-08-17-mold-remediation-oahu",
-      "status": "queued",
-      "queued_at": "2026-08-17T00:00:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "mold remediation oahu",
-      "intent": "transactional",
-      "volume": 170,
-      "kd": 12,
-      "fan_out_cluster": [
-        "mold remediation hawaii",
-        "mold removal oahu",
-        "why is there so much mold in hawaii homes",
-        "windward side mold problems",
-        "single wall construction mold",
-        "mold in a hawaii condo"
-      ],
-      "suggested_slug": "mold-remediation-oahu",
-      "suggested_title": "Mold remediation on Oahu: why island homes grow mold faster (and what removal involves)",
-      "target_word_count": 1600,
-      "internal_link_targets": [
-        "/services/mold-remediation/",
-        "/services/mold-inspection-testing/",
-        "/services/water-damage-restoration/"
-      ],
-      "service_tags": [
-        "mold-remediation",
-        "mold-inspection-testing"
-      ],
-      "city_anchor": "honolulu-hi",
-      "external_authority_candidates": [
-        "https://www.epa.gov/mold/mold-cleanup-your-home"
-      ],
-      "notes": "Island-wide gap that mirrors the one the water damage run found: the url-plan has mold-remediation pages for all 13 cities but nothing at Oahu or Hawaii scope, so 'mold remediation oahu' (170/mo, KD 12) and 'mold remediation hawaii' (50/mo, KD 16) have no target. Frame around what makes island mold different: year-round trade-wind humidity that collapses the 24-48 hour growth window, single-wall construction in Kaimuki, Aina Haina and Kailua that wicks water into cavities, the Koolau windward face making Kaneohe the wettest market served, and salt-air corrosion seeding slow leaks. Route readers out to the per-city mold pages. Truth gate: 'over 25 years' phrasing only, no founding year, no license or IICRC claims, no commercial client name-drops.",
-      "source": "keyword-researcher",
-      "seed": "mold remediation"
-    },
-    {
-      "id": "2026-08-26-flood-insurance-hawaii",
-      "status": "written",
-      "queued_at": "2026-08-26T00:00:00Z",
-      "written_at": "2026-08-26T12:55:54Z",
-      "post_url": "https://aaawaterdamagehawaii.com/blog/flood-insurance-hawaii/",
-      "priority": 1,
-      "prioritized": true,
-      "content_type": "insurance_guide",
-      "primary_keyword": "flood insurance hawaii",
-      "intent": "informational",
-      "volume": 110,
-      "kd": 0,
-      "fan_out_cluster": [
-        "flooded house insurance",
-        "does homeowners insurance cover flood damage",
-        "flood insurance oahu",
-        "how much is flood insurance in hawaii",
-        "hawaii flood insurance",
-        "national flood insurance program hawaii",
-        "special flood hazard area oahu"
-      ],
-      "suggested_slug": "flood-insurance-hawaii",
-      "suggested_title": "Flood insurance Hawaii: what it covers, what it costs, and why your homeowners policy will not pay",
-      "target_word_count": 1600,
-      "internal_link_targets": [
-        "/services/flood-damage-restoration/",
-        "/services/water-damage-restoration/",
-        "/blog/does-homeowners-insurance-cover-water-damage/"
-      ],
-      "service_tags": [
-        "flood-damage-restoration",
-        "water-damage-restoration"
-      ],
-      "city_anchor": "honolulu-hi",
-      "external_authority_candidates": [
-        "https://www.fema.gov/flood-insurance",
-        "https://msc.fema.gov/portal/home",
-        "https://www.floodsmart.gov/"
-      ],
-      "notes": "Highest-value gap this run: KD 0 locally and no blog covers it. Lead with the distinction the existing /blog/does-homeowners-insurance-cover-water-damage/ post does NOT make: a standard HO-3 policy covers sudden internal water (burst pipe, appliance leak) but excludes rising surface water, so Oahu homeowners need a separate NFIP or private flood policy. Cover the 30-day NFIP waiting period, Oahu flood zones (use the Hawaii Flood Hazard Assessment Tool), and condo master-policy vs HO-6 gaps since urban Honolulu is condo country. Link back to the HO-insurance post to avoid cannibalization. No license or certification claims: brand claims policy is STRICT (no IICRC, no insured/bonded, no since-1994).",
-      "source": "keyword-researcher",
-      "claims_flags": [
-        {
-          "file": "src/content/blog/flood-insurance-hawaii.md",
-          "part": "frontmatter",
-          "family": "certification",
-          "severity": "review",
-          "matched": "IICRC",
-          "context": "d as Category 3 (black water) under the IICRC S500 standard because it carries sewage",
-          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-        },
-        {
-          "file": "src/content/blog/flood-insurance-hawaii.md",
-          "part": "body",
-          "family": "certification",
-          "severity": "review",
-          "matched": "IICRC",
-          "context": "d as Category 3 (black water) under the IICRC S500 standard, meaning it is presumed t",
-          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-        }
-      ]
-    },
-    {
-      "id": "2026-08-26-flood-prone-areas-oahu",
-      "status": "written",
-      "queued_at": "2026-08-26T00:00:00Z",
-      "written_at": "2026-08-31T21:29:26Z",
-      "post_url": "https://aaawaterdamagehawaii.com/blog/flood-prone-areas-oahu/",
-      "priority": 1,
-      "prioritized": true,
-      "content_type": "local_guide",
-      "primary_keyword": "flood areas oahu",
-      "intent": "informational",
-      "volume": 260,
-      "kd": 11,
-      "fan_out_cluster": [
-        "oahu flood areas",
-        "flood zones oahu",
-        "hawaii flood hazard assessment tool",
-        "special flood hazard area oahu",
-        "does hawaii flood",
-        "how often does hawaii flood",
-        "kaneohe flooding",
-        "kailua flooding"
-      ],
-      "suggested_slug": "flood-prone-areas-oahu",
-      "suggested_title": "Flood areas Oahu: the neighborhoods that flood first (and what to do if yours is one)",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/flood-damage-restoration/",
-        "/service-areas/kaneohe-hi/flood-damage-restoration/",
-        "/service-areas/kailua-hi/flood-damage-restoration/",
-        "/service-areas/ewa-beach-hi/flood-damage-restoration/",
-        "/blog/basement-flooding-prevention/"
-      ],
-      "service_tags": [
-        "flood-damage-restoration",
-        "water-damage-restoration"
-      ],
-      "city_anchor": "honolulu-hi",
-      "external_authority_candidates": [
-        "https://www.weather.gov/hfo/",
-        "https://msc.fema.gov/portal/home"
-      ],
-      "notes": "Local authority play with real measured demand (260/mo, KD 11) and zero blog coverage. Build it straight from plan-input local_notes: Kaneohe takes the Koolau windward rainfall, Kailua has high water tables around Kawainui Marsh and Enchanted Lake plus canal-front homes, the flat Ewa plain drains poorly, Aina Haina and Palolo valley homes sit below steep ridges that funnel Kona-storm runoff. Note for the writer: Oahu homes are overwhelmingly slab-on-grade or single-wall construction, so do NOT frame this around basements. Anchor each neighborhood section to its /service-areas/ page.",
-      "source": "keyword-researcher"
-    },
-    {
-      "id": "2026-08-26-how-to-prevent-mold-after-a-flood",
-      "status": "written",
-      "queued_at": "2026-08-26T00:00:00Z",
-      "written_at": "2026-09-03T19:10:48Z",
-      "post_url": "https://aaawaterdamagehawaii.com/blog/how-to-prevent-mold-after-a-flood/",
-      "priority": 1,
-      "prioritized": true,
-      "content_type": "how_to_guide",
-      "primary_keyword": "how to prevent mold after a flood",
-      "intent": "informational",
-      "volume": 70,
-      "kd": 0,
-      "fan_out_cluster": [
-        "how to prevent mold after water damage",
-        "mold after flooding",
-        "how fast does mold grow after a flood",
-        "drying out a house after a flood",
-        "dehumidifier after flood",
-        "hawaii humidity mold"
-      ],
-      "suggested_slug": "how-to-prevent-mold-after-a-flood",
-      "suggested_title": "How to prevent mold after a flood in Hawaii's humidity (the 24 to 48 hour window)",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/mold-remediation/",
-        "/services/mold-inspection-testing/",
-        "/services/flood-damage-restoration/",
-        "/services/flood-equipment-rental/",
-        "/blog/mold-after-water-damage/",
-        "/blog/signs-of-hidden-mold/"
-      ],
-      "service_tags": [
-        "mold-remediation",
-        "mold-inspection-testing",
-        "flood-damage-restoration",
-        "flood-equipment-rental"
-      ],
-      "city_anchor": "honolulu-hi",
-      "external_authority_candidates": [
-        "https://www.epa.gov/mold/mold-cleanup-your-home",
-        "https://www.cdc.gov/mold-health/about/index.html"
-      ],
-      "notes": "KD 0 with 70/mo and no prevention-focused post exists (the adjacent /blog/mold-after-water-damage/ answers how fast mold grows, not how to stop it). Hawaii angle is the whole differentiator: year-round 60 to 80 percent ambient humidity plus single-wall redwood construction in Kaimuki and Aina Haina means wall cavities stay wet and mold starts inside the wall, not on it. Cross-sell flood-equipment-rental for homeowners who want to run their own dehumidifiers. Link to the existing mold posts rather than restating them.",
-      "source": "keyword-researcher"
-    },
-    {
-      "id": "2026-08-26-document-flood-damage-for-insurance",
-      "status": "written",
-      "queued_at": "2026-08-26T00:00:00Z",
-      "written_at": "2026-09-12T13:46:25Z",
-      "post_url": "https://aaawaterdamagehawaii.com/blog/document-flood-damage-for-insurance/",
-      "priority": 1,
-      "prioritized": true,
-      "content_type": "how_to_guide",
-      "primary_keyword": "how do i document flood damage for insurance",
-      "intent": "informational",
-      "volume": null,
-      "kd": null,
-      "fan_out_cluster": [
-        "how to document water damage for insurance claim",
-        "flood damage insurance claim checklist",
-        "what to photograph after a flood",
-        "flood damage inventory list",
-        "proof of loss flood claim",
-        "do i need an adjuster for flood damage"
-      ],
-      "suggested_slug": "document-flood-damage-for-insurance",
-      "suggested_title": "How do I document flood damage for insurance: the photo and inventory checklist adjusters actually want",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/flood-damage-restoration/",
-        "/services/water-damage-restoration/",
-        "/contact/",
-        "/blog/does-homeowners-insurance-cover-water-damage/"
-      ],
-      "service_tags": [
-        "flood-damage-restoration",
-        "water-damage-restoration"
-      ],
-      "city_anchor": "honolulu-hi",
-      "external_authority_candidates": [
-        "https://www.floodsmart.gov/start-your-claim",
-        "https://www.iii.org/article/how-file-homeowners-insurance-claim"
-      ],
-      "notes": "Surfaced by the ChatGPT decomposition (question 3) with no Google volume attached, which is exactly the AI-retrieval fuel this vertical needs: it is a passage-shaped query an assistant will lift verbatim. No blog covers claim documentation. Structure as a numbered checklist with a table of what to capture per room, mention the NFIP proof-of-loss deadline, and stress documenting BEFORE mitigation starts. Do not promise to handle or negotiate claims, and do not imply the company is an insurance adjuster: keep it to 'we document what we find and share it with your adjuster'.",
-      "source": "keyword-researcher"
-    },
-    {
-      "id": "2026-08-26-can-i-clean-up-flood-damage-myself",
-      "status": "written",
-      "queued_at": "2026-08-26T00:00:00Z",
-      "written_at": "2026-09-18T12:04:20Z",
-      "post_url": "https://aaawaterdamagehawaii.com/blog/can-i-clean-up-flood-damage-myself/",
-      "priority": 1,
-      "prioritized": true,
-      "content_type": "decision_guide",
-      "primary_keyword": "can i clean up flood damage myself",
-      "intent": "informational",
-      "volume": null,
-      "kd": null,
-      "fan_out_cluster": [
-        "diy flood cleanup",
-        "should i hire a flood restoration company",
-        "is flood water contaminated",
-        "category 3 water flood",
-        "how long does flood damage cleanup take",
-        "flood cleanup safety gear"
-      ],
-      "suggested_slug": "can-i-clean-up-flood-damage-myself",
-      "suggested_title": "Can I clean up flood damage myself? When DIY is fine and when it is a health risk",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/flood-damage-restoration/",
-        "/services/sewage-cleanup/",
-        "/services/flood-equipment-rental/",
-        "/blog/sewage-backup-health-risks/",
-        "/services/mold-remediation/"
-      ],
-      "service_tags": [
-        "flood-damage-restoration",
-        "sewage-cleanup",
-        "flood-equipment-rental",
-        "mold-remediation"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.cdc.gov/floods/safety/cleanup-safely-after-a-disaster.html",
-        "https://www.epa.gov/natural-disasters/flooding"
-      ],
-      "notes": "ChatGPT decomposition question 7, and the highest-converting shape in this cluster: a homeowner deciding DIY versus pro is one step from calling. Give an honest split (a clean supply-line leak on tile is DIY; anything that touched ground water, sewage, or carpet padding is not) so it reads as advice rather than a pitch. Flood water is Category 3 by definition, which is the pivot to /services/sewage-cleanup/. Offer flood-equipment-rental as the genuine middle path for DIY-capable owners. Do not cite IICRC standards or certifications: unverified for this brand.",
-      "source": "keyword-researcher"
+     "file": "src/content/blog/water-damage-restoration-cost-hi.md",
+     "part": "body",
+     "family": "certification",
+     "severity": "review",
+     "matched": "IICRC",
+     "context": "ly to confirm drying progress meets the IICRC S500 standard. 5. **Antimicrobial treat",
+     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
     }
-  ]
+   ]
+  },
+  {
+   "id": "2026-08-07-best-water-damage-restoration-in-honolulu-hi",
+   "status": "written",
+   "queued_at": "2026-08-07T03:41:42Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "best_of_comparison",
+   "combo_key": "best-water-damage-restoration-in-honolulu-hi",
+   "primary_keyword": "best water damage restoration company in Honolulu, HI",
+   "intent": "commercial",
+   "target_word_count": 1600,
+   "city_anchor": "honolulu-hi",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Honolulu",
+    "state": "HI",
+    "competitors": [
+     {
+      "name": "NuFinishPro of San Diego",
+      "google_rating": 5,
+      "review_count": 259
+     },
+     {
+      "name": "Servpro Industries LLC",
+      "google_rating": 2.4,
+      "review_count": 60
+     }
+    ]
+   },
+   "fan_out_cluster": [
+    "best water damage restoration companies Honolulu",
+    "top rated water damage restoration Honolulu HI",
+    "who is the best water damage restoration company in Honolulu",
+    "water removal Honolulu",
+    "water damage cleanup Honolulu",
+    "water cleanup Honolulu"
+   ],
+   "source": "best-of-seeder",
+   "written_at": "2026-08-10T17:14:27Z",
+   "post_url": "https://aaawaterdamagehawaii.com/blog/best-water-damage-restoration-company-in-honolulu-hi/",
+   "claims_flags": [
+    {
+     "file": "src/content/blog/best-water-damage-restoration-company-in-honolulu-hi.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "error",
+     "matched": "259 reviews",
+     "context": "Diego holds a 5.0 Google rating across 259 reviews, which is a strong signal of consistent",
+     "reason": "claims 259 reviews but no synced gbpReviewCount exists for this site"
+    },
+    {
+     "file": "src/content/blog/best-water-damage-restoration-company-in-honolulu-hi.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "error",
+     "matched": "60 reviews",
+     "context": "ting carries a 2.4 Google rating across 60 reviews. As with any franchise, service quality",
+     "reason": "claims 60 reviews but no synced gbpReviewCount exists for this site"
+    }
+   ]
+  },
+  {
+   "id": "2026-08-10-hawaii-water-damage-restoration",
+   "status": "written",
+   "queued_at": "2026-08-10T17:12:00Z",
+   "written_at": "2026-08-17T16:51:54Z",
+   "post_url": "https://aaawaterdamagehawaii.com/blog/hawaii-water-damage-restoration-island-guide/",
+   "primary_keyword": "hawaii water damage restoration",
+   "intent": "transactional",
+   "volume": 210,
+   "kd": 20,
+   "fan_out_cluster": [
+    "water damage restoration oahu",
+    "water damage restoration honolulu",
+    "emergency water extraction honolulu",
+    "24 hour water damage restoration honolulu",
+    "water damage cleanup honolulu",
+    "residential water damage restoration near me"
+   ],
+   "suggested_slug": "hawaii-water-damage-restoration-island-guide",
+   "suggested_title": "Hawaii water damage restoration: what island homeowners need to know before they call",
+   "target_word_count": 1600,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/flood-damage-restoration/",
+    "/service-areas/honolulu-hi/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "flood-damage-restoration"
+   ],
+   "city_anchor": "honolulu-hi",
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500"
+   ],
+   "notes": "Island-wide gap: the url-plan covers water damage restoration per-city but has no Oahu or Hawaii-wide page, and 'hawaii water damage restoration' pulls 210/mo at KD 20 with a $21 CPC. Frame around what makes island losses different from mainland losses: year-round humidity collapsing the 24-48 hour mold window, salt-air corrosion on valves and angle stops, single-wall construction that wicks water, high-rise riser failures that cascade through units. Route readers to the per-city pages. Truth gate: no IICRC or license claims, no specific founding year, 'over 25 years' phrasing only.",
+   "source": "keyword-researcher",
+   "seed": "water damage restoration",
+   "claims_flags": [
+    {
+     "file": "src/content/blog/hawaii-water-damage-restoration-island-guide.md",
+     "part": "frontmatter",
+     "family": "certification",
+     "severity": "review",
+     "matched": "IICRC",
+     "context": "lassified as Category 3 water under the IICRC S500 standard, which means it is presum",
+     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+     "file": "src/content/blog/hawaii-water-damage-restoration-island-guide.md",
+     "part": "body",
+     "family": "certification",
+     "severity": "review",
+     "matched": "IICRC",
+     "context": "ven with air conditioning running. The [IICRC S500 standard](https://www.iicrc.org/pa",
+     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+     "file": "src/content/blog/hawaii-water-damage-restoration-island-guide.md",
+     "part": "body",
+     "family": "certification",
+     "severity": "review",
+     "matched": "IICRC",
+     "context": "y 3 (also called black water) under the IICRC S500 standard, meaning it is presumed c",
+     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    }
+   ]
+  },
+  {
+   "id": "2026-08-10-water-damage-restoration-cost",
+   "status": "queued",
+   "queued_at": "2026-08-10T17:12:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "water damage restoration cost",
+   "intent": "informational",
+   "volume": 880,
+   "kd": 3,
+   "fan_out_cluster": [
+    "how much does water damage restoration cost",
+    "water damage restoration cost per square foot",
+    "water damage restoration cost calculator",
+    "water damage restoration cost honolulu",
+    "water damage restoration price sheet",
+    "what affects water damage restoration pricing"
+   ],
+   "suggested_slug": "water-damage-restoration-cost",
+   "suggested_title": "Water damage restoration cost: what drives the number (and what it looks like on Oahu)",
+   "target_word_count": 1800,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/flood-equipment-rental/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "flood-equipment-rental"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500"
+   ],
+   "notes": "Highest-value uncovered informational term in the seed family: 880/mo at KD 3, and none of the 12 planned blog posts touch price. Break cost down by driver (water category, affected square footage, materials removed, drying days, equipment count) rather than publishing a flat price list. Explain mitigation billing vs reconstruction billing separately. Do not publish a fixed price sheet or a guaranteed quote range.",
+   "source": "keyword-researcher",
+   "seed": "water damage restoration"
+  },
+  {
+   "id": "2026-08-10-who-is-responsible-for-water-damage-in-a-condo",
+   "status": "banked",
+   "queued_at": "2026-08-10T17:12:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "who is responsible for water damage in a condo",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "fan_out_cluster": [
+    "condo water damage honolulu",
+    "ceiling leak from the unit upstairs",
+    "AOAO vs owner responsibility for water damage",
+    "who pays for water damage in a high rise",
+    "condo water damage insurance claim",
+    "what to do when a neighbor's leak floods your unit"
+   ],
+   "suggested_slug": "who-is-responsible-water-damage-condo",
+   "suggested_title": "Who is responsible for water damage in a condo: owner, neighbor, or the AOAO?",
+   "target_word_count": 1600,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/commercial-restoration/",
+    "/service-areas/honolulu-hi/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "commercial-restoration"
+   ],
+   "city_anchor": "honolulu-hi",
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500"
+   ],
+   "notes": "Highest local-fit question in the whole fan-out. Urban Honolulu is condo country (Waikiki, Kakaako, Ala Moana, the Diamond Head Gold Coast co-ops) where one failed riser or supply line soaks the units below and pulls in AOAO coverage alongside the owner's HO-6. Explain the split between association master policy and unit-owner policy in general terms, and what documentation the association's insurer will expect. Keep it educational: state plainly this is not legal or insurance advice and that the governing documents control.",
+   "source": "keyword-researcher",
+   "seed": "water damage restoration",
+   "banked_at": "2026-09-17T22:13:26.007939+00:00"
+  },
+  {
+   "id": "2026-08-10-water-mitigation-vs-water-restoration",
+   "status": "banked",
+   "queued_at": "2026-08-10T17:12:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "what is the difference between water mitigation and water restoration",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "fan_out_cluster": [
+    "water mitigation vs restoration",
+    "what does water mitigation include",
+    "does mitigation include putting my house back together",
+    "who does the reconstruction after water damage",
+    "mitigation vs reconstruction insurance billing",
+    "what is moisture mapping"
+   ],
+   "suggested_slug": "water-mitigation-vs-water-restoration",
+   "suggested_title": "What is the difference between water mitigation and water restoration (and why your bill has two halves)",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/flood-equipment-rental/",
+    "/blog/how-long-does-water-damage-restoration-take/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "flood-equipment-rental"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500"
+   ],
+   "notes": "ChatGPT's decomposition of the seed named this distinction as extremely important and no planned page covers it. Lay out mitigation (extraction, air movers, dehumidifiers, moisture mapping, controlled demolition, monitoring, documentation) against reconstruction (drywall, flooring, cabinets, trim, paint). Important truth-gate note for this client: drywall, painting and remodel service pages were deliberately omitted pending an HI contractor license number, so the post must describe reconstruction generically and must not offer or imply the client performs licensed reconstruction work.",
+   "source": "keyword-researcher",
+   "seed": "water damage restoration",
+   "banked_at": "2026-09-17T22:13:26.007943+00:00"
+  },
+  {
+   "id": "2026-08-10-how-do-i-know-if-my-house-is-dry-after-water-damage",
+   "status": "banked",
+   "queued_at": "2026-08-10T17:12:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "how do i know if my house is dry after water damage",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "fan_out_cluster": [
+    "moisture meter readings after water damage",
+    "what is a dry standard in restoration",
+    "how many days should air movers run",
+    "can drywall look dry but still be wet",
+    "should i get drying documentation",
+    "thermal imaging for hidden moisture"
+   ],
+   "suggested_slug": "how-to-know-house-is-dry-after-water-damage",
+   "suggested_title": "How do I know if my house is dry after water damage? The readings to ask for",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/mold-inspection-testing/",
+    "/blog/mold-after-water-damage/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "mold-inspection-testing"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.epa.gov/mold/mold-cleanup-your-home",
+    "https://www.iicrc.org/page/IICRCS500"
+   ],
+   "notes": "ChatGPT called this the single best question a homeowner can ask, and the planned blog only covers how long restoration takes, not how dryness is verified. Give the reader the exact list to ask for: baseline readings, affected materials, daily readings, target dry standard, where readings were taken, and a copy of the drying log. Tie it to Oahu's ambient humidity, which makes 'it feels dry' meaningless year-round.",
+   "source": "keyword-researcher",
+   "seed": "water damage restoration",
+   "banked_at": "2026-09-17T22:13:26.007944+00:00"
+  },
+  {
+   "id": "2026-08-17-mold-remediation-cost",
+   "status": "queued",
+   "queued_at": "2026-08-17T00:00:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "mold remediation cost",
+   "intent": "commercial",
+   "volume": 9900,
+   "kd": 3,
+   "fan_out_cluster": [
+    "how much does mold remediation cost",
+    "mold remediation cost per square foot",
+    "whole-house mold remediation cost",
+    "cost of mold remediation in a condo",
+    "what affects mold remediation pricing",
+    "does the mold remediation quote include reconstruction"
+   ],
+   "suggested_slug": "mold-remediation-cost",
+   "suggested_title": "Mold remediation cost: what drives the number (and what it looks like on Oahu)",
+   "target_word_count": 1800,
+   "internal_link_targets": [
+    "/services/mold-remediation/",
+    "/services/mold-inspection-testing/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+   ],
+   "service_tags": [
+    "mold-remediation",
+    "mold-inspection-testing"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.epa.gov/mold/mold-cleanup-your-home"
+   ],
+   "notes": "Highest-value uncovered term in the seed family: 9,900/mo at KD 3 with a $16.92 CPC, and none of the 12 planned blog posts touch mold pricing. Break cost down by driver (square footage affected, containment complexity, materials removed, HVAC involvement, post-remediation verification) instead of publishing a flat price list. Oahu angle: year-round humidity means remediation here often follows a water loss that was never dried to standard, so scope tends to be larger than a mainland comparison quote suggests. Truth gate: no fixed price sheet, no guaranteed quote range. Remediation includes removing affected drywall as part of the mitigation scope, but the post must NOT offer or imply licensed reconstruction, drywall rebuild or painting: those service pages were deliberately omitted pending an HI contractor license number.",
+   "source": "keyword-researcher",
+   "seed": "mold remediation"
+  },
+  {
+   "id": "2026-08-17-does-homeowners-insurance-cover-mold-remediation",
+   "status": "queued",
+   "queued_at": "2026-08-17T00:00:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "does homeowners insurance cover mold remediation",
+   "intent": "informational",
+   "volume": 1000,
+   "kd": 26,
+   "fan_out_cluster": [
+    "what insurance companies cover mold damage",
+    "is mold covered if it came from a burst pipe",
+    "mold exclusion in a homeowners policy",
+    "mold coverage sublimit",
+    "does HO-6 condo insurance cover mold",
+    "what documentation does an adjuster want for mold"
+   ],
+   "suggested_slug": "does-homeowners-insurance-cover-mold-remediation",
+   "suggested_title": "Does homeowners insurance cover mold remediation? What Hawaii policies usually say",
+   "target_word_count": 1600,
+   "internal_link_targets": [
+    "/services/mold-remediation/",
+    "/services/water-damage-restoration/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+   ],
+   "service_tags": [
+    "mold-remediation",
+    "water-damage-restoration"
+   ],
+   "city_anchor": "honolulu-hi",
+   "external_authority_candidates": [
+    "https://www.epa.gov/mold/mold-cleanup-your-home"
+   ],
+   "notes": "Decision-stage insurance query, exactly the 24-48-hours-before-they-hire moment the methodology flags as high value: 1,000/mo at KD 26. The existing planned post covers insurance for WATER damage, not mold, so this is a genuine gap rather than a duplicate; cross-link the two. Core explanation: coverage usually turns on whether the mold resulted from a sudden accidental discharge that was addressed promptly versus long-term seepage or deferred maintenance, and most policies carry a mold sublimit. Hawaii angle: ambient humidity means insurers scrutinise the 'sudden vs gradual' line harder here. Keep it educational and state plainly this is not legal or insurance advice and the policy language controls.",
+   "source": "keyword-researcher",
+   "seed": "mold remediation"
+  },
+  {
+   "id": "2026-08-17-who-pays-for-mold-remediation",
+   "status": "queued",
+   "queued_at": "2026-08-17T00:00:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "who pays for mold remediation",
+   "intent": "informational",
+   "volume": 880,
+   "kd": 9,
+   "fan_out_cluster": [
+    "who pays for mold in a condo",
+    "AOAO responsibility for mold",
+    "landlord vs tenant mold responsibility Hawaii",
+    "mold from a neighbor's leak upstairs",
+    "does the association master policy cover mold",
+    "who pays for mold testing"
+   ],
+   "suggested_slug": "who-pays-for-mold-remediation",
+   "suggested_title": "Who pays for mold remediation: owner, landlord, or the AOAO?",
+   "target_word_count": 1600,
+   "internal_link_targets": [
+    "/services/mold-remediation/",
+    "/services/mold-inspection-testing/",
+    "/service-areas/honolulu-hi/"
+   ],
+   "service_tags": [
+    "mold-remediation",
+    "mold-inspection-testing"
+   ],
+   "city_anchor": "honolulu-hi",
+   "external_authority_candidates": [
+    "https://www.epa.gov/mold/mold-cleanup-your-home"
+   ],
+   "notes": "Strongest local fit in the fan-out at 880/mo, KD 9, $14.41 CPC. Urban Honolulu is condo country (Waikiki, Kakaako, Ala Moana, the Diamond Head Gold Coast co-ops) where a riser or supply-line failure seeds mold in units below and pulls the AOAO master policy in alongside the owner's HO-6. Direct sibling to the already-queued 'who is responsible for water damage in a condo' post: cross-link them and keep the scopes distinct (that one is the water loss, this one is the mold that follows). Also cover the landlord/tenant split given Kaneohe and Mililani rental turnover. Educational framing only, governing documents control, not legal advice.",
+   "source": "keyword-researcher",
+   "seed": "mold remediation"
+  },
+  {
+   "id": "2026-08-17-how-long-does-mold-remediation-take",
+   "status": "queued",
+   "queued_at": "2026-08-17T00:00:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "how long does mold remediation take",
+   "intent": "informational",
+   "volume": 720,
+   "kd": 0,
+   "fan_out_cluster": [
+    "mold remediation process step by step",
+    "how many days is containment up",
+    "when can i move back in after mold remediation",
+    "what is post-remediation verification",
+    "how long does it take to dry after mold removal",
+    "why does remediation take longer in humid climates"
+   ],
+   "suggested_slug": "how-long-does-mold-remediation-take",
+   "suggested_title": "How long does mold remediation take? A realistic timeline for Hawaii homes",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/mold-remediation/",
+    "/services/mold-inspection-testing/",
+    "/blog/mold-after-water-damage/"
+   ],
+   "service_tags": [
+    "mold-remediation",
+    "mold-inspection-testing"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.epa.gov/mold/mold-remediation-schools-and-commercial-buildings-guide"
+   ],
+   "notes": "720/mo at KD 0 with a $17.80 CPC: the easiest ranking target in the set and high commercial value. The planned blog covers how long WATER DAMAGE restoration takes, not mold, so this is uncovered. Walk the reader through assessment, containment, HEPA filtration, removal of affected materials, cleaning, drying, and post-remediation verification, giving realistic day ranges per phase rather than one number. Hawaii angle: trade-wind humidity keeps ambient moisture high year-round, so the drying and clearance phases routinely run longer than mainland timelines. Do not promise a specific turnaround, and do not claim IICRC certification or any cert number: none are on file for this client.",
+   "source": "keyword-researcher",
+   "seed": "mold remediation"
+  },
+  {
+   "id": "2026-08-17-mold-remediation-oahu",
+   "status": "queued",
+   "queued_at": "2026-08-17T00:00:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "mold remediation oahu",
+   "intent": "transactional",
+   "volume": 170,
+   "kd": 12,
+   "fan_out_cluster": [
+    "mold remediation hawaii",
+    "mold removal oahu",
+    "why is there so much mold in hawaii homes",
+    "windward side mold problems",
+    "single wall construction mold",
+    "mold in a hawaii condo"
+   ],
+   "suggested_slug": "mold-remediation-oahu",
+   "suggested_title": "Mold remediation on Oahu: why island homes grow mold faster (and what removal involves)",
+   "target_word_count": 1600,
+   "internal_link_targets": [
+    "/services/mold-remediation/",
+    "/services/mold-inspection-testing/",
+    "/services/water-damage-restoration/"
+   ],
+   "service_tags": [
+    "mold-remediation",
+    "mold-inspection-testing"
+   ],
+   "city_anchor": "honolulu-hi",
+   "external_authority_candidates": [
+    "https://www.epa.gov/mold/mold-cleanup-your-home"
+   ],
+   "notes": "Island-wide gap that mirrors the one the water damage run found: the url-plan has mold-remediation pages for all 13 cities but nothing at Oahu or Hawaii scope, so 'mold remediation oahu' (170/mo, KD 12) and 'mold remediation hawaii' (50/mo, KD 16) have no target. Frame around what makes island mold different: year-round trade-wind humidity that collapses the 24-48 hour growth window, single-wall construction in Kaimuki, Aina Haina and Kailua that wicks water into cavities, the Koolau windward face making Kaneohe the wettest market served, and salt-air corrosion seeding slow leaks. Route readers out to the per-city mold pages. Truth gate: 'over 25 years' phrasing only, no founding year, no license or IICRC claims, no commercial client name-drops.",
+   "source": "keyword-researcher",
+   "seed": "mold remediation"
+  },
+  {
+   "id": "2026-08-26-flood-insurance-hawaii",
+   "status": "written",
+   "queued_at": "2026-08-26T00:00:00Z",
+   "written_at": "2026-08-26T12:55:54Z",
+   "post_url": "https://aaawaterdamagehawaii.com/blog/flood-insurance-hawaii/",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "insurance_guide",
+   "primary_keyword": "flood insurance hawaii",
+   "intent": "informational",
+   "volume": 110,
+   "kd": 0,
+   "fan_out_cluster": [
+    "flooded house insurance",
+    "does homeowners insurance cover flood damage",
+    "flood insurance oahu",
+    "how much is flood insurance in hawaii",
+    "hawaii flood insurance",
+    "national flood insurance program hawaii",
+    "special flood hazard area oahu"
+   ],
+   "suggested_slug": "flood-insurance-hawaii",
+   "suggested_title": "Flood insurance Hawaii: what it covers, what it costs, and why your homeowners policy will not pay",
+   "target_word_count": 1600,
+   "internal_link_targets": [
+    "/services/flood-damage-restoration/",
+    "/services/water-damage-restoration/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+   ],
+   "service_tags": [
+    "flood-damage-restoration",
+    "water-damage-restoration"
+   ],
+   "city_anchor": "honolulu-hi",
+   "external_authority_candidates": [
+    "https://www.fema.gov/flood-insurance",
+    "https://msc.fema.gov/portal/home",
+    "https://www.floodsmart.gov/"
+   ],
+   "notes": "Highest-value gap this run: KD 0 locally and no blog covers it. Lead with the distinction the existing /blog/does-homeowners-insurance-cover-water-damage/ post does NOT make: a standard HO-3 policy covers sudden internal water (burst pipe, appliance leak) but excludes rising surface water, so Oahu homeowners need a separate NFIP or private flood policy. Cover the 30-day NFIP waiting period, Oahu flood zones (use the Hawaii Flood Hazard Assessment Tool), and condo master-policy vs HO-6 gaps since urban Honolulu is condo country. Link back to the HO-insurance post to avoid cannibalization. No license or certification claims: brand claims policy is STRICT (no IICRC, no insured/bonded, no since-1994).",
+   "source": "keyword-researcher",
+   "claims_flags": [
+    {
+     "file": "src/content/blog/flood-insurance-hawaii.md",
+     "part": "frontmatter",
+     "family": "certification",
+     "severity": "review",
+     "matched": "IICRC",
+     "context": "d as Category 3 (black water) under the IICRC S500 standard because it carries sewage",
+     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+     "file": "src/content/blog/flood-insurance-hawaii.md",
+     "part": "body",
+     "family": "certification",
+     "severity": "review",
+     "matched": "IICRC",
+     "context": "d as Category 3 (black water) under the IICRC S500 standard, meaning it is presumed t",
+     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    }
+   ]
+  },
+  {
+   "id": "2026-08-26-flood-prone-areas-oahu",
+   "status": "written",
+   "queued_at": "2026-08-26T00:00:00Z",
+   "written_at": "2026-08-31T21:29:26Z",
+   "post_url": "https://aaawaterdamagehawaii.com/blog/flood-prone-areas-oahu/",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "local_guide",
+   "primary_keyword": "flood areas oahu",
+   "intent": "informational",
+   "volume": 260,
+   "kd": 11,
+   "fan_out_cluster": [
+    "oahu flood areas",
+    "flood zones oahu",
+    "hawaii flood hazard assessment tool",
+    "special flood hazard area oahu",
+    "does hawaii flood",
+    "how often does hawaii flood",
+    "kaneohe flooding",
+    "kailua flooding"
+   ],
+   "suggested_slug": "flood-prone-areas-oahu",
+   "suggested_title": "Flood areas Oahu: the neighborhoods that flood first (and what to do if yours is one)",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/flood-damage-restoration/",
+    "/service-areas/kaneohe-hi/flood-damage-restoration/",
+    "/service-areas/kailua-hi/flood-damage-restoration/",
+    "/service-areas/ewa-beach-hi/flood-damage-restoration/",
+    "/blog/basement-flooding-prevention/"
+   ],
+   "service_tags": [
+    "flood-damage-restoration",
+    "water-damage-restoration"
+   ],
+   "city_anchor": "honolulu-hi",
+   "external_authority_candidates": [
+    "https://www.weather.gov/hfo/",
+    "https://msc.fema.gov/portal/home"
+   ],
+   "notes": "Local authority play with real measured demand (260/mo, KD 11) and zero blog coverage. Build it straight from plan-input local_notes: Kaneohe takes the Koolau windward rainfall, Kailua has high water tables around Kawainui Marsh and Enchanted Lake plus canal-front homes, the flat Ewa plain drains poorly, Aina Haina and Palolo valley homes sit below steep ridges that funnel Kona-storm runoff. Note for the writer: Oahu homes are overwhelmingly slab-on-grade or single-wall construction, so do NOT frame this around basements. Anchor each neighborhood section to its /service-areas/ page.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-08-26-how-to-prevent-mold-after-a-flood",
+   "status": "written",
+   "queued_at": "2026-08-26T00:00:00Z",
+   "written_at": "2026-09-03T19:10:48Z",
+   "post_url": "https://aaawaterdamagehawaii.com/blog/how-to-prevent-mold-after-a-flood/",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "how_to_guide",
+   "primary_keyword": "how to prevent mold after a flood",
+   "intent": "informational",
+   "volume": 70,
+   "kd": 0,
+   "fan_out_cluster": [
+    "how to prevent mold after water damage",
+    "mold after flooding",
+    "how fast does mold grow after a flood",
+    "drying out a house after a flood",
+    "dehumidifier after flood",
+    "hawaii humidity mold"
+   ],
+   "suggested_slug": "how-to-prevent-mold-after-a-flood",
+   "suggested_title": "How to prevent mold after a flood in Hawaii's humidity (the 24 to 48 hour window)",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/mold-remediation/",
+    "/services/mold-inspection-testing/",
+    "/services/flood-damage-restoration/",
+    "/services/flood-equipment-rental/",
+    "/blog/mold-after-water-damage/",
+    "/blog/signs-of-hidden-mold/"
+   ],
+   "service_tags": [
+    "mold-remediation",
+    "mold-inspection-testing",
+    "flood-damage-restoration",
+    "flood-equipment-rental"
+   ],
+   "city_anchor": "honolulu-hi",
+   "external_authority_candidates": [
+    "https://www.epa.gov/mold/mold-cleanup-your-home",
+    "https://www.cdc.gov/mold-health/about/index.html"
+   ],
+   "notes": "KD 0 with 70/mo and no prevention-focused post exists (the adjacent /blog/mold-after-water-damage/ answers how fast mold grows, not how to stop it). Hawaii angle is the whole differentiator: year-round 60 to 80 percent ambient humidity plus single-wall redwood construction in Kaimuki and Aina Haina means wall cavities stay wet and mold starts inside the wall, not on it. Cross-sell flood-equipment-rental for homeowners who want to run their own dehumidifiers. Link to the existing mold posts rather than restating them.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-08-26-document-flood-damage-for-insurance",
+   "status": "written",
+   "queued_at": "2026-08-26T00:00:00Z",
+   "written_at": "2026-09-12T13:46:25Z",
+   "post_url": "https://aaawaterdamagehawaii.com/blog/document-flood-damage-for-insurance/",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "how_to_guide",
+   "primary_keyword": "how do i document flood damage for insurance",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "fan_out_cluster": [
+    "how to document water damage for insurance claim",
+    "flood damage insurance claim checklist",
+    "what to photograph after a flood",
+    "flood damage inventory list",
+    "proof of loss flood claim",
+    "do i need an adjuster for flood damage"
+   ],
+   "suggested_slug": "document-flood-damage-for-insurance",
+   "suggested_title": "How do I document flood damage for insurance: the photo and inventory checklist adjusters actually want",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/flood-damage-restoration/",
+    "/services/water-damage-restoration/",
+    "/contact/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+   ],
+   "service_tags": [
+    "flood-damage-restoration",
+    "water-damage-restoration"
+   ],
+   "city_anchor": "honolulu-hi",
+   "external_authority_candidates": [
+    "https://www.floodsmart.gov/start-your-claim",
+    "https://www.iii.org/article/how-file-homeowners-insurance-claim"
+   ],
+   "notes": "Surfaced by the ChatGPT decomposition (question 3) with no Google volume attached, which is exactly the AI-retrieval fuel this vertical needs: it is a passage-shaped query an assistant will lift verbatim. No blog covers claim documentation. Structure as a numbered checklist with a table of what to capture per room, mention the NFIP proof-of-loss deadline, and stress documenting BEFORE mitigation starts. Do not promise to handle or negotiate claims, and do not imply the company is an insurance adjuster: keep it to 'we document what we find and share it with your adjuster'.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-08-26-can-i-clean-up-flood-damage-myself",
+   "status": "written",
+   "queued_at": "2026-08-26T00:00:00Z",
+   "written_at": "2026-09-18T12:04:20Z",
+   "post_url": "https://aaawaterdamagehawaii.com/blog/can-i-clean-up-flood-damage-myself/",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "decision_guide",
+   "primary_keyword": "can i clean up flood damage myself",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "fan_out_cluster": [
+    "diy flood cleanup",
+    "should i hire a flood restoration company",
+    "is flood water contaminated",
+    "category 3 water flood",
+    "how long does flood damage cleanup take",
+    "flood cleanup safety gear"
+   ],
+   "suggested_slug": "can-i-clean-up-flood-damage-myself",
+   "suggested_title": "Can I clean up flood damage myself? When DIY is fine and when it is a health risk",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/flood-damage-restoration/",
+    "/services/sewage-cleanup/",
+    "/services/flood-equipment-rental/",
+    "/blog/sewage-backup-health-risks/",
+    "/services/mold-remediation/"
+   ],
+   "service_tags": [
+    "flood-damage-restoration",
+    "sewage-cleanup",
+    "flood-equipment-rental",
+    "mold-remediation"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.cdc.gov/floods/safety/cleanup-safely-after-a-disaster.html",
+    "https://www.epa.gov/natural-disasters/flooding"
+   ],
+   "notes": "ChatGPT decomposition question 7, and the highest-converting shape in this cluster: a homeowner deciding DIY versus pro is one step from calling. Give an honest split (a clean supply-line leak on tile is DIY; anything that touched ground water, sewage, or carpet padding is not) so it reads as advice rather than a pitch. Flood water is Category 3 by definition, which is the pivot to /services/sewage-cleanup/. Offer flood-equipment-rental as the genuine middle path for DIY-capable owners. Do not cite IICRC standards or certifications: unverified for this brand.",
+   "source": "keyword-researcher"
+  }
+ ]
 }
