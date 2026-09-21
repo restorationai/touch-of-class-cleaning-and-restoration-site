@@ -227,7 +227,7 @@
     },
     {
       "id": "2026-08-27-does-homeowners-insurance-cover-water-damage",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-27T04:40:00Z",
       "written_at": null,
       "post_url": null,
@@ -260,8 +260,7 @@
         "https://www.floodsmart.gov/"
       ],
       "notes": "Highest-value decision-stage query in the seed family (1,900/mo, KD 10, $27 CPC). Lead with the sudden-and-accidental vs gradual-damage distinction, then the flood exclusion, which matters more in Charleston than almost anywhere: NFIP flood policies are separate and tidal/storm-surge flooding is never covered by a standard HO-3. Note that Paul Davis works directly with adjusters and documents moisture readings for the claim.",
-      "source": "keyword-researcher",
-      "banked_at": "2026-09-17T22:13:26.023119+00:00"
+      "source": "keyword-researcher"
     },
     {
       "id": "2026-08-27-water-damage-and-mold",
