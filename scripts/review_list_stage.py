@@ -172,8 +172,96 @@ def stage_pins(dry: bool, only_cid: str | None) -> None:
             print(f"    FAILED: {err[:160]}")
 
 
+def _seed_photo_ask(cid: str, slug: str, dry: bool) -> None:
+    """Image-before-activation ask, now systemic (Santino 2026-09-20,
+    HomeLyft: 'is this part of the system already?'). A campaign that is
+    otherwise READY (list staged + sender approved) but has no review MMS
+    image gets ONE Monica ask: team photo (converts better) or start
+    without. Activation stays a human decision either way."""
+    img = (_sb("GET", f"/rest/v1/dynamic_images?company_id=eq.{cid}"
+               "&category=eq.review&select=base_image_url&limit=1")
+           or [{}])[0]
+    if str(img.get("base_image_url") or "").strip():
+        return  # image already on file
+    ak = f"review-photo-{slug}"
+    dup = _sb("GET", f"/rest/v1/marketing_action_plan?company_id=eq.{cid}"
+              f"&action_key=eq.{ak}&select=id&limit=1",
+              prefer="return=representation") or []
+    if dup:
+        return
+    if dry:
+        print(f"  [dry-run] would seed review-photo ask for {slug}")
+        return
+    _sb("POST", "/rest/v1/marketing_action_plan", [{
+        "company_id": cid, "rank_ai_slug": slug, "action_key": ak,
+        "action_type": "client_input", "status": "planned",
+        "priority": 2, "impact": "medium", "effort": "low",
+        "title": "Team photo for the review texts, or start without?",
+        "rationale": "Their review campaign is otherwise ready (list "
+                     "staged, sender approved) but no review MMS image is "
+                     "on file. Review texts convert measurably better with "
+                     "a real team photo attached (sent on touches 1 and 3 "
+                     "with the customer's name overlaid). Ask if they have "
+                     "one to send over (their upload link works), or "
+                     "whether we should start without it. Their answer "
+                     "gates ACTIVATION, which stays a human step."}])
+    print(f"  seeded review-photo ask for {slug}")
+
+
+def _harvest_ein_from_docs(cid: str) -> str | None:
+    """Last-resort EIN hunt through the client's uploaded documents
+    (Santino 2026-09-20: 'always look through their uploaded files to see
+    if any contain an EIN'). PDFs only for now — W9s/COIs carry it in the
+    text layer. Best-effort: any failure just returns None."""
+    import io
+    import os
+    import requests as rq
+    try:
+        import pypdf
+    except ImportError:
+        return None
+    url = os.environ["SUPABASE_URL"].rstrip("/")
+    key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+    H = {"apikey": key, "Authorization": f"Bearer {key}"}
+    names: list[str] = []
+    for prefix in (f"{cid}/docs", f"{cid}/compliance", f"{cid}/uploads"):
+        try:
+            r = rq.post(f"{url}/storage/v1/object/list/branding",
+                        headers=H, json={"prefix": prefix, "limit": 40},
+                        timeout=30)
+            for o in (r.json() if r.ok else []):
+                n = (o or {}).get("name") or ""
+                if n.lower().endswith(".pdf"):
+                    names.append(f"{prefix}/{n}")
+        except Exception:  # noqa: BLE001
+            continue
+    import re as _re
+    for path in names[:10]:
+        try:
+            f = rq.get(f"{url}/storage/v1/object/branding/{path}",
+                       headers=H, timeout=60)
+            if not f.ok or len(f.content) > 8_000_000:
+                continue
+            reader = pypdf.PdfReader(io.BytesIO(f.content))
+            text = " ".join((pg.extract_text() or "")
+                            for pg in reader.pages[:4])
+            m = _re.search(r"\b(\d{2})\s*[-–]\s*(\d{7})\b", text)
+            if m:
+                ein = f"{m.group(1)}-{m.group(2)}"
+                print(f"    EIN harvested from {Path(path).name}: {ein}")
+                return ein
+        except Exception:  # noqa: BLE001
+            continue
+    return None
+
+
 def seed_readiness_asks(dry: bool, only_cid: str | None) -> None:
-    """B2: a list on file + no approved sender -> ask for what's missing."""
+    """B2: a list on file + no approved sender -> ask ONLY for what we
+    genuinely don't hold. Order of truth (Santino 2026-09-20, the DryCor
+    lesson — 22 clients had EINs on the companies row that never reached
+    the compliance store): company_phone_setup -> companies.ein (the
+    Connect tab's store, auto-backfilled here) -> the client's uploaded
+    documents (PDF text harvest) -> only then a Monica ask."""
     smap = slug_map()
     pins = _sb("GET", "/rest/v1/marketing_action_plan?pinned=eq.true"
                "&title=ilike.Customer%20list%20uploaded*"
@@ -187,10 +275,30 @@ def seed_readiness_asks(dry: bool, only_cid: str | None) -> None:
                   "&select=agent_phone_1,compliance_status,business_ein"
                   "&limit=1") or [{}])[0]
         if str(ph.get("compliance_status") or "") == "approved":
-            continue  # sender ready — nothing to ask
+            _seed_photo_ask(cid, slug, dry)
+            continue  # sender ready — only the image question remains
         missing = []
         if not ph.get("business_ein"):
-            missing.append("EIN")
+            co = (_sb("GET", f"/rest/v1/companies?id=eq.{cid}"
+                      "&select=ein,legal_business_name,name&limit=1")
+                  or [{}])[0]
+            ein = (co.get("ein") or "").strip() or None
+            if not ein and not dry:
+                ein = _harvest_ein_from_docs(cid)
+                if ein:
+                    _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}",
+                        {"ein": ein})
+            if ein:
+                if not dry:
+                    _sb("PATCH", f"/rest/v1/company_phone_setup?id=eq.{cid}",
+                        {"business_ein": ein,
+                         "legal_business_name":
+                             (co.get("legal_business_name")
+                              or co.get("name") or "").strip()})
+                print(f"  {slug}: EIN found on record ({ein[:2]}-***) — "
+                      "backfilled, no ask needed")
+            else:
+                missing.append("EIN")
         if not missing:
             continue  # info in hand; provisioning is our side, not an ask
         ak = f"review-sender-info-{slug}"
