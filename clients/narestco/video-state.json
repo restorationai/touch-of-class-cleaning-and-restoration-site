@@ -1,7 +1,7 @@
 {
-  "last_kind": "blog",
-  "cycle_pos": 1,
-  "geo_cursor": 4,
+  "last_kind": "geo",
+  "cycle_pos": 2,
+  "geo_cursor": 5,
   "history": [
     {
       "ts": "2026-07-08T17:38:06.395033+00:00",
@@ -58,6 +58,14 @@
       "service": null,
       "city": null,
       "youtube_id": "oO_x6BJHkTs"
+    },
+    {
+      "ts": "2026-09-21T16:58:09.655690+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "water-damage-restoration",
+      "city": "Algona",
+      "youtube_id": "w4bXB-kyqWQ"
     }
   ]
 }
