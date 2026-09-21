@@ -405,16 +405,24 @@ def main() -> int:
     connected = connected_company_ids()
     if args.list_due:
         import json as _json
+        # STDOUT DISCIPLINE (2026-09-21, first scheduled matrix outing):
+        # plan_next() chats on stdout ("[focus] ..." lines) and the
+        # workflow pipes this command straight into $GITHUB_OUTPUT — any
+        # extra line breaks the output file and fails the whole plan job.
+        # In list-due mode every inner print goes to stderr; the JSON is
+        # the ONLY stdout line.
+        import contextlib
         due = []
-        for slug in slugs:
-            cid = _company_id_for(slug)
-            if cid not in connected or not has_publishable_channel(slug):
-                continue
-            try:
-                if plan_next(slug, load_state(slug)):
-                    due.append(slug)
-            except Exception:  # noqa: BLE001 — a broken ledger read isn't "due"
-                pass
+        with contextlib.redirect_stdout(sys.stderr):
+            for slug in slugs:
+                cid = _company_id_for(slug)
+                if cid not in connected or not has_publishable_channel(slug):
+                    continue
+                try:
+                    if plan_next(slug, load_state(slug)):
+                        due.append(slug)
+                except Exception:  # noqa: BLE001 — a broken ledger read isn't "due"
+                    pass
         print(_json.dumps(sorted(due)))
         return 0
     print(f"==> Video cron: {len(slugs)} client(s) | {len(connected)} with YouTube connected"

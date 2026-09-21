@@ -53,7 +53,7 @@ jobs:
           if [ -n "$SLUG" ]; then
             echo "slugs=[\"$SLUG\"]" >> "$GITHUB_OUTPUT"
           else
-            echo "slugs=$(python3 scripts/video_cron.py --list-due)" >> "$GITHUB_OUTPUT"
+            echo "slugs=$(python3 scripts/video_cron.py --list-due | tail -1)" >> "$GITHUB_OUTPUT"
           fi
 
   video:
