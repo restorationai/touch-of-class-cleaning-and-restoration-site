@@ -42,6 +42,7 @@
     "/service-areas/south-hill-wa/",
     "/service-areas/spanaway-wa/",
     "/service-areas/steilacoom-wa/",
+    "/service-areas/summit-wa/",
     "/service-areas/tacoma-wa/",
     "/service-areas/tumwater-wa/",
     "/service-areas/university-place-wa/",
@@ -92,6 +93,7 @@
     "/service-areas/south-hill-wa/",
     "/service-areas/spanaway-wa/",
     "/service-areas/steilacoom-wa/",
+    "/service-areas/summit-wa/",
     "/service-areas/tacoma-wa/",
     "/service-areas/tumwater-wa/",
     "/service-areas/university-place-wa/",
@@ -830,6 +832,22 @@
     "/service-areas/wollochet-wa/emergency-board-up-tarping/",
     "/service-areas/wollochet-wa/asbestos-abatement/",
     "/service-areas/wollochet-wa/contents-restoration-storage/",
+    "/service-areas/anderson-island-wa/",
+    "/service-areas/auburn-wa/",
+    "/service-areas/bellevue-wa/"
+  ],
+  "/service-areas/summit-wa/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/summit-wa/fire-damage-restoration/",
+    "/service-areas/summit-wa/mold-remediation/",
+    "/service-areas/summit-wa/water-damage-restoration/",
+    "/service-areas/summit-wa/sewage-cleanup/",
+    "/service-areas/summit-wa/storm-damage-restoration/",
+    "/service-areas/summit-wa/water-cleanup/",
+    "/service-areas/summit-wa/emergency-board-up-tarping/",
+    "/service-areas/summit-wa/asbestos-abatement/",
+    "/service-areas/summit-wa/contents-restoration-storage/",
     "/service-areas/anderson-island-wa/",
     "/service-areas/auburn-wa/",
     "/service-areas/bellevue-wa/"
@@ -3665,6 +3683,87 @@
     "/service-areas/wollochet-wa/",
     "/service-areas/wollochet-wa/fire-damage-restoration/",
     "/service-areas/wollochet-wa/mold-remediation/",
+    "/service-areas/anderson-island-wa/water-cleanup/",
+    "/service-areas/auburn-wa/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/summit-wa/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/summit-wa/",
+    "/service-areas/summit-wa/fire-damage-restoration/",
+    "/service-areas/summit-wa/mold-remediation/",
+    "/service-areas/anderson-island-wa/water-damage-restoration/",
+    "/service-areas/auburn-wa/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/summit-wa/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/summit-wa/",
+    "/service-areas/summit-wa/mold-remediation/",
+    "/service-areas/summit-wa/water-damage-restoration/",
+    "/service-areas/anderson-island-wa/fire-damage-restoration/",
+    "/service-areas/auburn-wa/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/summit-wa/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/summit-wa/",
+    "/service-areas/summit-wa/fire-damage-restoration/",
+    "/service-areas/summit-wa/water-damage-restoration/",
+    "/service-areas/anderson-island-wa/mold-remediation/",
+    "/service-areas/auburn-wa/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/summit-wa/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/summit-wa/",
+    "/service-areas/summit-wa/fire-damage-restoration/",
+    "/service-areas/summit-wa/mold-remediation/",
+    "/service-areas/anderson-island-wa/storm-damage-restoration/",
+    "/service-areas/auburn-wa/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/summit-wa/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/summit-wa/",
+    "/service-areas/summit-wa/fire-damage-restoration/",
+    "/service-areas/summit-wa/mold-remediation/",
+    "/service-areas/anderson-island-wa/sewage-cleanup/",
+    "/service-areas/auburn-wa/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/summit-wa/asbestos-abatement/": [
+    "/services/asbestos-abatement/",
+    "/service-areas/summit-wa/",
+    "/service-areas/summit-wa/fire-damage-restoration/",
+    "/service-areas/summit-wa/mold-remediation/",
+    "/service-areas/anderson-island-wa/asbestos-abatement/",
+    "/service-areas/auburn-wa/asbestos-abatement/",
+    "/contact/"
+  ],
+  "/service-areas/summit-wa/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/summit-wa/",
+    "/service-areas/summit-wa/fire-damage-restoration/",
+    "/service-areas/summit-wa/mold-remediation/",
+    "/service-areas/anderson-island-wa/emergency-board-up-tarping/",
+    "/service-areas/auburn-wa/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/summit-wa/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/summit-wa/",
+    "/service-areas/summit-wa/fire-damage-restoration/",
+    "/service-areas/summit-wa/mold-remediation/",
+    "/service-areas/anderson-island-wa/contents-restoration-storage/",
+    "/service-areas/auburn-wa/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/summit-wa/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/summit-wa/",
+    "/service-areas/summit-wa/fire-damage-restoration/",
+    "/service-areas/summit-wa/mold-remediation/",
     "/service-areas/anderson-island-wa/water-cleanup/",
     "/service-areas/auburn-wa/water-cleanup/",
     "/contact/"

@@ -264,6 +264,11 @@
       "city": "Keene",
       "state": "CA",
       "slug": "keene-ca"
+    },
+    {
+      "city": "Wasco",
+      "state": "CA",
+      "slug": "wasco-ca"
     }
   ],
   "brand": {

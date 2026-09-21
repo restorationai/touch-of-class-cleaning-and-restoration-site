@@ -87,6 +87,11 @@
       "city": "Moncks Corner",
       "state": "SC",
       "slug": "moncks-corner-sc"
+    },
+    {
+      "city": "Kiawah Island",
+      "state": "SC",
+      "slug": "kiawah-island-sc"
     }
   ]
 }

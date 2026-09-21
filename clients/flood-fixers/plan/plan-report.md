@@ -1,20 +1,20 @@
 # Site Plan Report — Flood Fixers
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T20:41:47.840007+00:00
+- Generated: 2026-09-21T14:13:14.324726+00:00
 - Domain: `flood-fixers.com`
 - Services selected: 7 of 65 catalog entries
-- Service areas: 25
+- Service areas: 26
 - Cross-product enabled: True
-- Total URLs: **217**
-- Total internal links: 1696 (avg 7.8 per page)
+- Total URLs: **225**
+- Total internal links: 1759 (avg 7.8 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 168 |
-| `service-area` | 24 |
+| `service-area-service` | 175 |
+| `service-area` | 25 |
 | `blog-post` | 9 |
 | `service-landing` | 7 |
 | `legal` | 3 |
@@ -62,6 +62,7 @@
 - `del-mar-ca` — Del Mar, CA
 - `camp-pendleton-mainside-ca` — Camp Pendleton Mainside, CA
 - `camp-pendleton-south-ca` — Camp Pendleton South, CA
+- `fallbrook-ca` — Fallbrook, CA
 
 ## Top 10 priority pages
 

@@ -228,6 +228,11 @@
       "city": "Wollochet",
       "state": "WA",
       "slug": "wollochet-wa"
+    },
+    {
+      "city": "Summit",
+      "state": "WA",
+      "slug": "summit-wa"
     }
   ],
   "template": "restoration",

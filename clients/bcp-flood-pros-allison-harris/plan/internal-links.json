@@ -30,6 +30,7 @@
     "/service-areas/riverton-ut/",
     "/service-areas/sandy-ut/",
     "/service-areas/saratoga-springs-ut/",
+    "/service-areas/south-jordan-ut/",
     "/service-areas/spanish-fork-ut/",
     "/service-areas/springville-ut/",
     "/service-areas/vineyard-ut/"
@@ -65,6 +66,7 @@
     "/service-areas/riverton-ut/",
     "/service-areas/sandy-ut/",
     "/service-areas/saratoga-springs-ut/",
+    "/service-areas/south-jordan-ut/",
     "/service-areas/spanish-fork-ut/",
     "/service-areas/springville-ut/",
     "/service-areas/vineyard-ut/"
@@ -596,6 +598,24 @@
     "/service-areas/riverton-ut/emergency-board-up-tarping/",
     "/service-areas/riverton-ut/contents-restoration-storage/",
     "/service-areas/riverton-ut/flood-equipment-rental/",
+    "/service-areas/alpine-ut/",
+    "/service-areas/bluffdale-ut/",
+    "/service-areas/cedar-hills-ut/"
+  ],
+  "/service-areas/south-jordan-ut/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/south-jordan-ut/fire-damage-restoration/",
+    "/service-areas/south-jordan-ut/mold-remediation/",
+    "/service-areas/south-jordan-ut/water-damage-restoration/",
+    "/service-areas/south-jordan-ut/sewage-cleanup/",
+    "/service-areas/south-jordan-ut/storm-damage-restoration/",
+    "/service-areas/south-jordan-ut/water-cleanup/",
+    "/service-areas/south-jordan-ut/biohazard-cleanup/",
+    "/service-areas/south-jordan-ut/general-contracting/",
+    "/service-areas/south-jordan-ut/emergency-board-up-tarping/",
+    "/service-areas/south-jordan-ut/contents-restoration-storage/",
+    "/service-areas/south-jordan-ut/flood-equipment-rental/",
     "/service-areas/alpine-ut/",
     "/service-areas/bluffdale-ut/",
     "/service-areas/cedar-hills-ut/"
@@ -2378,6 +2398,105 @@
     "/service-areas/riverton-ut/",
     "/service-areas/riverton-ut/fire-damage-restoration/",
     "/service-areas/riverton-ut/mold-remediation/",
+    "/service-areas/alpine-ut/flood-equipment-rental/",
+    "/service-areas/bluffdale-ut/flood-equipment-rental/",
+    "/contact/"
+  ],
+  "/service-areas/south-jordan-ut/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/south-jordan-ut/",
+    "/service-areas/south-jordan-ut/fire-damage-restoration/",
+    "/service-areas/south-jordan-ut/mold-remediation/",
+    "/service-areas/alpine-ut/water-damage-restoration/",
+    "/service-areas/bluffdale-ut/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/south-jordan-ut/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/south-jordan-ut/",
+    "/service-areas/south-jordan-ut/fire-damage-restoration/",
+    "/service-areas/south-jordan-ut/mold-remediation/",
+    "/service-areas/alpine-ut/storm-damage-restoration/",
+    "/service-areas/bluffdale-ut/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/south-jordan-ut/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/south-jordan-ut/",
+    "/service-areas/south-jordan-ut/mold-remediation/",
+    "/service-areas/south-jordan-ut/water-damage-restoration/",
+    "/service-areas/alpine-ut/fire-damage-restoration/",
+    "/service-areas/bluffdale-ut/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/south-jordan-ut/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/south-jordan-ut/",
+    "/service-areas/south-jordan-ut/fire-damage-restoration/",
+    "/service-areas/south-jordan-ut/mold-remediation/",
+    "/service-areas/alpine-ut/general-contracting/",
+    "/service-areas/bluffdale-ut/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/south-jordan-ut/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/south-jordan-ut/",
+    "/service-areas/south-jordan-ut/fire-damage-restoration/",
+    "/service-areas/south-jordan-ut/mold-remediation/",
+    "/service-areas/alpine-ut/sewage-cleanup/",
+    "/service-areas/bluffdale-ut/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/south-jordan-ut/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/south-jordan-ut/",
+    "/service-areas/south-jordan-ut/fire-damage-restoration/",
+    "/service-areas/south-jordan-ut/mold-remediation/",
+    "/service-areas/alpine-ut/emergency-board-up-tarping/",
+    "/service-areas/bluffdale-ut/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/south-jordan-ut/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/south-jordan-ut/",
+    "/service-areas/south-jordan-ut/fire-damage-restoration/",
+    "/service-areas/south-jordan-ut/mold-remediation/",
+    "/service-areas/alpine-ut/water-cleanup/",
+    "/service-areas/bluffdale-ut/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/south-jordan-ut/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/south-jordan-ut/",
+    "/service-areas/south-jordan-ut/fire-damage-restoration/",
+    "/service-areas/south-jordan-ut/water-damage-restoration/",
+    "/service-areas/alpine-ut/mold-remediation/",
+    "/service-areas/bluffdale-ut/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/south-jordan-ut/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/south-jordan-ut/",
+    "/service-areas/south-jordan-ut/fire-damage-restoration/",
+    "/service-areas/south-jordan-ut/mold-remediation/",
+    "/service-areas/alpine-ut/biohazard-cleanup/",
+    "/service-areas/bluffdale-ut/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/south-jordan-ut/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/south-jordan-ut/",
+    "/service-areas/south-jordan-ut/fire-damage-restoration/",
+    "/service-areas/south-jordan-ut/mold-remediation/",
+    "/service-areas/alpine-ut/contents-restoration-storage/",
+    "/service-areas/bluffdale-ut/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/south-jordan-ut/flood-equipment-rental/": [
+    "/services/flood-equipment-rental/",
+    "/service-areas/south-jordan-ut/",
+    "/service-areas/south-jordan-ut/fire-damage-restoration/",
+    "/service-areas/south-jordan-ut/mold-remediation/",
     "/service-areas/alpine-ut/flood-equipment-rental/",
     "/service-areas/bluffdale-ut/flood-equipment-rental/",
     "/contact/"

@@ -208,6 +208,11 @@
       "city": "Woodland",
       "state": "CA",
       "slug": "woodland-ca"
+    },
+    {
+      "city": "Mather",
+      "state": "CA",
+      "slug": "mather-ca"
     }
   ],
   "template": "construction",

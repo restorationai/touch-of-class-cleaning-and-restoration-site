@@ -1,20 +1,20 @@
 # Site Plan Report — Desert Valley Contracting Inc 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T20:42:18.981193+00:00
+- Generated: 2026-09-21T14:13:43.942850+00:00
 - Domain: `desertvalleycontracting.net`
 - Services selected: 9 of 65 catalog entries
-- Service areas: 14
+- Service areas: 15
 - Cross-product enabled: True
-- Total URLs: **156**
-- Total internal links: 1242 (avg 8.0 per page)
+- Total URLs: **166**
+- Total internal links: 1321 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 117 |
-| `service-area` | 13 |
+| `service-area-service` | 126 |
+| `service-area` | 14 |
 | `service-landing` | 9 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -53,6 +53,7 @@
 - `summerlin-south-nv` — Summerlin South, NV
 - `blue-diamond-nv` — Blue Diamond, NV
 - `mount-charleston-nv` — Mount Charleston, NV
+- `sandy-valley-nv` — Sandy Valley, NV
 
 ## Top 10 priority pages
 

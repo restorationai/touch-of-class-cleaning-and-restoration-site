@@ -1,20 +1,20 @@
 # Site Plan Report — Davis Construction Contractors
 
 - Template: `construction` v0.1.0
-- Generated: 2026-09-20T20:41:40.479280+00:00
+- Generated: 2026-09-21T14:13:06.155644+00:00
 - Domain: `davisconstructioncontractors.com`
 - Services selected: 9 of 23 catalog entries
-- Service areas: 13
+- Service areas: 14
 - Cross-product enabled: True
-- Total URLs: **150**
-- Total internal links: 1181 (avg 7.9 per page)
+- Total URLs: **160**
+- Total internal links: 1260 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 108 |
-| `service-area` | 12 |
+| `service-area-service` | 117 |
+| `service-area` | 13 |
 | `blog-post` | 12 |
 | `service-landing` | 9 |
 | `legal` | 3 |
@@ -52,6 +52,7 @@
 - `owens-cross-roads-al` — Owens Cross Roads, AL
 - `triana-al` — Triana, AL
 - `new-hope-al` — New Hope, AL
+- `ardmore-al` — Ardmore, AL
 
 ## Top 10 priority pages
 
@@ -62,11 +63,11 @@
 | `/services/decks-pergolas-fences/` | `service-landing` | 8.1 | decks, pergolas and fences madison |
 | `/services/new-construction/` | `service-landing` | 8.1 | new home construction madison |
 | `/services/siding-gutters/` | `service-landing` | 7.2 | siding and gutters madison |
+| `/service-areas/ardmore-al/home-remodeling/` | `service-area-service` | 7.0 | home remodeling ardmore |
+| `/service-areas/ardmore-al/roofing/` | `service-area-service` | 7.0 | roofing installation and replacement ardmore |
 | `/service-areas/athens-al/home-remodeling/` | `service-area-service` | 7.0 | home remodeling athens |
 | `/service-areas/athens-al/roofing/` | `service-area-service` | 7.0 | roofing installation and replacement athens |
 | `/service-areas/gurley-al/home-remodeling/` | `service-area-service` | 7.0 | home remodeling gurley |
-| `/service-areas/gurley-al/roofing/` | `service-area-service` | 7.0 | roofing installation and replacement gurley |
-| `/service-areas/harvest-al/home-remodeling/` | `service-area-service` | 7.0 | home remodeling harvest |
 
 ## Validation
 

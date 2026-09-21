@@ -1,20 +1,20 @@
 # Site Plan Report — Home Pride Restoration and Cleaning
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T20:41:55.760051+00:00
+- Generated: 2026-09-21T14:13:23.155523+00:00
 - Domain: `homepriderestorationandcleaning.com`
 - Services selected: 20 of 65 catalog entries
-- Service areas: 22
+- Service areas: 23
 - Cross-product enabled: True
-- Total URLs: **482**
-- Total internal links: 3930 (avg 8.2 per page)
+- Total URLs: **503**
+- Total internal links: 4097 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 420 |
-| `service-area` | 21 |
+| `service-area-service` | 440 |
+| `service-area` | 22 |
 | `service-landing` | 20 |
 | `blog-post` | 12 |
 | `legal` | 3 |
@@ -72,6 +72,7 @@
 - `alpine-ut` — Alpine, UT
 - `draper-ut` — Draper, UT
 - `lake-shore-ut` — Lake Shore, UT
+- `benjamin-ut` — Benjamin, UT
 
 ## Top 10 priority pages
 

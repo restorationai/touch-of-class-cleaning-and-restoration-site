@@ -1,20 +1,20 @@
 # Site Plan Report — Dry County Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T20:41:43.296628+00:00
+- Generated: 2026-09-21T14:13:09.325521+00:00
 - Domain: `drycountyrestoration.com`
 - Services selected: 12 of 65 catalog entries
-- Service areas: 19
+- Service areas: 20
 - Cross-product enabled: True
-- Total URLs: **263**
-- Total internal links: 2117 (avg 8.0 per page)
+- Total URLs: **276**
+- Total internal links: 2220 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 216 |
-| `service-area` | 18 |
+| `service-area-service` | 228 |
+| `service-area` | 19 |
 | `service-landing` | 12 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -61,6 +61,7 @@
 - `trabuco-canyon-ca` — Trabuco Canyon, CA
 - `north-tustin-ca` — North Tustin, CA
 - `montclair-ca` — Montclair, CA
+- `villa-park-ca` — Villa Park, CA
 
 ## Top 10 priority pages
 

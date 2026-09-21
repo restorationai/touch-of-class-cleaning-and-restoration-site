@@ -143,6 +143,11 @@
       "city": "Lake Shore",
       "state": "UT",
       "slug": "lake-shore-ut"
+    },
+    {
+      "city": "Benjamin",
+      "state": "UT",
+      "slug": "benjamin-ut"
     }
   ],
   "brand": {

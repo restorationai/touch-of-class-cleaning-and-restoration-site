@@ -133,6 +133,11 @@
       "city": "Carpinteria",
       "state": "CA",
       "slug": "carpinteria-ca"
+    },
+    {
+      "city": "Castaic",
+      "state": "CA",
+      "slug": "castaic-ca"
     }
   ],
   "template": "restoration",

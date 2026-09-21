@@ -141,6 +141,11 @@
       "city": "Montclair",
       "state": "CA",
       "slug": "montclair-ca"
+    },
+    {
+      "city": "Villa Park",
+      "state": "CA",
+      "slug": "villa-park-ca"
     }
   ],
   "template": "restoration",

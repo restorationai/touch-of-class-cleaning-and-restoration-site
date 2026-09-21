@@ -312,6 +312,11 @@
       "city": "Prospect",
       "state": "PA",
       "slug": "prospect-pa"
+    },
+    {
+      "city": "Oak Hills",
+      "state": "PA",
+      "slug": "oak-hills-pa"
     }
   ],
   "brand": {

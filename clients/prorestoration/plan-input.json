@@ -346,6 +346,11 @@
       "city": "Keene",
       "state": "CA",
       "slug": "keene-ca"
+    },
+    {
+      "city": "Maricopa",
+      "state": "CA",
+      "slug": "maricopa-ca"
     }
   ],
   "brand": {

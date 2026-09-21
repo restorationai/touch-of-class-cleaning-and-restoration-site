@@ -1,20 +1,20 @@
 # Site Plan Report — AAA Water Damage Restoration & Carpet Care
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T20:41:17.454270+00:00
+- Generated: 2026-09-21T14:12:51.850907+00:00
 - Domain: `aaawaterdamagehawaii.com`
 - Services selected: 11 of 65 catalog entries
-- Service areas: 23
+- Service areas: 24
 - Cross-product enabled: True
-- Total URLs: **296**
-- Total internal links: 2363 (avg 8.0 per page)
+- Total URLs: **308**
+- Total internal links: 2458 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 242 |
-| `service-area` | 22 |
+| `service-area-service` | 253 |
+| `service-area` | 23 |
 | `blog-post` | 12 |
 | `service-landing` | 11 |
 | `legal` | 3 |
@@ -64,6 +64,7 @@
 - `east-kapolei-hi` — East Kapolei, HI
 - `waiahole-waikane-hi` — Waiahole-Waikane, HI
 - `kalaeloa-hi` — Kalaeloa, HI
+- `mililani-town-hi` — Mililani Town, HI
 
 ## Top 10 priority pages
 

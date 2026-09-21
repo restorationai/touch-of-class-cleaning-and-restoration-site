@@ -1,20 +1,20 @@
 # Site Plan Report — Go Green Restoration of NC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T20:41:51.356047+00:00
+- Generated: 2026-09-21T14:13:18.126819+00:00
 - Domain: `gogreenrestorationofnc.com`
 - Services selected: 8 of 65 catalog entries
-- Service areas: 18
+- Service areas: 19
 - Cross-product enabled: True
-- Total URLs: **178**
-- Total internal links: 1406 (avg 7.9 per page)
+- Total URLs: **187**
+- Total internal links: 1477 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 136 |
-| `service-area` | 17 |
+| `service-area-service` | 144 |
+| `service-area` | 18 |
 | `service-landing` | 8 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -56,6 +56,7 @@
 - `wilson-s-mills-nc` — Wilson's Mills, NC
 - `rolesville-nc` — Rolesville, NC
 - `selma-nc` — Selma, NC
+- `nashville-nc` — Nashville, NC
 
 ## Top 10 priority pages
 

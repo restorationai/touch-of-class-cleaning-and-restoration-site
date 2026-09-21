@@ -1,20 +1,20 @@
 # Site Plan Report — Frontline Fire & Flood
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T20:41:49.810655+00:00
+- Generated: 2026-09-21T14:13:16.440248+00:00
 - Domain: `frontlinefireflood.com`
 - Services selected: 9 of 65 catalog entries
-- Service areas: 36
+- Service areas: 37
 - Cross-product enabled: True
-- Total URLs: **376**
-- Total internal links: 2980 (avg 7.9 per page)
+- Total URLs: **386**
+- Total internal links: 3059 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 315 |
-| `service-area` | 35 |
+| `service-area-service` | 324 |
+| `service-area` | 36 |
 | `service-landing` | 9 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -75,6 +75,7 @@
 - `waller-wa` — Waller, WA
 - `clover-creek-wa` — Clover Creek, WA
 - `wollochet-wa` — Wollochet, WA
+- `summit-wa` — Summit, WA
 
 ## Top 10 priority pages
 

@@ -15,6 +15,7 @@
     "/service-areas/foley-mn/",
     "/service-areas/fort-ripley-mn/",
     "/service-areas/harding-mn/",
+    "/service-areas/long-prairie-mn/",
     "/service-areas/pierz-mn/",
     "/service-areas/randall-mn/",
     "/service-areas/rice-mn/",
@@ -43,6 +44,7 @@
     "/service-areas/foley-mn/",
     "/service-areas/fort-ripley-mn/",
     "/service-areas/harding-mn/",
+    "/service-areas/long-prairie-mn/",
     "/service-areas/pierz-mn/",
     "/service-areas/randall-mn/",
     "/service-areas/rice-mn/",
@@ -86,11 +88,11 @@
     "/service-areas/foley-mn/water-damage-restoration/",
     "/service-areas/fort-ripley-mn/water-damage-restoration/",
     "/service-areas/harding-mn/water-damage-restoration/",
+    "/service-areas/long-prairie-mn/water-damage-restoration/",
     "/service-areas/pierz-mn/water-damage-restoration/",
     "/service-areas/randall-mn/water-damage-restoration/",
     "/service-areas/rice-mn/water-damage-restoration/",
     "/service-areas/royalton-mn/water-damage-restoration/",
-    "/service-areas/sartell-mn/water-damage-restoration/",
     "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -106,11 +108,11 @@
     "/service-areas/foley-mn/storm-damage-restoration/",
     "/service-areas/fort-ripley-mn/storm-damage-restoration/",
     "/service-areas/harding-mn/storm-damage-restoration/",
+    "/service-areas/long-prairie-mn/storm-damage-restoration/",
     "/service-areas/pierz-mn/storm-damage-restoration/",
     "/service-areas/randall-mn/storm-damage-restoration/",
     "/service-areas/rice-mn/storm-damage-restoration/",
     "/service-areas/royalton-mn/storm-damage-restoration/",
-    "/service-areas/sartell-mn/storm-damage-restoration/",
     "/blog/storm-damage-insurance-claim-checklist/"
   ],
   "/services/general-contracting/": [
@@ -123,11 +125,11 @@
     "/service-areas/foley-mn/general-contracting/",
     "/service-areas/fort-ripley-mn/general-contracting/",
     "/service-areas/harding-mn/general-contracting/",
+    "/service-areas/long-prairie-mn/general-contracting/",
     "/service-areas/pierz-mn/general-contracting/",
     "/service-areas/randall-mn/general-contracting/",
     "/service-areas/rice-mn/general-contracting/",
-    "/service-areas/royalton-mn/general-contracting/",
-    "/service-areas/sartell-mn/general-contracting/"
+    "/service-areas/royalton-mn/general-contracting/"
   ],
   "/services/water-cleanup/": [
     "/services/",
@@ -139,11 +141,11 @@
     "/service-areas/foley-mn/water-cleanup/",
     "/service-areas/fort-ripley-mn/water-cleanup/",
     "/service-areas/harding-mn/water-cleanup/",
+    "/service-areas/long-prairie-mn/water-cleanup/",
     "/service-areas/pierz-mn/water-cleanup/",
     "/service-areas/randall-mn/water-cleanup/",
     "/service-areas/rice-mn/water-cleanup/",
     "/service-areas/royalton-mn/water-cleanup/",
-    "/service-areas/sartell-mn/water-cleanup/",
     "/services/water-damage-restoration/"
   ],
   "/service-areas/st-cloud-mn/": [
@@ -340,6 +342,17 @@
     "/service-areas/st-stephen-mn/storm-damage-restoration/",
     "/service-areas/st-stephen-mn/water-cleanup/",
     "/service-areas/st-stephen-mn/general-contracting/",
+    "/service-areas/baxter-mn/",
+    "/service-areas/brainerd-mn/",
+    "/service-areas/elmdale-mn/"
+  ],
+  "/service-areas/long-prairie-mn/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/long-prairie-mn/water-damage-restoration/",
+    "/service-areas/long-prairie-mn/storm-damage-restoration/",
+    "/service-areas/long-prairie-mn/water-cleanup/",
+    "/service-areas/long-prairie-mn/general-contracting/",
     "/service-areas/baxter-mn/",
     "/service-areas/brainerd-mn/",
     "/service-areas/elmdale-mn/"
@@ -988,6 +1001,42 @@
     "/service-areas/st-stephen-mn/",
     "/service-areas/st-stephen-mn/water-damage-restoration/",
     "/service-areas/st-stephen-mn/storm-damage-restoration/",
+    "/service-areas/baxter-mn/water-cleanup/",
+    "/service-areas/brainerd-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/long-prairie-mn/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/long-prairie-mn/",
+    "/service-areas/long-prairie-mn/storm-damage-restoration/",
+    "/service-areas/long-prairie-mn/water-cleanup/",
+    "/service-areas/baxter-mn/water-damage-restoration/",
+    "/service-areas/brainerd-mn/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/long-prairie-mn/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/long-prairie-mn/",
+    "/service-areas/long-prairie-mn/water-damage-restoration/",
+    "/service-areas/long-prairie-mn/water-cleanup/",
+    "/service-areas/baxter-mn/storm-damage-restoration/",
+    "/service-areas/brainerd-mn/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/long-prairie-mn/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/long-prairie-mn/",
+    "/service-areas/long-prairie-mn/water-damage-restoration/",
+    "/service-areas/long-prairie-mn/storm-damage-restoration/",
+    "/service-areas/baxter-mn/general-contracting/",
+    "/service-areas/brainerd-mn/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/long-prairie-mn/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/long-prairie-mn/",
+    "/service-areas/long-prairie-mn/water-damage-restoration/",
+    "/service-areas/long-prairie-mn/storm-damage-restoration/",
     "/service-areas/baxter-mn/water-cleanup/",
     "/service-areas/brainerd-mn/water-cleanup/",
     "/contact/"

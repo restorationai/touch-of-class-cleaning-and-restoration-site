@@ -1,20 +1,20 @@
 # Site Plan Report — FIX Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T20:41:34.798886+00:00
+- Generated: 2026-09-21T14:12:59.936417+00:00
 - Domain: `fixofutah.com`
 - Services selected: 11 of 65 catalog entries
-- Service areas: 19
+- Service areas: 20
 - Cross-product enabled: True
-- Total URLs: **244**
-- Total internal links: 1957 (avg 8.0 per page)
+- Total URLs: **256**
+- Total internal links: 2052 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 198 |
-| `service-area` | 18 |
+| `service-area-service` | 209 |
+| `service-area` | 19 |
 | `service-landing` | 11 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -60,6 +60,7 @@
 - `sandy-ut` — Sandy, UT
 - `herriman-ut` — Herriman, UT
 - `riverton-ut` — Riverton, UT
+- `south-jordan-ut` — South Jordan, UT
 
 ## Top 10 priority pages
 

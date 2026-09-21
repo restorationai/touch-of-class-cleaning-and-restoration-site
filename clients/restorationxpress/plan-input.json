@@ -308,6 +308,11 @@
       "city": "Aventura",
       "state": "FL",
       "slug": "aventura-fl"
+    },
+    {
+      "city": "Wilton Manors",
+      "state": "FL",
+      "slug": "wilton-manors-fl"
     }
   ]
 }

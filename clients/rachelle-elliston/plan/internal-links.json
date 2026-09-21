@@ -20,6 +20,7 @@
     "/service-areas/las-vegas-nv/",
     "/service-areas/mount-charleston-nv/",
     "/service-areas/paradise-nv/",
+    "/service-areas/sandy-valley-nv/",
     "/service-areas/spring-valley-nv/",
     "/service-areas/summerlin-nv/",
     "/service-areas/summerlin-south-nv/",
@@ -48,6 +49,7 @@
     "/service-areas/las-vegas-nv/",
     "/service-areas/mount-charleston-nv/",
     "/service-areas/paradise-nv/",
+    "/service-areas/sandy-valley-nv/",
     "/service-areas/spring-valley-nv/",
     "/service-areas/summerlin-nv/",
     "/service-areas/summerlin-south-nv/",
@@ -86,11 +88,11 @@
     "/service-areas/las-vegas-nv/water-damage-restoration/",
     "/service-areas/mount-charleston-nv/water-damage-restoration/",
     "/service-areas/paradise-nv/water-damage-restoration/",
+    "/service-areas/sandy-valley-nv/water-damage-restoration/",
     "/service-areas/spring-valley-nv/water-damage-restoration/",
     "/service-areas/summerlin-nv/water-damage-restoration/",
     "/service-areas/summerlin-south-nv/water-damage-restoration/",
     "/service-areas/sunrise-manor-nv/water-damage-restoration/",
-    "/service-areas/whitney-nv/water-damage-restoration/",
     "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -106,11 +108,11 @@
     "/service-areas/las-vegas-nv/fire-damage-restoration/",
     "/service-areas/mount-charleston-nv/fire-damage-restoration/",
     "/service-areas/paradise-nv/fire-damage-restoration/",
+    "/service-areas/sandy-valley-nv/fire-damage-restoration/",
     "/service-areas/spring-valley-nv/fire-damage-restoration/",
     "/service-areas/summerlin-nv/fire-damage-restoration/",
     "/service-areas/summerlin-south-nv/fire-damage-restoration/",
     "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
-    "/service-areas/whitney-nv/fire-damage-restoration/",
     "/blog/choosing-a-restoration-company/",
     "/blog/fire-damage-restoration-process/"
   ],
@@ -124,11 +126,11 @@
     "/service-areas/las-vegas-nv/mold-remediation/",
     "/service-areas/mount-charleston-nv/mold-remediation/",
     "/service-areas/paradise-nv/mold-remediation/",
+    "/service-areas/sandy-valley-nv/mold-remediation/",
     "/service-areas/spring-valley-nv/mold-remediation/",
     "/service-areas/summerlin-nv/mold-remediation/",
     "/service-areas/summerlin-south-nv/mold-remediation/",
     "/service-areas/sunrise-manor-nv/mold-remediation/",
-    "/service-areas/whitney-nv/mold-remediation/",
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
     "/blog/signs-of-hidden-mold/"
@@ -143,11 +145,11 @@
     "/service-areas/las-vegas-nv/storm-damage-restoration/",
     "/service-areas/mount-charleston-nv/storm-damage-restoration/",
     "/service-areas/paradise-nv/storm-damage-restoration/",
+    "/service-areas/sandy-valley-nv/storm-damage-restoration/",
     "/service-areas/spring-valley-nv/storm-damage-restoration/",
     "/service-areas/summerlin-nv/storm-damage-restoration/",
     "/service-areas/summerlin-south-nv/storm-damage-restoration/",
-    "/service-areas/sunrise-manor-nv/storm-damage-restoration/",
-    "/service-areas/whitney-nv/storm-damage-restoration/"
+    "/service-areas/sunrise-manor-nv/storm-damage-restoration/"
   ],
   "/services/general-contracting/": [
     "/services/",
@@ -159,11 +161,11 @@
     "/service-areas/las-vegas-nv/general-contracting/",
     "/service-areas/mount-charleston-nv/general-contracting/",
     "/service-areas/paradise-nv/general-contracting/",
+    "/service-areas/sandy-valley-nv/general-contracting/",
     "/service-areas/spring-valley-nv/general-contracting/",
     "/service-areas/summerlin-nv/general-contracting/",
     "/service-areas/summerlin-south-nv/general-contracting/",
-    "/service-areas/sunrise-manor-nv/general-contracting/",
-    "/service-areas/whitney-nv/general-contracting/"
+    "/service-areas/sunrise-manor-nv/general-contracting/"
   ],
   "/services/sewage-cleanup/": [
     "/services/",
@@ -175,11 +177,11 @@
     "/service-areas/las-vegas-nv/sewage-cleanup/",
     "/service-areas/mount-charleston-nv/sewage-cleanup/",
     "/service-areas/paradise-nv/sewage-cleanup/",
+    "/service-areas/sandy-valley-nv/sewage-cleanup/",
     "/service-areas/spring-valley-nv/sewage-cleanup/",
     "/service-areas/summerlin-nv/sewage-cleanup/",
     "/service-areas/summerlin-south-nv/sewage-cleanup/",
-    "/service-areas/sunrise-manor-nv/sewage-cleanup/",
-    "/service-areas/whitney-nv/sewage-cleanup/"
+    "/service-areas/sunrise-manor-nv/sewage-cleanup/"
   ],
   "/services/biohazard-cleanup/": [
     "/services/",
@@ -191,11 +193,11 @@
     "/service-areas/las-vegas-nv/biohazard-cleanup/",
     "/service-areas/mount-charleston-nv/biohazard-cleanup/",
     "/service-areas/paradise-nv/biohazard-cleanup/",
+    "/service-areas/sandy-valley-nv/biohazard-cleanup/",
     "/service-areas/spring-valley-nv/biohazard-cleanup/",
     "/service-areas/summerlin-nv/biohazard-cleanup/",
     "/service-areas/summerlin-south-nv/biohazard-cleanup/",
-    "/service-areas/sunrise-manor-nv/biohazard-cleanup/",
-    "/service-areas/whitney-nv/biohazard-cleanup/"
+    "/service-areas/sunrise-manor-nv/biohazard-cleanup/"
   ],
   "/services/contents-restoration-storage/": [
     "/services/",
@@ -207,11 +209,11 @@
     "/service-areas/las-vegas-nv/contents-restoration-storage/",
     "/service-areas/mount-charleston-nv/contents-restoration-storage/",
     "/service-areas/paradise-nv/contents-restoration-storage/",
+    "/service-areas/sandy-valley-nv/contents-restoration-storage/",
     "/service-areas/spring-valley-nv/contents-restoration-storage/",
     "/service-areas/summerlin-nv/contents-restoration-storage/",
     "/service-areas/summerlin-south-nv/contents-restoration-storage/",
-    "/service-areas/sunrise-manor-nv/contents-restoration-storage/",
-    "/service-areas/whitney-nv/contents-restoration-storage/"
+    "/service-areas/sunrise-manor-nv/contents-restoration-storage/"
   ],
   "/services/water-cleanup/": [
     "/services/",
@@ -223,11 +225,11 @@
     "/service-areas/las-vegas-nv/water-cleanup/",
     "/service-areas/mount-charleston-nv/water-cleanup/",
     "/service-areas/paradise-nv/water-cleanup/",
+    "/service-areas/sandy-valley-nv/water-cleanup/",
     "/service-areas/spring-valley-nv/water-cleanup/",
     "/service-areas/summerlin-nv/water-cleanup/",
     "/service-areas/summerlin-south-nv/water-cleanup/",
     "/service-areas/sunrise-manor-nv/water-cleanup/",
-    "/service-areas/whitney-nv/water-cleanup/",
     "/services/water-damage-restoration/"
   ],
   "/service-areas/las-vegas-nv/": [
@@ -434,6 +436,22 @@
     "/service-areas/mount-charleston-nv/biohazard-cleanup/",
     "/service-areas/mount-charleston-nv/general-contracting/",
     "/service-areas/mount-charleston-nv/contents-restoration-storage/",
+    "/service-areas/blue-diamond-nv/",
+    "/service-areas/boulder-city-nv/",
+    "/service-areas/enterprise-nv/"
+  ],
+  "/service-areas/sandy-valley-nv/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/sandy-valley-nv/fire-damage-restoration/",
+    "/service-areas/sandy-valley-nv/mold-remediation/",
+    "/service-areas/sandy-valley-nv/water-damage-restoration/",
+    "/service-areas/sandy-valley-nv/sewage-cleanup/",
+    "/service-areas/sandy-valley-nv/storm-damage-restoration/",
+    "/service-areas/sandy-valley-nv/water-cleanup/",
+    "/service-areas/sandy-valley-nv/biohazard-cleanup/",
+    "/service-areas/sandy-valley-nv/general-contracting/",
+    "/service-areas/sandy-valley-nv/contents-restoration-storage/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
     "/service-areas/enterprise-nv/"
@@ -1487,6 +1505,87 @@
     "/service-areas/mount-charleston-nv/",
     "/service-areas/mount-charleston-nv/fire-damage-restoration/",
     "/service-areas/mount-charleston-nv/mold-remediation/",
+    "/service-areas/blue-diamond-nv/water-cleanup/",
+    "/service-areas/boulder-city-nv/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/sandy-valley-nv/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/sandy-valley-nv/",
+    "/service-areas/sandy-valley-nv/fire-damage-restoration/",
+    "/service-areas/sandy-valley-nv/mold-remediation/",
+    "/service-areas/blue-diamond-nv/water-damage-restoration/",
+    "/service-areas/boulder-city-nv/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sandy-valley-nv/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/sandy-valley-nv/",
+    "/service-areas/sandy-valley-nv/mold-remediation/",
+    "/service-areas/sandy-valley-nv/water-damage-restoration/",
+    "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+    "/service-areas/boulder-city-nv/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sandy-valley-nv/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/sandy-valley-nv/",
+    "/service-areas/sandy-valley-nv/fire-damage-restoration/",
+    "/service-areas/sandy-valley-nv/water-damage-restoration/",
+    "/service-areas/blue-diamond-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/sandy-valley-nv/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/sandy-valley-nv/",
+    "/service-areas/sandy-valley-nv/fire-damage-restoration/",
+    "/service-areas/sandy-valley-nv/mold-remediation/",
+    "/service-areas/blue-diamond-nv/storm-damage-restoration/",
+    "/service-areas/boulder-city-nv/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sandy-valley-nv/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/sandy-valley-nv/",
+    "/service-areas/sandy-valley-nv/fire-damage-restoration/",
+    "/service-areas/sandy-valley-nv/mold-remediation/",
+    "/service-areas/blue-diamond-nv/general-contracting/",
+    "/service-areas/boulder-city-nv/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/sandy-valley-nv/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/sandy-valley-nv/",
+    "/service-areas/sandy-valley-nv/fire-damage-restoration/",
+    "/service-areas/sandy-valley-nv/mold-remediation/",
+    "/service-areas/blue-diamond-nv/sewage-cleanup/",
+    "/service-areas/boulder-city-nv/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/sandy-valley-nv/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/sandy-valley-nv/",
+    "/service-areas/sandy-valley-nv/fire-damage-restoration/",
+    "/service-areas/sandy-valley-nv/mold-remediation/",
+    "/service-areas/blue-diamond-nv/biohazard-cleanup/",
+    "/service-areas/boulder-city-nv/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/sandy-valley-nv/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/sandy-valley-nv/",
+    "/service-areas/sandy-valley-nv/fire-damage-restoration/",
+    "/service-areas/sandy-valley-nv/mold-remediation/",
+    "/service-areas/blue-diamond-nv/contents-restoration-storage/",
+    "/service-areas/boulder-city-nv/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/sandy-valley-nv/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/sandy-valley-nv/",
+    "/service-areas/sandy-valley-nv/fire-damage-restoration/",
+    "/service-areas/sandy-valley-nv/mold-remediation/",
     "/service-areas/blue-diamond-nv/water-cleanup/",
     "/service-areas/boulder-city-nv/water-cleanup/",
     "/contact/"

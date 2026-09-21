@@ -133,6 +133,11 @@
       "city": "St. Stephen",
       "state": "MN",
       "slug": "st-stephen-mn"
+    },
+    {
+      "city": "Long Prairie",
+      "state": "MN",
+      "slug": "long-prairie-mn"
     }
   ],
   "template": "restoration",

@@ -49,7 +49,8 @@
     "/service-areas/seatac-wa/",
     "/service-areas/seattle-wa/",
     "/service-areas/tacoma-wa/",
-    "/service-areas/university-place-wa/"
+    "/service-areas/university-place-wa/",
+    "/service-areas/vashon-wa/"
   ],
   "/services/": [
     "/",
@@ -101,7 +102,8 @@
     "/service-areas/seatac-wa/",
     "/service-areas/seattle-wa/",
     "/service-areas/tacoma-wa/",
-    "/service-areas/university-place-wa/"
+    "/service-areas/university-place-wa/",
+    "/service-areas/vashon-wa/"
   ],
   "/blog/": [
     "/",
@@ -1198,6 +1200,36 @@
     "/service-areas/normandy-park-wa/crime-scene-cleanup/",
     "/service-areas/normandy-park-wa/hoarding-cleanup/",
     "/service-areas/normandy-park-wa/unattended-death-cleanup/",
+    "/service-areas/algona-wa/",
+    "/service-areas/auburn-wa/",
+    "/service-areas/bellevue-wa/"
+  ],
+  "/service-areas/vashon-wa/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/vashon-wa/fire-damage-restoration/",
+    "/service-areas/vashon-wa/mold-remediation/",
+    "/service-areas/vashon-wa/water-damage-restoration/",
+    "/service-areas/vashon-wa/flood-damage-restoration/",
+    "/service-areas/vashon-wa/reconstruction/",
+    "/service-areas/vashon-wa/sewage-cleanup/",
+    "/service-areas/vashon-wa/smoke-damage-restoration/",
+    "/service-areas/vashon-wa/storm-damage-restoration/",
+    "/service-areas/vashon-wa/water-cleanup/",
+    "/service-areas/vashon-wa/basement-flooding-cleanup/",
+    "/service-areas/vashon-wa/biohazard-cleanup/",
+    "/service-areas/vashon-wa/burst-pipe-repair/",
+    "/service-areas/vashon-wa/general-contracting/",
+    "/service-areas/vashon-wa/mold-inspection-testing/",
+    "/service-areas/vashon-wa/frozen-pipe-restoration/",
+    "/service-areas/vashon-wa/odor-removal/",
+    "/service-areas/vashon-wa/roof-leak-repair/",
+    "/service-areas/vashon-wa/soot-removal/",
+    "/service-areas/vashon-wa/trauma-scene-cleanup/",
+    "/service-areas/vashon-wa/appliance-leak-cleanup/",
+    "/service-areas/vashon-wa/crime-scene-cleanup/",
+    "/service-areas/vashon-wa/hoarding-cleanup/",
+    "/service-areas/vashon-wa/unattended-death-cleanup/",
     "/service-areas/algona-wa/",
     "/service-areas/auburn-wa/",
     "/service-areas/bellevue-wa/"
@@ -5959,6 +5991,213 @@
     "/service-areas/normandy-park-wa/",
     "/service-areas/normandy-park-wa/fire-damage-restoration/",
     "/service-areas/normandy-park-wa/mold-remediation/",
+    "/service-areas/algona-wa/water-cleanup/",
+    "/service-areas/auburn-wa/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/vashon-wa/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/vashon-wa/",
+    "/service-areas/vashon-wa/fire-damage-restoration/",
+    "/service-areas/vashon-wa/mold-remediation/",
+    "/service-areas/algona-wa/water-damage-restoration/",
+    "/service-areas/auburn-wa/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/vashon-wa/flood-damage-restoration/": [
+    "/services/flood-damage-restoration/",
+    "/service-areas/vashon-wa/",
+    "/service-areas/vashon-wa/fire-damage-restoration/",
+    "/service-areas/vashon-wa/mold-remediation/",
+    "/service-areas/algona-wa/flood-damage-restoration/",
+    "/service-areas/auburn-wa/flood-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/vashon-wa/burst-pipe-repair/": [
+    "/services/burst-pipe-repair/",
+    "/service-areas/vashon-wa/",
+    "/service-areas/vashon-wa/fire-damage-restoration/",
+    "/service-areas/vashon-wa/mold-remediation/",
+    "/service-areas/algona-wa/burst-pipe-repair/",
+    "/service-areas/auburn-wa/burst-pipe-repair/",
+    "/contact/"
+  ],
+  "/service-areas/vashon-wa/basement-flooding-cleanup/": [
+    "/services/basement-flooding-cleanup/",
+    "/service-areas/vashon-wa/",
+    "/service-areas/vashon-wa/fire-damage-restoration/",
+    "/service-areas/vashon-wa/mold-remediation/",
+    "/service-areas/algona-wa/basement-flooding-cleanup/",
+    "/service-areas/auburn-wa/basement-flooding-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/vashon-wa/appliance-leak-cleanup/": [
+    "/services/appliance-leak-cleanup/",
+    "/service-areas/vashon-wa/",
+    "/service-areas/vashon-wa/fire-damage-restoration/",
+    "/service-areas/vashon-wa/mold-remediation/",
+    "/service-areas/algona-wa/appliance-leak-cleanup/",
+    "/service-areas/auburn-wa/appliance-leak-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/vashon-wa/frozen-pipe-restoration/": [
+    "/services/frozen-pipe-restoration/",
+    "/service-areas/vashon-wa/",
+    "/service-areas/vashon-wa/fire-damage-restoration/",
+    "/service-areas/vashon-wa/mold-remediation/",
+    "/service-areas/algona-wa/frozen-pipe-restoration/",
+    "/service-areas/auburn-wa/frozen-pipe-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/vashon-wa/roof-leak-repair/": [
+    "/services/roof-leak-repair/",
+    "/service-areas/vashon-wa/",
+    "/service-areas/vashon-wa/fire-damage-restoration/",
+    "/service-areas/vashon-wa/mold-remediation/",
+    "/service-areas/algona-wa/roof-leak-repair/",
+    "/service-areas/auburn-wa/roof-leak-repair/",
+    "/contact/"
+  ],
+  "/service-areas/vashon-wa/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/vashon-wa/",
+    "/service-areas/vashon-wa/fire-damage-restoration/",
+    "/service-areas/vashon-wa/mold-remediation/",
+    "/service-areas/algona-wa/sewage-cleanup/",
+    "/service-areas/auburn-wa/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/vashon-wa/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/vashon-wa/",
+    "/service-areas/vashon-wa/mold-remediation/",
+    "/service-areas/vashon-wa/water-damage-restoration/",
+    "/service-areas/algona-wa/fire-damage-restoration/",
+    "/service-areas/auburn-wa/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/vashon-wa/smoke-damage-restoration/": [
+    "/services/smoke-damage-restoration/",
+    "/service-areas/vashon-wa/",
+    "/service-areas/vashon-wa/fire-damage-restoration/",
+    "/service-areas/vashon-wa/mold-remediation/",
+    "/service-areas/algona-wa/smoke-damage-restoration/",
+    "/service-areas/auburn-wa/smoke-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/vashon-wa/soot-removal/": [
+    "/services/soot-removal/",
+    "/service-areas/vashon-wa/",
+    "/service-areas/vashon-wa/fire-damage-restoration/",
+    "/service-areas/vashon-wa/mold-remediation/",
+    "/service-areas/algona-wa/soot-removal/",
+    "/service-areas/auburn-wa/soot-removal/",
+    "/contact/"
+  ],
+  "/service-areas/vashon-wa/odor-removal/": [
+    "/services/odor-removal/",
+    "/service-areas/vashon-wa/",
+    "/service-areas/vashon-wa/fire-damage-restoration/",
+    "/service-areas/vashon-wa/mold-remediation/",
+    "/service-areas/algona-wa/odor-removal/",
+    "/service-areas/auburn-wa/odor-removal/",
+    "/contact/"
+  ],
+  "/service-areas/vashon-wa/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/vashon-wa/",
+    "/service-areas/vashon-wa/fire-damage-restoration/",
+    "/service-areas/vashon-wa/water-damage-restoration/",
+    "/service-areas/algona-wa/mold-remediation/",
+    "/service-areas/auburn-wa/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/vashon-wa/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/vashon-wa/",
+    "/service-areas/vashon-wa/fire-damage-restoration/",
+    "/service-areas/vashon-wa/mold-remediation/",
+    "/service-areas/algona-wa/mold-inspection-testing/",
+    "/service-areas/auburn-wa/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/vashon-wa/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/vashon-wa/",
+    "/service-areas/vashon-wa/fire-damage-restoration/",
+    "/service-areas/vashon-wa/mold-remediation/",
+    "/service-areas/algona-wa/storm-damage-restoration/",
+    "/service-areas/auburn-wa/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/vashon-wa/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/vashon-wa/",
+    "/service-areas/vashon-wa/fire-damage-restoration/",
+    "/service-areas/vashon-wa/mold-remediation/",
+    "/service-areas/algona-wa/biohazard-cleanup/",
+    "/service-areas/auburn-wa/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/vashon-wa/trauma-scene-cleanup/": [
+    "/services/trauma-scene-cleanup/",
+    "/service-areas/vashon-wa/",
+    "/service-areas/vashon-wa/fire-damage-restoration/",
+    "/service-areas/vashon-wa/mold-remediation/",
+    "/service-areas/algona-wa/trauma-scene-cleanup/",
+    "/service-areas/auburn-wa/trauma-scene-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/vashon-wa/crime-scene-cleanup/": [
+    "/services/crime-scene-cleanup/",
+    "/service-areas/vashon-wa/",
+    "/service-areas/vashon-wa/fire-damage-restoration/",
+    "/service-areas/vashon-wa/mold-remediation/",
+    "/service-areas/algona-wa/crime-scene-cleanup/",
+    "/service-areas/auburn-wa/crime-scene-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/vashon-wa/unattended-death-cleanup/": [
+    "/services/unattended-death-cleanup/",
+    "/service-areas/vashon-wa/",
+    "/service-areas/vashon-wa/fire-damage-restoration/",
+    "/service-areas/vashon-wa/mold-remediation/",
+    "/service-areas/algona-wa/unattended-death-cleanup/",
+    "/service-areas/auburn-wa/unattended-death-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/vashon-wa/hoarding-cleanup/": [
+    "/services/hoarding-cleanup/",
+    "/service-areas/vashon-wa/",
+    "/service-areas/vashon-wa/fire-damage-restoration/",
+    "/service-areas/vashon-wa/mold-remediation/",
+    "/service-areas/algona-wa/hoarding-cleanup/",
+    "/service-areas/auburn-wa/hoarding-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/vashon-wa/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/vashon-wa/",
+    "/service-areas/vashon-wa/fire-damage-restoration/",
+    "/service-areas/vashon-wa/mold-remediation/",
+    "/service-areas/algona-wa/reconstruction/",
+    "/service-areas/auburn-wa/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/vashon-wa/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/vashon-wa/",
+    "/service-areas/vashon-wa/fire-damage-restoration/",
+    "/service-areas/vashon-wa/mold-remediation/",
+    "/service-areas/algona-wa/general-contracting/",
+    "/service-areas/auburn-wa/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/vashon-wa/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/vashon-wa/",
+    "/service-areas/vashon-wa/fire-damage-restoration/",
+    "/service-areas/vashon-wa/mold-remediation/",
     "/service-areas/algona-wa/water-cleanup/",
     "/service-areas/auburn-wa/water-cleanup/",
     "/contact/"

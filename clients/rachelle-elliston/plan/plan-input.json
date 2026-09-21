@@ -115,6 +115,11 @@
       "city": "Mount Charleston",
       "state": "NV",
       "slug": "mount-charleston-nv"
+    },
+    {
+      "city": "Sandy Valley",
+      "state": "NV",
+      "slug": "sandy-valley-nv"
     }
   ],
   "template": "restoration",

@@ -26,6 +26,7 @@
     "/services/upholstery-cleaning/",
     "/service-areas/alpine-ut/",
     "/service-areas/american-fork-ut/",
+    "/service-areas/benjamin-ut/",
     "/service-areas/bluffdale-ut/",
     "/service-areas/cedar-fort-ut/",
     "/service-areas/cedar-hills-ut/",
@@ -73,6 +74,7 @@
     "/",
     "/service-areas/alpine-ut/",
     "/service-areas/american-fork-ut/",
+    "/service-areas/benjamin-ut/",
     "/service-areas/bluffdale-ut/",
     "/service-areas/cedar-fort-ut/",
     "/service-areas/cedar-hills-ut/",
@@ -123,6 +125,7 @@
     "/contact/",
     "/service-areas/alpine-ut/water-damage-restoration/",
     "/service-areas/american-fork-ut/water-damage-restoration/",
+    "/service-areas/benjamin-ut/water-damage-restoration/",
     "/service-areas/bluffdale-ut/water-damage-restoration/",
     "/service-areas/cedar-fort-ut/water-damage-restoration/",
     "/service-areas/cedar-hills-ut/water-damage-restoration/",
@@ -132,7 +135,6 @@
     "/service-areas/heber-city-ut/water-damage-restoration/",
     "/service-areas/herriman-ut/water-damage-restoration/",
     "/service-areas/highland-ut/water-damage-restoration/",
-    "/service-areas/lake-shore-ut/water-damage-restoration/",
     "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -143,6 +145,7 @@
     "/contact/",
     "/service-areas/alpine-ut/burst-pipe-repair/",
     "/service-areas/american-fork-ut/burst-pipe-repair/",
+    "/service-areas/benjamin-ut/burst-pipe-repair/",
     "/service-areas/bluffdale-ut/burst-pipe-repair/",
     "/service-areas/cedar-fort-ut/burst-pipe-repair/",
     "/service-areas/cedar-hills-ut/burst-pipe-repair/",
@@ -151,14 +154,14 @@
     "/service-areas/fairfield-ut/burst-pipe-repair/",
     "/service-areas/heber-city-ut/burst-pipe-repair/",
     "/service-areas/herriman-ut/burst-pipe-repair/",
-    "/service-areas/highland-ut/burst-pipe-repair/",
-    "/service-areas/lake-shore-ut/burst-pipe-repair/"
+    "/service-areas/highland-ut/burst-pipe-repair/"
   ],
   "/services/frozen-pipe-restoration/": [
     "/services/",
     "/contact/",
     "/service-areas/alpine-ut/frozen-pipe-restoration/",
     "/service-areas/american-fork-ut/frozen-pipe-restoration/",
+    "/service-areas/benjamin-ut/frozen-pipe-restoration/",
     "/service-areas/bluffdale-ut/frozen-pipe-restoration/",
     "/service-areas/cedar-fort-ut/frozen-pipe-restoration/",
     "/service-areas/cedar-hills-ut/frozen-pipe-restoration/",
@@ -167,14 +170,14 @@
     "/service-areas/fairfield-ut/frozen-pipe-restoration/",
     "/service-areas/heber-city-ut/frozen-pipe-restoration/",
     "/service-areas/herriman-ut/frozen-pipe-restoration/",
-    "/service-areas/highland-ut/frozen-pipe-restoration/",
-    "/service-areas/lake-shore-ut/frozen-pipe-restoration/"
+    "/service-areas/highland-ut/frozen-pipe-restoration/"
   ],
   "/services/appliance-leak-cleanup/": [
     "/services/",
     "/contact/",
     "/service-areas/alpine-ut/appliance-leak-cleanup/",
     "/service-areas/american-fork-ut/appliance-leak-cleanup/",
+    "/service-areas/benjamin-ut/appliance-leak-cleanup/",
     "/service-areas/bluffdale-ut/appliance-leak-cleanup/",
     "/service-areas/cedar-fort-ut/appliance-leak-cleanup/",
     "/service-areas/cedar-hills-ut/appliance-leak-cleanup/",
@@ -184,7 +187,6 @@
     "/service-areas/heber-city-ut/appliance-leak-cleanup/",
     "/service-areas/herriman-ut/appliance-leak-cleanup/",
     "/service-areas/highland-ut/appliance-leak-cleanup/",
-    "/service-areas/lake-shore-ut/appliance-leak-cleanup/",
     "/blog/burst-pipe-emergency-checklist/"
   ],
   "/services/basement-flooding-cleanup/": [
@@ -192,6 +194,7 @@
     "/contact/",
     "/service-areas/alpine-ut/basement-flooding-cleanup/",
     "/service-areas/american-fork-ut/basement-flooding-cleanup/",
+    "/service-areas/benjamin-ut/basement-flooding-cleanup/",
     "/service-areas/bluffdale-ut/basement-flooding-cleanup/",
     "/service-areas/cedar-fort-ut/basement-flooding-cleanup/",
     "/service-areas/cedar-hills-ut/basement-flooding-cleanup/",
@@ -200,14 +203,14 @@
     "/service-areas/fairfield-ut/basement-flooding-cleanup/",
     "/service-areas/heber-city-ut/basement-flooding-cleanup/",
     "/service-areas/herriman-ut/basement-flooding-cleanup/",
-    "/service-areas/highland-ut/basement-flooding-cleanup/",
-    "/service-areas/lake-shore-ut/basement-flooding-cleanup/"
+    "/service-areas/highland-ut/basement-flooding-cleanup/"
   ],
   "/services/roof-leak-repair/": [
     "/services/",
     "/contact/",
     "/service-areas/alpine-ut/roof-leak-repair/",
     "/service-areas/american-fork-ut/roof-leak-repair/",
+    "/service-areas/benjamin-ut/roof-leak-repair/",
     "/service-areas/bluffdale-ut/roof-leak-repair/",
     "/service-areas/cedar-fort-ut/roof-leak-repair/",
     "/service-areas/cedar-hills-ut/roof-leak-repair/",
@@ -216,14 +219,14 @@
     "/service-areas/fairfield-ut/roof-leak-repair/",
     "/service-areas/heber-city-ut/roof-leak-repair/",
     "/service-areas/herriman-ut/roof-leak-repair/",
-    "/service-areas/highland-ut/roof-leak-repair/",
-    "/service-areas/lake-shore-ut/roof-leak-repair/"
+    "/service-areas/highland-ut/roof-leak-repair/"
   ],
   "/services/sewage-cleanup/": [
     "/services/",
     "/contact/",
     "/service-areas/alpine-ut/sewage-cleanup/",
     "/service-areas/american-fork-ut/sewage-cleanup/",
+    "/service-areas/benjamin-ut/sewage-cleanup/",
     "/service-areas/bluffdale-ut/sewage-cleanup/",
     "/service-areas/cedar-fort-ut/sewage-cleanup/",
     "/service-areas/cedar-hills-ut/sewage-cleanup/",
@@ -232,14 +235,14 @@
     "/service-areas/fairfield-ut/sewage-cleanup/",
     "/service-areas/heber-city-ut/sewage-cleanup/",
     "/service-areas/herriman-ut/sewage-cleanup/",
-    "/service-areas/highland-ut/sewage-cleanup/",
-    "/service-areas/lake-shore-ut/sewage-cleanup/"
+    "/service-areas/highland-ut/sewage-cleanup/"
   ],
   "/services/storm-damage-restoration/": [
     "/services/",
     "/contact/",
     "/service-areas/alpine-ut/storm-damage-restoration/",
     "/service-areas/american-fork-ut/storm-damage-restoration/",
+    "/service-areas/benjamin-ut/storm-damage-restoration/",
     "/service-areas/bluffdale-ut/storm-damage-restoration/",
     "/service-areas/cedar-fort-ut/storm-damage-restoration/",
     "/service-areas/cedar-hills-ut/storm-damage-restoration/",
@@ -249,7 +252,6 @@
     "/service-areas/heber-city-ut/storm-damage-restoration/",
     "/service-areas/herriman-ut/storm-damage-restoration/",
     "/service-areas/highland-ut/storm-damage-restoration/",
-    "/service-areas/lake-shore-ut/storm-damage-restoration/",
     "/blog/storm-damage-insurance-claim-checklist/"
   ],
   "/services/fire-damage-restoration/": [
@@ -257,6 +259,7 @@
     "/contact/",
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/american-fork-ut/fire-damage-restoration/",
+    "/service-areas/benjamin-ut/fire-damage-restoration/",
     "/service-areas/bluffdale-ut/fire-damage-restoration/",
     "/service-areas/cedar-fort-ut/fire-damage-restoration/",
     "/service-areas/cedar-hills-ut/fire-damage-restoration/",
@@ -266,7 +269,6 @@
     "/service-areas/heber-city-ut/fire-damage-restoration/",
     "/service-areas/herriman-ut/fire-damage-restoration/",
     "/service-areas/highland-ut/fire-damage-restoration/",
-    "/service-areas/lake-shore-ut/fire-damage-restoration/",
     "/blog/choosing-a-restoration-company/",
     "/blog/fire-damage-restoration-process/",
     "/blog/smoke-odor-removal-techniques/"
@@ -276,6 +278,7 @@
     "/contact/",
     "/service-areas/alpine-ut/smoke-damage-restoration/",
     "/service-areas/american-fork-ut/smoke-damage-restoration/",
+    "/service-areas/benjamin-ut/smoke-damage-restoration/",
     "/service-areas/bluffdale-ut/smoke-damage-restoration/",
     "/service-areas/cedar-fort-ut/smoke-damage-restoration/",
     "/service-areas/cedar-hills-ut/smoke-damage-restoration/",
@@ -285,7 +288,6 @@
     "/service-areas/heber-city-ut/smoke-damage-restoration/",
     "/service-areas/herriman-ut/smoke-damage-restoration/",
     "/service-areas/highland-ut/smoke-damage-restoration/",
-    "/service-areas/lake-shore-ut/smoke-damage-restoration/",
     "/blog/fire-damage-restoration-process/",
     "/blog/smoke-odor-removal-techniques/"
   ],
@@ -294,6 +296,7 @@
     "/contact/",
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/american-fork-ut/mold-remediation/",
+    "/service-areas/benjamin-ut/mold-remediation/",
     "/service-areas/bluffdale-ut/mold-remediation/",
     "/service-areas/cedar-fort-ut/mold-remediation/",
     "/service-areas/cedar-hills-ut/mold-remediation/",
@@ -303,7 +306,6 @@
     "/service-areas/heber-city-ut/mold-remediation/",
     "/service-areas/herriman-ut/mold-remediation/",
     "/service-areas/highland-ut/mold-remediation/",
-    "/service-areas/lake-shore-ut/mold-remediation/",
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
     "/blog/signs-of-hidden-mold/"
@@ -313,6 +315,7 @@
     "/contact/",
     "/service-areas/alpine-ut/mold-inspection-testing/",
     "/service-areas/american-fork-ut/mold-inspection-testing/",
+    "/service-areas/benjamin-ut/mold-inspection-testing/",
     "/service-areas/bluffdale-ut/mold-inspection-testing/",
     "/service-areas/cedar-fort-ut/mold-inspection-testing/",
     "/service-areas/cedar-hills-ut/mold-inspection-testing/",
@@ -322,7 +325,6 @@
     "/service-areas/heber-city-ut/mold-inspection-testing/",
     "/service-areas/herriman-ut/mold-inspection-testing/",
     "/service-areas/highland-ut/mold-inspection-testing/",
-    "/service-areas/lake-shore-ut/mold-inspection-testing/",
     "/blog/how-to-test-for-mold/"
   ],
   "/services/carpet-cleaning/": [
@@ -330,6 +332,7 @@
     "/contact/",
     "/service-areas/alpine-ut/carpet-cleaning/",
     "/service-areas/american-fork-ut/carpet-cleaning/",
+    "/service-areas/benjamin-ut/carpet-cleaning/",
     "/service-areas/bluffdale-ut/carpet-cleaning/",
     "/service-areas/cedar-fort-ut/carpet-cleaning/",
     "/service-areas/cedar-hills-ut/carpet-cleaning/",
@@ -338,14 +341,14 @@
     "/service-areas/fairfield-ut/carpet-cleaning/",
     "/service-areas/heber-city-ut/carpet-cleaning/",
     "/service-areas/herriman-ut/carpet-cleaning/",
-    "/service-areas/highland-ut/carpet-cleaning/",
-    "/service-areas/lake-shore-ut/carpet-cleaning/"
+    "/service-areas/highland-ut/carpet-cleaning/"
   ],
   "/services/odor-removal/": [
     "/services/",
     "/contact/",
     "/service-areas/alpine-ut/odor-removal/",
     "/service-areas/american-fork-ut/odor-removal/",
+    "/service-areas/benjamin-ut/odor-removal/",
     "/service-areas/bluffdale-ut/odor-removal/",
     "/service-areas/cedar-fort-ut/odor-removal/",
     "/service-areas/cedar-hills-ut/odor-removal/",
@@ -354,14 +357,14 @@
     "/service-areas/fairfield-ut/odor-removal/",
     "/service-areas/heber-city-ut/odor-removal/",
     "/service-areas/herriman-ut/odor-removal/",
-    "/service-areas/highland-ut/odor-removal/",
-    "/service-areas/lake-shore-ut/odor-removal/"
+    "/service-areas/highland-ut/odor-removal/"
   ],
   "/services/upholstery-cleaning/": [
     "/services/",
     "/contact/",
     "/service-areas/alpine-ut/upholstery-cleaning/",
     "/service-areas/american-fork-ut/upholstery-cleaning/",
+    "/service-areas/benjamin-ut/upholstery-cleaning/",
     "/service-areas/bluffdale-ut/upholstery-cleaning/",
     "/service-areas/cedar-fort-ut/upholstery-cleaning/",
     "/service-areas/cedar-hills-ut/upholstery-cleaning/",
@@ -370,14 +373,14 @@
     "/service-areas/fairfield-ut/upholstery-cleaning/",
     "/service-areas/heber-city-ut/upholstery-cleaning/",
     "/service-areas/herriman-ut/upholstery-cleaning/",
-    "/service-areas/highland-ut/upholstery-cleaning/",
-    "/service-areas/lake-shore-ut/upholstery-cleaning/"
+    "/service-areas/highland-ut/upholstery-cleaning/"
   ],
   "/services/tile-grout-cleaning/": [
     "/services/",
     "/contact/",
     "/service-areas/alpine-ut/tile-grout-cleaning/",
     "/service-areas/american-fork-ut/tile-grout-cleaning/",
+    "/service-areas/benjamin-ut/tile-grout-cleaning/",
     "/service-areas/bluffdale-ut/tile-grout-cleaning/",
     "/service-areas/cedar-fort-ut/tile-grout-cleaning/",
     "/service-areas/cedar-hills-ut/tile-grout-cleaning/",
@@ -386,14 +389,14 @@
     "/service-areas/fairfield-ut/tile-grout-cleaning/",
     "/service-areas/heber-city-ut/tile-grout-cleaning/",
     "/service-areas/herriman-ut/tile-grout-cleaning/",
-    "/service-areas/highland-ut/tile-grout-cleaning/",
-    "/service-areas/lake-shore-ut/tile-grout-cleaning/"
+    "/service-areas/highland-ut/tile-grout-cleaning/"
   ],
   "/services/fabric-protection/": [
     "/services/",
     "/contact/",
     "/service-areas/alpine-ut/fabric-protection/",
     "/service-areas/american-fork-ut/fabric-protection/",
+    "/service-areas/benjamin-ut/fabric-protection/",
     "/service-areas/bluffdale-ut/fabric-protection/",
     "/service-areas/cedar-fort-ut/fabric-protection/",
     "/service-areas/cedar-hills-ut/fabric-protection/",
@@ -402,14 +405,14 @@
     "/service-areas/fairfield-ut/fabric-protection/",
     "/service-areas/heber-city-ut/fabric-protection/",
     "/service-areas/herriman-ut/fabric-protection/",
-    "/service-areas/highland-ut/fabric-protection/",
-    "/service-areas/lake-shore-ut/fabric-protection/"
+    "/service-areas/highland-ut/fabric-protection/"
   ],
   "/services/junk-debris-removal/": [
     "/services/",
     "/contact/",
     "/service-areas/alpine-ut/junk-debris-removal/",
     "/service-areas/american-fork-ut/junk-debris-removal/",
+    "/service-areas/benjamin-ut/junk-debris-removal/",
     "/service-areas/bluffdale-ut/junk-debris-removal/",
     "/service-areas/cedar-fort-ut/junk-debris-removal/",
     "/service-areas/cedar-hills-ut/junk-debris-removal/",
@@ -418,14 +421,14 @@
     "/service-areas/fairfield-ut/junk-debris-removal/",
     "/service-areas/heber-city-ut/junk-debris-removal/",
     "/service-areas/herriman-ut/junk-debris-removal/",
-    "/service-areas/highland-ut/junk-debris-removal/",
-    "/service-areas/lake-shore-ut/junk-debris-removal/"
+    "/service-areas/highland-ut/junk-debris-removal/"
   ],
   "/services/crawl-space-encapsulation/": [
     "/services/",
     "/contact/",
     "/service-areas/alpine-ut/crawl-space-encapsulation/",
     "/service-areas/american-fork-ut/crawl-space-encapsulation/",
+    "/service-areas/benjamin-ut/crawl-space-encapsulation/",
     "/service-areas/bluffdale-ut/crawl-space-encapsulation/",
     "/service-areas/cedar-fort-ut/crawl-space-encapsulation/",
     "/service-areas/cedar-hills-ut/crawl-space-encapsulation/",
@@ -434,14 +437,14 @@
     "/service-areas/fairfield-ut/crawl-space-encapsulation/",
     "/service-areas/heber-city-ut/crawl-space-encapsulation/",
     "/service-areas/herriman-ut/crawl-space-encapsulation/",
-    "/service-areas/highland-ut/crawl-space-encapsulation/",
-    "/service-areas/lake-shore-ut/crawl-space-encapsulation/"
+    "/service-areas/highland-ut/crawl-space-encapsulation/"
   ],
   "/services/water-cleanup/": [
     "/services/",
     "/contact/",
     "/service-areas/alpine-ut/water-cleanup/",
     "/service-areas/american-fork-ut/water-cleanup/",
+    "/service-areas/benjamin-ut/water-cleanup/",
     "/service-areas/bluffdale-ut/water-cleanup/",
     "/service-areas/cedar-fort-ut/water-cleanup/",
     "/service-areas/cedar-hills-ut/water-cleanup/",
@@ -451,7 +454,6 @@
     "/service-areas/heber-city-ut/water-cleanup/",
     "/service-areas/herriman-ut/water-cleanup/",
     "/service-areas/highland-ut/water-cleanup/",
-    "/service-areas/lake-shore-ut/water-cleanup/",
     "/services/water-damage-restoration/"
   ],
   "/service-areas/lehi-ut/": [
@@ -479,7 +481,7 @@
     "/service-areas/lehi-ut/upholstery-cleaning/",
     "/service-areas/alpine-ut/",
     "/service-areas/american-fork-ut/",
-    "/service-areas/bluffdale-ut/"
+    "/service-areas/benjamin-ut/"
   ],
   "/service-areas/eagle-mountain-ut/": [
     "/service-areas/",
@@ -506,7 +508,7 @@
     "/service-areas/eagle-mountain-ut/upholstery-cleaning/",
     "/service-areas/alpine-ut/",
     "/service-areas/american-fork-ut/",
-    "/service-areas/bluffdale-ut/"
+    "/service-areas/benjamin-ut/"
   ],
   "/service-areas/american-fork-ut/": [
     "/service-areas/",
@@ -532,8 +534,8 @@
     "/service-areas/american-fork-ut/tile-grout-cleaning/",
     "/service-areas/american-fork-ut/upholstery-cleaning/",
     "/service-areas/alpine-ut/",
-    "/service-areas/bluffdale-ut/",
-    "/service-areas/cedar-fort-ut/"
+    "/service-areas/benjamin-ut/",
+    "/service-areas/bluffdale-ut/"
   ],
   "/service-areas/pleasant-grove-ut/": [
     "/service-areas/",
@@ -560,7 +562,7 @@
     "/service-areas/pleasant-grove-ut/upholstery-cleaning/",
     "/service-areas/alpine-ut/",
     "/service-areas/american-fork-ut/",
-    "/service-areas/bluffdale-ut/"
+    "/service-areas/benjamin-ut/"
   ],
   "/service-areas/orem-ut/": [
     "/service-areas/",
@@ -587,7 +589,7 @@
     "/service-areas/orem-ut/upholstery-cleaning/",
     "/service-areas/alpine-ut/",
     "/service-areas/american-fork-ut/",
-    "/service-areas/bluffdale-ut/"
+    "/service-areas/benjamin-ut/"
   ],
   "/service-areas/provo-ut/": [
     "/service-areas/",
@@ -614,7 +616,7 @@
     "/service-areas/provo-ut/upholstery-cleaning/",
     "/service-areas/alpine-ut/",
     "/service-areas/american-fork-ut/",
-    "/service-areas/bluffdale-ut/"
+    "/service-areas/benjamin-ut/"
   ],
   "/service-areas/herriman-ut/": [
     "/service-areas/",
@@ -641,7 +643,7 @@
     "/service-areas/herriman-ut/upholstery-cleaning/",
     "/service-areas/alpine-ut/",
     "/service-areas/american-fork-ut/",
-    "/service-areas/bluffdale-ut/"
+    "/service-areas/benjamin-ut/"
   ],
   "/service-areas/south-jordan-ut/": [
     "/service-areas/",
@@ -668,7 +670,7 @@
     "/service-areas/south-jordan-ut/upholstery-cleaning/",
     "/service-areas/alpine-ut/",
     "/service-areas/american-fork-ut/",
-    "/service-areas/bluffdale-ut/"
+    "/service-areas/benjamin-ut/"
   ],
   "/service-areas/riverton-ut/": [
     "/service-areas/",
@@ -695,7 +697,7 @@
     "/service-areas/riverton-ut/upholstery-cleaning/",
     "/service-areas/alpine-ut/",
     "/service-areas/american-fork-ut/",
-    "/service-areas/bluffdale-ut/"
+    "/service-areas/benjamin-ut/"
   ],
   "/service-areas/heber-city-ut/": [
     "/service-areas/",
@@ -722,7 +724,7 @@
     "/service-areas/heber-city-ut/upholstery-cleaning/",
     "/service-areas/alpine-ut/",
     "/service-areas/american-fork-ut/",
-    "/service-areas/bluffdale-ut/"
+    "/service-areas/benjamin-ut/"
   ],
   "/service-areas/park-city-ut/": [
     "/service-areas/",
@@ -749,7 +751,7 @@
     "/service-areas/park-city-ut/upholstery-cleaning/",
     "/service-areas/alpine-ut/",
     "/service-areas/american-fork-ut/",
-    "/service-areas/bluffdale-ut/"
+    "/service-areas/benjamin-ut/"
   ],
   "/service-areas/vineyard-ut/": [
     "/service-areas/",
@@ -776,7 +778,7 @@
     "/service-areas/vineyard-ut/upholstery-cleaning/",
     "/service-areas/alpine-ut/",
     "/service-areas/american-fork-ut/",
-    "/service-areas/bluffdale-ut/"
+    "/service-areas/benjamin-ut/"
   ],
   "/service-areas/highland-ut/": [
     "/service-areas/",
@@ -803,7 +805,7 @@
     "/service-areas/highland-ut/upholstery-cleaning/",
     "/service-areas/alpine-ut/",
     "/service-areas/american-fork-ut/",
-    "/service-areas/bluffdale-ut/"
+    "/service-areas/benjamin-ut/"
   ],
   "/service-areas/lindon-ut/": [
     "/service-areas/",
@@ -830,7 +832,7 @@
     "/service-areas/lindon-ut/upholstery-cleaning/",
     "/service-areas/alpine-ut/",
     "/service-areas/american-fork-ut/",
-    "/service-areas/bluffdale-ut/"
+    "/service-areas/benjamin-ut/"
   ],
   "/service-areas/fairfield-ut/": [
     "/service-areas/",
@@ -857,7 +859,7 @@
     "/service-areas/fairfield-ut/upholstery-cleaning/",
     "/service-areas/alpine-ut/",
     "/service-areas/american-fork-ut/",
-    "/service-areas/bluffdale-ut/"
+    "/service-areas/benjamin-ut/"
   ],
   "/service-areas/cedar-hills-ut/": [
     "/service-areas/",
@@ -884,7 +886,7 @@
     "/service-areas/cedar-hills-ut/upholstery-cleaning/",
     "/service-areas/alpine-ut/",
     "/service-areas/american-fork-ut/",
-    "/service-areas/bluffdale-ut/"
+    "/service-areas/benjamin-ut/"
   ],
   "/service-areas/cedar-fort-ut/": [
     "/service-areas/",
@@ -911,7 +913,7 @@
     "/service-areas/cedar-fort-ut/upholstery-cleaning/",
     "/service-areas/alpine-ut/",
     "/service-areas/american-fork-ut/",
-    "/service-areas/bluffdale-ut/"
+    "/service-areas/benjamin-ut/"
   ],
   "/service-areas/bluffdale-ut/": [
     "/service-areas/",
@@ -938,7 +940,7 @@
     "/service-areas/bluffdale-ut/upholstery-cleaning/",
     "/service-areas/alpine-ut/",
     "/service-areas/american-fork-ut/",
-    "/service-areas/cedar-fort-ut/"
+    "/service-areas/benjamin-ut/"
   ],
   "/service-areas/alpine-ut/": [
     "/service-areas/",
@@ -964,8 +966,8 @@
     "/service-areas/alpine-ut/tile-grout-cleaning/",
     "/service-areas/alpine-ut/upholstery-cleaning/",
     "/service-areas/american-fork-ut/",
-    "/service-areas/bluffdale-ut/",
-    "/service-areas/cedar-fort-ut/"
+    "/service-areas/benjamin-ut/",
+    "/service-areas/bluffdale-ut/"
   ],
   "/service-areas/draper-ut/": [
     "/service-areas/",
@@ -992,7 +994,7 @@
     "/service-areas/draper-ut/upholstery-cleaning/",
     "/service-areas/alpine-ut/",
     "/service-areas/american-fork-ut/",
-    "/service-areas/bluffdale-ut/"
+    "/service-areas/benjamin-ut/"
   ],
   "/service-areas/lake-shore-ut/": [
     "/service-areas/",
@@ -1017,6 +1019,33 @@
     "/service-areas/lake-shore-ut/carpet-cleaning/",
     "/service-areas/lake-shore-ut/tile-grout-cleaning/",
     "/service-areas/lake-shore-ut/upholstery-cleaning/",
+    "/service-areas/alpine-ut/",
+    "/service-areas/american-fork-ut/",
+    "/service-areas/benjamin-ut/"
+  ],
+  "/service-areas/benjamin-ut/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/benjamin-ut/fire-damage-restoration/",
+    "/service-areas/benjamin-ut/mold-remediation/",
+    "/service-areas/benjamin-ut/water-damage-restoration/",
+    "/service-areas/benjamin-ut/sewage-cleanup/",
+    "/service-areas/benjamin-ut/smoke-damage-restoration/",
+    "/service-areas/benjamin-ut/storm-damage-restoration/",
+    "/service-areas/benjamin-ut/water-cleanup/",
+    "/service-areas/benjamin-ut/basement-flooding-cleanup/",
+    "/service-areas/benjamin-ut/burst-pipe-repair/",
+    "/service-areas/benjamin-ut/mold-inspection-testing/",
+    "/service-areas/benjamin-ut/frozen-pipe-restoration/",
+    "/service-areas/benjamin-ut/odor-removal/",
+    "/service-areas/benjamin-ut/roof-leak-repair/",
+    "/service-areas/benjamin-ut/appliance-leak-cleanup/",
+    "/service-areas/benjamin-ut/crawl-space-encapsulation/",
+    "/service-areas/benjamin-ut/fabric-protection/",
+    "/service-areas/benjamin-ut/junk-debris-removal/",
+    "/service-areas/benjamin-ut/carpet-cleaning/",
+    "/service-areas/benjamin-ut/tile-grout-cleaning/",
+    "/service-areas/benjamin-ut/upholstery-cleaning/",
     "/service-areas/alpine-ut/",
     "/service-areas/american-fork-ut/",
     "/service-areas/bluffdale-ut/"
@@ -1387,7 +1416,7 @@
     "/service-areas/american-fork-ut/fire-damage-restoration/",
     "/service-areas/american-fork-ut/mold-remediation/",
     "/service-areas/alpine-ut/water-damage-restoration/",
-    "/service-areas/bluffdale-ut/water-damage-restoration/",
+    "/service-areas/benjamin-ut/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/american-fork-ut/burst-pipe-repair/": [
@@ -1396,7 +1425,7 @@
     "/service-areas/american-fork-ut/fire-damage-restoration/",
     "/service-areas/american-fork-ut/mold-remediation/",
     "/service-areas/alpine-ut/burst-pipe-repair/",
-    "/service-areas/bluffdale-ut/burst-pipe-repair/",
+    "/service-areas/benjamin-ut/burst-pipe-repair/",
     "/contact/"
   ],
   "/service-areas/american-fork-ut/frozen-pipe-restoration/": [
@@ -1405,7 +1434,7 @@
     "/service-areas/american-fork-ut/fire-damage-restoration/",
     "/service-areas/american-fork-ut/mold-remediation/",
     "/service-areas/alpine-ut/frozen-pipe-restoration/",
-    "/service-areas/bluffdale-ut/frozen-pipe-restoration/",
+    "/service-areas/benjamin-ut/frozen-pipe-restoration/",
     "/contact/"
   ],
   "/service-areas/american-fork-ut/appliance-leak-cleanup/": [
@@ -1414,7 +1443,7 @@
     "/service-areas/american-fork-ut/fire-damage-restoration/",
     "/service-areas/american-fork-ut/mold-remediation/",
     "/service-areas/alpine-ut/appliance-leak-cleanup/",
-    "/service-areas/bluffdale-ut/appliance-leak-cleanup/",
+    "/service-areas/benjamin-ut/appliance-leak-cleanup/",
     "/contact/"
   ],
   "/service-areas/american-fork-ut/basement-flooding-cleanup/": [
@@ -1423,7 +1452,7 @@
     "/service-areas/american-fork-ut/fire-damage-restoration/",
     "/service-areas/american-fork-ut/mold-remediation/",
     "/service-areas/alpine-ut/basement-flooding-cleanup/",
-    "/service-areas/bluffdale-ut/basement-flooding-cleanup/",
+    "/service-areas/benjamin-ut/basement-flooding-cleanup/",
     "/contact/"
   ],
   "/service-areas/american-fork-ut/roof-leak-repair/": [
@@ -1432,7 +1461,7 @@
     "/service-areas/american-fork-ut/fire-damage-restoration/",
     "/service-areas/american-fork-ut/mold-remediation/",
     "/service-areas/alpine-ut/roof-leak-repair/",
-    "/service-areas/bluffdale-ut/roof-leak-repair/",
+    "/service-areas/benjamin-ut/roof-leak-repair/",
     "/contact/"
   ],
   "/service-areas/american-fork-ut/sewage-cleanup/": [
@@ -1441,7 +1470,7 @@
     "/service-areas/american-fork-ut/fire-damage-restoration/",
     "/service-areas/american-fork-ut/mold-remediation/",
     "/service-areas/alpine-ut/sewage-cleanup/",
-    "/service-areas/bluffdale-ut/sewage-cleanup/",
+    "/service-areas/benjamin-ut/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/american-fork-ut/storm-damage-restoration/": [
@@ -1450,7 +1479,7 @@
     "/service-areas/american-fork-ut/fire-damage-restoration/",
     "/service-areas/american-fork-ut/mold-remediation/",
     "/service-areas/alpine-ut/storm-damage-restoration/",
-    "/service-areas/bluffdale-ut/storm-damage-restoration/",
+    "/service-areas/benjamin-ut/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/american-fork-ut/fire-damage-restoration/": [
@@ -1459,7 +1488,7 @@
     "/service-areas/american-fork-ut/mold-remediation/",
     "/service-areas/american-fork-ut/water-damage-restoration/",
     "/service-areas/alpine-ut/fire-damage-restoration/",
-    "/service-areas/bluffdale-ut/fire-damage-restoration/",
+    "/service-areas/benjamin-ut/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/american-fork-ut/smoke-damage-restoration/": [
@@ -1468,7 +1497,7 @@
     "/service-areas/american-fork-ut/fire-damage-restoration/",
     "/service-areas/american-fork-ut/mold-remediation/",
     "/service-areas/alpine-ut/smoke-damage-restoration/",
-    "/service-areas/bluffdale-ut/smoke-damage-restoration/",
+    "/service-areas/benjamin-ut/smoke-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/american-fork-ut/mold-remediation/": [
@@ -1477,7 +1506,7 @@
     "/service-areas/american-fork-ut/fire-damage-restoration/",
     "/service-areas/american-fork-ut/water-damage-restoration/",
     "/service-areas/alpine-ut/mold-remediation/",
-    "/service-areas/bluffdale-ut/mold-remediation/",
+    "/service-areas/benjamin-ut/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/american-fork-ut/mold-inspection-testing/": [
@@ -1486,7 +1515,7 @@
     "/service-areas/american-fork-ut/fire-damage-restoration/",
     "/service-areas/american-fork-ut/mold-remediation/",
     "/service-areas/alpine-ut/mold-inspection-testing/",
-    "/service-areas/bluffdale-ut/mold-inspection-testing/",
+    "/service-areas/benjamin-ut/mold-inspection-testing/",
     "/contact/"
   ],
   "/service-areas/american-fork-ut/carpet-cleaning/": [
@@ -1495,7 +1524,7 @@
     "/service-areas/american-fork-ut/fire-damage-restoration/",
     "/service-areas/american-fork-ut/mold-remediation/",
     "/service-areas/alpine-ut/carpet-cleaning/",
-    "/service-areas/bluffdale-ut/carpet-cleaning/",
+    "/service-areas/benjamin-ut/carpet-cleaning/",
     "/contact/"
   ],
   "/service-areas/american-fork-ut/odor-removal/": [
@@ -1504,7 +1533,7 @@
     "/service-areas/american-fork-ut/fire-damage-restoration/",
     "/service-areas/american-fork-ut/mold-remediation/",
     "/service-areas/alpine-ut/odor-removal/",
-    "/service-areas/bluffdale-ut/odor-removal/",
+    "/service-areas/benjamin-ut/odor-removal/",
     "/contact/"
   ],
   "/service-areas/american-fork-ut/upholstery-cleaning/": [
@@ -1513,7 +1542,7 @@
     "/service-areas/american-fork-ut/fire-damage-restoration/",
     "/service-areas/american-fork-ut/mold-remediation/",
     "/service-areas/alpine-ut/upholstery-cleaning/",
-    "/service-areas/bluffdale-ut/upholstery-cleaning/",
+    "/service-areas/benjamin-ut/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/american-fork-ut/tile-grout-cleaning/": [
@@ -1522,7 +1551,7 @@
     "/service-areas/american-fork-ut/fire-damage-restoration/",
     "/service-areas/american-fork-ut/mold-remediation/",
     "/service-areas/alpine-ut/tile-grout-cleaning/",
-    "/service-areas/bluffdale-ut/tile-grout-cleaning/",
+    "/service-areas/benjamin-ut/tile-grout-cleaning/",
     "/contact/"
   ],
   "/service-areas/american-fork-ut/fabric-protection/": [
@@ -1531,7 +1560,7 @@
     "/service-areas/american-fork-ut/fire-damage-restoration/",
     "/service-areas/american-fork-ut/mold-remediation/",
     "/service-areas/alpine-ut/fabric-protection/",
-    "/service-areas/bluffdale-ut/fabric-protection/",
+    "/service-areas/benjamin-ut/fabric-protection/",
     "/contact/"
   ],
   "/service-areas/american-fork-ut/junk-debris-removal/": [
@@ -1540,7 +1569,7 @@
     "/service-areas/american-fork-ut/fire-damage-restoration/",
     "/service-areas/american-fork-ut/mold-remediation/",
     "/service-areas/alpine-ut/junk-debris-removal/",
-    "/service-areas/bluffdale-ut/junk-debris-removal/",
+    "/service-areas/benjamin-ut/junk-debris-removal/",
     "/contact/"
   ],
   "/service-areas/american-fork-ut/crawl-space-encapsulation/": [
@@ -1549,7 +1578,7 @@
     "/service-areas/american-fork-ut/fire-damage-restoration/",
     "/service-areas/american-fork-ut/mold-remediation/",
     "/service-areas/alpine-ut/crawl-space-encapsulation/",
-    "/service-areas/bluffdale-ut/crawl-space-encapsulation/",
+    "/service-areas/benjamin-ut/crawl-space-encapsulation/",
     "/contact/"
   ],
   "/service-areas/american-fork-ut/water-cleanup/": [
@@ -1558,7 +1587,7 @@
     "/service-areas/american-fork-ut/fire-damage-restoration/",
     "/service-areas/american-fork-ut/mold-remediation/",
     "/service-areas/alpine-ut/water-cleanup/",
-    "/service-areas/bluffdale-ut/water-cleanup/",
+    "/service-areas/benjamin-ut/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/pleasant-grove-ut/water-damage-restoration/": [
@@ -4267,7 +4296,7 @@
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/american-fork-ut/water-damage-restoration/",
-    "/service-areas/bluffdale-ut/water-damage-restoration/",
+    "/service-areas/benjamin-ut/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/burst-pipe-repair/": [
@@ -4276,7 +4305,7 @@
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/american-fork-ut/burst-pipe-repair/",
-    "/service-areas/bluffdale-ut/burst-pipe-repair/",
+    "/service-areas/benjamin-ut/burst-pipe-repair/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/frozen-pipe-restoration/": [
@@ -4285,7 +4314,7 @@
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/american-fork-ut/frozen-pipe-restoration/",
-    "/service-areas/bluffdale-ut/frozen-pipe-restoration/",
+    "/service-areas/benjamin-ut/frozen-pipe-restoration/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/appliance-leak-cleanup/": [
@@ -4294,7 +4323,7 @@
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/american-fork-ut/appliance-leak-cleanup/",
-    "/service-areas/bluffdale-ut/appliance-leak-cleanup/",
+    "/service-areas/benjamin-ut/appliance-leak-cleanup/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/basement-flooding-cleanup/": [
@@ -4303,7 +4332,7 @@
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/american-fork-ut/basement-flooding-cleanup/",
-    "/service-areas/bluffdale-ut/basement-flooding-cleanup/",
+    "/service-areas/benjamin-ut/basement-flooding-cleanup/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/roof-leak-repair/": [
@@ -4312,7 +4341,7 @@
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/american-fork-ut/roof-leak-repair/",
-    "/service-areas/bluffdale-ut/roof-leak-repair/",
+    "/service-areas/benjamin-ut/roof-leak-repair/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/sewage-cleanup/": [
@@ -4321,7 +4350,7 @@
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/american-fork-ut/sewage-cleanup/",
-    "/service-areas/bluffdale-ut/sewage-cleanup/",
+    "/service-areas/benjamin-ut/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/storm-damage-restoration/": [
@@ -4330,7 +4359,7 @@
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/american-fork-ut/storm-damage-restoration/",
-    "/service-areas/bluffdale-ut/storm-damage-restoration/",
+    "/service-areas/benjamin-ut/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/fire-damage-restoration/": [
@@ -4339,7 +4368,7 @@
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/alpine-ut/water-damage-restoration/",
     "/service-areas/american-fork-ut/fire-damage-restoration/",
-    "/service-areas/bluffdale-ut/fire-damage-restoration/",
+    "/service-areas/benjamin-ut/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/smoke-damage-restoration/": [
@@ -4348,7 +4377,7 @@
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/american-fork-ut/smoke-damage-restoration/",
-    "/service-areas/bluffdale-ut/smoke-damage-restoration/",
+    "/service-areas/benjamin-ut/smoke-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/mold-remediation/": [
@@ -4357,7 +4386,7 @@
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/alpine-ut/water-damage-restoration/",
     "/service-areas/american-fork-ut/mold-remediation/",
-    "/service-areas/bluffdale-ut/mold-remediation/",
+    "/service-areas/benjamin-ut/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/mold-inspection-testing/": [
@@ -4366,7 +4395,7 @@
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/american-fork-ut/mold-inspection-testing/",
-    "/service-areas/bluffdale-ut/mold-inspection-testing/",
+    "/service-areas/benjamin-ut/mold-inspection-testing/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/carpet-cleaning/": [
@@ -4375,7 +4404,7 @@
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/american-fork-ut/carpet-cleaning/",
-    "/service-areas/bluffdale-ut/carpet-cleaning/",
+    "/service-areas/benjamin-ut/carpet-cleaning/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/odor-removal/": [
@@ -4384,7 +4413,7 @@
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/american-fork-ut/odor-removal/",
-    "/service-areas/bluffdale-ut/odor-removal/",
+    "/service-areas/benjamin-ut/odor-removal/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/upholstery-cleaning/": [
@@ -4393,7 +4422,7 @@
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/american-fork-ut/upholstery-cleaning/",
-    "/service-areas/bluffdale-ut/upholstery-cleaning/",
+    "/service-areas/benjamin-ut/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/tile-grout-cleaning/": [
@@ -4402,7 +4431,7 @@
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/american-fork-ut/tile-grout-cleaning/",
-    "/service-areas/bluffdale-ut/tile-grout-cleaning/",
+    "/service-areas/benjamin-ut/tile-grout-cleaning/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/fabric-protection/": [
@@ -4411,7 +4440,7 @@
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/american-fork-ut/fabric-protection/",
-    "/service-areas/bluffdale-ut/fabric-protection/",
+    "/service-areas/benjamin-ut/fabric-protection/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/junk-debris-removal/": [
@@ -4420,7 +4449,7 @@
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/american-fork-ut/junk-debris-removal/",
-    "/service-areas/bluffdale-ut/junk-debris-removal/",
+    "/service-areas/benjamin-ut/junk-debris-removal/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/crawl-space-encapsulation/": [
@@ -4429,7 +4458,7 @@
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/american-fork-ut/crawl-space-encapsulation/",
-    "/service-areas/bluffdale-ut/crawl-space-encapsulation/",
+    "/service-areas/benjamin-ut/crawl-space-encapsulation/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/water-cleanup/": [
@@ -4438,7 +4467,7 @@
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/american-fork-ut/water-cleanup/",
-    "/service-areas/bluffdale-ut/water-cleanup/",
+    "/service-areas/benjamin-ut/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/draper-ut/water-damage-restoration/": [
@@ -4797,6 +4826,186 @@
     "/service-areas/lake-shore-ut/",
     "/service-areas/lake-shore-ut/fire-damage-restoration/",
     "/service-areas/lake-shore-ut/mold-remediation/",
+    "/service-areas/alpine-ut/water-cleanup/",
+    "/service-areas/american-fork-ut/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/benjamin-ut/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/benjamin-ut/",
+    "/service-areas/benjamin-ut/fire-damage-restoration/",
+    "/service-areas/benjamin-ut/mold-remediation/",
+    "/service-areas/alpine-ut/water-damage-restoration/",
+    "/service-areas/american-fork-ut/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/benjamin-ut/burst-pipe-repair/": [
+    "/services/burst-pipe-repair/",
+    "/service-areas/benjamin-ut/",
+    "/service-areas/benjamin-ut/fire-damage-restoration/",
+    "/service-areas/benjamin-ut/mold-remediation/",
+    "/service-areas/alpine-ut/burst-pipe-repair/",
+    "/service-areas/american-fork-ut/burst-pipe-repair/",
+    "/contact/"
+  ],
+  "/service-areas/benjamin-ut/frozen-pipe-restoration/": [
+    "/services/frozen-pipe-restoration/",
+    "/service-areas/benjamin-ut/",
+    "/service-areas/benjamin-ut/fire-damage-restoration/",
+    "/service-areas/benjamin-ut/mold-remediation/",
+    "/service-areas/alpine-ut/frozen-pipe-restoration/",
+    "/service-areas/american-fork-ut/frozen-pipe-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/benjamin-ut/appliance-leak-cleanup/": [
+    "/services/appliance-leak-cleanup/",
+    "/service-areas/benjamin-ut/",
+    "/service-areas/benjamin-ut/fire-damage-restoration/",
+    "/service-areas/benjamin-ut/mold-remediation/",
+    "/service-areas/alpine-ut/appliance-leak-cleanup/",
+    "/service-areas/american-fork-ut/appliance-leak-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/benjamin-ut/basement-flooding-cleanup/": [
+    "/services/basement-flooding-cleanup/",
+    "/service-areas/benjamin-ut/",
+    "/service-areas/benjamin-ut/fire-damage-restoration/",
+    "/service-areas/benjamin-ut/mold-remediation/",
+    "/service-areas/alpine-ut/basement-flooding-cleanup/",
+    "/service-areas/american-fork-ut/basement-flooding-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/benjamin-ut/roof-leak-repair/": [
+    "/services/roof-leak-repair/",
+    "/service-areas/benjamin-ut/",
+    "/service-areas/benjamin-ut/fire-damage-restoration/",
+    "/service-areas/benjamin-ut/mold-remediation/",
+    "/service-areas/alpine-ut/roof-leak-repair/",
+    "/service-areas/american-fork-ut/roof-leak-repair/",
+    "/contact/"
+  ],
+  "/service-areas/benjamin-ut/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/benjamin-ut/",
+    "/service-areas/benjamin-ut/fire-damage-restoration/",
+    "/service-areas/benjamin-ut/mold-remediation/",
+    "/service-areas/alpine-ut/sewage-cleanup/",
+    "/service-areas/american-fork-ut/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/benjamin-ut/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/benjamin-ut/",
+    "/service-areas/benjamin-ut/fire-damage-restoration/",
+    "/service-areas/benjamin-ut/mold-remediation/",
+    "/service-areas/alpine-ut/storm-damage-restoration/",
+    "/service-areas/american-fork-ut/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/benjamin-ut/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/benjamin-ut/",
+    "/service-areas/benjamin-ut/mold-remediation/",
+    "/service-areas/benjamin-ut/water-damage-restoration/",
+    "/service-areas/alpine-ut/fire-damage-restoration/",
+    "/service-areas/american-fork-ut/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/benjamin-ut/smoke-damage-restoration/": [
+    "/services/smoke-damage-restoration/",
+    "/service-areas/benjamin-ut/",
+    "/service-areas/benjamin-ut/fire-damage-restoration/",
+    "/service-areas/benjamin-ut/mold-remediation/",
+    "/service-areas/alpine-ut/smoke-damage-restoration/",
+    "/service-areas/american-fork-ut/smoke-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/benjamin-ut/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/benjamin-ut/",
+    "/service-areas/benjamin-ut/fire-damage-restoration/",
+    "/service-areas/benjamin-ut/water-damage-restoration/",
+    "/service-areas/alpine-ut/mold-remediation/",
+    "/service-areas/american-fork-ut/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/benjamin-ut/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/benjamin-ut/",
+    "/service-areas/benjamin-ut/fire-damage-restoration/",
+    "/service-areas/benjamin-ut/mold-remediation/",
+    "/service-areas/alpine-ut/mold-inspection-testing/",
+    "/service-areas/american-fork-ut/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/benjamin-ut/carpet-cleaning/": [
+    "/services/carpet-cleaning/",
+    "/service-areas/benjamin-ut/",
+    "/service-areas/benjamin-ut/fire-damage-restoration/",
+    "/service-areas/benjamin-ut/mold-remediation/",
+    "/service-areas/alpine-ut/carpet-cleaning/",
+    "/service-areas/american-fork-ut/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/benjamin-ut/odor-removal/": [
+    "/services/odor-removal/",
+    "/service-areas/benjamin-ut/",
+    "/service-areas/benjamin-ut/fire-damage-restoration/",
+    "/service-areas/benjamin-ut/mold-remediation/",
+    "/service-areas/alpine-ut/odor-removal/",
+    "/service-areas/american-fork-ut/odor-removal/",
+    "/contact/"
+  ],
+  "/service-areas/benjamin-ut/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/benjamin-ut/",
+    "/service-areas/benjamin-ut/fire-damage-restoration/",
+    "/service-areas/benjamin-ut/mold-remediation/",
+    "/service-areas/alpine-ut/upholstery-cleaning/",
+    "/service-areas/american-fork-ut/upholstery-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/benjamin-ut/tile-grout-cleaning/": [
+    "/services/tile-grout-cleaning/",
+    "/service-areas/benjamin-ut/",
+    "/service-areas/benjamin-ut/fire-damage-restoration/",
+    "/service-areas/benjamin-ut/mold-remediation/",
+    "/service-areas/alpine-ut/tile-grout-cleaning/",
+    "/service-areas/american-fork-ut/tile-grout-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/benjamin-ut/fabric-protection/": [
+    "/services/fabric-protection/",
+    "/service-areas/benjamin-ut/",
+    "/service-areas/benjamin-ut/fire-damage-restoration/",
+    "/service-areas/benjamin-ut/mold-remediation/",
+    "/service-areas/alpine-ut/fabric-protection/",
+    "/service-areas/american-fork-ut/fabric-protection/",
+    "/contact/"
+  ],
+  "/service-areas/benjamin-ut/junk-debris-removal/": [
+    "/services/junk-debris-removal/",
+    "/service-areas/benjamin-ut/",
+    "/service-areas/benjamin-ut/fire-damage-restoration/",
+    "/service-areas/benjamin-ut/mold-remediation/",
+    "/service-areas/alpine-ut/junk-debris-removal/",
+    "/service-areas/american-fork-ut/junk-debris-removal/",
+    "/contact/"
+  ],
+  "/service-areas/benjamin-ut/crawl-space-encapsulation/": [
+    "/services/crawl-space-encapsulation/",
+    "/service-areas/benjamin-ut/",
+    "/service-areas/benjamin-ut/fire-damage-restoration/",
+    "/service-areas/benjamin-ut/mold-remediation/",
+    "/service-areas/alpine-ut/crawl-space-encapsulation/",
+    "/service-areas/american-fork-ut/crawl-space-encapsulation/",
+    "/contact/"
+  ],
+  "/service-areas/benjamin-ut/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/benjamin-ut/",
+    "/service-areas/benjamin-ut/fire-damage-restoration/",
+    "/service-areas/benjamin-ut/mold-remediation/",
     "/service-areas/alpine-ut/water-cleanup/",
     "/service-areas/american-fork-ut/water-cleanup/",
     "/contact/"

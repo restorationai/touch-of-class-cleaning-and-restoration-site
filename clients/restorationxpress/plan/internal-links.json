@@ -28,7 +28,8 @@
     "/service-areas/southwest-ranches-fl/",
     "/service-areas/sunrise-fl/",
     "/service-areas/west-park-fl/",
-    "/service-areas/weston-fl/"
+    "/service-areas/weston-fl/",
+    "/service-areas/wilton-manors-fl/"
   ],
   "/services/": [
     "/",
@@ -59,7 +60,8 @@
     "/service-areas/southwest-ranches-fl/",
     "/service-areas/sunrise-fl/",
     "/service-areas/west-park-fl/",
-    "/service-areas/weston-fl/"
+    "/service-areas/weston-fl/",
+    "/service-areas/wilton-manors-fl/"
   ],
   "/blog/": [
     "/",
@@ -463,6 +465,20 @@
     "/service-areas/cooper-city-fl/",
     "/service-areas/country-club-fl/",
     "/service-areas/dania-beach-fl/"
+  ],
+  "/service-areas/wilton-manors-fl/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/wilton-manors-fl/fire-damage-restoration/",
+    "/service-areas/wilton-manors-fl/mold-remediation/",
+    "/service-areas/wilton-manors-fl/water-damage-restoration/",
+    "/service-areas/wilton-manors-fl/flood-damage-restoration/",
+    "/service-areas/wilton-manors-fl/smoke-damage-restoration/",
+    "/service-areas/wilton-manors-fl/storm-damage-restoration/",
+    "/service-areas/wilton-manors-fl/water-cleanup/",
+    "/service-areas/aventura-fl/",
+    "/service-areas/cooper-city-fl/",
+    "/service-areas/country-club-fl/"
   ],
   "/service-areas/fort-lauderdale-fl/water-damage-restoration/": [
     "/services/water-damage-restoration/",
@@ -1596,6 +1612,69 @@
     "/service-areas/aventura-fl/mold-remediation/",
     "/service-areas/cooper-city-fl/water-cleanup/",
     "/service-areas/country-club-fl/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/wilton-manors-fl/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/wilton-manors-fl/",
+    "/service-areas/wilton-manors-fl/fire-damage-restoration/",
+    "/service-areas/wilton-manors-fl/mold-remediation/",
+    "/service-areas/aventura-fl/water-damage-restoration/",
+    "/service-areas/cooper-city-fl/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/wilton-manors-fl/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/wilton-manors-fl/",
+    "/service-areas/wilton-manors-fl/mold-remediation/",
+    "/service-areas/wilton-manors-fl/water-damage-restoration/",
+    "/service-areas/aventura-fl/fire-damage-restoration/",
+    "/service-areas/cooper-city-fl/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/wilton-manors-fl/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/wilton-manors-fl/",
+    "/service-areas/wilton-manors-fl/fire-damage-restoration/",
+    "/service-areas/wilton-manors-fl/water-damage-restoration/",
+    "/service-areas/aventura-fl/mold-remediation/",
+    "/service-areas/cooper-city-fl/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/wilton-manors-fl/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/wilton-manors-fl/",
+    "/service-areas/wilton-manors-fl/fire-damage-restoration/",
+    "/service-areas/wilton-manors-fl/mold-remediation/",
+    "/service-areas/aventura-fl/storm-damage-restoration/",
+    "/service-areas/cooper-city-fl/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/wilton-manors-fl/flood-damage-restoration/": [
+    "/services/flood-damage-restoration/",
+    "/service-areas/wilton-manors-fl/",
+    "/service-areas/wilton-manors-fl/fire-damage-restoration/",
+    "/service-areas/wilton-manors-fl/mold-remediation/",
+    "/service-areas/aventura-fl/flood-damage-restoration/",
+    "/service-areas/cooper-city-fl/flood-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/wilton-manors-fl/smoke-damage-restoration/": [
+    "/services/smoke-damage-restoration/",
+    "/service-areas/wilton-manors-fl/",
+    "/service-areas/wilton-manors-fl/fire-damage-restoration/",
+    "/service-areas/wilton-manors-fl/mold-remediation/",
+    "/service-areas/aventura-fl/smoke-damage-restoration/",
+    "/service-areas/cooper-city-fl/smoke-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/wilton-manors-fl/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/wilton-manors-fl/",
+    "/service-areas/wilton-manors-fl/fire-damage-restoration/",
+    "/service-areas/wilton-manors-fl/mold-remediation/",
+    "/service-areas/aventura-fl/water-cleanup/",
+    "/service-areas/cooper-city-fl/water-cleanup/",
     "/contact/"
   ],
   "/blog/what-to-do-first-24-hours-water-damage/": [

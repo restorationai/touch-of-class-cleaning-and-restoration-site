@@ -41,6 +41,7 @@
     "/service-areas/taft-ca/",
     "/service-areas/tarina-ca/",
     "/service-areas/tehachapi-ca/",
+    "/service-areas/wasco-ca/",
     "/service-areas/weedpatch-ca/"
   ],
   "/services/": [
@@ -85,6 +86,7 @@
     "/service-areas/taft-ca/",
     "/service-areas/tarina-ca/",
     "/service-areas/tehachapi-ca/",
+    "/service-areas/wasco-ca/",
     "/service-areas/weedpatch-ca/"
   ],
   "/blog/": [
@@ -943,6 +945,35 @@
     "/service-areas/keene-ca/sump-pumps/",
     "/service-areas/keene-ca/water-softeners-filtration/",
     "/service-areas/keene-ca/garbage-disposal/",
+    "/service-areas/arvin-ca/",
+    "/service-areas/bear-valley-springs-ca/",
+    "/service-areas/buttonwillow-ca/"
+  ],
+  "/service-areas/wasco-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/wasco-ca/ac-repair/",
+    "/service-areas/wasco-ca/drain-cleaning/",
+    "/service-areas/wasco-ca/emergency-plumbing/",
+    "/service-areas/wasco-ca/water-heater-repair/",
+    "/service-areas/wasco-ca/ac-installation/",
+    "/service-areas/wasco-ca/burst-pipe-repair/",
+    "/service-areas/wasco-ca/furnace-repair/",
+    "/service-areas/wasco-ca/sewer-line-repair/",
+    "/service-areas/wasco-ca/water-heater-installation/",
+    "/service-areas/wasco-ca/furnace-installation/",
+    "/service-areas/wasco-ca/gas-line-services/",
+    "/service-areas/wasco-ca/ductless-mini-splits/",
+    "/service-areas/wasco-ca/heat-pump-services/",
+    "/service-areas/wasco-ca/leak-detection/",
+    "/service-areas/wasco-ca/repiping/",
+    "/service-areas/wasco-ca/slab-leak-repair/",
+    "/service-areas/wasco-ca/toilet-faucet-repair/",
+    "/service-areas/wasco-ca/ductwork/",
+    "/service-areas/wasco-ca/indoor-air-quality/",
+    "/service-areas/wasco-ca/sump-pumps/",
+    "/service-areas/wasco-ca/water-softeners-filtration/",
+    "/service-areas/wasco-ca/garbage-disposal/",
     "/service-areas/arvin-ca/",
     "/service-areas/bear-valley-springs-ca/",
     "/service-areas/buttonwillow-ca/"
@@ -4111,6 +4142,204 @@
     "/service-areas/keene-ca/",
     "/service-areas/keene-ca/ac-repair/",
     "/service-areas/keene-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/indoor-air-quality/",
+    "/service-areas/bear-valley-springs-ca/indoor-air-quality/",
+    "/contact/"
+  ],
+  "/service-areas/wasco-ca/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/wasco-ca/",
+    "/service-areas/wasco-ca/ac-repair/",
+    "/service-areas/wasco-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/emergency-plumbing/",
+    "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/wasco-ca/burst-pipe-repair/": [
+    "/services/burst-pipe-repair/",
+    "/service-areas/wasco-ca/",
+    "/service-areas/wasco-ca/ac-repair/",
+    "/service-areas/wasco-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/burst-pipe-repair/",
+    "/service-areas/bear-valley-springs-ca/burst-pipe-repair/",
+    "/contact/"
+  ],
+  "/service-areas/wasco-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/wasco-ca/",
+    "/service-areas/wasco-ca/ac-repair/",
+    "/service-areas/wasco-ca/emergency-plumbing/",
+    "/service-areas/arvin-ca/drain-cleaning/",
+    "/service-areas/bear-valley-springs-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/wasco-ca/sewer-line-repair/": [
+    "/services/sewer-line-repair/",
+    "/service-areas/wasco-ca/",
+    "/service-areas/wasco-ca/ac-repair/",
+    "/service-areas/wasco-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/sewer-line-repair/",
+    "/service-areas/bear-valley-springs-ca/sewer-line-repair/",
+    "/contact/"
+  ],
+  "/service-areas/wasco-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/wasco-ca/",
+    "/service-areas/wasco-ca/ac-repair/",
+    "/service-areas/wasco-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/water-heater-repair/",
+    "/service-areas/bear-valley-springs-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/wasco-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/wasco-ca/",
+    "/service-areas/wasco-ca/ac-repair/",
+    "/service-areas/wasco-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/water-heater-installation/",
+    "/service-areas/bear-valley-springs-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/wasco-ca/leak-detection/": [
+    "/services/leak-detection/",
+    "/service-areas/wasco-ca/",
+    "/service-areas/wasco-ca/ac-repair/",
+    "/service-areas/wasco-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/leak-detection/",
+    "/service-areas/bear-valley-springs-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/wasco-ca/slab-leak-repair/": [
+    "/services/slab-leak-repair/",
+    "/service-areas/wasco-ca/",
+    "/service-areas/wasco-ca/ac-repair/",
+    "/service-areas/wasco-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/slab-leak-repair/",
+    "/service-areas/bear-valley-springs-ca/slab-leak-repair/",
+    "/contact/"
+  ],
+  "/service-areas/wasco-ca/repiping/": [
+    "/services/repiping/",
+    "/service-areas/wasco-ca/",
+    "/service-areas/wasco-ca/ac-repair/",
+    "/service-areas/wasco-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/repiping/",
+    "/service-areas/bear-valley-springs-ca/repiping/",
+    "/contact/"
+  ],
+  "/service-areas/wasco-ca/gas-line-services/": [
+    "/services/gas-line-services/",
+    "/service-areas/wasco-ca/",
+    "/service-areas/wasco-ca/ac-repair/",
+    "/service-areas/wasco-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/gas-line-services/",
+    "/service-areas/bear-valley-springs-ca/gas-line-services/",
+    "/contact/"
+  ],
+  "/service-areas/wasco-ca/sump-pumps/": [
+    "/services/sump-pumps/",
+    "/service-areas/wasco-ca/",
+    "/service-areas/wasco-ca/ac-repair/",
+    "/service-areas/wasco-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/sump-pumps/",
+    "/service-areas/bear-valley-springs-ca/sump-pumps/",
+    "/contact/"
+  ],
+  "/service-areas/wasco-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/wasco-ca/",
+    "/service-areas/wasco-ca/ac-repair/",
+    "/service-areas/wasco-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/water-softeners-filtration/",
+    "/service-areas/bear-valley-springs-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/wasco-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/wasco-ca/",
+    "/service-areas/wasco-ca/ac-repair/",
+    "/service-areas/wasco-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/toilet-faucet-repair/",
+    "/service-areas/bear-valley-springs-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/wasco-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/wasco-ca/",
+    "/service-areas/wasco-ca/ac-repair/",
+    "/service-areas/wasco-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/garbage-disposal/",
+    "/service-areas/bear-valley-springs-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/wasco-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/wasco-ca/",
+    "/service-areas/wasco-ca/ac-repair/",
+    "/service-areas/wasco-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/furnace-repair/",
+    "/service-areas/bear-valley-springs-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/wasco-ca/furnace-installation/": [
+    "/services/furnace-installation/",
+    "/service-areas/wasco-ca/",
+    "/service-areas/wasco-ca/ac-repair/",
+    "/service-areas/wasco-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/furnace-installation/",
+    "/service-areas/bear-valley-springs-ca/furnace-installation/",
+    "/contact/"
+  ],
+  "/service-areas/wasco-ca/heat-pump-services/": [
+    "/services/heat-pump-services/",
+    "/service-areas/wasco-ca/",
+    "/service-areas/wasco-ca/ac-repair/",
+    "/service-areas/wasco-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/heat-pump-services/",
+    "/service-areas/bear-valley-springs-ca/heat-pump-services/",
+    "/contact/"
+  ],
+  "/service-areas/wasco-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/wasco-ca/",
+    "/service-areas/wasco-ca/drain-cleaning/",
+    "/service-areas/wasco-ca/emergency-plumbing/",
+    "/service-areas/arvin-ca/ac-repair/",
+    "/service-areas/bear-valley-springs-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/wasco-ca/ac-installation/": [
+    "/services/ac-installation/",
+    "/service-areas/wasco-ca/",
+    "/service-areas/wasco-ca/ac-repair/",
+    "/service-areas/wasco-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/ac-installation/",
+    "/service-areas/bear-valley-springs-ca/ac-installation/",
+    "/contact/"
+  ],
+  "/service-areas/wasco-ca/ductless-mini-splits/": [
+    "/services/ductless-mini-splits/",
+    "/service-areas/wasco-ca/",
+    "/service-areas/wasco-ca/ac-repair/",
+    "/service-areas/wasco-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/ductless-mini-splits/",
+    "/service-areas/bear-valley-springs-ca/ductless-mini-splits/",
+    "/contact/"
+  ],
+  "/service-areas/wasco-ca/ductwork/": [
+    "/services/ductwork/",
+    "/service-areas/wasco-ca/",
+    "/service-areas/wasco-ca/ac-repair/",
+    "/service-areas/wasco-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/ductwork/",
+    "/service-areas/bear-valley-springs-ca/ductwork/",
+    "/contact/"
+  ],
+  "/service-areas/wasco-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/wasco-ca/",
+    "/service-areas/wasco-ca/ac-repair/",
+    "/service-areas/wasco-ca/drain-cleaning/",
     "/service-areas/arvin-ca/indoor-air-quality/",
     "/service-areas/bear-valley-springs-ca/indoor-air-quality/",
     "/contact/"

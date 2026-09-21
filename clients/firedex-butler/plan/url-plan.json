@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-20T20:41:46.288543+00:00",
+  "generated_at": "2026-09-21T14:13:12.554364+00:00",
   "input_summary": {
     "service_count": 18,
-    "service_area_count": 19,
+    "service_area_count": 20,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -74,6 +74,7 @@
         "/service-areas/gibsonia-pa/",
         "/service-areas/mars-pa/",
         "/service-areas/monaca-pa/",
+        "/service-areas/oak-hills-pa/",
         "/service-areas/prospect-pa/",
         "/service-areas/seven-fields-pa/",
         "/service-areas/sewickley-heights-pa/",
@@ -173,6 +174,7 @@
         "/service-areas/gibsonia-pa/",
         "/service-areas/mars-pa/",
         "/service-areas/monaca-pa/",
+        "/service-areas/oak-hills-pa/",
         "/service-areas/prospect-pa/",
         "/service-areas/seven-fields-pa/",
         "/service-areas/sewickley-heights-pa/",
@@ -2192,6 +2194,61 @@
         "/service-areas/prospect-pa/frozen-pipe-restoration/",
         "/service-areas/prospect-pa/odor-removal/",
         "/service-areas/prospect-pa/soot-removal/",
+        "/service-areas/aliquippa-pa/",
+        "/service-areas/allison-park-pa/",
+        "/service-areas/baden-pa/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oak-hills-pa/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Oak Hills, PA | FireDEX Butler",
+      "h1": "Restoration Services in Oak Hills",
+      "meta_description": "Serving Oak Hills, PA with 24/7 water, fire, mold, and storm damage restoration. Experienced team. Call (724) 452-7400.",
+      "primary_keyword": "restoration services oak hills",
+      "secondary_keywords": [
+        "oak hills restoration company",
+        "damage restoration oak hills",
+        "oak hills disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/oak-hills-pa/fire-damage-restoration/",
+        "/service-areas/oak-hills-pa/mold-remediation/",
+        "/service-areas/oak-hills-pa/water-damage-restoration/",
+        "/service-areas/oak-hills-pa/commercial-restoration/",
+        "/service-areas/oak-hills-pa/flood-damage-restoration/",
+        "/service-areas/oak-hills-pa/reconstruction/",
+        "/service-areas/oak-hills-pa/sewage-cleanup/",
+        "/service-areas/oak-hills-pa/smoke-damage-restoration/",
+        "/service-areas/oak-hills-pa/storm-damage-restoration/",
+        "/service-areas/oak-hills-pa/water-cleanup/",
+        "/service-areas/oak-hills-pa/basement-flooding-cleanup/",
+        "/service-areas/oak-hills-pa/biohazard-cleanup/",
+        "/service-areas/oak-hills-pa/burst-pipe-repair/",
+        "/service-areas/oak-hills-pa/general-contracting/",
+        "/service-areas/oak-hills-pa/mold-inspection-testing/",
+        "/service-areas/oak-hills-pa/frozen-pipe-restoration/",
+        "/service-areas/oak-hills-pa/odor-removal/",
+        "/service-areas/oak-hills-pa/soot-removal/",
         "/service-areas/aliquippa-pa/",
         "/service-areas/allison-park-pa/",
         "/service-areas/baden-pa/"
@@ -16484,6 +16541,800 @@
         "/service-areas/prospect-pa/",
         "/service-areas/prospect-pa/fire-damage-restoration/",
         "/service-areas/prospect-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/water-cleanup/",
+        "/service-areas/allison-park-pa/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oak-hills-pa/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Oak Hills, PA | FireDEX Butler",
+      "h1": "Water Damage Restoration in Oak Hills",
+      "meta_description": "24/7 water damage restoration in Oak Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "water damage restoration oak hills",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/oak-hills-pa/",
+        "/service-areas/oak-hills-pa/fire-damage-restoration/",
+        "/service-areas/oak-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/water-damage-restoration/",
+        "/service-areas/allison-park-pa/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oak-hills-pa/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Oak Hills, PA | FireDEX Butler",
+      "h1": "Flood Damage Restoration in Oak Hills",
+      "meta_description": "24/7 flood damage restoration in Oak Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "flood damage restoration oak hills",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/oak-hills-pa/",
+        "/service-areas/oak-hills-pa/fire-damage-restoration/",
+        "/service-areas/oak-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/flood-damage-restoration/",
+        "/service-areas/allison-park-pa/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oak-hills-pa/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in Oak Hills, PA | FireDEX Butler",
+      "h1": "Basement Flooding Cleanup in Oak Hills",
+      "meta_description": "24/7 basement flooding cleanup in Oak Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "basement flooding cleanup oak hills",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/oak-hills-pa/",
+        "/service-areas/oak-hills-pa/fire-damage-restoration/",
+        "/service-areas/oak-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/basement-flooding-cleanup/",
+        "/service-areas/allison-park-pa/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oak-hills-pa/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Oak Hills, PA | FireDEX Butler",
+      "h1": "Sewage Cleanup and Sanitization in Oak Hills",
+      "meta_description": "24/7 sewage cleanup and sanitization in Oak Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "sewage cleanup and sanitization oak hills",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/oak-hills-pa/",
+        "/service-areas/oak-hills-pa/fire-damage-restoration/",
+        "/service-areas/oak-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/sewage-cleanup/",
+        "/service-areas/allison-park-pa/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oak-hills-pa/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Oak Hills, PA | FireDEX Butler",
+      "h1": "Burst Pipe Cleanup and Repair in Oak Hills",
+      "meta_description": "24/7 burst pipe cleanup and repair in Oak Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "burst pipe cleanup and repair oak hills",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/oak-hills-pa/",
+        "/service-areas/oak-hills-pa/fire-damage-restoration/",
+        "/service-areas/oak-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/burst-pipe-repair/",
+        "/service-areas/allison-park-pa/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oak-hills-pa/frozen-pipe-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Frozen Pipe Restoration in Oak Hills, PA | FireDEX Butler",
+      "h1": "Frozen Pipe Restoration in Oak Hills",
+      "meta_description": "24/7 frozen pipe restoration in Oak Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "frozen pipe restoration oak hills",
+      "secondary_keywords": [
+        "frozen pipe damage",
+        "winter pipe burst cleanup",
+        "thawed pipe water damage",
+        "frozen pipe leak repair",
+        "cold weather pipe damage"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/frozen-pipe-restoration/",
+        "/service-areas/oak-hills-pa/",
+        "/service-areas/oak-hills-pa/fire-damage-restoration/",
+        "/service-areas/oak-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/frozen-pipe-restoration/",
+        "/service-areas/allison-park-pa/frozen-pipe-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oak-hills-pa/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Oak Hills, PA | FireDEX Butler",
+      "h1": "Storm Damage Restoration in Oak Hills",
+      "meta_description": "24/7 storm damage restoration in Oak Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "storm damage restoration oak hills",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/oak-hills-pa/",
+        "/service-areas/oak-hills-pa/fire-damage-restoration/",
+        "/service-areas/oak-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/storm-damage-restoration/",
+        "/service-areas/allison-park-pa/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oak-hills-pa/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Oak Hills, PA | FireDEX Butler",
+      "h1": "Fire Damage Restoration in Oak Hills",
+      "meta_description": "24/7 fire damage restoration in Oak Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "fire damage restoration oak hills",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/oak-hills-pa/",
+        "/service-areas/oak-hills-pa/mold-remediation/",
+        "/service-areas/oak-hills-pa/water-damage-restoration/",
+        "/service-areas/aliquippa-pa/fire-damage-restoration/",
+        "/service-areas/allison-park-pa/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oak-hills-pa/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Oak Hills, PA | FireDEX Butler",
+      "h1": "Smoke Damage Restoration in Oak Hills",
+      "meta_description": "24/7 smoke damage restoration in Oak Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "smoke damage restoration oak hills",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/oak-hills-pa/",
+        "/service-areas/oak-hills-pa/fire-damage-restoration/",
+        "/service-areas/oak-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/smoke-damage-restoration/",
+        "/service-areas/allison-park-pa/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oak-hills-pa/soot-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Soot Removal in Oak Hills, PA | FireDEX Butler",
+      "h1": "Soot Removal in Oak Hills",
+      "meta_description": "24/7 soot removal in Oak Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "soot removal oak hills",
+      "secondary_keywords": [
+        "soot cleaning",
+        "soot residue removal",
+        "post-fire soot cleanup",
+        "soot damage cleanup",
+        "soot wall cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/soot-removal/",
+        "/service-areas/oak-hills-pa/",
+        "/service-areas/oak-hills-pa/fire-damage-restoration/",
+        "/service-areas/oak-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/soot-removal/",
+        "/service-areas/allison-park-pa/soot-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oak-hills-pa/odor-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Odor Removal and Deodorization in Oak Hills, PA | FireDEX Butler",
+      "h1": "Odor Removal and Deodorization in Oak Hills",
+      "meta_description": "24/7 odor removal and deodorization in Oak Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "odor removal and deodorization oak hills",
+      "secondary_keywords": [
+        "smoke odor removal",
+        "ozone treatment",
+        "hydroxyl deodorization",
+        "thermal fogging",
+        "professional odor elimination"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/odor-removal/",
+        "/service-areas/oak-hills-pa/",
+        "/service-areas/oak-hills-pa/fire-damage-restoration/",
+        "/service-areas/oak-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/odor-removal/",
+        "/service-areas/allison-park-pa/odor-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oak-hills-pa/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Oak Hills, PA | FireDEX Butler",
+      "h1": "Mold Remediation in Oak Hills",
+      "meta_description": "24/7 mold remediation in Oak Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "mold remediation oak hills",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/oak-hills-pa/",
+        "/service-areas/oak-hills-pa/fire-damage-restoration/",
+        "/service-areas/oak-hills-pa/water-damage-restoration/",
+        "/service-areas/aliquippa-pa/mold-remediation/",
+        "/service-areas/allison-park-pa/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oak-hills-pa/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Oak Hills, PA | FireDEX Butler",
+      "h1": "Mold Inspection and Testing in Oak Hills",
+      "meta_description": "24/7 mold inspection and testing in Oak Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "mold inspection and testing oak hills",
+      "secondary_keywords": [
+        "mold inspection",
+        "mold testing",
+        "indoor air quality testing",
+        "mold spore testing",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/oak-hills-pa/",
+        "/service-areas/oak-hills-pa/fire-damage-restoration/",
+        "/service-areas/oak-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/mold-inspection-testing/",
+        "/service-areas/allison-park-pa/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oak-hills-pa/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Oak Hills, PA | FireDEX Butler",
+      "h1": "Biohazard Cleanup in Oak Hills",
+      "meta_description": "24/7 biohazard cleanup in Oak Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "biohazard cleanup oak hills",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/oak-hills-pa/",
+        "/service-areas/oak-hills-pa/fire-damage-restoration/",
+        "/service-areas/oak-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/biohazard-cleanup/",
+        "/service-areas/allison-park-pa/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oak-hills-pa/commercial-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Commercial Restoration in Oak Hills, PA | FireDEX Butler",
+      "h1": "Commercial Restoration in Oak Hills",
+      "meta_description": "24/7 commercial restoration in Oak Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "commercial restoration oak hills",
+      "secondary_keywords": [
+        "commercial water damage",
+        "commercial fire damage",
+        "business restoration",
+        "office restoration",
+        "retail restoration"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/commercial-restoration/",
+        "/service-areas/oak-hills-pa/",
+        "/service-areas/oak-hills-pa/fire-damage-restoration/",
+        "/service-areas/oak-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/commercial-restoration/",
+        "/service-areas/allison-park-pa/commercial-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oak-hills-pa/reconstruction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Reconstruction Services in Oak Hills, PA | FireDEX Butler",
+      "h1": "Reconstruction Services in Oak Hills",
+      "meta_description": "24/7 reconstruction services in Oak Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "reconstruction services oak hills",
+      "secondary_keywords": [
+        "post-damage reconstruction",
+        "rebuild services",
+        "structural reconstruction",
+        "post-disaster rebuilding",
+        "fire damage reconstruction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/reconstruction/",
+        "/service-areas/oak-hills-pa/",
+        "/service-areas/oak-hills-pa/fire-damage-restoration/",
+        "/service-areas/oak-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/reconstruction/",
+        "/service-areas/allison-park-pa/reconstruction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oak-hills-pa/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Oak Hills, PA | FireDEX Butler",
+      "h1": "Renovations, Remodels and General Contracting in Oak Hills",
+      "meta_description": "24/7 renovations, remodels and general contracting in Oak Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "renovations, remodels and general contracting oak hills",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/oak-hills-pa/",
+        "/service-areas/oak-hills-pa/fire-damage-restoration/",
+        "/service-areas/oak-hills-pa/mold-remediation/",
+        "/service-areas/aliquippa-pa/general-contracting/",
+        "/service-areas/allison-park-pa/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oak-hills-pa/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Oak Hills, PA | FireDEX Butler",
+      "h1": "Emergency Water Cleanup in Oak Hills",
+      "meta_description": "24/7 emergency water cleanup in Oak Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
+      "primary_keyword": "emergency water cleanup oak hills",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/oak-hills-pa/",
+        "/service-areas/oak-hills-pa/fire-damage-restoration/",
+        "/service-areas/oak-hills-pa/mold-remediation/",
         "/service-areas/aliquippa-pa/water-cleanup/",
         "/service-areas/allison-park-pa/water-cleanup/",
         "/contact/"

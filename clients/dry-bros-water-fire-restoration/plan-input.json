@@ -144,6 +144,11 @@
       "city": "Melrose Park",
       "state": "IL",
       "slug": "melrose-park-il"
+    },
+    {
+      "city": "Burbank",
+      "state": "IL",
+      "slug": "burbank-il"
     }
   ],
   "template": "restoration",

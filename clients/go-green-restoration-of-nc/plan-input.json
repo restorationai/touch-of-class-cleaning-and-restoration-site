@@ -240,6 +240,11 @@
       "city": "Selma",
       "state": "NC",
       "slug": "selma-nc"
+    },
+    {
+      "city": "Nashville",
+      "state": "NC",
+      "slug": "nashville-nc"
     }
   ],
   "template": "restoration",

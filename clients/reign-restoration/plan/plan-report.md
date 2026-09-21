@@ -1,20 +1,20 @@
 # Site Plan Report — Reign Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T20:42:20.573042+00:00
+- Generated: 2026-09-21T14:13:45.706523+00:00
 - Domain: `reign-restoration.com`
 - Services selected: 7 of 65 catalog entries
-- Service areas: 27
+- Service areas: 28
 - Cross-product enabled: True
-- Total URLs: **232**
-- Total internal links: 1821 (avg 7.8 per page)
+- Total URLs: **240**
+- Total internal links: 1884 (avg 7.8 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 182 |
-| `service-area` | 26 |
+| `service-area-service` | 189 |
+| `service-area` | 27 |
 | `blog-post` | 8 |
 | `service-landing` | 7 |
 | `legal` | 3 |
@@ -64,6 +64,7 @@
 - `heath-tx` — Heath, TX
 - `farmersville-tx` — Farmersville, TX
 - `sachse-tx` — Sachse, TX
+- `lucas-tx` — Lucas, TX
 
 ## Top 10 priority pages
 

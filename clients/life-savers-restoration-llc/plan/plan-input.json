@@ -140,6 +140,11 @@
       "city": "Indian Springs",
       "state": "NV",
       "slug": "indian-springs-nv"
+    },
+    {
+      "city": "Laughlin",
+      "state": "NV",
+      "slug": "laughlin-nv"
     }
   ],
   "template": "restoration",

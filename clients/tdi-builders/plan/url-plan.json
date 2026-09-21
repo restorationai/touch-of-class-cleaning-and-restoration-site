@@ -1,10 +1,10 @@
 {
   "template": "construction",
   "template_version": "0.1.0",
-  "generated_at": "2026-09-20T20:42:26.141903+00:00",
+  "generated_at": "2026-09-21T14:13:51.558209+00:00",
   "input_summary": {
     "service_count": 12,
-    "service_area_count": 27,
+    "service_area_count": 28,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -71,6 +71,7 @@
         "/service-areas/lincoln-ca/",
         "/service-areas/loomis-ca/",
         "/service-areas/manteca-ca/",
+        "/service-areas/mather-ca/",
         "/service-areas/mcclellan-park-ca/",
         "/service-areas/modesto-ca/",
         "/service-areas/north-highlands-ca/",
@@ -172,6 +173,7 @@
         "/service-areas/lincoln-ca/",
         "/service-areas/loomis-ca/",
         "/service-areas/manteca-ca/",
+        "/service-areas/mather-ca/",
         "/service-areas/mcclellan-park-ca/",
         "/service-areas/modesto-ca/",
         "/service-areas/north-highlands-ca/",
@@ -2171,6 +2173,55 @@
         "/service-areas/woodland-ca/storm-damage-restoration/",
         "/service-areas/woodland-ca/water-damage-restoration/",
         "/service-areas/woodland-ca/garage-construction/",
+        "/service-areas/antelope-ca/",
+        "/service-areas/arden-arcade-ca/",
+        "/service-areas/carmichael-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mather-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Construction Services in Mather, CA | TDI USA, Inc.",
+      "h1": "Construction Services in Mather",
+      "meta_description": "Serving Mather, CA with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (877) 688-0866 for a free estimate.",
+      "primary_keyword": "construction services mather",
+      "secondary_keywords": [
+        "mather construction company",
+        "general contractor mather",
+        "mather remodeling contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/mather-ca/home-remodeling/",
+        "/service-areas/mather-ca/bathroom-remodeling/",
+        "/service-areas/mather-ca/kitchen-remodeling/",
+        "/service-areas/mather-ca/new-construction/",
+        "/service-areas/mather-ca/general-contracting/",
+        "/service-areas/mather-ca/room-addition/",
+        "/service-areas/mather-ca/commercial-construction/",
+        "/service-areas/mather-ca/fire-smoke-rebuilding/",
+        "/service-areas/mather-ca/mold-remediation/",
+        "/service-areas/mather-ca/storm-damage-restoration/",
+        "/service-areas/mather-ca/water-damage-restoration/",
+        "/service-areas/mather-ca/garage-construction/",
         "/service-areas/antelope-ca/",
         "/service-areas/arden-arcade-ca/",
         "/service-areas/carmichael-ca/"
@@ -15899,6 +15950,534 @@
         "/service-areas/woodland-ca/",
         "/service-areas/woodland-ca/home-remodeling/",
         "/service-areas/woodland-ca/bathroom-remodeling/",
+        "/service-areas/antelope-ca/room-addition/",
+        "/service-areas/arden-arcade-ca/room-addition/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mather-ca/commercial-construction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Commercial Construction and Tenant Improvements in Mather, CA | TDI USA, Inc.",
+      "h1": "Commercial Construction and Tenant Improvements in Mather",
+      "meta_description": "Trusted commercial construction and tenant improvements in Mather, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "commercial construction and tenant improvements mather",
+      "secondary_keywords": [
+        "commercial general contractor",
+        "tenant improvement contractor",
+        "commercial buildout",
+        "office renovation",
+        "retail construction"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/commercial-construction/",
+        "/service-areas/mather-ca/",
+        "/service-areas/mather-ca/home-remodeling/",
+        "/service-areas/mather-ca/bathroom-remodeling/",
+        "/service-areas/antelope-ca/commercial-construction/",
+        "/service-areas/arden-arcade-ca/commercial-construction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mather-ca/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Mather, CA | TDI USA, Inc.",
+      "h1": "Renovations, Remodels and General Contracting in Mather",
+      "meta_description": "Trusted renovations, remodels and general contracting in Mather, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "renovations, remodels and general contracting mather",
+      "secondary_keywords": [
+        "general contractor",
+        "licensed general contractor",
+        "home improvement contractor",
+        "residential general contracting",
+        "design-build contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/mather-ca/",
+        "/service-areas/mather-ca/home-remodeling/",
+        "/service-areas/mather-ca/bathroom-remodeling/",
+        "/service-areas/antelope-ca/general-contracting/",
+        "/service-areas/arden-arcade-ca/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mather-ca/new-construction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "New Home Construction in Mather, CA | TDI USA, Inc.",
+      "h1": "New Home Construction in Mather",
+      "meta_description": "Trusted new home construction in Mather, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "new home construction mather",
+      "secondary_keywords": [
+        "custom home builder",
+        "new home builder",
+        "build a house",
+        "residential construction",
+        "ground-up construction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/new-construction/",
+        "/service-areas/mather-ca/",
+        "/service-areas/mather-ca/home-remodeling/",
+        "/service-areas/mather-ca/bathroom-remodeling/",
+        "/service-areas/antelope-ca/new-construction/",
+        "/service-areas/arden-arcade-ca/new-construction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mather-ca/fire-smoke-rebuilding/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire and Smoke Damage Rebuilding in Mather, CA | TDI USA, Inc.",
+      "h1": "Fire and Smoke Damage Rebuilding in Mather",
+      "meta_description": "Trusted fire and smoke damage rebuilding in Mather, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "fire and smoke damage rebuilding mather",
+      "secondary_keywords": [
+        "fire damage rebuild",
+        "fire damage repair contractor",
+        "smoke damage repair",
+        "fire restoration contractor",
+        "rebuild after fire"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-smoke-rebuilding/",
+        "/service-areas/mather-ca/",
+        "/service-areas/mather-ca/home-remodeling/",
+        "/service-areas/mather-ca/bathroom-remodeling/",
+        "/service-areas/antelope-ca/fire-smoke-rebuilding/",
+        "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mather-ca/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Mather, CA | TDI USA, Inc.",
+      "h1": "Water Damage Restoration in Mather",
+      "meta_description": "Trusted water damage restoration in Mather, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "water damage restoration mather",
+      "secondary_keywords": [
+        "water damage repair",
+        "water damage rebuild",
+        "drywall water damage repair",
+        "ceiling water damage repair",
+        "post-leak renovation"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/mather-ca/",
+        "/service-areas/mather-ca/home-remodeling/",
+        "/service-areas/mather-ca/bathroom-remodeling/",
+        "/service-areas/antelope-ca/water-damage-restoration/",
+        "/service-areas/arden-arcade-ca/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mather-ca/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Mather, CA | TDI USA, Inc.",
+      "h1": "Storm Damage Restoration in Mather",
+      "meta_description": "Trusted storm damage restoration in Mather, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "storm damage restoration mather",
+      "secondary_keywords": [
+        "storm damage repair",
+        "roof storm damage repair",
+        "siding storm damage repair",
+        "wind damage repair contractor",
+        "storm damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/mather-ca/",
+        "/service-areas/mather-ca/home-remodeling/",
+        "/service-areas/mather-ca/bathroom-remodeling/",
+        "/service-areas/antelope-ca/storm-damage-restoration/",
+        "/service-areas/arden-arcade-ca/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mather-ca/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Mather, CA | TDI USA, Inc.",
+      "h1": "Mold Remediation in Mather",
+      "meta_description": "Trusted mold remediation in Mather, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "mold remediation mather",
+      "secondary_keywords": [
+        "mold removal",
+        "mold remediation contractor",
+        "mold repair and rebuild",
+        "mold-safe renovation",
+        "post-remediation reconstruction"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/mather-ca/",
+        "/service-areas/mather-ca/home-remodeling/",
+        "/service-areas/mather-ca/bathroom-remodeling/",
+        "/service-areas/antelope-ca/mold-remediation/",
+        "/service-areas/arden-arcade-ca/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mather-ca/home-remodeling/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Home Remodeling in Mather, CA | TDI USA, Inc.",
+      "h1": "Home Remodeling in Mather",
+      "meta_description": "Trusted home remodeling in Mather, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "home remodeling mather",
+      "secondary_keywords": [
+        "home renovation",
+        "whole home remodel",
+        "interior remodeling contractor",
+        "house renovation contractor",
+        "remodeling company"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/home-remodeling/",
+        "/service-areas/mather-ca/",
+        "/service-areas/mather-ca/bathroom-remodeling/",
+        "/service-areas/mather-ca/kitchen-remodeling/",
+        "/service-areas/antelope-ca/home-remodeling/",
+        "/service-areas/arden-arcade-ca/home-remodeling/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mather-ca/kitchen-remodeling/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Kitchen Remodeling in Mather, CA | TDI USA, Inc.",
+      "h1": "Kitchen Remodeling in Mather",
+      "meta_description": "Trusted kitchen remodeling in Mather, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "kitchen remodeling mather",
+      "secondary_keywords": [
+        "kitchen remodel contractor",
+        "kitchen renovation",
+        "custom kitchen remodel",
+        "kitchen cabinet installation",
+        "kitchen makeover"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/kitchen-remodeling/",
+        "/service-areas/mather-ca/",
+        "/service-areas/mather-ca/home-remodeling/",
+        "/service-areas/mather-ca/bathroom-remodeling/",
+        "/service-areas/antelope-ca/kitchen-remodeling/",
+        "/service-areas/arden-arcade-ca/kitchen-remodeling/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mather-ca/bathroom-remodeling/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Bathroom Remodeling in Mather, CA | TDI USA, Inc.",
+      "h1": "Bathroom Remodeling in Mather",
+      "meta_description": "Trusted bathroom remodeling in Mather, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "bathroom remodeling mather",
+      "secondary_keywords": [
+        "bathroom remodel contractor",
+        "bathroom renovation",
+        "shower remodel",
+        "tub to shower conversion",
+        "master bath remodel"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/bathroom-remodeling/",
+        "/service-areas/mather-ca/",
+        "/service-areas/mather-ca/home-remodeling/",
+        "/service-areas/mather-ca/kitchen-remodeling/",
+        "/service-areas/antelope-ca/bathroom-remodeling/",
+        "/service-areas/arden-arcade-ca/bathroom-remodeling/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mather-ca/garage-construction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Garage Construction in Mather, CA | TDI USA, Inc.",
+      "h1": "Garage Construction in Mather",
+      "meta_description": "Trusted garage construction in Mather, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "garage construction mather",
+      "secondary_keywords": [
+        "garage builder",
+        "detached garage construction",
+        "attached garage addition",
+        "garage conversion",
+        "custom garage contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/garage-construction/",
+        "/service-areas/mather-ca/",
+        "/service-areas/mather-ca/home-remodeling/",
+        "/service-areas/mather-ca/bathroom-remodeling/",
+        "/service-areas/antelope-ca/garage-construction/",
+        "/service-areas/arden-arcade-ca/garage-construction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mather-ca/room-addition/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Room Additions and Home Additions in Mather, CA | TDI USA, Inc.",
+      "h1": "Room Additions and Home Additions in Mather",
+      "meta_description": "Trusted room additions and home additions in Mather, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
+      "primary_keyword": "room additions and home additions mather",
+      "secondary_keywords": [
+        "home addition contractor",
+        "room addition",
+        "add a room to house",
+        "house addition",
+        "bump out addition"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/room-addition/",
+        "/service-areas/mather-ca/",
+        "/service-areas/mather-ca/home-remodeling/",
+        "/service-areas/mather-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/room-addition/",
         "/service-areas/arden-arcade-ca/room-addition/",
         "/contact/"

@@ -444,6 +444,11 @@
       "city": "Normandy Park",
       "state": "WA",
       "slug": "normandy-park-wa"
+    },
+    {
+      "city": "Vashon",
+      "state": "WA",
+      "slug": "vashon-wa"
     }
   ],
   "brand": {

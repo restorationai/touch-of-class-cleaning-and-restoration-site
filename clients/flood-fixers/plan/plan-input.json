@@ -148,6 +148,11 @@
       "city": "Camp Pendleton South",
       "state": "CA",
       "slug": "camp-pendleton-south-ca"
+    },
+    {
+      "city": "Fallbrook",
+      "state": "CA",
+      "slug": "fallbrook-ca"
     }
   ],
   "brand": {

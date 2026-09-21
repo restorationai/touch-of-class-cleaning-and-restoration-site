@@ -382,6 +382,11 @@
       "city": "Moapa Valley",
       "state": "NV",
       "slug": "moapa-valley-nv"
+    },
+    {
+      "city": "Pahrump",
+      "state": "NV",
+      "slug": "pahrump-nv"
     }
   ]
 }

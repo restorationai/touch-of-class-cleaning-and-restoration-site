@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-20T20:41:58.557323+00:00",
+  "generated_at": "2026-09-21T14:13:32.219419+00:00",
   "input_summary": {
     "service_count": 8,
-    "service_area_count": 19,
+    "service_area_count": 20,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -59,6 +59,7 @@
         "/service-areas/goodsprings-nv/",
         "/service-areas/indian-springs-nv/",
         "/service-areas/las-vegas-nv/",
+        "/service-areas/laughlin-nv/",
         "/service-areas/nellis-afb-nv/",
         "/service-areas/nelson-nv/",
         "/service-areas/north-las-vegas-nv/",
@@ -148,6 +149,7 @@
         "/service-areas/goodsprings-nv/",
         "/service-areas/indian-springs-nv/",
         "/service-areas/las-vegas-nv/",
+        "/service-areas/laughlin-nv/",
         "/service-areas/nellis-afb-nv/",
         "/service-areas/nelson-nv/",
         "/service-areas/north-las-vegas-nv/",
@@ -309,11 +311,11 @@
         "/service-areas/goodsprings-nv/water-damage-restoration/",
         "/service-areas/indian-springs-nv/water-damage-restoration/",
         "/service-areas/las-vegas-nv/water-damage-restoration/",
+        "/service-areas/laughlin-nv/water-damage-restoration/",
         "/service-areas/nellis-afb-nv/water-damage-restoration/",
         "/service-areas/nelson-nv/water-damage-restoration/",
         "/service-areas/north-las-vegas-nv/water-damage-restoration/",
         "/service-areas/paradise-nv/water-damage-restoration/",
-        "/service-areas/sandy-valley-nv/water-damage-restoration/",
         "/services/water-cleanup/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
@@ -363,11 +365,11 @@
         "/service-areas/goodsprings-nv/mold-remediation/",
         "/service-areas/indian-springs-nv/mold-remediation/",
         "/service-areas/las-vegas-nv/mold-remediation/",
+        "/service-areas/laughlin-nv/mold-remediation/",
         "/service-areas/nellis-afb-nv/mold-remediation/",
         "/service-areas/nelson-nv/mold-remediation/",
         "/service-areas/north-las-vegas-nv/mold-remediation/",
         "/service-areas/paradise-nv/mold-remediation/",
-        "/service-areas/sandy-valley-nv/mold-remediation/",
         "/blog/choosing-a-restoration-company/",
         "/blog/how-to-test-for-mold/",
         "/blog/signs-of-hidden-mold/"
@@ -416,11 +418,11 @@
         "/service-areas/goodsprings-nv/fire-damage-restoration/",
         "/service-areas/indian-springs-nv/fire-damage-restoration/",
         "/service-areas/las-vegas-nv/fire-damage-restoration/",
+        "/service-areas/laughlin-nv/fire-damage-restoration/",
         "/service-areas/nellis-afb-nv/fire-damage-restoration/",
         "/service-areas/nelson-nv/fire-damage-restoration/",
         "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
         "/service-areas/paradise-nv/fire-damage-restoration/",
-        "/service-areas/sandy-valley-nv/fire-damage-restoration/",
         "/blog/choosing-a-restoration-company/",
         "/blog/fire-damage-restoration-process/"
       ]
@@ -468,11 +470,11 @@
         "/service-areas/goodsprings-nv/storm-damage-restoration/",
         "/service-areas/indian-springs-nv/storm-damage-restoration/",
         "/service-areas/las-vegas-nv/storm-damage-restoration/",
+        "/service-areas/laughlin-nv/storm-damage-restoration/",
         "/service-areas/nellis-afb-nv/storm-damage-restoration/",
         "/service-areas/nelson-nv/storm-damage-restoration/",
         "/service-areas/north-las-vegas-nv/storm-damage-restoration/",
-        "/service-areas/paradise-nv/storm-damage-restoration/",
-        "/service-areas/sandy-valley-nv/storm-damage-restoration/"
+        "/service-areas/paradise-nv/storm-damage-restoration/"
       ]
     },
     {
@@ -518,11 +520,11 @@
         "/service-areas/goodsprings-nv/sewage-cleanup/",
         "/service-areas/indian-springs-nv/sewage-cleanup/",
         "/service-areas/las-vegas-nv/sewage-cleanup/",
+        "/service-areas/laughlin-nv/sewage-cleanup/",
         "/service-areas/nellis-afb-nv/sewage-cleanup/",
         "/service-areas/nelson-nv/sewage-cleanup/",
         "/service-areas/north-las-vegas-nv/sewage-cleanup/",
-        "/service-areas/paradise-nv/sewage-cleanup/",
-        "/service-areas/sandy-valley-nv/sewage-cleanup/"
+        "/service-areas/paradise-nv/sewage-cleanup/"
       ]
     },
     {
@@ -568,11 +570,11 @@
         "/service-areas/goodsprings-nv/biohazard-cleanup/",
         "/service-areas/indian-springs-nv/biohazard-cleanup/",
         "/service-areas/las-vegas-nv/biohazard-cleanup/",
+        "/service-areas/laughlin-nv/biohazard-cleanup/",
         "/service-areas/nellis-afb-nv/biohazard-cleanup/",
         "/service-areas/nelson-nv/biohazard-cleanup/",
         "/service-areas/north-las-vegas-nv/biohazard-cleanup/",
-        "/service-areas/paradise-nv/biohazard-cleanup/",
-        "/service-areas/sandy-valley-nv/biohazard-cleanup/"
+        "/service-areas/paradise-nv/biohazard-cleanup/"
       ]
     },
     {
@@ -618,11 +620,11 @@
         "/service-areas/goodsprings-nv/contents-restoration/",
         "/service-areas/indian-springs-nv/contents-restoration/",
         "/service-areas/las-vegas-nv/contents-restoration/",
+        "/service-areas/laughlin-nv/contents-restoration/",
         "/service-areas/nellis-afb-nv/contents-restoration/",
         "/service-areas/nelson-nv/contents-restoration/",
         "/service-areas/north-las-vegas-nv/contents-restoration/",
-        "/service-areas/paradise-nv/contents-restoration/",
-        "/service-areas/sandy-valley-nv/contents-restoration/"
+        "/service-areas/paradise-nv/contents-restoration/"
       ]
     },
     {
@@ -669,11 +671,11 @@
         "/service-areas/goodsprings-nv/water-cleanup/",
         "/service-areas/indian-springs-nv/water-cleanup/",
         "/service-areas/las-vegas-nv/water-cleanup/",
+        "/service-areas/laughlin-nv/water-cleanup/",
         "/service-areas/nellis-afb-nv/water-cleanup/",
         "/service-areas/nelson-nv/water-cleanup/",
         "/service-areas/north-las-vegas-nv/water-cleanup/",
         "/service-areas/paradise-nv/water-cleanup/",
-        "/service-areas/sandy-valley-nv/water-cleanup/",
         "/services/water-damage-restoration/"
       ]
     },
@@ -1482,6 +1484,51 @@
         "/service-areas/indian-springs-nv/water-cleanup/",
         "/service-areas/indian-springs-nv/biohazard-cleanup/",
         "/service-areas/indian-springs-nv/contents-restoration/",
+        "/service-areas/blue-diamond-nv/",
+        "/service-areas/boulder-city-nv/",
+        "/service-areas/cal-nev-ari-nv/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/laughlin-nv/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Laughlin, NV | Life Savers Restoration LLC",
+      "h1": "Restoration Services in Laughlin",
+      "meta_description": "Serving Laughlin, NV with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (702) 845-1325.",
+      "primary_keyword": "restoration services laughlin",
+      "secondary_keywords": [
+        "laughlin restoration company",
+        "damage restoration laughlin",
+        "laughlin disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/laughlin-nv/fire-damage-restoration/",
+        "/service-areas/laughlin-nv/mold-remediation/",
+        "/service-areas/laughlin-nv/water-damage-restoration/",
+        "/service-areas/laughlin-nv/sewage-cleanup/",
+        "/service-areas/laughlin-nv/storm-damage-restoration/",
+        "/service-areas/laughlin-nv/water-cleanup/",
+        "/service-areas/laughlin-nv/biohazard-cleanup/",
+        "/service-areas/laughlin-nv/contents-restoration/",
         "/service-areas/blue-diamond-nv/",
         "/service-areas/boulder-city-nv/",
         "/service-areas/cal-nev-ari-nv/"
@@ -7836,6 +7883,359 @@
         "/service-areas/indian-springs-nv/",
         "/service-areas/indian-springs-nv/fire-damage-restoration/",
         "/service-areas/indian-springs-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-cleanup/",
+        "/service-areas/boulder-city-nv/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/laughlin-nv/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Laughlin, NV | Life Savers Restoration LLC",
+      "h1": "Water Damage Restoration in Laughlin",
+      "meta_description": "24/7 water damage restoration in Laughlin, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "water damage restoration laughlin",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/laughlin-nv/",
+        "/service-areas/laughlin-nv/fire-damage-restoration/",
+        "/service-areas/laughlin-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/water-damage-restoration/",
+        "/service-areas/boulder-city-nv/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/laughlin-nv/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Laughlin, NV | Life Savers Restoration LLC",
+      "h1": "Mold Remediation in Laughlin",
+      "meta_description": "24/7 mold remediation in Laughlin, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "mold remediation laughlin",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/laughlin-nv/",
+        "/service-areas/laughlin-nv/fire-damage-restoration/",
+        "/service-areas/laughlin-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/mold-remediation/",
+        "/service-areas/boulder-city-nv/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/laughlin-nv/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Laughlin, NV | Life Savers Restoration LLC",
+      "h1": "Fire Damage Restoration in Laughlin",
+      "meta_description": "24/7 fire damage restoration in Laughlin, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "fire damage restoration laughlin",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/laughlin-nv/",
+        "/service-areas/laughlin-nv/mold-remediation/",
+        "/service-areas/laughlin-nv/water-damage-restoration/",
+        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+        "/service-areas/boulder-city-nv/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/laughlin-nv/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Laughlin, NV | Life Savers Restoration LLC",
+      "h1": "Storm Damage Restoration in Laughlin",
+      "meta_description": "24/7 storm damage restoration in Laughlin, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "storm damage restoration laughlin",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/laughlin-nv/",
+        "/service-areas/laughlin-nv/fire-damage-restoration/",
+        "/service-areas/laughlin-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/storm-damage-restoration/",
+        "/service-areas/boulder-city-nv/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/laughlin-nv/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Laughlin, NV | Life Savers Restoration LLC",
+      "h1": "Sewage Cleanup and Sanitization in Laughlin",
+      "meta_description": "24/7 sewage cleanup and sanitization in Laughlin, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "sewage cleanup and sanitization laughlin",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/laughlin-nv/",
+        "/service-areas/laughlin-nv/fire-damage-restoration/",
+        "/service-areas/laughlin-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/sewage-cleanup/",
+        "/service-areas/boulder-city-nv/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/laughlin-nv/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Laughlin, NV | Life Savers Restoration LLC",
+      "h1": "Biohazard Cleanup in Laughlin",
+      "meta_description": "24/7 biohazard cleanup in Laughlin, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "biohazard cleanup laughlin",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/laughlin-nv/",
+        "/service-areas/laughlin-nv/fire-damage-restoration/",
+        "/service-areas/laughlin-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/biohazard-cleanup/",
+        "/service-areas/boulder-city-nv/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/laughlin-nv/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Laughlin, NV | Life Savers Restoration LLC",
+      "h1": "Contents Restoration and Storage in Laughlin",
+      "meta_description": "24/7 contents restoration and storage in Laughlin, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "contents restoration and storage laughlin",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/laughlin-nv/",
+        "/service-areas/laughlin-nv/fire-damage-restoration/",
+        "/service-areas/laughlin-nv/mold-remediation/",
+        "/service-areas/blue-diamond-nv/contents-restoration/",
+        "/service-areas/boulder-city-nv/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/laughlin-nv/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Laughlin, NV | Life Savers Restoration LLC",
+      "h1": "Emergency Water Cleanup in Laughlin",
+      "meta_description": "24/7 emergency water cleanup in Laughlin, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
+      "primary_keyword": "emergency water cleanup laughlin",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/laughlin-nv/",
+        "/service-areas/laughlin-nv/fire-damage-restoration/",
+        "/service-areas/laughlin-nv/mold-remediation/",
         "/service-areas/blue-diamond-nv/water-cleanup/",
         "/service-areas/boulder-city-nv/water-cleanup/",
         "/contact/"

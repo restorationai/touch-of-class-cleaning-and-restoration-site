@@ -130,6 +130,11 @@
       "city": "Harold",
       "state": "FL",
       "slug": "harold-fl"
+    },
+    {
+      "city": "Navarre",
+      "state": "FL",
+      "slug": "navarre-fl"
     }
   ],
   "template": "restoration",

@@ -1,20 +1,20 @@
 # Site Plan Report — Quality Contracting, Inc.
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T20:42:17.371340+00:00
+- Generated: 2026-09-21T14:13:42.149497+00:00
 - Domain: `qualitycontracting.us`
 - Services selected: 11 of 65 catalog entries
-- Service areas: 22
+- Service areas: 23
 - Cross-product enabled: True
-- Total URLs: **280**
-- Total internal links: 2242 (avg 8.0 per page)
+- Total URLs: **292**
+- Total internal links: 2337 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 231 |
-| `service-area` | 21 |
+| `service-area-service` | 242 |
+| `service-area` | 22 |
 | `service-landing` | 11 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -63,6 +63,7 @@
 - `milford-ma` — Milford, MA
 - `marlborough-ma` — Marlborough, MA
 - `hudson-ma` — Hudson, MA
+- `bellingham-ma` — Bellingham, MA
 
 ## Top 10 priority pages
 
@@ -75,9 +76,9 @@
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration auburn |
 | `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup auburn |
 | `/services/biohazard-cleanup/` | `service-landing` | 7.2 | biohazard cleanup auburn |
-| `/service-areas/east-douglas-ma/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration east douglas |
-| `/service-areas/east-douglas-ma/mold-remediation/` | `service-area-service` | 7.0 | mold remediation east douglas |
-| `/service-areas/east-douglas-ma/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration east douglas |
+| `/service-areas/bellingham-ma/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration bellingham |
+| `/service-areas/bellingham-ma/mold-remediation/` | `service-area-service` | 7.0 | mold remediation bellingham |
+| `/service-areas/bellingham-ma/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration bellingham |
 
 ## Validation
 

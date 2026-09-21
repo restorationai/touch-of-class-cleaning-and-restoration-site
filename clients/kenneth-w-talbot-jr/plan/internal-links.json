@@ -19,6 +19,7 @@
     "/service-areas/hurlburt-field-fl/",
     "/service-areas/laurel-hill-fl/",
     "/service-areas/miramar-beach-fl/",
+    "/service-areas/navarre-fl/",
     "/service-areas/niceville-fl/",
     "/service-areas/panama-city-beach-fl/",
     "/service-areas/paxton-fl/",
@@ -49,6 +50,7 @@
     "/service-areas/hurlburt-field-fl/",
     "/service-areas/laurel-hill-fl/",
     "/service-areas/miramar-beach-fl/",
+    "/service-areas/navarre-fl/",
     "/service-areas/niceville-fl/",
     "/service-areas/panama-city-beach-fl/",
     "/service-areas/paxton-fl/",
@@ -93,8 +95,8 @@
     "/service-areas/hurlburt-field-fl/water-damage-restoration/",
     "/service-areas/laurel-hill-fl/water-damage-restoration/",
     "/service-areas/miramar-beach-fl/water-damage-restoration/",
+    "/service-areas/navarre-fl/water-damage-restoration/",
     "/service-areas/niceville-fl/water-damage-restoration/",
-    "/service-areas/panama-city-beach-fl/water-damage-restoration/",
     "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -113,8 +115,8 @@
     "/service-areas/hurlburt-field-fl/fire-damage-restoration/",
     "/service-areas/laurel-hill-fl/fire-damage-restoration/",
     "/service-areas/miramar-beach-fl/fire-damage-restoration/",
+    "/service-areas/navarre-fl/fire-damage-restoration/",
     "/service-areas/niceville-fl/fire-damage-restoration/",
-    "/service-areas/panama-city-beach-fl/fire-damage-restoration/",
     "/blog/choosing-a-restoration-company/",
     "/blog/fire-damage-restoration-process/"
   ],
@@ -131,8 +133,8 @@
     "/service-areas/hurlburt-field-fl/mold-remediation/",
     "/service-areas/laurel-hill-fl/mold-remediation/",
     "/service-areas/miramar-beach-fl/mold-remediation/",
+    "/service-areas/navarre-fl/mold-remediation/",
     "/service-areas/niceville-fl/mold-remediation/",
-    "/service-areas/panama-city-beach-fl/mold-remediation/",
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
     "/blog/signs-of-hidden-mold/"
@@ -150,8 +152,8 @@
     "/service-areas/hurlburt-field-fl/storm-damage-restoration/",
     "/service-areas/laurel-hill-fl/storm-damage-restoration/",
     "/service-areas/miramar-beach-fl/storm-damage-restoration/",
-    "/service-areas/niceville-fl/storm-damage-restoration/",
-    "/service-areas/panama-city-beach-fl/storm-damage-restoration/"
+    "/service-areas/navarre-fl/storm-damage-restoration/",
+    "/service-areas/niceville-fl/storm-damage-restoration/"
   ],
   "/services/water-cleanup/": [
     "/services/",
@@ -166,8 +168,8 @@
     "/service-areas/hurlburt-field-fl/water-cleanup/",
     "/service-areas/laurel-hill-fl/water-cleanup/",
     "/service-areas/miramar-beach-fl/water-cleanup/",
+    "/service-areas/navarre-fl/water-cleanup/",
     "/service-areas/niceville-fl/water-cleanup/",
-    "/service-areas/panama-city-beach-fl/water-cleanup/",
     "/services/water-damage-restoration/"
   ],
   "/service-areas/destin-fl/": [
@@ -394,6 +396,18 @@
     "/service-areas/harold-fl/water-damage-restoration/",
     "/service-areas/harold-fl/storm-damage-restoration/",
     "/service-areas/harold-fl/water-cleanup/",
+    "/service-areas/crestview-fl/",
+    "/service-areas/defuniak-springs-fl/",
+    "/service-areas/destin-fl/"
+  ],
+  "/service-areas/navarre-fl/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/navarre-fl/fire-damage-restoration/",
+    "/service-areas/navarre-fl/mold-remediation/",
+    "/service-areas/navarre-fl/water-damage-restoration/",
+    "/service-areas/navarre-fl/storm-damage-restoration/",
+    "/service-areas/navarre-fl/water-cleanup/",
     "/service-areas/crestview-fl/",
     "/service-areas/defuniak-springs-fl/",
     "/service-areas/destin-fl/"
@@ -1249,6 +1263,51 @@
     "/service-areas/harold-fl/",
     "/service-areas/harold-fl/fire-damage-restoration/",
     "/service-areas/harold-fl/mold-remediation/",
+    "/service-areas/crestview-fl/water-cleanup/",
+    "/service-areas/defuniak-springs-fl/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/navarre-fl/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/navarre-fl/",
+    "/service-areas/navarre-fl/fire-damage-restoration/",
+    "/service-areas/navarre-fl/mold-remediation/",
+    "/service-areas/crestview-fl/water-damage-restoration/",
+    "/service-areas/defuniak-springs-fl/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/navarre-fl/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/navarre-fl/",
+    "/service-areas/navarre-fl/mold-remediation/",
+    "/service-areas/navarre-fl/water-damage-restoration/",
+    "/service-areas/crestview-fl/fire-damage-restoration/",
+    "/service-areas/defuniak-springs-fl/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/navarre-fl/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/navarre-fl/",
+    "/service-areas/navarre-fl/fire-damage-restoration/",
+    "/service-areas/navarre-fl/water-damage-restoration/",
+    "/service-areas/crestview-fl/mold-remediation/",
+    "/service-areas/defuniak-springs-fl/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/navarre-fl/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/navarre-fl/",
+    "/service-areas/navarre-fl/fire-damage-restoration/",
+    "/service-areas/navarre-fl/mold-remediation/",
+    "/service-areas/crestview-fl/storm-damage-restoration/",
+    "/service-areas/defuniak-springs-fl/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/navarre-fl/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/navarre-fl/",
+    "/service-areas/navarre-fl/fire-damage-restoration/",
+    "/service-areas/navarre-fl/mold-remediation/",
     "/service-areas/crestview-fl/water-cleanup/",
     "/service-areas/defuniak-springs-fl/water-cleanup/",
     "/contact/"

@@ -130,6 +130,11 @@
       "city": "Riverton",
       "state": "UT",
       "slug": "riverton-ut"
+    },
+    {
+      "city": "South Jordan",
+      "state": "UT",
+      "slug": "south-jordan-ut"
     }
   ],
   "template": "restoration",

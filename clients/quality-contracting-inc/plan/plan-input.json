@@ -143,6 +143,11 @@
       "city": "Hudson",
       "state": "MA",
       "slug": "hudson-ma"
+    },
+    {
+      "city": "Bellingham",
+      "state": "MA",
+      "slug": "bellingham-ma"
     }
   ],
   "service_radius_description": "Southern New England, with crews responding across a 50 mile radius of Auburn"

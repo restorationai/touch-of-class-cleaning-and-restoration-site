@@ -1,20 +1,20 @@
 # Site Plan Report — TDI USA, Inc.
 
 - Template: `construction` v0.1.0
-- Generated: 2026-09-20T20:42:26.164138+00:00
+- Generated: 2026-09-21T14:13:51.581002+00:00
 - Domain: `tdiusa.com`
 - Services selected: 12 of 23 catalog entries
-- Service areas: 27
+- Service areas: 28
 - Cross-product enabled: True
-- Total URLs: **367**
-- Total internal links: 2946 (avg 8.0 per page)
+- Total URLs: **380**
+- Total internal links: 3049 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 312 |
-| `service-area` | 26 |
+| `service-area-service` | 324 |
+| `service-area` | 27 |
 | `service-landing` | 12 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -69,6 +69,7 @@
 - `rosemont-ca` — Rosemont, CA
 - `florin-ca` — Florin, CA
 - `woodland-ca` — Woodland, CA
+- `mather-ca` — Mather, CA
 
 ## Top 10 priority pages
 

@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-20T20:41:55.731447+00:00",
+  "generated_at": "2026-09-21T14:13:23.127023+00:00",
   "input_summary": {
     "service_count": 20,
-    "service_area_count": 22,
+    "service_area_count": 23,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -66,6 +66,7 @@
         "/services/upholstery-cleaning/",
         "/service-areas/alpine-ut/",
         "/service-areas/american-fork-ut/",
+        "/service-areas/benjamin-ut/",
         "/service-areas/bluffdale-ut/",
         "/service-areas/cedar-fort-ut/",
         "/service-areas/cedar-hills-ut/",
@@ -170,6 +171,7 @@
         "/",
         "/service-areas/alpine-ut/",
         "/service-areas/american-fork-ut/",
+        "/service-areas/benjamin-ut/",
         "/service-areas/bluffdale-ut/",
         "/service-areas/cedar-fort-ut/",
         "/service-areas/cedar-hills-ut/",
@@ -338,6 +340,7 @@
         "/contact/",
         "/service-areas/alpine-ut/water-damage-restoration/",
         "/service-areas/american-fork-ut/water-damage-restoration/",
+        "/service-areas/benjamin-ut/water-damage-restoration/",
         "/service-areas/bluffdale-ut/water-damage-restoration/",
         "/service-areas/cedar-fort-ut/water-damage-restoration/",
         "/service-areas/cedar-hills-ut/water-damage-restoration/",
@@ -347,7 +350,6 @@
         "/service-areas/heber-city-ut/water-damage-restoration/",
         "/service-areas/herriman-ut/water-damage-restoration/",
         "/service-areas/highland-ut/water-damage-restoration/",
-        "/service-areas/lake-shore-ut/water-damage-restoration/",
         "/services/water-cleanup/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
@@ -392,6 +394,7 @@
         "/contact/",
         "/service-areas/alpine-ut/burst-pipe-repair/",
         "/service-areas/american-fork-ut/burst-pipe-repair/",
+        "/service-areas/benjamin-ut/burst-pipe-repair/",
         "/service-areas/bluffdale-ut/burst-pipe-repair/",
         "/service-areas/cedar-fort-ut/burst-pipe-repair/",
         "/service-areas/cedar-hills-ut/burst-pipe-repair/",
@@ -400,8 +403,7 @@
         "/service-areas/fairfield-ut/burst-pipe-repair/",
         "/service-areas/heber-city-ut/burst-pipe-repair/",
         "/service-areas/herriman-ut/burst-pipe-repair/",
-        "/service-areas/highland-ut/burst-pipe-repair/",
-        "/service-areas/lake-shore-ut/burst-pipe-repair/"
+        "/service-areas/highland-ut/burst-pipe-repair/"
       ]
     },
     {
@@ -442,6 +444,7 @@
         "/contact/",
         "/service-areas/alpine-ut/frozen-pipe-restoration/",
         "/service-areas/american-fork-ut/frozen-pipe-restoration/",
+        "/service-areas/benjamin-ut/frozen-pipe-restoration/",
         "/service-areas/bluffdale-ut/frozen-pipe-restoration/",
         "/service-areas/cedar-fort-ut/frozen-pipe-restoration/",
         "/service-areas/cedar-hills-ut/frozen-pipe-restoration/",
@@ -450,8 +453,7 @@
         "/service-areas/fairfield-ut/frozen-pipe-restoration/",
         "/service-areas/heber-city-ut/frozen-pipe-restoration/",
         "/service-areas/herriman-ut/frozen-pipe-restoration/",
-        "/service-areas/highland-ut/frozen-pipe-restoration/",
-        "/service-areas/lake-shore-ut/frozen-pipe-restoration/"
+        "/service-areas/highland-ut/frozen-pipe-restoration/"
       ]
     },
     {
@@ -492,6 +494,7 @@
         "/contact/",
         "/service-areas/alpine-ut/appliance-leak-cleanup/",
         "/service-areas/american-fork-ut/appliance-leak-cleanup/",
+        "/service-areas/benjamin-ut/appliance-leak-cleanup/",
         "/service-areas/bluffdale-ut/appliance-leak-cleanup/",
         "/service-areas/cedar-fort-ut/appliance-leak-cleanup/",
         "/service-areas/cedar-hills-ut/appliance-leak-cleanup/",
@@ -501,7 +504,6 @@
         "/service-areas/heber-city-ut/appliance-leak-cleanup/",
         "/service-areas/herriman-ut/appliance-leak-cleanup/",
         "/service-areas/highland-ut/appliance-leak-cleanup/",
-        "/service-areas/lake-shore-ut/appliance-leak-cleanup/",
         "/blog/burst-pipe-emergency-checklist/"
       ]
     },
@@ -543,6 +545,7 @@
         "/contact/",
         "/service-areas/alpine-ut/basement-flooding-cleanup/",
         "/service-areas/american-fork-ut/basement-flooding-cleanup/",
+        "/service-areas/benjamin-ut/basement-flooding-cleanup/",
         "/service-areas/bluffdale-ut/basement-flooding-cleanup/",
         "/service-areas/cedar-fort-ut/basement-flooding-cleanup/",
         "/service-areas/cedar-hills-ut/basement-flooding-cleanup/",
@@ -551,8 +554,7 @@
         "/service-areas/fairfield-ut/basement-flooding-cleanup/",
         "/service-areas/heber-city-ut/basement-flooding-cleanup/",
         "/service-areas/herriman-ut/basement-flooding-cleanup/",
-        "/service-areas/highland-ut/basement-flooding-cleanup/",
-        "/service-areas/lake-shore-ut/basement-flooding-cleanup/"
+        "/service-areas/highland-ut/basement-flooding-cleanup/"
       ]
     },
     {
@@ -593,6 +595,7 @@
         "/contact/",
         "/service-areas/alpine-ut/roof-leak-repair/",
         "/service-areas/american-fork-ut/roof-leak-repair/",
+        "/service-areas/benjamin-ut/roof-leak-repair/",
         "/service-areas/bluffdale-ut/roof-leak-repair/",
         "/service-areas/cedar-fort-ut/roof-leak-repair/",
         "/service-areas/cedar-hills-ut/roof-leak-repair/",
@@ -601,8 +604,7 @@
         "/service-areas/fairfield-ut/roof-leak-repair/",
         "/service-areas/heber-city-ut/roof-leak-repair/",
         "/service-areas/herriman-ut/roof-leak-repair/",
-        "/service-areas/highland-ut/roof-leak-repair/",
-        "/service-areas/lake-shore-ut/roof-leak-repair/"
+        "/service-areas/highland-ut/roof-leak-repair/"
       ]
     },
     {
@@ -643,6 +645,7 @@
         "/contact/",
         "/service-areas/alpine-ut/sewage-cleanup/",
         "/service-areas/american-fork-ut/sewage-cleanup/",
+        "/service-areas/benjamin-ut/sewage-cleanup/",
         "/service-areas/bluffdale-ut/sewage-cleanup/",
         "/service-areas/cedar-fort-ut/sewage-cleanup/",
         "/service-areas/cedar-hills-ut/sewage-cleanup/",
@@ -651,8 +654,7 @@
         "/service-areas/fairfield-ut/sewage-cleanup/",
         "/service-areas/heber-city-ut/sewage-cleanup/",
         "/service-areas/herriman-ut/sewage-cleanup/",
-        "/service-areas/highland-ut/sewage-cleanup/",
-        "/service-areas/lake-shore-ut/sewage-cleanup/"
+        "/service-areas/highland-ut/sewage-cleanup/"
       ]
     },
     {
@@ -693,6 +695,7 @@
         "/contact/",
         "/service-areas/alpine-ut/storm-damage-restoration/",
         "/service-areas/american-fork-ut/storm-damage-restoration/",
+        "/service-areas/benjamin-ut/storm-damage-restoration/",
         "/service-areas/bluffdale-ut/storm-damage-restoration/",
         "/service-areas/cedar-fort-ut/storm-damage-restoration/",
         "/service-areas/cedar-hills-ut/storm-damage-restoration/",
@@ -702,7 +705,6 @@
         "/service-areas/heber-city-ut/storm-damage-restoration/",
         "/service-areas/herriman-ut/storm-damage-restoration/",
         "/service-areas/highland-ut/storm-damage-restoration/",
-        "/service-areas/lake-shore-ut/storm-damage-restoration/",
         "/blog/storm-damage-insurance-claim-checklist/"
       ]
     },
@@ -744,6 +746,7 @@
         "/contact/",
         "/service-areas/alpine-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/fire-damage-restoration/",
+        "/service-areas/benjamin-ut/fire-damage-restoration/",
         "/service-areas/bluffdale-ut/fire-damage-restoration/",
         "/service-areas/cedar-fort-ut/fire-damage-restoration/",
         "/service-areas/cedar-hills-ut/fire-damage-restoration/",
@@ -753,7 +756,6 @@
         "/service-areas/heber-city-ut/fire-damage-restoration/",
         "/service-areas/herriman-ut/fire-damage-restoration/",
         "/service-areas/highland-ut/fire-damage-restoration/",
-        "/service-areas/lake-shore-ut/fire-damage-restoration/",
         "/blog/choosing-a-restoration-company/",
         "/blog/fire-damage-restoration-process/",
         "/blog/smoke-odor-removal-techniques/"
@@ -797,6 +799,7 @@
         "/contact/",
         "/service-areas/alpine-ut/smoke-damage-restoration/",
         "/service-areas/american-fork-ut/smoke-damage-restoration/",
+        "/service-areas/benjamin-ut/smoke-damage-restoration/",
         "/service-areas/bluffdale-ut/smoke-damage-restoration/",
         "/service-areas/cedar-fort-ut/smoke-damage-restoration/",
         "/service-areas/cedar-hills-ut/smoke-damage-restoration/",
@@ -806,7 +809,6 @@
         "/service-areas/heber-city-ut/smoke-damage-restoration/",
         "/service-areas/herriman-ut/smoke-damage-restoration/",
         "/service-areas/highland-ut/smoke-damage-restoration/",
-        "/service-areas/lake-shore-ut/smoke-damage-restoration/",
         "/blog/fire-damage-restoration-process/",
         "/blog/smoke-odor-removal-techniques/"
       ]
@@ -849,6 +851,7 @@
         "/contact/",
         "/service-areas/alpine-ut/mold-remediation/",
         "/service-areas/american-fork-ut/mold-remediation/",
+        "/service-areas/benjamin-ut/mold-remediation/",
         "/service-areas/bluffdale-ut/mold-remediation/",
         "/service-areas/cedar-fort-ut/mold-remediation/",
         "/service-areas/cedar-hills-ut/mold-remediation/",
@@ -858,7 +861,6 @@
         "/service-areas/heber-city-ut/mold-remediation/",
         "/service-areas/herriman-ut/mold-remediation/",
         "/service-areas/highland-ut/mold-remediation/",
-        "/service-areas/lake-shore-ut/mold-remediation/",
         "/blog/choosing-a-restoration-company/",
         "/blog/how-to-test-for-mold/",
         "/blog/signs-of-hidden-mold/"
@@ -902,6 +904,7 @@
         "/contact/",
         "/service-areas/alpine-ut/mold-inspection-testing/",
         "/service-areas/american-fork-ut/mold-inspection-testing/",
+        "/service-areas/benjamin-ut/mold-inspection-testing/",
         "/service-areas/bluffdale-ut/mold-inspection-testing/",
         "/service-areas/cedar-fort-ut/mold-inspection-testing/",
         "/service-areas/cedar-hills-ut/mold-inspection-testing/",
@@ -911,7 +914,6 @@
         "/service-areas/heber-city-ut/mold-inspection-testing/",
         "/service-areas/herriman-ut/mold-inspection-testing/",
         "/service-areas/highland-ut/mold-inspection-testing/",
-        "/service-areas/lake-shore-ut/mold-inspection-testing/",
         "/blog/how-to-test-for-mold/"
       ]
     },
@@ -953,6 +955,7 @@
         "/contact/",
         "/service-areas/alpine-ut/carpet-cleaning/",
         "/service-areas/american-fork-ut/carpet-cleaning/",
+        "/service-areas/benjamin-ut/carpet-cleaning/",
         "/service-areas/bluffdale-ut/carpet-cleaning/",
         "/service-areas/cedar-fort-ut/carpet-cleaning/",
         "/service-areas/cedar-hills-ut/carpet-cleaning/",
@@ -961,8 +964,7 @@
         "/service-areas/fairfield-ut/carpet-cleaning/",
         "/service-areas/heber-city-ut/carpet-cleaning/",
         "/service-areas/herriman-ut/carpet-cleaning/",
-        "/service-areas/highland-ut/carpet-cleaning/",
-        "/service-areas/lake-shore-ut/carpet-cleaning/"
+        "/service-areas/highland-ut/carpet-cleaning/"
       ]
     },
     {
@@ -1003,6 +1005,7 @@
         "/contact/",
         "/service-areas/alpine-ut/odor-removal/",
         "/service-areas/american-fork-ut/odor-removal/",
+        "/service-areas/benjamin-ut/odor-removal/",
         "/service-areas/bluffdale-ut/odor-removal/",
         "/service-areas/cedar-fort-ut/odor-removal/",
         "/service-areas/cedar-hills-ut/odor-removal/",
@@ -1011,8 +1014,7 @@
         "/service-areas/fairfield-ut/odor-removal/",
         "/service-areas/heber-city-ut/odor-removal/",
         "/service-areas/herriman-ut/odor-removal/",
-        "/service-areas/highland-ut/odor-removal/",
-        "/service-areas/lake-shore-ut/odor-removal/"
+        "/service-areas/highland-ut/odor-removal/"
       ]
     },
     {
@@ -1053,6 +1055,7 @@
         "/contact/",
         "/service-areas/alpine-ut/upholstery-cleaning/",
         "/service-areas/american-fork-ut/upholstery-cleaning/",
+        "/service-areas/benjamin-ut/upholstery-cleaning/",
         "/service-areas/bluffdale-ut/upholstery-cleaning/",
         "/service-areas/cedar-fort-ut/upholstery-cleaning/",
         "/service-areas/cedar-hills-ut/upholstery-cleaning/",
@@ -1061,8 +1064,7 @@
         "/service-areas/fairfield-ut/upholstery-cleaning/",
         "/service-areas/heber-city-ut/upholstery-cleaning/",
         "/service-areas/herriman-ut/upholstery-cleaning/",
-        "/service-areas/highland-ut/upholstery-cleaning/",
-        "/service-areas/lake-shore-ut/upholstery-cleaning/"
+        "/service-areas/highland-ut/upholstery-cleaning/"
       ]
     },
     {
@@ -1103,6 +1105,7 @@
         "/contact/",
         "/service-areas/alpine-ut/tile-grout-cleaning/",
         "/service-areas/american-fork-ut/tile-grout-cleaning/",
+        "/service-areas/benjamin-ut/tile-grout-cleaning/",
         "/service-areas/bluffdale-ut/tile-grout-cleaning/",
         "/service-areas/cedar-fort-ut/tile-grout-cleaning/",
         "/service-areas/cedar-hills-ut/tile-grout-cleaning/",
@@ -1111,8 +1114,7 @@
         "/service-areas/fairfield-ut/tile-grout-cleaning/",
         "/service-areas/heber-city-ut/tile-grout-cleaning/",
         "/service-areas/herriman-ut/tile-grout-cleaning/",
-        "/service-areas/highland-ut/tile-grout-cleaning/",
-        "/service-areas/lake-shore-ut/tile-grout-cleaning/"
+        "/service-areas/highland-ut/tile-grout-cleaning/"
       ]
     },
     {
@@ -1153,6 +1155,7 @@
         "/contact/",
         "/service-areas/alpine-ut/fabric-protection/",
         "/service-areas/american-fork-ut/fabric-protection/",
+        "/service-areas/benjamin-ut/fabric-protection/",
         "/service-areas/bluffdale-ut/fabric-protection/",
         "/service-areas/cedar-fort-ut/fabric-protection/",
         "/service-areas/cedar-hills-ut/fabric-protection/",
@@ -1161,8 +1164,7 @@
         "/service-areas/fairfield-ut/fabric-protection/",
         "/service-areas/heber-city-ut/fabric-protection/",
         "/service-areas/herriman-ut/fabric-protection/",
-        "/service-areas/highland-ut/fabric-protection/",
-        "/service-areas/lake-shore-ut/fabric-protection/"
+        "/service-areas/highland-ut/fabric-protection/"
       ]
     },
     {
@@ -1203,6 +1205,7 @@
         "/contact/",
         "/service-areas/alpine-ut/junk-debris-removal/",
         "/service-areas/american-fork-ut/junk-debris-removal/",
+        "/service-areas/benjamin-ut/junk-debris-removal/",
         "/service-areas/bluffdale-ut/junk-debris-removal/",
         "/service-areas/cedar-fort-ut/junk-debris-removal/",
         "/service-areas/cedar-hills-ut/junk-debris-removal/",
@@ -1211,8 +1214,7 @@
         "/service-areas/fairfield-ut/junk-debris-removal/",
         "/service-areas/heber-city-ut/junk-debris-removal/",
         "/service-areas/herriman-ut/junk-debris-removal/",
-        "/service-areas/highland-ut/junk-debris-removal/",
-        "/service-areas/lake-shore-ut/junk-debris-removal/"
+        "/service-areas/highland-ut/junk-debris-removal/"
       ]
     },
     {
@@ -1247,6 +1249,7 @@
         "/contact/",
         "/service-areas/alpine-ut/crawl-space-encapsulation/",
         "/service-areas/american-fork-ut/crawl-space-encapsulation/",
+        "/service-areas/benjamin-ut/crawl-space-encapsulation/",
         "/service-areas/bluffdale-ut/crawl-space-encapsulation/",
         "/service-areas/cedar-fort-ut/crawl-space-encapsulation/",
         "/service-areas/cedar-hills-ut/crawl-space-encapsulation/",
@@ -1255,8 +1258,7 @@
         "/service-areas/fairfield-ut/crawl-space-encapsulation/",
         "/service-areas/heber-city-ut/crawl-space-encapsulation/",
         "/service-areas/herriman-ut/crawl-space-encapsulation/",
-        "/service-areas/highland-ut/crawl-space-encapsulation/",
-        "/service-areas/lake-shore-ut/crawl-space-encapsulation/"
+        "/service-areas/highland-ut/crawl-space-encapsulation/"
       ]
     },
     {
@@ -1298,6 +1300,7 @@
         "/contact/",
         "/service-areas/alpine-ut/water-cleanup/",
         "/service-areas/american-fork-ut/water-cleanup/",
+        "/service-areas/benjamin-ut/water-cleanup/",
         "/service-areas/bluffdale-ut/water-cleanup/",
         "/service-areas/cedar-fort-ut/water-cleanup/",
         "/service-areas/cedar-hills-ut/water-cleanup/",
@@ -1307,7 +1310,6 @@
         "/service-areas/heber-city-ut/water-cleanup/",
         "/service-areas/herriman-ut/water-cleanup/",
         "/service-areas/highland-ut/water-cleanup/",
-        "/service-areas/lake-shore-ut/water-cleanup/",
         "/services/water-damage-restoration/"
       ]
     },
@@ -1365,7 +1367,7 @@
         "/service-areas/lehi-ut/upholstery-cleaning/",
         "/service-areas/alpine-ut/",
         "/service-areas/american-fork-ut/",
-        "/service-areas/bluffdale-ut/"
+        "/service-areas/benjamin-ut/"
       ]
     },
     {
@@ -1422,7 +1424,7 @@
         "/service-areas/eagle-mountain-ut/upholstery-cleaning/",
         "/service-areas/alpine-ut/",
         "/service-areas/american-fork-ut/",
-        "/service-areas/bluffdale-ut/"
+        "/service-areas/benjamin-ut/"
       ]
     },
     {
@@ -1478,8 +1480,8 @@
         "/service-areas/american-fork-ut/tile-grout-cleaning/",
         "/service-areas/american-fork-ut/upholstery-cleaning/",
         "/service-areas/alpine-ut/",
-        "/service-areas/bluffdale-ut/",
-        "/service-areas/cedar-fort-ut/"
+        "/service-areas/benjamin-ut/",
+        "/service-areas/bluffdale-ut/"
       ]
     },
     {
@@ -1536,7 +1538,7 @@
         "/service-areas/pleasant-grove-ut/upholstery-cleaning/",
         "/service-areas/alpine-ut/",
         "/service-areas/american-fork-ut/",
-        "/service-areas/bluffdale-ut/"
+        "/service-areas/benjamin-ut/"
       ]
     },
     {
@@ -1593,7 +1595,7 @@
         "/service-areas/orem-ut/upholstery-cleaning/",
         "/service-areas/alpine-ut/",
         "/service-areas/american-fork-ut/",
-        "/service-areas/bluffdale-ut/"
+        "/service-areas/benjamin-ut/"
       ]
     },
     {
@@ -1650,7 +1652,7 @@
         "/service-areas/provo-ut/upholstery-cleaning/",
         "/service-areas/alpine-ut/",
         "/service-areas/american-fork-ut/",
-        "/service-areas/bluffdale-ut/"
+        "/service-areas/benjamin-ut/"
       ]
     },
     {
@@ -1707,7 +1709,7 @@
         "/service-areas/herriman-ut/upholstery-cleaning/",
         "/service-areas/alpine-ut/",
         "/service-areas/american-fork-ut/",
-        "/service-areas/bluffdale-ut/"
+        "/service-areas/benjamin-ut/"
       ]
     },
     {
@@ -1764,7 +1766,7 @@
         "/service-areas/south-jordan-ut/upholstery-cleaning/",
         "/service-areas/alpine-ut/",
         "/service-areas/american-fork-ut/",
-        "/service-areas/bluffdale-ut/"
+        "/service-areas/benjamin-ut/"
       ]
     },
     {
@@ -1821,7 +1823,7 @@
         "/service-areas/riverton-ut/upholstery-cleaning/",
         "/service-areas/alpine-ut/",
         "/service-areas/american-fork-ut/",
-        "/service-areas/bluffdale-ut/"
+        "/service-areas/benjamin-ut/"
       ]
     },
     {
@@ -1878,7 +1880,7 @@
         "/service-areas/heber-city-ut/upholstery-cleaning/",
         "/service-areas/alpine-ut/",
         "/service-areas/american-fork-ut/",
-        "/service-areas/bluffdale-ut/"
+        "/service-areas/benjamin-ut/"
       ]
     },
     {
@@ -1935,7 +1937,7 @@
         "/service-areas/park-city-ut/upholstery-cleaning/",
         "/service-areas/alpine-ut/",
         "/service-areas/american-fork-ut/",
-        "/service-areas/bluffdale-ut/"
+        "/service-areas/benjamin-ut/"
       ]
     },
     {
@@ -1992,7 +1994,7 @@
         "/service-areas/vineyard-ut/upholstery-cleaning/",
         "/service-areas/alpine-ut/",
         "/service-areas/american-fork-ut/",
-        "/service-areas/bluffdale-ut/"
+        "/service-areas/benjamin-ut/"
       ]
     },
     {
@@ -2049,7 +2051,7 @@
         "/service-areas/highland-ut/upholstery-cleaning/",
         "/service-areas/alpine-ut/",
         "/service-areas/american-fork-ut/",
-        "/service-areas/bluffdale-ut/"
+        "/service-areas/benjamin-ut/"
       ]
     },
     {
@@ -2106,7 +2108,7 @@
         "/service-areas/lindon-ut/upholstery-cleaning/",
         "/service-areas/alpine-ut/",
         "/service-areas/american-fork-ut/",
-        "/service-areas/bluffdale-ut/"
+        "/service-areas/benjamin-ut/"
       ]
     },
     {
@@ -2163,7 +2165,7 @@
         "/service-areas/fairfield-ut/upholstery-cleaning/",
         "/service-areas/alpine-ut/",
         "/service-areas/american-fork-ut/",
-        "/service-areas/bluffdale-ut/"
+        "/service-areas/benjamin-ut/"
       ]
     },
     {
@@ -2220,7 +2222,7 @@
         "/service-areas/cedar-hills-ut/upholstery-cleaning/",
         "/service-areas/alpine-ut/",
         "/service-areas/american-fork-ut/",
-        "/service-areas/bluffdale-ut/"
+        "/service-areas/benjamin-ut/"
       ]
     },
     {
@@ -2277,7 +2279,7 @@
         "/service-areas/cedar-fort-ut/upholstery-cleaning/",
         "/service-areas/alpine-ut/",
         "/service-areas/american-fork-ut/",
-        "/service-areas/bluffdale-ut/"
+        "/service-areas/benjamin-ut/"
       ]
     },
     {
@@ -2334,7 +2336,7 @@
         "/service-areas/bluffdale-ut/upholstery-cleaning/",
         "/service-areas/alpine-ut/",
         "/service-areas/american-fork-ut/",
-        "/service-areas/cedar-fort-ut/"
+        "/service-areas/benjamin-ut/"
       ]
     },
     {
@@ -2390,8 +2392,8 @@
         "/service-areas/alpine-ut/tile-grout-cleaning/",
         "/service-areas/alpine-ut/upholstery-cleaning/",
         "/service-areas/american-fork-ut/",
-        "/service-areas/bluffdale-ut/",
-        "/service-areas/cedar-fort-ut/"
+        "/service-areas/benjamin-ut/",
+        "/service-areas/bluffdale-ut/"
       ]
     },
     {
@@ -2448,7 +2450,7 @@
         "/service-areas/draper-ut/upholstery-cleaning/",
         "/service-areas/alpine-ut/",
         "/service-areas/american-fork-ut/",
-        "/service-areas/bluffdale-ut/"
+        "/service-areas/benjamin-ut/"
       ]
     },
     {
@@ -2503,6 +2505,63 @@
         "/service-areas/lake-shore-ut/carpet-cleaning/",
         "/service-areas/lake-shore-ut/tile-grout-cleaning/",
         "/service-areas/lake-shore-ut/upholstery-cleaning/",
+        "/service-areas/alpine-ut/",
+        "/service-areas/american-fork-ut/",
+        "/service-areas/benjamin-ut/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/benjamin-ut/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Benjamin, UT | Home Pride Restoration and Cleaning",
+      "h1": "Restoration Services in Benjamin",
+      "meta_description": "Serving Benjamin, UT with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (801) 995-2437.",
+      "primary_keyword": "restoration services benjamin",
+      "secondary_keywords": [
+        "benjamin restoration company",
+        "damage restoration benjamin",
+        "benjamin disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/benjamin-ut/fire-damage-restoration/",
+        "/service-areas/benjamin-ut/mold-remediation/",
+        "/service-areas/benjamin-ut/water-damage-restoration/",
+        "/service-areas/benjamin-ut/sewage-cleanup/",
+        "/service-areas/benjamin-ut/smoke-damage-restoration/",
+        "/service-areas/benjamin-ut/storm-damage-restoration/",
+        "/service-areas/benjamin-ut/water-cleanup/",
+        "/service-areas/benjamin-ut/basement-flooding-cleanup/",
+        "/service-areas/benjamin-ut/burst-pipe-repair/",
+        "/service-areas/benjamin-ut/mold-inspection-testing/",
+        "/service-areas/benjamin-ut/frozen-pipe-restoration/",
+        "/service-areas/benjamin-ut/odor-removal/",
+        "/service-areas/benjamin-ut/roof-leak-repair/",
+        "/service-areas/benjamin-ut/appliance-leak-cleanup/",
+        "/service-areas/benjamin-ut/crawl-space-encapsulation/",
+        "/service-areas/benjamin-ut/fabric-protection/",
+        "/service-areas/benjamin-ut/junk-debris-removal/",
+        "/service-areas/benjamin-ut/carpet-cleaning/",
+        "/service-areas/benjamin-ut/tile-grout-cleaning/",
+        "/service-areas/benjamin-ut/upholstery-cleaning/",
         "/service-areas/alpine-ut/",
         "/service-areas/american-fork-ut/",
         "/service-areas/bluffdale-ut/"
@@ -4298,7 +4357,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/alpine-ut/water-damage-restoration/",
-        "/service-areas/bluffdale-ut/water-damage-restoration/",
+        "/service-areas/benjamin-ut/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4342,7 +4401,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/alpine-ut/burst-pipe-repair/",
-        "/service-areas/bluffdale-ut/burst-pipe-repair/",
+        "/service-areas/benjamin-ut/burst-pipe-repair/",
         "/contact/"
       ]
     },
@@ -4386,7 +4445,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/alpine-ut/frozen-pipe-restoration/",
-        "/service-areas/bluffdale-ut/frozen-pipe-restoration/",
+        "/service-areas/benjamin-ut/frozen-pipe-restoration/",
         "/contact/"
       ]
     },
@@ -4430,7 +4489,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/alpine-ut/appliance-leak-cleanup/",
-        "/service-areas/bluffdale-ut/appliance-leak-cleanup/",
+        "/service-areas/benjamin-ut/appliance-leak-cleanup/",
         "/contact/"
       ]
     },
@@ -4474,7 +4533,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/alpine-ut/basement-flooding-cleanup/",
-        "/service-areas/bluffdale-ut/basement-flooding-cleanup/",
+        "/service-areas/benjamin-ut/basement-flooding-cleanup/",
         "/contact/"
       ]
     },
@@ -4518,7 +4577,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/alpine-ut/roof-leak-repair/",
-        "/service-areas/bluffdale-ut/roof-leak-repair/",
+        "/service-areas/benjamin-ut/roof-leak-repair/",
         "/contact/"
       ]
     },
@@ -4562,7 +4621,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/alpine-ut/sewage-cleanup/",
-        "/service-areas/bluffdale-ut/sewage-cleanup/",
+        "/service-areas/benjamin-ut/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -4606,7 +4665,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/alpine-ut/storm-damage-restoration/",
-        "/service-areas/bluffdale-ut/storm-damage-restoration/",
+        "/service-areas/benjamin-ut/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4650,7 +4709,7 @@
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/american-fork-ut/water-damage-restoration/",
         "/service-areas/alpine-ut/fire-damage-restoration/",
-        "/service-areas/bluffdale-ut/fire-damage-restoration/",
+        "/service-areas/benjamin-ut/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4694,7 +4753,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/alpine-ut/smoke-damage-restoration/",
-        "/service-areas/bluffdale-ut/smoke-damage-restoration/",
+        "/service-areas/benjamin-ut/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4738,7 +4797,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/water-damage-restoration/",
         "/service-areas/alpine-ut/mold-remediation/",
-        "/service-areas/bluffdale-ut/mold-remediation/",
+        "/service-areas/benjamin-ut/mold-remediation/",
         "/contact/"
       ]
     },
@@ -4782,7 +4841,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/alpine-ut/mold-inspection-testing/",
-        "/service-areas/bluffdale-ut/mold-inspection-testing/",
+        "/service-areas/benjamin-ut/mold-inspection-testing/",
         "/contact/"
       ]
     },
@@ -4826,7 +4885,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/alpine-ut/carpet-cleaning/",
-        "/service-areas/bluffdale-ut/carpet-cleaning/",
+        "/service-areas/benjamin-ut/carpet-cleaning/",
         "/contact/"
       ]
     },
@@ -4870,7 +4929,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/alpine-ut/odor-removal/",
-        "/service-areas/bluffdale-ut/odor-removal/",
+        "/service-areas/benjamin-ut/odor-removal/",
         "/contact/"
       ]
     },
@@ -4914,7 +4973,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/alpine-ut/upholstery-cleaning/",
-        "/service-areas/bluffdale-ut/upholstery-cleaning/",
+        "/service-areas/benjamin-ut/upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -4958,7 +5017,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/alpine-ut/tile-grout-cleaning/",
-        "/service-areas/bluffdale-ut/tile-grout-cleaning/",
+        "/service-areas/benjamin-ut/tile-grout-cleaning/",
         "/contact/"
       ]
     },
@@ -5002,7 +5061,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/alpine-ut/fabric-protection/",
-        "/service-areas/bluffdale-ut/fabric-protection/",
+        "/service-areas/benjamin-ut/fabric-protection/",
         "/contact/"
       ]
     },
@@ -5046,7 +5105,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/alpine-ut/junk-debris-removal/",
-        "/service-areas/bluffdale-ut/junk-debris-removal/",
+        "/service-areas/benjamin-ut/junk-debris-removal/",
         "/contact/"
       ]
     },
@@ -5084,7 +5143,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/alpine-ut/crawl-space-encapsulation/",
-        "/service-areas/bluffdale-ut/crawl-space-encapsulation/",
+        "/service-areas/benjamin-ut/crawl-space-encapsulation/",
         "/contact/"
       ]
     },
@@ -5129,7 +5188,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/bluffdale-ut/water-cleanup/",
+        "/service-areas/benjamin-ut/water-cleanup/",
         "/contact/"
       ]
     },
@@ -18298,7 +18357,7 @@
         "/service-areas/alpine-ut/fire-damage-restoration/",
         "/service-areas/alpine-ut/mold-remediation/",
         "/service-areas/american-fork-ut/water-damage-restoration/",
-        "/service-areas/bluffdale-ut/water-damage-restoration/",
+        "/service-areas/benjamin-ut/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -18342,7 +18401,7 @@
         "/service-areas/alpine-ut/fire-damage-restoration/",
         "/service-areas/alpine-ut/mold-remediation/",
         "/service-areas/american-fork-ut/burst-pipe-repair/",
-        "/service-areas/bluffdale-ut/burst-pipe-repair/",
+        "/service-areas/benjamin-ut/burst-pipe-repair/",
         "/contact/"
       ]
     },
@@ -18386,7 +18445,7 @@
         "/service-areas/alpine-ut/fire-damage-restoration/",
         "/service-areas/alpine-ut/mold-remediation/",
         "/service-areas/american-fork-ut/frozen-pipe-restoration/",
-        "/service-areas/bluffdale-ut/frozen-pipe-restoration/",
+        "/service-areas/benjamin-ut/frozen-pipe-restoration/",
         "/contact/"
       ]
     },
@@ -18430,7 +18489,7 @@
         "/service-areas/alpine-ut/fire-damage-restoration/",
         "/service-areas/alpine-ut/mold-remediation/",
         "/service-areas/american-fork-ut/appliance-leak-cleanup/",
-        "/service-areas/bluffdale-ut/appliance-leak-cleanup/",
+        "/service-areas/benjamin-ut/appliance-leak-cleanup/",
         "/contact/"
       ]
     },
@@ -18474,7 +18533,7 @@
         "/service-areas/alpine-ut/fire-damage-restoration/",
         "/service-areas/alpine-ut/mold-remediation/",
         "/service-areas/american-fork-ut/basement-flooding-cleanup/",
-        "/service-areas/bluffdale-ut/basement-flooding-cleanup/",
+        "/service-areas/benjamin-ut/basement-flooding-cleanup/",
         "/contact/"
       ]
     },
@@ -18518,7 +18577,7 @@
         "/service-areas/alpine-ut/fire-damage-restoration/",
         "/service-areas/alpine-ut/mold-remediation/",
         "/service-areas/american-fork-ut/roof-leak-repair/",
-        "/service-areas/bluffdale-ut/roof-leak-repair/",
+        "/service-areas/benjamin-ut/roof-leak-repair/",
         "/contact/"
       ]
     },
@@ -18562,7 +18621,7 @@
         "/service-areas/alpine-ut/fire-damage-restoration/",
         "/service-areas/alpine-ut/mold-remediation/",
         "/service-areas/american-fork-ut/sewage-cleanup/",
-        "/service-areas/bluffdale-ut/sewage-cleanup/",
+        "/service-areas/benjamin-ut/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -18606,7 +18665,7 @@
         "/service-areas/alpine-ut/fire-damage-restoration/",
         "/service-areas/alpine-ut/mold-remediation/",
         "/service-areas/american-fork-ut/storm-damage-restoration/",
-        "/service-areas/bluffdale-ut/storm-damage-restoration/",
+        "/service-areas/benjamin-ut/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -18650,7 +18709,7 @@
         "/service-areas/alpine-ut/mold-remediation/",
         "/service-areas/alpine-ut/water-damage-restoration/",
         "/service-areas/american-fork-ut/fire-damage-restoration/",
-        "/service-areas/bluffdale-ut/fire-damage-restoration/",
+        "/service-areas/benjamin-ut/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -18694,7 +18753,7 @@
         "/service-areas/alpine-ut/fire-damage-restoration/",
         "/service-areas/alpine-ut/mold-remediation/",
         "/service-areas/american-fork-ut/smoke-damage-restoration/",
-        "/service-areas/bluffdale-ut/smoke-damage-restoration/",
+        "/service-areas/benjamin-ut/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -18738,7 +18797,7 @@
         "/service-areas/alpine-ut/fire-damage-restoration/",
         "/service-areas/alpine-ut/water-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
-        "/service-areas/bluffdale-ut/mold-remediation/",
+        "/service-areas/benjamin-ut/mold-remediation/",
         "/contact/"
       ]
     },
@@ -18782,7 +18841,7 @@
         "/service-areas/alpine-ut/fire-damage-restoration/",
         "/service-areas/alpine-ut/mold-remediation/",
         "/service-areas/american-fork-ut/mold-inspection-testing/",
-        "/service-areas/bluffdale-ut/mold-inspection-testing/",
+        "/service-areas/benjamin-ut/mold-inspection-testing/",
         "/contact/"
       ]
     },
@@ -18826,7 +18885,7 @@
         "/service-areas/alpine-ut/fire-damage-restoration/",
         "/service-areas/alpine-ut/mold-remediation/",
         "/service-areas/american-fork-ut/carpet-cleaning/",
-        "/service-areas/bluffdale-ut/carpet-cleaning/",
+        "/service-areas/benjamin-ut/carpet-cleaning/",
         "/contact/"
       ]
     },
@@ -18870,7 +18929,7 @@
         "/service-areas/alpine-ut/fire-damage-restoration/",
         "/service-areas/alpine-ut/mold-remediation/",
         "/service-areas/american-fork-ut/odor-removal/",
-        "/service-areas/bluffdale-ut/odor-removal/",
+        "/service-areas/benjamin-ut/odor-removal/",
         "/contact/"
       ]
     },
@@ -18914,7 +18973,7 @@
         "/service-areas/alpine-ut/fire-damage-restoration/",
         "/service-areas/alpine-ut/mold-remediation/",
         "/service-areas/american-fork-ut/upholstery-cleaning/",
-        "/service-areas/bluffdale-ut/upholstery-cleaning/",
+        "/service-areas/benjamin-ut/upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -18958,7 +19017,7 @@
         "/service-areas/alpine-ut/fire-damage-restoration/",
         "/service-areas/alpine-ut/mold-remediation/",
         "/service-areas/american-fork-ut/tile-grout-cleaning/",
-        "/service-areas/bluffdale-ut/tile-grout-cleaning/",
+        "/service-areas/benjamin-ut/tile-grout-cleaning/",
         "/contact/"
       ]
     },
@@ -19002,7 +19061,7 @@
         "/service-areas/alpine-ut/fire-damage-restoration/",
         "/service-areas/alpine-ut/mold-remediation/",
         "/service-areas/american-fork-ut/fabric-protection/",
-        "/service-areas/bluffdale-ut/fabric-protection/",
+        "/service-areas/benjamin-ut/fabric-protection/",
         "/contact/"
       ]
     },
@@ -19046,7 +19105,7 @@
         "/service-areas/alpine-ut/fire-damage-restoration/",
         "/service-areas/alpine-ut/mold-remediation/",
         "/service-areas/american-fork-ut/junk-debris-removal/",
-        "/service-areas/bluffdale-ut/junk-debris-removal/",
+        "/service-areas/benjamin-ut/junk-debris-removal/",
         "/contact/"
       ]
     },
@@ -19084,7 +19143,7 @@
         "/service-areas/alpine-ut/fire-damage-restoration/",
         "/service-areas/alpine-ut/mold-remediation/",
         "/service-areas/american-fork-ut/crawl-space-encapsulation/",
-        "/service-areas/bluffdale-ut/crawl-space-encapsulation/",
+        "/service-areas/benjamin-ut/crawl-space-encapsulation/",
         "/contact/"
       ]
     },
@@ -19129,7 +19188,7 @@
         "/service-areas/alpine-ut/fire-damage-restoration/",
         "/service-areas/alpine-ut/mold-remediation/",
         "/service-areas/american-fork-ut/water-cleanup/",
-        "/service-areas/bluffdale-ut/water-cleanup/",
+        "/service-areas/benjamin-ut/water-cleanup/",
         "/contact/"
       ]
     },
@@ -20878,6 +20937,881 @@
         "/service-areas/lake-shore-ut/",
         "/service-areas/lake-shore-ut/fire-damage-restoration/",
         "/service-areas/lake-shore-ut/mold-remediation/",
+        "/service-areas/alpine-ut/water-cleanup/",
+        "/service-areas/american-fork-ut/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/benjamin-ut/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Benjamin, UT | Home Pride Restoration and Cleaning",
+      "h1": "Water Damage Restoration in Benjamin",
+      "meta_description": "24/7 water damage restoration in Benjamin, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "water damage restoration benjamin",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/benjamin-ut/",
+        "/service-areas/benjamin-ut/fire-damage-restoration/",
+        "/service-areas/benjamin-ut/mold-remediation/",
+        "/service-areas/alpine-ut/water-damage-restoration/",
+        "/service-areas/american-fork-ut/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/benjamin-ut/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Benjamin, UT | Home Pride Restoration and Cleaning",
+      "h1": "Burst Pipe Cleanup and Repair in Benjamin",
+      "meta_description": "24/7 burst pipe cleanup and repair in Benjamin, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "burst pipe cleanup and repair benjamin",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/benjamin-ut/",
+        "/service-areas/benjamin-ut/fire-damage-restoration/",
+        "/service-areas/benjamin-ut/mold-remediation/",
+        "/service-areas/alpine-ut/burst-pipe-repair/",
+        "/service-areas/american-fork-ut/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/benjamin-ut/frozen-pipe-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Frozen Pipe Restoration in Benjamin, UT | Home Pride Restoration and Cleaning",
+      "h1": "Frozen Pipe Restoration in Benjamin",
+      "meta_description": "24/7 frozen pipe restoration in Benjamin, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "frozen pipe restoration benjamin",
+      "secondary_keywords": [
+        "frozen pipe damage",
+        "winter pipe burst cleanup",
+        "thawed pipe water damage",
+        "frozen pipe leak repair",
+        "cold weather pipe damage"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/frozen-pipe-restoration/",
+        "/service-areas/benjamin-ut/",
+        "/service-areas/benjamin-ut/fire-damage-restoration/",
+        "/service-areas/benjamin-ut/mold-remediation/",
+        "/service-areas/alpine-ut/frozen-pipe-restoration/",
+        "/service-areas/american-fork-ut/frozen-pipe-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/benjamin-ut/appliance-leak-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Appliance Leak Cleanup in Benjamin, UT | Home Pride Restoration and Cleaning",
+      "h1": "Appliance Leak Cleanup in Benjamin",
+      "meta_description": "24/7 appliance leak cleanup in Benjamin, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "appliance leak cleanup benjamin",
+      "secondary_keywords": [
+        "dishwasher leak cleanup",
+        "washing machine flood",
+        "refrigerator leak cleanup",
+        "water heater leak cleanup",
+        "ice maker line leak"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/appliance-leak-cleanup/",
+        "/service-areas/benjamin-ut/",
+        "/service-areas/benjamin-ut/fire-damage-restoration/",
+        "/service-areas/benjamin-ut/mold-remediation/",
+        "/service-areas/alpine-ut/appliance-leak-cleanup/",
+        "/service-areas/american-fork-ut/appliance-leak-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/benjamin-ut/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in Benjamin, UT | Home Pride Restoration and Cleaning",
+      "h1": "Basement Flooding Cleanup in Benjamin",
+      "meta_description": "24/7 basement flooding cleanup in Benjamin, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "basement flooding cleanup benjamin",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/benjamin-ut/",
+        "/service-areas/benjamin-ut/fire-damage-restoration/",
+        "/service-areas/benjamin-ut/mold-remediation/",
+        "/service-areas/alpine-ut/basement-flooding-cleanup/",
+        "/service-areas/american-fork-ut/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/benjamin-ut/roof-leak-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Roof Leak Cleanup and Repair in Benjamin, UT | Home Pride Restoration and Cleaning",
+      "h1": "Roof Leak Cleanup and Repair in Benjamin",
+      "meta_description": "24/7 roof leak cleanup and repair in Benjamin, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "roof leak cleanup and repair benjamin",
+      "secondary_keywords": [
+        "roof leak cleanup",
+        "ceiling water damage",
+        "attic water damage",
+        "roof leak restoration",
+        "interior roof leak damage"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/roof-leak-repair/",
+        "/service-areas/benjamin-ut/",
+        "/service-areas/benjamin-ut/fire-damage-restoration/",
+        "/service-areas/benjamin-ut/mold-remediation/",
+        "/service-areas/alpine-ut/roof-leak-repair/",
+        "/service-areas/american-fork-ut/roof-leak-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/benjamin-ut/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Benjamin, UT | Home Pride Restoration and Cleaning",
+      "h1": "Sewage Cleanup and Sanitization in Benjamin",
+      "meta_description": "24/7 sewage cleanup and sanitization in Benjamin, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "sewage cleanup and sanitization benjamin",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/benjamin-ut/",
+        "/service-areas/benjamin-ut/fire-damage-restoration/",
+        "/service-areas/benjamin-ut/mold-remediation/",
+        "/service-areas/alpine-ut/sewage-cleanup/",
+        "/service-areas/american-fork-ut/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/benjamin-ut/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Benjamin, UT | Home Pride Restoration and Cleaning",
+      "h1": "Storm Damage Restoration in Benjamin",
+      "meta_description": "24/7 storm damage restoration in Benjamin, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "storm damage restoration benjamin",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/benjamin-ut/",
+        "/service-areas/benjamin-ut/fire-damage-restoration/",
+        "/service-areas/benjamin-ut/mold-remediation/",
+        "/service-areas/alpine-ut/storm-damage-restoration/",
+        "/service-areas/american-fork-ut/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/benjamin-ut/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Benjamin, UT | Home Pride Restoration and Cleaning",
+      "h1": "Fire Damage Restoration in Benjamin",
+      "meta_description": "24/7 fire damage restoration in Benjamin, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "fire damage restoration benjamin",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/benjamin-ut/",
+        "/service-areas/benjamin-ut/mold-remediation/",
+        "/service-areas/benjamin-ut/water-damage-restoration/",
+        "/service-areas/alpine-ut/fire-damage-restoration/",
+        "/service-areas/american-fork-ut/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/benjamin-ut/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Benjamin, UT | Home Pride Restoration and Cleaning",
+      "h1": "Smoke Damage Restoration in Benjamin",
+      "meta_description": "24/7 smoke damage restoration in Benjamin, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "smoke damage restoration benjamin",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/benjamin-ut/",
+        "/service-areas/benjamin-ut/fire-damage-restoration/",
+        "/service-areas/benjamin-ut/mold-remediation/",
+        "/service-areas/alpine-ut/smoke-damage-restoration/",
+        "/service-areas/american-fork-ut/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/benjamin-ut/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Benjamin, UT | Home Pride Restoration and Cleaning",
+      "h1": "Mold Remediation in Benjamin",
+      "meta_description": "24/7 mold remediation in Benjamin, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "mold remediation benjamin",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/benjamin-ut/",
+        "/service-areas/benjamin-ut/fire-damage-restoration/",
+        "/service-areas/benjamin-ut/water-damage-restoration/",
+        "/service-areas/alpine-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/benjamin-ut/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Benjamin, UT | Home Pride Restoration and Cleaning",
+      "h1": "Mold Inspection and Testing in Benjamin",
+      "meta_description": "24/7 mold inspection and testing in Benjamin, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "mold inspection and testing benjamin",
+      "secondary_keywords": [
+        "mold inspection",
+        "mold testing",
+        "indoor air quality testing",
+        "mold spore testing",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/benjamin-ut/",
+        "/service-areas/benjamin-ut/fire-damage-restoration/",
+        "/service-areas/benjamin-ut/mold-remediation/",
+        "/service-areas/alpine-ut/mold-inspection-testing/",
+        "/service-areas/american-fork-ut/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/benjamin-ut/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Benjamin, UT | Home Pride Restoration and Cleaning",
+      "h1": "Carpet Cleaning in Benjamin",
+      "meta_description": "24/7 carpet cleaning in Benjamin, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "carpet cleaning benjamin",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/benjamin-ut/",
+        "/service-areas/benjamin-ut/fire-damage-restoration/",
+        "/service-areas/benjamin-ut/mold-remediation/",
+        "/service-areas/alpine-ut/carpet-cleaning/",
+        "/service-areas/american-fork-ut/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/benjamin-ut/odor-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Odor Removal and Deodorization in Benjamin, UT | Home Pride Restoration and Cleaning",
+      "h1": "Odor Removal and Deodorization in Benjamin",
+      "meta_description": "24/7 odor removal and deodorization in Benjamin, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "odor removal and deodorization benjamin",
+      "secondary_keywords": [
+        "smoke odor removal",
+        "ozone treatment",
+        "hydroxyl deodorization",
+        "thermal fogging",
+        "professional odor elimination"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/odor-removal/",
+        "/service-areas/benjamin-ut/",
+        "/service-areas/benjamin-ut/fire-damage-restoration/",
+        "/service-areas/benjamin-ut/mold-remediation/",
+        "/service-areas/alpine-ut/odor-removal/",
+        "/service-areas/american-fork-ut/odor-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/benjamin-ut/upholstery-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Upholstery Cleaning in Benjamin, UT | Home Pride Restoration and Cleaning",
+      "h1": "Upholstery Cleaning in Benjamin",
+      "meta_description": "24/7 upholstery cleaning in Benjamin, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "upholstery cleaning benjamin",
+      "secondary_keywords": [
+        "sofa cleaning",
+        "couch cleaning",
+        "furniture steam cleaning",
+        "leather upholstery cleaning",
+        "fabric upholstery cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/upholstery-cleaning/",
+        "/service-areas/benjamin-ut/",
+        "/service-areas/benjamin-ut/fire-damage-restoration/",
+        "/service-areas/benjamin-ut/mold-remediation/",
+        "/service-areas/alpine-ut/upholstery-cleaning/",
+        "/service-areas/american-fork-ut/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/benjamin-ut/tile-grout-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Tile & Grout Cleaning in Benjamin, UT | Home Pride Restoration and Cleaning",
+      "h1": "Tile & Grout Cleaning in Benjamin",
+      "meta_description": "24/7 tile & grout cleaning in Benjamin, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "tile & grout cleaning benjamin",
+      "secondary_keywords": [
+        "grout cleaning",
+        "tile cleaning",
+        "grout sealing",
+        "grout restoration",
+        "floor tile cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/tile-grout-cleaning/",
+        "/service-areas/benjamin-ut/",
+        "/service-areas/benjamin-ut/fire-damage-restoration/",
+        "/service-areas/benjamin-ut/mold-remediation/",
+        "/service-areas/alpine-ut/tile-grout-cleaning/",
+        "/service-areas/american-fork-ut/tile-grout-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/benjamin-ut/fabric-protection/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fabric Protection in Benjamin, UT | Home Pride Restoration and Cleaning",
+      "h1": "Fabric Protection in Benjamin",
+      "meta_description": "24/7 fabric protection in Benjamin, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "fabric protection benjamin",
+      "secondary_keywords": [
+        "carpet protection",
+        "upholstery protection",
+        "stain guard",
+        "scotchgard application",
+        "fabric stain protection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fabric-protection/",
+        "/service-areas/benjamin-ut/",
+        "/service-areas/benjamin-ut/fire-damage-restoration/",
+        "/service-areas/benjamin-ut/mold-remediation/",
+        "/service-areas/alpine-ut/fabric-protection/",
+        "/service-areas/american-fork-ut/fabric-protection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/benjamin-ut/junk-debris-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Junk & Debris Removal in Benjamin, UT | Home Pride Restoration and Cleaning",
+      "h1": "Junk & Debris Removal in Benjamin",
+      "meta_description": "24/7 junk & debris removal in Benjamin, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "junk & debris removal benjamin",
+      "secondary_keywords": [
+        "junk removal",
+        "debris removal",
+        "house cleanout",
+        "garage cleanout",
+        "hauling services"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/junk-debris-removal/",
+        "/service-areas/benjamin-ut/",
+        "/service-areas/benjamin-ut/fire-damage-restoration/",
+        "/service-areas/benjamin-ut/mold-remediation/",
+        "/service-areas/alpine-ut/junk-debris-removal/",
+        "/service-areas/american-fork-ut/junk-debris-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/benjamin-ut/crawl-space-encapsulation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Encapsulation in Benjamin, UT | Home Pride Restoration and Cleaning",
+      "h1": "Crawl Space Encapsulation in Benjamin",
+      "meta_description": "24/7 crawl space encapsulation in Benjamin, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "crawl space encapsulation benjamin",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/benjamin-ut/",
+        "/service-areas/benjamin-ut/fire-damage-restoration/",
+        "/service-areas/benjamin-ut/mold-remediation/",
+        "/service-areas/alpine-ut/crawl-space-encapsulation/",
+        "/service-areas/american-fork-ut/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/benjamin-ut/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Benjamin, UT | Home Pride Restoration and Cleaning",
+      "h1": "Emergency Water Cleanup in Benjamin",
+      "meta_description": "24/7 emergency water cleanup in Benjamin, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "emergency water cleanup benjamin",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/benjamin-ut/",
+        "/service-areas/benjamin-ut/fire-damage-restoration/",
+        "/service-areas/benjamin-ut/mold-remediation/",
         "/service-areas/alpine-ut/water-cleanup/",
         "/service-areas/american-fork-ut/water-cleanup/",
         "/contact/"

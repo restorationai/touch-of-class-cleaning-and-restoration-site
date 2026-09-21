@@ -399,6 +399,11 @@
       "city": "Sachse",
       "state": "TX",
       "slug": "sachse-tx"
+    },
+    {
+      "city": "Lucas",
+      "state": "TX",
+      "slug": "lucas-tx"
     }
   ],
   "template": "restoration",

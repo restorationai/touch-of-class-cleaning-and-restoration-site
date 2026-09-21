@@ -139,6 +139,11 @@
       "city": "New Hope",
       "state": "AL",
       "slug": "new-hope-al"
+    },
+    {
+      "city": "Ardmore",
+      "state": "AL",
+      "slug": "ardmore-al"
     }
   ],
   "brand": {
