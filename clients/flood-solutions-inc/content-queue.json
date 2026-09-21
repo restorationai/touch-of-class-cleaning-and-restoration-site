@@ -259,6 +259,222 @@
           "reason": "claims 86 reviews but no synced gbpReviewCount exists for this site"
         }
       ]
+    },
+    {
+      "id": "2026-09-21-water-damage-restoration-cost-macomb",
+      "status": "written",
+      "queued_at": "2026-09-21T16:50:00Z",
+      "written_at": "2026-09-21T16:56:53Z",
+      "post_url": "https://floodsolutionsinc.com/blog/water-damage-restoration-cost-macomb-mi/",
+      "primary_keyword": "water damage restoration cost",
+      "intent": "commercial",
+      "volume": 720,
+      "kd": 0,
+      "fan_out_cluster": [
+        "water damage restoration cost per square foot",
+        "average cost of water damage restoration",
+        "how much does water damage restoration cost",
+        "water damage restoration cost calculator",
+        "water damage restoration prices",
+        "cost of water damage restoration"
+      ],
+      "suggested_slug": "water-damage-restoration-cost-macomb-mi",
+      "suggested_title": "Water damage restoration cost in Macomb, MI: what homeowners actually pay",
+      "target_word_count": 1800,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/water-cleanup/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": "macomb-mi",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Highest-value uncovered term in the run: 720/mo at KD 0 with a 43.02 CPC. Break cost out by loss size (single room, finished basement, whole first floor), by water category, and by the line items an insurer expects to see (extraction, structural drying, antimicrobial, reconstruction). Give real dollar ranges, not a lead-gen dodge, then explain what shifts a quote up or down. Include a per-square-foot table to absorb the cost-per-square-foot and cost-calculator variations.",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-macomb-mi.md",
+          "part": "body",
+          "family": "service-scope",
+          "severity": "review",
+          "matched": "mold remediation",
+          "context": "ndetected for more than 48 to 72 hours, mold remediation may be required in addition to water mi",
+          "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-macomb-mi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "finitions behind these categories, the [IICRC S500 Standard for Professional Water Da",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-macomb-mi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "is required by most insurers and by the IICRC S500 protocol for Category 2 and Catego",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-macomb-mi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "ed block walls. **Class of loss.** The IICRC S500 defines four classes of water intr",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-21-category-3-water-damage",
+      "status": "queued",
+      "queued_at": "2026-09-21T16:50:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "category 3 water damage",
+      "intent": "informational",
+      "volume": 390,
+      "kd": 0,
+      "fan_out_cluster": [
+        "category 1 2 and 3 water damage",
+        "black water damage",
+        "what is category 3 water",
+        "sewage water damage category",
+        "iicrc water damage categories",
+        "category 3 water damage cleanup"
+      ],
+      "suggested_slug": "category-3-water-damage-sterling-heights-mi",
+      "suggested_title": "Category 3 water damage explained for Sterling Heights homeowners",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/service-areas/sterling-heights-mi/water-damage-restoration/",
+        "/services/water-cleanup/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": "sterling-heights-mi",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.epa.gov/mold"
+      ],
+      "notes": "390/mo at KD 0 and a 58.79 CPC: category education is where panicked homeowners land before they call. Lead with the three IICRC categories side by side, then make clear why category 3 (sewage, rising floodwater, standing water gone stale) is never a DIY job and why porous materials get removed rather than dried. Keep the tone calm and factual, not alarmist."
+    },
+    {
+      "id": "2026-09-21-sump-pump-failure-insurance-macomb",
+      "status": "queued",
+      "queued_at": "2026-09-21T16:50:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover sump pump failure",
+      "intent": "informational",
+      "volume": 50,
+      "kd": 2,
+      "fan_out_cluster": [
+        "does insurance cover sewer backup",
+        "water backup coverage endorsement",
+        "sump pump failure insurance michigan",
+        "does insurance cover basement flooding",
+        "sewer backup coverage michigan",
+        "how much does a water backup rider cost"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-sump-pump-failure-macomb",
+      "suggested_title": "Does homeowners insurance cover sump pump failure in Macomb County?",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/water-cleanup/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": "macomb-mi",
+      "external_authority_candidates": [
+        "https://www.michigan.gov/difs",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Distinct from the existing general insurance post: a standard Michigan homeowners policy excludes sump pump overflow and sewer backup unless the owner bought a water backup endorsement. Cite Michigan DIFS on that split. Macomb County is sump pump country with a clay-soil water table, so this is the single most locally relevant insurance question. Answer the coverage question in the first 60 words so AI engines can lift it, then cover endorsement cost, claim steps, and documentation."
+    },
+    {
+      "id": "2026-09-21-what-causes-basement-flooding-michigan",
+      "status": "queued",
+      "queued_at": "2026-09-21T16:50:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what causes basement flooding in michigan",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "clay soil basement flooding michigan",
+        "storm sewer backup macomb county",
+        "sump pump failure basement flood",
+        "frozen pipe basement flooding michigan",
+        "spring thaw basement flooding",
+        "why does my basement flood when it rains"
+      ],
+      "suggested_slug": "what-causes-basement-flooding-michigan-macomb",
+      "suggested_title": "What causes basement flooding in Michigan (and what Macomb homeowners can do about it)",
+      "target_word_count": 1700,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/water-cleanup/",
+        "/blog/basement-flooding-prevention/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": "macomb-mi",
+      "external_authority_candidates": [
+        "https://www.michigan.gov/difs",
+        "https://www.epa.gov/mold"
+      ],
+      "notes": "No measured Google volume, surfaced by the ChatGPT decomposition and scored intent-first per the GEO rule. Southeast Michigan has a specific causal stack worth naming: heavy clay soil that sheds water toward foundations, combined storm and sanitary sewers that surcharge in summer downpours, spring thaw over still-frozen ground, and sump pump failure during the power cuts that come with the same storms. Pair causes with fixes, and link to the existing prevention post rather than repeating it."
+    },
+    {
+      "id": "2026-09-21-water-damage-restoration-process-steps",
+      "status": "queued",
+      "queued_at": "2026-09-21T16:50:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water damage restoration process steps",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "water damage restoration process",
+        "water extraction and structural drying",
+        "how do you know when a house is completely dry",
+        "when to replace drywall after water damage",
+        "moisture mapping water damage",
+        "water damage restoration equipment"
+      ],
+      "suggested_slug": "water-damage-restoration-process-steps-clinton-township",
+      "suggested_title": "The water damage restoration process steps, start to finish (Clinton Township, MI)",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/service-areas/clinton-township-mi/water-damage-restoration/",
+        "/services/water-cleanup/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": "clinton-township-mi",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "A numbered process explainer is the passage format AI engines lift verbatim, which is the whole point of queueing a term with no measured volume. Walk the real IICRC S500 sequence: emergency contact and make-safe, inspection and moisture mapping, extraction, demolition of unsalvageable porous materials, structural drying with air movers and dehumidifiers, daily moisture readings to dry standard, then reconstruction. Absorb the drywall-replacement and how-do-you-know-it-is-dry questions as their own H2s."
     }
   ]
 }
