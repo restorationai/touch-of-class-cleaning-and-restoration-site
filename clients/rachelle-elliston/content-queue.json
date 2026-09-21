@@ -292,7 +292,7 @@
     },
     {
       "id": "2026-09-21-emergency-mold-remediation",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-21T17:32:00Z",
       "written_at": null,
       "post_url": null,
@@ -326,7 +326,8 @@
       "external_authority_candidates": [
         "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
       ],
-      "notes": "$76.51 CPC, the most expensive keyword with real volume in this run, and the brand already advertises 24/7 response, so the claim is honest. Frame around the trigger events that make mold urgent rather than routine: an undetected slab leak (endemic in Las Vegas valley slab-on-grade housing), a supply line that ran overnight, sewage backup, and any standing water past the 24-48 hour mark. Use the 24-48 hour colonization window as the argument. Sewage-cleanup is in the truth table, so category 3 water can be named as a same-day trigger. Answer the local objection head on: yes, mold grows in Las Vegas, because the water comes from inside the building, not the air."
+      "notes": "$76.51 CPC, the most expensive keyword with real volume in this run, and the brand already advertises 24/7 response, so the claim is honest. Frame around the trigger events that make mold urgent rather than routine: an undetected slab leak (endemic in Las Vegas valley slab-on-grade housing), a supply line that ran overnight, sewage backup, and any standing water past the 24-48 hour mark. Use the 24-48 hour colonization window as the argument. Sewage-cleanup is in the truth table, so category 3 water can be named as a same-day trigger. Answer the local objection head on: yes, mold grows in Las Vegas, because the water comes from inside the building, not the air.",
+      "banked_at": "2026-09-21T22:24:17.183225+00:00"
     }
   ]
 }

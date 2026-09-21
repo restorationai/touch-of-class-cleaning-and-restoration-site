@@ -182,7 +182,7 @@
     },
     {
       "id": "2026-09-03-mold-air-test",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-03T19:32:00Z",
       "written_at": null,
       "post_url": null,
@@ -216,11 +216,12 @@
       ],
       "notes": "Lead with the EPA and CDPH position that sampling is not automatically necessary when mold is already visible and the moisture source is known: that honesty is the trust hook for an inspection-only firm. Brand holds the NIOSH 582 microscopist credential, so the lab-analysis section can go deeper than competitors. Explain spore counts, indoor-versus-outdoor control samples, and why a report without a moisture finding is incomplete.",
       "source": "keyword-researcher",
-      "seed": "mold inspection"
+      "seed": "mold inspection",
+      "banked_at": "2026-09-21T22:24:17.175447+00:00"
     },
     {
       "id": "2026-09-03-how-to-get-a-free-mold-inspection",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-03T19:32:00Z",
       "written_at": null,
       "post_url": null,
@@ -254,11 +255,12 @@
       ],
       "notes": "The free-inspection cluster carries CPCs of $13 to $28, so competitors are paying real money here. Angle straight from the ChatGPT answer: when the company doing the free inspection also sells the remediation, it has an incentive to find a problem. Cover the legitimate free routes (insurance adjuster visit, landlord obligation, some county programs) and position the paid independent inspection with a written report as the cheaper outcome. Avoid promising a free inspection the client does not offer.",
       "source": "keyword-researcher",
-      "seed": "mold inspection"
+      "seed": "mold inspection",
+      "banked_at": "2026-09-21T22:24:17.175455+00:00"
     },
     {
       "id": "2026-09-03-what-happens-during-a-mold-inspection",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-03T19:32:00Z",
       "written_at": null,
       "post_url": null,
@@ -292,7 +294,8 @@
       ],
       "notes": "Low Google volume, high AI-retrieval value: ChatGPT structured its entire mold-inspection answer around this sequence (interview and history, visual inspection, moisture meter and thermal imaging, hidden-source investigation, sampling only if warranted, written report). Mirror those six stages as H2s so the passages are liftable. Add a Kingsburg and Fresno County note on what inspectors check in slab-on-grade homes and swamp-cooler humidity.",
       "source": "keyword-researcher",
-      "seed": "mold inspection"
+      "seed": "mold inspection",
+      "banked_at": "2026-09-21T22:24:17.175459+00:00"
     },
     {
       "id": "2026-09-03-does-homeowners-insurance-cover-mold-testing",
@@ -500,7 +503,7 @@
     },
     {
       "id": "2026-09-21-diy-air-quality-testing-vs-professional",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-21T17:55:00Z",
       "written_at": null,
       "post_url": null,
@@ -535,11 +538,12 @@
       ],
       "notes": "Keep this post on air, VOC and formaldehyde kits. The existing /blog/diy-mold-test-kits-vs-professional-inspection/ owns the mold-kit comparison, so link to it instead of re-arguing it (cannibalization risk). Core argument: a DIY kit gives you a number with no baseline, no outdoor control sample, no chain of custody, and no interpretation, which is exactly what a landlord, insurer, or buyer will ask for. Say plainly where a kit is fine (curiosity, screening) and where it is not (a dispute, a health complaint, a transaction).",
       "source": "keyword-researcher",
-      "seed": "indoor air quality testing"
+      "seed": "indoor air quality testing",
+      "banked_at": "2026-09-21T22:24:17.175463+00:00"
     },
     {
       "id": "2026-09-21-test-indoor-air-quality-for-mold",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-21T17:55:00Z",
       "written_at": null,
       "post_url": null,
@@ -575,7 +579,8 @@
       ],
       "notes": "The musty-smell, nothing-visible entry point, which is the most common first call in this vertical. Explain spore trap air sampling, why an outdoor control sample is mandatory for the indoor result to mean anything, and how to read elevated Aspergillus/Penicillium counts. Distinct from the existing air-vs-surface-sampling post: that one compares methods, this one starts from the symptom. Clovis and Fresno County note: evaporative coolers and crawl spaces are the usual hidden sources.",
       "source": "keyword-researcher",
-      "seed": "indoor air quality testing"
+      "seed": "indoor air quality testing",
+      "banked_at": "2026-09-21T22:24:17.175466+00:00"
     }
   ]
 }

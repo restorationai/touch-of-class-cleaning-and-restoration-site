@@ -1066,7 +1066,7 @@
     },
     {
       "id": "2026-08-26-home-addition-ideas",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-26T22:55:00Z",
       "written_at": null,
       "post_url": null,
@@ -1099,8 +1099,7 @@
       "external_authority_candidates": [
         "https://www.nahb.org/"
       ],
-      "notes": "Top-of-funnel inspiration piece that feeds the whole addition cluster. Organize by addition type (bump-out, sunroom, master suite, second story, garage conversion, in-law suite) and note which suit the 1970s-80s brick ranches common in Athens and Madison versus newer HOA subdivisions with architectural review.",
-      "banked_at": "2026-09-19T10:23:53.719968+00:00"
+      "notes": "Top-of-funnel inspiration piece that feeds the whole addition cluster. Organize by addition type (bump-out, sunroom, master suite, second story, garage conversion, in-law suite) and note which suit the 1970s-80s brick ranches common in Athens and Madison versus newer HOA subdivisions with architectural review."
     },
     {
       "id": "2026-08-26-cheapest-way-to-add-addition-to-house",

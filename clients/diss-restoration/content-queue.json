@@ -705,7 +705,7 @@
     },
     {
       "id": "2026-09-21-does-homeowners-insurance-cover-fire-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-21T17:25:00Z",
       "written_at": null,
       "post_url": null,
@@ -739,11 +739,12 @@
         "https://www.usfa.fema.gov/prevention/home-fires/after-a-fire/"
       ],
       "notes": "National policy explainer, so leave it unanchored. Cover dwelling vs contents vs loss of use, smoke and soot damage without visible flame, and the water damage firefighters cause (usually covered under the same claim). Frame everything as what to ask your adjuster, never as a coverage promise. Pairs with the water damage insurance post rather than repeating it.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-21T22:24:17.178744+00:00"
     },
     {
       "id": "2026-09-21-what-to-do-after-a-house-fire",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-21T17:25:00Z",
       "written_at": null,
       "post_url": null,
@@ -779,11 +780,12 @@
         "https://www.redcross.org/get-help/disaster-relief-and-recovery-services/recovering-from-a-fire.html"
       ],
       "notes": "Highest-urgency page in this seed family and the site has nothing on it yet. Sequence it hour by hour: fire marshal release, utility shutoff, board-up and tarping before the first rain, insurance first notice of loss, then contents pack-out. Warn against re-entry before clearance (structural and air quality). DISS is IICRC FSRT certified and runs 24/7, lead the CTA with that.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-21T22:24:17.178750+00:00"
     },
     {
       "id": "2026-09-21-smoke-odor-removal",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-21T17:25:00Z",
       "written_at": null,
       "post_url": null,
@@ -819,11 +821,12 @@
         "https://www.iicrc.org/page/IICRCS700"
       ],
       "notes": "Biggest volume gap in the fire family (1600/mo, KD 18, no page targets it). The hook: odor is trapped in porous materials and the HVAC system, so surface cleaning and air fresheners only mask it. Explain sealing, thermal fogging, hydroxyl vs ozone, and duct decontamination. Tie to the air duct cleaning service page, that cross-sell is real revenue.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-21T22:24:17.178753+00:00"
     },
     {
       "id": "2026-09-21-fire-damage-restoration-cost",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-21T17:25:00Z",
       "written_at": null,
       "post_url": null,
@@ -859,11 +862,12 @@
         "https://www.usfa.fema.gov/statistics/"
       ],
       "notes": "KD 1 with real commercial intent, easy win. Give banded ranges (small kitchen fire, single room, whole structure) and cost-per-square-foot, then explain the drivers: soot type, smoke travel, structural repairs, contents pack-out. Be explicit that estimates come after inspection and that most of this is billed to the carrier, not the homeowner. No fabricated local averages, keep ranges sourced and clearly labeled as ranges.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-21T22:24:17.178754+00:00"
     },
     {
       "id": "2026-09-21-soot-removal",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-21T17:25:00Z",
       "written_at": null,
       "post_url": null,
@@ -899,7 +903,8 @@
         "https://www.iicrc.org/page/IICRCS700"
       ],
       "notes": "KD 0, CPC over $40, nothing on the site targets it. Angle: soot is acidic and oily, so a wet rag drives it into drywall and grout permanently. Cover dry chemical sponge technique, protein vs wet vs dry smoke residues, furnace puff back (a common Mercer County winter call), and health risk of fine particulate. Hermitage anchor keeps the PA side of the footprint fed.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-21T22:24:17.178756+00:00"
     }
   ]
 }

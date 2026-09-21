@@ -238,7 +238,7 @@
     },
     {
       "id": "2026-09-21-how-much-does-a-general-contractor-charge-pittsburgh",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-21T16:40:00Z",
       "written_at": null,
       "post_url": null,
@@ -269,11 +269,12 @@
         "https://www.nahb.org/",
         "https://www.attorneygeneral.gov/businesses-and-organizations/home-improvement-contractor-registration/frequently-asked-questions/"
       ],
-      "notes": "Lead with a fee table: percentage-of-cost range, cost-plus, and fixed-fee, then a Pittsburgh project-size cost band. Explain what the fee actually buys (scheduling, subs, permits, inspections, warranty). Pair with the general contracting service page."
+      "notes": "Lead with a fee table: percentage-of-cost range, cost-plus, and fixed-fee, then a Pittsburgh project-size cost band. Explain what the fee actually buys (scheduling, subs, permits, inspections, warranty). Pair with the general contracting service page.",
+      "banked_at": "2026-09-21T22:24:17.181228+00:00"
     },
     {
       "id": "2026-09-21-what-does-a-general-contractor-do-pittsburgh",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-21T16:40:00Z",
       "written_at": null,
       "post_url": null,
@@ -304,11 +305,12 @@
         "https://www.pa.gov/agencies/dli/programs-services/labor-management-relations/bureau-of-occupational-and-industrial-safety/uniform-construction-code-home/contractor-licensing",
         "https://www.nahb.org/"
       ],
-      "notes": "Highest-volume term in the whole fan-out (5,400/mo, KD 2). Structure as a plain definition passage up top so AI engines can lift it, then a GC vs subcontractor comparison table, then a 'when you do not need one' section for honesty."
+      "notes": "Highest-volume term in the whole fan-out (5,400/mo, KD 2). Structure as a plain definition passage up top so AI engines can lift it, then a GC vs subcontractor comparison table, then a 'when you do not need one' section for honesty.",
+      "banked_at": "2026-09-21T22:24:17.181234+00:00"
     },
     {
       "id": "2026-09-21-how-to-find-a-good-general-contractor-greensburg-pa",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-21T16:40:00Z",
       "written_at": null,
       "post_url": null,
@@ -339,11 +341,12 @@
         "https://www.attorneygeneral.gov/businesses-and-organizations/home-improvement-contractor-registration/frequently-asked-questions/",
         "https://www.pittsburghpa.gov/Business-Development/Permits-Licenses-and-Inspections/Licenses/Contractor-Licenses/General-Contractor-Licenses"
       ],
-      "notes": "Anchored to Greensburg because 'general contractor greensburg pa' shows real standalone demand (90/mo, KD 0) outside the city core. Build it around the PA Home Improvement Contractor registry lookup: that is the single most liftable answer passage."
+      "notes": "Anchored to Greensburg because 'general contractor greensburg pa' shows real standalone demand (90/mo, KD 0) outside the city core. Build it around the PA Home Improvement Contractor registry lookup: that is the single most liftable answer passage.",
+      "banked_at": "2026-09-21T22:24:17.181236+00:00"
     },
     {
       "id": "2026-09-21-do-i-need-a-permit-to-remodel-house-pittsburgh",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-21T16:40:00Z",
       "written_at": null,
       "post_url": null,
@@ -374,11 +377,12 @@
         "https://www.pittsburghpa.gov/Business-Development/Permits-Licenses-and-Inspections/Permitting",
         "https://www.pa.gov/agencies/dli/programs-services/labor-management-relations/bureau-of-occupational-and-industrial-safety/uniform-construction-code-home/contractor-licensing"
       ],
-      "notes": "No Google volume record, but the ChatGPT decomposition spent a full section on Pittsburgh permits and inspections: this is AI-search demand that Google volume does not measure. Use a trigger table (what needs a permit vs what does not) and cite the city permit fee schedule."
+      "notes": "No Google volume record, but the ChatGPT decomposition spent a full section on Pittsburgh permits and inspections: this is AI-search demand that Google volume does not measure. Use a trigger table (what needs a permit vs what does not) and cite the city permit fee schedule.",
+      "banked_at": "2026-09-21T22:24:17.181238+00:00"
     },
     {
       "id": "2026-09-21-cost-to-renovate-a-house-pittsburgh",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-21T16:40:00Z",
       "written_at": null,
       "post_url": null,
@@ -409,7 +413,8 @@
         "https://www.nahb.org/",
         "https://www.pittsburghpa.gov/Business-Development/Permits-Licenses-and-Inspections/Permitting"
       ],
-      "notes": "Pittsburgh's older housing stock (knob-and-tube, plaster, settled foundations) is the local angle that national cost calculators miss. Lead with a cost table by project type, then a contingency section. Strongest internal-link magnet for the general contracting service page."
+      "notes": "Pittsburgh's older housing stock (knob-and-tube, plaster, settled foundations) is the local angle that national cost calculators miss. Lead with a cost table by project type, then a contingency section. Strongest internal-link magnet for the general contracting service page.",
+      "banked_at": "2026-09-21T22:24:17.181239+00:00"
     }
   ]
 }

@@ -517,7 +517,7 @@
     },
     {
       "id": "2026-08-17-how-much-does-a-plumber-cost-to-fix-a-pipe",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-17T17:38:35Z",
       "written_at": null,
       "post_url": null,
@@ -555,11 +555,12 @@
         "https://www.epa.gov/watersense/fix-leak-week"
       ],
       "notes": "Absorbs the sibling term 'how much does a plumber cost to fix a leak' (90/mo, KD 16), which is parked at priority 2 in the bank rather than queued so the two do not cannibalise. Price by three axes: pipe material (galvanized, copper, PEX, cast iron), location (accessible, in-wall, under slab), and access cost, because access is usually the bigger line item. Two strong local hooks: pre-1970 homes in Oleander, Westchester and East Bakersfield still run galvanized supply, and Tehachapi at 4,000 ft is the one service-area city that actually freezes and bursts pipes. Include the repair-vs-repipe decision point. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor) and link the CSLB lookup. SCOPE GATE: stay on stopping the water and fixing the pipe. Do not mention mold remediation, structural drying or reconstruction (restoration vertical, sister company ProRestoration Services).",
-      "source": "rank-ai-keyword-researcher"
+      "source": "rank-ai-keyword-researcher",
+      "banked_at": "2026-09-21T22:24:17.174345+00:00"
     },
     {
       "id": "2026-08-17-do-plumbers-give-free-estimates",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-17T17:38:35Z",
       "written_at": null,
       "post_url": null,
@@ -594,7 +595,8 @@
         "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
       ],
       "notes": "Trust and pricing-transparency topic that also captures the transactional 'plumber near me free estimate' cluster (2,900/mo) which has no commercial page of its own. Explain the real distinction honestly: a quote on visible, straightforward work is usually free, while diagnostic work that takes time and equipment (leak detection, camera inspection) normally carries a fee that is often credited to the repair. Complements /blog/how-to-find-a-good-plumber/ (vetting) and /blog/how-much-does-a-plumber-cost-per-hour/ (rates) rather than repeating them. Do not state All Pro's own estimate policy unless it is confirmed in plan-input. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor) and link the CSLB lookup. SCOPE GATE: stay on stopping the water and fixing the pipe. Do not mention mold remediation, structural drying or reconstruction (restoration vertical, sister company ProRestoration Services).",
-      "source": "rank-ai-keyword-researcher"
+      "source": "rank-ai-keyword-researcher",
+      "banked_at": "2026-09-21T22:24:17.174360+00:00"
     },
     {
       "id": "2026-08-26-should-i-tip-a-plumber",
@@ -635,7 +637,7 @@
     },
     {
       "id": "2026-08-26-how-much-does-an-emergency-plumber-cost",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T13:45:00Z",
       "written_at": null,
       "post_url": null,
@@ -671,11 +673,12 @@
         "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
       ],
       "notes": "$41 CPC on a KD 0 keyword: the ads side pays real money for this intent and nothing on the site answers it. Structure it as fee anatomy (call-out/trip fee, after-hours multiplier, diagnostic time, then the repair itself) with honest ranges rather than one made-up number, and give the shut-off-the-water step before any pricing so the page earns the AI-answer slot. 24/7 claims ARE allowed for this brand (plan-input brand.hours = 24/7). Pairs with /blog/how-much-does-a-plumber-cost-per-hour/ (day rates) and /blog/what-to-do-burst-pipe/ (the emergency itself): link both, do not restate them. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor you hire) and link the CSLB lookup. SCOPE GATE: stay on stopping the water and fixing the pipe. Do not mention mold remediation, structural drying or reconstruction (restoration vertical, sister company ProRestoration Services).",
-      "source": "rank-ai-keyword-researcher"
+      "source": "rank-ai-keyword-researcher",
+      "banked_at": "2026-09-21T22:24:17.174363+00:00"
     },
     {
       "id": "2026-08-26-how-to-hire-a-licensed-plumber",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T13:45:00Z",
       "written_at": null,
       "post_url": null,
@@ -713,11 +716,12 @@
         "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/CheckLicense.aspx"
       ],
       "notes": "8,100/mo at KD 26 with $25.75 CPC and no commercial page targeting it. Write the how-to-verify walkthrough: CSLB license lookup by number or business name, C-36 classification, workers comp and bond status, why the license matters most on permitted work (repipe, sewer replacement, gas line, water heater changeout). This is the vetting-mechanics post; /blog/how-to-find-a-good-plumber/ is the soft-skills vetting post and the two must cross-link, not overlap. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor you hire) and link the CSLB lookup.",
-      "source": "rank-ai-keyword-researcher"
+      "source": "rank-ai-keyword-researcher",
+      "banked_at": "2026-09-21T22:24:17.174368+00:00"
     },
     {
       "id": "2026-08-26-plumbing-contractor-vs-plumber",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T13:45:00Z",
       "written_at": null,
       "post_url": null,
@@ -752,7 +756,8 @@
         "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
       ],
       "notes": "6,600/mo at KD 12, uncovered. Scope-and-permits angle, deliberately kept off the license-verification angle in the sibling 'licensed plumber' post: apprentice/journeyman/master tiers, what a contracting entity carries that an individual tech does not, and a plain table of Kern County job types that need a permit and inspection versus same-day handyman-scale fixes. Absorbs the 'plumber vs handyman' cluster (20/mo but constant in AI answers). LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor you hire) and link the CSLB lookup.",
-      "source": "rank-ai-keyword-researcher"
+      "source": "rank-ai-keyword-researcher",
+      "banked_at": "2026-09-21T22:24:17.174371+00:00"
     },
     {
       "id": "2026-09-21-what-to-do-if-toilet-is-overflowing",
