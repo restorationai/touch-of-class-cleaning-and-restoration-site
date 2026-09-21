@@ -21,28 +21,40 @@ in a generated frame may be false to what the real photos document.
 2. **FLEET OF THREE BRANDED VANS (Santino 2026-08-18, reversing the 08-10
    no-vehicle rule for this client).** Their photo library has no vehicle
    photos, so generate the classic professional restoration fleet: THREE
-   matching clean white panel vans with the real Dry County logo mark
-   (blue `#007fb2` wordmark; no phone numbers, URLs or other readable text
-   on the wrap). Vans appear in the hero and wherever the scene allows.
-   Bob is sending real van photos (meeting 2026-08-19); the moment those
-   land in `harvested/`, real livery replaces this invented default.
-3. **THE MASCOT STAYS ON THE LOGO.** The cartoon cowboy water-drop mascot
-   exists only in the logo file. Never render the mascot, a cowboy-hat motif,
-   or any cartoon element inside a photographic scene.
-4. **CREW WEAR SEALED WHITE TYVEK OR NEUTRAL WORKWEAR.** Real job photos
-   document full white Tyvek coveralls, hood UP, zipped to the throat, 3M
-   respirators with MAGENTA/pink P100 cartridges, black gloves, boot covers
-   (see PPE references). Where the service warrants PPE: exactly that, sealed;
-   worn open, hood down, or tied at the waist is a REJECT. No branded polo,
-   hat or uniform color is documented ANYWHERE (the black/orange
-   leak-detection and blue-shirt photos in the harvest are website stock, not
-   their crew), so never invent one: non-PPE scenes use plain neutral
-   charcoal/gray workwear with no company branding on the clothing.
-   **PPE IS SITUATIONAL, NEVER THE UNIFORM (2026-08-18 revamp, Bob's
-   complaint):** sealed Tyvek + respirator ONLY where the service warrants it
-   (mold, sewage, biohazard, Cat-3 water). The HERO, the team photo, and
-   trade scenes (roof tarping, board-up, carpet cleaning, general
-   contracting) use neutral workwear — a full-hazmat hero or a sealed suit
+   matching clean white panel vans carrying the ROUND Dry County logo badge
+   (see rule 3 and VAN-OVERRIDE — the full circular emblem; no separate
+   wordmark and no other readable text on the wrap). Vans appear in the hero
+   and wherever the scene allows. Bob is sending real van photos (meeting
+   2026-08-19); the moment those land in `harvested/`, real livery replaces
+   this invented default.
+3. **THE ROUND LOGO IS THE BRAND MARK ON VANS AND UNIFORMS (Bob,
+   09-21-2026, "Website Updates 1-3").** Bob asked to switch every van wrap
+   from the plain blue wordmark to the full ROUND Dry County logo badge — the
+   circular emblem in `public/images/logo.png`: blue `#007fb2` "DRY COUNTY
+   RESTORATION" curved across the top, the cartoon water-drop cowboy mascot in
+   the center, red "PUTTING THE HEAT ON WATER DAMAGE" curved across the
+   bottom. That round badge — and only that badge — is the mark that rides on
+   the vans and on the crew's chest. The mascot is therefore permitted INSIDE
+   the round badge wherever the badge appears; it is still NEVER rendered as a
+   free-standing cartoon character loose in a photographic scene (no giant
+   water-drop cowboy in a driveway, no cowboy-hat motif floating in frame).
+4. **CREW WEAR THE DOCUMENTED UNIFORM, OR SEALED TYVEK IN CONTAINMENT.** Bob
+   documented the crew uniform (09-21-2026, "Website Updates 1-3"): a BLACK
+   company t-shirt or polo carrying the round Dry County logo small on the
+   left chest, BLUE denim jeans, and BROWN leather work boots. Every non-PPE
+   people shot sitewide uses exactly this — hero, team, and all trade scenes.
+   This RETIRES the old "no uniform documented, use neutral gray" rule: the
+   black-shirt / blue-jeans / brown-boots kit is now the documented uniform.
+   Keep the chest logo small and cleanly implied at that scale — a garbled or
+   invented chest wordmark is a REJECT, so favor a small legible round mark or
+   a clean impression over fake lettering. In containment services the sealed
+   white Tyvek suit (hood UP, zipped to the throat, respirator with MAGENTA
+   P100 cartridges, black gloves, boot covers — see PPE references) goes OVER
+   the uniform; worn open, hood down, or tied at the waist is a REJECT.
+   **PPE IS SITUATIONAL, NEVER THE UNIFORM (2026-08-18, Bob's complaint):**
+   sealed Tyvek + respirator ONLY where the service warrants it (mold,
+   sewage, biohazard, Cat-3 water). The HERO, team photo, and trade scenes
+   use the documented uniform (rule 4) — a full-hazmat hero or a sealed suit
    on a roof is an AUTOMATIC REJECT (both shipped in v1).
    **EVERY SLOT GETS ITS OWN COMPOSITION:** hero, team and service frames
    must be visibly different scenes — v1's hero and team photo were the same
@@ -67,9 +79,9 @@ in a generated frame may be false to what the real photos document.
 
 PPE reference photos on file (harvested/real-ppe-sealed-2026-08-10.jpg, harvested/real-ppe-containment-2026-08-10.jpg) are intentionally NOT injected as global references (2026-08-18 revamp): they document the sealed suit for the mold / sewage / biohazard / Category-3 CONTAINMENT scenes only, and feeding them into every generation is exactly what put a hazmat suit on the hero and on the roof in v1. The sealed-suit spec now lives in the CREW-OVERRIDE and in the containment scene text; re-attach a reference for a targeted redo of a single containment slug only if its sealed suit renders loose.
 
-VAN-OVERRIDE: a fleet of exactly THREE matching clean white panel vans, each side panel carrying the real Dry County logo mark from the reference image reproduced faithfully at vehicle-wrap scale (blue #007fb2 wordmark only — no phone number, no URL, no other lettering anywhere on the wrap); all three vans identical and photographed from the same side so the mark reads the same on each; classic professional restoration fleet, bright, clean and premium under dry Southern California daylight
+VAN-OVERRIDE: a fleet of exactly THREE matching clean white panel vans, each side panel carrying the ROUND Dry County Restoration logo badge from the reference image reproduced faithfully and legibly at vehicle-wrap scale — the circular emblem with "DRY COUNTY RESTORATION" curved across the top in blue #007fb2, the water-drop cowboy mascot centered, and the red "PUTTING THE HEAT ON WATER DAMAGE" arc across the bottom; that round badge is the ONLY graphic on the wrap (no separate wordmark, no phone number, no URL, no other lettering anywhere on the wrap); all three vans identical and photographed from the same side so the badge reads the same on each; classic professional restoration fleet, bright, clean and premium under dry Southern California daylight
 
-CREW-OVERRIDE: PPE IS SITUATIONAL, NEVER THE DEFAULT UNIFORM — a FULL sealed white Tyvek coverall (zipper closed to the throat, hood UP over the head, respirator sealed to the face with magenta P100 cartridges, black nitrile gloves, boot covers) is worn ONLY inside an active mold, sewage, biohazard or Category-3 water containment scene; in EVERY other scene — the hero, the team photo, roof tarping, board-up, storm work, water extraction, air-duct cleaning, carpet cleaning, contents packing, post-construction cleaning and general contracting — the crew wears plain neutral charcoal or gray workwear with NO Tyvek, NO respirator and no visible company branding on the clothing (no branded polo or hat exists in evidence, so none may be invented); fire and smoke/soot cleanup is the one middle case — soot is a real respiratory hazard, so a respirator and a coverall inside a contained, soot-darkened interior are appropriate there; a sealed hazmat suit anywhere outside a containment interior — and ANY sealed suit on a roof or in the hero — is an AUTOMATIC REJECT; work shots frame from behind or three-quarter profile with no face crisply visible; the team photo shows 3-4 crew in neutral charcoal workwear standing together confidently at a modest camera distance in front of a Corona-style tan stucco home with blue drying equipment staged beside them, calm professional bearing, faces softly rendered not crisp, no stock-photo grins, no thumbs-up
+CREW-OVERRIDE: the crew's documented uniform is a BLACK company t-shirt or polo with the round Dry County logo small on the left chest, BLUE denim jeans, and BROWN leather work boots, worn in EVERY non-PPE scene (the hero, the team photo, roof tarping, board-up, storm work, water extraction, air-duct cleaning, carpet cleaning, contents packing, post-construction cleaning and general contracting); PPE IS SITUATIONAL AND NEVER THE DEFAULT — a FULL sealed white Tyvek coverall (zipper closed to the throat, hood UP over the head, respirator sealed to the face with magenta P100 cartridges, black nitrile gloves, boot covers) is worn OVER the uniform ONLY inside an active mold, sewage, biohazard or Category-3 water containment scene; fire and smoke/soot cleanup is the one middle case — soot is a real respiratory hazard, so a respirator and a coverall inside a contained, soot-darkened interior are appropriate there; a sealed hazmat suit anywhere outside a containment interior — and ANY sealed suit on a roof or in the hero — is an AUTOMATIC REJECT; the chest logo must stay small and legible or a clean impression, never garbled or invented lettering; work shots frame from behind or three-quarter profile with no face crisply visible; the team photo shows 3-4 crew in the black-shirt, blue-jeans and brown-boots uniform standing together confidently at a modest camera distance in front of a Corona-style tan stucco home with blue drying equipment staged beside them, calm professional bearing, faces softly rendered not crisp, no stock-photo grins, no thumbs-up
 
 MOOD-OVERRIDE: bright, clean, high-key dry Southern California daylight, light, airy and premium to match a white-and-blue light-theme site; interiors neutral, clean and well-lit by daylight or work lights; never dark, moody, stormy or ominous
 
