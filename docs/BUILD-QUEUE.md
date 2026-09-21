@@ -77,14 +77,14 @@ the SITE REVEAL first, GBP connect the next cycle — Santino may reorder.
   a2p_trust, in Twilio review). Also: activation of staged lists stays a
   human click.
 
-## C. LSA leads-health — **HELD for go** (approved in principle)
+## C. LSA leads-health — **DONE 2026-09-20**
 
 Detector pulls LSA lead counts (calls + messages, 14d) next to the
 impressions it already pulls; Running cards with 0 leads/14d wear a red
 "0 leads / 14d — check on it" chip + a watchdog line; optional
 needs-attention filter on the Running column.
 
-## D. LSA connection gating — **HELD for go** (understanding confirmed)
+## D. LSA connection gating — **DONE 2026-09-20**
 
 Running (including impressions-based auto-serving) requires the detected
 LSA account to be selected/attributed in the app. Detected-but-unselected

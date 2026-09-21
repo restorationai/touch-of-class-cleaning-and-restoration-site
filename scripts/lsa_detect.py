@@ -89,6 +89,41 @@ def fetch_metrics_7d(client, acid: str) -> dict | None:
     except Exception as e:  # noqa: BLE001 — metrics never break detection
         print(f"    metrics unreadable for {acid}: {str(e)[:80]}")
         return None
+
+
+LEADS_Q = """SELECT local_services_lead.id, local_services_lead.lead_type,
+                    local_services_lead.creation_date_time
+             FROM local_services_lead"""
+
+
+def fetch_leads_14d(client, acid: str) -> dict | None:
+    """{'calls': N, 'messages': M, 'total': T} over the last 14 days — the
+    'live but not getting calls' radar (Santino 2026-09-20). Leads are the
+    business outcome; impressions only prove serving. None when unreadable
+    — the board must show unknown as unknown, never as zero."""
+    try:
+        from datetime import datetime as _dt, timedelta as _td, timezone as _tz
+        cut = _dt.now(_tz.utc) - _td(days=14)
+        calls = msgs = total = 0
+        for r in gaql(client, acid, LEADS_Q):
+            raw = str(r.local_services_lead.creation_date_time or "")
+            try:
+                when = _dt.fromisoformat(raw.replace(" ", "T")[:19])
+                when = when.replace(tzinfo=_tz.utc)
+            except ValueError:
+                continue
+            if when < cut:
+                continue
+            total += 1
+            t = r.local_services_lead.lead_type.name
+            if t == "PHONE_CALL":
+                calls += 1
+            elif t == "MESSAGE":
+                msgs += 1
+        return {"calls": calls, "messages": msgs, "total": total}
+    except Exception as e:  # noqa: BLE001 — leads never break detection
+        print(f"    leads unreadable for {acid}: {str(e)[:80]}")
+        return None
 # Artifact-history collapse rank — identical to the app's lsa-status edge fn.
 VERIF_RANK = ("PASSED", "PENDING", "FAILED", "CANCELLED", "NO_SUBMISSION")
 VERIF_UNCHECKED = "unchecked"
@@ -229,6 +264,10 @@ def write_lsa(cos: list, company_id: str, acid: str, campaigns: list[dict],
     if m7 is not None:
         changed = changed or (lsa.get("metrics_7d") or {}) != m7
         lsa["metrics_7d"] = m7
+    l14 = fetch_leads_14d(client, acid) if client is not None else None
+    if l14 is not None:
+        changed = changed or (lsa.get("leads_14d") or {}) != l14
+        lsa["leads_14d"] = l14
     if verification is not None:
         lsa.update({"verification": verification,
                     "verification_checked_at":

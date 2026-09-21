@@ -183,6 +183,35 @@ def check_citation_stall() -> list[str]:
     return issues
 
 
+def check_lsa_leads() -> list[str]:
+    """A serving LSA with ZERO leads in 14 days (C, Santino 2026-09-20:
+    'accounts that are live but aren't getting calls so we can know which
+    accounts we should go in and check on'). Serving = ENABLED campaign
+    with impressions in the last 7 days; unknown leads (field absent)
+    never alerts — the detector hasn't measured yet."""
+    issues = []
+    try:
+        cos = _sb("GET", "/rest/v1/companies?status=eq.Active"
+                  "&select=name,lsa:integration_settings->lsa") or []
+    except Exception:  # noqa: BLE001
+        return issues
+    for co in cos:
+        lsa = co.get("lsa") or {}
+        if str(lsa.get("campaign_status") or "").upper() != "ENABLED":
+            continue
+        if int((lsa.get("metrics_7d") or {}).get("impressions") or 0) <= 0:
+            continue  # not provably serving
+        leads = lsa.get("leads_14d")
+        if not isinstance(leads, dict) or "total" not in leads:
+            continue  # unmeasured is unknown, never zero
+        if int(leads.get("total") or 0) == 0:
+            issues.append(
+                f"LSA silent: {str(co.get('name') or '?').strip()} is "
+                "serving (impressions last 7d) but 0 leads in 14d — "
+                "check budget/job types/ranking")
+    return issues
+
+
 def check_coverage() -> list[str]:
     issues = []
     inv = {s: c for c, s in slug_map().items()}
@@ -309,7 +338,8 @@ def main() -> int:
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
     issues = (check_workflows() + check_heartbeats() + check_coverage()
-              + check_site_area_gap() + check_citation_stall())
+              + check_site_area_gap() + check_citation_stall()
+              + check_lsa_leads())
     if not issues:
         print("pipeline watchdog: ALL SYSTEMS ALIVE")
     fresh: list[str] = []
