@@ -138,6 +138,11 @@
       "city": "Long Prairie",
       "state": "MN",
       "slug": "long-prairie-mn"
+    },
+    {
+      "city": "Albany",
+      "state": "MN",
+      "slug": "albany-mn"
     }
   ],
   "template": "restoration",

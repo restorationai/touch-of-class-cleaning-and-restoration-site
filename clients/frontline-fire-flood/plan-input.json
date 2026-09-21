@@ -233,6 +233,11 @@
       "city": "Summit",
       "state": "WA",
       "slug": "summit-wa"
+    },
+    {
+      "city": "Summit View",
+      "state": "WA",
+      "slug": "summit-view-wa"
     }
   ],
   "template": "restoration",

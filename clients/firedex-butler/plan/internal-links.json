@@ -32,6 +32,7 @@
     "/service-areas/evans-city-pa/",
     "/service-areas/franklin-park-pa/",
     "/service-areas/gibsonia-pa/",
+    "/service-areas/glenshaw-pa/",
     "/service-areas/mars-pa/",
     "/service-areas/monaca-pa/",
     "/service-areas/oak-hills-pa/",
@@ -75,6 +76,7 @@
     "/service-areas/evans-city-pa/",
     "/service-areas/franklin-park-pa/",
     "/service-areas/gibsonia-pa/",
+    "/service-areas/glenshaw-pa/",
     "/service-areas/mars-pa/",
     "/service-areas/monaca-pa/",
     "/service-areas/oak-hills-pa/",
@@ -123,8 +125,8 @@
     "/service-areas/evans-city-pa/water-damage-restoration/",
     "/service-areas/franklin-park-pa/water-damage-restoration/",
     "/service-areas/gibsonia-pa/water-damage-restoration/",
+    "/service-areas/glenshaw-pa/water-damage-restoration/",
     "/service-areas/mars-pa/water-damage-restoration/",
-    "/service-areas/monaca-pa/water-damage-restoration/",
     "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -143,8 +145,8 @@
     "/service-areas/evans-city-pa/flood-damage-restoration/",
     "/service-areas/franklin-park-pa/flood-damage-restoration/",
     "/service-areas/gibsonia-pa/flood-damage-restoration/",
-    "/service-areas/mars-pa/flood-damage-restoration/",
-    "/service-areas/monaca-pa/flood-damage-restoration/"
+    "/service-areas/glenshaw-pa/flood-damage-restoration/",
+    "/service-areas/mars-pa/flood-damage-restoration/"
   ],
   "/services/basement-flooding-cleanup/": [
     "/services/",
@@ -159,8 +161,8 @@
     "/service-areas/evans-city-pa/basement-flooding-cleanup/",
     "/service-areas/franklin-park-pa/basement-flooding-cleanup/",
     "/service-areas/gibsonia-pa/basement-flooding-cleanup/",
-    "/service-areas/mars-pa/basement-flooding-cleanup/",
-    "/service-areas/monaca-pa/basement-flooding-cleanup/"
+    "/service-areas/glenshaw-pa/basement-flooding-cleanup/",
+    "/service-areas/mars-pa/basement-flooding-cleanup/"
   ],
   "/services/sewage-cleanup/": [
     "/services/",
@@ -175,8 +177,8 @@
     "/service-areas/evans-city-pa/sewage-cleanup/",
     "/service-areas/franklin-park-pa/sewage-cleanup/",
     "/service-areas/gibsonia-pa/sewage-cleanup/",
-    "/service-areas/mars-pa/sewage-cleanup/",
-    "/service-areas/monaca-pa/sewage-cleanup/"
+    "/service-areas/glenshaw-pa/sewage-cleanup/",
+    "/service-areas/mars-pa/sewage-cleanup/"
   ],
   "/services/burst-pipe-repair/": [
     "/services/",
@@ -191,8 +193,8 @@
     "/service-areas/evans-city-pa/burst-pipe-repair/",
     "/service-areas/franklin-park-pa/burst-pipe-repair/",
     "/service-areas/gibsonia-pa/burst-pipe-repair/",
-    "/service-areas/mars-pa/burst-pipe-repair/",
-    "/service-areas/monaca-pa/burst-pipe-repair/"
+    "/service-areas/glenshaw-pa/burst-pipe-repair/",
+    "/service-areas/mars-pa/burst-pipe-repair/"
   ],
   "/services/frozen-pipe-restoration/": [
     "/services/",
@@ -207,8 +209,8 @@
     "/service-areas/evans-city-pa/frozen-pipe-restoration/",
     "/service-areas/franklin-park-pa/frozen-pipe-restoration/",
     "/service-areas/gibsonia-pa/frozen-pipe-restoration/",
-    "/service-areas/mars-pa/frozen-pipe-restoration/",
-    "/service-areas/monaca-pa/frozen-pipe-restoration/"
+    "/service-areas/glenshaw-pa/frozen-pipe-restoration/",
+    "/service-areas/mars-pa/frozen-pipe-restoration/"
   ],
   "/services/storm-damage-restoration/": [
     "/services/",
@@ -223,8 +225,8 @@
     "/service-areas/evans-city-pa/storm-damage-restoration/",
     "/service-areas/franklin-park-pa/storm-damage-restoration/",
     "/service-areas/gibsonia-pa/storm-damage-restoration/",
+    "/service-areas/glenshaw-pa/storm-damage-restoration/",
     "/service-areas/mars-pa/storm-damage-restoration/",
-    "/service-areas/monaca-pa/storm-damage-restoration/",
     "/blog/storm-damage-insurance-claim-checklist/"
   ],
   "/services/fire-damage-restoration/": [
@@ -240,8 +242,8 @@
     "/service-areas/evans-city-pa/fire-damage-restoration/",
     "/service-areas/franklin-park-pa/fire-damage-restoration/",
     "/service-areas/gibsonia-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
     "/service-areas/mars-pa/fire-damage-restoration/",
-    "/service-areas/monaca-pa/fire-damage-restoration/",
     "/blog/choosing-a-restoration-company/",
     "/blog/fire-damage-restoration-process/",
     "/blog/smoke-odor-removal-techniques/"
@@ -259,8 +261,8 @@
     "/service-areas/evans-city-pa/smoke-damage-restoration/",
     "/service-areas/franklin-park-pa/smoke-damage-restoration/",
     "/service-areas/gibsonia-pa/smoke-damage-restoration/",
+    "/service-areas/glenshaw-pa/smoke-damage-restoration/",
     "/service-areas/mars-pa/smoke-damage-restoration/",
-    "/service-areas/monaca-pa/smoke-damage-restoration/",
     "/blog/fire-damage-restoration-process/",
     "/blog/smoke-odor-removal-techniques/"
   ],
@@ -277,8 +279,8 @@
     "/service-areas/evans-city-pa/soot-removal/",
     "/service-areas/franklin-park-pa/soot-removal/",
     "/service-areas/gibsonia-pa/soot-removal/",
-    "/service-areas/mars-pa/soot-removal/",
-    "/service-areas/monaca-pa/soot-removal/"
+    "/service-areas/glenshaw-pa/soot-removal/",
+    "/service-areas/mars-pa/soot-removal/"
   ],
   "/services/odor-removal/": [
     "/services/",
@@ -293,8 +295,8 @@
     "/service-areas/evans-city-pa/odor-removal/",
     "/service-areas/franklin-park-pa/odor-removal/",
     "/service-areas/gibsonia-pa/odor-removal/",
-    "/service-areas/mars-pa/odor-removal/",
-    "/service-areas/monaca-pa/odor-removal/"
+    "/service-areas/glenshaw-pa/odor-removal/",
+    "/service-areas/mars-pa/odor-removal/"
   ],
   "/services/mold-remediation/": [
     "/services/",
@@ -309,8 +311,8 @@
     "/service-areas/evans-city-pa/mold-remediation/",
     "/service-areas/franklin-park-pa/mold-remediation/",
     "/service-areas/gibsonia-pa/mold-remediation/",
+    "/service-areas/glenshaw-pa/mold-remediation/",
     "/service-areas/mars-pa/mold-remediation/",
-    "/service-areas/monaca-pa/mold-remediation/",
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
     "/blog/signs-of-hidden-mold/"
@@ -328,8 +330,8 @@
     "/service-areas/evans-city-pa/mold-inspection-testing/",
     "/service-areas/franklin-park-pa/mold-inspection-testing/",
     "/service-areas/gibsonia-pa/mold-inspection-testing/",
+    "/service-areas/glenshaw-pa/mold-inspection-testing/",
     "/service-areas/mars-pa/mold-inspection-testing/",
-    "/service-areas/monaca-pa/mold-inspection-testing/",
     "/blog/how-to-test-for-mold/"
   ],
   "/services/biohazard-cleanup/": [
@@ -345,8 +347,8 @@
     "/service-areas/evans-city-pa/biohazard-cleanup/",
     "/service-areas/franklin-park-pa/biohazard-cleanup/",
     "/service-areas/gibsonia-pa/biohazard-cleanup/",
-    "/service-areas/mars-pa/biohazard-cleanup/",
-    "/service-areas/monaca-pa/biohazard-cleanup/"
+    "/service-areas/glenshaw-pa/biohazard-cleanup/",
+    "/service-areas/mars-pa/biohazard-cleanup/"
   ],
   "/services/commercial-restoration/": [
     "/services/",
@@ -361,8 +363,8 @@
     "/service-areas/evans-city-pa/commercial-restoration/",
     "/service-areas/franklin-park-pa/commercial-restoration/",
     "/service-areas/gibsonia-pa/commercial-restoration/",
-    "/service-areas/mars-pa/commercial-restoration/",
-    "/service-areas/monaca-pa/commercial-restoration/"
+    "/service-areas/glenshaw-pa/commercial-restoration/",
+    "/service-areas/mars-pa/commercial-restoration/"
   ],
   "/services/reconstruction/": [
     "/services/",
@@ -377,8 +379,8 @@
     "/service-areas/evans-city-pa/reconstruction/",
     "/service-areas/franklin-park-pa/reconstruction/",
     "/service-areas/gibsonia-pa/reconstruction/",
-    "/service-areas/mars-pa/reconstruction/",
-    "/service-areas/monaca-pa/reconstruction/"
+    "/service-areas/glenshaw-pa/reconstruction/",
+    "/service-areas/mars-pa/reconstruction/"
   ],
   "/services/general-contracting/": [
     "/services/",
@@ -393,8 +395,8 @@
     "/service-areas/evans-city-pa/general-contracting/",
     "/service-areas/franklin-park-pa/general-contracting/",
     "/service-areas/gibsonia-pa/general-contracting/",
-    "/service-areas/mars-pa/general-contracting/",
-    "/service-areas/monaca-pa/general-contracting/"
+    "/service-areas/glenshaw-pa/general-contracting/",
+    "/service-areas/mars-pa/general-contracting/"
   ],
   "/services/water-cleanup/": [
     "/services/",
@@ -409,8 +411,8 @@
     "/service-areas/evans-city-pa/water-cleanup/",
     "/service-areas/franklin-park-pa/water-cleanup/",
     "/service-areas/gibsonia-pa/water-cleanup/",
+    "/service-areas/glenshaw-pa/water-cleanup/",
     "/service-areas/mars-pa/water-cleanup/",
-    "/service-areas/monaca-pa/water-cleanup/",
     "/services/water-damage-restoration/"
   ],
   "/service-areas/wexford-pa/": [
@@ -884,6 +886,31 @@
     "/service-areas/oak-hills-pa/frozen-pipe-restoration/",
     "/service-areas/oak-hills-pa/odor-removal/",
     "/service-areas/oak-hills-pa/soot-removal/",
+    "/service-areas/aliquippa-pa/",
+    "/service-areas/allison-park-pa/",
+    "/service-areas/baden-pa/"
+  ],
+  "/service-areas/glenshaw-pa/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/mold-remediation/",
+    "/service-areas/glenshaw-pa/water-damage-restoration/",
+    "/service-areas/glenshaw-pa/commercial-restoration/",
+    "/service-areas/glenshaw-pa/flood-damage-restoration/",
+    "/service-areas/glenshaw-pa/reconstruction/",
+    "/service-areas/glenshaw-pa/sewage-cleanup/",
+    "/service-areas/glenshaw-pa/smoke-damage-restoration/",
+    "/service-areas/glenshaw-pa/storm-damage-restoration/",
+    "/service-areas/glenshaw-pa/water-cleanup/",
+    "/service-areas/glenshaw-pa/basement-flooding-cleanup/",
+    "/service-areas/glenshaw-pa/biohazard-cleanup/",
+    "/service-areas/glenshaw-pa/burst-pipe-repair/",
+    "/service-areas/glenshaw-pa/general-contracting/",
+    "/service-areas/glenshaw-pa/mold-inspection-testing/",
+    "/service-areas/glenshaw-pa/frozen-pipe-restoration/",
+    "/service-areas/glenshaw-pa/odor-removal/",
+    "/service-areas/glenshaw-pa/soot-removal/",
     "/service-areas/aliquippa-pa/",
     "/service-areas/allison-park-pa/",
     "/service-areas/baden-pa/"
@@ -3962,6 +3989,168 @@
     "/service-areas/oak-hills-pa/",
     "/service-areas/oak-hills-pa/fire-damage-restoration/",
     "/service-areas/oak-hills-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/water-cleanup/",
+    "/service-areas/allison-park-pa/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/glenshaw-pa/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/glenshaw-pa/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/water-damage-restoration/",
+    "/service-areas/allison-park-pa/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/glenshaw-pa/flood-damage-restoration/": [
+    "/services/flood-damage-restoration/",
+    "/service-areas/glenshaw-pa/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/flood-damage-restoration/",
+    "/service-areas/allison-park-pa/flood-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/glenshaw-pa/basement-flooding-cleanup/": [
+    "/services/basement-flooding-cleanup/",
+    "/service-areas/glenshaw-pa/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/basement-flooding-cleanup/",
+    "/service-areas/allison-park-pa/basement-flooding-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/glenshaw-pa/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/glenshaw-pa/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/sewage-cleanup/",
+    "/service-areas/allison-park-pa/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/glenshaw-pa/burst-pipe-repair/": [
+    "/services/burst-pipe-repair/",
+    "/service-areas/glenshaw-pa/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/burst-pipe-repair/",
+    "/service-areas/allison-park-pa/burst-pipe-repair/",
+    "/contact/"
+  ],
+  "/service-areas/glenshaw-pa/frozen-pipe-restoration/": [
+    "/services/frozen-pipe-restoration/",
+    "/service-areas/glenshaw-pa/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/frozen-pipe-restoration/",
+    "/service-areas/allison-park-pa/frozen-pipe-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/glenshaw-pa/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/glenshaw-pa/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/storm-damage-restoration/",
+    "/service-areas/allison-park-pa/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/glenshaw-pa/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/",
+    "/service-areas/glenshaw-pa/mold-remediation/",
+    "/service-areas/glenshaw-pa/water-damage-restoration/",
+    "/service-areas/aliquippa-pa/fire-damage-restoration/",
+    "/service-areas/allison-park-pa/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/glenshaw-pa/smoke-damage-restoration/": [
+    "/services/smoke-damage-restoration/",
+    "/service-areas/glenshaw-pa/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/smoke-damage-restoration/",
+    "/service-areas/allison-park-pa/smoke-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/glenshaw-pa/soot-removal/": [
+    "/services/soot-removal/",
+    "/service-areas/glenshaw-pa/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/soot-removal/",
+    "/service-areas/allison-park-pa/soot-removal/",
+    "/contact/"
+  ],
+  "/service-areas/glenshaw-pa/odor-removal/": [
+    "/services/odor-removal/",
+    "/service-areas/glenshaw-pa/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/odor-removal/",
+    "/service-areas/allison-park-pa/odor-removal/",
+    "/contact/"
+  ],
+  "/service-areas/glenshaw-pa/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/glenshaw-pa/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/water-damage-restoration/",
+    "/service-areas/aliquippa-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/glenshaw-pa/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/glenshaw-pa/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/mold-inspection-testing/",
+    "/service-areas/allison-park-pa/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/glenshaw-pa/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/glenshaw-pa/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/biohazard-cleanup/",
+    "/service-areas/allison-park-pa/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/glenshaw-pa/commercial-restoration/": [
+    "/services/commercial-restoration/",
+    "/service-areas/glenshaw-pa/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/commercial-restoration/",
+    "/service-areas/allison-park-pa/commercial-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/glenshaw-pa/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/glenshaw-pa/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/reconstruction/",
+    "/service-areas/allison-park-pa/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/glenshaw-pa/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/glenshaw-pa/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/general-contracting/",
+    "/service-areas/allison-park-pa/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/glenshaw-pa/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/glenshaw-pa/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/mold-remediation/",
     "/service-areas/aliquippa-pa/water-cleanup/",
     "/service-areas/allison-park-pa/water-cleanup/",
     "/contact/"

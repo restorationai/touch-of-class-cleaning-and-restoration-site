@@ -317,6 +317,11 @@
       "city": "Oak Hills",
       "state": "PA",
       "slug": "oak-hills-pa"
+    },
+    {
+      "city": "Glenshaw",
+      "state": "PA",
+      "slug": "glenshaw-pa"
     }
   ],
   "brand": {

@@ -104,6 +104,11 @@
       "state": "TX",
       "slug": "monahans-tx",
       "source": "client-declared (Alfredo, sales call 2026-09-08: 'Andrews, Monahans, Spring')"
+    },
+    {
+      "city": "McCamey",
+      "state": "TX",
+      "slug": "mccamey-tx"
     }
   ],
   "template": "restoration",

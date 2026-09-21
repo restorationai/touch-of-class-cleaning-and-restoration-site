@@ -1,20 +1,20 @@
 # Site Plan Report — Davis Construction Contractors
 
 - Template: `construction` v0.1.0
-- Generated: 2026-09-21T14:13:06.155644+00:00
+- Generated: 2026-09-21T19:18:32.837694+00:00
 - Domain: `davisconstructioncontractors.com`
 - Services selected: 9 of 23 catalog entries
-- Service areas: 14
+- Service areas: 15
 - Cross-product enabled: True
-- Total URLs: **160**
-- Total internal links: 1260 (avg 7.9 per page)
+- Total URLs: **170**
+- Total internal links: 1339 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 117 |
-| `service-area` | 13 |
+| `service-area-service` | 126 |
+| `service-area` | 14 |
 | `blog-post` | 12 |
 | `service-landing` | 9 |
 | `legal` | 3 |
@@ -53,6 +53,7 @@
 - `triana-al` — Triana, AL
 - `new-hope-al` — New Hope, AL
 - `ardmore-al` — Ardmore, AL
+- `priceville-al` — Priceville, AL
 
 ## Top 10 priority pages
 

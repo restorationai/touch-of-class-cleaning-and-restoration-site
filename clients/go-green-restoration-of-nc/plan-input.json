@@ -245,6 +245,11 @@
       "city": "Nashville",
       "state": "NC",
       "slug": "nashville-nc"
+    },
+    {
+      "city": "Elm City",
+      "state": "NC",
+      "slug": "elm-city-nc"
     }
   ],
   "template": "restoration",

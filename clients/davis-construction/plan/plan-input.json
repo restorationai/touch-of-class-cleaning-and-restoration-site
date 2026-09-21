@@ -144,6 +144,11 @@
       "city": "Ardmore",
       "state": "AL",
       "slug": "ardmore-al"
+    },
+    {
+      "city": "Priceville",
+      "state": "AL",
+      "slug": "priceville-al"
     }
   ],
   "brand": {

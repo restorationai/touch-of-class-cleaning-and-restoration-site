@@ -146,6 +146,11 @@
       "city": "Villa Park",
       "state": "CA",
       "slug": "villa-park-ca"
+    },
+    {
+      "city": "Fontana",
+      "state": "CA",
+      "slug": "fontana-ca"
     }
   ],
   "template": "restoration",

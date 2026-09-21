@@ -27,6 +27,7 @@
     "/service-areas/la-mesa-ca/",
     "/service-areas/national-city-ca/",
     "/service-areas/oceanside-ca/",
+    "/service-areas/pala-ca/",
     "/service-areas/poway-ca/",
     "/service-areas/rancho-santa-fe-ca/",
     "/service-areas/san-marcos-ca/",
@@ -65,6 +66,7 @@
     "/service-areas/la-mesa-ca/",
     "/service-areas/national-city-ca/",
     "/service-areas/oceanside-ca/",
+    "/service-areas/pala-ca/",
     "/service-areas/poway-ca/",
     "/service-areas/rancho-santa-fe-ca/",
     "/service-areas/san-marcos-ca/",
@@ -560,6 +562,20 @@
     "/service-areas/fallbrook-ca/basement-flooding-cleanup/",
     "/service-areas/fallbrook-ca/burst-pipe-repair/",
     "/service-areas/fallbrook-ca/general-contracting/",
+    "/service-areas/bonsall-ca/",
+    "/service-areas/camp-pendleton-mainside-ca/",
+    "/service-areas/camp-pendleton-south-ca/"
+  ],
+  "/service-areas/pala-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/pala-ca/water-damage-restoration/",
+    "/service-areas/pala-ca/flood-damage-restoration/",
+    "/service-areas/pala-ca/reconstruction/",
+    "/service-areas/pala-ca/water-cleanup/",
+    "/service-areas/pala-ca/basement-flooding-cleanup/",
+    "/service-areas/pala-ca/burst-pipe-repair/",
+    "/service-areas/pala-ca/general-contracting/",
     "/service-areas/bonsall-ca/",
     "/service-areas/camp-pendleton-mainside-ca/",
     "/service-areas/camp-pendleton-south-ca/"
@@ -2135,6 +2151,69 @@
     "/service-areas/fallbrook-ca/",
     "/service-areas/fallbrook-ca/water-damage-restoration/",
     "/service-areas/fallbrook-ca/flood-damage-restoration/",
+    "/service-areas/bonsall-ca/water-cleanup/",
+    "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/pala-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/pala-ca/",
+    "/service-areas/pala-ca/flood-damage-restoration/",
+    "/service-areas/pala-ca/reconstruction/",
+    "/service-areas/bonsall-ca/water-damage-restoration/",
+    "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/pala-ca/flood-damage-restoration/": [
+    "/services/flood-damage-restoration/",
+    "/service-areas/pala-ca/",
+    "/service-areas/pala-ca/water-damage-restoration/",
+    "/service-areas/pala-ca/reconstruction/",
+    "/service-areas/bonsall-ca/flood-damage-restoration/",
+    "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/pala-ca/burst-pipe-repair/": [
+    "/services/burst-pipe-repair/",
+    "/service-areas/pala-ca/",
+    "/service-areas/pala-ca/water-damage-restoration/",
+    "/service-areas/pala-ca/flood-damage-restoration/",
+    "/service-areas/bonsall-ca/burst-pipe-repair/",
+    "/service-areas/camp-pendleton-mainside-ca/burst-pipe-repair/",
+    "/contact/"
+  ],
+  "/service-areas/pala-ca/basement-flooding-cleanup/": [
+    "/services/basement-flooding-cleanup/",
+    "/service-areas/pala-ca/",
+    "/service-areas/pala-ca/water-damage-restoration/",
+    "/service-areas/pala-ca/flood-damage-restoration/",
+    "/service-areas/bonsall-ca/basement-flooding-cleanup/",
+    "/service-areas/camp-pendleton-mainside-ca/basement-flooding-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/pala-ca/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/pala-ca/",
+    "/service-areas/pala-ca/water-damage-restoration/",
+    "/service-areas/pala-ca/flood-damage-restoration/",
+    "/service-areas/bonsall-ca/reconstruction/",
+    "/service-areas/camp-pendleton-mainside-ca/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/pala-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/pala-ca/",
+    "/service-areas/pala-ca/water-damage-restoration/",
+    "/service-areas/pala-ca/flood-damage-restoration/",
+    "/service-areas/bonsall-ca/general-contracting/",
+    "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/pala-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/pala-ca/",
+    "/service-areas/pala-ca/water-damage-restoration/",
+    "/service-areas/pala-ca/flood-damage-restoration/",
     "/service-areas/bonsall-ca/water-cleanup/",
     "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
     "/contact/"

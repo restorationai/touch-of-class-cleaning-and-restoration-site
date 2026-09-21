@@ -153,6 +153,11 @@
       "city": "Fallbrook",
       "state": "CA",
       "slug": "fallbrook-ca"
+    },
+    {
+      "city": "Pala",
+      "state": "CA",
+      "slug": "pala-ca"
     }
   ],
   "brand": {

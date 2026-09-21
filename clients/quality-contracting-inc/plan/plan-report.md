@@ -1,20 +1,20 @@
 # Site Plan Report — Quality Contracting, Inc.
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-21T14:13:42.149497+00:00
+- Generated: 2026-09-21T19:19:17.279165+00:00
 - Domain: `qualitycontracting.us`
 - Services selected: 11 of 65 catalog entries
-- Service areas: 23
+- Service areas: 24
 - Cross-product enabled: True
-- Total URLs: **292**
-- Total internal links: 2337 (avg 8.0 per page)
+- Total URLs: **304**
+- Total internal links: 2432 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 242 |
-| `service-area` | 22 |
+| `service-area-service` | 253 |
+| `service-area` | 23 |
 | `service-landing` | 11 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -64,6 +64,7 @@
 - `marlborough-ma` — Marlborough, MA
 - `hudson-ma` — Hudson, MA
 - `bellingham-ma` — Bellingham, MA
+- `ware-ma` — Ware, MA
 
 ## Top 10 priority pages
 

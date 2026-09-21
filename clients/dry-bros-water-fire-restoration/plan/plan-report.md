@@ -1,20 +1,20 @@
 # Site Plan Report — Dry Bros Water & Fire Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-21T14:13:07.523827+00:00
+- Generated: 2026-09-21T19:18:34.526900+00:00
 - Domain: `drybros.com`
 - Services selected: 13 of 65 catalog entries
-- Service areas: 19
+- Service areas: 20
 - Cross-product enabled: True
-- Total URLs: **282**
-- Total internal links: 2279 (avg 8.1 per page)
+- Total URLs: **296**
+- Total internal links: 2390 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 234 |
-| `service-area` | 18 |
+| `service-area-service` | 247 |
+| `service-area` | 19 |
 | `service-landing` | 13 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -62,6 +62,7 @@
 - `north-riverside-il` — North Riverside, IL
 - `melrose-park-il` — Melrose Park, IL
 - `burbank-il` — Burbank, IL
+- `evergreen-park-il` — Evergreen Park, IL
 
 ## Top 10 priority pages
 

@@ -1,20 +1,20 @@
 # Site Plan Report — Heritage Restoration LLC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-21T14:13:19.845099+00:00
+- Generated: 2026-09-21T19:18:48.325378+00:00
 - Domain: `heritagermn.com`
 - Services selected: 4 of 65 catalog entries
-- Service areas: 20
+- Service areas: 21
 - Cross-product enabled: True
-- Total URLs: **116**
-- Total internal links: 869 (avg 7.5 per page)
+- Total URLs: **121**
+- Total internal links: 908 (avg 7.5 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 76 |
-| `service-area` | 19 |
+| `service-area-service` | 80 |
+| `service-area` | 20 |
 | `blog-post` | 8 |
 | `service-landing` | 4 |
 | `legal` | 3 |
@@ -54,6 +54,7 @@
 - `harding-mn` — Harding, MN
 - `st-stephen-mn` — St. Stephen, MN
 - `long-prairie-mn` — Long Prairie, MN
+- `albany-mn` — Albany, MN
 
 ## Top 10 priority pages
 
@@ -63,12 +64,12 @@
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration little falls |
 | `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup little falls |
 | `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting little falls |
+| `/service-areas/albany-mn/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration albany |
 | `/service-areas/baxter-mn/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration baxter |
 | `/service-areas/brainerd-mn/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration brainerd |
 | `/service-areas/elmdale-mn/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration elmdale |
 | `/service-areas/flensburg-mn/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration flensburg |
 | `/service-areas/foley-mn/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration foley |
-| `/service-areas/fort-ripley-mn/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration fort ripley |
 
 ## Validation
 

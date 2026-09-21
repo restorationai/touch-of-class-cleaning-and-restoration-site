@@ -17,6 +17,7 @@
     "/service-areas/james-island-sc/",
     "/service-areas/kiawah-island-sc/",
     "/service-areas/ladson-sc/",
+    "/service-areas/meggett-sc/",
     "/service-areas/moncks-corner-sc/",
     "/service-areas/mount-pleasant-sc/",
     "/service-areas/north-charleston-sc/",
@@ -42,6 +43,7 @@
     "/service-areas/james-island-sc/",
     "/service-areas/kiawah-island-sc/",
     "/service-areas/ladson-sc/",
+    "/service-areas/meggett-sc/",
     "/service-areas/moncks-corner-sc/",
     "/service-areas/mount-pleasant-sc/",
     "/service-areas/north-charleston-sc/",
@@ -86,9 +88,9 @@
     "/service-areas/james-island-sc/water-damage-restoration/",
     "/service-areas/kiawah-island-sc/water-damage-restoration/",
     "/service-areas/ladson-sc/water-damage-restoration/",
+    "/service-areas/meggett-sc/water-damage-restoration/",
     "/service-areas/moncks-corner-sc/water-damage-restoration/",
     "/service-areas/mount-pleasant-sc/water-damage-restoration/",
-    "/service-areas/north-charleston-sc/water-damage-restoration/",
     "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -106,9 +108,9 @@
     "/service-areas/james-island-sc/fire-damage-restoration/",
     "/service-areas/kiawah-island-sc/fire-damage-restoration/",
     "/service-areas/ladson-sc/fire-damage-restoration/",
+    "/service-areas/meggett-sc/fire-damage-restoration/",
     "/service-areas/moncks-corner-sc/fire-damage-restoration/",
     "/service-areas/mount-pleasant-sc/fire-damage-restoration/",
-    "/service-areas/north-charleston-sc/fire-damage-restoration/",
     "/blog/choosing-a-restoration-company/",
     "/blog/fire-damage-restoration-process/",
     "/blog/smoke-odor-removal-techniques/"
@@ -125,9 +127,9 @@
     "/service-areas/james-island-sc/mold-remediation/",
     "/service-areas/kiawah-island-sc/mold-remediation/",
     "/service-areas/ladson-sc/mold-remediation/",
+    "/service-areas/meggett-sc/mold-remediation/",
     "/service-areas/moncks-corner-sc/mold-remediation/",
     "/service-areas/mount-pleasant-sc/mold-remediation/",
-    "/service-areas/north-charleston-sc/mold-remediation/",
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
     "/blog/signs-of-hidden-mold/"
@@ -144,9 +146,9 @@
     "/service-areas/james-island-sc/water-cleanup/",
     "/service-areas/kiawah-island-sc/water-cleanup/",
     "/service-areas/ladson-sc/water-cleanup/",
+    "/service-areas/meggett-sc/water-cleanup/",
     "/service-areas/moncks-corner-sc/water-cleanup/",
     "/service-areas/mount-pleasant-sc/water-cleanup/",
-    "/service-areas/north-charleston-sc/water-cleanup/",
     "/services/water-damage-restoration/"
   ],
   "/service-areas/mount-pleasant-sc/": [
@@ -310,6 +312,17 @@
     "/service-areas/kiawah-island-sc/mold-remediation/",
     "/service-areas/kiawah-island-sc/water-damage-restoration/",
     "/service-areas/kiawah-island-sc/water-cleanup/",
+    "/service-areas/awendaw-sc/",
+    "/service-areas/folly-beach-sc/",
+    "/service-areas/goose-creek-sc/"
+  ],
+  "/service-areas/meggett-sc/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/meggett-sc/fire-damage-restoration/",
+    "/service-areas/meggett-sc/mold-remediation/",
+    "/service-areas/meggett-sc/water-damage-restoration/",
+    "/service-areas/meggett-sc/water-cleanup/",
     "/service-areas/awendaw-sc/",
     "/service-areas/folly-beach-sc/",
     "/service-areas/goose-creek-sc/"
@@ -850,6 +863,42 @@
     "/service-areas/kiawah-island-sc/",
     "/service-areas/kiawah-island-sc/fire-damage-restoration/",
     "/service-areas/kiawah-island-sc/mold-remediation/",
+    "/service-areas/awendaw-sc/water-cleanup/",
+    "/service-areas/folly-beach-sc/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/meggett-sc/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/meggett-sc/",
+    "/service-areas/meggett-sc/fire-damage-restoration/",
+    "/service-areas/meggett-sc/mold-remediation/",
+    "/service-areas/awendaw-sc/water-damage-restoration/",
+    "/service-areas/folly-beach-sc/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/meggett-sc/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/meggett-sc/",
+    "/service-areas/meggett-sc/mold-remediation/",
+    "/service-areas/meggett-sc/water-damage-restoration/",
+    "/service-areas/awendaw-sc/fire-damage-restoration/",
+    "/service-areas/folly-beach-sc/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/meggett-sc/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/meggett-sc/",
+    "/service-areas/meggett-sc/fire-damage-restoration/",
+    "/service-areas/meggett-sc/water-damage-restoration/",
+    "/service-areas/awendaw-sc/mold-remediation/",
+    "/service-areas/folly-beach-sc/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/meggett-sc/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/meggett-sc/",
+    "/service-areas/meggett-sc/fire-damage-restoration/",
+    "/service-areas/meggett-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-cleanup/",
     "/service-areas/folly-beach-sc/water-cleanup/",
     "/contact/"

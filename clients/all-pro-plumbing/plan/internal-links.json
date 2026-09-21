@@ -41,6 +41,7 @@
     "/service-areas/taft-ca/",
     "/service-areas/tarina-ca/",
     "/service-areas/tehachapi-ca/",
+    "/service-areas/valley-acres-ca/",
     "/service-areas/wasco-ca/",
     "/service-areas/weedpatch-ca/"
   ],
@@ -86,6 +87,7 @@
     "/service-areas/taft-ca/",
     "/service-areas/tarina-ca/",
     "/service-areas/tehachapi-ca/",
+    "/service-areas/valley-acres-ca/",
     "/service-areas/wasco-ca/",
     "/service-areas/weedpatch-ca/"
   ],
@@ -974,6 +976,35 @@
     "/service-areas/wasco-ca/sump-pumps/",
     "/service-areas/wasco-ca/water-softeners-filtration/",
     "/service-areas/wasco-ca/garbage-disposal/",
+    "/service-areas/arvin-ca/",
+    "/service-areas/bear-valley-springs-ca/",
+    "/service-areas/buttonwillow-ca/"
+  ],
+  "/service-areas/valley-acres-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/valley-acres-ca/ac-repair/",
+    "/service-areas/valley-acres-ca/drain-cleaning/",
+    "/service-areas/valley-acres-ca/emergency-plumbing/",
+    "/service-areas/valley-acres-ca/water-heater-repair/",
+    "/service-areas/valley-acres-ca/ac-installation/",
+    "/service-areas/valley-acres-ca/burst-pipe-repair/",
+    "/service-areas/valley-acres-ca/furnace-repair/",
+    "/service-areas/valley-acres-ca/sewer-line-repair/",
+    "/service-areas/valley-acres-ca/water-heater-installation/",
+    "/service-areas/valley-acres-ca/furnace-installation/",
+    "/service-areas/valley-acres-ca/gas-line-services/",
+    "/service-areas/valley-acres-ca/ductless-mini-splits/",
+    "/service-areas/valley-acres-ca/heat-pump-services/",
+    "/service-areas/valley-acres-ca/leak-detection/",
+    "/service-areas/valley-acres-ca/repiping/",
+    "/service-areas/valley-acres-ca/slab-leak-repair/",
+    "/service-areas/valley-acres-ca/toilet-faucet-repair/",
+    "/service-areas/valley-acres-ca/ductwork/",
+    "/service-areas/valley-acres-ca/indoor-air-quality/",
+    "/service-areas/valley-acres-ca/sump-pumps/",
+    "/service-areas/valley-acres-ca/water-softeners-filtration/",
+    "/service-areas/valley-acres-ca/garbage-disposal/",
     "/service-areas/arvin-ca/",
     "/service-areas/bear-valley-springs-ca/",
     "/service-areas/buttonwillow-ca/"
@@ -4340,6 +4371,204 @@
     "/service-areas/wasco-ca/",
     "/service-areas/wasco-ca/ac-repair/",
     "/service-areas/wasco-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/indoor-air-quality/",
+    "/service-areas/bear-valley-springs-ca/indoor-air-quality/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/ac-repair/",
+    "/service-areas/valley-acres-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/emergency-plumbing/",
+    "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/burst-pipe-repair/": [
+    "/services/burst-pipe-repair/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/ac-repair/",
+    "/service-areas/valley-acres-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/burst-pipe-repair/",
+    "/service-areas/bear-valley-springs-ca/burst-pipe-repair/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/ac-repair/",
+    "/service-areas/valley-acres-ca/emergency-plumbing/",
+    "/service-areas/arvin-ca/drain-cleaning/",
+    "/service-areas/bear-valley-springs-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/sewer-line-repair/": [
+    "/services/sewer-line-repair/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/ac-repair/",
+    "/service-areas/valley-acres-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/sewer-line-repair/",
+    "/service-areas/bear-valley-springs-ca/sewer-line-repair/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/ac-repair/",
+    "/service-areas/valley-acres-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/water-heater-repair/",
+    "/service-areas/bear-valley-springs-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/ac-repair/",
+    "/service-areas/valley-acres-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/water-heater-installation/",
+    "/service-areas/bear-valley-springs-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/leak-detection/": [
+    "/services/leak-detection/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/ac-repair/",
+    "/service-areas/valley-acres-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/leak-detection/",
+    "/service-areas/bear-valley-springs-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/slab-leak-repair/": [
+    "/services/slab-leak-repair/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/ac-repair/",
+    "/service-areas/valley-acres-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/slab-leak-repair/",
+    "/service-areas/bear-valley-springs-ca/slab-leak-repair/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/repiping/": [
+    "/services/repiping/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/ac-repair/",
+    "/service-areas/valley-acres-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/repiping/",
+    "/service-areas/bear-valley-springs-ca/repiping/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/gas-line-services/": [
+    "/services/gas-line-services/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/ac-repair/",
+    "/service-areas/valley-acres-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/gas-line-services/",
+    "/service-areas/bear-valley-springs-ca/gas-line-services/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/sump-pumps/": [
+    "/services/sump-pumps/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/ac-repair/",
+    "/service-areas/valley-acres-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/sump-pumps/",
+    "/service-areas/bear-valley-springs-ca/sump-pumps/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/ac-repair/",
+    "/service-areas/valley-acres-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/water-softeners-filtration/",
+    "/service-areas/bear-valley-springs-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/ac-repair/",
+    "/service-areas/valley-acres-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/toilet-faucet-repair/",
+    "/service-areas/bear-valley-springs-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/ac-repair/",
+    "/service-areas/valley-acres-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/garbage-disposal/",
+    "/service-areas/bear-valley-springs-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/ac-repair/",
+    "/service-areas/valley-acres-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/furnace-repair/",
+    "/service-areas/bear-valley-springs-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/furnace-installation/": [
+    "/services/furnace-installation/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/ac-repair/",
+    "/service-areas/valley-acres-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/furnace-installation/",
+    "/service-areas/bear-valley-springs-ca/furnace-installation/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/heat-pump-services/": [
+    "/services/heat-pump-services/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/ac-repair/",
+    "/service-areas/valley-acres-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/heat-pump-services/",
+    "/service-areas/bear-valley-springs-ca/heat-pump-services/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/drain-cleaning/",
+    "/service-areas/valley-acres-ca/emergency-plumbing/",
+    "/service-areas/arvin-ca/ac-repair/",
+    "/service-areas/bear-valley-springs-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/ac-installation/": [
+    "/services/ac-installation/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/ac-repair/",
+    "/service-areas/valley-acres-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/ac-installation/",
+    "/service-areas/bear-valley-springs-ca/ac-installation/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/ductless-mini-splits/": [
+    "/services/ductless-mini-splits/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/ac-repair/",
+    "/service-areas/valley-acres-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/ductless-mini-splits/",
+    "/service-areas/bear-valley-springs-ca/ductless-mini-splits/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/ductwork/": [
+    "/services/ductwork/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/ac-repair/",
+    "/service-areas/valley-acres-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/ductwork/",
+    "/service-areas/bear-valley-springs-ca/ductwork/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/ac-repair/",
+    "/service-areas/valley-acres-ca/drain-cleaning/",
     "/service-areas/arvin-ca/indoor-air-quality/",
     "/service-areas/bear-valley-springs-ca/indoor-air-quality/",
     "/contact/"

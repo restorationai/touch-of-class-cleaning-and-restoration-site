@@ -17,6 +17,7 @@
     "/services/flood-equipment-rental/",
     "/service-areas/alpine-ut/",
     "/service-areas/bluffdale-ut/",
+    "/service-areas/cedar-fort-ut/",
     "/service-areas/cedar-hills-ut/",
     "/service-areas/draper-ut/",
     "/service-areas/eagle-mountain-ut/",
@@ -53,6 +54,7 @@
     "/",
     "/service-areas/alpine-ut/",
     "/service-areas/bluffdale-ut/",
+    "/service-areas/cedar-fort-ut/",
     "/service-areas/cedar-hills-ut/",
     "/service-areas/draper-ut/",
     "/service-areas/eagle-mountain-ut/",
@@ -97,6 +99,7 @@
     "/contact/",
     "/service-areas/alpine-ut/water-damage-restoration/",
     "/service-areas/bluffdale-ut/water-damage-restoration/",
+    "/service-areas/cedar-fort-ut/water-damage-restoration/",
     "/service-areas/cedar-hills-ut/water-damage-restoration/",
     "/service-areas/draper-ut/water-damage-restoration/",
     "/service-areas/eagle-mountain-ut/water-damage-restoration/",
@@ -106,7 +109,6 @@
     "/service-areas/lindon-ut/water-damage-restoration/",
     "/service-areas/orem-ut/water-damage-restoration/",
     "/service-areas/pleasant-grove-ut/water-damage-restoration/",
-    "/service-areas/provo-ut/water-damage-restoration/",
     "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -117,6 +119,7 @@
     "/contact/",
     "/service-areas/alpine-ut/storm-damage-restoration/",
     "/service-areas/bluffdale-ut/storm-damage-restoration/",
+    "/service-areas/cedar-fort-ut/storm-damage-restoration/",
     "/service-areas/cedar-hills-ut/storm-damage-restoration/",
     "/service-areas/draper-ut/storm-damage-restoration/",
     "/service-areas/eagle-mountain-ut/storm-damage-restoration/",
@@ -125,14 +128,14 @@
     "/service-areas/lehi-ut/storm-damage-restoration/",
     "/service-areas/lindon-ut/storm-damage-restoration/",
     "/service-areas/orem-ut/storm-damage-restoration/",
-    "/service-areas/pleasant-grove-ut/storm-damage-restoration/",
-    "/service-areas/provo-ut/storm-damage-restoration/"
+    "/service-areas/pleasant-grove-ut/storm-damage-restoration/"
   ],
   "/services/fire-damage-restoration/": [
     "/services/",
     "/contact/",
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/bluffdale-ut/fire-damage-restoration/",
+    "/service-areas/cedar-fort-ut/fire-damage-restoration/",
     "/service-areas/cedar-hills-ut/fire-damage-restoration/",
     "/service-areas/draper-ut/fire-damage-restoration/",
     "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
@@ -142,7 +145,6 @@
     "/service-areas/lindon-ut/fire-damage-restoration/",
     "/service-areas/orem-ut/fire-damage-restoration/",
     "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
-    "/service-areas/provo-ut/fire-damage-restoration/",
     "/blog/choosing-a-restoration-company/",
     "/blog/fire-damage-restoration-process/"
   ],
@@ -151,6 +153,7 @@
     "/contact/",
     "/service-areas/alpine-ut/general-contracting/",
     "/service-areas/bluffdale-ut/general-contracting/",
+    "/service-areas/cedar-fort-ut/general-contracting/",
     "/service-areas/cedar-hills-ut/general-contracting/",
     "/service-areas/draper-ut/general-contracting/",
     "/service-areas/eagle-mountain-ut/general-contracting/",
@@ -159,14 +162,14 @@
     "/service-areas/lehi-ut/general-contracting/",
     "/service-areas/lindon-ut/general-contracting/",
     "/service-areas/orem-ut/general-contracting/",
-    "/service-areas/pleasant-grove-ut/general-contracting/",
-    "/service-areas/provo-ut/general-contracting/"
+    "/service-areas/pleasant-grove-ut/general-contracting/"
   ],
   "/services/sewage-cleanup/": [
     "/services/",
     "/contact/",
     "/service-areas/alpine-ut/sewage-cleanup/",
     "/service-areas/bluffdale-ut/sewage-cleanup/",
+    "/service-areas/cedar-fort-ut/sewage-cleanup/",
     "/service-areas/cedar-hills-ut/sewage-cleanup/",
     "/service-areas/draper-ut/sewage-cleanup/",
     "/service-areas/eagle-mountain-ut/sewage-cleanup/",
@@ -175,14 +178,14 @@
     "/service-areas/lehi-ut/sewage-cleanup/",
     "/service-areas/lindon-ut/sewage-cleanup/",
     "/service-areas/orem-ut/sewage-cleanup/",
-    "/service-areas/pleasant-grove-ut/sewage-cleanup/",
-    "/service-areas/provo-ut/sewage-cleanup/"
+    "/service-areas/pleasant-grove-ut/sewage-cleanup/"
   ],
   "/services/emergency-board-up-tarping/": [
     "/services/",
     "/contact/",
     "/service-areas/alpine-ut/emergency-board-up-tarping/",
     "/service-areas/bluffdale-ut/emergency-board-up-tarping/",
+    "/service-areas/cedar-fort-ut/emergency-board-up-tarping/",
     "/service-areas/cedar-hills-ut/emergency-board-up-tarping/",
     "/service-areas/draper-ut/emergency-board-up-tarping/",
     "/service-areas/eagle-mountain-ut/emergency-board-up-tarping/",
@@ -191,14 +194,14 @@
     "/service-areas/lehi-ut/emergency-board-up-tarping/",
     "/service-areas/lindon-ut/emergency-board-up-tarping/",
     "/service-areas/orem-ut/emergency-board-up-tarping/",
-    "/service-areas/pleasant-grove-ut/emergency-board-up-tarping/",
-    "/service-areas/provo-ut/emergency-board-up-tarping/"
+    "/service-areas/pleasant-grove-ut/emergency-board-up-tarping/"
   ],
   "/services/water-cleanup/": [
     "/services/",
     "/contact/",
     "/service-areas/alpine-ut/water-cleanup/",
     "/service-areas/bluffdale-ut/water-cleanup/",
+    "/service-areas/cedar-fort-ut/water-cleanup/",
     "/service-areas/cedar-hills-ut/water-cleanup/",
     "/service-areas/draper-ut/water-cleanup/",
     "/service-areas/eagle-mountain-ut/water-cleanup/",
@@ -208,7 +211,6 @@
     "/service-areas/lindon-ut/water-cleanup/",
     "/service-areas/orem-ut/water-cleanup/",
     "/service-areas/pleasant-grove-ut/water-cleanup/",
-    "/service-areas/provo-ut/water-cleanup/",
     "/services/water-damage-restoration/"
   ],
   "/services/mold-remediation/": [
@@ -216,6 +218,7 @@
     "/contact/",
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/bluffdale-ut/mold-remediation/",
+    "/service-areas/cedar-fort-ut/mold-remediation/",
     "/service-areas/cedar-hills-ut/mold-remediation/",
     "/service-areas/draper-ut/mold-remediation/",
     "/service-areas/eagle-mountain-ut/mold-remediation/",
@@ -225,7 +228,6 @@
     "/service-areas/lindon-ut/mold-remediation/",
     "/service-areas/orem-ut/mold-remediation/",
     "/service-areas/pleasant-grove-ut/mold-remediation/",
-    "/service-areas/provo-ut/mold-remediation/",
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
     "/blog/signs-of-hidden-mold/"
@@ -235,6 +237,7 @@
     "/contact/",
     "/service-areas/alpine-ut/biohazard-cleanup/",
     "/service-areas/bluffdale-ut/biohazard-cleanup/",
+    "/service-areas/cedar-fort-ut/biohazard-cleanup/",
     "/service-areas/cedar-hills-ut/biohazard-cleanup/",
     "/service-areas/draper-ut/biohazard-cleanup/",
     "/service-areas/eagle-mountain-ut/biohazard-cleanup/",
@@ -243,14 +246,14 @@
     "/service-areas/lehi-ut/biohazard-cleanup/",
     "/service-areas/lindon-ut/biohazard-cleanup/",
     "/service-areas/orem-ut/biohazard-cleanup/",
-    "/service-areas/pleasant-grove-ut/biohazard-cleanup/",
-    "/service-areas/provo-ut/biohazard-cleanup/"
+    "/service-areas/pleasant-grove-ut/biohazard-cleanup/"
   ],
   "/services/contents-restoration-storage/": [
     "/services/",
     "/contact/",
     "/service-areas/alpine-ut/contents-restoration-storage/",
     "/service-areas/bluffdale-ut/contents-restoration-storage/",
+    "/service-areas/cedar-fort-ut/contents-restoration-storage/",
     "/service-areas/cedar-hills-ut/contents-restoration-storage/",
     "/service-areas/draper-ut/contents-restoration-storage/",
     "/service-areas/eagle-mountain-ut/contents-restoration-storage/",
@@ -259,14 +262,14 @@
     "/service-areas/lehi-ut/contents-restoration-storage/",
     "/service-areas/lindon-ut/contents-restoration-storage/",
     "/service-areas/orem-ut/contents-restoration-storage/",
-    "/service-areas/pleasant-grove-ut/contents-restoration-storage/",
-    "/service-areas/provo-ut/contents-restoration-storage/"
+    "/service-areas/pleasant-grove-ut/contents-restoration-storage/"
   ],
   "/services/flood-equipment-rental/": [
     "/services/",
     "/contact/",
     "/service-areas/alpine-ut/flood-equipment-rental/",
     "/service-areas/bluffdale-ut/flood-equipment-rental/",
+    "/service-areas/cedar-fort-ut/flood-equipment-rental/",
     "/service-areas/cedar-hills-ut/flood-equipment-rental/",
     "/service-areas/draper-ut/flood-equipment-rental/",
     "/service-areas/eagle-mountain-ut/flood-equipment-rental/",
@@ -275,8 +278,7 @@
     "/service-areas/lehi-ut/flood-equipment-rental/",
     "/service-areas/lindon-ut/flood-equipment-rental/",
     "/service-areas/orem-ut/flood-equipment-rental/",
-    "/service-areas/pleasant-grove-ut/flood-equipment-rental/",
-    "/service-areas/provo-ut/flood-equipment-rental/"
+    "/service-areas/pleasant-grove-ut/flood-equipment-rental/"
   ],
   "/service-areas/provo-ut/": [
     "/service-areas/",
@@ -294,7 +296,7 @@
     "/service-areas/provo-ut/flood-equipment-rental/",
     "/service-areas/alpine-ut/",
     "/service-areas/bluffdale-ut/",
-    "/service-areas/cedar-hills-ut/"
+    "/service-areas/cedar-fort-ut/"
   ],
   "/service-areas/orem-ut/": [
     "/service-areas/",
@@ -312,7 +314,7 @@
     "/service-areas/orem-ut/flood-equipment-rental/",
     "/service-areas/alpine-ut/",
     "/service-areas/bluffdale-ut/",
-    "/service-areas/cedar-hills-ut/"
+    "/service-areas/cedar-fort-ut/"
   ],
   "/service-areas/lehi-ut/": [
     "/service-areas/",
@@ -330,7 +332,7 @@
     "/service-areas/lehi-ut/flood-equipment-rental/",
     "/service-areas/alpine-ut/",
     "/service-areas/bluffdale-ut/",
-    "/service-areas/cedar-hills-ut/"
+    "/service-areas/cedar-fort-ut/"
   ],
   "/service-areas/pleasant-grove-ut/": [
     "/service-areas/",
@@ -348,7 +350,7 @@
     "/service-areas/pleasant-grove-ut/flood-equipment-rental/",
     "/service-areas/alpine-ut/",
     "/service-areas/bluffdale-ut/",
-    "/service-areas/cedar-hills-ut/"
+    "/service-areas/cedar-fort-ut/"
   ],
   "/service-areas/spanish-fork-ut/": [
     "/service-areas/",
@@ -366,7 +368,7 @@
     "/service-areas/spanish-fork-ut/flood-equipment-rental/",
     "/service-areas/alpine-ut/",
     "/service-areas/bluffdale-ut/",
-    "/service-areas/cedar-hills-ut/"
+    "/service-areas/cedar-fort-ut/"
   ],
   "/service-areas/springville-ut/": [
     "/service-areas/",
@@ -384,7 +386,7 @@
     "/service-areas/springville-ut/flood-equipment-rental/",
     "/service-areas/alpine-ut/",
     "/service-areas/bluffdale-ut/",
-    "/service-areas/cedar-hills-ut/"
+    "/service-areas/cedar-fort-ut/"
   ],
   "/service-areas/saratoga-springs-ut/": [
     "/service-areas/",
@@ -402,7 +404,7 @@
     "/service-areas/saratoga-springs-ut/flood-equipment-rental/",
     "/service-areas/alpine-ut/",
     "/service-areas/bluffdale-ut/",
-    "/service-areas/cedar-hills-ut/"
+    "/service-areas/cedar-fort-ut/"
   ],
   "/service-areas/highland-ut/": [
     "/service-areas/",
@@ -420,7 +422,7 @@
     "/service-areas/highland-ut/flood-equipment-rental/",
     "/service-areas/alpine-ut/",
     "/service-areas/bluffdale-ut/",
-    "/service-areas/cedar-hills-ut/"
+    "/service-areas/cedar-fort-ut/"
   ],
   "/service-areas/cedar-hills-ut/": [
     "/service-areas/",
@@ -438,7 +440,7 @@
     "/service-areas/cedar-hills-ut/flood-equipment-rental/",
     "/service-areas/alpine-ut/",
     "/service-areas/bluffdale-ut/",
-    "/service-areas/draper-ut/"
+    "/service-areas/cedar-fort-ut/"
   ],
   "/service-areas/lindon-ut/": [
     "/service-areas/",
@@ -456,7 +458,7 @@
     "/service-areas/lindon-ut/flood-equipment-rental/",
     "/service-areas/alpine-ut/",
     "/service-areas/bluffdale-ut/",
-    "/service-areas/cedar-hills-ut/"
+    "/service-areas/cedar-fort-ut/"
   ],
   "/service-areas/alpine-ut/": [
     "/service-areas/",
@@ -473,8 +475,8 @@
     "/service-areas/alpine-ut/contents-restoration-storage/",
     "/service-areas/alpine-ut/flood-equipment-rental/",
     "/service-areas/bluffdale-ut/",
-    "/service-areas/cedar-hills-ut/",
-    "/service-areas/draper-ut/"
+    "/service-areas/cedar-fort-ut/",
+    "/service-areas/cedar-hills-ut/"
   ],
   "/service-areas/vineyard-ut/": [
     "/service-areas/",
@@ -492,7 +494,7 @@
     "/service-areas/vineyard-ut/flood-equipment-rental/",
     "/service-areas/alpine-ut/",
     "/service-areas/bluffdale-ut/",
-    "/service-areas/cedar-hills-ut/"
+    "/service-areas/cedar-fort-ut/"
   ],
   "/service-areas/draper-ut/": [
     "/service-areas/",
@@ -510,7 +512,7 @@
     "/service-areas/draper-ut/flood-equipment-rental/",
     "/service-areas/alpine-ut/",
     "/service-areas/bluffdale-ut/",
-    "/service-areas/cedar-hills-ut/"
+    "/service-areas/cedar-fort-ut/"
   ],
   "/service-areas/bluffdale-ut/": [
     "/service-areas/",
@@ -527,8 +529,8 @@
     "/service-areas/bluffdale-ut/contents-restoration-storage/",
     "/service-areas/bluffdale-ut/flood-equipment-rental/",
     "/service-areas/alpine-ut/",
-    "/service-areas/cedar-hills-ut/",
-    "/service-areas/draper-ut/"
+    "/service-areas/cedar-fort-ut/",
+    "/service-areas/cedar-hills-ut/"
   ],
   "/service-areas/eagle-mountain-ut/": [
     "/service-areas/",
@@ -546,7 +548,7 @@
     "/service-areas/eagle-mountain-ut/flood-equipment-rental/",
     "/service-areas/alpine-ut/",
     "/service-areas/bluffdale-ut/",
-    "/service-areas/cedar-hills-ut/"
+    "/service-areas/cedar-fort-ut/"
   ],
   "/service-areas/sandy-ut/": [
     "/service-areas/",
@@ -564,7 +566,7 @@
     "/service-areas/sandy-ut/flood-equipment-rental/",
     "/service-areas/alpine-ut/",
     "/service-areas/bluffdale-ut/",
-    "/service-areas/cedar-hills-ut/"
+    "/service-areas/cedar-fort-ut/"
   ],
   "/service-areas/herriman-ut/": [
     "/service-areas/",
@@ -582,7 +584,7 @@
     "/service-areas/herriman-ut/flood-equipment-rental/",
     "/service-areas/alpine-ut/",
     "/service-areas/bluffdale-ut/",
-    "/service-areas/cedar-hills-ut/"
+    "/service-areas/cedar-fort-ut/"
   ],
   "/service-areas/riverton-ut/": [
     "/service-areas/",
@@ -600,7 +602,7 @@
     "/service-areas/riverton-ut/flood-equipment-rental/",
     "/service-areas/alpine-ut/",
     "/service-areas/bluffdale-ut/",
-    "/service-areas/cedar-hills-ut/"
+    "/service-areas/cedar-fort-ut/"
   ],
   "/service-areas/south-jordan-ut/": [
     "/service-areas/",
@@ -616,6 +618,24 @@
     "/service-areas/south-jordan-ut/emergency-board-up-tarping/",
     "/service-areas/south-jordan-ut/contents-restoration-storage/",
     "/service-areas/south-jordan-ut/flood-equipment-rental/",
+    "/service-areas/alpine-ut/",
+    "/service-areas/bluffdale-ut/",
+    "/service-areas/cedar-fort-ut/"
+  ],
+  "/service-areas/cedar-fort-ut/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/cedar-fort-ut/fire-damage-restoration/",
+    "/service-areas/cedar-fort-ut/mold-remediation/",
+    "/service-areas/cedar-fort-ut/water-damage-restoration/",
+    "/service-areas/cedar-fort-ut/sewage-cleanup/",
+    "/service-areas/cedar-fort-ut/storm-damage-restoration/",
+    "/service-areas/cedar-fort-ut/water-cleanup/",
+    "/service-areas/cedar-fort-ut/biohazard-cleanup/",
+    "/service-areas/cedar-fort-ut/general-contracting/",
+    "/service-areas/cedar-fort-ut/emergency-board-up-tarping/",
+    "/service-areas/cedar-fort-ut/contents-restoration-storage/",
+    "/service-areas/cedar-fort-ut/flood-equipment-rental/",
     "/service-areas/alpine-ut/",
     "/service-areas/bluffdale-ut/",
     "/service-areas/cedar-hills-ut/"
@@ -1616,7 +1636,7 @@
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/bluffdale-ut/water-damage-restoration/",
-    "/service-areas/cedar-hills-ut/water-damage-restoration/",
+    "/service-areas/cedar-fort-ut/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/storm-damage-restoration/": [
@@ -1625,7 +1645,7 @@
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/bluffdale-ut/storm-damage-restoration/",
-    "/service-areas/cedar-hills-ut/storm-damage-restoration/",
+    "/service-areas/cedar-fort-ut/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/fire-damage-restoration/": [
@@ -1634,7 +1654,7 @@
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/alpine-ut/water-damage-restoration/",
     "/service-areas/bluffdale-ut/fire-damage-restoration/",
-    "/service-areas/cedar-hills-ut/fire-damage-restoration/",
+    "/service-areas/cedar-fort-ut/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/general-contracting/": [
@@ -1643,7 +1663,7 @@
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/bluffdale-ut/general-contracting/",
-    "/service-areas/cedar-hills-ut/general-contracting/",
+    "/service-areas/cedar-fort-ut/general-contracting/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/sewage-cleanup/": [
@@ -1652,7 +1672,7 @@
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/bluffdale-ut/sewage-cleanup/",
-    "/service-areas/cedar-hills-ut/sewage-cleanup/",
+    "/service-areas/cedar-fort-ut/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/emergency-board-up-tarping/": [
@@ -1661,7 +1681,7 @@
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/bluffdale-ut/emergency-board-up-tarping/",
-    "/service-areas/cedar-hills-ut/emergency-board-up-tarping/",
+    "/service-areas/cedar-fort-ut/emergency-board-up-tarping/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/water-cleanup/": [
@@ -1670,7 +1690,7 @@
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/bluffdale-ut/water-cleanup/",
-    "/service-areas/cedar-hills-ut/water-cleanup/",
+    "/service-areas/cedar-fort-ut/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/mold-remediation/": [
@@ -1679,7 +1699,7 @@
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/alpine-ut/water-damage-restoration/",
     "/service-areas/bluffdale-ut/mold-remediation/",
-    "/service-areas/cedar-hills-ut/mold-remediation/",
+    "/service-areas/cedar-fort-ut/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/biohazard-cleanup/": [
@@ -1688,7 +1708,7 @@
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/bluffdale-ut/biohazard-cleanup/",
-    "/service-areas/cedar-hills-ut/biohazard-cleanup/",
+    "/service-areas/cedar-fort-ut/biohazard-cleanup/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/contents-restoration-storage/": [
@@ -1697,7 +1717,7 @@
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/bluffdale-ut/contents-restoration-storage/",
-    "/service-areas/cedar-hills-ut/contents-restoration-storage/",
+    "/service-areas/cedar-fort-ut/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/flood-equipment-rental/": [
@@ -1706,7 +1726,7 @@
     "/service-areas/alpine-ut/fire-damage-restoration/",
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/bluffdale-ut/flood-equipment-rental/",
-    "/service-areas/cedar-hills-ut/flood-equipment-rental/",
+    "/service-areas/cedar-fort-ut/flood-equipment-rental/",
     "/contact/"
   ],
   "/service-areas/vineyard-ut/water-damage-restoration/": [
@@ -1913,7 +1933,7 @@
     "/service-areas/bluffdale-ut/fire-damage-restoration/",
     "/service-areas/bluffdale-ut/mold-remediation/",
     "/service-areas/alpine-ut/water-damage-restoration/",
-    "/service-areas/cedar-hills-ut/water-damage-restoration/",
+    "/service-areas/cedar-fort-ut/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/bluffdale-ut/storm-damage-restoration/": [
@@ -1922,7 +1942,7 @@
     "/service-areas/bluffdale-ut/fire-damage-restoration/",
     "/service-areas/bluffdale-ut/mold-remediation/",
     "/service-areas/alpine-ut/storm-damage-restoration/",
-    "/service-areas/cedar-hills-ut/storm-damage-restoration/",
+    "/service-areas/cedar-fort-ut/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/bluffdale-ut/fire-damage-restoration/": [
@@ -1931,7 +1951,7 @@
     "/service-areas/bluffdale-ut/mold-remediation/",
     "/service-areas/bluffdale-ut/water-damage-restoration/",
     "/service-areas/alpine-ut/fire-damage-restoration/",
-    "/service-areas/cedar-hills-ut/fire-damage-restoration/",
+    "/service-areas/cedar-fort-ut/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/bluffdale-ut/general-contracting/": [
@@ -1940,7 +1960,7 @@
     "/service-areas/bluffdale-ut/fire-damage-restoration/",
     "/service-areas/bluffdale-ut/mold-remediation/",
     "/service-areas/alpine-ut/general-contracting/",
-    "/service-areas/cedar-hills-ut/general-contracting/",
+    "/service-areas/cedar-fort-ut/general-contracting/",
     "/contact/"
   ],
   "/service-areas/bluffdale-ut/sewage-cleanup/": [
@@ -1949,7 +1969,7 @@
     "/service-areas/bluffdale-ut/fire-damage-restoration/",
     "/service-areas/bluffdale-ut/mold-remediation/",
     "/service-areas/alpine-ut/sewage-cleanup/",
-    "/service-areas/cedar-hills-ut/sewage-cleanup/",
+    "/service-areas/cedar-fort-ut/sewage-cleanup/",
     "/contact/"
   ],
   "/service-areas/bluffdale-ut/emergency-board-up-tarping/": [
@@ -1958,7 +1978,7 @@
     "/service-areas/bluffdale-ut/fire-damage-restoration/",
     "/service-areas/bluffdale-ut/mold-remediation/",
     "/service-areas/alpine-ut/emergency-board-up-tarping/",
-    "/service-areas/cedar-hills-ut/emergency-board-up-tarping/",
+    "/service-areas/cedar-fort-ut/emergency-board-up-tarping/",
     "/contact/"
   ],
   "/service-areas/bluffdale-ut/water-cleanup/": [
@@ -1967,7 +1987,7 @@
     "/service-areas/bluffdale-ut/fire-damage-restoration/",
     "/service-areas/bluffdale-ut/mold-remediation/",
     "/service-areas/alpine-ut/water-cleanup/",
-    "/service-areas/cedar-hills-ut/water-cleanup/",
+    "/service-areas/cedar-fort-ut/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/bluffdale-ut/mold-remediation/": [
@@ -1976,7 +1996,7 @@
     "/service-areas/bluffdale-ut/fire-damage-restoration/",
     "/service-areas/bluffdale-ut/water-damage-restoration/",
     "/service-areas/alpine-ut/mold-remediation/",
-    "/service-areas/cedar-hills-ut/mold-remediation/",
+    "/service-areas/cedar-fort-ut/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/bluffdale-ut/biohazard-cleanup/": [
@@ -1985,7 +2005,7 @@
     "/service-areas/bluffdale-ut/fire-damage-restoration/",
     "/service-areas/bluffdale-ut/mold-remediation/",
     "/service-areas/alpine-ut/biohazard-cleanup/",
-    "/service-areas/cedar-hills-ut/biohazard-cleanup/",
+    "/service-areas/cedar-fort-ut/biohazard-cleanup/",
     "/contact/"
   ],
   "/service-areas/bluffdale-ut/contents-restoration-storage/": [
@@ -1994,7 +2014,7 @@
     "/service-areas/bluffdale-ut/fire-damage-restoration/",
     "/service-areas/bluffdale-ut/mold-remediation/",
     "/service-areas/alpine-ut/contents-restoration-storage/",
-    "/service-areas/cedar-hills-ut/contents-restoration-storage/",
+    "/service-areas/cedar-fort-ut/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/bluffdale-ut/flood-equipment-rental/": [
@@ -2003,7 +2023,7 @@
     "/service-areas/bluffdale-ut/fire-damage-restoration/",
     "/service-areas/bluffdale-ut/mold-remediation/",
     "/service-areas/alpine-ut/flood-equipment-rental/",
-    "/service-areas/cedar-hills-ut/flood-equipment-rental/",
+    "/service-areas/cedar-fort-ut/flood-equipment-rental/",
     "/contact/"
   ],
   "/service-areas/eagle-mountain-ut/water-damage-restoration/": [
@@ -2497,6 +2517,105 @@
     "/service-areas/south-jordan-ut/",
     "/service-areas/south-jordan-ut/fire-damage-restoration/",
     "/service-areas/south-jordan-ut/mold-remediation/",
+    "/service-areas/alpine-ut/flood-equipment-rental/",
+    "/service-areas/bluffdale-ut/flood-equipment-rental/",
+    "/contact/"
+  ],
+  "/service-areas/cedar-fort-ut/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/cedar-fort-ut/",
+    "/service-areas/cedar-fort-ut/fire-damage-restoration/",
+    "/service-areas/cedar-fort-ut/mold-remediation/",
+    "/service-areas/alpine-ut/water-damage-restoration/",
+    "/service-areas/bluffdale-ut/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/cedar-fort-ut/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/cedar-fort-ut/",
+    "/service-areas/cedar-fort-ut/fire-damage-restoration/",
+    "/service-areas/cedar-fort-ut/mold-remediation/",
+    "/service-areas/alpine-ut/storm-damage-restoration/",
+    "/service-areas/bluffdale-ut/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/cedar-fort-ut/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/cedar-fort-ut/",
+    "/service-areas/cedar-fort-ut/mold-remediation/",
+    "/service-areas/cedar-fort-ut/water-damage-restoration/",
+    "/service-areas/alpine-ut/fire-damage-restoration/",
+    "/service-areas/bluffdale-ut/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/cedar-fort-ut/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/cedar-fort-ut/",
+    "/service-areas/cedar-fort-ut/fire-damage-restoration/",
+    "/service-areas/cedar-fort-ut/mold-remediation/",
+    "/service-areas/alpine-ut/general-contracting/",
+    "/service-areas/bluffdale-ut/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/cedar-fort-ut/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/cedar-fort-ut/",
+    "/service-areas/cedar-fort-ut/fire-damage-restoration/",
+    "/service-areas/cedar-fort-ut/mold-remediation/",
+    "/service-areas/alpine-ut/sewage-cleanup/",
+    "/service-areas/bluffdale-ut/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/cedar-fort-ut/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/cedar-fort-ut/",
+    "/service-areas/cedar-fort-ut/fire-damage-restoration/",
+    "/service-areas/cedar-fort-ut/mold-remediation/",
+    "/service-areas/alpine-ut/emergency-board-up-tarping/",
+    "/service-areas/bluffdale-ut/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/cedar-fort-ut/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/cedar-fort-ut/",
+    "/service-areas/cedar-fort-ut/fire-damage-restoration/",
+    "/service-areas/cedar-fort-ut/mold-remediation/",
+    "/service-areas/alpine-ut/water-cleanup/",
+    "/service-areas/bluffdale-ut/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/cedar-fort-ut/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/cedar-fort-ut/",
+    "/service-areas/cedar-fort-ut/fire-damage-restoration/",
+    "/service-areas/cedar-fort-ut/water-damage-restoration/",
+    "/service-areas/alpine-ut/mold-remediation/",
+    "/service-areas/bluffdale-ut/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/cedar-fort-ut/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/cedar-fort-ut/",
+    "/service-areas/cedar-fort-ut/fire-damage-restoration/",
+    "/service-areas/cedar-fort-ut/mold-remediation/",
+    "/service-areas/alpine-ut/biohazard-cleanup/",
+    "/service-areas/bluffdale-ut/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/cedar-fort-ut/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/cedar-fort-ut/",
+    "/service-areas/cedar-fort-ut/fire-damage-restoration/",
+    "/service-areas/cedar-fort-ut/mold-remediation/",
+    "/service-areas/alpine-ut/contents-restoration-storage/",
+    "/service-areas/bluffdale-ut/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/cedar-fort-ut/flood-equipment-rental/": [
+    "/services/flood-equipment-rental/",
+    "/service-areas/cedar-fort-ut/",
+    "/service-areas/cedar-fort-ut/fire-damage-restoration/",
+    "/service-areas/cedar-fort-ut/mold-remediation/",
     "/service-areas/alpine-ut/flood-equipment-rental/",
     "/service-areas/bluffdale-ut/flood-equipment-rental/",
     "/contact/"

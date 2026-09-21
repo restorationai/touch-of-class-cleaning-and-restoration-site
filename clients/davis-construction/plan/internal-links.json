@@ -24,6 +24,7 @@
     "/service-areas/new-hope-al/",
     "/service-areas/new-market-al/",
     "/service-areas/owens-cross-roads-al/",
+    "/service-areas/priceville-al/",
     "/service-areas/redstone-arsenal-al/",
     "/service-areas/triana-al/"
   ],
@@ -52,6 +53,7 @@
     "/service-areas/new-hope-al/",
     "/service-areas/new-market-al/",
     "/service-areas/owens-cross-roads-al/",
+    "/service-areas/priceville-al/",
     "/service-areas/redstone-arsenal-al/",
     "/service-areas/triana-al/"
   ],
@@ -94,7 +96,7 @@
     "/service-areas/new-hope-al/home-remodeling/",
     "/service-areas/new-market-al/home-remodeling/",
     "/service-areas/owens-cross-roads-al/home-remodeling/",
-    "/service-areas/redstone-arsenal-al/home-remodeling/",
+    "/service-areas/priceville-al/home-remodeling/",
     "/blog/choosing-a-general-contractor/",
     "/blog/how-to-plan-a-home-remodel/",
     "/blog/do-you-need-a-permit/"
@@ -113,7 +115,7 @@
     "/service-areas/new-hope-al/new-construction/",
     "/service-areas/new-market-al/new-construction/",
     "/service-areas/owens-cross-roads-al/new-construction/",
-    "/service-areas/redstone-arsenal-al/new-construction/",
+    "/service-areas/priceville-al/new-construction/",
     "/blog/choosing-a-general-contractor/",
     "/blog/how-long-to-build-a-house/"
   ],
@@ -131,7 +133,7 @@
     "/service-areas/new-hope-al/decks-pergolas-fences/",
     "/service-areas/new-market-al/decks-pergolas-fences/",
     "/service-areas/owens-cross-roads-al/decks-pergolas-fences/",
-    "/service-areas/redstone-arsenal-al/decks-pergolas-fences/",
+    "/service-areas/priceville-al/decks-pergolas-fences/",
     "/blog/wood-vs-composite-decking/"
   ],
   "/services/roofing/": [
@@ -148,7 +150,7 @@
     "/service-areas/new-hope-al/roofing/",
     "/service-areas/new-market-al/roofing/",
     "/service-areas/owens-cross-roads-al/roofing/",
-    "/service-areas/redstone-arsenal-al/roofing/",
+    "/service-areas/priceville-al/roofing/",
     "/blog/roofing-material-comparison/",
     "/blog/how-long-does-roof-replacement-take/",
     "/blog/storm-damage-repair-process/"
@@ -167,7 +169,7 @@
     "/service-areas/new-hope-al/siding-gutters/",
     "/service-areas/new-market-al/siding-gutters/",
     "/service-areas/owens-cross-roads-al/siding-gutters/",
-    "/service-areas/redstone-arsenal-al/siding-gutters/",
+    "/service-areas/priceville-al/siding-gutters/",
     "/blog/siding-options-compared/"
   ],
   "/services/painting-trim/": [
@@ -184,7 +186,7 @@
     "/service-areas/new-hope-al/painting-trim/",
     "/service-areas/new-market-al/painting-trim/",
     "/service-areas/owens-cross-roads-al/painting-trim/",
-    "/service-areas/redstone-arsenal-al/painting-trim/"
+    "/service-areas/priceville-al/painting-trim/"
   ],
   "/services/water-damage-restoration/": [
     "/services/",
@@ -200,7 +202,7 @@
     "/service-areas/new-hope-al/water-damage-restoration/",
     "/service-areas/new-market-al/water-damage-restoration/",
     "/service-areas/owens-cross-roads-al/water-damage-restoration/",
-    "/service-areas/redstone-arsenal-al/water-damage-restoration/"
+    "/service-areas/priceville-al/water-damage-restoration/"
   ],
   "/services/storm-damage-restoration/": [
     "/services/",
@@ -216,7 +218,7 @@
     "/service-areas/new-hope-al/storm-damage-restoration/",
     "/service-areas/new-market-al/storm-damage-restoration/",
     "/service-areas/owens-cross-roads-al/storm-damage-restoration/",
-    "/service-areas/redstone-arsenal-al/storm-damage-restoration/",
+    "/service-areas/priceville-al/storm-damage-restoration/",
     "/blog/storm-damage-insurance-claim-checklist/",
     "/blog/storm-damage-repair-process/"
   ],
@@ -234,7 +236,7 @@
     "/service-areas/new-hope-al/mold-remediation/",
     "/service-areas/new-market-al/mold-remediation/",
     "/service-areas/owens-cross-roads-al/mold-remediation/",
-    "/service-areas/redstone-arsenal-al/mold-remediation/",
+    "/service-areas/priceville-al/mold-remediation/",
     "/blog/mold-found-during-renovation/"
   ],
   "/service-areas/huntsville-al/": [
@@ -444,6 +446,22 @@
     "/service-areas/athens-al/",
     "/service-areas/gurley-al/",
     "/service-areas/harvest-al/"
+  ],
+  "/service-areas/priceville-al/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/priceville-al/home-remodeling/",
+    "/service-areas/priceville-al/roofing/",
+    "/service-areas/priceville-al/decks-pergolas-fences/",
+    "/service-areas/priceville-al/new-construction/",
+    "/service-areas/priceville-al/siding-gutters/",
+    "/service-areas/priceville-al/mold-remediation/",
+    "/service-areas/priceville-al/painting-trim/",
+    "/service-areas/priceville-al/storm-damage-restoration/",
+    "/service-areas/priceville-al/water-damage-restoration/",
+    "/service-areas/ardmore-al/",
+    "/service-areas/athens-al/",
+    "/service-areas/gurley-al/"
   ],
   "/service-areas/huntsville-al/home-remodeling/": [
     "/services/home-remodeling/",
@@ -1496,6 +1514,87 @@
     "/service-areas/ardmore-al/roofing/",
     "/service-areas/athens-al/mold-remediation/",
     "/service-areas/gurley-al/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/priceville-al/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/priceville-al/",
+    "/service-areas/priceville-al/roofing/",
+    "/service-areas/priceville-al/decks-pergolas-fences/",
+    "/service-areas/ardmore-al/home-remodeling/",
+    "/service-areas/athens-al/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/priceville-al/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/priceville-al/",
+    "/service-areas/priceville-al/home-remodeling/",
+    "/service-areas/priceville-al/roofing/",
+    "/service-areas/ardmore-al/new-construction/",
+    "/service-areas/athens-al/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/priceville-al/decks-pergolas-fences/": [
+    "/services/decks-pergolas-fences/",
+    "/service-areas/priceville-al/",
+    "/service-areas/priceville-al/home-remodeling/",
+    "/service-areas/priceville-al/roofing/",
+    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/service-areas/athens-al/decks-pergolas-fences/",
+    "/contact/"
+  ],
+  "/service-areas/priceville-al/roofing/": [
+    "/services/roofing/",
+    "/service-areas/priceville-al/",
+    "/service-areas/priceville-al/home-remodeling/",
+    "/service-areas/priceville-al/decks-pergolas-fences/",
+    "/service-areas/ardmore-al/roofing/",
+    "/service-areas/athens-al/roofing/",
+    "/contact/"
+  ],
+  "/service-areas/priceville-al/siding-gutters/": [
+    "/services/siding-gutters/",
+    "/service-areas/priceville-al/",
+    "/service-areas/priceville-al/home-remodeling/",
+    "/service-areas/priceville-al/roofing/",
+    "/service-areas/ardmore-al/siding-gutters/",
+    "/service-areas/athens-al/siding-gutters/",
+    "/contact/"
+  ],
+  "/service-areas/priceville-al/painting-trim/": [
+    "/services/painting-trim/",
+    "/service-areas/priceville-al/",
+    "/service-areas/priceville-al/home-remodeling/",
+    "/service-areas/priceville-al/roofing/",
+    "/service-areas/ardmore-al/painting-trim/",
+    "/service-areas/athens-al/painting-trim/",
+    "/contact/"
+  ],
+  "/service-areas/priceville-al/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/priceville-al/",
+    "/service-areas/priceville-al/home-remodeling/",
+    "/service-areas/priceville-al/roofing/",
+    "/service-areas/ardmore-al/water-damage-restoration/",
+    "/service-areas/athens-al/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/priceville-al/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/priceville-al/",
+    "/service-areas/priceville-al/home-remodeling/",
+    "/service-areas/priceville-al/roofing/",
+    "/service-areas/ardmore-al/storm-damage-restoration/",
+    "/service-areas/athens-al/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/priceville-al/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/priceville-al/",
+    "/service-areas/priceville-al/home-remodeling/",
+    "/service-areas/priceville-al/roofing/",
+    "/service-areas/ardmore-al/mold-remediation/",
+    "/service-areas/athens-al/mold-remediation/",
     "/contact/"
   ],
   "/blog/how-to-plan-a-home-remodel/": [

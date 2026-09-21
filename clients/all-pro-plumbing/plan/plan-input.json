@@ -269,6 +269,11 @@
       "city": "Wasco",
       "state": "CA",
       "slug": "wasco-ca"
+    },
+    {
+      "city": "Valley Acres",
+      "state": "CA",
+      "slug": "valley-acres-ca"
     }
   ],
   "brand": {

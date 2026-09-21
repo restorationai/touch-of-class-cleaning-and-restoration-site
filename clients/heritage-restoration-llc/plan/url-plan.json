@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-21T14:13:19.837783+00:00",
+  "generated_at": "2026-09-21T19:18:48.319808+00:00",
   "input_summary": {
     "service_count": 4,
-    "service_area_count": 20,
+    "service_area_count": 21,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -46,6 +46,7 @@
         "/services/storm-damage-restoration/",
         "/services/water-cleanup/",
         "/services/general-contracting/",
+        "/service-areas/albany-mn/",
         "/service-areas/baxter-mn/",
         "/service-areas/brainerd-mn/",
         "/service-areas/elmdale-mn/",
@@ -132,6 +133,7 @@
       "status": "planned",
       "internal_links_out": [
         "/",
+        "/service-areas/albany-mn/",
         "/service-areas/baxter-mn/",
         "/service-areas/brainerd-mn/",
         "/service-areas/elmdale-mn/",
@@ -292,6 +294,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/albany-mn/water-damage-restoration/",
         "/service-areas/baxter-mn/water-damage-restoration/",
         "/service-areas/brainerd-mn/water-damage-restoration/",
         "/service-areas/elmdale-mn/water-damage-restoration/",
@@ -303,7 +306,6 @@
         "/service-areas/pierz-mn/water-damage-restoration/",
         "/service-areas/randall-mn/water-damage-restoration/",
         "/service-areas/rice-mn/water-damage-restoration/",
-        "/service-areas/royalton-mn/water-damage-restoration/",
         "/services/water-cleanup/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
@@ -346,6 +348,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/albany-mn/storm-damage-restoration/",
         "/service-areas/baxter-mn/storm-damage-restoration/",
         "/service-areas/brainerd-mn/storm-damage-restoration/",
         "/service-areas/elmdale-mn/storm-damage-restoration/",
@@ -357,7 +360,6 @@
         "/service-areas/pierz-mn/storm-damage-restoration/",
         "/service-areas/randall-mn/storm-damage-restoration/",
         "/service-areas/rice-mn/storm-damage-restoration/",
-        "/service-areas/royalton-mn/storm-damage-restoration/",
         "/blog/storm-damage-insurance-claim-checklist/"
       ]
     },
@@ -398,6 +400,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/albany-mn/general-contracting/",
         "/service-areas/baxter-mn/general-contracting/",
         "/service-areas/brainerd-mn/general-contracting/",
         "/service-areas/elmdale-mn/general-contracting/",
@@ -408,8 +411,7 @@
         "/service-areas/long-prairie-mn/general-contracting/",
         "/service-areas/pierz-mn/general-contracting/",
         "/service-areas/randall-mn/general-contracting/",
-        "/service-areas/rice-mn/general-contracting/",
-        "/service-areas/royalton-mn/general-contracting/"
+        "/service-areas/rice-mn/general-contracting/"
       ]
     },
     {
@@ -448,6 +450,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/albany-mn/water-cleanup/",
         "/service-areas/baxter-mn/water-cleanup/",
         "/service-areas/brainerd-mn/water-cleanup/",
         "/service-areas/elmdale-mn/water-cleanup/",
@@ -459,7 +462,6 @@
         "/service-areas/pierz-mn/water-cleanup/",
         "/service-areas/randall-mn/water-cleanup/",
         "/service-areas/rice-mn/water-cleanup/",
-        "/service-areas/royalton-mn/water-cleanup/",
         "/services/water-damage-restoration/"
       ]
     },
@@ -499,9 +501,9 @@
         "/service-areas/st-cloud-mn/storm-damage-restoration/",
         "/service-areas/st-cloud-mn/water-cleanup/",
         "/service-areas/st-cloud-mn/general-contracting/",
+        "/service-areas/albany-mn/",
         "/service-areas/baxter-mn/",
-        "/service-areas/brainerd-mn/",
-        "/service-areas/elmdale-mn/"
+        "/service-areas/brainerd-mn/"
       ]
     },
     {
@@ -540,9 +542,9 @@
         "/service-areas/sartell-mn/storm-damage-restoration/",
         "/service-areas/sartell-mn/water-cleanup/",
         "/service-areas/sartell-mn/general-contracting/",
+        "/service-areas/albany-mn/",
         "/service-areas/baxter-mn/",
-        "/service-areas/brainerd-mn/",
-        "/service-areas/elmdale-mn/"
+        "/service-areas/brainerd-mn/"
       ]
     },
     {
@@ -581,9 +583,9 @@
         "/service-areas/sauk-rapids-mn/storm-damage-restoration/",
         "/service-areas/sauk-rapids-mn/water-cleanup/",
         "/service-areas/sauk-rapids-mn/general-contracting/",
+        "/service-areas/albany-mn/",
         "/service-areas/baxter-mn/",
-        "/service-areas/brainerd-mn/",
-        "/service-areas/elmdale-mn/"
+        "/service-areas/brainerd-mn/"
       ]
     },
     {
@@ -622,9 +624,9 @@
         "/service-areas/brainerd-mn/storm-damage-restoration/",
         "/service-areas/brainerd-mn/water-cleanup/",
         "/service-areas/brainerd-mn/general-contracting/",
+        "/service-areas/albany-mn/",
         "/service-areas/baxter-mn/",
-        "/service-areas/elmdale-mn/",
-        "/service-areas/flensburg-mn/"
+        "/service-areas/elmdale-mn/"
       ]
     },
     {
@@ -663,9 +665,9 @@
         "/service-areas/baxter-mn/storm-damage-restoration/",
         "/service-areas/baxter-mn/water-cleanup/",
         "/service-areas/baxter-mn/general-contracting/",
+        "/service-areas/albany-mn/",
         "/service-areas/brainerd-mn/",
-        "/service-areas/elmdale-mn/",
-        "/service-areas/flensburg-mn/"
+        "/service-areas/elmdale-mn/"
       ]
     },
     {
@@ -704,9 +706,9 @@
         "/service-areas/foley-mn/storm-damage-restoration/",
         "/service-areas/foley-mn/water-cleanup/",
         "/service-areas/foley-mn/general-contracting/",
+        "/service-areas/albany-mn/",
         "/service-areas/baxter-mn/",
-        "/service-areas/brainerd-mn/",
-        "/service-areas/elmdale-mn/"
+        "/service-areas/brainerd-mn/"
       ]
     },
     {
@@ -745,9 +747,9 @@
         "/service-areas/royalton-mn/storm-damage-restoration/",
         "/service-areas/royalton-mn/water-cleanup/",
         "/service-areas/royalton-mn/general-contracting/",
+        "/service-areas/albany-mn/",
         "/service-areas/baxter-mn/",
-        "/service-areas/brainerd-mn/",
-        "/service-areas/elmdale-mn/"
+        "/service-areas/brainerd-mn/"
       ]
     },
     {
@@ -786,9 +788,9 @@
         "/service-areas/pierz-mn/storm-damage-restoration/",
         "/service-areas/pierz-mn/water-cleanup/",
         "/service-areas/pierz-mn/general-contracting/",
+        "/service-areas/albany-mn/",
         "/service-areas/baxter-mn/",
-        "/service-areas/brainerd-mn/",
-        "/service-areas/elmdale-mn/"
+        "/service-areas/brainerd-mn/"
       ]
     },
     {
@@ -827,9 +829,9 @@
         "/service-areas/sobieski-mn/storm-damage-restoration/",
         "/service-areas/sobieski-mn/water-cleanup/",
         "/service-areas/sobieski-mn/general-contracting/",
+        "/service-areas/albany-mn/",
         "/service-areas/baxter-mn/",
-        "/service-areas/brainerd-mn/",
-        "/service-areas/elmdale-mn/"
+        "/service-areas/brainerd-mn/"
       ]
     },
     {
@@ -868,9 +870,9 @@
         "/service-areas/flensburg-mn/storm-damage-restoration/",
         "/service-areas/flensburg-mn/water-cleanup/",
         "/service-areas/flensburg-mn/general-contracting/",
+        "/service-areas/albany-mn/",
         "/service-areas/baxter-mn/",
-        "/service-areas/brainerd-mn/",
-        "/service-areas/elmdale-mn/"
+        "/service-areas/brainerd-mn/"
       ]
     },
     {
@@ -909,9 +911,9 @@
         "/service-areas/randall-mn/storm-damage-restoration/",
         "/service-areas/randall-mn/water-cleanup/",
         "/service-areas/randall-mn/general-contracting/",
+        "/service-areas/albany-mn/",
         "/service-areas/baxter-mn/",
-        "/service-areas/brainerd-mn/",
-        "/service-areas/elmdale-mn/"
+        "/service-areas/brainerd-mn/"
       ]
     },
     {
@@ -950,9 +952,9 @@
         "/service-areas/elmdale-mn/storm-damage-restoration/",
         "/service-areas/elmdale-mn/water-cleanup/",
         "/service-areas/elmdale-mn/general-contracting/",
+        "/service-areas/albany-mn/",
         "/service-areas/baxter-mn/",
-        "/service-areas/brainerd-mn/",
-        "/service-areas/flensburg-mn/"
+        "/service-areas/brainerd-mn/"
       ]
     },
     {
@@ -991,9 +993,9 @@
         "/service-areas/fort-ripley-mn/storm-damage-restoration/",
         "/service-areas/fort-ripley-mn/water-cleanup/",
         "/service-areas/fort-ripley-mn/general-contracting/",
+        "/service-areas/albany-mn/",
         "/service-areas/baxter-mn/",
-        "/service-areas/brainerd-mn/",
-        "/service-areas/elmdale-mn/"
+        "/service-areas/brainerd-mn/"
       ]
     },
     {
@@ -1032,9 +1034,9 @@
         "/service-areas/swanville-mn/storm-damage-restoration/",
         "/service-areas/swanville-mn/water-cleanup/",
         "/service-areas/swanville-mn/general-contracting/",
+        "/service-areas/albany-mn/",
         "/service-areas/baxter-mn/",
-        "/service-areas/brainerd-mn/",
-        "/service-areas/elmdale-mn/"
+        "/service-areas/brainerd-mn/"
       ]
     },
     {
@@ -1073,9 +1075,9 @@
         "/service-areas/upsala-mn/storm-damage-restoration/",
         "/service-areas/upsala-mn/water-cleanup/",
         "/service-areas/upsala-mn/general-contracting/",
+        "/service-areas/albany-mn/",
         "/service-areas/baxter-mn/",
-        "/service-areas/brainerd-mn/",
-        "/service-areas/elmdale-mn/"
+        "/service-areas/brainerd-mn/"
       ]
     },
     {
@@ -1114,9 +1116,9 @@
         "/service-areas/rice-mn/storm-damage-restoration/",
         "/service-areas/rice-mn/water-cleanup/",
         "/service-areas/rice-mn/general-contracting/",
+        "/service-areas/albany-mn/",
         "/service-areas/baxter-mn/",
-        "/service-areas/brainerd-mn/",
-        "/service-areas/elmdale-mn/"
+        "/service-areas/brainerd-mn/"
       ]
     },
     {
@@ -1155,9 +1157,9 @@
         "/service-areas/harding-mn/storm-damage-restoration/",
         "/service-areas/harding-mn/water-cleanup/",
         "/service-areas/harding-mn/general-contracting/",
+        "/service-areas/albany-mn/",
         "/service-areas/baxter-mn/",
-        "/service-areas/brainerd-mn/",
-        "/service-areas/elmdale-mn/"
+        "/service-areas/brainerd-mn/"
       ]
     },
     {
@@ -1196,9 +1198,9 @@
         "/service-areas/st-stephen-mn/storm-damage-restoration/",
         "/service-areas/st-stephen-mn/water-cleanup/",
         "/service-areas/st-stephen-mn/general-contracting/",
+        "/service-areas/albany-mn/",
         "/service-areas/baxter-mn/",
-        "/service-areas/brainerd-mn/",
-        "/service-areas/elmdale-mn/"
+        "/service-areas/brainerd-mn/"
       ]
     },
     {
@@ -1237,6 +1239,47 @@
         "/service-areas/long-prairie-mn/storm-damage-restoration/",
         "/service-areas/long-prairie-mn/water-cleanup/",
         "/service-areas/long-prairie-mn/general-contracting/",
+        "/service-areas/albany-mn/",
+        "/service-areas/baxter-mn/",
+        "/service-areas/brainerd-mn/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/albany-mn/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Albany, MN | Heritage Restoration LLC",
+      "h1": "Restoration Services in Albany",
+      "meta_description": "Serving Albany, MN with water, fire, mold, and storm damage restoration. IICRC-certified team. Call (320) 733-8868.",
+      "primary_keyword": "restoration services albany",
+      "secondary_keywords": [
+        "albany restoration company",
+        "damage restoration albany",
+        "albany disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/albany-mn/water-damage-restoration/",
+        "/service-areas/albany-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/water-cleanup/",
+        "/service-areas/albany-mn/general-contracting/",
         "/service-areas/baxter-mn/",
         "/service-areas/brainerd-mn/",
         "/service-areas/elmdale-mn/"
@@ -1281,8 +1324,8 @@
         "/service-areas/st-cloud-mn/",
         "/service-areas/st-cloud-mn/storm-damage-restoration/",
         "/service-areas/st-cloud-mn/water-cleanup/",
+        "/service-areas/albany-mn/water-damage-restoration/",
         "/service-areas/baxter-mn/water-damage-restoration/",
-        "/service-areas/brainerd-mn/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1325,8 +1368,8 @@
         "/service-areas/st-cloud-mn/",
         "/service-areas/st-cloud-mn/water-damage-restoration/",
         "/service-areas/st-cloud-mn/water-cleanup/",
+        "/service-areas/albany-mn/storm-damage-restoration/",
         "/service-areas/baxter-mn/storm-damage-restoration/",
-        "/service-areas/brainerd-mn/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1370,8 +1413,8 @@
         "/service-areas/st-cloud-mn/",
         "/service-areas/st-cloud-mn/water-damage-restoration/",
         "/service-areas/st-cloud-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/general-contracting/",
         "/service-areas/baxter-mn/general-contracting/",
-        "/service-areas/brainerd-mn/general-contracting/",
         "/contact/"
       ]
     },
@@ -1414,8 +1457,8 @@
         "/service-areas/st-cloud-mn/",
         "/service-areas/st-cloud-mn/water-damage-restoration/",
         "/service-areas/st-cloud-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/water-cleanup/",
         "/service-areas/baxter-mn/water-cleanup/",
-        "/service-areas/brainerd-mn/water-cleanup/",
         "/contact/"
       ]
     },
@@ -1458,8 +1501,8 @@
         "/service-areas/sartell-mn/",
         "/service-areas/sartell-mn/storm-damage-restoration/",
         "/service-areas/sartell-mn/water-cleanup/",
+        "/service-areas/albany-mn/water-damage-restoration/",
         "/service-areas/baxter-mn/water-damage-restoration/",
-        "/service-areas/brainerd-mn/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1502,8 +1545,8 @@
         "/service-areas/sartell-mn/",
         "/service-areas/sartell-mn/water-damage-restoration/",
         "/service-areas/sartell-mn/water-cleanup/",
+        "/service-areas/albany-mn/storm-damage-restoration/",
         "/service-areas/baxter-mn/storm-damage-restoration/",
-        "/service-areas/brainerd-mn/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1547,8 +1590,8 @@
         "/service-areas/sartell-mn/",
         "/service-areas/sartell-mn/water-damage-restoration/",
         "/service-areas/sartell-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/general-contracting/",
         "/service-areas/baxter-mn/general-contracting/",
-        "/service-areas/brainerd-mn/general-contracting/",
         "/contact/"
       ]
     },
@@ -1591,8 +1634,8 @@
         "/service-areas/sartell-mn/",
         "/service-areas/sartell-mn/water-damage-restoration/",
         "/service-areas/sartell-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/water-cleanup/",
         "/service-areas/baxter-mn/water-cleanup/",
-        "/service-areas/brainerd-mn/water-cleanup/",
         "/contact/"
       ]
     },
@@ -1635,8 +1678,8 @@
         "/service-areas/sauk-rapids-mn/",
         "/service-areas/sauk-rapids-mn/storm-damage-restoration/",
         "/service-areas/sauk-rapids-mn/water-cleanup/",
+        "/service-areas/albany-mn/water-damage-restoration/",
         "/service-areas/baxter-mn/water-damage-restoration/",
-        "/service-areas/brainerd-mn/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1679,8 +1722,8 @@
         "/service-areas/sauk-rapids-mn/",
         "/service-areas/sauk-rapids-mn/water-damage-restoration/",
         "/service-areas/sauk-rapids-mn/water-cleanup/",
+        "/service-areas/albany-mn/storm-damage-restoration/",
         "/service-areas/baxter-mn/storm-damage-restoration/",
-        "/service-areas/brainerd-mn/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1724,8 +1767,8 @@
         "/service-areas/sauk-rapids-mn/",
         "/service-areas/sauk-rapids-mn/water-damage-restoration/",
         "/service-areas/sauk-rapids-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/general-contracting/",
         "/service-areas/baxter-mn/general-contracting/",
-        "/service-areas/brainerd-mn/general-contracting/",
         "/contact/"
       ]
     },
@@ -1768,8 +1811,8 @@
         "/service-areas/sauk-rapids-mn/",
         "/service-areas/sauk-rapids-mn/water-damage-restoration/",
         "/service-areas/sauk-rapids-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/water-cleanup/",
         "/service-areas/baxter-mn/water-cleanup/",
-        "/service-areas/brainerd-mn/water-cleanup/",
         "/contact/"
       ]
     },
@@ -1812,8 +1855,8 @@
         "/service-areas/brainerd-mn/",
         "/service-areas/brainerd-mn/storm-damage-restoration/",
         "/service-areas/brainerd-mn/water-cleanup/",
+        "/service-areas/albany-mn/water-damage-restoration/",
         "/service-areas/baxter-mn/water-damage-restoration/",
-        "/service-areas/elmdale-mn/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1856,8 +1899,8 @@
         "/service-areas/brainerd-mn/",
         "/service-areas/brainerd-mn/water-damage-restoration/",
         "/service-areas/brainerd-mn/water-cleanup/",
+        "/service-areas/albany-mn/storm-damage-restoration/",
         "/service-areas/baxter-mn/storm-damage-restoration/",
-        "/service-areas/elmdale-mn/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1901,8 +1944,8 @@
         "/service-areas/brainerd-mn/",
         "/service-areas/brainerd-mn/water-damage-restoration/",
         "/service-areas/brainerd-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/general-contracting/",
         "/service-areas/baxter-mn/general-contracting/",
-        "/service-areas/elmdale-mn/general-contracting/",
         "/contact/"
       ]
     },
@@ -1945,8 +1988,8 @@
         "/service-areas/brainerd-mn/",
         "/service-areas/brainerd-mn/water-damage-restoration/",
         "/service-areas/brainerd-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/water-cleanup/",
         "/service-areas/baxter-mn/water-cleanup/",
-        "/service-areas/elmdale-mn/water-cleanup/",
         "/contact/"
       ]
     },
@@ -1989,8 +2032,8 @@
         "/service-areas/baxter-mn/",
         "/service-areas/baxter-mn/storm-damage-restoration/",
         "/service-areas/baxter-mn/water-cleanup/",
+        "/service-areas/albany-mn/water-damage-restoration/",
         "/service-areas/brainerd-mn/water-damage-restoration/",
-        "/service-areas/elmdale-mn/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2033,8 +2076,8 @@
         "/service-areas/baxter-mn/",
         "/service-areas/baxter-mn/water-damage-restoration/",
         "/service-areas/baxter-mn/water-cleanup/",
+        "/service-areas/albany-mn/storm-damage-restoration/",
         "/service-areas/brainerd-mn/storm-damage-restoration/",
-        "/service-areas/elmdale-mn/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2078,8 +2121,8 @@
         "/service-areas/baxter-mn/",
         "/service-areas/baxter-mn/water-damage-restoration/",
         "/service-areas/baxter-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/general-contracting/",
         "/service-areas/brainerd-mn/general-contracting/",
-        "/service-areas/elmdale-mn/general-contracting/",
         "/contact/"
       ]
     },
@@ -2122,8 +2165,8 @@
         "/service-areas/baxter-mn/",
         "/service-areas/baxter-mn/water-damage-restoration/",
         "/service-areas/baxter-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/water-cleanup/",
         "/service-areas/brainerd-mn/water-cleanup/",
-        "/service-areas/elmdale-mn/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2166,8 +2209,8 @@
         "/service-areas/foley-mn/",
         "/service-areas/foley-mn/storm-damage-restoration/",
         "/service-areas/foley-mn/water-cleanup/",
+        "/service-areas/albany-mn/water-damage-restoration/",
         "/service-areas/baxter-mn/water-damage-restoration/",
-        "/service-areas/brainerd-mn/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2210,8 +2253,8 @@
         "/service-areas/foley-mn/",
         "/service-areas/foley-mn/water-damage-restoration/",
         "/service-areas/foley-mn/water-cleanup/",
+        "/service-areas/albany-mn/storm-damage-restoration/",
         "/service-areas/baxter-mn/storm-damage-restoration/",
-        "/service-areas/brainerd-mn/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2255,8 +2298,8 @@
         "/service-areas/foley-mn/",
         "/service-areas/foley-mn/water-damage-restoration/",
         "/service-areas/foley-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/general-contracting/",
         "/service-areas/baxter-mn/general-contracting/",
-        "/service-areas/brainerd-mn/general-contracting/",
         "/contact/"
       ]
     },
@@ -2299,8 +2342,8 @@
         "/service-areas/foley-mn/",
         "/service-areas/foley-mn/water-damage-restoration/",
         "/service-areas/foley-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/water-cleanup/",
         "/service-areas/baxter-mn/water-cleanup/",
-        "/service-areas/brainerd-mn/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2343,8 +2386,8 @@
         "/service-areas/royalton-mn/",
         "/service-areas/royalton-mn/storm-damage-restoration/",
         "/service-areas/royalton-mn/water-cleanup/",
+        "/service-areas/albany-mn/water-damage-restoration/",
         "/service-areas/baxter-mn/water-damage-restoration/",
-        "/service-areas/brainerd-mn/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2387,8 +2430,8 @@
         "/service-areas/royalton-mn/",
         "/service-areas/royalton-mn/water-damage-restoration/",
         "/service-areas/royalton-mn/water-cleanup/",
+        "/service-areas/albany-mn/storm-damage-restoration/",
         "/service-areas/baxter-mn/storm-damage-restoration/",
-        "/service-areas/brainerd-mn/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2432,8 +2475,8 @@
         "/service-areas/royalton-mn/",
         "/service-areas/royalton-mn/water-damage-restoration/",
         "/service-areas/royalton-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/general-contracting/",
         "/service-areas/baxter-mn/general-contracting/",
-        "/service-areas/brainerd-mn/general-contracting/",
         "/contact/"
       ]
     },
@@ -2476,8 +2519,8 @@
         "/service-areas/royalton-mn/",
         "/service-areas/royalton-mn/water-damage-restoration/",
         "/service-areas/royalton-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/water-cleanup/",
         "/service-areas/baxter-mn/water-cleanup/",
-        "/service-areas/brainerd-mn/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2520,8 +2563,8 @@
         "/service-areas/pierz-mn/",
         "/service-areas/pierz-mn/storm-damage-restoration/",
         "/service-areas/pierz-mn/water-cleanup/",
+        "/service-areas/albany-mn/water-damage-restoration/",
         "/service-areas/baxter-mn/water-damage-restoration/",
-        "/service-areas/brainerd-mn/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2564,8 +2607,8 @@
         "/service-areas/pierz-mn/",
         "/service-areas/pierz-mn/water-damage-restoration/",
         "/service-areas/pierz-mn/water-cleanup/",
+        "/service-areas/albany-mn/storm-damage-restoration/",
         "/service-areas/baxter-mn/storm-damage-restoration/",
-        "/service-areas/brainerd-mn/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2609,8 +2652,8 @@
         "/service-areas/pierz-mn/",
         "/service-areas/pierz-mn/water-damage-restoration/",
         "/service-areas/pierz-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/general-contracting/",
         "/service-areas/baxter-mn/general-contracting/",
-        "/service-areas/brainerd-mn/general-contracting/",
         "/contact/"
       ]
     },
@@ -2653,8 +2696,8 @@
         "/service-areas/pierz-mn/",
         "/service-areas/pierz-mn/water-damage-restoration/",
         "/service-areas/pierz-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/water-cleanup/",
         "/service-areas/baxter-mn/water-cleanup/",
-        "/service-areas/brainerd-mn/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2697,8 +2740,8 @@
         "/service-areas/sobieski-mn/",
         "/service-areas/sobieski-mn/storm-damage-restoration/",
         "/service-areas/sobieski-mn/water-cleanup/",
+        "/service-areas/albany-mn/water-damage-restoration/",
         "/service-areas/baxter-mn/water-damage-restoration/",
-        "/service-areas/brainerd-mn/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2741,8 +2784,8 @@
         "/service-areas/sobieski-mn/",
         "/service-areas/sobieski-mn/water-damage-restoration/",
         "/service-areas/sobieski-mn/water-cleanup/",
+        "/service-areas/albany-mn/storm-damage-restoration/",
         "/service-areas/baxter-mn/storm-damage-restoration/",
-        "/service-areas/brainerd-mn/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2786,8 +2829,8 @@
         "/service-areas/sobieski-mn/",
         "/service-areas/sobieski-mn/water-damage-restoration/",
         "/service-areas/sobieski-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/general-contracting/",
         "/service-areas/baxter-mn/general-contracting/",
-        "/service-areas/brainerd-mn/general-contracting/",
         "/contact/"
       ]
     },
@@ -2830,8 +2873,8 @@
         "/service-areas/sobieski-mn/",
         "/service-areas/sobieski-mn/water-damage-restoration/",
         "/service-areas/sobieski-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/water-cleanup/",
         "/service-areas/baxter-mn/water-cleanup/",
-        "/service-areas/brainerd-mn/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2874,8 +2917,8 @@
         "/service-areas/flensburg-mn/",
         "/service-areas/flensburg-mn/storm-damage-restoration/",
         "/service-areas/flensburg-mn/water-cleanup/",
+        "/service-areas/albany-mn/water-damage-restoration/",
         "/service-areas/baxter-mn/water-damage-restoration/",
-        "/service-areas/brainerd-mn/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2918,8 +2961,8 @@
         "/service-areas/flensburg-mn/",
         "/service-areas/flensburg-mn/water-damage-restoration/",
         "/service-areas/flensburg-mn/water-cleanup/",
+        "/service-areas/albany-mn/storm-damage-restoration/",
         "/service-areas/baxter-mn/storm-damage-restoration/",
-        "/service-areas/brainerd-mn/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2963,8 +3006,8 @@
         "/service-areas/flensburg-mn/",
         "/service-areas/flensburg-mn/water-damage-restoration/",
         "/service-areas/flensburg-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/general-contracting/",
         "/service-areas/baxter-mn/general-contracting/",
-        "/service-areas/brainerd-mn/general-contracting/",
         "/contact/"
       ]
     },
@@ -3007,8 +3050,8 @@
         "/service-areas/flensburg-mn/",
         "/service-areas/flensburg-mn/water-damage-restoration/",
         "/service-areas/flensburg-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/water-cleanup/",
         "/service-areas/baxter-mn/water-cleanup/",
-        "/service-areas/brainerd-mn/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3051,8 +3094,8 @@
         "/service-areas/randall-mn/",
         "/service-areas/randall-mn/storm-damage-restoration/",
         "/service-areas/randall-mn/water-cleanup/",
+        "/service-areas/albany-mn/water-damage-restoration/",
         "/service-areas/baxter-mn/water-damage-restoration/",
-        "/service-areas/brainerd-mn/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3095,8 +3138,8 @@
         "/service-areas/randall-mn/",
         "/service-areas/randall-mn/water-damage-restoration/",
         "/service-areas/randall-mn/water-cleanup/",
+        "/service-areas/albany-mn/storm-damage-restoration/",
         "/service-areas/baxter-mn/storm-damage-restoration/",
-        "/service-areas/brainerd-mn/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3140,8 +3183,8 @@
         "/service-areas/randall-mn/",
         "/service-areas/randall-mn/water-damage-restoration/",
         "/service-areas/randall-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/general-contracting/",
         "/service-areas/baxter-mn/general-contracting/",
-        "/service-areas/brainerd-mn/general-contracting/",
         "/contact/"
       ]
     },
@@ -3184,8 +3227,8 @@
         "/service-areas/randall-mn/",
         "/service-areas/randall-mn/water-damage-restoration/",
         "/service-areas/randall-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/water-cleanup/",
         "/service-areas/baxter-mn/water-cleanup/",
-        "/service-areas/brainerd-mn/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3228,8 +3271,8 @@
         "/service-areas/elmdale-mn/",
         "/service-areas/elmdale-mn/storm-damage-restoration/",
         "/service-areas/elmdale-mn/water-cleanup/",
+        "/service-areas/albany-mn/water-damage-restoration/",
         "/service-areas/baxter-mn/water-damage-restoration/",
-        "/service-areas/brainerd-mn/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3272,8 +3315,8 @@
         "/service-areas/elmdale-mn/",
         "/service-areas/elmdale-mn/water-damage-restoration/",
         "/service-areas/elmdale-mn/water-cleanup/",
+        "/service-areas/albany-mn/storm-damage-restoration/",
         "/service-areas/baxter-mn/storm-damage-restoration/",
-        "/service-areas/brainerd-mn/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3317,8 +3360,8 @@
         "/service-areas/elmdale-mn/",
         "/service-areas/elmdale-mn/water-damage-restoration/",
         "/service-areas/elmdale-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/general-contracting/",
         "/service-areas/baxter-mn/general-contracting/",
-        "/service-areas/brainerd-mn/general-contracting/",
         "/contact/"
       ]
     },
@@ -3361,8 +3404,8 @@
         "/service-areas/elmdale-mn/",
         "/service-areas/elmdale-mn/water-damage-restoration/",
         "/service-areas/elmdale-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/water-cleanup/",
         "/service-areas/baxter-mn/water-cleanup/",
-        "/service-areas/brainerd-mn/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3405,8 +3448,8 @@
         "/service-areas/fort-ripley-mn/",
         "/service-areas/fort-ripley-mn/storm-damage-restoration/",
         "/service-areas/fort-ripley-mn/water-cleanup/",
+        "/service-areas/albany-mn/water-damage-restoration/",
         "/service-areas/baxter-mn/water-damage-restoration/",
-        "/service-areas/brainerd-mn/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3449,8 +3492,8 @@
         "/service-areas/fort-ripley-mn/",
         "/service-areas/fort-ripley-mn/water-damage-restoration/",
         "/service-areas/fort-ripley-mn/water-cleanup/",
+        "/service-areas/albany-mn/storm-damage-restoration/",
         "/service-areas/baxter-mn/storm-damage-restoration/",
-        "/service-areas/brainerd-mn/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3494,8 +3537,8 @@
         "/service-areas/fort-ripley-mn/",
         "/service-areas/fort-ripley-mn/water-damage-restoration/",
         "/service-areas/fort-ripley-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/general-contracting/",
         "/service-areas/baxter-mn/general-contracting/",
-        "/service-areas/brainerd-mn/general-contracting/",
         "/contact/"
       ]
     },
@@ -3538,8 +3581,8 @@
         "/service-areas/fort-ripley-mn/",
         "/service-areas/fort-ripley-mn/water-damage-restoration/",
         "/service-areas/fort-ripley-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/water-cleanup/",
         "/service-areas/baxter-mn/water-cleanup/",
-        "/service-areas/brainerd-mn/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3582,8 +3625,8 @@
         "/service-areas/swanville-mn/",
         "/service-areas/swanville-mn/storm-damage-restoration/",
         "/service-areas/swanville-mn/water-cleanup/",
+        "/service-areas/albany-mn/water-damage-restoration/",
         "/service-areas/baxter-mn/water-damage-restoration/",
-        "/service-areas/brainerd-mn/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3626,8 +3669,8 @@
         "/service-areas/swanville-mn/",
         "/service-areas/swanville-mn/water-damage-restoration/",
         "/service-areas/swanville-mn/water-cleanup/",
+        "/service-areas/albany-mn/storm-damage-restoration/",
         "/service-areas/baxter-mn/storm-damage-restoration/",
-        "/service-areas/brainerd-mn/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3671,8 +3714,8 @@
         "/service-areas/swanville-mn/",
         "/service-areas/swanville-mn/water-damage-restoration/",
         "/service-areas/swanville-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/general-contracting/",
         "/service-areas/baxter-mn/general-contracting/",
-        "/service-areas/brainerd-mn/general-contracting/",
         "/contact/"
       ]
     },
@@ -3715,8 +3758,8 @@
         "/service-areas/swanville-mn/",
         "/service-areas/swanville-mn/water-damage-restoration/",
         "/service-areas/swanville-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/water-cleanup/",
         "/service-areas/baxter-mn/water-cleanup/",
-        "/service-areas/brainerd-mn/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3759,8 +3802,8 @@
         "/service-areas/upsala-mn/",
         "/service-areas/upsala-mn/storm-damage-restoration/",
         "/service-areas/upsala-mn/water-cleanup/",
+        "/service-areas/albany-mn/water-damage-restoration/",
         "/service-areas/baxter-mn/water-damage-restoration/",
-        "/service-areas/brainerd-mn/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3803,8 +3846,8 @@
         "/service-areas/upsala-mn/",
         "/service-areas/upsala-mn/water-damage-restoration/",
         "/service-areas/upsala-mn/water-cleanup/",
+        "/service-areas/albany-mn/storm-damage-restoration/",
         "/service-areas/baxter-mn/storm-damage-restoration/",
-        "/service-areas/brainerd-mn/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3848,8 +3891,8 @@
         "/service-areas/upsala-mn/",
         "/service-areas/upsala-mn/water-damage-restoration/",
         "/service-areas/upsala-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/general-contracting/",
         "/service-areas/baxter-mn/general-contracting/",
-        "/service-areas/brainerd-mn/general-contracting/",
         "/contact/"
       ]
     },
@@ -3892,8 +3935,8 @@
         "/service-areas/upsala-mn/",
         "/service-areas/upsala-mn/water-damage-restoration/",
         "/service-areas/upsala-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/water-cleanup/",
         "/service-areas/baxter-mn/water-cleanup/",
-        "/service-areas/brainerd-mn/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3936,8 +3979,8 @@
         "/service-areas/rice-mn/",
         "/service-areas/rice-mn/storm-damage-restoration/",
         "/service-areas/rice-mn/water-cleanup/",
+        "/service-areas/albany-mn/water-damage-restoration/",
         "/service-areas/baxter-mn/water-damage-restoration/",
-        "/service-areas/brainerd-mn/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3980,8 +4023,8 @@
         "/service-areas/rice-mn/",
         "/service-areas/rice-mn/water-damage-restoration/",
         "/service-areas/rice-mn/water-cleanup/",
+        "/service-areas/albany-mn/storm-damage-restoration/",
         "/service-areas/baxter-mn/storm-damage-restoration/",
-        "/service-areas/brainerd-mn/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4025,8 +4068,8 @@
         "/service-areas/rice-mn/",
         "/service-areas/rice-mn/water-damage-restoration/",
         "/service-areas/rice-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/general-contracting/",
         "/service-areas/baxter-mn/general-contracting/",
-        "/service-areas/brainerd-mn/general-contracting/",
         "/contact/"
       ]
     },
@@ -4069,8 +4112,8 @@
         "/service-areas/rice-mn/",
         "/service-areas/rice-mn/water-damage-restoration/",
         "/service-areas/rice-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/water-cleanup/",
         "/service-areas/baxter-mn/water-cleanup/",
-        "/service-areas/brainerd-mn/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4113,8 +4156,8 @@
         "/service-areas/harding-mn/",
         "/service-areas/harding-mn/storm-damage-restoration/",
         "/service-areas/harding-mn/water-cleanup/",
+        "/service-areas/albany-mn/water-damage-restoration/",
         "/service-areas/baxter-mn/water-damage-restoration/",
-        "/service-areas/brainerd-mn/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4157,8 +4200,8 @@
         "/service-areas/harding-mn/",
         "/service-areas/harding-mn/water-damage-restoration/",
         "/service-areas/harding-mn/water-cleanup/",
+        "/service-areas/albany-mn/storm-damage-restoration/",
         "/service-areas/baxter-mn/storm-damage-restoration/",
-        "/service-areas/brainerd-mn/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4202,8 +4245,8 @@
         "/service-areas/harding-mn/",
         "/service-areas/harding-mn/water-damage-restoration/",
         "/service-areas/harding-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/general-contracting/",
         "/service-areas/baxter-mn/general-contracting/",
-        "/service-areas/brainerd-mn/general-contracting/",
         "/contact/"
       ]
     },
@@ -4246,8 +4289,8 @@
         "/service-areas/harding-mn/",
         "/service-areas/harding-mn/water-damage-restoration/",
         "/service-areas/harding-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/water-cleanup/",
         "/service-areas/baxter-mn/water-cleanup/",
-        "/service-areas/brainerd-mn/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4290,8 +4333,8 @@
         "/service-areas/st-stephen-mn/",
         "/service-areas/st-stephen-mn/storm-damage-restoration/",
         "/service-areas/st-stephen-mn/water-cleanup/",
+        "/service-areas/albany-mn/water-damage-restoration/",
         "/service-areas/baxter-mn/water-damage-restoration/",
-        "/service-areas/brainerd-mn/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4334,8 +4377,8 @@
         "/service-areas/st-stephen-mn/",
         "/service-areas/st-stephen-mn/water-damage-restoration/",
         "/service-areas/st-stephen-mn/water-cleanup/",
+        "/service-areas/albany-mn/storm-damage-restoration/",
         "/service-areas/baxter-mn/storm-damage-restoration/",
-        "/service-areas/brainerd-mn/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4379,8 +4422,8 @@
         "/service-areas/st-stephen-mn/",
         "/service-areas/st-stephen-mn/water-damage-restoration/",
         "/service-areas/st-stephen-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/general-contracting/",
         "/service-areas/baxter-mn/general-contracting/",
-        "/service-areas/brainerd-mn/general-contracting/",
         "/contact/"
       ]
     },
@@ -4423,8 +4466,8 @@
         "/service-areas/st-stephen-mn/",
         "/service-areas/st-stephen-mn/water-damage-restoration/",
         "/service-areas/st-stephen-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/water-cleanup/",
         "/service-areas/baxter-mn/water-cleanup/",
-        "/service-areas/brainerd-mn/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4467,8 +4510,8 @@
         "/service-areas/long-prairie-mn/",
         "/service-areas/long-prairie-mn/storm-damage-restoration/",
         "/service-areas/long-prairie-mn/water-cleanup/",
+        "/service-areas/albany-mn/water-damage-restoration/",
         "/service-areas/baxter-mn/water-damage-restoration/",
-        "/service-areas/brainerd-mn/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4511,8 +4554,8 @@
         "/service-areas/long-prairie-mn/",
         "/service-areas/long-prairie-mn/water-damage-restoration/",
         "/service-areas/long-prairie-mn/water-cleanup/",
+        "/service-areas/albany-mn/storm-damage-restoration/",
         "/service-areas/baxter-mn/storm-damage-restoration/",
-        "/service-areas/brainerd-mn/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4556,8 +4599,8 @@
         "/service-areas/long-prairie-mn/",
         "/service-areas/long-prairie-mn/water-damage-restoration/",
         "/service-areas/long-prairie-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/general-contracting/",
         "/service-areas/baxter-mn/general-contracting/",
-        "/service-areas/brainerd-mn/general-contracting/",
         "/contact/"
       ]
     },
@@ -4600,6 +4643,183 @@
         "/service-areas/long-prairie-mn/",
         "/service-areas/long-prairie-mn/water-damage-restoration/",
         "/service-areas/long-prairie-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/water-cleanup/",
+        "/service-areas/baxter-mn/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/albany-mn/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Albany, MN | Heritage Restoration LLC",
+      "h1": "Water Damage Restoration in Albany",
+      "meta_description": "Water damage restoration in Albany, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "water damage restoration albany",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/albany-mn/",
+        "/service-areas/albany-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/water-cleanup/",
+        "/service-areas/baxter-mn/water-damage-restoration/",
+        "/service-areas/brainerd-mn/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/albany-mn/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Albany, MN | Heritage Restoration LLC",
+      "h1": "Storm Damage Restoration in Albany",
+      "meta_description": "Storm damage restoration in Albany, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "storm damage restoration albany",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/albany-mn/",
+        "/service-areas/albany-mn/water-damage-restoration/",
+        "/service-areas/albany-mn/water-cleanup/",
+        "/service-areas/baxter-mn/storm-damage-restoration/",
+        "/service-areas/brainerd-mn/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/albany-mn/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Albany, MN | Heritage Restoration LLC",
+      "h1": "Renovations, Remodels and General Contracting in Albany",
+      "meta_description": "Renovations, remodels and general contracting in Albany, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "renovations, remodels and general contracting albany",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/albany-mn/",
+        "/service-areas/albany-mn/water-damage-restoration/",
+        "/service-areas/albany-mn/storm-damage-restoration/",
+        "/service-areas/baxter-mn/general-contracting/",
+        "/service-areas/brainerd-mn/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/albany-mn/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Albany, MN | Heritage Restoration LLC",
+      "h1": "Water Cleanup in Albany",
+      "meta_description": "Water cleanup in Albany, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "emergency water cleanup albany",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/albany-mn/",
+        "/service-areas/albany-mn/water-damage-restoration/",
+        "/service-areas/albany-mn/storm-damage-restoration/",
         "/service-areas/baxter-mn/water-cleanup/",
         "/service-areas/brainerd-mn/water-cleanup/",
         "/contact/"

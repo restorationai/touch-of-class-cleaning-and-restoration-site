@@ -1,20 +1,20 @@
 # Site Plan Report — Dry County Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-21T14:13:09.325521+00:00
+- Generated: 2026-09-21T19:18:36.485717+00:00
 - Domain: `drycountyrestoration.com`
 - Services selected: 12 of 65 catalog entries
-- Service areas: 20
+- Service areas: 21
 - Cross-product enabled: True
-- Total URLs: **276**
-- Total internal links: 2220 (avg 8.0 per page)
+- Total URLs: **289**
+- Total internal links: 2323 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 228 |
-| `service-area` | 19 |
+| `service-area-service` | 240 |
+| `service-area` | 20 |
 | `service-landing` | 12 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -62,6 +62,7 @@
 - `north-tustin-ca` — North Tustin, CA
 - `montclair-ca` — Montclair, CA
 - `villa-park-ca` — Villa Park, CA
+- `fontana-ca` — Fontana, CA
 
 ## Top 10 priority pages
 
