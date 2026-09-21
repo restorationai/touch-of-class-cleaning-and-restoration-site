@@ -310,7 +310,7 @@
     },
     {
       "id": "2026-09-18-water-damage-restoration-process-naperville",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-18T22:55:00Z",
       "written_at": "2026-09-21T00:24:02Z",
       "post_url": "https://drybros.com/blog/water-damage-restoration-process-naperville/",
@@ -380,7 +380,8 @@
           "context": "ater category. General guidelines that certified technicians follow: - **Drywall:** Drywall that h",
           "reason": "names a certification not present in brand.certifications"
         }
-      ]
+      ],
+      "published_verified_at": "2026-09-21T00:26:19Z"
     },
     {
       "id": "2026-09-18-how-long-does-water-damage-restoration-take-chicago",
