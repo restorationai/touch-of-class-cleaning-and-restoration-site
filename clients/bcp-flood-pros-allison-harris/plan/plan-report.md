@@ -1,20 +1,20 @@
 # Site Plan Report — FIX Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-21T14:12:59.936417+00:00
+- Generated: 2026-09-21T19:18:25.835443+00:00
 - Domain: `fixofutah.com`
 - Services selected: 11 of 65 catalog entries
-- Service areas: 20
+- Service areas: 21
 - Cross-product enabled: True
-- Total URLs: **256**
-- Total internal links: 2052 (avg 8.0 per page)
+- Total URLs: **268**
+- Total internal links: 2147 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 209 |
-| `service-area` | 19 |
+| `service-area-service` | 220 |
+| `service-area` | 20 |
 | `service-landing` | 11 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -61,6 +61,7 @@
 - `herriman-ut` — Herriman, UT
 - `riverton-ut` — Riverton, UT
 - `south-jordan-ut` — South Jordan, UT
+- `cedar-fort-ut` — Cedar Fort, UT
 
 ## Top 10 priority pages
 

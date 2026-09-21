@@ -1,20 +1,20 @@
 # Site Plan Report — Paul Davis Restoration of Charleston
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-21T14:13:36.492835+00:00
+- Generated: 2026-09-21T19:19:01.184429+00:00
 - Domain: `None`
 - Services selected: 4 of 65 catalog entries
-- Service areas: 16
+- Service areas: 17
 - Cross-product enabled: True
-- Total URLs: **100**
-- Total internal links: 746 (avg 7.5 per page)
+- Total URLs: **105**
+- Total internal links: 785 (avg 7.5 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 60 |
-| `service-area` | 15 |
+| `service-area-service` | 64 |
+| `service-area` | 16 |
 | `blog-post` | 12 |
 | `service-landing` | 4 |
 | `legal` | 3 |
@@ -50,6 +50,7 @@
 - `ravenel-sc` — Ravenel, SC
 - `moncks-corner-sc` — Moncks Corner, SC
 - `kiawah-island-sc` — Kiawah Island, SC
+- `meggett-sc` — Meggett, SC
 
 ## Top 10 priority pages
 

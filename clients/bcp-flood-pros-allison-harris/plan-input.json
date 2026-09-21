@@ -135,6 +135,11 @@
       "city": "South Jordan",
       "state": "UT",
       "slug": "south-jordan-ut"
+    },
+    {
+      "city": "Cedar Fort",
+      "state": "UT",
+      "slug": "cedar-fort-ut"
     }
   ],
   "template": "restoration",

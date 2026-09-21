@@ -20,6 +20,7 @@
     "/service-areas/arden-arcade-ca/",
     "/service-areas/carmichael-ca/",
     "/service-areas/citrus-heights-ca/",
+    "/service-areas/davis-ca/",
     "/service-areas/el-dorado-hills-ca/",
     "/service-areas/elk-grove-ca/",
     "/service-areas/elverta-ca/",
@@ -65,6 +66,7 @@
     "/service-areas/arden-arcade-ca/",
     "/service-areas/carmichael-ca/",
     "/service-areas/citrus-heights-ca/",
+    "/service-areas/davis-ca/",
     "/service-areas/el-dorado-hills-ca/",
     "/service-areas/elk-grove-ca/",
     "/service-areas/elverta-ca/",
@@ -117,14 +119,14 @@
     "/service-areas/arden-arcade-ca/commercial-construction/",
     "/service-areas/carmichael-ca/commercial-construction/",
     "/service-areas/citrus-heights-ca/commercial-construction/",
+    "/service-areas/davis-ca/commercial-construction/",
     "/service-areas/el-dorado-hills-ca/commercial-construction/",
     "/service-areas/elk-grove-ca/commercial-construction/",
     "/service-areas/elverta-ca/commercial-construction/",
     "/service-areas/fair-oaks-ca/commercial-construction/",
     "/service-areas/florin-ca/commercial-construction/",
     "/service-areas/folsom-ca/commercial-construction/",
-    "/service-areas/foothill-farms-ca/commercial-construction/",
-    "/service-areas/granite-bay-ca/commercial-construction/"
+    "/service-areas/foothill-farms-ca/commercial-construction/"
   ],
   "/services/general-contracting/": [
     "/services/",
@@ -133,6 +135,7 @@
     "/service-areas/arden-arcade-ca/general-contracting/",
     "/service-areas/carmichael-ca/general-contracting/",
     "/service-areas/citrus-heights-ca/general-contracting/",
+    "/service-areas/davis-ca/general-contracting/",
     "/service-areas/el-dorado-hills-ca/general-contracting/",
     "/service-areas/elk-grove-ca/general-contracting/",
     "/service-areas/elverta-ca/general-contracting/",
@@ -140,7 +143,6 @@
     "/service-areas/florin-ca/general-contracting/",
     "/service-areas/folsom-ca/general-contracting/",
     "/service-areas/foothill-farms-ca/general-contracting/",
-    "/service-areas/granite-bay-ca/general-contracting/",
     "/blog/choosing-a-general-contractor/",
     "/blog/how-to-plan-a-home-remodel/",
     "/blog/do-you-need-a-permit/"
@@ -152,6 +154,7 @@
     "/service-areas/arden-arcade-ca/new-construction/",
     "/service-areas/carmichael-ca/new-construction/",
     "/service-areas/citrus-heights-ca/new-construction/",
+    "/service-areas/davis-ca/new-construction/",
     "/service-areas/el-dorado-hills-ca/new-construction/",
     "/service-areas/elk-grove-ca/new-construction/",
     "/service-areas/elverta-ca/new-construction/",
@@ -159,7 +162,6 @@
     "/service-areas/florin-ca/new-construction/",
     "/service-areas/folsom-ca/new-construction/",
     "/service-areas/foothill-farms-ca/new-construction/",
-    "/service-areas/granite-bay-ca/new-construction/",
     "/blog/choosing-a-general-contractor/"
   ],
   "/services/fire-smoke-rebuilding/": [
@@ -169,14 +171,14 @@
     "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/",
     "/service-areas/carmichael-ca/fire-smoke-rebuilding/",
     "/service-areas/citrus-heights-ca/fire-smoke-rebuilding/",
+    "/service-areas/davis-ca/fire-smoke-rebuilding/",
     "/service-areas/el-dorado-hills-ca/fire-smoke-rebuilding/",
     "/service-areas/elk-grove-ca/fire-smoke-rebuilding/",
     "/service-areas/elverta-ca/fire-smoke-rebuilding/",
     "/service-areas/fair-oaks-ca/fire-smoke-rebuilding/",
     "/service-areas/florin-ca/fire-smoke-rebuilding/",
     "/service-areas/folsom-ca/fire-smoke-rebuilding/",
-    "/service-areas/foothill-farms-ca/fire-smoke-rebuilding/",
-    "/service-areas/granite-bay-ca/fire-smoke-rebuilding/"
+    "/service-areas/foothill-farms-ca/fire-smoke-rebuilding/"
   ],
   "/services/water-damage-restoration/": [
     "/services/",
@@ -185,14 +187,14 @@
     "/service-areas/arden-arcade-ca/water-damage-restoration/",
     "/service-areas/carmichael-ca/water-damage-restoration/",
     "/service-areas/citrus-heights-ca/water-damage-restoration/",
+    "/service-areas/davis-ca/water-damage-restoration/",
     "/service-areas/el-dorado-hills-ca/water-damage-restoration/",
     "/service-areas/elk-grove-ca/water-damage-restoration/",
     "/service-areas/elverta-ca/water-damage-restoration/",
     "/service-areas/fair-oaks-ca/water-damage-restoration/",
     "/service-areas/florin-ca/water-damage-restoration/",
     "/service-areas/folsom-ca/water-damage-restoration/",
-    "/service-areas/foothill-farms-ca/water-damage-restoration/",
-    "/service-areas/granite-bay-ca/water-damage-restoration/"
+    "/service-areas/foothill-farms-ca/water-damage-restoration/"
   ],
   "/services/storm-damage-restoration/": [
     "/services/",
@@ -201,6 +203,7 @@
     "/service-areas/arden-arcade-ca/storm-damage-restoration/",
     "/service-areas/carmichael-ca/storm-damage-restoration/",
     "/service-areas/citrus-heights-ca/storm-damage-restoration/",
+    "/service-areas/davis-ca/storm-damage-restoration/",
     "/service-areas/el-dorado-hills-ca/storm-damage-restoration/",
     "/service-areas/elk-grove-ca/storm-damage-restoration/",
     "/service-areas/elverta-ca/storm-damage-restoration/",
@@ -208,7 +211,6 @@
     "/service-areas/florin-ca/storm-damage-restoration/",
     "/service-areas/folsom-ca/storm-damage-restoration/",
     "/service-areas/foothill-farms-ca/storm-damage-restoration/",
-    "/service-areas/granite-bay-ca/storm-damage-restoration/",
     "/blog/storm-damage-insurance-claim-checklist/",
     "/blog/storm-damage-repair-process/"
   ],
@@ -219,6 +221,7 @@
     "/service-areas/arden-arcade-ca/mold-remediation/",
     "/service-areas/carmichael-ca/mold-remediation/",
     "/service-areas/citrus-heights-ca/mold-remediation/",
+    "/service-areas/davis-ca/mold-remediation/",
     "/service-areas/el-dorado-hills-ca/mold-remediation/",
     "/service-areas/elk-grove-ca/mold-remediation/",
     "/service-areas/elverta-ca/mold-remediation/",
@@ -226,7 +229,6 @@
     "/service-areas/florin-ca/mold-remediation/",
     "/service-areas/folsom-ca/mold-remediation/",
     "/service-areas/foothill-farms-ca/mold-remediation/",
-    "/service-areas/granite-bay-ca/mold-remediation/",
     "/blog/mold-found-during-renovation/"
   ],
   "/services/home-remodeling/": [
@@ -236,6 +238,7 @@
     "/service-areas/arden-arcade-ca/home-remodeling/",
     "/service-areas/carmichael-ca/home-remodeling/",
     "/service-areas/citrus-heights-ca/home-remodeling/",
+    "/service-areas/davis-ca/home-remodeling/",
     "/service-areas/el-dorado-hills-ca/home-remodeling/",
     "/service-areas/elk-grove-ca/home-remodeling/",
     "/service-areas/elverta-ca/home-remodeling/",
@@ -243,7 +246,6 @@
     "/service-areas/florin-ca/home-remodeling/",
     "/service-areas/folsom-ca/home-remodeling/",
     "/service-areas/foothill-farms-ca/home-remodeling/",
-    "/service-areas/granite-bay-ca/home-remodeling/",
     "/blog/choosing-a-general-contractor/",
     "/blog/how-to-plan-a-home-remodel/",
     "/blog/do-you-need-a-permit/"
@@ -255,6 +257,7 @@
     "/service-areas/arden-arcade-ca/kitchen-remodeling/",
     "/service-areas/carmichael-ca/kitchen-remodeling/",
     "/service-areas/citrus-heights-ca/kitchen-remodeling/",
+    "/service-areas/davis-ca/kitchen-remodeling/",
     "/service-areas/el-dorado-hills-ca/kitchen-remodeling/",
     "/service-areas/elk-grove-ca/kitchen-remodeling/",
     "/service-areas/elverta-ca/kitchen-remodeling/",
@@ -262,7 +265,6 @@
     "/service-areas/florin-ca/kitchen-remodeling/",
     "/service-areas/folsom-ca/kitchen-remodeling/",
     "/service-areas/foothill-farms-ca/kitchen-remodeling/",
-    "/service-areas/granite-bay-ca/kitchen-remodeling/",
     "/blog/kitchen-remodel-cost-breakdown/"
   ],
   "/services/bathroom-remodeling/": [
@@ -272,14 +274,14 @@
     "/service-areas/arden-arcade-ca/bathroom-remodeling/",
     "/service-areas/carmichael-ca/bathroom-remodeling/",
     "/service-areas/citrus-heights-ca/bathroom-remodeling/",
+    "/service-areas/davis-ca/bathroom-remodeling/",
     "/service-areas/el-dorado-hills-ca/bathroom-remodeling/",
     "/service-areas/elk-grove-ca/bathroom-remodeling/",
     "/service-areas/elverta-ca/bathroom-remodeling/",
     "/service-areas/fair-oaks-ca/bathroom-remodeling/",
     "/service-areas/florin-ca/bathroom-remodeling/",
     "/service-areas/folsom-ca/bathroom-remodeling/",
-    "/service-areas/foothill-farms-ca/bathroom-remodeling/",
-    "/service-areas/granite-bay-ca/bathroom-remodeling/"
+    "/service-areas/foothill-farms-ca/bathroom-remodeling/"
   ],
   "/services/garage-construction/": [
     "/services/",
@@ -288,14 +290,14 @@
     "/service-areas/arden-arcade-ca/garage-construction/",
     "/service-areas/carmichael-ca/garage-construction/",
     "/service-areas/citrus-heights-ca/garage-construction/",
+    "/service-areas/davis-ca/garage-construction/",
     "/service-areas/el-dorado-hills-ca/garage-construction/",
     "/service-areas/elk-grove-ca/garage-construction/",
     "/service-areas/elverta-ca/garage-construction/",
     "/service-areas/fair-oaks-ca/garage-construction/",
     "/service-areas/florin-ca/garage-construction/",
     "/service-areas/folsom-ca/garage-construction/",
-    "/service-areas/foothill-farms-ca/garage-construction/",
-    "/service-areas/granite-bay-ca/garage-construction/"
+    "/service-areas/foothill-farms-ca/garage-construction/"
   ],
   "/services/room-addition/": [
     "/services/",
@@ -304,6 +306,7 @@
     "/service-areas/arden-arcade-ca/room-addition/",
     "/service-areas/carmichael-ca/room-addition/",
     "/service-areas/citrus-heights-ca/room-addition/",
+    "/service-areas/davis-ca/room-addition/",
     "/service-areas/el-dorado-hills-ca/room-addition/",
     "/service-areas/elk-grove-ca/room-addition/",
     "/service-areas/elverta-ca/room-addition/",
@@ -311,7 +314,6 @@
     "/service-areas/florin-ca/room-addition/",
     "/service-areas/folsom-ca/room-addition/",
     "/service-areas/foothill-farms-ca/room-addition/",
-    "/service-areas/granite-bay-ca/room-addition/",
     "/blog/do-you-need-a-permit/"
   ],
   "/service-areas/roseville-ca/": [
@@ -823,6 +825,25 @@
     "/service-areas/mather-ca/storm-damage-restoration/",
     "/service-areas/mather-ca/water-damage-restoration/",
     "/service-areas/mather-ca/garage-construction/",
+    "/service-areas/antelope-ca/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/carmichael-ca/"
+  ],
+  "/service-areas/davis-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/davis-ca/home-remodeling/",
+    "/service-areas/davis-ca/bathroom-remodeling/",
+    "/service-areas/davis-ca/kitchen-remodeling/",
+    "/service-areas/davis-ca/new-construction/",
+    "/service-areas/davis-ca/general-contracting/",
+    "/service-areas/davis-ca/room-addition/",
+    "/service-areas/davis-ca/commercial-construction/",
+    "/service-areas/davis-ca/fire-smoke-rebuilding/",
+    "/service-areas/davis-ca/mold-remediation/",
+    "/service-areas/davis-ca/storm-damage-restoration/",
+    "/service-areas/davis-ca/water-damage-restoration/",
+    "/service-areas/davis-ca/garage-construction/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
     "/service-areas/carmichael-ca/"
@@ -3739,6 +3760,114 @@
     "/service-areas/mather-ca/",
     "/service-areas/mather-ca/home-remodeling/",
     "/service-areas/mather-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/room-addition/",
+    "/service-areas/arden-arcade-ca/room-addition/",
+    "/contact/"
+  ],
+  "/service-areas/davis-ca/commercial-construction/": [
+    "/services/commercial-construction/",
+    "/service-areas/davis-ca/",
+    "/service-areas/davis-ca/home-remodeling/",
+    "/service-areas/davis-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/commercial-construction/",
+    "/service-areas/arden-arcade-ca/commercial-construction/",
+    "/contact/"
+  ],
+  "/service-areas/davis-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/davis-ca/",
+    "/service-areas/davis-ca/home-remodeling/",
+    "/service-areas/davis-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/general-contracting/",
+    "/service-areas/arden-arcade-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/davis-ca/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/davis-ca/",
+    "/service-areas/davis-ca/home-remodeling/",
+    "/service-areas/davis-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/new-construction/",
+    "/service-areas/arden-arcade-ca/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/davis-ca/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/davis-ca/",
+    "/service-areas/davis-ca/home-remodeling/",
+    "/service-areas/davis-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/fire-smoke-rebuilding/",
+    "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/",
+    "/contact/"
+  ],
+  "/service-areas/davis-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/davis-ca/",
+    "/service-areas/davis-ca/home-remodeling/",
+    "/service-areas/davis-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/water-damage-restoration/",
+    "/service-areas/arden-arcade-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/davis-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/davis-ca/",
+    "/service-areas/davis-ca/home-remodeling/",
+    "/service-areas/davis-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/storm-damage-restoration/",
+    "/service-areas/arden-arcade-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/davis-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/davis-ca/",
+    "/service-areas/davis-ca/home-remodeling/",
+    "/service-areas/davis-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/mold-remediation/",
+    "/service-areas/arden-arcade-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/davis-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/davis-ca/",
+    "/service-areas/davis-ca/bathroom-remodeling/",
+    "/service-areas/davis-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/davis-ca/kitchen-remodeling/": [
+    "/services/kitchen-remodeling/",
+    "/service-areas/davis-ca/",
+    "/service-areas/davis-ca/home-remodeling/",
+    "/service-areas/davis-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/kitchen-remodeling/",
+    "/service-areas/arden-arcade-ca/kitchen-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/davis-ca/bathroom-remodeling/": [
+    "/services/bathroom-remodeling/",
+    "/service-areas/davis-ca/",
+    "/service-areas/davis-ca/home-remodeling/",
+    "/service-areas/davis-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/davis-ca/garage-construction/": [
+    "/services/garage-construction/",
+    "/service-areas/davis-ca/",
+    "/service-areas/davis-ca/home-remodeling/",
+    "/service-areas/davis-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/garage-construction/",
+    "/service-areas/arden-arcade-ca/garage-construction/",
+    "/contact/"
+  ],
+  "/service-areas/davis-ca/room-addition/": [
+    "/services/room-addition/",
+    "/service-areas/davis-ca/",
+    "/service-areas/davis-ca/home-remodeling/",
+    "/service-areas/davis-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/room-addition/",
     "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"

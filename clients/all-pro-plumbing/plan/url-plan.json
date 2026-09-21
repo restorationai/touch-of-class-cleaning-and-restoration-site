@@ -1,10 +1,10 @@
 {
   "template": "plumbing",
   "template_version": "0.1.0",
-  "generated_at": "2026-09-21T14:12:56.913225+00:00",
+  "generated_at": "2026-09-21T19:18:22.318116+00:00",
   "input_summary": {
     "service_count": 22,
-    "service_area_count": 18,
+    "service_area_count": 19,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -81,6 +81,7 @@
         "/service-areas/taft-ca/",
         "/service-areas/tarina-ca/",
         "/service-areas/tehachapi-ca/",
+        "/service-areas/valley-acres-ca/",
         "/service-areas/wasco-ca/",
         "/service-areas/weedpatch-ca/"
       ]
@@ -183,6 +184,7 @@
         "/service-areas/taft-ca/",
         "/service-areas/tarina-ca/",
         "/service-areas/tehachapi-ca/",
+        "/service-areas/valley-acres-ca/",
         "/service-areas/wasco-ca/",
         "/service-areas/weedpatch-ca/"
       ]
@@ -2413,6 +2415,65 @@
         "/service-areas/wasco-ca/sump-pumps/",
         "/service-areas/wasco-ca/water-softeners-filtration/",
         "/service-areas/wasco-ca/garbage-disposal/",
+        "/service-areas/arvin-ca/",
+        "/service-areas/bear-valley-springs-ca/",
+        "/service-areas/buttonwillow-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/valley-acres-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Plumbing, Heating & Air in Valley Acres, CA | All Pro Plumbing Heating and Air",
+      "h1": "Plumbing, Heating and Air in Valley Acres",
+      "meta_description": "Serving Valley Acres, CA with 24/7 emergency plumbing plus heating and air conditioning service. Licensed and insured. Call (661) 863-9242.",
+      "primary_keyword": "plumber valley acres",
+      "secondary_keywords": [
+        "valley acres plumbing company",
+        "emergency plumber valley acres",
+        "valley acres hvac company"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/valley-acres-ca/ac-repair/",
+        "/service-areas/valley-acres-ca/drain-cleaning/",
+        "/service-areas/valley-acres-ca/emergency-plumbing/",
+        "/service-areas/valley-acres-ca/water-heater-repair/",
+        "/service-areas/valley-acres-ca/ac-installation/",
+        "/service-areas/valley-acres-ca/burst-pipe-repair/",
+        "/service-areas/valley-acres-ca/furnace-repair/",
+        "/service-areas/valley-acres-ca/sewer-line-repair/",
+        "/service-areas/valley-acres-ca/water-heater-installation/",
+        "/service-areas/valley-acres-ca/furnace-installation/",
+        "/service-areas/valley-acres-ca/gas-line-services/",
+        "/service-areas/valley-acres-ca/ductless-mini-splits/",
+        "/service-areas/valley-acres-ca/heat-pump-services/",
+        "/service-areas/valley-acres-ca/leak-detection/",
+        "/service-areas/valley-acres-ca/repiping/",
+        "/service-areas/valley-acres-ca/slab-leak-repair/",
+        "/service-areas/valley-acres-ca/toilet-faucet-repair/",
+        "/service-areas/valley-acres-ca/ductwork/",
+        "/service-areas/valley-acres-ca/indoor-air-quality/",
+        "/service-areas/valley-acres-ca/sump-pumps/",
+        "/service-areas/valley-acres-ca/water-softeners-filtration/",
+        "/service-areas/valley-acres-ca/garbage-disposal/",
         "/service-areas/arvin-ca/",
         "/service-areas/bear-valley-springs-ca/",
         "/service-areas/buttonwillow-ca/"
@@ -18869,6 +18930,974 @@
         "/service-areas/wasco-ca/",
         "/service-areas/wasco-ca/ac-repair/",
         "/service-areas/wasco-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/indoor-air-quality/",
+        "/service-areas/bear-valley-springs-ca/indoor-air-quality/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/valley-acres-ca/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in Valley Acres, CA | All Pro Plumbing Heating and Air",
+      "h1": "Emergency Plumbing in Valley Acres",
+      "meta_description": "Trusted emergency plumbing in Valley Acres, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "emergency plumbing valley acres",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "after hours plumber",
+        "plumber near me now",
+        "same day plumbing repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/valley-acres-ca/",
+        "/service-areas/valley-acres-ca/ac-repair/",
+        "/service-areas/valley-acres-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/emergency-plumbing/",
+        "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/valley-acres-ca/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst and Leaking Pipe Repair in Valley Acres, CA | All Pro Plumbing Heating and Air",
+      "h1": "Burst and Leaking Pipe Repair in Valley Acres",
+      "meta_description": "Trusted burst and leaking pipe repair in Valley Acres, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "burst and leaking pipe repair valley acres",
+      "secondary_keywords": [
+        "burst pipe repair",
+        "pipe burst in wall",
+        "water line repair",
+        "leaking pipe repair",
+        "frozen pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/valley-acres-ca/",
+        "/service-areas/valley-acres-ca/ac-repair/",
+        "/service-areas/valley-acres-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/burst-pipe-repair/",
+        "/service-areas/bear-valley-springs-ca/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/valley-acres-ca/drain-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Drain Cleaning in Valley Acres, CA | All Pro Plumbing Heating and Air",
+      "h1": "Drain Cleaning in Valley Acres",
+      "meta_description": "Trusted drain cleaning in Valley Acres, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "drain cleaning valley acres",
+      "secondary_keywords": [
+        "clogged drain cleaning",
+        "hydro jetting",
+        "rooter service",
+        "kitchen sink clog removal",
+        "shower drain clog"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/drain-cleaning/",
+        "/service-areas/valley-acres-ca/",
+        "/service-areas/valley-acres-ca/ac-repair/",
+        "/service-areas/valley-acres-ca/emergency-plumbing/",
+        "/service-areas/arvin-ca/drain-cleaning/",
+        "/service-areas/bear-valley-springs-ca/drain-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/valley-acres-ca/sewer-line-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewer Line Repair and Replacement in Valley Acres, CA | All Pro Plumbing Heating and Air",
+      "h1": "Sewer Line Repair and Replacement in Valley Acres",
+      "meta_description": "Trusted sewer line repair and replacement in Valley Acres, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "sewer line repair and replacement valley acres",
+      "secondary_keywords": [
+        "sewer backup",
+        "trenchless sewer repair",
+        "sewer line replacement",
+        "sewer camera inspection",
+        "collapsed sewer line repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewer-line-repair/",
+        "/service-areas/valley-acres-ca/",
+        "/service-areas/valley-acres-ca/ac-repair/",
+        "/service-areas/valley-acres-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/sewer-line-repair/",
+        "/service-areas/bear-valley-springs-ca/sewer-line-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/valley-acres-ca/water-heater-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Heater Repair in Valley Acres, CA | All Pro Plumbing Heating and Air",
+      "h1": "Water Heater Repair in Valley Acres",
+      "meta_description": "Trusted water heater repair in Valley Acres, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "water heater repair valley acres",
+      "secondary_keywords": [
+        "water heater not working",
+        "no hot water",
+        "water heater leaking",
+        "hot water heater repair",
+        "same day water heater service"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-heater-repair/",
+        "/service-areas/valley-acres-ca/",
+        "/service-areas/valley-acres-ca/ac-repair/",
+        "/service-areas/valley-acres-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/water-heater-repair/",
+        "/service-areas/bear-valley-springs-ca/water-heater-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/valley-acres-ca/water-heater-installation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Heater Installation and Replacement in Valley Acres, CA | All Pro Plumbing Heating and Air",
+      "h1": "Water Heater Installation and Replacement in Valley Acres",
+      "meta_description": "Trusted water heater installation and replacement in Valley Acres, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "water heater installation and replacement valley acres",
+      "secondary_keywords": [
+        "water heater replacement",
+        "tankless water heater installation",
+        "tankless vs tank water heater",
+        "50 gallon water heater install",
+        "tankless water heater cost"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-heater-installation/",
+        "/service-areas/valley-acres-ca/",
+        "/service-areas/valley-acres-ca/ac-repair/",
+        "/service-areas/valley-acres-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/water-heater-installation/",
+        "/service-areas/bear-valley-springs-ca/water-heater-installation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/valley-acres-ca/leak-detection/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Leak Detection in Valley Acres, CA | All Pro Plumbing Heating and Air",
+      "h1": "Leak Detection in Valley Acres",
+      "meta_description": "Trusted leak detection in Valley Acres, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "leak detection valley acres",
+      "secondary_keywords": [
+        "water leak detection",
+        "electronic leak detection",
+        "hidden leak detection",
+        "high water bill leak",
+        "underground water leak detection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/leak-detection/",
+        "/service-areas/valley-acres-ca/",
+        "/service-areas/valley-acres-ca/ac-repair/",
+        "/service-areas/valley-acres-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/leak-detection/",
+        "/service-areas/bear-valley-springs-ca/leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/valley-acres-ca/slab-leak-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Slab Leak Repair in Valley Acres, CA | All Pro Plumbing Heating and Air",
+      "h1": "Slab Leak Repair in Valley Acres",
+      "meta_description": "Trusted slab leak repair in Valley Acres, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "slab leak repair valley acres",
+      "secondary_keywords": [
+        "slab leak detection",
+        "under slab plumbing repair",
+        "hot spot on floor leak",
+        "slab leak reroute",
+        "foundation water leak repair"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/slab-leak-repair/",
+        "/service-areas/valley-acres-ca/",
+        "/service-areas/valley-acres-ca/ac-repair/",
+        "/service-areas/valley-acres-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/slab-leak-repair/",
+        "/service-areas/bear-valley-springs-ca/slab-leak-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/valley-acres-ca/repiping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Whole-House Repiping in Valley Acres, CA | All Pro Plumbing Heating and Air",
+      "h1": "Whole-House Repiping in Valley Acres",
+      "meta_description": "Trusted whole-house repiping in Valley Acres, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "whole-house repiping valley acres",
+      "secondary_keywords": [
+        "whole house repipe",
+        "copper repiping",
+        "PEX repiping",
+        "galvanized pipe replacement",
+        "polybutylene pipe replacement"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/repiping/",
+        "/service-areas/valley-acres-ca/",
+        "/service-areas/valley-acres-ca/ac-repair/",
+        "/service-areas/valley-acres-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/repiping/",
+        "/service-areas/bear-valley-springs-ca/repiping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/valley-acres-ca/gas-line-services/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Gas Line Installation and Leak Repair in Valley Acres, CA | All Pro Plumbing Heating and Air",
+      "h1": "Gas Line Installation and Leak Repair in Valley Acres",
+      "meta_description": "Trusted gas line installation and leak repair in Valley Acres, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "gas line installation and leak repair valley acres",
+      "secondary_keywords": [
+        "gas leak repair",
+        "gas line installation",
+        "gas leak detection",
+        "gas line for stove",
+        "earthquake gas shutoff valve"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/gas-line-services/",
+        "/service-areas/valley-acres-ca/",
+        "/service-areas/valley-acres-ca/ac-repair/",
+        "/service-areas/valley-acres-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/gas-line-services/",
+        "/service-areas/bear-valley-springs-ca/gas-line-services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/valley-acres-ca/sump-pumps/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sump Pump Installation and Repair in Valley Acres, CA | All Pro Plumbing Heating and Air",
+      "h1": "Sump Pump Installation and Repair in Valley Acres",
+      "meta_description": "Trusted sump pump installation and repair in Valley Acres, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "sump pump installation and repair valley acres",
+      "secondary_keywords": [
+        "sump pump installation",
+        "sump pump replacement",
+        "battery backup sump pump",
+        "sump pump not working",
+        "sewage ejector pump"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sump-pumps/",
+        "/service-areas/valley-acres-ca/",
+        "/service-areas/valley-acres-ca/ac-repair/",
+        "/service-areas/valley-acres-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/sump-pumps/",
+        "/service-areas/bear-valley-springs-ca/sump-pumps/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/valley-acres-ca/water-softeners-filtration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Softeners and Filtration Systems in Valley Acres, CA | All Pro Plumbing Heating and Air",
+      "h1": "Water Softeners and Filtration Systems in Valley Acres",
+      "meta_description": "Trusted water softeners and filtration systems in Valley Acres, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "water softeners and filtration systems valley acres",
+      "secondary_keywords": [
+        "water softener installation",
+        "whole house water filtration",
+        "reverse osmosis system installation",
+        "hard water treatment",
+        "water conditioner install"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-softeners-filtration/",
+        "/service-areas/valley-acres-ca/",
+        "/service-areas/valley-acres-ca/ac-repair/",
+        "/service-areas/valley-acres-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/water-softeners-filtration/",
+        "/service-areas/bear-valley-springs-ca/water-softeners-filtration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/valley-acres-ca/toilet-faucet-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Toilet, Faucet and Fixture Services in Valley Acres, CA | All Pro Plumbing Heating and Air",
+      "h1": "Toilet, Faucet and Fixture Services in Valley Acres",
+      "meta_description": "Trusted toilet, faucet and fixture services in Valley Acres, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "toilet, faucet and fixture services valley acres",
+      "secondary_keywords": [
+        "toilet repair",
+        "toilet installation",
+        "faucet replacement",
+        "shower valve repair",
+        "running toilet fix"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/toilet-faucet-repair/",
+        "/service-areas/valley-acres-ca/",
+        "/service-areas/valley-acres-ca/ac-repair/",
+        "/service-areas/valley-acres-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/toilet-faucet-repair/",
+        "/service-areas/bear-valley-springs-ca/toilet-faucet-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/valley-acres-ca/garbage-disposal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Garbage Disposal Repair and Installation in Valley Acres, CA | All Pro Plumbing Heating and Air",
+      "h1": "Garbage Disposal Repair and Installation in Valley Acres",
+      "meta_description": "Trusted garbage disposal repair and installation in Valley Acres, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "garbage disposal repair and installation valley acres",
+      "secondary_keywords": [
+        "garbage disposal replacement",
+        "garbage disposal humming",
+        "garbage disposal jammed",
+        "disposal installation",
+        "garbage disposal leaking"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/garbage-disposal/",
+        "/service-areas/valley-acres-ca/",
+        "/service-areas/valley-acres-ca/ac-repair/",
+        "/service-areas/valley-acres-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/garbage-disposal/",
+        "/service-areas/bear-valley-springs-ca/garbage-disposal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/valley-acres-ca/furnace-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Furnace Repair in Valley Acres, CA | All Pro Plumbing Heating and Air",
+      "h1": "Furnace Repair in Valley Acres",
+      "meta_description": "Trusted furnace repair in Valley Acres, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "furnace repair valley acres",
+      "secondary_keywords": [
+        "furnace not working",
+        "heater repair",
+        "no heat repair",
+        "emergency furnace repair",
+        "furnace blowing cold air"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/furnace-repair/",
+        "/service-areas/valley-acres-ca/",
+        "/service-areas/valley-acres-ca/ac-repair/",
+        "/service-areas/valley-acres-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/furnace-repair/",
+        "/service-areas/bear-valley-springs-ca/furnace-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/valley-acres-ca/furnace-installation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Furnace Installation and Replacement in Valley Acres, CA | All Pro Plumbing Heating and Air",
+      "h1": "Furnace Installation and Replacement in Valley Acres",
+      "meta_description": "Trusted furnace installation and replacement in Valley Acres, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "furnace installation and replacement valley acres",
+      "secondary_keywords": [
+        "furnace replacement",
+        "new furnace cost",
+        "high efficiency furnace installation",
+        "gas furnace installation",
+        "furnace replacement near me"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/furnace-installation/",
+        "/service-areas/valley-acres-ca/",
+        "/service-areas/valley-acres-ca/ac-repair/",
+        "/service-areas/valley-acres-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/furnace-installation/",
+        "/service-areas/bear-valley-springs-ca/furnace-installation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/valley-acres-ca/heat-pump-services/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Heat Pump Installation and Repair in Valley Acres, CA | All Pro Plumbing Heating and Air",
+      "h1": "Heat Pump Installation and Repair in Valley Acres",
+      "meta_description": "Trusted heat pump installation and repair in Valley Acres, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "heat pump installation and repair valley acres",
+      "secondary_keywords": [
+        "heat pump installation",
+        "heat pump repair",
+        "heat pump vs furnace",
+        "heat pump replacement cost",
+        "heat pump rebates"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/heat-pump-services/",
+        "/service-areas/valley-acres-ca/",
+        "/service-areas/valley-acres-ca/ac-repair/",
+        "/service-areas/valley-acres-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/heat-pump-services/",
+        "/service-areas/bear-valley-springs-ca/heat-pump-services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/valley-acres-ca/ac-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Conditioning Repair in Valley Acres, CA | All Pro Plumbing Heating and Air",
+      "h1": "Air Conditioning Repair in Valley Acres",
+      "meta_description": "Trusted air conditioning repair in Valley Acres, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "air conditioning repair valley acres",
+      "secondary_keywords": [
+        "ac not cooling",
+        "air conditioner repair",
+        "central air repair",
+        "ac refrigerant leak repair",
+        "hvac repair near me"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/ac-repair/",
+        "/service-areas/valley-acres-ca/",
+        "/service-areas/valley-acres-ca/drain-cleaning/",
+        "/service-areas/valley-acres-ca/emergency-plumbing/",
+        "/service-areas/arvin-ca/ac-repair/",
+        "/service-areas/bear-valley-springs-ca/ac-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/valley-acres-ca/ac-installation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "AC Installation and Replacement in Valley Acres, CA | All Pro Plumbing Heating and Air",
+      "h1": "AC Installation and Replacement in Valley Acres",
+      "meta_description": "Trusted ac installation and replacement in Valley Acres, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "ac installation and replacement valley acres",
+      "secondary_keywords": [
+        "ac replacement",
+        "central air installation",
+        "new ac unit cost",
+        "hvac installation",
+        "high SEER2 air conditioner"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/ac-installation/",
+        "/service-areas/valley-acres-ca/",
+        "/service-areas/valley-acres-ca/ac-repair/",
+        "/service-areas/valley-acres-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/ac-installation/",
+        "/service-areas/bear-valley-springs-ca/ac-installation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/valley-acres-ca/ductless-mini-splits/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Ductless Mini-Split Systems in Valley Acres, CA | All Pro Plumbing Heating and Air",
+      "h1": "Ductless Mini-Split Systems in Valley Acres",
+      "meta_description": "Trusted ductless mini-split systems in Valley Acres, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "ductless mini-split systems valley acres",
+      "secondary_keywords": [
+        "mini split installation",
+        "ductless AC installation",
+        "mini split for garage",
+        "multi zone mini split",
+        "mini split heat pump"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/ductless-mini-splits/",
+        "/service-areas/valley-acres-ca/",
+        "/service-areas/valley-acres-ca/ac-repair/",
+        "/service-areas/valley-acres-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/ductless-mini-splits/",
+        "/service-areas/bear-valley-springs-ca/ductless-mini-splits/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/valley-acres-ca/ductwork/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Ductwork Repair and Installation in Valley Acres, CA | All Pro Plumbing Heating and Air",
+      "h1": "Ductwork Repair and Installation in Valley Acres",
+      "meta_description": "Trusted ductwork repair and installation in Valley Acres, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "ductwork repair and installation valley acres",
+      "secondary_keywords": [
+        "duct replacement",
+        "duct sealing",
+        "air duct repair",
+        "ductwork installation",
+        "leaky duct testing"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/ductwork/",
+        "/service-areas/valley-acres-ca/",
+        "/service-areas/valley-acres-ca/ac-repair/",
+        "/service-areas/valley-acres-ca/drain-cleaning/",
+        "/service-areas/arvin-ca/ductwork/",
+        "/service-areas/bear-valley-springs-ca/ductwork/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/valley-acres-ca/indoor-air-quality/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Indoor Air Quality Services in Valley Acres, CA | All Pro Plumbing Heating and Air",
+      "h1": "Indoor Air Quality Services in Valley Acres",
+      "meta_description": "Trusted indoor air quality services in Valley Acres, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242.",
+      "primary_keyword": "indoor air quality services valley acres",
+      "secondary_keywords": [
+        "whole house air purifier",
+        "UV air purifier for HVAC",
+        "whole home humidifier installation",
+        "HVAC filtration upgrade",
+        "indoor air quality testing"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/indoor-air-quality/",
+        "/service-areas/valley-acres-ca/",
+        "/service-areas/valley-acres-ca/ac-repair/",
+        "/service-areas/valley-acres-ca/drain-cleaning/",
         "/service-areas/arvin-ca/indoor-air-quality/",
         "/service-areas/bear-valley-springs-ca/indoor-air-quality/",
         "/contact/"

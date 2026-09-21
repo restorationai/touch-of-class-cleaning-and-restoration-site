@@ -404,6 +404,11 @@
       "city": "Lucas",
       "state": "TX",
       "slug": "lucas-tx"
+    },
+    {
+      "city": "Murphy",
+      "state": "TX",
+      "slug": "murphy-tx"
     }
   ],
   "template": "restoration",

@@ -18,6 +18,7 @@
     "/service-areas/lake-sherwood-ca/",
     "/service-areas/mira-monte-ca/",
     "/service-areas/moorpark-ca/",
+    "/service-areas/oak-park-ca/",
     "/service-areas/oak-view-ca/",
     "/service-areas/ojai-ca/",
     "/service-areas/oxnard-ca/",
@@ -49,6 +50,7 @@
     "/service-areas/lake-sherwood-ca/",
     "/service-areas/mira-monte-ca/",
     "/service-areas/moorpark-ca/",
+    "/service-areas/oak-park-ca/",
     "/service-areas/oak-view-ca/",
     "/service-areas/ojai-ca/",
     "/service-areas/oxnard-ca/",
@@ -93,10 +95,10 @@
     "/service-areas/lake-sherwood-ca/water-damage-restoration/",
     "/service-areas/mira-monte-ca/water-damage-restoration/",
     "/service-areas/moorpark-ca/water-damage-restoration/",
+    "/service-areas/oak-park-ca/water-damage-restoration/",
     "/service-areas/oak-view-ca/water-damage-restoration/",
     "/service-areas/ojai-ca/water-damage-restoration/",
     "/service-areas/oxnard-ca/water-damage-restoration/",
-    "/service-areas/piru-ca/water-damage-restoration/",
     "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -113,10 +115,10 @@
     "/service-areas/lake-sherwood-ca/mold-remediation/",
     "/service-areas/mira-monte-ca/mold-remediation/",
     "/service-areas/moorpark-ca/mold-remediation/",
+    "/service-areas/oak-park-ca/mold-remediation/",
     "/service-areas/oak-view-ca/mold-remediation/",
     "/service-areas/ojai-ca/mold-remediation/",
     "/service-areas/oxnard-ca/mold-remediation/",
-    "/service-areas/piru-ca/mold-remediation/",
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
     "/blog/signs-of-hidden-mold/"
@@ -132,10 +134,10 @@
     "/service-areas/lake-sherwood-ca/storm-damage-restoration/",
     "/service-areas/mira-monte-ca/storm-damage-restoration/",
     "/service-areas/moorpark-ca/storm-damage-restoration/",
+    "/service-areas/oak-park-ca/storm-damage-restoration/",
     "/service-areas/oak-view-ca/storm-damage-restoration/",
     "/service-areas/ojai-ca/storm-damage-restoration/",
     "/service-areas/oxnard-ca/storm-damage-restoration/",
-    "/service-areas/piru-ca/storm-damage-restoration/",
     "/blog/storm-damage-insurance-claim-checklist/"
   ],
   "/services/contents-restoration/": [
@@ -149,10 +151,10 @@
     "/service-areas/lake-sherwood-ca/contents-restoration/",
     "/service-areas/mira-monte-ca/contents-restoration/",
     "/service-areas/moorpark-ca/contents-restoration/",
+    "/service-areas/oak-park-ca/contents-restoration/",
     "/service-areas/oak-view-ca/contents-restoration/",
     "/service-areas/ojai-ca/contents-restoration/",
-    "/service-areas/oxnard-ca/contents-restoration/",
-    "/service-areas/piru-ca/contents-restoration/"
+    "/service-areas/oxnard-ca/contents-restoration/"
   ],
   "/services/crawl-space-encapsulation/": [
     "/services/",
@@ -165,10 +167,10 @@
     "/service-areas/lake-sherwood-ca/crawl-space-encapsulation/",
     "/service-areas/mira-monte-ca/crawl-space-encapsulation/",
     "/service-areas/moorpark-ca/crawl-space-encapsulation/",
+    "/service-areas/oak-park-ca/crawl-space-encapsulation/",
     "/service-areas/oak-view-ca/crawl-space-encapsulation/",
     "/service-areas/ojai-ca/crawl-space-encapsulation/",
-    "/service-areas/oxnard-ca/crawl-space-encapsulation/",
-    "/service-areas/piru-ca/crawl-space-encapsulation/"
+    "/service-areas/oxnard-ca/crawl-space-encapsulation/"
   ],
   "/services/water-cleanup/": [
     "/services/",
@@ -181,10 +183,10 @@
     "/service-areas/lake-sherwood-ca/water-cleanup/",
     "/service-areas/mira-monte-ca/water-cleanup/",
     "/service-areas/moorpark-ca/water-cleanup/",
+    "/service-areas/oak-park-ca/water-cleanup/",
     "/service-areas/oak-view-ca/water-cleanup/",
     "/service-areas/ojai-ca/water-cleanup/",
     "/service-areas/oxnard-ca/water-cleanup/",
-    "/service-areas/piru-ca/water-cleanup/",
     "/services/water-damage-restoration/"
   ],
   "/service-areas/oxnard-ca/": [
@@ -433,6 +435,19 @@
     "/service-areas/camarillo-ca/",
     "/service-areas/carpinteria-ca/",
     "/service-areas/fillmore-ca/"
+  ],
+  "/service-areas/oak-park-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/oak-park-ca/mold-remediation/",
+    "/service-areas/oak-park-ca/water-damage-restoration/",
+    "/service-areas/oak-park-ca/storm-damage-restoration/",
+    "/service-areas/oak-park-ca/water-cleanup/",
+    "/service-areas/oak-park-ca/contents-restoration/",
+    "/service-areas/oak-park-ca/crawl-space-encapsulation/",
+    "/service-areas/camarillo-ca/",
+    "/service-areas/carpinteria-ca/",
+    "/service-areas/castaic-ca/"
   ],
   "/service-areas/oxnard-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
@@ -1456,6 +1471,60 @@
     "/service-areas/castaic-ca/",
     "/service-areas/castaic-ca/mold-remediation/",
     "/service-areas/castaic-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/water-cleanup/",
+    "/service-areas/carpinteria-ca/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/oak-park-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/oak-park-ca/",
+    "/service-areas/oak-park-ca/mold-remediation/",
+    "/service-areas/oak-park-ca/storm-damage-restoration/",
+    "/service-areas/camarillo-ca/water-damage-restoration/",
+    "/service-areas/carpinteria-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/oak-park-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/oak-park-ca/",
+    "/service-areas/oak-park-ca/water-damage-restoration/",
+    "/service-areas/oak-park-ca/storm-damage-restoration/",
+    "/service-areas/camarillo-ca/mold-remediation/",
+    "/service-areas/carpinteria-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/oak-park-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/oak-park-ca/",
+    "/service-areas/oak-park-ca/mold-remediation/",
+    "/service-areas/oak-park-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/storm-damage-restoration/",
+    "/service-areas/carpinteria-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/oak-park-ca/contents-restoration/": [
+    "/services/contents-restoration/",
+    "/service-areas/oak-park-ca/",
+    "/service-areas/oak-park-ca/mold-remediation/",
+    "/service-areas/oak-park-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/contents-restoration/",
+    "/service-areas/carpinteria-ca/contents-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/oak-park-ca/crawl-space-encapsulation/": [
+    "/services/crawl-space-encapsulation/",
+    "/service-areas/oak-park-ca/",
+    "/service-areas/oak-park-ca/mold-remediation/",
+    "/service-areas/oak-park-ca/water-damage-restoration/",
+    "/service-areas/camarillo-ca/crawl-space-encapsulation/",
+    "/service-areas/carpinteria-ca/crawl-space-encapsulation/",
+    "/contact/"
+  ],
+  "/service-areas/oak-park-ca/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/oak-park-ca/",
+    "/service-areas/oak-park-ca/mold-remediation/",
+    "/service-areas/oak-park-ca/water-damage-restoration/",
     "/service-areas/camarillo-ca/water-cleanup/",
     "/service-areas/carpinteria-ca/water-cleanup/",
     "/contact/"

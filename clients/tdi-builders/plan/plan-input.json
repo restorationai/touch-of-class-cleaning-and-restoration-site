@@ -213,6 +213,11 @@
       "city": "Mather",
       "state": "CA",
       "slug": "mather-ca"
+    },
+    {
+      "city": "Davis",
+      "state": "CA",
+      "slug": "davis-ca"
     }
   ],
   "template": "construction",

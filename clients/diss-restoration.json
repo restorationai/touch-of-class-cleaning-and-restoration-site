@@ -13,7 +13,7 @@
     "url_count": 331,
     "generated_at": "2026-09-21T15:54:24.388194+00:00"
   },
-  "updated_at": "2026-09-21T15:54:39.639918+00:00",
+  "updated_at": "2026-09-21T19:17:30.296357+00:00",
   "indexnow_key": "09d356f474404007b1215fd518504373",
   "build": {
     "scaffolded_at": "2026-09-21T15:54:39.639815+00:00",
@@ -24,9 +24,9 @@
     "pages_status": "exists",
     "last_rendered_at": "2026-09-21T16:07:57.838829+00:00",
     "last_pushed_staging_at": "2026-09-03T04:16:39.660572+00:00",
-    "last_pushed_main_at": "2026-09-19T22:28:17.460436+00:00"
+    "last_pushed_main_at": "2026-09-21T19:17:30.296339+00:00"
   },
-  "build_status": "content_rendered",
+  "build_status": "pushed_main",
   "cutover_prep": {
     "domain": "dissrestoration.com",
     "harvested_at": "2026-09-15T15:34:55+00:00",

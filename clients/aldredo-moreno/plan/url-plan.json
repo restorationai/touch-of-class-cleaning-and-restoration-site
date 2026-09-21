@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-19T18:28:44.504374+00:00",
+  "generated_at": "2026-09-21T19:18:20.193858+00:00",
   "input_summary": {
     "service_count": 8,
-    "service_area_count": 12,
+    "service_area_count": 13,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -57,6 +57,7 @@
         "/service-areas/gardendale-tx/",
         "/service-areas/goldsmith-tx/",
         "/service-areas/greenwood-tx/",
+        "/service-areas/mccamey-tx/",
         "/service-areas/monahans-tx/",
         "/service-areas/odessa-tx/",
         "/service-areas/stanton-tx/",
@@ -139,6 +140,7 @@
         "/service-areas/gardendale-tx/",
         "/service-areas/goldsmith-tx/",
         "/service-areas/greenwood-tx/",
+        "/service-areas/mccamey-tx/",
         "/service-areas/monahans-tx/",
         "/service-areas/odessa-tx/",
         "/service-areas/stanton-tx/",
@@ -291,6 +293,7 @@
         "/service-areas/gardendale-tx/water-damage-restoration/",
         "/service-areas/goldsmith-tx/water-damage-restoration/",
         "/service-areas/greenwood-tx/water-damage-restoration/",
+        "/service-areas/mccamey-tx/water-damage-restoration/",
         "/service-areas/monahans-tx/water-damage-restoration/",
         "/service-areas/odessa-tx/water-damage-restoration/",
         "/service-areas/stanton-tx/water-damage-restoration/",
@@ -344,6 +347,7 @@
         "/service-areas/gardendale-tx/sewage-cleanup/",
         "/service-areas/goldsmith-tx/sewage-cleanup/",
         "/service-areas/greenwood-tx/sewage-cleanup/",
+        "/service-areas/mccamey-tx/sewage-cleanup/",
         "/service-areas/monahans-tx/sewage-cleanup/",
         "/service-areas/odessa-tx/sewage-cleanup/",
         "/service-areas/stanton-tx/sewage-cleanup/",
@@ -394,6 +398,7 @@
         "/service-areas/gardendale-tx/storm-damage-restoration/",
         "/service-areas/goldsmith-tx/storm-damage-restoration/",
         "/service-areas/greenwood-tx/storm-damage-restoration/",
+        "/service-areas/mccamey-tx/storm-damage-restoration/",
         "/service-areas/monahans-tx/storm-damage-restoration/",
         "/service-areas/odessa-tx/storm-damage-restoration/",
         "/service-areas/stanton-tx/storm-damage-restoration/",
@@ -444,6 +449,7 @@
         "/service-areas/gardendale-tx/air-duct-cleaning/",
         "/service-areas/goldsmith-tx/air-duct-cleaning/",
         "/service-areas/greenwood-tx/air-duct-cleaning/",
+        "/service-areas/mccamey-tx/air-duct-cleaning/",
         "/service-areas/monahans-tx/air-duct-cleaning/",
         "/service-areas/odessa-tx/air-duct-cleaning/",
         "/service-areas/stanton-tx/air-duct-cleaning/",
@@ -493,6 +499,7 @@
         "/service-areas/gardendale-tx/water-cleanup/",
         "/service-areas/goldsmith-tx/water-cleanup/",
         "/service-areas/greenwood-tx/water-cleanup/",
+        "/service-areas/mccamey-tx/water-cleanup/",
         "/service-areas/monahans-tx/water-cleanup/",
         "/service-areas/odessa-tx/water-cleanup/",
         "/service-areas/stanton-tx/water-cleanup/",
@@ -543,6 +550,7 @@
         "/service-areas/gardendale-tx/carpet-cleaning/",
         "/service-areas/goldsmith-tx/carpet-cleaning/",
         "/service-areas/greenwood-tx/carpet-cleaning/",
+        "/service-areas/mccamey-tx/carpet-cleaning/",
         "/service-areas/monahans-tx/carpet-cleaning/",
         "/service-areas/odessa-tx/carpet-cleaning/",
         "/service-areas/stanton-tx/carpet-cleaning/",
@@ -592,6 +600,7 @@
         "/service-areas/gardendale-tx/junk-debris-removal/",
         "/service-areas/goldsmith-tx/junk-debris-removal/",
         "/service-areas/greenwood-tx/junk-debris-removal/",
+        "/service-areas/mccamey-tx/junk-debris-removal/",
         "/service-areas/monahans-tx/junk-debris-removal/",
         "/service-areas/odessa-tx/junk-debris-removal/",
         "/service-areas/stanton-tx/junk-debris-removal/",
@@ -641,6 +650,7 @@
         "/service-areas/gardendale-tx/tile-grout-cleaning/",
         "/service-areas/goldsmith-tx/tile-grout-cleaning/",
         "/service-areas/greenwood-tx/tile-grout-cleaning/",
+        "/service-areas/mccamey-tx/tile-grout-cleaning/",
         "/service-areas/monahans-tx/tile-grout-cleaning/",
         "/service-areas/odessa-tx/tile-grout-cleaning/",
         "/service-areas/stanton-tx/tile-grout-cleaning/",
@@ -1137,6 +1147,51 @@
         "/service-areas/monahans-tx/junk-debris-removal/",
         "/service-areas/monahans-tx/carpet-cleaning/",
         "/service-areas/monahans-tx/tile-grout-cleaning/",
+        "/service-areas/andrews-tx/",
+        "/service-areas/big-spring-tx/",
+        "/service-areas/crane-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mccamey-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in McCamey, TX | ACS Enterprise ",
+      "h1": "Restoration Services in McCamey",
+      "meta_description": "Serving McCamey, TX with water, fire, mold, and storm damage restoration. Experienced team. Call (432) 847-4704.",
+      "primary_keyword": "restoration services mccamey",
+      "secondary_keywords": [
+        "mccamey restoration company",
+        "damage restoration mccamey",
+        "mccamey disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/mccamey-tx/water-damage-restoration/",
+        "/service-areas/mccamey-tx/sewage-cleanup/",
+        "/service-areas/mccamey-tx/storm-damage-restoration/",
+        "/service-areas/mccamey-tx/water-cleanup/",
+        "/service-areas/mccamey-tx/air-duct-cleaning/",
+        "/service-areas/mccamey-tx/junk-debris-removal/",
+        "/service-areas/mccamey-tx/carpet-cleaning/",
+        "/service-areas/mccamey-tx/tile-grout-cleaning/",
         "/service-areas/andrews-tx/",
         "/service-areas/big-spring-tx/",
         "/service-areas/crane-tx/"
@@ -5009,6 +5064,358 @@
         "/service-areas/monahans-tx/",
         "/service-areas/monahans-tx/water-damage-restoration/",
         "/service-areas/monahans-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/tile-grout-cleaning/",
+        "/service-areas/big-spring-tx/tile-grout-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mccamey-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in McCamey, TX | ACS Enterprise ",
+      "h1": "Water Damage Restoration in McCamey",
+      "meta_description": "Water damage restoration in McCamey, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "water damage restoration mccamey",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/mccamey-tx/",
+        "/service-areas/mccamey-tx/sewage-cleanup/",
+        "/service-areas/mccamey-tx/storm-damage-restoration/",
+        "/service-areas/andrews-tx/water-damage-restoration/",
+        "/service-areas/big-spring-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mccamey-tx/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in McCamey, TX | ACS Enterprise ",
+      "h1": "Sewage Cleanup and Sanitization in McCamey",
+      "meta_description": "Sewage cleanup and sanitization in McCamey, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "sewage cleanup and sanitization mccamey",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/mccamey-tx/",
+        "/service-areas/mccamey-tx/water-damage-restoration/",
+        "/service-areas/mccamey-tx/storm-damage-restoration/",
+        "/service-areas/andrews-tx/sewage-cleanup/",
+        "/service-areas/big-spring-tx/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mccamey-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in McCamey, TX | ACS Enterprise ",
+      "h1": "Storm Damage Restoration in McCamey",
+      "meta_description": "Storm damage restoration in McCamey, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "storm damage restoration mccamey",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/mccamey-tx/",
+        "/service-areas/mccamey-tx/water-damage-restoration/",
+        "/service-areas/mccamey-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/storm-damage-restoration/",
+        "/service-areas/big-spring-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mccamey-tx/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in McCamey, TX | ACS Enterprise ",
+      "h1": "Air Duct Cleaning in McCamey",
+      "meta_description": "Air duct cleaning in McCamey, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "air duct cleaning mccamey",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/mccamey-tx/",
+        "/service-areas/mccamey-tx/water-damage-restoration/",
+        "/service-areas/mccamey-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/air-duct-cleaning/",
+        "/service-areas/big-spring-tx/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mccamey-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in McCamey, TX | ACS Enterprise",
+      "h1": "Water Cleanup in McCamey",
+      "meta_description": "Water cleanup in McCamey, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "emergency water cleanup mccamey",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/mccamey-tx/",
+        "/service-areas/mccamey-tx/water-damage-restoration/",
+        "/service-areas/mccamey-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/water-cleanup/",
+        "/service-areas/big-spring-tx/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mccamey-tx/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in McCamey, TX | ACS Enterprise ",
+      "h1": "Carpet Cleaning in McCamey",
+      "meta_description": "Carpet cleaning in McCamey, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "carpet cleaning mccamey",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/mccamey-tx/",
+        "/service-areas/mccamey-tx/water-damage-restoration/",
+        "/service-areas/mccamey-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/carpet-cleaning/",
+        "/service-areas/big-spring-tx/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mccamey-tx/junk-debris-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Junk & Debris Removal in McCamey, TX | ACS Enterprise ",
+      "h1": "Junk & Debris Removal in McCamey",
+      "meta_description": "Junk & debris removal in McCamey, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "junk & debris removal mccamey",
+      "secondary_keywords": [
+        "junk removal",
+        "debris removal",
+        "house cleanout",
+        "garage cleanout",
+        "hauling services"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/junk-debris-removal/",
+        "/service-areas/mccamey-tx/",
+        "/service-areas/mccamey-tx/water-damage-restoration/",
+        "/service-areas/mccamey-tx/sewage-cleanup/",
+        "/service-areas/andrews-tx/junk-debris-removal/",
+        "/service-areas/big-spring-tx/junk-debris-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mccamey-tx/tile-grout-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Tile & Grout Cleaning in McCamey, TX | ACS Enterprise ",
+      "h1": "Tile & Grout Cleaning in McCamey",
+      "meta_description": "Tile & grout cleaning in McCamey, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "tile & grout cleaning mccamey",
+      "secondary_keywords": [
+        "grout cleaning",
+        "tile cleaning",
+        "grout sealing",
+        "grout restoration",
+        "floor tile cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/tile-grout-cleaning/",
+        "/service-areas/mccamey-tx/",
+        "/service-areas/mccamey-tx/water-damage-restoration/",
+        "/service-areas/mccamey-tx/sewage-cleanup/",
         "/service-areas/andrews-tx/tile-grout-cleaning/",
         "/service-areas/big-spring-tx/tile-grout-cleaning/",
         "/contact/"

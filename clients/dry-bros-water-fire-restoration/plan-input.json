@@ -149,6 +149,11 @@
       "city": "Burbank",
       "state": "IL",
       "slug": "burbank-il"
+    },
+    {
+      "city": "Evergreen Park",
+      "state": "IL",
+      "slug": "evergreen-park-il"
     }
   ],
   "template": "restoration",

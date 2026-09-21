@@ -1,10 +1,10 @@
 {
   "template": "construction",
   "template_version": "0.1.0",
-  "generated_at": "2026-09-21T14:13:06.145057+00:00",
+  "generated_at": "2026-09-21T19:18:32.829032+00:00",
   "input_summary": {
     "service_count": 9,
-    "service_area_count": 14,
+    "service_area_count": 15,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -64,6 +64,7 @@
         "/service-areas/new-hope-al/",
         "/service-areas/new-market-al/",
         "/service-areas/owens-cross-roads-al/",
+        "/service-areas/priceville-al/",
         "/service-areas/redstone-arsenal-al/",
         "/service-areas/triana-al/"
       ]
@@ -149,6 +150,7 @@
         "/service-areas/new-hope-al/",
         "/service-areas/new-market-al/",
         "/service-areas/owens-cross-roads-al/",
+        "/service-areas/priceville-al/",
         "/service-areas/redstone-arsenal-al/",
         "/service-areas/triana-al/"
       ]
@@ -309,7 +311,7 @@
         "/service-areas/new-hope-al/home-remodeling/",
         "/service-areas/new-market-al/home-remodeling/",
         "/service-areas/owens-cross-roads-al/home-remodeling/",
-        "/service-areas/redstone-arsenal-al/home-remodeling/",
+        "/service-areas/priceville-al/home-remodeling/",
         "/blog/choosing-a-general-contractor/",
         "/blog/how-to-plan-a-home-remodel/",
         "/blog/do-you-need-a-permit/"
@@ -362,7 +364,7 @@
         "/service-areas/new-hope-al/new-construction/",
         "/service-areas/new-market-al/new-construction/",
         "/service-areas/owens-cross-roads-al/new-construction/",
-        "/service-areas/redstone-arsenal-al/new-construction/",
+        "/service-areas/priceville-al/new-construction/",
         "/blog/choosing-a-general-contractor/",
         "/blog/how-long-to-build-a-house/"
       ]
@@ -414,7 +416,7 @@
         "/service-areas/new-hope-al/decks-pergolas-fences/",
         "/service-areas/new-market-al/decks-pergolas-fences/",
         "/service-areas/owens-cross-roads-al/decks-pergolas-fences/",
-        "/service-areas/redstone-arsenal-al/decks-pergolas-fences/",
+        "/service-areas/priceville-al/decks-pergolas-fences/",
         "/blog/wood-vs-composite-decking/"
       ]
     },
@@ -465,7 +467,7 @@
         "/service-areas/new-hope-al/roofing/",
         "/service-areas/new-market-al/roofing/",
         "/service-areas/owens-cross-roads-al/roofing/",
-        "/service-areas/redstone-arsenal-al/roofing/",
+        "/service-areas/priceville-al/roofing/",
         "/blog/roofing-material-comparison/",
         "/blog/how-long-does-roof-replacement-take/",
         "/blog/storm-damage-repair-process/"
@@ -518,7 +520,7 @@
         "/service-areas/new-hope-al/siding-gutters/",
         "/service-areas/new-market-al/siding-gutters/",
         "/service-areas/owens-cross-roads-al/siding-gutters/",
-        "/service-areas/redstone-arsenal-al/siding-gutters/",
+        "/service-areas/priceville-al/siding-gutters/",
         "/blog/siding-options-compared/"
       ]
     },
@@ -569,7 +571,7 @@
         "/service-areas/new-hope-al/painting-trim/",
         "/service-areas/new-market-al/painting-trim/",
         "/service-areas/owens-cross-roads-al/painting-trim/",
-        "/service-areas/redstone-arsenal-al/painting-trim/"
+        "/service-areas/priceville-al/painting-trim/"
       ]
     },
     {
@@ -619,7 +621,7 @@
         "/service-areas/new-hope-al/water-damage-restoration/",
         "/service-areas/new-market-al/water-damage-restoration/",
         "/service-areas/owens-cross-roads-al/water-damage-restoration/",
-        "/service-areas/redstone-arsenal-al/water-damage-restoration/"
+        "/service-areas/priceville-al/water-damage-restoration/"
       ]
     },
     {
@@ -669,7 +671,7 @@
         "/service-areas/new-hope-al/storm-damage-restoration/",
         "/service-areas/new-market-al/storm-damage-restoration/",
         "/service-areas/owens-cross-roads-al/storm-damage-restoration/",
-        "/service-areas/redstone-arsenal-al/storm-damage-restoration/",
+        "/service-areas/priceville-al/storm-damage-restoration/",
         "/blog/storm-damage-insurance-claim-checklist/",
         "/blog/storm-damage-repair-process/"
       ]
@@ -721,7 +723,7 @@
         "/service-areas/new-hope-al/mold-remediation/",
         "/service-areas/new-market-al/mold-remediation/",
         "/service-areas/owens-cross-roads-al/mold-remediation/",
-        "/service-areas/redstone-arsenal-al/mold-remediation/",
+        "/service-areas/priceville-al/mold-remediation/",
         "/blog/mold-found-during-renovation/"
       ]
     },
@@ -1321,6 +1323,52 @@
         "/service-areas/athens-al/",
         "/service-areas/gurley-al/",
         "/service-areas/harvest-al/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/priceville-al/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Construction Services in Priceville, AL | Davis Construction Contractors",
+      "h1": "Construction Services in Priceville",
+      "meta_description": "Serving Priceville, AL with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (256) 771-0326 for a free estimate.",
+      "primary_keyword": "construction services priceville",
+      "secondary_keywords": [
+        "priceville construction company",
+        "general contractor priceville",
+        "priceville remodeling contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/priceville-al/home-remodeling/",
+        "/service-areas/priceville-al/roofing/",
+        "/service-areas/priceville-al/decks-pergolas-fences/",
+        "/service-areas/priceville-al/new-construction/",
+        "/service-areas/priceville-al/siding-gutters/",
+        "/service-areas/priceville-al/mold-remediation/",
+        "/service-areas/priceville-al/painting-trim/",
+        "/service-areas/priceville-al/storm-damage-restoration/",
+        "/service-areas/priceville-al/water-damage-restoration/",
+        "/service-areas/ardmore-al/",
+        "/service-areas/athens-al/",
+        "/service-areas/gurley-al/"
       ]
     },
     {
@@ -6468,6 +6516,402 @@
         "/service-areas/ardmore-al/roofing/",
         "/service-areas/athens-al/mold-remediation/",
         "/service-areas/gurley-al/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/priceville-al/home-remodeling/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Home Remodeling in Priceville, AL | Davis Construction Contractors",
+      "h1": "Home Remodeling in Priceville",
+      "meta_description": "Trusted home remodeling in Priceville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "home remodeling priceville",
+      "secondary_keywords": [
+        "home renovation",
+        "whole home remodel",
+        "interior remodeling contractor",
+        "house renovation contractor",
+        "remodeling company"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/home-remodeling/",
+        "/service-areas/priceville-al/",
+        "/service-areas/priceville-al/roofing/",
+        "/service-areas/priceville-al/decks-pergolas-fences/",
+        "/service-areas/ardmore-al/home-remodeling/",
+        "/service-areas/athens-al/home-remodeling/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/priceville-al/new-construction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "New Home Construction in Priceville, AL | Davis Construction Contractors",
+      "h1": "New Home Construction in Priceville",
+      "meta_description": "Trusted new home construction in Priceville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "new home construction priceville",
+      "secondary_keywords": [
+        "custom home builder",
+        "new home builder",
+        "build a house",
+        "residential construction",
+        "ground-up construction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/new-construction/",
+        "/service-areas/priceville-al/",
+        "/service-areas/priceville-al/home-remodeling/",
+        "/service-areas/priceville-al/roofing/",
+        "/service-areas/ardmore-al/new-construction/",
+        "/service-areas/athens-al/new-construction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/priceville-al/decks-pergolas-fences/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Decks, Pergolas and Fences in Priceville, AL | Davis Construction Contractors",
+      "h1": "Decks, Pergolas and Fences in Priceville",
+      "meta_description": "Trusted decks, pergolas and fences in Priceville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "decks, pergolas and fences priceville",
+      "secondary_keywords": [
+        "deck builder",
+        "deck installation",
+        "pergola builder",
+        "fence installation",
+        "outdoor structure contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/decks-pergolas-fences/",
+        "/service-areas/priceville-al/",
+        "/service-areas/priceville-al/home-remodeling/",
+        "/service-areas/priceville-al/roofing/",
+        "/service-areas/ardmore-al/decks-pergolas-fences/",
+        "/service-areas/athens-al/decks-pergolas-fences/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/priceville-al/roofing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Roofing Installation and Replacement in Priceville, AL | Davis Construction Contractors",
+      "h1": "Roofing Installation and Replacement in Priceville",
+      "meta_description": "Trusted roofing installation and replacement in Priceville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "roofing installation and replacement priceville",
+      "secondary_keywords": [
+        "roofing contractor",
+        "roof replacement",
+        "new roof installation",
+        "residential roofing",
+        "roof repair"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/roofing/",
+        "/service-areas/priceville-al/",
+        "/service-areas/priceville-al/home-remodeling/",
+        "/service-areas/priceville-al/decks-pergolas-fences/",
+        "/service-areas/ardmore-al/roofing/",
+        "/service-areas/athens-al/roofing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/priceville-al/siding-gutters/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Siding and Gutters in Priceville, AL | Davis Construction Contractors",
+      "h1": "Siding and Gutters in Priceville",
+      "meta_description": "Trusted siding and gutters in Priceville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "siding and gutters priceville",
+      "secondary_keywords": [
+        "siding contractor",
+        "siding installation",
+        "siding replacement",
+        "gutter installation",
+        "exterior contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/siding-gutters/",
+        "/service-areas/priceville-al/",
+        "/service-areas/priceville-al/home-remodeling/",
+        "/service-areas/priceville-al/roofing/",
+        "/service-areas/ardmore-al/siding-gutters/",
+        "/service-areas/athens-al/siding-gutters/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/priceville-al/painting-trim/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Painting and Trim in Priceville, AL | Davis Construction Contractors",
+      "h1": "Painting and Trim in Priceville",
+      "meta_description": "Trusted painting and trim in Priceville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "painting and trim priceville",
+      "secondary_keywords": [
+        "painting contractor",
+        "interior painting",
+        "exterior painting",
+        "house painter",
+        "trim painting"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/painting-trim/",
+        "/service-areas/priceville-al/",
+        "/service-areas/priceville-al/home-remodeling/",
+        "/service-areas/priceville-al/roofing/",
+        "/service-areas/ardmore-al/painting-trim/",
+        "/service-areas/athens-al/painting-trim/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/priceville-al/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Priceville, AL | Davis Construction Contractors",
+      "h1": "Water Damage Restoration in Priceville",
+      "meta_description": "Trusted water damage restoration in Priceville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "water damage restoration priceville",
+      "secondary_keywords": [
+        "water damage repair",
+        "water damage rebuild",
+        "drywall water damage repair",
+        "ceiling water damage repair",
+        "post-leak renovation"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/priceville-al/",
+        "/service-areas/priceville-al/home-remodeling/",
+        "/service-areas/priceville-al/roofing/",
+        "/service-areas/ardmore-al/water-damage-restoration/",
+        "/service-areas/athens-al/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/priceville-al/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Priceville, AL | Davis Construction Contractors",
+      "h1": "Storm Damage Restoration in Priceville",
+      "meta_description": "Trusted storm damage restoration in Priceville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "storm damage restoration priceville",
+      "secondary_keywords": [
+        "storm damage repair",
+        "roof storm damage repair",
+        "siding storm damage repair",
+        "wind damage repair contractor",
+        "storm damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/priceville-al/",
+        "/service-areas/priceville-al/home-remodeling/",
+        "/service-areas/priceville-al/roofing/",
+        "/service-areas/ardmore-al/storm-damage-restoration/",
+        "/service-areas/athens-al/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/priceville-al/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Priceville, AL | Davis Construction Contractors",
+      "h1": "Mold Remediation in Priceville",
+      "meta_description": "Trusted mold remediation in Priceville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "mold remediation priceville",
+      "secondary_keywords": [
+        "mold removal",
+        "mold remediation contractor",
+        "mold repair and rebuild",
+        "mold-safe renovation",
+        "post-remediation reconstruction"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/priceville-al/",
+        "/service-areas/priceville-al/home-remodeling/",
+        "/service-areas/priceville-al/roofing/",
+        "/service-areas/ardmore-al/mold-remediation/",
+        "/service-areas/athens-al/mold-remediation/",
         "/contact/"
       ]
     },

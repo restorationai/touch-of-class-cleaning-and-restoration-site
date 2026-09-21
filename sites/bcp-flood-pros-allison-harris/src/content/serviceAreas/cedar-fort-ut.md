@@ -1,0 +1,23 @@
+---
+archetype: "service-area"
+title: "Restoration Services in Cedar Fort, UT | FIX Restoration"
+h1: "Restoration Services in Cedar Fort"
+meta_description: "Serving Cedar Fort, UT with water, fire, mold, and storm damage restoration. Experienced team. Call (801) 930-9750."
+primary_keyword: "restoration services cedar fort"
+secondary_keywords: ["cedar fort restoration company", "damage restoration cedar fort", "cedar fort disaster restoration"]
+search_intent: "local_commercial"
+priority: 4.8
+plan_hash: "bd5bfafac2d2ec15"
+generated_at: "2026-09-21T19:18:25.947374+00:00"
+manual_override: false
+internal_links: ["/service-areas/", "/contact/", "/service-areas/cedar-fort-ut/fire-damage-restoration/", "/service-areas/cedar-fort-ut/mold-remediation/", "/service-areas/cedar-fort-ut/water-damage-restoration/", "/service-areas/cedar-fort-ut/sewage-cleanup/", "/service-areas/cedar-fort-ut/storm-damage-restoration/", "/service-areas/cedar-fort-ut/water-cleanup/", "/service-areas/cedar-fort-ut/biohazard-cleanup/", "/service-areas/cedar-fort-ut/general-contracting/", "/service-areas/cedar-fort-ut/emergency-board-up-tarping/", "/service-areas/cedar-fort-ut/contents-restoration-storage/", "/service-areas/cedar-fort-ut/flood-equipment-rental/", "/service-areas/alpine-ut/", "/service-areas/bluffdale-ut/", "/service-areas/cedar-hills-ut/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Cedar Fort"}]
+faq: []
+area_slug: "cedar-fort-ut"
+city: "Cedar Fort"
+state: "UT"
+primary: false
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug bcp-flood-pros-allison-harris` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Restoration Services in Cedar Fort.

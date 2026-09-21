@@ -1,20 +1,20 @@
 # Site Plan Report — California Restoration West 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-21T14:13:01.581643+00:00
+- Generated: 2026-09-21T19:18:27.552205+00:00
 - Domain: `californiarestorationwest.com`
 - Services selected: 6 of 65 catalog entries
-- Service areas: 20
+- Service areas: 21
 - Cross-product enabled: True
-- Total URLs: **156**
-- Total internal links: 1209 (avg 7.8 per page)
+- Total URLs: **163**
+- Total internal links: 1264 (avg 7.8 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 114 |
-| `service-area` | 19 |
+| `service-area-service` | 120 |
+| `service-area` | 20 |
 | `blog-post` | 8 |
 | `service-landing` | 6 |
 | `legal` | 3 |
@@ -56,6 +56,7 @@
 - `lake-sherwood-ca` — Lake Sherwood, CA
 - `carpinteria-ca` — Carpinteria, CA
 - `castaic-ca` — Castaic, CA
+- `oak-park-ca` — Oak Park, CA
 
 ## Top 10 priority pages
 

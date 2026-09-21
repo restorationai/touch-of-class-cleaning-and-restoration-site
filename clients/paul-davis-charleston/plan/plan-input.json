@@ -92,6 +92,11 @@
       "city": "Kiawah Island",
       "state": "SC",
       "slug": "kiawah-island-sc"
+    },
+    {
+      "city": "Meggett",
+      "state": "SC",
+      "slug": "meggett-sc"
     }
   ]
 }

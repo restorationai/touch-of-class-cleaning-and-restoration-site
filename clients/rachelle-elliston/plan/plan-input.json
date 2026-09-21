@@ -120,6 +120,11 @@
       "city": "Sandy Valley",
       "state": "NV",
       "slug": "sandy-valley-nv"
+    },
+    {
+      "city": "Nelson",
+      "state": "NV",
+      "slug": "nelson-nv"
     }
   ],
   "template": "restoration",

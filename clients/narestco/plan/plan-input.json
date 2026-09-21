@@ -449,6 +449,11 @@
       "city": "Vashon",
       "state": "WA",
       "slug": "vashon-wa"
+    },
+    {
+      "city": "Burien",
+      "state": "WA",
+      "slug": "burien-wa"
     }
   ],
   "brand": {

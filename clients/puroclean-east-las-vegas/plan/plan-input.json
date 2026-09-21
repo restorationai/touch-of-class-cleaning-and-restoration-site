@@ -387,6 +387,11 @@
       "city": "Pahrump",
       "state": "NV",
       "slug": "pahrump-nv"
+    },
+    {
+      "city": "Searchlight",
+      "state": "NV",
+      "slug": "searchlight-nv"
     }
   ]
 }

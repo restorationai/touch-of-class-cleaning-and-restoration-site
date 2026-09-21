@@ -1,20 +1,20 @@
 # Site Plan Report — National Restoration Construction
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-21T14:13:34.469903+00:00
+- Generated: 2026-09-21T19:18:58.853292+00:00
 - Domain: `narestco.com`
 - Services selected: 23 of 65 catalog entries
-- Service areas: 25
+- Service areas: 26
 - Cross-product enabled: True
-- Total URLs: **620**
-- Total internal links: 5055 (avg 8.2 per page)
+- Total URLs: **644**
+- Total internal links: 5246 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 552 |
-| `service-area` | 24 |
+| `service-area-service` | 575 |
+| `service-area` | 25 |
 | `service-landing` | 23 |
 | `blog-post` | 12 |
 | `legal` | 3 |
@@ -78,6 +78,7 @@
 - `fife-wa` — Fife, WA
 - `normandy-park-wa` — Normandy Park, WA
 - `vashon-wa` — Vashon, WA
+- `burien-wa` — Burien, WA
 
 ## Top 10 priority pages
 

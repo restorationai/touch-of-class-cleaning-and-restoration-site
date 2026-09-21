@@ -136,6 +136,11 @@
       "city": "Green Tree",
       "state": "PA",
       "slug": "green-tree-pa"
+    },
+    {
+      "city": "Carnegie",
+      "state": "PA",
+      "slug": "carnegie-pa"
     }
   ],
   "template": "restoration",

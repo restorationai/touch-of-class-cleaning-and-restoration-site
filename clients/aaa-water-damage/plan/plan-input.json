@@ -398,6 +398,11 @@
       "city": "Mililani Town",
       "state": "HI",
       "slug": "mililani-town-hi"
+    },
+    {
+      "city": "Royal Kunia",
+      "state": "HI",
+      "slug": "royal-kunia-hi"
     }
   ],
   "brand": {

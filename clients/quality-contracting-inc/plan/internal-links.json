@@ -32,6 +32,7 @@
     "/service-areas/southborough-ma/",
     "/service-areas/southbridge-town-ma/",
     "/service-areas/sturbridge-ma/",
+    "/service-areas/ware-ma/",
     "/service-areas/wellesley-ma/",
     "/service-areas/westborough-ma/",
     "/service-areas/weston-ma/",
@@ -71,6 +72,7 @@
     "/service-areas/southborough-ma/",
     "/service-areas/southbridge-town-ma/",
     "/service-areas/sturbridge-ma/",
+    "/service-areas/ware-ma/",
     "/service-areas/wellesley-ma/",
     "/service-areas/westborough-ma/",
     "/service-areas/weston-ma/",
@@ -679,6 +681,24 @@
     "/service-areas/east-douglas-ma/",
     "/service-areas/fiskdale-ma/",
     "/service-areas/framingham-ma/"
+  ],
+  "/service-areas/ware-ma/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/ware-ma/fire-damage-restoration/",
+    "/service-areas/ware-ma/mold-remediation/",
+    "/service-areas/ware-ma/water-damage-restoration/",
+    "/service-areas/ware-ma/sewage-cleanup/",
+    "/service-areas/ware-ma/storm-damage-restoration/",
+    "/service-areas/ware-ma/water-cleanup/",
+    "/service-areas/ware-ma/biohazard-cleanup/",
+    "/service-areas/ware-ma/emergency-board-up-tarping/",
+    "/service-areas/ware-ma/air-duct-cleaning/",
+    "/service-areas/ware-ma/contents-restoration/",
+    "/service-areas/ware-ma/crawl-space-encapsulation/",
+    "/service-areas/bellingham-ma/",
+    "/service-areas/east-douglas-ma/",
+    "/service-areas/fiskdale-ma/"
   ],
   "/service-areas/worcester-ma/water-damage-restoration/": [
     "/services/water-damage-restoration/",
@@ -2856,6 +2876,105 @@
     "/service-areas/bellingham-ma/mold-remediation/",
     "/service-areas/east-douglas-ma/water-cleanup/",
     "/service-areas/fiskdale-ma/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/ware-ma/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/ware-ma/",
+    "/service-areas/ware-ma/fire-damage-restoration/",
+    "/service-areas/ware-ma/mold-remediation/",
+    "/service-areas/bellingham-ma/water-damage-restoration/",
+    "/service-areas/east-douglas-ma/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/ware-ma/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/ware-ma/",
+    "/service-areas/ware-ma/fire-damage-restoration/",
+    "/service-areas/ware-ma/mold-remediation/",
+    "/service-areas/bellingham-ma/storm-damage-restoration/",
+    "/service-areas/east-douglas-ma/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/ware-ma/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/ware-ma/",
+    "/service-areas/ware-ma/mold-remediation/",
+    "/service-areas/ware-ma/water-damage-restoration/",
+    "/service-areas/bellingham-ma/fire-damage-restoration/",
+    "/service-areas/east-douglas-ma/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/ware-ma/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/ware-ma/",
+    "/service-areas/ware-ma/fire-damage-restoration/",
+    "/service-areas/ware-ma/water-damage-restoration/",
+    "/service-areas/bellingham-ma/mold-remediation/",
+    "/service-areas/east-douglas-ma/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/ware-ma/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/ware-ma/",
+    "/service-areas/ware-ma/fire-damage-restoration/",
+    "/service-areas/ware-ma/mold-remediation/",
+    "/service-areas/bellingham-ma/sewage-cleanup/",
+    "/service-areas/east-douglas-ma/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/ware-ma/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/ware-ma/",
+    "/service-areas/ware-ma/fire-damage-restoration/",
+    "/service-areas/ware-ma/mold-remediation/",
+    "/service-areas/bellingham-ma/biohazard-cleanup/",
+    "/service-areas/east-douglas-ma/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/ware-ma/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/ware-ma/",
+    "/service-areas/ware-ma/fire-damage-restoration/",
+    "/service-areas/ware-ma/mold-remediation/",
+    "/service-areas/bellingham-ma/emergency-board-up-tarping/",
+    "/service-areas/east-douglas-ma/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/ware-ma/contents-restoration/": [
+    "/services/contents-restoration/",
+    "/service-areas/ware-ma/",
+    "/service-areas/ware-ma/fire-damage-restoration/",
+    "/service-areas/ware-ma/mold-remediation/",
+    "/service-areas/bellingham-ma/contents-restoration/",
+    "/service-areas/east-douglas-ma/contents-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/ware-ma/air-duct-cleaning/": [
+    "/services/air-duct-cleaning/",
+    "/service-areas/ware-ma/",
+    "/service-areas/ware-ma/fire-damage-restoration/",
+    "/service-areas/ware-ma/mold-remediation/",
+    "/service-areas/bellingham-ma/air-duct-cleaning/",
+    "/service-areas/east-douglas-ma/air-duct-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/ware-ma/crawl-space-encapsulation/": [
+    "/services/crawl-space-encapsulation/",
+    "/service-areas/ware-ma/",
+    "/service-areas/ware-ma/fire-damage-restoration/",
+    "/service-areas/ware-ma/mold-remediation/",
+    "/service-areas/bellingham-ma/crawl-space-encapsulation/",
+    "/service-areas/east-douglas-ma/crawl-space-encapsulation/",
+    "/contact/"
+  ],
+  "/service-areas/ware-ma/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/ware-ma/",
+    "/service-areas/ware-ma/fire-damage-restoration/",
+    "/service-areas/ware-ma/mold-remediation/",
+    "/service-areas/bellingham-ma/water-cleanup/",
+    "/service-areas/east-douglas-ma/water-cleanup/",
     "/contact/"
   ],
   "/blog/what-to-do-first-24-hours-water-damage/": [

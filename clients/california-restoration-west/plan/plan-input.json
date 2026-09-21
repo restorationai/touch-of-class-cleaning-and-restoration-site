@@ -138,6 +138,11 @@
       "city": "Castaic",
       "state": "CA",
       "slug": "castaic-ca"
+    },
+    {
+      "city": "Oak Park",
+      "state": "CA",
+      "slug": "oak-park-ca"
     }
   ],
   "template": "restoration",
