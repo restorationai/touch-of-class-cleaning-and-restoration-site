@@ -1,7 +1,7 @@
 {
-  "last_kind": "blog",
-  "cycle_pos": 1,
-  "geo_cursor": 0,
+  "last_kind": "geo",
+  "cycle_pos": 2,
+  "geo_cursor": 1,
   "history": [
     {
       "ts": "2026-09-21T17:05:00.734265+00:00",
@@ -10,6 +10,14 @@
       "service": null,
       "city": null,
       "youtube_id": "3KjtKq1gfJo"
+    },
+    {
+      "ts": "2026-09-21T20:36:54.207332+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "water-damage-restoration",
+      "city": "Royse City",
+      "youtube_id": "Y69agB7BxNE"
     }
   ]
 }
