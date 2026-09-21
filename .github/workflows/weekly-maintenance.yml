@@ -278,10 +278,8 @@ jobs:
         run: python3 scripts/ai_search_scan.py --all --limit 8 --engines chatgpt,gemini,perplexity,claude --shard 19 --budget-min 38
 
       - name: Track Google AI Overviews (weekly — Monday + manual)
-        timeout-minutes: 25
-        continue-on-error: true
         if: ${{ !inputs.content_only && (github.event.schedule == '0 16 * * 1' || github.event_name == 'workflow_dispatch') }}
-        timeout-minutes: 15
+        timeout-minutes: 25
         continue-on-error: true
         env:
           SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
@@ -307,10 +305,8 @@ jobs:
           fi
 
       - name: Indexing watchdog (weekly — Monday + manual; GSC index coverage + remediation)
-        timeout-minutes: 25
-        continue-on-error: true
         if: ${{ !inputs.content_only && (github.event.schedule == '0 16 * * 1' || github.event_name == 'workflow_dispatch') }}
-        timeout-minutes: 20
+        timeout-minutes: 25
         continue-on-error: true
         env:
           SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
