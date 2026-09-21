@@ -310,10 +310,10 @@
     },
     {
       "id": "2026-09-18-water-damage-restoration-process-naperville",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-18T22:55:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-21T00:24:02Z",
+      "post_url": "https://drybros.com/blog/water-damage-restoration-process-naperville/",
       "primary_keyword": "water damage restoration process",
       "intent": "informational",
       "volume": 110,
@@ -342,7 +342,45 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "Fills the obvious gap next to the existing /blog/fire-damage-restoration-process/ post: there is a fire process explainer and no water one. Structure as inspection, extraction, structural drying, dehumidification, antimicrobial treatment, reconstruction, with IICRC S500 as the spine. Anchored to Naperville to spread city coverage off Chicago."
+      "notes": "Fills the obvious gap next to the existing /blog/fire-damage-restoration-process/ post: there is a fire process explainer and no water one. Structure as inspection, extraction, structural drying, dehumidification, antimicrobial treatment, reconstruction, with IICRC S500 as the spine. Anchored to Naperville to spread city coverage off Chicago.",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-damage-restoration-process-naperville.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "meline. Every phase is governed by the [IICRC S500 Standard for Professional Water Da",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-process-naperville.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "n-type or pinless moisture meters. The IICRC S500 standard defines three water categ",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-process-naperville.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "re content for the region, a number the IICRC S500 defines specifically for different",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-process-naperville.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified technician",
+          "context": "ater category. General guidelines that certified technicians follow: - **Drywall:** Drywall that h",
+          "reason": "names a certification not present in brand.certifications"
+        }
+      ]
     },
     {
       "id": "2026-09-18-how-long-does-water-damage-restoration-take-chicago",
