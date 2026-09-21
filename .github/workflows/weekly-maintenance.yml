@@ -104,6 +104,11 @@ jobs:
         continue-on-error: true
         env:
           PYTHONUNBUFFERED: "1"   # step gets SIGKILLed at its cap — buffered stdout was dying with it, leaving blank logs
+          # SUPABASE creds (2026-09-21, MCC leak): without them the
+          # departed-status check FAILED OPEN and the scheduler wrote
+          # content for a Suspended client. Same class as 09-18 ops-sync.
+          SUPABASE_URL:                 ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY:    ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           ANTHROPIC_API_KEY:            ${{ secrets.ANTHROPIC_API_KEY }}
           GOOGLE_AI_API_KEY:            ${{ secrets.GOOGLE_AI_API_KEY }}
           CLOUDFLARE_API_TOKEN:         ${{ secrets.CLOUDFLARE_API_TOKEN }}

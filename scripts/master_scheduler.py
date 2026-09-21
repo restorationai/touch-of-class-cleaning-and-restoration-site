@@ -164,7 +164,12 @@ DEPARTED = {"archived", "churned", "paused", "cancelled", "canceled", "inactive"
 def _db_departed_ids() -> set:
     try:
         if not os.environ.get("SUPABASE_URL"):
-            return set()
+            # MISSING ENV IS MISCONFIGURATION, NOT A HICCUP (2026-09-21:
+            # weekly-maint ran without Supabase creds, the departed check
+            # silently returned empty, and content published for MCC — a
+            # Suspended client). Refuse loudly instead of guessing.
+            sys.exit("FATAL: SUPABASE_URL not set — cannot verify departed "
+                     "clients; refusing to run for everyone blindly")
         from supabase import create_client
         sb = create_client(os.environ["SUPABASE_URL"],
                            os.environ["SUPABASE_SERVICE_ROLE_KEY"])

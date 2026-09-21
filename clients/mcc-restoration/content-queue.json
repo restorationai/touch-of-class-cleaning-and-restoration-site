@@ -266,10 +266,10 @@
     },
     {
       "id": "2026-08-27-signs-of-a-slab-leak",
-      "status": "written",
+      "status": "queued",
       "queued_at": "2026-08-27T04:05:32Z",
-      "written_at": "2026-09-21T17:13:57Z",
-      "post_url": "https://mccrestoration.com/blog/signs-of-a-slab-leak/",
+      "written_at": null,
+      "post_url": null,
       "primary_keyword": "signs of a slab leak",
       "intent": "informational",
       "volume": 390,
@@ -298,36 +298,7 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "Highest local fit of the run: Duncanville and the Best Southwest sit on expansive Blackland Prairie clay, and plan-input names slab leaks and under-foundation plumbing failures the leading water-damage source. KD 0, CPC $19.86, 390/mo. Lead with the warning signs (warm spot on the floor, unexplained water bill spike, sound of running water with everything off, cracking slab). Be clear MCC handles the water damage and reconstruction side; do not claim plumbing repair or any Texas license the client has not attested.",
-      "claims_flags": [
-        {
-          "file": "src/content/blog/signs-of-a-slab-leak.md",
-          "part": "frontmatter",
-          "family": "certification",
-          "severity": "review",
-          "matched": "IICRC",
-          "context": "ubfloor assemblies can take longer. The IICRC S500 standard defines drying goals by m",
-          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-        },
-        {
-          "file": "src/content/blog/signs-of-a-slab-leak.md",
-          "part": "body",
-          "family": "certification",
-          "severity": "review",
-          "matched": "IICRC",
-          "context": "claim. 6. **Do not delay drying.** The [IICRC S500 standard](https://www.iicrc.org/pa",
-          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-        },
-        {
-          "file": "src/content/blog/signs-of-a-slab-leak.md",
-          "part": "body",
-          "family": "certification",
-          "severity": "review",
-          "matched": "IICRC",
-          "context": "sture mapping, structural drying to the IICRC S500 standard, flooring and drywall rem",
-          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-        }
-      ]
+      "notes": "Highest local fit of the run: Duncanville and the Best Southwest sit on expansive Blackland Prairie clay, and plan-input names slab leaks and under-foundation plumbing failures the leading water-damage source. KD 0, CPC $19.86, 390/mo. Lead with the warning signs (warm spot on the floor, unexplained water bill spike, sound of running water with everything off, cracking slab). Be clear MCC handles the water damage and reconstruction side; do not claim plumbing repair or any Texas license the client has not attested."
     },
     {
       "id": "2026-08-27-water-damage-restoration-cost",
