@@ -1,0 +1,181 @@
+{
+  "client": "katofsky-construction-llc",
+  "last_updated": "2026-09-21",
+  "items": [
+    {
+      "id": "2026-09-21-how-much-does-a-general-contractor-charge-pittsburgh",
+      "status": "queued",
+      "queued_at": "2026-09-21T16:40:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how much does a general contractor charge",
+      "intent": "commercial",
+      "volume": 320,
+      "kd": 2,
+      "fan_out_cluster": [
+        "what percentage does a general contractor charge",
+        "how much does a general contractor cost",
+        "general contractor fee vs cost plus contract",
+        "how much does it cost to renovate a house in pittsburgh",
+        "are general contractor estimates free",
+        "what is included in a general contractor quote"
+      ],
+      "suggested_slug": "how-much-does-a-general-contractor-charge-pittsburgh",
+      "suggested_title": "How much does a general contractor charge in Pittsburgh (real percentages and numbers)",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/general-contracting/",
+        "/service-areas/pittsburgh-pa/"
+      ],
+      "service_tags": [
+        "general-contracting"
+      ],
+      "city_anchor": "pittsburgh-pa",
+      "external_authority_candidates": [
+        "https://www.nahb.org/",
+        "https://www.attorneygeneral.gov/businesses-and-organizations/home-improvement-contractor-registration/frequently-asked-questions/"
+      ],
+      "notes": "Lead with a fee table: percentage-of-cost range, cost-plus, and fixed-fee, then a Pittsburgh project-size cost band. Explain what the fee actually buys (scheduling, subs, permits, inspections, warranty). Pair with the general contracting service page."
+    },
+    {
+      "id": "2026-09-21-what-does-a-general-contractor-do-pittsburgh",
+      "status": "queued",
+      "queued_at": "2026-09-21T16:40:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what does a general contractor do",
+      "intent": "informational",
+      "volume": 5400,
+      "kd": 2,
+      "fan_out_cluster": [
+        "general contractor vs subcontractor",
+        "do i need a general contractor for a remodel",
+        "general contractor vs construction manager",
+        "who pulls the permit on a remodel",
+        "what does a general contractor do day to day",
+        "general contractor responsibilities on a home renovation"
+      ],
+      "suggested_slug": "what-does-a-general-contractor-do-pittsburgh",
+      "suggested_title": "What does a general contractor do (and when a Pittsburgh homeowner actually needs one)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/general-contracting/",
+        "/service-areas/pittsburgh-pa/"
+      ],
+      "service_tags": [
+        "general-contracting"
+      ],
+      "city_anchor": "pittsburgh-pa",
+      "external_authority_candidates": [
+        "https://www.pa.gov/agencies/dli/programs-services/labor-management-relations/bureau-of-occupational-and-industrial-safety/uniform-construction-code-home/contractor-licensing",
+        "https://www.nahb.org/"
+      ],
+      "notes": "Highest-volume term in the whole fan-out (5,400/mo, KD 2). Structure as a plain definition passage up top so AI engines can lift it, then a GC vs subcontractor comparison table, then a 'when you do not need one' section for honesty."
+    },
+    {
+      "id": "2026-09-21-how-to-find-a-good-general-contractor-greensburg-pa",
+      "status": "queued",
+      "queued_at": "2026-09-21T16:40:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to find a good general contractor",
+      "intent": "commercial",
+      "volume": 320,
+      "kd": 18,
+      "fan_out_cluster": [
+        "questions to ask a general contractor before hiring",
+        "how to check if a contractor is licensed in pennsylvania",
+        "do you need a license to be a general contractor in pennsylvania",
+        "general contractor red flags",
+        "how many contractor bids should i get",
+        "what should be in a home improvement contract in pennsylvania"
+      ],
+      "suggested_slug": "how-to-find-a-good-general-contractor-greensburg-pa",
+      "suggested_title": "How to find a good general contractor in Greensburg, PA (a homeowner's vetting checklist)",
+      "target_word_count": 1700,
+      "internal_link_targets": [
+        "/services/general-contracting/",
+        "/service-areas/greensburg-pa/"
+      ],
+      "service_tags": [
+        "general-contracting"
+      ],
+      "city_anchor": "greensburg-pa",
+      "external_authority_candidates": [
+        "https://www.attorneygeneral.gov/businesses-and-organizations/home-improvement-contractor-registration/frequently-asked-questions/",
+        "https://www.pittsburghpa.gov/Business-Development/Permits-Licenses-and-Inspections/Licenses/Contractor-Licenses/General-Contractor-Licenses"
+      ],
+      "notes": "Anchored to Greensburg because 'general contractor greensburg pa' shows real standalone demand (90/mo, KD 0) outside the city core. Build it around the PA Home Improvement Contractor registry lookup: that is the single most liftable answer passage."
+    },
+    {
+      "id": "2026-09-21-do-i-need-a-permit-to-remodel-house-pittsburgh",
+      "status": "queued",
+      "queued_at": "2026-09-21T16:40:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "do i need a permit to remodel my house in pittsburgh",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "pittsburgh building permit cost",
+        "what home projects do not need a permit in pittsburgh",
+        "who pulls the permit contractor or homeowner",
+        "pennsylvania uniform construction code residential",
+        "pittsburgh remodel inspection schedule",
+        "how long does a pittsburgh building permit take"
+      ],
+      "suggested_slug": "do-i-need-a-permit-to-remodel-house-pittsburgh",
+      "suggested_title": "Do I need a permit to remodel my house in Pittsburgh? (what triggers one and what it costs)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/general-contracting/",
+        "/service-areas/pittsburgh-pa/"
+      ],
+      "service_tags": [
+        "general-contracting"
+      ],
+      "city_anchor": "pittsburgh-pa",
+      "external_authority_candidates": [
+        "https://www.pittsburghpa.gov/Business-Development/Permits-Licenses-and-Inspections/Permitting",
+        "https://www.pa.gov/agencies/dli/programs-services/labor-management-relations/bureau-of-occupational-and-industrial-safety/uniform-construction-code-home/contractor-licensing"
+      ],
+      "notes": "No Google volume record, but the ChatGPT decomposition spent a full section on Pittsburgh permits and inspections: this is AI-search demand that Google volume does not measure. Use a trigger table (what needs a permit vs what does not) and cite the city permit fee schedule."
+    },
+    {
+      "id": "2026-09-21-cost-to-renovate-a-house-pittsburgh",
+      "status": "queued",
+      "queued_at": "2026-09-21T16:40:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how much does it cost to renovate a house in pittsburgh",
+      "intent": "commercial",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "pittsburgh kitchen remodel cost",
+        "pittsburgh bathroom remodel cost",
+        "whole house renovation cost per square foot",
+        "cost to renovate an old pittsburgh house",
+        "how much does a general contractor cost",
+        "renovation contingency budget percentage"
+      ],
+      "suggested_slug": "cost-to-renovate-a-house-pittsburgh",
+      "suggested_title": "How much does it cost to renovate a house in Pittsburgh (2026 cost ranges by project)",
+      "target_word_count": 1800,
+      "internal_link_targets": [
+        "/services/general-contracting/",
+        "/service-areas/pittsburgh-pa/"
+      ],
+      "service_tags": [
+        "general-contracting"
+      ],
+      "city_anchor": "pittsburgh-pa",
+      "external_authority_candidates": [
+        "https://www.nahb.org/",
+        "https://www.pittsburghpa.gov/Business-Development/Permits-Licenses-and-Inspections/Permitting"
+      ],
+      "notes": "Pittsburgh's older housing stock (knob-and-tube, plaster, settled foundations) is the local angle that national cost calculators miss. Lead with a cost table by project type, then a contingency section. Strongest internal-link magnet for the general contracting service page."
+    }
+  ]
+}

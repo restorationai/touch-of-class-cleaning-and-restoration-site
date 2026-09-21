@@ -2199,6 +2199,35 @@
       "triaged_at": "2026-09-03T21:12:29Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "web:00ed35ca145ec95b": {
+      "source": "website",
+      "storage": "site-assets/web/web-00ed35ca145ec95b.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784594708149/site-assets/web/web-00ed35ca145ec95b.jpg",
+      "origin_url": "https://www.puroclean.com/las-vegas-nv-puroclean-east-las-vegas/wp-content/uploads/sites/792/2026/09/20260910_152528-rotated.jpg",
+      "found_on": "https://www.puroclean.com/las-vegas-nv-puroclean-east-las-vegas/",
+      "width": 2000,
+      "height": 1126,
+      "bytes": 323734,
+      "sha1": "00ed35ca145ec95b",
+      "exif": {
+        "taken_at": "2026:09:10 15:25:29"
+      },
+      "category": "unusable",
+      "subject": "Selfie at a trade show conference booth with PuroClean branding",
+      "quality": 45,
+      "slots": {
+        "hero": 5,
+        "team": 20,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Trade show selfie, no restoration work context, poor composition for marketing.",
+      "triaged_at": "2026-09-21T16:05:23Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "web:01f4db36d8bd9472": {
       "source": "website",
       "storage": "site-assets/web/web-01f4db36d8bd9472.jpg",
@@ -2698,5 +2727,5 @@
       "file": "/images/services.webp"
     }
   },
-  "triaged_at": "2026-09-20T14:08:54Z"
+  "triaged_at": "2026-09-21T16:05:23Z"
 }

@@ -1,0 +1,40 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+general contractor pittsburgh,transactional,1300,1,8.73,1,general contractor,Pittsburgh,,no
+pittsburgh general contractor,transactional,1300,1,8.73,1,general contractor,Pittsburgh,,no
+general contractor greensburg pa,transactional,90,0,5.65,1,general contractor,Greensburg,,no
+general contractors pittsburgh pa,transactional,70,7,11.94,1,general contractor,Pittsburgh,,no
+general contractor near me,transactional,135000,23,7.63,2,general contractor,,,no
+residential general contractor near me,transactional,3600,15,8.89,2,general contractor near me,,,no
+general contractor services,transactional,1000,11,6.72,2,general contractor,,,no
+general contractor in pittsburgh,transactional,720,,8.73,2,general contractor,Pittsburgh,,no
+small general contractor near me,transactional,210,18,5.91,2,general contractor near me,,,no
+general contractors near me free estimates,transactional,110,19,61.39,2,general contractor near me,,,no
+remodeling contractor pittsburgh,transactional,20,,,2,remodeling contractor,Pittsburgh,,no
+general contractor near pittsburgh,transactional,,,,3,general contractor near me,Pittsburgh,,no
+residential general contractor pittsburgh,transactional,,,,3,residential general contractor,Pittsburgh,,no
+licensed general contractor pittsburgh,transactional,,,,3,licensed contractor,Pittsburgh,,no
+home improvement contractor pittsburgh,transactional,,,,3,home improvement contractor,Pittsburgh,,no
+home renovation contractor pittsburgh,transactional,,,,3,home renovation contractor,Pittsburgh,,no
+general contracting services pittsburgh,transactional,,,,3,general contractor services,Pittsburgh,,no
+general contractor monroeville pa,transactional,,,,3,general contractor,Monroeville,,no
+general contractor bethel park pa,transactional,,,,3,general contractor,Bethel Park,,no
+general contractor penn hills pa,transactional,,,,3,general contractor,Penn Hills,,no
+remodeling contractor monroeville pa,transactional,,,,3,remodeling contractor,Monroeville,,no
+home improvement contractor greensburg pa,transactional,,,,3,home improvement contractor,Greensburg,,no
+how much does a general contractor charge,commercial,320,2,3.13,1,general contractor cost,,,yes
+how to find a good general contractor,commercial,320,18,4.54,1,how to choose a general contractor,,,yes
+general contractor vs subcontractor,commercial,260,0,,1,general contractor vs subcontractor,,,no
+how much does a general contractor cost,commercial,140,0,6.8,1,general contractor cost,,,no
+questions to ask a general contractor before hiring,commercial,140,10,0.13,1,how to choose a general contractor,,,no
+what percentage does a general contractor charge,commercial,110,0,,1,general contractor cost,,,no
+how much does it cost to renovate a house in pittsburgh,commercial,,,,1,general contractor cost,Pittsburgh,,yes
+best general contractor near me,commercial,3600,25,2.66,2,general contractor near me,,,no
+affordable general contractor near me,commercial,90,9,8.83,2,general contractor near me,,,no
+best general contractor pittsburgh,commercial,10,0,3.14,2,best general contractor near me,Pittsburgh,,no
+is a general contractor worth it,commercial,10,53,,2,how to choose a general contractor,,,no
+do i need a general contractor for a remodel,commercial,,,,2,how to choose a general contractor,,,no
+what does a general contractor do,informational,5400,2,3.13,1,general contractor,,,yes
+do i need a permit to remodel my house in pittsburgh,informational,,,,1,remodeling permit,Pittsburgh,,yes
+how long does a home renovation take,informational,30,0,,2,home renovation timeline,,,no
+general contractor license pennsylvania,informational,20,16,2.78,2,general contractor license,,,no
+do you need a license to be a general contractor in pennsylvania,informational,,,,2,general contractor license,,,no
