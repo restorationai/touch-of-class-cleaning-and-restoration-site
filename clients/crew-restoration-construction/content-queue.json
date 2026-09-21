@@ -989,7 +989,7 @@
     },
     {
       "id": "2026-09-15-crew-sioux-falls",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-15T14:24:35Z",
       "priority": 1,
       "prioritized": true,
@@ -999,7 +999,9 @@
       "intent": "navigational",
       "target_word_count": 1400,
       "city_anchor": "sioux-falls-sd",
-      "source": "gameplan-2026-09-4 (dev-agent)"
+      "source": "gameplan-2026-09-4 (dev-agent)",
+      "written_at": "2026-09-21T00:23:30Z",
+      "post_url": "https://crew3r.com/blog/crew-sioux-falls/"
     },
     {
       "id": "2026-09-18-biohazard-cleanup-cost-sioux-falls",
