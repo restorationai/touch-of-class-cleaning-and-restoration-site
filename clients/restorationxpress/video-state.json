@@ -1,7 +1,7 @@
 {
   "last_kind": "geo",
-  "cycle_pos": 2,
-  "geo_cursor": 1,
+  "cycle_pos": 0,
+  "geo_cursor": 2,
   "history": [
     {
       "ts": "2026-07-29T18:41:07.106133+00:00",
@@ -18,6 +18,14 @@
       "service": "water-damage-restoration",
       "city": "Plantation",
       "youtube_id": "y0hEW4jDbHY"
+    },
+    {
+      "ts": "2026-09-21T20:36:43.053819+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "water-damage-restoration",
+      "city": "Sunrise",
+      "youtube_id": "Ttu34mAaPmY"
     }
   ]
 }
