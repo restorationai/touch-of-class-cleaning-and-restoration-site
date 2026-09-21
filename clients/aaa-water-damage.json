@@ -55,12 +55,12 @@
     "starter_version": "0.1.0",
     "url_count": 174,
     "pages_status": "local-only",
-    "last_rendered_at": "2026-07-09T16:04:52.449943+00:00",
+    "last_rendered_at": "2026-09-21T09:30:06.461227+00:00",
     "github_repo": "restorationai/aaa-water-damage-site",
     "last_pushed_staging_at": "2026-08-19T02:58:04.235100+00:00",
     "last_pushed_main_at": "2026-09-20T14:22:48.400273+00:00"
   },
-  "build_status": "pushed_main",
+  "build_status": "content_rendered",
   "company_id": "CO-1783963933703",
   "indexnow_key": "be5d663f394b49babe59a73fec5955f4",
   "audit": {
