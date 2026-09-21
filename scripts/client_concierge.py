@@ -9837,14 +9837,27 @@ name / assumed business name filing (state or county registration
 paperwork, a certificate, or a filing confirmation page or email).
 Return ONLY JSON:
 {"is_dba_document": bool,
+ "dba_related": bool,
+ "document_kind": string,
  "registered_name": string|null,
  "state": string|null,
  "filed_on": "YYYY-MM-DD"|null,
  "confidence": "high|medium|low"}
-registered_name is the EXACT trade name string on the document, copied
-character for character including punctuation like hyphens, ampersands
-and slashes. null when unreadable. is_dba_document is false for job
-photos, screenshots of anything else, or unrelated paperwork."""
+is_dba_document is TRUE only for the actual filing document: the
+recorded/stamped registration, certificate, or an official filing
+confirmation that SHOWS the registered trade name. registered_name is
+the EXACT trade name string on that document, copied character for
+character including punctuation like hyphens, ampersands and slashes.
+null when unreadable.
+dba_related is TRUE for paperwork that is part of a DBA filing journey
+but does NOT prove the recorded name: certified-mail or postage
+receipts for an envelope to a county clerk or Secretary of State,
+payment receipts for filing fees, unstamped or blank application
+forms, photos of the envelope itself. document_kind is a short plain
+name for what the photo shows, e.g. "certified-mail receipt",
+"filing fee receipt", "unstamped application form".
+Both are false for job photos, screenshots of anything else, or
+unrelated paperwork."""
 
 
 def _dba_chosen_name(pend: dict | None, cands: list[dict]) -> str | None:
@@ -9862,9 +9875,42 @@ def _dba_extract(company: dict, images: list[dict]) -> dict | None:
     except Exception as e:  # noqa: BLE001
         print(f"    DBA vision extract failed ({str(e)[:80]})")
         return None
-    if not doc.get("is_dba_document") or not doc.get("registered_name"):
-        return None
-    return doc
+    if doc.get("is_dba_document") and doc.get("registered_name"):
+        return doc
+    if doc.get("dba_related"):
+        # Kin paperwork (mailing receipt, fee receipt, blank form): the
+        # caller sends the what-comes-next reply instead of silence.
+        return doc
+    return None
+
+
+def _dba_related_reply(company: dict, contact: dict, doc: dict,
+                       source: str, state: dict, dry_run: bool,
+                       pend: dict | None = None) -> str:
+    """Jim/CRW 2026-09-21: he texted the certified-mail receipt for his
+    county filing and the only response was the generic upload ack, so he
+    believed he was done while the stage sat waiting on a certificate he
+    did not know he owed. DBA-related paperwork that is NOT the recorded
+    document gets a reply that names what arrived and what still clears
+    the gate. dba_verified stays unset."""
+    kind = str(doc.get("document_kind") or "paperwork").strip() or "paperwork"
+    body = (f"Got it, thank you! That looks like the {kind}, so the "
+            "filing is in motion. The piece that clears us to start is "
+            "the recorded copy that comes back showing the exact name. "
+            "Text a photo of that when it lands and we'll take it from "
+            "there.")
+    _rename_send(company, contact, body, state, dry_run, "dba-related")
+    append_escalation(
+        company, None,
+        f"DBA-RELATED document from {source}: reads as {kind!r}, not the "
+        "recorded certificate. Client was told exactly what to send "
+        "next; dba_verified stays unset.", dry_run)
+    if pend is not None:
+        pend.setdefault("notes", []).append(
+            f"{datetime.now(timezone.utc).date().isoformat()}: {kind} "
+            "received (not the certificate); awaiting the recorded copy")
+        _rename_save(company["id"], pend, dry_run)
+    return "related"
 
 
 def _dba_store(company_id: str, image_b64: str, dry_run: bool) -> str | None:
@@ -9954,6 +10000,9 @@ def _verify_dba_document(company: dict, contact: dict, msg: dict,
     doc = _dba_extract(company, images)
     if not doc:
         return None
+    if not doc.get("is_dba_document"):
+        return _dba_related_reply(company, contact, doc,
+                                  "a texted photo", state, dry_run, pend)
     doc_url = _dba_store(company["id"], images[0]["data"], dry_run)
     verdict = _dba_apply(company, contact, chosen, doc, doc_url,
                          "a texted filing photo", state, dry_run)
@@ -10023,6 +10072,9 @@ def _verify_dba_upload(company: dict, contact: dict, rel: str,
                           "Citations card manually if it is one",
                           dry_run, ping=True)
         return "unreadable"
+    if not doc.get("is_dba_document"):
+        return _dba_related_reply(company, contact, doc,
+                                  "the hub DBA upload", state, dry_run)
     doc_url = f"{sb_url}/storage/v1/object/public/branding/{cid}/{rel}"
     return _dba_apply(company, contact, chosen, doc, doc_url,
                       "the hub DBA upload", state, dry_run)
@@ -10139,6 +10191,19 @@ def handle_rename_reply(company: dict, contact: dict, msg: dict,
             len(re.sub(r"[^A-Za-z0-9]", "", body_txt)) <= 2):
         print(f"    RENAME: consuming trivial burst fragment {body_txt!r}")
         return True
+    # AWAITING-DBA ATTACHMENT FAST-PATH (Jim/CRW 2026-09-21: his
+    # certified-mail receipt arrived as an attachment-only text, the LLM
+    # read never routed it to the DBA lane, and the only reply was the
+    # generic upload ack — he believed he was done). While we wait on the
+    # DBA, any texted image is FIRST tried as DBA paperwork,
+    # deterministically; non-paperwork photos fall through to the normal
+    # read.
+    if (pend and str(pend.get("stage")) == "awaiting_dba"
+            and msg.get("attachments")):
+        verdict = _verify_dba_document(company, contact, msg, pend,
+                                       cands, state, dry_run)
+        if verdict:
+            return True
     vertical = _company_vertical(company)
     # Reasons + confidence ride along so Monica can ANSWER "what's your
     # best pick?" from the research instead of bouncing the question back
