@@ -93,7 +93,12 @@ renders as Pending with "detected — needs connection" + one-click
 customer id counts as a match; "(other client)" label becomes
 "(unmatched name)" when it's merely a name miss.
 
-## E. ACS LSA revival — **HELD for go** (account identified)
+## E. ACS LSA revival — **DROPPED 09-21 per Santino** (not needed)
+
+Resolved itself: Alfredo self-toggles the account (change_event shows
+elcabimero1971@gmail.com paused 9/19, re-enabled 9/20) and it is
+producing (21 leads/14d, ~$329/7d). The leads radar (C) watches it
+permanently; no revival work needed.
 
 Real account = Google Guaranteed 723-080-5223 (Santino connected it;
 calls as recent as yesterday). It was PAUSED within the last ~24h — same
