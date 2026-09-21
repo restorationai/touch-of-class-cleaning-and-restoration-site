@@ -1237,10 +1237,10 @@
     },
     {
       "id": "2026-09-19-how-long-does-a-kitchen-remodel-take",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-19T00:05:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-21T16:35:45Z",
+      "post_url": "https://davisconstructioncontractors.com/blog/how-long-does-a-kitchen-remodel-take/",
       "priority": 1,
       "prioritized": true,
       "content_type": "target_term",
