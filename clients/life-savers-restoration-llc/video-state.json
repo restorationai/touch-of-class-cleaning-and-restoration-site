@@ -1,7 +1,7 @@
 {
-  "last_kind": "blog",
-  "cycle_pos": 1,
-  "geo_cursor": 0,
+  "last_kind": "geo",
+  "cycle_pos": 2,
+  "geo_cursor": 1,
   "history": [
     {
       "ts": "2026-09-21T16:54:07.305902+00:00",
@@ -10,6 +10,14 @@
       "service": null,
       "city": null,
       "youtube_id": "CgiLnIReYGc"
+    },
+    {
+      "ts": "2026-09-21T20:31:57.891612+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "water-damage-restoration",
+      "city": "Enterprise",
+      "youtube_id": "FApJ5Pnu4QA"
     }
   ]
 }
