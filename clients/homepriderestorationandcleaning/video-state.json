@@ -1,7 +1,7 @@
 {
-  "last_kind": "blog",
-  "cycle_pos": 1,
-  "geo_cursor": 4,
+  "last_kind": "geo",
+  "cycle_pos": 2,
+  "geo_cursor": 5,
   "history": [
     {
       "ts": "2026-07-10T17:55:04.571937+00:00",
@@ -58,6 +58,14 @@
       "service": null,
       "city": null,
       "youtube_id": "uReP-Y9udHI"
+    },
+    {
+      "ts": "2026-09-21T20:30:28.029099+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "water-damage-restoration",
+      "city": "Pleasant Grove",
+      "youtube_id": "BypNvese1bo"
     }
   ]
 }
