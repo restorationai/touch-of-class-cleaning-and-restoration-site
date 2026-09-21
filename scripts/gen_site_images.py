@@ -330,20 +330,28 @@ PAIR_CATALOG: list[tuple[str, set, str, str, str, str, str]] = [
      "across the floor, waterline staining on the lower walls, furniture "
      "legs submerged. Shot on a phone by a technician, natural window "
      "light, no people, no text.",
-     "the SAME living room fully dried and restored: water gone, floor "
-     "clean and dry, walls repaired and freshly painted",
+     "the SAME living room fully restored after water damage restoration: "
+     "standing water extracted and the soaked flooring TORN OUT and "
+     "REPLACED with brand-new flooring (visibly new planks), new "
+     "baseboards, lower walls repaired and freshly painted, everything "
+     "dry and bright",
      "Flooded living room with standing water before restoration",
-     "Same living room fully dried and restored"),
+     "Same living room with new flooring and repaired walls after "
+     "restoration"),
     ("fire", {"fire-damage-restoration", "smoke-damage-restoration",
               "fire-and-smoke-restoration"},
      "Fire & Smoke Restoration",
-     "Interior of a kitchen after a small contained fire: black soot "
-     "staining up the wall and ceiling above the stove, smoke residue on "
-     "cabinets. Shot on a phone, no people, no flames, no text.",
-     "the SAME kitchen fully cleaned and restored: soot gone, wall and "
-     "ceiling repainted clean white, cabinets spotless",
-     "Kitchen with soot and smoke damage before restoration",
-     "Same kitchen fully cleaned and restored after fire damage"),
+     "Interior of a living room after a serious house fire: walls and "
+     "ceiling heavily charred black, exposed burned ceiling joists, soot "
+     "coating every surface, scorched furniture and burned debris across "
+     "the floor, daylight through a smoke-stained window. Shot on a "
+     "phone, no people, no flames, no text.",
+     "the SAME living room fully rebuilt and restored after fire damage "
+     "restoration: new drywall walls and ceiling freshly painted, new "
+     "flooring, the same window clean, room bright and spotless",
+     "Living room with severe fire damage and charred walls before "
+     "restoration",
+     "Same living room fully rebuilt and restored after fire damage"),
     ("mold", {"mold-remediation", "mold-removal", "mold-inspection"},
      "Mold Remediation",
      "Corner of a bathroom wall and ceiling with a spreading patch of dark "
@@ -364,13 +372,15 @@ PAIR_CATALOG: list[tuple[str, set, str, str, str, str, str]] = [
      "Same basement floor disinfected and dry after cleanup"),
     ("storm", {"storm-damage-restoration", "storm-damage-repair"},
      "Storm Damage Restoration",
-     "A residential ceiling and wall corner with a storm leak: sagging wet "
-     "drywall, brown water staining spreading outward. Shot on a phone, "
-     "no people, no text.",
-     "the SAME ceiling and wall fully repaired: new drywall, seamless "
-     "finish, freshly painted, dry",
-     "Storm-damaged ceiling with sagging wet drywall before repair",
-     "Same ceiling fully repaired and repainted after storm damage"),
+     "A bedroom after severe storm damage: a section of the ceiling "
+     "collapsed exposing broken rafters and torn insulation, wet debris "
+     "and fallen drywall on the bed and floor, rain staining streaking "
+     "down the wall. Shot on a phone, no people, no text.",
+     "the SAME bedroom fully repaired after storm damage restoration: "
+     "ceiling rebuilt with new drywall and seamless finish, freshly "
+     "painted, debris cleared, room clean and dry",
+     "Bedroom with collapsed ceiling and storm debris before repair",
+     "Same bedroom with rebuilt ceiling after storm damage restoration"),
     ("carpet", {"carpet-cleaning"},
      "Carpet Cleaning",
      "Wall-to-wall beige carpet in a lived-in family room, heavily soiled "
@@ -423,7 +433,7 @@ def generate_pairs(*, slug: str, geo: str, guide: str) -> None:
     services = set(json.loads(
         (ROOT / "clients" / slug / "plan-input.json").read_text()
     ).get("services") or [])
-    picks = [c for c in PAIR_CATALOG if c[1] & services][:4]
+    picks = [c for c in PAIR_CATALOG if c[1] & services][:5]
     if not picks:
         print("  pairs: no catalog match for this client's services")
         return

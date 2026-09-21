@@ -357,6 +357,28 @@ def cmd_setup(args) -> int:
     return 0
 
 
+def _db_status(slug: str) -> str | None:
+    """Company status from Supabase (lowercased), or None if unreachable."""
+    import urllib.request
+    url = os.environ.get("SUPABASE_URL")
+    key = (os.environ.get("SUPABASE_SERVICE_ROLE_KEY")
+           or os.environ.get("SUPABASE_SERVICE_KEY"))
+    if not url or not key:
+        return None
+    try:
+        cmap = json.loads((ROOT / "clients" / "company_map.json").read_text())
+        cid = cmap.get(slug)
+        if not cid:
+            return None
+        req = urllib.request.Request(
+            f"{url}/rest/v1/companies?id=eq.{cid}&select=status",
+            headers={"apikey": key, "Authorization": f"Bearer {key}"})
+        rows = json.loads(urllib.request.urlopen(req, timeout=15).read())
+        return (rows[0].get("status") or "").strip().lower() if rows else None
+    except Exception:
+        return None
+
+
 def cmd_provision(args) -> int:
     """Fully headless: verify domain + add to GSC + submit sitemap for one client."""
     slug = args.slug
@@ -366,9 +388,18 @@ def cmd_provision(args) -> int:
         return 1
 
     client = json.loads(record_path.read_text())
-    if client.get("status") not in ("active",):
-        sys.stderr.write(f"ERROR: Client {slug} is not active (status={client.get('status')}).\n")
+    # Status truth: the DB is authoritative; the local JSON can go stale
+    # (2026-09-21 DISS: local said "onboarding" while the DB said active,
+    # blocking provisioning at launch). Fall back to local only when the
+    # DB is unreachable.
+    status = _db_status(slug) or client.get("status")
+    if status != "active":
+        sys.stderr.write(f"ERROR: Client {slug} is not active (status={status}).\n")
         return 1
+    if status != client.get("status"):
+        sys.stderr.write(f"WARN: local clients/{slug}.json status "
+                         f"'{client.get('status')}' is stale (DB: '{status}') — "
+                         f"proceeding on DB truth; sync the local record.\n")
 
     domain = client["domain"]
     sitemap_url = client.get("sitemap_url") or f"https://{domain}/sitemap-index.xml"
