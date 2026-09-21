@@ -326,6 +326,114 @@ def seed_readiness_asks(dry: bool, only_cid: str | None) -> None:
         print(f"  seeded EIN ask for {slug}")
 
 
+_PHOTO_ASKED_KV = "review-photo-asked"   # {cid: iso of the DELIVERED ask}
+
+
+def photo_timeout_sweep(dry: bool, only_cid: str | None) -> None:
+    """Santino 2026-09-20: 'if they don't answer the photo question, after
+    2 days we just mark their account as no photo and begin their
+    campaign.' The clock runs from the DELIVERED ask found in the real
+    thread (the FIX reveal lesson: never from row seeding). A client reply
+    of any kind stops the clock — a human handles their answer. Activation
+    goes through review_enroll --activate-staged, whose sender preflight
+    is hard, so an unready sender can never auto-start."""
+    open_asks = _sb("GET", "/rest/v1/marketing_action_plan?status=eq.planned"
+                    "&action_key=like.review-photo-*"
+                    "&select=id,company_id,action_key",
+                    prefer="return=representation") or []
+    if only_cid:
+        open_asks = [a for a in open_asks if a["company_id"] == only_cid]
+    if not open_asks:
+        return
+    import client_concierge as cc
+    cc.load_env()
+    asked = ((_sb("GET", f"/rest/v1/ops_kv?k=eq.{_PHOTO_ASKED_KV}&select=v")
+              or [{}])[0].get("v") or {})
+    smap = slug_map()
+    changed = False
+    for ask in open_asks:
+        cid = ask["company_id"]
+        slug = smap.get(cid) or cid
+        comp = cc.fetch_companies([cid]).get(cid)
+        contact = cc.resolve_contact(comp) if comp else None
+        if not contact:
+            continue
+        try:
+            hist = cc.fetch_history(contact["id"])
+        except Exception:  # noqa: BLE001
+            continue
+        asked_at = None
+        if asked.get(cid):
+            asked_at = datetime.fromisoformat(asked[cid])
+        else:
+            for m in hist:
+                b = (m.get("body") or "").lower()
+                if (m.get("direction") == "out" and m.get("when")
+                        and "photo" in b
+                        and ("review" in b or "/hub/" in b
+                             or "upload" in b)):
+                    asked_at = m["when"]
+                    break
+            if asked_at:
+                asked[cid] = asked_at.isoformat()
+                changed = True
+        if not asked_at:
+            continue  # ask seeded but Monica hasn't delivered it yet
+        replied = any(m.get("direction") == "in" and m.get("when")
+                      and m["when"] > asked_at for m in hist)
+        if replied:
+            continue  # their answer is in play — humans own it
+        age_d = (datetime.now(timezone.utc) - asked_at).total_seconds() / 86400
+        if age_d < 2:
+            print(f"  photo-clock {slug}: asked {age_d:.1f}d ago — waiting")
+            continue
+        print(f"  photo-timeout {slug}: {age_d:.1f}d silent — "
+              "marking no-photo and activating")
+        if dry:
+            continue
+        r = subprocess.run(
+            [sys.executable, str(ROOT / "scripts" / "review_enroll.py"),
+             "--slug", slug, "--activate-staged"],
+            capture_output=True, text=True, timeout=600)
+        tail = (r.stdout or r.stderr or "").strip().splitlines()[-1:]
+        if r.returncode != 0:
+            _note_once(cid, f"photo-timeout-activate:{cid}",
+                       f"[REVIEWS] {slug}: 2-day photo silence but "
+                       f"auto-activation refused: "
+                       f"{tail[0][:140] if tail else '?'} — activate by "
+                       "hand once the blocker clears.", dry)
+            continue
+        co_ints = (_sb("GET", f"/rest/v1/companies?id=eq.{cid}"
+                       "&select=integration_settings") or [{}])[0]
+        ints = co_ints.get("integration_settings") or {}
+        ints["review_photo"] = {"decision": "none",
+                                "via": "2-day silence on the photo ask",
+                                "at": datetime.now(timezone.utc).isoformat()}
+        _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}",
+            {"integration_settings": ints})
+        _sb("PATCH", f"/rest/v1/marketing_action_plan?id=eq.{ask['id']}",
+            {"status": "done",
+             "rationale": "2 days of silence on the photo question — "
+                          "account marked no-photo and the campaign "
+                          "auto-started (Santino policy 2026-09-20). A "
+                          "photo can still be added later; touches 1/3 "
+                          "pick it up."})
+        print(f"    {tail[0][:120] if tail else 'activated'}")
+        try:
+            from work_log import work_log
+            work_log(cid, "reviews", "campaign-auto-started",
+                     "Review campaign started without a team photo after "
+                     "2 quiet days on the photo question.",
+                     evidence={"result": tail[0][:160] if tail else ""},
+                     source="review_list_stage.py")
+        except Exception:  # noqa: BLE001
+            pass
+    if changed and not dry:
+        _sb("POST", "/rest/v1/ops_kv?on_conflict=k",
+            {"k": _PHOTO_ASKED_KV, "v": asked},
+            prefer="resolution=merge-duplicates")
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
@@ -333,6 +441,10 @@ def main() -> int:
     a = ap.parse_args()
     stage_pins(a.dry_run, a.company)
     seed_readiness_asks(a.dry_run, a.company)
+    try:
+        photo_timeout_sweep(a.dry_run, a.company)
+    except Exception as e:  # noqa: BLE001 — the timeout leg never blocks staging
+        print(f"  photo-timeout sweep error: {str(e)[:120]}")
     return 0
 
 

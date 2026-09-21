@@ -139,6 +139,15 @@ class SB:
                 got.extend(r.json())
         return got
 
+    def update(self, table: str, filters: dict, patch: dict) -> None:
+        r = self.s.patch(
+            f"{self.url}/rest/v1/{table}", params=filters,
+            headers={"Prefer": "return=minimal",
+                     "Content-Type": "application/json"},
+            data=json.dumps(patch), timeout=60)
+        if r.status_code >= 300:
+            die(f"update {table} failed ({r.status_code}): {r.text[:300]}")
+
     def download_branding(self, object_path: str, dest: Path) -> None:
         r = self.s.get(f"{self.url}/storage/v1/object/branding/{object_path}",
                        timeout=120)
@@ -312,11 +321,52 @@ def sender_preflight(sb: SB, company_id: str, fallback_from: str) -> tuple[str |
 
 
 # ---------------------------------------------------------------- main
+def activate_staged(sb: "SB", company_id: str, co: dict,
+                    fallback_from: str, dry: bool) -> int:
+    """Flip this company's STAGED rows live: status -> pending with
+    next_send_at staggered at the company's pace (Santino 2026-09-20, the
+    photo-timeout policy needs a headless activation path — same semantics
+    as the app's Activate Review Campaign button). Sender preflight is
+    HARD here: staging tolerated a missing sender, going live never does."""
+    sender, sender_mode = sender_preflight(sb, company_id, fallback_from)
+    if not sender:
+        die(f"ACTIVATE refused: no sender resolves ({sender_mode})")
+    rows = []
+    off = 0
+    while True:
+        page = sb.select("review_requests", {
+            "company_id": f"eq.{company_id}", "status": "eq.staged",
+            "select": "id", "order": "id.asc", "limit": "1000",
+            "offset": str(off)})
+        rows += page
+        if len(page) < 1000:
+            break
+        off += 1000
+    if not rows:
+        print("nothing staged — no-op")
+        return 0
+    pace = int(co.get("review_pace_per_20min") or 4)
+    schedule = stagger_times(len(rows), co.get("timezone") or "America/New_York", pace)
+    print(f"activating {len(rows)} staged row(s) on {sender} ({sender_mode}) "
+          f"| pace {pace}/20min | first {schedule[0]} last {schedule[-1]}")
+    if dry:
+        print("DRY RUN — nothing written.")
+        return 0
+    for row, due in zip(rows, schedule):
+        sb.update("review_requests", {"id": f"eq.{row['id']}"},
+                  {"status": "pending", "next_send_at": due})
+    print(f"ACTIVATED {len(rows)} row(s).")
+    return 0
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--slug", required=True)
-    ap.add_argument("--file", required=True,
+    ap.add_argument("--file",
                     help="local path, or storage:<object-path> in the branding bucket")
+    ap.add_argument("--activate-staged", action="store_true",
+                    help="no file: flip existing STAGED rows to pending with "
+                         "staggered sends (headless Activate)")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--name-cols", default=None,
                     help="ordered, comma-separated; first non-empty wins")
@@ -356,6 +406,12 @@ def main() -> None:
     if str(co.get("status", "")).strip().lower() in (
             "paused", "suspended", "cancelled", "canceled", "churned", "inactive", "archived"):
         die(f"company status is '{co['status']}' — dispatcher would never send")
+
+    if args.activate_staged:
+        sys.exit(activate_staged(sb, company_id, co, args.fallback_from,
+                                 args.dry_run))
+    if not args.file:
+        die("--file is required (or use --activate-staged)")
 
     sender, sender_mode = sender_preflight(sb, company_id, args.fallback_from)
     if not sender:
