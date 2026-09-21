@@ -19,11 +19,13 @@ When water is soaking into your subfloor, smoke smell is locked into every wall,
 
 ## Services we handle
 
-**Water damage restoration**, Whether it's a burst pipe at 2 a.m., a washing machine overflow, or a slow leak that's been wicking into your framing for weeks, we extract standing water, dry structural materials to measured moisture targets, and document everything your insurance adjuster will need.
+**[Water damage restoration](/services/water-damage-restoration/)**, Whether it's a burst pipe at 2 a.m., a washing machine overflow, or a slow leak that's been wicking into your framing for weeks, we extract standing water, dry structural materials to measured moisture targets, and document everything your insurance adjuster will need.
 
-**Fire and smoke damage restoration**, Smoke residue is acidic and keeps damaging surfaces long after the flames are out; we remove char, neutralize odor at the molecular level with thermal fogging and hydroxyl treatment, and coordinate structural repairs so you're not managing a dozen separate contractors.
+**[Basement flooding cleanup](/services/basement-flooding-cleanup/)**, A failed sump pump, a backed-up floor drain, or snowmelt pushing through a foundation crack can put standing water across a finished basement fast; our [basement flood cleanup](/services/basement-flooding-cleanup/) crews extract, dry to measured targets, and pull wet insulation and drywall before mold takes hold.
 
-**Mold remediation**, In Utah's high-desert climate, indoor moisture problems can allow mold to colonize porous materials within 24 to 48 hours of a water event. We contain affected areas, remove compromised materials safely, and treat surfaces to IICRC S520 standards.
+**[Fire and smoke damage restoration](/services/fire-damage-restoration/)**, Smoke residue is acidic and keeps damaging surfaces long after the flames are out; we remove char, neutralize odor at the molecular level with thermal fogging and hydroxyl treatment, and coordinate structural repairs so you're not managing a dozen separate contractors.
+
+**[Mold remediation](/services/mold-remediation/)**, In Utah's high-desert climate, indoor moisture problems can allow mold to colonize porous materials within 24 to 48 hours of a water event. From surface mold to [black mold removal](/services/mold-remediation/), we contain affected areas, remove compromised materials safely, and treat surfaces to IICRC S520 standards.
 
 **Storm damage and reconstruction**, Hail, wind-driven rain, and freeze-thaw cycles hit roofs and siding hard along the Wasatch Front. We handle emergency tarping and board-up the same day, then carry the project through full reconstruction under one roof.
 

@@ -40,6 +40,10 @@ Professional basement water removal means deploying truck-mounted or portable ex
 
 5. **Final clearance and antimicrobial treatment.** When all materials reach the IICRC S500 dry standard, we apply an EPA-registered antimicrobial to concrete, framing, and any remaining porous surfaces. We document final readings and provide a completion report before any reconstruction begins.
 
+## Basement flood cleanup in Saratoga Springs: why the local climate raises the stakes
+
+Basement flood cleanup along the Wasatch Front carries a wrinkle milder regions don't face: the freeze-thaw cycle. A supply line in an unheated basement or crawl space that freezes and splits in January can run for hours before anyone notices, and the same cold that caused the break slows evaporation to a crawl once the water is down. Snowmelt in early spring adds a second wave, pushing groundwater against foundations that stayed dry all winter. Both patterns mean the water often sits longer here than homeowners expect — which is exactly when hidden saturation in rim joists and sill plates turns into a mold problem weeks later. Fast, measured drying, not just extraction, is what keeps a Saratoga Springs basement flood from becoming a spring remediation project.
+
 ## What separates a good basement flooding response from a bad one
 
 The most common mistake is stopping at extraction. A wet-vac and a few fans feel like progress, but they move surface moisture into the air without removing it from the structure. Relative humidity climbs, the air feels clammy, and the framing stays wet. Mold doesn't need much, 72 hours at elevated moisture and the right temperature is enough.
