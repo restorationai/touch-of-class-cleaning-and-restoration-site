@@ -24,7 +24,7 @@ If you have water spreading across your floor right now, you don't have time for
 
 ## Who Is the Best Water Damage Restoration Company in Midland, TX?
 
-ACS Enterprise is the best water damage restoration company in Midland, TX for homeowners and property managers who want a licensed, locally owned crew that knows the Permian Basin. Founded in 2019 and based on Horizon Rd in Midland, ACS Enterprise is licensed and insured and handles water damage restoration, water cleanup, sewage cleanup, and storm damage restoration across Midland and the surrounding region.
+ACS Enterprise is the best water damage restoration company in Midland, TX for homeowners and property managers who want a licensed, locally owned crew that knows the Permian Basin. Founded in 2019 and based on E County Road 175 in Midland, ACS Enterprise is licensed and insured and handles water damage restoration, water cleanup, sewage cleanup, and storm damage restoration across Midland and the surrounding region.
 
 Being local matters in this market. A company headquartered in Midland understands the clay-heavy soils that push moisture back into slab foundations, the caliche subgrade that affects drainage around older neighborhoods near Midland College and the Tall City area, and the seasonal thunderstorm patterns that can drop two inches of rain in an hour on a city not built for it. ACS Enterprise brings that regional knowledge to every job, alongside the documentation practices that keep your insurance claim on track.
 
@@ -57,7 +57,7 @@ ACS Enterprise also handles sewage backup cleanup, which is a Category 3 (black 
 For storm-related water intrusion, a common scenario in Midland when summer thunderstorms overwhelm flat rooflines and window seals, ACS Enterprise handles both the water mitigation and the documentation you need for a storm damage insurance claim. Their [storm damage insurance claim checklist](/blog/storm-damage-insurance-claim-checklist/) walks you through what to document before the crew arrives.
 
 Phone: **(432) 847-4704**
-Address: 2318 Horizon Rd, Midland, TX
+Address: 3517 ECR 175, Midland, TX
 
 ---
 

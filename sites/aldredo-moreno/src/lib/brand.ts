@@ -37,8 +37,8 @@ export const brand = {
   // Youngstown OH target) — only the address pair may go in a PostalAddress.
   addressCity: "Midland",
   addressState: "TX",
-  streetAddress: "2318 Horizon Rd Midland",
-  postalCode: "70705",
+  streetAddress: "3517 ECR 175",
+  postalCode: "79706",
   lat: "31.83688",
   lng: "-102.0103767",
   placeId: "ChIJ_8rF3eff-4YRWkbhWgvgu_8",

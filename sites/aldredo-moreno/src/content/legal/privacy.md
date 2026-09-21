@@ -43,7 +43,7 @@ GDPR applies primarily to businesses that actively target EU residents. As a Tex
 If you have questions about this policy, want to know what information we hold, or need to request a correction or deletion, contact us directly:
 
 **ACS Enterprise**  
-2318 Horizon Rd, Midland, TX 70705  
+3517 ECR 175, Midland, TX 79706  
 Phone: (432) 847-4704  
 Email: elcabimero1971@gmail.com
 
