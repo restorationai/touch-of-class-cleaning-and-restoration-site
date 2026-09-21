@@ -1,7 +1,7 @@
 {
-  "last_kind": "blog",
-  "cycle_pos": 1,
-  "geo_cursor": 0,
+  "last_kind": "geo",
+  "cycle_pos": 2,
+  "geo_cursor": 1,
   "history": [
     {
       "ts": "2026-09-21T16:53:22.617357+00:00",
@@ -10,6 +10,14 @@
       "service": null,
       "city": null,
       "youtube_id": "Q5EH-ybyWys"
+    },
+    {
+      "ts": "2026-09-21T20:26:58.050344+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "water-damage-restoration",
+      "city": "D'Iberville",
+      "youtube_id": "o4n2GVcexKc"
     }
   ]
 }
