@@ -753,6 +753,197 @@
       ],
       "notes": "6,600/mo at KD 12, uncovered. Scope-and-permits angle, deliberately kept off the license-verification angle in the sibling 'licensed plumber' post: apprentice/journeyman/master tiers, what a contracting entity carries that an individual tech does not, and a plain table of Kern County job types that need a permit and inspection versus same-day handyman-scale fixes. Absorbs the 'plumber vs handyman' cluster (20/mo but constant in AI answers). LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor you hire) and link the CSLB lookup.",
       "source": "rank-ai-keyword-researcher"
+    },
+    {
+      "id": "2026-09-21-what-to-do-if-toilet-is-overflowing",
+      "status": "queued",
+      "queued_at": "2026-09-21T17:50:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to do if toilet is overflowing",
+      "intent": "informational",
+      "volume": 880,
+      "kd": 0,
+      "fan_out_cluster": [
+        "how to stop a toilet from overflowing before it floods the bathroom",
+        "where is the toilet shutoff valve",
+        "what to do if the toilet overflows and the shutoff valve is stuck",
+        "is an overflowing toilet a plumbing emergency",
+        "why does my toilet overflow when i flush",
+        "when an overflowing toilet means a sewer line problem"
+      ],
+      "suggested_slug": "what-to-do-if-toilet-is-overflowing",
+      "suggested_title": "What to do if toilet is overflowing: the first 60 seconds",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/toilet-faucet-repair/",
+        "/services/emergency-plumbing/",
+        "/services/drain-cleaning/",
+        "/services/sewer-line-repair/"
+      ],
+      "service_tags": [
+        "toilet-faucet-repair",
+        "emergency-plumbing",
+        "drain-cleaning"
+      ],
+      "city_anchor": "bakersfield-ca",
+      "external_authority_candidates": [
+        "https://www.epa.gov/watersense"
+      ],
+      "notes": "Lead with the stop-the-flow sequence: lift the tank lid, push the flapper down, then close the shutoff valve behind the bowl. Flag repeat overflows across multiple fixtures as a main-line backup, which is the 24/7 dispatch trigger. Bakersfield angle: mature downtown tree canopy means root-intruded laterals are a common root cause."
+    },
+    {
+      "id": "2026-09-21-what-is-considered-a-plumbing-emergency",
+      "status": "queued",
+      "queued_at": "2026-09-21T17:50:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what is considered a plumbing emergency",
+      "intent": "informational",
+      "volume": 90,
+      "kd": 0,
+      "fan_out_cluster": [
+        "what are the most common plumbing emergencies",
+        "is a leaking water heater an emergency",
+        "can a clogged drain wait until morning",
+        "when to call an emergency plumber vs wait",
+        "do emergency plumbers work 24/7",
+        "signs you need an emergency plumber right now"
+      ],
+      "suggested_slug": "what-is-considered-a-plumbing-emergency",
+      "suggested_title": "What is considered a plumbing emergency (and what can wait until morning)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/emergency-plumbing/",
+        "/services/burst-pipe-repair/",
+        "/services/sewer-line-repair/",
+        "/services/water-heater-repair/"
+      ],
+      "service_tags": [
+        "emergency-plumbing",
+        "burst-pipe-repair",
+        "sewer-line-repair"
+      ],
+      "city_anchor": "bakersfield-ca",
+      "external_authority_candidates": [
+        "https://www.ready.gov/"
+      ],
+      "notes": "Build the post as a two-column call-now vs can-wait triage table: that structure is what AI assistants lift verbatim. Brand hours are 24/7, so call-now language is permitted. Include the gas-smell case with call-911/utility-first framing, never a dispatch CTA."
+    },
+    {
+      "id": "2026-09-21-how-to-turn-off-the-water-in-an-emergency",
+      "status": "queued",
+      "queued_at": "2026-09-21T17:50:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how do i turn off the water in an emergency",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "where is my main water shutoff valve",
+        "how to shut off water to a single fixture",
+        "how to turn off the water heater in an emergency",
+        "what to do if the main shutoff valve will not turn",
+        "how to use a water meter key at the curb stop",
+        "how to stop a leak until the plumber arrives"
+      ],
+      "suggested_slug": "how-to-turn-off-the-water-in-an-emergency",
+      "suggested_title": "How do I turn off the water in an emergency: find your shutoff before you need it",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/emergency-plumbing/",
+        "/services/burst-pipe-repair/",
+        "/services/leak-detection/",
+        "/services/slab-leak-repair/"
+      ],
+      "service_tags": [
+        "emergency-plumbing",
+        "burst-pipe-repair",
+        "leak-detection"
+      ],
+      "city_anchor": "bakersfield-ca",
+      "external_authority_candidates": [
+        "https://www.redcross.org/get-help/how-to-prepare-for-emergencies.html"
+      ],
+      "notes": "Zero measured Google volume but surfaced by the ChatGPT decomposition, so treat it as AI-retrieval fuel and write it as a numbered procedure. Bakersfield specifics: nearly all housing is slab-on-grade, so the main shutoff is usually at the front hose bib wall or the curb stop box near the sidewalk, not in a basement."
+    },
+    {
+      "id": "2026-09-21-does-homeowners-insurance-cover-emergency-plumbing",
+      "status": "queued",
+      "queued_at": "2026-09-21T17:50:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "will homeowners insurance cover emergency plumbing repairs",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "does insurance cover a burst pipe",
+        "sudden and accidental vs gradual leak coverage",
+        "does homeowners insurance pay to fix the pipe or just the damage",
+        "what documentation to collect for a plumbing claim",
+        "does insurance cover sewer line replacement",
+        "when a plumbing claim gets denied"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-emergency-plumbing-repairs",
+      "suggested_title": "Will homeowners insurance cover emergency plumbing repairs?",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/emergency-plumbing/",
+        "/services/burst-pipe-repair/",
+        "/services/leak-detection/",
+        "/services/repiping/"
+      ],
+      "service_tags": [
+        "emergency-plumbing",
+        "burst-pipe-repair",
+        "leak-detection"
+      ],
+      "city_anchor": "oildale-ca",
+      "external_authority_candidates": [
+        "https://www.iii.org/article/what-homeowners-insurance-covers"
+      ],
+      "notes": "Key distinction to lead with: most policies pay for the resulting water damage but not the failed pipe itself, and gradual leaks are typically excluded while sudden and accidental ones are covered. Keep it educational, no coverage guarantees. Distinct from the existing slab-leak insurance post, which is slab-specific. Oildale angle: 1940s-1960s galvanized supply lines age into the gradual-leak exclusion."
+    },
+    {
+      "id": "2026-09-21-how-to-prevent-plumbing-emergencies",
+      "status": "queued",
+      "queued_at": "2026-09-21T17:50:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to prevent plumbing emergencies",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "annual plumbing maintenance checklist for homeowners",
+        "how to keep pipes from freezing",
+        "what not to put down the drain or garbage disposal",
+        "how often should you flush a water heater",
+        "how to test your main shutoff valve",
+        "warning signs a plumbing failure is coming"
+      ],
+      "suggested_slug": "how-to-prevent-plumbing-emergencies",
+      "suggested_title": "How to prevent plumbing emergencies: a seasonal homeowner checklist",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/emergency-plumbing/",
+        "/services/water-heater-repair/",
+        "/services/drain-cleaning/",
+        "/services/water-softeners-filtration/"
+      ],
+      "service_tags": [
+        "emergency-plumbing",
+        "water-heater-repair",
+        "drain-cleaning",
+        "water-softeners-filtration"
+      ],
+      "city_anchor": "tehachapi-ca",
+      "external_authority_candidates": [
+        "https://www.energystar.gov/"
+      ],
+      "notes": "Tehachapi is the one service area with real freezes at ~4,000 ft, so anchor the fall section on freeze prevention, hose-bib disconnects and heat tape checks. Tie hard-water scale to water heater flushing, which is the top preventable failure across Kern County."
     }
   ]
 }

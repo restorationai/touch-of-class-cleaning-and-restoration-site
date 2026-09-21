@@ -1,6 +1,6 @@
 {
   "slug": "all-pro-plumbing",
-  "generated_at": "2026-09-18T22:55:29Z",
+  "generated_at": "2026-09-21T17:28:50Z",
   "truth": {
     "hours": "24/7",
     "is_247": true,
@@ -16,7 +16,7 @@
     "vertical": "plumbing"
   },
   "errors": 0,
-  "review_flags": 3,
+  "review_flags": 4,
   "violations": [
     {
       "file": "src/content/blog/air-conditioner-not-cooling.md",
@@ -43,6 +43,15 @@
       "severity": "review",
       "matched": "mold remediation",
       "context": "mean significant structural damage and mold remediation on top of the plumbing repair. --- If",
+      "reason": "names the 'mold' service family but plan-input services are only: emergency-plumbing, burst-pipe-repair, drain-cleaning, sewer-line-repair, water-heater-repair, water-heater-installation"
+    },
+    {
+      "file": "src/content/locations/lamont-ca__burst-pipe-repair.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "e is how a plumbing repair turns into a mold remediation job weeks later. ## Reaching Lamont fr",
       "reason": "names the 'mold' service family but plan-input services are only: emergency-plumbing, burst-pipe-repair, drain-cleaning, sewer-line-repair, water-heater-repair, water-heater-installation"
     }
   ]

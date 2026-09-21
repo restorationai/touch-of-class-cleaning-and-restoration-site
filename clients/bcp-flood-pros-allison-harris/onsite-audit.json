@@ -1,0 +1,563 @@
+{
+  "schema_version": 1,
+  "slug": "bcp-flood-pros-allison-harris",
+  "site": "staging.rankai-bcp-flood-pros-allison-harris.pages.dev",
+  "live_origin": "https://staging.rankai-bcp-flood-pros-allison-harris.pages.dev",
+  "live_origin_source": "staging",
+  "audit_form_factor": "desktop",
+  "lighthouse_version": "13.4.0",
+  "generated_at": "2026-09-21T18:28:25Z",
+  "environment_caveats": [
+    "Cloudflare Pages preview injects 'x-robots-tag: noindex' on *.pages.dev, verified present on this run. The Lighthouse SEO category is therefore artificially deflated to 69 on every URL via the failing 'is-crawlable' audit. SEO is inconclusive this run - staging noindex artifact, re-audit after apex cutover. Verdicts were computed from performance, accessibility and best_practices only.",
+    "Lighthouse ran DESKTOP only (formFactor=desktop, cpuSlowdownMultiplier=1). Mobile scores would typically run 10-20 performance points lower. No mobile-first claim is made from this run.",
+    "Lighthouse 13.4 reports performance findings as weight-0 '*-insight' diagnostic audits that do not move the category score (99-100 here), so they are recorded at medium/low severity rather than high despite raw scores of 0.",
+    "The placeholder-domain finding is NOT a staging artifact: peer clients still on their *.pages.dev staging preview (arch-enviornmental-group-llc, california-restoration-west) already emit their real apex canonical, so this is a build-config defect specific to this client.",
+    "Rendered tel: links resolve to the call-tracking number (435) 602-8416 while the raw HTML and schema telephone carry (801) 930-9750. This is the intentional tracking-number swap script, not a NAP defect.",
+    "Client record status is 'onboarding', not 'active'. Pre-flight proceeded because build_status is 'pushed_main' (site is live and auditable) and this matches existing fleet practice - most audited clients under clients/ are also 'onboarding'."
+  ],
+  "audited_urls": [
+    {
+      "url": "https://staging.rankai-bcp-flood-pros-allison-harris.pages.dev/",
+      "archetype": "home",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 93,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 835,
+        "CLS": 0.0155,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 97.44,
+      "word_count": 1192,
+      "target_word_count": 1200,
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "seo",
+          "environment_artifact": true
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_kib": 47
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "title": "Canonical points to unresolvable placeholder domain https://bcp-flood-pros-allison-harris.invalid/",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-bcp-flood-pros-allison-harris.pages.dev/services/",
+      "archetype": "services-hub",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 837,
+        "CLS": 0.0028,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 97.44,
+      "word_count": 787,
+      "target_word_count": 800,
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "seo",
+          "environment_artifact": true
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_kib": 93
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "title": "Canonical points to unresolvable placeholder domain https://bcp-flood-pros-allison-harris.invalid/services/",
+          "severity": "high"
+        },
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Schema.org markup fails validation (FAQPage / BreadcrumbList templates)",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-bcp-flood-pros-allison-harris.pages.dev/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 805,
+        "CLS": 0.0037,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 90.39,
+      "word_count": 1945,
+      "target_word_count": 1100,
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "seo",
+          "environment_artifact": true
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_kib": 37
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "title": "Canonical points to unresolvable placeholder domain https://bcp-flood-pros-allison-harris.invalid/services/water-damage-restoration/",
+          "severity": "high"
+        },
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Schema.org markup fails validation (FAQPage / BreadcrumbList templates)",
+          "severity": "medium"
+        },
+        {
+          "id": "high_loading_time",
+          "title": "Page loading time above the DataForSEO threshold",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-bcp-flood-pros-allison-harris.pages.dev/services/fire-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 808,
+        "CLS": 0.0037,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 97.44,
+      "word_count": 1762,
+      "target_word_count": 1100,
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "seo",
+          "environment_artifact": true
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_kib": 88
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "title": "Canonical points to unresolvable placeholder domain https://bcp-flood-pros-allison-harris.invalid/services/fire-damage-restoration/",
+          "severity": "high"
+        },
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Schema.org markup fails validation (FAQPage / BreadcrumbList templates)",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-bcp-flood-pros-allison-harris.pages.dev/service-areas/provo-ut/",
+      "archetype": "service-area",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 808,
+        "CLS": 0.0037,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 97.44,
+      "word_count": 1252,
+      "target_word_count": 900,
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "seo",
+          "environment_artifact": true
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_kib": 37
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "title": "Canonical points to unresolvable placeholder domain https://bcp-flood-pros-allison-harris.invalid/service-areas/provo-ut/",
+          "severity": "high"
+        },
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Schema.org markup fails validation (FAQPage / BreadcrumbList templates)",
+          "severity": "medium"
+        },
+        {
+          "id": "frame",
+          "title": "Page contains an iframe (Google Maps service-area embed, expected)",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-bcp-flood-pros-allison-harris.pages.dev/contact/",
+      "archetype": "contact",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 96,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 822,
+        "CLS": 0.0271,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 97.44,
+      "word_count": 740,
+      "target_word_count": 400,
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "seo",
+          "environment_artifact": true
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_kib": 81
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "title": "Canonical points to unresolvable placeholder domain https://bcp-flood-pros-allison-harris.invalid/contact/",
+          "severity": "high"
+        },
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Schema.org markup fails validation (FAQPage / BreadcrumbList templates)",
+          "severity": "medium"
+        }
+      ]
+    }
+  ],
+  "site_rollup": {
+    "avg_scores": {
+      "performance": 99.7,
+      "accessibility": 94.8,
+      "best_practices": 100.0,
+      "seo": 69.0
+    },
+    "verdict": "red",
+    "url_count": 6,
+    "urls_by_verdict": {
+      "green": 0,
+      "amber": 0,
+      "red": 6,
+      "error": 0
+    },
+    "counted_categories": [
+      "performance",
+      "accessibility",
+      "best_practices"
+    ],
+    "template_issues": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "severity": "high",
+        "affected_urls": 6
+      },
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing",
+        "severity": "high",
+        "affected_urls": 6,
+        "environment_artifact": true
+      },
+      {
+        "id": "canonical",
+        "title": "Canonical, og:url, sitemap and all JSON-LD @id/url values point to the unresolvable placeholder domain bcp-flood-pros-allison-harris.invalid",
+        "severity": "high",
+        "affected_urls": 6
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "severity": "medium",
+        "affected_urls": 6
+      },
+      {
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
+        "severity": "medium",
+        "affected_urls": 5
+      },
+      {
+        "id": "has_micromarkup_errors",
+        "title": "Schema.org markup fails validation (FAQPage / BreadcrumbList templates)",
+        "severity": "medium",
+        "affected_urls": 5
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "severity": "low",
+        "affected_urls": 5
+      }
+    ],
+    "money_page_alerts": [
+      {
+        "url": "https://staging.rankai-bcp-flood-pros-allison-harris.pages.dev/",
+        "archetype": "home",
+        "verdict": "red",
+        "main_issue": "canonical points to https://bcp-flood-pros-allison-harris.invalid/ (page cannot be indexed at apex cutover); accessibility 93 from WCAG AA color-contrast failures"
+      },
+      {
+        "url": "https://staging.rankai-bcp-flood-pros-allison-harris.pages.dev/services/",
+        "archetype": "services-hub",
+        "verdict": "red",
+        "main_issue": "canonical points to https://bcp-flood-pros-allison-harris.invalid/services/ (page cannot be indexed at apex cutover); accessibility 95 from WCAG AA color-contrast failures"
+      },
+      {
+        "url": "https://staging.rankai-bcp-flood-pros-allison-harris.pages.dev/services/water-damage-restoration/",
+        "archetype": "service-landing",
+        "verdict": "red",
+        "main_issue": "canonical points to https://bcp-flood-pros-allison-harris.invalid/services/water-damage-restoration/ (page cannot be indexed at apex cutover); accessibility 95 from WCAG AA color-contrast failures"
+      },
+      {
+        "url": "https://staging.rankai-bcp-flood-pros-allison-harris.pages.dev/services/fire-damage-restoration/",
+        "archetype": "service-landing",
+        "verdict": "red",
+        "main_issue": "canonical points to https://bcp-flood-pros-allison-harris.invalid/services/fire-damage-restoration/ (page cannot be indexed at apex cutover); accessibility 95 from WCAG AA color-contrast failures"
+      },
+      {
+        "url": "https://staging.rankai-bcp-flood-pros-allison-harris.pages.dev/contact/",
+        "archetype": "contact",
+        "verdict": "red",
+        "main_issue": "canonical points to https://bcp-flood-pros-allison-harris.invalid/contact/ (page cannot be indexed at apex cutover); accessibility 96 from WCAG AA color-contrast failures"
+      }
+    ]
+  },
+  "regression": {
+    "prior_run_at": null,
+    "score_deltas": null,
+    "verdict_transitions": [],
+    "new_issues": [],
+    "resolved_issues": [],
+    "note": "First audit for this client - no comparison data."
+  }
+}

@@ -1,6 +1,6 @@
 {
   "slug": "flood-fixers",
-  "generated_at": "2026-09-18T22:55:31Z",
+  "generated_at": "2026-09-21T17:28:52Z",
   "truth": {
     "hours": "24/7 Emergency Service",
     "is_247": true,
@@ -17,7 +17,7 @@
     "vertical": "restoration"
   },
   "errors": 1,
-  "review_flags": 143,
+  "review_flags": 155,
   "violations": [
     {
       "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
@@ -263,6 +263,15 @@
       "reason": "claims 20 reviews but synced gbpReviewCount is 9 (allowed \u00b120%: 7-10)"
     },
     {
+      "file": "src/content/blog/water-damage-restoration-cost-ca.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "drying job can become a $10,000 or more mold remediation and rebuild. Early extraction and dryin",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
+    },
+    {
       "file": "src/content/blog/what-happens-if-water-damage-is-left-untreated.md",
       "part": "body",
       "family": "service-scope",
@@ -425,6 +434,33 @@
       "reason": "names the 'fire' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
     },
     {
+      "file": "src/content/serviceAreas/bonsall-ca.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "storm damage restoration",
+      "context": "ll, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 204-1",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
+    },
+    {
+      "file": "src/content/serviceAreas/camp-pendleton-mainside-ca.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "storm damage restoration",
+      "context": "de, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 204-1",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
+    },
+    {
+      "file": "src/content/serviceAreas/camp-pendleton-south-ca.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "storm damage restoration",
+      "context": "th, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 204-1",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
+    },
+    {
       "file": "src/content/serviceAreas/carlsbad-ca.md",
       "part": "frontmatter",
       "family": "service-scope",
@@ -558,6 +594,15 @@
       "matched": "mold remediation",
       "context": "le water extraction, structural drying, mold remediation, fire and smoke cleanup, and full recon",
       "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
+    },
+    {
+      "file": "src/content/serviceAreas/del-mar-ca.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "storm damage restoration",
+      "context": "ar, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 204-1",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
     },
     {
       "file": "src/content/serviceAreas/el-cajon-ca.md",
@@ -720,6 +765,42 @@
       "matched": "mold remediation",
       "context": "age mitigation, fire and smoke cleanup, mold remediation, and full reconstruction for homeowners",
       "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
+    },
+    {
+      "file": "src/content/serviceAreas/fairbanks-ranch-ca.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "storm damage restoration",
+      "context": "ch, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 204-1",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
+    },
+    {
+      "file": "src/content/serviceAreas/fallbrook-ca.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "storm damage restoration",
+      "context": "ok, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 204-1",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
+    },
+    {
+      "file": "src/content/serviceAreas/harmony-grove-ca.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "storm damage restoration",
+      "context": "ve, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 204-1",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
+    },
+    {
+      "file": "src/content/serviceAreas/hidden-meadows-ca.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "storm damage restoration",
+      "context": "ws, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 204-1",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
     },
     {
       "file": "src/content/serviceAreas/la-mesa-ca.md",
@@ -983,6 +1064,15 @@
       "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
     },
     {
+      "file": "src/content/serviceAreas/rancho-santa-fe-ca.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "storm damage restoration",
+      "context": "Fe, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 204-1",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
+    },
+    {
       "file": "src/content/serviceAreas/san-marcos-ca.md",
       "part": "frontmatter",
       "family": "service-scope",
@@ -1118,6 +1208,15 @@
       "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
     },
     {
+      "file": "src/content/serviceAreas/solana-beach-ca.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "storm damage restoration",
+      "context": "ch, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 204-1",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
+    },
+    {
       "file": "src/content/serviceAreas/spring-valley-ca.md",
       "part": "frontmatter",
       "family": "service-scope",
@@ -1224,6 +1323,15 @@
       "matched": "mold remediation",
       "context": "e water damage, fire and smoke cleanup, mold remediation, and reconstruction, start to finish, s",
       "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
+    },
+    {
+      "file": "src/content/serviceAreas/valley-center-ca.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "storm damage restoration",
+      "context": "er, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 204-1",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
     },
     {
       "file": "src/content/serviceAreas/vista-ca.md",

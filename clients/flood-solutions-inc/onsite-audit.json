@@ -1,0 +1,640 @@
+{
+  "schema_version": 1,
+  "slug": "flood-solutions-inc",
+  "site": "staging.rankai-flood-solutions-inc.pages.dev",
+  "live_origin": "https://staging.rankai-flood-solutions-inc.pages.dev",
+  "live_origin_source": "staging",
+  "generated_at": "2026-09-21T17:10:03Z",
+  "audit_form_factor": "desktop",
+  "lighthouse_version": "13.4.0",
+  "audit_tooling": {
+    "lighthouse_endpoint": "/v3/on_page/lighthouse/live/json",
+    "onpage_endpoint": "/v3/on_page/instant_pages",
+    "note": "dedicated MCP wrappers on_page_lighthouse / on_page_instant_pages were unavailable in this environment; called the DataForSEO REST endpoints directly with for_mobile=false to preserve desktop comparability",
+    "approx_cost_usd": 0.041
+  },
+  "environment_caveats": [
+    {
+      "id": "staging-noindex",
+      "audit_id": "is-crawlable",
+      "detail": "Cloudflare Pages preview injects x-robots-tag: noindex on *.pages.dev, so the Lighthouse is-crawlable audit scores 0 and deflates the SEO category to 69 on all 6 URLs. SEO is recorded as-is but EXCLUDED from verdicts per methodology Step 4. is-crawlable is therefore omitted from per-URL lighthouse_issues.",
+      "seo_status": "inconclusive - staging noindex artifact, re-audit after apex cutover"
+    },
+    {
+      "id": "apex-not-cutover",
+      "detail": "floodsolutionsinc.com still serves the client's legacy WordPress site (x-powered-by: WP Engine, 301 to www). The Rank AI build exists only on the staging Pages preview, so no apex audit is possible yet."
+    },
+    {
+      "id": "client-status-not-active",
+      "detail": "clients/flood-solutions-inc.json has status=onboarding, not active. Methodology pre-flight expects active; audit proceeded because build_status=pushed_main means the build is live and auditable. Flagged, not modified."
+    },
+    {
+      "id": "stale-deploy",
+      "detail": "Monorepo source (sites/flood-solutions-inc/src/lib/brand.ts) already carries the healed canonicalUrl https://floodsolutionsinc.com and imagesBase https://images.floodsolutionsinc.com (commit a33216866), and public/images/*.webp exist locally. The deployed preview still serves the pre-heal .invalid host and 404s those images, so the live artifact lags the source."
+    },
+    {
+      "id": "service-area-selection",
+      "detail": "url-plan.json has no service-area page with primary:true, and the primary area from plan-input.json (macomb-mi) has no page in the plan. Fell back to the first service-area entry in the plan, /service-areas/sterling-heights-mi/ (all 8 share priority 4.8)."
+    },
+    {
+      "id": "issue-id-namespacing",
+      "detail": "Issues surfaced by direct HTML inspection rather than a vendor audit are prefixed rankai: so they are never mistaken for real Lighthouse or DataForSEO check IDs. Each issue carries a source field."
+    }
+  ],
+  "audited_urls": [
+    {
+      "url": "https://staging.rankai-flood-solutions-inc.pages.dev/",
+      "archetype": "home",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best_practices": 96,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 883,
+        "CLS": 0.0143,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "best-practices"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": 50,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "rankai:canonical_host_unresolvable",
+          "title": "Canonical URL points to the non-resolving placeholder host flood-solutions-inc.invalid",
+          "severity": "high",
+          "source": "direct-inspection"
+        },
+        {
+          "id": "rankai:brand_logo_unresolvable",
+          "title": "Header logo and JSON-LD logo/image point to images.flood-solutions-inc.invalid (no DNS); replacement host images.floodsolutionsinc.com also has no DNS record",
+          "severity": "high",
+          "source": "direct-inspection"
+        },
+        {
+          "id": "rankai:broken_image_assets",
+          "title": "Referenced local image assets return 404 on the deployed site (present in monorepo source, absent from deploy)",
+          "severity": "medium",
+          "source": "lighthouse:errors-in-console"
+        },
+        {
+          "id": "rankai:og_url_host_unresolvable",
+          "title": "og:url points to the non-resolving placeholder host flood-solutions-inc.invalid",
+          "severity": "medium",
+          "source": "direct-inspection"
+        },
+        {
+          "id": "rankai:sitemap_host_unresolvable",
+          "title": "sitemap-index.xml references https://flood-solutions-inc.invalid/sitemap-0.xml (entire sitemap built on the dead host)",
+          "severity": "high",
+          "source": "direct-inspection"
+        },
+        {
+          "id": "rankai:word_count_below_target",
+          "title": "Word count 1148 is below the url-plan target of 1200",
+          "severity": "low",
+          "source": "dataforseo:instant_pages"
+        }
+      ],
+      "onpage_score": 97.44
+    },
+    {
+      "url": "https://staging.rankai-flood-solutions-inc.pages.dev/services/",
+      "archetype": "services-hub",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 96,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 527,
+        "CLS": 0.002,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "best-practices"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": 50,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "rankai:canonical_host_unresolvable",
+          "title": "Canonical URL points to the non-resolving placeholder host flood-solutions-inc.invalid",
+          "severity": "high",
+          "source": "direct-inspection"
+        },
+        {
+          "id": "rankai:brand_logo_unresolvable",
+          "title": "Header logo and JSON-LD logo/image point to images.flood-solutions-inc.invalid (no DNS); replacement host images.floodsolutionsinc.com also has no DNS record",
+          "severity": "high",
+          "source": "direct-inspection"
+        },
+        {
+          "id": "rankai:broken_image_assets",
+          "title": "Referenced local image assets return 404 on the deployed site (present in monorepo source, absent from deploy)",
+          "severity": "medium",
+          "source": "lighthouse:errors-in-console"
+        },
+        {
+          "id": "rankai:og_url_host_unresolvable",
+          "title": "og:url points to the non-resolving placeholder host flood-solutions-inc.invalid",
+          "severity": "medium",
+          "source": "direct-inspection"
+        },
+        {
+          "id": "rankai:word_count_below_target",
+          "title": "Word count 707 is below the url-plan target of 800",
+          "severity": "low",
+          "source": "dataforseo:instant_pages"
+        }
+      ],
+      "onpage_score": 97.44
+    },
+    {
+      "url": "https://staging.rankai-flood-solutions-inc.pages.dev/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 96,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 502,
+        "CLS": 0.0237,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "best-practices"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": 50,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "rankai:canonical_host_unresolvable",
+          "title": "Canonical URL points to the non-resolving placeholder host flood-solutions-inc.invalid",
+          "severity": "high",
+          "source": "direct-inspection"
+        },
+        {
+          "id": "rankai:brand_logo_unresolvable",
+          "title": "Header logo and JSON-LD logo/image point to images.flood-solutions-inc.invalid (no DNS); replacement host images.floodsolutionsinc.com also has no DNS record",
+          "severity": "high",
+          "source": "direct-inspection"
+        },
+        {
+          "id": "rankai:broken_image_assets",
+          "title": "Referenced local image assets return 404 on the deployed site (present in monorepo source, absent from deploy)",
+          "severity": "medium",
+          "source": "lighthouse:errors-in-console"
+        },
+        {
+          "id": "rankai:og_url_host_unresolvable",
+          "title": "og:url points to the non-resolving placeholder host flood-solutions-inc.invalid",
+          "severity": "medium",
+          "source": "direct-inspection"
+        }
+      ],
+      "onpage_score": 97.44
+    },
+    {
+      "url": "https://staging.rankai-flood-solutions-inc.pages.dev/services/water-cleanup/",
+      "archetype": "service-landing",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 98,
+        "accessibility": 95,
+        "best_practices": 96,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 861,
+        "CLS": 0.0028,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "best-practices"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "rankai:canonical_host_unresolvable",
+          "title": "Canonical URL points to the non-resolving placeholder host flood-solutions-inc.invalid",
+          "severity": "high",
+          "source": "direct-inspection"
+        },
+        {
+          "id": "rankai:brand_logo_unresolvable",
+          "title": "Header logo and JSON-LD logo/image point to images.flood-solutions-inc.invalid (no DNS); replacement host images.floodsolutionsinc.com also has no DNS record",
+          "severity": "high",
+          "source": "direct-inspection"
+        },
+        {
+          "id": "rankai:broken_image_assets",
+          "title": "Referenced local image assets return 404 on the deployed site (present in monorepo source, absent from deploy)",
+          "severity": "medium",
+          "source": "lighthouse:errors-in-console"
+        },
+        {
+          "id": "rankai:og_url_host_unresolvable",
+          "title": "og:url points to the non-resolving placeholder host flood-solutions-inc.invalid",
+          "severity": "medium",
+          "source": "direct-inspection"
+        }
+      ],
+      "onpage_score": 97.44
+    },
+    {
+      "url": "https://staging.rankai-flood-solutions-inc.pages.dev/service-areas/sterling-heights-mi/",
+      "archetype": "service-area",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 96,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 496,
+        "CLS": 0.0029,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "best-practices"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "rankai:canonical_host_unresolvable",
+          "title": "Canonical URL points to the non-resolving placeholder host flood-solutions-inc.invalid",
+          "severity": "high",
+          "source": "direct-inspection"
+        },
+        {
+          "id": "rankai:brand_logo_unresolvable",
+          "title": "Header logo and JSON-LD logo/image point to images.flood-solutions-inc.invalid (no DNS); replacement host images.floodsolutionsinc.com also has no DNS record",
+          "severity": "high",
+          "source": "direct-inspection"
+        },
+        {
+          "id": "rankai:broken_image_assets",
+          "title": "Referenced local image assets return 404 on the deployed site (present in monorepo source, absent from deploy)",
+          "severity": "medium",
+          "source": "lighthouse:errors-in-console"
+        },
+        {
+          "id": "rankai:og_url_host_unresolvable",
+          "title": "og:url points to the non-resolving placeholder host flood-solutions-inc.invalid",
+          "severity": "medium",
+          "source": "direct-inspection"
+        },
+        {
+          "id": "frame",
+          "title": "Page embeds an iframe (Google Maps embed)",
+          "severity": "low",
+          "source": "dataforseo:instant_pages"
+        }
+      ],
+      "onpage_score": 97.44
+    },
+    {
+      "url": "https://staging.rankai-flood-solutions-inc.pages.dev/contact/",
+      "archetype": "contact",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 96,
+        "best_practices": 96,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 858,
+        "CLS": 0.0037,
+        "TBT_ms": 56,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "best-practices"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "rankai:canonical_host_unresolvable",
+          "title": "Canonical URL points to the non-resolving placeholder host flood-solutions-inc.invalid",
+          "severity": "high",
+          "source": "direct-inspection"
+        },
+        {
+          "id": "rankai:brand_logo_unresolvable",
+          "title": "Header logo and JSON-LD logo/image point to images.flood-solutions-inc.invalid (no DNS); replacement host images.floodsolutionsinc.com also has no DNS record",
+          "severity": "high",
+          "source": "direct-inspection"
+        },
+        {
+          "id": "rankai:broken_image_assets",
+          "title": "Referenced local image assets return 404 on the deployed site (present in monorepo source, absent from deploy)",
+          "severity": "medium",
+          "source": "lighthouse:errors-in-console"
+        },
+        {
+          "id": "rankai:og_url_host_unresolvable",
+          "title": "og:url points to the non-resolving placeholder host flood-solutions-inc.invalid",
+          "severity": "medium",
+          "source": "direct-inspection"
+        }
+      ],
+      "onpage_score": 97.44
+    }
+  ],
+  "site_rollup": {
+    "avg_scores": {
+      "performance": 99.3,
+      "accessibility": 96.0,
+      "best_practices": 96.0,
+      "seo": 69.0
+    },
+    "verdict": "red",
+    "url_count": 6,
+    "urls_by_verdict": {
+      "green": 0,
+      "amber": 0,
+      "red": 6,
+      "error": 0
+    },
+    "template_issues": [
+      {
+        "id": "errors-in-console",
+        "title": "Browser errors were logged to the console",
+        "affected_urls": 6,
+        "severity": "high"
+      },
+      {
+        "id": "rankai:canonical_host_unresolvable",
+        "title": "Canonical URL points to the non-resolving placeholder host flood-solutions-inc.invalid",
+        "affected_urls": 6,
+        "severity": "high"
+      },
+      {
+        "id": "rankai:brand_logo_unresolvable",
+        "title": "Header logo and JSON-LD logo/image point to images.flood-solutions-inc.invalid (no DNS); replacement host images.floodsolutionsinc.com also has no DNS record",
+        "affected_urls": 6,
+        "severity": "high"
+      },
+      {
+        "id": "rankai:sitemap_host_unresolvable",
+        "title": "sitemap-index.xml references https://flood-solutions-inc.invalid/sitemap-0.xml (entire sitemap built on the dead host)",
+        "affected_urls": 6,
+        "severity": "high",
+        "scope": "site-level"
+      },
+      {
+        "id": "rankai:broken_image_assets",
+        "title": "Referenced local image assets return 404 on the deployed site (present in monorepo source, absent from deploy)",
+        "affected_urls": 6,
+        "severity": "medium"
+      },
+      {
+        "id": "rankai:og_url_host_unresolvable",
+        "title": "og:url points to the non-resolving placeholder host flood-solutions-inc.invalid",
+        "affected_urls": 6,
+        "severity": "medium"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "affected_urls": 5,
+        "severity": "medium"
+      },
+      {
+        "id": "rankai:word_count_below_target",
+        "title": "Word count 707 is below the url-plan target of 800",
+        "affected_urls": 2,
+        "severity": "low"
+      }
+    ],
+    "money_page_alerts": [
+      {
+        "url": "https://staging.rankai-flood-solutions-inc.pages.dev/",
+        "archetype": "home",
+        "verdict": "red",
+        "main_issue": "canonical, og:url and JSON-LD logo all point to non-resolving .invalid hosts; hero/logo images 404"
+      },
+      {
+        "url": "https://staging.rankai-flood-solutions-inc.pages.dev/services/",
+        "archetype": "services-hub",
+        "verdict": "red",
+        "main_issue": "canonical, og:url and JSON-LD logo all point to non-resolving .invalid hosts; hero/logo images 404"
+      },
+      {
+        "url": "https://staging.rankai-flood-solutions-inc.pages.dev/services/water-damage-restoration/",
+        "archetype": "service-landing",
+        "verdict": "red",
+        "main_issue": "canonical, og:url and JSON-LD logo all point to non-resolving .invalid hosts; hero/logo images 404"
+      },
+      {
+        "url": "https://staging.rankai-flood-solutions-inc.pages.dev/services/water-cleanup/",
+        "archetype": "service-landing",
+        "verdict": "red",
+        "main_issue": "canonical, og:url and JSON-LD logo all point to non-resolving .invalid hosts; hero/logo images 404"
+      },
+      {
+        "url": "https://staging.rankai-flood-solutions-inc.pages.dev/contact/",
+        "archetype": "contact",
+        "verdict": "red",
+        "main_issue": "canonical, og:url and JSON-LD logo all point to non-resolving .invalid hosts; hero/logo images 404"
+      }
+    ],
+    "verdict_basis": "performance, accessibility, best_practices (seo excluded - staging noindex)"
+  },
+  "regression": {
+    "prior_run_at": null,
+    "score_deltas": null,
+    "verdict_transitions": [],
+    "new_issues": [],
+    "resolved_issues": [],
+    "note": "First audit for this client - no comparison data."
+  }
+}

@@ -1,6 +1,6 @@
 {
   "slug": "quality-contracting-inc",
-  "checked_at": "2026-09-18T22:54:38.612516+00:00",
+  "checked_at": "2026-09-21T17:34:26.808010+00:00",
   "canonical": {
     "name": "Quality Contracting, Inc.",
     "phone": "(508) 756-8800",
@@ -103,5 +103,5 @@
       "title": "Fix address on expertise"
     }
   ],
-  "actions_upserted": 2
+  "actions_upserted": 0
 }

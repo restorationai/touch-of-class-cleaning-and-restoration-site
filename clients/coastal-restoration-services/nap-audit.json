@@ -1,6 +1,6 @@
 {
   "slug": "coastal-restoration-services",
-  "checked_at": "2026-09-18T22:45:41.727742+00:00",
+  "checked_at": "2026-09-21T17:15:04.487464+00:00",
   "canonical": {
     "name": "Coastal Restoration Services Inc",
     "phone": "(805) 345-7440",
@@ -75,15 +75,15 @@
       "fetch": "http",
       "phones_found": [
         "(888) 316-4595",
-        "(941) 202-5771",
-        "(208) 585-6913",
+        "(941) 404-2600",
         "(800) 340-9610",
         "(888) 316-6960",
-        "(888) 610-7168"
+        "(888) 610-7168",
+        "(941) 263-1100"
       ],
       "phone_match": false,
       "address_match": false,
-      "notes": "canonical phone absent; page shows (888) 316-4595, (941) 202-5771, (208) 585-6913"
+      "notes": "canonical phone absent; page shows (888) 316-4595, (941) 404-2600, (800) 340-9610"
     },
     {
       "platform": "homeguide",
@@ -141,5 +141,5 @@
       "title": "Fix wrong phone number on homeguide"
     }
   ],
-  "actions_upserted": 5
+  "actions_upserted": 0
 }

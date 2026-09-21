@@ -702,6 +702,204 @@
       "target_word_count": 1400,
       "city_anchor": "youngstown-oh",
       "source": "gameplan-2026-09-5 (dev-agent)"
+    },
+    {
+      "id": "2026-09-21-does-homeowners-insurance-cover-fire-damage",
+      "status": "queued",
+      "queued_at": "2026-09-21T17:25:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover fire damage",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 30,
+      "fan_out_cluster": [
+        "who pays for fire damage restoration",
+        "what does fire insurance not cover",
+        "how to file a fire damage insurance claim",
+        "does insurance cover smoke damage without fire",
+        "how long does a fire insurance claim take to pay out",
+        "do i need receipts for fire damaged belongings"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-fire-damage",
+      "suggested_title": "Does homeowners insurance cover fire damage? What is covered, what is not",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/contents-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "contents-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iii.org/article/how-does-homeowners-insurance-work",
+        "https://www.usfa.fema.gov/prevention/home-fires/after-a-fire/"
+      ],
+      "notes": "National policy explainer, so leave it unanchored. Cover dwelling vs contents vs loss of use, smoke and soot damage without visible flame, and the water damage firefighters cause (usually covered under the same claim). Frame everything as what to ask your adjuster, never as a coverage promise. Pairs with the water damage insurance post rather than repeating it.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-09-21-what-to-do-after-a-house-fire",
+      "status": "queued",
+      "queued_at": "2026-09-21T17:25:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to do after a house fire",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 0,
+      "fan_out_cluster": [
+        "is it safe to stay in a house after fire",
+        "when can you re-enter your home after a fire",
+        "what to salvage after a house fire",
+        "who do you call first after a house fire",
+        "how long does fire damage restoration take",
+        "do i need a board up after a fire"
+      ],
+      "suggested_slug": "what-to-do-after-a-house-fire",
+      "suggested_title": "What to do after a house fire in Youngstown, OH: the first 72 hours",
+      "target_word_count": 1700,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/emergency-board-up-tarping/",
+        "/services/contents-restoration/",
+        "/blog/fire-damage-restoration-process/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "emergency-board-up-tarping",
+        "contents-restoration"
+      ],
+      "city_anchor": "youngstown-oh",
+      "external_authority_candidates": [
+        "https://www.usfa.fema.gov/prevention/home-fires/after-a-fire/",
+        "https://www.redcross.org/get-help/disaster-relief-and-recovery-services/recovering-from-a-fire.html"
+      ],
+      "notes": "Highest-urgency page in this seed family and the site has nothing on it yet. Sequence it hour by hour: fire marshal release, utility shutoff, board-up and tarping before the first rain, insurance first notice of loss, then contents pack-out. Warn against re-entry before clearance (structural and air quality). DISS is IICRC FSRT certified and runs 24/7, lead the CTA with that.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-09-21-smoke-odor-removal",
+      "status": "queued",
+      "queued_at": "2026-09-21T17:25:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "smoke odor removal",
+      "intent": "transactional",
+      "volume": 1600,
+      "kd": 18,
+      "fan_out_cluster": [
+        "how to get smoke smell out of house after fire",
+        "how long does smoke smell last after a fire",
+        "does thermal fogging work for smoke odor",
+        "ozone treatment vs hydroxyl generator for smoke smell",
+        "can you clean smoke damage yourself",
+        "smoke smell in air ducts after a fire"
+      ],
+      "suggested_slug": "smoke-odor-removal-youngstown-oh",
+      "suggested_title": "Smoke odor removal in Youngstown, OH: why the smell keeps coming back",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/air-duct-cleaning/",
+        "/services/contents-restoration/",
+        "/services/carpet-cleaning/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "air-duct-cleaning",
+        "contents-restoration"
+      ],
+      "city_anchor": "youngstown-oh",
+      "external_authority_candidates": [
+        "https://www.epa.gov/indoor-air-quality-iaq/should-you-have-air-ducts-your-home-cleaned",
+        "https://www.iicrc.org/page/IICRCS700"
+      ],
+      "notes": "Biggest volume gap in the fire family (1600/mo, KD 18, no page targets it). The hook: odor is trapped in porous materials and the HVAC system, so surface cleaning and air fresheners only mask it. Explain sealing, thermal fogging, hydroxyl vs ozone, and duct decontamination. Tie to the air duct cleaning service page, that cross-sell is real revenue.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-09-21-fire-damage-restoration-cost",
+      "status": "queued",
+      "queued_at": "2026-09-21T17:25:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "fire damage restoration cost",
+      "intent": "commercial",
+      "volume": 260,
+      "kd": 1,
+      "fan_out_cluster": [
+        "how much does fire damage restoration cost",
+        "fire restoration cost per square foot",
+        "house fire debris removal cost",
+        "fire damage restoration cost calculator",
+        "does insurance pay the full restoration cost",
+        "what drives fire restoration costs up"
+      ],
+      "suggested_slug": "fire-damage-restoration-cost-warren-oh",
+      "suggested_title": "Fire damage restoration cost in Warren, OH: real numbers for 2026",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/warren-oh/fire-damage-restoration/",
+        "/services/general-contracting/",
+        "/services/contents-restoration/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "general-contracting",
+        "contents-restoration"
+      ],
+      "city_anchor": "warren-oh",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS700",
+        "https://www.usfa.fema.gov/statistics/"
+      ],
+      "notes": "KD 1 with real commercial intent, easy win. Give banded ranges (small kitchen fire, single room, whole structure) and cost-per-square-foot, then explain the drivers: soot type, smoke travel, structural repairs, contents pack-out. Be explicit that estimates come after inspection and that most of this is billed to the carrier, not the homeowner. No fabricated local averages, keep ranges sourced and clearly labeled as ranges.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-09-21-soot-removal",
+      "status": "queued",
+      "queued_at": "2026-09-21T17:25:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "soot removal",
+      "intent": "transactional",
+      "volume": 320,
+      "kd": 0,
+      "fan_out_cluster": [
+        "how to remove soot from walls",
+        "is soot dangerous to breathe",
+        "soot removal from ceiling after furnace puff back",
+        "can you paint over soot damage",
+        "what is a chemical sponge for soot",
+        "soot cleanup after a small kitchen fire"
+      ],
+      "suggested_slug": "soot-removal-hermitage-pa",
+      "suggested_title": "Soot removal in Hermitage, PA: why wiping it makes it worse",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/hermitage-pa/fire-damage-restoration/",
+        "/services/carpet-cleaning/",
+        "/services/air-duct-cleaning/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "carpet-cleaning",
+        "air-duct-cleaning"
+      ],
+      "city_anchor": "hermitage-pa",
+      "external_authority_candidates": [
+        "https://www.epa.gov/indoor-air-quality-iaq",
+        "https://www.iicrc.org/page/IICRCS700"
+      ],
+      "notes": "KD 0, CPC over $40, nothing on the site targets it. Angle: soot is acidic and oily, so a wet rag drives it into drywall and grout permanently. Cover dry chemical sponge technique, protein vs wet vs dry smoke residues, furnace puff back (a common Mercer County winter call), and health risk of fine particulate. Hermitage anchor keeps the PA side of the footprint fed.",
+      "source": "keyword-researcher"
     }
   ]
 }

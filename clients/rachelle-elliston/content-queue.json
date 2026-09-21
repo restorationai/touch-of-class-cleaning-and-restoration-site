@@ -142,6 +142,191 @@
           "reason": "listicle review-count 69 (competitor stat \u2014 verify it is not presented as ours)"
         }
       ]
+    },
+    {
+      "id": "2026-09-21-how-much-does-mold-remediation-cost",
+      "status": "queued",
+      "queued_at": "2026-09-21T17:32:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how much does mold remediation cost",
+      "intent": "commercial",
+      "volume": 3600,
+      "kd": 13,
+      "fan_out_cluster": [
+        "average cost of mold remediation",
+        "mold remediation cost per square foot",
+        "how much does mold remediation cost in las vegas",
+        "black mold remediation cost",
+        "does mold remediation include replacing drywall",
+        "who pays for mold remediation"
+      ],
+      "suggested_slug": "how-much-does-mold-remediation-cost-north-las-vegas",
+      "suggested_title": "How much does mold remediation cost in North Las Vegas? (2026 price ranges)",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/north-las-vegas-nv/mold-remediation/",
+        "/services/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "north-las-vegas-nv",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home",
+        "https://www.iicrc.org/page/IICRCS520"
+      ],
+      "notes": "Biggest queueable keyword in the seed family: 3,600/mo at KD 13. Lead with real North Las Vegas numbers, not a national average: ChatGPT is currently quoting hometriva.com and lookmold.com at roughly $4,600-$5,000 typical against a $1,700-$16,700 range for this city, and those aggregators are the pages AI cites because no local contractor has published the number. Break cost out by scope (small bathroom or wall area, one room, structural) and name the real drivers: affected square footage, hidden mold behind drywall, HVAC contamination, containment, demolition, and whether the moisture source was fixed. Include a 'does the price include putting my house back together' section, because 'does mold remediation include replacing drywall' prices at $48.54 CPC on only 20/mo. Do not publish a single headline price."
+    },
+    {
+      "id": "2026-09-21-attic-mold-remediation",
+      "status": "queued",
+      "queued_at": "2026-09-21T17:32:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "attic mold remediation",
+      "intent": "transactional",
+      "volume": 2900,
+      "kd": 0,
+      "fan_out_cluster": [
+        "attic mold removal las vegas",
+        "attic mold remediation cost",
+        "signs of mold in attic",
+        "what causes attic mold",
+        "roof leak attic mold",
+        "hvac condensate line attic mold"
+      ],
+      "suggested_slug": "attic-mold-remediation-las-vegas",
+      "suggested_title": "Attic mold remediation in Las Vegas: what causes it and what the fix costs",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/las-vegas-nv/mold-remediation/",
+        "/services/storm-damage-restoration/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "storm-damage-restoration"
+      ],
+      "city_anchor": "las-vegas-nv",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
+      ],
+      "notes": "KD 0 at 2,900/mo and $24.07 CPC: the softest real-volume keyword in the run. Transactional intent, so this reads as a problem-to-fix guide that funnels to the mold-remediation service page rather than a neutral explainer. The Mojave-specific angle is the hook: attic mold here is almost never humidity, it is a sweating or disconnected AC condensate line, a bathroom fan venting into the attic, or monsoon-season roof-flashing failure. Say plainly that a desert climate does not make a house mold-proof."
+    },
+    {
+      "id": "2026-09-21-does-homeowners-insurance-cover-mold-remediation",
+      "status": "queued",
+      "queued_at": "2026-09-21T17:32:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover mold remediation",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": 17,
+      "fan_out_cluster": [
+        "will insurance cover mold remediation",
+        "who pays for mold remediation",
+        "what insurance companies cover mold damage",
+        "when is mold remediation required",
+        "mold exclusion homeowners policy",
+        "is mold covered if caused by a burst pipe"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-mold-remediation",
+      "suggested_title": "Does homeowners insurance cover mold remediation in Henderson, NV?",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/henderson-nv/mold-remediation/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "henderson-nv",
+      "external_authority_candidates": [
+        "https://doi.nv.gov/",
+        "https://www.iicrc.org/page/IICRCS520"
+      ],
+      "notes": "The 24-48-hour pre-hire query. Distinct from the planned /blog/does-homeowners-insurance-cover-water-damage/ post: that one is water, this is mold, and mold coverage is far more restricted (sudden-and-accidental covered, long-term seepage and deferred maintenance excluded, and most Nevada policies carry a mold sublimit in the $5,000-$10,000 range). Cross-link the two, do not duplicate. Answer the real question in the first 80 words so AI assistants can lift it, then split into covered / not covered / how to document a claim. Fold in 'who pays for mold remediation' for the landlord-tenant and buyer-seller cases."
+    },
+    {
+      "id": "2026-09-21-what-is-mold-remediation",
+      "status": "queued",
+      "queued_at": "2026-09-21T17:32:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what is mold remediation",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": 18,
+      "fan_out_cluster": [
+        "mold remediation process",
+        "what happens during mold remediation",
+        "what is the difference between mold removal and mold remediation",
+        "how long does mold remediation take",
+        "when is mold remediation required",
+        "is it safe to clean black mold yourself"
+      ],
+      "suggested_slug": "what-is-mold-remediation",
+      "suggested_title": "What is mold remediation? The 8-step process explained (North Las Vegas, NV)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/north-las-vegas-nv/mold-remediation/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ],
+      "service_tags": [
+        "mold-remediation"
+      ],
+      "city_anchor": "north-las-vegas-nv",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/what-are-basic-mold-cleanup-steps",
+        "https://www.iicrc.org/page/IICRCS520"
+      ],
+      "notes": "Definitional query, 1,000/mo at KD 18, and the exact passage shape AI assistants quote. Use the eight-step sequence ChatGPT already decomposes the topic into: inspection and moisture investigation, fix the moisture source, containment, removal of porous materials, HEPA cleaning, drying, independent clearance verification, reconstruction. Two differentiators to state outright: remediation is not removal (you cannot remove all mold spores from a building, you bring them back to normal levels), and clearance testing should be done by an independent inspector rather than the remediating contractor. Cover the EPA 10-square-foot DIY threshold so the post also catches 'is it safe to clean black mold yourself'. Lean on the IICRC AMRT and Certified Firm credentials, and note this absorbs the 'mold remediation process' keyword (720/mo, KD 16) so no separate process post gets queued."
+    },
+    {
+      "id": "2026-09-21-emergency-mold-remediation",
+      "status": "queued",
+      "queued_at": "2026-09-21T17:32:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "emergency mold remediation",
+      "intent": "transactional",
+      "volume": 590,
+      "kd": 9,
+      "fan_out_cluster": [
+        "emergency mold remediation las vegas",
+        "how fast does mold grow after a water leak",
+        "24 hour mold removal",
+        "mold after slab leak",
+        "how long does mold remediation take",
+        "can mold grow in las vegas"
+      ],
+      "suggested_slug": "emergency-mold-remediation-summerlin",
+      "suggested_title": "Emergency mold remediation in Summerlin: when mold becomes a same-day call",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/summerlin-nv/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/services/water-cleanup/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "city_anchor": "summerlin-nv",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
+      ],
+      "notes": "$76.51 CPC, the most expensive keyword with real volume in this run, and the brand already advertises 24/7 response, so the claim is honest. Frame around the trigger events that make mold urgent rather than routine: an undetected slab leak (endemic in Las Vegas valley slab-on-grade housing), a supply line that ran overnight, sewage backup, and any standing water past the 24-48 hour mark. Use the 24-48 hour colonization window as the argument. Sewage-cleanup is in the truth table, so category 3 water can be named as a same-day trigger. Answer the local objection head on: yes, mold grows in Las Vegas, because the water comes from inside the building, not the air."
     }
   ]
 }

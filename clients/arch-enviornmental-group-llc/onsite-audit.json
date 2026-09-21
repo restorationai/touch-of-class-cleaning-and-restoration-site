@@ -1,0 +1,508 @@
+{
+  "schema_version": 1,
+  "slug": "arch-enviornmental-group-llc",
+  "site": "staging.rankai-arch-enviornmental-group-llc.pages.dev",
+  "live_origin": "https://staging.rankai-arch-enviornmental-group-llc.pages.dev",
+  "live_origin_source": "staging",
+  "audit_form_factor": "desktop",
+  "generated_at": "2026-09-21T18:08:25Z",
+  "lighthouse_version": "13.4.0",
+  "environment_caveats": [
+    "Audited the Cloudflare Pages staging preview because clients/arch-enviornmental-group-llc.json has no apex_cutover.completed_at. The apex (https://archenviroservice.com) responds 200 and does NOT carry the noindex header.",
+    "staging preview returns x-robots-tag: noindex, so the Lighthouse is-crawlable audit fails and the SEO category is deflated to 69 on every URL. SEO is recorded as-is but EXCLUDED from all verdicts. SEO status is inconclusive pending apex cutover and re-audit.",
+    "Lighthouse ran DESKTOP only (formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240). Mobile scores would typically be 10-20 performance points lower.",
+    "DataForSEO instant_pages reported checks.canonical=false and checks.has_micromarkup=false on all 6 URLs. Both were manually falsified against the served HTML: every page has a self-consistent canonical pointing at the apex and valid JSON-LD (LocalBusiness, Organization, Service, FAQPage, BreadcrumbList). checks.canonical=false reflects \"not self-canonical\", which is correct and intended cross-environment behavior for staging. Neither was reported as a finding.",
+    "Meta description/title length and word-count checks are derived from meta.description_length, meta.title_length and meta.content.plain_text_word_count. DataForSEO exposes those numbers but no native pass/fail flag for them."
+  ],
+  "audited_urls": [
+    {
+      "url": "https://staging.rankai-arch-enviornmental-group-llc.pages.dev/",
+      "archetype": "home",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 89,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 744,
+        "CLS": 0.0028,
+        "TBT_ms": 268,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": 50,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "medium",
+          "estimated_savings_ms": 62,
+          "category": "performance"
+        },
+        {
+          "id": "total-blocking-time",
+          "title": "Total Blocking Time",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "max-potential-fid",
+          "title": "Max Potential First Input Delay",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "description_length_out_of_range",
+          "title": "Meta description length 237 chars, outside 70-160 target (derived from meta.description_length)",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-arch-enviornmental-group-llc.pages.dev/services/",
+      "archetype": "services-hub",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 94,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 987,
+        "CLS": 0.0024,
+        "TBT_ms": 137,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "medium",
+          "estimated_savings_ms": 59,
+          "category": "performance"
+        },
+        {
+          "id": "total-blocking-time",
+          "title": "Total Blocking Time",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "max-potential-fid",
+          "title": "Max Potential First Input Delay",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "description_length_out_of_range",
+          "title": "Meta description length 176 chars, outside 70-160 target (derived from meta.description_length)",
+          "severity": "medium"
+        },
+        {
+          "id": "word_count_below_target",
+          "title": "Word count 768 below url-plan target 800 (derived from meta.content.plain_text_word_count)",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-arch-enviornmental-group-llc.pages.dev/services/mold-inspection-testing/",
+      "archetype": "service-landing",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 96,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1045,
+        "CLS": 0.0036,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "medium",
+          "estimated_savings_ms": 101,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "first-contentful-paint",
+          "title": "First Contentful Paint",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": []
+    },
+    {
+      "url": "https://staging.rankai-arch-enviornmental-group-llc.pages.dev/services/indoor-air-quality-testing/",
+      "archetype": "service-landing",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 837,
+        "CLS": 0.0037,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "medium",
+          "estimated_savings_ms": 59,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "first-contentful-paint",
+          "title": "First Contentful Paint",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "description_length_out_of_range",
+          "title": "Meta description length 166 chars, outside 70-160 target (derived from meta.description_length)",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-arch-enviornmental-group-llc.pages.dev/service-areas/fresno-ca/",
+      "archetype": "service-area",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 95,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 977,
+        "CLS": 0.0148,
+        "TBT_ms": 164,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": 150,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "medium",
+          "estimated_savings_ms": 69,
+          "category": "performance"
+        },
+        {
+          "id": "total-blocking-time",
+          "title": "Total Blocking Time",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "max-potential-fid",
+          "title": "Max Potential First Input Delay",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "frame",
+          "title": "Page embeds an iframe (Google Maps embed on service-area template)",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-arch-enviornmental-group-llc.pages.dev/contact/",
+      "archetype": "contact",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 96,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 901,
+        "CLS": 0.0061,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": 50,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": []
+    }
+  ],
+  "site_rollup": {
+    "avg_scores": {
+      "performance": 95,
+      "accessibility": 96,
+      "best_practices": 100,
+      "seo": 69
+    },
+    "verdict": "amber",
+    "url_count": 6,
+    "urls_by_verdict": {
+      "green": 3,
+      "amber": 3,
+      "red": 0,
+      "error": 0
+    },
+    "seo_excluded_from_verdict": true,
+    "counted_categories": [
+      "performance",
+      "accessibility",
+      "best_practices"
+    ],
+    "template_issues": [
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "affected_urls": 6,
+        "severity": "high"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "affected_urls": 6,
+        "severity": "medium"
+      },
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing (staging x-robots-tag artifact, not a site defect)",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "affected_urls": 5,
+        "severity": "medium"
+      },
+      {
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
+        "affected_urls": 5,
+        "severity": "medium"
+      },
+      {
+        "id": "speed-index",
+        "title": "Speed Index",
+        "affected_urls": 5,
+        "severity": "low"
+      },
+      {
+        "id": "total-blocking-time",
+        "title": "Total Blocking Time",
+        "affected_urls": 3,
+        "severity": "medium"
+      },
+      {
+        "id": "max-potential-fid",
+        "title": "Max Potential First Input Delay",
+        "affected_urls": 3,
+        "severity": "medium"
+      },
+      {
+        "id": "description_length_out_of_range",
+        "title": "Meta description length outside the 70-160 char target",
+        "affected_urls": 3,
+        "severity": "medium"
+      },
+      {
+        "id": "first-contentful-paint",
+        "title": "First Contentful Paint",
+        "affected_urls": 3,
+        "severity": "low"
+      }
+    ],
+    "money_page_alerts": [
+      {
+        "url": "https://staging.rankai-arch-enviornmental-group-llc.pages.dev/",
+        "archetype": "home",
+        "verdict": "amber",
+        "main_issue": "performance 89, TBT 268ms, description_length_out_of_range"
+      },
+      {
+        "url": "https://staging.rankai-arch-enviornmental-group-llc.pages.dev/services/",
+        "archetype": "services-hub",
+        "verdict": "amber",
+        "main_issue": "description_length_out_of_range"
+      },
+      {
+        "url": "https://staging.rankai-arch-enviornmental-group-llc.pages.dev/services/indoor-air-quality-testing/",
+        "archetype": "service-landing",
+        "verdict": "amber",
+        "main_issue": "description_length_out_of_range"
+      }
+    ]
+  },
+  "regression": {
+    "prior_run_at": null,
+    "score_deltas": null,
+    "verdict_transitions": [],
+    "new_issues": [],
+    "resolved_issues": [],
+    "note": "First audit for this client. No prior onsite-audit.json, so regression detection was skipped."
+  }
+}

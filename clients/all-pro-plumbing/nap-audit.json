@@ -1,6 +1,6 @@
 {
   "slug": "all-pro-plumbing",
-  "checked_at": "2026-09-18T22:44:20.989339+00:00",
+  "checked_at": "2026-09-21T17:13:03.285638+00:00",
   "canonical": {
     "name": "All Pro Plumbing Heating and Air",
     "phone": "(661) 863-9242",
@@ -52,8 +52,14 @@
     {
       "platform": "yelp",
       "url": "https://www.yelp.com/biz/all-pro-plumbing-heating-air-conditioning-and-electrical-oceanside",
-      "status": "unverified",
-      "notes": "unverifiable \u2014 every fetch tier failed (http 403; dfs_content_parsing Page content is empty; google_serp_snippet: page not indexed; wayback: no 200 capture)"
+      "status": "ok",
+      "fetch": "google_serp_snippet",
+      "phones_found": [
+        "(760) 681-0313"
+      ],
+      "phone_match": false,
+      "address_match": null,
+      "notes": "via Google snippet (page bot-blocked); canonical phone absent; page shows (760) 681-0313; canonical street address not found on page"
     },
     {
       "platform": "houzz",
@@ -152,6 +158,12 @@
       "platform": "gbp-profile",
       "target": "gbp-profile",
       "title": "Fix wrong phone number on gbp-profile"
+    },
+    {
+      "kind": "phone",
+      "platform": "yelp",
+      "target": "https://www.yelp.com/biz/all-pro-plumbing-heating-air-conditioning-and-electrical-oceanside",
+      "title": "Fix wrong phone number on yelp"
     },
     {
       "kind": "phone",

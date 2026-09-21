@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+smoke odor removal,transactional,1600,18,19.19,1,fire damage restoration,,,yes
+soot removal,transactional,320,0,40.55,1,fire damage restoration,,,yes
+commercial fire damage restoration,transactional,320,0,,2,fire damage restoration,,,no
+fire damage restoration,transactional,110000,13,35.4,3,fire damage restoration,,/services/fire-damage-restoration/,no
+fire damage restoration company,transactional,2400,2,43.16,3,fire damage restoration,,/services/fire-damage-restoration/,no
+fire damage cleanup,transactional,1600,20,52.16,3,fire damage restoration,,/services/fire-damage-restoration/,no
+fire and smoke damage restoration,transactional,590,12,28.79,3,fire damage restoration,,/services/fire-damage-restoration/,no
+fire damage restoration companies near me,transactional,390,4,13.36,3,fire damage restoration,,/services/fire-damage-restoration/,no
+house fire damage restoration,transactional,40,9,,3,fire damage restoration,,/services/fire-damage-restoration/,no
+fire damage restoration Warren OH,transactional,10,,,3,fire damage restoration,Warren,/service-areas/warren-oh/fire-damage-restoration/,no
+emergency board up after fire,transactional,,,,3,fire damage restoration,,/services/emergency-board-up-tarping/,no
+fire damage restoration Youngstown OH,transactional,,,,3,fire damage restoration,Youngstown,/services/fire-damage-restoration/,no
+fire damage restoration in Youngstown OH,transactional,,,,3,fire damage restoration,Youngstown,/services/fire-damage-restoration/,no
+Youngstown fire damage restoration,transactional,,,,3,fire damage restoration,Youngstown,/services/fire-damage-restoration/,no
+emergency fire damage restoration Youngstown OH,transactional,,,,3,fire damage restoration,Youngstown,/services/fire-damage-restoration/,no
+fire damage restoration company Youngstown OH,transactional,,,,3,fire damage restoration,Youngstown,/services/fire-damage-restoration/,no
+fire damage cleanup Youngstown OH,transactional,,,,3,fire damage restoration,Youngstown,/services/fire-damage-restoration/,no
+smoke damage restoration Youngstown OH,transactional,,,,3,fire damage restoration,Youngstown,/services/fire-damage-restoration/,no
+house fire cleanup Youngstown OH,transactional,,,,3,fire damage restoration,Youngstown,/services/fire-damage-restoration/,no
+fire damage restoration in Warren OH,transactional,,,,3,fire damage restoration,Warren,/service-areas/warren-oh/fire-damage-restoration/,no
+emergency fire damage restoration Warren OH,transactional,,,,3,fire damage restoration,Warren,/service-areas/warren-oh/fire-damage-restoration/,no
+smoke damage cleanup Warren OH,transactional,,,,3,fire damage restoration,Warren,/service-areas/warren-oh/fire-damage-restoration/,no
+fire damage restoration Boardman OH,transactional,,,,3,fire damage restoration,Boardman,/service-areas/boardman-oh/fire-damage-restoration/,no
+fire damage restoration in Boardman OH,transactional,,,,3,fire damage restoration,Boardman,/service-areas/boardman-oh/fire-damage-restoration/,no
+fire damage restoration Hermitage PA,transactional,,,,3,fire damage restoration,Hermitage,/service-areas/hermitage-pa/fire-damage-restoration/,no
+fire damage restoration in Hermitage PA,transactional,,,,3,fire damage restoration,Hermitage,/service-areas/hermitage-pa/fire-damage-restoration/,no
+fire damage restoration cost,commercial,260,1,3.69,1,fire damage restoration,,,yes
+best fire damage restoration companies,commercial,10,9,,2,fire damage restoration,,,no
+how much does fire damage restoration cost,commercial,10,,,2,fire damage restoration,,,no
+does homeowners insurance cover fire damage,informational,260,30,16.66,1,fire damage restoration,,,yes
+what to do after a house fire,informational,260,0,3.83,1,fire damage restoration,,,yes
+how to get smoke smell out of house after fire,informational,70,,0.59,1,fire damage restoration,,,no
+how long does fire damage restoration take,informational,,,,1,fire damage restoration,,,no
+what does a fire restoration company do,informational,20,0,36.1,2,fire damage restoration,,,no
+can you clean smoke damage yourself,informational,,,,2,fire damage restoration,,,no
+is it safe to stay in a house after fire,informational,,,,2,fire damage restoration,,,no
+how long does smoke smell last after a fire,informational,,,,2,fire damage restoration,,,no
+who pays for fire damage restoration,informational,,,,2,fire damage restoration,,,no
+fire damage restoration process,informational,50,14,,3,fire damage restoration,,/blog/fire-damage-restoration-process/,no
+fire damage restoration steps,informational,20,2,,3,fire damage restoration,,/blog/fire-damage-restoration-process/,no

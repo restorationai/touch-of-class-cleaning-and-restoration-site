@@ -14,7 +14,7 @@
     "url_count": 390,
     "generated_at": "2026-09-20T19:36:44.110168+00:00"
   },
-  "updated_at": "2026-09-20T19:36:44.110175+00:00",
+  "updated_at": "2026-09-21T18:10:24Z",
   "indexnow_key": "2c6c0206ffe44f7e93d6ab9b17168a31",
   "build": {
     "scaffolded_at": "2026-09-04T23:03:27.626508+00:00",
@@ -40,5 +40,10 @@
   },
   "gbp": {
     "place_id": "ChIJw9aO0Idq82sRNFXGkfL6roA"
+  },
+  "audit": {
+    "last_audit_at": "2026-09-21T18:08:25Z",
+    "last_audit_verdict": "amber",
+    "last_audit_report_path": "audit-runs/2026-09-21-onsite-audit.md"
   }
 }

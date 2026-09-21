@@ -376,6 +376,206 @@
       "written_at": "2026-09-20T14:22:05Z",
       "post_url": "https://archenviroservice.com/blog/lead-testing-kingsburg/",
       "published_verified_at": "2026-09-20T14:23:56Z"
+    },
+    {
+      "id": "2026-09-21-free-air-quality-testing-near-me",
+      "status": "queued",
+      "queued_at": "2026-09-21T17:55:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "free air quality testing near me",
+      "intent": "commercial",
+      "volume": 210,
+      "kd": 7,
+      "fan_out_cluster": [
+        "free home air quality test",
+        "free home air quality test near me",
+        "is free air quality testing legit",
+        "who offers free air quality testing",
+        "free air quality testing near me Fresno",
+        "hvac company free air quality test"
+      ],
+      "suggested_slug": "free-air-quality-testing-near-me",
+      "suggested_title": "Free air quality testing near me: what the free test is really paying for",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/indoor-air-quality-testing/",
+        "/services/mold-inspection-testing/",
+        "/services/remediation-oversight/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "indoor-air-quality-testing",
+        "mold-inspection-testing"
+      ],
+      "city_anchor": "kingsburg-ca",
+      "external_authority_candidates": [
+        "https://www.epa.gov/indoor-air-quality-iaq/introduction-indoor-air-quality",
+        "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/IAQ/Pages/IAQProgram.aspx"
+      ],
+      "notes": "Independence positioning is the whole post. CPC $13.20 says vendors bid hard on this. A free IAQ test is nearly always a lead magnet run by an HVAC or remediation company that profits from finding a problem; an independent tester with no remediation arm charges for the test and sells nothing else. Compare: who pays, what lab accreditation you get, whether you receive raw lab data, and what a free test typically omits (no accredited lab, no spore counts, no written scope). Close with when free is genuinely fine (a quick screening before a paid scope).",
+      "source": "keyword-researcher",
+      "seed": "indoor air quality testing"
+    },
+    {
+      "id": "2026-09-21-air-quality-testing-cost",
+      "status": "queued",
+      "queued_at": "2026-09-21T17:55:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "air quality testing cost",
+      "intent": "commercial",
+      "volume": 170,
+      "kd": 0,
+      "fan_out_cluster": [
+        "indoor air quality testing cost",
+        "how much does air quality testing cost",
+        "how much is air quality testing",
+        "cost of indoor air quality testing",
+        "indoor air quality test cost",
+        "voc testing cost"
+      ],
+      "suggested_slug": "air-quality-testing-cost",
+      "suggested_title": "Air quality testing cost: what an independent IAQ assessment actually runs",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/indoor-air-quality-testing/",
+        "/services/voc-formaldehyde-testing/",
+        "/services/mold-inspection-testing/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "indoor-air-quality-testing",
+        "voc-formaldehyde-testing",
+        "mold-inspection-testing"
+      ],
+      "city_anchor": "fresno-ca",
+      "external_authority_candidates": [
+        "https://www.epa.gov/indoor-air-quality-iaq/introduction-indoor-air-quality"
+      ],
+      "notes": "Cost guide, the highest-converting format in this vertical. Break price down by what actually drives it: number of air samples, lab turnaround, square footage, whether VOC or formaldehyde panels are added, and whether it is a clearance test with a written pass/fail. Give real ranges and explain why a cheap test is often a kit mailed to an unaccredited lab. Central Valley framing for Fresno: summer smoke season and swamp coolers push a lot of these calls.",
+      "source": "keyword-researcher",
+      "seed": "indoor air quality testing"
+    },
+    {
+      "id": "2026-09-21-how-to-check-indoor-air-quality",
+      "status": "queued",
+      "queued_at": "2026-09-21T17:55:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to check indoor air quality",
+      "intent": "informational",
+      "volume": 2400,
+      "kd": 23,
+      "fan_out_cluster": [
+        "how to test indoor air quality in home",
+        "how to test indoor air quality",
+        "how is indoor air quality measured",
+        "how to monitor indoor air quality",
+        "what does an indoor air quality test measure",
+        "do i need an indoor air quality test"
+      ],
+      "suggested_slug": "how-to-check-indoor-air-quality",
+      "suggested_title": "How to check indoor air quality at home (and when a monitor is not enough)",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/indoor-air-quality-testing/",
+        "/services/voc-formaldehyde-testing/",
+        "/services/radon-testing/",
+        "/blog/signs-of-bad-indoor-air-quality/"
+      ],
+      "service_tags": [
+        "indoor-air-quality-testing",
+        "voc-formaldehyde-testing",
+        "radon-testing"
+      ],
+      "city_anchor": "kingsburg-ca",
+      "external_authority_candidates": [
+        "https://www.epa.gov/indoor-air-quality-iaq/introduction-indoor-air-quality",
+        "https://www.epa.gov/indoor-air-quality-iaq/volatile-organic-compounds-impact-indoor-air-quality"
+      ],
+      "notes": "Biggest uncovered keyword in this run at 2400/mo, KD 23. Structure as a ladder: free checks (observe, ventilate, humidity), consumer monitors (what PM2.5 / CO2 / TVOC readings do and do not tell you), then accredited lab sampling. Mirror the ChatGPT decomposition as H2s so the passages are liftable: pollutant types, sampling methods (passive, active, continuous, surface), equipment, why test, professional vs DIY. Link out to the existing signs-of-bad-indoor-air-quality post rather than repeating its list.",
+      "source": "keyword-researcher",
+      "seed": "indoor air quality testing"
+    },
+    {
+      "id": "2026-09-21-diy-air-quality-testing-vs-professional",
+      "status": "queued",
+      "queued_at": "2026-09-21T17:55:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "diy air quality testing",
+      "intent": "commercial",
+      "volume": 170,
+      "kd": 2,
+      "fan_out_cluster": [
+        "air quality test kit for home",
+        "indoor air quality testing kit",
+        "diy indoor air quality testing",
+        "are home air quality test kits accurate",
+        "best home air quality test kit",
+        "how to do air quality testing"
+      ],
+      "suggested_slug": "diy-air-quality-testing-vs-professional",
+      "suggested_title": "DIY air quality testing vs a professional test: what the home kit misses",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/indoor-air-quality-testing/",
+        "/services/voc-formaldehyde-testing/",
+        "/blog/diy-mold-test-kits-vs-professional-inspection/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "indoor-air-quality-testing",
+        "voc-formaldehyde-testing"
+      ],
+      "city_anchor": "visalia-ca",
+      "external_authority_candidates": [
+        "https://www.epa.gov/indoor-air-quality-iaq/volatile-organic-compounds-impact-indoor-air-quality"
+      ],
+      "notes": "Keep this post on air, VOC and formaldehyde kits. The existing /blog/diy-mold-test-kits-vs-professional-inspection/ owns the mold-kit comparison, so link to it instead of re-arguing it (cannibalization risk). Core argument: a DIY kit gives you a number with no baseline, no outdoor control sample, no chain of custody, and no interpretation, which is exactly what a landlord, insurer, or buyer will ask for. Say plainly where a kit is fine (curiosity, screening) and where it is not (a dispute, a health complaint, a transaction).",
+      "source": "keyword-researcher",
+      "seed": "indoor air quality testing"
+    },
+    {
+      "id": "2026-09-21-test-indoor-air-quality-for-mold",
+      "status": "queued",
+      "queued_at": "2026-09-21T17:55:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to test indoor air quality for mold",
+      "intent": "informational",
+      "volume": 170,
+      "kd": 10,
+      "fan_out_cluster": [
+        "air quality mold testing",
+        "mold and air quality testing",
+        "indoor air quality test for mold",
+        "musty smell but no visible mold",
+        "air quality testing for mold",
+        "spore trap air sample"
+      ],
+      "suggested_slug": "test-indoor-air-quality-for-mold",
+      "suggested_title": "How to test indoor air quality for mold when you cannot see any growth",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/mold-inspection-testing/",
+        "/services/indoor-air-quality-testing/",
+        "/blog/air-sampling-vs-surface-sampling/",
+        "/services/post-flood-mold-assessment/"
+      ],
+      "service_tags": [
+        "mold-inspection-testing",
+        "indoor-air-quality-testing"
+      ],
+      "city_anchor": "clovis-ca",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold",
+        "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/OHB/HESIS/Pages/mold.aspx"
+      ],
+      "notes": "The musty-smell, nothing-visible entry point, which is the most common first call in this vertical. Explain spore trap air sampling, why an outdoor control sample is mandatory for the indoor result to mean anything, and how to read elevated Aspergillus/Penicillium counts. Distinct from the existing air-vs-surface-sampling post: that one compares methods, this one starts from the symptom. Clovis and Fresno County note: evaporative coolers and crawl spaces are the usual hidden sources.",
+      "source": "keyword-researcher",
+      "seed": "indoor air quality testing"
     }
   ]
 }

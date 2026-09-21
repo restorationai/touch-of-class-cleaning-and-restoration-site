@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+office air quality testing,transactional,170,2,1.02,2,indoor air quality testing,,,no
+commercial indoor air quality testing,transactional,140,0,18.56,2,indoor air quality testing,,,no
+leed indoor air quality testing,transactional,140,0,,2,indoor air quality testing,,,no
+home air quality testing,transactional,5400,9,4.58,3,indoor air quality testing,,/services/indoor-air-quality-testing/,no
+indoor air quality testing near me,transactional,4400,0,10.34,3,indoor air quality testing,,/services/indoor-air-quality-testing/,no
+air quality testing near me,transactional,4400,0,10.34,3,indoor air quality testing,,/services/indoor-air-quality-testing/,no
+indoor air quality testing,transactional,3600,1,9.28,3,indoor air quality testing,,/services/indoor-air-quality-testing/,no
+indoor air quality testing for mold,transactional,1900,7,8.36,3,indoor air quality testing,,/services/mold-inspection-testing/,no
+indoor air quality testing companies,transactional,720,4,8.67,3,indoor air quality testing,,/services/indoor-air-quality-testing/,no
+professional air quality testing,transactional,480,8,20.66,3,indoor air quality testing,,/services/indoor-air-quality-testing/,no
+indoor air quality assessment,transactional,320,5,9.07,3,indoor air quality testing,,/services/indoor-air-quality-testing/,no
+indoor air quality inspection,transactional,210,5,23.31,3,indoor air quality testing,,/services/indoor-air-quality-testing/,no
+asbestos air quality testing,transactional,210,0,9.15,3,indoor air quality testing,,/services/asbestos-testing/,no
+hvac air quality testing,transactional,50,1,21.7,3,indoor air quality testing,,/services/hvac-duct-assessments/,no
+indoor air quality testing kingsburg,transactional,,,,3,indoor air quality testing,Kingsburg,/services/indoor-air-quality-testing/,no
+air quality testing kingsburg ca,transactional,,,,3,indoor air quality testing,Kingsburg,/services/indoor-air-quality-testing/,no
+indoor air quality testing fresno,transactional,,,,3,indoor air quality testing,Fresno,/service-areas/fresno-ca/indoor-air-quality-testing/,no
+air quality testing fresno ca,transactional,,,,3,indoor air quality testing,Fresno,/service-areas/fresno-ca/indoor-air-quality-testing/,no
+fresno air quality testing,transactional,,,,3,indoor air quality testing,Fresno,/service-areas/fresno-ca/indoor-air-quality-testing/,no
+certified indoor air quality testing fresno,transactional,,,,3,indoor air quality testing,Fresno,/service-areas/fresno-ca/indoor-air-quality-testing/,no
+air quality inspection fresno,transactional,,,,3,indoor air quality testing,Fresno,/service-areas/fresno-ca/indoor-air-quality-testing/,no
+mold air quality testing fresno,transactional,,,,3,indoor air quality testing,Fresno,/service-areas/fresno-ca/mold-inspection-testing/,no
+indoor air quality testing visalia,transactional,,,,3,indoor air quality testing,Visalia,/service-areas/visalia-ca/indoor-air-quality-testing/,no
+indoor air quality testing clovis,transactional,,,,3,indoor air quality testing,Clovis,/service-areas/clovis-ca/indoor-air-quality-testing/,no
+free air quality testing near me,commercial,210,7,13.2,1,indoor air quality testing,,,yes
+air quality testing cost,commercial,170,0,2.04,1,indoor air quality testing,,,yes
+diy air quality testing,commercial,170,2,0.74,1,indoor air quality testing,,,yes
+air quality test kit for home,commercial,880,9,1.1,2,indoor air quality testing,,,no
+free home air quality test,commercial,260,3,4.9,2,indoor air quality testing,,,no
+indoor air quality testing cost,commercial,170,0,2.04,2,indoor air quality testing,,,no
+how much does air quality testing cost,commercial,90,0,3.18,2,indoor air quality testing,,,no
+how much is air quality testing,commercial,50,5,6.05,2,indoor air quality testing,,,no
+how to check indoor air quality,informational,2400,23,1.6,1,indoor air quality testing,,,yes
+how to test indoor air quality for mold,informational,170,10,1.09,1,indoor air quality testing,,,yes
+what is air quality testing,informational,50,0,0.06,1,indoor air quality testing,,,no
+how to test indoor air quality in home,informational,1000,27,0.82,2,indoor air quality testing,,,no
+how to test indoor air quality,informational,720,6,1.04,2,indoor air quality testing,,,no
+how is indoor air quality measured,informational,260,0,2.24,2,indoor air quality testing,,,no
+is professional air quality testing worth it,informational,,,,2,indoor air quality testing,,,no
+do i need an indoor air quality test,informational,,,,2,indoor air quality testing,,,no

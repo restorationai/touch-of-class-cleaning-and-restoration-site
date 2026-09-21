@@ -1,6 +1,6 @@
 {
   "slug": "quality-contracting-inc",
-  "generated_at": "2026-09-18T22:55:33Z",
+  "generated_at": "2026-09-21T17:28:55Z",
   "truth": {
     "hours": "",
     "is_247": false,
@@ -10,11 +10,11 @@
     "response_minutes": null,
     "family_owned": false,
     "founded_year": "",
-    "gbp_review_count": 102,
+    "gbp_review_count": 106,
     "vertical": "restoration"
   },
-  "errors": 16,
-  "review_flags": 25,
+  "errors": 17,
+  "review_flags": 27,
   "violations": [
     {
       "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
@@ -240,6 +240,33 @@
       "matched": "IICRC",
       "context": "u receive. **Category of water.** The [IICRC S500 standard](https://www.iicrc.org) c",
       "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/water-damage-restoration-cost.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "crobial treatment is required under the IICRC S500 standard.\"}, {\"question\": \"Will my",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/water-damage-restoration-cost.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "5,000 job. **1. Water category.** The [IICRC S500 standard](https://www.iicrc.org/pa",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/water-damage-restoration-cost.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "error",
+      "matched": "IICRC",
+      "context": "Water class (how far it spread).** The IICRC also classifies losses by how much evap",
+      "reason": "names a certification not present in brand.certifications"
     },
     {
       "file": "src/content/blog/who-to-call-for-water-damage-restoration-in-auburn-ma.md",
