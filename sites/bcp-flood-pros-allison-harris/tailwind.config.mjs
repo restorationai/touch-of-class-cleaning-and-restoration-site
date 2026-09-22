@@ -13,7 +13,7 @@ export default {
     extend: {
       colors: {
         dark: {
-          DEFAULT: "#38160a",
+          DEFAULT: "#0f172a",
           50: "#f9fafb",
           100: "#f3f4f6",
           200: "#e5e7eb",
@@ -52,14 +52,14 @@ export default {
            2026-08-05: "Action to call on the website need to match golds as
            the logo" — the fill is the logo gold now, the label moved instead. */
         cta: {
-          DEFAULT: "#d53c04",
-          hover: "#aa3004",
-          fg: "#ffffff",
+          DEFAULT: "#ee4305",
+          hover: "#fa571c",
+          fg: "#0f172a",
         },
         accent: {
           // Same pair rule as cta — btn-accent renders text-accent-fg on this.
           DEFAULT: "#f38c08",
-          fg: "#38160a",
+          fg: "#0f172a",
         },
         muted: {
           DEFAULT: "#4b5563",

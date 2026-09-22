@@ -217,6 +217,25 @@ def _mirror_nested_brand(brand: dict) -> None:
             brand.setdefault("font_sans", fonts["body"])
         if fonts.get("heading"):
             brand.setdefault("font_display", fonts["heading"])
+    # NEUTRAL-CANVAS ENFORCEMENT for STORED darks (FIX 2026-09-22: their
+    # plan-input carried dark_color #38160a — a saturated brand brown
+    # written before the 09-11 law — and setdefault let it through, so the
+    # whole dark theme painted orange-brown walls). Any stored canvas that
+    # the _neutral_dark exception would reject gets re-neutralized. An
+    # already-dark muted canvas (deep navy, forest) passes untouched.
+    _dk = str(brand.get("dark_color") or "").strip()
+    if len(_dk) == 7 and _dk.startswith("#"):
+        try:
+            import colorsys as _cs
+            _h, _l, _s = _cs.rgb_to_hls(
+                *(int(_dk[i:i + 2], 16) / 255 for i in (1, 3, 5)))
+            if not (_l <= 0.22 and _s <= 0.50):
+                brand["dark_color"] = _neutral_dark(
+                    brand.get("primary_color") or _dk)
+                print(f"      dark canvas {_dk} violates the neutral-canvas "
+                      f"law — neutralized to {brand['dark_color']}")
+        except Exception:  # noqa: BLE001
+            pass
 
 
 def resolve_tokens(client: dict, plan_input: dict, allow_missing_domain: bool = False) -> tuple[dict, dict]:
