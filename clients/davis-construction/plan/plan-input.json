@@ -169,6 +169,11 @@
       "city": "Arab",
       "state": "AL",
       "slug": "arab-al"
+    },
+    {
+      "city": "Hartselle",
+      "state": "AL",
+      "slug": "hartselle-al"
     }
   ],
   "brand": {

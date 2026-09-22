@@ -162,6 +162,11 @@
       "city": "Whitehall",
       "state": "PA",
       "slug": "whitehall-pa"
+    },
+    {
+      "city": "Munhall",
+      "state": "PA",
+      "slug": "munhall-pa"
     }
   ],
   "template": "restoration",

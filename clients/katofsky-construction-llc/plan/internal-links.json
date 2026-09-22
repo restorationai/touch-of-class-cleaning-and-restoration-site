@@ -30,6 +30,7 @@
     "/service-areas/mckeesport-pa/",
     "/service-areas/monroeville-pa/",
     "/service-areas/mount-lebanon-pa/",
+    "/service-areas/munhall-pa/",
     "/service-areas/murrysville-pa/",
     "/service-areas/new-kensington-pa/",
     "/service-areas/north-huntingdon-pa/",
@@ -71,6 +72,7 @@
     "/service-areas/mckeesport-pa/",
     "/service-areas/monroeville-pa/",
     "/service-areas/mount-lebanon-pa/",
+    "/service-areas/munhall-pa/",
     "/service-areas/murrysville-pa/",
     "/service-areas/new-kensington-pa/",
     "/service-areas/north-huntingdon-pa/",
@@ -728,6 +730,25 @@
     "/service-areas/whitehall-pa/lead-paint-abatement/",
     "/service-areas/whitehall-pa/carpet-cleaning/",
     "/service-areas/whitehall-pa/upholstery-cleaning/",
+    "/service-areas/baldwin-pa/",
+    "/service-areas/bethel-park-pa/",
+    "/service-areas/carnegie-pa/"
+  ],
+  "/service-areas/munhall-pa/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/munhall-pa/fire-damage-restoration/",
+    "/service-areas/munhall-pa/roofing/",
+    "/service-areas/munhall-pa/sewage-cleanup/",
+    "/service-areas/munhall-pa/biohazard-cleanup/",
+    "/service-areas/munhall-pa/general-contracting/",
+    "/service-areas/munhall-pa/emergency-board-up-tarping/",
+    "/service-areas/munhall-pa/asbestos-abatement/",
+    "/service-areas/munhall-pa/air-duct-cleaning/",
+    "/service-areas/munhall-pa/contents-restoration-storage/",
+    "/service-areas/munhall-pa/lead-paint-abatement/",
+    "/service-areas/munhall-pa/carpet-cleaning/",
+    "/service-areas/munhall-pa/upholstery-cleaning/",
     "/service-areas/baldwin-pa/",
     "/service-areas/bethel-park-pa/",
     "/service-areas/carnegie-pa/"
@@ -3212,6 +3233,114 @@
     "/service-areas/whitehall-pa/",
     "/service-areas/whitehall-pa/fire-damage-restoration/",
     "/service-areas/whitehall-pa/roofing/",
+    "/service-areas/baldwin-pa/upholstery-cleaning/",
+    "/service-areas/bethel-park-pa/upholstery-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/munhall-pa/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/munhall-pa/",
+    "/service-areas/munhall-pa/roofing/",
+    "/service-areas/munhall-pa/sewage-cleanup/",
+    "/service-areas/baldwin-pa/fire-damage-restoration/",
+    "/service-areas/bethel-park-pa/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/munhall-pa/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/munhall-pa/",
+    "/service-areas/munhall-pa/fire-damage-restoration/",
+    "/service-areas/munhall-pa/roofing/",
+    "/service-areas/baldwin-pa/general-contracting/",
+    "/service-areas/bethel-park-pa/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/munhall-pa/roofing/": [
+    "/services/roofing/",
+    "/service-areas/munhall-pa/",
+    "/service-areas/munhall-pa/fire-damage-restoration/",
+    "/service-areas/munhall-pa/sewage-cleanup/",
+    "/service-areas/baldwin-pa/roofing/",
+    "/service-areas/bethel-park-pa/roofing/",
+    "/contact/"
+  ],
+  "/service-areas/munhall-pa/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/munhall-pa/",
+    "/service-areas/munhall-pa/fire-damage-restoration/",
+    "/service-areas/munhall-pa/roofing/",
+    "/service-areas/baldwin-pa/sewage-cleanup/",
+    "/service-areas/bethel-park-pa/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/munhall-pa/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/munhall-pa/",
+    "/service-areas/munhall-pa/fire-damage-restoration/",
+    "/service-areas/munhall-pa/roofing/",
+    "/service-areas/baldwin-pa/biohazard-cleanup/",
+    "/service-areas/bethel-park-pa/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/munhall-pa/asbestos-abatement/": [
+    "/services/asbestos-abatement/",
+    "/service-areas/munhall-pa/",
+    "/service-areas/munhall-pa/fire-damage-restoration/",
+    "/service-areas/munhall-pa/roofing/",
+    "/service-areas/baldwin-pa/asbestos-abatement/",
+    "/service-areas/bethel-park-pa/asbestos-abatement/",
+    "/contact/"
+  ],
+  "/service-areas/munhall-pa/lead-paint-abatement/": [
+    "/services/lead-paint-abatement/",
+    "/service-areas/munhall-pa/",
+    "/service-areas/munhall-pa/fire-damage-restoration/",
+    "/service-areas/munhall-pa/roofing/",
+    "/service-areas/baldwin-pa/lead-paint-abatement/",
+    "/service-areas/bethel-park-pa/lead-paint-abatement/",
+    "/contact/"
+  ],
+  "/service-areas/munhall-pa/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/munhall-pa/",
+    "/service-areas/munhall-pa/fire-damage-restoration/",
+    "/service-areas/munhall-pa/roofing/",
+    "/service-areas/baldwin-pa/emergency-board-up-tarping/",
+    "/service-areas/bethel-park-pa/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/munhall-pa/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/munhall-pa/",
+    "/service-areas/munhall-pa/fire-damage-restoration/",
+    "/service-areas/munhall-pa/roofing/",
+    "/service-areas/baldwin-pa/contents-restoration-storage/",
+    "/service-areas/bethel-park-pa/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/munhall-pa/air-duct-cleaning/": [
+    "/services/air-duct-cleaning/",
+    "/service-areas/munhall-pa/",
+    "/service-areas/munhall-pa/fire-damage-restoration/",
+    "/service-areas/munhall-pa/roofing/",
+    "/service-areas/baldwin-pa/air-duct-cleaning/",
+    "/service-areas/bethel-park-pa/air-duct-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/munhall-pa/carpet-cleaning/": [
+    "/services/carpet-cleaning/",
+    "/service-areas/munhall-pa/",
+    "/service-areas/munhall-pa/fire-damage-restoration/",
+    "/service-areas/munhall-pa/roofing/",
+    "/service-areas/baldwin-pa/carpet-cleaning/",
+    "/service-areas/bethel-park-pa/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/munhall-pa/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/munhall-pa/",
+    "/service-areas/munhall-pa/fire-damage-restoration/",
+    "/service-areas/munhall-pa/roofing/",
     "/service-areas/baldwin-pa/upholstery-cleaning/",
     "/service-areas/bethel-park-pa/upholstery-cleaning/",
     "/contact/"

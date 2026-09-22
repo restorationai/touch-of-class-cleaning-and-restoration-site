@@ -19,6 +19,7 @@
     "/service-areas/decatur-al/",
     "/service-areas/elkmont-al/",
     "/service-areas/gurley-al/",
+    "/service-areas/hartselle-al/",
     "/service-areas/harvest-al/",
     "/service-areas/hazel-green-al/",
     "/service-areas/huntsville-al/",
@@ -52,6 +53,7 @@
     "/service-areas/decatur-al/",
     "/service-areas/elkmont-al/",
     "/service-areas/gurley-al/",
+    "/service-areas/hartselle-al/",
     "/service-areas/harvest-al/",
     "/service-areas/hazel-green-al/",
     "/service-areas/huntsville-al/",
@@ -99,12 +101,12 @@
     "/service-areas/decatur-al/home-remodeling/",
     "/service-areas/elkmont-al/home-remodeling/",
     "/service-areas/gurley-al/home-remodeling/",
+    "/service-areas/hartselle-al/home-remodeling/",
     "/service-areas/harvest-al/home-remodeling/",
     "/service-areas/hazel-green-al/home-remodeling/",
     "/service-areas/huntsville-al/home-remodeling/",
     "/service-areas/meridianville-al/home-remodeling/",
     "/service-areas/moores-mill-al/home-remodeling/",
-    "/service-areas/new-hope-al/home-remodeling/",
     "/blog/choosing-a-general-contractor/",
     "/blog/how-to-plan-a-home-remodel/",
     "/blog/do-you-need-a-permit/"
@@ -118,12 +120,12 @@
     "/service-areas/decatur-al/new-construction/",
     "/service-areas/elkmont-al/new-construction/",
     "/service-areas/gurley-al/new-construction/",
+    "/service-areas/hartselle-al/new-construction/",
     "/service-areas/harvest-al/new-construction/",
     "/service-areas/hazel-green-al/new-construction/",
     "/service-areas/huntsville-al/new-construction/",
     "/service-areas/meridianville-al/new-construction/",
     "/service-areas/moores-mill-al/new-construction/",
-    "/service-areas/new-hope-al/new-construction/",
     "/blog/choosing-a-general-contractor/",
     "/blog/how-long-to-build-a-house/"
   ],
@@ -136,12 +138,12 @@
     "/service-areas/decatur-al/decks-pergolas-fences/",
     "/service-areas/elkmont-al/decks-pergolas-fences/",
     "/service-areas/gurley-al/decks-pergolas-fences/",
+    "/service-areas/hartselle-al/decks-pergolas-fences/",
     "/service-areas/harvest-al/decks-pergolas-fences/",
     "/service-areas/hazel-green-al/decks-pergolas-fences/",
     "/service-areas/huntsville-al/decks-pergolas-fences/",
     "/service-areas/meridianville-al/decks-pergolas-fences/",
     "/service-areas/moores-mill-al/decks-pergolas-fences/",
-    "/service-areas/new-hope-al/decks-pergolas-fences/",
     "/blog/wood-vs-composite-decking/"
   ],
   "/services/roofing/": [
@@ -153,12 +155,12 @@
     "/service-areas/decatur-al/roofing/",
     "/service-areas/elkmont-al/roofing/",
     "/service-areas/gurley-al/roofing/",
+    "/service-areas/hartselle-al/roofing/",
     "/service-areas/harvest-al/roofing/",
     "/service-areas/hazel-green-al/roofing/",
     "/service-areas/huntsville-al/roofing/",
     "/service-areas/meridianville-al/roofing/",
     "/service-areas/moores-mill-al/roofing/",
-    "/service-areas/new-hope-al/roofing/",
     "/blog/roofing-material-comparison/",
     "/blog/how-long-does-roof-replacement-take/",
     "/blog/storm-damage-repair-process/"
@@ -172,12 +174,12 @@
     "/service-areas/decatur-al/siding-gutters/",
     "/service-areas/elkmont-al/siding-gutters/",
     "/service-areas/gurley-al/siding-gutters/",
+    "/service-areas/hartselle-al/siding-gutters/",
     "/service-areas/harvest-al/siding-gutters/",
     "/service-areas/hazel-green-al/siding-gutters/",
     "/service-areas/huntsville-al/siding-gutters/",
     "/service-areas/meridianville-al/siding-gutters/",
     "/service-areas/moores-mill-al/siding-gutters/",
-    "/service-areas/new-hope-al/siding-gutters/",
     "/blog/siding-options-compared/"
   ],
   "/services/painting-trim/": [
@@ -189,12 +191,12 @@
     "/service-areas/decatur-al/painting-trim/",
     "/service-areas/elkmont-al/painting-trim/",
     "/service-areas/gurley-al/painting-trim/",
+    "/service-areas/hartselle-al/painting-trim/",
     "/service-areas/harvest-al/painting-trim/",
     "/service-areas/hazel-green-al/painting-trim/",
     "/service-areas/huntsville-al/painting-trim/",
     "/service-areas/meridianville-al/painting-trim/",
-    "/service-areas/moores-mill-al/painting-trim/",
-    "/service-areas/new-hope-al/painting-trim/"
+    "/service-areas/moores-mill-al/painting-trim/"
   ],
   "/services/water-damage-restoration/": [
     "/services/",
@@ -205,12 +207,12 @@
     "/service-areas/decatur-al/water-damage-restoration/",
     "/service-areas/elkmont-al/water-damage-restoration/",
     "/service-areas/gurley-al/water-damage-restoration/",
+    "/service-areas/hartselle-al/water-damage-restoration/",
     "/service-areas/harvest-al/water-damage-restoration/",
     "/service-areas/hazel-green-al/water-damage-restoration/",
     "/service-areas/huntsville-al/water-damage-restoration/",
     "/service-areas/meridianville-al/water-damage-restoration/",
-    "/service-areas/moores-mill-al/water-damage-restoration/",
-    "/service-areas/new-hope-al/water-damage-restoration/"
+    "/service-areas/moores-mill-al/water-damage-restoration/"
   ],
   "/services/storm-damage-restoration/": [
     "/services/",
@@ -221,12 +223,12 @@
     "/service-areas/decatur-al/storm-damage-restoration/",
     "/service-areas/elkmont-al/storm-damage-restoration/",
     "/service-areas/gurley-al/storm-damage-restoration/",
+    "/service-areas/hartselle-al/storm-damage-restoration/",
     "/service-areas/harvest-al/storm-damage-restoration/",
     "/service-areas/hazel-green-al/storm-damage-restoration/",
     "/service-areas/huntsville-al/storm-damage-restoration/",
     "/service-areas/meridianville-al/storm-damage-restoration/",
     "/service-areas/moores-mill-al/storm-damage-restoration/",
-    "/service-areas/new-hope-al/storm-damage-restoration/",
     "/blog/storm-damage-insurance-claim-checklist/",
     "/blog/storm-damage-repair-process/"
   ],
@@ -239,12 +241,12 @@
     "/service-areas/decatur-al/mold-remediation/",
     "/service-areas/elkmont-al/mold-remediation/",
     "/service-areas/gurley-al/mold-remediation/",
+    "/service-areas/hartselle-al/mold-remediation/",
     "/service-areas/harvest-al/mold-remediation/",
     "/service-areas/hazel-green-al/mold-remediation/",
     "/service-areas/huntsville-al/mold-remediation/",
     "/service-areas/meridianville-al/mold-remediation/",
     "/service-areas/moores-mill-al/mold-remediation/",
-    "/service-areas/new-hope-al/mold-remediation/",
     "/blog/mold-found-during-renovation/"
   ],
   "/service-areas/huntsville-al/": [
@@ -534,6 +536,22 @@
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/",
     "/service-areas/decatur-al/"
+  ],
+  "/service-areas/hartselle-al/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/hartselle-al/home-remodeling/",
+    "/service-areas/hartselle-al/roofing/",
+    "/service-areas/hartselle-al/decks-pergolas-fences/",
+    "/service-areas/hartselle-al/new-construction/",
+    "/service-areas/hartselle-al/siding-gutters/",
+    "/service-areas/hartselle-al/mold-remediation/",
+    "/service-areas/hartselle-al/painting-trim/",
+    "/service-areas/hartselle-al/storm-damage-restoration/",
+    "/service-areas/hartselle-al/water-damage-restoration/",
+    "/service-areas/arab-al/",
+    "/service-areas/ardmore-al/",
+    "/service-areas/athens-al/"
   ],
   "/service-areas/huntsville-al/home-remodeling/": [
     "/services/home-remodeling/",
@@ -1991,6 +2009,87 @@
     "/service-areas/arab-al/roofing/",
     "/service-areas/ardmore-al/mold-remediation/",
     "/service-areas/athens-al/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/hartselle-al/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/hartselle-al/",
+    "/service-areas/hartselle-al/roofing/",
+    "/service-areas/hartselle-al/decks-pergolas-fences/",
+    "/service-areas/arab-al/home-remodeling/",
+    "/service-areas/ardmore-al/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/hartselle-al/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/hartselle-al/",
+    "/service-areas/hartselle-al/home-remodeling/",
+    "/service-areas/hartselle-al/roofing/",
+    "/service-areas/arab-al/new-construction/",
+    "/service-areas/ardmore-al/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/hartselle-al/decks-pergolas-fences/": [
+    "/services/decks-pergolas-fences/",
+    "/service-areas/hartselle-al/",
+    "/service-areas/hartselle-al/home-remodeling/",
+    "/service-areas/hartselle-al/roofing/",
+    "/service-areas/arab-al/decks-pergolas-fences/",
+    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/contact/"
+  ],
+  "/service-areas/hartselle-al/roofing/": [
+    "/services/roofing/",
+    "/service-areas/hartselle-al/",
+    "/service-areas/hartselle-al/home-remodeling/",
+    "/service-areas/hartselle-al/decks-pergolas-fences/",
+    "/service-areas/arab-al/roofing/",
+    "/service-areas/ardmore-al/roofing/",
+    "/contact/"
+  ],
+  "/service-areas/hartselle-al/siding-gutters/": [
+    "/services/siding-gutters/",
+    "/service-areas/hartselle-al/",
+    "/service-areas/hartselle-al/home-remodeling/",
+    "/service-areas/hartselle-al/roofing/",
+    "/service-areas/arab-al/siding-gutters/",
+    "/service-areas/ardmore-al/siding-gutters/",
+    "/contact/"
+  ],
+  "/service-areas/hartselle-al/painting-trim/": [
+    "/services/painting-trim/",
+    "/service-areas/hartselle-al/",
+    "/service-areas/hartselle-al/home-remodeling/",
+    "/service-areas/hartselle-al/roofing/",
+    "/service-areas/arab-al/painting-trim/",
+    "/service-areas/ardmore-al/painting-trim/",
+    "/contact/"
+  ],
+  "/service-areas/hartselle-al/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/hartselle-al/",
+    "/service-areas/hartselle-al/home-remodeling/",
+    "/service-areas/hartselle-al/roofing/",
+    "/service-areas/arab-al/water-damage-restoration/",
+    "/service-areas/ardmore-al/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/hartselle-al/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/hartselle-al/",
+    "/service-areas/hartselle-al/home-remodeling/",
+    "/service-areas/hartselle-al/roofing/",
+    "/service-areas/arab-al/storm-damage-restoration/",
+    "/service-areas/ardmore-al/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/hartselle-al/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/hartselle-al/",
+    "/service-areas/hartselle-al/home-remodeling/",
+    "/service-areas/hartselle-al/roofing/",
+    "/service-areas/arab-al/mold-remediation/",
+    "/service-areas/ardmore-al/mold-remediation/",
     "/contact/"
   ],
   "/blog/how-to-plan-a-home-remodel/": [

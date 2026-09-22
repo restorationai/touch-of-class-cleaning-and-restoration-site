@@ -1,10 +1,10 @@
 {
   "template": "construction",
   "template_version": "0.1.0",
-  "generated_at": "2026-09-22T19:45:20.937704+00:00",
+  "generated_at": "2026-09-22T20:18:17.510585+00:00",
   "input_summary": {
     "service_count": 9,
-    "service_area_count": 19,
+    "service_area_count": 20,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -59,6 +59,7 @@
         "/service-areas/decatur-al/",
         "/service-areas/elkmont-al/",
         "/service-areas/gurley-al/",
+        "/service-areas/hartselle-al/",
         "/service-areas/harvest-al/",
         "/service-areas/hazel-green-al/",
         "/service-areas/huntsville-al/",
@@ -149,6 +150,7 @@
         "/service-areas/decatur-al/",
         "/service-areas/elkmont-al/",
         "/service-areas/gurley-al/",
+        "/service-areas/hartselle-al/",
         "/service-areas/harvest-al/",
         "/service-areas/hazel-green-al/",
         "/service-areas/huntsville-al/",
@@ -314,12 +316,12 @@
         "/service-areas/decatur-al/home-remodeling/",
         "/service-areas/elkmont-al/home-remodeling/",
         "/service-areas/gurley-al/home-remodeling/",
+        "/service-areas/hartselle-al/home-remodeling/",
         "/service-areas/harvest-al/home-remodeling/",
         "/service-areas/hazel-green-al/home-remodeling/",
         "/service-areas/huntsville-al/home-remodeling/",
         "/service-areas/meridianville-al/home-remodeling/",
         "/service-areas/moores-mill-al/home-remodeling/",
-        "/service-areas/new-hope-al/home-remodeling/",
         "/blog/choosing-a-general-contractor/",
         "/blog/how-to-plan-a-home-remodel/",
         "/blog/do-you-need-a-permit/"
@@ -367,12 +369,12 @@
         "/service-areas/decatur-al/new-construction/",
         "/service-areas/elkmont-al/new-construction/",
         "/service-areas/gurley-al/new-construction/",
+        "/service-areas/hartselle-al/new-construction/",
         "/service-areas/harvest-al/new-construction/",
         "/service-areas/hazel-green-al/new-construction/",
         "/service-areas/huntsville-al/new-construction/",
         "/service-areas/meridianville-al/new-construction/",
         "/service-areas/moores-mill-al/new-construction/",
-        "/service-areas/new-hope-al/new-construction/",
         "/blog/choosing-a-general-contractor/",
         "/blog/how-long-to-build-a-house/"
       ]
@@ -419,12 +421,12 @@
         "/service-areas/decatur-al/decks-pergolas-fences/",
         "/service-areas/elkmont-al/decks-pergolas-fences/",
         "/service-areas/gurley-al/decks-pergolas-fences/",
+        "/service-areas/hartselle-al/decks-pergolas-fences/",
         "/service-areas/harvest-al/decks-pergolas-fences/",
         "/service-areas/hazel-green-al/decks-pergolas-fences/",
         "/service-areas/huntsville-al/decks-pergolas-fences/",
         "/service-areas/meridianville-al/decks-pergolas-fences/",
         "/service-areas/moores-mill-al/decks-pergolas-fences/",
-        "/service-areas/new-hope-al/decks-pergolas-fences/",
         "/blog/wood-vs-composite-decking/"
       ]
     },
@@ -470,12 +472,12 @@
         "/service-areas/decatur-al/roofing/",
         "/service-areas/elkmont-al/roofing/",
         "/service-areas/gurley-al/roofing/",
+        "/service-areas/hartselle-al/roofing/",
         "/service-areas/harvest-al/roofing/",
         "/service-areas/hazel-green-al/roofing/",
         "/service-areas/huntsville-al/roofing/",
         "/service-areas/meridianville-al/roofing/",
         "/service-areas/moores-mill-al/roofing/",
-        "/service-areas/new-hope-al/roofing/",
         "/blog/roofing-material-comparison/",
         "/blog/how-long-does-roof-replacement-take/",
         "/blog/storm-damage-repair-process/"
@@ -523,12 +525,12 @@
         "/service-areas/decatur-al/siding-gutters/",
         "/service-areas/elkmont-al/siding-gutters/",
         "/service-areas/gurley-al/siding-gutters/",
+        "/service-areas/hartselle-al/siding-gutters/",
         "/service-areas/harvest-al/siding-gutters/",
         "/service-areas/hazel-green-al/siding-gutters/",
         "/service-areas/huntsville-al/siding-gutters/",
         "/service-areas/meridianville-al/siding-gutters/",
         "/service-areas/moores-mill-al/siding-gutters/",
-        "/service-areas/new-hope-al/siding-gutters/",
         "/blog/siding-options-compared/"
       ]
     },
@@ -574,12 +576,12 @@
         "/service-areas/decatur-al/painting-trim/",
         "/service-areas/elkmont-al/painting-trim/",
         "/service-areas/gurley-al/painting-trim/",
+        "/service-areas/hartselle-al/painting-trim/",
         "/service-areas/harvest-al/painting-trim/",
         "/service-areas/hazel-green-al/painting-trim/",
         "/service-areas/huntsville-al/painting-trim/",
         "/service-areas/meridianville-al/painting-trim/",
-        "/service-areas/moores-mill-al/painting-trim/",
-        "/service-areas/new-hope-al/painting-trim/"
+        "/service-areas/moores-mill-al/painting-trim/"
       ]
     },
     {
@@ -624,12 +626,12 @@
         "/service-areas/decatur-al/water-damage-restoration/",
         "/service-areas/elkmont-al/water-damage-restoration/",
         "/service-areas/gurley-al/water-damage-restoration/",
+        "/service-areas/hartselle-al/water-damage-restoration/",
         "/service-areas/harvest-al/water-damage-restoration/",
         "/service-areas/hazel-green-al/water-damage-restoration/",
         "/service-areas/huntsville-al/water-damage-restoration/",
         "/service-areas/meridianville-al/water-damage-restoration/",
-        "/service-areas/moores-mill-al/water-damage-restoration/",
-        "/service-areas/new-hope-al/water-damage-restoration/"
+        "/service-areas/moores-mill-al/water-damage-restoration/"
       ]
     },
     {
@@ -674,12 +676,12 @@
         "/service-areas/decatur-al/storm-damage-restoration/",
         "/service-areas/elkmont-al/storm-damage-restoration/",
         "/service-areas/gurley-al/storm-damage-restoration/",
+        "/service-areas/hartselle-al/storm-damage-restoration/",
         "/service-areas/harvest-al/storm-damage-restoration/",
         "/service-areas/hazel-green-al/storm-damage-restoration/",
         "/service-areas/huntsville-al/storm-damage-restoration/",
         "/service-areas/meridianville-al/storm-damage-restoration/",
         "/service-areas/moores-mill-al/storm-damage-restoration/",
-        "/service-areas/new-hope-al/storm-damage-restoration/",
         "/blog/storm-damage-insurance-claim-checklist/",
         "/blog/storm-damage-repair-process/"
       ]
@@ -726,12 +728,12 @@
         "/service-areas/decatur-al/mold-remediation/",
         "/service-areas/elkmont-al/mold-remediation/",
         "/service-areas/gurley-al/mold-remediation/",
+        "/service-areas/hartselle-al/mold-remediation/",
         "/service-areas/harvest-al/mold-remediation/",
         "/service-areas/hazel-green-al/mold-remediation/",
         "/service-areas/huntsville-al/mold-remediation/",
         "/service-areas/meridianville-al/mold-remediation/",
         "/service-areas/moores-mill-al/mold-remediation/",
-        "/service-areas/new-hope-al/mold-remediation/",
         "/blog/mold-found-during-renovation/"
       ]
     },
@@ -1561,6 +1563,52 @@
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/",
         "/service-areas/decatur-al/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hartselle-al/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Construction Services in Hartselle, AL | Davis Construction Contractors",
+      "h1": "Construction Services in Hartselle",
+      "meta_description": "Serving Hartselle, AL with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (256) 771-0326 for a free estimate.",
+      "primary_keyword": "construction services hartselle",
+      "secondary_keywords": [
+        "hartselle construction company",
+        "general contractor hartselle",
+        "hartselle remodeling contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/hartselle-al/home-remodeling/",
+        "/service-areas/hartselle-al/roofing/",
+        "/service-areas/hartselle-al/decks-pergolas-fences/",
+        "/service-areas/hartselle-al/new-construction/",
+        "/service-areas/hartselle-al/siding-gutters/",
+        "/service-areas/hartselle-al/mold-remediation/",
+        "/service-areas/hartselle-al/painting-trim/",
+        "/service-areas/hartselle-al/storm-damage-restoration/",
+        "/service-areas/hartselle-al/water-damage-restoration/",
+        "/service-areas/arab-al/",
+        "/service-areas/ardmore-al/",
+        "/service-areas/athens-al/"
       ]
     },
     {
@@ -8688,6 +8736,402 @@
         "/service-areas/arab-al/roofing/",
         "/service-areas/ardmore-al/mold-remediation/",
         "/service-areas/athens-al/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hartselle-al/home-remodeling/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Home Remodeling in Hartselle, AL | Davis Construction Contractors",
+      "h1": "Home Remodeling in Hartselle",
+      "meta_description": "Trusted home remodeling in Hartselle, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "home remodeling hartselle",
+      "secondary_keywords": [
+        "home renovation",
+        "whole home remodel",
+        "interior remodeling contractor",
+        "house renovation contractor",
+        "remodeling company"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/home-remodeling/",
+        "/service-areas/hartselle-al/",
+        "/service-areas/hartselle-al/roofing/",
+        "/service-areas/hartselle-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/home-remodeling/",
+        "/service-areas/ardmore-al/home-remodeling/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hartselle-al/new-construction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "New Home Construction in Hartselle, AL | Davis Construction Contractors",
+      "h1": "New Home Construction in Hartselle",
+      "meta_description": "Trusted new home construction in Hartselle, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "new home construction hartselle",
+      "secondary_keywords": [
+        "custom home builder",
+        "new home builder",
+        "build a house",
+        "residential construction",
+        "ground-up construction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/new-construction/",
+        "/service-areas/hartselle-al/",
+        "/service-areas/hartselle-al/home-remodeling/",
+        "/service-areas/hartselle-al/roofing/",
+        "/service-areas/arab-al/new-construction/",
+        "/service-areas/ardmore-al/new-construction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hartselle-al/decks-pergolas-fences/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Decks, Pergolas and Fences in Hartselle, AL | Davis Construction Contractors",
+      "h1": "Decks, Pergolas and Fences in Hartselle",
+      "meta_description": "Trusted decks, pergolas and fences in Hartselle, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "decks, pergolas and fences hartselle",
+      "secondary_keywords": [
+        "deck builder",
+        "deck installation",
+        "pergola builder",
+        "fence installation",
+        "outdoor structure contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/decks-pergolas-fences/",
+        "/service-areas/hartselle-al/",
+        "/service-areas/hartselle-al/home-remodeling/",
+        "/service-areas/hartselle-al/roofing/",
+        "/service-areas/arab-al/decks-pergolas-fences/",
+        "/service-areas/ardmore-al/decks-pergolas-fences/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hartselle-al/roofing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Roofing Installation and Replacement in Hartselle, AL | Davis Construction Contractors",
+      "h1": "Roofing Installation and Replacement in Hartselle",
+      "meta_description": "Trusted roofing installation and replacement in Hartselle, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "roofing installation and replacement hartselle",
+      "secondary_keywords": [
+        "roofing contractor",
+        "roof replacement",
+        "new roof installation",
+        "residential roofing",
+        "roof repair"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/roofing/",
+        "/service-areas/hartselle-al/",
+        "/service-areas/hartselle-al/home-remodeling/",
+        "/service-areas/hartselle-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/roofing/",
+        "/service-areas/ardmore-al/roofing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hartselle-al/siding-gutters/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Siding and Gutters in Hartselle, AL | Davis Construction Contractors",
+      "h1": "Siding and Gutters in Hartselle",
+      "meta_description": "Trusted siding and gutters in Hartselle, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "siding and gutters hartselle",
+      "secondary_keywords": [
+        "siding contractor",
+        "siding installation",
+        "siding replacement",
+        "gutter installation",
+        "exterior contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/siding-gutters/",
+        "/service-areas/hartselle-al/",
+        "/service-areas/hartselle-al/home-remodeling/",
+        "/service-areas/hartselle-al/roofing/",
+        "/service-areas/arab-al/siding-gutters/",
+        "/service-areas/ardmore-al/siding-gutters/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hartselle-al/painting-trim/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Painting and Trim in Hartselle, AL | Davis Construction Contractors",
+      "h1": "Painting and Trim in Hartselle",
+      "meta_description": "Trusted painting and trim in Hartselle, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "painting and trim hartselle",
+      "secondary_keywords": [
+        "painting contractor",
+        "interior painting",
+        "exterior painting",
+        "house painter",
+        "trim painting"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/painting-trim/",
+        "/service-areas/hartselle-al/",
+        "/service-areas/hartselle-al/home-remodeling/",
+        "/service-areas/hartselle-al/roofing/",
+        "/service-areas/arab-al/painting-trim/",
+        "/service-areas/ardmore-al/painting-trim/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hartselle-al/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Hartselle, AL | Davis Construction Contractors",
+      "h1": "Water Damage Restoration in Hartselle",
+      "meta_description": "Trusted water damage restoration in Hartselle, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "water damage restoration hartselle",
+      "secondary_keywords": [
+        "water damage repair",
+        "water damage rebuild",
+        "drywall water damage repair",
+        "ceiling water damage repair",
+        "post-leak renovation"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/hartselle-al/",
+        "/service-areas/hartselle-al/home-remodeling/",
+        "/service-areas/hartselle-al/roofing/",
+        "/service-areas/arab-al/water-damage-restoration/",
+        "/service-areas/ardmore-al/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hartselle-al/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Hartselle, AL | Davis Construction Contractors",
+      "h1": "Storm Damage Restoration in Hartselle",
+      "meta_description": "Trusted storm damage restoration in Hartselle, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "storm damage restoration hartselle",
+      "secondary_keywords": [
+        "storm damage repair",
+        "roof storm damage repair",
+        "siding storm damage repair",
+        "wind damage repair contractor",
+        "storm damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/hartselle-al/",
+        "/service-areas/hartselle-al/home-remodeling/",
+        "/service-areas/hartselle-al/roofing/",
+        "/service-areas/arab-al/storm-damage-restoration/",
+        "/service-areas/ardmore-al/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hartselle-al/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Hartselle, AL | Davis Construction Contractors",
+      "h1": "Mold Remediation in Hartselle",
+      "meta_description": "Trusted mold remediation in Hartselle, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "mold remediation hartselle",
+      "secondary_keywords": [
+        "mold removal",
+        "mold remediation contractor",
+        "mold repair and rebuild",
+        "mold-safe renovation",
+        "post-remediation reconstruction"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/hartselle-al/",
+        "/service-areas/hartselle-al/home-remodeling/",
+        "/service-areas/hartselle-al/roofing/",
+        "/service-areas/arab-al/mold-remediation/",
+        "/service-areas/ardmore-al/mold-remediation/",
         "/contact/"
       ]
     },

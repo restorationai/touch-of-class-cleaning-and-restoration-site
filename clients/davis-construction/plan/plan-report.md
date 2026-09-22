@@ -1,20 +1,20 @@
 # Site Plan Report — Davis Construction Contractors
 
 - Template: `construction` v0.1.0
-- Generated: 2026-09-22T19:45:20.949207+00:00
+- Generated: 2026-09-22T20:18:17.523673+00:00
 - Domain: `davisconstructioncontractors.com`
 - Services selected: 9 of 23 catalog entries
-- Service areas: 19
+- Service areas: 20
 - Cross-product enabled: True
-- Total URLs: **210**
-- Total internal links: 1655 (avg 7.9 per page)
+- Total URLs: **220**
+- Total internal links: 1734 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 162 |
-| `service-area` | 18 |
+| `service-area-service` | 171 |
+| `service-area` | 19 |
 | `blog-post` | 12 |
 | `service-landing` | 9 |
 | `legal` | 3 |
@@ -58,6 +58,7 @@
 - `elkmont-al` — Elkmont, AL
 - `decatur-al` — Decatur, AL
 - `arab-al` — Arab, AL
+- `hartselle-al` — Hartselle, AL
 
 ## Top 10 priority pages
 
