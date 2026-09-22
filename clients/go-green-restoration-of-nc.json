@@ -10,10 +10,10 @@
   "plan": {
     "template": "restoration",
     "template_version": "0.3.0",
-    "url_count": 196,
-    "generated_at": "2026-09-21T19:18:46.578402+00:00"
+    "url_count": 205,
+    "generated_at": "2026-09-22T01:47:37.972458+00:00"
   },
-  "updated_at": "2026-09-21T19:18:46.578407+00:00",
+  "updated_at": "2026-09-22T01:47:37.972462+00:00",
   "build": {
     "scaffolded_at": "2026-07-28T14:43:39.456791+00:00",
     "github_repo": "restorationai/go-green-restoration-of-nc-site",

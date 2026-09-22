@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-21T19:18:25.823627+00:00",
+  "generated_at": "2026-09-22T01:47:18.004039+00:00",
   "input_summary": {
     "service_count": 11,
-    "service_area_count": 21,
+    "service_area_count": 22,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -57,6 +57,7 @@
         "/service-areas/bluffdale-ut/",
         "/service-areas/cedar-fort-ut/",
         "/service-areas/cedar-hills-ut/",
+        "/service-areas/cottonwood-heights-ut/",
         "/service-areas/draper-ut/",
         "/service-areas/eagle-mountain-ut/",
         "/service-areas/herriman-ut/",
@@ -151,6 +152,7 @@
         "/service-areas/bluffdale-ut/",
         "/service-areas/cedar-fort-ut/",
         "/service-areas/cedar-hills-ut/",
+        "/service-areas/cottonwood-heights-ut/",
         "/service-areas/draper-ut/",
         "/service-areas/eagle-mountain-ut/",
         "/service-areas/herriman-ut/",
@@ -312,6 +314,7 @@
         "/service-areas/bluffdale-ut/water-damage-restoration/",
         "/service-areas/cedar-fort-ut/water-damage-restoration/",
         "/service-areas/cedar-hills-ut/water-damage-restoration/",
+        "/service-areas/cottonwood-heights-ut/water-damage-restoration/",
         "/service-areas/draper-ut/water-damage-restoration/",
         "/service-areas/eagle-mountain-ut/water-damage-restoration/",
         "/service-areas/herriman-ut/water-damage-restoration/",
@@ -319,7 +322,6 @@
         "/service-areas/lehi-ut/water-damage-restoration/",
         "/service-areas/lindon-ut/water-damage-restoration/",
         "/service-areas/orem-ut/water-damage-restoration/",
-        "/service-areas/pleasant-grove-ut/water-damage-restoration/",
         "/services/water-cleanup/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
@@ -366,14 +368,14 @@
         "/service-areas/bluffdale-ut/storm-damage-restoration/",
         "/service-areas/cedar-fort-ut/storm-damage-restoration/",
         "/service-areas/cedar-hills-ut/storm-damage-restoration/",
+        "/service-areas/cottonwood-heights-ut/storm-damage-restoration/",
         "/service-areas/draper-ut/storm-damage-restoration/",
         "/service-areas/eagle-mountain-ut/storm-damage-restoration/",
         "/service-areas/herriman-ut/storm-damage-restoration/",
         "/service-areas/highland-ut/storm-damage-restoration/",
         "/service-areas/lehi-ut/storm-damage-restoration/",
         "/service-areas/lindon-ut/storm-damage-restoration/",
-        "/service-areas/orem-ut/storm-damage-restoration/",
-        "/service-areas/pleasant-grove-ut/storm-damage-restoration/"
+        "/service-areas/orem-ut/storm-damage-restoration/"
       ]
     },
     {
@@ -416,6 +418,7 @@
         "/service-areas/bluffdale-ut/fire-damage-restoration/",
         "/service-areas/cedar-fort-ut/fire-damage-restoration/",
         "/service-areas/cedar-hills-ut/fire-damage-restoration/",
+        "/service-areas/cottonwood-heights-ut/fire-damage-restoration/",
         "/service-areas/draper-ut/fire-damage-restoration/",
         "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
         "/service-areas/herriman-ut/fire-damage-restoration/",
@@ -423,7 +426,6 @@
         "/service-areas/lehi-ut/fire-damage-restoration/",
         "/service-areas/lindon-ut/fire-damage-restoration/",
         "/service-areas/orem-ut/fire-damage-restoration/",
-        "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
         "/blog/choosing-a-restoration-company/",
         "/blog/fire-damage-restoration-process/"
       ]
@@ -469,14 +471,14 @@
         "/service-areas/bluffdale-ut/general-contracting/",
         "/service-areas/cedar-fort-ut/general-contracting/",
         "/service-areas/cedar-hills-ut/general-contracting/",
+        "/service-areas/cottonwood-heights-ut/general-contracting/",
         "/service-areas/draper-ut/general-contracting/",
         "/service-areas/eagle-mountain-ut/general-contracting/",
         "/service-areas/herriman-ut/general-contracting/",
         "/service-areas/highland-ut/general-contracting/",
         "/service-areas/lehi-ut/general-contracting/",
         "/service-areas/lindon-ut/general-contracting/",
-        "/service-areas/orem-ut/general-contracting/",
-        "/service-areas/pleasant-grove-ut/general-contracting/"
+        "/service-areas/orem-ut/general-contracting/"
       ]
     },
     {
@@ -519,14 +521,14 @@
         "/service-areas/bluffdale-ut/sewage-cleanup/",
         "/service-areas/cedar-fort-ut/sewage-cleanup/",
         "/service-areas/cedar-hills-ut/sewage-cleanup/",
+        "/service-areas/cottonwood-heights-ut/sewage-cleanup/",
         "/service-areas/draper-ut/sewage-cleanup/",
         "/service-areas/eagle-mountain-ut/sewage-cleanup/",
         "/service-areas/herriman-ut/sewage-cleanup/",
         "/service-areas/highland-ut/sewage-cleanup/",
         "/service-areas/lehi-ut/sewage-cleanup/",
         "/service-areas/lindon-ut/sewage-cleanup/",
-        "/service-areas/orem-ut/sewage-cleanup/",
-        "/service-areas/pleasant-grove-ut/sewage-cleanup/"
+        "/service-areas/orem-ut/sewage-cleanup/"
       ]
     },
     {
@@ -567,14 +569,14 @@
         "/service-areas/bluffdale-ut/emergency-board-up-tarping/",
         "/service-areas/cedar-fort-ut/emergency-board-up-tarping/",
         "/service-areas/cedar-hills-ut/emergency-board-up-tarping/",
+        "/service-areas/cottonwood-heights-ut/emergency-board-up-tarping/",
         "/service-areas/draper-ut/emergency-board-up-tarping/",
         "/service-areas/eagle-mountain-ut/emergency-board-up-tarping/",
         "/service-areas/herriman-ut/emergency-board-up-tarping/",
         "/service-areas/highland-ut/emergency-board-up-tarping/",
         "/service-areas/lehi-ut/emergency-board-up-tarping/",
         "/service-areas/lindon-ut/emergency-board-up-tarping/",
-        "/service-areas/orem-ut/emergency-board-up-tarping/",
-        "/service-areas/pleasant-grove-ut/emergency-board-up-tarping/"
+        "/service-areas/orem-ut/emergency-board-up-tarping/"
       ]
     },
     {
@@ -617,6 +619,7 @@
         "/service-areas/bluffdale-ut/water-cleanup/",
         "/service-areas/cedar-fort-ut/water-cleanup/",
         "/service-areas/cedar-hills-ut/water-cleanup/",
+        "/service-areas/cottonwood-heights-ut/water-cleanup/",
         "/service-areas/draper-ut/water-cleanup/",
         "/service-areas/eagle-mountain-ut/water-cleanup/",
         "/service-areas/herriman-ut/water-cleanup/",
@@ -624,7 +627,6 @@
         "/service-areas/lehi-ut/water-cleanup/",
         "/service-areas/lindon-ut/water-cleanup/",
         "/service-areas/orem-ut/water-cleanup/",
-        "/service-areas/pleasant-grove-ut/water-cleanup/",
         "/services/water-damage-restoration/"
       ]
     },
@@ -668,6 +670,7 @@
         "/service-areas/bluffdale-ut/mold-remediation/",
         "/service-areas/cedar-fort-ut/mold-remediation/",
         "/service-areas/cedar-hills-ut/mold-remediation/",
+        "/service-areas/cottonwood-heights-ut/mold-remediation/",
         "/service-areas/draper-ut/mold-remediation/",
         "/service-areas/eagle-mountain-ut/mold-remediation/",
         "/service-areas/herriman-ut/mold-remediation/",
@@ -675,7 +678,6 @@
         "/service-areas/lehi-ut/mold-remediation/",
         "/service-areas/lindon-ut/mold-remediation/",
         "/service-areas/orem-ut/mold-remediation/",
-        "/service-areas/pleasant-grove-ut/mold-remediation/",
         "/blog/choosing-a-restoration-company/",
         "/blog/how-to-test-for-mold/",
         "/blog/signs-of-hidden-mold/"
@@ -721,14 +723,14 @@
         "/service-areas/bluffdale-ut/biohazard-cleanup/",
         "/service-areas/cedar-fort-ut/biohazard-cleanup/",
         "/service-areas/cedar-hills-ut/biohazard-cleanup/",
+        "/service-areas/cottonwood-heights-ut/biohazard-cleanup/",
         "/service-areas/draper-ut/biohazard-cleanup/",
         "/service-areas/eagle-mountain-ut/biohazard-cleanup/",
         "/service-areas/herriman-ut/biohazard-cleanup/",
         "/service-areas/highland-ut/biohazard-cleanup/",
         "/service-areas/lehi-ut/biohazard-cleanup/",
         "/service-areas/lindon-ut/biohazard-cleanup/",
-        "/service-areas/orem-ut/biohazard-cleanup/",
-        "/service-areas/pleasant-grove-ut/biohazard-cleanup/"
+        "/service-areas/orem-ut/biohazard-cleanup/"
       ]
     },
     {
@@ -765,14 +767,14 @@
         "/service-areas/bluffdale-ut/contents-restoration-storage/",
         "/service-areas/cedar-fort-ut/contents-restoration-storage/",
         "/service-areas/cedar-hills-ut/contents-restoration-storage/",
+        "/service-areas/cottonwood-heights-ut/contents-restoration-storage/",
         "/service-areas/draper-ut/contents-restoration-storage/",
         "/service-areas/eagle-mountain-ut/contents-restoration-storage/",
         "/service-areas/herriman-ut/contents-restoration-storage/",
         "/service-areas/highland-ut/contents-restoration-storage/",
         "/service-areas/lehi-ut/contents-restoration-storage/",
         "/service-areas/lindon-ut/contents-restoration-storage/",
-        "/service-areas/orem-ut/contents-restoration-storage/",
-        "/service-areas/pleasant-grove-ut/contents-restoration-storage/"
+        "/service-areas/orem-ut/contents-restoration-storage/"
       ]
     },
     {
@@ -815,14 +817,14 @@
         "/service-areas/bluffdale-ut/flood-equipment-rental/",
         "/service-areas/cedar-fort-ut/flood-equipment-rental/",
         "/service-areas/cedar-hills-ut/flood-equipment-rental/",
+        "/service-areas/cottonwood-heights-ut/flood-equipment-rental/",
         "/service-areas/draper-ut/flood-equipment-rental/",
         "/service-areas/eagle-mountain-ut/flood-equipment-rental/",
         "/service-areas/herriman-ut/flood-equipment-rental/",
         "/service-areas/highland-ut/flood-equipment-rental/",
         "/service-areas/lehi-ut/flood-equipment-rental/",
         "/service-areas/lindon-ut/flood-equipment-rental/",
-        "/service-areas/orem-ut/flood-equipment-rental/",
-        "/service-areas/pleasant-grove-ut/flood-equipment-rental/"
+        "/service-areas/orem-ut/flood-equipment-rental/"
       ]
     },
     {
@@ -1783,6 +1785,54 @@
         "/service-areas/alpine-ut/",
         "/service-areas/bluffdale-ut/",
         "/service-areas/cedar-hills-ut/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cottonwood-heights-ut/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Cottonwood Heights, UT | FIX Restoration",
+      "h1": "Restoration Services in Cottonwood Heights",
+      "meta_description": "Serving Cottonwood Heights, UT with water, fire, mold, and storm damage restoration. Experienced team. Call (801) 930-9750.",
+      "primary_keyword": "restoration services cottonwood heights",
+      "secondary_keywords": [
+        "cottonwood heights restoration company",
+        "damage restoration cottonwood heights",
+        "cottonwood heights disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/cottonwood-heights-ut/fire-damage-restoration/",
+        "/service-areas/cottonwood-heights-ut/mold-remediation/",
+        "/service-areas/cottonwood-heights-ut/water-damage-restoration/",
+        "/service-areas/cottonwood-heights-ut/sewage-cleanup/",
+        "/service-areas/cottonwood-heights-ut/storm-damage-restoration/",
+        "/service-areas/cottonwood-heights-ut/water-cleanup/",
+        "/service-areas/cottonwood-heights-ut/biohazard-cleanup/",
+        "/service-areas/cottonwood-heights-ut/general-contracting/",
+        "/service-areas/cottonwood-heights-ut/emergency-board-up-tarping/",
+        "/service-areas/cottonwood-heights-ut/contents-restoration-storage/",
+        "/service-areas/cottonwood-heights-ut/flood-equipment-rental/",
+        "/service-areas/alpine-ut/",
+        "/service-areas/bluffdale-ut/",
+        "/service-areas/cedar-fort-ut/"
       ]
     },
     {
@@ -11320,6 +11370,483 @@
         "/service-areas/cedar-fort-ut/",
         "/service-areas/cedar-fort-ut/fire-damage-restoration/",
         "/service-areas/cedar-fort-ut/mold-remediation/",
+        "/service-areas/alpine-ut/flood-equipment-rental/",
+        "/service-areas/bluffdale-ut/flood-equipment-rental/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cottonwood-heights-ut/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Cottonwood Heights, UT | FIX Restoration",
+      "h1": "Water Damage Restoration in Cottonwood Heights",
+      "meta_description": "Water damage restoration in Cottonwood Heights, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "water damage restoration cottonwood heights",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/cottonwood-heights-ut/",
+        "/service-areas/cottonwood-heights-ut/fire-damage-restoration/",
+        "/service-areas/cottonwood-heights-ut/mold-remediation/",
+        "/service-areas/alpine-ut/water-damage-restoration/",
+        "/service-areas/bluffdale-ut/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cottonwood-heights-ut/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Cottonwood Heights, UT | FIX Restoration",
+      "h1": "Storm Damage Restoration in Cottonwood Heights",
+      "meta_description": "Storm damage restoration in Cottonwood Heights, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "storm damage restoration cottonwood heights",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/cottonwood-heights-ut/",
+        "/service-areas/cottonwood-heights-ut/fire-damage-restoration/",
+        "/service-areas/cottonwood-heights-ut/mold-remediation/",
+        "/service-areas/alpine-ut/storm-damage-restoration/",
+        "/service-areas/bluffdale-ut/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cottonwood-heights-ut/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Cottonwood Heights, UT | FIX Restoration",
+      "h1": "Fire Damage Restoration in Cottonwood Heights",
+      "meta_description": "Fire damage restoration in Cottonwood Heights, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "fire damage restoration cottonwood heights",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/cottonwood-heights-ut/",
+        "/service-areas/cottonwood-heights-ut/mold-remediation/",
+        "/service-areas/cottonwood-heights-ut/water-damage-restoration/",
+        "/service-areas/alpine-ut/fire-damage-restoration/",
+        "/service-areas/bluffdale-ut/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cottonwood-heights-ut/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Cottonwood Heights, UT | FIX Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Cottonwood Heights",
+      "meta_description": "Renovations, remodels and general contracting in Cottonwood Heights, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "renovations, remodels and general contracting cottonwood heights",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/cottonwood-heights-ut/",
+        "/service-areas/cottonwood-heights-ut/fire-damage-restoration/",
+        "/service-areas/cottonwood-heights-ut/mold-remediation/",
+        "/service-areas/alpine-ut/general-contracting/",
+        "/service-areas/bluffdale-ut/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cottonwood-heights-ut/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Cottonwood Heights, UT | FIX Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Cottonwood Heights",
+      "meta_description": "Sewage cleanup and sanitization in Cottonwood Heights, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "sewage cleanup and sanitization cottonwood heights",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/cottonwood-heights-ut/",
+        "/service-areas/cottonwood-heights-ut/fire-damage-restoration/",
+        "/service-areas/cottonwood-heights-ut/mold-remediation/",
+        "/service-areas/alpine-ut/sewage-cleanup/",
+        "/service-areas/bluffdale-ut/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cottonwood-heights-ut/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Board-Up and Tarping in Cottonwood Heights, UT | FIX Restoration",
+      "h1": "Board-Up and Tarping in Cottonwood Heights",
+      "meta_description": "Board-up and tarping in Cottonwood Heights, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "emergency board-up and tarping cottonwood heights",
+      "secondary_keywords": [
+        "roof tarping",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/cottonwood-heights-ut/",
+        "/service-areas/cottonwood-heights-ut/fire-damage-restoration/",
+        "/service-areas/cottonwood-heights-ut/mold-remediation/",
+        "/service-areas/alpine-ut/emergency-board-up-tarping/",
+        "/service-areas/bluffdale-ut/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cottonwood-heights-ut/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in Cottonwood Heights, UT | FIX Restoration",
+      "h1": "Water Cleanup in Cottonwood Heights",
+      "meta_description": "Water cleanup in Cottonwood Heights, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "emergency water cleanup cottonwood heights",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/cottonwood-heights-ut/",
+        "/service-areas/cottonwood-heights-ut/fire-damage-restoration/",
+        "/service-areas/cottonwood-heights-ut/mold-remediation/",
+        "/service-areas/alpine-ut/water-cleanup/",
+        "/service-areas/bluffdale-ut/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cottonwood-heights-ut/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Cottonwood Heights, UT | FIX Restoration",
+      "h1": "Mold Remediation in Cottonwood Heights",
+      "meta_description": "Mold remediation in Cottonwood Heights, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "mold remediation cottonwood heights",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/cottonwood-heights-ut/",
+        "/service-areas/cottonwood-heights-ut/fire-damage-restoration/",
+        "/service-areas/cottonwood-heights-ut/water-damage-restoration/",
+        "/service-areas/alpine-ut/mold-remediation/",
+        "/service-areas/bluffdale-ut/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cottonwood-heights-ut/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Cottonwood Heights, UT | FIX Restoration",
+      "h1": "Biohazard Cleanup in Cottonwood Heights",
+      "meta_description": "Biohazard cleanup in Cottonwood Heights, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "biohazard cleanup cottonwood heights",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/cottonwood-heights-ut/",
+        "/service-areas/cottonwood-heights-ut/fire-damage-restoration/",
+        "/service-areas/cottonwood-heights-ut/mold-remediation/",
+        "/service-areas/alpine-ut/biohazard-cleanup/",
+        "/service-areas/bluffdale-ut/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cottonwood-heights-ut/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Cottonwood Heights, UT | FIX Restoration",
+      "h1": "Contents Restoration & Storage in Cottonwood Heights",
+      "meta_description": "Contents restoration & storage in Cottonwood Heights, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "contents restoration & storage cottonwood heights",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/cottonwood-heights-ut/",
+        "/service-areas/cottonwood-heights-ut/fire-damage-restoration/",
+        "/service-areas/cottonwood-heights-ut/mold-remediation/",
+        "/service-areas/alpine-ut/contents-restoration-storage/",
+        "/service-areas/bluffdale-ut/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cottonwood-heights-ut/flood-equipment-rental/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood & Drying Equipment Rental in Cottonwood Heights, UT | FIX Restoration",
+      "h1": "Flood & Drying Equipment Rental in Cottonwood Heights",
+      "meta_description": "Flood & drying equipment rental in Cottonwood Heights, UT. Insurance billing accepted. Call (801) 930-9750.",
+      "primary_keyword": "flood & drying equipment rental cottonwood heights",
+      "secondary_keywords": [
+        "water damage equipment rental",
+        "dehumidifier rental",
+        "air mover rental",
+        "carpet drying fan rental",
+        "flood pump rental"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-equipment-rental/",
+        "/service-areas/cottonwood-heights-ut/",
+        "/service-areas/cottonwood-heights-ut/fire-damage-restoration/",
+        "/service-areas/cottonwood-heights-ut/mold-remediation/",
         "/service-areas/alpine-ut/flood-equipment-rental/",
         "/service-areas/bluffdale-ut/flood-equipment-rental/",
         "/contact/"

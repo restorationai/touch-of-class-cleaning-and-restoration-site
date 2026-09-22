@@ -403,6 +403,11 @@
       "city": "Royal Kunia",
       "state": "HI",
       "slug": "royal-kunia-hi"
+    },
+    {
+      "city": "Mililani Mauka",
+      "state": "HI",
+      "slug": "mililani-mauka-hi"
     }
   ],
   "brand": {

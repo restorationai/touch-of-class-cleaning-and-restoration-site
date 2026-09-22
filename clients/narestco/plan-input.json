@@ -454,6 +454,11 @@
       "city": "Burien",
       "state": "WA",
       "slug": "burien-wa"
+    },
+    {
+      "city": "Lake Holm",
+      "state": "WA",
+      "slug": "lake-holm-wa"
     }
   ],
   "brand": {

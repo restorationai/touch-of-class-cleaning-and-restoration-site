@@ -29,6 +29,7 @@
     "/service-areas/bell-acres-pa/",
     "/service-areas/butler-pa/",
     "/service-areas/economy-pa/",
+    "/service-areas/ellwood-city-pa/",
     "/service-areas/evans-city-pa/",
     "/service-areas/franklin-park-pa/",
     "/service-areas/gibsonia-pa/",
@@ -73,6 +74,7 @@
     "/service-areas/bell-acres-pa/",
     "/service-areas/butler-pa/",
     "/service-areas/economy-pa/",
+    "/service-areas/ellwood-city-pa/",
     "/service-areas/evans-city-pa/",
     "/service-areas/franklin-park-pa/",
     "/service-areas/gibsonia-pa/",
@@ -122,11 +124,11 @@
     "/service-areas/bell-acres-pa/water-damage-restoration/",
     "/service-areas/butler-pa/water-damage-restoration/",
     "/service-areas/economy-pa/water-damage-restoration/",
+    "/service-areas/ellwood-city-pa/water-damage-restoration/",
     "/service-areas/evans-city-pa/water-damage-restoration/",
     "/service-areas/franklin-park-pa/water-damage-restoration/",
     "/service-areas/gibsonia-pa/water-damage-restoration/",
     "/service-areas/glenshaw-pa/water-damage-restoration/",
-    "/service-areas/mars-pa/water-damage-restoration/",
     "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -142,11 +144,11 @@
     "/service-areas/bell-acres-pa/flood-damage-restoration/",
     "/service-areas/butler-pa/flood-damage-restoration/",
     "/service-areas/economy-pa/flood-damage-restoration/",
+    "/service-areas/ellwood-city-pa/flood-damage-restoration/",
     "/service-areas/evans-city-pa/flood-damage-restoration/",
     "/service-areas/franklin-park-pa/flood-damage-restoration/",
     "/service-areas/gibsonia-pa/flood-damage-restoration/",
-    "/service-areas/glenshaw-pa/flood-damage-restoration/",
-    "/service-areas/mars-pa/flood-damage-restoration/"
+    "/service-areas/glenshaw-pa/flood-damage-restoration/"
   ],
   "/services/basement-flooding-cleanup/": [
     "/services/",
@@ -158,11 +160,11 @@
     "/service-areas/bell-acres-pa/basement-flooding-cleanup/",
     "/service-areas/butler-pa/basement-flooding-cleanup/",
     "/service-areas/economy-pa/basement-flooding-cleanup/",
+    "/service-areas/ellwood-city-pa/basement-flooding-cleanup/",
     "/service-areas/evans-city-pa/basement-flooding-cleanup/",
     "/service-areas/franklin-park-pa/basement-flooding-cleanup/",
     "/service-areas/gibsonia-pa/basement-flooding-cleanup/",
-    "/service-areas/glenshaw-pa/basement-flooding-cleanup/",
-    "/service-areas/mars-pa/basement-flooding-cleanup/"
+    "/service-areas/glenshaw-pa/basement-flooding-cleanup/"
   ],
   "/services/sewage-cleanup/": [
     "/services/",
@@ -174,11 +176,11 @@
     "/service-areas/bell-acres-pa/sewage-cleanup/",
     "/service-areas/butler-pa/sewage-cleanup/",
     "/service-areas/economy-pa/sewage-cleanup/",
+    "/service-areas/ellwood-city-pa/sewage-cleanup/",
     "/service-areas/evans-city-pa/sewage-cleanup/",
     "/service-areas/franklin-park-pa/sewage-cleanup/",
     "/service-areas/gibsonia-pa/sewage-cleanup/",
-    "/service-areas/glenshaw-pa/sewage-cleanup/",
-    "/service-areas/mars-pa/sewage-cleanup/"
+    "/service-areas/glenshaw-pa/sewage-cleanup/"
   ],
   "/services/burst-pipe-repair/": [
     "/services/",
@@ -190,11 +192,11 @@
     "/service-areas/bell-acres-pa/burst-pipe-repair/",
     "/service-areas/butler-pa/burst-pipe-repair/",
     "/service-areas/economy-pa/burst-pipe-repair/",
+    "/service-areas/ellwood-city-pa/burst-pipe-repair/",
     "/service-areas/evans-city-pa/burst-pipe-repair/",
     "/service-areas/franklin-park-pa/burst-pipe-repair/",
     "/service-areas/gibsonia-pa/burst-pipe-repair/",
-    "/service-areas/glenshaw-pa/burst-pipe-repair/",
-    "/service-areas/mars-pa/burst-pipe-repair/"
+    "/service-areas/glenshaw-pa/burst-pipe-repair/"
   ],
   "/services/frozen-pipe-restoration/": [
     "/services/",
@@ -206,11 +208,11 @@
     "/service-areas/bell-acres-pa/frozen-pipe-restoration/",
     "/service-areas/butler-pa/frozen-pipe-restoration/",
     "/service-areas/economy-pa/frozen-pipe-restoration/",
+    "/service-areas/ellwood-city-pa/frozen-pipe-restoration/",
     "/service-areas/evans-city-pa/frozen-pipe-restoration/",
     "/service-areas/franklin-park-pa/frozen-pipe-restoration/",
     "/service-areas/gibsonia-pa/frozen-pipe-restoration/",
-    "/service-areas/glenshaw-pa/frozen-pipe-restoration/",
-    "/service-areas/mars-pa/frozen-pipe-restoration/"
+    "/service-areas/glenshaw-pa/frozen-pipe-restoration/"
   ],
   "/services/storm-damage-restoration/": [
     "/services/",
@@ -222,11 +224,11 @@
     "/service-areas/bell-acres-pa/storm-damage-restoration/",
     "/service-areas/butler-pa/storm-damage-restoration/",
     "/service-areas/economy-pa/storm-damage-restoration/",
+    "/service-areas/ellwood-city-pa/storm-damage-restoration/",
     "/service-areas/evans-city-pa/storm-damage-restoration/",
     "/service-areas/franklin-park-pa/storm-damage-restoration/",
     "/service-areas/gibsonia-pa/storm-damage-restoration/",
     "/service-areas/glenshaw-pa/storm-damage-restoration/",
-    "/service-areas/mars-pa/storm-damage-restoration/",
     "/blog/storm-damage-insurance-claim-checklist/"
   ],
   "/services/fire-damage-restoration/": [
@@ -239,11 +241,11 @@
     "/service-areas/bell-acres-pa/fire-damage-restoration/",
     "/service-areas/butler-pa/fire-damage-restoration/",
     "/service-areas/economy-pa/fire-damage-restoration/",
+    "/service-areas/ellwood-city-pa/fire-damage-restoration/",
     "/service-areas/evans-city-pa/fire-damage-restoration/",
     "/service-areas/franklin-park-pa/fire-damage-restoration/",
     "/service-areas/gibsonia-pa/fire-damage-restoration/",
     "/service-areas/glenshaw-pa/fire-damage-restoration/",
-    "/service-areas/mars-pa/fire-damage-restoration/",
     "/blog/choosing-a-restoration-company/",
     "/blog/fire-damage-restoration-process/",
     "/blog/smoke-odor-removal-techniques/"
@@ -258,11 +260,11 @@
     "/service-areas/bell-acres-pa/smoke-damage-restoration/",
     "/service-areas/butler-pa/smoke-damage-restoration/",
     "/service-areas/economy-pa/smoke-damage-restoration/",
+    "/service-areas/ellwood-city-pa/smoke-damage-restoration/",
     "/service-areas/evans-city-pa/smoke-damage-restoration/",
     "/service-areas/franklin-park-pa/smoke-damage-restoration/",
     "/service-areas/gibsonia-pa/smoke-damage-restoration/",
     "/service-areas/glenshaw-pa/smoke-damage-restoration/",
-    "/service-areas/mars-pa/smoke-damage-restoration/",
     "/blog/fire-damage-restoration-process/",
     "/blog/smoke-odor-removal-techniques/"
   ],
@@ -276,11 +278,11 @@
     "/service-areas/bell-acres-pa/soot-removal/",
     "/service-areas/butler-pa/soot-removal/",
     "/service-areas/economy-pa/soot-removal/",
+    "/service-areas/ellwood-city-pa/soot-removal/",
     "/service-areas/evans-city-pa/soot-removal/",
     "/service-areas/franklin-park-pa/soot-removal/",
     "/service-areas/gibsonia-pa/soot-removal/",
-    "/service-areas/glenshaw-pa/soot-removal/",
-    "/service-areas/mars-pa/soot-removal/"
+    "/service-areas/glenshaw-pa/soot-removal/"
   ],
   "/services/odor-removal/": [
     "/services/",
@@ -292,11 +294,11 @@
     "/service-areas/bell-acres-pa/odor-removal/",
     "/service-areas/butler-pa/odor-removal/",
     "/service-areas/economy-pa/odor-removal/",
+    "/service-areas/ellwood-city-pa/odor-removal/",
     "/service-areas/evans-city-pa/odor-removal/",
     "/service-areas/franklin-park-pa/odor-removal/",
     "/service-areas/gibsonia-pa/odor-removal/",
-    "/service-areas/glenshaw-pa/odor-removal/",
-    "/service-areas/mars-pa/odor-removal/"
+    "/service-areas/glenshaw-pa/odor-removal/"
   ],
   "/services/mold-remediation/": [
     "/services/",
@@ -308,11 +310,11 @@
     "/service-areas/bell-acres-pa/mold-remediation/",
     "/service-areas/butler-pa/mold-remediation/",
     "/service-areas/economy-pa/mold-remediation/",
+    "/service-areas/ellwood-city-pa/mold-remediation/",
     "/service-areas/evans-city-pa/mold-remediation/",
     "/service-areas/franklin-park-pa/mold-remediation/",
     "/service-areas/gibsonia-pa/mold-remediation/",
     "/service-areas/glenshaw-pa/mold-remediation/",
-    "/service-areas/mars-pa/mold-remediation/",
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
     "/blog/signs-of-hidden-mold/"
@@ -327,11 +329,11 @@
     "/service-areas/bell-acres-pa/mold-inspection-testing/",
     "/service-areas/butler-pa/mold-inspection-testing/",
     "/service-areas/economy-pa/mold-inspection-testing/",
+    "/service-areas/ellwood-city-pa/mold-inspection-testing/",
     "/service-areas/evans-city-pa/mold-inspection-testing/",
     "/service-areas/franklin-park-pa/mold-inspection-testing/",
     "/service-areas/gibsonia-pa/mold-inspection-testing/",
     "/service-areas/glenshaw-pa/mold-inspection-testing/",
-    "/service-areas/mars-pa/mold-inspection-testing/",
     "/blog/how-to-test-for-mold/"
   ],
   "/services/biohazard-cleanup/": [
@@ -344,11 +346,11 @@
     "/service-areas/bell-acres-pa/biohazard-cleanup/",
     "/service-areas/butler-pa/biohazard-cleanup/",
     "/service-areas/economy-pa/biohazard-cleanup/",
+    "/service-areas/ellwood-city-pa/biohazard-cleanup/",
     "/service-areas/evans-city-pa/biohazard-cleanup/",
     "/service-areas/franklin-park-pa/biohazard-cleanup/",
     "/service-areas/gibsonia-pa/biohazard-cleanup/",
-    "/service-areas/glenshaw-pa/biohazard-cleanup/",
-    "/service-areas/mars-pa/biohazard-cleanup/"
+    "/service-areas/glenshaw-pa/biohazard-cleanup/"
   ],
   "/services/commercial-restoration/": [
     "/services/",
@@ -360,11 +362,11 @@
     "/service-areas/bell-acres-pa/commercial-restoration/",
     "/service-areas/butler-pa/commercial-restoration/",
     "/service-areas/economy-pa/commercial-restoration/",
+    "/service-areas/ellwood-city-pa/commercial-restoration/",
     "/service-areas/evans-city-pa/commercial-restoration/",
     "/service-areas/franklin-park-pa/commercial-restoration/",
     "/service-areas/gibsonia-pa/commercial-restoration/",
-    "/service-areas/glenshaw-pa/commercial-restoration/",
-    "/service-areas/mars-pa/commercial-restoration/"
+    "/service-areas/glenshaw-pa/commercial-restoration/"
   ],
   "/services/reconstruction/": [
     "/services/",
@@ -376,11 +378,11 @@
     "/service-areas/bell-acres-pa/reconstruction/",
     "/service-areas/butler-pa/reconstruction/",
     "/service-areas/economy-pa/reconstruction/",
+    "/service-areas/ellwood-city-pa/reconstruction/",
     "/service-areas/evans-city-pa/reconstruction/",
     "/service-areas/franklin-park-pa/reconstruction/",
     "/service-areas/gibsonia-pa/reconstruction/",
-    "/service-areas/glenshaw-pa/reconstruction/",
-    "/service-areas/mars-pa/reconstruction/"
+    "/service-areas/glenshaw-pa/reconstruction/"
   ],
   "/services/general-contracting/": [
     "/services/",
@@ -392,11 +394,11 @@
     "/service-areas/bell-acres-pa/general-contracting/",
     "/service-areas/butler-pa/general-contracting/",
     "/service-areas/economy-pa/general-contracting/",
+    "/service-areas/ellwood-city-pa/general-contracting/",
     "/service-areas/evans-city-pa/general-contracting/",
     "/service-areas/franklin-park-pa/general-contracting/",
     "/service-areas/gibsonia-pa/general-contracting/",
-    "/service-areas/glenshaw-pa/general-contracting/",
-    "/service-areas/mars-pa/general-contracting/"
+    "/service-areas/glenshaw-pa/general-contracting/"
   ],
   "/services/water-cleanup/": [
     "/services/",
@@ -408,11 +410,11 @@
     "/service-areas/bell-acres-pa/water-cleanup/",
     "/service-areas/butler-pa/water-cleanup/",
     "/service-areas/economy-pa/water-cleanup/",
+    "/service-areas/ellwood-city-pa/water-cleanup/",
     "/service-areas/evans-city-pa/water-cleanup/",
     "/service-areas/franklin-park-pa/water-cleanup/",
     "/service-areas/gibsonia-pa/water-cleanup/",
     "/service-areas/glenshaw-pa/water-cleanup/",
-    "/service-areas/mars-pa/water-cleanup/",
     "/services/water-damage-restoration/"
   ],
   "/service-areas/wexford-pa/": [
@@ -911,6 +913,31 @@
     "/service-areas/glenshaw-pa/frozen-pipe-restoration/",
     "/service-areas/glenshaw-pa/odor-removal/",
     "/service-areas/glenshaw-pa/soot-removal/",
+    "/service-areas/aliquippa-pa/",
+    "/service-areas/allison-park-pa/",
+    "/service-areas/baden-pa/"
+  ],
+  "/service-areas/ellwood-city-pa/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/ellwood-city-pa/fire-damage-restoration/",
+    "/service-areas/ellwood-city-pa/mold-remediation/",
+    "/service-areas/ellwood-city-pa/water-damage-restoration/",
+    "/service-areas/ellwood-city-pa/commercial-restoration/",
+    "/service-areas/ellwood-city-pa/flood-damage-restoration/",
+    "/service-areas/ellwood-city-pa/reconstruction/",
+    "/service-areas/ellwood-city-pa/sewage-cleanup/",
+    "/service-areas/ellwood-city-pa/smoke-damage-restoration/",
+    "/service-areas/ellwood-city-pa/storm-damage-restoration/",
+    "/service-areas/ellwood-city-pa/water-cleanup/",
+    "/service-areas/ellwood-city-pa/basement-flooding-cleanup/",
+    "/service-areas/ellwood-city-pa/biohazard-cleanup/",
+    "/service-areas/ellwood-city-pa/burst-pipe-repair/",
+    "/service-areas/ellwood-city-pa/general-contracting/",
+    "/service-areas/ellwood-city-pa/mold-inspection-testing/",
+    "/service-areas/ellwood-city-pa/frozen-pipe-restoration/",
+    "/service-areas/ellwood-city-pa/odor-removal/",
+    "/service-areas/ellwood-city-pa/soot-removal/",
     "/service-areas/aliquippa-pa/",
     "/service-areas/allison-park-pa/",
     "/service-areas/baden-pa/"
@@ -4151,6 +4178,168 @@
     "/service-areas/glenshaw-pa/",
     "/service-areas/glenshaw-pa/fire-damage-restoration/",
     "/service-areas/glenshaw-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/water-cleanup/",
+    "/service-areas/allison-park-pa/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/ellwood-city-pa/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/ellwood-city-pa/",
+    "/service-areas/ellwood-city-pa/fire-damage-restoration/",
+    "/service-areas/ellwood-city-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/water-damage-restoration/",
+    "/service-areas/allison-park-pa/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/ellwood-city-pa/flood-damage-restoration/": [
+    "/services/flood-damage-restoration/",
+    "/service-areas/ellwood-city-pa/",
+    "/service-areas/ellwood-city-pa/fire-damage-restoration/",
+    "/service-areas/ellwood-city-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/flood-damage-restoration/",
+    "/service-areas/allison-park-pa/flood-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/ellwood-city-pa/basement-flooding-cleanup/": [
+    "/services/basement-flooding-cleanup/",
+    "/service-areas/ellwood-city-pa/",
+    "/service-areas/ellwood-city-pa/fire-damage-restoration/",
+    "/service-areas/ellwood-city-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/basement-flooding-cleanup/",
+    "/service-areas/allison-park-pa/basement-flooding-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/ellwood-city-pa/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/ellwood-city-pa/",
+    "/service-areas/ellwood-city-pa/fire-damage-restoration/",
+    "/service-areas/ellwood-city-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/sewage-cleanup/",
+    "/service-areas/allison-park-pa/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/ellwood-city-pa/burst-pipe-repair/": [
+    "/services/burst-pipe-repair/",
+    "/service-areas/ellwood-city-pa/",
+    "/service-areas/ellwood-city-pa/fire-damage-restoration/",
+    "/service-areas/ellwood-city-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/burst-pipe-repair/",
+    "/service-areas/allison-park-pa/burst-pipe-repair/",
+    "/contact/"
+  ],
+  "/service-areas/ellwood-city-pa/frozen-pipe-restoration/": [
+    "/services/frozen-pipe-restoration/",
+    "/service-areas/ellwood-city-pa/",
+    "/service-areas/ellwood-city-pa/fire-damage-restoration/",
+    "/service-areas/ellwood-city-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/frozen-pipe-restoration/",
+    "/service-areas/allison-park-pa/frozen-pipe-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/ellwood-city-pa/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/ellwood-city-pa/",
+    "/service-areas/ellwood-city-pa/fire-damage-restoration/",
+    "/service-areas/ellwood-city-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/storm-damage-restoration/",
+    "/service-areas/allison-park-pa/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/ellwood-city-pa/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/ellwood-city-pa/",
+    "/service-areas/ellwood-city-pa/mold-remediation/",
+    "/service-areas/ellwood-city-pa/water-damage-restoration/",
+    "/service-areas/aliquippa-pa/fire-damage-restoration/",
+    "/service-areas/allison-park-pa/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/ellwood-city-pa/smoke-damage-restoration/": [
+    "/services/smoke-damage-restoration/",
+    "/service-areas/ellwood-city-pa/",
+    "/service-areas/ellwood-city-pa/fire-damage-restoration/",
+    "/service-areas/ellwood-city-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/smoke-damage-restoration/",
+    "/service-areas/allison-park-pa/smoke-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/ellwood-city-pa/soot-removal/": [
+    "/services/soot-removal/",
+    "/service-areas/ellwood-city-pa/",
+    "/service-areas/ellwood-city-pa/fire-damage-restoration/",
+    "/service-areas/ellwood-city-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/soot-removal/",
+    "/service-areas/allison-park-pa/soot-removal/",
+    "/contact/"
+  ],
+  "/service-areas/ellwood-city-pa/odor-removal/": [
+    "/services/odor-removal/",
+    "/service-areas/ellwood-city-pa/",
+    "/service-areas/ellwood-city-pa/fire-damage-restoration/",
+    "/service-areas/ellwood-city-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/odor-removal/",
+    "/service-areas/allison-park-pa/odor-removal/",
+    "/contact/"
+  ],
+  "/service-areas/ellwood-city-pa/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/ellwood-city-pa/",
+    "/service-areas/ellwood-city-pa/fire-damage-restoration/",
+    "/service-areas/ellwood-city-pa/water-damage-restoration/",
+    "/service-areas/aliquippa-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/ellwood-city-pa/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/ellwood-city-pa/",
+    "/service-areas/ellwood-city-pa/fire-damage-restoration/",
+    "/service-areas/ellwood-city-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/mold-inspection-testing/",
+    "/service-areas/allison-park-pa/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/ellwood-city-pa/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/ellwood-city-pa/",
+    "/service-areas/ellwood-city-pa/fire-damage-restoration/",
+    "/service-areas/ellwood-city-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/biohazard-cleanup/",
+    "/service-areas/allison-park-pa/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/ellwood-city-pa/commercial-restoration/": [
+    "/services/commercial-restoration/",
+    "/service-areas/ellwood-city-pa/",
+    "/service-areas/ellwood-city-pa/fire-damage-restoration/",
+    "/service-areas/ellwood-city-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/commercial-restoration/",
+    "/service-areas/allison-park-pa/commercial-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/ellwood-city-pa/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/ellwood-city-pa/",
+    "/service-areas/ellwood-city-pa/fire-damage-restoration/",
+    "/service-areas/ellwood-city-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/reconstruction/",
+    "/service-areas/allison-park-pa/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/ellwood-city-pa/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/ellwood-city-pa/",
+    "/service-areas/ellwood-city-pa/fire-damage-restoration/",
+    "/service-areas/ellwood-city-pa/mold-remediation/",
+    "/service-areas/aliquippa-pa/general-contracting/",
+    "/service-areas/allison-park-pa/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/ellwood-city-pa/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/ellwood-city-pa/",
+    "/service-areas/ellwood-city-pa/fire-damage-restoration/",
+    "/service-areas/ellwood-city-pa/mold-remediation/",
     "/service-areas/aliquippa-pa/water-cleanup/",
     "/service-areas/allison-park-pa/water-cleanup/",
     "/contact/"

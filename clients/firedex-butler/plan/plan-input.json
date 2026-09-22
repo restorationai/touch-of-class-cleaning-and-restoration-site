@@ -322,6 +322,11 @@
       "city": "Glenshaw",
       "state": "PA",
       "slug": "glenshaw-pa"
+    },
+    {
+      "city": "Ellwood City",
+      "state": "PA",
+      "slug": "ellwood-city-pa"
     }
   ],
   "brand": {

@@ -151,6 +151,11 @@
       "city": "Fontana",
       "state": "CA",
       "slug": "fontana-ca"
+    },
+    {
+      "city": "Pomona",
+      "state": "CA",
+      "slug": "pomona-ca"
     }
   ],
   "template": "restoration",

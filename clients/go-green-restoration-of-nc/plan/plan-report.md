@@ -1,20 +1,20 @@
 # Site Plan Report — Go Green Restoration of NC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-21T19:18:46.578174+00:00
+- Generated: 2026-09-22T01:47:37.972252+00:00
 - Domain: `gogreenrestorationofnc.com`
 - Services selected: 8 of 65 catalog entries
-- Service areas: 20
+- Service areas: 21
 - Cross-product enabled: True
-- Total URLs: **196**
-- Total internal links: 1548 (avg 7.9 per page)
+- Total URLs: **205**
+- Total internal links: 1619 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 152 |
-| `service-area` | 19 |
+| `service-area-service` | 160 |
+| `service-area` | 20 |
 | `service-landing` | 8 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -58,6 +58,7 @@
 - `selma-nc` — Selma, NC
 - `nashville-nc` — Nashville, NC
 - `elm-city-nc` — Elm City, NC
+- `pine-level-nc` — Pine Level, NC
 
 ## Top 10 priority pages
 

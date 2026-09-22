@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-21T19:18:44.692302+00:00",
+  "generated_at": "2026-09-22T01:47:36.047878+00:00",
   "input_summary": {
     "service_count": 9,
-    "service_area_count": 38,
+    "service_area_count": 39,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -66,6 +66,7 @@
         "/service-areas/fife-wa/",
         "/service-areas/fircrest-wa/",
         "/service-areas/fort-lewis-wa/",
+        "/service-areas/frederickson-wa/",
         "/service-areas/gig-harbor-wa/",
         "/service-areas/graham-wa/",
         "/service-areas/kent-wa/",
@@ -175,6 +176,7 @@
         "/service-areas/fife-wa/",
         "/service-areas/fircrest-wa/",
         "/service-areas/fort-lewis-wa/",
+        "/service-areas/frederickson-wa/",
         "/service-areas/gig-harbor-wa/",
         "/service-areas/graham-wa/",
         "/service-areas/kent-wa/",
@@ -2458,6 +2460,52 @@
         "/service-areas/summit-view-wa/emergency-board-up-tarping/",
         "/service-areas/summit-view-wa/asbestos-abatement/",
         "/service-areas/summit-view-wa/contents-restoration-storage/",
+        "/service-areas/anderson-island-wa/",
+        "/service-areas/auburn-wa/",
+        "/service-areas/bellevue-wa/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/frederickson-wa/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Frederickson, WA | Frontline Fire & Flood",
+      "h1": "Restoration Services in Frederickson",
+      "meta_description": "Serving Frederickson, WA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (253) 200-0503.",
+      "primary_keyword": "restoration services frederickson",
+      "secondary_keywords": [
+        "frederickson restoration company",
+        "damage restoration frederickson",
+        "frederickson disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/frederickson-wa/fire-damage-restoration/",
+        "/service-areas/frederickson-wa/mold-remediation/",
+        "/service-areas/frederickson-wa/water-damage-restoration/",
+        "/service-areas/frederickson-wa/sewage-cleanup/",
+        "/service-areas/frederickson-wa/storm-damage-restoration/",
+        "/service-areas/frederickson-wa/water-cleanup/",
+        "/service-areas/frederickson-wa/emergency-board-up-tarping/",
+        "/service-areas/frederickson-wa/asbestos-abatement/",
+        "/service-areas/frederickson-wa/contents-restoration-storage/",
         "/service-areas/anderson-island-wa/",
         "/service-areas/auburn-wa/",
         "/service-areas/bellevue-wa/"
@@ -16925,6 +16973,397 @@
         "/service-areas/summit-view-wa/",
         "/service-areas/summit-view-wa/fire-damage-restoration/",
         "/service-areas/summit-view-wa/mold-remediation/",
+        "/service-areas/anderson-island-wa/water-cleanup/",
+        "/service-areas/auburn-wa/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/frederickson-wa/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Frederickson, WA | Frontline Fire & Flood",
+      "h1": "Water Damage Restoration in Frederickson",
+      "meta_description": "24/7 water damage restoration in Frederickson, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
+      "primary_keyword": "water damage restoration frederickson",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/frederickson-wa/",
+        "/service-areas/frederickson-wa/fire-damage-restoration/",
+        "/service-areas/frederickson-wa/mold-remediation/",
+        "/service-areas/anderson-island-wa/water-damage-restoration/",
+        "/service-areas/auburn-wa/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/frederickson-wa/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Frederickson, WA | Frontline Fire & Flood",
+      "h1": "Fire Damage Restoration in Frederickson",
+      "meta_description": "24/7 fire damage restoration in Frederickson, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
+      "primary_keyword": "fire damage restoration frederickson",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/frederickson-wa/",
+        "/service-areas/frederickson-wa/mold-remediation/",
+        "/service-areas/frederickson-wa/water-damage-restoration/",
+        "/service-areas/anderson-island-wa/fire-damage-restoration/",
+        "/service-areas/auburn-wa/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/frederickson-wa/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Frederickson, WA | Frontline Fire & Flood",
+      "h1": "Mold Remediation in Frederickson",
+      "meta_description": "24/7 mold remediation in Frederickson, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
+      "primary_keyword": "mold remediation frederickson",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/frederickson-wa/",
+        "/service-areas/frederickson-wa/fire-damage-restoration/",
+        "/service-areas/frederickson-wa/water-damage-restoration/",
+        "/service-areas/anderson-island-wa/mold-remediation/",
+        "/service-areas/auburn-wa/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/frederickson-wa/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Frederickson, WA | Frontline Fire & Flood",
+      "h1": "Storm Damage Restoration in Frederickson",
+      "meta_description": "24/7 storm damage restoration in Frederickson, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
+      "primary_keyword": "storm damage restoration frederickson",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/frederickson-wa/",
+        "/service-areas/frederickson-wa/fire-damage-restoration/",
+        "/service-areas/frederickson-wa/mold-remediation/",
+        "/service-areas/anderson-island-wa/storm-damage-restoration/",
+        "/service-areas/auburn-wa/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/frederickson-wa/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Frederickson, WA | Frontline Fire & Flood",
+      "h1": "Sewage Cleanup and Sanitization in Frederickson",
+      "meta_description": "24/7 sewage cleanup and sanitization in Frederickson, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
+      "primary_keyword": "sewage cleanup and sanitization frederickson",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/frederickson-wa/",
+        "/service-areas/frederickson-wa/fire-damage-restoration/",
+        "/service-areas/frederickson-wa/mold-remediation/",
+        "/service-areas/anderson-island-wa/sewage-cleanup/",
+        "/service-areas/auburn-wa/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/frederickson-wa/asbestos-abatement/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Asbestos Abatement in Frederickson, WA | Frontline Fire & Flood",
+      "h1": "Asbestos Abatement in Frederickson",
+      "meta_description": "24/7 asbestos abatement in Frederickson, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
+      "primary_keyword": "asbestos abatement frederickson",
+      "secondary_keywords": [
+        "asbestos removal",
+        "asbestos testing",
+        "asbestos remediation",
+        "popcorn ceiling asbestos removal",
+        "asbestos inspection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/asbestos-abatement/",
+        "/service-areas/frederickson-wa/",
+        "/service-areas/frederickson-wa/fire-damage-restoration/",
+        "/service-areas/frederickson-wa/mold-remediation/",
+        "/service-areas/anderson-island-wa/asbestos-abatement/",
+        "/service-areas/auburn-wa/asbestos-abatement/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/frederickson-wa/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Frederickson, WA | Frontline Fire & Flood",
+      "h1": "Emergency Board-Up and Tarping in Frederickson",
+      "meta_description": "24/7 emergency board-up and tarping in Frederickson, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
+      "primary_keyword": "emergency board-up and tarping frederickson",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/frederickson-wa/",
+        "/service-areas/frederickson-wa/fire-damage-restoration/",
+        "/service-areas/frederickson-wa/mold-remediation/",
+        "/service-areas/anderson-island-wa/emergency-board-up-tarping/",
+        "/service-areas/auburn-wa/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/frederickson-wa/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Frederickson, WA | Frontline Fire & Flood",
+      "h1": "Contents Restoration & Storage in Frederickson",
+      "meta_description": "24/7 contents restoration & storage in Frederickson, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
+      "primary_keyword": "contents restoration & storage frederickson",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/frederickson-wa/",
+        "/service-areas/frederickson-wa/fire-damage-restoration/",
+        "/service-areas/frederickson-wa/mold-remediation/",
+        "/service-areas/anderson-island-wa/contents-restoration-storage/",
+        "/service-areas/auburn-wa/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/frederickson-wa/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Frederickson, WA | Frontline Fire & Flood",
+      "h1": "Emergency Water Cleanup in Frederickson",
+      "meta_description": "24/7 emergency water cleanup in Frederickson, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
+      "primary_keyword": "emergency water cleanup frederickson",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/frederickson-wa/",
+        "/service-areas/frederickson-wa/fire-damage-restoration/",
+        "/service-areas/frederickson-wa/mold-remediation/",
         "/service-areas/anderson-island-wa/water-cleanup/",
         "/service-areas/auburn-wa/water-cleanup/",
         "/contact/"

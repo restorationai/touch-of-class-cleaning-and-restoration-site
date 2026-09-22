@@ -125,6 +125,11 @@
       "city": "Nelson",
       "state": "NV",
       "slug": "nelson-nv"
+    },
+    {
+      "city": "Indian Springs",
+      "state": "NV",
+      "slug": "indian-springs-nv"
     }
   ],
   "template": "restoration",

@@ -109,6 +109,11 @@
       "city": "McCamey",
       "state": "TX",
       "slug": "mccamey-tx"
+    },
+    {
+      "city": "Southwest Sandhill",
+      "state": "TX",
+      "slug": "southwest-sandhill-tx"
     }
   ],
   "template": "restoration",

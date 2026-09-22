@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-21T19:18:58.823422+00:00",
+  "generated_at": "2026-09-22T01:47:49.677895+00:00",
   "input_summary": {
     "service_count": 23,
-    "service_area_count": 26,
+    "service_area_count": 27,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -79,6 +79,7 @@
         "/service-areas/gig-harbor-wa/",
         "/service-areas/kent-wa/",
         "/service-areas/kirkland-wa/",
+        "/service-areas/lake-holm-wa/",
         "/service-areas/lakeland-north-wa/",
         "/service-areas/lakeland-south-wa/",
         "/service-areas/milton-wa/",
@@ -190,6 +191,7 @@
         "/service-areas/gig-harbor-wa/",
         "/service-areas/kent-wa/",
         "/service-areas/kirkland-wa/",
+        "/service-areas/lake-holm-wa/",
         "/service-areas/lakeland-north-wa/",
         "/service-areas/lakeland-south-wa/",
         "/service-areas/milton-wa/",
@@ -2977,6 +2979,66 @@
         "/service-areas/burien-wa/crime-scene-cleanup/",
         "/service-areas/burien-wa/hoarding-cleanup/",
         "/service-areas/burien-wa/unattended-death-cleanup/",
+        "/service-areas/algona-wa/",
+        "/service-areas/auburn-wa/",
+        "/service-areas/bellevue-wa/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-holm-wa/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Lake Holm, WA | National Restoration Construction",
+      "h1": "Restoration Services in Lake Holm",
+      "meta_description": "Serving Lake Holm, WA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (206) 883-0333.",
+      "primary_keyword": "restoration services lake holm",
+      "secondary_keywords": [
+        "lake holm restoration company",
+        "damage restoration lake holm",
+        "lake holm disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/lake-holm-wa/fire-damage-restoration/",
+        "/service-areas/lake-holm-wa/mold-remediation/",
+        "/service-areas/lake-holm-wa/water-damage-restoration/",
+        "/service-areas/lake-holm-wa/flood-damage-restoration/",
+        "/service-areas/lake-holm-wa/reconstruction/",
+        "/service-areas/lake-holm-wa/sewage-cleanup/",
+        "/service-areas/lake-holm-wa/smoke-damage-restoration/",
+        "/service-areas/lake-holm-wa/storm-damage-restoration/",
+        "/service-areas/lake-holm-wa/water-cleanup/",
+        "/service-areas/lake-holm-wa/basement-flooding-cleanup/",
+        "/service-areas/lake-holm-wa/biohazard-cleanup/",
+        "/service-areas/lake-holm-wa/burst-pipe-repair/",
+        "/service-areas/lake-holm-wa/general-contracting/",
+        "/service-areas/lake-holm-wa/mold-inspection-testing/",
+        "/service-areas/lake-holm-wa/frozen-pipe-restoration/",
+        "/service-areas/lake-holm-wa/odor-removal/",
+        "/service-areas/lake-holm-wa/roof-leak-repair/",
+        "/service-areas/lake-holm-wa/soot-removal/",
+        "/service-areas/lake-holm-wa/trauma-scene-cleanup/",
+        "/service-areas/lake-holm-wa/appliance-leak-cleanup/",
+        "/service-areas/lake-holm-wa/crime-scene-cleanup/",
+        "/service-areas/lake-holm-wa/hoarding-cleanup/",
+        "/service-areas/lake-holm-wa/unattended-death-cleanup/",
         "/service-areas/algona-wa/",
         "/service-areas/auburn-wa/",
         "/service-areas/bellevue-wa/"
@@ -28327,6 +28389,1020 @@
         "/service-areas/burien-wa/",
         "/service-areas/burien-wa/fire-damage-restoration/",
         "/service-areas/burien-wa/mold-remediation/",
+        "/service-areas/algona-wa/water-cleanup/",
+        "/service-areas/auburn-wa/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-holm-wa/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Lake Holm, WA | National Restoration Construction",
+      "h1": "Water Damage Restoration in Lake Holm",
+      "meta_description": "24/7 water damage restoration in Lake Holm, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "water damage restoration lake holm",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/lake-holm-wa/",
+        "/service-areas/lake-holm-wa/fire-damage-restoration/",
+        "/service-areas/lake-holm-wa/mold-remediation/",
+        "/service-areas/algona-wa/water-damage-restoration/",
+        "/service-areas/auburn-wa/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-holm-wa/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Lake Holm, WA | National Restoration Construction",
+      "h1": "Flood Damage Restoration in Lake Holm",
+      "meta_description": "24/7 flood damage restoration in Lake Holm, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "flood damage restoration lake holm",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/lake-holm-wa/",
+        "/service-areas/lake-holm-wa/fire-damage-restoration/",
+        "/service-areas/lake-holm-wa/mold-remediation/",
+        "/service-areas/algona-wa/flood-damage-restoration/",
+        "/service-areas/auburn-wa/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-holm-wa/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Lake Holm, WA | National Restoration Construction",
+      "h1": "Burst Pipe Cleanup and Repair in Lake Holm",
+      "meta_description": "24/7 burst pipe cleanup and repair in Lake Holm, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "burst pipe cleanup and repair lake holm",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/lake-holm-wa/",
+        "/service-areas/lake-holm-wa/fire-damage-restoration/",
+        "/service-areas/lake-holm-wa/mold-remediation/",
+        "/service-areas/algona-wa/burst-pipe-repair/",
+        "/service-areas/auburn-wa/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-holm-wa/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in Lake Holm, WA | National Restoration Construction",
+      "h1": "Basement Flooding Cleanup in Lake Holm",
+      "meta_description": "24/7 basement flooding cleanup in Lake Holm, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "basement flooding cleanup lake holm",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/lake-holm-wa/",
+        "/service-areas/lake-holm-wa/fire-damage-restoration/",
+        "/service-areas/lake-holm-wa/mold-remediation/",
+        "/service-areas/algona-wa/basement-flooding-cleanup/",
+        "/service-areas/auburn-wa/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-holm-wa/appliance-leak-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Appliance Leak Cleanup in Lake Holm, WA | National Restoration Construction",
+      "h1": "Appliance Leak Cleanup in Lake Holm",
+      "meta_description": "24/7 appliance leak cleanup in Lake Holm, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "appliance leak cleanup lake holm",
+      "secondary_keywords": [
+        "dishwasher leak cleanup",
+        "washing machine flood",
+        "refrigerator leak cleanup",
+        "water heater leak cleanup",
+        "ice maker line leak"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/appliance-leak-cleanup/",
+        "/service-areas/lake-holm-wa/",
+        "/service-areas/lake-holm-wa/fire-damage-restoration/",
+        "/service-areas/lake-holm-wa/mold-remediation/",
+        "/service-areas/algona-wa/appliance-leak-cleanup/",
+        "/service-areas/auburn-wa/appliance-leak-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-holm-wa/frozen-pipe-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Frozen Pipe Restoration in Lake Holm, WA | National Restoration Construction",
+      "h1": "Frozen Pipe Restoration in Lake Holm",
+      "meta_description": "24/7 frozen pipe restoration in Lake Holm, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "frozen pipe restoration lake holm",
+      "secondary_keywords": [
+        "frozen pipe damage",
+        "winter pipe burst cleanup",
+        "thawed pipe water damage",
+        "frozen pipe leak repair",
+        "cold weather pipe damage"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/frozen-pipe-restoration/",
+        "/service-areas/lake-holm-wa/",
+        "/service-areas/lake-holm-wa/fire-damage-restoration/",
+        "/service-areas/lake-holm-wa/mold-remediation/",
+        "/service-areas/algona-wa/frozen-pipe-restoration/",
+        "/service-areas/auburn-wa/frozen-pipe-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-holm-wa/roof-leak-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Roof Leak Cleanup and Repair in Lake Holm, WA | National Restoration Construction",
+      "h1": "Roof Leak Cleanup and Repair in Lake Holm",
+      "meta_description": "24/7 roof leak cleanup and repair in Lake Holm, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "roof leak cleanup and repair lake holm",
+      "secondary_keywords": [
+        "roof leak cleanup",
+        "ceiling water damage",
+        "attic water damage",
+        "roof leak restoration",
+        "interior roof leak damage"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/roof-leak-repair/",
+        "/service-areas/lake-holm-wa/",
+        "/service-areas/lake-holm-wa/fire-damage-restoration/",
+        "/service-areas/lake-holm-wa/mold-remediation/",
+        "/service-areas/algona-wa/roof-leak-repair/",
+        "/service-areas/auburn-wa/roof-leak-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-holm-wa/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Lake Holm, WA | National Restoration Construction",
+      "h1": "Sewage Cleanup and Sanitization in Lake Holm",
+      "meta_description": "24/7 sewage cleanup and sanitization in Lake Holm, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "sewage cleanup and sanitization lake holm",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/lake-holm-wa/",
+        "/service-areas/lake-holm-wa/fire-damage-restoration/",
+        "/service-areas/lake-holm-wa/mold-remediation/",
+        "/service-areas/algona-wa/sewage-cleanup/",
+        "/service-areas/auburn-wa/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-holm-wa/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Lake Holm, WA | National Restoration Construction",
+      "h1": "Fire Damage Restoration in Lake Holm",
+      "meta_description": "24/7 fire damage restoration in Lake Holm, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "fire damage restoration lake holm",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/lake-holm-wa/",
+        "/service-areas/lake-holm-wa/mold-remediation/",
+        "/service-areas/lake-holm-wa/water-damage-restoration/",
+        "/service-areas/algona-wa/fire-damage-restoration/",
+        "/service-areas/auburn-wa/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-holm-wa/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Lake Holm, WA | National Restoration Construction",
+      "h1": "Smoke Damage Restoration in Lake Holm",
+      "meta_description": "24/7 smoke damage restoration in Lake Holm, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "smoke damage restoration lake holm",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/lake-holm-wa/",
+        "/service-areas/lake-holm-wa/fire-damage-restoration/",
+        "/service-areas/lake-holm-wa/mold-remediation/",
+        "/service-areas/algona-wa/smoke-damage-restoration/",
+        "/service-areas/auburn-wa/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-holm-wa/soot-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Soot Removal in Lake Holm, WA | National Restoration Construction",
+      "h1": "Soot Removal in Lake Holm",
+      "meta_description": "24/7 soot removal in Lake Holm, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "soot removal lake holm",
+      "secondary_keywords": [
+        "soot cleaning",
+        "soot residue removal",
+        "post-fire soot cleanup",
+        "soot damage cleanup",
+        "soot wall cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/soot-removal/",
+        "/service-areas/lake-holm-wa/",
+        "/service-areas/lake-holm-wa/fire-damage-restoration/",
+        "/service-areas/lake-holm-wa/mold-remediation/",
+        "/service-areas/algona-wa/soot-removal/",
+        "/service-areas/auburn-wa/soot-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-holm-wa/odor-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Odor Removal and Deodorization in Lake Holm, WA | National Restoration Construction",
+      "h1": "Odor Removal and Deodorization in Lake Holm",
+      "meta_description": "24/7 odor removal and deodorization in Lake Holm, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "odor removal and deodorization lake holm",
+      "secondary_keywords": [
+        "smoke odor removal",
+        "ozone treatment",
+        "hydroxyl deodorization",
+        "thermal fogging",
+        "professional odor elimination"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/odor-removal/",
+        "/service-areas/lake-holm-wa/",
+        "/service-areas/lake-holm-wa/fire-damage-restoration/",
+        "/service-areas/lake-holm-wa/mold-remediation/",
+        "/service-areas/algona-wa/odor-removal/",
+        "/service-areas/auburn-wa/odor-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-holm-wa/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Lake Holm, WA | National Restoration Construction",
+      "h1": "Mold Remediation in Lake Holm",
+      "meta_description": "24/7 mold remediation in Lake Holm, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "mold remediation lake holm",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/lake-holm-wa/",
+        "/service-areas/lake-holm-wa/fire-damage-restoration/",
+        "/service-areas/lake-holm-wa/water-damage-restoration/",
+        "/service-areas/algona-wa/mold-remediation/",
+        "/service-areas/auburn-wa/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-holm-wa/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Lake Holm, WA | National Restoration Construction",
+      "h1": "Mold Inspection and Testing in Lake Holm",
+      "meta_description": "24/7 mold inspection and testing in Lake Holm, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "mold inspection and testing lake holm",
+      "secondary_keywords": [
+        "mold inspection",
+        "mold testing",
+        "indoor air quality testing",
+        "mold spore testing",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/lake-holm-wa/",
+        "/service-areas/lake-holm-wa/fire-damage-restoration/",
+        "/service-areas/lake-holm-wa/mold-remediation/",
+        "/service-areas/algona-wa/mold-inspection-testing/",
+        "/service-areas/auburn-wa/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-holm-wa/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Lake Holm, WA | National Restoration Construction",
+      "h1": "Storm Damage Restoration in Lake Holm",
+      "meta_description": "24/7 storm damage restoration in Lake Holm, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "storm damage restoration lake holm",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/lake-holm-wa/",
+        "/service-areas/lake-holm-wa/fire-damage-restoration/",
+        "/service-areas/lake-holm-wa/mold-remediation/",
+        "/service-areas/algona-wa/storm-damage-restoration/",
+        "/service-areas/auburn-wa/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-holm-wa/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Lake Holm, WA | National Restoration Construction",
+      "h1": "Biohazard Cleanup in Lake Holm",
+      "meta_description": "24/7 biohazard cleanup in Lake Holm, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "biohazard cleanup lake holm",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/lake-holm-wa/",
+        "/service-areas/lake-holm-wa/fire-damage-restoration/",
+        "/service-areas/lake-holm-wa/mold-remediation/",
+        "/service-areas/algona-wa/biohazard-cleanup/",
+        "/service-areas/auburn-wa/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-holm-wa/trauma-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Trauma Scene Cleanup in Lake Holm, WA | National Restoration Construction",
+      "h1": "Trauma Scene Cleanup in Lake Holm",
+      "meta_description": "24/7 trauma scene cleanup in Lake Holm, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "trauma scene cleanup lake holm",
+      "secondary_keywords": [
+        "trauma cleanup services",
+        "trauma scene cleaning",
+        "accident scene cleanup",
+        "crime and trauma decontamination",
+        "emergency trauma cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/trauma-scene-cleanup/",
+        "/service-areas/lake-holm-wa/",
+        "/service-areas/lake-holm-wa/fire-damage-restoration/",
+        "/service-areas/lake-holm-wa/mold-remediation/",
+        "/service-areas/algona-wa/trauma-scene-cleanup/",
+        "/service-areas/auburn-wa/trauma-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-holm-wa/crime-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crime Scene Cleanup in Lake Holm, WA | National Restoration Construction",
+      "h1": "Crime Scene Cleanup in Lake Holm",
+      "meta_description": "24/7 crime scene cleanup in Lake Holm, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "crime scene cleanup lake holm",
+      "secondary_keywords": [
+        "crime scene cleaning",
+        "forensic cleanup",
+        "post-crime cleanup",
+        "homicide cleanup",
+        "suicide scene cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crime-scene-cleanup/",
+        "/service-areas/lake-holm-wa/",
+        "/service-areas/lake-holm-wa/fire-damage-restoration/",
+        "/service-areas/lake-holm-wa/mold-remediation/",
+        "/service-areas/algona-wa/crime-scene-cleanup/",
+        "/service-areas/auburn-wa/crime-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-holm-wa/unattended-death-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Unattended Death Cleanup in Lake Holm, WA | National Restoration Construction",
+      "h1": "Unattended Death Cleanup in Lake Holm",
+      "meta_description": "24/7 unattended death cleanup in Lake Holm, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "unattended death cleanup lake holm",
+      "secondary_keywords": [
+        "decomposition cleanup",
+        "after death cleaning",
+        "deceased estate cleanup",
+        "odor removal after death",
+        "discreet death cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/unattended-death-cleanup/",
+        "/service-areas/lake-holm-wa/",
+        "/service-areas/lake-holm-wa/fire-damage-restoration/",
+        "/service-areas/lake-holm-wa/mold-remediation/",
+        "/service-areas/algona-wa/unattended-death-cleanup/",
+        "/service-areas/auburn-wa/unattended-death-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-holm-wa/hoarding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Hoarding Cleanup in Lake Holm, WA | National Restoration Construction",
+      "h1": "Hoarding Cleanup in Lake Holm",
+      "meta_description": "24/7 hoarding cleanup in Lake Holm, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "hoarding cleanup lake holm",
+      "secondary_keywords": [
+        "hoarder cleanup",
+        "hoarding cleaning services",
+        "hoarding remediation",
+        "hoarder home cleaning",
+        "gross filth cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/hoarding-cleanup/",
+        "/service-areas/lake-holm-wa/",
+        "/service-areas/lake-holm-wa/fire-damage-restoration/",
+        "/service-areas/lake-holm-wa/mold-remediation/",
+        "/service-areas/algona-wa/hoarding-cleanup/",
+        "/service-areas/auburn-wa/hoarding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-holm-wa/reconstruction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Reconstruction Services in Lake Holm, WA | National Restoration Construction",
+      "h1": "Reconstruction Services in Lake Holm",
+      "meta_description": "24/7 reconstruction services in Lake Holm, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "reconstruction services lake holm",
+      "secondary_keywords": [
+        "post-damage reconstruction",
+        "rebuild services",
+        "structural reconstruction",
+        "post-disaster rebuilding",
+        "fire damage reconstruction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/reconstruction/",
+        "/service-areas/lake-holm-wa/",
+        "/service-areas/lake-holm-wa/fire-damage-restoration/",
+        "/service-areas/lake-holm-wa/mold-remediation/",
+        "/service-areas/algona-wa/reconstruction/",
+        "/service-areas/auburn-wa/reconstruction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-holm-wa/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Lake Holm, WA | National Restoration Construction",
+      "h1": "Renovations, Remodels and General Contracting in Lake Holm",
+      "meta_description": "24/7 renovations, remodels and general contracting in Lake Holm, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "renovations, remodels and general contracting lake holm",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/lake-holm-wa/",
+        "/service-areas/lake-holm-wa/fire-damage-restoration/",
+        "/service-areas/lake-holm-wa/mold-remediation/",
+        "/service-areas/algona-wa/general-contracting/",
+        "/service-areas/auburn-wa/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lake-holm-wa/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Lake Holm, WA | National Restoration Construction",
+      "h1": "Emergency Water Cleanup in Lake Holm",
+      "meta_description": "24/7 emergency water cleanup in Lake Holm, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water cleanup lake holm",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/lake-holm-wa/",
+        "/service-areas/lake-holm-wa/fire-damage-restoration/",
+        "/service-areas/lake-holm-wa/mold-remediation/",
         "/service-areas/algona-wa/water-cleanup/",
         "/service-areas/auburn-wa/water-cleanup/",
         "/contact/"

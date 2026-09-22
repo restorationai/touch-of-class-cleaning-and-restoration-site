@@ -1,21 +1,21 @@
 # Site Plan Report — All Pro Plumbing Heating and Air
 
 - Template: `plumbing` v0.1.0
-- Generated: 2026-09-21T19:18:22.338405+00:00
+- Generated: 2026-09-22T01:47:14.546019+00:00
 - Domain: `allproplumbingheatingandair.com`
 - Services selected: 22 of 22 catalog entries
-- Service areas: 19
+- Service areas: 20
 - Cross-product enabled: True
-- Total URLs: **457**
-- Total internal links: 3731 (avg 8.2 per page)
+- Total URLs: **480**
+- Total internal links: 3914 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 396 |
+| `service-area-service` | 418 |
 | `service-landing` | 22 |
-| `service-area` | 18 |
+| `service-area` | 19 |
 | `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -71,6 +71,7 @@
 - `keene-ca` — Keene, CA
 - `wasco-ca` — Wasco, CA
 - `valley-acres-ca` — Valley Acres, CA
+- `woody-ca` — Woody, CA
 
 ## Top 10 priority pages
 

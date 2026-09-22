@@ -21,6 +21,7 @@
     "/service-areas/framingham-ma/",
     "/service-areas/hopkinton-ma/",
     "/service-areas/hudson-ma/",
+    "/service-areas/leominster-ma/",
     "/service-areas/marlborough-ma/",
     "/service-areas/milford-ma/",
     "/service-areas/natick-ma/",
@@ -61,6 +62,7 @@
     "/service-areas/framingham-ma/",
     "/service-areas/hopkinton-ma/",
     "/service-areas/hudson-ma/",
+    "/service-areas/leominster-ma/",
     "/service-areas/marlborough-ma/",
     "/service-areas/milford-ma/",
     "/service-areas/natick-ma/",
@@ -109,12 +111,12 @@
     "/service-areas/framingham-ma/water-damage-restoration/",
     "/service-areas/hopkinton-ma/water-damage-restoration/",
     "/service-areas/hudson-ma/water-damage-restoration/",
+    "/service-areas/leominster-ma/water-damage-restoration/",
     "/service-areas/marlborough-ma/water-damage-restoration/",
     "/service-areas/milford-ma/water-damage-restoration/",
     "/service-areas/natick-ma/water-damage-restoration/",
     "/service-areas/needham-ma/water-damage-restoration/",
     "/service-areas/newton-ma/water-damage-restoration/",
-    "/service-areas/northborough-ma/water-damage-restoration/",
     "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -129,12 +131,12 @@
     "/service-areas/framingham-ma/storm-damage-restoration/",
     "/service-areas/hopkinton-ma/storm-damage-restoration/",
     "/service-areas/hudson-ma/storm-damage-restoration/",
+    "/service-areas/leominster-ma/storm-damage-restoration/",
     "/service-areas/marlborough-ma/storm-damage-restoration/",
     "/service-areas/milford-ma/storm-damage-restoration/",
     "/service-areas/natick-ma/storm-damage-restoration/",
     "/service-areas/needham-ma/storm-damage-restoration/",
-    "/service-areas/newton-ma/storm-damage-restoration/",
-    "/service-areas/northborough-ma/storm-damage-restoration/"
+    "/service-areas/newton-ma/storm-damage-restoration/"
   ],
   "/services/fire-damage-restoration/": [
     "/services/",
@@ -145,12 +147,12 @@
     "/service-areas/framingham-ma/fire-damage-restoration/",
     "/service-areas/hopkinton-ma/fire-damage-restoration/",
     "/service-areas/hudson-ma/fire-damage-restoration/",
+    "/service-areas/leominster-ma/fire-damage-restoration/",
     "/service-areas/marlborough-ma/fire-damage-restoration/",
     "/service-areas/milford-ma/fire-damage-restoration/",
     "/service-areas/natick-ma/fire-damage-restoration/",
     "/service-areas/needham-ma/fire-damage-restoration/",
     "/service-areas/newton-ma/fire-damage-restoration/",
-    "/service-areas/northborough-ma/fire-damage-restoration/",
     "/blog/choosing-a-restoration-company/",
     "/blog/fire-damage-restoration-process/"
   ],
@@ -163,12 +165,12 @@
     "/service-areas/framingham-ma/mold-remediation/",
     "/service-areas/hopkinton-ma/mold-remediation/",
     "/service-areas/hudson-ma/mold-remediation/",
+    "/service-areas/leominster-ma/mold-remediation/",
     "/service-areas/marlborough-ma/mold-remediation/",
     "/service-areas/milford-ma/mold-remediation/",
     "/service-areas/natick-ma/mold-remediation/",
     "/service-areas/needham-ma/mold-remediation/",
     "/service-areas/newton-ma/mold-remediation/",
-    "/service-areas/northborough-ma/mold-remediation/",
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
     "/blog/signs-of-hidden-mold/"
@@ -182,12 +184,12 @@
     "/service-areas/framingham-ma/sewage-cleanup/",
     "/service-areas/hopkinton-ma/sewage-cleanup/",
     "/service-areas/hudson-ma/sewage-cleanup/",
+    "/service-areas/leominster-ma/sewage-cleanup/",
     "/service-areas/marlborough-ma/sewage-cleanup/",
     "/service-areas/milford-ma/sewage-cleanup/",
     "/service-areas/natick-ma/sewage-cleanup/",
     "/service-areas/needham-ma/sewage-cleanup/",
-    "/service-areas/newton-ma/sewage-cleanup/",
-    "/service-areas/northborough-ma/sewage-cleanup/"
+    "/service-areas/newton-ma/sewage-cleanup/"
   ],
   "/services/biohazard-cleanup/": [
     "/services/",
@@ -198,12 +200,12 @@
     "/service-areas/framingham-ma/biohazard-cleanup/",
     "/service-areas/hopkinton-ma/biohazard-cleanup/",
     "/service-areas/hudson-ma/biohazard-cleanup/",
+    "/service-areas/leominster-ma/biohazard-cleanup/",
     "/service-areas/marlborough-ma/biohazard-cleanup/",
     "/service-areas/milford-ma/biohazard-cleanup/",
     "/service-areas/natick-ma/biohazard-cleanup/",
     "/service-areas/needham-ma/biohazard-cleanup/",
-    "/service-areas/newton-ma/biohazard-cleanup/",
-    "/service-areas/northborough-ma/biohazard-cleanup/"
+    "/service-areas/newton-ma/biohazard-cleanup/"
   ],
   "/services/emergency-board-up-tarping/": [
     "/services/",
@@ -214,12 +216,12 @@
     "/service-areas/framingham-ma/emergency-board-up-tarping/",
     "/service-areas/hopkinton-ma/emergency-board-up-tarping/",
     "/service-areas/hudson-ma/emergency-board-up-tarping/",
+    "/service-areas/leominster-ma/emergency-board-up-tarping/",
     "/service-areas/marlborough-ma/emergency-board-up-tarping/",
     "/service-areas/milford-ma/emergency-board-up-tarping/",
     "/service-areas/natick-ma/emergency-board-up-tarping/",
     "/service-areas/needham-ma/emergency-board-up-tarping/",
-    "/service-areas/newton-ma/emergency-board-up-tarping/",
-    "/service-areas/northborough-ma/emergency-board-up-tarping/"
+    "/service-areas/newton-ma/emergency-board-up-tarping/"
   ],
   "/services/contents-restoration/": [
     "/services/",
@@ -230,12 +232,12 @@
     "/service-areas/framingham-ma/contents-restoration/",
     "/service-areas/hopkinton-ma/contents-restoration/",
     "/service-areas/hudson-ma/contents-restoration/",
+    "/service-areas/leominster-ma/contents-restoration/",
     "/service-areas/marlborough-ma/contents-restoration/",
     "/service-areas/milford-ma/contents-restoration/",
     "/service-areas/natick-ma/contents-restoration/",
     "/service-areas/needham-ma/contents-restoration/",
-    "/service-areas/newton-ma/contents-restoration/",
-    "/service-areas/northborough-ma/contents-restoration/"
+    "/service-areas/newton-ma/contents-restoration/"
   ],
   "/services/air-duct-cleaning/": [
     "/services/",
@@ -246,12 +248,12 @@
     "/service-areas/framingham-ma/air-duct-cleaning/",
     "/service-areas/hopkinton-ma/air-duct-cleaning/",
     "/service-areas/hudson-ma/air-duct-cleaning/",
+    "/service-areas/leominster-ma/air-duct-cleaning/",
     "/service-areas/marlborough-ma/air-duct-cleaning/",
     "/service-areas/milford-ma/air-duct-cleaning/",
     "/service-areas/natick-ma/air-duct-cleaning/",
     "/service-areas/needham-ma/air-duct-cleaning/",
-    "/service-areas/newton-ma/air-duct-cleaning/",
-    "/service-areas/northborough-ma/air-duct-cleaning/"
+    "/service-areas/newton-ma/air-duct-cleaning/"
   ],
   "/services/crawl-space-encapsulation/": [
     "/services/",
@@ -262,12 +264,12 @@
     "/service-areas/framingham-ma/crawl-space-encapsulation/",
     "/service-areas/hopkinton-ma/crawl-space-encapsulation/",
     "/service-areas/hudson-ma/crawl-space-encapsulation/",
+    "/service-areas/leominster-ma/crawl-space-encapsulation/",
     "/service-areas/marlborough-ma/crawl-space-encapsulation/",
     "/service-areas/milford-ma/crawl-space-encapsulation/",
     "/service-areas/natick-ma/crawl-space-encapsulation/",
     "/service-areas/needham-ma/crawl-space-encapsulation/",
-    "/service-areas/newton-ma/crawl-space-encapsulation/",
-    "/service-areas/northborough-ma/crawl-space-encapsulation/"
+    "/service-areas/newton-ma/crawl-space-encapsulation/"
   ],
   "/services/water-cleanup/": [
     "/services/",
@@ -278,12 +280,12 @@
     "/service-areas/framingham-ma/water-cleanup/",
     "/service-areas/hopkinton-ma/water-cleanup/",
     "/service-areas/hudson-ma/water-cleanup/",
+    "/service-areas/leominster-ma/water-cleanup/",
     "/service-areas/marlborough-ma/water-cleanup/",
     "/service-areas/milford-ma/water-cleanup/",
     "/service-areas/natick-ma/water-cleanup/",
     "/service-areas/needham-ma/water-cleanup/",
     "/service-areas/newton-ma/water-cleanup/",
-    "/service-areas/northborough-ma/water-cleanup/",
     "/services/water-damage-restoration/"
   ],
   "/service-areas/worcester-ma/": [
@@ -696,6 +698,24 @@
     "/service-areas/ware-ma/air-duct-cleaning/",
     "/service-areas/ware-ma/contents-restoration/",
     "/service-areas/ware-ma/crawl-space-encapsulation/",
+    "/service-areas/bellingham-ma/",
+    "/service-areas/east-douglas-ma/",
+    "/service-areas/fiskdale-ma/"
+  ],
+  "/service-areas/leominster-ma/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/leominster-ma/fire-damage-restoration/",
+    "/service-areas/leominster-ma/mold-remediation/",
+    "/service-areas/leominster-ma/water-damage-restoration/",
+    "/service-areas/leominster-ma/sewage-cleanup/",
+    "/service-areas/leominster-ma/storm-damage-restoration/",
+    "/service-areas/leominster-ma/water-cleanup/",
+    "/service-areas/leominster-ma/biohazard-cleanup/",
+    "/service-areas/leominster-ma/emergency-board-up-tarping/",
+    "/service-areas/leominster-ma/air-duct-cleaning/",
+    "/service-areas/leominster-ma/contents-restoration/",
+    "/service-areas/leominster-ma/crawl-space-encapsulation/",
     "/service-areas/bellingham-ma/",
     "/service-areas/east-douglas-ma/",
     "/service-areas/fiskdale-ma/"
@@ -2973,6 +2993,105 @@
     "/service-areas/ware-ma/",
     "/service-areas/ware-ma/fire-damage-restoration/",
     "/service-areas/ware-ma/mold-remediation/",
+    "/service-areas/bellingham-ma/water-cleanup/",
+    "/service-areas/east-douglas-ma/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/leominster-ma/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/leominster-ma/",
+    "/service-areas/leominster-ma/fire-damage-restoration/",
+    "/service-areas/leominster-ma/mold-remediation/",
+    "/service-areas/bellingham-ma/water-damage-restoration/",
+    "/service-areas/east-douglas-ma/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/leominster-ma/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/leominster-ma/",
+    "/service-areas/leominster-ma/fire-damage-restoration/",
+    "/service-areas/leominster-ma/mold-remediation/",
+    "/service-areas/bellingham-ma/storm-damage-restoration/",
+    "/service-areas/east-douglas-ma/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/leominster-ma/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/leominster-ma/",
+    "/service-areas/leominster-ma/mold-remediation/",
+    "/service-areas/leominster-ma/water-damage-restoration/",
+    "/service-areas/bellingham-ma/fire-damage-restoration/",
+    "/service-areas/east-douglas-ma/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/leominster-ma/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/leominster-ma/",
+    "/service-areas/leominster-ma/fire-damage-restoration/",
+    "/service-areas/leominster-ma/water-damage-restoration/",
+    "/service-areas/bellingham-ma/mold-remediation/",
+    "/service-areas/east-douglas-ma/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/leominster-ma/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/leominster-ma/",
+    "/service-areas/leominster-ma/fire-damage-restoration/",
+    "/service-areas/leominster-ma/mold-remediation/",
+    "/service-areas/bellingham-ma/sewage-cleanup/",
+    "/service-areas/east-douglas-ma/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/leominster-ma/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/leominster-ma/",
+    "/service-areas/leominster-ma/fire-damage-restoration/",
+    "/service-areas/leominster-ma/mold-remediation/",
+    "/service-areas/bellingham-ma/biohazard-cleanup/",
+    "/service-areas/east-douglas-ma/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/leominster-ma/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/leominster-ma/",
+    "/service-areas/leominster-ma/fire-damage-restoration/",
+    "/service-areas/leominster-ma/mold-remediation/",
+    "/service-areas/bellingham-ma/emergency-board-up-tarping/",
+    "/service-areas/east-douglas-ma/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/leominster-ma/contents-restoration/": [
+    "/services/contents-restoration/",
+    "/service-areas/leominster-ma/",
+    "/service-areas/leominster-ma/fire-damage-restoration/",
+    "/service-areas/leominster-ma/mold-remediation/",
+    "/service-areas/bellingham-ma/contents-restoration/",
+    "/service-areas/east-douglas-ma/contents-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/leominster-ma/air-duct-cleaning/": [
+    "/services/air-duct-cleaning/",
+    "/service-areas/leominster-ma/",
+    "/service-areas/leominster-ma/fire-damage-restoration/",
+    "/service-areas/leominster-ma/mold-remediation/",
+    "/service-areas/bellingham-ma/air-duct-cleaning/",
+    "/service-areas/east-douglas-ma/air-duct-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/leominster-ma/crawl-space-encapsulation/": [
+    "/services/crawl-space-encapsulation/",
+    "/service-areas/leominster-ma/",
+    "/service-areas/leominster-ma/fire-damage-restoration/",
+    "/service-areas/leominster-ma/mold-remediation/",
+    "/service-areas/bellingham-ma/crawl-space-encapsulation/",
+    "/service-areas/east-douglas-ma/crawl-space-encapsulation/",
+    "/contact/"
+  ],
+  "/service-areas/leominster-ma/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/leominster-ma/",
+    "/service-areas/leominster-ma/fire-damage-restoration/",
+    "/service-areas/leominster-ma/mold-remediation/",
     "/service-areas/bellingham-ma/water-cleanup/",
     "/service-areas/east-douglas-ma/water-cleanup/",
     "/contact/"

@@ -97,6 +97,11 @@
       "city": "Meggett",
       "state": "SC",
       "slug": "meggett-sc"
+    },
+    {
+      "city": "Ridgeville",
+      "state": "SC",
+      "slug": "ridgeville-sc"
     }
   ]
 }

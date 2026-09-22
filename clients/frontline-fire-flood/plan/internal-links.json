@@ -26,6 +26,7 @@
     "/service-areas/fife-wa/",
     "/service-areas/fircrest-wa/",
     "/service-areas/fort-lewis-wa/",
+    "/service-areas/frederickson-wa/",
     "/service-areas/gig-harbor-wa/",
     "/service-areas/graham-wa/",
     "/service-areas/kent-wa/",
@@ -78,6 +79,7 @@
     "/service-areas/fife-wa/",
     "/service-areas/fircrest-wa/",
     "/service-areas/fort-lewis-wa/",
+    "/service-areas/frederickson-wa/",
     "/service-areas/gig-harbor-wa/",
     "/service-areas/graham-wa/",
     "/service-areas/kent-wa/",
@@ -866,6 +868,22 @@
     "/service-areas/summit-view-wa/emergency-board-up-tarping/",
     "/service-areas/summit-view-wa/asbestos-abatement/",
     "/service-areas/summit-view-wa/contents-restoration-storage/",
+    "/service-areas/anderson-island-wa/",
+    "/service-areas/auburn-wa/",
+    "/service-areas/bellevue-wa/"
+  ],
+  "/service-areas/frederickson-wa/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/frederickson-wa/fire-damage-restoration/",
+    "/service-areas/frederickson-wa/mold-remediation/",
+    "/service-areas/frederickson-wa/water-damage-restoration/",
+    "/service-areas/frederickson-wa/sewage-cleanup/",
+    "/service-areas/frederickson-wa/storm-damage-restoration/",
+    "/service-areas/frederickson-wa/water-cleanup/",
+    "/service-areas/frederickson-wa/emergency-board-up-tarping/",
+    "/service-areas/frederickson-wa/asbestos-abatement/",
+    "/service-areas/frederickson-wa/contents-restoration-storage/",
     "/service-areas/anderson-island-wa/",
     "/service-areas/auburn-wa/",
     "/service-areas/bellevue-wa/"
@@ -3863,6 +3881,87 @@
     "/service-areas/summit-view-wa/",
     "/service-areas/summit-view-wa/fire-damage-restoration/",
     "/service-areas/summit-view-wa/mold-remediation/",
+    "/service-areas/anderson-island-wa/water-cleanup/",
+    "/service-areas/auburn-wa/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/frederickson-wa/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/frederickson-wa/",
+    "/service-areas/frederickson-wa/fire-damage-restoration/",
+    "/service-areas/frederickson-wa/mold-remediation/",
+    "/service-areas/anderson-island-wa/water-damage-restoration/",
+    "/service-areas/auburn-wa/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/frederickson-wa/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/frederickson-wa/",
+    "/service-areas/frederickson-wa/mold-remediation/",
+    "/service-areas/frederickson-wa/water-damage-restoration/",
+    "/service-areas/anderson-island-wa/fire-damage-restoration/",
+    "/service-areas/auburn-wa/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/frederickson-wa/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/frederickson-wa/",
+    "/service-areas/frederickson-wa/fire-damage-restoration/",
+    "/service-areas/frederickson-wa/water-damage-restoration/",
+    "/service-areas/anderson-island-wa/mold-remediation/",
+    "/service-areas/auburn-wa/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/frederickson-wa/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/frederickson-wa/",
+    "/service-areas/frederickson-wa/fire-damage-restoration/",
+    "/service-areas/frederickson-wa/mold-remediation/",
+    "/service-areas/anderson-island-wa/storm-damage-restoration/",
+    "/service-areas/auburn-wa/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/frederickson-wa/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/frederickson-wa/",
+    "/service-areas/frederickson-wa/fire-damage-restoration/",
+    "/service-areas/frederickson-wa/mold-remediation/",
+    "/service-areas/anderson-island-wa/sewage-cleanup/",
+    "/service-areas/auburn-wa/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/frederickson-wa/asbestos-abatement/": [
+    "/services/asbestos-abatement/",
+    "/service-areas/frederickson-wa/",
+    "/service-areas/frederickson-wa/fire-damage-restoration/",
+    "/service-areas/frederickson-wa/mold-remediation/",
+    "/service-areas/anderson-island-wa/asbestos-abatement/",
+    "/service-areas/auburn-wa/asbestos-abatement/",
+    "/contact/"
+  ],
+  "/service-areas/frederickson-wa/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/frederickson-wa/",
+    "/service-areas/frederickson-wa/fire-damage-restoration/",
+    "/service-areas/frederickson-wa/mold-remediation/",
+    "/service-areas/anderson-island-wa/emergency-board-up-tarping/",
+    "/service-areas/auburn-wa/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/frederickson-wa/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/frederickson-wa/",
+    "/service-areas/frederickson-wa/fire-damage-restoration/",
+    "/service-areas/frederickson-wa/mold-remediation/",
+    "/service-areas/anderson-island-wa/contents-restoration-storage/",
+    "/service-areas/auburn-wa/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/frederickson-wa/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/frederickson-wa/",
+    "/service-areas/frederickson-wa/fire-damage-restoration/",
+    "/service-areas/frederickson-wa/mold-remediation/",
     "/service-areas/anderson-island-wa/water-cleanup/",
     "/service-areas/auburn-wa/water-cleanup/",
     "/contact/"

@@ -33,6 +33,7 @@
     "/service-areas/kaneohe-hi/",
     "/service-areas/kapolei-hi/",
     "/service-areas/mililani-hi/",
+    "/service-areas/mililani-mauka-hi/",
     "/service-areas/mililani-town-hi/",
     "/service-areas/pearl-city-hi/",
     "/service-areas/royal-kunia-hi/",
@@ -74,6 +75,7 @@
     "/service-areas/kaneohe-hi/",
     "/service-areas/kapolei-hi/",
     "/service-areas/mililani-hi/",
+    "/service-areas/mililani-mauka-hi/",
     "/service-areas/mililani-town-hi/",
     "/service-areas/pearl-city-hi/",
     "/service-areas/royal-kunia-hi/",
@@ -721,6 +723,24 @@
     "/service-areas/royal-kunia-hi/carpet-cleaning/",
     "/service-areas/royal-kunia-hi/upholstery-cleaning/",
     "/service-areas/royal-kunia-hi/flood-equipment-rental/",
+    "/service-areas/aiea-hi/",
+    "/service-areas/aina-haina-hi/",
+    "/service-areas/diamond-head-hi/"
+  ],
+  "/service-areas/mililani-mauka-hi/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/mililani-mauka-hi/mold-remediation/",
+    "/service-areas/mililani-mauka-hi/water-damage-restoration/",
+    "/service-areas/mililani-mauka-hi/commercial-restoration/",
+    "/service-areas/mililani-mauka-hi/flood-damage-restoration/",
+    "/service-areas/mililani-mauka-hi/sewage-cleanup/",
+    "/service-areas/mililani-mauka-hi/water-cleanup/",
+    "/service-areas/mililani-mauka-hi/burst-pipe-repair/",
+    "/service-areas/mililani-mauka-hi/mold-inspection-testing/",
+    "/service-areas/mililani-mauka-hi/carpet-cleaning/",
+    "/service-areas/mililani-mauka-hi/upholstery-cleaning/",
+    "/service-areas/mililani-mauka-hi/flood-equipment-rental/",
     "/service-areas/aiea-hi/",
     "/service-areas/aina-haina-hi/",
     "/service-areas/diamond-head-hi/"
@@ -3097,6 +3117,105 @@
     "/service-areas/royal-kunia-hi/",
     "/service-areas/royal-kunia-hi/mold-remediation/",
     "/service-areas/royal-kunia-hi/water-damage-restoration/",
+    "/service-areas/aiea-hi/water-cleanup/",
+    "/service-areas/aina-haina-hi/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/mililani-mauka-hi/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/mililani-mauka-hi/",
+    "/service-areas/mililani-mauka-hi/mold-remediation/",
+    "/service-areas/mililani-mauka-hi/commercial-restoration/",
+    "/service-areas/aiea-hi/water-damage-restoration/",
+    "/service-areas/aina-haina-hi/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/mililani-mauka-hi/flood-damage-restoration/": [
+    "/services/flood-damage-restoration/",
+    "/service-areas/mililani-mauka-hi/",
+    "/service-areas/mililani-mauka-hi/mold-remediation/",
+    "/service-areas/mililani-mauka-hi/water-damage-restoration/",
+    "/service-areas/aiea-hi/flood-damage-restoration/",
+    "/service-areas/aina-haina-hi/flood-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/mililani-mauka-hi/burst-pipe-repair/": [
+    "/services/burst-pipe-repair/",
+    "/service-areas/mililani-mauka-hi/",
+    "/service-areas/mililani-mauka-hi/mold-remediation/",
+    "/service-areas/mililani-mauka-hi/water-damage-restoration/",
+    "/service-areas/aiea-hi/burst-pipe-repair/",
+    "/service-areas/aina-haina-hi/burst-pipe-repair/",
+    "/contact/"
+  ],
+  "/service-areas/mililani-mauka-hi/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/mililani-mauka-hi/",
+    "/service-areas/mililani-mauka-hi/mold-remediation/",
+    "/service-areas/mililani-mauka-hi/water-damage-restoration/",
+    "/service-areas/aiea-hi/sewage-cleanup/",
+    "/service-areas/aina-haina-hi/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/mililani-mauka-hi/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/mililani-mauka-hi/",
+    "/service-areas/mililani-mauka-hi/water-damage-restoration/",
+    "/service-areas/mililani-mauka-hi/commercial-restoration/",
+    "/service-areas/aiea-hi/mold-remediation/",
+    "/service-areas/aina-haina-hi/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/mililani-mauka-hi/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/mililani-mauka-hi/",
+    "/service-areas/mililani-mauka-hi/mold-remediation/",
+    "/service-areas/mililani-mauka-hi/water-damage-restoration/",
+    "/service-areas/aiea-hi/mold-inspection-testing/",
+    "/service-areas/aina-haina-hi/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/mililani-mauka-hi/carpet-cleaning/": [
+    "/services/carpet-cleaning/",
+    "/service-areas/mililani-mauka-hi/",
+    "/service-areas/mililani-mauka-hi/mold-remediation/",
+    "/service-areas/mililani-mauka-hi/water-damage-restoration/",
+    "/service-areas/aiea-hi/carpet-cleaning/",
+    "/service-areas/aina-haina-hi/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/mililani-mauka-hi/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/mililani-mauka-hi/",
+    "/service-areas/mililani-mauka-hi/mold-remediation/",
+    "/service-areas/mililani-mauka-hi/water-damage-restoration/",
+    "/service-areas/aiea-hi/upholstery-cleaning/",
+    "/service-areas/aina-haina-hi/upholstery-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/mililani-mauka-hi/flood-equipment-rental/": [
+    "/services/flood-equipment-rental/",
+    "/service-areas/mililani-mauka-hi/",
+    "/service-areas/mililani-mauka-hi/mold-remediation/",
+    "/service-areas/mililani-mauka-hi/water-damage-restoration/",
+    "/service-areas/aiea-hi/flood-equipment-rental/",
+    "/service-areas/aina-haina-hi/flood-equipment-rental/",
+    "/contact/"
+  ],
+  "/service-areas/mililani-mauka-hi/commercial-restoration/": [
+    "/services/commercial-restoration/",
+    "/service-areas/mililani-mauka-hi/",
+    "/service-areas/mililani-mauka-hi/mold-remediation/",
+    "/service-areas/mililani-mauka-hi/water-damage-restoration/",
+    "/service-areas/aiea-hi/commercial-restoration/",
+    "/service-areas/aina-haina-hi/commercial-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/mililani-mauka-hi/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/mililani-mauka-hi/",
+    "/service-areas/mililani-mauka-hi/mold-remediation/",
+    "/service-areas/mililani-mauka-hi/water-damage-restoration/",
     "/service-areas/aiea-hi/water-cleanup/",
     "/service-areas/aina-haina-hi/water-cleanup/",
     "/contact/"

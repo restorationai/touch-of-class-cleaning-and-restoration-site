@@ -154,6 +154,11 @@
       "city": "Evergreen Park",
       "state": "IL",
       "slug": "evergreen-park-il"
+    },
+    {
+      "city": "Brookfield",
+      "state": "IL",
+      "slug": "brookfield-il"
     }
   ],
   "template": "restoration",
