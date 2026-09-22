@@ -1,0 +1,22 @@
+{
+ "domain": "veteransremediation.com",
+ "captured_at": "2026-09-22T17:41:28+00:00",
+ "authoritative": {
+  "ns": [],
+  "mx": [],
+  "apex_txt": [],
+  "dmarc_txt": [],
+  "dkim": {},
+  "apex_a": [],
+  "apex_cname": [],
+  "www_cname": []
+ },
+ "cf_zone": {
+  "zone_id": "fd50c281e449a1055d06109005543a7e",
+  "name_servers": [
+   "amos.ns.cloudflare.com",
+   "anastasia.ns.cloudflare.com"
+  ],
+  "records": []
+ }
+}
