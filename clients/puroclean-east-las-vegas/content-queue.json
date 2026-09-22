@@ -1245,7 +1245,7 @@
     },
     {
       "id": "2026-09-15-fire-damage-restoration-sunrise-manor",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-15T14:24:35Z",
       "priority": 1,
       "prioritized": true,
@@ -1255,7 +1255,56 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": "sunrise-manor-nv",
-      "source": "gameplan-2026-09-3 (dev-agent)"
+      "source": "gameplan-2026-09-3 (dev-agent)",
+      "written_at": "2026-09-22T15:29:47Z",
+      "post_url": "https://purocleaneastlasvegas.com/blog/fire-damage-restoration-sunrise-manor/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/fire-damage-restoration-sunrise-manor.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "th within 24 to 48 hours, according to [IICRC S500 standards](https://www.iicrc.org).",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/fire-damage-restoration-sunrise-manor.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified restoration",
+          "context": "nce company to open the claim 4. Call a certified restoration company for emergency board-up and wate",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/fire-damage-restoration-sunrise-manor.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "the structure reaches dry standard per IICRC S500. Thermal foggers or hydroxyl gener",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/fire-damage-restoration-sunrise-manor.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "as** PuroClean of East Las Vegas is an IICRC-certified restoration company serving S",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/fire-damage-restoration-sunrise-manor.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified restoration",
+          "context": "PuroClean of East Las Vegas is an IICRC-certified restoration company serving Sunrise Manor, Las Vega",
+          "reason": "names a certification not present in brand.certifications"
+        }
+      ]
     }
   ]
 }
