@@ -10,7 +10,7 @@
   "r2": null,
   "status": "pending",
   "created_at": "2026-07-08T00:00:00+00:00",
-  "updated_at": "2026-09-21T19:40:13.865459+00:00",
+  "updated_at": "2026-09-22T02:10:49.344804+00:00",
   "nap": {
     "name": "AAA Water Damage Restoration & Carpet Care",
     "street": "",
@@ -47,8 +47,8 @@
   "plan": {
     "template": "restoration",
     "template_version": "0.3.0",
-    "url_count": 320,
-    "generated_at": "2026-09-21T19:40:13.865454+00:00"
+    "url_count": 332,
+    "generated_at": "2026-09-22T02:10:49.344798+00:00"
   },
   "build": {
     "scaffolded_at": "2026-07-09T05:16:55.319048+00:00",

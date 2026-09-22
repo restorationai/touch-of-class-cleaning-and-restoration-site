@@ -1,20 +1,20 @@
 # Site Plan Report — Frontline Fire & Flood
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-21T19:18:44.710059+00:00
+- Generated: 2026-09-22T02:11:20.075278+00:00
 - Domain: `frontlinefireflood.com`
 - Services selected: 9 of 65 catalog entries
-- Service areas: 38
+- Service areas: 39
 - Cross-product enabled: True
-- Total URLs: **396**
-- Total internal links: 3138 (avg 7.9 per page)
+- Total URLs: **406**
+- Total internal links: 3217 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 333 |
-| `service-area` | 37 |
+| `service-area-service` | 342 |
+| `service-area` | 38 |
 | `service-landing` | 9 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -77,6 +77,7 @@
 - `wollochet-wa` — Wollochet, WA
 - `summit-wa` — Summit, WA
 - `summit-view-wa` — Summit View, WA
+- `frederickson-wa` — Frederickson, WA
 
 ## Top 10 priority pages
 

@@ -1,20 +1,20 @@
 # Site Plan Report — FIX Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-21T19:18:25.835443+00:00
+- Generated: 2026-09-22T02:10:59.973778+00:00
 - Domain: `fixofutah.com`
 - Services selected: 11 of 65 catalog entries
-- Service areas: 21
+- Service areas: 22
 - Cross-product enabled: True
-- Total URLs: **268**
-- Total internal links: 2147 (avg 8.0 per page)
+- Total URLs: **280**
+- Total internal links: 2242 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 220 |
-| `service-area` | 20 |
+| `service-area-service` | 231 |
+| `service-area` | 21 |
 | `service-landing` | 11 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -62,6 +62,7 @@
 - `riverton-ut` — Riverton, UT
 - `south-jordan-ut` — South Jordan, UT
 - `cedar-fort-ut` — Cedar Fort, UT
+- `cottonwood-heights-ut` — Cottonwood Heights, UT
 
 ## Top 10 priority pages
 

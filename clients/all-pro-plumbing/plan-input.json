@@ -274,6 +274,11 @@
       "city": "Valley Acres",
       "state": "CA",
       "slug": "valley-acres-ca"
+    },
+    {
+      "city": "Woody",
+      "state": "CA",
+      "slug": "woody-ca"
     }
   ],
   "brand": {

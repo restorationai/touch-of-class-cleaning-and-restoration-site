@@ -238,6 +238,11 @@
       "city": "Summit View",
       "state": "WA",
       "slug": "summit-view-wa"
+    },
+    {
+      "city": "Frederickson",
+      "state": "WA",
+      "slug": "frederickson-wa"
     }
   ],
   "template": "restoration",

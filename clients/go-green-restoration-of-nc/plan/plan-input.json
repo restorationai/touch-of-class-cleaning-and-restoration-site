@@ -250,6 +250,11 @@
       "city": "Elm City",
       "state": "NC",
       "slug": "elm-city-nc"
+    },
+    {
+      "city": "Pine Level",
+      "state": "NC",
+      "slug": "pine-level-nc"
     }
   ],
   "template": "restoration",

@@ -149,6 +149,11 @@
       "city": "Priceville",
       "state": "AL",
       "slug": "priceville-al"
+    },
+    {
+      "city": "Somerville",
+      "state": "AL",
+      "slug": "somerville-al"
     }
   ],
   "brand": {

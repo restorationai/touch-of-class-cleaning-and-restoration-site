@@ -1,20 +1,20 @@
 # Site Plan Report — ACS Enterprise 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-21T19:18:20.200250+00:00
+- Generated: 2026-09-22T02:10:53.735127+00:00
 - Domain: `theacs-enterprises.com`
 - Services selected: 8 of 65 catalog entries
-- Service areas: 13
+- Service areas: 14
 - Cross-product enabled: True
-- Total URLs: **133**
-- Total internal links: 1042 (avg 7.8 per page)
+- Total URLs: **142**
+- Total internal links: 1113 (avg 7.8 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 96 |
-| `service-area` | 12 |
+| `service-area-service` | 104 |
+| `service-area` | 13 |
 | `service-landing` | 8 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -51,6 +51,7 @@
 - `crane-tx` — Crane, TX
 - `monahans-tx` — Monahans, TX
 - `mccamey-tx` — McCamey, TX
+- `southwest-sandhill-tx` — Southwest Sandhill, TX
 
 ## Top 10 priority pages
 

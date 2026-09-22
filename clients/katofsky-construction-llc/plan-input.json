@@ -1,143 +1,148 @@
 {
- "brand": {
-  "display_name": "Katofsky Construction LLC",
-  "lat": 40.4406968,
-  "lng": -80.0025666,
-  "phone": "(412) 304-9284",
-  "email": "michael@katofskyconstruction.com",
-  "street_address": "150 Leroy st ",
-  "city": "Pgh",
-  "state": "Pa",
-  "postal_code": "15239",
-  "theme": "light",
-  "certifications": [
-   "IICRC CERTIFIED FIRM",
-   "IICRC WRT (WATER)",
-   "IICRC AMRT (MOLD)"
+  "brand": {
+    "display_name": "Katofsky Construction LLC",
+    "lat": 40.4406968,
+    "lng": -80.0025666,
+    "phone": "(412) 304-9284",
+    "email": "michael@katofskyconstruction.com",
+    "street_address": "150 Leroy st ",
+    "city": "Pgh",
+    "state": "Pa",
+    "postal_code": "15239",
+    "theme": "light",
+    "certifications": [
+      "IICRC CERTIFIED FIRM",
+      "IICRC WRT (WATER)",
+      "IICRC AMRT (MOLD)"
+    ],
+    "license_numbers": [
+      "090877"
+    ],
+    "hours": "24/7",
+    "licensed_insured_attested": true,
+    "trust_badges": [
+      "IICRC Certified Firm",
+      "Licensed & Insured",
+      "24/7 Emergency Service",
+      "Locally Owned & Operated"
+    ]
+  },
+  "services": [
+    "general-contracting"
   ],
-  "license_numbers": [
-   "090877"
+  "service_areas": [
+    {
+      "city": "Pittsburgh",
+      "state": "PA",
+      "slug": "pittsburgh-pa",
+      "primary": true
+    },
+    {
+      "city": "Penn Hills",
+      "state": "PA",
+      "slug": "penn-hills-pa"
+    },
+    {
+      "city": "McCandless",
+      "state": "PA",
+      "slug": "mccandless-pa"
+    },
+    {
+      "city": "Bethel Park",
+      "state": "PA",
+      "slug": "bethel-park-pa"
+    },
+    {
+      "city": "Mount Lebanon",
+      "state": "PA",
+      "slug": "mount-lebanon-pa"
+    },
+    {
+      "city": "Ross Township",
+      "state": "PA",
+      "slug": "ross-township-pa"
+    },
+    {
+      "city": "Monroeville",
+      "state": "PA",
+      "slug": "monroeville-pa"
+    },
+    {
+      "city": "Shaler Township",
+      "state": "PA",
+      "slug": "shaler-township-pa"
+    },
+    {
+      "city": "Plum",
+      "state": "PA",
+      "slug": "plum-pa"
+    },
+    {
+      "city": "West Mifflin",
+      "state": "PA",
+      "slug": "west-mifflin-pa"
+    },
+    {
+      "city": "McKeesport",
+      "state": "PA",
+      "slug": "mckeesport-pa"
+    },
+    {
+      "city": "Baldwin",
+      "state": "PA",
+      "slug": "baldwin-pa"
+    },
+    {
+      "city": "Greensburg",
+      "state": "PA",
+      "slug": "greensburg-pa"
+    },
+    {
+      "city": "Hempfield Township",
+      "state": "PA",
+      "slug": "hempfield-township-pa"
+    },
+    {
+      "city": "North Huntingdon",
+      "state": "PA",
+      "slug": "north-huntingdon-pa"
+    },
+    {
+      "city": "New Kensington",
+      "state": "PA",
+      "slug": "new-kensington-pa"
+    },
+    {
+      "city": "Murrysville",
+      "state": "PA",
+      "slug": "murrysville-pa"
+    },
+    {
+      "city": "Latrobe",
+      "state": "PA",
+      "slug": "latrobe-pa"
+    },
+    {
+      "city": "Lower Burrell",
+      "state": "PA",
+      "slug": "lower-burrell-pa"
+    },
+    {
+      "city": "Jeannette",
+      "state": "PA",
+      "slug": "jeannette-pa"
+    },
+    {
+      "city": "Green Tree",
+      "state": "PA",
+      "slug": "green-tree-pa"
+    },
+    {
+      "city": "Carnegie",
+      "state": "PA",
+      "slug": "carnegie-pa"
+    }
   ],
-  "hours": "24/7",
-  "licensed_insured_attested": true,
-  "trust_badges": [
-   "IICRC Certified Firm",
-   "Licensed & Insured",
-   "24/7 Emergency Service",
-   "Locally Owned & Operated"
-  ]
- },
- "services": [
-  "general-contracting"
- ],
- "service_areas": [
-  {
-   "city": "Pittsburgh",
-   "state": "PA",
-   "slug": "pittsburgh-pa",
-   "primary": true
-  },
-  {
-   "city": "Penn Hills",
-   "state": "PA",
-   "slug": "penn-hills-pa"
-  },
-  {
-   "city": "McCandless",
-   "state": "PA",
-   "slug": "mccandless-pa"
-  },
-  {
-   "city": "Bethel Park",
-   "state": "PA",
-   "slug": "bethel-park-pa"
-  },
-  {
-   "city": "Mount Lebanon",
-   "state": "PA",
-   "slug": "mount-lebanon-pa"
-  },
-  {
-   "city": "Ross Township",
-   "state": "PA",
-   "slug": "ross-township-pa"
-  },
-  {
-   "city": "Monroeville",
-   "state": "PA",
-   "slug": "monroeville-pa"
-  },
-  {
-   "city": "Shaler Township",
-   "state": "PA",
-   "slug": "shaler-township-pa"
-  },
-  {
-   "city": "Plum",
-   "state": "PA",
-   "slug": "plum-pa"
-  },
-  {
-   "city": "West Mifflin",
-   "state": "PA",
-   "slug": "west-mifflin-pa"
-  },
-  {
-   "city": "McKeesport",
-   "state": "PA",
-   "slug": "mckeesport-pa"
-  },
-  {
-   "city": "Baldwin",
-   "state": "PA",
-   "slug": "baldwin-pa"
-  },
-  {
-   "city": "Greensburg",
-   "state": "PA",
-   "slug": "greensburg-pa"
-  },
-  {
-   "city": "Hempfield Township",
-   "state": "PA",
-   "slug": "hempfield-township-pa"
-  },
-  {
-   "city": "North Huntingdon",
-   "state": "PA",
-   "slug": "north-huntingdon-pa"
-  },
-  {
-   "city": "New Kensington",
-   "state": "PA",
-   "slug": "new-kensington-pa"
-  },
-  {
-   "city": "Murrysville",
-   "state": "PA",
-   "slug": "murrysville-pa"
-  },
-  {
-   "city": "Latrobe",
-   "state": "PA",
-   "slug": "latrobe-pa"
-  },
-  {
-   "city": "Lower Burrell",
-   "state": "PA",
-   "slug": "lower-burrell-pa"
-  },
-  {
-   "city": "Jeannette",
-   "state": "PA",
-   "slug": "jeannette-pa"
-  },
-  {
-   "city": "Green Tree",
-   "state": "PA",
-   "slug": "green-tree-pa"
-  }
- ],
- "template": "restoration",
- "blog_seed_count": 8
+  "template": "restoration",
+  "blog_seed_count": 8
 }

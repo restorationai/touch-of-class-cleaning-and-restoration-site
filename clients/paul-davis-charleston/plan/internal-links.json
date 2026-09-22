@@ -22,6 +22,7 @@
     "/service-areas/mount-pleasant-sc/",
     "/service-areas/north-charleston-sc/",
     "/service-areas/ravenel-sc/",
+    "/service-areas/ridgeville-sc/",
     "/service-areas/sullivan-s-island-sc/",
     "/service-areas/summerville-sc/"
   ],
@@ -48,6 +49,7 @@
     "/service-areas/mount-pleasant-sc/",
     "/service-areas/north-charleston-sc/",
     "/service-areas/ravenel-sc/",
+    "/service-areas/ridgeville-sc/",
     "/service-areas/sullivan-s-island-sc/",
     "/service-areas/summerville-sc/"
   ],
@@ -323,6 +325,17 @@
     "/service-areas/meggett-sc/mold-remediation/",
     "/service-areas/meggett-sc/water-damage-restoration/",
     "/service-areas/meggett-sc/water-cleanup/",
+    "/service-areas/awendaw-sc/",
+    "/service-areas/folly-beach-sc/",
+    "/service-areas/goose-creek-sc/"
+  ],
+  "/service-areas/ridgeville-sc/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/ridgeville-sc/fire-damage-restoration/",
+    "/service-areas/ridgeville-sc/mold-remediation/",
+    "/service-areas/ridgeville-sc/water-damage-restoration/",
+    "/service-areas/ridgeville-sc/water-cleanup/",
     "/service-areas/awendaw-sc/",
     "/service-areas/folly-beach-sc/",
     "/service-areas/goose-creek-sc/"
@@ -899,6 +912,42 @@
     "/service-areas/meggett-sc/",
     "/service-areas/meggett-sc/fire-damage-restoration/",
     "/service-areas/meggett-sc/mold-remediation/",
+    "/service-areas/awendaw-sc/water-cleanup/",
+    "/service-areas/folly-beach-sc/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/ridgeville-sc/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/ridgeville-sc/",
+    "/service-areas/ridgeville-sc/fire-damage-restoration/",
+    "/service-areas/ridgeville-sc/mold-remediation/",
+    "/service-areas/awendaw-sc/water-damage-restoration/",
+    "/service-areas/folly-beach-sc/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/ridgeville-sc/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/ridgeville-sc/",
+    "/service-areas/ridgeville-sc/mold-remediation/",
+    "/service-areas/ridgeville-sc/water-damage-restoration/",
+    "/service-areas/awendaw-sc/fire-damage-restoration/",
+    "/service-areas/folly-beach-sc/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/ridgeville-sc/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/ridgeville-sc/",
+    "/service-areas/ridgeville-sc/fire-damage-restoration/",
+    "/service-areas/ridgeville-sc/water-damage-restoration/",
+    "/service-areas/awendaw-sc/mold-remediation/",
+    "/service-areas/folly-beach-sc/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/ridgeville-sc/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/ridgeville-sc/",
+    "/service-areas/ridgeville-sc/fire-damage-restoration/",
+    "/service-areas/ridgeville-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-cleanup/",
     "/service-areas/folly-beach-sc/water-cleanup/",
     "/contact/"

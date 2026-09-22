@@ -143,6 +143,11 @@
       "city": "Albany",
       "state": "MN",
       "slug": "albany-mn"
+    },
+    {
+      "city": "Avon",
+      "state": "MN",
+      "slug": "avon-mn"
     }
   ],
   "template": "restoration",
