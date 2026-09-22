@@ -6,13 +6,13 @@ export const brand = {
   slug: "rachelle-elliston",
   displayName: "Desert Valley Contracting Inc ",
   shortName: "Desert Valley Contracting Inc ",
-  legalName: "Desert Valley Contracting Inc ",
+  legalName: "Desert Valley Contracting Inc",
   // Registered DBA / trade name — filled by rename_site_sync.py the moment
   // the state approves the client's DBA filing (empty until then). When set,
   // the footer carries the "[legal] doing business as [DBA]" line and schema
   // declares it as the business name, so Google/BrightLocal find the new
   // name corroborated on the site before and during the GBP rename.
-  dbaName: "",
+  dbaName: "Desert Valley Restoration-24/7 Emergency Plumbing, Water and Fire Damage Restoration",
   domain: "desertvalleycontracting.net",
   canonicalUrl: "https://desertvalleycontracting.net",
   phone: "(702) 633-5033",
