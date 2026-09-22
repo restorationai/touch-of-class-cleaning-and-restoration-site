@@ -141,8 +141,13 @@ def render_one(slug: str, workers: int) -> bool:
         run(["git", "pull", "--rebase", "--autostash"])
         run(["git", "push"])
     branch = deploy_branch(slug)
+    # --allow-dirty: the subtree split reads COMMITTED state, and this
+    # site's changes were just committed. Residual dirt is other sites'
+    # in-flight work in the same multi-site run (2026-09-22 failure: two
+    # sites refused to deploy over each other's uncommitted leftovers).
     rc2 = run([sys.executable, str(ROOT / "scripts" / "build_site.py"),
-               "sync-deploy", "--slug", slug, "--branch", branch])
+               "sync-deploy", "--slug", slug, "--branch", branch,
+               "--allow-dirty"])
     print(f"[{slug}] deployed to {branch}" if rc2 == 0
           else f"[{slug}] sync-deploy exited {rc2}")
     return rc == 0 and rc2 == 0
