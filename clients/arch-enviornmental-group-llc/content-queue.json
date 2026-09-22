@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-18-asbestos-testing-cost-ca",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-18T12:16:41Z",
       "priority": 1,
       "prioritized": true,
@@ -27,7 +27,9 @@
         "asbestos testing near me CA",
         "asbestos check CA"
       ],
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-22T15:09:39Z",
+      "post_url": "https://archenviroservice.com/blog/asbestos-testing-cost-ca/"
     },
     {
       "id": "2026-09-06-mold-testing",
