@@ -677,7 +677,7 @@
     },
     {
       "id": "2026-09-15-fire-damage-restoration-youngstown",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-15T14:24:35Z",
       "priority": 1,
       "prioritized": true,
@@ -687,7 +687,9 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": "youngstown-oh",
-      "source": "gameplan-2026-09-5 (dev-agent)"
+      "source": "gameplan-2026-09-5 (dev-agent)",
+      "written_at": "2026-09-22T00:59:33Z",
+      "post_url": "https://dissrestoration.com/blog/fire-damage-restoration-youngstown/"
     },
     {
       "id": "2026-09-15-mold-remediation-youngstown",
