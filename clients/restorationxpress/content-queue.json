@@ -1107,7 +1107,7 @@
     },
     {
       "id": "2026-09-15-mold-growth-timeline",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-15T14:24:35Z",
       "priority": 1,
       "prioritized": true,
@@ -1117,7 +1117,38 @@
       "intent": "informational",
       "target_word_count": 1400,
       "city_anchor": null,
-      "source": "gameplan-2026-09-3 (dev-agent)"
+      "source": "gameplan-2026-09-3 (dev-agent)",
+      "written_at": "2026-09-22T15:35:46Z",
+      "post_url": "https://restorationxpress.com/blog/mold-growth-timeline/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/mold-growth-timeline.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "spores into the air. According to the [IICRC S520 Standard for Professional Mold Rem",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/mold-growth-timeline.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "s are salvageable or need removal. The [IICRC S500 Standard for Water Damage Restorat",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/mold-growth-timeline.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified restoration",
+          "context": "orationXpress** RestorationXpress is a certified restoration company serving Davie, FL and surroundi",
+          "reason": "names a certification not present in brand.certifications"
+        }
+      ]
     }
   ]
 }
