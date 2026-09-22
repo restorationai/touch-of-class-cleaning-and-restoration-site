@@ -59,7 +59,7 @@
     },
     {
       "id": "2026-09-06-mold",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-06T10:23:57Z",
       "priority": 1,
       "content_type": "target_term",
@@ -68,7 +68,9 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": "chino-hills-ca",
-      "source": "app target-term (onboarding-backfill)"
+      "source": "app target-term (onboarding-backfill)",
+      "written_at": "2026-09-22T00:58:20Z",
+      "post_url": "https://drycountyrestoration.com/blog/mold/"
     },
     {
       "id": "2026-09-06-water-damage",
