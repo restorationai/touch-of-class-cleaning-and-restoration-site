@@ -322,7 +322,7 @@
     },
     {
       "id": "2026-08-26-how-soon-does-mold-grow-after-water-damage",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-26T14:05:00Z",
       "written_at": "2026-09-22T15:13:40Z",
       "post_url": "https://californiarestorationwest.com/blog/how-soon-does-mold-grow-after-water-damage/",
@@ -356,7 +356,8 @@
         "https://www.cdc.gov/mold/"
       ],
       "notes": "110/mo, KD 0. Bridges the client's two biggest planned services and is not covered by the hidden-mold or black-mold posts (those cover identification, not timeline). Ventura's coastal humidity is a genuine local angle: cite it, do not invent a local statistic.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "published_verified_at": "2026-09-22T15:16:04Z"
     },
     {
       "id": "2026-09-14-mold-remediation-ventura",
