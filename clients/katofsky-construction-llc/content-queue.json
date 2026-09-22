@@ -3,6 +3,147 @@
   "last_updated": "2026-09-21",
   "items": [
     {
+      "id": "2026-09-22-best-contents-restoration-storage-in-pittsburgh-pa",
+      "status": "written",
+      "queued_at": "2026-09-22T22:25:23Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-contents-restoration-storage-in-pittsburgh-pa",
+      "primary_keyword": "best contents restoration storage company in Pittsburgh, PA",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "pittsburgh-pa",
+      "best_of": {
+        "service": "contents-restoration-storage",
+        "service_pretty": "Contents Restoration Storage",
+        "city": "Pittsburgh",
+        "state": "PA",
+        "competitors": [
+          {
+            "name": "Content Recovery Specialists of Pittsburgh, PA",
+            "google_rating": 4.7,
+            "review_count": 26
+          },
+          {
+            "name": "G.S. Jones Restoration Consulting",
+            "google_rating": 4.4,
+            "review_count": 56
+          },
+          {
+            "name": "Restoration Management Services",
+            "google_rating": 2.6,
+            "review_count": 19
+          },
+          {
+            "name": "CDC Hauling LLC",
+            "google_rating": 5,
+            "review_count": 771
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best contents restoration storage companies Pittsburgh",
+        "top rated contents restoration storage Pittsburgh PA",
+        "who is the best contents restoration storage company in Pittsburgh"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-09-22T22:28:56Z",
+      "post_url": "https://katofskyconstruction.com/blog/best-contents-restoration-storage-company-in-pittsburgh-pa/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-contents-restoration-storage-company-in-pittsburgh-pa.md",
+          "part": "body",
+          "family": "service-scope",
+          "severity": "review",
+          "matched": "Water Damage Restoration",
+          "context": "heir team holds IICRC certifications in Water Damage Restoration (WRT) and Applied Microbial Remediation",
+          "reason": "names the 'water' service family but plan-input services are only: fire-damage-restoration, general-contracting, roofing, sewage-cleanup, biohazard-cleanup, asbestos-abatement"
+        },
+        {
+          "file": "src/content/blog/best-contents-restoration-storage-company-in-pittsburgh-pa.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "26 reviews",
+          "context": "urgh, PA **Google Rating:** 4.7 stars (26 reviews) Content Recovery Specialists of Pitts",
+          "reason": "claims 26 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-contents-restoration-storage-company-in-pittsburgh-pa.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "26 Google reviews",
+          "context": "ion with a solid 4.7-star rating across 26 Google reviews. Their name suggests a specialization i",
+          "reason": "claims 26 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-contents-restoration-storage-company-in-pittsburgh-pa.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "26 reviews",
+          "context": "er than full-property restoration. With 26 reviews, the sample size is smaller than some c",
+          "reason": "claims 26 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-contents-restoration-storage-company-in-pittsburgh-pa.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "56 reviews",
+          "context": "nsulting **Google Rating:** 4.4 stars (56 reviews) G.S. Jones Restoration Consulting car",
+          "reason": "claims 56 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-contents-restoration-storage-company-in-pittsburgh-pa.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "56 reviews",
+          "context": "ulting carries a 4.4-star rating across 56 reviews, making it one of the more reviewed opt",
+          "reason": "claims 56 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-contents-restoration-storage-company-in-pittsburgh-pa.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "771 reviews",
+          "context": "ling LLC **Google Rating:** 5.0 stars (771 reviews) CDC Hauling LLC has the highest revie",
+          "reason": "claims 771 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-contents-restoration-storage-company-in-pittsburgh-pa.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "771 reviews",
+          "context": "w volume on this list by a wide margin: 771 reviews at a 5.0-star average. That is a genuin",
+          "reason": "claims 771 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-contents-restoration-storage-company-in-pittsburgh-pa.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "19 reviews",
+          "context": "Services **Google Rating:** 2.6 stars (19 reviews) Restoration Management Services has a",
+          "reason": "claims 19 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-contents-restoration-storage-company-in-pittsburgh-pa.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "19 reviews",
+          "context": "t Services has a 2.6-star rating across 19 reviews. A rating in this range, even with a sm",
+          "reason": "claims 19 reviews but no synced gbpReviewCount exists for this site"
+        }
+      ]
+    },
+    {
       "id": "2026-09-21-water-damage-restoration",
       "status": "queued",
       "queued_at": "2026-09-21T22:24:12Z",
