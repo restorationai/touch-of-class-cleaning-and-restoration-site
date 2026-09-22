@@ -38,7 +38,7 @@ From there, the process moves through several distinct phases:
 - **Soot and smoke residue removal**: Different surfaces require different cleaning chemistry. Dry soot on flat painted walls cleans differently than wet smoke residue on textured plaster or the oily film that protein fires leave on kitchen surfaces.
 - **Odor neutralization**: Smoke odor isn't just unpleasant, it's a sign that combustion byproducts are still present. Thermal fogging and hydroxyl treatment reach into cavities and porous materials where surface cleaning can't.
 - **Structural drying**: Water from firefighting efforts needs to be extracted and dried before reconstruction begins. Leaving moisture behind under new materials is how secondary mold problems start.
-- **Reconstruction coordination**: Once the structure is clean, dry, and documented, rebuild work can begin. This phase is scoped to match what was removed, not a wholesale renovation.
+- **Reconstruction handoff**: Once the structure is clean, dry, and documented, your rebuild contractor can begin. We provide the documented scope of what was removed so the reconstruction matches the loss, not a wholesale renovation.
 
 ## Reaching Warren from Macomb
 

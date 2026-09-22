@@ -40,7 +40,7 @@ Once the scope is documented, the work moves in this order:
 - **Odor neutralization** through thermal fogging or hydroxyl treatment, reaching areas that surface cleaning cannot
 - **Duct cleaning** to remove smoke particulate before any HVAC system is operated again
 - **Structural drying** if firefighting water is present
-- **Reconstruction** of damaged framing, drywall, insulation, and finishes
+- **Reconstruction handoff**: a documented scope of the damaged framing, drywall, insulation, and finishes for your rebuild contractor
 
 Documentation runs throughout every phase, producing the photo and scope records your insurance adjuster will need.
 

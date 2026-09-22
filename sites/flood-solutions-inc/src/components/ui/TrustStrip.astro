@@ -33,7 +33,7 @@ const defaultBadges: string[] = [
         // charge for the visit (environmental testing) override via
         // brand.trustBadges instead.
         ...((brand as { freeEstimates?: boolean }).freeEstimates !== false
-          ? ["Free Estimates"] : []),
+          ? ["Free Consultations"] : []),
         ...certBadges,
       ];
 const badges: string[] = [...(brand.trustBadges || [])];

@@ -21,7 +21,7 @@ The smell hits first. That sulfuric, unmistakable odor that tells you before you
 
 ## What sewage cleanup and sanitization actually involves
 
-Sewage water is classified as Category 3 under industry water damage standards, meaning it is grossly contaminated and must be treated as a biohazard from the first moment of contact. That classification changes everything about how the work is done.
+Sewage water is classified as Category 3 under industry water damage standards, meaning it is grossly contaminated and must be handled with strict containment and sanitation from the first moment of contact. That classification changes everything about how the work is done.
 
 Crew members arrive in full personal protective equipment. Affected areas are isolated before any extraction begins to prevent cross-contamination to clean parts of the home. The visible waste is only the beginning. Sewage water wicks into drywall, soaks into subfloor materials, saturates insulation, and pools beneath finished flooring where it is invisible to the eye. Standard moisture meters alone are not enough. Thermal imaging and penetrating probes are used to map exactly how far contamination has traveled.
 

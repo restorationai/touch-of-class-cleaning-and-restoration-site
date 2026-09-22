@@ -38,7 +38,7 @@ Structural stabilization comes next when load-bearing elements have been comprom
 
 Odor removal in fire damage is a process, not a single treatment. Thermal fogging, hydroxyl generation, and ozone application each address different odor compounds in different materials. Soot on hard surfaces requires specific chemical agents matched to the surface type, because the wrong cleaner can permanently set staining rather than lift it. Porous materials, including insulation, carpet padding, and some cabinetry, often require removal rather than cleaning once smoke has fully penetrated them.
 
-Final reconstruction brings the structure back to pre-loss condition, coordinating with local building requirements for any permitted work.
+Final reconstruction, handled by your rebuild contractor, brings the structure back to pre-loss condition, coordinating with local building requirements for any permitted work.
 
 ## Reaching Clinton Township from Macomb
 

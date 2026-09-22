@@ -32,7 +32,7 @@ Septic systems are less common in Rochester Hills than in more rural parts of Oa
 
 Sewage is classified as Category 3 water, the most hazardous category in the restoration industry, because it contains bacteria, viruses, and other pathogens that pose a genuine health risk. The process for addressing it is methodical and non-negotiable.
 
-The first step on arrival is containment. Affected areas are isolated to prevent cross-contamination to unaffected rooms. Standing sewage is extracted using truck-mounted or portable extraction equipment, depending on access. Solid waste is bagged and disposed of according to applicable regulations for biohazardous material.
+The first step on arrival is containment. Affected areas are isolated to prevent cross-contamination to unaffected rooms. Standing sewage is extracted using truck-mounted or portable extraction equipment, depending on access. Solid waste is bagged and disposed of according to applicable regulations for contaminated material.
 
 Once bulk removal is complete, the real work begins. Porous materials, including drywall, insulation, carpet, and padding, that have contacted sewage are removed and disposed of. These materials cannot be adequately sanitized in place. Structural components that can be retained, including concrete floors, block walls, and wood framing above the contamination line, are cleaned with EPA-registered antimicrobial agents and allowed to dry under controlled conditions. Moisture readings are taken throughout the drying period to confirm that structural materials reach acceptable moisture content before any reconstruction begins. The goal is a space that is genuinely safe, not just one that looks clean.
 

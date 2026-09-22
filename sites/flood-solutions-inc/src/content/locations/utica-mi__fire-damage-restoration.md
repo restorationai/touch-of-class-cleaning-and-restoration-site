@@ -38,7 +38,7 @@ From there, the process moves through several distinct phases:
 - **Soot and smoke residue removal**, using dry-chemical sponges and HEPA-filtered equipment calibrated to the surface type. Plaster requires a different approach than drywall or exposed brick.
 - **Odor neutralization**, using thermal fogging or hydroxyl generation to reach the same cavities smoke traveled through. Surface deodorizers alone do not resolve embedded odor in older construction.
 - **Content evaluation**, separating salvageable items from those that require disposal, and coordinating pack-out when needed.
-- **Reconstruction**, returning the home to its pre-loss condition, including drywall, trim, flooring, and paint matching.
+- **Reconstruction handoff**, providing your rebuild contractor a documented scope of what was removed, drywall, trim, flooring, and finishes, so the home is returned to its pre-loss condition without re-measuring from scratch.
 
 The sequence is adjusted based on what the assessment reveals. A kitchen fire with contained smoke behaves very differently from a basement electrical fire that pushed smoke through floor joists into living areas above.
 

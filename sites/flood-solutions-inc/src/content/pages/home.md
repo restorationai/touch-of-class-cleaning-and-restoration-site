@@ -31,7 +31,7 @@ When water backs up through a basement drain, smoke works its way into drywall, 
 
 Nearly three decades working in Macomb County means the team at Flood Solutions Inc. has seen what Michigan weather does to homes, the freeze-thaw cycles that crack foundation walls, the spring storms that overwhelm storm drains, the basement flooding that's practically a rite of passage in communities built on clay-heavy soil. That experience shapes how we approach every job: methodically, with the right equipment, and without cutting corners on the drying or cleaning process.
 
-We work directly with most major insurance carriers. That means we document the damage thoroughly, photographs, moisture readings, written scope, so your adjuster has what they need and you're not left guessing what's covered. You focus on your family or your tenants; we handle the paperwork side of the claim.
+We work directly with most major insurance carriers. That means we document the damage thoroughly, photographs, moisture readings, written scope, so your adjuster has what they need and you're not left guessing what's covered. You focus on your family or your tenants; we communicate with the insurance company and provide whatever paperwork they need.
 
 We're also locally based, which matters when you need someone on-site quickly. Macomb is our home territory, not a market we drive two hours to serve.
 

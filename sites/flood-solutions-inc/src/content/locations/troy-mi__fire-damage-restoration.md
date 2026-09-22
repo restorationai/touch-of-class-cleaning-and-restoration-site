@@ -36,7 +36,7 @@ The first priority after a fire is stabilization: boarding openings, tarping the
 
 Once the structure is stabilized, the work moves to assessment. Soot is not uniform. Wet smoke residue from slow, smoldering fires leaves a sticky, pungent film that clings to HVAC ducts and soft surfaces. Dry smoke from fast, high-heat fires produces a powdery residue that spreads farther but is often easier to clean from hard surfaces. Identifying which type of smoke you're dealing with determines the cleaning chemistry and the sequence of work.
 
-Content pack-out comes next for salvageable belongings, followed by structural cleaning, odor neutralization using thermal fogging or hydroxyl generation, and controlled demolition of materials that cannot be restored. Framing that passes visual and odor inspection is treated and sealed. Reconstruction follows once the structure passes inspection with the city.
+Content pack-out comes next for salvageable belongings, followed by structural cleaning, odor neutralization using thermal fogging or hydroxyl generation, and controlled demolition of materials that cannot be restored. Framing that passes visual and odor inspection is treated and sealed. Reconstruction by your rebuild contractor follows once the structure passes inspection with the city.
 
 Troy requires permits for structural repairs and significant interior work. Coordinating with the city's building department is part of the process, and the timeline for permit review is a real variable that homeowners should factor into their recovery plan.
 

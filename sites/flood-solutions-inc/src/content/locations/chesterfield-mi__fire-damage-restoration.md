@@ -39,7 +39,7 @@ From there, the process moves through these stages:
 - **Chemical sponge and wet cleaning**: Surface-specific cleaning agents matched to the material, whether drywall, wood trim, masonry, or cabinetry.
 - **Deodorization**: Thermal fogging and hydroxyl generation to neutralize odor molecules embedded in soft goods, wall cavities, and ductwork.
 - **Structural drying**: Fire suppression water from sprinklers or hose lines often leaves standing moisture behind. Drying runs concurrently with smoke remediation.
-- **Reconstruction**: Damaged framing, drywall, insulation, and finishes are replaced to pre-loss condition, with documentation at every stage for the insurance file.
+- **Reconstruction handoff**: Damaged framing, drywall, insulation, and finishes are replaced to pre-loss condition by your rebuild contractor, and we provide documentation at every stage for the insurance file.
 
 ## Reaching Chesterfield from Macomb
 

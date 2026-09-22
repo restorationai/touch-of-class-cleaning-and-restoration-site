@@ -84,4 +84,4 @@ Throughout the process, a good restoration contractor communicates directly with
 
 ---
 
-If your commercial property in Macomb County has experienced a water intrusion event, or if you're a property manager trying to build a response plan before something happens, Flood Solutions Inc works with commercial clients on both emergency mitigation and full reconstruction. Reach the team at **(586) 580-0197**.
+If your commercial property in Macomb County has experienced a water intrusion event, or if you're a property manager trying to build a response plan before something happens, Flood Solutions Inc works with commercial clients on emergency mitigation and documented dry-out, then coordinates the handoff to your reconstruction contractor. Reach the team at **(586) 580-0197**.
