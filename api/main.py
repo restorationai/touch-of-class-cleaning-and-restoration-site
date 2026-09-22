@@ -1854,6 +1854,58 @@ def _spam_lookup_verdict(from_num: str) -> str:
     return verdict
 
 
+@app.post("/call-tracking/sms/{company_id}/{source}")
+async def call_tracking_sms(company_id: str, source: str, request: Request):
+    """Twilio SMS webhook for DNI tracking numbers (Rita Look 2026-09-18:
+    she texted Tony's GBP tracking line and the message died — sms_url was
+    empty on every tracking number, fleet-wide). Logs the inbound and
+    forwards it to the owner's cell from the agency's approved HydroZ
+    toll-free, labeled with which line it came in on. Never errors back at
+    Twilio: a webhook 500 would make Twilio retry-spam."""
+    form = await request.form()
+    from_num = str(form.get("From") or "")
+    to_num = str(form.get("To") or "")
+    body = str(form.get("Body") or "").strip()
+    try:
+        sb().table("messages").insert({
+            "company_id": company_id, "direction": "inbound",
+            "content": body, "status": "received",
+            "source": f"tracking-{source}",
+            "sender_id": from_num, "message_type": "sms",
+        }).execute()
+    except Exception as e:  # noqa: BLE001
+        print("[tracking-sms] log failed:", str(e)[:120])
+    try:
+        co = (sb().table("companies")
+              .select("phone,integration_settings,name")
+              .eq("id", company_id).limit(1).execute().data or [{}])[0]
+        ints = co.get("integration_settings") or {}
+        if isinstance(ints, str):
+            ints = json.loads(ints or "{}")
+        owner = (ints.get("owner_cell") or co.get("phone") or "")
+        owner = "+1" + re.sub(r"\D", "", owner)[-10:] if owner else ""
+        if owner and body:
+            import requests as _rq
+            label = {"gbp": "Google Business", "google_ads": "Google Ads",
+                     "website": "website", "bing": "Bing", "yelp": "Yelp",
+                     "gemini": "Gemini", "chatgpt": "ChatGPT"}.get(
+                         source, source)
+            note = (f"A customer texted your {label} tracking line "
+                    f"({to_num}). From {from_num}:\n\n{body}\n\n"
+                    "You can reply to them directly at their number.")
+            _rq.post(
+                "https://api.twilio.com/2010-04-01/Accounts/"
+                "AC7fda75e56b54d75ca02b31082c42142b/Messages.json",
+                auth=(os.environ["TWILIO_MASTER_ACCOUNT_SID"],
+                      os.environ["TWILIO_MASTER_AUTH_TOKEN"]),
+                data={"To": owner, "From": "+18337271056", "Body": note},
+                timeout=30)
+    except Exception as e:  # noqa: BLE001
+        print("[tracking-sms] forward failed:", str(e)[:150])
+    from fastapi.responses import Response as _Resp
+    return _Resp(content="<Response/>", media_type="application/xml")
+
+
 @app.post("/call-tracking/twiml/{company_id}/{source}")
 async def call_tracking_twiml(company_id: str, source: str, request: Request,
                               background_tasks: BackgroundTasks):
