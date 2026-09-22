@@ -27,23 +27,23 @@ const reviewsUrl = brand.placeId
 ---
 
 {hasRating && (
-  <section class="bg-navy pb-16">
+  <section class="bg-white pb-16">
     <div class="container-wide">
-      <div class="max-w-content mx-auto rounded-lg border border-white/10 bg-white/5 p-6 md:p-8">
+      <div class="max-w-content mx-auto rounded-lg border border-dark/10 bg-dark/5 p-6 md:p-8">
         <div class="flex gap-1 text-amber-400 mb-3" aria-hidden="true">
           {Array.from({ length: Math.min(5, Math.round(parseFloat(rating))) }).map(() => (
             <Star size={16} class="fill-current" />
           ))}
         </div>
-        <p class="m-0 text-lg md:text-xl font-black text-white">{heading}</p>
+        <p class="m-0 text-lg md:text-xl font-black text-dark-900">{heading}</p>
         {review && (
-          <blockquote class="m-0 mt-4 p-0 border-0 text-white/80 text-sm leading-relaxed">
+          <blockquote class="m-0 mt-4 p-0 border-0 text-dark-700 text-sm leading-relaxed">
             “{review.text}”
-            <span class="text-white/60 font-bold"> — {review.author}{review.when ? `, ${review.when}` : ""}</span>
+            <span class="text-dark-700/70 font-bold"> — {review.author}{review.when ? `, ${review.when}` : ""}</span>
           </blockquote>
         )}
         {reviewsUrl && (
-          <a href={reviewsUrl} target="_blank" rel="noopener" class="inline-block mt-4 text-xs font-black uppercase tracking-widest text-primary-200 no-underline hover:underline">
+          <a href={reviewsUrl} target="_blank" rel="noopener" class="inline-block mt-4 text-xs font-black uppercase tracking-widest text-primary-600 no-underline hover:underline">
             Read our reviews on Google →
           </a>
         )}
