@@ -638,10 +638,10 @@
     },
     {
       "id": "2026-08-03-does-homeowners-insurance-cover-storm-damage",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-03T00:00:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-22T15:26:53Z",
+      "post_url": "https://homepriderestorationandcleaning.com/blog/does-homeowners-insurance-cover-storm-damage/",
       "primary_keyword": "does homeowners insurance cover storm damage",
       "intent": "informational",
       "volume": 70,
