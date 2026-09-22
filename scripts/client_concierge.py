@@ -6755,7 +6755,10 @@ def cmd_compose(args) -> int:
                           "good, say the word and we'll get it ready to go "
                           "live.")
                 try:
-                    send_message(contact, "sms", body, company=company)
+                    _res = send_message(contact, "sms", body,
+                                        company=company)
+                    record_sent_message(state, _res)
+                    save_state(state, dry_run=False)
                     print("  [reveal-followup] one-nudge follow-up SENT "
                           "(deterministic)")
                 except SendBlocked as e:
