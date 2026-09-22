@@ -1245,7 +1245,7 @@
     },
     {
       "id": "2026-09-15-fire-damage-restoration-sunrise-manor",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-15T14:24:35Z",
       "priority": 1,
       "prioritized": true,
@@ -1304,7 +1304,8 @@
           "context": "PuroClean of East Las Vegas is an IICRC-certified restoration company serving Sunrise Manor, Las Vega",
           "reason": "names a certification not present in brand.certifications"
         }
-      ]
+      ],
+      "published_verified_at": "2026-09-22T15:31:41Z"
     }
   ]
 }
