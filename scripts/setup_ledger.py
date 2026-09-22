@@ -2238,7 +2238,22 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                                  f"?company_id=eq.{cid}&status=eq.open"
                                  "&select=body&limit=20",
                                  prefer="return=representation") or [])
-                if not _ever and not _hold:
+                # CUT-OVER GATE (Santino 2026-09-22: the render-completion
+                # fix flipped RX/DISS/CRW to "fully built" and the first-
+                # build cards fired for clients whose sites are LIVE on
+                # their own domains — a "here's your preview" to them would
+                # be absurd). A client serving on their apex never gets the
+                # preview-share ask seeded, notes or no notes.
+                _cut = False
+                try:
+                    _cj = json.loads(
+                        (CLIENTS_DIR / f"{slug}.json").read_text())
+                    _cut = bool(_cj.get("cut_over_at")
+                                or _cj.get("build_status") == "cut_over"
+                                or (_cj.get("apex_cutover") or {}).get("done"))
+                except Exception:  # noqa: BLE001
+                    pass
+                if not _ever and not _hold and not _cut:
                     _preview = (_site.get("cloudflare_pages_url")
                                 or f"https://staging.rankai-{slug}.pages.dev")
                     if not dry_run:
