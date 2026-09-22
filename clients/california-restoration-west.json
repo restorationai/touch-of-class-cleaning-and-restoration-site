@@ -26,7 +26,7 @@
     "last_pushed_main_at": "2026-09-22T15:13:58.450937+00:00",
     "last_pushed_staging_at": "2026-08-27T20:08:23.264723+00:00"
   },
-  "build_status": "pushed_main",
+  "build_status": "cut_over",
   "cutover_prep": {
     "domain": "californiarestorationwest.com",
     "harvested_at": "2026-08-26T06:46:43+00:00",
@@ -50,5 +50,6 @@
   },
   "gbp": {
     "place_id": "ChIJx7cmNM8b-ioRFlPXDWY8C-A"
-  }
+  },
+  "cut_over_at": "2026-09-22T00:00:00+00:00"
 }
