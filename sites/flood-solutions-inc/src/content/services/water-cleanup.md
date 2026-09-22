@@ -6,7 +6,7 @@ meta_description: "Water cleanup in Macomb and surrounding areas. Insurance bill
 primary_keyword: "water cleanup macomb"
 secondary_keywords: ["water damage cleanup", "water clean up", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
-priority: 8.1
+priority: 8.0
 plan_hash: "9d69cc517b96de4e"
 generated_at: "2026-09-11T16:30:29.046054+00:00"
 manual_override: false

@@ -6,7 +6,7 @@ meta_description: "Fire damage restoration in Macomb and surrounding areas. Insu
 primary_keyword: "fire damage restoration macomb"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
-priority: 9.0
+priority: 7.0
 plan_hash: "198df4cfe0a2339c"
 generated_at: "2026-09-21T16:56:24.812418+00:00"
 manual_override: false

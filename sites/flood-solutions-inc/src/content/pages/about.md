@@ -23,7 +23,7 @@ Most days start with a phone call from someone who didn't plan on making it. A b
 
 Insurance claims are a significant part of what we handle. We photograph and document affected materials, write scopes that carriers recognize, and bill directly where possible so homeowners aren't left managing paperwork on top of an already difficult situation.
 
-## Our certifications and licensure
+## Our certifications and licensing
 
 The restoration industry has standards, the IICRC (Institute of Inspection, Cleaning and Restoration Certification) sets the technical benchmarks that define how water damage is categorized, how drying is validated, and what constitutes a completed remediation. Working to those standards matters because it's the difference between a structure that reads dry and one that actually is dry.
 

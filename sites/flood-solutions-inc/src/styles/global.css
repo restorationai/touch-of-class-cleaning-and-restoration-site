@@ -76,6 +76,12 @@
     @apply max-w-content mx-auto text-dark-700;
   }
   .prose-body :where(h2, h3, h4) { @apply text-dark-900; }
+  /* Markdown section headings need breathing room above them; the global h2
+     rule sets mt-0 for hero/section titles, so restore top spacing for
+     in-article section breaks (Will Clark 09-22: space above the section
+     headings on the service pages). :not(:first-child) leaves an optional
+     leading prose heading flush to the section top. */
+  .prose-body :where(h2):not(:first-child) { @apply mt-12; }
   .prose-body :where(a) { @apply text-primary-700; }
   .prose-body :where(strong) { @apply text-dark-900; }
 }

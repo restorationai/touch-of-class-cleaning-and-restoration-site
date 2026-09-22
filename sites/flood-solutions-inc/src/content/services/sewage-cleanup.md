@@ -6,7 +6,7 @@ meta_description: "Sewage cleanup and sanitization in Macomb and surrounding are
 primary_keyword: "sewage cleanup and sanitization macomb"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
-priority: 8.1
+priority: 8.5
 plan_hash: "6698a619c014eba9"
 generated_at: "2026-09-21T16:56:13.761785+00:00"
 manual_override: false

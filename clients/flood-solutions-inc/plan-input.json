@@ -30,9 +30,9 @@
   },
   "services": [
     "water-damage-restoration",
+    "sewage-cleanup",
     "water-cleanup",
-    "fire-damage-restoration",
-    "sewage-cleanup"
+    "fire-damage-restoration"
   ],
   "service_areas": [
     {
