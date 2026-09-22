@@ -255,6 +255,11 @@
       "city": "Pine Level",
       "state": "NC",
       "slug": "pine-level-nc"
+    },
+    {
+      "city": "Louisburg",
+      "state": "NC",
+      "slug": "louisburg-nc"
     }
   ],
   "template": "restoration",

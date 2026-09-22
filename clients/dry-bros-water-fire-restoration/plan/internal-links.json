@@ -29,6 +29,7 @@
     "/service-areas/forest-park-il/",
     "/service-areas/lincolnwood-il/",
     "/service-areas/lyons-il/",
+    "/service-areas/maywood-il/",
     "/service-areas/melrose-park-il/",
     "/service-areas/naperville-il/",
     "/service-areas/north-riverside-il/",
@@ -68,6 +69,7 @@
     "/service-areas/forest-park-il/",
     "/service-areas/lincolnwood-il/",
     "/service-areas/lyons-il/",
+    "/service-areas/maywood-il/",
     "/service-areas/melrose-park-il/",
     "/service-areas/naperville-il/",
     "/service-areas/north-riverside-il/",
@@ -716,6 +718,26 @@
     "/service-areas/bedford-park-il/",
     "/service-areas/berwyn-il/",
     "/service-areas/burbank-il/"
+  ],
+  "/service-areas/maywood-il/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/maywood-il/fire-damage-restoration/",
+    "/service-areas/maywood-il/mold-remediation/",
+    "/service-areas/maywood-il/water-damage-restoration/",
+    "/service-areas/maywood-il/flood-damage-restoration/",
+    "/service-areas/maywood-il/sewage-cleanup/",
+    "/service-areas/maywood-il/smoke-damage-restoration/",
+    "/service-areas/maywood-il/storm-damage-restoration/",
+    "/service-areas/maywood-il/water-cleanup/",
+    "/service-areas/maywood-il/basement-flooding-cleanup/",
+    "/service-areas/maywood-il/burst-pipe-repair/",
+    "/service-areas/maywood-il/emergency-board-up-tarping/",
+    "/service-areas/maywood-il/odor-removal/",
+    "/service-areas/maywood-il/contents-restoration/",
+    "/service-areas/bedford-park-il/",
+    "/service-areas/berwyn-il/",
+    "/service-areas/brookfield-il/"
   ],
   "/service-areas/naperville-il/water-damage-restoration/": [
     "/services/water-damage-restoration/",
@@ -3053,6 +3075,123 @@
     "/service-areas/brookfield-il/",
     "/service-areas/brookfield-il/fire-damage-restoration/",
     "/service-areas/brookfield-il/mold-remediation/",
+    "/service-areas/bedford-park-il/contents-restoration/",
+    "/service-areas/berwyn-il/contents-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/maywood-il/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/maywood-il/",
+    "/service-areas/maywood-il/fire-damage-restoration/",
+    "/service-areas/maywood-il/mold-remediation/",
+    "/service-areas/bedford-park-il/water-damage-restoration/",
+    "/service-areas/berwyn-il/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/maywood-il/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/maywood-il/",
+    "/service-areas/maywood-il/mold-remediation/",
+    "/service-areas/maywood-il/water-damage-restoration/",
+    "/service-areas/bedford-park-il/fire-damage-restoration/",
+    "/service-areas/berwyn-il/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/maywood-il/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/maywood-il/",
+    "/service-areas/maywood-il/fire-damage-restoration/",
+    "/service-areas/maywood-il/water-damage-restoration/",
+    "/service-areas/bedford-park-il/mold-remediation/",
+    "/service-areas/berwyn-il/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/maywood-il/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/maywood-il/",
+    "/service-areas/maywood-il/fire-damage-restoration/",
+    "/service-areas/maywood-il/mold-remediation/",
+    "/service-areas/bedford-park-il/water-cleanup/",
+    "/service-areas/berwyn-il/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/maywood-il/flood-damage-restoration/": [
+    "/services/flood-damage-restoration/",
+    "/service-areas/maywood-il/",
+    "/service-areas/maywood-il/fire-damage-restoration/",
+    "/service-areas/maywood-il/mold-remediation/",
+    "/service-areas/bedford-park-il/flood-damage-restoration/",
+    "/service-areas/berwyn-il/flood-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/maywood-il/burst-pipe-repair/": [
+    "/services/burst-pipe-repair/",
+    "/service-areas/maywood-il/",
+    "/service-areas/maywood-il/fire-damage-restoration/",
+    "/service-areas/maywood-il/mold-remediation/",
+    "/service-areas/bedford-park-il/burst-pipe-repair/",
+    "/service-areas/berwyn-il/burst-pipe-repair/",
+    "/contact/"
+  ],
+  "/service-areas/maywood-il/basement-flooding-cleanup/": [
+    "/services/basement-flooding-cleanup/",
+    "/service-areas/maywood-il/",
+    "/service-areas/maywood-il/fire-damage-restoration/",
+    "/service-areas/maywood-il/mold-remediation/",
+    "/service-areas/bedford-park-il/basement-flooding-cleanup/",
+    "/service-areas/berwyn-il/basement-flooding-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/maywood-il/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/maywood-il/",
+    "/service-areas/maywood-il/fire-damage-restoration/",
+    "/service-areas/maywood-il/mold-remediation/",
+    "/service-areas/bedford-park-il/sewage-cleanup/",
+    "/service-areas/berwyn-il/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/maywood-il/smoke-damage-restoration/": [
+    "/services/smoke-damage-restoration/",
+    "/service-areas/maywood-il/",
+    "/service-areas/maywood-il/fire-damage-restoration/",
+    "/service-areas/maywood-il/mold-remediation/",
+    "/service-areas/bedford-park-il/smoke-damage-restoration/",
+    "/service-areas/berwyn-il/smoke-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/maywood-il/odor-removal/": [
+    "/services/odor-removal/",
+    "/service-areas/maywood-il/",
+    "/service-areas/maywood-il/fire-damage-restoration/",
+    "/service-areas/maywood-il/mold-remediation/",
+    "/service-areas/bedford-park-il/odor-removal/",
+    "/service-areas/berwyn-il/odor-removal/",
+    "/contact/"
+  ],
+  "/service-areas/maywood-il/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/maywood-il/",
+    "/service-areas/maywood-il/fire-damage-restoration/",
+    "/service-areas/maywood-il/mold-remediation/",
+    "/service-areas/bedford-park-il/storm-damage-restoration/",
+    "/service-areas/berwyn-il/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/maywood-il/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/maywood-il/",
+    "/service-areas/maywood-il/fire-damage-restoration/",
+    "/service-areas/maywood-il/mold-remediation/",
+    "/service-areas/bedford-park-il/emergency-board-up-tarping/",
+    "/service-areas/berwyn-il/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/maywood-il/contents-restoration/": [
+    "/services/contents-restoration/",
+    "/service-areas/maywood-il/",
+    "/service-areas/maywood-il/fire-damage-restoration/",
+    "/service-areas/maywood-il/mold-remediation/",
     "/service-areas/bedford-park-il/contents-restoration/",
     "/service-areas/berwyn-il/contents-restoration/",
     "/contact/"

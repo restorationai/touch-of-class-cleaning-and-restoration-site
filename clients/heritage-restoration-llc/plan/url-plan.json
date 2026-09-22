@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-22T02:11:24.041952+00:00",
+  "generated_at": "2026-09-22T14:27:48.884552+00:00",
   "input_summary": {
     "service_count": 4,
-    "service_area_count": 22,
+    "service_area_count": 23,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -64,6 +64,7 @@
         "/service-areas/sauk-rapids-mn/",
         "/service-areas/sobieski-mn/",
         "/service-areas/st-cloud-mn/",
+        "/service-areas/st-joseph-mn/",
         "/service-areas/st-stephen-mn/",
         "/service-areas/swanville-mn/",
         "/service-areas/upsala-mn/"
@@ -152,6 +153,7 @@
         "/service-areas/sauk-rapids-mn/",
         "/service-areas/sobieski-mn/",
         "/service-areas/st-cloud-mn/",
+        "/service-areas/st-joseph-mn/",
         "/service-areas/st-stephen-mn/",
         "/service-areas/swanville-mn/",
         "/service-areas/upsala-mn/"
@@ -1326,6 +1328,47 @@
         "/service-areas/albany-mn/",
         "/service-areas/baxter-mn/",
         "/service-areas/brainerd-mn/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/st-joseph-mn/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in St. Joseph, MN | Heritage Restoration LLC",
+      "h1": "Restoration Services in St. Joseph",
+      "meta_description": "Serving St. Joseph, MN with water, fire, mold, and storm damage restoration. IICRC-certified team. Call (320) 733-8868.",
+      "primary_keyword": "restoration services st. joseph",
+      "secondary_keywords": [
+        "st. joseph restoration company",
+        "damage restoration st. joseph",
+        "st. joseph disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/st-joseph-mn/water-damage-restoration/",
+        "/service-areas/st-joseph-mn/storm-damage-restoration/",
+        "/service-areas/st-joseph-mn/water-cleanup/",
+        "/service-areas/st-joseph-mn/general-contracting/",
+        "/service-areas/albany-mn/",
+        "/service-areas/avon-mn/",
+        "/service-areas/baxter-mn/"
       ]
     },
     {
@@ -5042,6 +5085,183 @@
         "/service-areas/avon-mn/storm-damage-restoration/",
         "/service-areas/albany-mn/water-cleanup/",
         "/service-areas/baxter-mn/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/st-joseph-mn/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in St. Joseph, MN | Heritage Restoration LLC",
+      "h1": "Water Damage Restoration in St. Joseph",
+      "meta_description": "Water damage restoration in St. Joseph, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "water damage restoration st. joseph",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/st-joseph-mn/",
+        "/service-areas/st-joseph-mn/storm-damage-restoration/",
+        "/service-areas/st-joseph-mn/water-cleanup/",
+        "/service-areas/albany-mn/water-damage-restoration/",
+        "/service-areas/avon-mn/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/st-joseph-mn/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in St. Joseph, MN | Heritage Restoration LLC",
+      "h1": "Storm Damage Restoration in St. Joseph",
+      "meta_description": "Storm damage restoration in St. Joseph, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "storm damage restoration st. joseph",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/st-joseph-mn/",
+        "/service-areas/st-joseph-mn/water-damage-restoration/",
+        "/service-areas/st-joseph-mn/water-cleanup/",
+        "/service-areas/albany-mn/storm-damage-restoration/",
+        "/service-areas/avon-mn/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/st-joseph-mn/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in St. Joseph, MN | Heritage Restoration LLC",
+      "h1": "Renovations, Remodels and General Contracting in St. Joseph",
+      "meta_description": "Renovations, remodels and general contracting in St. Joseph, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "renovations, remodels and general contracting st. joseph",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/st-joseph-mn/",
+        "/service-areas/st-joseph-mn/water-damage-restoration/",
+        "/service-areas/st-joseph-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/general-contracting/",
+        "/service-areas/avon-mn/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/st-joseph-mn/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Cleanup in St. Joseph, MN | Heritage Restoration LLC",
+      "h1": "Water Cleanup in St. Joseph",
+      "meta_description": "Water cleanup in St. Joseph, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
+      "primary_keyword": "emergency water cleanup st. joseph",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/st-joseph-mn/",
+        "/service-areas/st-joseph-mn/water-damage-restoration/",
+        "/service-areas/st-joseph-mn/storm-damage-restoration/",
+        "/service-areas/albany-mn/water-cleanup/",
+        "/service-areas/avon-mn/water-cleanup/",
         "/contact/"
       ]
     },

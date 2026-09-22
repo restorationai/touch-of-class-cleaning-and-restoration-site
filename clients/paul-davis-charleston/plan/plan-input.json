@@ -102,6 +102,11 @@
       "city": "Ridgeville",
       "state": "SC",
       "slug": "ridgeville-sc"
+    },
+    {
+      "city": "Seabrook Island",
+      "state": "SC",
+      "slug": "seabrook-island-sc"
     }
   ]
 }

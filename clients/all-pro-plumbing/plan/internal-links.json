@@ -38,6 +38,7 @@
     "/service-areas/oildale-ca/",
     "/service-areas/rosedale-ca/",
     "/service-areas/shafter-ca/",
+    "/service-areas/stallion-springs-ca/",
     "/service-areas/taft-ca/",
     "/service-areas/tarina-ca/",
     "/service-areas/tehachapi-ca/",
@@ -85,6 +86,7 @@
     "/service-areas/oildale-ca/",
     "/service-areas/rosedale-ca/",
     "/service-areas/shafter-ca/",
+    "/service-areas/stallion-springs-ca/",
     "/service-areas/taft-ca/",
     "/service-areas/tarina-ca/",
     "/service-areas/tehachapi-ca/",
@@ -1036,6 +1038,35 @@
     "/service-areas/woody-ca/sump-pumps/",
     "/service-areas/woody-ca/water-softeners-filtration/",
     "/service-areas/woody-ca/garbage-disposal/",
+    "/service-areas/arvin-ca/",
+    "/service-areas/bear-valley-springs-ca/",
+    "/service-areas/buttonwillow-ca/"
+  ],
+  "/service-areas/stallion-springs-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/stallion-springs-ca/ac-repair/",
+    "/service-areas/stallion-springs-ca/drain-cleaning/",
+    "/service-areas/stallion-springs-ca/emergency-plumbing/",
+    "/service-areas/stallion-springs-ca/water-heater-repair/",
+    "/service-areas/stallion-springs-ca/ac-installation/",
+    "/service-areas/stallion-springs-ca/burst-pipe-repair/",
+    "/service-areas/stallion-springs-ca/furnace-repair/",
+    "/service-areas/stallion-springs-ca/sewer-line-repair/",
+    "/service-areas/stallion-springs-ca/water-heater-installation/",
+    "/service-areas/stallion-springs-ca/furnace-installation/",
+    "/service-areas/stallion-springs-ca/gas-line-services/",
+    "/service-areas/stallion-springs-ca/ductless-mini-splits/",
+    "/service-areas/stallion-springs-ca/heat-pump-services/",
+    "/service-areas/stallion-springs-ca/leak-detection/",
+    "/service-areas/stallion-springs-ca/repiping/",
+    "/service-areas/stallion-springs-ca/slab-leak-repair/",
+    "/service-areas/stallion-springs-ca/toilet-faucet-repair/",
+    "/service-areas/stallion-springs-ca/ductwork/",
+    "/service-areas/stallion-springs-ca/indoor-air-quality/",
+    "/service-areas/stallion-springs-ca/sump-pumps/",
+    "/service-areas/stallion-springs-ca/water-softeners-filtration/",
+    "/service-areas/stallion-springs-ca/garbage-disposal/",
     "/service-areas/arvin-ca/",
     "/service-areas/bear-valley-springs-ca/",
     "/service-areas/buttonwillow-ca/"
@@ -4798,6 +4829,204 @@
     "/service-areas/woody-ca/",
     "/service-areas/woody-ca/ac-repair/",
     "/service-areas/woody-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/indoor-air-quality/",
+    "/service-areas/bear-valley-springs-ca/indoor-air-quality/",
+    "/contact/"
+  ],
+  "/service-areas/stallion-springs-ca/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/stallion-springs-ca/",
+    "/service-areas/stallion-springs-ca/ac-repair/",
+    "/service-areas/stallion-springs-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/emergency-plumbing/",
+    "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/stallion-springs-ca/burst-pipe-repair/": [
+    "/services/burst-pipe-repair/",
+    "/service-areas/stallion-springs-ca/",
+    "/service-areas/stallion-springs-ca/ac-repair/",
+    "/service-areas/stallion-springs-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/burst-pipe-repair/",
+    "/service-areas/bear-valley-springs-ca/burst-pipe-repair/",
+    "/contact/"
+  ],
+  "/service-areas/stallion-springs-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/stallion-springs-ca/",
+    "/service-areas/stallion-springs-ca/ac-repair/",
+    "/service-areas/stallion-springs-ca/emergency-plumbing/",
+    "/service-areas/arvin-ca/drain-cleaning/",
+    "/service-areas/bear-valley-springs-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/stallion-springs-ca/sewer-line-repair/": [
+    "/services/sewer-line-repair/",
+    "/service-areas/stallion-springs-ca/",
+    "/service-areas/stallion-springs-ca/ac-repair/",
+    "/service-areas/stallion-springs-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/sewer-line-repair/",
+    "/service-areas/bear-valley-springs-ca/sewer-line-repair/",
+    "/contact/"
+  ],
+  "/service-areas/stallion-springs-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/stallion-springs-ca/",
+    "/service-areas/stallion-springs-ca/ac-repair/",
+    "/service-areas/stallion-springs-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/water-heater-repair/",
+    "/service-areas/bear-valley-springs-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/stallion-springs-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/stallion-springs-ca/",
+    "/service-areas/stallion-springs-ca/ac-repair/",
+    "/service-areas/stallion-springs-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/water-heater-installation/",
+    "/service-areas/bear-valley-springs-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/stallion-springs-ca/leak-detection/": [
+    "/services/leak-detection/",
+    "/service-areas/stallion-springs-ca/",
+    "/service-areas/stallion-springs-ca/ac-repair/",
+    "/service-areas/stallion-springs-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/leak-detection/",
+    "/service-areas/bear-valley-springs-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/stallion-springs-ca/slab-leak-repair/": [
+    "/services/slab-leak-repair/",
+    "/service-areas/stallion-springs-ca/",
+    "/service-areas/stallion-springs-ca/ac-repair/",
+    "/service-areas/stallion-springs-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/slab-leak-repair/",
+    "/service-areas/bear-valley-springs-ca/slab-leak-repair/",
+    "/contact/"
+  ],
+  "/service-areas/stallion-springs-ca/repiping/": [
+    "/services/repiping/",
+    "/service-areas/stallion-springs-ca/",
+    "/service-areas/stallion-springs-ca/ac-repair/",
+    "/service-areas/stallion-springs-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/repiping/",
+    "/service-areas/bear-valley-springs-ca/repiping/",
+    "/contact/"
+  ],
+  "/service-areas/stallion-springs-ca/gas-line-services/": [
+    "/services/gas-line-services/",
+    "/service-areas/stallion-springs-ca/",
+    "/service-areas/stallion-springs-ca/ac-repair/",
+    "/service-areas/stallion-springs-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/gas-line-services/",
+    "/service-areas/bear-valley-springs-ca/gas-line-services/",
+    "/contact/"
+  ],
+  "/service-areas/stallion-springs-ca/sump-pumps/": [
+    "/services/sump-pumps/",
+    "/service-areas/stallion-springs-ca/",
+    "/service-areas/stallion-springs-ca/ac-repair/",
+    "/service-areas/stallion-springs-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/sump-pumps/",
+    "/service-areas/bear-valley-springs-ca/sump-pumps/",
+    "/contact/"
+  ],
+  "/service-areas/stallion-springs-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/stallion-springs-ca/",
+    "/service-areas/stallion-springs-ca/ac-repair/",
+    "/service-areas/stallion-springs-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/water-softeners-filtration/",
+    "/service-areas/bear-valley-springs-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/stallion-springs-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/stallion-springs-ca/",
+    "/service-areas/stallion-springs-ca/ac-repair/",
+    "/service-areas/stallion-springs-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/toilet-faucet-repair/",
+    "/service-areas/bear-valley-springs-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/stallion-springs-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/stallion-springs-ca/",
+    "/service-areas/stallion-springs-ca/ac-repair/",
+    "/service-areas/stallion-springs-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/garbage-disposal/",
+    "/service-areas/bear-valley-springs-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/stallion-springs-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/stallion-springs-ca/",
+    "/service-areas/stallion-springs-ca/ac-repair/",
+    "/service-areas/stallion-springs-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/furnace-repair/",
+    "/service-areas/bear-valley-springs-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/stallion-springs-ca/furnace-installation/": [
+    "/services/furnace-installation/",
+    "/service-areas/stallion-springs-ca/",
+    "/service-areas/stallion-springs-ca/ac-repair/",
+    "/service-areas/stallion-springs-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/furnace-installation/",
+    "/service-areas/bear-valley-springs-ca/furnace-installation/",
+    "/contact/"
+  ],
+  "/service-areas/stallion-springs-ca/heat-pump-services/": [
+    "/services/heat-pump-services/",
+    "/service-areas/stallion-springs-ca/",
+    "/service-areas/stallion-springs-ca/ac-repair/",
+    "/service-areas/stallion-springs-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/heat-pump-services/",
+    "/service-areas/bear-valley-springs-ca/heat-pump-services/",
+    "/contact/"
+  ],
+  "/service-areas/stallion-springs-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/stallion-springs-ca/",
+    "/service-areas/stallion-springs-ca/drain-cleaning/",
+    "/service-areas/stallion-springs-ca/emergency-plumbing/",
+    "/service-areas/arvin-ca/ac-repair/",
+    "/service-areas/bear-valley-springs-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/stallion-springs-ca/ac-installation/": [
+    "/services/ac-installation/",
+    "/service-areas/stallion-springs-ca/",
+    "/service-areas/stallion-springs-ca/ac-repair/",
+    "/service-areas/stallion-springs-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/ac-installation/",
+    "/service-areas/bear-valley-springs-ca/ac-installation/",
+    "/contact/"
+  ],
+  "/service-areas/stallion-springs-ca/ductless-mini-splits/": [
+    "/services/ductless-mini-splits/",
+    "/service-areas/stallion-springs-ca/",
+    "/service-areas/stallion-springs-ca/ac-repair/",
+    "/service-areas/stallion-springs-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/ductless-mini-splits/",
+    "/service-areas/bear-valley-springs-ca/ductless-mini-splits/",
+    "/contact/"
+  ],
+  "/service-areas/stallion-springs-ca/ductwork/": [
+    "/services/ductwork/",
+    "/service-areas/stallion-springs-ca/",
+    "/service-areas/stallion-springs-ca/ac-repair/",
+    "/service-areas/stallion-springs-ca/drain-cleaning/",
+    "/service-areas/arvin-ca/ductwork/",
+    "/service-areas/bear-valley-springs-ca/ductwork/",
+    "/contact/"
+  ],
+  "/service-areas/stallion-springs-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/stallion-springs-ca/",
+    "/service-areas/stallion-springs-ca/ac-repair/",
+    "/service-areas/stallion-springs-ca/drain-cleaning/",
     "/service-areas/arvin-ca/indoor-air-quality/",
     "/service-areas/bear-valley-springs-ca/indoor-air-quality/",
     "/contact/"

@@ -279,6 +279,11 @@
       "city": "Woody",
       "state": "CA",
       "slug": "woody-ca"
+    },
+    {
+      "city": "Stallion Springs",
+      "state": "CA",
+      "slug": "stallion-springs-ca"
     }
   ],
   "brand": {

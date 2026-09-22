@@ -15,6 +15,7 @@
     "/services/water-damage-restoration/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/",
+    "/service-areas/elkmont-al/",
     "/service-areas/gurley-al/",
     "/service-areas/harvest-al/",
     "/service-areas/hazel-green-al/",
@@ -45,6 +46,7 @@
     "/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/",
+    "/service-areas/elkmont-al/",
     "/service-areas/gurley-al/",
     "/service-areas/harvest-al/",
     "/service-areas/hazel-green-al/",
@@ -89,6 +91,7 @@
     "/contact/",
     "/service-areas/ardmore-al/home-remodeling/",
     "/service-areas/athens-al/home-remodeling/",
+    "/service-areas/elkmont-al/home-remodeling/",
     "/service-areas/gurley-al/home-remodeling/",
     "/service-areas/harvest-al/home-remodeling/",
     "/service-areas/hazel-green-al/home-remodeling/",
@@ -98,7 +101,6 @@
     "/service-areas/new-hope-al/home-remodeling/",
     "/service-areas/new-market-al/home-remodeling/",
     "/service-areas/owens-cross-roads-al/home-remodeling/",
-    "/service-areas/priceville-al/home-remodeling/",
     "/blog/choosing-a-general-contractor/",
     "/blog/how-to-plan-a-home-remodel/",
     "/blog/do-you-need-a-permit/"
@@ -108,6 +110,7 @@
     "/contact/",
     "/service-areas/ardmore-al/new-construction/",
     "/service-areas/athens-al/new-construction/",
+    "/service-areas/elkmont-al/new-construction/",
     "/service-areas/gurley-al/new-construction/",
     "/service-areas/harvest-al/new-construction/",
     "/service-areas/hazel-green-al/new-construction/",
@@ -117,7 +120,6 @@
     "/service-areas/new-hope-al/new-construction/",
     "/service-areas/new-market-al/new-construction/",
     "/service-areas/owens-cross-roads-al/new-construction/",
-    "/service-areas/priceville-al/new-construction/",
     "/blog/choosing-a-general-contractor/",
     "/blog/how-long-to-build-a-house/"
   ],
@@ -126,6 +128,7 @@
     "/contact/",
     "/service-areas/ardmore-al/decks-pergolas-fences/",
     "/service-areas/athens-al/decks-pergolas-fences/",
+    "/service-areas/elkmont-al/decks-pergolas-fences/",
     "/service-areas/gurley-al/decks-pergolas-fences/",
     "/service-areas/harvest-al/decks-pergolas-fences/",
     "/service-areas/hazel-green-al/decks-pergolas-fences/",
@@ -135,7 +138,6 @@
     "/service-areas/new-hope-al/decks-pergolas-fences/",
     "/service-areas/new-market-al/decks-pergolas-fences/",
     "/service-areas/owens-cross-roads-al/decks-pergolas-fences/",
-    "/service-areas/priceville-al/decks-pergolas-fences/",
     "/blog/wood-vs-composite-decking/"
   ],
   "/services/roofing/": [
@@ -143,6 +145,7 @@
     "/contact/",
     "/service-areas/ardmore-al/roofing/",
     "/service-areas/athens-al/roofing/",
+    "/service-areas/elkmont-al/roofing/",
     "/service-areas/gurley-al/roofing/",
     "/service-areas/harvest-al/roofing/",
     "/service-areas/hazel-green-al/roofing/",
@@ -152,7 +155,6 @@
     "/service-areas/new-hope-al/roofing/",
     "/service-areas/new-market-al/roofing/",
     "/service-areas/owens-cross-roads-al/roofing/",
-    "/service-areas/priceville-al/roofing/",
     "/blog/roofing-material-comparison/",
     "/blog/how-long-does-roof-replacement-take/",
     "/blog/storm-damage-repair-process/"
@@ -162,6 +164,7 @@
     "/contact/",
     "/service-areas/ardmore-al/siding-gutters/",
     "/service-areas/athens-al/siding-gutters/",
+    "/service-areas/elkmont-al/siding-gutters/",
     "/service-areas/gurley-al/siding-gutters/",
     "/service-areas/harvest-al/siding-gutters/",
     "/service-areas/hazel-green-al/siding-gutters/",
@@ -171,7 +174,6 @@
     "/service-areas/new-hope-al/siding-gutters/",
     "/service-areas/new-market-al/siding-gutters/",
     "/service-areas/owens-cross-roads-al/siding-gutters/",
-    "/service-areas/priceville-al/siding-gutters/",
     "/blog/siding-options-compared/"
   ],
   "/services/painting-trim/": [
@@ -179,6 +181,7 @@
     "/contact/",
     "/service-areas/ardmore-al/painting-trim/",
     "/service-areas/athens-al/painting-trim/",
+    "/service-areas/elkmont-al/painting-trim/",
     "/service-areas/gurley-al/painting-trim/",
     "/service-areas/harvest-al/painting-trim/",
     "/service-areas/hazel-green-al/painting-trim/",
@@ -187,14 +190,14 @@
     "/service-areas/moores-mill-al/painting-trim/",
     "/service-areas/new-hope-al/painting-trim/",
     "/service-areas/new-market-al/painting-trim/",
-    "/service-areas/owens-cross-roads-al/painting-trim/",
-    "/service-areas/priceville-al/painting-trim/"
+    "/service-areas/owens-cross-roads-al/painting-trim/"
   ],
   "/services/water-damage-restoration/": [
     "/services/",
     "/contact/",
     "/service-areas/ardmore-al/water-damage-restoration/",
     "/service-areas/athens-al/water-damage-restoration/",
+    "/service-areas/elkmont-al/water-damage-restoration/",
     "/service-areas/gurley-al/water-damage-restoration/",
     "/service-areas/harvest-al/water-damage-restoration/",
     "/service-areas/hazel-green-al/water-damage-restoration/",
@@ -203,14 +206,14 @@
     "/service-areas/moores-mill-al/water-damage-restoration/",
     "/service-areas/new-hope-al/water-damage-restoration/",
     "/service-areas/new-market-al/water-damage-restoration/",
-    "/service-areas/owens-cross-roads-al/water-damage-restoration/",
-    "/service-areas/priceville-al/water-damage-restoration/"
+    "/service-areas/owens-cross-roads-al/water-damage-restoration/"
   ],
   "/services/storm-damage-restoration/": [
     "/services/",
     "/contact/",
     "/service-areas/ardmore-al/storm-damage-restoration/",
     "/service-areas/athens-al/storm-damage-restoration/",
+    "/service-areas/elkmont-al/storm-damage-restoration/",
     "/service-areas/gurley-al/storm-damage-restoration/",
     "/service-areas/harvest-al/storm-damage-restoration/",
     "/service-areas/hazel-green-al/storm-damage-restoration/",
@@ -220,7 +223,6 @@
     "/service-areas/new-hope-al/storm-damage-restoration/",
     "/service-areas/new-market-al/storm-damage-restoration/",
     "/service-areas/owens-cross-roads-al/storm-damage-restoration/",
-    "/service-areas/priceville-al/storm-damage-restoration/",
     "/blog/storm-damage-insurance-claim-checklist/",
     "/blog/storm-damage-repair-process/"
   ],
@@ -229,6 +231,7 @@
     "/contact/",
     "/service-areas/ardmore-al/mold-remediation/",
     "/service-areas/athens-al/mold-remediation/",
+    "/service-areas/elkmont-al/mold-remediation/",
     "/service-areas/gurley-al/mold-remediation/",
     "/service-areas/harvest-al/mold-remediation/",
     "/service-areas/hazel-green-al/mold-remediation/",
@@ -238,7 +241,6 @@
     "/service-areas/new-hope-al/mold-remediation/",
     "/service-areas/new-market-al/mold-remediation/",
     "/service-areas/owens-cross-roads-al/mold-remediation/",
-    "/service-areas/priceville-al/mold-remediation/",
     "/blog/mold-found-during-renovation/"
   ],
   "/service-areas/huntsville-al/": [
@@ -255,7 +257,7 @@
     "/service-areas/huntsville-al/water-damage-restoration/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/",
-    "/service-areas/gurley-al/"
+    "/service-areas/elkmont-al/"
   ],
   "/service-areas/athens-al/": [
     "/service-areas/",
@@ -270,8 +272,8 @@
     "/service-areas/athens-al/storm-damage-restoration/",
     "/service-areas/athens-al/water-damage-restoration/",
     "/service-areas/ardmore-al/",
-    "/service-areas/gurley-al/",
-    "/service-areas/harvest-al/"
+    "/service-areas/elkmont-al/",
+    "/service-areas/gurley-al/"
   ],
   "/service-areas/moores-mill-al/": [
     "/service-areas/",
@@ -287,7 +289,7 @@
     "/service-areas/moores-mill-al/water-damage-restoration/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/",
-    "/service-areas/gurley-al/"
+    "/service-areas/elkmont-al/"
   ],
   "/service-areas/redstone-arsenal-al/": [
     "/service-areas/",
@@ -303,7 +305,7 @@
     "/service-areas/redstone-arsenal-al/water-damage-restoration/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/",
-    "/service-areas/gurley-al/"
+    "/service-areas/elkmont-al/"
   ],
   "/service-areas/meridianville-al/": [
     "/service-areas/",
@@ -319,7 +321,7 @@
     "/service-areas/meridianville-al/water-damage-restoration/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/",
-    "/service-areas/gurley-al/"
+    "/service-areas/elkmont-al/"
   ],
   "/service-areas/hazel-green-al/": [
     "/service-areas/",
@@ -335,7 +337,7 @@
     "/service-areas/hazel-green-al/water-damage-restoration/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/",
-    "/service-areas/gurley-al/"
+    "/service-areas/elkmont-al/"
   ],
   "/service-areas/new-market-al/": [
     "/service-areas/",
@@ -351,7 +353,7 @@
     "/service-areas/new-market-al/water-damage-restoration/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/",
-    "/service-areas/gurley-al/"
+    "/service-areas/elkmont-al/"
   ],
   "/service-areas/harvest-al/": [
     "/service-areas/",
@@ -367,7 +369,7 @@
     "/service-areas/harvest-al/water-damage-restoration/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/",
-    "/service-areas/gurley-al/"
+    "/service-areas/elkmont-al/"
   ],
   "/service-areas/gurley-al/": [
     "/service-areas/",
@@ -383,7 +385,7 @@
     "/service-areas/gurley-al/water-damage-restoration/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/",
-    "/service-areas/harvest-al/"
+    "/service-areas/elkmont-al/"
   ],
   "/service-areas/owens-cross-roads-al/": [
     "/service-areas/",
@@ -399,7 +401,7 @@
     "/service-areas/owens-cross-roads-al/water-damage-restoration/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/",
-    "/service-areas/gurley-al/"
+    "/service-areas/elkmont-al/"
   ],
   "/service-areas/triana-al/": [
     "/service-areas/",
@@ -415,7 +417,7 @@
     "/service-areas/triana-al/water-damage-restoration/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/",
-    "/service-areas/gurley-al/"
+    "/service-areas/elkmont-al/"
   ],
   "/service-areas/new-hope-al/": [
     "/service-areas/",
@@ -431,7 +433,7 @@
     "/service-areas/new-hope-al/water-damage-restoration/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/",
-    "/service-areas/gurley-al/"
+    "/service-areas/elkmont-al/"
   ],
   "/service-areas/ardmore-al/": [
     "/service-areas/",
@@ -446,8 +448,8 @@
     "/service-areas/ardmore-al/storm-damage-restoration/",
     "/service-areas/ardmore-al/water-damage-restoration/",
     "/service-areas/athens-al/",
-    "/service-areas/gurley-al/",
-    "/service-areas/harvest-al/"
+    "/service-areas/elkmont-al/",
+    "/service-areas/gurley-al/"
   ],
   "/service-areas/priceville-al/": [
     "/service-areas/",
@@ -463,7 +465,7 @@
     "/service-areas/priceville-al/water-damage-restoration/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/",
-    "/service-areas/gurley-al/"
+    "/service-areas/elkmont-al/"
   ],
   "/service-areas/somerville-al/": [
     "/service-areas/",
@@ -477,6 +479,22 @@
     "/service-areas/somerville-al/painting-trim/",
     "/service-areas/somerville-al/storm-damage-restoration/",
     "/service-areas/somerville-al/water-damage-restoration/",
+    "/service-areas/ardmore-al/",
+    "/service-areas/athens-al/",
+    "/service-areas/elkmont-al/"
+  ],
+  "/service-areas/elkmont-al/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/elkmont-al/home-remodeling/",
+    "/service-areas/elkmont-al/roofing/",
+    "/service-areas/elkmont-al/decks-pergolas-fences/",
+    "/service-areas/elkmont-al/new-construction/",
+    "/service-areas/elkmont-al/siding-gutters/",
+    "/service-areas/elkmont-al/mold-remediation/",
+    "/service-areas/elkmont-al/painting-trim/",
+    "/service-areas/elkmont-al/storm-damage-restoration/",
+    "/service-areas/elkmont-al/water-damage-restoration/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/",
     "/service-areas/gurley-al/"
@@ -568,7 +586,7 @@
     "/service-areas/athens-al/roofing/",
     "/service-areas/athens-al/decks-pergolas-fences/",
     "/service-areas/ardmore-al/home-remodeling/",
-    "/service-areas/gurley-al/home-remodeling/",
+    "/service-areas/elkmont-al/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/athens-al/new-construction/": [
@@ -577,7 +595,7 @@
     "/service-areas/athens-al/home-remodeling/",
     "/service-areas/athens-al/roofing/",
     "/service-areas/ardmore-al/new-construction/",
-    "/service-areas/gurley-al/new-construction/",
+    "/service-areas/elkmont-al/new-construction/",
     "/contact/"
   ],
   "/service-areas/athens-al/decks-pergolas-fences/": [
@@ -586,7 +604,7 @@
     "/service-areas/athens-al/home-remodeling/",
     "/service-areas/athens-al/roofing/",
     "/service-areas/ardmore-al/decks-pergolas-fences/",
-    "/service-areas/gurley-al/decks-pergolas-fences/",
+    "/service-areas/elkmont-al/decks-pergolas-fences/",
     "/contact/"
   ],
   "/service-areas/athens-al/roofing/": [
@@ -595,7 +613,7 @@
     "/service-areas/athens-al/home-remodeling/",
     "/service-areas/athens-al/decks-pergolas-fences/",
     "/service-areas/ardmore-al/roofing/",
-    "/service-areas/gurley-al/roofing/",
+    "/service-areas/elkmont-al/roofing/",
     "/contact/"
   ],
   "/service-areas/athens-al/siding-gutters/": [
@@ -604,7 +622,7 @@
     "/service-areas/athens-al/home-remodeling/",
     "/service-areas/athens-al/roofing/",
     "/service-areas/ardmore-al/siding-gutters/",
-    "/service-areas/gurley-al/siding-gutters/",
+    "/service-areas/elkmont-al/siding-gutters/",
     "/contact/"
   ],
   "/service-areas/athens-al/painting-trim/": [
@@ -613,7 +631,7 @@
     "/service-areas/athens-al/home-remodeling/",
     "/service-areas/athens-al/roofing/",
     "/service-areas/ardmore-al/painting-trim/",
-    "/service-areas/gurley-al/painting-trim/",
+    "/service-areas/elkmont-al/painting-trim/",
     "/contact/"
   ],
   "/service-areas/athens-al/water-damage-restoration/": [
@@ -622,7 +640,7 @@
     "/service-areas/athens-al/home-remodeling/",
     "/service-areas/athens-al/roofing/",
     "/service-areas/ardmore-al/water-damage-restoration/",
-    "/service-areas/gurley-al/water-damage-restoration/",
+    "/service-areas/elkmont-al/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/athens-al/storm-damage-restoration/": [
@@ -631,7 +649,7 @@
     "/service-areas/athens-al/home-remodeling/",
     "/service-areas/athens-al/roofing/",
     "/service-areas/ardmore-al/storm-damage-restoration/",
-    "/service-areas/gurley-al/storm-damage-restoration/",
+    "/service-areas/elkmont-al/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/athens-al/mold-remediation/": [
@@ -640,7 +658,7 @@
     "/service-areas/athens-al/home-remodeling/",
     "/service-areas/athens-al/roofing/",
     "/service-areas/ardmore-al/mold-remediation/",
-    "/service-areas/gurley-al/mold-remediation/",
+    "/service-areas/elkmont-al/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/moores-mill-al/home-remodeling/": [
@@ -1459,7 +1477,7 @@
     "/service-areas/ardmore-al/roofing/",
     "/service-areas/ardmore-al/decks-pergolas-fences/",
     "/service-areas/athens-al/home-remodeling/",
-    "/service-areas/gurley-al/home-remodeling/",
+    "/service-areas/elkmont-al/home-remodeling/",
     "/contact/"
   ],
   "/service-areas/ardmore-al/new-construction/": [
@@ -1468,7 +1486,7 @@
     "/service-areas/ardmore-al/home-remodeling/",
     "/service-areas/ardmore-al/roofing/",
     "/service-areas/athens-al/new-construction/",
-    "/service-areas/gurley-al/new-construction/",
+    "/service-areas/elkmont-al/new-construction/",
     "/contact/"
   ],
   "/service-areas/ardmore-al/decks-pergolas-fences/": [
@@ -1477,7 +1495,7 @@
     "/service-areas/ardmore-al/home-remodeling/",
     "/service-areas/ardmore-al/roofing/",
     "/service-areas/athens-al/decks-pergolas-fences/",
-    "/service-areas/gurley-al/decks-pergolas-fences/",
+    "/service-areas/elkmont-al/decks-pergolas-fences/",
     "/contact/"
   ],
   "/service-areas/ardmore-al/roofing/": [
@@ -1486,7 +1504,7 @@
     "/service-areas/ardmore-al/home-remodeling/",
     "/service-areas/ardmore-al/decks-pergolas-fences/",
     "/service-areas/athens-al/roofing/",
-    "/service-areas/gurley-al/roofing/",
+    "/service-areas/elkmont-al/roofing/",
     "/contact/"
   ],
   "/service-areas/ardmore-al/siding-gutters/": [
@@ -1495,7 +1513,7 @@
     "/service-areas/ardmore-al/home-remodeling/",
     "/service-areas/ardmore-al/roofing/",
     "/service-areas/athens-al/siding-gutters/",
-    "/service-areas/gurley-al/siding-gutters/",
+    "/service-areas/elkmont-al/siding-gutters/",
     "/contact/"
   ],
   "/service-areas/ardmore-al/painting-trim/": [
@@ -1504,7 +1522,7 @@
     "/service-areas/ardmore-al/home-remodeling/",
     "/service-areas/ardmore-al/roofing/",
     "/service-areas/athens-al/painting-trim/",
-    "/service-areas/gurley-al/painting-trim/",
+    "/service-areas/elkmont-al/painting-trim/",
     "/contact/"
   ],
   "/service-areas/ardmore-al/water-damage-restoration/": [
@@ -1513,7 +1531,7 @@
     "/service-areas/ardmore-al/home-remodeling/",
     "/service-areas/ardmore-al/roofing/",
     "/service-areas/athens-al/water-damage-restoration/",
-    "/service-areas/gurley-al/water-damage-restoration/",
+    "/service-areas/elkmont-al/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/ardmore-al/storm-damage-restoration/": [
@@ -1522,7 +1540,7 @@
     "/service-areas/ardmore-al/home-remodeling/",
     "/service-areas/ardmore-al/roofing/",
     "/service-areas/athens-al/storm-damage-restoration/",
-    "/service-areas/gurley-al/storm-damage-restoration/",
+    "/service-areas/elkmont-al/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/ardmore-al/mold-remediation/": [
@@ -1531,7 +1549,7 @@
     "/service-areas/ardmore-al/home-remodeling/",
     "/service-areas/ardmore-al/roofing/",
     "/service-areas/athens-al/mold-remediation/",
-    "/service-areas/gurley-al/mold-remediation/",
+    "/service-areas/elkmont-al/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/priceville-al/home-remodeling/": [
@@ -1692,6 +1710,87 @@
     "/service-areas/somerville-al/",
     "/service-areas/somerville-al/home-remodeling/",
     "/service-areas/somerville-al/roofing/",
+    "/service-areas/ardmore-al/mold-remediation/",
+    "/service-areas/athens-al/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/elkmont-al/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/elkmont-al/",
+    "/service-areas/elkmont-al/roofing/",
+    "/service-areas/elkmont-al/decks-pergolas-fences/",
+    "/service-areas/ardmore-al/home-remodeling/",
+    "/service-areas/athens-al/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/elkmont-al/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/elkmont-al/",
+    "/service-areas/elkmont-al/home-remodeling/",
+    "/service-areas/elkmont-al/roofing/",
+    "/service-areas/ardmore-al/new-construction/",
+    "/service-areas/athens-al/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/elkmont-al/decks-pergolas-fences/": [
+    "/services/decks-pergolas-fences/",
+    "/service-areas/elkmont-al/",
+    "/service-areas/elkmont-al/home-remodeling/",
+    "/service-areas/elkmont-al/roofing/",
+    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/service-areas/athens-al/decks-pergolas-fences/",
+    "/contact/"
+  ],
+  "/service-areas/elkmont-al/roofing/": [
+    "/services/roofing/",
+    "/service-areas/elkmont-al/",
+    "/service-areas/elkmont-al/home-remodeling/",
+    "/service-areas/elkmont-al/decks-pergolas-fences/",
+    "/service-areas/ardmore-al/roofing/",
+    "/service-areas/athens-al/roofing/",
+    "/contact/"
+  ],
+  "/service-areas/elkmont-al/siding-gutters/": [
+    "/services/siding-gutters/",
+    "/service-areas/elkmont-al/",
+    "/service-areas/elkmont-al/home-remodeling/",
+    "/service-areas/elkmont-al/roofing/",
+    "/service-areas/ardmore-al/siding-gutters/",
+    "/service-areas/athens-al/siding-gutters/",
+    "/contact/"
+  ],
+  "/service-areas/elkmont-al/painting-trim/": [
+    "/services/painting-trim/",
+    "/service-areas/elkmont-al/",
+    "/service-areas/elkmont-al/home-remodeling/",
+    "/service-areas/elkmont-al/roofing/",
+    "/service-areas/ardmore-al/painting-trim/",
+    "/service-areas/athens-al/painting-trim/",
+    "/contact/"
+  ],
+  "/service-areas/elkmont-al/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/elkmont-al/",
+    "/service-areas/elkmont-al/home-remodeling/",
+    "/service-areas/elkmont-al/roofing/",
+    "/service-areas/ardmore-al/water-damage-restoration/",
+    "/service-areas/athens-al/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/elkmont-al/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/elkmont-al/",
+    "/service-areas/elkmont-al/home-remodeling/",
+    "/service-areas/elkmont-al/roofing/",
+    "/service-areas/ardmore-al/storm-damage-restoration/",
+    "/service-areas/athens-al/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/elkmont-al/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/elkmont-al/",
+    "/service-areas/elkmont-al/home-remodeling/",
+    "/service-areas/elkmont-al/roofing/",
     "/service-areas/ardmore-al/mold-remediation/",
     "/service-areas/athens-al/mold-remediation/",
     "/contact/"

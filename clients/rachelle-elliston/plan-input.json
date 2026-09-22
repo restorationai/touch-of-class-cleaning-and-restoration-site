@@ -130,6 +130,11 @@
       "city": "Indian Springs",
       "state": "NV",
       "slug": "indian-springs-nv"
+    },
+    {
+      "city": "Moapa Town",
+      "state": "NV",
+      "slug": "moapa-town-nv"
     }
   ],
   "template": "restoration",

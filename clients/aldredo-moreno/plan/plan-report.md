@@ -1,20 +1,20 @@
 # Site Plan Report — ACS Enterprise 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-22T02:10:53.735127+00:00
+- Generated: 2026-09-22T14:26:54.289624+00:00
 - Domain: `theacs-enterprises.com`
 - Services selected: 8 of 65 catalog entries
-- Service areas: 14
+- Service areas: 15
 - Cross-product enabled: True
-- Total URLs: **142**
-- Total internal links: 1113 (avg 7.8 per page)
+- Total URLs: **151**
+- Total internal links: 1184 (avg 7.8 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 104 |
-| `service-area` | 13 |
+| `service-area-service` | 112 |
+| `service-area` | 14 |
 | `service-landing` | 8 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -52,6 +52,7 @@
 - `monahans-tx` — Monahans, TX
 - `mccamey-tx` — McCamey, TX
 - `southwest-sandhill-tx` — Southwest Sandhill, TX
+- `big-lake-tx` — Big Lake, TX
 
 ## Top 10 priority pages
 
@@ -62,11 +63,11 @@
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration midland |
 | `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup midland |
 | `/service-areas/andrews-tx/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration andrews |
+| `/service-areas/big-lake-tx/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration big lake |
 | `/service-areas/big-spring-tx/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration big spring |
 | `/service-areas/crane-tx/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration crane |
 | `/service-areas/garden-city-tx/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration garden city |
 | `/service-areas/gardendale-tx/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration gardendale |
-| `/service-areas/goldsmith-tx/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration goldsmith |
 
 ## Validation
 

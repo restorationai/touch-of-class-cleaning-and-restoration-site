@@ -1,20 +1,20 @@
 # Site Plan Report — Davis Construction Contractors
 
 - Template: `construction` v0.1.0
-- Generated: 2026-09-22T02:11:07.622730+00:00
+- Generated: 2026-09-22T14:27:19.953779+00:00
 - Domain: `davisconstructioncontractors.com`
 - Services selected: 9 of 23 catalog entries
-- Service areas: 16
+- Service areas: 17
 - Cross-product enabled: True
-- Total URLs: **180**
-- Total internal links: 1418 (avg 7.9 per page)
+- Total URLs: **190**
+- Total internal links: 1497 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 135 |
-| `service-area` | 15 |
+| `service-area-service` | 144 |
+| `service-area` | 16 |
 | `blog-post` | 12 |
 | `service-landing` | 9 |
 | `legal` | 3 |
@@ -55,6 +55,7 @@
 - `ardmore-al` — Ardmore, AL
 - `priceville-al` — Priceville, AL
 - `somerville-al` — Somerville, AL
+- `elkmont-al` — Elkmont, AL
 
 ## Top 10 priority pages
 
@@ -69,7 +70,7 @@
 | `/service-areas/ardmore-al/roofing/` | `service-area-service` | 7.0 | roofing installation and replacement ardmore |
 | `/service-areas/athens-al/home-remodeling/` | `service-area-service` | 7.0 | home remodeling athens |
 | `/service-areas/athens-al/roofing/` | `service-area-service` | 7.0 | roofing installation and replacement athens |
-| `/service-areas/gurley-al/home-remodeling/` | `service-area-service` | 7.0 | home remodeling gurley |
+| `/service-areas/elkmont-al/home-remodeling/` | `service-area-service` | 7.0 | home remodeling elkmont |
 
 ## Validation
 

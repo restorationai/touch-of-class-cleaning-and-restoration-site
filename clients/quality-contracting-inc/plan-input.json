@@ -158,6 +158,11 @@
       "city": "Leominster",
       "state": "MA",
       "slug": "leominster-ma"
+    },
+    {
+      "city": "Franklin Town",
+      "state": "MA",
+      "slug": "franklin-town-ma"
     }
   ],
   "service_radius_description": "Southern New England, with crews responding across a 50 mile radius of Auburn"

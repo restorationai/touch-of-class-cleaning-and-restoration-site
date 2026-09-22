@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-22T02:11:09.423153+00:00",
+  "generated_at": "2026-09-22T14:27:23.453401+00:00",
   "input_summary": {
     "service_count": 13,
-    "service_area_count": 21,
+    "service_area_count": 22,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -69,6 +69,7 @@
         "/service-areas/forest-park-il/",
         "/service-areas/lincolnwood-il/",
         "/service-areas/lyons-il/",
+        "/service-areas/maywood-il/",
         "/service-areas/melrose-park-il/",
         "/service-areas/naperville-il/",
         "/service-areas/north-riverside-il/",
@@ -165,6 +166,7 @@
         "/service-areas/forest-park-il/",
         "/service-areas/lincolnwood-il/",
         "/service-areas/lyons-il/",
+        "/service-areas/maywood-il/",
         "/service-areas/melrose-park-il/",
         "/service-areas/naperville-il/",
         "/service-areas/north-riverside-il/",
@@ -1940,6 +1942,56 @@
         "/service-areas/bedford-park-il/",
         "/service-areas/berwyn-il/",
         "/service-areas/burbank-il/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/maywood-il/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Maywood, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Restoration Services in Maywood",
+      "meta_description": "Serving Maywood, IL with 24/7 water, fire, mold, and storm damage restoration. Experienced team. Call (877) 379-2767.",
+      "primary_keyword": "restoration services maywood",
+      "secondary_keywords": [
+        "maywood restoration company",
+        "damage restoration maywood",
+        "maywood disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/maywood-il/fire-damage-restoration/",
+        "/service-areas/maywood-il/mold-remediation/",
+        "/service-areas/maywood-il/water-damage-restoration/",
+        "/service-areas/maywood-il/flood-damage-restoration/",
+        "/service-areas/maywood-il/sewage-cleanup/",
+        "/service-areas/maywood-il/smoke-damage-restoration/",
+        "/service-areas/maywood-il/storm-damage-restoration/",
+        "/service-areas/maywood-il/water-cleanup/",
+        "/service-areas/maywood-il/basement-flooding-cleanup/",
+        "/service-areas/maywood-il/burst-pipe-repair/",
+        "/service-areas/maywood-il/emergency-board-up-tarping/",
+        "/service-areas/maywood-il/odor-removal/",
+        "/service-areas/maywood-il/contents-restoration/",
+        "/service-areas/bedford-park-il/",
+        "/service-areas/berwyn-il/",
+        "/service-areas/brookfield-il/"
       ]
     },
     {
@@ -13397,6 +13449,579 @@
         "/service-areas/brookfield-il/",
         "/service-areas/brookfield-il/fire-damage-restoration/",
         "/service-areas/brookfield-il/mold-remediation/",
+        "/service-areas/bedford-park-il/contents-restoration/",
+        "/service-areas/berwyn-il/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/maywood-il/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Maywood, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Water Damage Restoration in Maywood",
+      "meta_description": "24/7 water damage restoration in Maywood, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "water damage restoration maywood",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/maywood-il/",
+        "/service-areas/maywood-il/fire-damage-restoration/",
+        "/service-areas/maywood-il/mold-remediation/",
+        "/service-areas/bedford-park-il/water-damage-restoration/",
+        "/service-areas/berwyn-il/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/maywood-il/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Maywood, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Fire Damage Restoration in Maywood",
+      "meta_description": "24/7 fire damage restoration in Maywood, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "fire damage restoration maywood",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/maywood-il/",
+        "/service-areas/maywood-il/mold-remediation/",
+        "/service-areas/maywood-il/water-damage-restoration/",
+        "/service-areas/bedford-park-il/fire-damage-restoration/",
+        "/service-areas/berwyn-il/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/maywood-il/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Maywood, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Mold Remediation in Maywood",
+      "meta_description": "24/7 mold remediation in Maywood, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "mold remediation maywood",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/maywood-il/",
+        "/service-areas/maywood-il/fire-damage-restoration/",
+        "/service-areas/maywood-il/water-damage-restoration/",
+        "/service-areas/bedford-park-il/mold-remediation/",
+        "/service-areas/berwyn-il/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/maywood-il/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Maywood, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Emergency Water Cleanup in Maywood",
+      "meta_description": "24/7 emergency water cleanup in Maywood, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "emergency water cleanup maywood",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/maywood-il/",
+        "/service-areas/maywood-il/fire-damage-restoration/",
+        "/service-areas/maywood-il/mold-remediation/",
+        "/service-areas/bedford-park-il/water-cleanup/",
+        "/service-areas/berwyn-il/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/maywood-il/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Maywood, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Flood Damage Restoration in Maywood",
+      "meta_description": "24/7 flood damage restoration in Maywood, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "flood damage restoration maywood",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/maywood-il/",
+        "/service-areas/maywood-il/fire-damage-restoration/",
+        "/service-areas/maywood-il/mold-remediation/",
+        "/service-areas/bedford-park-il/flood-damage-restoration/",
+        "/service-areas/berwyn-il/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/maywood-il/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Maywood, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Burst Pipe Cleanup and Repair in Maywood",
+      "meta_description": "24/7 burst pipe cleanup and repair in Maywood, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "burst pipe cleanup and repair maywood",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/maywood-il/",
+        "/service-areas/maywood-il/fire-damage-restoration/",
+        "/service-areas/maywood-il/mold-remediation/",
+        "/service-areas/bedford-park-il/burst-pipe-repair/",
+        "/service-areas/berwyn-il/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/maywood-il/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in Maywood, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Basement Flooding Cleanup in Maywood",
+      "meta_description": "24/7 basement flooding cleanup in Maywood, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "basement flooding cleanup maywood",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/maywood-il/",
+        "/service-areas/maywood-il/fire-damage-restoration/",
+        "/service-areas/maywood-il/mold-remediation/",
+        "/service-areas/bedford-park-il/basement-flooding-cleanup/",
+        "/service-areas/berwyn-il/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/maywood-il/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Maywood, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Maywood",
+      "meta_description": "24/7 sewage cleanup and sanitization in Maywood, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "sewage cleanup and sanitization maywood",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/maywood-il/",
+        "/service-areas/maywood-il/fire-damage-restoration/",
+        "/service-areas/maywood-il/mold-remediation/",
+        "/service-areas/bedford-park-il/sewage-cleanup/",
+        "/service-areas/berwyn-il/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/maywood-il/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Maywood, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Smoke Damage Restoration in Maywood",
+      "meta_description": "24/7 smoke damage restoration in Maywood, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "smoke damage restoration maywood",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/maywood-il/",
+        "/service-areas/maywood-il/fire-damage-restoration/",
+        "/service-areas/maywood-il/mold-remediation/",
+        "/service-areas/bedford-park-il/smoke-damage-restoration/",
+        "/service-areas/berwyn-il/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/maywood-il/odor-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Odor Removal and Deodorization in Maywood, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Odor Removal and Deodorization in Maywood",
+      "meta_description": "24/7 odor removal and deodorization in Maywood, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "odor removal and deodorization maywood",
+      "secondary_keywords": [
+        "smoke odor removal",
+        "ozone treatment",
+        "hydroxyl deodorization",
+        "thermal fogging",
+        "professional odor elimination"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/odor-removal/",
+        "/service-areas/maywood-il/",
+        "/service-areas/maywood-il/fire-damage-restoration/",
+        "/service-areas/maywood-il/mold-remediation/",
+        "/service-areas/bedford-park-il/odor-removal/",
+        "/service-areas/berwyn-il/odor-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/maywood-il/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Maywood, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Storm Damage Restoration in Maywood",
+      "meta_description": "24/7 storm damage restoration in Maywood, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "storm damage restoration maywood",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/maywood-il/",
+        "/service-areas/maywood-il/fire-damage-restoration/",
+        "/service-areas/maywood-il/mold-remediation/",
+        "/service-areas/bedford-park-il/storm-damage-restoration/",
+        "/service-areas/berwyn-il/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/maywood-il/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Maywood, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Emergency Board-Up and Tarping in Maywood",
+      "meta_description": "24/7 emergency board-up and tarping in Maywood, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "emergency board-up and tarping maywood",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/maywood-il/",
+        "/service-areas/maywood-il/fire-damage-restoration/",
+        "/service-areas/maywood-il/mold-remediation/",
+        "/service-areas/bedford-park-il/emergency-board-up-tarping/",
+        "/service-areas/berwyn-il/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/maywood-il/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Maywood, IL | Dry Bros Water & Fire Restoration",
+      "h1": "Contents Restoration and Storage in Maywood",
+      "meta_description": "24/7 contents restoration and storage in Maywood, IL. Insurance billing accepted. Call (877) 379-2767.",
+      "primary_keyword": "contents restoration and storage maywood",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/maywood-il/",
+        "/service-areas/maywood-il/fire-damage-restoration/",
+        "/service-areas/maywood-il/mold-remediation/",
         "/service-areas/bedford-park-il/contents-restoration/",
         "/service-areas/berwyn-il/contents-restoration/",
         "/contact/"

@@ -1,20 +1,20 @@
 # Site Plan Report — FireDEX Butler
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-22T02:11:15.515027+00:00
+- Generated: 2026-09-22T14:27:31.799334+00:00
 - Domain: `firedex.net`
 - Services selected: 18 of 65 catalog entries
-- Service areas: 22
+- Service areas: 23
 - Cross-product enabled: True
-- Total URLs: **438**
-- Total internal links: 3560 (avg 8.1 per page)
+- Total URLs: **457**
+- Total internal links: 3711 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 378 |
-| `service-area` | 21 |
+| `service-area-service` | 396 |
+| `service-area` | 22 |
 | `service-landing` | 18 |
 | `blog-post` | 12 |
 | `legal` | 3 |
@@ -70,6 +70,7 @@
 - `oak-hills-pa` — Oak Hills, PA
 - `glenshaw-pa` — Glenshaw, PA
 - `ellwood-city-pa` — Ellwood City, PA
+- `big-beaver-pa` — Big Beaver, PA
 
 ## Top 10 priority pages
 

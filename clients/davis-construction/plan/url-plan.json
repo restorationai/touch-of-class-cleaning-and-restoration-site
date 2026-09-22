@@ -1,10 +1,10 @@
 {
   "template": "construction",
   "template_version": "0.1.0",
-  "generated_at": "2026-09-22T02:11:07.613883+00:00",
+  "generated_at": "2026-09-22T14:27:19.943264+00:00",
   "input_summary": {
     "service_count": 9,
-    "service_area_count": 16,
+    "service_area_count": 17,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -55,6 +55,7 @@
         "/services/water-damage-restoration/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/",
+        "/service-areas/elkmont-al/",
         "/service-areas/gurley-al/",
         "/service-areas/harvest-al/",
         "/service-areas/hazel-green-al/",
@@ -142,6 +143,7 @@
         "/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/",
+        "/service-areas/elkmont-al/",
         "/service-areas/gurley-al/",
         "/service-areas/harvest-al/",
         "/service-areas/hazel-green-al/",
@@ -304,6 +306,7 @@
         "/contact/",
         "/service-areas/ardmore-al/home-remodeling/",
         "/service-areas/athens-al/home-remodeling/",
+        "/service-areas/elkmont-al/home-remodeling/",
         "/service-areas/gurley-al/home-remodeling/",
         "/service-areas/harvest-al/home-remodeling/",
         "/service-areas/hazel-green-al/home-remodeling/",
@@ -313,7 +316,6 @@
         "/service-areas/new-hope-al/home-remodeling/",
         "/service-areas/new-market-al/home-remodeling/",
         "/service-areas/owens-cross-roads-al/home-remodeling/",
-        "/service-areas/priceville-al/home-remodeling/",
         "/blog/choosing-a-general-contractor/",
         "/blog/how-to-plan-a-home-remodel/",
         "/blog/do-you-need-a-permit/"
@@ -357,6 +359,7 @@
         "/contact/",
         "/service-areas/ardmore-al/new-construction/",
         "/service-areas/athens-al/new-construction/",
+        "/service-areas/elkmont-al/new-construction/",
         "/service-areas/gurley-al/new-construction/",
         "/service-areas/harvest-al/new-construction/",
         "/service-areas/hazel-green-al/new-construction/",
@@ -366,7 +369,6 @@
         "/service-areas/new-hope-al/new-construction/",
         "/service-areas/new-market-al/new-construction/",
         "/service-areas/owens-cross-roads-al/new-construction/",
-        "/service-areas/priceville-al/new-construction/",
         "/blog/choosing-a-general-contractor/",
         "/blog/how-long-to-build-a-house/"
       ]
@@ -409,6 +411,7 @@
         "/contact/",
         "/service-areas/ardmore-al/decks-pergolas-fences/",
         "/service-areas/athens-al/decks-pergolas-fences/",
+        "/service-areas/elkmont-al/decks-pergolas-fences/",
         "/service-areas/gurley-al/decks-pergolas-fences/",
         "/service-areas/harvest-al/decks-pergolas-fences/",
         "/service-areas/hazel-green-al/decks-pergolas-fences/",
@@ -418,7 +421,6 @@
         "/service-areas/new-hope-al/decks-pergolas-fences/",
         "/service-areas/new-market-al/decks-pergolas-fences/",
         "/service-areas/owens-cross-roads-al/decks-pergolas-fences/",
-        "/service-areas/priceville-al/decks-pergolas-fences/",
         "/blog/wood-vs-composite-decking/"
       ]
     },
@@ -460,6 +462,7 @@
         "/contact/",
         "/service-areas/ardmore-al/roofing/",
         "/service-areas/athens-al/roofing/",
+        "/service-areas/elkmont-al/roofing/",
         "/service-areas/gurley-al/roofing/",
         "/service-areas/harvest-al/roofing/",
         "/service-areas/hazel-green-al/roofing/",
@@ -469,7 +472,6 @@
         "/service-areas/new-hope-al/roofing/",
         "/service-areas/new-market-al/roofing/",
         "/service-areas/owens-cross-roads-al/roofing/",
-        "/service-areas/priceville-al/roofing/",
         "/blog/roofing-material-comparison/",
         "/blog/how-long-does-roof-replacement-take/",
         "/blog/storm-damage-repair-process/"
@@ -513,6 +515,7 @@
         "/contact/",
         "/service-areas/ardmore-al/siding-gutters/",
         "/service-areas/athens-al/siding-gutters/",
+        "/service-areas/elkmont-al/siding-gutters/",
         "/service-areas/gurley-al/siding-gutters/",
         "/service-areas/harvest-al/siding-gutters/",
         "/service-areas/hazel-green-al/siding-gutters/",
@@ -522,7 +525,6 @@
         "/service-areas/new-hope-al/siding-gutters/",
         "/service-areas/new-market-al/siding-gutters/",
         "/service-areas/owens-cross-roads-al/siding-gutters/",
-        "/service-areas/priceville-al/siding-gutters/",
         "/blog/siding-options-compared/"
       ]
     },
@@ -564,6 +566,7 @@
         "/contact/",
         "/service-areas/ardmore-al/painting-trim/",
         "/service-areas/athens-al/painting-trim/",
+        "/service-areas/elkmont-al/painting-trim/",
         "/service-areas/gurley-al/painting-trim/",
         "/service-areas/harvest-al/painting-trim/",
         "/service-areas/hazel-green-al/painting-trim/",
@@ -572,8 +575,7 @@
         "/service-areas/moores-mill-al/painting-trim/",
         "/service-areas/new-hope-al/painting-trim/",
         "/service-areas/new-market-al/painting-trim/",
-        "/service-areas/owens-cross-roads-al/painting-trim/",
-        "/service-areas/priceville-al/painting-trim/"
+        "/service-areas/owens-cross-roads-al/painting-trim/"
       ]
     },
     {
@@ -614,6 +616,7 @@
         "/contact/",
         "/service-areas/ardmore-al/water-damage-restoration/",
         "/service-areas/athens-al/water-damage-restoration/",
+        "/service-areas/elkmont-al/water-damage-restoration/",
         "/service-areas/gurley-al/water-damage-restoration/",
         "/service-areas/harvest-al/water-damage-restoration/",
         "/service-areas/hazel-green-al/water-damage-restoration/",
@@ -622,8 +625,7 @@
         "/service-areas/moores-mill-al/water-damage-restoration/",
         "/service-areas/new-hope-al/water-damage-restoration/",
         "/service-areas/new-market-al/water-damage-restoration/",
-        "/service-areas/owens-cross-roads-al/water-damage-restoration/",
-        "/service-areas/priceville-al/water-damage-restoration/"
+        "/service-areas/owens-cross-roads-al/water-damage-restoration/"
       ]
     },
     {
@@ -664,6 +666,7 @@
         "/contact/",
         "/service-areas/ardmore-al/storm-damage-restoration/",
         "/service-areas/athens-al/storm-damage-restoration/",
+        "/service-areas/elkmont-al/storm-damage-restoration/",
         "/service-areas/gurley-al/storm-damage-restoration/",
         "/service-areas/harvest-al/storm-damage-restoration/",
         "/service-areas/hazel-green-al/storm-damage-restoration/",
@@ -673,7 +676,6 @@
         "/service-areas/new-hope-al/storm-damage-restoration/",
         "/service-areas/new-market-al/storm-damage-restoration/",
         "/service-areas/owens-cross-roads-al/storm-damage-restoration/",
-        "/service-areas/priceville-al/storm-damage-restoration/",
         "/blog/storm-damage-insurance-claim-checklist/",
         "/blog/storm-damage-repair-process/"
       ]
@@ -716,6 +718,7 @@
         "/contact/",
         "/service-areas/ardmore-al/mold-remediation/",
         "/service-areas/athens-al/mold-remediation/",
+        "/service-areas/elkmont-al/mold-remediation/",
         "/service-areas/gurley-al/mold-remediation/",
         "/service-areas/harvest-al/mold-remediation/",
         "/service-areas/hazel-green-al/mold-remediation/",
@@ -725,7 +728,6 @@
         "/service-areas/new-hope-al/mold-remediation/",
         "/service-areas/new-market-al/mold-remediation/",
         "/service-areas/owens-cross-roads-al/mold-remediation/",
-        "/service-areas/priceville-al/mold-remediation/",
         "/blog/mold-found-during-renovation/"
       ]
     },
@@ -772,7 +774,7 @@
         "/service-areas/huntsville-al/water-damage-restoration/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/",
-        "/service-areas/gurley-al/"
+        "/service-areas/elkmont-al/"
       ]
     },
     {
@@ -817,8 +819,8 @@
         "/service-areas/athens-al/storm-damage-restoration/",
         "/service-areas/athens-al/water-damage-restoration/",
         "/service-areas/ardmore-al/",
-        "/service-areas/gurley-al/",
-        "/service-areas/harvest-al/"
+        "/service-areas/elkmont-al/",
+        "/service-areas/gurley-al/"
       ]
     },
     {
@@ -864,7 +866,7 @@
         "/service-areas/moores-mill-al/water-damage-restoration/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/",
-        "/service-areas/gurley-al/"
+        "/service-areas/elkmont-al/"
       ]
     },
     {
@@ -910,7 +912,7 @@
         "/service-areas/redstone-arsenal-al/water-damage-restoration/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/",
-        "/service-areas/gurley-al/"
+        "/service-areas/elkmont-al/"
       ]
     },
     {
@@ -956,7 +958,7 @@
         "/service-areas/meridianville-al/water-damage-restoration/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/",
-        "/service-areas/gurley-al/"
+        "/service-areas/elkmont-al/"
       ]
     },
     {
@@ -1002,7 +1004,7 @@
         "/service-areas/hazel-green-al/water-damage-restoration/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/",
-        "/service-areas/gurley-al/"
+        "/service-areas/elkmont-al/"
       ]
     },
     {
@@ -1048,7 +1050,7 @@
         "/service-areas/new-market-al/water-damage-restoration/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/",
-        "/service-areas/gurley-al/"
+        "/service-areas/elkmont-al/"
       ]
     },
     {
@@ -1094,7 +1096,7 @@
         "/service-areas/harvest-al/water-damage-restoration/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/",
-        "/service-areas/gurley-al/"
+        "/service-areas/elkmont-al/"
       ]
     },
     {
@@ -1140,7 +1142,7 @@
         "/service-areas/gurley-al/water-damage-restoration/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/",
-        "/service-areas/harvest-al/"
+        "/service-areas/elkmont-al/"
       ]
     },
     {
@@ -1186,7 +1188,7 @@
         "/service-areas/owens-cross-roads-al/water-damage-restoration/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/",
-        "/service-areas/gurley-al/"
+        "/service-areas/elkmont-al/"
       ]
     },
     {
@@ -1232,7 +1234,7 @@
         "/service-areas/triana-al/water-damage-restoration/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/",
-        "/service-areas/gurley-al/"
+        "/service-areas/elkmont-al/"
       ]
     },
     {
@@ -1278,7 +1280,7 @@
         "/service-areas/new-hope-al/water-damage-restoration/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/",
-        "/service-areas/gurley-al/"
+        "/service-areas/elkmont-al/"
       ]
     },
     {
@@ -1323,8 +1325,8 @@
         "/service-areas/ardmore-al/storm-damage-restoration/",
         "/service-areas/ardmore-al/water-damage-restoration/",
         "/service-areas/athens-al/",
-        "/service-areas/gurley-al/",
-        "/service-areas/harvest-al/"
+        "/service-areas/elkmont-al/",
+        "/service-areas/gurley-al/"
       ]
     },
     {
@@ -1370,7 +1372,7 @@
         "/service-areas/priceville-al/water-damage-restoration/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/",
-        "/service-areas/gurley-al/"
+        "/service-areas/elkmont-al/"
       ]
     },
     {
@@ -1414,6 +1416,52 @@
         "/service-areas/somerville-al/painting-trim/",
         "/service-areas/somerville-al/storm-damage-restoration/",
         "/service-areas/somerville-al/water-damage-restoration/",
+        "/service-areas/ardmore-al/",
+        "/service-areas/athens-al/",
+        "/service-areas/elkmont-al/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/elkmont-al/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Construction Services in Elkmont, AL | Davis Construction Contractors",
+      "h1": "Construction Services in Elkmont",
+      "meta_description": "Serving Elkmont, AL with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (256) 771-0326 for a free estimate.",
+      "primary_keyword": "construction services elkmont",
+      "secondary_keywords": [
+        "elkmont construction company",
+        "general contractor elkmont",
+        "elkmont remodeling contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/elkmont-al/home-remodeling/",
+        "/service-areas/elkmont-al/roofing/",
+        "/service-areas/elkmont-al/decks-pergolas-fences/",
+        "/service-areas/elkmont-al/new-construction/",
+        "/service-areas/elkmont-al/siding-gutters/",
+        "/service-areas/elkmont-al/mold-remediation/",
+        "/service-areas/elkmont-al/painting-trim/",
+        "/service-areas/elkmont-al/storm-damage-restoration/",
+        "/service-areas/elkmont-al/water-damage-restoration/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/",
         "/service-areas/gurley-al/"
@@ -1855,7 +1903,7 @@
         "/service-areas/athens-al/roofing/",
         "/service-areas/athens-al/decks-pergolas-fences/",
         "/service-areas/ardmore-al/home-remodeling/",
-        "/service-areas/gurley-al/home-remodeling/",
+        "/service-areas/elkmont-al/home-remodeling/",
         "/contact/"
       ]
     },
@@ -1899,7 +1947,7 @@
         "/service-areas/athens-al/home-remodeling/",
         "/service-areas/athens-al/roofing/",
         "/service-areas/ardmore-al/new-construction/",
-        "/service-areas/gurley-al/new-construction/",
+        "/service-areas/elkmont-al/new-construction/",
         "/contact/"
       ]
     },
@@ -1943,7 +1991,7 @@
         "/service-areas/athens-al/home-remodeling/",
         "/service-areas/athens-al/roofing/",
         "/service-areas/ardmore-al/decks-pergolas-fences/",
-        "/service-areas/gurley-al/decks-pergolas-fences/",
+        "/service-areas/elkmont-al/decks-pergolas-fences/",
         "/contact/"
       ]
     },
@@ -1987,7 +2035,7 @@
         "/service-areas/athens-al/home-remodeling/",
         "/service-areas/athens-al/decks-pergolas-fences/",
         "/service-areas/ardmore-al/roofing/",
-        "/service-areas/gurley-al/roofing/",
+        "/service-areas/elkmont-al/roofing/",
         "/contact/"
       ]
     },
@@ -2031,7 +2079,7 @@
         "/service-areas/athens-al/home-remodeling/",
         "/service-areas/athens-al/roofing/",
         "/service-areas/ardmore-al/siding-gutters/",
-        "/service-areas/gurley-al/siding-gutters/",
+        "/service-areas/elkmont-al/siding-gutters/",
         "/contact/"
       ]
     },
@@ -2075,7 +2123,7 @@
         "/service-areas/athens-al/home-remodeling/",
         "/service-areas/athens-al/roofing/",
         "/service-areas/ardmore-al/painting-trim/",
-        "/service-areas/gurley-al/painting-trim/",
+        "/service-areas/elkmont-al/painting-trim/",
         "/contact/"
       ]
     },
@@ -2119,7 +2167,7 @@
         "/service-areas/athens-al/home-remodeling/",
         "/service-areas/athens-al/roofing/",
         "/service-areas/ardmore-al/water-damage-restoration/",
-        "/service-areas/gurley-al/water-damage-restoration/",
+        "/service-areas/elkmont-al/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2163,7 +2211,7 @@
         "/service-areas/athens-al/home-remodeling/",
         "/service-areas/athens-al/roofing/",
         "/service-areas/ardmore-al/storm-damage-restoration/",
-        "/service-areas/gurley-al/storm-damage-restoration/",
+        "/service-areas/elkmont-al/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2207,7 +2255,7 @@
         "/service-areas/athens-al/home-remodeling/",
         "/service-areas/athens-al/roofing/",
         "/service-areas/ardmore-al/mold-remediation/",
-        "/service-areas/gurley-al/mold-remediation/",
+        "/service-areas/elkmont-al/mold-remediation/",
         "/contact/"
       ]
     },
@@ -6211,7 +6259,7 @@
         "/service-areas/ardmore-al/roofing/",
         "/service-areas/ardmore-al/decks-pergolas-fences/",
         "/service-areas/athens-al/home-remodeling/",
-        "/service-areas/gurley-al/home-remodeling/",
+        "/service-areas/elkmont-al/home-remodeling/",
         "/contact/"
       ]
     },
@@ -6255,7 +6303,7 @@
         "/service-areas/ardmore-al/home-remodeling/",
         "/service-areas/ardmore-al/roofing/",
         "/service-areas/athens-al/new-construction/",
-        "/service-areas/gurley-al/new-construction/",
+        "/service-areas/elkmont-al/new-construction/",
         "/contact/"
       ]
     },
@@ -6299,7 +6347,7 @@
         "/service-areas/ardmore-al/home-remodeling/",
         "/service-areas/ardmore-al/roofing/",
         "/service-areas/athens-al/decks-pergolas-fences/",
-        "/service-areas/gurley-al/decks-pergolas-fences/",
+        "/service-areas/elkmont-al/decks-pergolas-fences/",
         "/contact/"
       ]
     },
@@ -6343,7 +6391,7 @@
         "/service-areas/ardmore-al/home-remodeling/",
         "/service-areas/ardmore-al/decks-pergolas-fences/",
         "/service-areas/athens-al/roofing/",
-        "/service-areas/gurley-al/roofing/",
+        "/service-areas/elkmont-al/roofing/",
         "/contact/"
       ]
     },
@@ -6387,7 +6435,7 @@
         "/service-areas/ardmore-al/home-remodeling/",
         "/service-areas/ardmore-al/roofing/",
         "/service-areas/athens-al/siding-gutters/",
-        "/service-areas/gurley-al/siding-gutters/",
+        "/service-areas/elkmont-al/siding-gutters/",
         "/contact/"
       ]
     },
@@ -6431,7 +6479,7 @@
         "/service-areas/ardmore-al/home-remodeling/",
         "/service-areas/ardmore-al/roofing/",
         "/service-areas/athens-al/painting-trim/",
-        "/service-areas/gurley-al/painting-trim/",
+        "/service-areas/elkmont-al/painting-trim/",
         "/contact/"
       ]
     },
@@ -6475,7 +6523,7 @@
         "/service-areas/ardmore-al/home-remodeling/",
         "/service-areas/ardmore-al/roofing/",
         "/service-areas/athens-al/water-damage-restoration/",
-        "/service-areas/gurley-al/water-damage-restoration/",
+        "/service-areas/elkmont-al/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -6519,7 +6567,7 @@
         "/service-areas/ardmore-al/home-remodeling/",
         "/service-areas/ardmore-al/roofing/",
         "/service-areas/athens-al/storm-damage-restoration/",
-        "/service-areas/gurley-al/storm-damage-restoration/",
+        "/service-areas/elkmont-al/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -6563,7 +6611,7 @@
         "/service-areas/ardmore-al/home-remodeling/",
         "/service-areas/ardmore-al/roofing/",
         "/service-areas/athens-al/mold-remediation/",
-        "/service-areas/gurley-al/mold-remediation/",
+        "/service-areas/elkmont-al/mold-remediation/",
         "/contact/"
       ]
     },
@@ -7354,6 +7402,402 @@
         "/service-areas/somerville-al/",
         "/service-areas/somerville-al/home-remodeling/",
         "/service-areas/somerville-al/roofing/",
+        "/service-areas/ardmore-al/mold-remediation/",
+        "/service-areas/athens-al/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/elkmont-al/home-remodeling/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Home Remodeling in Elkmont, AL | Davis Construction Contractors",
+      "h1": "Home Remodeling in Elkmont",
+      "meta_description": "Trusted home remodeling in Elkmont, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "home remodeling elkmont",
+      "secondary_keywords": [
+        "home renovation",
+        "whole home remodel",
+        "interior remodeling contractor",
+        "house renovation contractor",
+        "remodeling company"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/home-remodeling/",
+        "/service-areas/elkmont-al/",
+        "/service-areas/elkmont-al/roofing/",
+        "/service-areas/elkmont-al/decks-pergolas-fences/",
+        "/service-areas/ardmore-al/home-remodeling/",
+        "/service-areas/athens-al/home-remodeling/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/elkmont-al/new-construction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "New Home Construction in Elkmont, AL | Davis Construction Contractors",
+      "h1": "New Home Construction in Elkmont",
+      "meta_description": "Trusted new home construction in Elkmont, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "new home construction elkmont",
+      "secondary_keywords": [
+        "custom home builder",
+        "new home builder",
+        "build a house",
+        "residential construction",
+        "ground-up construction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/new-construction/",
+        "/service-areas/elkmont-al/",
+        "/service-areas/elkmont-al/home-remodeling/",
+        "/service-areas/elkmont-al/roofing/",
+        "/service-areas/ardmore-al/new-construction/",
+        "/service-areas/athens-al/new-construction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/elkmont-al/decks-pergolas-fences/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Decks, Pergolas and Fences in Elkmont, AL | Davis Construction Contractors",
+      "h1": "Decks, Pergolas and Fences in Elkmont",
+      "meta_description": "Trusted decks, pergolas and fences in Elkmont, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "decks, pergolas and fences elkmont",
+      "secondary_keywords": [
+        "deck builder",
+        "deck installation",
+        "pergola builder",
+        "fence installation",
+        "outdoor structure contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/decks-pergolas-fences/",
+        "/service-areas/elkmont-al/",
+        "/service-areas/elkmont-al/home-remodeling/",
+        "/service-areas/elkmont-al/roofing/",
+        "/service-areas/ardmore-al/decks-pergolas-fences/",
+        "/service-areas/athens-al/decks-pergolas-fences/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/elkmont-al/roofing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Roofing Installation and Replacement in Elkmont, AL | Davis Construction Contractors",
+      "h1": "Roofing Installation and Replacement in Elkmont",
+      "meta_description": "Trusted roofing installation and replacement in Elkmont, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "roofing installation and replacement elkmont",
+      "secondary_keywords": [
+        "roofing contractor",
+        "roof replacement",
+        "new roof installation",
+        "residential roofing",
+        "roof repair"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/roofing/",
+        "/service-areas/elkmont-al/",
+        "/service-areas/elkmont-al/home-remodeling/",
+        "/service-areas/elkmont-al/decks-pergolas-fences/",
+        "/service-areas/ardmore-al/roofing/",
+        "/service-areas/athens-al/roofing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/elkmont-al/siding-gutters/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Siding and Gutters in Elkmont, AL | Davis Construction Contractors",
+      "h1": "Siding and Gutters in Elkmont",
+      "meta_description": "Trusted siding and gutters in Elkmont, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "siding and gutters elkmont",
+      "secondary_keywords": [
+        "siding contractor",
+        "siding installation",
+        "siding replacement",
+        "gutter installation",
+        "exterior contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/siding-gutters/",
+        "/service-areas/elkmont-al/",
+        "/service-areas/elkmont-al/home-remodeling/",
+        "/service-areas/elkmont-al/roofing/",
+        "/service-areas/ardmore-al/siding-gutters/",
+        "/service-areas/athens-al/siding-gutters/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/elkmont-al/painting-trim/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Painting and Trim in Elkmont, AL | Davis Construction Contractors",
+      "h1": "Painting and Trim in Elkmont",
+      "meta_description": "Trusted painting and trim in Elkmont, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "painting and trim elkmont",
+      "secondary_keywords": [
+        "painting contractor",
+        "interior painting",
+        "exterior painting",
+        "house painter",
+        "trim painting"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/painting-trim/",
+        "/service-areas/elkmont-al/",
+        "/service-areas/elkmont-al/home-remodeling/",
+        "/service-areas/elkmont-al/roofing/",
+        "/service-areas/ardmore-al/painting-trim/",
+        "/service-areas/athens-al/painting-trim/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/elkmont-al/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Elkmont, AL | Davis Construction Contractors",
+      "h1": "Water Damage Restoration in Elkmont",
+      "meta_description": "Trusted water damage restoration in Elkmont, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "water damage restoration elkmont",
+      "secondary_keywords": [
+        "water damage repair",
+        "water damage rebuild",
+        "drywall water damage repair",
+        "ceiling water damage repair",
+        "post-leak renovation"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/elkmont-al/",
+        "/service-areas/elkmont-al/home-remodeling/",
+        "/service-areas/elkmont-al/roofing/",
+        "/service-areas/ardmore-al/water-damage-restoration/",
+        "/service-areas/athens-al/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/elkmont-al/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Elkmont, AL | Davis Construction Contractors",
+      "h1": "Storm Damage Restoration in Elkmont",
+      "meta_description": "Trusted storm damage restoration in Elkmont, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "storm damage restoration elkmont",
+      "secondary_keywords": [
+        "storm damage repair",
+        "roof storm damage repair",
+        "siding storm damage repair",
+        "wind damage repair contractor",
+        "storm damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/elkmont-al/",
+        "/service-areas/elkmont-al/home-remodeling/",
+        "/service-areas/elkmont-al/roofing/",
+        "/service-areas/ardmore-al/storm-damage-restoration/",
+        "/service-areas/athens-al/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/elkmont-al/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Elkmont, AL | Davis Construction Contractors",
+      "h1": "Mold Remediation in Elkmont",
+      "meta_description": "Trusted mold remediation in Elkmont, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "mold remediation elkmont",
+      "secondary_keywords": [
+        "mold removal",
+        "mold remediation contractor",
+        "mold repair and rebuild",
+        "mold-safe renovation",
+        "post-remediation reconstruction"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/elkmont-al/",
+        "/service-areas/elkmont-al/home-remodeling/",
+        "/service-areas/elkmont-al/roofing/",
         "/service-areas/ardmore-al/mold-remediation/",
         "/service-areas/athens-al/mold-remediation/",
         "/contact/"

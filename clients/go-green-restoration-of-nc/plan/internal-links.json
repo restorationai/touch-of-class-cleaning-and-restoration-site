@@ -19,6 +19,7 @@
     "/service-areas/kenly-nc/",
     "/service-areas/knightdale-nc/",
     "/service-areas/lake-royale-nc/",
+    "/service-areas/louisburg-nc/",
     "/service-areas/nashville-nc/",
     "/service-areas/pine-level-nc/",
     "/service-areas/raleigh-nc/",
@@ -53,6 +54,7 @@
     "/service-areas/kenly-nc/",
     "/service-areas/knightdale-nc/",
     "/service-areas/lake-royale-nc/",
+    "/service-areas/louisburg-nc/",
     "/service-areas/nashville-nc/",
     "/service-areas/pine-level-nc/",
     "/service-areas/raleigh-nc/",
@@ -98,11 +100,11 @@
     "/service-areas/kenly-nc/water-damage-restoration/",
     "/service-areas/knightdale-nc/water-damage-restoration/",
     "/service-areas/lake-royale-nc/water-damage-restoration/",
+    "/service-areas/louisburg-nc/water-damage-restoration/",
     "/service-areas/nashville-nc/water-damage-restoration/",
     "/service-areas/pine-level-nc/water-damage-restoration/",
     "/service-areas/raleigh-nc/water-damage-restoration/",
     "/service-areas/rocky-mount-nc/water-damage-restoration/",
-    "/service-areas/rolesville-nc/water-damage-restoration/",
     "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -118,11 +120,11 @@
     "/service-areas/kenly-nc/fire-damage-restoration/",
     "/service-areas/knightdale-nc/fire-damage-restoration/",
     "/service-areas/lake-royale-nc/fire-damage-restoration/",
+    "/service-areas/louisburg-nc/fire-damage-restoration/",
     "/service-areas/nashville-nc/fire-damage-restoration/",
     "/service-areas/pine-level-nc/fire-damage-restoration/",
     "/service-areas/raleigh-nc/fire-damage-restoration/",
     "/service-areas/rocky-mount-nc/fire-damage-restoration/",
-    "/service-areas/rolesville-nc/fire-damage-restoration/",
     "/blog/choosing-a-restoration-company/",
     "/blog/fire-damage-restoration-process/"
   ],
@@ -136,11 +138,11 @@
     "/service-areas/kenly-nc/mold-remediation/",
     "/service-areas/knightdale-nc/mold-remediation/",
     "/service-areas/lake-royale-nc/mold-remediation/",
+    "/service-areas/louisburg-nc/mold-remediation/",
     "/service-areas/nashville-nc/mold-remediation/",
     "/service-areas/pine-level-nc/mold-remediation/",
     "/service-areas/raleigh-nc/mold-remediation/",
     "/service-areas/rocky-mount-nc/mold-remediation/",
-    "/service-areas/rolesville-nc/mold-remediation/",
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
     "/blog/signs-of-hidden-mold/"
@@ -155,11 +157,11 @@
     "/service-areas/kenly-nc/crawl-space-encapsulation/",
     "/service-areas/knightdale-nc/crawl-space-encapsulation/",
     "/service-areas/lake-royale-nc/crawl-space-encapsulation/",
+    "/service-areas/louisburg-nc/crawl-space-encapsulation/",
     "/service-areas/nashville-nc/crawl-space-encapsulation/",
     "/service-areas/pine-level-nc/crawl-space-encapsulation/",
     "/service-areas/raleigh-nc/crawl-space-encapsulation/",
-    "/service-areas/rocky-mount-nc/crawl-space-encapsulation/",
-    "/service-areas/rolesville-nc/crawl-space-encapsulation/"
+    "/service-areas/rocky-mount-nc/crawl-space-encapsulation/"
   ],
   "/services/air-duct-cleaning/": [
     "/services/",
@@ -171,11 +173,11 @@
     "/service-areas/kenly-nc/air-duct-cleaning/",
     "/service-areas/knightdale-nc/air-duct-cleaning/",
     "/service-areas/lake-royale-nc/air-duct-cleaning/",
+    "/service-areas/louisburg-nc/air-duct-cleaning/",
     "/service-areas/nashville-nc/air-duct-cleaning/",
     "/service-areas/pine-level-nc/air-duct-cleaning/",
     "/service-areas/raleigh-nc/air-duct-cleaning/",
-    "/service-areas/rocky-mount-nc/air-duct-cleaning/",
-    "/service-areas/rolesville-nc/air-duct-cleaning/"
+    "/service-areas/rocky-mount-nc/air-duct-cleaning/"
   ],
   "/services/carpet-cleaning/": [
     "/services/",
@@ -187,11 +189,11 @@
     "/service-areas/kenly-nc/carpet-cleaning/",
     "/service-areas/knightdale-nc/carpet-cleaning/",
     "/service-areas/lake-royale-nc/carpet-cleaning/",
+    "/service-areas/louisburg-nc/carpet-cleaning/",
     "/service-areas/nashville-nc/carpet-cleaning/",
     "/service-areas/pine-level-nc/carpet-cleaning/",
     "/service-areas/raleigh-nc/carpet-cleaning/",
-    "/service-areas/rocky-mount-nc/carpet-cleaning/",
-    "/service-areas/rolesville-nc/carpet-cleaning/"
+    "/service-areas/rocky-mount-nc/carpet-cleaning/"
   ],
   "/services/insulation-removal-installation/": [
     "/services/",
@@ -203,11 +205,11 @@
     "/service-areas/kenly-nc/insulation-removal-installation/",
     "/service-areas/knightdale-nc/insulation-removal-installation/",
     "/service-areas/lake-royale-nc/insulation-removal-installation/",
+    "/service-areas/louisburg-nc/insulation-removal-installation/",
     "/service-areas/nashville-nc/insulation-removal-installation/",
     "/service-areas/pine-level-nc/insulation-removal-installation/",
     "/service-areas/raleigh-nc/insulation-removal-installation/",
-    "/service-areas/rocky-mount-nc/insulation-removal-installation/",
-    "/service-areas/rolesville-nc/insulation-removal-installation/"
+    "/service-areas/rocky-mount-nc/insulation-removal-installation/"
   ],
   "/services/water-cleanup/": [
     "/services/",
@@ -219,11 +221,11 @@
     "/service-areas/kenly-nc/water-cleanup/",
     "/service-areas/knightdale-nc/water-cleanup/",
     "/service-areas/lake-royale-nc/water-cleanup/",
+    "/service-areas/louisburg-nc/water-cleanup/",
     "/service-areas/nashville-nc/water-cleanup/",
     "/service-areas/pine-level-nc/water-cleanup/",
     "/service-areas/raleigh-nc/water-cleanup/",
     "/service-areas/rocky-mount-nc/water-cleanup/",
-    "/service-areas/rolesville-nc/water-cleanup/",
     "/services/water-damage-restoration/"
   ],
   "/service-areas/raleigh-nc/": [
@@ -522,6 +524,21 @@
     "/service-areas/pine-level-nc/crawl-space-encapsulation/",
     "/service-areas/pine-level-nc/insulation-removal-installation/",
     "/service-areas/pine-level-nc/carpet-cleaning/",
+    "/service-areas/archer-lodge-nc/",
+    "/service-areas/clayton-nc/",
+    "/service-areas/durham-nc/"
+  ],
+  "/service-areas/louisburg-nc/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/louisburg-nc/fire-damage-restoration/",
+    "/service-areas/louisburg-nc/mold-remediation/",
+    "/service-areas/louisburg-nc/water-damage-restoration/",
+    "/service-areas/louisburg-nc/water-cleanup/",
+    "/service-areas/louisburg-nc/air-duct-cleaning/",
+    "/service-areas/louisburg-nc/crawl-space-encapsulation/",
+    "/service-areas/louisburg-nc/insulation-removal-installation/",
+    "/service-areas/louisburg-nc/carpet-cleaning/",
     "/service-areas/archer-lodge-nc/",
     "/service-areas/clayton-nc/",
     "/service-areas/durham-nc/"
@@ -1962,6 +1979,78 @@
     "/service-areas/pine-level-nc/",
     "/service-areas/pine-level-nc/fire-damage-restoration/",
     "/service-areas/pine-level-nc/mold-remediation/",
+    "/service-areas/archer-lodge-nc/water-cleanup/",
+    "/service-areas/clayton-nc/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/louisburg-nc/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/louisburg-nc/",
+    "/service-areas/louisburg-nc/fire-damage-restoration/",
+    "/service-areas/louisburg-nc/mold-remediation/",
+    "/service-areas/archer-lodge-nc/water-damage-restoration/",
+    "/service-areas/clayton-nc/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/louisburg-nc/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/louisburg-nc/",
+    "/service-areas/louisburg-nc/mold-remediation/",
+    "/service-areas/louisburg-nc/water-damage-restoration/",
+    "/service-areas/archer-lodge-nc/fire-damage-restoration/",
+    "/service-areas/clayton-nc/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/louisburg-nc/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/louisburg-nc/",
+    "/service-areas/louisburg-nc/fire-damage-restoration/",
+    "/service-areas/louisburg-nc/water-damage-restoration/",
+    "/service-areas/archer-lodge-nc/mold-remediation/",
+    "/service-areas/clayton-nc/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/louisburg-nc/crawl-space-encapsulation/": [
+    "/services/crawl-space-encapsulation/",
+    "/service-areas/louisburg-nc/",
+    "/service-areas/louisburg-nc/fire-damage-restoration/",
+    "/service-areas/louisburg-nc/mold-remediation/",
+    "/service-areas/archer-lodge-nc/crawl-space-encapsulation/",
+    "/service-areas/clayton-nc/crawl-space-encapsulation/",
+    "/contact/"
+  ],
+  "/service-areas/louisburg-nc/air-duct-cleaning/": [
+    "/services/air-duct-cleaning/",
+    "/service-areas/louisburg-nc/",
+    "/service-areas/louisburg-nc/fire-damage-restoration/",
+    "/service-areas/louisburg-nc/mold-remediation/",
+    "/service-areas/archer-lodge-nc/air-duct-cleaning/",
+    "/service-areas/clayton-nc/air-duct-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/louisburg-nc/carpet-cleaning/": [
+    "/services/carpet-cleaning/",
+    "/service-areas/louisburg-nc/",
+    "/service-areas/louisburg-nc/fire-damage-restoration/",
+    "/service-areas/louisburg-nc/mold-remediation/",
+    "/service-areas/archer-lodge-nc/carpet-cleaning/",
+    "/service-areas/clayton-nc/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/louisburg-nc/insulation-removal-installation/": [
+    "/services/insulation-removal-installation/",
+    "/service-areas/louisburg-nc/",
+    "/service-areas/louisburg-nc/fire-damage-restoration/",
+    "/service-areas/louisburg-nc/mold-remediation/",
+    "/service-areas/archer-lodge-nc/insulation-removal-installation/",
+    "/service-areas/clayton-nc/insulation-removal-installation/",
+    "/contact/"
+  ],
+  "/service-areas/louisburg-nc/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/louisburg-nc/",
+    "/service-areas/louisburg-nc/fire-damage-restoration/",
+    "/service-areas/louisburg-nc/mold-remediation/",
     "/service-areas/archer-lodge-nc/water-cleanup/",
     "/service-areas/clayton-nc/water-cleanup/",
     "/contact/"

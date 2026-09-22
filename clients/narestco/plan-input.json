@@ -459,6 +459,11 @@
       "city": "Lake Holm",
       "state": "WA",
       "slug": "lake-holm-wa"
+    },
+    {
+      "city": "Waller",
+      "state": "WA",
+      "slug": "waller-wa"
     }
   ],
   "brand": {

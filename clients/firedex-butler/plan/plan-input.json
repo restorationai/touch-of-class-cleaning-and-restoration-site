@@ -327,6 +327,11 @@
       "city": "Ellwood City",
       "state": "PA",
       "slug": "ellwood-city-pa"
+    },
+    {
+      "city": "Big Beaver",
+      "state": "PA",
+      "slug": "big-beaver-pa"
     }
   ],
   "brand": {

@@ -1,20 +1,20 @@
 # Site Plan Report — Desert Valley Contracting Inc 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-22T02:11:46.064809+00:00
+- Generated: 2026-09-22T14:28:33.291033+00:00
 - Domain: `desertvalleycontracting.net`
 - Services selected: 9 of 65 catalog entries
-- Service areas: 17
+- Service areas: 18
 - Cross-product enabled: True
-- Total URLs: **186**
-- Total internal links: 1479 (avg 8.0 per page)
+- Total URLs: **196**
+- Total internal links: 1558 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 144 |
-| `service-area` | 16 |
+| `service-area-service` | 153 |
+| `service-area` | 17 |
 | `service-landing` | 9 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -56,6 +56,7 @@
 - `sandy-valley-nv` — Sandy Valley, NV
 - `nelson-nv` — Nelson, NV
 - `indian-springs-nv` — Indian Springs, NV
+- `moapa-town-nv` — Moapa Town, NV
 
 ## Top 10 priority pages
 

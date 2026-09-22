@@ -408,6 +408,11 @@
       "city": "Mililani Mauka",
       "state": "HI",
       "slug": "mililani-mauka-hi"
+    },
+    {
+      "city": "Makakilo",
+      "state": "HI",
+      "slug": "makakilo-hi"
     }
   ],
   "brand": {

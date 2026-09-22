@@ -159,6 +159,11 @@
       "city": "Brookfield",
       "state": "IL",
       "slug": "brookfield-il"
+    },
+    {
+      "city": "Maywood",
+      "state": "IL",
+      "slug": "maywood-il"
     }
   ],
   "template": "restoration",

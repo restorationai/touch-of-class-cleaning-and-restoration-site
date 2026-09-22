@@ -154,6 +154,11 @@
       "city": "Somerville",
       "state": "AL",
       "slug": "somerville-al"
+    },
+    {
+      "city": "Elkmont",
+      "state": "AL",
+      "slug": "elkmont-al"
     }
   ],
   "brand": {

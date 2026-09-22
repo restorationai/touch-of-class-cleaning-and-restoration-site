@@ -114,6 +114,11 @@
       "city": "Southwest Sandhill",
       "state": "TX",
       "slug": "southwest-sandhill-tx"
+    },
+    {
+      "city": "Big Lake",
+      "state": "TX",
+      "slug": "big-lake-tx"
     }
   ],
   "template": "restoration",

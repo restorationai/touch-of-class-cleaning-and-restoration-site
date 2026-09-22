@@ -1,20 +1,20 @@
 # Site Plan Report — Go Green Restoration of NC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-22T02:11:22.138790+00:00
+- Generated: 2026-09-22T14:27:41.184677+00:00
 - Domain: `gogreenrestorationofnc.com`
 - Services selected: 8 of 65 catalog entries
-- Service areas: 21
+- Service areas: 22
 - Cross-product enabled: True
-- Total URLs: **205**
-- Total internal links: 1619 (avg 7.9 per page)
+- Total URLs: **214**
+- Total internal links: 1690 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 160 |
-| `service-area` | 20 |
+| `service-area-service` | 168 |
+| `service-area` | 21 |
 | `service-landing` | 8 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -59,6 +59,7 @@
 - `nashville-nc` — Nashville, NC
 - `elm-city-nc` — Elm City, NC
 - `pine-level-nc` — Pine Level, NC
+- `louisburg-nc` — Louisburg, NC
 
 ## Top 10 priority pages
 

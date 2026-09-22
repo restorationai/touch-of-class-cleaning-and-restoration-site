@@ -148,6 +148,11 @@
       "city": "Avon",
       "state": "MN",
       "slug": "avon-mn"
+    },
+    {
+      "city": "St. Joseph",
+      "state": "MN",
+      "slug": "st-joseph-mn"
     }
   ],
   "template": "restoration",

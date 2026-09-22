@@ -251,6 +251,15 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/seabrook-island-sc/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/mount-pleasant-sc/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -922,6 +931,46 @@
     "missing_stubs": []
   },
   "/service-areas/ridgeville-sc/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/seabrook-island-sc/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/seabrook-island-sc/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/seabrook-island-sc/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/seabrook-island-sc/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
