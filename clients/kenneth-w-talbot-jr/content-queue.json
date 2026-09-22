@@ -1,206 +1,219 @@
 {
- "items": [
-  {
-   "id": "2026-09-21-mold-remediation-cost-fl",
-   "status": "queued",
-   "queued_at": "2026-09-21T10:25:45Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "cost_guide",
-   "combo_key": "mold-remediation-cost-fl",
-   "primary_keyword": "mold remediation cost FL",
-   "intent": "transactional",
-   "target_word_count": 1500,
-   "city_anchor": "freeport-fl",
-   "best_of": {
-    "service": "mold-remediation",
-    "service_pretty": "Mold Remediation",
-    "city": "Freeport",
-    "state": "FL",
-    "competitors": []
-   },
-   "fan_out_cluster": [
-    "how much does mold remediation cost in FL",
-    "mold remediation price FL",
-    "average cost of mold remediation FL",
-    "mold removal FL",
-    "mold cleanup FL",
-    "black mold removal FL"
-   ],
-   "source": "best-of-seeder"
-  },
-  {
-   "id": "2026-09-07-fire-smoke-restoration",
-   "status": "written",
-   "queued_at": "2026-09-07T15:56:45Z",
-   "priority": 1,
-   "content_type": "target_term",
-   "combo_key": "fire-smoke-restoration",
-   "primary_keyword": "Fire & Smoke Restoration",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "defuniak-springs-fl",
-   "source": "app target-term (onboarding-backfill)",
-   "written_at": "2026-09-18T10:43:07Z",
-   "post_url": "https://veteransremediation.com/blog/fire-smoke-restoration/",
-   "claims_flags": [
+  "items": [
     {
-     "file": "src/content/blog/fire-smoke-restoration.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "en the pacemaker. Structural drying to [IICRC S500](https://www.iicrc.org) standards",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+      "id": "2026-09-21-mold-remediation-cost-fl",
+      "status": "written",
+      "queued_at": "2026-09-21T10:25:45Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "cost_guide",
+      "combo_key": "mold-remediation-cost-fl",
+      "primary_keyword": "mold remediation cost FL",
+      "intent": "transactional",
+      "target_word_count": 1500,
+      "city_anchor": "freeport-fl",
+      "best_of": {
+        "service": "mold-remediation",
+        "service_pretty": "Mold Remediation",
+        "city": "Freeport",
+        "state": "FL",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "how much does mold remediation cost in FL",
+        "mold remediation price FL",
+        "average cost of mold remediation FL",
+        "mold removal FL",
+        "mold cleanup FL",
+        "black mold removal FL"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-09-22T15:28:12Z",
+      "post_url": "https://veteransremediation.com/blog/mold-remediation-cost-fl/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/mold-remediation-cost-fl.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "iation to capture airborne spores. The [IICRC S520 standard](https://www.iicrc.org) g",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-07-fire-smoke-restoration",
+      "status": "written",
+      "queued_at": "2026-09-07T15:56:45Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "fire-smoke-restoration",
+      "primary_keyword": "Fire & Smoke Restoration",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "defuniak-springs-fl",
+      "source": "app target-term (onboarding-backfill)",
+      "written_at": "2026-09-18T10:43:07Z",
+      "post_url": "https://veteransremediation.com/blog/fire-smoke-restoration/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/fire-smoke-restoration.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "en the pacemaker. Structural drying to [IICRC S500](https://www.iicrc.org) standards",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-07-storm-wind-damage-restoration",
+      "status": "written",
+      "queued_at": "2026-09-07T15:56:45Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "storm-wind-damage-restoration",
+      "primary_keyword": "Storm & Wind Damage Restoration",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "crestview-fl",
+      "source": "app target-term (onboarding-backfill)",
+      "written_at": "2026-09-20T14:37:14Z",
+      "post_url": "https://veteransremediation.com/blog/storm-wind-damage-restoration/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/storm-wind-damage-restoration.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "ed to dry the structural assembly. The [IICRC S500 standard](https://www.iicrc.org) d",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-07-best-mold-remediation-in-freeport-fl",
+      "status": "written",
+      "queued_at": "2026-09-07T10:24:12Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-mold-remediation-in-freeport-fl",
+      "primary_keyword": "best mold remediation company in Freeport, FL",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "freeport-fl",
+      "best_of": {
+        "service": "mold-remediation",
+        "service_pretty": "Mold Remediation",
+        "city": "Freeport",
+        "state": "FL",
+        "competitors": [
+          {
+            "name": "Veritas",
+            "google_rating": 4.3,
+            "review_count": 11
+          },
+          {
+            "name": "SERVPRO of Destin, Seaside, Freeport",
+            "google_rating": 4.9,
+            "review_count": 42
+          },
+          {
+            "name": "Truvorne",
+            "google_rating": 4.8,
+            "review_count": 73
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best mold remediation companies Freeport",
+        "top rated mold remediation Freeport FL",
+        "who is the best mold remediation company in Freeport",
+        "mold removal Freeport",
+        "mold cleanup Freeport",
+        "black mold removal Freeport"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-09-07T10:26:32Z",
+      "post_url": "https://veteransremediation.com/blog/best-mold-remediation-company-in-freeport-fl/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-freeport-fl.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "he affected area, remove the growth to [IICRC](https://www.iicrc.org) standards, and",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-freeport-fl.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "gle Rating | Reviews | 24/7 Emergency | IICRC Certified | |---|---|---|---|---| | Vet",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-freeport-fl.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "42 reviews",
+          "context": ". They carry a 4.9 Google rating across 42 reviews, which reflects consistent customer sat",
+          "reason": "claims 42 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-freeport-fl.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "42 reviews",
+          "context": ". **Key facts:** - Google Rating: 4.9 (42 reviews) - National franchise with local covera",
+          "reason": "claims 42 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-freeport-fl.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "73 reviews",
+          "context": "uvorne holds a 4.8 Google rating across 73 reviews, making it the most-reviewed company on",
+          "reason": "claims 73 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-freeport-fl.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "73 reviews",
+          "context": ". **Key facts:** - Google Rating: 4.8 (73 reviews) - Highest review count of any company",
+          "reason": "claims 73 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-freeport-fl.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "11 reviews",
+          "context": "itas carries a 4.3 Google rating across 11 reviews. The lower review count makes it harder",
+          "reason": "claims 11 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-freeport-fl.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "11 reviews",
+          "context": ". **Key facts:** - Google Rating: 4.3 (11 reviews) - Established local restoration compan",
+          "reason": "claims 11 reviews but no synced gbpReviewCount exists for this site"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "2026-09-07-storm-wind-damage-restoration",
-   "status": "written",
-   "queued_at": "2026-09-07T15:56:45Z",
-   "priority": 1,
-   "content_type": "target_term",
-   "combo_key": "storm-wind-damage-restoration",
-   "primary_keyword": "Storm & Wind Damage Restoration",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "crestview-fl",
-   "source": "app target-term (onboarding-backfill)",
-   "written_at": "2026-09-20T14:37:14Z",
-   "post_url": "https://veteransremediation.com/blog/storm-wind-damage-restoration/",
-   "claims_flags": [
-    {
-     "file": "src/content/blog/storm-wind-damage-restoration.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "ed to dry the structural assembly. The [IICRC S500 standard](https://www.iicrc.org) d",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    }
-   ]
-  },
-  {
-   "id": "2026-09-07-best-mold-remediation-in-freeport-fl",
-   "status": "written",
-   "queued_at": "2026-09-07T10:24:12Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "best_of_comparison",
-   "combo_key": "best-mold-remediation-in-freeport-fl",
-   "primary_keyword": "best mold remediation company in Freeport, FL",
-   "intent": "commercial",
-   "target_word_count": 1600,
-   "city_anchor": "freeport-fl",
-   "best_of": {
-    "service": "mold-remediation",
-    "service_pretty": "Mold Remediation",
-    "city": "Freeport",
-    "state": "FL",
-    "competitors": [
-     {
-      "name": "Veritas",
-      "google_rating": 4.3,
-      "review_count": 11
-     },
-     {
-      "name": "SERVPRO of Destin, Seaside, Freeport",
-      "google_rating": 4.9,
-      "review_count": 42
-     },
-     {
-      "name": "Truvorne",
-      "google_rating": 4.8,
-      "review_count": 73
-     }
-    ]
-   },
-   "fan_out_cluster": [
-    "best mold remediation companies Freeport",
-    "top rated mold remediation Freeport FL",
-    "who is the best mold remediation company in Freeport",
-    "mold removal Freeport",
-    "mold cleanup Freeport",
-    "black mold removal Freeport"
-   ],
-   "source": "best-of-seeder",
-   "written_at": "2026-09-07T10:26:32Z",
-   "post_url": "https://veteransremediation.com/blog/best-mold-remediation-company-in-freeport-fl/",
-   "claims_flags": [
-    {
-     "file": "src/content/blog/best-mold-remediation-company-in-freeport-fl.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "IICRC",
-     "context": "he affected area, remove the growth to [IICRC](https://www.iicrc.org) standards, and",
-     "reason": "names a certification not present in brand.certifications"
-    },
-    {
-     "file": "src/content/blog/best-mold-remediation-company-in-freeport-fl.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "IICRC",
-     "context": "gle Rating | Reviews | 24/7 Emergency | IICRC Certified | |---|---|---|---|---| | Vet",
-     "reason": "names a certification not present in brand.certifications"
-    },
-    {
-     "file": "src/content/blog/best-mold-remediation-company-in-freeport-fl.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "42 reviews",
-     "context": ". They carry a 4.9 Google rating across 42 reviews, which reflects consistent customer sat",
-     "reason": "claims 42 reviews but no synced gbpReviewCount exists for this site"
-    },
-    {
-     "file": "src/content/blog/best-mold-remediation-company-in-freeport-fl.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "42 reviews",
-     "context": ". **Key facts:** - Google Rating: 4.9 (42 reviews) - National franchise with local covera",
-     "reason": "claims 42 reviews but no synced gbpReviewCount exists for this site"
-    },
-    {
-     "file": "src/content/blog/best-mold-remediation-company-in-freeport-fl.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "73 reviews",
-     "context": "uvorne holds a 4.8 Google rating across 73 reviews, making it the most-reviewed company on",
-     "reason": "claims 73 reviews but no synced gbpReviewCount exists for this site"
-    },
-    {
-     "file": "src/content/blog/best-mold-remediation-company-in-freeport-fl.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "73 reviews",
-     "context": ". **Key facts:** - Google Rating: 4.8 (73 reviews) - Highest review count of any company",
-     "reason": "claims 73 reviews but no synced gbpReviewCount exists for this site"
-    },
-    {
-     "file": "src/content/blog/best-mold-remediation-company-in-freeport-fl.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "11 reviews",
-     "context": "itas carries a 4.3 Google rating across 11 reviews. The lower review count makes it harder",
-     "reason": "claims 11 reviews but no synced gbpReviewCount exists for this site"
-    },
-    {
-     "file": "src/content/blog/best-mold-remediation-company-in-freeport-fl.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "11 reviews",
-     "context": ". **Key facts:** - Google Rating: 4.3 (11 reviews) - Established local restoration compan",
-     "reason": "claims 11 reviews but no synced gbpReviewCount exists for this site"
-    }
-   ]
-  }
- ]
+  ]
 }
