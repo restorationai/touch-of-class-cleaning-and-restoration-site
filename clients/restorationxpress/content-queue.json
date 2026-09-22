@@ -1107,7 +1107,7 @@
     },
     {
       "id": "2026-09-15-mold-growth-timeline",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-15T14:24:35Z",
       "priority": 1,
       "prioritized": true,
@@ -1148,7 +1148,8 @@
           "context": "orationXpress** RestorationXpress is a certified restoration company serving Davie, FL and surroundi",
           "reason": "names a certification not present in brand.certifications"
         }
-      ]
+      ],
+      "published_verified_at": "2026-09-22T15:37:35Z"
     }
   ]
 }
