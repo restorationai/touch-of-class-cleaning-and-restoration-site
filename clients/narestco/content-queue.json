@@ -31,7 +31,7 @@
     },
     {
       "id": "2026-07-23-best-water-damage-restoration-in-federal-way-wa",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-23T17:29:34Z",
       "priority": 1,
       "content_type": "best_of_comparison",
@@ -73,7 +73,47 @@
         "top rated water damage restoration Federal Way WA",
         "who is the best water damage restoration company in Federal Way"
       ],
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-22T01:00:33Z",
+      "post_url": "https://narestco.com/blog/best-water-damage-restoration-company-in-federal-way-wa/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-federal-way-wa.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "199 Google reviews",
+          "context": "d & Fire holds a 4.8-star rating across 199 Google reviews, the largest review volume of any compa",
+          "reason": "listicle review-count 199 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-federal-way-wa.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "37 Google reviews",
+          "context": "arries a perfect 5.0-star rating across 37 Google reviews. A 5.0 average across 37 reviews is sta",
+          "reason": "listicle review-count 37 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-federal-way-wa.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "37 reviews",
+          "context": "37 Google reviews. A 5.0 average across 37 reviews is statistically notable and suggests a",
+          "reason": "listicle review-count 37 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-federal-way-wa.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "21 Google reviews",
+          "context": "ry. They carry a 4.4-star rating across 21 Google reviews. SERVPRO's national infrastructure mean",
+          "reason": "listicle review-count 21 (competitor stat \u2014 verify it is not presented as ours)"
+        }
+      ]
     },
     {
       "id": "2026-05-17-does-homeowners-insurance-cover-water-damage",
