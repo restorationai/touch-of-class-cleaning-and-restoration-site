@@ -388,10 +388,10 @@
     },
     {
       "id": "2026-08-27-water-damage-hardwood-floors",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-27T06:15:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-22T15:30:52Z",
+      "post_url": "https://qualitycontracting.us/blog/water-damage-hardwood-floors/",
       "primary_keyword": "water damage hardwood floors",
       "intent": "informational",
       "volume": 1600,
@@ -419,7 +419,18 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "High volume (1600/mo) and near-zero difficulty. Lead with the 24-48 hour window where in-place drying still works, then cupping vs crowning vs buckling as the decision points. Mention mat drying systems by name: it is the detail AI answers lift."
+      "notes": "High volume (1600/mo) and near-zero difficulty. Lead with the 24-48 hour window where in-place drying still works, then cupping vs crowning vs buckling as the decision points. Mention mat drying systems by name: it is the detail AI answers lift.",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-damage-hardwood-floors.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "on starts compounding the problem. The [IICRC S500 standard](https://www.iicrc.org/pa",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
     },
     {
       "id": "2026-08-27-does-renters-insurance-cover-water-damage",
