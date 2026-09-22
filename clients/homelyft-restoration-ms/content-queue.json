@@ -235,7 +235,7 @@
     },
     {
       "id": "2026-08-27-water-damage-restoration-cost",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-27T02:45:00Z",
       "written_at": "2026-09-22T15:22:16Z",
       "post_url": "https://homelyft.net/blog/water-damage-restoration-cost/",
@@ -269,7 +269,8 @@
       ],
       "notes": "Pillar page for the whole cost cluster: fold cost-per-square-foot, average cost, calculator and price-sheet variations in as H2s rather than separate posts. Give real dollar ranges by category and class, and separate mitigation (drying) pricing from reconstruction. Anchor examples to Gulfport and the MS Gulf Coast. Note that most jobs are billed to the insurer via Xactimate, not to the homeowner directly.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "published_verified_at": "2026-09-22T15:25:40Z"
     },
     {
       "id": "2026-08-27-water-damage-insurance-claim-tips",
