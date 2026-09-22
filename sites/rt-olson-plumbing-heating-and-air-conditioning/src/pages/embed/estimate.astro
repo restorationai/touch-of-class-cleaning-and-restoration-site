@@ -37,5 +37,26 @@ import { brand } from "~/lib/brand";
         post();
       })();
     </script>
+    <script is:inline>
+      // DNI (Zheng/BDA 2026-09-22): on ad landing pages the embed must show
+      // the matching tracking line, not the NAP number, so calls attribute
+      // to the same source as the form fills. Keyed off the same ?source=
+      // the form treats as authoritative.
+      (function () {
+        var MAP = { google_ads: { display: "(951) 977-4829", raw: "+19519774829" } };
+        var src = new URLSearchParams(location.search).get("source") || "";
+        var n = MAP[src.toLowerCase()];
+        if (!n) return;
+        document.querySelectorAll('a[href^="tel:"]').forEach(function (a) {
+          a.href = "tel:" + n.raw;
+        });
+        var re = /\(\d{3}\)\s?\d{3}-\d{4}/;
+        var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+        while (walker.nextNode()) {
+          var t = walker.currentNode;
+          if (re.test(t.nodeValue)) t.nodeValue = t.nodeValue.replace(re, n.display);
+        }
+      })();
+    </script>
   </body>
 </html>
