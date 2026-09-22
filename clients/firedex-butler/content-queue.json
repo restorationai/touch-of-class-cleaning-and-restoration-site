@@ -334,10 +334,10 @@
     },
     {
       "id": "2026-08-26-water-in-basement-after-heavy-rain",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-26T23:55:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-22T15:17:40Z",
+      "post_url": "https://firedex.net/blog/water-in-basement-after-heavy-rain/",
       "primary_keyword": "water in basement after heavy rain",
       "intent": "informational",
       "volume": 480,
@@ -371,7 +371,27 @@
       ],
       "notes": "Strong local hook without being a location page: Connoquenessing Creek (Zelienople, Butler) and Breakneck Creek (Mars, Evans City) put low-lying blocks on flood alert in cloudburst summers, and Cranberry and Seven Fields sit on sump-dependent newer builds. Separate the three causes clearly (surface grading and downspouts, hydrostatic seepage through block walls, sump or drain failure) because the insurance answer differs for each: groundwater seepage is usually excluded, sump failure needs a rider, storm-driven surface flooding needs NFIP. Writer should note FireDEX does the cleanup and drying, not foundation waterproofing.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-in-basement-after-heavy-rain.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "how dry the surface looks or feels. The IICRC S500 standard sets target moisture leve",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-in-basement-after-heavy-rain.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "meters track the drying progress to the IICRC S500 standard's target levels. - **The",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
     },
     {
       "id": "2026-08-26-category-3-water-damage",
