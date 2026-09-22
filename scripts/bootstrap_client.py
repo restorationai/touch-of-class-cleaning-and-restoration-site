@@ -129,7 +129,23 @@ def derive_vertical(co: dict) -> str:
     """
     industry = co.get("industry")
     industry = " ".join(industry) if isinstance(industry, list) else str(industry or "")
-    for source in (industry.lower(), str(co.get("name") or "").lower()):
+
+    def _services_look_restoration() -> bool:
+        # Katofsky 2026-09-22: "Katofsky Construction LLC", empty industry,
+        # name said construction — but his truth table read Fire & Smoke,
+        # Sewage, Biohazard, Board-Up, Contents. When INDUSTRY is silent and
+        # only the NAME votes non-restoration, 3+ core restoration services
+        # outvote the name. Never reached when industry is set (Davis/TDI
+        # carry industry=Restoration and resolve there).
+        core = ("water damage", "fire & smoke", "fire and smoke",
+                "smoke restoration", "mold remediation", "sewage",
+                "biohazard", "board-up", "board up", "contents restoration",
+                "storm & wind", "storm and wind", "water cleanup")
+        blob = [str(s).lower() for s in (co.get("services") or [])]
+        return sum(any(c in s for s in blob) for c in core) >= 3
+
+    for is_industry, source in ((True, industry.lower()),
+                                (False, str(co.get("name") or "").lower())):
         if not source.strip():
             continue
         # Restoration WINS when the name carries both, e.g. "National
@@ -140,6 +156,12 @@ def derive_vertical(co: dict) -> str:
             return "restoration"
         for vertical, words in _VERTICAL_KEYWORDS:
             if any(w in source for w in words):
+                if (not is_industry and vertical != "restoration"
+                        and _services_look_restoration()):
+                    print(f"vertical: name said {vertical!r} but the "
+                          "services are core restoration — restoration "
+                          "wins (Katofsky rule)")
+                    return "restoration"
                 return vertical
     print("vertical: nothing matched for {!r} — defaulting to restoration"
           .format(co.get("name")))
