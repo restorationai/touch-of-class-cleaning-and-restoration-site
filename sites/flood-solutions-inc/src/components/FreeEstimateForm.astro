@@ -124,6 +124,7 @@ const {
               <a href={`tel:${brand.phoneRaw}`} class="text-xl font-black text-white no-underline">{brand.phone}</a>
             </div>
           </div>
+          {brand.email && (
           <div class="flex items-start gap-3">
             <span class="w-10 h-10 rounded-xl bg-primary-600/20 text-primary-400 flex items-center justify-center shrink-0 font-black">@</span>
             <div>
@@ -131,6 +132,7 @@ const {
               <a href={`mailto:${brand.email}`} class="font-bold text-white no-underline break-all">{brand.email}</a>
             </div>
           </div>
+          )}
           <div class="flex items-start gap-3">
             <span class="w-10 h-10 rounded-xl bg-primary-600/20 text-primary-400 flex items-center justify-center shrink-0 font-black">⌖</span>
             <div>

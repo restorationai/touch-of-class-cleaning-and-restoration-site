@@ -48,7 +48,7 @@ function localBusiness(ctx: PageSchemaContext) {
     alternateName: brand.shortName,
     url: brand.canonicalUrl,
     telephone: brand.phoneRaw,
-    email: brand.email,
+    ...(brand.email ? { email: brand.email } : {}),
     image: brand.logoUrl,
     logo: brand.logoUrl,
     priceRange: "$$",
@@ -110,7 +110,7 @@ function organization() {
     url: brand.canonicalUrl,
     logo: { "@type": "ImageObject", url: brand.logoUrl },
     telephone: brand.phoneRaw,
-    email: brand.email,
+    ...(brand.email ? { email: brand.email } : {}),
     foundingDate: brand.foundedYear,
     sameAs: brand.sameAsUrls,
   };

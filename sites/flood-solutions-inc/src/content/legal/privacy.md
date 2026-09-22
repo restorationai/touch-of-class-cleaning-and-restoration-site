@@ -47,7 +47,6 @@ GDPR is designed for businesses that actively target EU residents. As a Michigan
 If you have questions about this policy, want to request access to or deletion of your information, or need to report a concern, contact Flood Solutions Inc. directly:
 
 - **Phone:** (586) 580-0197
-- **Email:** cgeatches@yahoo.com
-- **Mail:** 49118 Shannon Court, Macomb, MI 48042
+- **Mail:** 10153 Marine City Highway, Ira, MI 48023
 
 This privacy policy may be updated periodically. Material changes will be reflected with a revised date at the top of this page.

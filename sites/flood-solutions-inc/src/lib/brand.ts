@@ -20,7 +20,7 @@ export const brand = {
   // filled by the call-tracking provisioning step).
   trackingPhone: "",
   trackingPhoneRaw: "",
-  email: "cgeatches@yahoo.com",
+  email: "",
   hours: "24/7",
   foundedYear: "1996",
   primaryCity: "Macomb",
@@ -29,10 +29,10 @@ export const brand = {
   // copy). addressCity/addressState = where the business PHYSICALLY is.
   // They are usually the same and often diverge (DISS: Farrell PA office,
   // Youngstown OH target) — only the address pair may go in a PostalAddress.
-  addressCity: "MACOMB",
+  addressCity: "Ira",
   addressState: "MI",
-  streetAddress: "49118 Shannon Court",
-  postalCode: "48042",
+  streetAddress: "10153 Marine City Highway",
+  postalCode: "48023",
   lat: "",
   lng: "",
   placeId: "",

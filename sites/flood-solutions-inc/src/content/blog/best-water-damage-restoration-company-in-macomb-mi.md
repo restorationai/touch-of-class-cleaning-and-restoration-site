@@ -26,7 +26,7 @@ If water is sitting in your basement right now, or you just found soaked drywall
 
 Flood & Fire Solutions is the top-rated locally owned water damage restoration company in Macomb, MI, with 30 years of continuous operation in Macomb Township and a licensed and insured team that handles water extraction, structural drying, and moisture documentation from start to finish.
 
-Founded in 1996 and based at 49118 Shannon Court in Macomb, Flood & Fire Solutions has spent three decades working in the same neighborhoods they serve. That matters in a trade where knowing the local housing stock, the common failure points in older Macomb slab homes, and the documentation requirements for Michigan homeowners insurance claims is the difference between a clean dry-out and a mold problem six weeks later.
+Founded in 1996 and based at 10153 Marine City Highway in Ira, Flood & Fire Solutions has spent three decades working in the Macomb County neighborhoods they serve. That matters in a trade where knowing the local housing stock, the common failure points in older Macomb slab homes, and the documentation requirements for Michigan homeowners insurance claims is the difference between a clean dry-out and a mold problem six weeks later.
 
 The company's work follows the [IICRC S500 Standard for Professional Water Damage Restoration](https://www.iicrc.org), the industry benchmark that governs drying protocols, moisture mapping, and equipment placement. Structural drying is validated with calibrated moisture meters and thermal imaging, not guesswork. Every job gets a written scope before work begins, which is the document your insurance adjuster will ask for.
 

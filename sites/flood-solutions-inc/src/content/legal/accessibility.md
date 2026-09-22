@@ -36,9 +36,8 @@ We recognize that accessibility is an ongoing effort, not a one-time checklist. 
 
 If you experience any difficulty accessing content on this site, please reach out directly. We take these reports seriously and will work to address confirmed issues within a reasonable timeframe.
 
-**Email:** cgeatches@yahoo.com 
 **Phone:** (586) 580-0197 
-**Mailing address:** 49118 Shannon Court, Macomb, MI 48042
+**Mailing address:** 10153 Marine City Highway, Ira, MI 48023
 
 When you contact us, it helps to include the page URL where you encountered the issue, the type of assistive technology or browser you were using, and a brief description of what happened. That information lets us reproduce and fix the problem as quickly as possible.
 

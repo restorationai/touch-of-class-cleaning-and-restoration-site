@@ -18,7 +18,7 @@ rendered: true
 ---
 ## What These Terms Cover
 
-These Terms of Service apply to your use of this website and to any service relationship you enter into with Flood Solutions Inc. located at 49118 Shannon Court, Macomb, MI 48042. Using this site or requesting an estimate means you have read and agree to what follows. If you have questions before proceeding, reach us at (586) 580-0197 or cgeatches@yahoo.com.
+These Terms of Service apply to your use of this website and to any service relationship you enter into with Flood Solutions Inc. located at 10153 Marine City Highway, Ira, MI 48023. Using this site or requesting service means you have read and agree to what follows. If you have questions before proceeding, reach us at (586) 580-0197.
 
 ## Service Area and Estimates
 
