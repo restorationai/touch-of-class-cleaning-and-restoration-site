@@ -11409,6 +11409,32 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
         # correction must not depend on whether we owed them a text.
         # route_feedback decides auto ([DEV], runs tonight, no clicks) vs
         # ask-Santino ([TODO-PROPOSED]); see scripts/feedback_router.py.
+        # EMAIL-CLAIM TRIPWIRE (Phase 2.1, Santino 2026-09-22): a text
+        # saying "I emailed it" starts a 2h clock. The polled mailboxes
+        # normally ingest it (the lookback handles history); the watchdog
+        # alarm fires only when NOTHING arrives — the client emailed an
+        # address we don't poll, or a typo swallowed it.
+        try:
+            _b = msg.get("body") or ""
+            if (re.search(r"\bemailed\b|\b(sent|forwarded|send)\b[^.]{0,40}"
+                          r"\bemail\b|\bemail\b[^.]{0,30}\b(sent|over)\b",
+                          _b, re.I)
+                    and not re.search(
+                        r"\b(tomorrow|tonight|later|next week|in the "
+                        r"morning)\b|'ll send|will send|going to send",
+                        _b, re.I)):
+                _claims = kv_get("email-claim-watch") or {}
+                cidk = str(company.get("id"))
+                if cidk not in _claims:
+                    _claims[cidk] = {
+                        "at": datetime.now(timezone.utc).isoformat(),
+                        "quote": (msg.get("body") or "")[:200]}
+                    if not dry_run:
+                        kv_set("email-claim-watch", _claims)
+                    print("    [email-claim] watch armed (2h) — text says "
+                          "an email was sent")
+        except Exception:  # noqa: BLE001 — tripwire never breaks a poll
+            pass
         fbs = result.get("client_feedback") or []
         out["feedback_seen"] = out.get("feedback_seen", 0) + len(fbs)
         if fbs:
@@ -13724,6 +13750,95 @@ def cmd_selfcheck(_args) -> int:
     return 1 if fails else 0
 
 
+def cmd_docs_complete(args) -> int:
+    """Phase 2.2 (Santino 2026-09-22): the revision loop closes itself.
+    Phase 1 files an emailed doc's items as grouped notes carrying the
+    marker '(emailed doc <fname>)'. When EVERY note wearing that marker
+    has resolved AND the company's dev queue is drained, Monica tells the
+    client the updates are in, with the preview link — which re-arms the
+    reveal clock (fresh 2d wait -> one nudge -> Ready to Launch). One
+    send per doc, ever; business hours in the client's timezone."""
+    dry_run = not args.send
+    rows = _sb("GET", "/rest/v1/marketing_ops_notes"
+               "?body=ilike.*%28emailed%20doc%20*"
+               "&select=company_id,body,status&limit=500") or []
+    by_doc: dict = {}
+    for r in rows:
+        m = re.search(r"\(emailed doc ([^)]{1,120})\)", r.get("body") or "")
+        if not m:
+            continue
+        key = (r["company_id"], m.group(1).strip())
+        by_doc.setdefault(key, []).append(r.get("status") or "open")
+    if not by_doc:
+        print("docs-complete: no doc-sourced task groups on file")
+        return 0
+    sent_log = kv_get("doc-complete-sent") or {}
+    state = load_state()
+    for (cid, fname), statuses in by_doc.items():
+        tag = f"{cid}:{fname}"
+        if tag in sent_log:
+            continue
+        if any(s == "open" for s in statuses):
+            print(f"  {fname} ({cid}): {statuses.count('open')} group(s) "
+                  "still open — waiting")
+            continue
+        dev_open = _sb("GET", "/rest/v1/marketing_ops_notes"
+                       f"?company_id=eq.{cid}&status=eq.open"
+                       "&body=ilike.*%5BDEV%5D*&select=id&limit=1") or []
+        if dev_open:
+            print(f"  {fname} ({cid}): doc groups resolved but dev queue "
+                  "still has open work — waiting for the drain")
+            continue
+        comps = fetch_companies([cid])
+        company = comps.get(cid)
+        if not company or company_inactive(company):
+            continue
+        contact = resolve_contact(company)
+        if not contact:
+            continue
+        tz_name, _src = resolve_timezone(company, contact)
+        try:
+            from zoneinfo import ZoneInfo
+            hr = datetime.now(ZoneInfo(tz_name)).hour
+        except Exception:  # noqa: BLE001
+            hr = datetime.now(timezone.utc).hour - 7
+        if not (9 <= hr < 19):
+            print(f"  {fname} ({cid}): complete, but it is {hr}:xx for "
+                  "them — next run sends")
+            continue
+        ints = (company.get("integration_settings") or {})
+        if isinstance(ints, str):
+            try:
+                ints = json.loads(ints)
+            except json.JSONDecodeError:
+                ints = {}
+        url = str((ints.get("site_reveal") or {}).get("url") or "").strip()
+        if not url:
+            slug = _company_slug(cid)
+            url = f"https://rankai-{slug}.pages.dev" if slug else ""
+        if not url:
+            continue
+        nm = str(contact.get("firstName") or "").strip()
+        body = ((f"Hey {nm}, " if nm else "Hey, ")
+                + "we went through your list and the updates are in. "
+                + f"Take another look here: {url} and tell us what you "
+                  "think.")
+        if dry_run:
+            print(f"  [dry-run] would send to {cid}: {body}")
+            continue
+        try:
+            res = send_message(contact, "sms", body, company=company)
+            record_sent_message(state, res)
+            sent_log[tag] = datetime.now(timezone.utc).isoformat()
+            kv_set("doc-complete-sent", sent_log)
+            print(f"  SENT updates-are-in for {fname} -> {cid}")
+        except SendBlocked as e:
+            print(f"  BLOCKED for {cid}: {str(e)[:100]}")
+    if not dry_run:
+        save_state(state, dry_run=False)
+    return 0
+
+
 def cmd_watchdog(_args) -> int:
     """Directive-latency alarm (Santino 2026-09-04). Sarha's LSA ask and
     Jimmy's launch text both sat OPEN for hours with nothing telling anyone
@@ -13830,6 +13945,11 @@ def main() -> int:
 
     sub.add_parser("watchdog", help="loud alarm for directives stuck unsent "
                    ">2h (Sarha/Jimmy class silence, 2026-09-04)")
+    pdc = sub.add_parser("docs-complete",
+                         help="Phase 2.2: when every task from an emailed "
+                              "revision doc resolves, tell the client the "
+                              "updates are in (re-arms the reveal clock)")
+    pdc.add_argument("--send", action="store_true")
     pl = sub.add_parser("runlock", help="acquire the daily-pass slot lock")
     pl.add_argument("--window-minutes", type=int, default=100,
                     help="skip if a pass started within this many minutes "
@@ -13872,6 +13992,7 @@ def main() -> int:
     ret = {"status": cmd_status, "compose": cmd_compose,
            "inbound": cmd_inbound, "canary": cmd_canary,
            "watchdog": cmd_watchdog, "rename-pitch": cmd_rename_pitch,
+           "docs-complete": cmd_docs_complete,
            "selfcheck": cmd_selfcheck}[args.cmd](args)
     if args.cmd in ("compose", "inbound", "rename-pitch"):
         flush_ops_pings(dry_run=not getattr(args, "send", False))

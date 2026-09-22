@@ -222,6 +222,13 @@ JOBS = [
     # profile approvals land in minutes; twice-daily parked CRW for hours).
     ("a2p-advance", 3600, [sys.executable,
                            str(HERE / "a2p_provision.py"), "--advance-all"]),
+    # Phase 2.2 (2026-09-22): when every task from an emailed revision doc
+    # resolves and the dev queue drains, Monica closes the loop with the
+    # client herself ("updates are in" + preview link, re-arms the reveal
+    # clock). One send per doc ever; cheap no-op otherwise.
+    ("docs-complete", 3600, [sys.executable,
+                             str(HERE / "client_concierge.py"),
+                             "docs-complete", "--send"]),
     # B1 (2026-09-20): hub-uploaded customer lists auto-stage into the
     # review campaign within the hour (staged = dispatcher-invisible; the
     # app's Activate button goes live). Also seeds the B2 readiness asks

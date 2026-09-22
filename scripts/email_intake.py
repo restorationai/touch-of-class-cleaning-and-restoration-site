@@ -312,6 +312,25 @@ def _doc_text(fname: str, data: bytes) -> str:
     return ""
 
 
+def _doc_image_count(fname: str, data: bytes) -> int:
+    """Embedded images in a docx (word/media/*) or pdf (/Image XObjects).
+    Cheap heuristic for the Phase 2.3 screenshot-heavy watcher."""
+    low = fname.lower()
+    try:
+        if low.endswith(".docx"):
+            import io
+            import zipfile
+            with zipfile.ZipFile(io.BytesIO(data)) as z:
+                return sum(1 for n in z.namelist()
+                           if n.startswith("word/media/"))
+        if low.endswith(".pdf"):
+            return data.count(b"/Subtype /Image") + data.count(
+                b"/Subtype/Image")
+    except Exception:  # noqa: BLE001
+        pass
+    return 0
+
+
 def _route_doc_feedback(company_id: str, company_name: str, sender: str,
                         fname: str, text: str, dry_run: bool) -> int:
     """Will Clark 2026-09-22: his 14-item website-review .docx was stored
@@ -406,6 +425,23 @@ def _file_attachments(tok: str, msg_id: str, parsed: dict, company_id: str,
                     filed_notes.append(
                         f"{fname}: logged {_n} action group(s) for the "
                         "team from its contents")
+            # PHASE 2.3 WATCHER: a screenshot-heavy doc (lots of embedded
+            # images, little text) can't be routed by text alone — flag it
+            # loudly; this firing is the signal to BUILD image extraction.
+            _imgs = _doc_image_count(fname, data)
+            if _imgs >= 3 and len(_txt) < 500:
+                _note = (f"[PHASE-2.3 TRIGGER] {fname} from "
+                         f"{sender or 'client'} carries {_imgs} embedded "
+                         f"image(s) with only {len(_txt)} chars of text — "
+                         "doc image extraction is NOT built yet, so its "
+                         "visual feedback was NOT auto-routed. Review the "
+                         "doc by eye AND tell Claude to build Phase 2.3.")
+                if not dry_run:
+                    _sb("POST", "/rest/v1/marketing_ops_notes", {
+                        "company_id": company_id, "author": "monica",
+                        "status": "open", "body": _note},
+                        prefer="return=minimal")
+                print(f"    {_note[:110]}")
         print(f"    attachment: {fname} [{kind}]"
               + ("" if dry_run else
                  (f" -> branding/{company_id}/docs/" if kind in DOC_KINDS

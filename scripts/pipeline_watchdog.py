@@ -183,6 +183,47 @@ def check_citation_stall() -> list[str]:
     return issues
 
 
+def check_email_claims() -> list[str]:
+    """Phase 2.1 (Santino 2026-09-22): a client TEXTED that they emailed
+    something. The concierge armed a 2h watch; if no [CLIENT EMAIL] intake
+    note has appeared for that company since, the mail likely went to an
+    address we don't poll — alert instead of letting it vanish."""
+    from datetime import datetime, timedelta, timezone
+    try:
+        rows = _sb("GET", "/rest/v1/ops_kv?k=eq.email-claim-watch&select=v") or []
+    except Exception as e:  # noqa: BLE001
+        return [f"email-claim check failed: {str(e)[:80]}"]
+    claims = (rows[0].get("v") if rows else {}) or {}
+    if not claims:
+        return []
+    now = datetime.now(timezone.utc)
+    issues, keep = [], {}
+    for cid, c in claims.items():
+        try:
+            at = datetime.fromisoformat(str(c.get("at")).replace("Z", "+00:00"))
+        except ValueError:
+            continue
+        if now - at < timedelta(hours=2):
+            keep[cid] = c
+            continue
+        since = at.strftime("%Y-%m-%dT%H:%M:%SZ")
+        got = _sb("GET", "/rest/v1/marketing_ops_notes"
+                  f"?company_id=eq.{cid}"
+                  f"&created_at=gt.{since}"
+                  "&body=ilike.*CLIENT EMAIL*&select=id&limit=1") or []
+        if not got:
+            issues.append(
+                f"email claimed but never arrived: {cid} texted "
+                f"\"{str(c.get('quote'))[:120]}\" at {str(c.get('at'))[:16]} "
+                "and no client email was ingested in 2h+ — they may have "
+                "emailed an address we don't poll; ask where they sent it")
+    try:
+        _sb("PATCH", "/rest/v1/ops_kv?k=eq.email-claim-watch", {"v": keep})
+    except Exception:  # noqa: BLE001
+        pass
+    return issues
+
+
 def check_stuck_lead_audits() -> list[str]:
     """Shane Dodson 2026-09-21: Railway deploys kill in-flight audit
     threads, the job row stays 'running' forever, the lead's GHL fields
@@ -369,7 +410,8 @@ def main() -> int:
     issues = (check_workflows() + check_heartbeats() + check_coverage()
               + check_site_area_gap() + check_citation_stall()
               + check_lsa_leads()
-              + check_stuck_lead_audits())
+              + check_stuck_lead_audits()
+              + check_email_claims())
     if not issues:
         print("pipeline watchdog: ALL SYSTEMS ALIVE")
     fresh: list[str] = []
