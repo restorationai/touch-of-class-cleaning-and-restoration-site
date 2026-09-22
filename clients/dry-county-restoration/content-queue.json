@@ -488,7 +488,7 @@
     },
     {
       "id": "2026-09-17-fire-damage-restoration-cost",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-17T20:30:00Z",
       "written_at": null,
       "post_url": null,
@@ -522,8 +522,7 @@
         "https://www.iicrc.org/page/IICRCS700",
         "https://www.usfa.fema.gov/prevention/home-fires/after-a-fire/"
       ],
-      "notes": "KD 1. Give honest ranges by damage severity and square footage, separate mitigation from reconstruction (general-contracting is in plan, so the rebuild side is sellable), and explain how the insurance deductible changes out-of-pocket cost. Pairs with the queued water damage restoration cost CA post: use the same table format, do not repeat the copy.",
-      "banked_at": "2026-09-17T22:13:26.016224+00:00"
+      "notes": "KD 1. Give honest ranges by damage severity and square footage, separate mitigation from reconstruction (general-contracting is in plan, so the rebuild side is sellable), and explain how the insurance deductible changes out-of-pocket cost. Pairs with the queued water damage restoration cost CA post: use the same table format, do not repeat the copy."
     },
     {
       "id": "2026-09-17-what-to-throw-away-after-smoke-damage",
