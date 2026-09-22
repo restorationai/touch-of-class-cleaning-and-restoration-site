@@ -129,7 +129,11 @@ def _verify_redirect(domain: str) -> bool:
     return False
 
 
-def stamp(slug: str, domain: str, apply: bool) -> None:
+def stamp(slug: str, domain: str, apply: bool,
+          healthy: bool = True) -> None:
+    """healthy=True stamps the domain; healthy=False REMOVES the stamp so
+    the master sender quietly falls back to restorationai.io links until
+    the rule answers again (a stale stamp = dead links in dispatch texts)."""
     cmap = json.loads((ROOT / "clients" / "company_map.json").read_text())
     cid = cmap.get(slug)
     if not cid:
@@ -138,6 +142,14 @@ def stamp(slug: str, domain: str, apply: bool) -> None:
     rows = _sb("GET", f"/rest/v1/companies?id=eq.{cid}"
                "&select=integration_settings") or []
     ints = (rows[0].get("integration_settings") if rows else {}) or {}
+    if not healthy:
+        if ints.get("branded_link_host") and apply:
+            ints.pop("branded_link_host", None)
+            _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}",
+                {"integration_settings": ints})
+            print(f"  {slug}: probe failed — stamp REMOVED, links fall "
+                  "back to restorationai.io")
+        return
     if ints.get("branded_link_host") == domain:
         return
     ints["branded_link_host"] = domain
@@ -168,6 +180,7 @@ def cmd_provision(args) -> int:
         if ok:
             stamp(slug, domain, apply=not args.dry_run)
         else:
+            stamp(slug, domain, apply=not args.dry_run, healthy=False)
             fails += 1
     print(f"done: {len(targets)} client(s), {fails} failure(s)")
     return 1 if fails else 0
