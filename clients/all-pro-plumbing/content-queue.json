@@ -600,7 +600,7 @@
     },
     {
       "id": "2026-08-26-should-i-tip-a-plumber",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-26T13:45:00Z",
       "written_at": "2026-09-22T15:08:49Z",
       "post_url": "https://allproplumbingheatingandair.com/blog/should-i-tip-a-plumber/",
@@ -633,7 +633,8 @@
         "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
       ],
       "notes": "2,400/mo at KD 0 and no page on the site touches it: the cheapest ranking win in this seed family. Answer the question in the first two sentences (tipping is never expected on a quoted invoice, $10-$20 or a cold drink is a normal gesture on a hard after-hours or attic/crawlspace job), then cover the situations readers actually mean: emergency night calls, water heater hauls, multi-day repipes, apprentice vs lead tech. Close on the alternatives that help a local crew more than cash: a Google review, a referral, naming the tech. Pure trust content, no dispatch push beyond one soft CTA. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor you hire) and link the CSLB lookup.",
-      "source": "rank-ai-keyword-researcher"
+      "source": "rank-ai-keyword-researcher",
+      "published_verified_at": "2026-09-22T15:12:13Z"
     },
     {
       "id": "2026-08-26-how-much-does-an-emergency-plumber-cost",
