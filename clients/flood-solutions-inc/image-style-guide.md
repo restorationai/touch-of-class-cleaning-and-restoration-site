@@ -3,6 +3,28 @@
 This guide is consulted by every image-generation call (Skill 3 launch images, Skill 4 blog hero images, future image regenerations). The goal: a viewer scrolling through the site should feel like one professional photographer documented one company on one continuous job. No stylistic drift from page to page.
 
 The values below are auto-populated from `plan-input.json` at planning time. Per-client brand colors come from the client's logo / brand identity — NOT from the canonical starter palette. The structural conventions (camera, lens, lighting, composition) are restoration-vertical canonical and shared across all Rank AI clients.
+
+## CLIENT DIRECTION (2026-09-22, Will Clark review)
+
+LIVERY-REFERENCE: harvested/box-truck-real.webp
+
+VAN-OVERRIDE: a fleet of exactly three matching WHITE box trucks (Chevrolet/GMC-style cutaway box trucks like the vehicle in the reference photo) wrapped in the company's real livery from the reference image — the red pyramid "FLOOD & FIRE" logo mark on the box side and the red "YOUR RESTORATION SOLUTION" banner along the bottom — each truck clearly separated with a visible gap between it and the next, no two vehicles overlapping, touching, or passing through one another
+
+1. **The real fleet is WHITE box trucks, not red vans.** Their actual vehicle
+   (`harvested/box-truck-real.webp`) is a white cutaway box truck carrying the
+   red pyramid FLOOD & FIRE mark and a red "YOUR RESTORATION SOLUTION" banner.
+   Real documented livery beats invented livery: every vehicle in every image
+   is white with that livery. AUTOMATIC REJECT: red/unmarked vans (the prior
+   hero shipped plain red vans with no logo — wrong on colour AND livery).
+2. **No fused vehicles.** Will Clark, 2026-09-22, on the old hero: "one van is
+   driving through another van." Show EXACTLY THREE trucks, staggered, each
+   with clear daylight between it and its neighbours. AUTOMATIC REJECT: any two
+   vehicles overlapping, merging, touching, or phasing through each other.
+3. **Real logo on the trucks.** Reproduce the red pyramid FLOOD & FIRE mark
+   faithfully from the reference. The tagline banner may render as a plain red
+   bar if legible lettering cannot be held — never ship garbled text on a wrap.
+   The only readable mark is the logo itself: no phone numbers, URLs, or other
+   readable text anywhere.
 ---
 
 ## STANDING BRAND RULES (2026-07-11) — apply to EVERY image, every client
