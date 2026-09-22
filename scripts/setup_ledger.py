@@ -3080,6 +3080,10 @@ def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
                           or ints_.get("theme") or "").strip().lower()
             if theme_pick == "light":
                 b.setdefault("theme", "light")
+            elif theme_pick == "dark":
+                # explicit beats implicit: the base template IS dark, but a
+                # recorded choice must survive later default changes
+                b.setdefault("theme", "dark")
             # Wizard licensing -> brand truth table + trust badges (Coastal's
             # IICRC sat recorded-but-unused, 2026-07-30). Only VERIFIED claims.
             lic = ints_.get("licensing") or {}

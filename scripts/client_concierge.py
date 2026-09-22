@@ -6736,6 +6736,31 @@ def cmd_compose(args) -> int:
                 cs["max_nudges_escalated"] = True
                 save_state(state, dry_run=False)
             return 0
+        if followup_due:
+            # DETERMINISTIC (DryCor 2026-09-22): the LLM's already-answered
+            # discernment excluded the preview item as "we already sent this
+            # exact link" — which is TRUE and is also exactly what the one
+            # follow-up nudge is supposed to do. The two-touch flow never
+            # progressed and the card sat at "follow-up due" forever. The
+            # nudge is policy, not judgment — send it without the model.
+            _sr = ((company.get("integration_settings") or {})
+                   .get("site_reveal") or {})
+            _url = str(_sr.get("url") or "").strip()
+            if _url:
+                _nm = str((contact or {}).get("firstName") or "").strip()
+                body = ((f"Hey {_nm}, " if _nm else "Hey, ")
+                        + "just circling back on your new website preview: "
+                        + _url
+                        + " Any thoughts or changes you'd like? If it looks "
+                          "good, say the word and we'll get it ready to go "
+                          "live.")
+                try:
+                    send_message(contact, "sms", body, company=company)
+                    print("  [reveal-followup] one-nudge follow-up SENT "
+                          "(deterministic)")
+                except SendBlocked as e:
+                    print(f"  [reveal-followup] BLOCKED: {str(e)[:100]}")
+                return 0
     appts = None
     if contact:
         tz_name, _tz_src = resolve_timezone(company, contact)
