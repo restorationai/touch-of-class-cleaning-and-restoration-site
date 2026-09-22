@@ -231,10 +231,10 @@
     },
     {
       "id": "2026-08-28-should-i-tip-a-plumber",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-28T01:35:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-22T15:36:22Z",
+      "post_url": "https://rtolsonplumbing.com/blog/should-i-tip-a-plumber/",
       "primary_keyword": "should i tip a plumber",
       "intent": "informational",
       "volume": 2400,
