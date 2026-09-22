@@ -386,7 +386,7 @@
     },
     {
       "id": "2026-07-30-does-homeowners-insurance-cover-black-mold",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-07-30T18:15:58Z",
       "written_at": "2026-09-22T15:36:18Z",
       "post_url": "https://therestorationgroup.com/blog/does-homeowners-insurance-cover-black-mold/",
@@ -420,7 +420,8 @@
         "https://www.epa.gov/mold/mold-cleanup-your-home",
         "https://www.iicrc.org/page/IICRCS520"
       ],
-      "notes": "Pivot point is covered peril vs neglect: mold from a sudden burst pipe is usually covered, mold from a slow leak or deferred maintenance usually is not. Most policies carry a $5,000-$10,000 mold sublimit. Cross-link the existing /blog/black-mold-vs-regular-mold/ and /blog/signs-of-hidden-mold/ posts rather than re-explaining identification. Reinforce the 24-48 hour growth window as the reason to call fast."
+      "notes": "Pivot point is covered peril vs neglect: mold from a sudden burst pipe is usually covered, mold from a slow leak or deferred maintenance usually is not. Most policies carry a $5,000-$10,000 mold sublimit. Cross-link the existing /blog/black-mold-vs-regular-mold/ and /blog/signs-of-hidden-mold/ posts rather than re-explaining identification. Reinforce the 24-48 hour growth window as the reason to call fast.",
+      "published_verified_at": "2026-09-22T15:40:45Z"
     },
     {
       "id": "2026-07-30-should-i-file-home-insurance-claim-water-damage",
