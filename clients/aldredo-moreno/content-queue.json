@@ -56,7 +56,7 @@
     },
     {
       "id": "2026-09-09-air-duct-hvac-cleaning",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-09T14:41:57Z",
       "priority": 1,
       "content_type": "target_term",
@@ -67,7 +67,8 @@
       "city_anchor": "gardendale-tx",
       "source": "app target-term (onboarding)",
       "written_at": "2026-09-22T15:08:11Z",
-      "post_url": "https://theacs-enterprises.com/blog/air-duct-hvac-cleaning/"
+      "post_url": "https://theacs-enterprises.com/blog/air-duct-hvac-cleaning/",
+      "published_verified_at": "2026-09-22T15:09:32Z"
     },
     {
       "id": "2026-09-09-sewage-cleanup-remediation",
