@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-21-who-to-call-for-water-damage-restoration-in-honolulu-hi",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-21T00:20:41Z",
       "priority": 1,
       "prioritized": true,
@@ -27,7 +27,29 @@
         "water damage cleanup Honolulu",
         "water cleanup Honolulu"
       ],
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-22T15:08:22Z",
+      "post_url": "https://aaawaterdamagehawaii.com/blog/who-to-call-for-water-damage-restoration-in-honolulu-hi/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/who-to-call-for-water-damage-restoration-in-honolulu-hi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "assified as Category 3 water under the [IICRC S500 standard](https://www.iicrc.org) a",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/who-to-call-for-water-damage-restoration-in-honolulu-hi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "lmost always Category 3 water under the IICRC S500 standard, meaning it carries conta",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
     },
     {
       "id": "2026-08-26-water-damage-restoration-cost-hi",
