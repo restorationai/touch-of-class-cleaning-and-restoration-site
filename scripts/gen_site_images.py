@@ -331,12 +331,12 @@ PAIR_CATALOG: list[tuple[str, set, str, str, str, str, str]] = [
      "legs submerged. Shot on a phone by a technician, natural window "
      "light, no people, no text.",
      "the SAME living room fully restored after water damage restoration: "
-     "standing water extracted and the soaked flooring TORN OUT and "
-     "REPLACED with brand-new flooring (visibly new planks), new "
-     "baseboards, lower walls repaired and freshly painted, everything "
-     "dry and bright",
+     "standing water extracted, the soaked flooring TORN OUT and REPLACED "
+     "with brand-new neutral wall-to-wall carpet (obviously different "
+     "flooring than before), new baseboards, lower walls repaired and "
+     "freshly painted, everything dry and bright",
      "Flooded living room with standing water before restoration",
-     "Same living room with new flooring and repaired walls after "
+     "Same living room with new carpet and repaired walls after "
      "restoration"),
     ("fire", {"fire-damage-restoration", "smoke-damage-restoration",
               "fire-and-smoke-restoration"},
@@ -348,28 +348,32 @@ PAIR_CATALOG: list[tuple[str, set, str, str, str, str, str]] = [
      "phone, no people, no flames, no text.",
      "the SAME living room fully rebuilt and restored after fire damage "
      "restoration: new drywall walls and ceiling freshly painted, new "
-     "flooring, the same window clean, room bright and spotless",
+     "flooring, the burned furniture HAULED AWAY and replaced with "
+     "different brand-new furnishings, the same window spotless, room "
+     "bright",
      "Living room with severe fire damage and charred walls before "
      "restoration",
      "Same living room fully rebuilt and restored after fire damage"),
     ("mold", {"mold-remediation", "mold-removal", "mold-inspection"},
      "Mold Remediation",
-     "Corner of a bathroom wall and ceiling with a spreading patch of dark "
-     "mold growth, paint bubbling. Shot on a phone, close enough to see "
-     "texture, no people, no text.",
-     "the SAME bathroom corner fully remediated: mold gone, surface "
-     "repaired and repainted clean, dry and bright",
+     "Corner of a bathroom wall and ceiling overtaken by a large spreading "
+     "colony of black and dark-green mold climbing from the baseboard to "
+     "the ceiling, paint bubbling and peeling, heavy staining. Shot on a "
+     "phone, close enough to see texture, no people, no text.",
+     "the SAME bathroom corner fully remediated: mold completely gone, "
+     "surfaces repaired and repainted a clean bright white, dry",
      "Bathroom wall with spreading mold before remediation",
      "Same bathroom wall clean and repainted after mold remediation"),
     ("sewage", {"sewage-cleanup", "sewage-backup-cleanup"},
      "Sewage Cleanup",
-     "A basement utility room floor after a sewage backup: dark "
-     "contaminated water pooled around a floor drain, staining the "
-     "concrete. Shot on a phone, no people, no text.",
-     "the SAME basement utility room after professional cleanup: floor "
-     "extracted, disinfected and dry, concrete clean",
-     "Basement floor after a sewage backup before cleanup",
-     "Same basement floor disinfected and dry after cleanup"),
+     "A finished basement after a MAJOR sewage backup: several inches of "
+     "dark contaminated water flooding the entire floor wall to wall, "
+     "debris floating, filth staining up the lower walls. Shot on a "
+     "phone, no people, no text.",
+     "the SAME basement after professional cleanup: all sewage extracted, "
+     "floor and walls disinfected and dried, clean and bright",
+     "Basement flooded wall to wall by a sewage backup before cleanup",
+     "Same basement extracted, disinfected and dry after cleanup"),
     ("storm", {"storm-damage-restoration", "storm-damage-repair"},
      "Storm Damage Restoration",
      "A bedroom after severe storm damage: a section of the ceiling "
@@ -455,9 +459,9 @@ def generate_pairs(*, slug: str, geo: str, guide: str) -> None:
             if not a_p.exists():
                 after_png = gemini_generate_image(
                     "Using the attached photo of this exact room, produce "
-                    f"{after_edit}. IDENTICAL camera angle, layout, "
-                    "architecture and lighting — only the damage and "
-                    "cleanliness change. Photorealistic, no text.",
+                    f"{after_edit}. IDENTICAL camera angle and "
+                    "architecture — the same room after professional "
+                    "restoration. Photorealistic, no text.",
                     aspect_ratio="16:9", reference_png=before_png)
                 a_p.write_bytes(after_png)
                 print(f"  pairs: {kind}-after generated (edit of before)")
@@ -468,12 +472,26 @@ def generate_pairs(*, slug: str, geo: str, guide: str) -> None:
     if not entries:
         print("  pairs: nothing generated — work.ts untouched")
         return
+    # PAGE-WEIGHT (Santino 2026-09-22, FIX sliders lagging): the raw PNGs
+    # run 700-900KB each — ~7MB of slider imagery. Serve compressed 1400w
+    # webp (~80-120KB); the PNGs stay as archival masters.
+    from PIL import Image
+    for kind, _l, _ab, _aa in entries:
+        for side in ("before", "after"):
+            png = out_dir / f"{kind}-{side}.png"
+            webp = out_dir / f"{kind}-{side}.webp"
+            if png.exists() and not webp.exists():
+                img = Image.open(png).convert("RGB")
+                if img.width > 1400:
+                    img = img.resize(
+                        (1400, round(img.height * 1400 / img.width)))
+                img.save(webp, "WEBP", quality=78)
     rows = ",\n".join(
         f'''  {{
     label: "{label}",
-    beforeSrc: "/images/before-after/{kind}-before.png",
+    beforeSrc: "/images/before-after/{kind}-before.webp",
     beforeAlt: "{alt_b}",
-    afterSrc: "/images/before-after/{kind}-after.png",
+    afterSrc: "/images/before-after/{kind}-after.webp",
     afterAlt: "{alt_a}",
   }}''' for kind, label, alt_b, alt_a in entries)
     txt = work_p.read_text().replace(
