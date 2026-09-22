@@ -47,7 +47,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from client_concierge import (  # noqa: E402
-    CLASSIFY_SYSTEM, anthropic_json, append_escalation, apply_answer,
+    CLASSIFY_SYSTEM, _sb, anthropic_json, append_escalation, apply_answer,
     fetch_companies, flush_ops_pings, gather_items, load_env, load_meeting_intel,
 )
 
@@ -270,8 +270,92 @@ def sender_to_company(sender_email: str, companies: dict) -> tuple[str, dict] | 
     return None
 
 
+_DOC_TEXT_EXTS = (".docx", ".pdf", ".txt")
+
+FEEDBACK_DOC_SYSTEM = """A client of a restoration-marketing agency emailed
+this document. Decide whether it contains ACTIONABLE FEEDBACK or
+INSTRUCTIONS for the agency (website revisions, copy changes, business-fact
+corrections, service changes, requests). Reply as JSON only:
+{"is_actionable": bool,
+ "groups": [{"title": "<short task title>",
+             "detail": "<the client's items for this group, verbatim-ish,
+                        compressed>",
+             "needs_confirmation": bool}],
+ "summary": "<one sentence>"}
+Group related items (aim for 2-6 groups, not one per line). Mark
+needs_confirmation=true for anything ambiguous, legally sensitive
+(licensing, service claims), or touching phone numbers/tracking. A brochure,
+contract, COI, invoice, or data file is NOT actionable feedback."""
+
+
+def _doc_text(fname: str, data: bytes) -> str:
+    """Plain text from a docx/pdf/txt attachment; '' when unreadable."""
+    low = fname.lower()
+    try:
+        if low.endswith(".docx"):
+            import io
+            import zipfile
+            with zipfile.ZipFile(io.BytesIO(data)) as z:
+                xml = z.read("word/document.xml").decode("utf-8", "ignore")
+            xml = re.sub(r"</w:p>", "\n", xml)
+            return re.sub(r"<[^>]+>", "", xml).strip()
+        if low.endswith(".pdf"):
+            import io
+            from pypdf import PdfReader
+            return "\n".join((pg.extract_text() or "")
+                             for pg in PdfReader(io.BytesIO(data)).pages
+                             ).strip()
+        if low.endswith(".txt"):
+            return data.decode("utf-8", "ignore").strip()
+    except Exception as e:  # noqa: BLE001
+        print(f"    doc-text extract failed for {fname}: {str(e)[:80]}")
+    return ""
+
+
+def _route_doc_feedback(company_id: str, company_name: str, sender: str,
+                        fname: str, text: str, dry_run: bool) -> int:
+    """Will Clark 2026-09-22: his 14-item website-review .docx was stored
+    and acked but its CONTENT never reached the feedback pipeline — a human
+    agent had to read it and file the dev tasks by hand. Docs now route
+    through the same [TODO-PROPOSED] gate as texted feedback: notes are
+    filed, Santino's proposal digest announces them, his Approve click is
+    still what makes them [DEV]. Returns the number of groups filed."""
+    if len(text) < 200:
+        return 0
+    try:
+        verdict = anthropic_json(
+            FEEDBACK_DOC_SYSTEM,
+            f"Company: {company_name}\nFrom: {sender}\n"
+            f"Filename: {fname}\n\nDocument text:\n{text[:12000]}")
+    except Exception as e:  # noqa: BLE001
+        print(f"    feedback-doc classify failed: {str(e)[:80]}")
+        return 0
+    if not verdict.get("is_actionable"):
+        return 0
+    groups = [g for g in (verdict.get("groups") or [])
+              if str(g.get("title") or "").strip()][:8]
+    today = datetime.now(timezone.utc).date().isoformat()
+    for g in groups:
+        confirm = ("CONFIRM WITH CLIENT/SANTINO FIRST: "
+                   if g.get("needs_confirmation") else "")
+        body = (f"[TODO-PROPOSED] CLIENT FEEDBACK (emailed doc {fname}) "
+                f"from {sender} at {company_name}, {today}: "
+                f"{confirm}{g['title']} — "
+                f"{str(g.get('detail') or '').strip()[:900]}")
+        if not dry_run:
+            _sb("POST", "/rest/v1/marketing_ops_notes", {
+                "company_id": company_id, "author": "monica",
+                "status": "open", "body": body},
+                prefer="return=minimal")
+        print(f"    feedback-doc: filed group — {g['title'][:60]}"
+              + (" [needs confirmation]"
+                 if g.get("needs_confirmation") else ""))
+    return len(groups)
+
+
 def _file_attachments(tok: str, msg_id: str, parsed: dict, company_id: str,
-                      subject: str, body_text: str, dry_run: bool):
+                      subject: str, body_text: str, dry_run: bool,
+                      company_name: str = "", sender: str = ""):
     """Classify + file one message's attachments; returns (saved, filed_notes).
     Shared by the live poll and the lookback sweep."""
     saved, filed_notes = [], []
@@ -310,6 +394,18 @@ def _file_attachments(tok: str, msg_id: str, parsed: dict, company_id: str,
                          a.get("mimeType") or "application/octet-stream")
         saved.append(fname)
         filed_notes.append(f"{fname} ({kind.replace('_', ' ')})")
+        # PHASE 1 (Will Clark 2026-09-22): document CONTENT rides the
+        # feedback pipeline, not just the filing shelf.
+        if fname.lower().endswith(_DOC_TEXT_EXTS):
+            _txt = _doc_text(fname, data)
+            if _txt:
+                _n = _route_doc_feedback(
+                    company_id, company_name or company_id,
+                    sender or "the client", fname, _txt, dry_run)
+                if _n:
+                    filed_notes.append(
+                        f"{fname}: logged {_n} action group(s) for the "
+                        "team from its contents")
         print(f"    attachment: {fname} [{kind}]"
               + ("" if dry_run else
                  (f" -> branding/{company_id}/docs/" if kind in DOC_KINDS
@@ -361,8 +457,10 @@ def email_lookback(company_id: str, company: dict, keywords: list[str],
             _walk_parts(m.get("payload", {}), parsed)
             body = "\n".join(parsed.get("text", []))[:4000]
             print(f"    lookback hit: {subj!r} ({hdrs.get('date', '')[:16]})")
-            saved, notes = _file_attachments(tok, stub["id"], parsed,
-                                             company_id, subj, body, dry_run)
+            saved, notes = _file_attachments(
+                tok, stub["id"], parsed, company_id, subj, body, dry_run,
+                company_name=(company or {}).get("name") or "",
+                sender=(hdrs.get("from") or "")[:80])
             try:
                 _capture_ein_from_email(company_id, subj, body, dry_run)
             except Exception:  # noqa: BLE001
@@ -580,7 +678,9 @@ def _poll_mailbox(tok: str, account: str, dry_run: bool,
         # the EIN scanner, site builds and LSA prep already read. Duplicates
         # (same filename already on the shelf) are recognized, not re-filed.
         saved, filed_notes = _file_attachments(
-            tok, stub["id"], parsed, company_id, subject, body_text, dry_run)
+            tok, stub["id"], parsed, company_id, subject, body_text, dry_run,
+            company_name=(company or {}).get("name") or "",
+            sender=sender)
         vision = _gmail_vision(tok, stub["id"], parsed)
         if vision:
             print(f"    [vision] {len(vision)} image(s) will ride the analysis")
