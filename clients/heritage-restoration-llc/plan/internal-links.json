@@ -4,6 +4,8 @@
     "/service-areas/",
     "/contact/",
     "/about/",
+    "/services/fire-damage-restoration/",
+    "/services/roofing/",
     "/services/water-damage-restoration/",
     "/services/storm-damage-restoration/",
     "/services/water-cleanup/",
@@ -33,6 +35,8 @@
   ],
   "/services/": [
     "/",
+    "/services/fire-damage-restoration/",
+    "/services/roofing/",
     "/services/water-damage-restoration/",
     "/services/storm-damage-restoration/",
     "/services/water-cleanup/",
@@ -69,10 +73,10 @@
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/",
     "/blog/does-homeowners-insurance-cover-water-damage/",
+    "/blog/fire-damage-restoration-process/",
     "/blog/how-long-does-water-damage-restoration-take/",
     "/blog/mold-after-water-damage/",
-    "/blog/storm-damage-insurance-claim-checklist/",
-    "/blog/basement-flooding-prevention/"
+    "/blog/storm-damage-insurance-claim-checklist/"
   ],
   "/about/": [
     "/",
@@ -154,9 +158,45 @@
     "/service-areas/randall-mn/water-cleanup/",
     "/services/water-damage-restoration/"
   ],
+  "/services/fire-damage-restoration/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/albany-mn/fire-damage-restoration/",
+    "/service-areas/avon-mn/fire-damage-restoration/",
+    "/service-areas/baxter-mn/fire-damage-restoration/",
+    "/service-areas/brainerd-mn/fire-damage-restoration/",
+    "/service-areas/elmdale-mn/fire-damage-restoration/",
+    "/service-areas/flensburg-mn/fire-damage-restoration/",
+    "/service-areas/foley-mn/fire-damage-restoration/",
+    "/service-areas/fort-ripley-mn/fire-damage-restoration/",
+    "/service-areas/harding-mn/fire-damage-restoration/",
+    "/service-areas/long-prairie-mn/fire-damage-restoration/",
+    "/service-areas/pierz-mn/fire-damage-restoration/",
+    "/service-areas/randall-mn/fire-damage-restoration/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/fire-damage-restoration-process/"
+  ],
+  "/services/roofing/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/albany-mn/roofing/",
+    "/service-areas/avon-mn/roofing/",
+    "/service-areas/baxter-mn/roofing/",
+    "/service-areas/brainerd-mn/roofing/",
+    "/service-areas/elmdale-mn/roofing/",
+    "/service-areas/flensburg-mn/roofing/",
+    "/service-areas/foley-mn/roofing/",
+    "/service-areas/fort-ripley-mn/roofing/",
+    "/service-areas/harding-mn/roofing/",
+    "/service-areas/long-prairie-mn/roofing/",
+    "/service-areas/pierz-mn/roofing/",
+    "/service-areas/randall-mn/roofing/"
+  ],
   "/service-areas/st-cloud-mn/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/st-cloud-mn/fire-damage-restoration/",
+    "/service-areas/st-cloud-mn/roofing/",
     "/service-areas/st-cloud-mn/water-damage-restoration/",
     "/service-areas/st-cloud-mn/storm-damage-restoration/",
     "/service-areas/st-cloud-mn/water-cleanup/",
@@ -168,6 +208,8 @@
   "/service-areas/sartell-mn/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/sartell-mn/fire-damage-restoration/",
+    "/service-areas/sartell-mn/roofing/",
     "/service-areas/sartell-mn/water-damage-restoration/",
     "/service-areas/sartell-mn/storm-damage-restoration/",
     "/service-areas/sartell-mn/water-cleanup/",
@@ -179,6 +221,8 @@
   "/service-areas/sauk-rapids-mn/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/sauk-rapids-mn/fire-damage-restoration/",
+    "/service-areas/sauk-rapids-mn/roofing/",
     "/service-areas/sauk-rapids-mn/water-damage-restoration/",
     "/service-areas/sauk-rapids-mn/storm-damage-restoration/",
     "/service-areas/sauk-rapids-mn/water-cleanup/",
@@ -190,6 +234,8 @@
   "/service-areas/brainerd-mn/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/brainerd-mn/fire-damage-restoration/",
+    "/service-areas/brainerd-mn/roofing/",
     "/service-areas/brainerd-mn/water-damage-restoration/",
     "/service-areas/brainerd-mn/storm-damage-restoration/",
     "/service-areas/brainerd-mn/water-cleanup/",
@@ -201,6 +247,8 @@
   "/service-areas/baxter-mn/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/baxter-mn/fire-damage-restoration/",
+    "/service-areas/baxter-mn/roofing/",
     "/service-areas/baxter-mn/water-damage-restoration/",
     "/service-areas/baxter-mn/storm-damage-restoration/",
     "/service-areas/baxter-mn/water-cleanup/",
@@ -212,6 +260,8 @@
   "/service-areas/foley-mn/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/foley-mn/fire-damage-restoration/",
+    "/service-areas/foley-mn/roofing/",
     "/service-areas/foley-mn/water-damage-restoration/",
     "/service-areas/foley-mn/storm-damage-restoration/",
     "/service-areas/foley-mn/water-cleanup/",
@@ -223,6 +273,8 @@
   "/service-areas/royalton-mn/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/royalton-mn/fire-damage-restoration/",
+    "/service-areas/royalton-mn/roofing/",
     "/service-areas/royalton-mn/water-damage-restoration/",
     "/service-areas/royalton-mn/storm-damage-restoration/",
     "/service-areas/royalton-mn/water-cleanup/",
@@ -234,6 +286,8 @@
   "/service-areas/pierz-mn/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/pierz-mn/fire-damage-restoration/",
+    "/service-areas/pierz-mn/roofing/",
     "/service-areas/pierz-mn/water-damage-restoration/",
     "/service-areas/pierz-mn/storm-damage-restoration/",
     "/service-areas/pierz-mn/water-cleanup/",
@@ -245,6 +299,8 @@
   "/service-areas/sobieski-mn/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/sobieski-mn/fire-damage-restoration/",
+    "/service-areas/sobieski-mn/roofing/",
     "/service-areas/sobieski-mn/water-damage-restoration/",
     "/service-areas/sobieski-mn/storm-damage-restoration/",
     "/service-areas/sobieski-mn/water-cleanup/",
@@ -256,6 +312,8 @@
   "/service-areas/flensburg-mn/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/flensburg-mn/fire-damage-restoration/",
+    "/service-areas/flensburg-mn/roofing/",
     "/service-areas/flensburg-mn/water-damage-restoration/",
     "/service-areas/flensburg-mn/storm-damage-restoration/",
     "/service-areas/flensburg-mn/water-cleanup/",
@@ -267,6 +325,8 @@
   "/service-areas/randall-mn/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/randall-mn/fire-damage-restoration/",
+    "/service-areas/randall-mn/roofing/",
     "/service-areas/randall-mn/water-damage-restoration/",
     "/service-areas/randall-mn/storm-damage-restoration/",
     "/service-areas/randall-mn/water-cleanup/",
@@ -278,6 +338,8 @@
   "/service-areas/elmdale-mn/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/elmdale-mn/fire-damage-restoration/",
+    "/service-areas/elmdale-mn/roofing/",
     "/service-areas/elmdale-mn/water-damage-restoration/",
     "/service-areas/elmdale-mn/storm-damage-restoration/",
     "/service-areas/elmdale-mn/water-cleanup/",
@@ -289,6 +351,8 @@
   "/service-areas/fort-ripley-mn/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/fort-ripley-mn/fire-damage-restoration/",
+    "/service-areas/fort-ripley-mn/roofing/",
     "/service-areas/fort-ripley-mn/water-damage-restoration/",
     "/service-areas/fort-ripley-mn/storm-damage-restoration/",
     "/service-areas/fort-ripley-mn/water-cleanup/",
@@ -300,6 +364,8 @@
   "/service-areas/swanville-mn/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/swanville-mn/fire-damage-restoration/",
+    "/service-areas/swanville-mn/roofing/",
     "/service-areas/swanville-mn/water-damage-restoration/",
     "/service-areas/swanville-mn/storm-damage-restoration/",
     "/service-areas/swanville-mn/water-cleanup/",
@@ -311,6 +377,8 @@
   "/service-areas/upsala-mn/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/upsala-mn/fire-damage-restoration/",
+    "/service-areas/upsala-mn/roofing/",
     "/service-areas/upsala-mn/water-damage-restoration/",
     "/service-areas/upsala-mn/storm-damage-restoration/",
     "/service-areas/upsala-mn/water-cleanup/",
@@ -322,6 +390,8 @@
   "/service-areas/rice-mn/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/rice-mn/fire-damage-restoration/",
+    "/service-areas/rice-mn/roofing/",
     "/service-areas/rice-mn/water-damage-restoration/",
     "/service-areas/rice-mn/storm-damage-restoration/",
     "/service-areas/rice-mn/water-cleanup/",
@@ -333,6 +403,8 @@
   "/service-areas/harding-mn/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/harding-mn/fire-damage-restoration/",
+    "/service-areas/harding-mn/roofing/",
     "/service-areas/harding-mn/water-damage-restoration/",
     "/service-areas/harding-mn/storm-damage-restoration/",
     "/service-areas/harding-mn/water-cleanup/",
@@ -344,6 +416,8 @@
   "/service-areas/st-stephen-mn/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/st-stephen-mn/fire-damage-restoration/",
+    "/service-areas/st-stephen-mn/roofing/",
     "/service-areas/st-stephen-mn/water-damage-restoration/",
     "/service-areas/st-stephen-mn/storm-damage-restoration/",
     "/service-areas/st-stephen-mn/water-cleanup/",
@@ -355,6 +429,8 @@
   "/service-areas/long-prairie-mn/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/long-prairie-mn/fire-damage-restoration/",
+    "/service-areas/long-prairie-mn/roofing/",
     "/service-areas/long-prairie-mn/water-damage-restoration/",
     "/service-areas/long-prairie-mn/storm-damage-restoration/",
     "/service-areas/long-prairie-mn/water-cleanup/",
@@ -366,6 +442,8 @@
   "/service-areas/albany-mn/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/albany-mn/fire-damage-restoration/",
+    "/service-areas/albany-mn/roofing/",
     "/service-areas/albany-mn/water-damage-restoration/",
     "/service-areas/albany-mn/storm-damage-restoration/",
     "/service-areas/albany-mn/water-cleanup/",
@@ -377,6 +455,8 @@
   "/service-areas/avon-mn/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/avon-mn/fire-damage-restoration/",
+    "/service-areas/avon-mn/roofing/",
     "/service-areas/avon-mn/water-damage-restoration/",
     "/service-areas/avon-mn/storm-damage-restoration/",
     "/service-areas/avon-mn/water-cleanup/",
@@ -388,6 +468,8 @@
   "/service-areas/st-joseph-mn/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/st-joseph-mn/fire-damage-restoration/",
+    "/service-areas/st-joseph-mn/roofing/",
     "/service-areas/st-joseph-mn/water-damage-restoration/",
     "/service-areas/st-joseph-mn/storm-damage-restoration/",
     "/service-areas/st-joseph-mn/water-cleanup/",
@@ -399,8 +481,8 @@
   "/service-areas/st-cloud-mn/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/st-cloud-mn/",
-    "/service-areas/st-cloud-mn/storm-damage-restoration/",
-    "/service-areas/st-cloud-mn/water-cleanup/",
+    "/service-areas/st-cloud-mn/fire-damage-restoration/",
+    "/service-areas/st-cloud-mn/roofing/",
     "/service-areas/albany-mn/water-damage-restoration/",
     "/service-areas/avon-mn/water-damage-restoration/",
     "/contact/"
@@ -408,8 +490,8 @@
   "/service-areas/st-cloud-mn/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/st-cloud-mn/",
-    "/service-areas/st-cloud-mn/water-damage-restoration/",
-    "/service-areas/st-cloud-mn/water-cleanup/",
+    "/service-areas/st-cloud-mn/fire-damage-restoration/",
+    "/service-areas/st-cloud-mn/roofing/",
     "/service-areas/albany-mn/storm-damage-restoration/",
     "/service-areas/avon-mn/storm-damage-restoration/",
     "/contact/"
@@ -417,8 +499,8 @@
   "/service-areas/st-cloud-mn/general-contracting/": [
     "/services/general-contracting/",
     "/service-areas/st-cloud-mn/",
-    "/service-areas/st-cloud-mn/water-damage-restoration/",
-    "/service-areas/st-cloud-mn/storm-damage-restoration/",
+    "/service-areas/st-cloud-mn/fire-damage-restoration/",
+    "/service-areas/st-cloud-mn/roofing/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
     "/contact/"
@@ -426,17 +508,35 @@
   "/service-areas/st-cloud-mn/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/st-cloud-mn/",
-    "/service-areas/st-cloud-mn/water-damage-restoration/",
-    "/service-areas/st-cloud-mn/storm-damage-restoration/",
+    "/service-areas/st-cloud-mn/fire-damage-restoration/",
+    "/service-areas/st-cloud-mn/roofing/",
     "/service-areas/albany-mn/water-cleanup/",
     "/service-areas/avon-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/st-cloud-mn/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/st-cloud-mn/",
+    "/service-areas/st-cloud-mn/roofing/",
+    "/service-areas/st-cloud-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/fire-damage-restoration/",
+    "/service-areas/avon-mn/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/st-cloud-mn/roofing/": [
+    "/services/roofing/",
+    "/service-areas/st-cloud-mn/",
+    "/service-areas/st-cloud-mn/fire-damage-restoration/",
+    "/service-areas/st-cloud-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/roofing/",
+    "/service-areas/avon-mn/roofing/",
     "/contact/"
   ],
   "/service-areas/sartell-mn/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/sartell-mn/",
-    "/service-areas/sartell-mn/storm-damage-restoration/",
-    "/service-areas/sartell-mn/water-cleanup/",
+    "/service-areas/sartell-mn/fire-damage-restoration/",
+    "/service-areas/sartell-mn/roofing/",
     "/service-areas/albany-mn/water-damage-restoration/",
     "/service-areas/avon-mn/water-damage-restoration/",
     "/contact/"
@@ -444,8 +544,8 @@
   "/service-areas/sartell-mn/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/sartell-mn/",
-    "/service-areas/sartell-mn/water-damage-restoration/",
-    "/service-areas/sartell-mn/water-cleanup/",
+    "/service-areas/sartell-mn/fire-damage-restoration/",
+    "/service-areas/sartell-mn/roofing/",
     "/service-areas/albany-mn/storm-damage-restoration/",
     "/service-areas/avon-mn/storm-damage-restoration/",
     "/contact/"
@@ -453,8 +553,8 @@
   "/service-areas/sartell-mn/general-contracting/": [
     "/services/general-contracting/",
     "/service-areas/sartell-mn/",
-    "/service-areas/sartell-mn/water-damage-restoration/",
-    "/service-areas/sartell-mn/storm-damage-restoration/",
+    "/service-areas/sartell-mn/fire-damage-restoration/",
+    "/service-areas/sartell-mn/roofing/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
     "/contact/"
@@ -462,17 +562,35 @@
   "/service-areas/sartell-mn/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/sartell-mn/",
-    "/service-areas/sartell-mn/water-damage-restoration/",
-    "/service-areas/sartell-mn/storm-damage-restoration/",
+    "/service-areas/sartell-mn/fire-damage-restoration/",
+    "/service-areas/sartell-mn/roofing/",
     "/service-areas/albany-mn/water-cleanup/",
     "/service-areas/avon-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/sartell-mn/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/sartell-mn/",
+    "/service-areas/sartell-mn/roofing/",
+    "/service-areas/sartell-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/fire-damage-restoration/",
+    "/service-areas/avon-mn/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sartell-mn/roofing/": [
+    "/services/roofing/",
+    "/service-areas/sartell-mn/",
+    "/service-areas/sartell-mn/fire-damage-restoration/",
+    "/service-areas/sartell-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/roofing/",
+    "/service-areas/avon-mn/roofing/",
     "/contact/"
   ],
   "/service-areas/sauk-rapids-mn/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/sauk-rapids-mn/",
-    "/service-areas/sauk-rapids-mn/storm-damage-restoration/",
-    "/service-areas/sauk-rapids-mn/water-cleanup/",
+    "/service-areas/sauk-rapids-mn/fire-damage-restoration/",
+    "/service-areas/sauk-rapids-mn/roofing/",
     "/service-areas/albany-mn/water-damage-restoration/",
     "/service-areas/avon-mn/water-damage-restoration/",
     "/contact/"
@@ -480,8 +598,8 @@
   "/service-areas/sauk-rapids-mn/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/sauk-rapids-mn/",
-    "/service-areas/sauk-rapids-mn/water-damage-restoration/",
-    "/service-areas/sauk-rapids-mn/water-cleanup/",
+    "/service-areas/sauk-rapids-mn/fire-damage-restoration/",
+    "/service-areas/sauk-rapids-mn/roofing/",
     "/service-areas/albany-mn/storm-damage-restoration/",
     "/service-areas/avon-mn/storm-damage-restoration/",
     "/contact/"
@@ -489,8 +607,8 @@
   "/service-areas/sauk-rapids-mn/general-contracting/": [
     "/services/general-contracting/",
     "/service-areas/sauk-rapids-mn/",
-    "/service-areas/sauk-rapids-mn/water-damage-restoration/",
-    "/service-areas/sauk-rapids-mn/storm-damage-restoration/",
+    "/service-areas/sauk-rapids-mn/fire-damage-restoration/",
+    "/service-areas/sauk-rapids-mn/roofing/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
     "/contact/"
@@ -498,17 +616,35 @@
   "/service-areas/sauk-rapids-mn/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/sauk-rapids-mn/",
-    "/service-areas/sauk-rapids-mn/water-damage-restoration/",
-    "/service-areas/sauk-rapids-mn/storm-damage-restoration/",
+    "/service-areas/sauk-rapids-mn/fire-damage-restoration/",
+    "/service-areas/sauk-rapids-mn/roofing/",
     "/service-areas/albany-mn/water-cleanup/",
     "/service-areas/avon-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/sauk-rapids-mn/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/sauk-rapids-mn/",
+    "/service-areas/sauk-rapids-mn/roofing/",
+    "/service-areas/sauk-rapids-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/fire-damage-restoration/",
+    "/service-areas/avon-mn/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sauk-rapids-mn/roofing/": [
+    "/services/roofing/",
+    "/service-areas/sauk-rapids-mn/",
+    "/service-areas/sauk-rapids-mn/fire-damage-restoration/",
+    "/service-areas/sauk-rapids-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/roofing/",
+    "/service-areas/avon-mn/roofing/",
     "/contact/"
   ],
   "/service-areas/brainerd-mn/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/brainerd-mn/",
-    "/service-areas/brainerd-mn/storm-damage-restoration/",
-    "/service-areas/brainerd-mn/water-cleanup/",
+    "/service-areas/brainerd-mn/fire-damage-restoration/",
+    "/service-areas/brainerd-mn/roofing/",
     "/service-areas/albany-mn/water-damage-restoration/",
     "/service-areas/avon-mn/water-damage-restoration/",
     "/contact/"
@@ -516,8 +652,8 @@
   "/service-areas/brainerd-mn/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/brainerd-mn/",
-    "/service-areas/brainerd-mn/water-damage-restoration/",
-    "/service-areas/brainerd-mn/water-cleanup/",
+    "/service-areas/brainerd-mn/fire-damage-restoration/",
+    "/service-areas/brainerd-mn/roofing/",
     "/service-areas/albany-mn/storm-damage-restoration/",
     "/service-areas/avon-mn/storm-damage-restoration/",
     "/contact/"
@@ -525,8 +661,8 @@
   "/service-areas/brainerd-mn/general-contracting/": [
     "/services/general-contracting/",
     "/service-areas/brainerd-mn/",
-    "/service-areas/brainerd-mn/water-damage-restoration/",
-    "/service-areas/brainerd-mn/storm-damage-restoration/",
+    "/service-areas/brainerd-mn/fire-damage-restoration/",
+    "/service-areas/brainerd-mn/roofing/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
     "/contact/"
@@ -534,17 +670,35 @@
   "/service-areas/brainerd-mn/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/brainerd-mn/",
-    "/service-areas/brainerd-mn/water-damage-restoration/",
-    "/service-areas/brainerd-mn/storm-damage-restoration/",
+    "/service-areas/brainerd-mn/fire-damage-restoration/",
+    "/service-areas/brainerd-mn/roofing/",
     "/service-areas/albany-mn/water-cleanup/",
     "/service-areas/avon-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/brainerd-mn/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/brainerd-mn/",
+    "/service-areas/brainerd-mn/roofing/",
+    "/service-areas/brainerd-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/fire-damage-restoration/",
+    "/service-areas/avon-mn/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/brainerd-mn/roofing/": [
+    "/services/roofing/",
+    "/service-areas/brainerd-mn/",
+    "/service-areas/brainerd-mn/fire-damage-restoration/",
+    "/service-areas/brainerd-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/roofing/",
+    "/service-areas/avon-mn/roofing/",
     "/contact/"
   ],
   "/service-areas/baxter-mn/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/baxter-mn/",
-    "/service-areas/baxter-mn/storm-damage-restoration/",
-    "/service-areas/baxter-mn/water-cleanup/",
+    "/service-areas/baxter-mn/fire-damage-restoration/",
+    "/service-areas/baxter-mn/roofing/",
     "/service-areas/albany-mn/water-damage-restoration/",
     "/service-areas/avon-mn/water-damage-restoration/",
     "/contact/"
@@ -552,8 +706,8 @@
   "/service-areas/baxter-mn/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/baxter-mn/",
-    "/service-areas/baxter-mn/water-damage-restoration/",
-    "/service-areas/baxter-mn/water-cleanup/",
+    "/service-areas/baxter-mn/fire-damage-restoration/",
+    "/service-areas/baxter-mn/roofing/",
     "/service-areas/albany-mn/storm-damage-restoration/",
     "/service-areas/avon-mn/storm-damage-restoration/",
     "/contact/"
@@ -561,8 +715,8 @@
   "/service-areas/baxter-mn/general-contracting/": [
     "/services/general-contracting/",
     "/service-areas/baxter-mn/",
-    "/service-areas/baxter-mn/water-damage-restoration/",
-    "/service-areas/baxter-mn/storm-damage-restoration/",
+    "/service-areas/baxter-mn/fire-damage-restoration/",
+    "/service-areas/baxter-mn/roofing/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
     "/contact/"
@@ -570,17 +724,35 @@
   "/service-areas/baxter-mn/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/baxter-mn/",
-    "/service-areas/baxter-mn/water-damage-restoration/",
-    "/service-areas/baxter-mn/storm-damage-restoration/",
+    "/service-areas/baxter-mn/fire-damage-restoration/",
+    "/service-areas/baxter-mn/roofing/",
     "/service-areas/albany-mn/water-cleanup/",
     "/service-areas/avon-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/baxter-mn/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/baxter-mn/",
+    "/service-areas/baxter-mn/roofing/",
+    "/service-areas/baxter-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/fire-damage-restoration/",
+    "/service-areas/avon-mn/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/baxter-mn/roofing/": [
+    "/services/roofing/",
+    "/service-areas/baxter-mn/",
+    "/service-areas/baxter-mn/fire-damage-restoration/",
+    "/service-areas/baxter-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/roofing/",
+    "/service-areas/avon-mn/roofing/",
     "/contact/"
   ],
   "/service-areas/foley-mn/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/foley-mn/",
-    "/service-areas/foley-mn/storm-damage-restoration/",
-    "/service-areas/foley-mn/water-cleanup/",
+    "/service-areas/foley-mn/fire-damage-restoration/",
+    "/service-areas/foley-mn/roofing/",
     "/service-areas/albany-mn/water-damage-restoration/",
     "/service-areas/avon-mn/water-damage-restoration/",
     "/contact/"
@@ -588,8 +760,8 @@
   "/service-areas/foley-mn/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/foley-mn/",
-    "/service-areas/foley-mn/water-damage-restoration/",
-    "/service-areas/foley-mn/water-cleanup/",
+    "/service-areas/foley-mn/fire-damage-restoration/",
+    "/service-areas/foley-mn/roofing/",
     "/service-areas/albany-mn/storm-damage-restoration/",
     "/service-areas/avon-mn/storm-damage-restoration/",
     "/contact/"
@@ -597,8 +769,8 @@
   "/service-areas/foley-mn/general-contracting/": [
     "/services/general-contracting/",
     "/service-areas/foley-mn/",
-    "/service-areas/foley-mn/water-damage-restoration/",
-    "/service-areas/foley-mn/storm-damage-restoration/",
+    "/service-areas/foley-mn/fire-damage-restoration/",
+    "/service-areas/foley-mn/roofing/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
     "/contact/"
@@ -606,17 +778,35 @@
   "/service-areas/foley-mn/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/foley-mn/",
-    "/service-areas/foley-mn/water-damage-restoration/",
-    "/service-areas/foley-mn/storm-damage-restoration/",
+    "/service-areas/foley-mn/fire-damage-restoration/",
+    "/service-areas/foley-mn/roofing/",
     "/service-areas/albany-mn/water-cleanup/",
     "/service-areas/avon-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/foley-mn/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/foley-mn/",
+    "/service-areas/foley-mn/roofing/",
+    "/service-areas/foley-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/fire-damage-restoration/",
+    "/service-areas/avon-mn/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/foley-mn/roofing/": [
+    "/services/roofing/",
+    "/service-areas/foley-mn/",
+    "/service-areas/foley-mn/fire-damage-restoration/",
+    "/service-areas/foley-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/roofing/",
+    "/service-areas/avon-mn/roofing/",
     "/contact/"
   ],
   "/service-areas/royalton-mn/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/royalton-mn/",
-    "/service-areas/royalton-mn/storm-damage-restoration/",
-    "/service-areas/royalton-mn/water-cleanup/",
+    "/service-areas/royalton-mn/fire-damage-restoration/",
+    "/service-areas/royalton-mn/roofing/",
     "/service-areas/albany-mn/water-damage-restoration/",
     "/service-areas/avon-mn/water-damage-restoration/",
     "/contact/"
@@ -624,8 +814,8 @@
   "/service-areas/royalton-mn/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/royalton-mn/",
-    "/service-areas/royalton-mn/water-damage-restoration/",
-    "/service-areas/royalton-mn/water-cleanup/",
+    "/service-areas/royalton-mn/fire-damage-restoration/",
+    "/service-areas/royalton-mn/roofing/",
     "/service-areas/albany-mn/storm-damage-restoration/",
     "/service-areas/avon-mn/storm-damage-restoration/",
     "/contact/"
@@ -633,8 +823,8 @@
   "/service-areas/royalton-mn/general-contracting/": [
     "/services/general-contracting/",
     "/service-areas/royalton-mn/",
-    "/service-areas/royalton-mn/water-damage-restoration/",
-    "/service-areas/royalton-mn/storm-damage-restoration/",
+    "/service-areas/royalton-mn/fire-damage-restoration/",
+    "/service-areas/royalton-mn/roofing/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
     "/contact/"
@@ -642,17 +832,35 @@
   "/service-areas/royalton-mn/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/royalton-mn/",
-    "/service-areas/royalton-mn/water-damage-restoration/",
-    "/service-areas/royalton-mn/storm-damage-restoration/",
+    "/service-areas/royalton-mn/fire-damage-restoration/",
+    "/service-areas/royalton-mn/roofing/",
     "/service-areas/albany-mn/water-cleanup/",
     "/service-areas/avon-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/royalton-mn/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/royalton-mn/",
+    "/service-areas/royalton-mn/roofing/",
+    "/service-areas/royalton-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/fire-damage-restoration/",
+    "/service-areas/avon-mn/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/royalton-mn/roofing/": [
+    "/services/roofing/",
+    "/service-areas/royalton-mn/",
+    "/service-areas/royalton-mn/fire-damage-restoration/",
+    "/service-areas/royalton-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/roofing/",
+    "/service-areas/avon-mn/roofing/",
     "/contact/"
   ],
   "/service-areas/pierz-mn/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/pierz-mn/",
-    "/service-areas/pierz-mn/storm-damage-restoration/",
-    "/service-areas/pierz-mn/water-cleanup/",
+    "/service-areas/pierz-mn/fire-damage-restoration/",
+    "/service-areas/pierz-mn/roofing/",
     "/service-areas/albany-mn/water-damage-restoration/",
     "/service-areas/avon-mn/water-damage-restoration/",
     "/contact/"
@@ -660,8 +868,8 @@
   "/service-areas/pierz-mn/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/pierz-mn/",
-    "/service-areas/pierz-mn/water-damage-restoration/",
-    "/service-areas/pierz-mn/water-cleanup/",
+    "/service-areas/pierz-mn/fire-damage-restoration/",
+    "/service-areas/pierz-mn/roofing/",
     "/service-areas/albany-mn/storm-damage-restoration/",
     "/service-areas/avon-mn/storm-damage-restoration/",
     "/contact/"
@@ -669,8 +877,8 @@
   "/service-areas/pierz-mn/general-contracting/": [
     "/services/general-contracting/",
     "/service-areas/pierz-mn/",
-    "/service-areas/pierz-mn/water-damage-restoration/",
-    "/service-areas/pierz-mn/storm-damage-restoration/",
+    "/service-areas/pierz-mn/fire-damage-restoration/",
+    "/service-areas/pierz-mn/roofing/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
     "/contact/"
@@ -678,17 +886,35 @@
   "/service-areas/pierz-mn/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/pierz-mn/",
-    "/service-areas/pierz-mn/water-damage-restoration/",
-    "/service-areas/pierz-mn/storm-damage-restoration/",
+    "/service-areas/pierz-mn/fire-damage-restoration/",
+    "/service-areas/pierz-mn/roofing/",
     "/service-areas/albany-mn/water-cleanup/",
     "/service-areas/avon-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/pierz-mn/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/pierz-mn/",
+    "/service-areas/pierz-mn/roofing/",
+    "/service-areas/pierz-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/fire-damage-restoration/",
+    "/service-areas/avon-mn/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/pierz-mn/roofing/": [
+    "/services/roofing/",
+    "/service-areas/pierz-mn/",
+    "/service-areas/pierz-mn/fire-damage-restoration/",
+    "/service-areas/pierz-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/roofing/",
+    "/service-areas/avon-mn/roofing/",
     "/contact/"
   ],
   "/service-areas/sobieski-mn/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/sobieski-mn/",
-    "/service-areas/sobieski-mn/storm-damage-restoration/",
-    "/service-areas/sobieski-mn/water-cleanup/",
+    "/service-areas/sobieski-mn/fire-damage-restoration/",
+    "/service-areas/sobieski-mn/roofing/",
     "/service-areas/albany-mn/water-damage-restoration/",
     "/service-areas/avon-mn/water-damage-restoration/",
     "/contact/"
@@ -696,8 +922,8 @@
   "/service-areas/sobieski-mn/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/sobieski-mn/",
-    "/service-areas/sobieski-mn/water-damage-restoration/",
-    "/service-areas/sobieski-mn/water-cleanup/",
+    "/service-areas/sobieski-mn/fire-damage-restoration/",
+    "/service-areas/sobieski-mn/roofing/",
     "/service-areas/albany-mn/storm-damage-restoration/",
     "/service-areas/avon-mn/storm-damage-restoration/",
     "/contact/"
@@ -705,8 +931,8 @@
   "/service-areas/sobieski-mn/general-contracting/": [
     "/services/general-contracting/",
     "/service-areas/sobieski-mn/",
-    "/service-areas/sobieski-mn/water-damage-restoration/",
-    "/service-areas/sobieski-mn/storm-damage-restoration/",
+    "/service-areas/sobieski-mn/fire-damage-restoration/",
+    "/service-areas/sobieski-mn/roofing/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
     "/contact/"
@@ -714,17 +940,35 @@
   "/service-areas/sobieski-mn/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/sobieski-mn/",
-    "/service-areas/sobieski-mn/water-damage-restoration/",
-    "/service-areas/sobieski-mn/storm-damage-restoration/",
+    "/service-areas/sobieski-mn/fire-damage-restoration/",
+    "/service-areas/sobieski-mn/roofing/",
     "/service-areas/albany-mn/water-cleanup/",
     "/service-areas/avon-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/sobieski-mn/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/sobieski-mn/",
+    "/service-areas/sobieski-mn/roofing/",
+    "/service-areas/sobieski-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/fire-damage-restoration/",
+    "/service-areas/avon-mn/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sobieski-mn/roofing/": [
+    "/services/roofing/",
+    "/service-areas/sobieski-mn/",
+    "/service-areas/sobieski-mn/fire-damage-restoration/",
+    "/service-areas/sobieski-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/roofing/",
+    "/service-areas/avon-mn/roofing/",
     "/contact/"
   ],
   "/service-areas/flensburg-mn/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/flensburg-mn/",
-    "/service-areas/flensburg-mn/storm-damage-restoration/",
-    "/service-areas/flensburg-mn/water-cleanup/",
+    "/service-areas/flensburg-mn/fire-damage-restoration/",
+    "/service-areas/flensburg-mn/roofing/",
     "/service-areas/albany-mn/water-damage-restoration/",
     "/service-areas/avon-mn/water-damage-restoration/",
     "/contact/"
@@ -732,8 +976,8 @@
   "/service-areas/flensburg-mn/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/flensburg-mn/",
-    "/service-areas/flensburg-mn/water-damage-restoration/",
-    "/service-areas/flensburg-mn/water-cleanup/",
+    "/service-areas/flensburg-mn/fire-damage-restoration/",
+    "/service-areas/flensburg-mn/roofing/",
     "/service-areas/albany-mn/storm-damage-restoration/",
     "/service-areas/avon-mn/storm-damage-restoration/",
     "/contact/"
@@ -741,8 +985,8 @@
   "/service-areas/flensburg-mn/general-contracting/": [
     "/services/general-contracting/",
     "/service-areas/flensburg-mn/",
-    "/service-areas/flensburg-mn/water-damage-restoration/",
-    "/service-areas/flensburg-mn/storm-damage-restoration/",
+    "/service-areas/flensburg-mn/fire-damage-restoration/",
+    "/service-areas/flensburg-mn/roofing/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
     "/contact/"
@@ -750,17 +994,35 @@
   "/service-areas/flensburg-mn/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/flensburg-mn/",
-    "/service-areas/flensburg-mn/water-damage-restoration/",
-    "/service-areas/flensburg-mn/storm-damage-restoration/",
+    "/service-areas/flensburg-mn/fire-damage-restoration/",
+    "/service-areas/flensburg-mn/roofing/",
     "/service-areas/albany-mn/water-cleanup/",
     "/service-areas/avon-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/flensburg-mn/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/flensburg-mn/",
+    "/service-areas/flensburg-mn/roofing/",
+    "/service-areas/flensburg-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/fire-damage-restoration/",
+    "/service-areas/avon-mn/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/flensburg-mn/roofing/": [
+    "/services/roofing/",
+    "/service-areas/flensburg-mn/",
+    "/service-areas/flensburg-mn/fire-damage-restoration/",
+    "/service-areas/flensburg-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/roofing/",
+    "/service-areas/avon-mn/roofing/",
     "/contact/"
   ],
   "/service-areas/randall-mn/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/randall-mn/",
-    "/service-areas/randall-mn/storm-damage-restoration/",
-    "/service-areas/randall-mn/water-cleanup/",
+    "/service-areas/randall-mn/fire-damage-restoration/",
+    "/service-areas/randall-mn/roofing/",
     "/service-areas/albany-mn/water-damage-restoration/",
     "/service-areas/avon-mn/water-damage-restoration/",
     "/contact/"
@@ -768,8 +1030,8 @@
   "/service-areas/randall-mn/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/randall-mn/",
-    "/service-areas/randall-mn/water-damage-restoration/",
-    "/service-areas/randall-mn/water-cleanup/",
+    "/service-areas/randall-mn/fire-damage-restoration/",
+    "/service-areas/randall-mn/roofing/",
     "/service-areas/albany-mn/storm-damage-restoration/",
     "/service-areas/avon-mn/storm-damage-restoration/",
     "/contact/"
@@ -777,8 +1039,8 @@
   "/service-areas/randall-mn/general-contracting/": [
     "/services/general-contracting/",
     "/service-areas/randall-mn/",
-    "/service-areas/randall-mn/water-damage-restoration/",
-    "/service-areas/randall-mn/storm-damage-restoration/",
+    "/service-areas/randall-mn/fire-damage-restoration/",
+    "/service-areas/randall-mn/roofing/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
     "/contact/"
@@ -786,17 +1048,35 @@
   "/service-areas/randall-mn/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/randall-mn/",
-    "/service-areas/randall-mn/water-damage-restoration/",
-    "/service-areas/randall-mn/storm-damage-restoration/",
+    "/service-areas/randall-mn/fire-damage-restoration/",
+    "/service-areas/randall-mn/roofing/",
     "/service-areas/albany-mn/water-cleanup/",
     "/service-areas/avon-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/randall-mn/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/randall-mn/",
+    "/service-areas/randall-mn/roofing/",
+    "/service-areas/randall-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/fire-damage-restoration/",
+    "/service-areas/avon-mn/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/randall-mn/roofing/": [
+    "/services/roofing/",
+    "/service-areas/randall-mn/",
+    "/service-areas/randall-mn/fire-damage-restoration/",
+    "/service-areas/randall-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/roofing/",
+    "/service-areas/avon-mn/roofing/",
     "/contact/"
   ],
   "/service-areas/elmdale-mn/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/elmdale-mn/",
-    "/service-areas/elmdale-mn/storm-damage-restoration/",
-    "/service-areas/elmdale-mn/water-cleanup/",
+    "/service-areas/elmdale-mn/fire-damage-restoration/",
+    "/service-areas/elmdale-mn/roofing/",
     "/service-areas/albany-mn/water-damage-restoration/",
     "/service-areas/avon-mn/water-damage-restoration/",
     "/contact/"
@@ -804,8 +1084,8 @@
   "/service-areas/elmdale-mn/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/elmdale-mn/",
-    "/service-areas/elmdale-mn/water-damage-restoration/",
-    "/service-areas/elmdale-mn/water-cleanup/",
+    "/service-areas/elmdale-mn/fire-damage-restoration/",
+    "/service-areas/elmdale-mn/roofing/",
     "/service-areas/albany-mn/storm-damage-restoration/",
     "/service-areas/avon-mn/storm-damage-restoration/",
     "/contact/"
@@ -813,8 +1093,8 @@
   "/service-areas/elmdale-mn/general-contracting/": [
     "/services/general-contracting/",
     "/service-areas/elmdale-mn/",
-    "/service-areas/elmdale-mn/water-damage-restoration/",
-    "/service-areas/elmdale-mn/storm-damage-restoration/",
+    "/service-areas/elmdale-mn/fire-damage-restoration/",
+    "/service-areas/elmdale-mn/roofing/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
     "/contact/"
@@ -822,17 +1102,35 @@
   "/service-areas/elmdale-mn/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/elmdale-mn/",
-    "/service-areas/elmdale-mn/water-damage-restoration/",
-    "/service-areas/elmdale-mn/storm-damage-restoration/",
+    "/service-areas/elmdale-mn/fire-damage-restoration/",
+    "/service-areas/elmdale-mn/roofing/",
     "/service-areas/albany-mn/water-cleanup/",
     "/service-areas/avon-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/elmdale-mn/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/elmdale-mn/",
+    "/service-areas/elmdale-mn/roofing/",
+    "/service-areas/elmdale-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/fire-damage-restoration/",
+    "/service-areas/avon-mn/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/elmdale-mn/roofing/": [
+    "/services/roofing/",
+    "/service-areas/elmdale-mn/",
+    "/service-areas/elmdale-mn/fire-damage-restoration/",
+    "/service-areas/elmdale-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/roofing/",
+    "/service-areas/avon-mn/roofing/",
     "/contact/"
   ],
   "/service-areas/fort-ripley-mn/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/fort-ripley-mn/",
-    "/service-areas/fort-ripley-mn/storm-damage-restoration/",
-    "/service-areas/fort-ripley-mn/water-cleanup/",
+    "/service-areas/fort-ripley-mn/fire-damage-restoration/",
+    "/service-areas/fort-ripley-mn/roofing/",
     "/service-areas/albany-mn/water-damage-restoration/",
     "/service-areas/avon-mn/water-damage-restoration/",
     "/contact/"
@@ -840,8 +1138,8 @@
   "/service-areas/fort-ripley-mn/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/fort-ripley-mn/",
-    "/service-areas/fort-ripley-mn/water-damage-restoration/",
-    "/service-areas/fort-ripley-mn/water-cleanup/",
+    "/service-areas/fort-ripley-mn/fire-damage-restoration/",
+    "/service-areas/fort-ripley-mn/roofing/",
     "/service-areas/albany-mn/storm-damage-restoration/",
     "/service-areas/avon-mn/storm-damage-restoration/",
     "/contact/"
@@ -849,8 +1147,8 @@
   "/service-areas/fort-ripley-mn/general-contracting/": [
     "/services/general-contracting/",
     "/service-areas/fort-ripley-mn/",
-    "/service-areas/fort-ripley-mn/water-damage-restoration/",
-    "/service-areas/fort-ripley-mn/storm-damage-restoration/",
+    "/service-areas/fort-ripley-mn/fire-damage-restoration/",
+    "/service-areas/fort-ripley-mn/roofing/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
     "/contact/"
@@ -858,17 +1156,35 @@
   "/service-areas/fort-ripley-mn/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/fort-ripley-mn/",
-    "/service-areas/fort-ripley-mn/water-damage-restoration/",
-    "/service-areas/fort-ripley-mn/storm-damage-restoration/",
+    "/service-areas/fort-ripley-mn/fire-damage-restoration/",
+    "/service-areas/fort-ripley-mn/roofing/",
     "/service-areas/albany-mn/water-cleanup/",
     "/service-areas/avon-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/fort-ripley-mn/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/fort-ripley-mn/",
+    "/service-areas/fort-ripley-mn/roofing/",
+    "/service-areas/fort-ripley-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/fire-damage-restoration/",
+    "/service-areas/avon-mn/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/fort-ripley-mn/roofing/": [
+    "/services/roofing/",
+    "/service-areas/fort-ripley-mn/",
+    "/service-areas/fort-ripley-mn/fire-damage-restoration/",
+    "/service-areas/fort-ripley-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/roofing/",
+    "/service-areas/avon-mn/roofing/",
     "/contact/"
   ],
   "/service-areas/swanville-mn/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/swanville-mn/",
-    "/service-areas/swanville-mn/storm-damage-restoration/",
-    "/service-areas/swanville-mn/water-cleanup/",
+    "/service-areas/swanville-mn/fire-damage-restoration/",
+    "/service-areas/swanville-mn/roofing/",
     "/service-areas/albany-mn/water-damage-restoration/",
     "/service-areas/avon-mn/water-damage-restoration/",
     "/contact/"
@@ -876,8 +1192,8 @@
   "/service-areas/swanville-mn/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/swanville-mn/",
-    "/service-areas/swanville-mn/water-damage-restoration/",
-    "/service-areas/swanville-mn/water-cleanup/",
+    "/service-areas/swanville-mn/fire-damage-restoration/",
+    "/service-areas/swanville-mn/roofing/",
     "/service-areas/albany-mn/storm-damage-restoration/",
     "/service-areas/avon-mn/storm-damage-restoration/",
     "/contact/"
@@ -885,8 +1201,8 @@
   "/service-areas/swanville-mn/general-contracting/": [
     "/services/general-contracting/",
     "/service-areas/swanville-mn/",
-    "/service-areas/swanville-mn/water-damage-restoration/",
-    "/service-areas/swanville-mn/storm-damage-restoration/",
+    "/service-areas/swanville-mn/fire-damage-restoration/",
+    "/service-areas/swanville-mn/roofing/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
     "/contact/"
@@ -894,17 +1210,35 @@
   "/service-areas/swanville-mn/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/swanville-mn/",
-    "/service-areas/swanville-mn/water-damage-restoration/",
-    "/service-areas/swanville-mn/storm-damage-restoration/",
+    "/service-areas/swanville-mn/fire-damage-restoration/",
+    "/service-areas/swanville-mn/roofing/",
     "/service-areas/albany-mn/water-cleanup/",
     "/service-areas/avon-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/swanville-mn/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/swanville-mn/",
+    "/service-areas/swanville-mn/roofing/",
+    "/service-areas/swanville-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/fire-damage-restoration/",
+    "/service-areas/avon-mn/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/swanville-mn/roofing/": [
+    "/services/roofing/",
+    "/service-areas/swanville-mn/",
+    "/service-areas/swanville-mn/fire-damage-restoration/",
+    "/service-areas/swanville-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/roofing/",
+    "/service-areas/avon-mn/roofing/",
     "/contact/"
   ],
   "/service-areas/upsala-mn/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/upsala-mn/",
-    "/service-areas/upsala-mn/storm-damage-restoration/",
-    "/service-areas/upsala-mn/water-cleanup/",
+    "/service-areas/upsala-mn/fire-damage-restoration/",
+    "/service-areas/upsala-mn/roofing/",
     "/service-areas/albany-mn/water-damage-restoration/",
     "/service-areas/avon-mn/water-damage-restoration/",
     "/contact/"
@@ -912,8 +1246,8 @@
   "/service-areas/upsala-mn/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/upsala-mn/",
-    "/service-areas/upsala-mn/water-damage-restoration/",
-    "/service-areas/upsala-mn/water-cleanup/",
+    "/service-areas/upsala-mn/fire-damage-restoration/",
+    "/service-areas/upsala-mn/roofing/",
     "/service-areas/albany-mn/storm-damage-restoration/",
     "/service-areas/avon-mn/storm-damage-restoration/",
     "/contact/"
@@ -921,8 +1255,8 @@
   "/service-areas/upsala-mn/general-contracting/": [
     "/services/general-contracting/",
     "/service-areas/upsala-mn/",
-    "/service-areas/upsala-mn/water-damage-restoration/",
-    "/service-areas/upsala-mn/storm-damage-restoration/",
+    "/service-areas/upsala-mn/fire-damage-restoration/",
+    "/service-areas/upsala-mn/roofing/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
     "/contact/"
@@ -930,17 +1264,35 @@
   "/service-areas/upsala-mn/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/upsala-mn/",
-    "/service-areas/upsala-mn/water-damage-restoration/",
-    "/service-areas/upsala-mn/storm-damage-restoration/",
+    "/service-areas/upsala-mn/fire-damage-restoration/",
+    "/service-areas/upsala-mn/roofing/",
     "/service-areas/albany-mn/water-cleanup/",
     "/service-areas/avon-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/upsala-mn/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/upsala-mn/",
+    "/service-areas/upsala-mn/roofing/",
+    "/service-areas/upsala-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/fire-damage-restoration/",
+    "/service-areas/avon-mn/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/upsala-mn/roofing/": [
+    "/services/roofing/",
+    "/service-areas/upsala-mn/",
+    "/service-areas/upsala-mn/fire-damage-restoration/",
+    "/service-areas/upsala-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/roofing/",
+    "/service-areas/avon-mn/roofing/",
     "/contact/"
   ],
   "/service-areas/rice-mn/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/rice-mn/",
-    "/service-areas/rice-mn/storm-damage-restoration/",
-    "/service-areas/rice-mn/water-cleanup/",
+    "/service-areas/rice-mn/fire-damage-restoration/",
+    "/service-areas/rice-mn/roofing/",
     "/service-areas/albany-mn/water-damage-restoration/",
     "/service-areas/avon-mn/water-damage-restoration/",
     "/contact/"
@@ -948,8 +1300,8 @@
   "/service-areas/rice-mn/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/rice-mn/",
-    "/service-areas/rice-mn/water-damage-restoration/",
-    "/service-areas/rice-mn/water-cleanup/",
+    "/service-areas/rice-mn/fire-damage-restoration/",
+    "/service-areas/rice-mn/roofing/",
     "/service-areas/albany-mn/storm-damage-restoration/",
     "/service-areas/avon-mn/storm-damage-restoration/",
     "/contact/"
@@ -957,8 +1309,8 @@
   "/service-areas/rice-mn/general-contracting/": [
     "/services/general-contracting/",
     "/service-areas/rice-mn/",
-    "/service-areas/rice-mn/water-damage-restoration/",
-    "/service-areas/rice-mn/storm-damage-restoration/",
+    "/service-areas/rice-mn/fire-damage-restoration/",
+    "/service-areas/rice-mn/roofing/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
     "/contact/"
@@ -966,17 +1318,35 @@
   "/service-areas/rice-mn/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/rice-mn/",
-    "/service-areas/rice-mn/water-damage-restoration/",
-    "/service-areas/rice-mn/storm-damage-restoration/",
+    "/service-areas/rice-mn/fire-damage-restoration/",
+    "/service-areas/rice-mn/roofing/",
     "/service-areas/albany-mn/water-cleanup/",
     "/service-areas/avon-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/rice-mn/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/rice-mn/",
+    "/service-areas/rice-mn/roofing/",
+    "/service-areas/rice-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/fire-damage-restoration/",
+    "/service-areas/avon-mn/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/rice-mn/roofing/": [
+    "/services/roofing/",
+    "/service-areas/rice-mn/",
+    "/service-areas/rice-mn/fire-damage-restoration/",
+    "/service-areas/rice-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/roofing/",
+    "/service-areas/avon-mn/roofing/",
     "/contact/"
   ],
   "/service-areas/harding-mn/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/harding-mn/",
-    "/service-areas/harding-mn/storm-damage-restoration/",
-    "/service-areas/harding-mn/water-cleanup/",
+    "/service-areas/harding-mn/fire-damage-restoration/",
+    "/service-areas/harding-mn/roofing/",
     "/service-areas/albany-mn/water-damage-restoration/",
     "/service-areas/avon-mn/water-damage-restoration/",
     "/contact/"
@@ -984,8 +1354,8 @@
   "/service-areas/harding-mn/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/harding-mn/",
-    "/service-areas/harding-mn/water-damage-restoration/",
-    "/service-areas/harding-mn/water-cleanup/",
+    "/service-areas/harding-mn/fire-damage-restoration/",
+    "/service-areas/harding-mn/roofing/",
     "/service-areas/albany-mn/storm-damage-restoration/",
     "/service-areas/avon-mn/storm-damage-restoration/",
     "/contact/"
@@ -993,8 +1363,8 @@
   "/service-areas/harding-mn/general-contracting/": [
     "/services/general-contracting/",
     "/service-areas/harding-mn/",
-    "/service-areas/harding-mn/water-damage-restoration/",
-    "/service-areas/harding-mn/storm-damage-restoration/",
+    "/service-areas/harding-mn/fire-damage-restoration/",
+    "/service-areas/harding-mn/roofing/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
     "/contact/"
@@ -1002,17 +1372,35 @@
   "/service-areas/harding-mn/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/harding-mn/",
-    "/service-areas/harding-mn/water-damage-restoration/",
-    "/service-areas/harding-mn/storm-damage-restoration/",
+    "/service-areas/harding-mn/fire-damage-restoration/",
+    "/service-areas/harding-mn/roofing/",
     "/service-areas/albany-mn/water-cleanup/",
     "/service-areas/avon-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/harding-mn/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/harding-mn/",
+    "/service-areas/harding-mn/roofing/",
+    "/service-areas/harding-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/fire-damage-restoration/",
+    "/service-areas/avon-mn/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/harding-mn/roofing/": [
+    "/services/roofing/",
+    "/service-areas/harding-mn/",
+    "/service-areas/harding-mn/fire-damage-restoration/",
+    "/service-areas/harding-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/roofing/",
+    "/service-areas/avon-mn/roofing/",
     "/contact/"
   ],
   "/service-areas/st-stephen-mn/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/st-stephen-mn/",
-    "/service-areas/st-stephen-mn/storm-damage-restoration/",
-    "/service-areas/st-stephen-mn/water-cleanup/",
+    "/service-areas/st-stephen-mn/fire-damage-restoration/",
+    "/service-areas/st-stephen-mn/roofing/",
     "/service-areas/albany-mn/water-damage-restoration/",
     "/service-areas/avon-mn/water-damage-restoration/",
     "/contact/"
@@ -1020,8 +1408,8 @@
   "/service-areas/st-stephen-mn/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/st-stephen-mn/",
-    "/service-areas/st-stephen-mn/water-damage-restoration/",
-    "/service-areas/st-stephen-mn/water-cleanup/",
+    "/service-areas/st-stephen-mn/fire-damage-restoration/",
+    "/service-areas/st-stephen-mn/roofing/",
     "/service-areas/albany-mn/storm-damage-restoration/",
     "/service-areas/avon-mn/storm-damage-restoration/",
     "/contact/"
@@ -1029,8 +1417,8 @@
   "/service-areas/st-stephen-mn/general-contracting/": [
     "/services/general-contracting/",
     "/service-areas/st-stephen-mn/",
-    "/service-areas/st-stephen-mn/water-damage-restoration/",
-    "/service-areas/st-stephen-mn/storm-damage-restoration/",
+    "/service-areas/st-stephen-mn/fire-damage-restoration/",
+    "/service-areas/st-stephen-mn/roofing/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
     "/contact/"
@@ -1038,17 +1426,35 @@
   "/service-areas/st-stephen-mn/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/st-stephen-mn/",
-    "/service-areas/st-stephen-mn/water-damage-restoration/",
-    "/service-areas/st-stephen-mn/storm-damage-restoration/",
+    "/service-areas/st-stephen-mn/fire-damage-restoration/",
+    "/service-areas/st-stephen-mn/roofing/",
     "/service-areas/albany-mn/water-cleanup/",
     "/service-areas/avon-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/st-stephen-mn/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/st-stephen-mn/",
+    "/service-areas/st-stephen-mn/roofing/",
+    "/service-areas/st-stephen-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/fire-damage-restoration/",
+    "/service-areas/avon-mn/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/st-stephen-mn/roofing/": [
+    "/services/roofing/",
+    "/service-areas/st-stephen-mn/",
+    "/service-areas/st-stephen-mn/fire-damage-restoration/",
+    "/service-areas/st-stephen-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/roofing/",
+    "/service-areas/avon-mn/roofing/",
     "/contact/"
   ],
   "/service-areas/long-prairie-mn/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/long-prairie-mn/",
-    "/service-areas/long-prairie-mn/storm-damage-restoration/",
-    "/service-areas/long-prairie-mn/water-cleanup/",
+    "/service-areas/long-prairie-mn/fire-damage-restoration/",
+    "/service-areas/long-prairie-mn/roofing/",
     "/service-areas/albany-mn/water-damage-restoration/",
     "/service-areas/avon-mn/water-damage-restoration/",
     "/contact/"
@@ -1056,8 +1462,8 @@
   "/service-areas/long-prairie-mn/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/long-prairie-mn/",
-    "/service-areas/long-prairie-mn/water-damage-restoration/",
-    "/service-areas/long-prairie-mn/water-cleanup/",
+    "/service-areas/long-prairie-mn/fire-damage-restoration/",
+    "/service-areas/long-prairie-mn/roofing/",
     "/service-areas/albany-mn/storm-damage-restoration/",
     "/service-areas/avon-mn/storm-damage-restoration/",
     "/contact/"
@@ -1065,8 +1471,8 @@
   "/service-areas/long-prairie-mn/general-contracting/": [
     "/services/general-contracting/",
     "/service-areas/long-prairie-mn/",
-    "/service-areas/long-prairie-mn/water-damage-restoration/",
-    "/service-areas/long-prairie-mn/storm-damage-restoration/",
+    "/service-areas/long-prairie-mn/fire-damage-restoration/",
+    "/service-areas/long-prairie-mn/roofing/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
     "/contact/"
@@ -1074,17 +1480,35 @@
   "/service-areas/long-prairie-mn/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/long-prairie-mn/",
-    "/service-areas/long-prairie-mn/water-damage-restoration/",
-    "/service-areas/long-prairie-mn/storm-damage-restoration/",
+    "/service-areas/long-prairie-mn/fire-damage-restoration/",
+    "/service-areas/long-prairie-mn/roofing/",
     "/service-areas/albany-mn/water-cleanup/",
     "/service-areas/avon-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/long-prairie-mn/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/long-prairie-mn/",
+    "/service-areas/long-prairie-mn/roofing/",
+    "/service-areas/long-prairie-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/fire-damage-restoration/",
+    "/service-areas/avon-mn/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/long-prairie-mn/roofing/": [
+    "/services/roofing/",
+    "/service-areas/long-prairie-mn/",
+    "/service-areas/long-prairie-mn/fire-damage-restoration/",
+    "/service-areas/long-prairie-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/roofing/",
+    "/service-areas/avon-mn/roofing/",
     "/contact/"
   ],
   "/service-areas/albany-mn/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/albany-mn/",
-    "/service-areas/albany-mn/storm-damage-restoration/",
-    "/service-areas/albany-mn/water-cleanup/",
+    "/service-areas/albany-mn/fire-damage-restoration/",
+    "/service-areas/albany-mn/roofing/",
     "/service-areas/avon-mn/water-damage-restoration/",
     "/service-areas/baxter-mn/water-damage-restoration/",
     "/contact/"
@@ -1092,8 +1516,8 @@
   "/service-areas/albany-mn/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/albany-mn/",
-    "/service-areas/albany-mn/water-damage-restoration/",
-    "/service-areas/albany-mn/water-cleanup/",
+    "/service-areas/albany-mn/fire-damage-restoration/",
+    "/service-areas/albany-mn/roofing/",
     "/service-areas/avon-mn/storm-damage-restoration/",
     "/service-areas/baxter-mn/storm-damage-restoration/",
     "/contact/"
@@ -1101,8 +1525,8 @@
   "/service-areas/albany-mn/general-contracting/": [
     "/services/general-contracting/",
     "/service-areas/albany-mn/",
-    "/service-areas/albany-mn/water-damage-restoration/",
-    "/service-areas/albany-mn/storm-damage-restoration/",
+    "/service-areas/albany-mn/fire-damage-restoration/",
+    "/service-areas/albany-mn/roofing/",
     "/service-areas/avon-mn/general-contracting/",
     "/service-areas/baxter-mn/general-contracting/",
     "/contact/"
@@ -1110,17 +1534,35 @@
   "/service-areas/albany-mn/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/albany-mn/",
-    "/service-areas/albany-mn/water-damage-restoration/",
-    "/service-areas/albany-mn/storm-damage-restoration/",
+    "/service-areas/albany-mn/fire-damage-restoration/",
+    "/service-areas/albany-mn/roofing/",
     "/service-areas/avon-mn/water-cleanup/",
     "/service-areas/baxter-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/albany-mn/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/albany-mn/",
+    "/service-areas/albany-mn/roofing/",
+    "/service-areas/albany-mn/water-damage-restoration/",
+    "/service-areas/avon-mn/fire-damage-restoration/",
+    "/service-areas/baxter-mn/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/albany-mn/roofing/": [
+    "/services/roofing/",
+    "/service-areas/albany-mn/",
+    "/service-areas/albany-mn/fire-damage-restoration/",
+    "/service-areas/albany-mn/water-damage-restoration/",
+    "/service-areas/avon-mn/roofing/",
+    "/service-areas/baxter-mn/roofing/",
     "/contact/"
   ],
   "/service-areas/avon-mn/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/avon-mn/",
-    "/service-areas/avon-mn/storm-damage-restoration/",
-    "/service-areas/avon-mn/water-cleanup/",
+    "/service-areas/avon-mn/fire-damage-restoration/",
+    "/service-areas/avon-mn/roofing/",
     "/service-areas/albany-mn/water-damage-restoration/",
     "/service-areas/baxter-mn/water-damage-restoration/",
     "/contact/"
@@ -1128,8 +1570,8 @@
   "/service-areas/avon-mn/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/avon-mn/",
-    "/service-areas/avon-mn/water-damage-restoration/",
-    "/service-areas/avon-mn/water-cleanup/",
+    "/service-areas/avon-mn/fire-damage-restoration/",
+    "/service-areas/avon-mn/roofing/",
     "/service-areas/albany-mn/storm-damage-restoration/",
     "/service-areas/baxter-mn/storm-damage-restoration/",
     "/contact/"
@@ -1137,8 +1579,8 @@
   "/service-areas/avon-mn/general-contracting/": [
     "/services/general-contracting/",
     "/service-areas/avon-mn/",
-    "/service-areas/avon-mn/water-damage-restoration/",
-    "/service-areas/avon-mn/storm-damage-restoration/",
+    "/service-areas/avon-mn/fire-damage-restoration/",
+    "/service-areas/avon-mn/roofing/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/baxter-mn/general-contracting/",
     "/contact/"
@@ -1146,17 +1588,35 @@
   "/service-areas/avon-mn/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/avon-mn/",
-    "/service-areas/avon-mn/water-damage-restoration/",
-    "/service-areas/avon-mn/storm-damage-restoration/",
+    "/service-areas/avon-mn/fire-damage-restoration/",
+    "/service-areas/avon-mn/roofing/",
     "/service-areas/albany-mn/water-cleanup/",
     "/service-areas/baxter-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/avon-mn/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/avon-mn/",
+    "/service-areas/avon-mn/roofing/",
+    "/service-areas/avon-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/fire-damage-restoration/",
+    "/service-areas/baxter-mn/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/avon-mn/roofing/": [
+    "/services/roofing/",
+    "/service-areas/avon-mn/",
+    "/service-areas/avon-mn/fire-damage-restoration/",
+    "/service-areas/avon-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/roofing/",
+    "/service-areas/baxter-mn/roofing/",
     "/contact/"
   ],
   "/service-areas/st-joseph-mn/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/st-joseph-mn/",
-    "/service-areas/st-joseph-mn/storm-damage-restoration/",
-    "/service-areas/st-joseph-mn/water-cleanup/",
+    "/service-areas/st-joseph-mn/fire-damage-restoration/",
+    "/service-areas/st-joseph-mn/roofing/",
     "/service-areas/albany-mn/water-damage-restoration/",
     "/service-areas/avon-mn/water-damage-restoration/",
     "/contact/"
@@ -1164,8 +1624,8 @@
   "/service-areas/st-joseph-mn/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/st-joseph-mn/",
-    "/service-areas/st-joseph-mn/water-damage-restoration/",
-    "/service-areas/st-joseph-mn/water-cleanup/",
+    "/service-areas/st-joseph-mn/fire-damage-restoration/",
+    "/service-areas/st-joseph-mn/roofing/",
     "/service-areas/albany-mn/storm-damage-restoration/",
     "/service-areas/avon-mn/storm-damage-restoration/",
     "/contact/"
@@ -1173,8 +1633,8 @@
   "/service-areas/st-joseph-mn/general-contracting/": [
     "/services/general-contracting/",
     "/service-areas/st-joseph-mn/",
-    "/service-areas/st-joseph-mn/water-damage-restoration/",
-    "/service-areas/st-joseph-mn/storm-damage-restoration/",
+    "/service-areas/st-joseph-mn/fire-damage-restoration/",
+    "/service-areas/st-joseph-mn/roofing/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
     "/contact/"
@@ -1182,10 +1642,28 @@
   "/service-areas/st-joseph-mn/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/st-joseph-mn/",
-    "/service-areas/st-joseph-mn/water-damage-restoration/",
-    "/service-areas/st-joseph-mn/storm-damage-restoration/",
+    "/service-areas/st-joseph-mn/fire-damage-restoration/",
+    "/service-areas/st-joseph-mn/roofing/",
     "/service-areas/albany-mn/water-cleanup/",
     "/service-areas/avon-mn/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/st-joseph-mn/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/st-joseph-mn/",
+    "/service-areas/st-joseph-mn/roofing/",
+    "/service-areas/st-joseph-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/fire-damage-restoration/",
+    "/service-areas/avon-mn/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/st-joseph-mn/roofing/": [
+    "/services/roofing/",
+    "/service-areas/st-joseph-mn/",
+    "/service-areas/st-joseph-mn/fire-damage-restoration/",
+    "/service-areas/st-joseph-mn/water-damage-restoration/",
+    "/service-areas/albany-mn/roofing/",
+    "/service-areas/avon-mn/roofing/",
     "/contact/"
   ],
   "/blog/what-to-do-first-24-hours-water-damage/": [
@@ -1209,8 +1687,14 @@
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/"
   ],
+  "/blog/fire-damage-restoration-process/": [
+    "/blog/",
+    "/services/fire-damage-restoration/",
+    "/blog/choosing-a-restoration-company/"
+  ],
   "/blog/choosing-a-restoration-company/": [
     "/blog/",
+    "/services/fire-damage-restoration/",
     "/services/water-damage-restoration/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -1228,13 +1712,6 @@
     "/blog/choosing-a-restoration-company/"
   ],
   "/blog/mold-after-water-damage/": [
-    "/blog/",
-    "/services/water-damage-restoration/",
-    "/blog/burst-pipe-emergency-checklist/",
-    "/blog/what-to-do-first-24-hours-water-damage/",
-    "/blog/choosing-a-restoration-company/"
-  ],
-  "/blog/basement-flooding-prevention/": [
     "/blog/",
     "/services/water-damage-restoration/",
     "/blog/burst-pipe-emergency-checklist/",

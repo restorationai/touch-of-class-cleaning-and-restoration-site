@@ -1,7 +1,5 @@
 # Heritage Restoration LLC
 
-Doing business as: Heritage Restoration - 24/7 Emergency Plumbing, Water and Fire Damage Restoration (registered trade name of Heritage Restoration LLC).
-
 > 24/7 restoration services in Little Falls, MN.
 
 Heritage Restoration LLC (Heritage Restoration LLC) is a professional restoration contractor serving Little Falls, MN and surrounding areas since 2023. We provide 24/7 emergency response for water, fire, mold, storm, biohazard, and reconstruction services. Phone: (320) 733-8868 · Email: support@heritagermn.com.
@@ -14,7 +12,9 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Water Damage Restoration](https://heritagermn.com/services/water-damage-restoration/)
 - [Storm Damage Restoration](https://heritagermn.com/services/storm-damage-restoration/)
 - [Renovations, Remodels and General Contracting](https://heritagermn.com/services/general-contracting/)
-- [Water Cleanup](https://heritagermn.com/services/water-cleanup/)
+- [Emergency Water Cleanup](https://heritagermn.com/services/water-cleanup/)
+- [Fire Damage Restoration](https://heritagermn.com/services/fire-damage-restoration/)
+- [Roofing Installation and Replacement](https://heritagermn.com/services/roofing/)
 
 ### Service area pages
 - [Little Falls, MN](https://heritagermn.com/service-areas/little-falls-mn/)
@@ -26,6 +26,20 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Foley, MN](https://heritagermn.com/service-areas/foley-mn/)
 - [Royalton, MN](https://heritagermn.com/service-areas/royalton-mn/)
 - [Pierz, MN](https://heritagermn.com/service-areas/pierz-mn/)
+- [Sobieski, MN](https://heritagermn.com/service-areas/sobieski-mn/)
+- [Flensburg, MN](https://heritagermn.com/service-areas/flensburg-mn/)
+- [Randall, MN](https://heritagermn.com/service-areas/randall-mn/)
+- [Elmdale, MN](https://heritagermn.com/service-areas/elmdale-mn/)
+- [Fort Ripley, MN](https://heritagermn.com/service-areas/fort-ripley-mn/)
+- [Swanville, MN](https://heritagermn.com/service-areas/swanville-mn/)
+- [Upsala, MN](https://heritagermn.com/service-areas/upsala-mn/)
+- [Rice, MN](https://heritagermn.com/service-areas/rice-mn/)
+- [Harding, MN](https://heritagermn.com/service-areas/harding-mn/)
+- [St. Stephen, MN](https://heritagermn.com/service-areas/st-stephen-mn/)
+- [Long Prairie, MN](https://heritagermn.com/service-areas/long-prairie-mn/)
+- [Albany, MN](https://heritagermn.com/service-areas/albany-mn/)
+- [Avon, MN](https://heritagermn.com/service-areas/avon-mn/)
+- [St. Joseph, MN](https://heritagermn.com/service-areas/st-joseph-mn/)
 
 ### Resources
 - [Blog](https://heritagermn.com/blog/): Restoration guides and local resources

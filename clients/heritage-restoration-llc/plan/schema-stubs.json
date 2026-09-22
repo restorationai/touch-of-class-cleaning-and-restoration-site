@@ -98,6 +98,26 @@
     ],
     "missing_stubs": []
   },
+  "/services/fire-damage-restoration/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/roofing/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/st-cloud-mn/": {
     "archetype": "service-area",
     "stubs": [
@@ -336,6 +356,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/st-cloud-mn/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/st-cloud-mn/roofing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/sartell-mn/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -367,6 +407,26 @@
     "missing_stubs": []
   },
   "/service-areas/sartell-mn/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sartell-mn/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sartell-mn/roofing/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -416,6 +476,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/sauk-rapids-mn/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sauk-rapids-mn/roofing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/brainerd-mn/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -447,6 +527,26 @@
     "missing_stubs": []
   },
   "/service-areas/brainerd-mn/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/brainerd-mn/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/brainerd-mn/roofing/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -496,6 +596,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/baxter-mn/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/baxter-mn/roofing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/foley-mn/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -527,6 +647,26 @@
     "missing_stubs": []
   },
   "/service-areas/foley-mn/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/foley-mn/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/foley-mn/roofing/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -576,6 +716,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/royalton-mn/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/royalton-mn/roofing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/pierz-mn/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -607,6 +767,26 @@
     "missing_stubs": []
   },
   "/service-areas/pierz-mn/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/pierz-mn/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/pierz-mn/roofing/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -656,6 +836,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/sobieski-mn/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sobieski-mn/roofing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/flensburg-mn/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -687,6 +887,26 @@
     "missing_stubs": []
   },
   "/service-areas/flensburg-mn/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/flensburg-mn/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/flensburg-mn/roofing/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -736,6 +956,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/randall-mn/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/randall-mn/roofing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/elmdale-mn/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -767,6 +1007,26 @@
     "missing_stubs": []
   },
   "/service-areas/elmdale-mn/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/elmdale-mn/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/elmdale-mn/roofing/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -816,6 +1076,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/fort-ripley-mn/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fort-ripley-mn/roofing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/swanville-mn/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -847,6 +1127,26 @@
     "missing_stubs": []
   },
   "/service-areas/swanville-mn/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/swanville-mn/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/swanville-mn/roofing/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -896,6 +1196,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/upsala-mn/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/upsala-mn/roofing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/rice-mn/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -927,6 +1247,26 @@
     "missing_stubs": []
   },
   "/service-areas/rice-mn/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rice-mn/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rice-mn/roofing/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -976,6 +1316,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/harding-mn/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/harding-mn/roofing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/st-stephen-mn/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1007,6 +1367,26 @@
     "missing_stubs": []
   },
   "/service-areas/st-stephen-mn/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/st-stephen-mn/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/st-stephen-mn/roofing/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1056,6 +1436,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/long-prairie-mn/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/long-prairie-mn/roofing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/albany-mn/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1087,6 +1487,26 @@
     "missing_stubs": []
   },
   "/service-areas/albany-mn/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/albany-mn/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/albany-mn/roofing/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1136,6 +1556,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/avon-mn/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/avon-mn/roofing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/st-joseph-mn/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1176,6 +1616,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/st-joseph-mn/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/st-joseph-mn/roofing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/blog/what-to-do-first-24-hours-water-damage/": {
     "archetype": "blog-post",
     "stubs": [
@@ -1195,6 +1655,15 @@
     "missing_stubs": []
   },
   "/blog/does-homeowners-insurance-cover-water-damage/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/fire-damage-restoration-process/": {
     "archetype": "blog-post",
     "stubs": [
       "blog-posting",
@@ -1231,15 +1700,6 @@
     "missing_stubs": []
   },
   "/blog/mold-after-water-damage/": {
-    "archetype": "blog-post",
-    "stubs": [
-      "blog-posting",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/blog/basement-flooding-prevention/": {
     "archetype": "blog-post",
     "stubs": [
       "blog-posting",

@@ -35,7 +35,9 @@
     "water-damage-restoration",
     "storm-damage-restoration",
     "general-contracting",
-    "water-cleanup"
+    "water-cleanup",
+    "fire-damage-restoration",
+    "roofing"
   ],
   "service_areas": [
     {

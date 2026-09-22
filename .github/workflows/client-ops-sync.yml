@@ -142,6 +142,12 @@ jobs:
           # branded_link_host stamp the master sender trusts. Idempotent;
           # picks up new cutovers the night they launch.
           python3 scripts/branded_links.py provision || true
+          # SERVICE RIPPLE (Heritage 2026-09-22): services confirmed into
+          # the truth table AFTER the site was built grow the site
+          # automatically (plan + stubs here, render sweep writes +
+          # deploys). Cap 5 sites/night; unmappable services file one
+          # [DEV] note for a custom page.
+          python3 scripts/service_ripple.py || true
 
       - name: Re-harvest new GBP photos (real-photo-first imagery, daily)
         env:

@@ -185,7 +185,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Storm Damage Restoration, Renovations, Remodels and General Contracting, Emergency Water Cleanup)
+- [ ] (continue for each of Water Damage Restoration, Storm Damage Restoration, Renovations, Remodels and General Contracting, Emergency Water Cleanup, Fire Damage Restoration, Roofing Installation and Replacement)
 
 ### Service area pages (one image per city served)
 - [ ] Little Falls hero — exterior shot, regional housing stock, evocative of the city

@@ -44,14 +44,16 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `[]` | brand.same_as_urls (JSON-encoded array) | |
 | `` / `` | from GBP | `5.0` / `31` |
 | `24/7 restoration services in Little Falls, MN.` | brand.tagline | short marketing line |
-| `#171717` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
+| `#184080` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
 | `Inter` / `Inter` | brand.fonts | `Inter` / `Inter` |
 | `/images/logo.png` / `HR` | derived; logo lives on the per-client R2 bucket | |
 | `https://images.heritagermn.com` | `https://images.{domain}` | |
 | `- [Water Damage Restoration](https://heritagermn.com/services/water-damage-restoration/)
 - [Storm Damage Restoration](https://heritagermn.com/services/storm-damage-restoration/)
 - [Renovations, Remodels and General Contracting](https://heritagermn.com/services/general-contracting/)
-- [Water Cleanup](https://heritagermn.com/services/water-cleanup/)` / `- [Little Falls, MN](https://heritagermn.com/service-areas/little-falls-mn/)
+- [Emergency Water Cleanup](https://heritagermn.com/services/water-cleanup/)
+- [Fire Damage Restoration](https://heritagermn.com/services/fire-damage-restoration/)
+- [Roofing Installation and Replacement](https://heritagermn.com/services/roofing/)` / `- [Little Falls, MN](https://heritagermn.com/service-areas/little-falls-mn/)
 - [St. Cloud, MN](https://heritagermn.com/service-areas/st-cloud-mn/)
 - [Sartell, MN](https://heritagermn.com/service-areas/sartell-mn/)
 - [Sauk Rapids, MN](https://heritagermn.com/service-areas/sauk-rapids-mn/)
@@ -59,7 +61,21 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 - [Baxter, MN](https://heritagermn.com/service-areas/baxter-mn/)
 - [Foley, MN](https://heritagermn.com/service-areas/foley-mn/)
 - [Royalton, MN](https://heritagermn.com/service-areas/royalton-mn/)
-- [Pierz, MN](https://heritagermn.com/service-areas/pierz-mn/)` / `IICRC WRT (WATER), IICRC FSRT (FIRE & SMOKE), IICRC ASD (STRUCTURAL DRYING), EPA LEAD-SAFE CERTIFIED, IICRC AMRT (MOLD)` / `Greater Little Falls region` | computed at scaffold from plan + brand | |
+- [Pierz, MN](https://heritagermn.com/service-areas/pierz-mn/)
+- [Sobieski, MN](https://heritagermn.com/service-areas/sobieski-mn/)
+- [Flensburg, MN](https://heritagermn.com/service-areas/flensburg-mn/)
+- [Randall, MN](https://heritagermn.com/service-areas/randall-mn/)
+- [Elmdale, MN](https://heritagermn.com/service-areas/elmdale-mn/)
+- [Fort Ripley, MN](https://heritagermn.com/service-areas/fort-ripley-mn/)
+- [Swanville, MN](https://heritagermn.com/service-areas/swanville-mn/)
+- [Upsala, MN](https://heritagermn.com/service-areas/upsala-mn/)
+- [Rice, MN](https://heritagermn.com/service-areas/rice-mn/)
+- [Harding, MN](https://heritagermn.com/service-areas/harding-mn/)
+- [St. Stephen, MN](https://heritagermn.com/service-areas/st-stephen-mn/)
+- [Long Prairie, MN](https://heritagermn.com/service-areas/long-prairie-mn/)
+- [Albany, MN](https://heritagermn.com/service-areas/albany-mn/)
+- [Avon, MN](https://heritagermn.com/service-areas/avon-mn/)
+- [St. Joseph, MN](https://heritagermn.com/service-areas/st-joseph-mn/)` / `IICRC WRT (WATER), IICRC FSRT (FIRE & SMOKE), IICRC ASD (STRUCTURAL DRYING), EPA LEAD-SAFE CERTIFIED, IICRC AMRT (MOLD)` / `Greater Little Falls region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

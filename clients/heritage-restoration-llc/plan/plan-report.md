@@ -1,22 +1,22 @@
 # Site Plan Report — Heritage Restoration LLC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-22T14:27:48.892133+00:00
+- Generated: 2026-09-22T22:46:04.341718+00:00
 - Domain: `heritagermn.com`
-- Services selected: 4 of 65 catalog entries
+- Services selected: 6 of 65 catalog entries
 - Service areas: 23
 - Cross-product enabled: True
-- Total URLs: **131**
-- Total internal links: 986 (avg 7.5 per page)
+- Total URLs: **177**
+- Total internal links: 1371 (avg 7.7 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 88 |
+| `service-area-service` | 132 |
 | `service-area` | 22 |
 | `blog-post` | 8 |
-| `service-landing` | 4 |
+| `service-landing` | 6 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -31,6 +31,8 @@
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)
+- `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
+- `roofing` — Roofing Installation and Replacement (construction, priority 10)
 
 ## Service areas
 
@@ -62,16 +64,16 @@
 
 | URL | Archetype | Priority | Primary keyword |
 | --- | --- | --- | --- |
+| `/services/fire-damage-restoration/` | `service-landing` | 9.0 | fire damage restoration little falls |
+| `/services/roofing/` | `service-landing` | 9.0 | roofing installation and replacement little falls |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration little falls |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration little falls |
 | `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup little falls |
 | `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting little falls |
+| `/service-areas/albany-mn/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration albany |
+| `/service-areas/albany-mn/roofing/` | `service-area-service` | 7.0 | roofing installation and replacement albany |
 | `/service-areas/albany-mn/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration albany |
-| `/service-areas/avon-mn/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration avon |
-| `/service-areas/baxter-mn/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration baxter |
-| `/service-areas/brainerd-mn/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration brainerd |
-| `/service-areas/elmdale-mn/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration elmdale |
-| `/service-areas/flensburg-mn/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration flensburg |
+| `/service-areas/avon-mn/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration avon |
 
 ## Validation
 

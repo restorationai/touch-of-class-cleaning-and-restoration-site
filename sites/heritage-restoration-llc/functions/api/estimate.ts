@@ -119,6 +119,46 @@ async function sendEmail(env: Env, lead: Record<string, string>, toEmail: string
   return `error:${r.status}:${(await r.text()).slice(0, 200)}`;
 }
 
+async function sendLeadAutoReply(env: Env, lead: Record<string, string>): Promise<string> {
+  // C13 (Santino 2026-09-16): the instant "we got it" email to the LEAD.
+  // Transactional, once, only when they volunteered an email. Reply-to is
+  // the business's real inbox so answering reaches the client directly.
+  // The push to CALL mirrors the post-submit screen: an emergency lead who
+  // calls converts; one who waits for a callback keeps shopping.
+  if (!env.SENDGRID_API_KEY) return "skipped:no-key";
+  const to = (lead.email || "").trim();
+  if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(to)) return "skipped:no-email";
+  const phone = (brand.phone || "").trim();
+  const lines = [
+    `Hi ${(lead.name || "").split(" ")[0] || "there"},`,
+    "",
+    `We received your request and our team is on it. You'll hear from us shortly.`,
+    "",
+    phone
+      ? `If this is an emergency, don't wait on us: call ${phone} now and we'll dispatch right away.`
+      : "",
+    "",
+    `${brand.displayName}`,
+    phone ? `${phone}` : "",
+    `https://${brand.domain}`,
+  ].filter((l, i, a) => l !== "" || a[i - 1] !== "").join("\n");
+  const r = await fetch("https://api.sendgrid.com/v3/mail/send", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${env.SENDGRID_API_KEY}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      personalizations: [{ to: [{ email: to }] }],
+      from: { email: FROM_EMAIL, name: brand.displayName },
+      reply_to: { email: (brand.email || FROM_EMAIL), name: brand.displayName },
+      subject: `We got your request — ${brand.displayName}`,
+      content: [{ type: "text/plain", value: lines }],
+    }),
+  });
+  return r.status === 202 ? "sent" : `error:${r.status}`;
+}
+
 async function sbGet(env: Env, path: string): Promise<unknown[] | null> {
   const r = await fetch(`${env.SUPABASE_URL}/rest/v1/${path}`, {
     headers: {
@@ -321,8 +361,12 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
       data.utm_source && `utm_source=${clean(data.utm_source, 80)}`,
       data.utm_medium && `utm_medium=${clean(data.utm_medium, 80)}`,
       data.utm_campaign && `utm_campaign=${clean(data.utm_campaign, 120)}`,
-      data.gclid && "gclid=present", data.msclkid && "msclkid=present",
-      data.fbclid && "fbclid=present",
+      // D17 (2026-09-16): real click-id values, not just "present" — the
+      // id is what ties a lead (and any later offline conversion upload)
+      // back to the exact ad click.
+      data.gclid && `gclid=${clean(data.gclid, 120)}`,
+      data.msclkid && `msclkid=${clean(data.msclkid, 120)}`,
+      data.fbclid && `fbclid=${clean(data.fbclid, 120)}`,
       data.referrer && `ref=${clean(data.referrer, 200)}`,
       data.landing_page && `landing=${clean(data.landing_page, 200)}`,
     ].filter(Boolean).join(" | "),
@@ -333,11 +377,12 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
 
   const toEmail = await resolveRecipient(env).catch(() => (brand.email || "").trim());
 
-  const [email, sms, db, prospectSms] = await Promise.all([
+  const [email, sms, db, prospectSms, autoReply] = await Promise.all([
     sendEmail(env, lead, toEmail).catch((e) => `error:${String(e).slice(0, 200)}`),
     sendSms(env, lead).catch((e) => `error:${String(e).slice(0, 200)}`),
     insertContact(env, lead).catch((e) => `error:${String(e).slice(0, 200)}`),
     sendProspectSms(env, lead).catch((e) => `error:${String(e).slice(0, 200)}`),
+    sendLeadAutoReply(env, lead).catch((e) => `error:${String(e).slice(0, 200)}`),
   ]);
 
   // EVERY submission is its own event row (Santino 2026-09-10), now
@@ -359,14 +404,15 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
         notify_status: { email: { status: email, to: toEmail },
                          sms: { status: sms },
                          prospect_sms: { status: prospectSms,
-                                         consent: lead.sms_consent === "yes" } },
+                                         consent: lead.sms_consent === "yes" },
+                         auto_reply: { status: autoReply } },
       }),
     }).catch(() => null);
   }
 
   // Email is the primary delivery channel; SMS + DB are best-effort extras.
   const ok = email === "sent";
-  const body: Record<string, unknown> = { ok, email, sms, db, prospect_sms: prospectSms };
+  const body: Record<string, unknown> = { ok, email, sms, db, prospect_sms: prospectSms, auto_reply: autoReply };
   // Diagnostic only: expose the resolved recipient on explicit TEST submissions
   // so re-tests can verify routing. Never included on real leads.
   if (lead.description.includes("TEST")) body.to = toEmail;
