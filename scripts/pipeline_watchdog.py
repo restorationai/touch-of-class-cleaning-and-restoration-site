@@ -183,6 +183,35 @@ def check_citation_stall() -> list[str]:
     return issues
 
 
+def check_stuck_lead_audits() -> list[str]:
+    """Shane Dodson 2026-09-21: Railway deploys kill in-flight audit
+    threads, the job row stays 'running' forever, the lead's GHL fields
+    never populate, and the timed sales SMS goes out with blank merge
+    fields + an invalid media URL. A lead_audit 'running' for 2+ hours is
+    dead — flag it loudly (5 sat silent, oldest since 09-11)."""
+    from datetime import datetime, timedelta, timezone
+    cutoff = (datetime.now(timezone.utc) - timedelta(hours=2)
+              ).strftime("%Y-%m-%dT%H:%M:%SZ")
+    try:
+        rows = _sb("GET", "/rest/v1/marketing_jobs?type=eq.lead_audit"
+                   "&status=eq.running"
+                   f"&started_at=lt.{cutoff}"
+                   "&select=id,params,started_at") or []
+    except Exception as e:  # noqa: BLE001
+        return [f"lead-audit stuck-job check failed: {str(e)[:80]}"]
+    issues = []
+    for r in rows:
+        p = r.get("params") or {}
+        issues.append(
+            "lead audit STUCK: job for "
+            f"{p.get('name') or p.get('email') or r['id']} "
+            f"({p.get('domain') or 'no domain'}) has been 'running' since "
+            f"{str(r.get('started_at'))[:16]} — the thread is dead "
+            "(deploy restart); re-run it and deliver the GHL fields "
+            "before the sales sequence fires blanks")
+    return issues
+
+
 def check_lsa_leads() -> list[str]:
     """A serving LSA with ZERO leads in 14 days (C, Santino 2026-09-20:
     'accounts that are live but aren't getting calls so we can know which
@@ -339,7 +368,8 @@ def main() -> int:
     a = ap.parse_args()
     issues = (check_workflows() + check_heartbeats() + check_coverage()
               + check_site_area_gap() + check_citation_stall()
-              + check_lsa_leads())
+              + check_lsa_leads()
+              + check_stuck_lead_audits())
     if not issues:
         print("pipeline watchdog: ALL SYSTEMS ALIVE")
     fresh: list[str] = []
