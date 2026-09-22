@@ -1,9 +1,27 @@
 {
- "slug": "katofsky-construction-llc",
- "display_name": "Katofsky Construction LLC",
- "domain": "katofskyconstruction.com",
- "tier": "standard",
- "vertical": "construction",
- "contact": "michael@katofskyconstruction.com",
- "status": "onboarding"
+  "slug": "katofsky-construction-llc",
+  "display_name": "Katofsky Construction LLC",
+  "domain": "katofskyconstruction.com",
+  "tier": "standard",
+  "vertical": "restoration",
+  "contact": "michael@katofskyconstruction.com",
+  "status": "onboarding",
+  "plan_status": "planned",
+  "plan": {
+    "template": "restoration",
+    "template_version": "0.3.0",
+    "url_count": 299,
+    "generated_at": "2026-09-22T14:42:17.211640+00:00"
+  },
+  "updated_at": "2026-09-22T14:42:43.380975+00:00",
+  "indexnow_key": "51445af8bf584117b7e95302ec018de1",
+  "build": {
+    "scaffolded_at": "2026-09-22T14:42:43.380529+00:00",
+    "github_repo": "restorationai/katofsky-construction-llc-site",
+    "pages_project": "rankai-katofsky-construction-llc",
+    "starter_version": "0.1.0",
+    "url_count": 299,
+    "pages_status": "created"
+  },
+  "build_status": "scaffolded"
 }
