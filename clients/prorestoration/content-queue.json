@@ -941,7 +941,7 @@
     },
     {
       "id": "2026-09-15-fire-damage-restoration-bakersfield",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-15T14:24:35Z",
       "priority": 1,
       "prioritized": true,
@@ -951,7 +951,9 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": "bakersfield-ca",
-      "source": "gameplan-2026-09-1 (dev-agent)"
+      "source": "gameplan-2026-09-1 (dev-agent)",
+      "written_at": "2026-09-22T15:30:23Z",
+      "post_url": "https://prorestorationca.com/blog/fire-damage-restoration-bakersfield/"
     }
   ]
 }
