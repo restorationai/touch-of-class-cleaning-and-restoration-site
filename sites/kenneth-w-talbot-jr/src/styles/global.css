@@ -52,7 +52,9 @@
      rung), never primary.DEFAULT — DEFAULT is the client's raw brand hex and
      may be a light gold/lime/sky that white cannot sit on. */
   .btn-primary {
-    @apply btn bg-primary-600 text-white hover:bg-dark-700;
+    /* Veterans 2026-09-22: call buttons pop in the site's star-gold; their
+       near-black primary rendered this as charcoal-on-charcoal. */
+    @apply btn bg-cta text-cta-fg hover:bg-cta-hover;
   }
   .btn-accent {
     @apply btn bg-accent text-white hover:opacity-90;
