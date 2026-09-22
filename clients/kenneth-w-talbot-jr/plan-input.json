@@ -20,7 +20,10 @@
       "Licensed & Insured",
       "Veteran Owned & Operated",
       "Locally Owned & Operated"
-    ]
+    ],
+    "cta_fill": "#fbbf24",
+    "cta_fg": "#171717",
+    "cta_hover": "#f59e0b"
   },
   "services": [
     "water-damage-restoration",
