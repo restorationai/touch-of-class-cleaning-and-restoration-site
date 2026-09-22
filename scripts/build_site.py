@@ -615,6 +615,10 @@ def _starter_protected(rel: str) -> bool:
         (rel.startswith("src/content/") and rel.endswith(".md"))
         or rel.startswith("public/images/")
         or rel == "src/data/image-meta.json"
+        # populated before/after pairs are PRODUCT (FIX 2026-09-22: a
+        # theme re-scaffold reset work.ts to the empty starter and the
+        # dark staging preview shipped without its Our Work section)
+        or rel == "src/data/work.ts"
         or rel.startswith("prompts/")
     )
 

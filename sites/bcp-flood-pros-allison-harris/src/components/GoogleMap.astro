@@ -16,23 +16,18 @@ const sectionHeading =
   (service ? `${service} in ${city}: Service Coverage` : `Serving ${city} and Surrounding Neighborhoods`);
 
 // "Serving {City} from our {HQ} office" when the page city isn't our home city.
-// The OFFICE is addressCity/addressState (where we physically are), not
-// primaryCity (what we market hardest) — those differ for cross-border
-// clients like DISS (Farrell PA office, Youngstown OH target).
-const hqCity = brand.addressCity || brand.primaryCity;
-const hqState = brand.addressState || brand.primaryState;
-const remote = hqCity && city && hqCity.toLowerCase() !== city.toLowerCase();
+const remote = brand.primaryCity && city && brand.primaryCity.toLowerCase() !== city.toLowerCase();
 const servingLine = remote
-  ? `Serving ${city} from our ${hqCity}, ${hqState} office`
+  ? `Serving ${city} from our ${brand.primaryCity}, ${brand.primaryState} office`
   : `Serving ${city} and surrounding neighborhoods`;
 
 // Free Google Maps embed of the client's REAL Business Profile — no API key needed,
 // so it always renders (the old Embed-API path showed nothing without a key). Name-
 // first query so Google matches the GBP and shows the business info card + rating.
-const mapQuery = encodeURIComponent(`${brand.displayName} ${hqCity} ${hqState}`);
+const mapQuery = encodeURIComponent(`${brand.displayName} ${brand.primaryCity} ${brand.primaryState}`);
 const embedSrc = `https://www.google.com/maps?q=${mapQuery}&output=embed`;
 
-const fullAddress = `${brand.streetAddress}, ${hqCity}, ${hqState} ${brand.postalCode}`;
+const fullAddress = `${brand.streetAddress}, ${brand.primaryCity}, ${brand.primaryState} ${brand.postalCode}`;
 const directionsHref = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(fullAddress)}`;
 
 const clean = (v: string) => v && !v.includes("{{") ? v : "";
@@ -40,7 +35,7 @@ const hasRating = clean(brand.gbpRatingValue) && clean(brand.gbpReviewCount);
 const hoursText = clean(brand.hours);
 ---
 
-<section class="section bg-dark-50">
+<section class="section bg-navy">
   <div class="container-wide">
     <div class="mb-8">
       <div class="eyebrow">Coverage</div>
@@ -84,7 +79,7 @@ const hoursText = clean(brand.hours);
       </div>
 
       <!-- Real Google Business Profile map (lazy-loaded — no LCP/CWV impact) -->
-      <div class="rounded-xl overflow-hidden border border-dark/10 shadow-2xl min-h-[340px]">
+      <div class="rounded-xl overflow-hidden border border-white/10 shadow-2xl min-h-[340px]">
         <iframe
           src={embedSrc}
           width="100%"
