@@ -1,20 +1,20 @@
 # Site Plan Report — Quality Contracting, Inc.
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-22T18:10:29.963506+00:00
+- Generated: 2026-09-22T19:45:53.106122+00:00
 - Domain: `qualitycontracting.us`
 - Services selected: 11 of 65 catalog entries
-- Service areas: 27
+- Service areas: 28
 - Cross-product enabled: True
-- Total URLs: **340**
-- Total internal links: 2717 (avg 8.0 per page)
+- Total URLs: **352**
+- Total internal links: 2812 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 286 |
-| `service-area` | 26 |
+| `service-area-service` | 297 |
+| `service-area` | 27 |
 | `service-landing` | 11 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -68,6 +68,7 @@
 - `leominster-ma` — Leominster, MA
 - `franklin-town-ma` — Franklin Town, MA
 - `palmer-town-ma` — Palmer Town, MA
+- `maynard-ma` — Maynard, MA
 
 ## Top 10 priority pages
 

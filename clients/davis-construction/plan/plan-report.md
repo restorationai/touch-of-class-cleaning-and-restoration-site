@@ -1,20 +1,20 @@
 # Site Plan Report — Davis Construction Contractors
 
 - Template: `construction` v0.1.0
-- Generated: 2026-09-22T18:09:59.634104+00:00
+- Generated: 2026-09-22T19:45:20.949207+00:00
 - Domain: `davisconstructioncontractors.com`
 - Services selected: 9 of 23 catalog entries
-- Service areas: 18
+- Service areas: 19
 - Cross-product enabled: True
-- Total URLs: **200**
-- Total internal links: 1576 (avg 7.9 per page)
+- Total URLs: **210**
+- Total internal links: 1655 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 153 |
-| `service-area` | 17 |
+| `service-area-service` | 162 |
+| `service-area` | 18 |
 | `blog-post` | 12 |
 | `service-landing` | 9 |
 | `legal` | 3 |
@@ -57,6 +57,7 @@
 - `somerville-al` — Somerville, AL
 - `elkmont-al` — Elkmont, AL
 - `decatur-al` — Decatur, AL
+- `arab-al` — Arab, AL
 
 ## Top 10 priority pages
 
@@ -67,11 +68,11 @@
 | `/services/decks-pergolas-fences/` | `service-landing` | 8.1 | decks, pergolas and fences madison |
 | `/services/new-construction/` | `service-landing` | 8.1 | new home construction madison |
 | `/services/siding-gutters/` | `service-landing` | 7.2 | siding and gutters madison |
+| `/service-areas/arab-al/home-remodeling/` | `service-area-service` | 7.0 | home remodeling arab |
+| `/service-areas/arab-al/roofing/` | `service-area-service` | 7.0 | roofing installation and replacement arab |
 | `/service-areas/ardmore-al/home-remodeling/` | `service-area-service` | 7.0 | home remodeling ardmore |
 | `/service-areas/ardmore-al/roofing/` | `service-area-service` | 7.0 | roofing installation and replacement ardmore |
 | `/service-areas/athens-al/home-remodeling/` | `service-area-service` | 7.0 | home remodeling athens |
-| `/service-areas/athens-al/roofing/` | `service-area-service` | 7.0 | roofing installation and replacement athens |
-| `/service-areas/decatur-al/home-remodeling/` | `service-area-service` | 7.0 | home remodeling decatur |
 
 ## Validation
 

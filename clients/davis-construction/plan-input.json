@@ -164,6 +164,11 @@
       "city": "Decatur",
       "state": "AL",
       "slug": "decatur-al"
+    },
+    {
+      "city": "Arab",
+      "state": "AL",
+      "slug": "arab-al"
     }
   ],
   "brand": {

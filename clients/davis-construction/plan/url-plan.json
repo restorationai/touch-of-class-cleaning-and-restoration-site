@@ -1,10 +1,10 @@
 {
   "template": "construction",
   "template_version": "0.1.0",
-  "generated_at": "2026-09-22T18:09:59.621982+00:00",
+  "generated_at": "2026-09-22T19:45:20.937704+00:00",
   "input_summary": {
     "service_count": 9,
-    "service_area_count": 18,
+    "service_area_count": 19,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -53,6 +53,7 @@
         "/services/painting-trim/",
         "/services/storm-damage-restoration/",
         "/services/water-damage-restoration/",
+        "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/",
         "/service-areas/decatur-al/",
@@ -142,6 +143,7 @@
       "status": "planned",
       "internal_links_out": [
         "/",
+        "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/",
         "/service-areas/decatur-al/",
@@ -306,6 +308,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/arab-al/home-remodeling/",
         "/service-areas/ardmore-al/home-remodeling/",
         "/service-areas/athens-al/home-remodeling/",
         "/service-areas/decatur-al/home-remodeling/",
@@ -317,7 +320,6 @@
         "/service-areas/meridianville-al/home-remodeling/",
         "/service-areas/moores-mill-al/home-remodeling/",
         "/service-areas/new-hope-al/home-remodeling/",
-        "/service-areas/new-market-al/home-remodeling/",
         "/blog/choosing-a-general-contractor/",
         "/blog/how-to-plan-a-home-remodel/",
         "/blog/do-you-need-a-permit/"
@@ -359,6 +361,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/arab-al/new-construction/",
         "/service-areas/ardmore-al/new-construction/",
         "/service-areas/athens-al/new-construction/",
         "/service-areas/decatur-al/new-construction/",
@@ -370,7 +373,6 @@
         "/service-areas/meridianville-al/new-construction/",
         "/service-areas/moores-mill-al/new-construction/",
         "/service-areas/new-hope-al/new-construction/",
-        "/service-areas/new-market-al/new-construction/",
         "/blog/choosing-a-general-contractor/",
         "/blog/how-long-to-build-a-house/"
       ]
@@ -411,6 +413,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/arab-al/decks-pergolas-fences/",
         "/service-areas/ardmore-al/decks-pergolas-fences/",
         "/service-areas/athens-al/decks-pergolas-fences/",
         "/service-areas/decatur-al/decks-pergolas-fences/",
@@ -422,7 +425,6 @@
         "/service-areas/meridianville-al/decks-pergolas-fences/",
         "/service-areas/moores-mill-al/decks-pergolas-fences/",
         "/service-areas/new-hope-al/decks-pergolas-fences/",
-        "/service-areas/new-market-al/decks-pergolas-fences/",
         "/blog/wood-vs-composite-decking/"
       ]
     },
@@ -462,6 +464,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/arab-al/roofing/",
         "/service-areas/ardmore-al/roofing/",
         "/service-areas/athens-al/roofing/",
         "/service-areas/decatur-al/roofing/",
@@ -473,7 +476,6 @@
         "/service-areas/meridianville-al/roofing/",
         "/service-areas/moores-mill-al/roofing/",
         "/service-areas/new-hope-al/roofing/",
-        "/service-areas/new-market-al/roofing/",
         "/blog/roofing-material-comparison/",
         "/blog/how-long-does-roof-replacement-take/",
         "/blog/storm-damage-repair-process/"
@@ -515,6 +517,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/arab-al/siding-gutters/",
         "/service-areas/ardmore-al/siding-gutters/",
         "/service-areas/athens-al/siding-gutters/",
         "/service-areas/decatur-al/siding-gutters/",
@@ -526,7 +529,6 @@
         "/service-areas/meridianville-al/siding-gutters/",
         "/service-areas/moores-mill-al/siding-gutters/",
         "/service-areas/new-hope-al/siding-gutters/",
-        "/service-areas/new-market-al/siding-gutters/",
         "/blog/siding-options-compared/"
       ]
     },
@@ -566,6 +568,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/arab-al/painting-trim/",
         "/service-areas/ardmore-al/painting-trim/",
         "/service-areas/athens-al/painting-trim/",
         "/service-areas/decatur-al/painting-trim/",
@@ -576,8 +579,7 @@
         "/service-areas/huntsville-al/painting-trim/",
         "/service-areas/meridianville-al/painting-trim/",
         "/service-areas/moores-mill-al/painting-trim/",
-        "/service-areas/new-hope-al/painting-trim/",
-        "/service-areas/new-market-al/painting-trim/"
+        "/service-areas/new-hope-al/painting-trim/"
       ]
     },
     {
@@ -616,6 +618,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/arab-al/water-damage-restoration/",
         "/service-areas/ardmore-al/water-damage-restoration/",
         "/service-areas/athens-al/water-damage-restoration/",
         "/service-areas/decatur-al/water-damage-restoration/",
@@ -626,8 +629,7 @@
         "/service-areas/huntsville-al/water-damage-restoration/",
         "/service-areas/meridianville-al/water-damage-restoration/",
         "/service-areas/moores-mill-al/water-damage-restoration/",
-        "/service-areas/new-hope-al/water-damage-restoration/",
-        "/service-areas/new-market-al/water-damage-restoration/"
+        "/service-areas/new-hope-al/water-damage-restoration/"
       ]
     },
     {
@@ -666,6 +668,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/arab-al/storm-damage-restoration/",
         "/service-areas/ardmore-al/storm-damage-restoration/",
         "/service-areas/athens-al/storm-damage-restoration/",
         "/service-areas/decatur-al/storm-damage-restoration/",
@@ -677,7 +680,6 @@
         "/service-areas/meridianville-al/storm-damage-restoration/",
         "/service-areas/moores-mill-al/storm-damage-restoration/",
         "/service-areas/new-hope-al/storm-damage-restoration/",
-        "/service-areas/new-market-al/storm-damage-restoration/",
         "/blog/storm-damage-insurance-claim-checklist/",
         "/blog/storm-damage-repair-process/"
       ]
@@ -718,6 +720,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/arab-al/mold-remediation/",
         "/service-areas/ardmore-al/mold-remediation/",
         "/service-areas/athens-al/mold-remediation/",
         "/service-areas/decatur-al/mold-remediation/",
@@ -729,7 +732,6 @@
         "/service-areas/meridianville-al/mold-remediation/",
         "/service-areas/moores-mill-al/mold-remediation/",
         "/service-areas/new-hope-al/mold-remediation/",
-        "/service-areas/new-market-al/mold-remediation/",
         "/blog/mold-found-during-renovation/"
       ]
     },
@@ -774,9 +776,9 @@
         "/service-areas/huntsville-al/painting-trim/",
         "/service-areas/huntsville-al/storm-damage-restoration/",
         "/service-areas/huntsville-al/water-damage-restoration/",
+        "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
-        "/service-areas/athens-al/",
-        "/service-areas/decatur-al/"
+        "/service-areas/athens-al/"
       ]
     },
     {
@@ -820,9 +822,9 @@
         "/service-areas/athens-al/painting-trim/",
         "/service-areas/athens-al/storm-damage-restoration/",
         "/service-areas/athens-al/water-damage-restoration/",
+        "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
-        "/service-areas/decatur-al/",
-        "/service-areas/elkmont-al/"
+        "/service-areas/decatur-al/"
       ]
     },
     {
@@ -866,9 +868,9 @@
         "/service-areas/moores-mill-al/painting-trim/",
         "/service-areas/moores-mill-al/storm-damage-restoration/",
         "/service-areas/moores-mill-al/water-damage-restoration/",
+        "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
-        "/service-areas/athens-al/",
-        "/service-areas/decatur-al/"
+        "/service-areas/athens-al/"
       ]
     },
     {
@@ -912,9 +914,9 @@
         "/service-areas/redstone-arsenal-al/painting-trim/",
         "/service-areas/redstone-arsenal-al/storm-damage-restoration/",
         "/service-areas/redstone-arsenal-al/water-damage-restoration/",
+        "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
-        "/service-areas/athens-al/",
-        "/service-areas/decatur-al/"
+        "/service-areas/athens-al/"
       ]
     },
     {
@@ -958,9 +960,9 @@
         "/service-areas/meridianville-al/painting-trim/",
         "/service-areas/meridianville-al/storm-damage-restoration/",
         "/service-areas/meridianville-al/water-damage-restoration/",
+        "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
-        "/service-areas/athens-al/",
-        "/service-areas/decatur-al/"
+        "/service-areas/athens-al/"
       ]
     },
     {
@@ -1004,9 +1006,9 @@
         "/service-areas/hazel-green-al/painting-trim/",
         "/service-areas/hazel-green-al/storm-damage-restoration/",
         "/service-areas/hazel-green-al/water-damage-restoration/",
+        "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
-        "/service-areas/athens-al/",
-        "/service-areas/decatur-al/"
+        "/service-areas/athens-al/"
       ]
     },
     {
@@ -1050,9 +1052,9 @@
         "/service-areas/new-market-al/painting-trim/",
         "/service-areas/new-market-al/storm-damage-restoration/",
         "/service-areas/new-market-al/water-damage-restoration/",
+        "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
-        "/service-areas/athens-al/",
-        "/service-areas/decatur-al/"
+        "/service-areas/athens-al/"
       ]
     },
     {
@@ -1096,9 +1098,9 @@
         "/service-areas/harvest-al/painting-trim/",
         "/service-areas/harvest-al/storm-damage-restoration/",
         "/service-areas/harvest-al/water-damage-restoration/",
+        "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
-        "/service-areas/athens-al/",
-        "/service-areas/decatur-al/"
+        "/service-areas/athens-al/"
       ]
     },
     {
@@ -1142,9 +1144,9 @@
         "/service-areas/gurley-al/painting-trim/",
         "/service-areas/gurley-al/storm-damage-restoration/",
         "/service-areas/gurley-al/water-damage-restoration/",
+        "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
-        "/service-areas/athens-al/",
-        "/service-areas/decatur-al/"
+        "/service-areas/athens-al/"
       ]
     },
     {
@@ -1188,9 +1190,9 @@
         "/service-areas/owens-cross-roads-al/painting-trim/",
         "/service-areas/owens-cross-roads-al/storm-damage-restoration/",
         "/service-areas/owens-cross-roads-al/water-damage-restoration/",
+        "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
-        "/service-areas/athens-al/",
-        "/service-areas/decatur-al/"
+        "/service-areas/athens-al/"
       ]
     },
     {
@@ -1234,9 +1236,9 @@
         "/service-areas/triana-al/painting-trim/",
         "/service-areas/triana-al/storm-damage-restoration/",
         "/service-areas/triana-al/water-damage-restoration/",
+        "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
-        "/service-areas/athens-al/",
-        "/service-areas/decatur-al/"
+        "/service-areas/athens-al/"
       ]
     },
     {
@@ -1280,9 +1282,9 @@
         "/service-areas/new-hope-al/painting-trim/",
         "/service-areas/new-hope-al/storm-damage-restoration/",
         "/service-areas/new-hope-al/water-damage-restoration/",
+        "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
-        "/service-areas/athens-al/",
-        "/service-areas/decatur-al/"
+        "/service-areas/athens-al/"
       ]
     },
     {
@@ -1326,9 +1328,9 @@
         "/service-areas/ardmore-al/painting-trim/",
         "/service-areas/ardmore-al/storm-damage-restoration/",
         "/service-areas/ardmore-al/water-damage-restoration/",
+        "/service-areas/arab-al/",
         "/service-areas/athens-al/",
-        "/service-areas/decatur-al/",
-        "/service-areas/elkmont-al/"
+        "/service-areas/decatur-al/"
       ]
     },
     {
@@ -1372,9 +1374,9 @@
         "/service-areas/priceville-al/painting-trim/",
         "/service-areas/priceville-al/storm-damage-restoration/",
         "/service-areas/priceville-al/water-damage-restoration/",
+        "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
-        "/service-areas/athens-al/",
-        "/service-areas/decatur-al/"
+        "/service-areas/athens-al/"
       ]
     },
     {
@@ -1418,9 +1420,9 @@
         "/service-areas/somerville-al/painting-trim/",
         "/service-areas/somerville-al/storm-damage-restoration/",
         "/service-areas/somerville-al/water-damage-restoration/",
+        "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
-        "/service-areas/athens-al/",
-        "/service-areas/decatur-al/"
+        "/service-areas/athens-al/"
       ]
     },
     {
@@ -1464,9 +1466,9 @@
         "/service-areas/elkmont-al/painting-trim/",
         "/service-areas/elkmont-al/storm-damage-restoration/",
         "/service-areas/elkmont-al/water-damage-restoration/",
+        "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
-        "/service-areas/athens-al/",
-        "/service-areas/decatur-al/"
+        "/service-areas/athens-al/"
       ]
     },
     {
@@ -1510,9 +1512,55 @@
         "/service-areas/decatur-al/painting-trim/",
         "/service-areas/decatur-al/storm-damage-restoration/",
         "/service-areas/decatur-al/water-damage-restoration/",
+        "/service-areas/arab-al/",
+        "/service-areas/ardmore-al/",
+        "/service-areas/athens-al/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/arab-al/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Construction Services in Arab, AL | Davis Construction Contractors",
+      "h1": "Construction Services in Arab",
+      "meta_description": "Serving Arab, AL with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (256) 771-0326 for a free estimate.",
+      "primary_keyword": "construction services arab",
+      "secondary_keywords": [
+        "arab construction company",
+        "general contractor arab",
+        "arab remodeling contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/arab-al/home-remodeling/",
+        "/service-areas/arab-al/roofing/",
+        "/service-areas/arab-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/new-construction/",
+        "/service-areas/arab-al/siding-gutters/",
+        "/service-areas/arab-al/mold-remediation/",
+        "/service-areas/arab-al/painting-trim/",
+        "/service-areas/arab-al/storm-damage-restoration/",
+        "/service-areas/arab-al/water-damage-restoration/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/",
-        "/service-areas/elkmont-al/"
+        "/service-areas/decatur-al/"
       ]
     },
     {
@@ -1554,8 +1602,8 @@
         "/service-areas/huntsville-al/",
         "/service-areas/huntsville-al/roofing/",
         "/service-areas/huntsville-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/home-remodeling/",
         "/service-areas/ardmore-al/home-remodeling/",
-        "/service-areas/athens-al/home-remodeling/",
         "/contact/"
       ]
     },
@@ -1598,8 +1646,8 @@
         "/service-areas/huntsville-al/",
         "/service-areas/huntsville-al/home-remodeling/",
         "/service-areas/huntsville-al/roofing/",
+        "/service-areas/arab-al/new-construction/",
         "/service-areas/ardmore-al/new-construction/",
-        "/service-areas/athens-al/new-construction/",
         "/contact/"
       ]
     },
@@ -1642,8 +1690,8 @@
         "/service-areas/huntsville-al/",
         "/service-areas/huntsville-al/home-remodeling/",
         "/service-areas/huntsville-al/roofing/",
+        "/service-areas/arab-al/decks-pergolas-fences/",
         "/service-areas/ardmore-al/decks-pergolas-fences/",
-        "/service-areas/athens-al/decks-pergolas-fences/",
         "/contact/"
       ]
     },
@@ -1686,8 +1734,8 @@
         "/service-areas/huntsville-al/",
         "/service-areas/huntsville-al/home-remodeling/",
         "/service-areas/huntsville-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/roofing/",
         "/service-areas/ardmore-al/roofing/",
-        "/service-areas/athens-al/roofing/",
         "/contact/"
       ]
     },
@@ -1730,8 +1778,8 @@
         "/service-areas/huntsville-al/",
         "/service-areas/huntsville-al/home-remodeling/",
         "/service-areas/huntsville-al/roofing/",
+        "/service-areas/arab-al/siding-gutters/",
         "/service-areas/ardmore-al/siding-gutters/",
-        "/service-areas/athens-al/siding-gutters/",
         "/contact/"
       ]
     },
@@ -1774,8 +1822,8 @@
         "/service-areas/huntsville-al/",
         "/service-areas/huntsville-al/home-remodeling/",
         "/service-areas/huntsville-al/roofing/",
+        "/service-areas/arab-al/painting-trim/",
         "/service-areas/ardmore-al/painting-trim/",
-        "/service-areas/athens-al/painting-trim/",
         "/contact/"
       ]
     },
@@ -1818,8 +1866,8 @@
         "/service-areas/huntsville-al/",
         "/service-areas/huntsville-al/home-remodeling/",
         "/service-areas/huntsville-al/roofing/",
+        "/service-areas/arab-al/water-damage-restoration/",
         "/service-areas/ardmore-al/water-damage-restoration/",
-        "/service-areas/athens-al/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1862,8 +1910,8 @@
         "/service-areas/huntsville-al/",
         "/service-areas/huntsville-al/home-remodeling/",
         "/service-areas/huntsville-al/roofing/",
+        "/service-areas/arab-al/storm-damage-restoration/",
         "/service-areas/ardmore-al/storm-damage-restoration/",
-        "/service-areas/athens-al/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1906,8 +1954,8 @@
         "/service-areas/huntsville-al/",
         "/service-areas/huntsville-al/home-remodeling/",
         "/service-areas/huntsville-al/roofing/",
+        "/service-areas/arab-al/mold-remediation/",
         "/service-areas/ardmore-al/mold-remediation/",
-        "/service-areas/athens-al/mold-remediation/",
         "/contact/"
       ]
     },
@@ -1950,8 +1998,8 @@
         "/service-areas/athens-al/",
         "/service-areas/athens-al/roofing/",
         "/service-areas/athens-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/home-remodeling/",
         "/service-areas/ardmore-al/home-remodeling/",
-        "/service-areas/decatur-al/home-remodeling/",
         "/contact/"
       ]
     },
@@ -1994,8 +2042,8 @@
         "/service-areas/athens-al/",
         "/service-areas/athens-al/home-remodeling/",
         "/service-areas/athens-al/roofing/",
+        "/service-areas/arab-al/new-construction/",
         "/service-areas/ardmore-al/new-construction/",
-        "/service-areas/decatur-al/new-construction/",
         "/contact/"
       ]
     },
@@ -2038,8 +2086,8 @@
         "/service-areas/athens-al/",
         "/service-areas/athens-al/home-remodeling/",
         "/service-areas/athens-al/roofing/",
+        "/service-areas/arab-al/decks-pergolas-fences/",
         "/service-areas/ardmore-al/decks-pergolas-fences/",
-        "/service-areas/decatur-al/decks-pergolas-fences/",
         "/contact/"
       ]
     },
@@ -2082,8 +2130,8 @@
         "/service-areas/athens-al/",
         "/service-areas/athens-al/home-remodeling/",
         "/service-areas/athens-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/roofing/",
         "/service-areas/ardmore-al/roofing/",
-        "/service-areas/decatur-al/roofing/",
         "/contact/"
       ]
     },
@@ -2126,8 +2174,8 @@
         "/service-areas/athens-al/",
         "/service-areas/athens-al/home-remodeling/",
         "/service-areas/athens-al/roofing/",
+        "/service-areas/arab-al/siding-gutters/",
         "/service-areas/ardmore-al/siding-gutters/",
-        "/service-areas/decatur-al/siding-gutters/",
         "/contact/"
       ]
     },
@@ -2170,8 +2218,8 @@
         "/service-areas/athens-al/",
         "/service-areas/athens-al/home-remodeling/",
         "/service-areas/athens-al/roofing/",
+        "/service-areas/arab-al/painting-trim/",
         "/service-areas/ardmore-al/painting-trim/",
-        "/service-areas/decatur-al/painting-trim/",
         "/contact/"
       ]
     },
@@ -2214,8 +2262,8 @@
         "/service-areas/athens-al/",
         "/service-areas/athens-al/home-remodeling/",
         "/service-areas/athens-al/roofing/",
+        "/service-areas/arab-al/water-damage-restoration/",
         "/service-areas/ardmore-al/water-damage-restoration/",
-        "/service-areas/decatur-al/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2258,8 +2306,8 @@
         "/service-areas/athens-al/",
         "/service-areas/athens-al/home-remodeling/",
         "/service-areas/athens-al/roofing/",
+        "/service-areas/arab-al/storm-damage-restoration/",
         "/service-areas/ardmore-al/storm-damage-restoration/",
-        "/service-areas/decatur-al/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2302,8 +2350,8 @@
         "/service-areas/athens-al/",
         "/service-areas/athens-al/home-remodeling/",
         "/service-areas/athens-al/roofing/",
+        "/service-areas/arab-al/mold-remediation/",
         "/service-areas/ardmore-al/mold-remediation/",
-        "/service-areas/decatur-al/mold-remediation/",
         "/contact/"
       ]
     },
@@ -2346,8 +2394,8 @@
         "/service-areas/moores-mill-al/",
         "/service-areas/moores-mill-al/roofing/",
         "/service-areas/moores-mill-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/home-remodeling/",
         "/service-areas/ardmore-al/home-remodeling/",
-        "/service-areas/athens-al/home-remodeling/",
         "/contact/"
       ]
     },
@@ -2390,8 +2438,8 @@
         "/service-areas/moores-mill-al/",
         "/service-areas/moores-mill-al/home-remodeling/",
         "/service-areas/moores-mill-al/roofing/",
+        "/service-areas/arab-al/new-construction/",
         "/service-areas/ardmore-al/new-construction/",
-        "/service-areas/athens-al/new-construction/",
         "/contact/"
       ]
     },
@@ -2434,8 +2482,8 @@
         "/service-areas/moores-mill-al/",
         "/service-areas/moores-mill-al/home-remodeling/",
         "/service-areas/moores-mill-al/roofing/",
+        "/service-areas/arab-al/decks-pergolas-fences/",
         "/service-areas/ardmore-al/decks-pergolas-fences/",
-        "/service-areas/athens-al/decks-pergolas-fences/",
         "/contact/"
       ]
     },
@@ -2478,8 +2526,8 @@
         "/service-areas/moores-mill-al/",
         "/service-areas/moores-mill-al/home-remodeling/",
         "/service-areas/moores-mill-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/roofing/",
         "/service-areas/ardmore-al/roofing/",
-        "/service-areas/athens-al/roofing/",
         "/contact/"
       ]
     },
@@ -2522,8 +2570,8 @@
         "/service-areas/moores-mill-al/",
         "/service-areas/moores-mill-al/home-remodeling/",
         "/service-areas/moores-mill-al/roofing/",
+        "/service-areas/arab-al/siding-gutters/",
         "/service-areas/ardmore-al/siding-gutters/",
-        "/service-areas/athens-al/siding-gutters/",
         "/contact/"
       ]
     },
@@ -2566,8 +2614,8 @@
         "/service-areas/moores-mill-al/",
         "/service-areas/moores-mill-al/home-remodeling/",
         "/service-areas/moores-mill-al/roofing/",
+        "/service-areas/arab-al/painting-trim/",
         "/service-areas/ardmore-al/painting-trim/",
-        "/service-areas/athens-al/painting-trim/",
         "/contact/"
       ]
     },
@@ -2610,8 +2658,8 @@
         "/service-areas/moores-mill-al/",
         "/service-areas/moores-mill-al/home-remodeling/",
         "/service-areas/moores-mill-al/roofing/",
+        "/service-areas/arab-al/water-damage-restoration/",
         "/service-areas/ardmore-al/water-damage-restoration/",
-        "/service-areas/athens-al/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2654,8 +2702,8 @@
         "/service-areas/moores-mill-al/",
         "/service-areas/moores-mill-al/home-remodeling/",
         "/service-areas/moores-mill-al/roofing/",
+        "/service-areas/arab-al/storm-damage-restoration/",
         "/service-areas/ardmore-al/storm-damage-restoration/",
-        "/service-areas/athens-al/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2698,8 +2746,8 @@
         "/service-areas/moores-mill-al/",
         "/service-areas/moores-mill-al/home-remodeling/",
         "/service-areas/moores-mill-al/roofing/",
+        "/service-areas/arab-al/mold-remediation/",
         "/service-areas/ardmore-al/mold-remediation/",
-        "/service-areas/athens-al/mold-remediation/",
         "/contact/"
       ]
     },
@@ -2742,8 +2790,8 @@
         "/service-areas/redstone-arsenal-al/",
         "/service-areas/redstone-arsenal-al/roofing/",
         "/service-areas/redstone-arsenal-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/home-remodeling/",
         "/service-areas/ardmore-al/home-remodeling/",
-        "/service-areas/athens-al/home-remodeling/",
         "/contact/"
       ]
     },
@@ -2786,8 +2834,8 @@
         "/service-areas/redstone-arsenal-al/",
         "/service-areas/redstone-arsenal-al/home-remodeling/",
         "/service-areas/redstone-arsenal-al/roofing/",
+        "/service-areas/arab-al/new-construction/",
         "/service-areas/ardmore-al/new-construction/",
-        "/service-areas/athens-al/new-construction/",
         "/contact/"
       ]
     },
@@ -2830,8 +2878,8 @@
         "/service-areas/redstone-arsenal-al/",
         "/service-areas/redstone-arsenal-al/home-remodeling/",
         "/service-areas/redstone-arsenal-al/roofing/",
+        "/service-areas/arab-al/decks-pergolas-fences/",
         "/service-areas/ardmore-al/decks-pergolas-fences/",
-        "/service-areas/athens-al/decks-pergolas-fences/",
         "/contact/"
       ]
     },
@@ -2874,8 +2922,8 @@
         "/service-areas/redstone-arsenal-al/",
         "/service-areas/redstone-arsenal-al/home-remodeling/",
         "/service-areas/redstone-arsenal-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/roofing/",
         "/service-areas/ardmore-al/roofing/",
-        "/service-areas/athens-al/roofing/",
         "/contact/"
       ]
     },
@@ -2918,8 +2966,8 @@
         "/service-areas/redstone-arsenal-al/",
         "/service-areas/redstone-arsenal-al/home-remodeling/",
         "/service-areas/redstone-arsenal-al/roofing/",
+        "/service-areas/arab-al/siding-gutters/",
         "/service-areas/ardmore-al/siding-gutters/",
-        "/service-areas/athens-al/siding-gutters/",
         "/contact/"
       ]
     },
@@ -2962,8 +3010,8 @@
         "/service-areas/redstone-arsenal-al/",
         "/service-areas/redstone-arsenal-al/home-remodeling/",
         "/service-areas/redstone-arsenal-al/roofing/",
+        "/service-areas/arab-al/painting-trim/",
         "/service-areas/ardmore-al/painting-trim/",
-        "/service-areas/athens-al/painting-trim/",
         "/contact/"
       ]
     },
@@ -3006,8 +3054,8 @@
         "/service-areas/redstone-arsenal-al/",
         "/service-areas/redstone-arsenal-al/home-remodeling/",
         "/service-areas/redstone-arsenal-al/roofing/",
+        "/service-areas/arab-al/water-damage-restoration/",
         "/service-areas/ardmore-al/water-damage-restoration/",
-        "/service-areas/athens-al/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3050,8 +3098,8 @@
         "/service-areas/redstone-arsenal-al/",
         "/service-areas/redstone-arsenal-al/home-remodeling/",
         "/service-areas/redstone-arsenal-al/roofing/",
+        "/service-areas/arab-al/storm-damage-restoration/",
         "/service-areas/ardmore-al/storm-damage-restoration/",
-        "/service-areas/athens-al/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3094,8 +3142,8 @@
         "/service-areas/redstone-arsenal-al/",
         "/service-areas/redstone-arsenal-al/home-remodeling/",
         "/service-areas/redstone-arsenal-al/roofing/",
+        "/service-areas/arab-al/mold-remediation/",
         "/service-areas/ardmore-al/mold-remediation/",
-        "/service-areas/athens-al/mold-remediation/",
         "/contact/"
       ]
     },
@@ -3138,8 +3186,8 @@
         "/service-areas/meridianville-al/",
         "/service-areas/meridianville-al/roofing/",
         "/service-areas/meridianville-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/home-remodeling/",
         "/service-areas/ardmore-al/home-remodeling/",
-        "/service-areas/athens-al/home-remodeling/",
         "/contact/"
       ]
     },
@@ -3182,8 +3230,8 @@
         "/service-areas/meridianville-al/",
         "/service-areas/meridianville-al/home-remodeling/",
         "/service-areas/meridianville-al/roofing/",
+        "/service-areas/arab-al/new-construction/",
         "/service-areas/ardmore-al/new-construction/",
-        "/service-areas/athens-al/new-construction/",
         "/contact/"
       ]
     },
@@ -3226,8 +3274,8 @@
         "/service-areas/meridianville-al/",
         "/service-areas/meridianville-al/home-remodeling/",
         "/service-areas/meridianville-al/roofing/",
+        "/service-areas/arab-al/decks-pergolas-fences/",
         "/service-areas/ardmore-al/decks-pergolas-fences/",
-        "/service-areas/athens-al/decks-pergolas-fences/",
         "/contact/"
       ]
     },
@@ -3270,8 +3318,8 @@
         "/service-areas/meridianville-al/",
         "/service-areas/meridianville-al/home-remodeling/",
         "/service-areas/meridianville-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/roofing/",
         "/service-areas/ardmore-al/roofing/",
-        "/service-areas/athens-al/roofing/",
         "/contact/"
       ]
     },
@@ -3314,8 +3362,8 @@
         "/service-areas/meridianville-al/",
         "/service-areas/meridianville-al/home-remodeling/",
         "/service-areas/meridianville-al/roofing/",
+        "/service-areas/arab-al/siding-gutters/",
         "/service-areas/ardmore-al/siding-gutters/",
-        "/service-areas/athens-al/siding-gutters/",
         "/contact/"
       ]
     },
@@ -3358,8 +3406,8 @@
         "/service-areas/meridianville-al/",
         "/service-areas/meridianville-al/home-remodeling/",
         "/service-areas/meridianville-al/roofing/",
+        "/service-areas/arab-al/painting-trim/",
         "/service-areas/ardmore-al/painting-trim/",
-        "/service-areas/athens-al/painting-trim/",
         "/contact/"
       ]
     },
@@ -3402,8 +3450,8 @@
         "/service-areas/meridianville-al/",
         "/service-areas/meridianville-al/home-remodeling/",
         "/service-areas/meridianville-al/roofing/",
+        "/service-areas/arab-al/water-damage-restoration/",
         "/service-areas/ardmore-al/water-damage-restoration/",
-        "/service-areas/athens-al/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3446,8 +3494,8 @@
         "/service-areas/meridianville-al/",
         "/service-areas/meridianville-al/home-remodeling/",
         "/service-areas/meridianville-al/roofing/",
+        "/service-areas/arab-al/storm-damage-restoration/",
         "/service-areas/ardmore-al/storm-damage-restoration/",
-        "/service-areas/athens-al/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3490,8 +3538,8 @@
         "/service-areas/meridianville-al/",
         "/service-areas/meridianville-al/home-remodeling/",
         "/service-areas/meridianville-al/roofing/",
+        "/service-areas/arab-al/mold-remediation/",
         "/service-areas/ardmore-al/mold-remediation/",
-        "/service-areas/athens-al/mold-remediation/",
         "/contact/"
       ]
     },
@@ -3534,8 +3582,8 @@
         "/service-areas/hazel-green-al/",
         "/service-areas/hazel-green-al/roofing/",
         "/service-areas/hazel-green-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/home-remodeling/",
         "/service-areas/ardmore-al/home-remodeling/",
-        "/service-areas/athens-al/home-remodeling/",
         "/contact/"
       ]
     },
@@ -3578,8 +3626,8 @@
         "/service-areas/hazel-green-al/",
         "/service-areas/hazel-green-al/home-remodeling/",
         "/service-areas/hazel-green-al/roofing/",
+        "/service-areas/arab-al/new-construction/",
         "/service-areas/ardmore-al/new-construction/",
-        "/service-areas/athens-al/new-construction/",
         "/contact/"
       ]
     },
@@ -3622,8 +3670,8 @@
         "/service-areas/hazel-green-al/",
         "/service-areas/hazel-green-al/home-remodeling/",
         "/service-areas/hazel-green-al/roofing/",
+        "/service-areas/arab-al/decks-pergolas-fences/",
         "/service-areas/ardmore-al/decks-pergolas-fences/",
-        "/service-areas/athens-al/decks-pergolas-fences/",
         "/contact/"
       ]
     },
@@ -3666,8 +3714,8 @@
         "/service-areas/hazel-green-al/",
         "/service-areas/hazel-green-al/home-remodeling/",
         "/service-areas/hazel-green-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/roofing/",
         "/service-areas/ardmore-al/roofing/",
-        "/service-areas/athens-al/roofing/",
         "/contact/"
       ]
     },
@@ -3710,8 +3758,8 @@
         "/service-areas/hazel-green-al/",
         "/service-areas/hazel-green-al/home-remodeling/",
         "/service-areas/hazel-green-al/roofing/",
+        "/service-areas/arab-al/siding-gutters/",
         "/service-areas/ardmore-al/siding-gutters/",
-        "/service-areas/athens-al/siding-gutters/",
         "/contact/"
       ]
     },
@@ -3754,8 +3802,8 @@
         "/service-areas/hazel-green-al/",
         "/service-areas/hazel-green-al/home-remodeling/",
         "/service-areas/hazel-green-al/roofing/",
+        "/service-areas/arab-al/painting-trim/",
         "/service-areas/ardmore-al/painting-trim/",
-        "/service-areas/athens-al/painting-trim/",
         "/contact/"
       ]
     },
@@ -3798,8 +3846,8 @@
         "/service-areas/hazel-green-al/",
         "/service-areas/hazel-green-al/home-remodeling/",
         "/service-areas/hazel-green-al/roofing/",
+        "/service-areas/arab-al/water-damage-restoration/",
         "/service-areas/ardmore-al/water-damage-restoration/",
-        "/service-areas/athens-al/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3842,8 +3890,8 @@
         "/service-areas/hazel-green-al/",
         "/service-areas/hazel-green-al/home-remodeling/",
         "/service-areas/hazel-green-al/roofing/",
+        "/service-areas/arab-al/storm-damage-restoration/",
         "/service-areas/ardmore-al/storm-damage-restoration/",
-        "/service-areas/athens-al/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3886,8 +3934,8 @@
         "/service-areas/hazel-green-al/",
         "/service-areas/hazel-green-al/home-remodeling/",
         "/service-areas/hazel-green-al/roofing/",
+        "/service-areas/arab-al/mold-remediation/",
         "/service-areas/ardmore-al/mold-remediation/",
-        "/service-areas/athens-al/mold-remediation/",
         "/contact/"
       ]
     },
@@ -3930,8 +3978,8 @@
         "/service-areas/new-market-al/",
         "/service-areas/new-market-al/roofing/",
         "/service-areas/new-market-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/home-remodeling/",
         "/service-areas/ardmore-al/home-remodeling/",
-        "/service-areas/athens-al/home-remodeling/",
         "/contact/"
       ]
     },
@@ -3974,8 +4022,8 @@
         "/service-areas/new-market-al/",
         "/service-areas/new-market-al/home-remodeling/",
         "/service-areas/new-market-al/roofing/",
+        "/service-areas/arab-al/new-construction/",
         "/service-areas/ardmore-al/new-construction/",
-        "/service-areas/athens-al/new-construction/",
         "/contact/"
       ]
     },
@@ -4018,8 +4066,8 @@
         "/service-areas/new-market-al/",
         "/service-areas/new-market-al/home-remodeling/",
         "/service-areas/new-market-al/roofing/",
+        "/service-areas/arab-al/decks-pergolas-fences/",
         "/service-areas/ardmore-al/decks-pergolas-fences/",
-        "/service-areas/athens-al/decks-pergolas-fences/",
         "/contact/"
       ]
     },
@@ -4062,8 +4110,8 @@
         "/service-areas/new-market-al/",
         "/service-areas/new-market-al/home-remodeling/",
         "/service-areas/new-market-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/roofing/",
         "/service-areas/ardmore-al/roofing/",
-        "/service-areas/athens-al/roofing/",
         "/contact/"
       ]
     },
@@ -4106,8 +4154,8 @@
         "/service-areas/new-market-al/",
         "/service-areas/new-market-al/home-remodeling/",
         "/service-areas/new-market-al/roofing/",
+        "/service-areas/arab-al/siding-gutters/",
         "/service-areas/ardmore-al/siding-gutters/",
-        "/service-areas/athens-al/siding-gutters/",
         "/contact/"
       ]
     },
@@ -4150,8 +4198,8 @@
         "/service-areas/new-market-al/",
         "/service-areas/new-market-al/home-remodeling/",
         "/service-areas/new-market-al/roofing/",
+        "/service-areas/arab-al/painting-trim/",
         "/service-areas/ardmore-al/painting-trim/",
-        "/service-areas/athens-al/painting-trim/",
         "/contact/"
       ]
     },
@@ -4194,8 +4242,8 @@
         "/service-areas/new-market-al/",
         "/service-areas/new-market-al/home-remodeling/",
         "/service-areas/new-market-al/roofing/",
+        "/service-areas/arab-al/water-damage-restoration/",
         "/service-areas/ardmore-al/water-damage-restoration/",
-        "/service-areas/athens-al/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4238,8 +4286,8 @@
         "/service-areas/new-market-al/",
         "/service-areas/new-market-al/home-remodeling/",
         "/service-areas/new-market-al/roofing/",
+        "/service-areas/arab-al/storm-damage-restoration/",
         "/service-areas/ardmore-al/storm-damage-restoration/",
-        "/service-areas/athens-al/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4282,8 +4330,8 @@
         "/service-areas/new-market-al/",
         "/service-areas/new-market-al/home-remodeling/",
         "/service-areas/new-market-al/roofing/",
+        "/service-areas/arab-al/mold-remediation/",
         "/service-areas/ardmore-al/mold-remediation/",
-        "/service-areas/athens-al/mold-remediation/",
         "/contact/"
       ]
     },
@@ -4326,8 +4374,8 @@
         "/service-areas/harvest-al/",
         "/service-areas/harvest-al/roofing/",
         "/service-areas/harvest-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/home-remodeling/",
         "/service-areas/ardmore-al/home-remodeling/",
-        "/service-areas/athens-al/home-remodeling/",
         "/contact/"
       ]
     },
@@ -4370,8 +4418,8 @@
         "/service-areas/harvest-al/",
         "/service-areas/harvest-al/home-remodeling/",
         "/service-areas/harvest-al/roofing/",
+        "/service-areas/arab-al/new-construction/",
         "/service-areas/ardmore-al/new-construction/",
-        "/service-areas/athens-al/new-construction/",
         "/contact/"
       ]
     },
@@ -4414,8 +4462,8 @@
         "/service-areas/harvest-al/",
         "/service-areas/harvest-al/home-remodeling/",
         "/service-areas/harvest-al/roofing/",
+        "/service-areas/arab-al/decks-pergolas-fences/",
         "/service-areas/ardmore-al/decks-pergolas-fences/",
-        "/service-areas/athens-al/decks-pergolas-fences/",
         "/contact/"
       ]
     },
@@ -4458,8 +4506,8 @@
         "/service-areas/harvest-al/",
         "/service-areas/harvest-al/home-remodeling/",
         "/service-areas/harvest-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/roofing/",
         "/service-areas/ardmore-al/roofing/",
-        "/service-areas/athens-al/roofing/",
         "/contact/"
       ]
     },
@@ -4502,8 +4550,8 @@
         "/service-areas/harvest-al/",
         "/service-areas/harvest-al/home-remodeling/",
         "/service-areas/harvest-al/roofing/",
+        "/service-areas/arab-al/siding-gutters/",
         "/service-areas/ardmore-al/siding-gutters/",
-        "/service-areas/athens-al/siding-gutters/",
         "/contact/"
       ]
     },
@@ -4546,8 +4594,8 @@
         "/service-areas/harvest-al/",
         "/service-areas/harvest-al/home-remodeling/",
         "/service-areas/harvest-al/roofing/",
+        "/service-areas/arab-al/painting-trim/",
         "/service-areas/ardmore-al/painting-trim/",
-        "/service-areas/athens-al/painting-trim/",
         "/contact/"
       ]
     },
@@ -4590,8 +4638,8 @@
         "/service-areas/harvest-al/",
         "/service-areas/harvest-al/home-remodeling/",
         "/service-areas/harvest-al/roofing/",
+        "/service-areas/arab-al/water-damage-restoration/",
         "/service-areas/ardmore-al/water-damage-restoration/",
-        "/service-areas/athens-al/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4634,8 +4682,8 @@
         "/service-areas/harvest-al/",
         "/service-areas/harvest-al/home-remodeling/",
         "/service-areas/harvest-al/roofing/",
+        "/service-areas/arab-al/storm-damage-restoration/",
         "/service-areas/ardmore-al/storm-damage-restoration/",
-        "/service-areas/athens-al/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4678,8 +4726,8 @@
         "/service-areas/harvest-al/",
         "/service-areas/harvest-al/home-remodeling/",
         "/service-areas/harvest-al/roofing/",
+        "/service-areas/arab-al/mold-remediation/",
         "/service-areas/ardmore-al/mold-remediation/",
-        "/service-areas/athens-al/mold-remediation/",
         "/contact/"
       ]
     },
@@ -4722,8 +4770,8 @@
         "/service-areas/gurley-al/",
         "/service-areas/gurley-al/roofing/",
         "/service-areas/gurley-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/home-remodeling/",
         "/service-areas/ardmore-al/home-remodeling/",
-        "/service-areas/athens-al/home-remodeling/",
         "/contact/"
       ]
     },
@@ -4766,8 +4814,8 @@
         "/service-areas/gurley-al/",
         "/service-areas/gurley-al/home-remodeling/",
         "/service-areas/gurley-al/roofing/",
+        "/service-areas/arab-al/new-construction/",
         "/service-areas/ardmore-al/new-construction/",
-        "/service-areas/athens-al/new-construction/",
         "/contact/"
       ]
     },
@@ -4810,8 +4858,8 @@
         "/service-areas/gurley-al/",
         "/service-areas/gurley-al/home-remodeling/",
         "/service-areas/gurley-al/roofing/",
+        "/service-areas/arab-al/decks-pergolas-fences/",
         "/service-areas/ardmore-al/decks-pergolas-fences/",
-        "/service-areas/athens-al/decks-pergolas-fences/",
         "/contact/"
       ]
     },
@@ -4854,8 +4902,8 @@
         "/service-areas/gurley-al/",
         "/service-areas/gurley-al/home-remodeling/",
         "/service-areas/gurley-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/roofing/",
         "/service-areas/ardmore-al/roofing/",
-        "/service-areas/athens-al/roofing/",
         "/contact/"
       ]
     },
@@ -4898,8 +4946,8 @@
         "/service-areas/gurley-al/",
         "/service-areas/gurley-al/home-remodeling/",
         "/service-areas/gurley-al/roofing/",
+        "/service-areas/arab-al/siding-gutters/",
         "/service-areas/ardmore-al/siding-gutters/",
-        "/service-areas/athens-al/siding-gutters/",
         "/contact/"
       ]
     },
@@ -4942,8 +4990,8 @@
         "/service-areas/gurley-al/",
         "/service-areas/gurley-al/home-remodeling/",
         "/service-areas/gurley-al/roofing/",
+        "/service-areas/arab-al/painting-trim/",
         "/service-areas/ardmore-al/painting-trim/",
-        "/service-areas/athens-al/painting-trim/",
         "/contact/"
       ]
     },
@@ -4986,8 +5034,8 @@
         "/service-areas/gurley-al/",
         "/service-areas/gurley-al/home-remodeling/",
         "/service-areas/gurley-al/roofing/",
+        "/service-areas/arab-al/water-damage-restoration/",
         "/service-areas/ardmore-al/water-damage-restoration/",
-        "/service-areas/athens-al/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5030,8 +5078,8 @@
         "/service-areas/gurley-al/",
         "/service-areas/gurley-al/home-remodeling/",
         "/service-areas/gurley-al/roofing/",
+        "/service-areas/arab-al/storm-damage-restoration/",
         "/service-areas/ardmore-al/storm-damage-restoration/",
-        "/service-areas/athens-al/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5074,8 +5122,8 @@
         "/service-areas/gurley-al/",
         "/service-areas/gurley-al/home-remodeling/",
         "/service-areas/gurley-al/roofing/",
+        "/service-areas/arab-al/mold-remediation/",
         "/service-areas/ardmore-al/mold-remediation/",
-        "/service-areas/athens-al/mold-remediation/",
         "/contact/"
       ]
     },
@@ -5118,8 +5166,8 @@
         "/service-areas/owens-cross-roads-al/",
         "/service-areas/owens-cross-roads-al/roofing/",
         "/service-areas/owens-cross-roads-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/home-remodeling/",
         "/service-areas/ardmore-al/home-remodeling/",
-        "/service-areas/athens-al/home-remodeling/",
         "/contact/"
       ]
     },
@@ -5162,8 +5210,8 @@
         "/service-areas/owens-cross-roads-al/",
         "/service-areas/owens-cross-roads-al/home-remodeling/",
         "/service-areas/owens-cross-roads-al/roofing/",
+        "/service-areas/arab-al/new-construction/",
         "/service-areas/ardmore-al/new-construction/",
-        "/service-areas/athens-al/new-construction/",
         "/contact/"
       ]
     },
@@ -5206,8 +5254,8 @@
         "/service-areas/owens-cross-roads-al/",
         "/service-areas/owens-cross-roads-al/home-remodeling/",
         "/service-areas/owens-cross-roads-al/roofing/",
+        "/service-areas/arab-al/decks-pergolas-fences/",
         "/service-areas/ardmore-al/decks-pergolas-fences/",
-        "/service-areas/athens-al/decks-pergolas-fences/",
         "/contact/"
       ]
     },
@@ -5250,8 +5298,8 @@
         "/service-areas/owens-cross-roads-al/",
         "/service-areas/owens-cross-roads-al/home-remodeling/",
         "/service-areas/owens-cross-roads-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/roofing/",
         "/service-areas/ardmore-al/roofing/",
-        "/service-areas/athens-al/roofing/",
         "/contact/"
       ]
     },
@@ -5294,8 +5342,8 @@
         "/service-areas/owens-cross-roads-al/",
         "/service-areas/owens-cross-roads-al/home-remodeling/",
         "/service-areas/owens-cross-roads-al/roofing/",
+        "/service-areas/arab-al/siding-gutters/",
         "/service-areas/ardmore-al/siding-gutters/",
-        "/service-areas/athens-al/siding-gutters/",
         "/contact/"
       ]
     },
@@ -5338,8 +5386,8 @@
         "/service-areas/owens-cross-roads-al/",
         "/service-areas/owens-cross-roads-al/home-remodeling/",
         "/service-areas/owens-cross-roads-al/roofing/",
+        "/service-areas/arab-al/painting-trim/",
         "/service-areas/ardmore-al/painting-trim/",
-        "/service-areas/athens-al/painting-trim/",
         "/contact/"
       ]
     },
@@ -5382,8 +5430,8 @@
         "/service-areas/owens-cross-roads-al/",
         "/service-areas/owens-cross-roads-al/home-remodeling/",
         "/service-areas/owens-cross-roads-al/roofing/",
+        "/service-areas/arab-al/water-damage-restoration/",
         "/service-areas/ardmore-al/water-damage-restoration/",
-        "/service-areas/athens-al/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5426,8 +5474,8 @@
         "/service-areas/owens-cross-roads-al/",
         "/service-areas/owens-cross-roads-al/home-remodeling/",
         "/service-areas/owens-cross-roads-al/roofing/",
+        "/service-areas/arab-al/storm-damage-restoration/",
         "/service-areas/ardmore-al/storm-damage-restoration/",
-        "/service-areas/athens-al/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5470,8 +5518,8 @@
         "/service-areas/owens-cross-roads-al/",
         "/service-areas/owens-cross-roads-al/home-remodeling/",
         "/service-areas/owens-cross-roads-al/roofing/",
+        "/service-areas/arab-al/mold-remediation/",
         "/service-areas/ardmore-al/mold-remediation/",
-        "/service-areas/athens-al/mold-remediation/",
         "/contact/"
       ]
     },
@@ -5514,8 +5562,8 @@
         "/service-areas/triana-al/",
         "/service-areas/triana-al/roofing/",
         "/service-areas/triana-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/home-remodeling/",
         "/service-areas/ardmore-al/home-remodeling/",
-        "/service-areas/athens-al/home-remodeling/",
         "/contact/"
       ]
     },
@@ -5558,8 +5606,8 @@
         "/service-areas/triana-al/",
         "/service-areas/triana-al/home-remodeling/",
         "/service-areas/triana-al/roofing/",
+        "/service-areas/arab-al/new-construction/",
         "/service-areas/ardmore-al/new-construction/",
-        "/service-areas/athens-al/new-construction/",
         "/contact/"
       ]
     },
@@ -5602,8 +5650,8 @@
         "/service-areas/triana-al/",
         "/service-areas/triana-al/home-remodeling/",
         "/service-areas/triana-al/roofing/",
+        "/service-areas/arab-al/decks-pergolas-fences/",
         "/service-areas/ardmore-al/decks-pergolas-fences/",
-        "/service-areas/athens-al/decks-pergolas-fences/",
         "/contact/"
       ]
     },
@@ -5646,8 +5694,8 @@
         "/service-areas/triana-al/",
         "/service-areas/triana-al/home-remodeling/",
         "/service-areas/triana-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/roofing/",
         "/service-areas/ardmore-al/roofing/",
-        "/service-areas/athens-al/roofing/",
         "/contact/"
       ]
     },
@@ -5690,8 +5738,8 @@
         "/service-areas/triana-al/",
         "/service-areas/triana-al/home-remodeling/",
         "/service-areas/triana-al/roofing/",
+        "/service-areas/arab-al/siding-gutters/",
         "/service-areas/ardmore-al/siding-gutters/",
-        "/service-areas/athens-al/siding-gutters/",
         "/contact/"
       ]
     },
@@ -5734,8 +5782,8 @@
         "/service-areas/triana-al/",
         "/service-areas/triana-al/home-remodeling/",
         "/service-areas/triana-al/roofing/",
+        "/service-areas/arab-al/painting-trim/",
         "/service-areas/ardmore-al/painting-trim/",
-        "/service-areas/athens-al/painting-trim/",
         "/contact/"
       ]
     },
@@ -5778,8 +5826,8 @@
         "/service-areas/triana-al/",
         "/service-areas/triana-al/home-remodeling/",
         "/service-areas/triana-al/roofing/",
+        "/service-areas/arab-al/water-damage-restoration/",
         "/service-areas/ardmore-al/water-damage-restoration/",
-        "/service-areas/athens-al/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5822,8 +5870,8 @@
         "/service-areas/triana-al/",
         "/service-areas/triana-al/home-remodeling/",
         "/service-areas/triana-al/roofing/",
+        "/service-areas/arab-al/storm-damage-restoration/",
         "/service-areas/ardmore-al/storm-damage-restoration/",
-        "/service-areas/athens-al/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5866,8 +5914,8 @@
         "/service-areas/triana-al/",
         "/service-areas/triana-al/home-remodeling/",
         "/service-areas/triana-al/roofing/",
+        "/service-areas/arab-al/mold-remediation/",
         "/service-areas/ardmore-al/mold-remediation/",
-        "/service-areas/athens-al/mold-remediation/",
         "/contact/"
       ]
     },
@@ -5910,8 +5958,8 @@
         "/service-areas/new-hope-al/",
         "/service-areas/new-hope-al/roofing/",
         "/service-areas/new-hope-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/home-remodeling/",
         "/service-areas/ardmore-al/home-remodeling/",
-        "/service-areas/athens-al/home-remodeling/",
         "/contact/"
       ]
     },
@@ -5954,8 +6002,8 @@
         "/service-areas/new-hope-al/",
         "/service-areas/new-hope-al/home-remodeling/",
         "/service-areas/new-hope-al/roofing/",
+        "/service-areas/arab-al/new-construction/",
         "/service-areas/ardmore-al/new-construction/",
-        "/service-areas/athens-al/new-construction/",
         "/contact/"
       ]
     },
@@ -5998,8 +6046,8 @@
         "/service-areas/new-hope-al/",
         "/service-areas/new-hope-al/home-remodeling/",
         "/service-areas/new-hope-al/roofing/",
+        "/service-areas/arab-al/decks-pergolas-fences/",
         "/service-areas/ardmore-al/decks-pergolas-fences/",
-        "/service-areas/athens-al/decks-pergolas-fences/",
         "/contact/"
       ]
     },
@@ -6042,8 +6090,8 @@
         "/service-areas/new-hope-al/",
         "/service-areas/new-hope-al/home-remodeling/",
         "/service-areas/new-hope-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/roofing/",
         "/service-areas/ardmore-al/roofing/",
-        "/service-areas/athens-al/roofing/",
         "/contact/"
       ]
     },
@@ -6086,8 +6134,8 @@
         "/service-areas/new-hope-al/",
         "/service-areas/new-hope-al/home-remodeling/",
         "/service-areas/new-hope-al/roofing/",
+        "/service-areas/arab-al/siding-gutters/",
         "/service-areas/ardmore-al/siding-gutters/",
-        "/service-areas/athens-al/siding-gutters/",
         "/contact/"
       ]
     },
@@ -6130,8 +6178,8 @@
         "/service-areas/new-hope-al/",
         "/service-areas/new-hope-al/home-remodeling/",
         "/service-areas/new-hope-al/roofing/",
+        "/service-areas/arab-al/painting-trim/",
         "/service-areas/ardmore-al/painting-trim/",
-        "/service-areas/athens-al/painting-trim/",
         "/contact/"
       ]
     },
@@ -6174,8 +6222,8 @@
         "/service-areas/new-hope-al/",
         "/service-areas/new-hope-al/home-remodeling/",
         "/service-areas/new-hope-al/roofing/",
+        "/service-areas/arab-al/water-damage-restoration/",
         "/service-areas/ardmore-al/water-damage-restoration/",
-        "/service-areas/athens-al/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -6218,8 +6266,8 @@
         "/service-areas/new-hope-al/",
         "/service-areas/new-hope-al/home-remodeling/",
         "/service-areas/new-hope-al/roofing/",
+        "/service-areas/arab-al/storm-damage-restoration/",
         "/service-areas/ardmore-al/storm-damage-restoration/",
-        "/service-areas/athens-al/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -6262,8 +6310,8 @@
         "/service-areas/new-hope-al/",
         "/service-areas/new-hope-al/home-remodeling/",
         "/service-areas/new-hope-al/roofing/",
+        "/service-areas/arab-al/mold-remediation/",
         "/service-areas/ardmore-al/mold-remediation/",
-        "/service-areas/athens-al/mold-remediation/",
         "/contact/"
       ]
     },
@@ -6306,8 +6354,8 @@
         "/service-areas/ardmore-al/",
         "/service-areas/ardmore-al/roofing/",
         "/service-areas/ardmore-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/home-remodeling/",
         "/service-areas/athens-al/home-remodeling/",
-        "/service-areas/decatur-al/home-remodeling/",
         "/contact/"
       ]
     },
@@ -6350,8 +6398,8 @@
         "/service-areas/ardmore-al/",
         "/service-areas/ardmore-al/home-remodeling/",
         "/service-areas/ardmore-al/roofing/",
+        "/service-areas/arab-al/new-construction/",
         "/service-areas/athens-al/new-construction/",
-        "/service-areas/decatur-al/new-construction/",
         "/contact/"
       ]
     },
@@ -6394,8 +6442,8 @@
         "/service-areas/ardmore-al/",
         "/service-areas/ardmore-al/home-remodeling/",
         "/service-areas/ardmore-al/roofing/",
+        "/service-areas/arab-al/decks-pergolas-fences/",
         "/service-areas/athens-al/decks-pergolas-fences/",
-        "/service-areas/decatur-al/decks-pergolas-fences/",
         "/contact/"
       ]
     },
@@ -6438,8 +6486,8 @@
         "/service-areas/ardmore-al/",
         "/service-areas/ardmore-al/home-remodeling/",
         "/service-areas/ardmore-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/roofing/",
         "/service-areas/athens-al/roofing/",
-        "/service-areas/decatur-al/roofing/",
         "/contact/"
       ]
     },
@@ -6482,8 +6530,8 @@
         "/service-areas/ardmore-al/",
         "/service-areas/ardmore-al/home-remodeling/",
         "/service-areas/ardmore-al/roofing/",
+        "/service-areas/arab-al/siding-gutters/",
         "/service-areas/athens-al/siding-gutters/",
-        "/service-areas/decatur-al/siding-gutters/",
         "/contact/"
       ]
     },
@@ -6526,8 +6574,8 @@
         "/service-areas/ardmore-al/",
         "/service-areas/ardmore-al/home-remodeling/",
         "/service-areas/ardmore-al/roofing/",
+        "/service-areas/arab-al/painting-trim/",
         "/service-areas/athens-al/painting-trim/",
-        "/service-areas/decatur-al/painting-trim/",
         "/contact/"
       ]
     },
@@ -6570,8 +6618,8 @@
         "/service-areas/ardmore-al/",
         "/service-areas/ardmore-al/home-remodeling/",
         "/service-areas/ardmore-al/roofing/",
+        "/service-areas/arab-al/water-damage-restoration/",
         "/service-areas/athens-al/water-damage-restoration/",
-        "/service-areas/decatur-al/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -6614,8 +6662,8 @@
         "/service-areas/ardmore-al/",
         "/service-areas/ardmore-al/home-remodeling/",
         "/service-areas/ardmore-al/roofing/",
+        "/service-areas/arab-al/storm-damage-restoration/",
         "/service-areas/athens-al/storm-damage-restoration/",
-        "/service-areas/decatur-al/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -6658,8 +6706,8 @@
         "/service-areas/ardmore-al/",
         "/service-areas/ardmore-al/home-remodeling/",
         "/service-areas/ardmore-al/roofing/",
+        "/service-areas/arab-al/mold-remediation/",
         "/service-areas/athens-al/mold-remediation/",
-        "/service-areas/decatur-al/mold-remediation/",
         "/contact/"
       ]
     },
@@ -6702,8 +6750,8 @@
         "/service-areas/priceville-al/",
         "/service-areas/priceville-al/roofing/",
         "/service-areas/priceville-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/home-remodeling/",
         "/service-areas/ardmore-al/home-remodeling/",
-        "/service-areas/athens-al/home-remodeling/",
         "/contact/"
       ]
     },
@@ -6746,8 +6794,8 @@
         "/service-areas/priceville-al/",
         "/service-areas/priceville-al/home-remodeling/",
         "/service-areas/priceville-al/roofing/",
+        "/service-areas/arab-al/new-construction/",
         "/service-areas/ardmore-al/new-construction/",
-        "/service-areas/athens-al/new-construction/",
         "/contact/"
       ]
     },
@@ -6790,8 +6838,8 @@
         "/service-areas/priceville-al/",
         "/service-areas/priceville-al/home-remodeling/",
         "/service-areas/priceville-al/roofing/",
+        "/service-areas/arab-al/decks-pergolas-fences/",
         "/service-areas/ardmore-al/decks-pergolas-fences/",
-        "/service-areas/athens-al/decks-pergolas-fences/",
         "/contact/"
       ]
     },
@@ -6834,8 +6882,8 @@
         "/service-areas/priceville-al/",
         "/service-areas/priceville-al/home-remodeling/",
         "/service-areas/priceville-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/roofing/",
         "/service-areas/ardmore-al/roofing/",
-        "/service-areas/athens-al/roofing/",
         "/contact/"
       ]
     },
@@ -6878,8 +6926,8 @@
         "/service-areas/priceville-al/",
         "/service-areas/priceville-al/home-remodeling/",
         "/service-areas/priceville-al/roofing/",
+        "/service-areas/arab-al/siding-gutters/",
         "/service-areas/ardmore-al/siding-gutters/",
-        "/service-areas/athens-al/siding-gutters/",
         "/contact/"
       ]
     },
@@ -6922,8 +6970,8 @@
         "/service-areas/priceville-al/",
         "/service-areas/priceville-al/home-remodeling/",
         "/service-areas/priceville-al/roofing/",
+        "/service-areas/arab-al/painting-trim/",
         "/service-areas/ardmore-al/painting-trim/",
-        "/service-areas/athens-al/painting-trim/",
         "/contact/"
       ]
     },
@@ -6966,8 +7014,8 @@
         "/service-areas/priceville-al/",
         "/service-areas/priceville-al/home-remodeling/",
         "/service-areas/priceville-al/roofing/",
+        "/service-areas/arab-al/water-damage-restoration/",
         "/service-areas/ardmore-al/water-damage-restoration/",
-        "/service-areas/athens-al/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -7010,8 +7058,8 @@
         "/service-areas/priceville-al/",
         "/service-areas/priceville-al/home-remodeling/",
         "/service-areas/priceville-al/roofing/",
+        "/service-areas/arab-al/storm-damage-restoration/",
         "/service-areas/ardmore-al/storm-damage-restoration/",
-        "/service-areas/athens-al/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -7054,8 +7102,8 @@
         "/service-areas/priceville-al/",
         "/service-areas/priceville-al/home-remodeling/",
         "/service-areas/priceville-al/roofing/",
+        "/service-areas/arab-al/mold-remediation/",
         "/service-areas/ardmore-al/mold-remediation/",
-        "/service-areas/athens-al/mold-remediation/",
         "/contact/"
       ]
     },
@@ -7098,8 +7146,8 @@
         "/service-areas/somerville-al/",
         "/service-areas/somerville-al/roofing/",
         "/service-areas/somerville-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/home-remodeling/",
         "/service-areas/ardmore-al/home-remodeling/",
-        "/service-areas/athens-al/home-remodeling/",
         "/contact/"
       ]
     },
@@ -7142,8 +7190,8 @@
         "/service-areas/somerville-al/",
         "/service-areas/somerville-al/home-remodeling/",
         "/service-areas/somerville-al/roofing/",
+        "/service-areas/arab-al/new-construction/",
         "/service-areas/ardmore-al/new-construction/",
-        "/service-areas/athens-al/new-construction/",
         "/contact/"
       ]
     },
@@ -7186,8 +7234,8 @@
         "/service-areas/somerville-al/",
         "/service-areas/somerville-al/home-remodeling/",
         "/service-areas/somerville-al/roofing/",
+        "/service-areas/arab-al/decks-pergolas-fences/",
         "/service-areas/ardmore-al/decks-pergolas-fences/",
-        "/service-areas/athens-al/decks-pergolas-fences/",
         "/contact/"
       ]
     },
@@ -7230,8 +7278,8 @@
         "/service-areas/somerville-al/",
         "/service-areas/somerville-al/home-remodeling/",
         "/service-areas/somerville-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/roofing/",
         "/service-areas/ardmore-al/roofing/",
-        "/service-areas/athens-al/roofing/",
         "/contact/"
       ]
     },
@@ -7274,8 +7322,8 @@
         "/service-areas/somerville-al/",
         "/service-areas/somerville-al/home-remodeling/",
         "/service-areas/somerville-al/roofing/",
+        "/service-areas/arab-al/siding-gutters/",
         "/service-areas/ardmore-al/siding-gutters/",
-        "/service-areas/athens-al/siding-gutters/",
         "/contact/"
       ]
     },
@@ -7318,8 +7366,8 @@
         "/service-areas/somerville-al/",
         "/service-areas/somerville-al/home-remodeling/",
         "/service-areas/somerville-al/roofing/",
+        "/service-areas/arab-al/painting-trim/",
         "/service-areas/ardmore-al/painting-trim/",
-        "/service-areas/athens-al/painting-trim/",
         "/contact/"
       ]
     },
@@ -7362,8 +7410,8 @@
         "/service-areas/somerville-al/",
         "/service-areas/somerville-al/home-remodeling/",
         "/service-areas/somerville-al/roofing/",
+        "/service-areas/arab-al/water-damage-restoration/",
         "/service-areas/ardmore-al/water-damage-restoration/",
-        "/service-areas/athens-al/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -7406,8 +7454,8 @@
         "/service-areas/somerville-al/",
         "/service-areas/somerville-al/home-remodeling/",
         "/service-areas/somerville-al/roofing/",
+        "/service-areas/arab-al/storm-damage-restoration/",
         "/service-areas/ardmore-al/storm-damage-restoration/",
-        "/service-areas/athens-al/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -7450,8 +7498,8 @@
         "/service-areas/somerville-al/",
         "/service-areas/somerville-al/home-remodeling/",
         "/service-areas/somerville-al/roofing/",
+        "/service-areas/arab-al/mold-remediation/",
         "/service-areas/ardmore-al/mold-remediation/",
-        "/service-areas/athens-al/mold-remediation/",
         "/contact/"
       ]
     },
@@ -7494,8 +7542,8 @@
         "/service-areas/elkmont-al/",
         "/service-areas/elkmont-al/roofing/",
         "/service-areas/elkmont-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/home-remodeling/",
         "/service-areas/ardmore-al/home-remodeling/",
-        "/service-areas/athens-al/home-remodeling/",
         "/contact/"
       ]
     },
@@ -7538,8 +7586,8 @@
         "/service-areas/elkmont-al/",
         "/service-areas/elkmont-al/home-remodeling/",
         "/service-areas/elkmont-al/roofing/",
+        "/service-areas/arab-al/new-construction/",
         "/service-areas/ardmore-al/new-construction/",
-        "/service-areas/athens-al/new-construction/",
         "/contact/"
       ]
     },
@@ -7582,8 +7630,8 @@
         "/service-areas/elkmont-al/",
         "/service-areas/elkmont-al/home-remodeling/",
         "/service-areas/elkmont-al/roofing/",
+        "/service-areas/arab-al/decks-pergolas-fences/",
         "/service-areas/ardmore-al/decks-pergolas-fences/",
-        "/service-areas/athens-al/decks-pergolas-fences/",
         "/contact/"
       ]
     },
@@ -7626,8 +7674,8 @@
         "/service-areas/elkmont-al/",
         "/service-areas/elkmont-al/home-remodeling/",
         "/service-areas/elkmont-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/roofing/",
         "/service-areas/ardmore-al/roofing/",
-        "/service-areas/athens-al/roofing/",
         "/contact/"
       ]
     },
@@ -7670,8 +7718,8 @@
         "/service-areas/elkmont-al/",
         "/service-areas/elkmont-al/home-remodeling/",
         "/service-areas/elkmont-al/roofing/",
+        "/service-areas/arab-al/siding-gutters/",
         "/service-areas/ardmore-al/siding-gutters/",
-        "/service-areas/athens-al/siding-gutters/",
         "/contact/"
       ]
     },
@@ -7714,8 +7762,8 @@
         "/service-areas/elkmont-al/",
         "/service-areas/elkmont-al/home-remodeling/",
         "/service-areas/elkmont-al/roofing/",
+        "/service-areas/arab-al/painting-trim/",
         "/service-areas/ardmore-al/painting-trim/",
-        "/service-areas/athens-al/painting-trim/",
         "/contact/"
       ]
     },
@@ -7758,8 +7806,8 @@
         "/service-areas/elkmont-al/",
         "/service-areas/elkmont-al/home-remodeling/",
         "/service-areas/elkmont-al/roofing/",
+        "/service-areas/arab-al/water-damage-restoration/",
         "/service-areas/ardmore-al/water-damage-restoration/",
-        "/service-areas/athens-al/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -7802,8 +7850,8 @@
         "/service-areas/elkmont-al/",
         "/service-areas/elkmont-al/home-remodeling/",
         "/service-areas/elkmont-al/roofing/",
+        "/service-areas/arab-al/storm-damage-restoration/",
         "/service-areas/ardmore-al/storm-damage-restoration/",
-        "/service-areas/athens-al/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -7846,8 +7894,8 @@
         "/service-areas/elkmont-al/",
         "/service-areas/elkmont-al/home-remodeling/",
         "/service-areas/elkmont-al/roofing/",
+        "/service-areas/arab-al/mold-remediation/",
         "/service-areas/ardmore-al/mold-remediation/",
-        "/service-areas/athens-al/mold-remediation/",
         "/contact/"
       ]
     },
@@ -7890,8 +7938,8 @@
         "/service-areas/decatur-al/",
         "/service-areas/decatur-al/roofing/",
         "/service-areas/decatur-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/home-remodeling/",
         "/service-areas/ardmore-al/home-remodeling/",
-        "/service-areas/athens-al/home-remodeling/",
         "/contact/"
       ]
     },
@@ -7934,8 +7982,8 @@
         "/service-areas/decatur-al/",
         "/service-areas/decatur-al/home-remodeling/",
         "/service-areas/decatur-al/roofing/",
+        "/service-areas/arab-al/new-construction/",
         "/service-areas/ardmore-al/new-construction/",
-        "/service-areas/athens-al/new-construction/",
         "/contact/"
       ]
     },
@@ -7978,8 +8026,8 @@
         "/service-areas/decatur-al/",
         "/service-areas/decatur-al/home-remodeling/",
         "/service-areas/decatur-al/roofing/",
+        "/service-areas/arab-al/decks-pergolas-fences/",
         "/service-areas/ardmore-al/decks-pergolas-fences/",
-        "/service-areas/athens-al/decks-pergolas-fences/",
         "/contact/"
       ]
     },
@@ -8022,8 +8070,8 @@
         "/service-areas/decatur-al/",
         "/service-areas/decatur-al/home-remodeling/",
         "/service-areas/decatur-al/decks-pergolas-fences/",
+        "/service-areas/arab-al/roofing/",
         "/service-areas/ardmore-al/roofing/",
-        "/service-areas/athens-al/roofing/",
         "/contact/"
       ]
     },
@@ -8066,8 +8114,8 @@
         "/service-areas/decatur-al/",
         "/service-areas/decatur-al/home-remodeling/",
         "/service-areas/decatur-al/roofing/",
+        "/service-areas/arab-al/siding-gutters/",
         "/service-areas/ardmore-al/siding-gutters/",
-        "/service-areas/athens-al/siding-gutters/",
         "/contact/"
       ]
     },
@@ -8110,8 +8158,8 @@
         "/service-areas/decatur-al/",
         "/service-areas/decatur-al/home-remodeling/",
         "/service-areas/decatur-al/roofing/",
+        "/service-areas/arab-al/painting-trim/",
         "/service-areas/ardmore-al/painting-trim/",
-        "/service-areas/athens-al/painting-trim/",
         "/contact/"
       ]
     },
@@ -8154,8 +8202,8 @@
         "/service-areas/decatur-al/",
         "/service-areas/decatur-al/home-remodeling/",
         "/service-areas/decatur-al/roofing/",
+        "/service-areas/arab-al/water-damage-restoration/",
         "/service-areas/ardmore-al/water-damage-restoration/",
-        "/service-areas/athens-al/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -8198,8 +8246,8 @@
         "/service-areas/decatur-al/",
         "/service-areas/decatur-al/home-remodeling/",
         "/service-areas/decatur-al/roofing/",
+        "/service-areas/arab-al/storm-damage-restoration/",
         "/service-areas/ardmore-al/storm-damage-restoration/",
-        "/service-areas/athens-al/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -8242,6 +8290,402 @@
         "/service-areas/decatur-al/",
         "/service-areas/decatur-al/home-remodeling/",
         "/service-areas/decatur-al/roofing/",
+        "/service-areas/arab-al/mold-remediation/",
+        "/service-areas/ardmore-al/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/arab-al/home-remodeling/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Home Remodeling in Arab, AL | Davis Construction Contractors",
+      "h1": "Home Remodeling in Arab",
+      "meta_description": "Trusted home remodeling in Arab, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "home remodeling arab",
+      "secondary_keywords": [
+        "home renovation",
+        "whole home remodel",
+        "interior remodeling contractor",
+        "house renovation contractor",
+        "remodeling company"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/home-remodeling/",
+        "/service-areas/arab-al/",
+        "/service-areas/arab-al/roofing/",
+        "/service-areas/arab-al/decks-pergolas-fences/",
+        "/service-areas/ardmore-al/home-remodeling/",
+        "/service-areas/athens-al/home-remodeling/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/arab-al/new-construction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "New Home Construction in Arab, AL | Davis Construction Contractors",
+      "h1": "New Home Construction in Arab",
+      "meta_description": "Trusted new home construction in Arab, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "new home construction arab",
+      "secondary_keywords": [
+        "custom home builder",
+        "new home builder",
+        "build a house",
+        "residential construction",
+        "ground-up construction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/new-construction/",
+        "/service-areas/arab-al/",
+        "/service-areas/arab-al/home-remodeling/",
+        "/service-areas/arab-al/roofing/",
+        "/service-areas/ardmore-al/new-construction/",
+        "/service-areas/athens-al/new-construction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/arab-al/decks-pergolas-fences/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Decks, Pergolas and Fences in Arab, AL | Davis Construction Contractors",
+      "h1": "Decks, Pergolas and Fences in Arab",
+      "meta_description": "Trusted decks, pergolas and fences in Arab, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "decks, pergolas and fences arab",
+      "secondary_keywords": [
+        "deck builder",
+        "deck installation",
+        "pergola builder",
+        "fence installation",
+        "outdoor structure contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/decks-pergolas-fences/",
+        "/service-areas/arab-al/",
+        "/service-areas/arab-al/home-remodeling/",
+        "/service-areas/arab-al/roofing/",
+        "/service-areas/ardmore-al/decks-pergolas-fences/",
+        "/service-areas/athens-al/decks-pergolas-fences/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/arab-al/roofing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Roofing Installation and Replacement in Arab, AL | Davis Construction Contractors",
+      "h1": "Roofing Installation and Replacement in Arab",
+      "meta_description": "Trusted roofing installation and replacement in Arab, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "roofing installation and replacement arab",
+      "secondary_keywords": [
+        "roofing contractor",
+        "roof replacement",
+        "new roof installation",
+        "residential roofing",
+        "roof repair"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/roofing/",
+        "/service-areas/arab-al/",
+        "/service-areas/arab-al/home-remodeling/",
+        "/service-areas/arab-al/decks-pergolas-fences/",
+        "/service-areas/ardmore-al/roofing/",
+        "/service-areas/athens-al/roofing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/arab-al/siding-gutters/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Siding and Gutters in Arab, AL | Davis Construction Contractors",
+      "h1": "Siding and Gutters in Arab",
+      "meta_description": "Trusted siding and gutters in Arab, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "siding and gutters arab",
+      "secondary_keywords": [
+        "siding contractor",
+        "siding installation",
+        "siding replacement",
+        "gutter installation",
+        "exterior contractor"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/siding-gutters/",
+        "/service-areas/arab-al/",
+        "/service-areas/arab-al/home-remodeling/",
+        "/service-areas/arab-al/roofing/",
+        "/service-areas/ardmore-al/siding-gutters/",
+        "/service-areas/athens-al/siding-gutters/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/arab-al/painting-trim/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Painting and Trim in Arab, AL | Davis Construction Contractors",
+      "h1": "Painting and Trim in Arab",
+      "meta_description": "Trusted painting and trim in Arab, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "painting and trim arab",
+      "secondary_keywords": [
+        "painting contractor",
+        "interior painting",
+        "exterior painting",
+        "house painter",
+        "trim painting"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/painting-trim/",
+        "/service-areas/arab-al/",
+        "/service-areas/arab-al/home-remodeling/",
+        "/service-areas/arab-al/roofing/",
+        "/service-areas/ardmore-al/painting-trim/",
+        "/service-areas/athens-al/painting-trim/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/arab-al/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Arab, AL | Davis Construction Contractors",
+      "h1": "Water Damage Restoration in Arab",
+      "meta_description": "Trusted water damage restoration in Arab, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "water damage restoration arab",
+      "secondary_keywords": [
+        "water damage repair",
+        "water damage rebuild",
+        "drywall water damage repair",
+        "ceiling water damage repair",
+        "post-leak renovation"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/arab-al/",
+        "/service-areas/arab-al/home-remodeling/",
+        "/service-areas/arab-al/roofing/",
+        "/service-areas/ardmore-al/water-damage-restoration/",
+        "/service-areas/athens-al/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/arab-al/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Arab, AL | Davis Construction Contractors",
+      "h1": "Storm Damage Restoration in Arab",
+      "meta_description": "Trusted storm damage restoration in Arab, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "storm damage restoration arab",
+      "secondary_keywords": [
+        "storm damage repair",
+        "roof storm damage repair",
+        "siding storm damage repair",
+        "wind damage repair contractor",
+        "storm damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/arab-al/",
+        "/service-areas/arab-al/home-remodeling/",
+        "/service-areas/arab-al/roofing/",
+        "/service-areas/ardmore-al/storm-damage-restoration/",
+        "/service-areas/athens-al/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/arab-al/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Arab, AL | Davis Construction Contractors",
+      "h1": "Mold Remediation in Arab",
+      "meta_description": "Trusted mold remediation in Arab, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "mold remediation arab",
+      "secondary_keywords": [
+        "mold removal",
+        "mold remediation contractor",
+        "mold repair and rebuild",
+        "mold-safe renovation",
+        "post-remediation reconstruction"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/arab-al/",
+        "/service-areas/arab-al/home-remodeling/",
+        "/service-areas/arab-al/roofing/",
         "/service-areas/ardmore-al/mold-remediation/",
         "/service-areas/athens-al/mold-remediation/",
         "/contact/"

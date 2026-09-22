@@ -10,10 +10,10 @@
   "plan": {
     "template": "restoration",
     "template_version": "0.3.0",
-    "url_count": 340,
-    "generated_at": "2026-09-22T18:10:29.963873+00:00"
+    "url_count": 352,
+    "generated_at": "2026-09-22T19:45:53.106417+00:00"
   },
-  "updated_at": "2026-09-22T18:10:29.963884+00:00",
+  "updated_at": "2026-09-22T19:45:53.106424+00:00",
   "build": {
     "scaffolded_at": "2026-07-28T14:55:43.298632+00:00",
     "github_repo": "restorationai/quality-contracting-inc-site",
