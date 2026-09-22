@@ -81,7 +81,7 @@
     },
     {
       "id": "2026-09-10-general-contracting-reconstruction-renovation",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-10T10:24:15Z",
       "priority": 1,
       "content_type": "target_term",
@@ -90,7 +90,20 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": "lehi-ut",
-      "source": "app target-term (onboarding)"
+      "source": "app target-term (onboarding)",
+      "written_at": "2026-09-22T15:08:05Z",
+      "post_url": "https://fixofutah.com/blog/general-contracting-reconstruction-renovation/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/general-contracting-reconstruction-renovation.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "oring, and cabinet reinstallation. The [IICRC S500 standard](https://www.iicrc.org) d",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
     },
     {
       "id": "2026-09-10-fire-smoke-restoration",
