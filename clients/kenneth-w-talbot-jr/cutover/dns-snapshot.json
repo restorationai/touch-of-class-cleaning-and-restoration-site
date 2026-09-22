@@ -1,8 +1,11 @@
 {
  "domain": "veteransremediation.com",
- "captured_at": "2026-09-22T17:41:28+00:00",
+ "captured_at": "2026-09-22T17:47:34+00:00",
  "authoritative": {
-  "ns": [],
+  "ns": [
+   "amos.ns.cloudflare.com",
+   "anastasia.ns.cloudflare.com"
+  ],
   "mx": [],
   "apex_txt": [],
   "dmarc_txt": [],

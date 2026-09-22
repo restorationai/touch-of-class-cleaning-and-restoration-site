@@ -13,7 +13,7 @@
     "url_count": 76,
     "generated_at": "2026-09-03T22:41:58.346418+00:00"
   },
-  "updated_at": "2026-09-22T15:28:28.854006+00:00",
+  "updated_at": "2026-09-22T17:47:48+00:00",
   "indexnow_key": "75dd8f9a32634e4eb180216d9935a31c",
   "build": {
     "scaffolded_at": "2026-09-03T22:42:07.744312+00:00",
@@ -44,6 +44,15 @@
       "dataaxle",
       "neustar",
       "ypnetwork"
+    ]
+  },
+  "zone": {
+    "id": "fd50c281e449a1055d06109005543a7e",
+    "name": "veteransremediation.com",
+    "status": "pending",
+    "name_servers": [
+      "amos.ns.cloudflare.com",
+      "anastasia.ns.cloudflare.com"
     ]
   }
 }
