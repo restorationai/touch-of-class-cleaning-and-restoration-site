@@ -165,7 +165,7 @@
     },
     {
       "id": "2026-08-26-hardwood-floor-water-damage",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-26T22:20:00Z",
       "written_at": "2026-09-22T15:34:16Z",
       "post_url": "https://reign-restoration.com/blog/hardwood-floor-water-damage/",
@@ -201,7 +201,8 @@
       ],
       "notes": "1,600/mo, KD 0, uncovered. The decision homeowners actually want made for them is dry-in-place versus tear-out, so structure the post around cupping vs crowning vs buckling and the moisture-content thresholds a tech reads with a meter. Local hook: DFW hardwood is usually engineered plank glued to a slab, which traps water underneath and hides it from a surface reading, so the post should explain why a floor that looks fine on top can still be a total loss. Mention the 24-48 hour mold window and route to mold remediation.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "published_verified_at": "2026-09-22T15:35:42Z"
     },
     {
       "id": "2026-08-26-water-damage-baseboard",
