@@ -585,7 +585,11 @@ def anthropic_json(system: str, user: str, *, max_tokens: int = 4000,
     what a client texted (Angie's browser-warning screenshot, 2026-08-02)."""
     content: list | str = user
     if images:
-        content = ([{"type": "image",
+        # PDFs ride as document blocks (Rachelle/DVC 2026-09-22: her
+        # recorded FFN certificate is a PDF; image-only blocks made the
+        # DBA lane call it unreadable).
+        content = ([{"type": ("document" if im["media_type"]
+                              == "application/pdf" else "image"),
                      "source": {"type": "base64",
                                 "media_type": im["media_type"],
                                 "data": im["data"]}} for im in images]
@@ -10038,17 +10042,23 @@ def _verify_dba_upload(company: dict, contact: dict, rel: str,
             headers={"apikey": key, "Authorization": f"Bearer {key}"},
             timeout=60)
         r.raise_for_status()
-        from io import BytesIO
-        from PIL import Image
-        img = Image.open(BytesIO(r.content)).convert("RGB")
-        w, h = img.size
-        if max(w, h) > 1568:
-            s = 1568 / max(w, h)
-            img = img.resize((round(w * s), round(h * s)))
-        buf = BytesIO()
-        img.save(buf, "JPEG", quality=80)
-        images = [{"media_type": "image/jpeg",
-                   "data": base64.b64encode(buf.getvalue()).decode()}]
+        if rel.lower().endswith(".pdf"):
+            # PDFs go straight through as a document block (DVC's recorded
+            # FFN certificate, 2026-09-22).
+            images = [{"media_type": "application/pdf",
+                       "data": base64.b64encode(r.content).decode()}]
+        else:
+            from io import BytesIO
+            from PIL import Image
+            img = Image.open(BytesIO(r.content)).convert("RGB")
+            w, h = img.size
+            if max(w, h) > 1568:
+                s = 1568 / max(w, h)
+                img = img.resize((round(w * s), round(h * s)))
+            buf = BytesIO()
+            img.save(buf, "JPEG", quality=80)
+            images = [{"media_type": "image/jpeg",
+                       "data": base64.b64encode(buf.getvalue()).decode()}]
     except Exception as e:  # noqa: BLE001
         append_escalation(company, None,
                           f"a file arrived on the DBA upload tile "
@@ -11895,11 +11905,24 @@ def upload_event(objects: list | None, do_send: bool = True) -> dict:
     for cid in list(per_company):
         cs = company_state(state, cid)
         seen = set(cs.get("dba_processed_paths") or [])
+        # A DBA doc is one when the TILE says so OR the FILENAME does
+        # (Rachelle/DVC 2026-09-21: the recorded Clark County FFN
+        # certificate arrived through the generic hub docs area as
+        # 'DVC FEN Firm Name ....pdf' and only got the generic thank-you —
+        # nothing read the registered name).
+        def _is_dba(rel: str) -> bool:
+            if _upload_kind(rel) == "dba":
+                return True
+            base = rel.rsplit("/", 1)[-1].lower()
+            return (rel.startswith("docs/") and base.endswith(".pdf")
+                    and bool(re.search(
+                        r"\b(dba|fen|ffn|fictitious|assumed[ _-]?name|"
+                        r"firm[ _-]?name|trade[ _-]?name)\b", base)))
         dba = [r for r in per_company[cid]
-               if _upload_kind(r) == "dba" and r not in seen]
-        if dba or any(_upload_kind(r) == "dba" for r in per_company[cid]):
+               if _is_dba(r) and r not in seen]
+        if dba or any(_is_dba(r) for r in per_company[cid]):
             per_company[cid] = [r for r in per_company[cid]
-                                if _upload_kind(r) != "dba"]
+                                if not _is_dba(r)]
         if dba:
             dba_by_company[cid] = dba
             cs["dba_processed_paths"] = (
