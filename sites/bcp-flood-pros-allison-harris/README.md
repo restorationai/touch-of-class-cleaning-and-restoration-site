@@ -28,8 +28,8 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `FIX Restoration` | plan-input `brand.display_name` | `National Restoration Construction` |
 | `FIX Restoration` | plan-input `brand.short_name` | `NARESTCO` |
 | `FIX Restoration` | plan-input `brand.legal_name` | `National Restoration Construction LLC` |
-| `bcp-flood-pros-allison-harris.invalid` | client record `domain` | `narestco.com` |
-| `https://bcp-flood-pros-allison-harris.invalid` | derived | `https://narestco.com` |
+| `fixofutah.com` | client record `domain` | `narestco.com` |
+| `https://fixofutah.com` | derived | `https://narestco.com` |
 | `(801) 930-9750` / `+18019309750` | brand.phone | `(206) 883-0333` / `+12068830333` |
 | `scott.noland@gofloodpros.com` | brand.email | `info@narestco.com` |
 | `24/7` | brand.hours | `24/7` |
@@ -44,29 +44,42 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `[]` | brand.same_as_urls (JSON-encoded array) | |
 | `` / `` | from GBP | `5.0` / `31` |
 | `24/7 restoration services in American Fork, UT.` | brand.tagline | short marketing line |
-| `#171717` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
+| `#ee4305` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
 | `Inter` / `Inter` | brand.fonts | `Inter` / `Inter` |
-| `https://images.bcp-flood-pros-allison-harris.invalid/brand/logo.png` / `FR` | derived; logo lives on the per-client R2 bucket | |
-| `https://images.bcp-flood-pros-allison-harris.invalid` | `https://images.{domain}` | |
-| `- [Water Damage Restoration](https://bcp-flood-pros-allison-harris.invalid/services/water-damage-restoration/)
-- [Storm Damage Restoration](https://bcp-flood-pros-allison-harris.invalid/services/storm-damage-restoration/)
-- [Fire Damage Restoration](https://bcp-flood-pros-allison-harris.invalid/services/fire-damage-restoration/)
-- [Renovations, Remodels and General Contracting](https://bcp-flood-pros-allison-harris.invalid/services/general-contracting/)
-- [Sewage Cleanup and Sanitization](https://bcp-flood-pros-allison-harris.invalid/services/sewage-cleanup/)
-- [Emergency Board-Up and Tarping](https://bcp-flood-pros-allison-harris.invalid/services/emergency-board-up-tarping/)
-- [Water Cleanup](https://bcp-flood-pros-allison-harris.invalid/services/water-cleanup/)
-- [Mold Remediation](https://bcp-flood-pros-allison-harris.invalid/services/mold-remediation/)
-- [Biohazard Cleanup](https://bcp-flood-pros-allison-harris.invalid/services/biohazard-cleanup/)
-- [Contents Restoration & Storage](https://bcp-flood-pros-allison-harris.invalid/services/contents-restoration-storage/)
-- [Flood & Drying Equipment Rental](https://bcp-flood-pros-allison-harris.invalid/services/flood-equipment-rental/)` / `- [American Fork, UT](https://bcp-flood-pros-allison-harris.invalid/service-areas/american-fork-ut/)
-- [Provo, UT](https://bcp-flood-pros-allison-harris.invalid/service-areas/provo-ut/)
-- [Orem, UT](https://bcp-flood-pros-allison-harris.invalid/service-areas/orem-ut/)
-- [Lehi, UT](https://bcp-flood-pros-allison-harris.invalid/service-areas/lehi-ut/)
-- [Pleasant Grove, UT](https://bcp-flood-pros-allison-harris.invalid/service-areas/pleasant-grove-ut/)
-- [Spanish Fork, UT](https://bcp-flood-pros-allison-harris.invalid/service-areas/spanish-fork-ut/)
-- [Springville, UT](https://bcp-flood-pros-allison-harris.invalid/service-areas/springville-ut/)
-- [Saratoga Springs, UT](https://bcp-flood-pros-allison-harris.invalid/service-areas/saratoga-springs-ut/)
-- [Highland, UT](https://bcp-flood-pros-allison-harris.invalid/service-areas/highland-ut/)` / `Available on request` / `Greater American Fork region` | computed at scaffold from plan + brand | |
+| `/images/logo.webp` / `FR` | derived; logo lives on the per-client R2 bucket | |
+| `https://images.fixofutah.com` | `https://images.{domain}` | |
+| `- [Water Damage Restoration](https://fixofutah.com/services/water-damage-restoration/)
+- [Storm Damage Restoration](https://fixofutah.com/services/storm-damage-restoration/)
+- [Fire Damage Restoration](https://fixofutah.com/services/fire-damage-restoration/)
+- [Renovations, Remodels and General Contracting](https://fixofutah.com/services/general-contracting/)
+- [Sewage Cleanup and Sanitization](https://fixofutah.com/services/sewage-cleanup/)
+- [Emergency Board-Up and Tarping](https://fixofutah.com/services/emergency-board-up-tarping/)
+- [Emergency Water Cleanup](https://fixofutah.com/services/water-cleanup/)
+- [Mold Remediation](https://fixofutah.com/services/mold-remediation/)
+- [Biohazard Cleanup](https://fixofutah.com/services/biohazard-cleanup/)
+- [Contents Restoration & Storage](https://fixofutah.com/services/contents-restoration-storage/)
+- [Flood & Drying Equipment Rental](https://fixofutah.com/services/flood-equipment-rental/)` / `- [American Fork, UT](https://fixofutah.com/service-areas/american-fork-ut/)
+- [Provo, UT](https://fixofutah.com/service-areas/provo-ut/)
+- [Orem, UT](https://fixofutah.com/service-areas/orem-ut/)
+- [Lehi, UT](https://fixofutah.com/service-areas/lehi-ut/)
+- [Pleasant Grove, UT](https://fixofutah.com/service-areas/pleasant-grove-ut/)
+- [Spanish Fork, UT](https://fixofutah.com/service-areas/spanish-fork-ut/)
+- [Springville, UT](https://fixofutah.com/service-areas/springville-ut/)
+- [Saratoga Springs, UT](https://fixofutah.com/service-areas/saratoga-springs-ut/)
+- [Highland, UT](https://fixofutah.com/service-areas/highland-ut/)
+- [Cedar Hills, UT](https://fixofutah.com/service-areas/cedar-hills-ut/)
+- [Lindon, UT](https://fixofutah.com/service-areas/lindon-ut/)
+- [Alpine, UT](https://fixofutah.com/service-areas/alpine-ut/)
+- [Vineyard, UT](https://fixofutah.com/service-areas/vineyard-ut/)
+- [Draper, UT](https://fixofutah.com/service-areas/draper-ut/)
+- [Bluffdale, UT](https://fixofutah.com/service-areas/bluffdale-ut/)
+- [Eagle Mountain, UT](https://fixofutah.com/service-areas/eagle-mountain-ut/)
+- [Sandy, UT](https://fixofutah.com/service-areas/sandy-ut/)
+- [Herriman, UT](https://fixofutah.com/service-areas/herriman-ut/)
+- [Riverton, UT](https://fixofutah.com/service-areas/riverton-ut/)
+- [South Jordan, UT](https://fixofutah.com/service-areas/south-jordan-ut/)
+- [Cedar Fort, UT](https://fixofutah.com/service-areas/cedar-fort-ut/)
+- [Cottonwood Heights, UT](https://fixofutah.com/service-areas/cottonwood-heights-ut/)` / `Available on request` / `Greater American Fork region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

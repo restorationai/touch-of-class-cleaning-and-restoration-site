@@ -15,7 +15,7 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Renovations, Remodels and General Contracting](https://fixofutah.com/services/general-contracting/)
 - [Sewage Cleanup and Sanitization](https://fixofutah.com/services/sewage-cleanup/)
 - [Emergency Board-Up and Tarping](https://fixofutah.com/services/emergency-board-up-tarping/)
-- [Water Cleanup](https://fixofutah.com/services/water-cleanup/)
+- [Emergency Water Cleanup](https://fixofutah.com/services/water-cleanup/)
 - [Mold Remediation](https://fixofutah.com/services/mold-remediation/)
 - [Biohazard Cleanup](https://fixofutah.com/services/biohazard-cleanup/)
 - [Contents Restoration & Storage](https://fixofutah.com/services/contents-restoration-storage/)
@@ -31,6 +31,19 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Springville, UT](https://fixofutah.com/service-areas/springville-ut/)
 - [Saratoga Springs, UT](https://fixofutah.com/service-areas/saratoga-springs-ut/)
 - [Highland, UT](https://fixofutah.com/service-areas/highland-ut/)
+- [Cedar Hills, UT](https://fixofutah.com/service-areas/cedar-hills-ut/)
+- [Lindon, UT](https://fixofutah.com/service-areas/lindon-ut/)
+- [Alpine, UT](https://fixofutah.com/service-areas/alpine-ut/)
+- [Vineyard, UT](https://fixofutah.com/service-areas/vineyard-ut/)
+- [Draper, UT](https://fixofutah.com/service-areas/draper-ut/)
+- [Bluffdale, UT](https://fixofutah.com/service-areas/bluffdale-ut/)
+- [Eagle Mountain, UT](https://fixofutah.com/service-areas/eagle-mountain-ut/)
+- [Sandy, UT](https://fixofutah.com/service-areas/sandy-ut/)
+- [Herriman, UT](https://fixofutah.com/service-areas/herriman-ut/)
+- [Riverton, UT](https://fixofutah.com/service-areas/riverton-ut/)
+- [South Jordan, UT](https://fixofutah.com/service-areas/south-jordan-ut/)
+- [Cedar Fort, UT](https://fixofutah.com/service-areas/cedar-fort-ut/)
+- [Cottonwood Heights, UT](https://fixofutah.com/service-areas/cottonwood-heights-ut/)
 
 ### Resources
 - [Blog](https://fixofutah.com/blog/): Restoration guides and local resources
