@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "592ce0f5d7e3e187"
-generated_at: "2026-09-22T19:45:40.009589+00:00"
+generated_at: "2026-09-22T20:03:18.105643+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/whitehall-pa/", "/service-areas/whitehall-pa/fire-damage-restoration/", "/service-areas/whitehall-pa/roofing/", "/service-areas/baldwin-pa/biohazard-cleanup/", "/service-areas/bethel-park-pa/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Whitehall", "url": "/service-areas/whitehall-pa/"}, {"name": "Biohazard Cleanup"}]

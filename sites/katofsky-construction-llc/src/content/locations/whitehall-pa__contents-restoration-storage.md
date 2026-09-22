@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "b713ca9051a6e7b4"
-generated_at: "2026-09-22T19:45:40.010086+00:00"
+generated_at: "2026-09-22T20:03:18.106392+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration-storage/", "/service-areas/whitehall-pa/", "/service-areas/whitehall-pa/fire-damage-restoration/", "/service-areas/whitehall-pa/roofing/", "/service-areas/baldwin-pa/contents-restoration-storage/", "/service-areas/bethel-park-pa/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Whitehall", "url": "/service-areas/whitehall-pa/"}, {"name": "Contents Restoration & Storage"}]

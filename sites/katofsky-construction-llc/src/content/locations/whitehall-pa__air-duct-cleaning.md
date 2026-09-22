@@ -8,7 +8,7 @@ secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitizati
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "36c3c5db2dc18a72"
-generated_at: "2026-09-22T19:45:40.010205+00:00"
+generated_at: "2026-09-22T20:03:18.106568+00:00"
 manual_override: false
 internal_links: ["/services/air-duct-cleaning/", "/service-areas/whitehall-pa/", "/service-areas/whitehall-pa/fire-damage-restoration/", "/service-areas/whitehall-pa/roofing/", "/service-areas/baldwin-pa/air-duct-cleaning/", "/service-areas/bethel-park-pa/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Whitehall", "url": "/service-areas/whitehall-pa/"}, {"name": "Air Duct Cleaning"}]
