@@ -469,6 +469,11 @@
       "city": "Sumner",
       "state": "WA",
       "slug": "sumner-wa"
+    },
+    {
+      "city": "North Puyallup",
+      "state": "WA",
+      "slug": "north-puyallup-wa"
     }
   ],
   "brand": {

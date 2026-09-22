@@ -157,6 +157,11 @@
       "city": "Castle Shannon",
       "state": "PA",
       "slug": "castle-shannon-pa"
+    },
+    {
+      "city": "Whitehall",
+      "state": "PA",
+      "slug": "whitehall-pa"
     }
   ],
   "template": "restoration",

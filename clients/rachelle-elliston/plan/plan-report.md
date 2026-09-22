@@ -1,20 +1,20 @@
 # Site Plan Report — Desert Valley Contracting Inc 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-22T18:10:31.801479+00:00
+- Generated: 2026-09-22T20:03:30.682384+00:00
 - Domain: `desertvalleycontracting.net`
 - Services selected: 9 of 65 catalog entries
-- Service areas: 19
+- Service areas: 20
 - Cross-product enabled: True
-- Total URLs: **206**
-- Total internal links: 1637 (avg 7.9 per page)
+- Total URLs: **216**
+- Total internal links: 1716 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 162 |
-| `service-area` | 18 |
+| `service-area-service` | 171 |
+| `service-area` | 19 |
 | `service-landing` | 9 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -58,6 +58,7 @@
 - `indian-springs-nv` — Indian Springs, NV
 - `moapa-town-nv` — Moapa Town, NV
 - `moapa-valley-nv` — Moapa Valley, NV
+- `searchlight-nv` — Searchlight, NV
 
 ## Top 10 priority pages
 

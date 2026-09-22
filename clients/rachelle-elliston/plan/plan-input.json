@@ -140,6 +140,11 @@
       "city": "Moapa Valley",
       "state": "NV",
       "slug": "moapa-valley-nv"
+    },
+    {
+      "city": "Searchlight",
+      "state": "NV",
+      "slug": "searchlight-nv"
     }
   ],
   "template": "restoration",

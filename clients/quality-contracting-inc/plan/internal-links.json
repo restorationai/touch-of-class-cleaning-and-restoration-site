@@ -24,6 +24,7 @@
     "/service-areas/hudson-ma/",
     "/service-areas/leominster-ma/",
     "/service-areas/marlborough-ma/",
+    "/service-areas/maynard-ma/",
     "/service-areas/milford-ma/",
     "/service-areas/natick-ma/",
     "/service-areas/needham-ma/",
@@ -67,6 +68,7 @@
     "/service-areas/hudson-ma/",
     "/service-areas/leominster-ma/",
     "/service-areas/marlborough-ma/",
+    "/service-areas/maynard-ma/",
     "/service-areas/milford-ma/",
     "/service-areas/natick-ma/",
     "/service-areas/needham-ma/",
@@ -118,9 +120,9 @@
     "/service-areas/hudson-ma/water-damage-restoration/",
     "/service-areas/leominster-ma/water-damage-restoration/",
     "/service-areas/marlborough-ma/water-damage-restoration/",
+    "/service-areas/maynard-ma/water-damage-restoration/",
     "/service-areas/milford-ma/water-damage-restoration/",
     "/service-areas/natick-ma/water-damage-restoration/",
-    "/service-areas/needham-ma/water-damage-restoration/",
     "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -138,9 +140,9 @@
     "/service-areas/hudson-ma/storm-damage-restoration/",
     "/service-areas/leominster-ma/storm-damage-restoration/",
     "/service-areas/marlborough-ma/storm-damage-restoration/",
+    "/service-areas/maynard-ma/storm-damage-restoration/",
     "/service-areas/milford-ma/storm-damage-restoration/",
-    "/service-areas/natick-ma/storm-damage-restoration/",
-    "/service-areas/needham-ma/storm-damage-restoration/"
+    "/service-areas/natick-ma/storm-damage-restoration/"
   ],
   "/services/fire-damage-restoration/": [
     "/services/",
@@ -154,9 +156,9 @@
     "/service-areas/hudson-ma/fire-damage-restoration/",
     "/service-areas/leominster-ma/fire-damage-restoration/",
     "/service-areas/marlborough-ma/fire-damage-restoration/",
+    "/service-areas/maynard-ma/fire-damage-restoration/",
     "/service-areas/milford-ma/fire-damage-restoration/",
     "/service-areas/natick-ma/fire-damage-restoration/",
-    "/service-areas/needham-ma/fire-damage-restoration/",
     "/blog/choosing-a-restoration-company/",
     "/blog/fire-damage-restoration-process/"
   ],
@@ -172,9 +174,9 @@
     "/service-areas/hudson-ma/mold-remediation/",
     "/service-areas/leominster-ma/mold-remediation/",
     "/service-areas/marlborough-ma/mold-remediation/",
+    "/service-areas/maynard-ma/mold-remediation/",
     "/service-areas/milford-ma/mold-remediation/",
     "/service-areas/natick-ma/mold-remediation/",
-    "/service-areas/needham-ma/mold-remediation/",
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
     "/blog/signs-of-hidden-mold/"
@@ -191,9 +193,9 @@
     "/service-areas/hudson-ma/sewage-cleanup/",
     "/service-areas/leominster-ma/sewage-cleanup/",
     "/service-areas/marlborough-ma/sewage-cleanup/",
+    "/service-areas/maynard-ma/sewage-cleanup/",
     "/service-areas/milford-ma/sewage-cleanup/",
-    "/service-areas/natick-ma/sewage-cleanup/",
-    "/service-areas/needham-ma/sewage-cleanup/"
+    "/service-areas/natick-ma/sewage-cleanup/"
   ],
   "/services/biohazard-cleanup/": [
     "/services/",
@@ -207,9 +209,9 @@
     "/service-areas/hudson-ma/biohazard-cleanup/",
     "/service-areas/leominster-ma/biohazard-cleanup/",
     "/service-areas/marlborough-ma/biohazard-cleanup/",
+    "/service-areas/maynard-ma/biohazard-cleanup/",
     "/service-areas/milford-ma/biohazard-cleanup/",
-    "/service-areas/natick-ma/biohazard-cleanup/",
-    "/service-areas/needham-ma/biohazard-cleanup/"
+    "/service-areas/natick-ma/biohazard-cleanup/"
   ],
   "/services/emergency-board-up-tarping/": [
     "/services/",
@@ -223,9 +225,9 @@
     "/service-areas/hudson-ma/emergency-board-up-tarping/",
     "/service-areas/leominster-ma/emergency-board-up-tarping/",
     "/service-areas/marlborough-ma/emergency-board-up-tarping/",
+    "/service-areas/maynard-ma/emergency-board-up-tarping/",
     "/service-areas/milford-ma/emergency-board-up-tarping/",
-    "/service-areas/natick-ma/emergency-board-up-tarping/",
-    "/service-areas/needham-ma/emergency-board-up-tarping/"
+    "/service-areas/natick-ma/emergency-board-up-tarping/"
   ],
   "/services/contents-restoration/": [
     "/services/",
@@ -239,9 +241,9 @@
     "/service-areas/hudson-ma/contents-restoration/",
     "/service-areas/leominster-ma/contents-restoration/",
     "/service-areas/marlborough-ma/contents-restoration/",
+    "/service-areas/maynard-ma/contents-restoration/",
     "/service-areas/milford-ma/contents-restoration/",
-    "/service-areas/natick-ma/contents-restoration/",
-    "/service-areas/needham-ma/contents-restoration/"
+    "/service-areas/natick-ma/contents-restoration/"
   ],
   "/services/air-duct-cleaning/": [
     "/services/",
@@ -255,9 +257,9 @@
     "/service-areas/hudson-ma/air-duct-cleaning/",
     "/service-areas/leominster-ma/air-duct-cleaning/",
     "/service-areas/marlborough-ma/air-duct-cleaning/",
+    "/service-areas/maynard-ma/air-duct-cleaning/",
     "/service-areas/milford-ma/air-duct-cleaning/",
-    "/service-areas/natick-ma/air-duct-cleaning/",
-    "/service-areas/needham-ma/air-duct-cleaning/"
+    "/service-areas/natick-ma/air-duct-cleaning/"
   ],
   "/services/crawl-space-encapsulation/": [
     "/services/",
@@ -271,9 +273,9 @@
     "/service-areas/hudson-ma/crawl-space-encapsulation/",
     "/service-areas/leominster-ma/crawl-space-encapsulation/",
     "/service-areas/marlborough-ma/crawl-space-encapsulation/",
+    "/service-areas/maynard-ma/crawl-space-encapsulation/",
     "/service-areas/milford-ma/crawl-space-encapsulation/",
-    "/service-areas/natick-ma/crawl-space-encapsulation/",
-    "/service-areas/needham-ma/crawl-space-encapsulation/"
+    "/service-areas/natick-ma/crawl-space-encapsulation/"
   ],
   "/services/water-cleanup/": [
     "/services/",
@@ -287,9 +289,9 @@
     "/service-areas/hudson-ma/water-cleanup/",
     "/service-areas/leominster-ma/water-cleanup/",
     "/service-areas/marlborough-ma/water-cleanup/",
+    "/service-areas/maynard-ma/water-cleanup/",
     "/service-areas/milford-ma/water-cleanup/",
     "/service-areas/natick-ma/water-cleanup/",
-    "/service-areas/needham-ma/water-cleanup/",
     "/services/water-damage-restoration/"
   ],
   "/service-areas/worcester-ma/": [
@@ -756,6 +758,24 @@
     "/service-areas/palmer-town-ma/air-duct-cleaning/",
     "/service-areas/palmer-town-ma/contents-restoration/",
     "/service-areas/palmer-town-ma/crawl-space-encapsulation/",
+    "/service-areas/bellingham-ma/",
+    "/service-areas/east-douglas-ma/",
+    "/service-areas/fiskdale-ma/"
+  ],
+  "/service-areas/maynard-ma/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/maynard-ma/fire-damage-restoration/",
+    "/service-areas/maynard-ma/mold-remediation/",
+    "/service-areas/maynard-ma/water-damage-restoration/",
+    "/service-areas/maynard-ma/sewage-cleanup/",
+    "/service-areas/maynard-ma/storm-damage-restoration/",
+    "/service-areas/maynard-ma/water-cleanup/",
+    "/service-areas/maynard-ma/biohazard-cleanup/",
+    "/service-areas/maynard-ma/emergency-board-up-tarping/",
+    "/service-areas/maynard-ma/air-duct-cleaning/",
+    "/service-areas/maynard-ma/contents-restoration/",
+    "/service-areas/maynard-ma/crawl-space-encapsulation/",
     "/service-areas/bellingham-ma/",
     "/service-areas/east-douglas-ma/",
     "/service-areas/fiskdale-ma/"
@@ -3330,6 +3350,105 @@
     "/service-areas/palmer-town-ma/",
     "/service-areas/palmer-town-ma/fire-damage-restoration/",
     "/service-areas/palmer-town-ma/mold-remediation/",
+    "/service-areas/bellingham-ma/water-cleanup/",
+    "/service-areas/east-douglas-ma/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/maynard-ma/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/maynard-ma/",
+    "/service-areas/maynard-ma/fire-damage-restoration/",
+    "/service-areas/maynard-ma/mold-remediation/",
+    "/service-areas/bellingham-ma/water-damage-restoration/",
+    "/service-areas/east-douglas-ma/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/maynard-ma/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/maynard-ma/",
+    "/service-areas/maynard-ma/fire-damage-restoration/",
+    "/service-areas/maynard-ma/mold-remediation/",
+    "/service-areas/bellingham-ma/storm-damage-restoration/",
+    "/service-areas/east-douglas-ma/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/maynard-ma/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/maynard-ma/",
+    "/service-areas/maynard-ma/mold-remediation/",
+    "/service-areas/maynard-ma/water-damage-restoration/",
+    "/service-areas/bellingham-ma/fire-damage-restoration/",
+    "/service-areas/east-douglas-ma/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/maynard-ma/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/maynard-ma/",
+    "/service-areas/maynard-ma/fire-damage-restoration/",
+    "/service-areas/maynard-ma/water-damage-restoration/",
+    "/service-areas/bellingham-ma/mold-remediation/",
+    "/service-areas/east-douglas-ma/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/maynard-ma/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/maynard-ma/",
+    "/service-areas/maynard-ma/fire-damage-restoration/",
+    "/service-areas/maynard-ma/mold-remediation/",
+    "/service-areas/bellingham-ma/sewage-cleanup/",
+    "/service-areas/east-douglas-ma/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/maynard-ma/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/maynard-ma/",
+    "/service-areas/maynard-ma/fire-damage-restoration/",
+    "/service-areas/maynard-ma/mold-remediation/",
+    "/service-areas/bellingham-ma/biohazard-cleanup/",
+    "/service-areas/east-douglas-ma/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/maynard-ma/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/maynard-ma/",
+    "/service-areas/maynard-ma/fire-damage-restoration/",
+    "/service-areas/maynard-ma/mold-remediation/",
+    "/service-areas/bellingham-ma/emergency-board-up-tarping/",
+    "/service-areas/east-douglas-ma/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/maynard-ma/contents-restoration/": [
+    "/services/contents-restoration/",
+    "/service-areas/maynard-ma/",
+    "/service-areas/maynard-ma/fire-damage-restoration/",
+    "/service-areas/maynard-ma/mold-remediation/",
+    "/service-areas/bellingham-ma/contents-restoration/",
+    "/service-areas/east-douglas-ma/contents-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/maynard-ma/air-duct-cleaning/": [
+    "/services/air-duct-cleaning/",
+    "/service-areas/maynard-ma/",
+    "/service-areas/maynard-ma/fire-damage-restoration/",
+    "/service-areas/maynard-ma/mold-remediation/",
+    "/service-areas/bellingham-ma/air-duct-cleaning/",
+    "/service-areas/east-douglas-ma/air-duct-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/maynard-ma/crawl-space-encapsulation/": [
+    "/services/crawl-space-encapsulation/",
+    "/service-areas/maynard-ma/",
+    "/service-areas/maynard-ma/fire-damage-restoration/",
+    "/service-areas/maynard-ma/mold-remediation/",
+    "/service-areas/bellingham-ma/crawl-space-encapsulation/",
+    "/service-areas/east-douglas-ma/crawl-space-encapsulation/",
+    "/contact/"
+  ],
+  "/service-areas/maynard-ma/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/maynard-ma/",
+    "/service-areas/maynard-ma/fire-damage-restoration/",
+    "/service-areas/maynard-ma/mold-remediation/",
     "/service-areas/bellingham-ma/water-cleanup/",
     "/service-areas/east-douglas-ma/water-cleanup/",
     "/contact/"
