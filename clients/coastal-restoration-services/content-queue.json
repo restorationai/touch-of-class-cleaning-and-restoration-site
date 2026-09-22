@@ -417,7 +417,7 @@
     },
     {
       "id": "2026-08-17-water-damage-restoration-process",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-17T17:55:00Z",
       "written_at": null,
       "post_url": null,
@@ -451,8 +451,7 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "Mirrors the existing /blog/fire-damage-restoration-process/ post for the water side, so match its structure for internal-link symmetry. Six numbered phases: assessment, extraction, drying, cleaning/sanitizing, repairs, prevention. Include the IICRC S500 water categories (1/2/3) since that is the passage AI assistants quote. Santa Maria angle: coastal humidity extends drying time versus inland Central Valley jobs.",
-      "banked_at": "2026-09-17T22:13:26.011924+00:00"
+      "notes": "Mirrors the existing /blog/fire-damage-restoration-process/ post for the water side, so match its structure for internal-link symmetry. Six numbered phases: assessment, extraction, drying, cleaning/sanitizing, repairs, prevention. Include the IICRC S500 water categories (1/2/3) since that is the passage AI assistants quote. Santa Maria angle: coastal humidity extends drying time versus inland Central Valley jobs."
     },
     {
       "id": "2026-08-17-how-soon-can-mold-develop-after-water-damage",

@@ -678,7 +678,7 @@
     },
     {
       "id": "2026-08-03-does-homeowners-insurance-cover-wind-damage",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-03T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -711,8 +711,7 @@
         "https://www.insurance.com/home-and-renters-insurance/claims/storm-damage-insurance-claims",
         "https://insurance.utah.gov/"
       ],
-      "notes": "Absorbs the \"wind damage to roof\" (140/mo, KD 11) and \"wind damage to fence\" (70/mo, CPC 28.69) variants as H2 sections so we do not cannibalise with three near-identical posts. Wasatch Front canyon winds are the local hook: reference real wind events rather than hurricane framing.",
-      "banked_at": "2026-09-17T22:13:26.020065+00:00"
+      "notes": "Absorbs the \"wind damage to roof\" (140/mo, KD 11) and \"wind damage to fence\" (70/mo, CPC 28.69) variants as H2 sections so we do not cannibalise with three near-identical posts. Wasatch Front canyon winds are the local hook: reference real wind events rather than hurricane framing."
     },
     {
       "id": "2026-08-03-does-homeowners-insurance-cover-roof-leaks-from-rain",

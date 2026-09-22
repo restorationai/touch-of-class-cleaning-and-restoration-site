@@ -1198,7 +1198,7 @@
     },
     {
       "id": "2026-09-10-what-to-do-after-storm-damage",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-10T20:25:00Z",
       "written_at": null,
       "post_url": null,
@@ -1232,8 +1232,7 @@
         "https://www.ncdoi.gov/consumers/disaster/how-deal-aftermath-disaster",
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "Zero measured Google volume, queued on AI-retrieval demand: this was the top decomposition ChatGPT produced for a storm damage prompt, so it is the passage an assistant lifts. Safety first and concretely: downed lines, gas smell, sagging ceilings holding water. Then document, then temporary repairs only. Distinct from /blog/what-to-do-first-24-hours-water-damage/ because the storm version has an exterior-hazard and power-outage phase before any drying starts. Ties to the US-264 corridor and the Nash and Johnston county line for response time.",
-      "banked_at": "2026-09-17T22:13:26.019189+00:00"
+      "notes": "Zero measured Google volume, queued on AI-retrieval demand: this was the top decomposition ChatGPT produced for a storm damage prompt, so it is the passage an assistant lifts. Safety first and concretely: downed lines, gas smell, sagging ceilings holding water. Then document, then temporary repairs only. Distinct from /blog/what-to-do-first-24-hours-water-damage/ because the storm version has an exterior-hazard and power-outage phase before any drying starts. Ties to the US-264 corridor and the Nash and Johnston county line for response time."
     },
     {
       "id": "2026-09-10-how-to-dry-out-house-after-storm",

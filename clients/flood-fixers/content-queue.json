@@ -891,7 +891,7 @@
     },
     {
       "id": "2026-08-27-basement-flooded-who-to-call",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-27T02:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -924,8 +924,7 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "CPC $94.88 with KD 0: the single best money-to-difficulty ratio in this seed family. Decision-stage query. Order the call list by scenario (still-active water goes to the plumber or shutoff first, then restoration, then the carrier) and close with the 24/7 line.",
-      "banked_at": "2026-09-17T22:13:26.018241+00:00"
+      "notes": "CPC $94.88 with KD 0: the single best money-to-difficulty ratio in this seed family. Decision-stage query. Order the call list by scenario (still-active water goes to the plumber or shutoff first, then restoration, then the carrier) and close with the 24/7 line."
     },
     {
       "id": "2026-08-27-why-is-my-basement-flooding",

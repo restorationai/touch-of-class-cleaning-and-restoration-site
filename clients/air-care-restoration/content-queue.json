@@ -416,7 +416,7 @@
     },
     {
       "id": "2026-08-26-what-certifications-water-damage-restoration-company",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-26T13:20:00Z",
       "written_at": null,
       "post_url": null,
@@ -452,8 +452,7 @@
       ],
       "notes": "Decision-stage question straight out of the ChatGPT decomposition. Air Care is an IICRC certified firm holding WRT and FSRT plus Texas mold remediation contractor licence MRC2262 and EPA Lead-Safe: name each credential, say what it actually covers, and link the TDLR licence lookup so the reader can verify. Do not claim credentials outside the plan-input list.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration",
-      "banked_at": "2026-09-17T22:13:26.009122+00:00"
+      "seed": "water damage restoration"
     },
     {
       "id": "2026-08-26-should-i-replace-drywall-that-got-wet",

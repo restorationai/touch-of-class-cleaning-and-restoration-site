@@ -638,7 +638,7 @@
     },
     {
       "id": "2026-08-26-how-much-does-an-emergency-plumber-cost",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-26T13:45:00Z",
       "written_at": null,
       "post_url": null,
@@ -674,8 +674,7 @@
         "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
       ],
       "notes": "$41 CPC on a KD 0 keyword: the ads side pays real money for this intent and nothing on the site answers it. Structure it as fee anatomy (call-out/trip fee, after-hours multiplier, diagnostic time, then the repair itself) with honest ranges rather than one made-up number, and give the shut-off-the-water step before any pricing so the page earns the AI-answer slot. 24/7 claims ARE allowed for this brand (plan-input brand.hours = 24/7). Pairs with /blog/how-much-does-a-plumber-cost-per-hour/ (day rates) and /blog/what-to-do-burst-pipe/ (the emergency itself): link both, do not restate them. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor you hire) and link the CSLB lookup. SCOPE GATE: stay on stopping the water and fixing the pipe. Do not mention mold remediation, structural drying or reconstruction (restoration vertical, sister company ProRestoration Services).",
-      "source": "rank-ai-keyword-researcher",
-      "banked_at": "2026-09-21T22:24:17.174363+00:00"
+      "source": "rank-ai-keyword-researcher"
     },
     {
       "id": "2026-08-26-how-to-hire-a-licensed-plumber",

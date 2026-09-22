@@ -1075,7 +1075,7 @@
     },
     {
       "id": "2026-08-27-hidden-water-damage-after-a-storm",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-27T05:45:00Z",
       "written_at": null,
       "post_url": null,
@@ -1110,8 +1110,7 @@
         "https://www.epa.gov/mold/mold-cleanup-your-home",
         "https://www.weather.gov/vef/monsoon"
       ],
-      "notes": "Zero measured Google volume, queued on AI-retrieval value: surfaced directly by the ChatGPT decomposition of the storm-damage prompt, and question pages are what AI engines lift verbatim. Structure it as a checklist with one short answer paragraph per room (attic, ceilings, exterior walls, around windows, under flooring, HVAC closet) so each block is independently quotable. Vegas specifics: stucco staining, swamp cooler pans on the roof, and flat or low-slope tile roofs that pond after a monsoon cell.",
-      "banked_at": "2026-09-17T22:13:26.024782+00:00"
+      "notes": "Zero measured Google volume, queued on AI-retrieval value: surfaced directly by the ChatGPT decomposition of the storm-damage prompt, and question pages are what AI engines lift verbatim. Structure it as a checklist with one short answer paragraph per room (attic, ceilings, exterior walls, around windows, under flooring, HVAC closet) so each block is independently quotable. Vegas specifics: stucco staining, swamp cooler pans on the roof, and flat or low-slope tile roofs that pond after a monsoon cell."
     },
     {
       "id": "2026-08-27-can-a-monsoon-cause-mold-in-your-house",

@@ -506,7 +506,7 @@
     },
     {
       "id": "2026-09-21-diy-air-quality-testing-vs-professional",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-21T17:55:00Z",
       "written_at": null,
       "post_url": null,
@@ -541,8 +541,7 @@
       ],
       "notes": "Keep this post on air, VOC and formaldehyde kits. The existing /blog/diy-mold-test-kits-vs-professional-inspection/ owns the mold-kit comparison, so link to it instead of re-arguing it (cannibalization risk). Core argument: a DIY kit gives you a number with no baseline, no outdoor control sample, no chain of custody, and no interpretation, which is exactly what a landlord, insurer, or buyer will ask for. Say plainly where a kit is fine (curiosity, screening) and where it is not (a dispute, a health complaint, a transaction).",
       "source": "keyword-researcher",
-      "seed": "indoor air quality testing",
-      "banked_at": "2026-09-21T22:24:17.175463+00:00"
+      "seed": "indoor air quality testing"
     },
     {
       "id": "2026-09-21-test-indoor-air-quality-for-mold",

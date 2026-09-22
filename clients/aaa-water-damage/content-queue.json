@@ -242,7 +242,7 @@
     },
     {
       "id": "2026-08-10-water-damage-restoration-cost",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-10T17:12:00Z",
       "written_at": null,
       "post_url": null,
@@ -276,8 +276,7 @@
       ],
       "notes": "Highest-value uncovered informational term in the seed family: 880/mo at KD 3, and none of the 12 planned blog posts touch price. Break cost down by driver (water category, affected square footage, materials removed, drying days, equipment count) rather than publishing a flat price list. Explain mitigation billing vs reconstruction billing separately. Do not publish a fixed price sheet or a guaranteed quote range.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration",
-      "banked_at": "2026-09-21T10:24:48.449503+00:00"
+      "seed": "water damage restoration"
     },
     {
       "id": "2026-08-10-who-is-responsible-for-water-damage-in-a-condo",

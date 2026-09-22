@@ -395,7 +395,7 @@
     },
     {
       "id": "2026-08-26-category-3-water-damage",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-26T23:55:00Z",
       "written_at": null,
       "post_url": null,
@@ -432,8 +432,7 @@
       ],
       "notes": "Definition-style page that AI assistants lift verbatim, which is exactly the retrieval slot the audit says the client can win. Cover the escalation rule (clean water turns category 2 then 3 with time, temperature and contact with contaminated materials) because that is what homeowners get wrong when they wait a weekend. Butler and Beaver Falls housing stock runs original cast-iron drains, so sewer backup is a real local scenario. Sensitive-adjacent content: keep it factual, no gore, no scare copy. Cite the S500 standard, do not claim certification.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration",
-      "banked_at": "2026-09-17T22:13:26.017470+00:00"
+      "seed": "water damage restoration"
     },
     {
       "id": "2026-08-26-what-is-water-damage-restoration",

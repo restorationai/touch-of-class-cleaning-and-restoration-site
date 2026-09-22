@@ -288,7 +288,7 @@
     },
     {
       "id": "2026-09-03-how-soon-can-mold-grow-after-water-damage",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-03T20:29:00Z",
       "written_at": null,
       "post_url": null,
@@ -321,8 +321,7 @@
         "https://www.epa.gov/mold/mold-cleanup-your-home"
       ],
       "notes": "No Google volume, surfaced by the ChatGPT decomposition: queued as AI-retrieval fuel, not for classic search traffic. Answer the timeline question in the first two sentences so an AI engine can lift the passage verbatim. Existing blog posts cover hidden mold signs, testing, and black mold, but none cover the growth timeline. Lean on the Tampa humidity angle and DRYCOR's NAERMC mold credential.",
-      "source": "keyword-researcher",
-      "banked_at": "2026-09-17T22:13:26.016776+00:00"
+      "source": "keyword-researcher"
     },
     {
       "id": "2026-09-03-how-to-file-a-water-damage-insurance-claim",
