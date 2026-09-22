@@ -50,7 +50,7 @@
     },
     {
       "id": "2026-09-07-board-up-tarping-services",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-07T10:24:01Z",
       "priority": 1,
       "content_type": "target_term",
@@ -59,7 +59,9 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": "parkland-wa",
-      "source": "app target-term (onboarding-backfill)"
+      "source": "app target-term (onboarding-backfill)",
+      "written_at": "2026-09-22T15:18:09Z",
+      "post_url": "https://frontlinefireflood.com/blog/board-up-tarping-services/"
     },
     {
       "id": "2026-09-07-asbestos-lead-abatement",
