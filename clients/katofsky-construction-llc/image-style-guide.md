@@ -210,3 +210,9 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 ## Style guide version
 
 This guide is generated from `templates/restoration/image-style-guide.template.md` v1.1 (2026-07-11: added Standing Brand Rules — real vehicle logos, single declared uniform color, harvest-first). When the canonical template updates, existing clients keep their pinned version unless explicitly regenerated. Bump the version + add a changelog entry when changing structural rules (e.g., adding new mandatory PPE conventions).
+
+
+HERO VEHICLE RULE (2026-09-22): maximum ONE van in frame, close enough that
+the wrap text is large; the wrap shows ONLY the words 'KATOFSKY CONSTRUCTION'
+in clean block letters. If text cannot render perfectly, show the van from
+the rear-quarter angle with the wrap mostly out of frame.
