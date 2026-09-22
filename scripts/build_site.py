@@ -2104,18 +2104,28 @@ def cmd_scaffold(args) -> int:
 
     # Step 3: Create GitHub repo (idempotent)
     print(f"[3/5] Ensuring GitHub repo {GH_OWNER}/{repo_name} exists...")
-    if gh_repo_exists(repo_name):
+    _repo_preexisted = gh_repo_exists(repo_name)
+    if _repo_preexisted:
         print("      Repo already exists, reusing.")
     else:
         description = f"Rank AI restoration site for {client['display_name']}."
         gh_create_repo(repo_name, description, private=args.private)
         print("      Repo created.")
 
-    # Step 4: Git init + commit + push (main + staging)
-    print("[4/5] Pushing to GitHub (main + staging)...")
+    # Step 4: Git init + commit + push (main + staging) — FIRST SCAFFOLD
+    # ONLY. A re-scaffold force-pushing both branches is a silent deploy
+    # that bypasses sync-deploy (2026-09-22: the FIX light re-scaffold
+    # clobbered the dark theme preview that sync-deploy had just put on
+    # staging). Existing repos deploy exclusively via sync-deploy.
+    if _repo_preexisted:
+        print("[4/5] Repo already exists — skipping scaffold push "
+              "(deploys go through sync-deploy only).")
+    else:
+        print("[4/5] Pushing to GitHub (main + staging)...")
     commit = args.message or f"Scaffold from rank-ai-build-site at {now_iso()}"
     try:
-        git_init_and_push(site_dir, repo_name, commit)
+        if not _repo_preexisted:
+            git_init_and_push(site_dir, repo_name, commit)
     finally:
         # ALWAYS remove the nested .git, even when the push dies — so the
         # monorepo tracks files directly instead of recording sites/{slug}/

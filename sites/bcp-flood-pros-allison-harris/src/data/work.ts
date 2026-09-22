@@ -23,7 +23,7 @@ export const workPairs: BeforeAfterPair[] = [
     beforeSrc: "/images/before-after/water-before.webp",
     beforeAlt: "Flooded living room with standing water before restoration",
     afterSrc: "/images/before-after/water-after.webp",
-    afterAlt: "Same living room with new carpet and repaired walls after restoration",
+    afterAlt: "Same living room with new premium plank flooring and repaired walls after restoration",
   },
   {
     label: "Fire & Smoke Restoration",

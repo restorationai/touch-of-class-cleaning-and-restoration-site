@@ -28,7 +28,7 @@ const sensitive = data.content_guardrails === "sensitive";
 // embedded when one exists for this exact page. Lazy iframe: no LCP cost.
 const geoVideoId = (geoVideos as Record<string, string>)[
   `${Astro.params.service}|${Astro.params.area}`] || null;
-const heroImage = data.hero || serviceImage(data.service_slug, "/images/hero-bg.webp");
+const heroImage = data.hero || serviceImage(data.service_slug, `${brand.imagesBase}/brand/hero.webp`);
 
 // The quotable dispatch claim — rendered as a callout right after the hero AND
 // repeated verbatim in the LocalBusiness schema description (competitor
@@ -85,16 +85,16 @@ const faq = [...responseFaq, ...baseFaq, ...insuranceFaq];
   faq={faq}
 >
   <!-- HERO -->
-  <section class="relative min-h-[500px] flex items-center overflow-hidden bg-white border-b border-dark/10">
+  <section class="relative min-h-[500px] flex items-center overflow-hidden bg-navy border-b border-white/10">
     <div class="absolute inset-0 z-0">
       <img src={heroImage} alt={data.h1} class="w-full h-full object-cover" loading="eager" />
-      <div class="absolute inset-0 bg-gradient-to-r from-white/95 via-white/80 to-white/25"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-navy via-navy/85 to-navy/30"></div>
     </div>
     <div class="container-wide relative z-10 py-20">
       <div class="max-w-2xl">
         <div class="eyebrow">{data.city}, {data.state} · {data.service_display}</div>
         <h1 class="mb-6">{data.h1}</h1>
-        <p class="text-lg text-dark/85 mb-8 leading-relaxed">{data.meta_description}</p>
+        <p class="text-lg text-white/85 mb-8 leading-relaxed">{data.meta_description}</p>
         <div class="flex flex-col sm:flex-row gap-4">
           <a href={`tel:${brand.phoneRaw}`} class={sensitive ? "btn-primary" : "btn-accent"}>
             {sensitive ? "Request Discreet Help" : `📞 Call ${brand.phone}`}
@@ -108,7 +108,7 @@ const faq = [...responseFaq, ...baseFaq, ...insuranceFaq];
   </section>
 
   <!-- BODY -->
-  <section class="section-first bg-white">
+  <section class="section-first bg-navy">
     <div class="container-wide">
       <div class="max-w-content mx-auto mb-10">
         <DispatchCallout sentence={dispatch} />

@@ -331,13 +331,14 @@ PAIR_CATALOG: list[tuple[str, set, str, str, str, str, str]] = [
      "legs submerged. Shot on a phone by a technician, natural window "
      "light, no people, no text.",
      "the SAME living room fully restored after water damage restoration: "
-     "standing water extracted, the soaked flooring TORN OUT and REPLACED "
-     "with brand-new neutral wall-to-wall carpet (obviously different "
-     "flooring than before), new baseboards, lower walls repaired and "
+     "standing water extracted, the water-damaged flooring TORN OUT and "
+     "REPLACED with brand-new PREMIUM wide-plank flooring in a noticeably "
+     "lighter, different wood tone than before (an obvious upgrade, never "
+     "a downgrade like carpet), new baseboards, lower walls repaired and "
      "freshly painted, everything dry and bright",
      "Flooded living room with standing water before restoration",
-     "Same living room with new carpet and repaired walls after "
-     "restoration"),
+     "Same living room with new premium plank flooring and repaired "
+     "walls after restoration"),
     ("fire", {"fire-damage-restoration", "smoke-damage-restoration",
               "fire-and-smoke-restoration"},
      "Fire & Smoke Restoration",

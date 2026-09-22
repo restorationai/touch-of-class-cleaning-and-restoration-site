@@ -4,6 +4,7 @@ import { brand } from "~/lib/brand";
 import Analytics from "~/components/Analytics.astro";
 import Header from "~/components/Header.astro";
 import Footer from "~/components/Footer.astro";
+import DniSwap from "~/components/DniSwap.astro";
 import Schema from "~/components/Schema.astro";
 import Breadcrumb from "~/components/Breadcrumb.astro";
 import { Phone } from "@lucide/astro";
@@ -103,7 +104,7 @@ const ctx: PageSchemaContext = {
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#ffffff" />
+    <meta name="theme-color" content="#0d1b3e" />
     <title>{pageTitle}</title>
     <meta name="description" content={meta_description} />
     <link rel="canonical" href={fullCanonical} />
@@ -122,7 +123,20 @@ const ctx: PageSchemaContext = {
     <meta name="twitter:description" content={meta_description} />
     <meta name="twitter:image" content={ogImage} />
 
-    {/* Favicon set — generated from the client's real logo mark (see clients/{slug}/). */}
+    {/* FAVICON — REQUIRED BUILD STEP (standing rule: every site ships a favicon).
+        The scaffolded public/favicon.svg is only a text-initials placeholder.
+        Before preview deploy, generate the real set from the client's logo MARK
+        (crop the iconic element from clients/{slug}/<logo file> — e.g. the badge,
+        circle mark, or lettermark; if no logo exists yet, hand-build a clean
+        monogram SVG in the client's palette):
+          public/favicon.svg          — vector (or 192px PNG embedded as data URI
+                                        for raster logos)
+          public/favicon.ico          — 16/32/48 multi-size (PIL: save format=ICO)
+          public/apple-touch-icon.png — 180x180, opaque white background
+          public/favicon-32x32.png / favicon-16x16.png — if the mark is faint at
+                                        small sizes (chrome/gradient lettering),
+                                        substitute a bolder solid-color variant.
+        All five files are referenced below; verify each lands in dist/ after build. */}
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="alternate icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="alternate icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -159,7 +173,7 @@ const ctx: PageSchemaContext = {
     </style>
   </head>
   <body class="min-h-screen flex flex-col">
-    <div class="hidden md:block bg-primary-600 text-white text-xs md:text-sm font-bold text-center py-2 px-4 tracking-wider">
+    <div class="hidden md:block bg-cta text-cta-fg text-xs md:text-sm font-bold text-center py-2 px-4 tracking-wider">
       {isLicensed
         ? <>Licensed &amp; Insured &mdash; {brand.primaryCity}, {brand.primaryState}{" "}{brand.specialistPhrase}</>
         : <>{brand.primaryCity}, {brand.primaryState}{" "}{brand.specialistPhrase} &mdash; {brand.announcementSuffix}</>}
@@ -170,9 +184,10 @@ const ctx: PageSchemaContext = {
       <slot />
     </main>
     <Footer />
-    <a href={`tel:${brand.phoneRaw}`} class="fixed bottom-0 inset-x-0 z-40 md:hidden flex items-center justify-center gap-3 bg-primary-600 text-white font-black py-4 text-base shadow-[0_-4px_24px_theme(colors.primary.600/35%)] border-t border-primary-700">
+    <a href={`tel:${brand.phoneRaw}`} class="fixed bottom-0 inset-x-0 z-40 md:hidden flex items-center justify-center gap-3 bg-cta text-cta-fg font-black py-4 text-base shadow-[0_-4px_24px_theme(colors.cta.DEFAULT/35%)] border-t border-cta-hover">
       <Phone size={18} strokeWidth={3} />
       Call Now: {brand.phone}
     </a>
+    <DniSwap />
   </body>
 </html>
