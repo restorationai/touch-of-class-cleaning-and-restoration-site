@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-20-fire-smoke-restoration",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-20T14:17:54Z",
       "priority": 1,
       "content_type": "target_term",
@@ -11,7 +11,9 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": "enterprise-nv",
-      "source": "app target-term (onboarding)"
+      "source": "app target-term (onboarding)",
+      "written_at": "2026-09-22T15:32:06Z",
+      "post_url": "https://desertvalleycontracting.net/blog/fire-smoke-restoration/"
     },
     {
       "id": "2026-09-20-general-contracting-reconstruction-renovation",
