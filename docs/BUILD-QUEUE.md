@@ -109,6 +109,19 @@ PASSED: budget + settings are the whole job). Dead twin 481-522-7444
 
 ---
 
+## F. n8n compliance — Phase 1 + Phase 3 — **DONE 2026-09-21**
+
+Phase 1 (09-21): URGENT/caps copy stripped from the 3 live dispatch
+workflows carrying it; fleet re-scan clean. Fallback sender corrected the
+same night: retired DryMedic +17542470132 swapped for the approved HydroZ
+toll-free +18337271056 (the 08-03 policy n8n never received).
+Phase 3 Branded links (09-21): {client-domain}/s/* redirect rules on all
+20 live zones (scripts/branded_links.py, nightly in ops-sync) +
+branded_link_host stamp + ONE chokepoint rewrite in the master outbound
+sender: every dispatch SMS link now shows the client's own domain.
+End-to-end tested (delivered, body verified). Phase 2 (MessagingServiceSid)
+still parked.
+
 ## Parked decisions (Santino's desk)
 
 - Yelp in or out of BrightLocal citation orders (google.com already

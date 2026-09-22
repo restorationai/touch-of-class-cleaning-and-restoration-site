@@ -137,6 +137,11 @@ jobs:
           python3 scripts/ads_link_accept.py --apply || true
           python3 scripts/lsa_link_audit.py --apply || true
           rm -f clients/narestco/.ads-token.json
+          # BRANDED SHORT LINKS (n8n Phase 3, 2026-09-21): every live-site
+          # client gets {domain}/s/* -> app resolver + the
+          # branded_link_host stamp the master sender trusts. Idempotent;
+          # picks up new cutovers the night they launch.
+          python3 scripts/branded_links.py provision || true
 
       - name: Re-harvest new GBP photos (real-photo-first imagery, daily)
         env:
