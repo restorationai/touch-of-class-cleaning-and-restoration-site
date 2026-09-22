@@ -388,7 +388,7 @@
     },
     {
       "id": "2026-08-27-water-damage-hardwood-floors",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-27T06:15:00Z",
       "written_at": "2026-09-22T15:30:52Z",
       "post_url": "https://qualitycontracting.us/blog/water-damage-hardwood-floors/",
@@ -430,7 +430,8 @@
           "context": "on starts compounding the problem. The [IICRC S500 standard](https://www.iicrc.org/pa",
           "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
         }
-      ]
+      ],
+      "published_verified_at": "2026-09-22T15:33:43Z"
     },
     {
       "id": "2026-08-27-does-renters-insurance-cover-water-damage",
