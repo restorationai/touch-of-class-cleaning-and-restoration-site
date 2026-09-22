@@ -53,7 +53,7 @@
     },
     {
       "id": "2026-09-06-att-and-crawlspace-insulation-removal-and-install",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-06T10:23:57Z",
       "priority": 1,
       "content_type": "target_term",
@@ -84,7 +84,8 @@
           "context": "Go Green Restoration of NC is an IICRC-certified restoration and remediation company serving Zebulon",
           "reason": "names a certification not present in brand.certifications"
         }
-      ]
+      ],
+      "published_verified_at": "2026-09-22T15:24:23Z"
     },
     {
       "id": "2026-09-06-hvac-cleaning",
