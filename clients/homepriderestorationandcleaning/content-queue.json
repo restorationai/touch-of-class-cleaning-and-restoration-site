@@ -638,7 +638,7 @@
     },
     {
       "id": "2026-08-03-does-homeowners-insurance-cover-storm-damage",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-03T00:00:00Z",
       "written_at": "2026-09-22T15:26:53Z",
       "post_url": "https://homepriderestorationandcleaning.com/blog/does-homeowners-insurance-cover-storm-damage/",
@@ -673,7 +673,8 @@
         "https://content.naic.org/article/consumer_insight_after_storm_read_fine_print_avoid_signing_away_your_insurance_benefits.htm",
         "https://insurance.utah.gov/"
       ],
-      "notes": "Flagship storm-insurance pillar: KD 2 with an $18.39 CPC, so this is cheap organic real estate for a term with real commercial value. Lead with the covered-vs-excluded split (wind, hail, lightning, weight of snow/ice covered; rising-water flooding and wear-and-tear excluded) because that is the distinction Utah homeowners get wrong. Link out to the planned /blog/storm-damage-insurance-claim-checklist/ post rather than repeating claim-filing steps."
+      "notes": "Flagship storm-insurance pillar: KD 2 with an $18.39 CPC, so this is cheap organic real estate for a term with real commercial value. Lead with the covered-vs-excluded split (wind, hail, lightning, weight of snow/ice covered; rising-water flooding and wear-and-tear excluded) because that is the distinction Utah homeowners get wrong. Link out to the planned /blog/storm-damage-insurance-claim-checklist/ post rather than repeating claim-filing steps.",
+      "published_verified_at": "2026-09-22T15:28:59Z"
     },
     {
       "id": "2026-08-03-does-homeowners-insurance-cover-wind-damage",
