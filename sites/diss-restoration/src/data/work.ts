@@ -20,30 +20,30 @@ import type { BeforeAfterPair } from "~/components/ui/BeforeAfterSection.astro";
 export const workPairs: BeforeAfterPair[] = [
   {
     label: "Water Damage Restoration",
-    beforeSrc: "/images/before-after/water-before.png",
+    beforeSrc: "/images/before-after/water-before.webp",
     beforeAlt: "Flooded living room with standing water before restoration",
-    afterSrc: "/images/before-after/water-after.png",
+    afterSrc: "/images/before-after/water-after.webp",
     afterAlt: "Same living room fully dried and restored",
   },
   {
     label: "Fire & Smoke Restoration",
-    beforeSrc: "/images/before-after/fire-before.png",
+    beforeSrc: "/images/before-after/fire-before.webp",
     beforeAlt: "Kitchen with soot and smoke damage before restoration",
-    afterSrc: "/images/before-after/fire-after.png",
+    afterSrc: "/images/before-after/fire-after.webp",
     afterAlt: "Same kitchen fully cleaned and restored after fire damage",
   },
   {
     label: "Mold Remediation",
-    beforeSrc: "/images/before-after/mold-before.png",
+    beforeSrc: "/images/before-after/mold-before.webp",
     beforeAlt: "Bathroom wall with spreading mold before remediation",
-    afterSrc: "/images/before-after/mold-after.png",
+    afterSrc: "/images/before-after/mold-after.webp",
     afterAlt: "Same bathroom wall clean and repainted after mold remediation",
   },
   {
     label: "Sewage Cleanup",
-    beforeSrc: "/images/before-after/sewage-before.png",
+    beforeSrc: "/images/before-after/sewage-before.webp",
     beforeAlt: "Basement floor after a sewage backup before cleanup",
-    afterSrc: "/images/before-after/sewage-after.png",
+    afterSrc: "/images/before-after/sewage-after.webp",
     afterAlt: "Same basement floor disinfected and dry after cleanup",
   }
 ];
