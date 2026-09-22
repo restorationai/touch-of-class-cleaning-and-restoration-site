@@ -152,6 +152,11 @@
       "city": "Carnegie",
       "state": "PA",
       "slug": "carnegie-pa"
+    },
+    {
+      "city": "Castle Shannon",
+      "state": "PA",
+      "slug": "castle-shannon-pa"
     }
   ],
   "template": "restoration",

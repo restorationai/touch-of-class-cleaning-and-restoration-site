@@ -301,6 +301,15 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/moapa-valley-nv/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/las-vegas-nv/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1822,6 +1831,96 @@
     "missing_stubs": []
   },
   "/service-areas/moapa-town-nv/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/moapa-valley-nv/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/moapa-valley-nv/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/moapa-valley-nv/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/moapa-valley-nv/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/moapa-valley-nv/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/moapa-valley-nv/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/moapa-valley-nv/biohazard-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/moapa-valley-nv/contents-restoration-storage/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/moapa-valley-nv/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

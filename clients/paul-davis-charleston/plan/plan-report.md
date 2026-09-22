@@ -1,20 +1,20 @@
 # Site Plan Report — Paul Davis Restoration of Charleston
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-22T14:28:14.809953+00:00
+- Generated: 2026-09-22T18:10:24.284036+00:00
 - Domain: `None`
 - Services selected: 4 of 65 catalog entries
-- Service areas: 19
+- Service areas: 20
 - Cross-product enabled: True
-- Total URLs: **115**
-- Total internal links: 863 (avg 7.5 per page)
+- Total URLs: **120**
+- Total internal links: 902 (avg 7.5 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 72 |
-| `service-area` | 18 |
+| `service-area-service` | 76 |
+| `service-area` | 19 |
 | `blog-post` | 12 |
 | `service-landing` | 4 |
 | `legal` | 3 |
@@ -53,6 +53,7 @@
 - `meggett-sc` — Meggett, SC
 - `ridgeville-sc` — Ridgeville, SC
 - `seabrook-island-sc` — Seabrook Island, SC
+- `bonneau-sc` — Bonneau, SC
 
 ## Top 10 priority pages
 
@@ -65,9 +66,9 @@
 | `/service-areas/awendaw-sc/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration awendaw |
 | `/service-areas/awendaw-sc/mold-remediation/` | `service-area-service` | 7.0 | mold remediation awendaw |
 | `/service-areas/awendaw-sc/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration awendaw |
-| `/service-areas/folly-beach-sc/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration folly beach |
-| `/service-areas/folly-beach-sc/mold-remediation/` | `service-area-service` | 7.0 | mold remediation folly beach |
-| `/service-areas/folly-beach-sc/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration folly beach |
+| `/service-areas/bonneau-sc/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration bonneau |
+| `/service-areas/bonneau-sc/mold-remediation/` | `service-area-service` | 7.0 | mold remediation bonneau |
+| `/service-areas/bonneau-sc/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration bonneau |
 
 ## Validation
 

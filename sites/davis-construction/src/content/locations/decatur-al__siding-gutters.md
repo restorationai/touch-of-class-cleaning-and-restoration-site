@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Siding and Gutters in Decatur, AL | Davis Construction Contractors"
+h1: "Siding and Gutters in Decatur"
+meta_description: "Trusted siding and gutters in Decatur, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326."
+primary_keyword: "siding and gutters decatur"
+secondary_keywords: ["siding contractor", "siding installation", "siding replacement", "gutter installation", "exterior contractor"]
+search_intent: "local_commercial"
+priority: 5.6
+plan_hash: "54e0ab13803290a6"
+generated_at: "2026-09-22T18:09:59.775270+00:00"
+manual_override: false
+internal_links: ["/services/siding-gutters/", "/service-areas/decatur-al/", "/service-areas/decatur-al/home-remodeling/", "/service-areas/decatur-al/roofing/", "/service-areas/ardmore-al/siding-gutters/", "/service-areas/athens-al/siding-gutters/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Decatur", "url": "/service-areas/decatur-al/"}, {"name": "Siding and Gutters"}]
+faq: []
+area_slug: "decatur-al"
+service_slug: "siding-gutters"
+city: "Decatur"
+state: "AL"
+service_display: "Siding and Gutters"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug davis-construction` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Siding and Gutters in Decatur.

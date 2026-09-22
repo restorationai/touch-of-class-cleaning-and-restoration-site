@@ -20,6 +20,7 @@
     "/service-areas/gardendale-tx/",
     "/service-areas/goldsmith-tx/",
     "/service-areas/greenwood-tx/",
+    "/service-areas/imperial-tx/",
     "/service-areas/mccamey-tx/",
     "/service-areas/monahans-tx/",
     "/service-areas/odessa-tx/",
@@ -48,6 +49,7 @@
     "/service-areas/gardendale-tx/",
     "/service-areas/goldsmith-tx/",
     "/service-areas/greenwood-tx/",
+    "/service-areas/imperial-tx/",
     "/service-areas/mccamey-tx/",
     "/service-areas/monahans-tx/",
     "/service-areas/odessa-tx/",
@@ -87,10 +89,10 @@
     "/service-areas/gardendale-tx/water-damage-restoration/",
     "/service-areas/goldsmith-tx/water-damage-restoration/",
     "/service-areas/greenwood-tx/water-damage-restoration/",
+    "/service-areas/imperial-tx/water-damage-restoration/",
     "/service-areas/mccamey-tx/water-damage-restoration/",
     "/service-areas/monahans-tx/water-damage-restoration/",
     "/service-areas/odessa-tx/water-damage-restoration/",
-    "/service-areas/southwest-sandhill-tx/water-damage-restoration/",
     "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -107,10 +109,10 @@
     "/service-areas/gardendale-tx/sewage-cleanup/",
     "/service-areas/goldsmith-tx/sewage-cleanup/",
     "/service-areas/greenwood-tx/sewage-cleanup/",
+    "/service-areas/imperial-tx/sewage-cleanup/",
     "/service-areas/mccamey-tx/sewage-cleanup/",
     "/service-areas/monahans-tx/sewage-cleanup/",
     "/service-areas/odessa-tx/sewage-cleanup/",
-    "/service-areas/southwest-sandhill-tx/sewage-cleanup/",
     "/blog/sewage-backup-health-risks/"
   ],
   "/services/storm-damage-restoration/": [
@@ -124,10 +126,10 @@
     "/service-areas/gardendale-tx/storm-damage-restoration/",
     "/service-areas/goldsmith-tx/storm-damage-restoration/",
     "/service-areas/greenwood-tx/storm-damage-restoration/",
+    "/service-areas/imperial-tx/storm-damage-restoration/",
     "/service-areas/mccamey-tx/storm-damage-restoration/",
     "/service-areas/monahans-tx/storm-damage-restoration/",
     "/service-areas/odessa-tx/storm-damage-restoration/",
-    "/service-areas/southwest-sandhill-tx/storm-damage-restoration/",
     "/blog/storm-damage-insurance-claim-checklist/"
   ],
   "/services/air-duct-cleaning/": [
@@ -141,10 +143,10 @@
     "/service-areas/gardendale-tx/air-duct-cleaning/",
     "/service-areas/goldsmith-tx/air-duct-cleaning/",
     "/service-areas/greenwood-tx/air-duct-cleaning/",
+    "/service-areas/imperial-tx/air-duct-cleaning/",
     "/service-areas/mccamey-tx/air-duct-cleaning/",
     "/service-areas/monahans-tx/air-duct-cleaning/",
-    "/service-areas/odessa-tx/air-duct-cleaning/",
-    "/service-areas/southwest-sandhill-tx/air-duct-cleaning/"
+    "/service-areas/odessa-tx/air-duct-cleaning/"
   ],
   "/services/water-cleanup/": [
     "/services/",
@@ -157,10 +159,10 @@
     "/service-areas/gardendale-tx/water-cleanup/",
     "/service-areas/goldsmith-tx/water-cleanup/",
     "/service-areas/greenwood-tx/water-cleanup/",
+    "/service-areas/imperial-tx/water-cleanup/",
     "/service-areas/mccamey-tx/water-cleanup/",
     "/service-areas/monahans-tx/water-cleanup/",
     "/service-areas/odessa-tx/water-cleanup/",
-    "/service-areas/southwest-sandhill-tx/water-cleanup/",
     "/services/water-damage-restoration/"
   ],
   "/services/carpet-cleaning/": [
@@ -174,10 +176,10 @@
     "/service-areas/gardendale-tx/carpet-cleaning/",
     "/service-areas/goldsmith-tx/carpet-cleaning/",
     "/service-areas/greenwood-tx/carpet-cleaning/",
+    "/service-areas/imperial-tx/carpet-cleaning/",
     "/service-areas/mccamey-tx/carpet-cleaning/",
     "/service-areas/monahans-tx/carpet-cleaning/",
-    "/service-areas/odessa-tx/carpet-cleaning/",
-    "/service-areas/southwest-sandhill-tx/carpet-cleaning/"
+    "/service-areas/odessa-tx/carpet-cleaning/"
   ],
   "/services/junk-debris-removal/": [
     "/services/",
@@ -190,10 +192,10 @@
     "/service-areas/gardendale-tx/junk-debris-removal/",
     "/service-areas/goldsmith-tx/junk-debris-removal/",
     "/service-areas/greenwood-tx/junk-debris-removal/",
+    "/service-areas/imperial-tx/junk-debris-removal/",
     "/service-areas/mccamey-tx/junk-debris-removal/",
     "/service-areas/monahans-tx/junk-debris-removal/",
-    "/service-areas/odessa-tx/junk-debris-removal/",
-    "/service-areas/southwest-sandhill-tx/junk-debris-removal/"
+    "/service-areas/odessa-tx/junk-debris-removal/"
   ],
   "/services/tile-grout-cleaning/": [
     "/services/",
@@ -206,10 +208,10 @@
     "/service-areas/gardendale-tx/tile-grout-cleaning/",
     "/service-areas/goldsmith-tx/tile-grout-cleaning/",
     "/service-areas/greenwood-tx/tile-grout-cleaning/",
+    "/service-areas/imperial-tx/tile-grout-cleaning/",
     "/service-areas/mccamey-tx/tile-grout-cleaning/",
     "/service-areas/monahans-tx/tile-grout-cleaning/",
-    "/service-areas/odessa-tx/tile-grout-cleaning/",
-    "/service-areas/southwest-sandhill-tx/tile-grout-cleaning/"
+    "/service-areas/odessa-tx/tile-grout-cleaning/"
   ],
   "/service-areas/odessa-tx/": [
     "/service-areas/",
@@ -420,6 +422,21 @@
     "/service-areas/andrews-tx/",
     "/service-areas/big-spring-tx/",
     "/service-areas/crane-tx/"
+  ],
+  "/service-areas/imperial-tx/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/imperial-tx/water-damage-restoration/",
+    "/service-areas/imperial-tx/sewage-cleanup/",
+    "/service-areas/imperial-tx/storm-damage-restoration/",
+    "/service-areas/imperial-tx/water-cleanup/",
+    "/service-areas/imperial-tx/air-duct-cleaning/",
+    "/service-areas/imperial-tx/junk-debris-removal/",
+    "/service-areas/imperial-tx/carpet-cleaning/",
+    "/service-areas/imperial-tx/tile-grout-cleaning/",
+    "/service-areas/andrews-tx/",
+    "/service-areas/big-lake-tx/",
+    "/service-areas/big-spring-tx/"
   ],
   "/service-areas/odessa-tx/water-damage-restoration/": [
     "/services/water-damage-restoration/",
@@ -1427,6 +1444,78 @@
     "/service-areas/big-lake-tx/sewage-cleanup/",
     "/service-areas/andrews-tx/tile-grout-cleaning/",
     "/service-areas/big-spring-tx/tile-grout-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/imperial-tx/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/imperial-tx/",
+    "/service-areas/imperial-tx/sewage-cleanup/",
+    "/service-areas/imperial-tx/storm-damage-restoration/",
+    "/service-areas/andrews-tx/water-damage-restoration/",
+    "/service-areas/big-lake-tx/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/imperial-tx/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/imperial-tx/",
+    "/service-areas/imperial-tx/water-damage-restoration/",
+    "/service-areas/imperial-tx/storm-damage-restoration/",
+    "/service-areas/andrews-tx/sewage-cleanup/",
+    "/service-areas/big-lake-tx/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/imperial-tx/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/imperial-tx/",
+    "/service-areas/imperial-tx/water-damage-restoration/",
+    "/service-areas/imperial-tx/sewage-cleanup/",
+    "/service-areas/andrews-tx/storm-damage-restoration/",
+    "/service-areas/big-lake-tx/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/imperial-tx/air-duct-cleaning/": [
+    "/services/air-duct-cleaning/",
+    "/service-areas/imperial-tx/",
+    "/service-areas/imperial-tx/water-damage-restoration/",
+    "/service-areas/imperial-tx/sewage-cleanup/",
+    "/service-areas/andrews-tx/air-duct-cleaning/",
+    "/service-areas/big-lake-tx/air-duct-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/imperial-tx/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/imperial-tx/",
+    "/service-areas/imperial-tx/water-damage-restoration/",
+    "/service-areas/imperial-tx/sewage-cleanup/",
+    "/service-areas/andrews-tx/water-cleanup/",
+    "/service-areas/big-lake-tx/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/imperial-tx/carpet-cleaning/": [
+    "/services/carpet-cleaning/",
+    "/service-areas/imperial-tx/",
+    "/service-areas/imperial-tx/water-damage-restoration/",
+    "/service-areas/imperial-tx/sewage-cleanup/",
+    "/service-areas/andrews-tx/carpet-cleaning/",
+    "/service-areas/big-lake-tx/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/imperial-tx/junk-debris-removal/": [
+    "/services/junk-debris-removal/",
+    "/service-areas/imperial-tx/",
+    "/service-areas/imperial-tx/water-damage-restoration/",
+    "/service-areas/imperial-tx/sewage-cleanup/",
+    "/service-areas/andrews-tx/junk-debris-removal/",
+    "/service-areas/big-lake-tx/junk-debris-removal/",
+    "/contact/"
+  ],
+  "/service-areas/imperial-tx/tile-grout-cleaning/": [
+    "/services/tile-grout-cleaning/",
+    "/service-areas/imperial-tx/",
+    "/service-areas/imperial-tx/water-damage-restoration/",
+    "/service-areas/imperial-tx/sewage-cleanup/",
+    "/service-areas/andrews-tx/tile-grout-cleaning/",
+    "/service-areas/big-lake-tx/tile-grout-cleaning/",
     "/contact/"
   ],
   "/blog/what-to-do-first-24-hours-water-damage/": [

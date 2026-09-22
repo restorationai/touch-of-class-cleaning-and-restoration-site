@@ -413,6 +413,11 @@
       "city": "Makakilo",
       "state": "HI",
       "slug": "makakilo-hi"
+    },
+    {
+      "city": "Waianae",
+      "state": "HI",
+      "slug": "waianae-hi"
     }
   ],
   "brand": {

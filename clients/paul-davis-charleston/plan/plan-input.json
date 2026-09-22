@@ -107,6 +107,11 @@
       "city": "Seabrook Island",
       "state": "SC",
       "slug": "seabrook-island-sc"
+    },
+    {
+      "city": "Bonneau",
+      "state": "SC",
+      "slug": "bonneau-sc"
     }
   ]
 }

@@ -1,20 +1,20 @@
 # Site Plan Report — Katofsky Construction LLC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-22T14:42:17.211348+00:00
+- Generated: 2026-09-22T18:10:16.953815+00:00
 - Domain: `katofskyconstruction.com`
 - Services selected: 12 of 65 catalog entries
-- Service areas: 22
+- Service areas: 23
 - Cross-product enabled: True
-- Total URLs: **299**
-- Total internal links: 2399 (avg 8.0 per page)
+- Total URLs: **312**
+- Total internal links: 2502 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 252 |
-| `service-area` | 21 |
+| `service-area-service` | 264 |
+| `service-area` | 22 |
 | `service-landing` | 12 |
 | `blog-post` | 5 |
 | `legal` | 3 |
@@ -64,6 +64,7 @@
 - `jeannette-pa` — Jeannette, PA
 - `green-tree-pa` — Green Tree, PA
 - `carnegie-pa` — Carnegie, PA
+- `castle-shannon-pa` — Castle Shannon, PA
 
 ## Top 10 priority pages
 

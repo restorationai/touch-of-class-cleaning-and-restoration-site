@@ -159,6 +159,11 @@
       "city": "Elkmont",
       "state": "AL",
       "slug": "elkmont-al"
+    },
+    {
+      "city": "Decatur",
+      "state": "AL",
+      "slug": "decatur-al"
     }
   ],
   "brand": {

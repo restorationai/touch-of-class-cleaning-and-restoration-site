@@ -163,6 +163,11 @@
       "city": "Franklin Town",
       "state": "MA",
       "slug": "franklin-town-ma"
+    },
+    {
+      "city": "Palmer Town",
+      "state": "MA",
+      "slug": "palmer-town-ma"
     }
   ],
   "service_radius_description": "Southern New England, with crews responding across a 50 mile radius of Auburn"

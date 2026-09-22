@@ -260,6 +260,11 @@
       "city": "Louisburg",
       "state": "NC",
       "slug": "louisburg-nc"
+    },
+    {
+      "city": "Youngsville",
+      "state": "NC",
+      "slug": "youngsville-nc"
     }
   ],
   "template": "restoration",

@@ -10,10 +10,10 @@
   "plan": {
     "template": "restoration",
     "template_version": "0.3.0",
-    "url_count": 115,
-    "generated_at": "2026-09-22T14:28:14.810165+00:00"
+    "url_count": 120,
+    "generated_at": "2026-09-22T18:10:24.284274+00:00"
   },
-  "updated_at": "2026-09-22T14:28:14.810171+00:00",
+  "updated_at": "2026-09-22T18:10:24.284280+00:00",
   "build": {
     "github_repo": "restorationai/paul-davis-charleston-site",
     "last_pushed_main_at": "2026-09-20T22:30:43.895135+00:00"

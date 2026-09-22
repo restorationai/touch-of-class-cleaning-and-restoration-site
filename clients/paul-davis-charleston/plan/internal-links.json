@@ -9,6 +9,7 @@
     "/services/water-damage-restoration/",
     "/services/water-cleanup/",
     "/service-areas/awendaw-sc/",
+    "/service-areas/bonneau-sc/",
     "/service-areas/folly-beach-sc/",
     "/service-areas/goose-creek-sc/",
     "/service-areas/hanahan-sc/",
@@ -37,6 +38,7 @@
   "/service-areas/": [
     "/",
     "/service-areas/awendaw-sc/",
+    "/service-areas/bonneau-sc/",
     "/service-areas/folly-beach-sc/",
     "/service-areas/goose-creek-sc/",
     "/service-areas/hanahan-sc/",
@@ -84,6 +86,7 @@
     "/services/",
     "/contact/",
     "/service-areas/awendaw-sc/water-damage-restoration/",
+    "/service-areas/bonneau-sc/water-damage-restoration/",
     "/service-areas/folly-beach-sc/water-damage-restoration/",
     "/service-areas/goose-creek-sc/water-damage-restoration/",
     "/service-areas/hanahan-sc/water-damage-restoration/",
@@ -94,7 +97,6 @@
     "/service-areas/ladson-sc/water-damage-restoration/",
     "/service-areas/meggett-sc/water-damage-restoration/",
     "/service-areas/moncks-corner-sc/water-damage-restoration/",
-    "/service-areas/mount-pleasant-sc/water-damage-restoration/",
     "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -104,6 +106,7 @@
     "/services/",
     "/contact/",
     "/service-areas/awendaw-sc/fire-damage-restoration/",
+    "/service-areas/bonneau-sc/fire-damage-restoration/",
     "/service-areas/folly-beach-sc/fire-damage-restoration/",
     "/service-areas/goose-creek-sc/fire-damage-restoration/",
     "/service-areas/hanahan-sc/fire-damage-restoration/",
@@ -114,7 +117,6 @@
     "/service-areas/ladson-sc/fire-damage-restoration/",
     "/service-areas/meggett-sc/fire-damage-restoration/",
     "/service-areas/moncks-corner-sc/fire-damage-restoration/",
-    "/service-areas/mount-pleasant-sc/fire-damage-restoration/",
     "/blog/choosing-a-restoration-company/",
     "/blog/fire-damage-restoration-process/",
     "/blog/smoke-odor-removal-techniques/"
@@ -123,6 +125,7 @@
     "/services/",
     "/contact/",
     "/service-areas/awendaw-sc/mold-remediation/",
+    "/service-areas/bonneau-sc/mold-remediation/",
     "/service-areas/folly-beach-sc/mold-remediation/",
     "/service-areas/goose-creek-sc/mold-remediation/",
     "/service-areas/hanahan-sc/mold-remediation/",
@@ -133,7 +136,6 @@
     "/service-areas/ladson-sc/mold-remediation/",
     "/service-areas/meggett-sc/mold-remediation/",
     "/service-areas/moncks-corner-sc/mold-remediation/",
-    "/service-areas/mount-pleasant-sc/mold-remediation/",
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
     "/blog/signs-of-hidden-mold/"
@@ -142,6 +144,7 @@
     "/services/",
     "/contact/",
     "/service-areas/awendaw-sc/water-cleanup/",
+    "/service-areas/bonneau-sc/water-cleanup/",
     "/service-areas/folly-beach-sc/water-cleanup/",
     "/service-areas/goose-creek-sc/water-cleanup/",
     "/service-areas/hanahan-sc/water-cleanup/",
@@ -152,7 +155,6 @@
     "/service-areas/ladson-sc/water-cleanup/",
     "/service-areas/meggett-sc/water-cleanup/",
     "/service-areas/moncks-corner-sc/water-cleanup/",
-    "/service-areas/mount-pleasant-sc/water-cleanup/",
     "/services/water-damage-restoration/"
   ],
   "/service-areas/mount-pleasant-sc/": [
@@ -163,8 +165,8 @@
     "/service-areas/mount-pleasant-sc/water-damage-restoration/",
     "/service-areas/mount-pleasant-sc/water-cleanup/",
     "/service-areas/awendaw-sc/",
-    "/service-areas/folly-beach-sc/",
-    "/service-areas/goose-creek-sc/"
+    "/service-areas/bonneau-sc/",
+    "/service-areas/folly-beach-sc/"
   ],
   "/service-areas/north-charleston-sc/": [
     "/service-areas/",
@@ -174,8 +176,8 @@
     "/service-areas/north-charleston-sc/water-damage-restoration/",
     "/service-areas/north-charleston-sc/water-cleanup/",
     "/service-areas/awendaw-sc/",
-    "/service-areas/folly-beach-sc/",
-    "/service-areas/goose-creek-sc/"
+    "/service-areas/bonneau-sc/",
+    "/service-areas/folly-beach-sc/"
   ],
   "/service-areas/summerville-sc/": [
     "/service-areas/",
@@ -185,8 +187,8 @@
     "/service-areas/summerville-sc/water-damage-restoration/",
     "/service-areas/summerville-sc/water-cleanup/",
     "/service-areas/awendaw-sc/",
-    "/service-areas/folly-beach-sc/",
-    "/service-areas/goose-creek-sc/"
+    "/service-areas/bonneau-sc/",
+    "/service-areas/folly-beach-sc/"
   ],
   "/service-areas/james-island-sc/": [
     "/service-areas/",
@@ -196,8 +198,8 @@
     "/service-areas/james-island-sc/water-damage-restoration/",
     "/service-areas/james-island-sc/water-cleanup/",
     "/service-areas/awendaw-sc/",
-    "/service-areas/folly-beach-sc/",
-    "/service-areas/goose-creek-sc/"
+    "/service-areas/bonneau-sc/",
+    "/service-areas/folly-beach-sc/"
   ],
   "/service-areas/hanahan-sc/": [
     "/service-areas/",
@@ -207,8 +209,8 @@
     "/service-areas/hanahan-sc/water-damage-restoration/",
     "/service-areas/hanahan-sc/water-cleanup/",
     "/service-areas/awendaw-sc/",
-    "/service-areas/folly-beach-sc/",
-    "/service-areas/goose-creek-sc/"
+    "/service-areas/bonneau-sc/",
+    "/service-areas/folly-beach-sc/"
   ],
   "/service-areas/goose-creek-sc/": [
     "/service-areas/",
@@ -218,8 +220,8 @@
     "/service-areas/goose-creek-sc/water-damage-restoration/",
     "/service-areas/goose-creek-sc/water-cleanup/",
     "/service-areas/awendaw-sc/",
-    "/service-areas/folly-beach-sc/",
-    "/service-areas/hanahan-sc/"
+    "/service-areas/bonneau-sc/",
+    "/service-areas/folly-beach-sc/"
   ],
   "/service-areas/sullivan-s-island-sc/": [
     "/service-areas/",
@@ -229,8 +231,8 @@
     "/service-areas/sullivan-s-island-sc/water-damage-restoration/",
     "/service-areas/sullivan-s-island-sc/water-cleanup/",
     "/service-areas/awendaw-sc/",
-    "/service-areas/folly-beach-sc/",
-    "/service-areas/goose-creek-sc/"
+    "/service-areas/bonneau-sc/",
+    "/service-areas/folly-beach-sc/"
   ],
   "/service-areas/isle-of-palms-sc/": [
     "/service-areas/",
@@ -240,8 +242,8 @@
     "/service-areas/isle-of-palms-sc/water-damage-restoration/",
     "/service-areas/isle-of-palms-sc/water-cleanup/",
     "/service-areas/awendaw-sc/",
-    "/service-areas/folly-beach-sc/",
-    "/service-areas/goose-creek-sc/"
+    "/service-areas/bonneau-sc/",
+    "/service-areas/folly-beach-sc/"
   ],
   "/service-areas/ladson-sc/": [
     "/service-areas/",
@@ -251,8 +253,8 @@
     "/service-areas/ladson-sc/water-damage-restoration/",
     "/service-areas/ladson-sc/water-cleanup/",
     "/service-areas/awendaw-sc/",
-    "/service-areas/folly-beach-sc/",
-    "/service-areas/goose-creek-sc/"
+    "/service-areas/bonneau-sc/",
+    "/service-areas/folly-beach-sc/"
   ],
   "/service-areas/awendaw-sc/": [
     "/service-areas/",
@@ -261,9 +263,9 @@
     "/service-areas/awendaw-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/water-cleanup/",
+    "/service-areas/bonneau-sc/",
     "/service-areas/folly-beach-sc/",
-    "/service-areas/goose-creek-sc/",
-    "/service-areas/hanahan-sc/"
+    "/service-areas/goose-creek-sc/"
   ],
   "/service-areas/folly-beach-sc/": [
     "/service-areas/",
@@ -273,8 +275,8 @@
     "/service-areas/folly-beach-sc/water-damage-restoration/",
     "/service-areas/folly-beach-sc/water-cleanup/",
     "/service-areas/awendaw-sc/",
-    "/service-areas/goose-creek-sc/",
-    "/service-areas/hanahan-sc/"
+    "/service-areas/bonneau-sc/",
+    "/service-areas/goose-creek-sc/"
   ],
   "/service-areas/hollywood-sc/": [
     "/service-areas/",
@@ -284,8 +286,8 @@
     "/service-areas/hollywood-sc/water-damage-restoration/",
     "/service-areas/hollywood-sc/water-cleanup/",
     "/service-areas/awendaw-sc/",
-    "/service-areas/folly-beach-sc/",
-    "/service-areas/goose-creek-sc/"
+    "/service-areas/bonneau-sc/",
+    "/service-areas/folly-beach-sc/"
   ],
   "/service-areas/ravenel-sc/": [
     "/service-areas/",
@@ -295,8 +297,8 @@
     "/service-areas/ravenel-sc/water-damage-restoration/",
     "/service-areas/ravenel-sc/water-cleanup/",
     "/service-areas/awendaw-sc/",
-    "/service-areas/folly-beach-sc/",
-    "/service-areas/goose-creek-sc/"
+    "/service-areas/bonneau-sc/",
+    "/service-areas/folly-beach-sc/"
   ],
   "/service-areas/moncks-corner-sc/": [
     "/service-areas/",
@@ -306,8 +308,8 @@
     "/service-areas/moncks-corner-sc/water-damage-restoration/",
     "/service-areas/moncks-corner-sc/water-cleanup/",
     "/service-areas/awendaw-sc/",
-    "/service-areas/folly-beach-sc/",
-    "/service-areas/goose-creek-sc/"
+    "/service-areas/bonneau-sc/",
+    "/service-areas/folly-beach-sc/"
   ],
   "/service-areas/kiawah-island-sc/": [
     "/service-areas/",
@@ -317,8 +319,8 @@
     "/service-areas/kiawah-island-sc/water-damage-restoration/",
     "/service-areas/kiawah-island-sc/water-cleanup/",
     "/service-areas/awendaw-sc/",
-    "/service-areas/folly-beach-sc/",
-    "/service-areas/goose-creek-sc/"
+    "/service-areas/bonneau-sc/",
+    "/service-areas/folly-beach-sc/"
   ],
   "/service-areas/meggett-sc/": [
     "/service-areas/",
@@ -328,8 +330,8 @@
     "/service-areas/meggett-sc/water-damage-restoration/",
     "/service-areas/meggett-sc/water-cleanup/",
     "/service-areas/awendaw-sc/",
-    "/service-areas/folly-beach-sc/",
-    "/service-areas/goose-creek-sc/"
+    "/service-areas/bonneau-sc/",
+    "/service-areas/folly-beach-sc/"
   ],
   "/service-areas/ridgeville-sc/": [
     "/service-areas/",
@@ -339,8 +341,8 @@
     "/service-areas/ridgeville-sc/water-damage-restoration/",
     "/service-areas/ridgeville-sc/water-cleanup/",
     "/service-areas/awendaw-sc/",
-    "/service-areas/folly-beach-sc/",
-    "/service-areas/goose-creek-sc/"
+    "/service-areas/bonneau-sc/",
+    "/service-areas/folly-beach-sc/"
   ],
   "/service-areas/seabrook-island-sc/": [
     "/service-areas/",
@@ -349,6 +351,17 @@
     "/service-areas/seabrook-island-sc/mold-remediation/",
     "/service-areas/seabrook-island-sc/water-damage-restoration/",
     "/service-areas/seabrook-island-sc/water-cleanup/",
+    "/service-areas/awendaw-sc/",
+    "/service-areas/bonneau-sc/",
+    "/service-areas/folly-beach-sc/"
+  ],
+  "/service-areas/bonneau-sc/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/bonneau-sc/fire-damage-restoration/",
+    "/service-areas/bonneau-sc/mold-remediation/",
+    "/service-areas/bonneau-sc/water-damage-restoration/",
+    "/service-areas/bonneau-sc/water-cleanup/",
     "/service-areas/awendaw-sc/",
     "/service-areas/folly-beach-sc/",
     "/service-areas/goose-creek-sc/"
@@ -359,7 +372,7 @@
     "/service-areas/mount-pleasant-sc/fire-damage-restoration/",
     "/service-areas/mount-pleasant-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-damage-restoration/",
-    "/service-areas/folly-beach-sc/water-damage-restoration/",
+    "/service-areas/bonneau-sc/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/mount-pleasant-sc/fire-damage-restoration/": [
@@ -368,7 +381,7 @@
     "/service-areas/mount-pleasant-sc/mold-remediation/",
     "/service-areas/mount-pleasant-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/fire-damage-restoration/",
-    "/service-areas/folly-beach-sc/fire-damage-restoration/",
+    "/service-areas/bonneau-sc/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/mount-pleasant-sc/mold-remediation/": [
@@ -377,7 +390,7 @@
     "/service-areas/mount-pleasant-sc/fire-damage-restoration/",
     "/service-areas/mount-pleasant-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/mold-remediation/",
-    "/service-areas/folly-beach-sc/mold-remediation/",
+    "/service-areas/bonneau-sc/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/mount-pleasant-sc/water-cleanup/": [
@@ -386,7 +399,7 @@
     "/service-areas/mount-pleasant-sc/fire-damage-restoration/",
     "/service-areas/mount-pleasant-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-cleanup/",
-    "/service-areas/folly-beach-sc/water-cleanup/",
+    "/service-areas/bonneau-sc/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/north-charleston-sc/water-damage-restoration/": [
@@ -395,7 +408,7 @@
     "/service-areas/north-charleston-sc/fire-damage-restoration/",
     "/service-areas/north-charleston-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-damage-restoration/",
-    "/service-areas/folly-beach-sc/water-damage-restoration/",
+    "/service-areas/bonneau-sc/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/north-charleston-sc/fire-damage-restoration/": [
@@ -404,7 +417,7 @@
     "/service-areas/north-charleston-sc/mold-remediation/",
     "/service-areas/north-charleston-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/fire-damage-restoration/",
-    "/service-areas/folly-beach-sc/fire-damage-restoration/",
+    "/service-areas/bonneau-sc/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/north-charleston-sc/mold-remediation/": [
@@ -413,7 +426,7 @@
     "/service-areas/north-charleston-sc/fire-damage-restoration/",
     "/service-areas/north-charleston-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/mold-remediation/",
-    "/service-areas/folly-beach-sc/mold-remediation/",
+    "/service-areas/bonneau-sc/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/north-charleston-sc/water-cleanup/": [
@@ -422,7 +435,7 @@
     "/service-areas/north-charleston-sc/fire-damage-restoration/",
     "/service-areas/north-charleston-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-cleanup/",
-    "/service-areas/folly-beach-sc/water-cleanup/",
+    "/service-areas/bonneau-sc/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/summerville-sc/water-damage-restoration/": [
@@ -431,7 +444,7 @@
     "/service-areas/summerville-sc/fire-damage-restoration/",
     "/service-areas/summerville-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-damage-restoration/",
-    "/service-areas/folly-beach-sc/water-damage-restoration/",
+    "/service-areas/bonneau-sc/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/summerville-sc/fire-damage-restoration/": [
@@ -440,7 +453,7 @@
     "/service-areas/summerville-sc/mold-remediation/",
     "/service-areas/summerville-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/fire-damage-restoration/",
-    "/service-areas/folly-beach-sc/fire-damage-restoration/",
+    "/service-areas/bonneau-sc/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/summerville-sc/mold-remediation/": [
@@ -449,7 +462,7 @@
     "/service-areas/summerville-sc/fire-damage-restoration/",
     "/service-areas/summerville-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/mold-remediation/",
-    "/service-areas/folly-beach-sc/mold-remediation/",
+    "/service-areas/bonneau-sc/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/summerville-sc/water-cleanup/": [
@@ -458,7 +471,7 @@
     "/service-areas/summerville-sc/fire-damage-restoration/",
     "/service-areas/summerville-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-cleanup/",
-    "/service-areas/folly-beach-sc/water-cleanup/",
+    "/service-areas/bonneau-sc/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/james-island-sc/water-damage-restoration/": [
@@ -467,7 +480,7 @@
     "/service-areas/james-island-sc/fire-damage-restoration/",
     "/service-areas/james-island-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-damage-restoration/",
-    "/service-areas/folly-beach-sc/water-damage-restoration/",
+    "/service-areas/bonneau-sc/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/james-island-sc/fire-damage-restoration/": [
@@ -476,7 +489,7 @@
     "/service-areas/james-island-sc/mold-remediation/",
     "/service-areas/james-island-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/fire-damage-restoration/",
-    "/service-areas/folly-beach-sc/fire-damage-restoration/",
+    "/service-areas/bonneau-sc/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/james-island-sc/mold-remediation/": [
@@ -485,7 +498,7 @@
     "/service-areas/james-island-sc/fire-damage-restoration/",
     "/service-areas/james-island-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/mold-remediation/",
-    "/service-areas/folly-beach-sc/mold-remediation/",
+    "/service-areas/bonneau-sc/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/james-island-sc/water-cleanup/": [
@@ -494,7 +507,7 @@
     "/service-areas/james-island-sc/fire-damage-restoration/",
     "/service-areas/james-island-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-cleanup/",
-    "/service-areas/folly-beach-sc/water-cleanup/",
+    "/service-areas/bonneau-sc/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/hanahan-sc/water-damage-restoration/": [
@@ -503,7 +516,7 @@
     "/service-areas/hanahan-sc/fire-damage-restoration/",
     "/service-areas/hanahan-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-damage-restoration/",
-    "/service-areas/folly-beach-sc/water-damage-restoration/",
+    "/service-areas/bonneau-sc/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/hanahan-sc/fire-damage-restoration/": [
@@ -512,7 +525,7 @@
     "/service-areas/hanahan-sc/mold-remediation/",
     "/service-areas/hanahan-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/fire-damage-restoration/",
-    "/service-areas/folly-beach-sc/fire-damage-restoration/",
+    "/service-areas/bonneau-sc/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/hanahan-sc/mold-remediation/": [
@@ -521,7 +534,7 @@
     "/service-areas/hanahan-sc/fire-damage-restoration/",
     "/service-areas/hanahan-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/mold-remediation/",
-    "/service-areas/folly-beach-sc/mold-remediation/",
+    "/service-areas/bonneau-sc/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/hanahan-sc/water-cleanup/": [
@@ -530,7 +543,7 @@
     "/service-areas/hanahan-sc/fire-damage-restoration/",
     "/service-areas/hanahan-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-cleanup/",
-    "/service-areas/folly-beach-sc/water-cleanup/",
+    "/service-areas/bonneau-sc/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/goose-creek-sc/water-damage-restoration/": [
@@ -539,7 +552,7 @@
     "/service-areas/goose-creek-sc/fire-damage-restoration/",
     "/service-areas/goose-creek-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-damage-restoration/",
-    "/service-areas/folly-beach-sc/water-damage-restoration/",
+    "/service-areas/bonneau-sc/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/goose-creek-sc/fire-damage-restoration/": [
@@ -548,7 +561,7 @@
     "/service-areas/goose-creek-sc/mold-remediation/",
     "/service-areas/goose-creek-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/fire-damage-restoration/",
-    "/service-areas/folly-beach-sc/fire-damage-restoration/",
+    "/service-areas/bonneau-sc/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/goose-creek-sc/mold-remediation/": [
@@ -557,7 +570,7 @@
     "/service-areas/goose-creek-sc/fire-damage-restoration/",
     "/service-areas/goose-creek-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/mold-remediation/",
-    "/service-areas/folly-beach-sc/mold-remediation/",
+    "/service-areas/bonneau-sc/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/goose-creek-sc/water-cleanup/": [
@@ -566,7 +579,7 @@
     "/service-areas/goose-creek-sc/fire-damage-restoration/",
     "/service-areas/goose-creek-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-cleanup/",
-    "/service-areas/folly-beach-sc/water-cleanup/",
+    "/service-areas/bonneau-sc/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/sullivan-s-island-sc/water-damage-restoration/": [
@@ -575,7 +588,7 @@
     "/service-areas/sullivan-s-island-sc/fire-damage-restoration/",
     "/service-areas/sullivan-s-island-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-damage-restoration/",
-    "/service-areas/folly-beach-sc/water-damage-restoration/",
+    "/service-areas/bonneau-sc/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/sullivan-s-island-sc/fire-damage-restoration/": [
@@ -584,7 +597,7 @@
     "/service-areas/sullivan-s-island-sc/mold-remediation/",
     "/service-areas/sullivan-s-island-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/fire-damage-restoration/",
-    "/service-areas/folly-beach-sc/fire-damage-restoration/",
+    "/service-areas/bonneau-sc/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/sullivan-s-island-sc/mold-remediation/": [
@@ -593,7 +606,7 @@
     "/service-areas/sullivan-s-island-sc/fire-damage-restoration/",
     "/service-areas/sullivan-s-island-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/mold-remediation/",
-    "/service-areas/folly-beach-sc/mold-remediation/",
+    "/service-areas/bonneau-sc/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/sullivan-s-island-sc/water-cleanup/": [
@@ -602,7 +615,7 @@
     "/service-areas/sullivan-s-island-sc/fire-damage-restoration/",
     "/service-areas/sullivan-s-island-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-cleanup/",
-    "/service-areas/folly-beach-sc/water-cleanup/",
+    "/service-areas/bonneau-sc/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/isle-of-palms-sc/water-damage-restoration/": [
@@ -611,7 +624,7 @@
     "/service-areas/isle-of-palms-sc/fire-damage-restoration/",
     "/service-areas/isle-of-palms-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-damage-restoration/",
-    "/service-areas/folly-beach-sc/water-damage-restoration/",
+    "/service-areas/bonneau-sc/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/isle-of-palms-sc/fire-damage-restoration/": [
@@ -620,7 +633,7 @@
     "/service-areas/isle-of-palms-sc/mold-remediation/",
     "/service-areas/isle-of-palms-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/fire-damage-restoration/",
-    "/service-areas/folly-beach-sc/fire-damage-restoration/",
+    "/service-areas/bonneau-sc/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/isle-of-palms-sc/mold-remediation/": [
@@ -629,7 +642,7 @@
     "/service-areas/isle-of-palms-sc/fire-damage-restoration/",
     "/service-areas/isle-of-palms-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/mold-remediation/",
-    "/service-areas/folly-beach-sc/mold-remediation/",
+    "/service-areas/bonneau-sc/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/isle-of-palms-sc/water-cleanup/": [
@@ -638,7 +651,7 @@
     "/service-areas/isle-of-palms-sc/fire-damage-restoration/",
     "/service-areas/isle-of-palms-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-cleanup/",
-    "/service-areas/folly-beach-sc/water-cleanup/",
+    "/service-areas/bonneau-sc/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/ladson-sc/water-damage-restoration/": [
@@ -647,7 +660,7 @@
     "/service-areas/ladson-sc/fire-damage-restoration/",
     "/service-areas/ladson-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-damage-restoration/",
-    "/service-areas/folly-beach-sc/water-damage-restoration/",
+    "/service-areas/bonneau-sc/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/ladson-sc/fire-damage-restoration/": [
@@ -656,7 +669,7 @@
     "/service-areas/ladson-sc/mold-remediation/",
     "/service-areas/ladson-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/fire-damage-restoration/",
-    "/service-areas/folly-beach-sc/fire-damage-restoration/",
+    "/service-areas/bonneau-sc/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/ladson-sc/mold-remediation/": [
@@ -665,7 +678,7 @@
     "/service-areas/ladson-sc/fire-damage-restoration/",
     "/service-areas/ladson-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/mold-remediation/",
-    "/service-areas/folly-beach-sc/mold-remediation/",
+    "/service-areas/bonneau-sc/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/ladson-sc/water-cleanup/": [
@@ -674,7 +687,7 @@
     "/service-areas/ladson-sc/fire-damage-restoration/",
     "/service-areas/ladson-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-cleanup/",
-    "/service-areas/folly-beach-sc/water-cleanup/",
+    "/service-areas/bonneau-sc/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/awendaw-sc/water-damage-restoration/": [
@@ -682,8 +695,8 @@
     "/service-areas/awendaw-sc/",
     "/service-areas/awendaw-sc/fire-damage-restoration/",
     "/service-areas/awendaw-sc/mold-remediation/",
+    "/service-areas/bonneau-sc/water-damage-restoration/",
     "/service-areas/folly-beach-sc/water-damage-restoration/",
-    "/service-areas/goose-creek-sc/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/awendaw-sc/fire-damage-restoration/": [
@@ -691,8 +704,8 @@
     "/service-areas/awendaw-sc/",
     "/service-areas/awendaw-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-damage-restoration/",
+    "/service-areas/bonneau-sc/fire-damage-restoration/",
     "/service-areas/folly-beach-sc/fire-damage-restoration/",
-    "/service-areas/goose-creek-sc/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/awendaw-sc/mold-remediation/": [
@@ -700,8 +713,8 @@
     "/service-areas/awendaw-sc/",
     "/service-areas/awendaw-sc/fire-damage-restoration/",
     "/service-areas/awendaw-sc/water-damage-restoration/",
+    "/service-areas/bonneau-sc/mold-remediation/",
     "/service-areas/folly-beach-sc/mold-remediation/",
-    "/service-areas/goose-creek-sc/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/awendaw-sc/water-cleanup/": [
@@ -709,8 +722,8 @@
     "/service-areas/awendaw-sc/",
     "/service-areas/awendaw-sc/fire-damage-restoration/",
     "/service-areas/awendaw-sc/mold-remediation/",
+    "/service-areas/bonneau-sc/water-cleanup/",
     "/service-areas/folly-beach-sc/water-cleanup/",
-    "/service-areas/goose-creek-sc/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/folly-beach-sc/water-damage-restoration/": [
@@ -719,7 +732,7 @@
     "/service-areas/folly-beach-sc/fire-damage-restoration/",
     "/service-areas/folly-beach-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-damage-restoration/",
-    "/service-areas/goose-creek-sc/water-damage-restoration/",
+    "/service-areas/bonneau-sc/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/folly-beach-sc/fire-damage-restoration/": [
@@ -728,7 +741,7 @@
     "/service-areas/folly-beach-sc/mold-remediation/",
     "/service-areas/folly-beach-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/fire-damage-restoration/",
-    "/service-areas/goose-creek-sc/fire-damage-restoration/",
+    "/service-areas/bonneau-sc/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/folly-beach-sc/mold-remediation/": [
@@ -737,7 +750,7 @@
     "/service-areas/folly-beach-sc/fire-damage-restoration/",
     "/service-areas/folly-beach-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/mold-remediation/",
-    "/service-areas/goose-creek-sc/mold-remediation/",
+    "/service-areas/bonneau-sc/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/folly-beach-sc/water-cleanup/": [
@@ -746,7 +759,7 @@
     "/service-areas/folly-beach-sc/fire-damage-restoration/",
     "/service-areas/folly-beach-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-cleanup/",
-    "/service-areas/goose-creek-sc/water-cleanup/",
+    "/service-areas/bonneau-sc/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/hollywood-sc/water-damage-restoration/": [
@@ -755,7 +768,7 @@
     "/service-areas/hollywood-sc/fire-damage-restoration/",
     "/service-areas/hollywood-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-damage-restoration/",
-    "/service-areas/folly-beach-sc/water-damage-restoration/",
+    "/service-areas/bonneau-sc/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/hollywood-sc/fire-damage-restoration/": [
@@ -764,7 +777,7 @@
     "/service-areas/hollywood-sc/mold-remediation/",
     "/service-areas/hollywood-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/fire-damage-restoration/",
-    "/service-areas/folly-beach-sc/fire-damage-restoration/",
+    "/service-areas/bonneau-sc/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/hollywood-sc/mold-remediation/": [
@@ -773,7 +786,7 @@
     "/service-areas/hollywood-sc/fire-damage-restoration/",
     "/service-areas/hollywood-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/mold-remediation/",
-    "/service-areas/folly-beach-sc/mold-remediation/",
+    "/service-areas/bonneau-sc/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/hollywood-sc/water-cleanup/": [
@@ -782,7 +795,7 @@
     "/service-areas/hollywood-sc/fire-damage-restoration/",
     "/service-areas/hollywood-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-cleanup/",
-    "/service-areas/folly-beach-sc/water-cleanup/",
+    "/service-areas/bonneau-sc/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/ravenel-sc/water-damage-restoration/": [
@@ -791,7 +804,7 @@
     "/service-areas/ravenel-sc/fire-damage-restoration/",
     "/service-areas/ravenel-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-damage-restoration/",
-    "/service-areas/folly-beach-sc/water-damage-restoration/",
+    "/service-areas/bonneau-sc/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/ravenel-sc/fire-damage-restoration/": [
@@ -800,7 +813,7 @@
     "/service-areas/ravenel-sc/mold-remediation/",
     "/service-areas/ravenel-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/fire-damage-restoration/",
-    "/service-areas/folly-beach-sc/fire-damage-restoration/",
+    "/service-areas/bonneau-sc/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/ravenel-sc/mold-remediation/": [
@@ -809,7 +822,7 @@
     "/service-areas/ravenel-sc/fire-damage-restoration/",
     "/service-areas/ravenel-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/mold-remediation/",
-    "/service-areas/folly-beach-sc/mold-remediation/",
+    "/service-areas/bonneau-sc/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/ravenel-sc/water-cleanup/": [
@@ -818,7 +831,7 @@
     "/service-areas/ravenel-sc/fire-damage-restoration/",
     "/service-areas/ravenel-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-cleanup/",
-    "/service-areas/folly-beach-sc/water-cleanup/",
+    "/service-areas/bonneau-sc/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/moncks-corner-sc/water-damage-restoration/": [
@@ -827,7 +840,7 @@
     "/service-areas/moncks-corner-sc/fire-damage-restoration/",
     "/service-areas/moncks-corner-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-damage-restoration/",
-    "/service-areas/folly-beach-sc/water-damage-restoration/",
+    "/service-areas/bonneau-sc/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/moncks-corner-sc/fire-damage-restoration/": [
@@ -836,7 +849,7 @@
     "/service-areas/moncks-corner-sc/mold-remediation/",
     "/service-areas/moncks-corner-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/fire-damage-restoration/",
-    "/service-areas/folly-beach-sc/fire-damage-restoration/",
+    "/service-areas/bonneau-sc/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/moncks-corner-sc/mold-remediation/": [
@@ -845,7 +858,7 @@
     "/service-areas/moncks-corner-sc/fire-damage-restoration/",
     "/service-areas/moncks-corner-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/mold-remediation/",
-    "/service-areas/folly-beach-sc/mold-remediation/",
+    "/service-areas/bonneau-sc/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/moncks-corner-sc/water-cleanup/": [
@@ -854,7 +867,7 @@
     "/service-areas/moncks-corner-sc/fire-damage-restoration/",
     "/service-areas/moncks-corner-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-cleanup/",
-    "/service-areas/folly-beach-sc/water-cleanup/",
+    "/service-areas/bonneau-sc/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/kiawah-island-sc/water-damage-restoration/": [
@@ -863,7 +876,7 @@
     "/service-areas/kiawah-island-sc/fire-damage-restoration/",
     "/service-areas/kiawah-island-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-damage-restoration/",
-    "/service-areas/folly-beach-sc/water-damage-restoration/",
+    "/service-areas/bonneau-sc/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/kiawah-island-sc/fire-damage-restoration/": [
@@ -872,7 +885,7 @@
     "/service-areas/kiawah-island-sc/mold-remediation/",
     "/service-areas/kiawah-island-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/fire-damage-restoration/",
-    "/service-areas/folly-beach-sc/fire-damage-restoration/",
+    "/service-areas/bonneau-sc/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/kiawah-island-sc/mold-remediation/": [
@@ -881,7 +894,7 @@
     "/service-areas/kiawah-island-sc/fire-damage-restoration/",
     "/service-areas/kiawah-island-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/mold-remediation/",
-    "/service-areas/folly-beach-sc/mold-remediation/",
+    "/service-areas/bonneau-sc/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/kiawah-island-sc/water-cleanup/": [
@@ -890,7 +903,7 @@
     "/service-areas/kiawah-island-sc/fire-damage-restoration/",
     "/service-areas/kiawah-island-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-cleanup/",
-    "/service-areas/folly-beach-sc/water-cleanup/",
+    "/service-areas/bonneau-sc/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/meggett-sc/water-damage-restoration/": [
@@ -899,7 +912,7 @@
     "/service-areas/meggett-sc/fire-damage-restoration/",
     "/service-areas/meggett-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-damage-restoration/",
-    "/service-areas/folly-beach-sc/water-damage-restoration/",
+    "/service-areas/bonneau-sc/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/meggett-sc/fire-damage-restoration/": [
@@ -908,7 +921,7 @@
     "/service-areas/meggett-sc/mold-remediation/",
     "/service-areas/meggett-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/fire-damage-restoration/",
-    "/service-areas/folly-beach-sc/fire-damage-restoration/",
+    "/service-areas/bonneau-sc/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/meggett-sc/mold-remediation/": [
@@ -917,7 +930,7 @@
     "/service-areas/meggett-sc/fire-damage-restoration/",
     "/service-areas/meggett-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/mold-remediation/",
-    "/service-areas/folly-beach-sc/mold-remediation/",
+    "/service-areas/bonneau-sc/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/meggett-sc/water-cleanup/": [
@@ -926,7 +939,7 @@
     "/service-areas/meggett-sc/fire-damage-restoration/",
     "/service-areas/meggett-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-cleanup/",
-    "/service-areas/folly-beach-sc/water-cleanup/",
+    "/service-areas/bonneau-sc/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/ridgeville-sc/water-damage-restoration/": [
@@ -935,7 +948,7 @@
     "/service-areas/ridgeville-sc/fire-damage-restoration/",
     "/service-areas/ridgeville-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-damage-restoration/",
-    "/service-areas/folly-beach-sc/water-damage-restoration/",
+    "/service-areas/bonneau-sc/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/ridgeville-sc/fire-damage-restoration/": [
@@ -944,7 +957,7 @@
     "/service-areas/ridgeville-sc/mold-remediation/",
     "/service-areas/ridgeville-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/fire-damage-restoration/",
-    "/service-areas/folly-beach-sc/fire-damage-restoration/",
+    "/service-areas/bonneau-sc/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/ridgeville-sc/mold-remediation/": [
@@ -953,7 +966,7 @@
     "/service-areas/ridgeville-sc/fire-damage-restoration/",
     "/service-areas/ridgeville-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/mold-remediation/",
-    "/service-areas/folly-beach-sc/mold-remediation/",
+    "/service-areas/bonneau-sc/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/ridgeville-sc/water-cleanup/": [
@@ -962,7 +975,7 @@
     "/service-areas/ridgeville-sc/fire-damage-restoration/",
     "/service-areas/ridgeville-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-cleanup/",
-    "/service-areas/folly-beach-sc/water-cleanup/",
+    "/service-areas/bonneau-sc/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/seabrook-island-sc/water-damage-restoration/": [
@@ -971,7 +984,7 @@
     "/service-areas/seabrook-island-sc/fire-damage-restoration/",
     "/service-areas/seabrook-island-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-damage-restoration/",
-    "/service-areas/folly-beach-sc/water-damage-restoration/",
+    "/service-areas/bonneau-sc/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/seabrook-island-sc/fire-damage-restoration/": [
@@ -980,7 +993,7 @@
     "/service-areas/seabrook-island-sc/mold-remediation/",
     "/service-areas/seabrook-island-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/fire-damage-restoration/",
-    "/service-areas/folly-beach-sc/fire-damage-restoration/",
+    "/service-areas/bonneau-sc/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/seabrook-island-sc/mold-remediation/": [
@@ -989,7 +1002,7 @@
     "/service-areas/seabrook-island-sc/fire-damage-restoration/",
     "/service-areas/seabrook-island-sc/water-damage-restoration/",
     "/service-areas/awendaw-sc/mold-remediation/",
-    "/service-areas/folly-beach-sc/mold-remediation/",
+    "/service-areas/bonneau-sc/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/seabrook-island-sc/water-cleanup/": [
@@ -997,6 +1010,42 @@
     "/service-areas/seabrook-island-sc/",
     "/service-areas/seabrook-island-sc/fire-damage-restoration/",
     "/service-areas/seabrook-island-sc/mold-remediation/",
+    "/service-areas/awendaw-sc/water-cleanup/",
+    "/service-areas/bonneau-sc/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/bonneau-sc/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/bonneau-sc/",
+    "/service-areas/bonneau-sc/fire-damage-restoration/",
+    "/service-areas/bonneau-sc/mold-remediation/",
+    "/service-areas/awendaw-sc/water-damage-restoration/",
+    "/service-areas/folly-beach-sc/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/bonneau-sc/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/bonneau-sc/",
+    "/service-areas/bonneau-sc/mold-remediation/",
+    "/service-areas/bonneau-sc/water-damage-restoration/",
+    "/service-areas/awendaw-sc/fire-damage-restoration/",
+    "/service-areas/folly-beach-sc/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/bonneau-sc/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/bonneau-sc/",
+    "/service-areas/bonneau-sc/fire-damage-restoration/",
+    "/service-areas/bonneau-sc/water-damage-restoration/",
+    "/service-areas/awendaw-sc/mold-remediation/",
+    "/service-areas/folly-beach-sc/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/bonneau-sc/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/bonneau-sc/",
+    "/service-areas/bonneau-sc/fire-damage-restoration/",
+    "/service-areas/bonneau-sc/mold-remediation/",
     "/service-areas/awendaw-sc/water-cleanup/",
     "/service-areas/folly-beach-sc/water-cleanup/",
     "/contact/"

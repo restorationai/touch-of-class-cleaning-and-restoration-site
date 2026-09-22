@@ -119,6 +119,11 @@
       "city": "Big Lake",
       "state": "TX",
       "slug": "big-lake-tx"
+    },
+    {
+      "city": "Imperial",
+      "state": "TX",
+      "slug": "imperial-tx"
     }
   ],
   "template": "restoration",

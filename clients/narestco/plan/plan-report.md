@@ -1,20 +1,20 @@
 # Site Plan Report — National Restoration Construction
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-22T14:28:11.530592+00:00
+- Generated: 2026-09-22T18:10:21.962686+00:00
 - Domain: `narestco.com`
 - Services selected: 23 of 65 catalog entries
-- Service areas: 28
+- Service areas: 29
 - Cross-product enabled: True
-- Total URLs: **692**
-- Total internal links: 5628 (avg 8.1 per page)
+- Total URLs: **716**
+- Total internal links: 5819 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 621 |
-| `service-area` | 27 |
+| `service-area-service` | 644 |
+| `service-area` | 28 |
 | `service-landing` | 23 |
 | `blog-post` | 12 |
 | `legal` | 3 |
@@ -81,6 +81,7 @@
 - `burien-wa` — Burien, WA
 - `lake-holm-wa` — Lake Holm, WA
 - `waller-wa` — Waller, WA
+- `sumner-wa` — Sumner, WA
 
 ## Top 10 priority pages
 

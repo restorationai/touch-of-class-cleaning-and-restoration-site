@@ -1,20 +1,20 @@
 # Site Plan Report — Davis Construction Contractors
 
 - Template: `construction` v0.1.0
-- Generated: 2026-09-22T14:27:19.953779+00:00
+- Generated: 2026-09-22T18:09:59.634104+00:00
 - Domain: `davisconstructioncontractors.com`
 - Services selected: 9 of 23 catalog entries
-- Service areas: 17
+- Service areas: 18
 - Cross-product enabled: True
-- Total URLs: **190**
-- Total internal links: 1497 (avg 7.9 per page)
+- Total URLs: **200**
+- Total internal links: 1576 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 144 |
-| `service-area` | 16 |
+| `service-area-service` | 153 |
+| `service-area` | 17 |
 | `blog-post` | 12 |
 | `service-landing` | 9 |
 | `legal` | 3 |
@@ -56,6 +56,7 @@
 - `priceville-al` — Priceville, AL
 - `somerville-al` — Somerville, AL
 - `elkmont-al` — Elkmont, AL
+- `decatur-al` — Decatur, AL
 
 ## Top 10 priority pages
 
@@ -70,7 +71,7 @@
 | `/service-areas/ardmore-al/roofing/` | `service-area-service` | 7.0 | roofing installation and replacement ardmore |
 | `/service-areas/athens-al/home-remodeling/` | `service-area-service` | 7.0 | home remodeling athens |
 | `/service-areas/athens-al/roofing/` | `service-area-service` | 7.0 | roofing installation and replacement athens |
-| `/service-areas/elkmont-al/home-remodeling/` | `service-area-service` | 7.0 | home remodeling elkmont |
+| `/service-areas/decatur-al/home-remodeling/` | `service-area-service` | 7.0 | home remodeling decatur |
 
 ## Validation
 

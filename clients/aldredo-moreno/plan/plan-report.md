@@ -1,20 +1,20 @@
 # Site Plan Report — ACS Enterprise 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-22T14:26:54.289624+00:00
+- Generated: 2026-09-22T18:09:48.940371+00:00
 - Domain: `theacs-enterprises.com`
 - Services selected: 8 of 65 catalog entries
-- Service areas: 15
+- Service areas: 16
 - Cross-product enabled: True
-- Total URLs: **151**
-- Total internal links: 1184 (avg 7.8 per page)
+- Total URLs: **160**
+- Total internal links: 1255 (avg 7.8 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 112 |
-| `service-area` | 14 |
+| `service-area-service` | 120 |
+| `service-area` | 15 |
 | `service-landing` | 8 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -53,6 +53,7 @@
 - `mccamey-tx` — McCamey, TX
 - `southwest-sandhill-tx` — Southwest Sandhill, TX
 - `big-lake-tx` — Big Lake, TX
+- `imperial-tx` — Imperial, TX
 
 ## Top 10 priority pages
 

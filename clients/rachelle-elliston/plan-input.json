@@ -135,6 +135,11 @@
       "city": "Moapa Town",
       "state": "NV",
       "slug": "moapa-town-nv"
+    },
+    {
+      "city": "Moapa Valley",
+      "state": "NV",
+      "slug": "moapa-valley-nv"
     }
   ],
   "template": "restoration",

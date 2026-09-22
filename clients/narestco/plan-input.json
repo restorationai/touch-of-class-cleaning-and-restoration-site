@@ -464,6 +464,11 @@
       "city": "Waller",
       "state": "WA",
       "slug": "waller-wa"
+    },
+    {
+      "city": "Sumner",
+      "state": "WA",
+      "slug": "sumner-wa"
     }
   ],
   "brand": {
