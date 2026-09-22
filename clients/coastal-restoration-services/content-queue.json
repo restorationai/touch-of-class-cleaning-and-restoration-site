@@ -368,7 +368,7 @@
     },
     {
       "id": "2026-08-17-water-damage-restoration-equipment",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-17T17:55:00Z",
       "written_at": "2026-09-22T15:15:26Z",
       "post_url": "https://callcrs.com/blog/water-damage-restoration-equipment/",
@@ -412,7 +412,8 @@
           "context": "e loss dries faster than one that waits 24 hours. The crew checks readings daily and re",
           "reason": "claims round-the-clock availability but brand.hours is \"(unset)\""
         }
-      ]
+      ],
+      "published_verified_at": "2026-09-22T15:17:22Z"
     },
     {
       "id": "2026-08-17-water-damage-restoration-process",
