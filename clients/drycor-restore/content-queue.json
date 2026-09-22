@@ -212,10 +212,10 @@
     },
     {
       "id": "2026-09-03-how-to-fix-water-damage-on-ceiling",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-03T20:29:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-22T15:17:38Z",
+      "post_url": "https://drycor.com/blog/how-to-fix-water-damage-on-ceiling/",
       "primary_keyword": "how to fix water damage on ceiling",
       "intent": "informational",
       "volume": 1000,
