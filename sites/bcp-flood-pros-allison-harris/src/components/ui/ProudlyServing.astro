@@ -1,9 +1,8 @@
 ---
 /**
- * Homepage "Proudly Serving" section — clickable chip-links to every city hub
- * (/service-areas/{slug}/). Sits near the bottom of the homepage, directly
- * above the CTA banner. Full section-header treatment (eyebrow + display h2)
- * so it carries the same visual weight as Our Process / About Us.
+ * Homepage "Proudly Serving" strip — compact horizontal chip-links to every
+ * city hub (/service-areas/{slug}/). Sits near the bottom of the homepage,
+ * directly above the CTA banner.
  */
 import { MapPin } from '@lucide/astro';
 import { getCollection, type CollectionEntry } from 'astro:content';
@@ -17,22 +16,20 @@ const areas = all.sort((a, b) => {
 ---
 
 {areas.length > 0 && (
-  <section class="bg-dark py-24 border-t border-white/10">
+  <section class="bg-white py-14 border-t border-dark/10">
     <div class="container-wide">
-      <div class="flex flex-wrap items-end justify-between gap-x-8 gap-y-4 mb-10">
-        <div>
-          <div class="eyebrow !text-primary-400">Service Areas</div>
-          <h2 class="text-5xl md:text-6xl font-black uppercase tracking-tighter mb-0">Proudly Serving</h2>
-        </div>
-        <a href="/service-areas/" class="text-xs font-black uppercase tracking-widest text-primary-400 no-underline hover:text-primary-300 whitespace-nowrap pb-2">All Areas &rarr;</a>
+      <div class="flex items-center gap-4 mb-6">
+        <h2 class="text-xl md:text-2xl font-black uppercase tracking-tighter text-dark-900 whitespace-nowrap mb-0">Proudly Serving</h2>
+        <div class="flex-grow h-0.5 bg-dark/10"></div>
+        <a href="/service-areas/" class="text-xs font-black uppercase tracking-widest text-primary-600 no-underline hover:text-primary-700 whitespace-nowrap">All Areas</a>
       </div>
-      <div class="flex flex-wrap gap-3 md:gap-4">
+      <div class="flex flex-wrap gap-3">
         {areas.map((area) => (
           <a
             href={`/service-areas/${area.data.area_slug}/`}
-            class="inline-flex items-center gap-2.5 rounded-full border border-white/15 bg-white/5 px-5 py-2.5 text-sm md:text-base font-bold uppercase tracking-wide text-white/85 no-underline hover:no-underline hover:border-primary-500 hover:text-primary-400 transition-colors"
+            class="inline-flex items-center gap-2 rounded-full border border-dark/15 bg-white px-4 py-2 text-sm font-bold uppercase tracking-wide text-dark-700 no-underline hover:no-underline hover:border-primary-500 hover:text-primary-600 transition-colors"
           >
-            <MapPin size={16} class="text-primary-400 shrink-0" />
+            <MapPin size={14} class="text-primary-500 shrink-0" />
             {area.data.city}, {area.data.state}
           </a>
         ))}

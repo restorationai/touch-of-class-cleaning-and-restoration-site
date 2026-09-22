@@ -15,7 +15,7 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await entry.render();
 const data = entry.data;
-const heroImage = data.hero || serviceImage(data.service_slug, `${brand.imagesBase}/brand/hero.webp`);
+const heroImage = data.hero || serviceImage(data.service_slug, "/images/hero-bg.webp");
 
 // Exact-query capsule — matches "best {service} company in {city}" phrasing
 // verbatim for lexical retrieval (AI assistants, featured snippets). Every claim
@@ -55,16 +55,16 @@ const bestCompanyAnswer = [
   faq={data.faq}
 >
   <!-- HERO -->
-  <section class="relative min-h-[500px] flex items-center overflow-hidden bg-navy border-b border-white/10">
+  <section class="relative min-h-[500px] flex items-center overflow-hidden bg-white border-b border-dark/10">
     <div class="absolute inset-0 z-0">
       <img src={heroImage} alt={data.h1} class="w-full h-full object-cover" loading="eager" />
-      <div class="absolute inset-0 bg-gradient-to-r from-navy via-navy/85 to-navy/30"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-white/95 via-white/80 to-white/25"></div>
     </div>
     <div class="container-wide relative z-10 py-20">
       <div class="max-w-2xl">
         <div class="eyebrow">{data.service_display}</div>
         <h1 class="mb-6">{data.h1}</h1>
-        <p class="text-lg text-white/85 mb-8 leading-relaxed">{data.meta_description}</p>
+        <p class="text-lg text-dark/85 mb-8 leading-relaxed">{data.meta_description}</p>
         <div class="flex flex-col sm:flex-row gap-4">
           <a href={`tel:${brand.phoneRaw}`} class="btn-accent">📞 Call {brand.phone}</a>
           <a href="/contact/" class="btn-outline">Get a Free Estimate</a>
@@ -74,7 +74,7 @@ const bestCompanyAnswer = [
   </section>
 
   <!-- BODY -->
-  <section class="section-first bg-navy">
+  <section class="section-first bg-white">
     <div class="container-wide">
       <div class="prose-body">
         <Content />
@@ -86,12 +86,12 @@ const bestCompanyAnswer = [
 
   <!-- EXACT-QUERY: matches "best {service} company in {city}" phrasing verbatim
        so lexical retrieval (AI assistants, featured snippets) can quote the capsule. -->
-  <section class="section bg-navy">
+  <section class="section bg-white">
     <div class="container-wide">
       <div class="max-w-content mx-auto">
         <div class="eyebrow">Why Choose Us</div>
         <h2>Looking for the best {serviceLower} company in {brand.primaryCity}?</h2>
-        <p class="text-lg text-white/90">{bestCompanyAnswer}</p>
+        <p class="text-lg text-dark-800">{bestCompanyAnswer}</p>
       </div>
     </div>
   </section>
