@@ -1,6 +1,6 @@
 {
-  "last_kind": "geo",
-  "cycle_pos": 0,
+  "last_kind": "blog",
+  "cycle_pos": 1,
   "geo_cursor": 2,
   "history": [
     {
@@ -26,6 +26,14 @@
       "service": "water-damage-restoration",
       "city": "Tacoma",
       "youtube_id": "sWYZXts0wHk"
+    },
+    {
+      "ts": "2026-09-23T19:43:19.013486+00:00",
+      "kind": "blog",
+      "post": "board-up-tarping-services",
+      "service": null,
+      "city": null,
+      "youtube_id": "kCro12sX9uI"
     }
   ]
 }
