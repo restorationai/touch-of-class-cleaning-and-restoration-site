@@ -143,13 +143,29 @@ def stamp(slug: str, domain: str, apply: bool,
                "&select=integration_settings") or []
     ints = (rows[0].get("integration_settings") if rows else {}) or {}
     if not healthy:
-        if ints.get("branded_link_host") and apply:
+        # DISS 2026-09-23: one transient probe flap un-stamped a perfectly
+        # healthy zone and two dispatch texts went out with fallback links.
+        # Require TWO consecutive failed probes before pulling the stamp —
+        # a real outage persists; a network hiccup doesn't.
+        fails = int(ints.get("branded_link_probe_fails") or 0) + 1
+        ints["branded_link_probe_fails"] = fails
+        if ints.get("branded_link_host") and fails >= 2 and apply:
             ints.pop("branded_link_host", None)
             _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}",
                 {"integration_settings": ints})
-            print(f"  {slug}: probe failed — stamp REMOVED, links fall "
-                  "back to restorationai.io")
+            print(f"  {slug}: probe failed twice — stamp REMOVED, links "
+                  "fall back to restorationai.io")
+        elif apply:
+            _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}",
+                {"integration_settings": ints})
+            print(f"  {slug}: probe failed (strike {fails}/2) — stamp kept")
         return
+    if ints.get("branded_link_probe_fails"):
+        ints.pop("branded_link_probe_fails", None)
+        if ints.get("branded_link_host") == domain and apply:
+            _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}",
+                {"integration_settings": ints})
+            return
     if ints.get("branded_link_host") == domain:
         return
     ints["branded_link_host"] = domain
