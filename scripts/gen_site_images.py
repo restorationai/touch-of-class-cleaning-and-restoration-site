@@ -323,8 +323,7 @@ def generate_service_images(*, slug: str, geo: str, guide: str,
 # A populated work.ts is NEVER overwritten (ACS carries a REAL job photo).
 # ---------------------------------------------------------------------------
 PAIR_CATALOG: list[tuple[str, set, str, str, str, str, str]] = [
-    ("water", {"water-damage-restoration", "water-cleanup", "flood-cleanup",
-               "water-mitigation"},
+    ("water", {"water-damage-restoration", "water-mitigation"},
      "Water Damage Restoration",
      "Interior of a family living room with two inches of standing water "
      "across the floor, waterline staining on the lower walls, furniture "
@@ -391,6 +390,27 @@ PAIR_CATALOG: list[tuple[str, set, str, str, str, str, str]] = [
      "surfaces repaired and repainted a clean bright white, dry",
      "Bathroom wall with spreading mold before remediation",
      "Same bathroom wall clean and repainted after mold remediation"),
+    ("reconstruction", {"general-contracting", "reconstruction",
+                        "home-remodeling"},
+     "Reconstruction & Rebuild",
+     "Interior room gutted to bare wood studs and subfloor mid-project: "
+     "exposed framing, hanging wires capped, dusty subfloor. Shot on a "
+     "phone, no people, no text.",
+     "the SAME room fully rebuilt and finished: new drywall painted, new "
+     "flooring, trim and outlets installed, bright and move-in ready",
+     "Room gutted to the studs before reconstruction",
+     "Same room fully rebuilt and finished after reconstruction"),
+    ("flood", {"water-cleanup", "flood-cleanup", "basement-flood-cleanup",
+               "emergency-water-removal", "flood-damage-restoration"},
+     "Emergency Water Cleanup",
+     "A finished basement flooded with several inches of murky floodwater "
+     "wall to wall: a couch and boxes sitting in the water, waterline on "
+     "the drywall. Shot on a phone, no people, no text.",
+     "the SAME basement after emergency water extraction and structural "
+     "drying: floor completely dry and clean, waterline repaired and "
+     "repainted, contents dried out or removed",
+     "Basement flooded wall to wall before emergency water cleanup",
+     "Same basement extracted, dried and repaired after cleanup"),
     ("roofing", {"roofing", "roofing-services", "roof-leak-repair"},
      "Roof Replacement",
      "Close view of a residential asphalt-shingle roof with severe storm "
@@ -453,11 +473,17 @@ def generate_pairs(*, slug: str, geo: str, guide: str) -> None:
     services = set(json.loads(
         (ROOT / "clients" / slug / "plan-input.json").read_text()
     ).get("services") or [])
-    picks = [c for c in PAIR_CATALOG if c[1] & services][:6]
-    # EVEN COUNT LAW (Santino 2026-09-22): the slider grid never renders an
-    # odd number of pairs — 3+ trims to the nearest even.
+    matches = [c for c in PAIR_CATALOG if c[1] & services]
+    picks = matches[:6]
+    # EVEN COUNT LAW (Santino 2026-09-22, extend-first same day): the grid
+    # never renders an odd number of pairs. Prefer ADDING the next
+    # service-matched kind (the catalog carries reconstruction/GC so one
+    # nearly always exists); trim only when no further match exists.
     if len(picks) >= 3 and len(picks) % 2:
-        picks = picks[:-1]
+        if len(matches) > len(picks):
+            picks = matches[:len(picks) + 1]
+        else:
+            picks = picks[:-1]
     if not picks:
         print("  pairs: no catalog match for this client's services")
         return

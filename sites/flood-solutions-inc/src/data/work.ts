@@ -18,20 +18,27 @@ export const workPairs: BeforeAfterPair[] = [
     beforeSrc: "/images/before-after/water-before.webp",
     beforeAlt: "Flooded living room with standing water before restoration",
     afterSrc: "/images/before-after/water-after.webp",
-    afterAlt: "Same living room fully dried and restored",
+    afterAlt: "Same living room with new premium plank flooring and repaired walls after restoration",
   },
   {
     label: "Fire & Smoke Restoration",
     beforeSrc: "/images/before-after/fire-before.webp",
-    beforeAlt: "Kitchen with soot and smoke damage before restoration",
+    beforeAlt: "Living room with severe fire damage and charred walls before restoration",
     afterSrc: "/images/before-after/fire-after.webp",
-    afterAlt: "Same kitchen fully cleaned and restored after fire damage",
+    afterAlt: "Same living room fully rebuilt and restored after fire damage",
   },
   {
     label: "Sewage Cleanup",
     beforeSrc: "/images/before-after/sewage-before.webp",
-    beforeAlt: "Basement floor after a sewage backup before cleanup",
+    beforeAlt: "Basement flooded wall to wall by a sewage backup before cleanup",
     afterSrc: "/images/before-after/sewage-after.webp",
-    afterAlt: "Same basement floor disinfected and dry after cleanup",
+    afterAlt: "Same basement extracted, disinfected and dry after cleanup",
+  },
+  {
+    label: "Emergency Water Cleanup",
+    beforeSrc: "/images/before-after/flood-before.webp",
+    beforeAlt: "Basement flooded wall to wall before emergency water cleanup",
+    afterSrc: "/images/before-after/flood-after.webp",
+    afterAlt: "Same basement extracted, dried and repaired after cleanup",
   }
 ];
