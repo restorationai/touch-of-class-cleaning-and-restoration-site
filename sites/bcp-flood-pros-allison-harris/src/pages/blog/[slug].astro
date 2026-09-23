@@ -14,7 +14,7 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await entry.render();
 const data = entry.data;
-const heroImage = data.hero || `${brand.imagesBase}/brand/hero.webp`;
+const heroImage = data.hero || "/images/hero-bg.webp" /* preview: switch to `${brand.imagesBase}/brand/...` at production cutover */;
 const dateStr = new Date(data.published_at).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
 ---
 
@@ -34,10 +34,10 @@ const dateStr = new Date(data.published_at).toLocaleDateString("en-US", { year: 
   faq={data.faq}
 >
   <!-- ARTICLE HEADER -->
-  <section class="relative min-h-[420px] flex items-end overflow-hidden bg-navy border-b border-white/10">
+  <section class="relative min-h-[420px] flex items-end overflow-hidden bg-white border-b border-dark/10">
     <div class="absolute inset-0 z-0">
       <img src={heroImage} alt={data.title} class="w-full h-full object-cover" loading="eager" />
-      <div class="absolute inset-0 bg-gradient-to-t from-navy via-navy/85 to-navy/40"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-white/95 via-white/80 to-white/25"></div>
     </div>
     <div class="container-wide relative z-10 py-16 max-w-4xl">
       <div class="eyebrow">{dateStr}</div>
@@ -46,10 +46,10 @@ const dateStr = new Date(data.published_at).toLocaleDateString("en-US", { year: 
   </section>
 
   <!-- ARTICLE BODY -->
-  <article class="section-first bg-navy">
+  <article class="section-first bg-white">
     <div class="container-wide max-w-3xl mx-auto">
       {data.youtube_id && (
-        <div class="mb-10 rounded-xl overflow-hidden border border-white/10 shadow-2xl aspect-video">
+        <div class="mb-10 rounded-xl overflow-hidden border border-dark/10 shadow-2xl aspect-video">
           <iframe
             src={`https://www.youtube.com/embed/${data.youtube_id}`}
             title={data.title}
