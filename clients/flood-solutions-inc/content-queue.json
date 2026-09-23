@@ -335,10 +335,10 @@
     },
     {
       "id": "2026-09-21-category-3-water-damage",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-21T16:50:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-23T22:28:28Z",
+      "post_url": "https://floodsolutionsinc.com/blog/category-3-water-damage-sterling-heights-mi/",
       "primary_keyword": "category 3 water damage",
       "intent": "informational",
       "volume": 390,
@@ -367,7 +367,90 @@
         "https://www.iicrc.org/page/IICRCS500",
         "https://www.epa.gov/mold"
       ],
-      "notes": "390/mo at KD 0 and a 58.79 CPC: category education is where panicked homeowners land before they call. Lead with the three IICRC categories side by side, then make clear why category 3 (sewage, rising floodwater, standing water gone stale) is never a DIY job and why porous materials get removed rather than dried. Keep the tone calm and factual, not alarmist."
+      "notes": "390/mo at KD 0 and a 58.79 CPC: category education is where panicked homeowners land before they call. Lead with the three IICRC categories side by side, then make clear why category 3 (sewage, rising floodwater, standing water gone stale) is never a DIY job and why porous materials get removed rather than dried. Keep the tone calm and factual, not alarmist.",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "ires professional cleanup, and what the IICRC S500 standard says about porous materia",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "error",
+          "matched": "iicrc",
+          "context": "ater\", \"sewage water damage category\", \"iicrc water damage categories\", \"category 3 w",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "taminated class of water loss under the IICRC S500 standard. It includes sewage backu",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "materials that contacted the water. The IICRC S500 standard requires porous materials",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "inate the biological contamination. The IICRC S500 standard requires removal and disp",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "aminated class of water loss under the [IICRC S500 standard](https://www.iicrc.org/pa",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "nup needs to be. ## What Are the Three IICRC Water Damage Categories? The IICRC div",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "ree IICRC Water Damage Categories? The IICRC divides water losses into three categor",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "ckly. **Porous material removal.** The IICRC S500 standard is explicit: porous mater",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
     },
     {
       "id": "2026-09-21-sump-pump-failure-insurance-macomb",
