@@ -177,6 +177,11 @@
       "city": "Pleasant Hills",
       "state": "PA",
       "slug": "pleasant-hills-pa"
+    },
+    {
+      "city": "Wilkinsburg",
+      "state": "PA",
+      "slug": "wilkinsburg-pa"
     }
   ],
   "template": "restoration",

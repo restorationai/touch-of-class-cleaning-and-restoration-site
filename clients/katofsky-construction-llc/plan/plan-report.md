@@ -1,20 +1,20 @@
 # Site Plan Report — Katofsky Construction LLC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-23T17:47:57.989476+00:00
+- Generated: 2026-09-23T18:46:19.897308+00:00
 - Domain: `katofskyconstruction.com`
 - Services selected: 12 of 65 catalog entries
-- Service areas: 27
+- Service areas: 28
 - Cross-product enabled: True
-- Total URLs: **364**
-- Total internal links: 2914 (avg 8.0 per page)
+- Total URLs: **377**
+- Total internal links: 3017 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 312 |
-| `service-area` | 26 |
+| `service-area-service` | 324 |
+| `service-area` | 27 |
 | `service-landing` | 12 |
 | `blog-post` | 5 |
 | `legal` | 3 |
@@ -69,6 +69,7 @@
 - `munhall-pa` — Munhall, PA
 - `glenshaw-pa` — Glenshaw, PA
 - `pleasant-hills-pa` — Pleasant Hills, PA
+- `wilkinsburg-pa` — Wilkinsburg, PA
 
 ## Top 10 priority pages
 
