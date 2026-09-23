@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-21-water-damage-restoration-cost-sc",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-21T10:26:42Z",
       "priority": 1,
       "prioritized": true,
@@ -27,7 +27,74 @@
         "water cleanup SC",
         "water removal SC"
       ],
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-23T00:47:58Z",
+      "post_url": "https://None/blog/water-damage-restoration-cost-sc/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-sc.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified restoration",
+          "context": "e hour or by the job?\", \"answer\": \"Most certified restoration contractors price water damage work by",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-sc.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "2, and 3 water damage?\", \"answer\": \"The IICRC S500 standard classifies water losses b",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-sc.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "$15,000 job. **Water category.** The [IICRC S500 standard](https://www.iicrc.org) c",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-sc.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "f loss (how deeply water penetrated).** IICRC also classifies losses by moisture pene",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-sc.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": ", and cabinetry that cannot be dried to IICRC standard are removed. This is called \"f",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-sc.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified restoration",
+          "context": "the clock starts on mitigation. Call a certified restoration contractor before you call your insuran",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-sc.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified restoration",
+          "context": "ul Davis Restoration of Charleston is a certified restoration company serving Charleston, Mount Pleas",
+          "reason": "names a certification not present in brand.certifications"
+        }
+      ]
     },
     {
       "id": "2026-08-27-best-water-damage-restoration-in-charleston-sc",
