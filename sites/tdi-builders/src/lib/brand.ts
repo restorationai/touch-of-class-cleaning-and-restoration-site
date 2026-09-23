@@ -62,7 +62,7 @@ export const brand = {
     { author: "Marie", rating: 5, text: "Called to schedule an estimate for a bathroom remodel. The women I spoke with scheduled an inspection with her manager, she was quick and efficient to get the info she needed to understand what I needed. Thank you Alex for being so helpful.", when: "May 2026" },
     { author: "Rachel", rating: 5, text: "Called in to ask questions about a remodel of my kitchen and the women I spoke with I think her name was Alex was fantastic and gave so much info. I hope for a great working relationship with TDI this year.", when: "April 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
-  tagline: "Construction and remodeling services in Sacramento, CA.",
+  tagline: "Construction and remodeling services across Northern California.",
   ctaLabel: "Call for a Free Estimate",
   // Vertical trade-identity copy — resolved at scaffold time from
   // templates/{vertical}/vertical-tokens.json (see scripts/verticals.py).

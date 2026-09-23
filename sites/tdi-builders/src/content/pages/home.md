@@ -1,8 +1,8 @@
 ---
 archetype: "home"
-title: "TDI USA, Inc. | General Contractor in Sacramento, CA"
-h1: "Trusted General Contractor in Sacramento"
-meta_description: "TDI USA, Inc. is a licensed general contractor serving Sacramento and surrounding areas, commercial construction, tenant improvements, remodeling, new construction, and insurance rebuilds. Free estimates. Call (877) 688-0866."
+title: "TDI USA, Inc. | Northern California General Contractor"
+h1: "Trusted General Contractor in Northern California"
+meta_description: "TDI USA, Inc. is a licensed general contractor serving Northern California, commercial construction, tenant improvements, remodeling, new construction, and insurance rebuilds. Free estimates. Call (877) 688-0866."
 primary_keyword: "general contractor sacramento"
 secondary_keywords: ["general contractor near me", "home remodeling contractor", "licensed construction company"]
 search_intent: "local_commercial"
