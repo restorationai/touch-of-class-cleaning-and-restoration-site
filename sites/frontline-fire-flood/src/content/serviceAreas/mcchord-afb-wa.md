@@ -7,10 +7,10 @@ primary_keyword: "restoration services mcchord afb"
 secondary_keywords: ["mcchord afb restoration company", "damage restoration mcchord afb", "mcchord afb disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "253e14040cd1b09f"
-generated_at: "2026-09-20T14:13:13.251027+00:00"
+plan_hash: "f23892629d985c0a"
+generated_at: "2026-09-23T04:58:40.080575+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/mcchord-afb-wa/fire-damage-restoration/", "/service-areas/mcchord-afb-wa/mold-remediation/", "/service-areas/mcchord-afb-wa/water-damage-restoration/", "/service-areas/mcchord-afb-wa/sewage-cleanup/", "/service-areas/mcchord-afb-wa/storm-damage-restoration/", "/service-areas/mcchord-afb-wa/water-cleanup/", "/service-areas/mcchord-afb-wa/emergency-board-up-tarping/", "/service-areas/mcchord-afb-wa/asbestos-abatement/", "/service-areas/mcchord-afb-wa/contents-restoration-storage/", "/service-areas/auburn-wa/", "/service-areas/bellevue-wa/", "/service-areas/bonney-lake-wa/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/mcchord-afb-wa/fire-damage-restoration/", "/service-areas/mcchord-afb-wa/mold-remediation/", "/service-areas/mcchord-afb-wa/water-damage-restoration/", "/service-areas/mcchord-afb-wa/sewage-cleanup/", "/service-areas/mcchord-afb-wa/storm-damage-restoration/", "/service-areas/mcchord-afb-wa/water-cleanup/", "/service-areas/mcchord-afb-wa/emergency-board-up-tarping/", "/service-areas/mcchord-afb-wa/asbestos-abatement/", "/service-areas/mcchord-afb-wa/contents-restoration-storage/", "/service-areas/anderson-island-wa/", "/service-areas/auburn-wa/", "/service-areas/bellevue-wa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McChord AFB"}]
 faq: []
 area_slug: "mcchord-afb-wa"

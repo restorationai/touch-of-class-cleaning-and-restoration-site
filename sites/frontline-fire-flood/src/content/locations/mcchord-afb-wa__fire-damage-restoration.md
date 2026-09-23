@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration mcchord afb"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "b34f4f1f3994e957"
-generated_at: "2026-09-20T14:13:13.255418+00:00"
+plan_hash: "74597519a6053ae4"
+generated_at: "2026-09-23T04:58:40.096233+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/mcchord-afb-wa/", "/service-areas/mcchord-afb-wa/mold-remediation/", "/service-areas/mcchord-afb-wa/water-damage-restoration/", "/service-areas/auburn-wa/fire-damage-restoration/", "/service-areas/bellevue-wa/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/mcchord-afb-wa/", "/service-areas/mcchord-afb-wa/mold-remediation/", "/service-areas/mcchord-afb-wa/water-damage-restoration/", "/service-areas/anderson-island-wa/fire-damage-restoration/", "/service-areas/auburn-wa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McChord AFB", "url": "/service-areas/mcchord-afb-wa/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "mcchord-afb-wa"

@@ -7,10 +7,10 @@ primary_keyword: "asbestos abatement midland"
 secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediation", "popcorn ceiling asbestos removal", "asbestos inspection"]
 search_intent: "local_specialty"
 priority: 4.2
-plan_hash: "ceabb67bff857faa"
-generated_at: "2026-09-20T14:13:13.260836+00:00"
+plan_hash: "400c0ad271c22924"
+generated_at: "2026-09-23T04:58:40.100625+00:00"
 manual_override: false
-internal_links: ["/services/asbestos-abatement/", "/service-areas/midland-wa/", "/service-areas/midland-wa/fire-damage-restoration/", "/service-areas/midland-wa/mold-remediation/", "/service-areas/auburn-wa/asbestos-abatement/", "/service-areas/bellevue-wa/asbestos-abatement/", "/contact/"]
+internal_links: ["/services/asbestos-abatement/", "/service-areas/midland-wa/", "/service-areas/midland-wa/fire-damage-restoration/", "/service-areas/midland-wa/mold-remediation/", "/service-areas/anderson-island-wa/asbestos-abatement/", "/service-areas/auburn-wa/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Midland", "url": "/service-areas/midland-wa/"}, {"name": "Asbestos Abatement"}]
 faq: []
 area_slug: "midland-wa"

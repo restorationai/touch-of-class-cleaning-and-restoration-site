@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration fircrest"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "fa1eed310415d0e2"
-generated_at: "2026-09-20T14:13:13.261664+00:00"
+plan_hash: "14b11f917feb61f2"
+generated_at: "2026-09-23T04:58:40.101370+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/fircrest-wa/", "/service-areas/fircrest-wa/mold-remediation/", "/service-areas/fircrest-wa/water-damage-restoration/", "/service-areas/auburn-wa/fire-damage-restoration/", "/service-areas/bellevue-wa/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/fircrest-wa/", "/service-areas/fircrest-wa/mold-remediation/", "/service-areas/fircrest-wa/water-damage-restoration/", "/service-areas/anderson-island-wa/fire-damage-restoration/", "/service-areas/auburn-wa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fircrest", "url": "/service-areas/fircrest-wa/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "fircrest-wa"

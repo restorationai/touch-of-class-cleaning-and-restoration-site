@@ -7,10 +7,10 @@ primary_keyword: "mold remediation mcchord afb"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "92c22aee20544dff"
-generated_at: "2026-09-20T14:13:13.255598+00:00"
+plan_hash: "aa276165e191a5a8"
+generated_at: "2026-09-23T04:58:40.096381+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/mcchord-afb-wa/", "/service-areas/mcchord-afb-wa/fire-damage-restoration/", "/service-areas/mcchord-afb-wa/water-damage-restoration/", "/service-areas/auburn-wa/mold-remediation/", "/service-areas/bellevue-wa/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/mcchord-afb-wa/", "/service-areas/mcchord-afb-wa/fire-damage-restoration/", "/service-areas/mcchord-afb-wa/water-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McChord AFB", "url": "/service-areas/mcchord-afb-wa/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "mcchord-afb-wa"

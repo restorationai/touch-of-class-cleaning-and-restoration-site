@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "e2d6db64ac2dd954"
-generated_at: "2026-09-21T19:18:44.833673+00:00"
+generated_at: "2026-09-23T04:58:40.111687+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/summit-view-wa/", "/service-areas/summit-view-wa/fire-damage-restoration/", "/service-areas/summit-view-wa/mold-remediation/", "/service-areas/anderson-island-wa/asbestos-abatement/", "/service-areas/auburn-wa/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Summit View", "url": "/service-areas/summit-view-wa/"}, {"name": "Asbestos Abatement"}]

@@ -7,10 +7,10 @@ primary_keyword: "mold remediation midland"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "adc75d1aa2f3dfcd"
-generated_at: "2026-09-20T14:13:13.260298+00:00"
+plan_hash: "4c801ec9d515f278"
+generated_at: "2026-09-23T04:58:40.100214+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/midland-wa/", "/service-areas/midland-wa/fire-damage-restoration/", "/service-areas/midland-wa/water-damage-restoration/", "/service-areas/auburn-wa/mold-remediation/", "/service-areas/bellevue-wa/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/midland-wa/", "/service-areas/midland-wa/fire-damage-restoration/", "/service-areas/midland-wa/water-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Midland", "url": "/service-areas/midland-wa/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "midland-wa"

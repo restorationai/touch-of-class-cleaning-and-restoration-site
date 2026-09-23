@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "2a5d5a1ec4493b0e"
-generated_at: "2026-09-22T02:11:20.190873+00:00"
+generated_at: "2026-09-23T04:58:40.113434+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration-storage/", "/service-areas/frederickson-wa/", "/service-areas/frederickson-wa/fire-damage-restoration/", "/service-areas/frederickson-wa/mold-remediation/", "/service-areas/anderson-island-wa/contents-restoration-storage/", "/service-areas/auburn-wa/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Frederickson", "url": "/service-areas/frederickson-wa/"}, {"name": "Contents Restoration & Storage"}]

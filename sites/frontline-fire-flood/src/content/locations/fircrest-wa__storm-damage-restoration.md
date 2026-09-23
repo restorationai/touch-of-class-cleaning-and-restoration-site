@@ -7,10 +7,10 @@ primary_keyword: "storm damage restoration fircrest"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "587b2a39c8bbe9d6"
-generated_at: "2026-09-20T14:13:13.262055+00:00"
+plan_hash: "2789d3bad86d909b"
+generated_at: "2026-09-23T04:58:40.101672+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/fircrest-wa/", "/service-areas/fircrest-wa/fire-damage-restoration/", "/service-areas/fircrest-wa/mold-remediation/", "/service-areas/auburn-wa/storm-damage-restoration/", "/service-areas/bellevue-wa/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/fircrest-wa/", "/service-areas/fircrest-wa/fire-damage-restoration/", "/service-areas/fircrest-wa/mold-remediation/", "/service-areas/anderson-island-wa/storm-damage-restoration/", "/service-areas/auburn-wa/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fircrest", "url": "/service-areas/fircrest-wa/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "fircrest-wa"

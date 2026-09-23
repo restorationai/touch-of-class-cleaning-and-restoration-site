@@ -7,10 +7,10 @@ primary_keyword: "storm damage restoration mcchord afb"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "b43cbe400a618690"
-generated_at: "2026-09-20T14:13:13.255795+00:00"
+plan_hash: "867a1d957c3bb368"
+generated_at: "2026-09-23T04:58:40.096536+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/mcchord-afb-wa/", "/service-areas/mcchord-afb-wa/fire-damage-restoration/", "/service-areas/mcchord-afb-wa/mold-remediation/", "/service-areas/auburn-wa/storm-damage-restoration/", "/service-areas/bellevue-wa/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/mcchord-afb-wa/", "/service-areas/mcchord-afb-wa/fire-damage-restoration/", "/service-areas/mcchord-afb-wa/mold-remediation/", "/service-areas/anderson-island-wa/storm-damage-restoration/", "/service-areas/auburn-wa/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McChord AFB", "url": "/service-areas/mcchord-afb-wa/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "mcchord-afb-wa"

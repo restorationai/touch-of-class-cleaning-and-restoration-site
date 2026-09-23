@@ -7,10 +7,10 @@ primary_keyword: "asbestos abatement north fort lewis"
 secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediation", "popcorn ceiling asbestos removal", "asbestos inspection"]
 search_intent: "local_specialty"
 priority: 4.2
-plan_hash: "b48b223aa2b555dd"
-generated_at: "2026-09-20T14:13:13.259259+00:00"
+plan_hash: "28839a1b50dcea75"
+generated_at: "2026-09-23T04:58:40.099303+00:00"
 manual_override: false
-internal_links: ["/services/asbestos-abatement/", "/service-areas/north-fort-lewis-wa/", "/service-areas/north-fort-lewis-wa/fire-damage-restoration/", "/service-areas/north-fort-lewis-wa/mold-remediation/", "/service-areas/auburn-wa/asbestos-abatement/", "/service-areas/bellevue-wa/asbestos-abatement/", "/contact/"]
+internal_links: ["/services/asbestos-abatement/", "/service-areas/north-fort-lewis-wa/", "/service-areas/north-fort-lewis-wa/fire-damage-restoration/", "/service-areas/north-fort-lewis-wa/mold-remediation/", "/service-areas/anderson-island-wa/asbestos-abatement/", "/service-areas/auburn-wa/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Fort Lewis", "url": "/service-areas/north-fort-lewis-wa/"}, {"name": "Asbestos Abatement"}]
 faq: []
 area_slug: "north-fort-lewis-wa"

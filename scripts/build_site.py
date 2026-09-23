@@ -124,6 +124,9 @@ DEFAULTS = {
     "BRAND_PRIMARY_LIGHT": "#e5e5e5",   # primary-200 — light tint
     # cta.* — the SOLID-FILL pair (button background + the label on it),
     # resolved together so the pair always clears AA. See resolve_tokens.
+    # wide-logo clients (Frontline, Heritage) hide the header call button on
+    # mobile — the sticky bottom bar covers calling there. Default: visible.
+    "BRAND_HIDE_MOBILE_HEADER_CALL": "false",
     "BRAND_CTA_FILL": "#171717",        # cta.DEFAULT — every call-to-action fill
     "BRAND_CTA_FG": "#ffffff",          # cta.fg      — the label ON that fill
     "BRAND_CTA_HOVER": "#000000",       # cta.hover

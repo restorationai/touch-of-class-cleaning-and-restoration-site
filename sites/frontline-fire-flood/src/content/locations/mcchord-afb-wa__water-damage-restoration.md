@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration mcchord afb"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "51ee395c301fb546"
-generated_at: "2026-09-20T14:13:13.255217+00:00"
+plan_hash: "4e55d77c022db244"
+generated_at: "2026-09-23T04:58:40.095808+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/mcchord-afb-wa/", "/service-areas/mcchord-afb-wa/fire-damage-restoration/", "/service-areas/mcchord-afb-wa/mold-remediation/", "/service-areas/auburn-wa/water-damage-restoration/", "/service-areas/bellevue-wa/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/mcchord-afb-wa/", "/service-areas/mcchord-afb-wa/fire-damage-restoration/", "/service-areas/mcchord-afb-wa/mold-remediation/", "/service-areas/anderson-island-wa/water-damage-restoration/", "/service-areas/auburn-wa/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McChord AFB", "url": "/service-areas/mcchord-afb-wa/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "mcchord-afb-wa"

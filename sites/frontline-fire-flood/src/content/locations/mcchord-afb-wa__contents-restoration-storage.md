@@ -7,10 +7,10 @@ primary_keyword: "contents restoration & storage mcchord afb"
 secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "d4303759018f7807"
-generated_at: "2026-09-20T14:13:13.256481+00:00"
+plan_hash: "c1eecd44db4e8108"
+generated_at: "2026-09-23T04:58:40.097093+00:00"
 manual_override: false
-internal_links: ["/services/contents-restoration-storage/", "/service-areas/mcchord-afb-wa/", "/service-areas/mcchord-afb-wa/fire-damage-restoration/", "/service-areas/mcchord-afb-wa/mold-remediation/", "/service-areas/auburn-wa/contents-restoration-storage/", "/service-areas/bellevue-wa/contents-restoration-storage/", "/contact/"]
+internal_links: ["/services/contents-restoration-storage/", "/service-areas/mcchord-afb-wa/", "/service-areas/mcchord-afb-wa/fire-damage-restoration/", "/service-areas/mcchord-afb-wa/mold-remediation/", "/service-areas/anderson-island-wa/contents-restoration-storage/", "/service-areas/auburn-wa/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McChord AFB", "url": "/service-areas/mcchord-afb-wa/"}, {"name": "Contents Restoration & Storage"}]
 faq: []
 area_slug: "mcchord-afb-wa"

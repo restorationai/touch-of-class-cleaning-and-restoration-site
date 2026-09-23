@@ -7,10 +7,10 @@ primary_keyword: "mold remediation steilacoom"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "3da0fd1b6982aea9"
-generated_at: "2026-09-20T14:13:13.257171+00:00"
+plan_hash: "d1712f40c91d3340"
+generated_at: "2026-09-23T04:58:40.097613+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/steilacoom-wa/", "/service-areas/steilacoom-wa/fire-damage-restoration/", "/service-areas/steilacoom-wa/water-damage-restoration/", "/service-areas/auburn-wa/mold-remediation/", "/service-areas/bellevue-wa/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/steilacoom-wa/", "/service-areas/steilacoom-wa/fire-damage-restoration/", "/service-areas/steilacoom-wa/water-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Steilacoom", "url": "/service-areas/steilacoom-wa/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "steilacoom-wa"

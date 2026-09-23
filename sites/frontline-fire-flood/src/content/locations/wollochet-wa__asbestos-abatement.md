@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "97b1c8ec656e5628"
-generated_at: "2026-09-20T20:41:49.967315+00:00"
+generated_at: "2026-09-23T04:58:40.108554+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/wollochet-wa/", "/service-areas/wollochet-wa/fire-damage-restoration/", "/service-areas/wollochet-wa/mold-remediation/", "/service-areas/anderson-island-wa/asbestos-abatement/", "/service-areas/auburn-wa/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wollochet", "url": "/service-areas/wollochet-wa/"}, {"name": "Asbestos Abatement"}]

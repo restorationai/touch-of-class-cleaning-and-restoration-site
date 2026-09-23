@@ -29,7 +29,8 @@
       "IICRC Certified Firm",
       "Licensed & Insured",
       "Locally Owned & Operated"
-    ]
+    ],
+    "hide_mobile_header_call": "true"
   },
   "services": [
     "water-damage-restoration",

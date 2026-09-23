@@ -7,10 +7,10 @@ primary_keyword: "storm damage restoration fort lewis"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "0d94243a7ccf62bf"
-generated_at: "2026-09-20T14:13:13.263569+00:00"
+plan_hash: "ba96e972a8e9bd8c"
+generated_at: "2026-09-23T04:58:40.102961+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/fort-lewis-wa/", "/service-areas/fort-lewis-wa/fire-damage-restoration/", "/service-areas/fort-lewis-wa/mold-remediation/", "/service-areas/auburn-wa/storm-damage-restoration/", "/service-areas/bellevue-wa/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/fort-lewis-wa/", "/service-areas/fort-lewis-wa/fire-damage-restoration/", "/service-areas/fort-lewis-wa/mold-remediation/", "/service-areas/anderson-island-wa/storm-damage-restoration/", "/service-areas/auburn-wa/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fort Lewis", "url": "/service-areas/fort-lewis-wa/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "fort-lewis-wa"

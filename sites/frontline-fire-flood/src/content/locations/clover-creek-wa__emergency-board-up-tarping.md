@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "306d0aef9b1f1133"
-generated_at: "2026-09-20T19:37:00.299080+00:00"
+generated_at: "2026-09-23T04:58:40.107412+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/clover-creek-wa/", "/service-areas/clover-creek-wa/fire-damage-restoration/", "/service-areas/clover-creek-wa/mold-remediation/", "/service-areas/anderson-island-wa/emergency-board-up-tarping/", "/service-areas/auburn-wa/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Clover Creek", "url": "/service-areas/clover-creek-wa/"}, {"name": "Emergency Board-Up and Tarping"}]

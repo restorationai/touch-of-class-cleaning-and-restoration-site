@@ -31,7 +31,7 @@ const bg = backgroundImage ? srcsetFor(backgroundImage) : {};
   {/* Left-to-right scrim: strong behind the text block, light over the branded van */}
   <div class="absolute inset-0 bg-gradient-to-r from-white/85 via-white/45 to-white/10 z-0"></div>
 
-  <div class="container-wide relative z-10 pt-10 pb-14 md:pt-12 md:pb-16 text-left">
+  <div class="container-wide relative z-10 pt-10 pb-14 md:pt-12 md:pb-16 text-left lg:grid lg:grid-cols-[minmax(0,1fr)_440px] lg:gap-12 lg:items-center">
     <div class="max-w-2xl">
       <h1 class="mb-6 drop-shadow-lg text-4xl md:text-5xl lg:text-6xl">{title}</h1>
       {subtitle && <p class="text-xl md:text-2xl text-dark/90 mb-10 drop-shadow-md">{subtitle}</p>}
@@ -55,7 +55,9 @@ const bg = backgroundImage ? srcsetFor(backgroundImage) : {};
           Get a Free Estimate
         </a>
       </div>
-      <p class="mt-5 text-sm font-semibold opacity-80 drop-shadow-md">We work with all insurance carriers and handle the claim paperwork.</p>
+    </div>
+    <div class="mt-10 lg:mt-0 flex lg:justify-end">
+      <slot name="form" />
     </div>
   </div>
 </header>

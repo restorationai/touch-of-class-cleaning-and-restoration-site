@@ -17,6 +17,7 @@ export const brand = {
   canonicalUrl: "{{BRAND_CANONICAL_URL}}",
   phone: "{{BRAND_PHONE}}",
   phoneRaw: "{{BRAND_PHONE_RAW}}",
+  hideMobileHeaderCall: {{BRAND_HIDE_MOBILE_HEADER_CALL}},
   // Sitewide call-tracking number (2026-08-24). When BOTH fields are set,
   // a tiny inline script in BaseLayout swaps every visible phone mention
   // and tel: link to this number AFTER the page renders. The HTML source,

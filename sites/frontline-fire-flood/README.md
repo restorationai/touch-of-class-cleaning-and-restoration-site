@@ -30,7 +30,7 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `Frontline Fire & Flood` | plan-input `brand.legal_name` | `National Restoration Construction LLC` |
 | `frontlinefireflood.com` | client record `domain` | `narestco.com` |
 | `https://frontlinefireflood.com` | derived | `https://narestco.com` |
-| `+12532000503` / `+112532000503` | brand.phone | `(206) 883-0333` / `+12068830333` |
+| `(253) 200-0503` / `+12532000503` | brand.phone | `(206) 883-0333` / `+12068830333` |
 | `service@frontlinefireflood.com` | brand.email | `info@narestco.com` |
 | `24/7` | brand.hours | `24/7` |
 | `2014` | brand.founded_year | `2004` |
@@ -56,7 +56,7 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 - [Asbestos Abatement](https://frontlinefireflood.com/services/asbestos-abatement/)
 - [Emergency Board-Up and Tarping](https://frontlinefireflood.com/services/emergency-board-up-tarping/)
 - [Contents Restoration & Storage](https://frontlinefireflood.com/services/contents-restoration-storage/)
-- [Water Cleanup](https://frontlinefireflood.com/services/water-cleanup/)` / `- [Lakewood, WA](https://frontlinefireflood.com/service-areas/lakewood-wa/)
+- [Emergency Water Cleanup](https://frontlinefireflood.com/services/water-cleanup/)` / `- [Lakewood, WA](https://frontlinefireflood.com/service-areas/lakewood-wa/)
 - [Tacoma, WA](https://frontlinefireflood.com/service-areas/tacoma-wa/)
 - [Puyallup, WA](https://frontlinefireflood.com/service-areas/puyallup-wa/)
 - [University Place, WA](https://frontlinefireflood.com/service-areas/university-place-wa/)
@@ -81,7 +81,20 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 - [Yelm, WA](https://frontlinefireflood.com/service-areas/yelm-wa/)
 - [Bremerton, WA](https://frontlinefireflood.com/service-areas/bremerton-wa/)
 - [Port Orchard, WA](https://frontlinefireflood.com/service-areas/port-orchard-wa/)
-- [Centralia, WA](https://frontlinefireflood.com/service-areas/centralia-wa/)` / `IICRC CERTIFIED FIRM, IICRC AMRT (MOLD), IICRC WRT (WATER), IICRC FSRT (FIRE & SMOKE), IICRC ASD (STRUCTURAL DRYING), EPA LEAD-SAFE CERTIFIED, OSHA TRAINED` / `Greater Lakewood region` | computed at scaffold from plan + brand | |
+- [Centralia, WA](https://frontlinefireflood.com/service-areas/centralia-wa/)
+- [McChord AFB, WA](https://frontlinefireflood.com/service-areas/mcchord-afb-wa/)
+- [Steilacoom, WA](https://frontlinefireflood.com/service-areas/steilacoom-wa/)
+- [North Fort Lewis, WA](https://frontlinefireflood.com/service-areas/north-fort-lewis-wa/)
+- [Midland, WA](https://frontlinefireflood.com/service-areas/midland-wa/)
+- [Fircrest, WA](https://frontlinefireflood.com/service-areas/fircrest-wa/)
+- [Fort Lewis, WA](https://frontlinefireflood.com/service-areas/fort-lewis-wa/)
+- [Anderson Island, WA](https://frontlinefireflood.com/service-areas/anderson-island-wa/)
+- [Waller, WA](https://frontlinefireflood.com/service-areas/waller-wa/)
+- [Clover Creek, WA](https://frontlinefireflood.com/service-areas/clover-creek-wa/)
+- [Wollochet, WA](https://frontlinefireflood.com/service-areas/wollochet-wa/)
+- [Summit, WA](https://frontlinefireflood.com/service-areas/summit-wa/)
+- [Summit View, WA](https://frontlinefireflood.com/service-areas/summit-view-wa/)
+- [Frederickson, WA](https://frontlinefireflood.com/service-areas/frederickson-wa/)` / `IICRC CERTIFIED FIRM, IICRC AMRT (MOLD), IICRC WRT (WATER), IICRC FSRT (FIRE & SMOKE), IICRC ASD (STRUCTURAL DRYING), EPA LEAD-SAFE CERTIFIED, OSHA TRAINED` / `Greater Lakewood region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

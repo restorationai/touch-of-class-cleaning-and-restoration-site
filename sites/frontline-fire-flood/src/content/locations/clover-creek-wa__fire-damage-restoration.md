@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "333b78bdd2a3448f"
-generated_at: "2026-09-20T19:37:00.298484+00:00"
+generated_at: "2026-09-23T04:58:40.106559+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/clover-creek-wa/", "/service-areas/clover-creek-wa/mold-remediation/", "/service-areas/clover-creek-wa/water-damage-restoration/", "/service-areas/anderson-island-wa/fire-damage-restoration/", "/service-areas/auburn-wa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Clover Creek", "url": "/service-areas/clover-creek-wa/"}, {"name": "Fire Damage Restoration"}]

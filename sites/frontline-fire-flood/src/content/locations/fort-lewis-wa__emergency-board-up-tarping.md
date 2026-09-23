@@ -7,10 +7,10 @@ primary_keyword: "emergency board-up and tarping fort lewis"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
 priority: 4.9
-plan_hash: "b02cb109a8653a0e"
-generated_at: "2026-09-20T14:13:13.264091+00:00"
+plan_hash: "0b3afb63baf28a53"
+generated_at: "2026-09-23T04:58:40.103362+00:00"
 manual_override: false
-internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/fort-lewis-wa/", "/service-areas/fort-lewis-wa/fire-damage-restoration/", "/service-areas/fort-lewis-wa/mold-remediation/", "/service-areas/auburn-wa/emergency-board-up-tarping/", "/service-areas/bellevue-wa/emergency-board-up-tarping/", "/contact/"]
+internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/fort-lewis-wa/", "/service-areas/fort-lewis-wa/fire-damage-restoration/", "/service-areas/fort-lewis-wa/mold-remediation/", "/service-areas/anderson-island-wa/emergency-board-up-tarping/", "/service-areas/auburn-wa/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fort Lewis", "url": "/service-areas/fort-lewis-wa/"}, {"name": "Emergency Board-Up and Tarping"}]
 faq: []
 area_slug: "fort-lewis-wa"

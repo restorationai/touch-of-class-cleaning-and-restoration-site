@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "5cc299ebb5e456df"
-generated_at: "2026-09-20T19:37:00.298965+00:00"
+generated_at: "2026-09-23T04:58:40.107136+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/clover-creek-wa/", "/service-areas/clover-creek-wa/fire-damage-restoration/", "/service-areas/clover-creek-wa/mold-remediation/", "/service-areas/anderson-island-wa/asbestos-abatement/", "/service-areas/auburn-wa/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Clover Creek", "url": "/service-areas/clover-creek-wa/"}, {"name": "Asbestos Abatement"}]

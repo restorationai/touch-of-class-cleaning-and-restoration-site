@@ -31,7 +31,7 @@ const where = [data.city, data.state].filter(Boolean).join(", ");
     post_published_at: data.published_at,
     post_updated_at: data.updated_at,
   }}
-  breadcrumb={data.breadcrumb || [{ name: "Home", url: "/" }, { name: "Case Studies", url: "/case-studies/" }, { name: data.title }]}
+  breadcrumb={[{ name: "Home", url: "/" }, { name: "Our Work", url: "/case-studies/" }, { name: data.title }]}
   faq={data.faq}
 >
   <section class="relative min-h-[420px] flex items-end overflow-hidden bg-navy border-b border-white/10">

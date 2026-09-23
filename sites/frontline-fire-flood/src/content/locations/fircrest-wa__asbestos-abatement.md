@@ -7,10 +7,10 @@ primary_keyword: "asbestos abatement fircrest"
 secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediation", "popcorn ceiling asbestos removal", "asbestos inspection"]
 search_intent: "local_specialty"
 priority: 4.2
-plan_hash: "cb4f7904768c7932"
-generated_at: "2026-09-20T14:13:13.262383+00:00"
+plan_hash: "7d368a6833554533"
+generated_at: "2026-09-23T04:58:40.101947+00:00"
 manual_override: false
-internal_links: ["/services/asbestos-abatement/", "/service-areas/fircrest-wa/", "/service-areas/fircrest-wa/fire-damage-restoration/", "/service-areas/fircrest-wa/mold-remediation/", "/service-areas/auburn-wa/asbestos-abatement/", "/service-areas/bellevue-wa/asbestos-abatement/", "/contact/"]
+internal_links: ["/services/asbestos-abatement/", "/service-areas/fircrest-wa/", "/service-areas/fircrest-wa/fire-damage-restoration/", "/service-areas/fircrest-wa/mold-remediation/", "/service-areas/anderson-island-wa/asbestos-abatement/", "/service-areas/auburn-wa/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fircrest", "url": "/service-areas/fircrest-wa/"}, {"name": "Asbestos Abatement"}]
 faq: []
 area_slug: "fircrest-wa"

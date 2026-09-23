@@ -7,10 +7,10 @@ primary_keyword: "contents restoration & storage fort lewis"
 secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "7c86349a8f420ab3"
-generated_at: "2026-09-20T14:13:13.264256+00:00"
+plan_hash: "af0c391543128cd5"
+generated_at: "2026-09-23T04:58:40.103493+00:00"
 manual_override: false
-internal_links: ["/services/contents-restoration-storage/", "/service-areas/fort-lewis-wa/", "/service-areas/fort-lewis-wa/fire-damage-restoration/", "/service-areas/fort-lewis-wa/mold-remediation/", "/service-areas/auburn-wa/contents-restoration-storage/", "/service-areas/bellevue-wa/contents-restoration-storage/", "/contact/"]
+internal_links: ["/services/contents-restoration-storage/", "/service-areas/fort-lewis-wa/", "/service-areas/fort-lewis-wa/fire-damage-restoration/", "/service-areas/fort-lewis-wa/mold-remediation/", "/service-areas/anderson-island-wa/contents-restoration-storage/", "/service-areas/auburn-wa/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fort Lewis", "url": "/service-areas/fort-lewis-wa/"}, {"name": "Contents Restoration & Storage"}]
 faq: []
 area_slug: "fort-lewis-wa"

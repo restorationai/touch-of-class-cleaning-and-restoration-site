@@ -7,10 +7,10 @@ primary_keyword: "sewage cleanup and sanitization north fort lewis"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "a1be61efad6d0413"
-generated_at: "2026-09-20T14:13:13.259096+00:00"
+plan_hash: "43cc6cfb766370e0"
+generated_at: "2026-09-23T04:58:40.099160+00:00"
 manual_override: false
-internal_links: ["/services/sewage-cleanup/", "/service-areas/north-fort-lewis-wa/", "/service-areas/north-fort-lewis-wa/fire-damage-restoration/", "/service-areas/north-fort-lewis-wa/mold-remediation/", "/service-areas/auburn-wa/sewage-cleanup/", "/service-areas/bellevue-wa/sewage-cleanup/", "/contact/"]
+internal_links: ["/services/sewage-cleanup/", "/service-areas/north-fort-lewis-wa/", "/service-areas/north-fort-lewis-wa/fire-damage-restoration/", "/service-areas/north-fort-lewis-wa/mold-remediation/", "/service-areas/anderson-island-wa/sewage-cleanup/", "/service-areas/auburn-wa/sewage-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Fort Lewis", "url": "/service-areas/north-fort-lewis-wa/"}, {"name": "Sewage Cleanup and Sanitization"}]
 faq: []
 area_slug: "north-fort-lewis-wa"

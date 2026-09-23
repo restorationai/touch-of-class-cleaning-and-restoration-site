@@ -34,7 +34,8 @@
     ],
     "primary_color": "#0052b8",
     "dark_color": "#0b1f3a",
-    "accent_color": "#f08000"
+    "accent_color": "#f08000",
+    "hide_mobile_header_call": "true"
   },
   "services": [
     "water-damage-restoration",

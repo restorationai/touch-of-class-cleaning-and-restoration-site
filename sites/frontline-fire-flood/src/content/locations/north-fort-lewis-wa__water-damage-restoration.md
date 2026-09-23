@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration north fort lewis"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "cb09245ffb935d88"
-generated_at: "2026-09-20T14:13:13.258405+00:00"
+plan_hash: "3f5ba1264c6e4317"
+generated_at: "2026-09-23T04:58:40.098512+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/north-fort-lewis-wa/", "/service-areas/north-fort-lewis-wa/fire-damage-restoration/", "/service-areas/north-fort-lewis-wa/mold-remediation/", "/service-areas/auburn-wa/water-damage-restoration/", "/service-areas/bellevue-wa/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/north-fort-lewis-wa/", "/service-areas/north-fort-lewis-wa/fire-damage-restoration/", "/service-areas/north-fort-lewis-wa/mold-remediation/", "/service-areas/anderson-island-wa/water-damage-restoration/", "/service-areas/auburn-wa/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Fort Lewis", "url": "/service-areas/north-fort-lewis-wa/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "north-fort-lewis-wa"

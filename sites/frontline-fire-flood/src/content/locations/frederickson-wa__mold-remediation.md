@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "5481ba7e5a07f1f6"
-generated_at: "2026-09-22T02:11:20.190225+00:00"
+generated_at: "2026-09-23T04:58:40.112668+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/frederickson-wa/", "/service-areas/frederickson-wa/fire-damage-restoration/", "/service-areas/frederickson-wa/water-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Frederickson", "url": "/service-areas/frederickson-wa/"}, {"name": "Mold Remediation"}]

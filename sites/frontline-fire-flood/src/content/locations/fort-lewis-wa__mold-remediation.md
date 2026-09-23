@@ -7,10 +7,10 @@ primary_keyword: "mold remediation fort lewis"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "37c603e77a866edf"
-generated_at: "2026-09-20T14:13:13.263405+00:00"
+plan_hash: "7800c73603a0a1d3"
+generated_at: "2026-09-23T04:58:40.102826+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/fort-lewis-wa/", "/service-areas/fort-lewis-wa/fire-damage-restoration/", "/service-areas/fort-lewis-wa/water-damage-restoration/", "/service-areas/auburn-wa/mold-remediation/", "/service-areas/bellevue-wa/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/fort-lewis-wa/", "/service-areas/fort-lewis-wa/fire-damage-restoration/", "/service-areas/fort-lewis-wa/water-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fort Lewis", "url": "/service-areas/fort-lewis-wa/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "fort-lewis-wa"

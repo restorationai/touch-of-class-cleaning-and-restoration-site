@@ -12,11 +12,12 @@ export const brand = {
   // the footer carries the "[legal] doing business as [DBA]" line and schema
   // declares it as the business name, so Google/BrightLocal find the new
   // name corroborated on the site before and during the GBP rename.
-  dbaName: "Frontline Fire & Flood - 24/7 Emergency Plumbing, Water and Fire Damage Restoration",
+  dbaName: "",
   domain: "frontlinefireflood.com",
   canonicalUrl: "https://frontlinefireflood.com",
   phone: "(253) 200-0503",
   phoneRaw: "+12532000503",
+  hideMobileHeaderCall: true,
   // Sitewide call-tracking number (2026-08-24). When BOTH fields are set,
   // a tiny inline script in BaseLayout swaps every visible phone mention
   // and tel: link to this number AFTER the page renders. The HTML source,
@@ -60,7 +61,7 @@ export const brand = {
   certifications: ["IICRC CERTIFIED FIRM", "IICRC AMRT (MOLD)", "IICRC WRT (WATER)", "IICRC FSRT (FIRE & SMOKE)", "IICRC ASD (STRUCTURAL DRYING)", "EPA LEAD-SAFE CERTIFIED", "OSHA TRAINED"] as string[],
   trustBadges: ["IICRC Certified Firm", "Licensed & Insured", "24/7 Emergency Service", "Locally Owned & Operated"] as string[],
   jobPhotos: [] as string[],
-  sameAsUrls: ["https://frontlinefireflood.com/meet-the-team/", "https://www.facebook.com/FrontlineFireFlood/", "https://www.instagram.com/frontline_fire_and_flood/"] as string[],
+  sameAsUrls: [] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.9",

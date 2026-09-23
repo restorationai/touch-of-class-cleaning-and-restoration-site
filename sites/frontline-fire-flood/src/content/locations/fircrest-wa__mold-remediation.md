@@ -7,10 +7,10 @@ primary_keyword: "mold remediation fircrest"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "7778303409ac1f62"
-generated_at: "2026-09-20T14:13:13.261888+00:00"
+plan_hash: "2145dda885f805e3"
+generated_at: "2026-09-23T04:58:40.101523+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/fircrest-wa/", "/service-areas/fircrest-wa/fire-damage-restoration/", "/service-areas/fircrest-wa/water-damage-restoration/", "/service-areas/auburn-wa/mold-remediation/", "/service-areas/bellevue-wa/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/fircrest-wa/", "/service-areas/fircrest-wa/fire-damage-restoration/", "/service-areas/fircrest-wa/water-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fircrest", "url": "/service-areas/fircrest-wa/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "fircrest-wa"
