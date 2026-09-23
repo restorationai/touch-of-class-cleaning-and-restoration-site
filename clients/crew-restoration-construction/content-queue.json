@@ -1082,7 +1082,7 @@
     },
     {
       "id": "2026-09-18-does-homeowners-insurance-cover-biohazard-cleanup",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-18T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -1114,8 +1114,7 @@
         "https://www.naic.org/consumer_home_insurance.htm",
         "https://dlr.sd.gov/insurance/"
       ],
-      "notes": "Decision-stage insurance query: low Google volume but the ChatGPT answer led its 'who usually pays' section with homeowners insurance, so it is real AI demand. Write it SD-first (cite the SD Division of Insurance, sudden-and-accidental language, deductible mechanics) rather than as a national explainer. Cross-link the existing does-homeowners-insurance-cover-water-damage post.",
-      "banked_at": "2026-09-19T10:23:53.718922+00:00"
+      "notes": "Decision-stage insurance query: low Google volume but the ChatGPT answer led its 'who usually pays' section with homeowners insurance, so it is real AI demand. Write it SD-first (cite the SD Division of Insurance, sudden-and-accidental language, deductible mechanics) rather than as a national explainer. Cross-link the existing does-homeowners-insurance-cover-water-damage post."
     },
     {
       "id": "2026-09-18-what-is-considered-a-biohazard-in-a-home",
