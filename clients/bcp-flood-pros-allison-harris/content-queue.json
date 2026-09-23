@@ -1,453 +1,454 @@
 {
- "items": [
-  {
-   "id": "2026-09-23-water-damage-restoration-cost-ut",
-   "status": "queued",
-   "queued_at": "2026-09-23T15:09:27Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "cost_guide",
-   "combo_key": "water-damage-restoration-cost-ut",
-   "primary_keyword": "water damage restoration cost UT",
-   "intent": "transactional",
-   "target_word_count": 1500,
-   "city_anchor": "american-fork-ut",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "American Fork",
-    "state": "UT",
-    "competitors": []
-   },
-   "fan_out_cluster": [
-    "how much does water damage restoration cost in UT",
-    "water damage restoration price UT",
-    "average cost of water damage restoration UT",
-    "water damage cleanup UT",
-    "water cleanup UT",
-    "water removal UT"
-   ],
-   "source": "best-of-seeder"
-  },
-  {
-   "id": "2026-09-10-storm-wind-damage-restoration",
-   "status": "written",
-   "queued_at": "2026-09-10T10:24:15Z",
-   "priority": 1,
-   "content_type": "target_term",
-   "combo_key": "storm-wind-damage-restoration",
-   "primary_keyword": "Storm & Wind Damage Restoration",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "pleasant-grove-ut",
-   "source": "app target-term (onboarding)",
-   "written_at": "2026-09-18T11:24:53Z",
-   "post_url": "https://None/blog/storm-wind-damage-restoration/",
-   "claims_flags": [
+  "items": [
     {
-     "file": "src/content/blog/storm-wind-damage-restoration.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "to acceptable baseline levels per the [IICRC S500 standard](https://www.iicrc.org).",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+      "id": "2026-09-23-water-damage-restoration-cost-ut",
+      "status": "queued",
+      "queued_at": "2026-09-23T15:09:27Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "cost_guide",
+      "combo_key": "water-damage-restoration-cost-ut",
+      "primary_keyword": "water damage restoration cost UT",
+      "intent": "transactional",
+      "target_word_count": 1500,
+      "city_anchor": "american-fork-ut",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "American Fork",
+        "state": "UT",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "how much does water damage restoration cost in UT",
+        "water damage restoration price UT",
+        "average cost of water damage restoration UT",
+        "water damage cleanup UT",
+        "water cleanup UT",
+        "water removal UT"
+      ],
+      "source": "best-of-seeder"
+    },
+    {
+      "id": "2026-09-10-storm-wind-damage-restoration",
+      "status": "written",
+      "queued_at": "2026-09-10T10:24:15Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "storm-wind-damage-restoration",
+      "primary_keyword": "Storm & Wind Damage Restoration",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "pleasant-grove-ut",
+      "source": "app target-term (onboarding)",
+      "written_at": "2026-09-18T11:24:53Z",
+      "post_url": "https://None/blog/storm-wind-damage-restoration/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/storm-wind-damage-restoration.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "to acceptable baseline levels per the [IICRC S500 standard](https://www.iicrc.org).",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-10-sewage-cleanup-remediation",
+      "status": "written",
+      "queued_at": "2026-09-10T10:24:15Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "sewage-cleanup-remediation",
+      "primary_keyword": "Sewage Cleanup & Remediation",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "orem-ut",
+      "source": "app target-term (onboarding)",
+      "written_at": "2026-09-20T14:22:07Z",
+      "post_url": "https://fixofutah.com/blog/sewage-cleanup-remediation/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/sewage-cleanup-remediation.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "lassified as Category 3 water under the IICRC S500 standard, meaning it contains bact",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/sewage-cleanup-remediation.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "n?\", \"answer\": \"Category 3 water is the IICRC's classification for grossly contaminat",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/sewage-cleanup-remediation.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "assified as Category 3 water under the [IICRC S500 standard](https://www.iicrc.org),",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/sewage-cleanup-remediation.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "s a structured process that mirrors the IICRC S500 and the companion S520 standard fo",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-10-general-contracting-reconstruction-renovation",
+      "status": "written",
+      "queued_at": "2026-09-10T10:24:15Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "general-contracting-reconstruction-renovation",
+      "primary_keyword": "General Contracting (Reconstruction & Renovation)",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "lehi-ut",
+      "source": "app target-term (onboarding)",
+      "written_at": "2026-09-22T15:08:05Z",
+      "post_url": "https://fixofutah.com/blog/general-contracting-reconstruction-renovation/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/general-contracting-reconstruction-renovation.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "oring, and cabinet reinstallation. The [IICRC S500 standard](https://www.iicrc.org) d",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-10-fire-smoke-restoration",
+      "status": "queued",
+      "queued_at": "2026-09-10T10:24:15Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "fire-smoke-restoration",
+      "primary_keyword": "Fire & Smoke Restoration",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "highland-ut",
+      "source": "app target-term (onboarding)"
+    },
+    {
+      "id": "2026-09-09-best-water-damage-restoration-in-american-fork-ut",
+      "status": "written",
+      "queued_at": "2026-09-09T14:42:07Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-water-damage-restoration-in-american-fork-ut",
+      "primary_keyword": "best water damage restoration company in American Fork, UT",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "american-fork-ut",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "American Fork",
+        "state": "UT",
+        "competitors": [
+          {
+            "name": "FIX Flood & Water Damage Pros",
+            "google_rating": 4.9,
+            "review_count": 558
+          },
+          {
+            "name": "Disaster Professionals",
+            "google_rating": 5,
+            "review_count": 4
+          },
+          {
+            "name": "ServiceMaster Restore by A3 Disaster Services",
+            "google_rating": 4.9,
+            "review_count": 484
+          },
+          {
+            "name": "Disaster Repair Team",
+            "google_rating": 4.9,
+            "review_count": 166
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best water damage restoration companies American Fork",
+        "top rated water damage restoration American Fork UT",
+        "who is the best water damage restoration company in American Fork",
+        "water damage cleanup American Fork",
+        "water cleanup American Fork",
+        "water removal American Fork"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-09-09T14:45:24Z",
+      "post_url": "https://None/blog/best-water-damage-restoration-company-in-american-fork-ut/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-american-fork-ut.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "gle Rating | Reviews | 24/7 Emergency | IICRC Certified | |---|---|---|---|---| | FIX",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-american-fork-ut.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "| - | - | Note: 24/7 availability and IICRC certification status for competitors we",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-american-fork-ut.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "readings across the drying period. The [IICRC S500 Standard for Professional Water Da",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-american-fork-ut.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "558 reviews",
+          "context": "s holds a 4.9-star Google rating across 558 reviews, which is a substantial review base for",
+          "reason": "claims 558 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-american-fork-ut.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "484 reviews",
+          "context": "carries a 4.9-star Google rating across 484 reviews. ServiceMaster Restore is a national fr",
+          "reason": "claims 484 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-american-fork-ut.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "166 reviews",
+          "context": "m holds a 4.9-star Google rating across 166 reviews. A well-reviewed local restoration comp",
+          "reason": "claims 166 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-american-fork-ut.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "4 reviews",
+          "context": "t 5.0-star Google rating, though across 4 reviews. A perfect rating with very few reviews",
+          "reason": "claims 4 reviews but no synced gbpReviewCount exists for this site"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-21-water-damage-restoration-cost",
+      "status": "queued",
+      "queued_at": "2026-09-21T18:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water damage restoration cost",
+      "intent": "commercial",
+      "volume": 720,
+      "kd": 0,
+      "fan_out_cluster": [
+        "water damage restoration cost per square foot",
+        "average cost of water damage restoration",
+        "how much does water damage restoration cost",
+        "water damage restoration prices",
+        "what does water damage restoration include",
+        "does homeowners insurance cover the cost of water damage"
+      ],
+      "suggested_slug": "water-damage-restoration-cost",
+      "suggested_title": "Water damage restoration cost in American Fork, UT: what a real job actually runs",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/water-cleanup/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "city_anchor": "american-fork-ut",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://insurance.utah.gov/consumers/home-insurance/home-claims-info/"
+      ],
+      "notes": "Highest-value item in this seed family: US volume 720, KD 0, CPC $43.02, and no page on the site targets cost. Break cost out by loss size (single room, finished basement, whole main floor), by water category, and by what insurance typically pays versus the deductible. Give honest ranges, not a single number. Brand has no certifications on file: do not state or imply IICRC certification. Cite IICRC S500/S520 only as an industry standard, and prefer EPA / CDC / Utah state sources for authority links. Do not cite competitor review counts.",
+      "source": "rank-ai-keyword-researcher (seed: water damage restoration)"
+    },
+    {
+      "id": "2026-09-21-how-soon-does-mold-grow-after-water-damage",
+      "status": "queued",
+      "queued_at": "2026-09-21T18:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how soon does mold grow after water damage",
+      "intent": "informational",
+      "volume": 110,
+      "kd": 0,
+      "fan_out_cluster": [
+        "how long before mold grows after a leak",
+        "24 to 48 hour mold growth window",
+        "signs of mold after water damage",
+        "does drying a room prevent mold",
+        "when to call mold remediation after water damage"
+      ],
+      "suggested_slug": "how-soon-does-mold-grow-after-water-damage",
+      "suggested_title": "How soon does mold grow after water damage? A Provo, UT drying timeline",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/service-areas/provo-ut/water-damage-restoration/",
+        "/blog/signs-of-hidden-mold/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "provo-ut",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home",
+        "https://ibis.utah.gov/epht-view/topic/Mold.html"
+      ],
+      "notes": "Lead with the 24-48 hour window, then explain why Utah's dry climate does not make a home immune once water is inside wall cavities. Links naturally to the existing hidden-mold post. Brand has no certifications on file: do not state or imply IICRC certification. Cite IICRC S500/S520 only as an industry standard, and prefer EPA / CDC / Utah state sources for authority links. Do not cite competitor review counts.",
+      "source": "rank-ai-keyword-researcher (seed: water damage restoration)"
+    },
+    {
+      "id": "2026-09-21-how-long-does-water-damage-restoration-take",
+      "status": "queued",
+      "queued_at": "2026-09-21T18:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how long does water damage restoration take",
+      "intent": "informational",
+      "volume": 50,
+      "kd": 3,
+      "fan_out_cluster": [
+        "how long to dry out a flooded basement",
+        "how long do air movers need to run",
+        "water damage drying time by material",
+        "what happens on day one of water damage restoration",
+        "how long does a moisture reading take to clear"
+      ],
+      "suggested_slug": "how-long-does-water-damage-restoration-take",
+      "suggested_title": "How long does water damage restoration take in Orem, UT? A day-by-day timeline",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/flood-equipment-rental/",
+        "/service-areas/orem-ut/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "flood-equipment-rental"
+      ],
+      "city_anchor": "orem-ut",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Structure as extraction day, drying days 1-3, monitoring, then reconstruction, with the honest caveat that hardwood and plaster take longer than carpet and drywall. Strong AI-retrieval passage format: give a concrete range in the first two sentences. Brand has no certifications on file: do not state or imply IICRC certification. Cite IICRC S500/S520 only as an industry standard, and prefer EPA / CDC / Utah state sources for authority links. Do not cite competitor review counts.",
+      "source": "rank-ai-keyword-researcher (seed: water damage restoration)"
+    },
+    {
+      "id": "2026-09-21-how-to-find-water-damage-behind-walls",
+      "status": "queued",
+      "queued_at": "2026-09-21T18:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to find water damage behind walls",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "who to call for water damage in walls",
+        "signs of water damage behind drywall",
+        "moisture meter vs thermal camera for hidden leaks",
+        "musty smell but no visible water",
+        "how to tell if a wall is still wet inside"
+      ],
+      "suggested_slug": "how-to-find-water-damage-behind-walls",
+      "suggested_title": "How to find water damage behind walls in your Lehi, UT home before mold starts",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/service-areas/lehi-ut/water-damage-restoration/",
+        "/blog/signs-of-hidden-mold/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": "lehi-ut",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "Zero measured Google volume but surfaced directly by the ChatGPT decomposition of hidden-moisture queries, and nothing on the site covers it. Queued intent-first as AI-retrieval fuel. Answer the question in the opening passage so an assistant can lift it verbatim. Brand has no certifications on file: do not state or imply IICRC certification. Cite IICRC S500/S520 only as an industry standard, and prefer EPA / CDC / Utah state sources for authority links. Do not cite competitor review counts.",
+      "source": "rank-ai-keyword-researcher (seed: water damage restoration)"
+    },
+    {
+      "id": "2026-09-21-do-i-need-to-replace-drywall-after-water-damage",
+      "status": "banked",
+      "queued_at": "2026-09-21T18:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "do i need to replace drywall after water damage",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "when can wet drywall be dried instead of replaced",
+        "how high do you cut drywall after a flood",
+        "flood cut explained",
+        "wet insulation behind drywall",
+        "category 3 water and drywall removal"
+      ],
+      "suggested_slug": "do-i-need-to-replace-drywall-after-water-damage",
+      "suggested_title": "Do I need to replace drywall after water damage? A Pleasant Grove, UT homeowner's guide",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/general-contracting/",
+        "/service-areas/pleasant-grove-ut/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "general-contracting"
+      ],
+      "city_anchor": "pleasant-grove-ut",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "Decision-stage question that comes up on nearly every estimate. Explain clean water versus sewage, the flood-cut rule of thumb, and when drying in place is legitimate. Sewage cases must point to the sewage-cleanup service. Brand has no certifications on file: do not state or imply IICRC certification. Cite IICRC S500/S520 only as an industry standard, and prefer EPA / CDC / Utah state sources for authority links. Do not cite competitor review counts.",
+      "source": "rank-ai-keyword-researcher (seed: water damage restoration)",
+      "banked_at": "2026-09-23T22:24:04.935656+00:00"
     }
-   ]
-  },
-  {
-   "id": "2026-09-10-sewage-cleanup-remediation",
-   "status": "written",
-   "queued_at": "2026-09-10T10:24:15Z",
-   "priority": 1,
-   "content_type": "target_term",
-   "combo_key": "sewage-cleanup-remediation",
-   "primary_keyword": "Sewage Cleanup & Remediation",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "orem-ut",
-   "source": "app target-term (onboarding)",
-   "written_at": "2026-09-20T14:22:07Z",
-   "post_url": "https://fixofutah.com/blog/sewage-cleanup-remediation/",
-   "claims_flags": [
-    {
-     "file": "src/content/blog/sewage-cleanup-remediation.md",
-     "part": "frontmatter",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "lassified as Category 3 water under the IICRC S500 standard, meaning it contains bact",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/sewage-cleanup-remediation.md",
-     "part": "frontmatter",
-     "family": "certification",
-     "severity": "error",
-     "matched": "IICRC",
-     "context": "n?\", \"answer\": \"Category 3 water is the IICRC's classification for grossly contaminat",
-     "reason": "names a certification not present in brand.certifications"
-    },
-    {
-     "file": "src/content/blog/sewage-cleanup-remediation.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "assified as Category 3 water under the [IICRC S500 standard](https://www.iicrc.org),",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/sewage-cleanup-remediation.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "s a structured process that mirrors the IICRC S500 and the companion S520 standard fo",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    }
-   ]
-  },
-  {
-   "id": "2026-09-10-general-contracting-reconstruction-renovation",
-   "status": "written",
-   "queued_at": "2026-09-10T10:24:15Z",
-   "priority": 1,
-   "content_type": "target_term",
-   "combo_key": "general-contracting-reconstruction-renovation",
-   "primary_keyword": "General Contracting (Reconstruction & Renovation)",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "lehi-ut",
-   "source": "app target-term (onboarding)",
-   "written_at": "2026-09-22T15:08:05Z",
-   "post_url": "https://fixofutah.com/blog/general-contracting-reconstruction-renovation/",
-   "claims_flags": [
-    {
-     "file": "src/content/blog/general-contracting-reconstruction-renovation.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "oring, and cabinet reinstallation. The [IICRC S500 standard](https://www.iicrc.org) d",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    }
-   ]
-  },
-  {
-   "id": "2026-09-10-fire-smoke-restoration",
-   "status": "queued",
-   "queued_at": "2026-09-10T10:24:15Z",
-   "priority": 1,
-   "content_type": "target_term",
-   "combo_key": "fire-smoke-restoration",
-   "primary_keyword": "Fire & Smoke Restoration",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "highland-ut",
-   "source": "app target-term (onboarding)"
-  },
-  {
-   "id": "2026-09-09-best-water-damage-restoration-in-american-fork-ut",
-   "status": "written",
-   "queued_at": "2026-09-09T14:42:07Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "best_of_comparison",
-   "combo_key": "best-water-damage-restoration-in-american-fork-ut",
-   "primary_keyword": "best water damage restoration company in American Fork, UT",
-   "intent": "commercial",
-   "target_word_count": 1600,
-   "city_anchor": "american-fork-ut",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "American Fork",
-    "state": "UT",
-    "competitors": [
-     {
-      "name": "FIX Flood & Water Damage Pros",
-      "google_rating": 4.9,
-      "review_count": 558
-     },
-     {
-      "name": "Disaster Professionals",
-      "google_rating": 5,
-      "review_count": 4
-     },
-     {
-      "name": "ServiceMaster Restore by A3 Disaster Services",
-      "google_rating": 4.9,
-      "review_count": 484
-     },
-     {
-      "name": "Disaster Repair Team",
-      "google_rating": 4.9,
-      "review_count": 166
-     }
-    ]
-   },
-   "fan_out_cluster": [
-    "best water damage restoration companies American Fork",
-    "top rated water damage restoration American Fork UT",
-    "who is the best water damage restoration company in American Fork",
-    "water damage cleanup American Fork",
-    "water cleanup American Fork",
-    "water removal American Fork"
-   ],
-   "source": "best-of-seeder",
-   "written_at": "2026-09-09T14:45:24Z",
-   "post_url": "https://None/blog/best-water-damage-restoration-company-in-american-fork-ut/",
-   "claims_flags": [
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-american-fork-ut.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "IICRC",
-     "context": "gle Rating | Reviews | 24/7 Emergency | IICRC Certified | |---|---|---|---|---| | FIX",
-     "reason": "names a certification not present in brand.certifications"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-american-fork-ut.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "IICRC",
-     "context": "| - | - | Note: 24/7 availability and IICRC certification status for competitors we",
-     "reason": "names a certification not present in brand.certifications"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-american-fork-ut.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "readings across the drying period. The [IICRC S500 Standard for Professional Water Da",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-american-fork-ut.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "558 reviews",
-     "context": "s holds a 4.9-star Google rating across 558 reviews, which is a substantial review base for",
-     "reason": "claims 558 reviews but no synced gbpReviewCount exists for this site"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-american-fork-ut.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "484 reviews",
-     "context": "carries a 4.9-star Google rating across 484 reviews. ServiceMaster Restore is a national fr",
-     "reason": "claims 484 reviews but no synced gbpReviewCount exists for this site"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-american-fork-ut.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "166 reviews",
-     "context": "m holds a 4.9-star Google rating across 166 reviews. A well-reviewed local restoration comp",
-     "reason": "claims 166 reviews but no synced gbpReviewCount exists for this site"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-american-fork-ut.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "4 reviews",
-     "context": "t 5.0-star Google rating, though across 4 reviews. A perfect rating with very few reviews",
-     "reason": "claims 4 reviews but no synced gbpReviewCount exists for this site"
-    }
-   ]
-  },
-  {
-   "id": "2026-09-21-water-damage-restoration-cost",
-   "status": "queued",
-   "queued_at": "2026-09-21T18:30:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "water damage restoration cost",
-   "intent": "commercial",
-   "volume": 720,
-   "kd": 0,
-   "fan_out_cluster": [
-    "water damage restoration cost per square foot",
-    "average cost of water damage restoration",
-    "how much does water damage restoration cost",
-    "water damage restoration prices",
-    "what does water damage restoration include",
-    "does homeowners insurance cover the cost of water damage"
-   ],
-   "suggested_slug": "water-damage-restoration-cost",
-   "suggested_title": "Water damage restoration cost in American Fork, UT: what a real job actually runs",
-   "target_word_count": 1600,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/water-cleanup/",
-    "/blog/does-homeowners-insurance-cover-water-damage/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "water-cleanup"
-   ],
-   "city_anchor": "american-fork-ut",
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500",
-    "https://insurance.utah.gov/consumers/home-insurance/home-claims-info/"
-   ],
-   "notes": "Highest-value item in this seed family: US volume 720, KD 0, CPC $43.02, and no page on the site targets cost. Break cost out by loss size (single room, finished basement, whole main floor), by water category, and by what insurance typically pays versus the deductible. Give honest ranges, not a single number. Brand has no certifications on file: do not state or imply IICRC certification. Cite IICRC S500/S520 only as an industry standard, and prefer EPA / CDC / Utah state sources for authority links. Do not cite competitor review counts.",
-   "source": "rank-ai-keyword-researcher (seed: water damage restoration)"
-  },
-  {
-   "id": "2026-09-21-how-soon-does-mold-grow-after-water-damage",
-   "status": "queued",
-   "queued_at": "2026-09-21T18:30:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "how soon does mold grow after water damage",
-   "intent": "informational",
-   "volume": 110,
-   "kd": 0,
-   "fan_out_cluster": [
-    "how long before mold grows after a leak",
-    "24 to 48 hour mold growth window",
-    "signs of mold after water damage",
-    "does drying a room prevent mold",
-    "when to call mold remediation after water damage"
-   ],
-   "suggested_slug": "how-soon-does-mold-grow-after-water-damage",
-   "suggested_title": "How soon does mold grow after water damage? A Provo, UT drying timeline",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/services/water-damage-restoration/",
-    "/service-areas/provo-ut/water-damage-restoration/",
-    "/blog/signs-of-hidden-mold/"
-   ],
-   "service_tags": [
-    "mold-remediation",
-    "water-damage-restoration"
-   ],
-   "city_anchor": "provo-ut",
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/mold-cleanup-your-home",
-    "https://ibis.utah.gov/epht-view/topic/Mold.html"
-   ],
-   "notes": "Lead with the 24-48 hour window, then explain why Utah's dry climate does not make a home immune once water is inside wall cavities. Links naturally to the existing hidden-mold post. Brand has no certifications on file: do not state or imply IICRC certification. Cite IICRC S500/S520 only as an industry standard, and prefer EPA / CDC / Utah state sources for authority links. Do not cite competitor review counts.",
-   "source": "rank-ai-keyword-researcher (seed: water damage restoration)"
-  },
-  {
-   "id": "2026-09-21-how-long-does-water-damage-restoration-take",
-   "status": "queued",
-   "queued_at": "2026-09-21T18:30:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "how long does water damage restoration take",
-   "intent": "informational",
-   "volume": 50,
-   "kd": 3,
-   "fan_out_cluster": [
-    "how long to dry out a flooded basement",
-    "how long do air movers need to run",
-    "water damage drying time by material",
-    "what happens on day one of water damage restoration",
-    "how long does a moisture reading take to clear"
-   ],
-   "suggested_slug": "how-long-does-water-damage-restoration-take",
-   "suggested_title": "How long does water damage restoration take in Orem, UT? A day-by-day timeline",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/flood-equipment-rental/",
-    "/service-areas/orem-ut/water-damage-restoration/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "flood-equipment-rental"
-   ],
-   "city_anchor": "orem-ut",
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Structure as extraction day, drying days 1-3, monitoring, then reconstruction, with the honest caveat that hardwood and plaster take longer than carpet and drywall. Strong AI-retrieval passage format: give a concrete range in the first two sentences. Brand has no certifications on file: do not state or imply IICRC certification. Cite IICRC S500/S520 only as an industry standard, and prefer EPA / CDC / Utah state sources for authority links. Do not cite competitor review counts.",
-   "source": "rank-ai-keyword-researcher (seed: water damage restoration)"
-  },
-  {
-   "id": "2026-09-21-how-to-find-water-damage-behind-walls",
-   "status": "queued",
-   "queued_at": "2026-09-21T18:30:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "how to find water damage behind walls",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "who to call for water damage in walls",
-    "signs of water damage behind drywall",
-    "moisture meter vs thermal camera for hidden leaks",
-    "musty smell but no visible water",
-    "how to tell if a wall is still wet inside"
-   ],
-   "suggested_slug": "how-to-find-water-damage-behind-walls",
-   "suggested_title": "How to find water damage behind walls in your Lehi, UT home before mold starts",
-   "target_word_count": 1300,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/",
-    "/service-areas/lehi-ut/water-damage-restoration/",
-    "/blog/signs-of-hidden-mold/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "mold-remediation"
-   ],
-   "city_anchor": "lehi-ut",
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/mold-cleanup-your-home"
-   ],
-   "notes": "Zero measured Google volume but surfaced directly by the ChatGPT decomposition of hidden-moisture queries, and nothing on the site covers it. Queued intent-first as AI-retrieval fuel. Answer the question in the opening passage so an assistant can lift it verbatim. Brand has no certifications on file: do not state or imply IICRC certification. Cite IICRC S500/S520 only as an industry standard, and prefer EPA / CDC / Utah state sources for authority links. Do not cite competitor review counts.",
-   "source": "rank-ai-keyword-researcher (seed: water damage restoration)"
-  },
-  {
-   "id": "2026-09-21-do-i-need-to-replace-drywall-after-water-damage",
-   "status": "queued",
-   "queued_at": "2026-09-21T18:30:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "do i need to replace drywall after water damage",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "when can wet drywall be dried instead of replaced",
-    "how high do you cut drywall after a flood",
-    "flood cut explained",
-    "wet insulation behind drywall",
-    "category 3 water and drywall removal"
-   ],
-   "suggested_slug": "do-i-need-to-replace-drywall-after-water-damage",
-   "suggested_title": "Do I need to replace drywall after water damage? A Pleasant Grove, UT homeowner's guide",
-   "target_word_count": 1300,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/general-contracting/",
-    "/service-areas/pleasant-grove-ut/water-damage-restoration/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "general-contracting"
-   ],
-   "city_anchor": "pleasant-grove-ut",
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/mold-cleanup-your-home"
-   ],
-   "notes": "Decision-stage question that comes up on nearly every estimate. Explain clean water versus sewage, the flood-cut rule of thumb, and when drying in place is legitimate. Sewage cases must point to the sewage-cleanup service. Brand has no certifications on file: do not state or imply IICRC certification. Cite IICRC S500/S520 only as an industry standard, and prefer EPA / CDC / Utah state sources for authority links. Do not cite competitor review counts.",
-   "source": "rank-ai-keyword-researcher (seed: water damage restoration)"
-  }
- ]
+  ]
 }
