@@ -1,7 +1,7 @@
 {
   "last_kind": "geo",
-  "cycle_pos": 2,
-  "geo_cursor": 1,
+  "cycle_pos": 0,
+  "geo_cursor": 2,
   "history": [
     {
       "ts": "2026-09-21T16:40:55.789880+00:00",
@@ -18,6 +18,14 @@
       "service": "water-damage-restoration",
       "city": "Norco",
       "youtube_id": "Wm7heqjlW4o"
+    },
+    {
+      "ts": "2026-09-23T16:11:35.560898+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "air-duct-cleaning",
+      "city": "Riverside",
+      "youtube_id": "VZRh4QPopTM"
     }
   ]
 }
