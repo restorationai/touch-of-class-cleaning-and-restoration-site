@@ -576,3 +576,19 @@ Meta OAuth), citations program (agent + BrightLocal + tracking), visual sitemap 
   once Bob's real van photos arrive.
 - Iowa DBA registry watcher (Kyle/Crew Sioux City) nightly; Apple Maps 3 listings in
   review (runs 2-3 pending); Air Care reveal + WordPress NS flip pending Sarha.
+
+## Branded short-links: n8n lanes (2026-09-23)
+- Root cause of DISS restorationai.io links: n8n dispatcher lanes hardcode
+  `https://restorationai.io/s/{{ Generate Short URL }}`; only the OUTBOUND
+  logger ever read `integration_settings.branded_link_host`.
+- FIXED tonight: **Post Call Analysis** (the lane that fired for DISS) now uses
+  `{{ $('Get Company Row').first().json.integration_settings?.branded_link_host || 'restorationai.io' }}`
+  for both the SMS text and the app `public_url`. Verified active after PUT.
+- REMAINING (supervised pass, ~9 lanes, some lack a company-row node so each
+  needs its own resolution path): Take Message Emergency (no company node),
+  Call Transfer No Answer (28 nonstd occurrences!), Rescheduling Coordinator,
+  Book Standard Appointment, Book Emergency Appointment (10 links),
+  Take Message Inspection/Assessment/Service (no company node), plus
+  code-node occurrences flagged nonstd in the audit. Audit script pattern in
+  session 09-23. These lanes SEND WORKING generic links today — cosmetic only.
+- branded_links.py now needs 2 consecutive failed probes before un-stamping.
