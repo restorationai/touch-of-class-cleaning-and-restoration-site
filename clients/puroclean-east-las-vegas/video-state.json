@@ -1,7 +1,7 @@
 {
-  "last_kind": "blog",
-  "cycle_pos": 1,
-  "geo_cursor": 2,
+  "last_kind": "geo",
+  "cycle_pos": 2,
+  "geo_cursor": 3,
   "history": [
     {
       "ts": "2026-07-29T18:18:59.774470+00:00",
@@ -34,6 +34,14 @@
       "service": null,
       "city": null,
       "youtube_id": "ic_D088AVr8"
+    },
+    {
+      "ts": "2026-09-23T19:58:59.487306+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "mold-remediation",
+      "city": "Nelson",
+      "youtube_id": "EGa86Jhy_hU"
     }
   ]
 }
