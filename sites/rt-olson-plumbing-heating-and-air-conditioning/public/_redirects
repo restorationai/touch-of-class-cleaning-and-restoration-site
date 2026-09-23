@@ -117,3 +117,6 @@
 /leak-detection-lp/* /services/leak-detection/ 301
 /leak-detection/* /services/leak-detection/ 301
 /services/re-pipe/* /services/repiping/ 301
+/services/water-damage-restoration/thank-you/ /services/water-damage-restoration/ 301
+/services/water-damage/ /services/water-damage-restoration/ 301
+/water-damage-restoration/ /services/water-damage-restoration/ 301

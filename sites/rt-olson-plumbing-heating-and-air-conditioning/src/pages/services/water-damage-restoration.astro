@@ -1,0 +1,61 @@
+---
+/* Referral page (Bobby 2026-09-23): this URL ranks for "water damage
+   company corona" but 404'd after the plumbing-vertical build dropped
+   water services. RT Olson does not sell water restoration; Dry County
+   Restoration (same ownership) does. A live referral page keeps the
+   ranking asset, ends the 404, and sends the caller to the right crew —
+   without claiming a service RT Olson doesn't offer. */
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import { brand } from "~/lib/brand";
+import { Droplets, PhoneCall, ArrowRight, ShieldCheck } from "@lucide/astro";
+
+const dcPhone = "(951) 667-9910";
+const dcPhoneRaw = "+19516679910";
+const title = "Water Damage Restoration | Referred by RT Olson";
+const description =
+  "Water damage emergency? RT Olson Plumbing refers water damage restoration to our trusted sister company, Dry County Restoration. One call and the right crew is on the way.";
+---
+
+<BaseLayout title={title} description={description}>
+  <section class="bg-dark text-white">
+    <div class="container-wide px-6 py-16 md:py-24 max-w-3xl">
+      <div class="flex items-center gap-3 text-primary-300 mb-6">
+        <Droplets size={32} />
+        <span class="uppercase tracking-[0.2em] font-black text-sm">Water Damage Restoration</span>
+      </div>
+      <h1 class="text-4xl md:text-5xl font-black mb-6">
+        Water damage? We've got the right crew for you.
+      </h1>
+      <p class="text-lg text-white/85 mb-4">
+        RT Olson handles your plumbing, heating and air. For water damage
+        cleanup and restoration, we work hand in hand with our sister
+        company, <strong>Dry County Restoration</strong>, the team we trust
+        with our own customers' homes.
+      </p>
+      <p class="text-lg text-white/85 mb-10">
+        Same ownership, same standards. One call and they're rolling:
+        emergency water extraction, structural drying, and full restoration,
+        with your insurance claim handled start to finish.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
+        <a href={`tel:${dcPhoneRaw}`}
+           class="inline-flex items-center gap-3 rounded-xl bg-cta text-cta-fg font-black text-xl px-8 py-4 shadow-lg hover:bg-cta-hover transition-transform hover:-translate-y-1">
+          <PhoneCall size={24} /> Call Dry County {dcPhone}
+        </a>
+        <a href="https://drycountyrestoration.com/" rel="noopener"
+           class="inline-flex items-center gap-2 rounded-xl border-2 border-white/40 text-white font-bold px-6 py-4 hover:bg-white/10">
+          Visit Dry County Restoration <ArrowRight size={18} />
+        </a>
+      </div>
+      <div class="mt-10 flex items-center gap-3 text-white/70 text-sm">
+        <ShieldCheck size={18} />
+        <span>Licensed and insured &middot; 24/7 emergency response &middot; Insurance claims handled</span>
+      </div>
+      <p class="mt-10 text-white/70">
+        Not sure who to call? Call us at
+        <a class="underline font-bold" href={`tel:${brand.phoneRaw}`}>{brand.phone}</a>
+        and we'll get you to the right crew.
+      </p>
+    </div>
+  </section>
+</BaseLayout>
