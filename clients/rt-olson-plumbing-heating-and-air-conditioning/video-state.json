@@ -1,6 +1,6 @@
 {
-  "last_kind": "geo",
-  "cycle_pos": 0,
+  "last_kind": "blog",
+  "cycle_pos": 1,
   "geo_cursor": 2,
   "history": [
     {
@@ -26,6 +26,14 @@
       "service": "leak-detection",
       "city": "Riverside",
       "youtube_id": "jGe7UaxMEJY"
+    },
+    {
+      "ts": "2026-09-23T20:16:21.069931+00:00",
+      "kind": "blog",
+      "post": "should-i-tip-a-plumber",
+      "service": null,
+      "city": null,
+      "youtube_id": "6gR_CrtUtJE"
     }
   ]
 }
