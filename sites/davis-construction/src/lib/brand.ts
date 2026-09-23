@@ -7,12 +7,24 @@ export const brand = {
   displayName: "Davis Construction Contractors",
   shortName: "Davis Construction Contractors",
   legalName: "Davis Construction Inc.",
+  // Registered DBA / trade name — filled by rename_site_sync.py the moment
+  // the state approves the client's DBA filing (empty until then). When set,
+  // the footer carries the "[legal] doing business as [DBA]" line and schema
+  // declares it as the business name, so Google/BrightLocal find the new
+  // name corroborated on the site before and during the GBP rename.
+  dbaName: "",
   domain: "davisconstructioncontractors.com",
   canonicalUrl: "https://davisconstructioncontractors.com",
   phone: "(256) 771-0326",
   phoneRaw: "+12567710326",
-  // Sitewide call-tracking display number (DNI — see BaseLayout).
-  // Schema/NAP keep the canonical number above.
+  hideMobileHeaderCall: false,
+  // Sitewide call-tracking number (2026-08-24). When BOTH fields are set,
+  // a tiny inline script in BaseLayout swaps every visible phone mention
+  // and tel: link to this number AFTER the page renders. The HTML source,
+  // the JSON-LD in schema.ts, and anything crawlers/citation-checkers read
+  // keep the canonical NAP number above — humans dial the tracked line,
+  // Google sees consistent NAP. Empty = feature off (default at scaffold;
+  // filled by the call-tracking provisioning step).
   trackingPhone: "(256) 257-0752",
   trackingPhoneRaw: "+12562570752",
   email: "davisheath09@gmail.com",
@@ -20,40 +32,53 @@ export const brand = {
   foundedYear: "2008",
   primaryCity: "Madison",
   primaryState: "AL",
+  // primaryCity/primaryState = the #1 MARKETING city (headlines, coverage
+  // copy). addressCity/addressState = where the business PHYSICALLY is.
+  // They are usually the same and often diverge (DISS: Farrell PA office,
+  // Youngstown OH target) — only the address pair may go in a PostalAddress.
+  addressCity: "Madison",
+  addressState: "AL",
   streetAddress: "",
   postalCode: "",
-  lat: "",
-  lng: "",
+  lat: "34.77368",
+  lng: "-86.56751",
   placeId: "",
   googleCid: "",
   imagesBase: "https://images.davisconstructioncontractors.com",
   googleMapsApiKey: "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
-  // Analytics — set by scripts/analytics_set.py / create_ga4.py; no-op if empty
+  // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "G-BRL1Q2KTGV",
   clarityProjectId: "xdoje59wr1",
-  logoUrl: "/images/logo.webp",
+  logoUrl: "https://images.davisconstructioncontractors.com/brand/logo.png",
   licenseNumbers: [] as string[],
   licenseAuthority: "",
+  // State license-verification page — the footer links the license number here.
+  licenseLookupUrl: "",
   licenseType: "",
-  // Operator-confirmed "licensed & insured" attestation (plan-input.json
-  // brand.licensed_insured_attested) — gates the TrustStrip badge when no
-  // license number is on file yet.
-  licensedInsuredAttested: false,
+  // Operator-confirmed "licensed & insured" attestation from plan-input.json —
+  // lets the TrustStrip show the badge before a license number is on file.
+  licensedInsuredAttested: true as boolean,
   certifications: [] as string[],
-  // Operator-attested 2026-07-04 (Santino): family business (two brothers),
-  // licensed & insured — license number pending; add it to licenseNumbers when
-  // received so footer/llms.txt can cite it.
-  trustBadges: ["Family-Owned & Operated", "Licensed & Insured", "Locally Owned", "Since 2008"] as string[],
+  trustBadges: [] as string[],
+  jobPhotos: [] as string[],
   sameAsUrls: ["https://davisconstructioncontractors.com/about/"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
-  // Empty for this client: no GBP profile row yet, so no AggregateRating is
-  // published and the ReviewsStrip renders nothing.
   gbpRatingValue: "",
   gbpReviewCount: "",
   gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
-  tagline: "Construction and restoration services in Madison, AL.",
-  ctaLabel: "Call Today — Free Estimates",
+  tagline: "Construction and remodeling services in Madison, AL.",
+  ctaLabel: "Call for a Free Estimate",
+  // Vertical trade-identity copy — resolved at scaffold time from
+  // templates/{vertical}/vertical-tokens.json (see scripts/verticals.py).
+  // Components must use these instead of hardcoding a trade phrase.
+  // vertical gates layout too: restoration is call-first, so the homepage
+  // hero renders NO estimate form there (Santino 2026-09-11).
+  vertical: "construction",
+  tradeNoun: "construction",
+  specialistPhrase: "Construction & Remodeling Specialists",
+  announcementSuffix: "Free Estimates",
+  homeAboutBlurb: "Davis Construction Contractors serves Madison and the surrounding AL area with full-service construction and remodeling. From new construction and additions to roofing, siding, decks, and painting, our team manages every project from the first estimate to the final walkthrough.",
 } as const;
 
 export const entityId = `${brand.canonicalUrl}/#identity`;
