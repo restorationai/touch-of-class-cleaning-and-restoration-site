@@ -44,7 +44,7 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `[]` | brand.same_as_urls (JSON-encoded array) | |
 | `` / `` | from GBP | `5.0` / `31` |
 | `24/7 restoration services in American Fork, UT.` | brand.tagline | short marketing line |
-| `#ee4305` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
+| `#dd5a28` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
 | `Inter` / `Inter` | brand.fonts | `Inter` / `Inter` |
 | `/images/logo.webp` / `FR` | derived; logo lives on the per-client R2 bucket | |
 | `https://images.fixofutah.com` | `https://images.{domain}` | |

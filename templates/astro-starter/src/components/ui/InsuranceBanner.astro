@@ -1,15 +1,23 @@
 ---
 /* Insurance compatibility as a PROMINENT full-width banner, not fine print
-   (Santino 2026-09-22, patterned on Quality Contracting's Fran-approved
-   banner). Lives directly under the trust strip on the homepage; the old
-   one-line hero mention is retired. */
+   (Santino 2026-09-22, refined same day: shield icon + deep brand tone,
+   distinct from the navy trust strip above it). Lives directly under the
+   trust strip on the homepage; the old one-line hero mention is retired. */
+import { ShieldCheck } from '@lucide/astro';
 ---
 
-<div class="bg-primary-700 py-4 px-4 text-center">
-  <p class="text-xl sm:text-2xl font-extrabold tracking-tight text-white uppercase">
-    We work with all insurance carriers
-  </p>
-  <p class="mt-1 text-sm sm:text-base font-medium text-white/90">
-    Direct insurance billing &middot; We handle the claim paperwork with your carrier from start to finish
-  </p>
+<div class="bg-gradient-to-r from-primary-900 via-primary-800 to-primary-900 border-y border-white/10 py-5 px-4">
+  <div class="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 text-center sm:text-left">
+    <span class="shrink-0 rounded-full bg-white/10 p-2.5 text-white">
+      <ShieldCheck size={28} />
+    </span>
+    <div>
+      <p class="text-lg sm:text-xl font-extrabold tracking-tight text-white uppercase">
+        We work with all insurance carriers
+      </p>
+      <p class="mt-0.5 text-sm font-medium text-white/75">
+        Direct insurance billing &middot; We handle the claim paperwork with your carrier from start to finish
+      </p>
+    </div>
+  </div>
 </div>
