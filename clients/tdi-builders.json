@@ -59,5 +59,6 @@
   "brightlocal": {
     "location_id": 4147634,
     "campaign_id": 997475
-  }
+  },
+  "vertical_template_fallback": "restoration"
 }
