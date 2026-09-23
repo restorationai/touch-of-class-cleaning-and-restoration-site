@@ -66,10 +66,38 @@ def sync(only_slug: str | None = None) -> int:
             num = (ct.get(src) or {}).get("number")
             if num:
                 sources[src] = {"raw": num, "fmt": _fmt(num)}
-        if not sources:
+        # METRO NUMBERS (TDI 2026-09-22): metro_<area> entries publish as
+        # metros{area: number} + city_metro{city-slug: area} derived from
+        # plan-input service_areas, so the site script can show the local
+        # number on each metro's own pages.
+        metros = {}
+        for src, cfg in ct.items():
+            m = re.fullmatch(r"metro_(\d{3})", str(src))
+            if m and (cfg or {}).get("number"):
+                metros[m.group(1)] = {"raw": cfg["number"],
+                                      "fmt": _fmt(cfg["number"])}
+        city_metro = {}
+        if metros:
+            pi = (Path(__file__).resolve().parent.parent / "clients" / slug
+                  / "plan-input.json")
+            if pi.exists():
+                try:
+                    aa = json.loads(pi.read_text()).get("service_areas") or []
+                    for a in aa:
+                        cslug, met = a.get("slug"), a.get("metro_area_code")
+                        if cslug and met and str(met) in metros:
+                            city_metro[cslug] = str(met)
+                except Exception:  # noqa: BLE001
+                    pass
+        if not sources and not metros:
             continue
-        _kv_put(f"dni:{slug}", json.dumps({"sources": sources}))
-        print(f"  dni:{slug} -> {len(sources)} sources")
+        payload = {"sources": sources}
+        if metros:
+            payload["metros"] = metros
+            payload["city_metro"] = city_metro
+        _kv_put(f"dni:{slug}", json.dumps(payload))
+        print(f"  dni:{slug} -> {len(sources)} sources, {len(metros)} "
+              f"metro(s), {len(city_metro)} city mapping(s)")
         published += 1
     print(f"==> {published} client map(s) published")
     return 0

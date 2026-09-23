@@ -75,6 +75,12 @@ def provision(slug: str, source: str) -> str:
         return f"{slug}/{source}: already provisioned {ct[source]['number']}"
     real = re.sub(r"\D", "", co.get("phone") or "")
     area = real[-10:-7] if len(real) >= 10 else ""
+    # METRO SOURCES (TDI 2026-09-22): source 'metro_916' buys IN area 916 —
+    # multi-region clients show a local number per metro on that metro's
+    # pages. The number the source names always wins the locality ladder.
+    m_metro = re.fullmatch(r"metro_(\d{3})", source)
+    if m_metro:
+        area = m_metro.group(1)
     state = (co.get("state") or "").strip()
     st = state.upper()[:2] if len(state) <= 2 else {
         "FLORIDA": "FL", "UTAH": "UT", "CALIFORNIA": "CA", "SOUTH DAKOTA": "SD",
@@ -108,6 +114,8 @@ def provision(slug: str, source: str) -> str:
         "FriendlyName": f"rankai-{slug}-{source}",
         "VoiceUrl": f"{API_BASE}/call-tracking/twiml/{cid}/{source}",
         "VoiceMethod": "POST",
+        "SmsUrl": f"{API_BASE}/call-tracking/sms/{cid}/{source}",
+        "SmsMethod": "POST",
     })
     ct[source] = {"number": bought["phone_number"], "sid": bought["sid"],
                   "provisioned_at": bought.get("date_created")}
@@ -190,7 +198,9 @@ def main() -> int:
     sub = ap.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("provision")
     p.add_argument("--slug", required=True)
-    p.add_argument("--source", choices=list(ALL_SOURCES), required=True)
+    p.add_argument("--source", required=True,
+                   help="one of %s or metro_<areacode> (e.g. metro_916)"
+                        % (ALL_SOURCES,))
     pa = sub.add_parser("provision-all")
     pa.add_argument("--slug", required=True)
     l_ = sub.add_parser("list")

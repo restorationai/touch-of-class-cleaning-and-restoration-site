@@ -257,6 +257,20 @@ const ctx: PageSchemaContext = {
             fetch("https://restorationai.io/dni/" + slug + ".json")
               .then(function (r) { return r.json(); })
               .then(function (map) {
+                /* Metro beats channel on a metro's OWN pages (TDI
+                   2026-09-22): a visitor reading the Manteca page sees the
+                   209 number no matter how they arrived — local trust is
+                   the point of the page. */
+                var mm = map && map.metros, cm = map && map.city_metro;
+                if (mm && cm) {
+                  var path = location.pathname;
+                  for (var cs in cm) {
+                    if (path.indexOf(cs) !== -1) {
+                      var me = mm[cm[cs]];
+                      if (me && me.raw && me.fmt) { swap(tp, tpr, me.fmt, me.raw); return; }
+                    }
+                  }
+                }
                 var e = map && map.sources && map.sources[src];
                 if (e && e.raw && e.fmt) swap(tp, tpr, e.fmt, e.raw);
               })
