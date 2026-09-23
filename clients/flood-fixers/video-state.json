@@ -1,6 +1,6 @@
 {
-  "last_kind": "geo",
-  "cycle_pos": 0,
+  "last_kind": "blog",
+  "cycle_pos": 1,
   "geo_cursor": 6,
   "history": [
     {
@@ -74,6 +74,14 @@
       "service": "water-damage-restoration",
       "city": "La Mesa",
       "youtube_id": "03cYT_MSPW0"
+    },
+    {
+      "ts": "2026-09-23T19:43:31.091688+00:00",
+      "kind": "blog",
+      "post": "does-renters-insurance-cover-basement-flooding",
+      "service": null,
+      "city": null,
+      "youtube_id": "YL8aQGBi-X8"
     }
   ]
 }
