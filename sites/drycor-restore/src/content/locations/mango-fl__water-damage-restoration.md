@@ -8,7 +8,7 @@ secondary_keywords: ["water removal", "water extraction", "water cleanup", "stru
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "b8976c2743e377f7"
-generated_at: "2026-09-20T14:13:08.037601+00:00"
+generated_at: "2026-09-23T14:11:38.300926+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/mango-fl/", "/service-areas/mango-fl/fire-damage-restoration/", "/service-areas/mango-fl/mold-remediation/", "/service-areas/anna-maria-fl/water-damage-restoration/", "/service-areas/apollo-beach-fl/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mango", "url": "/service-areas/mango-fl/"}, {"name": "Water Damage Restoration"}]

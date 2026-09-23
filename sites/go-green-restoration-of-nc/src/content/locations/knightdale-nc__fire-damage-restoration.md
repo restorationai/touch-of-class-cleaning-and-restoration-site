@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "7233a67cd0ec8b01"
-generated_at: "2026-09-20T17:29:41.935935+00:00"
+generated_at: "2026-09-23T14:11:44.842521+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/knightdale-nc/", "/service-areas/knightdale-nc/mold-remediation/", "/service-areas/knightdale-nc/water-damage-restoration/", "/service-areas/archer-lodge-nc/fire-damage-restoration/", "/service-areas/clayton-nc/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Knightdale", "url": "/service-areas/knightdale-nc/"}, {"name": "Fire Damage Restoration"}]

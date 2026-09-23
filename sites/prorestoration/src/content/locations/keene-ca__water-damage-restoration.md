@@ -8,7 +8,7 @@ secondary_keywords: ["water removal", "water extraction", "water cleanup", "stru
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "e6ad7ff91f9bdede"
-generated_at: "2026-09-20T20:42:04.134291+00:00"
+generated_at: "2026-09-23T14:11:56.024363+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/keene-ca/", "/service-areas/keene-ca/fire-damage-restoration/", "/service-areas/keene-ca/home-remodeling/", "/service-areas/arvin-ca/water-damage-restoration/", "/service-areas/bear-valley-springs-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Keene", "url": "/service-areas/keene-ca/"}, {"name": "Water Damage Restoration"}]

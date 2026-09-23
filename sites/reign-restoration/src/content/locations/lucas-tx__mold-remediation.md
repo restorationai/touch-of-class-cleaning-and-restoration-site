@@ -7,10 +7,10 @@ primary_keyword: "mold remediation lucas"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "7a94403022a4fd16"
-generated_at: "2026-09-21T14:13:45.851127+00:00"
+plan_hash: "59f9559318342565"
+generated_at: "2026-09-23T14:12:04.491088+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/lucas-tx/", "/service-areas/lucas-tx/fire-damage-restoration/", "/service-areas/lucas-tx/water-damage-restoration/", "/service-areas/allen-tx/mold-remediation/", "/service-areas/caddo-mills-tx/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/lucas-tx/", "/service-areas/lucas-tx/fire-damage-restoration/", "/service-areas/lucas-tx/roofing/", "/service-areas/allen-tx/mold-remediation/", "/service-areas/caddo-mills-tx/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lucas", "url": "/service-areas/lucas-tx/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "lucas-tx"

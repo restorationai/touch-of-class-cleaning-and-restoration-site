@@ -7,10 +7,10 @@ primary_keyword: "basement flooding cleanup bell acres"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
 priority: 5.6
-plan_hash: "f58c4d17b03e6247"
-generated_at: "2026-09-20T14:13:09.805287+00:00"
+plan_hash: "40fe6d8df14c6379"
+generated_at: "2026-09-23T14:11:40.910791+00:00"
 manual_override: false
-internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/bell-acres-pa/", "/service-areas/bell-acres-pa/fire-damage-restoration/", "/service-areas/bell-acres-pa/mold-remediation/", "/service-areas/baden-pa/basement-flooding-cleanup/", "/service-areas/beaver-falls-pa/basement-flooding-cleanup/", "/contact/"]
+internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/bell-acres-pa/", "/service-areas/bell-acres-pa/fire-damage-restoration/", "/service-areas/bell-acres-pa/mold-remediation/", "/service-areas/aliquippa-pa/basement-flooding-cleanup/", "/service-areas/allison-park-pa/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bell Acres", "url": "/service-areas/bell-acres-pa/"}, {"name": "Basement Flooding Cleanup"}]
 faq: []
 area_slug: "bell-acres-pa"

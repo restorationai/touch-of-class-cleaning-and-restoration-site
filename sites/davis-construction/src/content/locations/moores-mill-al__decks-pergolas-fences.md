@@ -7,10 +7,10 @@ primary_keyword: "decks, pergolas and fences moores mill"
 secondary_keywords: ["deck builder", "deck installation", "pergola builder", "fence installation", "outdoor structure contractor"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "91b4756d0dd409f6"
-generated_at: "2026-09-20T14:13:03.666567+00:00"
+plan_hash: "cded4997097e5dff"
+generated_at: "2026-09-23T14:11:32.826730+00:00"
 manual_override: false
-internal_links: ["/services/decks-pergolas-fences/", "/service-areas/moores-mill-al/", "/service-areas/moores-mill-al/home-remodeling/", "/service-areas/moores-mill-al/roofing/", "/service-areas/athens-al/decks-pergolas-fences/", "/service-areas/harvest-al/decks-pergolas-fences/", "/contact/"]
+internal_links: ["/services/decks-pergolas-fences/", "/service-areas/moores-mill-al/", "/service-areas/moores-mill-al/home-remodeling/", "/service-areas/moores-mill-al/roofing/", "/service-areas/arab-al/decks-pergolas-fences/", "/service-areas/ardmore-al/decks-pergolas-fences/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Moores Mill", "url": "/service-areas/moores-mill-al/"}, {"name": "Decks, Pergolas and Fences"}]
 faq: []
 area_slug: "moores-mill-al"

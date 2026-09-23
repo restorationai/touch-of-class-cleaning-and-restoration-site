@@ -7,10 +7,10 @@ primary_keyword: "emergency water cleanup santa rosa valley"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "7b4a06cd52d560b0"
-generated_at: "2026-09-20T14:12:59.580523+00:00"
+plan_hash: "b3887c9e24ab074b"
+generated_at: "2026-09-23T14:11:28.127483+00:00"
 manual_override: false
-internal_links: ["/services/water-cleanup/", "/service-areas/santa-rosa-valley-ca/", "/service-areas/santa-rosa-valley-ca/mold-remediation/", "/service-areas/santa-rosa-valley-ca/water-damage-restoration/", "/service-areas/camarillo-ca/water-cleanup/", "/service-areas/fillmore-ca/water-cleanup/", "/contact/"]
+internal_links: ["/services/water-cleanup/", "/service-areas/santa-rosa-valley-ca/", "/service-areas/santa-rosa-valley-ca/mold-remediation/", "/service-areas/santa-rosa-valley-ca/water-damage-restoration/", "/service-areas/camarillo-ca/water-cleanup/", "/service-areas/carpinteria-ca/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Santa Rosa Valley", "url": "/service-areas/santa-rosa-valley-ca/"}, {"name": "Emergency Water Cleanup"}]
 faq: []
 area_slug: "santa-rosa-valley-ca"

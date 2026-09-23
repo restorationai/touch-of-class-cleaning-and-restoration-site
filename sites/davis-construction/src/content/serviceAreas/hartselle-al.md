@@ -7,10 +7,10 @@ primary_keyword: "construction services hartselle"
 secondary_keywords: ["hartselle construction company", "general contractor hartselle", "hartselle remodeling contractor"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "0dcf1a097f652f39"
-generated_at: "2026-09-22T20:18:17.659614+00:00"
+plan_hash: "aa9cdf990851abbc"
+generated_at: "2026-09-23T14:11:32.824325+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/hartselle-al/home-remodeling/", "/service-areas/hartselle-al/roofing/", "/service-areas/hartselle-al/decks-pergolas-fences/", "/service-areas/hartselle-al/new-construction/", "/service-areas/hartselle-al/siding-gutters/", "/service-areas/hartselle-al/mold-remediation/", "/service-areas/hartselle-al/painting-trim/", "/service-areas/hartselle-al/storm-damage-restoration/", "/service-areas/hartselle-al/water-damage-restoration/", "/service-areas/arab-al/", "/service-areas/ardmore-al/", "/service-areas/athens-al/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/hartselle-al/home-remodeling/", "/service-areas/hartselle-al/roofing/", "/service-areas/hartselle-al/decks-pergolas-fences/", "/service-areas/hartselle-al/new-construction/", "/service-areas/hartselle-al/siding-gutters/", "/service-areas/hartselle-al/fire-smoke-rebuilding/", "/service-areas/hartselle-al/mold-remediation/", "/service-areas/hartselle-al/painting-trim/", "/service-areas/hartselle-al/storm-damage-restoration/", "/service-areas/hartselle-al/water-damage-restoration/", "/service-areas/hartselle-al/windows-doors/", "/service-areas/arab-al/", "/service-areas/ardmore-al/", "/service-areas/athens-al/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hartselle"}]
 faq: []
 area_slug: "hartselle-al"

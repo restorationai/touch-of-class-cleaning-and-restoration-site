@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "38555c73190d52ec"
-generated_at: "2026-09-21T14:13:01.720657+00:00"
+generated_at: "2026-09-23T14:11:28.137704+00:00"
 manual_override: false
 internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/castaic-ca/", "/service-areas/castaic-ca/mold-remediation/", "/service-areas/castaic-ca/water-damage-restoration/", "/service-areas/camarillo-ca/crawl-space-encapsulation/", "/service-areas/carpinteria-ca/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Castaic", "url": "/service-areas/castaic-ca/"}, {"name": "Crawl Space Encapsulation"}]

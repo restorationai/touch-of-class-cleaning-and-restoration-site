@@ -44,37 +44,70 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `["https://www.google.com/maps?cid=12984564642744438542", "https://www.facebook.com/narestco", "https://www.instagram.com/narestco", "https://www.tiktok.com/@narestco", "https://twitter.com/narestco"]` | brand.same_as_urls (JSON-encoded array) | |
 | `` / `` | from GBP | `5.0` / `31` |
 | `24/7 restoration services in Federal Way, WA.` | brand.tagline | short marketing line |
-| `#1e3a8a` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
+| `#a83227` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
 | `Inter` / `Inter` | brand.fonts | `Inter` / `Inter` |
 | `https://images.narestco.com/brand/logo.png` / `NR` | derived; logo lives on the per-client R2 bucket | |
 | `https://images.narestco.com` | `https://images.{domain}` | |
-| `- Water Damage Restoration: https://narestco.com/services/water-damage-restoration/
-- Flood Damage Restoration: https://narestco.com/services/flood-damage-restoration/
-- Burst Pipe Cleanup and Repair: https://narestco.com/services/burst-pipe-repair/
-- Basement Flooding Cleanup: https://narestco.com/services/basement-flooding-cleanup/
-- Appliance Leak Cleanup: https://narestco.com/services/appliance-leak-cleanup/
-- Frozen Pipe Restoration: https://narestco.com/services/frozen-pipe-restoration/
-- Roof Leak Cleanup and Repair: https://narestco.com/services/roof-leak-repair/
-- Sewage Cleanup and Sanitization: https://narestco.com/services/sewage-cleanup/
-- Fire Damage Restoration: https://narestco.com/services/fire-damage-restoration/
-- Smoke Damage Restoration: https://narestco.com/services/smoke-damage-restoration/
-- Soot Removal: https://narestco.com/services/soot-removal/
-- Odor Removal and Deodorization: https://narestco.com/services/odor-removal/
-- Mold Remediation: https://narestco.com/services/mold-remediation/
-- Mold Inspection and Testing: https://narestco.com/services/mold-inspection-testing/
-- Storm Damage Restoration: https://narestco.com/services/storm-damage-restoration/
-- Biohazard and Trauma Cleanup: https://narestco.com/services/biohazard-cleanup/
-- Reconstruction Services: https://narestco.com/services/reconstruction/
-- Renovations, Remodels and General Contracting: https://narestco.com/services/general-contracting/` / `- Federal Way, WA: https://narestco.com/service-areas/federal-way-wa/
-- Seattle, WA: https://narestco.com/service-areas/seattle-wa/
-- Bellevue, WA: https://narestco.com/service-areas/bellevue-wa/
-- Tacoma, WA: https://narestco.com/service-areas/tacoma-wa/
-- Everett, WA: https://narestco.com/service-areas/everett-wa/
-- Kent, WA: https://narestco.com/service-areas/kent-wa/
-- Renton, WA: https://narestco.com/service-areas/renton-wa/
-- Auburn, WA: https://narestco.com/service-areas/auburn-wa/
-- Kirkland, WA: https://narestco.com/service-areas/kirkland-wa/
-- Redmond, WA: https://narestco.com/service-areas/redmond-wa/` / `IICRC Certified, BBB Accredited, Lead-Safe Certified Firm, EPA Certified, ANSI Certified` / `Greater Federal Way region` | computed at scaffold from plan + brand | |
+| `- [Air Duct Cleaning](https://narestco.com/services/air-duct-cleaning/)
+- [Appliance Leak Cleanup](https://narestco.com/services/appliance-leak-cleanup/)
+- [Asbestos Abatement](https://narestco.com/services/asbestos-abatement/)
+- [Basement Flooding Cleanup](https://narestco.com/services/basement-flooding-cleanup/)
+- [Biohazard Cleanup](https://narestco.com/services/biohazard-cleanup/)
+- [Burst Pipe Cleanup and Repair](https://narestco.com/services/burst-pipe-repair/)
+- [Contents Restoration & Storage](https://narestco.com/services/contents-restoration-storage/)
+- [Crawl Space Encapsulation](https://narestco.com/services/crawl-space-encapsulation/)
+- [Crime Scene Cleanup](https://narestco.com/services/crime-scene-cleanup/)
+- [Emergency Board-Up and Tarping](https://narestco.com/services/emergency-board-up-tarping/)
+- [Fire Damage Restoration](https://narestco.com/services/fire-damage-restoration/)
+- [Flood Damage Restoration](https://narestco.com/services/flood-damage-restoration/)
+- [Frozen Pipe Restoration](https://narestco.com/services/frozen-pipe-restoration/)
+- [Renovations, Remodels and General Contracting](https://narestco.com/services/general-contracting/)
+- [Hoarding Cleanup](https://narestco.com/services/hoarding-cleanup/)
+- [Mold Inspection and Testing](https://narestco.com/services/mold-inspection-testing/)
+- [Mold Remediation](https://narestco.com/services/mold-remediation/)
+- [Odor Removal and Deodorization](https://narestco.com/services/odor-removal/)
+- [Post-Construction and Specialty Cleaning](https://narestco.com/services/post-construction-cleaning/)
+- [Reconstruction Services](https://narestco.com/services/reconstruction/)
+- [Roof Leak Cleanup and Repair](https://narestco.com/services/roof-leak-repair/)
+- [Roofing Installation and Replacement](https://narestco.com/services/roofing/)
+- [Sewage Cleanup and Sanitization](https://narestco.com/services/sewage-cleanup/)
+- [Smoke Damage Restoration](https://narestco.com/services/smoke-damage-restoration/)
+- [Soot Removal](https://narestco.com/services/soot-removal/)
+- [Storm Damage Restoration](https://narestco.com/services/storm-damage-restoration/)
+- [Trauma Scene Cleanup](https://narestco.com/services/trauma-scene-cleanup/)
+- [Unattended Death Cleanup](https://narestco.com/services/unattended-death-cleanup/)
+- [Emergency Water Cleanup](https://narestco.com/services/water-cleanup/)
+- [Water Damage Restoration](https://narestco.com/services/water-damage-restoration/)
+- [Water Leak Detection](https://narestco.com/services/water-leak-detection/)` / `- [Federal Way, WA](https://narestco.com/service-areas/federal-way-wa/)
+- [Seattle, WA](https://narestco.com/service-areas/seattle-wa/)
+- [Bellevue, WA](https://narestco.com/service-areas/bellevue-wa/)
+- [Tacoma, WA](https://narestco.com/service-areas/tacoma-wa/)
+- [Everett, WA](https://narestco.com/service-areas/everett-wa/)
+- [Kent, WA](https://narestco.com/service-areas/kent-wa/)
+- [Renton, WA](https://narestco.com/service-areas/renton-wa/)
+- [Auburn, WA](https://narestco.com/service-areas/auburn-wa/)
+- [Kirkland, WA](https://narestco.com/service-areas/kirkland-wa/)
+- [Redmond, WA](https://narestco.com/service-areas/redmond-wa/)
+- [Gig Harbor, WA](https://narestco.com/service-areas/gig-harbor-wa/)
+- [Bremerton, WA](https://narestco.com/service-areas/bremerton-wa/)
+- [Port Orchard, WA](https://narestco.com/service-areas/port-orchard-wa/)
+- [University Place, WA](https://narestco.com/service-areas/university-place-wa/)
+- [Lakeland North, WA](https://narestco.com/service-areas/lakeland-north-wa/)
+- [Des Moines, WA](https://narestco.com/service-areas/des-moines-wa/)
+- [Lakeland South, WA](https://narestco.com/service-areas/lakeland-south-wa/)
+- [Algona, WA](https://narestco.com/service-areas/algona-wa/)
+- [Milton, WA](https://narestco.com/service-areas/milton-wa/)
+- [Pacific, WA](https://narestco.com/service-areas/pacific-wa/)
+- [SeaTac, WA](https://narestco.com/service-areas/seatac-wa/)
+- [Edgewood, WA](https://narestco.com/service-areas/edgewood-wa/)
+- [Fife, WA](https://narestco.com/service-areas/fife-wa/)
+- [Normandy Park, WA](https://narestco.com/service-areas/normandy-park-wa/)
+- [Vashon, WA](https://narestco.com/service-areas/vashon-wa/)
+- [Burien, WA](https://narestco.com/service-areas/burien-wa/)
+- [Lake Holm, WA](https://narestco.com/service-areas/lake-holm-wa/)
+- [Waller, WA](https://narestco.com/service-areas/waller-wa/)
+- [Sumner, WA](https://narestco.com/service-areas/sumner-wa/)
+- [North Puyallup, WA](https://narestco.com/service-areas/north-puyallup-wa/)` / `IICRC Certified, BBB Accredited, Lead-Safe Certified Firm, EPA Certified, ANSI Certified` / `Greater Federal Way region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

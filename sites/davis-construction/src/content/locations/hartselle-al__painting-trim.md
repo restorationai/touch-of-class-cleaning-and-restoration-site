@@ -8,7 +8,7 @@ secondary_keywords: ["painting contractor", "interior painting", "exterior paint
 search_intent: "local_commercial"
 priority: 4.9
 plan_hash: "9ad7001972640d44"
-generated_at: "2026-09-22T20:18:17.662967+00:00"
+generated_at: "2026-09-23T14:11:32.882027+00:00"
 manual_override: false
 internal_links: ["/services/painting-trim/", "/service-areas/hartselle-al/", "/service-areas/hartselle-al/home-remodeling/", "/service-areas/hartselle-al/roofing/", "/service-areas/arab-al/painting-trim/", "/service-areas/ardmore-al/painting-trim/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hartselle", "url": "/service-areas/hartselle-al/"}, {"name": "Painting and Trim"}]

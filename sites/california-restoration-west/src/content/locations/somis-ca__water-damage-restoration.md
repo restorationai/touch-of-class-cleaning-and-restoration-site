@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration somis"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "9d4e9e32ffd1a882"
-generated_at: "2026-09-20T14:12:59.576576+00:00"
+plan_hash: "67ec0668d001c1d4"
+generated_at: "2026-09-23T14:11:28.120773+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/somis-ca/", "/service-areas/somis-ca/mold-remediation/", "/service-areas/somis-ca/storm-damage-restoration/", "/service-areas/camarillo-ca/water-damage-restoration/", "/service-areas/fillmore-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/somis-ca/", "/service-areas/somis-ca/mold-remediation/", "/service-areas/somis-ca/storm-damage-restoration/", "/service-areas/camarillo-ca/water-damage-restoration/", "/service-areas/carpinteria-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Somis", "url": "/service-areas/somis-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "somis-ca"

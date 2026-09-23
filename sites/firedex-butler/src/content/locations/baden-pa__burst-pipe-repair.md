@@ -7,10 +7,10 @@ primary_keyword: "burst pipe cleanup and repair baden"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
 priority: 5.6
-plan_hash: "e7ec40f0b201d61c"
-generated_at: "2026-09-20T14:13:09.802592+00:00"
+plan_hash: "f6706770e2c5e209"
+generated_at: "2026-09-23T14:11:40.905275+00:00"
 manual_override: false
-internal_links: ["/services/burst-pipe-repair/", "/service-areas/baden-pa/", "/service-areas/baden-pa/fire-damage-restoration/", "/service-areas/baden-pa/mold-remediation/", "/service-areas/beaver-falls-pa/burst-pipe-repair/", "/service-areas/bell-acres-pa/burst-pipe-repair/", "/contact/"]
+internal_links: ["/services/burst-pipe-repair/", "/service-areas/baden-pa/", "/service-areas/baden-pa/fire-damage-restoration/", "/service-areas/baden-pa/mold-remediation/", "/service-areas/aliquippa-pa/burst-pipe-repair/", "/service-areas/allison-park-pa/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Baden", "url": "/service-areas/baden-pa/"}, {"name": "Burst Pipe Cleanup and Repair"}]
 faq: []
 area_slug: "baden-pa"

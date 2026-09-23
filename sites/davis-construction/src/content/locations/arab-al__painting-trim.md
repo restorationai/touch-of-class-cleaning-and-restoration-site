@@ -8,7 +8,7 @@ secondary_keywords: ["painting contractor", "interior painting", "exterior paint
 search_intent: "local_commercial"
 priority: 4.9
 plan_hash: "cf660a44106c5a2f"
-generated_at: "2026-09-22T20:03:03.313788+00:00"
+generated_at: "2026-09-23T14:11:32.878789+00:00"
 manual_override: false
 internal_links: ["/services/painting-trim/", "/service-areas/arab-al/", "/service-areas/arab-al/home-remodeling/", "/service-areas/arab-al/roofing/", "/service-areas/ardmore-al/painting-trim/", "/service-areas/athens-al/painting-trim/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Arab", "url": "/service-areas/arab-al/"}, {"name": "Painting and Trim"}]

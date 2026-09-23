@@ -7,10 +7,10 @@ primary_keyword: "mold inspection and testing bell acres"
 secondary_keywords: ["mold inspection", "mold testing", "indoor air quality testing", "mold spore testing", "mold assessment"]
 search_intent: "local_health"
 priority: 5.6
-plan_hash: "3f35244dae636bfd"
-generated_at: "2026-09-20T14:13:09.807087+00:00"
+plan_hash: "e3126f56d726a8e3"
+generated_at: "2026-09-23T14:11:40.913766+00:00"
 manual_override: false
-internal_links: ["/services/mold-inspection-testing/", "/service-areas/bell-acres-pa/", "/service-areas/bell-acres-pa/fire-damage-restoration/", "/service-areas/bell-acres-pa/mold-remediation/", "/service-areas/baden-pa/mold-inspection-testing/", "/service-areas/beaver-falls-pa/mold-inspection-testing/", "/contact/"]
+internal_links: ["/services/mold-inspection-testing/", "/service-areas/bell-acres-pa/", "/service-areas/bell-acres-pa/fire-damage-restoration/", "/service-areas/bell-acres-pa/mold-remediation/", "/service-areas/aliquippa-pa/mold-inspection-testing/", "/service-areas/allison-park-pa/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bell Acres", "url": "/service-areas/bell-acres-pa/"}, {"name": "Mold Inspection and Testing"}]
 faq: []
 area_slug: "bell-acres-pa"

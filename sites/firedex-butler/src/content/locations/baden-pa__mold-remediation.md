@@ -7,10 +7,10 @@ primary_keyword: "mold remediation baden"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "89159882e1d0548e"
-generated_at: "2026-09-20T14:13:09.803785+00:00"
+plan_hash: "819e5f8ebca5494f"
+generated_at: "2026-09-23T14:11:40.907885+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/baden-pa/", "/service-areas/baden-pa/fire-damage-restoration/", "/service-areas/baden-pa/water-damage-restoration/", "/service-areas/beaver-falls-pa/mold-remediation/", "/service-areas/bell-acres-pa/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/baden-pa/", "/service-areas/baden-pa/fire-damage-restoration/", "/service-areas/baden-pa/water-damage-restoration/", "/service-areas/aliquippa-pa/mold-remediation/", "/service-areas/allison-park-pa/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Baden", "url": "/service-areas/baden-pa/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "baden-pa"

@@ -7,10 +7,10 @@ primary_keyword: "renovations, remodels and general contracting weedpatch"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "e992f55fdd8e0519"
-generated_at: "2026-09-20T14:13:26.545313+00:00"
+plan_hash: "561b3625c1040beb"
+generated_at: "2026-09-23T14:11:55.969187+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/weedpatch-ca/", "/service-areas/weedpatch-ca/fire-damage-restoration/", "/service-areas/weedpatch-ca/home-remodeling/", "/service-areas/arvin-ca/general-contracting/", "/service-areas/buttonwillow-ca/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/weedpatch-ca/", "/service-areas/weedpatch-ca/fire-damage-restoration/", "/service-areas/weedpatch-ca/home-remodeling/", "/service-areas/arvin-ca/general-contracting/", "/service-areas/bear-valley-springs-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Weedpatch", "url": "/service-areas/weedpatch-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]
 faq: []
 area_slug: "weedpatch-ca"

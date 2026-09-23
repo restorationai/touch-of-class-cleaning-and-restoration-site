@@ -8,7 +8,7 @@ secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitizati
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "2b8035695f027146"
-generated_at: "2026-09-20T14:13:14.682649+00:00"
+generated_at: "2026-09-23T14:11:44.821644+00:00"
 manual_override: false
 internal_links: ["/services/air-duct-cleaning/", "/service-areas/wendell-nc/", "/service-areas/wendell-nc/fire-damage-restoration/", "/service-areas/wendell-nc/mold-remediation/", "/service-areas/archer-lodge-nc/air-duct-cleaning/", "/service-areas/clayton-nc/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wendell", "url": "/service-areas/wendell-nc/"}, {"name": "Air Duct Cleaning"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["junk removal", "debris removal", "house cleanout", "garage
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "c77a87d28b4640d9"
-generated_at: "2026-09-20T19:37:06.034783+00:00"
+generated_at: "2026-09-23T14:11:49.791355+00:00"
 manual_override: false
 internal_links: ["/services/junk-debris-removal/", "/service-areas/draper-ut/", "/service-areas/draper-ut/fire-damage-restoration/", "/service-areas/draper-ut/mold-remediation/", "/service-areas/alpine-ut/junk-debris-removal/", "/service-areas/american-fork-ut/junk-debris-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Draper", "url": "/service-areas/draper-ut/"}, {"name": "Junk & Debris Removal"}]

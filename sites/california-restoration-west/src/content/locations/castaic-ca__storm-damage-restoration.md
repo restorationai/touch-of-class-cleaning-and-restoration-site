@@ -8,7 +8,7 @@ secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "dff5b7877865e1d9"
-generated_at: "2026-09-21T14:13:01.720247+00:00"
+generated_at: "2026-09-23T14:11:28.138583+00:00"
 manual_override: false
 internal_links: ["/services/storm-damage-restoration/", "/service-areas/castaic-ca/", "/service-areas/castaic-ca/mold-remediation/", "/service-areas/castaic-ca/water-damage-restoration/", "/service-areas/camarillo-ca/storm-damage-restoration/", "/service-areas/carpinteria-ca/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Castaic", "url": "/service-areas/castaic-ca/"}, {"name": "Storm Damage Restoration"}]

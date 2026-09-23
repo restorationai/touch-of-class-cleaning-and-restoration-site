@@ -8,7 +8,7 @@ secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed 
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "91d1f2c17d2ac0c0"
-generated_at: "2026-09-20T14:13:23.237577+00:00"
+generated_at: "2026-09-23T14:11:54.103131+00:00"
 manual_override: false
 internal_links: ["/services/frozen-pipe-restoration/", "/service-areas/des-moines-wa/", "/service-areas/des-moines-wa/fire-damage-restoration/", "/service-areas/des-moines-wa/mold-remediation/", "/service-areas/algona-wa/frozen-pipe-restoration/", "/service-areas/auburn-wa/frozen-pipe-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Des Moines", "url": "/service-areas/des-moines-wa/"}, {"name": "Frozen Pipe Restoration"}]

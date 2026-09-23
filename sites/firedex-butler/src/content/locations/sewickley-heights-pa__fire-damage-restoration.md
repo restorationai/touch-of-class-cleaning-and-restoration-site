@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration sewickley heights"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "9ec7f2aea39247dd"
-generated_at: "2026-09-20T14:13:09.812259+00:00"
+plan_hash: "6b6a1625785435f1"
+generated_at: "2026-09-23T14:11:40.924841+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/sewickley-heights-pa/", "/service-areas/sewickley-heights-pa/mold-remediation/", "/service-areas/sewickley-heights-pa/water-damage-restoration/", "/service-areas/baden-pa/fire-damage-restoration/", "/service-areas/beaver-falls-pa/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/sewickley-heights-pa/", "/service-areas/sewickley-heights-pa/mold-remediation/", "/service-areas/sewickley-heights-pa/water-damage-restoration/", "/service-areas/aliquippa-pa/fire-damage-restoration/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sewickley Heights", "url": "/service-areas/sewickley-heights-pa/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "sewickley-heights-pa"

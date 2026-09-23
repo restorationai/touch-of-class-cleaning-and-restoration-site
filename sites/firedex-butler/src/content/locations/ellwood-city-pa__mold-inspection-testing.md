@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "4ef61dacbd3d84bf"
-generated_at: "2026-09-22T02:11:15.631746+00:00"
+generated_at: "2026-09-23T14:11:40.971570+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/ellwood-city-pa/", "/service-areas/ellwood-city-pa/fire-damage-restoration/", "/service-areas/ellwood-city-pa/mold-remediation/", "/service-areas/aliquippa-pa/mold-inspection-testing/", "/service-areas/allison-park-pa/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ellwood City", "url": "/service-areas/ellwood-city-pa/"}, {"name": "Mold Inspection and Testing"}]

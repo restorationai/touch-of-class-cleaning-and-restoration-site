@@ -7,10 +7,10 @@ primary_keyword: "restoration services fort lewis"
 secondary_keywords: ["fort lewis restoration company", "damage restoration fort lewis", "fort lewis disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "c091ec3f16dc9cdc"
-generated_at: "2026-09-23T04:58:40.081612+00:00"
+plan_hash: "8897356ba2bd2819"
+generated_at: "2026-09-23T14:11:42.568603+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/fort-lewis-wa/fire-damage-restoration/", "/service-areas/fort-lewis-wa/mold-remediation/", "/service-areas/fort-lewis-wa/water-damage-restoration/", "/service-areas/fort-lewis-wa/sewage-cleanup/", "/service-areas/fort-lewis-wa/storm-damage-restoration/", "/service-areas/fort-lewis-wa/water-cleanup/", "/service-areas/fort-lewis-wa/emergency-board-up-tarping/", "/service-areas/fort-lewis-wa/asbestos-abatement/", "/service-areas/fort-lewis-wa/contents-restoration-storage/", "/service-areas/anderson-island-wa/", "/service-areas/auburn-wa/", "/service-areas/bellevue-wa/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/fort-lewis-wa/fire-damage-restoration/", "/service-areas/fort-lewis-wa/mold-remediation/", "/service-areas/fort-lewis-wa/water-damage-restoration/", "/service-areas/fort-lewis-wa/emergency-plumbing/", "/service-areas/fort-lewis-wa/sewage-cleanup/", "/service-areas/fort-lewis-wa/storm-damage-restoration/", "/service-areas/fort-lewis-wa/water-cleanup/", "/service-areas/fort-lewis-wa/emergency-board-up-tarping/", "/service-areas/fort-lewis-wa/odor-removal/", "/service-areas/fort-lewis-wa/asbestos-abatement/", "/service-areas/fort-lewis-wa/contents-restoration-storage/", "/service-areas/anderson-island-wa/", "/service-areas/auburn-wa/", "/service-areas/bellevue-wa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fort Lewis"}]
 faq: []
 area_slug: "fort-lewis-wa"

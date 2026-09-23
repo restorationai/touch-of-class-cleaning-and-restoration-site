@@ -7,17 +7,17 @@ primary_keyword: "emergency water cleanup arvin"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "5b2d45c2df9ecfad"
-generated_at: "2026-09-20T14:13:26.535919+00:00"
+plan_hash: "fe81ffd97503ebe6"
+generated_at: "2026-09-23T14:11:55.943280+00:00"
 manual_override: false
-internal_links: ["/services/water-cleanup/", "/service-areas/arvin-ca/", "/service-areas/arvin-ca/fire-damage-restoration/", "/service-areas/arvin-ca/home-remodeling/", "/service-areas/buttonwillow-ca/water-cleanup/", "/service-areas/delano-ca/water-cleanup/", "/contact/"]
-breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Arvin", "url": "/service-areas/arvin-ca/"}, {"name": "water-cleanup"}]
+internal_links: ["/services/water-cleanup/", "/service-areas/arvin-ca/", "/service-areas/arvin-ca/fire-damage-restoration/", "/service-areas/arvin-ca/home-remodeling/", "/service-areas/bear-valley-springs-ca/water-cleanup/", "/service-areas/buttonwillow-ca/water-cleanup/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Arvin", "url": "/service-areas/arvin-ca/"}, {"name": "Emergency Water Cleanup"}]
 faq: []
 area_slug: "arvin-ca"
 service_slug: "water-cleanup"
 city: "Arvin"
 state: "CA"
-service_display: "water-cleanup"
+service_display: "Emergency Water Cleanup"
 ---
 <!-- Page body not yet generated. Run `build_site.py render --slug prorestoration` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
 

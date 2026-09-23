@@ -7,10 +7,10 @@ primary_keyword: "restoration services moorpark"
 secondary_keywords: ["moorpark restoration company", "damage restoration moorpark", "moorpark disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "cb686f2b14ea3618"
-generated_at: "2026-09-20T14:12:59.573431+00:00"
+plan_hash: "bc948e8418185c2c"
+generated_at: "2026-09-23T14:11:28.105134+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/moorpark-ca/mold-remediation/", "/service-areas/moorpark-ca/water-damage-restoration/", "/service-areas/moorpark-ca/storm-damage-restoration/", "/service-areas/moorpark-ca/water-cleanup/", "/service-areas/moorpark-ca/contents-restoration/", "/service-areas/moorpark-ca/crawl-space-encapsulation/", "/service-areas/camarillo-ca/", "/service-areas/fillmore-ca/", "/service-areas/mira-monte-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/moorpark-ca/mold-remediation/", "/service-areas/moorpark-ca/water-damage-restoration/", "/service-areas/moorpark-ca/storm-damage-restoration/", "/service-areas/moorpark-ca/water-cleanup/", "/service-areas/moorpark-ca/odor-removal/", "/service-areas/moorpark-ca/contents-restoration-storage/", "/service-areas/moorpark-ca/contents-restoration/", "/service-areas/moorpark-ca/crawl-space-encapsulation/", "/service-areas/camarillo-ca/", "/service-areas/carpinteria-ca/", "/service-areas/castaic-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Moorpark"}]
 faq: []
 area_slug: "moorpark-ca"

@@ -7,10 +7,10 @@ primary_keyword: "flood damage restoration mcfarland"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "23159540eeb4c9af"
-generated_at: "2026-09-20T14:13:26.551632+00:00"
+plan_hash: "eaa976e99d639d3d"
+generated_at: "2026-09-23T14:11:55.990782+00:00"
 manual_override: false
-internal_links: ["/services/flood-damage-restoration/", "/service-areas/mcfarland-ca/", "/service-areas/mcfarland-ca/fire-damage-restoration/", "/service-areas/mcfarland-ca/home-remodeling/", "/service-areas/arvin-ca/flood-damage-restoration/", "/service-areas/buttonwillow-ca/flood-damage-restoration/", "/contact/"]
+internal_links: ["/services/flood-damage-restoration/", "/service-areas/mcfarland-ca/", "/service-areas/mcfarland-ca/fire-damage-restoration/", "/service-areas/mcfarland-ca/home-remodeling/", "/service-areas/arvin-ca/flood-damage-restoration/", "/service-areas/bear-valley-springs-ca/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McFarland", "url": "/service-areas/mcfarland-ca/"}, {"name": "Flood Damage Restoration"}]
 faq: []
 area_slug: "mcfarland-ca"

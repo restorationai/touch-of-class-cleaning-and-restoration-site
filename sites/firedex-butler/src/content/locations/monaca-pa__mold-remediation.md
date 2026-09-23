@@ -7,10 +7,10 @@ primary_keyword: "mold remediation monaca"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "9079e80fb7cdbaf4"
-generated_at: "2026-09-20T14:13:09.809936+00:00"
+plan_hash: "b1f17eb3ef1112a0"
+generated_at: "2026-09-23T14:11:40.920174+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/monaca-pa/", "/service-areas/monaca-pa/fire-damage-restoration/", "/service-areas/monaca-pa/water-damage-restoration/", "/service-areas/baden-pa/mold-remediation/", "/service-areas/beaver-falls-pa/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/monaca-pa/", "/service-areas/monaca-pa/fire-damage-restoration/", "/service-areas/monaca-pa/water-damage-restoration/", "/service-areas/aliquippa-pa/mold-remediation/", "/service-areas/allison-park-pa/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Monaca", "url": "/service-areas/monaca-pa/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "monaca-pa"

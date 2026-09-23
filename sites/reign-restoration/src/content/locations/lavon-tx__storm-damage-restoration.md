@@ -8,7 +8,7 @@ secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "57426f1b7f05a54f"
-generated_at: "2026-09-20T14:13:42.835099+00:00"
+generated_at: "2026-09-23T14:12:04.468354+00:00"
 manual_override: false
 internal_links: ["/services/storm-damage-restoration/", "/service-areas/lavon-tx/", "/service-areas/lavon-tx/fire-damage-restoration/", "/service-areas/lavon-tx/mold-remediation/", "/service-areas/allen-tx/storm-damage-restoration/", "/service-areas/caddo-mills-tx/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lavon", "url": "/service-areas/lavon-tx/"}, {"name": "Storm Damage Restoration"}]

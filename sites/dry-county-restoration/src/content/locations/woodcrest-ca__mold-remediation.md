@@ -7,10 +7,10 @@ primary_keyword: "mold remediation woodcrest"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "ef11846f01bc62f7"
-generated_at: "2026-09-20T17:29:33.126306+00:00"
+plan_hash: "60121e848c6e81bc"
+generated_at: "2026-09-23T14:11:36.210061+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/woodcrest-ca/", "/service-areas/woodcrest-ca/fire-damage-restoration/", "/service-areas/woodcrest-ca/water-damage-restoration/", "/service-areas/anaheim-ca/mold-remediation/", "/service-areas/chino-ca/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/woodcrest-ca/", "/service-areas/woodcrest-ca/fire-damage-restoration/", "/service-areas/woodcrest-ca/roofing/", "/service-areas/anaheim-ca/mold-remediation/", "/service-areas/chino-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woodcrest", "url": "/service-areas/woodcrest-ca/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "woodcrest-ca"

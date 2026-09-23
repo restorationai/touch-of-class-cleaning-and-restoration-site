@@ -7,10 +7,10 @@ primary_keyword: "restoration services elm city"
 secondary_keywords: ["elm city restoration company", "damage restoration elm city", "elm city disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "c7143ca964235b27"
-generated_at: "2026-09-21T19:18:46.684835+00:00"
+plan_hash: "85d28d99cfab57a2"
+generated_at: "2026-09-23T14:11:44.811778+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/elm-city-nc/fire-damage-restoration/", "/service-areas/elm-city-nc/mold-remediation/", "/service-areas/elm-city-nc/water-damage-restoration/", "/service-areas/elm-city-nc/water-cleanup/", "/service-areas/elm-city-nc/air-duct-cleaning/", "/service-areas/elm-city-nc/crawl-space-encapsulation/", "/service-areas/elm-city-nc/insulation-removal-installation/", "/service-areas/elm-city-nc/carpet-cleaning/", "/service-areas/archer-lodge-nc/", "/service-areas/clayton-nc/", "/service-areas/durham-nc/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/elm-city-nc/fire-damage-restoration/", "/service-areas/elm-city-nc/mold-remediation/", "/service-areas/elm-city-nc/water-damage-restoration/", "/service-areas/elm-city-nc/water-cleanup/", "/service-areas/elm-city-nc/biohazard-cleanup/", "/service-areas/elm-city-nc/odor-removal/", "/service-areas/elm-city-nc/air-duct-cleaning/", "/service-areas/elm-city-nc/crawl-space-encapsulation/", "/service-areas/elm-city-nc/insulation-removal-installation/", "/service-areas/elm-city-nc/carpet-cleaning/", "/service-areas/archer-lodge-nc/", "/service-areas/clayton-nc/", "/service-areas/durham-nc/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elm City"}]
 faq: []
 area_slug: "elm-city-nc"

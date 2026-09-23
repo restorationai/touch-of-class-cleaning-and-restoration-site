@@ -7,10 +7,10 @@ primary_keyword: "crawl space encapsulation cedar fort"
 secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "bdf5b29201e1174e"
-generated_at: "2026-09-20T14:13:18.739272+00:00"
+plan_hash: "11e1243fc483fea8"
+generated_at: "2026-09-23T14:11:49.767153+00:00"
 manual_override: false
-internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-fort-ut/fire-damage-restoration/", "/service-areas/cedar-fort-ut/mold-remediation/", "/service-areas/american-fork-ut/crawl-space-encapsulation/", "/service-areas/cedar-hills-ut/crawl-space-encapsulation/", "/contact/"]
+internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-fort-ut/fire-damage-restoration/", "/service-areas/cedar-fort-ut/mold-remediation/", "/service-areas/alpine-ut/crawl-space-encapsulation/", "/service-areas/american-fork-ut/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Cedar Fort", "url": "/service-areas/cedar-fort-ut/"}, {"name": "Crawl Space Encapsulation"}]
 faq: []
 area_slug: "cedar-fort-ut"

@@ -8,7 +8,7 @@ secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "ca
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "c39393341ee3ce80"
-generated_at: "2026-09-20T14:13:14.684273+00:00"
+generated_at: "2026-09-23T14:11:44.825092+00:00"
 manual_override: false
 internal_links: ["/services/carpet-cleaning/", "/service-areas/archer-lodge-nc/", "/service-areas/archer-lodge-nc/fire-damage-restoration/", "/service-areas/archer-lodge-nc/mold-remediation/", "/service-areas/clayton-nc/carpet-cleaning/", "/service-areas/durham-nc/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Archer Lodge", "url": "/service-areas/archer-lodge-nc/"}, {"name": "Carpet Cleaning"}]

@@ -7,10 +7,10 @@ primary_keyword: "mold inspection and testing vineyard"
 secondary_keywords: ["mold inspection", "mold testing", "indoor air quality testing", "mold spore testing", "mold assessment"]
 search_intent: "local_health"
 priority: 5.6
-plan_hash: "79c58fced5a9cc2d"
-generated_at: "2026-09-20T14:13:18.721288+00:00"
+plan_hash: "045b562b307ea3e3"
+generated_at: "2026-09-23T14:11:49.732217+00:00"
 manual_override: false
-internal_links: ["/services/mold-inspection-testing/", "/service-areas/vineyard-ut/", "/service-areas/vineyard-ut/fire-damage-restoration/", "/service-areas/vineyard-ut/mold-remediation/", "/service-areas/american-fork-ut/mold-inspection-testing/", "/service-areas/cedar-fort-ut/mold-inspection-testing/", "/contact/"]
+internal_links: ["/services/mold-inspection-testing/", "/service-areas/vineyard-ut/", "/service-areas/vineyard-ut/fire-damage-restoration/", "/service-areas/vineyard-ut/mold-remediation/", "/service-areas/alpine-ut/mold-inspection-testing/", "/service-areas/american-fork-ut/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Vineyard", "url": "/service-areas/vineyard-ut/"}, {"name": "Mold Inspection and Testing"}]
 faq: []
 area_slug: "vineyard-ut"

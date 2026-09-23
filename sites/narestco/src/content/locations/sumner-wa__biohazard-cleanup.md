@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "d32b8a689b476923"
-generated_at: "2026-09-22T18:10:22.122642+00:00"
+generated_at: "2026-09-23T14:11:54.220606+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/sumner-wa/", "/service-areas/sumner-wa/fire-damage-restoration/", "/service-areas/sumner-wa/mold-remediation/", "/service-areas/algona-wa/biohazard-cleanup/", "/service-areas/auburn-wa/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sumner", "url": "/service-areas/sumner-wa/"}, {"name": "Biohazard Cleanup"}]

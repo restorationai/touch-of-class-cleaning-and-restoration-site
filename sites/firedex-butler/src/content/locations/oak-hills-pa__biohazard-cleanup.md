@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "ac81b1e62977210f"
-generated_at: "2026-09-21T14:13:12.730104+00:00"
+generated_at: "2026-09-23T14:11:40.954732+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/oak-hills-pa/", "/service-areas/oak-hills-pa/fire-damage-restoration/", "/service-areas/oak-hills-pa/mold-remediation/", "/service-areas/aliquippa-pa/biohazard-cleanup/", "/service-areas/allison-park-pa/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oak Hills", "url": "/service-areas/oak-hills-pa/"}, {"name": "Biohazard Cleanup"}]

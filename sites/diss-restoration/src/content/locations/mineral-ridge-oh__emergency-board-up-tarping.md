@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "2e2caa6ad798bb4b"
-generated_at: "2026-09-21T15:54:35.822230+00:00"
+generated_at: "2026-09-23T14:11:34.800937+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/mineral-ridge-oh/", "/service-areas/mineral-ridge-oh/fire-damage-restoration/", "/service-areas/mineral-ridge-oh/mold-remediation/", "/service-areas/austintown-oh/emergency-board-up-tarping/", "/service-areas/boardman-oh/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mineral Ridge", "url": "/service-areas/mineral-ridge-oh/"}, {"name": "Emergency Board-Up and Tarping"}]

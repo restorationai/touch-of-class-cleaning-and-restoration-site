@@ -7,10 +7,10 @@ primary_keyword: "appliance leak cleanup buttonwillow"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
 priority: 4.2
-plan_hash: "7f1ba9b0ea15b38f"
-generated_at: "2026-09-20T14:13:26.546170+00:00"
+plan_hash: "cf81a5b66ebbbb39"
+generated_at: "2026-09-23T14:11:55.973836+00:00"
 manual_override: false
-internal_links: ["/services/appliance-leak-cleanup/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/fire-damage-restoration/", "/service-areas/buttonwillow-ca/home-remodeling/", "/service-areas/arvin-ca/appliance-leak-cleanup/", "/service-areas/delano-ca/appliance-leak-cleanup/", "/contact/"]
+internal_links: ["/services/appliance-leak-cleanup/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/fire-damage-restoration/", "/service-areas/buttonwillow-ca/home-remodeling/", "/service-areas/arvin-ca/appliance-leak-cleanup/", "/service-areas/bear-valley-springs-ca/appliance-leak-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buttonwillow", "url": "/service-areas/buttonwillow-ca/"}, {"name": "Appliance Leak Cleanup"}]
 faq: []
 area_slug: "buttonwillow-ca"

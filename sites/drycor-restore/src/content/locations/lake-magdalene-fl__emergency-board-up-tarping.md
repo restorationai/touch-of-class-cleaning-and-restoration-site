@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "7958dae491ad7105"
-generated_at: "2026-09-20T14:13:08.050388+00:00"
+generated_at: "2026-09-23T14:11:38.313841+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/lake-magdalene-fl/", "/service-areas/lake-magdalene-fl/fire-damage-restoration/", "/service-areas/lake-magdalene-fl/mold-remediation/", "/service-areas/anna-maria-fl/emergency-board-up-tarping/", "/service-areas/apollo-beach-fl/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Magdalene", "url": "/service-areas/lake-magdalene-fl/"}, {"name": "Emergency Board-Up and Tarping"}]

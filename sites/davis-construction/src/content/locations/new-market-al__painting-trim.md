@@ -7,10 +7,10 @@ primary_keyword: "painting and trim new market"
 secondary_keywords: ["painting contractor", "interior painting", "exterior painting", "house painter", "trim painting"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "cbc71e61308423be"
-generated_at: "2026-09-20T14:13:03.673657+00:00"
+plan_hash: "63a603d896a21a7c"
+generated_at: "2026-09-23T14:11:32.841594+00:00"
 manual_override: false
-internal_links: ["/services/painting-trim/", "/service-areas/new-market-al/", "/service-areas/new-market-al/home-remodeling/", "/service-areas/new-market-al/roofing/", "/service-areas/athens-al/painting-trim/", "/service-areas/harvest-al/painting-trim/", "/contact/"]
+internal_links: ["/services/painting-trim/", "/service-areas/new-market-al/", "/service-areas/new-market-al/home-remodeling/", "/service-areas/new-market-al/roofing/", "/service-areas/arab-al/painting-trim/", "/service-areas/ardmore-al/painting-trim/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "New Market", "url": "/service-areas/new-market-al/"}, {"name": "Painting and Trim"}]
 faq: []
 area_slug: "new-market-al"

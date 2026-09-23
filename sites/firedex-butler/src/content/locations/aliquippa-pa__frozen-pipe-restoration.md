@@ -7,10 +7,10 @@ primary_keyword: "frozen pipe restoration aliquippa"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"
 priority: 4.9
-plan_hash: "f3b912c6525a758a"
-generated_at: "2026-09-20T17:29:36.719774+00:00"
+plan_hash: "98c644399900e43a"
+generated_at: "2026-09-23T14:11:40.931776+00:00"
 manual_override: false
-internal_links: ["/services/frozen-pipe-restoration/", "/service-areas/aliquippa-pa/", "/service-areas/aliquippa-pa/fire-damage-restoration/", "/service-areas/aliquippa-pa/mold-remediation/", "/service-areas/baden-pa/frozen-pipe-restoration/", "/service-areas/beaver-falls-pa/frozen-pipe-restoration/", "/contact/"]
+internal_links: ["/services/frozen-pipe-restoration/", "/service-areas/aliquippa-pa/", "/service-areas/aliquippa-pa/fire-damage-restoration/", "/service-areas/aliquippa-pa/mold-remediation/", "/service-areas/allison-park-pa/frozen-pipe-restoration/", "/service-areas/baden-pa/frozen-pipe-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Aliquippa", "url": "/service-areas/aliquippa-pa/"}, {"name": "Frozen Pipe Restoration"}]
 faq: []
 area_slug: "aliquippa-pa"

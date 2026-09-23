@@ -8,7 +8,7 @@ secondary_keywords: ["water removal", "water extraction", "water cleanup", "stru
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "4b8b760801e4800c"
-generated_at: "2026-09-20T14:13:42.833347+00:00"
+generated_at: "2026-09-23T14:12:04.465923+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/josephine-tx/", "/service-areas/josephine-tx/fire-damage-restoration/", "/service-areas/josephine-tx/mold-remediation/", "/service-areas/allen-tx/water-damage-restoration/", "/service-areas/caddo-mills-tx/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Josephine", "url": "/service-areas/josephine-tx/"}, {"name": "Water Damage Restoration"}]

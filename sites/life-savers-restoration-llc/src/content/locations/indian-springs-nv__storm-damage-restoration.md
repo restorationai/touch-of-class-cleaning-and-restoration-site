@@ -8,7 +8,7 @@ secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "1304eb3cd847d93f"
-generated_at: "2026-09-20T20:41:58.720786+00:00"
+generated_at: "2026-09-23T14:11:52.269825+00:00"
 manual_override: false
 internal_links: ["/services/storm-damage-restoration/", "/service-areas/indian-springs-nv/", "/service-areas/indian-springs-nv/fire-damage-restoration/", "/service-areas/indian-springs-nv/mold-remediation/", "/service-areas/blue-diamond-nv/storm-damage-restoration/", "/service-areas/boulder-city-nv/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Indian Springs", "url": "/service-areas/indian-springs-nv/"}, {"name": "Storm Damage Restoration"}]

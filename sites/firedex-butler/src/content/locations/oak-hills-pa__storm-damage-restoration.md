@@ -8,7 +8,7 @@ secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "2b0dc7855140d6cc"
-generated_at: "2026-09-21T14:13:12.728886+00:00"
+generated_at: "2026-09-23T14:11:40.959568+00:00"
 manual_override: false
 internal_links: ["/services/storm-damage-restoration/", "/service-areas/oak-hills-pa/", "/service-areas/oak-hills-pa/fire-damage-restoration/", "/service-areas/oak-hills-pa/mold-remediation/", "/service-areas/aliquippa-pa/storm-damage-restoration/", "/service-areas/allison-park-pa/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oak Hills", "url": "/service-areas/oak-hills-pa/"}, {"name": "Storm Damage Restoration"}]

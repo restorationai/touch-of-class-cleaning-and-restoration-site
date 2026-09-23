@@ -32,12 +32,15 @@
     "ga4_measurement_id": "G-NBFCYGQXJY"
   },
   "services": [
-    "water-damage-restoration",
+    "contents-restoration",
+    "contents-restoration-storage",
     "fire-damage-restoration",
-    "mold-remediation",
-    "storm-damage-restoration",
     "general-contracting",
-    "contents-restoration"
+    "mold-remediation",
+    "odor-removal",
+    "roofing",
+    "storm-damage-restoration",
+    "water-damage-restoration"
   ],
   "service_areas": [
     {

@@ -8,16 +8,16 @@ secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "fd05945261b108cd"
-generated_at: "2026-09-20T14:13:23.227764+00:00"
+generated_at: "2026-09-23T14:11:54.055216+00:00"
 manual_override: false
 internal_links: ["/services/water-cleanup/", "/service-areas/tacoma-wa/", "/service-areas/tacoma-wa/fire-damage-restoration/", "/service-areas/tacoma-wa/mold-remediation/", "/service-areas/algona-wa/water-cleanup/", "/service-areas/auburn-wa/water-cleanup/", "/contact/"]
-breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tacoma", "url": "/service-areas/tacoma-wa/"}, {"name": "water-cleanup"}]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tacoma", "url": "/service-areas/tacoma-wa/"}, {"name": "Emergency Water Cleanup"}]
 faq: []
 area_slug: "tacoma-wa"
 service_slug: "water-cleanup"
 city: "Tacoma"
 state: "WA"
-service_display: "water-cleanup"
+service_display: "Emergency Water Cleanup"
 ---
 <!-- Page body not yet generated. Run `build_site.py render --slug narestco` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
 

@@ -64,9 +64,15 @@ export const brand = {
   sameAsUrls: ["https://www.yelp.com/biz/california-restoration-west-ventura", "https://www.facebook.com/people/CAlifornia-REstoration-West/61583226071533/", "https://homeguide.com/ca/ventura/water-damage-restoration/california-restoration-west-bWIQJ-q7t"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
-  gbpRatingValue: "",
-  gbpReviewCount: "",
-  gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
+  gbpRatingValue: "5.0",
+  gbpReviewCount: "8",
+  gbpReviews: [
+    { author: "Atila", rating: 5, text: "Jimmy provided excellent water restoration service. He was professional, responsive, and did a great job from start to finish. I really appreciate his attention to detail and customer service. Highly recommended!", when: "September 2026" },
+    { author: "Jeffrey", rating: 5, text: "Jimmy is Very Professional and knowledgeable. One of the best in the industry.", when: "November 2025" },
+    { author: "Garret", rating: 5, text: "Jim did an amazing job taking care of my clients water damage problem. They were happy with results and the knowledge he provided. I only recommend him as he’s experienced, professional, and shows up prompt.", when: "November 2025" },
+    { author: "Davis", rating: 5, text: "Jimmy and his team were great to work with — professional, responsive, and did excellent work here in the Thousand Oaks/Conejo Valley area. Highly recommend them for anyone looking for reliable, quality service.", when: "November 2025" },
+    { author: "Adan", rating: 5, text: "Excellent work! Lots of experience and professionalism!", when: "November 2025" },
+  ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Ventura, CA.",
   ctaLabel: "24/7 Emergency Line",
   // Vertical trade-identity copy — resolved at scaffold time from

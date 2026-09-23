@@ -7,10 +7,10 @@ primary_keyword: "mold inspection and testing valley acres"
 secondary_keywords: ["mold inspection", "mold testing", "indoor air quality testing", "mold spore testing", "mold assessment"]
 search_intent: "local_health"
 priority: 5.6
-plan_hash: "ebabda196c5d3eb7"
-generated_at: "2026-09-20T17:29:54.891049+00:00"
+plan_hash: "2bd0fd053ff176c9"
+generated_at: "2026-09-23T14:11:55.999195+00:00"
 manual_override: false
-internal_links: ["/services/mold-inspection-testing/", "/service-areas/valley-acres-ca/", "/service-areas/valley-acres-ca/fire-damage-restoration/", "/service-areas/valley-acres-ca/home-remodeling/", "/service-areas/arvin-ca/mold-inspection-testing/", "/service-areas/buttonwillow-ca/mold-inspection-testing/", "/contact/"]
+internal_links: ["/services/mold-inspection-testing/", "/service-areas/valley-acres-ca/", "/service-areas/valley-acres-ca/fire-damage-restoration/", "/service-areas/valley-acres-ca/home-remodeling/", "/service-areas/arvin-ca/mold-inspection-testing/", "/service-areas/bear-valley-springs-ca/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Valley Acres", "url": "/service-areas/valley-acres-ca/"}, {"name": "Mold Inspection and Testing"}]
 faq: []
 area_slug: "valley-acres-ca"

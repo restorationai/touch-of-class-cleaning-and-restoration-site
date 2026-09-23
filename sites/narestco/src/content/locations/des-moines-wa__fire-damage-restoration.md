@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration des moines"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "f685360a44866191"
-generated_at: "2026-09-20T14:13:23.238095+00:00"
+plan_hash: "12ef2e7ec50cf265"
+generated_at: "2026-09-23T14:11:54.102503+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/des-moines-wa/", "/service-areas/des-moines-wa/mold-remediation/", "/service-areas/des-moines-wa/water-damage-restoration/", "/service-areas/algona-wa/fire-damage-restoration/", "/service-areas/auburn-wa/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/des-moines-wa/", "/service-areas/des-moines-wa/mold-remediation/", "/service-areas/des-moines-wa/roofing/", "/service-areas/algona-wa/fire-damage-restoration/", "/service-areas/auburn-wa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Des Moines", "url": "/service-areas/des-moines-wa/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "des-moines-wa"

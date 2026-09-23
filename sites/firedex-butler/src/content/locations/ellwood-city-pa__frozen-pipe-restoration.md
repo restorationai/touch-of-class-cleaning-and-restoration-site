@@ -8,7 +8,7 @@ secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed 
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "0cd40d02cef5b4cc"
-generated_at: "2026-09-22T02:11:15.630946+00:00"
+generated_at: "2026-09-23T14:11:40.970892+00:00"
 manual_override: false
 internal_links: ["/services/frozen-pipe-restoration/", "/service-areas/ellwood-city-pa/", "/service-areas/ellwood-city-pa/fire-damage-restoration/", "/service-areas/ellwood-city-pa/mold-remediation/", "/service-areas/aliquippa-pa/frozen-pipe-restoration/", "/service-areas/allison-park-pa/frozen-pipe-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ellwood City", "url": "/service-areas/ellwood-city-pa/"}, {"name": "Frozen Pipe Restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "f1fbd22d9c7fa1a9"
-generated_at: "2026-09-21T19:19:21.958294+00:00"
+generated_at: "2026-09-23T14:12:04.495168+00:00"
 manual_override: false
 internal_links: ["/services/water-cleanup/", "/service-areas/murphy-tx/", "/service-areas/murphy-tx/fire-damage-restoration/", "/service-areas/murphy-tx/mold-remediation/", "/service-areas/allen-tx/water-cleanup/", "/service-areas/caddo-mills-tx/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Murphy", "url": "/service-areas/murphy-tx/"}, {"name": "water-cleanup"}]

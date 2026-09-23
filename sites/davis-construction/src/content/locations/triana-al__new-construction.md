@@ -7,10 +7,10 @@ primary_keyword: "new home construction triana"
 secondary_keywords: ["custom home builder", "new home builder", "build a house", "residential construction", "ground-up construction"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "b5de3aacce84b93c"
-generated_at: "2026-09-20T19:36:51.361444+00:00"
+plan_hash: "4d78bcf14e6e248b"
+generated_at: "2026-09-23T14:11:32.855546+00:00"
 manual_override: false
-internal_links: ["/services/new-construction/", "/service-areas/triana-al/", "/service-areas/triana-al/home-remodeling/", "/service-areas/triana-al/roofing/", "/service-areas/athens-al/new-construction/", "/service-areas/gurley-al/new-construction/", "/contact/"]
+internal_links: ["/services/new-construction/", "/service-areas/triana-al/", "/service-areas/triana-al/home-remodeling/", "/service-areas/triana-al/roofing/", "/service-areas/arab-al/new-construction/", "/service-areas/ardmore-al/new-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Triana", "url": "/service-areas/triana-al/"}, {"name": "New Home Construction"}]
 faq: []
 area_slug: "triana-al"

@@ -8,7 +8,7 @@ secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitizati
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "f7c2055de5cfe38b"
-generated_at: "2026-09-21T15:54:35.826801+00:00"
+generated_at: "2026-09-23T14:11:34.807319+00:00"
 manual_override: false
 internal_links: ["/services/air-duct-cleaning/", "/service-areas/sharon-pa/", "/service-areas/sharon-pa/fire-damage-restoration/", "/service-areas/sharon-pa/mold-remediation/", "/service-areas/austintown-oh/air-duct-cleaning/", "/service-areas/boardman-oh/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sharon", "url": "/service-areas/sharon-pa/"}, {"name": "Air Duct Cleaning"}]

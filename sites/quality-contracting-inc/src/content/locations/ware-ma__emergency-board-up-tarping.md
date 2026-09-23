@@ -8,7 +8,7 @@ secondary_keywords: ["roof tarping", "fire damage board up", "broken window boar
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "6993dcc6384d3025"
-generated_at: "2026-09-21T19:19:17.404830+00:00"
+generated_at: "2026-09-23T14:11:58.552932+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/ware-ma/", "/service-areas/ware-ma/fire-damage-restoration/", "/service-areas/ware-ma/mold-remediation/", "/service-areas/bellingham-ma/emergency-board-up-tarping/", "/service-areas/east-douglas-ma/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ware", "url": "/service-areas/ware-ma/"}, {"name": "Emergency Board-Up and Tarping"}]

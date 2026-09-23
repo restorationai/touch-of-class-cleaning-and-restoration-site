@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration fiskdale"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "d2e2f8ef9dca1308"
-generated_at: "2026-09-20T17:29:58.175035+00:00"
+plan_hash: "abdea85e188f3fce"
+generated_at: "2026-09-23T14:11:58.527643+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/fiskdale-ma/", "/service-areas/fiskdale-ma/mold-remediation/", "/service-areas/fiskdale-ma/water-damage-restoration/", "/service-areas/east-douglas-ma/fire-damage-restoration/", "/service-areas/framingham-ma/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/fiskdale-ma/", "/service-areas/fiskdale-ma/mold-remediation/", "/service-areas/fiskdale-ma/roofing/", "/service-areas/bellingham-ma/fire-damage-restoration/", "/service-areas/east-douglas-ma/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fiskdale", "url": "/service-areas/fiskdale-ma/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "fiskdale-ma"

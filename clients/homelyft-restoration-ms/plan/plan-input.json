@@ -33,22 +33,27 @@
     "lat": 30.3886736,
     "lng": -89.0586991,
     "place_id": "ChIJ5dJT_FQWnIgRzm4i4D1BgR4",
-    "google_cid": "2198109827142676174"
+    "google_cid": "2198109827142676174",
+    "ga4_measurement_id": "G-CY001B6T82"
   },
   "services": [
-    "water-damage-restoration",
-    "fire-damage-restoration",
-    "mold-remediation",
-    "storm-damage-restoration",
-    "sewage-cleanup",
-    "general-contracting",
-    "biohazard-cleanup",
     "asbestos-abatement",
-    "emergency-board-up-tarping",
-    "contents-restoration",
-    "crawl-space-encapsulation",
+    "biohazard-cleanup",
     "carpet-cleaning",
-    "post-construction-cleaning"
+    "contents-restoration",
+    "contents-restoration-storage",
+    "crawl-space-encapsulation",
+    "emergency-board-up-tarping",
+    "fire-damage-restoration",
+    "general-contracting",
+    "mold-remediation",
+    "odor-removal",
+    "post-construction-cleaning",
+    "roofing",
+    "sewage-cleanup",
+    "storm-damage-restoration",
+    "water-damage-restoration",
+    "water-leak-detection"
   ],
   "service_areas": [
     {

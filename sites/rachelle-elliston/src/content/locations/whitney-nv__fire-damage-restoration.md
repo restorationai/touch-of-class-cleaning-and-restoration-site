@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration whitney"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "58c68da82854d540"
-generated_at: "2026-09-20T17:29:59.750552+00:00"
+plan_hash: "e2eb0e4a2db69d77"
+generated_at: "2026-09-23T14:12:02.370706+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/whitney-nv/", "/service-areas/whitney-nv/mold-remediation/", "/service-areas/whitney-nv/water-damage-restoration/", "/service-areas/boulder-city-nv/fire-damage-restoration/", "/service-areas/enterprise-nv/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/whitney-nv/", "/service-areas/whitney-nv/mold-remediation/", "/service-areas/whitney-nv/water-damage-restoration/", "/service-areas/blue-diamond-nv/fire-damage-restoration/", "/service-areas/boulder-city-nv/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Whitney", "url": "/service-areas/whitney-nv/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "whitney-nv"

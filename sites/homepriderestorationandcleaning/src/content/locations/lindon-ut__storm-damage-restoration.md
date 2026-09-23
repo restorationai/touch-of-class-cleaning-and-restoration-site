@@ -7,10 +7,10 @@ primary_keyword: "storm damage restoration lindon"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "b6ea2b723a7c54bb"
-generated_at: "2026-09-20T14:13:18.727357+00:00"
+plan_hash: "1cd60b1f937c487f"
+generated_at: "2026-09-23T14:11:49.749150+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/lindon-ut/", "/service-areas/lindon-ut/fire-damage-restoration/", "/service-areas/lindon-ut/mold-remediation/", "/service-areas/american-fork-ut/storm-damage-restoration/", "/service-areas/cedar-fort-ut/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/lindon-ut/", "/service-areas/lindon-ut/fire-damage-restoration/", "/service-areas/lindon-ut/mold-remediation/", "/service-areas/alpine-ut/storm-damage-restoration/", "/service-areas/american-fork-ut/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lindon", "url": "/service-areas/lindon-ut/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "lindon-ut"

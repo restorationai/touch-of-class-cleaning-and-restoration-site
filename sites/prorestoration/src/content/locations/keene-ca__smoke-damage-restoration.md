@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "f287c8f6b43638f6"
-generated_at: "2026-09-20T20:42:04.135534+00:00"
+generated_at: "2026-09-23T14:11:56.023082+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/keene-ca/", "/service-areas/keene-ca/fire-damage-restoration/", "/service-areas/keene-ca/home-remodeling/", "/service-areas/arvin-ca/smoke-damage-restoration/", "/service-areas/bear-valley-springs-ca/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Keene", "url": "/service-areas/keene-ca/"}, {"name": "Smoke Damage Restoration"}]

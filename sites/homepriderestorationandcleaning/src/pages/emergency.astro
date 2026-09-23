@@ -5,10 +5,10 @@
 // paragraph, and FAQPage + Service + LocalBusiness JSON-LD via the existing
 // Schema mechanism.
 //
-// CLAIMS HONESTY: Home Pride publishes no specific minutes-based response
-// promise in lp-manifest.json bodyContent or brand.ts, so this page makes NO
-// minutes claim — rapid dispatch language only. If the client later commits to
-// a number, update `responseClaim` + the speed FAQ below.
+// CLAIMS HONESTY: the response-time wording must match what the client already
+// claims elsewhere (lp-manifest bodyContent / brand.ts). This canonical starter
+// makes NO minutes-based promise — if a client publishes one (e.g. narestco's
+// 60-minute claim), update `responseClaim` + the speed FAQ in that site's copy.
 // 24/7 language is gated on brand.hours exactly like the Header.
 import { getCollection } from "astro:content";
 import BaseLayout from "~/layouts/BaseLayout.astro";
@@ -16,14 +16,11 @@ import CtaBanner from "~/components/CtaBanner.astro";
 import FAQSection from "~/components/FAQSection.astro";
 import Hero from "~/components/ui/Hero.astro";
 import TrustStrip from "~/components/ui/TrustStrip.astro";
-import ReviewsStrip from "~/components/ui/ReviewsStrip.astro";
-import FreeEstimateForm from "~/components/FreeEstimateForm.astro";
 import { brand } from "~/lib/brand";
 import { Phone, MapPin } from "@lucide/astro";
 
 const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
-// brand.shortName is the full business name for this client — use a readable label.
-const shortLabel = "Home Pride";
+const shortLabel = brand.shortName || brand.displayName;
 
 // No invented minutes — this client has no published response-time number.
 const responseClaim = is247
@@ -45,18 +42,6 @@ const metaDescription = `Flooded home or burst pipe in ${brand.primaryCity}, ${b
 
 // Opening answer capsule — 2-3 standalone sentences an AI engine can quote verbatim.
 const answerCapsule = `${brand.displayName} provides ${is247 ? "24/7 " : ""}emergency water damage response in ${brand.primaryCity}, ${brand.primaryState} and nearby cities including ${cityPreview}. We provide ${responseClaim}, and we bill your insurance company directly. Call ${brand.phone} to get a crew moving now.`;
-
-// Exact-query capsule — phrased to match "best emergency water damage company in
-// {city}" verbatim for lexical retrieval (AI assistants, featured snippets). The
-// rating comes from brand.ts (synced from the live Google Business Profile by
-// scripts/sync_brand_reviews.py); the response claim reuses `responseClaim` above
-// so this page never invents a number.
-const hasGbpRating = Boolean(brand.gbpRatingValue && brand.gbpReviewCount);
-const bestCompanyAnswer = [
-  `${brand.displayName} provides ${is247 ? "24/7 " : ""}emergency water damage response in ${brand.primaryCity}, ${brand.primaryState}${hasGbpRating ? `, and is rated ${brand.gbpRatingValue} out of 5 stars across ${brand.gbpReviewCount} Google reviews` : ""}.`,
-  `We provide ${responseClaim}, and we bill your insurance company directly.`,
-  `Call ${brand.phone} to get a crew moving now.`,
-].join(" ");
 
 const faq = [
   is247
@@ -88,7 +73,7 @@ const faq = [
 ---
 
 <BaseLayout
-  title={h1}
+  title={`${h1} | ${shortLabel}`}
   meta_description={metaDescription}
   schema_stubs={["local-business", "service", "faq", "breadcrumb-list"]}
   schema_ctx={{
@@ -113,10 +98,6 @@ const faq = [
   </section>
 
   <TrustStrip />
-
-  <ReviewsStrip />
-
-  <FreeEstimateForm compact />
 
   <!-- WHAT SHOULD I DO RIGHT NOW -->
   <section class="section bg-dark">
@@ -206,18 +187,6 @@ const faq = [
           <li><strong>Structural drying.</strong> Commercial air movers and dehumidifiers run continuously, monitored with daily moisture readings — typically three to five days.</li>
           <li><strong>Verification and restoration.</strong> Once materials test dry, we verify with final readings and move into repairs to bring your home back to pre-loss condition.</li>
         </ol>
-      </div>
-    </div>
-  </section>
-
-  <!-- EXACT-QUERY: matches "best emergency water damage company in {city}" verbatim
-       so lexical retrieval (AI assistants, featured snippets) can quote the capsule. -->
-  <section class="section bg-dark">
-    <div class="container-wide">
-      <div class="max-w-content mx-auto">
-        <div class="eyebrow">Choosing a Company</div>
-        <h2>Who is the best emergency water damage company in {brand.primaryCity}?</h2>
-        <p class="text-lg text-white/90">{bestCompanyAnswer}</p>
       </div>
     </div>
   </section>

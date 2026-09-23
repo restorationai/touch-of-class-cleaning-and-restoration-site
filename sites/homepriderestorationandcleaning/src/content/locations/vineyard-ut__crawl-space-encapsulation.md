@@ -7,10 +7,10 @@ primary_keyword: "crawl space encapsulation vineyard"
 secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "d25cf9b4274af490"
-generated_at: "2026-09-20T14:13:18.722492+00:00"
+plan_hash: "9b2660e6670ce2d6"
+generated_at: "2026-09-23T14:11:49.730324+00:00"
 manual_override: false
-internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/vineyard-ut/", "/service-areas/vineyard-ut/fire-damage-restoration/", "/service-areas/vineyard-ut/mold-remediation/", "/service-areas/american-fork-ut/crawl-space-encapsulation/", "/service-areas/cedar-fort-ut/crawl-space-encapsulation/", "/contact/"]
+internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/vineyard-ut/", "/service-areas/vineyard-ut/fire-damage-restoration/", "/service-areas/vineyard-ut/mold-remediation/", "/service-areas/alpine-ut/crawl-space-encapsulation/", "/service-areas/american-fork-ut/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Vineyard", "url": "/service-areas/vineyard-ut/"}, {"name": "Crawl Space Encapsulation"}]
 faq: []
 area_slug: "vineyard-ut"

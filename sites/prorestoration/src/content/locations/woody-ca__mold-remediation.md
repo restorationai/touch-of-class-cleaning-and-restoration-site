@@ -7,10 +7,10 @@ primary_keyword: "mold remediation woody"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "db07803cb139da5e"
-generated_at: "2026-09-20T19:17:39.959173+00:00"
+plan_hash: "b1551a89da5f4c8d"
+generated_at: "2026-09-23T14:11:56.006760+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/woody-ca/", "/service-areas/woody-ca/fire-damage-restoration/", "/service-areas/woody-ca/home-remodeling/", "/service-areas/arvin-ca/mold-remediation/", "/service-areas/buttonwillow-ca/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/woody-ca/", "/service-areas/woody-ca/fire-damage-restoration/", "/service-areas/woody-ca/home-remodeling/", "/service-areas/arvin-ca/mold-remediation/", "/service-areas/bear-valley-springs-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woody", "url": "/service-areas/woody-ca/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "woody-ca"

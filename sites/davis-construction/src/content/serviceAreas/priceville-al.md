@@ -7,10 +7,10 @@ primary_keyword: "construction services priceville"
 secondary_keywords: ["priceville construction company", "general contractor priceville", "priceville remodeling contractor"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "69caf8e2f12fccf9"
-generated_at: "2026-09-21T19:18:32.948492+00:00"
+plan_hash: "d038e3ebfb87884a"
+generated_at: "2026-09-23T14:11:32.822727+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/priceville-al/home-remodeling/", "/service-areas/priceville-al/roofing/", "/service-areas/priceville-al/decks-pergolas-fences/", "/service-areas/priceville-al/new-construction/", "/service-areas/priceville-al/siding-gutters/", "/service-areas/priceville-al/mold-remediation/", "/service-areas/priceville-al/painting-trim/", "/service-areas/priceville-al/storm-damage-restoration/", "/service-areas/priceville-al/water-damage-restoration/", "/service-areas/ardmore-al/", "/service-areas/athens-al/", "/service-areas/gurley-al/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/priceville-al/home-remodeling/", "/service-areas/priceville-al/roofing/", "/service-areas/priceville-al/decks-pergolas-fences/", "/service-areas/priceville-al/new-construction/", "/service-areas/priceville-al/siding-gutters/", "/service-areas/priceville-al/fire-smoke-rebuilding/", "/service-areas/priceville-al/mold-remediation/", "/service-areas/priceville-al/painting-trim/", "/service-areas/priceville-al/storm-damage-restoration/", "/service-areas/priceville-al/water-damage-restoration/", "/service-areas/priceville-al/windows-doors/", "/service-areas/arab-al/", "/service-areas/ardmore-al/", "/service-areas/athens-al/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Priceville"}]
 faq: []
 area_slug: "priceville-al"

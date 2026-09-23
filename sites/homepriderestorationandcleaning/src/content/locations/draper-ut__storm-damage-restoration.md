@@ -8,7 +8,7 @@ secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "d3d22c6a7f907206"
-generated_at: "2026-09-20T19:37:06.033690+00:00"
+generated_at: "2026-09-23T14:11:49.793753+00:00"
 manual_override: false
 internal_links: ["/services/storm-damage-restoration/", "/service-areas/draper-ut/", "/service-areas/draper-ut/fire-damage-restoration/", "/service-areas/draper-ut/mold-remediation/", "/service-areas/alpine-ut/storm-damage-restoration/", "/service-areas/american-fork-ut/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Draper", "url": "/service-areas/draper-ut/"}, {"name": "Storm Damage Restoration"}]

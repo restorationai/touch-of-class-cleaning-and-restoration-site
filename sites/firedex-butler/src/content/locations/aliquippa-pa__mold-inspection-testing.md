@@ -7,10 +7,10 @@ primary_keyword: "mold inspection and testing aliquippa"
 secondary_keywords: ["mold inspection", "mold testing", "indoor air quality testing", "mold spore testing", "mold assessment"]
 search_intent: "local_health"
 priority: 5.6
-plan_hash: "0970617a32b8677b"
-generated_at: "2026-09-20T17:29:36.721006+00:00"
+plan_hash: "0e65e26a330e67de"
+generated_at: "2026-09-23T14:11:40.932450+00:00"
 manual_override: false
-internal_links: ["/services/mold-inspection-testing/", "/service-areas/aliquippa-pa/", "/service-areas/aliquippa-pa/fire-damage-restoration/", "/service-areas/aliquippa-pa/mold-remediation/", "/service-areas/baden-pa/mold-inspection-testing/", "/service-areas/beaver-falls-pa/mold-inspection-testing/", "/contact/"]
+internal_links: ["/services/mold-inspection-testing/", "/service-areas/aliquippa-pa/", "/service-areas/aliquippa-pa/fire-damage-restoration/", "/service-areas/aliquippa-pa/mold-remediation/", "/service-areas/allison-park-pa/mold-inspection-testing/", "/service-areas/baden-pa/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Aliquippa", "url": "/service-areas/aliquippa-pa/"}, {"name": "Mold Inspection and Testing"}]
 faq: []
 area_slug: "aliquippa-pa"

@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "4a1581f6755c8f3a"
-generated_at: "2026-09-20T19:36:56.920381+00:00"
+generated_at: "2026-09-23T14:11:40.942242+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/allison-park-pa/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/service-areas/allison-park-pa/mold-remediation/", "/service-areas/aliquippa-pa/biohazard-cleanup/", "/service-areas/baden-pa/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Allison Park", "url": "/service-areas/allison-park-pa/"}, {"name": "Biohazard Cleanup"}]

@@ -30,12 +30,14 @@
     "place_id": "ChIJx7cmNM8b-ioRFlPXDWY8C-A"
   },
   "services": [
-    "water-damage-restoration",
-    "mold-remediation",
-    "storm-damage-restoration",
     "contents-restoration",
+    "contents-restoration-storage",
     "crawl-space-encapsulation",
-    "water-cleanup"
+    "mold-remediation",
+    "odor-removal",
+    "storm-damage-restoration",
+    "water-cleanup",
+    "water-damage-restoration"
   ],
   "service_areas": [
     {

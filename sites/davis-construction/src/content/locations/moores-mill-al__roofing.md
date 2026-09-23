@@ -7,10 +7,10 @@ primary_keyword: "roofing installation and replacement moores mill"
 secondary_keywords: ["roofing contractor", "roof replacement", "new roof installation", "residential roofing", "roof repair"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "3e5703ba3d299df3"
-generated_at: "2026-09-20T14:13:03.666771+00:00"
+plan_hash: "2b51a38b7c22027b"
+generated_at: "2026-09-23T14:11:32.828586+00:00"
 manual_override: false
-internal_links: ["/services/roofing/", "/service-areas/moores-mill-al/", "/service-areas/moores-mill-al/home-remodeling/", "/service-areas/moores-mill-al/decks-pergolas-fences/", "/service-areas/athens-al/roofing/", "/service-areas/harvest-al/roofing/", "/contact/"]
+internal_links: ["/services/roofing/", "/service-areas/moores-mill-al/", "/service-areas/moores-mill-al/home-remodeling/", "/service-areas/moores-mill-al/decks-pergolas-fences/", "/service-areas/arab-al/roofing/", "/service-areas/ardmore-al/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Moores Mill", "url": "/service-areas/moores-mill-al/"}, {"name": "Roofing Installation and Replacement"}]
 faq: []
 area_slug: "moores-mill-al"

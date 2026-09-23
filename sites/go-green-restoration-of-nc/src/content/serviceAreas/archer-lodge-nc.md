@@ -7,10 +7,10 @@ primary_keyword: "restoration services archer lodge"
 secondary_keywords: ["archer lodge restoration company", "damage restoration archer lodge", "archer lodge disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "155805dd13f8db7a"
-generated_at: "2026-09-20T14:13:14.679145+00:00"
+plan_hash: "b060e466f907f71f"
+generated_at: "2026-09-23T14:11:44.808309+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/archer-lodge-nc/fire-damage-restoration/", "/service-areas/archer-lodge-nc/mold-remediation/", "/service-areas/archer-lodge-nc/water-damage-restoration/", "/service-areas/archer-lodge-nc/water-cleanup/", "/service-areas/archer-lodge-nc/air-duct-cleaning/", "/service-areas/archer-lodge-nc/crawl-space-encapsulation/", "/service-areas/archer-lodge-nc/insulation-removal-installation/", "/service-areas/archer-lodge-nc/carpet-cleaning/", "/service-areas/clayton-nc/", "/service-areas/durham-nc/", "/service-areas/kenly-nc/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/archer-lodge-nc/fire-damage-restoration/", "/service-areas/archer-lodge-nc/mold-remediation/", "/service-areas/archer-lodge-nc/water-damage-restoration/", "/service-areas/archer-lodge-nc/water-cleanup/", "/service-areas/archer-lodge-nc/biohazard-cleanup/", "/service-areas/archer-lodge-nc/odor-removal/", "/service-areas/archer-lodge-nc/air-duct-cleaning/", "/service-areas/archer-lodge-nc/crawl-space-encapsulation/", "/service-areas/archer-lodge-nc/insulation-removal-installation/", "/service-areas/archer-lodge-nc/carpet-cleaning/", "/service-areas/clayton-nc/", "/service-areas/durham-nc/", "/service-areas/elm-city-nc/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Archer Lodge"}]
 faq: []
 area_slug: "archer-lodge-nc"

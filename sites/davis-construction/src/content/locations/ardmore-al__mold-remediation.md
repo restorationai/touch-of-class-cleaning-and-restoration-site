@@ -7,10 +7,10 @@ primary_keyword: "mold remediation ardmore"
 secondary_keywords: ["mold removal", "mold remediation contractor", "mold repair and rebuild", "mold-safe renovation", "post-remediation reconstruction"]
 search_intent: "local_health"
 priority: 4.9
-plan_hash: "2bd34f61ce40ab18"
-generated_at: "2026-09-21T14:13:06.308222+00:00"
+plan_hash: "6d688aec9bd8dba1"
+generated_at: "2026-09-23T14:11:32.861729+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/ardmore-al/", "/service-areas/ardmore-al/home-remodeling/", "/service-areas/ardmore-al/roofing/", "/service-areas/athens-al/mold-remediation/", "/service-areas/gurley-al/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/ardmore-al/", "/service-areas/ardmore-al/home-remodeling/", "/service-areas/ardmore-al/roofing/", "/service-areas/arab-al/mold-remediation/", "/service-areas/athens-al/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ardmore", "url": "/service-areas/ardmore-al/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "ardmore-al"

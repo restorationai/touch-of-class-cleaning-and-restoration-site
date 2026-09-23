@@ -7,10 +7,10 @@ primary_keyword: "emergency water cleanup lake sherwood"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "64e35e2378378e09"
-generated_at: "2026-09-20T19:36:47.034677+00:00"
+plan_hash: "6abcf1000e3192ba"
+generated_at: "2026-09-23T14:11:28.134262+00:00"
 manual_override: false
-internal_links: ["/services/water-cleanup/", "/service-areas/lake-sherwood-ca/", "/service-areas/lake-sherwood-ca/mold-remediation/", "/service-areas/lake-sherwood-ca/water-damage-restoration/", "/service-areas/camarillo-ca/water-cleanup/", "/service-areas/fillmore-ca/water-cleanup/", "/contact/"]
+internal_links: ["/services/water-cleanup/", "/service-areas/lake-sherwood-ca/", "/service-areas/lake-sherwood-ca/mold-remediation/", "/service-areas/lake-sherwood-ca/water-damage-restoration/", "/service-areas/camarillo-ca/water-cleanup/", "/service-areas/carpinteria-ca/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Sherwood", "url": "/service-areas/lake-sherwood-ca/"}, {"name": "Emergency Water Cleanup"}]
 faq: []
 area_slug: "lake-sherwood-ca"

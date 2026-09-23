@@ -8,7 +8,7 @@ secondary_keywords: ["sofa cleaning", "couch cleaning", "furniture steam cleanin
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "529a3d100e3a1cdd"
-generated_at: "2026-09-20T20:41:55.920724+00:00"
+generated_at: "2026-09-23T14:11:49.803456+00:00"
 manual_override: false
 internal_links: ["/services/upholstery-cleaning/", "/service-areas/lake-shore-ut/", "/service-areas/lake-shore-ut/fire-damage-restoration/", "/service-areas/lake-shore-ut/mold-remediation/", "/service-areas/alpine-ut/upholstery-cleaning/", "/service-areas/american-fork-ut/upholstery-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Shore", "url": "/service-areas/lake-shore-ut/"}, {"name": "Upholstery Cleaning"}]

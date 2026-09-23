@@ -8,7 +8,7 @@ secondary_keywords: ["water removal", "water extraction", "water cleanup", "stru
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "ffa0d04d80f97c1a"
-generated_at: "2026-09-20T19:17:34.109395+00:00"
+generated_at: "2026-09-23T14:11:52.264230+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/searchlight-nv/", "/service-areas/searchlight-nv/fire-damage-restoration/", "/service-areas/searchlight-nv/mold-remediation/", "/service-areas/blue-diamond-nv/water-damage-restoration/", "/service-areas/boulder-city-nv/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Searchlight", "url": "/service-areas/searchlight-nv/"}, {"name": "Water Damage Restoration"}]

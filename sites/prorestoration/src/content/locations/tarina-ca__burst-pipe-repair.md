@@ -7,10 +7,10 @@ primary_keyword: "burst pipe cleanup and repair tarina"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
 priority: 5.6
-plan_hash: "479571b24355f7cb"
-generated_at: "2026-09-20T14:13:26.540167+00:00"
+plan_hash: "689f8b28b0cfa3c0"
+generated_at: "2026-09-23T14:11:55.958262+00:00"
 manual_override: false
-internal_links: ["/services/burst-pipe-repair/", "/service-areas/tarina-ca/", "/service-areas/tarina-ca/fire-damage-restoration/", "/service-areas/tarina-ca/home-remodeling/", "/service-areas/arvin-ca/burst-pipe-repair/", "/service-areas/buttonwillow-ca/burst-pipe-repair/", "/contact/"]
+internal_links: ["/services/burst-pipe-repair/", "/service-areas/tarina-ca/", "/service-areas/tarina-ca/fire-damage-restoration/", "/service-areas/tarina-ca/home-remodeling/", "/service-areas/arvin-ca/burst-pipe-repair/", "/service-areas/bear-valley-springs-ca/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tarina", "url": "/service-areas/tarina-ca/"}, {"name": "Burst Pipe Cleanup and Repair"}]
 faq: []
 area_slug: "tarina-ca"

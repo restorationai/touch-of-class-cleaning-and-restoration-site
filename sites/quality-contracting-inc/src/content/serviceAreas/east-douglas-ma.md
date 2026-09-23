@@ -7,10 +7,10 @@ primary_keyword: "restoration services east douglas"
 secondary_keywords: ["east douglas restoration company", "damage restoration east douglas", "east douglas disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "b93b031ee77162ce"
-generated_at: "2026-09-20T14:13:32.563922+00:00"
+plan_hash: "f2e2685850a879a9"
+generated_at: "2026-09-23T14:11:58.459294+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/east-douglas-ma/fire-damage-restoration/", "/service-areas/east-douglas-ma/mold-remediation/", "/service-areas/east-douglas-ma/water-damage-restoration/", "/service-areas/east-douglas-ma/sewage-cleanup/", "/service-areas/east-douglas-ma/storm-damage-restoration/", "/service-areas/east-douglas-ma/water-cleanup/", "/service-areas/east-douglas-ma/biohazard-cleanup/", "/service-areas/east-douglas-ma/emergency-board-up-tarping/", "/service-areas/east-douglas-ma/air-duct-cleaning/", "/service-areas/east-douglas-ma/contents-restoration/", "/service-areas/east-douglas-ma/crawl-space-encapsulation/", "/service-areas/framingham-ma/", "/service-areas/hopkinton-ma/", "/service-areas/natick-ma/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/east-douglas-ma/fire-damage-restoration/", "/service-areas/east-douglas-ma/mold-remediation/", "/service-areas/east-douglas-ma/roofing/", "/service-areas/east-douglas-ma/water-damage-restoration/", "/service-areas/east-douglas-ma/emergency-plumbing/", "/service-areas/east-douglas-ma/sewage-cleanup/", "/service-areas/east-douglas-ma/storm-damage-restoration/", "/service-areas/east-douglas-ma/water-cleanup/", "/service-areas/east-douglas-ma/biohazard-cleanup/", "/service-areas/east-douglas-ma/general-contracting/", "/service-areas/east-douglas-ma/emergency-board-up-tarping/", "/service-areas/east-douglas-ma/odor-removal/", "/service-areas/east-douglas-ma/water-leak-detection/", "/service-areas/east-douglas-ma/asbestos-abatement/", "/service-areas/east-douglas-ma/air-duct-cleaning/", "/service-areas/east-douglas-ma/contents-restoration-storage/", "/service-areas/east-douglas-ma/contents-restoration/", "/service-areas/east-douglas-ma/crawl-space-encapsulation/", "/service-areas/east-douglas-ma/carpet-cleaning/", "/service-areas/east-douglas-ma/post-construction-cleaning/", "/service-areas/bellingham-ma/", "/service-areas/fiskdale-ma/", "/service-areas/framingham-ma/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "East Douglas"}]
 faq: []
 area_slug: "east-douglas-ma"

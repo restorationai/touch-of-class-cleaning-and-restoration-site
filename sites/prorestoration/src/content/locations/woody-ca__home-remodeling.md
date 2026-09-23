@@ -7,10 +7,10 @@ primary_keyword: "home remodeling woody"
 secondary_keywords: ["home renovation", "kitchen remodel", "bathroom remodel", "whole home remodel", "interior remodeling contractor"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "80654ffeffd96548"
-generated_at: "2026-09-20T19:17:39.959562+00:00"
+plan_hash: "2df3a63546574325"
+generated_at: "2026-09-23T14:11:56.006117+00:00"
 manual_override: false
-internal_links: ["/services/home-remodeling/", "/service-areas/woody-ca/", "/service-areas/woody-ca/fire-damage-restoration/", "/service-areas/woody-ca/mold-remediation/", "/service-areas/arvin-ca/home-remodeling/", "/service-areas/buttonwillow-ca/home-remodeling/", "/contact/"]
+internal_links: ["/services/home-remodeling/", "/service-areas/woody-ca/", "/service-areas/woody-ca/fire-damage-restoration/", "/service-areas/woody-ca/mold-remediation/", "/service-areas/arvin-ca/home-remodeling/", "/service-areas/bear-valley-springs-ca/home-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woody", "url": "/service-areas/woody-ca/"}, {"name": "Home Remodeling"}]
 faq: []
 area_slug: "woody-ca"

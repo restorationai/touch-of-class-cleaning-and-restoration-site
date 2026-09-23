@@ -7,10 +7,10 @@ primary_keyword: "storm damage restoration decatur"
 secondary_keywords: ["storm damage repair", "roof storm damage repair", "siding storm damage repair", "wind damage repair contractor", "storm damage rebuild"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "bd98060518c6075b"
-generated_at: "2026-09-22T18:09:59.775826+00:00"
+plan_hash: "da5a088ff4df7792"
+generated_at: "2026-09-23T14:11:32.876531+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/decatur-al/", "/service-areas/decatur-al/home-remodeling/", "/service-areas/decatur-al/roofing/", "/service-areas/ardmore-al/storm-damage-restoration/", "/service-areas/athens-al/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/decatur-al/", "/service-areas/decatur-al/home-remodeling/", "/service-areas/decatur-al/roofing/", "/service-areas/arab-al/storm-damage-restoration/", "/service-areas/ardmore-al/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Decatur", "url": "/service-areas/decatur-al/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "decatur-al"

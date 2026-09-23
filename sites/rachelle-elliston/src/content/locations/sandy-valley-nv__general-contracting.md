@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "3418cc7353e7ea3e"
-generated_at: "2026-09-21T14:13:44.085724+00:00"
+generated_at: "2026-09-23T14:12:02.385023+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/sandy-valley-nv/", "/service-areas/sandy-valley-nv/fire-damage-restoration/", "/service-areas/sandy-valley-nv/mold-remediation/", "/service-areas/blue-diamond-nv/general-contracting/", "/service-areas/boulder-city-nv/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sandy Valley", "url": "/service-areas/sandy-valley-nv/"}, {"name": "Renovations, Remodels and General Contracting"}]

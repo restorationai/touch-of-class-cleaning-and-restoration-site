@@ -8,7 +8,7 @@ secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "ca
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "2fe0897e4b8b7220"
-generated_at: "2026-09-20T19:37:01.991882+00:00"
+generated_at: "2026-09-23T14:11:44.847797+00:00"
 manual_override: false
 internal_links: ["/services/carpet-cleaning/", "/service-areas/rolesville-nc/", "/service-areas/rolesville-nc/fire-damage-restoration/", "/service-areas/rolesville-nc/mold-remediation/", "/service-areas/archer-lodge-nc/carpet-cleaning/", "/service-areas/clayton-nc/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rolesville", "url": "/service-areas/rolesville-nc/"}, {"name": "Carpet Cleaning"}]

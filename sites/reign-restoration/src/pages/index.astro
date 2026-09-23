@@ -5,7 +5,9 @@ import CtaBanner from "~/components/CtaBanner.astro";
 import FAQSection from "~/components/FAQSection.astro";
 import InternalLinks from "~/components/InternalLinks.astro";
 import Hero from "~/components/ui/Hero.astro";
+import FreeEstimateForm from "~/components/FreeEstimateForm.astro";
 import TrustStrip from "~/components/ui/TrustStrip.astro";
+import InsuranceBanner from "~/components/ui/InsuranceBanner.astro";
 import ReviewsStrip from "~/components/ui/ReviewsStrip.astro";
 import AboutSection from "~/components/ui/AboutSection.astro";
 import ServicesStrip from "~/components/ui/ServicesStrip.astro";
@@ -45,13 +47,21 @@ const services = (allServices as CollectionEntry<"services">[])
       per the client's image-style-guide.md "Homepage hero" spec, uploaded to
       R2 at brand/hero-fleet.webp and referenced via brand.imagesBase — or
       dropped into public/images/hero-bg.webp if R2 isn't provisioned yet. */}
-  <Hero title={data.h1} subtitle={data.meta_description} backgroundImage="/images/hero-bg.webp" />
+  <Hero title={data.h1} subtitle={data.meta_description} backgroundImage="/images/hero-bg.webp">
+    {/* Restoration is call-first (Santino 2026-09-11): an emergency lead
+        should dial, not fill a form — the Get a Free Estimate button still
+        covers the form path lower on the page. Other verticals keep it. */}
+    {brand.vertical !== "restoration" ? (
+      <FreeEstimateForm slot="form" variant="hero" />
+    ) : null}
+  </Hero>
 
   <TrustStrip />
+  <InsuranceBanner />
 
   <ReviewsStrip />
 
-  <AboutSection imageSrc="/images/team.webp" imageAlt={`Two technicians in PPE suits remediating kitchen floor damage, ${brand.displayName}`}>
+  <AboutSection imageSrc="/images/team.webp" imageAlt={`${brand.displayName} Team`}>
     <p>
       {/* Vertical copy — never hardcode a trade phrase here (industry-bleed
           audit 2026-07-31: the light variant of this paragraph shipped All

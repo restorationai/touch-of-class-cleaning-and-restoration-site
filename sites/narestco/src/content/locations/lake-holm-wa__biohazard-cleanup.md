@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "52a4073e4ef9e975"
-generated_at: "2026-09-22T02:11:35.482054+00:00"
+generated_at: "2026-09-23T14:11:54.201707+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/lake-holm-wa/", "/service-areas/lake-holm-wa/fire-damage-restoration/", "/service-areas/lake-holm-wa/mold-remediation/", "/service-areas/algona-wa/biohazard-cleanup/", "/service-areas/auburn-wa/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Holm", "url": "/service-areas/lake-holm-wa/"}, {"name": "Biohazard Cleanup"}]

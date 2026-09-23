@@ -64,9 +64,16 @@ export const brand = {
   sameAsUrls: ["https://maps.google.com/maps?cid=2198109827142676174", "https://www.homelyft.net/"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
-  gbpRatingValue: "",
-  gbpReviewCount: "",
-  gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
+  gbpRatingValue: "5.0",
+  gbpReviewCount: "52",
+  gbpReviews: [
+    { author: "Lauren", rating: 5, text: "The entire HomeLyft team was very professional and great to work with. They went above and beyond to provide quality customer service and quality construction work.", when: "August 2026" },
+    { author: "Emile", rating: 5, text: "We hired this company to mitigate the damage to our home after it sustained water damage from rising water during a torrential rain. They arrived at our home the very next day to start the process of remediating the damage. We truly cannot say enough good things about our experience with them. They…", when: "August 2026" },
+    { author: "Tamera", rating: 5, text: "I highly recommend HomeLyft Restoration. When I first found them online, I was honestly a little nervous because I had never heard of them before. Hiring a company to restore your home after water damage is a big decision, and I wasn’t sure what to expect. I wondered if they would show up when they…", when: "July 2026" },
+    { author: "Virginia", rating: 5, text: "We had a major flooding issue at a family home, and Homelyft arrived within 30 minutes of our call, and immediately started the cleanup! They were incredibly knowledgeable, professional, and easy to work with every step of the way, and truly rescued us. We offer our highest recommendation. Thank…", when: "June 2026" },
+    { author: "Tyler", rating: 5, text: "Made an appointment and they were we at my house the next day, extremely professional and efficient! They were able to answer any question or concerns i had. Highly recommend this company!", when: "June 2026" },
+    { author: "Missy", rating: 5, text: "Josiah was very efficient and the crew was amazing. Good work!", when: "June 2026" },
+  ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Gulfport, MS.",
   ctaLabel: "24/7 Emergency Line",
   // Vertical trade-identity copy — resolved at scaffold time from

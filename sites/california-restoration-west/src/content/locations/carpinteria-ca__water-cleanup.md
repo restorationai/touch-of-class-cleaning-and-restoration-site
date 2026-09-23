@@ -7,10 +7,10 @@ primary_keyword: "emergency water cleanup carpinteria"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "d0e799c9ffa77b31"
-generated_at: "2026-09-20T20:41:36.514778+00:00"
+plan_hash: "4059779e23c35fa9"
+generated_at: "2026-09-23T14:11:28.136570+00:00"
 manual_override: false
-internal_links: ["/services/water-cleanup/", "/service-areas/carpinteria-ca/", "/service-areas/carpinteria-ca/mold-remediation/", "/service-areas/carpinteria-ca/water-damage-restoration/", "/service-areas/camarillo-ca/water-cleanup/", "/service-areas/fillmore-ca/water-cleanup/", "/contact/"]
+internal_links: ["/services/water-cleanup/", "/service-areas/carpinteria-ca/", "/service-areas/carpinteria-ca/mold-remediation/", "/service-areas/carpinteria-ca/water-damage-restoration/", "/service-areas/camarillo-ca/water-cleanup/", "/service-areas/castaic-ca/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Carpinteria", "url": "/service-areas/carpinteria-ca/"}, {"name": "Emergency Water Cleanup"}]
 faq: []
 area_slug: "carpinteria-ca"

@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "427fcb0029fb5abd"
-generated_at: "2026-09-22T14:27:41.312542+00:00"
+generated_at: "2026-09-23T14:11:44.863375+00:00"
 manual_override: false
 internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/louisburg-nc/", "/service-areas/louisburg-nc/fire-damage-restoration/", "/service-areas/louisburg-nc/mold-remediation/", "/service-areas/archer-lodge-nc/crawl-space-encapsulation/", "/service-areas/clayton-nc/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Louisburg", "url": "/service-areas/louisburg-nc/"}, {"name": "Crawl Space Encapsulation"}]

@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Asbestos Abatement in Sumner, WA | National Restoration Construction"
+h1: "Asbestos Abatement in Sumner"
+meta_description: "24/7 asbestos abatement in Sumner, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+primary_keyword: "asbestos abatement sumner"
+secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediation", "popcorn ceiling asbestos removal", "asbestos inspection"]
+search_intent: "local_specialty"
+priority: 4.2
+plan_hash: "ba50a46f80124f1b"
+generated_at: "2026-09-23T14:11:54.220058+00:00"
+manual_override: false
+internal_links: ["/services/asbestos-abatement/", "/service-areas/sumner-wa/", "/service-areas/sumner-wa/fire-damage-restoration/", "/service-areas/sumner-wa/mold-remediation/", "/service-areas/algona-wa/asbestos-abatement/", "/service-areas/auburn-wa/asbestos-abatement/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sumner", "url": "/service-areas/sumner-wa/"}, {"name": "Asbestos Abatement"}]
+faq: []
+area_slug: "sumner-wa"
+service_slug: "asbestos-abatement"
+city: "Sumner"
+state: "WA"
+service_display: "Asbestos Abatement"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug narestco` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Asbestos Abatement in Sumner.

@@ -1,21 +1,21 @@
 # Site Plan Report — Home Pride Restoration and Cleaning
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-21T14:13:23.155523+00:00
+- Generated: 2026-09-23T14:11:47.601923+00:00
 - Domain: `homepriderestorationandcleaning.com`
-- Services selected: 20 of 65 catalog entries
+- Services selected: 25 of 65 catalog entries
 - Service areas: 23
 - Cross-product enabled: True
-- Total URLs: **503**
-- Total internal links: 4097 (avg 8.1 per page)
+- Total URLs: **618**
+- Total internal links: 5057 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 440 |
+| `service-area-service` | 550 |
+| `service-landing` | 25 |
 | `service-area` | 22 |
-| `service-landing` | 20 |
 | `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -27,25 +27,30 @@
 
 ## Selected services
 
-- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
-- `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
-- `frozen-pipe-restoration` — Frozen Pipe Restoration (specialty, priority 7)
 - `appliance-leak-cleanup` — Appliance Leak Cleanup (specialty, priority 6)
 - `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
+- `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
+- `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
+- `carpet-cleaning` — Carpet Cleaning (adjacent, priority 4)
+- `crawl-space-encapsulation` — Crawl Space Encapsulation (adjacent, priority 5)
+- `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
+- `fabric-protection` — Fabric Protection (adjacent, priority 5)
+- `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
+- `frozen-pipe-restoration` — Frozen Pipe Restoration (specialty, priority 7)
+- `hoarding-cleanup` — Hoarding Cleanup (specialty, priority 6)
+- `junk-debris-removal` — Junk & Debris Removal (adjacent, priority 5)
+- `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
+- `mold-remediation` — Mold Remediation (core, priority 10)
+- `odor-removal` — Odor Removal and Deodorization (specialty, priority 7)
+- `post-construction-cleaning` — Post-Construction and Specialty Cleaning (supporting, priority 4)
 - `roof-leak-repair` — Roof Leak Cleanup and Repair (specialty, priority 7)
 - `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
-- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
-- `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
 - `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
-- `mold-remediation` — Mold Remediation (core, priority 10)
-- `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
-- `carpet-cleaning` — Carpet Cleaning (adjacent, priority 4)
-- `odor-removal` — Odor Removal and Deodorization (specialty, priority 7)
-- `upholstery-cleaning` — Upholstery Cleaning (adjacent, priority 4)
+- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `tile-grout-cleaning` — Tile & Grout Cleaning (adjacent, priority 4)
-- `fabric-protection` — Fabric Protection (adjacent, priority 5)
-- `junk-debris-removal` — Junk & Debris Removal (adjacent, priority 5)
-- `crawl-space-encapsulation` — Crawl Space Encapsulation (adjacent, priority 5)
+- `upholstery-cleaning` — Upholstery Cleaning (adjacent, priority 4)
+- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
+- `water-leak-detection` — Water Leak Detection (core, priority 7)
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 
 ## Service areas
@@ -86,8 +91,8 @@
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration saratoga springs |
 | `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup saratoga springs |
 | `/services/basement-flooding-cleanup/` | `service-landing` | 7.2 | basement flooding cleanup saratoga springs |
+| `/services/biohazard-cleanup/` | `service-landing` | 7.2 | biohazard cleanup saratoga springs |
 | `/services/burst-pipe-repair/` | `service-landing` | 7.2 | burst pipe cleanup and repair saratoga springs |
-| `/services/mold-inspection-testing/` | `service-landing` | 7.2 | mold inspection and testing saratoga springs |
 
 ## Validation
 

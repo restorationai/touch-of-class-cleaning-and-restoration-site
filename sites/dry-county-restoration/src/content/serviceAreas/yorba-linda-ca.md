@@ -7,10 +7,10 @@ primary_keyword: "restoration services yorba linda"
 secondary_keywords: ["yorba linda restoration company", "damage restoration yorba linda", "yorba linda disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "6dd4ce6a877501e9"
-generated_at: "2026-09-20T14:13:06.373637+00:00"
+plan_hash: "5199ff653b111b54"
+generated_at: "2026-09-23T14:11:36.158638+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/yorba-linda-ca/fire-damage-restoration/", "/service-areas/yorba-linda-ca/mold-remediation/", "/service-areas/yorba-linda-ca/water-damage-restoration/", "/service-areas/yorba-linda-ca/sewage-cleanup/", "/service-areas/yorba-linda-ca/storm-damage-restoration/", "/service-areas/yorba-linda-ca/water-cleanup/", "/service-areas/yorba-linda-ca/general-contracting/", "/service-areas/yorba-linda-ca/emergency-board-up-tarping/", "/service-areas/yorba-linda-ca/air-duct-cleaning/", "/service-areas/yorba-linda-ca/contents-restoration/", "/service-areas/yorba-linda-ca/carpet-cleaning/", "/service-areas/yorba-linda-ca/post-construction-cleaning/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/yorba-linda-ca/fire-damage-restoration/", "/service-areas/yorba-linda-ca/mold-remediation/", "/service-areas/yorba-linda-ca/roofing/", "/service-areas/yorba-linda-ca/water-damage-restoration/", "/service-areas/yorba-linda-ca/emergency-plumbing/", "/service-areas/yorba-linda-ca/sewage-cleanup/", "/service-areas/yorba-linda-ca/storm-damage-restoration/", "/service-areas/yorba-linda-ca/water-cleanup/", "/service-areas/yorba-linda-ca/general-contracting/", "/service-areas/yorba-linda-ca/emergency-board-up-tarping/", "/service-areas/yorba-linda-ca/odor-removal/", "/service-areas/yorba-linda-ca/water-leak-detection/", "/service-areas/yorba-linda-ca/air-duct-cleaning/", "/service-areas/yorba-linda-ca/contents-restoration-storage/", "/service-areas/yorba-linda-ca/contents-restoration/", "/service-areas/yorba-linda-ca/carpet-cleaning/", "/service-areas/yorba-linda-ca/post-construction-cleaning/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Yorba Linda"}]
 faq: []
 area_slug: "yorba-linda-ca"

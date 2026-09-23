@@ -18,13 +18,15 @@
     "ga4_measurement_id": "G-FB7ZB4MR6V"
   },
   "services": [
-    "water-damage-restoration",
-    "fire-damage-restoration",
-    "mold-remediation",
-    "crawl-space-encapsulation",
     "air-duct-cleaning",
+    "biohazard-cleanup",
     "carpet-cleaning",
-    "insulation-removal-installation"
+    "crawl-space-encapsulation",
+    "fire-damage-restoration",
+    "insulation-removal-installation",
+    "mold-remediation",
+    "odor-removal",
+    "water-damage-restoration"
   ],
   "service_areas": [
     {

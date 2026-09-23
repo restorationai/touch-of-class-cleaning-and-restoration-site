@@ -8,7 +8,7 @@ secondary_keywords: ["soot cleaning", "soot residue removal", "post-fire soot cl
 search_intent: "local_specialty"
 priority: 4.9
 plan_hash: "08d13076b6064728"
-generated_at: "2026-09-21T14:13:38.467620+00:00"
+generated_at: "2026-09-23T14:11:56.030716+00:00"
 manual_override: false
 internal_links: ["/services/soot-removal/", "/service-areas/maricopa-ca/", "/service-areas/maricopa-ca/fire-damage-restoration/", "/service-areas/maricopa-ca/home-remodeling/", "/service-areas/arvin-ca/soot-removal/", "/service-areas/bear-valley-springs-ca/soot-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Maricopa", "url": "/service-areas/maricopa-ca/"}, {"name": "Soot Removal"}]

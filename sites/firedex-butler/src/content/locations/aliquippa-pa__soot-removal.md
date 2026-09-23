@@ -7,10 +7,10 @@ primary_keyword: "soot removal aliquippa"
 secondary_keywords: ["soot cleaning", "soot residue removal", "post-fire soot cleanup", "soot damage cleanup", "soot wall cleaning"]
 search_intent: "local_specialty"
 priority: 4.9
-plan_hash: "e00a000366187af7"
-generated_at: "2026-09-20T17:29:36.720498+00:00"
+plan_hash: "4ff0ded515ac5750"
+generated_at: "2026-09-23T14:11:40.934364+00:00"
 manual_override: false
-internal_links: ["/services/soot-removal/", "/service-areas/aliquippa-pa/", "/service-areas/aliquippa-pa/fire-damage-restoration/", "/service-areas/aliquippa-pa/mold-remediation/", "/service-areas/baden-pa/soot-removal/", "/service-areas/beaver-falls-pa/soot-removal/", "/contact/"]
+internal_links: ["/services/soot-removal/", "/service-areas/aliquippa-pa/", "/service-areas/aliquippa-pa/fire-damage-restoration/", "/service-areas/aliquippa-pa/mold-remediation/", "/service-areas/allison-park-pa/soot-removal/", "/service-areas/baden-pa/soot-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Aliquippa", "url": "/service-areas/aliquippa-pa/"}, {"name": "Soot Removal"}]
 faq: []
 area_slug: "aliquippa-pa"

@@ -9,12 +9,14 @@ California Restoration West  (California Restoration West ) is a professional re
 This file is intended for AI assistants and language models to efficiently ingest the structure and content of this website. The full list of pages is in the sitemap at https://californiarestorationwest.com/sitemap-index.xml.
 
 ### Core service pages
-- [Water Damage Restoration](https://californiarestorationwest.com/services/water-damage-restoration/)
-- [Mold Remediation](https://californiarestorationwest.com/services/mold-remediation/)
-- [Storm Damage Restoration](https://californiarestorationwest.com/services/storm-damage-restoration/)
 - [Contents Restoration and Storage](https://californiarestorationwest.com/services/contents-restoration/)
+- [Contents Restoration & Storage](https://californiarestorationwest.com/services/contents-restoration-storage/)
 - [Crawl Space Encapsulation](https://californiarestorationwest.com/services/crawl-space-encapsulation/)
-- [Water Cleanup](https://californiarestorationwest.com/services/water-cleanup/)
+- [Mold Remediation](https://californiarestorationwest.com/services/mold-remediation/)
+- [Odor Removal and Deodorization](https://californiarestorationwest.com/services/odor-removal/)
+- [Storm Damage Restoration](https://californiarestorationwest.com/services/storm-damage-restoration/)
+- [Emergency Water Cleanup](https://californiarestorationwest.com/services/water-cleanup/)
+- [Water Damage Restoration](https://californiarestorationwest.com/services/water-damage-restoration/)
 
 ### Service area pages
 - [Ventura, CA](https://californiarestorationwest.com/service-areas/ventura-ca/)
@@ -26,11 +28,26 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Port Hueneme, CA](https://californiarestorationwest.com/service-areas/port-hueneme-ca/)
 - [Ojai, CA](https://californiarestorationwest.com/service-areas/ojai-ca/)
 - [Fillmore, CA](https://californiarestorationwest.com/service-areas/fillmore-ca/)
+- [Mira Monte, CA](https://californiarestorationwest.com/service-areas/mira-monte-ca/)
+- [Oak View, CA](https://californiarestorationwest.com/service-areas/oak-view-ca/)
+- [Somis, CA](https://californiarestorationwest.com/service-areas/somis-ca/)
+- [San Buenaventura (Ventura), CA](https://californiarestorationwest.com/service-areas/san-buenaventura-ventura-ca/)
+- [Moorpark, CA](https://californiarestorationwest.com/service-areas/moorpark-ca/)
+- [Santa Rosa Valley, CA](https://californiarestorationwest.com/service-areas/santa-rosa-valley-ca/)
+- [Piru, CA](https://californiarestorationwest.com/service-areas/piru-ca/)
+- [Hasley Canyon, CA](https://californiarestorationwest.com/service-areas/hasley-canyon-ca/)
+- [Lake Sherwood, CA](https://californiarestorationwest.com/service-areas/lake-sherwood-ca/)
+- [Carpinteria, CA](https://californiarestorationwest.com/service-areas/carpinteria-ca/)
+- [Castaic, CA](https://californiarestorationwest.com/service-areas/castaic-ca/)
+- [Oak Park, CA](https://californiarestorationwest.com/service-areas/oak-park-ca/)
 
 ### Resources
 - [Blog](https://californiarestorationwest.com/blog/): Restoration guides and local resources
 - [About](https://californiarestorationwest.com/about/): Company background and credentials
 - [Contact](https://californiarestorationwest.com/contact/): Phone, email, and service request form
+
+### Official profiles
+(profiles listed in page schema)
 - [Emergency](https://californiarestorationwest.com/emergency/): 24/7 emergency water damage response
 
 ## Key facts

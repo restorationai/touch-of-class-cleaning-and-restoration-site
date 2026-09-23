@@ -7,10 +7,10 @@ primary_keyword: "flood damage restoration baden"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "1d8d3b09193b1cfa"
-generated_at: "2026-09-20T14:13:09.802099+00:00"
+plan_hash: "8b9fe8e60a499cec"
+generated_at: "2026-09-23T14:11:40.906599+00:00"
 manual_override: false
-internal_links: ["/services/flood-damage-restoration/", "/service-areas/baden-pa/", "/service-areas/baden-pa/fire-damage-restoration/", "/service-areas/baden-pa/mold-remediation/", "/service-areas/beaver-falls-pa/flood-damage-restoration/", "/service-areas/bell-acres-pa/flood-damage-restoration/", "/contact/"]
+internal_links: ["/services/flood-damage-restoration/", "/service-areas/baden-pa/", "/service-areas/baden-pa/fire-damage-restoration/", "/service-areas/baden-pa/mold-remediation/", "/service-areas/aliquippa-pa/flood-damage-restoration/", "/service-areas/allison-park-pa/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Baden", "url": "/service-areas/baden-pa/"}, {"name": "Flood Damage Restoration"}]
 faq: []
 area_slug: "baden-pa"

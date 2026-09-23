@@ -7,10 +7,10 @@ primary_keyword: "odor removal and deodorization fairfield"
 secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
 search_intent: "local_specialty"
 priority: 4.9
-plan_hash: "b0da2691f5005020"
-generated_at: "2026-09-20T14:13:18.731707+00:00"
+plan_hash: "0f6c9dcbcaee069b"
+generated_at: "2026-09-23T14:11:49.754997+00:00"
 manual_override: false
-internal_links: ["/services/odor-removal/", "/service-areas/fairfield-ut/", "/service-areas/fairfield-ut/fire-damage-restoration/", "/service-areas/fairfield-ut/mold-remediation/", "/service-areas/american-fork-ut/odor-removal/", "/service-areas/cedar-fort-ut/odor-removal/", "/contact/"]
+internal_links: ["/services/odor-removal/", "/service-areas/fairfield-ut/", "/service-areas/fairfield-ut/fire-damage-restoration/", "/service-areas/fairfield-ut/mold-remediation/", "/service-areas/alpine-ut/odor-removal/", "/service-areas/american-fork-ut/odor-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fairfield", "url": "/service-areas/fairfield-ut/"}, {"name": "Odor Removal and Deodorization"}]
 faq: []
 area_slug: "fairfield-ut"

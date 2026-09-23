@@ -7,10 +7,10 @@ primary_keyword: "mold remediation cedar hills"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "264ad5a5f1f538d7"
-generated_at: "2026-09-20T14:13:18.734541+00:00"
+plan_hash: "ffb5b1ed65a6a5ad"
+generated_at: "2026-09-23T14:11:49.762129+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/cedar-hills-ut/", "/service-areas/cedar-hills-ut/fire-damage-restoration/", "/service-areas/cedar-hills-ut/water-damage-restoration/", "/service-areas/american-fork-ut/mold-remediation/", "/service-areas/cedar-fort-ut/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/cedar-hills-ut/", "/service-areas/cedar-hills-ut/fire-damage-restoration/", "/service-areas/cedar-hills-ut/water-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/american-fork-ut/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Cedar Hills", "url": "/service-areas/cedar-hills-ut/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "cedar-hills-ut"

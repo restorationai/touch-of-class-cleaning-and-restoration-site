@@ -8,7 +8,7 @@ secondary_keywords: ["soot cleaning", "soot residue removal", "post-fire soot cl
 search_intent: "local_specialty"
 priority: 4.9
 plan_hash: "d10d8f5b123a3659"
-generated_at: "2026-09-22T14:27:31.946878+00:00"
+generated_at: "2026-09-23T14:11:40.979726+00:00"
 manual_override: false
 internal_links: ["/services/soot-removal/", "/service-areas/big-beaver-pa/", "/service-areas/big-beaver-pa/fire-damage-restoration/", "/service-areas/big-beaver-pa/mold-remediation/", "/service-areas/aliquippa-pa/soot-removal/", "/service-areas/allison-park-pa/soot-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Big Beaver", "url": "/service-areas/big-beaver-pa/"}, {"name": "Soot Removal"}]

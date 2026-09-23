@@ -7,10 +7,10 @@ primary_keyword: "construction services harvest"
 secondary_keywords: ["harvest construction company", "general contractor harvest", "harvest remodeling contractor"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "db20d24c0ec48d32"
-generated_at: "2026-09-20T14:13:03.665734+00:00"
+plan_hash: "d6a7d5557b7d5fba"
+generated_at: "2026-09-23T14:11:32.820728+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/harvest-al/home-remodeling/", "/service-areas/harvest-al/roofing/", "/service-areas/harvest-al/decks-pergolas-fences/", "/service-areas/harvest-al/new-construction/", "/service-areas/harvest-al/siding-gutters/", "/service-areas/harvest-al/mold-remediation/", "/service-areas/harvest-al/painting-trim/", "/service-areas/harvest-al/storm-damage-restoration/", "/service-areas/harvest-al/water-damage-restoration/", "/service-areas/athens-al/", "/service-areas/hazel-green-al/", "/service-areas/huntsville-al/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/harvest-al/home-remodeling/", "/service-areas/harvest-al/roofing/", "/service-areas/harvest-al/decks-pergolas-fences/", "/service-areas/harvest-al/new-construction/", "/service-areas/harvest-al/siding-gutters/", "/service-areas/harvest-al/fire-smoke-rebuilding/", "/service-areas/harvest-al/mold-remediation/", "/service-areas/harvest-al/painting-trim/", "/service-areas/harvest-al/storm-damage-restoration/", "/service-areas/harvest-al/water-damage-restoration/", "/service-areas/harvest-al/windows-doors/", "/service-areas/arab-al/", "/service-areas/ardmore-al/", "/service-areas/athens-al/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Harvest"}]
 faq: []
 area_slug: "harvest-al"

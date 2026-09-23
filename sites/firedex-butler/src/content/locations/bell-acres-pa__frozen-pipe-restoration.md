@@ -7,10 +7,10 @@ primary_keyword: "frozen pipe restoration bell acres"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"
 priority: 4.9
-plan_hash: "4bb2ec1f64561116"
-generated_at: "2026-09-20T14:13:09.805833+00:00"
+plan_hash: "0724ca45e94020f1"
+generated_at: "2026-09-23T14:11:40.913113+00:00"
 manual_override: false
-internal_links: ["/services/frozen-pipe-restoration/", "/service-areas/bell-acres-pa/", "/service-areas/bell-acres-pa/fire-damage-restoration/", "/service-areas/bell-acres-pa/mold-remediation/", "/service-areas/baden-pa/frozen-pipe-restoration/", "/service-areas/beaver-falls-pa/frozen-pipe-restoration/", "/contact/"]
+internal_links: ["/services/frozen-pipe-restoration/", "/service-areas/bell-acres-pa/", "/service-areas/bell-acres-pa/fire-damage-restoration/", "/service-areas/bell-acres-pa/mold-remediation/", "/service-areas/aliquippa-pa/frozen-pipe-restoration/", "/service-areas/allison-park-pa/frozen-pipe-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bell Acres", "url": "/service-areas/bell-acres-pa/"}, {"name": "Frozen Pipe Restoration"}]
 faq: []
 area_slug: "bell-acres-pa"

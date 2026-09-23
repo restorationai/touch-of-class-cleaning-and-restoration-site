@@ -8,7 +8,7 @@ secondary_keywords: ["decomposition cleanup", "after death cleaning", "deceased 
 search_intent: "local_sensitive"
 priority: 4.2
 plan_hash: "48eacfc951bf5f5d"
-generated_at: "2026-09-22T18:10:22.123162+00:00"
+generated_at: "2026-09-23T14:11:54.227583+00:00"
 manual_override: false
 internal_links: ["/services/unattended-death-cleanup/", "/service-areas/sumner-wa/", "/service-areas/sumner-wa/fire-damage-restoration/", "/service-areas/sumner-wa/mold-remediation/", "/service-areas/algona-wa/unattended-death-cleanup/", "/service-areas/auburn-wa/unattended-death-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sumner", "url": "/service-areas/sumner-wa/"}, {"name": "Unattended Death Cleanup"}]

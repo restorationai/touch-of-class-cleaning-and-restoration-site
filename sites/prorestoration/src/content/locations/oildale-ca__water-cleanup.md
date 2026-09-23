@@ -7,17 +7,17 @@ primary_keyword: "emergency water cleanup oildale"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "50b6d5354bd73543"
-generated_at: "2026-09-20T14:13:26.533013+00:00"
+plan_hash: "450f50cc454d66e2"
+generated_at: "2026-09-23T14:11:55.920926+00:00"
 manual_override: false
-internal_links: ["/services/water-cleanup/", "/service-areas/oildale-ca/", "/service-areas/oildale-ca/fire-damage-restoration/", "/service-areas/oildale-ca/home-remodeling/", "/service-areas/arvin-ca/water-cleanup/", "/service-areas/buttonwillow-ca/water-cleanup/", "/contact/"]
-breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oildale", "url": "/service-areas/oildale-ca/"}, {"name": "water-cleanup"}]
+internal_links: ["/services/water-cleanup/", "/service-areas/oildale-ca/", "/service-areas/oildale-ca/fire-damage-restoration/", "/service-areas/oildale-ca/home-remodeling/", "/service-areas/arvin-ca/water-cleanup/", "/service-areas/bear-valley-springs-ca/water-cleanup/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oildale", "url": "/service-areas/oildale-ca/"}, {"name": "Emergency Water Cleanup"}]
 faq: []
 area_slug: "oildale-ca"
 service_slug: "water-cleanup"
 city: "Oildale"
 state: "CA"
-service_display: "water-cleanup"
+service_display: "Emergency Water Cleanup"
 ---
 <!-- Page body not yet generated. Run `build_site.py render --slug prorestoration` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
 

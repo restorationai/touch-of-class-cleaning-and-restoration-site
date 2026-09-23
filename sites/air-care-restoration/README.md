@@ -38,8 +38,8 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `2241 S 41ST ST SUITE A` / `79602` | brand.street_address / brand.postal_code | |
 | `32.44645` / `-99.7475905` | brand.lat / brand.lng | from GBP |
 | `ChIJAbX4Kjsyg2IRF9RgElzgJXk` / `` | brand.place_id / brand.google_cid | from GBP |
-| `[]` | brand.license_numbers (JSON-encoded array) | `["NATIORC792M6"]` |
-| `` / `` | brand.license_authority / brand.license_type | |
+| `["MRC2262"]` | brand.license_numbers (JSON-encoded array) | `["NATIORC792M6"]` |
+| `Texas Department of Licensing and Regulation` / `Texas Mold Remediation Contractor License` | brand.license_authority / brand.license_type | |
 | `["IICRC CERTIFIED FIRM", "OSHA TRAINED", "IICRC WRT (WATER)", "IICRC FSRT (FIRE & SMOKE)", "EPA LEAD-SAFE CERTIFIED", "MRC2262-RCO1798-TCST-HST-OCT"]` | brand.certifications (JSON-encoded array) | `["IICRC", "BBB Accredited"]` |
 | `[]` | brand.same_as_urls (JSON-encoded array) | |
 | `` / `` | from GBP | `5.0` / `31` |
@@ -48,19 +48,21 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `Poppins` / `Anton` | brand.fonts | `Inter` / `Inter` |
 | `/images/logo.png` / `AC` | derived; logo lives on the per-client R2 bucket | |
 | `https://images.aircarerestoration.com` | `https://images.{domain}` | |
-| `- [Water Damage Restoration](https://aircarerestoration.com/services/water-damage-restoration/)
-- [Water Cleanup](https://aircarerestoration.com/services/water-cleanup/)
-- [Storm Damage Restoration](https://aircarerestoration.com/services/storm-damage-restoration/)
-- [Air Duct Cleaning](https://aircarerestoration.com/services/air-duct-cleaning/)
-- [Fire Damage Restoration](https://aircarerestoration.com/services/fire-damage-restoration/)
-- [Renovations, Remodels and General Contracting](https://aircarerestoration.com/services/general-contracting/)
-- [Sewage Cleanup and Sanitization](https://aircarerestoration.com/services/sewage-cleanup/)
+| `- [Air Duct Cleaning](https://aircarerestoration.com/services/air-duct-cleaning/)
+- [Asbestos Abatement](https://aircarerestoration.com/services/asbestos-abatement/)
 - [Biohazard Cleanup](https://aircarerestoration.com/services/biohazard-cleanup/)
 - [Contents Restoration and Storage](https://aircarerestoration.com/services/contents-restoration/)
-- [Post-Construction and Specialty Cleaning](https://aircarerestoration.com/services/post-construction-cleaning/)
+- [Contents Restoration & Storage](https://aircarerestoration.com/services/contents-restoration-storage/)
 - [Emergency Board-Up and Tarping](https://aircarerestoration.com/services/emergency-board-up-tarping/)
-- [Asbestos Abatement](https://aircarerestoration.com/services/asbestos-abatement/)
-- [Mold Remediation](https://aircarerestoration.com/services/mold-remediation/)` / `- [Abilene, TX](https://aircarerestoration.com/service-areas/abilene-tx/)
+- [Fire Damage Restoration](https://aircarerestoration.com/services/fire-damage-restoration/)
+- [Renovations, Remodels and General Contracting](https://aircarerestoration.com/services/general-contracting/)
+- [Mold Remediation](https://aircarerestoration.com/services/mold-remediation/)
+- [Odor Removal and Deodorization](https://aircarerestoration.com/services/odor-removal/)
+- [Post-Construction and Specialty Cleaning](https://aircarerestoration.com/services/post-construction-cleaning/)
+- [Sewage Cleanup and Sanitization](https://aircarerestoration.com/services/sewage-cleanup/)
+- [Storm Damage Restoration](https://aircarerestoration.com/services/storm-damage-restoration/)
+- [Emergency Water Cleanup](https://aircarerestoration.com/services/water-cleanup/)
+- [Water Damage Restoration](https://aircarerestoration.com/services/water-damage-restoration/)` / `- [Abilene, TX](https://aircarerestoration.com/service-areas/abilene-tx/)
 - [Sweetwater, TX](https://aircarerestoration.com/service-areas/sweetwater-tx/)
 - [Clyde, TX](https://aircarerestoration.com/service-areas/clyde-tx/)
 - [Merkel, TX](https://aircarerestoration.com/service-areas/merkel-tx/)
@@ -75,7 +77,19 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 - [Robert Lee, TX](https://aircarerestoration.com/service-areas/robert-lee-tx/)
 - [Bronte, TX](https://aircarerestoration.com/service-areas/bronte-tx/)
 - [Eden, TX](https://aircarerestoration.com/service-areas/eden-tx/)
-- [Paint Rock, TX](https://aircarerestoration.com/service-areas/paint-rock-tx/)` / `IICRC CERTIFIED FIRM, OSHA TRAINED, IICRC WRT (WATER), IICRC FSRT (FIRE & SMOKE), EPA LEAD-SAFE CERTIFIED, MRC2262-RCO1798-TCST-HST-OCT` / `Greater Abilene region` | computed at scaffold from plan + brand | |
+- [Paint Rock, TX](https://aircarerestoration.com/service-areas/paint-rock-tx/)
+- [San Angelo, TX](https://aircarerestoration.com/service-areas/san-angelo-tx/)
+- [Snyder, TX](https://aircarerestoration.com/service-areas/snyder-tx/)
+- [Coleman, TX](https://aircarerestoration.com/service-areas/coleman-tx/)
+- [Ballinger, TX](https://aircarerestoration.com/service-areas/ballinger-tx/)
+- [Haskell, TX](https://aircarerestoration.com/service-areas/haskell-tx/)
+- [Albany, TX](https://aircarerestoration.com/service-areas/albany-tx/)
+- [Eastland, TX](https://aircarerestoration.com/service-areas/eastland-tx/)
+- [Colorado City, TX](https://aircarerestoration.com/service-areas/colorado-city-tx/)
+- [Comanche, TX](https://aircarerestoration.com/service-areas/comanche-tx/)
+- [Potosi, TX](https://aircarerestoration.com/service-areas/potosi-tx/)
+- [Hawley, TX](https://aircarerestoration.com/service-areas/hawley-tx/)
+- [Baird, TX](https://aircarerestoration.com/service-areas/baird-tx/)` / `IICRC CERTIFIED FIRM, OSHA TRAINED, IICRC WRT (WATER), IICRC FSRT (FIRE & SMOKE), EPA LEAD-SAFE CERTIFIED, MRC2262-RCO1798-TCST-HST-OCT` / `Greater Abilene region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

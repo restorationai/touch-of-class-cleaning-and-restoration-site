@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration dustin acres"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "fbcd45f4c809cd29"
-generated_at: "2026-09-20T14:13:26.549432+00:00"
+plan_hash: "2b7cda9e8e8da326"
+generated_at: "2026-09-23T14:11:55.983080+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/dustin-acres-ca/", "/service-areas/dustin-acres-ca/home-remodeling/", "/service-areas/dustin-acres-ca/mold-remediation/", "/service-areas/arvin-ca/fire-damage-restoration/", "/service-areas/buttonwillow-ca/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/dustin-acres-ca/", "/service-areas/dustin-acres-ca/home-remodeling/", "/service-areas/dustin-acres-ca/mold-remediation/", "/service-areas/arvin-ca/fire-damage-restoration/", "/service-areas/bear-valley-springs-ca/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Dustin Acres", "url": "/service-areas/dustin-acres-ca/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "dustin-acres-ca"

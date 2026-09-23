@@ -7,10 +7,10 @@ primary_keyword: "fabric protection cedar fort"
 secondary_keywords: ["carpet protection", "upholstery protection", "stain guard", "scotchgard application", "fabric stain protection"]
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "63d2a1fa0a7efb46"
-generated_at: "2026-09-20T14:13:18.738891+00:00"
+plan_hash: "44b51eff1d9b9f70"
+generated_at: "2026-09-23T14:11:49.767657+00:00"
 manual_override: false
-internal_links: ["/services/fabric-protection/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-fort-ut/fire-damage-restoration/", "/service-areas/cedar-fort-ut/mold-remediation/", "/service-areas/american-fork-ut/fabric-protection/", "/service-areas/cedar-hills-ut/fabric-protection/", "/contact/"]
+internal_links: ["/services/fabric-protection/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-fort-ut/fire-damage-restoration/", "/service-areas/cedar-fort-ut/mold-remediation/", "/service-areas/alpine-ut/fabric-protection/", "/service-areas/american-fork-ut/fabric-protection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Cedar Fort", "url": "/service-areas/cedar-fort-ut/"}, {"name": "Fabric Protection"}]
 faq: []
 area_slug: "cedar-fort-ut"

@@ -48,15 +48,16 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `Inter` / `Inter` | brand.fonts | `Inter` / `Inter` |
 | `/images/logo.png` / `DV` | derived; logo lives on the per-client R2 bucket | |
 | `https://images.desertvalleycontracting.net` | `https://images.{domain}` | |
-| `- [Water Damage Restoration](https://desertvalleycontracting.net/services/water-damage-restoration/)
-- [Fire Damage Restoration](https://desertvalleycontracting.net/services/fire-damage-restoration/)
-- [Mold Remediation](https://desertvalleycontracting.net/services/mold-remediation/)
-- [Storm Damage Restoration](https://desertvalleycontracting.net/services/storm-damage-restoration/)
-- [Renovations, Remodels and General Contracting](https://desertvalleycontracting.net/services/general-contracting/)
-- [Sewage Cleanup and Sanitization](https://desertvalleycontracting.net/services/sewage-cleanup/)
-- [Biohazard Cleanup](https://desertvalleycontracting.net/services/biohazard-cleanup/)
+| `- [Biohazard Cleanup](https://desertvalleycontracting.net/services/biohazard-cleanup/)
 - [Contents Restoration & Storage](https://desertvalleycontracting.net/services/contents-restoration-storage/)
-- [Emergency Water Cleanup](https://desertvalleycontracting.net/services/water-cleanup/)` / `- [North Las Vegas, NV](https://desertvalleycontracting.net/service-areas/north-las-vegas-nv/)
+- [Fire Damage Restoration](https://desertvalleycontracting.net/services/fire-damage-restoration/)
+- [Renovations, Remodels and General Contracting](https://desertvalleycontracting.net/services/general-contracting/)
+- [Mold Remediation](https://desertvalleycontracting.net/services/mold-remediation/)
+- [Odor Removal and Deodorization](https://desertvalleycontracting.net/services/odor-removal/)
+- [Sewage Cleanup and Sanitization](https://desertvalleycontracting.net/services/sewage-cleanup/)
+- [Storm Damage Restoration](https://desertvalleycontracting.net/services/storm-damage-restoration/)
+- [Emergency Water Cleanup](https://desertvalleycontracting.net/services/water-cleanup/)
+- [Water Damage Restoration](https://desertvalleycontracting.net/services/water-damage-restoration/)` / `- [North Las Vegas, NV](https://desertvalleycontracting.net/service-areas/north-las-vegas-nv/)
 - [Las Vegas, NV](https://desertvalleycontracting.net/service-areas/las-vegas-nv/)
 - [Henderson, NV](https://desertvalleycontracting.net/service-areas/henderson-nv/)
 - [Paradise, NV](https://desertvalleycontracting.net/service-areas/paradise-nv/)
@@ -64,7 +65,18 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 - [Sunrise Manor, NV](https://desertvalleycontracting.net/service-areas/sunrise-manor-nv/)
 - [Enterprise, NV](https://desertvalleycontracting.net/service-areas/enterprise-nv/)
 - [Summerlin, NV](https://desertvalleycontracting.net/service-areas/summerlin-nv/)
-- [Boulder City, NV](https://desertvalleycontracting.net/service-areas/boulder-city-nv/)` / `IICRC CERTIFIED FIRM, IICRC AMRT (MOLD), OSHA TRAINED, IICRC FSRT (FIRE & SMOKE), IICRC WRT (WATER), IICRC ASD (STRUCTURAL DRYING), EPA LEAD-SAFE CERTIFIED` / `Greater North Las Vegas region` | computed at scaffold from plan + brand | |
+- [Boulder City, NV](https://desertvalleycontracting.net/service-areas/boulder-city-nv/)
+- [Winchester, NV](https://desertvalleycontracting.net/service-areas/winchester-nv/)
+- [Whitney, NV](https://desertvalleycontracting.net/service-areas/whitney-nv/)
+- [Summerlin South, NV](https://desertvalleycontracting.net/service-areas/summerlin-south-nv/)
+- [Blue Diamond, NV](https://desertvalleycontracting.net/service-areas/blue-diamond-nv/)
+- [Mount Charleston, NV](https://desertvalleycontracting.net/service-areas/mount-charleston-nv/)
+- [Sandy Valley, NV](https://desertvalleycontracting.net/service-areas/sandy-valley-nv/)
+- [Nelson, NV](https://desertvalleycontracting.net/service-areas/nelson-nv/)
+- [Indian Springs, NV](https://desertvalleycontracting.net/service-areas/indian-springs-nv/)
+- [Moapa Town, NV](https://desertvalleycontracting.net/service-areas/moapa-town-nv/)
+- [Moapa Valley, NV](https://desertvalleycontracting.net/service-areas/moapa-valley-nv/)
+- [Searchlight, NV](https://desertvalleycontracting.net/service-areas/searchlight-nv/)` / `IICRC CERTIFIED FIRM, IICRC AMRT (MOLD), OSHA TRAINED, IICRC FSRT (FIRE & SMOKE), IICRC WRT (WATER), IICRC ASD (STRUCTURAL DRYING), EPA LEAD-SAFE CERTIFIED` / `Greater North Las Vegas region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

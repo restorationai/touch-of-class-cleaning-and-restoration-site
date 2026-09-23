@@ -7,10 +7,10 @@ primary_keyword: "mold remediation bluffdale"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "edf504682d17ab69"
-generated_at: "2026-09-20T17:29:46.323218+00:00"
+plan_hash: "9072528c9193ca00"
+generated_at: "2026-09-23T14:11:49.777236+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/bluffdale-ut/", "/service-areas/bluffdale-ut/fire-damage-restoration/", "/service-areas/bluffdale-ut/water-damage-restoration/", "/service-areas/american-fork-ut/mold-remediation/", "/service-areas/cedar-fort-ut/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/bluffdale-ut/", "/service-areas/bluffdale-ut/fire-damage-restoration/", "/service-areas/bluffdale-ut/water-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/american-fork-ut/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bluffdale", "url": "/service-areas/bluffdale-ut/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "bluffdale-ut"

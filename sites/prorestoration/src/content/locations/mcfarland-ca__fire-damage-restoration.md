@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration mcfarland"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "ef6d15355e80273b"
-generated_at: "2026-09-20T14:13:26.552306+00:00"
+plan_hash: "ed6c902c9537a3c5"
+generated_at: "2026-09-23T14:11:55.990475+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/mcfarland-ca/", "/service-areas/mcfarland-ca/home-remodeling/", "/service-areas/mcfarland-ca/mold-remediation/", "/service-areas/arvin-ca/fire-damage-restoration/", "/service-areas/buttonwillow-ca/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/mcfarland-ca/", "/service-areas/mcfarland-ca/home-remodeling/", "/service-areas/mcfarland-ca/mold-remediation/", "/service-areas/arvin-ca/fire-damage-restoration/", "/service-areas/bear-valley-springs-ca/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McFarland", "url": "/service-areas/mcfarland-ca/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "mcfarland-ca"

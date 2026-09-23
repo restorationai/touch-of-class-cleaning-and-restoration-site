@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration lavon"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "ed4b1a38e2e7a359"
-generated_at: "2026-09-20T14:13:42.834770+00:00"
+plan_hash: "574f3b8ea4dba59c"
+generated_at: "2026-09-23T14:12:04.467058+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/lavon-tx/", "/service-areas/lavon-tx/mold-remediation/", "/service-areas/lavon-tx/water-damage-restoration/", "/service-areas/allen-tx/fire-damage-restoration/", "/service-areas/caddo-mills-tx/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/lavon-tx/", "/service-areas/lavon-tx/mold-remediation/", "/service-areas/lavon-tx/roofing/", "/service-areas/allen-tx/fire-damage-restoration/", "/service-areas/caddo-mills-tx/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lavon", "url": "/service-areas/lavon-tx/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "lavon-tx"

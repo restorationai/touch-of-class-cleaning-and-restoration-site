@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "cc91569363c4e187"
-generated_at: "2026-09-20T20:41:46.461188+00:00"
+generated_at: "2026-09-23T14:11:40.951443+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/prospect-pa/", "/service-areas/prospect-pa/fire-damage-restoration/", "/service-areas/prospect-pa/water-damage-restoration/", "/service-areas/aliquippa-pa/mold-remediation/", "/service-areas/allison-park-pa/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Prospect", "url": "/service-areas/prospect-pa/"}, {"name": "Mold Remediation"}]

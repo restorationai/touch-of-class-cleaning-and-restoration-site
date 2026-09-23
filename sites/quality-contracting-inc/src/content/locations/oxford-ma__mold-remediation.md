@@ -7,10 +7,10 @@ primary_keyword: "mold remediation oxford"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "ded2d66998c66e4e"
-generated_at: "2026-09-20T14:13:32.568899+00:00"
+plan_hash: "e0aa34f7266461ef"
+generated_at: "2026-09-23T14:11:58.495834+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/oxford-ma/", "/service-areas/oxford-ma/fire-damage-restoration/", "/service-areas/oxford-ma/water-damage-restoration/", "/service-areas/east-douglas-ma/mold-remediation/", "/service-areas/framingham-ma/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/oxford-ma/", "/service-areas/oxford-ma/fire-damage-restoration/", "/service-areas/oxford-ma/roofing/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oxford", "url": "/service-areas/oxford-ma/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "oxford-ma"

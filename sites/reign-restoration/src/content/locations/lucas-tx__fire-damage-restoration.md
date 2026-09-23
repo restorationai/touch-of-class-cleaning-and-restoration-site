@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration lucas"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "e41d4826241bf260"
-generated_at: "2026-09-21T14:13:45.850940+00:00"
+plan_hash: "dc9156bdc936ab19"
+generated_at: "2026-09-23T14:12:04.490469+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/lucas-tx/", "/service-areas/lucas-tx/mold-remediation/", "/service-areas/lucas-tx/water-damage-restoration/", "/service-areas/allen-tx/fire-damage-restoration/", "/service-areas/caddo-mills-tx/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/lucas-tx/", "/service-areas/lucas-tx/mold-remediation/", "/service-areas/lucas-tx/roofing/", "/service-areas/allen-tx/fire-damage-restoration/", "/service-areas/caddo-mills-tx/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lucas", "url": "/service-areas/lucas-tx/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "lucas-tx"

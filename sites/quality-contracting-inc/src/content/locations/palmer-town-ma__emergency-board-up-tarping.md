@@ -8,7 +8,7 @@ secondary_keywords: ["roof tarping", "fire damage board up", "broken window boar
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "06068a76133825b0"
-generated_at: "2026-09-22T18:10:30.111895+00:00"
+generated_at: "2026-09-23T14:11:58.568444+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/palmer-town-ma/", "/service-areas/palmer-town-ma/fire-damage-restoration/", "/service-areas/palmer-town-ma/mold-remediation/", "/service-areas/bellingham-ma/emergency-board-up-tarping/", "/service-areas/east-douglas-ma/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Palmer Town", "url": "/service-areas/palmer-town-ma/"}, {"name": "Emergency Board-Up and Tarping"}]

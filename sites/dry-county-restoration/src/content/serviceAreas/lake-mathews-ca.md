@@ -7,10 +7,10 @@ primary_keyword: "restoration services lake mathews"
 secondary_keywords: ["lake mathews restoration company", "damage restoration lake mathews", "lake mathews disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "65edf80ee2ce1995"
-generated_at: "2026-09-20T14:13:06.373848+00:00"
+plan_hash: "f850be158aea939d"
+generated_at: "2026-09-23T14:11:36.158969+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/lake-mathews-ca/fire-damage-restoration/", "/service-areas/lake-mathews-ca/mold-remediation/", "/service-areas/lake-mathews-ca/water-damage-restoration/", "/service-areas/lake-mathews-ca/sewage-cleanup/", "/service-areas/lake-mathews-ca/storm-damage-restoration/", "/service-areas/lake-mathews-ca/water-cleanup/", "/service-areas/lake-mathews-ca/general-contracting/", "/service-areas/lake-mathews-ca/emergency-board-up-tarping/", "/service-areas/lake-mathews-ca/air-duct-cleaning/", "/service-areas/lake-mathews-ca/contents-restoration/", "/service-areas/lake-mathews-ca/carpet-cleaning/", "/service-areas/lake-mathews-ca/post-construction-cleaning/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/lake-mathews-ca/fire-damage-restoration/", "/service-areas/lake-mathews-ca/mold-remediation/", "/service-areas/lake-mathews-ca/roofing/", "/service-areas/lake-mathews-ca/water-damage-restoration/", "/service-areas/lake-mathews-ca/emergency-plumbing/", "/service-areas/lake-mathews-ca/sewage-cleanup/", "/service-areas/lake-mathews-ca/storm-damage-restoration/", "/service-areas/lake-mathews-ca/water-cleanup/", "/service-areas/lake-mathews-ca/general-contracting/", "/service-areas/lake-mathews-ca/emergency-board-up-tarping/", "/service-areas/lake-mathews-ca/odor-removal/", "/service-areas/lake-mathews-ca/water-leak-detection/", "/service-areas/lake-mathews-ca/air-duct-cleaning/", "/service-areas/lake-mathews-ca/contents-restoration-storage/", "/service-areas/lake-mathews-ca/contents-restoration/", "/service-areas/lake-mathews-ca/carpet-cleaning/", "/service-areas/lake-mathews-ca/post-construction-cleaning/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Mathews"}]
 faq: []
 area_slug: "lake-mathews-ca"

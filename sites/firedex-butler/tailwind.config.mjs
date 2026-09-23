@@ -13,7 +13,7 @@ export default {
     extend: {
       colors: {
         dark: {
-          DEFAULT: "#102a43",
+          DEFAULT: "#181616",
           50: "#f9fafb",
           100: "#f3f4f6",
           200: "#e5e7eb",
@@ -27,23 +27,39 @@ export default {
           950: "#030712",
         },
         primary: {
-          DEFAULT: "#dc2626",
-          50: "#fef2f2",
-          100: "#fee2e2",
-          200: "#fecaca",
-          300: "#fca5a5",
-          400: "#f87171",
-          500: "#ef4444",
+          DEFAULT: "#c8102e",
+          50: "#fef1f3",
+          100: "#fcd9df",
+          200: "#f9b3bf",
+          300: "#f47b8f",
+          400: "#f04762",
+          500: "#ec1336",
+          // 600/700 are the DARKENED rungs — brand-tinted TEXT on a white or
+          // light surface (Hero's outline button, ProcessSection icons). They
+          // are NOT the button fill; that is `cta` below.
           600: "#c8102e",
           700: "#a30d25",
-          800: "#991b1b",
-          900: "#7f1d1d",
-          950: "#450a0a",
+          800: "#800a1d",
+          900: "#630817",
+          950: "#39050d",
+        },
+        /* cta — the SOLID-FILL pair: `bg-cta` is every call-to-action's
+           background and `text-cta-fg` is the label that sits on it. They are
+           resolved TOGETHER in build_site.resolve_tokens so the pair always
+           clears WCAG AA, which lets the fill stay the client's REAL brand hex
+           instead of a darkened derivative. A dark brand gets hex + white; a
+           light brand (gold, lime, sky) gets hex + a near-black label. Reign,
+           2026-08-05: "Action to call on the website need to match golds as
+           the logo" — the fill is the logo gold now, the label moved instead. */
+        cta: {
+          DEFAULT: "#c8102e",
+          hover: "#a30d25",
+          fg: "#ffffff",
         },
         accent: {
-          // btn-accent renders WHITE text on this color — pick an accent that
-          // keeps >= 4.5:1 contrast with white (WCAG AA). e.g. #dc2626 or #c2410c.
+          // Same pair rule as cta — btn-accent renders text-accent-fg on this.
           DEFAULT: "#e5304c",
+          fg: "#ffffff",
         },
         muted: {
           DEFAULT: "#4b5563",

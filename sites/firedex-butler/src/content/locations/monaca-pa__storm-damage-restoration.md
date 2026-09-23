@@ -7,10 +7,10 @@ primary_keyword: "storm damage restoration monaca"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "98a8295cb6f4ef6a"
-generated_at: "2026-09-20T14:13:09.809092+00:00"
+plan_hash: "2a6492aad0108d9a"
+generated_at: "2026-09-23T14:11:40.922207+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/monaca-pa/", "/service-areas/monaca-pa/fire-damage-restoration/", "/service-areas/monaca-pa/mold-remediation/", "/service-areas/baden-pa/storm-damage-restoration/", "/service-areas/beaver-falls-pa/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/monaca-pa/", "/service-areas/monaca-pa/fire-damage-restoration/", "/service-areas/monaca-pa/mold-remediation/", "/service-areas/aliquippa-pa/storm-damage-restoration/", "/service-areas/allison-park-pa/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Monaca", "url": "/service-areas/monaca-pa/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "monaca-pa"

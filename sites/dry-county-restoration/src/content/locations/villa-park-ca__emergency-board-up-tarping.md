@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "2d9cd74ecd8efbde"
-generated_at: "2026-09-21T14:13:09.472489+00:00"
+generated_at: "2026-09-23T14:11:36.228168+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/villa-park-ca/", "/service-areas/villa-park-ca/fire-damage-restoration/", "/service-areas/villa-park-ca/mold-remediation/", "/service-areas/anaheim-ca/emergency-board-up-tarping/", "/service-areas/chino-ca/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Villa Park", "url": "/service-areas/villa-park-ca/"}, {"name": "Emergency Board-Up and Tarping"}]

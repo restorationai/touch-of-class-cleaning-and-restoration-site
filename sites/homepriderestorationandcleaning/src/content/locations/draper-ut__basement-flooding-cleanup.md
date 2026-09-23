@@ -8,7 +8,7 @@ secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet 
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "ee457152940d6083"
-generated_at: "2026-09-20T19:37:06.033340+00:00"
+generated_at: "2026-09-23T14:11:49.788569+00:00"
 manual_override: false
 internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/draper-ut/", "/service-areas/draper-ut/fire-damage-restoration/", "/service-areas/draper-ut/mold-remediation/", "/service-areas/alpine-ut/basement-flooding-cleanup/", "/service-areas/american-fork-ut/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Draper", "url": "/service-areas/draper-ut/"}, {"name": "Basement Flooding Cleanup"}]

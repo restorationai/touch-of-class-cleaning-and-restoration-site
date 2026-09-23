@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "313d64f974587b90"
-generated_at: "2026-09-20T14:13:08.046923+00:00"
+generated_at: "2026-09-23T14:11:38.311291+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/palm-river-clair-mel-fl/", "/service-areas/palm-river-clair-mel-fl/mold-remediation/", "/service-areas/palm-river-clair-mel-fl/water-damage-restoration/", "/service-areas/anna-maria-fl/fire-damage-restoration/", "/service-areas/apollo-beach-fl/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Palm River-Clair Mel", "url": "/service-areas/palm-river-clair-mel-fl/"}, {"name": "Fire Damage Restoration"}]

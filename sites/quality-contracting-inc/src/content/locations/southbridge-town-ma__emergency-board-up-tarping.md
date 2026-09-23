@@ -7,10 +7,10 @@ primary_keyword: "emergency board-up and tarping southbridge town"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
 priority: 4.9
-plan_hash: "1890a6db202605ec"
-generated_at: "2026-09-20T14:13:32.577120+00:00"
+plan_hash: "bd1ef7b30ab47924"
+generated_at: "2026-09-23T14:11:58.516860+00:00"
 manual_override: false
-internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/southbridge-town-ma/", "/service-areas/southbridge-town-ma/fire-damage-restoration/", "/service-areas/southbridge-town-ma/mold-remediation/", "/service-areas/east-douglas-ma/emergency-board-up-tarping/", "/service-areas/framingham-ma/emergency-board-up-tarping/", "/contact/"]
+internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/southbridge-town-ma/", "/service-areas/southbridge-town-ma/fire-damage-restoration/", "/service-areas/southbridge-town-ma/mold-remediation/", "/service-areas/bellingham-ma/emergency-board-up-tarping/", "/service-areas/east-douglas-ma/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Southbridge Town", "url": "/service-areas/southbridge-town-ma/"}, {"name": "Emergency Board-Up and Tarping"}]
 faq: []
 area_slug: "southbridge-town-ma"

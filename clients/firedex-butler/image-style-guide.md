@@ -185,7 +185,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Flood Damage Restoration, Basement Flooding Cleanup, Sewage Cleanup and Sanitization, Burst Pipe Cleanup and Repair, Frozen Pipe Restoration, Storm Damage Restoration, Fire Damage Restoration, Smoke Damage Restoration, Soot Removal, Odor Removal and Deodorization, Mold Remediation, Mold Inspection and Testing, Biohazard Cleanup, Commercial Restoration, Reconstruction Services, Renovations, Remodels and General Contracting, Emergency Water Cleanup)
+- [ ] (continue for each of Basement Flooding Cleanup, Biohazard Cleanup, Burst Pipe Cleanup and Repair, Commercial Restoration, Contents Restoration & Storage, Emergency Board-Up and Tarping, Fire Damage Restoration, Flood Damage Restoration, Frozen Pipe Restoration, Renovations, Remodels and General Contracting, Mold Inspection and Testing, Mold Remediation, Odor Removal and Deodorization, Reconstruction Services, Sewage Cleanup and Sanitization, Smoke Damage Restoration, Soot Removal, Storm Damage Restoration, Water Damage Restoration, Emergency Water Cleanup)
 
 ### Service area pages (one image per city served)
 - [ ] Cranberry Township hero — exterior shot, regional housing stock, evocative of the city

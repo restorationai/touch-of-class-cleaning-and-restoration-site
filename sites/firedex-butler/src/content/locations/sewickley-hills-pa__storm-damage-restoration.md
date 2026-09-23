@@ -7,10 +7,10 @@ primary_keyword: "storm damage restoration sewickley hills"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "37d0ee3748dca0d6"
-generated_at: "2026-09-20T19:17:19.889543+00:00"
+plan_hash: "eb60e262f575d0ab"
+generated_at: "2026-09-23T14:11:40.940919+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/sewickley-hills-pa/", "/service-areas/sewickley-hills-pa/fire-damage-restoration/", "/service-areas/sewickley-hills-pa/mold-remediation/", "/service-areas/aliquippa-pa/storm-damage-restoration/", "/service-areas/baden-pa/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/sewickley-hills-pa/", "/service-areas/sewickley-hills-pa/fire-damage-restoration/", "/service-areas/sewickley-hills-pa/mold-remediation/", "/service-areas/aliquippa-pa/storm-damage-restoration/", "/service-areas/allison-park-pa/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sewickley Hills", "url": "/service-areas/sewickley-hills-pa/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "sewickley-hills-pa"

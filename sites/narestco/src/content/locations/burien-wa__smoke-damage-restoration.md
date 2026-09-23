@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "2c3b3abaf5944154"
-generated_at: "2026-09-21T19:18:58.978287+00:00"
+generated_at: "2026-09-23T14:11:54.198207+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/burien-wa/", "/service-areas/burien-wa/fire-damage-restoration/", "/service-areas/burien-wa/mold-remediation/", "/service-areas/algona-wa/smoke-damage-restoration/", "/service-areas/auburn-wa/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Burien", "url": "/service-areas/burien-wa/"}, {"name": "Smoke Damage Restoration"}]

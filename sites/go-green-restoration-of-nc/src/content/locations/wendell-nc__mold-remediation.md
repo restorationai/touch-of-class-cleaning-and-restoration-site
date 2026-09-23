@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "a6a4cb1d3d9c1231"
-generated_at: "2026-09-20T14:13:14.682319+00:00"
+generated_at: "2026-09-23T14:11:44.823464+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/wendell-nc/", "/service-areas/wendell-nc/fire-damage-restoration/", "/service-areas/wendell-nc/water-damage-restoration/", "/service-areas/archer-lodge-nc/mold-remediation/", "/service-areas/clayton-nc/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wendell", "url": "/service-areas/wendell-nc/"}, {"name": "Mold Remediation"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "89076904bab78970"
-generated_at: "2026-09-21T19:18:36.601483+00:00"
+generated_at: "2026-09-23T14:11:36.236602+00:00"
 manual_override: false
 internal_links: ["/services/storm-damage-restoration/", "/service-areas/fontana-ca/", "/service-areas/fontana-ca/fire-damage-restoration/", "/service-areas/fontana-ca/mold-remediation/", "/service-areas/anaheim-ca/storm-damage-restoration/", "/service-areas/chino-ca/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fontana", "url": "/service-areas/fontana-ca/"}, {"name": "Storm Damage Restoration"}]

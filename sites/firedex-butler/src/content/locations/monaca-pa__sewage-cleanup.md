@@ -7,10 +7,10 @@ primary_keyword: "sewage cleanup and sanitization monaca"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "e1ee8b810ba5c0be"
-generated_at: "2026-09-20T14:13:09.808576+00:00"
+plan_hash: "abe3c18962160bf5"
+generated_at: "2026-09-23T14:11:40.921233+00:00"
 manual_override: false
-internal_links: ["/services/sewage-cleanup/", "/service-areas/monaca-pa/", "/service-areas/monaca-pa/fire-damage-restoration/", "/service-areas/monaca-pa/mold-remediation/", "/service-areas/baden-pa/sewage-cleanup/", "/service-areas/beaver-falls-pa/sewage-cleanup/", "/contact/"]
+internal_links: ["/services/sewage-cleanup/", "/service-areas/monaca-pa/", "/service-areas/monaca-pa/fire-damage-restoration/", "/service-areas/monaca-pa/mold-remediation/", "/service-areas/aliquippa-pa/sewage-cleanup/", "/service-areas/allison-park-pa/sewage-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Monaca", "url": "/service-areas/monaca-pa/"}, {"name": "Sewage Cleanup and Sanitization"}]
 faq: []
 area_slug: "monaca-pa"

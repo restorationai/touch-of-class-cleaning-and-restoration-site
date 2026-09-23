@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "1c25ae35ff4d8973"
-generated_at: "2026-09-20T20:42:04.136824+00:00"
+generated_at: "2026-09-23T14:11:56.022263+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/keene-ca/", "/service-areas/keene-ca/fire-damage-restoration/", "/service-areas/keene-ca/home-remodeling/", "/service-areas/arvin-ca/reconstruction/", "/service-areas/bear-valley-springs-ca/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Keene", "url": "/service-areas/keene-ca/"}, {"name": "Reconstruction Services"}]

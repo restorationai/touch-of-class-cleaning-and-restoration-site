@@ -7,10 +7,10 @@ primary_keyword: "mold remediation lakeland north"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "613dd5ab01bb8820"
-generated_at: "2026-09-20T14:13:23.234825+00:00"
+plan_hash: "2742e2abfa8429b4"
+generated_at: "2026-09-23T14:11:54.093895+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/lakeland-north-wa/", "/service-areas/lakeland-north-wa/fire-damage-restoration/", "/service-areas/lakeland-north-wa/water-damage-restoration/", "/service-areas/algona-wa/mold-remediation/", "/service-areas/auburn-wa/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/lakeland-north-wa/", "/service-areas/lakeland-north-wa/fire-damage-restoration/", "/service-areas/lakeland-north-wa/roofing/", "/service-areas/algona-wa/mold-remediation/", "/service-areas/auburn-wa/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lakeland North", "url": "/service-areas/lakeland-north-wa/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "lakeland-north-wa"

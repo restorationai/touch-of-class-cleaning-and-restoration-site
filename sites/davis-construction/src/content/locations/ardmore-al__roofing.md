@@ -7,10 +7,10 @@ primary_keyword: "roofing installation and replacement ardmore"
 secondary_keywords: ["roofing contractor", "roof replacement", "new roof installation", "residential roofing", "roof repair"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "fb9d2205f5c16c7b"
-generated_at: "2026-09-21T14:13:06.307273+00:00"
+plan_hash: "58b84fc0591674a9"
+generated_at: "2026-09-23T14:11:32.862688+00:00"
 manual_override: false
-internal_links: ["/services/roofing/", "/service-areas/ardmore-al/", "/service-areas/ardmore-al/home-remodeling/", "/service-areas/ardmore-al/decks-pergolas-fences/", "/service-areas/athens-al/roofing/", "/service-areas/gurley-al/roofing/", "/contact/"]
+internal_links: ["/services/roofing/", "/service-areas/ardmore-al/", "/service-areas/ardmore-al/home-remodeling/", "/service-areas/ardmore-al/decks-pergolas-fences/", "/service-areas/arab-al/roofing/", "/service-areas/athens-al/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ardmore", "url": "/service-areas/ardmore-al/"}, {"name": "Roofing Installation and Replacement"}]
 faq: []
 area_slug: "ardmore-al"

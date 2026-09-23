@@ -7,10 +7,10 @@ primary_keyword: "crawl space encapsulation lake sherwood"
 secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "6d83f0dbebcc5f11"
-generated_at: "2026-09-20T19:36:47.034562+00:00"
+plan_hash: "d76cb3290ccee065"
+generated_at: "2026-09-23T14:11:28.133105+00:00"
 manual_override: false
-internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/lake-sherwood-ca/", "/service-areas/lake-sherwood-ca/mold-remediation/", "/service-areas/lake-sherwood-ca/water-damage-restoration/", "/service-areas/camarillo-ca/crawl-space-encapsulation/", "/service-areas/fillmore-ca/crawl-space-encapsulation/", "/contact/"]
+internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/lake-sherwood-ca/", "/service-areas/lake-sherwood-ca/mold-remediation/", "/service-areas/lake-sherwood-ca/water-damage-restoration/", "/service-areas/camarillo-ca/crawl-space-encapsulation/", "/service-areas/carpinteria-ca/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Sherwood", "url": "/service-areas/lake-sherwood-ca/"}, {"name": "Crawl Space Encapsulation"}]
 faq: []
 area_slug: "lake-sherwood-ca"

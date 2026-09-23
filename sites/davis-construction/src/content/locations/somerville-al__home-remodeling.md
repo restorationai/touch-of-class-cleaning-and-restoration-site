@@ -7,10 +7,10 @@ primary_keyword: "home remodeling somerville"
 secondary_keywords: ["home renovation", "whole home remodel", "interior remodeling contractor", "house renovation contractor", "remodeling company"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "1126af421dc52a91"
-generated_at: "2026-09-22T02:11:07.731745+00:00"
+plan_hash: "24e2929708c4d479"
+generated_at: "2026-09-23T14:11:32.867920+00:00"
 manual_override: false
-internal_links: ["/services/home-remodeling/", "/service-areas/somerville-al/", "/service-areas/somerville-al/roofing/", "/service-areas/somerville-al/decks-pergolas-fences/", "/service-areas/ardmore-al/home-remodeling/", "/service-areas/athens-al/home-remodeling/", "/contact/"]
+internal_links: ["/services/home-remodeling/", "/service-areas/somerville-al/", "/service-areas/somerville-al/roofing/", "/service-areas/somerville-al/decks-pergolas-fences/", "/service-areas/arab-al/home-remodeling/", "/service-areas/ardmore-al/home-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Somerville", "url": "/service-areas/somerville-al/"}, {"name": "Home Remodeling"}]
 faq: []
 area_slug: "somerville-al"

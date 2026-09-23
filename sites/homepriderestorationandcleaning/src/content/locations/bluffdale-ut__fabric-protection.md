@@ -7,10 +7,10 @@ primary_keyword: "fabric protection bluffdale"
 secondary_keywords: ["carpet protection", "upholstery protection", "stain guard", "scotchgard application", "fabric stain protection"]
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "88cf9f80666dd803"
-generated_at: "2026-09-20T17:29:46.324236+00:00"
+plan_hash: "62d01df5af08960b"
+generated_at: "2026-09-23T14:11:49.775463+00:00"
 manual_override: false
-internal_links: ["/services/fabric-protection/", "/service-areas/bluffdale-ut/", "/service-areas/bluffdale-ut/fire-damage-restoration/", "/service-areas/bluffdale-ut/mold-remediation/", "/service-areas/american-fork-ut/fabric-protection/", "/service-areas/cedar-fort-ut/fabric-protection/", "/contact/"]
+internal_links: ["/services/fabric-protection/", "/service-areas/bluffdale-ut/", "/service-areas/bluffdale-ut/fire-damage-restoration/", "/service-areas/bluffdale-ut/mold-remediation/", "/service-areas/alpine-ut/fabric-protection/", "/service-areas/american-fork-ut/fabric-protection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bluffdale", "url": "/service-areas/bluffdale-ut/"}, {"name": "Fabric Protection"}]
 faq: []
 area_slug: "bluffdale-ut"

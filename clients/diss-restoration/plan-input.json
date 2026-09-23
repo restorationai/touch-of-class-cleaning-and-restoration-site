@@ -34,19 +34,22 @@
     "place_id": "ChIJHWRJjvrBM4gRsKk68P7eLjc"
   },
   "services": [
-    "water-damage-restoration",
-    "fire-damage-restoration",
-    "mold-remediation",
-    "storm-damage-restoration",
-    "general-contracting",
-    "sewage-cleanup",
-    "biohazard-cleanup",
-    "contents-restoration",
-    "asbestos-abatement",
-    "emergency-board-up-tarping",
     "air-duct-cleaning",
+    "asbestos-abatement",
+    "biohazard-cleanup",
     "carpet-cleaning",
-    "post-construction-cleaning"
+    "contents-restoration",
+    "contents-restoration-storage",
+    "emergency-board-up-tarping",
+    "fire-damage-restoration",
+    "general-contracting",
+    "mold-remediation",
+    "odor-removal",
+    "post-construction-cleaning",
+    "sewage-cleanup",
+    "storm-damage-restoration",
+    "water-cleanup",
+    "water-damage-restoration"
   ],
   "service_areas": [
     {

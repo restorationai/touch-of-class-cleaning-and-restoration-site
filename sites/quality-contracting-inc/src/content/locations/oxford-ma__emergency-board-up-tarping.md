@@ -7,10 +7,10 @@ primary_keyword: "emergency board-up and tarping oxford"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
 priority: 4.9
-plan_hash: "c27603450efa8191"
-generated_at: "2026-09-20T14:13:32.569406+00:00"
+plan_hash: "4b27b69408b8dfe2"
+generated_at: "2026-09-23T14:11:58.494809+00:00"
 manual_override: false
-internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/oxford-ma/", "/service-areas/oxford-ma/fire-damage-restoration/", "/service-areas/oxford-ma/mold-remediation/", "/service-areas/east-douglas-ma/emergency-board-up-tarping/", "/service-areas/framingham-ma/emergency-board-up-tarping/", "/contact/"]
+internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/oxford-ma/", "/service-areas/oxford-ma/fire-damage-restoration/", "/service-areas/oxford-ma/mold-remediation/", "/service-areas/bellingham-ma/emergency-board-up-tarping/", "/service-areas/east-douglas-ma/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oxford", "url": "/service-areas/oxford-ma/"}, {"name": "Emergency Board-Up and Tarping"}]
 faq: []
 area_slug: "oxford-ma"

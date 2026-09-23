@@ -7,10 +7,10 @@ primary_keyword: "biohazard cleanup blue diamond"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
 priority: 5.6
-plan_hash: "823054f0da47ea6c"
-generated_at: "2026-09-20T14:13:21.542337+00:00"
+plan_hash: "af093ff23c2acdb6"
+generated_at: "2026-09-23T14:11:52.250257+00:00"
 manual_override: false
-internal_links: ["/services/biohazard-cleanup/", "/service-areas/blue-diamond-nv/", "/service-areas/blue-diamond-nv/fire-damage-restoration/", "/service-areas/blue-diamond-nv/mold-remediation/", "/service-areas/boulder-city-nv/biohazard-cleanup/", "/service-areas/enterprise-nv/biohazard-cleanup/", "/contact/"]
+internal_links: ["/services/biohazard-cleanup/", "/service-areas/blue-diamond-nv/", "/service-areas/blue-diamond-nv/fire-damage-restoration/", "/service-areas/blue-diamond-nv/mold-remediation/", "/service-areas/boulder-city-nv/biohazard-cleanup/", "/service-areas/cal-nev-ari-nv/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Blue Diamond", "url": "/service-areas/blue-diamond-nv/"}, {"name": "Biohazard Cleanup"}]
 faq: []
 area_slug: "blue-diamond-nv"

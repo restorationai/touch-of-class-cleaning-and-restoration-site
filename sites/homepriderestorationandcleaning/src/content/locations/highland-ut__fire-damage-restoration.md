@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration highland"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "e1adec3c5435ef10"
-generated_at: "2026-09-20T14:13:18.724170+00:00"
+plan_hash: "abf01232ae1c2c52"
+generated_at: "2026-09-23T14:11:49.738378+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/highland-ut/", "/service-areas/highland-ut/mold-remediation/", "/service-areas/highland-ut/water-damage-restoration/", "/service-areas/american-fork-ut/fire-damage-restoration/", "/service-areas/cedar-fort-ut/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/highland-ut/", "/service-areas/highland-ut/mold-remediation/", "/service-areas/highland-ut/water-damage-restoration/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/american-fork-ut/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Highland", "url": "/service-areas/highland-ut/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "highland-ut"

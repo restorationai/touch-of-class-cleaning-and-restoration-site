@@ -8,7 +8,7 @@ secondary_keywords: ["water removal", "water extraction", "water cleanup", "stru
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "8e2c4f5efb2060f8"
-generated_at: "2026-09-21T19:19:21.957738+00:00"
+generated_at: "2026-09-23T14:12:04.494880+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/murphy-tx/", "/service-areas/murphy-tx/fire-damage-restoration/", "/service-areas/murphy-tx/mold-remediation/", "/service-areas/allen-tx/water-damage-restoration/", "/service-areas/caddo-mills-tx/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Murphy", "url": "/service-areas/murphy-tx/"}, {"name": "Water Damage Restoration"}]

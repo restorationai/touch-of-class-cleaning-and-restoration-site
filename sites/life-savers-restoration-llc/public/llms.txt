@@ -6,33 +6,49 @@ Life Savers Restoration LLC (Life Savers Restoration LLC) is a professional rest
 
 ## Site index
 
-This file is intended for AI assistants and language models to efficiently ingest the structure and content of this website. The full list of pages is in the sitemap at https://lifesaversrestoration.com/sitemap-index.xml.
+This file is intended for AI assistants and language models to efficiently ingest the structure and content of this website. The full list of pages is in the sitemap at https://lifesaversrestorationvegas.com/sitemap-index.xml.
 
 ### Core service pages
-- [Water Damage Restoration](https://lifesaversrestoration.com/services/water-damage-restoration/)
-- [Mold Remediation](https://lifesaversrestoration.com/services/mold-remediation/)
-- [Fire Damage Restoration](https://lifesaversrestoration.com/services/fire-damage-restoration/)
-- [Storm Damage Restoration](https://lifesaversrestoration.com/services/storm-damage-restoration/)
-- [Sewage Cleanup and Sanitization](https://lifesaversrestoration.com/services/sewage-cleanup/)
-- [Biohazard Cleanup](https://lifesaversrestoration.com/services/biohazard-cleanup/)
-- [Contents Restoration and Storage](https://lifesaversrestoration.com/services/contents-restoration/)
+- [Biohazard Cleanup](https://lifesaversrestorationvegas.com/services/biohazard-cleanup/)
+- [Contents Restoration and Storage](https://lifesaversrestorationvegas.com/services/contents-restoration/)
+- [Contents Restoration & Storage](https://lifesaversrestorationvegas.com/services/contents-restoration-storage/)
+- [Fire Damage Restoration](https://lifesaversrestorationvegas.com/services/fire-damage-restoration/)
+- [Mold Remediation](https://lifesaversrestorationvegas.com/services/mold-remediation/)
+- [Odor Removal and Deodorization](https://lifesaversrestorationvegas.com/services/odor-removal/)
+- [Sewage Cleanup and Sanitization](https://lifesaversrestorationvegas.com/services/sewage-cleanup/)
+- [Storm Damage Restoration](https://lifesaversrestorationvegas.com/services/storm-damage-restoration/)
+- [Water Damage Restoration](https://lifesaversrestorationvegas.com/services/water-damage-restoration/)
 
 ### Service area pages
-- [Henderson, NV](https://lifesaversrestoration.com/service-areas/henderson-nv/)
-- [Las Vegas, NV](https://lifesaversrestoration.com/service-areas/las-vegas-nv/)
-- [North Las Vegas, NV](https://lifesaversrestoration.com/service-areas/north-las-vegas-nv/)
-- [Paradise, NV](https://lifesaversrestoration.com/service-areas/paradise-nv/)
-- [Spring Valley, NV](https://lifesaversrestoration.com/service-areas/spring-valley-nv/)
-- [Enterprise, NV](https://lifesaversrestoration.com/service-areas/enterprise-nv/)
-- [Sunrise Manor, NV](https://lifesaversrestoration.com/service-areas/sunrise-manor-nv/)
-- [Boulder City, NV](https://lifesaversrestoration.com/service-areas/boulder-city-nv/)
-- [Whitney, NV](https://lifesaversrestoration.com/service-areas/whitney-nv/)
+- [Henderson, NV](https://lifesaversrestorationvegas.com/service-areas/henderson-nv/)
+- [Las Vegas, NV](https://lifesaversrestorationvegas.com/service-areas/las-vegas-nv/)
+- [North Las Vegas, NV](https://lifesaversrestorationvegas.com/service-areas/north-las-vegas-nv/)
+- [Paradise, NV](https://lifesaversrestorationvegas.com/service-areas/paradise-nv/)
+- [Spring Valley, NV](https://lifesaversrestorationvegas.com/service-areas/spring-valley-nv/)
+- [Enterprise, NV](https://lifesaversrestorationvegas.com/service-areas/enterprise-nv/)
+- [Sunrise Manor, NV](https://lifesaversrestorationvegas.com/service-areas/sunrise-manor-nv/)
+- [Boulder City, NV](https://lifesaversrestorationvegas.com/service-areas/boulder-city-nv/)
+- [Whitney, NV](https://lifesaversrestorationvegas.com/service-areas/whitney-nv/)
+- [Winchester, NV](https://lifesaversrestorationvegas.com/service-areas/winchester-nv/)
+- [Nellis AFB, NV](https://lifesaversrestorationvegas.com/service-areas/nellis-afb-nv/)
+- [Summerlin South, NV](https://lifesaversrestorationvegas.com/service-areas/summerlin-south-nv/)
+- [Blue Diamond, NV](https://lifesaversrestorationvegas.com/service-areas/blue-diamond-nv/)
+- [Nelson, NV](https://lifesaversrestorationvegas.com/service-areas/nelson-nv/)
+- [Goodsprings, NV](https://lifesaversrestorationvegas.com/service-areas/goodsprings-nv/)
+- [Sandy Valley, NV](https://lifesaversrestorationvegas.com/service-areas/sandy-valley-nv/)
+- [Searchlight, NV](https://lifesaversrestorationvegas.com/service-areas/searchlight-nv/)
+- [Cal-Nev-Ari, NV](https://lifesaversrestorationvegas.com/service-areas/cal-nev-ari-nv/)
+- [Indian Springs, NV](https://lifesaversrestorationvegas.com/service-areas/indian-springs-nv/)
+- [Laughlin, NV](https://lifesaversrestorationvegas.com/service-areas/laughlin-nv/)
 
 ### Resources
-- [Blog](https://lifesaversrestoration.com/blog/): Restoration guides and local resources
-- [About](https://lifesaversrestoration.com/about/): Company background and credentials
-- [Contact](https://lifesaversrestoration.com/contact/): Phone, email, and service request form
-- [Emergency](https://lifesaversrestoration.com/emergency/): 24/7 emergency water damage response
+- [Blog](https://lifesaversrestorationvegas.com/blog/): Restoration guides and local resources
+- [About](https://lifesaversrestorationvegas.com/about/): Company background and credentials
+- [Contact](https://lifesaversrestorationvegas.com/contact/): Phone, email, and service request form
+
+### Official profiles
+(profiles listed in page schema)
+- [Emergency](https://lifesaversrestorationvegas.com/emergency/): 24/7 emergency water damage response
 
 ## Key facts
 

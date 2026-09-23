@@ -2,9 +2,9 @@
 // CtaBanner — standardized compact CTA bar (narestco reference design).
 //
 // Deliberately renders NO decorative background image: the previous full-bleed
-// <img> here pointed at brand/hero.webp, which 404'd on R2 and rendered its
-// alt text as a visible artifact on the homepage. Never add a decorative
-// <img> here without a build-verified src.
+// <img> variant showed its alt text whenever the R2 asset 404'd (homepride
+// incident, brand/hero.webp missing). Never add a decorative <img> here
+// without a build-verified src.
 import { brand } from "~/lib/brand";
 
 type Props = {
@@ -35,7 +35,7 @@ const {
     <div class="flex flex-col sm:flex-row gap-4 shrink-0">
       <a
         href={`tel:${brand.phoneRaw}`}
-        class={`inline-flex items-center justify-center font-bold px-8 py-3 rounded-md transition-all text-lg shadow-lg ${isSensitive ? 'bg-dark text-white hover:bg-dark-800' : 'bg-primary-600 text-white hover:bg-primary-700'}`}
+        class={`inline-flex items-center justify-center font-bold px-8 py-3 rounded-md transition-all text-lg shadow-lg ${isSensitive ? 'bg-dark text-white hover:bg-dark-800' : 'bg-cta text-cta-fg hover:bg-cta-hover'}`}
       >
         Call {brand.phone}
       </a>

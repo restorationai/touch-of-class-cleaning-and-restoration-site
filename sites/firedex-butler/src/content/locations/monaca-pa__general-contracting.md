@@ -7,10 +7,10 @@ primary_keyword: "renovations, remodels and general contracting monaca"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "03a03859b8d08baa"
-generated_at: "2026-09-20T14:13:09.810764+00:00"
+plan_hash: "402640e5c9c8fb2a"
+generated_at: "2026-09-23T14:11:40.919598+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/monaca-pa/", "/service-areas/monaca-pa/fire-damage-restoration/", "/service-areas/monaca-pa/mold-remediation/", "/service-areas/baden-pa/general-contracting/", "/service-areas/beaver-falls-pa/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/monaca-pa/", "/service-areas/monaca-pa/fire-damage-restoration/", "/service-areas/monaca-pa/mold-remediation/", "/service-areas/aliquippa-pa/general-contracting/", "/service-areas/allison-park-pa/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Monaca", "url": "/service-areas/monaca-pa/"}, {"name": "Renovations, Remodels and General Contracting"}]
 faq: []
 area_slug: "monaca-pa"

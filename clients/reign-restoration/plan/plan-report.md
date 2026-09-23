@@ -1,22 +1,22 @@
 # Site Plan Report — Reign Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-21T19:19:21.836324+00:00
+- Generated: 2026-09-23T14:12:02.538915+00:00
 - Domain: `reign-restoration.com`
-- Services selected: 7 of 65 catalog entries
+- Services selected: 10 of 65 catalog entries
 - Service areas: 29
 - Cross-product enabled: True
-- Total URLs: **248**
-- Total internal links: 1947 (avg 7.9 per page)
+- Total URLs: **335**
+- Total internal links: 2667 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 196 |
+| `service-area-service` | 280 |
 | `service-area` | 28 |
+| `service-landing` | 10 |
 | `blog-post` | 8 |
-| `service-landing` | 7 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -27,12 +27,15 @@
 
 ## Selected services
 
-- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
-- `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
-- `mold-remediation` — Mold Remediation (core, priority 10)
-- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
-- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
 - `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
+- `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
+- `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
+- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
+- `mold-remediation` — Mold Remediation (core, priority 10)
+- `odor-removal` — Odor Removal and Deodorization (specialty, priority 7)
+- `roofing` — Roofing Installation and Replacement (construction, priority 10)
+- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
+- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 
 ## Service areas
@@ -73,14 +76,14 @@
 | --- | --- | --- | --- |
 | `/services/fire-damage-restoration/` | `service-landing` | 9.0 | fire damage restoration royse city |
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation royse city |
+| `/services/roofing/` | `service-landing` | 9.0 | roofing installation and replacement royse city |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration royse city |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration royse city |
 | `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup royse city |
 | `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting royse city |
 | `/service-areas/allen-tx/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration allen |
 | `/service-areas/allen-tx/mold-remediation/` | `service-area-service` | 7.0 | mold remediation allen |
-| `/service-areas/allen-tx/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration allen |
-| `/service-areas/caddo-mills-tx/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration caddo mills |
+| `/service-areas/allen-tx/roofing/` | `service-area-service` | 7.0 | roofing installation and replacement allen |
 
 ## Validation
 

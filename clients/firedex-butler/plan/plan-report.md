@@ -1,21 +1,21 @@
 # Site Plan Report — FireDEX Butler
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-22T14:27:31.799334+00:00
+- Generated: 2026-09-23T14:11:38.515623+00:00
 - Domain: `firedex.net`
-- Services selected: 18 of 65 catalog entries
+- Services selected: 20 of 65 catalog entries
 - Service areas: 23
 - Cross-product enabled: True
-- Total URLs: **457**
-- Total internal links: 3711 (avg 8.1 per page)
+- Total URLs: **503**
+- Total internal links: 4095 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 396 |
+| `service-area-service` | 440 |
 | `service-area` | 22 |
-| `service-landing` | 18 |
+| `service-landing` | 20 |
 | `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -27,23 +27,25 @@
 
 ## Selected services
 
-- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
-- `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
 - `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
-- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
+- `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
 - `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
-- `frozen-pipe-restoration` — Frozen Pipe Restoration (specialty, priority 7)
-- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
+- `commercial-restoration` — Commercial Restoration (core, priority 9)
+- `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
+- `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
+- `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
+- `frozen-pipe-restoration` — Frozen Pipe Restoration (specialty, priority 7)
+- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
+- `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
+- `mold-remediation` — Mold Remediation (core, priority 10)
+- `odor-removal` — Odor Removal and Deodorization (specialty, priority 7)
+- `reconstruction` — Reconstruction Services (core, priority 9)
+- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
 - `soot-removal` — Soot Removal (specialty, priority 7)
-- `odor-removal` — Odor Removal and Deodorization (specialty, priority 7)
-- `mold-remediation` — Mold Remediation (core, priority 10)
-- `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
-- `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
-- `commercial-restoration` — Commercial Restoration (core, priority 9)
-- `reconstruction` — Reconstruction Services (core, priority 9)
-- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
+- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
+- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 
 ## Service areas

@@ -7,10 +7,10 @@ primary_keyword: "mold remediation new market"
 secondary_keywords: ["mold removal", "mold remediation contractor", "mold repair and rebuild", "mold-safe renovation", "post-remediation reconstruction"]
 search_intent: "local_health"
 priority: 4.9
-plan_hash: "4db9e8a4f958208c"
-generated_at: "2026-09-20T14:13:03.674168+00:00"
+plan_hash: "943c8500c3e93df6"
+generated_at: "2026-09-23T14:11:32.840888+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/new-market-al/", "/service-areas/new-market-al/home-remodeling/", "/service-areas/new-market-al/roofing/", "/service-areas/athens-al/mold-remediation/", "/service-areas/harvest-al/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/new-market-al/", "/service-areas/new-market-al/home-remodeling/", "/service-areas/new-market-al/roofing/", "/service-areas/arab-al/mold-remediation/", "/service-areas/ardmore-al/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "New Market", "url": "/service-areas/new-market-al/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "new-market-al"

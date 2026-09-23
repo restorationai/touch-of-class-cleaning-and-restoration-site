@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration whitney"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "f6c511e882234f94"
-generated_at: "2026-09-20T17:29:59.750331+00:00"
+plan_hash: "26379924f0714f2a"
+generated_at: "2026-09-23T14:12:02.372851+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/whitney-nv/", "/service-areas/whitney-nv/fire-damage-restoration/", "/service-areas/whitney-nv/mold-remediation/", "/service-areas/boulder-city-nv/water-damage-restoration/", "/service-areas/enterprise-nv/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/whitney-nv/", "/service-areas/whitney-nv/fire-damage-restoration/", "/service-areas/whitney-nv/mold-remediation/", "/service-areas/blue-diamond-nv/water-damage-restoration/", "/service-areas/boulder-city-nv/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Whitney", "url": "/service-areas/whitney-nv/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "whitney-nv"

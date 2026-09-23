@@ -7,10 +7,10 @@ primary_keyword: "flood damage restoration east niles"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "7da26b2a80d439ac"
-generated_at: "2026-09-20T14:13:26.537067+00:00"
+plan_hash: "4861d3d6f9a6e528"
+generated_at: "2026-09-23T14:11:55.952601+00:00"
 manual_override: false
-internal_links: ["/services/flood-damage-restoration/", "/service-areas/east-niles-ca/", "/service-areas/east-niles-ca/fire-damage-restoration/", "/service-areas/east-niles-ca/home-remodeling/", "/service-areas/arvin-ca/flood-damage-restoration/", "/service-areas/buttonwillow-ca/flood-damage-restoration/", "/contact/"]
+internal_links: ["/services/flood-damage-restoration/", "/service-areas/east-niles-ca/", "/service-areas/east-niles-ca/fire-damage-restoration/", "/service-areas/east-niles-ca/home-remodeling/", "/service-areas/arvin-ca/flood-damage-restoration/", "/service-areas/bear-valley-springs-ca/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "East Niles", "url": "/service-areas/east-niles-ca/"}, {"name": "Flood Damage Restoration"}]
 faq: []
 area_slug: "east-niles-ca"

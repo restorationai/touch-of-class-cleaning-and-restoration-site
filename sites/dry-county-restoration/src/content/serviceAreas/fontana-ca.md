@@ -7,10 +7,10 @@ primary_keyword: "restoration services fontana"
 secondary_keywords: ["fontana restoration company", "damage restoration fontana", "fontana disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "916269b3cdbf89c1"
-generated_at: "2026-09-21T19:18:36.598877+00:00"
+plan_hash: "3b1c81603572d7ed"
+generated_at: "2026-09-23T14:11:36.160946+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/fontana-ca/fire-damage-restoration/", "/service-areas/fontana-ca/mold-remediation/", "/service-areas/fontana-ca/water-damage-restoration/", "/service-areas/fontana-ca/sewage-cleanup/", "/service-areas/fontana-ca/storm-damage-restoration/", "/service-areas/fontana-ca/water-cleanup/", "/service-areas/fontana-ca/general-contracting/", "/service-areas/fontana-ca/emergency-board-up-tarping/", "/service-areas/fontana-ca/air-duct-cleaning/", "/service-areas/fontana-ca/contents-restoration/", "/service-areas/fontana-ca/carpet-cleaning/", "/service-areas/fontana-ca/post-construction-cleaning/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/fontana-ca/fire-damage-restoration/", "/service-areas/fontana-ca/mold-remediation/", "/service-areas/fontana-ca/roofing/", "/service-areas/fontana-ca/water-damage-restoration/", "/service-areas/fontana-ca/emergency-plumbing/", "/service-areas/fontana-ca/sewage-cleanup/", "/service-areas/fontana-ca/storm-damage-restoration/", "/service-areas/fontana-ca/water-cleanup/", "/service-areas/fontana-ca/general-contracting/", "/service-areas/fontana-ca/emergency-board-up-tarping/", "/service-areas/fontana-ca/odor-removal/", "/service-areas/fontana-ca/water-leak-detection/", "/service-areas/fontana-ca/air-duct-cleaning/", "/service-areas/fontana-ca/contents-restoration-storage/", "/service-areas/fontana-ca/contents-restoration/", "/service-areas/fontana-ca/carpet-cleaning/", "/service-areas/fontana-ca/post-construction-cleaning/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fontana"}]
 faq: []
 area_slug: "fontana-ca"

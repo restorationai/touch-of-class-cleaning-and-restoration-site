@@ -7,10 +7,10 @@ primary_keyword: "storm damage restoration lake sherwood"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "6146f6e537c02932"
-generated_at: "2026-09-20T19:36:47.034327+00:00"
+plan_hash: "df0ad87de31bb787"
+generated_at: "2026-09-23T14:11:28.133937+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/lake-sherwood-ca/", "/service-areas/lake-sherwood-ca/mold-remediation/", "/service-areas/lake-sherwood-ca/water-damage-restoration/", "/service-areas/camarillo-ca/storm-damage-restoration/", "/service-areas/fillmore-ca/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/lake-sherwood-ca/", "/service-areas/lake-sherwood-ca/mold-remediation/", "/service-areas/lake-sherwood-ca/water-damage-restoration/", "/service-areas/camarillo-ca/storm-damage-restoration/", "/service-areas/carpinteria-ca/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Sherwood", "url": "/service-areas/lake-sherwood-ca/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "lake-sherwood-ca"

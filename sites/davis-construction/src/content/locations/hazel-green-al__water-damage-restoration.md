@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration hazel green"
 secondary_keywords: ["water damage repair", "water damage rebuild", "drywall water damage repair", "ceiling water damage repair", "post-leak renovation"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "d6f7783d1bdbbede"
-generated_at: "2026-09-20T14:13:03.672321+00:00"
+plan_hash: "306e5aeac9d9d5d1"
+generated_at: "2026-09-23T14:11:32.839527+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/hazel-green-al/", "/service-areas/hazel-green-al/home-remodeling/", "/service-areas/hazel-green-al/roofing/", "/service-areas/athens-al/water-damage-restoration/", "/service-areas/harvest-al/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/hazel-green-al/", "/service-areas/hazel-green-al/home-remodeling/", "/service-areas/hazel-green-al/roofing/", "/service-areas/arab-al/water-damage-restoration/", "/service-areas/ardmore-al/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hazel Green", "url": "/service-areas/hazel-green-al/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "hazel-green-al"

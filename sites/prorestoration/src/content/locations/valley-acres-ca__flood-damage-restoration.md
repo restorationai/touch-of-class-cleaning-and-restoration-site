@@ -7,10 +7,10 @@ primary_keyword: "flood damage restoration valley acres"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "92da9441f28ca33b"
-generated_at: "2026-09-20T17:29:54.889376+00:00"
+plan_hash: "d4afa790b84929af"
+generated_at: "2026-09-23T14:11:55.998219+00:00"
 manual_override: false
-internal_links: ["/services/flood-damage-restoration/", "/service-areas/valley-acres-ca/", "/service-areas/valley-acres-ca/fire-damage-restoration/", "/service-areas/valley-acres-ca/home-remodeling/", "/service-areas/arvin-ca/flood-damage-restoration/", "/service-areas/buttonwillow-ca/flood-damage-restoration/", "/contact/"]
+internal_links: ["/services/flood-damage-restoration/", "/service-areas/valley-acres-ca/", "/service-areas/valley-acres-ca/fire-damage-restoration/", "/service-areas/valley-acres-ca/home-remodeling/", "/service-areas/arvin-ca/flood-damage-restoration/", "/service-areas/bear-valley-springs-ca/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Valley Acres", "url": "/service-areas/valley-acres-ca/"}, {"name": "Flood Damage Restoration"}]
 faq: []
 area_slug: "valley-acres-ca"

@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "b9171bf29e25d4be"
-generated_at: "2026-09-20T20:41:46.461725+00:00"
+generated_at: "2026-09-23T14:11:40.949182+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/prospect-pa/", "/service-areas/prospect-pa/fire-damage-restoration/", "/service-areas/prospect-pa/mold-remediation/", "/service-areas/aliquippa-pa/commercial-restoration/", "/service-areas/allison-park-pa/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Prospect", "url": "/service-areas/prospect-pa/"}, {"name": "Commercial Restoration"}]

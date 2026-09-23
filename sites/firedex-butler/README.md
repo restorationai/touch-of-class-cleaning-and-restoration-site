@@ -36,7 +36,7 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `1981` | brand.founded_year | `2004` |
 | `Cranberry Township` / `PA` | derived from primary area | `Federal Way` / `WA` |
 | `9133 Marshall Rd` / `16066` | brand.street_address / brand.postal_code | |
-| `` / `` | brand.lat / brand.lng | from GBP |
+| `40.7099` / `-80.1061` | brand.lat / brand.lng | from GBP |
 | `ChIJ4zqdqGF9NIgR0zyEf6VVd80` / `14805396469301132499` | brand.place_id / brand.google_cid | from GBP |
 | `["PA001913"]` | brand.license_numbers (JSON-encoded array) | `["NATIORC792M6"]` |
 | `Pennsylvania Attorney General — Home Improvement Contractor Registration` / `` | brand.license_authority / brand.license_type | |
@@ -48,23 +48,25 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `Inter` / `Inter` | brand.fonts | `Inter` / `Inter` |
 | `` / `FB` | derived; logo lives on the per-client R2 bucket | |
 | `https://images.firedex.net` | `https://images.{domain}` | |
-| `- [Water Damage Restoration](https://firedex.net/services/water-damage-restoration/)
-- [Flood Damage Restoration](https://firedex.net/services/flood-damage-restoration/)
-- [Basement Flooding Cleanup](https://firedex.net/services/basement-flooding-cleanup/)
-- [Sewage Cleanup and Sanitization](https://firedex.net/services/sewage-cleanup/)
+| `- [Basement Flooding Cleanup](https://firedex.net/services/basement-flooding-cleanup/)
+- [Biohazard Cleanup](https://firedex.net/services/biohazard-cleanup/)
 - [Burst Pipe Cleanup and Repair](https://firedex.net/services/burst-pipe-repair/)
-- [Frozen Pipe Restoration](https://firedex.net/services/frozen-pipe-restoration/)
-- [Storm Damage Restoration](https://firedex.net/services/storm-damage-restoration/)
+- [Commercial Restoration](https://firedex.net/services/commercial-restoration/)
+- [Contents Restoration & Storage](https://firedex.net/services/contents-restoration-storage/)
+- [Emergency Board-Up and Tarping](https://firedex.net/services/emergency-board-up-tarping/)
 - [Fire Damage Restoration](https://firedex.net/services/fire-damage-restoration/)
+- [Flood Damage Restoration](https://firedex.net/services/flood-damage-restoration/)
+- [Frozen Pipe Restoration](https://firedex.net/services/frozen-pipe-restoration/)
+- [Renovations, Remodels and General Contracting](https://firedex.net/services/general-contracting/)
+- [Mold Inspection and Testing](https://firedex.net/services/mold-inspection-testing/)
+- [Mold Remediation](https://firedex.net/services/mold-remediation/)
+- [Odor Removal and Deodorization](https://firedex.net/services/odor-removal/)
+- [Reconstruction Services](https://firedex.net/services/reconstruction/)
+- [Sewage Cleanup and Sanitization](https://firedex.net/services/sewage-cleanup/)
 - [Smoke Damage Restoration](https://firedex.net/services/smoke-damage-restoration/)
 - [Soot Removal](https://firedex.net/services/soot-removal/)
-- [Odor Removal and Deodorization](https://firedex.net/services/odor-removal/)
-- [Mold Remediation](https://firedex.net/services/mold-remediation/)
-- [Mold Inspection and Testing](https://firedex.net/services/mold-inspection-testing/)
-- [Biohazard and Trauma Cleanup](https://firedex.net/services/biohazard-cleanup/)
-- [Commercial Restoration](https://firedex.net/services/commercial-restoration/)
-- [Reconstruction Services](https://firedex.net/services/reconstruction/)
-- [Renovations, Remodels and General Contracting](https://firedex.net/services/general-contracting/)` / `- [Cranberry Township, PA](https://firedex.net/service-areas/cranberry-township-pa/)
+- [Storm Damage Restoration](https://firedex.net/services/storm-damage-restoration/)
+- [Water Damage Restoration](https://firedex.net/services/water-damage-restoration/)` / `- [Cranberry Township, PA](https://firedex.net/service-areas/cranberry-township-pa/)
 - [Wexford, PA](https://firedex.net/service-areas/wexford-pa/)
 - [Mars, PA](https://firedex.net/service-areas/mars-pa/)
 - [Zelienople, PA](https://firedex.net/service-areas/zelienople-pa/)
@@ -72,7 +74,21 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 - [Seven Fields, PA](https://firedex.net/service-areas/seven-fields-pa/)
 - [Butler, PA](https://firedex.net/service-areas/butler-pa/)
 - [Gibsonia, PA](https://firedex.net/service-areas/gibsonia-pa/)
-- [Beaver Falls, PA](https://firedex.net/service-areas/beaver-falls-pa/)` / `Available on request` / `Greater Cranberry Township region` | computed at scaffold from plan + brand | |
+- [Beaver Falls, PA](https://firedex.net/service-areas/beaver-falls-pa/)
+- [Economy, PA](https://firedex.net/service-areas/economy-pa/)
+- [Franklin Park, PA](https://firedex.net/service-areas/franklin-park-pa/)
+- [Baden, PA](https://firedex.net/service-areas/baden-pa/)
+- [Bell Acres, PA](https://firedex.net/service-areas/bell-acres-pa/)
+- [Monaca, PA](https://firedex.net/service-areas/monaca-pa/)
+- [Sewickley Heights, PA](https://firedex.net/service-areas/sewickley-heights-pa/)
+- [Aliquippa, PA](https://firedex.net/service-areas/aliquippa-pa/)
+- [Sewickley Hills, PA](https://firedex.net/service-areas/sewickley-hills-pa/)
+- [Allison Park, PA](https://firedex.net/service-areas/allison-park-pa/)
+- [Prospect, PA](https://firedex.net/service-areas/prospect-pa/)
+- [Oak Hills, PA](https://firedex.net/service-areas/oak-hills-pa/)
+- [Glenshaw, PA](https://firedex.net/service-areas/glenshaw-pa/)
+- [Ellwood City, PA](https://firedex.net/service-areas/ellwood-city-pa/)
+- [Big Beaver, PA](https://firedex.net/service-areas/big-beaver-pa/)` / `Available on request` / `Greater Cranberry Township region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

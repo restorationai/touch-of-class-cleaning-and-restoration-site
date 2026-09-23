@@ -7,10 +7,10 @@ primary_keyword: "mold remediation montclair"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "5187b102bf7a879a"
-generated_at: "2026-09-20T20:41:43.449648+00:00"
+plan_hash: "86e7b6f53d8b5b61"
+generated_at: "2026-09-23T14:11:36.224601+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/montclair-ca/", "/service-areas/montclair-ca/fire-damage-restoration/", "/service-areas/montclair-ca/water-damage-restoration/", "/service-areas/anaheim-ca/mold-remediation/", "/service-areas/chino-ca/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/montclair-ca/", "/service-areas/montclair-ca/fire-damage-restoration/", "/service-areas/montclair-ca/roofing/", "/service-areas/anaheim-ca/mold-remediation/", "/service-areas/chino-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Montclair", "url": "/service-areas/montclair-ca/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "montclair-ca"

@@ -7,10 +7,10 @@ primary_keyword: "odor removal and deodorization monaca"
 secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
 search_intent: "local_specialty"
 priority: 4.9
-plan_hash: "893a18e6d6858910"
-generated_at: "2026-09-20T14:13:09.809773+00:00"
+plan_hash: "c4aeb3c1f6e837a5"
+generated_at: "2026-09-23T14:11:40.920580+00:00"
 manual_override: false
-internal_links: ["/services/odor-removal/", "/service-areas/monaca-pa/", "/service-areas/monaca-pa/fire-damage-restoration/", "/service-areas/monaca-pa/mold-remediation/", "/service-areas/baden-pa/odor-removal/", "/service-areas/beaver-falls-pa/odor-removal/", "/contact/"]
+internal_links: ["/services/odor-removal/", "/service-areas/monaca-pa/", "/service-areas/monaca-pa/fire-damage-restoration/", "/service-areas/monaca-pa/mold-remediation/", "/service-areas/aliquippa-pa/odor-removal/", "/service-areas/allison-park-pa/odor-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Monaca", "url": "/service-areas/monaca-pa/"}, {"name": "Odor Removal and Deodorization"}]
 faq: []
 area_slug: "monaca-pa"

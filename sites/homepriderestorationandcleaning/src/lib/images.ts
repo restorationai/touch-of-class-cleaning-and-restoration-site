@@ -19,17 +19,6 @@ export interface ResponsiveImgAttrs {
  * renders exactly as it did before this pass — we never emit a srcset for an
  * unverified variant.
  */
-/**
- * Per-service image: returns /images/services/{service-slug}.webp when that
- * asset exists in the generated manifest, otherwise the provided fallback
- * (the shared brand hero). Keyed by service slug so service cards, service
- * heroes and area×service heroes stay consistent.
- */
-export function serviceImage(serviceSlug: string, fallback: string): string {
-  const src = `/images/services/${serviceSlug}.webp`;
-  return src in meta ? src : fallback;
-}
-
 export function srcsetFor(src: string): ResponsiveImgAttrs {
   const m = meta[src];
   if (!m) return {};
@@ -43,4 +32,17 @@ export function srcsetFor(src: string): ResponsiveImgAttrs {
   if (/\.webp$/i.test(src)) parts.push(`${src} ${m.width}w`);
   attrs.srcset = parts.join(", ");
   return attrs;
+}
+
+/**
+ * Per-service imagery — resolve /images/services/{service_slug}.webp when the
+ * responsive-images pass (scripts/resize_images.py) has verified it exists
+ * (i.e. it appears in image-meta.json). Otherwise return the caller's
+ * fallback (shared services.webp card image or the brand hero), so pages
+ * render exactly as before for services without a dedicated image.
+ */
+export function serviceImage(serviceSlug: string | undefined, fallback: string): string {
+  if (!serviceSlug) return fallback;
+  const local = `/images/services/${serviceSlug}.webp`;
+  return meta[local] ? local : fallback;
 }

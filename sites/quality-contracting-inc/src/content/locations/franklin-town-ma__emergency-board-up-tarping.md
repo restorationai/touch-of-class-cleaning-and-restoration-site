@@ -8,7 +8,7 @@ secondary_keywords: ["roof tarping", "fire damage board up", "broken window boar
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "f60fb453978c39ef"
-generated_at: "2026-09-22T14:28:31.548245+00:00"
+generated_at: "2026-09-23T14:11:58.563249+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/franklin-town-ma/", "/service-areas/franklin-town-ma/fire-damage-restoration/", "/service-areas/franklin-town-ma/mold-remediation/", "/service-areas/bellingham-ma/emergency-board-up-tarping/", "/service-areas/east-douglas-ma/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Franklin Town", "url": "/service-areas/franklin-town-ma/"}, {"name": "Emergency Board-Up and Tarping"}]

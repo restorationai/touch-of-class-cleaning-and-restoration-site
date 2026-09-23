@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration sewickley heights"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "d984f03dfbb6662d"
-generated_at: "2026-09-20T14:13:09.811088+00:00"
+plan_hash: "90a82b108c05f4da"
+generated_at: "2026-09-23T14:11:40.928807+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/sewickley-heights-pa/", "/service-areas/sewickley-heights-pa/fire-damage-restoration/", "/service-areas/sewickley-heights-pa/mold-remediation/", "/service-areas/baden-pa/water-damage-restoration/", "/service-areas/beaver-falls-pa/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/sewickley-heights-pa/", "/service-areas/sewickley-heights-pa/fire-damage-restoration/", "/service-areas/sewickley-heights-pa/mold-remediation/", "/service-areas/aliquippa-pa/water-damage-restoration/", "/service-areas/allison-park-pa/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sewickley Heights", "url": "/service-areas/sewickley-heights-pa/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "sewickley-heights-pa"

@@ -7,10 +7,10 @@ primary_keyword: "mold remediation yorba linda"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "30f2b9e15fccb5d4"
-generated_at: "2026-09-20T14:13:06.385424+00:00"
+plan_hash: "2471f55ec8e2381b"
+generated_at: "2026-09-23T14:11:36.199748+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/yorba-linda-ca/", "/service-areas/yorba-linda-ca/fire-damage-restoration/", "/service-areas/yorba-linda-ca/water-damage-restoration/", "/service-areas/anaheim-ca/mold-remediation/", "/service-areas/chino-ca/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/yorba-linda-ca/", "/service-areas/yorba-linda-ca/fire-damage-restoration/", "/service-areas/yorba-linda-ca/roofing/", "/service-areas/anaheim-ca/mold-remediation/", "/service-areas/chino-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Yorba Linda", "url": "/service-areas/yorba-linda-ca/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "yorba-linda-ca"

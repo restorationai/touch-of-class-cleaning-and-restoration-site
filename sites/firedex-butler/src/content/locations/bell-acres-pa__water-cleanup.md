@@ -7,10 +7,10 @@ primary_keyword: "emergency water cleanup bell acres"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "95065809046c909f"
-generated_at: "2026-09-20T14:13:09.807927+00:00"
+plan_hash: "40d0fd27d7aba2cf"
+generated_at: "2026-09-23T14:11:40.916686+00:00"
 manual_override: false
-internal_links: ["/services/water-cleanup/", "/service-areas/bell-acres-pa/", "/service-areas/bell-acres-pa/fire-damage-restoration/", "/service-areas/bell-acres-pa/mold-remediation/", "/service-areas/baden-pa/water-cleanup/", "/service-areas/beaver-falls-pa/water-cleanup/", "/contact/"]
+internal_links: ["/services/water-cleanup/", "/service-areas/bell-acres-pa/", "/service-areas/bell-acres-pa/fire-damage-restoration/", "/service-areas/bell-acres-pa/mold-remediation/", "/service-areas/aliquippa-pa/water-cleanup/", "/service-areas/allison-park-pa/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bell Acres", "url": "/service-areas/bell-acres-pa/"}, {"name": "water-cleanup"}]
 faq: []
 area_slug: "bell-acres-pa"

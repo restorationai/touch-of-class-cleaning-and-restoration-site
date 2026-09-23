@@ -8,7 +8,7 @@ secondary_keywords: ["water removal", "water extraction", "water cleanup", "stru
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "35590bf8f7a49606"
-generated_at: "2026-09-20T19:37:15.129807+00:00"
+generated_at: "2026-09-23T14:11:56.017167+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/bear-valley-springs-ca/", "/service-areas/bear-valley-springs-ca/fire-damage-restoration/", "/service-areas/bear-valley-springs-ca/home-remodeling/", "/service-areas/arvin-ca/water-damage-restoration/", "/service-areas/buttonwillow-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bear Valley Springs", "url": "/service-areas/bear-valley-springs-ca/"}, {"name": "Water Damage Restoration"}]

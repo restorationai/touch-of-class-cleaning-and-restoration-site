@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "a72beec7586b8046"
-generated_at: "2026-09-20T20:42:04.134779+00:00"
+generated_at: "2026-09-23T14:11:56.018525+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/keene-ca/", "/service-areas/keene-ca/fire-damage-restoration/", "/service-areas/keene-ca/home-remodeling/", "/service-areas/arvin-ca/burst-pipe-repair/", "/service-areas/bear-valley-springs-ca/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Keene", "url": "/service-areas/keene-ca/"}, {"name": "Burst Pipe Cleanup and Repair"}]

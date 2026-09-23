@@ -8,7 +8,7 @@ secondary_keywords: ["contents pack-out", "contents cleaning", "belongings resto
 search_intent: "local_service"
 priority: 3.5
 plan_hash: "b2326a0783fee22e"
-generated_at: "2026-09-21T14:13:09.472691+00:00"
+generated_at: "2026-09-23T14:11:36.227686+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration/", "/service-areas/villa-park-ca/", "/service-areas/villa-park-ca/fire-damage-restoration/", "/service-areas/villa-park-ca/mold-remediation/", "/service-areas/anaheim-ca/contents-restoration/", "/service-areas/chino-ca/contents-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Villa Park", "url": "/service-areas/villa-park-ca/"}, {"name": "Contents Restoration and Storage"}]

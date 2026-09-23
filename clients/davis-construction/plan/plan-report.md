@@ -1,22 +1,22 @@
 # Site Plan Report — Davis Construction Contractors
 
 - Template: `construction` v0.1.0
-- Generated: 2026-09-22T20:18:17.523673+00:00
+- Generated: 2026-09-23T14:11:31.739156+00:00
 - Domain: `davisconstructioncontractors.com`
-- Services selected: 9 of 23 catalog entries
+- Services selected: 11 of 23 catalog entries
 - Service areas: 20
 - Cross-product enabled: True
-- Total URLs: **220**
-- Total internal links: 1734 (avg 7.9 per page)
+- Total URLs: **260**
+- Total internal links: 2070 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 171 |
+| `service-area-service` | 209 |
 | `service-area` | 19 |
 | `blog-post` | 12 |
-| `service-landing` | 9 |
+| `service-landing` | 11 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -27,15 +27,17 @@
 
 ## Selected services
 
-- `home-remodeling` — Home Remodeling (core, priority 10)
-- `new-construction` — New Home Construction (core, priority 9)
 - `decks-pergolas-fences` — Decks, Pergolas and Fences (core, priority 9)
+- `fire-smoke-rebuilding` — Fire and Smoke Damage Rebuilding (restoration, priority 7)
+- `home-remodeling` — Home Remodeling (core, priority 10)
+- `mold-remediation` — Mold Remediation (restoration, priority 7)
+- `new-construction` — New Home Construction (core, priority 9)
+- `painting-trim` — Painting and Trim (core, priority 7)
 - `roofing` — Roofing Installation and Replacement (core, priority 10)
 - `siding-gutters` — Siding and Gutters (core, priority 8)
-- `painting-trim` — Painting and Trim (core, priority 7)
-- `water-damage-restoration` — Water Damage Restoration (restoration, priority 7)
 - `storm-damage-restoration` — Storm Damage Restoration (restoration, priority 7)
-- `mold-remediation` — Mold Remediation (restoration, priority 7)
+- `water-damage-restoration` — Water Damage Restoration (restoration, priority 7)
+- `windows-doors` — Window and Door Installation (specialty, priority 7)
 
 ## Service areas
 

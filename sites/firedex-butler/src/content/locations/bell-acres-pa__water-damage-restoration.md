@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration bell acres"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "914b587cc1d3d750"
-generated_at: "2026-09-20T14:13:09.804963+00:00"
+plan_hash: "9ddeb71a2ec941ce"
+generated_at: "2026-09-23T14:11:40.916345+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/bell-acres-pa/", "/service-areas/bell-acres-pa/fire-damage-restoration/", "/service-areas/bell-acres-pa/mold-remediation/", "/service-areas/baden-pa/water-damage-restoration/", "/service-areas/beaver-falls-pa/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/bell-acres-pa/", "/service-areas/bell-acres-pa/fire-damage-restoration/", "/service-areas/bell-acres-pa/mold-remediation/", "/service-areas/aliquippa-pa/water-damage-restoration/", "/service-areas/allison-park-pa/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bell Acres", "url": "/service-areas/bell-acres-pa/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "bell-acres-pa"

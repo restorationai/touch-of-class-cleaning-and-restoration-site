@@ -8,7 +8,7 @@ secondary_keywords: ["roof leak cleanup", "ceiling water damage", "attic water d
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "6e31e9158da534ff"
-generated_at: "2026-09-20T19:37:06.033460+00:00"
+generated_at: "2026-09-23T14:11:49.792781+00:00"
 manual_override: false
 internal_links: ["/services/roof-leak-repair/", "/service-areas/draper-ut/", "/service-areas/draper-ut/fire-damage-restoration/", "/service-areas/draper-ut/mold-remediation/", "/service-areas/alpine-ut/roof-leak-repair/", "/service-areas/american-fork-ut/roof-leak-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Draper", "url": "/service-areas/draper-ut/"}, {"name": "Roof Leak Cleanup and Repair"}]

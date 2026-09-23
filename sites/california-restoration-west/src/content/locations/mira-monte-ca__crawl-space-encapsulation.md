@@ -7,10 +7,10 @@ primary_keyword: "crawl space encapsulation mira monte"
 secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "ef132118f8209632"
-generated_at: "2026-09-20T14:12:59.575235+00:00"
+plan_hash: "badcaa97e78ad008"
+generated_at: "2026-09-23T14:11:28.114601+00:00"
 manual_override: false
-internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/mira-monte-ca/", "/service-areas/mira-monte-ca/mold-remediation/", "/service-areas/mira-monte-ca/water-damage-restoration/", "/service-areas/camarillo-ca/crawl-space-encapsulation/", "/service-areas/fillmore-ca/crawl-space-encapsulation/", "/contact/"]
+internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/mira-monte-ca/", "/service-areas/mira-monte-ca/mold-remediation/", "/service-areas/mira-monte-ca/water-damage-restoration/", "/service-areas/camarillo-ca/crawl-space-encapsulation/", "/service-areas/carpinteria-ca/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mira Monte", "url": "/service-areas/mira-monte-ca/"}, {"name": "Crawl Space Encapsulation"}]
 faq: []
 area_slug: "mira-monte-ca"

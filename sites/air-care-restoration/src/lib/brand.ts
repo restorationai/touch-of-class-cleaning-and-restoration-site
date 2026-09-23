@@ -64,9 +64,16 @@ export const brand = {
   sameAsUrls: ["https://www.facebook.com/aircarerestorationtx", "https://www.youtube.com/@AirCareRestorationLLC", "https://www.instagram.com/aircarerestoration/", "https://www.tiktok.com/@aircarerestoration", "https://www.linkedin.com/company/air-care-restoration/", "https://maps.google.com/maps?cid=8729630138777523223", "https://www.linkedin.com/in/sarha-boyd-45b165352"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
-  gbpRatingValue: "",
-  gbpReviewCount: "",
-  gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
+  gbpRatingValue: "5.0",
+  gbpReviewCount: "22",
+  gbpReviews: [
+    { author: "Callie", rating: 5, text: "Very efficient, very nice, great to work with.", when: "September 2026" },
+    { author: "Adam", rating: 5, text: "Sarha with Air Care Restoration is a life savor. Our toilet overflowed causing sewage to flood our bathroom, hallway, and one of the bedrooms. Air Care Restoration answered our call, questions, and showed up in less than 45 minutes on a Friday night. This was our first time experiencing water…", when: "September 2026" },
+    { author: "Craig", rating: 5, text: "Sarha genuinely cares about her customers and the quality of work is second to none!", when: "September 2026" },
+    { author: "Untamablephoenix", rating: 5, text: "Sarha Boyd the owner of Air Care Restoration helped me so very much after I lost my mom. Sarha came promptly, was friendly, compassionate, and understanding. I can't thank Sarah enough for all that she did to help me and my family during such a horrific heartbreaking loss. She is an amazing person…", when: "September 2026" },
+    { author: "Alonzo", rating: 5, text: "⭐⭐⭐⭐⭐ One of the best companies I’ve had the opportunity to come across. From start to finish, their team was professional, caring, responsive, and truly committed to providing the best service possible. They went above and beyond to make sure everything was handled properly, and their attention to…", when: "September 2026" },
+    { author: "David", rating: 5, text: "Extremely professional crew, showed up quickly, answered all my questions and took care of business. would highly recommend to anyone! Thank you Sarha for everything!", when: "September 2026" },
+  ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Abilene, TX.",
   ctaLabel: "24/7 Emergency Line",
   // Vertical trade-identity copy — resolved at scaffold time from

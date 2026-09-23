@@ -8,7 +8,7 @@ secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "7b732e237d3d348d"
-generated_at: "2026-09-21T14:13:42.298738+00:00"
+generated_at: "2026-09-23T14:11:58.550776+00:00"
 manual_override: false
 internal_links: ["/services/water-cleanup/", "/service-areas/bellingham-ma/", "/service-areas/bellingham-ma/fire-damage-restoration/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/water-cleanup/", "/service-areas/fiskdale-ma/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bellingham", "url": "/service-areas/bellingham-ma/"}, {"name": "water-cleanup"}]

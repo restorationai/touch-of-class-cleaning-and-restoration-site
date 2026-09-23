@@ -7,6 +7,12 @@ VAN-OVERRIDE: two-three matching clean WHITE service vans carrying ONLY the navy
 This guide is consulted by every image-generation call (Skill 3 launch images, Skill 4 blog hero images, future image regenerations). The goal: a viewer scrolling through the site should feel like one professional photographer documented one company on one continuous job. No stylistic drift from page to page.
 
 The values below are auto-populated from `plan-input.json` at planning time. Per-client brand colors come from the client's logo / brand identity — NOT from the canonical starter palette. The structural conventions (camera, lens, lighting, composition) are restoration-vertical canonical and shared across all Rank AI clients.
+
+---
+
+This guide is consulted by every image-generation call (Skill 3 launch images, Skill 4 blog hero images, future image regenerations). The goal: a viewer scrolling through the site should feel like one professional photographer documented one company on one continuous job. No stylistic drift from page to page.
+
+The values below are auto-populated from `plan-input.json` at planning time. Per-client brand colors come from the client's logo / brand identity — NOT from the canonical starter palette. The structural conventions (camera, lens, lighting, composition) are restoration-vertical canonical and shared across all Rank AI clients.
 ---
 
 ## STANDING BRAND RULES (2026-07-11) — apply to EVERY image, every client
@@ -16,7 +22,8 @@ The values below are auto-populated from `plan-input.json` at planning time. Per
 2. **One crew uniform color per client, everywhere.** Each client's style guide declares exactly one uniform color (derived from their real-world crew wear / brand identity), and every image — hero, team, services, per-service, blog heroes — uses it. Never mix uniform colors across a client's image library.
 
 3. **If the client has an existing website, harvest its photos FIRST.** Before generating any imagery, crawl the client's existing site (e.g. wp-content/uploads on WordPress) and collect real crew / vehicle / job photos. Use real photos directly where quality allows; otherwise use them as style and livery references for generation (real fleet photos define what the vans must look like). Save the harvest to `clients//harvested/`.
-4. **Multi-van fleet, everywhere (2026-07-29).** Hero images always show MULTIPLE matching branded vans (two-three, staggered), and the branded vans also appear in the About/team photo and the Services imagery whenever the scene allows. The client's real logo rides on every van per rule 1. One van alone is the exception (tight interior shots), never the default.
+4. **Fleet of THREE branded vehicles, everywhere (2026-08-18, was two-three since 2026-07-29).** Hero images always show a fleet of exactly THREE matching branded vehicles (staggered, classic restoration-trade vans unless the client's real fleet documents otherwise), and the branded vehicles also appear in the About/team photo and the Services imagery whenever the scene allows. The client's real logo rides on every vehicle per rule 1. One vehicle alone is the exception (tight interior shots), never the default.
+   **No vehicle photos is NOT a reason to skip vehicles (Santino 2026-08-18, reversing the 2026-08-10 no-invented-livery rule):** when the client's photo library has no vehicle, generate the classic professional livery anyway — clean panel vans in the brand's primary color scheme carrying the real logo mark per rule 1. A branded fleet is part of the polished look even when the real fleet is one unmarked pickup. PRECEDENCE: real documented livery always beats invented livery — the moment real fleet photos exist (harvest or client-sent), they define the vehicles and this default retires for that client. A client's explicit no-vehicles instruction (VAN-OVERRIDE) still wins over everything.
 
 
 
@@ -188,7 +195,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Storm Damage Restoration, Fire Damage Restoration, Sewage Cleanup and Sanitization, Emergency Board-Up and Tarping, Mold Remediation, Biohazard Cleanup, Contents Restoration and Storage, Crawl Space Encapsulation, Post-Construction and Specialty Cleaning, Odor Removal and Deodorization, Vandalism Cleanup)
+- [ ] (continue for each of Biohazard Cleanup, Contents Restoration and Storage, Contents Restoration & Storage, Crawl Space Encapsulation, Emergency Board-Up and Tarping, Fire Damage Restoration, Mold Remediation, Odor Removal and Deodorization, Post-Construction and Specialty Cleaning, Sewage Cleanup and Sanitization, Storm Damage Restoration, Vandalism Cleanup, Water Damage Restoration, Emergency Water Cleanup)
 
 ### Service area pages (one image per city served)
 - [ ] Santa Maria hero — exterior shot, regional housing stock, evocative of the city

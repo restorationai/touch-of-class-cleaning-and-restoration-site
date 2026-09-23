@@ -8,7 +8,7 @@ secondary_keywords: ["home renovation", "kitchen remodel", "bathroom remodel", "
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "41cc030618a66aca"
-generated_at: "2026-09-20T20:42:04.136990+00:00"
+generated_at: "2026-09-23T14:11:56.020823+00:00"
 manual_override: false
 internal_links: ["/services/home-remodeling/", "/service-areas/keene-ca/", "/service-areas/keene-ca/fire-damage-restoration/", "/service-areas/keene-ca/mold-remediation/", "/service-areas/arvin-ca/home-remodeling/", "/service-areas/bear-valley-springs-ca/home-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Keene", "url": "/service-areas/keene-ca/"}, {"name": "Home Remodeling"}]

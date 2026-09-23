@@ -7,10 +7,10 @@ primary_keyword: "soot removal monaca"
 secondary_keywords: ["soot cleaning", "soot residue removal", "post-fire soot cleanup", "soot damage cleanup", "soot wall cleaning"]
 search_intent: "local_specialty"
 priority: 4.9
-plan_hash: "e604549608d43953"
-generated_at: "2026-09-20T14:13:09.809587+00:00"
+plan_hash: "f83219ea0cfb2bd5"
+generated_at: "2026-09-23T14:11:40.921893+00:00"
 manual_override: false
-internal_links: ["/services/soot-removal/", "/service-areas/monaca-pa/", "/service-areas/monaca-pa/fire-damage-restoration/", "/service-areas/monaca-pa/mold-remediation/", "/service-areas/baden-pa/soot-removal/", "/service-areas/beaver-falls-pa/soot-removal/", "/contact/"]
+internal_links: ["/services/soot-removal/", "/service-areas/monaca-pa/", "/service-areas/monaca-pa/fire-damage-restoration/", "/service-areas/monaca-pa/mold-remediation/", "/service-areas/aliquippa-pa/soot-removal/", "/service-areas/allison-park-pa/soot-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Monaca", "url": "/service-areas/monaca-pa/"}, {"name": "Soot Removal"}]
 faq: []
 area_slug: "monaca-pa"

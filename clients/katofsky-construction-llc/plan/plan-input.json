@@ -167,6 +167,11 @@
       "city": "Munhall",
       "state": "PA",
       "slug": "munhall-pa"
+    },
+    {
+      "city": "Glenshaw",
+      "state": "PA",
+      "slug": "glenshaw-pa"
     }
   ],
   "template": "restoration",

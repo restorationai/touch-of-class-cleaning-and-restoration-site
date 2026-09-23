@@ -8,7 +8,7 @@ secondary_keywords: ["water removal", "water extraction", "water cleanup", "stru
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "3bab51a8dbc5e4fd"
-generated_at: "2026-09-20T19:37:06.032788+00:00"
+generated_at: "2026-09-23T14:11:49.794743+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/draper-ut/", "/service-areas/draper-ut/fire-damage-restoration/", "/service-areas/draper-ut/mold-remediation/", "/service-areas/alpine-ut/water-damage-restoration/", "/service-areas/american-fork-ut/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Draper", "url": "/service-areas/draper-ut/"}, {"name": "Water Damage Restoration"}]

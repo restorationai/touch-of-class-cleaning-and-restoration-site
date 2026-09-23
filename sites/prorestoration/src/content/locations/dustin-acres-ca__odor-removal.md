@@ -7,10 +7,10 @@ primary_keyword: "odor removal and deodorization dustin acres"
 secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
 search_intent: "local_specialty"
 priority: 4.9
-plan_hash: "f050c3a653098172"
-generated_at: "2026-09-20T14:13:26.549944+00:00"
+plan_hash: "6511c187ee07a1b7"
+generated_at: "2026-09-23T14:11:55.985115+00:00"
 manual_override: false
-internal_links: ["/services/odor-removal/", "/service-areas/dustin-acres-ca/", "/service-areas/dustin-acres-ca/fire-damage-restoration/", "/service-areas/dustin-acres-ca/home-remodeling/", "/service-areas/arvin-ca/odor-removal/", "/service-areas/buttonwillow-ca/odor-removal/", "/contact/"]
+internal_links: ["/services/odor-removal/", "/service-areas/dustin-acres-ca/", "/service-areas/dustin-acres-ca/fire-damage-restoration/", "/service-areas/dustin-acres-ca/home-remodeling/", "/service-areas/arvin-ca/odor-removal/", "/service-areas/bear-valley-springs-ca/odor-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Dustin Acres", "url": "/service-areas/dustin-acres-ca/"}, {"name": "Odor Removal and Deodorization"}]
 faq: []
 area_slug: "dustin-acres-ca"

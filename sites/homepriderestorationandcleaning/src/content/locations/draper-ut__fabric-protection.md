@@ -8,7 +8,7 @@ secondary_keywords: ["carpet protection", "upholstery protection", "stain guard"
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "0f53ee08dbdc3efd"
-generated_at: "2026-09-20T19:37:06.034679+00:00"
+generated_at: "2026-09-23T14:11:49.790211+00:00"
 manual_override: false
 internal_links: ["/services/fabric-protection/", "/service-areas/draper-ut/", "/service-areas/draper-ut/fire-damage-restoration/", "/service-areas/draper-ut/mold-remediation/", "/service-areas/alpine-ut/fabric-protection/", "/service-areas/american-fork-ut/fabric-protection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Draper", "url": "/service-areas/draper-ut/"}, {"name": "Fabric Protection"}]

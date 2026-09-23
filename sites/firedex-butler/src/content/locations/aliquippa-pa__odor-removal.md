@@ -7,10 +7,10 @@ primary_keyword: "odor removal and deodorization aliquippa"
 secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
 search_intent: "local_specialty"
 priority: 4.9
-plan_hash: "901230b06bf955f1"
-generated_at: "2026-09-20T17:29:36.720670+00:00"
+plan_hash: "671239cbd7988a15"
+generated_at: "2026-09-23T14:11:40.933082+00:00"
 manual_override: false
-internal_links: ["/services/odor-removal/", "/service-areas/aliquippa-pa/", "/service-areas/aliquippa-pa/fire-damage-restoration/", "/service-areas/aliquippa-pa/mold-remediation/", "/service-areas/baden-pa/odor-removal/", "/service-areas/beaver-falls-pa/odor-removal/", "/contact/"]
+internal_links: ["/services/odor-removal/", "/service-areas/aliquippa-pa/", "/service-areas/aliquippa-pa/fire-damage-restoration/", "/service-areas/aliquippa-pa/mold-remediation/", "/service-areas/allison-park-pa/odor-removal/", "/service-areas/baden-pa/odor-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Aliquippa", "url": "/service-areas/aliquippa-pa/"}, {"name": "Odor Removal and Deodorization"}]
 faq: []
 area_slug: "aliquippa-pa"

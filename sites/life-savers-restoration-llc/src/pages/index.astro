@@ -6,6 +6,7 @@ import FAQSection from "~/components/FAQSection.astro";
 import InternalLinks from "~/components/InternalLinks.astro";
 import Hero from "~/components/ui/Hero.astro";
 import TrustStrip from "~/components/ui/TrustStrip.astro";
+import InsuranceBanner from "~/components/ui/InsuranceBanner.astro";
 import ReviewsStrip from "~/components/ui/ReviewsStrip.astro";
 import AboutSection from "~/components/ui/AboutSection.astro";
 import ServicesStrip from "~/components/ui/ServicesStrip.astro";
@@ -48,10 +49,11 @@ const services = (allServices as CollectionEntry<"services">[])
   <Hero title={data.h1} subtitle={data.meta_description} backgroundImage="/images/hero-bg.webp" />
 
   <TrustStrip />
+  <InsuranceBanner />
 
   <ReviewsStrip />
 
-  <AboutSection imageSrc="/images/team.webp" imageAlt={`Three technicians in white Tyvek suits spraying outdoor area, ${brand.displayName}`}>
+  <AboutSection imageSrc="/images/team.webp" imageAlt={`${brand.displayName} technician loading a branded service van`}>
     <p>
       {/* Vertical copy — never hardcode a trade phrase here (industry-bleed
           audit 2026-07-31: this paragraph shipped All Pro's plumbing identity

@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "cede15556e83ebc7"
-generated_at: "2026-09-22T20:03:03.313440+00:00"
+generated_at: "2026-09-23T14:11:32.879102+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/arab-al/", "/service-areas/arab-al/home-remodeling/", "/service-areas/arab-al/decks-pergolas-fences/", "/service-areas/ardmore-al/roofing/", "/service-areas/athens-al/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Arab", "url": "/service-areas/arab-al/"}, {"name": "Roofing Installation and Replacement"}]

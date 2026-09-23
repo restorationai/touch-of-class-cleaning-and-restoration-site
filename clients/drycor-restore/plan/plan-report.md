@@ -1,21 +1,21 @@
 # Site Plan Report — DRYCOR RESTORE
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-20T17:29:34.824592+00:00
+- Generated: 2026-09-23T14:11:36.493739+00:00
 - Domain: `drycor.com`
-- Services selected: 9 of 65 catalog entries
+- Services selected: 10 of 65 catalog entries
 - Service areas: 68
 - Cross-product enabled: True
-- Total URLs: **696**
-- Total internal links: 5508 (avg 7.9 per page)
+- Total URLs: **764**
+- Total internal links: 6060 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 603 |
+| `service-area-service` | 670 |
 | `service-area` | 67 |
-| `service-landing` | 9 |
+| `service-landing` | 10 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -27,15 +27,16 @@
 
 ## Selected services
 
-- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
-- `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
-- `mold-remediation` — Mold Remediation (core, priority 10)
 - `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
+- `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
+- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
+- `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
 - `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
+- `mold-remediation` — Mold Remediation (core, priority 10)
+- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)
-- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
-- `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
+- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 
 ## Service areas
 
@@ -115,13 +116,13 @@
 | `/services/fire-damage-restoration/` | `service-landing` | 9.0 | fire damage restoration thonotosassa |
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation thonotosassa |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration thonotosassa |
+| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing thonotosassa |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization thonotosassa |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration thonotosassa |
 | `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup thonotosassa |
 | `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting thonotosassa |
 | `/service-areas/anna-maria-fl/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration anna maria |
 | `/service-areas/anna-maria-fl/mold-remediation/` | `service-area-service` | 7.0 | mold remediation anna maria |
-| `/service-areas/anna-maria-fl/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration anna maria |
 
 ## Validation
 

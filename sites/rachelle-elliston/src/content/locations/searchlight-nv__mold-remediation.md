@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "b621a994a742df54"
-generated_at: "2026-09-22T20:03:30.835920+00:00"
+generated_at: "2026-09-23T14:12:02.400791+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/searchlight-nv/", "/service-areas/searchlight-nv/fire-damage-restoration/", "/service-areas/searchlight-nv/water-damage-restoration/", "/service-areas/blue-diamond-nv/mold-remediation/", "/service-areas/boulder-city-nv/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Searchlight", "url": "/service-areas/searchlight-nv/"}, {"name": "Mold Remediation"}]

@@ -7,10 +7,10 @@ primary_keyword: "roofing installation and replacement somerville"
 secondary_keywords: ["roofing contractor", "roof replacement", "new roof installation", "residential roofing", "roof repair"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "5574d762411c6eb7"
-generated_at: "2026-09-22T02:11:07.732134+00:00"
+plan_hash: "11df6a3bb968f832"
+generated_at: "2026-09-23T14:11:32.869196+00:00"
 manual_override: false
-internal_links: ["/services/roofing/", "/service-areas/somerville-al/", "/service-areas/somerville-al/home-remodeling/", "/service-areas/somerville-al/decks-pergolas-fences/", "/service-areas/ardmore-al/roofing/", "/service-areas/athens-al/roofing/", "/contact/"]
+internal_links: ["/services/roofing/", "/service-areas/somerville-al/", "/service-areas/somerville-al/home-remodeling/", "/service-areas/somerville-al/decks-pergolas-fences/", "/service-areas/arab-al/roofing/", "/service-areas/ardmore-al/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Somerville", "url": "/service-areas/somerville-al/"}, {"name": "Roofing Installation and Replacement"}]
 faq: []
 area_slug: "somerville-al"

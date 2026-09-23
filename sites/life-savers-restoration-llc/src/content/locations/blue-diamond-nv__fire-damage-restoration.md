@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration blue diamond"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "23c66209391ecd9a"
-generated_at: "2026-09-20T14:13:21.541842+00:00"
+plan_hash: "bfcd007e13aef3aa"
+generated_at: "2026-09-23T14:11:52.251086+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/blue-diamond-nv/", "/service-areas/blue-diamond-nv/mold-remediation/", "/service-areas/blue-diamond-nv/water-damage-restoration/", "/service-areas/boulder-city-nv/fire-damage-restoration/", "/service-areas/enterprise-nv/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/blue-diamond-nv/", "/service-areas/blue-diamond-nv/mold-remediation/", "/service-areas/blue-diamond-nv/water-damage-restoration/", "/service-areas/boulder-city-nv/fire-damage-restoration/", "/service-areas/cal-nev-ari-nv/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Blue Diamond", "url": "/service-areas/blue-diamond-nv/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "blue-diamond-nv"

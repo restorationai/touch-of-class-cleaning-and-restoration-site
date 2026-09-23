@@ -8,7 +8,7 @@ secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitizati
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "a6a45695e31b0c08"
-generated_at: "2026-09-21T15:54:35.829039+00:00"
+generated_at: "2026-09-23T14:11:34.812265+00:00"
 manual_override: false
 internal_links: ["/services/air-duct-cleaning/", "/service-areas/hermitage-pa/", "/service-areas/hermitage-pa/fire-damage-restoration/", "/service-areas/hermitage-pa/mold-remediation/", "/service-areas/austintown-oh/air-duct-cleaning/", "/service-areas/boardman-oh/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hermitage", "url": "/service-areas/hermitage-pa/"}, {"name": "Air Duct Cleaning"}]

@@ -7,10 +7,10 @@ primary_keyword: "mold remediation oak view"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "6a6a5ba231eb2edd"
-generated_at: "2026-09-20T14:12:59.575757+00:00"
+plan_hash: "9211f94f01e66720"
+generated_at: "2026-09-23T14:11:28.117304+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/oak-view-ca/", "/service-areas/oak-view-ca/water-damage-restoration/", "/service-areas/oak-view-ca/storm-damage-restoration/", "/service-areas/camarillo-ca/mold-remediation/", "/service-areas/fillmore-ca/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/oak-view-ca/", "/service-areas/oak-view-ca/water-damage-restoration/", "/service-areas/oak-view-ca/storm-damage-restoration/", "/service-areas/camarillo-ca/mold-remediation/", "/service-areas/carpinteria-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oak View", "url": "/service-areas/oak-view-ca/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "oak-view-ca"

@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration vashon"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "7433689d4dabbe50"
-generated_at: "2026-09-21T14:13:34.625509+00:00"
+plan_hash: "ef9ee8572bffb617"
+generated_at: "2026-09-23T14:11:54.184688+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/vashon-wa/", "/service-areas/vashon-wa/mold-remediation/", "/service-areas/vashon-wa/water-damage-restoration/", "/service-areas/algona-wa/fire-damage-restoration/", "/service-areas/auburn-wa/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/vashon-wa/", "/service-areas/vashon-wa/mold-remediation/", "/service-areas/vashon-wa/roofing/", "/service-areas/algona-wa/fire-damage-restoration/", "/service-areas/auburn-wa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Vashon", "url": "/service-areas/vashon-wa/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "vashon-wa"

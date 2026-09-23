@@ -7,10 +7,10 @@ primary_keyword: "reconstruction services tarina"
 secondary_keywords: ["post-damage reconstruction", "rebuild services", "structural reconstruction", "post-disaster rebuilding", "fire damage reconstruction"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "d614c4cf3be561ed"
-generated_at: "2026-09-20T14:13:26.542041+00:00"
+plan_hash: "f57ab2e2240c70f2"
+generated_at: "2026-09-23T14:11:55.962120+00:00"
 manual_override: false
-internal_links: ["/services/reconstruction/", "/service-areas/tarina-ca/", "/service-areas/tarina-ca/fire-damage-restoration/", "/service-areas/tarina-ca/home-remodeling/", "/service-areas/arvin-ca/reconstruction/", "/service-areas/buttonwillow-ca/reconstruction/", "/contact/"]
+internal_links: ["/services/reconstruction/", "/service-areas/tarina-ca/", "/service-areas/tarina-ca/fire-damage-restoration/", "/service-areas/tarina-ca/home-remodeling/", "/service-areas/arvin-ca/reconstruction/", "/service-areas/bear-valley-springs-ca/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tarina", "url": "/service-areas/tarina-ca/"}, {"name": "Reconstruction Services"}]
 faq: []
 area_slug: "tarina-ca"

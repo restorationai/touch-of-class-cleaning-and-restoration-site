@@ -7,10 +7,10 @@ primary_keyword: "frozen pipe restoration baden"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"
 priority: 4.9
-plan_hash: "d7d1cf4e2dd9e2e4"
-generated_at: "2026-09-20T14:13:09.802782+00:00"
+plan_hash: "0ee7970edc24d9e8"
+generated_at: "2026-09-23T14:11:40.906911+00:00"
 manual_override: false
-internal_links: ["/services/frozen-pipe-restoration/", "/service-areas/baden-pa/", "/service-areas/baden-pa/fire-damage-restoration/", "/service-areas/baden-pa/mold-remediation/", "/service-areas/beaver-falls-pa/frozen-pipe-restoration/", "/service-areas/bell-acres-pa/frozen-pipe-restoration/", "/contact/"]
+internal_links: ["/services/frozen-pipe-restoration/", "/service-areas/baden-pa/", "/service-areas/baden-pa/fire-damage-restoration/", "/service-areas/baden-pa/mold-remediation/", "/service-areas/aliquippa-pa/frozen-pipe-restoration/", "/service-areas/allison-park-pa/frozen-pipe-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Baden", "url": "/service-areas/baden-pa/"}, {"name": "Frozen Pipe Restoration"}]
 faq: []
 area_slug: "baden-pa"

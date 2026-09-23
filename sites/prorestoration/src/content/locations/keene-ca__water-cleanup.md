@@ -8,16 +8,16 @@ secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "62c32b809662b65d"
-generated_at: "2026-09-20T20:42:04.137327+00:00"
+generated_at: "2026-09-23T14:11:56.024052+00:00"
 manual_override: false
 internal_links: ["/services/water-cleanup/", "/service-areas/keene-ca/", "/service-areas/keene-ca/fire-damage-restoration/", "/service-areas/keene-ca/home-remodeling/", "/service-areas/arvin-ca/water-cleanup/", "/service-areas/bear-valley-springs-ca/water-cleanup/", "/contact/"]
-breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Keene", "url": "/service-areas/keene-ca/"}, {"name": "water-cleanup"}]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Keene", "url": "/service-areas/keene-ca/"}, {"name": "Emergency Water Cleanup"}]
 faq: []
 area_slug: "keene-ca"
 service_slug: "water-cleanup"
 city: "Keene"
 state: "CA"
-service_display: "water-cleanup"
+service_display: "Emergency Water Cleanup"
 ---
 <!-- Page body not yet generated. Run `build_site.py render --slug prorestoration` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
 

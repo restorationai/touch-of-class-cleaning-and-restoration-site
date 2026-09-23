@@ -7,10 +7,10 @@ primary_keyword: "storm damage restoration marlborough"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "62b2b49875590700"
-generated_at: "2026-09-20T19:37:18.511064+00:00"
+plan_hash: "75ec8b89b127b1ad"
+generated_at: "2026-09-23T14:11:58.539607+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/marlborough-ma/", "/service-areas/marlborough-ma/fire-damage-restoration/", "/service-areas/marlborough-ma/mold-remediation/", "/service-areas/east-douglas-ma/storm-damage-restoration/", "/service-areas/fiskdale-ma/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/marlborough-ma/", "/service-areas/marlborough-ma/fire-damage-restoration/", "/service-areas/marlborough-ma/mold-remediation/", "/service-areas/bellingham-ma/storm-damage-restoration/", "/service-areas/east-douglas-ma/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Marlborough", "url": "/service-areas/marlborough-ma/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "marlborough-ma"

@@ -38,15 +38,17 @@
     "hide_mobile_header_call": "true"
   },
   "services": [
-    "water-damage-restoration",
+    "asbestos-abatement",
+    "contents-restoration-storage",
+    "emergency-board-up-tarping",
+    "emergency-plumbing",
     "fire-damage-restoration",
     "mold-remediation",
-    "storm-damage-restoration",
+    "odor-removal",
     "sewage-cleanup",
-    "asbestos-abatement",
-    "emergency-board-up-tarping",
-    "contents-restoration-storage",
-    "water-cleanup"
+    "storm-damage-restoration",
+    "water-cleanup",
+    "water-damage-restoration"
   ],
   "service_areas": [
     {

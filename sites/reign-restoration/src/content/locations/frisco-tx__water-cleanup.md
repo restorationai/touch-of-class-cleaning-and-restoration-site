@@ -8,7 +8,7 @@ secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "179cda4b070f5f86"
-generated_at: "2026-09-20T14:13:42.829760+00:00"
+generated_at: "2026-09-23T14:12:04.452787+00:00"
 manual_override: false
 internal_links: ["/services/water-cleanup/", "/service-areas/frisco-tx/", "/service-areas/frisco-tx/fire-damage-restoration/", "/service-areas/frisco-tx/mold-remediation/", "/service-areas/allen-tx/water-cleanup/", "/service-areas/caddo-mills-tx/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Frisco", "url": "/service-areas/frisco-tx/"}, {"name": "water-cleanup"}]

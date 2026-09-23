@@ -7,10 +7,10 @@ primary_keyword: "sewage cleanup and sanitization highland"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "33323615290d7c75"
-generated_at: "2026-09-20T14:13:18.723837+00:00"
+plan_hash: "9b2ee9f255cf1485"
+generated_at: "2026-09-23T14:11:49.741102+00:00"
 manual_override: false
-internal_links: ["/services/sewage-cleanup/", "/service-areas/highland-ut/", "/service-areas/highland-ut/fire-damage-restoration/", "/service-areas/highland-ut/mold-remediation/", "/service-areas/american-fork-ut/sewage-cleanup/", "/service-areas/cedar-fort-ut/sewage-cleanup/", "/contact/"]
+internal_links: ["/services/sewage-cleanup/", "/service-areas/highland-ut/", "/service-areas/highland-ut/fire-damage-restoration/", "/service-areas/highland-ut/mold-remediation/", "/service-areas/alpine-ut/sewage-cleanup/", "/service-areas/american-fork-ut/sewage-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Highland", "url": "/service-areas/highland-ut/"}, {"name": "Sewage Cleanup and Sanitization"}]
 faq: []
 area_slug: "highland-ut"

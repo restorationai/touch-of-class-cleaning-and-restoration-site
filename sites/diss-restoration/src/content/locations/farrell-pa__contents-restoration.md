@@ -8,7 +8,7 @@ secondary_keywords: ["contents pack-out", "contents cleaning", "belongings resto
 search_intent: "local_service"
 priority: 3.5
 plan_hash: "bd5d1f4448ef81ec"
-generated_at: "2026-09-21T15:54:35.824123+00:00"
+generated_at: "2026-09-23T14:11:34.804249+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration/", "/service-areas/farrell-pa/", "/service-areas/farrell-pa/fire-damage-restoration/", "/service-areas/farrell-pa/mold-remediation/", "/service-areas/austintown-oh/contents-restoration/", "/service-areas/boardman-oh/contents-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Farrell", "url": "/service-areas/farrell-pa/"}, {"name": "Contents Restoration and Storage"}]

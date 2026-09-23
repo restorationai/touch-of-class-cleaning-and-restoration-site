@@ -8,7 +8,7 @@ secondary_keywords: ["water removal", "water extraction", "water cleanup", "stru
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "f767184a651be745"
-generated_at: "2026-09-21T14:13:32.378774+00:00"
+generated_at: "2026-09-23T14:11:52.273123+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/laughlin-nv/", "/service-areas/laughlin-nv/fire-damage-restoration/", "/service-areas/laughlin-nv/mold-remediation/", "/service-areas/blue-diamond-nv/water-damage-restoration/", "/service-areas/boulder-city-nv/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Laughlin", "url": "/service-areas/laughlin-nv/"}, {"name": "Water Damage Restoration"}]

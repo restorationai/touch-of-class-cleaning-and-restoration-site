@@ -1,21 +1,21 @@
 # Site Plan Report — DISS Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-21T15:54:24.387878+00:00
+- Generated: 2026-09-23T14:11:33.018463+00:00
 - Domain: `dissrestoration.com`
-- Services selected: 14 of 65 catalog entries
+- Services selected: 16 of 65 catalog entries
 - Service areas: 21
 - Cross-product enabled: True
-- Total URLs: **331**
-- Total internal links: 2675 (avg 8.1 per page)
+- Total URLs: **373**
+- Total internal links: 3027 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 280 |
+| `service-area-service` | 320 |
 | `service-area` | 20 |
-| `service-landing` | 14 |
+| `service-landing` | 16 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -27,20 +27,22 @@
 
 ## Selected services
 
-- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
-- `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
-- `mold-remediation` — Mold Remediation (core, priority 10)
-- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
-- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
-- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
-- `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
-- `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
-- `asbestos-abatement` — Asbestos Abatement (specialty, priority 6)
-- `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
 - `air-duct-cleaning` — Air Duct Cleaning (adjacent, priority 5)
+- `asbestos-abatement` — Asbestos Abatement (specialty, priority 6)
+- `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
 - `carpet-cleaning` — Carpet Cleaning (adjacent, priority 4)
+- `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
+- `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
+- `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
+- `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
+- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
+- `mold-remediation` — Mold Remediation (core, priority 10)
+- `odor-removal` — Odor Removal and Deodorization (specialty, priority 7)
 - `post-construction-cleaning` — Post-Construction and Specialty Cleaning (supporting, priority 4)
+- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
+- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)
+- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 
 ## Service areas
 

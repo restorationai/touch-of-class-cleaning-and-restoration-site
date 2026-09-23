@@ -7,10 +7,10 @@ primary_keyword: "mold remediation sachse"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "d4ed83b4008b1b6d"
-generated_at: "2026-09-20T20:42:20.725266+00:00"
+plan_hash: "2d44ab04e4d5ca40"
+generated_at: "2026-09-23T14:12:04.488330+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/sachse-tx/", "/service-areas/sachse-tx/fire-damage-restoration/", "/service-areas/sachse-tx/water-damage-restoration/", "/service-areas/allen-tx/mold-remediation/", "/service-areas/caddo-mills-tx/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/sachse-tx/", "/service-areas/sachse-tx/fire-damage-restoration/", "/service-areas/sachse-tx/roofing/", "/service-areas/allen-tx/mold-remediation/", "/service-areas/caddo-mills-tx/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sachse", "url": "/service-areas/sachse-tx/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "sachse-tx"

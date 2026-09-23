@@ -7,10 +7,10 @@ primary_keyword: "restoration services pomona"
 secondary_keywords: ["pomona restoration company", "damage restoration pomona", "pomona disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "c672cc135973710c"
-generated_at: "2026-09-22T02:11:11.685936+00:00"
+plan_hash: "be9529299f01dc93"
+generated_at: "2026-09-23T14:11:36.161275+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/pomona-ca/fire-damage-restoration/", "/service-areas/pomona-ca/mold-remediation/", "/service-areas/pomona-ca/water-damage-restoration/", "/service-areas/pomona-ca/sewage-cleanup/", "/service-areas/pomona-ca/storm-damage-restoration/", "/service-areas/pomona-ca/water-cleanup/", "/service-areas/pomona-ca/general-contracting/", "/service-areas/pomona-ca/emergency-board-up-tarping/", "/service-areas/pomona-ca/air-duct-cleaning/", "/service-areas/pomona-ca/contents-restoration/", "/service-areas/pomona-ca/carpet-cleaning/", "/service-areas/pomona-ca/post-construction-cleaning/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/pomona-ca/fire-damage-restoration/", "/service-areas/pomona-ca/mold-remediation/", "/service-areas/pomona-ca/roofing/", "/service-areas/pomona-ca/water-damage-restoration/", "/service-areas/pomona-ca/emergency-plumbing/", "/service-areas/pomona-ca/sewage-cleanup/", "/service-areas/pomona-ca/storm-damage-restoration/", "/service-areas/pomona-ca/water-cleanup/", "/service-areas/pomona-ca/general-contracting/", "/service-areas/pomona-ca/emergency-board-up-tarping/", "/service-areas/pomona-ca/odor-removal/", "/service-areas/pomona-ca/water-leak-detection/", "/service-areas/pomona-ca/air-duct-cleaning/", "/service-areas/pomona-ca/contents-restoration-storage/", "/service-areas/pomona-ca/contents-restoration/", "/service-areas/pomona-ca/carpet-cleaning/", "/service-areas/pomona-ca/post-construction-cleaning/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pomona"}]
 faq: []
 area_slug: "pomona-ca"

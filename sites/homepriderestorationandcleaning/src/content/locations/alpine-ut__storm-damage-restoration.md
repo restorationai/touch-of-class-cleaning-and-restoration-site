@@ -7,10 +7,10 @@ primary_keyword: "storm damage restoration alpine"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "599124537da20de1"
-generated_at: "2026-09-20T19:17:30.791033+00:00"
+plan_hash: "67965148c7486f77"
+generated_at: "2026-09-23T14:11:49.786339+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/alpine-ut/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/american-fork-ut/storm-damage-restoration/", "/service-areas/bluffdale-ut/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/alpine-ut/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/american-fork-ut/storm-damage-restoration/", "/service-areas/benjamin-ut/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Alpine", "url": "/service-areas/alpine-ut/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "alpine-ut"

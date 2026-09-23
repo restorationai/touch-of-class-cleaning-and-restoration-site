@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration monaca"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "d1bdbb085fa346fc"
-generated_at: "2026-09-20T14:13:09.808088+00:00"
+plan_hash: "b43ca15ee68ae41c"
+generated_at: "2026-09-23T14:11:40.922558+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/monaca-pa/", "/service-areas/monaca-pa/fire-damage-restoration/", "/service-areas/monaca-pa/mold-remediation/", "/service-areas/baden-pa/water-damage-restoration/", "/service-areas/beaver-falls-pa/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/monaca-pa/", "/service-areas/monaca-pa/fire-damage-restoration/", "/service-areas/monaca-pa/mold-remediation/", "/service-areas/aliquippa-pa/water-damage-restoration/", "/service-areas/allison-park-pa/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Monaca", "url": "/service-areas/monaca-pa/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "monaca-pa"

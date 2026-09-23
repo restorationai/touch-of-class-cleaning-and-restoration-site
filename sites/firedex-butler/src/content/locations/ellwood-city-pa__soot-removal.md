@@ -8,7 +8,7 @@ secondary_keywords: ["soot cleaning", "soot residue removal", "post-fire soot cl
 search_intent: "local_specialty"
 priority: 4.9
 plan_hash: "23fbb63b76481698"
-generated_at: "2026-09-22T02:11:15.631397+00:00"
+generated_at: "2026-09-23T14:11:40.973513+00:00"
 manual_override: false
 internal_links: ["/services/soot-removal/", "/service-areas/ellwood-city-pa/", "/service-areas/ellwood-city-pa/fire-damage-restoration/", "/service-areas/ellwood-city-pa/mold-remediation/", "/service-areas/aliquippa-pa/soot-removal/", "/service-areas/allison-park-pa/soot-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ellwood City", "url": "/service-areas/ellwood-city-pa/"}, {"name": "Soot Removal"}]

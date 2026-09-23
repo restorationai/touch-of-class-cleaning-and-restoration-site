@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "d354a09de12c1347"
-generated_at: "2026-09-20T19:37:11.689392+00:00"
+generated_at: "2026-09-23T14:11:54.165614+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/fife-wa/", "/service-areas/fife-wa/fire-damage-restoration/", "/service-areas/fife-wa/mold-remediation/", "/service-areas/algona-wa/burst-pipe-repair/", "/service-areas/auburn-wa/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fife", "url": "/service-areas/fife-wa/"}, {"name": "Burst Pipe Cleanup and Repair"}]

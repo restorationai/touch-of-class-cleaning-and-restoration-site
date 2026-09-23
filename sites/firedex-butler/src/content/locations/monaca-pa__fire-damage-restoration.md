@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration monaca"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "276639560007c738"
-generated_at: "2026-09-20T14:13:09.809258+00:00"
+plan_hash: "bd4dfdf20ad15e5e"
+generated_at: "2026-09-23T14:11:40.918631+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/monaca-pa/", "/service-areas/monaca-pa/mold-remediation/", "/service-areas/monaca-pa/water-damage-restoration/", "/service-areas/baden-pa/fire-damage-restoration/", "/service-areas/beaver-falls-pa/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/monaca-pa/", "/service-areas/monaca-pa/mold-remediation/", "/service-areas/monaca-pa/water-damage-restoration/", "/service-areas/aliquippa-pa/fire-damage-restoration/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Monaca", "url": "/service-areas/monaca-pa/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "monaca-pa"

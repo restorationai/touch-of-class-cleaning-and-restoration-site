@@ -7,10 +7,10 @@ primary_keyword: "roofing installation and replacement harvest"
 secondary_keywords: ["roofing contractor", "roof replacement", "new roof installation", "residential roofing", "roof repair"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "522ff87c60b488f6"
-generated_at: "2026-09-20T14:13:03.674850+00:00"
+plan_hash: "82f257f058c7e4de"
+generated_at: "2026-09-23T14:11:32.845629+00:00"
 manual_override: false
-internal_links: ["/services/roofing/", "/service-areas/harvest-al/", "/service-areas/harvest-al/home-remodeling/", "/service-areas/harvest-al/decks-pergolas-fences/", "/service-areas/athens-al/roofing/", "/service-areas/hazel-green-al/roofing/", "/contact/"]
+internal_links: ["/services/roofing/", "/service-areas/harvest-al/", "/service-areas/harvest-al/home-remodeling/", "/service-areas/harvest-al/decks-pergolas-fences/", "/service-areas/arab-al/roofing/", "/service-areas/ardmore-al/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Harvest", "url": "/service-areas/harvest-al/"}, {"name": "Roofing Installation and Replacement"}]
 faq: []
 area_slug: "harvest-al"

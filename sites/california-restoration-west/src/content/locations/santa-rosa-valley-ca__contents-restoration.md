@@ -7,10 +7,10 @@ primary_keyword: "contents restoration and storage santa rosa valley"
 secondary_keywords: ["contents pack-out", "contents cleaning", "belongings restoration", "furniture restoration after fire", "contents storage"]
 search_intent: "local_service"
 priority: 3.5
-plan_hash: "ef8f0b8a95da0de6"
-generated_at: "2026-09-20T14:12:59.580194+00:00"
+plan_hash: "38b70a1c7eaa6435"
+generated_at: "2026-09-23T14:11:28.125761+00:00"
 manual_override: false
-internal_links: ["/services/contents-restoration/", "/service-areas/santa-rosa-valley-ca/", "/service-areas/santa-rosa-valley-ca/mold-remediation/", "/service-areas/santa-rosa-valley-ca/water-damage-restoration/", "/service-areas/camarillo-ca/contents-restoration/", "/service-areas/fillmore-ca/contents-restoration/", "/contact/"]
+internal_links: ["/services/contents-restoration/", "/service-areas/santa-rosa-valley-ca/", "/service-areas/santa-rosa-valley-ca/mold-remediation/", "/service-areas/santa-rosa-valley-ca/water-damage-restoration/", "/service-areas/camarillo-ca/contents-restoration/", "/service-areas/carpinteria-ca/contents-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Santa Rosa Valley", "url": "/service-areas/santa-rosa-valley-ca/"}, {"name": "Contents Restoration and Storage"}]
 faq: []
 area_slug: "santa-rosa-valley-ca"

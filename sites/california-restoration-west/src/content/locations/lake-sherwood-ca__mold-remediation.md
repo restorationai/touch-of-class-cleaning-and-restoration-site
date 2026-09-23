@@ -7,10 +7,10 @@ primary_keyword: "mold remediation lake sherwood"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "4b4c8380ae558a9d"
-generated_at: "2026-09-20T19:36:47.034197+00:00"
+plan_hash: "cf68d716a8bc71b8"
+generated_at: "2026-09-23T14:11:28.133443+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/lake-sherwood-ca/", "/service-areas/lake-sherwood-ca/water-damage-restoration/", "/service-areas/lake-sherwood-ca/storm-damage-restoration/", "/service-areas/camarillo-ca/mold-remediation/", "/service-areas/fillmore-ca/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/lake-sherwood-ca/", "/service-areas/lake-sherwood-ca/water-damage-restoration/", "/service-areas/lake-sherwood-ca/storm-damage-restoration/", "/service-areas/camarillo-ca/mold-remediation/", "/service-areas/carpinteria-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Sherwood", "url": "/service-areas/lake-sherwood-ca/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "lake-sherwood-ca"

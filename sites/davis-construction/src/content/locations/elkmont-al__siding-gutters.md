@@ -7,10 +7,10 @@ primary_keyword: "siding and gutters elkmont"
 secondary_keywords: ["siding contractor", "siding installation", "siding replacement", "gutter installation", "exterior contractor"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "53ed36687ee7200d"
-generated_at: "2026-09-22T14:27:20.080793+00:00"
+plan_hash: "8efe6244c5d7451e"
+generated_at: "2026-09-23T14:11:32.872895+00:00"
 manual_override: false
-internal_links: ["/services/siding-gutters/", "/service-areas/elkmont-al/", "/service-areas/elkmont-al/home-remodeling/", "/service-areas/elkmont-al/roofing/", "/service-areas/ardmore-al/siding-gutters/", "/service-areas/athens-al/siding-gutters/", "/contact/"]
+internal_links: ["/services/siding-gutters/", "/service-areas/elkmont-al/", "/service-areas/elkmont-al/home-remodeling/", "/service-areas/elkmont-al/roofing/", "/service-areas/arab-al/siding-gutters/", "/service-areas/ardmore-al/siding-gutters/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elkmont", "url": "/service-areas/elkmont-al/"}, {"name": "Siding and Gutters"}]
 faq: []
 area_slug: "elkmont-al"

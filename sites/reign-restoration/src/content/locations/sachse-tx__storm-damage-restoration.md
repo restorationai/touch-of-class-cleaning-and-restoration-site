@@ -8,7 +8,7 @@ secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "75905989c8e5d5d2"
-generated_at: "2026-09-20T20:42:20.725492+00:00"
+generated_at: "2026-09-23T14:12:04.488999+00:00"
 manual_override: false
 internal_links: ["/services/storm-damage-restoration/", "/service-areas/sachse-tx/", "/service-areas/sachse-tx/fire-damage-restoration/", "/service-areas/sachse-tx/mold-remediation/", "/service-areas/allen-tx/storm-damage-restoration/", "/service-areas/caddo-mills-tx/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sachse", "url": "/service-areas/sachse-tx/"}, {"name": "Storm Damage Restoration"}]

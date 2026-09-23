@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "79646a6545260f3e"
-generated_at: "2026-09-20T19:37:20.002838+00:00"
+generated_at: "2026-09-23T14:12:02.377155+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/blue-diamond-nv/", "/service-areas/blue-diamond-nv/fire-damage-restoration/", "/service-areas/blue-diamond-nv/mold-remediation/", "/service-areas/boulder-city-nv/general-contracting/", "/service-areas/enterprise-nv/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Blue Diamond", "url": "/service-areas/blue-diamond-nv/"}, {"name": "Renovations, Remodels and General Contracting"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "f5f3f94b0bf542bd"
-generated_at: "2026-09-20T17:29:33.127142+00:00"
+generated_at: "2026-09-23T14:11:36.208925+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/woodcrest-ca/", "/service-areas/woodcrest-ca/fire-damage-restoration/", "/service-areas/woodcrest-ca/mold-remediation/", "/service-areas/anaheim-ca/emergency-board-up-tarping/", "/service-areas/chino-ca/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woodcrest", "url": "/service-areas/woodcrest-ca/"}, {"name": "Emergency Board-Up and Tarping"}]

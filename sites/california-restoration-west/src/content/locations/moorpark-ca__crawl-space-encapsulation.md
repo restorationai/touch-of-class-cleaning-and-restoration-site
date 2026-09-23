@@ -7,10 +7,10 @@ primary_keyword: "crawl space encapsulation moorpark"
 secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "6eccd991a5441b71"
-generated_at: "2026-09-20T14:12:59.579333+00:00"
+plan_hash: "80d16d0dbf7ebffd"
+generated_at: "2026-09-23T14:11:28.123942+00:00"
 manual_override: false
-internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/moorpark-ca/", "/service-areas/moorpark-ca/mold-remediation/", "/service-areas/moorpark-ca/water-damage-restoration/", "/service-areas/camarillo-ca/crawl-space-encapsulation/", "/service-areas/fillmore-ca/crawl-space-encapsulation/", "/contact/"]
+internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/moorpark-ca/", "/service-areas/moorpark-ca/mold-remediation/", "/service-areas/moorpark-ca/water-damage-restoration/", "/service-areas/camarillo-ca/crawl-space-encapsulation/", "/service-areas/carpinteria-ca/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Moorpark", "url": "/service-areas/moorpark-ca/"}, {"name": "Crawl Space Encapsulation"}]
 faq: []
 area_slug: "moorpark-ca"

@@ -64,9 +64,16 @@ export const brand = {
   sameAsUrls: ["https://maps.google.com/maps?cid=15917989220887052070", "https://www.yelp.com/biz/crew-construction-and-restoration-sioux-falls", "https://www.bbb.org/us/sd/sioux-falls/profile/fire-water-damage-restoration/crew-construction-restoration-0714-300168398", "https://www.facebook.com/CrewSiouxFalls/", "https://www.bing.com/maps?ss=ypid.YN841719F0A3CAB26F"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
-  gbpRatingValue: "",
-  gbpReviewCount: "",
-  gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
+  gbpRatingValue: "4.9",
+  gbpReviewCount: "564",
+  gbpReviews: [
+    { author: "Sarah", rating: 5, text: "Seeing the high rating for these folks is not surprising as the team is amazing! Sy in particular was a dream and we would love to work with them again!", when: "September 2026" },
+    { author: "Stacy", rating: 5, text: "Crew construction is highly recommended from me. Sy does amazing work on the restoration side I would always recommend reaching out and asking for Sy.", when: "September 2026" },
+    { author: "Alexander", rating: 5, text: "Great experience Worked directly with sy I am pleased with even his tone and care for customers. I will def work with him again.", when: "September 2026" },
+    { author: "Todd", rating: 5, text: "Zach and Crew restoration do amazing work. Highly recommend", when: "September 2026" },
+    { author: "Sheldon", rating: 5, text: "Zack is the absolute man. I would do business with this guy any day.", when: "September 2026" },
+    { author: "Andy", rating: 5, text: "Zach is extremely professional, reliable, and respectful. He communicates clearly, follows through on his commitments, and consistently approaches his work with a positive and professional attitude. He is dependable, easy to work with, and takes pride in doing things the right way. I would highly…", when: "September 2026" },
+  ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Sioux Falls, SD.",
   ctaLabel: "24/7 Emergency Line",
   // Vertical trade-identity copy — resolved at scaffold time from

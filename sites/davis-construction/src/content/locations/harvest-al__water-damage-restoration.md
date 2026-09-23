@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration harvest"
 secondary_keywords: ["water damage repair", "water damage rebuild", "drywall water damage repair", "ceiling water damage repair", "post-leak renovation"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "d73072d508051108"
-generated_at: "2026-09-20T14:13:03.675343+00:00"
+plan_hash: "2a667e1a388e9f2b"
+generated_at: "2026-09-23T14:11:32.846581+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/harvest-al/", "/service-areas/harvest-al/home-remodeling/", "/service-areas/harvest-al/roofing/", "/service-areas/athens-al/water-damage-restoration/", "/service-areas/hazel-green-al/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/harvest-al/", "/service-areas/harvest-al/home-remodeling/", "/service-areas/harvest-al/roofing/", "/service-areas/arab-al/water-damage-restoration/", "/service-areas/ardmore-al/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Harvest", "url": "/service-areas/harvest-al/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "harvest-al"

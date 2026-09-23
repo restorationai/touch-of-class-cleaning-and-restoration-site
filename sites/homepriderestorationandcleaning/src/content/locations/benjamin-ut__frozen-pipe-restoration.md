@@ -8,7 +8,7 @@ secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed 
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "a6c0fd89686fc8a6"
-generated_at: "2026-09-21T14:13:23.304287+00:00"
+generated_at: "2026-09-23T14:11:49.807289+00:00"
 manual_override: false
 internal_links: ["/services/frozen-pipe-restoration/", "/service-areas/benjamin-ut/", "/service-areas/benjamin-ut/fire-damage-restoration/", "/service-areas/benjamin-ut/mold-remediation/", "/service-areas/alpine-ut/frozen-pipe-restoration/", "/service-areas/american-fork-ut/frozen-pipe-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Benjamin", "url": "/service-areas/benjamin-ut/"}, {"name": "Frozen Pipe Restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "3f9e0e2e677ec051"
-generated_at: "2026-09-20T14:13:45.351136+00:00"
+generated_at: "2026-09-23T14:12:06.563613+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/new-providence-nj/", "/service-areas/new-providence-nj/fire-damage-restoration/", "/service-areas/new-providence-nj/mold-remediation/", "/service-areas/avenel-nj/emergency-board-up-tarping/", "/service-areas/bayonne-nj/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "New Providence", "url": "/service-areas/new-providence-nj/"}, {"name": "Emergency Board-Up and Tarping"}]

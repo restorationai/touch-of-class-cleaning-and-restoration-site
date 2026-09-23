@@ -7,10 +7,10 @@ primary_keyword: "odor removal and deodorization cedar hills"
 secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
 search_intent: "local_specialty"
 priority: 4.9
-plan_hash: "df9d863cfd94c30e"
-generated_at: "2026-09-20T14:13:18.735049+00:00"
+plan_hash: "ca8d03af8ae4432b"
+generated_at: "2026-09-23T14:11:49.762453+00:00"
 manual_override: false
-internal_links: ["/services/odor-removal/", "/service-areas/cedar-hills-ut/", "/service-areas/cedar-hills-ut/fire-damage-restoration/", "/service-areas/cedar-hills-ut/mold-remediation/", "/service-areas/american-fork-ut/odor-removal/", "/service-areas/cedar-fort-ut/odor-removal/", "/contact/"]
+internal_links: ["/services/odor-removal/", "/service-areas/cedar-hills-ut/", "/service-areas/cedar-hills-ut/fire-damage-restoration/", "/service-areas/cedar-hills-ut/mold-remediation/", "/service-areas/alpine-ut/odor-removal/", "/service-areas/american-fork-ut/odor-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Cedar Hills", "url": "/service-areas/cedar-hills-ut/"}, {"name": "Odor Removal and Deodorization"}]
 faq: []
 area_slug: "cedar-hills-ut"

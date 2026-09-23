@@ -7,10 +7,10 @@ primary_keyword: "restoration services mira monte"
 secondary_keywords: ["mira monte restoration company", "damage restoration mira monte", "mira monte disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "79f84e75751df64d"
-generated_at: "2026-09-20T14:12:59.572621+00:00"
+plan_hash: "67838c64ad06f14a"
+generated_at: "2026-09-23T14:11:28.103745+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/mira-monte-ca/mold-remediation/", "/service-areas/mira-monte-ca/water-damage-restoration/", "/service-areas/mira-monte-ca/storm-damage-restoration/", "/service-areas/mira-monte-ca/water-cleanup/", "/service-areas/mira-monte-ca/contents-restoration/", "/service-areas/mira-monte-ca/crawl-space-encapsulation/", "/service-areas/camarillo-ca/", "/service-areas/fillmore-ca/", "/service-areas/moorpark-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/mira-monte-ca/mold-remediation/", "/service-areas/mira-monte-ca/water-damage-restoration/", "/service-areas/mira-monte-ca/storm-damage-restoration/", "/service-areas/mira-monte-ca/water-cleanup/", "/service-areas/mira-monte-ca/odor-removal/", "/service-areas/mira-monte-ca/contents-restoration-storage/", "/service-areas/mira-monte-ca/contents-restoration/", "/service-areas/mira-monte-ca/crawl-space-encapsulation/", "/service-areas/camarillo-ca/", "/service-areas/carpinteria-ca/", "/service-areas/castaic-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mira Monte"}]
 faq: []
 area_slug: "mira-monte-ca"

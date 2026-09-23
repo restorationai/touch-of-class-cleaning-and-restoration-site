@@ -185,7 +185,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Fire Damage Restoration, Mold Remediation, Storm Damage Restoration, Renovations, Remodels and General Contracting, Sewage Cleanup and Sanitization, Biohazard Cleanup, Contents Restoration & Storage, Emergency Water Cleanup)
+- [ ] (continue for each of Biohazard Cleanup, Contents Restoration & Storage, Fire Damage Restoration, Renovations, Remodels and General Contracting, Mold Remediation, Odor Removal and Deodorization, Sewage Cleanup and Sanitization, Storm Damage Restoration, Emergency Water Cleanup, Water Damage Restoration)
 
 ### Service area pages (one image per city served)
 - [ ] North Las Vegas hero — exterior shot, regional housing stock, evocative of the city

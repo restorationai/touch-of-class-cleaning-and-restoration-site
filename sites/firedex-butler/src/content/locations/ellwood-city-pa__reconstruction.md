@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "38989f134c9e5d45"
-generated_at: "2026-09-22T02:11:15.632076+00:00"
+generated_at: "2026-09-23T14:11:40.972545+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/ellwood-city-pa/", "/service-areas/ellwood-city-pa/fire-damage-restoration/", "/service-areas/ellwood-city-pa/mold-remediation/", "/service-areas/aliquippa-pa/reconstruction/", "/service-areas/allison-park-pa/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ellwood City", "url": "/service-areas/ellwood-city-pa/"}, {"name": "Reconstruction Services"}]

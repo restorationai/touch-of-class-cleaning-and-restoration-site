@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "f74d001220f838a2"
-generated_at: "2026-09-20T19:36:56.920258+00:00"
+generated_at: "2026-09-23T14:11:40.944918+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/allison-park-pa/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/service-areas/allison-park-pa/mold-remediation/", "/service-areas/aliquippa-pa/mold-inspection-testing/", "/service-areas/baden-pa/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Allison Park", "url": "/service-areas/allison-park-pa/"}, {"name": "Mold Inspection and Testing"}]

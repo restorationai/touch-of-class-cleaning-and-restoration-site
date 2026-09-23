@@ -7,10 +7,10 @@ primary_keyword: "mold remediation somis"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "9cd694251094b401"
-generated_at: "2026-09-20T14:12:59.576763+00:00"
+plan_hash: "4dbe38e5427dfbd3"
+generated_at: "2026-09-23T14:11:28.119611+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/somis-ca/", "/service-areas/somis-ca/water-damage-restoration/", "/service-areas/somis-ca/storm-damage-restoration/", "/service-areas/camarillo-ca/mold-remediation/", "/service-areas/fillmore-ca/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/somis-ca/", "/service-areas/somis-ca/water-damage-restoration/", "/service-areas/somis-ca/storm-damage-restoration/", "/service-areas/camarillo-ca/mold-remediation/", "/service-areas/carpinteria-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Somis", "url": "/service-areas/somis-ca/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "somis-ca"

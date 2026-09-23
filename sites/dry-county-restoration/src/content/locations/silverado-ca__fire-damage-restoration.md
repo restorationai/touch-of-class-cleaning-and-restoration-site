@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration silverado"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "d5b5367574b0d6c7"
-generated_at: "2026-09-20T14:13:06.379032+00:00"
+plan_hash: "e2ad910a7823ab90"
+generated_at: "2026-09-23T14:11:36.184381+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/silverado-ca/", "/service-areas/silverado-ca/mold-remediation/", "/service-areas/silverado-ca/water-damage-restoration/", "/service-areas/anaheim-ca/fire-damage-restoration/", "/service-areas/chino-ca/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/silverado-ca/", "/service-areas/silverado-ca/mold-remediation/", "/service-areas/silverado-ca/roofing/", "/service-areas/anaheim-ca/fire-damage-restoration/", "/service-areas/chino-ca/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Silverado", "url": "/service-areas/silverado-ca/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "silverado-ca"

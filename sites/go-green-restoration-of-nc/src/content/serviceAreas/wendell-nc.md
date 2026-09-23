@@ -7,10 +7,10 @@ primary_keyword: "restoration services wendell"
 secondary_keywords: ["wendell restoration company", "damage restoration wendell", "wendell disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "3932778a1153a4d5"
-generated_at: "2026-09-20T14:13:14.678937+00:00"
+plan_hash: "5517def8d98975d2"
+generated_at: "2026-09-23T14:11:44.808011+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/wendell-nc/fire-damage-restoration/", "/service-areas/wendell-nc/mold-remediation/", "/service-areas/wendell-nc/water-damage-restoration/", "/service-areas/wendell-nc/water-cleanup/", "/service-areas/wendell-nc/air-duct-cleaning/", "/service-areas/wendell-nc/crawl-space-encapsulation/", "/service-areas/wendell-nc/insulation-removal-installation/", "/service-areas/wendell-nc/carpet-cleaning/", "/service-areas/archer-lodge-nc/", "/service-areas/clayton-nc/", "/service-areas/durham-nc/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/wendell-nc/fire-damage-restoration/", "/service-areas/wendell-nc/mold-remediation/", "/service-areas/wendell-nc/water-damage-restoration/", "/service-areas/wendell-nc/water-cleanup/", "/service-areas/wendell-nc/biohazard-cleanup/", "/service-areas/wendell-nc/odor-removal/", "/service-areas/wendell-nc/air-duct-cleaning/", "/service-areas/wendell-nc/crawl-space-encapsulation/", "/service-areas/wendell-nc/insulation-removal-installation/", "/service-areas/wendell-nc/carpet-cleaning/", "/service-areas/archer-lodge-nc/", "/service-areas/clayton-nc/", "/service-areas/durham-nc/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wendell"}]
 faq: []
 area_slug: "wendell-nc"

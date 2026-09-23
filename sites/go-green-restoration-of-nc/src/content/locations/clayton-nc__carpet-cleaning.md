@@ -8,7 +8,7 @@ secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "ca
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "60fc99504f1cc4a0"
-generated_at: "2026-09-20T14:13:14.689787+00:00"
+generated_at: "2026-09-23T14:11:44.839033+00:00"
 manual_override: false
 internal_links: ["/services/carpet-cleaning/", "/service-areas/clayton-nc/", "/service-areas/clayton-nc/fire-damage-restoration/", "/service-areas/clayton-nc/mold-remediation/", "/service-areas/archer-lodge-nc/carpet-cleaning/", "/service-areas/durham-nc/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Clayton", "url": "/service-areas/clayton-nc/"}, {"name": "Carpet Cleaning"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitizati
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "937a7a6207f7ff22"
-generated_at: "2026-09-20T14:13:14.685457+00:00"
+generated_at: "2026-09-23T14:11:44.829609+00:00"
 manual_override: false
 internal_links: ["/services/air-duct-cleaning/", "/service-areas/lake-royale-nc/", "/service-areas/lake-royale-nc/fire-damage-restoration/", "/service-areas/lake-royale-nc/mold-remediation/", "/service-areas/archer-lodge-nc/air-duct-cleaning/", "/service-areas/clayton-nc/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Royale", "url": "/service-areas/lake-royale-nc/"}, {"name": "Air Duct Cleaning"}]

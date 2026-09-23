@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "be46f96879e050c6"
-generated_at: "2026-09-22T14:27:31.946278+00:00"
+generated_at: "2026-09-23T14:11:40.975447+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/big-beaver-pa/", "/service-areas/big-beaver-pa/fire-damage-restoration/", "/service-areas/big-beaver-pa/mold-remediation/", "/service-areas/aliquippa-pa/burst-pipe-repair/", "/service-areas/allison-park-pa/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Big Beaver", "url": "/service-areas/big-beaver-pa/"}, {"name": "Burst Pipe Cleanup and Repair"}]

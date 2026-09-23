@@ -7,10 +7,10 @@ primary_keyword: "storm damage restoration mcfarland"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "660c307376975660"
-generated_at: "2026-09-20T14:13:26.553315+00:00"
+plan_hash: "10cb8b79bae3f466"
+generated_at: "2026-09-23T14:11:55.994456+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/mcfarland-ca/", "/service-areas/mcfarland-ca/fire-damage-restoration/", "/service-areas/mcfarland-ca/home-remodeling/", "/service-areas/arvin-ca/storm-damage-restoration/", "/service-areas/buttonwillow-ca/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/mcfarland-ca/", "/service-areas/mcfarland-ca/fire-damage-restoration/", "/service-areas/mcfarland-ca/home-remodeling/", "/service-areas/arvin-ca/storm-damage-restoration/", "/service-areas/bear-valley-springs-ca/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McFarland", "url": "/service-areas/mcfarland-ca/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "mcfarland-ca"

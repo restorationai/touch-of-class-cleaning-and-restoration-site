@@ -8,16 +8,16 @@ secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "595362c15647d24b"
-generated_at: "2026-09-20T14:13:23.228729+00:00"
+generated_at: "2026-09-23T14:11:54.061831+00:00"
 manual_override: false
 internal_links: ["/services/water-cleanup/", "/service-areas/kent-wa/", "/service-areas/kent-wa/fire-damage-restoration/", "/service-areas/kent-wa/mold-remediation/", "/service-areas/algona-wa/water-cleanup/", "/service-areas/auburn-wa/water-cleanup/", "/contact/"]
-breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Kent", "url": "/service-areas/kent-wa/"}, {"name": "water-cleanup"}]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Kent", "url": "/service-areas/kent-wa/"}, {"name": "Emergency Water Cleanup"}]
 faq: []
 area_slug: "kent-wa"
 service_slug: "water-cleanup"
 city: "Kent"
 state: "WA"
-service_display: "water-cleanup"
+service_display: "Emergency Water Cleanup"
 ---
 <!-- Page body not yet generated. Run `build_site.py render --slug narestco` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
 

@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "fe87f35af78db81a"
-generated_at: "2026-09-21T15:54:35.843735+00:00"
+generated_at: "2026-09-23T14:11:34.846064+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/new-castle-pa/", "/service-areas/new-castle-pa/fire-damage-restoration/", "/service-areas/new-castle-pa/mold-remediation/", "/service-areas/austintown-oh/general-contracting/", "/service-areas/boardman-oh/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "New Castle", "url": "/service-areas/new-castle-pa/"}, {"name": "Renovations, Remodels and General Contracting"}]

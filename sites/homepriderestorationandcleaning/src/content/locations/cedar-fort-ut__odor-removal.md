@@ -7,10 +7,10 @@ primary_keyword: "odor removal and deodorization cedar fort"
 secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
 search_intent: "local_specialty"
 priority: 4.9
-plan_hash: "e29a6dab02a41b7d"
-generated_at: "2026-09-20T14:13:18.738379+00:00"
+plan_hash: "2fe6fa241c182a28"
+generated_at: "2026-09-23T14:11:49.770026+00:00"
 manual_override: false
-internal_links: ["/services/odor-removal/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-fort-ut/fire-damage-restoration/", "/service-areas/cedar-fort-ut/mold-remediation/", "/service-areas/american-fork-ut/odor-removal/", "/service-areas/cedar-hills-ut/odor-removal/", "/contact/"]
+internal_links: ["/services/odor-removal/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-fort-ut/fire-damage-restoration/", "/service-areas/cedar-fort-ut/mold-remediation/", "/service-areas/alpine-ut/odor-removal/", "/service-areas/american-fork-ut/odor-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Cedar Fort", "url": "/service-areas/cedar-fort-ut/"}, {"name": "Odor Removal and Deodorization"}]
 faq: []
 area_slug: "cedar-fort-ut"

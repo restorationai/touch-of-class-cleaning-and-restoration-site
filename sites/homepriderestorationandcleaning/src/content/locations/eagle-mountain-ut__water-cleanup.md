@@ -7,10 +7,10 @@ primary_keyword: "emergency water cleanup eagle mountain"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "330451fb3bf59a1d"
-generated_at: "2026-09-20T14:13:18.715393+00:00"
+plan_hash: "4d33f92c619fc133"
+generated_at: "2026-09-23T14:11:49.705360+00:00"
 manual_override: false
-internal_links: ["/services/water-cleanup/", "/service-areas/eagle-mountain-ut/", "/service-areas/eagle-mountain-ut/fire-damage-restoration/", "/service-areas/eagle-mountain-ut/mold-remediation/", "/service-areas/american-fork-ut/water-cleanup/", "/service-areas/cedar-fort-ut/water-cleanup/", "/contact/"]
+internal_links: ["/services/water-cleanup/", "/service-areas/eagle-mountain-ut/", "/service-areas/eagle-mountain-ut/fire-damage-restoration/", "/service-areas/eagle-mountain-ut/mold-remediation/", "/service-areas/alpine-ut/water-cleanup/", "/service-areas/american-fork-ut/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Eagle Mountain", "url": "/service-areas/eagle-mountain-ut/"}, {"name": "water-cleanup"}]
 faq: []
 area_slug: "eagle-mountain-ut"

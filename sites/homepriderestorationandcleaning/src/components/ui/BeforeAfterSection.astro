@@ -6,7 +6,9 @@
  * the client's `src/data/work.ts`). Renders nothing when `pairs` is empty, so
  * it is safe to leave wired into every homepage.
  *
- * SERVICE-DRIVEN CONTENT RULE (keep pairs honest):
+ * Pairs are Davis-pattern generated showcase imagery by default (2026-09-18)
+ * — populate at build, never leave the section empty waiting on real photos.
+ * SERVICE-DRIVEN CONTENT RULE (keep pairs service-matched):
  *   - Mitigation/restoration clients  -> water / fire / mold / sewage / storm pairs.
  *   - Cleaning clients                -> add carpet / upholstery / tile & grout pairs.
  *   - ONLY include remodel/renovation pairs (kitchen, bathroom, rebuild) if the
@@ -57,7 +59,7 @@ const {
         {ctaHref && (
           <a
             href={ctaHref}
-            class="bg-white text-dark font-black uppercase px-8 py-4 text-base flex items-center justify-center gap-3 hover:bg-primary-600 hover:text-white transition-all rounded-sm shadow-xl"
+            class="bg-white text-dark font-black uppercase px-8 py-4 text-base flex items-center justify-center gap-3 hover:bg-cta hover:text-cta-fg transition-all rounded-sm shadow-xl"
           >
             {ctaLabel} <ArrowRight size={20} />
           </a>
@@ -107,7 +109,7 @@ const {
                   loading="lazy"
                   decoding="async"
                 />
-                <span class="absolute top-3 right-3 bg-primary-600/90 text-white text-xs font-black uppercase tracking-widest px-2.5 py-1 rounded backdrop-blur-sm pointer-events-none">
+                <span class="absolute top-3 right-3 bg-cta/90 text-cta-fg text-xs font-black uppercase tracking-widest px-2.5 py-1 rounded backdrop-blur-sm pointer-events-none">
                   After
                 </span>
               </div>

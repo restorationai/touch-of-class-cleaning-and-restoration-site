@@ -7,10 +7,10 @@ primary_keyword: "emergency water cleanup alpine"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "43485f78454bf39b"
-generated_at: "2026-09-20T19:17:30.791960+00:00"
+plan_hash: "1565b1887d2b4d9b"
+generated_at: "2026-09-23T14:11:49.787894+00:00"
 manual_override: false
-internal_links: ["/services/water-cleanup/", "/service-areas/alpine-ut/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/american-fork-ut/water-cleanup/", "/service-areas/bluffdale-ut/water-cleanup/", "/contact/"]
+internal_links: ["/services/water-cleanup/", "/service-areas/alpine-ut/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/american-fork-ut/water-cleanup/", "/service-areas/benjamin-ut/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Alpine", "url": "/service-areas/alpine-ut/"}, {"name": "water-cleanup"}]
 faq: []
 area_slug: "alpine-ut"

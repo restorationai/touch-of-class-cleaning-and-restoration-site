@@ -52,8 +52,8 @@ export default {
            2026-08-05: "Action to call on the website need to match golds as
            the logo" — the fill is the logo gold now, the label moved instead. */
         cta: {
-          DEFAULT: "#e4002b",
-          hover: "#b80023",
+          DEFAULT: "#187cab",
+          hover: "#136287",
           fg: "#ffffff",
         },
         accent: {

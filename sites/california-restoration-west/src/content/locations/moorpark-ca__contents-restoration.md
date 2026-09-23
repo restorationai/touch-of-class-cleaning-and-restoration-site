@@ -7,10 +7,10 @@ primary_keyword: "contents restoration and storage moorpark"
 secondary_keywords: ["contents pack-out", "contents cleaning", "belongings restoration", "furniture restoration after fire", "contents storage"]
 search_intent: "local_service"
 priority: 3.5
-plan_hash: "8acfa851dacf54aa"
-generated_at: "2026-09-20T14:12:59.579172+00:00"
+plan_hash: "d7aa4bfe5708daf4"
+generated_at: "2026-09-23T14:11:28.123400+00:00"
 manual_override: false
-internal_links: ["/services/contents-restoration/", "/service-areas/moorpark-ca/", "/service-areas/moorpark-ca/mold-remediation/", "/service-areas/moorpark-ca/water-damage-restoration/", "/service-areas/camarillo-ca/contents-restoration/", "/service-areas/fillmore-ca/contents-restoration/", "/contact/"]
+internal_links: ["/services/contents-restoration/", "/service-areas/moorpark-ca/", "/service-areas/moorpark-ca/mold-remediation/", "/service-areas/moorpark-ca/water-damage-restoration/", "/service-areas/camarillo-ca/contents-restoration/", "/service-areas/carpinteria-ca/contents-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Moorpark", "url": "/service-areas/moorpark-ca/"}, {"name": "Contents Restoration and Storage"}]
 faq: []
 area_slug: "moorpark-ca"

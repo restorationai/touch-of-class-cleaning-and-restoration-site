@@ -7,10 +7,10 @@ primary_keyword: "contents restoration & storage summerlin south"
 secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "6cacbb5ee2f104c0"
-generated_at: "2026-09-20T19:17:45.551753+00:00"
+plan_hash: "98841326278be675"
+generated_at: "2026-09-23T14:12:02.373492+00:00"
 manual_override: false
-internal_links: ["/services/contents-restoration-storage/", "/service-areas/summerlin-south-nv/", "/service-areas/summerlin-south-nv/fire-damage-restoration/", "/service-areas/summerlin-south-nv/mold-remediation/", "/service-areas/boulder-city-nv/contents-restoration-storage/", "/service-areas/enterprise-nv/contents-restoration-storage/", "/contact/"]
+internal_links: ["/services/contents-restoration-storage/", "/service-areas/summerlin-south-nv/", "/service-areas/summerlin-south-nv/fire-damage-restoration/", "/service-areas/summerlin-south-nv/mold-remediation/", "/service-areas/blue-diamond-nv/contents-restoration-storage/", "/service-areas/boulder-city-nv/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Summerlin South", "url": "/service-areas/summerlin-south-nv/"}, {"name": "Contents Restoration & Storage"}]
 faq: []
 area_slug: "summerlin-south-nv"

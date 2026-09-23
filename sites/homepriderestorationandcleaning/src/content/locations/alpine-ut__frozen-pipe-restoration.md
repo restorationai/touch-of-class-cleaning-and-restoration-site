@@ -7,10 +7,10 @@ primary_keyword: "frozen pipe restoration alpine"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"
 priority: 4.9
-plan_hash: "b23058b5938ff5c7"
-generated_at: "2026-09-20T19:17:30.790582+00:00"
+plan_hash: "5db8500257d72d9f"
+generated_at: "2026-09-23T14:11:49.783460+00:00"
 manual_override: false
-internal_links: ["/services/frozen-pipe-restoration/", "/service-areas/alpine-ut/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/american-fork-ut/frozen-pipe-restoration/", "/service-areas/bluffdale-ut/frozen-pipe-restoration/", "/contact/"]
+internal_links: ["/services/frozen-pipe-restoration/", "/service-areas/alpine-ut/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/american-fork-ut/frozen-pipe-restoration/", "/service-areas/benjamin-ut/frozen-pipe-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Alpine", "url": "/service-areas/alpine-ut/"}, {"name": "Frozen Pipe Restoration"}]
 faq: []
 area_slug: "alpine-ut"

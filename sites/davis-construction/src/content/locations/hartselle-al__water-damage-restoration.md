@@ -8,7 +8,7 @@ secondary_keywords: ["water damage repair", "water damage rebuild", "drywall wat
 search_intent: "local_commercial"
 priority: 4.9
 plan_hash: "f227ff83d124a8f3"
-generated_at: "2026-09-22T20:18:17.663199+00:00"
+generated_at: "2026-09-23T14:11:32.883231+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/hartselle-al/", "/service-areas/hartselle-al/home-remodeling/", "/service-areas/hartselle-al/roofing/", "/service-areas/arab-al/water-damage-restoration/", "/service-areas/ardmore-al/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hartselle", "url": "/service-areas/hartselle-al/"}, {"name": "Water Damage Restoration"}]

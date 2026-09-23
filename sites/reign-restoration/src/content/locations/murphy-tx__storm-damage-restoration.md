@@ -8,7 +8,7 @@ secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "23340f19b1209a19"
-generated_at: "2026-09-21T19:19:21.958046+00:00"
+generated_at: "2026-09-23T14:12:04.494558+00:00"
 manual_override: false
 internal_links: ["/services/storm-damage-restoration/", "/service-areas/murphy-tx/", "/service-areas/murphy-tx/fire-damage-restoration/", "/service-areas/murphy-tx/mold-remediation/", "/service-areas/allen-tx/storm-damage-restoration/", "/service-areas/caddo-mills-tx/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Murphy", "url": "/service-areas/murphy-tx/"}, {"name": "Storm Damage Restoration"}]

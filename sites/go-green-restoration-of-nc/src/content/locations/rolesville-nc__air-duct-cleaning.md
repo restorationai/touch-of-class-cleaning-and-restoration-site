@@ -8,7 +8,7 @@ secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitizati
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "e0aba81f73ed0241"
-generated_at: "2026-09-20T19:37:01.991764+00:00"
+generated_at: "2026-09-23T14:11:44.847311+00:00"
 manual_override: false
 internal_links: ["/services/air-duct-cleaning/", "/service-areas/rolesville-nc/", "/service-areas/rolesville-nc/fire-damage-restoration/", "/service-areas/rolesville-nc/mold-remediation/", "/service-areas/archer-lodge-nc/air-duct-cleaning/", "/service-areas/clayton-nc/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rolesville", "url": "/service-areas/rolesville-nc/"}, {"name": "Air Duct Cleaning"}]

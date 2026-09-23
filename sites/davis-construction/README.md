@@ -36,29 +36,48 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `2008` | brand.founded_year | `2004` |
 | `Madison` / `AL` | derived from primary area | `Federal Way` / `WA` |
 | `` / `` | brand.street_address / brand.postal_code | |
-| `` / `` | brand.lat / brand.lng | from GBP |
+| `34.77368` / `-86.56751` | brand.lat / brand.lng | from GBP |
 | `` / `` | brand.place_id / brand.google_cid | from GBP |
 | `[]` | brand.license_numbers (JSON-encoded array) | `["NATIORC792M6"]` |
 | `` / `` | brand.license_authority / brand.license_type | |
 | `[]` | brand.certifications (JSON-encoded array) | `["IICRC", "BBB Accredited"]` |
 | `[]` | brand.same_as_urls (JSON-encoded array) | |
 | `` / `` | from GBP | `5.0` / `31` |
-| `24/7 restoration services in Madison, AL.` | brand.tagline | short marketing line |
-| `#0d1b3e` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
+| `Construction and remodeling services in Madison, AL.` | brand.tagline | short marketing line |
+| `#171717` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
 | `Inter` / `Inter` | brand.fonts | `Inter` / `Inter` |
 | `https://images.davisconstructioncontractors.com/brand/logo.png` / `DC` | derived; logo lives on the per-client R2 bucket | |
 | `https://images.davisconstructioncontractors.com` | `https://images.{domain}` | |
-| `- Home Remodeling: https://davisconstructioncontractors.com/services/home-remodeling/
-- New Home Construction: https://davisconstructioncontractors.com/services/new-construction/
-- Decks, Pergolas and Fences: https://davisconstructioncontractors.com/services/decks-pergolas-fences/
-- Roofing Installation and Replacement: https://davisconstructioncontractors.com/services/roofing/
-- Siding and Gutters: https://davisconstructioncontractors.com/services/siding-gutters/
-- Painting and Trim: https://davisconstructioncontractors.com/services/painting-trim/
-- Water Damage Restoration: https://davisconstructioncontractors.com/services/water-damage-restoration/
-- Storm Damage Restoration: https://davisconstructioncontractors.com/services/storm-damage-restoration/
-- Mold Remediation: https://davisconstructioncontractors.com/services/mold-remediation/` / `- Madison, AL: https://davisconstructioncontractors.com/service-areas/madison-al/
-- Huntsville, AL: https://davisconstructioncontractors.com/service-areas/huntsville-al/
-- Athens, AL: https://davisconstructioncontractors.com/service-areas/athens-al/` / `Licensed and insured` / `Greater Madison region` | computed at scaffold from plan + brand | |
+| `- [Decks, Pergolas and Fences](https://davisconstructioncontractors.com/services/decks-pergolas-fences/)
+- [Fire and Smoke Damage Rebuilding](https://davisconstructioncontractors.com/services/fire-smoke-rebuilding/)
+- [Home Remodeling](https://davisconstructioncontractors.com/services/home-remodeling/)
+- [Mold Remediation](https://davisconstructioncontractors.com/services/mold-remediation/)
+- [New Home Construction](https://davisconstructioncontractors.com/services/new-construction/)
+- [Painting and Trim](https://davisconstructioncontractors.com/services/painting-trim/)
+- [Roofing Installation and Replacement](https://davisconstructioncontractors.com/services/roofing/)
+- [Siding and Gutters](https://davisconstructioncontractors.com/services/siding-gutters/)
+- [Storm Damage Restoration](https://davisconstructioncontractors.com/services/storm-damage-restoration/)
+- [Water Damage Restoration](https://davisconstructioncontractors.com/services/water-damage-restoration/)
+- [Window and Door Installation](https://davisconstructioncontractors.com/services/windows-doors/)` / `- [Madison, AL](https://davisconstructioncontractors.com/service-areas/madison-al/)
+- [Huntsville, AL](https://davisconstructioncontractors.com/service-areas/huntsville-al/)
+- [Athens, AL](https://davisconstructioncontractors.com/service-areas/athens-al/)
+- [Moores Mill, AL](https://davisconstructioncontractors.com/service-areas/moores-mill-al/)
+- [Redstone Arsenal, AL](https://davisconstructioncontractors.com/service-areas/redstone-arsenal-al/)
+- [Meridianville, AL](https://davisconstructioncontractors.com/service-areas/meridianville-al/)
+- [Hazel Green, AL](https://davisconstructioncontractors.com/service-areas/hazel-green-al/)
+- [New Market, AL](https://davisconstructioncontractors.com/service-areas/new-market-al/)
+- [Harvest, AL](https://davisconstructioncontractors.com/service-areas/harvest-al/)
+- [Gurley, AL](https://davisconstructioncontractors.com/service-areas/gurley-al/)
+- [Owens Cross Roads, AL](https://davisconstructioncontractors.com/service-areas/owens-cross-roads-al/)
+- [Triana, AL](https://davisconstructioncontractors.com/service-areas/triana-al/)
+- [New Hope, AL](https://davisconstructioncontractors.com/service-areas/new-hope-al/)
+- [Ardmore, AL](https://davisconstructioncontractors.com/service-areas/ardmore-al/)
+- [Priceville, AL](https://davisconstructioncontractors.com/service-areas/priceville-al/)
+- [Somerville, AL](https://davisconstructioncontractors.com/service-areas/somerville-al/)
+- [Elkmont, AL](https://davisconstructioncontractors.com/service-areas/elkmont-al/)
+- [Decatur, AL](https://davisconstructioncontractors.com/service-areas/decatur-al/)
+- [Arab, AL](https://davisconstructioncontractors.com/service-areas/arab-al/)
+- [Hartselle, AL](https://davisconstructioncontractors.com/service-areas/hartselle-al/)` / `Available on request` / `Greater Madison region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

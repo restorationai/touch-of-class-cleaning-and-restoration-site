@@ -7,7 +7,7 @@ const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
   <div class="container-wide flex items-center justify-between gap-3 sm:gap-6 h-20">
     <a href="/" class="flex items-center gap-3 no-underline text-white group min-w-0 flex-1 overflow-hidden">
       {brand.logoUrl && (
-        <img src={brand.logoUrl} alt={`${brand.displayName} logo`} class="h-14 md:h-16 w-auto max-w-[30vw] sm:max-w-[200px] md:max-w-[240px] object-contain object-left group-hover:scale-105 transition-transform" width="36" height="36" loading="eager" />
+        <img src={brand.logoUrl} alt={`${brand.displayName} logo`} class="h-14 md:h-16 w-auto max-w-[72vw] sm:max-w-none object-contain object-left group-hover:scale-105 transition-transform" width="36" height="36" loading="eager" />
       )}
     </a>
 
@@ -22,12 +22,13 @@ const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
     </nav>
 
     <div class="flex items-center gap-2 flex-shrink-0">
-      <a href={`tel:${brand.phoneRaw}`} class="btn-primary text-sm md:text-base px-4 sm:px-6 py-3 md:py-4 shadow-primary-900/40 text-center leading-tight font-black">
+      <a href={`tel:${brand.phoneRaw}`} class={`${(brand as {hideMobileHeaderCall?: boolean}).hideMobileHeaderCall ? "hidden sm:block " : ""}btn-primary text-sm md:text-base px-4 sm:px-6 py-3 md:py-4 shadow-primary-900/40 text-center leading-tight font-black`}>
         <span class="hidden sm:block tracking-wide whitespace-nowrap">Call Us Now <span aria-hidden="true">•</span> {brand.phone}</span>
         <span class="sm:hidden flex flex-col items-center gap-0.5">
           <span class="text-[11px] font-black tracking-[0.15em] opacity-90 uppercase">Call Us Now</span>
           <span class="font-black tracking-wide whitespace-nowrap">{brand.phone}</span>
         </span>
+
       </a>
       <button id="mobile-nav-toggle" type="button" class="lg:hidden inline-flex flex-col items-center justify-center w-11 h-11 gap-[5px] rounded-md border border-white/20 text-white flex-shrink-0" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
         <span class="block w-5 h-0.5 bg-current"></span>

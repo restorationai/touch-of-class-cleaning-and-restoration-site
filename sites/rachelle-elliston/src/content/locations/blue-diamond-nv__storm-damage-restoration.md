@@ -8,7 +8,7 @@ secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "0aa8012658d81501"
-generated_at: "2026-09-20T19:37:20.002724+00:00"
+generated_at: "2026-09-23T14:12:02.378261+00:00"
 manual_override: false
 internal_links: ["/services/storm-damage-restoration/", "/service-areas/blue-diamond-nv/", "/service-areas/blue-diamond-nv/fire-damage-restoration/", "/service-areas/blue-diamond-nv/mold-remediation/", "/service-areas/boulder-city-nv/storm-damage-restoration/", "/service-areas/enterprise-nv/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Blue Diamond", "url": "/service-areas/blue-diamond-nv/"}, {"name": "Storm Damage Restoration"}]

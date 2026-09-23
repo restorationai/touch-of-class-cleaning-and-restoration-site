@@ -7,10 +7,10 @@ primary_keyword: "mold remediation des moines"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "ffb0db309559cd9c"
-generated_at: "2026-09-20T14:13:23.238865+00:00"
+plan_hash: "420c1616ec3fcf41"
+generated_at: "2026-09-23T14:11:54.104487+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/des-moines-wa/", "/service-areas/des-moines-wa/fire-damage-restoration/", "/service-areas/des-moines-wa/water-damage-restoration/", "/service-areas/algona-wa/mold-remediation/", "/service-areas/auburn-wa/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/des-moines-wa/", "/service-areas/des-moines-wa/fire-damage-restoration/", "/service-areas/des-moines-wa/roofing/", "/service-areas/algona-wa/mold-remediation/", "/service-areas/auburn-wa/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Des Moines", "url": "/service-areas/des-moines-wa/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "des-moines-wa"

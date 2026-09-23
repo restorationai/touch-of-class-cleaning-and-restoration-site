@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "063b35de07923fe0"
-generated_at: "2026-09-20T19:37:11.690229+00:00"
+generated_at: "2026-09-23T14:11:54.170704+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/fife-wa/", "/service-areas/fife-wa/fire-damage-restoration/", "/service-areas/fife-wa/mold-remediation/", "/service-areas/algona-wa/smoke-damage-restoration/", "/service-areas/auburn-wa/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fife", "url": "/service-areas/fife-wa/"}, {"name": "Smoke Damage Restoration"}]

@@ -36,7 +36,7 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `` | brand.founded_year | `2004` |
 | `Bakersfield` / `CA` | derived from primary area | `Federal Way` / `WA` |
 | `3556 Bowman Ct Suite B` / `93308` | brand.street_address / brand.postal_code | |
-| `` / `` | brand.lat / brand.lng | from GBP |
+| `35.392` / `-119.09` | brand.lat / brand.lng | from GBP |
 | `ChIJH_3NClVC6oAR3mxvd5xofrQ` / `13005947795120549086` | brand.place_id / brand.google_cid | from GBP |
 | `["960566"]` | brand.license_numbers (JSON-encoded array) | `["NATIORC792M6"]` |
 | `Contractors State License Board (CSLB), State of California` / `` | brand.license_authority / brand.license_type | |
@@ -44,26 +44,37 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `["https://www.google.com/maps?cid=13005947795120549086"]` | brand.same_as_urls (JSON-encoded array) | |
 | `` / `` | from GBP | `5.0` / `31` |
 | `24/7 restoration services in Bakersfield, CA.` | brand.tagline | short marketing line |
-| `#dc2626` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
+| `#171717` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
 | `Inter` / `Inter` | brand.fonts | `Inter` / `Inter` |
 | `https://images.prorestorationca.com/brand/logo.png` / `PS` | derived; logo lives on the per-client R2 bucket | |
 | `https://images.prorestorationca.com` | `https://images.{domain}` | |
-| `- [Water Damage Restoration](https://prorestorationca.com/services/water-damage-restoration/)
-- [Flood Damage Restoration](https://prorestorationca.com/services/flood-damage-restoration/)
-- [Burst Pipe Cleanup and Repair](https://prorestorationca.com/services/burst-pipe-repair/)
+| `- [Air Duct Cleaning](https://prorestorationca.com/services/air-duct-cleaning/)
 - [Appliance Leak Cleanup](https://prorestorationca.com/services/appliance-leak-cleanup/)
-- [Sewage Cleanup and Sanitization](https://prorestorationca.com/services/sewage-cleanup/)
+- [Asbestos Abatement](https://prorestorationca.com/services/asbestos-abatement/)
+- [Biohazard Cleanup](https://prorestorationca.com/services/biohazard-cleanup/)
+- [Burst Pipe Cleanup and Repair](https://prorestorationca.com/services/burst-pipe-repair/)
+- [Carpet Cleaning](https://prorestorationca.com/services/carpet-cleaning/)
+- [Contents Restoration & Storage](https://prorestorationca.com/services/contents-restoration-storage/)
+- [Crawl Space Encapsulation](https://prorestorationca.com/services/crawl-space-encapsulation/)
+- [Emergency Board-Up and Tarping](https://prorestorationca.com/services/emergency-board-up-tarping/)
+- [Emergency Plumbing](https://prorestorationca.com/services/emergency-plumbing/)
 - [Fire Damage Restoration](https://prorestorationca.com/services/fire-damage-restoration/)
+- [Flood Damage Restoration](https://prorestorationca.com/services/flood-damage-restoration/)
+- [Renovations, Remodels and General Contracting](https://prorestorationca.com/services/general-contracting/)
+- [Home Remodeling](https://prorestorationca.com/services/home-remodeling/)
+- [Mold Inspection and Testing](https://prorestorationca.com/services/mold-inspection-testing/)
+- [Mold Remediation](https://prorestorationca.com/services/mold-remediation/)
+- [Odor Removal and Deodorization](https://prorestorationca.com/services/odor-removal/)
+- [Post-Construction and Specialty Cleaning](https://prorestorationca.com/services/post-construction-cleaning/)
+- [Reconstruction Services](https://prorestorationca.com/services/reconstruction/)
+- [Roofing Installation and Replacement](https://prorestorationca.com/services/roofing/)
+- [Sewage Cleanup and Sanitization](https://prorestorationca.com/services/sewage-cleanup/)
 - [Smoke Damage Restoration](https://prorestorationca.com/services/smoke-damage-restoration/)
 - [Soot Removal](https://prorestorationca.com/services/soot-removal/)
-- [Odor Removal and Deodorization](https://prorestorationca.com/services/odor-removal/)
-- [Mold Remediation](https://prorestorationca.com/services/mold-remediation/)
-- [Mold Inspection and Testing](https://prorestorationca.com/services/mold-inspection-testing/)
 - [Storm Damage Restoration](https://prorestorationca.com/services/storm-damage-restoration/)
-- [Carpet Cleaning](https://prorestorationca.com/services/carpet-cleaning/)
-- [Reconstruction Services](https://prorestorationca.com/services/reconstruction/)
-- [Home Remodeling](https://prorestorationca.com/services/home-remodeling/)
-- [Renovations, Remodels and General Contracting](https://prorestorationca.com/services/general-contracting/)` / `- [Bakersfield, CA](https://prorestorationca.com/service-areas/bakersfield-ca/)
+- [Emergency Water Cleanup](https://prorestorationca.com/services/water-cleanup/)
+- [Water Damage Restoration](https://prorestorationca.com/services/water-damage-restoration/)
+- [Water Leak Detection](https://prorestorationca.com/services/water-leak-detection/)` / `- [Bakersfield, CA](https://prorestorationca.com/service-areas/bakersfield-ca/)
 - [Oildale, CA](https://prorestorationca.com/service-areas/oildale-ca/)
 - [Rosedale, CA](https://prorestorationca.com/service-areas/rosedale-ca/)
 - [Delano, CA](https://prorestorationca.com/service-areas/delano-ca/)
@@ -73,7 +84,18 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 - [Tehachapi, CA](https://prorestorationca.com/service-areas/tehachapi-ca/)
 - [Arvin, CA](https://prorestorationca.com/service-areas/arvin-ca/)
 - [Lamont, CA](https://prorestorationca.com/service-areas/lamont-ca/)
-- [Lake Isabella, CA](https://prorestorationca.com/service-areas/lake-isabella-ca/)` / `IICRC Certified, EPA Lead-Safe Certified Firm, BBB Accredited` / `Greater Bakersfield region` | computed at scaffold from plan + brand | |
+- [Lake Isabella, CA](https://prorestorationca.com/service-areas/lake-isabella-ca/)
+- [East Niles, CA](https://prorestorationca.com/service-areas/east-niles-ca/)
+- [Tarina, CA](https://prorestorationca.com/service-areas/tarina-ca/)
+- [Weedpatch, CA](https://prorestorationca.com/service-areas/weedpatch-ca/)
+- [Buttonwillow, CA](https://prorestorationca.com/service-areas/buttonwillow-ca/)
+- [Dustin Acres, CA](https://prorestorationca.com/service-areas/dustin-acres-ca/)
+- [McFarland, CA](https://prorestorationca.com/service-areas/mcfarland-ca/)
+- [Valley Acres, CA](https://prorestorationca.com/service-areas/valley-acres-ca/)
+- [Woody, CA](https://prorestorationca.com/service-areas/woody-ca/)
+- [Bear Valley Springs, CA](https://prorestorationca.com/service-areas/bear-valley-springs-ca/)
+- [Keene, CA](https://prorestorationca.com/service-areas/keene-ca/)
+- [Maricopa, CA](https://prorestorationca.com/service-areas/maricopa-ca/)` / `IICRC Certified, EPA Lead-Safe Certified Firm, BBB Accredited` / `Greater Bakersfield region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

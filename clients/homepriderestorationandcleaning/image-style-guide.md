@@ -185,7 +185,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Burst Pipe Cleanup and Repair, Frozen Pipe Restoration, Appliance Leak Cleanup, Basement Flooding Cleanup, Roof Leak Cleanup and Repair, Sewage Cleanup and Sanitization, Storm Damage Restoration, Fire Damage Restoration, Smoke Damage Restoration, Mold Remediation, Mold Inspection and Testing, Carpet Cleaning, Odor Removal and Deodorization, Upholstery Cleaning, Tile & Grout Cleaning, Fabric Protection, Junk & Debris Removal, Crawl Space Encapsulation, Emergency Water Cleanup)
+- [ ] (continue for each of Appliance Leak Cleanup, Basement Flooding Cleanup, Biohazard Cleanup, Burst Pipe Cleanup and Repair, Carpet Cleaning, Crawl Space Encapsulation, Emergency Board-Up and Tarping, Fabric Protection, Fire Damage Restoration, Frozen Pipe Restoration, Hoarding Cleanup, Junk & Debris Removal, Mold Inspection and Testing, Mold Remediation, Odor Removal and Deodorization, Post-Construction and Specialty Cleaning, Roof Leak Cleanup and Repair, Sewage Cleanup and Sanitization, Smoke Damage Restoration, Storm Damage Restoration, Tile & Grout Cleaning, Upholstery Cleaning, Water Damage Restoration, Water Leak Detection, Emergency Water Cleanup)
 
 ### Service area pages (one image per city served)
 - [ ] Saratoga Springs hero — exterior shot, regional housing stock, evocative of the city

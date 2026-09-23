@@ -7,10 +7,10 @@ primary_keyword: "flood damage restoration sewickley hills"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "fa53b0af53b9b374"
-generated_at: "2026-09-20T19:17:19.889077+00:00"
+plan_hash: "1cf3ca647a59a74c"
+generated_at: "2026-09-23T14:11:40.937680+00:00"
 manual_override: false
-internal_links: ["/services/flood-damage-restoration/", "/service-areas/sewickley-hills-pa/", "/service-areas/sewickley-hills-pa/fire-damage-restoration/", "/service-areas/sewickley-hills-pa/mold-remediation/", "/service-areas/aliquippa-pa/flood-damage-restoration/", "/service-areas/baden-pa/flood-damage-restoration/", "/contact/"]
+internal_links: ["/services/flood-damage-restoration/", "/service-areas/sewickley-hills-pa/", "/service-areas/sewickley-hills-pa/fire-damage-restoration/", "/service-areas/sewickley-hills-pa/mold-remediation/", "/service-areas/aliquippa-pa/flood-damage-restoration/", "/service-areas/allison-park-pa/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sewickley Hills", "url": "/service-areas/sewickley-hills-pa/"}, {"name": "Flood Damage Restoration"}]
 faq: []
 area_slug: "sewickley-hills-pa"

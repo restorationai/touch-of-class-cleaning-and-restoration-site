@@ -7,10 +7,10 @@ primary_keyword: "mold remediation maynard"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "8b9fdfdc0fafe467"
-generated_at: "2026-09-22T20:03:29.230716+00:00"
+plan_hash: "55008960555981b4"
+generated_at: "2026-09-23T14:11:58.574620+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/maynard-ma/", "/service-areas/maynard-ma/fire-damage-restoration/", "/service-areas/maynard-ma/water-damage-restoration/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/maynard-ma/", "/service-areas/maynard-ma/fire-damage-restoration/", "/service-areas/maynard-ma/roofing/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Maynard", "url": "/service-areas/maynard-ma/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "maynard-ma"

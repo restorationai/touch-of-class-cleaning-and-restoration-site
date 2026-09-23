@@ -65,7 +65,8 @@ const proseHeading =
   {archetype === "services-hub" && <ServicesHubGrid />}
   {archetype === "service-areas-hub" && <ServiceAreasHubGrid />}
 
-  {/* Contact: the form IS the page — no scrolling to find it (Santino 2026-07-30) */}
+  {/* The form is the point of the contact page, so it renders
+      above the prose, not 1,500px below it (Santino 2026-08-07). */}
   {archetype === "contact" && <FreeEstimateForm />}
 
   <!-- BODY -->
@@ -77,6 +78,7 @@ const proseHeading =
       </div>
     </div>
   </section>
+
 
   <FAQSection faq={data.faq} />
 

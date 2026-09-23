@@ -7,10 +7,10 @@ primary_keyword: "storm damage restoration new market"
 secondary_keywords: ["storm damage repair", "roof storm damage repair", "siding storm damage repair", "wind damage repair contractor", "storm damage rebuild"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "ff87a2b2038ac736"
-generated_at: "2026-09-20T14:13:03.674007+00:00"
+plan_hash: "6b3e229f5cde90d3"
+generated_at: "2026-09-23T14:11:32.842719+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/new-market-al/", "/service-areas/new-market-al/home-remodeling/", "/service-areas/new-market-al/roofing/", "/service-areas/athens-al/storm-damage-restoration/", "/service-areas/harvest-al/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/new-market-al/", "/service-areas/new-market-al/home-remodeling/", "/service-areas/new-market-al/roofing/", "/service-areas/arab-al/storm-damage-restoration/", "/service-areas/ardmore-al/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "New Market", "url": "/service-areas/new-market-al/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "new-market-al"

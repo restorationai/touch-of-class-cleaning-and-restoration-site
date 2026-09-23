@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "aaf20c66f980f3b8"
-generated_at: "2026-09-20T14:13:45.353905+00:00"
+generated_at: "2026-09-23T14:12:06.570677+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/avenel-nj/", "/service-areas/avenel-nj/fire-damage-restoration/", "/service-areas/avenel-nj/mold-remediation/", "/service-areas/bayonne-nj/mold-inspection-testing/", "/service-areas/bloomfield-nj/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Avenel", "url": "/service-areas/avenel-nj/"}, {"name": "Mold Inspection and Testing"}]

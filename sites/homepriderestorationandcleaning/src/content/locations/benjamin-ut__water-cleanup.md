@@ -8,7 +8,7 @@ secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "1382340e6f1e11ad"
-generated_at: "2026-09-21T14:13:23.307397+00:00"
+generated_at: "2026-09-23T14:11:49.811729+00:00"
 manual_override: false
 internal_links: ["/services/water-cleanup/", "/service-areas/benjamin-ut/", "/service-areas/benjamin-ut/fire-damage-restoration/", "/service-areas/benjamin-ut/mold-remediation/", "/service-areas/alpine-ut/water-cleanup/", "/service-areas/american-fork-ut/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Benjamin", "url": "/service-areas/benjamin-ut/"}, {"name": "water-cleanup"}]

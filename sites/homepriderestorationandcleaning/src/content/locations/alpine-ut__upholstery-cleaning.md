@@ -7,10 +7,10 @@ primary_keyword: "upholstery cleaning alpine"
 secondary_keywords: ["sofa cleaning", "couch cleaning", "furniture steam cleaning", "leather upholstery cleaning", "fabric upholstery cleaning"]
 search_intent: "local_specialty"
 priority: 2.8
-plan_hash: "099b5fb7200c0a73"
-generated_at: "2026-09-20T19:17:30.791592+00:00"
+plan_hash: "347b85b6c669f8c2"
+generated_at: "2026-09-23T14:11:49.787027+00:00"
 manual_override: false
-internal_links: ["/services/upholstery-cleaning/", "/service-areas/alpine-ut/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/american-fork-ut/upholstery-cleaning/", "/service-areas/bluffdale-ut/upholstery-cleaning/", "/contact/"]
+internal_links: ["/services/upholstery-cleaning/", "/service-areas/alpine-ut/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/american-fork-ut/upholstery-cleaning/", "/service-areas/benjamin-ut/upholstery-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Alpine", "url": "/service-areas/alpine-ut/"}, {"name": "Upholstery Cleaning"}]
 faq: []
 area_slug: "alpine-ut"

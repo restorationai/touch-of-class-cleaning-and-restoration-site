@@ -7,10 +7,10 @@ primary_keyword: "decks, pergolas and fences hazel green"
 secondary_keywords: ["deck builder", "deck installation", "pergola builder", "fence installation", "outdoor structure contractor"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "b7331da88963fa15"
-generated_at: "2026-09-20T14:13:03.671567+00:00"
+plan_hash: "a7f3e7fefbc7bfa6"
+generated_at: "2026-09-23T14:11:32.836733+00:00"
 manual_override: false
-internal_links: ["/services/decks-pergolas-fences/", "/service-areas/hazel-green-al/", "/service-areas/hazel-green-al/home-remodeling/", "/service-areas/hazel-green-al/roofing/", "/service-areas/athens-al/decks-pergolas-fences/", "/service-areas/harvest-al/decks-pergolas-fences/", "/contact/"]
+internal_links: ["/services/decks-pergolas-fences/", "/service-areas/hazel-green-al/", "/service-areas/hazel-green-al/home-remodeling/", "/service-areas/hazel-green-al/roofing/", "/service-areas/arab-al/decks-pergolas-fences/", "/service-areas/ardmore-al/decks-pergolas-fences/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hazel Green", "url": "/service-areas/hazel-green-al/"}, {"name": "Decks, Pergolas and Fences"}]
 faq: []
 area_slug: "hazel-green-al"

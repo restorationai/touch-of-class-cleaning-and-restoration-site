@@ -7,10 +7,10 @@ primary_keyword: "basement flooding cleanup bluffdale"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
 priority: 5.6
-plan_hash: "d7a97fe9dbecb54f"
-generated_at: "2026-09-20T17:29:46.322102+00:00"
+plan_hash: "23203ecbda2cd12b"
+generated_at: "2026-09-23T14:11:49.773820+00:00"
 manual_override: false
-internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/bluffdale-ut/", "/service-areas/bluffdale-ut/fire-damage-restoration/", "/service-areas/bluffdale-ut/mold-remediation/", "/service-areas/american-fork-ut/basement-flooding-cleanup/", "/service-areas/cedar-fort-ut/basement-flooding-cleanup/", "/contact/"]
+internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/bluffdale-ut/", "/service-areas/bluffdale-ut/fire-damage-restoration/", "/service-areas/bluffdale-ut/mold-remediation/", "/service-areas/alpine-ut/basement-flooding-cleanup/", "/service-areas/american-fork-ut/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bluffdale", "url": "/service-areas/bluffdale-ut/"}, {"name": "Basement Flooding Cleanup"}]
 faq: []
 area_slug: "bluffdale-ut"

@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "263095ba87cfd839"
-generated_at: "2026-09-20T20:41:46.461357+00:00"
+generated_at: "2026-09-23T14:11:40.951081+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/prospect-pa/", "/service-areas/prospect-pa/fire-damage-restoration/", "/service-areas/prospect-pa/mold-remediation/", "/service-areas/aliquippa-pa/mold-inspection-testing/", "/service-areas/allison-park-pa/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Prospect", "url": "/service-areas/prospect-pa/"}, {"name": "Mold Inspection and Testing"}]

@@ -83,6 +83,9 @@ const pageTitle = fitTitle(title);
 // render_blocking_resources; was a blocking @import in global.css).
 const fontsHref = "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap";
 
+// Only claim "Licensed & Insured" in the announcement bar when we actually
+// hold license data for this client (hardcoded-claims audit).
+const isLicensed = Array.isArray(brand.licenseNumbers) && brand.licenseNumbers.length > 0;
 
 const ctx: PageSchemaContext = {
   archetype: schema_ctx.archetype ?? "unknown",
@@ -101,7 +104,7 @@ const ctx: PageSchemaContext = {
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#111827" />
+    <meta name="theme-color" content="#0d1b3e" />
     <title>{pageTitle}</title>
     <meta name="description" content={meta_description} />
     <link rel="canonical" href={fullCanonical} />
@@ -120,8 +123,24 @@ const ctx: PageSchemaContext = {
     <meta name="twitter:description" content={meta_description} />
     <meta name="twitter:image" content={ogImage} />
 
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <link rel="apple-touch-icon" href="/favicon.png" />
+    {/* FAVICON — REQUIRED BUILD STEP (standing rule: every site ships a favicon).
+        The scaffolded public/favicon.svg is only a text-initials placeholder.
+        Before preview deploy, generate the real set from the client's logo MARK
+        (crop the iconic element from clients/{slug}/<logo file> — e.g. the badge,
+        circle mark, or lettermark; if no logo exists yet, hand-build a clean
+        monogram SVG in the client's palette):
+          public/favicon.svg          — vector (or 192px PNG embedded as data URI
+                                        for raster logos)
+          public/favicon.ico          — 16/32/48 multi-size (PIL: save format=ICO)
+          public/apple-touch-icon.png — 180x180, opaque white background
+          public/favicon-32x32.png / favicon-16x16.png — if the mark is faint at
+                                        small sizes (chrome/gradient lettering),
+                                        substitute a bolder solid-color variant.
+        All five files are referenced below; verify each lands in dist/ after build. */}
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="alternate icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="sitemap" href="/sitemap-index.xml" />
 
     {/* Web fonts, loaded without blocking first paint: preconnect + print-media
@@ -133,25 +152,18 @@ const ctx: PageSchemaContext = {
 
     <Schema stubs={schema_stubs} ctx={ctx} />
 
-    <!-- Google Ads tag -->
-    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=AW-16824131335"></script>
-    <script is:inline>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'AW-16824131335');
-    </script>
-    <!-- End Google Ads tag -->
-
-    <!-- Restoration AI Chat Widget -->
-    <script is:inline>
-      window.EmergencyWidgetId = "CO-1771290587387";
-    </script>
-    <script is:inline src="https://app.restorationai.io/widget-main.js" async></script>
-    <!-- End Restoration AI Chat Widget -->
+    {/* Restoration AI Chat Widget — per-client: only renders if brand.emergencyWidgetId
+        is set (the client's own company_id). Never hardcode a company_id here. */}
+    {(brand as any).emergencyWidgetId && (
+      <>
+        <script is:inline set:html={`window.EmergencyWidgetId = ${JSON.stringify((brand as any).emergencyWidgetId)};`} />
+        <script is:inline src="https://app.restorationai.io/widget-main.js" async></script>
+      </>
+    )}
       <Analytics />
-      {/* Keep the Restoration AI chat FAB (#rai-widget-wrapper, max z-index) clear of
-        the mobile sticky call bar - it otherwise overlaps the bar's right side. */}
+
+    {/* Keep the Restoration AI chat FAB (#rai-widget-wrapper, max z-index) clear of
+        the mobile sticky call bar — it otherwise overlaps the bar's right side. */}
     <style is:global>
       @media (max-width: 767px) {
         #rai-widget-wrapper {
@@ -161,9 +173,10 @@ const ctx: PageSchemaContext = {
     </style>
   </head>
   <body class="min-h-screen flex flex-col">
-    <!-- Top Announcement Bar -->
-    <div class="hidden md:block bg-primary-600 text-white text-xs md:text-sm font-bold text-center py-2 px-4 tracking-wider">
-      24/7 Emergency Response - Licensed - Insured - WA State Department of Labor & Industries
+    <div class="hidden md:block bg-cta text-cta-fg text-xs md:text-sm font-bold text-center py-2 px-4 tracking-wider">
+      {isLicensed
+        ? <>Licensed &amp; Insured &mdash; {brand.primaryCity}, {brand.primaryState}{" "}{brand.specialistPhrase}</>
+        : <>{brand.primaryCity}, {brand.primaryState}{" "}{brand.specialistPhrase} &mdash; {brand.announcementSuffix}</>}
     </div>
     <Header />
     <Breadcrumb trail={breadcrumb} />
@@ -171,7 +184,7 @@ const ctx: PageSchemaContext = {
       <slot />
     </main>
     <Footer />
-    <a href={`tel:${brand.phoneRaw}`} class="fixed bottom-0 inset-x-0 z-40 md:hidden flex items-center justify-center gap-3 bg-primary-600 text-white font-black py-4 text-base shadow-[0_-4px_24px_rgba(220,38,38,0.35)] border-t border-primary-700">
+    <a href={`tel:${brand.phoneRaw}`} class="fixed bottom-0 inset-x-0 z-40 md:hidden flex items-center justify-center gap-3 bg-cta text-cta-fg font-black py-4 text-base shadow-[0_-4px_24px_theme(colors.cta.DEFAULT/35%)] border-t border-cta-hover">
       <Phone size={18} strokeWidth={3} />
       Call Now: {brand.phone}
     </a>

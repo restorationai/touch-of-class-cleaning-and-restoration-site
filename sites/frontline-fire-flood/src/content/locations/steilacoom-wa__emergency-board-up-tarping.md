@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "69699cdc043d925f"
-generated_at: "2026-09-23T04:58:40.098120+00:00"
+generated_at: "2026-09-23T14:11:42.599614+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/steilacoom-wa/", "/service-areas/steilacoom-wa/fire-damage-restoration/", "/service-areas/steilacoom-wa/mold-remediation/", "/service-areas/anderson-island-wa/emergency-board-up-tarping/", "/service-areas/auburn-wa/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Steilacoom", "url": "/service-areas/steilacoom-wa/"}, {"name": "Emergency Board-Up and Tarping"}]

@@ -7,10 +7,10 @@ primary_keyword: "restoration services san buenaventura (ventura)"
 secondary_keywords: ["san buenaventura (ventura) restoration company", "damage restoration san buenaventura (ventura)", "san buenaventura (ventura) disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "66f6325ce44d5529"
-generated_at: "2026-09-20T14:12:59.573259+00:00"
+plan_hash: "6d54755dc904adec"
+generated_at: "2026-09-23T14:11:28.104810+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/san-buenaventura-ventura-ca/mold-remediation/", "/service-areas/san-buenaventura-ventura-ca/water-damage-restoration/", "/service-areas/san-buenaventura-ventura-ca/storm-damage-restoration/", "/service-areas/san-buenaventura-ventura-ca/water-cleanup/", "/service-areas/san-buenaventura-ventura-ca/contents-restoration/", "/service-areas/san-buenaventura-ventura-ca/crawl-space-encapsulation/", "/service-areas/camarillo-ca/", "/service-areas/fillmore-ca/", "/service-areas/mira-monte-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/san-buenaventura-ventura-ca/mold-remediation/", "/service-areas/san-buenaventura-ventura-ca/water-damage-restoration/", "/service-areas/san-buenaventura-ventura-ca/storm-damage-restoration/", "/service-areas/san-buenaventura-ventura-ca/water-cleanup/", "/service-areas/san-buenaventura-ventura-ca/odor-removal/", "/service-areas/san-buenaventura-ventura-ca/contents-restoration-storage/", "/service-areas/san-buenaventura-ventura-ca/contents-restoration/", "/service-areas/san-buenaventura-ventura-ca/crawl-space-encapsulation/", "/service-areas/camarillo-ca/", "/service-areas/carpinteria-ca/", "/service-areas/castaic-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Buenaventura (Ventura)"}]
 faq: []
 area_slug: "san-buenaventura-ventura-ca"

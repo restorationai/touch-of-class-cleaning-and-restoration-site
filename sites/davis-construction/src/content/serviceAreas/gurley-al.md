@@ -7,10 +7,10 @@ primary_keyword: "construction services gurley"
 secondary_keywords: ["gurley construction company", "general contractor gurley", "gurley remodeling contractor"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "1345c408bcf0cc7a"
-generated_at: "2026-09-20T17:29:30.151548+00:00"
+plan_hash: "367fc31018d46f52"
+generated_at: "2026-09-23T14:11:32.821055+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/gurley-al/home-remodeling/", "/service-areas/gurley-al/roofing/", "/service-areas/gurley-al/decks-pergolas-fences/", "/service-areas/gurley-al/new-construction/", "/service-areas/gurley-al/siding-gutters/", "/service-areas/gurley-al/mold-remediation/", "/service-areas/gurley-al/painting-trim/", "/service-areas/gurley-al/storm-damage-restoration/", "/service-areas/gurley-al/water-damage-restoration/", "/service-areas/athens-al/", "/service-areas/harvest-al/", "/service-areas/hazel-green-al/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/gurley-al/home-remodeling/", "/service-areas/gurley-al/roofing/", "/service-areas/gurley-al/decks-pergolas-fences/", "/service-areas/gurley-al/new-construction/", "/service-areas/gurley-al/siding-gutters/", "/service-areas/gurley-al/fire-smoke-rebuilding/", "/service-areas/gurley-al/mold-remediation/", "/service-areas/gurley-al/painting-trim/", "/service-areas/gurley-al/storm-damage-restoration/", "/service-areas/gurley-al/water-damage-restoration/", "/service-areas/gurley-al/windows-doors/", "/service-areas/arab-al/", "/service-areas/ardmore-al/", "/service-areas/athens-al/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Gurley"}]
 faq: []
 area_slug: "gurley-al"

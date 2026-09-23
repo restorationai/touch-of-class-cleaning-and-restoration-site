@@ -79,14 +79,14 @@ const locationLabel = city && state ? `${city}, ${state}` : (city ?? "");
 
 const steps: ProcessStep[] = customSteps ?? [
   { title: "Call Our Team Anytime", body: "Our dedicated team is available around the clock — call us anytime, 24/7, for support whenever you need it." },
-  { title: "On-Site Home Assessment & Estimate", body: "Our IICRC-certified project manager inspects the damage on-site, documents everything for your insurance claim, and gives you a written scope and estimate." },
+  { title: "On-Site Home Assessment & Estimate", body: "Get connected with a local professional to schedule an assessment and discuss your options." },
   { title: "Damage Mitigation & Restoration", body: "Expert team responds immediately to assess the situation, prevent further damage, and begin the restoration process without delay." },
   { title: "Get Updates Until the Job is Done", body: "From the initial assessment to the final walkthrough, you'll receive regular updates on progress, timelines, and next steps." },
 ];
 
 const whyItems = [
   { Icon: Bell, label: "24/7 Emergency Response" },
-  { Icon: HousePlus, label: "IICRC-Certified Crews Who Know Exactly What to Do in an Emergency" },
+  { Icon: HousePlus, label: "We Help You Find Experts Who Know What to Do in an Emergency" },
   { Icon: ShieldCheck, label: "Insurance-Friendly Support" },
   { Icon: BadgeCheck, label: "High-Quality Services" },
   { Icon: FileCheck, label: "On-Site Home Assessments" },
@@ -146,9 +146,16 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
     <!-- Header: white, logo + phone -->
     <header class="bg-white border-b border-gray-200 px-6 py-3">
       <div class="container-wide flex items-center justify-between">
-        <!-- Wordmark (text, not logo image — cleaner on the white header + scales on mobile) -->
-        <a href="/" aria-label={brand.displayName} class="no-underline font-black uppercase tracking-tight leading-[1.05] text-sm md:text-lg text-gray-900 max-w-[55%] md:max-w-none">
-          {brand.displayName}
+        <!-- Logo only (Santino 2026-09-04: wordmark next to a branded logo is redundant
+             and collides with the phone link on mobile); text wordmark is the no-logo fallback -->
+        <a href="/" aria-label={brand.displayName} class="no-underline flex items-center max-w-[55%] md:max-w-none">
+          {brand.logoUrl ? (
+            <img src={brand.logoUrl} alt={brand.displayName} class="h-9 md:h-11 w-auto shrink-0" loading="eager" />
+          ) : (
+            <span class="font-black uppercase tracking-tight leading-[1.05] text-sm md:text-lg text-gray-900">
+              {brand.displayName}
+            </span>
+          )}
         </a>
         <div class="flex items-center gap-3 md:gap-4 shrink-0">
           <span class="hidden sm:inline text-xs text-gray-500 font-medium">Available 24/7</span>
@@ -352,7 +359,7 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
               Our Services in {locationLabel || "Your Area"}
             </h3>
             <p class="text-white/80 text-sm mb-5">
-              Talk directly to our licensed {serviceLabel.toLowerCase()} team and protect your home today.
+              Get connected with a licensed {serviceLabel.toLowerCase()} professional who can help protect your home today.
             </p>
             <a href={`tel:${displayPhoneRaw}`} class="inline-flex items-center gap-2 text-white font-bold px-8 py-4 rounded-md no-underline" style={`background:${PINK}`}>
               <Phone size={16} stroke-width={2.5} /> Call {displayPhone}
@@ -375,7 +382,7 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
           </div>
         </div>
         <p class="text-white/25 leading-relaxed max-w-4xl mb-0 text-[11px]">
-          {brand.displayName} is a licensed and insured general contractor (WA License NATIORC792M6) serving Federal Way and the greater Puget Sound region since 2004. IICRC certified. Response times are estimates and may vary based on conditions and availability.
+          {brand.displayName} connects homeowners with licensed local restoration professionals. All work is performed by independent, licensed and insured contractors. Response times are estimates and may vary based on conditions and availability.
         </p>
       </div>
     </footer>

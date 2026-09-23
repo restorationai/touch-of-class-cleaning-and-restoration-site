@@ -8,7 +8,7 @@ secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitizati
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "3a3d52871e1ae515"
-generated_at: "2026-09-21T15:54:35.833658+00:00"
+generated_at: "2026-09-23T14:11:34.820998+00:00"
 manual_override: false
 internal_links: ["/services/air-duct-cleaning/", "/service-areas/wheatland-pa/", "/service-areas/wheatland-pa/fire-damage-restoration/", "/service-areas/wheatland-pa/mold-remediation/", "/service-areas/austintown-oh/air-duct-cleaning/", "/service-areas/boardman-oh/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wheatland", "url": "/service-areas/wheatland-pa/"}, {"name": "Air Duct Cleaning"}]

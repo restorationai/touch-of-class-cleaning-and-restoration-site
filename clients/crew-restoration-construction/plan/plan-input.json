@@ -11,23 +11,34 @@
     "email": "estimates@crewthatcares.com",
     "street_address": "3503 South Norton Avenue",
     "postal_code": "57110",
-    "theme": "light"
+    "theme": "light",
+    "logo_url": "/images/logo.png",
+    "license_numbers": [
+      "3814"
+    ],
+    "certifications": [
+      "IICRC"
+    ],
+    "insured": true,
+    "founded_year": "2015",
+    "ga4_measurement_id": "G-GCKPEW6C00"
   },
   "template": "restoration",
   "services": [
-    "water-damage-restoration",
+    "asbestos-abatement",
+    "biohazard-cleanup",
+    "contents-restoration",
+    "contents-restoration-storage",
+    "emergency-board-up-tarping",
     "fire-damage-restoration",
-    "mold-remediation",
-    "storm-damage-restoration",
     "general-contracting",
+    "mold-remediation",
+    "post-construction-cleaning",
     "roofing",
     "sewage-cleanup",
-    "biohazard-cleanup",
-    "asbestos-abatement",
-    "emergency-board-up-tarping",
     "siding-gutters",
-    "contents-restoration",
-    "post-construction-cleaning"
+    "storm-damage-restoration",
+    "water-damage-restoration"
   ],
   "blog_seed_count": 12,
   "service_areas": [

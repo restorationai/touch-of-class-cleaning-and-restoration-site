@@ -7,10 +7,10 @@ primary_keyword: "carpet cleaning vineyard"
 secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "carpet stain removal", "commercial carpet cleaning", "carpet sanitization"]
 search_intent: "local_specialty"
 priority: 2.8
-plan_hash: "19f2d5f0eb30f9ba"
-generated_at: "2026-09-20T14:13:18.721447+00:00"
+plan_hash: "72d5476197d423ef"
+generated_at: "2026-09-23T14:11:49.730015+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/vineyard-ut/", "/service-areas/vineyard-ut/fire-damage-restoration/", "/service-areas/vineyard-ut/mold-remediation/", "/service-areas/american-fork-ut/carpet-cleaning/", "/service-areas/cedar-fort-ut/carpet-cleaning/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/vineyard-ut/", "/service-areas/vineyard-ut/fire-damage-restoration/", "/service-areas/vineyard-ut/mold-remediation/", "/service-areas/alpine-ut/carpet-cleaning/", "/service-areas/american-fork-ut/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Vineyard", "url": "/service-areas/vineyard-ut/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "vineyard-ut"

@@ -26,7 +26,7 @@ const shortLabel = brand.shortName || brand.displayName;
 
 // No invented minutes — this client has no published response-time number.
 const responseClaim = is247
-  ? "emergency response typically within 2 hours, day or night"
+  ? "60-minute emergency response, day or night"
   : "rapid emergency response during business hours";
 
 const areas = (await getCollection("serviceAreas")).sort(
@@ -40,10 +40,10 @@ const h1 = is247
   ? `24/7 Emergency Water Damage Response in ${brand.primaryCity}`
   : `Emergency Water Damage Response in ${brand.primaryCity}`;
 
-const metaDescription = `Flooded home, burst pipe, or a musty smell in ${brand.primaryCity}, ${brand.primaryState}? ${shortLabel} is typically on-site within about 2 hours${is247 ? ", 24/7" : " during business hours"}, with direct insurance billing. Call ${brand.phone}.`;
+const metaDescription = `Flooded home or burst pipe in ${brand.primaryCity}, ${brand.primaryState}? ${shortLabel} is typically on-site within 60 minutes${is247 ? ", 24/7" : " during business hours"}, with direct insurance billing. Call ${brand.phone}.`;
 
 // Opening answer capsule — 2-3 standalone sentences an AI engine can quote verbatim.
-const answerCapsule = `${brand.displayName} provides ${is247 ? "24/7 " : ""}emergency water damage response in ${brand.primaryCity}, ${brand.primaryState} and nearby cities including ${cityPreview}. We provide ${responseClaim}, and we bill your insurance company directly. Mold can begin within 24 hours, so fast response limits how far the damage spreads. Call ${brand.phone} to get a crew moving now.`;
+const answerCapsule = `${brand.displayName} provides ${is247 ? "24/7 " : ""}emergency water damage response in ${brand.primaryCity}, ${brand.primaryState} and nearby cities including ${cityPreview}. We provide ${responseClaim}, and we bill your insurance company directly. Call ${brand.phone} to get a crew moving now.`;
 
 // Exact-query capsule — phrased to match "best emergency water damage company in
 // {city}" verbatim for lexical retrieval (AI assistants, featured snippets). The
@@ -69,7 +69,7 @@ const faq = [
       },
   {
     question: "How quickly can you be on-site?",
-    answer: `Response time depends on your location, but crews are typically on-site within about 2 hours of your call${is247 ? ", 24/7" : ""}. Call ${brand.phone} and we will give you a real ETA for your address.`,
+    answer: `Crews are typically on-site within 60 minutes of your call anywhere in the ${brand.primaryCity} area${is247 ? ", 24/7" : ""}. Call ${brand.phone} and we will give you a real ETA for your address.`,
   },
   {
     question: "Do you bill my insurance company directly?",
@@ -148,7 +148,7 @@ const faq = [
         <h2>How fast can {shortLabel} get here?</h2>
         <p class="text-lg text-dark-800">
           {is247
-            ? `${shortLabel} answers the phone 24/7 and crews are typically on-site within about 2 hours of your call, depending on your location — day or night, weekends and holidays.`
+            ? `${shortLabel} answers the phone 24/7 and crews are typically on-site within 60 minutes of your call — day or night, weekends and holidays.`
             : `${shortLabel} dispatches the nearest available crew as quickly as possible during business hours (${brand.hours}).`}
           Water damage gets worse by the hour, so we treat every call as urgent.
         </p>

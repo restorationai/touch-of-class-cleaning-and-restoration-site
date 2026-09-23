@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration lindon"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "e7d6bbb8e31fb104"
-generated_at: "2026-09-20T14:13:18.727517+00:00"
+plan_hash: "32f8b7791c651f91"
+generated_at: "2026-09-23T14:11:49.745883+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/lindon-ut/", "/service-areas/lindon-ut/mold-remediation/", "/service-areas/lindon-ut/water-damage-restoration/", "/service-areas/american-fork-ut/fire-damage-restoration/", "/service-areas/cedar-fort-ut/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/lindon-ut/", "/service-areas/lindon-ut/mold-remediation/", "/service-areas/lindon-ut/water-damage-restoration/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/american-fork-ut/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lindon", "url": "/service-areas/lindon-ut/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "lindon-ut"

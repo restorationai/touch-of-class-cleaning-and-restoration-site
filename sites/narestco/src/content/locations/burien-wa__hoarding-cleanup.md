@@ -8,7 +8,7 @@ secondary_keywords: ["hoarder cleanup", "hoarding cleaning services", "hoarding 
 search_intent: "local_sensitive"
 priority: 4.2
 plan_hash: "0785159a634f3144"
-generated_at: "2026-09-21T19:18:58.979143+00:00"
+generated_at: "2026-09-23T14:11:54.195522+00:00"
 manual_override: false
 internal_links: ["/services/hoarding-cleanup/", "/service-areas/burien-wa/", "/service-areas/burien-wa/fire-damage-restoration/", "/service-areas/burien-wa/mold-remediation/", "/service-areas/algona-wa/hoarding-cleanup/", "/service-areas/auburn-wa/hoarding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Burien", "url": "/service-areas/burien-wa/"}, {"name": "Hoarding Cleanup"}]

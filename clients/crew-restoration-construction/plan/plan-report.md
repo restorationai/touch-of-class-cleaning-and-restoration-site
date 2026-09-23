@@ -1,21 +1,21 @@
 # Site Plan Report — Crew Restoration & Construction
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-07-26T16:11:25.482751+00:00
-- Domain: `None`
-- Services selected: 13 of 50 catalog entries
+- Generated: 2026-09-23T14:11:30.589385+00:00
+- Domain: `crew3r.com`
+- Services selected: 15 of 65 catalog entries
 - Service areas: 45
 - Cross-product enabled: True
-- Total URLs: **664**
-- Total internal links: 5296 (avg 8.0 per page)
+- Total URLs: **740**
+- Total internal links: 5923 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 585 |
-| `service-area` | 45 |
-| `service-landing` | 13 |
+| `service-area-service` | 660 |
+| `service-area` | 44 |
+| `service-landing` | 15 |
 | `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -27,19 +27,21 @@
 
 ## Selected services
 
-- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
+- `asbestos-abatement` — Asbestos Abatement (specialty, priority 6)
+- `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
+- `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
+- `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
+- `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
-- `mold-remediation` — Mold Remediation (core, priority 10)
-- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
+- `mold-remediation` — Mold Remediation (core, priority 10)
+- `post-construction-cleaning` — Post-Construction and Specialty Cleaning (supporting, priority 4)
 - `roofing` — Roofing Installation and Replacement (construction, priority 10)
 - `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
-- `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
-- `asbestos-abatement` — Asbestos Abatement (specialty, priority 6)
-- `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
 - `siding-gutters` — Siding and Gutters (construction, priority 8)
-- `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
-- `post-construction-cleaning` — Post-Construction and Specialty Cleaning (supporting, priority 4)
+- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
+- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
+- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 
 ## Service areas
 
@@ -99,7 +101,7 @@
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration sioux falls |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization sioux falls |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration sioux falls |
-| `/service-areas/sioux-falls-sd/` | `service-area` | 7.2 | restoration services sioux falls |
+| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup sioux falls |
 | `/services/biohazard-cleanup/` | `service-landing` | 7.2 | biohazard cleanup sioux falls |
 | `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting sioux falls |
 | `/services/siding-gutters/` | `service-landing` | 7.2 | siding and gutters sioux falls |

@@ -7,10 +7,10 @@ primary_keyword: "restoration services castaic"
 secondary_keywords: ["castaic restoration company", "damage restoration castaic", "castaic disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "2593606723495f20"
-generated_at: "2026-09-21T14:13:01.718170+00:00"
+plan_hash: "4b79a65ff7334dde"
+generated_at: "2026-09-23T14:11:28.107135+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/castaic-ca/mold-remediation/", "/service-areas/castaic-ca/water-damage-restoration/", "/service-areas/castaic-ca/storm-damage-restoration/", "/service-areas/castaic-ca/water-cleanup/", "/service-areas/castaic-ca/contents-restoration/", "/service-areas/castaic-ca/crawl-space-encapsulation/", "/service-areas/camarillo-ca/", "/service-areas/carpinteria-ca/", "/service-areas/fillmore-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/castaic-ca/mold-remediation/", "/service-areas/castaic-ca/water-damage-restoration/", "/service-areas/castaic-ca/storm-damage-restoration/", "/service-areas/castaic-ca/water-cleanup/", "/service-areas/castaic-ca/odor-removal/", "/service-areas/castaic-ca/contents-restoration-storage/", "/service-areas/castaic-ca/contents-restoration/", "/service-areas/castaic-ca/crawl-space-encapsulation/", "/service-areas/camarillo-ca/", "/service-areas/carpinteria-ca/", "/service-areas/fillmore-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Castaic"}]
 faq: []
 area_slug: "castaic-ca"

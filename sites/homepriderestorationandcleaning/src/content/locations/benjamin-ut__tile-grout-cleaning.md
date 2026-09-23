@@ -8,7 +8,7 @@ secondary_keywords: ["grout cleaning", "tile cleaning", "grout sealing", "grout 
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "f5ad275886449dae"
-generated_at: "2026-09-21T14:13:23.306717+00:00"
+generated_at: "2026-09-23T14:11:49.810584+00:00"
 manual_override: false
 internal_links: ["/services/tile-grout-cleaning/", "/service-areas/benjamin-ut/", "/service-areas/benjamin-ut/fire-damage-restoration/", "/service-areas/benjamin-ut/mold-remediation/", "/service-areas/alpine-ut/tile-grout-cleaning/", "/service-areas/american-fork-ut/tile-grout-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Benjamin", "url": "/service-areas/benjamin-ut/"}, {"name": "Tile & Grout Cleaning"}]

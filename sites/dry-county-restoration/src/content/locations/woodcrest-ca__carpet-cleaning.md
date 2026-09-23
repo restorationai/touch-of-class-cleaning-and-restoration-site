@@ -8,7 +8,7 @@ secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "ca
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "aef8a024d943eaf3"
-generated_at: "2026-09-20T17:29:33.127679+00:00"
+generated_at: "2026-09-23T14:11:36.208104+00:00"
 manual_override: false
 internal_links: ["/services/carpet-cleaning/", "/service-areas/woodcrest-ca/", "/service-areas/woodcrest-ca/fire-damage-restoration/", "/service-areas/woodcrest-ca/mold-remediation/", "/service-areas/anaheim-ca/carpet-cleaning/", "/service-areas/chino-ca/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woodcrest", "url": "/service-areas/woodcrest-ca/"}, {"name": "Carpet Cleaning"}]

@@ -28,7 +28,7 @@
     @apply leading-relaxed mb-5 text-white/80;
   }
   a {
-    @apply text-primary-400 underline-offset-2 hover:text-primary-300 hover:underline transition-colors;
+    @apply text-primary-200 underline-offset-2 hover:underline transition-colors;
   }
   ul, ol {
     @apply mb-5 pl-6 text-white/80;
@@ -46,19 +46,23 @@
   .container-narrow { @apply mx-auto max-w-content px-6; }
 
   .btn {
-    @apply inline-flex items-center justify-center gap-2 rounded-md px-6 py-3 text-sm font-bold uppercase tracking-widest transition-all duration-300 no-underline shadow-lg hover:shadow-primary-900/50 hover:-translate-y-0.5;
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-6 py-3 text-sm font-bold uppercase tracking-widest transition-colors no-underline;
   }
+  /* Solid fills use the `cta` PAIR — bg-cta with text-cta-fg — never a bare
+     colour plus a hardcoded white label. The pair is resolved together in
+     build_site.resolve_tokens so it always clears WCAG AA, and THAT is what
+     lets the fill stay the client's REAL brand hex: a dark brand keeps its hex
+     and white text, a light brand (gold, lime, sky) keeps its hex and gets a
+     near-black label instead of a darkened button the client does not
+     recognise as their colour (Reign, 2026-08-05). */
   .btn-primary {
-    @apply btn bg-primary text-white hover:bg-primary-600;
+    @apply btn bg-cta text-cta-fg hover:bg-cta-hover;
   }
   .btn-accent {
-    @apply btn bg-accent text-white hover:bg-red-600 hover:shadow-accent/50;
+    @apply btn bg-accent text-accent-fg hover:opacity-90;
   }
   .btn-outline {
-    @apply btn border border-white/30 text-white hover:bg-white hover:text-dark hover:shadow-white/20;
-  }
-  .btn-muted {
-    @apply btn bg-muted text-white hover:bg-gray-500 hover:shadow-gray-500/50;
+    @apply btn border border-white/30 text-white hover:bg-white hover:text-dark;
   }
 
   .section { @apply py-24 border-t border-white/10; }
@@ -68,7 +72,7 @@
   .section-first { @apply py-24 border-t-0; }
 
   .eyebrow {
-    @apply text-xs font-black uppercase tracking-widest text-primary-400 mb-4;
+    @apply text-xs font-black uppercase tracking-widest text-primary-200 mb-4;
   }
 
   /* Prose body for article content inside dark sections */
@@ -76,7 +80,7 @@
     @apply max-w-content mx-auto text-white/80;
   }
   .prose-body :where(h2, h3, h4) { @apply text-white; }
-  .prose-body :where(a) { @apply text-primary-400; }
+  .prose-body :where(a) { @apply text-primary-200; }
   .prose-body :where(strong) { @apply text-white; }
 }
 

@@ -7,10 +7,10 @@ primary_keyword: "restoration services whitney"
 secondary_keywords: ["whitney restoration company", "damage restoration whitney", "whitney disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "d5f9cef9bf0e0c4a"
-generated_at: "2026-09-20T17:29:59.748953+00:00"
+plan_hash: "69b79088e77c4c1b"
+generated_at: "2026-09-23T14:12:02.357359+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/whitney-nv/fire-damage-restoration/", "/service-areas/whitney-nv/mold-remediation/", "/service-areas/whitney-nv/water-damage-restoration/", "/service-areas/whitney-nv/sewage-cleanup/", "/service-areas/whitney-nv/storm-damage-restoration/", "/service-areas/whitney-nv/water-cleanup/", "/service-areas/whitney-nv/biohazard-cleanup/", "/service-areas/whitney-nv/general-contracting/", "/service-areas/whitney-nv/contents-restoration-storage/", "/service-areas/boulder-city-nv/", "/service-areas/enterprise-nv/", "/service-areas/henderson-nv/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/whitney-nv/fire-damage-restoration/", "/service-areas/whitney-nv/mold-remediation/", "/service-areas/whitney-nv/water-damage-restoration/", "/service-areas/whitney-nv/sewage-cleanup/", "/service-areas/whitney-nv/storm-damage-restoration/", "/service-areas/whitney-nv/water-cleanup/", "/service-areas/whitney-nv/biohazard-cleanup/", "/service-areas/whitney-nv/general-contracting/", "/service-areas/whitney-nv/odor-removal/", "/service-areas/whitney-nv/contents-restoration-storage/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/enterprise-nv/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Whitney"}]
 faq: []
 area_slug: "whitney-nv"

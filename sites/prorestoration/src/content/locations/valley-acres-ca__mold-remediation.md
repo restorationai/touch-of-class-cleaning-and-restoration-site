@@ -7,10 +7,10 @@ primary_keyword: "mold remediation valley acres"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "85184a1e4ae35e30"
-generated_at: "2026-09-20T17:29:54.890880+00:00"
+plan_hash: "df8d3f0f968d0b34"
+generated_at: "2026-09-23T14:11:55.999574+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/valley-acres-ca/", "/service-areas/valley-acres-ca/fire-damage-restoration/", "/service-areas/valley-acres-ca/home-remodeling/", "/service-areas/arvin-ca/mold-remediation/", "/service-areas/buttonwillow-ca/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/valley-acres-ca/", "/service-areas/valley-acres-ca/fire-damage-restoration/", "/service-areas/valley-acres-ca/home-remodeling/", "/service-areas/arvin-ca/mold-remediation/", "/service-areas/bear-valley-springs-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Valley Acres", "url": "/service-areas/valley-acres-ca/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "valley-acres-ca"

@@ -7,10 +7,10 @@ primary_keyword: "restoration services lavon"
 secondary_keywords: ["lavon restoration company", "damage restoration lavon", "lavon disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "fb1b81b51d08cbfb"
-generated_at: "2026-09-20T14:13:42.826236+00:00"
+plan_hash: "81de4d1e034659b7"
+generated_at: "2026-09-23T14:12:04.434724+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/lavon-tx/fire-damage-restoration/", "/service-areas/lavon-tx/mold-remediation/", "/service-areas/lavon-tx/water-damage-restoration/", "/service-areas/lavon-tx/storm-damage-restoration/", "/service-areas/lavon-tx/water-cleanup/", "/service-areas/lavon-tx/general-contracting/", "/service-areas/lavon-tx/contents-restoration/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/lavon-tx/fire-damage-restoration/", "/service-areas/lavon-tx/mold-remediation/", "/service-areas/lavon-tx/roofing/", "/service-areas/lavon-tx/water-damage-restoration/", "/service-areas/lavon-tx/storm-damage-restoration/", "/service-areas/lavon-tx/water-cleanup/", "/service-areas/lavon-tx/general-contracting/", "/service-areas/lavon-tx/odor-removal/", "/service-areas/lavon-tx/contents-restoration-storage/", "/service-areas/lavon-tx/contents-restoration/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lavon"}]
 faq: []
 area_slug: "lavon-tx"

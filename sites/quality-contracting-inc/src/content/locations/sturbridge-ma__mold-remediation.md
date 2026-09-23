@@ -7,10 +7,10 @@ primary_keyword: "mold remediation sturbridge"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "dd212785aec1ac75"
-generated_at: "2026-09-20T14:13:32.578480+00:00"
+plan_hash: "5e6fcc581af7597c"
+generated_at: "2026-09-23T14:11:58.522939+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/sturbridge-ma/", "/service-areas/sturbridge-ma/fire-damage-restoration/", "/service-areas/sturbridge-ma/water-damage-restoration/", "/service-areas/east-douglas-ma/mold-remediation/", "/service-areas/framingham-ma/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/sturbridge-ma/", "/service-areas/sturbridge-ma/fire-damage-restoration/", "/service-areas/sturbridge-ma/roofing/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sturbridge", "url": "/service-areas/sturbridge-ma/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "sturbridge-ma"

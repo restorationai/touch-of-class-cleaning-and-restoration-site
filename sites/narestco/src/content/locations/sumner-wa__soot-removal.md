@@ -8,7 +8,7 @@ secondary_keywords: ["soot cleaning", "soot residue removal", "post-fire soot cl
 search_intent: "local_specialty"
 priority: 4.9
 plan_hash: "50731a2ab748475f"
-generated_at: "2026-09-22T18:10:22.121758+00:00"
+generated_at: "2026-09-23T14:11:54.226580+00:00"
 manual_override: false
 internal_links: ["/services/soot-removal/", "/service-areas/sumner-wa/", "/service-areas/sumner-wa/fire-damage-restoration/", "/service-areas/sumner-wa/mold-remediation/", "/service-areas/algona-wa/soot-removal/", "/service-areas/auburn-wa/soot-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sumner", "url": "/service-areas/sumner-wa/"}, {"name": "Soot Removal"}]

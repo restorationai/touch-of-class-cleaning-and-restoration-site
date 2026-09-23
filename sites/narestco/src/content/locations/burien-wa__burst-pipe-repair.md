@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "ed1db15cc6f37b57"
-generated_at: "2026-09-21T19:18:58.977687+00:00"
+generated_at: "2026-09-23T14:11:54.192906+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/burien-wa/", "/service-areas/burien-wa/fire-damage-restoration/", "/service-areas/burien-wa/mold-remediation/", "/service-areas/algona-wa/burst-pipe-repair/", "/service-areas/auburn-wa/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Burien", "url": "/service-areas/burien-wa/"}, {"name": "Burst Pipe Cleanup and Repair"}]

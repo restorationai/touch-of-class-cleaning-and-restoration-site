@@ -7,10 +7,10 @@ primary_keyword: "new home construction decatur"
 secondary_keywords: ["custom home builder", "new home builder", "build a house", "residential construction", "ground-up construction"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "08b5caf598332960"
-generated_at: "2026-09-22T18:09:59.774740+00:00"
+plan_hash: "64e353b97c9b0c9c"
+generated_at: "2026-09-23T14:11:32.875210+00:00"
 manual_override: false
-internal_links: ["/services/new-construction/", "/service-areas/decatur-al/", "/service-areas/decatur-al/home-remodeling/", "/service-areas/decatur-al/roofing/", "/service-areas/ardmore-al/new-construction/", "/service-areas/athens-al/new-construction/", "/contact/"]
+internal_links: ["/services/new-construction/", "/service-areas/decatur-al/", "/service-areas/decatur-al/home-remodeling/", "/service-areas/decatur-al/roofing/", "/service-areas/arab-al/new-construction/", "/service-areas/ardmore-al/new-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Decatur", "url": "/service-areas/decatur-al/"}, {"name": "New Home Construction"}]
 faq: []
 area_slug: "decatur-al"

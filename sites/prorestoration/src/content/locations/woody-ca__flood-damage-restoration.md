@@ -7,10 +7,10 @@ primary_keyword: "flood damage restoration woody"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "fcee79bfe0608ef3"
-generated_at: "2026-09-20T19:17:39.958472+00:00"
+plan_hash: "1c4028d82ead304f"
+generated_at: "2026-09-23T14:11:56.005446+00:00"
 manual_override: false
-internal_links: ["/services/flood-damage-restoration/", "/service-areas/woody-ca/", "/service-areas/woody-ca/fire-damage-restoration/", "/service-areas/woody-ca/home-remodeling/", "/service-areas/arvin-ca/flood-damage-restoration/", "/service-areas/buttonwillow-ca/flood-damage-restoration/", "/contact/"]
+internal_links: ["/services/flood-damage-restoration/", "/service-areas/woody-ca/", "/service-areas/woody-ca/fire-damage-restoration/", "/service-areas/woody-ca/home-remodeling/", "/service-areas/arvin-ca/flood-damage-restoration/", "/service-areas/bear-valley-springs-ca/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woody", "url": "/service-areas/woody-ca/"}, {"name": "Flood Damage Restoration"}]
 faq: []
 area_slug: "woody-ca"

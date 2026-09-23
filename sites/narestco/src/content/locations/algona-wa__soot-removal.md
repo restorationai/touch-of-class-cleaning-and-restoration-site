@@ -8,7 +8,7 @@ secondary_keywords: ["soot cleaning", "soot residue removal", "post-fire soot cl
 search_intent: "local_specialty"
 priority: 4.9
 plan_hash: "d1612c9ae2f5cb9d"
-generated_at: "2026-09-20T14:13:23.246544+00:00"
+generated_at: "2026-09-23T14:11:54.125502+00:00"
 manual_override: false
 internal_links: ["/services/soot-removal/", "/service-areas/algona-wa/", "/service-areas/algona-wa/fire-damage-restoration/", "/service-areas/algona-wa/mold-remediation/", "/service-areas/auburn-wa/soot-removal/", "/service-areas/bellevue-wa/soot-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Algona", "url": "/service-areas/algona-wa/"}, {"name": "Soot Removal"}]

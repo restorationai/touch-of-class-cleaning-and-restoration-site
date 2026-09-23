@@ -7,10 +7,10 @@ primary_keyword: "contents restoration and storage lake sherwood"
 secondary_keywords: ["contents pack-out", "contents cleaning", "belongings restoration", "furniture restoration after fire", "contents storage"]
 search_intent: "local_service"
 priority: 3.5
-plan_hash: "9a44bf1b273230a9"
-generated_at: "2026-09-20T19:36:47.034446+00:00"
+plan_hash: "d8b1e01bda7b4cfb"
+generated_at: "2026-09-23T14:11:28.132620+00:00"
 manual_override: false
-internal_links: ["/services/contents-restoration/", "/service-areas/lake-sherwood-ca/", "/service-areas/lake-sherwood-ca/mold-remediation/", "/service-areas/lake-sherwood-ca/water-damage-restoration/", "/service-areas/camarillo-ca/contents-restoration/", "/service-areas/fillmore-ca/contents-restoration/", "/contact/"]
+internal_links: ["/services/contents-restoration/", "/service-areas/lake-sherwood-ca/", "/service-areas/lake-sherwood-ca/mold-remediation/", "/service-areas/lake-sherwood-ca/water-damage-restoration/", "/service-areas/camarillo-ca/contents-restoration/", "/service-areas/carpinteria-ca/contents-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Sherwood", "url": "/service-areas/lake-sherwood-ca/"}, {"name": "Contents Restoration and Storage"}]
 faq: []
 area_slug: "lake-sherwood-ca"

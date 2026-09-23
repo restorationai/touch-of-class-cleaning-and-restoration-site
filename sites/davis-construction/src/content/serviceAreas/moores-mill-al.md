@@ -7,10 +7,10 @@ primary_keyword: "construction services moores mill"
 secondary_keywords: ["moores mill construction company", "general contractor moores mill", "moores mill remodeling contractor"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "0aa968ec78986baf"
-generated_at: "2026-09-20T14:13:03.664674+00:00"
+plan_hash: "ee11918d6360356b"
+generated_at: "2026-09-23T14:11:32.818974+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/moores-mill-al/home-remodeling/", "/service-areas/moores-mill-al/roofing/", "/service-areas/moores-mill-al/decks-pergolas-fences/", "/service-areas/moores-mill-al/new-construction/", "/service-areas/moores-mill-al/siding-gutters/", "/service-areas/moores-mill-al/mold-remediation/", "/service-areas/moores-mill-al/painting-trim/", "/service-areas/moores-mill-al/storm-damage-restoration/", "/service-areas/moores-mill-al/water-damage-restoration/", "/service-areas/athens-al/", "/service-areas/harvest-al/", "/service-areas/hazel-green-al/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/moores-mill-al/home-remodeling/", "/service-areas/moores-mill-al/roofing/", "/service-areas/moores-mill-al/decks-pergolas-fences/", "/service-areas/moores-mill-al/new-construction/", "/service-areas/moores-mill-al/siding-gutters/", "/service-areas/moores-mill-al/fire-smoke-rebuilding/", "/service-areas/moores-mill-al/mold-remediation/", "/service-areas/moores-mill-al/painting-trim/", "/service-areas/moores-mill-al/storm-damage-restoration/", "/service-areas/moores-mill-al/water-damage-restoration/", "/service-areas/moores-mill-al/windows-doors/", "/service-areas/arab-al/", "/service-areas/ardmore-al/", "/service-areas/athens-al/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Moores Mill"}]
 faq: []
 area_slug: "moores-mill-al"

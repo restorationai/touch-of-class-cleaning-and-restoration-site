@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration burien"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "1263245c49c09235"
-generated_at: "2026-09-21T19:18:58.978201+00:00"
+plan_hash: "6322933fd23d9abb"
+generated_at: "2026-09-23T14:11:54.194224+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/burien-wa/", "/service-areas/burien-wa/mold-remediation/", "/service-areas/burien-wa/water-damage-restoration/", "/service-areas/algona-wa/fire-damage-restoration/", "/service-areas/auburn-wa/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/burien-wa/", "/service-areas/burien-wa/mold-remediation/", "/service-areas/burien-wa/roofing/", "/service-areas/algona-wa/fire-damage-restoration/", "/service-areas/auburn-wa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Burien", "url": "/service-areas/burien-wa/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "burien-wa"

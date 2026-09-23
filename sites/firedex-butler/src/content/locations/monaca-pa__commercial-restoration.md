@@ -7,10 +7,10 @@ primary_keyword: "commercial restoration monaca"
 secondary_keywords: ["commercial water damage", "commercial fire damage", "business restoration", "office restoration", "retail restoration"]
 search_intent: "local_b2b"
 priority: 6.3
-plan_hash: "fe2f762a1ebb42a6"
-generated_at: "2026-09-20T14:13:09.810416+00:00"
+plan_hash: "47360919cce5491e"
+generated_at: "2026-09-23T14:11:40.917941+00:00"
 manual_override: false
-internal_links: ["/services/commercial-restoration/", "/service-areas/monaca-pa/", "/service-areas/monaca-pa/fire-damage-restoration/", "/service-areas/monaca-pa/mold-remediation/", "/service-areas/baden-pa/commercial-restoration/", "/service-areas/beaver-falls-pa/commercial-restoration/", "/contact/"]
+internal_links: ["/services/commercial-restoration/", "/service-areas/monaca-pa/", "/service-areas/monaca-pa/fire-damage-restoration/", "/service-areas/monaca-pa/mold-remediation/", "/service-areas/aliquippa-pa/commercial-restoration/", "/service-areas/allison-park-pa/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Monaca", "url": "/service-areas/monaca-pa/"}, {"name": "Commercial Restoration"}]
 faq: []
 area_slug: "monaca-pa"

@@ -7,10 +7,10 @@ primary_keyword: "renovations, remodels and general contracting tarina"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "d867a3a82c4d85e5"
-generated_at: "2026-09-20T14:13:26.542376+00:00"
+plan_hash: "5871e114215c832d"
+generated_at: "2026-09-23T14:11:55.960250+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/tarina-ca/", "/service-areas/tarina-ca/fire-damage-restoration/", "/service-areas/tarina-ca/home-remodeling/", "/service-areas/arvin-ca/general-contracting/", "/service-areas/buttonwillow-ca/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/tarina-ca/", "/service-areas/tarina-ca/fire-damage-restoration/", "/service-areas/tarina-ca/home-remodeling/", "/service-areas/arvin-ca/general-contracting/", "/service-areas/bear-valley-springs-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tarina", "url": "/service-areas/tarina-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]
 faq: []
 area_slug: "tarina-ca"

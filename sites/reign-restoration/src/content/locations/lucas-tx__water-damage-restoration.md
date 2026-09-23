@@ -8,7 +8,7 @@ secondary_keywords: ["water removal", "water extraction", "water cleanup", "stru
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "9388c4effc3f5604"
-generated_at: "2026-09-21T14:13:45.850731+00:00"
+generated_at: "2026-09-23T14:12:04.492063+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/lucas-tx/", "/service-areas/lucas-tx/fire-damage-restoration/", "/service-areas/lucas-tx/mold-remediation/", "/service-areas/allen-tx/water-damage-restoration/", "/service-areas/caddo-mills-tx/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lucas", "url": "/service-areas/lucas-tx/"}, {"name": "Water Damage Restoration"}]

@@ -1,22 +1,22 @@
 # Site Plan Report — California Restoration West 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-21T19:18:27.552205+00:00
+- Generated: 2026-09-23T14:11:26.721297+00:00
 - Domain: `californiarestorationwest.com`
-- Services selected: 6 of 65 catalog entries
+- Services selected: 8 of 65 catalog entries
 - Service areas: 21
 - Cross-product enabled: True
-- Total URLs: **163**
-- Total internal links: 1264 (avg 7.8 per page)
+- Total URLs: **205**
+- Total internal links: 1616 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 120 |
+| `service-area-service` | 160 |
 | `service-area` | 20 |
+| `service-landing` | 8 |
 | `blog-post` | 8 |
-| `service-landing` | 6 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -27,12 +27,14 @@
 
 ## Selected services
 
-- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
-- `mold-remediation` — Mold Remediation (core, priority 10)
-- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
+- `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
 - `crawl-space-encapsulation` — Crawl Space Encapsulation (adjacent, priority 5)
+- `mold-remediation` — Mold Remediation (core, priority 10)
+- `odor-removal` — Odor Removal and Deodorization (specialty, priority 7)
+- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)
+- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 
 ## Service areas
 

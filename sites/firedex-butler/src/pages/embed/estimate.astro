@@ -1,0 +1,41 @@
+---
+// Embeddable estimate form (C10, 2026-09-16): a chrome-free page BDA (or
+// anyone) can iframe into ad landing pages. Same form, same /api/estimate
+// pipeline, same anti-spam. Source attribution comes from the ?source=
+// query param (e.g. /embed/estimate?source=google_ads), which the form
+// script treats as authoritative inside an embed. Snippet:
+//   <iframe src="https://DOMAIN/embed/estimate?source=google_ads"
+//     style="width:100%;max-width:680px;height:760px;border:0"
+//     loading="lazy" title="Free estimate"></iframe>
+import "~/styles/global.css";
+import FreeEstimateForm from "~/components/FreeEstimateForm.astro";
+import { brand } from "~/lib/brand";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>Free Estimate | {brand.displayName}</title>
+  </head>
+  <body class="bg-transparent" style="margin:0;padding:0">
+    <FreeEstimateForm compact heading="Request Your Free Estimate" />
+      <script is:inline>
+      // Auto-height for the script-tag embed: report content height to the
+      // parent page so the host iframe never shows white space below the
+      // form (and grows when the form swaps to its thank-you state).
+      (function () {
+        if (window.parent === window) return;
+        var post = function () {
+          var h = document.documentElement.scrollHeight || document.body.scrollHeight;
+          window.parent.postMessage({ type: "rankai-embed-height", height: h }, "*");
+        };
+        new ResizeObserver(post).observe(document.documentElement);
+        window.addEventListener("load", post);
+        post();
+      })();
+    </script>
+  </body>
+</html>

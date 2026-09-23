@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "149d4a4ea5c476d4"
-generated_at: "2026-09-21T15:54:35.825858+00:00"
+generated_at: "2026-09-23T14:11:34.809673+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/sharon-pa/", "/service-areas/sharon-pa/fire-damage-restoration/", "/service-areas/sharon-pa/mold-remediation/", "/service-areas/austintown-oh/general-contracting/", "/service-areas/boardman-oh/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sharon", "url": "/service-areas/sharon-pa/"}, {"name": "Renovations, Remodels and General Contracting"}]

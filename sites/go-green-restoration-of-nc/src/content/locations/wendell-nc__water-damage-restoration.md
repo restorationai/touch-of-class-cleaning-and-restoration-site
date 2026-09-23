@@ -8,7 +8,7 @@ secondary_keywords: ["water removal", "water extraction", "water cleanup", "stru
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "dc5683ba74f0012c"
-generated_at: "2026-09-20T14:13:14.681987+00:00"
+generated_at: "2026-09-23T14:11:44.823972+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/wendell-nc/", "/service-areas/wendell-nc/fire-damage-restoration/", "/service-areas/wendell-nc/mold-remediation/", "/service-areas/archer-lodge-nc/water-damage-restoration/", "/service-areas/clayton-nc/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wendell", "url": "/service-areas/wendell-nc/"}, {"name": "Water Damage Restoration"}]

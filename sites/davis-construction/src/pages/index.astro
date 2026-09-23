@@ -5,14 +5,19 @@ import CtaBanner from "~/components/CtaBanner.astro";
 import FAQSection from "~/components/FAQSection.astro";
 import InternalLinks from "~/components/InternalLinks.astro";
 import Hero from "~/components/ui/Hero.astro";
+import FreeEstimateForm from "~/components/FreeEstimateForm.astro";
 import TrustStrip from "~/components/ui/TrustStrip.astro";
+import InsuranceBanner from "~/components/ui/InsuranceBanner.astro";
 import ReviewsStrip from "~/components/ui/ReviewsStrip.astro";
 import AboutSection from "~/components/ui/AboutSection.astro";
 import ServicesStrip from "~/components/ui/ServicesStrip.astro";
 import ProcessSection from "~/components/ui/ProcessSection.astro";
 import BeforeAfterSection from "~/components/ui/BeforeAfterSection.astro";
+import RecentWork from "~/components/RecentWork.astro";
 import ProudlyServing from "~/components/ui/ProudlyServing.astro";
+import ReviewsSection from "~/components/ui/ReviewsSection.astro";
 import { brand } from "~/lib/brand";
+import { workPairs } from "~/data/work";
 
 const entry = await getEntry("pages", "home");
 if (!entry) throw new Error("Missing content: pages/home.md — has Skill 3 rendered yet?");
@@ -21,7 +26,7 @@ const data = entry.data;
 
 const heroImage = data.hero || `${brand.imagesBase}/brand/hero.webp`;
 
-// Show top 6 services by priority on the home page strip
+// Pull top 6 services by priority for the home page strip
 const allServices = await getCollection("services");
 const services = (allServices as CollectionEntry<"services">[])
   .sort((a, b) => (b.data.priority || 0) - (a.data.priority || 0))
@@ -36,19 +41,32 @@ const services = (allServices as CollectionEntry<"services">[])
   schema_ctx={{ archetype: "home" }}
   faq={data.faq}
 >
-  <Hero
-    title="General Contractor & Restoration Services in Madison, AL"
-    subtitle="Construction, remodeling, decks, roofing, and full disaster restoration — one trusted team for every project."
-    backgroundImage="/images/hero-bg.webp"
-  />
+  {/* Homepage hero background. DEFAULT for new builds: a branded small-fleet
+      scene (3-5 matched vehicles in the client's brand-color livery, region-
+      matched street, golden hour, calm left third for the headline) generated
+      per the client's image-style-guide.md "Homepage hero" spec, uploaded to
+      R2 at brand/hero-fleet.webp and referenced via brand.imagesBase — or
+      dropped into public/images/hero-bg.webp if R2 isn't provisioned yet. */}
+  <Hero title={data.h1} subtitle={data.meta_description} backgroundImage="/images/hero-bg.webp">
+    {/* Restoration is call-first (Santino 2026-09-11): an emergency lead
+        should dial, not fill a form — the Get a Free Estimate button still
+        covers the form path lower on the page. Other verticals keep it. */}
+    {brand.vertical !== "restoration" ? (
+      <FreeEstimateForm slot="form" variant="hero" />
+    ) : null}
+  </Hero>
 
   <TrustStrip />
+  <InsuranceBanner />
 
   <ReviewsStrip />
 
-  <AboutSection imageSrc="/images/team.png" imageAlt={`${brand.displayName} construction crew on a residential job site in Madison, AL`}>
+  <AboutSection imageSrc="/images/team.webp" imageAlt={`${brand.displayName} Team`}>
     <p>
-      {brand.displayName} has been serving Madison and North Alabama since {brand.foundedYear}. We handle new construction, remodeling, decks, roofing, siding, and painting — and when storms or water damage strike, our restoration team responds fast to get your property back to normal. One call covers it all.
+      {/* Vertical copy — never hardcode a trade phrase here (industry-bleed
+          audit 2026-07-31: the light variant of this paragraph shipped All
+          Pro's plumbing identity on four restoration sites). */}
+      {brand.homeAboutBlurb}
     </p>
   </AboutSection>
 
@@ -56,11 +74,15 @@ const services = (allServices as CollectionEntry<"services">[])
 
   <ProcessSection />
 
-  <BeforeAfterSection />
+  <BeforeAfterSection pairs={workPairs} />
+
+  <RecentWork />
+
+  <ReviewsSection />
 
   <ProudlyServing />
 
-  <CtaBanner heading="Family-Owned, Licensed & Insured" subheading="Serving Madison & North Alabama since 2008. Free estimates on all construction work." />
+  <CtaBanner heading="24/7 Emergency Response" subheading="We answer the phone day and night. Insurance billing accepted." />
 
   <FAQSection faq={data.faq} />
 

@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "06a727a7a718ce64"
-generated_at: "2026-09-22T02:11:35.481346+00:00"
+generated_at: "2026-09-23T14:11:54.208283+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/lake-holm-wa/", "/service-areas/lake-holm-wa/fire-damage-restoration/", "/service-areas/lake-holm-wa/mold-remediation/", "/service-areas/algona-wa/smoke-damage-restoration/", "/service-areas/auburn-wa/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Holm", "url": "/service-areas/lake-holm-wa/"}, {"name": "Smoke Damage Restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["siding contractor", "siding installation", "siding replace
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "200eb2c121a5fd53"
-generated_at: "2026-09-22T20:18:17.662789+00:00"
+generated_at: "2026-09-23T14:11:32.882623+00:00"
 manual_override: false
 internal_links: ["/services/siding-gutters/", "/service-areas/hartselle-al/", "/service-areas/hartselle-al/home-remodeling/", "/service-areas/hartselle-al/roofing/", "/service-areas/arab-al/siding-gutters/", "/service-areas/ardmore-al/siding-gutters/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hartselle", "url": "/service-areas/hartselle-al/"}, {"name": "Siding and Gutters"}]

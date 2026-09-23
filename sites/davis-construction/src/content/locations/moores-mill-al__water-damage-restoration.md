@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration moores mill"
 secondary_keywords: ["water damage repair", "water damage rebuild", "drywall water damage repair", "ceiling water damage repair", "post-leak renovation"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "d0e43b84e5cdf615"
-generated_at: "2026-09-20T14:13:03.667422+00:00"
+plan_hash: "db41e843b882b717"
+generated_at: "2026-09-23T14:11:32.829574+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/moores-mill-al/", "/service-areas/moores-mill-al/home-remodeling/", "/service-areas/moores-mill-al/roofing/", "/service-areas/athens-al/water-damage-restoration/", "/service-areas/harvest-al/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/moores-mill-al/", "/service-areas/moores-mill-al/home-remodeling/", "/service-areas/moores-mill-al/roofing/", "/service-areas/arab-al/water-damage-restoration/", "/service-areas/ardmore-al/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Moores Mill", "url": "/service-areas/moores-mill-al/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "moores-mill-al"

@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Post-Construction and Specialty Cleaning in Lehi, UT | Home Pride Restoration and Cleaning"
+h1: "Post-Construction and Specialty Cleaning in Lehi"
+meta_description: "24/7 post-construction and specialty cleaning in Lehi, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+primary_keyword: "post-construction and specialty cleaning lehi"
+secondary_keywords: ["post construction cleanup", "construction debris cleaning", "final clean", "deep cleaning after renovation"]
+search_intent: "local_service"
+priority: 2.8
+plan_hash: "bc70b0b15129e45a"
+generated_at: "2026-09-23T14:11:49.701952+00:00"
+manual_override: false
+internal_links: ["/services/post-construction-cleaning/", "/service-areas/lehi-ut/", "/service-areas/lehi-ut/fire-damage-restoration/", "/service-areas/lehi-ut/mold-remediation/", "/service-areas/alpine-ut/post-construction-cleaning/", "/service-areas/american-fork-ut/post-construction-cleaning/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lehi", "url": "/service-areas/lehi-ut/"}, {"name": "Post-Construction and Specialty Cleaning"}]
+faq: []
+area_slug: "lehi-ut"
+service_slug: "post-construction-cleaning"
+city: "Lehi"
+state: "UT"
+service_display: "Post-Construction and Specialty Cleaning"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug homepriderestorationandcleaning` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Post-Construction and Specialty Cleaning in Lehi.

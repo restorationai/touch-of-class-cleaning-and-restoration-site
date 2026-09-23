@@ -7,10 +7,10 @@ primary_keyword: "contents restoration and storage piru"
 secondary_keywords: ["contents pack-out", "contents cleaning", "belongings restoration", "furniture restoration after fire", "contents storage"]
 search_intent: "local_service"
 priority: 3.5
-plan_hash: "43a3a46ec94e7bfd"
-generated_at: "2026-09-20T17:29:25.926955+00:00"
+plan_hash: "b974e77d944937db"
+generated_at: "2026-09-23T14:11:28.128096+00:00"
 manual_override: false
-internal_links: ["/services/contents-restoration/", "/service-areas/piru-ca/", "/service-areas/piru-ca/mold-remediation/", "/service-areas/piru-ca/water-damage-restoration/", "/service-areas/camarillo-ca/contents-restoration/", "/service-areas/fillmore-ca/contents-restoration/", "/contact/"]
+internal_links: ["/services/contents-restoration/", "/service-areas/piru-ca/", "/service-areas/piru-ca/mold-remediation/", "/service-areas/piru-ca/water-damage-restoration/", "/service-areas/camarillo-ca/contents-restoration/", "/service-areas/carpinteria-ca/contents-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Piru", "url": "/service-areas/piru-ca/"}, {"name": "Contents Restoration and Storage"}]
 faq: []
 area_slug: "piru-ca"

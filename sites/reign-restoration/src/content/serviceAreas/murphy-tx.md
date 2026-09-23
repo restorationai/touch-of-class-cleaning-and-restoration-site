@@ -7,10 +7,10 @@ primary_keyword: "restoration services murphy"
 secondary_keywords: ["murphy restoration company", "damage restoration murphy", "murphy disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "7258a2e49b6be741"
-generated_at: "2026-09-21T19:19:21.955825+00:00"
+plan_hash: "65da7b158f739c4e"
+generated_at: "2026-09-23T14:12:04.437310+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/murphy-tx/fire-damage-restoration/", "/service-areas/murphy-tx/mold-remediation/", "/service-areas/murphy-tx/water-damage-restoration/", "/service-areas/murphy-tx/storm-damage-restoration/", "/service-areas/murphy-tx/water-cleanup/", "/service-areas/murphy-tx/general-contracting/", "/service-areas/murphy-tx/contents-restoration/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/murphy-tx/fire-damage-restoration/", "/service-areas/murphy-tx/mold-remediation/", "/service-areas/murphy-tx/roofing/", "/service-areas/murphy-tx/water-damage-restoration/", "/service-areas/murphy-tx/storm-damage-restoration/", "/service-areas/murphy-tx/water-cleanup/", "/service-areas/murphy-tx/general-contracting/", "/service-areas/murphy-tx/odor-removal/", "/service-areas/murphy-tx/contents-restoration-storage/", "/service-areas/murphy-tx/contents-restoration/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Murphy"}]
 faq: []
 area_slug: "murphy-tx"

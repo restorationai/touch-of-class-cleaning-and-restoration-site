@@ -7,10 +7,10 @@ primary_keyword: "crawl space encapsulation piru"
 secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "5c3f91b930be0aa5"
-generated_at: "2026-09-20T17:29:25.927136+00:00"
+plan_hash: "aa09d1a227add81d"
+generated_at: "2026-09-23T14:11:28.128591+00:00"
 manual_override: false
-internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/piru-ca/", "/service-areas/piru-ca/mold-remediation/", "/service-areas/piru-ca/water-damage-restoration/", "/service-areas/camarillo-ca/crawl-space-encapsulation/", "/service-areas/fillmore-ca/crawl-space-encapsulation/", "/contact/"]
+internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/piru-ca/", "/service-areas/piru-ca/mold-remediation/", "/service-areas/piru-ca/water-damage-restoration/", "/service-areas/camarillo-ca/crawl-space-encapsulation/", "/service-areas/carpinteria-ca/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Piru", "url": "/service-areas/piru-ca/"}, {"name": "Crawl Space Encapsulation"}]
 faq: []
 area_slug: "piru-ca"

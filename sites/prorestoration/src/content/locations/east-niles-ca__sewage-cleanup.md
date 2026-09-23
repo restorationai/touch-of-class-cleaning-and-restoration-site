@@ -7,10 +7,10 @@ primary_keyword: "sewage cleanup and sanitization east niles"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "5a44f8a70786e47a"
-generated_at: "2026-09-20T14:13:26.537560+00:00"
+plan_hash: "346552dd9566ee82"
+generated_at: "2026-09-23T14:11:55.955252+00:00"
 manual_override: false
-internal_links: ["/services/sewage-cleanup/", "/service-areas/east-niles-ca/", "/service-areas/east-niles-ca/fire-damage-restoration/", "/service-areas/east-niles-ca/home-remodeling/", "/service-areas/arvin-ca/sewage-cleanup/", "/service-areas/buttonwillow-ca/sewage-cleanup/", "/contact/"]
+internal_links: ["/services/sewage-cleanup/", "/service-areas/east-niles-ca/", "/service-areas/east-niles-ca/fire-damage-restoration/", "/service-areas/east-niles-ca/home-remodeling/", "/service-areas/arvin-ca/sewage-cleanup/", "/service-areas/bear-valley-springs-ca/sewage-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "East Niles", "url": "/service-areas/east-niles-ca/"}, {"name": "Sewage Cleanup and Sanitization"}]
 faq: []
 area_slug: "east-niles-ca"

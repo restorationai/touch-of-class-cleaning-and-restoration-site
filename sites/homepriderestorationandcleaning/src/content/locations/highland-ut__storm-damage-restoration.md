@@ -7,10 +7,10 @@ primary_keyword: "storm damage restoration highland"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "f284229bb6813e72"
-generated_at: "2026-09-20T14:13:18.724007+00:00"
+plan_hash: "4910054e80266cc9"
+generated_at: "2026-09-23T14:11:49.741756+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/highland-ut/", "/service-areas/highland-ut/fire-damage-restoration/", "/service-areas/highland-ut/mold-remediation/", "/service-areas/american-fork-ut/storm-damage-restoration/", "/service-areas/cedar-fort-ut/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/highland-ut/", "/service-areas/highland-ut/fire-damage-restoration/", "/service-areas/highland-ut/mold-remediation/", "/service-areas/alpine-ut/storm-damage-restoration/", "/service-areas/american-fork-ut/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Highland", "url": "/service-areas/highland-ut/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "highland-ut"

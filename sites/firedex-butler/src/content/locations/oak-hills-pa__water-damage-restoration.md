@@ -8,7 +8,7 @@ secondary_keywords: ["water removal", "water extraction", "water cleanup", "stru
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "e3b2bd585ea7750f"
-generated_at: "2026-09-21T14:13:12.727744+00:00"
+generated_at: "2026-09-23T14:11:40.959923+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/oak-hills-pa/", "/service-areas/oak-hills-pa/fire-damage-restoration/", "/service-areas/oak-hills-pa/mold-remediation/", "/service-areas/aliquippa-pa/water-damage-restoration/", "/service-areas/allison-park-pa/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oak Hills", "url": "/service-areas/oak-hills-pa/"}, {"name": "Water Damage Restoration"}]

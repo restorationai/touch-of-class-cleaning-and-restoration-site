@@ -7,10 +7,10 @@ primary_keyword: "sewage cleanup and sanitization alpine"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "23067cbb5ca1accc"
-generated_at: "2026-09-20T19:17:30.790950+00:00"
+plan_hash: "c3cc226b6ac86aa5"
+generated_at: "2026-09-23T14:11:49.785742+00:00"
 manual_override: false
-internal_links: ["/services/sewage-cleanup/", "/service-areas/alpine-ut/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/american-fork-ut/sewage-cleanup/", "/service-areas/bluffdale-ut/sewage-cleanup/", "/contact/"]
+internal_links: ["/services/sewage-cleanup/", "/service-areas/alpine-ut/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/american-fork-ut/sewage-cleanup/", "/service-areas/benjamin-ut/sewage-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Alpine", "url": "/service-areas/alpine-ut/"}, {"name": "Sewage Cleanup and Sanitization"}]
 faq: []
 area_slug: "alpine-ut"

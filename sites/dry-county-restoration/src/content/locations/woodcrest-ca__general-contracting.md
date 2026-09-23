@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "be8b5583f2eb1a34"
-generated_at: "2026-09-20T17:29:33.126594+00:00"
+generated_at: "2026-09-23T14:11:36.209744+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/woodcrest-ca/", "/service-areas/woodcrest-ca/fire-damage-restoration/", "/service-areas/woodcrest-ca/mold-remediation/", "/service-areas/anaheim-ca/general-contracting/", "/service-areas/chino-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woodcrest", "url": "/service-areas/woodcrest-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]

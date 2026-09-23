@@ -7,10 +7,10 @@ primary_keyword: "soot removal woody"
 secondary_keywords: ["soot cleaning", "soot residue removal", "post-fire soot cleanup", "soot damage cleanup", "soot wall cleaning"]
 search_intent: "local_specialty"
 priority: 4.9
-plan_hash: "533add25864f23de"
-generated_at: "2026-09-20T19:17:39.959014+00:00"
+plan_hash: "24e3fb36cf5cb0fb"
+generated_at: "2026-09-23T14:11:56.008756+00:00"
 manual_override: false
-internal_links: ["/services/soot-removal/", "/service-areas/woody-ca/", "/service-areas/woody-ca/fire-damage-restoration/", "/service-areas/woody-ca/home-remodeling/", "/service-areas/arvin-ca/soot-removal/", "/service-areas/buttonwillow-ca/soot-removal/", "/contact/"]
+internal_links: ["/services/soot-removal/", "/service-areas/woody-ca/", "/service-areas/woody-ca/fire-damage-restoration/", "/service-areas/woody-ca/home-remodeling/", "/service-areas/arvin-ca/soot-removal/", "/service-areas/bear-valley-springs-ca/soot-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woody", "url": "/service-areas/woody-ca/"}, {"name": "Soot Removal"}]
 faq: []
 area_slug: "woody-ca"

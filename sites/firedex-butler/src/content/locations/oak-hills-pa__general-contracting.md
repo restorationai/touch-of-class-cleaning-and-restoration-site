@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "125d804550d12d32"
-generated_at: "2026-09-21T14:13:12.730664+00:00"
+generated_at: "2026-09-23T14:11:40.957009+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/oak-hills-pa/", "/service-areas/oak-hills-pa/fire-damage-restoration/", "/service-areas/oak-hills-pa/mold-remediation/", "/service-areas/aliquippa-pa/general-contracting/", "/service-areas/allison-park-pa/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oak Hills", "url": "/service-areas/oak-hills-pa/"}, {"name": "Renovations, Remodels and General Contracting"}]

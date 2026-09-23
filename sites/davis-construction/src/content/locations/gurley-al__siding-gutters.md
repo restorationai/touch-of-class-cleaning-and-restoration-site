@@ -7,10 +7,10 @@ primary_keyword: "siding and gutters gurley"
 secondary_keywords: ["siding contractor", "siding installation", "siding replacement", "gutter installation", "exterior contractor"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "79d78c42c56bb57a"
-generated_at: "2026-09-20T17:29:30.153584+00:00"
+plan_hash: "5f5376b65f4053e5"
+generated_at: "2026-09-23T14:11:32.849688+00:00"
 manual_override: false
-internal_links: ["/services/siding-gutters/", "/service-areas/gurley-al/", "/service-areas/gurley-al/home-remodeling/", "/service-areas/gurley-al/roofing/", "/service-areas/athens-al/siding-gutters/", "/service-areas/harvest-al/siding-gutters/", "/contact/"]
+internal_links: ["/services/siding-gutters/", "/service-areas/gurley-al/", "/service-areas/gurley-al/home-remodeling/", "/service-areas/gurley-al/roofing/", "/service-areas/arab-al/siding-gutters/", "/service-areas/ardmore-al/siding-gutters/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Gurley", "url": "/service-areas/gurley-al/"}, {"name": "Siding and Gutters"}]
 faq: []
 area_slug: "gurley-al"

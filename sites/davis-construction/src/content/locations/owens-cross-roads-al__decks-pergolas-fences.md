@@ -7,10 +7,10 @@ primary_keyword: "decks, pergolas and fences owens cross roads"
 secondary_keywords: ["deck builder", "deck installation", "pergola builder", "fence installation", "outdoor structure contractor"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "adbcdd532f8c6e4e"
-generated_at: "2026-09-20T19:17:13.009102+00:00"
+plan_hash: "e1e48acb8ad32581"
+generated_at: "2026-09-23T14:11:32.851089+00:00"
 manual_override: false
-internal_links: ["/services/decks-pergolas-fences/", "/service-areas/owens-cross-roads-al/", "/service-areas/owens-cross-roads-al/home-remodeling/", "/service-areas/owens-cross-roads-al/roofing/", "/service-areas/athens-al/decks-pergolas-fences/", "/service-areas/gurley-al/decks-pergolas-fences/", "/contact/"]
+internal_links: ["/services/decks-pergolas-fences/", "/service-areas/owens-cross-roads-al/", "/service-areas/owens-cross-roads-al/home-remodeling/", "/service-areas/owens-cross-roads-al/roofing/", "/service-areas/arab-al/decks-pergolas-fences/", "/service-areas/ardmore-al/decks-pergolas-fences/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Owens Cross Roads", "url": "/service-areas/owens-cross-roads-al/"}, {"name": "Decks, Pergolas and Fences"}]
 faq: []
 area_slug: "owens-cross-roads-al"

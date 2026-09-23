@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "d82f64e91ca50c6a"
-generated_at: "2026-09-21T14:13:23.305625+00:00"
+generated_at: "2026-09-23T14:11:49.809930+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/benjamin-ut/", "/service-areas/benjamin-ut/fire-damage-restoration/", "/service-areas/benjamin-ut/mold-remediation/", "/service-areas/alpine-ut/smoke-damage-restoration/", "/service-areas/american-fork-ut/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Benjamin", "url": "/service-areas/benjamin-ut/"}, {"name": "Smoke Damage Restoration"}]

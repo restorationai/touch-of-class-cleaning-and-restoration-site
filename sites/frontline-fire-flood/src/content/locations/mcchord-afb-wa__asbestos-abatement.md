@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "a8d2cce2c4b7b612"
-generated_at: "2026-09-23T04:58:40.096821+00:00"
+generated_at: "2026-09-23T14:11:42.595634+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/mcchord-afb-wa/", "/service-areas/mcchord-afb-wa/fire-damage-restoration/", "/service-areas/mcchord-afb-wa/mold-remediation/", "/service-areas/anderson-island-wa/asbestos-abatement/", "/service-areas/auburn-wa/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McChord AFB", "url": "/service-areas/mcchord-afb-wa/"}, {"name": "Asbestos Abatement"}]

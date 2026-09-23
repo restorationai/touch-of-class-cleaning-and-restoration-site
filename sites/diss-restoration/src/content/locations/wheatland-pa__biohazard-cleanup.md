@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "045cae47c46b9cf5"
-generated_at: "2026-09-21T15:54:35.832981+00:00"
+generated_at: "2026-09-23T14:11:34.821683+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/wheatland-pa/", "/service-areas/wheatland-pa/fire-damage-restoration/", "/service-areas/wheatland-pa/mold-remediation/", "/service-areas/austintown-oh/biohazard-cleanup/", "/service-areas/boardman-oh/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wheatland", "url": "/service-areas/wheatland-pa/"}, {"name": "Biohazard Cleanup"}]

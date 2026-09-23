@@ -9,19 +9,22 @@ DISS Restoration (DISS Restoration) is a professional restoration contractor ser
 This file is intended for AI assistants and language models to efficiently ingest the structure and content of this website. The full list of pages is in the sitemap at https://dissrestoration.com/sitemap-index.xml.
 
 ### Core service pages
-- [Water Damage Restoration](https://dissrestoration.com/services/water-damage-restoration/)
-- [Fire Damage Restoration](https://dissrestoration.com/services/fire-damage-restoration/)
-- [Mold Remediation](https://dissrestoration.com/services/mold-remediation/)
-- [Storm Damage Restoration](https://dissrestoration.com/services/storm-damage-restoration/)
-- [Renovations, Remodels and General Contracting](https://dissrestoration.com/services/general-contracting/)
-- [Sewage Cleanup and Sanitization](https://dissrestoration.com/services/sewage-cleanup/)
-- [Biohazard Cleanup](https://dissrestoration.com/services/biohazard-cleanup/)
-- [Contents Restoration and Storage](https://dissrestoration.com/services/contents-restoration/)
-- [Asbestos Abatement](https://dissrestoration.com/services/asbestos-abatement/)
-- [Emergency Board-Up and Tarping](https://dissrestoration.com/services/emergency-board-up-tarping/)
 - [Air Duct Cleaning](https://dissrestoration.com/services/air-duct-cleaning/)
+- [Asbestos Abatement](https://dissrestoration.com/services/asbestos-abatement/)
+- [Biohazard Cleanup](https://dissrestoration.com/services/biohazard-cleanup/)
 - [Carpet Cleaning](https://dissrestoration.com/services/carpet-cleaning/)
+- [Contents Restoration and Storage](https://dissrestoration.com/services/contents-restoration/)
+- [Contents Restoration & Storage](https://dissrestoration.com/services/contents-restoration-storage/)
+- [Emergency Board-Up and Tarping](https://dissrestoration.com/services/emergency-board-up-tarping/)
+- [Fire Damage Restoration](https://dissrestoration.com/services/fire-damage-restoration/)
+- [Renovations, Remodels and General Contracting](https://dissrestoration.com/services/general-contracting/)
+- [Mold Remediation](https://dissrestoration.com/services/mold-remediation/)
+- [Odor Removal and Deodorization](https://dissrestoration.com/services/odor-removal/)
 - [Post-Construction and Specialty Cleaning](https://dissrestoration.com/services/post-construction-cleaning/)
+- [Sewage Cleanup and Sanitization](https://dissrestoration.com/services/sewage-cleanup/)
+- [Storm Damage Restoration](https://dissrestoration.com/services/storm-damage-restoration/)
+- [Emergency Water Cleanup](https://dissrestoration.com/services/water-cleanup/)
+- [Water Damage Restoration](https://dissrestoration.com/services/water-damage-restoration/)
 
 ### Service area pages
 - [Youngstown, OH](https://dissrestoration.com/service-areas/youngstown-oh/)

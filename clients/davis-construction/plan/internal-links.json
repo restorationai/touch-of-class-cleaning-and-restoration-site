@@ -9,10 +9,12 @@
     "/services/decks-pergolas-fences/",
     "/services/new-construction/",
     "/services/siding-gutters/",
+    "/services/fire-smoke-rebuilding/",
     "/services/mold-remediation/",
     "/services/painting-trim/",
     "/services/storm-damage-restoration/",
     "/services/water-damage-restoration/",
+    "/services/windows-doors/",
     "/service-areas/arab-al/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/",
@@ -40,10 +42,12 @@
     "/services/decks-pergolas-fences/",
     "/services/new-construction/",
     "/services/siding-gutters/",
+    "/services/fire-smoke-rebuilding/",
     "/services/mold-remediation/",
     "/services/painting-trim/",
     "/services/storm-damage-restoration/",
-    "/services/water-damage-restoration/"
+    "/services/water-damage-restoration/",
+    "/services/windows-doors/"
   ],
   "/service-areas/": [
     "/",
@@ -92,6 +96,39 @@
     "/services/",
     "/service-areas/"
   ],
+  "/services/decks-pergolas-fences/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/arab-al/decks-pergolas-fences/",
+    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/service-areas/athens-al/decks-pergolas-fences/",
+    "/service-areas/decatur-al/decks-pergolas-fences/",
+    "/service-areas/elkmont-al/decks-pergolas-fences/",
+    "/service-areas/gurley-al/decks-pergolas-fences/",
+    "/service-areas/hartselle-al/decks-pergolas-fences/",
+    "/service-areas/harvest-al/decks-pergolas-fences/",
+    "/service-areas/hazel-green-al/decks-pergolas-fences/",
+    "/service-areas/huntsville-al/decks-pergolas-fences/",
+    "/service-areas/meridianville-al/decks-pergolas-fences/",
+    "/service-areas/moores-mill-al/decks-pergolas-fences/",
+    "/blog/wood-vs-composite-decking/"
+  ],
+  "/services/fire-smoke-rebuilding/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/arab-al/fire-smoke-rebuilding/",
+    "/service-areas/ardmore-al/fire-smoke-rebuilding/",
+    "/service-areas/athens-al/fire-smoke-rebuilding/",
+    "/service-areas/decatur-al/fire-smoke-rebuilding/",
+    "/service-areas/elkmont-al/fire-smoke-rebuilding/",
+    "/service-areas/gurley-al/fire-smoke-rebuilding/",
+    "/service-areas/hartselle-al/fire-smoke-rebuilding/",
+    "/service-areas/harvest-al/fire-smoke-rebuilding/",
+    "/service-areas/hazel-green-al/fire-smoke-rebuilding/",
+    "/service-areas/huntsville-al/fire-smoke-rebuilding/",
+    "/service-areas/meridianville-al/fire-smoke-rebuilding/",
+    "/service-areas/moores-mill-al/fire-smoke-rebuilding/"
+  ],
   "/services/home-remodeling/": [
     "/services/",
     "/contact/",
@@ -111,6 +148,23 @@
     "/blog/how-to-plan-a-home-remodel/",
     "/blog/do-you-need-a-permit/"
   ],
+  "/services/mold-remediation/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/arab-al/mold-remediation/",
+    "/service-areas/ardmore-al/mold-remediation/",
+    "/service-areas/athens-al/mold-remediation/",
+    "/service-areas/decatur-al/mold-remediation/",
+    "/service-areas/elkmont-al/mold-remediation/",
+    "/service-areas/gurley-al/mold-remediation/",
+    "/service-areas/hartselle-al/mold-remediation/",
+    "/service-areas/harvest-al/mold-remediation/",
+    "/service-areas/hazel-green-al/mold-remediation/",
+    "/service-areas/huntsville-al/mold-remediation/",
+    "/service-areas/meridianville-al/mold-remediation/",
+    "/service-areas/moores-mill-al/mold-remediation/",
+    "/blog/mold-found-during-renovation/"
+  ],
   "/services/new-construction/": [
     "/services/",
     "/contact/",
@@ -129,22 +183,21 @@
     "/blog/choosing-a-general-contractor/",
     "/blog/how-long-to-build-a-house/"
   ],
-  "/services/decks-pergolas-fences/": [
+  "/services/painting-trim/": [
     "/services/",
     "/contact/",
-    "/service-areas/arab-al/decks-pergolas-fences/",
-    "/service-areas/ardmore-al/decks-pergolas-fences/",
-    "/service-areas/athens-al/decks-pergolas-fences/",
-    "/service-areas/decatur-al/decks-pergolas-fences/",
-    "/service-areas/elkmont-al/decks-pergolas-fences/",
-    "/service-areas/gurley-al/decks-pergolas-fences/",
-    "/service-areas/hartselle-al/decks-pergolas-fences/",
-    "/service-areas/harvest-al/decks-pergolas-fences/",
-    "/service-areas/hazel-green-al/decks-pergolas-fences/",
-    "/service-areas/huntsville-al/decks-pergolas-fences/",
-    "/service-areas/meridianville-al/decks-pergolas-fences/",
-    "/service-areas/moores-mill-al/decks-pergolas-fences/",
-    "/blog/wood-vs-composite-decking/"
+    "/service-areas/arab-al/painting-trim/",
+    "/service-areas/ardmore-al/painting-trim/",
+    "/service-areas/athens-al/painting-trim/",
+    "/service-areas/decatur-al/painting-trim/",
+    "/service-areas/elkmont-al/painting-trim/",
+    "/service-areas/gurley-al/painting-trim/",
+    "/service-areas/hartselle-al/painting-trim/",
+    "/service-areas/harvest-al/painting-trim/",
+    "/service-areas/hazel-green-al/painting-trim/",
+    "/service-areas/huntsville-al/painting-trim/",
+    "/service-areas/meridianville-al/painting-trim/",
+    "/service-areas/moores-mill-al/painting-trim/"
   ],
   "/services/roofing/": [
     "/services/",
@@ -182,38 +235,6 @@
     "/service-areas/moores-mill-al/siding-gutters/",
     "/blog/siding-options-compared/"
   ],
-  "/services/painting-trim/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/arab-al/painting-trim/",
-    "/service-areas/ardmore-al/painting-trim/",
-    "/service-areas/athens-al/painting-trim/",
-    "/service-areas/decatur-al/painting-trim/",
-    "/service-areas/elkmont-al/painting-trim/",
-    "/service-areas/gurley-al/painting-trim/",
-    "/service-areas/hartselle-al/painting-trim/",
-    "/service-areas/harvest-al/painting-trim/",
-    "/service-areas/hazel-green-al/painting-trim/",
-    "/service-areas/huntsville-al/painting-trim/",
-    "/service-areas/meridianville-al/painting-trim/",
-    "/service-areas/moores-mill-al/painting-trim/"
-  ],
-  "/services/water-damage-restoration/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/arab-al/water-damage-restoration/",
-    "/service-areas/ardmore-al/water-damage-restoration/",
-    "/service-areas/athens-al/water-damage-restoration/",
-    "/service-areas/decatur-al/water-damage-restoration/",
-    "/service-areas/elkmont-al/water-damage-restoration/",
-    "/service-areas/gurley-al/water-damage-restoration/",
-    "/service-areas/hartselle-al/water-damage-restoration/",
-    "/service-areas/harvest-al/water-damage-restoration/",
-    "/service-areas/hazel-green-al/water-damage-restoration/",
-    "/service-areas/huntsville-al/water-damage-restoration/",
-    "/service-areas/meridianville-al/water-damage-restoration/",
-    "/service-areas/moores-mill-al/water-damage-restoration/"
-  ],
   "/services/storm-damage-restoration/": [
     "/services/",
     "/contact/",
@@ -232,22 +253,37 @@
     "/blog/storm-damage-insurance-claim-checklist/",
     "/blog/storm-damage-repair-process/"
   ],
-  "/services/mold-remediation/": [
+  "/services/water-damage-restoration/": [
     "/services/",
     "/contact/",
-    "/service-areas/arab-al/mold-remediation/",
-    "/service-areas/ardmore-al/mold-remediation/",
-    "/service-areas/athens-al/mold-remediation/",
-    "/service-areas/decatur-al/mold-remediation/",
-    "/service-areas/elkmont-al/mold-remediation/",
-    "/service-areas/gurley-al/mold-remediation/",
-    "/service-areas/hartselle-al/mold-remediation/",
-    "/service-areas/harvest-al/mold-remediation/",
-    "/service-areas/hazel-green-al/mold-remediation/",
-    "/service-areas/huntsville-al/mold-remediation/",
-    "/service-areas/meridianville-al/mold-remediation/",
-    "/service-areas/moores-mill-al/mold-remediation/",
-    "/blog/mold-found-during-renovation/"
+    "/service-areas/arab-al/water-damage-restoration/",
+    "/service-areas/ardmore-al/water-damage-restoration/",
+    "/service-areas/athens-al/water-damage-restoration/",
+    "/service-areas/decatur-al/water-damage-restoration/",
+    "/service-areas/elkmont-al/water-damage-restoration/",
+    "/service-areas/gurley-al/water-damage-restoration/",
+    "/service-areas/hartselle-al/water-damage-restoration/",
+    "/service-areas/harvest-al/water-damage-restoration/",
+    "/service-areas/hazel-green-al/water-damage-restoration/",
+    "/service-areas/huntsville-al/water-damage-restoration/",
+    "/service-areas/meridianville-al/water-damage-restoration/",
+    "/service-areas/moores-mill-al/water-damage-restoration/"
+  ],
+  "/services/windows-doors/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/arab-al/windows-doors/",
+    "/service-areas/ardmore-al/windows-doors/",
+    "/service-areas/athens-al/windows-doors/",
+    "/service-areas/decatur-al/windows-doors/",
+    "/service-areas/elkmont-al/windows-doors/",
+    "/service-areas/gurley-al/windows-doors/",
+    "/service-areas/hartselle-al/windows-doors/",
+    "/service-areas/harvest-al/windows-doors/",
+    "/service-areas/hazel-green-al/windows-doors/",
+    "/service-areas/huntsville-al/windows-doors/",
+    "/service-areas/meridianville-al/windows-doors/",
+    "/service-areas/moores-mill-al/windows-doors/"
   ],
   "/service-areas/huntsville-al/": [
     "/service-areas/",
@@ -257,10 +293,12 @@
     "/service-areas/huntsville-al/decks-pergolas-fences/",
     "/service-areas/huntsville-al/new-construction/",
     "/service-areas/huntsville-al/siding-gutters/",
+    "/service-areas/huntsville-al/fire-smoke-rebuilding/",
     "/service-areas/huntsville-al/mold-remediation/",
     "/service-areas/huntsville-al/painting-trim/",
     "/service-areas/huntsville-al/storm-damage-restoration/",
     "/service-areas/huntsville-al/water-damage-restoration/",
+    "/service-areas/huntsville-al/windows-doors/",
     "/service-areas/arab-al/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/"
@@ -273,10 +311,12 @@
     "/service-areas/athens-al/decks-pergolas-fences/",
     "/service-areas/athens-al/new-construction/",
     "/service-areas/athens-al/siding-gutters/",
+    "/service-areas/athens-al/fire-smoke-rebuilding/",
     "/service-areas/athens-al/mold-remediation/",
     "/service-areas/athens-al/painting-trim/",
     "/service-areas/athens-al/storm-damage-restoration/",
     "/service-areas/athens-al/water-damage-restoration/",
+    "/service-areas/athens-al/windows-doors/",
     "/service-areas/arab-al/",
     "/service-areas/ardmore-al/",
     "/service-areas/decatur-al/"
@@ -289,10 +329,12 @@
     "/service-areas/moores-mill-al/decks-pergolas-fences/",
     "/service-areas/moores-mill-al/new-construction/",
     "/service-areas/moores-mill-al/siding-gutters/",
+    "/service-areas/moores-mill-al/fire-smoke-rebuilding/",
     "/service-areas/moores-mill-al/mold-remediation/",
     "/service-areas/moores-mill-al/painting-trim/",
     "/service-areas/moores-mill-al/storm-damage-restoration/",
     "/service-areas/moores-mill-al/water-damage-restoration/",
+    "/service-areas/moores-mill-al/windows-doors/",
     "/service-areas/arab-al/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/"
@@ -305,10 +347,12 @@
     "/service-areas/redstone-arsenal-al/decks-pergolas-fences/",
     "/service-areas/redstone-arsenal-al/new-construction/",
     "/service-areas/redstone-arsenal-al/siding-gutters/",
+    "/service-areas/redstone-arsenal-al/fire-smoke-rebuilding/",
     "/service-areas/redstone-arsenal-al/mold-remediation/",
     "/service-areas/redstone-arsenal-al/painting-trim/",
     "/service-areas/redstone-arsenal-al/storm-damage-restoration/",
     "/service-areas/redstone-arsenal-al/water-damage-restoration/",
+    "/service-areas/redstone-arsenal-al/windows-doors/",
     "/service-areas/arab-al/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/"
@@ -321,10 +365,12 @@
     "/service-areas/meridianville-al/decks-pergolas-fences/",
     "/service-areas/meridianville-al/new-construction/",
     "/service-areas/meridianville-al/siding-gutters/",
+    "/service-areas/meridianville-al/fire-smoke-rebuilding/",
     "/service-areas/meridianville-al/mold-remediation/",
     "/service-areas/meridianville-al/painting-trim/",
     "/service-areas/meridianville-al/storm-damage-restoration/",
     "/service-areas/meridianville-al/water-damage-restoration/",
+    "/service-areas/meridianville-al/windows-doors/",
     "/service-areas/arab-al/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/"
@@ -337,10 +383,12 @@
     "/service-areas/hazel-green-al/decks-pergolas-fences/",
     "/service-areas/hazel-green-al/new-construction/",
     "/service-areas/hazel-green-al/siding-gutters/",
+    "/service-areas/hazel-green-al/fire-smoke-rebuilding/",
     "/service-areas/hazel-green-al/mold-remediation/",
     "/service-areas/hazel-green-al/painting-trim/",
     "/service-areas/hazel-green-al/storm-damage-restoration/",
     "/service-areas/hazel-green-al/water-damage-restoration/",
+    "/service-areas/hazel-green-al/windows-doors/",
     "/service-areas/arab-al/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/"
@@ -353,10 +401,12 @@
     "/service-areas/new-market-al/decks-pergolas-fences/",
     "/service-areas/new-market-al/new-construction/",
     "/service-areas/new-market-al/siding-gutters/",
+    "/service-areas/new-market-al/fire-smoke-rebuilding/",
     "/service-areas/new-market-al/mold-remediation/",
     "/service-areas/new-market-al/painting-trim/",
     "/service-areas/new-market-al/storm-damage-restoration/",
     "/service-areas/new-market-al/water-damage-restoration/",
+    "/service-areas/new-market-al/windows-doors/",
     "/service-areas/arab-al/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/"
@@ -369,10 +419,12 @@
     "/service-areas/harvest-al/decks-pergolas-fences/",
     "/service-areas/harvest-al/new-construction/",
     "/service-areas/harvest-al/siding-gutters/",
+    "/service-areas/harvest-al/fire-smoke-rebuilding/",
     "/service-areas/harvest-al/mold-remediation/",
     "/service-areas/harvest-al/painting-trim/",
     "/service-areas/harvest-al/storm-damage-restoration/",
     "/service-areas/harvest-al/water-damage-restoration/",
+    "/service-areas/harvest-al/windows-doors/",
     "/service-areas/arab-al/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/"
@@ -385,10 +437,12 @@
     "/service-areas/gurley-al/decks-pergolas-fences/",
     "/service-areas/gurley-al/new-construction/",
     "/service-areas/gurley-al/siding-gutters/",
+    "/service-areas/gurley-al/fire-smoke-rebuilding/",
     "/service-areas/gurley-al/mold-remediation/",
     "/service-areas/gurley-al/painting-trim/",
     "/service-areas/gurley-al/storm-damage-restoration/",
     "/service-areas/gurley-al/water-damage-restoration/",
+    "/service-areas/gurley-al/windows-doors/",
     "/service-areas/arab-al/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/"
@@ -401,10 +455,12 @@
     "/service-areas/owens-cross-roads-al/decks-pergolas-fences/",
     "/service-areas/owens-cross-roads-al/new-construction/",
     "/service-areas/owens-cross-roads-al/siding-gutters/",
+    "/service-areas/owens-cross-roads-al/fire-smoke-rebuilding/",
     "/service-areas/owens-cross-roads-al/mold-remediation/",
     "/service-areas/owens-cross-roads-al/painting-trim/",
     "/service-areas/owens-cross-roads-al/storm-damage-restoration/",
     "/service-areas/owens-cross-roads-al/water-damage-restoration/",
+    "/service-areas/owens-cross-roads-al/windows-doors/",
     "/service-areas/arab-al/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/"
@@ -417,10 +473,12 @@
     "/service-areas/triana-al/decks-pergolas-fences/",
     "/service-areas/triana-al/new-construction/",
     "/service-areas/triana-al/siding-gutters/",
+    "/service-areas/triana-al/fire-smoke-rebuilding/",
     "/service-areas/triana-al/mold-remediation/",
     "/service-areas/triana-al/painting-trim/",
     "/service-areas/triana-al/storm-damage-restoration/",
     "/service-areas/triana-al/water-damage-restoration/",
+    "/service-areas/triana-al/windows-doors/",
     "/service-areas/arab-al/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/"
@@ -433,10 +491,12 @@
     "/service-areas/new-hope-al/decks-pergolas-fences/",
     "/service-areas/new-hope-al/new-construction/",
     "/service-areas/new-hope-al/siding-gutters/",
+    "/service-areas/new-hope-al/fire-smoke-rebuilding/",
     "/service-areas/new-hope-al/mold-remediation/",
     "/service-areas/new-hope-al/painting-trim/",
     "/service-areas/new-hope-al/storm-damage-restoration/",
     "/service-areas/new-hope-al/water-damage-restoration/",
+    "/service-areas/new-hope-al/windows-doors/",
     "/service-areas/arab-al/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/"
@@ -449,10 +509,12 @@
     "/service-areas/ardmore-al/decks-pergolas-fences/",
     "/service-areas/ardmore-al/new-construction/",
     "/service-areas/ardmore-al/siding-gutters/",
+    "/service-areas/ardmore-al/fire-smoke-rebuilding/",
     "/service-areas/ardmore-al/mold-remediation/",
     "/service-areas/ardmore-al/painting-trim/",
     "/service-areas/ardmore-al/storm-damage-restoration/",
     "/service-areas/ardmore-al/water-damage-restoration/",
+    "/service-areas/ardmore-al/windows-doors/",
     "/service-areas/arab-al/",
     "/service-areas/athens-al/",
     "/service-areas/decatur-al/"
@@ -465,10 +527,12 @@
     "/service-areas/priceville-al/decks-pergolas-fences/",
     "/service-areas/priceville-al/new-construction/",
     "/service-areas/priceville-al/siding-gutters/",
+    "/service-areas/priceville-al/fire-smoke-rebuilding/",
     "/service-areas/priceville-al/mold-remediation/",
     "/service-areas/priceville-al/painting-trim/",
     "/service-areas/priceville-al/storm-damage-restoration/",
     "/service-areas/priceville-al/water-damage-restoration/",
+    "/service-areas/priceville-al/windows-doors/",
     "/service-areas/arab-al/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/"
@@ -481,10 +545,12 @@
     "/service-areas/somerville-al/decks-pergolas-fences/",
     "/service-areas/somerville-al/new-construction/",
     "/service-areas/somerville-al/siding-gutters/",
+    "/service-areas/somerville-al/fire-smoke-rebuilding/",
     "/service-areas/somerville-al/mold-remediation/",
     "/service-areas/somerville-al/painting-trim/",
     "/service-areas/somerville-al/storm-damage-restoration/",
     "/service-areas/somerville-al/water-damage-restoration/",
+    "/service-areas/somerville-al/windows-doors/",
     "/service-areas/arab-al/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/"
@@ -497,10 +563,12 @@
     "/service-areas/elkmont-al/decks-pergolas-fences/",
     "/service-areas/elkmont-al/new-construction/",
     "/service-areas/elkmont-al/siding-gutters/",
+    "/service-areas/elkmont-al/fire-smoke-rebuilding/",
     "/service-areas/elkmont-al/mold-remediation/",
     "/service-areas/elkmont-al/painting-trim/",
     "/service-areas/elkmont-al/storm-damage-restoration/",
     "/service-areas/elkmont-al/water-damage-restoration/",
+    "/service-areas/elkmont-al/windows-doors/",
     "/service-areas/arab-al/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/"
@@ -513,10 +581,12 @@
     "/service-areas/decatur-al/decks-pergolas-fences/",
     "/service-areas/decatur-al/new-construction/",
     "/service-areas/decatur-al/siding-gutters/",
+    "/service-areas/decatur-al/fire-smoke-rebuilding/",
     "/service-areas/decatur-al/mold-remediation/",
     "/service-areas/decatur-al/painting-trim/",
     "/service-areas/decatur-al/storm-damage-restoration/",
     "/service-areas/decatur-al/water-damage-restoration/",
+    "/service-areas/decatur-al/windows-doors/",
     "/service-areas/arab-al/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/"
@@ -529,10 +599,12 @@
     "/service-areas/arab-al/decks-pergolas-fences/",
     "/service-areas/arab-al/new-construction/",
     "/service-areas/arab-al/siding-gutters/",
+    "/service-areas/arab-al/fire-smoke-rebuilding/",
     "/service-areas/arab-al/mold-remediation/",
     "/service-areas/arab-al/painting-trim/",
     "/service-areas/arab-al/storm-damage-restoration/",
     "/service-areas/arab-al/water-damage-restoration/",
+    "/service-areas/arab-al/windows-doors/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/",
     "/service-areas/decatur-al/"
@@ -545,13 +617,33 @@
     "/service-areas/hartselle-al/decks-pergolas-fences/",
     "/service-areas/hartselle-al/new-construction/",
     "/service-areas/hartselle-al/siding-gutters/",
+    "/service-areas/hartselle-al/fire-smoke-rebuilding/",
     "/service-areas/hartselle-al/mold-remediation/",
     "/service-areas/hartselle-al/painting-trim/",
     "/service-areas/hartselle-al/storm-damage-restoration/",
     "/service-areas/hartselle-al/water-damage-restoration/",
+    "/service-areas/hartselle-al/windows-doors/",
     "/service-areas/arab-al/",
     "/service-areas/ardmore-al/",
     "/service-areas/athens-al/"
+  ],
+  "/service-areas/huntsville-al/decks-pergolas-fences/": [
+    "/services/decks-pergolas-fences/",
+    "/service-areas/huntsville-al/",
+    "/service-areas/huntsville-al/home-remodeling/",
+    "/service-areas/huntsville-al/roofing/",
+    "/service-areas/arab-al/decks-pergolas-fences/",
+    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/contact/"
+  ],
+  "/service-areas/huntsville-al/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/huntsville-al/",
+    "/service-areas/huntsville-al/home-remodeling/",
+    "/service-areas/huntsville-al/roofing/",
+    "/service-areas/arab-al/fire-smoke-rebuilding/",
+    "/service-areas/ardmore-al/fire-smoke-rebuilding/",
+    "/contact/"
   ],
   "/service-areas/huntsville-al/home-remodeling/": [
     "/services/home-remodeling/",
@@ -560,6 +652,15 @@
     "/service-areas/huntsville-al/decks-pergolas-fences/",
     "/service-areas/arab-al/home-remodeling/",
     "/service-areas/ardmore-al/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/huntsville-al/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/huntsville-al/",
+    "/service-areas/huntsville-al/home-remodeling/",
+    "/service-areas/huntsville-al/roofing/",
+    "/service-areas/arab-al/mold-remediation/",
+    "/service-areas/ardmore-al/mold-remediation/",
     "/contact/"
   ],
   "/service-areas/huntsville-al/new-construction/": [
@@ -571,13 +672,13 @@
     "/service-areas/ardmore-al/new-construction/",
     "/contact/"
   ],
-  "/service-areas/huntsville-al/decks-pergolas-fences/": [
-    "/services/decks-pergolas-fences/",
+  "/service-areas/huntsville-al/painting-trim/": [
+    "/services/painting-trim/",
     "/service-areas/huntsville-al/",
     "/service-areas/huntsville-al/home-remodeling/",
     "/service-areas/huntsville-al/roofing/",
-    "/service-areas/arab-al/decks-pergolas-fences/",
-    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/service-areas/arab-al/painting-trim/",
+    "/service-areas/ardmore-al/painting-trim/",
     "/contact/"
   ],
   "/service-areas/huntsville-al/roofing/": [
@@ -598,13 +699,13 @@
     "/service-areas/ardmore-al/siding-gutters/",
     "/contact/"
   ],
-  "/service-areas/huntsville-al/painting-trim/": [
-    "/services/painting-trim/",
+  "/service-areas/huntsville-al/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
     "/service-areas/huntsville-al/",
     "/service-areas/huntsville-al/home-remodeling/",
     "/service-areas/huntsville-al/roofing/",
-    "/service-areas/arab-al/painting-trim/",
-    "/service-areas/ardmore-al/painting-trim/",
+    "/service-areas/arab-al/storm-damage-restoration/",
+    "/service-areas/ardmore-al/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/huntsville-al/water-damage-restoration/": [
@@ -616,22 +717,31 @@
     "/service-areas/ardmore-al/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/huntsville-al/storm-damage-restoration/": [
-    "/services/storm-damage-restoration/",
+  "/service-areas/huntsville-al/windows-doors/": [
+    "/services/windows-doors/",
     "/service-areas/huntsville-al/",
     "/service-areas/huntsville-al/home-remodeling/",
     "/service-areas/huntsville-al/roofing/",
-    "/service-areas/arab-al/storm-damage-restoration/",
-    "/service-areas/ardmore-al/storm-damage-restoration/",
+    "/service-areas/arab-al/windows-doors/",
+    "/service-areas/ardmore-al/windows-doors/",
     "/contact/"
   ],
-  "/service-areas/huntsville-al/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/huntsville-al/",
-    "/service-areas/huntsville-al/home-remodeling/",
-    "/service-areas/huntsville-al/roofing/",
-    "/service-areas/arab-al/mold-remediation/",
-    "/service-areas/ardmore-al/mold-remediation/",
+  "/service-areas/athens-al/decks-pergolas-fences/": [
+    "/services/decks-pergolas-fences/",
+    "/service-areas/athens-al/",
+    "/service-areas/athens-al/home-remodeling/",
+    "/service-areas/athens-al/roofing/",
+    "/service-areas/arab-al/decks-pergolas-fences/",
+    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/contact/"
+  ],
+  "/service-areas/athens-al/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/athens-al/",
+    "/service-areas/athens-al/home-remodeling/",
+    "/service-areas/athens-al/roofing/",
+    "/service-areas/arab-al/fire-smoke-rebuilding/",
+    "/service-areas/ardmore-al/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/athens-al/home-remodeling/": [
@@ -643,6 +753,15 @@
     "/service-areas/ardmore-al/home-remodeling/",
     "/contact/"
   ],
+  "/service-areas/athens-al/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/athens-al/",
+    "/service-areas/athens-al/home-remodeling/",
+    "/service-areas/athens-al/roofing/",
+    "/service-areas/arab-al/mold-remediation/",
+    "/service-areas/ardmore-al/mold-remediation/",
+    "/contact/"
+  ],
   "/service-areas/athens-al/new-construction/": [
     "/services/new-construction/",
     "/service-areas/athens-al/",
@@ -652,13 +771,13 @@
     "/service-areas/ardmore-al/new-construction/",
     "/contact/"
   ],
-  "/service-areas/athens-al/decks-pergolas-fences/": [
-    "/services/decks-pergolas-fences/",
+  "/service-areas/athens-al/painting-trim/": [
+    "/services/painting-trim/",
     "/service-areas/athens-al/",
     "/service-areas/athens-al/home-remodeling/",
     "/service-areas/athens-al/roofing/",
-    "/service-areas/arab-al/decks-pergolas-fences/",
-    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/service-areas/arab-al/painting-trim/",
+    "/service-areas/ardmore-al/painting-trim/",
     "/contact/"
   ],
   "/service-areas/athens-al/roofing/": [
@@ -679,13 +798,13 @@
     "/service-areas/ardmore-al/siding-gutters/",
     "/contact/"
   ],
-  "/service-areas/athens-al/painting-trim/": [
-    "/services/painting-trim/",
+  "/service-areas/athens-al/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
     "/service-areas/athens-al/",
     "/service-areas/athens-al/home-remodeling/",
     "/service-areas/athens-al/roofing/",
-    "/service-areas/arab-al/painting-trim/",
-    "/service-areas/ardmore-al/painting-trim/",
+    "/service-areas/arab-al/storm-damage-restoration/",
+    "/service-areas/ardmore-al/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/athens-al/water-damage-restoration/": [
@@ -697,22 +816,31 @@
     "/service-areas/ardmore-al/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/athens-al/storm-damage-restoration/": [
-    "/services/storm-damage-restoration/",
+  "/service-areas/athens-al/windows-doors/": [
+    "/services/windows-doors/",
     "/service-areas/athens-al/",
     "/service-areas/athens-al/home-remodeling/",
     "/service-areas/athens-al/roofing/",
-    "/service-areas/arab-al/storm-damage-restoration/",
-    "/service-areas/ardmore-al/storm-damage-restoration/",
+    "/service-areas/arab-al/windows-doors/",
+    "/service-areas/ardmore-al/windows-doors/",
     "/contact/"
   ],
-  "/service-areas/athens-al/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/athens-al/",
-    "/service-areas/athens-al/home-remodeling/",
-    "/service-areas/athens-al/roofing/",
-    "/service-areas/arab-al/mold-remediation/",
-    "/service-areas/ardmore-al/mold-remediation/",
+  "/service-areas/moores-mill-al/decks-pergolas-fences/": [
+    "/services/decks-pergolas-fences/",
+    "/service-areas/moores-mill-al/",
+    "/service-areas/moores-mill-al/home-remodeling/",
+    "/service-areas/moores-mill-al/roofing/",
+    "/service-areas/arab-al/decks-pergolas-fences/",
+    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/contact/"
+  ],
+  "/service-areas/moores-mill-al/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/moores-mill-al/",
+    "/service-areas/moores-mill-al/home-remodeling/",
+    "/service-areas/moores-mill-al/roofing/",
+    "/service-areas/arab-al/fire-smoke-rebuilding/",
+    "/service-areas/ardmore-al/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/moores-mill-al/home-remodeling/": [
@@ -724,6 +852,15 @@
     "/service-areas/ardmore-al/home-remodeling/",
     "/contact/"
   ],
+  "/service-areas/moores-mill-al/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/moores-mill-al/",
+    "/service-areas/moores-mill-al/home-remodeling/",
+    "/service-areas/moores-mill-al/roofing/",
+    "/service-areas/arab-al/mold-remediation/",
+    "/service-areas/ardmore-al/mold-remediation/",
+    "/contact/"
+  ],
   "/service-areas/moores-mill-al/new-construction/": [
     "/services/new-construction/",
     "/service-areas/moores-mill-al/",
@@ -733,13 +870,13 @@
     "/service-areas/ardmore-al/new-construction/",
     "/contact/"
   ],
-  "/service-areas/moores-mill-al/decks-pergolas-fences/": [
-    "/services/decks-pergolas-fences/",
+  "/service-areas/moores-mill-al/painting-trim/": [
+    "/services/painting-trim/",
     "/service-areas/moores-mill-al/",
     "/service-areas/moores-mill-al/home-remodeling/",
     "/service-areas/moores-mill-al/roofing/",
-    "/service-areas/arab-al/decks-pergolas-fences/",
-    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/service-areas/arab-al/painting-trim/",
+    "/service-areas/ardmore-al/painting-trim/",
     "/contact/"
   ],
   "/service-areas/moores-mill-al/roofing/": [
@@ -760,13 +897,13 @@
     "/service-areas/ardmore-al/siding-gutters/",
     "/contact/"
   ],
-  "/service-areas/moores-mill-al/painting-trim/": [
-    "/services/painting-trim/",
+  "/service-areas/moores-mill-al/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
     "/service-areas/moores-mill-al/",
     "/service-areas/moores-mill-al/home-remodeling/",
     "/service-areas/moores-mill-al/roofing/",
-    "/service-areas/arab-al/painting-trim/",
-    "/service-areas/ardmore-al/painting-trim/",
+    "/service-areas/arab-al/storm-damage-restoration/",
+    "/service-areas/ardmore-al/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/moores-mill-al/water-damage-restoration/": [
@@ -778,22 +915,31 @@
     "/service-areas/ardmore-al/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/moores-mill-al/storm-damage-restoration/": [
-    "/services/storm-damage-restoration/",
+  "/service-areas/moores-mill-al/windows-doors/": [
+    "/services/windows-doors/",
     "/service-areas/moores-mill-al/",
     "/service-areas/moores-mill-al/home-remodeling/",
     "/service-areas/moores-mill-al/roofing/",
-    "/service-areas/arab-al/storm-damage-restoration/",
-    "/service-areas/ardmore-al/storm-damage-restoration/",
+    "/service-areas/arab-al/windows-doors/",
+    "/service-areas/ardmore-al/windows-doors/",
     "/contact/"
   ],
-  "/service-areas/moores-mill-al/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/moores-mill-al/",
-    "/service-areas/moores-mill-al/home-remodeling/",
-    "/service-areas/moores-mill-al/roofing/",
-    "/service-areas/arab-al/mold-remediation/",
-    "/service-areas/ardmore-al/mold-remediation/",
+  "/service-areas/redstone-arsenal-al/decks-pergolas-fences/": [
+    "/services/decks-pergolas-fences/",
+    "/service-areas/redstone-arsenal-al/",
+    "/service-areas/redstone-arsenal-al/home-remodeling/",
+    "/service-areas/redstone-arsenal-al/roofing/",
+    "/service-areas/arab-al/decks-pergolas-fences/",
+    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/contact/"
+  ],
+  "/service-areas/redstone-arsenal-al/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/redstone-arsenal-al/",
+    "/service-areas/redstone-arsenal-al/home-remodeling/",
+    "/service-areas/redstone-arsenal-al/roofing/",
+    "/service-areas/arab-al/fire-smoke-rebuilding/",
+    "/service-areas/ardmore-al/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/redstone-arsenal-al/home-remodeling/": [
@@ -805,6 +951,15 @@
     "/service-areas/ardmore-al/home-remodeling/",
     "/contact/"
   ],
+  "/service-areas/redstone-arsenal-al/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/redstone-arsenal-al/",
+    "/service-areas/redstone-arsenal-al/home-remodeling/",
+    "/service-areas/redstone-arsenal-al/roofing/",
+    "/service-areas/arab-al/mold-remediation/",
+    "/service-areas/ardmore-al/mold-remediation/",
+    "/contact/"
+  ],
   "/service-areas/redstone-arsenal-al/new-construction/": [
     "/services/new-construction/",
     "/service-areas/redstone-arsenal-al/",
@@ -814,13 +969,13 @@
     "/service-areas/ardmore-al/new-construction/",
     "/contact/"
   ],
-  "/service-areas/redstone-arsenal-al/decks-pergolas-fences/": [
-    "/services/decks-pergolas-fences/",
+  "/service-areas/redstone-arsenal-al/painting-trim/": [
+    "/services/painting-trim/",
     "/service-areas/redstone-arsenal-al/",
     "/service-areas/redstone-arsenal-al/home-remodeling/",
     "/service-areas/redstone-arsenal-al/roofing/",
-    "/service-areas/arab-al/decks-pergolas-fences/",
-    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/service-areas/arab-al/painting-trim/",
+    "/service-areas/ardmore-al/painting-trim/",
     "/contact/"
   ],
   "/service-areas/redstone-arsenal-al/roofing/": [
@@ -841,13 +996,13 @@
     "/service-areas/ardmore-al/siding-gutters/",
     "/contact/"
   ],
-  "/service-areas/redstone-arsenal-al/painting-trim/": [
-    "/services/painting-trim/",
+  "/service-areas/redstone-arsenal-al/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
     "/service-areas/redstone-arsenal-al/",
     "/service-areas/redstone-arsenal-al/home-remodeling/",
     "/service-areas/redstone-arsenal-al/roofing/",
-    "/service-areas/arab-al/painting-trim/",
-    "/service-areas/ardmore-al/painting-trim/",
+    "/service-areas/arab-al/storm-damage-restoration/",
+    "/service-areas/ardmore-al/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/redstone-arsenal-al/water-damage-restoration/": [
@@ -859,22 +1014,31 @@
     "/service-areas/ardmore-al/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/redstone-arsenal-al/storm-damage-restoration/": [
-    "/services/storm-damage-restoration/",
+  "/service-areas/redstone-arsenal-al/windows-doors/": [
+    "/services/windows-doors/",
     "/service-areas/redstone-arsenal-al/",
     "/service-areas/redstone-arsenal-al/home-remodeling/",
     "/service-areas/redstone-arsenal-al/roofing/",
-    "/service-areas/arab-al/storm-damage-restoration/",
-    "/service-areas/ardmore-al/storm-damage-restoration/",
+    "/service-areas/arab-al/windows-doors/",
+    "/service-areas/ardmore-al/windows-doors/",
     "/contact/"
   ],
-  "/service-areas/redstone-arsenal-al/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/redstone-arsenal-al/",
-    "/service-areas/redstone-arsenal-al/home-remodeling/",
-    "/service-areas/redstone-arsenal-al/roofing/",
-    "/service-areas/arab-al/mold-remediation/",
-    "/service-areas/ardmore-al/mold-remediation/",
+  "/service-areas/meridianville-al/decks-pergolas-fences/": [
+    "/services/decks-pergolas-fences/",
+    "/service-areas/meridianville-al/",
+    "/service-areas/meridianville-al/home-remodeling/",
+    "/service-areas/meridianville-al/roofing/",
+    "/service-areas/arab-al/decks-pergolas-fences/",
+    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/contact/"
+  ],
+  "/service-areas/meridianville-al/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/meridianville-al/",
+    "/service-areas/meridianville-al/home-remodeling/",
+    "/service-areas/meridianville-al/roofing/",
+    "/service-areas/arab-al/fire-smoke-rebuilding/",
+    "/service-areas/ardmore-al/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/meridianville-al/home-remodeling/": [
@@ -886,6 +1050,15 @@
     "/service-areas/ardmore-al/home-remodeling/",
     "/contact/"
   ],
+  "/service-areas/meridianville-al/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/meridianville-al/",
+    "/service-areas/meridianville-al/home-remodeling/",
+    "/service-areas/meridianville-al/roofing/",
+    "/service-areas/arab-al/mold-remediation/",
+    "/service-areas/ardmore-al/mold-remediation/",
+    "/contact/"
+  ],
   "/service-areas/meridianville-al/new-construction/": [
     "/services/new-construction/",
     "/service-areas/meridianville-al/",
@@ -895,13 +1068,13 @@
     "/service-areas/ardmore-al/new-construction/",
     "/contact/"
   ],
-  "/service-areas/meridianville-al/decks-pergolas-fences/": [
-    "/services/decks-pergolas-fences/",
+  "/service-areas/meridianville-al/painting-trim/": [
+    "/services/painting-trim/",
     "/service-areas/meridianville-al/",
     "/service-areas/meridianville-al/home-remodeling/",
     "/service-areas/meridianville-al/roofing/",
-    "/service-areas/arab-al/decks-pergolas-fences/",
-    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/service-areas/arab-al/painting-trim/",
+    "/service-areas/ardmore-al/painting-trim/",
     "/contact/"
   ],
   "/service-areas/meridianville-al/roofing/": [
@@ -922,13 +1095,13 @@
     "/service-areas/ardmore-al/siding-gutters/",
     "/contact/"
   ],
-  "/service-areas/meridianville-al/painting-trim/": [
-    "/services/painting-trim/",
+  "/service-areas/meridianville-al/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
     "/service-areas/meridianville-al/",
     "/service-areas/meridianville-al/home-remodeling/",
     "/service-areas/meridianville-al/roofing/",
-    "/service-areas/arab-al/painting-trim/",
-    "/service-areas/ardmore-al/painting-trim/",
+    "/service-areas/arab-al/storm-damage-restoration/",
+    "/service-areas/ardmore-al/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/meridianville-al/water-damage-restoration/": [
@@ -940,22 +1113,31 @@
     "/service-areas/ardmore-al/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/meridianville-al/storm-damage-restoration/": [
-    "/services/storm-damage-restoration/",
+  "/service-areas/meridianville-al/windows-doors/": [
+    "/services/windows-doors/",
     "/service-areas/meridianville-al/",
     "/service-areas/meridianville-al/home-remodeling/",
     "/service-areas/meridianville-al/roofing/",
-    "/service-areas/arab-al/storm-damage-restoration/",
-    "/service-areas/ardmore-al/storm-damage-restoration/",
+    "/service-areas/arab-al/windows-doors/",
+    "/service-areas/ardmore-al/windows-doors/",
     "/contact/"
   ],
-  "/service-areas/meridianville-al/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/meridianville-al/",
-    "/service-areas/meridianville-al/home-remodeling/",
-    "/service-areas/meridianville-al/roofing/",
-    "/service-areas/arab-al/mold-remediation/",
-    "/service-areas/ardmore-al/mold-remediation/",
+  "/service-areas/hazel-green-al/decks-pergolas-fences/": [
+    "/services/decks-pergolas-fences/",
+    "/service-areas/hazel-green-al/",
+    "/service-areas/hazel-green-al/home-remodeling/",
+    "/service-areas/hazel-green-al/roofing/",
+    "/service-areas/arab-al/decks-pergolas-fences/",
+    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/contact/"
+  ],
+  "/service-areas/hazel-green-al/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/hazel-green-al/",
+    "/service-areas/hazel-green-al/home-remodeling/",
+    "/service-areas/hazel-green-al/roofing/",
+    "/service-areas/arab-al/fire-smoke-rebuilding/",
+    "/service-areas/ardmore-al/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/hazel-green-al/home-remodeling/": [
@@ -967,6 +1149,15 @@
     "/service-areas/ardmore-al/home-remodeling/",
     "/contact/"
   ],
+  "/service-areas/hazel-green-al/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/hazel-green-al/",
+    "/service-areas/hazel-green-al/home-remodeling/",
+    "/service-areas/hazel-green-al/roofing/",
+    "/service-areas/arab-al/mold-remediation/",
+    "/service-areas/ardmore-al/mold-remediation/",
+    "/contact/"
+  ],
   "/service-areas/hazel-green-al/new-construction/": [
     "/services/new-construction/",
     "/service-areas/hazel-green-al/",
@@ -976,13 +1167,13 @@
     "/service-areas/ardmore-al/new-construction/",
     "/contact/"
   ],
-  "/service-areas/hazel-green-al/decks-pergolas-fences/": [
-    "/services/decks-pergolas-fences/",
+  "/service-areas/hazel-green-al/painting-trim/": [
+    "/services/painting-trim/",
     "/service-areas/hazel-green-al/",
     "/service-areas/hazel-green-al/home-remodeling/",
     "/service-areas/hazel-green-al/roofing/",
-    "/service-areas/arab-al/decks-pergolas-fences/",
-    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/service-areas/arab-al/painting-trim/",
+    "/service-areas/ardmore-al/painting-trim/",
     "/contact/"
   ],
   "/service-areas/hazel-green-al/roofing/": [
@@ -1003,13 +1194,13 @@
     "/service-areas/ardmore-al/siding-gutters/",
     "/contact/"
   ],
-  "/service-areas/hazel-green-al/painting-trim/": [
-    "/services/painting-trim/",
+  "/service-areas/hazel-green-al/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
     "/service-areas/hazel-green-al/",
     "/service-areas/hazel-green-al/home-remodeling/",
     "/service-areas/hazel-green-al/roofing/",
-    "/service-areas/arab-al/painting-trim/",
-    "/service-areas/ardmore-al/painting-trim/",
+    "/service-areas/arab-al/storm-damage-restoration/",
+    "/service-areas/ardmore-al/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/hazel-green-al/water-damage-restoration/": [
@@ -1021,22 +1212,31 @@
     "/service-areas/ardmore-al/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/hazel-green-al/storm-damage-restoration/": [
-    "/services/storm-damage-restoration/",
+  "/service-areas/hazel-green-al/windows-doors/": [
+    "/services/windows-doors/",
     "/service-areas/hazel-green-al/",
     "/service-areas/hazel-green-al/home-remodeling/",
     "/service-areas/hazel-green-al/roofing/",
-    "/service-areas/arab-al/storm-damage-restoration/",
-    "/service-areas/ardmore-al/storm-damage-restoration/",
+    "/service-areas/arab-al/windows-doors/",
+    "/service-areas/ardmore-al/windows-doors/",
     "/contact/"
   ],
-  "/service-areas/hazel-green-al/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/hazel-green-al/",
-    "/service-areas/hazel-green-al/home-remodeling/",
-    "/service-areas/hazel-green-al/roofing/",
-    "/service-areas/arab-al/mold-remediation/",
-    "/service-areas/ardmore-al/mold-remediation/",
+  "/service-areas/new-market-al/decks-pergolas-fences/": [
+    "/services/decks-pergolas-fences/",
+    "/service-areas/new-market-al/",
+    "/service-areas/new-market-al/home-remodeling/",
+    "/service-areas/new-market-al/roofing/",
+    "/service-areas/arab-al/decks-pergolas-fences/",
+    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/contact/"
+  ],
+  "/service-areas/new-market-al/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/new-market-al/",
+    "/service-areas/new-market-al/home-remodeling/",
+    "/service-areas/new-market-al/roofing/",
+    "/service-areas/arab-al/fire-smoke-rebuilding/",
+    "/service-areas/ardmore-al/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/new-market-al/home-remodeling/": [
@@ -1048,6 +1248,15 @@
     "/service-areas/ardmore-al/home-remodeling/",
     "/contact/"
   ],
+  "/service-areas/new-market-al/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/new-market-al/",
+    "/service-areas/new-market-al/home-remodeling/",
+    "/service-areas/new-market-al/roofing/",
+    "/service-areas/arab-al/mold-remediation/",
+    "/service-areas/ardmore-al/mold-remediation/",
+    "/contact/"
+  ],
   "/service-areas/new-market-al/new-construction/": [
     "/services/new-construction/",
     "/service-areas/new-market-al/",
@@ -1057,13 +1266,13 @@
     "/service-areas/ardmore-al/new-construction/",
     "/contact/"
   ],
-  "/service-areas/new-market-al/decks-pergolas-fences/": [
-    "/services/decks-pergolas-fences/",
+  "/service-areas/new-market-al/painting-trim/": [
+    "/services/painting-trim/",
     "/service-areas/new-market-al/",
     "/service-areas/new-market-al/home-remodeling/",
     "/service-areas/new-market-al/roofing/",
-    "/service-areas/arab-al/decks-pergolas-fences/",
-    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/service-areas/arab-al/painting-trim/",
+    "/service-areas/ardmore-al/painting-trim/",
     "/contact/"
   ],
   "/service-areas/new-market-al/roofing/": [
@@ -1084,13 +1293,13 @@
     "/service-areas/ardmore-al/siding-gutters/",
     "/contact/"
   ],
-  "/service-areas/new-market-al/painting-trim/": [
-    "/services/painting-trim/",
+  "/service-areas/new-market-al/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
     "/service-areas/new-market-al/",
     "/service-areas/new-market-al/home-remodeling/",
     "/service-areas/new-market-al/roofing/",
-    "/service-areas/arab-al/painting-trim/",
-    "/service-areas/ardmore-al/painting-trim/",
+    "/service-areas/arab-al/storm-damage-restoration/",
+    "/service-areas/ardmore-al/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/new-market-al/water-damage-restoration/": [
@@ -1102,22 +1311,31 @@
     "/service-areas/ardmore-al/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/new-market-al/storm-damage-restoration/": [
-    "/services/storm-damage-restoration/",
+  "/service-areas/new-market-al/windows-doors/": [
+    "/services/windows-doors/",
     "/service-areas/new-market-al/",
     "/service-areas/new-market-al/home-remodeling/",
     "/service-areas/new-market-al/roofing/",
-    "/service-areas/arab-al/storm-damage-restoration/",
-    "/service-areas/ardmore-al/storm-damage-restoration/",
+    "/service-areas/arab-al/windows-doors/",
+    "/service-areas/ardmore-al/windows-doors/",
     "/contact/"
   ],
-  "/service-areas/new-market-al/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/new-market-al/",
-    "/service-areas/new-market-al/home-remodeling/",
-    "/service-areas/new-market-al/roofing/",
-    "/service-areas/arab-al/mold-remediation/",
-    "/service-areas/ardmore-al/mold-remediation/",
+  "/service-areas/harvest-al/decks-pergolas-fences/": [
+    "/services/decks-pergolas-fences/",
+    "/service-areas/harvest-al/",
+    "/service-areas/harvest-al/home-remodeling/",
+    "/service-areas/harvest-al/roofing/",
+    "/service-areas/arab-al/decks-pergolas-fences/",
+    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/contact/"
+  ],
+  "/service-areas/harvest-al/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/harvest-al/",
+    "/service-areas/harvest-al/home-remodeling/",
+    "/service-areas/harvest-al/roofing/",
+    "/service-areas/arab-al/fire-smoke-rebuilding/",
+    "/service-areas/ardmore-al/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/harvest-al/home-remodeling/": [
@@ -1129,6 +1347,15 @@
     "/service-areas/ardmore-al/home-remodeling/",
     "/contact/"
   ],
+  "/service-areas/harvest-al/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/harvest-al/",
+    "/service-areas/harvest-al/home-remodeling/",
+    "/service-areas/harvest-al/roofing/",
+    "/service-areas/arab-al/mold-remediation/",
+    "/service-areas/ardmore-al/mold-remediation/",
+    "/contact/"
+  ],
   "/service-areas/harvest-al/new-construction/": [
     "/services/new-construction/",
     "/service-areas/harvest-al/",
@@ -1138,13 +1365,13 @@
     "/service-areas/ardmore-al/new-construction/",
     "/contact/"
   ],
-  "/service-areas/harvest-al/decks-pergolas-fences/": [
-    "/services/decks-pergolas-fences/",
+  "/service-areas/harvest-al/painting-trim/": [
+    "/services/painting-trim/",
     "/service-areas/harvest-al/",
     "/service-areas/harvest-al/home-remodeling/",
     "/service-areas/harvest-al/roofing/",
-    "/service-areas/arab-al/decks-pergolas-fences/",
-    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/service-areas/arab-al/painting-trim/",
+    "/service-areas/ardmore-al/painting-trim/",
     "/contact/"
   ],
   "/service-areas/harvest-al/roofing/": [
@@ -1165,13 +1392,13 @@
     "/service-areas/ardmore-al/siding-gutters/",
     "/contact/"
   ],
-  "/service-areas/harvest-al/painting-trim/": [
-    "/services/painting-trim/",
+  "/service-areas/harvest-al/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
     "/service-areas/harvest-al/",
     "/service-areas/harvest-al/home-remodeling/",
     "/service-areas/harvest-al/roofing/",
-    "/service-areas/arab-al/painting-trim/",
-    "/service-areas/ardmore-al/painting-trim/",
+    "/service-areas/arab-al/storm-damage-restoration/",
+    "/service-areas/ardmore-al/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/harvest-al/water-damage-restoration/": [
@@ -1183,22 +1410,31 @@
     "/service-areas/ardmore-al/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/harvest-al/storm-damage-restoration/": [
-    "/services/storm-damage-restoration/",
+  "/service-areas/harvest-al/windows-doors/": [
+    "/services/windows-doors/",
     "/service-areas/harvest-al/",
     "/service-areas/harvest-al/home-remodeling/",
     "/service-areas/harvest-al/roofing/",
-    "/service-areas/arab-al/storm-damage-restoration/",
-    "/service-areas/ardmore-al/storm-damage-restoration/",
+    "/service-areas/arab-al/windows-doors/",
+    "/service-areas/ardmore-al/windows-doors/",
     "/contact/"
   ],
-  "/service-areas/harvest-al/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/harvest-al/",
-    "/service-areas/harvest-al/home-remodeling/",
-    "/service-areas/harvest-al/roofing/",
-    "/service-areas/arab-al/mold-remediation/",
-    "/service-areas/ardmore-al/mold-remediation/",
+  "/service-areas/gurley-al/decks-pergolas-fences/": [
+    "/services/decks-pergolas-fences/",
+    "/service-areas/gurley-al/",
+    "/service-areas/gurley-al/home-remodeling/",
+    "/service-areas/gurley-al/roofing/",
+    "/service-areas/arab-al/decks-pergolas-fences/",
+    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/contact/"
+  ],
+  "/service-areas/gurley-al/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/gurley-al/",
+    "/service-areas/gurley-al/home-remodeling/",
+    "/service-areas/gurley-al/roofing/",
+    "/service-areas/arab-al/fire-smoke-rebuilding/",
+    "/service-areas/ardmore-al/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/gurley-al/home-remodeling/": [
@@ -1210,6 +1446,15 @@
     "/service-areas/ardmore-al/home-remodeling/",
     "/contact/"
   ],
+  "/service-areas/gurley-al/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/gurley-al/",
+    "/service-areas/gurley-al/home-remodeling/",
+    "/service-areas/gurley-al/roofing/",
+    "/service-areas/arab-al/mold-remediation/",
+    "/service-areas/ardmore-al/mold-remediation/",
+    "/contact/"
+  ],
   "/service-areas/gurley-al/new-construction/": [
     "/services/new-construction/",
     "/service-areas/gurley-al/",
@@ -1219,13 +1464,13 @@
     "/service-areas/ardmore-al/new-construction/",
     "/contact/"
   ],
-  "/service-areas/gurley-al/decks-pergolas-fences/": [
-    "/services/decks-pergolas-fences/",
+  "/service-areas/gurley-al/painting-trim/": [
+    "/services/painting-trim/",
     "/service-areas/gurley-al/",
     "/service-areas/gurley-al/home-remodeling/",
     "/service-areas/gurley-al/roofing/",
-    "/service-areas/arab-al/decks-pergolas-fences/",
-    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/service-areas/arab-al/painting-trim/",
+    "/service-areas/ardmore-al/painting-trim/",
     "/contact/"
   ],
   "/service-areas/gurley-al/roofing/": [
@@ -1246,13 +1491,13 @@
     "/service-areas/ardmore-al/siding-gutters/",
     "/contact/"
   ],
-  "/service-areas/gurley-al/painting-trim/": [
-    "/services/painting-trim/",
+  "/service-areas/gurley-al/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
     "/service-areas/gurley-al/",
     "/service-areas/gurley-al/home-remodeling/",
     "/service-areas/gurley-al/roofing/",
-    "/service-areas/arab-al/painting-trim/",
-    "/service-areas/ardmore-al/painting-trim/",
+    "/service-areas/arab-al/storm-damage-restoration/",
+    "/service-areas/ardmore-al/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/gurley-al/water-damage-restoration/": [
@@ -1264,22 +1509,31 @@
     "/service-areas/ardmore-al/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/gurley-al/storm-damage-restoration/": [
-    "/services/storm-damage-restoration/",
+  "/service-areas/gurley-al/windows-doors/": [
+    "/services/windows-doors/",
     "/service-areas/gurley-al/",
     "/service-areas/gurley-al/home-remodeling/",
     "/service-areas/gurley-al/roofing/",
-    "/service-areas/arab-al/storm-damage-restoration/",
-    "/service-areas/ardmore-al/storm-damage-restoration/",
+    "/service-areas/arab-al/windows-doors/",
+    "/service-areas/ardmore-al/windows-doors/",
     "/contact/"
   ],
-  "/service-areas/gurley-al/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/gurley-al/",
-    "/service-areas/gurley-al/home-remodeling/",
-    "/service-areas/gurley-al/roofing/",
-    "/service-areas/arab-al/mold-remediation/",
-    "/service-areas/ardmore-al/mold-remediation/",
+  "/service-areas/owens-cross-roads-al/decks-pergolas-fences/": [
+    "/services/decks-pergolas-fences/",
+    "/service-areas/owens-cross-roads-al/",
+    "/service-areas/owens-cross-roads-al/home-remodeling/",
+    "/service-areas/owens-cross-roads-al/roofing/",
+    "/service-areas/arab-al/decks-pergolas-fences/",
+    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/contact/"
+  ],
+  "/service-areas/owens-cross-roads-al/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/owens-cross-roads-al/",
+    "/service-areas/owens-cross-roads-al/home-remodeling/",
+    "/service-areas/owens-cross-roads-al/roofing/",
+    "/service-areas/arab-al/fire-smoke-rebuilding/",
+    "/service-areas/ardmore-al/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/owens-cross-roads-al/home-remodeling/": [
@@ -1291,6 +1545,15 @@
     "/service-areas/ardmore-al/home-remodeling/",
     "/contact/"
   ],
+  "/service-areas/owens-cross-roads-al/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/owens-cross-roads-al/",
+    "/service-areas/owens-cross-roads-al/home-remodeling/",
+    "/service-areas/owens-cross-roads-al/roofing/",
+    "/service-areas/arab-al/mold-remediation/",
+    "/service-areas/ardmore-al/mold-remediation/",
+    "/contact/"
+  ],
   "/service-areas/owens-cross-roads-al/new-construction/": [
     "/services/new-construction/",
     "/service-areas/owens-cross-roads-al/",
@@ -1300,13 +1563,13 @@
     "/service-areas/ardmore-al/new-construction/",
     "/contact/"
   ],
-  "/service-areas/owens-cross-roads-al/decks-pergolas-fences/": [
-    "/services/decks-pergolas-fences/",
+  "/service-areas/owens-cross-roads-al/painting-trim/": [
+    "/services/painting-trim/",
     "/service-areas/owens-cross-roads-al/",
     "/service-areas/owens-cross-roads-al/home-remodeling/",
     "/service-areas/owens-cross-roads-al/roofing/",
-    "/service-areas/arab-al/decks-pergolas-fences/",
-    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/service-areas/arab-al/painting-trim/",
+    "/service-areas/ardmore-al/painting-trim/",
     "/contact/"
   ],
   "/service-areas/owens-cross-roads-al/roofing/": [
@@ -1327,13 +1590,13 @@
     "/service-areas/ardmore-al/siding-gutters/",
     "/contact/"
   ],
-  "/service-areas/owens-cross-roads-al/painting-trim/": [
-    "/services/painting-trim/",
+  "/service-areas/owens-cross-roads-al/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
     "/service-areas/owens-cross-roads-al/",
     "/service-areas/owens-cross-roads-al/home-remodeling/",
     "/service-areas/owens-cross-roads-al/roofing/",
-    "/service-areas/arab-al/painting-trim/",
-    "/service-areas/ardmore-al/painting-trim/",
+    "/service-areas/arab-al/storm-damage-restoration/",
+    "/service-areas/ardmore-al/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/owens-cross-roads-al/water-damage-restoration/": [
@@ -1345,22 +1608,31 @@
     "/service-areas/ardmore-al/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/owens-cross-roads-al/storm-damage-restoration/": [
-    "/services/storm-damage-restoration/",
+  "/service-areas/owens-cross-roads-al/windows-doors/": [
+    "/services/windows-doors/",
     "/service-areas/owens-cross-roads-al/",
     "/service-areas/owens-cross-roads-al/home-remodeling/",
     "/service-areas/owens-cross-roads-al/roofing/",
-    "/service-areas/arab-al/storm-damage-restoration/",
-    "/service-areas/ardmore-al/storm-damage-restoration/",
+    "/service-areas/arab-al/windows-doors/",
+    "/service-areas/ardmore-al/windows-doors/",
     "/contact/"
   ],
-  "/service-areas/owens-cross-roads-al/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/owens-cross-roads-al/",
-    "/service-areas/owens-cross-roads-al/home-remodeling/",
-    "/service-areas/owens-cross-roads-al/roofing/",
-    "/service-areas/arab-al/mold-remediation/",
-    "/service-areas/ardmore-al/mold-remediation/",
+  "/service-areas/triana-al/decks-pergolas-fences/": [
+    "/services/decks-pergolas-fences/",
+    "/service-areas/triana-al/",
+    "/service-areas/triana-al/home-remodeling/",
+    "/service-areas/triana-al/roofing/",
+    "/service-areas/arab-al/decks-pergolas-fences/",
+    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/contact/"
+  ],
+  "/service-areas/triana-al/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/triana-al/",
+    "/service-areas/triana-al/home-remodeling/",
+    "/service-areas/triana-al/roofing/",
+    "/service-areas/arab-al/fire-smoke-rebuilding/",
+    "/service-areas/ardmore-al/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/triana-al/home-remodeling/": [
@@ -1372,6 +1644,15 @@
     "/service-areas/ardmore-al/home-remodeling/",
     "/contact/"
   ],
+  "/service-areas/triana-al/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/triana-al/",
+    "/service-areas/triana-al/home-remodeling/",
+    "/service-areas/triana-al/roofing/",
+    "/service-areas/arab-al/mold-remediation/",
+    "/service-areas/ardmore-al/mold-remediation/",
+    "/contact/"
+  ],
   "/service-areas/triana-al/new-construction/": [
     "/services/new-construction/",
     "/service-areas/triana-al/",
@@ -1381,13 +1662,13 @@
     "/service-areas/ardmore-al/new-construction/",
     "/contact/"
   ],
-  "/service-areas/triana-al/decks-pergolas-fences/": [
-    "/services/decks-pergolas-fences/",
+  "/service-areas/triana-al/painting-trim/": [
+    "/services/painting-trim/",
     "/service-areas/triana-al/",
     "/service-areas/triana-al/home-remodeling/",
     "/service-areas/triana-al/roofing/",
-    "/service-areas/arab-al/decks-pergolas-fences/",
-    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/service-areas/arab-al/painting-trim/",
+    "/service-areas/ardmore-al/painting-trim/",
     "/contact/"
   ],
   "/service-areas/triana-al/roofing/": [
@@ -1408,13 +1689,13 @@
     "/service-areas/ardmore-al/siding-gutters/",
     "/contact/"
   ],
-  "/service-areas/triana-al/painting-trim/": [
-    "/services/painting-trim/",
+  "/service-areas/triana-al/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
     "/service-areas/triana-al/",
     "/service-areas/triana-al/home-remodeling/",
     "/service-areas/triana-al/roofing/",
-    "/service-areas/arab-al/painting-trim/",
-    "/service-areas/ardmore-al/painting-trim/",
+    "/service-areas/arab-al/storm-damage-restoration/",
+    "/service-areas/ardmore-al/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/triana-al/water-damage-restoration/": [
@@ -1426,22 +1707,31 @@
     "/service-areas/ardmore-al/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/triana-al/storm-damage-restoration/": [
-    "/services/storm-damage-restoration/",
+  "/service-areas/triana-al/windows-doors/": [
+    "/services/windows-doors/",
     "/service-areas/triana-al/",
     "/service-areas/triana-al/home-remodeling/",
     "/service-areas/triana-al/roofing/",
-    "/service-areas/arab-al/storm-damage-restoration/",
-    "/service-areas/ardmore-al/storm-damage-restoration/",
+    "/service-areas/arab-al/windows-doors/",
+    "/service-areas/ardmore-al/windows-doors/",
     "/contact/"
   ],
-  "/service-areas/triana-al/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/triana-al/",
-    "/service-areas/triana-al/home-remodeling/",
-    "/service-areas/triana-al/roofing/",
-    "/service-areas/arab-al/mold-remediation/",
-    "/service-areas/ardmore-al/mold-remediation/",
+  "/service-areas/new-hope-al/decks-pergolas-fences/": [
+    "/services/decks-pergolas-fences/",
+    "/service-areas/new-hope-al/",
+    "/service-areas/new-hope-al/home-remodeling/",
+    "/service-areas/new-hope-al/roofing/",
+    "/service-areas/arab-al/decks-pergolas-fences/",
+    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/contact/"
+  ],
+  "/service-areas/new-hope-al/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/new-hope-al/",
+    "/service-areas/new-hope-al/home-remodeling/",
+    "/service-areas/new-hope-al/roofing/",
+    "/service-areas/arab-al/fire-smoke-rebuilding/",
+    "/service-areas/ardmore-al/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/new-hope-al/home-remodeling/": [
@@ -1453,6 +1743,15 @@
     "/service-areas/ardmore-al/home-remodeling/",
     "/contact/"
   ],
+  "/service-areas/new-hope-al/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/new-hope-al/",
+    "/service-areas/new-hope-al/home-remodeling/",
+    "/service-areas/new-hope-al/roofing/",
+    "/service-areas/arab-al/mold-remediation/",
+    "/service-areas/ardmore-al/mold-remediation/",
+    "/contact/"
+  ],
   "/service-areas/new-hope-al/new-construction/": [
     "/services/new-construction/",
     "/service-areas/new-hope-al/",
@@ -1462,13 +1761,13 @@
     "/service-areas/ardmore-al/new-construction/",
     "/contact/"
   ],
-  "/service-areas/new-hope-al/decks-pergolas-fences/": [
-    "/services/decks-pergolas-fences/",
+  "/service-areas/new-hope-al/painting-trim/": [
+    "/services/painting-trim/",
     "/service-areas/new-hope-al/",
     "/service-areas/new-hope-al/home-remodeling/",
     "/service-areas/new-hope-al/roofing/",
-    "/service-areas/arab-al/decks-pergolas-fences/",
-    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/service-areas/arab-al/painting-trim/",
+    "/service-areas/ardmore-al/painting-trim/",
     "/contact/"
   ],
   "/service-areas/new-hope-al/roofing/": [
@@ -1489,13 +1788,13 @@
     "/service-areas/ardmore-al/siding-gutters/",
     "/contact/"
   ],
-  "/service-areas/new-hope-al/painting-trim/": [
-    "/services/painting-trim/",
+  "/service-areas/new-hope-al/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
     "/service-areas/new-hope-al/",
     "/service-areas/new-hope-al/home-remodeling/",
     "/service-areas/new-hope-al/roofing/",
-    "/service-areas/arab-al/painting-trim/",
-    "/service-areas/ardmore-al/painting-trim/",
+    "/service-areas/arab-al/storm-damage-restoration/",
+    "/service-areas/ardmore-al/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/new-hope-al/water-damage-restoration/": [
@@ -1507,22 +1806,31 @@
     "/service-areas/ardmore-al/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/new-hope-al/storm-damage-restoration/": [
-    "/services/storm-damage-restoration/",
+  "/service-areas/new-hope-al/windows-doors/": [
+    "/services/windows-doors/",
     "/service-areas/new-hope-al/",
     "/service-areas/new-hope-al/home-remodeling/",
     "/service-areas/new-hope-al/roofing/",
-    "/service-areas/arab-al/storm-damage-restoration/",
-    "/service-areas/ardmore-al/storm-damage-restoration/",
+    "/service-areas/arab-al/windows-doors/",
+    "/service-areas/ardmore-al/windows-doors/",
     "/contact/"
   ],
-  "/service-areas/new-hope-al/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/new-hope-al/",
-    "/service-areas/new-hope-al/home-remodeling/",
-    "/service-areas/new-hope-al/roofing/",
-    "/service-areas/arab-al/mold-remediation/",
-    "/service-areas/ardmore-al/mold-remediation/",
+  "/service-areas/ardmore-al/decks-pergolas-fences/": [
+    "/services/decks-pergolas-fences/",
+    "/service-areas/ardmore-al/",
+    "/service-areas/ardmore-al/home-remodeling/",
+    "/service-areas/ardmore-al/roofing/",
+    "/service-areas/arab-al/decks-pergolas-fences/",
+    "/service-areas/athens-al/decks-pergolas-fences/",
+    "/contact/"
+  ],
+  "/service-areas/ardmore-al/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/ardmore-al/",
+    "/service-areas/ardmore-al/home-remodeling/",
+    "/service-areas/ardmore-al/roofing/",
+    "/service-areas/arab-al/fire-smoke-rebuilding/",
+    "/service-areas/athens-al/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/ardmore-al/home-remodeling/": [
@@ -1534,6 +1842,15 @@
     "/service-areas/athens-al/home-remodeling/",
     "/contact/"
   ],
+  "/service-areas/ardmore-al/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/ardmore-al/",
+    "/service-areas/ardmore-al/home-remodeling/",
+    "/service-areas/ardmore-al/roofing/",
+    "/service-areas/arab-al/mold-remediation/",
+    "/service-areas/athens-al/mold-remediation/",
+    "/contact/"
+  ],
   "/service-areas/ardmore-al/new-construction/": [
     "/services/new-construction/",
     "/service-areas/ardmore-al/",
@@ -1543,13 +1860,13 @@
     "/service-areas/athens-al/new-construction/",
     "/contact/"
   ],
-  "/service-areas/ardmore-al/decks-pergolas-fences/": [
-    "/services/decks-pergolas-fences/",
+  "/service-areas/ardmore-al/painting-trim/": [
+    "/services/painting-trim/",
     "/service-areas/ardmore-al/",
     "/service-areas/ardmore-al/home-remodeling/",
     "/service-areas/ardmore-al/roofing/",
-    "/service-areas/arab-al/decks-pergolas-fences/",
-    "/service-areas/athens-al/decks-pergolas-fences/",
+    "/service-areas/arab-al/painting-trim/",
+    "/service-areas/athens-al/painting-trim/",
     "/contact/"
   ],
   "/service-areas/ardmore-al/roofing/": [
@@ -1570,13 +1887,13 @@
     "/service-areas/athens-al/siding-gutters/",
     "/contact/"
   ],
-  "/service-areas/ardmore-al/painting-trim/": [
-    "/services/painting-trim/",
+  "/service-areas/ardmore-al/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
     "/service-areas/ardmore-al/",
     "/service-areas/ardmore-al/home-remodeling/",
     "/service-areas/ardmore-al/roofing/",
-    "/service-areas/arab-al/painting-trim/",
-    "/service-areas/athens-al/painting-trim/",
+    "/service-areas/arab-al/storm-damage-restoration/",
+    "/service-areas/athens-al/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/ardmore-al/water-damage-restoration/": [
@@ -1588,22 +1905,31 @@
     "/service-areas/athens-al/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/ardmore-al/storm-damage-restoration/": [
-    "/services/storm-damage-restoration/",
+  "/service-areas/ardmore-al/windows-doors/": [
+    "/services/windows-doors/",
     "/service-areas/ardmore-al/",
     "/service-areas/ardmore-al/home-remodeling/",
     "/service-areas/ardmore-al/roofing/",
-    "/service-areas/arab-al/storm-damage-restoration/",
-    "/service-areas/athens-al/storm-damage-restoration/",
+    "/service-areas/arab-al/windows-doors/",
+    "/service-areas/athens-al/windows-doors/",
     "/contact/"
   ],
-  "/service-areas/ardmore-al/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/ardmore-al/",
-    "/service-areas/ardmore-al/home-remodeling/",
-    "/service-areas/ardmore-al/roofing/",
-    "/service-areas/arab-al/mold-remediation/",
-    "/service-areas/athens-al/mold-remediation/",
+  "/service-areas/priceville-al/decks-pergolas-fences/": [
+    "/services/decks-pergolas-fences/",
+    "/service-areas/priceville-al/",
+    "/service-areas/priceville-al/home-remodeling/",
+    "/service-areas/priceville-al/roofing/",
+    "/service-areas/arab-al/decks-pergolas-fences/",
+    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/contact/"
+  ],
+  "/service-areas/priceville-al/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/priceville-al/",
+    "/service-areas/priceville-al/home-remodeling/",
+    "/service-areas/priceville-al/roofing/",
+    "/service-areas/arab-al/fire-smoke-rebuilding/",
+    "/service-areas/ardmore-al/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/priceville-al/home-remodeling/": [
@@ -1615,6 +1941,15 @@
     "/service-areas/ardmore-al/home-remodeling/",
     "/contact/"
   ],
+  "/service-areas/priceville-al/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/priceville-al/",
+    "/service-areas/priceville-al/home-remodeling/",
+    "/service-areas/priceville-al/roofing/",
+    "/service-areas/arab-al/mold-remediation/",
+    "/service-areas/ardmore-al/mold-remediation/",
+    "/contact/"
+  ],
   "/service-areas/priceville-al/new-construction/": [
     "/services/new-construction/",
     "/service-areas/priceville-al/",
@@ -1624,13 +1959,13 @@
     "/service-areas/ardmore-al/new-construction/",
     "/contact/"
   ],
-  "/service-areas/priceville-al/decks-pergolas-fences/": [
-    "/services/decks-pergolas-fences/",
+  "/service-areas/priceville-al/painting-trim/": [
+    "/services/painting-trim/",
     "/service-areas/priceville-al/",
     "/service-areas/priceville-al/home-remodeling/",
     "/service-areas/priceville-al/roofing/",
-    "/service-areas/arab-al/decks-pergolas-fences/",
-    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/service-areas/arab-al/painting-trim/",
+    "/service-areas/ardmore-al/painting-trim/",
     "/contact/"
   ],
   "/service-areas/priceville-al/roofing/": [
@@ -1651,13 +1986,13 @@
     "/service-areas/ardmore-al/siding-gutters/",
     "/contact/"
   ],
-  "/service-areas/priceville-al/painting-trim/": [
-    "/services/painting-trim/",
+  "/service-areas/priceville-al/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
     "/service-areas/priceville-al/",
     "/service-areas/priceville-al/home-remodeling/",
     "/service-areas/priceville-al/roofing/",
-    "/service-areas/arab-al/painting-trim/",
-    "/service-areas/ardmore-al/painting-trim/",
+    "/service-areas/arab-al/storm-damage-restoration/",
+    "/service-areas/ardmore-al/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/priceville-al/water-damage-restoration/": [
@@ -1669,22 +2004,31 @@
     "/service-areas/ardmore-al/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/priceville-al/storm-damage-restoration/": [
-    "/services/storm-damage-restoration/",
+  "/service-areas/priceville-al/windows-doors/": [
+    "/services/windows-doors/",
     "/service-areas/priceville-al/",
     "/service-areas/priceville-al/home-remodeling/",
     "/service-areas/priceville-al/roofing/",
-    "/service-areas/arab-al/storm-damage-restoration/",
-    "/service-areas/ardmore-al/storm-damage-restoration/",
+    "/service-areas/arab-al/windows-doors/",
+    "/service-areas/ardmore-al/windows-doors/",
     "/contact/"
   ],
-  "/service-areas/priceville-al/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/priceville-al/",
-    "/service-areas/priceville-al/home-remodeling/",
-    "/service-areas/priceville-al/roofing/",
-    "/service-areas/arab-al/mold-remediation/",
-    "/service-areas/ardmore-al/mold-remediation/",
+  "/service-areas/somerville-al/decks-pergolas-fences/": [
+    "/services/decks-pergolas-fences/",
+    "/service-areas/somerville-al/",
+    "/service-areas/somerville-al/home-remodeling/",
+    "/service-areas/somerville-al/roofing/",
+    "/service-areas/arab-al/decks-pergolas-fences/",
+    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/contact/"
+  ],
+  "/service-areas/somerville-al/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/somerville-al/",
+    "/service-areas/somerville-al/home-remodeling/",
+    "/service-areas/somerville-al/roofing/",
+    "/service-areas/arab-al/fire-smoke-rebuilding/",
+    "/service-areas/ardmore-al/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/somerville-al/home-remodeling/": [
@@ -1696,6 +2040,15 @@
     "/service-areas/ardmore-al/home-remodeling/",
     "/contact/"
   ],
+  "/service-areas/somerville-al/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/somerville-al/",
+    "/service-areas/somerville-al/home-remodeling/",
+    "/service-areas/somerville-al/roofing/",
+    "/service-areas/arab-al/mold-remediation/",
+    "/service-areas/ardmore-al/mold-remediation/",
+    "/contact/"
+  ],
   "/service-areas/somerville-al/new-construction/": [
     "/services/new-construction/",
     "/service-areas/somerville-al/",
@@ -1705,13 +2058,13 @@
     "/service-areas/ardmore-al/new-construction/",
     "/contact/"
   ],
-  "/service-areas/somerville-al/decks-pergolas-fences/": [
-    "/services/decks-pergolas-fences/",
+  "/service-areas/somerville-al/painting-trim/": [
+    "/services/painting-trim/",
     "/service-areas/somerville-al/",
     "/service-areas/somerville-al/home-remodeling/",
     "/service-areas/somerville-al/roofing/",
-    "/service-areas/arab-al/decks-pergolas-fences/",
-    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/service-areas/arab-al/painting-trim/",
+    "/service-areas/ardmore-al/painting-trim/",
     "/contact/"
   ],
   "/service-areas/somerville-al/roofing/": [
@@ -1732,13 +2085,13 @@
     "/service-areas/ardmore-al/siding-gutters/",
     "/contact/"
   ],
-  "/service-areas/somerville-al/painting-trim/": [
-    "/services/painting-trim/",
+  "/service-areas/somerville-al/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
     "/service-areas/somerville-al/",
     "/service-areas/somerville-al/home-remodeling/",
     "/service-areas/somerville-al/roofing/",
-    "/service-areas/arab-al/painting-trim/",
-    "/service-areas/ardmore-al/painting-trim/",
+    "/service-areas/arab-al/storm-damage-restoration/",
+    "/service-areas/ardmore-al/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/somerville-al/water-damage-restoration/": [
@@ -1750,22 +2103,31 @@
     "/service-areas/ardmore-al/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/somerville-al/storm-damage-restoration/": [
-    "/services/storm-damage-restoration/",
+  "/service-areas/somerville-al/windows-doors/": [
+    "/services/windows-doors/",
     "/service-areas/somerville-al/",
     "/service-areas/somerville-al/home-remodeling/",
     "/service-areas/somerville-al/roofing/",
-    "/service-areas/arab-al/storm-damage-restoration/",
-    "/service-areas/ardmore-al/storm-damage-restoration/",
+    "/service-areas/arab-al/windows-doors/",
+    "/service-areas/ardmore-al/windows-doors/",
     "/contact/"
   ],
-  "/service-areas/somerville-al/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/somerville-al/",
-    "/service-areas/somerville-al/home-remodeling/",
-    "/service-areas/somerville-al/roofing/",
-    "/service-areas/arab-al/mold-remediation/",
-    "/service-areas/ardmore-al/mold-remediation/",
+  "/service-areas/elkmont-al/decks-pergolas-fences/": [
+    "/services/decks-pergolas-fences/",
+    "/service-areas/elkmont-al/",
+    "/service-areas/elkmont-al/home-remodeling/",
+    "/service-areas/elkmont-al/roofing/",
+    "/service-areas/arab-al/decks-pergolas-fences/",
+    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/contact/"
+  ],
+  "/service-areas/elkmont-al/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/elkmont-al/",
+    "/service-areas/elkmont-al/home-remodeling/",
+    "/service-areas/elkmont-al/roofing/",
+    "/service-areas/arab-al/fire-smoke-rebuilding/",
+    "/service-areas/ardmore-al/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/elkmont-al/home-remodeling/": [
@@ -1777,6 +2139,15 @@
     "/service-areas/ardmore-al/home-remodeling/",
     "/contact/"
   ],
+  "/service-areas/elkmont-al/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/elkmont-al/",
+    "/service-areas/elkmont-al/home-remodeling/",
+    "/service-areas/elkmont-al/roofing/",
+    "/service-areas/arab-al/mold-remediation/",
+    "/service-areas/ardmore-al/mold-remediation/",
+    "/contact/"
+  ],
   "/service-areas/elkmont-al/new-construction/": [
     "/services/new-construction/",
     "/service-areas/elkmont-al/",
@@ -1786,13 +2157,13 @@
     "/service-areas/ardmore-al/new-construction/",
     "/contact/"
   ],
-  "/service-areas/elkmont-al/decks-pergolas-fences/": [
-    "/services/decks-pergolas-fences/",
+  "/service-areas/elkmont-al/painting-trim/": [
+    "/services/painting-trim/",
     "/service-areas/elkmont-al/",
     "/service-areas/elkmont-al/home-remodeling/",
     "/service-areas/elkmont-al/roofing/",
-    "/service-areas/arab-al/decks-pergolas-fences/",
-    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/service-areas/arab-al/painting-trim/",
+    "/service-areas/ardmore-al/painting-trim/",
     "/contact/"
   ],
   "/service-areas/elkmont-al/roofing/": [
@@ -1813,13 +2184,13 @@
     "/service-areas/ardmore-al/siding-gutters/",
     "/contact/"
   ],
-  "/service-areas/elkmont-al/painting-trim/": [
-    "/services/painting-trim/",
+  "/service-areas/elkmont-al/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
     "/service-areas/elkmont-al/",
     "/service-areas/elkmont-al/home-remodeling/",
     "/service-areas/elkmont-al/roofing/",
-    "/service-areas/arab-al/painting-trim/",
-    "/service-areas/ardmore-al/painting-trim/",
+    "/service-areas/arab-al/storm-damage-restoration/",
+    "/service-areas/ardmore-al/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/elkmont-al/water-damage-restoration/": [
@@ -1831,22 +2202,31 @@
     "/service-areas/ardmore-al/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/elkmont-al/storm-damage-restoration/": [
-    "/services/storm-damage-restoration/",
+  "/service-areas/elkmont-al/windows-doors/": [
+    "/services/windows-doors/",
     "/service-areas/elkmont-al/",
     "/service-areas/elkmont-al/home-remodeling/",
     "/service-areas/elkmont-al/roofing/",
-    "/service-areas/arab-al/storm-damage-restoration/",
-    "/service-areas/ardmore-al/storm-damage-restoration/",
+    "/service-areas/arab-al/windows-doors/",
+    "/service-areas/ardmore-al/windows-doors/",
     "/contact/"
   ],
-  "/service-areas/elkmont-al/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/elkmont-al/",
-    "/service-areas/elkmont-al/home-remodeling/",
-    "/service-areas/elkmont-al/roofing/",
-    "/service-areas/arab-al/mold-remediation/",
-    "/service-areas/ardmore-al/mold-remediation/",
+  "/service-areas/decatur-al/decks-pergolas-fences/": [
+    "/services/decks-pergolas-fences/",
+    "/service-areas/decatur-al/",
+    "/service-areas/decatur-al/home-remodeling/",
+    "/service-areas/decatur-al/roofing/",
+    "/service-areas/arab-al/decks-pergolas-fences/",
+    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/contact/"
+  ],
+  "/service-areas/decatur-al/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/decatur-al/",
+    "/service-areas/decatur-al/home-remodeling/",
+    "/service-areas/decatur-al/roofing/",
+    "/service-areas/arab-al/fire-smoke-rebuilding/",
+    "/service-areas/ardmore-al/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/decatur-al/home-remodeling/": [
@@ -1858,6 +2238,15 @@
     "/service-areas/ardmore-al/home-remodeling/",
     "/contact/"
   ],
+  "/service-areas/decatur-al/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/decatur-al/",
+    "/service-areas/decatur-al/home-remodeling/",
+    "/service-areas/decatur-al/roofing/",
+    "/service-areas/arab-al/mold-remediation/",
+    "/service-areas/ardmore-al/mold-remediation/",
+    "/contact/"
+  ],
   "/service-areas/decatur-al/new-construction/": [
     "/services/new-construction/",
     "/service-areas/decatur-al/",
@@ -1867,13 +2256,13 @@
     "/service-areas/ardmore-al/new-construction/",
     "/contact/"
   ],
-  "/service-areas/decatur-al/decks-pergolas-fences/": [
-    "/services/decks-pergolas-fences/",
+  "/service-areas/decatur-al/painting-trim/": [
+    "/services/painting-trim/",
     "/service-areas/decatur-al/",
     "/service-areas/decatur-al/home-remodeling/",
     "/service-areas/decatur-al/roofing/",
-    "/service-areas/arab-al/decks-pergolas-fences/",
-    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/service-areas/arab-al/painting-trim/",
+    "/service-areas/ardmore-al/painting-trim/",
     "/contact/"
   ],
   "/service-areas/decatur-al/roofing/": [
@@ -1894,13 +2283,13 @@
     "/service-areas/ardmore-al/siding-gutters/",
     "/contact/"
   ],
-  "/service-areas/decatur-al/painting-trim/": [
-    "/services/painting-trim/",
+  "/service-areas/decatur-al/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
     "/service-areas/decatur-al/",
     "/service-areas/decatur-al/home-remodeling/",
     "/service-areas/decatur-al/roofing/",
-    "/service-areas/arab-al/painting-trim/",
-    "/service-areas/ardmore-al/painting-trim/",
+    "/service-areas/arab-al/storm-damage-restoration/",
+    "/service-areas/ardmore-al/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/decatur-al/water-damage-restoration/": [
@@ -1912,22 +2301,31 @@
     "/service-areas/ardmore-al/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/decatur-al/storm-damage-restoration/": [
-    "/services/storm-damage-restoration/",
+  "/service-areas/decatur-al/windows-doors/": [
+    "/services/windows-doors/",
     "/service-areas/decatur-al/",
     "/service-areas/decatur-al/home-remodeling/",
     "/service-areas/decatur-al/roofing/",
-    "/service-areas/arab-al/storm-damage-restoration/",
-    "/service-areas/ardmore-al/storm-damage-restoration/",
+    "/service-areas/arab-al/windows-doors/",
+    "/service-areas/ardmore-al/windows-doors/",
     "/contact/"
   ],
-  "/service-areas/decatur-al/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/decatur-al/",
-    "/service-areas/decatur-al/home-remodeling/",
-    "/service-areas/decatur-al/roofing/",
-    "/service-areas/arab-al/mold-remediation/",
-    "/service-areas/ardmore-al/mold-remediation/",
+  "/service-areas/arab-al/decks-pergolas-fences/": [
+    "/services/decks-pergolas-fences/",
+    "/service-areas/arab-al/",
+    "/service-areas/arab-al/home-remodeling/",
+    "/service-areas/arab-al/roofing/",
+    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/service-areas/athens-al/decks-pergolas-fences/",
+    "/contact/"
+  ],
+  "/service-areas/arab-al/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/arab-al/",
+    "/service-areas/arab-al/home-remodeling/",
+    "/service-areas/arab-al/roofing/",
+    "/service-areas/ardmore-al/fire-smoke-rebuilding/",
+    "/service-areas/athens-al/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/arab-al/home-remodeling/": [
@@ -1939,6 +2337,15 @@
     "/service-areas/athens-al/home-remodeling/",
     "/contact/"
   ],
+  "/service-areas/arab-al/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/arab-al/",
+    "/service-areas/arab-al/home-remodeling/",
+    "/service-areas/arab-al/roofing/",
+    "/service-areas/ardmore-al/mold-remediation/",
+    "/service-areas/athens-al/mold-remediation/",
+    "/contact/"
+  ],
   "/service-areas/arab-al/new-construction/": [
     "/services/new-construction/",
     "/service-areas/arab-al/",
@@ -1948,13 +2355,13 @@
     "/service-areas/athens-al/new-construction/",
     "/contact/"
   ],
-  "/service-areas/arab-al/decks-pergolas-fences/": [
-    "/services/decks-pergolas-fences/",
+  "/service-areas/arab-al/painting-trim/": [
+    "/services/painting-trim/",
     "/service-areas/arab-al/",
     "/service-areas/arab-al/home-remodeling/",
     "/service-areas/arab-al/roofing/",
-    "/service-areas/ardmore-al/decks-pergolas-fences/",
-    "/service-areas/athens-al/decks-pergolas-fences/",
+    "/service-areas/ardmore-al/painting-trim/",
+    "/service-areas/athens-al/painting-trim/",
     "/contact/"
   ],
   "/service-areas/arab-al/roofing/": [
@@ -1975,13 +2382,13 @@
     "/service-areas/athens-al/siding-gutters/",
     "/contact/"
   ],
-  "/service-areas/arab-al/painting-trim/": [
-    "/services/painting-trim/",
+  "/service-areas/arab-al/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
     "/service-areas/arab-al/",
     "/service-areas/arab-al/home-remodeling/",
     "/service-areas/arab-al/roofing/",
-    "/service-areas/ardmore-al/painting-trim/",
-    "/service-areas/athens-al/painting-trim/",
+    "/service-areas/ardmore-al/storm-damage-restoration/",
+    "/service-areas/athens-al/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/arab-al/water-damage-restoration/": [
@@ -1993,22 +2400,31 @@
     "/service-areas/athens-al/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/arab-al/storm-damage-restoration/": [
-    "/services/storm-damage-restoration/",
+  "/service-areas/arab-al/windows-doors/": [
+    "/services/windows-doors/",
     "/service-areas/arab-al/",
     "/service-areas/arab-al/home-remodeling/",
     "/service-areas/arab-al/roofing/",
-    "/service-areas/ardmore-al/storm-damage-restoration/",
-    "/service-areas/athens-al/storm-damage-restoration/",
+    "/service-areas/ardmore-al/windows-doors/",
+    "/service-areas/athens-al/windows-doors/",
     "/contact/"
   ],
-  "/service-areas/arab-al/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/arab-al/",
-    "/service-areas/arab-al/home-remodeling/",
-    "/service-areas/arab-al/roofing/",
-    "/service-areas/ardmore-al/mold-remediation/",
-    "/service-areas/athens-al/mold-remediation/",
+  "/service-areas/hartselle-al/decks-pergolas-fences/": [
+    "/services/decks-pergolas-fences/",
+    "/service-areas/hartselle-al/",
+    "/service-areas/hartselle-al/home-remodeling/",
+    "/service-areas/hartselle-al/roofing/",
+    "/service-areas/arab-al/decks-pergolas-fences/",
+    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/contact/"
+  ],
+  "/service-areas/hartselle-al/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/hartselle-al/",
+    "/service-areas/hartselle-al/home-remodeling/",
+    "/service-areas/hartselle-al/roofing/",
+    "/service-areas/arab-al/fire-smoke-rebuilding/",
+    "/service-areas/ardmore-al/fire-smoke-rebuilding/",
     "/contact/"
   ],
   "/service-areas/hartselle-al/home-remodeling/": [
@@ -2020,6 +2436,15 @@
     "/service-areas/ardmore-al/home-remodeling/",
     "/contact/"
   ],
+  "/service-areas/hartselle-al/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/hartselle-al/",
+    "/service-areas/hartselle-al/home-remodeling/",
+    "/service-areas/hartselle-al/roofing/",
+    "/service-areas/arab-al/mold-remediation/",
+    "/service-areas/ardmore-al/mold-remediation/",
+    "/contact/"
+  ],
   "/service-areas/hartselle-al/new-construction/": [
     "/services/new-construction/",
     "/service-areas/hartselle-al/",
@@ -2029,13 +2454,13 @@
     "/service-areas/ardmore-al/new-construction/",
     "/contact/"
   ],
-  "/service-areas/hartselle-al/decks-pergolas-fences/": [
-    "/services/decks-pergolas-fences/",
+  "/service-areas/hartselle-al/painting-trim/": [
+    "/services/painting-trim/",
     "/service-areas/hartselle-al/",
     "/service-areas/hartselle-al/home-remodeling/",
     "/service-areas/hartselle-al/roofing/",
-    "/service-areas/arab-al/decks-pergolas-fences/",
-    "/service-areas/ardmore-al/decks-pergolas-fences/",
+    "/service-areas/arab-al/painting-trim/",
+    "/service-areas/ardmore-al/painting-trim/",
     "/contact/"
   ],
   "/service-areas/hartselle-al/roofing/": [
@@ -2056,13 +2481,13 @@
     "/service-areas/ardmore-al/siding-gutters/",
     "/contact/"
   ],
-  "/service-areas/hartselle-al/painting-trim/": [
-    "/services/painting-trim/",
+  "/service-areas/hartselle-al/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
     "/service-areas/hartselle-al/",
     "/service-areas/hartselle-al/home-remodeling/",
     "/service-areas/hartselle-al/roofing/",
-    "/service-areas/arab-al/painting-trim/",
-    "/service-areas/ardmore-al/painting-trim/",
+    "/service-areas/arab-al/storm-damage-restoration/",
+    "/service-areas/ardmore-al/storm-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/hartselle-al/water-damage-restoration/": [
@@ -2074,22 +2499,13 @@
     "/service-areas/ardmore-al/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/hartselle-al/storm-damage-restoration/": [
-    "/services/storm-damage-restoration/",
+  "/service-areas/hartselle-al/windows-doors/": [
+    "/services/windows-doors/",
     "/service-areas/hartselle-al/",
     "/service-areas/hartselle-al/home-remodeling/",
     "/service-areas/hartselle-al/roofing/",
-    "/service-areas/arab-al/storm-damage-restoration/",
-    "/service-areas/ardmore-al/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/hartselle-al/mold-remediation/": [
-    "/services/mold-remediation/",
-    "/service-areas/hartselle-al/",
-    "/service-areas/hartselle-al/home-remodeling/",
-    "/service-areas/hartselle-al/roofing/",
-    "/service-areas/arab-al/mold-remediation/",
-    "/service-areas/ardmore-al/mold-remediation/",
+    "/service-areas/arab-al/windows-doors/",
+    "/service-areas/ardmore-al/windows-doors/",
     "/contact/"
   ],
   "/blog/how-to-plan-a-home-remodel/": [

@@ -8,7 +8,7 @@ secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "7c5a5305ba91e67c"
-generated_at: "2026-09-20T20:42:19.131068+00:00"
+generated_at: "2026-09-23T14:12:02.383104+00:00"
 manual_override: false
 internal_links: ["/services/storm-damage-restoration/", "/service-areas/mount-charleston-nv/", "/service-areas/mount-charleston-nv/fire-damage-restoration/", "/service-areas/mount-charleston-nv/mold-remediation/", "/service-areas/blue-diamond-nv/storm-damage-restoration/", "/service-areas/boulder-city-nv/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mount Charleston", "url": "/service-areas/mount-charleston-nv/"}, {"name": "Storm Damage Restoration"}]

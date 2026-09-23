@@ -7,10 +7,10 @@ primary_keyword: "mold remediation buttonwillow"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "01bb2cc19b8e68d1"
-generated_at: "2026-09-20T14:13:26.547173+00:00"
+plan_hash: "2232fc68f46ac0fb"
+generated_at: "2026-09-23T14:11:55.977433+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/fire-damage-restoration/", "/service-areas/buttonwillow-ca/home-remodeling/", "/service-areas/arvin-ca/mold-remediation/", "/service-areas/delano-ca/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/fire-damage-restoration/", "/service-areas/buttonwillow-ca/home-remodeling/", "/service-areas/arvin-ca/mold-remediation/", "/service-areas/bear-valley-springs-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buttonwillow", "url": "/service-areas/buttonwillow-ca/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "buttonwillow-ca"

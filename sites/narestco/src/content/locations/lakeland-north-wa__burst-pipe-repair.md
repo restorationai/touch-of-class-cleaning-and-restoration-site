@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "9d7d45bb6763cb0c"
-generated_at: "2026-09-20T14:13:23.233128+00:00"
+generated_at: "2026-09-23T14:11:54.090502+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/lakeland-north-wa/", "/service-areas/lakeland-north-wa/fire-damage-restoration/", "/service-areas/lakeland-north-wa/mold-remediation/", "/service-areas/algona-wa/burst-pipe-repair/", "/service-areas/auburn-wa/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lakeland North", "url": "/service-areas/lakeland-north-wa/"}, {"name": "Burst Pipe Cleanup and Repair"}]

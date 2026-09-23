@@ -8,7 +8,7 @@ secondary_keywords: ["contents pack-out", "contents cleaning", "belongings resto
 search_intent: "local_service"
 priority: 3.5
 plan_hash: "754a7e647a9e7e6e"
-generated_at: "2026-09-21T19:19:21.958213+00:00"
+generated_at: "2026-09-23T14:12:04.492719+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration/", "/service-areas/murphy-tx/", "/service-areas/murphy-tx/fire-damage-restoration/", "/service-areas/murphy-tx/mold-remediation/", "/service-areas/allen-tx/contents-restoration/", "/service-areas/caddo-mills-tx/contents-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Murphy", "url": "/service-areas/murphy-tx/"}, {"name": "Contents Restoration and Storage"}]

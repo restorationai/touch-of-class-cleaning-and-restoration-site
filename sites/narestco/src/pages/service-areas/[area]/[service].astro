@@ -7,7 +7,6 @@ import InternalLinks from "~/components/InternalLinks.astro";
 import GoogleMap from "~/components/GoogleMap.astro";
 import DispatchCallout from "~/components/ui/DispatchCallout.astro";
 import GbpCityProof from "~/components/ui/GbpCityProof.astro";
-import Hero from "~/components/ui/Hero.astro";
 import { brand } from "~/lib/brand";
 import geoVideos from "~/data/geo-videos.json";
 import { serviceImage } from "~/lib/images";
@@ -24,7 +23,7 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await entry.render();
 const data = entry.data;
-const isSensitive = data.content_guardrails === "sensitive";
+const sensitive = data.content_guardrails === "sensitive";
 // City x service explainer video (our auto-produced geo YouTube videos) —
 // embedded when one exists for this exact page. Lazy iframe: no LCP cost.
 const geoVideoId = (geoVideos as Record<string, string>)[
@@ -85,17 +84,31 @@ const faq = [...responseFaq, ...baseFaq, ...insuranceFaq];
   breadcrumb={data.breadcrumb}
   faq={faq}
 >
-  <Hero
-    title={data.h1}
-    subtitle={data.meta_description}
-    ctaText={isSensitive ? "Request Discreet Help" : `📞 Call ${brand.phone}`}
-    ctaLink={`tel:${brand.phoneRaw}`}
-    isSensitive={isSensitive}
-    backgroundImage={heroImage.startsWith("/images/") ? heroImage : undefined}
-  />
+  <!-- HERO -->
+  <section class="relative min-h-[500px] flex items-center overflow-hidden bg-navy border-b border-white/10">
+    <div class="absolute inset-0 z-0">
+      <img src={heroImage} alt={data.h1} class="w-full h-full object-cover" loading="eager" />
+      <div class="absolute inset-0 bg-gradient-to-r from-navy via-navy/85 to-navy/30"></div>
+    </div>
+    <div class="container-wide relative z-10 py-20">
+      <div class="max-w-2xl">
+        <div class="eyebrow">{data.city}, {data.state} · {data.service_display}</div>
+        <h1 class="mb-6">{data.h1}</h1>
+        <p class="text-lg text-white/85 mb-8 leading-relaxed">{data.meta_description}</p>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href={`tel:${brand.phoneRaw}`} class={sensitive ? "btn-primary" : "btn-accent"}>
+            {sensitive ? "Request Discreet Help" : `📞 Call ${brand.phone}`}
+          </a>
+          <a href={`/service-areas/${data.area_slug}/`} class="btn-outline">
+            All Services in {data.city}
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- BODY -->
-  <section class="section-first bg-dark">
+  <section class="section-first bg-navy">
     <div class="container-wide">
       <div class="max-w-content mx-auto mb-10">
         <DispatchCallout sentence={dispatch} />
@@ -130,9 +143,10 @@ const faq = [...responseFaq, ...baseFaq, ...insuranceFaq];
   )}
 
   <CtaBanner
-    heading={`${data.service_display} response in ${data.city}`}
-    subheading={`Most ${data.city} calls see a technician on-site within 60 minutes from our ${brand.primaryCity} headquarters.`}
-    isSensitive={isSensitive}
+    heading={is247 ? `${data.service_display} response in ${data.city}` : `${data.service_display} in ${data.city}`}
+    subheading={is247
+      ? `Most ${data.city} calls see a technician on-site within 60 minutes from our ${brand.primaryCity} headquarters.`
+      : `Our crews are based in ${brand.primaryCity}, ${brand.primaryState} and take on projects across ${data.city}. Call for a free estimate.`}
   />
 
   <InternalLinks paths={data.internal_links} heading="Nearby & Related" eyebrow="More Coverage" />

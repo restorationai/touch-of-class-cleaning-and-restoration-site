@@ -7,10 +7,10 @@ primary_keyword: "upholstery cleaning cedar hills"
 secondary_keywords: ["sofa cleaning", "couch cleaning", "furniture steam cleaning", "leather upholstery cleaning", "fabric upholstery cleaning"]
 search_intent: "local_specialty"
 priority: 2.8
-plan_hash: "0ae1b02bdba3f63c"
-generated_at: "2026-09-20T14:13:18.735210+00:00"
+plan_hash: "d3919144a8c40c3f"
+generated_at: "2026-09-23T14:11:49.764554+00:00"
 manual_override: false
-internal_links: ["/services/upholstery-cleaning/", "/service-areas/cedar-hills-ut/", "/service-areas/cedar-hills-ut/fire-damage-restoration/", "/service-areas/cedar-hills-ut/mold-remediation/", "/service-areas/american-fork-ut/upholstery-cleaning/", "/service-areas/cedar-fort-ut/upholstery-cleaning/", "/contact/"]
+internal_links: ["/services/upholstery-cleaning/", "/service-areas/cedar-hills-ut/", "/service-areas/cedar-hills-ut/fire-damage-restoration/", "/service-areas/cedar-hills-ut/mold-remediation/", "/service-areas/alpine-ut/upholstery-cleaning/", "/service-areas/american-fork-ut/upholstery-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Cedar Hills", "url": "/service-areas/cedar-hills-ut/"}, {"name": "Upholstery Cleaning"}]
 faq: []
 area_slug: "cedar-hills-ut"

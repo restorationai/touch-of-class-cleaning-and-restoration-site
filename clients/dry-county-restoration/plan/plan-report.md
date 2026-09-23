@@ -1,21 +1,21 @@
 # Site Plan Report — Dry County Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-22T02:11:11.576445+00:00
+- Generated: 2026-09-23T14:11:35.005087+00:00
 - Domain: `drycountyrestoration.com`
-- Services selected: 12 of 65 catalog entries
+- Services selected: 17 of 65 catalog entries
 - Service areas: 22
 - Cross-product enabled: True
-- Total URLs: **302**
-- Total internal links: 2426 (avg 8.0 per page)
+- Total URLs: **412**
+- Total internal links: 3346 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 252 |
+| `service-area-service` | 357 |
 | `service-area` | 21 |
-| `service-landing` | 12 |
+| `service-landing` | 17 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -27,17 +27,22 @@
 
 ## Selected services
 
-- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
-- `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
-- `mold-remediation` — Mold Remediation (core, priority 10)
-- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
-- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
-- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
-- `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
-- `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
 - `air-duct-cleaning` — Air Duct Cleaning (adjacent, priority 5)
 - `carpet-cleaning` — Carpet Cleaning (adjacent, priority 4)
+- `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
+- `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
+- `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
+- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
+- `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
+- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
+- `mold-remediation` — Mold Remediation (core, priority 10)
+- `odor-removal` — Odor Removal and Deodorization (specialty, priority 7)
 - `post-construction-cleaning` — Post-Construction and Specialty Cleaning (supporting, priority 4)
+- `roofing` — Roofing Installation and Replacement (construction, priority 10)
+- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
+- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
+- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
+- `water-leak-detection` — Water Leak Detection (core, priority 7)
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 
 ## Service areas
@@ -71,14 +76,14 @@
 | --- | --- | --- | --- |
 | `/services/fire-damage-restoration/` | `service-landing` | 9.0 | fire damage restoration corona |
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation corona |
+| `/services/roofing/` | `service-landing` | 9.0 | roofing installation and replacement corona |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration corona |
+| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing corona |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization corona |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration corona |
 | `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup corona |
 | `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting corona |
 | `/service-areas/anaheim-ca/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration anaheim |
-| `/service-areas/anaheim-ca/mold-remediation/` | `service-area-service` | 7.0 | mold remediation anaheim |
-| `/service-areas/anaheim-ca/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration anaheim |
 
 ## Validation
 

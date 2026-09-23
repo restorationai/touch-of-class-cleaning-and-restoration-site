@@ -7,10 +7,10 @@ primary_keyword: "odor removal and deodorization mcfarland"
 secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
 search_intent: "local_specialty"
 priority: 4.9
-plan_hash: "1b1c3c4d1f5231c4"
-generated_at: "2026-09-20T14:13:26.552816+00:00"
+plan_hash: "015c494c4afdc6f9"
+generated_at: "2026-09-23T14:11:55.992463+00:00"
 manual_override: false
-internal_links: ["/services/odor-removal/", "/service-areas/mcfarland-ca/", "/service-areas/mcfarland-ca/fire-damage-restoration/", "/service-areas/mcfarland-ca/home-remodeling/", "/service-areas/arvin-ca/odor-removal/", "/service-areas/buttonwillow-ca/odor-removal/", "/contact/"]
+internal_links: ["/services/odor-removal/", "/service-areas/mcfarland-ca/", "/service-areas/mcfarland-ca/fire-damage-restoration/", "/service-areas/mcfarland-ca/home-remodeling/", "/service-areas/arvin-ca/odor-removal/", "/service-areas/bear-valley-springs-ca/odor-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McFarland", "url": "/service-areas/mcfarland-ca/"}, {"name": "Odor Removal and Deodorization"}]
 faq: []
 area_slug: "mcfarland-ca"

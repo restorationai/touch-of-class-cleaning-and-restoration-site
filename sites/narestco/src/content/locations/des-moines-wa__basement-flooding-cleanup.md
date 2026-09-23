@@ -8,7 +8,7 @@ secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet 
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "12d4e8f39830ec22"
-generated_at: "2026-09-20T14:13:23.237243+00:00"
+generated_at: "2026-09-23T14:11:54.100633+00:00"
 manual_override: false
 internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/des-moines-wa/", "/service-areas/des-moines-wa/fire-damage-restoration/", "/service-areas/des-moines-wa/mold-remediation/", "/service-areas/algona-wa/basement-flooding-cleanup/", "/service-areas/auburn-wa/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Des Moines", "url": "/service-areas/des-moines-wa/"}, {"name": "Basement Flooding Cleanup"}]

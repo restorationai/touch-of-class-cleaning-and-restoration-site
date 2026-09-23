@@ -7,10 +7,10 @@ primary_keyword: "home remodeling new market"
 secondary_keywords: ["home renovation", "whole home remodel", "interior remodeling contractor", "house renovation contractor", "remodeling company"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "69ebf5396669af16"
-generated_at: "2026-09-20T14:13:03.672837+00:00"
+plan_hash: "543d6e367dc1963c"
+generated_at: "2026-09-23T14:11:32.840580+00:00"
 manual_override: false
-internal_links: ["/services/home-remodeling/", "/service-areas/new-market-al/", "/service-areas/new-market-al/roofing/", "/service-areas/new-market-al/decks-pergolas-fences/", "/service-areas/athens-al/home-remodeling/", "/service-areas/harvest-al/home-remodeling/", "/contact/"]
+internal_links: ["/services/home-remodeling/", "/service-areas/new-market-al/", "/service-areas/new-market-al/roofing/", "/service-areas/new-market-al/decks-pergolas-fences/", "/service-areas/arab-al/home-remodeling/", "/service-areas/ardmore-al/home-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "New Market", "url": "/service-areas/new-market-al/"}, {"name": "Home Remodeling"}]
 faq: []
 area_slug: "new-market-al"

@@ -26,36 +26,49 @@ export default {
           900: "#111827",
           950: "#030712",
         },
-        /* primary DEFAULT/600 darkened one step (orange-700) so white-on-primary
-           CTAs meet WCAG AA 4.5:1 (audit: color-contrast). 400/500 keep the brand
-           orange for accents on dark surfaces. */
         primary: {
-          DEFAULT: "#c2410c",
-          50: "#fff7ed",
-          100: "#ffedd5",
-          200: "#fed7aa",
-          300: "#fdba74",
-          400: "#fb923c",
-          500: "#f97316",
-          600: "#c2410c",
-          700: "#9a3412",
-          800: "#9a3412",
-          900: "#7c2d12",
-          950: "#431407",
+          DEFAULT: "#171717",
+          50: "#f7f7f7",
+          100: "#ebebeb",
+          200: "#d6d6d6",
+          300: "#b8b8b8",
+          400: "#9c9c9c",
+          500: "#808080",
+          // 600/700 are the DARKENED rungs — brand-tinted TEXT on a white or
+          // light surface (Hero's outline button, ProcessSection icons). They
+          // are NOT the button fill; that is `cta` below.
+          600: "#171717",
+          700: "#0a0a0a",
+          800: "#050505",
+          900: "#050505",
+          950: "#050505",
+        },
+        /* cta — the SOLID-FILL pair: `bg-cta` is every call-to-action's
+           background and `text-cta-fg` is the label that sits on it. They are
+           resolved TOGETHER in build_site.resolve_tokens so the pair always
+           clears WCAG AA, which lets the fill stay the client's REAL brand hex
+           instead of a darkened derivative. A dark brand gets hex + white; a
+           light brand (gold, lime, sky) gets hex + a near-black label. Reign,
+           2026-08-05: "Action to call on the website need to match golds as
+           the logo" — the fill is the logo gold now, the label moved instead. */
+        cta: {
+          DEFAULT: "#171717",
+          hover: "#0a0a0a",
+          fg: "#ffffff",
         },
         accent: {
-          // #c2410c (was #fb923c): white-on-accent CTAs (btn-accent) now meet
-          // WCAG AA 4.5:1 (audit: color-contrast)
-          DEFAULT: "#c2410c",
+          // Same pair rule as cta — btn-accent renders text-accent-fg on this.
+          DEFAULT: "#171717",
+          fg: "#ffffff",
         },
         muted: {
           DEFAULT: "#4b5563",
         },
         /* navy — deep blue-black surface used by Footer (text-navy-900 on the
-           inverted white footer), GoogleMap/InternalLinks sections, and interior
-           page-route backgrounds. Was referenced by components but never defined,
-           so Tailwind dropped every navy-* class and the white footer rendered
-           white-on-white text (audit: color-contrast). */
+           inverted white footer), GoogleMap/InternalLinks sections, and the
+           interior page-route backgrounds. Was referenced by components but
+           never defined, so Tailwind dropped every navy-* class and the white
+           footer rendered white-on-white text (audit: color-contrast). */
         navy: {
           DEFAULT: "#0f172a",
           50: "#f8fafc",

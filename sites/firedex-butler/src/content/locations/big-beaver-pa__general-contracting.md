@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "148fe83c2072705e"
-generated_at: "2026-09-22T14:27:31.947751+00:00"
+generated_at: "2026-09-23T14:11:40.977443+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/big-beaver-pa/", "/service-areas/big-beaver-pa/fire-damage-restoration/", "/service-areas/big-beaver-pa/mold-remediation/", "/service-areas/aliquippa-pa/general-contracting/", "/service-areas/allison-park-pa/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Big Beaver", "url": "/service-areas/big-beaver-pa/"}, {"name": "Renovations, Remodels and General Contracting"}]

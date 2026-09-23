@@ -7,10 +7,10 @@ primary_keyword: "mold remediation algona"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "20b3aa9a23da19a6"
-generated_at: "2026-09-20T14:13:23.246895+00:00"
+plan_hash: "90aa947757c88d98"
+generated_at: "2026-09-23T14:11:54.123039+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/algona-wa/", "/service-areas/algona-wa/fire-damage-restoration/", "/service-areas/algona-wa/water-damage-restoration/", "/service-areas/auburn-wa/mold-remediation/", "/service-areas/bellevue-wa/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/algona-wa/", "/service-areas/algona-wa/fire-damage-restoration/", "/service-areas/algona-wa/roofing/", "/service-areas/auburn-wa/mold-remediation/", "/service-areas/bellevue-wa/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Algona", "url": "/service-areas/algona-wa/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "algona-wa"

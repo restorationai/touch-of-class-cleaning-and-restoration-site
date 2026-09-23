@@ -7,10 +7,10 @@ primary_keyword: "roofing installation and replacement new market"
 secondary_keywords: ["roofing contractor", "roof replacement", "new roof installation", "residential roofing", "roof repair"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "29950f348d66e808"
-generated_at: "2026-09-20T14:13:03.673330+00:00"
+plan_hash: "a846ed53dd97763f"
+generated_at: "2026-09-23T14:11:32.841965+00:00"
 manual_override: false
-internal_links: ["/services/roofing/", "/service-areas/new-market-al/", "/service-areas/new-market-al/home-remodeling/", "/service-areas/new-market-al/decks-pergolas-fences/", "/service-areas/athens-al/roofing/", "/service-areas/harvest-al/roofing/", "/contact/"]
+internal_links: ["/services/roofing/", "/service-areas/new-market-al/", "/service-areas/new-market-al/home-remodeling/", "/service-areas/new-market-al/decks-pergolas-fences/", "/service-areas/arab-al/roofing/", "/service-areas/ardmore-al/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "New Market", "url": "/service-areas/new-market-al/"}, {"name": "Roofing Installation and Replacement"}]
 faq: []
 area_slug: "new-market-al"

@@ -2,16 +2,22 @@
 
 > 24/7 restoration services in Middlesex, NC.
 
-Go Green Restoration of NC (Go Green Restoration of NC) is a professional restoration contractor serving Middlesex, NC and surrounding areas. We provide 24/7 emergency response for water, fire, mold, storm, biohazard, and reconstruction services. Phone: (919) 906-5473 · Email: gogreenrestorationofnc@gmail.com.
+Go Green Restoration of NC (Go Green Restoration of NC) is a professional restoration contractor serving Middlesex, NC and surrounding areas since . We provide 24/7 emergency response for water, fire, mold, storm, biohazard, and reconstruction services. Phone: (919) 906-5473 · Email: gogreenrestorationofnc@gmail.com.
 
 ## Site index
 
 This file is intended for AI assistants and language models to efficiently ingest the structure and content of this website. The full list of pages is in the sitemap at https://gogreenrestorationofnc.com/sitemap-index.xml.
 
 ### Core service pages
-- [Water Damage Restoration](https://gogreenrestorationofnc.com/services/water-damage-restoration/)
-- [Mold Remediation](https://gogreenrestorationofnc.com/services/mold-remediation/)
+- [Air Duct Cleaning](https://gogreenrestorationofnc.com/services/air-duct-cleaning/)
+- [Biohazard Cleanup](https://gogreenrestorationofnc.com/services/biohazard-cleanup/)
+- [Carpet Cleaning](https://gogreenrestorationofnc.com/services/carpet-cleaning/)
 - [Crawl Space Encapsulation](https://gogreenrestorationofnc.com/services/crawl-space-encapsulation/)
+- [Fire Damage Restoration](https://gogreenrestorationofnc.com/services/fire-damage-restoration/)
+- [Insulation Removal & Installation](https://gogreenrestorationofnc.com/services/insulation-removal-installation/)
+- [Mold Remediation](https://gogreenrestorationofnc.com/services/mold-remediation/)
+- [Odor Removal and Deodorization](https://gogreenrestorationofnc.com/services/odor-removal/)
+- [Water Damage Restoration](https://gogreenrestorationofnc.com/services/water-damage-restoration/)
 
 ### Service area pages
 - [Middlesex, NC](https://gogreenrestorationofnc.com/service-areas/middlesex-nc/)
@@ -22,11 +28,29 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Smithfield, NC](https://gogreenrestorationofnc.com/service-areas/smithfield-nc/)
 - [Wake Forest, NC](https://gogreenrestorationofnc.com/service-areas/wake-forest-nc/)
 - [Zebulon, NC](https://gogreenrestorationofnc.com/service-areas/zebulon-nc/)
+- [Wendell, NC](https://gogreenrestorationofnc.com/service-areas/wendell-nc/)
+- [Archer Lodge, NC](https://gogreenrestorationofnc.com/service-areas/archer-lodge-nc/)
+- [Lake Royale, NC](https://gogreenrestorationofnc.com/service-areas/lake-royale-nc/)
+- [Spring Hope, NC](https://gogreenrestorationofnc.com/service-areas/spring-hope-nc/)
+- [Kenly, NC](https://gogreenrestorationofnc.com/service-areas/kenly-nc/)
+- [Clayton, NC](https://gogreenrestorationofnc.com/service-areas/clayton-nc/)
+- [Knightdale, NC](https://gogreenrestorationofnc.com/service-areas/knightdale-nc/)
+- [Wilson's Mills, NC](https://gogreenrestorationofnc.com/service-areas/wilson-s-mills-nc/)
+- [Rolesville, NC](https://gogreenrestorationofnc.com/service-areas/rolesville-nc/)
+- [Selma, NC](https://gogreenrestorationofnc.com/service-areas/selma-nc/)
+- [Nashville, NC](https://gogreenrestorationofnc.com/service-areas/nashville-nc/)
+- [Elm City, NC](https://gogreenrestorationofnc.com/service-areas/elm-city-nc/)
+- [Pine Level, NC](https://gogreenrestorationofnc.com/service-areas/pine-level-nc/)
+- [Louisburg, NC](https://gogreenrestorationofnc.com/service-areas/louisburg-nc/)
+- [Youngsville, NC](https://gogreenrestorationofnc.com/service-areas/youngsville-nc/)
 
 ### Resources
 - [Blog](https://gogreenrestorationofnc.com/blog/): Restoration guides and local resources
 - [About](https://gogreenrestorationofnc.com/about/): Company background and credentials
 - [Contact](https://gogreenrestorationofnc.com/contact/): Phone, email, and service request form
+
+### Official profiles
+(profiles listed in page schema)
 - [Emergency](https://gogreenrestorationofnc.com/emergency/): 24/7 emergency water damage response
 
 ## Key facts

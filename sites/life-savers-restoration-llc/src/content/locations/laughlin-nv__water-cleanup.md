@@ -8,7 +8,7 @@ secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "32760e71338e6bca"
-generated_at: "2026-09-21T14:13:32.380083+00:00"
+generated_at: "2026-09-23T14:11:52.273449+00:00"
 manual_override: false
 internal_links: ["/services/water-cleanup/", "/service-areas/laughlin-nv/", "/service-areas/laughlin-nv/fire-damage-restoration/", "/service-areas/laughlin-nv/mold-remediation/", "/service-areas/blue-diamond-nv/water-cleanup/", "/service-areas/boulder-city-nv/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Laughlin", "url": "/service-areas/laughlin-nv/"}, {"name": "water-cleanup"}]

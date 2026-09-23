@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration fairfield"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "241899f78221ddca"
-generated_at: "2026-09-20T14:13:18.730880+00:00"
+plan_hash: "a9c57f0167c08899"
+generated_at: "2026-09-23T14:11:49.753193+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/fairfield-ut/", "/service-areas/fairfield-ut/mold-remediation/", "/service-areas/fairfield-ut/water-damage-restoration/", "/service-areas/american-fork-ut/fire-damage-restoration/", "/service-areas/cedar-fort-ut/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/fairfield-ut/", "/service-areas/fairfield-ut/mold-remediation/", "/service-areas/fairfield-ut/water-damage-restoration/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/american-fork-ut/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fairfield", "url": "/service-areas/fairfield-ut/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "fairfield-ut"

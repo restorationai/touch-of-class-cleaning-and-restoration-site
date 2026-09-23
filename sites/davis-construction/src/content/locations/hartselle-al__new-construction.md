@@ -8,7 +8,7 @@ secondary_keywords: ["custom home builder", "new home builder", "build a house",
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "6e6d58b3ee863468"
-generated_at: "2026-09-22T20:18:17.662234+00:00"
+generated_at: "2026-09-23T14:11:32.881710+00:00"
 manual_override: false
 internal_links: ["/services/new-construction/", "/service-areas/hartselle-al/", "/service-areas/hartselle-al/home-remodeling/", "/service-areas/hartselle-al/roofing/", "/service-areas/arab-al/new-construction/", "/service-areas/ardmore-al/new-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hartselle", "url": "/service-areas/hartselle-al/"}, {"name": "New Home Construction"}]

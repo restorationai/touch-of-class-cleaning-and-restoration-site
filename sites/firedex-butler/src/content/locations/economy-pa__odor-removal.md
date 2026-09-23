@@ -7,10 +7,10 @@ primary_keyword: "odor removal and deodorization economy"
 secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
 search_intent: "local_specialty"
 priority: 4.9
-plan_hash: "be7e71b4ea0de49d"
-generated_at: "2026-09-20T14:13:09.797371+00:00"
+plan_hash: "bbb0d85cb9a35272"
+generated_at: "2026-09-23T14:11:40.895569+00:00"
 manual_override: false
-internal_links: ["/services/odor-removal/", "/service-areas/economy-pa/", "/service-areas/economy-pa/fire-damage-restoration/", "/service-areas/economy-pa/mold-remediation/", "/service-areas/baden-pa/odor-removal/", "/service-areas/beaver-falls-pa/odor-removal/", "/contact/"]
+internal_links: ["/services/odor-removal/", "/service-areas/economy-pa/", "/service-areas/economy-pa/fire-damage-restoration/", "/service-areas/economy-pa/mold-remediation/", "/service-areas/aliquippa-pa/odor-removal/", "/service-areas/allison-park-pa/odor-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Economy", "url": "/service-areas/economy-pa/"}, {"name": "Odor Removal and Deodorization"}]
 faq: []
 area_slug: "economy-pa"

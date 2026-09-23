@@ -7,10 +7,10 @@ primary_keyword: "mold remediation mclendon-chisholm"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "6aed104eddcfe8f8"
-generated_at: "2026-09-20T14:13:42.836107+00:00"
+plan_hash: "e1ae5d9cb0c0b5aa"
+generated_at: "2026-09-23T14:12:04.470393+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/mclendon-chisholm-tx/", "/service-areas/mclendon-chisholm-tx/fire-damage-restoration/", "/service-areas/mclendon-chisholm-tx/water-damage-restoration/", "/service-areas/allen-tx/mold-remediation/", "/service-areas/caddo-mills-tx/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/mclendon-chisholm-tx/", "/service-areas/mclendon-chisholm-tx/fire-damage-restoration/", "/service-areas/mclendon-chisholm-tx/roofing/", "/service-areas/allen-tx/mold-remediation/", "/service-areas/caddo-mills-tx/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McLendon-Chisholm", "url": "/service-areas/mclendon-chisholm-tx/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "mclendon-chisholm-tx"

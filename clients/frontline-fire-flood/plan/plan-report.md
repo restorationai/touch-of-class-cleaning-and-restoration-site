@@ -1,21 +1,21 @@
 # Site Plan Report — Frontline Fire & Flood
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-22T02:11:20.075278+00:00
+- Generated: 2026-09-23T14:11:41.146347+00:00
 - Domain: `frontlinefireflood.com`
-- Services selected: 9 of 65 catalog entries
+- Services selected: 11 of 65 catalog entries
 - Service areas: 39
 - Cross-product enabled: True
-- Total URLs: **406**
-- Total internal links: 3217 (avg 7.9 per page)
+- Total URLs: **484**
+- Total internal links: 3857 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 342 |
+| `service-area-service` | 418 |
 | `service-area` | 38 |
-| `service-landing` | 9 |
+| `service-landing` | 11 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -27,15 +27,17 @@
 
 ## Selected services
 
-- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
+- `asbestos-abatement` — Asbestos Abatement (specialty, priority 6)
+- `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
+- `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
+- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
 - `mold-remediation` — Mold Remediation (core, priority 10)
-- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
+- `odor-removal` — Odor Removal and Deodorization (specialty, priority 7)
 - `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
-- `asbestos-abatement` — Asbestos Abatement (specialty, priority 6)
-- `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
-- `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
+- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)
+- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 
 ## Service areas
 
@@ -86,13 +88,13 @@
 | `/services/fire-damage-restoration/` | `service-landing` | 9.0 | fire damage restoration lakewood |
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation lakewood |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration lakewood |
+| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing lakewood |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization lakewood |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration lakewood |
 | `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup lakewood |
 | `/service-areas/anderson-island-wa/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration anderson island |
 | `/service-areas/anderson-island-wa/mold-remediation/` | `service-area-service` | 7.0 | mold remediation anderson island |
 | `/service-areas/anderson-island-wa/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration anderson island |
-| `/service-areas/auburn-wa/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration auburn |
 
 ## Validation
 

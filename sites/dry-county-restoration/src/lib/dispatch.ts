@@ -21,14 +21,13 @@ export function isHqCity(city: string): boolean {
 
 // The dispatch sentence — repeated verbatim on-page (DispatchCallout) and in
 // the LocalBusiness schema description so engines see one consistent claim.
-// The 2-hour figure matches the client's stated response time and the
-// emergency-page standard claim.
+// The 60-minute figure matches the emergency-page standard claim.
 export function dispatchSentence(city: string): string {
   const hq = isHqCity(city);
   if (is247) {
     return hq
-      ? `Our ${crewLabel} are headquartered right here in ${city} and are typically on-site within about 2 hours of your call.`
-      : `Our ${crewLabel} are dispatched from our ${brand.primaryCity}, ${brand.primaryState} headquarters and are typically on-site in ${city} within about 2 hours of your call.`;
+      ? `Our ${crewLabel} are headquartered right here in ${city} and are typically on-site within 60 minutes of your call.`
+      : `Our ${crewLabel} are dispatched from our ${brand.primaryCity}, ${brand.primaryState} headquarters and are typically on-site in ${city} within 60 minutes of your call.`;
   }
   return hq
     ? `Our ${crewLabel} are headquartered right here in ${city} and take on projects across the surrounding area.`

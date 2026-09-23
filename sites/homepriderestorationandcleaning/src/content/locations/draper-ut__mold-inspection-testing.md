@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "4390ce8646de0865"
-generated_at: "2026-09-20T19:37:06.034121+00:00"
+generated_at: "2026-09-23T14:11:49.791701+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/draper-ut/", "/service-areas/draper-ut/fire-damage-restoration/", "/service-areas/draper-ut/mold-remediation/", "/service-areas/alpine-ut/mold-inspection-testing/", "/service-areas/american-fork-ut/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Draper", "url": "/service-areas/draper-ut/"}, {"name": "Mold Inspection and Testing"}]

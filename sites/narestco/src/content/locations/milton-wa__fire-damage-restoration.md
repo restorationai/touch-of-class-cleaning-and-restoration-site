@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration milton"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "453051fdc7788dac"
-generated_at: "2026-09-20T14:13:23.250112+00:00"
+plan_hash: "03d4bb24da251ded"
+generated_at: "2026-09-23T14:11:54.130214+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/milton-wa/", "/service-areas/milton-wa/mold-remediation/", "/service-areas/milton-wa/water-damage-restoration/", "/service-areas/algona-wa/fire-damage-restoration/", "/service-areas/auburn-wa/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/milton-wa/", "/service-areas/milton-wa/mold-remediation/", "/service-areas/milton-wa/roofing/", "/service-areas/algona-wa/fire-damage-restoration/", "/service-areas/auburn-wa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Milton", "url": "/service-areas/milton-wa/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "milton-wa"

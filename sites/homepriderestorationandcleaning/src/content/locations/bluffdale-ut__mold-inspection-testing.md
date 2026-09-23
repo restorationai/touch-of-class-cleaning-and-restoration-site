@@ -7,10 +7,10 @@ primary_keyword: "mold inspection and testing bluffdale"
 secondary_keywords: ["mold inspection", "mold testing", "indoor air quality testing", "mold spore testing", "mold assessment"]
 search_intent: "local_health"
 priority: 5.6
-plan_hash: "b9e2f8bb578d3539"
-generated_at: "2026-09-20T17:29:46.323405+00:00"
+plan_hash: "23de8b722cfa778c"
+generated_at: "2026-09-23T14:11:49.776901+00:00"
 manual_override: false
-internal_links: ["/services/mold-inspection-testing/", "/service-areas/bluffdale-ut/", "/service-areas/bluffdale-ut/fire-damage-restoration/", "/service-areas/bluffdale-ut/mold-remediation/", "/service-areas/american-fork-ut/mold-inspection-testing/", "/service-areas/cedar-fort-ut/mold-inspection-testing/", "/contact/"]
+internal_links: ["/services/mold-inspection-testing/", "/service-areas/bluffdale-ut/", "/service-areas/bluffdale-ut/fire-damage-restoration/", "/service-areas/bluffdale-ut/mold-remediation/", "/service-areas/alpine-ut/mold-inspection-testing/", "/service-areas/american-fork-ut/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bluffdale", "url": "/service-areas/bluffdale-ut/"}, {"name": "Mold Inspection and Testing"}]
 faq: []
 area_slug: "bluffdale-ut"

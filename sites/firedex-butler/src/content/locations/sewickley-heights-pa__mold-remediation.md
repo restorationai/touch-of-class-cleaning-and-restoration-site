@@ -7,10 +7,10 @@ primary_keyword: "mold remediation sewickley heights"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "9ffae8f70aea4f3d"
-generated_at: "2026-09-20T14:13:09.812936+00:00"
+plan_hash: "04f1119daeaa3b5f"
+generated_at: "2026-09-23T14:11:40.926539+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/sewickley-heights-pa/", "/service-areas/sewickley-heights-pa/fire-damage-restoration/", "/service-areas/sewickley-heights-pa/water-damage-restoration/", "/service-areas/baden-pa/mold-remediation/", "/service-areas/beaver-falls-pa/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/sewickley-heights-pa/", "/service-areas/sewickley-heights-pa/fire-damage-restoration/", "/service-areas/sewickley-heights-pa/water-damage-restoration/", "/service-areas/aliquippa-pa/mold-remediation/", "/service-areas/allison-park-pa/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sewickley Heights", "url": "/service-areas/sewickley-heights-pa/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "sewickley-heights-pa"

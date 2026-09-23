@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "080397728e579439"
-generated_at: "2026-09-20T14:13:21.544508+00:00"
+generated_at: "2026-09-23T14:11:52.256946+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/goodsprings-nv/", "/service-areas/goodsprings-nv/mold-remediation/", "/service-areas/goodsprings-nv/water-damage-restoration/", "/service-areas/blue-diamond-nv/fire-damage-restoration/", "/service-areas/boulder-city-nv/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Goodsprings", "url": "/service-areas/goodsprings-nv/"}, {"name": "Fire Damage Restoration"}]

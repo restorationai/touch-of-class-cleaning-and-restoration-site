@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "f3c6d3ffc99f442c"
-generated_at: "2026-09-21T19:18:40.347049+00:00"
+generated_at: "2026-09-23T14:11:40.965176+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/glenshaw-pa/", "/service-areas/glenshaw-pa/fire-damage-restoration/", "/service-areas/glenshaw-pa/mold-remediation/", "/service-areas/aliquippa-pa/smoke-damage-restoration/", "/service-areas/allison-park-pa/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Glenshaw", "url": "/service-areas/glenshaw-pa/"}, {"name": "Smoke Damage Restoration"}]

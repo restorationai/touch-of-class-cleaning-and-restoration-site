@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "2865cd82b79464ee"
-generated_at: "2026-09-21T19:18:27.663448+00:00"
+generated_at: "2026-09-23T14:11:28.140381+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/oak-park-ca/", "/service-areas/oak-park-ca/water-damage-restoration/", "/service-areas/oak-park-ca/storm-damage-restoration/", "/service-areas/camarillo-ca/mold-remediation/", "/service-areas/carpinteria-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oak Park", "url": "/service-areas/oak-park-ca/"}, {"name": "Mold Remediation"}]

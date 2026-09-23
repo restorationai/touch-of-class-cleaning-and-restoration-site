@@ -7,10 +7,10 @@ primary_keyword: "siding and gutters new hope"
 secondary_keywords: ["siding contractor", "siding installation", "siding replacement", "gutter installation", "exterior contractor"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "7db29e880c0bbc86"
-generated_at: "2026-09-20T20:41:40.626989+00:00"
+plan_hash: "9238dd2456bfa289"
+generated_at: "2026-09-23T14:11:32.859758+00:00"
 manual_override: false
-internal_links: ["/services/siding-gutters/", "/service-areas/new-hope-al/", "/service-areas/new-hope-al/home-remodeling/", "/service-areas/new-hope-al/roofing/", "/service-areas/athens-al/siding-gutters/", "/service-areas/gurley-al/siding-gutters/", "/contact/"]
+internal_links: ["/services/siding-gutters/", "/service-areas/new-hope-al/", "/service-areas/new-hope-al/home-remodeling/", "/service-areas/new-hope-al/roofing/", "/service-areas/arab-al/siding-gutters/", "/service-areas/ardmore-al/siding-gutters/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "New Hope", "url": "/service-areas/new-hope-al/"}, {"name": "Siding and Gutters"}]
 faq: []
 area_slug: "new-hope-al"

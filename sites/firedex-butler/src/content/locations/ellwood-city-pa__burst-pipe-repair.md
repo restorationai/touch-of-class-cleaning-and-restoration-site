@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "9cee42a7e16108b1"
-generated_at: "2026-09-22T02:11:15.630831+00:00"
+generated_at: "2026-09-23T14:11:40.969157+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/ellwood-city-pa/", "/service-areas/ellwood-city-pa/fire-damage-restoration/", "/service-areas/ellwood-city-pa/mold-remediation/", "/service-areas/aliquippa-pa/burst-pipe-repair/", "/service-areas/allison-park-pa/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ellwood City", "url": "/service-areas/ellwood-city-pa/"}, {"name": "Burst Pipe Cleanup and Repair"}]

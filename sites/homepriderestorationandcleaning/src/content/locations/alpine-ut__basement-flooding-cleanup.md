@@ -7,10 +7,10 @@ primary_keyword: "basement flooding cleanup alpine"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
 priority: 5.6
-plan_hash: "f224d4a310660dca"
-generated_at: "2026-09-20T19:17:30.790786+00:00"
+plan_hash: "04fffdf2f3ae8a76"
+generated_at: "2026-09-23T14:11:49.781148+00:00"
 manual_override: false
-internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/alpine-ut/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/american-fork-ut/basement-flooding-cleanup/", "/service-areas/bluffdale-ut/basement-flooding-cleanup/", "/contact/"]
+internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/alpine-ut/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/american-fork-ut/basement-flooding-cleanup/", "/service-areas/benjamin-ut/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Alpine", "url": "/service-areas/alpine-ut/"}, {"name": "Basement Flooding Cleanup"}]
 faq: []
 area_slug: "alpine-ut"

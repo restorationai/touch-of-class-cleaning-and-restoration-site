@@ -7,10 +7,10 @@ primary_keyword: "sewage cleanup and sanitization fairfield"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "f64f33464c4becd7"
-generated_at: "2026-09-20T14:13:18.730534+00:00"
+plan_hash: "84d14eb9e6edbe95"
+generated_at: "2026-09-23T14:11:49.755837+00:00"
 manual_override: false
-internal_links: ["/services/sewage-cleanup/", "/service-areas/fairfield-ut/", "/service-areas/fairfield-ut/fire-damage-restoration/", "/service-areas/fairfield-ut/mold-remediation/", "/service-areas/american-fork-ut/sewage-cleanup/", "/service-areas/cedar-fort-ut/sewage-cleanup/", "/contact/"]
+internal_links: ["/services/sewage-cleanup/", "/service-areas/fairfield-ut/", "/service-areas/fairfield-ut/fire-damage-restoration/", "/service-areas/fairfield-ut/mold-remediation/", "/service-areas/alpine-ut/sewage-cleanup/", "/service-areas/american-fork-ut/sewage-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fairfield", "url": "/service-areas/fairfield-ut/"}, {"name": "Sewage Cleanup and Sanitization"}]
 faq: []
 area_slug: "fairfield-ut"

@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "e74a5bf79ccfc420"
-generated_at: "2026-09-22T18:10:31.947994+00:00"
+generated_at: "2026-09-23T14:12:02.396380+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/moapa-valley-nv/", "/service-areas/moapa-valley-nv/fire-damage-restoration/", "/service-areas/moapa-valley-nv/mold-remediation/", "/service-areas/blue-diamond-nv/biohazard-cleanup/", "/service-areas/boulder-city-nv/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Moapa Valley", "url": "/service-areas/moapa-valley-nv/"}, {"name": "Biohazard Cleanup"}]

@@ -20,18 +20,19 @@
     "domain": "callcrs.com"
   },
   "services": [
-    "water-damage-restoration",
-    "storm-damage-restoration",
-    "fire-damage-restoration",
-    "sewage-cleanup",
-    "emergency-board-up-tarping",
-    "mold-remediation",
     "biohazard-cleanup",
     "contents-restoration",
+    "contents-restoration-storage",
     "crawl-space-encapsulation",
-    "post-construction-cleaning",
+    "emergency-board-up-tarping",
+    "fire-damage-restoration",
+    "mold-remediation",
     "odor-removal",
-    "vandalism-cleanup"
+    "post-construction-cleaning",
+    "sewage-cleanup",
+    "storm-damage-restoration",
+    "vandalism-cleanup",
+    "water-damage-restoration"
   ],
   "service_areas": [
     {

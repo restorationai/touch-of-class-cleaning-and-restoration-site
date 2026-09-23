@@ -7,10 +7,10 @@ primary_keyword: "mold remediation southbridge town"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "5560d4febb571060"
-generated_at: "2026-09-20T14:13:32.576507+00:00"
+plan_hash: "41622809695748d3"
+generated_at: "2026-09-23T14:11:58.517855+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/southbridge-town-ma/", "/service-areas/southbridge-town-ma/fire-damage-restoration/", "/service-areas/southbridge-town-ma/water-damage-restoration/", "/service-areas/east-douglas-ma/mold-remediation/", "/service-areas/framingham-ma/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/southbridge-town-ma/", "/service-areas/southbridge-town-ma/fire-damage-restoration/", "/service-areas/southbridge-town-ma/roofing/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Southbridge Town", "url": "/service-areas/southbridge-town-ma/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "southbridge-town-ma"

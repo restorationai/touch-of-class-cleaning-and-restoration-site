@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "40906bc224c00fc3"
-generated_at: "2026-09-22T20:03:22.440727+00:00"
+generated_at: "2026-09-23T14:11:54.235382+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/north-puyallup-wa/", "/service-areas/north-puyallup-wa/fire-damage-restoration/", "/service-areas/north-puyallup-wa/mold-remediation/", "/service-areas/algona-wa/smoke-damage-restoration/", "/service-areas/auburn-wa/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Puyallup", "url": "/service-areas/north-puyallup-wa/"}, {"name": "Smoke Damage Restoration"}]

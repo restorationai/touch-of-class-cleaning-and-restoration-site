@@ -7,10 +7,10 @@ primary_keyword: "basement flooding cleanup baden"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
 priority: 5.6
-plan_hash: "b645041443fc4b2d"
-generated_at: "2026-09-20T14:13:09.802266+00:00"
+plan_hash: "b2ff9c0ec98e86e0"
+generated_at: "2026-09-23T14:11:40.904540+00:00"
 manual_override: false
-internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/baden-pa/", "/service-areas/baden-pa/fire-damage-restoration/", "/service-areas/baden-pa/mold-remediation/", "/service-areas/beaver-falls-pa/basement-flooding-cleanup/", "/service-areas/bell-acres-pa/basement-flooding-cleanup/", "/contact/"]
+internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/baden-pa/", "/service-areas/baden-pa/fire-damage-restoration/", "/service-areas/baden-pa/mold-remediation/", "/service-areas/aliquippa-pa/basement-flooding-cleanup/", "/service-areas/allison-park-pa/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Baden", "url": "/service-areas/baden-pa/"}, {"name": "Basement Flooding Cleanup"}]
 faq: []
 area_slug: "baden-pa"

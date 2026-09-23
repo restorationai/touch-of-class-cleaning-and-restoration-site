@@ -7,10 +7,10 @@ primary_keyword: "carpet cleaning fairfield"
 secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "carpet stain removal", "commercial carpet cleaning", "carpet sanitization"]
 search_intent: "local_specialty"
 priority: 2.8
-plan_hash: "4701a699f2e8131d"
-generated_at: "2026-09-20T14:13:18.731524+00:00"
+plan_hash: "261b1c89d60cdcbf"
+generated_at: "2026-09-23T14:11:49.752054+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/fairfield-ut/", "/service-areas/fairfield-ut/fire-damage-restoration/", "/service-areas/fairfield-ut/mold-remediation/", "/service-areas/american-fork-ut/carpet-cleaning/", "/service-areas/cedar-fort-ut/carpet-cleaning/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/fairfield-ut/", "/service-areas/fairfield-ut/fire-damage-restoration/", "/service-areas/fairfield-ut/mold-remediation/", "/service-areas/alpine-ut/carpet-cleaning/", "/service-areas/american-fork-ut/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fairfield", "url": "/service-areas/fairfield-ut/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "fairfield-ut"

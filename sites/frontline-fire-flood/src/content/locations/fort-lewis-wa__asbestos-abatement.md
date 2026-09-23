@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "e4856f0266081231"
-generated_at: "2026-09-23T04:58:40.103229+00:00"
+generated_at: "2026-09-23T14:11:42.612174+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/fort-lewis-wa/", "/service-areas/fort-lewis-wa/fire-damage-restoration/", "/service-areas/fort-lewis-wa/mold-remediation/", "/service-areas/anderson-island-wa/asbestos-abatement/", "/service-areas/auburn-wa/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fort Lewis", "url": "/service-areas/fort-lewis-wa/"}, {"name": "Asbestos Abatement"}]

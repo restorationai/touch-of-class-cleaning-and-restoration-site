@@ -7,10 +7,10 @@ primary_keyword: "mold remediation silverado"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "00333c1d1d4c46ed"
-generated_at: "2026-09-20T14:13:06.379196+00:00"
+plan_hash: "a068cf2af8c912b5"
+generated_at: "2026-09-23T14:11:36.185049+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/silverado-ca/", "/service-areas/silverado-ca/fire-damage-restoration/", "/service-areas/silverado-ca/water-damage-restoration/", "/service-areas/anaheim-ca/mold-remediation/", "/service-areas/chino-ca/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/silverado-ca/", "/service-areas/silverado-ca/fire-damage-restoration/", "/service-areas/silverado-ca/roofing/", "/service-areas/anaheim-ca/mold-remediation/", "/service-areas/chino-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Silverado", "url": "/service-areas/silverado-ca/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "silverado-ca"

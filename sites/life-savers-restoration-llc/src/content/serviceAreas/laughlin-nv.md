@@ -7,10 +7,10 @@ primary_keyword: "restoration services laughlin"
 secondary_keywords: ["laughlin restoration company", "damage restoration laughlin", "laughlin disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "29d6ab9d88b67fbd"
-generated_at: "2026-09-21T14:13:32.376514+00:00"
+plan_hash: "ab5dda261a469854"
+generated_at: "2026-09-23T14:11:52.231215+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/laughlin-nv/fire-damage-restoration/", "/service-areas/laughlin-nv/mold-remediation/", "/service-areas/laughlin-nv/water-damage-restoration/", "/service-areas/laughlin-nv/sewage-cleanup/", "/service-areas/laughlin-nv/storm-damage-restoration/", "/service-areas/laughlin-nv/water-cleanup/", "/service-areas/laughlin-nv/biohazard-cleanup/", "/service-areas/laughlin-nv/contents-restoration/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/cal-nev-ari-nv/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/laughlin-nv/fire-damage-restoration/", "/service-areas/laughlin-nv/mold-remediation/", "/service-areas/laughlin-nv/water-damage-restoration/", "/service-areas/laughlin-nv/sewage-cleanup/", "/service-areas/laughlin-nv/storm-damage-restoration/", "/service-areas/laughlin-nv/water-cleanup/", "/service-areas/laughlin-nv/biohazard-cleanup/", "/service-areas/laughlin-nv/odor-removal/", "/service-areas/laughlin-nv/contents-restoration-storage/", "/service-areas/laughlin-nv/contents-restoration/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/cal-nev-ari-nv/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Laughlin"}]
 faq: []
 area_slug: "laughlin-nv"

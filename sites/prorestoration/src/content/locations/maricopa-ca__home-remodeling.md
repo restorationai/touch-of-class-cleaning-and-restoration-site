@@ -8,7 +8,7 @@ secondary_keywords: ["home renovation", "kitchen remodel", "bathroom remodel", "
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "1676c094e1ea35cd"
-generated_at: "2026-09-21T14:13:38.468839+00:00"
+generated_at: "2026-09-23T14:11:56.028000+00:00"
 manual_override: false
 internal_links: ["/services/home-remodeling/", "/service-areas/maricopa-ca/", "/service-areas/maricopa-ca/fire-damage-restoration/", "/service-areas/maricopa-ca/mold-remediation/", "/service-areas/arvin-ca/home-remodeling/", "/service-areas/bear-valley-springs-ca/home-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Maricopa", "url": "/service-areas/maricopa-ca/"}, {"name": "Home Remodeling"}]

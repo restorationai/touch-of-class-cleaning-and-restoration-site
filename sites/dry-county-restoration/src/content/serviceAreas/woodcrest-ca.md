@@ -7,10 +7,10 @@ primary_keyword: "restoration services woodcrest"
 secondary_keywords: ["woodcrest restoration company", "damage restoration woodcrest", "woodcrest disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "ddb804ea458a9160"
-generated_at: "2026-09-20T17:29:33.123479+00:00"
+plan_hash: "881164ccbfae0f28"
+generated_at: "2026-09-23T14:11:36.159294+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/woodcrest-ca/fire-damage-restoration/", "/service-areas/woodcrest-ca/mold-remediation/", "/service-areas/woodcrest-ca/water-damage-restoration/", "/service-areas/woodcrest-ca/sewage-cleanup/", "/service-areas/woodcrest-ca/storm-damage-restoration/", "/service-areas/woodcrest-ca/water-cleanup/", "/service-areas/woodcrest-ca/general-contracting/", "/service-areas/woodcrest-ca/emergency-board-up-tarping/", "/service-areas/woodcrest-ca/air-duct-cleaning/", "/service-areas/woodcrest-ca/contents-restoration/", "/service-areas/woodcrest-ca/carpet-cleaning/", "/service-areas/woodcrest-ca/post-construction-cleaning/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/woodcrest-ca/fire-damage-restoration/", "/service-areas/woodcrest-ca/mold-remediation/", "/service-areas/woodcrest-ca/roofing/", "/service-areas/woodcrest-ca/water-damage-restoration/", "/service-areas/woodcrest-ca/emergency-plumbing/", "/service-areas/woodcrest-ca/sewage-cleanup/", "/service-areas/woodcrest-ca/storm-damage-restoration/", "/service-areas/woodcrest-ca/water-cleanup/", "/service-areas/woodcrest-ca/general-contracting/", "/service-areas/woodcrest-ca/emergency-board-up-tarping/", "/service-areas/woodcrest-ca/odor-removal/", "/service-areas/woodcrest-ca/water-leak-detection/", "/service-areas/woodcrest-ca/air-duct-cleaning/", "/service-areas/woodcrest-ca/contents-restoration-storage/", "/service-areas/woodcrest-ca/contents-restoration/", "/service-areas/woodcrest-ca/carpet-cleaning/", "/service-areas/woodcrest-ca/post-construction-cleaning/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woodcrest"}]
 faq: []
 area_slug: "woodcrest-ca"

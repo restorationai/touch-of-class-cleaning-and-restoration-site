@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "cdc177ebd60a1813"
-generated_at: "2026-09-21T15:54:35.835232+00:00"
+generated_at: "2026-09-23T14:11:34.826648+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/west-middlesex-pa/", "/service-areas/west-middlesex-pa/fire-damage-restoration/", "/service-areas/west-middlesex-pa/mold-remediation/", "/service-areas/austintown-oh/biohazard-cleanup/", "/service-areas/boardman-oh/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "West Middlesex", "url": "/service-areas/west-middlesex-pa/"}, {"name": "Biohazard Cleanup"}]

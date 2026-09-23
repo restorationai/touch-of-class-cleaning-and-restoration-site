@@ -7,10 +7,10 @@ primary_keyword: "mold remediation fiskdale"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "7e98dbba36141e62"
-generated_at: "2026-09-20T17:29:58.175209+00:00"
+plan_hash: "414498a628bba338"
+generated_at: "2026-09-23T14:11:58.528121+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/fiskdale-ma/", "/service-areas/fiskdale-ma/fire-damage-restoration/", "/service-areas/fiskdale-ma/water-damage-restoration/", "/service-areas/east-douglas-ma/mold-remediation/", "/service-areas/framingham-ma/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/fiskdale-ma/", "/service-areas/fiskdale-ma/fire-damage-restoration/", "/service-areas/fiskdale-ma/roofing/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fiskdale", "url": "/service-areas/fiskdale-ma/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "fiskdale-ma"

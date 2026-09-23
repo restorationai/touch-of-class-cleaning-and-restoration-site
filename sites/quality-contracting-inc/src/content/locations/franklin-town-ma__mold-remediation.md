@@ -7,10 +7,10 @@ primary_keyword: "mold remediation franklin town"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "569e26c10f554077"
-generated_at: "2026-09-22T14:28:31.547875+00:00"
+plan_hash: "536cd208f7fcfd1b"
+generated_at: "2026-09-23T14:11:58.564246+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/franklin-town-ma/", "/service-areas/franklin-town-ma/fire-damage-restoration/", "/service-areas/franklin-town-ma/water-damage-restoration/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/franklin-town-ma/", "/service-areas/franklin-town-ma/fire-damage-restoration/", "/service-areas/franklin-town-ma/roofing/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Franklin Town", "url": "/service-areas/franklin-town-ma/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "franklin-town-ma"

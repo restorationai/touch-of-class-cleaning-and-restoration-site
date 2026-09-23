@@ -1,21 +1,21 @@
 # Site Plan Report — Desert Valley Contracting Inc 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-22T20:03:30.682384+00:00
+- Generated: 2026-09-23T14:11:59.084260+00:00
 - Domain: `desertvalleycontracting.net`
-- Services selected: 9 of 65 catalog entries
+- Services selected: 10 of 65 catalog entries
 - Service areas: 20
 - Cross-product enabled: True
-- Total URLs: **216**
-- Total internal links: 1716 (avg 7.9 per page)
+- Total URLs: **236**
+- Total internal links: 1884 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 171 |
+| `service-area-service` | 190 |
 | `service-area` | 19 |
-| `service-landing` | 9 |
+| `service-landing` | 10 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -27,15 +27,16 @@
 
 ## Selected services
 
-- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
-- `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
-- `mold-remediation` — Mold Remediation (core, priority 10)
-- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
-- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
-- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
 - `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
+- `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
+- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
+- `mold-remediation` — Mold Remediation (core, priority 10)
+- `odor-removal` — Odor Removal and Deodorization (specialty, priority 7)
+- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
+- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)
+- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 
 ## Service areas
 

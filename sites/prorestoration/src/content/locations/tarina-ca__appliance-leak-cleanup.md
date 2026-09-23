@@ -7,10 +7,10 @@ primary_keyword: "appliance leak cleanup tarina"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
 priority: 4.2
-plan_hash: "7e9e2dc2d5dd0b7d"
-generated_at: "2026-09-20T14:13:26.540330+00:00"
+plan_hash: "16d54e2c367f4012"
+generated_at: "2026-09-23T14:11:55.957602+00:00"
 manual_override: false
-internal_links: ["/services/appliance-leak-cleanup/", "/service-areas/tarina-ca/", "/service-areas/tarina-ca/fire-damage-restoration/", "/service-areas/tarina-ca/home-remodeling/", "/service-areas/arvin-ca/appliance-leak-cleanup/", "/service-areas/buttonwillow-ca/appliance-leak-cleanup/", "/contact/"]
+internal_links: ["/services/appliance-leak-cleanup/", "/service-areas/tarina-ca/", "/service-areas/tarina-ca/fire-damage-restoration/", "/service-areas/tarina-ca/home-remodeling/", "/service-areas/arvin-ca/appliance-leak-cleanup/", "/service-areas/bear-valley-springs-ca/appliance-leak-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tarina", "url": "/service-areas/tarina-ca/"}, {"name": "Appliance Leak Cleanup"}]
 faq: []
 area_slug: "tarina-ca"

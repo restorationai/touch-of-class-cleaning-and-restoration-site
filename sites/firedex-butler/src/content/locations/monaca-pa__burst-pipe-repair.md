@@ -7,10 +7,10 @@ primary_keyword: "burst pipe cleanup and repair monaca"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
 priority: 5.6
-plan_hash: "2b168bb401176dd4"
-generated_at: "2026-09-20T14:13:09.808761+00:00"
+plan_hash: "97e62a5bbcaf1058"
+generated_at: "2026-09-23T14:11:40.917627+00:00"
 manual_override: false
-internal_links: ["/services/burst-pipe-repair/", "/service-areas/monaca-pa/", "/service-areas/monaca-pa/fire-damage-restoration/", "/service-areas/monaca-pa/mold-remediation/", "/service-areas/baden-pa/burst-pipe-repair/", "/service-areas/beaver-falls-pa/burst-pipe-repair/", "/contact/"]
+internal_links: ["/services/burst-pipe-repair/", "/service-areas/monaca-pa/", "/service-areas/monaca-pa/fire-damage-restoration/", "/service-areas/monaca-pa/mold-remediation/", "/service-areas/aliquippa-pa/burst-pipe-repair/", "/service-areas/allison-park-pa/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Monaca", "url": "/service-areas/monaca-pa/"}, {"name": "Burst Pipe Cleanup and Repair"}]
 faq: []
 area_slug: "monaca-pa"

@@ -7,10 +7,10 @@ primary_keyword: "decks, pergolas and fences decatur"
 secondary_keywords: ["deck builder", "deck installation", "pergola builder", "fence installation", "outdoor structure contractor"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "80a25ed27d0b6abd"
-generated_at: "2026-09-22T18:09:59.774924+00:00"
+plan_hash: "1be1373f696ae9e0"
+generated_at: "2026-09-23T14:11:32.874063+00:00"
 manual_override: false
-internal_links: ["/services/decks-pergolas-fences/", "/service-areas/decatur-al/", "/service-areas/decatur-al/home-remodeling/", "/service-areas/decatur-al/roofing/", "/service-areas/ardmore-al/decks-pergolas-fences/", "/service-areas/athens-al/decks-pergolas-fences/", "/contact/"]
+internal_links: ["/services/decks-pergolas-fences/", "/service-areas/decatur-al/", "/service-areas/decatur-al/home-remodeling/", "/service-areas/decatur-al/roofing/", "/service-areas/arab-al/decks-pergolas-fences/", "/service-areas/ardmore-al/decks-pergolas-fences/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Decatur", "url": "/service-areas/decatur-al/"}, {"name": "Decks, Pergolas and Fences"}]
 faq: []
 area_slug: "decatur-al"

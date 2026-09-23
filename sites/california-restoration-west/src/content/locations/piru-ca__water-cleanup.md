@@ -7,10 +7,10 @@ primary_keyword: "emergency water cleanup piru"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "e75ec303790b7bf1"
-generated_at: "2026-09-20T17:29:25.927310+00:00"
+plan_hash: "9b7da5ec3f3aac5e"
+generated_at: "2026-09-23T14:11:28.129689+00:00"
 manual_override: false
-internal_links: ["/services/water-cleanup/", "/service-areas/piru-ca/", "/service-areas/piru-ca/mold-remediation/", "/service-areas/piru-ca/water-damage-restoration/", "/service-areas/camarillo-ca/water-cleanup/", "/service-areas/fillmore-ca/water-cleanup/", "/contact/"]
+internal_links: ["/services/water-cleanup/", "/service-areas/piru-ca/", "/service-areas/piru-ca/mold-remediation/", "/service-areas/piru-ca/water-damage-restoration/", "/service-areas/camarillo-ca/water-cleanup/", "/service-areas/carpinteria-ca/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Piru", "url": "/service-areas/piru-ca/"}, {"name": "Emergency Water Cleanup"}]
 faq: []
 area_slug: "piru-ca"

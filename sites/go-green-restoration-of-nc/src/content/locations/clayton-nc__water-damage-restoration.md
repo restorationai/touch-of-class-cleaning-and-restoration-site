@@ -8,7 +8,7 @@ secondary_keywords: ["water removal", "water extraction", "water cleanup", "stru
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "3483e3eba91524f3"
-generated_at: "2026-09-20T14:13:14.688953+00:00"
+generated_at: "2026-09-23T14:11:44.840798+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/clayton-nc/", "/service-areas/clayton-nc/fire-damage-restoration/", "/service-areas/clayton-nc/mold-remediation/", "/service-areas/archer-lodge-nc/water-damage-restoration/", "/service-areas/durham-nc/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Clayton", "url": "/service-areas/clayton-nc/"}, {"name": "Water Damage Restoration"}]

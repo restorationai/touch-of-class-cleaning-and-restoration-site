@@ -8,7 +8,7 @@ secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "cf84963280204473"
-generated_at: "2026-09-21T14:13:45.851868+00:00"
+generated_at: "2026-09-23T14:12:04.492390+00:00"
 manual_override: false
 internal_links: ["/services/water-cleanup/", "/service-areas/lucas-tx/", "/service-areas/lucas-tx/fire-damage-restoration/", "/service-areas/lucas-tx/mold-remediation/", "/service-areas/allen-tx/water-cleanup/", "/service-areas/caddo-mills-tx/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lucas", "url": "/service-areas/lucas-tx/"}, {"name": "water-cleanup"}]

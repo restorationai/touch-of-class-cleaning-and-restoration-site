@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "55d31f47f064dabd"
-generated_at: "2026-09-21T19:18:27.663738+00:00"
+generated_at: "2026-09-23T14:11:28.140070+00:00"
 manual_override: false
 internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/oak-park-ca/", "/service-areas/oak-park-ca/mold-remediation/", "/service-areas/oak-park-ca/water-damage-restoration/", "/service-areas/camarillo-ca/crawl-space-encapsulation/", "/service-areas/carpinteria-ca/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oak Park", "url": "/service-areas/oak-park-ca/"}, {"name": "Crawl Space Encapsulation"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "cdb9e4b78453564d"
-generated_at: "2026-09-23T04:58:40.111959+00:00"
+generated_at: "2026-09-23T14:11:42.636594+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/summit-view-wa/", "/service-areas/summit-view-wa/fire-damage-restoration/", "/service-areas/summit-view-wa/mold-remediation/", "/service-areas/anderson-island-wa/emergency-board-up-tarping/", "/service-areas/auburn-wa/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Summit View", "url": "/service-areas/summit-view-wa/"}, {"name": "Emergency Board-Up and Tarping"}]

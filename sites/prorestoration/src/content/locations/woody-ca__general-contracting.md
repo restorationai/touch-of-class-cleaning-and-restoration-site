@@ -7,10 +7,10 @@ primary_keyword: "renovations, remodels and general contracting woody"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "17870189ef34d891"
-generated_at: "2026-09-20T19:17:39.959636+00:00"
+plan_hash: "0aabbc090efadd63"
+generated_at: "2026-09-23T14:11:56.005761+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/woody-ca/", "/service-areas/woody-ca/fire-damage-restoration/", "/service-areas/woody-ca/home-remodeling/", "/service-areas/arvin-ca/general-contracting/", "/service-areas/buttonwillow-ca/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/woody-ca/", "/service-areas/woody-ca/fire-damage-restoration/", "/service-areas/woody-ca/home-remodeling/", "/service-areas/arvin-ca/general-contracting/", "/service-areas/bear-valley-springs-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woody", "url": "/service-areas/woody-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]
 faq: []
 area_slug: "woody-ca"

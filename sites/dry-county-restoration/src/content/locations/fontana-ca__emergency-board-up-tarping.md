@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "520e490dade9cfcb"
-generated_at: "2026-09-21T19:18:36.601740+00:00"
+generated_at: "2026-09-23T14:11:36.232982+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/fontana-ca/", "/service-areas/fontana-ca/fire-damage-restoration/", "/service-areas/fontana-ca/mold-remediation/", "/service-areas/anaheim-ca/emergency-board-up-tarping/", "/service-areas/chino-ca/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fontana", "url": "/service-areas/fontana-ca/"}, {"name": "Emergency Board-Up and Tarping"}]

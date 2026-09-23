@@ -7,10 +7,10 @@ primary_keyword: "contents restoration and storage somis"
 secondary_keywords: ["contents pack-out", "contents cleaning", "belongings restoration", "furniture restoration after fire", "contents storage"]
 search_intent: "local_service"
 priority: 3.5
-plan_hash: "804fee14f21b0efc"
-generated_at: "2026-09-20T14:12:59.577099+00:00"
+plan_hash: "d6f62ff50686ac89"
+generated_at: "2026-09-23T14:11:28.118774+00:00"
 manual_override: false
-internal_links: ["/services/contents-restoration/", "/service-areas/somis-ca/", "/service-areas/somis-ca/mold-remediation/", "/service-areas/somis-ca/water-damage-restoration/", "/service-areas/camarillo-ca/contents-restoration/", "/service-areas/fillmore-ca/contents-restoration/", "/contact/"]
+internal_links: ["/services/contents-restoration/", "/service-areas/somis-ca/", "/service-areas/somis-ca/mold-remediation/", "/service-areas/somis-ca/water-damage-restoration/", "/service-areas/camarillo-ca/contents-restoration/", "/service-areas/carpinteria-ca/contents-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Somis", "url": "/service-areas/somis-ca/"}, {"name": "Contents Restoration and Storage"}]
 faq: []
 area_slug: "somis-ca"

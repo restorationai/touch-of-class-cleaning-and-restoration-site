@@ -4,12 +4,12 @@ import { brand } from '~/lib/brand';
 import { srcsetFor } from '~/lib/images';
 
 const photos = [
-  { src: "/images/gallery/img1.webp", alt: "Water damage restoration drying equipment in Federal Way" },
-  { src: "/images/gallery/img2.webp", alt: "Professional fire and smoke damage cleanup crew" },
-  { src: "/images/gallery/img3.webp", alt: "Industrial air movers deployed for basement flooding" },
-  { src: "/images/gallery/img4.webp", alt: "Biohazard and trauma cleanup containment protocols" },
-  { src: "/images/gallery/img5.webp", alt: "Structural reconstruction and remodeling after storm damage" },
-  { src: "/images/gallery/img6.webp", alt: "Mold remediation process and air scrubbing technology" },
+  { src: "/images/gallery/img1.webp", alt: `${brand.displayName} project photo 1` },
+  { src: "/images/gallery/img2.webp", alt: `${brand.displayName} project photo 2` },
+  { src: "/images/gallery/img3.webp", alt: `${brand.displayName} project photo 3` },
+  { src: "/images/gallery/img4.webp", alt: `${brand.displayName} project photo 4` },
+  { src: "/images/gallery/img5.webp", alt: `${brand.displayName} project photo 5` },
+  { src: "/images/gallery/img6.webp", alt: `${brand.displayName} project photo 6` },
 ];
 ---
 
@@ -25,30 +25,30 @@ const photos = [
       </div>
       <a 
         href="#"
-        class="bg-white text-dark font-black uppercase px-8 py-4 text-base flex items-center justify-center gap-3 hover:bg-primary-600 hover:text-white transition-all rounded-sm shadow-xl"
+        class="bg-white text-dark font-black uppercase px-8 py-4 text-base flex items-center justify-center gap-3 hover:bg-cta hover:text-cta-fg transition-all rounded-sm shadow-xl"
       >
         See All Photos <ArrowRight size={20} />
       </a>
     </div>
 
     <div class="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
-      {photos.map((photo, i) => {
+      {photos.map((photo) => {
         const img = srcsetFor(photo.src);
         return (
-        <div class="break-inside-avoid overflow-hidden rounded-sm border-4 border-white/10 shadow-2xl group transition-all duration-500 hover:border-primary-500">
-          <img
-            src={photo.src}
-            srcset={img.srcset}
-            sizes={img.srcset ? "(min-width:1024px) 33vw, (min-width:640px) 50vw, 100vw" : undefined}
-            width={img.width}
-            height={img.height}
-            alt={photo.alt}
-            loading="lazy"
-            decoding="async"
-            class="w-full h-auto transition-all duration-700 transform group-hover:scale-105"
-            referrerpolicy="no-referrer"
-          />
-        </div>
+          <div class="break-inside-avoid overflow-hidden rounded-sm border-4 border-white/10 shadow-2xl group transition-all duration-500 hover:border-primary-500">
+            <img
+              src={photo.src}
+              srcset={img.srcset}
+              sizes={img.srcset ? "(min-width:1024px) 33vw, (min-width:640px) 50vw, 100vw" : undefined}
+              width={img.width}
+              height={img.height}
+              alt={photo.alt}
+              loading="lazy"
+              decoding="async"
+              class="w-full h-auto transition-all duration-700 transform group-hover:scale-105"
+              referrerpolicy="no-referrer"
+            />
+          </div>
         );
       })}
     </div>

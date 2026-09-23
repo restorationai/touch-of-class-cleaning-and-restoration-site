@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "8523dbf65b210e68"
-generated_at: "2026-09-22T02:11:15.631857+00:00"
+generated_at: "2026-09-23T14:11:40.968643+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/ellwood-city-pa/", "/service-areas/ellwood-city-pa/fire-damage-restoration/", "/service-areas/ellwood-city-pa/mold-remediation/", "/service-areas/aliquippa-pa/biohazard-cleanup/", "/service-areas/allison-park-pa/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ellwood City", "url": "/service-areas/ellwood-city-pa/"}, {"name": "Biohazard Cleanup"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "1742484492b2d318"
-generated_at: "2026-09-20T14:13:23.244517+00:00"
+generated_at: "2026-09-23T14:11:54.112722+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/lakeland-south-wa/", "/service-areas/lakeland-south-wa/fire-damage-restoration/", "/service-areas/lakeland-south-wa/mold-remediation/", "/service-areas/algona-wa/general-contracting/", "/service-areas/auburn-wa/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lakeland South", "url": "/service-areas/lakeland-south-wa/"}, {"name": "Renovations, Remodels and General Contracting"}]

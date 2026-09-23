@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration aliquippa"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "d719cbfbb7c29eb8"
-generated_at: "2026-09-20T17:29:36.718810+00:00"
+plan_hash: "79f5cd6b009a5d72"
+generated_at: "2026-09-23T14:11:40.935016+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/aliquippa-pa/", "/service-areas/aliquippa-pa/fire-damage-restoration/", "/service-areas/aliquippa-pa/mold-remediation/", "/service-areas/baden-pa/water-damage-restoration/", "/service-areas/beaver-falls-pa/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/aliquippa-pa/", "/service-areas/aliquippa-pa/fire-damage-restoration/", "/service-areas/aliquippa-pa/mold-remediation/", "/service-areas/allison-park-pa/water-damage-restoration/", "/service-areas/baden-pa/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Aliquippa", "url": "/service-areas/aliquippa-pa/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "aliquippa-pa"

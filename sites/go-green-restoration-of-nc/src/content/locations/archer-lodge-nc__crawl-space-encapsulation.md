@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "efd526674fbe9a12"
-generated_at: "2026-09-20T14:13:14.683937+00:00"
+generated_at: "2026-09-23T14:11:44.825399+00:00"
 manual_override: false
 internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/archer-lodge-nc/", "/service-areas/archer-lodge-nc/fire-damage-restoration/", "/service-areas/archer-lodge-nc/mold-remediation/", "/service-areas/clayton-nc/crawl-space-encapsulation/", "/service-areas/durham-nc/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Archer Lodge", "url": "/service-areas/archer-lodge-nc/"}, {"name": "Crawl Space Encapsulation"}]

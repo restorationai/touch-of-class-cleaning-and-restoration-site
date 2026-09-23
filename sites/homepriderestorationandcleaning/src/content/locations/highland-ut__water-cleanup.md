@@ -7,10 +7,10 @@ primary_keyword: "emergency water cleanup highland"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "4c81f9ce6e82da09"
-generated_at: "2026-09-20T14:13:18.726022+00:00"
+plan_hash: "feb0047a682f5018"
+generated_at: "2026-09-23T14:11:49.743208+00:00"
 manual_override: false
-internal_links: ["/services/water-cleanup/", "/service-areas/highland-ut/", "/service-areas/highland-ut/fire-damage-restoration/", "/service-areas/highland-ut/mold-remediation/", "/service-areas/american-fork-ut/water-cleanup/", "/service-areas/cedar-fort-ut/water-cleanup/", "/contact/"]
+internal_links: ["/services/water-cleanup/", "/service-areas/highland-ut/", "/service-areas/highland-ut/fire-damage-restoration/", "/service-areas/highland-ut/mold-remediation/", "/service-areas/alpine-ut/water-cleanup/", "/service-areas/american-fork-ut/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Highland", "url": "/service-areas/highland-ut/"}, {"name": "water-cleanup"}]
 faq: []
 area_slug: "highland-ut"

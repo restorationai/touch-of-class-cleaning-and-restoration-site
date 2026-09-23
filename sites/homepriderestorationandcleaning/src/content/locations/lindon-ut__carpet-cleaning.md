@@ -7,10 +7,10 @@ primary_keyword: "carpet cleaning lindon"
 secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "carpet stain removal", "commercial carpet cleaning", "carpet sanitization"]
 search_intent: "local_specialty"
 priority: 2.8
-plan_hash: "217d2d324391df6b"
-generated_at: "2026-09-20T14:13:18.728191+00:00"
+plan_hash: "2478d777c4a53c49"
+generated_at: "2026-09-23T14:11:49.744713+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/lindon-ut/", "/service-areas/lindon-ut/fire-damage-restoration/", "/service-areas/lindon-ut/mold-remediation/", "/service-areas/american-fork-ut/carpet-cleaning/", "/service-areas/cedar-fort-ut/carpet-cleaning/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/lindon-ut/", "/service-areas/lindon-ut/fire-damage-restoration/", "/service-areas/lindon-ut/mold-remediation/", "/service-areas/alpine-ut/carpet-cleaning/", "/service-areas/american-fork-ut/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lindon", "url": "/service-areas/lindon-ut/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "lindon-ut"

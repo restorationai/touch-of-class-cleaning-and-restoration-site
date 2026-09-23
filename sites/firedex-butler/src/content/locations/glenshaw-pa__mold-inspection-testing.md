@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "9302d62d5463a585"
-generated_at: "2026-09-21T19:18:40.347359+00:00"
+generated_at: "2026-09-23T14:11:40.963604+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/glenshaw-pa/", "/service-areas/glenshaw-pa/fire-damage-restoration/", "/service-areas/glenshaw-pa/mold-remediation/", "/service-areas/aliquippa-pa/mold-inspection-testing/", "/service-areas/allison-park-pa/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Glenshaw", "url": "/service-areas/glenshaw-pa/"}, {"name": "Mold Inspection and Testing"}]

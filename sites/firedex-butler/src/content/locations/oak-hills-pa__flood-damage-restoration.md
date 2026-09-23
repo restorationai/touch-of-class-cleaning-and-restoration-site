@@ -8,7 +8,7 @@ secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restorati
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "523d2f9f961475a0"
-generated_at: "2026-09-21T14:13:12.727962+00:00"
+generated_at: "2026-09-23T14:11:40.956339+00:00"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/service-areas/oak-hills-pa/", "/service-areas/oak-hills-pa/fire-damage-restoration/", "/service-areas/oak-hills-pa/mold-remediation/", "/service-areas/aliquippa-pa/flood-damage-restoration/", "/service-areas/allison-park-pa/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oak Hills", "url": "/service-areas/oak-hills-pa/"}, {"name": "Flood Damage Restoration"}]

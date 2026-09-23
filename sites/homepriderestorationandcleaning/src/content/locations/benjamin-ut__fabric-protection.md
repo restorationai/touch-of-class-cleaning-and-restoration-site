@@ -8,7 +8,7 @@ secondary_keywords: ["carpet protection", "upholstery protection", "stain guard"
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "66083cc919d66be1"
-generated_at: "2026-09-21T14:13:23.306892+00:00"
+generated_at: "2026-09-23T14:11:49.806663+00:00"
 manual_override: false
 internal_links: ["/services/fabric-protection/", "/service-areas/benjamin-ut/", "/service-areas/benjamin-ut/fire-damage-restoration/", "/service-areas/benjamin-ut/mold-remediation/", "/service-areas/alpine-ut/fabric-protection/", "/service-areas/american-fork-ut/fabric-protection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Benjamin", "url": "/service-areas/benjamin-ut/"}, {"name": "Fabric Protection"}]

@@ -7,10 +7,10 @@ primary_keyword: "carpet cleaning bluffdale"
 secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "carpet stain removal", "commercial carpet cleaning", "carpet sanitization"]
 search_intent: "local_specialty"
 priority: 2.8
-plan_hash: "2bbb635cd2cead68"
-generated_at: "2026-09-20T17:29:46.323578+00:00"
+plan_hash: "da3d1f0a4e32c824"
+generated_at: "2026-09-23T14:11:49.774626+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/bluffdale-ut/", "/service-areas/bluffdale-ut/fire-damage-restoration/", "/service-areas/bluffdale-ut/mold-remediation/", "/service-areas/american-fork-ut/carpet-cleaning/", "/service-areas/cedar-fort-ut/carpet-cleaning/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/bluffdale-ut/", "/service-areas/bluffdale-ut/fire-damage-restoration/", "/service-areas/bluffdale-ut/mold-remediation/", "/service-areas/alpine-ut/carpet-cleaning/", "/service-areas/american-fork-ut/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bluffdale", "url": "/service-areas/bluffdale-ut/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "bluffdale-ut"

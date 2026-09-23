@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration sumner"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "f5d5c48291e09cc1"
-generated_at: "2026-09-22T18:10:22.121411+00:00"
+plan_hash: "a321cbceb4bd278b"
+generated_at: "2026-09-23T14:11:54.222126+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/sumner-wa/", "/service-areas/sumner-wa/mold-remediation/", "/service-areas/sumner-wa/water-damage-restoration/", "/service-areas/algona-wa/fire-damage-restoration/", "/service-areas/auburn-wa/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/sumner-wa/", "/service-areas/sumner-wa/mold-remediation/", "/service-areas/sumner-wa/roofing/", "/service-areas/algona-wa/fire-damage-restoration/", "/service-areas/auburn-wa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sumner", "url": "/service-areas/sumner-wa/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "sumner-wa"

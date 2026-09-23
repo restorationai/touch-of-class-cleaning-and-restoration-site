@@ -8,7 +8,7 @@ secondary_keywords: ["soot cleaning", "soot residue removal", "post-fire soot cl
 search_intent: "local_specialty"
 priority: 4.9
 plan_hash: "1eaa5c4d5655ae56"
-generated_at: "2026-09-21T14:13:34.625933+00:00"
+generated_at: "2026-09-23T14:11:54.189305+00:00"
 manual_override: false
 internal_links: ["/services/soot-removal/", "/service-areas/vashon-wa/", "/service-areas/vashon-wa/fire-damage-restoration/", "/service-areas/vashon-wa/mold-remediation/", "/service-areas/algona-wa/soot-removal/", "/service-areas/auburn-wa/soot-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Vashon", "url": "/service-areas/vashon-wa/"}, {"name": "Soot Removal"}]

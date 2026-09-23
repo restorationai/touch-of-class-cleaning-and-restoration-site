@@ -8,7 +8,7 @@ secondary_keywords: ["home renovation", "kitchen remodel", "bathroom remodel", "
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "eaf0e5b5d2c041e7"
-generated_at: "2026-09-20T19:37:15.131486+00:00"
+generated_at: "2026-09-23T14:11:56.013576+00:00"
 manual_override: false
 internal_links: ["/services/home-remodeling/", "/service-areas/bear-valley-springs-ca/", "/service-areas/bear-valley-springs-ca/fire-damage-restoration/", "/service-areas/bear-valley-springs-ca/mold-remediation/", "/service-areas/arvin-ca/home-remodeling/", "/service-areas/buttonwillow-ca/home-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bear Valley Springs", "url": "/service-areas/bear-valley-springs-ca/"}, {"name": "Home Remodeling"}]

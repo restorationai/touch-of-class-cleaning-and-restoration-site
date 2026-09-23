@@ -7,10 +7,10 @@ primary_keyword: "restoration services lake magdalene"
 secondary_keywords: ["lake magdalene restoration company", "damage restoration lake magdalene", "lake magdalene disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "04786dff134824fd"
-generated_at: "2026-09-20T14:13:08.027085+00:00"
+plan_hash: "f4db38e8a9aa6c3b"
+generated_at: "2026-09-23T14:11:38.250485+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/lake-magdalene-fl/fire-damage-restoration/", "/service-areas/lake-magdalene-fl/mold-remediation/", "/service-areas/lake-magdalene-fl/water-damage-restoration/", "/service-areas/lake-magdalene-fl/sewage-cleanup/", "/service-areas/lake-magdalene-fl/storm-damage-restoration/", "/service-areas/lake-magdalene-fl/water-cleanup/", "/service-areas/lake-magdalene-fl/general-contracting/", "/service-areas/lake-magdalene-fl/emergency-board-up-tarping/", "/service-areas/lake-magdalene-fl/contents-restoration-storage/", "/service-areas/anna-maria-fl/", "/service-areas/apollo-beach-fl/", "/service-areas/auburndale-fl/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/lake-magdalene-fl/fire-damage-restoration/", "/service-areas/lake-magdalene-fl/mold-remediation/", "/service-areas/lake-magdalene-fl/water-damage-restoration/", "/service-areas/lake-magdalene-fl/emergency-plumbing/", "/service-areas/lake-magdalene-fl/sewage-cleanup/", "/service-areas/lake-magdalene-fl/storm-damage-restoration/", "/service-areas/lake-magdalene-fl/water-cleanup/", "/service-areas/lake-magdalene-fl/general-contracting/", "/service-areas/lake-magdalene-fl/emergency-board-up-tarping/", "/service-areas/lake-magdalene-fl/contents-restoration-storage/", "/service-areas/anna-maria-fl/", "/service-areas/apollo-beach-fl/", "/service-areas/auburndale-fl/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Magdalene"}]
 faq: []
 area_slug: "lake-magdalene-fl"

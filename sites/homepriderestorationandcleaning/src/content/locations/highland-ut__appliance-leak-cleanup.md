@@ -7,10 +7,10 @@ primary_keyword: "appliance leak cleanup highland"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
 priority: 4.2
-plan_hash: "ae15753483af0205"
-generated_at: "2026-09-20T14:13:18.723325+00:00"
+plan_hash: "c8ffc44987281381"
+generated_at: "2026-09-23T14:11:49.736018+00:00"
 manual_override: false
-internal_links: ["/services/appliance-leak-cleanup/", "/service-areas/highland-ut/", "/service-areas/highland-ut/fire-damage-restoration/", "/service-areas/highland-ut/mold-remediation/", "/service-areas/american-fork-ut/appliance-leak-cleanup/", "/service-areas/cedar-fort-ut/appliance-leak-cleanup/", "/contact/"]
+internal_links: ["/services/appliance-leak-cleanup/", "/service-areas/highland-ut/", "/service-areas/highland-ut/fire-damage-restoration/", "/service-areas/highland-ut/mold-remediation/", "/service-areas/alpine-ut/appliance-leak-cleanup/", "/service-areas/american-fork-ut/appliance-leak-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Highland", "url": "/service-areas/highland-ut/"}, {"name": "Appliance Leak Cleanup"}]
 faq: []
 area_slug: "highland-ut"

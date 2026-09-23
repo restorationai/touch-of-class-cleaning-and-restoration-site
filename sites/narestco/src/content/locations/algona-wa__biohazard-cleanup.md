@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "3f61b78a90946014"
-generated_at: "2026-09-20T14:13:23.247381+00:00"
+generated_at: "2026-09-23T14:11:54.119526+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/algona-wa/", "/service-areas/algona-wa/fire-damage-restoration/", "/service-areas/algona-wa/mold-remediation/", "/service-areas/auburn-wa/biohazard-cleanup/", "/service-areas/bellevue-wa/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Algona", "url": "/service-areas/algona-wa/"}, {"name": "Biohazard Cleanup"}]

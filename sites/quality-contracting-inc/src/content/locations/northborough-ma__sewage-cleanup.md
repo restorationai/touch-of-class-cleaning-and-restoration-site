@@ -7,10 +7,10 @@ primary_keyword: "sewage cleanup and sanitization northborough"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "d420078c3c865f14"
-generated_at: "2026-09-20T14:13:32.574815+00:00"
+plan_hash: "5b5d165e98a2b371"
+generated_at: "2026-09-23T14:11:58.513546+00:00"
 manual_override: false
-internal_links: ["/services/sewage-cleanup/", "/service-areas/northborough-ma/", "/service-areas/northborough-ma/fire-damage-restoration/", "/service-areas/northborough-ma/mold-remediation/", "/service-areas/east-douglas-ma/sewage-cleanup/", "/service-areas/framingham-ma/sewage-cleanup/", "/contact/"]
+internal_links: ["/services/sewage-cleanup/", "/service-areas/northborough-ma/", "/service-areas/northborough-ma/fire-damage-restoration/", "/service-areas/northborough-ma/mold-remediation/", "/service-areas/bellingham-ma/sewage-cleanup/", "/service-areas/east-douglas-ma/sewage-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Northborough", "url": "/service-areas/northborough-ma/"}, {"name": "Sewage Cleanup and Sanitization"}]
 faq: []
 area_slug: "northborough-ma"

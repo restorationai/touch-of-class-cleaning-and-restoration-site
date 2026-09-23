@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "ef3eb05524ba8a12"
-generated_at: "2026-09-20T14:13:45.341889+00:00"
+generated_at: "2026-09-23T14:12:06.545110+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/mountainside-nj/", "/service-areas/mountainside-nj/fire-damage-restoration/", "/service-areas/mountainside-nj/mold-remediation/", "/service-areas/avenel-nj/emergency-board-up-tarping/", "/service-areas/bayonne-nj/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mountainside", "url": "/service-areas/mountainside-nj/"}, {"name": "Emergency Board-Up and Tarping"}]

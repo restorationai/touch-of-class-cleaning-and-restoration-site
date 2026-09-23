@@ -8,7 +8,7 @@ secondary_keywords: ["contents pack-out", "contents cleaning", "belongings resto
 search_intent: "local_service"
 priority: 3.5
 plan_hash: "9f89c792e55f6382"
-generated_at: "2026-09-20T14:13:42.836610+00:00"
+generated_at: "2026-09-23T14:12:04.469295+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration/", "/service-areas/mclendon-chisholm-tx/", "/service-areas/mclendon-chisholm-tx/fire-damage-restoration/", "/service-areas/mclendon-chisholm-tx/mold-remediation/", "/service-areas/allen-tx/contents-restoration/", "/service-areas/caddo-mills-tx/contents-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McLendon-Chisholm", "url": "/service-areas/mclendon-chisholm-tx/"}, {"name": "Contents Restoration and Storage"}]

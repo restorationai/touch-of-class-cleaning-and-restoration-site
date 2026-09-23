@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "ac37181e33860087"
-generated_at: "2026-09-20T14:13:21.539019+00:00"
+generated_at: "2026-09-23T14:11:52.245217+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/nellis-afb-nv/", "/service-areas/nellis-afb-nv/mold-remediation/", "/service-areas/nellis-afb-nv/water-damage-restoration/", "/service-areas/blue-diamond-nv/fire-damage-restoration/", "/service-areas/boulder-city-nv/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Nellis AFB", "url": "/service-areas/nellis-afb-nv/"}, {"name": "Fire Damage Restoration"}]

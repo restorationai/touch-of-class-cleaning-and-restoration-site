@@ -7,10 +7,10 @@ primary_keyword: "burst pipe cleanup and repair bluffdale"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
 priority: 5.6
-plan_hash: "f3ad29006f346b0b"
-generated_at: "2026-09-20T17:29:46.321547+00:00"
+plan_hash: "2441551bb2e1792d"
+generated_at: "2026-09-23T14:11:49.774317+00:00"
 manual_override: false
-internal_links: ["/services/burst-pipe-repair/", "/service-areas/bluffdale-ut/", "/service-areas/bluffdale-ut/fire-damage-restoration/", "/service-areas/bluffdale-ut/mold-remediation/", "/service-areas/american-fork-ut/burst-pipe-repair/", "/service-areas/cedar-fort-ut/burst-pipe-repair/", "/contact/"]
+internal_links: ["/services/burst-pipe-repair/", "/service-areas/bluffdale-ut/", "/service-areas/bluffdale-ut/fire-damage-restoration/", "/service-areas/bluffdale-ut/mold-remediation/", "/service-areas/alpine-ut/burst-pipe-repair/", "/service-areas/american-fork-ut/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bluffdale", "url": "/service-areas/bluffdale-ut/"}, {"name": "Burst Pipe Cleanup and Repair"}]
 faq: []
 area_slug: "bluffdale-ut"

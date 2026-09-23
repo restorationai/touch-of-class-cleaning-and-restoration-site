@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration mcfarland"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "71e6d0c108b2b0a0"
-generated_at: "2026-09-20T14:13:26.551472+00:00"
+plan_hash: "ccb0682f9aefc0ee"
+generated_at: "2026-09-23T14:11:55.995080+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/mcfarland-ca/", "/service-areas/mcfarland-ca/fire-damage-restoration/", "/service-areas/mcfarland-ca/home-remodeling/", "/service-areas/arvin-ca/water-damage-restoration/", "/service-areas/buttonwillow-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/mcfarland-ca/", "/service-areas/mcfarland-ca/fire-damage-restoration/", "/service-areas/mcfarland-ca/home-remodeling/", "/service-areas/arvin-ca/water-damage-restoration/", "/service-areas/bear-valley-springs-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McFarland", "url": "/service-areas/mcfarland-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "mcfarland-ca"

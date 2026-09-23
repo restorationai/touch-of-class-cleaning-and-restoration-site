@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "98506ad14feb0851"
-generated_at: "2026-09-20T14:13:45.343264+00:00"
+generated_at: "2026-09-23T14:12:06.549924+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/short-hills-nj/", "/service-areas/short-hills-nj/fire-damage-restoration/", "/service-areas/short-hills-nj/mold-remediation/", "/service-areas/avenel-nj/burst-pipe-repair/", "/service-areas/bayonne-nj/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Short Hills", "url": "/service-areas/short-hills-nj/"}, {"name": "Burst Pipe Cleanup and Repair"}]

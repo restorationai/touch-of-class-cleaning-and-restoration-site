@@ -8,7 +8,7 @@ secondary_keywords: ["hoarder cleanup", "hoarding cleaning services", "hoarding 
 search_intent: "local_sensitive"
 priority: 4.2
 plan_hash: "7c1e109f845db744"
-generated_at: "2026-09-20T14:13:23.244177+00:00"
+generated_at: "2026-09-23T14:11:54.113070+00:00"
 manual_override: false
 internal_links: ["/services/hoarding-cleanup/", "/service-areas/lakeland-south-wa/", "/service-areas/lakeland-south-wa/fire-damage-restoration/", "/service-areas/lakeland-south-wa/mold-remediation/", "/service-areas/algona-wa/hoarding-cleanup/", "/service-areas/auburn-wa/hoarding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lakeland South", "url": "/service-areas/lakeland-south-wa/"}, {"name": "Hoarding Cleanup"}]

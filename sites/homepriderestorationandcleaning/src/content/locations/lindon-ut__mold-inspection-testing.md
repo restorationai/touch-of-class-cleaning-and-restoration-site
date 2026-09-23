@@ -7,10 +7,10 @@ primary_keyword: "mold inspection and testing lindon"
 secondary_keywords: ["mold inspection", "mold testing", "indoor air quality testing", "mold spore testing", "mold assessment"]
 search_intent: "local_health"
 priority: 5.6
-plan_hash: "c702aa0bbf9e27e0"
-generated_at: "2026-09-20T14:13:18.728031+00:00"
+plan_hash: "96f1f016ce387d92"
+generated_at: "2026-09-23T14:11:49.747014+00:00"
 manual_override: false
-internal_links: ["/services/mold-inspection-testing/", "/service-areas/lindon-ut/", "/service-areas/lindon-ut/fire-damage-restoration/", "/service-areas/lindon-ut/mold-remediation/", "/service-areas/american-fork-ut/mold-inspection-testing/", "/service-areas/cedar-fort-ut/mold-inspection-testing/", "/contact/"]
+internal_links: ["/services/mold-inspection-testing/", "/service-areas/lindon-ut/", "/service-areas/lindon-ut/fire-damage-restoration/", "/service-areas/lindon-ut/mold-remediation/", "/service-areas/alpine-ut/mold-inspection-testing/", "/service-areas/american-fork-ut/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lindon", "url": "/service-areas/lindon-ut/"}, {"name": "Mold Inspection and Testing"}]
 faq: []
 area_slug: "lindon-ut"

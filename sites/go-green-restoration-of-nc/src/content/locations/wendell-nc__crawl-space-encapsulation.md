@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "b9473632c9b34b0b"
-generated_at: "2026-09-20T14:13:14.682483+00:00"
+generated_at: "2026-09-23T14:11:44.822507+00:00"
 manual_override: false
 internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/wendell-nc/", "/service-areas/wendell-nc/fire-damage-restoration/", "/service-areas/wendell-nc/mold-remediation/", "/service-areas/archer-lodge-nc/crawl-space-encapsulation/", "/service-areas/clayton-nc/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wendell", "url": "/service-areas/wendell-nc/"}, {"name": "Crawl Space Encapsulation"}]

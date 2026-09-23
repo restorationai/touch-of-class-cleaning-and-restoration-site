@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration carpinteria"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "8ac826f297187f63"
-generated_at: "2026-09-20T20:41:36.513785+00:00"
+plan_hash: "a8f0cdf925386efb"
+generated_at: "2026-09-23T14:11:28.136877+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/carpinteria-ca/", "/service-areas/carpinteria-ca/mold-remediation/", "/service-areas/carpinteria-ca/storm-damage-restoration/", "/service-areas/camarillo-ca/water-damage-restoration/", "/service-areas/fillmore-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/carpinteria-ca/", "/service-areas/carpinteria-ca/mold-remediation/", "/service-areas/carpinteria-ca/storm-damage-restoration/", "/service-areas/camarillo-ca/water-damage-restoration/", "/service-areas/castaic-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Carpinteria", "url": "/service-areas/carpinteria-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "carpinteria-ca"

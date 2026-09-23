@@ -7,10 +7,10 @@ primary_keyword: "burst pipe cleanup and repair bell acres"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
 priority: 5.6
-plan_hash: "3bf82b19c85d21e8"
-generated_at: "2026-09-20T14:13:09.805611+00:00"
+plan_hash: "fc3a2e98888bf5ca"
+generated_at: "2026-09-23T14:11:40.911451+00:00"
 manual_override: false
-internal_links: ["/services/burst-pipe-repair/", "/service-areas/bell-acres-pa/", "/service-areas/bell-acres-pa/fire-damage-restoration/", "/service-areas/bell-acres-pa/mold-remediation/", "/service-areas/baden-pa/burst-pipe-repair/", "/service-areas/beaver-falls-pa/burst-pipe-repair/", "/contact/"]
+internal_links: ["/services/burst-pipe-repair/", "/service-areas/bell-acres-pa/", "/service-areas/bell-acres-pa/fire-damage-restoration/", "/service-areas/bell-acres-pa/mold-remediation/", "/service-areas/aliquippa-pa/burst-pipe-repair/", "/service-areas/allison-park-pa/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bell Acres", "url": "/service-areas/bell-acres-pa/"}, {"name": "Burst Pipe Cleanup and Repair"}]
 faq: []
 area_slug: "bell-acres-pa"

@@ -7,10 +7,10 @@ primary_keyword: "painting and trim decatur"
 secondary_keywords: ["painting contractor", "interior painting", "exterior painting", "house painter", "trim painting"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "5523c88f07ebfd95"
-generated_at: "2026-09-22T18:09:59.775472+00:00"
+plan_hash: "69b8c1f2c983ca4c"
+generated_at: "2026-09-23T14:11:32.875560+00:00"
 manual_override: false
-internal_links: ["/services/painting-trim/", "/service-areas/decatur-al/", "/service-areas/decatur-al/home-remodeling/", "/service-areas/decatur-al/roofing/", "/service-areas/ardmore-al/painting-trim/", "/service-areas/athens-al/painting-trim/", "/contact/"]
+internal_links: ["/services/painting-trim/", "/service-areas/decatur-al/", "/service-areas/decatur-al/home-remodeling/", "/service-areas/decatur-al/roofing/", "/service-areas/arab-al/painting-trim/", "/service-areas/ardmore-al/painting-trim/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Decatur", "url": "/service-areas/decatur-al/"}, {"name": "Painting and Trim"}]
 faq: []
 area_slug: "decatur-al"

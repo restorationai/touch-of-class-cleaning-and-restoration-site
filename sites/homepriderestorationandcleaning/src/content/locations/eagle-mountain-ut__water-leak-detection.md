@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Water Leak Detection in Eagle Mountain, UT | Home Pride Restoration and Cleaning"
+h1: "Water Leak Detection in Eagle Mountain"
+meta_description: "24/7 water leak detection in Eagle Mountain, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+primary_keyword: "water leak detection eagle mountain"
+secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection", "water leak in wall", "leak detection service"]
+search_intent: "local_emergency"
+priority: 4.9
+plan_hash: "1440da8a7af44d56"
+generated_at: "2026-09-23T14:11:49.705178+00:00"
+manual_override: false
+internal_links: ["/services/water-leak-detection/", "/service-areas/eagle-mountain-ut/", "/service-areas/eagle-mountain-ut/fire-damage-restoration/", "/service-areas/eagle-mountain-ut/mold-remediation/", "/service-areas/alpine-ut/water-leak-detection/", "/service-areas/american-fork-ut/water-leak-detection/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Eagle Mountain", "url": "/service-areas/eagle-mountain-ut/"}, {"name": "Water Leak Detection"}]
+faq: []
+area_slug: "eagle-mountain-ut"
+service_slug: "water-leak-detection"
+city: "Eagle Mountain"
+state: "UT"
+service_display: "Water Leak Detection"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug homepriderestorationandcleaning` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Water Leak Detection in Eagle Mountain.

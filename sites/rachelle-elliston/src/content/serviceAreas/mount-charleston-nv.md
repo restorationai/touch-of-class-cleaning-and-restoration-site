@@ -7,10 +7,10 @@ primary_keyword: "restoration services mount charleston"
 secondary_keywords: ["mount charleston restoration company", "damage restoration mount charleston", "mount charleston disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "00ac8d31f3c909ba"
-generated_at: "2026-09-20T20:42:19.128535+00:00"
+plan_hash: "a49dc46780c8a541"
+generated_at: "2026-09-23T14:12:02.358381+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/mount-charleston-nv/fire-damage-restoration/", "/service-areas/mount-charleston-nv/mold-remediation/", "/service-areas/mount-charleston-nv/water-damage-restoration/", "/service-areas/mount-charleston-nv/sewage-cleanup/", "/service-areas/mount-charleston-nv/storm-damage-restoration/", "/service-areas/mount-charleston-nv/water-cleanup/", "/service-areas/mount-charleston-nv/biohazard-cleanup/", "/service-areas/mount-charleston-nv/general-contracting/", "/service-areas/mount-charleston-nv/contents-restoration-storage/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/enterprise-nv/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/mount-charleston-nv/fire-damage-restoration/", "/service-areas/mount-charleston-nv/mold-remediation/", "/service-areas/mount-charleston-nv/water-damage-restoration/", "/service-areas/mount-charleston-nv/sewage-cleanup/", "/service-areas/mount-charleston-nv/storm-damage-restoration/", "/service-areas/mount-charleston-nv/water-cleanup/", "/service-areas/mount-charleston-nv/biohazard-cleanup/", "/service-areas/mount-charleston-nv/general-contracting/", "/service-areas/mount-charleston-nv/odor-removal/", "/service-areas/mount-charleston-nv/contents-restoration-storage/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/enterprise-nv/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mount Charleston"}]
 faq: []
 area_slug: "mount-charleston-nv"

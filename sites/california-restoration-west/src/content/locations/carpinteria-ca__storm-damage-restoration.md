@@ -7,10 +7,10 @@ primary_keyword: "storm damage restoration carpinteria"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "204899477fa7c3be"
-generated_at: "2026-09-20T20:41:36.514188+00:00"
+plan_hash: "0fd5426acaf018a2"
+generated_at: "2026-09-23T14:11:28.136210+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/carpinteria-ca/", "/service-areas/carpinteria-ca/mold-remediation/", "/service-areas/carpinteria-ca/water-damage-restoration/", "/service-areas/camarillo-ca/storm-damage-restoration/", "/service-areas/fillmore-ca/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/carpinteria-ca/", "/service-areas/carpinteria-ca/mold-remediation/", "/service-areas/carpinteria-ca/water-damage-restoration/", "/service-areas/camarillo-ca/storm-damage-restoration/", "/service-areas/castaic-ca/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Carpinteria", "url": "/service-areas/carpinteria-ca/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "carpinteria-ca"

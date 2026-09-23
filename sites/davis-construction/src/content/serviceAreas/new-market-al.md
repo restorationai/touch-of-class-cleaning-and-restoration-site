@@ -7,10 +7,10 @@ primary_keyword: "construction services new market"
 secondary_keywords: ["new market construction company", "general contractor new market", "new market remodeling contractor"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "4e49030566e81c1a"
-generated_at: "2026-09-20T14:13:03.665543+00:00"
+plan_hash: "3febf20c6fdfff0a"
+generated_at: "2026-09-23T14:11:32.820379+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/new-market-al/home-remodeling/", "/service-areas/new-market-al/roofing/", "/service-areas/new-market-al/decks-pergolas-fences/", "/service-areas/new-market-al/new-construction/", "/service-areas/new-market-al/siding-gutters/", "/service-areas/new-market-al/mold-remediation/", "/service-areas/new-market-al/painting-trim/", "/service-areas/new-market-al/storm-damage-restoration/", "/service-areas/new-market-al/water-damage-restoration/", "/service-areas/athens-al/", "/service-areas/harvest-al/", "/service-areas/hazel-green-al/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/new-market-al/home-remodeling/", "/service-areas/new-market-al/roofing/", "/service-areas/new-market-al/decks-pergolas-fences/", "/service-areas/new-market-al/new-construction/", "/service-areas/new-market-al/siding-gutters/", "/service-areas/new-market-al/fire-smoke-rebuilding/", "/service-areas/new-market-al/mold-remediation/", "/service-areas/new-market-al/painting-trim/", "/service-areas/new-market-al/storm-damage-restoration/", "/service-areas/new-market-al/water-damage-restoration/", "/service-areas/new-market-al/windows-doors/", "/service-areas/arab-al/", "/service-areas/ardmore-al/", "/service-areas/athens-al/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "New Market"}]
 faq: []
 area_slug: "new-market-al"

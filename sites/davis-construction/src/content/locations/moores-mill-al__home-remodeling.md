@@ -7,10 +7,10 @@ primary_keyword: "home remodeling moores mill"
 secondary_keywords: ["home renovation", "whole home remodel", "interior remodeling contractor", "house renovation contractor", "remodeling company"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "2c12ccc3d32d8980"
-generated_at: "2026-09-20T14:13:03.666210+00:00"
+plan_hash: "49cc412b63e6bc85"
+generated_at: "2026-09-23T14:11:32.827247+00:00"
 manual_override: false
-internal_links: ["/services/home-remodeling/", "/service-areas/moores-mill-al/", "/service-areas/moores-mill-al/roofing/", "/service-areas/moores-mill-al/decks-pergolas-fences/", "/service-areas/athens-al/home-remodeling/", "/service-areas/harvest-al/home-remodeling/", "/contact/"]
+internal_links: ["/services/home-remodeling/", "/service-areas/moores-mill-al/", "/service-areas/moores-mill-al/roofing/", "/service-areas/moores-mill-al/decks-pergolas-fences/", "/service-areas/arab-al/home-remodeling/", "/service-areas/ardmore-al/home-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Moores Mill", "url": "/service-areas/moores-mill-al/"}, {"name": "Home Remodeling"}]
 faq: []
 area_slug: "moores-mill-al"

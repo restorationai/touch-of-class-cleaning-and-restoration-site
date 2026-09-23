@@ -7,10 +7,10 @@ primary_keyword: "new home construction gurley"
 secondary_keywords: ["custom home builder", "new home builder", "build a house", "residential construction", "ground-up construction"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "5de2cdb299e79bb0"
-generated_at: "2026-09-20T17:29:30.153012+00:00"
+plan_hash: "e5cbb587e3dd87b9"
+generated_at: "2026-09-23T14:11:32.848388+00:00"
 manual_override: false
-internal_links: ["/services/new-construction/", "/service-areas/gurley-al/", "/service-areas/gurley-al/home-remodeling/", "/service-areas/gurley-al/roofing/", "/service-areas/athens-al/new-construction/", "/service-areas/harvest-al/new-construction/", "/contact/"]
+internal_links: ["/services/new-construction/", "/service-areas/gurley-al/", "/service-areas/gurley-al/home-remodeling/", "/service-areas/gurley-al/roofing/", "/service-areas/arab-al/new-construction/", "/service-areas/ardmore-al/new-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Gurley", "url": "/service-areas/gurley-al/"}, {"name": "New Home Construction"}]
 faq: []
 area_slug: "gurley-al"

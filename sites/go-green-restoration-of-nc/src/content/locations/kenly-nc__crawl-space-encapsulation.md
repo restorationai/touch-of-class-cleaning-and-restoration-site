@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "7757e1bfa5bc5bd3"
-generated_at: "2026-09-20T14:13:14.688110+00:00"
+generated_at: "2026-09-23T14:11:44.836366+00:00"
 manual_override: false
 internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/kenly-nc/", "/service-areas/kenly-nc/fire-damage-restoration/", "/service-areas/kenly-nc/mold-remediation/", "/service-areas/archer-lodge-nc/crawl-space-encapsulation/", "/service-areas/clayton-nc/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Kenly", "url": "/service-areas/kenly-nc/"}, {"name": "Crawl Space Encapsulation"}]

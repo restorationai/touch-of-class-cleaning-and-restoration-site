@@ -7,10 +7,10 @@ primary_keyword: "mold remediation north puyallup"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "2e880fc026869463"
-generated_at: "2026-09-22T20:03:22.441245+00:00"
+plan_hash: "351a34c1d21c92c9"
+generated_at: "2026-09-23T14:11:54.233374+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/north-puyallup-wa/", "/service-areas/north-puyallup-wa/fire-damage-restoration/", "/service-areas/north-puyallup-wa/water-damage-restoration/", "/service-areas/algona-wa/mold-remediation/", "/service-areas/auburn-wa/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/north-puyallup-wa/", "/service-areas/north-puyallup-wa/fire-damage-restoration/", "/service-areas/north-puyallup-wa/roofing/", "/service-areas/algona-wa/mold-remediation/", "/service-areas/auburn-wa/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Puyallup", "url": "/service-areas/north-puyallup-wa/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "north-puyallup-wa"

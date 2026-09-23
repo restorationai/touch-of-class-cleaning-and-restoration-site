@@ -7,10 +7,10 @@ primary_keyword: "commercial restoration bell acres"
 secondary_keywords: ["commercial water damage", "commercial fire damage", "business restoration", "office restoration", "retail restoration"]
 search_intent: "local_b2b"
 priority: 6.3
-plan_hash: "cfe23401687eca93"
-generated_at: "2026-09-20T14:13:09.807411+00:00"
+plan_hash: "6a74bf7ee563d454"
+generated_at: "2026-09-23T14:11:40.911766+00:00"
 manual_override: false
-internal_links: ["/services/commercial-restoration/", "/service-areas/bell-acres-pa/", "/service-areas/bell-acres-pa/fire-damage-restoration/", "/service-areas/bell-acres-pa/mold-remediation/", "/service-areas/baden-pa/commercial-restoration/", "/service-areas/beaver-falls-pa/commercial-restoration/", "/contact/"]
+internal_links: ["/services/commercial-restoration/", "/service-areas/bell-acres-pa/", "/service-areas/bell-acres-pa/fire-damage-restoration/", "/service-areas/bell-acres-pa/mold-remediation/", "/service-areas/aliquippa-pa/commercial-restoration/", "/service-areas/allison-park-pa/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bell Acres", "url": "/service-areas/bell-acres-pa/"}, {"name": "Commercial Restoration"}]
 faq: []
 area_slug: "bell-acres-pa"

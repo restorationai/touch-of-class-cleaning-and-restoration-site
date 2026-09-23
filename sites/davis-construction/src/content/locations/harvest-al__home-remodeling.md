@@ -7,10 +7,10 @@ primary_keyword: "home remodeling harvest"
 secondary_keywords: ["home renovation", "whole home remodel", "interior remodeling contractor", "house renovation contractor", "remodeling company"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "5d1db56caf5a55ee"
-generated_at: "2026-09-20T14:13:03.674336+00:00"
+plan_hash: "480de5b54c3692e9"
+generated_at: "2026-09-23T14:11:32.844303+00:00"
 manual_override: false
-internal_links: ["/services/home-remodeling/", "/service-areas/harvest-al/", "/service-areas/harvest-al/roofing/", "/service-areas/harvest-al/decks-pergolas-fences/", "/service-areas/athens-al/home-remodeling/", "/service-areas/hazel-green-al/home-remodeling/", "/contact/"]
+internal_links: ["/services/home-remodeling/", "/service-areas/harvest-al/", "/service-areas/harvest-al/roofing/", "/service-areas/harvest-al/decks-pergolas-fences/", "/service-areas/arab-al/home-remodeling/", "/service-areas/ardmore-al/home-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Harvest", "url": "/service-areas/harvest-al/"}, {"name": "Home Remodeling"}]
 faq: []
 area_slug: "harvest-al"

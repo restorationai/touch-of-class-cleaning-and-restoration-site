@@ -7,10 +7,10 @@ primary_keyword: "storm damage restoration gurley"
 secondary_keywords: ["storm damage repair", "roof storm damage repair", "siding storm damage repair", "wind damage repair contractor", "storm damage rebuild"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "9b16f1ae515b1b4c"
-generated_at: "2026-09-20T17:29:30.154103+00:00"
+plan_hash: "95be0acddf915b27"
+generated_at: "2026-09-23T14:11:32.850091+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/gurley-al/", "/service-areas/gurley-al/home-remodeling/", "/service-areas/gurley-al/roofing/", "/service-areas/athens-al/storm-damage-restoration/", "/service-areas/harvest-al/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/gurley-al/", "/service-areas/gurley-al/home-remodeling/", "/service-areas/gurley-al/roofing/", "/service-areas/arab-al/storm-damage-restoration/", "/service-areas/ardmore-al/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Gurley", "url": "/service-areas/gurley-al/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "gurley-al"

@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "58d8a87093f21dbd"
-generated_at: "2026-09-20T14:13:23.238256+00:00"
+generated_at: "2026-09-23T14:11:54.106593+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/des-moines-wa/", "/service-areas/des-moines-wa/fire-damage-restoration/", "/service-areas/des-moines-wa/mold-remediation/", "/service-areas/algona-wa/smoke-damage-restoration/", "/service-areas/auburn-wa/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Des Moines", "url": "/service-areas/des-moines-wa/"}, {"name": "Smoke Damage Restoration"}]

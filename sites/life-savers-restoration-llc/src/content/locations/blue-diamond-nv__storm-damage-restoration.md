@@ -7,10 +7,10 @@ primary_keyword: "storm damage restoration blue diamond"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "d0a7a795fbdfbe7e"
-generated_at: "2026-09-20T14:13:21.542013+00:00"
+plan_hash: "ff3209e1d917f1e8"
+generated_at: "2026-09-23T14:11:52.252239+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/blue-diamond-nv/", "/service-areas/blue-diamond-nv/fire-damage-restoration/", "/service-areas/blue-diamond-nv/mold-remediation/", "/service-areas/boulder-city-nv/storm-damage-restoration/", "/service-areas/enterprise-nv/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/blue-diamond-nv/", "/service-areas/blue-diamond-nv/fire-damage-restoration/", "/service-areas/blue-diamond-nv/mold-remediation/", "/service-areas/boulder-city-nv/storm-damage-restoration/", "/service-areas/cal-nev-ari-nv/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Blue Diamond", "url": "/service-areas/blue-diamond-nv/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "blue-diamond-nv"

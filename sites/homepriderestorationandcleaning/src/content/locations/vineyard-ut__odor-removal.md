@@ -7,10 +7,10 @@ primary_keyword: "odor removal and deodorization vineyard"
 secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
 search_intent: "local_specialty"
 priority: 4.9
-plan_hash: "f2096cb8049bf973"
-generated_at: "2026-09-20T14:13:18.721613+00:00"
+plan_hash: "84cfe076acf9109f"
+generated_at: "2026-09-23T14:11:49.732810+00:00"
 manual_override: false
-internal_links: ["/services/odor-removal/", "/service-areas/vineyard-ut/", "/service-areas/vineyard-ut/fire-damage-restoration/", "/service-areas/vineyard-ut/mold-remediation/", "/service-areas/american-fork-ut/odor-removal/", "/service-areas/cedar-fort-ut/odor-removal/", "/contact/"]
+internal_links: ["/services/odor-removal/", "/service-areas/vineyard-ut/", "/service-areas/vineyard-ut/fire-damage-restoration/", "/service-areas/vineyard-ut/mold-remediation/", "/service-areas/alpine-ut/odor-removal/", "/service-areas/american-fork-ut/odor-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Vineyard", "url": "/service-areas/vineyard-ut/"}, {"name": "Odor Removal and Deodorization"}]
 faq: []
 area_slug: "vineyard-ut"

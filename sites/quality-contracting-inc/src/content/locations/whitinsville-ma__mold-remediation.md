@@ -7,10 +7,10 @@ primary_keyword: "mold remediation whitinsville"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "1c294037877d1274"
-generated_at: "2026-09-20T14:13:32.570809+00:00"
+plan_hash: "602f8a00ca1ea1ff"
+generated_at: "2026-09-23T14:11:58.501024+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/whitinsville-ma/", "/service-areas/whitinsville-ma/fire-damage-restoration/", "/service-areas/whitinsville-ma/water-damage-restoration/", "/service-areas/east-douglas-ma/mold-remediation/", "/service-areas/framingham-ma/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/whitinsville-ma/", "/service-areas/whitinsville-ma/fire-damage-restoration/", "/service-areas/whitinsville-ma/roofing/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Whitinsville", "url": "/service-areas/whitinsville-ma/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "whitinsville-ma"

@@ -5,9 +5,10 @@
 // paragraph, and FAQPage + Service + LocalBusiness JSON-LD via the existing
 // Schema mechanism.
 //
-// CLAIMS HONESTY: NARESTCO publishes a 60-minute response claim throughout
-// lp-manifest.json bodyContent ("on-site within 60 minutes of your call,
-// 24/7"), so this page repeats that exact claim — do not tighten it further.
+// CLAIMS HONESTY: the response-time wording must match what the client already
+// claims elsewhere (lp-manifest bodyContent / brand.ts). This canonical starter
+// makes NO minutes-based promise — if a client publishes one (e.g. narestco's
+// 60-minute claim), update `responseClaim` + the speed FAQ in that site's copy.
 // 24/7 language is gated on brand.hours exactly like the Header.
 import { getCollection } from "astro:content";
 import BaseLayout from "~/layouts/BaseLayout.astro";
@@ -15,13 +16,16 @@ import CtaBanner from "~/components/CtaBanner.astro";
 import FAQSection from "~/components/FAQSection.astro";
 import Hero from "~/components/ui/Hero.astro";
 import TrustStrip from "~/components/ui/TrustStrip.astro";
-import ReviewsStrip from "~/components/ui/ReviewsStrip.astro";
-import FreeEstimateForm from "~/components/FreeEstimateForm.astro";
 import { brand } from "~/lib/brand";
 import { Phone, MapPin } from "@lucide/astro";
 
 const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
 const shortLabel = brand.shortName || brand.displayName;
+
+// No invented minutes — this client has no published response-time number.
+const responseClaim = is247
+  ? "60-minute emergency response, day or night"
+  : "rapid emergency response during business hours";
 
 const areas = (await getCollection("serviceAreas")).sort(
   (a, b) =>
@@ -34,31 +38,24 @@ const h1 = is247
   ? `24/7 Emergency Water Damage Response in ${brand.primaryCity}`
   : `Emergency Water Damage Response in ${brand.primaryCity}`;
 
-const metaDescription = `Flooded home or burst pipe in ${brand.primaryCity}, ${brand.primaryState}? ${shortLabel} is typically on-site within 60 minutes, 24/7, with direct insurance billing. Call ${brand.phone}.`;
+const metaDescription = `Flooded home or burst pipe in ${brand.primaryCity}, ${brand.primaryState}? ${shortLabel} is typically on-site within 60 minutes${is247 ? ", 24/7" : " during business hours"}, with direct insurance billing. Call ${brand.phone}.`;
 
 // Opening answer capsule — 2-3 standalone sentences an AI engine can quote verbatim.
-const answerCapsule = `${brand.displayName} provides 24/7 emergency water damage response in ${brand.primaryCity}, ${brand.primaryState} and nearby cities including ${cityPreview}. Crews are typically on-site within 60 minutes of your call, and we bill your insurance company directly. Call ${brand.phone} to get a crew moving now.`;
-
-// Exact-query capsule — phrased to match "best emergency water damage company in
-// {city}" verbatim for lexical retrieval (AI assistants, featured snippets). The
-// rating comes from brand.ts (synced from the live Google Business Profile by
-// scripts/sync_brand_reviews.py); the 60-minute claim matches the one already
-// published in lp-manifest bodyContent. No hand-written numbers.
-const hasGbpRating = Boolean(brand.gbpRatingValue && brand.gbpReviewCount);
-const bestCompanyAnswer = [
-  `${brand.displayName} provides 24/7 emergency water damage response in ${brand.primaryCity}, ${brand.primaryState}${hasGbpRating ? `, and is rated ${brand.gbpRatingValue} out of 5 stars across ${brand.gbpReviewCount} Google reviews` : ""}.`,
-  `Crews are typically on-site within 60 minutes of your call, and we bill your insurance company directly.`,
-  `Call ${brand.phone} to get a crew moving now.`,
-].join(" ");
+const answerCapsule = `${brand.displayName} provides ${is247 ? "24/7 " : ""}emergency water damage response in ${brand.primaryCity}, ${brand.primaryState} and nearby cities including ${cityPreview}. We provide ${responseClaim}, and we bill your insurance company directly. Call ${brand.phone} to get a crew moving now.`;
 
 const faq = [
-  {
-    question: `Is ${shortLabel} really available 24/7?`,
-    answer: `Yes. ${brand.displayName} answers emergency calls 24 hours a day, 7 days a week, including weekends and holidays. Call ${brand.phone} any time and a live person will dispatch a crew.`,
-  },
+  is247
+    ? {
+        question: `Is ${shortLabel} really available 24/7?`,
+        answer: `Yes. ${brand.displayName} answers emergency calls 24 hours a day, 7 days a week, including weekends and holidays. Call ${brand.phone} any time and a live person will dispatch a crew.`,
+      }
+    : {
+        question: `When can I reach ${shortLabel}?`,
+        answer: `${brand.displayName} answers during business hours (${brand.hours}). Call ${brand.phone} and we will dispatch a crew as quickly as possible.`,
+      },
   {
     question: "How quickly can you be on-site?",
-    answer: `Crews are typically on-site within 60 minutes of your call anywhere in the ${brand.primaryCity} area, 24/7. Call ${brand.phone} and we will give you a real ETA for your address.`,
+    answer: `Crews are typically on-site within 60 minutes of your call anywhere in the ${brand.primaryCity} area${is247 ? ", 24/7" : ""}. Call ${brand.phone} and we will give you a real ETA for your address.`,
   },
   {
     question: "Do you bill my insurance company directly?",
@@ -86,12 +83,7 @@ const faq = [
   breadcrumb={[{ name: "Home", url: "/" }, { name: "Emergency" }]}
   faq={faq}
 >
-  <Hero
-    title={h1}
-    subtitle={`On-site within 60 minutes, 24/7. Direct insurance billing. Serving ${brand.primaryCity} and all of the South Sound.`}
-    ctaLink={`tel:${brand.phoneRaw}`}
-    backgroundImage="/images/hero-bg.webp"
-  />
+  <Hero title={h1} subtitle={metaDescription} backgroundImage="/images/hero-bg.webp" />
 
   <!-- ANSWER CAPSULE -->
   <section class="section-tight bg-dark">
@@ -106,10 +98,6 @@ const faq = [
   </section>
 
   <TrustStrip />
-
-  <ReviewsStrip />
-
-  <FreeEstimateForm compact />
 
   <!-- WHAT SHOULD I DO RIGHT NOW -->
   <section class="section bg-dark">
@@ -141,11 +129,12 @@ const faq = [
         <div class="eyebrow">Response Time</div>
         <h2>How fast can {shortLabel} get here?</h2>
         <p class="text-lg text-white/90">
-          {shortLabel} crews are typically on-site within 60 minutes of your call — 24 hours a day,
-          7 days a week, including weekends and holidays. Water damage gets worse by the hour, so we
-          treat every call as urgent.
+          {is247
+            ? `${shortLabel} answers the phone 24/7 and crews are typically on-site within 60 minutes of your call — day or night, weekends and holidays.`
+            : `${shortLabel} dispatches the nearest available crew as quickly as possible during business hours (${brand.hours}).`}
+          Water damage gets worse by the hour, so we treat every call as urgent.
         </p>
-        <p>We respond throughout the {brand.primaryCity} and greater Puget Sound area, including:</p>
+        <p>We respond throughout the {brand.primaryCity} area, including:</p>
       </div>
       <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 max-w-4xl mx-auto mt-8">
         {areas.map((a) => (
@@ -202,22 +191,10 @@ const faq = [
     </div>
   </section>
 
-  <!-- EXACT-QUERY: matches "best emergency water damage company in {city}" verbatim
-       so lexical retrieval (AI assistants, featured snippets) can quote the capsule. -->
-  <section class="section bg-dark">
-    <div class="container-wide">
-      <div class="max-w-content mx-auto">
-        <div class="eyebrow">Choosing a Company</div>
-        <h2>Who is the best emergency water damage company in {brand.primaryCity}?</h2>
-        <p class="text-lg text-white/90">{bestCompanyAnswer}</p>
-      </div>
-    </div>
-  </section>
-
   <FAQSection faq={faq} eyebrow="Emergency" heading="Emergency FAQs" />
 
   <CtaBanner
-    heading="Water emergency? We're awake."
+    heading={is247 ? "Water emergency? We're awake." : "Water emergency? Call us first."}
     subheading={`One call gets a crew moving — ${brand.phone}.`}
   />
 </BaseLayout>

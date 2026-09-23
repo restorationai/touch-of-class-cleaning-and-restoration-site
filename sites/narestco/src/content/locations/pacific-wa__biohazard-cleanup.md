@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "136f5d85c0827527"
-generated_at: "2026-09-20T14:13:23.255178+00:00"
+generated_at: "2026-09-23T14:11:54.137603+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/pacific-wa/", "/service-areas/pacific-wa/fire-damage-restoration/", "/service-areas/pacific-wa/mold-remediation/", "/service-areas/algona-wa/biohazard-cleanup/", "/service-areas/auburn-wa/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pacific", "url": "/service-areas/pacific-wa/"}, {"name": "Biohazard Cleanup"}]

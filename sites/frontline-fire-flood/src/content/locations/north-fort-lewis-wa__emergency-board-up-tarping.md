@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "5806c849df22dea4"
-generated_at: "2026-09-23T04:58:40.099450+00:00"
+generated_at: "2026-09-23T14:11:42.602903+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/north-fort-lewis-wa/", "/service-areas/north-fort-lewis-wa/fire-damage-restoration/", "/service-areas/north-fort-lewis-wa/mold-remediation/", "/service-areas/anderson-island-wa/emergency-board-up-tarping/", "/service-areas/auburn-wa/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Fort Lewis", "url": "/service-areas/north-fort-lewis-wa/"}, {"name": "Emergency Board-Up and Tarping"}]

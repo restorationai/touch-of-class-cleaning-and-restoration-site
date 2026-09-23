@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "ecef939b9179dce6"
-generated_at: "2026-09-21T15:54:35.839944+00:00"
+generated_at: "2026-09-23T14:11:34.835029+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/grove-city-pa/", "/service-areas/grove-city-pa/fire-damage-restoration/", "/service-areas/grove-city-pa/mold-remediation/", "/service-areas/austintown-oh/asbestos-abatement/", "/service-areas/boardman-oh/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Grove City", "url": "/service-areas/grove-city-pa/"}, {"name": "Asbestos Abatement"}]

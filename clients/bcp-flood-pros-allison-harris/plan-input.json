@@ -22,17 +22,19 @@
     ]
   },
   "services": [
-    "water-damage-restoration",
-    "storm-damage-restoration",
-    "fire-damage-restoration",
-    "general-contracting",
-    "sewage-cleanup",
-    "emergency-board-up-tarping",
-    "water-cleanup",
-    "mold-remediation",
     "biohazard-cleanup",
     "contents-restoration-storage",
-    "flood-equipment-rental"
+    "emergency-board-up-tarping",
+    "fire-damage-restoration",
+    "flood-equipment-rental",
+    "general-contracting",
+    "mold-remediation",
+    "odor-removal",
+    "roofing",
+    "sewage-cleanup",
+    "storm-damage-restoration",
+    "water-cleanup",
+    "water-damage-restoration"
   ],
   "service_areas": [
     {

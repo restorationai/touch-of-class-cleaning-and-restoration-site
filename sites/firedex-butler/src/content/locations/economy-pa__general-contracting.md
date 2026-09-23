@@ -7,10 +7,10 @@ primary_keyword: "renovations, remodels and general contracting economy"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "df85a3ebd83278b5"
-generated_at: "2026-09-20T14:13:09.798434+00:00"
+plan_hash: "d1059b1d22a45686"
+generated_at: "2026-09-23T14:11:40.894574+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/economy-pa/", "/service-areas/economy-pa/fire-damage-restoration/", "/service-areas/economy-pa/mold-remediation/", "/service-areas/baden-pa/general-contracting/", "/service-areas/beaver-falls-pa/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/economy-pa/", "/service-areas/economy-pa/fire-damage-restoration/", "/service-areas/economy-pa/mold-remediation/", "/service-areas/aliquippa-pa/general-contracting/", "/service-areas/allison-park-pa/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Economy", "url": "/service-areas/economy-pa/"}, {"name": "Renovations, Remodels and General Contracting"}]
 faq: []
 area_slug: "economy-pa"

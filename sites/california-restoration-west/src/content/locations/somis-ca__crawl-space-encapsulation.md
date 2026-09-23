@@ -7,10 +7,10 @@ primary_keyword: "crawl space encapsulation somis"
 secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "ac69b98658e03d94"
-generated_at: "2026-09-20T14:12:59.577259+00:00"
+plan_hash: "e3b7673815007272"
+generated_at: "2026-09-23T14:11:28.119264+00:00"
 manual_override: false
-internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/somis-ca/", "/service-areas/somis-ca/mold-remediation/", "/service-areas/somis-ca/water-damage-restoration/", "/service-areas/camarillo-ca/crawl-space-encapsulation/", "/service-areas/fillmore-ca/crawl-space-encapsulation/", "/contact/"]
+internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/somis-ca/", "/service-areas/somis-ca/mold-remediation/", "/service-areas/somis-ca/water-damage-restoration/", "/service-areas/camarillo-ca/crawl-space-encapsulation/", "/service-areas/carpinteria-ca/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Somis", "url": "/service-areas/somis-ca/"}, {"name": "Crawl Space Encapsulation"}]
 faq: []
 area_slug: "somis-ca"

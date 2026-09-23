@@ -7,10 +7,10 @@ primary_keyword: "storm damage restoration priceville"
 secondary_keywords: ["storm damage repair", "roof storm damage repair", "siding storm damage repair", "wind damage repair contractor", "storm damage rebuild"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "00caa5073be3064f"
-generated_at: "2026-09-21T19:18:32.950392+00:00"
+plan_hash: "d4aab389feca9453"
+generated_at: "2026-09-23T14:11:32.866596+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/priceville-al/", "/service-areas/priceville-al/home-remodeling/", "/service-areas/priceville-al/roofing/", "/service-areas/ardmore-al/storm-damage-restoration/", "/service-areas/athens-al/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/priceville-al/", "/service-areas/priceville-al/home-remodeling/", "/service-areas/priceville-al/roofing/", "/service-areas/arab-al/storm-damage-restoration/", "/service-areas/ardmore-al/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Priceville", "url": "/service-areas/priceville-al/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "priceville-al"

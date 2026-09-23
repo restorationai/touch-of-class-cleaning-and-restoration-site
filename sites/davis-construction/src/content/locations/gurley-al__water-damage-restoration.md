@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration gurley"
 secondary_keywords: ["water damage repair", "water damage rebuild", "drywall water damage repair", "ceiling water damage repair", "post-leak renovation"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "a4ba42cfa20fc828"
-generated_at: "2026-09-20T17:29:30.153926+00:00"
+plan_hash: "0dfde77457a31f33"
+generated_at: "2026-09-23T14:11:32.850509+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/gurley-al/", "/service-areas/gurley-al/home-remodeling/", "/service-areas/gurley-al/roofing/", "/service-areas/athens-al/water-damage-restoration/", "/service-areas/harvest-al/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/gurley-al/", "/service-areas/gurley-al/home-remodeling/", "/service-areas/gurley-al/roofing/", "/service-areas/arab-al/water-damage-restoration/", "/service-areas/ardmore-al/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Gurley", "url": "/service-areas/gurley-al/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "gurley-al"

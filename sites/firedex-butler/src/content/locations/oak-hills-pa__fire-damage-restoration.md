@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "8cefda7e0f8bfcb2"
-generated_at: "2026-09-21T14:13:12.729062+00:00"
+generated_at: "2026-09-23T14:11:40.956035+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/oak-hills-pa/", "/service-areas/oak-hills-pa/mold-remediation/", "/service-areas/oak-hills-pa/water-damage-restoration/", "/service-areas/aliquippa-pa/fire-damage-restoration/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oak Hills", "url": "/service-areas/oak-hills-pa/"}, {"name": "Fire Damage Restoration"}]

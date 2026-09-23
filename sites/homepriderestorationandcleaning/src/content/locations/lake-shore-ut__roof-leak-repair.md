@@ -8,7 +8,7 @@ secondary_keywords: ["roof leak cleanup", "ceiling water damage", "attic water d
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "f1504a1b05b1cef5"
-generated_at: "2026-09-20T20:41:55.919052+00:00"
+generated_at: "2026-09-23T14:11:49.800098+00:00"
 manual_override: false
 internal_links: ["/services/roof-leak-repair/", "/service-areas/lake-shore-ut/", "/service-areas/lake-shore-ut/fire-damage-restoration/", "/service-areas/lake-shore-ut/mold-remediation/", "/service-areas/alpine-ut/roof-leak-repair/", "/service-areas/american-fork-ut/roof-leak-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Shore", "url": "/service-areas/lake-shore-ut/"}, {"name": "Roof Leak Cleanup and Repair"}]

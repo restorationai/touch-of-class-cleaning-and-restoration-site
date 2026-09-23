@@ -8,7 +8,7 @@ secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet 
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "1f9951906c5f6a07"
-generated_at: "2026-09-22T02:11:15.630590+00:00"
+generated_at: "2026-09-23T14:11:40.966808+00:00"
 manual_override: false
 internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/ellwood-city-pa/", "/service-areas/ellwood-city-pa/fire-damage-restoration/", "/service-areas/ellwood-city-pa/mold-remediation/", "/service-areas/aliquippa-pa/basement-flooding-cleanup/", "/service-areas/allison-park-pa/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ellwood City", "url": "/service-areas/ellwood-city-pa/"}, {"name": "Basement Flooding Cleanup"}]

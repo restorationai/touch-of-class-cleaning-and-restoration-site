@@ -7,10 +7,10 @@ primary_keyword: "restoration services piru"
 secondary_keywords: ["piru restoration company", "damage restoration piru", "piru disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "b40a678a65c4067f"
-generated_at: "2026-09-20T17:29:25.924837+00:00"
+plan_hash: "9fdd4e8d2229deac"
+generated_at: "2026-09-23T14:11:28.105818+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/piru-ca/mold-remediation/", "/service-areas/piru-ca/water-damage-restoration/", "/service-areas/piru-ca/storm-damage-restoration/", "/service-areas/piru-ca/water-cleanup/", "/service-areas/piru-ca/contents-restoration/", "/service-areas/piru-ca/crawl-space-encapsulation/", "/service-areas/camarillo-ca/", "/service-areas/fillmore-ca/", "/service-areas/mira-monte-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/piru-ca/mold-remediation/", "/service-areas/piru-ca/water-damage-restoration/", "/service-areas/piru-ca/storm-damage-restoration/", "/service-areas/piru-ca/water-cleanup/", "/service-areas/piru-ca/odor-removal/", "/service-areas/piru-ca/contents-restoration-storage/", "/service-areas/piru-ca/contents-restoration/", "/service-areas/piru-ca/crawl-space-encapsulation/", "/service-areas/camarillo-ca/", "/service-areas/carpinteria-ca/", "/service-areas/castaic-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Piru"}]
 faq: []
 area_slug: "piru-ca"

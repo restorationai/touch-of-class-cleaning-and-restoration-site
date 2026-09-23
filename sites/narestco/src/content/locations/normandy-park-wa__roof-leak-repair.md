@@ -8,7 +8,7 @@ secondary_keywords: ["roof leak cleanup", "ceiling water damage", "attic water d
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "301fd0a7f8c86499"
-generated_at: "2026-09-20T20:42:00.528876+00:00"
+generated_at: "2026-09-23T14:11:54.178800+00:00"
 manual_override: false
 internal_links: ["/services/roof-leak-repair/", "/service-areas/normandy-park-wa/", "/service-areas/normandy-park-wa/fire-damage-restoration/", "/service-areas/normandy-park-wa/mold-remediation/", "/service-areas/algona-wa/roof-leak-repair/", "/service-areas/auburn-wa/roof-leak-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Normandy Park", "url": "/service-areas/normandy-park-wa/"}, {"name": "Roof Leak Cleanup and Repair"}]

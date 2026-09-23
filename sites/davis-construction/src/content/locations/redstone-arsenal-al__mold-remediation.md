@@ -7,10 +7,10 @@ primary_keyword: "mold remediation redstone arsenal"
 secondary_keywords: ["mold removal", "mold remediation contractor", "mold repair and rebuild", "mold-safe renovation", "post-remediation reconstruction"]
 search_intent: "local_health"
 priority: 4.9
-plan_hash: "38d188f9b6cb449e"
-generated_at: "2026-09-20T14:13:03.669344+00:00"
+plan_hash: "146595a05c6e3bba"
+generated_at: "2026-09-23T14:11:32.830915+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/redstone-arsenal-al/", "/service-areas/redstone-arsenal-al/home-remodeling/", "/service-areas/redstone-arsenal-al/roofing/", "/service-areas/athens-al/mold-remediation/", "/service-areas/harvest-al/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/redstone-arsenal-al/", "/service-areas/redstone-arsenal-al/home-remodeling/", "/service-areas/redstone-arsenal-al/roofing/", "/service-areas/arab-al/mold-remediation/", "/service-areas/ardmore-al/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Redstone Arsenal", "url": "/service-areas/redstone-arsenal-al/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "redstone-arsenal-al"

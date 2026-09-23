@@ -7,10 +7,10 @@ primary_keyword: "contents restoration and storage san buenaventura (ventura)"
 secondary_keywords: ["contents pack-out", "contents cleaning", "belongings restoration", "furniture restoration after fire", "contents storage"]
 search_intent: "local_service"
 priority: 3.5
-plan_hash: "0ff3e4cf2f7e8a7e"
-generated_at: "2026-09-20T14:12:59.578158+00:00"
+plan_hash: "1dc345cb8836ba1c"
+generated_at: "2026-09-23T14:11:28.121091+00:00"
 manual_override: false
-internal_links: ["/services/contents-restoration/", "/service-areas/san-buenaventura-ventura-ca/", "/service-areas/san-buenaventura-ventura-ca/mold-remediation/", "/service-areas/san-buenaventura-ventura-ca/water-damage-restoration/", "/service-areas/camarillo-ca/contents-restoration/", "/service-areas/fillmore-ca/contents-restoration/", "/contact/"]
+internal_links: ["/services/contents-restoration/", "/service-areas/san-buenaventura-ventura-ca/", "/service-areas/san-buenaventura-ventura-ca/mold-remediation/", "/service-areas/san-buenaventura-ventura-ca/water-damage-restoration/", "/service-areas/camarillo-ca/contents-restoration/", "/service-areas/carpinteria-ca/contents-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Buenaventura (Ventura)", "url": "/service-areas/san-buenaventura-ventura-ca/"}, {"name": "Contents Restoration and Storage"}]
 faq: []
 area_slug: "san-buenaventura-ventura-ca"

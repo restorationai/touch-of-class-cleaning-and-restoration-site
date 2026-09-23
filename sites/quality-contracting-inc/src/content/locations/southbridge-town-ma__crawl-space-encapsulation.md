@@ -7,10 +7,10 @@ primary_keyword: "crawl space encapsulation southbridge town"
 secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "1e66aba4bb3a35a5"
-generated_at: "2026-09-20T14:13:32.577630+00:00"
+plan_hash: "1b5ca13aa49159bc"
+generated_at: "2026-09-23T14:11:58.516550+00:00"
 manual_override: false
-internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/southbridge-town-ma/", "/service-areas/southbridge-town-ma/fire-damage-restoration/", "/service-areas/southbridge-town-ma/mold-remediation/", "/service-areas/east-douglas-ma/crawl-space-encapsulation/", "/service-areas/framingham-ma/crawl-space-encapsulation/", "/contact/"]
+internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/southbridge-town-ma/", "/service-areas/southbridge-town-ma/fire-damage-restoration/", "/service-areas/southbridge-town-ma/mold-remediation/", "/service-areas/bellingham-ma/crawl-space-encapsulation/", "/service-areas/east-douglas-ma/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Southbridge Town", "url": "/service-areas/southbridge-town-ma/"}, {"name": "Crawl Space Encapsulation"}]
 faq: []
 area_slug: "southbridge-town-ma"

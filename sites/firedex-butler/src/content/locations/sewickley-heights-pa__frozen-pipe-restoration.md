@@ -7,10 +7,10 @@ primary_keyword: "frozen pipe restoration sewickley heights"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"
 priority: 4.9
-plan_hash: "4904d293e35a4421"
-generated_at: "2026-09-20T14:13:09.811932+00:00"
+plan_hash: "3e2018c21b813fc6"
+generated_at: "2026-09-23T14:11:40.925503+00:00"
 manual_override: false
-internal_links: ["/services/frozen-pipe-restoration/", "/service-areas/sewickley-heights-pa/", "/service-areas/sewickley-heights-pa/fire-damage-restoration/", "/service-areas/sewickley-heights-pa/mold-remediation/", "/service-areas/baden-pa/frozen-pipe-restoration/", "/service-areas/beaver-falls-pa/frozen-pipe-restoration/", "/contact/"]
+internal_links: ["/services/frozen-pipe-restoration/", "/service-areas/sewickley-heights-pa/", "/service-areas/sewickley-heights-pa/fire-damage-restoration/", "/service-areas/sewickley-heights-pa/mold-remediation/", "/service-areas/aliquippa-pa/frozen-pipe-restoration/", "/service-areas/allison-park-pa/frozen-pipe-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sewickley Heights", "url": "/service-areas/sewickley-heights-pa/"}, {"name": "Frozen Pipe Restoration"}]
 faq: []
 area_slug: "sewickley-heights-pa"

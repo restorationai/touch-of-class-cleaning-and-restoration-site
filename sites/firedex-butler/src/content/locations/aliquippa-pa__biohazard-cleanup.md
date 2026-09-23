@@ -7,10 +7,10 @@ primary_keyword: "biohazard cleanup aliquippa"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
 priority: 5.6
-plan_hash: "0b6d4b10f89589a0"
-generated_at: "2026-09-20T17:29:36.721171+00:00"
+plan_hash: "866d4bdb7d702bf2"
+generated_at: "2026-09-23T14:11:40.929771+00:00"
 manual_override: false
-internal_links: ["/services/biohazard-cleanup/", "/service-areas/aliquippa-pa/", "/service-areas/aliquippa-pa/fire-damage-restoration/", "/service-areas/aliquippa-pa/mold-remediation/", "/service-areas/baden-pa/biohazard-cleanup/", "/service-areas/beaver-falls-pa/biohazard-cleanup/", "/contact/"]
+internal_links: ["/services/biohazard-cleanup/", "/service-areas/aliquippa-pa/", "/service-areas/aliquippa-pa/fire-damage-restoration/", "/service-areas/aliquippa-pa/mold-remediation/", "/service-areas/allison-park-pa/biohazard-cleanup/", "/service-areas/baden-pa/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Aliquippa", "url": "/service-areas/aliquippa-pa/"}, {"name": "Biohazard Cleanup"}]
 faq: []
 area_slug: "aliquippa-pa"

@@ -7,10 +7,10 @@ primary_keyword: "mold remediation priceville"
 secondary_keywords: ["mold removal", "mold remediation contractor", "mold repair and rebuild", "mold-safe renovation", "post-remediation reconstruction"]
 search_intent: "local_health"
 priority: 4.9
-plan_hash: "34d848482494f44e"
-generated_at: "2026-09-21T19:18:32.950469+00:00"
+plan_hash: "4e46aabfe76adea2"
+generated_at: "2026-09-23T14:11:32.864943+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/priceville-al/", "/service-areas/priceville-al/home-remodeling/", "/service-areas/priceville-al/roofing/", "/service-areas/ardmore-al/mold-remediation/", "/service-areas/athens-al/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/priceville-al/", "/service-areas/priceville-al/home-remodeling/", "/service-areas/priceville-al/roofing/", "/service-areas/arab-al/mold-remediation/", "/service-areas/ardmore-al/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Priceville", "url": "/service-areas/priceville-al/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "priceville-al"

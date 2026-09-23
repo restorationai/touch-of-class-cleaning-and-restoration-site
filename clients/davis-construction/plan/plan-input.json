@@ -1,15 +1,17 @@
 {
   "template": "construction",
   "services": [
-    "home-remodeling",
-    "new-construction",
     "decks-pergolas-fences",
+    "fire-smoke-rebuilding",
+    "home-remodeling",
+    "mold-remediation",
+    "new-construction",
+    "painting-trim",
     "roofing",
     "siding-gutters",
-    "painting-trim",
-    "water-damage-restoration",
     "storm-damage-restoration",
-    "mold-remediation"
+    "water-damage-restoration",
+    "windows-doors"
   ],
   "service_areas": [
     {

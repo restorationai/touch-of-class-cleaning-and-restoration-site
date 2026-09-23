@@ -48,15 +48,17 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `Inter` / `Inter` | brand.fonts | `Inter` / `Inter` |
 | `/images/logo.png` / `FF` | derived; logo lives on the per-client R2 bucket | |
 | `https://images.frontlinefireflood.com` | `https://images.{domain}` | |
-| `- [Water Damage Restoration](https://frontlinefireflood.com/services/water-damage-restoration/)
+| `- [Asbestos Abatement](https://frontlinefireflood.com/services/asbestos-abatement/)
+- [Contents Restoration & Storage](https://frontlinefireflood.com/services/contents-restoration-storage/)
+- [Emergency Board-Up and Tarping](https://frontlinefireflood.com/services/emergency-board-up-tarping/)
+- [Emergency Plumbing](https://frontlinefireflood.com/services/emergency-plumbing/)
 - [Fire Damage Restoration](https://frontlinefireflood.com/services/fire-damage-restoration/)
 - [Mold Remediation](https://frontlinefireflood.com/services/mold-remediation/)
-- [Storm Damage Restoration](https://frontlinefireflood.com/services/storm-damage-restoration/)
+- [Odor Removal and Deodorization](https://frontlinefireflood.com/services/odor-removal/)
 - [Sewage Cleanup and Sanitization](https://frontlinefireflood.com/services/sewage-cleanup/)
-- [Asbestos Abatement](https://frontlinefireflood.com/services/asbestos-abatement/)
-- [Emergency Board-Up and Tarping](https://frontlinefireflood.com/services/emergency-board-up-tarping/)
-- [Contents Restoration & Storage](https://frontlinefireflood.com/services/contents-restoration-storage/)
-- [Emergency Water Cleanup](https://frontlinefireflood.com/services/water-cleanup/)` / `- [Lakewood, WA](https://frontlinefireflood.com/service-areas/lakewood-wa/)
+- [Storm Damage Restoration](https://frontlinefireflood.com/services/storm-damage-restoration/)
+- [Emergency Water Cleanup](https://frontlinefireflood.com/services/water-cleanup/)
+- [Water Damage Restoration](https://frontlinefireflood.com/services/water-damage-restoration/)` / `- [Lakewood, WA](https://frontlinefireflood.com/service-areas/lakewood-wa/)
 - [Tacoma, WA](https://frontlinefireflood.com/service-areas/tacoma-wa/)
 - [Puyallup, WA](https://frontlinefireflood.com/service-areas/puyallup-wa/)
 - [University Place, WA](https://frontlinefireflood.com/service-areas/university-place-wa/)

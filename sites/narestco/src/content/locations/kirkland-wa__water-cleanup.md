@@ -8,16 +8,16 @@ secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "a9fde1003ada0ee4"
-generated_at: "2026-09-20T14:13:23.230162+00:00"
+generated_at: "2026-09-23T14:11:54.071824+00:00"
 manual_override: false
 internal_links: ["/services/water-cleanup/", "/service-areas/kirkland-wa/", "/service-areas/kirkland-wa/fire-damage-restoration/", "/service-areas/kirkland-wa/mold-remediation/", "/service-areas/algona-wa/water-cleanup/", "/service-areas/auburn-wa/water-cleanup/", "/contact/"]
-breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Kirkland", "url": "/service-areas/kirkland-wa/"}, {"name": "water-cleanup"}]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Kirkland", "url": "/service-areas/kirkland-wa/"}, {"name": "Emergency Water Cleanup"}]
 faq: []
 area_slug: "kirkland-wa"
 service_slug: "water-cleanup"
 city: "Kirkland"
 state: "WA"
-service_display: "water-cleanup"
+service_display: "Emergency Water Cleanup"
 ---
 <!-- Page body not yet generated. Run `build_site.py render --slug narestco` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
 

@@ -7,10 +7,10 @@ primary_keyword: "biohazard cleanup winchester"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
 priority: 5.6
-plan_hash: "46d413c7b168daf3"
-generated_at: "2026-09-20T14:13:41.079965+00:00"
+plan_hash: "e7ead417088b1c9d"
+generated_at: "2026-09-23T14:12:02.366919+00:00"
 manual_override: false
-internal_links: ["/services/biohazard-cleanup/", "/service-areas/winchester-nv/", "/service-areas/winchester-nv/fire-damage-restoration/", "/service-areas/winchester-nv/mold-remediation/", "/service-areas/boulder-city-nv/biohazard-cleanup/", "/service-areas/enterprise-nv/biohazard-cleanup/", "/contact/"]
+internal_links: ["/services/biohazard-cleanup/", "/service-areas/winchester-nv/", "/service-areas/winchester-nv/fire-damage-restoration/", "/service-areas/winchester-nv/mold-remediation/", "/service-areas/blue-diamond-nv/biohazard-cleanup/", "/service-areas/boulder-city-nv/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Winchester", "url": "/service-areas/winchester-nv/"}, {"name": "Biohazard Cleanup"}]
 faq: []
 area_slug: "winchester-nv"

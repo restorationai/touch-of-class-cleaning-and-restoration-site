@@ -8,7 +8,7 @@ secondary_keywords: ["decomposition cleanup", "after death cleaning", "deceased 
 search_intent: "local_sensitive"
 priority: 4.2
 plan_hash: "127706b8fe85b21f"
-generated_at: "2026-09-20T19:17:35.995192+00:00"
+generated_at: "2026-09-23T14:11:54.163136+00:00"
 manual_override: false
 internal_links: ["/services/unattended-death-cleanup/", "/service-areas/edgewood-wa/", "/service-areas/edgewood-wa/fire-damage-restoration/", "/service-areas/edgewood-wa/mold-remediation/", "/service-areas/algona-wa/unattended-death-cleanup/", "/service-areas/auburn-wa/unattended-death-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Edgewood", "url": "/service-areas/edgewood-wa/"}, {"name": "Unattended Death Cleanup"}]

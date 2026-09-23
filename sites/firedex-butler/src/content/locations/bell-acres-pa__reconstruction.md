@@ -7,10 +7,10 @@ primary_keyword: "reconstruction services bell acres"
 secondary_keywords: ["post-damage reconstruction", "rebuild services", "structural reconstruction", "post-disaster rebuilding", "fire damage reconstruction"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "deff3c9fb2795b17"
-generated_at: "2026-09-20T14:13:09.807574+00:00"
+plan_hash: "631b61d623d51870"
+generated_at: "2026-09-23T14:11:40.914724+00:00"
 manual_override: false
-internal_links: ["/services/reconstruction/", "/service-areas/bell-acres-pa/", "/service-areas/bell-acres-pa/fire-damage-restoration/", "/service-areas/bell-acres-pa/mold-remediation/", "/service-areas/baden-pa/reconstruction/", "/service-areas/beaver-falls-pa/reconstruction/", "/contact/"]
+internal_links: ["/services/reconstruction/", "/service-areas/bell-acres-pa/", "/service-areas/bell-acres-pa/fire-damage-restoration/", "/service-areas/bell-acres-pa/mold-remediation/", "/service-areas/aliquippa-pa/reconstruction/", "/service-areas/allison-park-pa/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bell Acres", "url": "/service-areas/bell-acres-pa/"}, {"name": "Reconstruction Services"}]
 faq: []
 area_slug: "bell-acres-pa"

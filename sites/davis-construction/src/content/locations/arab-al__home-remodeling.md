@@ -8,7 +8,7 @@ secondary_keywords: ["home renovation", "whole home remodel", "interior remodeli
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "086f4744f1e69138"
-generated_at: "2026-09-22T20:03:03.312827+00:00"
+generated_at: "2026-09-23T14:11:32.877835+00:00"
 manual_override: false
 internal_links: ["/services/home-remodeling/", "/service-areas/arab-al/", "/service-areas/arab-al/roofing/", "/service-areas/arab-al/decks-pergolas-fences/", "/service-areas/ardmore-al/home-remodeling/", "/service-areas/athens-al/home-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Arab", "url": "/service-areas/arab-al/"}, {"name": "Home Remodeling"}]

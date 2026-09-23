@@ -7,10 +7,10 @@ primary_keyword: "mold remediation fontana"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "6cad3cfb11b918dc"
-generated_at: "2026-09-21T19:18:36.601308+00:00"
+plan_hash: "0eee6bd3b56a3d69"
+generated_at: "2026-09-23T14:11:36.235202+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/fontana-ca/", "/service-areas/fontana-ca/fire-damage-restoration/", "/service-areas/fontana-ca/water-damage-restoration/", "/service-areas/anaheim-ca/mold-remediation/", "/service-areas/chino-ca/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/fontana-ca/", "/service-areas/fontana-ca/fire-damage-restoration/", "/service-areas/fontana-ca/roofing/", "/service-areas/anaheim-ca/mold-remediation/", "/service-areas/chino-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fontana", "url": "/service-areas/fontana-ca/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "fontana-ca"

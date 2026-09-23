@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration economy"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "e07d3c2145cf0709"
-generated_at: "2026-09-20T14:13:09.796876+00:00"
+plan_hash: "b1e77b9a84938bf6"
+generated_at: "2026-09-23T14:11:40.893554+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/economy-pa/", "/service-areas/economy-pa/mold-remediation/", "/service-areas/economy-pa/water-damage-restoration/", "/service-areas/baden-pa/fire-damage-restoration/", "/service-areas/beaver-falls-pa/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/economy-pa/", "/service-areas/economy-pa/mold-remediation/", "/service-areas/economy-pa/water-damage-restoration/", "/service-areas/aliquippa-pa/fire-damage-restoration/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Economy", "url": "/service-areas/economy-pa/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "economy-pa"

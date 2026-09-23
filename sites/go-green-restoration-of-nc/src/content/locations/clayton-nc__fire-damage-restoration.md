@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "452e5f87aac8ca14"
-generated_at: "2026-09-20T14:13:14.689113+00:00"
+generated_at: "2026-09-23T14:11:44.839685+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/clayton-nc/", "/service-areas/clayton-nc/mold-remediation/", "/service-areas/clayton-nc/water-damage-restoration/", "/service-areas/archer-lodge-nc/fire-damage-restoration/", "/service-areas/durham-nc/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Clayton", "url": "/service-areas/clayton-nc/"}, {"name": "Fire Damage Restoration"}]

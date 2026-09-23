@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration economy"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "f09b7ca918a82287"
-generated_at: "2026-09-20T14:13:09.795559+00:00"
+plan_hash: "0bfc9fe5d25b3c86"
+generated_at: "2026-09-23T14:11:40.897566+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/economy-pa/", "/service-areas/economy-pa/fire-damage-restoration/", "/service-areas/economy-pa/mold-remediation/", "/service-areas/baden-pa/water-damage-restoration/", "/service-areas/beaver-falls-pa/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/economy-pa/", "/service-areas/economy-pa/fire-damage-restoration/", "/service-areas/economy-pa/mold-remediation/", "/service-areas/aliquippa-pa/water-damage-restoration/", "/service-areas/allison-park-pa/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Economy", "url": "/service-areas/economy-pa/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "economy-pa"

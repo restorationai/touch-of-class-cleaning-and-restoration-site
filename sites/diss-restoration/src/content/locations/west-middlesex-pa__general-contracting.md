@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "a55fdb3ba8e9f3c4"
-generated_at: "2026-09-21T15:54:35.834929+00:00"
+generated_at: "2026-09-23T14:11:34.828368+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/west-middlesex-pa/", "/service-areas/west-middlesex-pa/fire-damage-restoration/", "/service-areas/west-middlesex-pa/mold-remediation/", "/service-areas/austintown-oh/general-contracting/", "/service-areas/boardman-oh/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "West Middlesex", "url": "/service-areas/west-middlesex-pa/"}, {"name": "Renovations, Remodels and General Contracting"}]

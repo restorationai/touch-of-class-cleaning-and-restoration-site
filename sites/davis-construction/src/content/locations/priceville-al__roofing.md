@@ -7,10 +7,10 @@ primary_keyword: "roofing installation and replacement priceville"
 secondary_keywords: ["roofing contractor", "roof replacement", "new roof installation", "residential roofing", "roof repair"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "f0b183b1eeb18b07"
-generated_at: "2026-09-21T19:18:32.950056+00:00"
+plan_hash: "d233e320ae512372"
+generated_at: "2026-09-23T14:11:32.865936+00:00"
 manual_override: false
-internal_links: ["/services/roofing/", "/service-areas/priceville-al/", "/service-areas/priceville-al/home-remodeling/", "/service-areas/priceville-al/decks-pergolas-fences/", "/service-areas/ardmore-al/roofing/", "/service-areas/athens-al/roofing/", "/contact/"]
+internal_links: ["/services/roofing/", "/service-areas/priceville-al/", "/service-areas/priceville-al/home-remodeling/", "/service-areas/priceville-al/decks-pergolas-fences/", "/service-areas/arab-al/roofing/", "/service-areas/ardmore-al/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Priceville", "url": "/service-areas/priceville-al/"}, {"name": "Roofing Installation and Replacement"}]
 faq: []
 area_slug: "priceville-al"

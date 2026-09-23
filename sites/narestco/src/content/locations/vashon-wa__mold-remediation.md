@@ -7,10 +7,10 @@ primary_keyword: "mold remediation vashon"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "b257900d6f409316"
-generated_at: "2026-09-21T14:13:34.626282+00:00"
+plan_hash: "465c9de10b650bb7"
+generated_at: "2026-09-23T14:11:54.186903+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/vashon-wa/", "/service-areas/vashon-wa/fire-damage-restoration/", "/service-areas/vashon-wa/water-damage-restoration/", "/service-areas/algona-wa/mold-remediation/", "/service-areas/auburn-wa/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/vashon-wa/", "/service-areas/vashon-wa/fire-damage-restoration/", "/service-areas/vashon-wa/roofing/", "/service-areas/algona-wa/mold-remediation/", "/service-areas/auburn-wa/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Vashon", "url": "/service-areas/vashon-wa/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "vashon-wa"

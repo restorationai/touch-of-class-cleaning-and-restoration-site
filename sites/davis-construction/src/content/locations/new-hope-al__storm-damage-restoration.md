@@ -7,10 +7,10 @@ primary_keyword: "storm damage restoration new hope"
 secondary_keywords: ["storm damage repair", "roof storm damage repair", "siding storm damage repair", "wind damage repair contractor", "storm damage rebuild"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "d6dda1ce45553d8a"
-generated_at: "2026-09-20T20:41:40.627561+00:00"
+plan_hash: "2d156ba17e48b47e"
+generated_at: "2026-09-23T14:11:32.860072+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/new-hope-al/", "/service-areas/new-hope-al/home-remodeling/", "/service-areas/new-hope-al/roofing/", "/service-areas/athens-al/storm-damage-restoration/", "/service-areas/gurley-al/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/new-hope-al/", "/service-areas/new-hope-al/home-remodeling/", "/service-areas/new-hope-al/roofing/", "/service-areas/arab-al/storm-damage-restoration/", "/service-areas/ardmore-al/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "New Hope", "url": "/service-areas/new-hope-al/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "new-hope-al"

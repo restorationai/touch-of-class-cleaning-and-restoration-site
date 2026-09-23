@@ -7,10 +7,10 @@ primary_keyword: "restoration services milford"
 secondary_keywords: ["milford restoration company", "damage restoration milford", "milford disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "7af5e0f721804dba"
-generated_at: "2026-09-20T19:17:43.722929+00:00"
+plan_hash: "06a60d1a063d3a32"
+generated_at: "2026-09-23T14:11:58.461028+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/milford-ma/fire-damage-restoration/", "/service-areas/milford-ma/mold-remediation/", "/service-areas/milford-ma/water-damage-restoration/", "/service-areas/milford-ma/sewage-cleanup/", "/service-areas/milford-ma/storm-damage-restoration/", "/service-areas/milford-ma/water-cleanup/", "/service-areas/milford-ma/biohazard-cleanup/", "/service-areas/milford-ma/emergency-board-up-tarping/", "/service-areas/milford-ma/air-duct-cleaning/", "/service-areas/milford-ma/contents-restoration/", "/service-areas/milford-ma/crawl-space-encapsulation/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/", "/service-areas/framingham-ma/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/milford-ma/fire-damage-restoration/", "/service-areas/milford-ma/mold-remediation/", "/service-areas/milford-ma/roofing/", "/service-areas/milford-ma/water-damage-restoration/", "/service-areas/milford-ma/emergency-plumbing/", "/service-areas/milford-ma/sewage-cleanup/", "/service-areas/milford-ma/storm-damage-restoration/", "/service-areas/milford-ma/water-cleanup/", "/service-areas/milford-ma/biohazard-cleanup/", "/service-areas/milford-ma/general-contracting/", "/service-areas/milford-ma/emergency-board-up-tarping/", "/service-areas/milford-ma/odor-removal/", "/service-areas/milford-ma/water-leak-detection/", "/service-areas/milford-ma/asbestos-abatement/", "/service-areas/milford-ma/air-duct-cleaning/", "/service-areas/milford-ma/contents-restoration-storage/", "/service-areas/milford-ma/contents-restoration/", "/service-areas/milford-ma/crawl-space-encapsulation/", "/service-areas/milford-ma/carpet-cleaning/", "/service-areas/milford-ma/post-construction-cleaning/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Milford"}]
 faq: []
 area_slug: "milford-ma"

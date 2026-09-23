@@ -7,10 +7,10 @@ primary_keyword: "construction services somerville"
 secondary_keywords: ["somerville construction company", "general contractor somerville", "somerville remodeling contractor"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "5b79c59599ebfd90"
-generated_at: "2026-09-22T02:11:07.730215+00:00"
+plan_hash: "511a5398b51c7aa8"
+generated_at: "2026-09-23T14:11:32.823044+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/somerville-al/home-remodeling/", "/service-areas/somerville-al/roofing/", "/service-areas/somerville-al/decks-pergolas-fences/", "/service-areas/somerville-al/new-construction/", "/service-areas/somerville-al/siding-gutters/", "/service-areas/somerville-al/mold-remediation/", "/service-areas/somerville-al/painting-trim/", "/service-areas/somerville-al/storm-damage-restoration/", "/service-areas/somerville-al/water-damage-restoration/", "/service-areas/ardmore-al/", "/service-areas/athens-al/", "/service-areas/gurley-al/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/somerville-al/home-remodeling/", "/service-areas/somerville-al/roofing/", "/service-areas/somerville-al/decks-pergolas-fences/", "/service-areas/somerville-al/new-construction/", "/service-areas/somerville-al/siding-gutters/", "/service-areas/somerville-al/fire-smoke-rebuilding/", "/service-areas/somerville-al/mold-remediation/", "/service-areas/somerville-al/painting-trim/", "/service-areas/somerville-al/storm-damage-restoration/", "/service-areas/somerville-al/water-damage-restoration/", "/service-areas/somerville-al/windows-doors/", "/service-areas/arab-al/", "/service-areas/ardmore-al/", "/service-areas/athens-al/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Somerville"}]
 faq: []
 area_slug: "somerville-al"

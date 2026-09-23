@@ -8,7 +8,7 @@ secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "ca
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "e6e6f16072533f6f"
-generated_at: "2026-09-20T14:13:06.382467+00:00"
+generated_at: "2026-09-23T14:11:36.187866+00:00"
 manual_override: false
 internal_links: ["/services/carpet-cleaning/", "/service-areas/jurupa-valley-ca/", "/service-areas/jurupa-valley-ca/fire-damage-restoration/", "/service-areas/jurupa-valley-ca/mold-remediation/", "/service-areas/anaheim-ca/carpet-cleaning/", "/service-areas/chino-ca/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Jurupa Valley", "url": "/service-areas/jurupa-valley-ca/"}, {"name": "Carpet Cleaning"}]

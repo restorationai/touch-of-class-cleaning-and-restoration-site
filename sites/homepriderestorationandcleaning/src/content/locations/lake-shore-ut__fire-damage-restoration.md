@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "c1eba68ccfe9d3eb"
-generated_at: "2026-09-20T20:41:55.919623+00:00"
+generated_at: "2026-09-23T14:11:49.797843+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/lake-shore-ut/", "/service-areas/lake-shore-ut/mold-remediation/", "/service-areas/lake-shore-ut/water-damage-restoration/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/american-fork-ut/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Shore", "url": "/service-areas/lake-shore-ut/"}, {"name": "Fire Damage Restoration"}]

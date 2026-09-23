@@ -7,10 +7,10 @@ primary_keyword: "basement flooding cleanup fairfield"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
 priority: 5.6
-plan_hash: "0a8dd1925ba9d1f2"
-generated_at: "2026-09-20T14:13:18.730208+00:00"
+plan_hash: "e67067c0a137d683"
+generated_at: "2026-09-23T14:11:49.751230+00:00"
 manual_override: false
-internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/fairfield-ut/", "/service-areas/fairfield-ut/fire-damage-restoration/", "/service-areas/fairfield-ut/mold-remediation/", "/service-areas/american-fork-ut/basement-flooding-cleanup/", "/service-areas/cedar-fort-ut/basement-flooding-cleanup/", "/contact/"]
+internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/fairfield-ut/", "/service-areas/fairfield-ut/fire-damage-restoration/", "/service-areas/fairfield-ut/mold-remediation/", "/service-areas/alpine-ut/basement-flooding-cleanup/", "/service-areas/american-fork-ut/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fairfield", "url": "/service-areas/fairfield-ut/"}, {"name": "Basement Flooding Cleanup"}]
 faq: []
 area_slug: "fairfield-ut"

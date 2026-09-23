@@ -8,7 +8,7 @@ secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed 
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "1885fd0998c591cc"
-generated_at: "2026-09-21T14:13:12.728712+00:00"
+generated_at: "2026-09-23T14:11:40.956687+00:00"
 manual_override: false
 internal_links: ["/services/frozen-pipe-restoration/", "/service-areas/oak-hills-pa/", "/service-areas/oak-hills-pa/fire-damage-restoration/", "/service-areas/oak-hills-pa/mold-remediation/", "/service-areas/aliquippa-pa/frozen-pipe-restoration/", "/service-areas/allison-park-pa/frozen-pipe-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oak Hills", "url": "/service-areas/oak-hills-pa/"}, {"name": "Frozen Pipe Restoration"}]

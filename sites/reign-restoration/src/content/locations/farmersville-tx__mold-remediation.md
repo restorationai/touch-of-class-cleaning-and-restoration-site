@@ -7,10 +7,10 @@ primary_keyword: "mold remediation farmersville"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "d128a61fb202013a"
-generated_at: "2026-09-20T19:37:21.505961+00:00"
+plan_hash: "7934fec3f450c85c"
+generated_at: "2026-09-23T14:12:04.485598+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/farmersville-tx/", "/service-areas/farmersville-tx/fire-damage-restoration/", "/service-areas/farmersville-tx/water-damage-restoration/", "/service-areas/allen-tx/mold-remediation/", "/service-areas/caddo-mills-tx/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/farmersville-tx/", "/service-areas/farmersville-tx/fire-damage-restoration/", "/service-areas/farmersville-tx/roofing/", "/service-areas/allen-tx/mold-remediation/", "/service-areas/caddo-mills-tx/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Farmersville", "url": "/service-areas/farmersville-tx/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "farmersville-tx"

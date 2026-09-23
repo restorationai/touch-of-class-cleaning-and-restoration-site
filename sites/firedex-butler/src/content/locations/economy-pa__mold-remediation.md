@@ -7,10 +7,10 @@ primary_keyword: "mold remediation economy"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "c4bee9a411994ced"
-generated_at: "2026-09-20T14:13:09.797531+00:00"
+plan_hash: "25c722e1a68c6ce5"
+generated_at: "2026-09-23T14:11:40.895192+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/economy-pa/", "/service-areas/economy-pa/fire-damage-restoration/", "/service-areas/economy-pa/water-damage-restoration/", "/service-areas/baden-pa/mold-remediation/", "/service-areas/beaver-falls-pa/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/economy-pa/", "/service-areas/economy-pa/fire-damage-restoration/", "/service-areas/economy-pa/water-damage-restoration/", "/service-areas/aliquippa-pa/mold-remediation/", "/service-areas/allison-park-pa/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Economy", "url": "/service-areas/economy-pa/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "economy-pa"

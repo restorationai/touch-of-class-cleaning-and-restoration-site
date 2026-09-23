@@ -8,7 +8,7 @@ secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "142371d7eb532a7b"
-generated_at: "2026-09-20T20:42:19.131990+00:00"
+generated_at: "2026-09-23T14:12:02.383441+00:00"
 manual_override: false
 internal_links: ["/services/water-cleanup/", "/service-areas/mount-charleston-nv/", "/service-areas/mount-charleston-nv/fire-damage-restoration/", "/service-areas/mount-charleston-nv/mold-remediation/", "/service-areas/blue-diamond-nv/water-cleanup/", "/service-areas/boulder-city-nv/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mount Charleston", "url": "/service-areas/mount-charleston-nv/"}, {"name": "Emergency Water Cleanup"}]

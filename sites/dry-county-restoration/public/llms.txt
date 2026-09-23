@@ -9,17 +9,22 @@ Dry County Restoration (Dry County Restoration) is a professional restoration co
 This file is intended for AI assistants and language models to efficiently ingest the structure and content of this website. The full list of pages is in the sitemap at https://drycountyrestoration.com/sitemap-index.xml.
 
 ### Core service pages
-- [Water Damage Restoration](https://drycountyrestoration.com/services/water-damage-restoration/)
-- [Fire Damage Restoration](https://drycountyrestoration.com/services/fire-damage-restoration/)
-- [Mold Remediation](https://drycountyrestoration.com/services/mold-remediation/)
-- [Renovations, Remodels and General Contracting](https://drycountyrestoration.com/services/general-contracting/)
-- [Storm Damage Restoration](https://drycountyrestoration.com/services/storm-damage-restoration/)
-- [Sewage Cleanup and Sanitization](https://drycountyrestoration.com/services/sewage-cleanup/)
-- [Emergency Board-Up and Tarping](https://drycountyrestoration.com/services/emergency-board-up-tarping/)
-- [Contents Restoration and Storage](https://drycountyrestoration.com/services/contents-restoration/)
 - [Air Duct Cleaning](https://drycountyrestoration.com/services/air-duct-cleaning/)
 - [Carpet Cleaning](https://drycountyrestoration.com/services/carpet-cleaning/)
+- [Contents Restoration and Storage](https://drycountyrestoration.com/services/contents-restoration/)
+- [Contents Restoration & Storage](https://drycountyrestoration.com/services/contents-restoration-storage/)
+- [Emergency Board-Up and Tarping](https://drycountyrestoration.com/services/emergency-board-up-tarping/)
+- [Emergency Plumbing](https://drycountyrestoration.com/services/emergency-plumbing/)
+- [Fire Damage Restoration](https://drycountyrestoration.com/services/fire-damage-restoration/)
+- [Renovations, Remodels and General Contracting](https://drycountyrestoration.com/services/general-contracting/)
+- [Mold Remediation](https://drycountyrestoration.com/services/mold-remediation/)
+- [Odor Removal and Deodorization](https://drycountyrestoration.com/services/odor-removal/)
 - [Post-Construction and Specialty Cleaning](https://drycountyrestoration.com/services/post-construction-cleaning/)
+- [Roofing Installation and Replacement](https://drycountyrestoration.com/services/roofing/)
+- [Sewage Cleanup and Sanitization](https://drycountyrestoration.com/services/sewage-cleanup/)
+- [Storm Damage Restoration](https://drycountyrestoration.com/services/storm-damage-restoration/)
+- [Water Damage Restoration](https://drycountyrestoration.com/services/water-damage-restoration/)
+- [Water Leak Detection](https://drycountyrestoration.com/services/water-leak-detection/)
 
 ### Service area pages
 - [Corona, CA](https://drycountyrestoration.com/service-areas/corona-ca/)
@@ -31,11 +36,27 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Norco, CA](https://drycountyrestoration.com/service-areas/norco-ca/)
 - [Chino, CA](https://drycountyrestoration.com/service-areas/chino-ca/)
 - [Chino Hills, CA](https://drycountyrestoration.com/service-areas/chino-hills-ca/)
+- [Eastvale, CA](https://drycountyrestoration.com/service-areas/eastvale-ca/)
+- [Silverado, CA](https://drycountyrestoration.com/service-areas/silverado-ca/)
+- [Jurupa Valley, CA](https://drycountyrestoration.com/service-areas/jurupa-valley-ca/)
+- [Temescal Valley, CA](https://drycountyrestoration.com/service-areas/temescal-valley-ca/)
+- [Yorba Linda, CA](https://drycountyrestoration.com/service-areas/yorba-linda-ca/)
+- [Lake Mathews, CA](https://drycountyrestoration.com/service-areas/lake-mathews-ca/)
+- [Woodcrest, CA](https://drycountyrestoration.com/service-areas/woodcrest-ca/)
+- [Trabuco Canyon, CA](https://drycountyrestoration.com/service-areas/trabuco-canyon-ca/)
+- [North Tustin, CA](https://drycountyrestoration.com/service-areas/north-tustin-ca/)
+- [Montclair, CA](https://drycountyrestoration.com/service-areas/montclair-ca/)
+- [Villa Park, CA](https://drycountyrestoration.com/service-areas/villa-park-ca/)
+- [Fontana, CA](https://drycountyrestoration.com/service-areas/fontana-ca/)
+- [Pomona, CA](https://drycountyrestoration.com/service-areas/pomona-ca/)
 
 ### Resources
 - [Blog](https://drycountyrestoration.com/blog/): Restoration guides and local resources
 - [About](https://drycountyrestoration.com/about/): Company background and credentials
 - [Contact](https://drycountyrestoration.com/contact/): Phone, email, and service request form
+
+### Official profiles
+(profiles listed in page schema)
 - [Emergency](https://drycountyrestoration.com/emergency/): 24/7 emergency water damage response
 
 ## Key facts

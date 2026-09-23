@@ -28,66 +28,69 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `Coastal Restoration Services Inc` | plan-input `brand.display_name` | `National Restoration Construction` |
 | `Coastal Restoration Services Inc` | plan-input `brand.short_name` | `NARESTCO` |
 | `Coastal Restoration Services Inc` | plan-input `brand.legal_name` | `National Restoration Construction LLC` |
-| `` | client record `domain` | `narestco.com` |
-| `https://None` | derived | `https://narestco.com` |
+| `callcrs.com` | client record `domain` | `narestco.com` |
+| `https://callcrs.com` | derived | `https://narestco.com` |
 | `(805) 345-7440` / `+18053457440` | brand.phone | `(206) 883-0333` / `+12068830333` |
 | `tony@callcrs.com` | brand.email | `info@narestco.com` |
 | `24/7` | brand.hours | `24/7` |
 | `` | brand.founded_year | `2004` |
-| `Vandenberg Village` / `CA` | derived from primary area | `Federal Way` / `WA` |
+| `Santa Maria` / `CA` | derived from primary area | `Federal Way` / `WA` |
 | `217 E Fesler St` / `93454` | brand.street_address / brand.postal_code | |
 | `34.9531295` / `-120.435857` | brand.lat / brand.lng | from GBP |
 | `ChIJgb6Gdhxh4wYRjbzm6ELYT38` / `` | brand.place_id / brand.google_cid | from GBP |
-| `[]` | brand.license_numbers (JSON-encoded array) | `["NATIORC792M6"]` |
+| `["11245226"]` | brand.license_numbers (JSON-encoded array) | `["NATIORC792M6"]` |
 | `` / `` | brand.license_authority / brand.license_type | |
-| `[]` | brand.certifications (JSON-encoded array) | `["IICRC", "BBB Accredited"]` |
+| `"IICRC Certified Firm; WRT (Water Damage Restoration Technician); ASD (Applied Structural Drying)"` | brand.certifications (JSON-encoded array) | `["IICRC", "BBB Accredited"]` |
 | `[]` | brand.same_as_urls (JSON-encoded array) | |
 | `` / `` | from GBP | `5.0` / `31` |
-| `24/7 restoration services in Vandenberg Village, CA.` | brand.tagline | short marketing line |
-| `#dc2626` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
+| `24/7 restoration services in Santa Maria, CA.` | brand.tagline | short marketing line |
+| `#e6ac1a` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
 | `Inter` / `Inter` | brand.fonts | `Inter` / `Inter` |
-| `https://images.None/brand/logo.png` / `CR` | derived; logo lives on the per-client R2 bucket | |
-| `https://images.None` | `https://images.{domain}` | |
-| `- [Water Damage Restoration](https://None/services/water-damage-restoration/)
-- [Storm Damage Restoration](https://None/services/storm-damage-restoration/)
-- [Fire Damage Restoration](https://None/services/fire-damage-restoration/)
-- [Sewage Cleanup and Sanitization](https://None/services/sewage-cleanup/)
-- [Emergency Board-Up and Tarping](https://None/services/emergency-board-up-tarping/)
-- [Mold Remediation](https://None/services/mold-remediation/)
-- [Biohazard Cleanup](https://None/services/biohazard-cleanup/)
-- [Contents Restoration and Storage](https://None/services/contents-restoration/)
-- [Crawl Space Encapsulation](https://None/services/crawl-space-encapsulation/)
-- [Post-Construction and Specialty Cleaning](https://None/services/post-construction-cleaning/)` / `- [Vandenberg Village, CA](https://None/service-areas/vandenberg-village-ca/)
-- [Santa Maria, CA](https://None/service-areas/santa-maria-ca/)
-- [Orcutt, CA](https://None/service-areas/orcutt-ca/)
-- [Los Alamos, CA](https://None/service-areas/los-alamos-ca/)
-- [Lompoc, CA](https://None/service-areas/lompoc-ca/)
-- [Los Olivos, CA](https://None/service-areas/los-olivos-ca/)
-- [Mission Hills, CA](https://None/service-areas/mission-hills-ca/)
-- [Santa Ynez, CA](https://None/service-areas/santa-ynez-ca/)
-- [Solvang, CA](https://None/service-areas/solvang-ca/)
-- [Vandenberg AFB, CA](https://None/service-areas/vandenberg-afb-ca/)
-- [Guadalupe, CA](https://None/service-areas/guadalupe-ca/)
-- [Buellton, CA](https://None/service-areas/buellton-ca/)
-- [Ballard, CA](https://None/service-areas/ballard-ca/)
-- [Arroyo Grande, CA](https://None/service-areas/arroyo-grande-ca/)
-- [Avila Beach, CA](https://None/service-areas/avila-beach-ca/)
-- [Cambria, CA](https://None/service-areas/cambria-ca/)
-- [El Paso de Robles, CA](https://None/service-areas/el-paso-de-robles-ca/)
-- [Grover Beach, CA](https://None/service-areas/grover-beach-ca/)
-- [Los Berros, CA](https://None/service-areas/los-berros-ca/)
-- [Nipomo, CA](https://None/service-areas/nipomo-ca/)
-- [Oceano, CA](https://None/service-areas/oceano-ca/)
-- [San Luis Obispo, CA](https://None/service-areas/san-luis-obispo-ca/)
-- [Templeton, CA](https://None/service-areas/templeton-ca/)
-- [Santa Margarita, CA](https://None/service-areas/santa-margarita-ca/)
-- [Pismo Beach, CA](https://None/service-areas/pismo-beach-ca/)
-- [Morro Bay, CA](https://None/service-areas/morro-bay-ca/)
-- [Los Osos, CA](https://None/service-areas/los-osos-ca/)
-- [Edna, CA](https://None/service-areas/edna-ca/)
-- [Callender, CA](https://None/service-areas/callender-ca/)
-- [Blacklake, CA](https://None/service-areas/blacklake-ca/)
-- [Atascadero, CA](https://None/service-areas/atascadero-ca/)` / `Available on request` / `Greater Vandenberg Village region` | computed at scaffold from plan + brand | |
+| `/images/logo.webp` / `CR` | derived; logo lives on the per-client R2 bucket | |
+| `https://images.callcrs.com` | `https://images.{domain}` | |
+| `- [Biohazard Cleanup](https://callcrs.com/services/biohazard-cleanup/)
+- [Contents Restoration and Storage](https://callcrs.com/services/contents-restoration/)
+- [Contents Restoration & Storage](https://callcrs.com/services/contents-restoration-storage/)
+- [Crawl Space Encapsulation](https://callcrs.com/services/crawl-space-encapsulation/)
+- [Emergency Board-Up and Tarping](https://callcrs.com/services/emergency-board-up-tarping/)
+- [Fire Damage Restoration](https://callcrs.com/services/fire-damage-restoration/)
+- [Mold Remediation](https://callcrs.com/services/mold-remediation/)
+- [Odor Removal and Deodorization](https://callcrs.com/services/odor-removal/)
+- [Post-Construction and Specialty Cleaning](https://callcrs.com/services/post-construction-cleaning/)
+- [Sewage Cleanup and Sanitization](https://callcrs.com/services/sewage-cleanup/)
+- [Storm Damage Restoration](https://callcrs.com/services/storm-damage-restoration/)
+- [Vandalism Cleanup](https://callcrs.com/services/vandalism-cleanup/)
+- [Water Damage Restoration](https://callcrs.com/services/water-damage-restoration/)` / `- [Vandenberg Village, CA](https://callcrs.com/service-areas/vandenberg-village-ca/)
+- [Santa Maria, CA](https://callcrs.com/service-areas/santa-maria-ca/)
+- [Orcutt, CA](https://callcrs.com/service-areas/orcutt-ca/)
+- [Los Alamos, CA](https://callcrs.com/service-areas/los-alamos-ca/)
+- [Lompoc, CA](https://callcrs.com/service-areas/lompoc-ca/)
+- [Los Olivos, CA](https://callcrs.com/service-areas/los-olivos-ca/)
+- [Mission Hills, CA](https://callcrs.com/service-areas/mission-hills-ca/)
+- [Santa Ynez, CA](https://callcrs.com/service-areas/santa-ynez-ca/)
+- [Solvang, CA](https://callcrs.com/service-areas/solvang-ca/)
+- [Vandenberg AFB, CA](https://callcrs.com/service-areas/vandenberg-afb-ca/)
+- [Guadalupe, CA](https://callcrs.com/service-areas/guadalupe-ca/)
+- [Buellton, CA](https://callcrs.com/service-areas/buellton-ca/)
+- [Ballard, CA](https://callcrs.com/service-areas/ballard-ca/)
+- [Arroyo Grande, CA](https://callcrs.com/service-areas/arroyo-grande-ca/)
+- [Avila Beach, CA](https://callcrs.com/service-areas/avila-beach-ca/)
+- [Cambria, CA](https://callcrs.com/service-areas/cambria-ca/)
+- [El Paso de Robles, CA](https://callcrs.com/service-areas/el-paso-de-robles-ca/)
+- [Grover Beach, CA](https://callcrs.com/service-areas/grover-beach-ca/)
+- [Los Berros, CA](https://callcrs.com/service-areas/los-berros-ca/)
+- [Nipomo, CA](https://callcrs.com/service-areas/nipomo-ca/)
+- [Oceano, CA](https://callcrs.com/service-areas/oceano-ca/)
+- [San Luis Obispo, CA](https://callcrs.com/service-areas/san-luis-obispo-ca/)
+- [Templeton, CA](https://callcrs.com/service-areas/templeton-ca/)
+- [Santa Margarita, CA](https://callcrs.com/service-areas/santa-margarita-ca/)
+- [Pismo Beach, CA](https://callcrs.com/service-areas/pismo-beach-ca/)
+- [Morro Bay, CA](https://callcrs.com/service-areas/morro-bay-ca/)
+- [Los Osos, CA](https://callcrs.com/service-areas/los-osos-ca/)
+- [Edna, CA](https://callcrs.com/service-areas/edna-ca/)
+- [Callender, CA](https://callcrs.com/service-areas/callender-ca/)
+- [Blacklake, CA](https://callcrs.com/service-areas/blacklake-ca/)
+- [Atascadero, CA](https://callcrs.com/service-areas/atascadero-ca/)` / `I, I, C, R, C,  , C, e, r, t, i, f, i, e, d,  , F, i, r, m, ;,  , W, R, T,  , (, W, a, t, e, r,  , D, a, m, a, g, e,  , R, e, s, t, o, r, a, t, i, o, n,  , T, e, c, h, n, i, c, i, a, n, ), ;,  , A, S, D,  , (, A, p, p, l, i, e, d,  , S, t, r, u, c, t, u, r, a, l,  , D, r, y, i, n, g, )` / `Greater Vandenberg Village region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

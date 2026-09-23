@@ -35,15 +35,16 @@
     "dark_color": "#16181d"
   },
   "services": [
-    "water-damage-restoration",
-    "fire-damage-restoration",
-    "mold-remediation",
     "contents-restoration-storage",
+    "emergency-board-up-tarping",
+    "emergency-plumbing",
+    "fire-damage-restoration",
     "general-contracting",
+    "mold-remediation",
+    "sewage-cleanup",
     "storm-damage-restoration",
     "water-cleanup",
-    "sewage-cleanup",
-    "emergency-board-up-tarping"
+    "water-damage-restoration"
   ],
   "service_areas": [
     {

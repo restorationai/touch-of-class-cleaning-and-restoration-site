@@ -8,7 +8,7 @@ secondary_keywords: ["roof leak cleanup", "ceiling water damage", "attic water d
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "64032316be784a36"
-generated_at: "2026-09-20T14:13:23.245891+00:00"
+generated_at: "2026-09-23T14:11:54.124231+00:00"
 manual_override: false
 internal_links: ["/services/roof-leak-repair/", "/service-areas/algona-wa/", "/service-areas/algona-wa/fire-damage-restoration/", "/service-areas/algona-wa/mold-remediation/", "/service-areas/auburn-wa/roof-leak-repair/", "/service-areas/bellevue-wa/roof-leak-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Algona", "url": "/service-areas/algona-wa/"}, {"name": "Roof Leak Cleanup and Repair"}]

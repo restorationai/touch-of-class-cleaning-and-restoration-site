@@ -7,10 +7,10 @@ primary_keyword: "restoration services somis"
 secondary_keywords: ["somis restoration company", "damage restoration somis", "somis disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "bea548e30d529619"
-generated_at: "2026-09-20T14:12:59.573084+00:00"
+plan_hash: "7a7ed327f294d883"
+generated_at: "2026-09-23T14:11:28.104481+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/somis-ca/mold-remediation/", "/service-areas/somis-ca/water-damage-restoration/", "/service-areas/somis-ca/storm-damage-restoration/", "/service-areas/somis-ca/water-cleanup/", "/service-areas/somis-ca/contents-restoration/", "/service-areas/somis-ca/crawl-space-encapsulation/", "/service-areas/camarillo-ca/", "/service-areas/fillmore-ca/", "/service-areas/mira-monte-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/somis-ca/mold-remediation/", "/service-areas/somis-ca/water-damage-restoration/", "/service-areas/somis-ca/storm-damage-restoration/", "/service-areas/somis-ca/water-cleanup/", "/service-areas/somis-ca/odor-removal/", "/service-areas/somis-ca/contents-restoration-storage/", "/service-areas/somis-ca/contents-restoration/", "/service-areas/somis-ca/crawl-space-encapsulation/", "/service-areas/camarillo-ca/", "/service-areas/carpinteria-ca/", "/service-areas/castaic-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Somis"}]
 faq: []
 area_slug: "somis-ca"

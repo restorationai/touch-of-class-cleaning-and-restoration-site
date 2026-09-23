@@ -7,10 +7,10 @@ primary_keyword: "frozen pipe restoration lindon"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"
 priority: 4.9
-plan_hash: "1c6eab2ea384c5bd"
-generated_at: "2026-09-20T14:13:18.726522+00:00"
+plan_hash: "fdd9a29786693e12"
+generated_at: "2026-09-23T14:11:49.746196+00:00"
 manual_override: false
-internal_links: ["/services/frozen-pipe-restoration/", "/service-areas/lindon-ut/", "/service-areas/lindon-ut/fire-damage-restoration/", "/service-areas/lindon-ut/mold-remediation/", "/service-areas/american-fork-ut/frozen-pipe-restoration/", "/service-areas/cedar-fort-ut/frozen-pipe-restoration/", "/contact/"]
+internal_links: ["/services/frozen-pipe-restoration/", "/service-areas/lindon-ut/", "/service-areas/lindon-ut/fire-damage-restoration/", "/service-areas/lindon-ut/mold-remediation/", "/service-areas/alpine-ut/frozen-pipe-restoration/", "/service-areas/american-fork-ut/frozen-pipe-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lindon", "url": "/service-areas/lindon-ut/"}, {"name": "Frozen Pipe Restoration"}]
 faq: []
 area_slug: "lindon-ut"

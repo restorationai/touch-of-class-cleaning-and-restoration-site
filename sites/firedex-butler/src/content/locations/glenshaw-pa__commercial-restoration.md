@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "a4cb6ae9a1a161ef"
-generated_at: "2026-09-21T19:18:40.347521+00:00"
+generated_at: "2026-09-23T14:11:40.961564+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/glenshaw-pa/", "/service-areas/glenshaw-pa/fire-damage-restoration/", "/service-areas/glenshaw-pa/mold-remediation/", "/service-areas/aliquippa-pa/commercial-restoration/", "/service-areas/allison-park-pa/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Glenshaw", "url": "/service-areas/glenshaw-pa/"}, {"name": "Commercial Restoration"}]

@@ -37,23 +37,25 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `Ventura` / `CA` | derived from primary area | `Federal Way` / `WA` |
 | `363 mackay ave ` / `93004` | brand.street_address / brand.postal_code | |
 | `34.4458248` / `-119.0779359` | brand.lat / brand.lng | from GBP |
-| `` / `` | brand.place_id / brand.google_cid | from GBP |
+| `ChIJx7cmNM8b-ioRFlPXDWY8C-A` / `` | brand.place_id / brand.google_cid | from GBP |
 | `[]` | brand.license_numbers (JSON-encoded array) | `["NATIORC792M6"]` |
 | `` / `` | brand.license_authority / brand.license_type | |
 | `["IICRC WRT (WATER)", "IICRC AMRT (MOLD)", "IICRC ASD (STRUCTURAL DRYING)", "IICRC CERTIFIED FIRM", "OSHA TRAINED"]` | brand.certifications (JSON-encoded array) | `["IICRC", "BBB Accredited"]` |
 | `[]` | brand.same_as_urls (JSON-encoded array) | |
 | `` / `` | from GBP | `5.0` / `31` |
 | `24/7 restoration services in Ventura, CA.` | brand.tagline | short marketing line |
-| `#dc2626` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
+| `#171717` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
 | `Inter` / `Inter` | brand.fonts | `Inter` / `Inter` |
-| `/images/logo.png` / `CR` | derived; logo lives on the per-client R2 bucket | |
+| `/images/logo.webp` / `CR` | derived; logo lives on the per-client R2 bucket | |
 | `https://images.californiarestorationwest.com` | `https://images.{domain}` | |
-| `- [Water Damage Restoration](https://californiarestorationwest.com/services/water-damage-restoration/)
-- [Mold Remediation](https://californiarestorationwest.com/services/mold-remediation/)
-- [Storm Damage Restoration](https://californiarestorationwest.com/services/storm-damage-restoration/)
-- [Contents Restoration and Storage](https://californiarestorationwest.com/services/contents-restoration/)
+| `- [Contents Restoration and Storage](https://californiarestorationwest.com/services/contents-restoration/)
+- [Contents Restoration & Storage](https://californiarestorationwest.com/services/contents-restoration-storage/)
 - [Crawl Space Encapsulation](https://californiarestorationwest.com/services/crawl-space-encapsulation/)
-- [Water Cleanup](https://californiarestorationwest.com/services/water-cleanup/)` / `- [Ventura, CA](https://californiarestorationwest.com/service-areas/ventura-ca/)
+- [Mold Remediation](https://californiarestorationwest.com/services/mold-remediation/)
+- [Odor Removal and Deodorization](https://californiarestorationwest.com/services/odor-removal/)
+- [Storm Damage Restoration](https://californiarestorationwest.com/services/storm-damage-restoration/)
+- [Emergency Water Cleanup](https://californiarestorationwest.com/services/water-cleanup/)
+- [Water Damage Restoration](https://californiarestorationwest.com/services/water-damage-restoration/)` / `- [Ventura, CA](https://californiarestorationwest.com/service-areas/ventura-ca/)
 - [Oxnard, CA](https://californiarestorationwest.com/service-areas/oxnard-ca/)
 - [Thousand Oaks, CA](https://californiarestorationwest.com/service-areas/thousand-oaks-ca/)
 - [Simi Valley, CA](https://californiarestorationwest.com/service-areas/simi-valley-ca/)
@@ -61,7 +63,19 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 - [Santa Paula, CA](https://californiarestorationwest.com/service-areas/santa-paula-ca/)
 - [Port Hueneme, CA](https://californiarestorationwest.com/service-areas/port-hueneme-ca/)
 - [Ojai, CA](https://californiarestorationwest.com/service-areas/ojai-ca/)
-- [Fillmore, CA](https://californiarestorationwest.com/service-areas/fillmore-ca/)` / `IICRC WRT (WATER), IICRC AMRT (MOLD), IICRC ASD (STRUCTURAL DRYING), IICRC CERTIFIED FIRM, OSHA TRAINED` / `Greater Ventura region` | computed at scaffold from plan + brand | |
+- [Fillmore, CA](https://californiarestorationwest.com/service-areas/fillmore-ca/)
+- [Mira Monte, CA](https://californiarestorationwest.com/service-areas/mira-monte-ca/)
+- [Oak View, CA](https://californiarestorationwest.com/service-areas/oak-view-ca/)
+- [Somis, CA](https://californiarestorationwest.com/service-areas/somis-ca/)
+- [San Buenaventura (Ventura), CA](https://californiarestorationwest.com/service-areas/san-buenaventura-ventura-ca/)
+- [Moorpark, CA](https://californiarestorationwest.com/service-areas/moorpark-ca/)
+- [Santa Rosa Valley, CA](https://californiarestorationwest.com/service-areas/santa-rosa-valley-ca/)
+- [Piru, CA](https://californiarestorationwest.com/service-areas/piru-ca/)
+- [Hasley Canyon, CA](https://californiarestorationwest.com/service-areas/hasley-canyon-ca/)
+- [Lake Sherwood, CA](https://californiarestorationwest.com/service-areas/lake-sherwood-ca/)
+- [Carpinteria, CA](https://californiarestorationwest.com/service-areas/carpinteria-ca/)
+- [Castaic, CA](https://californiarestorationwest.com/service-areas/castaic-ca/)
+- [Oak Park, CA](https://californiarestorationwest.com/service-areas/oak-park-ca/)` / `IICRC WRT (WATER), IICRC AMRT (MOLD), IICRC ASD (STRUCTURAL DRYING), IICRC CERTIFIED FIRM, OSHA TRAINED` / `Greater Ventura region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

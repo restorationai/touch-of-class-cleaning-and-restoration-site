@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "aedda3eb5d374cff"
-generated_at: "2026-09-20T20:42:00.528109+00:00"
+generated_at: "2026-09-23T14:11:54.174436+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/normandy-park-wa/", "/service-areas/normandy-park-wa/fire-damage-restoration/", "/service-areas/normandy-park-wa/mold-remediation/", "/service-areas/algona-wa/burst-pipe-repair/", "/service-areas/auburn-wa/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Normandy Park", "url": "/service-areas/normandy-park-wa/"}, {"name": "Burst Pipe Cleanup and Repair"}]

@@ -7,10 +7,10 @@ primary_keyword: "home remodeling decatur"
 secondary_keywords: ["home renovation", "whole home remodel", "interior remodeling contractor", "house renovation contractor", "remodeling company"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "92cee2abab68329f"
-generated_at: "2026-09-22T18:09:59.774527+00:00"
+plan_hash: "5a9d429e7c9afaec"
+generated_at: "2026-09-23T14:11:32.874574+00:00"
 manual_override: false
-internal_links: ["/services/home-remodeling/", "/service-areas/decatur-al/", "/service-areas/decatur-al/roofing/", "/service-areas/decatur-al/decks-pergolas-fences/", "/service-areas/ardmore-al/home-remodeling/", "/service-areas/athens-al/home-remodeling/", "/contact/"]
+internal_links: ["/services/home-remodeling/", "/service-areas/decatur-al/", "/service-areas/decatur-al/roofing/", "/service-areas/decatur-al/decks-pergolas-fences/", "/service-areas/arab-al/home-remodeling/", "/service-areas/ardmore-al/home-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Decatur", "url": "/service-areas/decatur-al/"}, {"name": "Home Remodeling"}]
 faq: []
 area_slug: "decatur-al"

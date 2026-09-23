@@ -9,18 +9,21 @@ Air Care Restoration (Air Care Restoration) is a professional restoration contra
 This file is intended for AI assistants and language models to efficiently ingest the structure and content of this website. The full list of pages is in the sitemap at https://aircarerestoration.com/sitemap-index.xml.
 
 ### Core service pages
-- [Water Damage Restoration](https://aircarerestoration.com/services/water-damage-restoration/)
-- [Water Cleanup](https://aircarerestoration.com/services/water-cleanup/)
-- [Storm Damage Restoration](https://aircarerestoration.com/services/storm-damage-restoration/)
 - [Air Duct Cleaning](https://aircarerestoration.com/services/air-duct-cleaning/)
-- [Fire Damage Restoration](https://aircarerestoration.com/services/fire-damage-restoration/)
-- [Renovations, Remodels and General Contracting](https://aircarerestoration.com/services/general-contracting/)
-- [Sewage Cleanup and Sanitization](https://aircarerestoration.com/services/sewage-cleanup/)
+- [Asbestos Abatement](https://aircarerestoration.com/services/asbestos-abatement/)
 - [Biohazard Cleanup](https://aircarerestoration.com/services/biohazard-cleanup/)
 - [Contents Restoration and Storage](https://aircarerestoration.com/services/contents-restoration/)
-- [Post-Construction and Specialty Cleaning](https://aircarerestoration.com/services/post-construction-cleaning/)
+- [Contents Restoration & Storage](https://aircarerestoration.com/services/contents-restoration-storage/)
 - [Emergency Board-Up and Tarping](https://aircarerestoration.com/services/emergency-board-up-tarping/)
+- [Fire Damage Restoration](https://aircarerestoration.com/services/fire-damage-restoration/)
+- [Renovations, Remodels and General Contracting](https://aircarerestoration.com/services/general-contracting/)
 - [Mold Remediation](https://aircarerestoration.com/services/mold-remediation/)
+- [Odor Removal and Deodorization](https://aircarerestoration.com/services/odor-removal/)
+- [Post-Construction and Specialty Cleaning](https://aircarerestoration.com/services/post-construction-cleaning/)
+- [Sewage Cleanup and Sanitization](https://aircarerestoration.com/services/sewage-cleanup/)
+- [Storm Damage Restoration](https://aircarerestoration.com/services/storm-damage-restoration/)
+- [Emergency Water Cleanup](https://aircarerestoration.com/services/water-cleanup/)
+- [Water Damage Restoration](https://aircarerestoration.com/services/water-damage-restoration/)
 
 ### Service area pages
 - [Abilene, TX](https://aircarerestoration.com/service-areas/abilene-tx/)
@@ -39,18 +42,33 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Bronte, TX](https://aircarerestoration.com/service-areas/bronte-tx/)
 - [Eden, TX](https://aircarerestoration.com/service-areas/eden-tx/)
 - [Paint Rock, TX](https://aircarerestoration.com/service-areas/paint-rock-tx/)
+- [San Angelo, TX](https://aircarerestoration.com/service-areas/san-angelo-tx/)
+- [Snyder, TX](https://aircarerestoration.com/service-areas/snyder-tx/)
+- [Coleman, TX](https://aircarerestoration.com/service-areas/coleman-tx/)
+- [Ballinger, TX](https://aircarerestoration.com/service-areas/ballinger-tx/)
+- [Haskell, TX](https://aircarerestoration.com/service-areas/haskell-tx/)
+- [Albany, TX](https://aircarerestoration.com/service-areas/albany-tx/)
+- [Eastland, TX](https://aircarerestoration.com/service-areas/eastland-tx/)
+- [Colorado City, TX](https://aircarerestoration.com/service-areas/colorado-city-tx/)
+- [Comanche, TX](https://aircarerestoration.com/service-areas/comanche-tx/)
+- [Potosi, TX](https://aircarerestoration.com/service-areas/potosi-tx/)
+- [Hawley, TX](https://aircarerestoration.com/service-areas/hawley-tx/)
+- [Baird, TX](https://aircarerestoration.com/service-areas/baird-tx/)
 
 ### Resources
 - [Blog](https://aircarerestoration.com/blog/): Restoration guides and local resources
 - [About](https://aircarerestoration.com/about/): Company background and credentials
 - [Contact](https://aircarerestoration.com/contact/): Phone, email, and service request form
+
+### Official profiles
+(profiles listed in page schema)
 - [Emergency](https://aircarerestoration.com/emergency/): 24/7 emergency water damage response
 
 ## Key facts
 
 - Rated 5.0/5 from 22 Google reviews
 - **Founded:** 2026
-- **Licenses:**  · 
+- **Licenses:** Texas Mold Remediation Contractor License · Texas Department of Licensing and Regulation
 - **Certifications:** IICRC CERTIFIED FIRM, OSHA TRAINED, IICRC WRT (WATER), IICRC FSRT (FIRE & SMOKE), EPA LEAD-SAFE CERTIFIED, MRC2262-RCO1798-TCST-HST-OCT
 - **Response time:** 24/7 emergency dispatch
 - **Emergency response:** 24/7 emergency dispatch in Abilene. Direct insurance billing. Call (325) 339-8723.

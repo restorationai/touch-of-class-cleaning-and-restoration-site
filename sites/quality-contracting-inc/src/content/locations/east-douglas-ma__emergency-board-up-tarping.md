@@ -7,10 +7,10 @@ primary_keyword: "emergency board-up and tarping east douglas"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
 priority: 4.9
-plan_hash: "41bd9253a3efdaf1"
-generated_at: "2026-09-20T14:13:32.573269+00:00"
+plan_hash: "996cee2a08f881de"
+generated_at: "2026-09-23T14:11:58.505172+00:00"
 manual_override: false
-internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/east-douglas-ma/", "/service-areas/east-douglas-ma/fire-damage-restoration/", "/service-areas/east-douglas-ma/mold-remediation/", "/service-areas/framingham-ma/emergency-board-up-tarping/", "/service-areas/hopkinton-ma/emergency-board-up-tarping/", "/contact/"]
+internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/east-douglas-ma/", "/service-areas/east-douglas-ma/fire-damage-restoration/", "/service-areas/east-douglas-ma/mold-remediation/", "/service-areas/bellingham-ma/emergency-board-up-tarping/", "/service-areas/fiskdale-ma/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "East Douglas", "url": "/service-areas/east-douglas-ma/"}, {"name": "Emergency Board-Up and Tarping"}]
 faq: []
 area_slug: "east-douglas-ma"

@@ -7,10 +7,10 @@ primary_keyword: "tile & grout cleaning highland"
 secondary_keywords: ["grout cleaning", "tile cleaning", "grout sealing", "grout restoration", "floor tile cleaning"]
 search_intent: "local_specialty"
 priority: 2.8
-plan_hash: "f20ea4fd3c3aa35d"
-generated_at: "2026-09-20T14:13:18.725313+00:00"
+plan_hash: "cd7fe23e07c8fd2d"
+generated_at: "2026-09-23T14:11:49.742067+00:00"
 manual_override: false
-internal_links: ["/services/tile-grout-cleaning/", "/service-areas/highland-ut/", "/service-areas/highland-ut/fire-damage-restoration/", "/service-areas/highland-ut/mold-remediation/", "/service-areas/american-fork-ut/tile-grout-cleaning/", "/service-areas/cedar-fort-ut/tile-grout-cleaning/", "/contact/"]
+internal_links: ["/services/tile-grout-cleaning/", "/service-areas/highland-ut/", "/service-areas/highland-ut/fire-damage-restoration/", "/service-areas/highland-ut/mold-remediation/", "/service-areas/alpine-ut/tile-grout-cleaning/", "/service-areas/american-fork-ut/tile-grout-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Highland", "url": "/service-areas/highland-ut/"}, {"name": "Tile & Grout Cleaning"}]
 faq: []
 area_slug: "highland-ut"

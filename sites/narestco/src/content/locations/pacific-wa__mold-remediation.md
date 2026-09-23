@@ -7,10 +7,10 @@ primary_keyword: "mold remediation pacific"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "b4235ba10b663df0"
-generated_at: "2026-09-20T14:13:23.254673+00:00"
+plan_hash: "88be183a6e7265a3"
+generated_at: "2026-09-23T14:11:54.141241+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/pacific-wa/", "/service-areas/pacific-wa/fire-damage-restoration/", "/service-areas/pacific-wa/water-damage-restoration/", "/service-areas/algona-wa/mold-remediation/", "/service-areas/auburn-wa/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/pacific-wa/", "/service-areas/pacific-wa/fire-damage-restoration/", "/service-areas/pacific-wa/roofing/", "/service-areas/algona-wa/mold-remediation/", "/service-areas/auburn-wa/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pacific", "url": "/service-areas/pacific-wa/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "pacific-wa"

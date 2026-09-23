@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "4a47c90978d763f0"
-generated_at: "2026-09-21T14:13:45.851479+00:00"
+generated_at: "2026-09-23T14:12:04.490781+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/lucas-tx/", "/service-areas/lucas-tx/fire-damage-restoration/", "/service-areas/lucas-tx/mold-remediation/", "/service-areas/allen-tx/general-contracting/", "/service-areas/caddo-mills-tx/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lucas", "url": "/service-areas/lucas-tx/"}, {"name": "Renovations, Remodels and General Contracting"}]

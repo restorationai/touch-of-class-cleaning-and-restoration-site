@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "c65d86c6586f8934"
-generated_at: "2026-09-22T14:27:31.946647+00:00"
+generated_at: "2026-09-23T14:11:40.976452+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/big-beaver-pa/", "/service-areas/big-beaver-pa/mold-remediation/", "/service-areas/big-beaver-pa/water-damage-restoration/", "/service-areas/aliquippa-pa/fire-damage-restoration/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Big Beaver", "url": "/service-areas/big-beaver-pa/"}, {"name": "Fire Damage Restoration"}]

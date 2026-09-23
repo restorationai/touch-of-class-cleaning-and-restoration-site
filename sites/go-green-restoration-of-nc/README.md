@@ -26,38 +26,59 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | --- | --- | --- |
 | `go-green-restoration-of-nc` | client record `slug` | `narestco` |
 | `Go Green Restoration of NC` | plan-input `brand.display_name` | `National Restoration Construction` |
-| `Go Green Restoration of NC` | plan-input `brand.short_name` | `NARESTCO` |
+| `Go Green Restoration` | plan-input `brand.short_name` | `NARESTCO` |
 | `Go Green Restoration of NC` | plan-input `brand.legal_name` | `National Restoration Construction LLC` |
-| `` | client record `domain` | `narestco.com` |
-| `https://None` | derived | `https://narestco.com` |
+| `gogreenrestorationofnc.com` | client record `domain` | `narestco.com` |
+| `https://gogreenrestorationofnc.com` | derived | `https://narestco.com` |
 | `(919) 906-5473` / `+19199065473` | brand.phone | `(206) 883-0333` / `+12068830333` |
 | `gogreenrestorationofnc@gmail.com` | brand.email | `info@narestco.com` |
 | `24/7` | brand.hours | `24/7` |
 | `` | brand.founded_year | `2004` |
 | `Middlesex` / `NC` | derived from primary area | `Federal Way` / `WA` |
-| `10805 w. NC Hwy 97 ` / `27557` | brand.street_address / brand.postal_code | |
+| `10805 w. NC Hwy 97` / `27557` | brand.street_address / brand.postal_code | |
 | `35.7888369` / `-78.2039124` | brand.lat / brand.lng | from GBP |
-| `` / `` | brand.place_id / brand.google_cid | from GBP |
+| `ChIJhWCvh9tJrIkRkCEs58UBIRw` / `` | brand.place_id / brand.google_cid | from GBP |
 | `[]` | brand.license_numbers (JSON-encoded array) | `["NATIORC792M6"]` |
 | `` / `` | brand.license_authority / brand.license_type | |
 | `[]` | brand.certifications (JSON-encoded array) | `["IICRC", "BBB Accredited"]` |
 | `[]` | brand.same_as_urls (JSON-encoded array) | |
 | `` / `` | from GBP | `5.0` / `31` |
 | `24/7 restoration services in Middlesex, NC.` | brand.tagline | short marketing line |
-| `#dc2626` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
+| `#15803d` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
 | `Inter` / `Inter` | brand.fonts | `Inter` / `Inter` |
-| `https://images.None/brand/logo.png` / `GA` | derived; logo lives on the per-client R2 bucket | |
-| `https://images.None` | `https://images.{domain}` | |
-| `- [Water Damage Restoration](https://None/services/water-damage-restoration/)
-- [Mold Remediation](https://None/services/mold-remediation/)
-- [Crawl Space Encapsulation](https://None/services/crawl-space-encapsulation/)` / `- [Middlesex, NC](https://None/service-areas/middlesex-nc/)
-- [Raleigh, NC](https://None/service-areas/raleigh-nc/)
-- [Durham, NC](https://None/service-areas/durham-nc/)
-- [Rocky Mount, NC](https://None/service-areas/rocky-mount-nc/)
-- [Wilson, NC](https://None/service-areas/wilson-nc/)
-- [Smithfield, NC](https://None/service-areas/smithfield-nc/)
-- [Wake Forest, NC](https://None/service-areas/wake-forest-nc/)
-- [Zebulon, NC](https://None/service-areas/zebulon-nc/)` / `Available on request` / `Greater Middlesex region` | computed at scaffold from plan + brand | |
+| `/images/logo.png` / `GG` | derived; logo lives on the per-client R2 bucket | |
+| `https://images.gogreenrestorationofnc.com` | `https://images.{domain}` | |
+| `- [Air Duct Cleaning](https://gogreenrestorationofnc.com/services/air-duct-cleaning/)
+- [Biohazard Cleanup](https://gogreenrestorationofnc.com/services/biohazard-cleanup/)
+- [Carpet Cleaning](https://gogreenrestorationofnc.com/services/carpet-cleaning/)
+- [Crawl Space Encapsulation](https://gogreenrestorationofnc.com/services/crawl-space-encapsulation/)
+- [Fire Damage Restoration](https://gogreenrestorationofnc.com/services/fire-damage-restoration/)
+- [Insulation Removal & Installation](https://gogreenrestorationofnc.com/services/insulation-removal-installation/)
+- [Mold Remediation](https://gogreenrestorationofnc.com/services/mold-remediation/)
+- [Odor Removal and Deodorization](https://gogreenrestorationofnc.com/services/odor-removal/)
+- [Water Damage Restoration](https://gogreenrestorationofnc.com/services/water-damage-restoration/)` / `- [Middlesex, NC](https://gogreenrestorationofnc.com/service-areas/middlesex-nc/)
+- [Raleigh, NC](https://gogreenrestorationofnc.com/service-areas/raleigh-nc/)
+- [Durham, NC](https://gogreenrestorationofnc.com/service-areas/durham-nc/)
+- [Rocky Mount, NC](https://gogreenrestorationofnc.com/service-areas/rocky-mount-nc/)
+- [Wilson, NC](https://gogreenrestorationofnc.com/service-areas/wilson-nc/)
+- [Smithfield, NC](https://gogreenrestorationofnc.com/service-areas/smithfield-nc/)
+- [Wake Forest, NC](https://gogreenrestorationofnc.com/service-areas/wake-forest-nc/)
+- [Zebulon, NC](https://gogreenrestorationofnc.com/service-areas/zebulon-nc/)
+- [Wendell, NC](https://gogreenrestorationofnc.com/service-areas/wendell-nc/)
+- [Archer Lodge, NC](https://gogreenrestorationofnc.com/service-areas/archer-lodge-nc/)
+- [Lake Royale, NC](https://gogreenrestorationofnc.com/service-areas/lake-royale-nc/)
+- [Spring Hope, NC](https://gogreenrestorationofnc.com/service-areas/spring-hope-nc/)
+- [Kenly, NC](https://gogreenrestorationofnc.com/service-areas/kenly-nc/)
+- [Clayton, NC](https://gogreenrestorationofnc.com/service-areas/clayton-nc/)
+- [Knightdale, NC](https://gogreenrestorationofnc.com/service-areas/knightdale-nc/)
+- [Wilson's Mills, NC](https://gogreenrestorationofnc.com/service-areas/wilson-s-mills-nc/)
+- [Rolesville, NC](https://gogreenrestorationofnc.com/service-areas/rolesville-nc/)
+- [Selma, NC](https://gogreenrestorationofnc.com/service-areas/selma-nc/)
+- [Nashville, NC](https://gogreenrestorationofnc.com/service-areas/nashville-nc/)
+- [Elm City, NC](https://gogreenrestorationofnc.com/service-areas/elm-city-nc/)
+- [Pine Level, NC](https://gogreenrestorationofnc.com/service-areas/pine-level-nc/)
+- [Louisburg, NC](https://gogreenrestorationofnc.com/service-areas/louisburg-nc/)
+- [Youngsville, NC](https://gogreenrestorationofnc.com/service-areas/youngsville-nc/)` / `Available on request` / `Greater Middlesex region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

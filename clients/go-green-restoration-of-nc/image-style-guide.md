@@ -185,7 +185,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Fire Damage Restoration, Mold Remediation, Crawl Space Encapsulation, Air Duct Cleaning, Carpet Cleaning, Insulation Removal & Installation, Emergency Water Cleanup)
+- [ ] (continue for each of Air Duct Cleaning, Biohazard Cleanup, Carpet Cleaning, Crawl Space Encapsulation, Fire Damage Restoration, Insulation Removal & Installation, Mold Remediation, Odor Removal and Deodorization, Water Damage Restoration, Emergency Water Cleanup)
 
 ### Service area pages (one image per city served)
 - [ ] Middlesex hero — exterior shot, regional housing stock, evocative of the city

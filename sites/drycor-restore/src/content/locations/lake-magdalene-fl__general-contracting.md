@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "75f4a3acc350a3da"
-generated_at: "2026-09-20T14:13:08.049713+00:00"
+generated_at: "2026-09-23T14:11:38.314701+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/lake-magdalene-fl/", "/service-areas/lake-magdalene-fl/fire-damage-restoration/", "/service-areas/lake-magdalene-fl/mold-remediation/", "/service-areas/anna-maria-fl/general-contracting/", "/service-areas/apollo-beach-fl/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Magdalene", "url": "/service-areas/lake-magdalene-fl/"}, {"name": "Renovations, Remodels and General Contracting"}]

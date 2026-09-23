@@ -35,46 +35,65 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `24/7` | brand.hours | `24/7` |
 | `1997` | brand.founded_year | `2004` |
 | `Saratoga Springs` / `UT` | derived from primary area | `Federal Way` / `WA` |
-| `` / `` | brand.street_address / brand.postal_code | |
-| `` / `` | brand.lat / brand.lng | from GBP |
-| `` / `` | brand.place_id / brand.google_cid | from GBP |
+| `78 W Wildflower Dr` / `84045` | brand.street_address / brand.postal_code | |
+| `40.31172` / `-111.89406` | brand.lat / brand.lng | from GBP |
+| `ChIJGzr1iePDLCsR1fkC5O33F10` / `6708102771096353237` | brand.place_id / brand.google_cid | from GBP |
 | `["RC-25-0737"]` | brand.license_numbers (JSON-encoded array) | `["NATIORC792M6"]` |
 | `` / `` | brand.license_authority / brand.license_type | |
 | `["IICRC Certified"]` | brand.certifications (JSON-encoded array) | `["IICRC", "BBB Accredited"]` |
 | `[]` | brand.same_as_urls (JSON-encoded array) | |
 | `` / `` | from GBP | `5.0` / `31` |
 | `24/7 restoration services in Saratoga Springs, UT.` | brand.tagline | short marketing line |
-| `#dc2626` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
+| `#171717` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
 | `Inter` / `Inter` | brand.fonts | `Inter` / `Inter` |
-| `https://images.homepriderestorationandcleaning.com/brand/logo.png` / `HP` | derived; logo lives on the per-client R2 bucket | |
+| `/images/logo.png` / `HP` | derived; logo lives on the per-client R2 bucket | |
 | `https://images.homepriderestorationandcleaning.com` | `https://images.{domain}` | |
-| `- Water Damage Restoration: https://homepriderestorationandcleaning.com/services/water-damage-restoration/
-- Burst Pipe Cleanup and Repair: https://homepriderestorationandcleaning.com/services/burst-pipe-repair/
-- Frozen Pipe Restoration: https://homepriderestorationandcleaning.com/services/frozen-pipe-restoration/
-- Appliance Leak Cleanup: https://homepriderestorationandcleaning.com/services/appliance-leak-cleanup/
-- Basement Flooding Cleanup: https://homepriderestorationandcleaning.com/services/basement-flooding-cleanup/
-- Roof Leak Cleanup and Repair: https://homepriderestorationandcleaning.com/services/roof-leak-repair/
-- Sewage Cleanup and Sanitization: https://homepriderestorationandcleaning.com/services/sewage-cleanup/
-- Storm Damage Restoration: https://homepriderestorationandcleaning.com/services/storm-damage-restoration/
-- Fire Damage Restoration: https://homepriderestorationandcleaning.com/services/fire-damage-restoration/
-- Smoke Damage Restoration: https://homepriderestorationandcleaning.com/services/smoke-damage-restoration/
-- Mold Remediation: https://homepriderestorationandcleaning.com/services/mold-remediation/
-- Mold Inspection and Testing: https://homepriderestorationandcleaning.com/services/mold-inspection-testing/
-- Carpet Cleaning: https://homepriderestorationandcleaning.com/services/carpet-cleaning/
-- Odor Removal and Deodorization: https://homepriderestorationandcleaning.com/services/odor-removal/
-- Upholstery Cleaning: https://homepriderestorationandcleaning.com/services/upholstery-cleaning/
-- Tile & Grout Cleaning: https://homepriderestorationandcleaning.com/services/tile-grout-cleaning/
-- Fabric Protection: https://homepriderestorationandcleaning.com/services/fabric-protection/
-- Junk & Debris Removal: https://homepriderestorationandcleaning.com/services/junk-debris-removal/` / `- Saratoga Springs, UT: https://homepriderestorationandcleaning.com/service-areas/saratoga-springs-ut/
-- Lehi, UT: https://homepriderestorationandcleaning.com/service-areas/lehi-ut/
-- Eagle Mountain, UT: https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/
-- American Fork, UT: https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/
-- Pleasant Grove, UT: https://homepriderestorationandcleaning.com/service-areas/pleasant-grove-ut/
-- Orem, UT: https://homepriderestorationandcleaning.com/service-areas/orem-ut/
-- Provo, UT: https://homepriderestorationandcleaning.com/service-areas/provo-ut/
-- Herriman, UT: https://homepriderestorationandcleaning.com/service-areas/herriman-ut/
-- South Jordan, UT: https://homepriderestorationandcleaning.com/service-areas/south-jordan-ut/
-- Riverton, UT: https://homepriderestorationandcleaning.com/service-areas/riverton-ut/` / `IICRC Certified` / `Greater Saratoga Springs region` | computed at scaffold from plan + brand | |
+| `- [Appliance Leak Cleanup](https://homepriderestorationandcleaning.com/services/appliance-leak-cleanup/)
+- [Basement Flooding Cleanup](https://homepriderestorationandcleaning.com/services/basement-flooding-cleanup/)
+- [Biohazard Cleanup](https://homepriderestorationandcleaning.com/services/biohazard-cleanup/)
+- [Burst Pipe Cleanup and Repair](https://homepriderestorationandcleaning.com/services/burst-pipe-repair/)
+- [Carpet Cleaning](https://homepriderestorationandcleaning.com/services/carpet-cleaning/)
+- [Crawl Space Encapsulation](https://homepriderestorationandcleaning.com/services/crawl-space-encapsulation/)
+- [Emergency Board-Up and Tarping](https://homepriderestorationandcleaning.com/services/emergency-board-up-tarping/)
+- [Fabric Protection](https://homepriderestorationandcleaning.com/services/fabric-protection/)
+- [Fire Damage Restoration](https://homepriderestorationandcleaning.com/services/fire-damage-restoration/)
+- [Frozen Pipe Restoration](https://homepriderestorationandcleaning.com/services/frozen-pipe-restoration/)
+- [Hoarding Cleanup](https://homepriderestorationandcleaning.com/services/hoarding-cleanup/)
+- [Junk & Debris Removal](https://homepriderestorationandcleaning.com/services/junk-debris-removal/)
+- [Mold Inspection and Testing](https://homepriderestorationandcleaning.com/services/mold-inspection-testing/)
+- [Mold Remediation](https://homepriderestorationandcleaning.com/services/mold-remediation/)
+- [Odor Removal and Deodorization](https://homepriderestorationandcleaning.com/services/odor-removal/)
+- [Post-Construction and Specialty Cleaning](https://homepriderestorationandcleaning.com/services/post-construction-cleaning/)
+- [Roof Leak Cleanup and Repair](https://homepriderestorationandcleaning.com/services/roof-leak-repair/)
+- [Sewage Cleanup and Sanitization](https://homepriderestorationandcleaning.com/services/sewage-cleanup/)
+- [Smoke Damage Restoration](https://homepriderestorationandcleaning.com/services/smoke-damage-restoration/)
+- [Storm Damage Restoration](https://homepriderestorationandcleaning.com/services/storm-damage-restoration/)
+- [Tile & Grout Cleaning](https://homepriderestorationandcleaning.com/services/tile-grout-cleaning/)
+- [Upholstery Cleaning](https://homepriderestorationandcleaning.com/services/upholstery-cleaning/)
+- [Water Damage Restoration](https://homepriderestorationandcleaning.com/services/water-damage-restoration/)
+- [Water Leak Detection](https://homepriderestorationandcleaning.com/services/water-leak-detection/)` / `- [Saratoga Springs, UT](https://homepriderestorationandcleaning.com/service-areas/saratoga-springs-ut/)
+- [Lehi, UT](https://homepriderestorationandcleaning.com/service-areas/lehi-ut/)
+- [Eagle Mountain, UT](https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/)
+- [American Fork, UT](https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/)
+- [Pleasant Grove, UT](https://homepriderestorationandcleaning.com/service-areas/pleasant-grove-ut/)
+- [Orem, UT](https://homepriderestorationandcleaning.com/service-areas/orem-ut/)
+- [Provo, UT](https://homepriderestorationandcleaning.com/service-areas/provo-ut/)
+- [Herriman, UT](https://homepriderestorationandcleaning.com/service-areas/herriman-ut/)
+- [South Jordan, UT](https://homepriderestorationandcleaning.com/service-areas/south-jordan-ut/)
+- [Riverton, UT](https://homepriderestorationandcleaning.com/service-areas/riverton-ut/)
+- [Heber City, UT](https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/)
+- [Park City, UT](https://homepriderestorationandcleaning.com/service-areas/park-city-ut/)
+- [Vineyard, UT](https://homepriderestorationandcleaning.com/service-areas/vineyard-ut/)
+- [Highland, UT](https://homepriderestorationandcleaning.com/service-areas/highland-ut/)
+- [Lindon, UT](https://homepriderestorationandcleaning.com/service-areas/lindon-ut/)
+- [Fairfield, UT](https://homepriderestorationandcleaning.com/service-areas/fairfield-ut/)
+- [Cedar Hills, UT](https://homepriderestorationandcleaning.com/service-areas/cedar-hills-ut/)
+- [Cedar Fort, UT](https://homepriderestorationandcleaning.com/service-areas/cedar-fort-ut/)
+- [Bluffdale, UT](https://homepriderestorationandcleaning.com/service-areas/bluffdale-ut/)
+- [Alpine, UT](https://homepriderestorationandcleaning.com/service-areas/alpine-ut/)
+- [Draper, UT](https://homepriderestorationandcleaning.com/service-areas/draper-ut/)
+- [Lake Shore, UT](https://homepriderestorationandcleaning.com/service-areas/lake-shore-ut/)
+- [Benjamin, UT](https://homepriderestorationandcleaning.com/service-areas/benjamin-ut/)` / `IICRC Certified` / `Greater Saratoga Springs region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

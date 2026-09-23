@@ -7,10 +7,10 @@ primary_keyword: "appliance leak cleanup cedar hills"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
 priority: 4.2
-plan_hash: "b6a43a669507503c"
-generated_at: "2026-09-20T14:13:18.733365+00:00"
+plan_hash: "897775d2ead02864"
+generated_at: "2026-09-23T14:11:49.758346+00:00"
 manual_override: false
-internal_links: ["/services/appliance-leak-cleanup/", "/service-areas/cedar-hills-ut/", "/service-areas/cedar-hills-ut/fire-damage-restoration/", "/service-areas/cedar-hills-ut/mold-remediation/", "/service-areas/american-fork-ut/appliance-leak-cleanup/", "/service-areas/cedar-fort-ut/appliance-leak-cleanup/", "/contact/"]
+internal_links: ["/services/appliance-leak-cleanup/", "/service-areas/cedar-hills-ut/", "/service-areas/cedar-hills-ut/fire-damage-restoration/", "/service-areas/cedar-hills-ut/mold-remediation/", "/service-areas/alpine-ut/appliance-leak-cleanup/", "/service-areas/american-fork-ut/appliance-leak-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Cedar Hills", "url": "/service-areas/cedar-hills-ut/"}, {"name": "Appliance Leak Cleanup"}]
 faq: []
 area_slug: "cedar-hills-ut"

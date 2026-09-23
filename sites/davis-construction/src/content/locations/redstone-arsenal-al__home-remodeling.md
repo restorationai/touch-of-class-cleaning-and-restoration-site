@@ -7,10 +7,10 @@ primary_keyword: "home remodeling redstone arsenal"
 secondary_keywords: ["home renovation", "whole home remodel", "interior remodeling contractor", "house renovation contractor", "remodeling company"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "9d83e70fb32a0252"
-generated_at: "2026-09-20T14:13:03.667993+00:00"
+plan_hash: "abc422e1ff77ab50"
+generated_at: "2026-09-23T14:11:32.830601+00:00"
 manual_override: false
-internal_links: ["/services/home-remodeling/", "/service-areas/redstone-arsenal-al/", "/service-areas/redstone-arsenal-al/roofing/", "/service-areas/redstone-arsenal-al/decks-pergolas-fences/", "/service-areas/athens-al/home-remodeling/", "/service-areas/harvest-al/home-remodeling/", "/contact/"]
+internal_links: ["/services/home-remodeling/", "/service-areas/redstone-arsenal-al/", "/service-areas/redstone-arsenal-al/roofing/", "/service-areas/redstone-arsenal-al/decks-pergolas-fences/", "/service-areas/arab-al/home-remodeling/", "/service-areas/ardmore-al/home-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Redstone Arsenal", "url": "/service-areas/redstone-arsenal-al/"}, {"name": "Home Remodeling"}]
 faq: []
 area_slug: "redstone-arsenal-al"

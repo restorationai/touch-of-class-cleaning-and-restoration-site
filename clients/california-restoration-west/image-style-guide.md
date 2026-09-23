@@ -185,7 +185,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Mold Remediation, Storm Damage Restoration, Contents Restoration and Storage, Crawl Space Encapsulation, Emergency Water Cleanup)
+- [ ] (continue for each of Contents Restoration and Storage, Contents Restoration & Storage, Crawl Space Encapsulation, Mold Remediation, Odor Removal and Deodorization, Storm Damage Restoration, Emergency Water Cleanup, Water Damage Restoration)
 
 ### Service area pages (one image per city served)
 - [ ] Ventura hero — exterior shot, regional housing stock, evocative of the city

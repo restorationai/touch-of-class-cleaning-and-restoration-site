@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "e7363c7e67f9158b"
-generated_at: "2026-09-20T20:41:43.450390+00:00"
+generated_at: "2026-09-23T14:11:36.223469+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/montclair-ca/", "/service-areas/montclair-ca/fire-damage-restoration/", "/service-areas/montclair-ca/mold-remediation/", "/service-areas/anaheim-ca/emergency-board-up-tarping/", "/service-areas/chino-ca/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Montclair", "url": "/service-areas/montclair-ca/"}, {"name": "Emergency Board-Up and Tarping"}]

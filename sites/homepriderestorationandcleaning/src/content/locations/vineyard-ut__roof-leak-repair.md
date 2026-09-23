@@ -7,10 +7,10 @@ primary_keyword: "roof leak cleanup and repair vineyard"
 secondary_keywords: ["roof leak cleanup", "ceiling water damage", "attic water damage", "roof leak restoration", "interior roof leak damage"]
 search_intent: "local_emergency"
 priority: 4.9
-plan_hash: "490b44fd3bb68c9b"
-generated_at: "2026-09-20T14:13:18.720288+00:00"
+plan_hash: "565d9cdc9456386e"
+generated_at: "2026-09-23T14:11:49.733293+00:00"
 manual_override: false
-internal_links: ["/services/roof-leak-repair/", "/service-areas/vineyard-ut/", "/service-areas/vineyard-ut/fire-damage-restoration/", "/service-areas/vineyard-ut/mold-remediation/", "/service-areas/american-fork-ut/roof-leak-repair/", "/service-areas/cedar-fort-ut/roof-leak-repair/", "/contact/"]
+internal_links: ["/services/roof-leak-repair/", "/service-areas/vineyard-ut/", "/service-areas/vineyard-ut/fire-damage-restoration/", "/service-areas/vineyard-ut/mold-remediation/", "/service-areas/alpine-ut/roof-leak-repair/", "/service-areas/american-fork-ut/roof-leak-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Vineyard", "url": "/service-areas/vineyard-ut/"}, {"name": "Roof Leak Cleanup and Repair"}]
 faq: []
 area_slug: "vineyard-ut"

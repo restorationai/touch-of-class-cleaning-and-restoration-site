@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "39043ceb68a3080d"
-generated_at: "2026-09-20T14:13:45.347719+00:00"
+generated_at: "2026-09-23T14:12:06.558445+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/colonia-nj/", "/service-areas/colonia-nj/fire-damage-restoration/", "/service-areas/colonia-nj/mold-remediation/", "/service-areas/avenel-nj/mold-inspection-testing/", "/service-areas/bayonne-nj/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Colonia", "url": "/service-areas/colonia-nj/"}, {"name": "Mold Inspection and Testing"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "ad87fce9d142ebb6"
-generated_at: "2026-09-21T15:54:35.835724+00:00"
+generated_at: "2026-09-23T14:11:34.827957+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/west-middlesex-pa/", "/service-areas/west-middlesex-pa/fire-damage-restoration/", "/service-areas/west-middlesex-pa/mold-remediation/", "/service-areas/austintown-oh/emergency-board-up-tarping/", "/service-areas/boardman-oh/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "West Middlesex", "url": "/service-areas/west-middlesex-pa/"}, {"name": "Emergency Board-Up and Tarping"}]

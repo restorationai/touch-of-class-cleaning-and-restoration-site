@@ -7,10 +7,10 @@ primary_keyword: "mold remediation edgewood"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "1ea8ce3056700181"
-generated_at: "2026-09-20T19:17:35.994708+00:00"
+plan_hash: "8abdbe27055dd9b1"
+generated_at: "2026-09-23T14:11:54.159577+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/edgewood-wa/", "/service-areas/edgewood-wa/fire-damage-restoration/", "/service-areas/edgewood-wa/water-damage-restoration/", "/service-areas/algona-wa/mold-remediation/", "/service-areas/auburn-wa/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/edgewood-wa/", "/service-areas/edgewood-wa/fire-damage-restoration/", "/service-areas/edgewood-wa/roofing/", "/service-areas/algona-wa/mold-remediation/", "/service-areas/auburn-wa/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Edgewood", "url": "/service-areas/edgewood-wa/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "edgewood-wa"

@@ -7,10 +7,10 @@ primary_keyword: "storm damage restoration vineyard"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "006a4b3ff15a0f81"
-generated_at: "2026-09-20T14:13:18.720614+00:00"
+plan_hash: "4501fc8df081f1a9"
+generated_at: "2026-09-23T14:11:49.734246+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/vineyard-ut/", "/service-areas/vineyard-ut/fire-damage-restoration/", "/service-areas/vineyard-ut/mold-remediation/", "/service-areas/american-fork-ut/storm-damage-restoration/", "/service-areas/cedar-fort-ut/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/vineyard-ut/", "/service-areas/vineyard-ut/fire-damage-restoration/", "/service-areas/vineyard-ut/mold-remediation/", "/service-areas/alpine-ut/storm-damage-restoration/", "/service-areas/american-fork-ut/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Vineyard", "url": "/service-areas/vineyard-ut/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "vineyard-ut"

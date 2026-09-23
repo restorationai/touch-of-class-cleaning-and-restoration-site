@@ -7,10 +7,10 @@ primary_keyword: "odor removal and deodorization baden"
 secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
 search_intent: "local_specialty"
 priority: 4.9
-plan_hash: "0991e535a856bc4a"
-generated_at: "2026-09-20T14:13:09.803596+00:00"
+plan_hash: "ae14236d688863d7"
+generated_at: "2026-09-23T14:11:40.908201+00:00"
 manual_override: false
-internal_links: ["/services/odor-removal/", "/service-areas/baden-pa/", "/service-areas/baden-pa/fire-damage-restoration/", "/service-areas/baden-pa/mold-remediation/", "/service-areas/beaver-falls-pa/odor-removal/", "/service-areas/bell-acres-pa/odor-removal/", "/contact/"]
+internal_links: ["/services/odor-removal/", "/service-areas/baden-pa/", "/service-areas/baden-pa/fire-damage-restoration/", "/service-areas/baden-pa/mold-remediation/", "/service-areas/aliquippa-pa/odor-removal/", "/service-areas/allison-park-pa/odor-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Baden", "url": "/service-areas/baden-pa/"}, {"name": "Odor Removal and Deodorization"}]
 faq: []
 area_slug: "baden-pa"

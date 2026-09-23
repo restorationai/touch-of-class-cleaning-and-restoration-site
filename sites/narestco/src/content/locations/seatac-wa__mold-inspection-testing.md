@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "c00f9fe6aaee2bf7"
-generated_at: "2026-09-20T17:29:51.151455+00:00"
+generated_at: "2026-09-23T14:11:54.150099+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/seatac-wa/", "/service-areas/seatac-wa/fire-damage-restoration/", "/service-areas/seatac-wa/mold-remediation/", "/service-areas/algona-wa/mold-inspection-testing/", "/service-areas/auburn-wa/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "SeaTac", "url": "/service-areas/seatac-wa/"}, {"name": "Mold Inspection and Testing"}]

@@ -185,7 +185,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] roofing
 - [ ] decks-pergolas-fences
 - [ ] new-construction
-- [ ] (continue for each of Home Remodeling, New Home Construction, Decks, Pergolas and Fences, Roofing Installation and Replacement, Siding and Gutters, Painting and Trim, Water Damage Restoration, Storm Damage Restoration, Mold Remediation)
+- [ ] (continue for each of Decks, Pergolas and Fences, Fire and Smoke Damage Rebuilding, Home Remodeling, Mold Remediation, New Home Construction, Painting and Trim, Roofing Installation and Replacement, Siding and Gutters, Storm Damage Restoration, Water Damage Restoration, Window and Door Installation)
 
 ### Service area pages (one image per city served)
 - [ ] Madison hero — exterior shot, regional housing stock, evocative of the city

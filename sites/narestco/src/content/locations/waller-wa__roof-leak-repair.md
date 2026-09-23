@@ -8,7 +8,7 @@ secondary_keywords: ["roof leak cleanup", "ceiling water damage", "attic water d
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "7df5cfe275292167"
-generated_at: "2026-09-22T14:28:11.669827+00:00"
+generated_at: "2026-09-23T14:11:54.216333+00:00"
 manual_override: false
 internal_links: ["/services/roof-leak-repair/", "/service-areas/waller-wa/", "/service-areas/waller-wa/fire-damage-restoration/", "/service-areas/waller-wa/mold-remediation/", "/service-areas/algona-wa/roof-leak-repair/", "/service-areas/auburn-wa/roof-leak-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Waller", "url": "/service-areas/waller-wa/"}, {"name": "Roof Leak Cleanup and Repair"}]

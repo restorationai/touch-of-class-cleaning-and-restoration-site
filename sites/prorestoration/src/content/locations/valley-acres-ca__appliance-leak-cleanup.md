@@ -7,10 +7,10 @@ primary_keyword: "appliance leak cleanup valley acres"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
 priority: 4.2
-plan_hash: "503d35e01a31dcc1"
-generated_at: "2026-09-20T17:29:54.889800+00:00"
+plan_hash: "ab735fe995a2f976"
+generated_at: "2026-09-23T14:11:55.995755+00:00"
 manual_override: false
-internal_links: ["/services/appliance-leak-cleanup/", "/service-areas/valley-acres-ca/", "/service-areas/valley-acres-ca/fire-damage-restoration/", "/service-areas/valley-acres-ca/home-remodeling/", "/service-areas/arvin-ca/appliance-leak-cleanup/", "/service-areas/buttonwillow-ca/appliance-leak-cleanup/", "/contact/"]
+internal_links: ["/services/appliance-leak-cleanup/", "/service-areas/valley-acres-ca/", "/service-areas/valley-acres-ca/fire-damage-restoration/", "/service-areas/valley-acres-ca/home-remodeling/", "/service-areas/arvin-ca/appliance-leak-cleanup/", "/service-areas/bear-valley-springs-ca/appliance-leak-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Valley Acres", "url": "/service-areas/valley-acres-ca/"}, {"name": "Appliance Leak Cleanup"}]
 faq: []
 area_slug: "valley-acres-ca"

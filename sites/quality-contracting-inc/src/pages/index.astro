@@ -5,7 +5,9 @@ import CtaBanner from "~/components/CtaBanner.astro";
 import FAQSection from "~/components/FAQSection.astro";
 import InternalLinks from "~/components/InternalLinks.astro";
 import Hero from "~/components/ui/Hero.astro";
+import FreeEstimateForm from "~/components/FreeEstimateForm.astro";
 import TrustStrip from "~/components/ui/TrustStrip.astro";
+import InsuranceBanner from "~/components/ui/InsuranceBanner.astro";
 import ReviewsStrip from "~/components/ui/ReviewsStrip.astro";
 import AboutSection from "~/components/ui/AboutSection.astro";
 import ServicesStrip from "~/components/ui/ServicesStrip.astro";
@@ -45,40 +47,26 @@ const services = (allServices as CollectionEntry<"services">[])
       per the client's image-style-guide.md "Homepage hero" spec, uploaded to
       R2 at brand/hero-fleet.webp and referenced via brand.imagesBase — or
       dropped into public/images/hero-bg.webp if R2 isn't provisioned yet. */}
-  <Hero title={data.h1} subtitle={data.meta_description} backgroundImage="/images/hero-bg.webp" showInsuranceNote={false} />
-
-  {/* Fran (08-21 email + 09-01 call): insurance compatibility as a PROMINENT
-      full-width banner, not fine print — per his screenshot example. */}
-  <div class="bg-primary-700 py-4 px-4 text-center">
-    <p class="text-xl sm:text-2xl font-extrabold tracking-tight text-white uppercase">
-      We work with all insurance companies
-    </p>
-    <p class="mt-1 text-sm sm:text-base font-medium text-white/90">
-      Direct insurance billing &middot; We handle the claim with your carrier from start to finish
-    </p>
-  </div>
-
-  {/* "One Call Does It All" (Santino 2026-09-09, from their old site) — the
-      brand claim, stated the way AI answer engines can quote it. */}
-  <section class="bg-white py-10 px-4">
-    <div class="max-w-3xl mx-auto text-center">
-      <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-slate-900">One Call Does It All.</h2>
-      <p class="mt-4 text-lg text-slate-600">
-        One phone call to Quality Contracting covers your entire loss from A to Z: emergency
-        mitigation, water and fire cleanup, plumbing, and the complete rebuild. We handle every
-        trade and every step ourselves, so you never have to coordinate multiple contractors
-        while your home is torn open.
-      </p>
-    </div>
-  </section>
+  <Hero title={data.h1} subtitle={data.meta_description} backgroundImage="/images/hero-bg.webp">
+    {/* Restoration is call-first (Santino 2026-09-11): an emergency lead
+        should dial, not fill a form — the Get a Free Estimate button still
+        covers the form path lower on the page. Other verticals keep it. */}
+    {brand.vertical !== "restoration" ? (
+      <FreeEstimateForm slot="form" variant="hero" />
+    ) : null}
+  </Hero>
 
   <TrustStrip />
+  <InsuranceBanner />
 
   <ReviewsStrip />
 
   <AboutSection imageSrc="/images/team.webp" imageAlt={`${brand.displayName} Team`}>
     <p>
-      {brand.displayName} has been serving Central Massachusetts and Greater Worcester from its {brand.primaryCity}, {brand.primaryState} headquarters since {brand.foundedYear}. We specialize in rapid-response disaster restoration, handling everything from water and fire damage to biohazard cleanup and full reconstruction. When disaster strikes, our certified professionals are standing by 24/7 to return your property to its pre-loss condition quickly and safely.
+      {/* Vertical copy — never hardcode a trade phrase here (industry-bleed
+          audit 2026-07-31: the light variant of this paragraph shipped All
+          Pro's plumbing identity on four restoration sites). */}
+      {brand.homeAboutBlurb}
     </p>
   </AboutSection>
 

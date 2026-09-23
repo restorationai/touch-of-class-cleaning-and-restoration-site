@@ -58,7 +58,37 @@
     ],
     "missing_stubs": []
   },
+  "/services/decks-pergolas-fences/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/fire-smoke-rebuilding/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/services/home-remodeling/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/mold-remediation/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -78,7 +108,7 @@
     ],
     "missing_stubs": []
   },
-  "/services/decks-pergolas-fences/": {
+  "/services/painting-trim/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -108,7 +138,7 @@
     ],
     "missing_stubs": []
   },
-  "/services/painting-trim/": {
+  "/services/storm-damage-restoration/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -128,17 +158,7 @@
     ],
     "missing_stubs": []
   },
-  "/services/storm-damage-restoration/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/services/mold-remediation/": {
+  "/services/windows-doors/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -319,7 +339,37 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/huntsville-al/decks-pergolas-fences/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/huntsville-al/fire-smoke-rebuilding/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/huntsville-al/home-remodeling/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/huntsville-al/mold-remediation/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -339,7 +389,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/huntsville-al/decks-pergolas-fences/": {
+  "/service-areas/huntsville-al/painting-trim/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -369,7 +419,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/huntsville-al/painting-trim/": {
+  "/service-areas/huntsville-al/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -389,7 +439,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/huntsville-al/storm-damage-restoration/": {
+  "/service-areas/huntsville-al/windows-doors/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -399,7 +449,17 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/huntsville-al/mold-remediation/": {
+  "/service-areas/athens-al/decks-pergolas-fences/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/athens-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -419,6 +479,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/athens-al/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/athens-al/new-construction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -429,7 +499,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/athens-al/decks-pergolas-fences/": {
+  "/service-areas/athens-al/painting-trim/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -459,7 +529,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/athens-al/painting-trim/": {
+  "/service-areas/athens-al/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -479,7 +549,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/athens-al/storm-damage-restoration/": {
+  "/service-areas/athens-al/windows-doors/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -489,7 +559,17 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/athens-al/mold-remediation/": {
+  "/service-areas/moores-mill-al/decks-pergolas-fences/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/moores-mill-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -509,6 +589,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/moores-mill-al/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/moores-mill-al/new-construction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -519,7 +609,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/moores-mill-al/decks-pergolas-fences/": {
+  "/service-areas/moores-mill-al/painting-trim/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -549,7 +639,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/moores-mill-al/painting-trim/": {
+  "/service-areas/moores-mill-al/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -569,7 +659,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/moores-mill-al/storm-damage-restoration/": {
+  "/service-areas/moores-mill-al/windows-doors/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -579,7 +669,17 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/moores-mill-al/mold-remediation/": {
+  "/service-areas/redstone-arsenal-al/decks-pergolas-fences/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/redstone-arsenal-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -599,6 +699,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/redstone-arsenal-al/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/redstone-arsenal-al/new-construction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -609,7 +719,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/redstone-arsenal-al/decks-pergolas-fences/": {
+  "/service-areas/redstone-arsenal-al/painting-trim/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -639,7 +749,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/redstone-arsenal-al/painting-trim/": {
+  "/service-areas/redstone-arsenal-al/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -659,7 +769,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/redstone-arsenal-al/storm-damage-restoration/": {
+  "/service-areas/redstone-arsenal-al/windows-doors/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -669,7 +779,17 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/redstone-arsenal-al/mold-remediation/": {
+  "/service-areas/meridianville-al/decks-pergolas-fences/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/meridianville-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -689,6 +809,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/meridianville-al/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/meridianville-al/new-construction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -699,7 +829,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/meridianville-al/decks-pergolas-fences/": {
+  "/service-areas/meridianville-al/painting-trim/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -729,7 +859,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/meridianville-al/painting-trim/": {
+  "/service-areas/meridianville-al/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -749,7 +879,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/meridianville-al/storm-damage-restoration/": {
+  "/service-areas/meridianville-al/windows-doors/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -759,7 +889,17 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/meridianville-al/mold-remediation/": {
+  "/service-areas/hazel-green-al/decks-pergolas-fences/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hazel-green-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -779,6 +919,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/hazel-green-al/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/hazel-green-al/new-construction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -789,7 +939,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hazel-green-al/decks-pergolas-fences/": {
+  "/service-areas/hazel-green-al/painting-trim/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -819,7 +969,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hazel-green-al/painting-trim/": {
+  "/service-areas/hazel-green-al/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -839,7 +989,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hazel-green-al/storm-damage-restoration/": {
+  "/service-areas/hazel-green-al/windows-doors/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -849,7 +999,17 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hazel-green-al/mold-remediation/": {
+  "/service-areas/new-market-al/decks-pergolas-fences/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/new-market-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -869,6 +1029,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/new-market-al/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/new-market-al/new-construction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -879,7 +1049,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/new-market-al/decks-pergolas-fences/": {
+  "/service-areas/new-market-al/painting-trim/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -909,7 +1079,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/new-market-al/painting-trim/": {
+  "/service-areas/new-market-al/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -929,7 +1099,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/new-market-al/storm-damage-restoration/": {
+  "/service-areas/new-market-al/windows-doors/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -939,7 +1109,17 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/new-market-al/mold-remediation/": {
+  "/service-areas/harvest-al/decks-pergolas-fences/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/harvest-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -959,6 +1139,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/harvest-al/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/harvest-al/new-construction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -969,7 +1159,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/harvest-al/decks-pergolas-fences/": {
+  "/service-areas/harvest-al/painting-trim/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -999,7 +1189,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/harvest-al/painting-trim/": {
+  "/service-areas/harvest-al/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1019,7 +1209,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/harvest-al/storm-damage-restoration/": {
+  "/service-areas/harvest-al/windows-doors/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1029,7 +1219,17 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/harvest-al/mold-remediation/": {
+  "/service-areas/gurley-al/decks-pergolas-fences/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/gurley-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1049,6 +1249,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/gurley-al/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/gurley-al/new-construction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1059,7 +1269,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/gurley-al/decks-pergolas-fences/": {
+  "/service-areas/gurley-al/painting-trim/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1089,7 +1299,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/gurley-al/painting-trim/": {
+  "/service-areas/gurley-al/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1109,7 +1319,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/gurley-al/storm-damage-restoration/": {
+  "/service-areas/gurley-al/windows-doors/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1119,7 +1329,17 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/gurley-al/mold-remediation/": {
+  "/service-areas/owens-cross-roads-al/decks-pergolas-fences/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/owens-cross-roads-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1139,6 +1359,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/owens-cross-roads-al/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/owens-cross-roads-al/new-construction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1149,7 +1379,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/owens-cross-roads-al/decks-pergolas-fences/": {
+  "/service-areas/owens-cross-roads-al/painting-trim/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1179,7 +1409,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/owens-cross-roads-al/painting-trim/": {
+  "/service-areas/owens-cross-roads-al/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1199,7 +1429,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/owens-cross-roads-al/storm-damage-restoration/": {
+  "/service-areas/owens-cross-roads-al/windows-doors/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1209,7 +1439,17 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/owens-cross-roads-al/mold-remediation/": {
+  "/service-areas/triana-al/decks-pergolas-fences/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/triana-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1229,6 +1469,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/triana-al/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/triana-al/new-construction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1239,7 +1489,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/triana-al/decks-pergolas-fences/": {
+  "/service-areas/triana-al/painting-trim/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1269,7 +1519,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/triana-al/painting-trim/": {
+  "/service-areas/triana-al/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1289,7 +1539,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/triana-al/storm-damage-restoration/": {
+  "/service-areas/triana-al/windows-doors/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1299,7 +1549,17 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/triana-al/mold-remediation/": {
+  "/service-areas/new-hope-al/decks-pergolas-fences/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/new-hope-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1319,6 +1579,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/new-hope-al/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/new-hope-al/new-construction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1329,7 +1599,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/new-hope-al/decks-pergolas-fences/": {
+  "/service-areas/new-hope-al/painting-trim/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1359,7 +1629,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/new-hope-al/painting-trim/": {
+  "/service-areas/new-hope-al/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1379,7 +1649,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/new-hope-al/storm-damage-restoration/": {
+  "/service-areas/new-hope-al/windows-doors/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1389,7 +1659,17 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/new-hope-al/mold-remediation/": {
+  "/service-areas/ardmore-al/decks-pergolas-fences/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/ardmore-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1409,6 +1689,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/ardmore-al/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/ardmore-al/new-construction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1419,7 +1709,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ardmore-al/decks-pergolas-fences/": {
+  "/service-areas/ardmore-al/painting-trim/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1449,7 +1739,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ardmore-al/painting-trim/": {
+  "/service-areas/ardmore-al/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1469,7 +1759,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ardmore-al/storm-damage-restoration/": {
+  "/service-areas/ardmore-al/windows-doors/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1479,7 +1769,17 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ardmore-al/mold-remediation/": {
+  "/service-areas/priceville-al/decks-pergolas-fences/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/priceville-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1499,6 +1799,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/priceville-al/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/priceville-al/new-construction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1509,7 +1819,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/priceville-al/decks-pergolas-fences/": {
+  "/service-areas/priceville-al/painting-trim/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1539,7 +1849,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/priceville-al/painting-trim/": {
+  "/service-areas/priceville-al/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1559,7 +1869,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/priceville-al/storm-damage-restoration/": {
+  "/service-areas/priceville-al/windows-doors/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1569,7 +1879,17 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/priceville-al/mold-remediation/": {
+  "/service-areas/somerville-al/decks-pergolas-fences/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/somerville-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1589,6 +1909,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/somerville-al/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/somerville-al/new-construction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1599,7 +1929,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/somerville-al/decks-pergolas-fences/": {
+  "/service-areas/somerville-al/painting-trim/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1629,7 +1959,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/somerville-al/painting-trim/": {
+  "/service-areas/somerville-al/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1649,7 +1979,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/somerville-al/storm-damage-restoration/": {
+  "/service-areas/somerville-al/windows-doors/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1659,7 +1989,17 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/somerville-al/mold-remediation/": {
+  "/service-areas/elkmont-al/decks-pergolas-fences/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/elkmont-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1679,6 +2019,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/elkmont-al/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/elkmont-al/new-construction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1689,7 +2039,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/elkmont-al/decks-pergolas-fences/": {
+  "/service-areas/elkmont-al/painting-trim/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1719,7 +2069,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/elkmont-al/painting-trim/": {
+  "/service-areas/elkmont-al/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1739,7 +2089,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/elkmont-al/storm-damage-restoration/": {
+  "/service-areas/elkmont-al/windows-doors/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1749,7 +2099,17 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/elkmont-al/mold-remediation/": {
+  "/service-areas/decatur-al/decks-pergolas-fences/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/decatur-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1769,6 +2129,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/decatur-al/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/decatur-al/new-construction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1779,7 +2149,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/decatur-al/decks-pergolas-fences/": {
+  "/service-areas/decatur-al/painting-trim/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1809,7 +2179,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/decatur-al/painting-trim/": {
+  "/service-areas/decatur-al/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1829,7 +2199,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/decatur-al/storm-damage-restoration/": {
+  "/service-areas/decatur-al/windows-doors/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1839,7 +2209,17 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/decatur-al/mold-remediation/": {
+  "/service-areas/arab-al/decks-pergolas-fences/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/arab-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1859,6 +2239,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/arab-al/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/arab-al/new-construction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1869,7 +2259,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/arab-al/decks-pergolas-fences/": {
+  "/service-areas/arab-al/painting-trim/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1899,7 +2289,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/arab-al/painting-trim/": {
+  "/service-areas/arab-al/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1919,7 +2309,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/arab-al/storm-damage-restoration/": {
+  "/service-areas/arab-al/windows-doors/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1929,7 +2319,17 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/arab-al/mold-remediation/": {
+  "/service-areas/hartselle-al/decks-pergolas-fences/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hartselle-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1949,6 +2349,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/hartselle-al/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/hartselle-al/new-construction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1959,7 +2369,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hartselle-al/decks-pergolas-fences/": {
+  "/service-areas/hartselle-al/painting-trim/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1989,7 +2399,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hartselle-al/painting-trim/": {
+  "/service-areas/hartselle-al/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2009,17 +2419,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hartselle-al/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hartselle-al/mold-remediation/": {
+  "/service-areas/hartselle-al/windows-doors/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

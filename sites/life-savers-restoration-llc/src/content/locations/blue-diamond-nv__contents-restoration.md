@@ -7,10 +7,10 @@ primary_keyword: "contents restoration and storage blue diamond"
 secondary_keywords: ["contents pack-out", "contents cleaning", "belongings restoration", "furniture restoration after fire", "contents storage"]
 search_intent: "local_service"
 priority: 3.5
-plan_hash: "7c38001d14c439e5"
-generated_at: "2026-09-20T14:13:21.542500+00:00"
+plan_hash: "b9dbb0b8c8d251a0"
+generated_at: "2026-09-23T14:11:52.250570+00:00"
 manual_override: false
-internal_links: ["/services/contents-restoration/", "/service-areas/blue-diamond-nv/", "/service-areas/blue-diamond-nv/fire-damage-restoration/", "/service-areas/blue-diamond-nv/mold-remediation/", "/service-areas/boulder-city-nv/contents-restoration/", "/service-areas/enterprise-nv/contents-restoration/", "/contact/"]
+internal_links: ["/services/contents-restoration/", "/service-areas/blue-diamond-nv/", "/service-areas/blue-diamond-nv/fire-damage-restoration/", "/service-areas/blue-diamond-nv/mold-remediation/", "/service-areas/boulder-city-nv/contents-restoration/", "/service-areas/cal-nev-ari-nv/contents-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Blue Diamond", "url": "/service-areas/blue-diamond-nv/"}, {"name": "Contents Restoration and Storage"}]
 faq: []
 area_slug: "blue-diamond-nv"

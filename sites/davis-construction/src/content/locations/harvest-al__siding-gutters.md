@@ -7,10 +7,10 @@ primary_keyword: "siding and gutters harvest"
 secondary_keywords: ["siding contractor", "siding installation", "siding replacement", "gutter installation", "exterior contractor"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "28cd6eef90d687e6"
-generated_at: "2026-09-20T14:13:03.675018+00:00"
+plan_hash: "8e4c8b5725bdb4dd"
+generated_at: "2026-09-23T14:11:32.845934+00:00"
 manual_override: false
-internal_links: ["/services/siding-gutters/", "/service-areas/harvest-al/", "/service-areas/harvest-al/home-remodeling/", "/service-areas/harvest-al/roofing/", "/service-areas/athens-al/siding-gutters/", "/service-areas/hazel-green-al/siding-gutters/", "/contact/"]
+internal_links: ["/services/siding-gutters/", "/service-areas/harvest-al/", "/service-areas/harvest-al/home-remodeling/", "/service-areas/harvest-al/roofing/", "/service-areas/arab-al/siding-gutters/", "/service-areas/ardmore-al/siding-gutters/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Harvest", "url": "/service-areas/harvest-al/"}, {"name": "Siding and Gutters"}]
 faq: []
 area_slug: "harvest-al"

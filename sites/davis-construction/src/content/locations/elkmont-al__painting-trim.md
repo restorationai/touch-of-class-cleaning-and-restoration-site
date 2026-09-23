@@ -7,10 +7,10 @@ primary_keyword: "painting and trim elkmont"
 secondary_keywords: ["painting contractor", "interior painting", "exterior painting", "house painter", "trim painting"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "ecbdd0e045e2b945"
-generated_at: "2026-09-22T14:27:20.080910+00:00"
+plan_hash: "75f06fdd37549fc5"
+generated_at: "2026-09-23T14:11:32.872240+00:00"
 manual_override: false
-internal_links: ["/services/painting-trim/", "/service-areas/elkmont-al/", "/service-areas/elkmont-al/home-remodeling/", "/service-areas/elkmont-al/roofing/", "/service-areas/ardmore-al/painting-trim/", "/service-areas/athens-al/painting-trim/", "/contact/"]
+internal_links: ["/services/painting-trim/", "/service-areas/elkmont-al/", "/service-areas/elkmont-al/home-remodeling/", "/service-areas/elkmont-al/roofing/", "/service-areas/arab-al/painting-trim/", "/service-areas/ardmore-al/painting-trim/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elkmont", "url": "/service-areas/elkmont-al/"}, {"name": "Painting and Trim"}]
 faq: []
 area_slug: "elkmont-al"

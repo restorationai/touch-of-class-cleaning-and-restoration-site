@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "c82e70d2d5012353"
-generated_at: "2026-09-20T14:13:14.689443+00:00"
+generated_at: "2026-09-23T14:11:44.839343+00:00"
 manual_override: false
 internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/clayton-nc/", "/service-areas/clayton-nc/fire-damage-restoration/", "/service-areas/clayton-nc/mold-remediation/", "/service-areas/archer-lodge-nc/crawl-space-encapsulation/", "/service-areas/durham-nc/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Clayton", "url": "/service-areas/clayton-nc/"}, {"name": "Crawl Space Encapsulation"}]

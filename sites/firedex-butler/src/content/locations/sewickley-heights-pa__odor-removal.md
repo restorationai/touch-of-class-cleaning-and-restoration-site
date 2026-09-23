@@ -7,10 +7,10 @@ primary_keyword: "odor removal and deodorization sewickley heights"
 secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
 search_intent: "local_specialty"
 priority: 4.9
-plan_hash: "b28aff34b311a797"
-generated_at: "2026-09-20T14:13:09.812768+00:00"
+plan_hash: "aaf61c0fff96af00"
+generated_at: "2026-09-23T14:11:40.926855+00:00"
 manual_override: false
-internal_links: ["/services/odor-removal/", "/service-areas/sewickley-heights-pa/", "/service-areas/sewickley-heights-pa/fire-damage-restoration/", "/service-areas/sewickley-heights-pa/mold-remediation/", "/service-areas/baden-pa/odor-removal/", "/service-areas/beaver-falls-pa/odor-removal/", "/contact/"]
+internal_links: ["/services/odor-removal/", "/service-areas/sewickley-heights-pa/", "/service-areas/sewickley-heights-pa/fire-damage-restoration/", "/service-areas/sewickley-heights-pa/mold-remediation/", "/service-areas/aliquippa-pa/odor-removal/", "/service-areas/allison-park-pa/odor-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sewickley Heights", "url": "/service-areas/sewickley-heights-pa/"}, {"name": "Odor Removal and Deodorization"}]
 faq: []
 area_slug: "sewickley-heights-pa"

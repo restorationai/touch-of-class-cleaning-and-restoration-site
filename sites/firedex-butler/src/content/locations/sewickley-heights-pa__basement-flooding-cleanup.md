@@ -7,10 +7,10 @@ primary_keyword: "basement flooding cleanup sewickley heights"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
 priority: 5.6
-plan_hash: "9865d335d6073efa"
-generated_at: "2026-09-20T14:13:09.811411+00:00"
+plan_hash: "0977103bb96de67e"
+generated_at: "2026-09-23T14:11:40.923189+00:00"
 manual_override: false
-internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/sewickley-heights-pa/", "/service-areas/sewickley-heights-pa/fire-damage-restoration/", "/service-areas/sewickley-heights-pa/mold-remediation/", "/service-areas/baden-pa/basement-flooding-cleanup/", "/service-areas/beaver-falls-pa/basement-flooding-cleanup/", "/contact/"]
+internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/sewickley-heights-pa/", "/service-areas/sewickley-heights-pa/fire-damage-restoration/", "/service-areas/sewickley-heights-pa/mold-remediation/", "/service-areas/aliquippa-pa/basement-flooding-cleanup/", "/service-areas/allison-park-pa/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sewickley Heights", "url": "/service-areas/sewickley-heights-pa/"}, {"name": "Basement Flooding Cleanup"}]
 faq: []
 area_slug: "sewickley-heights-pa"

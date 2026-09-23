@@ -7,10 +7,10 @@ primary_keyword: "roofing installation and replacement elkmont"
 secondary_keywords: ["roofing contractor", "roof replacement", "new roof installation", "residential roofing", "roof repair"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "c654af6b88a041c0"
-generated_at: "2026-09-22T14:27:20.080670+00:00"
+plan_hash: "601951a322a33d1a"
+generated_at: "2026-09-23T14:11:32.872590+00:00"
 manual_override: false
-internal_links: ["/services/roofing/", "/service-areas/elkmont-al/", "/service-areas/elkmont-al/home-remodeling/", "/service-areas/elkmont-al/decks-pergolas-fences/", "/service-areas/ardmore-al/roofing/", "/service-areas/athens-al/roofing/", "/contact/"]
+internal_links: ["/services/roofing/", "/service-areas/elkmont-al/", "/service-areas/elkmont-al/home-remodeling/", "/service-areas/elkmont-al/decks-pergolas-fences/", "/service-areas/arab-al/roofing/", "/service-areas/ardmore-al/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elkmont", "url": "/service-areas/elkmont-al/"}, {"name": "Roofing Installation and Replacement"}]
 faq: []
 area_slug: "elkmont-al"

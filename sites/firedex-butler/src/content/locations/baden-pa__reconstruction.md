@@ -7,10 +7,10 @@ primary_keyword: "reconstruction services baden"
 secondary_keywords: ["post-damage reconstruction", "rebuild services", "structural reconstruction", "post-disaster rebuilding", "fire damage reconstruction"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "3e43284574b12fff"
-generated_at: "2026-09-20T14:13:09.804444+00:00"
+plan_hash: "9d8473c949b7ab4f"
+generated_at: "2026-09-23T14:11:40.908544+00:00"
 manual_override: false
-internal_links: ["/services/reconstruction/", "/service-areas/baden-pa/", "/service-areas/baden-pa/fire-damage-restoration/", "/service-areas/baden-pa/mold-remediation/", "/service-areas/beaver-falls-pa/reconstruction/", "/service-areas/bell-acres-pa/reconstruction/", "/contact/"]
+internal_links: ["/services/reconstruction/", "/service-areas/baden-pa/", "/service-areas/baden-pa/fire-damage-restoration/", "/service-areas/baden-pa/mold-remediation/", "/service-areas/aliquippa-pa/reconstruction/", "/service-areas/allison-park-pa/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Baden", "url": "/service-areas/baden-pa/"}, {"name": "Reconstruction Services"}]
 faq: []
 area_slug: "baden-pa"

@@ -7,10 +7,10 @@ primary_keyword: "home remodeling elkmont"
 secondary_keywords: ["home renovation", "whole home remodel", "interior remodeling contractor", "house renovation contractor", "remodeling company"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "481b852046993daa"
-generated_at: "2026-09-22T14:27:20.080240+00:00"
+plan_hash: "b3ef4edb14a53247"
+generated_at: "2026-09-23T14:11:32.871236+00:00"
 manual_override: false
-internal_links: ["/services/home-remodeling/", "/service-areas/elkmont-al/", "/service-areas/elkmont-al/roofing/", "/service-areas/elkmont-al/decks-pergolas-fences/", "/service-areas/ardmore-al/home-remodeling/", "/service-areas/athens-al/home-remodeling/", "/contact/"]
+internal_links: ["/services/home-remodeling/", "/service-areas/elkmont-al/", "/service-areas/elkmont-al/roofing/", "/service-areas/elkmont-al/decks-pergolas-fences/", "/service-areas/arab-al/home-remodeling/", "/service-areas/ardmore-al/home-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elkmont", "url": "/service-areas/elkmont-al/"}, {"name": "Home Remodeling"}]
 faq: []
 area_slug: "elkmont-al"

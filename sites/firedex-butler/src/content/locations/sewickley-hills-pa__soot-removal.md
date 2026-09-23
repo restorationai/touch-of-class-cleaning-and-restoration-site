@@ -7,10 +7,10 @@ primary_keyword: "soot removal sewickley hills"
 secondary_keywords: ["soot cleaning", "soot residue removal", "post-fire soot cleanup", "soot damage cleanup", "soot wall cleaning"]
 search_intent: "local_specialty"
 priority: 4.9
-plan_hash: "83a4b4fa159a07af"
-generated_at: "2026-09-20T19:17:19.889801+00:00"
+plan_hash: "41122d4764067f4e"
+generated_at: "2026-09-23T14:11:40.940583+00:00"
 manual_override: false
-internal_links: ["/services/soot-removal/", "/service-areas/sewickley-hills-pa/", "/service-areas/sewickley-hills-pa/fire-damage-restoration/", "/service-areas/sewickley-hills-pa/mold-remediation/", "/service-areas/aliquippa-pa/soot-removal/", "/service-areas/baden-pa/soot-removal/", "/contact/"]
+internal_links: ["/services/soot-removal/", "/service-areas/sewickley-hills-pa/", "/service-areas/sewickley-hills-pa/fire-damage-restoration/", "/service-areas/sewickley-hills-pa/mold-remediation/", "/service-areas/aliquippa-pa/soot-removal/", "/service-areas/allison-park-pa/soot-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sewickley Hills", "url": "/service-areas/sewickley-hills-pa/"}, {"name": "Soot Removal"}]
 faq: []
 area_slug: "sewickley-hills-pa"

@@ -7,10 +7,10 @@ primary_keyword: "mold remediation bellingham"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "20222c3e5e1dc9a5"
-generated_at: "2026-09-21T14:13:42.297483+00:00"
+plan_hash: "1623c07859f4a6ce"
+generated_at: "2026-09-23T14:11:58.548783+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/bellingham-ma/", "/service-areas/bellingham-ma/fire-damage-restoration/", "/service-areas/bellingham-ma/water-damage-restoration/", "/service-areas/east-douglas-ma/mold-remediation/", "/service-areas/fiskdale-ma/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/bellingham-ma/", "/service-areas/bellingham-ma/fire-damage-restoration/", "/service-areas/bellingham-ma/roofing/", "/service-areas/east-douglas-ma/mold-remediation/", "/service-areas/fiskdale-ma/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bellingham", "url": "/service-areas/bellingham-ma/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "bellingham-ma"

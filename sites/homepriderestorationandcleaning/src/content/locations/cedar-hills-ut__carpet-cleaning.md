@@ -7,10 +7,10 @@ primary_keyword: "carpet cleaning cedar hills"
 secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "carpet stain removal", "commercial carpet cleaning", "carpet sanitization"]
 search_intent: "local_specialty"
 priority: 2.8
-plan_hash: "34942d9aae828a55"
-generated_at: "2026-09-20T14:13:18.734887+00:00"
+plan_hash: "bbc068dee79b9d09"
+generated_at: "2026-09-23T14:11:49.759543+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/cedar-hills-ut/", "/service-areas/cedar-hills-ut/fire-damage-restoration/", "/service-areas/cedar-hills-ut/mold-remediation/", "/service-areas/american-fork-ut/carpet-cleaning/", "/service-areas/cedar-fort-ut/carpet-cleaning/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/cedar-hills-ut/", "/service-areas/cedar-hills-ut/fire-damage-restoration/", "/service-areas/cedar-hills-ut/mold-remediation/", "/service-areas/alpine-ut/carpet-cleaning/", "/service-areas/american-fork-ut/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Cedar Hills", "url": "/service-areas/cedar-hills-ut/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "cedar-hills-ut"

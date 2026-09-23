@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "0fffdae842d69574"
-generated_at: "2026-09-20T19:37:15.130474+00:00"
+generated_at: "2026-09-23T14:11:56.012538+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/bear-valley-springs-ca/", "/service-areas/bear-valley-springs-ca/home-remodeling/", "/service-areas/bear-valley-springs-ca/mold-remediation/", "/service-areas/arvin-ca/fire-damage-restoration/", "/service-areas/buttonwillow-ca/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bear Valley Springs", "url": "/service-areas/bear-valley-springs-ca/"}, {"name": "Fire Damage Restoration"}]

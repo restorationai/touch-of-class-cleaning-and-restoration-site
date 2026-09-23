@@ -8,7 +8,7 @@ secondary_keywords: ["crime scene cleaning", "forensic cleanup", "post-crime cle
 search_intent: "local_sensitive"
 priority: 4.2
 plan_hash: "9fa7b2728ec33922"
-generated_at: "2026-09-20T14:13:23.239773+00:00"
+generated_at: "2026-09-23T14:11:54.101951+00:00"
 manual_override: false
 internal_links: ["/services/crime-scene-cleanup/", "/service-areas/des-moines-wa/", "/service-areas/des-moines-wa/fire-damage-restoration/", "/service-areas/des-moines-wa/mold-remediation/", "/service-areas/algona-wa/crime-scene-cleanup/", "/service-areas/auburn-wa/crime-scene-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Des Moines", "url": "/service-areas/des-moines-wa/"}, {"name": "Crime Scene Cleanup"}]

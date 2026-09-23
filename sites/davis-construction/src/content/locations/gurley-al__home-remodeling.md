@@ -7,10 +7,10 @@ primary_keyword: "home remodeling gurley"
 secondary_keywords: ["home renovation", "whole home remodel", "interior remodeling contractor", "house renovation contractor", "remodeling company"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "ccb2e6ff09d9cacb"
-generated_at: "2026-09-20T17:29:30.152813+00:00"
+plan_hash: "c725012ff5d52aeb"
+generated_at: "2026-09-23T14:11:32.847606+00:00"
 manual_override: false
-internal_links: ["/services/home-remodeling/", "/service-areas/gurley-al/", "/service-areas/gurley-al/roofing/", "/service-areas/gurley-al/decks-pergolas-fences/", "/service-areas/athens-al/home-remodeling/", "/service-areas/harvest-al/home-remodeling/", "/contact/"]
+internal_links: ["/services/home-remodeling/", "/service-areas/gurley-al/", "/service-areas/gurley-al/roofing/", "/service-areas/gurley-al/decks-pergolas-fences/", "/service-areas/arab-al/home-remodeling/", "/service-areas/ardmore-al/home-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Gurley", "url": "/service-areas/gurley-al/"}, {"name": "Home Remodeling"}]
 faq: []
 area_slug: "gurley-al"

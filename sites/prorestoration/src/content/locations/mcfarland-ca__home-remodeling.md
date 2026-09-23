@@ -7,10 +7,10 @@ primary_keyword: "home remodeling mcfarland"
 secondary_keywords: ["home renovation", "kitchen remodel", "bathroom remodel", "whole home remodel", "interior remodeling contractor"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "4733803ee28db176"
-generated_at: "2026-09-20T14:13:26.553826+00:00"
+plan_hash: "e36634bcb8468641"
+generated_at: "2026-09-23T14:11:55.991453+00:00"
 manual_override: false
-internal_links: ["/services/home-remodeling/", "/service-areas/mcfarland-ca/", "/service-areas/mcfarland-ca/fire-damage-restoration/", "/service-areas/mcfarland-ca/mold-remediation/", "/service-areas/arvin-ca/home-remodeling/", "/service-areas/buttonwillow-ca/home-remodeling/", "/contact/"]
+internal_links: ["/services/home-remodeling/", "/service-areas/mcfarland-ca/", "/service-areas/mcfarland-ca/fire-damage-restoration/", "/service-areas/mcfarland-ca/mold-remediation/", "/service-areas/arvin-ca/home-remodeling/", "/service-areas/bear-valley-springs-ca/home-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McFarland", "url": "/service-areas/mcfarland-ca/"}, {"name": "Home Remodeling"}]
 faq: []
 area_slug: "mcfarland-ca"

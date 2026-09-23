@@ -8,16 +8,16 @@ secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "ba5a2ad2b702aef0"
-generated_at: "2026-09-22T14:28:11.671745+00:00"
+generated_at: "2026-09-23T14:11:54.218775+00:00"
 manual_override: false
 internal_links: ["/services/water-cleanup/", "/service-areas/waller-wa/", "/service-areas/waller-wa/fire-damage-restoration/", "/service-areas/waller-wa/mold-remediation/", "/service-areas/algona-wa/water-cleanup/", "/service-areas/auburn-wa/water-cleanup/", "/contact/"]
-breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Waller", "url": "/service-areas/waller-wa/"}, {"name": "water-cleanup"}]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Waller", "url": "/service-areas/waller-wa/"}, {"name": "Emergency Water Cleanup"}]
 faq: []
 area_slug: "waller-wa"
 service_slug: "water-cleanup"
 city: "Waller"
 state: "WA"
-service_display: "water-cleanup"
+service_display: "Emergency Water Cleanup"
 ---
 <!-- Page body not yet generated. Run `build_site.py render --slug narestco` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
 

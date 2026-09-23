@@ -7,10 +7,10 @@ primary_keyword: "commercial restoration aliquippa"
 secondary_keywords: ["commercial water damage", "commercial fire damage", "business restoration", "office restoration", "retail restoration"]
 search_intent: "local_b2b"
 priority: 6.3
-plan_hash: "ed4f3977c1764588"
-generated_at: "2026-09-20T17:29:36.721337+00:00"
+plan_hash: "ed86571c2f38482a"
+generated_at: "2026-09-23T14:11:40.930401+00:00"
 manual_override: false
-internal_links: ["/services/commercial-restoration/", "/service-areas/aliquippa-pa/", "/service-areas/aliquippa-pa/fire-damage-restoration/", "/service-areas/aliquippa-pa/mold-remediation/", "/service-areas/baden-pa/commercial-restoration/", "/service-areas/beaver-falls-pa/commercial-restoration/", "/contact/"]
+internal_links: ["/services/commercial-restoration/", "/service-areas/aliquippa-pa/", "/service-areas/aliquippa-pa/fire-damage-restoration/", "/service-areas/aliquippa-pa/mold-remediation/", "/service-areas/allison-park-pa/commercial-restoration/", "/service-areas/baden-pa/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Aliquippa", "url": "/service-areas/aliquippa-pa/"}, {"name": "Commercial Restoration"}]
 faq: []
 area_slug: "aliquippa-pa"

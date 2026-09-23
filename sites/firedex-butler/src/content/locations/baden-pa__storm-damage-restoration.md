@@ -7,10 +7,10 @@ primary_keyword: "storm damage restoration baden"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "dbafec7666b750a1"
-generated_at: "2026-09-20T14:13:09.802946+00:00"
+plan_hash: "3800e91d4347ea6a"
+generated_at: "2026-09-23T14:11:40.909808+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/baden-pa/", "/service-areas/baden-pa/fire-damage-restoration/", "/service-areas/baden-pa/mold-remediation/", "/service-areas/beaver-falls-pa/storm-damage-restoration/", "/service-areas/bell-acres-pa/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/baden-pa/", "/service-areas/baden-pa/fire-damage-restoration/", "/service-areas/baden-pa/mold-remediation/", "/service-areas/aliquippa-pa/storm-damage-restoration/", "/service-areas/allison-park-pa/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Baden", "url": "/service-areas/baden-pa/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "baden-pa"

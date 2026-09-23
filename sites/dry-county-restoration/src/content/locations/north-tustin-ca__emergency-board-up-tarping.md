@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "a8050d46d36006a4"
-generated_at: "2026-09-20T19:36:54.073457+00:00"
+generated_at: "2026-09-23T14:11:36.218563+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/north-tustin-ca/", "/service-areas/north-tustin-ca/fire-damage-restoration/", "/service-areas/north-tustin-ca/mold-remediation/", "/service-areas/anaheim-ca/emergency-board-up-tarping/", "/service-areas/chino-ca/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Tustin", "url": "/service-areas/north-tustin-ca/"}, {"name": "Emergency Board-Up and Tarping"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "f64d765ff05d43a7"
-generated_at: "2026-09-21T15:54:35.821460+00:00"
+generated_at: "2026-09-23T14:11:34.801350+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/mineral-ridge-oh/", "/service-areas/mineral-ridge-oh/fire-damage-restoration/", "/service-areas/mineral-ridge-oh/mold-remediation/", "/service-areas/austintown-oh/general-contracting/", "/service-areas/boardman-oh/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mineral Ridge", "url": "/service-areas/mineral-ridge-oh/"}, {"name": "Renovations, Remodels and General Contracting"}]

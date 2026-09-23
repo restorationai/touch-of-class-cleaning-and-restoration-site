@@ -7,10 +7,10 @@ primary_keyword: "mold remediation hudson"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "cc63f2163e491be6"
-generated_at: "2026-09-20T20:42:17.522752+00:00"
+plan_hash: "cb39e03bb70850a4"
+generated_at: "2026-09-23T14:11:58.543616+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/hudson-ma/", "/service-areas/hudson-ma/fire-damage-restoration/", "/service-areas/hudson-ma/water-damage-restoration/", "/service-areas/east-douglas-ma/mold-remediation/", "/service-areas/fiskdale-ma/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/hudson-ma/", "/service-areas/hudson-ma/fire-damage-restoration/", "/service-areas/hudson-ma/roofing/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hudson", "url": "/service-areas/hudson-ma/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "hudson-ma"

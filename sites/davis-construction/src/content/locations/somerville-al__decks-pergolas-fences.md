@@ -7,10 +7,10 @@ primary_keyword: "decks, pergolas and fences somerville"
 secondary_keywords: ["deck builder", "deck installation", "pergola builder", "fence installation", "outdoor structure contractor"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "67d43a514160fe05"
-generated_at: "2026-09-22T02:11:07.732015+00:00"
+plan_hash: "8f5c37a47ed8f0d6"
+generated_at: "2026-09-23T14:11:32.867384+00:00"
 manual_override: false
-internal_links: ["/services/decks-pergolas-fences/", "/service-areas/somerville-al/", "/service-areas/somerville-al/home-remodeling/", "/service-areas/somerville-al/roofing/", "/service-areas/ardmore-al/decks-pergolas-fences/", "/service-areas/athens-al/decks-pergolas-fences/", "/contact/"]
+internal_links: ["/services/decks-pergolas-fences/", "/service-areas/somerville-al/", "/service-areas/somerville-al/home-remodeling/", "/service-areas/somerville-al/roofing/", "/service-areas/arab-al/decks-pergolas-fences/", "/service-areas/ardmore-al/decks-pergolas-fences/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Somerville", "url": "/service-areas/somerville-al/"}, {"name": "Decks, Pergolas and Fences"}]
 faq: []
 area_slug: "somerville-al"

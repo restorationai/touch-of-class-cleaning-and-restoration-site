@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "ca17e2de49429c8c"
-generated_at: "2026-09-22T14:27:31.947370+00:00"
+generated_at: "2026-09-23T14:11:40.975104+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/big-beaver-pa/", "/service-areas/big-beaver-pa/fire-damage-restoration/", "/service-areas/big-beaver-pa/mold-remediation/", "/service-areas/aliquippa-pa/biohazard-cleanup/", "/service-areas/allison-park-pa/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Big Beaver", "url": "/service-areas/big-beaver-pa/"}, {"name": "Biohazard Cleanup"}]

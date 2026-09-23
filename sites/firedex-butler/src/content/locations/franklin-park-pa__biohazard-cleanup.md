@@ -7,10 +7,10 @@ primary_keyword: "biohazard cleanup franklin park"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
 priority: 5.6
-plan_hash: "917f858e69d04708"
-generated_at: "2026-09-20T14:13:09.801049+00:00"
+plan_hash: "8448a9262b918cc2"
+generated_at: "2026-09-23T14:11:40.898616+00:00"
 manual_override: false
-internal_links: ["/services/biohazard-cleanup/", "/service-areas/franklin-park-pa/", "/service-areas/franklin-park-pa/fire-damage-restoration/", "/service-areas/franklin-park-pa/mold-remediation/", "/service-areas/baden-pa/biohazard-cleanup/", "/service-areas/beaver-falls-pa/biohazard-cleanup/", "/contact/"]
+internal_links: ["/services/biohazard-cleanup/", "/service-areas/franklin-park-pa/", "/service-areas/franklin-park-pa/fire-damage-restoration/", "/service-areas/franklin-park-pa/mold-remediation/", "/service-areas/aliquippa-pa/biohazard-cleanup/", "/service-areas/allison-park-pa/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Franklin Park", "url": "/service-areas/franklin-park-pa/"}, {"name": "Biohazard Cleanup"}]
 faq: []
 area_slug: "franklin-park-pa"

@@ -7,10 +7,10 @@ primary_keyword: "upholstery cleaning bluffdale"
 secondary_keywords: ["sofa cleaning", "couch cleaning", "furniture steam cleaning", "leather upholstery cleaning", "fabric upholstery cleaning"]
 search_intent: "local_specialty"
 priority: 2.8
-plan_hash: "54c829bd21a8278d"
-generated_at: "2026-09-20T17:29:46.323905+00:00"
+plan_hash: "0e2a57b89a2748e7"
+generated_at: "2026-09-23T14:11:49.779719+00:00"
 manual_override: false
-internal_links: ["/services/upholstery-cleaning/", "/service-areas/bluffdale-ut/", "/service-areas/bluffdale-ut/fire-damage-restoration/", "/service-areas/bluffdale-ut/mold-remediation/", "/service-areas/american-fork-ut/upholstery-cleaning/", "/service-areas/cedar-fort-ut/upholstery-cleaning/", "/contact/"]
+internal_links: ["/services/upholstery-cleaning/", "/service-areas/bluffdale-ut/", "/service-areas/bluffdale-ut/fire-damage-restoration/", "/service-areas/bluffdale-ut/mold-remediation/", "/service-areas/alpine-ut/upholstery-cleaning/", "/service-areas/american-fork-ut/upholstery-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bluffdale", "url": "/service-areas/bluffdale-ut/"}, {"name": "Upholstery Cleaning"}]
 faq: []
 area_slug: "bluffdale-ut"

@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration blue diamond"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "6b9760b7c84ef175"
-generated_at: "2026-09-20T14:13:21.541464+00:00"
+plan_hash: "fc5e4e24984692ff"
+generated_at: "2026-09-23T14:11:52.252594+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/blue-diamond-nv/", "/service-areas/blue-diamond-nv/fire-damage-restoration/", "/service-areas/blue-diamond-nv/mold-remediation/", "/service-areas/boulder-city-nv/water-damage-restoration/", "/service-areas/enterprise-nv/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/blue-diamond-nv/", "/service-areas/blue-diamond-nv/fire-damage-restoration/", "/service-areas/blue-diamond-nv/mold-remediation/", "/service-areas/boulder-city-nv/water-damage-restoration/", "/service-areas/cal-nev-ari-nv/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Blue Diamond", "url": "/service-areas/blue-diamond-nv/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "blue-diamond-nv"

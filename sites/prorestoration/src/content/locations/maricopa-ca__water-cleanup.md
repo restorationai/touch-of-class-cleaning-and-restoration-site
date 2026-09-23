@@ -8,16 +8,16 @@ secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "2859996e65ebe85f"
-generated_at: "2026-09-21T14:13:38.469171+00:00"
+generated_at: "2026-09-23T14:11:56.031381+00:00"
 manual_override: false
 internal_links: ["/services/water-cleanup/", "/service-areas/maricopa-ca/", "/service-areas/maricopa-ca/fire-damage-restoration/", "/service-areas/maricopa-ca/home-remodeling/", "/service-areas/arvin-ca/water-cleanup/", "/service-areas/bear-valley-springs-ca/water-cleanup/", "/contact/"]
-breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Maricopa", "url": "/service-areas/maricopa-ca/"}, {"name": "water-cleanup"}]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Maricopa", "url": "/service-areas/maricopa-ca/"}, {"name": "Emergency Water Cleanup"}]
 faq: []
 area_slug: "maricopa-ca"
 service_slug: "water-cleanup"
 city: "Maricopa"
 state: "CA"
-service_display: "water-cleanup"
+service_display: "Emergency Water Cleanup"
 ---
 <!-- Page body not yet generated. Run `build_site.py render --slug prorestoration` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
 

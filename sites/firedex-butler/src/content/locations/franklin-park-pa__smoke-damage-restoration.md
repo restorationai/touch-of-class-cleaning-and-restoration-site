@@ -7,10 +7,10 @@ primary_keyword: "smoke damage restoration franklin park"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "527fb1368c1839b8"
-generated_at: "2026-09-20T14:13:09.800200+00:00"
+plan_hash: "b3226168a5b0d454"
+generated_at: "2026-09-23T14:11:40.902892+00:00"
 manual_override: false
-internal_links: ["/services/smoke-damage-restoration/", "/service-areas/franklin-park-pa/", "/service-areas/franklin-park-pa/fire-damage-restoration/", "/service-areas/franklin-park-pa/mold-remediation/", "/service-areas/baden-pa/smoke-damage-restoration/", "/service-areas/beaver-falls-pa/smoke-damage-restoration/", "/contact/"]
+internal_links: ["/services/smoke-damage-restoration/", "/service-areas/franklin-park-pa/", "/service-areas/franklin-park-pa/fire-damage-restoration/", "/service-areas/franklin-park-pa/mold-remediation/", "/service-areas/aliquippa-pa/smoke-damage-restoration/", "/service-areas/allison-park-pa/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Franklin Park", "url": "/service-areas/franklin-park-pa/"}, {"name": "Smoke Damage Restoration"}]
 faq: []
 area_slug: "franklin-park-pa"

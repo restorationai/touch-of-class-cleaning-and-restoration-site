@@ -7,10 +7,10 @@ primary_keyword: "mold remediation seatac"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "80fdc0e8ff317661"
-generated_at: "2026-09-20T17:29:51.151256+00:00"
+plan_hash: "331699a5bf307cca"
+generated_at: "2026-09-23T14:11:54.150460+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/seatac-wa/", "/service-areas/seatac-wa/fire-damage-restoration/", "/service-areas/seatac-wa/water-damage-restoration/", "/service-areas/algona-wa/mold-remediation/", "/service-areas/auburn-wa/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/seatac-wa/", "/service-areas/seatac-wa/fire-damage-restoration/", "/service-areas/seatac-wa/roofing/", "/service-areas/algona-wa/mold-remediation/", "/service-areas/auburn-wa/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "SeaTac", "url": "/service-areas/seatac-wa/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "seatac-wa"

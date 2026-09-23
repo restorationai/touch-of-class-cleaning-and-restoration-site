@@ -7,10 +7,10 @@ primary_keyword: "burst pipe cleanup and repair valley acres"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
 priority: 5.6
-plan_hash: "39f783305061c4e5"
-generated_at: "2026-09-20T17:29:54.889618+00:00"
+plan_hash: "fb3e484790d6dbe5"
+generated_at: "2026-09-23T14:11:55.996397+00:00"
 manual_override: false
-internal_links: ["/services/burst-pipe-repair/", "/service-areas/valley-acres-ca/", "/service-areas/valley-acres-ca/fire-damage-restoration/", "/service-areas/valley-acres-ca/home-remodeling/", "/service-areas/arvin-ca/burst-pipe-repair/", "/service-areas/buttonwillow-ca/burst-pipe-repair/", "/contact/"]
+internal_links: ["/services/burst-pipe-repair/", "/service-areas/valley-acres-ca/", "/service-areas/valley-acres-ca/fire-damage-restoration/", "/service-areas/valley-acres-ca/home-remodeling/", "/service-areas/arvin-ca/burst-pipe-repair/", "/service-areas/bear-valley-springs-ca/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Valley Acres", "url": "/service-areas/valley-acres-ca/"}, {"name": "Burst Pipe Cleanup and Repair"}]
 faq: []
 area_slug: "valley-acres-ca"

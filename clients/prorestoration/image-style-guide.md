@@ -219,7 +219,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Flood Damage Restoration, Burst Pipe Cleanup and Repair, Appliance Leak Cleanup, Sewage Cleanup and Sanitization, Fire Damage Restoration, Smoke Damage Restoration, Soot Removal, Odor Removal and Deodorization, Mold Remediation, Mold Inspection and Testing, Storm Damage Restoration, Carpet Cleaning, Reconstruction Services, Home Remodeling, Renovations, Remodels and General Contracting, Emergency Water Cleanup)
+- [ ] (continue for each of Air Duct Cleaning, Appliance Leak Cleanup, Asbestos Abatement, Biohazard Cleanup, Burst Pipe Cleanup and Repair, Carpet Cleaning, Contents Restoration & Storage, Crawl Space Encapsulation, Emergency Board-Up and Tarping, Emergency Plumbing, Fire Damage Restoration, Flood Damage Restoration, Renovations, Remodels and General Contracting, Home Remodeling, Mold Inspection and Testing, Mold Remediation, Odor Removal and Deodorization, Post-Construction and Specialty Cleaning, Reconstruction Services, Roofing Installation and Replacement, Sewage Cleanup and Sanitization, Smoke Damage Restoration, Soot Removal, Storm Damage Restoration, Emergency Water Cleanup, Water Damage Restoration, Water Leak Detection)
 
 ### Service area pages (one image per city served)
 - [ ] Bakersfield hero — exterior shot, regional housing stock, evocative of the city

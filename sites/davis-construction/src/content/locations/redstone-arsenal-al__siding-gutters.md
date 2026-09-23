@@ -7,10 +7,10 @@ primary_keyword: "siding and gutters redstone arsenal"
 secondary_keywords: ["siding contractor", "siding installation", "siding replacement", "gutter installation", "exterior contractor"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "2ebe114a93a3eece"
-generated_at: "2026-09-20T14:13:03.668653+00:00"
+plan_hash: "715947045e407f50"
+generated_at: "2026-09-23T14:11:32.832225+00:00"
 manual_override: false
-internal_links: ["/services/siding-gutters/", "/service-areas/redstone-arsenal-al/", "/service-areas/redstone-arsenal-al/home-remodeling/", "/service-areas/redstone-arsenal-al/roofing/", "/service-areas/athens-al/siding-gutters/", "/service-areas/harvest-al/siding-gutters/", "/contact/"]
+internal_links: ["/services/siding-gutters/", "/service-areas/redstone-arsenal-al/", "/service-areas/redstone-arsenal-al/home-remodeling/", "/service-areas/redstone-arsenal-al/roofing/", "/service-areas/arab-al/siding-gutters/", "/service-areas/ardmore-al/siding-gutters/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Redstone Arsenal", "url": "/service-areas/redstone-arsenal-al/"}, {"name": "Siding and Gutters"}]
 faq: []
 area_slug: "redstone-arsenal-al"

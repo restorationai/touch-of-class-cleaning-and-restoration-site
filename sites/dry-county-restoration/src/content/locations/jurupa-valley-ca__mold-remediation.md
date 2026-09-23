@@ -7,10 +7,10 @@ primary_keyword: "mold remediation jurupa valley"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "a899d32467f035f7"
-generated_at: "2026-09-20T14:13:06.381273+00:00"
+plan_hash: "505fcbc15d3be946"
+generated_at: "2026-09-23T14:11:36.189892+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/jurupa-valley-ca/", "/service-areas/jurupa-valley-ca/fire-damage-restoration/", "/service-areas/jurupa-valley-ca/water-damage-restoration/", "/service-areas/anaheim-ca/mold-remediation/", "/service-areas/chino-ca/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/jurupa-valley-ca/", "/service-areas/jurupa-valley-ca/fire-damage-restoration/", "/service-areas/jurupa-valley-ca/roofing/", "/service-areas/anaheim-ca/mold-remediation/", "/service-areas/chino-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Jurupa Valley", "url": "/service-areas/jurupa-valley-ca/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "jurupa-valley-ca"

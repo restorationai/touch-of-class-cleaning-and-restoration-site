@@ -28,8 +28,8 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `Reign Restoration` | plan-input `brand.display_name` | `National Restoration Construction` |
 | `Reign Restoration` | plan-input `brand.short_name` | `NARESTCO` |
 | `Reign Restoration` | plan-input `brand.legal_name` | `National Restoration Construction LLC` |
-| `` | client record `domain` | `narestco.com` |
-| `https://None` | derived | `https://narestco.com` |
+| `reign-restoration.com` | client record `domain` | `narestco.com` |
+| `https://reign-restoration.com` | derived | `https://narestco.com` |
 | `(214) 304-0621` / `+12143040621` | brand.phone | `(206) 883-0333` / `+12068830333` |
 | `jerrott@reign-restoration.com` | brand.email | `info@narestco.com` |
 | `24/7` | brand.hours | `24/7` |
@@ -37,31 +37,54 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `Royse City` / `TX` | derived from primary area | `Federal Way` / `WA` |
 | `6691 TX- 276 STE C` / `75189` | brand.street_address / brand.postal_code | |
 | `32.9761045` / `-96.331334` | brand.lat / brand.lng | from GBP |
-| `` / `` | brand.place_id / brand.google_cid | from GBP |
+| `ChIJXzVQsb7lS4YR7G33273qh8c` / `` | brand.place_id / brand.google_cid | from GBP |
 | `["MRC2276"]` | brand.license_numbers (JSON-encoded array) | `["NATIORC792M6"]` |
 | `` / `` | brand.license_authority / brand.license_type | |
 | `["IICRC WRT (WATER)", "IICRC CERTIFIED FIRM", "IICRC AMRT (MOLD)", "IICRC FSRT (FIRE & SMOKE)"]` | brand.certifications (JSON-encoded array) | `["IICRC", "BBB Accredited"]` |
 | `[]` | brand.same_as_urls (JSON-encoded array) | |
 | `` / `` | from GBP | `5.0` / `31` |
 | `24/7 restoration services in Royse City, TX.` | brand.tagline | short marketing line |
-| `#dc2626` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
+| `#f2b623` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
 | `Inter` / `Inter` | brand.fonts | `Inter` / `Inter` |
-| `https://images.None/brand/logo.png` / `RR` | derived; logo lives on the per-client R2 bucket | |
-| `https://images.None` | `https://images.{domain}` | |
-| `- [Water Damage Restoration](https://None/services/water-damage-restoration/)
-- [Fire Damage Restoration](https://None/services/fire-damage-restoration/)
-- [Mold Remediation](https://None/services/mold-remediation/)
-- [Storm Damage Restoration](https://None/services/storm-damage-restoration/)
-- [Renovations, Remodels and General Contracting](https://None/services/general-contracting/)
-- [Contents Restoration and Storage](https://None/services/contents-restoration/)` / `- [Royse City, TX](https://None/service-areas/royse-city-tx/)
-- [Rockwall, TX](https://None/service-areas/rockwall-tx/)
-- [Rowlett, TX](https://None/service-areas/rowlett-tx/)
-- [Greenville, TX](https://None/service-areas/greenville-tx/)
-- [Wylie, TX](https://None/service-areas/wylie-tx/)
-- [Garland, TX](https://None/service-areas/garland-tx/)
-- [Mesquite, TX](https://None/service-areas/mesquite-tx/)
-- [Terrell, TX](https://None/service-areas/terrell-tx/)
-- [Fate, TX](https://None/service-areas/fate-tx/)` / `IICRC WRT (WATER), IICRC CERTIFIED FIRM, IICRC AMRT (MOLD), IICRC FSRT (FIRE & SMOKE)` / `Greater Royse City region` | computed at scaffold from plan + brand | |
+| `/images/logo.png` / `RR` | derived; logo lives on the per-client R2 bucket | |
+| `https://images.reign-restoration.com` | `https://images.{domain}` | |
+| `- [Contents Restoration and Storage](https://reign-restoration.com/services/contents-restoration/)
+- [Contents Restoration & Storage](https://reign-restoration.com/services/contents-restoration-storage/)
+- [Fire Damage Restoration](https://reign-restoration.com/services/fire-damage-restoration/)
+- [Renovations, Remodels and General Contracting](https://reign-restoration.com/services/general-contracting/)
+- [Mold Remediation](https://reign-restoration.com/services/mold-remediation/)
+- [Odor Removal and Deodorization](https://reign-restoration.com/services/odor-removal/)
+- [Roofing Installation and Replacement](https://reign-restoration.com/services/roofing/)
+- [Storm Damage Restoration](https://reign-restoration.com/services/storm-damage-restoration/)
+- [Water Damage Restoration](https://reign-restoration.com/services/water-damage-restoration/)` / `- [Royse City, TX](https://reign-restoration.com/service-areas/royse-city-tx/)
+- [Rockwall, TX](https://reign-restoration.com/service-areas/rockwall-tx/)
+- [Fate, TX](https://reign-restoration.com/service-areas/fate-tx/)
+- [Rowlett, TX](https://reign-restoration.com/service-areas/rowlett-tx/)
+- [Wylie, TX](https://reign-restoration.com/service-areas/wylie-tx/)
+- [Garland, TX](https://reign-restoration.com/service-areas/garland-tx/)
+- [Mesquite, TX](https://reign-restoration.com/service-areas/mesquite-tx/)
+- [Dallas, TX](https://reign-restoration.com/service-areas/dallas-tx/)
+- [Richardson, TX](https://reign-restoration.com/service-areas/richardson-tx/)
+- [Plano, TX](https://reign-restoration.com/service-areas/plano-tx/)
+- [Allen, TX](https://reign-restoration.com/service-areas/allen-tx/)
+- [McKinney, TX](https://reign-restoration.com/service-areas/mckinney-tx/)
+- [Frisco, TX](https://reign-restoration.com/service-areas/frisco-tx/)
+- [Highland Park, TX](https://reign-restoration.com/service-areas/highland-park-tx/)
+- [University Park, TX](https://reign-restoration.com/service-areas/university-park-tx/)
+- [Greenville, TX](https://reign-restoration.com/service-areas/greenville-tx/)
+- [Terrell, TX](https://reign-restoration.com/service-areas/terrell-tx/)
+- [Nevada, TX](https://reign-restoration.com/service-areas/nevada-tx/)
+- [Union Valley, TX](https://reign-restoration.com/service-areas/union-valley-tx/)
+- [Josephine, TX](https://reign-restoration.com/service-areas/josephine-tx/)
+- [Lavon, TX](https://reign-restoration.com/service-areas/lavon-tx/)
+- [McLendon-Chisholm, TX](https://reign-restoration.com/service-areas/mclendon-chisholm-tx/)
+- [Caddo Mills, TX](https://reign-restoration.com/service-areas/caddo-mills-tx/)
+- [Poetry, TX](https://reign-restoration.com/service-areas/poetry-tx/)
+- [Heath, TX](https://reign-restoration.com/service-areas/heath-tx/)
+- [Farmersville, TX](https://reign-restoration.com/service-areas/farmersville-tx/)
+- [Sachse, TX](https://reign-restoration.com/service-areas/sachse-tx/)
+- [Lucas, TX](https://reign-restoration.com/service-areas/lucas-tx/)
+- [Murphy, TX](https://reign-restoration.com/service-areas/murphy-tx/)` / `IICRC WRT (WATER), IICRC CERTIFIED FIRM, IICRC AMRT (MOLD), IICRC FSRT (FIRE & SMOKE)` / `Greater Royse City region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

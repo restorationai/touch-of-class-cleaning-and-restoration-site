@@ -7,10 +7,10 @@ primary_keyword: "commercial restoration sewickley hills"
 secondary_keywords: ["commercial water damage", "commercial fire damage", "business restoration", "office restoration", "retail restoration"]
 search_intent: "local_b2b"
 priority: 6.3
-plan_hash: "1a8cd23b9f95bfd6"
-generated_at: "2026-09-20T19:17:19.890184+00:00"
+plan_hash: "d3fa8563ae3701fc"
+generated_at: "2026-09-23T14:11:40.936674+00:00"
 manual_override: false
-internal_links: ["/services/commercial-restoration/", "/service-areas/sewickley-hills-pa/", "/service-areas/sewickley-hills-pa/fire-damage-restoration/", "/service-areas/sewickley-hills-pa/mold-remediation/", "/service-areas/aliquippa-pa/commercial-restoration/", "/service-areas/baden-pa/commercial-restoration/", "/contact/"]
+internal_links: ["/services/commercial-restoration/", "/service-areas/sewickley-hills-pa/", "/service-areas/sewickley-hills-pa/fire-damage-restoration/", "/service-areas/sewickley-hills-pa/mold-remediation/", "/service-areas/aliquippa-pa/commercial-restoration/", "/service-areas/allison-park-pa/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sewickley Hills", "url": "/service-areas/sewickley-hills-pa/"}, {"name": "Commercial Restoration"}]
 faq: []
 area_slug: "sewickley-hills-pa"

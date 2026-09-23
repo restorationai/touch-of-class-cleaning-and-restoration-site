@@ -7,10 +7,10 @@ primary_keyword: "emergency water cleanup riverton"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "c7c6c2c03ff13c7d"
-generated_at: "2026-09-20T14:13:18.718417+00:00"
+plan_hash: "bdea259023538d73"
+generated_at: "2026-09-23T14:11:49.723386+00:00"
 manual_override: false
-internal_links: ["/services/water-cleanup/", "/service-areas/riverton-ut/", "/service-areas/riverton-ut/fire-damage-restoration/", "/service-areas/riverton-ut/mold-remediation/", "/service-areas/american-fork-ut/water-cleanup/", "/service-areas/cedar-fort-ut/water-cleanup/", "/contact/"]
+internal_links: ["/services/water-cleanup/", "/service-areas/riverton-ut/", "/service-areas/riverton-ut/fire-damage-restoration/", "/service-areas/riverton-ut/mold-remediation/", "/service-areas/alpine-ut/water-cleanup/", "/service-areas/american-fork-ut/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Riverton", "url": "/service-areas/riverton-ut/"}, {"name": "water-cleanup"}]
 faq: []
 area_slug: "riverton-ut"

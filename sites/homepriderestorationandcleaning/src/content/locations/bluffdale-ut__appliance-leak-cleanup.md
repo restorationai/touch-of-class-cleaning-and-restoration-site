@@ -7,10 +7,10 @@ primary_keyword: "appliance leak cleanup bluffdale"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
 priority: 4.2
-plan_hash: "0bc30b7ec012d8f5"
-generated_at: "2026-09-20T17:29:46.321925+00:00"
+plan_hash: "9216e7ee32807fe3"
+generated_at: "2026-09-23T14:11:49.773511+00:00"
 manual_override: false
-internal_links: ["/services/appliance-leak-cleanup/", "/service-areas/bluffdale-ut/", "/service-areas/bluffdale-ut/fire-damage-restoration/", "/service-areas/bluffdale-ut/mold-remediation/", "/service-areas/american-fork-ut/appliance-leak-cleanup/", "/service-areas/cedar-fort-ut/appliance-leak-cleanup/", "/contact/"]
+internal_links: ["/services/appliance-leak-cleanup/", "/service-areas/bluffdale-ut/", "/service-areas/bluffdale-ut/fire-damage-restoration/", "/service-areas/bluffdale-ut/mold-remediation/", "/service-areas/alpine-ut/appliance-leak-cleanup/", "/service-areas/american-fork-ut/appliance-leak-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bluffdale", "url": "/service-areas/bluffdale-ut/"}, {"name": "Appliance Leak Cleanup"}]
 faq: []
 area_slug: "bluffdale-ut"

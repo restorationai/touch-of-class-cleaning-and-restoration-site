@@ -7,10 +7,10 @@ primary_keyword: "burst pipe cleanup and repair lindon"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
 priority: 5.6
-plan_hash: "d1720c69d9f575eb"
-generated_at: "2026-09-20T14:13:18.726355+00:00"
+plan_hash: "1b32cc4bea0ca3a2"
+generated_at: "2026-09-23T14:11:49.744390+00:00"
 manual_override: false
-internal_links: ["/services/burst-pipe-repair/", "/service-areas/lindon-ut/", "/service-areas/lindon-ut/fire-damage-restoration/", "/service-areas/lindon-ut/mold-remediation/", "/service-areas/american-fork-ut/burst-pipe-repair/", "/service-areas/cedar-fort-ut/burst-pipe-repair/", "/contact/"]
+internal_links: ["/services/burst-pipe-repair/", "/service-areas/lindon-ut/", "/service-areas/lindon-ut/fire-damage-restoration/", "/service-areas/lindon-ut/mold-remediation/", "/service-areas/alpine-ut/burst-pipe-repair/", "/service-areas/american-fork-ut/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lindon", "url": "/service-areas/lindon-ut/"}, {"name": "Burst Pipe Cleanup and Repair"}]
 faq: []
 area_slug: "lindon-ut"

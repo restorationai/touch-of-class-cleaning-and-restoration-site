@@ -7,10 +7,10 @@ primary_keyword: "emergency water cleanup boulder city"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "54c1749053a04115"
-generated_at: "2026-09-20T14:13:21.536841+00:00"
+plan_hash: "2c5cd35a59fc9844"
+generated_at: "2026-09-23T14:11:52.239857+00:00"
 manual_override: false
-internal_links: ["/services/water-cleanup/", "/service-areas/boulder-city-nv/", "/service-areas/boulder-city-nv/fire-damage-restoration/", "/service-areas/boulder-city-nv/mold-remediation/", "/service-areas/blue-diamond-nv/water-cleanup/", "/service-areas/enterprise-nv/water-cleanup/", "/contact/"]
+internal_links: ["/services/water-cleanup/", "/service-areas/boulder-city-nv/", "/service-areas/boulder-city-nv/fire-damage-restoration/", "/service-areas/boulder-city-nv/mold-remediation/", "/service-areas/blue-diamond-nv/water-cleanup/", "/service-areas/cal-nev-ari-nv/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Boulder City", "url": "/service-areas/boulder-city-nv/"}, {"name": "water-cleanup"}]
 faq: []
 area_slug: "boulder-city-nv"

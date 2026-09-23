@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "7a1e22cbcb5f94a3"
-generated_at: "2026-09-22T02:11:15.631289+00:00"
+generated_at: "2026-09-23T14:11:40.973173+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/ellwood-city-pa/", "/service-areas/ellwood-city-pa/fire-damage-restoration/", "/service-areas/ellwood-city-pa/mold-remediation/", "/service-areas/aliquippa-pa/smoke-damage-restoration/", "/service-areas/allison-park-pa/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ellwood City", "url": "/service-areas/ellwood-city-pa/"}, {"name": "Smoke Damage Restoration"}]

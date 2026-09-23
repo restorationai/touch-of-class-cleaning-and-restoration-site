@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "73b983ed38984205"
-generated_at: "2026-09-21T15:54:35.826164+00:00"
+generated_at: "2026-09-23T14:11:34.808021+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/sharon-pa/", "/service-areas/sharon-pa/fire-damage-restoration/", "/service-areas/sharon-pa/mold-remediation/", "/service-areas/austintown-oh/biohazard-cleanup/", "/service-areas/boardman-oh/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sharon", "url": "/service-areas/sharon-pa/"}, {"name": "Biohazard Cleanup"}]

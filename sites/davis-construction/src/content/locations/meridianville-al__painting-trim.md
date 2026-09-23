@@ -7,10 +7,10 @@ primary_keyword: "painting and trim meridianville"
 secondary_keywords: ["painting contractor", "interior painting", "exterior painting", "house painter", "trim painting"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "36385bb7c0915153"
-generated_at: "2026-09-20T14:13:03.670363+00:00"
+plan_hash: "5636c954488a2c40"
+generated_at: "2026-09-23T14:11:32.834933+00:00"
 manual_override: false
-internal_links: ["/services/painting-trim/", "/service-areas/meridianville-al/", "/service-areas/meridianville-al/home-remodeling/", "/service-areas/meridianville-al/roofing/", "/service-areas/athens-al/painting-trim/", "/service-areas/harvest-al/painting-trim/", "/contact/"]
+internal_links: ["/services/painting-trim/", "/service-areas/meridianville-al/", "/service-areas/meridianville-al/home-remodeling/", "/service-areas/meridianville-al/roofing/", "/service-areas/arab-al/painting-trim/", "/service-areas/ardmore-al/painting-trim/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Meridianville", "url": "/service-areas/meridianville-al/"}, {"name": "Painting and Trim"}]
 faq: []
 area_slug: "meridianville-al"

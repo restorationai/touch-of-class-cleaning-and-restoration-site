@@ -7,10 +7,10 @@ primary_keyword: "mold inspection and testing weedpatch"
 secondary_keywords: ["mold inspection", "mold testing", "indoor air quality testing", "mold spore testing", "mold assessment"]
 search_intent: "local_health"
 priority: 5.6
-plan_hash: "14f4d07f44cdbe6f"
-generated_at: "2026-09-20T14:13:26.544460+00:00"
+plan_hash: "537d509f4dfc92cb"
+generated_at: "2026-09-23T14:11:55.969852+00:00"
 manual_override: false
-internal_links: ["/services/mold-inspection-testing/", "/service-areas/weedpatch-ca/", "/service-areas/weedpatch-ca/fire-damage-restoration/", "/service-areas/weedpatch-ca/home-remodeling/", "/service-areas/arvin-ca/mold-inspection-testing/", "/service-areas/buttonwillow-ca/mold-inspection-testing/", "/contact/"]
+internal_links: ["/services/mold-inspection-testing/", "/service-areas/weedpatch-ca/", "/service-areas/weedpatch-ca/fire-damage-restoration/", "/service-areas/weedpatch-ca/home-remodeling/", "/service-areas/arvin-ca/mold-inspection-testing/", "/service-areas/bear-valley-springs-ca/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Weedpatch", "url": "/service-areas/weedpatch-ca/"}, {"name": "Mold Inspection and Testing"}]
 faq: []
 area_slug: "weedpatch-ca"

@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "de68eb7d8f6675f9"
-generated_at: "2026-09-20T14:13:45.354401+00:00"
+generated_at: "2026-09-23T14:12:06.568724+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/avenel-nj/", "/service-areas/avenel-nj/fire-damage-restoration/", "/service-areas/avenel-nj/mold-remediation/", "/service-areas/bayonne-nj/commercial-restoration/", "/service-areas/bloomfield-nj/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Avenel", "url": "/service-areas/avenel-nj/"}, {"name": "Commercial Restoration"}]

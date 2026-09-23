@@ -7,10 +7,10 @@ primary_keyword: "mold inspection and testing tarina"
 secondary_keywords: ["mold inspection", "mold testing", "indoor air quality testing", "mold spore testing", "mold assessment"]
 search_intent: "local_health"
 priority: 5.6
-plan_hash: "929f8a14d3293fe7"
-generated_at: "2026-09-20T14:13:26.541523+00:00"
+plan_hash: "43843b5ed577e188"
+generated_at: "2026-09-23T14:11:55.960914+00:00"
 manual_override: false
-internal_links: ["/services/mold-inspection-testing/", "/service-areas/tarina-ca/", "/service-areas/tarina-ca/fire-damage-restoration/", "/service-areas/tarina-ca/home-remodeling/", "/service-areas/arvin-ca/mold-inspection-testing/", "/service-areas/buttonwillow-ca/mold-inspection-testing/", "/contact/"]
+internal_links: ["/services/mold-inspection-testing/", "/service-areas/tarina-ca/", "/service-areas/tarina-ca/fire-damage-restoration/", "/service-areas/tarina-ca/home-remodeling/", "/service-areas/arvin-ca/mold-inspection-testing/", "/service-areas/bear-valley-springs-ca/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tarina", "url": "/service-areas/tarina-ca/"}, {"name": "Mold Inspection and Testing"}]
 faq: []
 area_slug: "tarina-ca"

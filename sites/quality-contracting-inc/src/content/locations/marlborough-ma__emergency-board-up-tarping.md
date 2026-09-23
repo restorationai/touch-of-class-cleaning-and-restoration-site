@@ -7,10 +7,10 @@ primary_keyword: "emergency board-up and tarping marlborough"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
 priority: 4.9
-plan_hash: "b574def362852556"
-generated_at: "2026-09-20T19:37:18.511722+00:00"
+plan_hash: "25b0792acbe0d2c2"
+generated_at: "2026-09-23T14:11:58.537442+00:00"
 manual_override: false
-internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/marlborough-ma/", "/service-areas/marlborough-ma/fire-damage-restoration/", "/service-areas/marlborough-ma/mold-remediation/", "/service-areas/east-douglas-ma/emergency-board-up-tarping/", "/service-areas/fiskdale-ma/emergency-board-up-tarping/", "/contact/"]
+internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/marlborough-ma/", "/service-areas/marlborough-ma/fire-damage-restoration/", "/service-areas/marlborough-ma/mold-remediation/", "/service-areas/bellingham-ma/emergency-board-up-tarping/", "/service-areas/east-douglas-ma/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Marlborough", "url": "/service-areas/marlborough-ma/"}, {"name": "Emergency Board-Up and Tarping"}]
 faq: []
 area_slug: "marlborough-ma"

@@ -8,7 +8,7 @@ secondary_keywords: ["roof leak cleanup", "ceiling water damage", "attic water d
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "62f429e9bdfa34c5"
-generated_at: "2026-09-20T14:13:23.233817+00:00"
+generated_at: "2026-09-23T14:11:54.095092+00:00"
 manual_override: false
 internal_links: ["/services/roof-leak-repair/", "/service-areas/lakeland-north-wa/", "/service-areas/lakeland-north-wa/fire-damage-restoration/", "/service-areas/lakeland-north-wa/mold-remediation/", "/service-areas/algona-wa/roof-leak-repair/", "/service-areas/auburn-wa/roof-leak-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lakeland North", "url": "/service-areas/lakeland-north-wa/"}, {"name": "Roof Leak Cleanup and Repair"}]

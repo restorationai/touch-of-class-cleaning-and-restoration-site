@@ -7,10 +7,10 @@ primary_keyword: "crawl space encapsulation oxford"
 secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "710276c2608d5238"
-generated_at: "2026-09-20T14:13:32.569947+00:00"
+plan_hash: "a3e1286788132452"
+generated_at: "2026-09-23T14:11:58.494493+00:00"
 manual_override: false
-internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/oxford-ma/", "/service-areas/oxford-ma/fire-damage-restoration/", "/service-areas/oxford-ma/mold-remediation/", "/service-areas/east-douglas-ma/crawl-space-encapsulation/", "/service-areas/framingham-ma/crawl-space-encapsulation/", "/contact/"]
+internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/oxford-ma/", "/service-areas/oxford-ma/fire-damage-restoration/", "/service-areas/oxford-ma/mold-remediation/", "/service-areas/bellingham-ma/crawl-space-encapsulation/", "/service-areas/east-douglas-ma/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oxford", "url": "/service-areas/oxford-ma/"}, {"name": "Crawl Space Encapsulation"}]
 faq: []
 area_slug: "oxford-ma"

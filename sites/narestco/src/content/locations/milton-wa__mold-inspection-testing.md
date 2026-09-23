@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "de02855b86bad2be"
-generated_at: "2026-09-20T14:13:23.250960+00:00"
+generated_at: "2026-09-23T14:11:54.131855+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/milton-wa/", "/service-areas/milton-wa/fire-damage-restoration/", "/service-areas/milton-wa/mold-remediation/", "/service-areas/algona-wa/mold-inspection-testing/", "/service-areas/auburn-wa/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Milton", "url": "/service-areas/milton-wa/"}, {"name": "Mold Inspection and Testing"}]

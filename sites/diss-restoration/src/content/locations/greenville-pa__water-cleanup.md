@@ -8,16 +8,16 @@ secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "fbe9119ef51770eb"
-generated_at: "2026-09-21T15:54:35.838550+00:00"
+generated_at: "2026-09-23T14:11:34.834306+00:00"
 manual_override: false
 internal_links: ["/services/water-cleanup/", "/service-areas/greenville-pa/", "/service-areas/greenville-pa/fire-damage-restoration/", "/service-areas/greenville-pa/mold-remediation/", "/service-areas/austintown-oh/water-cleanup/", "/service-areas/boardman-oh/water-cleanup/", "/contact/"]
-breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Greenville", "url": "/service-areas/greenville-pa/"}, {"name": "water-cleanup"}]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Greenville", "url": "/service-areas/greenville-pa/"}, {"name": "Emergency Water Cleanup"}]
 faq: []
 area_slug: "greenville-pa"
 service_slug: "water-cleanup"
 city: "Greenville"
 state: "PA"
-service_display: "water-cleanup"
+service_display: "Emergency Water Cleanup"
 ---
 <!-- Page body not yet generated. Run `build_site.py render --slug diss-restoration` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
 

@@ -8,16 +8,16 @@ secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "7ac916b3b01d65cf"
-generated_at: "2026-09-20T14:13:23.230639+00:00"
+generated_at: "2026-09-23T14:11:54.075066+00:00"
 manual_override: false
 internal_links: ["/services/water-cleanup/", "/service-areas/redmond-wa/", "/service-areas/redmond-wa/fire-damage-restoration/", "/service-areas/redmond-wa/mold-remediation/", "/service-areas/algona-wa/water-cleanup/", "/service-areas/auburn-wa/water-cleanup/", "/contact/"]
-breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Redmond", "url": "/service-areas/redmond-wa/"}, {"name": "water-cleanup"}]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Redmond", "url": "/service-areas/redmond-wa/"}, {"name": "Emergency Water Cleanup"}]
 faq: []
 area_slug: "redmond-wa"
 service_slug: "water-cleanup"
 city: "Redmond"
 state: "WA"
-service_display: "water-cleanup"
+service_display: "Emergency Water Cleanup"
 ---
 <!-- Page body not yet generated. Run `build_site.py render --slug narestco` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
 

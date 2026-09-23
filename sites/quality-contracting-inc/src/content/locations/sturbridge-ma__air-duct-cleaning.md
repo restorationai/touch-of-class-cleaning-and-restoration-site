@@ -7,10 +7,10 @@ primary_keyword: "air duct cleaning sturbridge"
 secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitization", "dryer vent cleaning", "residential duct cleaning"]
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "36ca72be667f4de6"
-generated_at: "2026-09-20T14:13:32.579385+00:00"
+plan_hash: "0e836af1cf53f236"
+generated_at: "2026-09-23T14:11:58.520090+00:00"
 manual_override: false
-internal_links: ["/services/air-duct-cleaning/", "/service-areas/sturbridge-ma/", "/service-areas/sturbridge-ma/fire-damage-restoration/", "/service-areas/sturbridge-ma/mold-remediation/", "/service-areas/east-douglas-ma/air-duct-cleaning/", "/service-areas/framingham-ma/air-duct-cleaning/", "/contact/"]
+internal_links: ["/services/air-duct-cleaning/", "/service-areas/sturbridge-ma/", "/service-areas/sturbridge-ma/fire-damage-restoration/", "/service-areas/sturbridge-ma/mold-remediation/", "/service-areas/bellingham-ma/air-duct-cleaning/", "/service-areas/east-douglas-ma/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sturbridge", "url": "/service-areas/sturbridge-ma/"}, {"name": "Air Duct Cleaning"}]
 faq: []
 area_slug: "sturbridge-ma"

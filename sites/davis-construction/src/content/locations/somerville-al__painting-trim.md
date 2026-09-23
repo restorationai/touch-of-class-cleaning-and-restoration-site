@@ -7,10 +7,10 @@ primary_keyword: "painting and trim somerville"
 secondary_keywords: ["painting contractor", "interior painting", "exterior painting", "house painter", "trim painting"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "9805e6ac7e9b3a0a"
-generated_at: "2026-09-22T02:11:07.732363+00:00"
+plan_hash: "5c753d58ed5b7c29"
+generated_at: "2026-09-23T14:11:32.868882+00:00"
 manual_override: false
-internal_links: ["/services/painting-trim/", "/service-areas/somerville-al/", "/service-areas/somerville-al/home-remodeling/", "/service-areas/somerville-al/roofing/", "/service-areas/ardmore-al/painting-trim/", "/service-areas/athens-al/painting-trim/", "/contact/"]
+internal_links: ["/services/painting-trim/", "/service-areas/somerville-al/", "/service-areas/somerville-al/home-remodeling/", "/service-areas/somerville-al/roofing/", "/service-areas/arab-al/painting-trim/", "/service-areas/ardmore-al/painting-trim/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Somerville", "url": "/service-areas/somerville-al/"}, {"name": "Painting and Trim"}]
 faq: []
 area_slug: "somerville-al"

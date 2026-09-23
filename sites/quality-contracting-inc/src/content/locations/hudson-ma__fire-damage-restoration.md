@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration hudson"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "5c095006295309ea"
-generated_at: "2026-09-20T20:42:17.522568+00:00"
+plan_hash: "47a9b51b1363924f"
+generated_at: "2026-09-23T14:11:58.543102+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/hudson-ma/", "/service-areas/hudson-ma/mold-remediation/", "/service-areas/hudson-ma/water-damage-restoration/", "/service-areas/east-douglas-ma/fire-damage-restoration/", "/service-areas/fiskdale-ma/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/hudson-ma/", "/service-areas/hudson-ma/mold-remediation/", "/service-areas/hudson-ma/roofing/", "/service-areas/bellingham-ma/fire-damage-restoration/", "/service-areas/east-douglas-ma/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hudson", "url": "/service-areas/hudson-ma/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "hudson-ma"

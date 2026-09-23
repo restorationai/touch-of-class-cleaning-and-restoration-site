@@ -8,7 +8,7 @@ secondary_keywords: ["soot cleaning", "soot residue removal", "post-fire soot cl
 search_intent: "local_specialty"
 priority: 4.9
 plan_hash: "d35352694ffe98bd"
-generated_at: "2026-09-21T19:18:40.347132+00:00"
+generated_at: "2026-09-23T14:11:40.965539+00:00"
 manual_override: false
 internal_links: ["/services/soot-removal/", "/service-areas/glenshaw-pa/", "/service-areas/glenshaw-pa/fire-damage-restoration/", "/service-areas/glenshaw-pa/mold-remediation/", "/service-areas/aliquippa-pa/soot-removal/", "/service-areas/allison-park-pa/soot-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Glenshaw", "url": "/service-areas/glenshaw-pa/"}, {"name": "Soot Removal"}]

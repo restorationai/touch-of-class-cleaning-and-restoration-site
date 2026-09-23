@@ -1,21 +1,21 @@
 # Site Plan Report — Quality Contracting, Inc.
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-22T20:03:29.075975+00:00
+- Generated: 2026-09-23T14:11:56.710709+00:00
 - Domain: `qualitycontracting.us`
-- Services selected: 11 of 65 catalog entries
+- Services selected: 20 of 65 catalog entries
 - Service areas: 28
 - Cross-product enabled: True
-- Total URLs: **352**
-- Total internal links: 2812 (avg 8.0 per page)
+- Total URLs: **604**
+- Total internal links: 4900 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 297 |
+| `service-area-service` | 540 |
 | `service-area` | 27 |
-| `service-landing` | 11 |
+| `service-landing` | 20 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -27,16 +27,25 @@
 
 ## Selected services
 
-- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
-- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
-- `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
-- `mold-remediation` — Mold Remediation (core, priority 10)
-- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
-- `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
-- `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
-- `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
 - `air-duct-cleaning` — Air Duct Cleaning (adjacent, priority 5)
+- `asbestos-abatement` — Asbestos Abatement (specialty, priority 6)
+- `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
+- `carpet-cleaning` — Carpet Cleaning (adjacent, priority 4)
+- `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
+- `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
 - `crawl-space-encapsulation` — Crawl Space Encapsulation (adjacent, priority 5)
+- `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
+- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
+- `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
+- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
+- `mold-remediation` — Mold Remediation (core, priority 10)
+- `odor-removal` — Odor Removal and Deodorization (specialty, priority 7)
+- `post-construction-cleaning` — Post-Construction and Specialty Cleaning (supporting, priority 4)
+- `roofing` — Roofing Installation and Replacement (construction, priority 10)
+- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
+- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
+- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
+- `water-leak-detection` — Water Leak Detection (core, priority 7)
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 
 ## Service areas
@@ -76,14 +85,14 @@
 | --- | --- | --- | --- |
 | `/services/fire-damage-restoration/` | `service-landing` | 9.0 | fire damage restoration auburn |
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation auburn |
+| `/services/roofing/` | `service-landing` | 9.0 | roofing installation and replacement auburn |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration auburn |
+| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing auburn |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization auburn |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration auburn |
 | `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup auburn |
 | `/services/biohazard-cleanup/` | `service-landing` | 7.2 | biohazard cleanup auburn |
-| `/service-areas/bellingham-ma/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration bellingham |
-| `/service-areas/bellingham-ma/mold-remediation/` | `service-area-service` | 7.0 | mold remediation bellingham |
-| `/service-areas/bellingham-ma/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration bellingham |
+| `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting auburn |
 
 ## Validation
 

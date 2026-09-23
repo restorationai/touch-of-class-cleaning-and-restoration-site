@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration aliquippa"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "c888ea123d9dabe6"
-generated_at: "2026-09-20T17:29:36.720124+00:00"
+plan_hash: "52457d0d2657a2a0"
+generated_at: "2026-09-23T14:11:40.931102+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/aliquippa-pa/", "/service-areas/aliquippa-pa/mold-remediation/", "/service-areas/aliquippa-pa/water-damage-restoration/", "/service-areas/baden-pa/fire-damage-restoration/", "/service-areas/beaver-falls-pa/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/aliquippa-pa/", "/service-areas/aliquippa-pa/mold-remediation/", "/service-areas/aliquippa-pa/water-damage-restoration/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/service-areas/baden-pa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Aliquippa", "url": "/service-areas/aliquippa-pa/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "aliquippa-pa"

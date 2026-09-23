@@ -7,10 +7,10 @@ primary_keyword: "decks, pergolas and fences gurley"
 secondary_keywords: ["deck builder", "deck installation", "pergola builder", "fence installation", "outdoor structure contractor"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "84dcbf01da1c4317"
-generated_at: "2026-09-20T17:29:30.153195+00:00"
+plan_hash: "c9a7a7e6a876e50f"
+generated_at: "2026-09-23T14:11:32.847058+00:00"
 manual_override: false
-internal_links: ["/services/decks-pergolas-fences/", "/service-areas/gurley-al/", "/service-areas/gurley-al/home-remodeling/", "/service-areas/gurley-al/roofing/", "/service-areas/athens-al/decks-pergolas-fences/", "/service-areas/harvest-al/decks-pergolas-fences/", "/contact/"]
+internal_links: ["/services/decks-pergolas-fences/", "/service-areas/gurley-al/", "/service-areas/gurley-al/home-remodeling/", "/service-areas/gurley-al/roofing/", "/service-areas/arab-al/decks-pergolas-fences/", "/service-areas/ardmore-al/decks-pergolas-fences/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Gurley", "url": "/service-areas/gurley-al/"}, {"name": "Decks, Pergolas and Fences"}]
 faq: []
 area_slug: "gurley-al"

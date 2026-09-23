@@ -8,16 +8,16 @@ secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "63786e54b923f8d5"
-generated_at: "2026-09-21T19:18:58.979373+00:00"
+generated_at: "2026-09-23T14:11:54.199811+00:00"
 manual_override: false
 internal_links: ["/services/water-cleanup/", "/service-areas/burien-wa/", "/service-areas/burien-wa/fire-damage-restoration/", "/service-areas/burien-wa/mold-remediation/", "/service-areas/algona-wa/water-cleanup/", "/service-areas/auburn-wa/water-cleanup/", "/contact/"]
-breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Burien", "url": "/service-areas/burien-wa/"}, {"name": "water-cleanup"}]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Burien", "url": "/service-areas/burien-wa/"}, {"name": "Emergency Water Cleanup"}]
 faq: []
 area_slug: "burien-wa"
 service_slug: "water-cleanup"
 city: "Burien"
 state: "WA"
-service_display: "water-cleanup"
+service_display: "Emergency Water Cleanup"
 ---
 <!-- Page body not yet generated. Run `build_site.py render --slug narestco` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
 

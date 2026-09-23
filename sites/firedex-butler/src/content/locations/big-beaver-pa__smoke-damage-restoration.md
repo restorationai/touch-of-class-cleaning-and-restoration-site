@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "b55cd6da361ffdeb"
-generated_at: "2026-09-22T14:27:31.946763+00:00"
+generated_at: "2026-09-23T14:11:40.979380+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/big-beaver-pa/", "/service-areas/big-beaver-pa/fire-damage-restoration/", "/service-areas/big-beaver-pa/mold-remediation/", "/service-areas/aliquippa-pa/smoke-damage-restoration/", "/service-areas/allison-park-pa/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Big Beaver", "url": "/service-areas/big-beaver-pa/"}, {"name": "Smoke Damage Restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "7112c2de1df74df9"
-generated_at: "2026-09-20T14:13:45.347037+00:00"
+generated_at: "2026-09-23T14:12:06.557804+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/colonia-nj/", "/service-areas/colonia-nj/mold-remediation/", "/service-areas/colonia-nj/water-damage-restoration/", "/service-areas/avenel-nj/fire-damage-restoration/", "/service-areas/bayonne-nj/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Colonia", "url": "/service-areas/colonia-nj/"}, {"name": "Fire Damage Restoration"}]

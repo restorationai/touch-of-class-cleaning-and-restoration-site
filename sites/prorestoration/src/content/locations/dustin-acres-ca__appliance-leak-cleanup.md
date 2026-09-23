@@ -7,10 +7,10 @@ primary_keyword: "appliance leak cleanup dustin acres"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
 priority: 4.2
-plan_hash: "769fca9f1a7d55e7"
-generated_at: "2026-09-20T14:13:26.549106+00:00"
+plan_hash: "c4bf4c451bc29fc2"
+generated_at: "2026-09-23T14:11:55.981097+00:00"
 manual_override: false
-internal_links: ["/services/appliance-leak-cleanup/", "/service-areas/dustin-acres-ca/", "/service-areas/dustin-acres-ca/fire-damage-restoration/", "/service-areas/dustin-acres-ca/home-remodeling/", "/service-areas/arvin-ca/appliance-leak-cleanup/", "/service-areas/buttonwillow-ca/appliance-leak-cleanup/", "/contact/"]
+internal_links: ["/services/appliance-leak-cleanup/", "/service-areas/dustin-acres-ca/", "/service-areas/dustin-acres-ca/fire-damage-restoration/", "/service-areas/dustin-acres-ca/home-remodeling/", "/service-areas/arvin-ca/appliance-leak-cleanup/", "/service-areas/bear-valley-springs-ca/appliance-leak-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Dustin Acres", "url": "/service-areas/dustin-acres-ca/"}, {"name": "Appliance Leak Cleanup"}]
 faq: []
 area_slug: "dustin-acres-ca"

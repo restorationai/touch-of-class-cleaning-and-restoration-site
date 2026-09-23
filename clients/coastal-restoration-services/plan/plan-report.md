@@ -1,21 +1,21 @@
 # Site Plan Report — Coastal Restoration Services Inc
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-07-30T23:34:34.585984+00:00
-- Domain: `None`
-- Services selected: 12 of 54 catalog entries
+- Generated: 2026-09-23T14:11:28.681363+00:00
+- Domain: `callcrs.com`
+- Services selected: 14 of 65 catalog entries
 - Service areas: 31
 - Cross-product enabled: True
-- Total URLs: **432**
-- Total internal links: 3454 (avg 8.0 per page)
+- Total URLs: **481**
+- Total internal links: 3865 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 372 |
-| `service-area` | 31 |
-| `service-landing` | 12 |
+| `service-area-service` | 420 |
+| `service-area` | 30 |
+| `service-landing` | 14 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -27,18 +27,20 @@
 
 ## Selected services
 
-- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
-- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
-- `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
-- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
-- `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
-- `mold-remediation` — Mold Remediation (core, priority 10)
 - `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
 - `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
+- `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
 - `crawl-space-encapsulation` — Crawl Space Encapsulation (adjacent, priority 5)
-- `post-construction-cleaning` — Post-Construction and Specialty Cleaning (supporting, priority 4)
+- `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
+- `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
+- `mold-remediation` — Mold Remediation (core, priority 10)
 - `odor-removal` — Odor Removal and Deodorization (specialty, priority 7)
+- `post-construction-cleaning` — Post-Construction and Specialty Cleaning (supporting, priority 4)
+- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
+- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `vandalism-cleanup` — Vandalism Cleanup (specialty, priority 5)
+- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
+- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 
 ## Service areas
 
@@ -83,7 +85,7 @@
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration santa maria |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization santa maria |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration santa maria |
-| `/service-areas/santa-maria-ca/` | `service-area` | 7.2 | restoration services santa maria |
+| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup santa maria |
 | `/services/biohazard-cleanup/` | `service-landing` | 7.2 | biohazard cleanup santa maria |
 | `/service-areas/arroyo-grande-ca/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration arroyo grande |
 | `/service-areas/arroyo-grande-ca/mold-remediation/` | `service-area-service` | 7.0 | mold remediation arroyo grande |

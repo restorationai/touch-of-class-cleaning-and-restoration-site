@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "5649159f7bdfb3ac"
-generated_at: "2026-09-20T17:30:01.498899+00:00"
+generated_at: "2026-09-23T14:12:04.475593+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/poetry-tx/", "/service-areas/poetry-tx/fire-damage-restoration/", "/service-areas/poetry-tx/mold-remediation/", "/service-areas/allen-tx/general-contracting/", "/service-areas/caddo-mills-tx/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Poetry", "url": "/service-areas/poetry-tx/"}, {"name": "Renovations, Remodels and General Contracting"}]

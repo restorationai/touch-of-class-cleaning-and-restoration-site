@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration marlborough"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "4f912972b856dec4"
-generated_at: "2026-09-20T19:37:18.511247+00:00"
+plan_hash: "57fd5dcd55306b20"
+generated_at: "2026-09-23T14:11:58.537930+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/marlborough-ma/", "/service-areas/marlborough-ma/mold-remediation/", "/service-areas/marlborough-ma/water-damage-restoration/", "/service-areas/east-douglas-ma/fire-damage-restoration/", "/service-areas/fiskdale-ma/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/marlborough-ma/", "/service-areas/marlborough-ma/mold-remediation/", "/service-areas/marlborough-ma/roofing/", "/service-areas/bellingham-ma/fire-damage-restoration/", "/service-areas/east-douglas-ma/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Marlborough", "url": "/service-areas/marlborough-ma/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "marlborough-ma"

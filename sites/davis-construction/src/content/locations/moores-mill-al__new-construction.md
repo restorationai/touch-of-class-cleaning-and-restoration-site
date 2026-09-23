@@ -7,10 +7,10 @@ primary_keyword: "new home construction moores mill"
 secondary_keywords: ["custom home builder", "new home builder", "build a house", "residential construction", "ground-up construction"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "06d2733b27a12fae"
-generated_at: "2026-09-20T14:13:03.666394+00:00"
+plan_hash: "f4f432ce9f1074dd"
+generated_at: "2026-09-23T14:11:32.827916+00:00"
 manual_override: false
-internal_links: ["/services/new-construction/", "/service-areas/moores-mill-al/", "/service-areas/moores-mill-al/home-remodeling/", "/service-areas/moores-mill-al/roofing/", "/service-areas/athens-al/new-construction/", "/service-areas/harvest-al/new-construction/", "/contact/"]
+internal_links: ["/services/new-construction/", "/service-areas/moores-mill-al/", "/service-areas/moores-mill-al/home-remodeling/", "/service-areas/moores-mill-al/roofing/", "/service-areas/arab-al/new-construction/", "/service-areas/ardmore-al/new-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Moores Mill", "url": "/service-areas/moores-mill-al/"}, {"name": "New Home Construction"}]
 faq: []
 area_slug: "moores-mill-al"

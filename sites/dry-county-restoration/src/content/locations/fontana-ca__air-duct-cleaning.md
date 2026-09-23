@@ -8,7 +8,7 @@ secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitizati
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "35584ba599084257"
-generated_at: "2026-09-21T19:18:36.601921+00:00"
+generated_at: "2026-09-23T14:11:36.231834+00:00"
 manual_override: false
 internal_links: ["/services/air-duct-cleaning/", "/service-areas/fontana-ca/", "/service-areas/fontana-ca/fire-damage-restoration/", "/service-areas/fontana-ca/mold-remediation/", "/service-areas/anaheim-ca/air-duct-cleaning/", "/service-areas/chino-ca/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fontana", "url": "/service-areas/fontana-ca/"}, {"name": "Air Duct Cleaning"}]

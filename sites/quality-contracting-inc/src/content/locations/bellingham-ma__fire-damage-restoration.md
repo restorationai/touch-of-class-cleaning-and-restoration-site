@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration bellingham"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "5d3ad602e8212f7c"
-generated_at: "2026-09-21T14:13:42.297310+00:00"
+plan_hash: "47f5634d4ff4652e"
+generated_at: "2026-09-23T14:11:58.548270+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/bellingham-ma/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/bellingham-ma/water-damage-restoration/", "/service-areas/east-douglas-ma/fire-damage-restoration/", "/service-areas/fiskdale-ma/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/bellingham-ma/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/bellingham-ma/roofing/", "/service-areas/east-douglas-ma/fire-damage-restoration/", "/service-areas/fiskdale-ma/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bellingham", "url": "/service-areas/bellingham-ma/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "bellingham-ma"

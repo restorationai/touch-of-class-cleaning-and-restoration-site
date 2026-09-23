@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "38222b7c8adf291f"
-generated_at: "2026-09-20T17:30:03.625963+00:00"
+generated_at: "2026-09-23T14:12:06.585037+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/watchung-nj/", "/service-areas/watchung-nj/fire-damage-restoration/", "/service-areas/watchung-nj/water-damage-restoration/", "/service-areas/avenel-nj/mold-remediation/", "/service-areas/bayonne-nj/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Watchung", "url": "/service-areas/watchung-nj/"}, {"name": "Mold Remediation"}]

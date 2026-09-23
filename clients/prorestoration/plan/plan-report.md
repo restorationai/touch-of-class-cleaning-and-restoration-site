@@ -1,21 +1,21 @@
 # Site Plan Report — ProRestoration Services
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-21T14:13:38.316501+00:00
+- Generated: 2026-09-23T14:11:54.780915+00:00
 - Domain: `prorestorationca.com`
-- Services selected: 17 of 65 catalog entries
+- Services selected: 27 of 65 catalog entries
 - Service areas: 22
 - Cross-product enabled: True
-- Total URLs: **416**
-- Total internal links: 3380 (avg 8.1 per page)
+- Total URLs: **636**
+- Total internal links: 5220 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 357 |
+| `service-area-service` | 567 |
+| `service-landing` | 27 |
 | `service-area` | 21 |
-| `service-landing` | 17 |
 | `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -27,23 +27,33 @@
 
 ## Selected services
 
-- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
-- `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
-- `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
+- `air-duct-cleaning` — Air Duct Cleaning (adjacent, priority 5)
 - `appliance-leak-cleanup` — Appliance Leak Cleanup (specialty, priority 6)
-- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
+- `asbestos-abatement` — Asbestos Abatement (specialty, priority 6)
+- `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
+- `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
+- `carpet-cleaning` — Carpet Cleaning (adjacent, priority 4)
+- `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
+- `crawl-space-encapsulation` — Crawl Space Encapsulation (adjacent, priority 5)
+- `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
+- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
+- `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
+- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
+- `home-remodeling` — Home Remodeling (construction, priority 10)
+- `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
+- `mold-remediation` — Mold Remediation (core, priority 10)
+- `odor-removal` — Odor Removal and Deodorization (specialty, priority 7)
+- `post-construction-cleaning` — Post-Construction and Specialty Cleaning (supporting, priority 4)
+- `reconstruction` — Reconstruction Services (core, priority 9)
+- `roofing` — Roofing Installation and Replacement (construction, priority 10)
+- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
 - `soot-removal` — Soot Removal (specialty, priority 7)
-- `odor-removal` — Odor Removal and Deodorization (specialty, priority 7)
-- `mold-remediation` — Mold Remediation (core, priority 10)
-- `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
-- `carpet-cleaning` — Carpet Cleaning (adjacent, priority 4)
-- `reconstruction` — Reconstruction Services (core, priority 9)
-- `home-remodeling` — Home Remodeling (construction, priority 10)
-- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)
+- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
+- `water-leak-detection` — Water Leak Detection (core, priority 7)
 
 ## Service areas
 
@@ -77,13 +87,13 @@
 | `/services/fire-damage-restoration/` | `service-landing` | 9.0 | fire damage restoration bakersfield |
 | `/services/home-remodeling/` | `service-landing` | 9.0 | home remodeling bakersfield |
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation bakersfield |
+| `/services/roofing/` | `service-landing` | 9.0 | roofing installation and replacement bakersfield |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration bakersfield |
+| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing bakersfield |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration bakersfield |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services bakersfield |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization bakersfield |
 | `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration bakersfield |
-| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration bakersfield |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup bakersfield |
 
 ## Validation
 

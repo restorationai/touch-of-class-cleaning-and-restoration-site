@@ -203,7 +203,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Flood Damage Restoration, Burst Pipe Cleanup and Repair, Basement Flooding Cleanup, Appliance Leak Cleanup, Sewage Cleanup and Sanitization, Fire Damage Restoration, Smoke Damage Restoration, Odor Removal and Deodorization, Mold Remediation, Mold Inspection and Testing, Storm Damage Restoration, Emergency Board-Up and Tarping, Commercial Restoration, Emergency Water Cleanup, Contents Restoration & Pack-Out, Basement Flood Cleanup, Biohazard Cleanup)
+- [ ] (continue for each of Appliance Leak Cleanup, Basement Flood Cleanup, Basement Flooding Cleanup, Biohazard Cleanup, Burst Pipe Cleanup and Repair, Commercial Restoration, Contents Restoration & Pack-Out, Contents Restoration & Storage, Crawl Space Encapsulation, Emergency Board-Up and Tarping, Fire Damage Restoration, Flood Damage Restoration, Mold Inspection and Testing, Mold Remediation, Odor Removal and Deodorization, Sewage Cleanup and Sanitization, Smoke Damage Restoration, Storm Damage Restoration, Emergency Water Cleanup, Water Damage Restoration)
 
 ### Service area pages (one image per city served)
 - [ ] Kenilworth hero — exterior shot, regional housing stock, evocative of the city

@@ -7,10 +7,10 @@ primary_keyword: "burst pipe cleanup and repair franklin park"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
 priority: 5.6
-plan_hash: "21086b8867659687"
-generated_at: "2026-09-20T14:13:09.799464+00:00"
+plan_hash: "b6ded83cb56c3d18"
+generated_at: "2026-09-23T14:11:40.898902+00:00"
 manual_override: false
-internal_links: ["/services/burst-pipe-repair/", "/service-areas/franklin-park-pa/", "/service-areas/franklin-park-pa/fire-damage-restoration/", "/service-areas/franklin-park-pa/mold-remediation/", "/service-areas/baden-pa/burst-pipe-repair/", "/service-areas/beaver-falls-pa/burst-pipe-repair/", "/contact/"]
+internal_links: ["/services/burst-pipe-repair/", "/service-areas/franklin-park-pa/", "/service-areas/franklin-park-pa/fire-damage-restoration/", "/service-areas/franklin-park-pa/mold-remediation/", "/service-areas/aliquippa-pa/burst-pipe-repair/", "/service-areas/allison-park-pa/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Franklin Park", "url": "/service-areas/franklin-park-pa/"}, {"name": "Burst Pipe Cleanup and Repair"}]
 faq: []
 area_slug: "franklin-park-pa"

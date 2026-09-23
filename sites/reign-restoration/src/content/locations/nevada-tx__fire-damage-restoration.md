@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration nevada"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "3c38d12df683c411"
-generated_at: "2026-09-20T14:13:42.831141+00:00"
+plan_hash: "a7b33e1cc3b5d6c4"
+generated_at: "2026-09-23T14:12:04.458778+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/nevada-tx/", "/service-areas/nevada-tx/mold-remediation/", "/service-areas/nevada-tx/water-damage-restoration/", "/service-areas/allen-tx/fire-damage-restoration/", "/service-areas/caddo-mills-tx/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/nevada-tx/", "/service-areas/nevada-tx/mold-remediation/", "/service-areas/nevada-tx/roofing/", "/service-areas/allen-tx/fire-damage-restoration/", "/service-areas/caddo-mills-tx/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Nevada", "url": "/service-areas/nevada-tx/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "nevada-tx"

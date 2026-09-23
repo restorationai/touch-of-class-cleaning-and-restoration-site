@@ -8,7 +8,7 @@ secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "7987363f77b1c398"
-generated_at: "2026-09-20T14:13:42.827145+00:00"
+generated_at: "2026-09-23T14:12:04.439945+00:00"
 manual_override: false
 internal_links: ["/services/water-cleanup/", "/service-areas/fate-tx/", "/service-areas/fate-tx/fire-damage-restoration/", "/service-areas/fate-tx/mold-remediation/", "/service-areas/allen-tx/water-cleanup/", "/service-areas/caddo-mills-tx/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fate", "url": "/service-areas/fate-tx/"}, {"name": "water-cleanup"}]

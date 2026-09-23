@@ -8,12 +8,12 @@ secondary_keywords: ["decks, pergolas and fences"]
 search_intent: "informational_specialty"
 priority: 4.8
 plan_hash: "777ccddac28e41e3"
-generated_at: "2026-09-20T14:13:03.676818+00:00"
+generated_at: "2026-09-23T14:11:32.885593+00:00"
 manual_override: false
 internal_links: ["/blog/", "/services/decks-pergolas-fences/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Blog", "url": "/blog/"}, {"name": "Wood vs Composite Decking: Which Is Right for Your Backyard?"}]
 faq: []
-published_at: "2026-08-29"
+published_at: "2026-09-01"
 services: ["decks-pergolas-fences"]
 ---
 <!-- Page body not yet generated. Run `build_site.py render --slug davis-construction` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->

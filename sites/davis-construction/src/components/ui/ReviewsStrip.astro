@@ -14,10 +14,13 @@ const count = String(brand.gbpReviewCount || "");
 const hasRating = rating !== "" && count !== "";
 const stars = hasRating ? Math.min(5, Math.round(parseFloat(rating))) : 0;
 const snippets = (brand.gbpReviews || []).slice(0, 3);
-const reviewsUrl = brand.placeId
-  ? `https://search.google.com/local/reviews?placeid=${brand.placeId}`
-  : brand.googleCid
-    ? `https://www.google.com/maps?cid=${brand.googleCid}`
+// cid FIRST (2026-09-19, ACS "this link is dead"): hidden-address SABs
+// often don't resolve through the placeid reviews viewer; maps?cid= is the
+// mapsUri Google itself hands back in GBP metadata and always lands.
+const reviewsUrl = brand.googleCid
+  ? `https://www.google.com/maps?cid=${brand.googleCid}`
+  : brand.placeId
+    ? `https://search.google.com/local/reviews?placeid=${brand.placeId}`
     : "";
 ---
 

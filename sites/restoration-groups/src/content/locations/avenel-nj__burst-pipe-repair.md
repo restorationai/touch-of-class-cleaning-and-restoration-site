@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "c4bec799b0b088e4"
-generated_at: "2026-09-20T14:13:45.352477+00:00"
+generated_at: "2026-09-23T14:12:06.568364+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/avenel-nj/", "/service-areas/avenel-nj/fire-damage-restoration/", "/service-areas/avenel-nj/mold-remediation/", "/service-areas/bayonne-nj/burst-pipe-repair/", "/service-areas/bloomfield-nj/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Avenel", "url": "/service-areas/avenel-nj/"}, {"name": "Burst Pipe Cleanup and Repair"}]

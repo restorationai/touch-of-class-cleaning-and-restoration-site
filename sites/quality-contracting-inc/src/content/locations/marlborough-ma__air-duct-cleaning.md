@@ -7,10 +7,10 @@ primary_keyword: "air duct cleaning marlborough"
 secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitization", "dryer vent cleaning", "residential duct cleaning"]
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "90477c7b40b1c2d6"
-generated_at: "2026-09-20T19:37:18.511976+00:00"
+plan_hash: "e06fbd4e14cf6ed7"
+generated_at: "2026-09-23T14:11:58.535601+00:00"
 manual_override: false
-internal_links: ["/services/air-duct-cleaning/", "/service-areas/marlborough-ma/", "/service-areas/marlborough-ma/fire-damage-restoration/", "/service-areas/marlborough-ma/mold-remediation/", "/service-areas/east-douglas-ma/air-duct-cleaning/", "/service-areas/fiskdale-ma/air-duct-cleaning/", "/contact/"]
+internal_links: ["/services/air-duct-cleaning/", "/service-areas/marlborough-ma/", "/service-areas/marlborough-ma/fire-damage-restoration/", "/service-areas/marlborough-ma/mold-remediation/", "/service-areas/bellingham-ma/air-duct-cleaning/", "/service-areas/east-douglas-ma/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Marlborough", "url": "/service-areas/marlborough-ma/"}, {"name": "Air Duct Cleaning"}]
 faq: []
 area_slug: "marlborough-ma"

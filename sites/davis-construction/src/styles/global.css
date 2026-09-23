@@ -48,11 +48,18 @@
   .btn {
     @apply inline-flex items-center justify-center gap-2 rounded-md px-6 py-3 text-sm font-bold uppercase tracking-widest transition-colors no-underline;
   }
+  /* Solid fills use the `cta` PAIR — bg-cta with text-cta-fg — never a bare
+     colour plus a hardcoded white label. The pair is resolved together in
+     build_site.resolve_tokens so it always clears WCAG AA, and THAT is what
+     lets the fill stay the client's REAL brand hex: a dark brand keeps its hex
+     and white text, a light brand (gold, lime, sky) keeps its hex and gets a
+     near-black label instead of a darkened button the client does not
+     recognise as their colour (Reign, 2026-08-05). */
   .btn-primary {
-    @apply btn bg-primary text-white hover:bg-primary-200 hover:text-dark-900;
+    @apply btn bg-cta text-cta-fg hover:bg-cta-hover;
   }
   .btn-accent {
-    @apply btn bg-accent text-white hover:opacity-90;
+    @apply btn bg-accent text-accent-fg hover:opacity-90;
   }
   .btn-outline {
     @apply btn border border-white/30 text-white hover:bg-white hover:text-dark;

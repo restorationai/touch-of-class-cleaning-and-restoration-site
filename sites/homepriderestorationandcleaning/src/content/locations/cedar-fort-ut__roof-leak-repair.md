@@ -7,10 +7,10 @@ primary_keyword: "roof leak cleanup and repair cedar fort"
 secondary_keywords: ["roof leak cleanup", "ceiling water damage", "attic water damage", "roof leak restoration", "interior roof leak damage"]
 search_intent: "local_emergency"
 priority: 4.9
-plan_hash: "4965ebb488ebebff"
-generated_at: "2026-09-20T14:13:18.737045+00:00"
+plan_hash: "c981413b07a88f6a"
+generated_at: "2026-09-23T14:11:49.770610+00:00"
 manual_override: false
-internal_links: ["/services/roof-leak-repair/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-fort-ut/fire-damage-restoration/", "/service-areas/cedar-fort-ut/mold-remediation/", "/service-areas/american-fork-ut/roof-leak-repair/", "/service-areas/cedar-hills-ut/roof-leak-repair/", "/contact/"]
+internal_links: ["/services/roof-leak-repair/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-fort-ut/fire-damage-restoration/", "/service-areas/cedar-fort-ut/mold-remediation/", "/service-areas/alpine-ut/roof-leak-repair/", "/service-areas/american-fork-ut/roof-leak-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Cedar Fort", "url": "/service-areas/cedar-fort-ut/"}, {"name": "Roof Leak Cleanup and Repair"}]
 faq: []
 area_slug: "cedar-fort-ut"

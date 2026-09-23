@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration winchester"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "6efa5e4d90940753"
-generated_at: "2026-09-20T14:13:41.079046+00:00"
+plan_hash: "8c6cbb3a024292f2"
+generated_at: "2026-09-23T14:12:02.367608+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/winchester-nv/", "/service-areas/winchester-nv/mold-remediation/", "/service-areas/winchester-nv/water-damage-restoration/", "/service-areas/boulder-city-nv/fire-damage-restoration/", "/service-areas/enterprise-nv/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/winchester-nv/", "/service-areas/winchester-nv/mold-remediation/", "/service-areas/winchester-nv/water-damage-restoration/", "/service-areas/blue-diamond-nv/fire-damage-restoration/", "/service-areas/boulder-city-nv/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Winchester", "url": "/service-areas/winchester-nv/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "winchester-nv"

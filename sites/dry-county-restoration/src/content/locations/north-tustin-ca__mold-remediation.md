@@ -7,10 +7,10 @@ primary_keyword: "mold remediation north tustin"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "0618e2cb827be3d6"
-generated_at: "2026-09-20T19:36:54.072955+00:00"
+plan_hash: "0f658b61d2be7c85"
+generated_at: "2026-09-23T14:11:36.219755+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/north-tustin-ca/", "/service-areas/north-tustin-ca/fire-damage-restoration/", "/service-areas/north-tustin-ca/water-damage-restoration/", "/service-areas/anaheim-ca/mold-remediation/", "/service-areas/chino-ca/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/north-tustin-ca/", "/service-areas/north-tustin-ca/fire-damage-restoration/", "/service-areas/north-tustin-ca/roofing/", "/service-areas/anaheim-ca/mold-remediation/", "/service-areas/chino-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Tustin", "url": "/service-areas/north-tustin-ca/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "north-tustin-ca"

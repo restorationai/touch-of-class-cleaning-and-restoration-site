@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "0e89f4859587f3af"
-generated_at: "2026-09-21T15:54:35.828888+00:00"
+generated_at: "2026-09-23T14:11:34.814123+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/hermitage-pa/", "/service-areas/hermitage-pa/fire-damage-restoration/", "/service-areas/hermitage-pa/mold-remediation/", "/service-areas/austintown-oh/emergency-board-up-tarping/", "/service-areas/boardman-oh/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hermitage", "url": "/service-areas/hermitage-pa/"}, {"name": "Emergency Board-Up and Tarping"}]

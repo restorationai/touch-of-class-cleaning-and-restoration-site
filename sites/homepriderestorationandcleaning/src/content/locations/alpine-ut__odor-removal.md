@@ -7,10 +7,10 @@ primary_keyword: "odor removal and deodorization alpine"
 secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
 search_intent: "local_specialty"
 priority: 4.9
-plan_hash: "f11b501c79f42839"
-generated_at: "2026-09-20T19:17:30.791479+00:00"
+plan_hash: "a565450225850f32"
+generated_at: "2026-09-23T14:11:49.784909+00:00"
 manual_override: false
-internal_links: ["/services/odor-removal/", "/service-areas/alpine-ut/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/american-fork-ut/odor-removal/", "/service-areas/bluffdale-ut/odor-removal/", "/contact/"]
+internal_links: ["/services/odor-removal/", "/service-areas/alpine-ut/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/american-fork-ut/odor-removal/", "/service-areas/benjamin-ut/odor-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Alpine", "url": "/service-areas/alpine-ut/"}, {"name": "Odor Removal and Deodorization"}]
 faq: []
 area_slug: "alpine-ut"

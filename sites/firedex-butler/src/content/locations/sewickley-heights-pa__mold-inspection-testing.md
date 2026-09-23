@@ -7,10 +7,10 @@ primary_keyword: "mold inspection and testing sewickley heights"
 secondary_keywords: ["mold inspection", "mold testing", "indoor air quality testing", "mold spore testing", "mold assessment"]
 search_intent: "local_health"
 priority: 5.6
-plan_hash: "83be899dcf6d5e24"
-generated_at: "2026-09-20T14:13:09.813098+00:00"
+plan_hash: "305070ddf8371c96"
+generated_at: "2026-09-23T14:11:40.926179+00:00"
 manual_override: false
-internal_links: ["/services/mold-inspection-testing/", "/service-areas/sewickley-heights-pa/", "/service-areas/sewickley-heights-pa/fire-damage-restoration/", "/service-areas/sewickley-heights-pa/mold-remediation/", "/service-areas/baden-pa/mold-inspection-testing/", "/service-areas/beaver-falls-pa/mold-inspection-testing/", "/contact/"]
+internal_links: ["/services/mold-inspection-testing/", "/service-areas/sewickley-heights-pa/", "/service-areas/sewickley-heights-pa/fire-damage-restoration/", "/service-areas/sewickley-heights-pa/mold-remediation/", "/service-areas/aliquippa-pa/mold-inspection-testing/", "/service-areas/allison-park-pa/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sewickley Heights", "url": "/service-areas/sewickley-heights-pa/"}, {"name": "Mold Inspection and Testing"}]
 faq: []
 area_slug: "sewickley-heights-pa"

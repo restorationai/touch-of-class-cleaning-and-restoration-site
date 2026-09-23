@@ -8,7 +8,7 @@ secondary_keywords: ["soot cleaning", "soot residue removal", "post-fire soot cl
 search_intent: "local_specialty"
 priority: 4.9
 plan_hash: "cafb6b92c7eb5622"
-generated_at: "2026-09-22T20:03:22.440897+00:00"
+generated_at: "2026-09-23T14:11:54.235743+00:00"
 manual_override: false
 internal_links: ["/services/soot-removal/", "/service-areas/north-puyallup-wa/", "/service-areas/north-puyallup-wa/fire-damage-restoration/", "/service-areas/north-puyallup-wa/mold-remediation/", "/service-areas/algona-wa/soot-removal/", "/service-areas/auburn-wa/soot-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Puyallup", "url": "/service-areas/north-puyallup-wa/"}, {"name": "Soot Removal"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "4f1d3750b3b918ab"
-generated_at: "2026-09-20T14:13:23.246378+00:00"
+generated_at: "2026-09-23T14:11:54.125143+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/algona-wa/", "/service-areas/algona-wa/fire-damage-restoration/", "/service-areas/algona-wa/mold-remediation/", "/service-areas/auburn-wa/smoke-damage-restoration/", "/service-areas/bellevue-wa/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Algona", "url": "/service-areas/algona-wa/"}, {"name": "Smoke Damage Restoration"}]

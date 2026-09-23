@@ -7,10 +7,10 @@ primary_keyword: "restoration services oak park"
 secondary_keywords: ["oak park restoration company", "damage restoration oak park", "oak park disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "aa3ccf6807679013"
-generated_at: "2026-09-21T19:18:27.662132+00:00"
+plan_hash: "3256d5490b3bd69b"
+generated_at: "2026-09-23T14:11:28.107493+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/oak-park-ca/mold-remediation/", "/service-areas/oak-park-ca/water-damage-restoration/", "/service-areas/oak-park-ca/storm-damage-restoration/", "/service-areas/oak-park-ca/water-cleanup/", "/service-areas/oak-park-ca/contents-restoration/", "/service-areas/oak-park-ca/crawl-space-encapsulation/", "/service-areas/camarillo-ca/", "/service-areas/carpinteria-ca/", "/service-areas/castaic-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/oak-park-ca/mold-remediation/", "/service-areas/oak-park-ca/water-damage-restoration/", "/service-areas/oak-park-ca/storm-damage-restoration/", "/service-areas/oak-park-ca/water-cleanup/", "/service-areas/oak-park-ca/odor-removal/", "/service-areas/oak-park-ca/contents-restoration-storage/", "/service-areas/oak-park-ca/contents-restoration/", "/service-areas/oak-park-ca/crawl-space-encapsulation/", "/service-areas/camarillo-ca/", "/service-areas/carpinteria-ca/", "/service-areas/castaic-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oak Park"}]
 faq: []
 area_slug: "oak-park-ca"

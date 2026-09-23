@@ -274,7 +274,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Fire Damage Restoration, Mold Remediation, Storm Damage Restoration, Renovations, Remodels and General Contracting, Contents Restoration and Storage, Emergency Water Cleanup)
+- [ ] (continue for each of Contents Restoration and Storage, Contents Restoration & Storage, Fire Damage Restoration, Renovations, Remodels and General Contracting, Mold Remediation, Odor Removal and Deodorization, Roofing Installation and Replacement, Storm Damage Restoration, Water Damage Restoration, Emergency Water Cleanup)
 
 ### Service area pages (one image per city served)
 - [ ] Royse City hero — exterior shot, regional housing stock, evocative of the city

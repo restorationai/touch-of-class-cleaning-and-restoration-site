@@ -7,10 +7,10 @@ primary_keyword: "home remodeling owens cross roads"
 secondary_keywords: ["home renovation", "whole home remodel", "interior remodeling contractor", "house renovation contractor", "remodeling company"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "68224c338ff705c8"
-generated_at: "2026-09-20T19:17:13.008906+00:00"
+plan_hash: "274e904b51d0fff4"
+generated_at: "2026-09-23T14:11:32.851610+00:00"
 manual_override: false
-internal_links: ["/services/home-remodeling/", "/service-areas/owens-cross-roads-al/", "/service-areas/owens-cross-roads-al/roofing/", "/service-areas/owens-cross-roads-al/decks-pergolas-fences/", "/service-areas/athens-al/home-remodeling/", "/service-areas/gurley-al/home-remodeling/", "/contact/"]
+internal_links: ["/services/home-remodeling/", "/service-areas/owens-cross-roads-al/", "/service-areas/owens-cross-roads-al/roofing/", "/service-areas/owens-cross-roads-al/decks-pergolas-fences/", "/service-areas/arab-al/home-remodeling/", "/service-areas/ardmore-al/home-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Owens Cross Roads", "url": "/service-areas/owens-cross-roads-al/"}, {"name": "Home Remodeling"}]
 faq: []
 area_slug: "owens-cross-roads-al"

@@ -7,10 +7,10 @@ primary_keyword: "mold remediation leominster"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "5552996e4fbadddd"
-generated_at: "2026-09-22T02:11:44.102998+00:00"
+plan_hash: "9137c02f67d9b154"
+generated_at: "2026-09-23T14:11:58.559088+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/leominster-ma/", "/service-areas/leominster-ma/fire-damage-restoration/", "/service-areas/leominster-ma/water-damage-restoration/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/leominster-ma/", "/service-areas/leominster-ma/fire-damage-restoration/", "/service-areas/leominster-ma/roofing/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Leominster", "url": "/service-areas/leominster-ma/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "leominster-ma"

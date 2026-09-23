@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration buttonwillow"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "840c8539f9ba660f"
-generated_at: "2026-09-20T14:13:26.546495+00:00"
+plan_hash: "5a47235617a60e3f"
+generated_at: "2026-09-23T14:11:55.975840+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/home-remodeling/", "/service-areas/buttonwillow-ca/mold-remediation/", "/service-areas/arvin-ca/fire-damage-restoration/", "/service-areas/delano-ca/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/home-remodeling/", "/service-areas/buttonwillow-ca/mold-remediation/", "/service-areas/arvin-ca/fire-damage-restoration/", "/service-areas/bear-valley-springs-ca/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buttonwillow", "url": "/service-areas/buttonwillow-ca/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "buttonwillow-ca"

@@ -7,10 +7,10 @@ primary_keyword: "decks, pergolas and fences meridianville"
 secondary_keywords: ["deck builder", "deck installation", "pergola builder", "fence installation", "outdoor structure contractor"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "8c2a1f49fbee5051"
-generated_at: "2026-09-20T14:13:03.669864+00:00"
+plan_hash: "c4a66894d801574a"
+generated_at: "2026-09-23T14:11:32.833395+00:00"
 manual_override: false
-internal_links: ["/services/decks-pergolas-fences/", "/service-areas/meridianville-al/", "/service-areas/meridianville-al/home-remodeling/", "/service-areas/meridianville-al/roofing/", "/service-areas/athens-al/decks-pergolas-fences/", "/service-areas/harvest-al/decks-pergolas-fences/", "/contact/"]
+internal_links: ["/services/decks-pergolas-fences/", "/service-areas/meridianville-al/", "/service-areas/meridianville-al/home-remodeling/", "/service-areas/meridianville-al/roofing/", "/service-areas/arab-al/decks-pergolas-fences/", "/service-areas/ardmore-al/decks-pergolas-fences/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Meridianville", "url": "/service-areas/meridianville-al/"}, {"name": "Decks, Pergolas and Fences"}]
 faq: []
 area_slug: "meridianville-al"

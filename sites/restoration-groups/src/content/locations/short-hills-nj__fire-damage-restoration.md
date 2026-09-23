@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "2271107540b6c195"
-generated_at: "2026-09-20T14:13:45.343961+00:00"
+generated_at: "2026-09-23T14:12:06.551598+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/short-hills-nj/", "/service-areas/short-hills-nj/mold-remediation/", "/service-areas/short-hills-nj/water-damage-restoration/", "/service-areas/avenel-nj/fire-damage-restoration/", "/service-areas/bayonne-nj/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Short Hills", "url": "/service-areas/short-hills-nj/"}, {"name": "Fire Damage Restoration"}]

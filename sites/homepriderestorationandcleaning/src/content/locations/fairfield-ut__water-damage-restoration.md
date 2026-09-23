@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration fairfield"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "ef7b61ae4694f02f"
-generated_at: "2026-09-20T14:13:18.729528+00:00"
+plan_hash: "4e419cd701c2fa62"
+generated_at: "2026-09-23T14:11:49.757543+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/fairfield-ut/", "/service-areas/fairfield-ut/fire-damage-restoration/", "/service-areas/fairfield-ut/mold-remediation/", "/service-areas/american-fork-ut/water-damage-restoration/", "/service-areas/cedar-fort-ut/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/fairfield-ut/", "/service-areas/fairfield-ut/fire-damage-restoration/", "/service-areas/fairfield-ut/mold-remediation/", "/service-areas/alpine-ut/water-damage-restoration/", "/service-areas/american-fork-ut/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fairfield", "url": "/service-areas/fairfield-ut/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "fairfield-ut"

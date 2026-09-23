@@ -7,10 +7,10 @@ primary_keyword: "burst pipe cleanup and repair sewickley heights"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
 priority: 5.6
-plan_hash: "8e81f8ee37cfa923"
-generated_at: "2026-09-20T14:13:09.811762+00:00"
+plan_hash: "620bfb61bc3acccb"
+generated_at: "2026-09-23T14:11:40.923848+00:00"
 manual_override: false
-internal_links: ["/services/burst-pipe-repair/", "/service-areas/sewickley-heights-pa/", "/service-areas/sewickley-heights-pa/fire-damage-restoration/", "/service-areas/sewickley-heights-pa/mold-remediation/", "/service-areas/baden-pa/burst-pipe-repair/", "/service-areas/beaver-falls-pa/burst-pipe-repair/", "/contact/"]
+internal_links: ["/services/burst-pipe-repair/", "/service-areas/sewickley-heights-pa/", "/service-areas/sewickley-heights-pa/fire-damage-restoration/", "/service-areas/sewickley-heights-pa/mold-remediation/", "/service-areas/aliquippa-pa/burst-pipe-repair/", "/service-areas/allison-park-pa/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sewickley Heights", "url": "/service-areas/sewickley-heights-pa/"}, {"name": "Burst Pipe Cleanup and Repair"}]
 faq: []
 area_slug: "sewickley-heights-pa"

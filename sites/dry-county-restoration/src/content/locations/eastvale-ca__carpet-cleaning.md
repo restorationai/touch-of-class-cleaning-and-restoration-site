@@ -8,7 +8,7 @@ secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "ca
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "b9875007a1877512"
-generated_at: "2026-09-20T14:13:06.378336+00:00"
+generated_at: "2026-09-23T14:11:36.178102+00:00"
 manual_override: false
 internal_links: ["/services/carpet-cleaning/", "/service-areas/eastvale-ca/", "/service-areas/eastvale-ca/fire-damage-restoration/", "/service-areas/eastvale-ca/mold-remediation/", "/service-areas/anaheim-ca/carpet-cleaning/", "/service-areas/chino-ca/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Eastvale", "url": "/service-areas/eastvale-ca/"}, {"name": "Carpet Cleaning"}]

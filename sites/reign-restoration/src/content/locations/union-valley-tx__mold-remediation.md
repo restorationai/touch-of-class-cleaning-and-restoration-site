@@ -7,10 +7,10 @@ primary_keyword: "mold remediation union valley"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "485b7006af73a903"
-generated_at: "2026-09-20T14:13:42.832503+00:00"
+plan_hash: "b048487d1f67aef1"
+generated_at: "2026-09-23T14:12:04.462158+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/union-valley-tx/", "/service-areas/union-valley-tx/fire-damage-restoration/", "/service-areas/union-valley-tx/water-damage-restoration/", "/service-areas/allen-tx/mold-remediation/", "/service-areas/caddo-mills-tx/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/union-valley-tx/", "/service-areas/union-valley-tx/fire-damage-restoration/", "/service-areas/union-valley-tx/roofing/", "/service-areas/allen-tx/mold-remediation/", "/service-areas/caddo-mills-tx/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Union Valley", "url": "/service-areas/union-valley-tx/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "union-valley-tx"

@@ -7,10 +7,10 @@ primary_keyword: "mold inspection and testing baden"
 secondary_keywords: ["mold inspection", "mold testing", "indoor air quality testing", "mold spore testing", "mold assessment"]
 search_intent: "local_health"
 priority: 5.6
-plan_hash: "672095bd9ab03825"
-generated_at: "2026-09-20T14:13:09.803951+00:00"
+plan_hash: "7bb846fd3e86b54c"
+generated_at: "2026-09-23T14:11:40.907573+00:00"
 manual_override: false
-internal_links: ["/services/mold-inspection-testing/", "/service-areas/baden-pa/", "/service-areas/baden-pa/fire-damage-restoration/", "/service-areas/baden-pa/mold-remediation/", "/service-areas/beaver-falls-pa/mold-inspection-testing/", "/service-areas/bell-acres-pa/mold-inspection-testing/", "/contact/"]
+internal_links: ["/services/mold-inspection-testing/", "/service-areas/baden-pa/", "/service-areas/baden-pa/fire-damage-restoration/", "/service-areas/baden-pa/mold-remediation/", "/service-areas/aliquippa-pa/mold-inspection-testing/", "/service-areas/allison-park-pa/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Baden", "url": "/service-areas/baden-pa/"}, {"name": "Mold Inspection and Testing"}]
 faq: []
 area_slug: "baden-pa"

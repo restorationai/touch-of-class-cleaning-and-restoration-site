@@ -7,10 +7,10 @@ primary_keyword: "junk & debris removal vineyard"
 secondary_keywords: ["junk removal", "debris removal", "house cleanout", "garage cleanout", "hauling services"]
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "bd72e9b06102607d"
-generated_at: "2026-09-20T14:13:18.722331+00:00"
+plan_hash: "ab206a288d322966"
+generated_at: "2026-09-23T14:11:49.731917+00:00"
 manual_override: false
-internal_links: ["/services/junk-debris-removal/", "/service-areas/vineyard-ut/", "/service-areas/vineyard-ut/fire-damage-restoration/", "/service-areas/vineyard-ut/mold-remediation/", "/service-areas/american-fork-ut/junk-debris-removal/", "/service-areas/cedar-fort-ut/junk-debris-removal/", "/contact/"]
+internal_links: ["/services/junk-debris-removal/", "/service-areas/vineyard-ut/", "/service-areas/vineyard-ut/fire-damage-restoration/", "/service-areas/vineyard-ut/mold-remediation/", "/service-areas/alpine-ut/junk-debris-removal/", "/service-areas/american-fork-ut/junk-debris-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Vineyard", "url": "/service-areas/vineyard-ut/"}, {"name": "Junk & Debris Removal"}]
 faq: []
 area_slug: "vineyard-ut"

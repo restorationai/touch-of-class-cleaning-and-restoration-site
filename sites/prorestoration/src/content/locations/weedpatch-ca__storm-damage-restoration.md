@@ -7,10 +7,10 @@ primary_keyword: "storm damage restoration weedpatch"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "d7d13c3837c1b524"
-generated_at: "2026-09-20T14:13:26.544622+00:00"
+plan_hash: "c727c192e6a892ec"
+generated_at: "2026-09-23T14:11:55.972536+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/weedpatch-ca/", "/service-areas/weedpatch-ca/fire-damage-restoration/", "/service-areas/weedpatch-ca/home-remodeling/", "/service-areas/arvin-ca/storm-damage-restoration/", "/service-areas/buttonwillow-ca/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/weedpatch-ca/", "/service-areas/weedpatch-ca/fire-damage-restoration/", "/service-areas/weedpatch-ca/home-remodeling/", "/service-areas/arvin-ca/storm-damage-restoration/", "/service-areas/bear-valley-springs-ca/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Weedpatch", "url": "/service-areas/weedpatch-ca/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "weedpatch-ca"

@@ -7,10 +7,10 @@ primary_keyword: "contents restoration and storage oak view"
 secondary_keywords: ["contents pack-out", "contents cleaning", "belongings restoration", "furniture restoration after fire", "contents storage"]
 search_intent: "local_service"
 priority: 3.5
-plan_hash: "400c1d768824ac43"
-generated_at: "2026-09-20T14:12:59.576090+00:00"
+plan_hash: "529ce4bbde003a1b"
+generated_at: "2026-09-23T14:11:28.116508+00:00"
 manual_override: false
-internal_links: ["/services/contents-restoration/", "/service-areas/oak-view-ca/", "/service-areas/oak-view-ca/mold-remediation/", "/service-areas/oak-view-ca/water-damage-restoration/", "/service-areas/camarillo-ca/contents-restoration/", "/service-areas/fillmore-ca/contents-restoration/", "/contact/"]
+internal_links: ["/services/contents-restoration/", "/service-areas/oak-view-ca/", "/service-areas/oak-view-ca/mold-remediation/", "/service-areas/oak-view-ca/water-damage-restoration/", "/service-areas/camarillo-ca/contents-restoration/", "/service-areas/carpinteria-ca/contents-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oak View", "url": "/service-areas/oak-view-ca/"}, {"name": "Contents Restoration and Storage"}]
 faq: []
 area_slug: "oak-view-ca"

@@ -8,7 +8,7 @@ secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed 
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "20e12201d596ca38"
-generated_at: "2026-09-22T14:28:11.669706+00:00"
+generated_at: "2026-09-23T14:11:54.213903+00:00"
 manual_override: false
 internal_links: ["/services/frozen-pipe-restoration/", "/service-areas/waller-wa/", "/service-areas/waller-wa/fire-damage-restoration/", "/service-areas/waller-wa/mold-remediation/", "/service-areas/algona-wa/frozen-pipe-restoration/", "/service-areas/auburn-wa/frozen-pipe-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Waller", "url": "/service-areas/waller-wa/"}, {"name": "Frozen Pipe Restoration"}]

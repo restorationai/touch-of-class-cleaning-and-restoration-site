@@ -7,10 +7,10 @@ primary_keyword: "restoration services eastvale"
 secondary_keywords: ["eastvale restoration company", "damage restoration eastvale", "eastvale disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "9134f4a42756f0c2"
-generated_at: "2026-09-20T14:13:06.372908+00:00"
+plan_hash: "8ae524f47c7622ed"
+generated_at: "2026-09-23T14:11:36.157210+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/eastvale-ca/fire-damage-restoration/", "/service-areas/eastvale-ca/mold-remediation/", "/service-areas/eastvale-ca/water-damage-restoration/", "/service-areas/eastvale-ca/sewage-cleanup/", "/service-areas/eastvale-ca/storm-damage-restoration/", "/service-areas/eastvale-ca/water-cleanup/", "/service-areas/eastvale-ca/general-contracting/", "/service-areas/eastvale-ca/emergency-board-up-tarping/", "/service-areas/eastvale-ca/air-duct-cleaning/", "/service-areas/eastvale-ca/contents-restoration/", "/service-areas/eastvale-ca/carpet-cleaning/", "/service-areas/eastvale-ca/post-construction-cleaning/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/eastvale-ca/fire-damage-restoration/", "/service-areas/eastvale-ca/mold-remediation/", "/service-areas/eastvale-ca/roofing/", "/service-areas/eastvale-ca/water-damage-restoration/", "/service-areas/eastvale-ca/emergency-plumbing/", "/service-areas/eastvale-ca/sewage-cleanup/", "/service-areas/eastvale-ca/storm-damage-restoration/", "/service-areas/eastvale-ca/water-cleanup/", "/service-areas/eastvale-ca/general-contracting/", "/service-areas/eastvale-ca/emergency-board-up-tarping/", "/service-areas/eastvale-ca/odor-removal/", "/service-areas/eastvale-ca/water-leak-detection/", "/service-areas/eastvale-ca/air-duct-cleaning/", "/service-areas/eastvale-ca/contents-restoration-storage/", "/service-areas/eastvale-ca/contents-restoration/", "/service-areas/eastvale-ca/carpet-cleaning/", "/service-areas/eastvale-ca/post-construction-cleaning/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Eastvale"}]
 faq: []
 area_slug: "eastvale-ca"

@@ -7,10 +7,10 @@ primary_keyword: "smoke damage restoration baden"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "56a230a5b50fe0b0"
-generated_at: "2026-09-20T14:13:09.803270+00:00"
+plan_hash: "668c7c34305a5ce4"
+generated_at: "2026-09-23T14:11:40.909155+00:00"
 manual_override: false
-internal_links: ["/services/smoke-damage-restoration/", "/service-areas/baden-pa/", "/service-areas/baden-pa/fire-damage-restoration/", "/service-areas/baden-pa/mold-remediation/", "/service-areas/beaver-falls-pa/smoke-damage-restoration/", "/service-areas/bell-acres-pa/smoke-damage-restoration/", "/contact/"]
+internal_links: ["/services/smoke-damage-restoration/", "/service-areas/baden-pa/", "/service-areas/baden-pa/fire-damage-restoration/", "/service-areas/baden-pa/mold-remediation/", "/service-areas/aliquippa-pa/smoke-damage-restoration/", "/service-areas/allison-park-pa/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Baden", "url": "/service-areas/baden-pa/"}, {"name": "Smoke Damage Restoration"}]
 faq: []
 area_slug: "baden-pa"

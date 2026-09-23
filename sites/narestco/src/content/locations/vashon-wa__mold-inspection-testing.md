@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "28d2a0b63a23bf90"
-generated_at: "2026-09-21T14:13:34.626455+00:00"
+generated_at: "2026-09-23T14:11:54.186331+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/vashon-wa/", "/service-areas/vashon-wa/fire-damage-restoration/", "/service-areas/vashon-wa/mold-remediation/", "/service-areas/algona-wa/mold-inspection-testing/", "/service-areas/auburn-wa/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Vashon", "url": "/service-areas/vashon-wa/"}, {"name": "Mold Inspection and Testing"}]

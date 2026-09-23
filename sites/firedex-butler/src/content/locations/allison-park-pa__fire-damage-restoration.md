@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "565b95adeb79b703"
-generated_at: "2026-09-20T19:36:56.919600+00:00"
+generated_at: "2026-09-23T14:11:40.943650+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/allison-park-pa/", "/service-areas/allison-park-pa/mold-remediation/", "/service-areas/allison-park-pa/water-damage-restoration/", "/service-areas/aliquippa-pa/fire-damage-restoration/", "/service-areas/baden-pa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Allison Park", "url": "/service-areas/allison-park-pa/"}, {"name": "Fire Damage Restoration"}]

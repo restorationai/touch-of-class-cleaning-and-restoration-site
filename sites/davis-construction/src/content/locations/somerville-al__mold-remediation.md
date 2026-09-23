@@ -7,10 +7,10 @@ primary_keyword: "mold remediation somerville"
 secondary_keywords: ["mold removal", "mold remediation contractor", "mold repair and rebuild", "mold-safe renovation", "post-remediation reconstruction"]
 search_intent: "local_health"
 priority: 4.9
-plan_hash: "122d2e0ffe8dd559"
-generated_at: "2026-09-22T02:11:07.732725+00:00"
+plan_hash: "65ad4888d12fb0a9"
+generated_at: "2026-09-23T14:11:32.868229+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/somerville-al/", "/service-areas/somerville-al/home-remodeling/", "/service-areas/somerville-al/roofing/", "/service-areas/ardmore-al/mold-remediation/", "/service-areas/athens-al/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/somerville-al/", "/service-areas/somerville-al/home-remodeling/", "/service-areas/somerville-al/roofing/", "/service-areas/arab-al/mold-remediation/", "/service-areas/ardmore-al/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Somerville", "url": "/service-areas/somerville-al/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "somerville-al"

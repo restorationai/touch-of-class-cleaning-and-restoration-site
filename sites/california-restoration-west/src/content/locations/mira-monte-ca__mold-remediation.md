@@ -7,10 +7,10 @@ primary_keyword: "mold remediation mira monte"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "eeb7fbec09814c40"
-generated_at: "2026-09-20T14:12:59.574677+00:00"
+plan_hash: "316ac5f0826d0c62"
+generated_at: "2026-09-23T14:11:28.114921+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/mira-monte-ca/", "/service-areas/mira-monte-ca/water-damage-restoration/", "/service-areas/mira-monte-ca/storm-damage-restoration/", "/service-areas/camarillo-ca/mold-remediation/", "/service-areas/fillmore-ca/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/mira-monte-ca/", "/service-areas/mira-monte-ca/water-damage-restoration/", "/service-areas/mira-monte-ca/storm-damage-restoration/", "/service-areas/camarillo-ca/mold-remediation/", "/service-areas/carpinteria-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mira Monte", "url": "/service-areas/mira-monte-ca/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "mira-monte-ca"

@@ -7,10 +7,10 @@ primary_keyword: "odor removal and deodorization franklin park"
 secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
 search_intent: "local_specialty"
 priority: 4.9
-plan_hash: "b8dd6f744337d58f"
-generated_at: "2026-09-20T14:13:09.800525+00:00"
+plan_hash: "00f1f45a2b6fa41b"
+generated_at: "2026-09-23T14:11:40.901887+00:00"
 manual_override: false
-internal_links: ["/services/odor-removal/", "/service-areas/franklin-park-pa/", "/service-areas/franklin-park-pa/fire-damage-restoration/", "/service-areas/franklin-park-pa/mold-remediation/", "/service-areas/baden-pa/odor-removal/", "/service-areas/beaver-falls-pa/odor-removal/", "/contact/"]
+internal_links: ["/services/odor-removal/", "/service-areas/franklin-park-pa/", "/service-areas/franklin-park-pa/fire-damage-restoration/", "/service-areas/franklin-park-pa/mold-remediation/", "/service-areas/aliquippa-pa/odor-removal/", "/service-areas/allison-park-pa/odor-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Franklin Park", "url": "/service-areas/franklin-park-pa/"}, {"name": "Odor Removal and Deodorization"}]
 faq: []
 area_slug: "franklin-park-pa"

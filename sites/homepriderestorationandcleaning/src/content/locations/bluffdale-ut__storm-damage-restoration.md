@@ -7,10 +7,10 @@ primary_keyword: "storm damage restoration bluffdale"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "31b82aa1daf30817"
-generated_at: "2026-09-20T17:29:46.322662+00:00"
+plan_hash: "1566fc63ef589a27"
+generated_at: "2026-09-23T14:11:49.779074+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/bluffdale-ut/", "/service-areas/bluffdale-ut/fire-damage-restoration/", "/service-areas/bluffdale-ut/mold-remediation/", "/service-areas/american-fork-ut/storm-damage-restoration/", "/service-areas/cedar-fort-ut/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/bluffdale-ut/", "/service-areas/bluffdale-ut/fire-damage-restoration/", "/service-areas/bluffdale-ut/mold-remediation/", "/service-areas/alpine-ut/storm-damage-restoration/", "/service-areas/american-fork-ut/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bluffdale", "url": "/service-areas/bluffdale-ut/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "bluffdale-ut"

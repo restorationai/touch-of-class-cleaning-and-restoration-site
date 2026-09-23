@@ -7,10 +7,10 @@ primary_keyword: "mold remediation winchester"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "017c0b77fa2c2c29"
-generated_at: "2026-09-20T14:13:41.079232+00:00"
+plan_hash: "145aeee7f59e052e"
+generated_at: "2026-09-23T14:12:02.368237+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/winchester-nv/", "/service-areas/winchester-nv/fire-damage-restoration/", "/service-areas/winchester-nv/water-damage-restoration/", "/service-areas/boulder-city-nv/mold-remediation/", "/service-areas/enterprise-nv/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/winchester-nv/", "/service-areas/winchester-nv/fire-damage-restoration/", "/service-areas/winchester-nv/water-damage-restoration/", "/service-areas/blue-diamond-nv/mold-remediation/", "/service-areas/boulder-city-nv/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Winchester", "url": "/service-areas/winchester-nv/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "winchester-nv"

@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration new market"
 secondary_keywords: ["water damage repair", "water damage rebuild", "drywall water damage repair", "ceiling water damage repair", "post-leak renovation"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "96db4867c5aa93e8"
-generated_at: "2026-09-20T14:13:03.673844+00:00"
+plan_hash: "7e67f39d01abbea6"
+generated_at: "2026-09-23T14:11:32.843025+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/new-market-al/", "/service-areas/new-market-al/home-remodeling/", "/service-areas/new-market-al/roofing/", "/service-areas/athens-al/water-damage-restoration/", "/service-areas/harvest-al/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/new-market-al/", "/service-areas/new-market-al/home-remodeling/", "/service-areas/new-market-al/roofing/", "/service-areas/arab-al/water-damage-restoration/", "/service-areas/ardmore-al/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "New Market", "url": "/service-areas/new-market-al/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "new-market-al"

@@ -7,10 +7,10 @@ primary_keyword: "painting and trim harvest"
 secondary_keywords: ["painting contractor", "interior painting", "exterior painting", "house painter", "trim painting"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "3c3fdd992a56bad0"
-generated_at: "2026-09-20T14:13:03.675181+00:00"
+plan_hash: "a4d9d8b74ec6f972"
+generated_at: "2026-09-23T14:11:32.845319+00:00"
 manual_override: false
-internal_links: ["/services/painting-trim/", "/service-areas/harvest-al/", "/service-areas/harvest-al/home-remodeling/", "/service-areas/harvest-al/roofing/", "/service-areas/athens-al/painting-trim/", "/service-areas/hazel-green-al/painting-trim/", "/contact/"]
+internal_links: ["/services/painting-trim/", "/service-areas/harvest-al/", "/service-areas/harvest-al/home-remodeling/", "/service-areas/harvest-al/roofing/", "/service-areas/arab-al/painting-trim/", "/service-areas/ardmore-al/painting-trim/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Harvest", "url": "/service-areas/harvest-al/"}, {"name": "Painting and Trim"}]
 faq: []
 area_slug: "harvest-al"

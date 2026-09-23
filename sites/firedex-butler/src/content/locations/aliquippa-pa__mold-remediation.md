@@ -7,10 +7,10 @@ primary_keyword: "mold remediation aliquippa"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "9e6f94e05dcb6640"
-generated_at: "2026-09-20T17:29:36.720839+00:00"
+plan_hash: "c754f721b3298ee4"
+generated_at: "2026-09-23T14:11:40.932767+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/aliquippa-pa/", "/service-areas/aliquippa-pa/fire-damage-restoration/", "/service-areas/aliquippa-pa/water-damage-restoration/", "/service-areas/baden-pa/mold-remediation/", "/service-areas/beaver-falls-pa/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/aliquippa-pa/", "/service-areas/aliquippa-pa/fire-damage-restoration/", "/service-areas/aliquippa-pa/water-damage-restoration/", "/service-areas/allison-park-pa/mold-remediation/", "/service-areas/baden-pa/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Aliquippa", "url": "/service-areas/aliquippa-pa/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "aliquippa-pa"

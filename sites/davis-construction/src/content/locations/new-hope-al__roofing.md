@@ -7,10 +7,10 @@ primary_keyword: "roofing installation and replacement new hope"
 secondary_keywords: ["roofing contractor", "roof replacement", "new roof installation", "residential roofing", "roof repair"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "168d727363db23ac"
-generated_at: "2026-09-20T20:41:40.626813+00:00"
+plan_hash: "e7aa6a417db5747f"
+generated_at: "2026-09-23T14:11:32.859444+00:00"
 manual_override: false
-internal_links: ["/services/roofing/", "/service-areas/new-hope-al/", "/service-areas/new-hope-al/home-remodeling/", "/service-areas/new-hope-al/decks-pergolas-fences/", "/service-areas/athens-al/roofing/", "/service-areas/gurley-al/roofing/", "/contact/"]
+internal_links: ["/services/roofing/", "/service-areas/new-hope-al/", "/service-areas/new-hope-al/home-remodeling/", "/service-areas/new-hope-al/decks-pergolas-fences/", "/service-areas/arab-al/roofing/", "/service-areas/ardmore-al/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "New Hope", "url": "/service-areas/new-hope-al/"}, {"name": "Roofing Installation and Replacement"}]
 faq: []
 area_slug: "new-hope-al"

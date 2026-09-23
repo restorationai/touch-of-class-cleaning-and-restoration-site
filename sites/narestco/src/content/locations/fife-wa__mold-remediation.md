@@ -7,10 +7,10 @@ primary_keyword: "mold remediation fife"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "d357980f02bb8300"
-generated_at: "2026-09-20T19:37:11.690563+00:00"
+plan_hash: "ccc8d0c8a83632a6"
+generated_at: "2026-09-23T14:11:54.168698+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/fife-wa/", "/service-areas/fife-wa/fire-damage-restoration/", "/service-areas/fife-wa/water-damage-restoration/", "/service-areas/algona-wa/mold-remediation/", "/service-areas/auburn-wa/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/fife-wa/", "/service-areas/fife-wa/fire-damage-restoration/", "/service-areas/fife-wa/roofing/", "/service-areas/algona-wa/mold-remediation/", "/service-areas/auburn-wa/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fife", "url": "/service-areas/fife-wa/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "fife-wa"

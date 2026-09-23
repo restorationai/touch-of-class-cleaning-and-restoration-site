@@ -7,10 +7,10 @@ primary_keyword: "restoration services mclendon-chisholm"
 secondary_keywords: ["mclendon-chisholm restoration company", "damage restoration mclendon-chisholm", "mclendon-chisholm disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "6eee34dda43b576b"
-generated_at: "2026-09-20T14:13:42.826408+00:00"
+plan_hash: "f1bcda78b4a80510"
+generated_at: "2026-09-23T14:12:04.435029+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/mclendon-chisholm-tx/fire-damage-restoration/", "/service-areas/mclendon-chisholm-tx/mold-remediation/", "/service-areas/mclendon-chisholm-tx/water-damage-restoration/", "/service-areas/mclendon-chisholm-tx/storm-damage-restoration/", "/service-areas/mclendon-chisholm-tx/water-cleanup/", "/service-areas/mclendon-chisholm-tx/general-contracting/", "/service-areas/mclendon-chisholm-tx/contents-restoration/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/mclendon-chisholm-tx/fire-damage-restoration/", "/service-areas/mclendon-chisholm-tx/mold-remediation/", "/service-areas/mclendon-chisholm-tx/roofing/", "/service-areas/mclendon-chisholm-tx/water-damage-restoration/", "/service-areas/mclendon-chisholm-tx/storm-damage-restoration/", "/service-areas/mclendon-chisholm-tx/water-cleanup/", "/service-areas/mclendon-chisholm-tx/general-contracting/", "/service-areas/mclendon-chisholm-tx/odor-removal/", "/service-areas/mclendon-chisholm-tx/contents-restoration-storage/", "/service-areas/mclendon-chisholm-tx/contents-restoration/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McLendon-Chisholm"}]
 faq: []
 area_slug: "mclendon-chisholm-tx"

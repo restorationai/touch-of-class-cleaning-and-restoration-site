@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "5dbcbb80e2839979"
-generated_at: "2026-09-22T14:27:31.947524+00:00"
+generated_at: "2026-09-23T14:11:40.975766+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/big-beaver-pa/", "/service-areas/big-beaver-pa/fire-damage-restoration/", "/service-areas/big-beaver-pa/mold-remediation/", "/service-areas/aliquippa-pa/commercial-restoration/", "/service-areas/allison-park-pa/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Big Beaver", "url": "/service-areas/big-beaver-pa/"}, {"name": "Commercial Restoration"}]

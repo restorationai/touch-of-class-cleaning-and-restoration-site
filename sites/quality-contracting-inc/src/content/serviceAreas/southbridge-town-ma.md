@@ -7,10 +7,10 @@ primary_keyword: "restoration services southbridge town"
 secondary_keywords: ["southbridge town restoration company", "damage restoration southbridge town", "southbridge town disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "0d2b0e82d96bf7b6"
-generated_at: "2026-09-20T14:13:32.564274+00:00"
+plan_hash: "afa2290615718f4b"
+generated_at: "2026-09-23T14:11:58.459949+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/southbridge-town-ma/fire-damage-restoration/", "/service-areas/southbridge-town-ma/mold-remediation/", "/service-areas/southbridge-town-ma/water-damage-restoration/", "/service-areas/southbridge-town-ma/sewage-cleanup/", "/service-areas/southbridge-town-ma/storm-damage-restoration/", "/service-areas/southbridge-town-ma/water-cleanup/", "/service-areas/southbridge-town-ma/biohazard-cleanup/", "/service-areas/southbridge-town-ma/emergency-board-up-tarping/", "/service-areas/southbridge-town-ma/air-duct-cleaning/", "/service-areas/southbridge-town-ma/contents-restoration/", "/service-areas/southbridge-town-ma/crawl-space-encapsulation/", "/service-areas/east-douglas-ma/", "/service-areas/framingham-ma/", "/service-areas/hopkinton-ma/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/southbridge-town-ma/fire-damage-restoration/", "/service-areas/southbridge-town-ma/mold-remediation/", "/service-areas/southbridge-town-ma/roofing/", "/service-areas/southbridge-town-ma/water-damage-restoration/", "/service-areas/southbridge-town-ma/emergency-plumbing/", "/service-areas/southbridge-town-ma/sewage-cleanup/", "/service-areas/southbridge-town-ma/storm-damage-restoration/", "/service-areas/southbridge-town-ma/water-cleanup/", "/service-areas/southbridge-town-ma/biohazard-cleanup/", "/service-areas/southbridge-town-ma/general-contracting/", "/service-areas/southbridge-town-ma/emergency-board-up-tarping/", "/service-areas/southbridge-town-ma/odor-removal/", "/service-areas/southbridge-town-ma/water-leak-detection/", "/service-areas/southbridge-town-ma/asbestos-abatement/", "/service-areas/southbridge-town-ma/air-duct-cleaning/", "/service-areas/southbridge-town-ma/contents-restoration-storage/", "/service-areas/southbridge-town-ma/contents-restoration/", "/service-areas/southbridge-town-ma/crawl-space-encapsulation/", "/service-areas/southbridge-town-ma/carpet-cleaning/", "/service-areas/southbridge-town-ma/post-construction-cleaning/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Southbridge Town"}]
 faq: []
 area_slug: "southbridge-town-ma"

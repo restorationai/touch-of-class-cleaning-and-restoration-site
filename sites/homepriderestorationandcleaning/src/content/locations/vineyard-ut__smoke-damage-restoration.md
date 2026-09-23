@@ -7,10 +7,10 @@ primary_keyword: "smoke damage restoration vineyard"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "a7e46838986fb8ba"
-generated_at: "2026-09-20T14:13:18.720961+00:00"
+plan_hash: "d55c9eef12643922"
+generated_at: "2026-09-23T14:11:49.733937+00:00"
 manual_override: false
-internal_links: ["/services/smoke-damage-restoration/", "/service-areas/vineyard-ut/", "/service-areas/vineyard-ut/fire-damage-restoration/", "/service-areas/vineyard-ut/mold-remediation/", "/service-areas/american-fork-ut/smoke-damage-restoration/", "/service-areas/cedar-fort-ut/smoke-damage-restoration/", "/contact/"]
+internal_links: ["/services/smoke-damage-restoration/", "/service-areas/vineyard-ut/", "/service-areas/vineyard-ut/fire-damage-restoration/", "/service-areas/vineyard-ut/mold-remediation/", "/service-areas/alpine-ut/smoke-damage-restoration/", "/service-areas/american-fork-ut/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Vineyard", "url": "/service-areas/vineyard-ut/"}, {"name": "Smoke Damage Restoration"}]
 faq: []
 area_slug: "vineyard-ut"

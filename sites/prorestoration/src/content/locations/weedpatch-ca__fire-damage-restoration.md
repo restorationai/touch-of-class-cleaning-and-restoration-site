@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration weedpatch"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "e14bf9efac481269"
-generated_at: "2026-09-20T14:13:26.543568+00:00"
+plan_hash: "6bf620de207c6230"
+generated_at: "2026-09-23T14:11:55.968553+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/weedpatch-ca/", "/service-areas/weedpatch-ca/home-remodeling/", "/service-areas/weedpatch-ca/mold-remediation/", "/service-areas/arvin-ca/fire-damage-restoration/", "/service-areas/buttonwillow-ca/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/weedpatch-ca/", "/service-areas/weedpatch-ca/home-remodeling/", "/service-areas/weedpatch-ca/mold-remediation/", "/service-areas/arvin-ca/fire-damage-restoration/", "/service-areas/bear-valley-springs-ca/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Weedpatch", "url": "/service-areas/weedpatch-ca/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "weedpatch-ca"

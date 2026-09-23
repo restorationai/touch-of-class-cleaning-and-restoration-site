@@ -8,7 +8,7 @@ secondary_keywords: ["water removal", "water extraction", "water cleanup", "stru
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "6c781e27ab2012bd"
-generated_at: "2026-09-22T14:28:31.547438+00:00"
+generated_at: "2026-09-23T14:11:58.565784+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/franklin-town-ma/", "/service-areas/franklin-town-ma/fire-damage-restoration/", "/service-areas/franklin-town-ma/mold-remediation/", "/service-areas/bellingham-ma/water-damage-restoration/", "/service-areas/east-douglas-ma/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Franklin Town", "url": "/service-areas/franklin-town-ma/"}, {"name": "Water Damage Restoration"}]

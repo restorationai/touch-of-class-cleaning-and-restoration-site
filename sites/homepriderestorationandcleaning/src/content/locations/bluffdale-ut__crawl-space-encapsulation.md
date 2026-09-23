@@ -7,10 +7,10 @@ primary_keyword: "crawl space encapsulation bluffdale"
 secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "a34fbcf5bd0fe20c"
-generated_at: "2026-09-20T17:29:46.324629+00:00"
+plan_hash: "59481312d8feced5"
+generated_at: "2026-09-23T14:11:49.774931+00:00"
 manual_override: false
-internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/bluffdale-ut/", "/service-areas/bluffdale-ut/fire-damage-restoration/", "/service-areas/bluffdale-ut/mold-remediation/", "/service-areas/american-fork-ut/crawl-space-encapsulation/", "/service-areas/cedar-fort-ut/crawl-space-encapsulation/", "/contact/"]
+internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/bluffdale-ut/", "/service-areas/bluffdale-ut/fire-damage-restoration/", "/service-areas/bluffdale-ut/mold-remediation/", "/service-areas/alpine-ut/crawl-space-encapsulation/", "/service-areas/american-fork-ut/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bluffdale", "url": "/service-areas/bluffdale-ut/"}, {"name": "Crawl Space Encapsulation"}]
 faq: []
 area_slug: "bluffdale-ut"

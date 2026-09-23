@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "487e366881dc5b40"
-generated_at: "2026-09-20T14:13:45.349404+00:00"
+generated_at: "2026-09-23T14:12:06.562196+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/new-providence-nj/", "/service-areas/new-providence-nj/fire-damage-restoration/", "/service-areas/new-providence-nj/mold-remediation/", "/service-areas/avenel-nj/burst-pipe-repair/", "/service-areas/bayonne-nj/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "New Providence", "url": "/service-areas/new-providence-nj/"}, {"name": "Burst Pipe Cleanup and Repair"}]

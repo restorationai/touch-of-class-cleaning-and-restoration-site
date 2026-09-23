@@ -7,10 +7,10 @@ primary_keyword: "emergency water cleanup royse city"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 8.1
-plan_hash: "2a42f6ea5abfc437"
-generated_at: "2026-09-20T14:13:42.825129+00:00"
+plan_hash: "55bb3e1fed28cf46"
+generated_at: "2026-09-23T14:12:04.432269+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/water-cleanup/", "/service-areas/caddo-mills-tx/water-cleanup/", "/service-areas/dallas-tx/water-cleanup/", "/service-areas/fate-tx/water-cleanup/", "/service-areas/frisco-tx/water-cleanup/", "/service-areas/garland-tx/water-cleanup/", "/service-areas/greenville-tx/water-cleanup/", "/service-areas/highland-park-tx/water-cleanup/", "/service-areas/josephine-tx/water-cleanup/", "/service-areas/lavon-tx/water-cleanup/", "/service-areas/mckinney-tx/water-cleanup/", "/service-areas/mclendon-chisholm-tx/water-cleanup/", "/services/water-damage-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/water-cleanup/", "/service-areas/caddo-mills-tx/water-cleanup/", "/service-areas/dallas-tx/water-cleanup/", "/service-areas/farmersville-tx/water-cleanup/", "/service-areas/fate-tx/water-cleanup/", "/service-areas/frisco-tx/water-cleanup/", "/service-areas/garland-tx/water-cleanup/", "/service-areas/greenville-tx/water-cleanup/", "/service-areas/heath-tx/water-cleanup/", "/service-areas/highland-park-tx/water-cleanup/", "/service-areas/josephine-tx/water-cleanup/", "/service-areas/lavon-tx/water-cleanup/", "/services/water-damage-restoration/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "water-cleanup"}]
 faq: []
 service_slug: "water-cleanup"

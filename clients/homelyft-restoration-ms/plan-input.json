@@ -37,19 +37,23 @@
     "ga4_measurement_id": "G-CY001B6T82"
   },
   "services": [
-    "water-damage-restoration",
-    "fire-damage-restoration",
-    "mold-remediation",
-    "storm-damage-restoration",
-    "sewage-cleanup",
-    "general-contracting",
-    "biohazard-cleanup",
     "asbestos-abatement",
-    "emergency-board-up-tarping",
-    "contents-restoration",
-    "crawl-space-encapsulation",
+    "biohazard-cleanup",
     "carpet-cleaning",
-    "post-construction-cleaning"
+    "contents-restoration",
+    "contents-restoration-storage",
+    "crawl-space-encapsulation",
+    "emergency-board-up-tarping",
+    "fire-damage-restoration",
+    "general-contracting",
+    "mold-remediation",
+    "odor-removal",
+    "post-construction-cleaning",
+    "roofing",
+    "sewage-cleanup",
+    "storm-damage-restoration",
+    "water-damage-restoration",
+    "water-leak-detection"
   ],
   "service_areas": [
     {

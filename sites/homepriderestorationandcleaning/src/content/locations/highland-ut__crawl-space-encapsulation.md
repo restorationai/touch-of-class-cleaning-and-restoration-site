@@ -7,10 +7,10 @@ primary_keyword: "crawl space encapsulation highland"
 secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "d793b8f2e692523d"
-generated_at: "2026-09-20T14:13:18.725850+00:00"
+plan_hash: "c5f4a5e63f750aa8"
+generated_at: "2026-09-23T14:11:49.737576+00:00"
 manual_override: false
-internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/highland-ut/", "/service-areas/highland-ut/fire-damage-restoration/", "/service-areas/highland-ut/mold-remediation/", "/service-areas/american-fork-ut/crawl-space-encapsulation/", "/service-areas/cedar-fort-ut/crawl-space-encapsulation/", "/contact/"]
+internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/highland-ut/", "/service-areas/highland-ut/fire-damage-restoration/", "/service-areas/highland-ut/mold-remediation/", "/service-areas/alpine-ut/crawl-space-encapsulation/", "/service-areas/american-fork-ut/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Highland", "url": "/service-areas/highland-ut/"}, {"name": "Crawl Space Encapsulation"}]
 faq: []
 area_slug: "highland-ut"

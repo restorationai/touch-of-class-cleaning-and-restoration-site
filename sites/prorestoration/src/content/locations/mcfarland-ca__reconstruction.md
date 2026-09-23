@@ -7,10 +7,10 @@ primary_keyword: "reconstruction services mcfarland"
 secondary_keywords: ["post-damage reconstruction", "rebuild services", "structural reconstruction", "post-disaster rebuilding", "fire damage reconstruction"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "3f03293603124493"
-generated_at: "2026-09-20T14:13:26.553639+00:00"
+plan_hash: "d6318b9d25bc760f"
+generated_at: "2026-09-23T14:11:55.992967+00:00"
 manual_override: false
-internal_links: ["/services/reconstruction/", "/service-areas/mcfarland-ca/", "/service-areas/mcfarland-ca/fire-damage-restoration/", "/service-areas/mcfarland-ca/home-remodeling/", "/service-areas/arvin-ca/reconstruction/", "/service-areas/buttonwillow-ca/reconstruction/", "/contact/"]
+internal_links: ["/services/reconstruction/", "/service-areas/mcfarland-ca/", "/service-areas/mcfarland-ca/fire-damage-restoration/", "/service-areas/mcfarland-ca/home-remodeling/", "/service-areas/arvin-ca/reconstruction/", "/service-areas/bear-valley-springs-ca/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McFarland", "url": "/service-areas/mcfarland-ca/"}, {"name": "Reconstruction Services"}]
 faq: []
 area_slug: "mcfarland-ca"

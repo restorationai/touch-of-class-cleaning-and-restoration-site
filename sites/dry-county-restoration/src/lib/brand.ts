@@ -64,9 +64,16 @@ export const brand = {
   sameAsUrls: ["https://maps.google.com/maps?cid=2637755477782444584"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
-  gbpRatingValue: "",
-  gbpReviewCount: "",
-  gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
+  gbpRatingValue: "5.0",
+  gbpReviewCount: "80",
+  gbpReviews: [
+    { author: "Heather", rating: 5, text: "Everyone at Dry County was great to work with! They came out quickly and were very responsive and easy to communicate with throughout the process. Every single person who showed up at the house to do a job was intelligent, competent, and respectful. They came when they said they would, did what…", when: "September 2026" },
+    { author: "Rachel", rating: 5, text: "They were very helpful and knowledgeable!", when: "September 2026" },
+    { author: "Efren", rating: 5, text: "The crew was knowledgeable & thorough. And customer friendly.", when: "September 2026" },
+    { author: "Jenny", rating: 5, text: "Everyone at Dry County have been so helpful and communicative. They helped make a difficult situation much more bareable. From beginning to end, everyone involved have been amazing.", when: "September 2026" },
+    { author: "Darla", rating: 5, text: "These guys helped me out with drying up the water that flooded my house. They were here when they said they would be. It was a great experience.", when: "September 2026" },
+    { author: "Jo", rating: 5, text: "They did a great job and cleaned up afterwards. Very happy with the job.", when: "August 2026" },
+  ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Corona, CA.",
   ctaLabel: "24/7 Emergency Line",
   // Vertical trade-identity copy — resolved at scaffold time from

@@ -8,7 +8,7 @@ secondary_keywords: ["trauma cleanup services", "trauma scene cleaning", "accide
 search_intent: "local_sensitive"
 priority: 4.9
 plan_hash: "583acacd8b9bb960"
-generated_at: "2026-09-21T14:13:34.626992+00:00"
+generated_at: "2026-09-23T14:11:54.189948+00:00"
 manual_override: false
 internal_links: ["/services/trauma-scene-cleanup/", "/service-areas/vashon-wa/", "/service-areas/vashon-wa/fire-damage-restoration/", "/service-areas/vashon-wa/mold-remediation/", "/service-areas/algona-wa/trauma-scene-cleanup/", "/service-areas/auburn-wa/trauma-scene-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Vashon", "url": "/service-areas/vashon-wa/"}, {"name": "Trauma Scene Cleanup"}]

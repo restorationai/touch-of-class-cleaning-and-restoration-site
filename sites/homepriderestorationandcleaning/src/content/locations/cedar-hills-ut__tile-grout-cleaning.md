@@ -7,10 +7,10 @@ primary_keyword: "tile & grout cleaning cedar hills"
 secondary_keywords: ["grout cleaning", "tile cleaning", "grout sealing", "grout restoration", "floor tile cleaning"]
 search_intent: "local_specialty"
 priority: 2.8
-plan_hash: "2cfa3497ca47b1d4"
-generated_at: "2026-09-20T14:13:18.735371+00:00"
+plan_hash: "0fe26b30926b52d9"
+generated_at: "2026-09-23T14:11:49.764204+00:00"
 manual_override: false
-internal_links: ["/services/tile-grout-cleaning/", "/service-areas/cedar-hills-ut/", "/service-areas/cedar-hills-ut/fire-damage-restoration/", "/service-areas/cedar-hills-ut/mold-remediation/", "/service-areas/american-fork-ut/tile-grout-cleaning/", "/service-areas/cedar-fort-ut/tile-grout-cleaning/", "/contact/"]
+internal_links: ["/services/tile-grout-cleaning/", "/service-areas/cedar-hills-ut/", "/service-areas/cedar-hills-ut/fire-damage-restoration/", "/service-areas/cedar-hills-ut/mold-remediation/", "/service-areas/alpine-ut/tile-grout-cleaning/", "/service-areas/american-fork-ut/tile-grout-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Cedar Hills", "url": "/service-areas/cedar-hills-ut/"}, {"name": "Tile & Grout Cleaning"}]
 faq: []
 area_slug: "cedar-hills-ut"

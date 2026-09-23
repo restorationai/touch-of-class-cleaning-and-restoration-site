@@ -7,10 +7,10 @@ primary_keyword: "restoration services northborough"
 secondary_keywords: ["northborough restoration company", "damage restoration northborough", "northborough disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "199ff2f18799fd1b"
-generated_at: "2026-09-20T14:13:32.564098+00:00"
+plan_hash: "6cd521651d3fa10e"
+generated_at: "2026-09-23T14:11:58.459613+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/northborough-ma/fire-damage-restoration/", "/service-areas/northborough-ma/mold-remediation/", "/service-areas/northborough-ma/water-damage-restoration/", "/service-areas/northborough-ma/sewage-cleanup/", "/service-areas/northborough-ma/storm-damage-restoration/", "/service-areas/northborough-ma/water-cleanup/", "/service-areas/northborough-ma/biohazard-cleanup/", "/service-areas/northborough-ma/emergency-board-up-tarping/", "/service-areas/northborough-ma/air-duct-cleaning/", "/service-areas/northborough-ma/contents-restoration/", "/service-areas/northborough-ma/crawl-space-encapsulation/", "/service-areas/east-douglas-ma/", "/service-areas/framingham-ma/", "/service-areas/hopkinton-ma/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/northborough-ma/fire-damage-restoration/", "/service-areas/northborough-ma/mold-remediation/", "/service-areas/northborough-ma/roofing/", "/service-areas/northborough-ma/water-damage-restoration/", "/service-areas/northborough-ma/emergency-plumbing/", "/service-areas/northborough-ma/sewage-cleanup/", "/service-areas/northborough-ma/storm-damage-restoration/", "/service-areas/northborough-ma/water-cleanup/", "/service-areas/northborough-ma/biohazard-cleanup/", "/service-areas/northborough-ma/general-contracting/", "/service-areas/northborough-ma/emergency-board-up-tarping/", "/service-areas/northborough-ma/odor-removal/", "/service-areas/northborough-ma/water-leak-detection/", "/service-areas/northborough-ma/asbestos-abatement/", "/service-areas/northborough-ma/air-duct-cleaning/", "/service-areas/northborough-ma/contents-restoration-storage/", "/service-areas/northborough-ma/contents-restoration/", "/service-areas/northborough-ma/crawl-space-encapsulation/", "/service-areas/northborough-ma/carpet-cleaning/", "/service-areas/northborough-ma/post-construction-cleaning/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Northborough"}]
 faq: []
 area_slug: "northborough-ma"

@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "9ac06e59d18fb148"
-generated_at: "2026-09-21T14:13:12.730272+00:00"
+generated_at: "2026-09-23T14:11:40.955356+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/oak-hills-pa/", "/service-areas/oak-hills-pa/fire-damage-restoration/", "/service-areas/oak-hills-pa/mold-remediation/", "/service-areas/aliquippa-pa/commercial-restoration/", "/service-areas/allison-park-pa/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oak Hills", "url": "/service-areas/oak-hills-pa/"}, {"name": "Commercial Restoration"}]

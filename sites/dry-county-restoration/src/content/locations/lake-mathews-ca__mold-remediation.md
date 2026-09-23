@@ -7,10 +7,10 @@ primary_keyword: "mold remediation lake mathews"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "cc20c35ecda0ff07"
-generated_at: "2026-09-20T14:13:06.387457+00:00"
+plan_hash: "f50134a22b627eee"
+generated_at: "2026-09-23T14:11:36.205276+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/lake-mathews-ca/", "/service-areas/lake-mathews-ca/fire-damage-restoration/", "/service-areas/lake-mathews-ca/water-damage-restoration/", "/service-areas/anaheim-ca/mold-remediation/", "/service-areas/chino-ca/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/lake-mathews-ca/", "/service-areas/lake-mathews-ca/fire-damage-restoration/", "/service-areas/lake-mathews-ca/roofing/", "/service-areas/anaheim-ca/mold-remediation/", "/service-areas/chino-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Mathews", "url": "/service-areas/lake-mathews-ca/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "lake-mathews-ca"

@@ -1,9 +1,11 @@
 /** @type {import('tailwindcss').Config}
  *
- * Davis Construction Contractors brand palette:
+ * Canonical Rank AI starter palette — matches the narestco visual reference.
+ * Tokens substituted at scaffold time from plan-input.json via build_site.py.
+ *
  *   dark    — primary background surface (charcoal/near-black)
- *   primary — Davis red for CTAs, hovers, links
- *   accent  — brighter red for urgent highlights
+ *   primary — CTA color (red by default; override via BRAND_PRIMARY_* tokens)
+ *   accent  — brighter highlight for urgent elements
  */
 export default {
   content: ["./src/**/*.{astro,html,js,ts,md,mdx}"],
@@ -11,7 +13,7 @@ export default {
     extend: {
       colors: {
         dark: {
-          DEFAULT: "#111827", // gray-900
+          DEFAULT: "#111827",
           50: "#f9fafb",
           100: "#f3f4f6",
           200: "#e5e7eb",
@@ -25,32 +27,48 @@ export default {
           950: "#030712",
         },
         primary: {
-          DEFAULT: "#dc2626", // Davis Red (matches logo)
-          50: "#fef2f2",
-          100: "#fee2e2",
-          200: "#fecaca",
-          300: "#fca5a5",
-          400: "#f87171",
-          500: "#ef4444",
-          600: "#dc2626",
-          700: "#b91c1c",
-          800: "#991b1b",
-          900: "#7f1d1d",
-          950: "#450a0a",
+          DEFAULT: "#171717",
+          50: "#f7f7f7",
+          100: "#ebebeb",
+          200: "#d6d6d6",
+          300: "#b8b8b8",
+          400: "#9c9c9c",
+          500: "#808080",
+          // 600/700 are the DARKENED rungs — brand-tinted TEXT on a white or
+          // light surface (Hero's outline button, ProcessSection icons). They
+          // are NOT the button fill; that is `cta` below.
+          600: "#171717",
+          700: "#0a0a0a",
+          800: "#050505",
+          900: "#050505",
+          950: "#050505",
+        },
+        /* cta — the SOLID-FILL pair: `bg-cta` is every call-to-action's
+           background and `text-cta-fg` is the label that sits on it. They are
+           resolved TOGETHER in build_site.resolve_tokens so the pair always
+           clears WCAG AA, which lets the fill stay the client's REAL brand hex
+           instead of a darkened derivative. A dark brand gets hex + white; a
+           light brand (gold, lime, sky) gets hex + a near-black label. Reign,
+           2026-08-05: "Action to call on the website need to match golds as
+           the logo" — the fill is the logo gold now, the label moved instead. */
+        cta: {
+          DEFAULT: "#171717",
+          hover: "#0a0a0a",
+          fg: "#ffffff",
         },
         accent: {
-          // #dc2626 (was #ef4444): keeps the urgent red but meets WCAG AA 4.5:1
-          // with white button text (audit: color-contrast)
-          DEFAULT: "#dc2626",
+          // Same pair rule as cta — btn-accent renders text-accent-fg on this.
+          DEFAULT: "#171717",
+          fg: "#ffffff",
         },
         muted: {
           DEFAULT: "#4b5563",
         },
         /* navy — deep blue-black surface used by Footer (text-navy-900 on the
-           inverted white footer), GoogleMap/InternalLinks sections, and interior
-           page-route backgrounds. Was referenced by components but never defined,
-           so Tailwind dropped every navy-* class and the white footer rendered
-           white-on-white text (audit: color-contrast). */
+           inverted white footer), GoogleMap/InternalLinks sections, and the
+           interior page-route backgrounds. Was referenced by components but
+           never defined, so Tailwind dropped every navy-* class and the white
+           footer rendered white-on-white text (audit: color-contrast). */
         navy: {
           DEFAULT: "#0f172a",
           50: "#f8fafc",

@@ -7,10 +7,10 @@ primary_keyword: "restoration services silverado"
 secondary_keywords: ["silverado restoration company", "damage restoration silverado", "silverado disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "53a7d69451317aa9"
-generated_at: "2026-09-20T14:13:06.373111+00:00"
+plan_hash: "5d1ce286dd1d3779"
+generated_at: "2026-09-23T14:11:36.157610+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/silverado-ca/fire-damage-restoration/", "/service-areas/silverado-ca/mold-remediation/", "/service-areas/silverado-ca/water-damage-restoration/", "/service-areas/silverado-ca/sewage-cleanup/", "/service-areas/silverado-ca/storm-damage-restoration/", "/service-areas/silverado-ca/water-cleanup/", "/service-areas/silverado-ca/general-contracting/", "/service-areas/silverado-ca/emergency-board-up-tarping/", "/service-areas/silverado-ca/air-duct-cleaning/", "/service-areas/silverado-ca/contents-restoration/", "/service-areas/silverado-ca/carpet-cleaning/", "/service-areas/silverado-ca/post-construction-cleaning/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/silverado-ca/fire-damage-restoration/", "/service-areas/silverado-ca/mold-remediation/", "/service-areas/silverado-ca/roofing/", "/service-areas/silverado-ca/water-damage-restoration/", "/service-areas/silverado-ca/emergency-plumbing/", "/service-areas/silverado-ca/sewage-cleanup/", "/service-areas/silverado-ca/storm-damage-restoration/", "/service-areas/silverado-ca/water-cleanup/", "/service-areas/silverado-ca/general-contracting/", "/service-areas/silverado-ca/emergency-board-up-tarping/", "/service-areas/silverado-ca/odor-removal/", "/service-areas/silverado-ca/water-leak-detection/", "/service-areas/silverado-ca/air-duct-cleaning/", "/service-areas/silverado-ca/contents-restoration-storage/", "/service-areas/silverado-ca/contents-restoration/", "/service-areas/silverado-ca/carpet-cleaning/", "/service-areas/silverado-ca/post-construction-cleaning/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Silverado"}]
 faq: []
 area_slug: "silverado-ca"

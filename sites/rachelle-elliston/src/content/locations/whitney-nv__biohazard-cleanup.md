@@ -7,10 +7,10 @@ primary_keyword: "biohazard cleanup whitney"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
 priority: 5.6
-plan_hash: "67aa5f7a9451adf0"
-generated_at: "2026-09-20T17:29:59.751550+00:00"
+plan_hash: "0e4d9955dd01789c"
+generated_at: "2026-09-23T14:12:02.370057+00:00"
 manual_override: false
-internal_links: ["/services/biohazard-cleanup/", "/service-areas/whitney-nv/", "/service-areas/whitney-nv/fire-damage-restoration/", "/service-areas/whitney-nv/mold-remediation/", "/service-areas/boulder-city-nv/biohazard-cleanup/", "/service-areas/enterprise-nv/biohazard-cleanup/", "/contact/"]
+internal_links: ["/services/biohazard-cleanup/", "/service-areas/whitney-nv/", "/service-areas/whitney-nv/fire-damage-restoration/", "/service-areas/whitney-nv/mold-remediation/", "/service-areas/blue-diamond-nv/biohazard-cleanup/", "/service-areas/boulder-city-nv/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Whitney", "url": "/service-areas/whitney-nv/"}, {"name": "Biohazard Cleanup"}]
 faq: []
 area_slug: "whitney-nv"

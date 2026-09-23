@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration valley acres"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "61c86bd4a30d85d0"
-generated_at: "2026-09-20T17:29:54.890153+00:00"
+plan_hash: "a3031577b5fe1fdf"
+generated_at: "2026-09-23T14:11:55.997915+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/valley-acres-ca/", "/service-areas/valley-acres-ca/home-remodeling/", "/service-areas/valley-acres-ca/mold-remediation/", "/service-areas/arvin-ca/fire-damage-restoration/", "/service-areas/buttonwillow-ca/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/valley-acres-ca/", "/service-areas/valley-acres-ca/home-remodeling/", "/service-areas/valley-acres-ca/mold-remediation/", "/service-areas/arvin-ca/fire-damage-restoration/", "/service-areas/bear-valley-springs-ca/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Valley Acres", "url": "/service-areas/valley-acres-ca/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "valley-acres-ca"

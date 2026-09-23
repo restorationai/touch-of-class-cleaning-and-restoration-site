@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "13267c0b5d9ff5c0"
-generated_at: "2026-09-20T20:41:46.459880+00:00"
+generated_at: "2026-09-23T14:11:40.948843+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/prospect-pa/", "/service-areas/prospect-pa/fire-damage-restoration/", "/service-areas/prospect-pa/mold-remediation/", "/service-areas/aliquippa-pa/burst-pipe-repair/", "/service-areas/allison-park-pa/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Prospect", "url": "/service-areas/prospect-pa/"}, {"name": "Burst Pipe Cleanup and Repair"}]

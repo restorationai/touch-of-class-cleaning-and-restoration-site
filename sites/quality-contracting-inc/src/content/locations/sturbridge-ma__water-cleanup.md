@@ -7,10 +7,10 @@ primary_keyword: "emergency water cleanup sturbridge"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "d3a8fcd1649a5573"
-generated_at: "2026-09-20T14:13:32.579732+00:00"
+plan_hash: "47e81a5ee454323c"
+generated_at: "2026-09-23T14:11:58.524983+00:00"
 manual_override: false
-internal_links: ["/services/water-cleanup/", "/service-areas/sturbridge-ma/", "/service-areas/sturbridge-ma/fire-damage-restoration/", "/service-areas/sturbridge-ma/mold-remediation/", "/service-areas/east-douglas-ma/water-cleanup/", "/service-areas/framingham-ma/water-cleanup/", "/contact/"]
+internal_links: ["/services/water-cleanup/", "/service-areas/sturbridge-ma/", "/service-areas/sturbridge-ma/fire-damage-restoration/", "/service-areas/sturbridge-ma/mold-remediation/", "/service-areas/bellingham-ma/water-cleanup/", "/service-areas/east-douglas-ma/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sturbridge", "url": "/service-areas/sturbridge-ma/"}, {"name": "water-cleanup"}]
 faq: []
 area_slug: "sturbridge-ma"

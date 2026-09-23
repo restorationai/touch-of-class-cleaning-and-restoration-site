@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "bfbffe87c749854e"
-generated_at: "2026-09-22T18:10:22.120255+00:00"
+generated_at: "2026-09-23T14:11:54.220924+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/sumner-wa/", "/service-areas/sumner-wa/fire-damage-restoration/", "/service-areas/sumner-wa/mold-remediation/", "/service-areas/algona-wa/burst-pipe-repair/", "/service-areas/auburn-wa/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sumner", "url": "/service-areas/sumner-wa/"}, {"name": "Burst Pipe Cleanup and Repair"}]

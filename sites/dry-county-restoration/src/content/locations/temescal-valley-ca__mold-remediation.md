@@ -7,10 +7,10 @@ primary_keyword: "mold remediation temescal valley"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "77fd71a170593744"
-generated_at: "2026-09-20T14:13:06.383314+00:00"
+plan_hash: "6da7cc6555865ab8"
+generated_at: "2026-09-23T14:11:36.194924+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/temescal-valley-ca/", "/service-areas/temescal-valley-ca/fire-damage-restoration/", "/service-areas/temescal-valley-ca/water-damage-restoration/", "/service-areas/anaheim-ca/mold-remediation/", "/service-areas/chino-ca/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/temescal-valley-ca/", "/service-areas/temescal-valley-ca/fire-damage-restoration/", "/service-areas/temescal-valley-ca/roofing/", "/service-areas/anaheim-ca/mold-remediation/", "/service-areas/chino-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Temescal Valley", "url": "/service-areas/temescal-valley-ca/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "temescal-valley-ca"

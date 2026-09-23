@@ -7,10 +7,10 @@ primary_keyword: "contents restoration and storage mira monte"
 secondary_keywords: ["contents pack-out", "contents cleaning", "belongings restoration", "furniture restoration after fire", "contents storage"]
 search_intent: "local_service"
 priority: 3.5
-plan_hash: "8ba97445899bd9a5"
-generated_at: "2026-09-20T14:12:59.575065+00:00"
+plan_hash: "31822f2b68926ffd"
+generated_at: "2026-09-23T14:11:28.114069+00:00"
 manual_override: false
-internal_links: ["/services/contents-restoration/", "/service-areas/mira-monte-ca/", "/service-areas/mira-monte-ca/mold-remediation/", "/service-areas/mira-monte-ca/water-damage-restoration/", "/service-areas/camarillo-ca/contents-restoration/", "/service-areas/fillmore-ca/contents-restoration/", "/contact/"]
+internal_links: ["/services/contents-restoration/", "/service-areas/mira-monte-ca/", "/service-areas/mira-monte-ca/mold-remediation/", "/service-areas/mira-monte-ca/water-damage-restoration/", "/service-areas/camarillo-ca/contents-restoration/", "/service-areas/carpinteria-ca/contents-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mira Monte", "url": "/service-areas/mira-monte-ca/"}, {"name": "Contents Restoration and Storage"}]
 faq: []
 area_slug: "mira-monte-ca"

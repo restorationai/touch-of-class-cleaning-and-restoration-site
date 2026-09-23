@@ -8,7 +8,7 @@ secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "ca
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "ad0f36af41ababaa"
-generated_at: "2026-09-21T14:13:38.468471+00:00"
+generated_at: "2026-09-23T14:11:56.026037+00:00"
 manual_override: false
 internal_links: ["/services/carpet-cleaning/", "/service-areas/maricopa-ca/", "/service-areas/maricopa-ca/fire-damage-restoration/", "/service-areas/maricopa-ca/home-remodeling/", "/service-areas/arvin-ca/carpet-cleaning/", "/service-areas/bear-valley-springs-ca/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Maricopa", "url": "/service-areas/maricopa-ca/"}, {"name": "Carpet Cleaning"}]

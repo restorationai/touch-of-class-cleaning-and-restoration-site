@@ -7,10 +7,10 @@ primary_keyword: "mold remediation sumner"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "def63cbdf672ca39"
-generated_at: "2026-09-22T18:10:22.122101+00:00"
+plan_hash: "caa1d8f6f56edcab"
+generated_at: "2026-09-23T14:11:54.224236+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/sumner-wa/", "/service-areas/sumner-wa/fire-damage-restoration/", "/service-areas/sumner-wa/water-damage-restoration/", "/service-areas/algona-wa/mold-remediation/", "/service-areas/auburn-wa/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/sumner-wa/", "/service-areas/sumner-wa/fire-damage-restoration/", "/service-areas/sumner-wa/roofing/", "/service-areas/algona-wa/mold-remediation/", "/service-areas/auburn-wa/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sumner", "url": "/service-areas/sumner-wa/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "sumner-wa"

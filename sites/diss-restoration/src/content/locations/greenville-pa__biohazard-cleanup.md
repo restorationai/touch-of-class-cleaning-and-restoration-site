@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "1f43e5c9298ae84a"
-generated_at: "2026-09-21T15:54:35.837434+00:00"
+generated_at: "2026-09-23T14:11:34.831093+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/greenville-pa/", "/service-areas/greenville-pa/fire-damage-restoration/", "/service-areas/greenville-pa/mold-remediation/", "/service-areas/austintown-oh/biohazard-cleanup/", "/service-areas/boardman-oh/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Greenville", "url": "/service-areas/greenville-pa/"}, {"name": "Biohazard Cleanup"}]

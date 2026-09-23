@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration buttonwillow"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "e2aa3f05271908dd"
-generated_at: "2026-09-20T14:13:26.545644+00:00"
+plan_hash: "3e5daa2742303c15"
+generated_at: "2026-09-23T14:11:55.980371+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/fire-damage-restoration/", "/service-areas/buttonwillow-ca/home-remodeling/", "/service-areas/arvin-ca/water-damage-restoration/", "/service-areas/delano-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/fire-damage-restoration/", "/service-areas/buttonwillow-ca/home-remodeling/", "/service-areas/arvin-ca/water-damage-restoration/", "/service-areas/bear-valley-springs-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buttonwillow", "url": "/service-areas/buttonwillow-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "buttonwillow-ca"

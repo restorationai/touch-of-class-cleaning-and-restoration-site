@@ -208,7 +208,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Fire Damage Restoration, Mold Remediation, Storm Damage Restoration, Sewage Cleanup and Sanitization, Asbestos Abatement, Emergency Board-Up and Tarping, Contents Restoration & Storage, Emergency Water Cleanup)
+- [ ] (continue for each of Asbestos Abatement, Contents Restoration & Storage, Emergency Board-Up and Tarping, Emergency Plumbing, Fire Damage Restoration, Mold Remediation, Odor Removal and Deodorization, Sewage Cleanup and Sanitization, Storm Damage Restoration, Emergency Water Cleanup, Water Damage Restoration)
 
 ### Service area pages (one image per city served)
 - [ ] Lakewood hero — exterior shot, regional housing stock, evocative of the city

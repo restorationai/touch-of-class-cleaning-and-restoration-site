@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "7d328cc27e6e884d"
-generated_at: "2026-09-22T14:27:31.947637+00:00"
+generated_at: "2026-09-23T14:11:40.978749+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/big-beaver-pa/", "/service-areas/big-beaver-pa/fire-damage-restoration/", "/service-areas/big-beaver-pa/mold-remediation/", "/service-areas/aliquippa-pa/reconstruction/", "/service-areas/allison-park-pa/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Big Beaver", "url": "/service-areas/big-beaver-pa/"}, {"name": "Reconstruction Services"}]

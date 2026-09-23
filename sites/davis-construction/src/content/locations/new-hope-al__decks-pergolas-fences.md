@@ -7,10 +7,10 @@ primary_keyword: "decks, pergolas and fences new hope"
 secondary_keywords: ["deck builder", "deck installation", "pergola builder", "fence installation", "outdoor structure contractor"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "6d955ea55b01da2a"
-generated_at: "2026-09-20T20:41:40.626629+00:00"
+plan_hash: "bb8feec0c2e4d172"
+generated_at: "2026-09-23T14:11:32.857644+00:00"
 manual_override: false
-internal_links: ["/services/decks-pergolas-fences/", "/service-areas/new-hope-al/", "/service-areas/new-hope-al/home-remodeling/", "/service-areas/new-hope-al/roofing/", "/service-areas/athens-al/decks-pergolas-fences/", "/service-areas/gurley-al/decks-pergolas-fences/", "/contact/"]
+internal_links: ["/services/decks-pergolas-fences/", "/service-areas/new-hope-al/", "/service-areas/new-hope-al/home-remodeling/", "/service-areas/new-hope-al/roofing/", "/service-areas/arab-al/decks-pergolas-fences/", "/service-areas/ardmore-al/decks-pergolas-fences/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "New Hope", "url": "/service-areas/new-hope-al/"}, {"name": "Decks, Pergolas and Fences"}]
 faq: []
 area_slug: "new-hope-al"

@@ -7,10 +7,10 @@ primary_keyword: "renovations, remodels and general contracting aliquippa"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "21ec9162ab1ee0e8"
-generated_at: "2026-09-20T17:29:36.721701+00:00"
+plan_hash: "3bed142d338c34d2"
+generated_at: "2026-09-23T14:11:40.932108+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/aliquippa-pa/", "/service-areas/aliquippa-pa/fire-damage-restoration/", "/service-areas/aliquippa-pa/mold-remediation/", "/service-areas/baden-pa/general-contracting/", "/service-areas/beaver-falls-pa/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/aliquippa-pa/", "/service-areas/aliquippa-pa/fire-damage-restoration/", "/service-areas/aliquippa-pa/mold-remediation/", "/service-areas/allison-park-pa/general-contracting/", "/service-areas/baden-pa/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Aliquippa", "url": "/service-areas/aliquippa-pa/"}, {"name": "Renovations, Remodels and General Contracting"}]
 faq: []
 area_slug: "aliquippa-pa"

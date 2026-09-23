@@ -7,10 +7,10 @@ primary_keyword: "sewage cleanup and sanitization sewickley heights"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "4433294e98ccb578"
-generated_at: "2026-09-20T14:13:09.811573+00:00"
+plan_hash: "ae666bdbd254c0e5"
+generated_at: "2026-09-23T14:11:40.927522+00:00"
 manual_override: false
-internal_links: ["/services/sewage-cleanup/", "/service-areas/sewickley-heights-pa/", "/service-areas/sewickley-heights-pa/fire-damage-restoration/", "/service-areas/sewickley-heights-pa/mold-remediation/", "/service-areas/baden-pa/sewage-cleanup/", "/service-areas/beaver-falls-pa/sewage-cleanup/", "/contact/"]
+internal_links: ["/services/sewage-cleanup/", "/service-areas/sewickley-heights-pa/", "/service-areas/sewickley-heights-pa/fire-damage-restoration/", "/service-areas/sewickley-heights-pa/mold-remediation/", "/service-areas/aliquippa-pa/sewage-cleanup/", "/service-areas/allison-park-pa/sewage-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sewickley Heights", "url": "/service-areas/sewickley-heights-pa/"}, {"name": "Sewage Cleanup and Sanitization"}]
 faq: []
 area_slug: "sewickley-heights-pa"

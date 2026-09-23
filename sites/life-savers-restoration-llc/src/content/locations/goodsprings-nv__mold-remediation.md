@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "9fb111c620abd8d1"
-generated_at: "2026-09-20T14:13:21.544347+00:00"
+generated_at: "2026-09-23T14:11:52.257254+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/goodsprings-nv/", "/service-areas/goodsprings-nv/fire-damage-restoration/", "/service-areas/goodsprings-nv/water-damage-restoration/", "/service-areas/blue-diamond-nv/mold-remediation/", "/service-areas/boulder-city-nv/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Goodsprings", "url": "/service-areas/goodsprings-nv/"}, {"name": "Mold Remediation"}]

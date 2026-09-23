@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration sturbridge"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "e5dd93058a58d4af"
-generated_at: "2026-09-20T14:13:32.577989+00:00"
+plan_hash: "d2bd3ab58ff6a056"
+generated_at: "2026-09-23T14:11:58.524517+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/sturbridge-ma/", "/service-areas/sturbridge-ma/fire-damage-restoration/", "/service-areas/sturbridge-ma/mold-remediation/", "/service-areas/east-douglas-ma/water-damage-restoration/", "/service-areas/framingham-ma/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/sturbridge-ma/", "/service-areas/sturbridge-ma/fire-damage-restoration/", "/service-areas/sturbridge-ma/mold-remediation/", "/service-areas/bellingham-ma/water-damage-restoration/", "/service-areas/east-douglas-ma/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sturbridge", "url": "/service-areas/sturbridge-ma/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "sturbridge-ma"

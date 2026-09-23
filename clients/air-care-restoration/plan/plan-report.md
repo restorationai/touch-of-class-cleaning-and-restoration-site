@@ -1,21 +1,21 @@
 # Site Plan Report — Air Care Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-08-16T09:42:03.064060+00:00
+- Generated: 2026-09-23T14:11:22.855926+00:00
 - Domain: `aircarerestoration.com`
-- Services selected: 13 of 55 catalog entries
-- Service areas: 25
+- Services selected: 15 of 65 catalog entries
+- Service areas: 28
 - Cross-product enabled: True
-- Total URLs: **380**
-- Total internal links: 3052 (avg 8.0 per page)
+- Total URLs: **464**
+- Total internal links: 3740 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 325 |
-| `service-area` | 25 |
-| `service-landing` | 13 |
+| `service-area-service` | 405 |
+| `service-area` | 27 |
+| `service-landing` | 15 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -27,19 +27,21 @@
 
 ## Selected services
 
-- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
-- `water-cleanup` — Water Cleanup (core, priority 9)
-- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `air-duct-cleaning` — Air Duct Cleaning (adjacent, priority 5)
-- `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
-- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
-- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
+- `asbestos-abatement` — Asbestos Abatement (specialty, priority 6)
 - `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
 - `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
-- `post-construction-cleaning` — Post-Construction and Specialty Cleaning (supporting, priority 4)
+- `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
 - `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
-- `asbestos-abatement` — Asbestos Abatement (specialty, priority 6)
+- `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
+- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
 - `mold-remediation` — Mold Remediation (core, priority 10)
+- `odor-removal` — Odor Removal and Deodorization (specialty, priority 7)
+- `post-construction-cleaning` — Post-Construction and Specialty Cleaning (supporting, priority 4)
+- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
+- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
+- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
+- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 
 ## Service areas
 
@@ -68,6 +70,9 @@
 - `eastland-tx` — Eastland, TX
 - `colorado-city-tx` — Colorado City, TX
 - `comanche-tx` — Comanche, TX
+- `potosi-tx` — Potosi, TX
+- `hawley-tx` — Hawley, TX
+- `baird-tx` — Baird, TX
 
 ## Top 10 priority pages
 
@@ -78,11 +83,11 @@
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration abilene |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization abilene |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration abilene |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | water cleanup abilene |
-| `/service-areas/abilene-tx/` | `service-area` | 7.2 | restoration services abilene |
+| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup abilene |
 | `/services/biohazard-cleanup/` | `service-landing` | 7.2 | biohazard cleanup abilene |
 | `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting abilene |
-| `/service-areas/abilene-tx/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration abilene |
+| `/service-areas/albany-tx/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration albany |
+| `/service-areas/albany-tx/mold-remediation/` | `service-area-service` | 7.0 | mold remediation albany |
 
 ## Validation
 

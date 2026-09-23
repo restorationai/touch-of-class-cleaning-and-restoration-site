@@ -13,51 +13,53 @@ export default {
     extend: {
       colors: {
         dark: {
-          DEFAULT: "#14144a",
-          50: "#f3f3fc",
-          100: "#e3e3f7",
-          200: "#c3c3ef",
-          300: "#8f8fe1",
-          400: "#4a4ace",
-          500: "#2b2ba1",
-          600: "#212178",
-          700: "#181858",
-          800: "#111140",
-          900: "#0c0c2c",
-          950: "#08081c",
+          DEFAULT: "#111827",
+          50: "#f9fafb",
+          100: "#f3f4f6",
+          200: "#e5e7eb",
+          300: "#d1d5db",
+          400: "#9ca3af",
+          500: "#6b7280",
+          600: "#4b5563",
+          700: "#374151",
+          800: "#1f2937",
+          900: "#111827",
+          950: "#030712",
         },
         primary: {
-          DEFAULT: "#14144a",
-          50: "#f3f3fc",
-          100: "#e3e3f7",
-          200: "#c3c3ef",
-          300: "#8f8fe1",
-          400: "#4a4ace",
-          500: "#2b2ba1",
-          600: "#212178",
-          700: "#181858",
-          800: "#111140",
-          900: "#0c0c2c",
-          950: "#08081c",
-        },
-        gold: {
           DEFAULT: "#e6ac1a",
           50: "#fdfaf1",
           100: "#fbf2da",
           200: "#f7e4b5",
           300: "#f1d07e",
-          400: "#ebbc47",
+          400: "#ebbe4c",
           500: "#e6ac19",
-          600: "#af8213",
-          700: "#8f6a10",
-          800: "#73560d",
-          900: "#57410a",
-          950: "#332606",
+          // 600/700 are the DARKENED rungs — brand-tinted TEXT on a white or
+          // light surface (Hero's outline button, ProcessSection icons). They
+          // are NOT the button fill; that is `cta` below.
+          600: "#946f10",
+          700: "#6f530c",
+          800: "#5a430a",
+          900: "#463408",
+          950: "#312405",
+        },
+        /* cta — the SOLID-FILL pair: `bg-cta` is every call-to-action's
+           background and `text-cta-fg` is the label that sits on it. They are
+           resolved TOGETHER in build_site.resolve_tokens so the pair always
+           clears WCAG AA, which lets the fill stay the client's REAL brand hex
+           instead of a darkened derivative. A dark brand gets hex + white; a
+           light brand (gold, lime, sky) gets hex + a near-black label. Reign,
+           2026-08-05: "Action to call on the website need to match golds as
+           the logo" — the fill is the logo gold now, the label moved instead. */
+        cta: {
+          DEFAULT: "#e6ac1a",
+          hover: "#c79416",
+          fg: "#111827",
         },
         accent: {
-          // btn-accent renders WHITE text on this color — pick an accent that
-          // keeps >= 4.5:1 contrast with white (WCAG AA). e.g. #dc2626 or #c2410c.
-          DEFAULT: "#8f6a10",
+          // Same pair rule as cta — btn-accent renders text-accent-fg on this.
+          DEFAULT: "#e6ac1a",
+          fg: "#111827",
         },
         muted: {
           DEFAULT: "#4b5563",

@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "9cfa4e24fc4c1a6f"
-generated_at: "2026-09-21T15:54:35.831235+00:00"
+generated_at: "2026-09-23T14:11:34.818497+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/sharpsville-pa/", "/service-areas/sharpsville-pa/fire-damage-restoration/", "/service-areas/sharpsville-pa/mold-remediation/", "/service-areas/austintown-oh/emergency-board-up-tarping/", "/service-areas/boardman-oh/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sharpsville", "url": "/service-areas/sharpsville-pa/"}, {"name": "Emergency Board-Up and Tarping"}]

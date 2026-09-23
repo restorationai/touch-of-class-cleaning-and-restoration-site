@@ -7,10 +7,10 @@ primary_keyword: "construction services decatur"
 secondary_keywords: ["decatur construction company", "general contractor decatur", "decatur remodeling contractor"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "3987a53fda1c37a0"
-generated_at: "2026-09-22T18:09:59.772303+00:00"
+plan_hash: "24c4f26f28304fdf"
+generated_at: "2026-09-23T14:11:32.823666+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/decatur-al/home-remodeling/", "/service-areas/decatur-al/roofing/", "/service-areas/decatur-al/decks-pergolas-fences/", "/service-areas/decatur-al/new-construction/", "/service-areas/decatur-al/siding-gutters/", "/service-areas/decatur-al/mold-remediation/", "/service-areas/decatur-al/painting-trim/", "/service-areas/decatur-al/storm-damage-restoration/", "/service-areas/decatur-al/water-damage-restoration/", "/service-areas/ardmore-al/", "/service-areas/athens-al/", "/service-areas/elkmont-al/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/decatur-al/home-remodeling/", "/service-areas/decatur-al/roofing/", "/service-areas/decatur-al/decks-pergolas-fences/", "/service-areas/decatur-al/new-construction/", "/service-areas/decatur-al/siding-gutters/", "/service-areas/decatur-al/fire-smoke-rebuilding/", "/service-areas/decatur-al/mold-remediation/", "/service-areas/decatur-al/painting-trim/", "/service-areas/decatur-al/storm-damage-restoration/", "/service-areas/decatur-al/water-damage-restoration/", "/service-areas/decatur-al/windows-doors/", "/service-areas/arab-al/", "/service-areas/ardmore-al/", "/service-areas/athens-al/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Decatur"}]
 faq: []
 area_slug: "decatur-al"

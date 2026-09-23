@@ -7,10 +7,10 @@ primary_keyword: "storm damage restoration mira monte"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "2bf0266c079dbdb9"
-generated_at: "2026-09-20T14:12:59.574889+00:00"
+plan_hash: "e960a403069e5354"
+generated_at: "2026-09-23T14:11:28.115476+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/mira-monte-ca/", "/service-areas/mira-monte-ca/mold-remediation/", "/service-areas/mira-monte-ca/water-damage-restoration/", "/service-areas/camarillo-ca/storm-damage-restoration/", "/service-areas/fillmore-ca/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/mira-monte-ca/", "/service-areas/mira-monte-ca/mold-remediation/", "/service-areas/mira-monte-ca/water-damage-restoration/", "/service-areas/camarillo-ca/storm-damage-restoration/", "/service-areas/carpinteria-ca/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mira Monte", "url": "/service-areas/mira-monte-ca/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "mira-monte-ca"

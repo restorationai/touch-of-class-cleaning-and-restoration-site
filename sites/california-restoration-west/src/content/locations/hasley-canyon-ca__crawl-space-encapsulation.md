@@ -7,10 +7,10 @@ primary_keyword: "crawl space encapsulation hasley canyon"
 secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "9fd534fe4228b533"
-generated_at: "2026-09-20T19:17:07.913459+00:00"
+plan_hash: "eb812f47ccd64e12"
+generated_at: "2026-09-23T14:11:28.130808+00:00"
 manual_override: false
-internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/hasley-canyon-ca/", "/service-areas/hasley-canyon-ca/mold-remediation/", "/service-areas/hasley-canyon-ca/water-damage-restoration/", "/service-areas/camarillo-ca/crawl-space-encapsulation/", "/service-areas/fillmore-ca/crawl-space-encapsulation/", "/contact/"]
+internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/hasley-canyon-ca/", "/service-areas/hasley-canyon-ca/mold-remediation/", "/service-areas/hasley-canyon-ca/water-damage-restoration/", "/service-areas/camarillo-ca/crawl-space-encapsulation/", "/service-areas/carpinteria-ca/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hasley Canyon", "url": "/service-areas/hasley-canyon-ca/"}, {"name": "Crawl Space Encapsulation"}]
 faq: []
 area_slug: "hasley-canyon-ca"

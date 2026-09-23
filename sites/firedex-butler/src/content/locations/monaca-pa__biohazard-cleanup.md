@@ -7,10 +7,10 @@ primary_keyword: "biohazard cleanup monaca"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
 priority: 5.6
-plan_hash: "8221949cc5d94252"
-generated_at: "2026-09-20T14:13:09.810256+00:00"
+plan_hash: "9f579e906c465965"
+generated_at: "2026-09-23T14:11:40.917311+00:00"
 manual_override: false
-internal_links: ["/services/biohazard-cleanup/", "/service-areas/monaca-pa/", "/service-areas/monaca-pa/fire-damage-restoration/", "/service-areas/monaca-pa/mold-remediation/", "/service-areas/baden-pa/biohazard-cleanup/", "/service-areas/beaver-falls-pa/biohazard-cleanup/", "/contact/"]
+internal_links: ["/services/biohazard-cleanup/", "/service-areas/monaca-pa/", "/service-areas/monaca-pa/fire-damage-restoration/", "/service-areas/monaca-pa/mold-remediation/", "/service-areas/aliquippa-pa/biohazard-cleanup/", "/service-areas/allison-park-pa/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Monaca", "url": "/service-areas/monaca-pa/"}, {"name": "Biohazard Cleanup"}]
 faq: []
 area_slug: "monaca-pa"

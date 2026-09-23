@@ -8,7 +8,7 @@ secondary_keywords: ["decomposition cleanup", "after death cleaning", "deceased 
 search_intent: "local_sensitive"
 priority: 4.2
 plan_hash: "aa99c41dda47e338"
-generated_at: "2026-09-21T19:18:58.979032+00:00"
+generated_at: "2026-09-23T14:11:54.199531+00:00"
 manual_override: false
 internal_links: ["/services/unattended-death-cleanup/", "/service-areas/burien-wa/", "/service-areas/burien-wa/fire-damage-restoration/", "/service-areas/burien-wa/mold-remediation/", "/service-areas/algona-wa/unattended-death-cleanup/", "/service-areas/auburn-wa/unattended-death-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Burien", "url": "/service-areas/burien-wa/"}, {"name": "Unattended Death Cleanup"}]

@@ -7,10 +7,10 @@ primary_keyword: "construction services elkmont"
 secondary_keywords: ["elkmont construction company", "general contractor elkmont", "elkmont remodeling contractor"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "69ef7a32c4e3214b"
-generated_at: "2026-09-22T14:27:20.078532+00:00"
+plan_hash: "4e215758af27cf44"
+generated_at: "2026-09-23T14:11:32.823351+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/elkmont-al/home-remodeling/", "/service-areas/elkmont-al/roofing/", "/service-areas/elkmont-al/decks-pergolas-fences/", "/service-areas/elkmont-al/new-construction/", "/service-areas/elkmont-al/siding-gutters/", "/service-areas/elkmont-al/mold-remediation/", "/service-areas/elkmont-al/painting-trim/", "/service-areas/elkmont-al/storm-damage-restoration/", "/service-areas/elkmont-al/water-damage-restoration/", "/service-areas/ardmore-al/", "/service-areas/athens-al/", "/service-areas/gurley-al/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/elkmont-al/home-remodeling/", "/service-areas/elkmont-al/roofing/", "/service-areas/elkmont-al/decks-pergolas-fences/", "/service-areas/elkmont-al/new-construction/", "/service-areas/elkmont-al/siding-gutters/", "/service-areas/elkmont-al/fire-smoke-rebuilding/", "/service-areas/elkmont-al/mold-remediation/", "/service-areas/elkmont-al/painting-trim/", "/service-areas/elkmont-al/storm-damage-restoration/", "/service-areas/elkmont-al/water-damage-restoration/", "/service-areas/elkmont-al/windows-doors/", "/service-areas/arab-al/", "/service-areas/ardmore-al/", "/service-areas/athens-al/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elkmont"}]
 faq: []
 area_slug: "elkmont-al"

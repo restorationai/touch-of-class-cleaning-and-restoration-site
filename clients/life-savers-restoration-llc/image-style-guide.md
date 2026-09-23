@@ -256,7 +256,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Mold Remediation, Fire Damage Restoration, Storm Damage Restoration, Sewage Cleanup and Sanitization, Biohazard Cleanup, Contents Restoration and Storage, Emergency Water Cleanup)
+- [ ] (continue for each of Biohazard Cleanup, Contents Restoration and Storage, Contents Restoration & Storage, Fire Damage Restoration, Mold Remediation, Odor Removal and Deodorization, Sewage Cleanup and Sanitization, Storm Damage Restoration, Water Damage Restoration, Emergency Water Cleanup)
 
 ### Service area pages (one image per city served)
 - [ ] Henderson hero — exterior shot, regional housing stock, evocative of the city

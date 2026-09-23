@@ -25,19 +25,20 @@
   },
   "template": "restoration",
   "services": [
-    "water-damage-restoration",
+    "asbestos-abatement",
+    "biohazard-cleanup",
+    "contents-restoration",
+    "contents-restoration-storage",
+    "emergency-board-up-tarping",
     "fire-damage-restoration",
-    "mold-remediation",
-    "storm-damage-restoration",
     "general-contracting",
+    "mold-remediation",
+    "post-construction-cleaning",
     "roofing",
     "sewage-cleanup",
-    "biohazard-cleanup",
-    "asbestos-abatement",
-    "emergency-board-up-tarping",
     "siding-gutters",
-    "contents-restoration",
-    "post-construction-cleaning"
+    "storm-damage-restoration",
+    "water-damage-restoration"
   ],
   "blog_seed_count": 12,
   "service_areas": [

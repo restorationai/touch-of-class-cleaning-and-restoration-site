@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration fife"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "c16ab01f78fd05de"
-generated_at: "2026-09-20T19:37:11.690096+00:00"
+plan_hash: "2a6188e8f2afba94"
+generated_at: "2026-09-23T14:11:54.166791+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/fife-wa/", "/service-areas/fife-wa/mold-remediation/", "/service-areas/fife-wa/water-damage-restoration/", "/service-areas/algona-wa/fire-damage-restoration/", "/service-areas/auburn-wa/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/fife-wa/", "/service-areas/fife-wa/mold-remediation/", "/service-areas/fife-wa/roofing/", "/service-areas/algona-wa/fire-damage-restoration/", "/service-areas/auburn-wa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fife", "url": "/service-areas/fife-wa/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "fife-wa"

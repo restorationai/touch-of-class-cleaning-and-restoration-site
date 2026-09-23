@@ -7,10 +7,10 @@ primary_keyword: "home remodeling valley acres"
 secondary_keywords: ["home renovation", "kitchen remodel", "bathroom remodel", "whole home remodel", "interior remodeling contractor"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "077176cef37a294b"
-generated_at: "2026-09-20T17:29:54.891751+00:00"
+plan_hash: "84f9dedefeaa4257"
+generated_at: "2026-09-23T14:11:55.998902+00:00"
 manual_override: false
-internal_links: ["/services/home-remodeling/", "/service-areas/valley-acres-ca/", "/service-areas/valley-acres-ca/fire-damage-restoration/", "/service-areas/valley-acres-ca/mold-remediation/", "/service-areas/arvin-ca/home-remodeling/", "/service-areas/buttonwillow-ca/home-remodeling/", "/contact/"]
+internal_links: ["/services/home-remodeling/", "/service-areas/valley-acres-ca/", "/service-areas/valley-acres-ca/fire-damage-restoration/", "/service-areas/valley-acres-ca/mold-remediation/", "/service-areas/arvin-ca/home-remodeling/", "/service-areas/bear-valley-springs-ca/home-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Valley Acres", "url": "/service-areas/valley-acres-ca/"}, {"name": "Home Remodeling"}]
 faq: []
 area_slug: "valley-acres-ca"

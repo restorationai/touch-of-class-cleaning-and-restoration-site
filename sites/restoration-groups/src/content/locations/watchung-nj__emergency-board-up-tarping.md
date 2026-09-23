@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "4f1eb18ac6d1a896"
-generated_at: "2026-09-20T17:30:03.626501+00:00"
+generated_at: "2026-09-23T14:12:06.583774+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/watchung-nj/", "/service-areas/watchung-nj/fire-damage-restoration/", "/service-areas/watchung-nj/mold-remediation/", "/service-areas/avenel-nj/emergency-board-up-tarping/", "/service-areas/bayonne-nj/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Watchung", "url": "/service-areas/watchung-nj/"}, {"name": "Emergency Board-Up and Tarping"}]

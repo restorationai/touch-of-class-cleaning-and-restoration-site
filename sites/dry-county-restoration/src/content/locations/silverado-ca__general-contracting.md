@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "bca0a017a881e6c2"
-generated_at: "2026-09-20T14:13:06.379360+00:00"
+generated_at: "2026-09-23T14:11:36.184736+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/silverado-ca/", "/service-areas/silverado-ca/fire-damage-restoration/", "/service-areas/silverado-ca/mold-remediation/", "/service-areas/anaheim-ca/general-contracting/", "/service-areas/chino-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Silverado", "url": "/service-areas/silverado-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]

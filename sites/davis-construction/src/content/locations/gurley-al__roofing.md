@@ -7,10 +7,10 @@ primary_keyword: "roofing installation and replacement gurley"
 secondary_keywords: ["roofing contractor", "roof replacement", "new roof installation", "residential roofing", "roof repair"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "b7f2f75789d8dd70"
-generated_at: "2026-09-20T17:29:30.153371+00:00"
+plan_hash: "4a20723c1d2e3de2"
+generated_at: "2026-09-23T14:11:32.849254+00:00"
 manual_override: false
-internal_links: ["/services/roofing/", "/service-areas/gurley-al/", "/service-areas/gurley-al/home-remodeling/", "/service-areas/gurley-al/decks-pergolas-fences/", "/service-areas/athens-al/roofing/", "/service-areas/harvest-al/roofing/", "/contact/"]
+internal_links: ["/services/roofing/", "/service-areas/gurley-al/", "/service-areas/gurley-al/home-remodeling/", "/service-areas/gurley-al/decks-pergolas-fences/", "/service-areas/arab-al/roofing/", "/service-areas/ardmore-al/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Gurley", "url": "/service-areas/gurley-al/"}, {"name": "Roofing Installation and Replacement"}]
 faq: []
 area_slug: "gurley-al"

@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "394f2eaa7f76d942"
-generated_at: "2026-09-20T19:36:56.920495+00:00"
+generated_at: "2026-09-23T14:11:40.942904+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/allison-park-pa/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/service-areas/allison-park-pa/mold-remediation/", "/service-areas/aliquippa-pa/commercial-restoration/", "/service-areas/baden-pa/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Allison Park", "url": "/service-areas/allison-park-pa/"}, {"name": "Commercial Restoration"}]

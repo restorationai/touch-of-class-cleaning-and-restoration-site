@@ -8,7 +8,7 @@ secondary_keywords: ["roof leak cleanup", "ceiling water damage", "attic water d
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "b08a5f98f95ac4d2"
-generated_at: "2026-09-21T14:13:23.304911+00:00"
+generated_at: "2026-09-23T14:11:49.809279+00:00"
 manual_override: false
 internal_links: ["/services/roof-leak-repair/", "/service-areas/benjamin-ut/", "/service-areas/benjamin-ut/fire-damage-restoration/", "/service-areas/benjamin-ut/mold-remediation/", "/service-areas/alpine-ut/roof-leak-repair/", "/service-areas/american-fork-ut/roof-leak-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Benjamin", "url": "/service-areas/benjamin-ut/"}, {"name": "Roof Leak Cleanup and Repair"}]

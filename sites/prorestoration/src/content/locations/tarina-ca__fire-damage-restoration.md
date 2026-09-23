@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration tarina"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "a87eff7271508b35"
-generated_at: "2026-09-20T14:13:26.540661+00:00"
+plan_hash: "2831a53227cc2640"
+generated_at: "2026-09-23T14:11:55.959620+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/tarina-ca/", "/service-areas/tarina-ca/home-remodeling/", "/service-areas/tarina-ca/mold-remediation/", "/service-areas/arvin-ca/fire-damage-restoration/", "/service-areas/buttonwillow-ca/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/tarina-ca/", "/service-areas/tarina-ca/home-remodeling/", "/service-areas/tarina-ca/mold-remediation/", "/service-areas/arvin-ca/fire-damage-restoration/", "/service-areas/bear-valley-springs-ca/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tarina", "url": "/service-areas/tarina-ca/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "tarina-ca"

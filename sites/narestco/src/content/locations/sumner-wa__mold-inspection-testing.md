@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "114791fb2f3250f3"
-generated_at: "2026-09-22T18:10:22.122270+00:00"
+generated_at: "2026-09-23T14:11:54.223907+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/sumner-wa/", "/service-areas/sumner-wa/fire-damage-restoration/", "/service-areas/sumner-wa/mold-remediation/", "/service-areas/algona-wa/mold-inspection-testing/", "/service-areas/auburn-wa/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sumner", "url": "/service-areas/sumner-wa/"}, {"name": "Mold Inspection and Testing"}]

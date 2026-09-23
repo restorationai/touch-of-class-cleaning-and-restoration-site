@@ -7,10 +7,10 @@ primary_keyword: "junk & debris removal fairfield"
 secondary_keywords: ["junk removal", "debris removal", "house cleanout", "garage cleanout", "hauling services"]
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "102f70549201a7f1"
-generated_at: "2026-09-20T14:13:18.732361+00:00"
+plan_hash: "787e39b6ccc1b001"
+generated_at: "2026-09-23T14:11:49.754029+00:00"
 manual_override: false
-internal_links: ["/services/junk-debris-removal/", "/service-areas/fairfield-ut/", "/service-areas/fairfield-ut/fire-damage-restoration/", "/service-areas/fairfield-ut/mold-remediation/", "/service-areas/american-fork-ut/junk-debris-removal/", "/service-areas/cedar-fort-ut/junk-debris-removal/", "/contact/"]
+internal_links: ["/services/junk-debris-removal/", "/service-areas/fairfield-ut/", "/service-areas/fairfield-ut/fire-damage-restoration/", "/service-areas/fairfield-ut/mold-remediation/", "/service-areas/alpine-ut/junk-debris-removal/", "/service-areas/american-fork-ut/junk-debris-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fairfield", "url": "/service-areas/fairfield-ut/"}, {"name": "Junk & Debris Removal"}]
 faq: []
 area_slug: "fairfield-ut"

@@ -7,10 +7,10 @@ primary_keyword: "emergency water cleanup cranberry township"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 8.1
-plan_hash: "a43a35165b59f422"
-generated_at: "2026-09-20T14:13:09.790737+00:00"
+plan_hash: "9ca481e4da9875d1"
+generated_at: "2026-09-23T14:11:40.870516+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/baden-pa/water-cleanup/", "/service-areas/beaver-falls-pa/water-cleanup/", "/service-areas/bell-acres-pa/water-cleanup/", "/service-areas/butler-pa/water-cleanup/", "/service-areas/economy-pa/water-cleanup/", "/service-areas/evans-city-pa/water-cleanup/", "/service-areas/franklin-park-pa/water-cleanup/", "/service-areas/gibsonia-pa/water-cleanup/", "/service-areas/mars-pa/water-cleanup/", "/service-areas/monaca-pa/water-cleanup/", "/service-areas/seven-fields-pa/water-cleanup/", "/service-areas/sewickley-heights-pa/water-cleanup/", "/services/water-damage-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/aliquippa-pa/water-cleanup/", "/service-areas/allison-park-pa/water-cleanup/", "/service-areas/baden-pa/water-cleanup/", "/service-areas/beaver-falls-pa/water-cleanup/", "/service-areas/bell-acres-pa/water-cleanup/", "/service-areas/big-beaver-pa/water-cleanup/", "/service-areas/butler-pa/water-cleanup/", "/service-areas/economy-pa/water-cleanup/", "/service-areas/ellwood-city-pa/water-cleanup/", "/service-areas/evans-city-pa/water-cleanup/", "/service-areas/franklin-park-pa/water-cleanup/", "/service-areas/gibsonia-pa/water-cleanup/", "/services/water-damage-restoration/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "water-cleanup"}]
 faq: []
 service_slug: "water-cleanup"

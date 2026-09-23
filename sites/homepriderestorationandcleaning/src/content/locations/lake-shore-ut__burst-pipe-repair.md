@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "5049fe057ab24226"
-generated_at: "2026-09-20T20:41:55.918214+00:00"
+generated_at: "2026-09-23T14:11:49.796383+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/lake-shore-ut/", "/service-areas/lake-shore-ut/fire-damage-restoration/", "/service-areas/lake-shore-ut/mold-remediation/", "/service-areas/alpine-ut/burst-pipe-repair/", "/service-areas/american-fork-ut/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Shore", "url": "/service-areas/lake-shore-ut/"}, {"name": "Burst Pipe Cleanup and Repair"}]

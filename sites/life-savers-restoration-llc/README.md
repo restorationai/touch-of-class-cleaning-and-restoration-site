@@ -28,7 +28,7 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `Life Savers Restoration LLC` | plan-input `brand.display_name` | `National Restoration Construction` |
 | `Life Savers Restoration LLC` | plan-input `brand.short_name` | `NARESTCO` |
 | `Life Savers Restoration LLC` | plan-input `brand.legal_name` | `National Restoration Construction LLC` |
-| `` | client record `domain` | `narestco.com` |
+| `lifesaversrestorationvegas.com` | client record `domain` | `narestco.com` |
 | `https://lifesaversrestorationvegas.com` | derived | `https://narestco.com` |
 | `(702) 845-1325` / `+17028451325` | brand.phone | `(206) 883-0333` / `+12068830333` |
 | `info@lifesaversrestoration.com` | brand.email | `info@narestco.com` |
@@ -37,24 +37,26 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `Henderson` / `NV` | derived from primary area | `Federal Way` / `WA` |
 | `7685 Commercial Way Ste G` / `89011` | brand.street_address / brand.postal_code | |
 | `36.0319602` / `-114.9822716` | brand.lat / brand.lng | from GBP |
-| `` / `` | brand.place_id / brand.google_cid | from GBP |
+| `ChIJSxyUH2zVyIARwWXDMRxNoos` / `` | brand.place_id / brand.google_cid | from GBP |
 | `["0091001"]` | brand.license_numbers (JSON-encoded array) | `["NATIORC792M6"]` |
 | `` / `` | brand.license_authority / brand.license_type | |
 | `["IICRC CERTIFIED FIRM", "IICRC WRT (WATER)", "IICRC ASD (STRUCTURAL DRYING)", "IICRC AMRT (MOLD)", "IICRC FSRT (FIRE & SMOKE)", "EPA LEAD-SAFE CERTIFIED", "OSHA TRAINED"]` | brand.certifications (JSON-encoded array) | `["IICRC", "BBB Accredited"]` |
 | `[]` | brand.same_as_urls (JSON-encoded array) | |
 | `` / `` | from GBP | `5.0` / `31` |
 | `24/7 restoration services in Henderson, NV.` | brand.tagline | short marketing line |
-| `#dc2626` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
+| `#a07828` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
 | `Inter` / `Inter` | brand.fonts | `Inter` / `Inter` |
-| `https://images.lifesaversrestorationvegas.com/brand/logo.png` / `LS` | derived; logo lives on the per-client R2 bucket | |
+| `/images/logo.png` / `LS` | derived; logo lives on the per-client R2 bucket | |
 | `https://images.lifesaversrestorationvegas.com` | `https://images.{domain}` | |
-| `- [Water Damage Restoration](https://lifesaversrestorationvegas.com/services/water-damage-restoration/)
-- [Mold Remediation](https://lifesaversrestorationvegas.com/services/mold-remediation/)
+| `- [Biohazard Cleanup](https://lifesaversrestorationvegas.com/services/biohazard-cleanup/)
+- [Contents Restoration and Storage](https://lifesaversrestorationvegas.com/services/contents-restoration/)
+- [Contents Restoration & Storage](https://lifesaversrestorationvegas.com/services/contents-restoration-storage/)
 - [Fire Damage Restoration](https://lifesaversrestorationvegas.com/services/fire-damage-restoration/)
-- [Storm Damage Restoration](https://lifesaversrestorationvegas.com/services/storm-damage-restoration/)
+- [Mold Remediation](https://lifesaversrestorationvegas.com/services/mold-remediation/)
+- [Odor Removal and Deodorization](https://lifesaversrestorationvegas.com/services/odor-removal/)
 - [Sewage Cleanup and Sanitization](https://lifesaversrestorationvegas.com/services/sewage-cleanup/)
-- [Biohazard Cleanup](https://lifesaversrestorationvegas.com/services/biohazard-cleanup/)
-- [Contents Restoration and Storage](https://lifesaversrestorationvegas.com/services/contents-restoration/)` / `- [Henderson, NV](https://lifesaversrestorationvegas.com/service-areas/henderson-nv/)
+- [Storm Damage Restoration](https://lifesaversrestorationvegas.com/services/storm-damage-restoration/)
+- [Water Damage Restoration](https://lifesaversrestorationvegas.com/services/water-damage-restoration/)` / `- [Henderson, NV](https://lifesaversrestorationvegas.com/service-areas/henderson-nv/)
 - [Las Vegas, NV](https://lifesaversrestorationvegas.com/service-areas/las-vegas-nv/)
 - [North Las Vegas, NV](https://lifesaversrestorationvegas.com/service-areas/north-las-vegas-nv/)
 - [Paradise, NV](https://lifesaversrestorationvegas.com/service-areas/paradise-nv/)
@@ -62,7 +64,18 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 - [Enterprise, NV](https://lifesaversrestorationvegas.com/service-areas/enterprise-nv/)
 - [Sunrise Manor, NV](https://lifesaversrestorationvegas.com/service-areas/sunrise-manor-nv/)
 - [Boulder City, NV](https://lifesaversrestorationvegas.com/service-areas/boulder-city-nv/)
-- [Whitney, NV](https://lifesaversrestorationvegas.com/service-areas/whitney-nv/)` / `IICRC CERTIFIED FIRM, IICRC WRT (WATER), IICRC ASD (STRUCTURAL DRYING), IICRC AMRT (MOLD), IICRC FSRT (FIRE & SMOKE), EPA LEAD-SAFE CERTIFIED, OSHA TRAINED` / `Greater Henderson region` | computed at scaffold from plan + brand | |
+- [Whitney, NV](https://lifesaversrestorationvegas.com/service-areas/whitney-nv/)
+- [Winchester, NV](https://lifesaversrestorationvegas.com/service-areas/winchester-nv/)
+- [Nellis AFB, NV](https://lifesaversrestorationvegas.com/service-areas/nellis-afb-nv/)
+- [Summerlin South, NV](https://lifesaversrestorationvegas.com/service-areas/summerlin-south-nv/)
+- [Blue Diamond, NV](https://lifesaversrestorationvegas.com/service-areas/blue-diamond-nv/)
+- [Nelson, NV](https://lifesaversrestorationvegas.com/service-areas/nelson-nv/)
+- [Goodsprings, NV](https://lifesaversrestorationvegas.com/service-areas/goodsprings-nv/)
+- [Sandy Valley, NV](https://lifesaversrestorationvegas.com/service-areas/sandy-valley-nv/)
+- [Searchlight, NV](https://lifesaversrestorationvegas.com/service-areas/searchlight-nv/)
+- [Cal-Nev-Ari, NV](https://lifesaversrestorationvegas.com/service-areas/cal-nev-ari-nv/)
+- [Indian Springs, NV](https://lifesaversrestorationvegas.com/service-areas/indian-springs-nv/)
+- [Laughlin, NV](https://lifesaversrestorationvegas.com/service-areas/laughlin-nv/)` / `IICRC CERTIFIED FIRM, IICRC WRT (WATER), IICRC ASD (STRUCTURAL DRYING), IICRC AMRT (MOLD), IICRC FSRT (FIRE & SMOKE), EPA LEAD-SAFE CERTIFIED, OSHA TRAINED` / `Greater Henderson region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

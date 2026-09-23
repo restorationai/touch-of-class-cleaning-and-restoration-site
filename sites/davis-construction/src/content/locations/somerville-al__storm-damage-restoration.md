@@ -7,10 +7,10 @@ primary_keyword: "storm damage restoration somerville"
 secondary_keywords: ["storm damage repair", "roof storm damage repair", "siding storm damage repair", "wind damage repair contractor", "storm damage rebuild"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "b75e4e28fa857568"
-generated_at: "2026-09-22T02:11:07.732611+00:00"
+plan_hash: "25c725c184fcc8c3"
+generated_at: "2026-09-23T14:11:32.869851+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/somerville-al/", "/service-areas/somerville-al/home-remodeling/", "/service-areas/somerville-al/roofing/", "/service-areas/ardmore-al/storm-damage-restoration/", "/service-areas/athens-al/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/somerville-al/", "/service-areas/somerville-al/home-remodeling/", "/service-areas/somerville-al/roofing/", "/service-areas/arab-al/storm-damage-restoration/", "/service-areas/ardmore-al/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Somerville", "url": "/service-areas/somerville-al/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "somerville-al"

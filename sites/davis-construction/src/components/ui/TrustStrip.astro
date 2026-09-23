@@ -19,16 +19,31 @@ const isLicensed =
   (brand as { licensedInsuredAttested?: boolean }).licensedInsuredAttested === true;
 const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
 const certBadges = (brand.certifications || []).slice(0, 2);
-const badges: string[] =
-  brand.trustBadges && brand.trustBadges.length
-    ? [...brand.trustBadges]
-    : [
+// MINIMUM 4 (Santino 2026-09-18, Dry Bros shipped with only the client's 2
+// custom badges): client-supplied badges lead, then the gated defaults top
+// the strip up to at least four. Never fewer.
+const defaultBadges: string[] = [
         "Locally Owned",
         ...(sinceLabel ? [sinceLabel] : []),
         ...(isLicensed ? ["Licensed & Insured"] : []),
         ...(is247 ? ["24/7 Emergency Service"] : []),
+        // Value-forward fourth badge (Santino 2026-09-04): the strip should
+        // offer the customer something, not just describe us. Gated on the
+        // template actually shipping the free-estimate form; verticals that
+        // charge for the visit (environmental testing) override via
+        // brand.trustBadges instead.
+        ...((brand as { freeEstimates?: boolean }).freeEstimates !== false
+          ? ["Free Estimates"] : []),
         ...certBadges,
       ];
+const badges: string[] = [...(brand.trustBadges || [])];
+for (const d of defaultBadges) {
+  if (badges.length >= 4) break;
+  // containment dedupe: "Locally Owned" must not ride next to the
+  // client's "Locally Owned & Operated" (Dry Bros first build)
+  const dl = d.toLowerCase();
+  if (!badges.some((b) => b.toLowerCase().includes(dl) || dl.includes(b.toLowerCase()))) badges.push(d);
+}
 
 function iconFor(label: string) {
   const t = label.toLowerCase();
@@ -44,7 +59,7 @@ function iconFor(label: string) {
 const items = badges.slice(0, 6).map((label) => ({ icon: iconFor(label), label }));
 ---
 
-<section class="bg-dark py-10 md:py-8 text-white border-y border-white/10">
+<section class="bg-navy-900 py-10 md:py-8 text-white border-y border-white/10">
   <div class="container-wide px-6">
 
     {/* MOBILE VIEW: Vertical Stack with Icons Aligned to the Left of Text.

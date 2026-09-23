@@ -7,10 +7,10 @@ primary_keyword: "mold remediation mcfarland"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "dc8baa627b652259"
-generated_at: "2026-09-20T14:13:26.552976+00:00"
+plan_hash: "98d3381a08cb4128"
+generated_at: "2026-09-23T14:11:55.992106+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/mcfarland-ca/", "/service-areas/mcfarland-ca/fire-damage-restoration/", "/service-areas/mcfarland-ca/home-remodeling/", "/service-areas/arvin-ca/mold-remediation/", "/service-areas/buttonwillow-ca/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/mcfarland-ca/", "/service-areas/mcfarland-ca/fire-damage-restoration/", "/service-areas/mcfarland-ca/home-remodeling/", "/service-areas/arvin-ca/mold-remediation/", "/service-areas/bear-valley-springs-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McFarland", "url": "/service-areas/mcfarland-ca/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "mcfarland-ca"

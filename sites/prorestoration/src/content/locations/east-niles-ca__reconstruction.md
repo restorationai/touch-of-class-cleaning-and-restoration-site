@@ -7,10 +7,10 @@ primary_keyword: "reconstruction services east niles"
 secondary_keywords: ["post-damage reconstruction", "rebuild services", "structural reconstruction", "post-disaster rebuilding", "fire damage reconstruction"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "2a68b026f396fe95"
-generated_at: "2026-09-20T14:13:26.539121+00:00"
+plan_hash: "e8a49b934c6cec2f"
+generated_at: "2026-09-23T14:11:55.954765+00:00"
 manual_override: false
-internal_links: ["/services/reconstruction/", "/service-areas/east-niles-ca/", "/service-areas/east-niles-ca/fire-damage-restoration/", "/service-areas/east-niles-ca/home-remodeling/", "/service-areas/arvin-ca/reconstruction/", "/service-areas/buttonwillow-ca/reconstruction/", "/contact/"]
+internal_links: ["/services/reconstruction/", "/service-areas/east-niles-ca/", "/service-areas/east-niles-ca/fire-damage-restoration/", "/service-areas/east-niles-ca/home-remodeling/", "/service-areas/arvin-ca/reconstruction/", "/service-areas/bear-valley-springs-ca/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "East Niles", "url": "/service-areas/east-niles-ca/"}, {"name": "Reconstruction Services"}]
 faq: []
 area_slug: "east-niles-ca"

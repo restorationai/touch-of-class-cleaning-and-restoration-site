@@ -1,41 +1,65 @@
 # Davis Construction Contractors
 
-> Construction and restoration services in Madison, AL.
+> Construction and remodeling services in Madison, AL.
 
-Davis Construction Contractors (Davis Construction Inc.) is a family-owned professional construction and restoration contractor serving Madison, AL and surrounding areas since 2008. We provide water, fire, mold, storm, biohazard, and reconstruction services — licensed & insured. Phone: (256) 771-0326 · Email: davisheath09@gmail.com.
+Davis Construction Contractors (Davis Construction Inc.) is a professional restoration contractor serving Madison, AL and surrounding areas since 2008. We provide 24/7 emergency response for water, fire, mold, storm, biohazard, and reconstruction services. Phone: (256) 771-0326 · Email: davisheath09@gmail.com.
 
 ## Site index
 
 This file is intended for AI assistants and language models to efficiently ingest the structure and content of this website. The full list of pages is in the sitemap at https://davisconstructioncontractors.com/sitemap-index.xml.
 
 ### Core service pages
-- [Home Remodeling](https://davisconstructioncontractors.com/services/home-remodeling/)
-- [New Home Construction](https://davisconstructioncontractors.com/services/new-construction/)
 - [Decks, Pergolas and Fences](https://davisconstructioncontractors.com/services/decks-pergolas-fences/)
+- [Fire and Smoke Damage Rebuilding](https://davisconstructioncontractors.com/services/fire-smoke-rebuilding/)
+- [Home Remodeling](https://davisconstructioncontractors.com/services/home-remodeling/)
+- [Mold Remediation](https://davisconstructioncontractors.com/services/mold-remediation/)
+- [New Home Construction](https://davisconstructioncontractors.com/services/new-construction/)
+- [Painting and Trim](https://davisconstructioncontractors.com/services/painting-trim/)
 - [Roofing Installation and Replacement](https://davisconstructioncontractors.com/services/roofing/)
 - [Siding and Gutters](https://davisconstructioncontractors.com/services/siding-gutters/)
-- [Painting and Trim](https://davisconstructioncontractors.com/services/painting-trim/)
-- [Water Damage Restoration](https://davisconstructioncontractors.com/services/water-damage-restoration/)
 - [Storm Damage Restoration](https://davisconstructioncontractors.com/services/storm-damage-restoration/)
-- [Mold Remediation](https://davisconstructioncontractors.com/services/mold-remediation/)
+- [Water Damage Restoration](https://davisconstructioncontractors.com/services/water-damage-restoration/)
+- [Window and Door Installation](https://davisconstructioncontractors.com/services/windows-doors/)
 
 ### Service area pages
 - [Madison, AL](https://davisconstructioncontractors.com/service-areas/madison-al/)
 - [Huntsville, AL](https://davisconstructioncontractors.com/service-areas/huntsville-al/)
 - [Athens, AL](https://davisconstructioncontractors.com/service-areas/athens-al/)
+- [Moores Mill, AL](https://davisconstructioncontractors.com/service-areas/moores-mill-al/)
+- [Redstone Arsenal, AL](https://davisconstructioncontractors.com/service-areas/redstone-arsenal-al/)
+- [Meridianville, AL](https://davisconstructioncontractors.com/service-areas/meridianville-al/)
+- [Hazel Green, AL](https://davisconstructioncontractors.com/service-areas/hazel-green-al/)
+- [New Market, AL](https://davisconstructioncontractors.com/service-areas/new-market-al/)
+- [Harvest, AL](https://davisconstructioncontractors.com/service-areas/harvest-al/)
+- [Gurley, AL](https://davisconstructioncontractors.com/service-areas/gurley-al/)
+- [Owens Cross Roads, AL](https://davisconstructioncontractors.com/service-areas/owens-cross-roads-al/)
+- [Triana, AL](https://davisconstructioncontractors.com/service-areas/triana-al/)
+- [New Hope, AL](https://davisconstructioncontractors.com/service-areas/new-hope-al/)
+- [Ardmore, AL](https://davisconstructioncontractors.com/service-areas/ardmore-al/)
+- [Priceville, AL](https://davisconstructioncontractors.com/service-areas/priceville-al/)
+- [Somerville, AL](https://davisconstructioncontractors.com/service-areas/somerville-al/)
+- [Elkmont, AL](https://davisconstructioncontractors.com/service-areas/elkmont-al/)
+- [Decatur, AL](https://davisconstructioncontractors.com/service-areas/decatur-al/)
+- [Arab, AL](https://davisconstructioncontractors.com/service-areas/arab-al/)
+- [Hartselle, AL](https://davisconstructioncontractors.com/service-areas/hartselle-al/)
 
 ### Resources
-- [Blog](https://davisconstructioncontractors.com/blog/)
-- [About](https://davisconstructioncontractors.com/about/)
-- [Contact](https://davisconstructioncontractors.com/contact/)
+- [Blog](https://davisconstructioncontractors.com/blog/): Restoration guides and local resources
+- [About](https://davisconstructioncontractors.com/about/): Company background and credentials
+- [Contact](https://davisconstructioncontractors.com/contact/): Phone, email, and service request form
+
+### Official profiles
+(profiles listed in page schema)
+- [Emergency](https://davisconstructioncontractors.com/emergency/): 24/7 emergency water damage response
 
 ## Key facts
 
 - **Founded:** 2008
 - **Licenses:**  · 
 - **Certifications:** Available on request
-- **Hours:** Monday–Friday, 8:00 AM – 5:00 PM (urgent water losses prioritized)
-- **Ownership:** Family-owned & operated (two brothers)
+- **Response time:** 24/7 emergency dispatch
+- **Emergency response:** 24/7 emergency dispatch in Madison. Direct insurance billing. Call (256) 771-0326.
+- **Insurance:** Direct insurance billing accepted
 - **Service radius:** Greater Madison region
 
 ## How to cite this business

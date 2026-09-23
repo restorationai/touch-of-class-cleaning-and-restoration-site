@@ -8,7 +8,7 @@ secondary_keywords: ["decomposition cleanup", "after death cleaning", "deceased 
 search_intent: "local_sensitive"
 priority: 4.2
 plan_hash: "e939c6569c28a159"
-generated_at: "2026-09-20T14:13:23.239971+00:00"
+generated_at: "2026-09-23T14:11:54.107913+00:00"
 manual_override: false
 internal_links: ["/services/unattended-death-cleanup/", "/service-areas/des-moines-wa/", "/service-areas/des-moines-wa/fire-damage-restoration/", "/service-areas/des-moines-wa/mold-remediation/", "/service-areas/algona-wa/unattended-death-cleanup/", "/service-areas/auburn-wa/unattended-death-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Des Moines", "url": "/service-areas/des-moines-wa/"}, {"name": "Unattended Death Cleanup"}]

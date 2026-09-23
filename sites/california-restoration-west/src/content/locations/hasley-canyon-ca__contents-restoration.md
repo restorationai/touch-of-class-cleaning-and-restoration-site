@@ -7,10 +7,10 @@ primary_keyword: "contents restoration and storage hasley canyon"
 secondary_keywords: ["contents pack-out", "contents cleaning", "belongings restoration", "furniture restoration after fire", "contents storage"]
 search_intent: "local_service"
 priority: 3.5
-plan_hash: "fc8e8cd01f11d240"
-generated_at: "2026-09-20T19:17:07.913381+00:00"
+plan_hash: "85f8ec92635205ed"
+generated_at: "2026-09-23T14:11:28.130302+00:00"
 manual_override: false
-internal_links: ["/services/contents-restoration/", "/service-areas/hasley-canyon-ca/", "/service-areas/hasley-canyon-ca/mold-remediation/", "/service-areas/hasley-canyon-ca/water-damage-restoration/", "/service-areas/camarillo-ca/contents-restoration/", "/service-areas/fillmore-ca/contents-restoration/", "/contact/"]
+internal_links: ["/services/contents-restoration/", "/service-areas/hasley-canyon-ca/", "/service-areas/hasley-canyon-ca/mold-remediation/", "/service-areas/hasley-canyon-ca/water-damage-restoration/", "/service-areas/camarillo-ca/contents-restoration/", "/service-areas/carpinteria-ca/contents-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hasley Canyon", "url": "/service-areas/hasley-canyon-ca/"}, {"name": "Contents Restoration and Storage"}]
 faq: []
 area_slug: "hasley-canyon-ca"

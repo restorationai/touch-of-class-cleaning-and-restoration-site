@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration lindon"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "2344d529bea53e5f"
-generated_at: "2026-09-20T14:13:18.726187+00:00"
+plan_hash: "2cfca76c3a5cf0e3"
+generated_at: "2026-09-23T14:11:49.750086+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/lindon-ut/", "/service-areas/lindon-ut/fire-damage-restoration/", "/service-areas/lindon-ut/mold-remediation/", "/service-areas/american-fork-ut/water-damage-restoration/", "/service-areas/cedar-fort-ut/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/lindon-ut/", "/service-areas/lindon-ut/fire-damage-restoration/", "/service-areas/lindon-ut/mold-remediation/", "/service-areas/alpine-ut/water-damage-restoration/", "/service-areas/american-fork-ut/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lindon", "url": "/service-areas/lindon-ut/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "lindon-ut"

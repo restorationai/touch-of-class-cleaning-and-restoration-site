@@ -7,10 +7,10 @@ primary_keyword: "contents restoration and storage whitinsville"
 secondary_keywords: ["contents pack-out", "contents cleaning", "belongings restoration", "furniture restoration after fire", "contents storage"]
 search_intent: "local_service"
 priority: 3.5
-plan_hash: "9733f6448aef8eaa"
-generated_at: "2026-09-20T14:13:32.571476+00:00"
+plan_hash: "3effe9327088dd45"
+generated_at: "2026-09-23T14:11:58.499195+00:00"
 manual_override: false
-internal_links: ["/services/contents-restoration/", "/service-areas/whitinsville-ma/", "/service-areas/whitinsville-ma/fire-damage-restoration/", "/service-areas/whitinsville-ma/mold-remediation/", "/service-areas/east-douglas-ma/contents-restoration/", "/service-areas/framingham-ma/contents-restoration/", "/contact/"]
+internal_links: ["/services/contents-restoration/", "/service-areas/whitinsville-ma/", "/service-areas/whitinsville-ma/fire-damage-restoration/", "/service-areas/whitinsville-ma/mold-remediation/", "/service-areas/bellingham-ma/contents-restoration/", "/service-areas/east-douglas-ma/contents-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Whitinsville", "url": "/service-areas/whitinsville-ma/"}, {"name": "Contents Restoration and Storage"}]
 faq: []
 area_slug: "whitinsville-ma"

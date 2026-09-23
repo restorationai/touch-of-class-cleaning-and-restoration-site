@@ -8,7 +8,7 @@ secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "ca
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "ef7b03c893be2a94"
-generated_at: "2026-09-21T19:18:36.601999+00:00"
+generated_at: "2026-09-23T14:11:36.232163+00:00"
 manual_override: false
 internal_links: ["/services/carpet-cleaning/", "/service-areas/fontana-ca/", "/service-areas/fontana-ca/fire-damage-restoration/", "/service-areas/fontana-ca/mold-remediation/", "/service-areas/anaheim-ca/carpet-cleaning/", "/service-areas/chino-ca/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fontana", "url": "/service-areas/fontana-ca/"}, {"name": "Carpet Cleaning"}]

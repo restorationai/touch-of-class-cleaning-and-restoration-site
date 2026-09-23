@@ -7,10 +7,10 @@ primary_keyword: "emergency water cleanup vineyard"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "df670c235a7ff380"
-generated_at: "2026-09-20T14:13:18.722653+00:00"
+plan_hash: "bcaf0baf0438e7f5"
+generated_at: "2026-09-23T14:11:49.735708+00:00"
 manual_override: false
-internal_links: ["/services/water-cleanup/", "/service-areas/vineyard-ut/", "/service-areas/vineyard-ut/fire-damage-restoration/", "/service-areas/vineyard-ut/mold-remediation/", "/service-areas/american-fork-ut/water-cleanup/", "/service-areas/cedar-fort-ut/water-cleanup/", "/contact/"]
+internal_links: ["/services/water-cleanup/", "/service-areas/vineyard-ut/", "/service-areas/vineyard-ut/fire-damage-restoration/", "/service-areas/vineyard-ut/mold-remediation/", "/service-areas/alpine-ut/water-cleanup/", "/service-areas/american-fork-ut/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Vineyard", "url": "/service-areas/vineyard-ut/"}, {"name": "water-cleanup"}]
 faq: []
 area_slug: "vineyard-ut"

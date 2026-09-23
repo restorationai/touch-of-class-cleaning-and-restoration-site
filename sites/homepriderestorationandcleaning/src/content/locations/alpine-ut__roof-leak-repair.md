@@ -7,10 +7,10 @@ primary_keyword: "roof leak cleanup and repair alpine"
 secondary_keywords: ["roof leak cleanup", "ceiling water damage", "attic water damage", "roof leak restoration", "interior roof leak damage"]
 search_intent: "local_emergency"
 priority: 4.9
-plan_hash: "a608966588c577de"
-generated_at: "2026-09-20T19:17:30.790863+00:00"
+plan_hash: "cde0f4e05511c32f"
+generated_at: "2026-09-23T14:11:49.785393+00:00"
 manual_override: false
-internal_links: ["/services/roof-leak-repair/", "/service-areas/alpine-ut/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/american-fork-ut/roof-leak-repair/", "/service-areas/bluffdale-ut/roof-leak-repair/", "/contact/"]
+internal_links: ["/services/roof-leak-repair/", "/service-areas/alpine-ut/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/american-fork-ut/roof-leak-repair/", "/service-areas/benjamin-ut/roof-leak-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Alpine", "url": "/service-areas/alpine-ut/"}, {"name": "Roof Leak Cleanup and Repair"}]
 faq: []
 area_slug: "alpine-ut"

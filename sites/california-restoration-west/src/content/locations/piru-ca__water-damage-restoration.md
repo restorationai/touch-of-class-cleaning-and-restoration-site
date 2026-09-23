@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration piru"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "48466168123a110c"
-generated_at: "2026-09-20T17:29:25.926264+00:00"
+plan_hash: "d16c7f090f8af4e8"
+generated_at: "2026-09-23T14:11:28.130002+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/piru-ca/", "/service-areas/piru-ca/mold-remediation/", "/service-areas/piru-ca/storm-damage-restoration/", "/service-areas/camarillo-ca/water-damage-restoration/", "/service-areas/fillmore-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/piru-ca/", "/service-areas/piru-ca/mold-remediation/", "/service-areas/piru-ca/storm-damage-restoration/", "/service-areas/camarillo-ca/water-damage-restoration/", "/service-areas/carpinteria-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Piru", "url": "/service-areas/piru-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "piru-ca"

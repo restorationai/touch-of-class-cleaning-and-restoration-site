@@ -7,10 +7,10 @@ primary_keyword: "restoration services university"
 secondary_keywords: ["university restoration company", "damage restoration university", "university disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "86bead7408d5a4a7"
-generated_at: "2026-09-20T14:13:08.026723+00:00"
+plan_hash: "849fbba09be025be"
+generated_at: "2026-09-23T14:11:38.249787+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/university-fl/fire-damage-restoration/", "/service-areas/university-fl/mold-remediation/", "/service-areas/university-fl/water-damage-restoration/", "/service-areas/university-fl/sewage-cleanup/", "/service-areas/university-fl/storm-damage-restoration/", "/service-areas/university-fl/water-cleanup/", "/service-areas/university-fl/general-contracting/", "/service-areas/university-fl/emergency-board-up-tarping/", "/service-areas/university-fl/contents-restoration-storage/", "/service-areas/anna-maria-fl/", "/service-areas/apollo-beach-fl/", "/service-areas/auburndale-fl/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/university-fl/fire-damage-restoration/", "/service-areas/university-fl/mold-remediation/", "/service-areas/university-fl/water-damage-restoration/", "/service-areas/university-fl/emergency-plumbing/", "/service-areas/university-fl/sewage-cleanup/", "/service-areas/university-fl/storm-damage-restoration/", "/service-areas/university-fl/water-cleanup/", "/service-areas/university-fl/general-contracting/", "/service-areas/university-fl/emergency-board-up-tarping/", "/service-areas/university-fl/contents-restoration-storage/", "/service-areas/anna-maria-fl/", "/service-areas/apollo-beach-fl/", "/service-areas/auburndale-fl/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "University"}]
 faq: []
 area_slug: "university-fl"

@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "521dfcf3019aaf54"
-generated_at: "2026-09-20T14:13:23.242489+00:00"
+generated_at: "2026-09-23T14:11:54.115822+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/lakeland-south-wa/", "/service-areas/lakeland-south-wa/fire-damage-restoration/", "/service-areas/lakeland-south-wa/mold-remediation/", "/service-areas/algona-wa/smoke-damage-restoration/", "/service-areas/auburn-wa/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lakeland South", "url": "/service-areas/lakeland-south-wa/"}, {"name": "Smoke Damage Restoration"}]

@@ -7,10 +7,10 @@ primary_keyword: "crawl space encapsulation alpine"
 secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "fbb1b2a7dcc517f9"
-generated_at: "2026-09-20T19:17:30.791889+00:00"
+plan_hash: "c8aeb25eaf0fff22"
+generated_at: "2026-09-23T14:11:49.782303+00:00"
 manual_override: false
-internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/alpine-ut/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/american-fork-ut/crawl-space-encapsulation/", "/service-areas/bluffdale-ut/crawl-space-encapsulation/", "/contact/"]
+internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/alpine-ut/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/american-fork-ut/crawl-space-encapsulation/", "/service-areas/benjamin-ut/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Alpine", "url": "/service-areas/alpine-ut/"}, {"name": "Crawl Space Encapsulation"}]
 faq: []
 area_slug: "alpine-ut"

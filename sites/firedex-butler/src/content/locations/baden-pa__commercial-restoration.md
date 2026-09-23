@@ -7,10 +7,10 @@ primary_keyword: "commercial restoration baden"
 secondary_keywords: ["commercial water damage", "commercial fire damage", "business restoration", "office restoration", "retail restoration"]
 search_intent: "local_b2b"
 priority: 6.3
-plan_hash: "d31996c08fe851a9"
-generated_at: "2026-09-20T14:13:09.804282+00:00"
+plan_hash: "f43fb841f8b04326"
+generated_at: "2026-09-23T14:11:40.905609+00:00"
 manual_override: false
-internal_links: ["/services/commercial-restoration/", "/service-areas/baden-pa/", "/service-areas/baden-pa/fire-damage-restoration/", "/service-areas/baden-pa/mold-remediation/", "/service-areas/beaver-falls-pa/commercial-restoration/", "/service-areas/bell-acres-pa/commercial-restoration/", "/contact/"]
+internal_links: ["/services/commercial-restoration/", "/service-areas/baden-pa/", "/service-areas/baden-pa/fire-damage-restoration/", "/service-areas/baden-pa/mold-remediation/", "/service-areas/aliquippa-pa/commercial-restoration/", "/service-areas/allison-park-pa/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Baden", "url": "/service-areas/baden-pa/"}, {"name": "Commercial Restoration"}]
 faq: []
 area_slug: "baden-pa"

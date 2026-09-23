@@ -7,10 +7,10 @@ primary_keyword: "reconstruction services buttonwillow"
 secondary_keywords: ["post-damage reconstruction", "rebuild services", "structural reconstruction", "post-disaster rebuilding", "fire damage reconstruction"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "bc9eb03bcf58837a"
-generated_at: "2026-09-20T14:13:26.547862+00:00"
+plan_hash: "aea6ba8871dfde46"
+generated_at: "2026-09-23T14:11:55.978277+00:00"
 manual_override: false
-internal_links: ["/services/reconstruction/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/fire-damage-restoration/", "/service-areas/buttonwillow-ca/home-remodeling/", "/service-areas/arvin-ca/reconstruction/", "/service-areas/delano-ca/reconstruction/", "/contact/"]
+internal_links: ["/services/reconstruction/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/fire-damage-restoration/", "/service-areas/buttonwillow-ca/home-remodeling/", "/service-areas/arvin-ca/reconstruction/", "/service-areas/bear-valley-springs-ca/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buttonwillow", "url": "/service-areas/buttonwillow-ca/"}, {"name": "Reconstruction Services"}]
 faq: []
 area_slug: "buttonwillow-ca"

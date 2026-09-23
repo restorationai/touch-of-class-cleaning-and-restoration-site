@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "8f86836a695126c9"
-generated_at: "2026-09-21T15:54:35.819199+00:00"
+generated_at: "2026-09-23T14:11:34.797798+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/campbell-oh/", "/service-areas/campbell-oh/fire-damage-restoration/", "/service-areas/campbell-oh/mold-remediation/", "/service-areas/austintown-oh/general-contracting/", "/service-areas/boardman-oh/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Campbell", "url": "/service-areas/campbell-oh/"}, {"name": "Renovations, Remodels and General Contracting"}]

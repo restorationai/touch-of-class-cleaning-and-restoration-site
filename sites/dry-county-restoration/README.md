@@ -28,8 +28,8 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `Dry County Restoration` | plan-input `brand.display_name` | `National Restoration Construction` |
 | `Dry County Restoration` | plan-input `brand.short_name` | `NARESTCO` |
 | `Dry County Restoration` | plan-input `brand.legal_name` | `National Restoration Construction LLC` |
-| `` | client record `domain` | `narestco.com` |
-| `https://None` | derived | `https://narestco.com` |
+| `drycountyrestoration.com` | client record `domain` | `narestco.com` |
+| `https://drycountyrestoration.com` | derived | `https://narestco.com` |
 | `(951) 667-9910` / `+19516679910` | brand.phone | `(206) 883-0333` / `+12068830333` |
 | `info@drycountyrestoration.com` | brand.email | `info@narestco.com` |
 | `24/7` | brand.hours | `24/7` |
@@ -44,29 +44,47 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `[]` | brand.same_as_urls (JSON-encoded array) | |
 | `` / `` | from GBP | `5.0` / `31` |
 | `24/7 restoration services in Corona, CA.` | brand.tagline | short marketing line |
-| `#dc2626` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
+| `#007fb2` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
 | `Inter` / `Inter` | brand.fonts | `Inter` / `Inter` |
-| `https://images.None/brand/logo.png` / `DC` | derived; logo lives on the per-client R2 bucket | |
-| `https://images.None` | `https://images.{domain}` | |
-| `- [Water Damage Restoration](https://None/services/water-damage-restoration/)
-- [Fire Damage Restoration](https://None/services/fire-damage-restoration/)
-- [Mold Remediation](https://None/services/mold-remediation/)
-- [Renovations, Remodels and General Contracting](https://None/services/general-contracting/)
-- [Storm Damage Restoration](https://None/services/storm-damage-restoration/)
-- [Sewage Cleanup and Sanitization](https://None/services/sewage-cleanup/)
-- [Emergency Board-Up and Tarping](https://None/services/emergency-board-up-tarping/)
-- [Contents Restoration and Storage](https://None/services/contents-restoration/)
-- [Air Duct Cleaning](https://None/services/air-duct-cleaning/)
-- [Carpet Cleaning](https://None/services/carpet-cleaning/)
-- [Post-Construction and Specialty Cleaning](https://None/services/post-construction-cleaning/)` / `- [Corona, CA](https://None/service-areas/corona-ca/)
-- [Riverside, CA](https://None/service-areas/riverside-ca/)
-- [Anaheim, CA](https://None/service-areas/anaheim-ca/)
-- [Santa Ana, CA](https://None/service-areas/santa-ana-ca/)
-- [Ontario, CA](https://None/service-areas/ontario-ca/)
-- [Fullerton, CA](https://None/service-areas/fullerton-ca/)
-- [Norco, CA](https://None/service-areas/norco-ca/)
-- [Chino, CA](https://None/service-areas/chino-ca/)
-- [Chino Hills, CA](https://None/service-areas/chino-hills-ca/)` / `IICRC CERTIFIED FIRM, IICRC WRT (WATER), IICRC ASD (STRUCTURAL DRYING), IICRC AMRT (MOLD), OSHA TRAINED` / `Greater Corona region` | computed at scaffold from plan + brand | |
+| `/images/logo.png` / `DC` | derived; logo lives on the per-client R2 bucket | |
+| `https://images.drycountyrestoration.com` | `https://images.{domain}` | |
+| `- [Air Duct Cleaning](https://drycountyrestoration.com/services/air-duct-cleaning/)
+- [Carpet Cleaning](https://drycountyrestoration.com/services/carpet-cleaning/)
+- [Contents Restoration and Storage](https://drycountyrestoration.com/services/contents-restoration/)
+- [Contents Restoration & Storage](https://drycountyrestoration.com/services/contents-restoration-storage/)
+- [Emergency Board-Up and Tarping](https://drycountyrestoration.com/services/emergency-board-up-tarping/)
+- [Emergency Plumbing](https://drycountyrestoration.com/services/emergency-plumbing/)
+- [Fire Damage Restoration](https://drycountyrestoration.com/services/fire-damage-restoration/)
+- [Renovations, Remodels and General Contracting](https://drycountyrestoration.com/services/general-contracting/)
+- [Mold Remediation](https://drycountyrestoration.com/services/mold-remediation/)
+- [Odor Removal and Deodorization](https://drycountyrestoration.com/services/odor-removal/)
+- [Post-Construction and Specialty Cleaning](https://drycountyrestoration.com/services/post-construction-cleaning/)
+- [Roofing Installation and Replacement](https://drycountyrestoration.com/services/roofing/)
+- [Sewage Cleanup and Sanitization](https://drycountyrestoration.com/services/sewage-cleanup/)
+- [Storm Damage Restoration](https://drycountyrestoration.com/services/storm-damage-restoration/)
+- [Water Damage Restoration](https://drycountyrestoration.com/services/water-damage-restoration/)
+- [Water Leak Detection](https://drycountyrestoration.com/services/water-leak-detection/)` / `- [Corona, CA](https://drycountyrestoration.com/service-areas/corona-ca/)
+- [Riverside, CA](https://drycountyrestoration.com/service-areas/riverside-ca/)
+- [Anaheim, CA](https://drycountyrestoration.com/service-areas/anaheim-ca/)
+- [Santa Ana, CA](https://drycountyrestoration.com/service-areas/santa-ana-ca/)
+- [Ontario, CA](https://drycountyrestoration.com/service-areas/ontario-ca/)
+- [Fullerton, CA](https://drycountyrestoration.com/service-areas/fullerton-ca/)
+- [Norco, CA](https://drycountyrestoration.com/service-areas/norco-ca/)
+- [Chino, CA](https://drycountyrestoration.com/service-areas/chino-ca/)
+- [Chino Hills, CA](https://drycountyrestoration.com/service-areas/chino-hills-ca/)
+- [Eastvale, CA](https://drycountyrestoration.com/service-areas/eastvale-ca/)
+- [Silverado, CA](https://drycountyrestoration.com/service-areas/silverado-ca/)
+- [Jurupa Valley, CA](https://drycountyrestoration.com/service-areas/jurupa-valley-ca/)
+- [Temescal Valley, CA](https://drycountyrestoration.com/service-areas/temescal-valley-ca/)
+- [Yorba Linda, CA](https://drycountyrestoration.com/service-areas/yorba-linda-ca/)
+- [Lake Mathews, CA](https://drycountyrestoration.com/service-areas/lake-mathews-ca/)
+- [Woodcrest, CA](https://drycountyrestoration.com/service-areas/woodcrest-ca/)
+- [Trabuco Canyon, CA](https://drycountyrestoration.com/service-areas/trabuco-canyon-ca/)
+- [North Tustin, CA](https://drycountyrestoration.com/service-areas/north-tustin-ca/)
+- [Montclair, CA](https://drycountyrestoration.com/service-areas/montclair-ca/)
+- [Villa Park, CA](https://drycountyrestoration.com/service-areas/villa-park-ca/)
+- [Fontana, CA](https://drycountyrestoration.com/service-areas/fontana-ca/)
+- [Pomona, CA](https://drycountyrestoration.com/service-areas/pomona-ca/)` / `IICRC CERTIFIED FIRM, IICRC WRT (WATER), IICRC ASD (STRUCTURAL DRYING), IICRC AMRT (MOLD), OSHA TRAINED` / `Greater Corona region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

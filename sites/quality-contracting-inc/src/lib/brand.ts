@@ -64,9 +64,16 @@ export const brand = {
   sameAsUrls: ["https://www.facebook.com/qualcon534/", "https://www.linkedin.com/company/quality-contracting-inc-", "https://maps.google.com/maps?cid=8645835952486055131", "https://www.yelp.com/biz/quality-contracting-auburn", "https://qualitycontracting.us/services/capital-projects/"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
-  gbpRatingValue: "",
-  gbpReviewCount: "",
-  gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
+  gbpRatingValue: "4.6",
+  gbpReviewCount: "106",
+  gbpReviews: [
+    { author: "Peggy", rating: 4, text: "Derek was wonderful! We had an insurance claim from water damage. The work was well done.", when: "September 2026" },
+    { author: "Mark", rating: 5, text: "Quality Contracting updated our standard tub/shower to a walk in for my elderly father. They came when they said they would, the did everything they said they would and the charged me the reasonable cost that they said they would. Highly recommend.", when: "September 2026" },
+    { author: "Jane", rating: 5, text: "I highly recommend Quality Construction! When my condo suffered water damage Matt , Kale and a third person (sorry I don’t remember his name), provided outstanding support and expertise from start to finish.They worked carefully and thoroughly to dry and clean every affected area, while treating my…", when: "September 2026" },
+    { author: "Denise", rating: 5, text: "We had extensive flood damage at our home. Quality Contracting did the repairs for us and did an exceptional job", when: "September 2026" },
+    { author: "Jeannine", rating: 5, text: "Luis was wonderful! Explained everything and handled the our water leak professionally. Thank you!", when: "September 2026" },
+    { author: "Jacques", rating: 5, text: "We had a fire and the Quality team helped with the public adjustment valuation of the damage, getting the most complete value of our claim allow us to build back the way the house should be done. The managing carpenter did a great job at keeping the trades on schedule and in budget. We even…", when: "September 2026" },
+  ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Auburn, MA.",
   ctaLabel: "24/7 Emergency Line",
   // Vertical trade-identity copy — resolved at scaffold time from

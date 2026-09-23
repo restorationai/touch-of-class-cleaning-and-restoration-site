@@ -8,7 +8,7 @@ secondary_keywords: ["water removal", "water extraction", "water cleanup", "stru
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "9e5309ce1527641f"
-generated_at: "2026-09-20T14:13:42.835774+00:00"
+generated_at: "2026-09-23T14:12:04.471376+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/mclendon-chisholm-tx/", "/service-areas/mclendon-chisholm-tx/fire-damage-restoration/", "/service-areas/mclendon-chisholm-tx/mold-remediation/", "/service-areas/allen-tx/water-damage-restoration/", "/service-areas/caddo-mills-tx/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McLendon-Chisholm", "url": "/service-areas/mclendon-chisholm-tx/"}, {"name": "Water Damage Restoration"}]

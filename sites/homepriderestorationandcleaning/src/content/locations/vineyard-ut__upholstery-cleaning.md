@@ -7,10 +7,10 @@ primary_keyword: "upholstery cleaning vineyard"
 secondary_keywords: ["sofa cleaning", "couch cleaning", "furniture steam cleaning", "leather upholstery cleaning", "fabric upholstery cleaning"]
 search_intent: "local_specialty"
 priority: 2.8
-plan_hash: "cdab805733797216"
-generated_at: "2026-09-20T14:13:18.721828+00:00"
+plan_hash: "000fa5b33cd01deb"
+generated_at: "2026-09-23T14:11:49.734887+00:00"
 manual_override: false
-internal_links: ["/services/upholstery-cleaning/", "/service-areas/vineyard-ut/", "/service-areas/vineyard-ut/fire-damage-restoration/", "/service-areas/vineyard-ut/mold-remediation/", "/service-areas/american-fork-ut/upholstery-cleaning/", "/service-areas/cedar-fort-ut/upholstery-cleaning/", "/contact/"]
+internal_links: ["/services/upholstery-cleaning/", "/service-areas/vineyard-ut/", "/service-areas/vineyard-ut/fire-damage-restoration/", "/service-areas/vineyard-ut/mold-remediation/", "/service-areas/alpine-ut/upholstery-cleaning/", "/service-areas/american-fork-ut/upholstery-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Vineyard", "url": "/service-areas/vineyard-ut/"}, {"name": "Upholstery Cleaning"}]
 faq: []
 area_slug: "vineyard-ut"

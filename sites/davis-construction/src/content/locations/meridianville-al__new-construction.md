@@ -7,10 +7,10 @@ primary_keyword: "new home construction meridianville"
 secondary_keywords: ["custom home builder", "new home builder", "build a house", "residential construction", "ground-up construction"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "e23b3ab87da6ba3f"
-generated_at: "2026-09-20T14:13:03.669665+00:00"
+plan_hash: "c9a533dbe1ccf063"
+generated_at: "2026-09-23T14:11:32.834626+00:00"
 manual_override: false
-internal_links: ["/services/new-construction/", "/service-areas/meridianville-al/", "/service-areas/meridianville-al/home-remodeling/", "/service-areas/meridianville-al/roofing/", "/service-areas/athens-al/new-construction/", "/service-areas/harvest-al/new-construction/", "/contact/"]
+internal_links: ["/services/new-construction/", "/service-areas/meridianville-al/", "/service-areas/meridianville-al/home-remodeling/", "/service-areas/meridianville-al/roofing/", "/service-areas/arab-al/new-construction/", "/service-areas/ardmore-al/new-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Meridianville", "url": "/service-areas/meridianville-al/"}, {"name": "New Home Construction"}]
 faq: []
 area_slug: "meridianville-al"

@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "c5c292d3ce65744a"
-generated_at: "2026-09-22T20:18:17.662610+00:00"
+generated_at: "2026-09-23T14:11:32.882311+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/hartselle-al/", "/service-areas/hartselle-al/home-remodeling/", "/service-areas/hartselle-al/decks-pergolas-fences/", "/service-areas/arab-al/roofing/", "/service-areas/ardmore-al/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hartselle", "url": "/service-areas/hartselle-al/"}, {"name": "Roofing Installation and Replacement"}]

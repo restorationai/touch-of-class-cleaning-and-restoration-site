@@ -7,10 +7,10 @@ primary_keyword: "contents restoration and storage oxford"
 secondary_keywords: ["contents pack-out", "contents cleaning", "belongings restoration", "furniture restoration after fire", "contents storage"]
 search_intent: "local_service"
 priority: 3.5
-plan_hash: "b3b70298c9cffa8c"
-generated_at: "2026-09-20T14:13:32.569575+00:00"
+plan_hash: "748e0060e8cd153b"
+generated_at: "2026-09-23T14:11:58.493957+00:00"
 manual_override: false
-internal_links: ["/services/contents-restoration/", "/service-areas/oxford-ma/", "/service-areas/oxford-ma/fire-damage-restoration/", "/service-areas/oxford-ma/mold-remediation/", "/service-areas/east-douglas-ma/contents-restoration/", "/service-areas/framingham-ma/contents-restoration/", "/contact/"]
+internal_links: ["/services/contents-restoration/", "/service-areas/oxford-ma/", "/service-areas/oxford-ma/fire-damage-restoration/", "/service-areas/oxford-ma/mold-remediation/", "/service-areas/bellingham-ma/contents-restoration/", "/service-areas/east-douglas-ma/contents-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oxford", "url": "/service-areas/oxford-ma/"}, {"name": "Contents Restoration and Storage"}]
 faq: []
 area_slug: "oxford-ma"

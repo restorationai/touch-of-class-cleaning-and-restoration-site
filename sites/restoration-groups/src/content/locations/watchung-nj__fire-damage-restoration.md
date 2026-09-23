@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "f5026aefa757589a"
-generated_at: "2026-09-20T17:30:03.625427+00:00"
+generated_at: "2026-09-23T14:12:06.584077+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/watchung-nj/", "/service-areas/watchung-nj/mold-remediation/", "/service-areas/watchung-nj/water-damage-restoration/", "/service-areas/avenel-nj/fire-damage-restoration/", "/service-areas/bayonne-nj/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Watchung", "url": "/service-areas/watchung-nj/"}, {"name": "Fire Damage Restoration"}]

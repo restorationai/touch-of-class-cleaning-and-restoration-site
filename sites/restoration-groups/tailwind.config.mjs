@@ -1,17 +1,11 @@
 /** @type {import('tailwindcss').Config}
  *
- * The Restoration Group brand palette — sampled from the REAL brand assets:
- * logo (therestorationgroup.com wp-content, flat two-color: #1498d5 light blue
- * + black) and the box-truck livery in public/images/team.webp (~#2899bc in
- * overcast shade — same cerulean family). White/light-blue brand.
+ * Canonical Rank AI starter palette — matches the narestco visual reference.
+ * Tokens substituted at scaffold time from plan-input.json via build_site.py.
  *
- *   primary — TRG brand BLUE. The literal logo blue #1498d5 is only 3.24:1 on
- *             white, so it lives at 500 for decorative accents/washes only.
- *             600 = #0f719f (5.41:1) and 700 = #0c5d83 (7.22:1) are the
- *             AA-checked interactive/text shades (same approach as MCC green).
- *   accent  — deep petrol/ink derived from the brand hue. #09435d = 10.65:1
- *             on white — monogram tile, secondary CTAs, trust accents.
- *   dark    — slate neutrals.
+ *   dark    — primary background surface (charcoal/near-black)
+ *   primary — CTA color (red by default; override via BRAND_PRIMARY_* tokens)
+ *   accent  — brighter highlight for urgent elements
  */
 export default {
   content: ["./src/**/*.{astro,html,js,ts,md,mdx}"],
@@ -19,45 +13,53 @@ export default {
     extend: {
       colors: {
         dark: {
-          // slate grays
           DEFAULT: "#1e293b",
-          50: "#f8fafc",
-          100: "#f1f5f9",
-          200: "#e2e8f0",
-          300: "#cbd5e1",
-          400: "#94a3b8",
-          500: "#64748b",
-          600: "#475569",
-          700: "#334155",
-          800: "#1e293b",
-          900: "#0f172a",
-          950: "#020617",
+          50: "#f9fafb",
+          100: "#f3f4f6",
+          200: "#e5e7eb",
+          300: "#d1d5db",
+          400: "#9ca3af",
+          500: "#6b7280",
+          600: "#4b5563",
+          700: "#374151",
+          800: "#1f2937",
+          900: "#111827",
+          950: "#030712",
         },
         primary: {
-          // TRG brand blue (logo #1498d5 / truck livery). DEFAULT is the
-          // AA-checked 600 because bare text-primary/border-primary is used for
-          // links on white (Footer, DispatchCallout) — the literal logo blue
-          // fails 4.5:1 there and lives at 500 for decorative use only.
-          DEFAULT: "#0f719f",
-          50: "#eff9fd",
-          100: "#dff2fb",
-          200: "#bae4f7",
-          300: "#86d1f4",
-          400: "#3bb5ed",
-          500: "#1498d5", // TRUE logo/truck blue — decorative accents + tints only (3.24:1)
-          600: "#0f719f", // 5.41:1 on white — AA for normal text + white-on-blue CTAs
-          700: "#0c5d83", // 7.22:1 on white — links/eyebrows
-          800: "#0a4967",
-          900: "#083a52",
-          950: "#052533",
+          DEFAULT: "#1498d5",
+          50: "#f1fafe",
+          100: "#daf1fb",
+          200: "#b4e3f8",
+          300: "#7ccdf3",
+          400: "#49baee",
+          500: "#16a6e9",
+          // 600/700 are the DARKENED rungs — brand-tinted TEXT on a white or
+          // light surface (Hero's outline button, ProcessSection icons). They
+          // are NOT the button fill; that is `cta` below.
+          600: "#107cad",
+          700: "#0c5d83",
+          800: "#0a4e6e",
+          900: "#083f59",
+          950: "#052838",
+        },
+        /* cta — the SOLID-FILL pair: `bg-cta` is every call-to-action's
+           background and `text-cta-fg` is the label that sits on it. They are
+           resolved TOGETHER in build_site.resolve_tokens so the pair always
+           clears WCAG AA, which lets the fill stay the client's REAL brand hex
+           instead of a darkened derivative. A dark brand gets hex + white; a
+           light brand (gold, lime, sky) gets hex + a near-black label. Reign,
+           2026-08-05: "Action to call on the website need to match golds as
+           the logo" — the fill is the logo gold now, the label moved instead. */
+        cta: {
+          DEFAULT: "#1498d5",
+          hover: "#22abea",
+          fg: "#1e293b",
         },
         accent: {
-          // btn-accent renders WHITE text on this color — keep >= 4.5:1 contrast
-          // with white (WCAG AA). #09435d = 10.65:1 (deep petrol from the brand hue).
+          // Same pair rule as cta — btn-accent renders text-accent-fg on this.
           DEFAULT: "#09435d",
-          400: "#2a7ba3", // lighter petrol blue — icons/decoration (4.71:1 on white)
-          600: "#09435d",
-          700: "#073349",
+          fg: "#ffffff",
         },
         muted: {
           DEFAULT: "#4b5563",

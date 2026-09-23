@@ -7,10 +7,10 @@ primary_keyword: "home remodeling east niles"
 secondary_keywords: ["home renovation", "kitchen remodel", "bathroom remodel", "whole home remodel", "interior remodeling contractor"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "a3832f56e4bfcc21"
-generated_at: "2026-09-20T14:13:26.539282+00:00"
+plan_hash: "e67874ce053f5c7a"
+generated_at: "2026-09-23T14:11:55.953249+00:00"
 manual_override: false
-internal_links: ["/services/home-remodeling/", "/service-areas/east-niles-ca/", "/service-areas/east-niles-ca/fire-damage-restoration/", "/service-areas/east-niles-ca/mold-remediation/", "/service-areas/arvin-ca/home-remodeling/", "/service-areas/buttonwillow-ca/home-remodeling/", "/contact/"]
+internal_links: ["/services/home-remodeling/", "/service-areas/east-niles-ca/", "/service-areas/east-niles-ca/fire-damage-restoration/", "/service-areas/east-niles-ca/mold-remediation/", "/service-areas/arvin-ca/home-remodeling/", "/service-areas/bear-valley-springs-ca/home-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "East Niles", "url": "/service-areas/east-niles-ca/"}, {"name": "Home Remodeling"}]
 faq: []
 area_slug: "east-niles-ca"

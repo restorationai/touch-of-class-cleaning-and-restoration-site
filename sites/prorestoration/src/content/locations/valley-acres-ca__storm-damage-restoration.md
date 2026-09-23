@@ -7,10 +7,10 @@ primary_keyword: "storm damage restoration valley acres"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "ba9ae66e306911f9"
-generated_at: "2026-09-20T17:29:54.891221+00:00"
+plan_hash: "9d30a734c49a8380"
+generated_at: "2026-09-23T14:11:56.001880+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/valley-acres-ca/", "/service-areas/valley-acres-ca/fire-damage-restoration/", "/service-areas/valley-acres-ca/home-remodeling/", "/service-areas/arvin-ca/storm-damage-restoration/", "/service-areas/buttonwillow-ca/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/valley-acres-ca/", "/service-areas/valley-acres-ca/fire-damage-restoration/", "/service-areas/valley-acres-ca/home-remodeling/", "/service-areas/arvin-ca/storm-damage-restoration/", "/service-areas/bear-valley-springs-ca/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Valley Acres", "url": "/service-areas/valley-acres-ca/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "valley-acres-ca"

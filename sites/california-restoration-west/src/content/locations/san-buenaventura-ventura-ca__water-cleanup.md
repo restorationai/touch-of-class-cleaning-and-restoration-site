@@ -7,10 +7,10 @@ primary_keyword: "emergency water cleanup san buenaventura (ventura)"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "040483d6e323903b"
-generated_at: "2026-09-20T14:12:59.578482+00:00"
+plan_hash: "a45312aed04925a7"
+generated_at: "2026-09-23T14:11:28.122790+00:00"
 manual_override: false
-internal_links: ["/services/water-cleanup/", "/service-areas/san-buenaventura-ventura-ca/", "/service-areas/san-buenaventura-ventura-ca/mold-remediation/", "/service-areas/san-buenaventura-ventura-ca/water-damage-restoration/", "/service-areas/camarillo-ca/water-cleanup/", "/service-areas/fillmore-ca/water-cleanup/", "/contact/"]
+internal_links: ["/services/water-cleanup/", "/service-areas/san-buenaventura-ventura-ca/", "/service-areas/san-buenaventura-ventura-ca/mold-remediation/", "/service-areas/san-buenaventura-ventura-ca/water-damage-restoration/", "/service-areas/camarillo-ca/water-cleanup/", "/service-areas/carpinteria-ca/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Buenaventura (Ventura)", "url": "/service-areas/san-buenaventura-ventura-ca/"}, {"name": "Emergency Water Cleanup"}]
 faq: []
 area_slug: "san-buenaventura-ventura-ca"

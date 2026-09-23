@@ -1,21 +1,21 @@
 # Site Plan Report — Go Green Restoration of NC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-22T18:10:10.864479+00:00
+- Generated: 2026-09-23T14:11:42.794919+00:00
 - Domain: `gogreenrestorationofnc.com`
-- Services selected: 8 of 65 catalog entries
+- Services selected: 10 of 65 catalog entries
 - Service areas: 23
 - Cross-product enabled: True
-- Total URLs: **223**
-- Total internal links: 1761 (avg 7.9 per page)
+- Total URLs: **269**
+- Total internal links: 2145 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 176 |
+| `service-area-service` | 220 |
 | `service-area` | 22 |
-| `service-landing` | 8 |
+| `service-landing` | 10 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -27,13 +27,15 @@
 
 ## Selected services
 
-- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
-- `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
-- `mold-remediation` — Mold Remediation (core, priority 10)
-- `crawl-space-encapsulation` — Crawl Space Encapsulation (adjacent, priority 5)
 - `air-duct-cleaning` — Air Duct Cleaning (adjacent, priority 5)
+- `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
 - `carpet-cleaning` — Carpet Cleaning (adjacent, priority 4)
+- `crawl-space-encapsulation` — Crawl Space Encapsulation (adjacent, priority 5)
+- `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
 - `insulation-removal-installation` — Insulation Removal & Installation (adjacent, priority 5)
+- `mold-remediation` — Mold Remediation (core, priority 10)
+- `odor-removal` — Odor Removal and Deodorization (specialty, priority 7)
+- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 
 ## Service areas
@@ -70,12 +72,12 @@
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation middlesex |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration middlesex |
 | `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup middlesex |
+| `/services/biohazard-cleanup/` | `service-landing` | 7.2 | biohazard cleanup middlesex |
 | `/service-areas/archer-lodge-nc/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration archer lodge |
 | `/service-areas/archer-lodge-nc/mold-remediation/` | `service-area-service` | 7.0 | mold remediation archer lodge |
 | `/service-areas/archer-lodge-nc/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration archer lodge |
 | `/service-areas/clayton-nc/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration clayton |
 | `/service-areas/clayton-nc/mold-remediation/` | `service-area-service` | 7.0 | mold remediation clayton |
-| `/service-areas/clayton-nc/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration clayton |
 
 ## Validation
 

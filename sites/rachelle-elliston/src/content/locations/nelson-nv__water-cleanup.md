@@ -8,7 +8,7 @@ secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "04db5eab590cd3b3"
-generated_at: "2026-09-21T19:19:20.006691+00:00"
+generated_at: "2026-09-23T14:12:02.389563+00:00"
 manual_override: false
 internal_links: ["/services/water-cleanup/", "/service-areas/nelson-nv/", "/service-areas/nelson-nv/fire-damage-restoration/", "/service-areas/nelson-nv/mold-remediation/", "/service-areas/blue-diamond-nv/water-cleanup/", "/service-areas/boulder-city-nv/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Nelson", "url": "/service-areas/nelson-nv/"}, {"name": "Emergency Water Cleanup"}]

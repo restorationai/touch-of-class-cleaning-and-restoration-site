@@ -7,10 +7,10 @@ primary_keyword: "mold inspection and testing monaca"
 secondary_keywords: ["mold inspection", "mold testing", "indoor air quality testing", "mold spore testing", "mold assessment"]
 search_intent: "local_health"
 priority: 5.6
-plan_hash: "fcab2a20f3f38643"
-generated_at: "2026-09-20T14:13:09.810097+00:00"
+plan_hash: "eb5a763637844ca9"
+generated_at: "2026-09-23T14:11:40.919876+00:00"
 manual_override: false
-internal_links: ["/services/mold-inspection-testing/", "/service-areas/monaca-pa/", "/service-areas/monaca-pa/fire-damage-restoration/", "/service-areas/monaca-pa/mold-remediation/", "/service-areas/baden-pa/mold-inspection-testing/", "/service-areas/beaver-falls-pa/mold-inspection-testing/", "/contact/"]
+internal_links: ["/services/mold-inspection-testing/", "/service-areas/monaca-pa/", "/service-areas/monaca-pa/fire-damage-restoration/", "/service-areas/monaca-pa/mold-remediation/", "/service-areas/aliquippa-pa/mold-inspection-testing/", "/service-areas/allison-park-pa/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Monaca", "url": "/service-areas/monaca-pa/"}, {"name": "Mold Inspection and Testing"}]
 faq: []
 area_slug: "monaca-pa"

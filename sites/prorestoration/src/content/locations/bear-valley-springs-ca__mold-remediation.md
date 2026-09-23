@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "f42d06b3246f7db8"
-generated_at: "2026-09-20T19:37:15.130925+00:00"
+generated_at: "2026-09-23T14:11:56.014211+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/bear-valley-springs-ca/", "/service-areas/bear-valley-springs-ca/fire-damage-restoration/", "/service-areas/bear-valley-springs-ca/home-remodeling/", "/service-areas/arvin-ca/mold-remediation/", "/service-areas/buttonwillow-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bear Valley Springs", "url": "/service-areas/bear-valley-springs-ca/"}, {"name": "Mold Remediation"}]

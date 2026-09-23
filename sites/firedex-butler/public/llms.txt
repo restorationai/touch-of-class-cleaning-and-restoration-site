@@ -9,23 +9,25 @@ FireDEX Butler (FireDEX Butler, Inc.) is a professional restoration contractor s
 This file is intended for AI assistants and language models to efficiently ingest the structure and content of this website. The full list of pages is in the sitemap at https://firedex.net/sitemap-index.xml.
 
 ### Core service pages
-- [Water Damage Restoration](https://firedex.net/services/water-damage-restoration/)
-- [Flood Damage Restoration](https://firedex.net/services/flood-damage-restoration/)
 - [Basement Flooding Cleanup](https://firedex.net/services/basement-flooding-cleanup/)
-- [Sewage Cleanup and Sanitization](https://firedex.net/services/sewage-cleanup/)
+- [Biohazard Cleanup](https://firedex.net/services/biohazard-cleanup/)
 - [Burst Pipe Cleanup and Repair](https://firedex.net/services/burst-pipe-repair/)
-- [Frozen Pipe Restoration](https://firedex.net/services/frozen-pipe-restoration/)
-- [Storm Damage Restoration](https://firedex.net/services/storm-damage-restoration/)
+- [Commercial Restoration](https://firedex.net/services/commercial-restoration/)
+- [Contents Restoration & Storage](https://firedex.net/services/contents-restoration-storage/)
+- [Emergency Board-Up and Tarping](https://firedex.net/services/emergency-board-up-tarping/)
 - [Fire Damage Restoration](https://firedex.net/services/fire-damage-restoration/)
+- [Flood Damage Restoration](https://firedex.net/services/flood-damage-restoration/)
+- [Frozen Pipe Restoration](https://firedex.net/services/frozen-pipe-restoration/)
+- [Renovations, Remodels and General Contracting](https://firedex.net/services/general-contracting/)
+- [Mold Inspection and Testing](https://firedex.net/services/mold-inspection-testing/)
+- [Mold Remediation](https://firedex.net/services/mold-remediation/)
+- [Odor Removal and Deodorization](https://firedex.net/services/odor-removal/)
+- [Reconstruction Services](https://firedex.net/services/reconstruction/)
+- [Sewage Cleanup and Sanitization](https://firedex.net/services/sewage-cleanup/)
 - [Smoke Damage Restoration](https://firedex.net/services/smoke-damage-restoration/)
 - [Soot Removal](https://firedex.net/services/soot-removal/)
-- [Odor Removal and Deodorization](https://firedex.net/services/odor-removal/)
-- [Mold Remediation](https://firedex.net/services/mold-remediation/)
-- [Mold Inspection and Testing](https://firedex.net/services/mold-inspection-testing/)
-- [Biohazard and Trauma Cleanup](https://firedex.net/services/biohazard-cleanup/)
-- [Commercial Restoration](https://firedex.net/services/commercial-restoration/)
-- [Reconstruction Services](https://firedex.net/services/reconstruction/)
-- [Renovations, Remodels and General Contracting](https://firedex.net/services/general-contracting/)
+- [Storm Damage Restoration](https://firedex.net/services/storm-damage-restoration/)
+- [Water Damage Restoration](https://firedex.net/services/water-damage-restoration/)
 
 ### Service area pages
 - [Cranberry Township, PA](https://firedex.net/service-areas/cranberry-township-pa/)
@@ -37,11 +39,28 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Butler, PA](https://firedex.net/service-areas/butler-pa/)
 - [Gibsonia, PA](https://firedex.net/service-areas/gibsonia-pa/)
 - [Beaver Falls, PA](https://firedex.net/service-areas/beaver-falls-pa/)
+- [Economy, PA](https://firedex.net/service-areas/economy-pa/)
+- [Franklin Park, PA](https://firedex.net/service-areas/franklin-park-pa/)
+- [Baden, PA](https://firedex.net/service-areas/baden-pa/)
+- [Bell Acres, PA](https://firedex.net/service-areas/bell-acres-pa/)
+- [Monaca, PA](https://firedex.net/service-areas/monaca-pa/)
+- [Sewickley Heights, PA](https://firedex.net/service-areas/sewickley-heights-pa/)
+- [Aliquippa, PA](https://firedex.net/service-areas/aliquippa-pa/)
+- [Sewickley Hills, PA](https://firedex.net/service-areas/sewickley-hills-pa/)
+- [Allison Park, PA](https://firedex.net/service-areas/allison-park-pa/)
+- [Prospect, PA](https://firedex.net/service-areas/prospect-pa/)
+- [Oak Hills, PA](https://firedex.net/service-areas/oak-hills-pa/)
+- [Glenshaw, PA](https://firedex.net/service-areas/glenshaw-pa/)
+- [Ellwood City, PA](https://firedex.net/service-areas/ellwood-city-pa/)
+- [Big Beaver, PA](https://firedex.net/service-areas/big-beaver-pa/)
 
 ### Resources
 - [Blog](https://firedex.net/blog/): Restoration guides and local resources
 - [About](https://firedex.net/about/): Company background and credentials
 - [Contact](https://firedex.net/contact/): Phone, email, and service request form
+
+### Official profiles
+- https://www.google.com/maps?cid=14805396469301132499
 - [Emergency](https://firedex.net/emergency/): 24/7 emergency water damage response
 
 ## Key facts

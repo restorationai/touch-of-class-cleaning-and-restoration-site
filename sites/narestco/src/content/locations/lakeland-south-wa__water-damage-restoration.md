@@ -8,7 +8,7 @@ secondary_keywords: ["water removal", "water extraction", "water cleanup", "stru
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "8b164f9aa6362f1d"
-generated_at: "2026-09-20T14:13:23.240964+00:00"
+generated_at: "2026-09-23T14:11:54.117889+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/lakeland-south-wa/", "/service-areas/lakeland-south-wa/fire-damage-restoration/", "/service-areas/lakeland-south-wa/mold-remediation/", "/service-areas/algona-wa/water-damage-restoration/", "/service-areas/auburn-wa/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lakeland South", "url": "/service-areas/lakeland-south-wa/"}, {"name": "Water Damage Restoration"}]

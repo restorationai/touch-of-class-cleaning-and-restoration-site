@@ -7,10 +7,10 @@ primary_keyword: "restoration services santa rosa valley"
 secondary_keywords: ["santa rosa valley restoration company", "damage restoration santa rosa valley", "santa rosa valley disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "000eeaccb1c765bb"
-generated_at: "2026-09-20T14:12:59.573612+00:00"
+plan_hash: "34b28ed722c8feb9"
+generated_at: "2026-09-23T14:11:28.105485+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/santa-rosa-valley-ca/mold-remediation/", "/service-areas/santa-rosa-valley-ca/water-damage-restoration/", "/service-areas/santa-rosa-valley-ca/storm-damage-restoration/", "/service-areas/santa-rosa-valley-ca/water-cleanup/", "/service-areas/santa-rosa-valley-ca/contents-restoration/", "/service-areas/santa-rosa-valley-ca/crawl-space-encapsulation/", "/service-areas/camarillo-ca/", "/service-areas/fillmore-ca/", "/service-areas/mira-monte-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/santa-rosa-valley-ca/mold-remediation/", "/service-areas/santa-rosa-valley-ca/water-damage-restoration/", "/service-areas/santa-rosa-valley-ca/storm-damage-restoration/", "/service-areas/santa-rosa-valley-ca/water-cleanup/", "/service-areas/santa-rosa-valley-ca/odor-removal/", "/service-areas/santa-rosa-valley-ca/contents-restoration-storage/", "/service-areas/santa-rosa-valley-ca/contents-restoration/", "/service-areas/santa-rosa-valley-ca/crawl-space-encapsulation/", "/service-areas/camarillo-ca/", "/service-areas/carpinteria-ca/", "/service-areas/castaic-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Santa Rosa Valley"}]
 faq: []
 area_slug: "santa-rosa-valley-ca"

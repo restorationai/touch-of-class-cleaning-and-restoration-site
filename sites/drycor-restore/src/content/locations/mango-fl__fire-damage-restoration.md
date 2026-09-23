@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "7b6cc6312bc76aa0"
-generated_at: "2026-09-20T14:13:08.037978+00:00"
+generated_at: "2026-09-23T14:11:38.298940+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/mango-fl/", "/service-areas/mango-fl/mold-remediation/", "/service-areas/mango-fl/water-damage-restoration/", "/service-areas/anna-maria-fl/fire-damage-restoration/", "/service-areas/apollo-beach-fl/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mango", "url": "/service-areas/mango-fl/"}, {"name": "Fire Damage Restoration"}]

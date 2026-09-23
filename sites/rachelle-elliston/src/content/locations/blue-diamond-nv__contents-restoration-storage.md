@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "a25400d6c6919fcc"
-generated_at: "2026-09-20T19:37:20.003200+00:00"
+generated_at: "2026-09-23T14:12:02.376539+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration-storage/", "/service-areas/blue-diamond-nv/", "/service-areas/blue-diamond-nv/fire-damage-restoration/", "/service-areas/blue-diamond-nv/mold-remediation/", "/service-areas/boulder-city-nv/contents-restoration-storage/", "/service-areas/enterprise-nv/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Blue Diamond", "url": "/service-areas/blue-diamond-nv/"}, {"name": "Contents Restoration & Storage"}]

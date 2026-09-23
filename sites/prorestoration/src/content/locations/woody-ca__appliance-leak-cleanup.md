@@ -7,10 +7,10 @@ primary_keyword: "appliance leak cleanup woody"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
 priority: 4.2
-plan_hash: "59dc93917d7d6b32"
-generated_at: "2026-09-20T19:17:39.958688+00:00"
+plan_hash: "984f7991c7a2bf3f"
+generated_at: "2026-09-23T14:11:56.003173+00:00"
 manual_override: false
-internal_links: ["/services/appliance-leak-cleanup/", "/service-areas/woody-ca/", "/service-areas/woody-ca/fire-damage-restoration/", "/service-areas/woody-ca/home-remodeling/", "/service-areas/arvin-ca/appliance-leak-cleanup/", "/service-areas/buttonwillow-ca/appliance-leak-cleanup/", "/contact/"]
+internal_links: ["/services/appliance-leak-cleanup/", "/service-areas/woody-ca/", "/service-areas/woody-ca/fire-damage-restoration/", "/service-areas/woody-ca/home-remodeling/", "/service-areas/arvin-ca/appliance-leak-cleanup/", "/service-areas/bear-valley-springs-ca/appliance-leak-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woody", "url": "/service-areas/woody-ca/"}, {"name": "Appliance Leak Cleanup"}]
 faq: []
 area_slug: "woody-ca"

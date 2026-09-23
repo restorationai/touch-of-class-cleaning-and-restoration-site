@@ -6,60 +6,91 @@ type Props = {
   state: string;
   service?: string;        // optional, for the heading on city × service combo pages
   heading?: string;        // override the auto-generated heading
-  height?: number;         // map height in px; default 400
+  height?: number;         // map height in px; default 380
 };
 
-const {
-  city,
-  state,
-  service,
-  heading = service
-    ? `${service} in ${city}: Service Coverage Map`
-    : `Serving ${city} and Surrounding Neighborhoods`,
-  height = 400,
-} = Astro.props;
+const { city, state, service, heading, height = 380 } = Astro.props;
 
-// Build the query string for the Google Maps Embed API.
-// If no API key is configured, fall back to a plain Google Maps link (no embed).
-const query = encodeURIComponent(`${city}, ${state}`);
-const hasKey = Boolean(brand.googleMapsApiKey && brand.googleMapsApiKey.length > 0);
-const embedSrc = hasKey
-  ? `https://www.google.com/maps/embed/v1/place?key=${brand.googleMapsApiKey}&q=${query}&zoom=11`
-  : null;
-const fallbackHref = `https://www.google.com/maps/search/?api=1&query=${query}`;
+const sectionHeading =
+  heading ||
+  (service ? `${service} in ${city}: Service Coverage` : `Serving ${city} and Surrounding Neighborhoods`);
+
+// "Serving {City} from our {HQ} office" when the page city isn't our home city.
+const remote = brand.primaryCity && city && brand.primaryCity.toLowerCase() !== city.toLowerCase();
+const servingLine = remote
+  ? `Serving ${city} from our ${brand.primaryCity}, ${brand.primaryState} office`
+  : `Serving ${city} and surrounding neighborhoods`;
+
+// Free Google Maps embed of the client's REAL Business Profile — no API key needed,
+// so it always renders (the old Embed-API path showed nothing without a key). Name-
+// first query so Google matches the GBP and shows the business info card + rating.
+const mapQuery = encodeURIComponent(`${brand.displayName} ${brand.primaryCity} ${brand.primaryState}`);
+const embedSrc = `https://www.google.com/maps?q=${mapQuery}&output=embed`;
+
+const fullAddress = `${brand.streetAddress}, ${brand.primaryCity}, ${brand.primaryState} ${brand.postalCode}`;
+const directionsHref = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(fullAddress)}`;
+
+const clean = (v: string) => v && !v.includes("{{") ? v : "";
+const hasRating = clean(brand.gbpRatingValue) && clean(brand.gbpReviewCount);
+const hoursText = clean(brand.hours);
 ---
 
 <section class="section bg-navy">
   <div class="container-wide">
     <div class="mb-8">
       <div class="eyebrow">Coverage</div>
-      <h2>{heading}</h2>
+      <h2>{sectionHeading}</h2>
     </div>
-    {embedSrc ? (
-      <div class="rounded-xl overflow-hidden border border-white/10 shadow-2xl">
+
+    <div class="grid md:grid-cols-2 gap-6 items-stretch">
+      <!-- NAP / Call card — turns the ranking into a phone call -->
+      <div class="bg-white rounded-xl p-6 md:p-8 shadow-2xl flex flex-col">
+        <div class="text-slate-900 font-black text-xl md:text-2xl leading-tight">{brand.displayName}</div>
+        <div class="text-slate-500 text-sm mt-1">{servingLine}</div>
+
+        {hasRating && (
+          <div class="flex items-center gap-2 mt-3 text-sm">
+            <span class="text-amber-500 tracking-tight">★★★★★</span>
+            <span class="font-black text-slate-900">{brand.gbpRatingValue}</span>
+            <span class="text-slate-400">· {brand.gbpReviewCount} Google reviews</span>
+          </div>
+        )}
+
+        <div class="border-t border-slate-100 my-4"></div>
+
+        <div class="space-y-2.5 text-sm text-slate-700">
+          <div class="flex gap-2.5"><span aria-hidden="true">📍</span><span>{fullAddress}</span></div>
+          <div class="flex gap-2.5"><span aria-hidden="true">📞</span><a href={`tel:${brand.phoneRaw}`} class="text-blue-600 font-bold">{brand.phone}</a></div>
+          {hoursText && (
+            <div class="flex gap-2.5"><span aria-hidden="true">🕑</span><span>{hoursText}</span></div>
+          )}
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-3 mt-6 pt-2">
+          <a href={`tel:${brand.phoneRaw}`}
+             class="flex-1 text-center rounded-lg bg-navy text-white font-black py-3 px-4 hover:opacity-90 transition">
+            📞 Call Now
+          </a>
+          <a href={directionsHref} target="_blank" rel="noopener"
+             class="flex-1 text-center rounded-lg border-2 border-navy/20 text-navy font-black py-3 px-4 hover:bg-navy/5 transition">
+            Get Directions
+          </a>
+        </div>
+      </div>
+
+      <!-- Real Google Business Profile map (lazy-loaded — no LCP/CWV impact) -->
+      <div class="rounded-xl overflow-hidden border border-white/10 shadow-2xl min-h-[340px]">
         <iframe
           src={embedSrc}
           width="100%"
           height={height}
-          style="border:0; display:block;"
+          style="border:0; display:block; width:100%; height:100%; min-height:340px;"
           allowfullscreen
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-          title={`Map of ${city}, ${state}`}
+          title={`${brand.displayName} — serving ${city}, ${state}`}
         ></iframe>
       </div>
-    ) : (
-      <div class="rounded-xl border border-white/10 p-12 text-center bg-white/5">
-        <p class="text-white/70 mb-6">
-          Service coverage centered on <strong>{city}, {state}</strong>.
-        </p>
-        <a href={fallbackHref} target="_blank" rel="noopener" class="btn-outline">
-          View {city} on Google Maps
-        </a>
-        <p class="text-xs text-white/40 mt-6 mb-0">
-          (Configure <code>BRAND_GOOGLE_MAPS_API_KEY</code> in plan-input.json to enable inline map embed.)
-        </p>
-      </div>
-    )}
+    </div>
   </div>
 </section>

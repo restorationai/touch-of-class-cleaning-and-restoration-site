@@ -7,10 +7,10 @@ primary_keyword: "home remodeling ardmore"
 secondary_keywords: ["home renovation", "whole home remodel", "interior remodeling contractor", "house renovation contractor", "remodeling company"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "a60ec17d4d8732d0"
-generated_at: "2026-09-21T14:13:06.306688+00:00"
+plan_hash: "6fcc2c9c01cf6666"
+generated_at: "2026-09-23T14:11:32.861385+00:00"
 manual_override: false
-internal_links: ["/services/home-remodeling/", "/service-areas/ardmore-al/", "/service-areas/ardmore-al/roofing/", "/service-areas/ardmore-al/decks-pergolas-fences/", "/service-areas/athens-al/home-remodeling/", "/service-areas/gurley-al/home-remodeling/", "/contact/"]
+internal_links: ["/services/home-remodeling/", "/service-areas/ardmore-al/", "/service-areas/ardmore-al/roofing/", "/service-areas/ardmore-al/decks-pergolas-fences/", "/service-areas/arab-al/home-remodeling/", "/service-areas/athens-al/home-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ardmore", "url": "/service-areas/ardmore-al/"}, {"name": "Home Remodeling"}]
 faq: []
 area_slug: "ardmore-al"

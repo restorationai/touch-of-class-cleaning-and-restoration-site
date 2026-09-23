@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "a398be4b1b591dff"
-generated_at: "2026-09-20T14:13:42.834072+00:00"
+generated_at: "2026-09-23T14:12:04.464618+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/josephine-tx/", "/service-areas/josephine-tx/fire-damage-restoration/", "/service-areas/josephine-tx/mold-remediation/", "/service-areas/allen-tx/general-contracting/", "/service-areas/caddo-mills-tx/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Josephine", "url": "/service-areas/josephine-tx/"}, {"name": "Renovations, Remodels and General Contracting"}]

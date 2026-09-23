@@ -7,10 +7,10 @@ primary_keyword: "crawl space encapsulation san buenaventura (ventura)"
 secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "58af7fc43bb10046"
-generated_at: "2026-09-20T14:12:59.578321+00:00"
+plan_hash: "cfb6a3a1aa27d025"
+generated_at: "2026-09-23T14:11:28.121619+00:00"
 manual_override: false
-internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/san-buenaventura-ventura-ca/", "/service-areas/san-buenaventura-ventura-ca/mold-remediation/", "/service-areas/san-buenaventura-ventura-ca/water-damage-restoration/", "/service-areas/camarillo-ca/crawl-space-encapsulation/", "/service-areas/fillmore-ca/crawl-space-encapsulation/", "/contact/"]
+internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/san-buenaventura-ventura-ca/", "/service-areas/san-buenaventura-ventura-ca/mold-remediation/", "/service-areas/san-buenaventura-ventura-ca/water-damage-restoration/", "/service-areas/camarillo-ca/crawl-space-encapsulation/", "/service-areas/carpinteria-ca/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Buenaventura (Ventura)", "url": "/service-areas/san-buenaventura-ventura-ca/"}, {"name": "Crawl Space Encapsulation"}]
 faq: []
 area_slug: "san-buenaventura-ventura-ca"

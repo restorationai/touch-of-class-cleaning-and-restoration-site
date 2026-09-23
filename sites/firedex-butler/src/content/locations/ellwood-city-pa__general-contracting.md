@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "471f77e1e54a0b0c"
-generated_at: "2026-09-22T02:11:15.632185+00:00"
+generated_at: "2026-09-23T14:11:40.971185+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/ellwood-city-pa/", "/service-areas/ellwood-city-pa/fire-damage-restoration/", "/service-areas/ellwood-city-pa/mold-remediation/", "/service-areas/aliquippa-pa/general-contracting/", "/service-areas/allison-park-pa/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ellwood City", "url": "/service-areas/ellwood-city-pa/"}, {"name": "Renovations, Remodels and General Contracting"}]

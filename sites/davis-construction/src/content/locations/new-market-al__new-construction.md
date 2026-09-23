@@ -7,10 +7,10 @@ primary_keyword: "new home construction new market"
 secondary_keywords: ["custom home builder", "new home builder", "build a house", "residential construction", "ground-up construction"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "4c74a7958353201c"
-generated_at: "2026-09-20T14:13:03.673006+00:00"
+plan_hash: "da5cc4f06cefe7bf"
+generated_at: "2026-09-23T14:11:32.841225+00:00"
 manual_override: false
-internal_links: ["/services/new-construction/", "/service-areas/new-market-al/", "/service-areas/new-market-al/home-remodeling/", "/service-areas/new-market-al/roofing/", "/service-areas/athens-al/new-construction/", "/service-areas/harvest-al/new-construction/", "/contact/"]
+internal_links: ["/services/new-construction/", "/service-areas/new-market-al/", "/service-areas/new-market-al/home-remodeling/", "/service-areas/new-market-al/roofing/", "/service-areas/arab-al/new-construction/", "/service-areas/ardmore-al/new-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "New Market", "url": "/service-areas/new-market-al/"}, {"name": "New Home Construction"}]
 faq: []
 area_slug: "new-market-al"

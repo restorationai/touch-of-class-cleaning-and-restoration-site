@@ -8,7 +8,7 @@ secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "ca
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "ab79c58601ff6f65"
-generated_at: "2026-09-20T19:36:54.073791+00:00"
+generated_at: "2026-09-23T14:11:36.217633+00:00"
 manual_override: false
 internal_links: ["/services/carpet-cleaning/", "/service-areas/north-tustin-ca/", "/service-areas/north-tustin-ca/fire-damage-restoration/", "/service-areas/north-tustin-ca/mold-remediation/", "/service-areas/anaheim-ca/carpet-cleaning/", "/service-areas/chino-ca/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Tustin", "url": "/service-areas/north-tustin-ca/"}, {"name": "Carpet Cleaning"}]

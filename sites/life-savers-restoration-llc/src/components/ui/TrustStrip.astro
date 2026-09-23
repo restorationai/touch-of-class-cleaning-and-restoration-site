@@ -19,16 +19,31 @@ const isLicensed =
   (brand as { licensedInsuredAttested?: boolean }).licensedInsuredAttested === true;
 const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
 const certBadges = (brand.certifications || []).slice(0, 2);
-const badges: string[] =
-  brand.trustBadges && brand.trustBadges.length
-    ? [...brand.trustBadges]
-    : [
+// MINIMUM 4 (Santino 2026-09-18, Dry Bros shipped with only the client's 2
+// custom badges): client-supplied badges lead, then the gated defaults top
+// the strip up to at least four. Never fewer.
+const defaultBadges: string[] = [
         "Locally Owned",
         ...(sinceLabel ? [sinceLabel] : []),
         ...(isLicensed ? ["Licensed & Insured"] : []),
         ...(is247 ? ["24/7 Emergency Service"] : []),
+        // Value-forward fourth badge (Santino 2026-09-04): the strip should
+        // offer the customer something, not just describe us. Gated on the
+        // template actually shipping the free-estimate form; verticals that
+        // charge for the visit (environmental testing) override via
+        // brand.trustBadges instead.
+        ...((brand as { freeEstimates?: boolean }).freeEstimates !== false
+          ? ["Free Estimates"] : []),
         ...certBadges,
       ];
+const badges: string[] = [...(brand.trustBadges || [])];
+for (const d of defaultBadges) {
+  if (badges.length >= 4) break;
+  // containment dedupe: "Locally Owned" must not ride next to the
+  // client's "Locally Owned & Operated" (Dry Bros first build)
+  const dl = d.toLowerCase();
+  if (!badges.some((b) => b.toLowerCase().includes(dl) || dl.includes(b.toLowerCase()))) badges.push(d);
+}
 
 function iconFor(label: string) {
   const t = label.toLowerCase();
@@ -42,22 +57,9 @@ function iconFor(label: string) {
 }
 
 const items = badges.slice(0, 6).map((label) => ({ icon: iconFor(label), label }));
-
-// Real award/certification badge art (visual pass 2026-08-10): the client's
-// ACTUAL Best of Las Vegas gold-winner badges (Las Vegas Review-Journal,
-// 2023-2025), IICRC Certified Firm and USFCR Verified Vendor, harvested from
-// their brand folder into public/images/badges/. Rendered on white chips
-// because the badge art is dark-on-transparent and this band is dark.
-const awardBadges = [
-  { src: "/images/badges/best-of-las-vegas-2023.png", alt: "Best of Las Vegas Gold Winner 2023, Las Vegas Review-Journal" },
-  { src: "/images/badges/best-of-las-vegas-2024.png", alt: "Best of Las Vegas Gold Winner 2024, Las Vegas Review-Journal" },
-  { src: "/images/badges/best-of-las-vegas-2025.png", alt: "Best of Las Vegas Gold Winner 2025, Las Vegas Review-Journal" },
-  { src: "/images/badges/iicrc-certified-firm.png", alt: "IICRC Certified Firm" },
-  { src: "/images/badges/usfcr-verified-vendor.png", alt: "USFCR Verified Vendor" },
-];
 ---
 
-<section class="bg-dark py-10 md:py-8 text-white border-y border-white/10">
+<section class="bg-navy-900 py-10 md:py-8 text-white border-y border-white/10">
   <div class="container-wide px-6">
 
     {/* MOBILE VIEW: Vertical Stack with Icons Aligned to the Left of Text.
@@ -91,15 +93,6 @@ const awardBadges = [
           </div>
         );
       })}
-    </div>
-
-    {/* Real awards row — his Best of Las Vegas gold badges + certifications. */}
-    <div class="mt-8 flex flex-wrap items-center justify-center gap-4 md:gap-6">
-      {awardBadges.map((b) => (
-        <div class="bg-white rounded-xl p-2.5 shadow-md flex items-center justify-center">
-          <img src={b.src} alt={b.alt} class="h-14 md:h-16 w-auto" loading="lazy" decoding="async" />
-        </div>
-      ))}
     </div>
 
   </div>

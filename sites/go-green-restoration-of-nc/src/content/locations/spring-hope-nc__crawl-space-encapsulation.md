@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "0b5c39556756d382"
-generated_at: "2026-09-20T14:13:14.686647+00:00"
+generated_at: "2026-09-23T14:11:44.833287+00:00"
 manual_override: false
 internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/spring-hope-nc/", "/service-areas/spring-hope-nc/fire-damage-restoration/", "/service-areas/spring-hope-nc/mold-remediation/", "/service-areas/archer-lodge-nc/crawl-space-encapsulation/", "/service-areas/clayton-nc/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Spring Hope", "url": "/service-areas/spring-hope-nc/"}, {"name": "Crawl Space Encapsulation"}]

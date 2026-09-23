@@ -7,10 +7,10 @@ primary_keyword: "appliance leak cleanup weedpatch"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
 priority: 4.2
-plan_hash: "60b70376e13ba1a2"
-generated_at: "2026-09-20T14:13:26.543238+00:00"
+plan_hash: "d4a061877b78c912"
+generated_at: "2026-09-23T14:11:55.964894+00:00"
 manual_override: false
-internal_links: ["/services/appliance-leak-cleanup/", "/service-areas/weedpatch-ca/", "/service-areas/weedpatch-ca/fire-damage-restoration/", "/service-areas/weedpatch-ca/home-remodeling/", "/service-areas/arvin-ca/appliance-leak-cleanup/", "/service-areas/buttonwillow-ca/appliance-leak-cleanup/", "/contact/"]
+internal_links: ["/services/appliance-leak-cleanup/", "/service-areas/weedpatch-ca/", "/service-areas/weedpatch-ca/fire-damage-restoration/", "/service-areas/weedpatch-ca/home-remodeling/", "/service-areas/arvin-ca/appliance-leak-cleanup/", "/service-areas/bear-valley-springs-ca/appliance-leak-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Weedpatch", "url": "/service-areas/weedpatch-ca/"}, {"name": "Appliance Leak Cleanup"}]
 faq: []
 area_slug: "weedpatch-ca"

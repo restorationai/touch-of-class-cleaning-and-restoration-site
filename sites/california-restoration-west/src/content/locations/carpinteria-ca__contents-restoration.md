@@ -7,10 +7,10 @@ primary_keyword: "contents restoration and storage carpinteria"
 secondary_keywords: ["contents pack-out", "contents cleaning", "belongings restoration", "furniture restoration after fire", "contents storage"]
 search_intent: "local_service"
 priority: 3.5
-plan_hash: "0007b9c8ba714e10"
-generated_at: "2026-09-20T20:41:36.514374+00:00"
+plan_hash: "b3bdcdc078ebf266"
+generated_at: "2026-09-23T14:11:28.134921+00:00"
 manual_override: false
-internal_links: ["/services/contents-restoration/", "/service-areas/carpinteria-ca/", "/service-areas/carpinteria-ca/mold-remediation/", "/service-areas/carpinteria-ca/water-damage-restoration/", "/service-areas/camarillo-ca/contents-restoration/", "/service-areas/fillmore-ca/contents-restoration/", "/contact/"]
+internal_links: ["/services/contents-restoration/", "/service-areas/carpinteria-ca/", "/service-areas/carpinteria-ca/mold-remediation/", "/service-areas/carpinteria-ca/water-damage-restoration/", "/service-areas/camarillo-ca/contents-restoration/", "/service-areas/castaic-ca/contents-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Carpinteria", "url": "/service-areas/carpinteria-ca/"}, {"name": "Contents Restoration and Storage"}]
 faq: []
 area_slug: "carpinteria-ca"

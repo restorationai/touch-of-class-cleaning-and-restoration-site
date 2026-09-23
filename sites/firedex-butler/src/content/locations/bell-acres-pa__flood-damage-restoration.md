@@ -7,10 +7,10 @@ primary_keyword: "flood damage restoration bell acres"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "eac7e1f4584f2c54"
-generated_at: "2026-09-20T14:13:09.805125+00:00"
+plan_hash: "2c033c23e8604c9b"
+generated_at: "2026-09-23T14:11:40.912781+00:00"
 manual_override: false
-internal_links: ["/services/flood-damage-restoration/", "/service-areas/bell-acres-pa/", "/service-areas/bell-acres-pa/fire-damage-restoration/", "/service-areas/bell-acres-pa/mold-remediation/", "/service-areas/baden-pa/flood-damage-restoration/", "/service-areas/beaver-falls-pa/flood-damage-restoration/", "/contact/"]
+internal_links: ["/services/flood-damage-restoration/", "/service-areas/bell-acres-pa/", "/service-areas/bell-acres-pa/fire-damage-restoration/", "/service-areas/bell-acres-pa/mold-remediation/", "/service-areas/aliquippa-pa/flood-damage-restoration/", "/service-areas/allison-park-pa/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bell Acres", "url": "/service-areas/bell-acres-pa/"}, {"name": "Flood Damage Restoration"}]
 faq: []
 area_slug: "bell-acres-pa"

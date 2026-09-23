@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration north tustin"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "536625955f2a8578"
-generated_at: "2026-09-20T19:36:54.072827+00:00"
+plan_hash: "735e06298ae63601"
+generated_at: "2026-09-23T14:11:36.219101+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/north-tustin-ca/", "/service-areas/north-tustin-ca/mold-remediation/", "/service-areas/north-tustin-ca/water-damage-restoration/", "/service-areas/anaheim-ca/fire-damage-restoration/", "/service-areas/chino-ca/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/north-tustin-ca/", "/service-areas/north-tustin-ca/mold-remediation/", "/service-areas/north-tustin-ca/roofing/", "/service-areas/anaheim-ca/fire-damage-restoration/", "/service-areas/chino-ca/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Tustin", "url": "/service-areas/north-tustin-ca/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "north-tustin-ca"

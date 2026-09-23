@@ -7,10 +7,10 @@ primary_keyword: "biohazard cleanup economy"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
 priority: 5.6
-plan_hash: "1dbba6c8de7638e5"
-generated_at: "2026-09-20T14:13:09.797921+00:00"
+plan_hash: "2cbfb2bb78b73c5a"
+generated_at: "2026-09-23T14:11:40.892159+00:00"
 manual_override: false
-internal_links: ["/services/biohazard-cleanup/", "/service-areas/economy-pa/", "/service-areas/economy-pa/fire-damage-restoration/", "/service-areas/economy-pa/mold-remediation/", "/service-areas/baden-pa/biohazard-cleanup/", "/service-areas/beaver-falls-pa/biohazard-cleanup/", "/contact/"]
+internal_links: ["/services/biohazard-cleanup/", "/service-areas/economy-pa/", "/service-areas/economy-pa/fire-damage-restoration/", "/service-areas/economy-pa/mold-remediation/", "/service-areas/aliquippa-pa/biohazard-cleanup/", "/service-areas/allison-park-pa/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Economy", "url": "/service-areas/economy-pa/"}, {"name": "Biohazard Cleanup"}]
 faq: []
 area_slug: "economy-pa"

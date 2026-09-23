@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "ebd772ea0f8ff9d1"
-generated_at: "2026-09-23T04:58:40.113143+00:00"
+generated_at: "2026-09-23T14:11:42.639205+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/frederickson-wa/", "/service-areas/frederickson-wa/fire-damage-restoration/", "/service-areas/frederickson-wa/mold-remediation/", "/service-areas/anderson-island-wa/asbestos-abatement/", "/service-areas/auburn-wa/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Frederickson", "url": "/service-areas/frederickson-wa/"}, {"name": "Asbestos Abatement"}]

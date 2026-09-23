@@ -7,10 +7,10 @@ primary_keyword: "emergency water cleanup american fork"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "89707ab723e81464"
-generated_at: "2026-09-20T14:13:18.715830+00:00"
+plan_hash: "c345211d1a8e593c"
+generated_at: "2026-09-23T14:11:49.707930+00:00"
 manual_override: false
-internal_links: ["/services/water-cleanup/", "/service-areas/american-fork-ut/", "/service-areas/american-fork-ut/fire-damage-restoration/", "/service-areas/american-fork-ut/mold-remediation/", "/service-areas/cedar-fort-ut/water-cleanup/", "/service-areas/cedar-hills-ut/water-cleanup/", "/contact/"]
+internal_links: ["/services/water-cleanup/", "/service-areas/american-fork-ut/", "/service-areas/american-fork-ut/fire-damage-restoration/", "/service-areas/american-fork-ut/mold-remediation/", "/service-areas/alpine-ut/water-cleanup/", "/service-areas/benjamin-ut/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "American Fork", "url": "/service-areas/american-fork-ut/"}, {"name": "water-cleanup"}]
 faq: []
 area_slug: "american-fork-ut"

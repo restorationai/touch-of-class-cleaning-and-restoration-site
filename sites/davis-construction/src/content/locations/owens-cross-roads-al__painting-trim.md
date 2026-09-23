@@ -7,10 +7,10 @@ primary_keyword: "painting and trim owens cross roads"
 secondary_keywords: ["painting contractor", "interior painting", "exterior painting", "house painter", "trim painting"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "b774fbaff43dc55e"
-generated_at: "2026-09-20T19:17:13.009340+00:00"
+plan_hash: "c19c8650f63ece2f"
+generated_at: "2026-09-23T14:11:32.852572+00:00"
 manual_override: false
-internal_links: ["/services/painting-trim/", "/service-areas/owens-cross-roads-al/", "/service-areas/owens-cross-roads-al/home-remodeling/", "/service-areas/owens-cross-roads-al/roofing/", "/service-areas/athens-al/painting-trim/", "/service-areas/gurley-al/painting-trim/", "/contact/"]
+internal_links: ["/services/painting-trim/", "/service-areas/owens-cross-roads-al/", "/service-areas/owens-cross-roads-al/home-remodeling/", "/service-areas/owens-cross-roads-al/roofing/", "/service-areas/arab-al/painting-trim/", "/service-areas/ardmore-al/painting-trim/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Owens Cross Roads", "url": "/service-areas/owens-cross-roads-al/"}, {"name": "Painting and Trim"}]
 faq: []
 area_slug: "owens-cross-roads-al"

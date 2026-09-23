@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "02d7592f01a6e9b0"
-generated_at: "2026-09-20T14:13:08.045347+00:00"
+generated_at: "2026-09-23T14:11:38.308625+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/university-fl/", "/service-areas/university-fl/fire-damage-restoration/", "/service-areas/university-fl/mold-remediation/", "/service-areas/anna-maria-fl/general-contracting/", "/service-areas/apollo-beach-fl/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "University", "url": "/service-areas/university-fl/"}, {"name": "Renovations, Remodels and General Contracting"}]

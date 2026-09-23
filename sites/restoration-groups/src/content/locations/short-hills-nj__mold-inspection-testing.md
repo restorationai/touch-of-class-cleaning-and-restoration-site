@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "fe6d2628e02783cf"
-generated_at: "2026-09-20T14:13:45.344623+00:00"
+generated_at: "2026-09-23T14:12:06.552250+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/short-hills-nj/", "/service-areas/short-hills-nj/fire-damage-restoration/", "/service-areas/short-hills-nj/mold-remediation/", "/service-areas/avenel-nj/mold-inspection-testing/", "/service-areas/bayonne-nj/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Short Hills", "url": "/service-areas/short-hills-nj/"}, {"name": "Mold Inspection and Testing"}]

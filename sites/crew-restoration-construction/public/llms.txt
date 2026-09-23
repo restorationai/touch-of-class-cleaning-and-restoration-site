@@ -2,22 +2,27 @@
 
 > 24/7 restoration services in Sioux Falls, SD.
 
-Crew Restoration & Construction (Crew Restoration & Construction) is a professional restoration contractor serving Sioux Falls, SD and surrounding areas. We provide 24/7 emergency response for water, fire, mold, storm, biohazard, and reconstruction services. Phone: (605) 965-2727 · Email: estimates@crewthatcares.com.
+Crew Restoration & Construction (Crew Restoration & Construction) is a professional restoration contractor serving Sioux Falls, SD and surrounding areas since 2015. We provide 24/7 emergency response for water, fire, mold, storm, biohazard, and reconstruction services. Phone: (605) 965-2727 · Email: estimates@crewthatcares.com.
 
 ## Site index
 
 This file is intended for AI assistants and language models to efficiently ingest the structure and content of this website. The full list of pages is in the sitemap at https://crew3r.com/sitemap-index.xml.
 
 ### Core service pages
-- [Water Damage Restoration](https://crew3r.com/services/water-damage-restoration/)
+- [Asbestos Abatement](https://crew3r.com/services/asbestos-abatement/)
+- [Biohazard Cleanup](https://crew3r.com/services/biohazard-cleanup/)
+- [Contents Restoration and Storage](https://crew3r.com/services/contents-restoration/)
+- [Contents Restoration & Storage](https://crew3r.com/services/contents-restoration-storage/)
+- [Emergency Board-Up and Tarping](https://crew3r.com/services/emergency-board-up-tarping/)
 - [Fire Damage Restoration](https://crew3r.com/services/fire-damage-restoration/)
-- [Mold Remediation](https://crew3r.com/services/mold-remediation/)
-- [Storm Damage Restoration](https://crew3r.com/services/storm-damage-restoration/)
 - [Renovations, Remodels and General Contracting](https://crew3r.com/services/general-contracting/)
+- [Mold Remediation](https://crew3r.com/services/mold-remediation/)
+- [Post-Construction and Specialty Cleaning](https://crew3r.com/services/post-construction-cleaning/)
 - [Roofing Installation and Replacement](https://crew3r.com/services/roofing/)
 - [Sewage Cleanup and Sanitization](https://crew3r.com/services/sewage-cleanup/)
-- [Biohazard Cleanup](https://crew3r.com/services/biohazard-cleanup/)
-- [Asbestos Abatement](https://crew3r.com/services/asbestos-abatement/)
+- [Siding and Gutters](https://crew3r.com/services/siding-gutters/)
+- [Storm Damage Restoration](https://crew3r.com/services/storm-damage-restoration/)
+- [Water Damage Restoration](https://crew3r.com/services/water-damage-restoration/)
 
 ### Service area pages
 - [Sioux Falls, SD](https://crew3r.com/service-areas/sioux-falls-sd/)
@@ -45,19 +50,42 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Parker, SD](https://crew3r.com/service-areas/parker-sd/)
 - [Salem, SD](https://crew3r.com/service-areas/salem-sd/)
 - [Slayton, MN](https://crew3r.com/service-areas/slayton-mn/)
+- [Crooks, SD](https://crew3r.com/service-areas/crooks-sd/)
+- [Baltic, SD](https://crew3r.com/service-areas/baltic-sd/)
+- [Garretson, SD](https://crew3r.com/service-areas/garretson-sd/)
+- [Worthing, SD](https://crew3r.com/service-areas/worthing-sd/)
+- [Volga, SD](https://crew3r.com/service-areas/volga-sd/)
+- [Beresford, SD](https://crew3r.com/service-areas/beresford-sd/)
+- [Dakota Dunes, SD](https://crew3r.com/service-areas/dakota-dunes-sd/)
+- [Elk Point, SD](https://crew3r.com/service-areas/elk-point-sd/)
+- [Adrian, MN](https://crew3r.com/service-areas/adrian-mn/)
+- [Edgerton, MN](https://crew3r.com/service-areas/edgerton-mn/)
+- [Fulda, MN](https://crew3r.com/service-areas/fulda-mn/)
+- [George, IA](https://crew3r.com/service-areas/george-ia/)
+- [Hawarden, IA](https://crew3r.com/service-areas/hawarden-ia/)
+- [Hull, IA](https://crew3r.com/service-areas/hull-ia/)
+- [Alton, IA](https://crew3r.com/service-areas/alton-ia/)
+- [Akron, IA](https://crew3r.com/service-areas/akron-ia/)
+- [Remsen, IA](https://crew3r.com/service-areas/remsen-ia/)
+- [Hinton, IA](https://crew3r.com/service-areas/hinton-ia/)
+- [Merrill, IA](https://crew3r.com/service-areas/merrill-ia/)
+- [Kingsley, IA](https://crew3r.com/service-areas/kingsley-ia/)
 
 ### Resources
 - [Blog](https://crew3r.com/blog/): Restoration guides and local resources
 - [About](https://crew3r.com/about/): Company background and credentials
 - [Contact](https://crew3r.com/contact/): Phone, email, and service request form
+
+### Official profiles
+(profiles listed in page schema)
 - [Emergency](https://crew3r.com/emergency/): 24/7 emergency water damage response
 
 ## Key facts
 
 - Rated 4.9/5 from 564 Google reviews
-- **Founded:** 
+- **Founded:** 2015
 - **Licenses:**  · 
-- **Certifications:** Available on request
+- **Certifications:** IICRC
 - **Response time:** 24/7 emergency dispatch
 - **Emergency response:** 24/7 emergency dispatch in Sioux Falls. Direct insurance billing. Call (605) 965-2727.
 - **Insurance:** Direct insurance billing accepted

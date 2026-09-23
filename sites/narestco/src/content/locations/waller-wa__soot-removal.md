@@ -8,7 +8,7 @@ secondary_keywords: ["soot cleaning", "soot residue removal", "post-fire soot cl
 search_intent: "local_specialty"
 priority: 4.9
 plan_hash: "1f402686ff894809"
-generated_at: "2026-09-22T14:28:11.670346+00:00"
+generated_at: "2026-09-23T14:11:54.217500+00:00"
 manual_override: false
 internal_links: ["/services/soot-removal/", "/service-areas/waller-wa/", "/service-areas/waller-wa/fire-damage-restoration/", "/service-areas/waller-wa/mold-remediation/", "/service-areas/algona-wa/soot-removal/", "/service-areas/auburn-wa/soot-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Waller", "url": "/service-areas/waller-wa/"}, {"name": "Soot Removal"}]

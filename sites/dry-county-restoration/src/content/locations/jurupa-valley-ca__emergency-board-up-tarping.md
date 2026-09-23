@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "9745c8f25a3f7c21"
-generated_at: "2026-09-20T14:13:06.381976+00:00"
+generated_at: "2026-09-23T14:11:36.188699+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/jurupa-valley-ca/", "/service-areas/jurupa-valley-ca/fire-damage-restoration/", "/service-areas/jurupa-valley-ca/mold-remediation/", "/service-areas/anaheim-ca/emergency-board-up-tarping/", "/service-areas/chino-ca/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Jurupa Valley", "url": "/service-areas/jurupa-valley-ca/"}, {"name": "Emergency Board-Up and Tarping"}]

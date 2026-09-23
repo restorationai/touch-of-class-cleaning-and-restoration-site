@@ -7,10 +7,10 @@ primary_keyword: "home remodeling buttonwillow"
 secondary_keywords: ["home renovation", "kitchen remodel", "bathroom remodel", "whole home remodel", "interior remodeling contractor"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "569f1e292fda3ca6"
-generated_at: "2026-09-20T14:13:26.548026+00:00"
+plan_hash: "4d9d0393ae787003"
+generated_at: "2026-09-23T14:11:55.976806+00:00"
 manual_override: false
-internal_links: ["/services/home-remodeling/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/fire-damage-restoration/", "/service-areas/buttonwillow-ca/mold-remediation/", "/service-areas/arvin-ca/home-remodeling/", "/service-areas/delano-ca/home-remodeling/", "/contact/"]
+internal_links: ["/services/home-remodeling/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/fire-damage-restoration/", "/service-areas/buttonwillow-ca/mold-remediation/", "/service-areas/arvin-ca/home-remodeling/", "/service-areas/bear-valley-springs-ca/home-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buttonwillow", "url": "/service-areas/buttonwillow-ca/"}, {"name": "Home Remodeling"}]
 faq: []
 area_slug: "buttonwillow-ca"

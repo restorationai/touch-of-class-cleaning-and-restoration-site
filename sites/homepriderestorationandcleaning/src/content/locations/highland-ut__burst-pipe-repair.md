@@ -7,10 +7,10 @@ primary_keyword: "burst pipe cleanup and repair highland"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
 priority: 5.6
-plan_hash: "8690a28d2339f4fe"
-generated_at: "2026-09-20T14:13:18.723000+00:00"
+plan_hash: "6f1cd7a150cdb327"
+generated_at: "2026-09-23T14:11:49.736893+00:00"
 manual_override: false
-internal_links: ["/services/burst-pipe-repair/", "/service-areas/highland-ut/", "/service-areas/highland-ut/fire-damage-restoration/", "/service-areas/highland-ut/mold-remediation/", "/service-areas/american-fork-ut/burst-pipe-repair/", "/service-areas/cedar-fort-ut/burst-pipe-repair/", "/contact/"]
+internal_links: ["/services/burst-pipe-repair/", "/service-areas/highland-ut/", "/service-areas/highland-ut/fire-damage-restoration/", "/service-areas/highland-ut/mold-remediation/", "/service-areas/alpine-ut/burst-pipe-repair/", "/service-areas/american-fork-ut/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Highland", "url": "/service-areas/highland-ut/"}, {"name": "Burst Pipe Cleanup and Repair"}]
 faq: []
 area_slug: "highland-ut"

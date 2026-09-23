@@ -30,6 +30,7 @@
 import "~/styles/global.css";
 import { brand } from "~/lib/brand";
 import Analytics from "~/components/Analytics.astro";
+import DniSwap from "~/components/DniSwap.astro";
 import { Phone, ArrowUpRight, Star, CircleCheck, Clock, ShieldCheck, BadgeCheck } from "@lucide/astro";
 
 interface BodyContent {
@@ -106,7 +107,7 @@ const credentialFaqAnswer =
 const whyBullets = bodyContent.bullets.length
   ? bodyContent.bullets
   : [
-      "Emergency response typically within 2 hours, day or night",
+      "60-minute emergency response, day or night",
       credentialBullet,
       "We bill your insurance company directly",
       "Free, no-obligation on-site assessment",
@@ -122,7 +123,7 @@ const testimonials = [
 ];
 
 const faqs = [
-  { q: "How fast can you respond to an emergency?", a: "We're available 24/7 and typically have a certified technician on-site within about 2 hours of your call, depending on your location." },
+  { q: "How fast can you respond to an emergency?", a: "We're available 24/7 and typically have a certified technician on-site within 60 minutes of your call." },
   { q: "Do you work with my insurance company?", a: "Yes. We document all damage, communicate directly with your adjuster, and bill your insurer for covered restoration work." },
   { q: "Is the initial assessment really free?", a: "Yes — we provide a no-obligation, on-site assessment and a written estimate before any work begins." },
   { q: "Are you licensed and certified?", a: credentialFaqAnswer },
@@ -168,6 +169,7 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
       </>
     )}
       <Analytics />
+      <DniSwap />
   </head>
   <body class="min-h-screen flex flex-col font-sans antialiased" style={`background:${CREAM}`}>
 

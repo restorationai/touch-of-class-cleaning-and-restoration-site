@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration highland"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "68d4766a682fc9e4"
-generated_at: "2026-09-20T14:13:18.722839+00:00"
+plan_hash: "8b5be0c4f4bcb8b2"
+generated_at: "2026-09-23T14:11:49.742728+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/highland-ut/", "/service-areas/highland-ut/fire-damage-restoration/", "/service-areas/highland-ut/mold-remediation/", "/service-areas/american-fork-ut/water-damage-restoration/", "/service-areas/cedar-fort-ut/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/highland-ut/", "/service-areas/highland-ut/fire-damage-restoration/", "/service-areas/highland-ut/mold-remediation/", "/service-areas/alpine-ut/water-damage-restoration/", "/service-areas/american-fork-ut/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Highland", "url": "/service-areas/highland-ut/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "highland-ut"

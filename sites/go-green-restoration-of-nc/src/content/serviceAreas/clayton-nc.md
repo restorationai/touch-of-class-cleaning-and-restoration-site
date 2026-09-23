@@ -7,10 +7,10 @@ primary_keyword: "restoration services clayton"
 secondary_keywords: ["clayton restoration company", "damage restoration clayton", "clayton disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "63fa2a0ad3dd1e29"
-generated_at: "2026-09-20T14:13:14.679870+00:00"
+plan_hash: "302b808a2b658e47"
+generated_at: "2026-09-23T14:11:44.809703+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/clayton-nc/fire-damage-restoration/", "/service-areas/clayton-nc/mold-remediation/", "/service-areas/clayton-nc/water-damage-restoration/", "/service-areas/clayton-nc/water-cleanup/", "/service-areas/clayton-nc/air-duct-cleaning/", "/service-areas/clayton-nc/crawl-space-encapsulation/", "/service-areas/clayton-nc/insulation-removal-installation/", "/service-areas/clayton-nc/carpet-cleaning/", "/service-areas/archer-lodge-nc/", "/service-areas/durham-nc/", "/service-areas/kenly-nc/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/clayton-nc/fire-damage-restoration/", "/service-areas/clayton-nc/mold-remediation/", "/service-areas/clayton-nc/water-damage-restoration/", "/service-areas/clayton-nc/water-cleanup/", "/service-areas/clayton-nc/biohazard-cleanup/", "/service-areas/clayton-nc/odor-removal/", "/service-areas/clayton-nc/air-duct-cleaning/", "/service-areas/clayton-nc/crawl-space-encapsulation/", "/service-areas/clayton-nc/insulation-removal-installation/", "/service-areas/clayton-nc/carpet-cleaning/", "/service-areas/archer-lodge-nc/", "/service-areas/durham-nc/", "/service-areas/elm-city-nc/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Clayton"}]
 faq: []
 area_slug: "clayton-nc"

@@ -7,10 +7,10 @@ primary_keyword: "mold remediation hasley canyon"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "b4c850532116092b"
-generated_at: "2026-09-20T19:17:07.913212+00:00"
+plan_hash: "dc95a8903734a30b"
+generated_at: "2026-09-23T14:11:28.131113+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/hasley-canyon-ca/", "/service-areas/hasley-canyon-ca/water-damage-restoration/", "/service-areas/hasley-canyon-ca/storm-damage-restoration/", "/service-areas/camarillo-ca/mold-remediation/", "/service-areas/fillmore-ca/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/hasley-canyon-ca/", "/service-areas/hasley-canyon-ca/water-damage-restoration/", "/service-areas/hasley-canyon-ca/storm-damage-restoration/", "/service-areas/camarillo-ca/mold-remediation/", "/service-areas/carpinteria-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hasley Canyon", "url": "/service-areas/hasley-canyon-ca/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "hasley-canyon-ca"

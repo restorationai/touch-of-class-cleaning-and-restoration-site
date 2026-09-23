@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "497d340fd58f544e"
-generated_at: "2026-09-22T20:03:30.836988+00:00"
+generated_at: "2026-09-23T14:12:02.399834+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration-storage/", "/service-areas/searchlight-nv/", "/service-areas/searchlight-nv/fire-damage-restoration/", "/service-areas/searchlight-nv/mold-remediation/", "/service-areas/blue-diamond-nv/contents-restoration-storage/", "/service-areas/boulder-city-nv/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Searchlight", "url": "/service-areas/searchlight-nv/"}, {"name": "Contents Restoration & Storage"}]

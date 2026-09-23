@@ -8,7 +8,7 @@ secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed 
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "94012f89aa072abc"
-generated_at: "2026-09-20T20:42:00.528695+00:00"
+generated_at: "2026-09-23T14:11:54.176259+00:00"
 manual_override: false
 internal_links: ["/services/frozen-pipe-restoration/", "/service-areas/normandy-park-wa/", "/service-areas/normandy-park-wa/fire-damage-restoration/", "/service-areas/normandy-park-wa/mold-remediation/", "/service-areas/algona-wa/frozen-pipe-restoration/", "/service-areas/auburn-wa/frozen-pipe-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Normandy Park", "url": "/service-areas/normandy-park-wa/"}, {"name": "Frozen Pipe Restoration"}]

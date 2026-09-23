@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "99aea8964f229ccf"
-generated_at: "2026-09-20T14:13:08.048610+00:00"
+generated_at: "2026-09-23T14:11:38.310809+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/palm-river-clair-mel-fl/", "/service-areas/palm-river-clair-mel-fl/fire-damage-restoration/", "/service-areas/palm-river-clair-mel-fl/mold-remediation/", "/service-areas/anna-maria-fl/emergency-board-up-tarping/", "/service-areas/apollo-beach-fl/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Palm River-Clair Mel", "url": "/service-areas/palm-river-clair-mel-fl/"}, {"name": "Emergency Board-Up and Tarping"}]

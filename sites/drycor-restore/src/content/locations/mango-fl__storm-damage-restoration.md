@@ -8,7 +8,7 @@ secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "caad6d914f478f25"
-generated_at: "2026-09-20T14:13:08.038954+00:00"
+generated_at: "2026-09-23T14:11:38.300222+00:00"
 manual_override: false
 internal_links: ["/services/storm-damage-restoration/", "/service-areas/mango-fl/", "/service-areas/mango-fl/fire-damage-restoration/", "/service-areas/mango-fl/mold-remediation/", "/service-areas/anna-maria-fl/storm-damage-restoration/", "/service-areas/apollo-beach-fl/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mango", "url": "/service-areas/mango-fl/"}, {"name": "Storm Damage Restoration"}]

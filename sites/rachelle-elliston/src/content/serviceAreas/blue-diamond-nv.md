@@ -7,10 +7,10 @@ primary_keyword: "restoration services blue diamond"
 secondary_keywords: ["blue diamond restoration company", "damage restoration blue diamond", "blue diamond disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "f0c1686666e10444"
-generated_at: "2026-09-20T19:37:20.001088+00:00"
+plan_hash: "0097eb6b04e63fc0"
+generated_at: "2026-09-23T14:12:02.358051+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/blue-diamond-nv/fire-damage-restoration/", "/service-areas/blue-diamond-nv/mold-remediation/", "/service-areas/blue-diamond-nv/water-damage-restoration/", "/service-areas/blue-diamond-nv/sewage-cleanup/", "/service-areas/blue-diamond-nv/storm-damage-restoration/", "/service-areas/blue-diamond-nv/water-cleanup/", "/service-areas/blue-diamond-nv/biohazard-cleanup/", "/service-areas/blue-diamond-nv/general-contracting/", "/service-areas/blue-diamond-nv/contents-restoration-storage/", "/service-areas/boulder-city-nv/", "/service-areas/enterprise-nv/", "/service-areas/henderson-nv/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/blue-diamond-nv/fire-damage-restoration/", "/service-areas/blue-diamond-nv/mold-remediation/", "/service-areas/blue-diamond-nv/water-damage-restoration/", "/service-areas/blue-diamond-nv/sewage-cleanup/", "/service-areas/blue-diamond-nv/storm-damage-restoration/", "/service-areas/blue-diamond-nv/water-cleanup/", "/service-areas/blue-diamond-nv/biohazard-cleanup/", "/service-areas/blue-diamond-nv/general-contracting/", "/service-areas/blue-diamond-nv/odor-removal/", "/service-areas/blue-diamond-nv/contents-restoration-storage/", "/service-areas/boulder-city-nv/", "/service-areas/enterprise-nv/", "/service-areas/henderson-nv/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Blue Diamond"}]
 faq: []
 area_slug: "blue-diamond-nv"

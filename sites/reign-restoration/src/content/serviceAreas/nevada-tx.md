@@ -7,10 +7,10 @@ primary_keyword: "restoration services nevada"
 secondary_keywords: ["nevada restoration company", "damage restoration nevada", "nevada disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "5e8472edc79451ae"
-generated_at: "2026-09-20T14:13:42.825619+00:00"
+plan_hash: "abbedfa883e751d5"
+generated_at: "2026-09-23T14:12:04.433707+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/nevada-tx/fire-damage-restoration/", "/service-areas/nevada-tx/mold-remediation/", "/service-areas/nevada-tx/water-damage-restoration/", "/service-areas/nevada-tx/storm-damage-restoration/", "/service-areas/nevada-tx/water-cleanup/", "/service-areas/nevada-tx/general-contracting/", "/service-areas/nevada-tx/contents-restoration/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/nevada-tx/fire-damage-restoration/", "/service-areas/nevada-tx/mold-remediation/", "/service-areas/nevada-tx/roofing/", "/service-areas/nevada-tx/water-damage-restoration/", "/service-areas/nevada-tx/storm-damage-restoration/", "/service-areas/nevada-tx/water-cleanup/", "/service-areas/nevada-tx/general-contracting/", "/service-areas/nevada-tx/odor-removal/", "/service-areas/nevada-tx/contents-restoration-storage/", "/service-areas/nevada-tx/contents-restoration/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Nevada"}]
 faq: []
 area_slug: "nevada-tx"

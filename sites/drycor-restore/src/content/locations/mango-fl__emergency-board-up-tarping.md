@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "991b9f9ad6197df8"
-generated_at: "2026-09-20T14:13:08.039574+00:00"
+generated_at: "2026-09-23T14:11:38.298423+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/mango-fl/", "/service-areas/mango-fl/fire-damage-restoration/", "/service-areas/mango-fl/mold-remediation/", "/service-areas/anna-maria-fl/emergency-board-up-tarping/", "/service-areas/apollo-beach-fl/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mango", "url": "/service-areas/mango-fl/"}, {"name": "Emergency Board-Up and Tarping"}]

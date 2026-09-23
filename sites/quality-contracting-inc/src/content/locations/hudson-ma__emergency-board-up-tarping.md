@@ -7,10 +7,10 @@ primary_keyword: "emergency board-up and tarping hudson"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
 priority: 4.9
-plan_hash: "b44973e29f20e54a"
-generated_at: "2026-09-20T20:42:17.523295+00:00"
+plan_hash: "65e7e67d490a9c7a"
+generated_at: "2026-09-23T14:11:58.542603+00:00"
 manual_override: false
-internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/hudson-ma/", "/service-areas/hudson-ma/fire-damage-restoration/", "/service-areas/hudson-ma/mold-remediation/", "/service-areas/east-douglas-ma/emergency-board-up-tarping/", "/service-areas/fiskdale-ma/emergency-board-up-tarping/", "/contact/"]
+internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/hudson-ma/", "/service-areas/hudson-ma/fire-damage-restoration/", "/service-areas/hudson-ma/mold-remediation/", "/service-areas/bellingham-ma/emergency-board-up-tarping/", "/service-areas/east-douglas-ma/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hudson", "url": "/service-areas/hudson-ma/"}, {"name": "Emergency Board-Up and Tarping"}]
 faq: []
 area_slug: "hudson-ma"

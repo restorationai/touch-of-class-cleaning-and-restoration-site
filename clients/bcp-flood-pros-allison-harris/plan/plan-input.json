@@ -10,9 +10,9 @@
     "state": "UT",
     "postal_code": "84003",
     "theme": "light",
-    "primary_color": "#ee4305",
+    "primary_color": "#dd5a28",
     "accent_color": "#f38c08",
-    "dark_color": "#38160a",
+    "dark_color": "#0f172a",
     "logo_url": "/images/logo.webp",
     "licensed_insured_attested": true,
     "founded_year": "2012",
@@ -22,17 +22,19 @@
     ]
   },
   "services": [
-    "water-damage-restoration",
-    "storm-damage-restoration",
-    "fire-damage-restoration",
-    "general-contracting",
-    "sewage-cleanup",
-    "emergency-board-up-tarping",
-    "water-cleanup",
-    "mold-remediation",
     "biohazard-cleanup",
     "contents-restoration-storage",
-    "flood-equipment-rental"
+    "emergency-board-up-tarping",
+    "fire-damage-restoration",
+    "flood-equipment-rental",
+    "general-contracting",
+    "mold-remediation",
+    "odor-removal",
+    "roofing",
+    "sewage-cleanup",
+    "storm-damage-restoration",
+    "water-cleanup",
+    "water-damage-restoration"
   ],
   "service_areas": [
     {

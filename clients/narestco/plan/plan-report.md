@@ -1,21 +1,21 @@
 # Site Plan Report — National Restoration Construction
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-22T20:03:22.276300+00:00
+- Generated: 2026-09-23T14:11:52.964302+00:00
 - Domain: `narestco.com`
-- Services selected: 23 of 65 catalog entries
+- Services selected: 31 of 65 catalog entries
 - Service areas: 30
 - Cross-product enabled: True
-- Total URLs: **740**
-- Total internal links: 6010 (avg 8.1 per page)
+- Total URLs: **980**
+- Total internal links: 7994 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 667 |
+| `service-area-service` | 899 |
+| `service-landing` | 31 |
 | `service-area` | 29 |
-| `service-landing` | 23 |
 | `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -27,29 +27,37 @@
 
 ## Selected services
 
-- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
-- `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
-- `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
-- `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
+- `air-duct-cleaning` — Air Duct Cleaning (adjacent, priority 5)
 - `appliance-leak-cleanup` — Appliance Leak Cleanup (specialty, priority 6)
-- `frozen-pipe-restoration` — Frozen Pipe Restoration (specialty, priority 7)
-- `roof-leak-repair` — Roof Leak Cleanup and Repair (specialty, priority 7)
-- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
+- `asbestos-abatement` — Asbestos Abatement (specialty, priority 6)
+- `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
+- `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
+- `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
+- `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
+- `crawl-space-encapsulation` — Crawl Space Encapsulation (adjacent, priority 5)
+- `crime-scene-cleanup` — Crime Scene Cleanup (specialty, priority 6)
+- `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
+- `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
+- `frozen-pipe-restoration` — Frozen Pipe Restoration (specialty, priority 7)
+- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
+- `hoarding-cleanup` — Hoarding Cleanup (specialty, priority 6)
+- `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
+- `mold-remediation` — Mold Remediation (core, priority 10)
+- `odor-removal` — Odor Removal and Deodorization (specialty, priority 7)
+- `post-construction-cleaning` — Post-Construction and Specialty Cleaning (supporting, priority 4)
+- `reconstruction` — Reconstruction Services (core, priority 9)
+- `roof-leak-repair` — Roof Leak Cleanup and Repair (specialty, priority 7)
+- `roofing` — Roofing Installation and Replacement (construction, priority 10)
+- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
 - `soot-removal` — Soot Removal (specialty, priority 7)
-- `odor-removal` — Odor Removal and Deodorization (specialty, priority 7)
-- `mold-remediation` — Mold Remediation (core, priority 10)
-- `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
-- `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
 - `trauma-scene-cleanup` — Trauma Scene Cleanup (specialty, priority 7)
-- `crime-scene-cleanup` — Crime Scene Cleanup (specialty, priority 6)
 - `unattended-death-cleanup` — Unattended Death Cleanup (specialty, priority 6)
-- `hoarding-cleanup` — Hoarding Cleanup (specialty, priority 6)
-- `reconstruction` — Reconstruction Services (core, priority 9)
-- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)
+- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
+- `water-leak-detection` — Water Leak Detection (core, priority 7)
 
 ## Service areas
 
@@ -90,6 +98,7 @@
 | --- | --- | --- | --- |
 | `/services/fire-damage-restoration/` | `service-landing` | 9.0 | fire damage restoration federal way |
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation federal way |
+| `/services/roofing/` | `service-landing` | 9.0 | roofing installation and replacement federal way |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration federal way |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration federal way |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services federal way |
@@ -97,7 +106,6 @@
 | `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration federal way |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration federal way |
 | `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup federal way |
-| `/services/basement-flooding-cleanup/` | `service-landing` | 7.2 | basement flooding cleanup federal way |
 
 ## Validation
 

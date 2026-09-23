@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "88c18e68c40b59fb"
-generated_at: "2026-09-21T14:13:12.730437+00:00"
+generated_at: "2026-09-23T14:11:40.958314+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/oak-hills-pa/", "/service-areas/oak-hills-pa/fire-damage-restoration/", "/service-areas/oak-hills-pa/mold-remediation/", "/service-areas/aliquippa-pa/reconstruction/", "/service-areas/allison-park-pa/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oak Hills", "url": "/service-areas/oak-hills-pa/"}, {"name": "Reconstruction Services"}]

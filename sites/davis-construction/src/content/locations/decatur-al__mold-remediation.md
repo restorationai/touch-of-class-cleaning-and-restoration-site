@@ -7,10 +7,10 @@ primary_keyword: "mold remediation decatur"
 secondary_keywords: ["mold removal", "mold remediation contractor", "mold repair and rebuild", "mold-safe renovation", "post-remediation reconstruction"]
 search_intent: "local_health"
 priority: 4.9
-plan_hash: "5d133f644a96e2ef"
-generated_at: "2026-09-22T18:09:59.776007+00:00"
+plan_hash: "4eb016da69746327"
+generated_at: "2026-09-23T14:11:32.874890+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/decatur-al/", "/service-areas/decatur-al/home-remodeling/", "/service-areas/decatur-al/roofing/", "/service-areas/ardmore-al/mold-remediation/", "/service-areas/athens-al/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/decatur-al/", "/service-areas/decatur-al/home-remodeling/", "/service-areas/decatur-al/roofing/", "/service-areas/arab-al/mold-remediation/", "/service-areas/ardmore-al/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Decatur", "url": "/service-areas/decatur-al/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "decatur-al"

@@ -7,10 +7,10 @@ primary_keyword: "emergency board-up and tarping sturbridge"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
 priority: 4.9
-plan_hash: "c917660fe7496f57"
-generated_at: "2026-09-20T14:13:32.579050+00:00"
+plan_hash: "abe92f5fc706b64e"
+generated_at: "2026-09-23T14:11:58.521921+00:00"
 manual_override: false
-internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/sturbridge-ma/", "/service-areas/sturbridge-ma/fire-damage-restoration/", "/service-areas/sturbridge-ma/mold-remediation/", "/service-areas/east-douglas-ma/emergency-board-up-tarping/", "/service-areas/framingham-ma/emergency-board-up-tarping/", "/contact/"]
+internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/sturbridge-ma/", "/service-areas/sturbridge-ma/fire-damage-restoration/", "/service-areas/sturbridge-ma/mold-remediation/", "/service-areas/bellingham-ma/emergency-board-up-tarping/", "/service-areas/east-douglas-ma/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sturbridge", "url": "/service-areas/sturbridge-ma/"}, {"name": "Emergency Board-Up and Tarping"}]
 faq: []
 area_slug: "sturbridge-ma"

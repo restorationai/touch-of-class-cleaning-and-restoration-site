@@ -8,7 +8,7 @@ secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "ca
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "21cb35c53425c1ca"
-generated_at: "2026-09-22T18:10:11.010214+00:00"
+generated_at: "2026-09-23T14:11:44.866275+00:00"
 manual_override: false
 internal_links: ["/services/carpet-cleaning/", "/service-areas/youngsville-nc/", "/service-areas/youngsville-nc/fire-damage-restoration/", "/service-areas/youngsville-nc/mold-remediation/", "/service-areas/archer-lodge-nc/carpet-cleaning/", "/service-areas/clayton-nc/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Youngsville", "url": "/service-areas/youngsville-nc/"}, {"name": "Carpet Cleaning"}]

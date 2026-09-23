@@ -28,22 +28,38 @@ export default {
         },
         primary: {
           DEFAULT: "#15803d",
-          50: "#edfcf3",
-          100: "#d3f8e1",
-          200: "#a7f1c3",
-          300: "#66e696",
-          400: "#23d264",
-          500: "#1a9e4b",
+          50: "#f2fdf6",
+          100: "#dcf9e7",
+          200: "#b9f3cf",
+          300: "#84ebab",
+          400: "#54e38a",
+          500: "#24db68",
+          // 600/700 are the DARKENED rungs — brand-tinted TEXT on a white or
+          // light surface (Hero's outline button, ProcessSection icons). They
+          // are NOT the button fill; that is `cta` below.
           600: "#15803d",
-          700: "#116530",
-          800: "#0d4f26",
-          900: "#09391b",
-          950: "#062311",
+          700: "#0f5d2c",
+          800: "#0c4923",
+          900: "#093519",
+          950: "#062210",
+        },
+        /* cta — the SOLID-FILL pair: `bg-cta` is every call-to-action's
+           background and `text-cta-fg` is the label that sits on it. They are
+           resolved TOGETHER in build_site.resolve_tokens so the pair always
+           clears WCAG AA, which lets the fill stay the client's REAL brand hex
+           instead of a darkened derivative. A dark brand gets hex + white; a
+           light brand (gold, lime, sky) gets hex + a near-black label. Reign,
+           2026-08-05: "Action to call on the website need to match golds as
+           the logo" — the fill is the logo gold now, the label moved instead. */
+        cta: {
+          DEFAULT: "#15803d",
+          hover: "#0f5d2c",
+          fg: "#ffffff",
         },
         accent: {
-          // btn-accent renders WHITE text on this color — pick an accent that
-          // keeps >= 4.5:1 contrast with white (WCAG AA). e.g. #dc2626 or #c2410c.
+          // Same pair rule as cta — btn-accent renders text-accent-fg on this.
           DEFAULT: "#15803d",
+          fg: "#ffffff",
         },
         muted: {
           DEFAULT: "#4b5563",

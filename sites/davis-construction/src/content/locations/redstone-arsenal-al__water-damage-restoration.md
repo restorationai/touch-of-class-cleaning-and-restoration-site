@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration redstone arsenal"
 secondary_keywords: ["water damage repair", "water damage rebuild", "drywall water damage repair", "ceiling water damage repair", "post-leak renovation"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "f6184cd281c10f37"
-generated_at: "2026-09-20T14:13:03.669012+00:00"
+plan_hash: "340f30ca1c0b64b8"
+generated_at: "2026-09-23T14:11:32.832907+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/redstone-arsenal-al/", "/service-areas/redstone-arsenal-al/home-remodeling/", "/service-areas/redstone-arsenal-al/roofing/", "/service-areas/athens-al/water-damage-restoration/", "/service-areas/harvest-al/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/redstone-arsenal-al/", "/service-areas/redstone-arsenal-al/home-remodeling/", "/service-areas/redstone-arsenal-al/roofing/", "/service-areas/arab-al/water-damage-restoration/", "/service-areas/ardmore-al/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Redstone Arsenal", "url": "/service-areas/redstone-arsenal-al/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "redstone-arsenal-al"

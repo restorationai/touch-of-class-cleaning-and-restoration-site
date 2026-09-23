@@ -20,6 +20,7 @@
     "/service-areas/bethel-park-pa/",
     "/service-areas/carnegie-pa/",
     "/service-areas/castle-shannon-pa/",
+    "/service-areas/glenshaw-pa/",
     "/service-areas/green-tree-pa/",
     "/service-areas/greensburg-pa/",
     "/service-areas/hempfield-township-pa/",
@@ -62,6 +63,7 @@
     "/service-areas/bethel-park-pa/",
     "/service-areas/carnegie-pa/",
     "/service-areas/castle-shannon-pa/",
+    "/service-areas/glenshaw-pa/",
     "/service-areas/green-tree-pa/",
     "/service-areas/greensburg-pa/",
     "/service-areas/hempfield-township-pa/",
@@ -108,6 +110,7 @@
     "/service-areas/bethel-park-pa/fire-damage-restoration/",
     "/service-areas/carnegie-pa/fire-damage-restoration/",
     "/service-areas/castle-shannon-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
     "/service-areas/green-tree-pa/fire-damage-restoration/",
     "/service-areas/greensburg-pa/fire-damage-restoration/",
     "/service-areas/hempfield-township-pa/fire-damage-restoration/",
@@ -115,7 +118,6 @@
     "/service-areas/latrobe-pa/fire-damage-restoration/",
     "/service-areas/lower-burrell-pa/fire-damage-restoration/",
     "/service-areas/mccandless-pa/fire-damage-restoration/",
-    "/service-areas/mckeesport-pa/fire-damage-restoration/",
     "/blog/choosing-a-restoration-company/",
     "/blog/fire-damage-restoration-process/",
     "/blog/smoke-odor-removal-techniques/"
@@ -127,14 +129,14 @@
     "/service-areas/bethel-park-pa/general-contracting/",
     "/service-areas/carnegie-pa/general-contracting/",
     "/service-areas/castle-shannon-pa/general-contracting/",
+    "/service-areas/glenshaw-pa/general-contracting/",
     "/service-areas/green-tree-pa/general-contracting/",
     "/service-areas/greensburg-pa/general-contracting/",
     "/service-areas/hempfield-township-pa/general-contracting/",
     "/service-areas/jeannette-pa/general-contracting/",
     "/service-areas/latrobe-pa/general-contracting/",
     "/service-areas/lower-burrell-pa/general-contracting/",
-    "/service-areas/mccandless-pa/general-contracting/",
-    "/service-areas/mckeesport-pa/general-contracting/"
+    "/service-areas/mccandless-pa/general-contracting/"
   ],
   "/services/roofing/": [
     "/services/",
@@ -143,14 +145,14 @@
     "/service-areas/bethel-park-pa/roofing/",
     "/service-areas/carnegie-pa/roofing/",
     "/service-areas/castle-shannon-pa/roofing/",
+    "/service-areas/glenshaw-pa/roofing/",
     "/service-areas/green-tree-pa/roofing/",
     "/service-areas/greensburg-pa/roofing/",
     "/service-areas/hempfield-township-pa/roofing/",
     "/service-areas/jeannette-pa/roofing/",
     "/service-areas/latrobe-pa/roofing/",
     "/service-areas/lower-burrell-pa/roofing/",
-    "/service-areas/mccandless-pa/roofing/",
-    "/service-areas/mckeesport-pa/roofing/"
+    "/service-areas/mccandless-pa/roofing/"
   ],
   "/services/sewage-cleanup/": [
     "/services/",
@@ -159,6 +161,7 @@
     "/service-areas/bethel-park-pa/sewage-cleanup/",
     "/service-areas/carnegie-pa/sewage-cleanup/",
     "/service-areas/castle-shannon-pa/sewage-cleanup/",
+    "/service-areas/glenshaw-pa/sewage-cleanup/",
     "/service-areas/green-tree-pa/sewage-cleanup/",
     "/service-areas/greensburg-pa/sewage-cleanup/",
     "/service-areas/hempfield-township-pa/sewage-cleanup/",
@@ -166,7 +169,6 @@
     "/service-areas/latrobe-pa/sewage-cleanup/",
     "/service-areas/lower-burrell-pa/sewage-cleanup/",
     "/service-areas/mccandless-pa/sewage-cleanup/",
-    "/service-areas/mckeesport-pa/sewage-cleanup/",
     "/blog/sewage-backup-health-risks/"
   ],
   "/services/biohazard-cleanup/": [
@@ -176,14 +178,14 @@
     "/service-areas/bethel-park-pa/biohazard-cleanup/",
     "/service-areas/carnegie-pa/biohazard-cleanup/",
     "/service-areas/castle-shannon-pa/biohazard-cleanup/",
+    "/service-areas/glenshaw-pa/biohazard-cleanup/",
     "/service-areas/green-tree-pa/biohazard-cleanup/",
     "/service-areas/greensburg-pa/biohazard-cleanup/",
     "/service-areas/hempfield-township-pa/biohazard-cleanup/",
     "/service-areas/jeannette-pa/biohazard-cleanup/",
     "/service-areas/latrobe-pa/biohazard-cleanup/",
     "/service-areas/lower-burrell-pa/biohazard-cleanup/",
-    "/service-areas/mccandless-pa/biohazard-cleanup/",
-    "/service-areas/mckeesport-pa/biohazard-cleanup/"
+    "/service-areas/mccandless-pa/biohazard-cleanup/"
   ],
   "/services/asbestos-abatement/": [
     "/services/",
@@ -192,14 +194,14 @@
     "/service-areas/bethel-park-pa/asbestos-abatement/",
     "/service-areas/carnegie-pa/asbestos-abatement/",
     "/service-areas/castle-shannon-pa/asbestos-abatement/",
+    "/service-areas/glenshaw-pa/asbestos-abatement/",
     "/service-areas/green-tree-pa/asbestos-abatement/",
     "/service-areas/greensburg-pa/asbestos-abatement/",
     "/service-areas/hempfield-township-pa/asbestos-abatement/",
     "/service-areas/jeannette-pa/asbestos-abatement/",
     "/service-areas/latrobe-pa/asbestos-abatement/",
     "/service-areas/lower-burrell-pa/asbestos-abatement/",
-    "/service-areas/mccandless-pa/asbestos-abatement/",
-    "/service-areas/mckeesport-pa/asbestos-abatement/"
+    "/service-areas/mccandless-pa/asbestos-abatement/"
   ],
   "/services/lead-paint-abatement/": [
     "/services/",
@@ -208,14 +210,14 @@
     "/service-areas/bethel-park-pa/lead-paint-abatement/",
     "/service-areas/carnegie-pa/lead-paint-abatement/",
     "/service-areas/castle-shannon-pa/lead-paint-abatement/",
+    "/service-areas/glenshaw-pa/lead-paint-abatement/",
     "/service-areas/green-tree-pa/lead-paint-abatement/",
     "/service-areas/greensburg-pa/lead-paint-abatement/",
     "/service-areas/hempfield-township-pa/lead-paint-abatement/",
     "/service-areas/jeannette-pa/lead-paint-abatement/",
     "/service-areas/latrobe-pa/lead-paint-abatement/",
     "/service-areas/lower-burrell-pa/lead-paint-abatement/",
-    "/service-areas/mccandless-pa/lead-paint-abatement/",
-    "/service-areas/mckeesport-pa/lead-paint-abatement/"
+    "/service-areas/mccandless-pa/lead-paint-abatement/"
   ],
   "/services/emergency-board-up-tarping/": [
     "/services/",
@@ -224,14 +226,14 @@
     "/service-areas/bethel-park-pa/emergency-board-up-tarping/",
     "/service-areas/carnegie-pa/emergency-board-up-tarping/",
     "/service-areas/castle-shannon-pa/emergency-board-up-tarping/",
+    "/service-areas/glenshaw-pa/emergency-board-up-tarping/",
     "/service-areas/green-tree-pa/emergency-board-up-tarping/",
     "/service-areas/greensburg-pa/emergency-board-up-tarping/",
     "/service-areas/hempfield-township-pa/emergency-board-up-tarping/",
     "/service-areas/jeannette-pa/emergency-board-up-tarping/",
     "/service-areas/latrobe-pa/emergency-board-up-tarping/",
     "/service-areas/lower-burrell-pa/emergency-board-up-tarping/",
-    "/service-areas/mccandless-pa/emergency-board-up-tarping/",
-    "/service-areas/mckeesport-pa/emergency-board-up-tarping/"
+    "/service-areas/mccandless-pa/emergency-board-up-tarping/"
   ],
   "/services/contents-restoration-storage/": [
     "/services/",
@@ -240,14 +242,14 @@
     "/service-areas/bethel-park-pa/contents-restoration-storage/",
     "/service-areas/carnegie-pa/contents-restoration-storage/",
     "/service-areas/castle-shannon-pa/contents-restoration-storage/",
+    "/service-areas/glenshaw-pa/contents-restoration-storage/",
     "/service-areas/green-tree-pa/contents-restoration-storage/",
     "/service-areas/greensburg-pa/contents-restoration-storage/",
     "/service-areas/hempfield-township-pa/contents-restoration-storage/",
     "/service-areas/jeannette-pa/contents-restoration-storage/",
     "/service-areas/latrobe-pa/contents-restoration-storage/",
     "/service-areas/lower-burrell-pa/contents-restoration-storage/",
-    "/service-areas/mccandless-pa/contents-restoration-storage/",
-    "/service-areas/mckeesport-pa/contents-restoration-storage/"
+    "/service-areas/mccandless-pa/contents-restoration-storage/"
   ],
   "/services/air-duct-cleaning/": [
     "/services/",
@@ -256,14 +258,14 @@
     "/service-areas/bethel-park-pa/air-duct-cleaning/",
     "/service-areas/carnegie-pa/air-duct-cleaning/",
     "/service-areas/castle-shannon-pa/air-duct-cleaning/",
+    "/service-areas/glenshaw-pa/air-duct-cleaning/",
     "/service-areas/green-tree-pa/air-duct-cleaning/",
     "/service-areas/greensburg-pa/air-duct-cleaning/",
     "/service-areas/hempfield-township-pa/air-duct-cleaning/",
     "/service-areas/jeannette-pa/air-duct-cleaning/",
     "/service-areas/latrobe-pa/air-duct-cleaning/",
     "/service-areas/lower-burrell-pa/air-duct-cleaning/",
-    "/service-areas/mccandless-pa/air-duct-cleaning/",
-    "/service-areas/mckeesport-pa/air-duct-cleaning/"
+    "/service-areas/mccandless-pa/air-duct-cleaning/"
   ],
   "/services/carpet-cleaning/": [
     "/services/",
@@ -272,14 +274,14 @@
     "/service-areas/bethel-park-pa/carpet-cleaning/",
     "/service-areas/carnegie-pa/carpet-cleaning/",
     "/service-areas/castle-shannon-pa/carpet-cleaning/",
+    "/service-areas/glenshaw-pa/carpet-cleaning/",
     "/service-areas/green-tree-pa/carpet-cleaning/",
     "/service-areas/greensburg-pa/carpet-cleaning/",
     "/service-areas/hempfield-township-pa/carpet-cleaning/",
     "/service-areas/jeannette-pa/carpet-cleaning/",
     "/service-areas/latrobe-pa/carpet-cleaning/",
     "/service-areas/lower-burrell-pa/carpet-cleaning/",
-    "/service-areas/mccandless-pa/carpet-cleaning/",
-    "/service-areas/mckeesport-pa/carpet-cleaning/"
+    "/service-areas/mccandless-pa/carpet-cleaning/"
   ],
   "/services/upholstery-cleaning/": [
     "/services/",
@@ -288,14 +290,14 @@
     "/service-areas/bethel-park-pa/upholstery-cleaning/",
     "/service-areas/carnegie-pa/upholstery-cleaning/",
     "/service-areas/castle-shannon-pa/upholstery-cleaning/",
+    "/service-areas/glenshaw-pa/upholstery-cleaning/",
     "/service-areas/green-tree-pa/upholstery-cleaning/",
     "/service-areas/greensburg-pa/upholstery-cleaning/",
     "/service-areas/hempfield-township-pa/upholstery-cleaning/",
     "/service-areas/jeannette-pa/upholstery-cleaning/",
     "/service-areas/latrobe-pa/upholstery-cleaning/",
     "/service-areas/lower-burrell-pa/upholstery-cleaning/",
-    "/service-areas/mccandless-pa/upholstery-cleaning/",
-    "/service-areas/mckeesport-pa/upholstery-cleaning/"
+    "/service-areas/mccandless-pa/upholstery-cleaning/"
   ],
   "/service-areas/penn-hills-pa/": [
     "/service-areas/",
@@ -749,6 +751,25 @@
     "/service-areas/munhall-pa/lead-paint-abatement/",
     "/service-areas/munhall-pa/carpet-cleaning/",
     "/service-areas/munhall-pa/upholstery-cleaning/",
+    "/service-areas/baldwin-pa/",
+    "/service-areas/bethel-park-pa/",
+    "/service-areas/carnegie-pa/"
+  ],
+  "/service-areas/glenshaw-pa/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/roofing/",
+    "/service-areas/glenshaw-pa/sewage-cleanup/",
+    "/service-areas/glenshaw-pa/biohazard-cleanup/",
+    "/service-areas/glenshaw-pa/general-contracting/",
+    "/service-areas/glenshaw-pa/emergency-board-up-tarping/",
+    "/service-areas/glenshaw-pa/asbestos-abatement/",
+    "/service-areas/glenshaw-pa/air-duct-cleaning/",
+    "/service-areas/glenshaw-pa/contents-restoration-storage/",
+    "/service-areas/glenshaw-pa/lead-paint-abatement/",
+    "/service-areas/glenshaw-pa/carpet-cleaning/",
+    "/service-areas/glenshaw-pa/upholstery-cleaning/",
     "/service-areas/baldwin-pa/",
     "/service-areas/bethel-park-pa/",
     "/service-areas/carnegie-pa/"
@@ -3341,6 +3362,114 @@
     "/service-areas/munhall-pa/",
     "/service-areas/munhall-pa/fire-damage-restoration/",
     "/service-areas/munhall-pa/roofing/",
+    "/service-areas/baldwin-pa/upholstery-cleaning/",
+    "/service-areas/bethel-park-pa/upholstery-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/glenshaw-pa/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/",
+    "/service-areas/glenshaw-pa/roofing/",
+    "/service-areas/glenshaw-pa/sewage-cleanup/",
+    "/service-areas/baldwin-pa/fire-damage-restoration/",
+    "/service-areas/bethel-park-pa/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/glenshaw-pa/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/glenshaw-pa/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/roofing/",
+    "/service-areas/baldwin-pa/general-contracting/",
+    "/service-areas/bethel-park-pa/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/glenshaw-pa/roofing/": [
+    "/services/roofing/",
+    "/service-areas/glenshaw-pa/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/sewage-cleanup/",
+    "/service-areas/baldwin-pa/roofing/",
+    "/service-areas/bethel-park-pa/roofing/",
+    "/contact/"
+  ],
+  "/service-areas/glenshaw-pa/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/glenshaw-pa/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/roofing/",
+    "/service-areas/baldwin-pa/sewage-cleanup/",
+    "/service-areas/bethel-park-pa/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/glenshaw-pa/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/glenshaw-pa/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/roofing/",
+    "/service-areas/baldwin-pa/biohazard-cleanup/",
+    "/service-areas/bethel-park-pa/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/glenshaw-pa/asbestos-abatement/": [
+    "/services/asbestos-abatement/",
+    "/service-areas/glenshaw-pa/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/roofing/",
+    "/service-areas/baldwin-pa/asbestos-abatement/",
+    "/service-areas/bethel-park-pa/asbestos-abatement/",
+    "/contact/"
+  ],
+  "/service-areas/glenshaw-pa/lead-paint-abatement/": [
+    "/services/lead-paint-abatement/",
+    "/service-areas/glenshaw-pa/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/roofing/",
+    "/service-areas/baldwin-pa/lead-paint-abatement/",
+    "/service-areas/bethel-park-pa/lead-paint-abatement/",
+    "/contact/"
+  ],
+  "/service-areas/glenshaw-pa/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/glenshaw-pa/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/roofing/",
+    "/service-areas/baldwin-pa/emergency-board-up-tarping/",
+    "/service-areas/bethel-park-pa/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/glenshaw-pa/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/glenshaw-pa/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/roofing/",
+    "/service-areas/baldwin-pa/contents-restoration-storage/",
+    "/service-areas/bethel-park-pa/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/glenshaw-pa/air-duct-cleaning/": [
+    "/services/air-duct-cleaning/",
+    "/service-areas/glenshaw-pa/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/roofing/",
+    "/service-areas/baldwin-pa/air-duct-cleaning/",
+    "/service-areas/bethel-park-pa/air-duct-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/glenshaw-pa/carpet-cleaning/": [
+    "/services/carpet-cleaning/",
+    "/service-areas/glenshaw-pa/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/roofing/",
+    "/service-areas/baldwin-pa/carpet-cleaning/",
+    "/service-areas/bethel-park-pa/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/glenshaw-pa/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/glenshaw-pa/",
+    "/service-areas/glenshaw-pa/fire-damage-restoration/",
+    "/service-areas/glenshaw-pa/roofing/",
     "/service-areas/baldwin-pa/upholstery-cleaning/",
     "/service-areas/bethel-park-pa/upholstery-cleaning/",
     "/contact/"

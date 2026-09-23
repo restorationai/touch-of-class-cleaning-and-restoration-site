@@ -8,7 +8,7 @@ secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitizati
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "be98a77cafbe6e3b"
-generated_at: "2026-09-22T02:11:11.689511+00:00"
+generated_at: "2026-09-23T14:11:36.237742+00:00"
 manual_override: false
 internal_links: ["/services/air-duct-cleaning/", "/service-areas/pomona-ca/", "/service-areas/pomona-ca/fire-damage-restoration/", "/service-areas/pomona-ca/mold-remediation/", "/service-areas/anaheim-ca/air-duct-cleaning/", "/service-areas/chino-ca/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pomona", "url": "/service-areas/pomona-ca/"}, {"name": "Air Duct Cleaning"}]

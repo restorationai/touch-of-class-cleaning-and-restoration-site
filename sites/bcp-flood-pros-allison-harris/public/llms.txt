@@ -9,17 +9,19 @@ FIX Restoration (FIX Restoration) is a professional restoration contractor servi
 This file is intended for AI assistants and language models to efficiently ingest the structure and content of this website. The full list of pages is in the sitemap at https://fixofutah.com/sitemap-index.xml.
 
 ### Core service pages
-- [Water Damage Restoration](https://fixofutah.com/services/water-damage-restoration/)
-- [Storm Damage Restoration](https://fixofutah.com/services/storm-damage-restoration/)
-- [Fire Damage Restoration](https://fixofutah.com/services/fire-damage-restoration/)
-- [Renovations, Remodels and General Contracting](https://fixofutah.com/services/general-contracting/)
-- [Sewage Cleanup and Sanitization](https://fixofutah.com/services/sewage-cleanup/)
-- [Emergency Board-Up and Tarping](https://fixofutah.com/services/emergency-board-up-tarping/)
-- [Emergency Water Cleanup](https://fixofutah.com/services/water-cleanup/)
-- [Mold Remediation](https://fixofutah.com/services/mold-remediation/)
 - [Biohazard Cleanup](https://fixofutah.com/services/biohazard-cleanup/)
 - [Contents Restoration & Storage](https://fixofutah.com/services/contents-restoration-storage/)
+- [Emergency Board-Up and Tarping](https://fixofutah.com/services/emergency-board-up-tarping/)
+- [Fire Damage Restoration](https://fixofutah.com/services/fire-damage-restoration/)
 - [Flood & Drying Equipment Rental](https://fixofutah.com/services/flood-equipment-rental/)
+- [Renovations, Remodels and General Contracting](https://fixofutah.com/services/general-contracting/)
+- [Mold Remediation](https://fixofutah.com/services/mold-remediation/)
+- [Odor Removal and Deodorization](https://fixofutah.com/services/odor-removal/)
+- [Roofing Installation and Replacement](https://fixofutah.com/services/roofing/)
+- [Sewage Cleanup and Sanitization](https://fixofutah.com/services/sewage-cleanup/)
+- [Storm Damage Restoration](https://fixofutah.com/services/storm-damage-restoration/)
+- [Emergency Water Cleanup](https://fixofutah.com/services/water-cleanup/)
+- [Water Damage Restoration](https://fixofutah.com/services/water-damage-restoration/)
 
 ### Service area pages
 - [American Fork, UT](https://fixofutah.com/service-areas/american-fork-ut/)

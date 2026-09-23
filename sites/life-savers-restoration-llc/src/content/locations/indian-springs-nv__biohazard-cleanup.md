@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "d1d0f5fb255dcd73"
-generated_at: "2026-09-20T20:41:58.721146+00:00"
+generated_at: "2026-09-23T14:11:52.267829+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/indian-springs-nv/", "/service-areas/indian-springs-nv/fire-damage-restoration/", "/service-areas/indian-springs-nv/mold-remediation/", "/service-areas/blue-diamond-nv/biohazard-cleanup/", "/service-areas/boulder-city-nv/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Indian Springs", "url": "/service-areas/indian-springs-nv/"}, {"name": "Biohazard Cleanup"}]

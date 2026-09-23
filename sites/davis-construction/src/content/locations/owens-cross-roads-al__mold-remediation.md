@@ -7,10 +7,10 @@ primary_keyword: "mold remediation owens cross roads"
 secondary_keywords: ["mold removal", "mold remediation contractor", "mold repair and rebuild", "mold-safe renovation", "post-remediation reconstruction"]
 search_intent: "local_health"
 priority: 4.9
-plan_hash: "e1130a46736e2544"
-generated_at: "2026-09-20T19:17:13.009632+00:00"
+plan_hash: "760b0a20fb6e4eae"
+generated_at: "2026-09-23T14:11:32.851919+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/owens-cross-roads-al/", "/service-areas/owens-cross-roads-al/home-remodeling/", "/service-areas/owens-cross-roads-al/roofing/", "/service-areas/athens-al/mold-remediation/", "/service-areas/gurley-al/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/owens-cross-roads-al/", "/service-areas/owens-cross-roads-al/home-remodeling/", "/service-areas/owens-cross-roads-al/roofing/", "/service-areas/arab-al/mold-remediation/", "/service-areas/ardmore-al/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Owens Cross Roads", "url": "/service-areas/owens-cross-roads-al/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "owens-cross-roads-al"

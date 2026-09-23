@@ -7,10 +7,10 @@ primary_keyword: "emergency water cleanup cedar hills"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "3e47209688432ebb"
-generated_at: "2026-09-20T14:13:18.736046+00:00"
+plan_hash: "a05f0c6cccae5612"
+generated_at: "2026-09-23T14:11:49.765344+00:00"
 manual_override: false
-internal_links: ["/services/water-cleanup/", "/service-areas/cedar-hills-ut/", "/service-areas/cedar-hills-ut/fire-damage-restoration/", "/service-areas/cedar-hills-ut/mold-remediation/", "/service-areas/american-fork-ut/water-cleanup/", "/service-areas/cedar-fort-ut/water-cleanup/", "/contact/"]
+internal_links: ["/services/water-cleanup/", "/service-areas/cedar-hills-ut/", "/service-areas/cedar-hills-ut/fire-damage-restoration/", "/service-areas/cedar-hills-ut/mold-remediation/", "/service-areas/alpine-ut/water-cleanup/", "/service-areas/american-fork-ut/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Cedar Hills", "url": "/service-areas/cedar-hills-ut/"}, {"name": "water-cleanup"}]
 faq: []
 area_slug: "cedar-hills-ut"

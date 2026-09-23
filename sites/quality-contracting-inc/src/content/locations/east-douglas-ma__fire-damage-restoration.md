@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration east douglas"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "69a54a16efa6b0b6"
-generated_at: "2026-09-20T14:13:32.572544+00:00"
+plan_hash: "076e057da1808d9f"
+generated_at: "2026-09-23T14:11:58.505678+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/east-douglas-ma/", "/service-areas/east-douglas-ma/mold-remediation/", "/service-areas/east-douglas-ma/water-damage-restoration/", "/service-areas/framingham-ma/fire-damage-restoration/", "/service-areas/hopkinton-ma/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/east-douglas-ma/", "/service-areas/east-douglas-ma/mold-remediation/", "/service-areas/east-douglas-ma/roofing/", "/service-areas/bellingham-ma/fire-damage-restoration/", "/service-areas/fiskdale-ma/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "East Douglas", "url": "/service-areas/east-douglas-ma/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "east-douglas-ma"

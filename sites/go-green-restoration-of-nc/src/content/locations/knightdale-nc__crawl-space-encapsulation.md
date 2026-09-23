@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "140bfd9fc0195a75"
-generated_at: "2026-09-20T17:29:41.936295+00:00"
+generated_at: "2026-09-23T14:11:44.842211+00:00"
 manual_override: false
 internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/knightdale-nc/", "/service-areas/knightdale-nc/fire-damage-restoration/", "/service-areas/knightdale-nc/mold-remediation/", "/service-areas/archer-lodge-nc/crawl-space-encapsulation/", "/service-areas/clayton-nc/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Knightdale", "url": "/service-areas/knightdale-nc/"}, {"name": "Crawl Space Encapsulation"}]

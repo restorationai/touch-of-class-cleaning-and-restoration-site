@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "a1a777edca1918f9"
-generated_at: "2026-09-20T17:29:34.978779+00:00"
+generated_at: "2026-09-23T14:11:38.316942+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/crystal-springs-fl/", "/service-areas/crystal-springs-fl/fire-damage-restoration/", "/service-areas/crystal-springs-fl/mold-remediation/", "/service-areas/anna-maria-fl/emergency-board-up-tarping/", "/service-areas/apollo-beach-fl/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Crystal Springs", "url": "/service-areas/crystal-springs-fl/"}, {"name": "Emergency Board-Up and Tarping"}]

@@ -7,10 +7,10 @@ primary_keyword: "restoration services villa park"
 secondary_keywords: ["villa park restoration company", "damage restoration villa park", "villa park disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "6795fdd15900fd4c"
-generated_at: "2026-09-21T14:13:09.468268+00:00"
+plan_hash: "0b0448d04cdf102d"
+generated_at: "2026-09-23T14:11:36.160618+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/villa-park-ca/fire-damage-restoration/", "/service-areas/villa-park-ca/mold-remediation/", "/service-areas/villa-park-ca/water-damage-restoration/", "/service-areas/villa-park-ca/sewage-cleanup/", "/service-areas/villa-park-ca/storm-damage-restoration/", "/service-areas/villa-park-ca/water-cleanup/", "/service-areas/villa-park-ca/general-contracting/", "/service-areas/villa-park-ca/emergency-board-up-tarping/", "/service-areas/villa-park-ca/air-duct-cleaning/", "/service-areas/villa-park-ca/contents-restoration/", "/service-areas/villa-park-ca/carpet-cleaning/", "/service-areas/villa-park-ca/post-construction-cleaning/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/villa-park-ca/fire-damage-restoration/", "/service-areas/villa-park-ca/mold-remediation/", "/service-areas/villa-park-ca/roofing/", "/service-areas/villa-park-ca/water-damage-restoration/", "/service-areas/villa-park-ca/emergency-plumbing/", "/service-areas/villa-park-ca/sewage-cleanup/", "/service-areas/villa-park-ca/storm-damage-restoration/", "/service-areas/villa-park-ca/water-cleanup/", "/service-areas/villa-park-ca/general-contracting/", "/service-areas/villa-park-ca/emergency-board-up-tarping/", "/service-areas/villa-park-ca/odor-removal/", "/service-areas/villa-park-ca/water-leak-detection/", "/service-areas/villa-park-ca/air-duct-cleaning/", "/service-areas/villa-park-ca/contents-restoration-storage/", "/service-areas/villa-park-ca/contents-restoration/", "/service-areas/villa-park-ca/carpet-cleaning/", "/service-areas/villa-park-ca/post-construction-cleaning/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Villa Park"}]
 faq: []
 area_slug: "villa-park-ca"

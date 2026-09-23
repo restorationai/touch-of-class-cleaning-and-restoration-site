@@ -7,10 +7,10 @@ primary_keyword: "soot removal mcfarland"
 secondary_keywords: ["soot cleaning", "soot residue removal", "post-fire soot cleanup", "soot damage cleanup", "soot wall cleaning"]
 search_intent: "local_specialty"
 priority: 4.9
-plan_hash: "24ea19e0ce770d80"
-generated_at: "2026-09-20T14:13:26.552629+00:00"
+plan_hash: "b4eba401221a1428"
+generated_at: "2026-09-23T14:11:55.994130+00:00"
 manual_override: false
-internal_links: ["/services/soot-removal/", "/service-areas/mcfarland-ca/", "/service-areas/mcfarland-ca/fire-damage-restoration/", "/service-areas/mcfarland-ca/home-remodeling/", "/service-areas/arvin-ca/soot-removal/", "/service-areas/buttonwillow-ca/soot-removal/", "/contact/"]
+internal_links: ["/services/soot-removal/", "/service-areas/mcfarland-ca/", "/service-areas/mcfarland-ca/fire-damage-restoration/", "/service-areas/mcfarland-ca/home-remodeling/", "/service-areas/arvin-ca/soot-removal/", "/service-areas/bear-valley-springs-ca/soot-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McFarland", "url": "/service-areas/mcfarland-ca/"}, {"name": "Soot Removal"}]
 faq: []
 area_slug: "mcfarland-ca"

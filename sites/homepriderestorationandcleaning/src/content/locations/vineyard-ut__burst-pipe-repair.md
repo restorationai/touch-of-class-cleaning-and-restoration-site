@@ -7,10 +7,10 @@ primary_keyword: "burst pipe cleanup and repair vineyard"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
 priority: 5.6
-plan_hash: "bd32ee34f01ec10c"
-generated_at: "2026-09-20T14:13:18.719615+00:00"
+plan_hash: "71774fc2dfe09aed"
+generated_at: "2026-09-23T14:11:49.729711+00:00"
 manual_override: false
-internal_links: ["/services/burst-pipe-repair/", "/service-areas/vineyard-ut/", "/service-areas/vineyard-ut/fire-damage-restoration/", "/service-areas/vineyard-ut/mold-remediation/", "/service-areas/american-fork-ut/burst-pipe-repair/", "/service-areas/cedar-fort-ut/burst-pipe-repair/", "/contact/"]
+internal_links: ["/services/burst-pipe-repair/", "/service-areas/vineyard-ut/", "/service-areas/vineyard-ut/fire-damage-restoration/", "/service-areas/vineyard-ut/mold-remediation/", "/service-areas/alpine-ut/burst-pipe-repair/", "/service-areas/american-fork-ut/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Vineyard", "url": "/service-areas/vineyard-ut/"}, {"name": "Burst Pipe Cleanup and Repair"}]
 faq: []
 area_slug: "vineyard-ut"

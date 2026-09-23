@@ -7,10 +7,10 @@ primary_keyword: "carpet cleaning weedpatch"
 secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "carpet stain removal", "commercial carpet cleaning", "carpet sanitization"]
 search_intent: "local_specialty"
 priority: 2.8
-plan_hash: "925483f6896f3c15"
-generated_at: "2026-09-20T14:13:26.544814+00:00"
+plan_hash: "088538de9ac28f48"
+generated_at: "2026-09-23T14:11:55.967549+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/weedpatch-ca/", "/service-areas/weedpatch-ca/fire-damage-restoration/", "/service-areas/weedpatch-ca/home-remodeling/", "/service-areas/arvin-ca/carpet-cleaning/", "/service-areas/buttonwillow-ca/carpet-cleaning/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/weedpatch-ca/", "/service-areas/weedpatch-ca/fire-damage-restoration/", "/service-areas/weedpatch-ca/home-remodeling/", "/service-areas/arvin-ca/carpet-cleaning/", "/service-areas/bear-valley-springs-ca/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Weedpatch", "url": "/service-areas/weedpatch-ca/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "weedpatch-ca"

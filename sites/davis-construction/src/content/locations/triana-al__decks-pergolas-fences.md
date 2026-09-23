@@ -7,10 +7,10 @@ primary_keyword: "decks, pergolas and fences triana"
 secondary_keywords: ["deck builder", "deck installation", "pergola builder", "fence installation", "outdoor structure contractor"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "fe4bf10ece7f09b6"
-generated_at: "2026-09-20T19:36:51.361571+00:00"
+plan_hash: "94ab83ee8109a4ca"
+generated_at: "2026-09-23T14:11:32.854356+00:00"
 manual_override: false
-internal_links: ["/services/decks-pergolas-fences/", "/service-areas/triana-al/", "/service-areas/triana-al/home-remodeling/", "/service-areas/triana-al/roofing/", "/service-areas/athens-al/decks-pergolas-fences/", "/service-areas/gurley-al/decks-pergolas-fences/", "/contact/"]
+internal_links: ["/services/decks-pergolas-fences/", "/service-areas/triana-al/", "/service-areas/triana-al/home-remodeling/", "/service-areas/triana-al/roofing/", "/service-areas/arab-al/decks-pergolas-fences/", "/service-areas/ardmore-al/decks-pergolas-fences/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Triana", "url": "/service-areas/triana-al/"}, {"name": "Decks, Pergolas and Fences"}]
 faq: []
 area_slug: "triana-al"

@@ -8,7 +8,7 @@ secondary_keywords: ["home renovation", "whole home remodel", "interior remodeli
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "ab8492a4976bb0fd"
-generated_at: "2026-09-22T20:18:17.662006+00:00"
+generated_at: "2026-09-23T14:11:32.881067+00:00"
 manual_override: false
 internal_links: ["/services/home-remodeling/", "/service-areas/hartselle-al/", "/service-areas/hartselle-al/roofing/", "/service-areas/hartselle-al/decks-pergolas-fences/", "/service-areas/arab-al/home-remodeling/", "/service-areas/ardmore-al/home-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hartselle", "url": "/service-areas/hartselle-al/"}, {"name": "Home Remodeling"}]

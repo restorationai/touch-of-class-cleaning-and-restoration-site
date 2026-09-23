@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration sachse"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "09692f829d0a9cb4"
-generated_at: "2026-09-20T20:42:20.725072+00:00"
+plan_hash: "51a26b055395c007"
+generated_at: "2026-09-23T14:12:04.487708+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/sachse-tx/", "/service-areas/sachse-tx/mold-remediation/", "/service-areas/sachse-tx/water-damage-restoration/", "/service-areas/allen-tx/fire-damage-restoration/", "/service-areas/caddo-mills-tx/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/sachse-tx/", "/service-areas/sachse-tx/mold-remediation/", "/service-areas/sachse-tx/roofing/", "/service-areas/allen-tx/fire-damage-restoration/", "/service-areas/caddo-mills-tx/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sachse", "url": "/service-areas/sachse-tx/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "sachse-tx"

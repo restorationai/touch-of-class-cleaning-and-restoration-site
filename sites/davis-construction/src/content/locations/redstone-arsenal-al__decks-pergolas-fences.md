@@ -7,10 +7,10 @@ primary_keyword: "decks, pergolas and fences redstone arsenal"
 secondary_keywords: ["deck builder", "deck installation", "pergola builder", "fence installation", "outdoor structure contractor"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "ffba1c7fed7288aa"
-generated_at: "2026-09-20T14:13:03.668328+00:00"
+plan_hash: "99d098b94e110d16"
+generated_at: "2026-09-23T14:11:32.830074+00:00"
 manual_override: false
-internal_links: ["/services/decks-pergolas-fences/", "/service-areas/redstone-arsenal-al/", "/service-areas/redstone-arsenal-al/home-remodeling/", "/service-areas/redstone-arsenal-al/roofing/", "/service-areas/athens-al/decks-pergolas-fences/", "/service-areas/harvest-al/decks-pergolas-fences/", "/contact/"]
+internal_links: ["/services/decks-pergolas-fences/", "/service-areas/redstone-arsenal-al/", "/service-areas/redstone-arsenal-al/home-remodeling/", "/service-areas/redstone-arsenal-al/roofing/", "/service-areas/arab-al/decks-pergolas-fences/", "/service-areas/ardmore-al/decks-pergolas-fences/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Redstone Arsenal", "url": "/service-areas/redstone-arsenal-al/"}, {"name": "Decks, Pergolas and Fences"}]
 faq: []
 area_slug: "redstone-arsenal-al"

@@ -36,13 +36,15 @@
     "ga4_measurement_id": "G-EGE48LYQVZ"
   },
   "services": [
-    "water-damage-restoration",
-    "mold-remediation",
-    "fire-damage-restoration",
-    "storm-damage-restoration",
-    "sewage-cleanup",
     "biohazard-cleanup",
-    "contents-restoration"
+    "contents-restoration",
+    "contents-restoration-storage",
+    "fire-damage-restoration",
+    "mold-remediation",
+    "odor-removal",
+    "sewage-cleanup",
+    "storm-damage-restoration",
+    "water-damage-restoration"
   ],
   "service_areas": [
     {

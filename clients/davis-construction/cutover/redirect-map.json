@@ -1,6 +1,15 @@
 {
- "generated_at": "2026-08-12T15:44:00+00:00",
+ "generated_at": "2026-09-23T14:31:23+00:00",
  "domain": "davisconstructioncontractors.com",
- "routes": 79,
- "map": {}
+ "routes": 296,
+ "map": {
+  "/case-studies": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/service-areas/madison-al/home-remodeling": {
+   "target": "/services/home-remodeling/",
+   "how": "claude"
+  }
+ }
 }

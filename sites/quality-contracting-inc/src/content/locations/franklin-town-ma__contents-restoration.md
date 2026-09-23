@@ -8,7 +8,7 @@ secondary_keywords: ["contents pack-out", "contents cleaning", "belongings resto
 search_intent: "local_service"
 priority: 3.5
 plan_hash: "9927a431d5d373c7"
-generated_at: "2026-09-22T14:28:31.548371+00:00"
+generated_at: "2026-09-23T14:11:58.562434+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration/", "/service-areas/franklin-town-ma/", "/service-areas/franklin-town-ma/fire-damage-restoration/", "/service-areas/franklin-town-ma/mold-remediation/", "/service-areas/bellingham-ma/contents-restoration/", "/service-areas/east-douglas-ma/contents-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Franklin Town", "url": "/service-areas/franklin-town-ma/"}, {"name": "Contents Restoration and Storage"}]

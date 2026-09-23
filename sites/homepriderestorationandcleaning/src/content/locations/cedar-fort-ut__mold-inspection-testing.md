@@ -7,10 +7,10 @@ primary_keyword: "mold inspection and testing cedar fort"
 secondary_keywords: ["mold inspection", "mold testing", "indoor air quality testing", "mold spore testing", "mold assessment"]
 search_intent: "local_health"
 priority: 5.6
-plan_hash: "bad0d46293d8e4a6"
-generated_at: "2026-09-20T14:13:18.738057+00:00"
+plan_hash: "35985afe007c9aa1"
+generated_at: "2026-09-23T14:11:49.769092+00:00"
 manual_override: false
-internal_links: ["/services/mold-inspection-testing/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-fort-ut/fire-damage-restoration/", "/service-areas/cedar-fort-ut/mold-remediation/", "/service-areas/american-fork-ut/mold-inspection-testing/", "/service-areas/cedar-hills-ut/mold-inspection-testing/", "/contact/"]
+internal_links: ["/services/mold-inspection-testing/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-fort-ut/fire-damage-restoration/", "/service-areas/cedar-fort-ut/mold-remediation/", "/service-areas/alpine-ut/mold-inspection-testing/", "/service-areas/american-fork-ut/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Cedar Fort", "url": "/service-areas/cedar-fort-ut/"}, {"name": "Mold Inspection and Testing"}]
 faq: []
 area_slug: "cedar-fort-ut"

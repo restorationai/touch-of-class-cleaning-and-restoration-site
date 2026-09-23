@@ -8,7 +8,7 @@ secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitizati
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "c0ae6e52b0193af4"
-generated_at: "2026-09-21T14:13:09.472861+00:00"
+generated_at: "2026-09-23T14:11:36.227033+00:00"
 manual_override: false
 internal_links: ["/services/air-duct-cleaning/", "/service-areas/villa-park-ca/", "/service-areas/villa-park-ca/fire-damage-restoration/", "/service-areas/villa-park-ca/mold-remediation/", "/service-areas/anaheim-ca/air-duct-cleaning/", "/service-areas/chino-ca/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Villa Park", "url": "/service-areas/villa-park-ca/"}, {"name": "Air Duct Cleaning"}]

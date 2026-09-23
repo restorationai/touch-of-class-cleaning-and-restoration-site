@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration eastvale"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "df1d1c9bd89283ca"
-generated_at: "2026-09-20T14:13:06.376964+00:00"
+plan_hash: "0bbe7f18ebb05f4e"
+generated_at: "2026-09-23T14:11:36.179534+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/eastvale-ca/", "/service-areas/eastvale-ca/mold-remediation/", "/service-areas/eastvale-ca/water-damage-restoration/", "/service-areas/anaheim-ca/fire-damage-restoration/", "/service-areas/chino-ca/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/eastvale-ca/", "/service-areas/eastvale-ca/mold-remediation/", "/service-areas/eastvale-ca/roofing/", "/service-areas/anaheim-ca/fire-damage-restoration/", "/service-areas/chino-ca/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Eastvale", "url": "/service-areas/eastvale-ca/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "eastvale-ca"

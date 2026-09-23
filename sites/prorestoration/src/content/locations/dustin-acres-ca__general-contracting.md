@@ -7,10 +7,10 @@ primary_keyword: "renovations, remodels and general contracting dustin acres"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "56e5b175203a1f30"
-generated_at: "2026-09-20T14:13:26.551141+00:00"
+plan_hash: "402cbd9c880f7a6f"
+generated_at: "2026-09-23T14:11:55.983744+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/dustin-acres-ca/", "/service-areas/dustin-acres-ca/fire-damage-restoration/", "/service-areas/dustin-acres-ca/home-remodeling/", "/service-areas/arvin-ca/general-contracting/", "/service-areas/buttonwillow-ca/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/dustin-acres-ca/", "/service-areas/dustin-acres-ca/fire-damage-restoration/", "/service-areas/dustin-acres-ca/home-remodeling/", "/service-areas/arvin-ca/general-contracting/", "/service-areas/bear-valley-springs-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Dustin Acres", "url": "/service-areas/dustin-acres-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]
 faq: []
 area_slug: "dustin-acres-ca"

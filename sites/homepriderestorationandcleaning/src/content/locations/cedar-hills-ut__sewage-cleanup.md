@@ -7,10 +7,10 @@ primary_keyword: "sewage cleanup and sanitization cedar hills"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "421ec9c2e739dcf3"
-generated_at: "2026-09-20T14:13:18.733896+00:00"
+plan_hash: "11b4372675550628"
+generated_at: "2026-09-23T14:11:49.763240+00:00"
 manual_override: false
-internal_links: ["/services/sewage-cleanup/", "/service-areas/cedar-hills-ut/", "/service-areas/cedar-hills-ut/fire-damage-restoration/", "/service-areas/cedar-hills-ut/mold-remediation/", "/service-areas/american-fork-ut/sewage-cleanup/", "/service-areas/cedar-fort-ut/sewage-cleanup/", "/contact/"]
+internal_links: ["/services/sewage-cleanup/", "/service-areas/cedar-hills-ut/", "/service-areas/cedar-hills-ut/fire-damage-restoration/", "/service-areas/cedar-hills-ut/mold-remediation/", "/service-areas/alpine-ut/sewage-cleanup/", "/service-areas/american-fork-ut/sewage-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Cedar Hills", "url": "/service-areas/cedar-hills-ut/"}, {"name": "Sewage Cleanup and Sanitization"}]
 faq: []
 area_slug: "cedar-hills-ut"

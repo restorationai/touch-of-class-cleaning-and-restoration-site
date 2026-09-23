@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "2c5f9a62fa9545fc"
-generated_at: "2026-09-20T14:13:23.243171+00:00"
+generated_at: "2026-09-23T14:11:54.113444+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/lakeland-south-wa/", "/service-areas/lakeland-south-wa/fire-damage-restoration/", "/service-areas/lakeland-south-wa/mold-remediation/", "/service-areas/algona-wa/mold-inspection-testing/", "/service-areas/auburn-wa/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lakeland South", "url": "/service-areas/lakeland-south-wa/"}, {"name": "Mold Inspection and Testing"}]

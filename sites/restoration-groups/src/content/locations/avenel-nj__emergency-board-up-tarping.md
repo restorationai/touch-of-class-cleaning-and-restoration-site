@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "6c295fe9c6b66aef"
-generated_at: "2026-09-20T14:13:45.354238+00:00"
+generated_at: "2026-09-23T14:12:06.569727+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/avenel-nj/", "/service-areas/avenel-nj/fire-damage-restoration/", "/service-areas/avenel-nj/mold-remediation/", "/service-areas/bayonne-nj/emergency-board-up-tarping/", "/service-areas/bloomfield-nj/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Avenel", "url": "/service-areas/avenel-nj/"}, {"name": "Emergency Board-Up and Tarping"}]

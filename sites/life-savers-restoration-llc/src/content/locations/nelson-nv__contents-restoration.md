@@ -8,7 +8,7 @@ secondary_keywords: ["contents pack-out", "contents cleaning", "belongings resto
 search_intent: "local_service"
 priority: 3.5
 plan_hash: "03b0c943905eb036"
-generated_at: "2026-09-20T14:13:21.543868+00:00"
+generated_at: "2026-09-23T14:11:52.253560+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration/", "/service-areas/nelson-nv/", "/service-areas/nelson-nv/fire-damage-restoration/", "/service-areas/nelson-nv/mold-remediation/", "/service-areas/blue-diamond-nv/contents-restoration/", "/service-areas/boulder-city-nv/contents-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Nelson", "url": "/service-areas/nelson-nv/"}, {"name": "Contents Restoration and Storage"}]

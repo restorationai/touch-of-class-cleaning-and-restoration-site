@@ -16,18 +16,23 @@ const sectionHeading =
   (service ? `${service} in ${city}: Service Coverage` : `Serving ${city} and Surrounding Neighborhoods`);
 
 // "Serving {City} from our {HQ} office" when the page city isn't our home city.
-const remote = brand.primaryCity && city && brand.primaryCity.toLowerCase() !== city.toLowerCase();
+// The OFFICE is addressCity/addressState (where we physically are), not
+// primaryCity (what we market hardest) — those differ for cross-border
+// clients like DISS (Farrell PA office, Youngstown OH target).
+const hqCity = brand.addressCity || brand.primaryCity;
+const hqState = brand.addressState || brand.primaryState;
+const remote = hqCity && city && hqCity.toLowerCase() !== city.toLowerCase();
 const servingLine = remote
-  ? `Serving ${city} from our ${brand.primaryCity}, ${brand.primaryState} office`
+  ? `Serving ${city} from our ${hqCity}, ${hqState} office`
   : `Serving ${city} and surrounding neighborhoods`;
 
 // Free Google Maps embed of the client's REAL Business Profile — no API key needed,
 // so it always renders (the old Embed-API path showed nothing without a key). Name-
 // first query so Google matches the GBP and shows the business info card + rating.
-const mapQuery = encodeURIComponent(`${brand.displayName} ${brand.primaryCity} ${brand.primaryState}`);
+const mapQuery = encodeURIComponent(`${brand.displayName} ${hqCity} ${hqState}`);
 const embedSrc = `https://www.google.com/maps?q=${mapQuery}&output=embed`;
 
-const fullAddress = `${brand.streetAddress}, ${brand.primaryCity}, ${brand.primaryState} ${brand.postalCode}`;
+const fullAddress = `${brand.streetAddress}, ${hqCity}, ${hqState} ${brand.postalCode}`;
 const directionsHref = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(fullAddress)}`;
 
 const clean = (v: string) => v && !v.includes("{{") ? v : "";

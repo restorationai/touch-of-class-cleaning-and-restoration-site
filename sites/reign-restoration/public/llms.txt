@@ -2,35 +2,61 @@
 
 > 24/7 restoration services in Royse City, TX.
 
-Reign Restoration (Reign Restoration) is a professional restoration contractor serving Royse City, TX and surrounding areas. We provide 24/7 emergency response for water, fire, mold, storm, biohazard, and reconstruction services. Phone: (214) 304-0621 · Email: jerrott@reign-restoration.com.
+Reign Restoration (Reign Restoration) is a professional restoration contractor serving Royse City, TX and surrounding areas since . We provide 24/7 emergency response for water, fire, mold, storm, biohazard, and reconstruction services. Phone: (214) 304-0621 · Email: jerrott@reign-restoration.com.
 
 ## Site index
 
 This file is intended for AI assistants and language models to efficiently ingest the structure and content of this website. The full list of pages is in the sitemap at https://reign-restoration.com/sitemap-index.xml.
 
 ### Core service pages
-- [Water Damage Restoration](https://reign-restoration.com/services/water-damage-restoration/)
-- [Fire Damage Restoration](https://reign-restoration.com/services/fire-damage-restoration/)
-- [Mold Remediation](https://reign-restoration.com/services/mold-remediation/)
-- [Storm Damage Restoration](https://reign-restoration.com/services/storm-damage-restoration/)
-- [Renovations, Remodels and General Contracting](https://reign-restoration.com/services/general-contracting/)
 - [Contents Restoration and Storage](https://reign-restoration.com/services/contents-restoration/)
+- [Contents Restoration & Storage](https://reign-restoration.com/services/contents-restoration-storage/)
+- [Fire Damage Restoration](https://reign-restoration.com/services/fire-damage-restoration/)
+- [Renovations, Remodels and General Contracting](https://reign-restoration.com/services/general-contracting/)
+- [Mold Remediation](https://reign-restoration.com/services/mold-remediation/)
+- [Odor Removal and Deodorization](https://reign-restoration.com/services/odor-removal/)
+- [Roofing Installation and Replacement](https://reign-restoration.com/services/roofing/)
+- [Storm Damage Restoration](https://reign-restoration.com/services/storm-damage-restoration/)
+- [Water Damage Restoration](https://reign-restoration.com/services/water-damage-restoration/)
 
 ### Service area pages
 - [Royse City, TX](https://reign-restoration.com/service-areas/royse-city-tx/)
 - [Rockwall, TX](https://reign-restoration.com/service-areas/rockwall-tx/)
+- [Fate, TX](https://reign-restoration.com/service-areas/fate-tx/)
 - [Rowlett, TX](https://reign-restoration.com/service-areas/rowlett-tx/)
-- [Greenville, TX](https://reign-restoration.com/service-areas/greenville-tx/)
 - [Wylie, TX](https://reign-restoration.com/service-areas/wylie-tx/)
 - [Garland, TX](https://reign-restoration.com/service-areas/garland-tx/)
 - [Mesquite, TX](https://reign-restoration.com/service-areas/mesquite-tx/)
+- [Dallas, TX](https://reign-restoration.com/service-areas/dallas-tx/)
+- [Richardson, TX](https://reign-restoration.com/service-areas/richardson-tx/)
+- [Plano, TX](https://reign-restoration.com/service-areas/plano-tx/)
+- [Allen, TX](https://reign-restoration.com/service-areas/allen-tx/)
+- [McKinney, TX](https://reign-restoration.com/service-areas/mckinney-tx/)
+- [Frisco, TX](https://reign-restoration.com/service-areas/frisco-tx/)
+- [Highland Park, TX](https://reign-restoration.com/service-areas/highland-park-tx/)
+- [University Park, TX](https://reign-restoration.com/service-areas/university-park-tx/)
+- [Greenville, TX](https://reign-restoration.com/service-areas/greenville-tx/)
 - [Terrell, TX](https://reign-restoration.com/service-areas/terrell-tx/)
-- [Fate, TX](https://reign-restoration.com/service-areas/fate-tx/)
+- [Nevada, TX](https://reign-restoration.com/service-areas/nevada-tx/)
+- [Union Valley, TX](https://reign-restoration.com/service-areas/union-valley-tx/)
+- [Josephine, TX](https://reign-restoration.com/service-areas/josephine-tx/)
+- [Lavon, TX](https://reign-restoration.com/service-areas/lavon-tx/)
+- [McLendon-Chisholm, TX](https://reign-restoration.com/service-areas/mclendon-chisholm-tx/)
+- [Caddo Mills, TX](https://reign-restoration.com/service-areas/caddo-mills-tx/)
+- [Poetry, TX](https://reign-restoration.com/service-areas/poetry-tx/)
+- [Heath, TX](https://reign-restoration.com/service-areas/heath-tx/)
+- [Farmersville, TX](https://reign-restoration.com/service-areas/farmersville-tx/)
+- [Sachse, TX](https://reign-restoration.com/service-areas/sachse-tx/)
+- [Lucas, TX](https://reign-restoration.com/service-areas/lucas-tx/)
+- [Murphy, TX](https://reign-restoration.com/service-areas/murphy-tx/)
 
 ### Resources
 - [Blog](https://reign-restoration.com/blog/): Restoration guides and local resources
 - [About](https://reign-restoration.com/about/): Company background and credentials
 - [Contact](https://reign-restoration.com/contact/): Phone, email, and service request form
+
+### Official profiles
+(profiles listed in page schema)
 - [Emergency](https://reign-restoration.com/emergency/): 24/7 emergency water damage response
 
 ## Key facts
