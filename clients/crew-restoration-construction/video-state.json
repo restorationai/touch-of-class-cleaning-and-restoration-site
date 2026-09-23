@@ -1,7 +1,7 @@
 {
   "last_kind": "geo",
-  "cycle_pos": 2,
-  "geo_cursor": 1,
+  "cycle_pos": 0,
+  "geo_cursor": 2,
   "history": [
     {
       "ts": "2026-09-21T16:26:41.879006+00:00",
@@ -18,6 +18,14 @@
       "service": "water-damage-restoration",
       "city": "Sioux Falls",
       "youtube_id": "q-pm783U0io"
+    },
+    {
+      "ts": "2026-09-23T16:06:02.579037+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "asbestos-abatement",
+      "city": "Brookings",
+      "youtube_id": "1Eq0tCGX064"
     }
   ]
 }
