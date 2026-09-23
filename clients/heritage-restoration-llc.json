@@ -13,10 +13,10 @@
     "url_count": 177,
     "generated_at": "2026-09-22T22:46:04.341960+00:00"
   },
-  "updated_at": "2026-09-23T00:47:06.933314+00:00",
+  "updated_at": "2026-09-23T01:18:29.216718+00:00",
   "indexnow_key": "3b72b7d994eb4282be2336f424f637e3",
   "build": {
-    "scaffolded_at": "2026-09-22T22:46:21.490247+00:00",
+    "scaffolded_at": "2026-09-23T01:18:29.216431+00:00",
     "github_repo": "restorationai/heritage-restoration-llc-site",
     "pages_project": "rankai-heritage-restoration-llc",
     "starter_version": "0.1.0",
@@ -26,7 +26,7 @@
     "last_pushed_staging_at": "2026-09-17T23:24:39.587564+00:00",
     "last_pushed_main_at": "2026-09-23T00:47:06.933296+00:00"
   },
-  "build_status": "pushed_main",
+  "build_status": "scaffolded",
   "audit": {
     "last_audit_at": "2026-09-18T23:40:00Z",
     "last_audit_verdict": "amber",
