@@ -7,10 +7,17 @@ export const brand = {
   displayName: "California Restoration West ",
   shortName: "California Restoration West ",
   legalName: "California Restoration West ",
+  // Registered DBA / trade name — filled by rename_site_sync.py the moment
+  // the state approves the client's DBA filing (empty until then). When set,
+  // the footer carries the "[legal] doing business as [DBA]" line and schema
+  // declares it as the business name, so Google/BrightLocal find the new
+  // name corroborated on the site before and during the GBP rename.
+  dbaName: "",
   domain: "californiarestorationwest.com",
   canonicalUrl: "https://californiarestorationwest.com",
   phone: "(805) 290-7292",
   phoneRaw: "+18052907292",
+  hideMobileHeaderCall: false,
   // Sitewide call-tracking number (2026-08-24). When BOTH fields are set,
   // a tiny inline script in BaseLayout swaps every visible phone mention
   // and tel: link to this number AFTER the page renders. The HTML source,
@@ -35,14 +42,14 @@ export const brand = {
   postalCode: "93004",
   lat: "34.4458248",
   lng: "-119.0779359",
-  placeId: "",
+  placeId: "ChIJx7cmNM8b-ioRFlPXDWY8C-A",
   googleCid: "",
   imagesBase: "https://images.californiarestorationwest.com",
   googleMapsApiKey: "",
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "G-5DKZE0DK8C",
   clarityProjectId: "",
-  logoUrl: "/images/logo.png",
+  logoUrl: "/images/logo.webp",
   licenseNumbers: [] as string[],
   licenseAuthority: "",
   // State license-verification page — the footer links the license number here.
@@ -54,23 +61,20 @@ export const brand = {
   certifications: ["IICRC WRT (WATER)", "IICRC AMRT (MOLD)", "IICRC ASD (STRUCTURAL DRYING)", "IICRC CERTIFIED FIRM", "OSHA TRAINED"] as string[],
   trustBadges: ["IICRC Certified Firm", "Licensed & Insured", "24/7 Emergency Service", "Locally Owned & Operated"] as string[],
   jobPhotos: [] as string[],
-  sameAsUrls: ["https://www.facebook.com/people/CAlifornia-REstoration-West/61583226071533/", "https://www.yelp.com/biz/california-restoration-west-ventura", "https://homeguide.com/ca/ventura/water-damage-restoration/california-restoration-west-bWIQJ-q7t"] as string[],
+  sameAsUrls: ["https://www.yelp.com/biz/california-restoration-west-ventura", "https://www.facebook.com/people/CAlifornia-REstoration-West/61583226071533/", "https://homeguide.com/ca/ventura/water-damage-restoration/california-restoration-west-bWIQJ-q7t"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
-  gbpRatingValue: "5.0",
-  gbpReviewCount: "8",
-  gbpReviews: [
-    { author: "Atila", rating: 5, text: "Jimmy provided excellent water restoration service. He was professional, responsive, and did a great job from start to finish. I really appreciate his attention to detail and customer service. Highly recommended!", when: "September 2026" },
-    { author: "Jeffrey", rating: 5, text: "Jimmy is Very Professional and knowledgeable. One of the best in the industry.", when: "November 2025" },
-    { author: "Garret", rating: 5, text: "Jim did an amazing job taking care of my clients water damage problem. They were happy with results and the knowledge he provided. I only recommend him as he’s experienced, professional, and shows up prompt.", when: "November 2025" },
-    { author: "Davis", rating: 5, text: "Jimmy and his team were great to work with — professional, responsive, and did excellent work here in the Thousand Oaks/Conejo Valley area. Highly recommend them for anyone looking for reliable, quality service.", when: "November 2025" },
-    { author: "Adan", rating: 5, text: "Excellent work! Lots of experience and professionalism!", when: "November 2025" },
-  ] as { author: string; rating: number; text: string; when: string }[],
+  gbpRatingValue: "",
+  gbpReviewCount: "",
+  gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Ventura, CA.",
   ctaLabel: "24/7 Emergency Line",
   // Vertical trade-identity copy — resolved at scaffold time from
   // templates/{vertical}/vertical-tokens.json (see scripts/verticals.py).
   // Components must use these instead of hardcoding a trade phrase.
+  // vertical gates layout too: restoration is call-first, so the homepage
+  // hero renders NO estimate form there (Santino 2026-09-11).
+  vertical: "restoration",
   tradeNoun: "restoration",
   specialistPhrase: "Damage Restoration Specialists",
   announcementSuffix: "24/7 Emergency Response",
