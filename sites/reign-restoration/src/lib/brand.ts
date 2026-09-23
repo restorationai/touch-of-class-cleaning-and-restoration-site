@@ -7,12 +7,24 @@ export const brand = {
   displayName: "Reign Restoration",
   shortName: "Reign Restoration",
   legalName: "Reign Restoration",
+  // Registered DBA / trade name — filled by rename_site_sync.py the moment
+  // the state approves the client's DBA filing (empty until then). When set,
+  // the footer carries the "[legal] doing business as [DBA]" line and schema
+  // declares it as the business name, so Google/BrightLocal find the new
+  // name corroborated on the site before and during the GBP rename.
+  dbaName: "",
   domain: "reign-restoration.com",
   canonicalUrl: "https://reign-restoration.com",
   phone: "(214) 304-0621",
   phoneRaw: "+12143040621",
-  // Sitewide call-tracking display number (DNI — see BaseLayout).
-  // Schema/NAP keep the canonical number above.
+  hideMobileHeaderCall: false,
+  // Sitewide call-tracking number (2026-08-24). When BOTH fields are set,
+  // a tiny inline script in BaseLayout swaps every visible phone mention
+  // and tel: link to this number AFTER the page renders. The HTML source,
+  // the JSON-LD in schema.ts, and anything crawlers/citation-checkers read
+  // keep the canonical NAP number above — humans dial the tracked line,
+  // Google sees consistent NAP. Empty = feature off (default at scaffold;
+  // filled by the call-tracking provisioning step).
   trackingPhone: "(903) 527-7868",
   trackingPhoneRaw: "+19035277868",
   email: "jerrott@reign-restoration.com",
@@ -20,18 +32,24 @@ export const brand = {
   foundedYear: "",
   primaryCity: "Royse City",
   primaryState: "TX",
+  // primaryCity/primaryState = the #1 MARKETING city (headlines, coverage
+  // copy). addressCity/addressState = where the business PHYSICALLY is.
+  // They are usually the same and often diverge (DISS: Farrell PA office,
+  // Youngstown OH target) — only the address pair may go in a PostalAddress.
+  addressCity: "Royse City",
+  addressState: "TX",
   streetAddress: "6691 TX- 276 STE C",
   postalCode: "75189",
   lat: "32.9761045",
   lng: "-96.331334",
-  placeId: "",
+  placeId: "ChIJXzVQsb7lS4YR7G33273qh8c",
   googleCid: "",
   imagesBase: "https://images.reign-restoration.com",
   googleMapsApiKey: "",
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "G-NBFCYGQXJY",
   clarityProjectId: "",
-  logoUrl: "/images/logo.png", // real logo from branding bucket (CO-1785771354136/brand); switch to images.{domain}/brand/logo.png at production cutover once the domain + R2 bucket exist
+  logoUrl: "/images/logo.png",
   licenseNumbers: ["MRC2276"] as string[],
   licenseAuthority: "",
   // State license-verification page — the footer links the license number here.
@@ -43,24 +61,20 @@ export const brand = {
   certifications: ["IICRC WRT (WATER)", "IICRC CERTIFIED FIRM", "IICRC AMRT (MOLD)", "IICRC FSRT (FIRE & SMOKE)"] as string[],
   trustBadges: ["IICRC Certified Firm", "Licensed & Insured", "24/7 Emergency Service", "Locally Owned & Operated"] as string[],
   jobPhotos: [] as string[],
-  sameAsUrls: ["https://www.facebook.com/61591068899558/", "https://maps.google.com/maps?cid=14377718436563742188", "https://www.yelp.com/biz/reign-restoration-royse-city", "https://www.bing.com/maps?ss=ypid.YN8BC576B5532C1A42", "https://homeguide.com/tx/rockwall/water-damage-restoration/reign-restoration-tZsy5e6u9"] as string[],
+  sameAsUrls: ["https://maps.google.com/maps?cid=14377718436563742188", "https://www.yelp.com/biz/reign-restoration-royse-city", "https://www.facebook.com/61591068899558/", "https://www.bing.com/maps?ss=ypid.YN8BC576B5532C1A42", "https://homeguide.com/tx/rockwall/water-damage-restoration/reign-restoration-tZsy5e6u9"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
-  gbpRatingValue: "5.0",
-  gbpReviewCount: "27",
-  gbpReviews: [
-    { author: "Walter", rating: 5, text: "Jerrott was very attentive to our needs during the 10 months that it took to rebuild after major water damage to our home. His subs were good and he actively supervised their work. We'd recommend Reign without any reservations to anyone.", when: "February 2026" },
-    { author: "Laura", rating: 5, text: "Efficient, great quality of craftsmanship, exceeded expectations when time to complete work. One of the most sincere, honest and timely communicator!!! Just outstanding all around.", when: "January 2026" },
-    { author: "Jasmine", rating: 5, text: "I couldn’t be happier with the results. Very professional, incredibly knowledgeable, and the craftsmanship exceeded my expectations. It’s rare to find this level of quality and care these days. Highly recommended!", when: "January 2026" },
-    { author: "Michael", rating: 5, text: "Exceptional experience from start to finish. The level of professionalism was outstanding, communication was clear, and their knowledge really showed at every step. The craftsmanship was top-notch, with great attention to detail. Highly recommend to anyone looking for quality work done right.", when: "January 2026" },
-    { author: "Libba", rating: 5, text: "Jerrot Gray was a delight to work with as our contractor. He is a man of integrity. Anytime we called or texted with a question he would get back to us immediately. We highly recommend him.", when: "January 2026" },
-    { author: "Marlin", rating: 5, text: "I can’t say enough good things about Reign Restoration. Every project they have worked on has been completed with outstanding quality. They are professional, reliable, and take pride in their work. Communication is always clear, and they go the extra mile to make sure everything is done right the…", when: "August 2025" },
-  ] as { author: string; rating: number; text: string; when: string }[],
+  gbpRatingValue: "",
+  gbpReviewCount: "",
+  gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Royse City, TX.",
   ctaLabel: "24/7 Emergency Line",
   // Vertical trade-identity copy — resolved at scaffold time from
   // templates/{vertical}/vertical-tokens.json (see scripts/verticals.py).
   // Components must use these instead of hardcoding a trade phrase.
+  // vertical gates layout too: restoration is call-first, so the homepage
+  // hero renders NO estimate form there (Santino 2026-09-11).
+  vertical: "restoration",
   tradeNoun: "restoration",
   specialistPhrase: "Damage Restoration Specialists",
   announcementSuffix: "24/7 Emergency Response",
