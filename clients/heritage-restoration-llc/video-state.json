@@ -1,7 +1,7 @@
 {
   "last_kind": "geo",
-  "cycle_pos": 2,
-  "geo_cursor": 1,
+  "cycle_pos": 0,
+  "geo_cursor": 2,
   "history": [
     {
       "ts": "2026-09-21T16:54:45.401488+00:00",
@@ -18,6 +18,14 @@
       "service": "water-damage-restoration",
       "city": "Little Falls",
       "youtube_id": "Wxh9-GY_bKg"
+    },
+    {
+      "ts": "2026-09-23T16:17:09.219552+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "water-damage-restoration",
+      "city": "St. Cloud",
+      "youtube_id": "In6zUxpVESE"
     }
   ]
 }
