@@ -1,7 +1,7 @@
 {
   "last_kind": "geo",
-  "cycle_pos": 2,
-  "geo_cursor": 1,
+  "cycle_pos": 0,
+  "geo_cursor": 2,
   "history": [
     {
       "ts": "2026-09-21T17:05:54.182636+00:00",
@@ -18,6 +18,14 @@
       "service": "water-damage-restoration",
       "city": "Auburn",
       "youtube_id": "w3Xd8WERA8k"
+    },
+    {
+      "ts": "2026-09-23T16:22:38.356150+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "air-duct-cleaning",
+      "city": "Worcester",
+      "youtube_id": "evVmDh6fSwg"
     }
   ]
 }
