@@ -45,5 +45,19 @@ export const workPairs: BeforeAfterPair[] = [
     beforeAlt: "Bedroom with collapsed ceiling and storm debris before repair",
     afterSrc: "/images/before-after/storm-after.webp",
     afterAlt: "Same bedroom with rebuilt ceiling after storm damage restoration",
+  },
+  {
+    label: "Mold Remediation",
+    beforeSrc: "/images/before-after/mold-before.webp",
+    beforeAlt: "Bathroom wall with spreading mold before remediation",
+    afterSrc: "/images/before-after/mold-after.webp",
+    afterAlt: "Same bathroom wall clean and repainted after mold remediation",
+  },
+  {
+    label: "Reconstruction & Rebuild",
+    beforeSrc: "/images/before-after/reconstruction-before.webp",
+    beforeAlt: "Room gutted to the studs before reconstruction",
+    afterSrc: "/images/before-after/reconstruction-after.webp",
+    afterAlt: "Same room fully rebuilt and finished after reconstruction",
   }
 ];

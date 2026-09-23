@@ -17,6 +17,7 @@ export const brand = {
   canonicalUrl: "https://fixofutah.com",
   phone: "(801) 930-9750",
   phoneRaw: "+18019309750",
+  hideMobileHeaderCall: false,
   // Sitewide call-tracking number (2026-08-24). When BOTH fields are set,
   // a tiny inline script in BaseLayout swaps every visible phone mention
   // and tel: link to this number AFTER the page renders. The HTML source,
