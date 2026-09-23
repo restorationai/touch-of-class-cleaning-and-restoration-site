@@ -1,7 +1,7 @@
 {
   "last_kind": "geo",
-  "cycle_pos": 2,
-  "geo_cursor": 1,
+  "cycle_pos": 0,
+  "geo_cursor": 2,
   "history": [
     {
       "ts": "2026-09-21T17:11:27.089527+00:00",
@@ -18,6 +18,14 @@
       "service": "water-damage-restoration",
       "city": "Kenilworth",
       "youtube_id": "nA9fXtN07KA"
+    },
+    {
+      "ts": "2026-09-23T16:28:07.049066+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "appliance-leak-cleanup",
+      "city": "Union",
+      "youtube_id": "WYw_kUsoVfw"
     }
   ]
 }
