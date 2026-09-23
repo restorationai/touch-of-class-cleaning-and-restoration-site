@@ -1,7 +1,7 @@
 {
   "last_kind": "geo",
-  "cycle_pos": 2,
-  "geo_cursor": 5,
+  "cycle_pos": 0,
+  "geo_cursor": 6,
   "history": [
     {
       "ts": "2026-07-08T17:27:14.746164+00:00",
@@ -66,6 +66,14 @@
       "service": "water-damage-restoration",
       "city": "Encinitas",
       "youtube_id": "W3dOTJU_BWA"
+    },
+    {
+      "ts": "2026-09-23T16:11:59.178805+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "water-damage-restoration",
+      "city": "La Mesa",
+      "youtube_id": "03cYT_MSPW0"
     }
   ]
 }
