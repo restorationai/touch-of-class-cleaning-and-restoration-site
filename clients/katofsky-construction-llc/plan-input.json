@@ -182,6 +182,11 @@
       "city": "Wilkinsburg",
       "state": "PA",
       "slug": "wilkinsburg-pa"
+    },
+    {
+      "city": "Forest Hills",
+      "state": "PA",
+      "slug": "forest-hills-pa"
     }
   ],
   "template": "restoration",
