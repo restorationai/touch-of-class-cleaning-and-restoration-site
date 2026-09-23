@@ -18,6 +18,10 @@ export const brand = {
   phone: "+12282845200",
   phoneRaw: "+112282845200",
   hideMobileHeaderCall: false,
+  // A2P/SMS-registration legal entity. When set, the estimate forms render
+  // the carrier-compliant consent checkbox naming this entity (exact wording
+  // matters to reviewers — do not paraphrase). Empty = generic consent only.
+  smsConsentEntity: "MULTIGLOBAL SERVICES LLC",
   // Sitewide call-tracking number (2026-08-24). When BOTH fields are set,
   // a tiny inline script in BaseLayout swaps every visible phone mention
   // and tel: link to this number AFTER the page renders. The HTML source,
@@ -61,7 +65,7 @@ export const brand = {
   certifications: ["IICRC CERTIFIED FIRM", "IICRC WRT (WATER)", "IICRC ASD (STRUCTURAL DRYING)", "EPA LEAD-SAFE CERTIFIED", "IICRC FSRT (FIRE & SMOKE)", "IICRC AMRT (MOLD)", "OSHA TRAINED", "FORTIFIED-BUILDING-ROOFING-MS-WINDSTORM-CERTIFIED"] as string[],
   trustBadges: ["IICRC Certified Firm", "Licensed & Insured", "24/7 Emergency Service", "Locally Owned & Operated"] as string[],
   jobPhotos: [] as string[],
-  sameAsUrls: ["https://maps.google.com/maps?cid=2198109827142676174", "https://www.homelyft.net/"] as string[],
+  sameAsUrls: [] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "5.0",

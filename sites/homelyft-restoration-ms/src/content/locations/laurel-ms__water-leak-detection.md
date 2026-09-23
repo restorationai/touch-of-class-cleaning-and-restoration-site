@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "4cc2087087d4e268"
-generated_at: "2026-09-23T14:11:47.011220+00:00"
+generated_at: "2026-09-23T20:11:15.257846+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/laurel-ms/", "/service-areas/laurel-ms/fire-damage-restoration/", "/service-areas/laurel-ms/mold-remediation/", "/service-areas/agricola-ms/water-leak-detection/", "/service-areas/bay-st-louis-ms/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Laurel", "url": "/service-areas/laurel-ms/"}, {"name": "Water Leak Detection"}]

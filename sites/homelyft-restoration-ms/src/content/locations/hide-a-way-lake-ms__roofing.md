@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "256b81b92d745a97"
-generated_at: "2026-09-23T14:11:46.977698+00:00"
+generated_at: "2026-09-23T20:11:15.226771+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/hide-a-way-lake-ms/", "/service-areas/hide-a-way-lake-ms/fire-damage-restoration/", "/service-areas/hide-a-way-lake-ms/mold-remediation/", "/service-areas/agricola-ms/roofing/", "/service-areas/bay-st-louis-ms/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hide-A-Way Lake", "url": "/service-areas/hide-a-way-lake-ms/"}, {"name": "Roofing Installation and Replacement"}]

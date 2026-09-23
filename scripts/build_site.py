@@ -127,6 +127,11 @@ DEFAULTS = {
     # wide-logo clients (Frontline, Heritage) hide the header call button on
     # mobile — the sticky bottom bar covers calling there. Default: visible.
     "BRAND_HIDE_MOBILE_HEADER_CALL": "false",
+    # A2P/SMS-registration legal entity (HomeLyft/RingCentral 2026-09-23).
+    # When set (brand.sms_consent_entity), estimate forms render the
+    # carrier-compliant consent checkbox naming this entity — template-owned
+    # so a scaffold refresh can never clobber it again. Empty = generic.
+    "BRAND_SMS_CONSENT_ENTITY": "",
     "BRAND_CTA_FILL": "#171717",        # cta.DEFAULT — every call-to-action fill
     "BRAND_CTA_FG": "#ffffff",          # cta.fg      — the label ON that fill
     "BRAND_CTA_HOVER": "#000000",       # cta.hover
@@ -672,6 +677,26 @@ def _starter_protected(rel: str) -> bool:
     )
 
 
+def _site_protected_extra(site_dir: Path) -> list[str]:
+    """Per-SITE protected path prefixes (2026-09-23, FFS ProcessSection).
+
+    Some client customizations are one-off component edits a template token
+    can't reasonably carry (a removed process step, a bespoke section). List
+    them in sites/<slug>/.rank-ai/protected-paths.txt (one path prefix per
+    line, relative to the site root, '#' comments OK) and every future
+    scaffold refresh leaves them alone — same contract as _starter_protected
+    but scoped to the one site that earned the exception."""
+    f = site_dir / ".rank-ai" / "protected-paths.txt"
+    if not f.exists():
+        return []
+    out = []
+    for line in f.read_text().splitlines():
+        line = line.strip()
+        if line and not line.startswith("#"):
+            out.append(line)
+    return out
+
+
 def copy_starter(site_dir: Path) -> None:
     if not site_dir.exists():
         site_dir.mkdir(parents=True, exist_ok=True)
@@ -680,6 +705,7 @@ def copy_starter(site_dir: Path) -> None:
     # Existing site: refresh CODE from the starter, preserve PRODUCT.
     # (node_modules / .astro survive too — never part of the starter.)
     kept = 0
+    extra = _site_protected_extra(site_dir)
     for child in STARTER_DIR.iterdir():
         target = site_dir / child.name
         if child.is_file():
@@ -691,7 +717,8 @@ def copy_starter(site_dir: Path) -> None:
                 continue
             rel = f.relative_to(STARTER_DIR).as_posix()
             dst = site_dir / rel
-            if _starter_protected(rel) and dst.exists():
+            if (_starter_protected(rel)
+                    or any(rel.startswith(p) for p in extra)) and dst.exists():
                 kept += 1
                 continue
             dst.parent.mkdir(parents=True, exist_ok=True)
@@ -718,6 +745,14 @@ def apply_light_overlay(site_dir: Path) -> int:
         if not f.is_file():
             continue
         rel = f.relative_to(LIGHT_OVERLAY_DIR)
+        rel_posix = rel.as_posix()
+        # Same protections as copy_starter — the overlay must not resurrect
+        # product files or per-site customized components either.
+        if ((_starter_protected(rel_posix)
+             or any(rel_posix.startswith(p)
+                    for p in _site_protected_extra(site_dir)))
+                and (site_dir / rel).exists()):
+            continue
         dst = site_dir / rel
         dst.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(f, dst)

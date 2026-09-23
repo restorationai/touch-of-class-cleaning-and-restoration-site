@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "147764abbea0d850"
-generated_at: "2026-09-23T14:11:47.015972+00:00"
+generated_at: "2026-09-23T20:11:15.263245+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/sandersville-ms/", "/service-areas/sandersville-ms/fire-damage-restoration/", "/service-areas/sandersville-ms/mold-remediation/", "/service-areas/agricola-ms/roofing/", "/service-areas/bay-st-louis-ms/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sandersville", "url": "/service-areas/sandersville-ms/"}, {"name": "Roofing Installation and Replacement"}]

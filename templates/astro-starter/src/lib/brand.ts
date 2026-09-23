@@ -18,6 +18,10 @@ export const brand = {
   phone: "{{BRAND_PHONE}}",
   phoneRaw: "{{BRAND_PHONE_RAW}}",
   hideMobileHeaderCall: {{BRAND_HIDE_MOBILE_HEADER_CALL}},
+  // A2P/SMS-registration legal entity. When set, the estimate forms render
+  // the carrier-compliant consent checkbox naming this entity (exact wording
+  // matters to reviewers — do not paraphrase). Empty = generic consent only.
+  smsConsentEntity: "{{BRAND_SMS_CONSENT_ENTITY}}",
   // Sitewide call-tracking number (2026-08-24). When BOTH fields are set,
   // a tiny inline script in BaseLayout swaps every visible phone mention
   // and tel: link to this number AFTER the page renders. The HTML source,

@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "1692bc9c996b43d5"
-generated_at: "2026-09-23T14:11:46.960192+00:00"
+generated_at: "2026-09-23T20:11:15.209148+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/lyman-ms/", "/service-areas/lyman-ms/fire-damage-restoration/", "/service-areas/lyman-ms/mold-remediation/", "/service-areas/agricola-ms/roofing/", "/service-areas/bay-st-louis-ms/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lyman", "url": "/service-areas/lyman-ms/"}, {"name": "Roofing Installation and Replacement"}]

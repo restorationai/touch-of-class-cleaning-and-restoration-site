@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "7b5f3d4cba67bc3b"
-generated_at: "2026-09-23T14:11:47.012559+00:00"
+generated_at: "2026-09-23T20:11:15.259411+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/moselle-ms/", "/service-areas/moselle-ms/fire-damage-restoration/", "/service-areas/moselle-ms/mold-remediation/", "/service-areas/agricola-ms/roofing/", "/service-areas/bay-st-louis-ms/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Moselle", "url": "/service-areas/moselle-ms/"}, {"name": "Roofing Installation and Replacement"}]

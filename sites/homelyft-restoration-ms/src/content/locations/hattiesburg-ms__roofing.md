@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "25cbede57b27d590"
-generated_at: "2026-09-23T14:11:46.937373+00:00"
+generated_at: "2026-09-23T20:11:15.170773+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/hattiesburg-ms/", "/service-areas/hattiesburg-ms/fire-damage-restoration/", "/service-areas/hattiesburg-ms/mold-remediation/", "/service-areas/agricola-ms/roofing/", "/service-areas/bay-st-louis-ms/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hattiesburg", "url": "/service-areas/hattiesburg-ms/"}, {"name": "Roofing Installation and Replacement"}]

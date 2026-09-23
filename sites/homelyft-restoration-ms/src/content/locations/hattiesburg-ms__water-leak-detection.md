@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "4c36212504808cda"
-generated_at: "2026-09-23T14:11:46.937765+00:00"
+generated_at: "2026-09-23T20:11:15.171239+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/hattiesburg-ms/", "/service-areas/hattiesburg-ms/fire-damage-restoration/", "/service-areas/hattiesburg-ms/mold-remediation/", "/service-areas/agricola-ms/water-leak-detection/", "/service-areas/bay-st-louis-ms/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hattiesburg", "url": "/service-areas/hattiesburg-ms/"}, {"name": "Water Leak Detection"}]

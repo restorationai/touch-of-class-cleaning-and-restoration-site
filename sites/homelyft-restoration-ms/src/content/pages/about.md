@@ -17,6 +17,32 @@ rendered: true
 ---
 HomeLyft Restoration MS is based in Gulfport and built around a straightforward idea: when water is coming through a ceiling or smoke has settled into every surface of a home, the people who show up need to know exactly what they're doing. That standard shapes every hire, every piece of equipment, and every job we take on along the Mississippi Gulf Coast.
 
+## A message from the president
+
+<img src="/images/team/terry-robinson.webp" alt="Terry Robinson, President of HomeLyft Restoration" width="260" style="float:right;width:260px;max-width:45%;height:auto;border-radius:12px;margin:0 0 1rem 1.5rem;" />
+
+**Terry Robinson, President — HomeLyft Restoration**
+
+Nobody calls a restoration company on a good day. By the time you reach us, something in your home or business has gone wrong, and you need to know two things: who is going to fix it, and whether you can trust them to see it through.
+
+Like many longtime Gulf Coast residents, I have been on the other end of that call. It is the reason I know what matters in the first hour, the first week, and the last walkthrough.
+
+HomeLyft was built to fix the part of this industry that fails people most. Most restoration companies dry the house and leave. Then you go find a contractor, and when something goes wrong, each blames the other. We do the mitigation and the rebuild under one roof, with one team and one point of contact, from the first call to the day you have your home back.
+
+The culture inside this company comes down to three things I expect from every person who wears our name.
+
+**Craftsmanship.** We restore a home the way we would want ours restored. If something is wrong, we say so and we fix it.
+
+**Accountability.** We own the outcome. Not part of it. All of it. When a job is hard, when the adjuster is difficult, when the schedule slips, the standard still holds.
+
+**Trust.** We show up when we said we would. We communicate before you have to ask. We do what we said we would do.
+
+I have spent my entire career in the construction business in Mississippi. My goal is simple: Leave it better than I found it. That applies to every house or business we walk into, and it is the mission of the entire HomeLyft Team.
+
+When you call us, you will get a straight answer and a team that finishes what it starts.
+
+*Terry Robinson, President, HomeLyft Restoration*
+
 ## What we do
 
 Most days, the work starts with a phone call from someone who is stressed, unsure what to do next, and looking for a straight answer. A pipe failed overnight. A storm pushed water under the slab. A kitchen fire left soot on walls two rooms away. We come out, assess what actually happened, not just what's visible, and walk the homeowner through a realistic plan before a single piece of equipment is staged.

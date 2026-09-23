@@ -13,7 +13,7 @@ export default {
     extend: {
       colors: {
         dark: {
-          DEFAULT: "#181616",
+          DEFAULT: "#0f172a",
           50: "#f9fafb",
           100: "#f3f4f6",
           200: "#e5e7eb",
@@ -59,7 +59,7 @@ export default {
         accent: {
           // Same pair rule as cta — btn-accent renders text-accent-fg on this.
           DEFAULT: "#2fb9dd",
-          fg: "#181616",
+          fg: "#0f172a",
         },
         muted: {
           DEFAULT: "#4b5563",

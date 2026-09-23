@@ -43,12 +43,18 @@ function localBusiness(ctx: PageSchemaContext) {
     "@context": "https://schema.org",
     "@type": isCityService && IS_247 ? ["LocalBusiness", "EmergencyService"] : "LocalBusiness",
     "@id": entityId,
-    name: brand.displayName,
+    // When a registered DBA exists it IS the business name (matches the
+    // GBP + every citation BrightLocal builds); the pre-rename brand stays
+    // discoverable as alternateName so Google links old and new identities.
+    name: brand.dbaName || brand.displayName,
     legalName: brand.legalName,
-    alternateName: brand.shortName,
+    alternateName: brand.dbaName
+      ? [brand.displayName, brand.shortName].filter(
+          (n, i, a) => n !== brand.dbaName && a.indexOf(n) === i)
+      : brand.shortName,
     url: brand.canonicalUrl,
     telephone: brand.phoneRaw,
-    ...(brand.email ? { email: brand.email } : {}),
+    email: brand.email,
     image: brand.logoUrl,
     logo: brand.logoUrl,
     priceRange: "$$",
@@ -105,12 +111,16 @@ function organization() {
     "@context": "https://schema.org",
     "@type": "Organization",
     "@id": `${brand.canonicalUrl}/#organization`,
-    name: brand.legalName,
-    alternateName: brand.shortName,
+    name: brand.dbaName || brand.legalName,
+    legalName: brand.legalName,
+    alternateName: brand.dbaName
+      ? [brand.displayName, brand.shortName].filter(
+          (n, i, a) => n !== brand.dbaName && a.indexOf(n) === i)
+      : brand.shortName,
     url: brand.canonicalUrl,
     logo: { "@type": "ImageObject", url: brand.logoUrl },
     telephone: brand.phoneRaw,
-    ...(brand.email ? { email: brand.email } : {}),
+    email: brand.email,
     foundingDate: brand.foundedYear,
     sameAs: brand.sameAsUrls,
   };

@@ -34,7 +34,15 @@
     "lng": -89.0586991,
     "place_id": "ChIJ5dJT_FQWnIgRzm4i4D1BgR4",
     "google_cid": "2198109827142676174",
-    "ga4_measurement_id": "G-CY001B6T82"
+    "ga4_measurement_id": "G-CY001B6T82",
+    "primary_color": "#e33e2e",
+    "dark_color": "#0f172a",
+    "cta_fill": "#e33e2e",
+    "cta_fg": "#ffffff",
+    "cta_hover": "#c02b1e",
+    "accent_color": "#1f3b63",
+    "accent_fg": "#ffffff",
+    "sms_consent_entity": "MULTIGLOBAL SERVICES LLC"
   },
   "services": [
     "asbestos-abatement",

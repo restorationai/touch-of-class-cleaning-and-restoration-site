@@ -44,7 +44,7 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `[]` | brand.same_as_urls (JSON-encoded array) | |
 | `` / `` | from GBP | `5.0` / `31` |
 | `24/7 restoration services in Gulfport, MS.` | brand.tagline | short marketing line |
-| `#171717` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
+| `#e33e2e` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
 | `Inter` / `Inter` | brand.fonts | `Inter` / `Inter` |
 | `/images/logo.png` / `HR` | derived; logo lives on the per-client R2 bucket | |
 | `https://images.homelyft.net` | `https://images.{domain}` | |

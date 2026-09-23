@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "30b1d1cbd3f187c2"
-generated_at: "2026-09-23T14:11:47.010864+00:00"
+generated_at: "2026-09-23T20:11:15.257416+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/laurel-ms/", "/service-areas/laurel-ms/fire-damage-restoration/", "/service-areas/laurel-ms/mold-remediation/", "/service-areas/agricola-ms/roofing/", "/service-areas/bay-st-louis-ms/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Laurel", "url": "/service-areas/laurel-ms/"}, {"name": "Roofing Installation and Replacement"}]

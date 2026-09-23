@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "b4c4b5b2af509d53"
-generated_at: "2026-09-23T14:11:46.963701+00:00"
+generated_at: "2026-09-23T20:11:15.212513+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/saucier-ms/", "/service-areas/saucier-ms/fire-damage-restoration/", "/service-areas/saucier-ms/mold-remediation/", "/service-areas/agricola-ms/roofing/", "/service-areas/bay-st-louis-ms/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Saucier", "url": "/service-areas/saucier-ms/"}, {"name": "Roofing Installation and Replacement"}]

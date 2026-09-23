@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "8147ec5da5eb3e79"
-generated_at: "2026-09-23T14:11:46.979508+00:00"
+generated_at: "2026-09-23T20:11:15.228373+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/lumberton-ms/", "/service-areas/lumberton-ms/fire-damage-restoration/", "/service-areas/lumberton-ms/mold-remediation/", "/service-areas/agricola-ms/roofing/", "/service-areas/bay-st-louis-ms/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lumberton", "url": "/service-areas/lumberton-ms/"}, {"name": "Roofing Installation and Replacement"}]

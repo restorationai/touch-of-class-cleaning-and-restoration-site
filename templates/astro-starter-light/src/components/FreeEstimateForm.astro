@@ -102,12 +102,21 @@ const {
         {/* Min-render-time token — set by the inline script below at page load. */}
         <input type="hidden" name="fets" value="" />
 
+        {brand.smsConsentEntity && (
+          <label class="flex items-start gap-2.5 text-xs leading-snug text-white/70 cursor-pointer">
+            <input type="checkbox" name="sms_consent" value="yes" class="mt-0.5 h-4 w-4 shrink-0 rounded border-white/30 accent-primary-600" />
+            <span>By checking this box, I consent to receive SMS messages from {brand.smsConsentEntity} related to Customer care or Marketing at the phone number provided above. The SMS frequency may vary. Data rates may apply. For assistance reply HELP. Reply STOP to opt out of receiving text messages. Please review our <a href="/privacy/" class="underline">Privacy Policy</a> and <a href="/terms/" class="underline">Terms &amp; Conditions</a>.</span>
+          </label>
+        )}
         <button
           type="submit"
           class="inline-flex items-center justify-center font-bold px-8 py-4 rounded-md transition-all text-lg shadow-lg bg-primary-600 text-white hover:bg-primary-700 disabled:opacity-60 disabled:cursor-not-allowed"
         >
           Get My Free Estimate
         </button>
+        {brand.smsConsentEntity && (
+          <p class="text-[11px] leading-snug text-white/50">Submitting this form or calling us is how you request service. If you check the SMS box above, our team will text you about your request from our business line. Message and data rates may apply; reply STOP any time to opt out.</p>
+        )}
 
         <p data-estimate-status class="hidden m-0 rounded-md px-4 py-3 text-base font-medium" role="status" aria-live="polite"></p>
       </form>

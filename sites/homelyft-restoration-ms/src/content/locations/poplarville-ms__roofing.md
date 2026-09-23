@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "9c77734831bdcc28"
-generated_at: "2026-09-23T14:11:46.981287+00:00"
+generated_at: "2026-09-23T20:11:15.230173+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/poplarville-ms/", "/service-areas/poplarville-ms/fire-damage-restoration/", "/service-areas/poplarville-ms/mold-remediation/", "/service-areas/agricola-ms/roofing/", "/service-areas/bay-st-louis-ms/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Poplarville", "url": "/service-areas/poplarville-ms/"}, {"name": "Roofing Installation and Replacement"}]

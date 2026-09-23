@@ -28,35 +28,38 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `Flood Solutions inc` | plan-input `brand.display_name` | `National Restoration Construction` |
 | `Flood Solutions inc` | plan-input `brand.short_name` | `NARESTCO` |
 | `Flood Solutions inc` | plan-input `brand.legal_name` | `National Restoration Construction LLC` |
-| `flood-solutions-inc.invalid` | client record `domain` | `narestco.com` |
-| `https://flood-solutions-inc.invalid` | derived | `https://narestco.com` |
+| `floodsolutionsinc.com` | client record `domain` | `narestco.com` |
+| `https://floodsolutionsinc.com` | derived | `https://narestco.com` |
 | `(586) 580-0197` / `+15865800197` | brand.phone | `(206) 883-0333` / `+12068830333` |
-| `cgeatches@yahoo.com` | brand.email | `info@narestco.com` |
+| `` | brand.email | `info@narestco.com` |
 | `24/7` | brand.hours | `24/7` |
 | `1996` | brand.founded_year | `2004` |
 | `Macomb` / `MI` | derived from primary area | `Federal Way` / `WA` |
-| `49118 Shannon Court` / `48042` | brand.street_address / brand.postal_code | |
+| `10153 Marine City Highway` / `48023` | brand.street_address / brand.postal_code | |
 | `` / `` | brand.lat / brand.lng | from GBP |
-| `` / `` | brand.place_id / brand.google_cid | from GBP |
+| `ChIJF_GiDO_gJIgR1VZPHRihQr4` / `` | brand.place_id / brand.google_cid | from GBP |
 | `[]` | brand.license_numbers (JSON-encoded array) | `["NATIORC792M6"]` |
 | `` / `` | brand.license_authority / brand.license_type | |
 | `[]` | brand.certifications (JSON-encoded array) | `["IICRC", "BBB Accredited"]` |
 | `[]` | brand.same_as_urls (JSON-encoded array) | |
 | `` / `` | from GBP | `5.0` / `31` |
 | `24/7 restoration services in Macomb, MI.` | brand.tagline | short marketing line |
-| `#171717` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
+| `#e63a41` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
 | `Inter` / `Inter` | brand.fonts | `Inter` / `Inter` |
-| `https://images.flood-solutions-inc.invalid/brand/logo.png` / `FS` | derived; logo lives on the per-client R2 bucket | |
-| `https://images.flood-solutions-inc.invalid` | `https://images.{domain}` | |
-| `- [Water Damage Restoration](https://flood-solutions-inc.invalid/services/water-damage-restoration/)` / `- [Macomb, MI](https://flood-solutions-inc.invalid/service-areas/macomb-mi/)
-- [Sterling Heights, MI](https://flood-solutions-inc.invalid/service-areas/sterling-heights-mi/)
-- [Warren, MI](https://flood-solutions-inc.invalid/service-areas/warren-mi/)
-- [Clinton Township, MI](https://flood-solutions-inc.invalid/service-areas/clinton-township-mi/)
-- [Troy, MI](https://flood-solutions-inc.invalid/service-areas/troy-mi/)
-- [Rochester Hills, MI](https://flood-solutions-inc.invalid/service-areas/rochester-hills-mi/)
-- [Shelby Township, MI](https://flood-solutions-inc.invalid/service-areas/shelby-township-mi/)
-- [Utica, MI](https://flood-solutions-inc.invalid/service-areas/utica-mi/)
-- [Chesterfield, MI](https://flood-solutions-inc.invalid/service-areas/chesterfield-mi/)` / `Available on request` / `Greater Macomb region` | computed at scaffold from plan + brand | |
+| `/images/logo.webp` / `FS` | derived; logo lives on the per-client R2 bucket | |
+| `https://images.floodsolutionsinc.com` | `https://images.{domain}` | |
+| `- [Water Damage Restoration](https://floodsolutionsinc.com/services/water-damage-restoration/)
+- [Sewage Cleanup and Sanitization](https://floodsolutionsinc.com/services/sewage-cleanup/)
+- [Emergency Water Cleanup](https://floodsolutionsinc.com/services/water-cleanup/)
+- [Fire Damage Restoration](https://floodsolutionsinc.com/services/fire-damage-restoration/)` / `- [Macomb, MI](https://floodsolutionsinc.com/service-areas/macomb-mi/)
+- [Sterling Heights, MI](https://floodsolutionsinc.com/service-areas/sterling-heights-mi/)
+- [Warren, MI](https://floodsolutionsinc.com/service-areas/warren-mi/)
+- [Clinton Township, MI](https://floodsolutionsinc.com/service-areas/clinton-township-mi/)
+- [Troy, MI](https://floodsolutionsinc.com/service-areas/troy-mi/)
+- [Rochester Hills, MI](https://floodsolutionsinc.com/service-areas/rochester-hills-mi/)
+- [Shelby Township, MI](https://floodsolutionsinc.com/service-areas/shelby-township-mi/)
+- [Utica, MI](https://floodsolutionsinc.com/service-areas/utica-mi/)
+- [Chesterfield, MI](https://floodsolutionsinc.com/service-areas/chesterfield-mi/)` / `Available on request` / `Greater Macomb region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

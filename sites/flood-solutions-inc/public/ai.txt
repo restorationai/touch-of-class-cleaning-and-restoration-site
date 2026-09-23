@@ -32,6 +32,6 @@ Disallow: /
 # AI training data summary
 # Site: https://floodsolutionsinc.com/
 # Maintainer: Flood Solutions inc
-# Contact: cgeatches@yahoo.com
+# Contact: 
 # Sitemap: https://floodsolutionsinc.com/sitemap-index.xml
 # LLM index: https://floodsolutionsinc.com/llms.txt
