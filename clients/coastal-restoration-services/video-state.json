@@ -1,7 +1,7 @@
 {
   "last_kind": "geo",
-  "cycle_pos": 2,
-  "geo_cursor": 1,
+  "cycle_pos": 0,
+  "geo_cursor": 2,
   "history": [
     {
       "ts": "2026-09-21T16:26:39.601839+00:00",
@@ -18,6 +18,14 @@
       "service": "water-damage-restoration",
       "city": "Los Olivos",
       "youtube_id": "u0sbUGd0iGA"
+    },
+    {
+      "ts": "2026-09-23T16:07:38.330298+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "biohazard-cleanup",
+      "city": "Santa Maria",
+      "youtube_id": "nCiePIcWk4Y"
     }
   ]
 }
