@@ -1,6 +1,6 @@
 {
-  "last_kind": "geo",
-  "cycle_pos": 0,
+  "last_kind": "blog",
+  "cycle_pos": 1,
   "geo_cursor": 2,
   "history": [
     {
@@ -26,6 +26,14 @@
       "service": "water-damage-restoration",
       "city": "Roseville",
       "youtube_id": "n18cXRg1Qos"
+    },
+    {
+      "ts": "2026-09-23T20:17:35.786264+00:00",
+      "kind": "blog",
+      "post": "home-remodeling-roseville",
+      "service": null,
+      "city": null,
+      "youtube_id": "0pTyAiLigf4"
     }
   ]
 }
