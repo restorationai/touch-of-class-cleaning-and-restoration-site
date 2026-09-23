@@ -1,6 +1,6 @@
 {
-  "last_kind": "geo",
-  "cycle_pos": 0,
+  "last_kind": "blog",
+  "cycle_pos": 1,
   "geo_cursor": 2,
   "history": [
     {
@@ -26,6 +26,14 @@
       "service": "water-damage-restoration",
       "city": "Tampa",
       "youtube_id": "3sIAruGbjxw"
+    },
+    {
+      "ts": "2026-09-23T19:38:12.609725+00:00",
+      "kind": "blog",
+      "post": "how-to-fix-water-damage-on-ceiling",
+      "service": null,
+      "city": null,
+      "youtube_id": "EFHVgZldSoM"
     }
   ]
 }
