@@ -1,7 +1,7 @@
 {
   "last_kind": "geo",
-  "cycle_pos": 2,
-  "geo_cursor": 1,
+  "cycle_pos": 0,
+  "geo_cursor": 2,
   "history": [
     {
       "ts": "2026-09-21T17:05:00.734265+00:00",
@@ -18,6 +18,14 @@
       "service": "water-damage-restoration",
       "city": "Royse City",
       "youtube_id": "Y69agB7BxNE"
+    },
+    {
+      "ts": "2026-09-23T16:25:10.169649+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "water-damage-restoration",
+      "city": "Rockwall",
+      "youtube_id": "B_iJ4JFajnQ"
     }
   ]
 }
