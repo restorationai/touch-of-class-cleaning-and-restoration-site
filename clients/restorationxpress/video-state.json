@@ -1,7 +1,7 @@
 {
-  "last_kind": "blog",
-  "cycle_pos": 1,
-  "geo_cursor": 2,
+  "last_kind": "geo",
+  "cycle_pos": 2,
+  "geo_cursor": 3,
   "history": [
     {
       "ts": "2026-07-29T18:41:07.106133+00:00",
@@ -34,6 +34,14 @@
       "service": null,
       "city": null,
       "youtube_id": "h_vfTQe9qdI"
+    },
+    {
+      "ts": "2026-09-23T20:04:26.955350+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "water-damage-restoration",
+      "city": "Cooper City",
+      "youtube_id": "7iVhU9fW4yg"
     }
   ]
 }
