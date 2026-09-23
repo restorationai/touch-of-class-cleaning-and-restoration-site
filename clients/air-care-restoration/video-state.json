@@ -1,6 +1,6 @@
 {
-  "last_kind": "geo",
-  "cycle_pos": 0,
+  "last_kind": "blog",
+  "cycle_pos": 1,
   "geo_cursor": 2,
   "history": [
     {
@@ -26,6 +26,14 @@
       "service": "water-damage-restoration",
       "city": "Clyde",
       "youtube_id": "S0lg7BoOdUQ"
+    },
+    {
+      "ts": "2026-09-23T19:30:03.640003+00:00",
+      "kind": "blog",
+      "post": "construction-site-cleanup",
+      "service": null,
+      "city": null,
+      "youtube_id": "stHATk5pO7I"
     }
   ]
 }
