@@ -1,7 +1,7 @@
 {
   "last_kind": "geo",
-  "cycle_pos": 2,
-  "geo_cursor": 1,
+  "cycle_pos": 0,
+  "geo_cursor": 2,
   "history": [
     {
       "ts": "2026-09-21T16:39:56.197822+00:00",
@@ -18,6 +18,14 @@
       "service": "water-damage-restoration",
       "city": "Lakewood",
       "youtube_id": "gCsg1TMXT6o"
+    },
+    {
+      "ts": "2026-09-23T16:13:30.845274+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "water-damage-restoration",
+      "city": "Tacoma",
+      "youtube_id": "sWYZXts0wHk"
     }
   ]
 }
