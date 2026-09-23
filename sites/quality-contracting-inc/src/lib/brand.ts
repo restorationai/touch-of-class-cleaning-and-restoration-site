@@ -7,46 +7,51 @@ export const brand = {
   displayName: "Quality Contracting, Inc.",
   shortName: "Quality Contracting, Inc.",
   legalName: "Quality Contracting, Inc.",
-  domain: "",
+  // Registered DBA / trade name — filled by rename_site_sync.py the moment
+  // the state approves the client's DBA filing (empty until then). When set,
+  // the footer carries the "[legal] doing business as [DBA]" line and schema
+  // declares it as the business name, so Google/BrightLocal find the new
+  // name corroborated on the site before and during the GBP rename.
+  dbaName: "",
+  domain: "qualitycontracting.us",
   canonicalUrl: "https://qualitycontracting.us",
   phone: "(508) 756-8800",
   phoneRaw: "+15087568800",
-  // Sitewide call-tracking display number (DNI — see BaseLayout).
-  // Schema/NAP keep the canonical number above.
+  hideMobileHeaderCall: false,
+  // Sitewide call-tracking number (2026-08-24). When BOTH fields are set,
+  // a tiny inline script in BaseLayout swaps every visible phone mention
+  // and tel: link to this number AFTER the page renders. The HTML source,
+  // the JSON-LD in schema.ts, and anything crawlers/citation-checkers read
+  // keep the canonical NAP number above — humans dial the tracked line,
+  // Google sees consistent NAP. Empty = feature off (default at scaffold;
+  // filled by the call-tracking provisioning step).
   trackingPhone: "(508) 355-3039",
   trackingPhoneRaw: "+15083553039",
   email: "info@qualitycontracting.us",
   hours: "24/7",
-  // Fran 2026-08-05: "We started almost 30 years ago and incorporated in 2001."
-  // Using the INCORPORATION year, which is the documented, verifiable one. The
-  // ~30-year figure is his recollection and is not something we can evidence,
-  // so it does not go on the site as a claim.
-  foundedYear: "2001",
+  foundedYear: "",
   primaryCity: "Auburn",
   primaryState: "MA",
+  // primaryCity/primaryState = the #1 MARKETING city (headlines, coverage
+  // copy). addressCity/addressState = where the business PHYSICALLY is.
+  // They are usually the same and often diverge (DISS: Farrell PA office,
+  // Youngstown OH target) — only the address pair may go in a PostalAddress.
+  addressCity: "Auburn",
+  addressState: "MA",
   streetAddress: "211 Southbridge Street",
   postalCode: "01501",
   lat: "42.1945465",
   lng: "-71.8358095",
-  placeId: "",
+  placeId: "ChIJ9wuzUNMF5IkR23w7vv0t_Hc",
   googleCid: "",
-  // No per-client images bucket provisioned — serve the brand hero fallback
-  // from the site itself (public/brand/hero.webp)
-  imagesBase: "",
+  imagesBase: "https://images.qualitycontracting.us",
   googleMapsApiKey: "",
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "G-G8PLTS9XDN",
   clarityProjectId: "",
-  logoUrl: "/images/logo-dark-bg.png",
-  // Fran's 08-28 email ("Quality contractor license and EIN"), confirmed on
-  // the 09-01 support call: licenses + EIN belong on the site. The EIN is a
-  // federal tax ID, not a contractor license, so it is kept out of the
-  // license-number list and rendered as its own labeled line (previously it
-  // showed as "#EIN 04-3553992" under the "License" heading).
-  licenseNumbers: ["MA CS-074311", "MA HIC 141641", "RI GC-15795",
-                   "CT HIC 0627494", "EPA NAT-25403-4", "Lead Safe LR002146"] as string[],
-  ein: "04-3553992",
-  licenseAuthority: "Licensed in MA, RI & CT",
+  logoUrl: "/images/logo.png",
+  licenseNumbers: [] as string[],
+  licenseAuthority: "",
   // State license-verification page — the footer links the license number here.
   licenseLookupUrl: "",
   licenseType: "",
@@ -54,23 +59,26 @@ export const brand = {
   // lets the TrustStrip show the badge before a license number is on file.
   licensedInsuredAttested: false as boolean,
   certifications: [] as string[],
-  trustBadges: ["24/7 Emergency Response", "25+ Years of Experience", "Commercial & Residential", "Serving MA, CT & RI"] as string[],
-  jobPhotos: [] as string[],
+  trustBadges: [] as string[],
+  jobPhotos: ["https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785180744028/job-photos/posted/r1788980315_sms-1785358224564-5c715e96.jpg", "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785180744028/job-photos/posted/r1788814538_gbp-AF1QipP_p1uc76KgQ_e_r5cWTb9_xiLVg11kKmv8wix7.jpg"] as string[],
   sameAsUrls: ["https://www.facebook.com/qualcon534/", "https://www.linkedin.com/company/quality-contracting-inc-", "https://maps.google.com/maps?cid=8645835952486055131", "https://www.yelp.com/biz/quality-contracting-auburn", "https://qualitycontracting.us/services/capital-projects/"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
-  gbpRatingValue: "4.6",
-  gbpReviewCount: "106",
-  gbpReviews: [
-    { author: "Peggy", rating: 4, text: "Derek was wonderful! We had an insurance claim from water damage. The work was well done.", when: "September 2026" },
-    { author: "Mark", rating: 5, text: "Quality Contracting updated our standard tub/shower to a walk in for my elderly father. They came when they said they would, the did everything they said they would and the charged me the reasonable cost that they said they would. Highly recommend.", when: "September 2026" },
-    { author: "Jane", rating: 5, text: "I highly recommend Quality Construction! When my condo suffered water damage Matt , Kale and a third person (sorry I don’t remember his name), provided outstanding support and expertise from start to finish.They worked carefully and thoroughly to dry and clean every affected area, while treating my…", when: "September 2026" },
-    { author: "Denise", rating: 5, text: "We had extensive flood damage at our home. Quality Contracting did the repairs for us and did an exceptional job", when: "September 2026" },
-    { author: "Jeannine", rating: 5, text: "Luis was wonderful! Explained everything and handled the our water leak professionally. Thank you!", when: "September 2026" },
-    { author: "Jacques", rating: 5, text: "We had a fire and the Quality team helped with the public adjustment valuation of the damage, getting the most complete value of our claim allow us to build back the way the house should be done. The managing carpenter did a great job at keeping the trades on schedule and in budget. We even…", when: "September 2026" },
-  ] as { author: string; rating: number; text: string; when: string }[],
-  tagline: "One Call Does It All. 24/7 restoration across Central Massachusetts.",
+  gbpRatingValue: "",
+  gbpReviewCount: "",
+  gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
+  tagline: "24/7 restoration services in Auburn, MA.",
   ctaLabel: "24/7 Emergency Line",
+  // Vertical trade-identity copy — resolved at scaffold time from
+  // templates/{vertical}/vertical-tokens.json (see scripts/verticals.py).
+  // Components must use these instead of hardcoding a trade phrase.
+  // vertical gates layout too: restoration is call-first, so the homepage
+  // hero renders NO estimate form there (Santino 2026-09-11).
+  vertical: "restoration",
+  tradeNoun: "restoration",
+  specialistPhrase: "Damage Restoration Specialists",
+  announcementSuffix: "24/7 Emergency Response",
+  homeAboutBlurb: "Quality Contracting, Inc. serves Auburn and the surrounding MA area with professional damage restoration for homes and businesses. From the first emergency call to the final walkthrough, our team manages the entire recovery — and we answer the phone 24/7, so help is on the way the moment something goes wrong.",
 } as const;
 
 export const entityId = `${brand.canonicalUrl}/#identity`;
