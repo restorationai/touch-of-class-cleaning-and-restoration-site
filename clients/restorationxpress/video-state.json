@@ -1,6 +1,6 @@
 {
-  "last_kind": "geo",
-  "cycle_pos": 0,
+  "last_kind": "blog",
+  "cycle_pos": 1,
   "geo_cursor": 2,
   "history": [
     {
@@ -26,6 +26,14 @@
       "service": "water-damage-restoration",
       "city": "Sunrise",
       "youtube_id": "Ttu34mAaPmY"
+    },
+    {
+      "ts": "2026-09-23T16:35:28.394066+00:00",
+      "kind": "blog",
+      "post": "mold-growth-timeline",
+      "service": null,
+      "city": null,
+      "youtube_id": "h_vfTQe9qdI"
     }
   ]
 }
