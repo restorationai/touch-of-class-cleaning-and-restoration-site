@@ -13750,6 +13750,95 @@ def cmd_selfcheck(_args) -> int:
     return 1 if fails else 0
 
 
+def _revision_batches_complete(dry_run: bool, state: dict,
+                               sent_log: dict) -> None:
+    """AUTO REVISION LOOP (Santino 2026-09-22, FFS/Will: four finished
+    batches sat on staging behind a human review gate for hours while
+    Will heard nothing). Client-REQUESTED revisions close themselves:
+    when a company's client-feedback [DEV] notes all resolve (and at
+    least one resolved in the last 48h), the site auto-promotes to the
+    branch the client sees and Monica sends the look-again message. The
+    human gate remains only where it belongs: agent-initiated changes,
+    confirm-first items, launches and spend."""
+    from datetime import timedelta
+    now = datetime.now(timezone.utc)
+    rows = _sb("GET", "/rest/v1/marketing_ops_notes"
+               "?body=ilike.*CLIENT FEEDBACK*"
+               "&body=ilike.*%5BDEV%5D*"
+               "&select=company_id,status,created_at&limit=500") or []
+    by_co: dict = {}
+    for r in rows:
+        by_co.setdefault(r["company_id"], []).append(r)
+    for cid, notes in by_co.items():
+        if any(n.get("status") == "open" for n in notes):
+            continue
+        recent = [n for n in notes if n.get("created_at")
+                  and (now - datetime.fromisoformat(
+                      str(n["created_at"]).replace("Z", "+00:00"))
+                      ) < timedelta(hours=48)]
+        if not recent:
+            continue
+        tag = f"rev:{cid}:{max(str(n['created_at']) for n in recent)[:16]}"
+        if tag in sent_log:
+            continue
+        slug = _company_slug(cid)
+        if not slug:
+            continue
+        comps = fetch_companies([cid])
+        company = comps.get(cid)
+        if not company or company_inactive(company):
+            continue
+        contact = resolve_contact(company)
+        if not contact:
+            continue
+        tz_name, _s = resolve_timezone(company, contact)
+        try:
+            from zoneinfo import ZoneInfo
+            hr = datetime.now(ZoneInfo(tz_name)).hour
+        except Exception:  # noqa: BLE001
+            hr = datetime.now(timezone.utc).hour - 7
+        if not (9 <= hr < 19):
+            print(f"  [rev-loop] {slug}: complete but {hr}:xx local — "
+                  "next run")
+            continue
+        ints = (company.get("integration_settings") or {})
+        if isinstance(ints, str):
+            try:
+                ints = json.loads(ints)
+            except json.JSONDecodeError:
+                ints = {}
+        url = str((ints.get("site_reveal") or {}).get("url")
+                  or f"https://rankai-{slug}.pages.dev").strip()
+        if dry_run:
+            print(f"  [rev-loop dry-run] {slug}: would promote + notify")
+            continue
+        import subprocess as _sp
+        from render_sweep import deploy_branch
+        br = deploy_branch(slug)
+        rc = _sp.run([sys.executable,
+                      str(Path(__file__).parent / "build_site.py"),
+                      "sync-deploy", "--slug", slug, "--branch", br,
+                      "--allow-dirty"], capture_output=True, text=True)
+        if rc.returncode != 0:
+            print(f"  [rev-loop] {slug}: promote FAILED — no notify "
+                  f"({rc.stdout[-120:]})")
+            continue
+        nm = str(contact.get("firstName") or "").strip()
+        body = ((f"Hey {nm}, " if nm else "Hey, ")
+                + "the changes you asked for are in. Take another look "
+                + f"here: {url} and tell us what you think.")
+        try:
+            res = send_message(contact, "sms", body, company=company)
+            record_sent_message(state, res)
+            sent_log[tag] = now.isoformat()
+            kv_set("doc-complete-sent", sent_log)
+            print(f"  [rev-loop] {slug}: promoted to {br} + client "
+                  "notified")
+        except SendBlocked as e:
+            print(f"  [rev-loop] {slug}: notify BLOCKED "
+                  f"({str(e)[:80]}) — next run retries")
+
+
 def cmd_docs_complete(args) -> int:
     """Phase 2.2 (Santino 2026-09-22): the revision loop closes itself.
     Phase 1 files an emailed doc's items as grouped notes carrying the
@@ -13769,11 +13858,10 @@ def cmd_docs_complete(args) -> int:
             continue
         key = (r["company_id"], m.group(1).strip())
         by_doc.setdefault(key, []).append(r.get("status") or "open")
-    if not by_doc:
-        print("docs-complete: no doc-sourced task groups on file")
-        return 0
     sent_log = kv_get("doc-complete-sent") or {}
     state = load_state()
+    if not by_doc:
+        print("docs-complete: no doc-sourced task groups on file")
     for (cid, fname), statuses in by_doc.items():
         tag = f"{cid}:{fname}"
         if tag in sent_log:
@@ -13834,6 +13922,7 @@ def cmd_docs_complete(args) -> int:
             print(f"  SENT updates-are-in for {fname} -> {cid}")
         except SendBlocked as e:
             print(f"  BLOCKED for {cid}: {str(e)[:100]}")
+    _revision_batches_complete(dry_run, state, sent_log)
     if not dry_run:
         save_state(state, dry_run=False)
     return 0
