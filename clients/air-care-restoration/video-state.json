@@ -1,7 +1,7 @@
 {
   "last_kind": "geo",
-  "cycle_pos": 2,
-  "geo_cursor": 1,
+  "cycle_pos": 0,
+  "geo_cursor": 2,
   "history": [
     {
       "ts": "2026-09-21T16:27:41.341169+00:00",
@@ -18,6 +18,14 @@
       "service": "water-damage-restoration",
       "city": "Sweetwater",
       "youtube_id": "khI9K23Si0A"
+    },
+    {
+      "ts": "2026-09-23T16:06:53.760081+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "water-damage-restoration",
+      "city": "Clyde",
+      "youtube_id": "S0lg7BoOdUQ"
     }
   ]
 }
