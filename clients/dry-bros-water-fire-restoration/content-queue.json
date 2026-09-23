@@ -385,7 +385,7 @@
     },
     {
       "id": "2026-09-18-how-long-does-water-damage-restoration-take-chicago",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-18T22:55:00Z",
       "written_at": "2026-09-23T00:45:48Z",
       "post_url": "https://drybros.com/blog/how-long-does-water-damage-restoration-take-chicago/",
@@ -455,7 +455,8 @@
           "context": "just drying. A full-scope job under the IICRC S500 standard includes: 1. **Emergency",
           "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
         }
-      ]
+      ],
+      "published_verified_at": "2026-09-23T00:47:08Z"
     },
     {
       "id": "2026-09-18-how-to-dry-out-a-flooded-basement-oak-park",
