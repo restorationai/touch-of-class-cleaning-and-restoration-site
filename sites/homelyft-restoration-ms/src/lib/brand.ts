@@ -65,7 +65,7 @@ export const brand = {
   certifications: ["IICRC CERTIFIED FIRM", "IICRC WRT (WATER)", "IICRC ASD (STRUCTURAL DRYING)", "EPA LEAD-SAFE CERTIFIED", "IICRC FSRT (FIRE & SMOKE)", "IICRC AMRT (MOLD)", "OSHA TRAINED", "FORTIFIED-BUILDING-ROOFING-MS-WINDSTORM-CERTIFIED"] as string[],
   trustBadges: ["IICRC Certified Firm", "Licensed & Insured", "24/7 Emergency Service", "Locally Owned & Operated"] as string[],
   jobPhotos: [] as string[],
-  sameAsUrls: [] as string[],
+  sameAsUrls: ["https://maps.google.com/maps?cid=2198109827142676174", "https://www.homelyft.net/"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "5.0",
