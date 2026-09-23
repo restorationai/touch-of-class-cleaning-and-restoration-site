@@ -11,15 +11,16 @@ Desert Valley Contracting Inc  (Desert Valley Contracting Inc ) is a professiona
 This file is intended for AI assistants and language models to efficiently ingest the structure and content of this website. The full list of pages is in the sitemap at https://desertvalleycontracting.net/sitemap-index.xml.
 
 ### Core service pages
-- [Water Damage Restoration](https://desertvalleycontracting.net/services/water-damage-restoration/)
-- [Fire Damage Restoration](https://desertvalleycontracting.net/services/fire-damage-restoration/)
-- [Mold Remediation](https://desertvalleycontracting.net/services/mold-remediation/)
-- [Storm Damage Restoration](https://desertvalleycontracting.net/services/storm-damage-restoration/)
-- [Renovations, Remodels and General Contracting](https://desertvalleycontracting.net/services/general-contracting/)
-- [Sewage Cleanup and Sanitization](https://desertvalleycontracting.net/services/sewage-cleanup/)
 - [Biohazard Cleanup](https://desertvalleycontracting.net/services/biohazard-cleanup/)
 - [Contents Restoration & Storage](https://desertvalleycontracting.net/services/contents-restoration-storage/)
+- [Fire Damage Restoration](https://desertvalleycontracting.net/services/fire-damage-restoration/)
+- [Renovations, Remodels and General Contracting](https://desertvalleycontracting.net/services/general-contracting/)
+- [Mold Remediation](https://desertvalleycontracting.net/services/mold-remediation/)
+- [Odor Removal and Deodorization](https://desertvalleycontracting.net/services/odor-removal/)
+- [Sewage Cleanup and Sanitization](https://desertvalleycontracting.net/services/sewage-cleanup/)
+- [Storm Damage Restoration](https://desertvalleycontracting.net/services/storm-damage-restoration/)
 - [Emergency Water Cleanup](https://desertvalleycontracting.net/services/water-cleanup/)
+- [Water Damage Restoration](https://desertvalleycontracting.net/services/water-damage-restoration/)
 
 ### Service area pages
 - [North Las Vegas, NV](https://desertvalleycontracting.net/service-areas/north-las-vegas-nv/)
@@ -31,6 +32,17 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Enterprise, NV](https://desertvalleycontracting.net/service-areas/enterprise-nv/)
 - [Summerlin, NV](https://desertvalleycontracting.net/service-areas/summerlin-nv/)
 - [Boulder City, NV](https://desertvalleycontracting.net/service-areas/boulder-city-nv/)
+- [Winchester, NV](https://desertvalleycontracting.net/service-areas/winchester-nv/)
+- [Whitney, NV](https://desertvalleycontracting.net/service-areas/whitney-nv/)
+- [Summerlin South, NV](https://desertvalleycontracting.net/service-areas/summerlin-south-nv/)
+- [Blue Diamond, NV](https://desertvalleycontracting.net/service-areas/blue-diamond-nv/)
+- [Mount Charleston, NV](https://desertvalleycontracting.net/service-areas/mount-charleston-nv/)
+- [Sandy Valley, NV](https://desertvalleycontracting.net/service-areas/sandy-valley-nv/)
+- [Nelson, NV](https://desertvalleycontracting.net/service-areas/nelson-nv/)
+- [Indian Springs, NV](https://desertvalleycontracting.net/service-areas/indian-springs-nv/)
+- [Moapa Town, NV](https://desertvalleycontracting.net/service-areas/moapa-town-nv/)
+- [Moapa Valley, NV](https://desertvalleycontracting.net/service-areas/moapa-valley-nv/)
+- [Searchlight, NV](https://desertvalleycontracting.net/service-areas/searchlight-nv/)
 
 ### Resources
 - [Blog](https://desertvalleycontracting.net/blog/): Restoration guides and local resources
