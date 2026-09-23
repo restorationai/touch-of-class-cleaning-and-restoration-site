@@ -1,7 +1,7 @@
 {
   "last_kind": "geo",
-  "cycle_pos": 2,
-  "geo_cursor": 5,
+  "cycle_pos": 0,
+  "geo_cursor": 6,
   "history": [
     {
       "ts": "2026-07-10T17:55:04.571937+00:00",
@@ -66,6 +66,14 @@
       "service": "water-damage-restoration",
       "city": "Pleasant Grove",
       "youtube_id": "BypNvese1bo"
+    },
+    {
+      "ts": "2026-09-23T16:17:22.646012+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "appliance-leak-cleanup",
+      "city": "Orem",
+      "youtube_id": "czeqFSfPHr4"
     }
   ]
 }
