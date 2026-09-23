@@ -18,44 +18,13 @@ type Props = {
   /** Compact variant for /emergency/ — tighter spacing, shorter copy. */
   compact?: boolean;
   heading?: string;
-  /** "hero" renders a standalone dark card for embedding inside <Hero> —
-      DEFAULT on every home page since 2026-08-18 (Santino: form in the hero). */
-  variant?: "section" | "hero";
 };
 const {
   compact = false,
   heading = compact ? "Or Request a Free Estimate" : "Request Your Free Estimate",
-  variant = "section",
 } = Astro.props;
 ---
 
-{variant === "hero" ? (
-  <div class="w-full max-w-md bg-dark-950/85 backdrop-blur rounded-2xl shadow-2xl border border-white/10 p-6 sm:p-7" id="estimate">
-    <h2 class="text-2xl font-black uppercase tracking-tighter text-white mb-1.5">Get a Fast, Free Estimate</h2>
-    <p class="text-white/70 text-sm mb-4">Tell us what happened. We call back fast.</p>
-    <form method="post" action="/api/estimate" data-estimate-form novalidate class="grid gap-3">
-      <div class="grid gap-3 sm:grid-cols-2">
-        <input type="text" name="name" required autocomplete="name" maxlength="120" placeholder="Name *"
-          class="rounded-md border border-white/15 bg-white/5 px-3.5 py-2.5 text-base text-white placeholder-white/40 focus:border-white/50 focus:outline-none" />
-        <input type="tel" name="phone" required autocomplete="tel" maxlength="30" placeholder="Phone *"
-          class="rounded-md border border-white/15 bg-white/5 px-3.5 py-2.5 text-base text-white placeholder-white/40 focus:border-white/50 focus:outline-none" />
-      </div>
-      <input type="text" name="city" required autocomplete="postal-code" maxlength="80" placeholder={`City or ZIP * (${brand.primaryCity})`}
-        class="rounded-md border border-white/15 bg-white/5 px-3.5 py-2.5 text-base text-white placeholder-white/40 focus:border-white/50 focus:outline-none" />
-      <textarea name="description" rows="2" maxlength="2000" placeholder="What happened?"
-        class="rounded-md border border-white/15 bg-white/5 px-3.5 py-2.5 text-base text-white placeholder-white/40 focus:border-white/50 focus:outline-none resize-y"></textarea>
-      <div class="absolute -left-[9999px] top-auto w-px h-px overflow-hidden" aria-hidden="true">
-        <label>Company website <input type="text" name="company_website" tabindex="-1" autocomplete="off" /></label>
-      </div>
-      <input type="hidden" name="fets" value="" />
-      <button type="submit" class="inline-flex items-center justify-center font-bold px-6 py-3 rounded-md transition-all text-base shadow-lg bg-primary-600 text-white hover:bg-primary-700 disabled:opacity-60 disabled:cursor-not-allowed">
-        Get My Free Estimate
-      </button>
-      <p data-estimate-status class="hidden m-0 rounded-md px-3 py-2.5 text-sm font-medium" role="status" aria-live="polite"></p>
-      <p class="m-0 text-center text-white/70 text-sm">Fastest: <a href={`tel:${brand.phoneRaw}`} class="font-bold text-white">call {brand.phone}</a></p>
-    </form>
-  </div>
-) : (
 <section id="estimate" class={`scroll-mt-24 bg-dark-50 border-y border-dark/10 ${compact ? "py-14" : "py-20"}`}>
   <div class="container-wide px-6">
     <div class={`mx-auto ${compact ? "max-w-xl" : "max-w-6xl"} flex flex-col lg:flex-row gap-8 items-start`}>
@@ -83,7 +52,7 @@ const {
             Name *
             <input
               type="text" name="name" required autocomplete="name" maxlength="120"
-              class="w-full min-w-0 rounded-md border border-white/15 bg-white/5 px-4 py-3 text-base font-normal normal-case tracking-normal text-white placeholder-white/40 focus:border-white/50 focus:outline-none"
+              class="rounded-md border border-white/15 bg-white/5 px-4 py-3 text-base font-normal normal-case tracking-normal text-white placeholder-white/40 focus:border-white/50 focus:outline-none"
               placeholder="Your name"
             />
           </label>
@@ -91,7 +60,7 @@ const {
             Phone *
             <input
               type="tel" name="phone" required autocomplete="tel" maxlength="30"
-              class="w-full min-w-0 rounded-md border border-white/15 bg-white/5 px-4 py-3 text-base font-normal normal-case tracking-normal text-white placeholder-white/40 focus:border-white/50 focus:outline-none"
+              class="rounded-md border border-white/15 bg-white/5 px-4 py-3 text-base font-normal normal-case tracking-normal text-white placeholder-white/40 focus:border-white/50 focus:outline-none"
               placeholder="(555) 555-5555"
             />
           </label>
@@ -101,15 +70,15 @@ const {
             City / ZIP *
             <input
               type="text" name="city" required autocomplete="postal-code" maxlength="80"
-              class="w-full min-w-0 rounded-md border border-white/15 bg-white/5 px-4 py-3 text-base font-normal normal-case tracking-normal text-white placeholder-white/40 focus:border-white/50 focus:outline-none"
+              class="rounded-md border border-white/15 bg-white/5 px-4 py-3 text-base font-normal normal-case tracking-normal text-white placeholder-white/40 focus:border-white/50 focus:outline-none"
               placeholder={`${brand.primaryCity} or ZIP`}
             />
           </label>
-          <label class="grid gap-1.5 text-sm font-bold uppercase tracking-widest text-white/70 sm:col-span-2">
+          <label class="grid gap-1.5 text-sm font-bold uppercase tracking-widest text-white/70">
             Email <span class="normal-case font-normal tracking-normal text-white/60">(optional)</span>
             <input
               type="email" name="email" autocomplete="email" maxlength="160"
-              class="w-full min-w-0 rounded-md border border-white/15 bg-white/5 px-4 py-3 text-base font-normal normal-case tracking-normal text-white placeholder-white/40 focus:border-white/50 focus:outline-none"
+              class="rounded-md border border-white/15 bg-white/5 px-4 py-3 text-base font-normal normal-case tracking-normal text-white placeholder-white/40 focus:border-white/50 focus:outline-none"
               placeholder="you@example.com"
             />
           </label>
@@ -118,7 +87,7 @@ const {
           What happened?
           <textarea
             name="description" rows={compact ? 3 : 4} maxlength="2000"
-            class="w-full min-w-0 rounded-md border border-white/15 bg-white/5 px-4 py-3 text-base font-normal normal-case tracking-normal text-white placeholder-white/40 focus:border-white/50 focus:outline-none resize-y"
+            class="rounded-md border border-white/15 bg-white/5 px-4 py-3 text-base font-normal normal-case tracking-normal text-white placeholder-white/40 focus:border-white/50 focus:outline-none resize-y"
             placeholder="Briefly describe the damage — e.g. burst pipe in the kitchen, standing water in the basement…"
           ></textarea>
         </label>
@@ -133,18 +102,9 @@ const {
         {/* Min-render-time token — set by the inline script below at page load. */}
         <input type="hidden" name="fets" value="" />
 
-        {/* Prospect-SMS consent (C9, Bob/RT Olson 2026-09-15): unchecked by
-            default — the checked state is the recorded consent for the one
-            confirmation text; audit trail rides the submission row. */}
-        <label class="flex items-start gap-2.5 text-sm font-normal normal-case tracking-normal text-white/70 cursor-pointer">
-          <input type="checkbox" name="sms_consent" value="yes"
-            class="mt-1 h-4 w-4 rounded border-white/30 bg-white/5 accent-primary-600" />
-          <span>It's OK to text me about my request. Message &amp; data rates may apply; reply STOP to opt out.</span>
-        </label>
-
         <button
           type="submit"
-          class="inline-flex items-center justify-center font-bold px-8 py-4 rounded-md transition-all text-lg shadow-lg bg-cta text-cta-fg hover:bg-cta-hover disabled:opacity-60 disabled:cursor-not-allowed"
+          class="inline-flex items-center justify-center font-bold px-8 py-4 rounded-md transition-all text-lg shadow-lg bg-primary-600 text-white hover:bg-primary-700 disabled:opacity-60 disabled:cursor-not-allowed"
         >
           Get My Free Estimate
         </button>
@@ -194,13 +154,10 @@ const {
     </div>
   </div>
 </section>
-)}
 
 <script is:inline>
   (function () {
     document.querySelectorAll("[data-estimate-form]").forEach(function (form) {
-      if (form.dataset.bound) return;
-      form.dataset.bound = "1";
       var ts = form.querySelector('input[name="fets"]');
       if (ts) ts.value = String(Date.now());
       var status = form.querySelector("[data-estimate-status]");
@@ -221,35 +178,6 @@ const {
         e.preventDefault();
         var data = {};
         new FormData(form).forEach(function (v, k) { data[k] = v; });
-        // Source attribution (2026-09-10): same persisted classification the
-        // DNI number swap uses, so form leads and calls attribute alike.
-        try {
-          data.lead_source = window.rankaiSource || "default";
-          var saved = JSON.parse(localStorage.getItem("rankai_src") || "null");
-          if (saved && saved.s) data.lead_source = saved.s;
-          // Embed override (C10): the host page names its own channel via
-          // ?source= on the iframe URL — authoritative when present.
-          var qsrc = new URLSearchParams(location.search).get("source");
-          if (qsrc) data.lead_source = qsrc.toLowerCase().replace(/[^a-z0-9_]/g, "").slice(0, 40) || data.lead_source;
-        } catch (err) { data.lead_source = data.lead_source || "default"; }
-        var q = new URLSearchParams(location.search);
-        ["utm_source", "utm_medium", "utm_campaign", "gclid", "msclkid", "fbclid"].forEach(function (k) {
-          if (q.get(k)) data[k] = q.get(k);
-        });
-        // D17: click ids persisted at landing (BaseLayout) survive
-        // navigation — the URL params above win when present.
-        try {
-          var savedIds = (JSON.parse(localStorage.getItem("rankai_src") || "null") || {}).ids || {};
-          ["gclid", "msclkid", "fbclid"].forEach(function (k) {
-            if (!data[k] && savedIds[k]) data[k] = savedIds[k];
-          });
-        } catch (err) {}
-        if (document.referrer) data.referrer = document.referrer;
-        data.landing_page = location.pathname;
-        try {
-          window.dataLayer = window.dataLayer || [];
-          window.dataLayer.push({ event: "lead_form_submit", lead_source: data.lead_source });
-        } catch (err) {}
         if (!data.name || !data.phone || !data.city) {
           show("Please fill in your name, phone, and city/ZIP so we can reach you.", false);
           return;
@@ -263,23 +191,9 @@ const {
           .then(function (r) { return r.json().catch(function () { return {}; }).then(function (j) { return { ok: r.ok && j.ok !== false, j: j }; }); })
           .then(function (res) {
             if (res.ok) {
-              // Post-submit Call-Now screen (C9): water in the house doesn't
-              // wait for a callback. The number is read from the DOM AFTER
-              // the DNI swap ran, so it's the tracked line, not the raw NAP.
-              var telA = document.querySelector('a[href^="tel:"]');
-              var telHref = telA ? telA.getAttribute("href") : null;
-              var telText = telA ? (telA.textContent || "").trim() : "";
-              var panel = document.createElement("div");
-              panel.className = "rounded-xl border border-emerald-400/30 bg-emerald-500/10 p-6 text-center";
-              panel.innerHTML =
-                '<p class="text-3xl mb-2">✓</p>' +
-                '<p class="text-xl font-black text-white mb-1">Request received</p>' +
-                '<p class="text-white/80 mb-4">We\'ll call you back shortly. If this is an emergency, don\'t wait:</p>' +
-                (telHref
-                  ? '<a href="' + telHref + '" class="inline-flex items-center justify-center rounded-xl bg-white text-black font-black text-lg px-8 py-4 no-underline">Call ' + (telText || "Now") + "</a>"
-                  : "");
-              form.replaceChildren(panel);
-              try { panel.scrollIntoView({ block: "center", behavior: "smooth" }); } catch (err) {}
+              show("Thanks — your request is in. We'll call you back shortly. For emergencies, call us now.", true);
+              form.reset();
+              if (ts) ts.value = String(Date.now());
             } else {
               show("Something went wrong sending your request. Please call us instead — it's faster anyway.", false);
             }
