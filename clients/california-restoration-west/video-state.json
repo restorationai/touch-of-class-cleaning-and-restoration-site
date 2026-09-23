@@ -1,6 +1,6 @@
 {
-  "last_kind": "geo",
-  "cycle_pos": 0,
+  "last_kind": "blog",
+  "cycle_pos": 1,
   "geo_cursor": 2,
   "history": [
     {
@@ -26,6 +26,14 @@
       "service": "mold-remediation",
       "city": "Oxnard",
       "youtube_id": "CmOP8R7Sz9A"
+    },
+    {
+      "ts": "2026-09-23T19:30:26.489006+00:00",
+      "kind": "blog",
+      "post": "how-soon-does-mold-grow-after-water-damage",
+      "service": null,
+      "city": null,
+      "youtube_id": "YNqrEyKsSP8"
     }
   ]
 }
