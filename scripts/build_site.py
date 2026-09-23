@@ -241,6 +241,30 @@ def _mirror_nested_brand(brand: dict) -> None:
             pass
 
 
+def _dba_name_from_app(client: dict) -> str:
+    """Verified DBA from companies.integration_settings.rename_intent — the
+    single source of truth once a filing is vision-verified."""
+    try:
+        cid = client.get("company_id") or company_id_for_slug(client["slug"])
+        if not cid:
+            return ""
+        import requests as _rq
+        r = _rq.get(f"{os.environ['SUPABASE_URL']}/rest/v1/companies",
+                    params={"id": f"eq.{cid}",
+                            "select": "integration_settings"},
+                    headers={"apikey": os.environ["SUPABASE_SERVICE_ROLE_KEY"],
+                             "Authorization": "Bearer "
+                             + os.environ["SUPABASE_SERVICE_ROLE_KEY"]},
+                    timeout=15)
+        ints = (r.json() or [{}])[0].get("integration_settings") or {}
+        if isinstance(ints, str):
+            ints = json.loads(ints)
+        ri = ints.get("rename_intent") or {}
+        return str(ri.get("dba_name") or "") if ri.get("dba_verified") else ""
+    except Exception:  # noqa: BLE001 — a missing DBA never blocks a scaffold
+        return ""
+
+
 def resolve_tokens(client: dict, plan_input: dict, allow_missing_domain: bool = False) -> tuple[dict, dict]:
     """Return (string_tokens, json_tokens). JSON tokens substitute as bare
     JS literals (no surrounding quotes)."""
@@ -307,7 +331,10 @@ def resolve_tokens(client: dict, plan_input: dict, allow_missing_domain: bool = 
         "BRAND_DISPLAY_NAME": display_name,
         "BRAND_SHORT_NAME": short_name,
         "BRAND_LEGAL_NAME": brand.get("legal_name", display_name),
-        "BRAND_DBA_NAME": brand.get("dba_name", ""),
+        # DBA from the DB when plan-input lacks it (Heritage 2026-09-23:
+        # every re-scaffold blanked dbaName and the nightly sync kept
+        # re-healing it — the token now reads the rename_intent truth).
+        "BRAND_DBA_NAME": brand.get("dba_name") or _dba_name_from_app(client),
         "BRAND_DOMAIN": domain,
         "BRAND_CANONICAL_URL": f"https://{domain}",
         "BRAND_PHONE": phone_display,
