@@ -1,7 +1,7 @@
 {
   "last_kind": "geo",
-  "cycle_pos": 2,
-  "geo_cursor": 1,
+  "cycle_pos": 0,
+  "geo_cursor": 2,
   "history": [
     {
       "ts": "2026-09-21T16:54:07.305902+00:00",
@@ -18,6 +18,14 @@
       "service": "water-damage-restoration",
       "city": "Enterprise",
       "youtube_id": "FApJ5Pnu4QA"
+    },
+    {
+      "ts": "2026-09-23T16:19:46.728798+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "biohazard-cleanup",
+      "city": "Las Vegas",
+      "youtube_id": "tRY_TZ5iXAU"
     }
   ]
 }
