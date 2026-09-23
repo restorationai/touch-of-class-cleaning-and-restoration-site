@@ -33,5 +33,12 @@ export const workPairs: BeforeAfterPair[] = [
     beforeAlt: "Bedroom with collapsed ceiling and storm debris before repair",
     afterSrc: "/images/before-after/storm-after.webp",
     afterAlt: "Same bedroom with rebuilt ceiling after storm damage restoration",
+  },
+  {
+    label: "Roof Replacement",
+    beforeSrc: "/images/before-after/roofing-before.webp",
+    beforeAlt: "Roof with torn and missing shingles before replacement",
+    afterSrc: "/images/before-after/roofing-after.webp",
+    afterAlt: "Same roof fully replaced with new architectural shingles",
   }
 ];

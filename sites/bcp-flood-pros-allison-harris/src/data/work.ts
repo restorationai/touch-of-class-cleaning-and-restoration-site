@@ -33,13 +33,6 @@ export const workPairs: BeforeAfterPair[] = [
     afterAlt: "Same living room fully rebuilt and restored after fire damage",
   },
   {
-    label: "Mold Remediation",
-    beforeSrc: "/images/before-after/mold-before.webp",
-    beforeAlt: "Bathroom wall with spreading mold before remediation",
-    afterSrc: "/images/before-after/mold-after.webp",
-    afterAlt: "Same bathroom wall clean and repainted after mold remediation",
-  },
-  {
     label: "Sewage Cleanup",
     beforeSrc: "/images/before-after/sewage-before.webp",
     beforeAlt: "Basement flooded wall to wall by a sewage backup before cleanup",

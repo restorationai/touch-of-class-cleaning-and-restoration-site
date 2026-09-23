@@ -336,8 +336,9 @@ PAIR_CATALOG: list[tuple[str, set, str, str, str, str, str]] = [
      "noticeably lighter different wood tone, the new planks laid in the "
      "PERPENDICULAR direction to the old floor so the replacement is "
      "unmistakable (an obvious upgrade, never a downgrade like carpet), "
-     "new baseboards, lower walls repaired and "
-     "freshly painted, everything dry and bright",
+     "new baseboards, lower walls repaired and freshly painted, the "
+     "furniture professionally cleaned or replaced (no stains), no "
+     "leftover materials, rugs or debris anywhere, dry and bright",
      "Flooded living room with standing water before restoration",
      "Same living room with new premium plank flooring and repaired "
      "walls after restoration"),
@@ -350,23 +351,14 @@ PAIR_CATALOG: list[tuple[str, set, str, str, str, str, str]] = [
      "the floor, daylight through a smoke-stained window. Shot on a "
      "phone, no people, no flames, no text.",
      "the SAME living room fully rebuilt and restored after fire damage "
-     "restoration: new drywall walls and ceiling freshly painted, new "
+     "restoration: new drywall walls and a fully CLOSED finished drywall "
+     "ceiling (no exposed beams, joists or framing), freshly painted, new "
      "flooring, the burned furniture HAULED AWAY and replaced with "
      "different brand-new furnishings, the same window spotless, room "
      "bright",
      "Living room with severe fire damage and charred walls before "
      "restoration",
      "Same living room fully rebuilt and restored after fire damage"),
-    ("mold", {"mold-remediation", "mold-removal", "mold-inspection"},
-     "Mold Remediation",
-     "Corner of a bathroom wall and ceiling overtaken by a large spreading "
-     "colony of black and dark-green mold climbing from the baseboard to "
-     "the ceiling, paint bubbling and peeling, heavy staining. Shot on a "
-     "phone, close enough to see texture, no people, no text.",
-     "the SAME bathroom corner fully remediated: mold completely gone, "
-     "surfaces repaired and repainted a clean bright white, dry",
-     "Bathroom wall with spreading mold before remediation",
-     "Same bathroom wall clean and repainted after mold remediation"),
     ("sewage", {"sewage-cleanup", "sewage-backup-cleanup"},
      "Sewage Cleanup",
      "A finished basement after a MAJOR sewage backup: several inches of "
@@ -385,9 +377,30 @@ PAIR_CATALOG: list[tuple[str, set, str, str, str, str, str]] = [
      "down the wall. Shot on a phone, no people, no text.",
      "the SAME bedroom fully repaired after storm damage restoration: "
      "ceiling rebuilt with new drywall and seamless finish, freshly "
-     "painted, debris cleared, room clean and dry",
+     "painted, debris cleared, the bed remade with brand-new bedding in "
+     "a different color, room clean and dry",
      "Bedroom with collapsed ceiling and storm debris before repair",
      "Same bedroom with rebuilt ceiling after storm damage restoration"),
+    ("mold", {"mold-remediation", "mold-removal", "mold-inspection"},
+     "Mold Remediation",
+     "Corner of a bathroom wall and ceiling overtaken by a large spreading "
+     "colony of black and dark-green mold climbing from the baseboard to "
+     "the ceiling, paint bubbling and peeling, heavy staining. Shot on a "
+     "phone, close enough to see texture, no people, no text.",
+     "the SAME bathroom corner fully remediated: mold completely gone, "
+     "surfaces repaired and repainted a clean bright white, dry",
+     "Bathroom wall with spreading mold before remediation",
+     "Same bathroom wall clean and repainted after mold remediation"),
+    ("roofing", {"roofing", "roofing-services", "roof-leak-repair"},
+     "Roof Replacement",
+     "Close view of a residential asphalt-shingle roof with severe storm "
+     "damage: torn and missing shingles, exposed dark underlayment "
+     "patches, lifted edges. Shot on a phone from a ladder, no people, "
+     "no text.",
+     "the SAME roof fully replaced with brand-new architectural "
+     "shingles, crisp clean lines, new flashing",
+     "Roof with torn and missing shingles before replacement",
+     "Same roof fully replaced with new architectural shingles"),
     ("carpet", {"carpet-cleaning"},
      "Carpet Cleaning",
      "Wall-to-wall beige carpet in a lived-in family room, heavily soiled "
@@ -440,7 +453,11 @@ def generate_pairs(*, slug: str, geo: str, guide: str) -> None:
     services = set(json.loads(
         (ROOT / "clients" / slug / "plan-input.json").read_text()
     ).get("services") or [])
-    picks = [c for c in PAIR_CATALOG if c[1] & services][:5]
+    picks = [c for c in PAIR_CATALOG if c[1] & services][:6]
+    # EVEN COUNT LAW (Santino 2026-09-22): the slider grid never renders an
+    # odd number of pairs — 3+ trims to the nearest even.
+    if len(picks) >= 3 and len(picks) % 2:
+        picks = picks[:-1]
     if not picks:
         print("  pairs: no catalog match for this client's services")
         return
@@ -464,7 +481,10 @@ def generate_pairs(*, slug: str, geo: str, guide: str) -> None:
                     "Using the attached photo of this exact room, produce "
                     f"{after_edit}. IDENTICAL camera angle and "
                     "architecture — the same room after professional "
-                    "restoration. Photorealistic, no text.",
+                    "restoration, COMPLETELY FINISHED: no exposed framing "
+                    "or beams, no leftover materials, tools or debris, "
+                    "all furniture and textiles clean or brand new. "
+                    "Photorealistic, no text.",
                     aspect_ratio="16:9", reference_png=before_png)
                 a_p.write_bytes(after_png)
                 print(f"  pairs: {kind}-after generated (edit of before)")
