@@ -1854,6 +1854,23 @@ def _spam_lookup_verdict(from_num: str) -> str:
     return verdict
 
 
+
+def _db_safe_source(source: str) -> str:
+    """marketing_tracked_calls.source has a CHECK constraint that predates
+    the newer DNI sources (Bobby/RT Olson 2026-09-23: 44 meta_ads calls
+    forwarded fine and EVERY log insert bounced 23514, silently). Until the
+    constraint is widened in the dashboard, map unknowns to their nearest
+    allowed family so calls are never invisible: meta_ads -> facebook
+    (same platform), metro_<area> -> website (metro numbers are site DNI).
+    Remove this once the constraint is dropped."""
+    allowed = {"gbp", "website", "google_ads", "facebook", "instagram",
+               "bing", "yelp", "chatgpt", "gemini"}
+    if source in allowed:
+        return source
+    if source == "meta_ads":
+        return "facebook"
+    return "website"
+
 @app.post("/call-tracking/sms/{company_id}/{source}")
 async def call_tracking_sms(company_id: str, source: str, request: Request):
     """Twilio SMS webhook for DNI tracking numbers (Rita Look 2026-09-18:
@@ -1935,7 +1952,8 @@ async def call_tracking_twiml(company_id: str, source: str, request: Request,
             try:
                 if call_sid:
                     sb().table("marketing_tracked_calls").upsert({
-                        "company_id": company_id, "source": source,
+                        "company_id": company_id,
+                        "source": _db_safe_source(source),
                         "tracking_number": to_num, "from_number": from_num,
                         "call_sid": call_sid, "status": "blocked_spam",
                         "analysis": {"outcome": "spam",
@@ -1999,7 +2017,8 @@ async def call_tracking_twiml(company_id: str, source: str, request: Request,
         try:
             if call_sid:
                 sb().table("marketing_tracked_calls").upsert({
-                    "company_id": company_id, "source": source,
+                    "company_id": company_id,
+                    "source": _db_safe_source(source),
                     "tracking_number": to_num, "from_number": from_num,
                     "to_number": real, "call_sid": call_sid, "status": "ringing",
                 }, on_conflict="call_sid").execute()
