@@ -9,7 +9,7 @@ const photos = (brand.jobPhotos || []).slice(0, 12);
 ---
 
 {photos.length >= 3 && (
-  <section class="section bg-navy border-t border-white/10">
+  <section class="section bg-dark-50 border-t border-dark/10">
     <div class="container-wide">
       <div class="mb-8">
         <div class="eyebrow">Recent Work</div>
@@ -19,14 +19,14 @@ const photos = (brand.jobPhotos || []).slice(0, 12);
         {photos.map((src) => {
           const img = srcsetFor(src);
           return (
-            <div class="relative aspect-square rounded-xl overflow-hidden border border-white/10 shadow-lg bg-white/5">
+            <div class="relative aspect-square rounded-xl overflow-hidden border border-dark/10 shadow-lg bg-dark/5">
               <img
                 src={src}
                 srcset={img.srcset}
                 sizes={img.srcset ? "(min-width:1024px) 25vw, (min-width:640px) 33vw, 50vw" : undefined}
                 width={img.width}
                 height={img.height}
-                alt={`${brand.displayName} — recent ${brand.primaryCity} restoration job`}
+                alt={`${brand.displayName} — recent ${brand.primaryCity} job`}
                 class="w-full h-full object-cover"
                 loading="lazy"
                 decoding="async"
