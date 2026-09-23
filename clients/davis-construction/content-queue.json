@@ -2,6 +2,32 @@
   "slug": "davis-construction",
   "items": [
     {
+      "id": "2026-09-23-decks-pergolas-fences-cost-al",
+      "status": "queued",
+      "queued_at": "2026-09-23T22:24:59Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "cost_guide",
+      "combo_key": "decks-pergolas-fences-cost-al",
+      "primary_keyword": "decks pergolas fences cost AL",
+      "intent": "transactional",
+      "target_word_count": 1500,
+      "city_anchor": "madison-al",
+      "best_of": {
+        "service": "decks-pergolas-fences",
+        "service_pretty": "Decks Pergolas Fences",
+        "city": "Madison",
+        "state": "AL",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "how much does decks pergolas fences cost in AL",
+        "decks pergolas fences price AL",
+        "average cost of decks pergolas fences AL"
+      ],
+      "source": "best-of-seeder"
+    },
+    {
       "id": "2026-07-23-best-home-remodeling-in-madison-al",
       "status": "written",
       "queued_at": "2026-07-23T17:11:05Z",
@@ -1278,10 +1304,10 @@
     },
     {
       "id": "2026-09-19-small-kitchen-remodel-cost",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-19T00:05:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-23T22:27:06Z",
+      "post_url": "https://davisconstructioncontractors.com/blog/small-kitchen-remodel-cost/",
       "priority": 1,
       "prioritized": true,
       "content_type": "target_term",
@@ -1316,7 +1342,18 @@
         "https://www.nkba.org/"
       ],
       "source": "keyword-researcher s1 seed=kitchen remodel",
-      "notes": "Athens has a large stock of 1950s-1970s brick ranch homes with small galley kitchens, which makes this a strong local fit. Price the compact-kitchen scenarios honestly and show where money is best spent versus wasted. Commercial intent: include a short comparison of refresh versus full remodel with dollar ranges."
+      "notes": "Athens has a large stock of 1950s-1970s brick ranch homes with small galley kitchens, which makes this a strong local fit. Price the compact-kitchen scenarios honestly and show where money is best spent versus wasted. Commercial intent: include a short comparison of refresh versus full remodel with dollar ranges.",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/small-kitchen-remodel-cost.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "lead-safe",
+          "context": "ts and walls. Federal EPA rules require lead-safe work practices on any renovation distur",
+          "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+        }
+      ]
     },
     {
       "id": "2026-09-19-do-i-need-a-permit-to-remodel-a-kitchen",
