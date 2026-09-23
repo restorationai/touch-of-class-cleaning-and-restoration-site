@@ -1,6 +1,6 @@
 {
-  "last_kind": "geo",
-  "cycle_pos": 0,
+  "last_kind": "blog",
+  "cycle_pos": 1,
   "geo_cursor": 6,
   "history": [
     {
@@ -74,6 +74,14 @@
       "service": "water-damage-restoration",
       "city": "Milton",
       "youtube_id": "f7-fa3L6hxs"
+    },
+    {
+      "ts": "2026-09-23T16:29:49.342001+00:00",
+      "kind": "blog",
+      "post": "best-water-damage-restoration-company-in-federal-way-wa",
+      "service": null,
+      "city": null,
+      "youtube_id": "J1xTVwmOIZ0"
     }
   ]
 }
