@@ -172,6 +172,11 @@
       "city": "Glenshaw",
       "state": "PA",
       "slug": "glenshaw-pa"
+    },
+    {
+      "city": "Pleasant Hills",
+      "state": "PA",
+      "slug": "pleasant-hills-pa"
     }
   ],
   "template": "restoration",

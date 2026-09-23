@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Fire Damage Restoration in Pleasant Hills, PA | Katofsky Construction LLC"
+h1: "Fire Damage Restoration in Pleasant Hills"
+meta_description: "24/7 fire damage restoration in Pleasant Hills, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
+primary_keyword: "fire damage restoration pleasant hills"
+secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
+search_intent: "local_emergency"
+priority: 7.0
+plan_hash: "bb0f6ce367f7516a"
+generated_at: "2026-09-23T17:23:34.369983+00:00"
+manual_override: false
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/pleasant-hills-pa/", "/service-areas/pleasant-hills-pa/roofing/", "/service-areas/pleasant-hills-pa/sewage-cleanup/", "/service-areas/baldwin-pa/fire-damage-restoration/", "/service-areas/bethel-park-pa/fire-damage-restoration/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pleasant Hills", "url": "/service-areas/pleasant-hills-pa/"}, {"name": "Fire Damage Restoration"}]
+faq: []
+area_slug: "pleasant-hills-pa"
+service_slug: "fire-damage-restoration"
+city: "Pleasant Hills"
+state: "PA"
+service_display: "Fire Damage Restoration"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug katofsky-construction-llc` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Fire Damage Restoration in Pleasant Hills.

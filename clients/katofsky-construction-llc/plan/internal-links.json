@@ -36,6 +36,7 @@
     "/service-areas/new-kensington-pa/",
     "/service-areas/north-huntingdon-pa/",
     "/service-areas/penn-hills-pa/",
+    "/service-areas/pleasant-hills-pa/",
     "/service-areas/plum-pa/",
     "/service-areas/ross-township-pa/",
     "/service-areas/shaler-township-pa/",
@@ -79,6 +80,7 @@
     "/service-areas/new-kensington-pa/",
     "/service-areas/north-huntingdon-pa/",
     "/service-areas/penn-hills-pa/",
+    "/service-areas/pleasant-hills-pa/",
     "/service-areas/plum-pa/",
     "/service-areas/ross-township-pa/",
     "/service-areas/shaler-township-pa/",
@@ -770,6 +772,25 @@
     "/service-areas/glenshaw-pa/lead-paint-abatement/",
     "/service-areas/glenshaw-pa/carpet-cleaning/",
     "/service-areas/glenshaw-pa/upholstery-cleaning/",
+    "/service-areas/baldwin-pa/",
+    "/service-areas/bethel-park-pa/",
+    "/service-areas/carnegie-pa/"
+  ],
+  "/service-areas/pleasant-hills-pa/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/pleasant-hills-pa/fire-damage-restoration/",
+    "/service-areas/pleasant-hills-pa/roofing/",
+    "/service-areas/pleasant-hills-pa/sewage-cleanup/",
+    "/service-areas/pleasant-hills-pa/biohazard-cleanup/",
+    "/service-areas/pleasant-hills-pa/general-contracting/",
+    "/service-areas/pleasant-hills-pa/emergency-board-up-tarping/",
+    "/service-areas/pleasant-hills-pa/asbestos-abatement/",
+    "/service-areas/pleasant-hills-pa/air-duct-cleaning/",
+    "/service-areas/pleasant-hills-pa/contents-restoration-storage/",
+    "/service-areas/pleasant-hills-pa/lead-paint-abatement/",
+    "/service-areas/pleasant-hills-pa/carpet-cleaning/",
+    "/service-areas/pleasant-hills-pa/upholstery-cleaning/",
     "/service-areas/baldwin-pa/",
     "/service-areas/bethel-park-pa/",
     "/service-areas/carnegie-pa/"
@@ -3470,6 +3491,114 @@
     "/service-areas/glenshaw-pa/",
     "/service-areas/glenshaw-pa/fire-damage-restoration/",
     "/service-areas/glenshaw-pa/roofing/",
+    "/service-areas/baldwin-pa/upholstery-cleaning/",
+    "/service-areas/bethel-park-pa/upholstery-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/pleasant-hills-pa/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/pleasant-hills-pa/",
+    "/service-areas/pleasant-hills-pa/roofing/",
+    "/service-areas/pleasant-hills-pa/sewage-cleanup/",
+    "/service-areas/baldwin-pa/fire-damage-restoration/",
+    "/service-areas/bethel-park-pa/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/pleasant-hills-pa/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/pleasant-hills-pa/",
+    "/service-areas/pleasant-hills-pa/fire-damage-restoration/",
+    "/service-areas/pleasant-hills-pa/roofing/",
+    "/service-areas/baldwin-pa/general-contracting/",
+    "/service-areas/bethel-park-pa/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/pleasant-hills-pa/roofing/": [
+    "/services/roofing/",
+    "/service-areas/pleasant-hills-pa/",
+    "/service-areas/pleasant-hills-pa/fire-damage-restoration/",
+    "/service-areas/pleasant-hills-pa/sewage-cleanup/",
+    "/service-areas/baldwin-pa/roofing/",
+    "/service-areas/bethel-park-pa/roofing/",
+    "/contact/"
+  ],
+  "/service-areas/pleasant-hills-pa/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/pleasant-hills-pa/",
+    "/service-areas/pleasant-hills-pa/fire-damage-restoration/",
+    "/service-areas/pleasant-hills-pa/roofing/",
+    "/service-areas/baldwin-pa/sewage-cleanup/",
+    "/service-areas/bethel-park-pa/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/pleasant-hills-pa/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/pleasant-hills-pa/",
+    "/service-areas/pleasant-hills-pa/fire-damage-restoration/",
+    "/service-areas/pleasant-hills-pa/roofing/",
+    "/service-areas/baldwin-pa/biohazard-cleanup/",
+    "/service-areas/bethel-park-pa/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/pleasant-hills-pa/asbestos-abatement/": [
+    "/services/asbestos-abatement/",
+    "/service-areas/pleasant-hills-pa/",
+    "/service-areas/pleasant-hills-pa/fire-damage-restoration/",
+    "/service-areas/pleasant-hills-pa/roofing/",
+    "/service-areas/baldwin-pa/asbestos-abatement/",
+    "/service-areas/bethel-park-pa/asbestos-abatement/",
+    "/contact/"
+  ],
+  "/service-areas/pleasant-hills-pa/lead-paint-abatement/": [
+    "/services/lead-paint-abatement/",
+    "/service-areas/pleasant-hills-pa/",
+    "/service-areas/pleasant-hills-pa/fire-damage-restoration/",
+    "/service-areas/pleasant-hills-pa/roofing/",
+    "/service-areas/baldwin-pa/lead-paint-abatement/",
+    "/service-areas/bethel-park-pa/lead-paint-abatement/",
+    "/contact/"
+  ],
+  "/service-areas/pleasant-hills-pa/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/pleasant-hills-pa/",
+    "/service-areas/pleasant-hills-pa/fire-damage-restoration/",
+    "/service-areas/pleasant-hills-pa/roofing/",
+    "/service-areas/baldwin-pa/emergency-board-up-tarping/",
+    "/service-areas/bethel-park-pa/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/pleasant-hills-pa/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/pleasant-hills-pa/",
+    "/service-areas/pleasant-hills-pa/fire-damage-restoration/",
+    "/service-areas/pleasant-hills-pa/roofing/",
+    "/service-areas/baldwin-pa/contents-restoration-storage/",
+    "/service-areas/bethel-park-pa/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/pleasant-hills-pa/air-duct-cleaning/": [
+    "/services/air-duct-cleaning/",
+    "/service-areas/pleasant-hills-pa/",
+    "/service-areas/pleasant-hills-pa/fire-damage-restoration/",
+    "/service-areas/pleasant-hills-pa/roofing/",
+    "/service-areas/baldwin-pa/air-duct-cleaning/",
+    "/service-areas/bethel-park-pa/air-duct-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/pleasant-hills-pa/carpet-cleaning/": [
+    "/services/carpet-cleaning/",
+    "/service-areas/pleasant-hills-pa/",
+    "/service-areas/pleasant-hills-pa/fire-damage-restoration/",
+    "/service-areas/pleasant-hills-pa/roofing/",
+    "/service-areas/baldwin-pa/carpet-cleaning/",
+    "/service-areas/bethel-park-pa/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/pleasant-hills-pa/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/pleasant-hills-pa/",
+    "/service-areas/pleasant-hills-pa/fire-damage-restoration/",
+    "/service-areas/pleasant-hills-pa/roofing/",
     "/service-areas/baldwin-pa/upholstery-cleaning/",
     "/service-areas/bethel-park-pa/upholstery-cleaning/",
     "/contact/"
