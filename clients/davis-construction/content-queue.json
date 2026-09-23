@@ -1304,7 +1304,7 @@
     },
     {
       "id": "2026-09-19-small-kitchen-remodel-cost",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-19T00:05:00Z",
       "written_at": "2026-09-23T22:27:06Z",
       "post_url": "https://davisconstructioncontractors.com/blog/small-kitchen-remodel-cost/",
@@ -1353,7 +1353,8 @@
           "context": "ts and walls. Federal EPA rules require lead-safe work practices on any renovation distur",
           "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
         }
-      ]
+      ],
+      "published_verified_at": "2026-09-23T22:28:36Z"
     },
     {
       "id": "2026-09-19-do-i-need-a-permit-to-remodel-a-kitchen",
