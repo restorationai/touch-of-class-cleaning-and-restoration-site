@@ -1,7 +1,7 @@
 {
   "last_kind": "geo",
-  "cycle_pos": 2,
-  "geo_cursor": 1,
+  "cycle_pos": 0,
+  "geo_cursor": 2,
   "history": [
     {
       "ts": "2026-09-21T16:52:37.809563+00:00",
@@ -18,6 +18,14 @@
       "service": "mold-remediation",
       "city": "Wake Forest",
       "youtube_id": "0vofPrdxwiE"
+    },
+    {
+      "ts": "2026-09-23T16:17:20.147886+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "mold-remediation",
+      "city": "Zebulon",
+      "youtube_id": "OZo6elIUGb0"
     }
   ]
 }
