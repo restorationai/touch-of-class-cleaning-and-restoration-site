@@ -7,10 +7,17 @@ export const brand = {
   displayName: "DRYCOR RESTORE",
   shortName: "DRYCOR RESTORE",
   legalName: "DRYCOR RESTORE",
+  // Registered DBA / trade name — filled by rename_site_sync.py the moment
+  // the state approves the client's DBA filing (empty until then). When set,
+  // the footer carries the "[legal] doing business as [DBA]" line and schema
+  // declares it as the business name, so Google/BrightLocal find the new
+  // name corroborated on the site before and during the GBP rename.
+  dbaName: "",
   domain: "drycor.com",
   canonicalUrl: "https://drycor.com",
   phone: "(813) 829-1091",
   phoneRaw: "+18138291091",
+  hideMobileHeaderCall: false,
   // Sitewide call-tracking number (2026-08-24). When BOTH fields are set,
   // a tiny inline script in BaseLayout swaps every visible phone mention
   // and tel: link to this number AFTER the page renders. The HTML source,
@@ -18,8 +25,8 @@ export const brand = {
   // keep the canonical NAP number above — humans dial the tracked line,
   // Google sees consistent NAP. Empty = feature off (default at scaffold;
   // filled by the call-tracking provisioning step).
-  trackingPhone: "",
-  trackingPhoneRaw: "",
+  trackingPhone: "(352) 424-6035",
+  trackingPhoneRaw: "+13524246035",
   email: "team@drycor.com",
   hours: "24/7",
   foundedYear: "2005",
@@ -57,24 +64,17 @@ export const brand = {
   sameAsUrls: ["https://www.linkedin.com/company/drycor-restore/", "https://www.bing.com/maps?ss=ypid.YND295ED88552C26BD", "https://homeguide.com/fl/tampa/water-damage-restoration/drycor-restore-B7Lx1MPyy"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
-  gbpRatingValue: "5.0",
-  gbpReviewCount: "23",
-  gbpReviews: [
-    { author: "Charles", rating: 5, text: "Very detail oriented on the drying process. Works with all major insurance carriers & makes the entire process as smooth as possible. Definitely recommend", when: "September 2026" },
-    { author: "Bobbie", rating: 5, text: "I can’t say enough wonderful things about Drycor Company! When a pipe broke in my home and caused water and mold problems, they responded so quickly and were there when I needed them most. Their promptness, professionalism, and genuine concern made a very stressful situation so much easier to…", when: "August 2026" },
-    { author: "Shane", rating: 5, text: "A company with a long track record! Willow is great to deal with and really cares. No one wants to use the service but can not mess around with having mold in Florida", when: "July 2026" },
-    { author: "Cora", rating: 5, text: "We have been working on our mold problem in our home for about a week with them and we are so grateful that we didn’t go with another “cheaper” company (it’s only cheaper because they aren’t doing the work right). If you are beginning your mold remediation experience you’ll learn quickly that a lot…", when: "July 2026" },
-    { author: "Mark", rating: 5, text: "The Showalter Construction and Restoration Team as well as DryCor Restore have been a Great Help and Excellent Experience. From Initial assessment, Insurance navigation, Expert Advice, Execution of Restore have been spot on ! The Crew of Victor, Victor, Damen and Garrett are the best, Hard working…", when: "June 2026" },
-    { author: "Cindy", rating: 5, text: "I highly recommend Drycor Restore, and Showalter Construction and Restoration. I had a plumbing issue that allowed water to run unseen throughout the house for months, damaging all of my floors, and leaving mold in my bathroom and bedroom. The slab had to be dried throughout, sealed, and new floors…", when: "May 2026" },
-  ] as { author: string; rating: number; text: string; when: string }[],
-  tagline: "24/7 restoration services across Tampa Bay, FL.",
-  // Reworded per Rob 2026-09-15 call: replaces "we work with all insurance
-  // carriers" (no carrier names/logos, per Charles).
-  insuranceTrustLine: "Managed Repair Preferred Vendor for 34 Insurance Carriers in the State of Florida",
+  gbpRatingValue: "",
+  gbpReviewCount: "",
+  gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
+  tagline: "24/7 restoration services in Thonotosassa, FL.",
   ctaLabel: "24/7 Emergency Line",
   // Vertical trade-identity copy — resolved at scaffold time from
   // templates/{vertical}/vertical-tokens.json (see scripts/verticals.py).
   // Components must use these instead of hardcoding a trade phrase.
+  // vertical gates layout too: restoration is call-first, so the homepage
+  // hero renders NO estimate form there (Santino 2026-09-11).
+  vertical: "restoration",
   tradeNoun: "restoration",
   specialistPhrase: "Damage Restoration Specialists",
   announcementSuffix: "24/7 Emergency Response",
