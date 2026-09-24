@@ -239,3 +239,10 @@ filed ALL into branding/{cid}/docs/ where no team-photo consumer looks.
       team/, job-photos/inbox/, brand/, docs/; error fallback goes to
       job-photos/inbox (human-visible), never the docs shelf. Verified
       against Jaziel's actual photos: all -> team_photo.
+
+## 15. Review sender policy evolution (Santino 09-24)
+- [ ] Once the CRW A2P-local pilot completes (trust bundle -> brand ->
+      campaign), consider flipping review-sender preference to A2P-verified
+      LOCAL numbers where available (conversion play); toll-free approved
+      stays the floor. sender_preflight already hard-gates activation on an
+      approved sender — this only changes which approved sender wins.
