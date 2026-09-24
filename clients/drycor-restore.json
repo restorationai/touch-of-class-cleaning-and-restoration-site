@@ -13,7 +13,7 @@
     "url_count": 764,
     "generated_at": "2026-09-23T14:11:36.494282+00:00"
   },
-  "updated_at": "2026-09-24T15:34:28.935109+00:00",
+  "updated_at": "2026-09-24T21:46:01Z",
   "indexnow_key": "240bb5d741474b6c82ce0287639ce378",
   "build": {
     "scaffolded_at": "2026-09-11T21:37:06.902807+00:00",
@@ -38,5 +38,10 @@
   "brightlocal": {
     "location_id": 4147639,
     "campaign_id": 997476
+  },
+  "audit": {
+    "last_audit_at": "2026-09-24T21:46:01Z",
+    "last_audit_verdict": "red",
+    "last_audit_report_path": "audit-runs/2026-09-24-onsite-audit.md"
   }
 }

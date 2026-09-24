@@ -1,6 +1,6 @@
 {
   "slug": "coastal-restoration-services",
-  "generated_at": "2026-09-21T17:28:51Z",
+  "generated_at": "2026-09-24T20:30:34Z",
   "truth": {
     "hours": "",
     "is_247": false,
@@ -17,7 +17,7 @@
     "gbp_review_count": 29,
     "vertical": "restoration"
   },
-  "errors": 11,
+  "errors": 12,
   "review_flags": 14,
   "violations": [
     {
@@ -91,6 +91,15 @@
       "matched": "24-hour",
       "context": "insurance company.** Most carriers have 24-hour claims lines. Report the loss promptly,",
       "reason": "24-hour availability statement appears to describe a third party (carrier/utility) \u2014 verify it is not about the brand"
+    },
+    {
+      "file": "src/content/blog/water-damage-restoration-equipment.md",
+      "part": "body",
+      "family": "24/7",
+      "severity": "error",
+      "matched": "24 hours",
+      "context": "e loss dries faster than one that waits 24 hours. The crew checks readings daily and re",
+      "reason": "claims round-the-clock availability but brand.hours is \"(unset)\""
     },
     {
       "file": "src/content/locations/atascadero-ca__water-damage-restoration.md",
@@ -207,7 +216,7 @@
       "severity": "review",
       "matched": "reconstruction services",
       "context": "oastal Restoration Services Inc carries reconstruction services, drywall, flooring, cabinetry, painting",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, storm-damage-restoration, fire-damage-restoration, sewage-cleanup, emergency-board-up-tarping, mold-remediation"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: biohazard-cleanup, contents-restoration, contents-restoration-storage, crawl-space-encapsulation, emergency-board-up-tarping, fire-damage-restoration"
     },
     {
       "file": "src/content/serviceAreas/los-osos-ca.md",
@@ -216,7 +225,7 @@
       "severity": "review",
       "matched": "reconstruction services",
       "context": "off to a separate contractor, we carry reconstruction services in-house, drywall, flooring, cabinetry,",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, storm-damage-restoration, fire-damage-restoration, sewage-cleanup, emergency-board-up-tarping, mold-remediation"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: biohazard-cleanup, contents-restoration, contents-restoration-storage, crawl-space-encapsulation, emergency-board-up-tarping, fire-damage-restoration"
     },
     {
       "file": "src/content/serviceAreas/morro-bay-ca.md",
@@ -225,7 +234,7 @@
       "severity": "review",
       "matched": "structural reconstruction",
       "context": "nd smoke cleanup, mold remediation, and structural reconstruction, and we coordinate directly with insura",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, storm-damage-restoration, fire-damage-restoration, sewage-cleanup, emergency-board-up-tarping, mold-remediation"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: biohazard-cleanup, contents-restoration, contents-restoration-storage, crawl-space-encapsulation, emergency-board-up-tarping, fire-damage-restoration"
     },
     {
       "file": "src/content/serviceAreas/santa-ynez-ca.md",
@@ -234,7 +243,7 @@
       "severity": "review",
       "matched": "structural reconstruction",
       "context": "age restoration, biohazard cleanup, and structural reconstruction for residential and commercial properti",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, storm-damage-restoration, fire-damage-restoration, sewage-cleanup, emergency-board-up-tarping, mold-remediation"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: biohazard-cleanup, contents-restoration, contents-restoration-storage, crawl-space-encapsulation, emergency-board-up-tarping, fire-damage-restoration"
     },
     {
       "file": "src/content/services/water-damage-restoration.md",

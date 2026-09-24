@@ -1,0 +1,599 @@
+{
+  "schema_version": 1,
+  "slug": "drycor-restore",
+  "site": "staging.rankai-drycor-restore.pages.dev",
+  "live_origin": "https://staging.rankai-drycor-restore.pages.dev",
+  "live_origin_source": "staging",
+  "generated_at": "2026-09-24T21:46:01Z",
+  "audit_form_factor": "desktop",
+  "lighthouse_version": "13.4.0",
+  "audit_tooling": "DataForSEO REST /v3/on_page/lighthouse/live/json (for_mobile=false) + /v3/on_page/instant_pages (enable_javascript, load_resources, validate_micromarkup); MCP on_page_lighthouse / on_page_instant_pages tools not exposed in this build",
+  "lighthouse_detail": "captured (full audits parsed from disk)",
+  "url_selection": "auto-derived from plan/url-plan.json (no audit-urls.txt); service-landing tie at priority 9.0 (fire, mold, water) broken by plan order; primary area thonotosassa-fl has no page (folded into home) so first area in plan order (tampa-fl) used",
+  "environment_caveats": [
+    "SEO score inconclusive: staging noindex artifact (x-robots-tag: noindex on *.pages.dev, is-crawlable fails). SEO excluded from verdicts; re-audit after apex cutover.",
+    "Desktop-only Lighthouse (formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240). Mobile scores typically 10-20 performance points lower.",
+    "Client record status is 'onboarding', not 'active'; audit proceeded because build_status is pushed_main and the staging preview is live."
+  ],
+  "audited_urls": [
+    {
+      "url": "https://staging.rankai-drycor-restore.pages.dev/",
+      "archetype": "home",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 86,
+        "accessibility": 96,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1062,
+        "CLS": 0.2474,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "cumulative-layout-shift",
+          "title": "Cumulative Layout Shift",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "CLS 0.247 (threshold for good is 0.1)"
+        },
+        {
+          "id": "layout-shifts",
+          "title": "Avoid large layout shifts",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "Hero container header > div.container-wide shifts 0.247 when the Inter web font (fonts.gstatic.com) swaps in"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": 200,
+          "category": "performance",
+          "detail": "Est savings of 322 KiB: /images/hero-bg.webp 416 KB (245 KB waste), /images/logo-dark-bg.png 62 KB (61 KB waste)"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "detail": "Footer license link a.underline: #b7e1f5 on #ffffff, ratio 1.39 (needs 4.5)"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": null
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex artifact)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo",
+          "detail": "Staging artifact; clears at apex cutover"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "broken_resources",
+          "title": "og:image and twitter:image point at https://images.drycor.com/brand/hero.webp, which is NXDOMAIN (social shares render with no preview image). Visible hero is fine (local /images/hero-bg.webp).",
+          "severity": "medium",
+          "source": "direct-inspection"
+        },
+        {
+          "id": "description_length",
+          "title": "Meta description is 170 characters (target 70-160); it will truncate in the SERP",
+          "severity": "medium",
+          "source": "dataforseo-instant_pages meta.description_length"
+        }
+      ],
+      "onpage_score": 97.44,
+      "word_count": 1605,
+      "word_count_target": 1200
+    },
+    {
+      "url": "https://staging.rankai-drycor-restore.pages.dev/services/",
+      "archetype": "services-hub",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 96,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 809,
+        "CLS": 0.0043,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "best-practices",
+          "detail": "net::ERR_SOCKS_CONNECTION_FAILED for https://images.drycor.com/brand/hero.webp (host is NXDOMAIN)"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "detail": "Footer license link a.underline: #b7e1f5 on #ffffff, ratio 1.39 (needs 4.5)"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "Est savings of 135 KiB; /images/logo-dark-bg.png 62 KB with 61 KB waste on every page"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "LCP hero <img> lacks fetchpriority=high; also loading=lazy on the LCP image"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": null
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex artifact)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo",
+          "detail": "Staging artifact; clears at apex cutover"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "broken_resources",
+          "title": "Hero <img> src https://images.drycor.com/brand/hero.webp does not load: images.drycor.com is NXDOMAIN (GoDaddy DNS has no record). Page renders an empty hero. og:image and twitter:image point at the same dead URL.",
+          "severity": "high",
+          "source": "direct-inspection (curl + DNS lookup; DataForSEO instant_pages did not flag it)"
+        },
+        {
+          "id": "has_micromarkup_errors",
+          "title": "DataForSEO reports structured-data validation errors. Final BreadcrumbList ListItem has no item URL (pages without a BreadcrumbList, i.e. home, have no error).",
+          "severity": "medium",
+          "source": "dataforseo-instant_pages+direct-inspection"
+        }
+      ],
+      "onpage_score": 97.44,
+      "word_count": 813,
+      "word_count_target": 800
+    },
+    {
+      "url": "https://staging.rankai-drycor-restore.pages.dev/services/fire-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 818,
+        "CLS": 0.006,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "detail": "Footer license link a.underline: #b7e1f5 on #ffffff, ratio 1.39 (needs 4.5)"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "Est savings of 78 KiB; /images/logo-dark-bg.png 62 KB with 61 KB waste on every page"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "LCP hero <img> lacks fetchpriority=high"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": 50,
+          "category": "performance",
+          "detail": "Est savings of 50 ms"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex artifact)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo",
+          "detail": "Staging artifact; clears at apex cutover"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "DataForSEO reports structured-data validation errors. Final BreadcrumbList ListItem has no item URL (pages without a BreadcrumbList, i.e. home, have no error).",
+          "severity": "medium",
+          "source": "dataforseo-instant_pages+direct-inspection"
+        }
+      ],
+      "onpage_score": 97.44,
+      "word_count": 1981,
+      "word_count_target": 1100
+    },
+    {
+      "url": "https://staging.rankai-drycor-restore.pages.dev/services/mold-remediation/",
+      "archetype": "service-landing",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 816,
+        "CLS": 0.0059,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "detail": "Footer license link a.underline: #b7e1f5 on #ffffff, ratio 1.39 (needs 4.5)"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "Est savings of 59 KiB; /images/logo-dark-bg.png 62 KB with 61 KB waste on every page"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "LCP hero <img> lacks fetchpriority=high"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": null
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex artifact)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo",
+          "detail": "Staging artifact; clears at apex cutover"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "DataForSEO reports structured-data validation errors. Final BreadcrumbList ListItem has no item URL (pages without a BreadcrumbList, i.e. home, have no error).",
+          "severity": "medium",
+          "source": "dataforseo-instant_pages+direct-inspection"
+        }
+      ],
+      "onpage_score": 97.44,
+      "word_count": 1868,
+      "word_count_target": 1100
+    },
+    {
+      "url": "https://staging.rankai-drycor-restore.pages.dev/service-areas/tampa-fl/",
+      "archetype": "service-area",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 96,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 791,
+        "CLS": 0.0057,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "best-practices",
+          "detail": "net::ERR_SOCKS_CONNECTION_FAILED for https://images.drycor.com/brand/hero.webp (host is NXDOMAIN)"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "detail": "Footer license link a.underline: #b7e1f5 on #ffffff, ratio 1.39 (needs 4.5); also span.text-slate-400 (#94a3b8 on white, ratio 2.56)"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "Est savings of 59 KiB; /images/logo-dark-bg.png 62 KB with 61 KB waste on every page"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": 50,
+          "category": "performance",
+          "detail": "Est savings of 50 ms"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex artifact)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo",
+          "detail": "Staging artifact; clears at apex cutover"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "broken_resources",
+          "title": "Hero <img> src https://images.drycor.com/brand/hero.webp does not load: images.drycor.com is NXDOMAIN (GoDaddy DNS has no record). Page renders an empty hero. og:image and twitter:image point at the same dead URL.",
+          "severity": "high",
+          "source": "direct-inspection (curl + DNS lookup; DataForSEO instant_pages did not flag it)"
+        },
+        {
+          "id": "has_micromarkup_errors",
+          "title": "DataForSEO reports structured-data validation errors. Final BreadcrumbList ListItem has no item URL (pages without a BreadcrumbList, i.e. home, have no error).",
+          "severity": "medium",
+          "source": "dataforseo-instant_pages+direct-inspection"
+        },
+        {
+          "id": "frame",
+          "title": "Page contains an iframe (intentional Google Maps embed; no action)",
+          "severity": "low",
+          "source": "dataforseo-instant_pages"
+        }
+      ],
+      "onpage_score": 97.44,
+      "word_count": 1381,
+      "word_count_target": 900
+    },
+    {
+      "url": "https://staging.rankai-drycor-restore.pages.dev/contact/",
+      "archetype": "contact",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 96,
+        "best_practices": 96,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 774,
+        "CLS": 0.0074,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "best-practices",
+          "detail": "net::ERR_SOCKS_CONNECTION_FAILED for https://images.drycor.com/brand/hero.webp (host is NXDOMAIN)"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "detail": "Footer license link a.underline: #b7e1f5 on #ffffff, ratio 1.39 (needs 4.5)"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "Est savings of 59 KiB; /images/logo-dark-bg.png 62 KB with 61 KB waste on every page"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": null
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex artifact)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo",
+          "detail": "Staging artifact; clears at apex cutover"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "broken_resources",
+          "title": "Hero <img> src https://images.drycor.com/brand/hero.webp does not load: images.drycor.com is NXDOMAIN (GoDaddy DNS has no record). Page renders an empty hero. og:image and twitter:image point at the same dead URL.",
+          "severity": "high",
+          "source": "direct-inspection (curl + DNS lookup; DataForSEO instant_pages did not flag it)"
+        },
+        {
+          "id": "has_micromarkup_errors",
+          "title": "DataForSEO reports structured-data validation errors. Final BreadcrumbList ListItem has no item URL (pages without a BreadcrumbList, i.e. home, have no error).",
+          "severity": "medium",
+          "source": "dataforseo-instant_pages+direct-inspection"
+        }
+      ],
+      "onpage_score": 97.44,
+      "word_count": 701,
+      "word_count_target": 400
+    }
+  ],
+  "site_rollup": {
+    "avg_scores": {
+      "performance": 97.5,
+      "accessibility": 95.3,
+      "best_practices": 98.0,
+      "seo": 69.0
+    },
+    "verdict": "red",
+    "url_count": 6,
+    "urls_by_verdict": {
+      "green": 0,
+      "amber": 3,
+      "red": 3,
+      "error": 0
+    },
+    "template_issues": [
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "affected_urls": 6,
+        "severity": "medium"
+      },
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "affected_urls": 6,
+        "severity": "medium"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing (staging x-robots-tag: noindex artifact)",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "has_micromarkup_errors",
+        "title": "DataForSEO reports structured-data validation errors (BreadcrumbList final item has no item URL)",
+        "affected_urls": 5,
+        "severity": "medium"
+      },
+      {
+        "id": "broken_resources",
+        "title": "Hero and og:image served from https://images.drycor.com, which does not resolve (NXDOMAIN)",
+        "affected_urls": 4,
+        "severity": "high"
+      },
+      {
+        "id": "errors-in-console",
+        "title": "Browser errors were logged to the console",
+        "affected_urls": 3,
+        "severity": "medium"
+      },
+      {
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
+        "affected_urls": 3,
+        "severity": "low"
+      }
+    ],
+    "money_page_alerts": [
+      {
+        "url": "https://staging.rankai-drycor-restore.pages.dev/",
+        "archetype": "home",
+        "verdict": "amber",
+        "main_issue": "performance 86 (CLS 0.247 from web-font swap in the hero); og:image on dead images.drycor.com host; meta description 170 chars"
+      },
+      {
+        "url": "https://staging.rankai-drycor-restore.pages.dev/services/",
+        "archetype": "services-hub",
+        "verdict": "red",
+        "main_issue": "hero image on dead images.drycor.com host (NXDOMAIN), console error, schema errors"
+      },
+      {
+        "url": "https://staging.rankai-drycor-restore.pages.dev/services/fire-damage-restoration/",
+        "archetype": "service-landing",
+        "verdict": "amber",
+        "main_issue": "structured-data errors (BreadcrumbList); Lighthouse 100/95/100"
+      },
+      {
+        "url": "https://staging.rankai-drycor-restore.pages.dev/services/mold-remediation/",
+        "archetype": "service-landing",
+        "verdict": "amber",
+        "main_issue": "structured-data errors (BreadcrumbList); Lighthouse 100/95/100"
+      },
+      {
+        "url": "https://staging.rankai-drycor-restore.pages.dev/contact/",
+        "archetype": "contact",
+        "verdict": "red",
+        "main_issue": "hero image on dead images.drycor.com host (NXDOMAIN), console error, schema errors"
+      }
+    ]
+  },
+  "regression": {
+    "prior_run_at": null,
+    "score_deltas": null,
+    "verdict_transitions": [],
+    "new_issues": [],
+    "resolved_issues": [],
+    "note": "First audit for this client - no comparison data."
+  },
+  "cost_usd": 0.0408
+}

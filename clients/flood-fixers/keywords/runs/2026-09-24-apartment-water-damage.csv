@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+ceiling water damage repair,transactional,1900,0,31.06,1,apartment water damage,,,yes
+ceiling water leak repair,transactional,140,0,42.99,1,apartment water damage,,,no
+water leak in ceiling who to call,transactional,90,0,51.66,1,apartment water damage,,,no
+apartment water damage san diego,transactional,,,,2,apartment water damage,San Diego,,no
+san diego apartment water damage,transactional,,,,2,apartment water damage,San Diego,,no
+ceiling water damage repair san diego,transactional,,,,2,apartment water damage,San Diego,,no
+emergency ceiling water leak repair san diego,transactional,,,,2,apartment water damage,San Diego,,no
+ceiling water damage repair in chula vista,transactional,,,,2,apartment water damage,Chula Vista,,no
+ceiling water damage repair oceanside,transactional,,,,2,apartment water damage,Oceanside,,no
+escondido ceiling water damage repair,transactional,,,,2,apartment water damage,Escondido,,no
+ceiling water damage,informational,2900,0,59.84,1,apartment water damage,,,no
+ceiling water leak,informational,2900,0,52.48,1,apartment water damage,,,yes
+condo insurance water damage,informational,1000,0,0.67,1,apartment water damage,,,yes
+water spots on ceiling but no leak,informational,590,0,20.61,1,apartment water damage,,,yes
+minor ceiling water damage,informational,590,0,32.96,1,apartment water damage,,,no
+water leaking from ceiling under bathroom,informational,320,0,35.5,1,apartment water damage,,,no
+apartment water damage,informational,260,0,144.42,1,apartment water damage,,,no
+my apartment flooded what are my rights,informational,260,0,8.06,1,apartment water damage,,,yes
+how long does a landlord have to fix water damage,informational,170,2,17.27,1,apartment water damage,,,no
+water leak in apartment,informational,170,0,194.87,1,apartment water damage,,,no
+water damage bathroom ceiling,informational,140,0,19.06,1,apartment water damage,,,no
+water leak in apartment ceiling,informational,110,0,5.33,1,apartment water damage,,,no
+apartment water pipe burst,informational,90,0,119.37,1,apartment water damage,,,no
+what to do if your apartment floods,informational,90,0,26.0,1,apartment water damage,,,no
+water leaking from upstairs bathroom,informational,90,8,14.53,1,apartment water damage,,,no
+ceiling damage from water leak,informational,70,4,12.06,1,apartment water damage,,,no
+plumbing leak in ceiling,informational,70,4,60.1,1,apartment water damage,,,no
+apartment flooded what to do,informational,70,0,48.57,1,apartment water damage,,,no
+leak from upstairs condo who pays,informational,50,0,6.29,1,apartment water damage,,,no
+water leak in condo who is responsible,informational,50,0,77.05,1,apartment water damage,,,no
+water spot on ceiling below bathroom,informational,50,0,36.21,1,apartment water damage,,,no
+does renters insurance cover flood damage,informational,480,14,6.36,2,apartment water damage,,,no
+water damage in apartment who is responsible,informational,70,0,202.75,2,apartment water damage,,,no
+water leak in apartment who is responsible,informational,70,3,13.52,2,apartment water damage,,,no
+leak in apartment ceiling who is responsible,informational,70,0,25.37,2,apartment water damage,,,no
+tenant negligence water damage,informational,50,0,,2,apartment water damage,,,no
+who is responsible for condo water damage,informational,40,0,43.83,2,apartment water damage,,,no
+apartment flooded no renters insurance,informational,40,0,,2,apartment water damage,,,no
+do i have to pay rent if my apartment flooded,informational,30,0,,2,apartment water damage,,,no
+does renters insurance cover water damage from burst pipes,informational,20,0,,2,apartment water damage,,,no

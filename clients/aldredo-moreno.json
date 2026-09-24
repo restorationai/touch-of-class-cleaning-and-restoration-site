@@ -13,7 +13,7 @@
     "url_count": 160,
     "generated_at": "2026-09-22T18:09:48.940636+00:00"
   },
-  "updated_at": "2026-09-24T15:24:25.520262+00:00",
+  "updated_at": "2026-09-24T21:04:39Z",
   "indexnow_key": "93078ed3113c4f9cb49adcf2d6649af1",
   "build": {
     "scaffolded_at": "2026-09-09T01:36:42.898954+00:00",
@@ -33,5 +33,10 @@
     "backlinked_count": 1,
     "redirects_added": 0,
     "mapped_at": "2026-09-18T18:27:46+00:00"
+  },
+  "audit": {
+    "last_audit_at": "2026-09-24T21:03:52Z",
+    "last_audit_verdict": "red",
+    "last_audit_report_path": "audit-runs/2026-09-24-onsite-audit.md"
   }
 }

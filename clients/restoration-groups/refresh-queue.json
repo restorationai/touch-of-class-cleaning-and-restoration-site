@@ -3,7 +3,7 @@
   "slug": "restoration-groups",
   "site": "therestorationgroup.com",
   "origin": "https://therestorationgroup.com",
-  "generated_at": "2026-07-30T18:37:00Z",
+  "generated_at": "2026-09-24T20:30:00Z",
   "gsc_enabled": false,
   "totals": {
     "total_actions": 0,
@@ -22,12 +22,12 @@
   },
   "items": [],
   "notes": [
-    "URLs skipped because already in content-queue: [] (the 8 active content-queue items are all status=queued with no post_url yet, so none maps to a live site URL; the 2 items that do carry a post_url are status=written and status=published, which are outside the skip set)",
-    "URLs where date extraction failed: [] (all 120 candidates resolved a date; 104 from json_ld_date_modified, 16 from sitemap_lastmod)",
-    "v1 limitations: no GSC indexing flags (not_indexed and index_warning are deferred to v2, so request_indexing and fix_canonical are unreachable this run). No search_signals on any candidate, so striking_queries and low_ctr did not fire either.",
-    "All 120 inspected URLs are fresh: every candidate has an empty flag list and the oldest is 41 days (/blog/how-long-does-water-damage-restoration-take/), well under the 305-day aging threshold. No refresh or audit_then_decide actions warranted this cycle.",
-    "Date-signal gap: all 8 money pages in this sample derive age from sitemap_lastmod (2026-07-11 for the sitewide pages, 2026-07-18 for the service-area pages) with no json_ld_date_modified or article_modified_time in the HTML. Their age tracks the last site build, not the last content edit.",
-    "Coverage cap: the sitemap holds 943 URLs and the scorer inspected 120 (the default --max-urls). 90 service-area-service pages and 6 of 53 service-area pages were sampled; the 16 service-landing pages in the url-plan were not reached at all. Age scoring for the bulk of the site is unmeasured this run.",
-    "First refresh run for this client: no prior refresh-queue.json existed, so no in_progress or completed items were carried forward."
+    "URLs skipped because already in content-queue: [] (the 10 active content-queue items are all status=queued with no post_url yet, so none maps to a live site URL)",
+    "URLs where date extraction failed: [] (all 120 candidates resolved a date; 103 from json_ld_date_modified, 17 from sitemap_lastmod)",
+    "v1 limitations: no GSC indexing flags (not_indexed and index_warning are deferred to v2, so request_indexing and fix_canonical are unreachable). No search_signals on any candidate, so striking_queries and low_ctr did not fire either.",
+    "All 120 inspected URLs are fresh: every candidate has an empty flag list and the oldest is 97 days (/blog/how-long-does-water-damage-restoration-take/, date_source json_ld_date_modified), 208 days short of the 305-day aging threshold. No refresh or audit_then_decide actions warranted this cycle.",
+    "Date-signal gap: the 17 URLs dated by sitemap_lastmod (home, contact, and sampled service-area pages) carry no json_ld_date_modified or article_modified_time in the HTML, so their age tracks the last site build rather than the last content edit.",
+    "Coverage cap: the scorer inspected 120 URLs (default --max-urls) against a url-plan of 1301 pages. Most service-area-service pages and all unsampled service-landing pages were not age-scored this run.",
+    "Prior queue (2026-07-30) had 0 items, so no in_progress or completed items were carried forward."
   ]
 }

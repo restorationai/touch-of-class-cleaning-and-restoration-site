@@ -558,6 +558,185 @@
         "https://www.iicrc.org/page/IICRCS500"
       ],
       "notes": "A numbered process explainer is the passage format AI engines lift verbatim, which is the whole point of queueing a term with no measured volume. Walk the real IICRC S500 sequence: emergency contact and make-safe, inspection and moisture mapping, extraction, demolition of unsalvageable porous materials, structural drying with air movers and dehumidifiers, daily moisture readings to dry standard, then reconstruction. Absorb the drywall-replacement and how-do-you-know-it-is-dry questions as their own H2s."
+    },
+    {
+      "id": "2026-09-24-flooded-basement-cleanup-cost-sterling-heights",
+      "status": "queued",
+      "queued_at": "2026-09-24T20:45:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "flooded basement cleanup cost",
+      "intent": "commercial",
+      "volume": 210,
+      "kd": 0,
+      "fan_out_cluster": [
+        "flooded basement repair",
+        "flood damage repair",
+        "water damage restoration cost per square foot",
+        "flooded basement insurance claim",
+        "does home insurance cover flooded basement"
+      ],
+      "suggested_slug": "flooded-basement-cleanup-cost-sterling-heights",
+      "suggested_title": "Flooded basement cleanup cost in Sterling Heights, MI: what drives the price",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-cleanup/",
+        "/services/water-damage-restoration/",
+        "/service-areas/sterling-heights-mi/water-cleanup/"
+      ],
+      "service_tags": [
+        "water-cleanup",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "sterling-heights-mi",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Commercial-intent cost guide, basement-specific (distinct from the published water damage restoration cost post: link to it, do not repeat it). Break out cost drivers: water category (clean vs sewage), square footage and depth, finished vs unfinished, days of drying equipment, demo and disposal. Use ranges and drivers, never a fabricated flat price. KD 0 nationally."
+    },
+    {
+      "id": "2026-09-24-flooded-basement-what-to-do-macomb",
+      "status": "queued",
+      "queued_at": "2026-09-24T20:45:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "flooded basement what to do",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": 5,
+      "fan_out_cluster": [
+        "how to clean up a flooded basement",
+        "what should i do when my basement is flooded",
+        "how to get water out of a flooded basement",
+        "what to throw away after a basement flood",
+        "how long to dry out a flooded basement",
+        "what to do immediately after basement floods"
+      ],
+      "suggested_slug": "flooded-basement-what-to-do-macomb",
+      "suggested_title": "Flooded basement: what to do in the first hours (Macomb, MI)",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-cleanup/",
+        "/services/water-damage-restoration/",
+        "/blog/what-to-do-first-24-hours-water-damage/"
+      ],
+      "service_tags": [
+        "water-cleanup",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "macomb-mi",
+      "external_authority_candidates": [
+        "https://www.michigan.gov/mdhhs/inside-mdhhs/newsroom/2023/08/25/flood-information",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Basement-specific action guide: power and gas safety first, figure out the water source (groundwater seepage, sump failure, floor-drain sewer backup), document for the insurer, then extract and dry. Must not cannibalize /blog/what-to-do-first-24-hours-water-damage/ (generic water damage): stay on basements, link to it once. ChatGPT's answer for Michigan homeowners cited MDHHS and DIFS guidance, so cite both. Michigan volume for this term is 140/mo with a large April spike (spring thaw and storms)."
+    },
+    {
+      "id": "2026-09-24-how-to-disinfect-a-flooded-basement-warren",
+      "status": "queued",
+      "queued_at": "2026-09-24T20:45:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to disinfect a flooded basement",
+      "intent": "informational",
+      "volume": 480,
+      "kd": 10,
+      "fan_out_cluster": [
+        "is flood water in my basement dangerous",
+        "basement flooded with sewage",
+        "category 3 water damage",
+        "what to throw away after a basement flood",
+        "does insurance cover sewer backup"
+      ],
+      "suggested_slug": "how-to-disinfect-a-flooded-basement-warren",
+      "suggested_title": "How to disinfect a flooded basement safely (Warren, MI)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/sewage-cleanup/",
+        "/services/water-cleanup/",
+        "/service-areas/warren-mi/sewage-cleanup/"
+      ],
+      "service_tags": [
+        "sewage-cleanup",
+        "water-cleanup"
+      ],
+      "city_anchor": "warren-mi",
+      "external_authority_candidates": [
+        "https://www.michigan.gov/mdhhs/-/media/Project/Websites/mdhhs/Safety-and-Injury-Prevention/Environmental-Health/Climate/Documents/After_a_Flood.pdf",
+        "https://www.epa.gov/flooded-homes"
+      ],
+      "notes": "Floodwater and floor-drain backups are often Category 3 (sewage). Explain what can be cleaned and sanitized (hard, non-porous surfaces) vs what must be discarded (carpet, pad, saturated drywall and insulation), PPE per MDHHS, and never mixing bleach with ammonia cleaners. Warren is a client priority area and saw widespread basement backups in the 2021 Detroit-area floods. Link the published category 3 post."
+    },
+    {
+      "id": "2026-09-24-who-to-call-for-flooded-basement-clinton-township",
+      "status": "queued",
+      "queued_at": "2026-09-24T20:45:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "who to call for flooded basement",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 0,
+      "fan_out_cluster": [
+        "should i call insurance or restoration company first",
+        "plumber for flooded basement",
+        "flooded basement insurance claim",
+        "sump pump not working basement flooded",
+        "basement flooded with sewage"
+      ],
+      "suggested_slug": "who-to-call-for-flooded-basement-clinton-township",
+      "suggested_title": "Who to call for a flooded basement: plumber, restoration company, or insurer? (Clinton Township, MI)",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/water-cleanup/",
+        "/services/water-damage-restoration/",
+        "/services/sewage-cleanup/",
+        "/service-areas/clinton-township-mi/water-cleanup/"
+      ],
+      "service_tags": [
+        "water-cleanup",
+        "water-damage-restoration",
+        "sewage-cleanup"
+      ],
+      "city_anchor": "clinton-township-mi",
+      "external_authority_candidates": [
+        "https://www.michigan.gov/difs/consumers/disaster-prep/flood"
+      ],
+      "notes": "Decision-stage query with a Michigan PPC CPC over $200, so the reader is close to hiring. Order of calls by situation: utility or electrician if water reaches outlets or the panel, plumber for an active supply leak, restoration company for extraction and drying, insurer (DIFS says report promptly and photograph before cleanup), municipality for a city sewer backup. Absorbs the banked 'should i call insurance or restoration company first' question as an H2."
+    },
+    {
+      "id": "2026-09-24-water-heater-in-flooded-basement-chesterfield",
+      "status": "queued",
+      "queued_at": "2026-09-24T20:45:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water heater in flooded basement",
+      "intent": "informational",
+      "volume": 170,
+      "kd": 0,
+      "fan_out_cluster": [
+        "basement flooded hot water heater",
+        "is flood water in my basement dangerous",
+        "sump pump not working basement flooded",
+        "what damage can a flood cause"
+      ],
+      "suggested_slug": "water-heater-in-flooded-basement-chesterfield",
+      "suggested_title": "Water heater in a flooded basement: is it safe to use? (Chesterfield, MI)",
+      "target_word_count": 1200,
+      "internal_link_targets": [
+        "/services/water-cleanup/",
+        "/services/water-damage-restoration/",
+        "/service-areas/chesterfield-mi/water-cleanup/"
+      ],
+      "service_tags": [
+        "water-cleanup",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "chesterfield-mi",
+      "external_authority_candidates": [
+        "https://www.michigan.gov/mdhhs/inside-mdhhs/newsroom/2023/08/25/flood-information"
+      ],
+      "notes": "Most Macomb County homes keep the gas water heater and furnace in the basement, so this safety question follows almost every basement flood. Core message: if water reached the burner, controls, or gas valve, do not relight it; shut gas and power and have a licensed plumber or HVAC tech inspect or replace. Include carbon monoxide warnings (never run generators or fuel equipment indoors). Stay inside restoration scope: we do extraction and drying, the appliance call goes to a licensed tech."
     }
   ]
 }

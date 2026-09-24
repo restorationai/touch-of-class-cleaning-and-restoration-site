@@ -1,6 +1,6 @@
 {
   "slug": "life-savers-restoration-llc",
-  "generated_at": "2026-09-21T17:28:54Z",
+  "generated_at": "2026-09-24T20:30:35Z",
   "truth": {
     "hours": "24/7",
     "is_247": true,
@@ -96,7 +96,7 @@
       "severity": "review",
       "matched": "structural reconstruction",
       "context": "ng and repainting a single room to full structural reconstruction, depending on the extent of the loss. A",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, mold-remediation, fire-damage-restoration, storm-damage-restoration, sewage-cleanup, biohazard-cleanup"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: biohazard-cleanup, contents-restoration, contents-restoration-storage, fire-damage-restoration, mold-remediation, odor-removal"
     }
   ]
 }

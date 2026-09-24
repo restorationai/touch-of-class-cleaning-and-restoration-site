@@ -1,6 +1,6 @@
 {
   "slug": "homelyft-restoration-ms",
-  "generated_at": "2026-09-21T17:28:53Z",
+  "generated_at": "2026-09-24T20:30:35Z",
   "truth": {
     "hours": "24/7",
     "is_247": true,
@@ -21,21 +21,12 @@
     "response_minutes": null,
     "family_owned": false,
     "founded_year": "2022",
-    "gbp_review_count": 52,
+    "gbp_review_count": 54,
     "vertical": "restoration"
   },
   "errors": 0,
   "review_flags": 10,
   "violations": [
-    {
-      "file": "src/content/blog/best-water-damage-restoration-company-in-gulfport-ms.md",
-      "part": "body",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "roofing services",
-      "context": "ny with a focus on foundation and waterproofing services. For homeowners dealing with water intr",
-      "reason": "names the 'roof' service family but plan-input services are only: water-damage-restoration, fire-damage-restoration, mold-remediation, storm-damage-restoration, sewage-cleanup, general-contracting"
-    },
     {
       "file": "src/content/blog/best-water-damage-restoration-company-in-gulfport-ms.md",
       "part": "body",
@@ -59,6 +50,15 @@
       "part": "body",
       "family": "reviews",
       "severity": "review",
+      "matched": "42 reviews",
+      "context": "prings holds a 4.8 Google rating across 42 reviews. They are a franchise-backed restoratio",
+      "reason": "listicle review-count 42 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-gulfport-ms.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
       "matched": "11 reviews",
       "context": "Coast holds a 5.0 Google rating across 11 reviews. They are a franchise-affiliated water",
       "reason": "listicle review-count 11 (competitor stat \u2014 verify it is not presented as ours)"
@@ -70,7 +70,7 @@
       "severity": "review",
       "matched": "structural reconstruction",
       "context": "anup, sewage and biohazard cleanup, and structural reconstruction with our own crews. We don't hand Agric",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, fire-damage-restoration, mold-remediation, storm-damage-restoration, sewage-cleanup, general-contracting"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: asbestos-abatement, biohazard-cleanup, carpet-cleaning, contents-restoration, contents-restoration-storage, crawl-space-encapsulation"
     },
     {
       "file": "src/content/serviceAreas/agricola-ms.md",
@@ -79,7 +79,7 @@
       "severity": "review",
       "matched": "structural reconstruction",
       "context": "ation, fire and smoke cleanup, and full structural reconstruction. We work directly with your insurance c",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, fire-damage-restoration, mold-remediation, storm-damage-restoration, sewage-cleanup, general-contracting"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: asbestos-abatement, biohazard-cleanup, carpet-cleaning, contents-restoration, contents-restoration-storage, crawl-space-encapsulation"
     },
     {
       "file": "src/content/serviceAreas/diamondhead-ms.md",
@@ -88,7 +88,7 @@
       "severity": "review",
       "matched": "reconstruction services",
       "context": "such as sewage backups. We also provide reconstruction services once mitigation is complete, so you are",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, fire-damage-restoration, mold-remediation, storm-damage-restoration, sewage-cleanup, general-contracting"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: asbestos-abatement, biohazard-cleanup, carpet-cleaning, contents-restoration, contents-restoration-storage, crawl-space-encapsulation"
     },
     {
       "file": "src/content/serviceAreas/hattiesburg-ms.md",
@@ -97,7 +97,7 @@
       "severity": "review",
       "matched": "structural reconstruction",
       "context": "emediation, fire and smoke cleanup, and structural reconstruction for homeowners and property managers th",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, fire-damage-restoration, mold-remediation, storm-damage-restoration, sewage-cleanup, general-contracting"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: asbestos-abatement, biohazard-cleanup, carpet-cleaning, contents-restoration, contents-restoration-storage, crawl-space-encapsulation"
     },
     {
       "file": "src/content/serviceAreas/pascagoula-ms.md",
@@ -106,7 +106,7 @@
       "severity": "review",
       "matched": "reconstruction services",
       "context": "an coordinating a separate GC. We carry reconstruction services in-house, drywall, flooring, cabinetry,",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, fire-damage-restoration, mold-remediation, storm-damage-restoration, sewage-cleanup, general-contracting"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: asbestos-abatement, biohazard-cleanup, carpet-cleaning, contents-restoration, contents-restoration-storage, crawl-space-encapsulation"
     },
     {
       "file": "src/content/serviceAreas/pass-christian-ms.md",
@@ -115,7 +115,7 @@
       "severity": "review",
       "matched": "structural reconstruction",
       "context": "m initial extraction and drying to full structural reconstruction, and working directly with insurance ca",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, fire-damage-restoration, mold-remediation, storm-damage-restoration, sewage-cleanup, general-contracting"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: asbestos-abatement, biohazard-cleanup, carpet-cleaning, contents-restoration, contents-restoration-storage, crawl-space-encapsulation"
     }
   ]
 }

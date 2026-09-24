@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+flood damage repair,transactional,1300,22,125.43,2,flood damage cleanup,,,no
+flooded basement repair,transactional,720,7,59.82,2,flooded basement,,,no
+flood damage restoration,transactional,90500,9,56.62,3,flood damage cleanup,,/services/water-damage-restoration/,no
+flooded basement cleanup near me,transactional,12100,0,33.97,3,flooded basement,,/services/water-cleanup/,no
+flooded basement cleanup,transactional,1600,4,46.83,3,flood damage cleanup,,/services/water-cleanup/,no
+flood damage cleanup,transactional,720,35,80.01,3,flood damage cleanup,,/services/water-cleanup/,no
+flood damage cleanup near me,transactional,480,5,51.65,3,flood damage cleanup,,/services/water-cleanup/,no
+flood damage cleanup company,transactional,140,12,5.98,3,flood damage cleanup,,/services/water-cleanup/,no
+flooded basement water removal,transactional,90,11,90.48,3,flooded basement,,/services/water-cleanup/,no
+emergency flooded basement,transactional,90,1,121.36,3,flooded basement,,/services/water-cleanup/,no
+basement flooded with sewage,transactional,90,0,83.31,3,flooded basement,,/services/sewage-cleanup/,no
+flood damage cleanup macomb mi,transactional,,,,3,flood damage cleanup,Macomb,/services/water-cleanup/,no
+flood damage cleanup warren mi,transactional,,,,3,flood damage cleanup,Warren,/service-areas/warren-mi/water-cleanup/,no
+flood damage cleanup sterling heights mi,transactional,,,,3,flood damage cleanup,Sterling Heights,/service-areas/sterling-heights-mi/water-cleanup/,no
+flood damage cleanup clinton township mi,transactional,,,,3,flood damage cleanup,Clinton Township,/service-areas/clinton-township-mi/water-cleanup/,no
+flooded basement cleanup warren mi,transactional,,,,3,flooded basement cleanup,Warren,/service-areas/warren-mi/water-cleanup/,no
+flooded basement cleanup clinton township mi,transactional,,,,3,flooded basement cleanup,Clinton Township,/service-areas/clinton-township-mi/water-cleanup/,no
+emergency flood cleanup macomb mi,transactional,,,,3,flood damage cleanup,Macomb,/services/water-cleanup/,no
+warren flooded basement,transactional,,,,3,flooded basement,Warren,/service-areas/warren-mi/water-cleanup/,no
+flooded basement cleanup cost,commercial,210,0,31.07,1,flooded basement cleanup,,,yes
+flooded basement what to do,informational,1000,5,55.81,1,flooded basement,,,yes
+how to disinfect a flooded basement,informational,480,10,33.16,1,flooded basement,,,yes
+what damage can a flood cause,informational,320,26,,1,flood damage cleanup,,,no
+who to call for flooded basement,informational,260,0,53.19,1,flooded basement,,,yes
+water heater in flooded basement,informational,170,0,69.46,1,flooded basement,,,yes
+flooded finished basement,informational,70,9,42.68,1,flooded basement,,,no
+how to clean up a flooded basement,informational,480,10,33.16,2,flooded basement,,,no
+dehumidifier for flooded basement,informational,480,0,3.17,2,flooded basement,,,no
+does home insurance cover flooded basement,informational,390,0,5.9,2,flooded basement,,,no
+does homeowners insurance cover flood damage,informational,260,46,12.05,2,flood damage cleanup,,,no
+sump pump not working basement flooded,informational,110,0,30.96,2,flooded basement,,,no
+basement flooded after heavy rain,informational,90,0,45.66,2,flooded basement,,,no
+how to get water out of a flooded basement,informational,90,5,29.5,2,flooded basement,,,no
+how to dry flooded basement,informational,70,0,12.5,2,flooded basement,,,no
+what should i do when my basement is flooded,informational,70,5,21.22,2,flooded basement,,,no
+flooded basement insurance claim,informational,70,12,10.93,2,flooded basement,,,no
+flood damage insurance claim,informational,70,34,4.72,2,flood damage cleanup,,,no
+fema grants for flood damage,informational,70,25,,2,flood damage cleanup,,,no
+is flood water in my basement dangerous,informational,,,,2,flood damage cleanup,,,no
+what to throw away after a basement flood,informational,,,,2,flood damage cleanup,,,no

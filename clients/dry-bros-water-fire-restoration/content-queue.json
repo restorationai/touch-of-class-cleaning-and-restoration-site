@@ -522,6 +522,208 @@
     "https://www.epa.gov/emergencies-iaq/flood-cleanup-protect-indoor-air-and-your-health"
    ],
    "notes": "DIY-intent query that has to hand off to the service page honestly: shop vac and fans are fine for clean water in a small area, but sewer backup (category 3) and anything under wall cavities is professional work per EPA guidance. Oak Park and the near-west suburbs flood through sewer backups during heavy rain, so cover the backup scenario explicitly and cross-link sewage cleanup."
+  },
+  {
+   "id": "2026-09-24-does-renters-insurance-cover-water-damage-chicago",
+   "status": "queued",
+   "queued_at": "2026-09-24T20:28:17Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "does renters insurance cover water damage",
+   "intent": "informational",
+   "volume": 1000,
+   "kd": 21,
+   "fan_out_cluster": [
+    "does renters insurance cover water leak damage",
+    "will renters insurance cover water damage from upstairs neighbor",
+    "who is responsible for water damage in a condo",
+    "water damage from upstairs neighbor",
+    "renters insurance water damage chicago",
+    "does renters insurance cover mold from a leak"
+   ],
+   "suggested_slug": "does-renters-insurance-cover-water-damage-chicago",
+   "suggested_title": "Does Renters Insurance Cover Water Damage? What Chicago Renters Need to Know",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/water-cleanup/",
+    "/blog/does-homeowners-insurance-cover-water-damage/",
+    "/blog/what-to-do-first-24-hours-water-damage/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "water-cleanup"
+   ],
+   "city_anchor": "chicago-il",
+   "external_authority_candidates": [
+    "https://insurance.illinois.gov/",
+    "https://content.naic.org/consumer/renters-insurance",
+    "https://www.iii.org/article/renters-insurance"
+   ],
+   "notes": "HO-4 covers the renter's personal property and loss of use, not the building (landlord's policy). Cover sudden-and-accidental vs gradual leaks, upstairs-unit leaks in Chicago two-flats and condo buildings, and the landlord/HOA notification step. Contrast with the existing homeowners insurance post and link to it.",
+   "source": "keyword-researcher",
+   "seed": "what to do after water damage"
+  },
+  {
+   "id": "2026-09-24-how-to-fix-water-damage-on-ceiling-evanston",
+   "status": "queued",
+   "queued_at": "2026-09-24T20:28:17Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "how to fix water damage on ceiling",
+   "intent": "informational",
+   "volume": 1000,
+   "kd": 0,
+   "fan_out_cluster": [
+    "how to repair ceiling water damage",
+    "ceiling water damage repair chicago",
+    "fixing ceiling after water damage",
+    "how to repair ceiling after water damage",
+    "signs a water damaged ceiling may collapse",
+    "water damage from upstairs neighbor"
+   ],
+   "suggested_slug": "how-to-fix-water-damage-on-ceiling-evanston",
+   "suggested_title": "How to Fix Water Damage on Ceiling Drywall in Evanston (and When It Needs a Pro)",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/service-areas/evanston-il/water-damage-restoration/",
+    "/services/burst-pipe-repair/",
+    "/services/mold-remediation/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "burst-pipe-repair"
+   ],
+   "city_anchor": "evanston-il",
+   "external_authority_candidates": [
+    "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+    "https://www.iicrc.org/page/IICRCS500"
+   ],
+   "notes": "Lead with finding and stopping the source (roof, upstairs bath, pipe), sagging-ceiling safety, and moisture readings before any patching. Stain-only DIY vs saturated drywall that must come down. Evanston's older housing stock (plaster and lath) is a good local angle.",
+   "source": "keyword-researcher",
+   "seed": "what to do after water damage"
+  },
+  {
+   "id": "2026-09-24-drywall-repair-after-water-damage-naperville",
+   "status": "queued",
+   "queued_at": "2026-09-24T20:28:17Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "drywall repair after water damage",
+   "intent": "informational",
+   "volume": 880,
+   "kd": 0,
+   "fan_out_cluster": [
+    "does drywall need to be replaced after water damage",
+    "replacing drywall after water damage",
+    "how to dry drywall after water damage",
+    "wet drywall how long before mold",
+    "how to dry out walls after water damage",
+    "drywall repair after water damage chicago"
+   ],
+   "suggested_slug": "drywall-repair-after-water-damage-naperville",
+   "suggested_title": "Drywall Repair After Water Damage in Naperville: Dry It, Cut It, or Replace It?",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/service-areas/naperville-il/water-damage-restoration/",
+    "/services/basement-flooding-cleanup/",
+    "/services/mold-remediation/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "basement-flooding-cleanup"
+   ],
+   "city_anchor": "naperville-il",
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500",
+    "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
+   ],
+   "notes": "Frame from the mitigation side: water category, moisture mapping, flood cuts at 2 ft/4 ft, when drywall can be dried in place. Reconstruction is not a planned service, so stop at 'dried and ready for rebuild'; do not promise drywall hanging/finishing. Naperville finished basements are the local angle.",
+   "source": "keyword-researcher",
+   "seed": "what to do after water damage"
+  },
+  {
+   "id": "2026-09-24-how-fast-does-mold-grow-after-water-damage-chicago",
+   "status": "queued",
+   "queued_at": "2026-09-24T20:28:17Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "how fast does mold grow after water damage",
+   "intent": "informational",
+   "volume": 110,
+   "kd": 1,
+   "fan_out_cluster": [
+    "how long after water damage does mold grow",
+    "is mold from water damage dangerous",
+    "what to spray to prevent mold after water damage",
+    "how to prevent mold after water damage",
+    "how to check for mold after water damage",
+    "wet drywall how long before mold",
+    "mold after water damage chicago"
+   ],
+   "suggested_slug": "how-fast-does-mold-grow-after-water-damage-chicago",
+   "suggested_title": "How Fast Does Mold Grow After Water Damage? A Chicago Homeowner's 48-Hour Guide",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/mold-remediation/",
+    "/services/water-damage-restoration/",
+    "/blog/signs-of-hidden-mold/",
+    "/blog/black-mold-vs-regular-mold/"
+   ],
+   "service_tags": [
+    "mold-remediation",
+    "water-damage-restoration"
+   ],
+   "city_anchor": "chicago-il",
+   "external_authority_candidates": [
+    "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+    "https://www.cdc.gov/mold-health/about/index.html"
+   ],
+   "notes": "Lead with the EPA 24-48 hour drying window (ChatGPT cites it verbatim). Cover humid Chicago summers vs heated winter basements, why bleach sprays do not fix wet porous materials, and health risk framing without fear-mongering. Consolidates bank items on mold timing.",
+   "source": "keyword-researcher",
+   "seed": "what to do after water damage"
+  },
+  {
+   "id": "2026-09-24-how-to-repair-water-damage-hardwood-floor-oak-park",
+   "status": "queued",
+   "queued_at": "2026-09-24T20:28:17Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "how to repair water damage hardwood floor",
+   "intent": "informational",
+   "volume": 590,
+   "kd": 0,
+   "fan_out_cluster": [
+    "hardwood floor cupping after water damage",
+    "how to fix hardwood floor after water damage",
+    "can hardwood floors be saved after water damage",
+    "how long to run fans after water damage",
+    "should carpet be replaced after water damage",
+    "can carpet be saved after water damage"
+   ],
+   "suggested_slug": "how-to-repair-water-damage-hardwood-floor-oak-park",
+   "suggested_title": "How to Repair Water Damage Hardwood Floor Boards in Oak Park Homes",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/service-areas/oak-park-il/water-damage-restoration/",
+    "/services/water-cleanup/",
+    "/services/burst-pipe-repair/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "water-cleanup"
+   ],
+   "city_anchor": "oak-park-il",
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500",
+    "https://www.nwfa.org/"
+   ],
+   "notes": "Cupping vs crowning vs buckling, why floor drying mats and dehumidification come before sanding, and when boards must be pulled. Oak Park's century-old oak floors (Prairie School homes) make the save-vs-replace decision high-stakes. Stay on the drying/mitigation side, no refinishing promises.",
+   "source": "keyword-researcher",
+   "seed": "what to do after water damage"
   }
  ]
 }

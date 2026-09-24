@@ -695,6 +695,196 @@
       ],
       "notes": "KD 0 at 170/mo, DIY-flavoured so pivot on the triage test. Give the honest DIY path for light residue (dry soot sponge first, never wet, then a degreaser), then the hard limit: painting or sealing over soot without cleaning traps odor and it bleeds back through within weeks. Escalation triggers are protein smoke, soot in the HVAC returns, and odor that returns when the house warms up, all of which need thermal fogging or hydroxyl treatment rather than scrubbing. Anchored to Mount Pleasant to rotate the city coverage away from Charleston.",
       "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-09-24-mold-remediation-cost-charleston-sc",
+      "status": "queued",
+      "queued_at": "2026-09-24T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "mold remediation cost",
+      "intent": "commercial",
+      "volume": 9900,
+      "kd": 3,
+      "fan_out_cluster": [
+        "mold remediation cost per square foot",
+        "mold remediation cost basement",
+        "whole-house mold remediation cost",
+        "hvac mold remediation cost",
+        "mold remediation cost charleston sc",
+        "who pays for mold remediation"
+      ],
+      "suggested_slug": "mold-remediation-cost-charleston-sc",
+      "suggested_title": "Mold remediation cost in Charleston, SC: what drives the price (and what inflates it)",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/water-damage-restoration-cost-sc/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "charleston-sc",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS520",
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "Highest-value keyword this run: 9,900/mo at KD 3 with $20 CPC. Structure it like the SC water damage cost post: price bands by affected area (under 10 sq ft DIY per EPA, one room, crawlspace, HVAC, whole house), then the cost drivers (containment, HEPA air scrubbing, material removal, moisture source repair). Charleston angle: crawlspace and HVAC growth from coastal humidity are the jobs that push past the typical band. Tell readers to be wary of quotes that skip fixing the moisture source. Do not publish specific dollar figures unless they come from a cited source.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-09-24-does-homeowners-insurance-cover-mold",
+      "status": "queued",
+      "queued_at": "2026-09-24T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover mold",
+      "intent": "informational",
+      "volume": 5400,
+      "kd": 11,
+      "fan_out_cluster": [
+        "will homeowners insurance cover mold",
+        "does insurance cover mold in home",
+        "who pays for mold remediation",
+        "mold after a covered water loss",
+        "mold exclusions and sublimits",
+        "documenting mold for an insurance claim"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-mold",
+      "suggested_title": "Does homeowners insurance cover mold? The sudden-vs-gradual rule, explained",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/mold-after-water-damage/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://content.naic.org/consumer/homeowners-insurance.htm",
+        "https://doi.sc.gov/"
+      ],
+      "notes": "5,400/mo at KD 11, and it catches people right before they hire. Left un-anchored because this is a policy explainer like the water and fire insurance posts. The main point is that coverage usually follows the cause: mold from a sudden covered loss (burst pipe) is often covered, subject to a sublimit, while mold from long-term leaks or humidity usually is not. Point out that flood-caused mold falls under NFIP or flood policies, not homeowners coverage, which matters in the Lowcountry. Link to the water damage insurance post. Do not promise coverage outcomes.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-09-24-how-to-get-rid-of-mold-inside-walls-summerville",
+      "status": "queued",
+      "queued_at": "2026-09-24T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to get rid of mold inside the walls",
+      "intent": "informational",
+      "volume": 8100,
+      "kd": 12,
+      "fan_out_cluster": [
+        "signs of mold inside walls",
+        "what does mold smell like",
+        "how to remove mold from drywall",
+        "does bleach kill mold on drywall",
+        "mold behind walls after a leak",
+        "when is mold remediation required"
+      ],
+      "suggested_slug": "how-to-get-rid-of-mold-inside-walls-summerville",
+      "suggested_title": "How to get rid of mold inside the walls in Summerville homes (and when it is not a DIY job)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/summerville-sc/mold-remediation/",
+        "/blog/signs-of-hidden-mold/",
+        "/services/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "summerville-sc",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home",
+        "https://www.iicrc.org/page/IICRCS520"
+      ],
+      "notes": "8,100/mo at KD 12. Hidden wall mold is a job for pros, so be honest about DIY: surface treatment does nothing for growth on the back of drywall or in insulation. Cover the find-the-leak step first, then containment, removing porous material, and drying. Link to the hidden-mold signs post rather than repeating it. Anchored to Summerville to spread city coverage.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-09-24-who-pays-for-mold-remediation-mount-pleasant",
+      "status": "queued",
+      "queued_at": "2026-09-24T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "who pays for mold remediation",
+      "intent": "informational",
+      "volume": 880,
+      "kd": 9,
+      "fan_out_cluster": [
+        "does homeowners insurance cover mold",
+        "landlord responsibility for mold in south carolina",
+        "hoa responsibility for mold in condos",
+        "mold remediation cost",
+        "mold found during a home inspection"
+      ],
+      "suggested_slug": "who-pays-for-mold-remediation-mount-pleasant",
+      "suggested_title": "Who pays for mold remediation? Homeowners, landlords, HOAs and insurers in Mount Pleasant",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/mount-pleasant-sc/mold-remediation/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "mold-remediation"
+      ],
+      "city_anchor": "mount-pleasant-sc",
+      "external_authority_candidates": [
+        "https://www.scstatehouse.gov/code/t27c040.php",
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
+      ],
+      "notes": "880/mo at KD 9, $14 CPC. Mount Pleasant has a lot of condos, HOAs and rentals, so the question of who is responsible fits locally. Cover owner vs landlord (the SC Residential Landlord and Tenant Act duty to keep the unit fit and habitable), HOA vs unit owner in condos, insurer when the cause was a covered loss, and the buyer/seller angle after an inspection. Keep it general and say the reader should check their lease, bylaws or policy. This is not legal advice.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-09-24-does-bleach-kill-mold",
+      "status": "queued",
+      "queued_at": "2026-09-24T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does bleach kill mold",
+      "intent": "informational",
+      "volume": 18100,
+      "kd": 17,
+      "fan_out_cluster": [
+        "does vinegar kill mold",
+        "does hydrogen peroxide kill mold",
+        "what kills mold permanently",
+        "do air purifiers help with mold",
+        "diy mold remediation",
+        "when to call a mold remediation company"
+      ],
+      "suggested_slug": "does-bleach-kill-mold",
+      "suggested_title": "Does bleach kill mold? What actually works on North Charleston drywall, wood and tile",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/north-charleston-sc/mold-remediation/",
+        "/blog/black-mold-vs-regular-mold/"
+      ],
+      "service_tags": [
+        "mold-remediation"
+      ],
+      "city_anchor": "north-charleston-sc",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home",
+        "https://www.osha.gov/mold"
+      ],
+      "notes": "18,100/mo at KD 17, the biggest-volume question in the seed and one AI engines quote directly. Answer first: bleach can clean mold off non-porous surfaces but does not reach roots in porous materials, and EPA does not recommend biocides as routine cleanup. Compare vinegar, peroxide and detergent. Warn never to mix bleach with ammonia. Close with the 10 sq ft EPA threshold and a humidity angle for North Charleston. Anchored to North Charleston to rotate cities.",
+      "source": "keyword-researcher"
     }
   ]
 }

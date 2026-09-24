@@ -1,0 +1,568 @@
+{
+  "schema_version": 1,
+  "slug": "aldredo-moreno",
+  "site": "staging.rankai-aldredo-moreno.pages.dev",
+  "live_origin": "https://staging.rankai-aldredo-moreno.pages.dev",
+  "live_origin_source": "staging",
+  "generated_at": "2026-09-24T21:03:52Z",
+  "audit_form_factor": "desktop",
+  "lighthouse_version": "13.4.0",
+  "audit_tooling": "DataForSEO REST /v3/on_page/lighthouse/live/json (for_mobile=false) + /v3/on_page/instant_pages (enable_javascript, load_resources, validate_micromarkup); MCP on_page_lighthouse / on_page_instant_pages tools not exposed in this build",
+  "lighthouse_detail": "captured (full audits parsed from disk)",
+  "url_selection": "auto-derived from plan/url-plan.json (no audit-urls.txt)",
+  "environment_caveats": [
+    "SEO score inconclusive: staging noindex artifact (x-robots-tag: noindex on *.pages.dev, is-crawlable fails). SEO excluded from verdicts; re-audit after apex cutover.",
+    "Desktop-only Lighthouse (formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240). Mobile scores typically 10-20 performance points lower.",
+    "Client record status is 'onboarding', not 'active'; audit proceeded because build_status is pushed_main and the staging preview is live."
+  ],
+  "audited_urls": [
+    {
+      "url": "https://staging.rankai-aldredo-moreno.pages.dev/",
+      "archetype": "home",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 820,
+        "CLS": 0.0023,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex artifact)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo",
+          "detail": null
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "Est savings of 292\u00a0KiB"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": null
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "title": "Canonical points to non-existent placeholder host https://aldredo-moreno.invalid/ (og:url, og:image, JSON-LD url/@id, BreadcrumbList and robots.txt Sitemap also use https://aldredo-moreno.invalid)",
+          "severity": "high",
+          "source": "dataforseo-instant_pages+direct-inspection"
+        }
+      ],
+      "onpage_score": 97.44,
+      "word_count": 1478,
+      "word_count_target": 1200
+    },
+    {
+      "url": "https://staging.rankai-aldredo-moreno.pages.dev/services/",
+      "archetype": "services-hub",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 935,
+        "CLS": 0.0023,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": 150,
+          "category": "performance",
+          "detail": "Est savings of 462\u00a0KiB"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "detail": null
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex artifact)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo",
+          "detail": null
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": null
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": null
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "title": "Canonical points to non-existent placeholder host https://aldredo-moreno.invalid/services/ (og:url, og:image, JSON-LD url/@id, BreadcrumbList and robots.txt Sitemap also use https://aldredo-moreno.invalid)",
+          "severity": "high",
+          "source": "dataforseo-instant_pages+direct-inspection"
+        },
+        {
+          "id": "has_micromarkup_errors",
+          "title": "DataForSEO reports structured-data validation errors on this page",
+          "severity": "medium",
+          "source": "dataforseo-instant_pages"
+        },
+        {
+          "id": "low_content_rate",
+          "title": "Word count 757 below url-plan target 800",
+          "severity": "low",
+          "source": "dataforseo-instant_pages"
+        }
+      ],
+      "onpage_score": 97.44,
+      "word_count": 757,
+      "word_count_target": 800
+    },
+    {
+      "url": "https://staging.rankai-aldredo-moreno.pages.dev/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 867,
+        "CLS": 0.0239,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": 50,
+          "category": "performance",
+          "detail": "Est savings of 222\u00a0KiB"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "detail": null
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex artifact)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo",
+          "detail": null
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": null
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": null
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "title": "Canonical points to non-existent placeholder host https://aldredo-moreno.invalid/services/water-damage-restoration/ (og:url, og:image, JSON-LD url/@id, BreadcrumbList and robots.txt Sitemap also use https://aldredo-moreno.invalid)",
+          "severity": "high",
+          "source": "dataforseo-instant_pages+direct-inspection"
+        },
+        {
+          "id": "has_micromarkup_errors",
+          "title": "DataForSEO reports structured-data validation errors on this page",
+          "severity": "medium",
+          "source": "dataforseo-instant_pages"
+        }
+      ],
+      "onpage_score": 97.44,
+      "word_count": 1841,
+      "word_count_target": 1100
+    },
+    {
+      "url": "https://staging.rankai-aldredo-moreno.pages.dev/services/sewage-cleanup/",
+      "archetype": "service-landing",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 939,
+        "CLS": 0.0238,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": 100,
+          "category": "performance",
+          "detail": "Est savings of 222\u00a0KiB"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "detail": null
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": 50,
+          "category": "performance",
+          "detail": "Est savings of 50\u00a0ms"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex artifact)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo",
+          "detail": null
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": null
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "title": "Canonical points to non-existent placeholder host https://aldredo-moreno.invalid/services/sewage-cleanup/ (og:url, og:image, JSON-LD url/@id, BreadcrumbList and robots.txt Sitemap also use https://aldredo-moreno.invalid)",
+          "severity": "high",
+          "source": "dataforseo-instant_pages+direct-inspection"
+        },
+        {
+          "id": "has_micromarkup_errors",
+          "title": "DataForSEO reports structured-data validation errors on this page",
+          "severity": "medium",
+          "source": "dataforseo-instant_pages"
+        }
+      ],
+      "onpage_score": 97.44,
+      "word_count": 1671,
+      "word_count_target": 1100
+    },
+    {
+      "url": "https://staging.rankai-aldredo-moreno.pages.dev/service-areas/odessa-tx/",
+      "archetype": "service-area",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 982,
+        "CLS": 0.003,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": 150,
+          "category": "performance",
+          "detail": "Est savings of 242\u00a0KiB"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "detail": null
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": 50,
+          "category": "performance",
+          "detail": "Est savings of 50\u00a0ms"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex artifact)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo",
+          "detail": null
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "Est savings of 14\u00a0KiB"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "title": "Canonical points to non-existent placeholder host https://aldredo-moreno.invalid/service-areas/odessa-tx/ (og:url, og:image, JSON-LD url/@id, BreadcrumbList and robots.txt Sitemap also use https://aldredo-moreno.invalid)",
+          "severity": "medium",
+          "source": "dataforseo-instant_pages+direct-inspection"
+        },
+        {
+          "id": "has_micromarkup_errors",
+          "title": "DataForSEO reports structured-data validation errors on this page",
+          "severity": "medium",
+          "source": "dataforseo-instant_pages"
+        }
+      ],
+      "onpage_score": 97.44,
+      "word_count": 1218,
+      "word_count_target": 900
+    },
+    {
+      "url": "https://staging.rankai-aldredo-moreno.pages.dev/contact/",
+      "archetype": "contact",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 96,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 876,
+        "CLS": 0.0053,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": 100,
+          "category": "performance",
+          "detail": "Est savings of 309\u00a0KiB"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "detail": null
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex artifact)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo",
+          "detail": null
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": null
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": null
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "canonical",
+          "title": "Canonical points to non-existent placeholder host https://aldredo-moreno.invalid/contact/ (og:url, og:image, JSON-LD url/@id, BreadcrumbList and robots.txt Sitemap also use https://aldredo-moreno.invalid)",
+          "severity": "high",
+          "source": "dataforseo-instant_pages+direct-inspection"
+        },
+        {
+          "id": "has_micromarkup_errors",
+          "title": "DataForSEO reports structured-data validation errors on this page",
+          "severity": "medium",
+          "source": "dataforseo-instant_pages"
+        }
+      ],
+      "onpage_score": 97.44,
+      "word_count": 661,
+      "word_count_target": 400
+    }
+  ],
+  "site_rollup": {
+    "avg_scores": {
+      "performance": 99.0,
+      "accessibility": 96.0,
+      "best_practices": 100.0,
+      "seo": 69.0
+    },
+    "verdict": "red",
+    "url_count": 6,
+    "urls_by_verdict": {
+      "green": 0,
+      "amber": 1,
+      "red": 5,
+      "error": 0
+    },
+    "template_issues": [
+      {
+        "id": "canonical",
+        "title": "Canonical and all absolute URLs point to placeholder host https://aldredo-moreno.invalid",
+        "affected_urls": 6,
+        "severity": "high"
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "affected_urls": 6,
+        "severity": "medium"
+      },
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing (staging x-robots-tag: noindex artifact)",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "affected_urls": 5,
+        "severity": "medium"
+      },
+      {
+        "id": "has_micromarkup_errors",
+        "title": "DataForSEO reports structured-data validation errors on this page",
+        "affected_urls": 5,
+        "severity": "medium"
+      },
+      {
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
+        "affected_urls": 5,
+        "severity": "low",
+        "note": "Also fails on /service-areas/odessa-tx/ (dropped from that URL's top-5 list by the cap)"
+      }
+    ],
+    "money_page_alerts": [
+      {
+        "url": "https://staging.rankai-aldredo-moreno.pages.dev/",
+        "archetype": "home",
+        "verdict": "red",
+        "main_issue": "canonical -> https://aldredo-moreno.invalid/ (placeholder host); Lighthouse perf 99, LCP 0.82s"
+      },
+      {
+        "url": "https://staging.rankai-aldredo-moreno.pages.dev/services/",
+        "archetype": "services-hub",
+        "verdict": "red",
+        "main_issue": "canonical -> https://aldredo-moreno.invalid/services/ (placeholder host); Lighthouse perf 99, LCP 0.94s"
+      },
+      {
+        "url": "https://staging.rankai-aldredo-moreno.pages.dev/services/water-damage-restoration/",
+        "archetype": "service-landing",
+        "verdict": "red",
+        "main_issue": "canonical -> https://aldredo-moreno.invalid/services/water-damage-restoration/ (placeholder host); Lighthouse perf 99, LCP 0.87s"
+      },
+      {
+        "url": "https://staging.rankai-aldredo-moreno.pages.dev/services/sewage-cleanup/",
+        "archetype": "service-landing",
+        "verdict": "red",
+        "main_issue": "canonical -> https://aldredo-moreno.invalid/services/sewage-cleanup/ (placeholder host); Lighthouse perf 99, LCP 0.94s"
+      },
+      {
+        "url": "https://staging.rankai-aldredo-moreno.pages.dev/contact/",
+        "archetype": "contact",
+        "verdict": "red",
+        "main_issue": "canonical -> https://aldredo-moreno.invalid/contact/ (placeholder host); Lighthouse perf 99, LCP 0.88s"
+      }
+    ]
+  },
+  "regression": {
+    "prior_run_at": null,
+    "score_deltas": null,
+    "verdict_transitions": [],
+    "new_issues": [],
+    "resolved_issues": [],
+    "note": "First audit for this client - no comparison data."
+  },
+  "cost_usd": 0.0408
+}

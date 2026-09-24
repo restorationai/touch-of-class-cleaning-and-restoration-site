@@ -135,7 +135,7 @@
           "severity": "error",
           "matched": "56 reviews",
           "context": "a holds a 4.9-star Google rating across 56 reviews, making them one of the better-reviewed",
-          "reason": "claims 56 reviews but synced gbpReviewCount is 29 (allowed \u00b120%: 23-34)"
+          "reason": "claims 56 reviews but synced gbpReviewCount is 29 (allowed ±20%: 23-34)"
         },
         {
           "file": "src/content/blog/best-water-damage-restoration-company-in-santa-maria-ca.md",
@@ -144,7 +144,7 @@
           "severity": "error",
           "matched": "56 reviews",
           "context": "d losses in the Santa Maria area. With 56 reviews at 4.9 stars, they have a consistent tr",
-          "reason": "claims 56 reviews but synced gbpReviewCount is 29 (allowed \u00b120%: 23-34)"
+          "reason": "claims 56 reviews but synced gbpReviewCount is 29 (allowed ±20%: 23-34)"
         },
         {
           "file": "src/content/blog/best-water-damage-restoration-company-in-santa-maria-ca.md",
@@ -153,7 +153,7 @@
           "severity": "error",
           "matched": "80 Google reviews",
           "context": "twork, holding a 4.8-star rating across 80 Google reviews, the highest review count of any compan",
-          "reason": "claims 80 reviews but synced gbpReviewCount is 29 (allowed \u00b120%: 23-34)"
+          "reason": "claims 80 reviews but synced gbpReviewCount is 29 (allowed ±20%: 23-34)"
         },
         {
           "file": "src/content/blog/best-water-damage-restoration-company-in-santa-maria-ca.md",
@@ -162,7 +162,7 @@
           "severity": "error",
           "matched": "55 reviews",
           "context": "ta Maria holds a 4.9-star rating across 55 reviews. Their name suggests a primary focus on",
-          "reason": "claims 55 reviews but synced gbpReviewCount is 29 (allowed \u00b120%: 23-34)"
+          "reason": "claims 55 reviews but synced gbpReviewCount is 29 (allowed ±20%: 23-34)"
         },
         {
           "file": "src/content/blog/best-water-damage-restoration-company-in-santa-maria-ca.md",
@@ -171,7 +171,7 @@
           "severity": "error",
           "matched": "55 reviews",
           "context": "suppression and water intrusion. With 55 reviews at 4.9 stars, they have a strong local",
-          "reason": "claims 55 reviews but synced gbpReviewCount is 29 (allowed \u00b120%: 23-34)"
+          "reason": "claims 55 reviews but synced gbpReviewCount is 29 (allowed ±20%: 23-34)"
         }
       ]
     },
@@ -778,6 +778,211 @@
       "source": "gameplan-2026-09-4 (dev-agent)",
       "written_at": "2026-09-15T15:13:48Z",
       "post_url": "https://callcrs.com/blog/coastal-restoration/"
+    },
+    {
+      "id": "2026-09-24-fire-damage-restoration-cost-santa-maria-ca",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "fire damage restoration cost",
+      "intent": "commercial",
+      "volume": 260,
+      "kd": 1,
+      "fan_out_cluster": [
+        "fire restoration cost per square foot",
+        "fire damage restoration rates",
+        "what does a fire restoration company do",
+        "how much does smoke damage cleanup cost",
+        "does insurance pay for fire damage restoration",
+        "fire damage cleanup cost vs reconstruction cost"
+      ],
+      "suggested_slug": "fire-damage-restoration-cost-santa-maria-ca",
+      "suggested_title": "Fire damage restoration cost in Santa Maria, CA: what drives the price",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/blog/fire-damage-restoration-process/",
+        "/contact/",
+        "/services/odor-removal/",
+        "/blog/water-damage-restoration-cost-ca/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "odor-removal",
+        "contents-restoration"
+      ],
+      "city_anchor": "santa-maria-ca",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS700",
+        "https://www.insurance.ca.gov/01-consumers/105-type/9-resid/"
+      ],
+      "notes": "Commercial intent with no commercial URL targeting cost. Break cost into mitigation (board-up, soot, odor), contents, and rebuild. Give ranges only if sourced; otherwise explain the drivers (square footage, smoke type, water from suppression). Mirror the structure of the shipped water damage cost CA post. Santa Maria is the client's primary city and a named priority area.",
+      "source": "keyword-researcher",
+      "seed": "fire damage restoration"
+    },
+    {
+      "id": "2026-09-24-what-to-do-after-a-house-fire-san-luis-obispo",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to do after a house fire",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 0,
+      "fan_out_cluster": [
+        "what happens after a house fire",
+        "what to do after a house fire checklist",
+        "how to deal with insurance adjuster after a house fire",
+        "is it safe to stay in a house after a fire",
+        "who cleans up after a house fire",
+        "help after a house fire"
+      ],
+      "suggested_slug": "what-to-do-after-a-house-fire-san-luis-obispo",
+      "suggested_title": "What to do after a house fire in San Luis Obispo: the first 72 hours",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/blog/fire-damage-restoration-process/",
+        "/contact/",
+        "/services/emergency-board-up-tarping/",
+        "/services/contents-restoration-storage/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "emergency-board-up-tarping",
+        "contents-restoration-storage"
+      ],
+      "city_anchor": "san-luis-obispo-ca",
+      "external_authority_candidates": [
+        "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire/recovering-after-fire.html",
+        "https://www.usfa.fema.gov/downloads/pdf/publications/after_the_fire.pdf",
+        "https://www.insurance.ca.gov/01-consumers/105-type/9-resid/"
+      ],
+      "notes": "KD 0 question with 260/mo. Homeowner's first-steps post, not the restoration process (that blog already exists; link to it). Sequence: safety and fire department clearance, securing the property (board-up), calling the insurer, documenting, what not to touch (soot smears). Include a printable checklist block.",
+      "source": "keyword-researcher",
+      "seed": "fire damage restoration"
+    },
+    {
+      "id": "2026-09-24-how-to-get-smoke-smell-out-of-house-after-fire-lompoc",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to get fire smoke smell out of house fast",
+      "intent": "informational",
+      "volume": 390,
+      "kd": 0,
+      "fan_out_cluster": [
+        "how to remove smoke odor from walls",
+        "does airing out a house remove smoke smell",
+        "ozone vs hydroxyl odor removal",
+        "why smoke smell comes back after cleaning",
+        "can you paint over smoke damage",
+        "smoke smell in hvac ducts after a fire"
+      ],
+      "suggested_slug": "how-to-get-smoke-smell-out-of-house-after-fire-lompoc",
+      "suggested_title": "How to get fire smoke smell out of a house fast (and when it takes a pro) in Lompoc",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/odor-removal/",
+        "/services/fire-damage-restoration/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "odor-removal",
+        "fire-damage-restoration"
+      ],
+      "city_anchor": "lompoc-ca",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS700",
+        "https://www.epa.gov/indoor-air-quality-iaq"
+      ],
+      "notes": "Maps directly to the odor-removal service page. Be honest that DIY (ventilation, vinegar, baking soda) masks surface odor, while embedded smoke in porous materials and ducts needs thermal fogging, hydroxyl or ozone, and sealing. Safety note on ozone occupancy. Lompoc is a named priority area.",
+      "source": "keyword-researcher",
+      "seed": "fire damage restoration"
+    },
+    {
+      "id": "2026-09-24-does-homeowners-insurance-cover-fire-damage",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover fire damage",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 30,
+      "fan_out_cluster": [
+        "is smoke damage covered by insurance",
+        "fire damage insurance claim",
+        "renters insurance for fire damage",
+        "does insurance cover smoke damage from a neighbor's fire",
+        "additional living expenses after a house fire",
+        "how to deal with insurance adjuster after a house fire"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-fire-damage",
+      "suggested_title": "Does homeowners insurance cover fire damage? A California homeowner's guide",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/water-damage-insurance-claim-tips/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "contents-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.insurance.ca.gov/01-consumers/105-type/9-resid/",
+        "https://www.iii.org/article/what-covered-standard-homeowners-policy"
+      ],
+      "notes": "Insurance policy explainer, so city_anchor left null. Keep it California-specific via the CDI guidance (additional living expenses, contents inventory timelines). Include a short renters section since that variant has 1300/mo. Never promise coverage; frame as what policies typically include. Pair with the existing water insurance post.",
+      "source": "keyword-researcher",
+      "seed": "fire damage restoration"
+    },
+    {
+      "id": "2026-09-24-what-to-throw-away-after-smoke-damage-arroyo-grande",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to throw away after smoke damage",
+      "intent": "informational",
+      "volume": 210,
+      "kd": 0,
+      "fan_out_cluster": [
+        "what can be salvaged after a house fire",
+        "can smoke damage electronics",
+        "is food safe after smoke exposure",
+        "can smoke damaged clothes be cleaned",
+        "should you keep furniture after a house fire",
+        "contents pack-out and storage after a fire"
+      ],
+      "suggested_slug": "what-to-throw-away-after-smoke-damage-arroyo-grande",
+      "suggested_title": "What to throw away after smoke damage (and what can be saved) in Arroyo Grande",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/contents-restoration/",
+        "/services/contents-restoration-storage/",
+        "/services/fire-damage-restoration/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "contents-restoration",
+        "contents-restoration-storage",
+        "fire-damage-restoration"
+      ],
+      "city_anchor": "arroyo-grande-ca",
+      "external_authority_candidates": [
+        "https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage",
+        "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire/recovering-after-fire.html"
+      ],
+      "notes": "KD 0, feeds the contents restoration and storage services. Clear discard list (food, medicine, cosmetics, heat-exposed plastics) vs salvageable (hard goods, many textiles, documents via specialist cleaning). Remind readers to photograph and inventory before discarding for the claim. Arroyo Grande is a named priority area.",
+      "source": "keyword-researcher",
+      "seed": "fire damage restoration"
     }
   ]
 }

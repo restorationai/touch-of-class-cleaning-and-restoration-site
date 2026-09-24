@@ -1,0 +1,2060 @@
+{
+  "schema_version": 1,
+  "slug": "diss-restoration",
+  "origin": "https://dissrestoration.com",
+  "origin_source": "apex",
+  "generated_at": "2026-09-24T20:47:18+00:00",
+  "stale_threshold_days": 365,
+  "aging_threshold_days": 305,
+  "gsc_enabled": false,
+  "v1_notes": [
+    "v1 = sitemap + page-level date extraction. No GSC indexing flags.",
+    "See docs/system-4-v2-activation.md for GSC v2 setup."
+  ],
+  "inspected_count": 120,
+  "fetched_html_count": 120,
+  "failed_html_count": 0,
+  "flag_counts": {},
+  "candidates": [
+    {
+      "url": "https://dissrestoration.com/",
+      "date": "2026-08-05",
+      "date_source": "sitemap_lastmod",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:24:51.120Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/about/",
+      "date": "2026-08-05",
+      "date_source": "sitemap_lastmod",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:37:58.087Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/accessibility/",
+      "date": "2026-08-05",
+      "date_source": "sitemap_lastmod",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:38:26.769Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/blog/",
+      "date": "2026-08-05",
+      "date_source": "sitemap_lastmod",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:34:30.221Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/blog/best-water-damage-restoration-company-in-youngstown-oh/",
+      "date": "2026-08-10",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-10T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-08-10",
+        "json_ld_date_modified": "2026-08-10",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/blog/black-mold-vs-regular-mold/",
+      "date": "2026-07-22",
+      "date_source": "json_ld_date_modified",
+      "age_days": 64,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-22T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-07-22",
+        "json_ld_date_modified": "2026-07-22",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/blog/burst-pipe-emergency-checklist/",
+      "date": "2026-07-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 66,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-20T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-07-20",
+        "json_ld_date_modified": "2026-07-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/blog/choosing-a-restoration-company/",
+      "date": "2026-07-27",
+      "date_source": "json_ld_date_modified",
+      "age_days": 59,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-27T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-07-27",
+        "json_ld_date_modified": "2026-07-27",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/blog/does-homeowners-insurance-cover-water-damage/",
+      "date": "2026-07-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 68,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-18T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-07-18",
+        "json_ld_date_modified": "2026-07-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/blog/fire-damage-restoration-process/",
+      "date": "2026-07-29",
+      "date_source": "json_ld_date_modified",
+      "age_days": 57,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-29T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-07-29",
+        "json_ld_date_modified": "2026-07-29",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/blog/fire-damage-restoration-youngstown/",
+      "date": "2026-09-22",
+      "date_source": "json_ld_date_modified",
+      "age_days": 2,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-22T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-22",
+        "json_ld_date_modified": "2026-09-22",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/blog/flooded-basement-cleanup/",
+      "date": "2026-08-31",
+      "date_source": "json_ld_date_modified",
+      "age_days": 24,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-31T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-08-31",
+        "json_ld_date_modified": "2026-08-31",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/blog/how-to-test-for-mold/",
+      "date": "2026-07-22",
+      "date_source": "json_ld_date_modified",
+      "age_days": 64,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-22T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-07-22",
+        "json_ld_date_modified": "2026-07-22",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/blog/mold-remediation-youngstown/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-24",
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/blog/signs-of-hidden-mold/",
+      "date": "2026-07-22",
+      "date_source": "json_ld_date_modified",
+      "age_days": 64,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-22T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-07-22",
+        "json_ld_date_modified": "2026-07-22",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/blog/water-damage-restoration-cost-oh/",
+      "date": "2026-08-26",
+      "date_source": "json_ld_date_modified",
+      "age_days": 29,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-26T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-08-26",
+        "json_ld_date_modified": "2026-08-26",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/blog/water-damage-restoration-cost/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 21,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-03",
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/blog/water-damage-restoration-youngstown/",
+      "date": "2026-09-19",
+      "date_source": "json_ld_date_modified",
+      "age_days": 5,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-19T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-19",
+        "json_ld_date_modified": "2026-09-19",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/blog/what-to-do-first-24-hours-water-damage/",
+      "date": "2026-08-01",
+      "date_source": "json_ld_date_modified",
+      "age_days": 54,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-01T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-08-01",
+        "json_ld_date_modified": "2026-08-01",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/blog/who-to-call-for-water-damage-restoration-in-youngstown-oh/",
+      "date": "2026-09-17",
+      "date_source": "json_ld_date_modified",
+      "age_days": 7,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-17T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-17",
+        "json_ld_date_modified": "2026-09-17",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/case-studies/",
+      "date": "2026-09-24",
+      "date_source": "sitemap_lastmod",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T18:28:15.565Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/certifications/",
+      "date": "2026-09-24",
+      "date_source": "sitemap_lastmod",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T18:28:15.565Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/contact/",
+      "date": "2026-08-05",
+      "date_source": "sitemap_lastmod",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:38:01.443Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/embed/estimate/",
+      "date": "2026-09-24",
+      "date_source": "sitemap_lastmod",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T18:28:15.565Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/emergency/",
+      "date": "2026-09-24",
+      "date_source": "sitemap_lastmod",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T18:28:15.565Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/privacy/",
+      "date": "2026-08-05",
+      "date_source": "sitemap_lastmod",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:38:14.807Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/reviews/",
+      "date": "2026-09-24",
+      "date_source": "sitemap_lastmod",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T18:28:15.565Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/",
+      "date": "2026-08-05",
+      "date_source": "sitemap_lastmod",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:30:59.127Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/austintown-oh/",
+      "date": "2026-08-05",
+      "date_source": "sitemap_lastmod",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:27:26.322Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/austintown-oh/air-duct-cleaning/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:32:53.770Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/austintown-oh/asbestos-abatement/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:29:50.773Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/austintown-oh/biohazard-cleanup/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:21:47.998Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/austintown-oh/carpet-cleaning/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:36:02.694Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/austintown-oh/contents-restoration-storage/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.683Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/austintown-oh/contents-restoration/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:32:51.656Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/austintown-oh/emergency-board-up-tarping/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:25:53.120Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/austintown-oh/fire-damage-restoration/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:12:36.180Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/austintown-oh/general-contracting/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:21:44.727Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/austintown-oh/mold-remediation/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:12:46.762Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/austintown-oh/odor-removal/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.684Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/austintown-oh/post-construction-cleaning/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:36:13.175Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/austintown-oh/sewage-cleanup/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:17:51.365Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/austintown-oh/storm-damage-restoration/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:17:40.007Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/austintown-oh/water-cleanup/",
+      "date": "2026-09-21",
+      "date_source": "json_ld_date_modified",
+      "age_days": 3,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-21T16:06:14.227Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-21",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/austintown-oh/water-damage-restoration/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:12:28.813Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/boardman-oh/",
+      "date": "2026-08-05",
+      "date_source": "sitemap_lastmod",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:27:15.896Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/boardman-oh/air-duct-cleaning/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:32:29.993Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/boardman-oh/asbestos-abatement/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:29:48.916Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/boardman-oh/biohazard-cleanup/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:21:19.006Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/boardman-oh/carpet-cleaning/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:35:57.451Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/boardman-oh/contents-restoration-storage/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.682Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/boardman-oh/contents-restoration/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:32:21.154Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/boardman-oh/emergency-board-up-tarping/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:25:51.730Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/boardman-oh/fire-damage-restoration/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:12:05.310Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/boardman-oh/general-contracting/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:21:16.902Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/boardman-oh/mold-remediation/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:12:24.928Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/boardman-oh/odor-removal/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.682Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/boardman-oh/post-construction-cleaning/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:36:00.749Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/boardman-oh/sewage-cleanup/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:17:34.478Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/boardman-oh/storm-damage-restoration/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:17:32.323Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/boardman-oh/water-cleanup/",
+      "date": "2026-09-21",
+      "date_source": "json_ld_date_modified",
+      "age_days": 3,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-21T16:05:52.709Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-21",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/boardman-oh/water-damage-restoration/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:11:45.454Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/campbell-oh/",
+      "date": "2026-09-24",
+      "date_source": "sitemap_lastmod",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.678Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/campbell-oh/air-duct-cleaning/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.691Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/campbell-oh/asbestos-abatement/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.691Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/campbell-oh/biohazard-cleanup/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.691Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/campbell-oh/carpet-cleaning/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.691Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/campbell-oh/contents-restoration-storage/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.691Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/campbell-oh/contents-restoration/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.691Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/campbell-oh/emergency-board-up-tarping/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.691Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/campbell-oh/fire-damage-restoration/",
+      "date": "2026-09-21",
+      "date_source": "json_ld_date_modified",
+      "age_days": 3,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-21T15:59:15.300Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-21",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/campbell-oh/general-contracting/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.692Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/campbell-oh/mold-remediation/",
+      "date": "2026-09-21",
+      "date_source": "json_ld_date_modified",
+      "age_days": 3,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-21T15:59:11.095Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-21",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/campbell-oh/odor-removal/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.692Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/campbell-oh/post-construction-cleaning/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.692Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/campbell-oh/sewage-cleanup/",
+      "date": "2026-09-21",
+      "date_source": "json_ld_date_modified",
+      "age_days": 3,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-21T16:07:15.602Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-21",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/campbell-oh/storm-damage-restoration/",
+      "date": "2026-09-21",
+      "date_source": "json_ld_date_modified",
+      "age_days": 3,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-21T16:07:14.727Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-21",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/campbell-oh/water-cleanup/",
+      "date": "2026-09-21",
+      "date_source": "json_ld_date_modified",
+      "age_days": 3,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-21T16:07:41.753Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-21",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/campbell-oh/water-damage-restoration/",
+      "date": "2026-09-21",
+      "date_source": "json_ld_date_modified",
+      "age_days": 3,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-21T15:59:17.688Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-21",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/canfield-oh/",
+      "date": "2026-08-05",
+      "date_source": "sitemap_lastmod",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:28:11.661Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/canfield-oh/air-duct-cleaning/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:34:25.541Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/canfield-oh/asbestos-abatement/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:30:37.628Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/canfield-oh/biohazard-cleanup/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:23:12.696Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/canfield-oh/carpet-cleaning/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:37:33.138Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/canfield-oh/contents-restoration-storage/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.688Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/canfield-oh/contents-restoration/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:34:22.803Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/canfield-oh/emergency-board-up-tarping/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:26:41.885Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/canfield-oh/fire-damage-restoration/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:15:19.816Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/canfield-oh/general-contracting/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:23:13.249Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/canfield-oh/mold-remediation/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:15:15.434Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/canfield-oh/odor-removal/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.689Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/canfield-oh/post-construction-cleaning/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:37:41.971Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/canfield-oh/sewage-cleanup/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:19:27.603Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/canfield-oh/storm-damage-restoration/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:19:12.691Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/canfield-oh/water-cleanup/",
+      "date": "2026-09-21",
+      "date_source": "json_ld_date_modified",
+      "age_days": 3,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-21T16:06:59.540Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-21",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/canfield-oh/water-damage-restoration/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:15:17.150Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/farrell-pa/",
+      "date": "2026-09-24",
+      "date_source": "sitemap_lastmod",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.679Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/farrell-pa/air-duct-cleaning/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.694Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/farrell-pa/asbestos-abatement/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.695Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/farrell-pa/biohazard-cleanup/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.695Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/farrell-pa/carpet-cleaning/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.695Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/farrell-pa/contents-restoration-storage/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.695Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/farrell-pa/contents-restoration/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.695Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/farrell-pa/emergency-board-up-tarping/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.695Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/farrell-pa/fire-damage-restoration/",
+      "date": "2026-09-21",
+      "date_source": "json_ld_date_modified",
+      "age_days": 3,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-21T16:00:36.745Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-21",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/farrell-pa/general-contracting/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.696Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/farrell-pa/mold-remediation/",
+      "date": "2026-09-21",
+      "date_source": "json_ld_date_modified",
+      "age_days": 3,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-21T16:00:42.831Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-21",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/farrell-pa/odor-removal/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.696Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/farrell-pa/post-construction-cleaning/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.696Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/farrell-pa/sewage-cleanup/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.696Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/farrell-pa/storm-damage-restoration/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.696Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/farrell-pa/water-cleanup/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.697Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/farrell-pa/water-damage-restoration/",
+      "date": "2026-09-21",
+      "date_source": "json_ld_date_modified",
+      "age_days": 3,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-21T16:00:18.630Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-21",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/girard-oh/",
+      "date": "2026-08-05",
+      "date_source": "sitemap_lastmod",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:27:46.982Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/girard-oh/air-duct-cleaning/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:33:40.091Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/girard-oh/asbestos-abatement/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:30:10.389Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/girard-oh/biohazard-cleanup/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:22:27.799Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/girard-oh/carpet-cleaning/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:36:48.307Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/girard-oh/contents-restoration-storage/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:21:47.686Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/girard-oh/contents-restoration/",
+      "date": "2026-08-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-05T05:33:36.782Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    }
+  ]
+}

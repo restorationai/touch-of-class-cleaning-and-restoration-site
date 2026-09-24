@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+black mold remediation,transactional,12100,34,17.63,2,mold remediation,,,no
+mold remediation,transactional,165000,35,39.69,3,mold remediation,,/services/mold-remediation/,no
+mold remediation near me,transactional,33100,25,32.97,3,mold remediation,,/services/mold-remediation/,no
+mold remediation companies near me,transactional,33100,2,32.97,3,mold remediation,,/services/mold-remediation/,no
+professional mold remediation,transactional,33100,26,20.6,3,mold remediation,,/services/mold-remediation/,no
+mold remediation companies,transactional,22200,14,39.78,3,mold remediation,,/services/mold-remediation/,no
+mold remediation experts,transactional,5400,14,10.35,3,mold remediation,,/services/mold-remediation/,no
+mold remediation butler pa,transactional,10,,113.82,3,mold remediation,butler-pa,/service-areas/butler-pa/mold-remediation/,no
+mold remediation cranberry township pa,transactional,,,,3,mold remediation,cranberry-township-pa,/services/mold-remediation/,no
+mold remediation wexford pa,transactional,,,,3,mold remediation,wexford-pa,/service-areas/wexford-pa/mold-remediation/,no
+mold remediation mars pa,transactional,,,,3,mold remediation,mars-pa,/service-areas/mars-pa/mold-remediation/,no
+mold remediation cost,commercial,9900,3,20.04,1,mold remediation,,,yes
+best mold remediation companies,commercial,210,18,21.25,1,mold remediation,,,no
+mold removal cost,commercial,9900,18,20.04,2,mold remediation,,,no
+mold remediation cost calculator,commercial,2400,0,6.82,2,mold remediation,,,no
+basement mold remediation,commercial,1900,4,18.73,2,mold remediation,,,no
+mold remediation cost basement,commercial,880,1,16.74,2,mold remediation,,,no
+mold remediation cost per square foot,commercial,720,6,21.15,2,mold remediation,,,no
+does homeowners insurance cover mold,informational,5400,11,10.08,1,mold remediation,,,yes
+what kills mold permanently,informational,3600,23,3.26,1,mold remediation,,,yes
+attic mold remediation,informational,2900,0,24.07,1,mold remediation,,,yes
+how to get rid of mold smell in basement,informational,2400,0,1.86,1,mold remediation,,,no
+how to get rid of mold in basement,informational,1600,3,3.33,1,mold remediation,,,yes
+mold in crawl space,informational,1300,0,24.91,1,mold remediation,,,no
+what is mold remediation,informational,1000,18,8.21,1,mold remediation,,,no
+how long does mold remediation take,informational,720,0,12.3,1,mold remediation,,,no
+when is mold remediation required,informational,390,27,14.81,1,mold remediation,,,no
+how much does mold remediation cost,informational,3600,13,14.45,2,mold remediation,,,no
+how much does mold testing cost,informational,1600,6,9.27,2,mold remediation,,,no
+does homeowners insurance cover mold remediation,informational,1000,17,9.74,2,mold remediation,,,no
+who pays for mold remediation,informational,880,9,14.28,2,mold remediation,,,no
+white mold in basement,informational,880,0,5.45,2,mold remediation,,,no
+mold remediation process,informational,720,16,16.01,2,mold remediation,,,no
+black mold in basement,informational,720,0,8.45,2,mold remediation,,,no
+epa mold remediation guidelines,informational,320,42,21.8,2,mold remediation,,,no
+can i remove mold myself,informational,50,15,2.34,2,mold remediation,,,no
+is black mold dangerous,informational,5400,35,2.22,3,mold remediation,,/blog/black-mold-vs-regular-mold/,no
+signs of mold in walls,informational,390,15,0.23,3,mold remediation,,/blog/signs-of-hidden-mold/,no
+how fast does mold grow after water damage,informational,110,1,5.02,3,mold remediation,,/blog/mold-after-water-damage/,no
+servpro mold remediation cost,navigational,720,30,14.7,3,mold remediation,,,no

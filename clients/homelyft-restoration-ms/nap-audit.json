@@ -1,6 +1,6 @@
 {
   "slug": "homelyft-restoration-ms",
-  "checked_at": "2026-09-21T17:20:00.578759+00:00",
+  "checked_at": "2026-09-24T20:19:03.392342+00:00",
   "canonical": {
     "name": "HomeLyft Restoration MS",
     "phone": "+12282845200",
@@ -39,12 +39,10 @@
       "url": "https://www.homelyft.net/",
       "status": "ok",
       "fetch": "http",
-      "phones_found": [
-        "(228) 900-9718"
-      ],
-      "phone_match": false,
+      "phones_found": [],
+      "phone_match": null,
       "address_match": true,
-      "notes": "canonical phone absent; page shows (228) 900-9718"
+      "notes": "no phone number found on page"
     },
     {
       "platform": "homeguide",
@@ -72,12 +70,6 @@
       "platform": "gbp-profile",
       "target": "gbp-profile",
       "title": "Fix wrong phone number on gbp-profile"
-    },
-    {
-      "kind": "phone",
-      "platform": "yelp",
-      "target": "https://www.homelyft.net/",
-      "title": "Fix wrong phone number on yelp"
     },
     {
       "kind": "phone",

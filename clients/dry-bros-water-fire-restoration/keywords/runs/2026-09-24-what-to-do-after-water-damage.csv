@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+ceiling water damage repair chicago,transactional,,,,2,what to do after water damage,Chicago,,no
+restoration after water damage,transactional,50,28,77.1,3,what to do after water damage,,/services/water-damage-restoration/,no
+water damage cleanup naperville,transactional,10,,,3,what to do after water damage,Naperville,/service-areas/naperville-il/water-cleanup/,no
+mold removal after water damage chicago,transactional,,,,3,what to do after water damage,Chicago,/services/mold-remediation/,no
+emergency water damage cleanup chicago,transactional,,,,3,what to do after water damage,Chicago,/services/water-cleanup/,no
+emergency water damage repair naperville,transactional,,,,3,what to do after water damage,Naperville,/service-areas/naperville-il/water-damage-restoration/,no
+emergency water damage cleanup evanston,transactional,,,,3,what to do after water damage,Evanston,/service-areas/evanston-il/water-cleanup/,no
+emergency water damage cleanup oak park,transactional,,,,3,what to do after water damage,Oak Park,/service-areas/oak-park-il/water-cleanup/,no
+water damage cleanup evanston,transactional,,,,3,what to do after water damage,Evanston,/service-areas/evanston-il/water-cleanup/,no
+water damage cleanup oak park,transactional,,,,3,what to do after water damage,Oak Park,/service-areas/oak-park-il/water-cleanup/,no
+does renters insurance cover water damage,informational,1000,21,15.62,1,what to do after water damage,,,yes
+how to fix water damage on ceiling,informational,1000,0,2.96,1,what to do after water damage,,,yes
+drywall repair after water damage,informational,880,0,26.11,1,what to do after water damage,,,yes
+how to repair water damage hardwood floor,informational,590,0,1.64,1,what to do after water damage,,,yes
+what does water damage look like,informational,210,15,1.35,1,what to do after water damage,,,no
+how fast does mold grow after water damage,informational,110,1,5.02,1,what to do after water damage,,,yes
+dealing with insurance adjuster after water damage,informational,70,0,39.69,1,what to do after water damage,,,no
+water mitigation vs remediation,informational,70,0,61.32,1,what to do after water damage,,,no
+does renters insurance cover water leak damage,informational,390,11,,2,what to do after water damage,,,no
+is mold from water damage dangerous,informational,210,17,4.65,2,what to do after water damage,,,no
+what is water damage restoration,informational,210,16,0.52,2,what to do after water damage,,,no
+what to spray to prevent mold after water damage,informational,90,4,2.3,2,what to do after water damage,,,no
+water damage restoration checklist,informational,50,0,79.59,2,what to do after water damage,,,no
+how to prevent mold after water damage,informational,50,1,0.57,2,what to do after water damage,,,no
+hardwood floor cupping after water damage,informational,40,0,,2,what to do after water damage,,,no
+who is responsible for water damage in a condo,informational,40,0,43.83,2,what to do after water damage,,,no
+should carpet be replaced after water damage,informational,30,0,33.85,2,what to do after water damage,,,no
+how long to run fans after water damage,informational,30,0,,2,what to do after water damage,,,no
+can carpet be saved after water damage,informational,20,,141.6,2,what to do after water damage,,,no
+how to get rid of musty smell after water damage,informational,20,0,0.8,2,what to do after water damage,,,no
+how to check for mold after water damage,informational,20,8,6.56,2,what to do after water damage,,,no
+does drywall need to be replaced after water damage,informational,20,0,,2,what to do after water damage,,,no
+water damage from upstairs neighbor,informational,10,0,,2,what to do after water damage,,,no
+renters insurance water damage chicago,informational,,,,2,what to do after water damage,Chicago,,no
+drywall repair after water damage chicago,informational,,,,2,what to do after water damage,Chicago,,no
+mold after water damage chicago,informational,,,,2,what to do after water damage,Chicago,,no
+condo water damage chicago,informational,,,,2,what to do after water damage,Chicago,,no
+what to do after water damage,informational,20,9,21.79,3,what to do after water damage,,/blog/what-to-do-first-24-hours-water-damage/,no
+what to do after water damage in house,informational,10,,20.4,3,what to do after water damage,,/blog/what-to-do-first-24-hours-water-damage/,no
+what to do after water damage chicago,informational,,,,3,what to do after water damage,Chicago,/blog/what-to-do-first-24-hours-water-damage/,no

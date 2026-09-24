@@ -1,6 +1,6 @@
 {
   "slug": "davis-construction",
-  "generated_at": "2026-09-21T17:28:51Z",
+  "generated_at": "2026-09-24T20:30:34Z",
   "truth": {
     "hours": "Monday\u2013Friday, 8:00 AM \u2013 5:00 PM",
     "is_247": false,
@@ -14,7 +14,7 @@
     "vertical": "construction"
   },
   "errors": 6,
-  "review_flags": 37,
+  "review_flags": 10,
   "violations": [
     {
       "file": "src/content/blog/best-home-remodeling-company-in-madison-al.md",
@@ -71,60 +71,6 @@
       "reason": "claims 9 reviews but no synced gbpReviewCount exists for this site"
     },
     {
-      "file": "src/content/blog/choosing-a-restoration-company.md",
-      "part": "frontmatter",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "fire damage restoration",
-      "context": "keywords: [\"water damage restoration\", \"fire damage restoration\", \"mold remediation\"] search_intent: \"c",
-      "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
-    },
-    {
-      "file": "src/content/blog/choosing-a-restoration-company.md",
-      "part": "body",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "fire damage restoration",
-      "context": "ctors handles water damage restoration, fire damage restoration, and mold remediation in the Madison ar",
-      "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
-    },
-    {
-      "file": "src/content/blog/choosing-a-restoration-company.md",
-      "part": "body",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "Fire and smoke damage",
-      "context": "at's not a protocol, that's a guess. **Fire and smoke damage** is more complex than it looks. Smoke",
-      "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
-    },
-    {
-      "file": "src/content/blog/does-homeowners-insurance-cover-fire-damage.md",
-      "part": "frontmatter",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "fire damage restoration",
-      "context": "er smoke damage\", \"does insurance cover fire damage restoration\", \"fire damage insurance claim process\"",
-      "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
-    },
-    {
-      "file": "src/content/blog/does-homeowners-insurance-cover-fire-damage.md",
-      "part": "body",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "fire and smoke damage",
-      "context": "Davis Construction Contractors handles fire and smoke damage restoration in Madison, Huntsville, and",
-      "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
-    },
-    {
-      "file": "src/content/blog/does-homeowners-insurance-cover-fire-damage.md",
-      "part": "body",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "smoke damage restoration",
-      "context": "nstruction Contractors handles fire and smoke damage restoration in Madison, Huntsville, and Athens, and",
-      "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
-    },
-    {
       "file": "src/content/blog/does-homeowners-insurance-cover-water-damage.md",
       "part": "body",
       "family": "24/7",
@@ -135,102 +81,12 @@
     },
     {
       "file": "src/content/blog/fire-damage-restoration-cost.md",
-      "part": "frontmatter",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "Fire Damage Restoration",
-      "context": "archetype: \"blog-post\" title: \"Fire Damage Restoration Cost: What Homeowners in Alabama Actual",
-      "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
-    },
-    {
-      "file": "src/content/blog/fire-damage-restoration-cost.md",
-      "part": "body",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "fire damage restoration",
-      "context": "useless. The honest answer: residential fire damage restoration in Alabama typically runs between $3,00",
-      "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
-    },
-    {
-      "file": "src/content/blog/fire-damage-restoration-cost.md",
       "part": "body",
       "family": "service-scope",
       "severity": "review",
       "matched": "structural reconstruction",
       "context": "nt, and repainting. They do not include structural reconstruction, which adds significantly. | Room | Ty",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
-    },
-    {
-      "file": "src/content/blog/fire-damage-restoration-process.md",
-      "part": "frontmatter",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "Fire Damage Restoration",
-      "context": "archetype: \"blog-post\" title: \"The Fire Damage Restoration Process: What Happens After the Fire De",
-      "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
-    },
-    {
-      "file": "src/content/blog/fire-damage-restoration-process.md",
-      "part": "body",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "Fire Damage Restoration",
-      "context": "ion company finishes. ## How Long Does Fire Damage Restoration Take? Timeline depends on the size and",
-      "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
-    },
-    {
-      "file": "src/content/blog/fire-damage-restoration-process.md",
-      "part": "body",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "fire and smoke damage",
-      "context": "ners. The industry's S753 standard for fire and smoke damage restoration provides the technical fram",
-      "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
-    },
-    {
-      "file": "src/content/blog/fire-damage-restoration-process.md",
-      "part": "body",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "smoke damage restoration",
-      "context": "e industry's S753 standard for fire and smoke damage restoration provides the technical framework for id",
-      "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
-    },
-    {
-      "file": "src/content/blog/iicrc-certification-explained.md",
-      "part": "frontmatter",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "fire damage restoration",
-      "context": "mage restoration\", \"mold remediation\", \"fire damage restoration\"] search_intent: \"informational_trust\"",
-      "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
-    },
-    {
-      "file": "src/content/blog/iicrc-certification-explained.md",
-      "part": "body",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "fire damage restoration",
-      "context": "ntainment than the initial estimate, a [fire damage restoration](/fire-damage-restoration) where the sm",
-      "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
-    },
-    {
-      "file": "src/content/blog/iicrc-certification-explained.md",
-      "part": "body",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "fire and smoke damage",
-      "context": "'re dealing with water damage, mold, or fire and smoke damage in the Madison, AL area and want to tal",
-      "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
-    },
-    {
-      "file": "src/content/blog/residential-fire-damage-restoration.md",
-      "part": "frontmatter",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "Fire Damage Restoration",
-      "context": "hetype: \"blog-post\" title: \"Residential Fire Damage Restoration in Madison and Huntsville AL\" h1: \"Resi",
-      "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: decks-pergolas-fences, fire-smoke-rebuilding, home-remodeling, mold-remediation, new-construction, painting-trim"
     },
     {
       "file": "src/content/blog/residential-fire-damage-restoration.md",
@@ -239,16 +95,7 @@
       "severity": "review",
       "matched": "structural reconstruction",
       "context": ", odor treatment, moisture control, and structural reconstruction. Fire damage repair is a looser term th",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
-    },
-    {
-      "file": "src/content/blog/residential-fire-damage-restoration.md",
-      "part": "body",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "fire damage restoration",
-      "context": "**TL;DR:** Residential fire damage restoration covers everything from emergency board-",
-      "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: decks-pergolas-fences, fire-smoke-rebuilding, home-remodeling, mold-remediation, new-construction, painting-trim"
     },
     {
       "file": "src/content/blog/residential-fire-damage-restoration.md",
@@ -257,16 +104,16 @@
       "severity": "review",
       "matched": "structural reconstruction",
       "context": "gency board-up and soot removal to full structural reconstruction. In Madison and Huntsville, AL, the pro",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: decks-pergolas-fences, fire-smoke-rebuilding, home-remodeling, mold-remediation, new-construction, painting-trim"
     },
     {
-      "file": "src/content/blog/what-to-do-after-a-house-fire.md",
-      "part": "frontmatter",
-      "family": "service-scope",
+      "file": "src/content/blog/small-kitchen-remodel-cost.md",
+      "part": "body",
+      "family": "certification",
       "severity": "review",
-      "matched": "fire damage restoration",
-      "context": "hecklist\", \"steps after a house fire\", \"fire damage restoration process\"] search_intent: \"informational",
-      "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
+      "matched": "lead-safe",
+      "context": "ts and walls. Federal EPA rules require lead-safe work practices on any renovation distur",
+      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
     },
     {
       "file": "src/content/blog/what-to-do-after-a-house-fire.md",
@@ -275,7 +122,7 @@
       "severity": "review",
       "matched": "structural reconstruction",
       "context": "ation), cleaning and deodorization, and structural reconstruction. The reconstruction phase, which invol",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: decks-pergolas-fences, fire-smoke-rebuilding, home-remodeling, mold-remediation, new-construction, painting-trim"
     },
     {
       "file": "src/content/locations/huntsville-al__painting-trim.md",
@@ -291,45 +138,9 @@
       "part": "body",
       "family": "service-scope",
       "severity": "review",
-      "matched": "fire and smoke damage",
-      "context": "ction Contractors handles water damage, fire and smoke damage, mold remediation, storm damage, biohaz",
-      "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
-    },
-    {
-      "file": "src/content/pages/home.md",
-      "part": "body",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "smoke damage restoration",
-      "context": "y, and document everything. **Fire and smoke damage restoration**, Flames do obvious damage, but the ac",
-      "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
-    },
-    {
-      "file": "src/content/pages/home.md",
-      "part": "body",
-      "family": "service-scope",
-      "severity": "review",
       "matched": "biohazard cleanup",
       "context": "damage, mold remediation, storm damage, biohazard cleanup, and full reconstruction for homeowners",
-      "reason": "names the 'biohazard' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
-    },
-    {
-      "file": "src/content/pages/services.md",
-      "part": "body",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "fire and smoke damage",
-      "context": "ing, and moisture mapping, as well as **fire and smoke damage restoration**, where the work goes well",
-      "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
-    },
-    {
-      "file": "src/content/pages/services.md",
-      "part": "body",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "smoke damage restoration",
-      "context": "moisture mapping, as well as **fire and smoke damage restoration**, where the work goes well beyond what",
-      "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
+      "reason": "names the 'biohazard' service family but plan-input services are only: decks-pergolas-fences, fire-smoke-rebuilding, home-remodeling, mold-remediation, new-construction, painting-trim"
     },
     {
       "file": "src/content/pages/services.md",
@@ -338,7 +149,7 @@
       "severity": "review",
       "matched": "trauma scene cleanup",
       "context": "gs worse, and we handle **biohazard and trauma scene cleanup** with the discretion and proper contai",
-      "reason": "names the 'biohazard' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
+      "reason": "names the 'biohazard' service family but plan-input services are only: decks-pergolas-fences, fire-smoke-rebuilding, home-remodeling, mold-remediation, new-construction, painting-trim"
     },
     {
       "file": "src/content/pages/services.md",
@@ -347,61 +158,7 @@
       "severity": "review",
       "matched": "structural reconstruction",
       "context": "property damage, emergency mitigation, structural reconstruction, and everything in between. We work wit",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
-    },
-    {
-      "file": "src/content/serviceAreas/athens-al.md",
-      "part": "frontmatter",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "fire and smoke damage",
-      "context": "amage extraction and structural drying, fire and smoke damage cleanup, mold remediation, and full rec",
-      "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
-    },
-    {
-      "file": "src/content/serviceAreas/athens-al.md",
-      "part": "body",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "Fire and smoke damage",
-      "context": "ment everything the carrier needs. ### Fire and smoke damage restoration After a kitchen fire, the",
-      "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
-    },
-    {
-      "file": "src/content/serviceAreas/athens-al.md",
-      "part": "body",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "smoke damage restoration",
-      "context": "ything the carrier needs. ### Fire and smoke damage restoration After a kitchen fire, the visible char",
-      "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
-    },
-    {
-      "file": "src/content/serviceAreas/huntsville-al.md",
-      "part": "frontmatter",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "fire and smoke damage",
-      "context": "amage extraction and structural drying, fire and smoke damage cleanup and odor removal, mold remediat",
-      "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
-    },
-    {
-      "file": "src/content/serviceAreas/huntsville-al.md",
-      "part": "body",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "fire and smoke damage",
-      "context": "Since 2008, we've handled water damage, fire and smoke damage, mold remediation, and full reconstruct",
-      "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
-    },
-    {
-      "file": "src/content/serviceAreas/huntsville-al.md",
-      "part": "body",
-      "family": "service-scope",
-      "severity": "review",
-      "matched": "smoke damage restoration",
-      "context": "try S500 drying standard. ### Fire and smoke damage restoration After a fire, the visible char is rare",
-      "reason": "names the 'fire' service family but plan-input services are only: home-remodeling, new-construction, decks-pergolas-fences, roofing, siding-gutters, painting-trim"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: decks-pergolas-fences, fire-smoke-rebuilding, home-remodeling, mold-remediation, new-construction, painting-trim"
     }
   ]
 }

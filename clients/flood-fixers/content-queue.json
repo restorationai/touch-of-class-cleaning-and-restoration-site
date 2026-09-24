@@ -1249,6 +1249,187 @@
         "https://www.iicrc.org/page/IICRCS500"
       ],
       "notes": "Do not rewrite /blog/burst-pipe-emergency-checklist/: that one is written for homeowners. This is the multi-tenant version, ordered by minute: kill power to affected panels, find and close the building shutoff, notify tenants and the building owner, photograph before anything moves, call the carrier and the restoration contractor in that order. Add the after-hours case (burst at 2am, nobody on site) because that is the panic search. 24/7 emergency service is a verified brand fact."
+    },
+    {
+      "id": "2026-09-24-ceiling-water-damage-repair-san-diego",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:34:19Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "ceiling water damage repair",
+      "intent": "transactional",
+      "volume": 1900,
+      "kd": 0,
+      "fan_out_cluster": [
+        "ceiling water leak repair",
+        "water leak in ceiling who to call",
+        "minor ceiling water damage",
+        "ceiling damage from water leak",
+        "ceiling water damage repair san diego",
+        "emergency ceiling water leak repair san diego"
+      ],
+      "suggested_slug": "ceiling-water-damage-repair-san-diego",
+      "suggested_title": "Ceiling water damage repair in San Diego: when to patch, when to replace, and who to call",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/reconstruction/",
+        "/service-areas/san-diego-ca/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "reconstruction"
+      ],
+      "city_anchor": "san-diego-ca",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
+      ],
+      "notes": "Highest-volume transactional term in this family (1900/mo, KD 0) and the site has no ceiling-specific page, so this is the page. Frame the sequence: find and stop the source, moisture-map the drywall and joists before cutting, dry, then repair. Explain when a stain can be sealed and repainted versus when sagging or soft drywall has to come out. Tie the rebuild to the reconstruction service (one crew for mitigation and repair is a real differentiator). Do not invent prices; if cost is mentioned, point to /blog/how-much-does-water-damage-restoration-cost/."
+    },
+    {
+      "id": "2026-09-24-ceiling-water-leak-what-to-do",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:34:19Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "ceiling water leak",
+      "intent": "informational",
+      "volume": 2900,
+      "kd": 0,
+      "fan_out_cluster": [
+        "plumbing leak in ceiling",
+        "water leaking from ceiling under bathroom",
+        "water leaking from upstairs bathroom",
+        "water damage bathroom ceiling",
+        "ceiling water damage",
+        "ceiling damage from water leak"
+      ],
+      "suggested_slug": "ceiling-water-leak-what-to-do",
+      "suggested_title": "Ceiling water leak in Escondido? What to do in the first hour",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/burst-pipe-repair/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/service-areas/escondido-ca/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "burst-pipe-repair"
+      ],
+      "city_anchor": "escondido-ca",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Emergency-steps post, not the repair post (that is the San Diego ceiling repair item queued the same day; do not overlap). Order the steps: electrical safety first (light fixtures and fans in wet ceilings), shut off water, poke a relief hole in a bulging ceiling with a bucket underneath, photograph, call. Give a section on the most common source, the bathroom directly above (supply lines, toilet wax ring, shower pan), since three of the fan-out terms are bathroom-specific."
+    },
+    {
+      "id": "2026-09-24-water-spots-on-ceiling-but-no-leak",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:34:19Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water spots on ceiling but no leak",
+      "intent": "informational",
+      "volume": 590,
+      "kd": 0,
+      "fan_out_cluster": [
+        "minor ceiling water damage",
+        "water spot on ceiling below bathroom",
+        "water damage bathroom ceiling",
+        "ceiling water damage",
+        "plumbing leak in ceiling"
+      ],
+      "suggested_slug": "water-spots-on-ceiling-but-no-leak",
+      "suggested_title": "Water spots on ceiling but no leak? 6 causes San Diego homeowners miss",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/blog/how-to-tell-if-you-have-water-damage-behind-walls/",
+        "/blog/mold-after-water-damage/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": "san-diego-ca",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
+      ],
+      "notes": "Question-format GEO piece. Causes to cover: slow intermittent drain or supply leak that only runs when the fixture above is used, AC condensate line or drain pan (big one in San Diego attics), attic condensation in coastal marine-layer areas, a roof flashing leak that only shows after rain, old stain from a past repair, and a failed bathroom exhaust fan duct. End with how a moisture meter or thermal camera settles it. Link to the behind-walls post rather than repeating it."
+    },
+    {
+      "id": "2026-09-24-condo-insurance-water-damage",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:34:19Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "condo insurance water damage",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": 0,
+      "fan_out_cluster": [
+        "leak from upstairs condo who pays",
+        "water leak in condo who is responsible",
+        "who is responsible for condo water damage",
+        "ceiling water leak"
+      ],
+      "suggested_slug": "condo-insurance-water-damage",
+      "suggested_title": "Condo insurance water damage in Carlsbad: HOA policy vs. your HO-6, and who pays when the unit above leaks",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/service-areas/carlsbad-ca/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "reconstruction"
+      ],
+      "city_anchor": "carlsbad-ca",
+      "external_authority_candidates": [
+        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=4775",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Insurance decision-stage content, high value. Explain the split between the HOA master policy (common elements, often walls-out) and the owner's HO-6 (walls-in, betterments, contents, loss assessment), and that the CC&Rs decide the line. California Civil Code 4775 (Davis-Stirling) sets default maintenance responsibility; cite it but tell readers their CC&Rs can override it. Upstairs-unit leak section: whose policy responds, and why documenting the source matters. General information, not legal or coverage advice. Keep separate from the queued rental-property responsibility post (that one is landlord and tenant)."
+    },
+    {
+      "id": "2026-09-24-my-apartment-flooded-what-are-my-rights",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:34:19Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "my apartment flooded what are my rights",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 0,
+      "fan_out_cluster": [
+        "what to do if your apartment floods",
+        "apartment flooded what to do",
+        "how long does a landlord have to fix water damage",
+        "water leak in apartment",
+        "apartment water pipe burst",
+        "apartment water damage"
+      ],
+      "suggested_slug": "my-apartment-flooded-what-are-my-rights",
+      "suggested_title": "My apartment flooded what are my rights? An El Cajon tenant's guide",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/burst-pipe-repair/",
+        "/blog/does-renters-insurance-cover-basement-flooding/",
+        "/blog/mold-after-water-damage/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "burst-pipe-repair"
+      ],
+      "city_anchor": "el-cajon-ca",
+      "external_authority_candidates": [
+        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1941.1",
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
+      ],
+      "notes": "Tenant-side post; the queued rental-property item covers liability from the landlord angle, so lead here with the tenant's first steps (safety, notify landlord in writing, photograph, protect belongings, renters insurance claim for contents) and then rights under California habitability law (Civil Code 1941.1). Related research also surfaced 'my apartment flooded what are my rights california' (20/mo), which supports the California framing. Cover the 'how long does a landlord have to fix water damage' question honestly: California uses a 'reasonable time' standard, often read as 30 days and sooner for urgent issues; verify before stating specifics. General information, not legal advice. Flood Fixers' role: landlords and property managers hire us, and fast drying protects the tenant's health (mold window)."
     }
   ]
 }

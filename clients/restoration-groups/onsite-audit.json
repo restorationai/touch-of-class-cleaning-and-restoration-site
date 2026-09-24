@@ -4,7 +4,7 @@
   "site": "therestorationgroup.com",
   "live_origin": "https://therestorationgroup.com",
   "live_origin_source": "apex",
-  "generated_at": "2026-09-07T20:45:00Z",
+  "generated_at": "2026-09-24T20:25:00Z",
   "audit_form_factor": "desktop",
   "lighthouse_version": "13.4.0",
   "audited_urls": [
@@ -14,52 +14,52 @@
       "verdict": "amber",
       "error_reason": null,
       "scores": {
-        "performance": 92,
-        "accessibility": 93,
+        "performance": 89,
+        "accessibility": 88,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 962,
-        "CLS": 0.155,
+        "LCP_ms": 857,
+        "CLS": 0.2192,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
         {
           "id": "cumulative-layout-shift",
-          "title": "Cumulative Layout Shift (0.155, poor: above the 0.1 good threshold)",
+          "title": "Cumulative Layout Shift (0.219, poor: good threshold is 0.1; reproduced at 0.214 on a second run)",
           "severity": "high",
           "estimated_savings_ms": null,
           "category": "performance"
         },
         {
           "id": "cls-culprits-insight",
-          "title": "Layout shift culprits: hero copy block (header > div.container-wide) reflows when the Inter web font loads",
+          "title": "Layout shift culprits: hero copy block (main > header.relative > div.container-wide, 0.207) reflows when the Inter web font (fonts.gstatic.com) swaps in",
           "severity": "high",
           "estimated_savings_ms": null,
           "category": "performance"
         },
         {
+          "id": "link-name",
+          "title": "Links do not have a discernible name (header logo <a href=\"/\"> is empty; footer email <a> renders empty because the email value is blank)",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
           "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio (4.04:1 on .text-sm trust-bar paragraphs, #787f89 on white)",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio (3.23:1 on footer a.text-primary links, #1498d5 on white, incl. the footer phone and Services/Emergency links)",
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "accessibility"
         },
         {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript (googletagmanager.com/gtag/js?id=G-E4FC6VR918, 69 KB of 154 KB unused)",
-          "severity": "medium",
-          "estimated_savings_ms": 40,
-          "category": "performance"
-        },
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery (service card 480w webp files oversized for 383x256 slots, team-768w.webp 65 KB; est 67 KB)",
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable (inline service links in the dark section, #b4e3f8 vs surrounding text, 1.08:1)",
           "severity": "medium",
           "estimated_savings_ms": null,
-          "category": "performance"
+          "category": "accessibility"
         }
       ],
       "onpage_issues": [
@@ -87,50 +87,50 @@
       "error_reason": null,
       "scores": {
         "performance": 99,
-        "accessibility": 95,
-        "best_practices": 100,
+        "accessibility": 90,
+        "best_practices": 96,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 903,
-        "CLS": 0.0025,
+        "LCP_ms": 913,
+        "CLS": 0.0043,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
         {
+          "id": "link-name",
+          "title": "Links do not have a discernible name (header logo <a href=\"/\"> is empty; footer email <a> renders empty because the email value is blank)",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
           "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio (4.04:1 on .text-sm trust-bar paragraphs, #787f89 on white)",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio (3.23:1 on footer a.text-primary links, #1498d5 on white, incl. the footer phone and Services/Emergency links)",
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "accessibility"
         },
         {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery: fetchpriority=high not applied to the LCP image",
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery (13 service-card 480w webp files oversized for 400x225 slots; est 109 KB)",
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance"
         },
         {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery (hero-bg.webp 138 KB plus 13 oversized 480w service cards; est 179 KB)",
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery: fetchpriority=high not applied to the LCP image (first service card img)",
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance"
         },
         {
           "id": "render-blocking-insight",
-          "title": "Render-blocking requests (/_astro/_slug_.BQf7bTWW.css, ~8.7 KB)",
+          "title": "Render-blocking requests (/_astro/_slug_.RTTt3S3i.css, ~9.3 KB, plus the duplicate blocking Google Fonts Inter stylesheet)",
           "severity": "medium",
-          "estimated_savings_ms": 50,
-          "category": "performance"
-        },
-        {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript (googletagmanager.com/gtag/js?id=G-E4FC6VR918, 69 KB of 154 KB unused)",
-          "severity": "medium",
-          "estimated_savings_ms": 50,
+          "estimated_savings_ms": 51,
           "category": "performance"
         }
       ],
@@ -152,7 +152,7 @@
         },
         {
           "id": "low_character_count",
-          "title": "Body copy 615 words against the url-plan target of 800 for this hub",
+          "title": "Body copy 617 words against the url-plan target of 800 for this hub",
           "severity": "low"
         }
       ]
@@ -164,50 +164,50 @@
       "error_reason": null,
       "scores": {
         "performance": 99,
-        "accessibility": 95,
+        "accessibility": 90,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 847,
-        "CLS": 0.0025,
+        "LCP_ms": 893,
+        "CLS": 0.0061,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
         {
+          "id": "link-name",
+          "title": "Links do not have a discernible name (header logo <a href=\"/\"> is empty; footer email <a> renders empty because the email value is blank)",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
           "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio (4.04:1 on .text-sm trust-bar paragraphs, #787f89 on white)",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio (3.23:1 on footer a.text-primary links, #1498d5 on white, incl. the footer phone and Services/Emergency links)",
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "accessibility"
         },
         {
           "id": "lcp-discovery-insight",
-          "title": "LCP request discovery: fetchpriority=high not applied to the LCP image",
+          "title": "LCP request discovery: fetchpriority=high not applied to the LCP image (hero /images/services/water-damage-restoration.webp)",
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance"
         },
         {
           "id": "image-delivery-insight",
-          "title": "Improve image delivery (water-damage-restoration.webp 70 KB under-compressed; est 36 KB)",
+          "title": "Improve image delivery (hero water-damage-restoration.webp 71 KB, est 36 KB saving; no srcset)",
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance"
         },
         {
           "id": "render-blocking-insight",
-          "title": "Render-blocking requests (/_astro/_slug_.BQf7bTWW.css, ~8.7 KB)",
+          "title": "Render-blocking requests (/_astro/_slug_.RTTt3S3i.css, ~9.3 KB, plus the duplicate blocking Google Fonts Inter stylesheet)",
           "severity": "medium",
-          "estimated_savings_ms": 50,
-          "category": "performance"
-        },
-        {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript (googletagmanager.com/gtag/js?id=G-E4FC6VR918, 69 KB of 154 KB unused)",
-          "severity": "medium",
-          "estimated_savings_ms": 0,
+          "estimated_savings_ms": 66,
           "category": "performance"
         }
       ],
@@ -231,50 +231,50 @@
       "error_reason": null,
       "scores": {
         "performance": 98,
-        "accessibility": 95,
+        "accessibility": 90,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1147,
-        "CLS": 0.0024,
+        "LCP_ms": 1193,
+        "CLS": 0.006,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
         {
+          "id": "link-name",
+          "title": "Links do not have a discernible name (header logo <a href=\"/\"> is empty; footer email <a> renders empty because the email value is blank)",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
           "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio (4.04:1 on .text-sm trust-bar paragraphs, #787f89 on white)",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio (3.23:1 on footer a.text-primary links, #1498d5 on white, incl. the footer phone and Services/Emergency links)",
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "accessibility"
         },
         {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery: fetchpriority=high not applied to the LCP image",
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript (googletagmanager.com/gtag/js?id=G-E4FC6VR918, 69 KB unused)",
           "severity": "medium",
-          "estimated_savings_ms": null,
+          "estimated_savings_ms": 150,
           "category": "performance"
         },
         {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript (googletagmanager.com/gtag/js?id=G-E4FC6VR918, 69 KB of 154 KB unused)",
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery: fetchpriority=high not applied to the LCP image (hero /images/services/fire-damage-restoration.webp)",
           "severity": "medium",
-          "estimated_savings_ms": 140,
+          "estimated_savings_ms": null,
           "category": "performance"
         },
         {
           "id": "render-blocking-insight",
-          "title": "Render-blocking requests (/_astro/_slug_.BQf7bTWW.css, ~8.7 KB)",
+          "title": "Render-blocking requests (/_astro/_slug_.RTTt3S3i.css, ~9.3 KB, plus the duplicate blocking Google Fonts Inter stylesheet)",
           "severity": "medium",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree: critical request chain through fonts.googleapis.com then fonts.gstatic.com",
-          "severity": "low",
-          "estimated_savings_ms": null,
+          "estimated_savings_ms": 60,
           "category": "performance"
         }
       ],
@@ -298,51 +298,51 @@
       "error_reason": null,
       "scores": {
         "performance": 99,
-        "accessibility": 95,
-        "best_practices": 100,
+        "accessibility": 91,
+        "best_practices": 96,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 804,
-        "CLS": 0.0543,
+        "LCP_ms": 877,
+        "CLS": 0.0565,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
         {
+          "id": "link-name",
+          "title": "Links do not have a discernible name (header logo <a href=\"/\"> is empty; footer email <a> renders empty because the email value is blank)",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
           "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio (4.04:1 on .text-sm trust-bar paragraphs, #787f89 on white)",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio (3.23:1 on footer a.text-primary links, #1498d5 on white, incl. the footer phone and Services/Emergency links); also span.text-slate-400 #94a3b8 on white, 2.56:1",
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "accessibility"
         },
         {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery: fetchpriority=high not applied to the LCP image",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        },
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery (hero-bg.webp 138 KB under-compressed; est 24 KB)",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        },
-        {
           "id": "render-blocking-insight",
-          "title": "Render-blocking requests (/_astro/_slug_.BQf7bTWW.css, ~8.7 KB)",
+          "title": "Render-blocking requests (/_astro/_slug_.RTTt3S3i.css, ~9.3 KB, plus the duplicate blocking Google Fonts Inter stylesheet)",
           "severity": "medium",
-          "estimated_savings_ms": null,
+          "estimated_savings_ms": 64,
           "category": "performance"
         },
         {
           "id": "unused-javascript",
-          "title": "Reduce unused JavaScript (googletagmanager.com/gtag/js?id=G-E4FC6VR918, 69 KB of 154 KB unused)",
+          "title": "Reduce unused JavaScript (googletagmanager.com/gtag/js?id=G-E4FC6VR918, 69 KB unused)",
           "severity": "medium",
-          "estimated_savings_ms": 20,
+          "estimated_savings_ms": null,
           "category": "performance"
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console (net::ERR_SOCKS_CONNECTION_FAILED, DataForSEO crawler proxy artifact, not a site error)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "best-practices"
         }
       ],
       "onpage_issues": [
@@ -358,12 +358,7 @@
         },
         {
           "id": "frame",
-          "title": "Page contains an iframe (lazy-loaded Google Maps embed)",
-          "severity": "low"
-        },
-        {
-          "id": "high_loading_time",
-          "title": "Crawler loading time above threshold (dom_complete 3991 ms, inflated by the lazy Maps iframe; Lighthouse TTI 794 ms and LCP 804 ms)",
+          "title": "Page contains an iframe (Google Maps embed, Kenilworth NJ query)",
           "severity": "low"
         }
       ]
@@ -374,58 +369,63 @@
       "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 99,
-        "accessibility": 96,
-        "best_practices": 100,
+        "performance": 100,
+        "accessibility": 91,
+        "best_practices": 96,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 859,
-        "CLS": 0.0312,
+        "LCP_ms": 531,
+        "CLS": 0.0443,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
         {
+          "id": "link-name",
+          "title": "Links do not have a discernible name (3 anchors: header logo <a href=\"/\"> is empty, contact-card Email link and footer email link render empty because the email value is blank)",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
           "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio (4.04:1 on .text-sm trust-bar paragraphs, #787f89 on white)",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio (3.23:1 on footer a.text-primary links, #1498d5 on white, incl. the footer phone and Services/Emergency links)",
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "accessibility"
         },
         {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery: fetchpriority=high not applied to the LCP image",
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests (/_astro/_slug_.RTTt3S3i.css, ~9.3 KB, plus the duplicate blocking Google Fonts Inter stylesheet)",
           "severity": "medium",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        },
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery (hero-bg.webp 138 KB under-compressed; est 91 KB)",
-          "severity": "medium",
-          "estimated_savings_ms": null,
+          "estimated_savings_ms": 52,
           "category": "performance"
         },
         {
           "id": "unused-javascript",
-          "title": "Reduce unused JavaScript (googletagmanager.com/gtag/js?id=G-E4FC6VR918, 69 KB of 154 KB unused)",
-          "severity": "medium",
-          "estimated_savings_ms": 30,
-          "category": "performance"
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests (/_astro/_slug_.BQf7bTWW.css, ~8.7 KB)",
+          "title": "Reduce unused JavaScript (googletagmanager.com/gtag/js?id=G-E4FC6VR918, 69 KB unused)",
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance"
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console (net::ERR_SOCKS_CONNECTION_FAILED, DataForSEO crawler proxy artifact, not a site error)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "best-practices"
         }
       ],
       "onpage_issues": [
         {
           "id": "has_render_blocking_resources",
           "title": "Page has render-blocking resources",
+          "severity": "low"
+        },
+        {
+          "id": "low_content_rate",
+          "title": "Low text-to-HTML content rate",
           "severity": "low"
         },
         {
@@ -438,9 +438,9 @@
   ],
   "site_rollup": {
     "avg_scores": {
-      "performance": 97.67,
-      "accessibility": 94.83,
-      "best_practices": 100.0,
+      "performance": 97.33,
+      "accessibility": 90.0,
+      "best_practices": 98.0,
       "seo": 100.0
     },
     "verdict": "amber",
@@ -453,50 +453,50 @@
     },
     "template_issues": [
       {
-        "id": "cumulative-layout-shift",
-        "title": "Hero copy block shifts when the Inter web font swaps in (CLS 0.155 home, 0.054 union-nj, 0.031 contact)",
-        "affected_urls": 3,
+        "id": "link-name",
+        "title": "Links do not have a discernible name (empty header logo link + blank email link in footer and contact card)",
+        "affected_urls": 6,
         "severity": "high"
       },
       {
         "id": "color-contrast",
-        "title": "Background and foreground colors do not have a sufficient contrast ratio",
-        "affected_urls": 6,
-        "severity": "medium"
-      },
-      {
-        "id": "unused-javascript",
-        "title": "Reduce unused JavaScript (GA4 gtag.js, 69 KB unused on every page)",
+        "title": "Footer a.text-primary links #1498d5 on white at 3.23:1 (needs 4.5:1)",
         "affected_urls": 6,
         "severity": "medium"
       },
       {
         "id": "render-blocking-insight",
-        "title": "Render-blocking requests (/_astro/_slug_.BQf7bTWW.css, ~8.7 KB)",
+        "title": "Render-blocking requests (/_astro/_slug_.RTTt3S3i.css ~9.3 KB plus duplicate blocking Google Fonts stylesheet)",
+        "affected_urls": 6,
+        "severity": "medium"
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript (googletagmanager.com/gtag/js?id=G-E4FC6VR918, 69 KB unused)",
         "affected_urls": 6,
         "severity": "medium"
       },
       {
         "id": "lcp-discovery-insight",
-        "title": "LCP request discovery: fetchpriority=high not applied to the LCP image",
-        "affected_urls": 5,
+        "title": "LCP request discovery: fetchpriority=high not applied to the LCP image (service-landing heroes and hub first card)",
+        "affected_urls": 3,
         "severity": "medium"
       },
       {
         "id": "image-delivery-insight",
-        "title": "Improve image delivery (hero-bg.webp under-compressed, 480w service cards oversized for their slots)",
-        "affected_urls": 5,
+        "title": "Improve image delivery (480w service cards oversized for slots, service hero webp without srcset, team-768w.webp)",
+        "affected_urls": 3,
         "severity": "medium"
       },
       {
         "id": "cache-insight",
-        "title": "Use efficient cache lifetimes (Cloudflare email-decode.min.js, 2-day TTL)",
+        "title": "Use efficient cache lifetimes (Cloudflare email-decode.min.js short TTL)",
         "affected_urls": 6,
         "severity": "low"
       },
       {
         "id": "network-dependency-tree-insight",
-        "title": "Network dependency tree: critical request chain via fonts.gstatic.com",
+        "title": "Network dependency tree: critical request chain via fonts.googleapis.com / fonts.gstatic.com",
         "affected_urls": 6,
         "severity": "low"
       },
@@ -514,14 +514,20 @@
       },
       {
         "id": "forced-reflow-insight",
-        "title": "Forced reflow (33-50 ms, unattributed script)",
+        "title": "Forced reflow (32-49 ms, unattributed script)",
+        "affected_urls": 4,
+        "severity": "low"
+      },
+      {
+        "id": "errors-in-console",
+        "title": "Browser errors were logged to the console (net::ERR_SOCKS_CONNECTION_FAILED, crawler proxy artifact)",
         "affected_urls": 3,
         "severity": "low"
       },
       {
         "id": "low_content_rate",
         "title": "Low text-to-HTML content rate",
-        "affected_urls": 2,
+        "affected_urls": 3,
         "severity": "low"
       }
     ],
@@ -530,138 +536,160 @@
         "url": "https://therestorationgroup.com/",
         "archetype": "home",
         "verdict": "amber",
-        "main_issue": "CLS regressed 0.003 to 0.155 (poor) from the hero copy block reflowing on Inter web-font load; performance 99 to 92; meta description still 188 chars against the 70-160 target; accessibility 93 from the 4.04:1 contrast failure"
+        "main_issue": "CLS worsened 0.155 to 0.219 (poor, reproduced at 0.214) from the hero copy block reflowing on Inter web-font swap; performance 92 to 89; accessibility 93 to 88 (empty logo link, blank email link, footer contrast 3.23:1, link-in-text-block); meta description still 188 chars"
       }
     ],
-    "template_issues_note": "affected_urls reflects the true failure count across all 6 audited URLs. Per-URL lighthouse_issues arrays are capped at the top 5 per the methodology, so some issues appear in fewer per-URL lists than the count here."
+    "template_issues_note": "affected_urls is the true failure count across all 6 audited URLs from the raw Lighthouse audits (score < 0.9) and instant_pages checks. Per-URL lighthouse_issues arrays are capped at the top 5."
   },
   "regression": {
-    "prior_run_at": "2026-07-30T18:31:01Z",
+    "prior_run_at": "2026-09-07T20:45:00Z",
     "score_deltas": {
-      "performance": -1.03,
-      "accessibility": 0.03,
-      "best_practices": 0.0,
+      "performance": -0.34,
+      "accessibility": -4.83,
+      "best_practices": -2.0,
       "seo": 0.0
     },
+    "site_level_flags": [
+      "accessibility avg dropped -4.83 (>= 3 point threshold)"
+    ],
     "verdict_transitions": [],
     "cwv_regressions": [
       {
         "url": "https://therestorationgroup.com/",
         "metric": "CLS",
-        "prior": 0.003,
-        "current": 0.155,
-        "delta": 0.152,
-        "cause": "Hero copy block (body > main > header > div.container-wide) reflows when https://fonts.gstatic.com/s/inter/v20/...woff2 loads. Reproduced identically on two consecutive Lighthouse runs, so this is not run-to-run noise."
-      },
-      {
-        "url": "https://therestorationgroup.com/services/fire-damage-restoration/",
-        "metric": "LCP_ms",
-        "prior": 787,
-        "current": 1147,
-        "delta": 360,
-        "cause": "LCP element still has no fetchpriority=high; page also carries the new 154 KB GA4 gtag.js on the critical path."
+        "prior": 0.155,
+        "current": 0.2192,
+        "delta": 0.0642
       }
     ],
     "score_regressions": [
       {
         "url": "https://therestorationgroup.com/",
-        "category": "performance",
-        "prior": 99,
-        "current": 92,
-        "delta": -7
+        "category": "accessibility",
+        "prior": 93,
+        "current": 88,
+        "delta": -5
+      },
+      {
+        "url": "https://therestorationgroup.com/services/",
+        "category": "accessibility",
+        "prior": 95,
+        "current": 90,
+        "delta": -5
+      },
+      {
+        "url": "https://therestorationgroup.com/services/water-damage-restoration/",
+        "category": "accessibility",
+        "prior": 95,
+        "current": 90,
+        "delta": -5
+      },
+      {
+        "url": "https://therestorationgroup.com/services/fire-damage-restoration/",
+        "category": "accessibility",
+        "prior": 95,
+        "current": 90,
+        "delta": -5
+      },
+      {
+        "url": "https://therestorationgroup.com/contact/",
+        "category": "accessibility",
+        "prior": 96,
+        "current": 91,
+        "delta": -5
       }
     ],
     "new_issues": [
       {
         "url": "https://therestorationgroup.com/",
-        "id": "unused-javascript",
-        "title": "GA4 gtag.js (G-E4FC6VR918) ships 154 KB, 69 KB unused"
+        "id": "link-name",
+        "title": "Links do not have a discernible name (header logo <a href=\"/\"> is empty; footer email <a> renders empty because the email value is blank)"
       },
       {
         "url": "https://therestorationgroup.com/",
-        "id": "cumulative-layout-shift",
-        "title": "CLS 0.155, above the 0.1 poor threshold"
-      },
-      {
-        "url": "https://therestorationgroup.com/",
-        "id": "cls-culprits-insight",
-        "title": "Layout shift culprit: hero copy block on web-font load"
-      },
-      {
-        "url": "https://therestorationgroup.com/",
-        "id": "layout-shifts",
-        "title": "Avoid large layout shifts (1 shift found, score 0.155)"
+        "id": "link-in-text-block",
+        "title": "Links rely on color to be distinguishable (1.08:1 inline links in dark section)"
       },
       {
         "url": "https://therestorationgroup.com/services/",
-        "id": "unused-javascript",
-        "title": "GA4 gtag.js, 69 KB unused"
+        "id": "errors-in-console",
+        "title": "Browser errors were logged to the console (ERR_SOCKS_CONNECTION_FAILED crawler proxy artifact)"
       },
       {
         "url": "https://therestorationgroup.com/services/",
-        "id": "forced-reflow-insight",
-        "title": "Forced reflow, 33 ms"
+        "id": "link-name",
+        "title": "Links do not have a discernible name (header logo <a href=\"/\"> is empty; footer email <a> renders empty because the email value is blank)"
       },
       {
         "url": "https://therestorationgroup.com/services/water-damage-restoration/",
-        "id": "unused-javascript",
-        "title": "GA4 gtag.js, 69 KB unused"
+        "id": "link-name",
+        "title": "Links do not have a discernible name (header logo <a href=\"/\"> is empty; footer email <a> renders empty because the email value is blank)"
       },
       {
         "url": "https://therestorationgroup.com/services/fire-damage-restoration/",
-        "id": "unused-javascript",
-        "title": "GA4 gtag.js, 69 KB unused"
+        "id": "link-name",
+        "title": "Links do not have a discernible name (header logo <a href=\"/\"> is empty; footer email <a> renders empty because the email value is blank)"
+      },
+      {
+        "url": "https://therestorationgroup.com/service-areas/union-nj/",
+        "id": "errors-in-console",
+        "title": "Browser errors were logged to the console (ERR_SOCKS_CONNECTION_FAILED crawler proxy artifact)"
+      },
+      {
+        "url": "https://therestorationgroup.com/service-areas/union-nj/",
+        "id": "link-name",
+        "title": "Links do not have a discernible name (header logo <a href=\"/\"> is empty; footer email <a> renders empty because the email value is blank)"
       },
       {
         "url": "https://therestorationgroup.com/contact/",
-        "id": "unused-javascript",
-        "title": "GA4 gtag.js, 69 KB unused"
+        "id": "errors-in-console",
+        "title": "Browser errors were logged to the console (ERR_SOCKS_CONNECTION_FAILED crawler proxy artifact)"
       },
       {
         "url": "https://therestorationgroup.com/contact/",
-        "id": "forced-reflow-insight",
-        "title": "Forced reflow, 50 ms"
+        "id": "link-name",
+        "title": "Links do not have a discernible name (header logo <a href=\"/\"> is empty; footer email <a> renders empty because the email value is blank)"
       }
     ],
     "resolved_issues": [
       {
-        "url": "https://therestorationgroup.com/contact/",
-        "id": "cumulative-layout-shift",
-        "title": "CLS improved 0.127 to 0.031, now inside the good band"
+        "url": "all 6 URLs",
+        "id": "schema_nap_location_conflict",
+        "title": "LocalBusiness JSON-LD now publishes 500 S 31st St, Kenilworth, NJ 07033, and the /service-areas/union-nj/ map embed now queries Kenilworth NJ instead of Fair Lawn (manual finding, not a DataForSEO check id)"
       },
       {
-        "url": "https://therestorationgroup.com/contact/",
-        "id": "cls-culprits-insight",
-        "title": "No longer flagged on /contact/"
+        "url": "all 6 URLs",
+        "id": "phone_discipline_conflict",
+        "title": "Static HTML and JSON-LD telephone now use +18556507422, the GBP line in the client record; (908) 970-8533 no longer appears (manual finding)"
       },
       {
-        "url": "https://therestorationgroup.com/contact/",
-        "id": "layout-shifts",
-        "title": "No longer flagged on /contact/"
+        "url": "all 6 URLs",
+        "id": "prerebrand_social_sameas",
+        "title": "sameAs no longer lists Elite Restoration Group social profiles (manual finding)"
       }
     ],
-    "note": "Five of six URLs are comparable to the 2026-07-30 audit. The service-area slot changed: the July audit used /service-areas/kenilworth-nj/, which now 301-redirects because the 2026-08-29 url-plan regeneration replaced it with a 52-area NJ/NY/PA set. This run audits /service-areas/union-nj/ (first area in the plan, no primary:true entry and no Kenilworth page remains), so that slot has no prior baseline. Prior per-URL lighthouse_issues arrays were capped at the top 5, so an issue absent from a prior list is not proof it was absent from that run; resolved_issues above are limited to ones confirmed by metric movement."
+    "note": "All 6 URLs match the 2026-09-07 baseline, so every slot has a like-for-like comparison. No URL changed verdict. The accessibility drop (about 5 points on 5 of 6 pages) is driven by the new link-name failure (empty header logo anchor and blank email anchor), which is template-wide. best_practices 100 to 96 on 3 pages is the errors-in-console crawler proxy artifact and is not counted as a site regression."
   },
   "manual_findings": [
     {
-      "id": "schema_nap_location_conflict",
+      "id": "blank_email_link",
       "severity": "high",
       "needs_owner_decision": true,
-      "status": "unresolved since 2026-07-30",
-      "title": "LocalBusiness schema and the service-area map embed both publish Fair Lawn while page titles and H1s target Kenilworth and Union",
-      "detail": "JSON-LD LocalBusiness on all 6 pages still sets streetAddress '8 Harlow Crescent, Fair Lawn, NJ 07410'. The client record nap block says '500 S 31st St, Kenilworth, NJ 07033'. New this month: sameAs now lists BOTH cids (5612453956771500683 Fair Lawn and 8008820373441604497 Kenilworth), which is partial progress but leaves two GBPs claimed by one schema block. Also new: the service-area map iframe on /service-areas/union-nj/ embeds 'The Restoration Group Fair Lawn NJ', so a Union NJ page renders a Fair Lawn map.",
+      "status": "new 2026-09-24",
+      "title": "Email renders blank site-wide: footer email link and /contact/ Email card are empty anchors",
+      "detail": "Rendered HTML contains <a href=\"/cdn-cgi/l/email-protection#22\"></a>: the Cloudflare-obfuscated href carries only the 1-byte key with no address, so the site email value passed to the template is an empty string. JSON-LD Organization and LocalBusiness also emit email: \"\". The client record contact.email is mikior7@gmail.com (a personal Gmail), while onboarding_notes.domain_decision_2026_07_15 says \"email stays office@restorationgroups.com\". Confirm office@restorationgroups.com with the owner and publish it or suppress the Email row and schema field when the value is empty.",
       "affected_urls": 6,
-      "source": "manual verification of rendered JSON-LD and iframe src, not a DataForSEO check id"
+      "source": "manual verification of rendered HTML and JSON-LD; corroborated by Lighthouse link-name"
     },
     {
-      "id": "phone_discipline_conflict",
+      "id": "empty_header_logo_link",
       "severity": "high",
-      "needs_owner_decision": true,
-      "status": "unresolved since 2026-07-30",
-      "title": "Site publishes (908) 970-8533 site-wide, not the (855) 650-7422 GBP line named in the client record",
-      "detail": "All 6 pages render tel:+19089708533 and schema telephone +19089708533, and all 6 meta descriptions print (908) 970-8533. The client record onboarding_notes.phone_discipline states 'ONE phone everywhere: GBP line (855) 650-7422'. Unchanged from the July audit. Resolve before the BrightLocal citation campaign (ordered 2026-09-04, campaign 997250) propagates the wrong number.",
+      "needs_owner_decision": false,
+      "status": "new 2026-09-24",
+      "title": "Header logo link <a href=\"/\"> is empty: no logo image and no brand text render in the sticky header",
+      "detail": "body > header.bg-dark > div.container-wide > a.flex contains only whitespace. The brand name is missing from the header on every page, and screen readers announce an unnamed link. Likely a missing logo asset or logo/brand-name config field in the site build.",
       "affected_urls": 6,
-      "source": "manual verification of rendered HTML and JSON-LD, not a DataForSEO check id"
+      "source": "manual verification of rendered HTML; corroborated by Lighthouse link-name"
     },
     {
       "id": "home_meta_description_too_long",
@@ -669,63 +697,60 @@
       "needs_owner_decision": false,
       "status": "unresolved since 2026-07-30",
       "title": "Homepage meta description is 188 characters against the 70-160 target",
-      "detail": "188 chars: 'The Restoration Group provides 24/7 water, fire, mold and storm damage restoration across New Jersey, the NYC metro and eastern PA. Licensed, insured, IICRC-certified. Call (908) 970-8533.' Google will truncate around 160. The copy changed since July (Kenilworth to NJ/NYC/PA) but the length problem did not. This is the medium-severity issue that holds / at amber. DataForSEO has no description-length check id, so it is recorded here rather than as an onpage_issue.",
       "affected_urls": 1,
-      "source": "measured from instant_pages meta.description, not a DataForSEO check id"
+      "source": "instant_pages meta.description length"
     },
     {
-      "id": "prerebrand_social_sameas",
+      "id": "gbp_dual_cid_sameas",
       "severity": "low",
-      "needs_owner_decision": false,
-      "status": "unresolved since 2026-07-30",
-      "title": "schema sameAs still points at pre-rebrand Elite Restoration Group social profiles",
-      "detail": "sameAs lists facebook.com/EliteRestorationGroups (also still http, not https) and instagram.com/eliterestorationgroup. The client record lists post-rebrand social URLs as still awaiting intake, so this is expected but should close out.",
+      "needs_owner_decision": true,
+      "status": "carried from schema_nap_location_conflict",
+      "title": "sameAs still lists both Google cids (8008820373441604497 Kenilworth and 5612453956771500683 Fair Lawn) plus Yelp (Highland Park) and HomeGuide (Paterson) listings in other towns",
       "affected_urls": 6,
-      "source": "manual verification of rendered JSON-LD, not a DataForSEO check id"
+      "source": "manual verification of rendered JSON-LD"
     },
     {
       "id": "hub_title_geo_mismatch",
       "severity": "low",
       "needs_owner_decision": false,
-      "status": "new 2026-09-07",
-      "title": "Homepage moved to NJ/NY/PA geo framing but the services hub title still says Kenilworth",
-      "detail": "Home title is now 'The Restoration Group | 24/7 Restoration in NJ, NY & PA' and H1 '24/7 Restoration Services Across NJ, NY & PA', while /services/ still titles 'Restoration Services in Kenilworth' and the service landings still H1 'in Kenilworth'. Flagging as a consistency observation only; geo/content strategy is System 4 territory, not this audit's call.",
-      "affected_urls": 4,
-      "source": "manual comparison of instant_pages title and h1 values"
+      "status": "unresolved since 2026-09-07",
+      "title": "Homepage uses NJ/NY/PA framing but the services hub and service-landing titles/H1s still say Kenilworth",
+      "affected_urls": 3,
+      "source": "instant_pages meta.title"
     }
   ],
   "verified_non_issues": [
     {
+      "id": "call_tracking_number_swap",
+      "note": "Lighthouse sees tel:+19083419611 on every page. This is an inline call-tracking swap script (tp \"(908) 341-9611\" replaces op \"(855) 650-7422\" on a[href^=\"tel:\"] at runtime). The static HTML, footer NAP and JSON-LD all carry +18556507422, so crawlers and citations see the GBP line. Intended tracking behaviour, not a NAP defect."
+    },
+    {
+      "id": "errors-in-console",
+      "note": "Flagged on /services/, /service-areas/union-nj/ and /contact/ (best_practices 96). Every logged error is net::ERR_SOCKS_CONNECTION_FAILED, a DataForSEO crawler proxy failure, not a site resource error. Home, water and fire pages logged none."
+    },
+    {
       "id": "has_micromarkup",
-      "note": "DataForSEO reports has_micromarkup=false on all 6 pages. Manually verified that valid JSON-LD IS present on every page (Organization, WebSite, LocalBusiness, Service, FAQPage, BreadcrumbList). The check only detects microdata/RDFa, so this is a detection artifact and NOT a missing-schema finding."
-    },
-    {
-      "id": "no_image_alt",
-      "note": "Alt text coverage is 100 percent on all 6 pages (0 of 38 img tags missing or empty alt). The no_image_title flag is a separate, cosmetic title-attribute check and is not an accessibility requirement."
-    },
-    {
-      "id": "malformed_tel_link",
-      "note": "A raw scan for tel: hrefs surfaces the string 'tel:)' on every page. It is text inside a GA4 conversion-tracking JS comment ('every phone link (tel:) and form'), not a broken anchor. Every real anchor is tel:+19089708533."
-    },
-    {
-      "id": "high_loading_time_union_nj",
-      "note": "instant_pages flags high_loading_time on /service-areas/union-nj/ (dom_complete 3991 ms). Lighthouse on the same URL returns performance 99, TTI 794 ms, LCP 804 ms. The gap is the lazy-loaded Google Maps iframe finishing after the user-visible render, so it is graded low and does not flip the page to amber."
+      "note": "Valid JSON-LD (Organization, LocalBusiness, BreadcrumbList, etc.) is present; the DataForSEO check only detects microdata/RDFa."
     },
     {
       "id": "broken_links",
-      "note": "No 4xx or 5xx outlinks, no mixed content, no meta-refresh redirects, no duplicate titles or meta tags, and exactly one H1 on all 6 pages. is_broken, is_4xx_code, is_5xx_code and https_to_http_links are all false."
+      "note": "instant_pages: no broken links or resources, one H1 per page, no duplicate title/description, canonicals self-referencing on all 6 URLs, HSTS present."
+    },
+    {
+      "id": "lcp_hero_home",
+      "note": "Homepage hero-bg.webp already has loading=\"eager\" fetchpriority=\"high\"; lcp-discovery-insight does not fire on / ."
     }
   ],
   "environment_caveats": [
-    "Lighthouse ran DESKTOP only (for_mobile=false, formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240), matching the July baseline so the deltas are like-for-like. Mobile performance would typically score 10-20 points lower, and the homepage CLS regression would likely be worse on mobile where the hero copy wraps to more lines.",
-    "The dedicated on_page_lighthouse and on_page_instant_pages MCP wrappers were not exposed in this environment. The audit called the DataForSEO REST API directly (POST /v3/on_page/lighthouse/live/json and POST /v3/on_page/instant_pages) with the same parameters, and responses were written to disk before parsing.",
-    "Homepage was audited twice to test whether the CLS regression was run-to-run noise. Run 1: performance 92, CLS 0.15490. Run 2: performance 93, CLS 0.15490, identical layout-shift culprit node. The state file records run 1. CLS is reproducible to five decimal places, so the regression is real.",
-    "Audited the apex production origin. curl -sI returned no x-robots-tag noindex, so the SEO category counts toward every verdict and the staging-noindex correction does not apply.",
-    "Lighthouse 13.4.0 also returns an 'agentic-browsing' category (home 91, others 99-100). It is outside the four methodology categories and is excluded from scores, averages and verdicts."
+    "Lighthouse ran DESKTOP only (for_mobile=false, formFactor=desktop), matching prior baselines so deltas are like-for-like. Mobile performance would typically score 10-20 points lower; the homepage CLS would likely be worse on mobile.",
+    "The on_page_lighthouse / on_page_instant_pages MCP wrappers were not exposed; the audit called POST /v3/on_page/lighthouse/live/json and POST /v3/on_page/instant_pages directly with the same parameters and wrote full responses to disk before parsing (lighthouse_detail extracted, not deferred).",
+    "Homepage audited twice: run 1 performance 89, CLS 0.2192; run 2 performance 89, CLS 0.2142, same culprit node. State records run 1.",
+    "Apex production origin audited; curl -sI returned no x-robots-tag noindex, so SEO counts toward every verdict.",
+    "Service-landing slot: three pages tie at url-plan priority 9.0 (fire, mold, water). Water and fire were kept to preserve the baseline comparison."
   ],
   "cost_usd": {
     "lighthouse_live_json": 0.035,
-    "instant_pages": 0.0306,
-    "total_actual": 0.0656
+    "instant_pages": 0.0108,
+    "total_actual": 0.0458
   }
 }

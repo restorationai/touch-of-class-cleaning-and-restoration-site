@@ -366,6 +366,211 @@
       "notes": "PAA question that maps directly to the repair-versus-replace decision, which is where general contracting gets sold. Save-versus-replace table by material (drywall, hardwood, subfloor, insulation, cabinetry, carpet pad). Zero measured volume: write for extractable answers. Natural bridge to the general-contracting page for rebuild work.",
       "source": "keyword-researcher",
       "seed": "water damage restoration"
+    },
+    {
+      "id": "2026-09-24-fire-damage-restoration-cost-little-falls-mn",
+      "status": "queued",
+      "queued_at": "2026-09-24T20:33:13Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "fire damage restoration cost",
+      "intent": "commercial",
+      "volume": 260,
+      "kd": 1,
+      "fan_out_cluster": [
+        "fire restoration cost per square foot",
+        "house fire debris removal cost",
+        "what does insurance pay for fire damage restoration",
+        "smoke and soot cleanup cost",
+        "cost to rebuild after a house fire",
+        "fire damage restoration process"
+      ],
+      "suggested_slug": "fire-damage-restoration-cost-little-falls-mn",
+      "suggested_title": "Fire Damage Restoration Cost in Little Falls, MN: What Drives the Price",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/general-contracting/",
+        "/services/water-cleanup/",
+        "/blog/fire-damage-restoration-process/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "general-contracting"
+      ],
+      "city_anchor": "little-falls-mn",
+      "external_authority_candidates": [
+        "https://mn.gov/commerce/insurance/home/residential-claim/",
+        "https://dli.mn.gov/workers/homeowners/tips-hiring-contractor"
+      ],
+      "notes": "KD 1 with 260/mo. Mirror the water damage cost post structure: cost drivers table (smoke-only vs structural, square footage, soot type, water from suppression, rebuild scope), per-square-foot range framing without fabricated numbers, and how insurance estimates line up. Tie to general contracting for rebuild.",
+      "source": "keyword-researcher",
+      "seed": "fire damage restoration"
+    },
+    {
+      "id": "2026-09-24-what-to-do-after-a-house-fire-st-cloud-mn",
+      "status": "queued",
+      "queued_at": "2026-09-24T20:33:13Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "what to do after a house fire",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 0,
+      "fan_out_cluster": [
+        "what to do after a house fire checklist",
+        "what happens to a house after a fire",
+        "what to do after a total loss house fire",
+        "what can be salvaged after a house fire",
+        "how long to rebuild a house after a fire",
+        "who cleans up after a house fire"
+      ],
+      "suggested_slug": "what-to-do-after-a-house-fire-st-cloud-mn",
+      "suggested_title": "What to Do After a House Fire in St. Cloud, MN: A First-Week Checklist",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/st-cloud-mn/fire-damage-restoration/",
+        "/blog/fire-damage-restoration-process/",
+        "/services/water-cleanup/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "water-cleanup"
+      ],
+      "city_anchor": "st-cloud-mn",
+      "external_authority_candidates": [
+        "https://mn.gov/commerce/insurance/home/dic/after-the-disaster.jsp",
+        "https://mn.gov/commerce/insurance/home/residential-claim/",
+        "https://www.epa.gov/emergencies-iaq/wildfires-and-indoor-air-quality-iaq"
+      ],
+      "notes": "KD 0, 260/mo. Checklist format (first 24 hours, first 48 hours, first week). Lead with re-entry clearance, documenting before cleanup, and not discarding items before the adjuster sees them (MN Commerce guidance). Emotional topic: calm, practical tone. Link to the process post rather than repeating its phases.",
+      "source": "keyword-researcher",
+      "seed": "fire damage restoration"
+    },
+    {
+      "id": "2026-09-24-does-homeowners-insurance-cover-fire-damage",
+      "status": "queued",
+      "queued_at": "2026-09-24T20:33:13Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "does homeowners insurance cover fire damage",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 30,
+      "fan_out_cluster": [
+        "does insurance cover smoke damage",
+        "replacement cost vs actual cash value after a fire",
+        "additional living expenses after a house fire",
+        "does homeowners insurance cover code upgrades after a fire",
+        "debris removal coverage",
+        "what to do if a fire claim is denied"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-fire-damage",
+      "suggested_title": "Does Homeowners Insurance Cover Fire Damage? A Plain-English Guide for Minnesota Homeowners",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/services/general-contracting/",
+        "/blog/fire-damage-restoration-process/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "general-contracting"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://mn.gov/commerce/insurance/home/residential-claim/",
+        "https://mn.gov/commerce/insurance/home/dic/settling-claims/"
+      ],
+      "notes": "Insurance decision-stage, KD 30. city_anchor left null (policy explainer), but frame for Minnesota and cite MN Commerce. Sister post to the water damage insurance guide; cross-link both ways. Covers smoke/soot coverage, ALE, code upgrades, RCV vs ACV. No legal advice framing.",
+      "source": "keyword-researcher",
+      "seed": "fire damage restoration"
+    },
+    {
+      "id": "2026-09-24-fire-damage-insurance-claim-brainerd-mn",
+      "status": "queued",
+      "queued_at": "2026-09-24T20:33:13Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "fire damage insurance claim",
+      "intent": "informational",
+      "volume": 170,
+      "kd": 18,
+      "fan_out_cluster": [
+        "how to deal with insurance adjuster after a house fire",
+        "fire damage insurance claim checklist",
+        "what to document before fire cleanup",
+        "supplements when more fire damage is found",
+        "signing restoration paperwork after a fire",
+        "when to hire a public adjuster"
+      ],
+      "suggested_slug": "fire-damage-insurance-claim-brainerd-mn",
+      "suggested_title": "How to File a Fire Damage Insurance Claim in Brainerd, MN (and Work With the Adjuster)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/brainerd-mn/fire-damage-restoration/",
+        "/blog/storm-damage-insurance-claim-checklist/",
+        "/services/general-contracting/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "general-contracting"
+      ],
+      "city_anchor": "brainerd-mn",
+      "external_authority_candidates": [
+        "https://mn.gov/commerce/insurance/home/residential-claim/",
+        "https://dli.mn.gov/workers/homeowners/tips-hiring-contractor",
+        "https://www.commerce.mn.gov/commerce/insurance/home/dic/public-adjusters/"
+      ],
+      "notes": "Brainerd is a wizard priority area. ChatGPT answer was dominated by adjuster questions: build an adjuster question list and a claim log section. Include the MN DLI warning that 'authorization' forms can act as contracts. Distinct from the coverage post: this is process, not coverage.",
+      "source": "keyword-researcher",
+      "seed": "fire damage restoration"
+    },
+    {
+      "id": "2026-09-24-cleaning-fire-damage-baxter-mn",
+      "status": "queued",
+      "queued_at": "2026-09-24T20:33:13Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "cleaning fire damage",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 11,
+      "fan_out_cluster": [
+        "how to clean a house after a fire",
+        "who cleans up after a house fire",
+        "smoke damage from fire",
+        "how to remove soot after a house fire",
+        "is it safe to use dishes after a house fire",
+        "when fire damage cleaning needs a professional"
+      ],
+      "suggested_slug": "cleaning-fire-damage-baxter-mn",
+      "suggested_title": "Cleaning Fire Damage in Baxter, MN: What You Can Safely Do and What Needs a Pro",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/baxter-mn/fire-damage-restoration/",
+        "/blog/fire-damage-restoration-process/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration"
+      ],
+      "city_anchor": "baxter-mn",
+      "external_authority_candidates": [
+        "https://www.epa.gov/emergencies-iaq/wildfires-and-indoor-air-quality-iaq",
+        "https://mn.gov/commerce/insurance/home/dic/after-the-disaster.jsp"
+      ],
+      "notes": "Baxter is a wizard priority area. DIY-intent query: give genuinely useful safe steps (PPE, ventilation, dry sponge before wet cleaning on soot), then a clear line for when soot, HVAC, and odor need professional work. Do not recommend anything that spreads soot.",
+      "source": "keyword-researcher",
+      "seed": "fire damage restoration"
     }
   ]
 }

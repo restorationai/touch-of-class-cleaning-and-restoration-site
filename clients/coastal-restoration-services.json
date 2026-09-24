@@ -13,7 +13,7 @@
     "url_count": 481,
     "generated_at": "2026-09-23T14:11:28.681853+00:00"
   },
-  "updated_at": "2026-09-24T15:30:36.572168+00:00",
+  "updated_at": "2026-09-24T21:25:29Z",
   "build": {
     "scaffolded_at": "2026-07-30T16:30:42.265700+00:00",
     "github_repo": "restorationai/coastal-restoration-services-site",
@@ -71,5 +71,11 @@
   "brightlocal": {
     "location_id": 4152715,
     "campaign_id": 999568
+  },
+  "refresh": {
+    "last_run_at": "2026-09-24T21:25:29Z",
+    "last_run_total_actions": 1,
+    "last_run_top_action": "audit_then_decide",
+    "last_run_report_path": "clients/coastal-restoration-services/refresh-runs/2026-09-24-refresh-recommender.md"
   }
 }

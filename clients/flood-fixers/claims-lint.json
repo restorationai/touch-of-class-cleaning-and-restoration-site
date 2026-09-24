@@ -1,6 +1,6 @@
 {
   "slug": "flood-fixers",
-  "generated_at": "2026-09-21T17:28:52Z",
+  "generated_at": "2026-09-24T20:30:34Z",
   "truth": {
     "hours": "24/7 Emergency Service",
     "is_247": true,
@@ -17,7 +17,7 @@
     "vertical": "restoration"
   },
   "errors": 1,
-  "review_flags": 155,
+  "review_flags": 157,
   "violations": [
     {
       "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
@@ -170,6 +170,15 @@
       "severity": "review",
       "matched": "Mold remediation",
       "context": ") and worth asking your agent about. **Mold remediation** occupies a gray zone. If mold grew *b",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
+    },
+    {
+      "file": "src/content/blog/does-renters-insurance-cover-basement-flooding.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "e it promptly, some policies will cover mold remediation up to a sublimit. Mold from a flood exc",
       "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
     },
     {
@@ -990,6 +999,15 @@
       "matched": "sewage cleanup",
       "context": "ot just the surface. ### Biohazard and sewage cleanup Sewage backups along older lateral lin",
       "reason": "names the 'sewage' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
+    },
+    {
+      "file": "src/content/serviceAreas/pala-ca.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "storm damage restoration",
+      "context": "la, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 204-1",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
     },
     {
       "file": "src/content/serviceAreas/poway-ca.md",

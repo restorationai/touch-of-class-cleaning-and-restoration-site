@@ -360,6 +360,193 @@
       "notes": "Promoted to priority 1 under the insurance decision-stage rule despite 40/mo volume: these readers hire someone within 24 to 48 hours. Distinct from the existing does-homeowners-insurance-cover-water-damage post, which answers coverage, not process, so cross-link the two rather than repeat. Cover sudden-and-accidental versus gradual-damage exclusions and Florida-specific claim deadlines carefully, and avoid stating anything as legal or coverage advice.",
       "source": "keyword-researcher",
       "banked_at": "2026-09-17T22:13:26.016777+00:00"
+    },
+    {
+      "id": "2026-09-24-smoke-odor-removal-after-house-fire-brandon",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:41:56Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "smoke odor removal",
+      "intent": "transactional",
+      "volume": 1600,
+      "kd": 18,
+      "fan_out_cluster": [
+        "how to get rid of smoke smell after a fire",
+        "smoke damage cleanup",
+        "why smoke smell comes back in humid weather",
+        "thermal fogging vs ozone vs hydroxyl treatment",
+        "does smoke smell get into hvac ducts"
+      ],
+      "suggested_slug": "smoke-odor-removal-after-house-fire-brandon",
+      "suggested_title": "Smoke odor removal after a house fire in Brandon: what actually gets the smell out",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/contents-restoration-storage/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "odor-removal",
+        "contents-restoration-storage"
+      ],
+      "city_anchor": "brandon-fl",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS700"
+      ],
+      "notes": "Highest-volume term in the fire family (1600/mo, KD 18) with no dedicated page. Explain why masking sprays fail and why Florida humidity reactivates smoke odor. Mention HVAC as an odor reservoir without promising duct replacement. Keep distinct from the queued Fire & Smoke Restoration item (service overview) by staying on odor only.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-09-24-how-to-clean-soot-off-walls-tampa",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:41:56Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to clean soot off walls",
+      "intent": "informational",
+      "volume": 590,
+      "kd": 0,
+      "fan_out_cluster": [
+        "soot removal",
+        "how to clean smoke damage",
+        "fire damage wall",
+        "cleaning after fire smoke damage",
+        "dry chemical sponge vs wet cleaning soot",
+        "why wiping soot smears it deeper"
+      ],
+      "suggested_slug": "how-to-clean-soot-off-walls-tampa",
+      "suggested_title": "How to clean soot off walls after a fire (and when a Tampa homeowner should stop and call a pro)",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/blog/fire-damage-restoration-process/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "soot-removal"
+      ],
+      "city_anchor": "tampa-fl",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS700",
+        "https://www.epa.gov/indoor-air-quality-iaq"
+      ],
+      "notes": "590/mo, KD 0, question-format how-to that AI assistants quote. Give honest light-soot DIY steps (dry sponge first, no water) then clear stop signs: oily protein residue, large areas, or soot in HVAC. Avoid guaranteeing results.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-09-24-what-to-do-after-a-house-fire-tampa",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:41:56Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to do after a house fire",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 0,
+      "fan_out_cluster": [
+        "is it safe to stay in a house after a fire",
+        "fire damage insurance claim",
+        "electrical fire damage",
+        "emergency board up after a fire",
+        "water damage from firefighting",
+        "what does a fire restoration company do"
+      ],
+      "suggested_slug": "what-to-do-after-a-house-fire-tampa",
+      "suggested_title": "What to do after a house fire in Tampa: the first 72 hours, step by step",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/emergency-board-up-tarping/",
+        "/services/contents-restoration-storage/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "emergency-board-up-tarping",
+        "contents-restoration-storage"
+      ],
+      "city_anchor": "tampa-fl",
+      "external_authority_candidates": [
+        "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire/recovering-from-a-fire.html",
+        "https://www.myfloridacfo.com/division/consumers/consumerprotections/assignmentofbenefits"
+      ],
+      "notes": "Decision-stage, KD 0, 260/mo. ChatGPT's Tampa fire answer already cites drycor.com, so a structured first-72-hours checklist reinforces that citation. Lead with fire-department clearance, then insurer contact, documentation, board-up, and firefighting water. Emotionally sensitive: calm tone, no scare tactics.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-09-24-does-homeowners-insurance-cover-fire-damage-florida",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:41:56Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover fire damage",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 30,
+      "fan_out_cluster": [
+        "homeowners insurance for fire damage",
+        "fire damage insurance claim",
+        "additional living expenses after a fire",
+        "does renters insurance cover fire damage",
+        "assignment of benefits rules in Florida"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-fire-damage-florida",
+      "suggested_title": "Does homeowners insurance cover fire damage? A plain-English guide for Florida homeowners",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration"
+      ],
+      "city_anchor": "thonotosassa-fl",
+      "external_authority_candidates": [
+        "https://floir.gov/property-casualty/homeowners-insurance",
+        "https://www.iii.org/article/what-covered-standard-homeowners-policy"
+      ],
+      "notes": "Insurance decision-stage rule: readers hire within 24 to 48 hours. Cluster absorbs homeowners insurance for fire damage (1000/mo). Explain dwelling, contents, and loss-of-use categories; Florida AOB limits. No legal or coverage advice, always defer to the policy. Cross-link the existing water-damage insurance post.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-09-24-fire-damage-restoration-cost-thonotosassa",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:41:56Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "fire damage restoration cost",
+      "intent": "commercial",
+      "volume": 260,
+      "kd": 1,
+      "fan_out_cluster": [
+        "fire restoration cost per square foot",
+        "how much does fire damage restoration cost",
+        "house fire debris removal cost",
+        "fire damage inspection",
+        "what insurance pays vs out of pocket"
+      ],
+      "suggested_slug": "fire-damage-restoration-cost-thonotosassa",
+      "suggested_title": "Fire damage restoration cost in Thonotosassa and the Tampa Bay area: what drives the price",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/general-contracting/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "general-contracting"
+      ],
+      "city_anchor": "thonotosassa-fl",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS700"
+      ],
+      "notes": "Commercial intent, KD 1, no cost page exists (mirrors the written water damage cost post). Present cost drivers and mitigation vs reconstruction split rather than hard price promises. Do not quote specific prices unless sourced.",
+      "source": "keyword-researcher"
     }
   ]
 }

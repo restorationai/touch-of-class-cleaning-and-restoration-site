@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+basement mold remediation,transactional,1900,4,18.73,1,mold remediation,,,no
+mold remediation,transactional,165000,35,39.69,3,mold remediation,,/services/mold-remediation/,no
+mold remediation near me,transactional,33100,25,32.97,3,mold remediation,,/services/mold-remediation/,no
+professional mold remediation,transactional,33100,26,20.6,3,mold remediation,,/services/mold-remediation/,no
+mold remediation charleston sc,transactional,720,1,20.2,3,mold remediation,Charleston,/services/mold-remediation/,no
+charleston mold remediation,transactional,720,3,20.2,3,mold remediation,Charleston,/services/mold-remediation/,no
+mold removal charleston sc,transactional,720,1,20.2,3,mold remediation,Charleston,/services/mold-remediation/,no
+mold remediation north charleston,transactional,40,,,3,mold remediation,North Charleston,/service-areas/north-charleston-sc/mold-remediation/,no
+mold remediation summerville sc,transactional,40,0,18.14,3,mold remediation,Summerville,/service-areas/summerville-sc/mold-remediation/,no
+mold remediation mount pleasant sc,transactional,20,,31.36,3,mold remediation,Mount Pleasant,/service-areas/mount-pleasant-sc/mold-remediation/,no
+mold remediation in charleston,transactional,,,,3,mold remediation,Charleston,/services/mold-remediation/,no
+emergency mold remediation charleston,transactional,,,,3,mold remediation,Charleston,/services/mold-remediation/,no
+black mold removal charleston sc,transactional,,,,3,mold remediation,Charleston,/services/mold-remediation/,no
+professional mold remediation charleston,transactional,,,,3,mold remediation,Charleston,/services/mold-remediation/,no
+mold remediation cost,commercial,9900,3,20.04,1,mold remediation,,,yes
+mold remediation cost basement,commercial,880,1,16.74,1,mold remediation,,,no
+mold remediation cost per square foot,commercial,720,0,21.15,1,mold remediation,,,no
+best mold remediation companies,commercial,210,18,21.25,1,mold remediation,,,no
+hvac mold remediation cost,commercial,140,13,45.85,1,mold remediation,,,no
+whole-house mold remediation cost,commercial,50,10,12.56,1,mold remediation,,,no
+mold remediation cost charleston sc,commercial,,,,2,mold remediation,Charleston,,no
+mold remediation companies,commercial,22200,14,39.78,3,mold remediation,,/services/mold-remediation/,no
+mold remediation companies charleston sc,commercial,,,,3,mold remediation,Charleston,/services/mold-remediation/,no
+does bleach kill mold,informational,18100,17,3.03,1,mold remediation,,,yes
+how to get rid of mold inside the walls,informational,8100,12,1.77,1,mold remediation,,,yes
+do air purifiers help with mold,informational,8100,0,3.4,1,mold remediation,,,no
+does homeowners insurance cover mold,informational,5400,11,10.08,1,mold remediation,,,yes
+what kills mold permanently,informational,3600,23,3.26,1,mold remediation,,,no
+diy mold remediation,informational,1900,9,2.35,1,mold remediation,,,no
+what is mold remediation,informational,1000,18,8.21,1,mold remediation,,,no
+who pays for mold remediation,informational,880,9,14.28,1,mold remediation,,,yes
+mold remediation process,informational,720,16,16.01,1,mold remediation,,,no
+when is mold remediation required,informational,390,27,14.81,1,mold remediation,,,no
+epa mold remediation guidelines,informational,320,42,21.8,1,mold remediation,,,no
+what does mold smell like,informational,14800,0,3.22,2,mold remediation,,,no
+is black mold dangerous,informational,5400,35,2.22,2,mold remediation,,,no
+mold remediation vs removal,informational,30,0,3.57,2,mold remediation,,,no
+what does black mold look like,informational,18100,19,2.36,3,mold remediation,,/blog/black-mold-vs-regular-mold/,no
+how to test for mold in the home,informational,9900,22,1.88,3,mold remediation,,/blog/how-to-test-for-mold/,no
+how long does it take for mold to grow,informational,3600,0,6.08,3,mold remediation,,/blog/mold-after-water-damage/,no

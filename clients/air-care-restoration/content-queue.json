@@ -700,6 +700,216 @@
       "written_at": "2026-09-24T15:23:18Z",
       "post_url": "https://aircarerestoration.com/blog/commercial-storm-damage-restoration/",
       "published_verified_at": "2026-09-24T15:27:40Z"
+    },
+    {
+      "id": "2026-09-24-black-soot-on-plastic-in-house",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "black soot on plastic in house",
+      "intent": "informational",
+      "volume": 2400,
+      "kd": 0,
+      "fan_out_cluster": [
+        "soot damage from candles",
+        "black soot from furnace puff back",
+        "black soot around air vents",
+        "is black soot in the house dangerous",
+        "how to clean soot off plastic",
+        "when soot means you need professional cleaning"
+      ],
+      "suggested_slug": "black-soot-on-plastic-in-house",
+      "suggested_title": "Black soot on plastic in house: what causes it and how to clean it in Brownwood homes",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/odor-removal/",
+        "/services/air-duct-cleaning/",
+        "/service-areas/brownwood-tx/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "odor-removal",
+        "air-duct-cleaning"
+      ],
+      "city_anchor": "brownwood-tx",
+      "external_authority_candidates": [
+        "https://www.epa.gov/pm-pollution/particulate-matter-pm-basics",
+        "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center"
+      ],
+      "notes": "Highest-volume informational term in the fire/soot family (2400/mo, KD 0). Walk through the usual sources (candle soot and ghosting, furnace or water-heater puff-back, a nearby fire, oil lamps), flag carbon monoxide risk when the source is a combustion appliance, and say plainly when soot residue calls for FSRT-trained cleaning. Do not give medical advice.",
+      "source": "keyword-researcher",
+      "seed": "fire damage restoration"
+    },
+    {
+      "id": "2026-09-24-does-homeowners-insurance-cover-fire-damage",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover fire damage",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 30,
+      "fan_out_cluster": [
+        "homeowners insurance for fire damage",
+        "does homeowners insurance pay for a hotel after a house fire",
+        "is smoke damage covered by homeowners insurance",
+        "what fire damage is not covered by insurance",
+        "replacement cost vs actual cash value after a fire",
+        "renters insurance fire damage coverage"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-fire-damage",
+      "suggested_title": "Does homeowners insurance cover fire damage? A Texas guide for Abilene homeowners",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/odor-removal/",
+        "/services/contents-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "contents-restoration",
+        "odor-removal"
+      ],
+      "city_anchor": "abilene-tx",
+      "external_authority_candidates": [
+        "https://tdi.texas.gov/webinfo/westfaq.html",
+        "https://www.tdi.texas.gov/pubs/consumer/cb025.html",
+        "https://content.naic.org/consumer/homeowners-insurance.htm"
+      ],
+      "notes": "Cluster absorbs 'homeowners insurance for fire damage' (1000/mo). Cover dwelling, contents, and Additional Living Expense (ALE) per TDI guidance, plus common exclusions (vacancy, arson by the insured). Frame as general information: every policy differs, read your declarations page. Sibling to the live water-coverage explainer; cross-link, do not duplicate.",
+      "source": "keyword-researcher",
+      "seed": "fire damage restoration"
+    },
+    {
+      "id": "2026-09-24-what-to-do-after-a-house-fire",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to do after a house fire",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 0,
+      "fan_out_cluster": [
+        "what to do after a house fire checklist",
+        "is it safe to stay in a house with smoke damage",
+        "what happens to a house after a fire",
+        "how to document fire damage for insurance",
+        "should i board up windows after a fire",
+        "how to spot contractor scams after a fire"
+      ],
+      "suggested_slug": "what-to-do-after-a-house-fire",
+      "suggested_title": "What to do after a house fire in San Angelo: the first 72 hours",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/emergency-board-up-tarping/",
+        "/services/contents-restoration/",
+        "/service-areas/san-angelo-tx/fire-damage-restoration/",
+        "/blog/fire-damage-restoration-process/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "emergency-board-up-tarping",
+        "contents-restoration"
+      ],
+      "city_anchor": "san-angelo-tx",
+      "external_authority_candidates": [
+        "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire/recovering-after-fire.html",
+        "https://www.usfa.fema.gov/prevention/home-fires/",
+        "https://tdi.texas.gov/webinfo/westfaq.html"
+      ],
+      "notes": "KD 0, 260/mo. Structure follows the ChatGPT decomposition: wait for the fire department to clear re-entry, call the insurer, secure the property (board-up, tarp), document room by room, then restoration. Add a printable checklist section. Sensitive topic: calm, practical tone, no fear selling.",
+      "source": "keyword-researcher",
+      "seed": "fire damage restoration"
+    },
+    {
+      "id": "2026-09-24-fire-damage-restoration-cost",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "fire damage restoration cost",
+      "intent": "commercial",
+      "volume": 260,
+      "kd": 1,
+      "fan_out_cluster": [
+        "fire restoration cost per square foot",
+        "how much does fire damage restoration cost",
+        "smoke damage cleanup cost",
+        "soot removal cost",
+        "does insurance pay for fire damage restoration",
+        "fire damage restoration estimate what is included"
+      ],
+      "suggested_slug": "fire-damage-restoration-cost",
+      "suggested_title": "Fire damage restoration cost in Abilene, TX: what drives the price",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/odor-removal/",
+        "/services/general-contracting/",
+        "/blog/water-damage-restoration-cost-tx/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "odor-removal",
+        "general-contracting"
+      ],
+      "city_anchor": "abilene-tx",
+      "external_authority_candidates": [
+        "https://tdi.texas.gov/webinfo/westfaq.html",
+        "https://www.iicrc.org/page/IICRCS700"
+      ],
+      "notes": "KD 1, 260/mo, commercial intent with no commercial-partition page. Explain cost drivers (affected square footage, soot type, water from firefighting, contents pack-out, odor treatment, rebuild) rather than inventing price quotes. Any number cited must be sourced. Mirror the structure of the live water cost TX post and cross-link it.",
+      "source": "keyword-researcher",
+      "seed": "fire damage restoration"
+    },
+    {
+      "id": "2026-09-24-should-i-clean-air-ducts-after-a-fire",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "should i clean air ducts after a fire",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "can smoke damage get into hvac ductwork",
+        "how long does smoke smell stay in air ducts",
+        "should i run my hvac after a house fire",
+        "does insurance cover duct cleaning after a fire",
+        "signs of soot in air vents",
+        "air duct cleaning after smoke damage"
+      ],
+      "suggested_slug": "should-i-clean-air-ducts-after-a-fire",
+      "suggested_title": "Should I clean air ducts after a fire? What Comanche homeowners should know",
+      "target_word_count": 1200,
+      "internal_link_targets": [
+        "/services/air-duct-cleaning/",
+        "/services/fire-damage-restoration/",
+        "/services/odor-removal/",
+        "/service-areas/comanche-tx/"
+      ],
+      "service_tags": [
+        "air-duct-cleaning",
+        "fire-damage-restoration",
+        "odor-removal"
+      ],
+      "city_anchor": "comanche-tx",
+      "external_authority_candidates": [
+        "https://www.epa.gov/indoor-air-quality-iaq/should-you-have-air-ducts-your-home-cleaned",
+        "https://www.nadca.com/"
+      ],
+      "notes": "ChatGPT-surfaced (smoke residue damages HVAC systems). No Google volume, scored intent-first as a question-format AI-retrieval target. Joins two client goals (fire/soot and air duct cleaning). Cite EPA's balanced guidance on duct cleaning; do not claim NADCA certification (not in plan-input).",
+      "source": "keyword-researcher",
+      "seed": "fire damage restoration"
     }
   ]
 }

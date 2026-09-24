@@ -1,6 +1,6 @@
 {
   "slug": "quality-contracting-inc",
-  "generated_at": "2026-09-21T17:28:55Z",
+  "generated_at": "2026-09-24T20:30:36Z",
   "truth": {
     "hours": "",
     "is_247": false,
@@ -10,11 +10,11 @@
     "response_minutes": null,
     "family_owned": false,
     "founded_year": "",
-    "gbp_review_count": 106,
+    "gbp_review_count": 108,
     "vertical": "restoration"
   },
-  "errors": 17,
-  "review_flags": 27,
+  "errors": 18,
+  "review_flags": 29,
   "violations": [
     {
       "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
@@ -206,12 +206,39 @@
       "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
     },
     {
+      "file": "src/content/blog/does-renters-insurance-cover-water-damage.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "error",
+      "matched": "certified restoration",
+      "context": "additional time. A written scope from a certified restoration contractor will give you a clearer time",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/does-renters-insurance-cover-water-damage.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "er extraction, structural drying to the IICRC S500 standard, mold prevention, and the",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
       "file": "src/content/blog/how-to-test-for-mold.md",
       "part": "frontmatter",
       "family": "certification",
       "severity": "review",
       "matched": "IICRC",
       "context": "ars within 3 to 7 days. This is why the IICRC S520 standard for mold remediation emph",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/water-damage-hardwood-floors.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "on starts compounding the problem. The [IICRC S500 standard](https://www.iicrc.org/pa",
       "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
     },
     {
@@ -383,7 +410,7 @@
       "severity": "review",
       "matched": "structural reconstruction",
       "context": "fire and smoke damage cleanup, and full structural reconstruction. For multi-unit properties \\u2014 commo",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, storm-damage-restoration, fire-damage-restoration, mold-remediation, sewage-cleanup, biohazard-cleanup"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: air-duct-cleaning, asbestos-abatement, biohazard-cleanup, carpet-cleaning, contents-restoration, contents-restoration-storage"
     },
     {
       "file": "src/content/serviceAreas/worcester-ma.md",
@@ -392,7 +419,7 @@
       "severity": "review",
       "matched": "structural reconstruction",
       "context": "emediation, fire and smoke cleanup, and structural reconstruction for homeowners and property managers ac",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, storm-damage-restoration, fire-damage-restoration, mold-remediation, sewage-cleanup, biohazard-cleanup"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: air-duct-cleaning, asbestos-abatement, biohazard-cleanup, carpet-cleaning, contents-restoration, contents-restoration-storage"
     },
     {
       "file": "src/content/serviceAreas/worcester-ma.md",

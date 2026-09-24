@@ -3,7 +3,7 @@
   "slug": "restoration-groups",
   "origin": "https://therestorationgroup.com",
   "origin_source": "apex",
-  "generated_at": "2026-09-14T20:23:36+00:00",
+  "generated_at": "2026-09-24T20:15:02+00:00",
   "stale_threshold_days": 365,
   "aging_threshold_days": 305,
   "gsc_enabled": false,
@@ -20,7 +20,7 @@
       "url": "https://therestorationgroup.com/",
       "date": "2026-07-11",
       "date_source": "sitemap_lastmod",
-      "age_days": 65,
+      "age_days": 75,
       "flags": [],
       "sitemap_lastmod": "2026-07-11T02:38:40.522Z",
       "html_dates": {
@@ -37,7 +37,7 @@
       "url": "https://therestorationgroup.com/about/",
       "date": "2026-07-11",
       "date_source": "sitemap_lastmod",
-      "age_days": 65,
+      "age_days": 75,
       "flags": [],
       "sitemap_lastmod": "2026-07-11T02:49:55.598Z",
       "html_dates": {
@@ -54,7 +54,7 @@
       "url": "https://therestorationgroup.com/accessibility/",
       "date": "2026-07-11",
       "date_source": "sitemap_lastmod",
-      "age_days": 65,
+      "age_days": 75,
       "flags": [],
       "sitemap_lastmod": "2026-07-11T02:50:04.908Z",
       "html_dates": {
@@ -71,7 +71,7 @@
       "url": "https://therestorationgroup.com/blog/",
       "date": "2026-07-11",
       "date_source": "sitemap_lastmod",
-      "age_days": 65,
+      "age_days": 75,
       "flags": [],
       "sitemap_lastmod": "2026-07-11T02:49:38.583Z",
       "html_dates": {
@@ -88,7 +88,7 @@
       "url": "https://therestorationgroup.com/blog/best-water-damage-restoration-company-in-kenilworth-nj/",
       "date": "2026-07-27",
       "date_source": "json_ld_date_modified",
-      "age_days": 49,
+      "age_days": 59,
       "flags": [],
       "sitemap_lastmod": "2026-07-27T00:00:00.000Z",
       "html_dates": {
@@ -105,7 +105,7 @@
       "url": "https://therestorationgroup.com/blog/black-mold-vs-regular-mold/",
       "date": "2026-06-27",
       "date_source": "json_ld_date_modified",
-      "age_days": 79,
+      "age_days": 89,
       "flags": [],
       "sitemap_lastmod": "2026-06-27T00:00:00.000Z",
       "html_dates": {
@@ -122,7 +122,7 @@
       "url": "https://therestorationgroup.com/blog/burst-pipe-emergency-checklist/",
       "date": "2026-06-25",
       "date_source": "json_ld_date_modified",
-      "age_days": 81,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-25T00:00:00.000Z",
       "html_dates": {
@@ -139,7 +139,7 @@
       "url": "https://therestorationgroup.com/blog/ceiling-water-damage-repair/",
       "date": "2026-07-30",
       "date_source": "json_ld_date_modified",
-      "age_days": 46,
+      "age_days": 56,
       "flags": [],
       "sitemap_lastmod": "2026-07-30T00:00:00.000Z",
       "html_dates": {
@@ -156,7 +156,7 @@
       "url": "https://therestorationgroup.com/blog/choosing-a-restoration-company/",
       "date": "2026-07-02",
       "date_source": "json_ld_date_modified",
-      "age_days": 74,
+      "age_days": 84,
       "flags": [],
       "sitemap_lastmod": "2026-07-02T00:00:00.000Z",
       "html_dates": {
@@ -173,7 +173,7 @@
       "url": "https://therestorationgroup.com/blog/condo-insurance-water-damage/",
       "date": "2026-09-07",
       "date_source": "json_ld_date_modified",
-      "age_days": 7,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-07T00:00:00.000Z",
       "html_dates": {
@@ -187,10 +187,27 @@
       "search_signals": null
     },
     {
+      "url": "https://therestorationgroup.com/blog/does-homeowners-insurance-cover-black-mold/",
+      "date": "2026-09-22",
+      "date_source": "json_ld_date_modified",
+      "age_days": 2,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-22T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-22",
+        "json_ld_date_modified": "2026-09-22",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://therestorationgroup.com/blog/does-homeowners-insurance-cover-water-damage/",
       "date": "2026-06-23",
       "date_source": "json_ld_date_modified",
-      "age_days": 83,
+      "age_days": 93,
       "flags": [],
       "sitemap_lastmod": "2026-06-23T00:00:00.000Z",
       "html_dates": {
@@ -207,7 +224,7 @@
       "url": "https://therestorationgroup.com/blog/fire-damage-restoration-process/",
       "date": "2026-07-04",
       "date_source": "json_ld_date_modified",
-      "age_days": 72,
+      "age_days": 82,
       "flags": [],
       "sitemap_lastmod": "2026-07-04T00:00:00.000Z",
       "html_dates": {
@@ -224,7 +241,7 @@
       "url": "https://therestorationgroup.com/blog/hardwood-floor-water-damage/",
       "date": "2026-08-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 42,
+      "age_days": 52,
       "flags": [],
       "sitemap_lastmod": "2026-08-03T00:00:00.000Z",
       "html_dates": {
@@ -241,7 +258,7 @@
       "url": "https://therestorationgroup.com/blog/how-long-does-water-damage-restoration-take/",
       "date": "2026-06-19",
       "date_source": "json_ld_date_modified",
-      "age_days": 87,
+      "age_days": 97,
       "flags": [],
       "sitemap_lastmod": "2026-06-19T00:00:00.000Z",
       "html_dates": {
@@ -258,7 +275,7 @@
       "url": "https://therestorationgroup.com/blog/how-to-test-for-mold/",
       "date": "2026-06-27",
       "date_source": "json_ld_date_modified",
-      "age_days": 79,
+      "age_days": 89,
       "flags": [],
       "sitemap_lastmod": "2026-06-27T00:00:00.000Z",
       "html_dates": {
@@ -275,7 +292,7 @@
       "url": "https://therestorationgroup.com/blog/mold-after-water-damage/",
       "date": "2026-07-02",
       "date_source": "json_ld_date_modified",
-      "age_days": 74,
+      "age_days": 84,
       "flags": [],
       "sitemap_lastmod": "2026-07-02T00:00:00.000Z",
       "html_dates": {
@@ -289,10 +306,27 @@
       "search_signals": null
     },
     {
+      "url": "https://therestorationgroup.com/blog/should-i-file-home-insurance-claim-water-damage/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-24",
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://therestorationgroup.com/blog/signs-of-hidden-mold/",
       "date": "2026-06-27",
       "date_source": "json_ld_date_modified",
-      "age_days": 79,
+      "age_days": 89,
       "flags": [],
       "sitemap_lastmod": "2026-06-27T00:00:00.000Z",
       "html_dates": {
@@ -309,7 +343,7 @@
       "url": "https://therestorationgroup.com/blog/smoke-odor-removal-techniques/",
       "date": "2026-06-26",
       "date_source": "json_ld_date_modified",
-      "age_days": 80,
+      "age_days": 90,
       "flags": [],
       "sitemap_lastmod": "2026-06-26T00:00:00.000Z",
       "html_dates": {
@@ -326,7 +360,7 @@
       "url": "https://therestorationgroup.com/blog/storm-damage-insurance-claim-checklist/",
       "date": "2026-06-27",
       "date_source": "json_ld_date_modified",
-      "age_days": 79,
+      "age_days": 89,
       "flags": [],
       "sitemap_lastmod": "2026-06-27T00:00:00.000Z",
       "html_dates": {
@@ -343,7 +377,7 @@
       "url": "https://therestorationgroup.com/blog/water-damage-restoration-cost-nj/",
       "date": "2026-08-27",
       "date_source": "json_ld_date_modified",
-      "age_days": 18,
+      "age_days": 28,
       "flags": [],
       "sitemap_lastmod": "2026-08-27T00:00:00.000Z",
       "html_dates": {
@@ -357,10 +391,27 @@
       "search_signals": null
     },
     {
+      "url": "https://therestorationgroup.com/blog/what-does-flood-insurance-cover/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-20T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-20",
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://therestorationgroup.com/blog/what-to-do-first-24-hours-water-damage/",
       "date": "2026-07-07",
       "date_source": "json_ld_date_modified",
-      "age_days": 69,
+      "age_days": 79,
       "flags": [],
       "sitemap_lastmod": "2026-07-07T00:00:00.000Z",
       "html_dates": {
@@ -375,14 +426,14 @@
     },
     {
       "url": "https://therestorationgroup.com/blog/who-to-call-for-water-damage-restoration-in-kenilworth-nj/",
-      "date": "2026-09-14",
+      "date": "2026-09-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 0,
+      "age_days": 6,
       "flags": [],
-      "sitemap_lastmod": "2026-09-14T00:00:00.000Z",
+      "sitemap_lastmod": "2026-09-18T00:00:00.000Z",
       "html_dates": {
-        "json_ld_date_published": "2026-09-14",
-        "json_ld_date_modified": "2026-09-14",
+        "json_ld_date_published": "2026-09-18",
+        "json_ld_date_modified": "2026-09-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -392,11 +443,11 @@
     },
     {
       "url": "https://therestorationgroup.com/case-studies/",
-      "date": "2026-09-14",
+      "date": "2026-09-24",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-09-14T11:20:36.729Z",
+      "sitemap_lastmod": "2026-09-24T20:09:58.057Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -409,11 +460,11 @@
     },
     {
       "url": "https://therestorationgroup.com/certifications/",
-      "date": "2026-09-14",
+      "date": "2026-09-24",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-09-14T11:20:36.729Z",
+      "sitemap_lastmod": "2026-09-24T20:09:58.057Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -428,7 +479,7 @@
       "url": "https://therestorationgroup.com/contact/",
       "date": "2026-07-11",
       "date_source": "sitemap_lastmod",
-      "age_days": 65,
+      "age_days": 75,
       "flags": [],
       "sitemap_lastmod": "2026-07-11T02:49:50.808Z",
       "html_dates": {
@@ -442,12 +493,29 @@
       "search_signals": null
     },
     {
-      "url": "https://therestorationgroup.com/emergency/",
-      "date": "2026-09-14",
+      "url": "https://therestorationgroup.com/embed/estimate/",
+      "date": "2026-09-24",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-09-14T11:20:36.729Z",
+      "sitemap_lastmod": "2026-09-24T20:09:58.057Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/emergency/",
+      "date": "2026-09-24",
+      "date_source": "sitemap_lastmod",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T20:09:58.057Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -462,7 +530,7 @@
       "url": "https://therestorationgroup.com/privacy/",
       "date": "2026-07-11",
       "date_source": "sitemap_lastmod",
-      "age_days": 65,
+      "age_days": 75,
       "flags": [],
       "sitemap_lastmod": "2026-07-11T02:49:55.384Z",
       "html_dates": {
@@ -477,11 +545,11 @@
     },
     {
       "url": "https://therestorationgroup.com/reviews/",
-      "date": "2026-09-14",
+      "date": "2026-09-24",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-09-14T11:20:36.729Z",
+      "sitemap_lastmod": "2026-09-24T20:09:58.057Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -496,7 +564,7 @@
       "url": "https://therestorationgroup.com/service-areas/",
       "date": "2026-07-11",
       "date_source": "sitemap_lastmod",
-      "age_days": 65,
+      "age_days": 75,
       "flags": [],
       "sitemap_lastmod": "2026-07-11T02:49:31.807Z",
       "html_dates": {
@@ -510,10 +578,367 @@
       "search_signals": null
     },
     {
+      "url": "https://therestorationgroup.com/service-areas/avenel-nj/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:12:06.461Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/avenel-nj/appliance-leak-cleanup/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:12:06.567Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/avenel-nj/basement-flood-cleanup/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:12:06.567Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/avenel-nj/basement-flooding-cleanup/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:12:06.567Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/avenel-nj/biohazard-cleanup/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:12:06.568Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/avenel-nj/burst-pipe-repair/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:12:06.568Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/avenel-nj/commercial-restoration/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:12:06.568Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/avenel-nj/contents-restoration-pack-out/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:12:06.569Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/avenel-nj/contents-restoration-storage/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:12:06.569Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/avenel-nj/crawl-space-encapsulation/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:12:06.569Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/avenel-nj/emergency-board-up-tarping/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:12:06.569Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/avenel-nj/fire-damage-restoration/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:12:06.570Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/avenel-nj/flood-damage-restoration/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:12:06.570Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/avenel-nj/mold-inspection-testing/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:12:06.570Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/avenel-nj/mold-remediation/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:12:06.570Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/avenel-nj/odor-removal/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:12:06.571Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/avenel-nj/sewage-cleanup/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:12:06.571Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/avenel-nj/smoke-damage-restoration/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:12:06.571Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/avenel-nj/storm-damage-restoration/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:12:06.572Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/avenel-nj/water-cleanup/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:12:06.572Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/avenel-nj/water-damage-restoration/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:12:06.572Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://therestorationgroup.com/service-areas/bayonne-nj/",
       "date": "2026-07-18",
       "date_source": "sitemap_lastmod",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:51:15.808Z",
       "html_dates": {
@@ -530,7 +955,7 @@
       "url": "https://therestorationgroup.com/service-areas/bayonne-nj/appliance-leak-cleanup/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:57:05.603Z",
       "html_dates": {
@@ -547,7 +972,7 @@
       "url": "https://therestorationgroup.com/service-areas/bayonne-nj/basement-flood-cleanup/",
       "date": "2026-08-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 16,
+      "age_days": 26,
       "flags": [],
       "sitemap_lastmod": "2026-08-29T20:11:05.926Z",
       "html_dates": {
@@ -564,7 +989,7 @@
       "url": "https://therestorationgroup.com/service-areas/bayonne-nj/basement-flooding-cleanup/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:34:03.647Z",
       "html_dates": {
@@ -581,7 +1006,7 @@
       "url": "https://therestorationgroup.com/service-areas/bayonne-nj/biohazard-cleanup/",
       "date": "2026-08-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 16,
+      "age_days": 26,
       "flags": [],
       "sitemap_lastmod": "2026-08-29T16:58:52.095Z",
       "html_dates": {
@@ -598,7 +1023,7 @@
       "url": "https://therestorationgroup.com/service-areas/bayonne-nj/burst-pipe-repair/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:33:52.181Z",
       "html_dates": {
@@ -615,7 +1040,7 @@
       "url": "https://therestorationgroup.com/service-areas/bayonne-nj/commercial-restoration/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:11:13.115Z",
       "html_dates": {
@@ -632,7 +1057,7 @@
       "url": "https://therestorationgroup.com/service-areas/bayonne-nj/contents-restoration-pack-out/",
       "date": "2026-08-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 16,
+      "age_days": 26,
       "flags": [],
       "sitemap_lastmod": "2026-08-29T20:11:01.666Z",
       "html_dates": {
@@ -646,10 +1071,44 @@
       "search_signals": null
     },
     {
+      "url": "https://therestorationgroup.com/service-areas/bayonne-nj/contents-restoration-storage/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:12:06.539Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/bayonne-nj/crawl-space-encapsulation/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:12:06.540Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://therestorationgroup.com/service-areas/bayonne-nj/emergency-board-up-tarping/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:46:09.549Z",
       "html_dates": {
@@ -666,7 +1125,7 @@
       "url": "https://therestorationgroup.com/service-areas/bayonne-nj/fire-damage-restoration/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T20:36:48.265Z",
       "html_dates": {
@@ -683,7 +1142,7 @@
       "url": "https://therestorationgroup.com/service-areas/bayonne-nj/flood-damage-restoration/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:10:30.735Z",
       "html_dates": {
@@ -700,7 +1159,7 @@
       "url": "https://therestorationgroup.com/service-areas/bayonne-nj/mold-inspection-testing/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:34:00.809Z",
       "html_dates": {
@@ -717,7 +1176,7 @@
       "url": "https://therestorationgroup.com/service-areas/bayonne-nj/mold-remediation/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T20:36:45.849Z",
       "html_dates": {
@@ -734,7 +1193,7 @@
       "url": "https://therestorationgroup.com/service-areas/bayonne-nj/odor-removal/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:46:01.705Z",
       "html_dates": {
@@ -751,7 +1210,7 @@
       "url": "https://therestorationgroup.com/service-areas/bayonne-nj/sewage-cleanup/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:10:29.752Z",
       "html_dates": {
@@ -768,7 +1227,7 @@
       "url": "https://therestorationgroup.com/service-areas/bayonne-nj/smoke-damage-restoration/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:10:52.240Z",
       "html_dates": {
@@ -785,7 +1244,7 @@
       "url": "https://therestorationgroup.com/service-areas/bayonne-nj/storm-damage-restoration/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:10:54.308Z",
       "html_dates": {
@@ -802,7 +1261,7 @@
       "url": "https://therestorationgroup.com/service-areas/bayonne-nj/water-cleanup/",
       "date": "2026-08-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 16,
+      "age_days": 26,
       "flags": [],
       "sitemap_lastmod": "2026-08-29T16:49:19.097Z",
       "html_dates": {
@@ -819,7 +1278,7 @@
       "url": "https://therestorationgroup.com/service-areas/bayonne-nj/water-damage-restoration/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T20:36:47.638Z",
       "html_dates": {
@@ -836,7 +1295,7 @@
       "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/",
       "date": "2026-07-18",
       "date_source": "sitemap_lastmod",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:47:47.581Z",
       "html_dates": {
@@ -853,7 +1312,7 @@
       "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/appliance-leak-cleanup/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:53:08.204Z",
       "html_dates": {
@@ -870,7 +1329,7 @@
       "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/basement-flood-cleanup/",
       "date": "2026-08-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 16,
+      "age_days": 26,
       "flags": [],
       "sitemap_lastmod": "2026-08-29T21:03:11.197Z",
       "html_dates": {
@@ -887,7 +1346,7 @@
       "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/basement-flooding-cleanup/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:19:17.940Z",
       "html_dates": {
@@ -904,7 +1363,7 @@
       "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/biohazard-cleanup/",
       "date": "2026-08-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 16,
+      "age_days": 26,
       "flags": [],
       "sitemap_lastmod": "2026-08-29T16:53:58.039Z",
       "html_dates": {
@@ -921,7 +1380,7 @@
       "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/burst-pipe-repair/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:19:16.043Z",
       "html_dates": {
@@ -938,7 +1397,7 @@
       "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/commercial-restoration/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T20:48:40.181Z",
       "html_dates": {
@@ -955,7 +1414,7 @@
       "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/contents-restoration-pack-out/",
       "date": "2026-08-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 16,
+      "age_days": 26,
       "flags": [],
       "sitemap_lastmod": "2026-08-29T21:02:31.611Z",
       "html_dates": {
@@ -969,10 +1428,44 @@
       "search_signals": null
     },
     {
+      "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/contents-restoration-storage/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:12:06.498Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/crawl-space-encapsulation/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:12:06.498Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/emergency-board-up-tarping/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:38:41.448Z",
       "html_dates": {
@@ -989,7 +1482,7 @@
       "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/fire-damage-restoration/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T20:25:34.100Z",
       "html_dates": {
@@ -1006,7 +1499,7 @@
       "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/flood-damage-restoration/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T20:48:13.011Z",
       "html_dates": {
@@ -1023,7 +1516,7 @@
       "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/mold-inspection-testing/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:19:21.081Z",
       "html_dates": {
@@ -1040,7 +1533,7 @@
       "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/mold-remediation/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T20:25:27.679Z",
       "html_dates": {
@@ -1057,7 +1550,7 @@
       "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/odor-removal/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:38:36.433Z",
       "html_dates": {
@@ -1074,7 +1567,7 @@
       "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/sewage-cleanup/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T20:48:09.252Z",
       "html_dates": {
@@ -1091,7 +1584,7 @@
       "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/smoke-damage-restoration/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T20:48:12.365Z",
       "html_dates": {
@@ -1108,7 +1601,7 @@
       "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/storm-damage-restoration/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T20:48:29.075Z",
       "html_dates": {
@@ -1125,7 +1618,7 @@
       "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/water-cleanup/",
       "date": "2026-08-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 16,
+      "age_days": 26,
       "flags": [],
       "sitemap_lastmod": "2026-08-29T16:43:13.450Z",
       "html_dates": {
@@ -1142,7 +1635,7 @@
       "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/water-damage-restoration/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T20:25:33.431Z",
       "html_dates": {
@@ -1159,7 +1652,7 @@
       "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/",
       "date": "2026-07-18",
       "date_source": "sitemap_lastmod",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:50:31.837Z",
       "html_dates": {
@@ -1176,7 +1669,7 @@
       "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/appliance-leak-cleanup/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:56:13.573Z",
       "html_dates": {
@@ -1193,7 +1686,7 @@
       "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/basement-flood-cleanup/",
       "date": "2026-08-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 16,
+      "age_days": 26,
       "flags": [],
       "sitemap_lastmod": "2026-08-29T21:11:27.293Z",
       "html_dates": {
@@ -1210,7 +1703,7 @@
       "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/basement-flooding-cleanup/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:30:48.929Z",
       "html_dates": {
@@ -1227,7 +1720,7 @@
       "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/biohazard-cleanup/",
       "date": "2026-08-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 16,
+      "age_days": 26,
       "flags": [],
       "sitemap_lastmod": "2026-08-29T16:57:38.400Z",
       "html_dates": {
@@ -1244,7 +1737,7 @@
       "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/burst-pipe-repair/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:30:34.616Z",
       "html_dates": {
@@ -1261,7 +1754,7 @@
       "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/commercial-restoration/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:06:11.968Z",
       "html_dates": {
@@ -1278,7 +1771,7 @@
       "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/contents-restoration-pack-out/",
       "date": "2026-08-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 16,
+      "age_days": 26,
       "flags": [],
       "sitemap_lastmod": "2026-08-29T21:11:22.115Z",
       "html_dates": {
@@ -1292,10 +1785,44 @@
       "search_signals": null
     },
     {
+      "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/contents-restoration-storage/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:12:06.530Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/crawl-space-encapsulation/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:12:06.530Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/emergency-board-up-tarping/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:44:22.501Z",
       "html_dates": {
@@ -1312,7 +1839,7 @@
       "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/fire-damage-restoration/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T20:34:22.087Z",
       "html_dates": {
@@ -1329,7 +1856,7 @@
       "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/flood-damage-restoration/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:05:25.868Z",
       "html_dates": {
@@ -1346,7 +1873,7 @@
       "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/mold-inspection-testing/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:30:45.678Z",
       "html_dates": {
@@ -1363,7 +1890,7 @@
       "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/mold-remediation/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T20:34:23.466Z",
       "html_dates": {
@@ -1380,7 +1907,7 @@
       "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/odor-removal/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:44:22.590Z",
       "html_dates": {
@@ -1397,7 +1924,7 @@
       "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/sewage-cleanup/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:05:35.085Z",
       "html_dates": {
@@ -1414,7 +1941,7 @@
       "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/smoke-damage-restoration/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:05:50.086Z",
       "html_dates": {
@@ -1431,7 +1958,7 @@
       "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/storm-damage-restoration/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T21:05:59.121Z",
       "html_dates": {
@@ -1448,7 +1975,7 @@
       "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/water-cleanup/",
       "date": "2026-08-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 16,
+      "age_days": 26,
       "flags": [],
       "sitemap_lastmod": "2026-08-29T16:47:58.369Z",
       "html_dates": {
@@ -1465,7 +1992,7 @@
       "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/water-damage-restoration/",
       "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 58,
+      "age_days": 68,
       "flags": [],
       "sitemap_lastmod": "2026-07-18T20:34:21.366Z",
       "html_dates": {
@@ -1482,7 +2009,7 @@
       "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/",
       "date": "2026-07-11",
       "date_source": "sitemap_lastmod",
-      "age_days": 65,
+      "age_days": 75,
       "flags": [],
       "sitemap_lastmod": "2026-07-11T02:45:02.634Z",
       "html_dates": {
@@ -1499,7 +2026,7 @@
       "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/appliance-leak-cleanup/",
       "date": "2026-07-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 65,
+      "age_days": 75,
       "flags": [],
       "sitemap_lastmod": "2026-07-11T02:49:29.769Z",
       "html_dates": {
@@ -1516,539 +2043,12 @@
       "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/basement-flood-cleanup/",
       "date": "2026-08-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 16,
+      "age_days": 26,
       "flags": [],
       "sitemap_lastmod": "2026-08-29T20:56:49.207Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": "2026-08-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/basement-flooding-cleanup/",
-      "date": "2026-07-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 65,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-11T02:36:04.500Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/biohazard-cleanup/",
-      "date": "2026-08-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 16,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-29T16:51:09.187Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/burst-pipe-repair/",
-      "date": "2026-07-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 65,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-11T02:36:05.210Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/commercial-restoration/",
-      "date": "2026-07-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 65,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-11T02:25:40.318Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/contents-restoration-pack-out/",
-      "date": "2026-08-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 16,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-29T20:56:45.872Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/emergency-board-up-tarping/",
-      "date": "2026-07-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 65,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-11T02:43:15.259Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/fire-damage-restoration/",
-      "date": "2026-07-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 65,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-11T02:10:42.970Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/flood-damage-restoration/",
-      "date": "2026-07-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 65,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-11T02:24:46.960Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/mold-inspection-testing/",
-      "date": "2026-07-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 65,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-11T02:36:09.711Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/mold-remediation/",
-      "date": "2026-07-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 65,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-11T02:10:36.868Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/odor-removal/",
-      "date": "2026-07-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 65,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-11T02:42:56.624Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/sewage-cleanup/",
-      "date": "2026-07-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 65,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-11T02:24:55.611Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/smoke-damage-restoration/",
-      "date": "2026-07-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 65,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-11T02:25:38.040Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/storm-damage-restoration/",
-      "date": "2026-07-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 65,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-11T02:25:35.606Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/water-cleanup/",
-      "date": "2026-08-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 16,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-29T16:40:10.091Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/water-damage-restoration/",
-      "date": "2026-07-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 65,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-11T02:10:44.633Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/clark-nj/",
-      "date": "2026-07-18",
-      "date_source": "sitemap_lastmod",
-      "age_days": 58,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-18T21:47:05.878Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/clark-nj/appliance-leak-cleanup/",
-      "date": "2026-07-18",
-      "date_source": "json_ld_date_modified",
-      "age_days": 58,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-18T21:52:19.568Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-18",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/clark-nj/basement-flood-cleanup/",
-      "date": "2026-08-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 16,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-29T21:00:45.725Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/clark-nj/basement-flooding-cleanup/",
-      "date": "2026-07-18",
-      "date_source": "json_ld_date_modified",
-      "age_days": 58,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-18T21:16:02.995Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-18",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/clark-nj/biohazard-cleanup/",
-      "date": "2026-08-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 16,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-29T16:52:34.183Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/clark-nj/burst-pipe-repair/",
-      "date": "2026-07-18",
-      "date_source": "json_ld_date_modified",
-      "age_days": 58,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-18T21:16:04.134Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-18",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/clark-nj/commercial-restoration/",
-      "date": "2026-07-18",
-      "date_source": "json_ld_date_modified",
-      "age_days": 58,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-18T20:43:31.738Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-18",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/clark-nj/contents-restoration-pack-out/",
-      "date": "2026-08-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 16,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-29T21:00:09.007Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/clark-nj/emergency-board-up-tarping/",
-      "date": "2026-07-18",
-      "date_source": "json_ld_date_modified",
-      "age_days": 58,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-18T21:37:00.358Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-18",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/clark-nj/fire-damage-restoration/",
-      "date": "2026-07-18",
-      "date_source": "json_ld_date_modified",
-      "age_days": 58,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-18T20:23:03.755Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-18",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/clark-nj/flood-damage-restoration/",
-      "date": "2026-07-18",
-      "date_source": "json_ld_date_modified",
-      "age_days": 58,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-18T20:43:12.080Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-18",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/clark-nj/mold-inspection-testing/",
-      "date": "2026-07-18",
-      "date_source": "json_ld_date_modified",
-      "age_days": 58,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-18T21:16:05.126Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-18",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/clark-nj/mold-remediation/",
-      "date": "2026-07-18",
-      "date_source": "json_ld_date_modified",
-      "age_days": 58,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-18T20:23:04.732Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-18",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/clark-nj/odor-removal/",
-      "date": "2026-07-18",
-      "date_source": "json_ld_date_modified",
-      "age_days": 58,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-18T21:36:57.322Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-18",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://therestorationgroup.com/service-areas/clark-nj/sewage-cleanup/",
-      "date": "2026-07-18",
-      "date_source": "json_ld_date_modified",
-      "age_days": 58,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-18T20:43:20.111Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null

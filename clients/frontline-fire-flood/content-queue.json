@@ -194,6 +194,154 @@
           "reason": "listicle review-count 22 (competitor stat \u2014 verify it is not presented as ours)"
         }
       ]
+    },
+    {
+      "id": "2026-09-24-water-damage-in-ceiling-tacoma",
+      "status": "queued",
+      "queued_at": "2026-09-24T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water damage in ceiling",
+      "intent": "informational",
+      "volume": 2900,
+      "kd": 0,
+      "fan_out_cluster": [
+        "ceiling water damage repair",
+        "how to repair water damaged ceiling",
+        "why is my ceiling leaking after heavy rain",
+        "is a water stain on the ceiling an emergency",
+        "can a water damaged ceiling collapse",
+        "does insurance cover ceiling water damage"
+      ],
+      "suggested_slug": "water-damage-in-ceiling-tacoma",
+      "suggested_title": "Water damage in ceiling: causes, warning signs, and repair in Tacoma",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/storm-damage-restoration/",
+        "/service-areas/tacoma-wa/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "roof-leak-repair",
+        "mold-remediation"
+      ],
+      "city_anchor": "tacoma-wa",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
+      ],
+      "notes": "Highest-volume uncovered term this run (2,900 US, 70/mo in WA, KD 0). Pacific Northwest rain season angle: roof and attic leaks, upstairs bathroom and supply-line leaks. Cover sagging drywall collapse risk, when DIY patching is fine vs when wet insulation and mold mean a pro. Absorbs 'ceiling water damage repair' (1,900) and 'how to repair water damaged ceiling' (1,000) as H2s."
+    },
+    {
+      "id": "2026-09-24-what-is-water-mitigation",
+      "status": "queued",
+      "queued_at": "2026-09-24T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what is water mitigation",
+      "intent": "informational",
+      "volume": 390,
+      "kd": 0,
+      "fan_out_cluster": [
+        "water mitigation vs water damage restoration",
+        "what does a water mitigation company do",
+        "is water mitigation covered by insurance",
+        "how long does water mitigation take",
+        "what happens during water extraction and drying"
+      ],
+      "suggested_slug": "what-is-water-mitigation",
+      "suggested_title": "What is water mitigation? How it differs from restoration for Lakewood homeowners",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-cleanup/",
+        "/services/water-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "water-cleanup",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "lakewood-wa",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.insurance.wa.gov/insurance-resources/home-insurance/how-home-insurance-works/leaks-water-damage-and-mold"
+      ],
+      "notes": "Insurance adjusters and invoices separate mitigation (stop, extract, dry) from restoration (rebuild), and homeowners search the term after seeing it on a claim. ChatGPT's Tacoma answer led with 'a restoration company's first job is usually not rebuilding'. Cite the WA Office of the Insurance Commissioner page ChatGPT sourced."
+    },
+    {
+      "id": "2026-09-24-water-damage-restoration-process-puyallup",
+      "status": "queued",
+      "queued_at": "2026-09-24T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water damage restoration process",
+      "intent": "informational",
+      "volume": 110,
+      "kd": 1,
+      "fan_out_cluster": [
+        "water damage inspection and moisture mapping",
+        "water extraction",
+        "structural drying with dehumidifiers and air movers",
+        "moisture readings and drying logs",
+        "what materials get removed after water damage",
+        "reconstruction after water damage"
+      ],
+      "suggested_slug": "water-damage-restoration-process-puyallup",
+      "suggested_title": "The water damage restoration process, step by step, in Puyallup",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/water-cleanup/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/service-areas/puyallup-wa/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "city_anchor": "puyallup-wa",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Water counterpart to the existing fire-damage-restoration-process post. Build it around the questions ChatGPT tells Tacoma-area homeowners to ask: where the moisture is, thermal imaging, written moisture readings, how many dehumidifiers and air movers, how you know it is dry enough to rebuild. Frontline's IICRC WRT and ASD certifications fit naturally here."
+    },
+    {
+      "id": "2026-09-24-how-long-does-water-damage-restoration-take",
+      "status": "queued",
+      "queued_at": "2026-09-24T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how long does water damage restoration take",
+      "intent": "informational",
+      "volume": 50,
+      "kd": 3,
+      "fan_out_cluster": [
+        "how long does it take to dry out water damage",
+        "how long does water extraction take",
+        "can you stay in your house during water damage restoration",
+        "how long does it take for mold to grow after water damage",
+        "what slows down the drying process"
+      ],
+      "suggested_slug": "how-long-does-water-damage-restoration-take",
+      "suggested_title": "How long does water damage restoration take? A Gig Harbor timeline",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/service-areas/gig-harbor-wa/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": "gig-harbor-wa",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://doh.wa.gov/community-and-environment/contaminants/mold"
+      ],
+      "notes": "Question-format GEO target (US volume up 180% YoY). Open with a direct answer passage (mitigation and drying typically take 3 to 5 days; rebuild takes longer), then a phase-by-phase timeline. Brings in two banked question keywords as H2s. Mention the humid Puget Sound climate when explaining drying times."
     }
   ]
 }

@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+water damage restoration,transactional,135000,20,48.57,3,water damage restoration,,/services/water-damage-restoration/,false
+water damage restoration company,transactional,110000,25,54.87,3,water damage restoration,,/services/water-damage-restoration/,false
+water damage repair,transactional,9900,38,44.4,3,water damage restoration,,/services/water-damage-restoration/,false
+water damage restoration services,transactional,5400,20,57.49,3,water damage restoration,,/services/water-damage-restoration/,false
+emergency water damage restoration,transactional,2900,19,59.12,3,water damage restoration,,/services/water-cleanup/,false
+water damage cleanup,transactional,2900,31,58.35,3,water damage restoration,,/services/water-cleanup/,false
+residential water damage restoration,transactional,320,32,57.42,3,water damage restoration,,/services/water-damage-restoration/,false
+water damage restoration tacoma,transactional,40,2,22.39,3,water damage restoration,Tacoma,/service-areas/tacoma-wa/water-damage-restoration/,false
+water damage repair tacoma,transactional,40,0,22.39,3,water damage restoration,Tacoma,/service-areas/tacoma-wa/water-damage-restoration/,false
+water damage restoration tacoma wa,transactional,30,5,,3,water damage restoration,Tacoma,/service-areas/tacoma-wa/water-damage-restoration/,false
+water damage restoration olympia,transactional,20,,,3,water damage restoration,Olympia,/service-areas/olympia-wa/water-damage-restoration/,false
+tacoma water damage restoration,transactional,10,2,77.93,3,water damage restoration,Tacoma,/service-areas/tacoma-wa/water-damage-restoration/,false
+water damage restoration lakewood wa,transactional,10,,,3,water damage restoration,Lakewood,/services/water-damage-restoration/,false
+water damage restoration puyallup,transactional,10,,,3,water damage restoration,Puyallup,/service-areas/puyallup-wa/water-damage-restoration/,false
+water damage restoration lacey wa,transactional,10,,,3,water damage restoration,Lacey,/service-areas/lacey-wa/water-damage-restoration/,false
+water damage cleanup tacoma,transactional,10,,,3,water damage restoration,Tacoma,/service-areas/tacoma-wa/water-cleanup/,false
+water damage restoration gig harbor,transactional,,,,3,water damage restoration,Gig Harbor,/service-areas/gig-harbor-wa/water-damage-restoration/,false
+water damage restoration university place,transactional,,,,3,water damage restoration,University Place,/service-areas/university-place-wa/water-damage-restoration/,false
+water damage restoration bonney lake,transactional,,,,3,water damage restoration,Bonney Lake,/service-areas/bonney-lake-wa/water-damage-restoration/,false
+water damage restoration spanaway,transactional,,,,3,water damage restoration,Spanaway,/service-areas/spanaway-wa/water-damage-restoration/,false
+water damage restoration dupont wa,transactional,,,,3,water damage restoration,DuPont,/service-areas/dupont-wa/water-damage-restoration/,false
+emergency water damage restoration tacoma,transactional,,,,3,water damage restoration,Tacoma,/service-areas/tacoma-wa/water-cleanup/,false
+water damage restoration company tacoma,transactional,,,,3,water damage restoration,Tacoma,/service-areas/tacoma-wa/water-damage-restoration/,false
+ceiling water damage repair,commercial,1900,0,31.06,2,water damage restoration,,,false
+water damage in ceiling,informational,2900,0,59.84,1,water damage restoration,,,true
+what is water mitigation,informational,390,0,11.42,1,water damage restoration,,,true
+water damage restoration process,informational,110,1,88.27,1,water damage restoration,,,true
+how long does water damage restoration take,informational,50,3,64.28,1,water damage restoration,,,true
+how to repair water damaged ceiling,informational,1000,2,2.96,2,water damage restoration,,,false
+what does a water damage restoration company do,informational,10,,,2,water damage restoration,,,false
+how to tell if water damage is old or new,informational,10,,,2,water damage restoration,,,false
+water mitigation vs water damage restoration,informational,,,,2,water damage restoration,,,false
+questions to ask a water damage restoration company,informational,,,,2,water damage restoration,,,false
+how long does it take for mold to grow after water damage,informational,,,,2,water damage restoration,,,false
+can you stay in your house during water damage restoration,informational,,,,2,water damage restoration,,,false
+what are the categories of water damage,informational,,,,2,water damage restoration,,,false
+does homeowners insurance cover water damage,informational,1900,16,25.58,3,water damage restoration,,/blog/does-homeowners-insurance-cover-water-damage/,false
+how much does water damage restoration cost,informational,40,6,,3,water damage restoration,,/blog/water-damage-restoration-cost-wa/,false
+should i file an insurance claim for water damage,informational,10,55,,3,water damage restoration,,,false
+how do you know if water damage is covered by insurance,informational,,,,3,water damage restoration,,/blog/does-homeowners-insurance-cover-water-damage/,false

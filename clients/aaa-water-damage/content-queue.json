@@ -846,6 +846,201 @@
       ],
       "notes": "ChatGPT decomposition question 7, and the highest-converting shape in this cluster: a homeowner deciding DIY versus pro is one step from calling. Give an honest split (a clean supply-line leak on tile is DIY; anything that touched ground water, sewage, or carpet padding is not) so it reads as advice rather than a pitch. Flood water is Category 3 by definition, which is the pivot to /services/sewage-cleanup/. Offer flood-equipment-rental as the genuine middle path for DIY-capable owners. Do not cite IICRC standards or certifications: unverified for this brand.",
       "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-09-24-ceiling-water-damage",
+      "status": "queued",
+      "queued_at": "2026-09-24T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "ceiling water damage",
+      "intent": "informational",
+      "volume": 2900,
+      "kd": 0,
+      "fan_out_cluster": [
+        "what to do when your ceiling is leaking water",
+        "does ceiling water damage mean mold",
+        "ceiling water damage repair",
+        "ceiling water damage repair honolulu",
+        "how do you know if water damage is old or new",
+        "condo ceiling leak from the unit above"
+      ],
+      "suggested_slug": "ceiling-water-damage",
+      "suggested_title": "Ceiling water damage in Honolulu: what the stain means and what to do first",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/water-cleanup/",
+        "/services/mold-inspection-testing/",
+        "/blog/mold-after-water-damage/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "water-cleanup",
+        "mold-inspection-testing"
+      ],
+      "city_anchor": "honolulu-hi",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
+      ],
+      "notes": "Largest uncovered volume in the seed family (2,900/mo, KD 0) and no existing blog post targets it. Lead with safety (sagging ceiling, wet light fixtures, shut off power to that circuit), then how to find the source (roof, plumbing above, AC condensate line, unit upstairs in a Honolulu high-rise). Cover moisture-meter confirmation before any cutting and the 24-48 hour mold window. Do NOT promise drywall or ceiling repair/replacement as an AAA service: the HI contractor license number is still pending in intake, so frame AAA as extraction, drying, and moisture documentation and say repairs go to a licensed contractor.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
+    },
+    {
+      "id": "2026-09-24-hardwood-floor-water-damage",
+      "status": "queued",
+      "queued_at": "2026-09-24T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "hardwood floor water damage",
+      "intent": "informational",
+      "volume": 1600,
+      "kd": 0,
+      "fan_out_cluster": [
+        "signs of water damage on hardwood floors",
+        "cupping vs crowning after a leak",
+        "how long does it take to dry wet hardwood floors",
+        "water damaged subfloor",
+        "does insurance cover water damaged hardwood floors"
+      ],
+      "suggested_slug": "hardwood-floor-water-damage",
+      "suggested_title": "Hardwood floor water damage in Kailua homes: can it be dried or does it have to come up?",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/flood-equipment-rental/",
+        "/service-areas/kailua-hi/water-damage-restoration/",
+        "/blog/how-long-does-water-damage-restoration-take/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "flood-equipment-rental"
+      ],
+      "city_anchor": "kailua-hi",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "1,600/mo at KD 0 with no blog coverage. Explain cupping and crowning, when floor-drying mats and dehumidification can save the boards, and when they cannot (engineered vs solid, standing time, Category 2/3 water). Kailua anchor: windward humidity slows drying, which is a useful local angle. Tie in drying equipment rental for small clean-water spills. Avoid promising refinishing or reinstallation (license pending).",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
+    },
+    {
+      "id": "2026-09-24-drywall-water-damage",
+      "status": "queued",
+      "queued_at": "2026-09-24T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "drywall water damage",
+      "intent": "informational",
+      "volume": 880,
+      "kd": 0,
+      "fan_out_cluster": [
+        "can water damaged drywall be saved",
+        "how to tell if there is water damage behind a wall",
+        "water damage baseboard",
+        "how long does drywall take to dry after a leak",
+        "flood cut height after water damage",
+        "mold behind drywall after a leak"
+      ],
+      "suggested_slug": "drywall-water-damage",
+      "suggested_title": "Drywall water damage in Kaneohe: when wet walls can be saved and when they come out",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/service-areas/kaneohe-hi/water-damage-restoration/",
+        "/blog/signs-of-hidden-mold/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": "kaneohe-hi",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "880/mo at KD 0, plus the ChatGPT scraper explicitly surfaced 'be careful about unnecessary demolition: ask what moisture reading shows this material cannot be dried'. Build the post around that homeowner question: moisture readings, clean vs contaminated water, insulation behind the wall, and when a flood cut is justified. Baseboard water damage (1,300/mo) is folded in as an H2 here and is still banked as its own priority-1 for a later run if the writer wants a standalone. Mitigation-only framing: AAA removes wet material and dries; rebuild goes to a licensed contractor until the license number is on file.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
+    },
+    {
+      "id": "2026-09-24-water-damage-inspection",
+      "status": "queued",
+      "queued_at": "2026-09-24T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water damage inspection",
+      "intent": "commercial",
+      "volume": 590,
+      "kd": 0,
+      "fan_out_cluster": [
+        "water damage restoration process",
+        "how to tell if there is water damage behind a wall",
+        "do i need mold testing after water damage",
+        "thermal imaging for hidden leaks",
+        "moisture mapping and drying logs",
+        "water damage inspection before buying a condo"
+      ],
+      "suggested_slug": "water-damage-inspection",
+      "suggested_title": "Water damage inspection in Honolulu: what a moisture assessment should include",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-inspection-testing/",
+        "/services/water-cleanup/",
+        "/blog/how-to-test-for-mold/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-inspection-testing"
+      ],
+      "city_anchor": "honolulu-hi",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
+      ],
+      "notes": "Commercial-intent term (590/mo, KD 0, CPC $54.81, so advertisers pay real money for it) with no commercial page or blog targeting it. Walk through what a proper inspection covers: source identification, moisture meter and thermal readings, affected-area map, water category, and written documentation for the insurer. ChatGPT's answer warned homeowners to be skeptical of contractors who jump straight to expensive mold testing; echo that and link the mold inspection service for when testing IS warranted. Do not invent certification numbers (IICRC numbers still pending in intake).",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
+    },
+    {
+      "id": "2026-09-24-can-i-choose-my-own-restoration-company-for-insurance",
+      "status": "queued",
+      "queued_at": "2026-09-24T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "can i choose my own restoration company for insurance",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "does my insurance company pick the water damage contractor",
+        "what is a preferred vendor program",
+        "what emergency work can I authorize before the adjuster comes",
+        "should the adjuster inspect before demolition",
+        "what to ask your insurer after water damage"
+      ],
+      "suggested_slug": "can-i-choose-my-own-restoration-company-for-insurance",
+      "suggested_title": "Can I choose my own restoration company for insurance claims in Hawaii?",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/document-flood-damage-for-insurance/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": "honolulu-hi",
+      "external_authority_candidates": [
+        "https://www.cca.hawaii.gov/storm-flood-claim-information/"
+      ],
+      "notes": "Question-format GEO slot surfaced directly by the ChatGPT scraper ('Can I hire my own restoration company?' in its insurer checklist); no measured Google volume, scored intent-first because insurance decision-stage queries hit 24-48 hours before a hire. Distinct from the existing coverage post and the general how-to-choose post: this one is about the homeowner's right to pick a vendor vs insurer preferred-vendor programs, mitigation vs reconstruction authorization, and not waiting on the adjuster while damage worsens. Cite Hawaii DCCA Insurance Division guidance. State clearly this is not legal or insurance advice and the policy language controls.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
     }
   ]
 }

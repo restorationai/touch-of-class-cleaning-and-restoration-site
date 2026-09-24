@@ -1,6 +1,6 @@
 {
   "slug": "diss-restoration",
-  "generated_at": "2026-08-05T05:40:05Z",
+  "generated_at": "2026-09-24T20:30:34Z",
   "truth": {
     "hours": "24/7",
     "is_247": true,
@@ -18,12 +18,66 @@
     "response_minutes": null,
     "family_owned": false,
     "founded_year": "2021",
-    "gbp_review_count": null,
+    "gbp_review_count": 63,
     "vertical": "restoration"
   },
   "errors": 0,
-  "review_flags": 4,
+  "review_flags": 10,
   "violations": [
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-youngstown-oh.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
+      "matched": "111 Google reviews",
+      "context": "ew count of any company on this list at 111 Google reviews and a 4.6-star rating. SERVPRO is the l",
+      "reason": "listicle review-count 111 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-youngstown-oh.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
+      "matched": "111 reviews",
+      "context": "market. **Google Rating:** 4.6 stars (111 reviews) **24/7 Emergency:** Unknown **IICRC",
+      "reason": "listicle review-count 111 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-youngstown-oh.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
+      "matched": "76 reviews",
+      "context": "r holds a 4.4-star Google rating across 76 reviews. They serve the fire and water damage m",
+      "reason": "listicle review-count 76 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-youngstown-oh.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
+      "matched": "76 reviews",
+      "context": "mitting. **Google Rating:** 4.4 stars (76 reviews) **24/7 Emergency:** Unknown **IICRC",
+      "reason": "listicle review-count 76 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-youngstown-oh.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
+      "matched": "12 reviews",
+      "context": "ting, though across a smaller sample of 12 reviews. Their name suggests a primary focus on",
+      "reason": "listicle review-count 12 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-youngstown-oh.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
+      "matched": "12 reviews",
+      "context": "hiring. **Google Rating:** 5.0 stars (12 reviews) **24/7 Emergency:** Unknown **IICRC",
+      "reason": "listicle review-count 12 (competitor stat \u2014 verify it is not presented as ours)"
+    },
     {
       "file": "src/content/serviceAreas/hubbard-oh.md",
       "part": "frontmatter",
@@ -31,7 +85,7 @@
       "severity": "review",
       "matched": "reconstruction services",
       "context": "age cleanup, mold remediation, and full reconstruction services to Hubbard residential and commercial p",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, fire-damage-restoration, mold-remediation, storm-damage-restoration, general-contracting, sewage-cleanup"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: air-duct-cleaning, asbestos-abatement, biohazard-cleanup, carpet-cleaning, contents-restoration, contents-restoration-storage"
     },
     {
       "file": "src/content/serviceAreas/niles-oh.md",
@@ -40,7 +94,7 @@
       "severity": "review",
       "matched": "structural reconstruction",
       "context": "old remediation, biohazard cleanup, and structural reconstruction. ## Restoration emergencies common in",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, fire-damage-restoration, mold-remediation, storm-damage-restoration, general-contracting, sewage-cleanup"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: air-duct-cleaning, asbestos-abatement, biohazard-cleanup, carpet-cleaning, contents-restoration, contents-restoration-storage"
     },
     {
       "file": "src/content/serviceAreas/struthers-oh.md",
@@ -49,7 +103,7 @@
       "severity": "review",
       "matched": "structural reconstruction",
       "context": "e damage cleanup, mold remediation, and structural reconstruction for both residential and commercial pro",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, fire-damage-restoration, mold-remediation, storm-damage-restoration, general-contracting, sewage-cleanup"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: air-duct-cleaning, asbestos-abatement, biohazard-cleanup, carpet-cleaning, contents-restoration, contents-restoration-storage"
     },
     {
       "file": "src/content/serviceAreas/warren-oh.md",
@@ -58,7 +112,7 @@
       "severity": "review",
       "matched": "structural reconstruction",
       "context": "mage restoration, mold remediation, and structural reconstruction for both residential and commercial pro",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, fire-damage-restoration, mold-remediation, storm-damage-restoration, general-contracting, sewage-cleanup"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: air-duct-cleaning, asbestos-abatement, biohazard-cleanup, carpet-cleaning, contents-restoration, contents-restoration-storage"
     }
   ]
 }

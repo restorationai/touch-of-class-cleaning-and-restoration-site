@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+smoke damage restoration,transactional,1600,20,31.88,2,fire damage restoration,,,no
+smoke damage cleaning,transactional,480,19,59.88,2,fire damage restoration,,,no
+smoke damage cleanup near me,transactional,320,16,188.32,2,fire damage restoration,,,no
+fire damage restoration near me,transactional,14800,10,17.17,3,fire damage restoration,,/services/fire-damage-restoration/,no
+fire damage repair near me,transactional,2900,15,62.56,3,fire damage restoration,,/services/fire-damage-restoration/,no
+fire damage cleanup,transactional,1600,20,52.16,3,fire damage restoration,,/services/fire-damage-restoration/,no
+fire and water damage restoration,transactional,1300,29,44.69,3,fire damage restoration,,/services/fire-damage-restoration/,no
+fire and smoke damage cleanup,transactional,590,6,,3,fire damage restoration,,/services/fire-damage-restoration/,no
+residential fire damage restoration,transactional,170,11,,3,fire damage restoration,,/services/fire-damage-restoration/,no
+fire damage restoration santa maria,transactional,10,,,3,fire damage restoration,Santa Maria,/services/fire-damage-restoration/,no
+emergency fire damage restoration santa maria,transactional,,,,3,fire damage restoration,Santa Maria,/services/fire-damage-restoration/,no
+fire damage restoration lompoc,transactional,,,,3,fire damage restoration,Lompoc,/service-areas/lompoc-ca/fire-damage-restoration/,no
+santa maria fire damage restoration,transactional,,,,3,fire damage restoration,Santa Maria,/services/fire-damage-restoration/,no
+fire damage restoration in arroyo grande,transactional,,,,3,fire damage restoration,Arroyo Grande,/service-areas/arroyo-grande-ca/fire-damage-restoration/,no
+emergency fire damage restoration arroyo grande,transactional,,,,3,fire damage restoration,Arroyo Grande,/service-areas/arroyo-grande-ca/fire-damage-restoration/,no
+fire damage restoration san luis obispo,transactional,,,,3,fire damage restoration,San Luis Obispo,/service-areas/san-luis-obispo-ca/fire-damage-restoration/,no
+smoke damage cleanup santa maria,transactional,,,,3,fire damage restoration,Santa Maria,/services/fire-damage-restoration/,no
+emergency fire damage restoration lompoc,transactional,,,,3,fire damage restoration,Lompoc,/service-areas/lompoc-ca/fire-damage-restoration/,no
+fire damage restoration cost,commercial,260,1,3.69,1,fire damage restoration,,,yes
+fire restoration cost per square foot,commercial,40,1,17.32,2,fire damage restoration,,,no
+fire damage restoration companies,commercial,2400,2,43.16,3,fire damage restoration,,/services/fire-damage-restoration/,no
+fire damage restoration companies near me,commercial,390,4,13.36,3,fire damage restoration,,/services/fire-damage-restoration/,no
+how to get fire smoke smell out of house fast,informational,390,0,1.58,1,fire damage restoration,,,yes
+does homeowners insurance cover fire damage,informational,260,30,16.66,1,fire damage restoration,,,yes
+what to do after a house fire,informational,260,0,3.83,1,fire damage restoration,,,yes
+what to throw away after smoke damage,informational,210,0,18.92,1,fire damage restoration,,,yes
+fire damage insurance claim,informational,170,18,70.97,1,fire damage restoration,,,no
+how to clean smoke damage on walls and ceiling,informational,170,1,16.23,1,fire damage restoration,,,no
+what does smoke damage look like,informational,50,0,,1,fire damage restoration,,,no
+renters insurance for fire damage,informational,1300,8,4.81,2,fire damage restoration,,,no
+most common cause of house fire,informational,720,23,4.94,2,fire damage restoration,,,no
+what happens after a house fire,informational,90,26,42.34,2,fire damage restoration,,,no
+what to do after a house fire checklist,informational,90,14,11.32,2,fire damage restoration,,,no
+can smoke damage electronics,informational,40,0,,2,fire damage restoration,,,no
+what can be salvaged after a house fire,informational,30,0,,2,fire damage restoration,,,no
+how to deal with insurance adjuster after a house fire,informational,30,0,,2,fire damage restoration,,,no
+can you paint over smoke damage,informational,20,0,20.56,2,fire damage restoration,,,no
+is smoke damage covered by insurance,informational,20,5,,2,fire damage restoration,,,no
+what does a fire restoration company do,informational,20,0,36.1,2,fire damage restoration,,,no
+fire damage restoration process,informational,50,14,,3,fire damage restoration,,/blog/fire-damage-restoration-process/,no

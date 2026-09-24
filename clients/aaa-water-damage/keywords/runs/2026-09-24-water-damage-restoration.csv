@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+ceiling water damage repair honolulu,transactional,,,,2,water damage restoration,Honolulu,,no
+water damage restoration kailua,transactional,,,,3,water damage restoration,Kailua,/service-areas/kailua-hi/water-damage-restoration/,no
+water damage restoration kaneohe,transactional,,,,3,water damage restoration,Kaneohe,/service-areas/kaneohe-hi/water-damage-restoration/,no
+water damage restoration pearl city,transactional,,,,3,water damage restoration,Pearl City,/service-areas/pearl-city-hi/water-damage-restoration/,no
+emergency water damage restoration honolulu,transactional,,,,3,water damage restoration,Honolulu,/services/water-cleanup/,no
+water damage restoration company honolulu,transactional,,,,3,water damage restoration,Honolulu,/services/water-damage-restoration/,no
+water damage repair honolulu,transactional,,,,3,water damage restoration,Honolulu,/services/water-damage-restoration/,no
+water damage mitigation honolulu,transactional,,,,3,water damage restoration,Honolulu,/services/water-damage-restoration/,no
+water damage restoration kapolei,transactional,,,,3,water damage restoration,Kapolei,/service-areas/kapolei-hi/water-damage-restoration/,no
+water damage restoration hawaii kai,transactional,,,,3,water damage restoration,Hawaii Kai,/service-areas/hawaii-kai-hi/water-damage-restoration/,no
+dehumidifier rental honolulu,transactional,,,,3,water damage restoration,Honolulu,/services/flood-equipment-rental/,no
+water damage restoration in aiea,transactional,,,,3,water damage restoration,Aiea,/service-areas/aiea-hi/water-damage-restoration/,no
+water damage inspection,commercial,590,0,54.81,1,water damage restoration,,,yes
+ceiling water damage repair,commercial,1900,0,31.06,2,water damage restoration,,,no
+dehumidifier for water damage restoration,commercial,260,0,,2,water damage restoration,,,no
+water damage restoration equipment,commercial,170,1,2.71,2,water damage restoration,,,no
+emergency water damage restoration,commercial,2900,19,59.12,3,water damage restoration,,/services/water-cleanup/,no
+water damage mitigation services,commercial,590,25,46.52,3,water damage restoration,,/services/water-damage-restoration/,no
+residential water damage restoration,commercial,320,32,57.42,3,water damage restoration,,/services/water-damage-restoration/,no
+ceiling water damage,informational,2900,0,59.84,1,water damage restoration,,,yes
+hardwood floor water damage,informational,1600,0,23.17,1,water damage restoration,,,yes
+water damage baseboard,informational,1300,0,77.69,1,water damage restoration,,,no
+drywall water damage,informational,880,0,25.11,1,water damage restoration,,,yes
+water damaged subfloor,informational,260,0,43.62,1,water damage restoration,,,no
+water damage restoration process,informational,110,1,88.27,1,water damage restoration,,,no
+can i choose my own restoration company for insurance,informational,,,,1,water damage restoration,,,yes
+what are the categories of water damage,informational,,,,1,water damage restoration,,,no
+what is water damage restoration,informational,210,16,0.52,2,water damage restoration,,,no
+what does a water damage restoration company do,informational,10,,,2,water damage restoration,,,no
+what to do when your ceiling is leaking water,informational,10,,18.13,2,water damage restoration,,,no
+how does water damage restoration work,informational,,,,2,water damage restoration,,,no
+can water damaged drywall be saved,informational,,,,2,water damage restoration,,,no
+how long do fans need to run after water damage,informational,,,,2,water damage restoration,,,no
+should i stay in my house during water damage restoration,informational,,,,2,water damage restoration,,,no
+does ceiling water damage mean mold,informational,,,,2,water damage restoration,,,no
+how do you know if water damage is old or new,informational,,,,2,water damage restoration,,,no
+water damage restoration what to expect,informational,,,,2,water damage restoration,,,no
+do i need mold testing after water damage,informational,,,,2,water damage restoration,,,no
+how to tell if there is water damage behind a wall,informational,,,,2,water damage restoration,,,no
+water damage restoration cost per square foot,informational,70,0,56.88,3,water damage restoration,,/blog/water-damage-restoration-cost/,no

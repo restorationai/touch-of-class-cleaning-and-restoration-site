@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+smoke damage restoration,transactional,1600,20,31.88,2,fire damage restoration,,,no
+fire and water damage restoration,transactional,1300,29,44.69,2,fire damage restoration,,,no
+smoke damage clean up,transactional,720,17,59.5,2,fire damage restoration,,,no
+commercial fire damage restoration,transactional,320,0,,2,fire damage restoration,,,no
+smoke damage repair,transactional,320,7,24.35,2,fire damage restoration,,,no
+fire damage restoration company,transactional,2400,2,43.16,3,fire damage restoration,,/services/fire-damage-restoration/,no
+fire damage cleanup,transactional,1600,20,52.16,3,fire damage restoration,,/services/fire-damage-restoration/,no
+fire damage repair,transactional,1600,14,44.19,3,fire damage restoration,,/services/fire-damage-restoration/,no
+fire and smoke damage restoration,transactional,590,12,28.79,3,fire damage restoration,,/services/fire-damage-restoration/,no
+fire damage cleaning services,transactional,210,3,27.36,3,fire damage restoration,,/services/fire-damage-restoration/,no
+fire damage restoration abilene tx,transactional,10,,,3,fire damage restoration,abilene-tx,/services/fire-damage-restoration/,no
+fire damage restoration in abilene,transactional,,,,3,fire damage restoration,abilene-tx,/services/fire-damage-restoration/,no
+abilene fire damage restoration,transactional,,,,3,fire damage restoration,abilene-tx,/services/fire-damage-restoration/,no
+emergency fire damage restoration abilene,transactional,,,,3,fire damage restoration,abilene-tx,/services/fire-damage-restoration/,no
+smoke damage restoration abilene tx,transactional,,,,3,fire damage restoration,abilene-tx,/services/fire-damage-restoration/,no
+fire damage cleanup abilene,transactional,,,,3,fire damage restoration,abilene-tx,/services/fire-damage-restoration/,no
+fire damage restoration san angelo tx,transactional,,,,3,fire damage restoration,san-angelo-tx,/service-areas/san-angelo-tx/fire-damage-restoration/,no
+fire damage restoration brownwood tx,transactional,,,,3,fire damage restoration,brownwood-tx,/service-areas/brownwood-tx/fire-damage-restoration/,no
+fire damage restoration sweetwater tx,transactional,,,,3,fire damage restoration,sweetwater-tx,/service-areas/sweetwater-tx/fire-damage-restoration/,no
+fire damage restoration cost,commercial,260,1,3.69,1,fire damage restoration,,,yes
+fire restoration cost per square foot,commercial,40,1,17.32,2,fire damage restoration,,,no
+how much does fire damage restoration cost,commercial,10,,,2,fire damage restoration,,,no
+black soot on plastic in house,informational,2400,0,,1,fire damage restoration,,,yes
+does homeowners insurance cover fire damage,informational,260,30,16.66,1,fire damage restoration,,,yes
+what to do after a house fire,informational,260,0,3.83,1,fire damage restoration,,,yes
+what to throw away after smoke damage,informational,210,0,18.92,1,fire damage restoration,,,no
+how to clean smoke damage on walls and ceiling,informational,170,1,16.23,1,fire damage restoration,,,no
+insurance claim for fire damage,informational,170,18,70.97,1,fire damage restoration,,,no
+should i clean air ducts after a fire,informational,,,,1,fire damage restoration,,,yes
+homeowners insurance for fire damage,informational,1000,10,1.22,2,fire damage restoration,,,no
+soot damage from candles,informational,590,0,,2,fire damage restoration,,,no
+average insurance payout for house fire,informational,140,0,5.83,2,fire damage restoration,,,no
+smoke damage insurance claim,informational,110,0,38.13,2,fire damage restoration,,,no
+what to do after a house fire checklist,informational,90,14,11.32,2,fire damage restoration,,,no
+what happens to a house after a fire,informational,90,10,42.34,2,fire damage restoration,,,no
+what does smoke damage look like,informational,50,0,,2,fire damage restoration,,,no
+is it safe to stay in a house with smoke damage,informational,,,,2,fire damage restoration,,,no
+does homeowners insurance pay for a hotel after a house fire,informational,,,,2,fire damage restoration,,,no
+how long does fire damage restoration take,informational,,,,2,fire damage restoration,,,no
+fire damage restoration process,informational,50,14,,3,fire damage restoration,,/blog/fire-damage-restoration-process/,no

@@ -1,0 +1,2660 @@
+{
+  "schema_version": 1,
+  "slug": "coastal-restoration-services",
+  "origin": "https://callcrs.com",
+  "origin_source": "apex",
+  "generated_at": "2026-09-24T21:24:27+00:00",
+  "stale_threshold_days": 365,
+  "aging_threshold_days": 305,
+  "gsc_enabled": true,
+  "v1_notes": [
+    "v2 active: per-URL GSC indexing flags included.",
+    "See docs/system-4-v2-activation.md for GSC v2 setup."
+  ],
+  "inspected_count": 120,
+  "fetched_html_count": 120,
+  "failed_html_count": 0,
+  "flag_counts": {},
+  "candidates": [
+    {
+      "url": "https://callcrs.com/",
+      "date": "2026-07-30",
+      "date_source": "sitemap_lastmod",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:10:10.458Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-21T02:54:37Z",
+        "fetched_at": "2026-09-24T21:11:13+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/about/",
+      "date": "2026-07-30",
+      "date_source": "sitemap_lastmod",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:40:46.287Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-21T16:15:41Z",
+        "fetched_at": "2026-09-24T21:11:19+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/accessibility/",
+      "date": "2026-07-30",
+      "date_source": "sitemap_lastmod",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:41:14.497Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T12:34:53Z",
+        "fetched_at": "2026-09-24T21:11:26+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/blog/",
+      "date": "2026-07-30",
+      "date_source": "sitemap_lastmod",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:34:20.131Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T04:12:04Z",
+        "fetched_at": "2026-09-24T21:11:32+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/blog/best-water-damage-restoration-company-in-santa-maria-ca/",
+      "date": "2026-08-10",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-10T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-08-10",
+        "json_ld_date_modified": "2026-08-10",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T12:23:05Z",
+        "fetched_at": "2026-09-24T21:11:39+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/blog/black-mold-vs-regular-mold/",
+      "date": "2026-07-17",
+      "date_source": "json_ld_date_modified",
+      "age_days": 69,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-17T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-07-17",
+        "json_ld_date_modified": "2026-07-17",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T07:42:51Z",
+        "fetched_at": "2026-09-24T21:11:46+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/blog/burst-pipe-emergency-checklist/",
+      "date": "2026-07-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 71,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-15T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-07-15",
+        "json_ld_date_modified": "2026-07-15",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T07:11:47Z",
+        "fetched_at": "2026-09-24T21:11:53+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/blog/choosing-a-restoration-company/",
+      "date": "2026-07-22",
+      "date_source": "json_ld_date_modified",
+      "age_days": 64,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-22T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-07-22",
+        "json_ld_date_modified": "2026-07-22",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T05:50:11Z",
+        "fetched_at": "2026-09-24T21:11:59+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/blog/coastal-restoration/",
+      "date": "2026-09-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 9,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-15T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-15",
+        "json_ld_date_modified": "2026-09-15",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-17T14:35:40Z",
+        "fetched_at": "2026-09-24T21:12:06+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/blog/does-homeowners-insurance-cover-water-damage/",
+      "date": "2026-07-13",
+      "date_source": "json_ld_date_modified",
+      "age_days": 73,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-13T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-07-13",
+        "json_ld_date_modified": "2026-07-13",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T07:15:50Z",
+        "fetched_at": "2026-09-24T21:12:13+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/blog/fire-damage-restoration-process/",
+      "date": "2026-07-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 62,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-24T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-07-24",
+        "json_ld_date_modified": "2026-07-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T09:28:01Z",
+        "fetched_at": "2026-09-24T21:12:20+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/blog/how-to-test-for-mold/",
+      "date": "2026-07-17",
+      "date_source": "json_ld_date_modified",
+      "age_days": 69,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-17T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-07-17",
+        "json_ld_date_modified": "2026-07-17",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T05:47:04Z",
+        "fetched_at": "2026-09-24T21:12:27+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/blog/mold-remediation-cost-after-water-damage/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-20T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-20",
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-20T19:45:24Z",
+        "fetched_at": "2026-09-24T21:12:33+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/blog/roof-leaks-in-heavy-rain/",
+      "date": "2026-08-31",
+      "date_source": "json_ld_date_modified",
+      "age_days": 24,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-31T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-08-31",
+        "json_ld_date_modified": "2026-08-31",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T12:39:56Z",
+        "fetched_at": "2026-09-24T21:12:40+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/blog/signs-of-hidden-mold/",
+      "date": "2026-07-17",
+      "date_source": "json_ld_date_modified",
+      "age_days": 69,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-17T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-07-17",
+        "json_ld_date_modified": "2026-07-17",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T06:42:14Z",
+        "fetched_at": "2026-09-24T21:12:47+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/blog/water-damage-insurance-claim-tips/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 21,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-03",
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T13:10:52Z",
+        "fetched_at": "2026-09-24T21:12:53+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/blog/water-damage-restoration-cost-ca/",
+      "date": "2026-08-26",
+      "date_source": "json_ld_date_modified",
+      "age_days": 29,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-26T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-08-26",
+        "json_ld_date_modified": "2026-08-26",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T10:30:41Z",
+        "fetched_at": "2026-09-24T21:13:00+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/blog/water-damage-restoration-cost/",
+      "date": "2026-08-17",
+      "date_source": "json_ld_date_modified",
+      "age_days": 38,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-17T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-08-17",
+        "json_ld_date_modified": "2026-08-17",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T12:31:30Z",
+        "fetched_at": "2026-09-24T21:13:06+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/blog/water-damage-restoration-equipment/",
+      "date": "2026-09-22",
+      "date_source": "json_ld_date_modified",
+      "age_days": 2,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-22T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-22",
+        "json_ld_date_modified": "2026-09-22",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-24T07:40:52Z",
+        "fetched_at": "2026-09-24T21:13:13+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/blog/what-to-do-first-24-hours-water-damage/",
+      "date": "2026-07-27",
+      "date_source": "json_ld_date_modified",
+      "age_days": 59,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-27T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-07-27",
+        "json_ld_date_modified": "2026-07-27",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T07:27:44Z",
+        "fetched_at": "2026-09-24T21:13:20+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/blog/who-to-call-for-water-damage-restoration-in-santa-maria-ca/",
+      "date": "2026-09-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 6,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-18T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-18",
+        "json_ld_date_modified": "2026-09-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-19T07:03:59Z",
+        "fetched_at": "2026-09-24T21:13:27+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/case-studies/",
+      "date": "2026-09-22",
+      "date_source": "sitemap_lastmod",
+      "age_days": 2,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-22T15:16:13.464Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T02:00:11Z",
+        "fetched_at": "2026-09-24T21:13:34+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/certifications/",
+      "date": "2026-09-22",
+      "date_source": "sitemap_lastmod",
+      "age_days": 2,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-22T15:16:13.464Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-24T08:09:24Z",
+        "fetched_at": "2026-09-24T21:13:40+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/contact/",
+      "date": "2026-07-30",
+      "date_source": "sitemap_lastmod",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:41:04.203Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T06:14:37Z",
+        "fetched_at": "2026-09-24T21:13:46+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/emergency/",
+      "date": "2026-09-22",
+      "date_source": "sitemap_lastmod",
+      "age_days": 2,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-22T15:16:13.464Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T12:46:40Z",
+        "fetched_at": "2026-09-24T21:13:53+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/privacy/",
+      "date": "2026-07-30",
+      "date_source": "sitemap_lastmod",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:41:03.079Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T12:29:49Z",
+        "fetched_at": "2026-09-24T21:14:00+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/reviews/",
+      "date": "2026-09-22",
+      "date_source": "sitemap_lastmod",
+      "age_days": 2,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-22T15:16:13.464Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T05:56:15Z",
+        "fetched_at": "2026-09-24T21:14:06+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/",
+      "date": "2026-07-30",
+      "date_source": "sitemap_lastmod",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:22:35.862Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T02:08:05Z",
+        "fetched_at": "2026-09-24T21:14:13+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/arroyo-grande-ca/",
+      "date": "2026-07-30",
+      "date_source": "sitemap_lastmod",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:18:43.130Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-21T21:09:37Z",
+        "fetched_at": "2026-09-24T21:14:20+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/arroyo-grande-ca/biohazard-cleanup/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:05:59.644Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T08:36:10Z",
+        "fetched_at": "2026-09-24T21:14:26+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/arroyo-grande-ca/contents-restoration/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:27:56.989Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T09:31:41Z",
+        "fetched_at": "2026-09-24T21:14:33+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/arroyo-grande-ca/crawl-space-encapsulation/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:28:24.717Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T11:37:16Z",
+        "fetched_at": "2026-09-24T21:14:40+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/arroyo-grande-ca/emergency-board-up-tarping/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:13:18.148Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T20:01:48Z",
+        "fetched_at": "2026-09-24T21:14:46+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/arroyo-grande-ca/fire-damage-restoration/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T16:40:33.314Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T14:58:17Z",
+        "fetched_at": "2026-09-24T21:14:53+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/arroyo-grande-ca/mold-remediation/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T16:40:52.343Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T08:09:56Z",
+        "fetched_at": "2026-09-24T21:15:00+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/arroyo-grande-ca/odor-removal/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T23:37:49.944Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T02:43:30Z",
+        "fetched_at": "2026-09-24T21:15:06+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/arroyo-grande-ca/post-construction-cleaning/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:37:42.572Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T14:34:47Z",
+        "fetched_at": "2026-09-24T21:15:13+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/arroyo-grande-ca/sewage-cleanup/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T16:56:41.074Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T07:52:38Z",
+        "fetched_at": "2026-09-24T21:15:19+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/arroyo-grande-ca/storm-damage-restoration/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T16:56:24.052Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T11:26:34Z",
+        "fetched_at": "2026-09-24T21:15:26+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/arroyo-grande-ca/vandalism-cleanup/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T23:44:12.503Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T09:42:22Z",
+        "fetched_at": "2026-09-24T21:15:32+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/arroyo-grande-ca/water-damage-restoration/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T16:40:26.929Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T11:27:54Z",
+        "fetched_at": "2026-09-24T21:15:39+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/atascadero-ca/",
+      "date": "2026-07-30",
+      "date_source": "sitemap_lastmod",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:21:35.186Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-14T08:41:04Z",
+        "fetched_at": "2026-09-24T21:15:45+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/atascadero-ca/biohazard-cleanup/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:09:11.504Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T07:48:17Z",
+        "fetched_at": "2026-09-24T21:15:52+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/atascadero-ca/contents-restoration/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:34:38.969Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T12:33:11Z",
+        "fetched_at": "2026-09-24T21:15:59+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/atascadero-ca/crawl-space-encapsulation/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:34:50.959Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T10:37:36Z",
+        "fetched_at": "2026-09-24T21:16:06+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/atascadero-ca/emergency-board-up-tarping/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:16:33.544Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T11:19:52Z",
+        "fetched_at": "2026-09-24T21:16:13+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/atascadero-ca/fire-damage-restoration/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T16:50:43.315Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T09:58:26Z",
+        "fetched_at": "2026-09-24T21:16:19+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/atascadero-ca/mold-remediation/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T16:50:51.805Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T08:24:52Z",
+        "fetched_at": "2026-09-24T21:16:26+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/atascadero-ca/odor-removal/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T23:41:04.127Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T05:34:18Z",
+        "fetched_at": "2026-09-24T21:16:32+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/atascadero-ca/post-construction-cleaning/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:40:59.581Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T14:31:07Z",
+        "fetched_at": "2026-09-24T21:16:38+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/atascadero-ca/sewage-cleanup/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:03:14.634Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T06:02:39Z",
+        "fetched_at": "2026-09-24T21:16:45+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/atascadero-ca/storm-damage-restoration/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:03:06.420Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T11:05:08Z",
+        "fetched_at": "2026-09-24T21:16:51+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/atascadero-ca/vandalism-cleanup/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T23:47:31.596Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T07:41:39Z",
+        "fetched_at": "2026-09-24T21:16:58+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/atascadero-ca/water-damage-restoration/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T16:50:42.720Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T10:22:37Z",
+        "fetched_at": "2026-09-24T21:17:05+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/avila-beach-ca/",
+      "date": "2026-07-30",
+      "date_source": "sitemap_lastmod",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:19:05.052Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T03:48:04Z",
+        "fetched_at": "2026-09-24T21:17:12+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/avila-beach-ca/biohazard-cleanup/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:06:25.032Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T08:00:25Z",
+        "fetched_at": "2026-09-24T21:17:19+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/avila-beach-ca/contents-restoration/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:28:24.993Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T12:43:18Z",
+        "fetched_at": "2026-09-24T21:17:26+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/avila-beach-ca/crawl-space-encapsulation/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:28:34.855Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T19:54:21Z",
+        "fetched_at": "2026-09-24T21:17:32+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/avila-beach-ca/emergency-board-up-tarping/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:13:16.851Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T14:45:46Z",
+        "fetched_at": "2026-09-24T21:17:39+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/avila-beach-ca/fire-damage-restoration/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T16:41:13.576Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T05:28:58Z",
+        "fetched_at": "2026-09-24T21:17:45+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/avila-beach-ca/mold-remediation/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T16:41:24.622Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "UNKNOWN",
+        "coverage_state": "Discovered - currently not indexed",
+        "last_crawl_time": null,
+        "fetched_at": "2026-09-24T21:17:52+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/avila-beach-ca/odor-removal/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T23:37:52.038Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T08:28:47Z",
+        "fetched_at": "2026-09-24T21:17:59+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/avila-beach-ca/post-construction-cleaning/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:37:47.729Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T15:04:30Z",
+        "fetched_at": "2026-09-24T21:18:05+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/avila-beach-ca/sewage-cleanup/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T16:56:53.893Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T07:10:06Z",
+        "fetched_at": "2026-09-24T21:18:12+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/avila-beach-ca/storm-damage-restoration/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T16:56:56.283Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T10:38:48Z",
+        "fetched_at": "2026-09-24T21:18:20+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/avila-beach-ca/vandalism-cleanup/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T23:44:29.904Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T08:45:48Z",
+        "fetched_at": "2026-09-24T21:18:27+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/avila-beach-ca/water-damage-restoration/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T16:41:06.120Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T11:09:09Z",
+        "fetched_at": "2026-09-24T21:18:33+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/ballard-ca/",
+      "date": "2026-07-30",
+      "date_source": "sitemap_lastmod",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:18:31.841Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T02:31:46Z",
+        "fetched_at": "2026-09-24T21:18:40+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/ballard-ca/biohazard-cleanup/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:06:01.042Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T06:08:31Z",
+        "fetched_at": "2026-09-24T21:18:46+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/ballard-ca/contents-restoration/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:27:40.680Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T13:01:11Z",
+        "fetched_at": "2026-09-24T21:18:53+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/ballard-ca/crawl-space-encapsulation/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:27:46.927Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T09:57:19Z",
+        "fetched_at": "2026-09-24T21:19:00+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/ballard-ca/emergency-board-up-tarping/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:13:00.667Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T09:54:54Z",
+        "fetched_at": "2026-09-24T21:19:06+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/ballard-ca/fire-damage-restoration/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T16:40:10.684Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T08:39:53Z",
+        "fetched_at": "2026-09-24T21:19:13+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/ballard-ca/mold-remediation/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T16:40:17.407Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T09:29:11Z",
+        "fetched_at": "2026-09-24T21:19:20+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/ballard-ca/odor-removal/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T23:37:42.059Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T12:53:56Z",
+        "fetched_at": "2026-09-24T21:19:26+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/ballard-ca/post-construction-cleaning/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:37:28.423Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T09:26:49Z",
+        "fetched_at": "2026-09-24T21:19:32+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/ballard-ca/sewage-cleanup/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T16:56:10.189Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T08:12:44Z",
+        "fetched_at": "2026-09-24T21:19:39+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/ballard-ca/storm-damage-restoration/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T16:56:07.314Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T09:51:28Z",
+        "fetched_at": "2026-09-24T21:19:46+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/ballard-ca/vandalism-cleanup/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T23:44:11.185Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T11:06:28Z",
+        "fetched_at": "2026-09-24T21:19:52+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/ballard-ca/water-damage-restoration/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T16:39:43.034Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T10:58:04Z",
+        "fetched_at": "2026-09-24T21:19:59+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/blacklake-ca/",
+      "date": "2026-07-30",
+      "date_source": "sitemap_lastmod",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:21:30.183Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T03:13:16Z",
+        "fetched_at": "2026-09-24T21:20:06+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/blacklake-ca/biohazard-cleanup/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:08:54.009Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T07:09:57Z",
+        "fetched_at": "2026-09-24T21:20:13+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/blacklake-ca/contents-restoration/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:34:11.769Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T13:03:36Z",
+        "fetched_at": "2026-09-24T21:20:19+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/blacklake-ca/crawl-space-encapsulation/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:34:36.990Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T11:46:00Z",
+        "fetched_at": "2026-09-24T21:20:26+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/blacklake-ca/emergency-board-up-tarping/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:16:26.086Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T10:34:09Z",
+        "fetched_at": "2026-09-24T21:20:33+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/blacklake-ca/fire-damage-restoration/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T16:50:08.737Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T20:53:54Z",
+        "fetched_at": "2026-09-24T21:20:39+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/blacklake-ca/mold-remediation/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T16:50:12.634Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T06:57:58Z",
+        "fetched_at": "2026-09-24T21:20:46+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/blacklake-ca/odor-removal/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T23:41:00.602Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T08:23:24Z",
+        "fetched_at": "2026-09-24T21:20:52+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/blacklake-ca/post-construction-cleaning/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:40:44.288Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T10:49:13Z",
+        "fetched_at": "2026-09-24T21:20:59+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/blacklake-ca/sewage-cleanup/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:03:01.959Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T06:48:09Z",
+        "fetched_at": "2026-09-24T21:21:06+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/blacklake-ca/storm-damage-restoration/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:02:47.866Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T11:13:10Z",
+        "fetched_at": "2026-09-24T21:21:13+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/blacklake-ca/vandalism-cleanup/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T23:47:13.979Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T09:17:07Z",
+        "fetched_at": "2026-09-24T21:21:20+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/blacklake-ca/water-damage-restoration/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T16:49:58.275Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T06:28:26Z",
+        "fetched_at": "2026-09-24T21:21:26+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/buellton-ca/",
+      "date": "2026-07-30",
+      "date_source": "sitemap_lastmod",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:18:24.972Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T02:47:33Z",
+        "fetched_at": "2026-09-24T21:21:34+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/buellton-ca/biohazard-cleanup/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:05:58.805Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T06:30:36Z",
+        "fetched_at": "2026-09-24T21:21:41+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/buellton-ca/contents-restoration/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:27:10.583Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T12:56:21Z",
+        "fetched_at": "2026-09-24T21:21:47+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/buellton-ca/crawl-space-encapsulation/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:27:38.543Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T14:38:26Z",
+        "fetched_at": "2026-09-24T21:21:54+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/buellton-ca/emergency-board-up-tarping/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:12:51.481Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T10:08:57Z",
+        "fetched_at": "2026-09-24T21:22:00+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/buellton-ca/fire-damage-restoration/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T16:39:31.549Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T08:54:22Z",
+        "fetched_at": "2026-09-24T21:22:07+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/buellton-ca/mold-remediation/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T16:39:42.024Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T06:05:26Z",
+        "fetched_at": "2026-09-24T21:22:13+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/buellton-ca/odor-removal/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T23:37:41.039Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T05:10:07Z",
+        "fetched_at": "2026-09-24T21:22:20+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/buellton-ca/post-construction-cleaning/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:37:10.881Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T10:14:36Z",
+        "fetched_at": "2026-09-24T21:22:27+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/buellton-ca/sewage-cleanup/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T16:55:56.301Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T07:46:58Z",
+        "fetched_at": "2026-09-24T21:22:33+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/buellton-ca/storm-damage-restoration/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T16:55:33.640Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T15:17:01Z",
+        "fetched_at": "2026-09-24T21:22:40+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/buellton-ca/vandalism-cleanup/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T23:43:59.648Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T16:11:20Z",
+        "fetched_at": "2026-09-24T21:22:47+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/buellton-ca/water-damage-restoration/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T16:39:21.634Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T10:01:56Z",
+        "fetched_at": "2026-09-24T21:22:53+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/callender-ca/",
+      "date": "2026-07-30",
+      "date_source": "sitemap_lastmod",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:21:22.975Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T03:04:42Z",
+        "fetched_at": "2026-09-24T21:23:00+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/callender-ca/biohazard-cleanup/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:08:44.572Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T07:14:06Z",
+        "fetched_at": "2026-09-24T21:23:06+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/callender-ca/contents-restoration/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:33:55.035Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T12:45:00Z",
+        "fetched_at": "2026-09-24T21:23:13+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/callender-ca/crawl-space-encapsulation/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:34:07.810Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T11:42:38Z",
+        "fetched_at": "2026-09-24T21:23:20+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/callender-ca/emergency-board-up-tarping/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:16:20.846Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T10:54:45Z",
+        "fetched_at": "2026-09-24T21:23:26+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/callender-ca/fire-damage-restoration/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T16:49:25.090Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T12:16:20Z",
+        "fetched_at": "2026-09-24T21:23:33+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/callender-ca/mold-remediation/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T16:49:54.287Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T06:29:56Z",
+        "fetched_at": "2026-09-24T21:23:40+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/callender-ca/odor-removal/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T23:40:51.635Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T08:20:41Z",
+        "fetched_at": "2026-09-24T21:23:47+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/callender-ca/post-construction-cleaning/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:40:45.641Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T10:31:50Z",
+        "fetched_at": "2026-09-24T21:23:53+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/callender-ca/sewage-cleanup/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:02:24.069Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T07:37:26Z",
+        "fetched_at": "2026-09-24T21:24:00+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/callender-ca/storm-damage-restoration/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:02:14.007Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T10:03:03Z",
+        "fetched_at": "2026-09-24T21:24:06+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/callender-ca/vandalism-cleanup/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T23:47:15.180Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T14:52:01Z",
+        "fetched_at": "2026-09-24T21:24:13+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/callender-ca/water-damage-restoration/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T16:49:19.667Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-09T13:37:29Z",
+        "fetched_at": "2026-09-24T21:24:20+00:00"
+      },
+      "search_signals": null
+    },
+    {
+      "url": "https://callcrs.com/service-areas/cambria-ca/",
+      "date": "2026-07-30",
+      "date_source": "sitemap_lastmod",
+      "age_days": 56,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:19:07.091Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": {
+        "index_status": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "last_crawl_time": "2026-09-24T05:39:24Z",
+        "fetched_at": "2026-09-24T21:24:27+00:00"
+      },
+      "search_signals": null
+    }
+  ]
+}

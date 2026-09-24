@@ -102,7 +102,7 @@
             "review_count": 59
           },
           {
-            "name": "Ventura\u2019s 24 Hr Flood Cleanup",
+            "name": "Ventura’s 24 Hr Flood Cleanup",
             "google_rating": 5,
             "review_count": 3
           },
@@ -387,6 +387,198 @@
       "target_word_count": 1400,
       "city_anchor": "ventura-ca",
       "source": "dev-agent geo-target (gameplan-2026-09-4)"
+    },
+    {
+      "id": "2026-09-24-mold-remediation-cost",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "mold remediation cost",
+      "intent": "commercial",
+      "volume": 9900,
+      "kd": 3,
+      "fan_out_cluster": [
+        "mold remediation cost per square foot",
+        "whole-house mold remediation cost",
+        "how much does mold remediation cost in california",
+        "mold remediation cost ventura",
+        "hvac mold remediation cost",
+        "is mold remediation worth it"
+      ],
+      "suggested_slug": "mold-remediation-cost",
+      "suggested_title": "Mold remediation cost in Ventura: what homeowners actually pay in 2026",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/services/crawl-space-encapsulation/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "ventura-ca",
+      "external_authority_candidates": [
+        "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHLB/AQS/Pages/Frequently-Asked-Questions-about-Mold.aspx",
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+        "https://iicrc.org/s520/"
+      ],
+      "notes": "Highest-volume, lowest-KD money term in the family (9,900/mo, KD 3, CPC $20). Break cost down by square footage, containment level, and whether drywall/insulation removal and rebuild are included. Explain that the leak fix is a separate line item. No invented local price figures: use ranges with clear drivers.",
+      "source": "keyword-researcher seed=mold remediation"
+    },
+    {
+      "id": "2026-09-24-does-homeowners-insurance-cover-mold-remediation",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover mold remediation",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": 17,
+      "fan_out_cluster": [
+        "who pays for mold remediation",
+        "is mold from a burst pipe covered by insurance",
+        "mold exclusions and sublimits in homeowners policies",
+        "documenting mold damage for an insurance claim",
+        "how long does mold remediation take"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-mold-remediation",
+      "suggested_title": "Does homeowners insurance cover mold remediation? Sudden leak vs. long-term moisture",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHLB/AQS/Pages/Frequently-Asked-Questions-about-Mold.aspx",
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+        "https://iicrc.org/s520/"
+      ],
+      "notes": "Decision-stage insurance query, high value 24-48 hours before hire. City anchor intentionally null (policy explainer). Center on the sudden-and-accidental vs. neglect distinction and common mold sublimits. Do not promise coverage outcomes. Cross-link the existing water damage insurance post.",
+      "source": "keyword-researcher seed=mold remediation"
+    },
+    {
+      "id": "2026-09-24-what-is-mold-remediation",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what is mold remediation",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": 18,
+      "fan_out_cluster": [
+        "mold remediation process",
+        "what happens during mold remediation",
+        "black mold remediation process",
+        "mold remediation vs removal",
+        "epa mold remediation guidelines",
+        "how do i know if mold remediation was successful"
+      ],
+      "suggested_slug": "what-is-mold-remediation",
+      "suggested_title": "What is mold remediation? The step-by-step process for Oxnard homes",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/oxnard-ca/mold-remediation/",
+        "/services/odor-removal/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "odor-removal"
+      ],
+      "city_anchor": "oxnard-ca",
+      "external_authority_candidates": [
+        "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHLB/AQS/Pages/Frequently-Asked-Questions-about-Mold.aspx",
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+        "https://iicrc.org/s520/"
+      ],
+      "notes": "Absorbs the process cluster (mold remediation process 720/mo is folded in as H2s, not queued separately, to avoid cannibalization). Walk source control, containment, removal, HEPA cleaning, drying, verification. Use CDPH's completion criteria (moisture fixed, no visible mold, no mold odor) and note CDPH does not recognize a test that proves remediation succeeded. Coastal humidity angle for Oxnard.",
+      "source": "keyword-researcher seed=mold remediation"
+    },
+    {
+      "id": "2026-09-24-who-pays-for-mold-remediation",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "who pays for mold remediation",
+      "intent": "informational",
+      "volume": 880,
+      "kd": 9,
+      "fan_out_cluster": [
+        "does homeowners insurance cover mold remediation",
+        "landlord responsibility for mold in california",
+        "who pays for mold remediation when buying a house",
+        "hoa responsibility for mold in a condo",
+        "when is mold remediation required"
+      ],
+      "suggested_slug": "who-pays-for-mold-remediation",
+      "suggested_title": "Who pays for mold remediation? Homeowners, landlords, tenants, and insurers in Thousand Oaks",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/thousand-oaks-ca/mold-remediation/",
+        "/services/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "thousand-oaks-ca",
+      "external_authority_candidates": [
+        "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHLB/AQS/Pages/Frequently-Asked-Questions-about-Mold.aspx",
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+        "https://iicrc.org/s520/"
+      ],
+      "notes": "Split by situation: owner-occupied with a covered loss, rental (California habitability rules; point readers to official state sources rather than giving legal advice), condo/HOA, and real estate transactions. Informational, not legal advice; say so plainly.",
+      "source": "keyword-researcher seed=mold remediation"
+    },
+    {
+      "id": "2026-09-24-how-long-does-mold-remediation-take",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how long does mold remediation take",
+      "intent": "informational",
+      "volume": 720,
+      "kd": 0,
+      "fan_out_cluster": [
+        "can i stay in my house during mold remediation",
+        "how long does mold remediation take for a bathroom",
+        "how long after mold remediation can i return home",
+        "what happens during mold remediation",
+        "how do i know if mold remediation was successful"
+      ],
+      "suggested_slug": "how-long-does-mold-remediation-take",
+      "suggested_title": "How long does mold remediation take? A realistic timeline for Simi Valley homes",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/simi-valley-ca/mold-remediation/",
+        "/services/contents-restoration/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "contents-restoration"
+      ],
+      "city_anchor": "simi-valley-ca",
+      "external_authority_candidates": [
+        "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHLB/AQS/Pages/Frequently-Asked-Questions-about-Mold.aspx",
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+        "https://iicrc.org/s520/"
+      ],
+      "notes": "KD 0 with 720/mo. Give phase-by-phase timeline (assessment, containment, removal, drying, clearance, rebuild) and what extends it (hidden growth, HVAC involvement, insurance approval). Cover whether a family can stay home during the work and when contents need to be moved out.",
+      "source": "keyword-researcher seed=mold remediation"
     }
   ]
 }

@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+professional mold remediation,transactional,33100,26,20.6,3,mold remediation,,/services/mold-remediation/,no
+mold remediation thousand oaks,transactional,170,0,10.44,3,mold remediation,Thousand Oaks,/service-areas/thousand-oaks-ca/mold-remediation/,no
+mold remediation oxnard,transactional,20,,,3,mold remediation,Oxnard,/service-areas/oxnard-ca/mold-remediation/,no
+mold remediation simi valley,transactional,20,,74.6,3,mold remediation,Simi Valley,/service-areas/simi-valley-ca/mold-remediation/,no
+mold removal ventura,transactional,20,0,,3,mold remediation,Ventura,/services/mold-remediation/,no
+mold removal oxnard,transactional,10,,,3,mold remediation,Oxnard,/service-areas/oxnard-ca/mold-remediation/,no
+mold removal thousand oaks,transactional,10,,,3,mold remediation,Thousand Oaks,/service-areas/thousand-oaks-ca/mold-remediation/,no
+mold removal simi valley,transactional,10,,,3,mold remediation,Simi Valley,/service-areas/simi-valley-ca/mold-remediation/,no
+mold remediation camarillo,transactional,,,,3,mold remediation,Camarillo,/service-areas/camarillo-ca/mold-remediation/,no
+ventura mold remediation,transactional,,,,3,mold remediation,Ventura,/services/mold-remediation/,no
+emergency mold remediation ventura,transactional,,,,3,mold remediation,Ventura,/services/mold-remediation/,no
+black mold removal ventura,transactional,,,,3,mold remediation,Ventura,/services/mold-remediation/,no
+mold remediation cost,commercial,9900,3,20.04,1,mold remediation,,,yes
+best mold remediation companies,commercial,210,18,21.25,1,mold remediation,,,no
+hvac mold remediation cost,commercial,140,13,45.85,1,mold remediation,,,no
+mold remediation cost per square foot,commercial,720,6,21.15,2,mold remediation,,,no
+whole-house mold remediation cost,commercial,50,10,12.56,2,mold remediation,,,no
+mold remediation cost ventura,commercial,,,,2,mold remediation,Ventura,,no
+how much does mold remediation cost in california,commercial,,,,2,mold remediation,,,no
+mold remediation cost basement,commercial,880,1,16.74,3,mold remediation,,,no
+mold remediation companies ventura,commercial,,,,3,mold remediation,Ventura,/services/mold-remediation/,no
+mold remediation companies oxnard,commercial,,,,3,mold remediation,Oxnard,/service-areas/oxnard-ca/mold-remediation/,no
+does homeowners insurance cover mold remediation,informational,1000,17,9.74,1,mold remediation,,,yes
+what is mold remediation,informational,1000,18,8.21,1,mold remediation,,,yes
+who pays for mold remediation,informational,880,9,14.28,1,mold remediation,,,yes
+how long does mold remediation take,informational,720,0,12.3,1,mold remediation,,,yes
+when is mold remediation required,informational,390,27,14.81,1,mold remediation,,,no
+epa mold remediation guidelines,informational,320,42,21.8,1,mold remediation,,,no
+how to get rid of mold in crawl space,informational,320,0,3.42,1,mold remediation,,,no
+what kills mold permanently,informational,3600,23,3.26,2,mold remediation,,,no
+mold remediation process,informational,720,16,16.01,2,mold remediation,,,no
+is mold remediation worth it,informational,40,18,,2,mold remediation,,,no
+black mold remediation process,informational,30,21,10.03,2,mold remediation,,,no
+mold remediation vs removal,informational,30,0,3.57,2,mold remediation,,,no
+what happens during mold remediation,informational,20,28,18.32,2,mold remediation,,,no
+does california require a license for mold remediation,informational,,,,2,mold remediation,,,no
+how do i know if mold remediation was successful,informational,,,,2,mold remediation,,,no
+do i need mold testing before remediation,informational,,,,3,mold remediation,,/blog/how-to-test-for-mold/,no
+can i stay in my house during mold remediation,informational,,,,3,mold remediation,,,no
+servpro mold remediation cost,navigational,720,30,14.7,3,mold remediation,,,no
