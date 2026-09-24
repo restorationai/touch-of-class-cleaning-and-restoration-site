@@ -1,264 +1,286 @@
 {
- "items": [
-  {
-   "id": "2026-09-23-water-damage-restoration-cost-tx",
-   "status": "queued",
-   "queued_at": "2026-09-23T10:25:01Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "cost_guide",
-   "combo_key": "water-damage-restoration-cost-tx",
-   "primary_keyword": "water damage restoration cost TX",
-   "intent": "transactional",
-   "target_word_count": 1500,
-   "city_anchor": "midland-tx",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "Midland",
-    "state": "TX",
-    "competitors": []
-   },
-   "fan_out_cluster": [
-    "how much does water damage restoration cost in TX",
-    "water damage restoration price TX",
-    "average cost of water damage restoration TX",
-    "water damage cleanup TX",
-    "water cleanup TX",
-    "water removal TX"
-   ],
-   "source": "best-of-seeder"
-  },
-  {
-   "id": "2026-09-09-carpet-upholstery-cleaning",
-   "status": "published",
-   "queued_at": "2026-09-09T14:41:57Z",
-   "priority": 1,
-   "content_type": "target_term",
-   "combo_key": "carpet-upholstery-cleaning",
-   "primary_keyword": "Carpet & Upholstery Cleaning",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "goldsmith-tx",
-   "source": "app target-term (onboarding)",
-   "written_at": "2026-09-20T14:22:16Z",
-   "post_url": "https://theacs-enterprises.com/blog/carpet-upholstery-cleaning/",
-   "claims_flags": [
+  "items": [
     {
-     "file": "src/content/blog/carpet-upholstery-cleaning.md",
-     "part": "frontmatter",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "before selecting a cleaning method. The IICRC S100 standard provides guidance on matc",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+      "id": "2026-09-23-water-damage-restoration-cost-tx",
+      "status": "written",
+      "queued_at": "2026-09-23T10:25:01Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "cost_guide",
+      "combo_key": "water-damage-restoration-cost-tx",
+      "primary_keyword": "water damage restoration cost TX",
+      "intent": "transactional",
+      "target_word_count": 1500,
+      "city_anchor": "midland-tx",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Midland",
+        "state": "TX",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "how much does water damage restoration cost in TX",
+        "water damage restoration price TX",
+        "average cost of water damage restoration TX",
+        "water damage cleanup TX",
+        "water cleanup TX",
+        "water removal TX"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-09-24T15:24:09Z",
+      "post_url": "https://theacs-enterprises.com/blog/water-damage-restoration-cost-tx/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-tx.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "2, and 3 water damage?\", \"answer\": \"The IICRC S500 standard classifies water losses b",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-tx.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "ry** is the single biggest factor. The [IICRC S500 standard](https://www.iicrc.org) c",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
     },
     {
-     "file": "src/content/blog/carpet-upholstery-cleaning.md",
-     "part": "frontmatter",
-     "family": "certification",
-     "severity": "error",
-     "matched": "IICRC",
-     "context": "rofessionally cleaned?\", \"answer\": \"The IICRC recommends professional cleaning every",
-     "reason": "names a certification not present in brand.certifications"
+      "id": "2026-09-09-carpet-upholstery-cleaning",
+      "status": "published",
+      "queued_at": "2026-09-09T14:41:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "carpet-upholstery-cleaning",
+      "primary_keyword": "Carpet & Upholstery Cleaning",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "goldsmith-tx",
+      "source": "app target-term (onboarding)",
+      "written_at": "2026-09-20T14:22:16Z",
+      "post_url": "https://theacs-enterprises.com/blog/carpet-upholstery-cleaning/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/carpet-upholstery-cleaning.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "before selecting a cleaning method. The IICRC S100 standard provides guidance on matc",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/carpet-upholstery-cleaning.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "rofessionally cleaned?\", \"answer\": \"The IICRC recommends professional cleaning every",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/carpet-upholstery-cleaning.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "t, and residue. This is the method the [IICRC](https://www.iicrc.org) recommends for",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/carpet-upholstery-cleaning.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "olstery be cleaned professionally? The IICRC S100 standard for residential carpet ca",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ],
+      "published_verified_at": "2026-09-20T14:23:35Z"
     },
     {
-     "file": "src/content/blog/carpet-upholstery-cleaning.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "IICRC",
-     "context": "t, and residue. This is the method the [IICRC](https://www.iicrc.org) recommends for",
-     "reason": "names a certification not present in brand.certifications"
+      "id": "2026-09-09-air-duct-hvac-cleaning",
+      "status": "published",
+      "queued_at": "2026-09-09T14:41:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "air-duct-hvac-cleaning",
+      "primary_keyword": "Air Duct & HVAC Cleaning",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "gardendale-tx",
+      "source": "app target-term (onboarding)",
+      "written_at": "2026-09-22T15:08:11Z",
+      "post_url": "https://theacs-enterprises.com/blog/air-duct-hvac-cleaning/",
+      "published_verified_at": "2026-09-22T15:09:32Z"
     },
     {
-     "file": "src/content/blog/carpet-upholstery-cleaning.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "olstery be cleaned professionally? The IICRC S100 standard for residential carpet ca",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+      "id": "2026-09-09-sewage-cleanup-remediation",
+      "status": "queued",
+      "queued_at": "2026-09-09T14:41:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "sewage-cleanup-remediation",
+      "primary_keyword": "Sewage Cleanup & Remediation",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "big-spring-tx",
+      "source": "app target-term (onboarding)"
+    },
+    {
+      "id": "2026-09-09-storm-wind-damage-restoration",
+      "status": "queued",
+      "queued_at": "2026-09-09T14:41:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "storm-wind-damage-restoration",
+      "primary_keyword": "Storm & Wind Damage Restoration",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "andrews-tx",
+      "source": "app target-term (onboarding)"
+    },
+    {
+      "id": "2026-09-09-best-water-damage-restoration-in-midland-tx",
+      "status": "written",
+      "queued_at": "2026-09-09T10:23:55Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-water-damage-restoration-in-midland-tx",
+      "primary_keyword": "best water damage restoration company in Midland, TX",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "midland-tx",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Midland",
+        "state": "TX",
+        "competitors": [
+          {
+            "name": "ServiceMaster by A-Town/Hi-Tech - Midland",
+            "google_rating": 4.8,
+            "review_count": 24
+          },
+          {
+            "name": "SERVPRO of Midland Odessa",
+            "google_rating": 3.9,
+            "review_count": 17
+          },
+          {
+            "name": "Air First Mold Remediation",
+            "google_rating": 5,
+            "review_count": 3
+          },
+          {
+            "name": "Flood Masters",
+            "google_rating": 5,
+            "review_count": 1
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best water damage restoration companies Midland",
+        "top rated water damage restoration Midland TX",
+        "who is the best water damage restoration company in Midland",
+        "water damage cleanup Midland",
+        "water cleanup Midland",
+        "water removal Midland"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-09-09T10:26:07Z",
+      "post_url": "https://None/blog/best-water-damage-restoration-company-in-midland-tx/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-midland-tx.md",
+          "part": "body",
+          "family": "service-scope",
+          "severity": "review",
+          "matched": "Mold Remediation",
+          "context": "Odessa | 3.9 | 17 | - | - | | Air First Mold Remediation | 5.0 | 3 | - | - | | Flood Masters | 5",
+          "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, storm-damage-restoration, air-duct-cleaning, water-cleanup, carpet-cleaning"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-midland-tx.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "tation for your insurance carrier. The [IICRC S500 Standard for Professional Water Da",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-midland-tx.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "24 reviews",
+          "context": "a. With a 4.8-star Google rating across 24 reviews, it is the most-reviewed option on this",
+          "reason": "claims 24 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-midland-tx.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "17 Google reviews",
+          "context": "restoration brand in the country. With 17 Google reviews and a 3.9-star rating, it has the most",
+          "reason": "claims 17 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-midland-tx.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "3 reviews",
+          "context": ".0-star Google rating, though with only 3 reviews, the sample size is small. The company",
+          "reason": "claims 3 reviews but no synced gbpReviewCount exists for this site"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-15-water-mitigation-midland",
+      "status": "written",
+      "queued_at": "2026-09-15T14:24:35Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "target_term",
+      "combo_key": "water-mitigation-midland",
+      "primary_keyword": "water mitigation midland",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "midland-tx",
+      "source": "gameplan-2026-09-4 (dev-agent)",
+      "written_at": "2026-09-18T11:17:04Z",
+      "post_url": "https://None/blog/water-mitigation-midland/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-mitigation-midland.md",
+          "part": "body",
+          "family": "service-scope",
+          "severity": "review",
+          "matched": "mold remediation",
+          "context": "$4,000 mitigation turns into a $25,000 mold remediation six weeks later. **Step 1: Assessment",
+          "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, storm-damage-restoration, air-duct-cleaning, water-cleanup, carpet-cleaning"
+        },
+        {
+          "file": "src/content/blog/water-mitigation-midland.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "riage and restoration as surgery. The [IICRC S500 Standard for Professional Water Da",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
     }
-   ],
-   "published_verified_at": "2026-09-20T14:23:35Z"
-  },
-  {
-   "id": "2026-09-09-air-duct-hvac-cleaning",
-   "status": "published",
-   "queued_at": "2026-09-09T14:41:57Z",
-   "priority": 1,
-   "content_type": "target_term",
-   "combo_key": "air-duct-hvac-cleaning",
-   "primary_keyword": "Air Duct & HVAC Cleaning",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "gardendale-tx",
-   "source": "app target-term (onboarding)",
-   "written_at": "2026-09-22T15:08:11Z",
-   "post_url": "https://theacs-enterprises.com/blog/air-duct-hvac-cleaning/",
-   "published_verified_at": "2026-09-22T15:09:32Z"
-  },
-  {
-   "id": "2026-09-09-sewage-cleanup-remediation",
-   "status": "queued",
-   "queued_at": "2026-09-09T14:41:57Z",
-   "priority": 1,
-   "content_type": "target_term",
-   "combo_key": "sewage-cleanup-remediation",
-   "primary_keyword": "Sewage Cleanup & Remediation",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "big-spring-tx",
-   "source": "app target-term (onboarding)"
-  },
-  {
-   "id": "2026-09-09-storm-wind-damage-restoration",
-   "status": "queued",
-   "queued_at": "2026-09-09T14:41:57Z",
-   "priority": 1,
-   "content_type": "target_term",
-   "combo_key": "storm-wind-damage-restoration",
-   "primary_keyword": "Storm & Wind Damage Restoration",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "andrews-tx",
-   "source": "app target-term (onboarding)"
-  },
-  {
-   "id": "2026-09-09-best-water-damage-restoration-in-midland-tx",
-   "status": "written",
-   "queued_at": "2026-09-09T10:23:55Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "best_of_comparison",
-   "combo_key": "best-water-damage-restoration-in-midland-tx",
-   "primary_keyword": "best water damage restoration company in Midland, TX",
-   "intent": "commercial",
-   "target_word_count": 1600,
-   "city_anchor": "midland-tx",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "Midland",
-    "state": "TX",
-    "competitors": [
-     {
-      "name": "ServiceMaster by A-Town/Hi-Tech - Midland",
-      "google_rating": 4.8,
-      "review_count": 24
-     },
-     {
-      "name": "SERVPRO of Midland Odessa",
-      "google_rating": 3.9,
-      "review_count": 17
-     },
-     {
-      "name": "Air First Mold Remediation",
-      "google_rating": 5,
-      "review_count": 3
-     },
-     {
-      "name": "Flood Masters",
-      "google_rating": 5,
-      "review_count": 1
-     }
-    ]
-   },
-   "fan_out_cluster": [
-    "best water damage restoration companies Midland",
-    "top rated water damage restoration Midland TX",
-    "who is the best water damage restoration company in Midland",
-    "water damage cleanup Midland",
-    "water cleanup Midland",
-    "water removal Midland"
-   ],
-   "source": "best-of-seeder",
-   "written_at": "2026-09-09T10:26:07Z",
-   "post_url": "https://None/blog/best-water-damage-restoration-company-in-midland-tx/",
-   "claims_flags": [
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-midland-tx.md",
-     "part": "body",
-     "family": "service-scope",
-     "severity": "review",
-     "matched": "Mold Remediation",
-     "context": "Odessa | 3.9 | 17 | - | - | | Air First Mold Remediation | 5.0 | 3 | - | - | | Flood Masters | 5",
-     "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, storm-damage-restoration, air-duct-cleaning, water-cleanup, carpet-cleaning"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-midland-tx.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "tation for your insurance carrier. The [IICRC S500 Standard for Professional Water Da",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-midland-tx.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "24 reviews",
-     "context": "a. With a 4.8-star Google rating across 24 reviews, it is the most-reviewed option on this",
-     "reason": "claims 24 reviews but no synced gbpReviewCount exists for this site"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-midland-tx.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "17 Google reviews",
-     "context": "restoration brand in the country. With 17 Google reviews and a 3.9-star rating, it has the most",
-     "reason": "claims 17 reviews but no synced gbpReviewCount exists for this site"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-midland-tx.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "3 reviews",
-     "context": ".0-star Google rating, though with only 3 reviews, the sample size is small. The company",
-     "reason": "claims 3 reviews but no synced gbpReviewCount exists for this site"
-    }
-   ]
-  },
-  {
-   "id": "2026-09-15-water-mitigation-midland",
-   "status": "written",
-   "queued_at": "2026-09-15T14:24:35Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "target_term",
-   "combo_key": "water-mitigation-midland",
-   "primary_keyword": "water mitigation midland",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "midland-tx",
-   "source": "gameplan-2026-09-4 (dev-agent)",
-   "written_at": "2026-09-18T11:17:04Z",
-   "post_url": "https://None/blog/water-mitigation-midland/",
-   "claims_flags": [
-    {
-     "file": "src/content/blog/water-mitigation-midland.md",
-     "part": "body",
-     "family": "service-scope",
-     "severity": "review",
-     "matched": "mold remediation",
-     "context": "$4,000 mitigation turns into a $25,000 mold remediation six weeks later. **Step 1: Assessment",
-     "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, storm-damage-restoration, air-duct-cleaning, water-cleanup, carpet-cleaning"
-    },
-    {
-     "file": "src/content/blog/water-mitigation-midland.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "riage and restoration as surgery. The [IICRC S500 Standard for Professional Water Da",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    }
-   ]
-  }
- ]
+  ]
 }
