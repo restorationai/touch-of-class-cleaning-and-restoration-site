@@ -1454,6 +1454,58 @@ def cmd_watch(args) -> int:
                        f"python3 scripts/fathom_sync.py sync --send --since "
                        f"{meta['when']} --reprocess", meta["company"]))
 
+    # INVARIANT (Daniel Restum 2026-09-24): no ACTIVE client may hold an
+    # upcoming appointment on the sales Follow Up calendar — that calendar
+    # is for prospects and lapsed accounts only. Any hit means the client
+    # override failed (or a human misbooked) and the meeting should move to
+    # LIVE Support.
+    try:
+        loc = os.environ["GHL_LOCATION_ID"]
+        s_ms = int(now.timestamp() * 1000)
+        e_ms = int((now + timedelta(days=21)).timestamp() * 1000)
+        evs = _ghl_api("GET", f"/calendars/events?locationId={loc}"
+                       f"&calendarId={FOLLOWUP_CAL}&startTime={s_ms}"
+                       f"&endTime={e_ms}").get("events") or []
+        for e in evs:
+            if e.get("appointmentStatus") == "cancelled" or not e.get("contactId"):
+                continue
+            # the events endpoint returns the whole DAY regardless of the
+            # ms window (same quirk as _appointment_anchor) — keep only
+            # genuinely upcoming events
+            try:
+                est = datetime.fromisoformat(
+                    str(e.get("startTime") or "").replace(" ", "T"))
+                if est.tzinfo is None:
+                    est = est.replace(tzinfo=timezone(timedelta(hours=-7)))
+                if est < now:
+                    continue
+            except (ValueError, TypeError):
+                pass
+            try:
+                cd = (_ghl_api("GET", f"/contacts/{e['contactId']}")
+                      .get("contact") or {})
+            except Exception:  # noqa: BLE001
+                continue
+            em = str(cd.get("email") or "").strip().lower()
+            if not em:
+                continue
+            rows = _sb("GET", "/rest/v1/companies?email=ilike."
+                       + urllib.parse.quote(em)
+                       + "&select=id,name,status") or []
+            live = [r for r in rows if str(r.get("status") or "").lower()
+                    not in ("inactive", "cancelled", "canceled",
+                            "suspended", "paused") and r.get("name")]
+            if live:
+                alarms.append((
+                    "client-on-sales-cal",
+                    f"ACTIVE client {live[0]['name']} has "
+                    f"'{e.get('title')}' on the sales Follow Up calendar "
+                    f"({str(e.get('startTime'))[:16]}) — clients belong on "
+                    "LIVE Support; move it and check why the override "
+                    "missed it", live[0]))
+    except Exception as ex:  # noqa: BLE001 — the invariant never kills watch
+        print(f"  (follow-up-cal invariant warn: {str(ex)[:80]})")
+
     if not alarms:
         print(f"fathom watch: green — last clean run "
               f"{str(last_ok)[:16] if last_ok else '?'}"
