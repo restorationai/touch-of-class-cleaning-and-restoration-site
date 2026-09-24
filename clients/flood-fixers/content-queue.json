@@ -891,10 +891,10 @@
     },
     {
       "id": "2026-08-27-basement-flooded-who-to-call",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-27T02:00:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-24T15:32:17Z",
+      "post_url": "https://flood-fixers.com/blog/basement-flooded-who-to-call/",
       "primary_keyword": "basement flooded who to call",
       "intent": "commercial",
       "volume": 260,
