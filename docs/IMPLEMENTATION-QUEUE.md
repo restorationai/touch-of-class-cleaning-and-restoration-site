@@ -151,14 +151,30 @@ send-locks, canary) so group support is a model change, phased:
       preferred contact (group = visibility channel, 1:1 = decision
       channel). Per-client opt-in, never fleet default.
 
-## 8. Board counts: KEEP-verdict noise (found 09-24 post-pagination)
+## 8. Board counts: KEEP-verdict noise  [SHIPPED 09-24: backfill done (2336->804 open), generator writes noted, board+edge on branch, KEEP button label fixed]
 The pagination fix made counts COMPLETE and exposed a semantics bug: 1,532
 of 2,336 open suggestion rows fleet-wide are verdict=KEEP — informational
 audit records ("this service is correct"), not actions. They inflate the
 board (RX badge "45" = 40 KEEP + 5 NEEDS-REVIEW; the Profile page correctly
 shows only the 5) and pin every client in "Listing synced".
-- [ ] Board gate + chip count only ACTIONABLE open rows (verdict != KEEP);
+- [x] (09-24) Board gate + chip count only ACTIONABLE open rows (verdict != KEEP);
       relabel chip "N awaiting review" (they are not auto-apply — the
       auto-safe lane already applied its items; RX: 47 applied).
-- [ ] Data hygiene: audit lanes write KEEP rows as status 'noted' (not
+- [x] (09-24) Data hygiene: audit lanes write KEEP rows as status 'noted' (not
       'open'), + one-time backfill closing the 1,532 open KEEPs.
+
+## 9. Profile Health score v2 — "100 means nothing left" (Santino 09-24)
+Coastal case: health 100 while reviews=29, no keyworded name applied, and
+5 actionable items open. The score today measures PROFILE COMPLETENESS
+(hours/photos/description/services-parity/category); it ignores review
+volume, the rename opportunity, and service breadth. Proposal:
+- [ ] Review-volume component: tiered (e.g., <20 none, 20-49 partial,
+      50+ full) — a thin review base caps the score below the >=90 gate;
+      the review campaign is the lever that lifts it.
+- [ ] Rename-opportunity component: no APPLIED keyworded name while the
+      rename lane has candidates (incl. only-dismissed) = deduction. The
+      name is the strongest ranking field (house law 09-10).
+- [ ] Service-breadth component: scored against the vertical catalog +
+      validated long-tail phrases — not a flat "100 services" bar.
+- [ ] Effect: 100 becomes rare and earned; the >=90 optimized gate then
+      means "genuinely nothing left that we know how to improve."
