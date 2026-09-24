@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-06-duct-cleaning",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-06T10:23:57Z",
       "priority": 1,
       "content_type": "target_term",
@@ -13,7 +13,8 @@
       "city_anchor": "chino-hills-ca",
       "source": "app target-term (onboarding-backfill)",
       "written_at": "2026-09-24T15:38:45Z",
-      "post_url": "https://rtolsonplumbing.com/blog/duct-cleaning/"
+      "post_url": "https://rtolsonplumbing.com/blog/duct-cleaning/",
+      "published_verified_at": "2026-09-24T15:41:44Z"
     },
     {
       "id": "2026-09-06-cooling",
