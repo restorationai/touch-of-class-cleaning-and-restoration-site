@@ -384,11 +384,45 @@ def photo_timeout_sweep(dry: bool, only_cid: str | None) -> None:
         if replied:
             continue  # their answer is in play — humans own it
         age_d = (datetime.now(timezone.utc) - asked_at).total_seconds() / 86400
-        if age_d < 2:
-            print(f"  photo-clock {slug}: asked {age_d:.1f}d ago — waiting")
+        # POLICY v2 (Santino 2026-09-24): 3 quiet days -> ONE follow-up
+        # nudge -> 2 more quiet days -> activate without a photo. (v1 was
+        # a single 2-day clock straight to activation; HomeLyft's selfie
+        # arrived on day 2.5, after the campaign had already auto-started.)
+        fu_key = cid + ":fu"
+        fu_at = None
+        if asked.get(fu_key):
+            try:
+                fu_at = datetime.fromisoformat(asked[fu_key])
+            except (ValueError, TypeError):
+                fu_at = None
+        if fu_at is None:
+            if age_d < 3:
+                print(f"  photo-clock {slug}: asked {age_d:.1f}d ago — "
+                      "waiting (follow-up at 3d)")
+                continue
+            print(f"  photo-clock {slug}: {age_d:.1f}d silent — sending the "
+                  "one follow-up nudge")
+            if not dry:
+                try:
+                    body = ("Quick nudge on the team photo for your review "
+                            "messages, any picture of you or the crew "
+                            "works. If we don't hear back in the next "
+                            "couple days we'll start your review campaign "
+                            "without one so it keeps moving.")
+                    cc.send_message(contact, "sms", body, company=comp)
+                    asked[fu_key] = datetime.now(timezone.utc).isoformat()
+                    changed = True
+                except Exception as se:  # noqa: BLE001 — SendBlocked etc.
+                    print(f"    follow-up blocked ({str(se)[:90]}) — clock "
+                          "holds, retried next sweep")
             continue
-        print(f"  photo-timeout {slug}: {age_d:.1f}d silent — "
-              "marking no-photo and activating")
+        fu_age_d = (datetime.now(timezone.utc) - fu_at).total_seconds() / 86400
+        if fu_age_d < 2:
+            print(f"  photo-clock {slug}: follow-up {fu_age_d:.1f}d ago — "
+                  "waiting (activate at 2d)")
+            continue
+        print(f"  photo-timeout {slug}: {age_d:.1f}d silent incl. follow-up "
+              "— marking no-photo and activating")
         if dry:
             continue
         r = subprocess.run(
