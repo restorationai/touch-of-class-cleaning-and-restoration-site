@@ -364,8 +364,23 @@ jobs:
           if git diff --cached --quiet; then
             echo "Nothing to commit."
           else
+            # 2026-09-24 hardening: a dispatch re-run pushed from a DETACHED
+            # checkout ("not currently on a branch"), and a busy human push
+            # day left deploy-stamp conflicts in clients/*.json that the
+            # bare `git pull --rebase` could not resolve. Branch-pin, then
+            # rebase with a stamp-file auto-resolution (keep our replay;
+            # stamps refresh on the next sync either way).
+            git symbolic-ref -q HEAD >/dev/null || git checkout -B main
             git commit -m "chore: weekly maintenance run $(date +%Y-%m-%d) [automated]"
-            git push || (git pull --rebase && git push)
+            if ! git push origin HEAD:main; then
+              git fetch origin main
+              if ! git rebase origin/main; then
+                git checkout --theirs -- clients/ 2>/dev/null || true
+                git add -A
+                GIT_EDITOR=true git rebase --continue || { git rebase --abort; exit 1; }
+              fi
+              git push origin HEAD:main
+            fi
           fi
 
       - name: Alert on failure
