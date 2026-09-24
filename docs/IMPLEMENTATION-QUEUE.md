@@ -178,3 +178,23 @@ volume, the rename opportunity, and service breadth. Proposal:
       validated long-tail phrases — not a flat "100 services" bar.
 - [ ] Effect: 100 becomes rare and earned; the >=90 optimized gate then
       means "genuinely nothing left that we know how to improve."
+
+## 10. Monica reply conflation (Jim Salsbury 09-24)  [SHIPPED same day]
+Monica pitched LSA; Jim replied "How much is it?" 20 seconds later; the
+answer came back about the DBA filing fee (he had already FILED — receipt
+photo on 09-21). Prior nets (reply_to outbox, already-answered) matched
+messages, not TOPICS.
+- [x] (09-24) REPLY BINDING in the composer: newest client message within
+      15 min of our message + short/deictic -> hard-bound to THAT message's
+      topic in the prompt; pronouns resolve against it only.
+- [x] (09-24) scripts/reply_binding_audit.py: post-hoc Haiku judge over
+      (our question -> short reply -> our answer) triples from the outbox;
+      first live run found 2 more conflations (RT Olson, Heritage) — in
+      the 4h watcher loop now.
+- [x] (09-24) Jim corrected (LSA is pay-per-lead, no setup fee).
+- [ ] Review the 2 new conflation hits' threads for needed corrections.
+
+## 11. Housekeeping found 09-24
+- [ ] mold-solutionz (DEAD client) still has a live google integration row
+      and got face-audited at 100 — remove dead clients from audit
+      enumeration + drop the stale integration row.

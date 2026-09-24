@@ -6113,6 +6113,47 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             "open with content.\n" if used_today else
             "Name budget: their first name has not been used in the last "
             "day; you may use it once, or not at all.\n")
+    # REPLY BINDING (Jim Salsbury 2026-09-24): Monica pitched LSA, Jim
+    # replied "How much is it?" twenty seconds later, and the answer came
+    # back about the DBA filing fee from a thread three days older. When
+    # the newest client message lands shortly after OUR message and is
+    # short/deictic, it answers THAT message — bind it deterministically
+    # instead of letting topic-matching roam the whole history.
+    binding_line = ""
+    if history:
+        try:
+            newest_in_i = next((i for i, m in enumerate(history)
+                                if m.get("direction") == "in"), None)
+            if newest_in_i is not None:
+                newest_in = history[newest_in_i]
+                prev_out = next((m for m in history[newest_in_i + 1:]
+                                 if m.get("direction") == "out"
+                                 and (m.get("body") or "").strip()), None)
+                gap_ok = (prev_out and newest_in.get("when")
+                          and prev_out.get("when")
+                          and (newest_in["when"] - prev_out["when"])
+                          <= timedelta(minutes=15))
+                ib = (newest_in.get("body") or "").strip()
+                deictic = bool(ib) and (len(ib) <= 90 or re.match(
+                    r"(?i)\s*(how (much|many|long|soon)|what|when|why|where"
+                    r"|it |that |this |is (it|that)|does (it|that)|do (we|i)"
+                    r"|can (we|i|you)|yes|no|ok|sure)\b", ib))
+                if gap_ok and deictic:
+                    mins = int((newest_in["when"] - prev_out["when"])
+                               .total_seconds() // 60)
+                    binding_line = (
+                        "REPLY BINDING (HARD RULE, outranks everything but "
+                        "safety): the client's newest message "
+                        f"({ib[:140]!r}) arrived {mins} minute(s) after OUR "
+                        "message "
+                        f"{(prev_out.get('body') or '')[:240]!r} "
+                        "and is a direct reply TO THAT MESSAGE. Resolve "
+                        "every pronoun ('it', 'that') and every short "
+                        "question against THAT message's topic ONLY. Never "
+                        "attach it to any other thread, outstanding item, "
+                        "or earlier conversation topic.\n")
+        except Exception:  # noqa: BLE001 — binding is best-effort context
+            pass
     # REVIEW CAMPAIGN STATS (Santino 2026-08-29, the Kenny case: "Kenny asked
     # for the stats of his review campaign and Monica wasn't able to answer").
     # Live numbers ride along on every compose so ANY phrasing of "how's my
@@ -6447,6 +6488,7 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             + ". This is a target to come in UNDER, not a quota to fill. A "
             "one-sentence message is a good message.)\n"
             f"FIRST CONTACT: {'yes' if first_contact else 'no'}\n"
+            + binding_line
             + name_line
             + sister_block
             + (f"Intro line to open with, exactly: \"{intro}\"\n"

@@ -65,6 +65,7 @@ GBP_UPLOAD = "https://mybusiness.googleapis.com/upload/v1/media"
 
 MIN_OWNER_PHOTOS = 10
 MIN_DESC_CHARS = 250
+BREADTH_TARGET = 60   # long-tail service count of a well-built profile (fleet norm)
 MAX_DESC_CHARS = 740  # GBP hard limit is 750; leave headroom
 MIN_PHOTO_PX = 250    # Google's minimum photo dimension
 MIN_PHOTO_BYTES = 10_240
@@ -192,6 +193,21 @@ def profile_snapshot(slug: str, loc: dict, media: dict) -> dict:
                           for a in json.loads(pi_path.read_text()).get("service_areas", [])]
     except Exception:
         pass
+    # Score v2 inputs (2026-09-24): review volume + keyworded-name state.
+    review_count, name_applied = 0, False
+    try:
+        cmap = json.loads((ROOT / "clients" / "company_map.json").read_text())
+        cid = cmap.get(slug)
+        if cid:
+            prow = gbp._sb("marketing_gbp_profiles?company_id=eq." + cid
+                           + "&select=review_count")
+            review_count = int((prow or [{}])[0].get("review_count") or 0)
+            applied = gbp._sb("marketing_gbp_suggestions?company_id=eq." + cid
+                              + "&item_type=eq.name&status=eq.applied"
+                              "&select=item&limit=1")
+            name_applied = bool(applied)
+    except Exception as e:  # noqa: BLE001 — score v2 inputs never kill audit
+        print(f"    (score-v2 inputs warn: {str(e)[:70]})")
     return {
         "slug": slug, "title": g["title"], "vertical": vertical,
         "primary_category": g["primary_category"],
@@ -200,6 +216,7 @@ def profile_snapshot(slug: str, loc: dict, media: dict) -> dict:
         "description_len": g["description_len"], "has_hours": g["has_hours"],
         "service_area_places": sa_places,
         "plan_service_areas": plan_areas,
+        "review_count": review_count, "name_applied": name_applied,
         **media,
     }
 
@@ -208,18 +225,41 @@ def profile_snapshot(slug: str, loc: dict, media: dict) -> dict:
 # score — the conversion lens
 # --------------------------------------------------------------------------- #
 def score_profile(p: dict) -> dict:
+    """Score v2 (Santino 2026-09-24, Coastal case: a 100 at 29 reviews with
+    no keyworded name meant "fields filled", not "nothing left"). v1 was
+    pure profile completeness; v2 folds in the three levers that were
+    invisible: review volume, the rename opportunity, service breadth.
+    100 now means genuinely nothing left that we know how to improve.
+
+    Weights (sum 100): media 30 (photos 15/cover 7/logo 8), description 10,
+    category 15, hours 5, services-parity 10, service-breadth 10,
+    reviews 12, keyworded-name 8."""
     parts: dict[str, float] = {}
-    parts["photos"] = round(min((p["owner_count"] or 0) / MIN_OWNER_PHOTOS, 1.0) * 20, 1)
-    parts["cover"] = 10.0 if p["has_cover"] else 0.0
-    parts["logo"] = 10.0 if p["has_logo"] else 0.0
+    parts["photos"] = round(min((p["owner_count"] or 0) / MIN_OWNER_PHOTOS, 1.0) * 15, 1)
+    parts["cover"] = 7.0 if p["has_cover"] else 0.0
+    parts["logo"] = 8.0 if p["has_logo"] else 0.0
     dl = p["description_len"]
-    parts["description"] = 15.0 if dl >= MIN_DESC_CHARS else (7.0 if dl > 0 else 0.0)
+    parts["description"] = 10.0 if dl >= MIN_DESC_CHARS else (5.0 if dl > 0 else 0.0)
     n_site = max(len(p["site_services"]), 1)
-    parts["services"] = round(min(len(p["gbp_services"]) / n_site, 1.0) * 15, 1)
+    parts["services"] = round(min(len(p["gbp_services"]) / n_site, 1.0) * 10, 1)
+    # Breadth: services rank for their exact wording, so long-tail coverage
+    # is a ranking lever beyond site parity. BREADTH_TARGET is the fleet
+    # norm for a well-built profile, not a Google limit.
+    parts["service_breadth"] = round(
+        min(len(p["gbp_services"]) / BREADTH_TARGET, 1.0) * 10, 1)
     expected = EXPECTED_PRIMARY.get(p["vertical"], set())
     cat_ok = (p["primary_category"] or "").strip().lower() in expected if expected else True
-    parts["category"] = 20.0 if cat_ok else 0.0
-    parts["hours"] = 10.0 if p["has_hours"] else 0.0
+    parts["category"] = 15.0 if cat_ok else 0.0
+    parts["hours"] = 5.0 if p["has_hours"] else 0.0
+    # Review volume: what callers see next to the name. Tiered — the
+    # review campaign is the lever that lifts it.
+    rc = p.get("review_count") or 0
+    parts["reviews"] = 12.0 if rc >= 50 else (6.0 if rc >= 20 else 0.0)
+    # Keyworded name: the strongest single ranking field (house law
+    # 2026-09-10). Full points only when an applied name row exists;
+    # candidates pending or dismissed = the opportunity is still on the
+    # table and the listing is not fully optimized.
+    parts["keyworded_name"] = 8.0 if p.get("name_applied") else 0.0
     return {"total": round(sum(parts.values()), 1), "parts": parts, "category_ok": cat_ok}
 
 
