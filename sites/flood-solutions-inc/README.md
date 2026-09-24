@@ -46,7 +46,7 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `24/7 restoration services in Macomb, MI.` | brand.tagline | short marketing line |
 | `#e63a41` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
 | `Inter` / `Inter` | brand.fonts | `Inter` / `Inter` |
-| `/images/logo.webp` / `FS` | derived; logo lives on the per-client R2 bucket | |
+| `/images/logo.png` / `FS` | derived; logo lives on the per-client R2 bucket | |
 | `https://images.floodsolutionsinc.com` | `https://images.{domain}` | |
 | `- [Water Damage Restoration](https://floodsolutionsinc.com/services/water-damage-restoration/)
 - [Sewage Cleanup and Sanitization](https://floodsolutionsinc.com/services/sewage-cleanup/)

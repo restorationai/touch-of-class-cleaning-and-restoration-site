@@ -233,17 +233,27 @@ def _mirror_nested_brand(brand: dict) -> None:
     # already-dark muted canvas (deep navy, forest) passes untouched.
     _dk = str(brand.get("dark_color") or "").strip()
     if len(_dk) == 7 and _dk.startswith("#"):
-        try:
-            import colorsys as _cs
-            _h, _l, _s = _cs.rgb_to_hls(
-                *(int(_dk[i:i + 2], 16) / 255 for i in (1, 3, 5)))
-            if not (_l <= 0.22 and _s <= 0.50):
-                brand["dark_color"] = _neutral_dark(
-                    brand.get("primary_color") or _dk)
-                print(f"      dark canvas {_dk} violates the neutral-canvas "
-                      f"law — neutralized to {brand['dark_color']}")
-        except Exception:  # noqa: BLE001
-            pass
+        # EXPLICIT ART-DIRECTION OVERRIDE (Santino/FFS 2026-09-24: he asked
+        # for blue canvases on this one client and the law silently undid
+        # it). brand.canvas_law: "off" is a deliberate human decision
+        # recorded in plan-input — the law stays the fleet default, an
+        # explicit opt-out wins, and the print keeps it visible.
+        if str(brand.get("canvas_law") or "").lower() == "off":
+            print(f"      dark canvas {_dk} kept AS-IS "
+                  "(brand.canvas_law=off — explicit art direction)")
+        else:
+            try:
+                import colorsys as _cs
+                _h, _l, _s = _cs.rgb_to_hls(
+                    *(int(_dk[i:i + 2], 16) / 255 for i in (1, 3, 5)))
+                if not (_l <= 0.22 and _s <= 0.50):
+                    brand["dark_color"] = _neutral_dark(
+                        brand.get("primary_color") or _dk)
+                    print(f"      dark canvas {_dk} violates the "
+                          "neutral-canvas law — neutralized to "
+                          f"{brand['dark_color']}")
+            except Exception:  # noqa: BLE001
+                pass
 
 
 def _dba_name_from_app(client: dict) -> str:

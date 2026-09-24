@@ -1,5 +1,6 @@
 ---
 archetype: "about"
+hero: "/images/team.webp"
 title: "About Flood & Fire Solutions | Macomb Restoration Company"
 h1: "About Flood & Fire Solutions"
 meta_description: "Flood & Fire Solutions has served Macomb since 1996. Meet our restoration team. Licensed, insured, locally owned."

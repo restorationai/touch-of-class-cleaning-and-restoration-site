@@ -27,7 +27,9 @@
       ],
       "source": "Sampled 2026-09-21 from the client's real logo upload (branding/CO-1789143868981/brand/logo-1790002561665.jpg): red arrow, cyan-outlined FLOOD & FIRE, blue SOLUTIONS INC bar. Site had been shipping scaffold-default near-black (the ACS null-colors class)."
     },
-    "dark_color": "#0f172a"
+    "dark_color": "#1b4569",
+    "logo_url": "/images/logo.png",
+    "canvas_law": "off"
   },
   "services": [
     "water-damage-restoration",

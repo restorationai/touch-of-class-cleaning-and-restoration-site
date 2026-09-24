@@ -60,12 +60,74 @@ def pull_bucket_logo(cid: str, slug: str) -> str | None:
              and re.match(r"(?i)logo.*\.(png|webp|jpe?g)$", f.get("name") or "")]
     if not cands:
         return None
-    name = sorted(cands)[-1]  # hub prefixes epoch ms -> lexically newest wins
-    rf = requests.get(f"{sb_url}/storage/v1/object/branding/{cid}/brand/{name}",
-                      headers=hdrs, timeout=60)
-    if not rf.ok or not rf.content:
+    # VISION GATE (FFS/Will 2026-09-24): clients upload PHOTOS through the
+    # logo link (Will's five "logo files" included box-truck driveway
+    # shots), the hub names everything logo-{epoch}, and "newest wins" put
+    # a truck in the fleet's header. A file only installs as the logo when
+    # the model, LOOKING at it, says it is a logo/brand graphic. Verdicts
+    # cache per file so re-scaffolds never re-classify. Fail-open on API
+    # errors (a broken vision call must not strip logos fleet-wide).
+    verdicts = {}
+    try:
+        vr = requests.get(f"{sb_url}/rest/v1/ops_kv?k=eq.logo-vision-verdicts"
+                          "&select=v", headers=hdrs, timeout=15)
+        verdicts = (vr.json()[0].get("v") if vr.ok and vr.json() else {}) or {}
+    except Exception:  # noqa: BLE001
+        pass
+    data, name = None, None
+    dirty = False
+    for cand in sorted(cands, reverse=True):     # newest first
+        key = f"{cid}/{cand}"
+        rf = requests.get(
+            f"{sb_url}/storage/v1/object/branding/{cid}/brand/{cand}",
+            headers=hdrs, timeout=60)
+        if not rf.ok or not rf.content:
+            continue
+        if key not in verdicts:
+            try:
+                import base64 as _b64
+                import json as _json
+                mt = ("image/png" if cand.lower().endswith(".png")
+                      else "image/webp" if cand.lower().endswith(".webp")
+                      else "image/jpeg")
+                resp = requests.post(
+                    "https://api.anthropic.com/v1/messages", timeout=60,
+                    headers={"x-api-key": os.environ["ANTHROPIC_API_KEY"],
+                             "anthropic-version": "2023-06-01",
+                             "Content-Type": "application/json"},
+                    json={"model": "claude-haiku-4-5-20251001",
+                          "max_tokens": 60,
+                          "messages": [{"role": "user", "content": [
+                              {"type": "image", "source": {
+                                  "type": "base64", "media_type": mt,
+                                  "data": _b64.b64encode(rf.content).decode()}},
+                              {"type": "text", "text":
+                               "Is this image a company LOGO or brand "
+                               "graphic (wordmark/emblem, possibly on a "
+                               "plain background), as opposed to a "
+                               "PHOTOGRAPH (trucks, buildings, people, job "
+                               "sites)? Reply with exactly one word: "
+                               "LOGO or PHOTO."}]}]})
+                txt = "".join(b.get("text", "")
+                              for b in resp.json().get("content", []))
+                verdicts[key] = "logo" if "LOGO" in txt.upper() else "photo"
+                dirty = True
+            except Exception:  # noqa: BLE001 — fail-open: treat as logo
+                verdicts[key] = "logo"
+        if verdicts.get(key) == "logo":
+            data, name = rf.content, cand
+            break
+        print(f"      logo: skipped {cand} (vision says photo, not a logo)")
+    if dirty:
+        try:
+            requests.post(f"{sb_url}/rest/v1/ops_kv?on_conflict=k",
+                          headers={**hdrs, "Prefer": "resolution=merge-duplicates"},
+                          json={"k": "logo-vision-verdicts", "v": verdicts},
+                          timeout=15)
+        except Exception:  # noqa: BLE001
+            pass
+    if not data:
         return None
-    data = rf.content
     ext = name.lower().rsplit(".", 1)[-1].replace("jpeg", "jpg")
     out_dir = SITES_DIR / slug / "public" / "images"
     out_dir.mkdir(parents=True, exist_ok=True)
