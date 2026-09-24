@@ -187,6 +187,11 @@
       "city": "Forest Hills",
       "state": "PA",
       "slug": "forest-hills-pa"
+    },
+    {
+      "city": "Allison Park",
+      "state": "PA",
+      "slug": "allison-park-pa"
     }
   ],
   "template": "restoration",

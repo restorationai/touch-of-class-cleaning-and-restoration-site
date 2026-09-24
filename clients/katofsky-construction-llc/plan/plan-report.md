@@ -1,20 +1,20 @@
 # Site Plan Report — Katofsky Construction LLC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-23T22:09:55.820200+00:00
+- Generated: 2026-09-24T14:15:19.386538+00:00
 - Domain: `katofskyconstruction.com`
 - Services selected: 12 of 65 catalog entries
-- Service areas: 29
+- Service areas: 30
 - Cross-product enabled: True
-- Total URLs: **390**
-- Total internal links: 3120 (avg 8.0 per page)
+- Total URLs: **403**
+- Total internal links: 3223 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 336 |
-| `service-area` | 28 |
+| `service-area-service` | 348 |
+| `service-area` | 29 |
 | `service-landing` | 12 |
 | `blog-post` | 5 |
 | `legal` | 3 |
@@ -71,6 +71,7 @@
 - `pleasant-hills-pa` — Pleasant Hills, PA
 - `wilkinsburg-pa` — Wilkinsburg, PA
 - `forest-hills-pa` — Forest Hills, PA
+- `allison-park-pa` — Allison Park, PA
 
 ## Top 10 priority pages
 
@@ -81,11 +82,11 @@
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization pittsburgh |
 | `/services/biohazard-cleanup/` | `service-landing` | 7.2 | biohazard cleanup pittsburgh |
 | `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting pittsburgh |
+| `/service-areas/allison-park-pa/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration allison park |
+| `/service-areas/allison-park-pa/roofing/` | `service-area-service` | 7.0 | roofing installation and replacement allison park |
 | `/service-areas/baldwin-pa/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration baldwin |
 | `/service-areas/baldwin-pa/roofing/` | `service-area-service` | 7.0 | roofing installation and replacement baldwin |
 | `/service-areas/bethel-park-pa/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration bethel park |
-| `/service-areas/bethel-park-pa/roofing/` | `service-area-service` | 7.0 | roofing installation and replacement bethel park |
-| `/service-areas/carnegie-pa/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration carnegie |
 
 ## Validation
 

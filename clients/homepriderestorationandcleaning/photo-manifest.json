@@ -4744,6 +4744,32 @@
       "triaged_at": "2026-08-05T06:07:19Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipPQz-TpB1-rqPJCmy3zgWYY2MgmyjizuSGFg_W9": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPQz-TpB1-rqPJCmy3zgWYY2MgmyjizuSGFg_W9.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipPQz-TpB1-rqPJCmy3zgWYY2MgmyjizuSGFg_W9.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 60832,
+      "sha1": "07480b1f7797d73f",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Google five-star review card for Home Pride R&C",
+      "quality": 55,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay",
+        "logo_card"
+      ],
+      "reason": "Designed review graphic with overlaid text and Google logo; no photograph.",
+      "triaged_at": "2026-09-24T14:11:58Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipPS3R_C5yx9wUnci1K0TkBy-UXo951gstBJBsE1": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPS3R_C5yx9wUnci1K0TkBy-UXo951gstBJBsE1.jpg",
@@ -5372,5 +5398,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-19T14:11:08Z"
+  "triaged_at": "2026-09-24T14:11:58Z"
 }
