@@ -266,6 +266,27 @@ def expand_inputs(template: Template, plan_input: dict, client: dict) -> dict:
     if ("repiping" in template.services_by_slug
             and "repiping" not in selected_slugs):
         selected_slugs.append("repiping")
+    # RESTORATION CORE FLOOR (Santino 2026-09-24, the FFS case: intake
+    # captured 4 services and the client shipped with a fifth of the
+    # standard long-tail lattice — "restoration carries more by default,
+    # it's not just the DBA name"). Every restoration plan carries the
+    # catalog's ENTIRE core tier unless a slug is explicitly listed in
+    # plan-input `excluded_services` (the client said they don't do it —
+    # FFS: no rebuild, no plumbing). Specialty-tier services (biohazard,
+    # trauma, abatement) stay opt-IN, never defaulted.
+    excluded = set(plan_input.get("excluded_services") or [])
+    if str(inputs.get("vertical") or client.get("vertical")
+           or "restoration") == "restoration":
+        floor_added = []
+        for s in template.services_by_slug.values():
+            slug_ = s.get("slug")
+            if (s.get("tier") == "core" and slug_ not in selected_slugs
+                    and slug_ not in excluded):
+                selected_slugs.append(slug_)
+                floor_added.append(slug_)
+        if floor_added:
+            print(f"  core-floor: +{len(floor_added)} default restoration "
+                  f"service(s): {', '.join(floor_added)}")
     services = []
     missing = []
     for slug in selected_slugs:

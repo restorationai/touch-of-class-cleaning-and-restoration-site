@@ -86,5 +86,10 @@
     }
   ],
   "template": "restoration",
-  "blog_seed_count": 8
+  "blog_seed_count": 8,
+  "excluded_services": [
+    "reconstruction",
+    "general-contracting",
+    "emergency-plumbing"
+  ]
 }

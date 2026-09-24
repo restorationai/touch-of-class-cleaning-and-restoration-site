@@ -25,6 +25,12 @@ VAN-OVERRIDE: a fleet of exactly three matching WHITE box trucks (Chevrolet/GMC-
    bar if legible lettering cannot be held — never ship garbled text on a wrap.
    The only readable mark is the logo itself: no phone numbers, URLs, or other
    readable text anywhere.
+
+---
+
+This guide is consulted by every image-generation call (Skill 3 launch images, Skill 4 blog hero images, future image regenerations). The goal: a viewer scrolling through the site should feel like one professional photographer documented one company on one continuous job. No stylistic drift from page to page.
+
+The values below are auto-populated from `plan-input.json` at planning time. Per-client brand colors come from the client's logo / brand identity — NOT from the canonical starter palette. The structural conventions (camera, lens, lighting, composition) are restoration-vertical canonical and shared across all Rank AI clients.
 ---
 
 ## STANDING BRAND RULES (2026-07-11) — apply to EVERY image, every client
@@ -207,7 +213,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Emergency Water Cleanup, Fire Damage Restoration, Sewage Cleanup and Sanitization)
+- [ ] (continue for each of Water Damage Restoration, Sewage Cleanup and Sanitization, Emergency Water Cleanup, Fire Damage Restoration, Flood Damage Restoration, Burst Pipe Cleanup and Repair, Basement Flooding Cleanup, Smoke Damage Restoration, Mold Remediation, Mold Inspection and Testing, Storm Damage Restoration, Commercial Restoration, Industrial Restoration, Large Loss and Catastrophic Response, Ceiling Water Damage Repair, Water Heater Flood Cleanup, Water Leak Detection, 24/7 Emergency Water Removal)
 
 ### Service area pages (one image per city served)
 - [ ] Macomb hero — exterior shot, regional housing stock, evocative of the city

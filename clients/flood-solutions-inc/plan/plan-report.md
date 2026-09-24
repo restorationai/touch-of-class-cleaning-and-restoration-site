@@ -1,22 +1,22 @@
 # Site Plan Report — Flood Solutions inc
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-21T16:55:06.543909+00:00
+- Generated: 2026-09-24T23:50:22.807522+00:00
 - Domain: `floodsolutionsinc.com`
-- Services selected: 4 of 65 catalog entries
+- Services selected: 18 of 65 catalog entries
 - Service areas: 9
 - Cross-product enabled: True
-- Total URLs: **61**
-- Total internal links: 428 (avg 7.0 per page)
+- Total URLs: **187**
+- Total internal links: 1499 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 32 |
+| `service-area-service` | 144 |
+| `service-landing` | 18 |
 | `service-area` | 8 |
 | `blog-post` | 8 |
-| `service-landing` | 4 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -28,9 +28,23 @@
 ## Selected services
 
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
+- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
-- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
+- `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
+- `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
+- `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
+- `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
+- `mold-remediation` — Mold Remediation (core, priority 10)
+- `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
+- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
+- `commercial-restoration` — Commercial Restoration (core, priority 9)
+- `industrial-restoration` — Industrial Restoration (core, priority 7)
+- `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
+- `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
+- `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
+- `water-leak-detection` — Water Leak Detection (core, priority 7)
+- `emergency-water-removal` — 24/7 Emergency Water Removal (core, priority 9)
 
 ## Service areas
 
@@ -49,15 +63,15 @@
 | URL | Archetype | Priority | Primary keyword |
 | --- | --- | --- | --- |
 | `/services/fire-damage-restoration/` | `service-landing` | 9.0 | fire damage restoration macomb |
+| `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation macomb |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration macomb |
+| `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration macomb |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | 24/7 emergency water removal macomb |
+| `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration macomb |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization macomb |
+| `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration macomb |
+| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration macomb |
 | `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup macomb |
-| `/service-areas/chesterfield-mi/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration chesterfield |
-| `/service-areas/chesterfield-mi/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration chesterfield |
-| `/service-areas/clinton-township-mi/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration clinton township |
-| `/service-areas/clinton-township-mi/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration clinton township |
-| `/service-areas/rochester-hills-mi/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration rochester hills |
-| `/service-areas/rochester-hills-mi/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration rochester hills |
 
 ## Validation
 
