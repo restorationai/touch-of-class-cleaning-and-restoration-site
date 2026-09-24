@@ -214,3 +214,25 @@ flow 400s "invalid or corrupt" for COVER on some accounts.
 - [ ] Candidate filter: exclude media items with MISSING dimensions from
       cover candidates (they may be square/portrait), or trust the new
       crop directive and drop the landscape filter entirely.
+
+## 13. Parity engine: site service images -> GBP photos (proposed 09-24)
+Santino uploads site service images to client GBPs by hand today. Build it
+into gbp-maintenance as a parity extension (page <-> service <-> photo):
+- [ ] 30-day soak per image (git age of the asset + site out of active
+      revision rounds) — Santino's "wait a month" gate, automated.
+- [ ] Drip 3-4/client/month (freshness signal; never a bulk dump), only
+      for services that exist on the GBP, category ADDITIONAL.
+- [ ] Real-photos-first: skip the drip when the client's gbpphotos intake
+      is producing real uploads; generated fills gaps, never displaces.
+- [ ] sha1 provenance state (face-audit pattern) so nothing re-uploads;
+      every upload logged to marketing_gbp_changes; per-client opt-out.
+- [ ] Policy note: Google prefers photos representing the real business;
+      drip + brand-matched realism keeps the profile consistent with the
+      manual practice already in place.
+
+## 14. Email intake: staff/team photo routing (Jaziel/RX 09-24)
+Jaziel emailed 8 staff photos; intake ingested + ack'd + noted them but
+filed ALL into branding/{cid}/docs/ where no team-photo consumer looks.
+- [x] (09-24) The 8 copied to branding/CO-1784745317157/team/.
+- [ ] Classifier routes people/headshot images from email intake to
+      team/ (same vision classes as texted media: team vs job vs doc).
