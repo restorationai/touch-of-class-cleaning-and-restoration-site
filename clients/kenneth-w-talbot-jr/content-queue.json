@@ -214,6 +214,210 @@
           "reason": "claims 11 reviews but no synced gbpReviewCount exists for this site"
         }
       ]
+    },
+    {
+      "id": "2026-09-24-water-damage-mold",
+      "status": "written",
+      "queued_at": "2026-09-24T16:55:00Z",
+      "written_at": "2026-09-24T16:55:51Z",
+      "post_url": "https://veteransremediation.com/blog/water-damage-mold/",
+      "primary_keyword": "water damage mold",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": 10,
+      "fan_out_cluster": [
+        "mold after water damage",
+        "how long for mold to grow after water damage",
+        "how long does it take to dry out water damage",
+        "signs of mold after a leak",
+        "can you stop mold after water damage",
+        "water damage mold remediation"
+      ],
+      "suggested_slug": "water-damage-mold",
+      "suggested_title": "Water Damage Mold in Santa Rosa Beach: How Fast It Grows and How to Stop It",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/service-areas/santa-rosa-beach-fl/mold-remediation/",
+        "/blog/signs-of-hidden-mold/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "santa-rosa-beach-fl",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+        "https://www.iicrc.org/page/IICRCS520"
+      ],
+      "notes": "Owner's top wizard goal is mold remediation. Lead with the 24-48 hour growth window and how Gulf Coast humidity shortens it. Bridge water damage to mold remediation service.",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-damage-mold.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "n can often be prevented entirely. The [IICRC S500 Standard for Professional Water Da",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-mold.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "rk. This is standard protocol under the IICRC S520 Standard for Professional Mold Rem",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-24-water-damage-restoration-cost",
+      "status": "queued",
+      "queued_at": "2026-09-24T16:55:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water damage restoration cost",
+      "intent": "commercial",
+      "volume": 720,
+      "kd": 0,
+      "fan_out_cluster": [
+        "water damage restoration cost per square foot",
+        "how much does water damage restoration cost",
+        "what is the average cost of water damage restoration",
+        "what drives water damage restoration pricing",
+        "does insurance pay for water damage restoration"
+      ],
+      "suggested_slug": "water-damage-restoration-cost",
+      "suggested_title": "Water Damage Restoration Cost in Freeport, FL: What Homeowners Actually Pay",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/water-cleanup/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/mold-remediation-cost-fl/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "city_anchor": "freeport-fl",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://floir.com/"
+      ],
+      "notes": "Commercial-intent cost guide, CPC $43+. No commercial URL targets cost. Explain pricing drivers (water category, class of drying, square footage, days of equipment) rather than inventing specific dollar figures; mirror the structure of the mold-remediation-cost-fl post."
+    },
+    {
+      "id": "2026-09-24-how-to-fix-water-damage-on-ceiling",
+      "status": "queued",
+      "queued_at": "2026-09-24T16:55:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to fix water damage on ceiling",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": 0,
+      "fan_out_cluster": [
+        "what does water damage look like on a ceiling",
+        "what to do when your ceiling is leaking",
+        "water damage ceiling repair",
+        "when a stained ceiling needs to be opened up",
+        "ceiling water damage and mold risk"
+      ],
+      "suggested_slug": "how-to-fix-water-damage-on-ceiling",
+      "suggested_title": "How to Fix Water Damage on Ceiling Drywall in Destin (and When to Call a Pro)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/service-areas/destin-fl/water-damage-restoration/",
+        "/services/storm-damage-restoration/",
+        "/blog/what-to-do-first-24-hours-water-damage/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "storm-damage-restoration"
+      ],
+      "city_anchor": "destin-fl",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
+      ],
+      "notes": "Tie ceiling leaks to Destin condo units below and storm-driven roof leaks. Clear line between cosmetic patching and cases needing moisture mapping and drying."
+    },
+    {
+      "id": "2026-09-24-signs-of-water-damage-in-walls",
+      "status": "queued",
+      "queued_at": "2026-09-24T16:55:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "signs of water damage in walls",
+      "intent": "informational",
+      "volume": 110,
+      "kd": 8,
+      "fan_out_cluster": [
+        "water damage baseboards",
+        "how to tell if water damage is old or new",
+        "bubbling paint and soft drywall",
+        "musty smell behind walls",
+        "how pros find hidden moisture with meters"
+      ],
+      "suggested_slug": "signs-of-water-damage-in-walls",
+      "suggested_title": "Signs of Water Damage in Walls: A Fort Walton Beach Homeowner's Checklist",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/service-areas/fort-walton-beach-fl/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/blog/signs-of-hidden-mold/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": "fort-walton-beach-fl",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Question-format GEO piece. Baseboards (1,300/mo) is folded in as an H2. Include an old-vs-new water stain section."
+    },
+    {
+      "id": "2026-09-24-hardwood-floor-water-damage",
+      "status": "queued",
+      "queued_at": "2026-09-24T16:55:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "hardwood floor water damage",
+      "intent": "informational",
+      "volume": 1600,
+      "kd": 0,
+      "fan_out_cluster": [
+        "can hardwood floors be saved after water damage",
+        "cupping vs crowning in wet hardwood",
+        "how long hardwood takes to dry",
+        "when to replace vs dry water damaged hardwood",
+        "water under hardwood floors and mold"
+      ],
+      "suggested_slug": "hardwood-floor-water-damage",
+      "suggested_title": "Hardwood Floor Water Damage in Niceville: Can Your Floors Be Saved?",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/service-areas/niceville-fl/water-damage-restoration/",
+        "/services/water-cleanup/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "city_anchor": "niceville-fl",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.nwfa.org/"
+      ],
+      "notes": "Volume 1,600/mo, KD 0. Explain specialized floor-drying mats and moisture readings; honest about when boards must be replaced."
     }
   ]
 }
