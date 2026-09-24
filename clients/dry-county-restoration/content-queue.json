@@ -74,7 +74,7 @@
     },
     {
       "id": "2026-09-06-water-damage",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-06T10:23:57Z",
       "priority": 1,
       "content_type": "target_term",
@@ -83,7 +83,9 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": "chino-ca",
-      "source": "app target-term (onboarding-backfill)"
+      "source": "app target-term (onboarding-backfill)",
+      "written_at": "2026-09-24T10:27:11Z",
+      "post_url": "https://drycountyrestoration.com/blog/water-damage/"
     },
     {
       "id": "2026-09-06-leak-detection",
