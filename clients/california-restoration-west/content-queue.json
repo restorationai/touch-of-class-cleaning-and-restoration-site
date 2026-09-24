@@ -33,7 +33,7 @@
     },
     {
       "id": "2026-09-06-contents-restoration-storage",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-06T10:23:57Z",
       "priority": 1,
       "content_type": "target_term",
@@ -44,7 +44,8 @@
       "city_anchor": "ojai-ca",
       "source": "app target-term (onboarding-backfill)",
       "written_at": "2026-09-24T15:30:44Z",
-      "post_url": "https://californiarestorationwest.com/blog/contents-restoration-storage/"
+      "post_url": "https://californiarestorationwest.com/blog/contents-restoration-storage/",
+      "published_verified_at": "2026-09-24T15:34:42Z"
     },
     {
       "id": "2026-09-06-odor-control-deodorization",
