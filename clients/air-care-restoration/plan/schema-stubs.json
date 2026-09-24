@@ -188,6 +188,16 @@
     ],
     "missing_stubs": []
   },
+  "/services/vandalism-cleanup/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/services/water-cleanup/": {
     "archetype": "service-landing",
     "stubs": [
@@ -581,6 +591,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/sweetwater-tx/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/sweetwater-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -722,6 +742,16 @@
     "missing_stubs": []
   },
   "/service-areas/clyde-tx/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/clyde-tx/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -881,6 +911,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/merkel-tx/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/merkel-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1022,6 +1062,16 @@
     "missing_stubs": []
   },
   "/service-areas/anson-tx/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/anson-tx/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1181,6 +1231,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/tuscola-tx/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/tuscola-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1322,6 +1382,16 @@
     "missing_stubs": []
   },
   "/service-areas/tye-tx/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/tye-tx/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1481,6 +1551,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/buffalo-gap-tx/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/buffalo-gap-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1622,6 +1702,16 @@
     "missing_stubs": []
   },
   "/service-areas/brownwood-tx/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/brownwood-tx/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1781,6 +1871,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/early-tx/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/early-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1922,6 +2022,16 @@
     "missing_stubs": []
   },
   "/service-areas/roby-tx/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/roby-tx/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2081,6 +2191,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/rotan-tx/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/rotan-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2222,6 +2342,16 @@
     "missing_stubs": []
   },
   "/service-areas/robert-lee-tx/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/robert-lee-tx/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2381,6 +2511,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/bronte-tx/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/bronte-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2522,6 +2662,16 @@
     "missing_stubs": []
   },
   "/service-areas/eden-tx/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/eden-tx/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2681,6 +2831,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/paint-rock-tx/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/paint-rock-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2822,6 +2982,16 @@
     "missing_stubs": []
   },
   "/service-areas/san-angelo-tx/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-angelo-tx/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2981,6 +3151,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/snyder-tx/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/snyder-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3122,6 +3302,16 @@
     "missing_stubs": []
   },
   "/service-areas/coleman-tx/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/coleman-tx/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3281,6 +3471,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/ballinger-tx/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/ballinger-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3422,6 +3622,16 @@
     "missing_stubs": []
   },
   "/service-areas/haskell-tx/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/haskell-tx/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3581,6 +3791,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/albany-tx/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/albany-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3722,6 +3942,16 @@
     "missing_stubs": []
   },
   "/service-areas/eastland-tx/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/eastland-tx/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3881,6 +4111,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/colorado-city-tx/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/colorado-city-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4022,6 +4262,16 @@
     "missing_stubs": []
   },
   "/service-areas/comanche-tx/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/comanche-tx/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4181,6 +4431,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/potosi-tx/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/potosi-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4331,6 +4591,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/hawley-tx/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/hawley-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4472,6 +4742,16 @@
     "missing_stubs": []
   },
   "/service-areas/baird-tx/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/baird-tx/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

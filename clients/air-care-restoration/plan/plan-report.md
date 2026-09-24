@@ -1,21 +1,21 @@
 # Site Plan Report — Air Care Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-23T14:11:22.855926+00:00
+- Generated: 2026-09-24T23:21:20.590463+00:00
 - Domain: `aircarerestoration.com`
-- Services selected: 15 of 65 catalog entries
+- Services selected: 16 of 65 catalog entries
 - Service areas: 28
 - Cross-product enabled: True
-- Total URLs: **464**
-- Total internal links: 3740 (avg 8.1 per page)
+- Total URLs: **492**
+- Total internal links: 3972 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 405 |
+| `service-area-service` | 432 |
 | `service-area` | 27 |
-| `service-landing` | 15 |
+| `service-landing` | 16 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -40,6 +40,7 @@
 - `post-construction-cleaning` — Post-Construction and Specialty Cleaning (supporting, priority 4)
 - `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
+- `vandalism-cleanup` — Vandalism Cleanup (specialty, priority 5)
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 

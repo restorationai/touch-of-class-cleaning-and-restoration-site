@@ -238,7 +238,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Air Duct Cleaning, Asbestos Abatement, Biohazard Cleanup, Contents Restoration and Storage, Contents Restoration & Storage, Emergency Board-Up and Tarping, Fire Damage Restoration, Renovations, Remodels and General Contracting, Mold Remediation, Odor Removal and Deodorization, Post-Construction and Specialty Cleaning, Sewage Cleanup and Sanitization, Storm Damage Restoration, Emergency Water Cleanup, Water Damage Restoration)
+- [ ] (continue for each of Air Duct Cleaning, Asbestos Abatement, Biohazard Cleanup, Contents Restoration and Storage, Contents Restoration & Storage, Emergency Board-Up and Tarping, Fire Damage Restoration, Renovations, Remodels and General Contracting, Mold Remediation, Odor Removal and Deodorization, Post-Construction and Specialty Cleaning, Sewage Cleanup and Sanitization, Storm Damage Restoration, Vandalism Cleanup, Emergency Water Cleanup, Water Damage Restoration)
 
 ### Service area pages (one image per city served)
 - [ ] Abilene hero — exterior shot, regional housing stock, evocative of the city

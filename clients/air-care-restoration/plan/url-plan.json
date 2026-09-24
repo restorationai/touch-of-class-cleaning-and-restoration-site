@@ -1,9 +1,9 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-23T14:11:22.828810+00:00",
+  "generated_at": "2026-09-24T23:21:20.562282+00:00",
   "input_summary": {
-    "service_count": 15,
+    "service_count": 16,
     "service_area_count": 28,
     "cross_product": true,
     "blog_seed_count": 8
@@ -58,6 +58,7 @@
         "/services/air-duct-cleaning/",
         "/services/contents-restoration-storage/",
         "/services/contents-restoration/",
+        "/services/vandalism-cleanup/",
         "/services/post-construction-cleaning/",
         "/service-areas/albany-tx/",
         "/service-areas/anson-tx/",
@@ -132,6 +133,7 @@
         "/services/air-duct-cleaning/",
         "/services/contents-restoration-storage/",
         "/services/contents-restoration/",
+        "/services/vandalism-cleanup/",
         "/services/post-construction-cleaning/"
       ]
     },
@@ -948,6 +950,56 @@
       ]
     },
     {
+      "url_path": "/services/vandalism-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Abilene | Air Care Restoration",
+      "h1": "Vandalism Cleanup in Abilene",
+      "meta_description": "24/7 vandalism cleanup in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "vandalism cleanup abilene",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/albany-tx/vandalism-cleanup/",
+        "/service-areas/anson-tx/vandalism-cleanup/",
+        "/service-areas/baird-tx/vandalism-cleanup/",
+        "/service-areas/ballinger-tx/vandalism-cleanup/",
+        "/service-areas/bronte-tx/vandalism-cleanup/",
+        "/service-areas/brownwood-tx/vandalism-cleanup/",
+        "/service-areas/buffalo-gap-tx/vandalism-cleanup/",
+        "/service-areas/clyde-tx/vandalism-cleanup/",
+        "/service-areas/coleman-tx/vandalism-cleanup/",
+        "/service-areas/colorado-city-tx/vandalism-cleanup/",
+        "/service-areas/comanche-tx/vandalism-cleanup/",
+        "/service-areas/early-tx/vandalism-cleanup/"
+      ]
+    },
+    {
       "url_path": "/services/water-cleanup/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -1099,6 +1151,7 @@
         "/service-areas/sweetwater-tx/air-duct-cleaning/",
         "/service-areas/sweetwater-tx/contents-restoration-storage/",
         "/service-areas/sweetwater-tx/contents-restoration/",
+        "/service-areas/sweetwater-tx/vandalism-cleanup/",
         "/service-areas/sweetwater-tx/post-construction-cleaning/",
         "/service-areas/albany-tx/",
         "/service-areas/anson-tx/",
@@ -1151,6 +1204,7 @@
         "/service-areas/clyde-tx/air-duct-cleaning/",
         "/service-areas/clyde-tx/contents-restoration-storage/",
         "/service-areas/clyde-tx/contents-restoration/",
+        "/service-areas/clyde-tx/vandalism-cleanup/",
         "/service-areas/clyde-tx/post-construction-cleaning/",
         "/service-areas/albany-tx/",
         "/service-areas/anson-tx/",
@@ -1203,6 +1257,7 @@
         "/service-areas/merkel-tx/air-duct-cleaning/",
         "/service-areas/merkel-tx/contents-restoration-storage/",
         "/service-areas/merkel-tx/contents-restoration/",
+        "/service-areas/merkel-tx/vandalism-cleanup/",
         "/service-areas/merkel-tx/post-construction-cleaning/",
         "/service-areas/albany-tx/",
         "/service-areas/anson-tx/",
@@ -1255,6 +1310,7 @@
         "/service-areas/anson-tx/air-duct-cleaning/",
         "/service-areas/anson-tx/contents-restoration-storage/",
         "/service-areas/anson-tx/contents-restoration/",
+        "/service-areas/anson-tx/vandalism-cleanup/",
         "/service-areas/anson-tx/post-construction-cleaning/",
         "/service-areas/albany-tx/",
         "/service-areas/baird-tx/",
@@ -1307,6 +1363,7 @@
         "/service-areas/tuscola-tx/air-duct-cleaning/",
         "/service-areas/tuscola-tx/contents-restoration-storage/",
         "/service-areas/tuscola-tx/contents-restoration/",
+        "/service-areas/tuscola-tx/vandalism-cleanup/",
         "/service-areas/tuscola-tx/post-construction-cleaning/",
         "/service-areas/albany-tx/",
         "/service-areas/anson-tx/",
@@ -1359,6 +1416,7 @@
         "/service-areas/tye-tx/air-duct-cleaning/",
         "/service-areas/tye-tx/contents-restoration-storage/",
         "/service-areas/tye-tx/contents-restoration/",
+        "/service-areas/tye-tx/vandalism-cleanup/",
         "/service-areas/tye-tx/post-construction-cleaning/",
         "/service-areas/albany-tx/",
         "/service-areas/anson-tx/",
@@ -1411,6 +1469,7 @@
         "/service-areas/buffalo-gap-tx/air-duct-cleaning/",
         "/service-areas/buffalo-gap-tx/contents-restoration-storage/",
         "/service-areas/buffalo-gap-tx/contents-restoration/",
+        "/service-areas/buffalo-gap-tx/vandalism-cleanup/",
         "/service-areas/buffalo-gap-tx/post-construction-cleaning/",
         "/service-areas/albany-tx/",
         "/service-areas/anson-tx/",
@@ -1463,6 +1522,7 @@
         "/service-areas/brownwood-tx/air-duct-cleaning/",
         "/service-areas/brownwood-tx/contents-restoration-storage/",
         "/service-areas/brownwood-tx/contents-restoration/",
+        "/service-areas/brownwood-tx/vandalism-cleanup/",
         "/service-areas/brownwood-tx/post-construction-cleaning/",
         "/service-areas/albany-tx/",
         "/service-areas/anson-tx/",
@@ -1515,6 +1575,7 @@
         "/service-areas/early-tx/air-duct-cleaning/",
         "/service-areas/early-tx/contents-restoration-storage/",
         "/service-areas/early-tx/contents-restoration/",
+        "/service-areas/early-tx/vandalism-cleanup/",
         "/service-areas/early-tx/post-construction-cleaning/",
         "/service-areas/albany-tx/",
         "/service-areas/anson-tx/",
@@ -1567,6 +1628,7 @@
         "/service-areas/roby-tx/air-duct-cleaning/",
         "/service-areas/roby-tx/contents-restoration-storage/",
         "/service-areas/roby-tx/contents-restoration/",
+        "/service-areas/roby-tx/vandalism-cleanup/",
         "/service-areas/roby-tx/post-construction-cleaning/",
         "/service-areas/albany-tx/",
         "/service-areas/anson-tx/",
@@ -1619,6 +1681,7 @@
         "/service-areas/rotan-tx/air-duct-cleaning/",
         "/service-areas/rotan-tx/contents-restoration-storage/",
         "/service-areas/rotan-tx/contents-restoration/",
+        "/service-areas/rotan-tx/vandalism-cleanup/",
         "/service-areas/rotan-tx/post-construction-cleaning/",
         "/service-areas/albany-tx/",
         "/service-areas/anson-tx/",
@@ -1671,6 +1734,7 @@
         "/service-areas/robert-lee-tx/air-duct-cleaning/",
         "/service-areas/robert-lee-tx/contents-restoration-storage/",
         "/service-areas/robert-lee-tx/contents-restoration/",
+        "/service-areas/robert-lee-tx/vandalism-cleanup/",
         "/service-areas/robert-lee-tx/post-construction-cleaning/",
         "/service-areas/albany-tx/",
         "/service-areas/anson-tx/",
@@ -1723,6 +1787,7 @@
         "/service-areas/bronte-tx/air-duct-cleaning/",
         "/service-areas/bronte-tx/contents-restoration-storage/",
         "/service-areas/bronte-tx/contents-restoration/",
+        "/service-areas/bronte-tx/vandalism-cleanup/",
         "/service-areas/bronte-tx/post-construction-cleaning/",
         "/service-areas/albany-tx/",
         "/service-areas/anson-tx/",
@@ -1775,6 +1840,7 @@
         "/service-areas/eden-tx/air-duct-cleaning/",
         "/service-areas/eden-tx/contents-restoration-storage/",
         "/service-areas/eden-tx/contents-restoration/",
+        "/service-areas/eden-tx/vandalism-cleanup/",
         "/service-areas/eden-tx/post-construction-cleaning/",
         "/service-areas/albany-tx/",
         "/service-areas/anson-tx/",
@@ -1827,6 +1893,7 @@
         "/service-areas/paint-rock-tx/air-duct-cleaning/",
         "/service-areas/paint-rock-tx/contents-restoration-storage/",
         "/service-areas/paint-rock-tx/contents-restoration/",
+        "/service-areas/paint-rock-tx/vandalism-cleanup/",
         "/service-areas/paint-rock-tx/post-construction-cleaning/",
         "/service-areas/albany-tx/",
         "/service-areas/anson-tx/",
@@ -1879,6 +1946,7 @@
         "/service-areas/san-angelo-tx/air-duct-cleaning/",
         "/service-areas/san-angelo-tx/contents-restoration-storage/",
         "/service-areas/san-angelo-tx/contents-restoration/",
+        "/service-areas/san-angelo-tx/vandalism-cleanup/",
         "/service-areas/san-angelo-tx/post-construction-cleaning/",
         "/service-areas/albany-tx/",
         "/service-areas/anson-tx/",
@@ -1931,6 +1999,7 @@
         "/service-areas/snyder-tx/air-duct-cleaning/",
         "/service-areas/snyder-tx/contents-restoration-storage/",
         "/service-areas/snyder-tx/contents-restoration/",
+        "/service-areas/snyder-tx/vandalism-cleanup/",
         "/service-areas/snyder-tx/post-construction-cleaning/",
         "/service-areas/albany-tx/",
         "/service-areas/anson-tx/",
@@ -1983,6 +2052,7 @@
         "/service-areas/coleman-tx/air-duct-cleaning/",
         "/service-areas/coleman-tx/contents-restoration-storage/",
         "/service-areas/coleman-tx/contents-restoration/",
+        "/service-areas/coleman-tx/vandalism-cleanup/",
         "/service-areas/coleman-tx/post-construction-cleaning/",
         "/service-areas/albany-tx/",
         "/service-areas/anson-tx/",
@@ -2035,6 +2105,7 @@
         "/service-areas/ballinger-tx/air-duct-cleaning/",
         "/service-areas/ballinger-tx/contents-restoration-storage/",
         "/service-areas/ballinger-tx/contents-restoration/",
+        "/service-areas/ballinger-tx/vandalism-cleanup/",
         "/service-areas/ballinger-tx/post-construction-cleaning/",
         "/service-areas/albany-tx/",
         "/service-areas/anson-tx/",
@@ -2087,6 +2158,7 @@
         "/service-areas/haskell-tx/air-duct-cleaning/",
         "/service-areas/haskell-tx/contents-restoration-storage/",
         "/service-areas/haskell-tx/contents-restoration/",
+        "/service-areas/haskell-tx/vandalism-cleanup/",
         "/service-areas/haskell-tx/post-construction-cleaning/",
         "/service-areas/albany-tx/",
         "/service-areas/anson-tx/",
@@ -2139,6 +2211,7 @@
         "/service-areas/albany-tx/air-duct-cleaning/",
         "/service-areas/albany-tx/contents-restoration-storage/",
         "/service-areas/albany-tx/contents-restoration/",
+        "/service-areas/albany-tx/vandalism-cleanup/",
         "/service-areas/albany-tx/post-construction-cleaning/",
         "/service-areas/anson-tx/",
         "/service-areas/baird-tx/",
@@ -2191,6 +2264,7 @@
         "/service-areas/eastland-tx/air-duct-cleaning/",
         "/service-areas/eastland-tx/contents-restoration-storage/",
         "/service-areas/eastland-tx/contents-restoration/",
+        "/service-areas/eastland-tx/vandalism-cleanup/",
         "/service-areas/eastland-tx/post-construction-cleaning/",
         "/service-areas/albany-tx/",
         "/service-areas/anson-tx/",
@@ -2243,6 +2317,7 @@
         "/service-areas/colorado-city-tx/air-duct-cleaning/",
         "/service-areas/colorado-city-tx/contents-restoration-storage/",
         "/service-areas/colorado-city-tx/contents-restoration/",
+        "/service-areas/colorado-city-tx/vandalism-cleanup/",
         "/service-areas/colorado-city-tx/post-construction-cleaning/",
         "/service-areas/albany-tx/",
         "/service-areas/anson-tx/",
@@ -2295,6 +2370,7 @@
         "/service-areas/comanche-tx/air-duct-cleaning/",
         "/service-areas/comanche-tx/contents-restoration-storage/",
         "/service-areas/comanche-tx/contents-restoration/",
+        "/service-areas/comanche-tx/vandalism-cleanup/",
         "/service-areas/comanche-tx/post-construction-cleaning/",
         "/service-areas/albany-tx/",
         "/service-areas/anson-tx/",
@@ -2347,6 +2423,7 @@
         "/service-areas/potosi-tx/air-duct-cleaning/",
         "/service-areas/potosi-tx/contents-restoration-storage/",
         "/service-areas/potosi-tx/contents-restoration/",
+        "/service-areas/potosi-tx/vandalism-cleanup/",
         "/service-areas/potosi-tx/post-construction-cleaning/",
         "/service-areas/albany-tx/",
         "/service-areas/anson-tx/",
@@ -2399,6 +2476,7 @@
         "/service-areas/hawley-tx/air-duct-cleaning/",
         "/service-areas/hawley-tx/contents-restoration-storage/",
         "/service-areas/hawley-tx/contents-restoration/",
+        "/service-areas/hawley-tx/vandalism-cleanup/",
         "/service-areas/hawley-tx/post-construction-cleaning/",
         "/service-areas/albany-tx/",
         "/service-areas/anson-tx/",
@@ -2451,6 +2529,7 @@
         "/service-areas/baird-tx/air-duct-cleaning/",
         "/service-areas/baird-tx/contents-restoration-storage/",
         "/service-areas/baird-tx/contents-restoration/",
+        "/service-areas/baird-tx/vandalism-cleanup/",
         "/service-areas/baird-tx/post-construction-cleaning/",
         "/service-areas/albany-tx/",
         "/service-areas/anson-tx/",
@@ -3020,6 +3099,50 @@
         "/service-areas/sweetwater-tx/mold-remediation/",
         "/service-areas/albany-tx/storm-damage-restoration/",
         "/service-areas/anson-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sweetwater-tx/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Sweetwater, TX | Air Care Restoration",
+      "h1": "Vandalism Cleanup in Sweetwater",
+      "meta_description": "24/7 vandalism cleanup in Sweetwater, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "vandalism cleanup sweetwater",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/sweetwater-tx/",
+        "/service-areas/sweetwater-tx/fire-damage-restoration/",
+        "/service-areas/sweetwater-tx/mold-remediation/",
+        "/service-areas/albany-tx/vandalism-cleanup/",
+        "/service-areas/anson-tx/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -3679,6 +3802,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/clyde-tx/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Clyde, TX | Air Care Restoration",
+      "h1": "Vandalism Cleanup in Clyde",
+      "meta_description": "24/7 vandalism cleanup in Clyde, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "vandalism cleanup clyde",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/clyde-tx/",
+        "/service-areas/clyde-tx/fire-damage-restoration/",
+        "/service-areas/clyde-tx/mold-remediation/",
+        "/service-areas/albany-tx/vandalism-cleanup/",
+        "/service-areas/anson-tx/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/clyde-tx/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4330,6 +4497,50 @@
         "/service-areas/merkel-tx/mold-remediation/",
         "/service-areas/albany-tx/storm-damage-restoration/",
         "/service-areas/anson-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/merkel-tx/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Merkel, TX | Air Care Restoration",
+      "h1": "Vandalism Cleanup in Merkel",
+      "meta_description": "24/7 vandalism cleanup in Merkel, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "vandalism cleanup merkel",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/merkel-tx/",
+        "/service-areas/merkel-tx/fire-damage-restoration/",
+        "/service-areas/merkel-tx/mold-remediation/",
+        "/service-areas/albany-tx/vandalism-cleanup/",
+        "/service-areas/anson-tx/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -4989,6 +5200,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/anson-tx/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Anson, TX | Air Care Restoration",
+      "h1": "Vandalism Cleanup in Anson",
+      "meta_description": "24/7 vandalism cleanup in Anson, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "vandalism cleanup anson",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/anson-tx/",
+        "/service-areas/anson-tx/fire-damage-restoration/",
+        "/service-areas/anson-tx/mold-remediation/",
+        "/service-areas/albany-tx/vandalism-cleanup/",
+        "/service-areas/baird-tx/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/anson-tx/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5640,6 +5895,50 @@
         "/service-areas/tuscola-tx/mold-remediation/",
         "/service-areas/albany-tx/storm-damage-restoration/",
         "/service-areas/anson-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tuscola-tx/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Tuscola, TX | Air Care Restoration",
+      "h1": "Vandalism Cleanup in Tuscola",
+      "meta_description": "24/7 vandalism cleanup in Tuscola, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "vandalism cleanup tuscola",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/tuscola-tx/",
+        "/service-areas/tuscola-tx/fire-damage-restoration/",
+        "/service-areas/tuscola-tx/mold-remediation/",
+        "/service-areas/albany-tx/vandalism-cleanup/",
+        "/service-areas/anson-tx/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -6299,6 +6598,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/tye-tx/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Tye, TX | Air Care Restoration",
+      "h1": "Vandalism Cleanup in Tye",
+      "meta_description": "24/7 vandalism cleanup in Tye, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "vandalism cleanup tye",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/tye-tx/",
+        "/service-areas/tye-tx/fire-damage-restoration/",
+        "/service-areas/tye-tx/mold-remediation/",
+        "/service-areas/albany-tx/vandalism-cleanup/",
+        "/service-areas/anson-tx/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/tye-tx/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6950,6 +7293,50 @@
         "/service-areas/buffalo-gap-tx/mold-remediation/",
         "/service-areas/albany-tx/storm-damage-restoration/",
         "/service-areas/anson-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buffalo-gap-tx/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Buffalo Gap, TX | Air Care Restoration",
+      "h1": "Vandalism Cleanup in Buffalo Gap",
+      "meta_description": "24/7 vandalism cleanup in Buffalo Gap, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "vandalism cleanup buffalo gap",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/buffalo-gap-tx/",
+        "/service-areas/buffalo-gap-tx/fire-damage-restoration/",
+        "/service-areas/buffalo-gap-tx/mold-remediation/",
+        "/service-areas/albany-tx/vandalism-cleanup/",
+        "/service-areas/anson-tx/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -7609,6 +7996,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/brownwood-tx/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Brownwood, TX | Air Care Restoration",
+      "h1": "Vandalism Cleanup in Brownwood",
+      "meta_description": "24/7 vandalism cleanup in Brownwood, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "vandalism cleanup brownwood",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/brownwood-tx/",
+        "/service-areas/brownwood-tx/fire-damage-restoration/",
+        "/service-areas/brownwood-tx/mold-remediation/",
+        "/service-areas/albany-tx/vandalism-cleanup/",
+        "/service-areas/anson-tx/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/brownwood-tx/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8260,6 +8691,50 @@
         "/service-areas/early-tx/mold-remediation/",
         "/service-areas/albany-tx/storm-damage-restoration/",
         "/service-areas/anson-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/early-tx/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Early, TX | Air Care Restoration",
+      "h1": "Vandalism Cleanup in Early",
+      "meta_description": "24/7 vandalism cleanup in Early, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "vandalism cleanup early",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/early-tx/",
+        "/service-areas/early-tx/fire-damage-restoration/",
+        "/service-areas/early-tx/mold-remediation/",
+        "/service-areas/albany-tx/vandalism-cleanup/",
+        "/service-areas/anson-tx/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -8919,6 +9394,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/roby-tx/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Roby, TX | Air Care Restoration",
+      "h1": "Vandalism Cleanup in Roby",
+      "meta_description": "24/7 vandalism cleanup in Roby, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "vandalism cleanup roby",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/roby-tx/",
+        "/service-areas/roby-tx/fire-damage-restoration/",
+        "/service-areas/roby-tx/mold-remediation/",
+        "/service-areas/albany-tx/vandalism-cleanup/",
+        "/service-areas/anson-tx/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/roby-tx/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9570,6 +10089,50 @@
         "/service-areas/rotan-tx/mold-remediation/",
         "/service-areas/albany-tx/storm-damage-restoration/",
         "/service-areas/anson-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rotan-tx/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Rotan, TX | Air Care Restoration",
+      "h1": "Vandalism Cleanup in Rotan",
+      "meta_description": "24/7 vandalism cleanup in Rotan, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "vandalism cleanup rotan",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/rotan-tx/",
+        "/service-areas/rotan-tx/fire-damage-restoration/",
+        "/service-areas/rotan-tx/mold-remediation/",
+        "/service-areas/albany-tx/vandalism-cleanup/",
+        "/service-areas/anson-tx/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -10229,6 +10792,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/robert-lee-tx/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Robert Lee, TX | Air Care Restoration",
+      "h1": "Vandalism Cleanup in Robert Lee",
+      "meta_description": "24/7 vandalism cleanup in Robert Lee, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "vandalism cleanup robert lee",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/robert-lee-tx/",
+        "/service-areas/robert-lee-tx/fire-damage-restoration/",
+        "/service-areas/robert-lee-tx/mold-remediation/",
+        "/service-areas/albany-tx/vandalism-cleanup/",
+        "/service-areas/anson-tx/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/robert-lee-tx/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10880,6 +11487,50 @@
         "/service-areas/bronte-tx/mold-remediation/",
         "/service-areas/albany-tx/storm-damage-restoration/",
         "/service-areas/anson-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bronte-tx/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Bronte, TX | Air Care Restoration",
+      "h1": "Vandalism Cleanup in Bronte",
+      "meta_description": "24/7 vandalism cleanup in Bronte, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "vandalism cleanup bronte",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/bronte-tx/",
+        "/service-areas/bronte-tx/fire-damage-restoration/",
+        "/service-areas/bronte-tx/mold-remediation/",
+        "/service-areas/albany-tx/vandalism-cleanup/",
+        "/service-areas/anson-tx/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -11539,6 +12190,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/eden-tx/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Eden, TX | Air Care Restoration",
+      "h1": "Vandalism Cleanup in Eden",
+      "meta_description": "24/7 vandalism cleanup in Eden, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "vandalism cleanup eden",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/eden-tx/",
+        "/service-areas/eden-tx/fire-damage-restoration/",
+        "/service-areas/eden-tx/mold-remediation/",
+        "/service-areas/albany-tx/vandalism-cleanup/",
+        "/service-areas/anson-tx/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/eden-tx/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12190,6 +12885,50 @@
         "/service-areas/paint-rock-tx/mold-remediation/",
         "/service-areas/albany-tx/storm-damage-restoration/",
         "/service-areas/anson-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/paint-rock-tx/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Paint Rock, TX | Air Care Restoration",
+      "h1": "Vandalism Cleanup in Paint Rock",
+      "meta_description": "24/7 vandalism cleanup in Paint Rock, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "vandalism cleanup paint rock",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/paint-rock-tx/",
+        "/service-areas/paint-rock-tx/fire-damage-restoration/",
+        "/service-areas/paint-rock-tx/mold-remediation/",
+        "/service-areas/albany-tx/vandalism-cleanup/",
+        "/service-areas/anson-tx/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -12849,6 +13588,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/san-angelo-tx/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in San Angelo, TX | Air Care Restoration",
+      "h1": "Vandalism Cleanup in San Angelo",
+      "meta_description": "24/7 vandalism cleanup in San Angelo, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "vandalism cleanup san angelo",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/san-angelo-tx/",
+        "/service-areas/san-angelo-tx/fire-damage-restoration/",
+        "/service-areas/san-angelo-tx/mold-remediation/",
+        "/service-areas/albany-tx/vandalism-cleanup/",
+        "/service-areas/anson-tx/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/san-angelo-tx/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13500,6 +14283,50 @@
         "/service-areas/snyder-tx/mold-remediation/",
         "/service-areas/albany-tx/storm-damage-restoration/",
         "/service-areas/anson-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/snyder-tx/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Snyder, TX | Air Care Restoration",
+      "h1": "Vandalism Cleanup in Snyder",
+      "meta_description": "24/7 vandalism cleanup in Snyder, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "vandalism cleanup snyder",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/snyder-tx/",
+        "/service-areas/snyder-tx/fire-damage-restoration/",
+        "/service-areas/snyder-tx/mold-remediation/",
+        "/service-areas/albany-tx/vandalism-cleanup/",
+        "/service-areas/anson-tx/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -14159,6 +14986,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/coleman-tx/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Coleman, TX | Air Care Restoration",
+      "h1": "Vandalism Cleanup in Coleman",
+      "meta_description": "24/7 vandalism cleanup in Coleman, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "vandalism cleanup coleman",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/coleman-tx/",
+        "/service-areas/coleman-tx/fire-damage-restoration/",
+        "/service-areas/coleman-tx/mold-remediation/",
+        "/service-areas/albany-tx/vandalism-cleanup/",
+        "/service-areas/anson-tx/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/coleman-tx/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -14810,6 +15681,50 @@
         "/service-areas/ballinger-tx/mold-remediation/",
         "/service-areas/albany-tx/storm-damage-restoration/",
         "/service-areas/anson-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ballinger-tx/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Ballinger, TX | Air Care Restoration",
+      "h1": "Vandalism Cleanup in Ballinger",
+      "meta_description": "24/7 vandalism cleanup in Ballinger, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "vandalism cleanup ballinger",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/ballinger-tx/",
+        "/service-areas/ballinger-tx/fire-damage-restoration/",
+        "/service-areas/ballinger-tx/mold-remediation/",
+        "/service-areas/albany-tx/vandalism-cleanup/",
+        "/service-areas/anson-tx/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -15469,6 +16384,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/haskell-tx/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Haskell, TX | Air Care Restoration",
+      "h1": "Vandalism Cleanup in Haskell",
+      "meta_description": "24/7 vandalism cleanup in Haskell, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "vandalism cleanup haskell",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/haskell-tx/",
+        "/service-areas/haskell-tx/fire-damage-restoration/",
+        "/service-areas/haskell-tx/mold-remediation/",
+        "/service-areas/albany-tx/vandalism-cleanup/",
+        "/service-areas/anson-tx/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/haskell-tx/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -16120,6 +17079,50 @@
         "/service-areas/albany-tx/mold-remediation/",
         "/service-areas/anson-tx/storm-damage-restoration/",
         "/service-areas/baird-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/albany-tx/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Albany, TX | Air Care Restoration",
+      "h1": "Vandalism Cleanup in Albany",
+      "meta_description": "24/7 vandalism cleanup in Albany, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "vandalism cleanup albany",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/albany-tx/",
+        "/service-areas/albany-tx/fire-damage-restoration/",
+        "/service-areas/albany-tx/mold-remediation/",
+        "/service-areas/anson-tx/vandalism-cleanup/",
+        "/service-areas/baird-tx/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -16779,6 +17782,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/eastland-tx/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Eastland, TX | Air Care Restoration",
+      "h1": "Vandalism Cleanup in Eastland",
+      "meta_description": "24/7 vandalism cleanup in Eastland, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "vandalism cleanup eastland",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/eastland-tx/",
+        "/service-areas/eastland-tx/fire-damage-restoration/",
+        "/service-areas/eastland-tx/mold-remediation/",
+        "/service-areas/albany-tx/vandalism-cleanup/",
+        "/service-areas/anson-tx/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/eastland-tx/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -17430,6 +18477,50 @@
         "/service-areas/colorado-city-tx/mold-remediation/",
         "/service-areas/albany-tx/storm-damage-restoration/",
         "/service-areas/anson-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/colorado-city-tx/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Colorado City, TX | Air Care Restoration",
+      "h1": "Vandalism Cleanup in Colorado City",
+      "meta_description": "24/7 vandalism cleanup in Colorado City, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "vandalism cleanup colorado city",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/colorado-city-tx/",
+        "/service-areas/colorado-city-tx/fire-damage-restoration/",
+        "/service-areas/colorado-city-tx/mold-remediation/",
+        "/service-areas/albany-tx/vandalism-cleanup/",
+        "/service-areas/anson-tx/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -18089,6 +19180,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/comanche-tx/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Comanche, TX | Air Care Restoration",
+      "h1": "Vandalism Cleanup in Comanche",
+      "meta_description": "24/7 vandalism cleanup in Comanche, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "vandalism cleanup comanche",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/comanche-tx/",
+        "/service-areas/comanche-tx/fire-damage-restoration/",
+        "/service-areas/comanche-tx/mold-remediation/",
+        "/service-areas/albany-tx/vandalism-cleanup/",
+        "/service-areas/anson-tx/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/comanche-tx/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -18740,6 +19875,50 @@
         "/service-areas/potosi-tx/mold-remediation/",
         "/service-areas/albany-tx/storm-damage-restoration/",
         "/service-areas/anson-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/potosi-tx/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Potosi, TX | Air Care Restoration",
+      "h1": "Vandalism Cleanup in Potosi",
+      "meta_description": "24/7 vandalism cleanup in Potosi, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "vandalism cleanup potosi",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/potosi-tx/",
+        "/service-areas/potosi-tx/fire-damage-restoration/",
+        "/service-areas/potosi-tx/mold-remediation/",
+        "/service-areas/albany-tx/vandalism-cleanup/",
+        "/service-areas/anson-tx/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -19399,6 +20578,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/hawley-tx/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Hawley, TX | Air Care Restoration",
+      "h1": "Vandalism Cleanup in Hawley",
+      "meta_description": "24/7 vandalism cleanup in Hawley, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "vandalism cleanup hawley",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/hawley-tx/",
+        "/service-areas/hawley-tx/fire-damage-restoration/",
+        "/service-areas/hawley-tx/mold-remediation/",
+        "/service-areas/albany-tx/vandalism-cleanup/",
+        "/service-areas/anson-tx/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/hawley-tx/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -20050,6 +21273,50 @@
         "/service-areas/baird-tx/mold-remediation/",
         "/service-areas/albany-tx/storm-damage-restoration/",
         "/service-areas/anson-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/baird-tx/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Baird, TX | Air Care Restoration",
+      "h1": "Vandalism Cleanup in Baird",
+      "meta_description": "24/7 vandalism cleanup in Baird, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "vandalism cleanup baird",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/baird-tx/",
+        "/service-areas/baird-tx/fire-damage-restoration/",
+        "/service-areas/baird-tx/mold-remediation/",
+        "/service-areas/albany-tx/vandalism-cleanup/",
+        "/service-areas/anson-tx/vandalism-cleanup/",
         "/contact/"
       ]
     },
