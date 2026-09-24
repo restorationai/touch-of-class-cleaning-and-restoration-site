@@ -274,10 +274,10 @@
     },
     {
       "id": "2026-08-27-water-damage-insurance-claim-tips",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-27T02:45:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-24T16:33:32Z",
+      "post_url": "https://homelyft.net/blog/water-damage-insurance-claim-tips/",
       "primary_keyword": "water damage insurance claim tips",
       "intent": "informational",
       "volume": 480,
@@ -447,6 +447,215 @@
       "written_at": "2026-09-18T11:52:16Z",
       "post_url": "https://homelyft.net/blog/water-damage-restoration-gulfport/",
       "published_verified_at": "2026-09-18T11:52:32Z"
+    },
+    {
+      "id": "2026-09-24-fire-damage-restoration-cost-gulfport-ms",
+      "status": "queued",
+      "queued_at": "2026-09-24T16:31:03Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "fire damage restoration cost",
+      "intent": "commercial",
+      "volume": 260,
+      "kd": 1,
+      "fan_out_cluster": [
+        "fire restoration cost per square foot",
+        "house fire debris removal cost",
+        "fire damage restoration rates",
+        "smoke damage restoration cost",
+        "what insurance pays toward fire damage restoration",
+        "fire damage cleanup vs reconstruction costs"
+      ],
+      "suggested_slug": "fire-damage-restoration-cost-gulfport-ms",
+      "suggested_title": "Fire Damage Restoration Cost in Gulfport, MS: What Homeowners Actually Pay",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/odor-removal/",
+        "/services/contents-restoration/",
+        "/services/emergency-board-up-tarping/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "odor-removal",
+        "contents-restoration",
+        "emergency-board-up-tarping"
+      ],
+      "city_anchor": "gulfport-ms",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS700",
+        "https://www.mid.ms.gov/mississippi-insurance-department/consumers/homeowners-insurance-2/"
+      ],
+      "notes": "Client goal: Fire. Mirrors the published water damage cost guide format. Break cost into stages (board-up, water extraction from firefighting, soot and smoke cleanup, deodorization, contents pack-out, reconstruction). Ranges only if sourced; no invented price points. KD 1 and CPC 3.69 nationally: easy organic win.",
+      "source": "keyword-researcher 2026-09-24 seed=fire damage restoration"
+    },
+    {
+      "id": "2026-09-24-what-to-do-after-a-house-fire-biloxi-ms",
+      "status": "queued",
+      "queued_at": "2026-09-24T16:31:03Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "what to do after a house fire",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 0,
+      "fan_out_cluster": [
+        "is it safe to stay in a house after a small fire",
+        "who to call after a house fire",
+        "how to document fire damage for insurance",
+        "additional living expenses after a fire",
+        "emergency board-up and roof tarping after a fire",
+        "why firefighting water causes secondary damage"
+      ],
+      "suggested_slug": "what-to-do-after-a-house-fire-biloxi-ms",
+      "suggested_title": "What to Do After a House Fire in Biloxi: The First 72 Hours",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/emergency-board-up-tarping/",
+        "/services/water-damage-restoration/",
+        "/services/contents-restoration/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "emergency-board-up-tarping",
+        "water-damage-restoration",
+        "contents-restoration"
+      ],
+      "city_anchor": "biloxi-ms",
+      "external_authority_candidates": [
+        "https://www.mid.ms.gov/mississippi-insurance-department/preparedness/weather-disaster/",
+        "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire/recovering-from-fire.html"
+      ],
+      "notes": "Client goal: Fire; Biloxi is a stated priority area. ChatGPT answer for this query cites Mississippi Insurance Department guidance (report loss, ALE, emergency repairs only, beware storm-chaser contractors): cover all of those. Emotional topic, keep tone calm and practical. HomeLyft is currently the first local business ChatGPT lists for this query.",
+      "source": "keyword-researcher 2026-09-24 seed=fire damage restoration"
+    },
+    {
+      "id": "2026-09-24-does-homeowners-insurance-cover-fire-damage",
+      "status": "queued",
+      "queued_at": "2026-09-24T16:31:03Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "does homeowners insurance cover fire damage",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 30,
+      "fan_out_cluster": [
+        "does renters insurance cover fire damage",
+        "fire damage insurance coverage",
+        "is smoke damage covered by homeowners insurance",
+        "additional living expenses coverage after a fire",
+        "what fire damage insurance does not cover",
+        "fire damage insurance claim"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-fire-damage",
+      "suggested_title": "Does Homeowners Insurance Cover Fire Damage? A Mississippi Homeowner Guide",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/odor-removal/",
+        "/services/contents-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "odor-removal",
+        "contents-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.mid.ms.gov/mississippi-insurance-department/consumers/homeowners-insurance-2/",
+        "https://www.iii.org/article/what-covered-standard-homeowners-policy"
+      ],
+      "notes": "Insurance-policy explainer, so city_anchor left null; use Mississippi Insurance Department as the state angle. Pair with the existing water damage insurance post. Do not promise coverage outcomes; no claims about direct billing unless client confirms.",
+      "source": "keyword-researcher 2026-09-24 seed=fire damage restoration"
+    },
+    {
+      "id": "2026-09-24-commercial-fire-damage-restoration-pascagoula-ms",
+      "status": "queued",
+      "queued_at": "2026-09-24T16:31:03Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "commercial fire damage restoration",
+      "intent": "transactional",
+      "volume": 320,
+      "kd": 0,
+      "fan_out_cluster": [
+        "commercial fire damage restoration near me",
+        "business interruption after a fire",
+        "smoke damage in offices and warehouses",
+        "commercial fire cleanup timeline",
+        "working with your commercial property insurer after a fire",
+        "restaurant kitchen fire cleanup"
+      ],
+      "suggested_slug": "commercial-fire-damage-restoration-pascagoula-ms",
+      "suggested_title": "Commercial Fire Damage Restoration in Pascagoula, MS: Getting Your Business Reopened",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/odor-removal/",
+        "/services/post-construction-cleaning/",
+        "/services/general-contracting/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "odor-removal",
+        "post-construction-cleaning",
+        "general-contracting"
+      ],
+      "city_anchor": "pascagoula-ms",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS700",
+        "https://www.nfpa.org/"
+      ],
+      "notes": "No url-plan page targets commercial fire work (service page is residential-default), so this fills a real gap. Client goals emphasize commercial work and name Pascagoula as a priority area (industrial and shipyard base). Volume 320, KD 0 nationally. Do not claim specific commercial jobs or certifications unless in the client record.",
+      "source": "keyword-researcher 2026-09-24 seed=fire damage restoration"
+    },
+    {
+      "id": "2026-09-24-what-to-throw-away-after-smoke-damage-ocean-springs-ms",
+      "status": "queued",
+      "queued_at": "2026-09-24T16:31:03Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "what to throw away after smoke damage",
+      "intent": "informational",
+      "volume": 210,
+      "kd": 0,
+      "fan_out_cluster": [
+        "can food be saved after smoke exposure",
+        "can clothes with smoke damage be cleaned",
+        "smoke damaged electronics",
+        "how to get smoke smell out of house after fire",
+        "soot on furniture and upholstery",
+        "documenting damaged items for your insurance claim"
+      ],
+      "suggested_slug": "what-to-throw-away-after-smoke-damage-ocean-springs-ms",
+      "suggested_title": "What to Throw Away After Smoke Damage (and What Can Be Saved) in Ocean Springs",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/contents-restoration/",
+        "/services/odor-removal/",
+        "/services/fire-damage-restoration/",
+        "/services/contents-restoration-storage/"
+      ],
+      "service_tags": [
+        "contents-restoration",
+        "odor-removal",
+        "fire-damage-restoration",
+        "contents-restoration-storage"
+      ],
+      "city_anchor": "ocean-springs-ms",
+      "external_authority_candidates": [
+        "https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage",
+        "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire/recovering-from-fire.html"
+      ],
+      "notes": "Ocean Springs is a stated priority area. KD 0, volume 210. Lead with: do not discard anything before the adjuster sees it unless it is a health hazard (MID guidance surfaced by ChatGPT). Food exposed to heat or smoke is a discard; many contents are restorable via pack-out.",
+      "source": "keyword-researcher 2026-09-24 seed=fire damage restoration"
     }
   ]
 }
