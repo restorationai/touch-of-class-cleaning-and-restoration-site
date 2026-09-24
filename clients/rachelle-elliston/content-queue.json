@@ -17,7 +17,7 @@
     },
     {
       "id": "2026-09-20-general-contracting-reconstruction-renovation",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-20T14:17:54Z",
       "priority": 1,
       "content_type": "target_term",
@@ -26,7 +26,20 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": "boulder-city-nv",
-      "source": "app target-term (onboarding)"
+      "source": "app target-term (onboarding)",
+      "written_at": "2026-09-24T19:43:18Z",
+      "post_url": "https://desertvalleycontracting.net/blog/general-contracting-reconstruction-renovation/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/general-contracting-reconstruction-renovation.md",
+          "part": "body",
+          "family": "service-scope",
+          "severity": "review",
+          "matched": "structural reconstruction",
+          "context": "odel | $25,000 - $75,000+ | | Post-fire structural reconstruction (partial) | $30,000 - $120,000+ | | Roo",
+          "reason": "names the 'reconstruction' service family but plan-input services are only: biohazard-cleanup, contents-restoration-storage, fire-damage-restoration, general-contracting, mold-remediation, odor-removal"
+        }
+      ]
     },
     {
       "id": "2026-09-20-best-water-damage-restoration-in-north-las-vegas-nv",
