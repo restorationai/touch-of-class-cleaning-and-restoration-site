@@ -65,14 +65,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.9",
-  gbpReviewCount: "564",
+  gbpReviewCount: "556",
   gbpReviews: [
-    { author: "Sarah", rating: 5, text: "Seeing the high rating for these folks is not surprising as the team is amazing! Sy in particular was a dream and we would love to work with them again!", when: "September 2026" },
-    { author: "Stacy", rating: 5, text: "Crew construction is highly recommended from me. Sy does amazing work on the restoration side I would always recommend reaching out and asking for Sy.", when: "September 2026" },
-    { author: "Alexander", rating: 5, text: "Great experience Worked directly with sy I am pleased with even his tone and care for customers. I will def work with him again.", when: "September 2026" },
-    { author: "Todd", rating: 5, text: "Zach and Crew restoration do amazing work. Highly recommend", when: "September 2026" },
-    { author: "Sheldon", rating: 5, text: "Zack is the absolute man. I would do business with this guy any day.", when: "September 2026" },
-    { author: "Andy", rating: 5, text: "Zach is extremely professional, reliable, and respectful. He communicates clearly, follows through on his commitments, and consistently approaches his work with a positive and professional attitude. He is dependable, easy to work with, and takes pride in doing things the right way. I would highly…", when: "September 2026" },
+    { author: "Kaycee", rating: 5, text: "Zach is always such a joy to work with. He's helpful, upbeat, and professional.", when: "September 2026" },
+    { author: "Chloe", rating: 5, text: "Zach was very professional and on time, he was great to work with i definitely would recommend", when: "September 2026" },
+    { author: "Austin", rating: 5, text: "Zach was professional, punctual, helpful, and great to work with throughout the process. He was always responsive and made everything easy from start to finish.", when: "September 2026" },
+    { author: "Selena", rating: 5, text: "Zach with Crew is amazing. He is kind, welcoming, and easy to work with. Extremely professional and helpful. You can tell CREW genuinely cares about the people they work with. Highly recommend!", when: "September 2026" },
+    { author: "Thomas", rating: 5, text: "Amazing people and amazing work. The hospitality is unmatched. 10/10", when: "September 2026" },
+    { author: "Adam", rating: 5, text: "Zach at crew is one of the easiest guys to work with. He will go above and beyond to make sure your experience is amazing with crew!", when: "September 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Sioux Falls, SD.",
   ctaLabel: "24/7 Emergency Line",

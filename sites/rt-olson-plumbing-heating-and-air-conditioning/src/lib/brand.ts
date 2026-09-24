@@ -58,14 +58,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.9",
-  gbpReviewCount: "601",
+  gbpReviewCount: "604",
   gbpReviews: [
+    { author: "Gina", rating: 5, text: "The most respectful company I’ve had the pleasure to work with. Everyone i either spoke with, worked with in my home was considerate, polite, thourough and on time. The pricing was fair and the work seems like it will be complete in a fair amount of time. Alfonso was AMAZING!", when: "September 2026" },
+    { author: "Michelle", rating: 5, text: "I always have a great experience with RT Olson plumbing and their technicians. Today Mike came out for a routine service, he showed up on time, was extremely knowledgeable and very pleasant. I will always recommend RT Olson to others as well.", when: "September 2026" },
+    { author: "Lonnie", rating: 5, text: "Quick response, quality work and courteous.", when: "September 2026" },
     { author: "Zoe", rating: 5, text: "I purchased a condo this spring that didn't have air conditioning and had been putting off installing a system. When the California heat wave hit, it stopped being optional - for me and for my French Bulldog, who can't tolerate that kind of heat. I called RT Olson and had a full HVAC system…", when: "September 2026" },
     { author: "Ara", rating: 5, text: "We have used RT Olson for both plumbing and A/C at our house and always feel taken care of - Super happy with the work they have done and highly recommend them !!", when: "September 2026" },
     { author: "Melissa", rating: 5, text: "We have used RT Olson many times for plumbing issues and have always been impressed by the quality of work and fairness of price. We completed an A/C service contract with another company that was a nightmare experience, so we were very happy to hear that RT Olson offerred HVAC services. From the…", when: "September 2026" },
-    { author: "Sara", rating: 5, text: "Great experience! Alfonso was the technician who came to repair our office bathroom, and he did a great job! He was very respectful, organized, professional, and efficient. He kept the area clean while working and made sure everything was taken care of properly. We really appreciated his…", when: "September 2026" },
-    { author: "Nancy", rating: 5, text: "We have nothing but praise for RT Olson Plumbing and AC. Scott from Riverside was our Technican and he was fabulous. He diagnosed the problem and got the necessary repairs done in no time and the problem was resolved. We think Scott did the best job and was professional and kind at the same time…", when: "September 2026" },
-    { author: "Joe", rating: 5, text: "We were in a pinch and the Olson team came through for us. Pricing was fair and service was great. Thank you 😊", when: "September 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "Plumbing, heating & air services in Corona, CA.",
   ctaLabel: "24/7 Emergency Line",

@@ -197,6 +197,11 @@
       "city": "Fox Chapel",
       "state": "PA",
       "slug": "fox-chapel-pa"
+    },
+    {
+      "city": "Churchill",
+      "state": "PA",
+      "slug": "churchill-pa"
     }
   ],
   "template": "restoration",

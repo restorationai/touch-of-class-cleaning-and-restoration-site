@@ -65,14 +65,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "5.0",
-  gbpReviewCount: "80",
+  gbpReviewCount: "83",
   gbpReviews: [
+    { author: "Traci", rating: 5, text: "Bob and his team were great. Easy to work with and there to get me what was needed from the insurance company. Thanks Guys!", when: "September 2026" },
+    { author: "Eric", rating: 5, text: "They did such a great job and was very professional", when: "September 2026" },
+    { author: "Lisa", rating: 5, text: "am very grateful to the Dry County Restoration team. They were professional, patient, and caring throughout the entire process. Their work was beautiful and exceeded my expectations. Thank you for making my home feel comfortable and new again. I highly recommend them!", when: "September 2026" },
     { author: "Heather", rating: 5, text: "Everyone at Dry County was great to work with! They came out quickly and were very responsive and easy to communicate with throughout the process. Every single person who showed up at the house to do a job was intelligent, competent, and respectful. They came when they said they would, did what…", when: "September 2026" },
     { author: "Rachel", rating: 5, text: "They were very helpful and knowledgeable!", when: "September 2026" },
     { author: "Efren", rating: 5, text: "The crew was knowledgeable & thorough. And customer friendly.", when: "September 2026" },
-    { author: "Jenny", rating: 5, text: "Everyone at Dry County have been so helpful and communicative. They helped make a difficult situation much more bareable. From beginning to end, everyone involved have been amazing.", when: "September 2026" },
-    { author: "Darla", rating: 5, text: "These guys helped me out with drying up the water that flooded my house. They were here when they said they would be. It was a great experience.", when: "September 2026" },
-    { author: "Jo", rating: 5, text: "They did a great job and cleaned up afterwards. Very happy with the job.", when: "August 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Corona, CA.",
   ctaLabel: "24/7 Emergency Line",

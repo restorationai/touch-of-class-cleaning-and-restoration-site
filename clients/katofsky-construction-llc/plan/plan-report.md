@@ -1,20 +1,20 @@
 # Site Plan Report — Katofsky Construction LLC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-24T17:27:03.991779+00:00
+- Generated: 2026-09-24T18:31:14.400299+00:00
 - Domain: `katofskyconstruction.com`
 - Services selected: 12 of 65 catalog entries
-- Service areas: 31
+- Service areas: 32
 - Cross-product enabled: True
-- Total URLs: **416**
-- Total internal links: 3326 (avg 8.0 per page)
+- Total URLs: **429**
+- Total internal links: 3429 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 360 |
-| `service-area` | 30 |
+| `service-area-service` | 372 |
+| `service-area` | 31 |
 | `service-landing` | 12 |
 | `blog-post` | 5 |
 | `legal` | 3 |
@@ -73,6 +73,7 @@
 - `forest-hills-pa` — Forest Hills, PA
 - `allison-park-pa` — Allison Park, PA
 - `fox-chapel-pa` — Fox Chapel, PA
+- `churchill-pa` — Churchill, PA
 
 ## Top 10 priority pages
 

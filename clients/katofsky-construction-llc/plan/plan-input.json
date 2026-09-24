@@ -6,7 +6,7 @@
     "phone": "(412) 304-9284",
     "email": "michael@katofskyconstruction.com",
     "street_address": "150 Leroy st ",
-    "city": "Pgh",
+    "city": "Pittsburgh",
     "state": "Pa",
     "postal_code": "15239",
     "theme": "light",
@@ -197,6 +197,11 @@
       "city": "Fox Chapel",
       "state": "PA",
       "slug": "fox-chapel-pa"
+    },
+    {
+      "city": "Churchill",
+      "state": "PA",
+      "slug": "churchill-pa"
     }
   ],
   "template": "restoration",

@@ -2,9 +2,9 @@
   "slug": "homelyft-restoration-ms",
   "assets": {
     "crew:1790261618409-IMG_1745": {
-      "source": "crew",
-      "storage": "job-photos/1790261618409-IMG_1745.jpeg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785514205030/job-photos/1790261618409-IMG_1745.jpeg",
+      "source": "gbp",
+      "storage": "job-photos/posted/1790261618409-IMG_1745.jpeg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785514205030/job-photos/posted/1790261618409-IMG_1745.jpeg",
       "width": 3088,
       "height": 2316,
       "bytes": 1978928,
