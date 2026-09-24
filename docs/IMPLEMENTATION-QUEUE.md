@@ -150,3 +150,15 @@ send-locks, canary) so group support is a model change, phased:
       no personal greeting in groups; decisions/asks stay 1:1 with the
       preferred contact (group = visibility channel, 1:1 = decision
       channel). Per-client opt-in, never fleet default.
+
+## 8. Board counts: KEEP-verdict noise (found 09-24 post-pagination)
+The pagination fix made counts COMPLETE and exposed a semantics bug: 1,532
+of 2,336 open suggestion rows fleet-wide are verdict=KEEP — informational
+audit records ("this service is correct"), not actions. They inflate the
+board (RX badge "45" = 40 KEEP + 5 NEEDS-REVIEW; the Profile page correctly
+shows only the 5) and pin every client in "Listing synced".
+- [ ] Board gate + chip count only ACTIONABLE open rows (verdict != KEEP);
+      relabel chip "N awaiting review" (they are not auto-apply — the
+      auto-safe lane already applied its items; RX: 47 applied).
+- [ ] Data hygiene: audit lanes write KEEP rows as status 'noted' (not
+      'open'), + one-time backfill closing the 1,532 open KEEPs.
