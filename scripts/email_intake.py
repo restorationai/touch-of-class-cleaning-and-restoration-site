@@ -194,6 +194,46 @@ def _storage_names(prefix: str, bucket: str = "branding") -> set[str]:
 
 DOC_KINDS = {"coi", "license", "ein_doc", "brand_guide", "customer_list", "other_doc"}
 
+# Emailed IMAGES get vision routing (Jaziel/RX 2026-09-24: 8 staff photos
+# classified from FILENAME ONLY; 'photos' had no destination so a correct
+# classification was a black hole and the error fallback shelved them in
+# docs/ where no team-photo consumer looks). Kind -> branding/ prefix.
+IMG_EXTS = (".jpg", ".jpeg", ".png", ".webp", ".heic")
+IMG_ROUTES = {
+    "team_photo": "team",
+    "job_photo": "job-photos/inbox",
+    "logo": "brand",
+    "document_scan": "docs",        # a photographed certificate/form
+    "other_image": "job-photos/inbox",  # visible-to-humans default, never docs
+}
+CLASSIFY_IMG_SYSTEM = """You classify an image a client emailed to their
+marketing agency. Look at the image itself. Reply JSON only:
+{"kind": one of team_photo|job_photo|logo|document_scan|other_image,
+ "summary": "<8 words max>"}.
+team_photo = people/headshots/staff/crew portraits or group shots.
+job_photo = work sites, damage, equipment, trucks, finished jobs.
+logo = a logo or brand graphic. document_scan = a photographed or scanned
+document/certificate/form."""
+
+
+def _classify_email_image(data: bytes, mime: str, fname: str,
+                          subject: str) -> str:
+    """Vision-classify an emailed image; fail-safe to other_image (which
+    routes somewhere a human LOOKS, never the docs shelf)."""
+    try:
+        import base64 as _b64
+        blocks = [{"media_type": mime if mime.startswith("image/")
+                   else "image/jpeg",
+                   "data": _b64.b64encode(data).decode()}]
+        k = anthropic_json(
+            CLASSIFY_IMG_SYSTEM,
+            f"Filename: {fname}\nEmail subject: {subject}",
+            max_tokens=200, images=blocks)
+        kind = (k.get("kind") or "").strip()
+        return kind if kind in IMG_ROUTES else "other_image"
+    except Exception:  # noqa: BLE001
+        return "other_image"
+
 CLASSIFY_DOC_SYSTEM = """You classify a business email attachment for a
 marketing agency's filing system. Given the filename, email subject and body,
 answer as JSON: {"kind": one of coi|license|ein_doc|logo|photos|customer_list|
@@ -379,7 +419,14 @@ def _file_attachments(tok: str, msg_id: str, parsed: dict, company_id: str,
     Shared by the live poll and the lookback sweep."""
     saved, filed_notes = [], []
     atts = [a for a in parsed.get("attachments", []) if a.get("attachmentId")]
-    existing = _storage_names(f"{company_id}/docs") if atts else set()
+    _names_cache: dict[str, set] = {}
+
+    def _existing(dest_prefix: str) -> set:
+        if dest_prefix not in _names_cache:
+            _names_cache[dest_prefix] = _storage_names(
+                f"{company_id}/{dest_prefix}")
+        return _names_cache[dest_prefix]
+    existing = _existing("docs") if atts else set()
     for a in atts:
         blob = _g(tok, f"/messages/{msg_id}/attachments/{a['attachmentId']}")
         data = base64.urlsafe_b64decode(blob["data"])
@@ -388,24 +435,30 @@ def _file_attachments(tok: str, msg_id: str, parsed: dict, company_id: str,
         if (low in ("image.png", "image001.png", "image002.png")
                 or low.startswith("outlook-") or low.endswith(".ics")):
             continue  # signature imagery / calendar invites, never documents
-        try:
-            klass = anthropic_json(
-                CLASSIFY_DOC_SYSTEM,
-                f"Filename: {fname}\nSubject: {subject}\n"
-                f"Body excerpt:\n{body_text[:800]}")
-        except Exception:  # noqa: BLE001
-            klass = {}
-        kind = (klass.get("kind") or "other_doc").strip()
-        if fname in existing:
+        mime = a.get("mimeType") or "application/octet-stream"
+        is_image = (mime.startswith("image/") or low.endswith(IMG_EXTS))
+        if is_image:
+            kind = _classify_email_image(data, mime, fname, subject)
+            dest = IMG_ROUTES[kind]
+        else:
+            try:
+                klass = anthropic_json(
+                    CLASSIFY_DOC_SYSTEM,
+                    f"Filename: {fname}\nSubject: {subject}\n"
+                    f"Body excerpt:\n{body_text[:800]}")
+            except Exception:  # noqa: BLE001
+                klass = {}
+            kind = (klass.get("kind") or "other_doc").strip()
+            dest = "docs" if kind in DOC_KINDS else None
+        if fname in (_existing(dest) if dest else existing):
             filed_notes.append(f"{fname} (already on file — no action)")
             print(f"    attachment: {fname} [{kind}] DUPLICATE — already "
-                  "in branding docs")
+                  f"in branding/{dest or 'docs'}")
             saved.append(fname)
             continue
         if not dry_run:
-            if kind in DOC_KINDS:
-                _storage_put(f"{company_id}/docs/{fname}", data,
-                             a.get("mimeType") or "application/octet-stream",
+            if dest:
+                _storage_put(f"{company_id}/{dest}/{fname}", data, mime,
                              bucket="branding")
             # everything (docs included) also lands in the raw email-intake
             # bucket as the untouched original
@@ -444,7 +497,7 @@ def _file_attachments(tok: str, msg_id: str, parsed: dict, company_id: str,
                 print(f"    {_note[:110]}")
         print(f"    attachment: {fname} [{kind}]"
               + ("" if dry_run else
-                 (f" -> branding/{company_id}/docs/" if kind in DOC_KINDS
+                 (f" -> branding/{company_id}/{dest}/" if dest
                   else f" -> email-intake/{company_id}/{msg_id}/")))
     return saved, filed_notes
 

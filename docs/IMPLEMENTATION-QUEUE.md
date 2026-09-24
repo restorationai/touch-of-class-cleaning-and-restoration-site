@@ -234,5 +234,8 @@ into gbp-maintenance as a parity extension (page <-> service <-> photo):
 Jaziel emailed 8 staff photos; intake ingested + ack'd + noted them but
 filed ALL into branding/{cid}/docs/ where no team-photo consumer looks.
 - [x] (09-24) The 8 copied to branding/CO-1784745317157/team/.
-- [ ] Classifier routes people/headshot images from email intake to
-      team/ (same vision classes as texted media: team vs job vs doc).
+- [x] (09-24) Vision routing SHIPPED: emailed images are classified from
+      the IMAGE (team_photo/job_photo/logo/document_scan), routed to
+      team/, job-photos/inbox/, brand/, docs/; error fallback goes to
+      job-photos/inbox (human-visible), never the docs shelf. Verified
+      against Jaziel's actual photos: all -> team_photo.
