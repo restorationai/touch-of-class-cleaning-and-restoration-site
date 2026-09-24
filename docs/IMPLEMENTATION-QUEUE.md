@@ -44,11 +44,29 @@ priority; agents work top-down unless told otherwise.
       concierge allowlist. Then actually add Chris Pappas (910-448-2930).
 - [ ] **Attachment-first resolution rule**: when a client sends photo proof
       contradicting a Monica claim, Monica must read the image BEFORE
-      re-asserting. DISS 09-24: site + GBP both already correct; Addi's
-      screenshot is a THIRD surface (branded info card pairing 712 Spearman
-      Ave with "Youngstown, OH" + info@dissrestoration.com). Action: pull
-      the image via the email endpoint, identify the surface (citation
-      listing / email signature / client's own graphic), fix or advise.
+      re-asserting (DISS/Addi 09-24; her screenshot was the site's own
+      footer and she was right).
+
+## 2b. Footer NAP template bug (DISS/Addi 09-24 — root cause of the above)
+Footer.astro (BOTH templates) renders `{brand.streetAddress}` +
+`{brand.primaryCity}, {brand.primaryState} {brand.postalCode}` — the street
+paired with the MARKETING city, not the address city. Schema JSON-LD uses the
+correct pair, so the visible footer and the structured data disagree on the
+same page. Six live sites diverge; two cross-city, one cross-STATE:
+  diss-restoration (Youngstown OH shown, Farrell PA real — impossible
+  "Youngstown, OH 16121" line), flood-fixers (San Diego vs San Marcos),
+  flood-solutions-inc (Macomb vs Ira), katofsky ("Pgh"), air-care +
+  dry-bros (case-only).
+- [ ] Fix Footer in both templates: address block uses the ADDRESS pair
+      (addressCity/state/zip); marketing city stays in the tagline line
+      only. Re-scaffold + deploy the 6 affected sites (DISS first).
+- [ ] **NAP parity watchdog**: nightly check — rendered footer NAP vs
+      schema PostalAddress vs GBP address; any pairing mismatch = pipeline
+      alert. This is the guard that makes this class unmissable.
+- [ ] **Monica render-level verification tool**: before confirming any
+      "does the site show X" claim, fetch the live page, extract the
+      rendered NAP/target string, and quote what was actually verified.
+      No tool result = no confirmation (falls to escalation contract).
 
 ## 3. Arch Environmental — profile rename
 - [ ] DBA status: NOT filed as of 09-24. Santino asked Mike to file the
