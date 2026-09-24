@@ -7,10 +7,10 @@ primary_keyword: "sewage cleanup and sanitization glenshaw"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "ff9d6fec24dfb072"
-generated_at: "2026-09-23T14:30:06.906079+00:00"
+plan_hash: "22b9aab7cc9a4bb5"
+generated_at: "2026-09-24T17:23:44.557537+00:00"
 manual_override: false
-internal_links: ["/services/sewage-cleanup/", "/service-areas/glenshaw-pa/", "/service-areas/glenshaw-pa/fire-damage-restoration/", "/service-areas/glenshaw-pa/roofing/", "/service-areas/baldwin-pa/sewage-cleanup/", "/service-areas/bethel-park-pa/sewage-cleanup/", "/contact/"]
+internal_links: ["/services/sewage-cleanup/", "/service-areas/glenshaw-pa/", "/service-areas/glenshaw-pa/fire-damage-restoration/", "/service-areas/glenshaw-pa/roofing/", "/service-areas/allison-park-pa/sewage-cleanup/", "/service-areas/baldwin-pa/sewage-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Glenshaw", "url": "/service-areas/glenshaw-pa/"}, {"name": "Sewage Cleanup and Sanitization"}]
 faq: []
 area_slug: "glenshaw-pa"

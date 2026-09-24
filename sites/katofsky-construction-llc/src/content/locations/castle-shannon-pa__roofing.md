@@ -7,10 +7,10 @@ primary_keyword: "roofing installation and replacement castle shannon"
 secondary_keywords: ["roofing contractor", "roof replacement", "new roof installation", "residential roofing", "roof repair"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "095590bb024394f5"
-generated_at: "2026-09-22T18:10:17.098480+00:00"
+plan_hash: "f4c88e84babce6eb"
+generated_at: "2026-09-24T17:23:44.551604+00:00"
 manual_override: false
-internal_links: ["/services/roofing/", "/service-areas/castle-shannon-pa/", "/service-areas/castle-shannon-pa/fire-damage-restoration/", "/service-areas/castle-shannon-pa/sewage-cleanup/", "/service-areas/baldwin-pa/roofing/", "/service-areas/bethel-park-pa/roofing/", "/contact/"]
+internal_links: ["/services/roofing/", "/service-areas/castle-shannon-pa/", "/service-areas/castle-shannon-pa/fire-damage-restoration/", "/service-areas/castle-shannon-pa/sewage-cleanup/", "/service-areas/allison-park-pa/roofing/", "/service-areas/baldwin-pa/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Castle Shannon", "url": "/service-areas/castle-shannon-pa/"}, {"name": "Roofing Installation and Replacement"}]
 faq: []
 area_slug: "castle-shannon-pa"

@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration solana beach"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "e9176e8e411af167"
-generated_at: "2026-09-20T17:29:38.239988+00:00"
+plan_hash: "4ed2340d0329c4c4"
+generated_at: "2026-09-24T17:22:06.419317+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/solana-beach-ca/", "/service-areas/solana-beach-ca/flood-damage-restoration/", "/service-areas/solana-beach-ca/reconstruction/", "/service-areas/bonsall-ca/water-damage-restoration/", "/service-areas/carlsbad-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/solana-beach-ca/", "/service-areas/solana-beach-ca/flood-damage-restoration/", "/service-areas/solana-beach-ca/reconstruction/", "/service-areas/bonsall-ca/water-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Solana Beach", "url": "/service-areas/solana-beach-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "solana-beach-ca"

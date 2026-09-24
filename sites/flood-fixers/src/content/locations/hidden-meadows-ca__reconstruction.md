@@ -7,10 +7,10 @@ primary_keyword: "reconstruction services hidden meadows"
 secondary_keywords: ["post-damage reconstruction", "rebuild services", "structural reconstruction", "post-disaster rebuilding", "fire damage reconstruction"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "6de2b5c80452e512"
-generated_at: "2026-09-20T14:13:11.330650+00:00"
+plan_hash: "2cf8b62ec84d3ea1"
+generated_at: "2026-09-24T17:22:06.414145+00:00"
 manual_override: false
-internal_links: ["/services/reconstruction/", "/service-areas/hidden-meadows-ca/", "/service-areas/hidden-meadows-ca/water-damage-restoration/", "/service-areas/hidden-meadows-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/reconstruction/", "/service-areas/carlsbad-ca/reconstruction/", "/contact/"]
+internal_links: ["/services/reconstruction/", "/service-areas/hidden-meadows-ca/", "/service-areas/hidden-meadows-ca/water-damage-restoration/", "/service-areas/hidden-meadows-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/reconstruction/", "/service-areas/camp-pendleton-mainside-ca/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hidden Meadows", "url": "/service-areas/hidden-meadows-ca/"}, {"name": "Reconstruction Services"}]
 faq: []
 area_slug: "hidden-meadows-ca"

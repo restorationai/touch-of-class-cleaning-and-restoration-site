@@ -137,6 +137,78 @@ def check_site_area_gap() -> list[str]:
     return issues
 
 
+def check_nap_parity() -> list[str]:
+    """Visible footer NAP vs schema PostalAddress vs GBP (DISS/Addi
+    2026-09-24: the footer paired the street with the MARKETING city —
+    'Youngstown, OH 16121' for a Farrell PA office — while the same page's
+    JSON-LD said Farrell. The client caught it; Monica and Claude both
+    confirmed from the schema and called the client wrong.)
+
+    Rule (ZIP-anchored, low false-positive): any visible 'City, ST 12345'
+    whose ZIP matches the schema postalCode but whose city/state disagrees
+    with addressLocality/addressRegion = the footer-pairing bug. Plus: GBP
+    profile city != schema city = cross-surface NAP drift."""
+    issues = []
+    import urllib.request
+    for p in sorted((ROOT / "clients").glob("*.json")):
+        if p.stem == "company_map":
+            continue
+        try:
+            d = json.loads(p.read_text())
+        except Exception:  # noqa: BLE001
+            continue
+        if not d.get("cut_over_at") or not d.get("domain"):
+            continue
+        try:
+            req = urllib.request.Request(
+                f"https://{d['domain']}/", headers={"User-Agent": "rankai-watchdog"})
+            html = urllib.request.urlopen(req, timeout=15).read().decode(
+                "utf-8", "ignore")
+        except Exception:  # noqa: BLE001
+            continue        # unreachable site is its own (existing) alarm
+        m = re.search(r'"addressLocality"\s*:\s*"([^"]+)"\s*,\s*'
+                      r'"addressRegion"\s*:\s*"([^"]+)"\s*,\s*'
+                      r'"postalCode"\s*:\s*"([^"]+)"', html)
+        if not m:
+            continue
+        s_city, s_state, s_zip = m.group(1).strip(), m.group(2).strip(), m.group(3).strip()
+        visible = re.sub(r"<script[^>]*>.*?</script>", " ", html,
+                         flags=re.S | re.I)
+        visible = re.sub(r"<[^>]+>", " ", visible)
+        for vm in re.finditer(r"([A-Za-z .'\-]{3,40}),\s*([A-Z]{2})\s+(\d{5})",
+                              visible):
+            v_blob, v_state, v_zip = (vm.group(1).strip(), vm.group(2),
+                                      vm.group(3))
+            # The visible capture may swallow the street tail into the
+            # "city" group — only alarm when the schema city is absent
+            # from the whole pairing (or the state flat-out disagrees).
+            if v_zip == s_zip and (
+                    s_city.lower() not in v_blob.lower()
+                    or v_state.upper() != s_state.upper()):
+                issues.append(
+                    f"NAP mismatch: {p.stem} page shows '{v_blob}, {v_state} "
+                    f"{v_zip}' but schema says '{s_city}, {s_state} {s_zip}' "
+                    "— footer/marketing-city pairing bug")
+                break
+        try:
+            cmap = json.loads((ROOT / "clients" / "company_map.json").read_text())
+        except Exception:  # noqa: BLE001
+            cmap = {}
+        cid = cmap.get(p.stem) or ""
+        if cid:
+            try:
+                prof = _sb("GET", "/rest/v1/marketing_gbp_profiles"
+                           f"?company_id=eq.{cid}&select=address") or []
+                gaddr = (prof[0].get("address") or "") if prof else ""
+                if gaddr and s_city.lower() not in gaddr.lower():
+                    issues.append(
+                        f"NAP drift: {p.stem} GBP address '{gaddr[:60]}' does "
+                        f"not contain the site's schema city '{s_city}'")
+            except Exception:  # noqa: BLE001
+                pass
+    return issues
+
+
 def check_citation_stall() -> list[str]:
     """DBA verified but no citation order (Kenny + Heritage 2026-09-19: both
     sat in citations_building with nothing building — order placement is
@@ -411,7 +483,8 @@ def main() -> int:
               + check_site_area_gap() + check_citation_stall()
               + check_lsa_leads()
               + check_stuck_lead_audits()
-              + check_email_claims())
+              + check_email_claims()
+              + check_nap_parity())
     if not issues:
         print("pipeline watchdog: ALL SYSTEMS ALIVE")
     fresh: list[str] = []

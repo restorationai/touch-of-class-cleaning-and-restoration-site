@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "f1952e23a06bbc38"
-generated_at: "2026-09-20T14:13:04.894353+00:00"
+generated_at: "2026-09-24T17:27:58.246241+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/river-forest-il/", "/service-areas/river-forest-il/fire-damage-restoration/", "/service-areas/river-forest-il/water-damage-restoration/", "/service-areas/bedford-park-il/mold-remediation/", "/service-areas/berwyn-il/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "River Forest", "url": "/service-areas/river-forest-il/"}, {"name": "Mold Remediation"}]

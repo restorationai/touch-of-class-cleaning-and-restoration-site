@@ -28,8 +28,8 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `Dry Bros Water & Fire Restoration` | plan-input `brand.display_name` | `National Restoration Construction` |
 | `Dry Bros Water & Fire Restoration` | plan-input `brand.short_name` | `NARESTCO` |
 | `Dry Bros Water & Fire Restoration` | plan-input `brand.legal_name` | `National Restoration Construction LLC` |
-| `dry-bros-water-fire-restoration.invalid` | client record `domain` | `narestco.com` |
-| `https://dry-bros-water-fire-restoration.invalid` | derived | `https://narestco.com` |
+| `drybros.com` | client record `domain` | `narestco.com` |
+| `https://drybros.com` | derived | `https://narestco.com` |
 | `(877) 379-2767` / `+18773792767` | brand.phone | `(206) 883-0333` / `+12068830333` |
 | `amin.mashouf@gmail.com` | brand.email | `info@narestco.com` |
 | `24/7` | brand.hours | `24/7` |
@@ -44,20 +44,44 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `[]` | brand.same_as_urls (JSON-encoded array) | |
 | `` / `` | from GBP | `5.0` / `31` |
 | `24/7 restoration services in Chicago, IL.` | brand.tagline | short marketing line |
-| `#171717` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
-| `Inter` / `Inter` | brand.fonts | `Inter` / `Inter` |
-| `https://images.dry-bros-water-fire-restoration.invalid/brand/logo.png` / `DB` | derived; logo lives on the per-client R2 bucket | |
-| `https://images.dry-bros-water-fire-restoration.invalid` | `https://images.{domain}` | |
-| `- [Water Damage Restoration](https://dry-bros-water-fire-restoration.invalid/services/water-damage-restoration/)
-- [Fire Damage Restoration](https://dry-bros-water-fire-restoration.invalid/services/fire-damage-restoration/)
-- [Mold Remediation](https://dry-bros-water-fire-restoration.invalid/services/mold-remediation/)` / `- [Chicago, IL](https://dry-bros-water-fire-restoration.invalid/service-areas/chicago-il/)
-- [Naperville, IL](https://dry-bros-water-fire-restoration.invalid/service-areas/naperville-il/)
-- [Cicero, IL](https://dry-bros-water-fire-restoration.invalid/service-areas/cicero-il/)
-- [Evanston, IL](https://dry-bros-water-fire-restoration.invalid/service-areas/evanston-il/)
-- [Oak Park, IL](https://dry-bros-water-fire-restoration.invalid/service-areas/oak-park-il/)
-- [Skokie, IL](https://dry-bros-water-fire-restoration.invalid/service-areas/skokie-il/)
-- [Berwyn, IL](https://dry-bros-water-fire-restoration.invalid/service-areas/berwyn-il/)
-- [Des Plaines, IL](https://dry-bros-water-fire-restoration.invalid/service-areas/des-plaines-il/)` / `Available on request` / `Greater Chicago region` | computed at scaffold from plan + brand | |
+| `#0172EC` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
+| `Inter` / `Archivo` | brand.fonts | `Inter` / `Inter` |
+| `/images/logo.png` / `DB` | derived; logo lives on the per-client R2 bucket | |
+| `https://images.drybros.com` | `https://images.{domain}` | |
+| `- [Water Damage Restoration](https://drybros.com/services/water-damage-restoration/)
+- [Fire Damage Restoration](https://drybros.com/services/fire-damage-restoration/)
+- [Mold Remediation](https://drybros.com/services/mold-remediation/)
+- [Emergency Water Cleanup](https://drybros.com/services/water-cleanup/)
+- [Flood Damage Restoration](https://drybros.com/services/flood-damage-restoration/)
+- [Burst Pipe Cleanup and Repair](https://drybros.com/services/burst-pipe-repair/)
+- [Basement Flooding Cleanup](https://drybros.com/services/basement-flooding-cleanup/)
+- [Sewage Cleanup and Sanitization](https://drybros.com/services/sewage-cleanup/)
+- [Smoke Damage Restoration](https://drybros.com/services/smoke-damage-restoration/)
+- [Odor Removal and Deodorization](https://drybros.com/services/odor-removal/)
+- [Storm Damage Restoration](https://drybros.com/services/storm-damage-restoration/)
+- [Emergency Board-Up and Tarping](https://drybros.com/services/emergency-board-up-tarping/)
+- [Contents Restoration and Storage](https://drybros.com/services/contents-restoration/)` / `- [Chicago, IL](https://drybros.com/service-areas/chicago-il/)
+- [Naperville, IL](https://drybros.com/service-areas/naperville-il/)
+- [Cicero, IL](https://drybros.com/service-areas/cicero-il/)
+- [Evanston, IL](https://drybros.com/service-areas/evanston-il/)
+- [Oak Park, IL](https://drybros.com/service-areas/oak-park-il/)
+- [Skokie, IL](https://drybros.com/service-areas/skokie-il/)
+- [Berwyn, IL](https://drybros.com/service-areas/berwyn-il/)
+- [Des Plaines, IL](https://drybros.com/service-areas/des-plaines-il/)
+- [Stickney, IL](https://drybros.com/service-areas/stickney-il/)
+- [Bedford Park, IL](https://drybros.com/service-areas/bedford-park-il/)
+- [Lincolnwood, IL](https://drybros.com/service-areas/lincolnwood-il/)
+- [River Forest, IL](https://drybros.com/service-areas/river-forest-il/)
+- [Forest Park, IL](https://drybros.com/service-areas/forest-park-il/)
+- [Lyons, IL](https://drybros.com/service-areas/lyons-il/)
+- [Riverside, IL](https://drybros.com/service-areas/riverside-il/)
+- [Elmwood Park, IL](https://drybros.com/service-areas/elmwood-park-il/)
+- [North Riverside, IL](https://drybros.com/service-areas/north-riverside-il/)
+- [Melrose Park, IL](https://drybros.com/service-areas/melrose-park-il/)
+- [Burbank, IL](https://drybros.com/service-areas/burbank-il/)
+- [Evergreen Park, IL](https://drybros.com/service-areas/evergreen-park-il/)
+- [Brookfield, IL](https://drybros.com/service-areas/brookfield-il/)
+- [Maywood, IL](https://drybros.com/service-areas/maywood-il/)` / `Available on request` / `Greater Chicago region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

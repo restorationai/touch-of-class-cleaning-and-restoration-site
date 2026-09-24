@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "ae6c2aba946e9e4a"
-generated_at: "2026-09-23T14:11:34.823276+00:00"
+generated_at: "2026-09-24T17:21:47.705068+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/wheatland-pa/", "/service-areas/wheatland-pa/fire-damage-restoration/", "/service-areas/wheatland-pa/mold-remediation/", "/service-areas/austintown-oh/general-contracting/", "/service-areas/boardman-oh/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wheatland", "url": "/service-areas/wheatland-pa/"}, {"name": "Renovations, Remodels and General Contracting"}]

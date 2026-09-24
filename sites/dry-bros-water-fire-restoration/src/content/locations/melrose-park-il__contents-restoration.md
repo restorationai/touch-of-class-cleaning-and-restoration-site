@@ -8,7 +8,7 @@ secondary_keywords: ["contents pack-out", "contents cleaning", "belongings resto
 search_intent: "local_service"
 priority: 3.5
 plan_hash: "87103279b54b5837"
-generated_at: "2026-09-20T20:41:41.868004+00:00"
+generated_at: "2026-09-24T17:27:58.259580+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration/", "/service-areas/melrose-park-il/", "/service-areas/melrose-park-il/fire-damage-restoration/", "/service-areas/melrose-park-il/mold-remediation/", "/service-areas/bedford-park-il/contents-restoration/", "/service-areas/berwyn-il/contents-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Melrose Park", "url": "/service-areas/melrose-park-il/"}, {"name": "Contents Restoration and Storage"}]

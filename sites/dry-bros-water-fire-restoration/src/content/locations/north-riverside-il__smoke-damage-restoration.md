@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "076d388e4bcb41d7"
-generated_at: "2026-09-20T19:36:52.613660+00:00"
+generated_at: "2026-09-24T17:27:58.256624+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/north-riverside-il/", "/service-areas/north-riverside-il/fire-damage-restoration/", "/service-areas/north-riverside-il/mold-remediation/", "/service-areas/bedford-park-il/smoke-damage-restoration/", "/service-areas/berwyn-il/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Riverside", "url": "/service-areas/north-riverside-il/"}, {"name": "Smoke Damage Restoration"}]

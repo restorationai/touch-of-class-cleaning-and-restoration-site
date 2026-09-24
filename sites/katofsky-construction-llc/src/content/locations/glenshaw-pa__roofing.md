@@ -7,10 +7,10 @@ primary_keyword: "roofing installation and replacement glenshaw"
 secondary_keywords: ["roofing contractor", "roof replacement", "new roof installation", "residential roofing", "roof repair"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "82ce4f77f634face"
-generated_at: "2026-09-23T14:30:06.905901+00:00"
+plan_hash: "8c4e53070cec846c"
+generated_at: "2026-09-24T17:23:44.557381+00:00"
 manual_override: false
-internal_links: ["/services/roofing/", "/service-areas/glenshaw-pa/", "/service-areas/glenshaw-pa/fire-damage-restoration/", "/service-areas/glenshaw-pa/sewage-cleanup/", "/service-areas/baldwin-pa/roofing/", "/service-areas/bethel-park-pa/roofing/", "/contact/"]
+internal_links: ["/services/roofing/", "/service-areas/glenshaw-pa/", "/service-areas/glenshaw-pa/fire-damage-restoration/", "/service-areas/glenshaw-pa/sewage-cleanup/", "/service-areas/allison-park-pa/roofing/", "/service-areas/baldwin-pa/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Glenshaw", "url": "/service-areas/glenshaw-pa/"}, {"name": "Roofing Installation and Replacement"}]
 faq: []
 area_slug: "glenshaw-pa"

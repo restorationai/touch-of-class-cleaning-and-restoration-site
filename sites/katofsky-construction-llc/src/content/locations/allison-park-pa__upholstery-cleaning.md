@@ -8,7 +8,7 @@ secondary_keywords: ["sofa cleaning", "couch cleaning", "furniture steam cleanin
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "5999a9b2317d301c"
-generated_at: "2026-09-24T14:15:19.535624+00:00"
+generated_at: "2026-09-24T17:23:44.566051+00:00"
 manual_override: false
 internal_links: ["/services/upholstery-cleaning/", "/service-areas/allison-park-pa/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/service-areas/allison-park-pa/roofing/", "/service-areas/baldwin-pa/upholstery-cleaning/", "/service-areas/bethel-park-pa/upholstery-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Allison Park", "url": "/service-areas/allison-park-pa/"}, {"name": "Upholstery Cleaning"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "ac9e4b5302197df6"
-generated_at: "2026-09-23T14:11:34.841056+00:00"
+generated_at: "2026-09-24T17:21:47.713854+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/mercer-pa/", "/service-areas/mercer-pa/fire-damage-restoration/", "/service-areas/mercer-pa/mold-remediation/", "/service-areas/austintown-oh/emergency-board-up-tarping/", "/service-areas/boardman-oh/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mercer", "url": "/service-areas/mercer-pa/"}, {"name": "Emergency Board-Up and Tarping"}]

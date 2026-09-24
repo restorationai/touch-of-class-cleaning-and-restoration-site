@@ -7,10 +7,10 @@ primary_keyword: "roofing installation and replacement pleasant hills"
 secondary_keywords: ["roofing contractor", "roof replacement", "new roof installation", "residential roofing", "roof repair"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "f3e356de99cf1d49"
-generated_at: "2026-09-23T17:47:58.143049+00:00"
+plan_hash: "2ecf45e5d103b3b6"
+generated_at: "2026-09-24T17:23:44.559524+00:00"
 manual_override: false
-internal_links: ["/services/roofing/", "/service-areas/pleasant-hills-pa/", "/service-areas/pleasant-hills-pa/fire-damage-restoration/", "/service-areas/pleasant-hills-pa/sewage-cleanup/", "/service-areas/baldwin-pa/roofing/", "/service-areas/bethel-park-pa/roofing/", "/contact/"]
+internal_links: ["/services/roofing/", "/service-areas/pleasant-hills-pa/", "/service-areas/pleasant-hills-pa/fire-damage-restoration/", "/service-areas/pleasant-hills-pa/sewage-cleanup/", "/service-areas/allison-park-pa/roofing/", "/service-areas/baldwin-pa/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pleasant Hills", "url": "/service-areas/pleasant-hills-pa/"}, {"name": "Roofing Installation and Replacement"}]
 faq: []
 area_slug: "pleasant-hills-pa"

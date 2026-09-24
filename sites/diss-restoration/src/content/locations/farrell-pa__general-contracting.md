@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "fb41df4978047669"
-generated_at: "2026-09-23T14:11:34.805231+00:00"
+generated_at: "2026-09-24T17:21:47.696084+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/farrell-pa/", "/service-areas/farrell-pa/fire-damage-restoration/", "/service-areas/farrell-pa/mold-remediation/", "/service-areas/austintown-oh/general-contracting/", "/service-areas/boardman-oh/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Farrell", "url": "/service-areas/farrell-pa/"}, {"name": "Renovations, Remodels and General Contracting"}]

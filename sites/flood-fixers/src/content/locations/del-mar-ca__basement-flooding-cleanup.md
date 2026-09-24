@@ -7,10 +7,10 @@ primary_keyword: "basement flooding cleanup del mar"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
 priority: 5.6
-plan_hash: "90373a8eb8d7fc8b"
-generated_at: "2026-09-20T19:17:21.682325+00:00"
+plan_hash: "60cd8ea248679043"
+generated_at: "2026-09-24T17:22:06.421044+00:00"
 manual_override: false
-internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/del-mar-ca/", "/service-areas/del-mar-ca/water-damage-restoration/", "/service-areas/del-mar-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/basement-flooding-cleanup/", "/service-areas/carlsbad-ca/basement-flooding-cleanup/", "/contact/"]
+internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/del-mar-ca/", "/service-areas/del-mar-ca/water-damage-restoration/", "/service-areas/del-mar-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/basement-flooding-cleanup/", "/service-areas/camp-pendleton-mainside-ca/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Del Mar", "url": "/service-areas/del-mar-ca/"}, {"name": "Basement Flooding Cleanup"}]
 faq: []
 area_slug: "del-mar-ca"

@@ -7,10 +7,10 @@ primary_keyword: "burst pipe cleanup and repair bonsall"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
 priority: 5.6
-plan_hash: "288fccd3ec517050"
-generated_at: "2026-09-20T14:13:11.331501+00:00"
+plan_hash: "57d9db173755837b"
+generated_at: "2026-09-24T17:22:06.414886+00:00"
 manual_override: false
-internal_links: ["/services/burst-pipe-repair/", "/service-areas/bonsall-ca/", "/service-areas/bonsall-ca/water-damage-restoration/", "/service-areas/bonsall-ca/flood-damage-restoration/", "/service-areas/carlsbad-ca/burst-pipe-repair/", "/service-areas/chula-vista-ca/burst-pipe-repair/", "/contact/"]
+internal_links: ["/services/burst-pipe-repair/", "/service-areas/bonsall-ca/", "/service-areas/bonsall-ca/water-damage-restoration/", "/service-areas/bonsall-ca/flood-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/burst-pipe-repair/", "/service-areas/camp-pendleton-south-ca/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bonsall", "url": "/service-areas/bonsall-ca/"}, {"name": "Burst Pipe Cleanup and Repair"}]
 faq: []
 area_slug: "bonsall-ca"

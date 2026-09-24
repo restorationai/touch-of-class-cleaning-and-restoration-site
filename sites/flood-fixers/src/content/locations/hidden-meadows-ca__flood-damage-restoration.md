@@ -7,10 +7,10 @@ primary_keyword: "flood damage restoration hidden meadows"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "8940052d5a400f4f"
-generated_at: "2026-09-20T14:13:11.330172+00:00"
+plan_hash: "1801562dbad6b835"
+generated_at: "2026-09-24T17:22:06.413712+00:00"
 manual_override: false
-internal_links: ["/services/flood-damage-restoration/", "/service-areas/hidden-meadows-ca/", "/service-areas/hidden-meadows-ca/water-damage-restoration/", "/service-areas/hidden-meadows-ca/reconstruction/", "/service-areas/bonsall-ca/flood-damage-restoration/", "/service-areas/carlsbad-ca/flood-damage-restoration/", "/contact/"]
+internal_links: ["/services/flood-damage-restoration/", "/service-areas/hidden-meadows-ca/", "/service-areas/hidden-meadows-ca/water-damage-restoration/", "/service-areas/hidden-meadows-ca/reconstruction/", "/service-areas/bonsall-ca/flood-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hidden Meadows", "url": "/service-areas/hidden-meadows-ca/"}, {"name": "Flood Damage Restoration"}]
 faq: []
 area_slug: "hidden-meadows-ca"

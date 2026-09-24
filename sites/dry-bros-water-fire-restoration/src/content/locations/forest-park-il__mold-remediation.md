@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "fcacd8ad9c4f0c80"
-generated_at: "2026-09-20T14:13:04.896596+00:00"
+generated_at: "2026-09-24T17:27:58.248269+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/forest-park-il/", "/service-areas/forest-park-il/fire-damage-restoration/", "/service-areas/forest-park-il/water-damage-restoration/", "/service-areas/bedford-park-il/mold-remediation/", "/service-areas/berwyn-il/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Forest Park", "url": "/service-areas/forest-park-il/"}, {"name": "Mold Remediation"}]

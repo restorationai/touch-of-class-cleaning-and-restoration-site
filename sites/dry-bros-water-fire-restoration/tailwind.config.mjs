@@ -13,7 +13,7 @@ export default {
     extend: {
       colors: {
         dark: {
-          DEFAULT: "#111827",
+          DEFAULT: "#161718",
           50: "#f9fafb",
           100: "#f3f4f6",
           200: "#e5e7eb",
@@ -27,24 +27,21 @@ export default {
           950: "#030712",
         },
         primary: {
-          /* Dry Bros water blue (sampled from the logo, 2026-09-18):
-             #0172EC identity, #24BEF9 splash light, #00388C/#021939 navy
-             deep rungs for text-on-light. */
           DEFAULT: "#0172EC",
-          50: "#eff8ff",
-          100: "#daefff",
-          200: "#bde3ff",
-          300: "#8fd2fe",
-          400: "#24BEF9",
-          500: "#0e94f5",
+          50: "#f0f7ff",
+          100: "#d6eaff",
+          200: "#aed5ff",
+          300: "#71b5fe",
+          400: "#3998fe",
+          500: "#017bfe",
           // 600/700 are the DARKENED rungs — brand-tinted TEXT on a white or
           // light surface (Hero's outline button, ProcessSection icons). They
           // are NOT the button fill; that is `cta` below.
           600: "#0172EC",
-          700: "#0055c0",
-          800: "#00388C",
-          900: "#021939",
-          950: "#010f24",
+          700: "#0153ad",
+          800: "#014289",
+          900: "#00346b",
+          950: "#001d3d",
         },
         /* cta — the SOLID-FILL pair: `bg-cta` is every call-to-action's
            background and `text-cta-fg` is the label that sits on it. They are
@@ -55,17 +52,14 @@ export default {
            2026-08-05: "Action to call on the website need to match golds as
            the logo" — the fill is the logo gold now, the label moved instead. */
         cta: {
-          /* Fire red from the logo flame (#BC2B1C) — color law: red CTAs,
-             and here the red IS a brand color. */
-          DEFAULT: "#BC2B1C",
-          hover: "#9a2216",
+          DEFAULT: "#0172EC",
+          hover: "#0153ad",
           fg: "#ffffff",
         },
         accent: {
           // Same pair rule as cta — btn-accent renders text-accent-fg on this.
-          // Dry Bros fire orange; near-black label clears AA on it.
           DEFAULT: "#FD8B00",
-          fg: "#1a1a1a",
+          fg: "#161718",
         },
         muted: {
           DEFAULT: "#4b5563",
@@ -92,7 +86,7 @@ export default {
       },
       fontFamily: {
         sans: ["Inter", "system-ui", "sans-serif"],
-        display: ["Inter", "system-ui", "sans-serif"],
+        display: ["Archivo", "system-ui", "sans-serif"],
       },
       maxWidth: {
         content: "72ch",

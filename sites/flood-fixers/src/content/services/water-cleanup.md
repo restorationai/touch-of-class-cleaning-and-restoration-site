@@ -7,10 +7,10 @@ primary_keyword: "emergency water cleanup san diego"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 8.1
-plan_hash: "783edb142924cccc"
-generated_at: "2026-09-20T14:13:11.323522+00:00"
+plan_hash: "c68ee38b5401ac71"
+generated_at: "2026-09-24T17:22:06.401949+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/bonsall-ca/water-cleanup/", "/service-areas/carlsbad-ca/water-cleanup/", "/service-areas/chula-vista-ca/water-cleanup/", "/service-areas/el-cajon-ca/water-cleanup/", "/service-areas/encinitas-ca/water-cleanup/", "/service-areas/escondido-ca/water-cleanup/", "/service-areas/fairbanks-ranch-ca/water-cleanup/", "/service-areas/harmony-grove-ca/water-cleanup/", "/service-areas/hidden-meadows-ca/water-cleanup/", "/service-areas/la-mesa-ca/water-cleanup/", "/service-areas/national-city-ca/water-cleanup/", "/service-areas/oceanside-ca/water-cleanup/", "/services/water-damage-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/bonsall-ca/water-cleanup/", "/service-areas/camp-pendleton-mainside-ca/water-cleanup/", "/service-areas/camp-pendleton-south-ca/water-cleanup/", "/service-areas/carlsbad-ca/water-cleanup/", "/service-areas/chula-vista-ca/water-cleanup/", "/service-areas/del-mar-ca/water-cleanup/", "/service-areas/el-cajon-ca/water-cleanup/", "/service-areas/encinitas-ca/water-cleanup/", "/service-areas/escondido-ca/water-cleanup/", "/service-areas/fairbanks-ranch-ca/water-cleanup/", "/service-areas/fallbrook-ca/water-cleanup/", "/service-areas/harmony-grove-ca/water-cleanup/", "/services/water-damage-restoration/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "water-cleanup"}]
 faq: []
 service_slug: "water-cleanup"

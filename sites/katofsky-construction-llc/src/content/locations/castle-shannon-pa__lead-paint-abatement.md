@@ -7,10 +7,10 @@ primary_keyword: "lead paint abatement castle shannon"
 secondary_keywords: ["lead paint removal", "lead paint testing", "lead-safe renovation", "lead paint remediation", "EPA RRP certified"]
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "1bd735ce9b5f96f1"
-generated_at: "2026-09-22T18:10:17.099213+00:00"
+plan_hash: "79c77db09adb2a8a"
+generated_at: "2026-09-24T17:23:44.552481+00:00"
 manual_override: false
-internal_links: ["/services/lead-paint-abatement/", "/service-areas/castle-shannon-pa/", "/service-areas/castle-shannon-pa/fire-damage-restoration/", "/service-areas/castle-shannon-pa/roofing/", "/service-areas/baldwin-pa/lead-paint-abatement/", "/service-areas/bethel-park-pa/lead-paint-abatement/", "/contact/"]
+internal_links: ["/services/lead-paint-abatement/", "/service-areas/castle-shannon-pa/", "/service-areas/castle-shannon-pa/fire-damage-restoration/", "/service-areas/castle-shannon-pa/roofing/", "/service-areas/allison-park-pa/lead-paint-abatement/", "/service-areas/baldwin-pa/lead-paint-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Castle Shannon", "url": "/service-areas/castle-shannon-pa/"}, {"name": "Lead Paint Abatement"}]
 faq: []
 area_slug: "castle-shannon-pa"

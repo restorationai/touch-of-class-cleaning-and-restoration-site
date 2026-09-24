@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration bedford park"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "591a81bb6af248e9"
-generated_at: "2026-09-20T14:13:04.889567+00:00"
+plan_hash: "b12ffcd4ca9cea88"
+generated_at: "2026-09-24T17:27:58.241142+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/bedford-park-il/", "/service-areas/bedford-park-il/fire-damage-restoration/", "/service-areas/bedford-park-il/mold-remediation/", "/service-areas/berwyn-il/water-damage-restoration/", "/service-areas/cicero-il/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/bedford-park-il/", "/service-areas/bedford-park-il/fire-damage-restoration/", "/service-areas/bedford-park-il/mold-remediation/", "/service-areas/berwyn-il/water-damage-restoration/", "/service-areas/brookfield-il/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bedford Park", "url": "/service-areas/bedford-park-il/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "bedford-park-il"

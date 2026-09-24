@@ -7,10 +7,10 @@ primary_keyword: "sewage cleanup and sanitization bedford park"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "398cc65c43ef3cb5"
-generated_at: "2026-09-20T14:13:04.890770+00:00"
+plan_hash: "6cb5b7d6d17f5126"
+generated_at: "2026-09-24T17:27:58.242341+00:00"
 manual_override: false
-internal_links: ["/services/sewage-cleanup/", "/service-areas/bedford-park-il/", "/service-areas/bedford-park-il/fire-damage-restoration/", "/service-areas/bedford-park-il/mold-remediation/", "/service-areas/berwyn-il/sewage-cleanup/", "/service-areas/cicero-il/sewage-cleanup/", "/contact/"]
+internal_links: ["/services/sewage-cleanup/", "/service-areas/bedford-park-il/", "/service-areas/bedford-park-il/fire-damage-restoration/", "/service-areas/bedford-park-il/mold-remediation/", "/service-areas/berwyn-il/sewage-cleanup/", "/service-areas/brookfield-il/sewage-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bedford Park", "url": "/service-areas/bedford-park-il/"}, {"name": "Sewage Cleanup and Sanitization"}]
 faq: []
 area_slug: "bedford-park-il"

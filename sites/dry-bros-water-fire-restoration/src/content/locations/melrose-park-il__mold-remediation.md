@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "78685878327e8ef1"
-generated_at: "2026-09-20T20:41:41.866112+00:00"
+generated_at: "2026-09-24T17:27:58.257546+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/melrose-park-il/", "/service-areas/melrose-park-il/fire-damage-restoration/", "/service-areas/melrose-park-il/water-damage-restoration/", "/service-areas/bedford-park-il/mold-remediation/", "/service-areas/berwyn-il/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Melrose Park", "url": "/service-areas/melrose-park-il/"}, {"name": "Mold Remediation"}]

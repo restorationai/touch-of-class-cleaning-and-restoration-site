@@ -8,7 +8,7 @@ secondary_keywords: ["contents pack-out", "contents cleaning", "belongings resto
 search_intent: "local_service"
 priority: 3.5
 plan_hash: "97df9209831c9204"
-generated_at: "2026-09-22T02:11:09.552032+00:00"
+generated_at: "2026-09-24T17:27:58.265917+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration/", "/service-areas/brookfield-il/", "/service-areas/brookfield-il/fire-damage-restoration/", "/service-areas/brookfield-il/mold-remediation/", "/service-areas/bedford-park-il/contents-restoration/", "/service-areas/berwyn-il/contents-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Brookfield", "url": "/service-areas/brookfield-il/"}, {"name": "Contents Restoration and Storage"}]

@@ -7,10 +7,10 @@ primary_keyword: "carpet cleaning pleasant hills"
 secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "carpet stain removal", "commercial carpet cleaning", "carpet sanitization"]
 search_intent: "local_specialty"
 priority: 2.8
-plan_hash: "324eafb9c7c8bb11"
-generated_at: "2026-09-23T17:47:58.144579+00:00"
+plan_hash: "02778c15931a69de"
+generated_at: "2026-09-24T17:23:44.560903+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/pleasant-hills-pa/", "/service-areas/pleasant-hills-pa/fire-damage-restoration/", "/service-areas/pleasant-hills-pa/roofing/", "/service-areas/baldwin-pa/carpet-cleaning/", "/service-areas/bethel-park-pa/carpet-cleaning/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/pleasant-hills-pa/", "/service-areas/pleasant-hills-pa/fire-damage-restoration/", "/service-areas/pleasant-hills-pa/roofing/", "/service-areas/allison-park-pa/carpet-cleaning/", "/service-areas/baldwin-pa/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pleasant Hills", "url": "/service-areas/pleasant-hills-pa/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "pleasant-hills-pa"

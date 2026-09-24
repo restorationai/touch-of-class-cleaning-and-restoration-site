@@ -8,7 +8,7 @@ secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "888cdda2e9d7f798"
-generated_at: "2026-09-23T14:11:34.802523+00:00"
+generated_at: "2026-09-24T17:21:47.694614+00:00"
 manual_override: false
 internal_links: ["/services/water-cleanup/", "/service-areas/mineral-ridge-oh/", "/service-areas/mineral-ridge-oh/fire-damage-restoration/", "/service-areas/mineral-ridge-oh/mold-remediation/", "/service-areas/austintown-oh/water-cleanup/", "/service-areas/boardman-oh/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mineral Ridge", "url": "/service-areas/mineral-ridge-oh/"}, {"name": "Emergency Water Cleanup"}]

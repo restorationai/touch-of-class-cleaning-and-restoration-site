@@ -7,10 +7,10 @@ primary_keyword: "restoration services castle shannon"
 secondary_keywords: ["castle shannon restoration company", "damage restoration castle shannon", "castle shannon disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "426963b930545cf2"
-generated_at: "2026-09-22T18:10:17.094428+00:00"
+plan_hash: "5c1229c4ab827863"
+generated_at: "2026-09-24T17:23:44.533678+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/castle-shannon-pa/fire-damage-restoration/", "/service-areas/castle-shannon-pa/roofing/", "/service-areas/castle-shannon-pa/sewage-cleanup/", "/service-areas/castle-shannon-pa/biohazard-cleanup/", "/service-areas/castle-shannon-pa/general-contracting/", "/service-areas/castle-shannon-pa/emergency-board-up-tarping/", "/service-areas/castle-shannon-pa/asbestos-abatement/", "/service-areas/castle-shannon-pa/air-duct-cleaning/", "/service-areas/castle-shannon-pa/contents-restoration-storage/", "/service-areas/castle-shannon-pa/lead-paint-abatement/", "/service-areas/castle-shannon-pa/carpet-cleaning/", "/service-areas/castle-shannon-pa/upholstery-cleaning/", "/service-areas/baldwin-pa/", "/service-areas/bethel-park-pa/", "/service-areas/carnegie-pa/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/castle-shannon-pa/fire-damage-restoration/", "/service-areas/castle-shannon-pa/roofing/", "/service-areas/castle-shannon-pa/sewage-cleanup/", "/service-areas/castle-shannon-pa/biohazard-cleanup/", "/service-areas/castle-shannon-pa/general-contracting/", "/service-areas/castle-shannon-pa/emergency-board-up-tarping/", "/service-areas/castle-shannon-pa/asbestos-abatement/", "/service-areas/castle-shannon-pa/air-duct-cleaning/", "/service-areas/castle-shannon-pa/contents-restoration-storage/", "/service-areas/castle-shannon-pa/lead-paint-abatement/", "/service-areas/castle-shannon-pa/carpet-cleaning/", "/service-areas/castle-shannon-pa/upholstery-cleaning/", "/service-areas/allison-park-pa/", "/service-areas/baldwin-pa/", "/service-areas/bethel-park-pa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Castle Shannon"}]
 faq: []
 area_slug: "castle-shannon-pa"

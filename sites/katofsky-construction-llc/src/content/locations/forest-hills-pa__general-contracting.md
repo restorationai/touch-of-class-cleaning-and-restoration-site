@@ -7,10 +7,10 @@ primary_keyword: "renovations, remodels and general contracting forest hills"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "9c11e43f6f8debb0"
-generated_at: "2026-09-23T22:09:55.966527+00:00"
+plan_hash: "7d2effeb7e224060"
+generated_at: "2026-09-24T17:23:44.562872+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/forest-hills-pa/", "/service-areas/forest-hills-pa/fire-damage-restoration/", "/service-areas/forest-hills-pa/roofing/", "/service-areas/baldwin-pa/general-contracting/", "/service-areas/bethel-park-pa/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/forest-hills-pa/", "/service-areas/forest-hills-pa/fire-damage-restoration/", "/service-areas/forest-hills-pa/roofing/", "/service-areas/allison-park-pa/general-contracting/", "/service-areas/baldwin-pa/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Forest Hills", "url": "/service-areas/forest-hills-pa/"}, {"name": "Renovations, Remodels and General Contracting"}]
 faq: []
 area_slug: "forest-hills-pa"

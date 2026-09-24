@@ -17,6 +17,11 @@ export const brand = {
   canonicalUrl: "https://katofskyconstruction.com",
   phone: "(412) 304-9284",
   phoneRaw: "+14123049284",
+  hideMobileHeaderCall: false,
+  // A2P/SMS-registration legal entity. When set, the estimate forms render
+  // the carrier-compliant consent checkbox naming this entity (exact wording
+  // matters to reviewers — do not paraphrase). Empty = generic consent only.
+  smsConsentEntity: "",
   // Sitewide call-tracking number (2026-08-24). When BOTH fields are set,
   // a tiny inline script in BaseLayout swaps every visible phone mention
   // and tel: link to this number AFTER the page renders. The HTML source,
@@ -35,7 +40,7 @@ export const brand = {
   // copy). addressCity/addressState = where the business PHYSICALLY is.
   // They are usually the same and often diverge (DISS: Farrell PA office,
   // Youngstown OH target) — only the address pair may go in a PostalAddress.
-  addressCity: "Pgh",
+  addressCity: "Pittsburgh",
   addressState: "PA",
   streetAddress: "150 Leroy st ",
   postalCode: "15239",

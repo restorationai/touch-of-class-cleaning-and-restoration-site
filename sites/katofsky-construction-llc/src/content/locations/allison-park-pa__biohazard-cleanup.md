@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "12da626a6ba5ab65"
-generated_at: "2026-09-24T14:15:19.534560+00:00"
+generated_at: "2026-09-24T17:23:44.565100+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/allison-park-pa/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/service-areas/allison-park-pa/roofing/", "/service-areas/baldwin-pa/biohazard-cleanup/", "/service-areas/bethel-park-pa/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Allison Park", "url": "/service-areas/allison-park-pa/"}, {"name": "Biohazard Cleanup"}]

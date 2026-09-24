@@ -8,7 +8,7 @@ secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitizati
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "36990d18f1bae620"
-generated_at: "2026-09-24T14:15:19.535335+00:00"
+generated_at: "2026-09-24T17:23:44.565788+00:00"
 manual_override: false
 internal_links: ["/services/air-duct-cleaning/", "/service-areas/allison-park-pa/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/service-areas/allison-park-pa/roofing/", "/service-areas/baldwin-pa/air-duct-cleaning/", "/service-areas/bethel-park-pa/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Allison Park", "url": "/service-areas/allison-park-pa/"}, {"name": "Air Duct Cleaning"}]

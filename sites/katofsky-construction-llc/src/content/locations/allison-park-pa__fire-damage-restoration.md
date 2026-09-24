@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "0a27ab49166c9dfb"
-generated_at: "2026-09-24T14:15:19.533895+00:00"
+generated_at: "2026-09-24T17:23:44.564477+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/allison-park-pa/", "/service-areas/allison-park-pa/roofing/", "/service-areas/allison-park-pa/sewage-cleanup/", "/service-areas/baldwin-pa/fire-damage-restoration/", "/service-areas/bethel-park-pa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Allison Park", "url": "/service-areas/allison-park-pa/"}, {"name": "Fire Damage Restoration"}]

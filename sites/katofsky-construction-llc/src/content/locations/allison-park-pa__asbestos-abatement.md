@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "7b3de25a2a65b4b3"
-generated_at: "2026-09-24T14:15:19.534702+00:00"
+generated_at: "2026-09-24T17:23:44.565239+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/allison-park-pa/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/service-areas/allison-park-pa/roofing/", "/service-areas/baldwin-pa/asbestos-abatement/", "/service-areas/bethel-park-pa/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Allison Park", "url": "/service-areas/allison-park-pa/"}, {"name": "Asbestos Abatement"}]

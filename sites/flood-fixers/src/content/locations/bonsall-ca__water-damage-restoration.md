@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration bonsall"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "0964c61617a12f01"
-generated_at: "2026-09-20T14:13:11.331172+00:00"
+plan_hash: "0400b26a68e6c091"
+generated_at: "2026-09-24T17:22:06.414598+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/bonsall-ca/", "/service-areas/bonsall-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/reconstruction/", "/service-areas/carlsbad-ca/water-damage-restoration/", "/service-areas/chula-vista-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/bonsall-ca/", "/service-areas/bonsall-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/reconstruction/", "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/", "/service-areas/camp-pendleton-south-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bonsall", "url": "/service-areas/bonsall-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "bonsall-ca"

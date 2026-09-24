@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "d2de54249add9324"
-generated_at: "2026-09-20T14:13:04.899378+00:00"
+generated_at: "2026-09-24T17:27:58.250622+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/lyons-il/", "/service-areas/lyons-il/fire-damage-restoration/", "/service-areas/lyons-il/mold-remediation/", "/service-areas/bedford-park-il/burst-pipe-repair/", "/service-areas/berwyn-il/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lyons", "url": "/service-areas/lyons-il/"}, {"name": "Burst Pipe Cleanup and Repair"}]

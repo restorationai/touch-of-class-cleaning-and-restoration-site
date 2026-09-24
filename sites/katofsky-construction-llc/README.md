@@ -80,7 +80,15 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 - [Lower Burrell, PA](https://katofskyconstruction.com/service-areas/lower-burrell-pa/)
 - [Jeannette, PA](https://katofskyconstruction.com/service-areas/jeannette-pa/)
 - [Green Tree, PA](https://katofskyconstruction.com/service-areas/green-tree-pa/)
-- [Carnegie, PA](https://katofskyconstruction.com/service-areas/carnegie-pa/)` / `IICRC CERTIFIED FIRM, IICRC WRT (WATER), IICRC AMRT (MOLD)` / `Greater Pittsburgh region` | computed at scaffold from plan + brand | |
+- [Carnegie, PA](https://katofskyconstruction.com/service-areas/carnegie-pa/)
+- [Castle Shannon, PA](https://katofskyconstruction.com/service-areas/castle-shannon-pa/)
+- [Whitehall, PA](https://katofskyconstruction.com/service-areas/whitehall-pa/)
+- [Munhall, PA](https://katofskyconstruction.com/service-areas/munhall-pa/)
+- [Glenshaw, PA](https://katofskyconstruction.com/service-areas/glenshaw-pa/)
+- [Pleasant Hills, PA](https://katofskyconstruction.com/service-areas/pleasant-hills-pa/)
+- [Wilkinsburg, PA](https://katofskyconstruction.com/service-areas/wilkinsburg-pa/)
+- [Forest Hills, PA](https://katofskyconstruction.com/service-areas/forest-hills-pa/)
+- [Allison Park, PA](https://katofskyconstruction.com/service-areas/allison-park-pa/)` / `IICRC CERTIFIED FIRM, IICRC WRT (WATER), IICRC AMRT (MOLD)` / `Greater Pittsburgh region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

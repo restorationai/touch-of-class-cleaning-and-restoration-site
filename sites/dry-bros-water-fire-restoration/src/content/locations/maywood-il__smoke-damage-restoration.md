@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "fdf943da3aafb07b"
-generated_at: "2026-09-22T14:27:23.601509+00:00"
+generated_at: "2026-09-24T17:27:58.268088+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/maywood-il/", "/service-areas/maywood-il/fire-damage-restoration/", "/service-areas/maywood-il/mold-remediation/", "/service-areas/bedford-park-il/smoke-damage-restoration/", "/service-areas/berwyn-il/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Maywood", "url": "/service-areas/maywood-il/"}, {"name": "Smoke Damage Restoration"}]

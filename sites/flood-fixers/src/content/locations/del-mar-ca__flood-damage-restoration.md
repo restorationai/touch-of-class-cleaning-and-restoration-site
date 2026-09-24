@@ -7,10 +7,10 @@ primary_keyword: "flood damage restoration del mar"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "d480393bc32698ba"
-generated_at: "2026-09-20T19:17:21.682154+00:00"
+plan_hash: "7f45bee872bed75e"
+generated_at: "2026-09-24T17:22:06.420686+00:00"
 manual_override: false
-internal_links: ["/services/flood-damage-restoration/", "/service-areas/del-mar-ca/", "/service-areas/del-mar-ca/water-damage-restoration/", "/service-areas/del-mar-ca/reconstruction/", "/service-areas/bonsall-ca/flood-damage-restoration/", "/service-areas/carlsbad-ca/flood-damage-restoration/", "/contact/"]
+internal_links: ["/services/flood-damage-restoration/", "/service-areas/del-mar-ca/", "/service-areas/del-mar-ca/water-damage-restoration/", "/service-areas/del-mar-ca/reconstruction/", "/service-areas/bonsall-ca/flood-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Del Mar", "url": "/service-areas/del-mar-ca/"}, {"name": "Flood Damage Restoration"}]
 faq: []
 area_slug: "del-mar-ca"

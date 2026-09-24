@@ -8,7 +8,7 @@ secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitizati
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "81c3b0d422cd06e2"
-generated_at: "2026-09-23T14:11:24.716170+00:00"
+generated_at: "2026-09-24T17:23:55.855078+00:00"
 manual_override: false
 internal_links: ["/services/air-duct-cleaning/", "/service-areas/baird-tx/", "/service-areas/baird-tx/fire-damage-restoration/", "/service-areas/baird-tx/mold-remediation/", "/service-areas/albany-tx/air-duct-cleaning/", "/service-areas/anson-tx/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Baird", "url": "/service-areas/baird-tx/"}, {"name": "Air Duct Cleaning"}]

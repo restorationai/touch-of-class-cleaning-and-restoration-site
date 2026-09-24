@@ -8,7 +8,7 @@ secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "ca
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "f8a0c193957413e7"
-generated_at: "2026-09-23T14:11:34.817593+00:00"
+generated_at: "2026-09-24T17:21:47.702078+00:00"
 manual_override: false
 internal_links: ["/services/carpet-cleaning/", "/service-areas/sharpsville-pa/", "/service-areas/sharpsville-pa/fire-damage-restoration/", "/service-areas/sharpsville-pa/mold-remediation/", "/service-areas/austintown-oh/carpet-cleaning/", "/service-areas/boardman-oh/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sharpsville", "url": "/service-areas/sharpsville-pa/"}, {"name": "Carpet Cleaning"}]

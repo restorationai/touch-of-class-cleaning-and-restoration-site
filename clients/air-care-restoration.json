@@ -13,24 +13,24 @@
     "url_count": 464,
     "generated_at": "2026-09-23T14:11:22.856394+00:00"
   },
-  "updated_at": "2026-09-24T15:23:35.156806+00:00",
+  "updated_at": "2026-09-24T17:23:56.479356+00:00",
   "gbp": {
     "place_id": "ChIJAbX4Kjsyg2IRF9RgElzgJXk",
     "google_review_url": "https://search.google.com/local/writereview?placeid=ChIJAbX4Kjsyg2IRF9RgElzgJXk"
   },
   "indexnow_key": "bee925b39acb4e4e892a84260e0e71df",
   "build": {
-    "scaffolded_at": "2026-08-14T05:48:05.914623+00:00",
+    "scaffolded_at": "2026-09-24T17:23:56.479194+00:00",
     "github_repo": "restorationai/air-care-restoration-site",
     "pages_project": "rankai-air-care-restoration",
     "starter_version": "0.1.0",
-    "url_count": 254,
-    "pages_status": "created",
+    "url_count": 464,
+    "pages_status": "exists",
     "last_rendered_at": "2026-09-24T15:05:32.735916+00:00",
     "last_pushed_staging_at": "2026-08-22T04:56:23.231524+00:00",
     "last_pushed_main_at": "2026-09-24T15:23:35.156788+00:00"
   },
-  "build_status": "pushed_main",
+  "build_status": "scaffolded",
   "cutover_prep": {
     "domain": "aircarerestoration.com",
     "harvested_at": "2026-08-16T14:25:06+00:00",

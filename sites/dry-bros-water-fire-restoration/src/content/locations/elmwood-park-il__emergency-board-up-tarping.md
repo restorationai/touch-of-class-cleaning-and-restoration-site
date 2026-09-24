@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "51f770f96a4182bd"
-generated_at: "2026-09-20T19:17:14.588362+00:00"
+generated_at: "2026-09-24T17:27:58.255046+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/elmwood-park-il/", "/service-areas/elmwood-park-il/fire-damage-restoration/", "/service-areas/elmwood-park-il/mold-remediation/", "/service-areas/bedford-park-il/emergency-board-up-tarping/", "/service-areas/berwyn-il/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elmwood Park", "url": "/service-areas/elmwood-park-il/"}, {"name": "Emergency Board-Up and Tarping"}]

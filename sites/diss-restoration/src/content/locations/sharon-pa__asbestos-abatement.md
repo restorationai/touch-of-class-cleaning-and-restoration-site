@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "028dc6779ba30ec3"
-generated_at: "2026-09-23T14:11:34.807621+00:00"
+generated_at: "2026-09-24T17:21:47.697638+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/sharon-pa/", "/service-areas/sharon-pa/fire-damage-restoration/", "/service-areas/sharon-pa/mold-remediation/", "/service-areas/austintown-oh/asbestos-abatement/", "/service-areas/boardman-oh/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sharon", "url": "/service-areas/sharon-pa/"}, {"name": "Asbestos Abatement"}]

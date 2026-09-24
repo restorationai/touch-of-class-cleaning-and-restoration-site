@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "61cf1916203a00cf"
-generated_at: "2026-09-23T14:11:34.785019+00:00"
+generated_at: "2026-09-24T17:21:47.682465+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration-storage/", "/service-areas/boardman-oh/", "/service-areas/boardman-oh/fire-damage-restoration/", "/service-areas/boardman-oh/mold-remediation/", "/service-areas/austintown-oh/contents-restoration-storage/", "/service-areas/campbell-oh/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Boardman", "url": "/service-areas/boardman-oh/"}, {"name": "Contents Restoration & Storage"}]

@@ -7,10 +7,10 @@ primary_keyword: "air duct cleaning pleasant hills"
 secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitization", "dryer vent cleaning", "residential duct cleaning"]
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "b1d86cb78d697229"
-generated_at: "2026-09-23T17:47:58.144404+00:00"
+plan_hash: "686d4f411cc67649"
+generated_at: "2026-09-24T17:23:44.560771+00:00"
 manual_override: false
-internal_links: ["/services/air-duct-cleaning/", "/service-areas/pleasant-hills-pa/", "/service-areas/pleasant-hills-pa/fire-damage-restoration/", "/service-areas/pleasant-hills-pa/roofing/", "/service-areas/baldwin-pa/air-duct-cleaning/", "/service-areas/bethel-park-pa/air-duct-cleaning/", "/contact/"]
+internal_links: ["/services/air-duct-cleaning/", "/service-areas/pleasant-hills-pa/", "/service-areas/pleasant-hills-pa/fire-damage-restoration/", "/service-areas/pleasant-hills-pa/roofing/", "/service-areas/allison-park-pa/air-duct-cleaning/", "/service-areas/baldwin-pa/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pleasant Hills", "url": "/service-areas/pleasant-hills-pa/"}, {"name": "Air Duct Cleaning"}]
 faq: []
 area_slug: "pleasant-hills-pa"

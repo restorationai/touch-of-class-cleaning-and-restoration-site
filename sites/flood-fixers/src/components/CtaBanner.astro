@@ -1,13 +1,10 @@
 ---
 // CtaBanner — standardized compact CTA bar (narestco reference design).
 //
-// Flood Fixers note: the call button uses the brand ACCENT blue (accent-600),
-// matching the hero hotline CTA — NOT primary-600, which is grey in this
-// site's mono palette (the old banner rendered a grey-on-dark button).
-//
 // Deliberately renders NO decorative background image: the previous full-bleed
 // <img> variant showed its alt text whenever the R2 asset 404'd (homepride
-// incident). Never add a decorative <img> here without a build-verified src.
+// incident, brand/hero.webp missing). Never add a decorative <img> here
+// without a build-verified src.
 import { brand } from "~/lib/brand";
 
 type Props = {
@@ -38,7 +35,7 @@ const {
     <div class="flex flex-col sm:flex-row gap-4 shrink-0">
       <a
         href={`tel:${brand.phoneRaw}`}
-        class={`inline-flex items-center justify-center font-bold px-8 py-3 rounded-md transition-all text-lg shadow-lg ${isSensitive ? 'bg-dark text-white hover:bg-dark-700' : 'bg-accent-600 text-white hover:bg-accent-700'}`}
+        class={`inline-flex items-center justify-center font-bold px-8 py-3 rounded-md transition-all text-lg shadow-lg ${isSensitive ? 'bg-dark text-white hover:bg-dark-800' : 'bg-cta text-cta-fg hover:bg-cta-hover'}`}
       >
         Call {brand.phone}
       </a>

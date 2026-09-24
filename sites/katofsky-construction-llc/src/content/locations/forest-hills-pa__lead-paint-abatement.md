@@ -7,10 +7,10 @@ primary_keyword: "lead paint abatement forest hills"
 secondary_keywords: ["lead paint removal", "lead paint testing", "lead-safe renovation", "lead paint remediation", "EPA RRP certified"]
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "0d23d1eb2b200af7"
-generated_at: "2026-09-23T22:09:55.967492+00:00"
+plan_hash: "d879755ae665ea98"
+generated_at: "2026-09-24T17:23:44.563589+00:00"
 manual_override: false
-internal_links: ["/services/lead-paint-abatement/", "/service-areas/forest-hills-pa/", "/service-areas/forest-hills-pa/fire-damage-restoration/", "/service-areas/forest-hills-pa/roofing/", "/service-areas/baldwin-pa/lead-paint-abatement/", "/service-areas/bethel-park-pa/lead-paint-abatement/", "/contact/"]
+internal_links: ["/services/lead-paint-abatement/", "/service-areas/forest-hills-pa/", "/service-areas/forest-hills-pa/fire-damage-restoration/", "/service-areas/forest-hills-pa/roofing/", "/service-areas/allison-park-pa/lead-paint-abatement/", "/service-areas/baldwin-pa/lead-paint-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Forest Hills", "url": "/service-areas/forest-hills-pa/"}, {"name": "Lead Paint Abatement"}]
 faq: []
 area_slug: "forest-hills-pa"

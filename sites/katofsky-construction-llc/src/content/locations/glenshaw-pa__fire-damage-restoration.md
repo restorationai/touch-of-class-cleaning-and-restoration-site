@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration glenshaw"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "87870bfe0175cad5"
-generated_at: "2026-09-23T14:30:06.905519+00:00"
+plan_hash: "b81187572e232a75"
+generated_at: "2026-09-24T17:23:44.557058+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/glenshaw-pa/", "/service-areas/glenshaw-pa/roofing/", "/service-areas/glenshaw-pa/sewage-cleanup/", "/service-areas/baldwin-pa/fire-damage-restoration/", "/service-areas/bethel-park-pa/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/glenshaw-pa/", "/service-areas/glenshaw-pa/roofing/", "/service-areas/glenshaw-pa/sewage-cleanup/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/service-areas/baldwin-pa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Glenshaw", "url": "/service-areas/glenshaw-pa/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "glenshaw-pa"

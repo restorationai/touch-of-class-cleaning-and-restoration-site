@@ -7,10 +7,10 @@ primary_keyword: "emergency water cleanup oceanside"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "b1bc47f421a3d034"
-generated_at: "2026-09-20T14:13:11.325444+00:00"
+plan_hash: "3ba540eb593899e8"
+generated_at: "2026-09-24T17:22:06.406318+00:00"
 manual_override: false
-internal_links: ["/services/water-cleanup/", "/service-areas/oceanside-ca/", "/service-areas/oceanside-ca/water-damage-restoration/", "/service-areas/oceanside-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/water-cleanup/", "/service-areas/carlsbad-ca/water-cleanup/", "/contact/"]
+internal_links: ["/services/water-cleanup/", "/service-areas/oceanside-ca/", "/service-areas/oceanside-ca/water-damage-restoration/", "/service-areas/oceanside-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/water-cleanup/", "/service-areas/camp-pendleton-mainside-ca/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oceanside", "url": "/service-areas/oceanside-ca/"}, {"name": "water-cleanup"}]
 faq: []
 area_slug: "oceanside-ca"

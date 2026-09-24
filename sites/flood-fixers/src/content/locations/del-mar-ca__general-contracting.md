@@ -7,10 +7,10 @@ primary_keyword: "renovations, remodels and general contracting del mar"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "9c6ac880d1eece2c"
-generated_at: "2026-09-20T19:17:21.682484+00:00"
+plan_hash: "f1044b326688d46d"
+generated_at: "2026-09-24T17:22:06.421389+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/del-mar-ca/", "/service-areas/del-mar-ca/water-damage-restoration/", "/service-areas/del-mar-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/general-contracting/", "/service-areas/carlsbad-ca/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/del-mar-ca/", "/service-areas/del-mar-ca/water-damage-restoration/", "/service-areas/del-mar-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/general-contracting/", "/service-areas/camp-pendleton-mainside-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Del Mar", "url": "/service-areas/del-mar-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]
 faq: []
 area_slug: "del-mar-ca"

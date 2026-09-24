@@ -7,10 +7,10 @@ primary_keyword: "reconstruction services valley center"
 secondary_keywords: ["post-damage reconstruction", "rebuild services", "structural reconstruction", "post-disaster rebuilding", "fire damage reconstruction"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "10d6a392785f9924"
-generated_at: "2026-09-20T14:13:11.334254+00:00"
+plan_hash: "b97b9db7153821a3"
+generated_at: "2026-09-24T17:22:06.417633+00:00"
 manual_override: false
-internal_links: ["/services/reconstruction/", "/service-areas/valley-center-ca/", "/service-areas/valley-center-ca/water-damage-restoration/", "/service-areas/valley-center-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/reconstruction/", "/service-areas/carlsbad-ca/reconstruction/", "/contact/"]
+internal_links: ["/services/reconstruction/", "/service-areas/valley-center-ca/", "/service-areas/valley-center-ca/water-damage-restoration/", "/service-areas/valley-center-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/reconstruction/", "/service-areas/camp-pendleton-mainside-ca/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Valley Center", "url": "/service-areas/valley-center-ca/"}, {"name": "Reconstruction Services"}]
 faq: []
 area_slug: "valley-center-ca"

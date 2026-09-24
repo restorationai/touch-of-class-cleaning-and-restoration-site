@@ -8,7 +8,7 @@ secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "177e06966c941876"
-generated_at: "2026-09-22T02:11:09.550956+00:00"
+generated_at: "2026-09-24T17:27:58.264573+00:00"
 manual_override: false
 internal_links: ["/services/water-cleanup/", "/service-areas/brookfield-il/", "/service-areas/brookfield-il/fire-damage-restoration/", "/service-areas/brookfield-il/mold-remediation/", "/service-areas/bedford-park-il/water-cleanup/", "/service-areas/berwyn-il/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Brookfield", "url": "/service-areas/brookfield-il/"}, {"name": "Emergency Water Cleanup"}]

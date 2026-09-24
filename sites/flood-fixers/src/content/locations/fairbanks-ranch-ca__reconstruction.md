@@ -7,10 +7,10 @@ primary_keyword: "reconstruction services fairbanks ranch"
 secondary_keywords: ["post-damage reconstruction", "rebuild services", "structural reconstruction", "post-disaster rebuilding", "fire damage reconstruction"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "657e933f2d15ed3f"
-generated_at: "2026-09-20T14:13:11.335424+00:00"
+plan_hash: "4b813717ef749ec6"
+generated_at: "2026-09-24T17:22:06.418815+00:00"
 manual_override: false
-internal_links: ["/services/reconstruction/", "/service-areas/fairbanks-ranch-ca/", "/service-areas/fairbanks-ranch-ca/water-damage-restoration/", "/service-areas/fairbanks-ranch-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/reconstruction/", "/service-areas/carlsbad-ca/reconstruction/", "/contact/"]
+internal_links: ["/services/reconstruction/", "/service-areas/fairbanks-ranch-ca/", "/service-areas/fairbanks-ranch-ca/water-damage-restoration/", "/service-areas/fairbanks-ranch-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/reconstruction/", "/service-areas/camp-pendleton-mainside-ca/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fairbanks Ranch", "url": "/service-areas/fairbanks-ranch-ca/"}, {"name": "Reconstruction Services"}]
 faq: []
 area_slug: "fairbanks-ranch-ca"

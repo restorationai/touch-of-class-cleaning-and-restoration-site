@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "4d1ef0acd34e1a79"
-generated_at: "2026-09-20T14:13:04.897114+00:00"
+generated_at: "2026-09-24T17:27:58.248681+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/forest-park-il/", "/service-areas/forest-park-il/fire-damage-restoration/", "/service-areas/forest-park-il/mold-remediation/", "/service-areas/bedford-park-il/burst-pipe-repair/", "/service-areas/berwyn-il/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Forest Park", "url": "/service-areas/forest-park-il/"}, {"name": "Burst Pipe Cleanup and Repair"}]

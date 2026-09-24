@@ -7,10 +7,10 @@ primary_keyword: "emergency water cleanup harmony grove"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "2adfd5e467ea8350"
-generated_at: "2026-09-20T14:13:11.329839+00:00"
+plan_hash: "822d44c533f1832e"
+generated_at: "2026-09-24T17:22:06.413377+00:00"
 manual_override: false
-internal_links: ["/services/water-cleanup/", "/service-areas/harmony-grove-ca/", "/service-areas/harmony-grove-ca/water-damage-restoration/", "/service-areas/harmony-grove-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/water-cleanup/", "/service-areas/carlsbad-ca/water-cleanup/", "/contact/"]
+internal_links: ["/services/water-cleanup/", "/service-areas/harmony-grove-ca/", "/service-areas/harmony-grove-ca/water-damage-restoration/", "/service-areas/harmony-grove-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/water-cleanup/", "/service-areas/camp-pendleton-mainside-ca/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Harmony Grove", "url": "/service-areas/harmony-grove-ca/"}, {"name": "water-cleanup"}]
 faq: []
 area_slug: "harmony-grove-ca"

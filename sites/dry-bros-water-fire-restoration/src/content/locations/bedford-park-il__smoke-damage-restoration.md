@@ -7,10 +7,10 @@ primary_keyword: "smoke damage restoration bedford park"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "393df1828ce53392"
-generated_at: "2026-09-20T14:13:04.890937+00:00"
+plan_hash: "855da333189e934f"
+generated_at: "2026-09-24T17:27:58.242493+00:00"
 manual_override: false
-internal_links: ["/services/smoke-damage-restoration/", "/service-areas/bedford-park-il/", "/service-areas/bedford-park-il/fire-damage-restoration/", "/service-areas/bedford-park-il/mold-remediation/", "/service-areas/berwyn-il/smoke-damage-restoration/", "/service-areas/cicero-il/smoke-damage-restoration/", "/contact/"]
+internal_links: ["/services/smoke-damage-restoration/", "/service-areas/bedford-park-il/", "/service-areas/bedford-park-il/fire-damage-restoration/", "/service-areas/bedford-park-il/mold-remediation/", "/service-areas/berwyn-il/smoke-damage-restoration/", "/service-areas/brookfield-il/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bedford Park", "url": "/service-areas/bedford-park-il/"}, {"name": "Smoke Damage Restoration"}]
 faq: []
 area_slug: "bedford-park-il"

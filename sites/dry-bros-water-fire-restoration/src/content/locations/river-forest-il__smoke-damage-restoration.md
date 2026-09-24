@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "27bbff35a8261b80"
-generated_at: "2026-09-20T14:13:04.895372+00:00"
+generated_at: "2026-09-24T17:27:58.247214+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/river-forest-il/", "/service-areas/river-forest-il/fire-damage-restoration/", "/service-areas/river-forest-il/mold-remediation/", "/service-areas/bedford-park-il/smoke-damage-restoration/", "/service-areas/berwyn-il/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "River Forest", "url": "/service-areas/river-forest-il/"}, {"name": "Smoke Damage Restoration"}]

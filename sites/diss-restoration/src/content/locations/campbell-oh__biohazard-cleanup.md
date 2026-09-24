@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "e3e3a0a04dbe282a"
-generated_at: "2026-09-23T14:11:34.796067+00:00"
+generated_at: "2026-09-24T17:21:47.691365+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/campbell-oh/", "/service-areas/campbell-oh/fire-damage-restoration/", "/service-areas/campbell-oh/mold-remediation/", "/service-areas/austintown-oh/biohazard-cleanup/", "/service-areas/boardman-oh/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Campbell", "url": "/service-areas/campbell-oh/"}, {"name": "Biohazard Cleanup"}]

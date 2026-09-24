@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration fairbanks ranch"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "fa946bdc77e57b1c"
-generated_at: "2026-09-20T14:13:11.334775+00:00"
+plan_hash: "1c2bad8ea40cd73d"
+generated_at: "2026-09-24T17:22:06.418151+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/fairbanks-ranch-ca/", "/service-areas/fairbanks-ranch-ca/flood-damage-restoration/", "/service-areas/fairbanks-ranch-ca/reconstruction/", "/service-areas/bonsall-ca/water-damage-restoration/", "/service-areas/carlsbad-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/fairbanks-ranch-ca/", "/service-areas/fairbanks-ranch-ca/flood-damage-restoration/", "/service-areas/fairbanks-ranch-ca/reconstruction/", "/service-areas/bonsall-ca/water-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fairbanks Ranch", "url": "/service-areas/fairbanks-ranch-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "fairbanks-ranch-ca"

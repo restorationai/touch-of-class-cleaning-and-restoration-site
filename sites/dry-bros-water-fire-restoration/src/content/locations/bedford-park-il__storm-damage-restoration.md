@@ -7,10 +7,10 @@ primary_keyword: "storm damage restoration bedford park"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "41fdf9d660ab43a2"
-generated_at: "2026-09-20T14:13:04.891266+00:00"
+plan_hash: "4b6faac23e5a35d9"
+generated_at: "2026-09-24T17:27:58.242849+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/bedford-park-il/", "/service-areas/bedford-park-il/fire-damage-restoration/", "/service-areas/bedford-park-il/mold-remediation/", "/service-areas/berwyn-il/storm-damage-restoration/", "/service-areas/cicero-il/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/bedford-park-il/", "/service-areas/bedford-park-il/fire-damage-restoration/", "/service-areas/bedford-park-il/mold-remediation/", "/service-areas/berwyn-il/storm-damage-restoration/", "/service-areas/brookfield-il/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bedford Park", "url": "/service-areas/bedford-park-il/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "bedford-park-il"

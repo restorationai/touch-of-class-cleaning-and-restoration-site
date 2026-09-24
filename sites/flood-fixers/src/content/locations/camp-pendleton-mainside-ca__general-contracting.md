@@ -7,10 +7,10 @@ primary_keyword: "renovations, remodels and general contracting camp pendleton m
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "83e084e2a640520f"
-generated_at: "2026-09-20T19:36:58.369787+00:00"
+plan_hash: "9a2d4dc3f2e0ac18"
+generated_at: "2026-09-24T17:22:06.422845+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/camp-pendleton-mainside-ca/", "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/general-contracting/", "/service-areas/carlsbad-ca/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/camp-pendleton-mainside-ca/", "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/general-contracting/", "/service-areas/camp-pendleton-south-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Camp Pendleton Mainside", "url": "/service-areas/camp-pendleton-mainside-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]
 faq: []
 area_slug: "camp-pendleton-mainside-ca"

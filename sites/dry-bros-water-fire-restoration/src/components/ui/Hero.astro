@@ -45,7 +45,7 @@ const bg = backgroundImage ? srcsetFor(backgroundImage) : {};
             <div class="bg-white text-primary-600 rounded-full p-2 shadow-inner">
               <Phone size={24} strokeWidth={3} />
             </div>
-            Call Us Now
+            {brand.phone}
           </span>
         </a>
         <a
@@ -55,7 +55,9 @@ const bg = backgroundImage ? srcsetFor(backgroundImage) : {};
           Get a Free Estimate
         </a>
       </div>
-      <p class="mt-5 text-sm font-semibold opacity-80 drop-shadow-md">We work with all insurance carriers and handle the claim paperwork.</p>
+    </div>
+    <div class="mt-10 lg:mt-0 flex lg:justify-end">
+      <slot name="form" />
     </div>
   </div>
 </header>

@@ -7,10 +7,10 @@ primary_keyword: "carpet cleaning whitehall"
 secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "carpet stain removal", "commercial carpet cleaning", "carpet sanitization"]
 search_intent: "local_specialty"
 priority: 2.8
-plan_hash: "7f027a3ef0df1ab0"
-generated_at: "2026-09-22T20:03:18.106744+00:00"
+plan_hash: "61c6bbd68f13975e"
+generated_at: "2026-09-24T17:23:44.554999+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/whitehall-pa/", "/service-areas/whitehall-pa/fire-damage-restoration/", "/service-areas/whitehall-pa/roofing/", "/service-areas/baldwin-pa/carpet-cleaning/", "/service-areas/bethel-park-pa/carpet-cleaning/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/whitehall-pa/", "/service-areas/whitehall-pa/fire-damage-restoration/", "/service-areas/whitehall-pa/roofing/", "/service-areas/allison-park-pa/carpet-cleaning/", "/service-areas/baldwin-pa/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Whitehall", "url": "/service-areas/whitehall-pa/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "whitehall-pa"

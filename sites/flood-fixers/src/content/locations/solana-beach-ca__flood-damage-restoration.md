@@ -7,10 +7,10 @@ primary_keyword: "flood damage restoration solana beach"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "765fa490cf257f48"
-generated_at: "2026-09-20T17:29:38.240192+00:00"
+plan_hash: "c2e38fefc65595e0"
+generated_at: "2026-09-24T17:22:06.419495+00:00"
 manual_override: false
-internal_links: ["/services/flood-damage-restoration/", "/service-areas/solana-beach-ca/", "/service-areas/solana-beach-ca/water-damage-restoration/", "/service-areas/solana-beach-ca/reconstruction/", "/service-areas/bonsall-ca/flood-damage-restoration/", "/service-areas/carlsbad-ca/flood-damage-restoration/", "/contact/"]
+internal_links: ["/services/flood-damage-restoration/", "/service-areas/solana-beach-ca/", "/service-areas/solana-beach-ca/water-damage-restoration/", "/service-areas/solana-beach-ca/reconstruction/", "/service-areas/bonsall-ca/flood-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Solana Beach", "url": "/service-areas/solana-beach-ca/"}, {"name": "Flood Damage Restoration"}]
 faq: []
 area_slug: "solana-beach-ca"

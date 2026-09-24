@@ -7,10 +7,10 @@ primary_keyword: "air duct cleaning wilkinsburg"
 secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitization", "dryer vent cleaning", "residential duct cleaning"]
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "841857507978cafe"
-generated_at: "2026-09-23T18:46:20.044426+00:00"
+plan_hash: "e479f59f43709195"
+generated_at: "2026-09-24T17:23:44.562320+00:00"
 manual_override: false
-internal_links: ["/services/air-duct-cleaning/", "/service-areas/wilkinsburg-pa/", "/service-areas/wilkinsburg-pa/fire-damage-restoration/", "/service-areas/wilkinsburg-pa/roofing/", "/service-areas/baldwin-pa/air-duct-cleaning/", "/service-areas/bethel-park-pa/air-duct-cleaning/", "/contact/"]
+internal_links: ["/services/air-duct-cleaning/", "/service-areas/wilkinsburg-pa/", "/service-areas/wilkinsburg-pa/fire-damage-restoration/", "/service-areas/wilkinsburg-pa/roofing/", "/service-areas/allison-park-pa/air-duct-cleaning/", "/service-areas/baldwin-pa/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wilkinsburg", "url": "/service-areas/wilkinsburg-pa/"}, {"name": "Air Duct Cleaning"}]
 faq: []
 area_slug: "wilkinsburg-pa"

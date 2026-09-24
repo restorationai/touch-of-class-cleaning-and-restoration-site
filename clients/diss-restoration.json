@@ -13,20 +13,20 @@
     "url_count": 373,
     "generated_at": "2026-09-23T14:11:33.018877+00:00"
   },
-  "updated_at": "2026-09-24T10:28:43.559643+00:00",
+  "updated_at": "2026-09-24T17:21:48.991161+00:00",
   "indexnow_key": "09d356f474404007b1215fd518504373",
   "build": {
-    "scaffolded_at": "2026-09-21T15:54:39.639815+00:00",
+    "scaffolded_at": "2026-09-24T17:21:48.991014+00:00",
     "github_repo": "restorationai/diss-restoration-site",
     "pages_project": "rankai-diss-restoration",
     "starter_version": "0.1.0",
-    "url_count": 331,
+    "url_count": 373,
     "pages_status": "exists",
     "last_rendered_at": "2026-09-21T16:07:57.838829+00:00",
     "last_pushed_staging_at": "2026-09-03T04:16:39.660572+00:00",
     "last_pushed_main_at": "2026-09-24T10:28:43.559626+00:00"
   },
-  "build_status": "pushed_main",
+  "build_status": "scaffolded",
   "cutover_prep": {
     "domain": "dissrestoration.com",
     "harvested_at": "2026-09-15T15:34:55+00:00",

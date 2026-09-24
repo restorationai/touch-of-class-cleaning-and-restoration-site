@@ -10,21 +10,21 @@
   "plan": {
     "template": "restoration",
     "template_version": "0.3.0",
-    "url_count": 416,
-    "generated_at": "2026-09-24T17:07:56.744987+00:00"
+    "url_count": 403,
+    "generated_at": "2026-09-24T14:15:19.386983+00:00"
   },
-  "updated_at": "2026-09-24T17:07:56.744991+00:00",
+  "updated_at": "2026-09-24T17:23:45.324057+00:00",
   "indexnow_key": "51445af8bf584117b7e95302ec018de1",
   "build": {
-    "scaffolded_at": "2026-09-22T14:42:43.380529+00:00",
+    "scaffolded_at": "2026-09-24T17:23:45.323680+00:00",
     "github_repo": "restorationai/katofsky-construction-llc-site",
     "pages_project": "rankai-katofsky-construction-llc",
     "starter_version": "0.1.0",
-    "url_count": 299,
-    "pages_status": "created",
+    "url_count": 403,
+    "pages_status": "exists",
     "last_rendered_at": "2026-09-22T15:50:54.212350+00:00",
     "last_pushed_staging_at": "2026-09-22T17:34:14.108010+00:00",
     "last_pushed_main_at": "2026-09-22T22:29:09.674559+00:00"
   },
-  "build_status": "pushed_main"
+  "build_status": "scaffolded"
 }

@@ -7,10 +7,10 @@ primary_keyword: "emergency water cleanup vista"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "d96be8e0bda9e73a"
-generated_at: "2026-09-20T14:13:11.326568+00:00"
+plan_hash: "25a9ebb8b1740968"
+generated_at: "2026-09-24T17:22:06.408392+00:00"
 manual_override: false
-internal_links: ["/services/water-cleanup/", "/service-areas/vista-ca/", "/service-areas/vista-ca/water-damage-restoration/", "/service-areas/vista-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/water-cleanup/", "/service-areas/carlsbad-ca/water-cleanup/", "/contact/"]
+internal_links: ["/services/water-cleanup/", "/service-areas/vista-ca/", "/service-areas/vista-ca/water-damage-restoration/", "/service-areas/vista-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/water-cleanup/", "/service-areas/camp-pendleton-mainside-ca/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Vista", "url": "/service-areas/vista-ca/"}, {"name": "water-cleanup"}]
 faq: []
 area_slug: "vista-ca"

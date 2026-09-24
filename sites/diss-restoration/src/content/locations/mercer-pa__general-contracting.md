@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "7af0da6c6edf8bdd"
-generated_at: "2026-09-23T14:11:34.841489+00:00"
+generated_at: "2026-09-24T17:21:47.714059+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/mercer-pa/", "/service-areas/mercer-pa/fire-damage-restoration/", "/service-areas/mercer-pa/mold-remediation/", "/service-areas/austintown-oh/general-contracting/", "/service-areas/boardman-oh/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mercer", "url": "/service-areas/mercer-pa/"}, {"name": "Renovations, Remodels and General Contracting"}]

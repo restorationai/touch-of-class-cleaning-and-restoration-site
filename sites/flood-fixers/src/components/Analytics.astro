@@ -15,6 +15,21 @@ const clarity = (brand as any).clarityProjectId || "";
       function gtag(){ dataLayer.push(arguments); }
       gtag('js', new Date());
       gtag('config', ga4);
+
+      // Conversion signals -> GA4 events. Mark 'click_to_call' + 'generate_lead' as
+      // KEY EVENTS in GA4, then import them into Google Ads. Delegated listeners so
+      // every phone link (tel:) and form on the site is covered from one place.
+      document.addEventListener('click', function (e) {
+        var a = e.target && e.target.closest && e.target.closest('a[href^="tel:"]');
+        if (a) gtag('event', 'click_to_call', {
+          transport_type: 'beacon',
+          phone_number: (a.getAttribute('href') || '').replace('tel:', '')
+        });
+      }, true);
+      document.addEventListener('submit', function (e) {
+        if (e.target && e.target.tagName === 'FORM')
+          gtag('event', 'generate_lead', { transport_type: 'beacon' });
+      }, true);
     </script>
   </Fragment>
 )}

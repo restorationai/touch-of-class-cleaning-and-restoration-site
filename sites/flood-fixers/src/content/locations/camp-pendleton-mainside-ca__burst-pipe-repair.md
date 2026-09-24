@@ -7,10 +7,10 @@ primary_keyword: "burst pipe cleanup and repair camp pendleton mainside"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
 priority: 5.6
-plan_hash: "339b0f6ec76749ea"
-generated_at: "2026-09-20T19:36:58.369424+00:00"
+plan_hash: "4ffb461ca9d9add9"
+generated_at: "2026-09-24T17:22:06.422184+00:00"
 manual_override: false
-internal_links: ["/services/burst-pipe-repair/", "/service-areas/camp-pendleton-mainside-ca/", "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/burst-pipe-repair/", "/service-areas/carlsbad-ca/burst-pipe-repair/", "/contact/"]
+internal_links: ["/services/burst-pipe-repair/", "/service-areas/camp-pendleton-mainside-ca/", "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/burst-pipe-repair/", "/service-areas/camp-pendleton-south-ca/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Camp Pendleton Mainside", "url": "/service-areas/camp-pendleton-mainside-ca/"}, {"name": "Burst Pipe Cleanup and Repair"}]
 faq: []
 area_slug: "camp-pendleton-mainside-ca"

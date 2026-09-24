@@ -7,10 +7,10 @@ primary_keyword: "basement flooding cleanup solana beach"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
 priority: 5.6
-plan_hash: "bf13dbbcda15152b"
-generated_at: "2026-09-20T17:29:38.240614+00:00"
+plan_hash: "b065642f01715d40"
+generated_at: "2026-09-24T17:22:06.419843+00:00"
 manual_override: false
-internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/solana-beach-ca/", "/service-areas/solana-beach-ca/water-damage-restoration/", "/service-areas/solana-beach-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/basement-flooding-cleanup/", "/service-areas/carlsbad-ca/basement-flooding-cleanup/", "/contact/"]
+internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/solana-beach-ca/", "/service-areas/solana-beach-ca/water-damage-restoration/", "/service-areas/solana-beach-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/basement-flooding-cleanup/", "/service-areas/camp-pendleton-mainside-ca/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Solana Beach", "url": "/service-areas/solana-beach-ca/"}, {"name": "Basement Flooding Cleanup"}]
 faq: []
 area_slug: "solana-beach-ca"

@@ -7,10 +7,10 @@ primary_keyword: "upholstery cleaning forest hills"
 secondary_keywords: ["sofa cleaning", "couch cleaning", "furniture steam cleaning", "leather upholstery cleaning", "fabric upholstery cleaning"]
 search_intent: "local_specialty"
 priority: 2.8
-plan_hash: "fd90e9396fc9ebb7"
-generated_at: "2026-09-23T22:09:55.968392+00:00"
+plan_hash: "49cdb258e84616ee"
+generated_at: "2026-09-24T17:23:44.564345+00:00"
 manual_override: false
-internal_links: ["/services/upholstery-cleaning/", "/service-areas/forest-hills-pa/", "/service-areas/forest-hills-pa/fire-damage-restoration/", "/service-areas/forest-hills-pa/roofing/", "/service-areas/baldwin-pa/upholstery-cleaning/", "/service-areas/bethel-park-pa/upholstery-cleaning/", "/contact/"]
+internal_links: ["/services/upholstery-cleaning/", "/service-areas/forest-hills-pa/", "/service-areas/forest-hills-pa/fire-damage-restoration/", "/service-areas/forest-hills-pa/roofing/", "/service-areas/allison-park-pa/upholstery-cleaning/", "/service-areas/baldwin-pa/upholstery-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Forest Hills", "url": "/service-areas/forest-hills-pa/"}, {"name": "Upholstery Cleaning"}]
 faq: []
 area_slug: "forest-hills-pa"

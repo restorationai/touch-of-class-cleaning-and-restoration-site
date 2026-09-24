@@ -7,10 +7,10 @@ primary_keyword: "emergency water cleanup carlsbad"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "1db2d060afe8dd98"
-generated_at: "2026-09-20T14:13:11.326000+00:00"
+plan_hash: "f5e6401bbeb99e23"
+generated_at: "2026-09-24T17:22:06.407307+00:00"
 manual_override: false
-internal_links: ["/services/water-cleanup/", "/service-areas/carlsbad-ca/", "/service-areas/carlsbad-ca/water-damage-restoration/", "/service-areas/carlsbad-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/water-cleanup/", "/service-areas/chula-vista-ca/water-cleanup/", "/contact/"]
+internal_links: ["/services/water-cleanup/", "/service-areas/carlsbad-ca/", "/service-areas/carlsbad-ca/water-damage-restoration/", "/service-areas/carlsbad-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/water-cleanup/", "/service-areas/camp-pendleton-mainside-ca/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Carlsbad", "url": "/service-areas/carlsbad-ca/"}, {"name": "water-cleanup"}]
 faq: []
 area_slug: "carlsbad-ca"

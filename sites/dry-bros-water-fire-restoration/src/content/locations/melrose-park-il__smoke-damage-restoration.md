@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "25fec34ba37d8716"
-generated_at: "2026-09-20T20:41:41.867279+00:00"
+generated_at: "2026-09-24T17:27:58.258911+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/melrose-park-il/", "/service-areas/melrose-park-il/fire-damage-restoration/", "/service-areas/melrose-park-il/mold-remediation/", "/service-areas/bedford-park-il/smoke-damage-restoration/", "/service-areas/berwyn-il/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Melrose Park", "url": "/service-areas/melrose-park-il/"}, {"name": "Smoke Damage Restoration"}]

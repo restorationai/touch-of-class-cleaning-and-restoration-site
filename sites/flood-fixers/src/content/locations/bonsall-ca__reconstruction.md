@@ -7,10 +7,10 @@ primary_keyword: "reconstruction services bonsall"
 secondary_keywords: ["post-damage reconstruction", "rebuild services", "structural reconstruction", "post-disaster rebuilding", "fire damage reconstruction"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "8309a73e3b0e4d4f"
-generated_at: "2026-09-20T14:13:11.331869+00:00"
+plan_hash: "51463c346b794760"
+generated_at: "2026-09-24T17:22:06.415208+00:00"
 manual_override: false
-internal_links: ["/services/reconstruction/", "/service-areas/bonsall-ca/", "/service-areas/bonsall-ca/water-damage-restoration/", "/service-areas/bonsall-ca/flood-damage-restoration/", "/service-areas/carlsbad-ca/reconstruction/", "/service-areas/chula-vista-ca/reconstruction/", "/contact/"]
+internal_links: ["/services/reconstruction/", "/service-areas/bonsall-ca/", "/service-areas/bonsall-ca/water-damage-restoration/", "/service-areas/bonsall-ca/flood-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/reconstruction/", "/service-areas/camp-pendleton-south-ca/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bonsall", "url": "/service-areas/bonsall-ca/"}, {"name": "Reconstruction Services"}]
 faq: []
 area_slug: "bonsall-ca"

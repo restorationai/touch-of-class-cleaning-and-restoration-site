@@ -7,10 +7,10 @@ primary_keyword: "carpet cleaning glenshaw"
 secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "carpet stain removal", "commercial carpet cleaning", "carpet sanitization"]
 search_intent: "local_specialty"
 priority: 2.8
-plan_hash: "7819f2ee72f71d6f"
-generated_at: "2026-09-23T14:30:06.907324+00:00"
+plan_hash: "7208fdc6ed09c537"
+generated_at: "2026-09-24T17:23:44.558554+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/glenshaw-pa/", "/service-areas/glenshaw-pa/fire-damage-restoration/", "/service-areas/glenshaw-pa/roofing/", "/service-areas/baldwin-pa/carpet-cleaning/", "/service-areas/bethel-park-pa/carpet-cleaning/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/glenshaw-pa/", "/service-areas/glenshaw-pa/fire-damage-restoration/", "/service-areas/glenshaw-pa/roofing/", "/service-areas/allison-park-pa/carpet-cleaning/", "/service-areas/baldwin-pa/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Glenshaw", "url": "/service-areas/glenshaw-pa/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "glenshaw-pa"

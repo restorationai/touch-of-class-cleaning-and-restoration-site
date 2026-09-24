@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration harmony grove"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "372d4c446b133b5c"
-generated_at: "2026-09-20T14:13:11.328806+00:00"
+plan_hash: "81f2d4d0434f0e33"
+generated_at: "2026-09-24T17:22:06.412340+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/harmony-grove-ca/", "/service-areas/harmony-grove-ca/flood-damage-restoration/", "/service-areas/harmony-grove-ca/reconstruction/", "/service-areas/bonsall-ca/water-damage-restoration/", "/service-areas/carlsbad-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/harmony-grove-ca/", "/service-areas/harmony-grove-ca/flood-damage-restoration/", "/service-areas/harmony-grove-ca/reconstruction/", "/service-areas/bonsall-ca/water-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Harmony Grove", "url": "/service-areas/harmony-grove-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "harmony-grove-ca"

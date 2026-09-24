@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "b6fcc9439cf4e5da"
-generated_at: "2026-09-20T19:17:14.588081+00:00"
+generated_at: "2026-09-24T17:27:58.254671+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/elmwood-park-il/", "/service-areas/elmwood-park-il/fire-damage-restoration/", "/service-areas/elmwood-park-il/mold-remediation/", "/service-areas/bedford-park-il/smoke-damage-restoration/", "/service-areas/berwyn-il/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elmwood Park", "url": "/service-areas/elmwood-park-il/"}, {"name": "Smoke Damage Restoration"}]

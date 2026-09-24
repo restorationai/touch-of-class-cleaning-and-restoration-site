@@ -7,10 +7,10 @@ primary_keyword: "flood damage restoration camp pendleton mainside"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "440bc214a3a4e0ec"
-generated_at: "2026-09-20T19:36:58.369296+00:00"
+plan_hash: "a06cc3bf06c412d1"
+generated_at: "2026-09-24T17:22:06.421877+00:00"
 manual_override: false
-internal_links: ["/services/flood-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/", "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/reconstruction/", "/service-areas/bonsall-ca/flood-damage-restoration/", "/service-areas/carlsbad-ca/flood-damage-restoration/", "/contact/"]
+internal_links: ["/services/flood-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/", "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/reconstruction/", "/service-areas/bonsall-ca/flood-damage-restoration/", "/service-areas/camp-pendleton-south-ca/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Camp Pendleton Mainside", "url": "/service-areas/camp-pendleton-mainside-ca/"}, {"name": "Flood Damage Restoration"}]
 faq: []
 area_slug: "camp-pendleton-mainside-ca"

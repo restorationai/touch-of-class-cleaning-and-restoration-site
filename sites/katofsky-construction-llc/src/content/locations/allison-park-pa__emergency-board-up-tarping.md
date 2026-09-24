@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "05940757d3937667"
-generated_at: "2026-09-24T14:15:19.534996+00:00"
+generated_at: "2026-09-24T17:23:44.565515+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/allison-park-pa/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/service-areas/allison-park-pa/roofing/", "/service-areas/baldwin-pa/emergency-board-up-tarping/", "/service-areas/bethel-park-pa/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Allison Park", "url": "/service-areas/allison-park-pa/"}, {"name": "Emergency Board-Up and Tarping"}]

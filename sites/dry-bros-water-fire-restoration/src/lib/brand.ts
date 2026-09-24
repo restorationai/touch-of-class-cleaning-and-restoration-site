@@ -12,11 +12,16 @@ export const brand = {
   // the footer carries the "[legal] doing business as [DBA]" line and schema
   // declares it as the business name, so Google/BrightLocal find the new
   // name corroborated on the site before and during the GBP rename.
-  dbaName: "Dry Bros - 24/7 Emergency Water Damage Restoration & Mold Remediation",
+  dbaName: "DRY BROS - 24/7 EMERGENCY WATER DAMAGE RESTORATION & MOLD REMEDIATION",
   domain: "drybros.com",
   canonicalUrl: "https://drybros.com",
   phone: "(877) 379-2767",
   phoneRaw: "+18773792767",
+  hideMobileHeaderCall: false,
+  // A2P/SMS-registration legal entity. When set, the estimate forms render
+  // the carrier-compliant consent checkbox naming this entity (exact wording
+  // matters to reviewers — do not paraphrase). Empty = generic consent only.
+  smsConsentEntity: "",
   // Sitewide call-tracking number (2026-08-24). When BOTH fields are set,
   // a tiny inline script in BaseLayout swaps every visible phone mention
   // and tel: link to this number AFTER the page renders. The HTML source,
@@ -35,7 +40,7 @@ export const brand = {
   // copy). addressCity/addressState = where the business PHYSICALLY is.
   // They are usually the same and often diverge (DISS: Farrell PA office,
   // Youngstown OH target) — only the address pair may go in a PostalAddress.
-  addressCity: "chicago",
+  addressCity: "Chicago",
   addressState: "IL",
   streetAddress: "3918 W 63rd ST",
   postalCode: "60629",
@@ -60,7 +65,7 @@ export const brand = {
   certifications: [] as string[],
   trustBadges: ["Licensed & Insured", "Locally Owned & Operated"] as string[],
   jobPhotos: [] as string[],
-  sameAsUrls: ["https://drybros.com/"] as string[],
+  sameAsUrls: [] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "",
@@ -71,6 +76,9 @@ export const brand = {
   // Vertical trade-identity copy — resolved at scaffold time from
   // templates/{vertical}/vertical-tokens.json (see scripts/verticals.py).
   // Components must use these instead of hardcoding a trade phrase.
+  // vertical gates layout too: restoration is call-first, so the homepage
+  // hero renders NO estimate form there (Santino 2026-09-11).
+  vertical: "restoration",
   tradeNoun: "restoration",
   specialistPhrase: "Damage Restoration Specialists",
   announcementSuffix: "24/7 Emergency Response",

@@ -1,7 +1,5 @@
 # Dry Bros Water & Fire Restoration
 
-Doing business as: Dry Bros - 24/7 Emergency Water Damage Restoration & Mold Remediation (registered trade name of Dry Bros Water & Fire Restoration).
-
 > 24/7 restoration services in Chicago, IL.
 
 Dry Bros Water & Fire Restoration (Dry Bros Water & Fire Restoration) is a professional restoration contractor serving Chicago, IL and surrounding areas since . We provide 24/7 emergency response for water, fire, mold, storm, biohazard, and reconstruction services. Phone: (877) 379-2767 · Email: amin.mashouf@gmail.com.
@@ -14,6 +12,16 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Water Damage Restoration](https://drybros.com/services/water-damage-restoration/)
 - [Fire Damage Restoration](https://drybros.com/services/fire-damage-restoration/)
 - [Mold Remediation](https://drybros.com/services/mold-remediation/)
+- [Emergency Water Cleanup](https://drybros.com/services/water-cleanup/)
+- [Flood Damage Restoration](https://drybros.com/services/flood-damage-restoration/)
+- [Burst Pipe Cleanup and Repair](https://drybros.com/services/burst-pipe-repair/)
+- [Basement Flooding Cleanup](https://drybros.com/services/basement-flooding-cleanup/)
+- [Sewage Cleanup and Sanitization](https://drybros.com/services/sewage-cleanup/)
+- [Smoke Damage Restoration](https://drybros.com/services/smoke-damage-restoration/)
+- [Odor Removal and Deodorization](https://drybros.com/services/odor-removal/)
+- [Storm Damage Restoration](https://drybros.com/services/storm-damage-restoration/)
+- [Emergency Board-Up and Tarping](https://drybros.com/services/emergency-board-up-tarping/)
+- [Contents Restoration and Storage](https://drybros.com/services/contents-restoration/)
 
 ### Service area pages
 - [Chicago, IL](https://drybros.com/service-areas/chicago-il/)
@@ -24,6 +32,20 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Skokie, IL](https://drybros.com/service-areas/skokie-il/)
 - [Berwyn, IL](https://drybros.com/service-areas/berwyn-il/)
 - [Des Plaines, IL](https://drybros.com/service-areas/des-plaines-il/)
+- [Stickney, IL](https://drybros.com/service-areas/stickney-il/)
+- [Bedford Park, IL](https://drybros.com/service-areas/bedford-park-il/)
+- [Lincolnwood, IL](https://drybros.com/service-areas/lincolnwood-il/)
+- [River Forest, IL](https://drybros.com/service-areas/river-forest-il/)
+- [Forest Park, IL](https://drybros.com/service-areas/forest-park-il/)
+- [Lyons, IL](https://drybros.com/service-areas/lyons-il/)
+- [Riverside, IL](https://drybros.com/service-areas/riverside-il/)
+- [Elmwood Park, IL](https://drybros.com/service-areas/elmwood-park-il/)
+- [North Riverside, IL](https://drybros.com/service-areas/north-riverside-il/)
+- [Melrose Park, IL](https://drybros.com/service-areas/melrose-park-il/)
+- [Burbank, IL](https://drybros.com/service-areas/burbank-il/)
+- [Evergreen Park, IL](https://drybros.com/service-areas/evergreen-park-il/)
+- [Brookfield, IL](https://drybros.com/service-areas/brookfield-il/)
+- [Maywood, IL](https://drybros.com/service-areas/maywood-il/)
 
 ### Resources
 - [Blog](https://drybros.com/blog/): Restoration guides and local resources

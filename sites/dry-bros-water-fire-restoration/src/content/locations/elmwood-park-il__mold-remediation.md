@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "f95206c71153b9d8"
-generated_at: "2026-09-20T19:17:14.587588+00:00"
+generated_at: "2026-09-24T17:27:58.253907+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/elmwood-park-il/", "/service-areas/elmwood-park-il/fire-damage-restoration/", "/service-areas/elmwood-park-il/water-damage-restoration/", "/service-areas/bedford-park-il/mold-remediation/", "/service-areas/berwyn-il/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elmwood Park", "url": "/service-areas/elmwood-park-il/"}, {"name": "Mold Remediation"}]

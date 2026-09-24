@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "13c50a11bc374edf"
-generated_at: "2026-09-23T14:11:34.804579+00:00"
+generated_at: "2026-09-24T17:21:47.695705+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration-storage/", "/service-areas/farrell-pa/", "/service-areas/farrell-pa/fire-damage-restoration/", "/service-areas/farrell-pa/mold-remediation/", "/service-areas/austintown-oh/contents-restoration-storage/", "/service-areas/boardman-oh/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Farrell", "url": "/service-areas/farrell-pa/"}, {"name": "Contents Restoration & Storage"}]

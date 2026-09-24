@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "9d995d34fb88d663"
-generated_at: "2026-09-23T14:11:34.799381+00:00"
+generated_at: "2026-09-24T17:21:47.693037+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/mineral-ridge-oh/", "/service-areas/mineral-ridge-oh/fire-damage-restoration/", "/service-areas/mineral-ridge-oh/mold-remediation/", "/service-areas/austintown-oh/asbestos-abatement/", "/service-areas/boardman-oh/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mineral Ridge", "url": "/service-areas/mineral-ridge-oh/"}, {"name": "Asbestos Abatement"}]

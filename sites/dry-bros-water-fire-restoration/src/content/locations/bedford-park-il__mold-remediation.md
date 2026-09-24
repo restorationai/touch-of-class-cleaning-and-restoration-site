@@ -7,10 +7,10 @@ primary_keyword: "mold remediation bedford park"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
 priority: 7.0
-plan_hash: "551df813e67103eb"
-generated_at: "2026-09-20T14:13:04.889928+00:00"
+plan_hash: "4ad99b347609dd08"
+generated_at: "2026-09-24T17:27:58.241589+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/bedford-park-il/", "/service-areas/bedford-park-il/fire-damage-restoration/", "/service-areas/bedford-park-il/water-damage-restoration/", "/service-areas/berwyn-il/mold-remediation/", "/service-areas/cicero-il/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/bedford-park-il/", "/service-areas/bedford-park-il/fire-damage-restoration/", "/service-areas/bedford-park-il/water-damage-restoration/", "/service-areas/berwyn-il/mold-remediation/", "/service-areas/brookfield-il/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bedford Park", "url": "/service-areas/bedford-park-il/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "bedford-park-il"

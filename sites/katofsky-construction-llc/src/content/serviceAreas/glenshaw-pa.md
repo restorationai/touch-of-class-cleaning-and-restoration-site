@@ -7,10 +7,10 @@ primary_keyword: "restoration services glenshaw"
 secondary_keywords: ["glenshaw restoration company", "damage restoration glenshaw", "glenshaw disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "8b730c60fb59cabe"
-generated_at: "2026-09-23T14:30:06.901491+00:00"
+plan_hash: "db342b21b7f91e35"
+generated_at: "2026-09-24T17:23:44.534842+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/glenshaw-pa/fire-damage-restoration/", "/service-areas/glenshaw-pa/roofing/", "/service-areas/glenshaw-pa/sewage-cleanup/", "/service-areas/glenshaw-pa/biohazard-cleanup/", "/service-areas/glenshaw-pa/general-contracting/", "/service-areas/glenshaw-pa/emergency-board-up-tarping/", "/service-areas/glenshaw-pa/asbestos-abatement/", "/service-areas/glenshaw-pa/air-duct-cleaning/", "/service-areas/glenshaw-pa/contents-restoration-storage/", "/service-areas/glenshaw-pa/lead-paint-abatement/", "/service-areas/glenshaw-pa/carpet-cleaning/", "/service-areas/glenshaw-pa/upholstery-cleaning/", "/service-areas/baldwin-pa/", "/service-areas/bethel-park-pa/", "/service-areas/carnegie-pa/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/glenshaw-pa/fire-damage-restoration/", "/service-areas/glenshaw-pa/roofing/", "/service-areas/glenshaw-pa/sewage-cleanup/", "/service-areas/glenshaw-pa/biohazard-cleanup/", "/service-areas/glenshaw-pa/general-contracting/", "/service-areas/glenshaw-pa/emergency-board-up-tarping/", "/service-areas/glenshaw-pa/asbestos-abatement/", "/service-areas/glenshaw-pa/air-duct-cleaning/", "/service-areas/glenshaw-pa/contents-restoration-storage/", "/service-areas/glenshaw-pa/lead-paint-abatement/", "/service-areas/glenshaw-pa/carpet-cleaning/", "/service-areas/glenshaw-pa/upholstery-cleaning/", "/service-areas/allison-park-pa/", "/service-areas/baldwin-pa/", "/service-areas/bethel-park-pa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Glenshaw"}]
 faq: []
 area_slug: "glenshaw-pa"

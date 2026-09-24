@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "6ea70d1ea33cde7c"
-generated_at: "2026-09-23T14:11:24.710393+00:00"
+generated_at: "2026-09-24T17:23:55.851703+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration-storage/", "/service-areas/comanche-tx/", "/service-areas/comanche-tx/fire-damage-restoration/", "/service-areas/comanche-tx/mold-remediation/", "/service-areas/albany-tx/contents-restoration-storage/", "/service-areas/anson-tx/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Comanche", "url": "/service-areas/comanche-tx/"}, {"name": "Contents Restoration & Storage"}]

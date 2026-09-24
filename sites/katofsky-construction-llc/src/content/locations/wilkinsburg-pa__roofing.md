@@ -7,10 +7,10 @@ primary_keyword: "roofing installation and replacement wilkinsburg"
 secondary_keywords: ["roofing contractor", "roof replacement", "new roof installation", "residential roofing", "roof repair"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "2f40bda2348b3fa0"
-generated_at: "2026-09-23T18:46:20.043338+00:00"
+plan_hash: "9df4e1d4fc6e5058"
+generated_at: "2026-09-24T17:23:44.561428+00:00"
 manual_override: false
-internal_links: ["/services/roofing/", "/service-areas/wilkinsburg-pa/", "/service-areas/wilkinsburg-pa/fire-damage-restoration/", "/service-areas/wilkinsburg-pa/sewage-cleanup/", "/service-areas/baldwin-pa/roofing/", "/service-areas/bethel-park-pa/roofing/", "/contact/"]
+internal_links: ["/services/roofing/", "/service-areas/wilkinsburg-pa/", "/service-areas/wilkinsburg-pa/fire-damage-restoration/", "/service-areas/wilkinsburg-pa/sewage-cleanup/", "/service-areas/allison-park-pa/roofing/", "/service-areas/baldwin-pa/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wilkinsburg", "url": "/service-areas/wilkinsburg-pa/"}, {"name": "Roofing Installation and Replacement"}]
 faq: []
 area_slug: "wilkinsburg-pa"

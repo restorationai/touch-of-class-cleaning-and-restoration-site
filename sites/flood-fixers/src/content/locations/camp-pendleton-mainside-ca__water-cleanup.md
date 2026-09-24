@@ -7,10 +7,10 @@ primary_keyword: "emergency water cleanup camp pendleton mainside"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "d8a37ca62808e20e"
-generated_at: "2026-09-20T19:36:58.369906+00:00"
+plan_hash: "e6067dd15c136b8d"
+generated_at: "2026-09-24T17:22:06.423010+00:00"
 manual_override: false
-internal_links: ["/services/water-cleanup/", "/service-areas/camp-pendleton-mainside-ca/", "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/water-cleanup/", "/service-areas/carlsbad-ca/water-cleanup/", "/contact/"]
+internal_links: ["/services/water-cleanup/", "/service-areas/camp-pendleton-mainside-ca/", "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/water-cleanup/", "/service-areas/camp-pendleton-south-ca/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Camp Pendleton Mainside", "url": "/service-areas/camp-pendleton-mainside-ca/"}, {"name": "water-cleanup"}]
 faq: []
 area_slug: "camp-pendleton-mainside-ca"

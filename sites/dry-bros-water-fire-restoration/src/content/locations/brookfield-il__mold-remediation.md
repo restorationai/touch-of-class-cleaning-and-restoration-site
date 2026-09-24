@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "12d6ba8ce37ed61d"
-generated_at: "2026-09-22T02:11:09.550834+00:00"
+generated_at: "2026-09-24T17:27:58.264428+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/brookfield-il/", "/service-areas/brookfield-il/fire-damage-restoration/", "/service-areas/brookfield-il/water-damage-restoration/", "/service-areas/bedford-park-il/mold-remediation/", "/service-areas/berwyn-il/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Brookfield", "url": "/service-areas/brookfield-il/"}, {"name": "Mold Remediation"}]

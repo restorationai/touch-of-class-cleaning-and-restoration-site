@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration pleasant hills"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "bb0f6ce367f7516a"
-generated_at: "2026-09-23T17:47:58.142637+00:00"
+plan_hash: "aa80cf19b668b568"
+generated_at: "2026-09-24T17:23:44.558834+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/pleasant-hills-pa/", "/service-areas/pleasant-hills-pa/roofing/", "/service-areas/pleasant-hills-pa/sewage-cleanup/", "/service-areas/baldwin-pa/fire-damage-restoration/", "/service-areas/bethel-park-pa/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/pleasant-hills-pa/", "/service-areas/pleasant-hills-pa/roofing/", "/service-areas/pleasant-hills-pa/sewage-cleanup/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/service-areas/baldwin-pa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pleasant Hills", "url": "/service-areas/pleasant-hills-pa/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "pleasant-hills-pa"

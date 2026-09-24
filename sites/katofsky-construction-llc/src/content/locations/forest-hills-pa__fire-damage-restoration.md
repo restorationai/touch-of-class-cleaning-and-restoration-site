@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration forest hills"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "9c34df31556e5a7e"
-generated_at: "2026-09-23T22:09:55.966323+00:00"
+plan_hash: "d2f33733a4e9bba4"
+generated_at: "2026-09-24T17:23:44.562706+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/forest-hills-pa/", "/service-areas/forest-hills-pa/roofing/", "/service-areas/forest-hills-pa/sewage-cleanup/", "/service-areas/baldwin-pa/fire-damage-restoration/", "/service-areas/bethel-park-pa/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/forest-hills-pa/", "/service-areas/forest-hills-pa/roofing/", "/service-areas/forest-hills-pa/sewage-cleanup/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/service-areas/baldwin-pa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Forest Hills", "url": "/service-areas/forest-hills-pa/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "forest-hills-pa"

@@ -7,10 +7,10 @@ primary_keyword: "restoration services whitehall"
 secondary_keywords: ["whitehall restoration company", "damage restoration whitehall", "whitehall disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "728182e71af898cc"
-generated_at: "2026-09-22T20:03:18.100904+00:00"
+plan_hash: "fa4fdf1f39fe097c"
+generated_at: "2026-09-24T17:23:44.534334+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/whitehall-pa/fire-damage-restoration/", "/service-areas/whitehall-pa/roofing/", "/service-areas/whitehall-pa/sewage-cleanup/", "/service-areas/whitehall-pa/biohazard-cleanup/", "/service-areas/whitehall-pa/general-contracting/", "/service-areas/whitehall-pa/emergency-board-up-tarping/", "/service-areas/whitehall-pa/asbestos-abatement/", "/service-areas/whitehall-pa/air-duct-cleaning/", "/service-areas/whitehall-pa/contents-restoration-storage/", "/service-areas/whitehall-pa/lead-paint-abatement/", "/service-areas/whitehall-pa/carpet-cleaning/", "/service-areas/whitehall-pa/upholstery-cleaning/", "/service-areas/baldwin-pa/", "/service-areas/bethel-park-pa/", "/service-areas/carnegie-pa/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/whitehall-pa/fire-damage-restoration/", "/service-areas/whitehall-pa/roofing/", "/service-areas/whitehall-pa/sewage-cleanup/", "/service-areas/whitehall-pa/biohazard-cleanup/", "/service-areas/whitehall-pa/general-contracting/", "/service-areas/whitehall-pa/emergency-board-up-tarping/", "/service-areas/whitehall-pa/asbestos-abatement/", "/service-areas/whitehall-pa/air-duct-cleaning/", "/service-areas/whitehall-pa/contents-restoration-storage/", "/service-areas/whitehall-pa/lead-paint-abatement/", "/service-areas/whitehall-pa/carpet-cleaning/", "/service-areas/whitehall-pa/upholstery-cleaning/", "/service-areas/allison-park-pa/", "/service-areas/baldwin-pa/", "/service-areas/bethel-park-pa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Whitehall"}]
 faq: []
 area_slug: "whitehall-pa"

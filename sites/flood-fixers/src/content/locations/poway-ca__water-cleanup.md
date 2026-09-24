@@ -7,10 +7,10 @@ primary_keyword: "emergency water cleanup poway"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "fb0ea86db21430cc"
-generated_at: "2026-09-20T14:13:11.327845+00:00"
+plan_hash: "b774a6c6021fde31"
+generated_at: "2026-09-24T17:22:06.410773+00:00"
 manual_override: false
-internal_links: ["/services/water-cleanup/", "/service-areas/poway-ca/", "/service-areas/poway-ca/water-damage-restoration/", "/service-areas/poway-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/water-cleanup/", "/service-areas/carlsbad-ca/water-cleanup/", "/contact/"]
+internal_links: ["/services/water-cleanup/", "/service-areas/poway-ca/", "/service-areas/poway-ca/water-damage-restoration/", "/service-areas/poway-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/water-cleanup/", "/service-areas/camp-pendleton-mainside-ca/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Poway", "url": "/service-areas/poway-ca/"}, {"name": "water-cleanup"}]
 faq: []
 area_slug: "poway-ca"

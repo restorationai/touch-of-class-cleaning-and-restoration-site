@@ -7,10 +7,10 @@ primary_keyword: "reconstruction services rancho santa fe"
 secondary_keywords: ["post-damage reconstruction", "rebuild services", "structural reconstruction", "post-disaster rebuilding", "fire damage reconstruction"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "28be91c4b8eab8d5"
-generated_at: "2026-09-20T14:13:11.333081+00:00"
+plan_hash: "8fbc6f3084f28ce0"
+generated_at: "2026-09-24T17:22:06.416446+00:00"
 manual_override: false
-internal_links: ["/services/reconstruction/", "/service-areas/rancho-santa-fe-ca/", "/service-areas/rancho-santa-fe-ca/water-damage-restoration/", "/service-areas/rancho-santa-fe-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/reconstruction/", "/service-areas/carlsbad-ca/reconstruction/", "/contact/"]
+internal_links: ["/services/reconstruction/", "/service-areas/rancho-santa-fe-ca/", "/service-areas/rancho-santa-fe-ca/water-damage-restoration/", "/service-areas/rancho-santa-fe-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/reconstruction/", "/service-areas/camp-pendleton-mainside-ca/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rancho Santa Fe", "url": "/service-areas/rancho-santa-fe-ca/"}, {"name": "Reconstruction Services"}]
 faq: []
 area_slug: "rancho-santa-fe-ca"

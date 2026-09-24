@@ -7,10 +7,10 @@ primary_keyword: "roofing installation and replacement munhall"
 secondary_keywords: ["roofing contractor", "roof replacement", "new roof installation", "residential roofing", "roof repair"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "aebc3f2f8407fcb7"
-generated_at: "2026-09-22T20:18:34.322339+00:00"
+plan_hash: "d286ea61bb9e12e7"
+generated_at: "2026-09-24T17:23:44.555552+00:00"
 manual_override: false
-internal_links: ["/services/roofing/", "/service-areas/munhall-pa/", "/service-areas/munhall-pa/fire-damage-restoration/", "/service-areas/munhall-pa/sewage-cleanup/", "/service-areas/baldwin-pa/roofing/", "/service-areas/bethel-park-pa/roofing/", "/contact/"]
+internal_links: ["/services/roofing/", "/service-areas/munhall-pa/", "/service-areas/munhall-pa/fire-damage-restoration/", "/service-areas/munhall-pa/sewage-cleanup/", "/service-areas/allison-park-pa/roofing/", "/service-areas/baldwin-pa/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Munhall", "url": "/service-areas/munhall-pa/"}, {"name": "Roofing Installation and Replacement"}]
 faq: []
 area_slug: "munhall-pa"

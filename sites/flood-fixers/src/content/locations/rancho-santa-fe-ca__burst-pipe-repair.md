@@ -7,10 +7,10 @@ primary_keyword: "burst pipe cleanup and repair rancho santa fe"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
 priority: 5.6
-plan_hash: "9b233e1c7077030b"
-generated_at: "2026-09-20T14:13:11.332713+00:00"
+plan_hash: "4d2d62369b8e9925"
+generated_at: "2026-09-24T17:22:06.416160+00:00"
 manual_override: false
-internal_links: ["/services/burst-pipe-repair/", "/service-areas/rancho-santa-fe-ca/", "/service-areas/rancho-santa-fe-ca/water-damage-restoration/", "/service-areas/rancho-santa-fe-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/burst-pipe-repair/", "/service-areas/carlsbad-ca/burst-pipe-repair/", "/contact/"]
+internal_links: ["/services/burst-pipe-repair/", "/service-areas/rancho-santa-fe-ca/", "/service-areas/rancho-santa-fe-ca/water-damage-restoration/", "/service-areas/rancho-santa-fe-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/burst-pipe-repair/", "/service-areas/camp-pendleton-mainside-ca/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rancho Santa Fe", "url": "/service-areas/rancho-santa-fe-ca/"}, {"name": "Burst Pipe Cleanup and Repair"}]
 faq: []
 area_slug: "rancho-santa-fe-ca"
