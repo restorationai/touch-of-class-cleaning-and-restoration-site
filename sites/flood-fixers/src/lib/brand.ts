@@ -65,7 +65,7 @@ export const brand = {
   certifications: ["IICRC Certified", "EPA Lead-Safe Certified"] as string[],
   trustBadges: [] as string[],
   jobPhotos: [] as string[],
-  sameAsUrls: [] as string[],
+  sameAsUrls: ["https://maps.google.com/maps?cid=831059838874778616", "https://www.yelp.com/biz/flood-fixers-san-diego", "https://www.facebook.com/100067690656701/", "https://www.bing.com/maps?ss=ypid.YN98B76BD2E3E0D8A0"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "5.0",
