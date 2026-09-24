@@ -686,7 +686,7 @@
     },
     {
       "id": "2026-09-15-commercial-storm-damage-restoration",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-15T14:24:35Z",
       "priority": 1,
       "prioritized": true,
@@ -698,7 +698,8 @@
       "city_anchor": "abilene-tx",
       "source": "gameplan-2026-09-1 (dev-agent)",
       "written_at": "2026-09-24T15:23:18Z",
-      "post_url": "https://aircarerestoration.com/blog/commercial-storm-damage-restoration/"
+      "post_url": "https://aircarerestoration.com/blog/commercial-storm-damage-restoration/",
+      "published_verified_at": "2026-09-24T15:27:40Z"
     }
   ]
 }
