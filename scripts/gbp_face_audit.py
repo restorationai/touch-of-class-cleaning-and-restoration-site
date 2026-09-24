@@ -400,13 +400,52 @@ def set_cover_photo(slug: str, company_id: str, meta: dict, photo_url: str) -> N
     acct = media_account_for(token, location_id)
     if not acct:
         raise RuntimeError(f"{slug}: no v4 media account access")
-    try:
-        name = upload_photo_source_url(token, acct, location_id, photo_url,
-                                       category="COVER")
-    except RuntimeError:
+    # COVER slots demand EXACT 16:9 — Google's validator says "valid ratio
+    # 1.777778" and rejects a 1080x1080 candidate (Arch 2026-09-24; it
+    # slipped past the landscape filter because its media item carried no
+    # dimensions) AND a hand-cropped 1080x607 (1.7792 != 1.777778). The
+    # bytes/dataRef flow additionally 400s "Image was invalid or corrupt"
+    # for COVER on some accounts. What works everywhere tested: let
+    # Google's own CDN serve the exact crop — googleusercontent URLs take
+    # a =w1280-h720-c (center-crop) directive — and create via sourceUrl.
+    if "googleusercontent" in photo_url:
+        src = photo_url.split("=")[0] + "=w1280-h720-c"
+        r = requests.post(
+            f"{GBP_V4}/{acct}/locations/{location_id}/media",
+            headers={"Authorization": f"Bearer {token}",
+                     "Content-Type": "application/json"},
+            json={"mediaFormat": "PHOTO",
+                  "locationAssociation": {"category": "COVER"},
+                  "sourceUrl": src})
+        if r.status_code not in (200, 201):
+            raise RuntimeError(
+                f"cover sourceUrl HTTP {r.status_code}: {r.text[:400]}")
+        name = r.json().get("name", "")
+    else:
+        # Non-Google URL (site asset): normalize to exact 1280x720 and try
+        # the bytes flow — the only option without a croppable public URL.
+        from PIL import Image
         jpeg = requests.get(photo_url, timeout=60)
         jpeg.raise_for_status()
-        name = upload_photo_bytes(token, acct, location_id, jpeg.content,
+        im = Image.open(io.BytesIO(jpeg.content)).convert("RGB")
+        w, h = im.size
+        if w < 480 or h < 270:
+            raise RuntimeError(
+                f"{slug}: photo too small for a cover ({w}x{h}; Google "
+                "needs at least 480x270) — pick a larger photo")
+        target = 16 / 9
+        if w / h > target:
+            nw = int(h * target)
+            x0 = (w - nw) // 2
+            im = im.crop((x0, 0, x0 + nw, h))
+        elif w / h < target:
+            nh = int(w / target)
+            y0 = (h - nh) // 2
+            im = im.crop((0, y0, w, y0 + nh))
+        im = im.resize((1280, 720), Image.LANCZOS)
+        buf = io.BytesIO()
+        im.save(buf, "JPEG", quality=90)
+        name = upload_photo_bytes(token, acct, location_id, buf.getvalue(),
                                   category="COVER")
     print(f"  {slug}: cover photo set ({name})")
     # CHANGE-LOG (Santino 2026-08-12: he set Go Green's cover from the app

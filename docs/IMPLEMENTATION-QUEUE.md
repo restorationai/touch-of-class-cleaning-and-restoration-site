@@ -198,3 +198,19 @@ messages, not TOPICS.
 - [ ] mold-solutionz (DEAD client) still has a live google integration row
       and got face-audited at 100 — remove dead clients from audit
       enumeration + drop the stale integration row.
+
+## 12. Cover photo set (Arch 09-24)  [core FIXED same day]
+Three app attempts failed silently: Google requires EXACT 16:9 for COVER
+(rejects 1080x1080 and even a 1.7792 crop), the square candidate slipped
+past the landscape filter (media item had no dimensions), and the bytes
+flow 400s "invalid or corrupt" for COVER on some accounts.
+- [x] (09-24) set_cover_photo: googleusercontent sourceUrl + =w1280-h720-c
+      crop directive (Google's CDN serves the exact ratio) as primary;
+      exact-1280x720 PIL normalize for non-Google URLs. Arch cover LIVE,
+      verified via re-audit (COVER:1, score 51.5 -> 60).
+- [ ] App: the cover picker toasts success on job QUEUE, then silently
+      shows "no cover" when the job fails. Poll marketing_jobs status
+      after the 30s refetch and toast the job error on failure.
+- [ ] Candidate filter: exclude media items with MISSING dimensions from
+      cover candidates (they may be square/portrait), or trust the new
+      crop directive and drop the landscape filter entirely.
