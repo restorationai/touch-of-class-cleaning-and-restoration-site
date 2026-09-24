@@ -622,10 +622,10 @@
     },
     {
       "id": "2026-08-09-sewage-backup-in-house",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-10T00:58:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-24T19:33:01Z",
+      "post_url": "https://prorestorationca.com/blog/sewage-backup-in-house/",
       "priority": 1,
       "primary_keyword": "sewage backup in house",
       "intent": "informational",
@@ -954,6 +954,154 @@
       "written_at": "2026-09-22T15:30:23Z",
       "post_url": "https://prorestorationca.com/blog/fire-damage-restoration-bakersfield/",
       "published_verified_at": "2026-09-22T15:32:48Z"
+    },
+    {
+      "id": "2026-09-24-how-to-clean-up-mouse-droppings",
+      "status": "queued",
+      "queued_at": "2026-09-24T19:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to clean up mouse droppings",
+      "intent": "informational",
+      "volume": 1300,
+      "kd": 7,
+      "fan_out_cluster": [
+        "how to clean up rat droppings safely",
+        "what does rodent droppings look like",
+        "rodent droppings cleanup",
+        "is urine biohazard",
+        "when to call a biohazard cleanup pro for rodent waste"
+      ],
+      "suggested_slug": "how-to-clean-up-mouse-droppings",
+      "suggested_title": "How to clean up mouse droppings safely in Bakersfield (without stirring up hantavirus)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/biohazard-cleanup/",
+        "/services/crawl-space-encapsulation/",
+        "/services/odor-removal/"
+      ],
+      "service_tags": [
+        "biohazard-cleanup",
+        "crawl-space-encapsulation",
+        "odor-removal"
+      ],
+      "city_anchor": "bakersfield-ca",
+      "external_authority_candidates": [
+        "https://www.cdc.gov/hantavirus/"
+      ],
+      "notes": "SENSITIVE SERVICE: apply sensitive-content guardrails (calm, non-graphic, no fear selling). Lead with the do-not-sweep-or-vacuum rule (aerosolized droppings are the hantavirus exposure route) and the wet-disinfect-wipe method. Cover rat vs mouse dropping identification (480/mo on its own) and when a heavy infestation in an attic, garage or crawl space becomes a professional biohazard job. Kern County angle: rural and foothill properties, sheds, crawl spaces. No medical advice beyond pointing to the CDC and a doctor."
+    },
+    {
+      "id": "2026-09-24-is-blood-a-biohazard",
+      "status": "queued",
+      "queued_at": "2026-09-24T19:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "is blood a biohazard",
+      "intent": "informational",
+      "volume": 480,
+      "kd": 8,
+      "fan_out_cluster": [
+        "examples of biohazard",
+        "is urine biohazard",
+        "is vomit a biohazard",
+        "is feces a biohazard",
+        "what is considered biohazard cleanup",
+        "how to dispose of needles found in house"
+      ],
+      "suggested_slug": "is-blood-a-biohazard",
+      "suggested_title": "Is blood a biohazard? What California homeowners should know before cleaning it up",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/biohazard-cleanup/",
+        "/services/sewage-cleanup/",
+        "/services/odor-removal/"
+      ],
+      "service_tags": [
+        "biohazard-cleanup",
+        "sewage-cleanup",
+        "odor-removal"
+      ],
+      "city_anchor": "bakersfield-ca",
+      "external_authority_candidates": [
+        "https://www.osha.gov/bloodborne-pathogens",
+        "https://www.dir.ca.gov/title8/5193.html"
+      ],
+      "notes": "SENSITIVE SERVICE: apply sensitive-content guardrails (calm, non-graphic, no fear selling). Answer the question in the first sentence (yes, blood and other potentially infectious materials are treated as biohazards under OSHA and Cal/OSHA bloodborne-pathogen rules). Then a quick-answer section per fluid: urine, vomit, feces, sharps, since each of those questions has 140-590/mo. This page absorbs the examples-of-biohazard query (590/mo). Do not describe trauma, crime scene or unattended death work as a service: those catalog services are NOT in this client's plan-input; keep scope to blood, bodily fluids, sharps and infectious material."
+    },
+    {
+      "id": "2026-09-24-how-to-clean-up-blood",
+      "status": "queued",
+      "queued_at": "2026-09-24T19:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to clean up blood",
+      "intent": "informational",
+      "volume": 320,
+      "kd": 4,
+      "fan_out_cluster": [
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "blood cleanup service",
+        "does homeowners insurance cover biohazard cleanup",
+        "how long does biohazard cleanup take"
+      ],
+      "suggested_slug": "how-to-clean-up-blood",
+      "suggested_title": "How to clean up blood at home safely, and when to call a pro in Oildale",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/biohazard-cleanup/",
+        "/services/carpet-cleaning/",
+        "/service-areas/oildale-ca/biohazard-cleanup/"
+      ],
+      "service_tags": [
+        "biohazard-cleanup",
+        "carpet-cleaning"
+      ],
+      "city_anchor": "oildale-ca",
+      "external_authority_candidates": [
+        "https://www.osha.gov/bloodborne-pathogens"
+      ],
+      "notes": "SENSITIVE SERVICE: apply sensitive-content guardrails (calm, non-graphic, no fear selling). Small household spill steps (gloves, absorb, clean, then disinfect with an EPA-registered product, bag waste) versus the threshold where it becomes a professional job (soaked carpet pad, subfloor, grout, large volume). Commercial CTA links to the Oildale biohazard page. Keep it practical and non-graphic; no crime or death scene framing (services not offered)."
+    },
+    {
+      "id": "2026-09-24-biohazard-cleanup-cost",
+      "status": "queued",
+      "queued_at": "2026-09-24T19:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "biohazard cleanup cost",
+      "intent": "commercial",
+      "volume": 70,
+      "kd": 0,
+      "fan_out_cluster": [
+        "how much does biohazard cleanup cost",
+        "biohazard cleanup cost per hour",
+        "biohazard cleanup cost bakersfield",
+        "does homeowners insurance cover biohazard cleanup",
+        "who pays for biohazard cleanup",
+        "servpro biohazard cleanup cost"
+      ],
+      "suggested_slug": "biohazard-cleanup-cost",
+      "suggested_title": "Biohazard cleanup cost in Bakersfield: 2026 price ranges and what drives them",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/biohazard-cleanup/",
+        "/services/sewage-cleanup/",
+        "/services/odor-removal/",
+        "/services/reconstruction/"
+      ],
+      "service_tags": [
+        "biohazard-cleanup",
+        "sewage-cleanup",
+        "odor-removal",
+        "reconstruction"
+      ],
+      "city_anchor": "bakersfield-ca",
+      "external_authority_candidates": [
+        "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/res-ins-guide.cfm"
+      ],
+      "notes": "SENSITIVE SERVICE: apply sensitive-content guardrails (calm, non-graphic, no fear selling). CPC is 85 USD for this term: high-value decision-stage page. ChatGPT already cites two Bakersfield competitors (Wade's Restoration, PuroClean) for local biohazard price ranges, so an itemized cost breakdown (labor, PPE, containment, removal of porous materials, disinfection, waste disposal, deodorization, rebuild) is how we win that citation. Only publish ranges the client can stand behind; do not invent their prices. Insurance section: coverage depends on cause and policy wording, cite the CA Department of Insurance guide."
     }
   ]
 }
