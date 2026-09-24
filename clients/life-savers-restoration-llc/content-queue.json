@@ -300,10 +300,10 @@
     },
     {
       "id": "2026-08-27-category-3-water-damage",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-27T00:00:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-24T17:06:28Z",
+      "post_url": "https://lifesaversrestorationvegas.com/blog/category-3-water-damage/",
       "primary_keyword": "category 3 water damage",
       "intent": "informational",
       "volume": 390,
@@ -448,6 +448,196 @@
       ],
       "notes": "110/mo, KD 6. Mirrors the existing /blog/fire-damage-restoration-process/ post, which proves the format works but leaves the highest-volume service without an equivalent. Cover extraction, dehumidification, moisture mapping, and clearance criteria. Cite IICRC ASD certification.",
       "banked_at": "2026-09-17T22:13:26.021359+00:00"
+    },
+    {
+      "id": "2026-09-24-how-to-clean-soot-off-walls-henderson",
+      "status": "queued",
+      "queued_at": "2026-09-24T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to clean soot off walls",
+      "intent": "informational",
+      "volume": 590,
+      "kd": 0,
+      "fan_out_cluster": [
+        "can smoke damage be removed from walls",
+        "dry soot vs oily soot: which cleaning method to use",
+        "dry cleaning sponges vs wet cleaning on painted drywall",
+        "when soot staining means the drywall has to be replaced",
+        "why wiping soot can smear it deeper into the paint",
+        "cleaning soot off ceilings and textured walls"
+      ],
+      "suggested_slug": "how-to-clean-soot-off-walls-henderson",
+      "suggested_title": "How to clean soot off walls after a fire in Henderson (and when to stop and call a pro)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/odor-removal/",
+        "/blog/fire-damage-restoration-process/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "soot-removal",
+        "smoke-damage-restoration"
+      ],
+      "city_anchor": "henderson-nv",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS700",
+        "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire/recovering-from-fire.html"
+      ],
+      "notes": "590/mo, KD 0: highest-volume uncovered term in the fire family. Owner named fire damage as a wizard goal. Lead with identifying soot type (dry, oily, protein) before any cleaning. Cite the client IICRC FSRT certification and IICRC S700 as the standard. Henderson stucco and desert dust angle for local context."
+    },
+    {
+      "id": "2026-09-24-does-homeowners-insurance-cover-fire-damage-nevada",
+      "status": "queued",
+      "queued_at": "2026-09-24T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover fire damage",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 30,
+      "fan_out_cluster": [
+        "does insurance cover smoke damage",
+        "additional living expenses (ALE) after a house fire",
+        "dwelling vs contents coverage after a fire",
+        "what fire damage is not covered by homeowners insurance",
+        "documenting damage before cleanup",
+        "how long an insurer has to respond in Nevada"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-fire-damage-nevada",
+      "suggested_title": "Does homeowners insurance cover fire damage? A plain-English guide for Las Vegas homeowners",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/contents-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "contents-restoration",
+        "smoke-damage-restoration"
+      ],
+      "city_anchor": "las-vegas-nv",
+      "external_authority_candidates": [
+        "https://doi.nv.gov/Consumers/Wildfire_Recovery/",
+        "https://www.iii.org/article/what-covered-standard-homeowners-policy"
+      ],
+      "notes": "260/mo, KD 30. Decision-stage insurance topic, 24 to 48 hours before hire. Sister post to the existing water damage insurance guide. ChatGPT cited the Nevada Division of Insurance guidance (document damage, keep receipts, do not discard property before inspection): lift those points and cite doi.nv.gov. No policy promises: frame as typical coverage, advise reading the policy."
+    },
+    {
+      "id": "2026-09-24-fire-damage-restoration-cost-henderson-nv",
+      "status": "queued",
+      "queued_at": "2026-09-24T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "fire damage restoration cost",
+      "intent": "commercial",
+      "volume": 260,
+      "kd": 1,
+      "fan_out_cluster": [
+        "fire restoration cost per square foot",
+        "smoke damage cleanup cost vs full fire restoration",
+        "what insurance usually pays for in a fire estimate",
+        "contents cleaning and pack-out costs",
+        "board-up and emergency stabilization costs",
+        "why estimates are written in Xactimate"
+      ],
+      "suggested_slug": "fire-damage-restoration-cost-henderson-nv",
+      "suggested_title": "Fire damage restoration cost in Henderson, NV: what drives the price",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/contents-restoration-storage/",
+        "/services/odor-removal/",
+        "/blog/water-damage-restoration-cost-nv/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "contents-restoration-storage",
+        "odor-removal"
+      ],
+      "city_anchor": "henderson-nv",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS700",
+        "https://www.nvcontractorsboard.com/resources/working-with-contractors/"
+      ],
+      "notes": "260/mo, KD 1. Commercial intent with no cost page on the site. Mirror the structure of the published water damage cost post. Use cost drivers and ranges only if sourced; do not invent prices. Note Nevada license verification and written scope of work, both surfaced by the ChatGPT scraper as what Henderson homeowners ask about."
+    },
+    {
+      "id": "2026-09-24-fire-damage-insurance-claim-north-las-vegas",
+      "status": "queued",
+      "queued_at": "2026-09-24T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "fire damage insurance claim",
+      "intent": "informational",
+      "volume": 170,
+      "kd": 18,
+      "fan_out_cluster": [
+        "how to document fire damage for insurance",
+        "what a restoration company does vs the insurance adjuster",
+        "should i sign an assignment of benefits after a fire",
+        "contents inventory for a fire claim",
+        "getting a copy of the restoration estimate",
+        "what to do if the adjuster lowballs smoke damage"
+      ],
+      "suggested_slug": "fire-damage-insurance-claim-north-las-vegas",
+      "suggested_title": "Filing a fire damage insurance claim in North Las Vegas: step by step",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/contents-restoration/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "contents-restoration"
+      ],
+      "city_anchor": "north-las-vegas-nv",
+      "external_authority_candidates": [
+        "https://doi.nv.gov/Consumers/Wildfire_Recovery/",
+        "https://www.naic.org/"
+      ],
+      "notes": "170/mo, KD 18, CPC about $71 (high commercial value). ChatGPT decomposition stressed the homeowner keeping control of the claim, not auto-signing an AOB, and getting the estimate in writing: build H2s around those. No legal advice framing."
+    },
+    {
+      "id": "2026-09-24-how-to-get-rid-of-smoke-smell-after-a-fire-henderson",
+      "status": "queued",
+      "queued_at": "2026-09-24T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to get rid of smoke smell after a fire",
+      "intent": "informational",
+      "volume": 90,
+      "kd": 8,
+      "fan_out_cluster": [
+        "why smoke smell keeps coming back",
+        "ozone vs hydroxyl vs thermal fogging",
+        "cleaning HVAC ducts after a fire",
+        "can smoke smell be removed from furniture and clothes",
+        "sealing smoke odor in drywall and framing",
+        "how long smoke odor lasts without treatment"
+      ],
+      "suggested_slug": "how-to-get-rid-of-smoke-smell-after-a-fire-henderson",
+      "suggested_title": "How to get rid of smoke smell after a fire in Henderson homes",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/odor-removal/",
+        "/services/fire-damage-restoration/",
+        "/services/contents-restoration/"
+      ],
+      "service_tags": [
+        "odor-removal",
+        "fire-damage-restoration",
+        "smoke-damage-restoration"
+      ],
+      "city_anchor": "henderson-nv",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS700",
+        "https://www.epa.gov/indoor-air-quality-iaq/ozone-generators-are-sold-air-cleaners"
+      ],
+      "notes": "90/mo, KD 8. Bridges fire into odor-removal, a planned service with no editorial support yet. Cite EPA caution on ozone generators in occupied homes. HVAC angle matters in Henderson where AC runs most of the year and spreads odor."
     }
   ]
 }
