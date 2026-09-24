@@ -762,10 +762,10 @@
     },
     {
       "id": "2026-08-09-who-pays-for-water-damage-in-a-condo",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-10T00:52:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-24T20:02:48Z",
+      "post_url": "https://restorationxpress.com/blog/who-pays-for-water-damage-in-a-condo/",
       "priority": 1,
       "primary_keyword": "who pays for water damage in a condo",
       "intent": "informational",
@@ -795,7 +795,18 @@
         "https://www.myfloridacfo.com/division/consumers/understandingcoverage"
       ],
       "notes": "Volume 40 sits under the usual 50 threshold: queued anyway as a deliberate market bet because coastal Broward is one of the densest condo markets in Florida and no competitor content answers it locally. Ground it in the Florida Condominium Act (chapter 718) split between association property and unit interior, plus the upstairs neighbor leak scenario.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/who-pays-for-water-damage-in-a-condo.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified restoration",
+          "context": "orationXpress** RestorationXpress is a certified restoration company serving Fort Lauderdale, Davie,",
+          "reason": "names a certification not present in brand.certifications"
+        }
+      ]
     },
     {
       "id": "2026-08-09-sewage-backup-in-house",
@@ -1149,6 +1160,152 @@
         }
       ],
       "published_verified_at": "2026-09-22T15:37:35Z"
+    },
+    {
+      "id": "2026-09-24-can-same-company-test-and-remediate-mold-florida",
+      "status": "queued",
+      "queued_at": "2026-09-24T20:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "can the same company test and remediate mold in florida",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "florida mold assessor license",
+        "mold assessor vs mold remediator",
+        "what an independent mold assessment includes",
+        "questions to ask before hiring a mold assessor",
+        "mold testing and remediation"
+      ],
+      "suggested_slug": "can-same-company-test-and-remediate-mold-florida",
+      "suggested_title": "Can the same company test and remediate mold in Florida? What Davie homeowners should know",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/"
+      ],
+      "service_tags": [
+        "mold-remediation"
+      ],
+      "city_anchor": "davie-fl",
+      "external_authority_candidates": [
+        "https://www.floridahealth.gov/community-environmental-public-health/environmental-public-health/air-quality/mold/",
+        "https://www.epa.gov/mold",
+        "https://www2.myfloridalicense.com/mold-related-services/"
+      ],
+      "notes": "Explain that Florida licenses mold assessors and mold remediators separately and restricts one firm from doing both on the same project; cite DBPR, do not quote statute numbers unless verified. RestorationXpress is the remediator: position the post as 'get an independent assessment, then call us for remediation'. Do not claim assessor licensure or any certification not in brand data."
+    },
+    {
+      "id": "2026-09-24-mold-clearance-testing",
+      "status": "queued",
+      "queued_at": "2026-09-24T20:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "mold clearance testing",
+      "intent": "informational",
+      "volume": 110,
+      "kd": 1,
+      "fan_out_cluster": [
+        "post mold remediation testing",
+        "mold remediation testing",
+        "what a failed clearance test means",
+        "who performs mold clearance testing in Florida",
+        "how soon after remediation to test"
+      ],
+      "suggested_slug": "mold-clearance-testing",
+      "suggested_title": "Mold clearance testing in Davie: how post-remediation verification works",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/mold-growth-timeline/"
+      ],
+      "service_tags": [
+        "mold-remediation"
+      ],
+      "city_anchor": "davie-fl",
+      "external_authority_candidates": [
+        "https://www.floridahealth.gov/community-environmental-public-health/environmental-public-health/air-quality/mold/",
+        "https://www.epa.gov/mold",
+        "https://www2.myfloridalicense.com/mold-related-services/"
+      ],
+      "notes": "Pair with the queued mold remediation process post. Clearance is typically performed by an independent licensed assessor, not the remediator: say so plainly. Cover visual inspection, moisture readings, air/surface sampling, and what happens if it fails."
+    },
+    {
+      "id": "2026-09-24-do-i-need-a-mold-test-before-remediation",
+      "status": "queued",
+      "queued_at": "2026-09-24T20:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "do i need a mold test before remediation",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "is mold testing worth it",
+        "when mold testing makes sense",
+        "visible mold vs hidden mold",
+        "does homeowners insurance cover mold testing",
+        "how much does mold testing cost"
+      ],
+      "suggested_slug": "do-i-need-a-mold-test-before-remediation",
+      "suggested_title": "Do I need a mold test before remediation? A Fort Lauderdale homeowner's guide",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/blog/how-to-test-for-mold/",
+        "/service-areas/fort-lauderdale-fl/mold-remediation/",
+        "/blog/signs-of-hidden-mold/"
+      ],
+      "service_tags": [
+        "mold-remediation"
+      ],
+      "city_anchor": "fort-lauderdale-fl",
+      "external_authority_candidates": [
+        "https://www.floridahealth.gov/community-environmental-public-health/environmental-public-health/air-quality/mold/",
+        "https://www.epa.gov/mold",
+        "https://www2.myfloridalicense.com/mold-related-services/"
+      ],
+      "notes": "Lead with Florida DOH guidance: visible mold generally does not need sampling; fix moisture and remove growth. Testing helps for hidden mold, insurance or landlord disputes, and clearance. South Florida humidity angle (keep indoor RH below 60 percent). Question-format page aimed at AI answer extraction."
+    },
+    {
+      "id": "2026-09-24-how-to-read-mold-test-results",
+      "status": "queued",
+      "queued_at": "2026-09-24T20:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to read mold test results",
+      "intent": "informational",
+      "volume": 50,
+      "kd": 0,
+      "fan_out_cluster": [
+        "types of mold testing",
+        "how accurate are mold tests",
+        "mold readings",
+        "indoor vs outdoor spore counts",
+        "what the mold species on your report mean"
+      ],
+      "suggested_slug": "how-to-read-mold-test-results",
+      "suggested_title": "How to read mold test results (and when they mean you need remediation) in Hollywood, FL",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/blog/how-to-test-for-mold/",
+        "/service-areas/hollywood-fl/mold-remediation/",
+        "/blog/black-mold-vs-regular-mold/"
+      ],
+      "service_tags": [
+        "mold-remediation"
+      ],
+      "city_anchor": "hollywood-fl",
+      "external_authority_candidates": [
+        "https://www.floridahealth.gov/community-environmental-public-health/environmental-public-health/air-quality/mold/",
+        "https://www.epa.gov/mold",
+        "https://www2.myfloridalicense.com/mold-related-services/"
+      ],
+      "notes": "Explain indoor vs outdoor comparison, spore counts, common genera (Aspergillus/Penicillium, Stachybotrys), and that there are no federal health-based limits. Avoid medical claims. Close with when results justify professional remediation."
     }
   ]
 }
