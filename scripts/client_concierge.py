@@ -4817,6 +4817,18 @@ def send_message(contact: dict, channel: str, body: str,
         shows_claim = site_shows_claim_violation(company, body)
         if shows_claim:
             raise SendBlocked(shows_claim)
+        # ACTION-CLAIM — present-progressive vapor ("we're getting Chris
+        # added now", Scott/BCP 2026-09-23) never leaves: no lane composes
+        # that wording after real execution; only unexecuted promises do.
+        if re.search(r"\b(?:we'?re?|i'?m|we are|i am)\s+getting\b"
+                     r"[^.!?\n]{0,60}\b(?:added|updated|removed|changed|"
+                     r"set up|sorted|handled|taken care of)\b"
+                     r"|\bconsider it (?:done|handled)\b", body, re.I):
+            raise SendBlocked(
+                "ACTION-CLAIM: body promises an account action is being "
+                "done ('getting X added/handled') — Monica must either "
+                "verifiably execute or say she is passing it to Santino, "
+                "never claim in-progress work (Chris Pappas 2026-09-23).")
         # INTERNAL LEAK — last line, same standing as the topic ban.
         leak = internal_leak_violation(body, fetch_internal_work(company["id"]),
                                        company)
@@ -5098,6 +5110,15 @@ short sentences. The ask by itself is usually the whole message.
   never inside it.
 - NO PREAMBLE. Don't warm up, don't set the scene, don't announce what the
   message is about. Start at the point.
+- EXECUTION OR ESCALATION, never in between (Chris Pappas 2026-09-23 +
+  Barbara/RX 2026-09-09: "we're getting Chris added now" was said and
+  nothing added him). When the client asks for an ACTION on their account
+  (add a contact, change a setting, remove someone, update something), you
+  may claim it only if THIS system verifiably did it. Otherwise the ONLY
+  correct reply is that you're passing it to Santino. Never "we're getting
+  that done now", never "that's been taken care of", never any wording that
+  implies work happened or is happening. Passing it along IS the honest,
+  complete answer.
 - NO RE-EXPLAINING. If we already said it in this thread, never say it
   again in other words. One statement of a fact, ever.
 - NO JUSTIFYING OR SELLING THE ASK. Don't explain why we need it, what we'll
@@ -8026,7 +8047,12 @@ def fetch_inbound_since(contact_id: str, since: datetime) -> list[dict]:
             # collector kept dropping them as empty: Bob Olson's 2026-09-08
             # 11pm reply about the flag photos vanished right here. Hydrate
             # BEFORE the empty-drop check.
-            if not body and msg.get("messageType") == "TYPE_EMAIL":
+            if (not body or not attachments) \
+                    and msg.get("messageType") == "TYPE_EMAIL":
+                # 2026-09-24 (DISS/Addi): hydrate on missing ATTACHMENTS
+                # too, not just missing body — an email WITH text whose
+                # images sat behind the endpoint reached media-ingest with
+                # zero attachments and false-pinged "couldn't auto-file".
                 email_ids = (((msg.get("meta") or {}).get("email") or {})
                              .get("messageIds") or [])
                 if email_ids:
@@ -8035,7 +8061,7 @@ def fetch_inbound_since(contact_id: str, since: datetime) -> list[dict]:
                                     f"{email_ids[0]}") or {}
                         e = full.get("emailMessage", full)
                         raw = re.sub(r"<[^>]+>", " ", e.get("body") or "")
-                        body = re.sub(r"\s+", " ", raw).strip()
+                        body = body or re.sub(r"\s+", " ", raw).strip()
                         attachments = attachments or (e.get("attachments") or [])
                     except Exception as err:  # noqa: BLE001
                         print(f"    [email-hydrate] failed: {str(err)[:80]}")
@@ -8904,6 +8930,97 @@ def apply_task_approval(company_id: str, reply: str, dry_run: bool) -> list[str]
         out.append(f"{company_id}: approved -> [DEV]: "
                    f"{body.splitlines()[1][:60] if len(body.splitlines())>1 else ''}")
     return out
+
+
+_ADD_CONTACT_RE = re.compile(
+    r"\badd\b[^.!?\n]{0,60}\b(?:to (?:this|the) (?:text )?thread"
+    r"|as (?:a |the )?(?:point of )?contact|to (?:the|our|my) account)\b",
+    re.I)
+_PHONE_IN_TEXT_RE = re.compile(
+    r"\(?\b(\d{3})\)?[\s.\-]{0,2}(\d{3})[\s.\-]{0,2}(\d{4})\b")
+
+
+def add_secondary_contact(company: dict, first: str, last: str,
+                          phone: str, email: str = "",
+                          role: str = "secondary",
+                          dry_run: bool = False) -> dict | None:
+    """The Chris Pappas tool (Santino 2026-09-24): a client asks to add a
+    person to their account/thread. Creates the GHL contact and appends a
+    NON-preferred card to integration_settings.contacts — which is what
+    both the app's contact panel and the canary allowlist read. Returns
+    the card, or None on failure (caller escalates instead of claiming)."""
+    digits = re.sub(r"\D", "", phone)[-10:]
+    if len(digits) != 10:
+        return None
+    pretty = f"({digits[:3]}) {digits[3:6]}-{digits[6:]}"
+    card = {"first_name": (first or "").strip().title(),
+            "last_name": (last or "").strip().title(),
+            "cell": pretty, "email": (email or "").strip().lower(),
+            "role": role, "preferred": False,
+            "added_by": "concierge", "added_at":
+            datetime.now(timezone.utc).isoformat()}
+    if dry_run:
+        print(f"    [dry-run] would add secondary contact {card}")
+        return card
+    try:
+        res = _ghl("POST", "/contacts/", body={
+            "locationId": _loc(),
+            "firstName": card["first_name"], "lastName": card["last_name"],
+            "phone": "+1" + digits,
+            **({"email": card["email"]} if card["email"] else {})})
+        card["ghl_contact_id"] = ((res or {}).get("contact") or {}).get("id")
+    except Exception as e:  # noqa: BLE001 — duplicate contact etc.
+        err = str(e)
+        m = re.search(r'"contactId"\s*:\s*"([A-Za-z0-9]+)"', err)
+        if m:
+            card["ghl_contact_id"] = m.group(1)   # already existed — fine
+        else:
+            print(f"    add_secondary_contact GHL warn: {err[:100]}")
+    try:
+        ints = company.get("integration_settings") or {}
+        if isinstance(ints, str):
+            ints = json.loads(ints)
+        cards = ints.get("contacts") or []
+        if not any(re.sub(r"\D", "", str(c.get("cell") or ""))[-10:] == digits
+                   for c in cards):
+            cards.append(card)
+            ints["contacts"] = cards
+            _sb("PATCH", f"/rest/v1/companies?id=eq.{company['id']}",
+                body={"integration_settings": ints})
+            # A DB-side normalizer can flip preferred onto the NEW card
+            # (observed live on the first Chris Pappas add: Scott lost
+            # preferred to Chris within a minute). Verify + restore.
+            try:
+                chk = _sb("GET", "/rest/v1/companies?id=eq."
+                          f"{company['id']}&select=integration_settings")[0]
+                cints = chk.get("integration_settings") or {}
+                ccards = cints.get("contacts") or []
+                mine = next((c for c in ccards
+                             if re.sub(r"\D", "", str(c.get("cell") or ""))
+                             [-10:] == digits), None)
+                if mine and mine.get("preferred"):
+                    others_preferred = [c for c in ccards
+                                        if c is not mine
+                                        and c.get("preferred")]
+                    if not others_preferred:
+                        mine["preferred"] = False
+                        prev = next((c for c in ccards if c is not mine), None)
+                        if prev:
+                            prev["preferred"] = True
+                        _sb("PATCH", "/rest/v1/companies?id=eq."
+                            f"{company['id']}",
+                            body={"integration_settings": cints})
+                        print("    preferred-flag flip healed (new card "
+                              "must never steal preferred)")
+            except Exception as e:  # noqa: BLE001
+                print(f"    preferred verify warn: {str(e)[:80]}")
+        print(f"    secondary contact ADDED: {card['first_name']} "
+              f"{card['last_name']} {pretty} (ghl "
+              f"{card.get('ghl_contact_id') or '?'})")
+        return card
+    except Exception as e:  # noqa: BLE001
+        print(f"    add_secondary_contact card warn: {str(e)[:100]}")
+        return None
 
 
 def append_escalation(company: dict, msg: dict | None, reason: str,
@@ -11386,16 +11503,37 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
                                    "customer contacts: thank them briefly, "
                                    "forward-looking)")
             if not msg["body"]:
-                if media["photos"] or media["videos"]:
-                    # Give the normal reply flow something to acknowledge
-                    # (marks photo intake items answered + thanks them).
+                # ANY successfully-filed kind is HANDLED (Santino 2026-09-24:
+                # screenshots and documents that ingested fine still pinged
+                # his cell "couldn't auto-file" — RT Olson's proof screenshot
+                # was classified, stored, and escalated anyway). Monica sees
+                # what arrived (the vision tag rides the composer's history)
+                # and answers it herself. Escalate ONLY when ingest produced
+                # nothing at all.
+                filed = (media["photos"] + media["videos"]
+                         + media.get("screenshots", 0)
+                         + media.get("documents", 0)
+                         + media.get("brand_refs", 0))
+                if filed:
                     n = media["photos"] + media["videos"]
-                    msg["body"] = (
-                        f"(the client texted {n} photo(s)/video(s) with no "
-                        "message — the images are attached; if they are "
-                        "job/company photos, they are already saved on our "
-                        "side, thank them briefly; if a screenshot of an "
-                        "error or a question, analyze it and answer it)")
+                    if media.get("screenshots") or media.get("documents"):
+                        msg["body"] = (
+                            "(the client sent "
+                            f"{media.get('screenshots', 0)} screenshot(s)/"
+                            f"{media.get('documents', 0)} document(s) with "
+                            "no message — the images are attached and "
+                            "already filed on our side. If it is a "
+                            "screenshot of a problem or an error, analyze "
+                            "the image and answer the problem it shows; if "
+                            "it is paperwork, confirm receipt and what "
+                            "happens next. Never say it failed to file.)")
+                    else:
+                        msg["body"] = (
+                            f"(the client texted {n} photo(s)/video(s) with no "
+                            "message — the images are attached; if they are "
+                            "job/company photos, they are already saved on our "
+                            "side, thank them briefly; if a screenshot of an "
+                            "error or a question, analyze it and answer it)")
                 else:
                     append_escalation(
                         company, msg,
@@ -11404,6 +11542,39 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
                         ping=True)  # Monica can't handle it herself
                     continue
         contact_for_flow = contact_payload or {"id": contact_id}
+        # ADD-CONTACT fast path (Chris Pappas 2026-09-23: "add Chris Pappas
+        # to this text thread ... 910-448-2930" got "we're getting Chris
+        # added now" and NOTHING executed). Deterministic: request-shape +
+        # a phone number in the text -> actually add the card, then confirm
+        # the DONE state truthfully. No phone/no name -> normal flow (the
+        # composer's contract makes it a pass-to-Santino).
+        try:
+            _acm = _ADD_CONTACT_RE.search(msg.get("body") or "")
+            _phm = _PHONE_IN_TEXT_RE.search(msg.get("body") or "")
+            _nm = re.search(r"\badd\s+([A-Z][A-Za-z'\-]+)"
+                            r"(?:\s+([A-Z][A-Za-z'\-]+))?",
+                            msg.get("body") or "")
+            if _acm and _phm and _nm:
+                _card = add_secondary_contact(
+                    company, _nm.group(1), _nm.group(2) or "",
+                    "".join(_phm.groups()),
+                    dry_run=dry_run)
+                if _card:
+                    _fn = _card["first_name"]
+                    if not dry_run:
+                        send_message(contact_for_flow, "sms",
+                                     f"Done, {_fn} is added as a contact "
+                                     "on your account.",
+                                     company=company,
+                                     reply_to=msg.get("id"))
+                    else:
+                        print(f"    [dry-run] would confirm {_fn} added")
+                    continue
+        except SendBlocked as _sb_e:
+            print(f"    add-contact confirm blocked: {_sb_e}")
+            continue
+        except Exception as _e:  # noqa: BLE001 — fall through to normal flow
+            print(f"    add-contact fast path warn: {str(_e)[:90]}")
         if handle_reschedule_reply(company, contact_for_flow, msg,
                                    state, dry_run):
             continue
