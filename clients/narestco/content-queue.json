@@ -1123,7 +1123,7 @@
     },
     {
       "id": "2026-08-26-does-homeowners-insurance-cover-sewage-backup",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-26T08:30:38Z",
       "written_at": null,
       "post_url": null,
@@ -1150,8 +1150,7 @@
       "external_authority_candidates": [
         "https://www.iii.org/article/what-is-covered-by-standard-homeowners-policy"
       ],
-      "notes": "Decision-stage query hit 24-48 hours before hiring. Explain that a sewer/water backup rider is usually a SEPARATE endorsement, not standard coverage. Neutral, no legal/insurance guarantees.",
-      "banked_at": "2026-09-22T22:24:04.119387+00:00"
+      "notes": "Decision-stage query hit 24-48 hours before hiring. Explain that a sewer/water backup rider is usually a SEPARATE endorsement, not standard coverage. Neutral, no legal/insurance guarantees."
     },
     {
       "id": "2026-08-26-sewage-backup-cleanup-cost",
