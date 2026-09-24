@@ -192,6 +192,11 @@
       "city": "Allison Park",
       "state": "PA",
       "slug": "allison-park-pa"
+    },
+    {
+      "city": "Fox Chapel",
+      "state": "PA",
+      "slug": "fox-chapel-pa"
     }
   ],
   "template": "restoration",

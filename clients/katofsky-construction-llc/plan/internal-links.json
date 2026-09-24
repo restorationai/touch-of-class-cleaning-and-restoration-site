@@ -22,6 +22,7 @@
     "/service-areas/carnegie-pa/",
     "/service-areas/castle-shannon-pa/",
     "/service-areas/forest-hills-pa/",
+    "/service-areas/fox-chapel-pa/",
     "/service-areas/glenshaw-pa/",
     "/service-areas/green-tree-pa/",
     "/service-areas/greensburg-pa/",
@@ -69,6 +70,7 @@
     "/service-areas/carnegie-pa/",
     "/service-areas/castle-shannon-pa/",
     "/service-areas/forest-hills-pa/",
+    "/service-areas/fox-chapel-pa/",
     "/service-areas/glenshaw-pa/",
     "/service-areas/green-tree-pa/",
     "/service-areas/greensburg-pa/",
@@ -120,12 +122,12 @@
     "/service-areas/carnegie-pa/fire-damage-restoration/",
     "/service-areas/castle-shannon-pa/fire-damage-restoration/",
     "/service-areas/forest-hills-pa/fire-damage-restoration/",
+    "/service-areas/fox-chapel-pa/fire-damage-restoration/",
     "/service-areas/glenshaw-pa/fire-damage-restoration/",
     "/service-areas/green-tree-pa/fire-damage-restoration/",
     "/service-areas/greensburg-pa/fire-damage-restoration/",
     "/service-areas/hempfield-township-pa/fire-damage-restoration/",
     "/service-areas/jeannette-pa/fire-damage-restoration/",
-    "/service-areas/latrobe-pa/fire-damage-restoration/",
     "/blog/choosing-a-restoration-company/",
     "/blog/fire-damage-restoration-process/",
     "/blog/smoke-odor-removal-techniques/"
@@ -139,12 +141,12 @@
     "/service-areas/carnegie-pa/general-contracting/",
     "/service-areas/castle-shannon-pa/general-contracting/",
     "/service-areas/forest-hills-pa/general-contracting/",
+    "/service-areas/fox-chapel-pa/general-contracting/",
     "/service-areas/glenshaw-pa/general-contracting/",
     "/service-areas/green-tree-pa/general-contracting/",
     "/service-areas/greensburg-pa/general-contracting/",
     "/service-areas/hempfield-township-pa/general-contracting/",
-    "/service-areas/jeannette-pa/general-contracting/",
-    "/service-areas/latrobe-pa/general-contracting/"
+    "/service-areas/jeannette-pa/general-contracting/"
   ],
   "/services/roofing/": [
     "/services/",
@@ -155,12 +157,12 @@
     "/service-areas/carnegie-pa/roofing/",
     "/service-areas/castle-shannon-pa/roofing/",
     "/service-areas/forest-hills-pa/roofing/",
+    "/service-areas/fox-chapel-pa/roofing/",
     "/service-areas/glenshaw-pa/roofing/",
     "/service-areas/green-tree-pa/roofing/",
     "/service-areas/greensburg-pa/roofing/",
     "/service-areas/hempfield-township-pa/roofing/",
-    "/service-areas/jeannette-pa/roofing/",
-    "/service-areas/latrobe-pa/roofing/"
+    "/service-areas/jeannette-pa/roofing/"
   ],
   "/services/sewage-cleanup/": [
     "/services/",
@@ -171,12 +173,12 @@
     "/service-areas/carnegie-pa/sewage-cleanup/",
     "/service-areas/castle-shannon-pa/sewage-cleanup/",
     "/service-areas/forest-hills-pa/sewage-cleanup/",
+    "/service-areas/fox-chapel-pa/sewage-cleanup/",
     "/service-areas/glenshaw-pa/sewage-cleanup/",
     "/service-areas/green-tree-pa/sewage-cleanup/",
     "/service-areas/greensburg-pa/sewage-cleanup/",
     "/service-areas/hempfield-township-pa/sewage-cleanup/",
     "/service-areas/jeannette-pa/sewage-cleanup/",
-    "/service-areas/latrobe-pa/sewage-cleanup/",
     "/blog/sewage-backup-health-risks/"
   ],
   "/services/biohazard-cleanup/": [
@@ -188,12 +190,12 @@
     "/service-areas/carnegie-pa/biohazard-cleanup/",
     "/service-areas/castle-shannon-pa/biohazard-cleanup/",
     "/service-areas/forest-hills-pa/biohazard-cleanup/",
+    "/service-areas/fox-chapel-pa/biohazard-cleanup/",
     "/service-areas/glenshaw-pa/biohazard-cleanup/",
     "/service-areas/green-tree-pa/biohazard-cleanup/",
     "/service-areas/greensburg-pa/biohazard-cleanup/",
     "/service-areas/hempfield-township-pa/biohazard-cleanup/",
-    "/service-areas/jeannette-pa/biohazard-cleanup/",
-    "/service-areas/latrobe-pa/biohazard-cleanup/"
+    "/service-areas/jeannette-pa/biohazard-cleanup/"
   ],
   "/services/asbestos-abatement/": [
     "/services/",
@@ -204,12 +206,12 @@
     "/service-areas/carnegie-pa/asbestos-abatement/",
     "/service-areas/castle-shannon-pa/asbestos-abatement/",
     "/service-areas/forest-hills-pa/asbestos-abatement/",
+    "/service-areas/fox-chapel-pa/asbestos-abatement/",
     "/service-areas/glenshaw-pa/asbestos-abatement/",
     "/service-areas/green-tree-pa/asbestos-abatement/",
     "/service-areas/greensburg-pa/asbestos-abatement/",
     "/service-areas/hempfield-township-pa/asbestos-abatement/",
-    "/service-areas/jeannette-pa/asbestos-abatement/",
-    "/service-areas/latrobe-pa/asbestos-abatement/"
+    "/service-areas/jeannette-pa/asbestos-abatement/"
   ],
   "/services/lead-paint-abatement/": [
     "/services/",
@@ -220,12 +222,12 @@
     "/service-areas/carnegie-pa/lead-paint-abatement/",
     "/service-areas/castle-shannon-pa/lead-paint-abatement/",
     "/service-areas/forest-hills-pa/lead-paint-abatement/",
+    "/service-areas/fox-chapel-pa/lead-paint-abatement/",
     "/service-areas/glenshaw-pa/lead-paint-abatement/",
     "/service-areas/green-tree-pa/lead-paint-abatement/",
     "/service-areas/greensburg-pa/lead-paint-abatement/",
     "/service-areas/hempfield-township-pa/lead-paint-abatement/",
-    "/service-areas/jeannette-pa/lead-paint-abatement/",
-    "/service-areas/latrobe-pa/lead-paint-abatement/"
+    "/service-areas/jeannette-pa/lead-paint-abatement/"
   ],
   "/services/emergency-board-up-tarping/": [
     "/services/",
@@ -236,12 +238,12 @@
     "/service-areas/carnegie-pa/emergency-board-up-tarping/",
     "/service-areas/castle-shannon-pa/emergency-board-up-tarping/",
     "/service-areas/forest-hills-pa/emergency-board-up-tarping/",
+    "/service-areas/fox-chapel-pa/emergency-board-up-tarping/",
     "/service-areas/glenshaw-pa/emergency-board-up-tarping/",
     "/service-areas/green-tree-pa/emergency-board-up-tarping/",
     "/service-areas/greensburg-pa/emergency-board-up-tarping/",
     "/service-areas/hempfield-township-pa/emergency-board-up-tarping/",
-    "/service-areas/jeannette-pa/emergency-board-up-tarping/",
-    "/service-areas/latrobe-pa/emergency-board-up-tarping/"
+    "/service-areas/jeannette-pa/emergency-board-up-tarping/"
   ],
   "/services/contents-restoration-storage/": [
     "/services/",
@@ -252,12 +254,12 @@
     "/service-areas/carnegie-pa/contents-restoration-storage/",
     "/service-areas/castle-shannon-pa/contents-restoration-storage/",
     "/service-areas/forest-hills-pa/contents-restoration-storage/",
+    "/service-areas/fox-chapel-pa/contents-restoration-storage/",
     "/service-areas/glenshaw-pa/contents-restoration-storage/",
     "/service-areas/green-tree-pa/contents-restoration-storage/",
     "/service-areas/greensburg-pa/contents-restoration-storage/",
     "/service-areas/hempfield-township-pa/contents-restoration-storage/",
-    "/service-areas/jeannette-pa/contents-restoration-storage/",
-    "/service-areas/latrobe-pa/contents-restoration-storage/"
+    "/service-areas/jeannette-pa/contents-restoration-storage/"
   ],
   "/services/air-duct-cleaning/": [
     "/services/",
@@ -268,12 +270,12 @@
     "/service-areas/carnegie-pa/air-duct-cleaning/",
     "/service-areas/castle-shannon-pa/air-duct-cleaning/",
     "/service-areas/forest-hills-pa/air-duct-cleaning/",
+    "/service-areas/fox-chapel-pa/air-duct-cleaning/",
     "/service-areas/glenshaw-pa/air-duct-cleaning/",
     "/service-areas/green-tree-pa/air-duct-cleaning/",
     "/service-areas/greensburg-pa/air-duct-cleaning/",
     "/service-areas/hempfield-township-pa/air-duct-cleaning/",
-    "/service-areas/jeannette-pa/air-duct-cleaning/",
-    "/service-areas/latrobe-pa/air-duct-cleaning/"
+    "/service-areas/jeannette-pa/air-duct-cleaning/"
   ],
   "/services/carpet-cleaning/": [
     "/services/",
@@ -284,12 +286,12 @@
     "/service-areas/carnegie-pa/carpet-cleaning/",
     "/service-areas/castle-shannon-pa/carpet-cleaning/",
     "/service-areas/forest-hills-pa/carpet-cleaning/",
+    "/service-areas/fox-chapel-pa/carpet-cleaning/",
     "/service-areas/glenshaw-pa/carpet-cleaning/",
     "/service-areas/green-tree-pa/carpet-cleaning/",
     "/service-areas/greensburg-pa/carpet-cleaning/",
     "/service-areas/hempfield-township-pa/carpet-cleaning/",
-    "/service-areas/jeannette-pa/carpet-cleaning/",
-    "/service-areas/latrobe-pa/carpet-cleaning/"
+    "/service-areas/jeannette-pa/carpet-cleaning/"
   ],
   "/services/upholstery-cleaning/": [
     "/services/",
@@ -300,12 +302,12 @@
     "/service-areas/carnegie-pa/upholstery-cleaning/",
     "/service-areas/castle-shannon-pa/upholstery-cleaning/",
     "/service-areas/forest-hills-pa/upholstery-cleaning/",
+    "/service-areas/fox-chapel-pa/upholstery-cleaning/",
     "/service-areas/glenshaw-pa/upholstery-cleaning/",
     "/service-areas/green-tree-pa/upholstery-cleaning/",
     "/service-areas/greensburg-pa/upholstery-cleaning/",
     "/service-areas/hempfield-township-pa/upholstery-cleaning/",
-    "/service-areas/jeannette-pa/upholstery-cleaning/",
-    "/service-areas/latrobe-pa/upholstery-cleaning/"
+    "/service-areas/jeannette-pa/upholstery-cleaning/"
   ],
   "/service-areas/penn-hills-pa/": [
     "/service-areas/",
@@ -857,6 +859,25 @@
     "/service-areas/baldwin-pa/",
     "/service-areas/bethel-park-pa/",
     "/service-areas/carnegie-pa/"
+  ],
+  "/service-areas/fox-chapel-pa/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/fox-chapel-pa/fire-damage-restoration/",
+    "/service-areas/fox-chapel-pa/roofing/",
+    "/service-areas/fox-chapel-pa/sewage-cleanup/",
+    "/service-areas/fox-chapel-pa/biohazard-cleanup/",
+    "/service-areas/fox-chapel-pa/general-contracting/",
+    "/service-areas/fox-chapel-pa/emergency-board-up-tarping/",
+    "/service-areas/fox-chapel-pa/asbestos-abatement/",
+    "/service-areas/fox-chapel-pa/air-duct-cleaning/",
+    "/service-areas/fox-chapel-pa/contents-restoration-storage/",
+    "/service-areas/fox-chapel-pa/lead-paint-abatement/",
+    "/service-areas/fox-chapel-pa/carpet-cleaning/",
+    "/service-areas/fox-chapel-pa/upholstery-cleaning/",
+    "/service-areas/allison-park-pa/",
+    "/service-areas/baldwin-pa/",
+    "/service-areas/bethel-park-pa/"
   ],
   "/service-areas/penn-hills-pa/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
@@ -3988,6 +4009,114 @@
     "/service-areas/allison-park-pa/roofing/",
     "/service-areas/baldwin-pa/upholstery-cleaning/",
     "/service-areas/bethel-park-pa/upholstery-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/fox-chapel-pa/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/fox-chapel-pa/",
+    "/service-areas/fox-chapel-pa/roofing/",
+    "/service-areas/fox-chapel-pa/sewage-cleanup/",
+    "/service-areas/allison-park-pa/fire-damage-restoration/",
+    "/service-areas/baldwin-pa/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/fox-chapel-pa/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/fox-chapel-pa/",
+    "/service-areas/fox-chapel-pa/fire-damage-restoration/",
+    "/service-areas/fox-chapel-pa/roofing/",
+    "/service-areas/allison-park-pa/general-contracting/",
+    "/service-areas/baldwin-pa/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/fox-chapel-pa/roofing/": [
+    "/services/roofing/",
+    "/service-areas/fox-chapel-pa/",
+    "/service-areas/fox-chapel-pa/fire-damage-restoration/",
+    "/service-areas/fox-chapel-pa/sewage-cleanup/",
+    "/service-areas/allison-park-pa/roofing/",
+    "/service-areas/baldwin-pa/roofing/",
+    "/contact/"
+  ],
+  "/service-areas/fox-chapel-pa/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/fox-chapel-pa/",
+    "/service-areas/fox-chapel-pa/fire-damage-restoration/",
+    "/service-areas/fox-chapel-pa/roofing/",
+    "/service-areas/allison-park-pa/sewage-cleanup/",
+    "/service-areas/baldwin-pa/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/fox-chapel-pa/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/fox-chapel-pa/",
+    "/service-areas/fox-chapel-pa/fire-damage-restoration/",
+    "/service-areas/fox-chapel-pa/roofing/",
+    "/service-areas/allison-park-pa/biohazard-cleanup/",
+    "/service-areas/baldwin-pa/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/fox-chapel-pa/asbestos-abatement/": [
+    "/services/asbestos-abatement/",
+    "/service-areas/fox-chapel-pa/",
+    "/service-areas/fox-chapel-pa/fire-damage-restoration/",
+    "/service-areas/fox-chapel-pa/roofing/",
+    "/service-areas/allison-park-pa/asbestos-abatement/",
+    "/service-areas/baldwin-pa/asbestos-abatement/",
+    "/contact/"
+  ],
+  "/service-areas/fox-chapel-pa/lead-paint-abatement/": [
+    "/services/lead-paint-abatement/",
+    "/service-areas/fox-chapel-pa/",
+    "/service-areas/fox-chapel-pa/fire-damage-restoration/",
+    "/service-areas/fox-chapel-pa/roofing/",
+    "/service-areas/allison-park-pa/lead-paint-abatement/",
+    "/service-areas/baldwin-pa/lead-paint-abatement/",
+    "/contact/"
+  ],
+  "/service-areas/fox-chapel-pa/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/fox-chapel-pa/",
+    "/service-areas/fox-chapel-pa/fire-damage-restoration/",
+    "/service-areas/fox-chapel-pa/roofing/",
+    "/service-areas/allison-park-pa/emergency-board-up-tarping/",
+    "/service-areas/baldwin-pa/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/fox-chapel-pa/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/fox-chapel-pa/",
+    "/service-areas/fox-chapel-pa/fire-damage-restoration/",
+    "/service-areas/fox-chapel-pa/roofing/",
+    "/service-areas/allison-park-pa/contents-restoration-storage/",
+    "/service-areas/baldwin-pa/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/fox-chapel-pa/air-duct-cleaning/": [
+    "/services/air-duct-cleaning/",
+    "/service-areas/fox-chapel-pa/",
+    "/service-areas/fox-chapel-pa/fire-damage-restoration/",
+    "/service-areas/fox-chapel-pa/roofing/",
+    "/service-areas/allison-park-pa/air-duct-cleaning/",
+    "/service-areas/baldwin-pa/air-duct-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/fox-chapel-pa/carpet-cleaning/": [
+    "/services/carpet-cleaning/",
+    "/service-areas/fox-chapel-pa/",
+    "/service-areas/fox-chapel-pa/fire-damage-restoration/",
+    "/service-areas/fox-chapel-pa/roofing/",
+    "/service-areas/allison-park-pa/carpet-cleaning/",
+    "/service-areas/baldwin-pa/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/fox-chapel-pa/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/fox-chapel-pa/",
+    "/service-areas/fox-chapel-pa/fire-damage-restoration/",
+    "/service-areas/fox-chapel-pa/roofing/",
+    "/service-areas/allison-park-pa/upholstery-cleaning/",
+    "/service-areas/baldwin-pa/upholstery-cleaning/",
     "/contact/"
   ],
   "/blog/fire-damage-restoration-process/": [
