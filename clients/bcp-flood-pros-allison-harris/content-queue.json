@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-23-water-damage-restoration-cost-ut",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-23T15:09:27Z",
       "priority": 1,
       "prioritized": true,
@@ -27,7 +27,56 @@
         "water cleanup UT",
         "water removal UT"
       ],
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-24T15:23:16Z",
+      "post_url": "https://fixofutah.com/blog/water-damage-restoration-cost-ut/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-ut.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "2, and 3 water damage?\", \"answer\": \"The IICRC S500 standard classifies water losses b",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-ut.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "extraction and structural drying to the IICRC S500 dry standard is the primary way to",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-ut.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "damage jobs. **Water category.** The [IICRC S500 standard](https://iicrc.org) class",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-ut.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "*Water class (how far it spread).** The IICRC also classifies losses by how much mate",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-ut.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "ure readings. The goal is reaching the [IICRC S500](https://iicrc.org) standard for d",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
     },
     {
       "id": "2026-09-10-storm-wind-damage-restoration",
