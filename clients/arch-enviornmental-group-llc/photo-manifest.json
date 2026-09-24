@@ -25,8 +25,540 @@
       "reason": "Pure logo lockup; no photographic content, unsuitable for any content slot.",
       "triaged_at": "2026-08-31T18:09:14Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "web:1e6d51d41887929a": {
+      "source": "website",
+      "storage": "site-assets/web/web-1e6d51d41887929a.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788198240333/site-assets/web/web-1e6d51d41887929a.jpg",
+      "origin_url": "https://archenviroservice.com/images/services/asbestos-testing.webp",
+      "found_on": "https://archenviroservice.com/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 188408,
+      "sha1": "1e6d51d41887929a",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician sampling wall exterior beside Arch Environmental van",
+      "quality": 88,
+      "slots": {
+        "hero": 82,
+        "team": 60,
+        "services": 85
+      },
+      "service_slugs": [
+        "mold-inspection-testing",
+        "asbestos-testing",
+        "environmental-site-assessments"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Sharp golden-hour shot, branded van and uniform, technician clearly sampling wall.",
+      "triaged_at": "2026-09-24T16:06:34Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:21cfefd51ec52d97": {
+      "source": "website",
+      "storage": "site-assets/web/web-21cfefd51ec52d97.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788198240333/site-assets/web/web-21cfefd51ec52d97.jpg",
+      "origin_url": "https://archenviroservice.com/images/services/remediation-oversight.webp",
+      "found_on": "https://archenviroservice.com/services/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 144028,
+      "sha1": "21cfefd51ec52d97",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician reviewing tablet beside air movers and Arch van",
+      "quality": 87,
+      "slots": {
+        "hero": 78,
+        "team": 58,
+        "services": 82
+      },
+      "service_slugs": [
+        "remediation-oversight",
+        "post-flood-mold-assessment",
+        "indoor-air-quality-testing"
+      ],
+      "flags": [],
+      "reason": "Branded van, uniform, remediation equipment visible; well-composed outdoor scene.",
+      "triaged_at": "2026-09-24T16:06:34Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:246d1e4bb7f44cbb": {
+      "source": "website",
+      "storage": "site-assets/web/web-246d1e4bb7f44cbb.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788198240333/site-assets/web/web-246d1e4bb7f44cbb.jpg",
+      "origin_url": "https://archenviroservice.com/images/services/litigation-support-sampling.webp",
+      "found_on": "https://archenviroservice.com/services/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 212634,
+      "sha1": "246d1e4bb7f44cbb",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician collecting mold sample at exterior wall corner",
+      "quality": 86,
+      "slots": {
+        "hero": 65,
+        "team": 55,
+        "services": 88
+      },
+      "service_slugs": [
+        "mold-inspection-testing",
+        "clearance-testing",
+        "environmental-site-assessments"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Clear sampling action, branded kit case, mold growth visible on wall.",
+      "triaged_at": "2026-09-24T16:06:34Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:656ada0ede895ae9": {
+      "source": "website",
+      "storage": "site-assets/web/web-656ada0ede895ae9.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788198240333/site-assets/web/web-656ada0ede895ae9.jpg",
+      "origin_url": "https://archenviroservice.com/images/team.webp",
+      "found_on": "https://archenviroservice.com/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 187630,
+      "sha1": "656ada0ede895ae9",
+      "exif": {},
+      "category": "crew",
+      "subject": "Five-person crew posed in front of three Arch branded vans",
+      "quality": 90,
+      "slots": {
+        "hero": 88,
+        "team": 92,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Outstanding team-and-fleet hero; warm light, full crew, three branded vans.",
+      "triaged_at": "2026-09-24T16:06:34Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:692578a8c3926d33": {
+      "source": "website",
+      "storage": "site-assets/web/web-692578a8c3926d33.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788198240333/site-assets/web/web-692578a8c3926d33.jpg",
+      "origin_url": "https://archenviroservice.com/images/services/sewage-contamination-assessment.webp",
+      "found_on": "https://archenviroservice.com/services/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 136742,
+      "sha1": "692578a8c3926d33",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician in hi-vis vest using handheld meter beside Arch van",
+      "quality": 87,
+      "slots": {
+        "hero": 80,
+        "team": 60,
+        "services": 85
+      },
+      "service_slugs": [
+        "radon-testing",
+        "voc-formaldehyde-testing",
+        "indoor-air-quality-testing"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Branded van prominent, hi-vis uniform, meter device reads as testing service clearly.",
+      "triaged_at": "2026-09-24T16:06:34Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:6d6527544f1d4d4f": {
+      "source": "website",
+      "storage": "site-assets/web/web-6d6527544f1d4d4f.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788198240333/site-assets/web/web-6d6527544f1d4d4f.jpg",
+      "origin_url": "https://archenviroservice.com/images/services/post-flood-mold-assessment.webp",
+      "found_on": "https://archenviroservice.com/services/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 119912,
+      "sha1": "6d6527544f1d4d4f",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician scanning flood-damaged wall with thermal camera indoors",
+      "quality": 85,
+      "slots": {
+        "hero": 45,
+        "team": 55,
+        "services": 90
+      },
+      "service_slugs": [
+        "post-flood-mold-assessment",
+        "mold-inspection-testing",
+        "remediation-oversight"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Strong services shot; flood damage, thermal camera, Arch equipment all visible.",
+      "triaged_at": "2026-09-24T16:06:34Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:75eefe70e65ea496": {
+      "source": "website",
+      "storage": "site-assets/web/web-75eefe70e65ea496.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788198240333/site-assets/web/web-75eefe70e65ea496.jpg",
+      "origin_url": "https://archenviroservice.com/images/services/lead-paint-testing.webp",
+      "found_on": "https://archenviroservice.com/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 129038,
+      "sha1": "75eefe70e65ea496",
+      "exif": {},
+      "category": "crew",
+      "subject": "Arch technician scanning window frame with XRF device",
+      "quality": 88,
+      "slots": {
+        "hero": 82,
+        "team": 65,
+        "services": 90
+      },
+      "service_slugs": [
+        "lead-paint-testing"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Sharp, well-lit exterior scene; technician, van, and tool all read clearly.",
+      "triaged_at": "2026-09-24T16:06:53Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:836a3ce79dafa06c": {
+      "source": "website",
+      "storage": "site-assets/web/web-836a3ce79dafa06c.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788198240333/site-assets/web/web-836a3ce79dafa06c.jpg",
+      "origin_url": "https://archenviroservice.com/images/services/indoor-air-quality-testing.webp",
+      "found_on": "https://archenviroservice.com/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 121376,
+      "sha1": "836a3ce79dafa06c",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Arch technician operating air-quality instruments on tripods indoors",
+      "quality": 85,
+      "slots": {
+        "hero": 45,
+        "team": 50,
+        "services": 88
+      },
+      "service_slugs": [
+        "indoor-air-quality-testing",
+        "radon-testing"
+      ],
+      "flags": [],
+      "reason": "Clean indoor shot; equipment and branded uniform prominent, portrait crop limits hero use.",
+      "triaged_at": "2026-09-24T16:06:53Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:8f1d9b768b8b81e1": {
+      "source": "website",
+      "storage": "site-assets/web/web-8f1d9b768b8b81e1.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788198240333/site-assets/web/web-8f1d9b768b8b81e1.jpg",
+      "origin_url": "https://archenviroservice.com/images/services/allergen-testing.webp",
+      "found_on": "https://archenviroservice.com/services/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 78282,
+      "sha1": "8f1d9b768b8b81e1",
+      "exif": {},
+      "category": "crew",
+      "subject": "Arch technician reviewing XRF device at field equipment table",
+      "quality": 86,
+      "slots": {
+        "hero": 60,
+        "team": 55,
+        "services": 85
+      },
+      "service_slugs": [
+        "lead-paint-testing",
+        "asbestos-testing"
+      ],
+      "flags": [],
+      "reason": "Good composition with van visible through window; branded uniform and gear clear.",
+      "triaged_at": "2026-09-24T16:06:53Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:99beabeeacc72b2b": {
+      "source": "website",
+      "storage": "site-assets/web/web-99beabeeacc72b2b.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788198240333/site-assets/web/web-99beabeeacc72b2b.jpg",
+      "origin_url": "https://archenviroservice.com/images/services/mold-inspection-testing.webp",
+      "found_on": "https://archenviroservice.com/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 152544,
+      "sha1": "99beabeeacc72b2b",
+      "exif": {},
+      "category": "crew",
+      "subject": "Arch technician inspecting moldy wall corner with flashlight and meter",
+      "quality": 80,
+      "slots": {
+        "hero": 30,
+        "team": 60,
+        "services": 88
+      },
+      "service_slugs": [
+        "mold-inspection-testing",
+        "post-flood-mold-assessment"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Visible mold damage and branded technician make strong services image; tight crop limits hero.",
+      "triaged_at": "2026-09-24T16:06:53Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:a7e5b00c174ebffe": {
+      "source": "website",
+      "storage": "site-assets/web/web-a7e5b00c174ebffe.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788198240333/site-assets/web/web-a7e5b00c174ebffe.jpg",
+      "origin_url": "https://archenviroservice.com/images/services/environmental-site-assessments.webp",
+      "found_on": "https://archenviroservice.com/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 190996,
+      "sha1": "a7e5b00c174ebffe",
+      "exif": {},
+      "category": "crew",
+      "subject": "Arch technician testing soil near building foundation with van behind",
+      "quality": 87,
+      "slots": {
+        "hero": 80,
+        "team": 60,
+        "services": 85
+      },
+      "service_slugs": [
+        "radon-testing",
+        "environmental-site-assessments"
+      ],
+      "flags": [],
+      "reason": "Wide exterior scene, warm light, fleet and branded tech visible; strong hero candidate.",
+      "triaged_at": "2026-09-24T16:06:53Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:b242d624ae65823e": {
+      "source": "website",
+      "storage": "site-assets/web/web-b242d624ae65823e.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788198240333/site-assets/web/web-b242d624ae65823e.jpg",
+      "origin_url": "https://archenviroservice.com/images/services/clearance-testing.webp",
+      "found_on": "https://archenviroservice.com/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 178736,
+      "sha1": "b242d624ae65823e",
+      "exif": {},
+      "category": "crew",
+      "subject": "Masked Arch technician operating tripod air sampler at front door",
+      "quality": 90,
+      "slots": {
+        "hero": 88,
+        "team": 62,
+        "services": 90
+      },
+      "service_slugs": [
+        "indoor-air-quality-testing",
+        "clearance-testing"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Best composition: wide, golden light, full fleet visible, equipment and crew both prominent.",
+      "triaged_at": "2026-09-24T16:06:53Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:c17eaec9719fab15": {
+      "source": "website",
+      "storage": "site-assets/web/web-c17eaec9719fab15.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788198240333/site-assets/web/web-c17eaec9719fab15.jpg",
+      "origin_url": "https://archenviroservice.com/images/services/water-quality-testing.webp",
+      "found_on": "https://archenviroservice.com/services/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 187290,
+      "sha1": "c17eaec9719fab15",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician kneeling sampling with equipment, branded van behind",
+      "quality": 88,
+      "slots": {
+        "hero": 82,
+        "team": 65,
+        "services": 88
+      },
+      "service_slugs": [
+        "water-quality-testing",
+        "indoor-air-quality-testing",
+        "radon-testing"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Sharp, well-lit action shot with van branding; strong services card image.",
+      "triaged_at": "2026-09-24T16:07:12Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:ceaa3f5b265999c1": {
+      "source": "website",
+      "storage": "site-assets/web/web-ceaa3f5b265999c1.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788198240333/site-assets/web/web-ceaa3f5b265999c1.jpg",
+      "origin_url": "https://archenviroservice.com/images/hero-bg.webp",
+      "found_on": "https://archenviroservice.com/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 190184,
+      "sha1": "ceaa3f5b265999c1",
+      "exif": {},
+      "category": "fleet",
+      "subject": "Three Arch Environmental branded vans parked on residential street",
+      "quality": 90,
+      "slots": {
+        "hero": 92,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Golden-hour fleet lineup; wide, clean, photogenic; excellent hero candidate.",
+      "triaged_at": "2026-09-24T16:07:12Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:ceaf615d357045df": {
+      "source": "website",
+      "storage": "site-assets/web/web-ceaf615d357045df.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788198240333/site-assets/web/web-ceaf615d357045df.jpg",
+      "origin_url": "https://archenviroservice.com/images/services/compliance-consulting.webp",
+      "found_on": "https://archenviroservice.com/services/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 205058,
+      "sha1": "ceaf615d357045df",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician in hi-vis vest using tripod instrument beside van",
+      "quality": 85,
+      "slots": {
+        "hero": 78,
+        "team": 60,
+        "services": 82
+      },
+      "service_slugs": [
+        "indoor-air-quality-testing",
+        "radon-testing",
+        "environmental-site-assessments"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Well-composed action shot with van and residential context; warm light.",
+      "triaged_at": "2026-09-24T16:07:12Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:d217cd356efab327": {
+      "source": "website",
+      "storage": "site-assets/web/web-d217cd356efab327.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788198240333/site-assets/web/web-d217cd356efab327.jpg",
+      "origin_url": "https://archenviroservice.com/images/services/radon-testing.webp",
+      "found_on": "https://archenviroservice.com/services/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 210056,
+      "sha1": "d217cd356efab327",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician crouching with tripod monitor at house exterior",
+      "quality": 84,
+      "slots": {
+        "hero": 72,
+        "team": 58,
+        "services": 84
+      },
+      "service_slugs": [
+        "radon-testing",
+        "indoor-air-quality-testing",
+        "environmental-site-assessments"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Good light and composition; shadow adds depth; strong services card use.",
+      "triaged_at": "2026-09-24T16:07:12Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:d33bd6981ee876ff": {
+      "source": "website",
+      "storage": "site-assets/web/web-d33bd6981ee876ff.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788198240333/site-assets/web/web-d33bd6981ee876ff.jpg",
+      "origin_url": "https://archenviroservice.com/images/services/voc-formaldehyde-testing.webp",
+      "found_on": "https://archenviroservice.com/services/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 154378,
+      "sha1": "d33bd6981ee876ff",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician operating air sampling pump on tripod at residence",
+      "quality": 83,
+      "slots": {
+        "hero": 68,
+        "team": 55,
+        "services": 86
+      },
+      "service_slugs": [
+        "indoor-air-quality-testing",
+        "radon-testing",
+        "voc-formaldehyde-testing"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Equipment clearly identifiable; warm golden light; ideal services card.",
+      "triaged_at": "2026-09-24T16:07:12Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:e145cf809c2c443f": {
+      "source": "website",
+      "storage": "site-assets/web/web-e145cf809c2c443f.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788198240333/site-assets/web/web-e145cf809c2c443f.jpg",
+      "origin_url": "https://archenviroservice.com/images/services/hvac-duct-assessments.webp",
+      "found_on": "https://archenviroservice.com/services/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 201216,
+      "sha1": "e145cf809c2c443f",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician inspecting HVAC condenser unit beside branded vans",
+      "quality": 85,
+      "slots": {
+        "hero": 74,
+        "team": 58,
+        "services": 88
+      },
+      "service_slugs": [
+        "hvac-duct-assessments",
+        "indoor-air-quality-testing"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Clear HVAC service context with dual van branding; strong services card.",
+      "triaged_at": "2026-09-24T16:07:12Z",
+      "triage_model": "claude-sonnet-4-6"
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-31T18:09:14Z"
+  "triaged_at": "2026-09-24T16:07:12Z"
 }

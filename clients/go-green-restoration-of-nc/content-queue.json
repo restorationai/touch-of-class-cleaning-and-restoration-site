@@ -89,7 +89,7 @@
     },
     {
       "id": "2026-09-06-hvac-cleaning",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-06T10:23:57Z",
       "priority": 1,
       "content_type": "target_term",
@@ -100,7 +100,8 @@
       "city_anchor": "wilson-nc",
       "source": "app target-term (onboarding-backfill)",
       "written_at": "2026-09-24T16:26:13Z",
-      "post_url": "https://gogreenrestorationofnc.com/blog/hvac-cleaning/"
+      "post_url": "https://gogreenrestorationofnc.com/blog/hvac-cleaning/",
+      "published_verified_at": "2026-09-24T16:27:40Z"
     },
     {
       "id": "2026-09-06-crawlspace-encapsulation",

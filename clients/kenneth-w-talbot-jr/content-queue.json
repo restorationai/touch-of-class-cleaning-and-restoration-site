@@ -217,7 +217,7 @@
     },
     {
       "id": "2026-09-24-water-damage-mold",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-24T16:55:00Z",
       "written_at": "2026-09-24T16:55:51Z",
       "post_url": "https://veteransremediation.com/blog/water-damage-mold/",
@@ -271,7 +271,8 @@
           "context": "rk. This is standard protocol under the IICRC S520 Standard for Professional Mold Rem",
           "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
         }
-      ]
+      ],
+      "published_verified_at": "2026-09-24T16:57:12Z"
     },
     {
       "id": "2026-09-24-water-damage-restoration-cost",

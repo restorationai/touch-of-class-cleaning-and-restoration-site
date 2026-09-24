@@ -274,7 +274,7 @@
     },
     {
       "id": "2026-08-27-water-damage-insurance-claim-tips",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-27T02:45:00Z",
       "written_at": "2026-09-24T16:33:32Z",
       "post_url": "https://homelyft.net/blog/water-damage-insurance-claim-tips/",
@@ -309,7 +309,8 @@
       ],
       "notes": "Distinct from the existing coverage blog post: that one answers whether you are covered, this one is the claim mechanics (photograph before touching anything, log the loss date, keep damaged materials, get the mitigation invoice). Cross-link the two. Mississippi Gulf Coast angle: separate NFIP flood policies from homeowners policies, because storm surge and rising water are excluded from standard HO policies here.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "published_verified_at": "2026-09-24T16:36:00Z"
     },
     {
       "id": "2026-08-27-how-long-before-mold-grows-after-water-damage",

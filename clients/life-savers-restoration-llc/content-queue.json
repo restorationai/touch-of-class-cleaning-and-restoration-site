@@ -300,7 +300,7 @@
     },
     {
       "id": "2026-08-27-category-3-water-damage",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-27T00:00:00Z",
       "written_at": "2026-09-24T17:06:28Z",
       "post_url": "https://lifesaversrestorationvegas.com/blog/category-3-water-damage/",
@@ -334,7 +334,8 @@
         "https://www.iicrc.org/page/IICRCS500",
         "https://www.cdc.gov/healthywater/emergency/floodwater.html"
       ],
-      "notes": "390/mo, KD 0. IICRC S500 category definitions are the authority spine here. This is the bridge topic into sewage-cleanup and biohazard-cleanup, both planned services with no editorial support yet. Cite the client's IICRC WRT and ASD certifications."
+      "notes": "390/mo, KD 0. IICRC S500 category definitions are the authority spine here. This is the bridge topic into sewage-cleanup and biohazard-cleanup, both planned services with no editorial support yet. Cite the client's IICRC WRT and ASD certifications.",
+      "published_verified_at": "2026-09-24T17:08:24Z"
     },
     {
       "id": "2026-08-27-document-water-damage-insurance-claim",
