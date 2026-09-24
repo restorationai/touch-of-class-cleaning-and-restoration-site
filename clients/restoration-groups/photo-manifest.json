@@ -924,6 +924,33 @@
       "triaged_at": "2026-08-31T17:06:17Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipNHvyh5n1_nipgaDhwOBaN0QYaHckW3D6VIEH1w": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNHvyh5n1_nipgaDhwOBaN0QYaHckW3D6VIEH1w.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783527517866/job-photos/posted/gbp-AF1QipNHvyh5n1_nipgaDhwOBaN0QYaHckW3D6VIEH1w.jpg",
+      "width": 640,
+      "height": 640,
+      "bytes": 603788,
+      "sha1": "e69e59c99867357e",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician in uniform using moisture meter on damaged wall",
+      "quality": 88,
+      "slots": {
+        "hero": 55,
+        "team": 68,
+        "services": 85
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-inspection-testing",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Sharp, well-lit, branded uniform visible; technician mid-task reads clearly as inspection work.",
+      "triaged_at": "2026-09-24T21:57:38Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipNI0Fx_XzQnpv42xWAKg5ZmDcbYe_Ut-IncX_Gm": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipNI0Fx_XzQnpv42xWAKg5ZmDcbYe_Ut-IncX_Gm.jpg",
@@ -1157,7 +1184,8 @@
       ],
       "reason": "Excellent sharpness, strong branded uniform, dramatic damaged wall; top services image.",
       "triaged_at": "2026-08-31T17:06:33Z",
-      "triage_model": "claude-sonnet-4-6"
+      "triage_model": "claude-sonnet-4-6",
+      "duplicate_of": "gbp:gbp-AF1QipNHvyh5n1_nipgaDhwOBaN0QYaHckW3D6VIEH1w"
     },
     "gbp:gbp-AF1QipNj2wn2Kdkn8r2iLrv2Fz2tvthJQnKMYkM7tiir": {
       "source": "gbp",
@@ -1627,6 +1655,33 @@
       "flags": [],
       "reason": "Good action shot in branded shirt; low ambient light and upward angle limit hero appeal.",
       "triaged_at": "2026-08-31T17:07:23Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOWBs4M6wHJVxb1e3ngo746QWlqoocvYUde2R31": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOWBs4M6wHJVxb1e3ngo746QWlqoocvYUde2R31.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783527517866/job-photos/posted/gbp-AF1QipOWBs4M6wHJVxb1e3ngo746QWlqoocvYUde2R31.jpg",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2488473,
+      "sha1": "b97f9bdcac4d914d",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician in Tyvek suit scrubbing heavy mold from wall",
+      "quality": 90,
+      "slots": {
+        "hero": 60,
+        "team": 72,
+        "services": 92
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration",
+        "mold-inspection-testing"
+      ],
+      "flags": [],
+      "reason": "Excellent composition; branded suit and equipment, dramatic mold damage, strong services card image.",
+      "triaged_at": "2026-09-24T21:57:38Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipOZBMpkffvpSBBksIt7jM5scL8pzsvgFOTQhPg8": {
@@ -2508,5 +2563,5 @@
       "note": "client-correction override (Michael 2026-08-31): real branded van; below auto hero gate on GBP resolution only"
     }
   },
-  "triaged_at": "2026-09-18T17:38:42Z"
+  "triaged_at": "2026-09-24T21:57:38Z"
 }

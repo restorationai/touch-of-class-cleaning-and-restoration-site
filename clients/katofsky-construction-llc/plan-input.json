@@ -202,6 +202,11 @@
       "city": "Churchill",
       "state": "PA",
       "slug": "churchill-pa"
+    },
+    {
+      "city": "Duquesne",
+      "state": "PA",
+      "slug": "duquesne-pa"
     }
   ],
   "template": "restoration",

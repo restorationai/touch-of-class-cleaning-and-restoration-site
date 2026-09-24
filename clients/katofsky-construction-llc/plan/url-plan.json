@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-24T18:31:14.375006+00:00",
+  "generated_at": "2026-09-24T21:59:36.961934+00:00",
   "input_summary": {
     "service_count": 12,
-    "service_area_count": 32,
+    "service_area_count": 33,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -62,6 +62,7 @@
         "/service-areas/carnegie-pa/",
         "/service-areas/castle-shannon-pa/",
         "/service-areas/churchill-pa/",
+        "/service-areas/duquesne-pa/",
         "/service-areas/forest-hills-pa/",
         "/service-areas/fox-chapel-pa/",
         "/service-areas/glenshaw-pa/",
@@ -168,6 +169,7 @@
         "/service-areas/carnegie-pa/",
         "/service-areas/castle-shannon-pa/",
         "/service-areas/churchill-pa/",
+        "/service-areas/duquesne-pa/",
         "/service-areas/forest-hills-pa/",
         "/service-areas/fox-chapel-pa/",
         "/service-areas/glenshaw-pa/",
@@ -339,12 +341,12 @@
         "/service-areas/carnegie-pa/fire-damage-restoration/",
         "/service-areas/castle-shannon-pa/fire-damage-restoration/",
         "/service-areas/churchill-pa/fire-damage-restoration/",
+        "/service-areas/duquesne-pa/fire-damage-restoration/",
         "/service-areas/forest-hills-pa/fire-damage-restoration/",
         "/service-areas/fox-chapel-pa/fire-damage-restoration/",
         "/service-areas/glenshaw-pa/fire-damage-restoration/",
         "/service-areas/green-tree-pa/fire-damage-restoration/",
         "/service-areas/greensburg-pa/fire-damage-restoration/",
-        "/service-areas/hempfield-township-pa/fire-damage-restoration/",
         "/blog/choosing-a-restoration-company/",
         "/blog/fire-damage-restoration-process/",
         "/blog/smoke-odor-removal-techniques/"
@@ -393,12 +395,12 @@
         "/service-areas/carnegie-pa/general-contracting/",
         "/service-areas/castle-shannon-pa/general-contracting/",
         "/service-areas/churchill-pa/general-contracting/",
+        "/service-areas/duquesne-pa/general-contracting/",
         "/service-areas/forest-hills-pa/general-contracting/",
         "/service-areas/fox-chapel-pa/general-contracting/",
         "/service-areas/glenshaw-pa/general-contracting/",
         "/service-areas/green-tree-pa/general-contracting/",
-        "/service-areas/greensburg-pa/general-contracting/",
-        "/service-areas/hempfield-township-pa/general-contracting/"
+        "/service-areas/greensburg-pa/general-contracting/"
       ]
     },
     {
@@ -443,12 +445,12 @@
         "/service-areas/carnegie-pa/roofing/",
         "/service-areas/castle-shannon-pa/roofing/",
         "/service-areas/churchill-pa/roofing/",
+        "/service-areas/duquesne-pa/roofing/",
         "/service-areas/forest-hills-pa/roofing/",
         "/service-areas/fox-chapel-pa/roofing/",
         "/service-areas/glenshaw-pa/roofing/",
         "/service-areas/green-tree-pa/roofing/",
-        "/service-areas/greensburg-pa/roofing/",
-        "/service-areas/hempfield-township-pa/roofing/"
+        "/service-areas/greensburg-pa/roofing/"
       ]
     },
     {
@@ -493,12 +495,12 @@
         "/service-areas/carnegie-pa/sewage-cleanup/",
         "/service-areas/castle-shannon-pa/sewage-cleanup/",
         "/service-areas/churchill-pa/sewage-cleanup/",
+        "/service-areas/duquesne-pa/sewage-cleanup/",
         "/service-areas/forest-hills-pa/sewage-cleanup/",
         "/service-areas/fox-chapel-pa/sewage-cleanup/",
         "/service-areas/glenshaw-pa/sewage-cleanup/",
         "/service-areas/green-tree-pa/sewage-cleanup/",
         "/service-areas/greensburg-pa/sewage-cleanup/",
-        "/service-areas/hempfield-township-pa/sewage-cleanup/",
         "/blog/sewage-backup-health-risks/"
       ]
     },
@@ -544,12 +546,12 @@
         "/service-areas/carnegie-pa/biohazard-cleanup/",
         "/service-areas/castle-shannon-pa/biohazard-cleanup/",
         "/service-areas/churchill-pa/biohazard-cleanup/",
+        "/service-areas/duquesne-pa/biohazard-cleanup/",
         "/service-areas/forest-hills-pa/biohazard-cleanup/",
         "/service-areas/fox-chapel-pa/biohazard-cleanup/",
         "/service-areas/glenshaw-pa/biohazard-cleanup/",
         "/service-areas/green-tree-pa/biohazard-cleanup/",
-        "/service-areas/greensburg-pa/biohazard-cleanup/",
-        "/service-areas/hempfield-township-pa/biohazard-cleanup/"
+        "/service-areas/greensburg-pa/biohazard-cleanup/"
       ]
     },
     {
@@ -594,12 +596,12 @@
         "/service-areas/carnegie-pa/asbestos-abatement/",
         "/service-areas/castle-shannon-pa/asbestos-abatement/",
         "/service-areas/churchill-pa/asbestos-abatement/",
+        "/service-areas/duquesne-pa/asbestos-abatement/",
         "/service-areas/forest-hills-pa/asbestos-abatement/",
         "/service-areas/fox-chapel-pa/asbestos-abatement/",
         "/service-areas/glenshaw-pa/asbestos-abatement/",
         "/service-areas/green-tree-pa/asbestos-abatement/",
-        "/service-areas/greensburg-pa/asbestos-abatement/",
-        "/service-areas/hempfield-township-pa/asbestos-abatement/"
+        "/service-areas/greensburg-pa/asbestos-abatement/"
       ]
     },
     {
@@ -644,12 +646,12 @@
         "/service-areas/carnegie-pa/lead-paint-abatement/",
         "/service-areas/castle-shannon-pa/lead-paint-abatement/",
         "/service-areas/churchill-pa/lead-paint-abatement/",
+        "/service-areas/duquesne-pa/lead-paint-abatement/",
         "/service-areas/forest-hills-pa/lead-paint-abatement/",
         "/service-areas/fox-chapel-pa/lead-paint-abatement/",
         "/service-areas/glenshaw-pa/lead-paint-abatement/",
         "/service-areas/green-tree-pa/lead-paint-abatement/",
-        "/service-areas/greensburg-pa/lead-paint-abatement/",
-        "/service-areas/hempfield-township-pa/lead-paint-abatement/"
+        "/service-areas/greensburg-pa/lead-paint-abatement/"
       ]
     },
     {
@@ -694,12 +696,12 @@
         "/service-areas/carnegie-pa/emergency-board-up-tarping/",
         "/service-areas/castle-shannon-pa/emergency-board-up-tarping/",
         "/service-areas/churchill-pa/emergency-board-up-tarping/",
+        "/service-areas/duquesne-pa/emergency-board-up-tarping/",
         "/service-areas/forest-hills-pa/emergency-board-up-tarping/",
         "/service-areas/fox-chapel-pa/emergency-board-up-tarping/",
         "/service-areas/glenshaw-pa/emergency-board-up-tarping/",
         "/service-areas/green-tree-pa/emergency-board-up-tarping/",
-        "/service-areas/greensburg-pa/emergency-board-up-tarping/",
-        "/service-areas/hempfield-township-pa/emergency-board-up-tarping/"
+        "/service-areas/greensburg-pa/emergency-board-up-tarping/"
       ]
     },
     {
@@ -738,12 +740,12 @@
         "/service-areas/carnegie-pa/contents-restoration-storage/",
         "/service-areas/castle-shannon-pa/contents-restoration-storage/",
         "/service-areas/churchill-pa/contents-restoration-storage/",
+        "/service-areas/duquesne-pa/contents-restoration-storage/",
         "/service-areas/forest-hills-pa/contents-restoration-storage/",
         "/service-areas/fox-chapel-pa/contents-restoration-storage/",
         "/service-areas/glenshaw-pa/contents-restoration-storage/",
         "/service-areas/green-tree-pa/contents-restoration-storage/",
-        "/service-areas/greensburg-pa/contents-restoration-storage/",
-        "/service-areas/hempfield-township-pa/contents-restoration-storage/"
+        "/service-areas/greensburg-pa/contents-restoration-storage/"
       ]
     },
     {
@@ -788,12 +790,12 @@
         "/service-areas/carnegie-pa/air-duct-cleaning/",
         "/service-areas/castle-shannon-pa/air-duct-cleaning/",
         "/service-areas/churchill-pa/air-duct-cleaning/",
+        "/service-areas/duquesne-pa/air-duct-cleaning/",
         "/service-areas/forest-hills-pa/air-duct-cleaning/",
         "/service-areas/fox-chapel-pa/air-duct-cleaning/",
         "/service-areas/glenshaw-pa/air-duct-cleaning/",
         "/service-areas/green-tree-pa/air-duct-cleaning/",
-        "/service-areas/greensburg-pa/air-duct-cleaning/",
-        "/service-areas/hempfield-township-pa/air-duct-cleaning/"
+        "/service-areas/greensburg-pa/air-duct-cleaning/"
       ]
     },
     {
@@ -838,12 +840,12 @@
         "/service-areas/carnegie-pa/carpet-cleaning/",
         "/service-areas/castle-shannon-pa/carpet-cleaning/",
         "/service-areas/churchill-pa/carpet-cleaning/",
+        "/service-areas/duquesne-pa/carpet-cleaning/",
         "/service-areas/forest-hills-pa/carpet-cleaning/",
         "/service-areas/fox-chapel-pa/carpet-cleaning/",
         "/service-areas/glenshaw-pa/carpet-cleaning/",
         "/service-areas/green-tree-pa/carpet-cleaning/",
-        "/service-areas/greensburg-pa/carpet-cleaning/",
-        "/service-areas/hempfield-township-pa/carpet-cleaning/"
+        "/service-areas/greensburg-pa/carpet-cleaning/"
       ]
     },
     {
@@ -888,12 +890,12 @@
         "/service-areas/carnegie-pa/upholstery-cleaning/",
         "/service-areas/castle-shannon-pa/upholstery-cleaning/",
         "/service-areas/churchill-pa/upholstery-cleaning/",
+        "/service-areas/duquesne-pa/upholstery-cleaning/",
         "/service-areas/forest-hills-pa/upholstery-cleaning/",
         "/service-areas/fox-chapel-pa/upholstery-cleaning/",
         "/service-areas/glenshaw-pa/upholstery-cleaning/",
         "/service-areas/green-tree-pa/upholstery-cleaning/",
-        "/service-areas/greensburg-pa/upholstery-cleaning/",
-        "/service-areas/hempfield-township-pa/upholstery-cleaning/"
+        "/service-areas/greensburg-pa/upholstery-cleaning/"
       ]
     },
     {
@@ -2410,6 +2412,55 @@
         "/service-areas/churchill-pa/lead-paint-abatement/",
         "/service-areas/churchill-pa/carpet-cleaning/",
         "/service-areas/churchill-pa/upholstery-cleaning/",
+        "/service-areas/allison-park-pa/",
+        "/service-areas/baldwin-pa/",
+        "/service-areas/bethel-park-pa/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/duquesne-pa/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Duquesne, PA | Katofsky Construction LLC",
+      "h1": "Restoration Services in Duquesne",
+      "meta_description": "Serving Duquesne, PA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (412) 304-9284.",
+      "primary_keyword": "restoration services duquesne",
+      "secondary_keywords": [
+        "duquesne restoration company",
+        "damage restoration duquesne",
+        "duquesne disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/duquesne-pa/fire-damage-restoration/",
+        "/service-areas/duquesne-pa/roofing/",
+        "/service-areas/duquesne-pa/sewage-cleanup/",
+        "/service-areas/duquesne-pa/biohazard-cleanup/",
+        "/service-areas/duquesne-pa/general-contracting/",
+        "/service-areas/duquesne-pa/emergency-board-up-tarping/",
+        "/service-areas/duquesne-pa/asbestos-abatement/",
+        "/service-areas/duquesne-pa/air-duct-cleaning/",
+        "/service-areas/duquesne-pa/contents-restoration-storage/",
+        "/service-areas/duquesne-pa/lead-paint-abatement/",
+        "/service-areas/duquesne-pa/carpet-cleaning/",
+        "/service-areas/duquesne-pa/upholstery-cleaning/",
         "/service-areas/allison-park-pa/",
         "/service-areas/baldwin-pa/",
         "/service-areas/bethel-park-pa/"
@@ -18623,6 +18674,529 @@
         "/service-areas/churchill-pa/",
         "/service-areas/churchill-pa/fire-damage-restoration/",
         "/service-areas/churchill-pa/roofing/",
+        "/service-areas/allison-park-pa/upholstery-cleaning/",
+        "/service-areas/baldwin-pa/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/duquesne-pa/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Duquesne, PA | Katofsky Construction LLC",
+      "h1": "Fire Damage Restoration in Duquesne",
+      "meta_description": "24/7 fire damage restoration in Duquesne, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
+      "primary_keyword": "fire damage restoration duquesne",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/duquesne-pa/",
+        "/service-areas/duquesne-pa/roofing/",
+        "/service-areas/duquesne-pa/sewage-cleanup/",
+        "/service-areas/allison-park-pa/fire-damage-restoration/",
+        "/service-areas/baldwin-pa/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/duquesne-pa/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Duquesne, PA | Katofsky Construction LLC",
+      "h1": "Renovations, Remodels and General Contracting in Duquesne",
+      "meta_description": "24/7 renovations, remodels and general contracting in Duquesne, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
+      "primary_keyword": "renovations, remodels and general contracting duquesne",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/duquesne-pa/",
+        "/service-areas/duquesne-pa/fire-damage-restoration/",
+        "/service-areas/duquesne-pa/roofing/",
+        "/service-areas/allison-park-pa/general-contracting/",
+        "/service-areas/baldwin-pa/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/duquesne-pa/roofing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Roofing Installation and Replacement in Duquesne, PA | Katofsky Construction LLC",
+      "h1": "Roofing Installation and Replacement in Duquesne",
+      "meta_description": "24/7 roofing installation and replacement in Duquesne, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
+      "primary_keyword": "roofing installation and replacement duquesne",
+      "secondary_keywords": [
+        "roofing contractor",
+        "roof replacement",
+        "new roof installation",
+        "residential roofing",
+        "roof repair"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/roofing/",
+        "/service-areas/duquesne-pa/",
+        "/service-areas/duquesne-pa/fire-damage-restoration/",
+        "/service-areas/duquesne-pa/sewage-cleanup/",
+        "/service-areas/allison-park-pa/roofing/",
+        "/service-areas/baldwin-pa/roofing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/duquesne-pa/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Duquesne, PA | Katofsky Construction LLC",
+      "h1": "Sewage Cleanup and Sanitization in Duquesne",
+      "meta_description": "24/7 sewage cleanup and sanitization in Duquesne, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
+      "primary_keyword": "sewage cleanup and sanitization duquesne",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/duquesne-pa/",
+        "/service-areas/duquesne-pa/fire-damage-restoration/",
+        "/service-areas/duquesne-pa/roofing/",
+        "/service-areas/allison-park-pa/sewage-cleanup/",
+        "/service-areas/baldwin-pa/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/duquesne-pa/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Duquesne, PA | Katofsky Construction LLC",
+      "h1": "Biohazard Cleanup in Duquesne",
+      "meta_description": "24/7 biohazard cleanup in Duquesne, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
+      "primary_keyword": "biohazard cleanup duquesne",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/duquesne-pa/",
+        "/service-areas/duquesne-pa/fire-damage-restoration/",
+        "/service-areas/duquesne-pa/roofing/",
+        "/service-areas/allison-park-pa/biohazard-cleanup/",
+        "/service-areas/baldwin-pa/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/duquesne-pa/asbestos-abatement/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Asbestos Abatement in Duquesne, PA | Katofsky Construction LLC",
+      "h1": "Asbestos Abatement in Duquesne",
+      "meta_description": "24/7 asbestos abatement in Duquesne, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
+      "primary_keyword": "asbestos abatement duquesne",
+      "secondary_keywords": [
+        "asbestos removal",
+        "asbestos testing",
+        "asbestos remediation",
+        "popcorn ceiling asbestos removal",
+        "asbestos inspection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/asbestos-abatement/",
+        "/service-areas/duquesne-pa/",
+        "/service-areas/duquesne-pa/fire-damage-restoration/",
+        "/service-areas/duquesne-pa/roofing/",
+        "/service-areas/allison-park-pa/asbestos-abatement/",
+        "/service-areas/baldwin-pa/asbestos-abatement/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/duquesne-pa/lead-paint-abatement/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Lead Paint Abatement in Duquesne, PA | Katofsky Construction LLC",
+      "h1": "Lead Paint Abatement in Duquesne",
+      "meta_description": "24/7 lead paint abatement in Duquesne, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
+      "primary_keyword": "lead paint abatement duquesne",
+      "secondary_keywords": [
+        "lead paint removal",
+        "lead paint testing",
+        "lead-safe renovation",
+        "lead paint remediation",
+        "EPA RRP certified"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/lead-paint-abatement/",
+        "/service-areas/duquesne-pa/",
+        "/service-areas/duquesne-pa/fire-damage-restoration/",
+        "/service-areas/duquesne-pa/roofing/",
+        "/service-areas/allison-park-pa/lead-paint-abatement/",
+        "/service-areas/baldwin-pa/lead-paint-abatement/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/duquesne-pa/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Duquesne, PA | Katofsky Construction LLC",
+      "h1": "Emergency Board-Up and Tarping in Duquesne",
+      "meta_description": "24/7 emergency board-up and tarping in Duquesne, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
+      "primary_keyword": "emergency board-up and tarping duquesne",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/duquesne-pa/",
+        "/service-areas/duquesne-pa/fire-damage-restoration/",
+        "/service-areas/duquesne-pa/roofing/",
+        "/service-areas/allison-park-pa/emergency-board-up-tarping/",
+        "/service-areas/baldwin-pa/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/duquesne-pa/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Duquesne, PA | Katofsky Construction LLC",
+      "h1": "Contents Restoration & Storage in Duquesne",
+      "meta_description": "24/7 contents restoration & storage in Duquesne, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
+      "primary_keyword": "contents restoration & storage duquesne",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/duquesne-pa/",
+        "/service-areas/duquesne-pa/fire-damage-restoration/",
+        "/service-areas/duquesne-pa/roofing/",
+        "/service-areas/allison-park-pa/contents-restoration-storage/",
+        "/service-areas/baldwin-pa/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/duquesne-pa/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Duquesne, PA | Katofsky Construction LLC",
+      "h1": "Air Duct Cleaning in Duquesne",
+      "meta_description": "24/7 air duct cleaning in Duquesne, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
+      "primary_keyword": "air duct cleaning duquesne",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/duquesne-pa/",
+        "/service-areas/duquesne-pa/fire-damage-restoration/",
+        "/service-areas/duquesne-pa/roofing/",
+        "/service-areas/allison-park-pa/air-duct-cleaning/",
+        "/service-areas/baldwin-pa/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/duquesne-pa/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Duquesne, PA | Katofsky Construction LLC",
+      "h1": "Carpet Cleaning in Duquesne",
+      "meta_description": "24/7 carpet cleaning in Duquesne, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
+      "primary_keyword": "carpet cleaning duquesne",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/duquesne-pa/",
+        "/service-areas/duquesne-pa/fire-damage-restoration/",
+        "/service-areas/duquesne-pa/roofing/",
+        "/service-areas/allison-park-pa/carpet-cleaning/",
+        "/service-areas/baldwin-pa/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/duquesne-pa/upholstery-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Upholstery Cleaning in Duquesne, PA | Katofsky Construction LLC",
+      "h1": "Upholstery Cleaning in Duquesne",
+      "meta_description": "24/7 upholstery cleaning in Duquesne, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
+      "primary_keyword": "upholstery cleaning duquesne",
+      "secondary_keywords": [
+        "sofa cleaning",
+        "couch cleaning",
+        "furniture steam cleaning",
+        "leather upholstery cleaning",
+        "fabric upholstery cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/upholstery-cleaning/",
+        "/service-areas/duquesne-pa/",
+        "/service-areas/duquesne-pa/fire-damage-restoration/",
+        "/service-areas/duquesne-pa/roofing/",
         "/service-areas/allison-park-pa/upholstery-cleaning/",
         "/service-areas/baldwin-pa/upholstery-cleaning/",
         "/contact/"
