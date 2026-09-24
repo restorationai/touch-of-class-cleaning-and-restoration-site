@@ -417,10 +417,10 @@
     },
     {
       "id": "2026-08-17-water-damage-restoration-process",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-17T17:55:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-24T15:30:09Z",
+      "post_url": "https://callcrs.com/blog/water-damage-restoration-process/",
       "primary_keyword": "water damage restoration process",
       "intent": "informational",
       "volume": 110,
