@@ -250,10 +250,10 @@
     },
     {
       "id": "2026-09-03-water-damage-restoration-process",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-03T20:29:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-24T15:33:56Z",
+      "post_url": "https://drycor.com/blog/water-damage-restoration-process/",
       "primary_keyword": "water damage restoration process",
       "intent": "informational",
       "volume": 110,
