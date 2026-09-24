@@ -22,7 +22,15 @@ import json
 import os
 import sys
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
+
+def _parse_at(iso):
+    """Lenient ISO parse for blocklist timestamps; None on anything odd."""
+    try:
+        return datetime.fromisoformat(str(iso))
+    except (ValueError, TypeError):
+        return None
+
 
 import requests
 
@@ -187,6 +195,31 @@ def main() -> int:
                        {"k": "spam-blocklist", "v": _bl},
                        prefer="resolution=merge-duplicates")
                     print(f"    spam-blocklist += {n} ({e['hits']} hit(s))")
+                    # PREFIX VELOCITY feeder (Santino approved 2026-09-24):
+                    # 3+ DISTINCT spam numbers from one NPA-NXX inside 7
+                    # days -> the router dead-ends the whole prefix for 14
+                    # days (CRM contacts exempt at enforcement). Catches
+                    # one-shot rotation the per-number list never can.
+                    pfx = str(n)[:8]
+                    now = datetime.now(timezone.utc)
+                    week = now - timedelta(days=7)
+                    kin = [k for k, v in _bl.items()
+                           if str(k)[:8] == pfx and str(k) != ""
+                           and _parse_at(v.get("at")) is not None
+                           and _parse_at(v.get("at")) >= week]
+                    if len(set(kin)) >= 3:
+                        _pbrows = sb("GET", "ops_kv?k=eq.spam-prefix-blocks"
+                                     "&select=v") or []
+                        _pb = (_pbrows[0].get("v") if _pbrows else {}) or {}
+                        _pb[pfx] = {
+                            "until": (now + timedelta(days=14)).isoformat(),
+                            "why": f"{len(set(kin))} spam numbers in 7d",
+                            "at": now.isoformat()}
+                        sb("POST", "ops_kv?on_conflict=k",
+                           {"k": "spam-prefix-blocks", "v": _pb},
+                           prefer="resolution=merge-duplicates")
+                        print(f"    prefix-block += {pfx} "
+                              f"({len(set(kin))} numbers/7d, 14d TTL)")
                 except Exception as e2:  # noqa: BLE001
                     print(f"    (blocklist update warn: {str(e2)[:80]})")
             done += 1

@@ -1818,6 +1818,46 @@ def _spam_blocklist() -> dict:
     return bl
 
 
+def _spam_prefix_blocks() -> dict:
+    """Active NPA-NXX blocks (Santino approved 2026-09-24): call_intel
+    writes a prefix here when 3+ DISTINCT numbers from it are classified
+    spam within 7 days. Entries expire (until) — a farm moves on, the
+    prefix comes back. 120s-cached like the blocklist."""
+    hit = _SPAM_KV_CACHE.get("pb")
+    if hit and (time.time() - hit[0]) < 120:
+        return hit[1]
+    try:
+        rows = sb().table("ops_kv").select("v").eq(
+            "k", "spam-prefix-blocks").limit(1).execute().data
+        pb = (rows[0]["v"] if rows else {}) or {}
+    except Exception:  # noqa: BLE001
+        pb = (hit[1] if hit else {})
+    _SPAM_KV_CACHE["pb"] = (time.time(), pb)
+    return pb
+
+
+def _is_known_contact(from_num: str) -> bool:
+    """True when the caller matches a CRM contact — prefix blocks must
+    never dead-end a real customer who shares an area-code prefix with a
+    spam farm. Fails open (unknown lookup error -> treated as known)."""
+    digits = "".join(ch for ch in from_num if ch.isdigit())[-10:]
+    if len(digits) < 10:
+        return False
+    ck = "crm:" + digits
+    hit = _SPAM_KV_CACHE.get(ck)
+    if hit is not None:
+        return hit
+    try:
+        rows = sb().table("contacts").select("id").ilike(
+            "phone", f"%{digits[:3]}%{digits[3:6]}%{digits[6:]}%"
+        ).limit(1).execute().data
+        known = bool(rows)
+    except Exception:  # noqa: BLE001
+        known = True    # cannot verify -> do not block
+    _SPAM_KV_CACHE[ck] = known
+    return known
+
+
 def _spam_lookup_verdict(from_num: str) -> str:
     """'block' | 'allow'. Cached per number forever; fails open."""
     try:
@@ -1937,10 +1977,29 @@ async def call_tracking_twiml(company_id: str, source: str, request: Request,
     # client, and the app counts them as "blocked".
     _bl = _spam_blocklist()
     _blocked_reason = None
+    _stir = str(form.get("StirVerstat") or "")
     if from_num and from_num in _bl:
         _blocked_reason = "blocklist"
-    elif from_num and from_num not in _bl:
-        pass  # first-time lookup happens below only when configured on
+    # PREFIX VELOCITY (2026-09-24): a farm rotating numbers inside one
+    # NPA-NXX. Known CRM contacts are exempt; entries expire on their own.
+    if _blocked_reason is None and from_num:
+        _pb = _spam_prefix_blocks().get(from_num[:8])
+        if _pb:
+            try:
+                _live = datetime.fromisoformat(
+                    str(_pb.get("until"))) > datetime.now(timezone.utc)
+            except (ValueError, TypeError):
+                _live = False
+            if _live and not _is_known_contact(from_num):
+                _blocked_reason = "prefix-velocity"
+    # SHAKEN/STIR (2026-09-24): an outright failed attestation is a spoofed
+    # CLI — carriers vouch for A; 'TN-Validation-Failed' means the caller
+    # provably does NOT own the number it is showing. CRM exempt, like all
+    # first-contact blocks.
+    if (_blocked_reason is None and from_num
+            and _stir == "TN-Validation-Failed"
+            and not _is_known_contact(from_num)):
+        _blocked_reason = "stir-failed"
     if _blocked_reason is None and from_num             and os.environ.get("SPAM_LOOKUP_ENABLED") == "1":
         _seen_hit = _SPAM_KV_CACHE.get("seen:" + from_num)
         if not _seen_hit:
@@ -1957,7 +2016,8 @@ async def call_tracking_twiml(company_id: str, source: str, request: Request,
                         "tracking_number": to_num, "from_number": from_num,
                         "call_sid": call_sid, "status": "blocked_spam",
                         "analysis": {"outcome": "spam",
-                                     "blocked": _blocked_reason},
+                                     "blocked": _blocked_reason,
+                                     "stir": _stir or None},
                     }, on_conflict="call_sid").execute()
             except Exception as e:  # noqa: BLE001
                 print("[spam-shield] log failed:", str(e)[:120])
