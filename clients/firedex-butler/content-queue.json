@@ -395,10 +395,10 @@
     },
     {
       "id": "2026-08-26-category-3-water-damage",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-26T23:55:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-24T15:32:50Z",
+      "post_url": "https://firedex.net/blog/category-3-water-damage/",
       "primary_keyword": "category 3 water damage",
       "intent": "informational",
       "volume": 390,
@@ -432,7 +432,63 @@
       ],
       "notes": "Definition-style page that AI assistants lift verbatim, which is exactly the retrieval slot the audit says the client can win. Cover the escalation rule (clean water turns category 2 then 3 with time, temperature and contact with contaminated materials) because that is what homeowners get wrong when they wait a weekend. Butler and Beaver Falls housing stock runs original cast-iron drains, so sewer backup is a real local scenario. Sensitive-adjacent content: keep it factual, no gore, no scare copy. Cite the S500 standard, do not claim certification.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/category-3-water-damage.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "most hazardous classification under the IICRC S500 standard. Learn what it is, what m",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/category-3-water-damage.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "hest contamination level defined by the IICRC S500 standard. It includes sewage backu",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/category-3-water-damage.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "ials like drywall and wood framing. The IICRC S500 standard addresses this escalation",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/category-3-water-damage.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "us water classification defined by the [IICRC S500 standard](https://www.iicrc.org/pa",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/category-3-water-damage.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "ents that pose a health risk. Under the IICRC S500 standard, the industry's primary t",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/category-3-water-damage.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "ditions for rapid bacterial growth. The IICRC S500 standard addresses this escalation",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
     },
     {
       "id": "2026-08-26-what-is-water-damage-restoration",
