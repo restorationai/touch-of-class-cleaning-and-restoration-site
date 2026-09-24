@@ -13,7 +13,7 @@
     "url_count": 928,
     "generated_at": "2026-09-23T14:11:45.876354+00:00"
   },
-  "updated_at": "2026-09-23T22:08:52.427075+00:00",
+  "updated_at": "2026-09-24T16:36:52Z",
   "build": {
     "scaffolded_at": "2026-08-01T20:18:36.299156+00:00",
     "github_repo": "restorationai/homelyft-restoration-ms-site",
@@ -23,7 +23,7 @@
     "pages_status": "exists",
     "last_rendered_at": "2026-08-01T23:17:02.052583+00:00",
     "last_pushed_staging_at": "2026-09-23T20:34:20.676547+00:00",
-    "last_pushed_main_at": "2026-09-23T22:08:52.427058+00:00"
+    "last_pushed_main_at": "2026-09-24T16:33:51.725660+00:00"
   },
   "build_status": "pushed_main",
   "gbp": {
@@ -80,5 +80,11 @@
   "brightlocal": {
     "location_id": 4152722,
     "campaign_id": 999571
+  },
+  "refresh": {
+    "last_run_at": "2026-09-24T16:36:52Z",
+    "last_run_total_actions": 0,
+    "last_run_top_action": null,
+    "last_run_report_path": "clients/homelyft-restoration-ms/refresh-runs/2026-09-24-refresh-recommender.md"
   }
 }

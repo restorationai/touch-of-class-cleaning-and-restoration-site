@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+mold inspection,transactional,27100,12,22.92,2,mold inspection,,,no
+mold inspection near me,transactional,27100,5,25.38,2,mold inspection,,,no
+mold inspector,transactional,27100,12,22.92,2,mold inspection,,,no
+mold inspector near me,transactional,27100,5,25.38,2,mold inspection,,,no
+mold inspection and testing near me,transactional,27100,5,25.38,2,mold inspection,,,no
+mold inspection services,transactional,6600,8,12.68,2,mold inspection,,,no
+professional mold inspection,transactional,5400,15,23.49,2,mold inspection,,,no
+mold inspection company,transactional,2400,12,34.89,2,mold inspection,,,no
+crawl space mold inspection,transactional,1900,,23.55,2,mold inspection,,,no
+house mold inspection,transactional,1300,20,19.58,2,mold inspection,,,no
+hvac mold inspection,transactional,1300,,28.74,2,mold inspection,,,no
+mold inspection and remediation,transactional,1000,32,41.6,2,mold inspection,,,no
+mold inspection companies near me,transactional,880,5,32.67,2,mold inspection,,,no
+black mold inspection,transactional,880,25,44.71,2,mold inspection,,,no
+mold inspection and removal,transactional,880,18,27.96,2,mold inspection,,,no
+apartment mold inspection,transactional,720,21,18.13,2,mold inspection,,,no
+mold assessment,transactional,720,25,26.69,2,mold inspection,,,no
+independent mold inspector,transactional,260,9,21.16,2,mold inspection,,,no
+basement mold inspection,transactional,170,32,9.05,2,mold inspection,,,no
+residential mold inspection,transactional,110,17,18.12,2,mold inspection,,,no
+attic mold inspection,transactional,110,,23.05,2,mold inspection,,,no
+commercial mold inspection,transactional,90,2,12.13,2,mold inspection,,,no
+mold inspection cost,commercial,4400,,15.22,2,mold inspection,,,no
+mold inspection prices,commercial,4400,6,15.22,2,mold inspection,,,no
+best mold inspection near me,commercial,210,9,12.84,2,mold inspection,,,no
+free mold inspection near me,commercial,1900,,26.89,3,mold inspection,,,no
+musty smell in house,informational,5400,4,3.21,2,mold inspection,,,no
+how much does a mold inspection cost,informational,1600,6,9.27,2,mold inspection,,,no
+how much is a mold inspection,informational,1600,2,10.03,2,mold inspection,,,no
+does a home inspection check for mold,informational,590,4,0.46,2,mold inspection,,,no
+mold inspection report,informational,320,,14.36,2,mold inspection,,,no
+how long does a mold inspection take,informational,210,,6.81,2,mold inspection,,,no
+who to call for mold inspection,informational,210,13,20.52,2,mold inspection,,,no
+how does a mold inspection work,informational,110,15,3.46,2,mold inspection,,,no
+should i get a mold inspection when buying a house,informational,50,,5.74,2,mold inspection,,,no
+who pays for mold inspection,informational,50,,15.84,2,mold inspection,,,no
+post remediation verification,informational,50,,7.61,2,mold inspection,,,no
+what does a mold inspection consist of,informational,40,12,6.76,2,mold inspection,,,no
+what happens if mold is found during home inspection,informational,40,,4.93,2,mold inspection,,,no
+is a mold inspection worth it,informational,30,,,2,mold inspection,,,no

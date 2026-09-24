@@ -89,7 +89,7 @@
     },
     {
       "id": "2026-09-06-hvac-cleaning",
-      "status": "queued",
+      "status": "published",
       "queued_at": "2026-09-06T10:23:57Z",
       "priority": 1,
       "content_type": "target_term",
@@ -98,7 +98,10 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": "wilson-nc",
-      "source": "app target-term (onboarding-backfill)"
+      "source": "app target-term (onboarding-backfill)",
+      "written_at": "2026-09-24T16:26:13Z",
+      "post_url": "https://gogreenrestorationofnc.com/blog/hvac-cleaning/",
+      "published_verified_at": "2026-09-24T16:27:40Z"
     },
     {
       "id": "2026-09-06-crawlspace-encapsulation",
@@ -1313,6 +1316,188 @@
       ],
       "notes": "Pulled from the ChatGPT decomposition ('what are the signs of water intrusion in my home'), no measured volume, queued as AI-retrieval fuel. Durham anchor because the older Trinity Park and Duke Park housing stock is where slow intrusion hides. Symptom-first structure so each H2 is liftable: staining and tide lines, bubbling or blistering paint, cool spots, musty odor with nothing visible, warped baseboard, crawl space humidity climbing. Complements /blog/signs-of-hidden-mold/ by staying on the water cause rather than the mold outcome.",
       "banked_at": "2026-09-17T22:13:26.019191+00:00"
+    },
+    {
+      "id": "2026-09-24-flooded-house-insurance-north-carolina",
+      "status": "queued",
+      "queued_at": "2026-09-24T16:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "flooded house insurance",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": 38,
+      "fan_out_cluster": [
+        "does homeowners insurance cover flood damage",
+        "does flood insurance cover crawl space",
+        "does renters insurance cover flood damage",
+        "should you document flood damage before cleaning up",
+        "flood damage is normally covered in a homeowners insurance policy",
+        "flood damage insurance claim steps"
+      ],
+      "suggested_slug": "flooded-house-insurance-north-carolina",
+      "suggested_title": "Flooded house insurance in North Carolina: what homeowners policies cover and when you need NFIP",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/water-cleanup/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": "rocky-mount-nc",
+      "external_authority_candidates": [
+        "https://www.ncdoi.gov/consumers/homeowners-insurance/flood-insurance",
+        "https://www.floodsmart.gov/"
+      ],
+      "notes": "Rocky Mount anchor: Tar River flood history. Explain rising water vs sudden pipe water (homeowners vs NFIP). NC DOI is the source ChatGPT cites. Link to the existing water-damage insurance post, do not repeat it."
+    },
+    {
+      "id": "2026-09-24-water-damage-remediation-vs-mitigation",
+      "status": "queued",
+      "queued_at": "2026-09-24T16:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "remediation vs mitigation",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": 0,
+      "fan_out_cluster": [
+        "water mitigation vs remediation",
+        "mitigation vs remediation vs restoration",
+        "water mitigation cost",
+        "what is water mitigation",
+        "flood remediation meaning"
+      ],
+      "suggested_slug": "water-damage-remediation-vs-mitigation",
+      "suggested_title": "Remediation vs mitigation: what Wilson homeowners should know after flood or water damage",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-cleanup/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": "wilson-nc",
+      "external_authority_candidates": [
+        "https://iicrc.org/s500/"
+      ],
+      "notes": "Define mitigation (stop and dry: extraction, drying) vs remediation (remove contamination: mold, Category 3 water) vs restoration (rebuild). Tie to insurance line items. Wilson is a wizard priority area."
+    },
+    {
+      "id": "2026-09-24-flood-damage-restoration-companies-raleigh",
+      "status": "queued",
+      "queued_at": "2026-09-24T16:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "flood damage restoration companies",
+      "intent": "commercial",
+      "volume": 720,
+      "kd": 13,
+      "fan_out_cluster": [
+        "flood damage remediation companies",
+        "flood damage restoration services",
+        "emergency flood damage restoration",
+        "flood damage cleanup near me",
+        "IICRC certified flood restoration"
+      ],
+      "suggested_slug": "flood-damage-restoration-companies-raleigh",
+      "suggested_title": "Flood damage restoration companies in Raleigh: how to pick one you can trust",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-cleanup/",
+        "/service-areas/raleigh-nc/water-cleanup/",
+        "/service-areas/raleigh-nc/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": "raleigh-nc",
+      "external_authority_candidates": [
+        "https://iicrc.org/"
+      ],
+      "notes": "Flood-specific angle only: the existing /blog/choosing-a-restoration-company/ is generic, so link to it rather than repeat it. Cover certifications, Category 3 handling, drying logs, insurance billing, local response time from the east side via US-64."
+    },
+    {
+      "id": "2026-09-24-what-damage-can-a-flood-cause",
+      "status": "queued",
+      "queued_at": "2026-09-24T16:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what damage can a flood cause",
+      "intent": "informational",
+      "volume": 320,
+      "kd": 26,
+      "fan_out_cluster": [
+        "what damage does a flood cause",
+        "flooded crawl space cleanup",
+        "wet insulation after a flood",
+        "is flood water category 3",
+        "mold after flooding"
+      ],
+      "suggested_slug": "what-damage-can-a-flood-cause",
+      "suggested_title": "What damage can a flood cause to a Zebulon home? Hidden damage beyond the waterline",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/crawl-space-encapsulation/",
+        "/services/mold-remediation/",
+        "/services/insulation-removal-installation/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "crawl-space-encapsulation",
+        "mold-remediation",
+        "insulation-removal-installation"
+      ],
+      "city_anchor": "zebulon-nc",
+      "external_authority_candidates": [
+        "https://www.fema.gov/pdf/rebuild/recover/fema_mold_brochure_english.pdf"
+      ],
+      "notes": "Walk through structure, crawl space, insulation, subfloor, HVAC ducts, electrical, and mold. Strong cross-link to the client's crawl space and insulation services (wizard goals)."
+    },
+    {
+      "id": "2026-09-24-cleaning-a-flooded-house",
+      "status": "queued",
+      "queued_at": "2026-09-24T16:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "cleaning a flooded house",
+      "intent": "informational",
+      "volume": 90,
+      "kd": 14,
+      "fan_out_cluster": [
+        "how to clean up a flooded house",
+        "what to throw away after a flood",
+        "how to disinfect after a flood",
+        "dehumidifier for flooded house",
+        "flooded house cleanup"
+      ],
+      "suggested_slug": "cleaning-a-flooded-house",
+      "suggested_title": "Cleaning a flooded house: a step-by-step guide for Durham homeowners",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-cleanup/",
+        "/services/water-damage-restoration/",
+        "/services/carpet-cleaning/",
+        "/blog/what-to-do-first-24-hours-water-damage/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "carpet-cleaning",
+        "mold-remediation"
+      ],
+      "city_anchor": "durham-nc",
+      "external_authority_candidates": [
+        "https://www.cdc.gov/floods/safety/index.html",
+        "https://www.fema.gov/pdf/rebuild/recover/fema_mold_brochure_english.pdf"
+      ],
+      "notes": "Safety first (power, PPE, Category 3). Document before discarding (ChatGPT lead point). Porous vs non-porous discard list. Clear point where DIY stops and a pro is needed. Durham older housing stock and crawl spaces."
     }
   ]
 }

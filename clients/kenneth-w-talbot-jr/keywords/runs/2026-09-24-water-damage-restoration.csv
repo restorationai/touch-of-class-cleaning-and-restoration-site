@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+water damage restoration,transactional,135000,20,48.57,3,water damage restoration,,/services/water-damage-restoration/,no
+water damage repair,transactional,9900,38,44.4,3,water damage restoration,,/services/water-damage-restoration/,no
+emergency water damage restoration,transactional,2900,19,59.12,3,water damage restoration,,/services/water-damage-restoration/,no
+water damage cleanup,transactional,2900,31,58.35,3,water damage restoration,,/services/water-cleanup/,no
+water damage restoration florida,transactional,110,0,13.81,3,water damage restoration,,/services/water-damage-restoration/,no
+water damage restoration destin,transactional,20,,,3,water damage restoration,Destin,/service-areas/destin-fl/water-damage-restoration/,no
+destin water damage restoration,transactional,20,,,3,water damage restoration,Destin,/service-areas/destin-fl/water-damage-restoration/,no
+water damage restoration destin fl,transactional,10,0,,3,water damage restoration,Destin,/service-areas/destin-fl/water-damage-restoration/,no
+water damage restoration fort walton beach,transactional,10,,,3,water damage restoration,Fort Walton Beach,/service-areas/fort-walton-beach-fl/water-damage-restoration/,no
+water damage restoration fort walton beach fl,transactional,10,,,3,water damage restoration,Fort Walton Beach,/service-areas/fort-walton-beach-fl/water-damage-restoration/,no
+water damage restoration freeport fl,transactional,10,,,3,water damage restoration,Freeport,/services/water-damage-restoration/,no
+water damage restoration santa rosa beach,transactional,10,,,3,water damage restoration,Santa Rosa Beach,/service-areas/santa-rosa-beach-fl/water-damage-restoration/,no
+santa rosa beach water damage restoration,transactional,10,,,3,water damage restoration,Santa Rosa Beach,/service-areas/santa-rosa-beach-fl/water-damage-restoration/,no
+water damage restoration panama city beach,transactional,10,,,3,water damage restoration,Panama City Beach,/service-areas/panama-city-beach-fl/water-damage-restoration/,no
+water damage restoration niceville,transactional,10,,,3,water damage restoration,Niceville,/service-areas/niceville-fl/water-damage-restoration/,no
+water damage restoration crestview fl,transactional,10,,,3,water damage restoration,Crestview,/service-areas/crestview-fl/water-damage-restoration/,no
+water damage cleanup destin,transactional,10,,,3,water damage restoration,Destin,/service-areas/destin-fl/water-cleanup/,no
+destin water damage repair,transactional,10,,,3,water damage restoration,Destin,/service-areas/destin-fl/water-damage-restoration/,no
+water damage restoration cost,commercial,720,0,43.02,1,water damage restoration,,,yes
+water damage restoration cost per square foot,commercial,70,0,56.88,1,water damage restoration,,,cluster:2026-09-24-water-damage-restoration-cost
+how much does water damage restoration cost,commercial,40,6,,2,water damage restoration,,,cluster:2026-09-24-water-damage-restoration-cost
+what is the average cost of water damage restoration,commercial,10,62,,3,water damage restoration,,,cluster:2026-09-24-water-damage-restoration-cost
+hardwood floor water damage,informational,1600,0,23.17,1,water damage restoration,,,yes
+water damage baseboards,informational,1300,0,77.69,1,water damage restoration,,,cluster:2026-09-24-signs-of-water-damage-in-walls
+how to fix water damage on ceiling,informational,1000,0,2.96,1,water damage restoration,,,yes
+water damage mold,informational,1000,10,62.73,1,water damage restoration,,,yes
+what does water damage look like on a ceiling,informational,140,0,,1,water damage restoration,,,cluster:2026-09-24-how-to-fix-water-damage-on-ceiling
+water damage restoration process,informational,110,1,88.27,1,water damage restoration,,,no
+signs of water damage in walls,informational,110,8,,1,water damage restoration,,,yes
+how long does water damage restoration take,informational,50,3,64.28,1,water damage restoration,,,no
+mold after water damage,informational,50,1,0.03,1,water damage restoration,,,cluster:2026-09-24-water-damage-mold
+does renters insurance cover water damage,informational,1000,21,15.62,2,water damage restoration,,,no
+does homeowners insurance cover water damage from a leaking roof,informational,110,20,,2,water damage restoration,,,no
+how long for mold to grow after water damage,informational,40,9,0.01,2,water damage restoration,,,cluster:2026-09-24-water-damage-mold
+who is responsible for water damage in a condo,informational,40,0,43.83,2,water damage restoration,,,no
+what to do when your ceiling is leaking,informational,40,0,25.19,2,water damage restoration,,,cluster:2026-09-24-how-to-fix-water-damage-on-ceiling
+how long does it take to dry out water damage,informational,10,0,,3,water damage restoration,,,cluster:2026-09-24-water-damage-mold
+how to tell if water damage is old or new,informational,10,,,3,water damage restoration,,,cluster:2026-09-24-signs-of-water-damage-in-walls
+hurricane water damage,informational,10,0,,3,water damage restoration,,,no
+condo water damage responsibility florida,informational,,,,3,water damage restoration,,,no

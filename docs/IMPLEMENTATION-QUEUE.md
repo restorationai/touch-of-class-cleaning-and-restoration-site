@@ -1,5 +1,9 @@
 # Implementation Queue
 
+STATUS 2026-09-24: Santino APPROVED sections 1, 2, 2b, 3, and 4 for build
+("everything else sounds good"), with ONE exception: spam-shield
+AI-dispatcher absorption is PARKED (do not build yet). Section 5 unchanged.
+
 Living queue of approved-for-build items. Each entry: what, why (the incident),
 and the shape of the fix. Check off + date when shipped. Santino curates
 priority; agents work top-down unless told otherwise.
@@ -93,7 +97,7 @@ Arch: 17 of last 25 GBP-line calls are short-duration spam-pattern.
       known-customer numbers through by CRM match).
 - [ ] **Instant E1 feed**: verify call-intel spam verdicts land in the
       blocklist on the immediate post-call run (not just the 30-min cron).
-- [ ] **AI-dispatcher absorption**: clients with the AI receptionist —
+- [ ] PARKED (Santino 09-24, do not build yet): **AI-dispatcher absorption**: clients with the AI receptionist —
       route first-time risk-pool callers to the AI line first; real
       customers get handled, farms hang up. NO keypress gates (law 08-10).
 - [ ] Seed the blocklist from Arch's current wave (classification pass over
@@ -106,3 +110,26 @@ Arch: 17 of last 25 GBP-line calls are short-duration spam-pattern.
 - [ ] Optional: API skips call-intel workflow_dispatch when a run is already
       queued (quiets the cancelled-run noise in Actions; no lost work today).
 - [ ] HomeLyft Meet-the-Team section when Josiah sends headshots/bios.
+
+## 6. Meeting analyzer — kickoff follow-up booked on the sales calendar
+Incident (Daniel Restum / RestoPros of Central Maryland, 09-24): after the
+KICKOFF call, fathom_sync booked the agreed follow-up on the Follow Up
+(sales) calendar instead of LIVE Support. Root cause: fathom_sync matches
+meetings to clients by SLUG (clients/*.json); RestoPros signed so recently
+that bootstrap hadn't created their slug yet (their companies row appeared
+16:19 UTC — mid-kickoff). Unmatched meeting -> handle_unmatched -> classified
+as a sales PROSPECT -> prospect lane books on the Follow Up calendar by
+design (Patti Collins lane, 09-11). A brand-new client is indistinguishable
+from a prospect during the bootstrap race, and the kickoff call is exactly
+when that race fires.
+- [ ] **Client-signal check before the prospect lane**: in handle_unmatched,
+      before classifying as prospect: (a) if the meeting's appointment
+      anchor is the Kick Off (or LIVE Support) calendar -> it IS a client;
+      (b) else match invitee email/name against the companies table (an
+      Active company row = client). Either hit -> book LIVE Support 30-min
+      + raise "client meeting but bootstrap missing" alarm instead of the
+      prospect flow.
+- [ ] Extend the bootstrap-missing alarm to the fathom lane (digest already
+      flags slugless companies; the meeting path should too).
+- [ ] Cleanup: move Daniel's booked follow-up from the Follow Up calendar
+      to LIVE Support (verify time + attendee unchanged).
