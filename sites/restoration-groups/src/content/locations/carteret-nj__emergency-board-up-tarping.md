@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "d421c53b599f9755"
-generated_at: "2026-09-23T14:12:06.590007+00:00"
+generated_at: "2026-09-24T23:22:03.626870+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/carteret-nj/", "/service-areas/carteret-nj/fire-damage-restoration/", "/service-areas/carteret-nj/mold-remediation/", "/service-areas/avenel-nj/emergency-board-up-tarping/", "/service-areas/bayonne-nj/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Carteret", "url": "/service-areas/carteret-nj/"}, {"name": "Emergency Board-Up and Tarping"}]

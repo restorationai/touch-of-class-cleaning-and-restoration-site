@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "4d09792b6b3e86a0"
-generated_at: "2026-09-23T14:12:06.507940+00:00"
+generated_at: "2026-09-24T23:22:03.533587+00:00"
 manual_override: false
 internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/paramus-nj/", "/service-areas/paramus-nj/fire-damage-restoration/", "/service-areas/paramus-nj/mold-remediation/", "/service-areas/avenel-nj/crawl-space-encapsulation/", "/service-areas/bayonne-nj/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Paramus", "url": "/service-areas/paramus-nj/"}, {"name": "Crawl Space Encapsulation"}]

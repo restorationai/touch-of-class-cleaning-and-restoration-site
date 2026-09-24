@@ -66,6 +66,7 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 - [Sewage Cleanup and Sanitization](https://therestorationgroup.com/services/sewage-cleanup/)
 - [Smoke Damage Restoration](https://therestorationgroup.com/services/smoke-damage-restoration/)
 - [Storm Damage Restoration](https://therestorationgroup.com/services/storm-damage-restoration/)
+- [Vandalism Cleanup](https://therestorationgroup.com/services/vandalism-cleanup/)
 - [Emergency Water Cleanup](https://therestorationgroup.com/services/water-cleanup/)
 - [Water Damage Restoration](https://therestorationgroup.com/services/water-damage-restoration/)` / `- [Kenilworth, NJ](https://therestorationgroup.com/service-areas/kenilworth-nj/)
 - [Union, NJ](https://therestorationgroup.com/service-areas/union-nj/)

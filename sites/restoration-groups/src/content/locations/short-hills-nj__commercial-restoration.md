@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "c4f08aee73e97c54"
-generated_at: "2026-09-23T14:12:06.550236+00:00"
+generated_at: "2026-09-24T23:22:03.581953+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/short-hills-nj/", "/service-areas/short-hills-nj/fire-damage-restoration/", "/service-areas/short-hills-nj/mold-remediation/", "/service-areas/avenel-nj/commercial-restoration/", "/service-areas/bayonne-nj/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Short Hills", "url": "/service-areas/short-hills-nj/"}, {"name": "Commercial Restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "d11b395f344043f8"
-generated_at: "2026-09-23T14:12:06.491110+00:00"
+generated_at: "2026-09-24T23:22:03.513145+00:00"
 manual_override: false
 internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/roselle-nj/", "/service-areas/roselle-nj/fire-damage-restoration/", "/service-areas/roselle-nj/mold-remediation/", "/service-areas/avenel-nj/crawl-space-encapsulation/", "/service-areas/bayonne-nj/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Roselle", "url": "/service-areas/roselle-nj/"}, {"name": "Crawl Space Encapsulation"}]

@@ -1,21 +1,21 @@
 # Site Plan Report — The Restoration Group
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-23T14:12:05.354173+00:00
+- Generated: 2026-09-24T23:21:59.277074+00:00
 - Domain: `therestorationgroup.com`
-- Services selected: 20 of 65 catalog entries
+- Services selected: 21 of 65 catalog entries
 - Service areas: 61
 - Cross-product enabled: True
-- Total URLs: **1301**
-- Total internal links: 10440 (avg 8.0 per page)
+- Total URLs: **1362**
+- Total internal links: 10936 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 1200 |
+| `service-area-service` | 1260 |
 | `service-area` | 60 |
-| `service-landing` | 20 |
+| `service-landing` | 21 |
 | `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -45,6 +45,7 @@
 - `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
+- `vandalism-cleanup` — Vandalism Cleanup (specialty, priority 5)
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 

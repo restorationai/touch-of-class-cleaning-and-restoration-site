@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "7a5beb84a442f10f"
-generated_at: "2026-09-23T14:12:06.488080+00:00"
+generated_at: "2026-09-24T23:22:03.509427+00:00"
 manual_override: false
 internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/scotch-plains-nj/", "/service-areas/scotch-plains-nj/fire-damage-restoration/", "/service-areas/scotch-plains-nj/mold-remediation/", "/service-areas/avenel-nj/crawl-space-encapsulation/", "/service-areas/bayonne-nj/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Scotch Plains", "url": "/service-areas/scotch-plains-nj/"}, {"name": "Crawl Space Encapsulation"}]

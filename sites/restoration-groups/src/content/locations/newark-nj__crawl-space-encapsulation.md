@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "1cde817b820e9452"
-generated_at: "2026-09-23T14:12:06.472775+00:00"
+generated_at: "2026-09-24T23:22:03.490654+00:00"
 manual_override: false
 internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/newark-nj/", "/service-areas/newark-nj/fire-damage-restoration/", "/service-areas/newark-nj/mold-remediation/", "/service-areas/avenel-nj/crawl-space-encapsulation/", "/service-areas/bayonne-nj/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Newark", "url": "/service-areas/newark-nj/"}, {"name": "Crawl Space Encapsulation"}]

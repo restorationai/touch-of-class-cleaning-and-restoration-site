@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "0cef632e449205ba"
-generated_at: "2026-09-23T14:12:06.569322+00:00"
+generated_at: "2026-09-24T23:22:03.607934+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration-storage/", "/service-areas/avenel-nj/", "/service-areas/avenel-nj/fire-damage-restoration/", "/service-areas/avenel-nj/mold-remediation/", "/service-areas/bayonne-nj/contents-restoration-storage/", "/service-areas/bloomfield-nj/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Avenel", "url": "/service-areas/avenel-nj/"}, {"name": "Contents Restoration & Storage"}]

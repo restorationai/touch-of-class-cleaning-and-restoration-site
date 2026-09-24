@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "bb734ecb7181ee94"
-generated_at: "2026-09-23T14:12:06.556149+00:00"
+generated_at: "2026-09-24T23:22:03.594625+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/colonia-nj/", "/service-areas/colonia-nj/fire-damage-restoration/", "/service-areas/colonia-nj/mold-remediation/", "/service-areas/avenel-nj/burst-pipe-repair/", "/service-areas/bayonne-nj/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Colonia", "url": "/service-areas/colonia-nj/"}, {"name": "Burst Pipe Cleanup and Repair"}]

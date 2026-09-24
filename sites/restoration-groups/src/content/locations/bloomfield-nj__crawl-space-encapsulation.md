@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "4a184fda68d33023"
-generated_at: "2026-09-23T14:12:06.498810+00:00"
+generated_at: "2026-09-24T23:22:03.522533+00:00"
 manual_override: false
 internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/bloomfield-nj/", "/service-areas/bloomfield-nj/fire-damage-restoration/", "/service-areas/bloomfield-nj/mold-remediation/", "/service-areas/avenel-nj/crawl-space-encapsulation/", "/service-areas/bayonne-nj/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bloomfield", "url": "/service-areas/bloomfield-nj/"}, {"name": "Crawl Space Encapsulation"}]

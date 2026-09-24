@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "77c6db652f46e29d"
-generated_at: "2026-09-23T14:12:06.576741+00:00"
+generated_at: "2026-09-24T23:22:03.615556+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/chatham-nj/", "/service-areas/chatham-nj/fire-damage-restoration/", "/service-areas/chatham-nj/mold-remediation/", "/service-areas/avenel-nj/mold-inspection-testing/", "/service-areas/bayonne-nj/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Chatham", "url": "/service-areas/chatham-nj/"}, {"name": "Mold Inspection and Testing"}]

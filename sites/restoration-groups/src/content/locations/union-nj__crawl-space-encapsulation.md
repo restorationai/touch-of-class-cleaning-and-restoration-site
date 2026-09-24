@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "fe37859fa380d4ef"
-generated_at: "2026-09-23T14:12:06.463474+00:00"
+generated_at: "2026-09-24T23:22:03.479372+00:00"
 manual_override: false
 internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/union-nj/", "/service-areas/union-nj/fire-damage-restoration/", "/service-areas/union-nj/mold-remediation/", "/service-areas/avenel-nj/crawl-space-encapsulation/", "/service-areas/bayonne-nj/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Union", "url": "/service-areas/union-nj/"}, {"name": "Crawl Space Encapsulation"}]

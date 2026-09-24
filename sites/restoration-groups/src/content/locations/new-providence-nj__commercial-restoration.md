@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "c45344ebf8644573"
-generated_at: "2026-09-23T14:12:06.562529+00:00"
+generated_at: "2026-09-24T23:22:03.601207+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/new-providence-nj/", "/service-areas/new-providence-nj/fire-damage-restoration/", "/service-areas/new-providence-nj/mold-remediation/", "/service-areas/avenel-nj/commercial-restoration/", "/service-areas/bayonne-nj/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "New Providence", "url": "/service-areas/new-providence-nj/"}, {"name": "Commercial Restoration"}]

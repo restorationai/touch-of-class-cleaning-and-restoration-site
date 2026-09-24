@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "c58788c0f8776f49"
-generated_at: "2026-09-23T14:12:06.515561+00:00"
+generated_at: "2026-09-24T23:22:03.542523+00:00"
 manual_override: false
 internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/garfield-nj/", "/service-areas/garfield-nj/fire-damage-restoration/", "/service-areas/garfield-nj/mold-remediation/", "/service-areas/avenel-nj/crawl-space-encapsulation/", "/service-areas/bayonne-nj/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Garfield", "url": "/service-areas/garfield-nj/"}, {"name": "Crawl Space Encapsulation"}]

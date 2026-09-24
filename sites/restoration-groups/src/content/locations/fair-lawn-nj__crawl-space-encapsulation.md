@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "fd61d526bddccdc1"
-generated_at: "2026-09-23T14:12:06.478945+00:00"
+generated_at: "2026-09-24T23:22:03.498094+00:00"
 manual_override: false
 internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/fair-lawn-nj/", "/service-areas/fair-lawn-nj/fire-damage-restoration/", "/service-areas/fair-lawn-nj/mold-remediation/", "/service-areas/avenel-nj/crawl-space-encapsulation/", "/service-areas/bayonne-nj/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fair Lawn", "url": "/service-areas/fair-lawn-nj/"}, {"name": "Crawl Space Encapsulation"}]

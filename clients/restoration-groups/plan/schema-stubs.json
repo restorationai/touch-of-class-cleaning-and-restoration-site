@@ -238,6 +238,16 @@
     ],
     "missing_stubs": []
   },
+  "/services/vandalism-cleanup/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/services/water-cleanup/": {
     "archetype": "service-landing",
     "stubs": [
@@ -978,6 +988,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/union-nj/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/union-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1169,6 +1189,16 @@
     "missing_stubs": []
   },
   "/service-areas/elizabeth-nj/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/elizabeth-nj/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1378,6 +1408,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/westfield-nj/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/westfield-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1569,6 +1609,16 @@
     "missing_stubs": []
   },
   "/service-areas/cranford-nj/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/cranford-nj/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1778,6 +1828,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/springfield-nj/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/springfield-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1969,6 +2029,16 @@
     "missing_stubs": []
   },
   "/service-areas/summit-nj/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/summit-nj/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2178,6 +2248,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/newark-nj/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/newark-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2369,6 +2449,16 @@
     "missing_stubs": []
   },
   "/service-areas/jersey-city-nj/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/jersey-city-nj/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2578,6 +2668,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/brooklyn-ny/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/brooklyn-ny/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2769,6 +2869,16 @@
     "missing_stubs": []
   },
   "/service-areas/manhattan-ny/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/manhattan-ny/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2978,6 +3088,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/fair-lawn-nj/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/fair-lawn-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3169,6 +3289,16 @@
     "missing_stubs": []
   },
   "/service-areas/highland-park-nj/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/highland-park-nj/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3378,6 +3508,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/staten-island-ny/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/staten-island-ny/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3569,6 +3709,16 @@
     "missing_stubs": []
   },
   "/service-areas/linden-nj/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/linden-nj/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3778,6 +3928,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/rahway-nj/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/rahway-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3969,6 +4129,16 @@
     "missing_stubs": []
   },
   "/service-areas/plainfield-nj/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/plainfield-nj/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4178,6 +4348,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/scotch-plains-nj/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/scotch-plains-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4369,6 +4549,16 @@
     "missing_stubs": []
   },
   "/service-areas/clark-nj/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/clark-nj/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4578,6 +4768,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/roselle-nj/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/roselle-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4769,6 +4969,16 @@
     "missing_stubs": []
   },
   "/service-areas/hillside-nj/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hillside-nj/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4978,6 +5188,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/east-orange-nj/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/east-orange-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5169,6 +5389,16 @@
     "missing_stubs": []
   },
   "/service-areas/west-orange-nj/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/west-orange-nj/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5378,6 +5608,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/montclair-nj/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/montclair-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5569,6 +5809,16 @@
     "missing_stubs": []
   },
   "/service-areas/bloomfield-nj/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/bloomfield-nj/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5778,6 +6028,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/livingston-nj/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/livingston-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5969,6 +6229,16 @@
     "missing_stubs": []
   },
   "/service-areas/irvington-nj/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/irvington-nj/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6178,6 +6448,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/maplewood-nj/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/maplewood-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6369,6 +6649,16 @@
     "missing_stubs": []
   },
   "/service-areas/millburn-nj/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/millburn-nj/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6578,6 +6868,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/hackensack-nj/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/hackensack-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6769,6 +7069,16 @@
     "missing_stubs": []
   },
   "/service-areas/paramus-nj/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/paramus-nj/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6978,6 +7288,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/fort-lee-nj/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/fort-lee-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7169,6 +7489,16 @@
     "missing_stubs": []
   },
   "/service-areas/teaneck-nj/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/teaneck-nj/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7378,6 +7708,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/ridgewood-nj/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/ridgewood-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7569,6 +7909,16 @@
     "missing_stubs": []
   },
   "/service-areas/englewood-nj/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/englewood-nj/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7778,6 +8128,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/garfield-nj/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/garfield-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7969,6 +8329,16 @@
     "missing_stubs": []
   },
   "/service-areas/new-brunswick-nj/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/new-brunswick-nj/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8178,6 +8548,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/edison-nj/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/edison-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8369,6 +8749,16 @@
     "missing_stubs": []
   },
   "/service-areas/woodbridge-nj/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/woodbridge-nj/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8578,6 +8968,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/perth-amboy-nj/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/perth-amboy-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8769,6 +9169,16 @@
     "missing_stubs": []
   },
   "/service-areas/east-brunswick-nj/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/east-brunswick-nj/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8978,6 +9388,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/piscataway-nj/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/piscataway-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9169,6 +9589,16 @@
     "missing_stubs": []
   },
   "/service-areas/morristown-nj/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/morristown-nj/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9378,6 +9808,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/parsippany-nj/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/parsippany-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9569,6 +10009,16 @@
     "missing_stubs": []
   },
   "/service-areas/somerville-nj/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/somerville-nj/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9778,6 +10228,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/bridgewater-nj/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/bridgewater-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9969,6 +10429,16 @@
     "missing_stubs": []
   },
   "/service-areas/paterson-nj/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/paterson-nj/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10178,6 +10648,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/clifton-nj/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/clifton-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -10369,6 +10849,16 @@
     "missing_stubs": []
   },
   "/service-areas/wayne-nj/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/wayne-nj/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10578,6 +11068,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/passaic-nj/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/passaic-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -10769,6 +11269,16 @@
     "missing_stubs": []
   },
   "/service-areas/hoboken-nj/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hoboken-nj/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10978,6 +11488,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/bayonne-nj/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/bayonne-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -11169,6 +11689,16 @@
     "missing_stubs": []
   },
   "/service-areas/north-bergen-nj/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/north-bergen-nj/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11378,6 +11908,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/mountainside-nj/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/mountainside-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -11569,6 +12109,16 @@
     "missing_stubs": []
   },
   "/service-areas/short-hills-nj/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/short-hills-nj/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11778,6 +12328,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/colonia-nj/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/colonia-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -11969,6 +12529,16 @@
     "missing_stubs": []
   },
   "/service-areas/new-providence-nj/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/new-providence-nj/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12178,6 +12748,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/avenel-nj/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/avenel-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -12369,6 +12949,16 @@
     "missing_stubs": []
   },
   "/service-areas/chatham-nj/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/chatham-nj/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12578,6 +13168,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/watchung-nj/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/watchung-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -12769,6 +13369,16 @@
     "missing_stubs": []
   },
   "/service-areas/carteret-nj/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/carteret-nj/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

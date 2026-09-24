@@ -1,9 +1,9 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-23T14:12:05.281931+00:00",
+  "generated_at": "2026-09-24T23:21:59.177822+00:00",
   "input_summary": {
-    "service_count": 20,
+    "service_count": 21,
     "service_area_count": 61,
     "cross_product": true,
     "blog_seed_count": 12
@@ -64,6 +64,7 @@
         "/services/contents-restoration-pack-out/",
         "/services/contents-restoration-storage/",
         "/services/crawl-space-encapsulation/",
+        "/services/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/",
@@ -175,7 +176,8 @@
         "/services/basement-flood-cleanup/",
         "/services/contents-restoration-pack-out/",
         "/services/contents-restoration-storage/",
-        "/services/crawl-space-encapsulation/"
+        "/services/crawl-space-encapsulation/",
+        "/services/vandalism-cleanup/"
       ]
     },
     {
@@ -1266,6 +1268,56 @@
       ]
     },
     {
+      "url_path": "/services/vandalism-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Kenilworth | The Restoration Group",
+      "h1": "Vandalism Cleanup in Kenilworth",
+      "meta_description": "24/7 vandalism cleanup in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup kenilworth",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/service-areas/bloomfield-nj/vandalism-cleanup/",
+        "/service-areas/bridgewater-nj/vandalism-cleanup/",
+        "/service-areas/brooklyn-ny/vandalism-cleanup/",
+        "/service-areas/carteret-nj/vandalism-cleanup/",
+        "/service-areas/chatham-nj/vandalism-cleanup/",
+        "/service-areas/clark-nj/vandalism-cleanup/",
+        "/service-areas/clifton-nj/vandalism-cleanup/",
+        "/service-areas/colonia-nj/vandalism-cleanup/",
+        "/service-areas/cranford-nj/vandalism-cleanup/",
+        "/service-areas/east-brunswick-nj/vandalism-cleanup/"
+      ]
+    },
+    {
       "url_path": "/services/water-cleanup/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -1423,6 +1475,7 @@
         "/service-areas/union-nj/contents-restoration-pack-out/",
         "/service-areas/union-nj/contents-restoration-storage/",
         "/service-areas/union-nj/crawl-space-encapsulation/",
+        "/service-areas/union-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -1480,6 +1533,7 @@
         "/service-areas/elizabeth-nj/contents-restoration-pack-out/",
         "/service-areas/elizabeth-nj/contents-restoration-storage/",
         "/service-areas/elizabeth-nj/crawl-space-encapsulation/",
+        "/service-areas/elizabeth-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -1537,6 +1591,7 @@
         "/service-areas/westfield-nj/contents-restoration-pack-out/",
         "/service-areas/westfield-nj/contents-restoration-storage/",
         "/service-areas/westfield-nj/crawl-space-encapsulation/",
+        "/service-areas/westfield-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -1594,6 +1649,7 @@
         "/service-areas/cranford-nj/contents-restoration-pack-out/",
         "/service-areas/cranford-nj/contents-restoration-storage/",
         "/service-areas/cranford-nj/crawl-space-encapsulation/",
+        "/service-areas/cranford-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -1651,6 +1707,7 @@
         "/service-areas/springfield-nj/contents-restoration-pack-out/",
         "/service-areas/springfield-nj/contents-restoration-storage/",
         "/service-areas/springfield-nj/crawl-space-encapsulation/",
+        "/service-areas/springfield-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -1708,6 +1765,7 @@
         "/service-areas/summit-nj/contents-restoration-pack-out/",
         "/service-areas/summit-nj/contents-restoration-storage/",
         "/service-areas/summit-nj/crawl-space-encapsulation/",
+        "/service-areas/summit-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -1765,6 +1823,7 @@
         "/service-areas/newark-nj/contents-restoration-pack-out/",
         "/service-areas/newark-nj/contents-restoration-storage/",
         "/service-areas/newark-nj/crawl-space-encapsulation/",
+        "/service-areas/newark-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -1822,6 +1881,7 @@
         "/service-areas/jersey-city-nj/contents-restoration-pack-out/",
         "/service-areas/jersey-city-nj/contents-restoration-storage/",
         "/service-areas/jersey-city-nj/crawl-space-encapsulation/",
+        "/service-areas/jersey-city-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -1879,6 +1939,7 @@
         "/service-areas/brooklyn-ny/contents-restoration-pack-out/",
         "/service-areas/brooklyn-ny/contents-restoration-storage/",
         "/service-areas/brooklyn-ny/crawl-space-encapsulation/",
+        "/service-areas/brooklyn-ny/vandalism-cleanup/",
         "/service-areas/manhattan-ny/",
         "/service-areas/staten-island-ny/"
       ]
@@ -1935,6 +1996,7 @@
         "/service-areas/manhattan-ny/contents-restoration-pack-out/",
         "/service-areas/manhattan-ny/contents-restoration-storage/",
         "/service-areas/manhattan-ny/crawl-space-encapsulation/",
+        "/service-areas/manhattan-ny/vandalism-cleanup/",
         "/service-areas/brooklyn-ny/",
         "/service-areas/staten-island-ny/"
       ]
@@ -1991,6 +2053,7 @@
         "/service-areas/fair-lawn-nj/contents-restoration-pack-out/",
         "/service-areas/fair-lawn-nj/contents-restoration-storage/",
         "/service-areas/fair-lawn-nj/crawl-space-encapsulation/",
+        "/service-areas/fair-lawn-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -2048,6 +2111,7 @@
         "/service-areas/highland-park-nj/contents-restoration-pack-out/",
         "/service-areas/highland-park-nj/contents-restoration-storage/",
         "/service-areas/highland-park-nj/crawl-space-encapsulation/",
+        "/service-areas/highland-park-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -2105,6 +2169,7 @@
         "/service-areas/staten-island-ny/contents-restoration-pack-out/",
         "/service-areas/staten-island-ny/contents-restoration-storage/",
         "/service-areas/staten-island-ny/crawl-space-encapsulation/",
+        "/service-areas/staten-island-ny/vandalism-cleanup/",
         "/service-areas/brooklyn-ny/",
         "/service-areas/manhattan-ny/"
       ]
@@ -2161,6 +2226,7 @@
         "/service-areas/linden-nj/contents-restoration-pack-out/",
         "/service-areas/linden-nj/contents-restoration-storage/",
         "/service-areas/linden-nj/crawl-space-encapsulation/",
+        "/service-areas/linden-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -2218,6 +2284,7 @@
         "/service-areas/rahway-nj/contents-restoration-pack-out/",
         "/service-areas/rahway-nj/contents-restoration-storage/",
         "/service-areas/rahway-nj/crawl-space-encapsulation/",
+        "/service-areas/rahway-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -2275,6 +2342,7 @@
         "/service-areas/plainfield-nj/contents-restoration-pack-out/",
         "/service-areas/plainfield-nj/contents-restoration-storage/",
         "/service-areas/plainfield-nj/crawl-space-encapsulation/",
+        "/service-areas/plainfield-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -2332,6 +2400,7 @@
         "/service-areas/scotch-plains-nj/contents-restoration-pack-out/",
         "/service-areas/scotch-plains-nj/contents-restoration-storage/",
         "/service-areas/scotch-plains-nj/crawl-space-encapsulation/",
+        "/service-areas/scotch-plains-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -2389,6 +2458,7 @@
         "/service-areas/clark-nj/contents-restoration-pack-out/",
         "/service-areas/clark-nj/contents-restoration-storage/",
         "/service-areas/clark-nj/crawl-space-encapsulation/",
+        "/service-areas/clark-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -2446,6 +2516,7 @@
         "/service-areas/roselle-nj/contents-restoration-pack-out/",
         "/service-areas/roselle-nj/contents-restoration-storage/",
         "/service-areas/roselle-nj/crawl-space-encapsulation/",
+        "/service-areas/roselle-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -2503,6 +2574,7 @@
         "/service-areas/hillside-nj/contents-restoration-pack-out/",
         "/service-areas/hillside-nj/contents-restoration-storage/",
         "/service-areas/hillside-nj/crawl-space-encapsulation/",
+        "/service-areas/hillside-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -2560,6 +2632,7 @@
         "/service-areas/east-orange-nj/contents-restoration-pack-out/",
         "/service-areas/east-orange-nj/contents-restoration-storage/",
         "/service-areas/east-orange-nj/crawl-space-encapsulation/",
+        "/service-areas/east-orange-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -2617,6 +2690,7 @@
         "/service-areas/west-orange-nj/contents-restoration-pack-out/",
         "/service-areas/west-orange-nj/contents-restoration-storage/",
         "/service-areas/west-orange-nj/crawl-space-encapsulation/",
+        "/service-areas/west-orange-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -2674,6 +2748,7 @@
         "/service-areas/montclair-nj/contents-restoration-pack-out/",
         "/service-areas/montclair-nj/contents-restoration-storage/",
         "/service-areas/montclair-nj/crawl-space-encapsulation/",
+        "/service-areas/montclair-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -2731,6 +2806,7 @@
         "/service-areas/bloomfield-nj/contents-restoration-pack-out/",
         "/service-areas/bloomfield-nj/contents-restoration-storage/",
         "/service-areas/bloomfield-nj/crawl-space-encapsulation/",
+        "/service-areas/bloomfield-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bridgewater-nj/"
@@ -2788,6 +2864,7 @@
         "/service-areas/livingston-nj/contents-restoration-pack-out/",
         "/service-areas/livingston-nj/contents-restoration-storage/",
         "/service-areas/livingston-nj/crawl-space-encapsulation/",
+        "/service-areas/livingston-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -2845,6 +2922,7 @@
         "/service-areas/irvington-nj/contents-restoration-pack-out/",
         "/service-areas/irvington-nj/contents-restoration-storage/",
         "/service-areas/irvington-nj/crawl-space-encapsulation/",
+        "/service-areas/irvington-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -2902,6 +2980,7 @@
         "/service-areas/maplewood-nj/contents-restoration-pack-out/",
         "/service-areas/maplewood-nj/contents-restoration-storage/",
         "/service-areas/maplewood-nj/crawl-space-encapsulation/",
+        "/service-areas/maplewood-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -2959,6 +3038,7 @@
         "/service-areas/millburn-nj/contents-restoration-pack-out/",
         "/service-areas/millburn-nj/contents-restoration-storage/",
         "/service-areas/millburn-nj/crawl-space-encapsulation/",
+        "/service-areas/millburn-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -3016,6 +3096,7 @@
         "/service-areas/hackensack-nj/contents-restoration-pack-out/",
         "/service-areas/hackensack-nj/contents-restoration-storage/",
         "/service-areas/hackensack-nj/crawl-space-encapsulation/",
+        "/service-areas/hackensack-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -3073,6 +3154,7 @@
         "/service-areas/paramus-nj/contents-restoration-pack-out/",
         "/service-areas/paramus-nj/contents-restoration-storage/",
         "/service-areas/paramus-nj/crawl-space-encapsulation/",
+        "/service-areas/paramus-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -3130,6 +3212,7 @@
         "/service-areas/fort-lee-nj/contents-restoration-pack-out/",
         "/service-areas/fort-lee-nj/contents-restoration-storage/",
         "/service-areas/fort-lee-nj/crawl-space-encapsulation/",
+        "/service-areas/fort-lee-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -3187,6 +3270,7 @@
         "/service-areas/teaneck-nj/contents-restoration-pack-out/",
         "/service-areas/teaneck-nj/contents-restoration-storage/",
         "/service-areas/teaneck-nj/crawl-space-encapsulation/",
+        "/service-areas/teaneck-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -3244,6 +3328,7 @@
         "/service-areas/ridgewood-nj/contents-restoration-pack-out/",
         "/service-areas/ridgewood-nj/contents-restoration-storage/",
         "/service-areas/ridgewood-nj/crawl-space-encapsulation/",
+        "/service-areas/ridgewood-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -3301,6 +3386,7 @@
         "/service-areas/englewood-nj/contents-restoration-pack-out/",
         "/service-areas/englewood-nj/contents-restoration-storage/",
         "/service-areas/englewood-nj/crawl-space-encapsulation/",
+        "/service-areas/englewood-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -3358,6 +3444,7 @@
         "/service-areas/garfield-nj/contents-restoration-pack-out/",
         "/service-areas/garfield-nj/contents-restoration-storage/",
         "/service-areas/garfield-nj/crawl-space-encapsulation/",
+        "/service-areas/garfield-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -3415,6 +3502,7 @@
         "/service-areas/new-brunswick-nj/contents-restoration-pack-out/",
         "/service-areas/new-brunswick-nj/contents-restoration-storage/",
         "/service-areas/new-brunswick-nj/crawl-space-encapsulation/",
+        "/service-areas/new-brunswick-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -3472,6 +3560,7 @@
         "/service-areas/edison-nj/contents-restoration-pack-out/",
         "/service-areas/edison-nj/contents-restoration-storage/",
         "/service-areas/edison-nj/crawl-space-encapsulation/",
+        "/service-areas/edison-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -3529,6 +3618,7 @@
         "/service-areas/woodbridge-nj/contents-restoration-pack-out/",
         "/service-areas/woodbridge-nj/contents-restoration-storage/",
         "/service-areas/woodbridge-nj/crawl-space-encapsulation/",
+        "/service-areas/woodbridge-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -3586,6 +3676,7 @@
         "/service-areas/perth-amboy-nj/contents-restoration-pack-out/",
         "/service-areas/perth-amboy-nj/contents-restoration-storage/",
         "/service-areas/perth-amboy-nj/crawl-space-encapsulation/",
+        "/service-areas/perth-amboy-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -3643,6 +3734,7 @@
         "/service-areas/east-brunswick-nj/contents-restoration-pack-out/",
         "/service-areas/east-brunswick-nj/contents-restoration-storage/",
         "/service-areas/east-brunswick-nj/crawl-space-encapsulation/",
+        "/service-areas/east-brunswick-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -3700,6 +3792,7 @@
         "/service-areas/piscataway-nj/contents-restoration-pack-out/",
         "/service-areas/piscataway-nj/contents-restoration-storage/",
         "/service-areas/piscataway-nj/crawl-space-encapsulation/",
+        "/service-areas/piscataway-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -3757,6 +3850,7 @@
         "/service-areas/morristown-nj/contents-restoration-pack-out/",
         "/service-areas/morristown-nj/contents-restoration-storage/",
         "/service-areas/morristown-nj/crawl-space-encapsulation/",
+        "/service-areas/morristown-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -3814,6 +3908,7 @@
         "/service-areas/parsippany-nj/contents-restoration-pack-out/",
         "/service-areas/parsippany-nj/contents-restoration-storage/",
         "/service-areas/parsippany-nj/crawl-space-encapsulation/",
+        "/service-areas/parsippany-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -3871,6 +3966,7 @@
         "/service-areas/somerville-nj/contents-restoration-pack-out/",
         "/service-areas/somerville-nj/contents-restoration-storage/",
         "/service-areas/somerville-nj/crawl-space-encapsulation/",
+        "/service-areas/somerville-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -3928,6 +4024,7 @@
         "/service-areas/bridgewater-nj/contents-restoration-pack-out/",
         "/service-areas/bridgewater-nj/contents-restoration-storage/",
         "/service-areas/bridgewater-nj/crawl-space-encapsulation/",
+        "/service-areas/bridgewater-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -3985,6 +4082,7 @@
         "/service-areas/paterson-nj/contents-restoration-pack-out/",
         "/service-areas/paterson-nj/contents-restoration-storage/",
         "/service-areas/paterson-nj/crawl-space-encapsulation/",
+        "/service-areas/paterson-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -4042,6 +4140,7 @@
         "/service-areas/clifton-nj/contents-restoration-pack-out/",
         "/service-areas/clifton-nj/contents-restoration-storage/",
         "/service-areas/clifton-nj/crawl-space-encapsulation/",
+        "/service-areas/clifton-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -4099,6 +4198,7 @@
         "/service-areas/wayne-nj/contents-restoration-pack-out/",
         "/service-areas/wayne-nj/contents-restoration-storage/",
         "/service-areas/wayne-nj/crawl-space-encapsulation/",
+        "/service-areas/wayne-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -4156,6 +4256,7 @@
         "/service-areas/passaic-nj/contents-restoration-pack-out/",
         "/service-areas/passaic-nj/contents-restoration-storage/",
         "/service-areas/passaic-nj/crawl-space-encapsulation/",
+        "/service-areas/passaic-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -4213,6 +4314,7 @@
         "/service-areas/hoboken-nj/contents-restoration-pack-out/",
         "/service-areas/hoboken-nj/contents-restoration-storage/",
         "/service-areas/hoboken-nj/crawl-space-encapsulation/",
+        "/service-areas/hoboken-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -4270,6 +4372,7 @@
         "/service-areas/bayonne-nj/contents-restoration-pack-out/",
         "/service-areas/bayonne-nj/contents-restoration-storage/",
         "/service-areas/bayonne-nj/crawl-space-encapsulation/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bloomfield-nj/",
         "/service-areas/bridgewater-nj/"
@@ -4327,6 +4430,7 @@
         "/service-areas/north-bergen-nj/contents-restoration-pack-out/",
         "/service-areas/north-bergen-nj/contents-restoration-storage/",
         "/service-areas/north-bergen-nj/crawl-space-encapsulation/",
+        "/service-areas/north-bergen-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -4384,6 +4488,7 @@
         "/service-areas/mountainside-nj/contents-restoration-pack-out/",
         "/service-areas/mountainside-nj/contents-restoration-storage/",
         "/service-areas/mountainside-nj/crawl-space-encapsulation/",
+        "/service-areas/mountainside-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -4441,6 +4546,7 @@
         "/service-areas/short-hills-nj/contents-restoration-pack-out/",
         "/service-areas/short-hills-nj/contents-restoration-storage/",
         "/service-areas/short-hills-nj/crawl-space-encapsulation/",
+        "/service-areas/short-hills-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -4498,6 +4604,7 @@
         "/service-areas/colonia-nj/contents-restoration-pack-out/",
         "/service-areas/colonia-nj/contents-restoration-storage/",
         "/service-areas/colonia-nj/crawl-space-encapsulation/",
+        "/service-areas/colonia-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -4555,6 +4662,7 @@
         "/service-areas/new-providence-nj/contents-restoration-pack-out/",
         "/service-areas/new-providence-nj/contents-restoration-storage/",
         "/service-areas/new-providence-nj/crawl-space-encapsulation/",
+        "/service-areas/new-providence-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -4612,6 +4720,7 @@
         "/service-areas/avenel-nj/contents-restoration-pack-out/",
         "/service-areas/avenel-nj/contents-restoration-storage/",
         "/service-areas/avenel-nj/crawl-space-encapsulation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/",
         "/service-areas/bridgewater-nj/"
@@ -4669,6 +4778,7 @@
         "/service-areas/chatham-nj/contents-restoration-pack-out/",
         "/service-areas/chatham-nj/contents-restoration-storage/",
         "/service-areas/chatham-nj/crawl-space-encapsulation/",
+        "/service-areas/chatham-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -4726,6 +4836,7 @@
         "/service-areas/watchung-nj/contents-restoration-pack-out/",
         "/service-areas/watchung-nj/contents-restoration-storage/",
         "/service-areas/watchung-nj/crawl-space-encapsulation/",
+        "/service-areas/watchung-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -4783,6 +4894,7 @@
         "/service-areas/carteret-nj/contents-restoration-pack-out/",
         "/service-areas/carteret-nj/contents-restoration-storage/",
         "/service-areas/carteret-nj/crawl-space-encapsulation/",
+        "/service-areas/carteret-nj/vandalism-cleanup/",
         "/service-areas/avenel-nj/",
         "/service-areas/bayonne-nj/",
         "/service-areas/bloomfield-nj/"
@@ -5553,6 +5665,50 @@
         "/service-areas/union-nj/mold-remediation/",
         "/service-areas/avenel-nj/storm-damage-restoration/",
         "/service-areas/bayonne-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/union-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Union, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Union",
+      "meta_description": "24/7 vandalism cleanup in Union, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup union",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/union-nj/",
+        "/service-areas/union-nj/fire-damage-restoration/",
+        "/service-areas/union-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -6414,6 +6570,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/elizabeth-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Elizabeth, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Elizabeth",
+      "meta_description": "24/7 vandalism cleanup in Elizabeth, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup elizabeth",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/elizabeth-nj/",
+        "/service-areas/elizabeth-nj/fire-damage-restoration/",
+        "/service-areas/elizabeth-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/elizabeth-nj/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7267,6 +7467,50 @@
         "/service-areas/westfield-nj/mold-remediation/",
         "/service-areas/avenel-nj/storm-damage-restoration/",
         "/service-areas/bayonne-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/westfield-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Westfield, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Westfield",
+      "meta_description": "24/7 vandalism cleanup in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup westfield",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/westfield-nj/",
+        "/service-areas/westfield-nj/fire-damage-restoration/",
+        "/service-areas/westfield-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -8128,6 +8372,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/cranford-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Cranford, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Cranford",
+      "meta_description": "24/7 vandalism cleanup in Cranford, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup cranford",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/cranford-nj/",
+        "/service-areas/cranford-nj/fire-damage-restoration/",
+        "/service-areas/cranford-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/cranford-nj/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8981,6 +9269,50 @@
         "/service-areas/springfield-nj/mold-remediation/",
         "/service-areas/avenel-nj/storm-damage-restoration/",
         "/service-areas/bayonne-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/springfield-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Springfield, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Springfield",
+      "meta_description": "24/7 vandalism cleanup in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup springfield",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/springfield-nj/",
+        "/service-areas/springfield-nj/fire-damage-restoration/",
+        "/service-areas/springfield-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -9842,6 +10174,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/summit-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Summit, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Summit",
+      "meta_description": "24/7 vandalism cleanup in Summit, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup summit",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/summit-nj/",
+        "/service-areas/summit-nj/fire-damage-restoration/",
+        "/service-areas/summit-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/summit-nj/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10695,6 +11071,50 @@
         "/service-areas/newark-nj/mold-remediation/",
         "/service-areas/avenel-nj/storm-damage-restoration/",
         "/service-areas/bayonne-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/newark-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Newark, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Newark",
+      "meta_description": "24/7 vandalism cleanup in Newark, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup newark",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/newark-nj/",
+        "/service-areas/newark-nj/fire-damage-restoration/",
+        "/service-areas/newark-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -11556,6 +11976,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/jersey-city-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Jersey City, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Jersey City",
+      "meta_description": "24/7 vandalism cleanup in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup jersey city",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/jersey-city-nj/",
+        "/service-areas/jersey-city-nj/fire-damage-restoration/",
+        "/service-areas/jersey-city-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/jersey-city-nj/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12409,6 +12873,50 @@
         "/service-areas/brooklyn-ny/mold-remediation/",
         "/service-areas/avenel-nj/storm-damage-restoration/",
         "/service-areas/bayonne-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/brooklyn-ny/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Brooklyn, NY | The Restoration Group",
+      "h1": "Vandalism Cleanup in Brooklyn",
+      "meta_description": "24/7 vandalism cleanup in Brooklyn, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup brooklyn",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/brooklyn-ny/",
+        "/service-areas/brooklyn-ny/fire-damage-restoration/",
+        "/service-areas/brooklyn-ny/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -13270,6 +13778,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/manhattan-ny/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Manhattan, NY | The Restoration Group",
+      "h1": "Vandalism Cleanup in Manhattan",
+      "meta_description": "24/7 vandalism cleanup in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup manhattan",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/manhattan-ny/",
+        "/service-areas/manhattan-ny/fire-damage-restoration/",
+        "/service-areas/manhattan-ny/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/manhattan-ny/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -14123,6 +14675,50 @@
         "/service-areas/fair-lawn-nj/mold-remediation/",
         "/service-areas/avenel-nj/storm-damage-restoration/",
         "/service-areas/bayonne-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fair-lawn-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Fair Lawn, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Fair Lawn",
+      "meta_description": "24/7 vandalism cleanup in Fair Lawn, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup fair lawn",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/fair-lawn-nj/",
+        "/service-areas/fair-lawn-nj/fire-damage-restoration/",
+        "/service-areas/fair-lawn-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -14984,6 +15580,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/highland-park-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Highland Park, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Highland Park",
+      "meta_description": "24/7 vandalism cleanup in Highland Park, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup highland park",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/highland-park-nj/",
+        "/service-areas/highland-park-nj/fire-damage-restoration/",
+        "/service-areas/highland-park-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/highland-park-nj/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -15837,6 +16477,50 @@
         "/service-areas/staten-island-ny/mold-remediation/",
         "/service-areas/avenel-nj/storm-damage-restoration/",
         "/service-areas/bayonne-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/staten-island-ny/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Staten Island, NY | The Restoration Group",
+      "h1": "Vandalism Cleanup in Staten Island",
+      "meta_description": "24/7 vandalism cleanup in Staten Island, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup staten island",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/staten-island-ny/",
+        "/service-areas/staten-island-ny/fire-damage-restoration/",
+        "/service-areas/staten-island-ny/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -16698,6 +17382,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/linden-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Linden, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Linden",
+      "meta_description": "24/7 vandalism cleanup in Linden, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup linden",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/linden-nj/",
+        "/service-areas/linden-nj/fire-damage-restoration/",
+        "/service-areas/linden-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/linden-nj/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -17551,6 +18279,50 @@
         "/service-areas/rahway-nj/mold-remediation/",
         "/service-areas/avenel-nj/storm-damage-restoration/",
         "/service-areas/bayonne-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rahway-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Rahway, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Rahway",
+      "meta_description": "24/7 vandalism cleanup in Rahway, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup rahway",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/rahway-nj/",
+        "/service-areas/rahway-nj/fire-damage-restoration/",
+        "/service-areas/rahway-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -18412,6 +19184,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/plainfield-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Plainfield, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Plainfield",
+      "meta_description": "24/7 vandalism cleanup in Plainfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup plainfield",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/plainfield-nj/",
+        "/service-areas/plainfield-nj/fire-damage-restoration/",
+        "/service-areas/plainfield-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/plainfield-nj/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -19265,6 +20081,50 @@
         "/service-areas/scotch-plains-nj/mold-remediation/",
         "/service-areas/avenel-nj/storm-damage-restoration/",
         "/service-areas/bayonne-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/scotch-plains-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Scotch Plains, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Scotch Plains",
+      "meta_description": "24/7 vandalism cleanup in Scotch Plains, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup scotch plains",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/scotch-plains-nj/",
+        "/service-areas/scotch-plains-nj/fire-damage-restoration/",
+        "/service-areas/scotch-plains-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -20126,6 +20986,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/clark-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Clark, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Clark",
+      "meta_description": "24/7 vandalism cleanup in Clark, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup clark",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/clark-nj/",
+        "/service-areas/clark-nj/fire-damage-restoration/",
+        "/service-areas/clark-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/clark-nj/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -20979,6 +21883,50 @@
         "/service-areas/roselle-nj/mold-remediation/",
         "/service-areas/avenel-nj/storm-damage-restoration/",
         "/service-areas/bayonne-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/roselle-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Roselle, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Roselle",
+      "meta_description": "24/7 vandalism cleanup in Roselle, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup roselle",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/roselle-nj/",
+        "/service-areas/roselle-nj/fire-damage-restoration/",
+        "/service-areas/roselle-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -21840,6 +22788,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/hillside-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Hillside, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Hillside",
+      "meta_description": "24/7 vandalism cleanup in Hillside, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup hillside",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/hillside-nj/",
+        "/service-areas/hillside-nj/fire-damage-restoration/",
+        "/service-areas/hillside-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/hillside-nj/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -22693,6 +23685,50 @@
         "/service-areas/east-orange-nj/mold-remediation/",
         "/service-areas/avenel-nj/storm-damage-restoration/",
         "/service-areas/bayonne-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-orange-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in East Orange, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in East Orange",
+      "meta_description": "24/7 vandalism cleanup in East Orange, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup east orange",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/east-orange-nj/",
+        "/service-areas/east-orange-nj/fire-damage-restoration/",
+        "/service-areas/east-orange-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -23554,6 +24590,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/west-orange-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in West Orange, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in West Orange",
+      "meta_description": "24/7 vandalism cleanup in West Orange, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup west orange",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/west-orange-nj/",
+        "/service-areas/west-orange-nj/fire-damage-restoration/",
+        "/service-areas/west-orange-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/west-orange-nj/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -24407,6 +25487,50 @@
         "/service-areas/montclair-nj/mold-remediation/",
         "/service-areas/avenel-nj/storm-damage-restoration/",
         "/service-areas/bayonne-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/montclair-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Montclair, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Montclair",
+      "meta_description": "24/7 vandalism cleanup in Montclair, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup montclair",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/montclair-nj/",
+        "/service-areas/montclair-nj/fire-damage-restoration/",
+        "/service-areas/montclair-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -25268,6 +26392,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/bloomfield-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Bloomfield, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Bloomfield",
+      "meta_description": "24/7 vandalism cleanup in Bloomfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup bloomfield",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/bloomfield-nj/",
+        "/service-areas/bloomfield-nj/fire-damage-restoration/",
+        "/service-areas/bloomfield-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/bloomfield-nj/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -26121,6 +27289,50 @@
         "/service-areas/livingston-nj/mold-remediation/",
         "/service-areas/avenel-nj/storm-damage-restoration/",
         "/service-areas/bayonne-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/livingston-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Livingston, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Livingston",
+      "meta_description": "24/7 vandalism cleanup in Livingston, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup livingston",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/livingston-nj/",
+        "/service-areas/livingston-nj/fire-damage-restoration/",
+        "/service-areas/livingston-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -26982,6 +28194,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/irvington-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Irvington, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Irvington",
+      "meta_description": "24/7 vandalism cleanup in Irvington, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup irvington",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/irvington-nj/",
+        "/service-areas/irvington-nj/fire-damage-restoration/",
+        "/service-areas/irvington-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/irvington-nj/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -27835,6 +29091,50 @@
         "/service-areas/maplewood-nj/mold-remediation/",
         "/service-areas/avenel-nj/storm-damage-restoration/",
         "/service-areas/bayonne-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/maplewood-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Maplewood, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Maplewood",
+      "meta_description": "24/7 vandalism cleanup in Maplewood, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup maplewood",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/maplewood-nj/",
+        "/service-areas/maplewood-nj/fire-damage-restoration/",
+        "/service-areas/maplewood-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -28696,6 +29996,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/millburn-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Millburn, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Millburn",
+      "meta_description": "24/7 vandalism cleanup in Millburn, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup millburn",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/millburn-nj/",
+        "/service-areas/millburn-nj/fire-damage-restoration/",
+        "/service-areas/millburn-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/millburn-nj/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -29549,6 +30893,50 @@
         "/service-areas/hackensack-nj/mold-remediation/",
         "/service-areas/avenel-nj/storm-damage-restoration/",
         "/service-areas/bayonne-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hackensack-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Hackensack, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Hackensack",
+      "meta_description": "24/7 vandalism cleanup in Hackensack, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup hackensack",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/hackensack-nj/",
+        "/service-areas/hackensack-nj/fire-damage-restoration/",
+        "/service-areas/hackensack-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -30410,6 +31798,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/paramus-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Paramus, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Paramus",
+      "meta_description": "24/7 vandalism cleanup in Paramus, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup paramus",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/paramus-nj/",
+        "/service-areas/paramus-nj/fire-damage-restoration/",
+        "/service-areas/paramus-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/paramus-nj/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -31263,6 +32695,50 @@
         "/service-areas/fort-lee-nj/mold-remediation/",
         "/service-areas/avenel-nj/storm-damage-restoration/",
         "/service-areas/bayonne-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fort-lee-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Fort Lee, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Fort Lee",
+      "meta_description": "24/7 vandalism cleanup in Fort Lee, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup fort lee",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/fort-lee-nj/",
+        "/service-areas/fort-lee-nj/fire-damage-restoration/",
+        "/service-areas/fort-lee-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -32124,6 +33600,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/teaneck-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Teaneck, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Teaneck",
+      "meta_description": "24/7 vandalism cleanup in Teaneck, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup teaneck",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/teaneck-nj/",
+        "/service-areas/teaneck-nj/fire-damage-restoration/",
+        "/service-areas/teaneck-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/teaneck-nj/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -32977,6 +34497,50 @@
         "/service-areas/ridgewood-nj/mold-remediation/",
         "/service-areas/avenel-nj/storm-damage-restoration/",
         "/service-areas/bayonne-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ridgewood-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Ridgewood, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Ridgewood",
+      "meta_description": "24/7 vandalism cleanup in Ridgewood, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup ridgewood",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/ridgewood-nj/",
+        "/service-areas/ridgewood-nj/fire-damage-restoration/",
+        "/service-areas/ridgewood-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -33838,6 +35402,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/englewood-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Englewood, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Englewood",
+      "meta_description": "24/7 vandalism cleanup in Englewood, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup englewood",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/englewood-nj/",
+        "/service-areas/englewood-nj/fire-damage-restoration/",
+        "/service-areas/englewood-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/englewood-nj/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -34691,6 +36299,50 @@
         "/service-areas/garfield-nj/mold-remediation/",
         "/service-areas/avenel-nj/storm-damage-restoration/",
         "/service-areas/bayonne-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/garfield-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Garfield, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Garfield",
+      "meta_description": "24/7 vandalism cleanup in Garfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup garfield",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/garfield-nj/",
+        "/service-areas/garfield-nj/fire-damage-restoration/",
+        "/service-areas/garfield-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -35552,6 +37204,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/new-brunswick-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in New Brunswick, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in New Brunswick",
+      "meta_description": "24/7 vandalism cleanup in New Brunswick, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup new brunswick",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/new-brunswick-nj/",
+        "/service-areas/new-brunswick-nj/fire-damage-restoration/",
+        "/service-areas/new-brunswick-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/new-brunswick-nj/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -36405,6 +38101,50 @@
         "/service-areas/edison-nj/mold-remediation/",
         "/service-areas/avenel-nj/storm-damage-restoration/",
         "/service-areas/bayonne-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/edison-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Edison, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Edison",
+      "meta_description": "24/7 vandalism cleanup in Edison, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup edison",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/edison-nj/",
+        "/service-areas/edison-nj/fire-damage-restoration/",
+        "/service-areas/edison-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -37266,6 +39006,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/woodbridge-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Woodbridge, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Woodbridge",
+      "meta_description": "24/7 vandalism cleanup in Woodbridge, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup woodbridge",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/woodbridge-nj/",
+        "/service-areas/woodbridge-nj/fire-damage-restoration/",
+        "/service-areas/woodbridge-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/woodbridge-nj/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -38119,6 +39903,50 @@
         "/service-areas/perth-amboy-nj/mold-remediation/",
         "/service-areas/avenel-nj/storm-damage-restoration/",
         "/service-areas/bayonne-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/perth-amboy-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Perth Amboy, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Perth Amboy",
+      "meta_description": "24/7 vandalism cleanup in Perth Amboy, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup perth amboy",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/perth-amboy-nj/",
+        "/service-areas/perth-amboy-nj/fire-damage-restoration/",
+        "/service-areas/perth-amboy-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -38980,6 +40808,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/east-brunswick-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in East Brunswick, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in East Brunswick",
+      "meta_description": "24/7 vandalism cleanup in East Brunswick, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup east brunswick",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/east-brunswick-nj/",
+        "/service-areas/east-brunswick-nj/fire-damage-restoration/",
+        "/service-areas/east-brunswick-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/east-brunswick-nj/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -39833,6 +41705,50 @@
         "/service-areas/piscataway-nj/mold-remediation/",
         "/service-areas/avenel-nj/storm-damage-restoration/",
         "/service-areas/bayonne-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/piscataway-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Piscataway, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Piscataway",
+      "meta_description": "24/7 vandalism cleanup in Piscataway, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup piscataway",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/piscataway-nj/",
+        "/service-areas/piscataway-nj/fire-damage-restoration/",
+        "/service-areas/piscataway-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -40694,6 +42610,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/morristown-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Morristown, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Morristown",
+      "meta_description": "24/7 vandalism cleanup in Morristown, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup morristown",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/morristown-nj/",
+        "/service-areas/morristown-nj/fire-damage-restoration/",
+        "/service-areas/morristown-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/morristown-nj/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -41547,6 +43507,50 @@
         "/service-areas/parsippany-nj/mold-remediation/",
         "/service-areas/avenel-nj/storm-damage-restoration/",
         "/service-areas/bayonne-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/parsippany-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Parsippany, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Parsippany",
+      "meta_description": "24/7 vandalism cleanup in Parsippany, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup parsippany",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/parsippany-nj/",
+        "/service-areas/parsippany-nj/fire-damage-restoration/",
+        "/service-areas/parsippany-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -42408,6 +44412,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/somerville-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Somerville, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Somerville",
+      "meta_description": "24/7 vandalism cleanup in Somerville, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup somerville",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/somerville-nj/",
+        "/service-areas/somerville-nj/fire-damage-restoration/",
+        "/service-areas/somerville-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/somerville-nj/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -43261,6 +45309,50 @@
         "/service-areas/bridgewater-nj/mold-remediation/",
         "/service-areas/avenel-nj/storm-damage-restoration/",
         "/service-areas/bayonne-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bridgewater-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Bridgewater, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Bridgewater",
+      "meta_description": "24/7 vandalism cleanup in Bridgewater, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup bridgewater",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/bridgewater-nj/",
+        "/service-areas/bridgewater-nj/fire-damage-restoration/",
+        "/service-areas/bridgewater-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -44122,6 +46214,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/paterson-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Paterson, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Paterson",
+      "meta_description": "24/7 vandalism cleanup in Paterson, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup paterson",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/paterson-nj/",
+        "/service-areas/paterson-nj/fire-damage-restoration/",
+        "/service-areas/paterson-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/paterson-nj/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -44975,6 +47111,50 @@
         "/service-areas/clifton-nj/mold-remediation/",
         "/service-areas/avenel-nj/storm-damage-restoration/",
         "/service-areas/bayonne-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/clifton-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Clifton, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Clifton",
+      "meta_description": "24/7 vandalism cleanup in Clifton, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup clifton",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/clifton-nj/",
+        "/service-areas/clifton-nj/fire-damage-restoration/",
+        "/service-areas/clifton-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -45836,6 +48016,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/wayne-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Wayne, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Wayne",
+      "meta_description": "24/7 vandalism cleanup in Wayne, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup wayne",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/wayne-nj/",
+        "/service-areas/wayne-nj/fire-damage-restoration/",
+        "/service-areas/wayne-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/wayne-nj/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -46689,6 +48913,50 @@
         "/service-areas/passaic-nj/mold-remediation/",
         "/service-areas/avenel-nj/storm-damage-restoration/",
         "/service-areas/bayonne-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/passaic-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Passaic, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Passaic",
+      "meta_description": "24/7 vandalism cleanup in Passaic, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup passaic",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/passaic-nj/",
+        "/service-areas/passaic-nj/fire-damage-restoration/",
+        "/service-areas/passaic-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -47550,6 +49818,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/hoboken-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Hoboken, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Hoboken",
+      "meta_description": "24/7 vandalism cleanup in Hoboken, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup hoboken",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/hoboken-nj/",
+        "/service-areas/hoboken-nj/fire-damage-restoration/",
+        "/service-areas/hoboken-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/hoboken-nj/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -48403,6 +50715,50 @@
         "/service-areas/bayonne-nj/mold-remediation/",
         "/service-areas/avenel-nj/storm-damage-restoration/",
         "/service-areas/bloomfield-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bayonne-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Bayonne, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Bayonne",
+      "meta_description": "24/7 vandalism cleanup in Bayonne, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup bayonne",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/",
+        "/service-areas/bayonne-nj/fire-damage-restoration/",
+        "/service-areas/bayonne-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bloomfield-nj/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -49264,6 +51620,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/north-bergen-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in North Bergen, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in North Bergen",
+      "meta_description": "24/7 vandalism cleanup in North Bergen, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup north bergen",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/north-bergen-nj/",
+        "/service-areas/north-bergen-nj/fire-damage-restoration/",
+        "/service-areas/north-bergen-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/north-bergen-nj/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -50117,6 +52517,50 @@
         "/service-areas/mountainside-nj/mold-remediation/",
         "/service-areas/avenel-nj/storm-damage-restoration/",
         "/service-areas/bayonne-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mountainside-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Mountainside, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Mountainside",
+      "meta_description": "24/7 vandalism cleanup in Mountainside, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup mountainside",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/mountainside-nj/",
+        "/service-areas/mountainside-nj/fire-damage-restoration/",
+        "/service-areas/mountainside-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -50978,6 +53422,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/short-hills-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Short Hills, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Short Hills",
+      "meta_description": "24/7 vandalism cleanup in Short Hills, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup short hills",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/short-hills-nj/",
+        "/service-areas/short-hills-nj/fire-damage-restoration/",
+        "/service-areas/short-hills-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/short-hills-nj/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -51831,6 +54319,50 @@
         "/service-areas/colonia-nj/mold-remediation/",
         "/service-areas/avenel-nj/storm-damage-restoration/",
         "/service-areas/bayonne-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/colonia-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Colonia, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Colonia",
+      "meta_description": "24/7 vandalism cleanup in Colonia, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup colonia",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/colonia-nj/",
+        "/service-areas/colonia-nj/fire-damage-restoration/",
+        "/service-areas/colonia-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -52692,6 +55224,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/new-providence-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in New Providence, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in New Providence",
+      "meta_description": "24/7 vandalism cleanup in New Providence, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup new providence",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/new-providence-nj/",
+        "/service-areas/new-providence-nj/fire-damage-restoration/",
+        "/service-areas/new-providence-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/new-providence-nj/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -53545,6 +56121,50 @@
         "/service-areas/avenel-nj/mold-remediation/",
         "/service-areas/bayonne-nj/storm-damage-restoration/",
         "/service-areas/bloomfield-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/avenel-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Avenel, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Avenel",
+      "meta_description": "24/7 vandalism cleanup in Avenel, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup avenel",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/avenel-nj/",
+        "/service-areas/avenel-nj/fire-damage-restoration/",
+        "/service-areas/avenel-nj/mold-remediation/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/service-areas/bloomfield-nj/vandalism-cleanup/",
         "/contact/"
       ]
     },
@@ -54406,6 +57026,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/chatham-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Chatham, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Chatham",
+      "meta_description": "24/7 vandalism cleanup in Chatham, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup chatham",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/chatham-nj/",
+        "/service-areas/chatham-nj/fire-damage-restoration/",
+        "/service-areas/chatham-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/chatham-nj/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -55263,6 +57927,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/watchung-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Watchung, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Watchung",
+      "meta_description": "24/7 vandalism cleanup in Watchung, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup watchung",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/watchung-nj/",
+        "/service-areas/watchung-nj/fire-damage-restoration/",
+        "/service-areas/watchung-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/watchung-nj/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -56116,6 +58824,50 @@
         "/service-areas/carteret-nj/mold-remediation/",
         "/service-areas/avenel-nj/storm-damage-restoration/",
         "/service-areas/bayonne-nj/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/carteret-nj/vandalism-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Vandalism Cleanup in Carteret, NJ | The Restoration Group",
+      "h1": "Vandalism Cleanup in Carteret",
+      "meta_description": "24/7 vandalism cleanup in Carteret, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
+      "primary_keyword": "vandalism cleanup carteret",
+      "secondary_keywords": [
+        "vandalism cleanup",
+        "graffiti removal",
+        "post-vandalism restoration",
+        "vandalism damage repair",
+        "broken glass cleanup"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/vandalism-cleanup/",
+        "/service-areas/carteret-nj/",
+        "/service-areas/carteret-nj/fire-damage-restoration/",
+        "/service-areas/carteret-nj/mold-remediation/",
+        "/service-areas/avenel-nj/vandalism-cleanup/",
+        "/service-areas/bayonne-nj/vandalism-cleanup/",
         "/contact/"
       ]
     },

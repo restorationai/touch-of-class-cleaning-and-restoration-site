@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "a468fc23162c7101"
-generated_at: "2026-09-23T14:12:06.544112+00:00"
+generated_at: "2026-09-24T23:22:03.576273+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/mountainside-nj/", "/service-areas/mountainside-nj/fire-damage-restoration/", "/service-areas/mountainside-nj/mold-remediation/", "/service-areas/avenel-nj/commercial-restoration/", "/service-areas/bayonne-nj/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mountainside", "url": "/service-areas/mountainside-nj/"}, {"name": "Commercial Restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "122c7718c39d03df"
-generated_at: "2026-09-23T14:12:06.481837+00:00"
+generated_at: "2026-09-24T23:22:03.501575+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration-storage/", "/service-areas/staten-island-ny/", "/service-areas/staten-island-ny/fire-damage-restoration/", "/service-areas/staten-island-ny/mold-remediation/", "/service-areas/avenel-nj/contents-restoration-storage/", "/service-areas/bayonne-nj/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Staten Island", "url": "/service-areas/staten-island-ny/"}, {"name": "Contents Restoration & Storage"}]

@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "c57c799742b1e3ee"
-generated_at: "2026-09-23T14:12:06.521698+00:00"
+generated_at: "2026-09-24T23:22:03.550111+00:00"
 manual_override: false
 internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/perth-amboy-nj/", "/service-areas/perth-amboy-nj/fire-damage-restoration/", "/service-areas/perth-amboy-nj/mold-remediation/", "/service-areas/avenel-nj/crawl-space-encapsulation/", "/service-areas/bayonne-nj/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Perth Amboy", "url": "/service-areas/perth-amboy-nj/"}, {"name": "Crawl Space Encapsulation"}]

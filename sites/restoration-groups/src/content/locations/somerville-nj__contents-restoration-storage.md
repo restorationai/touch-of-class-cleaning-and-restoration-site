@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "9d9eeac80aefc2cf"
-generated_at: "2026-09-23T14:12:06.529160+00:00"
+generated_at: "2026-09-24T23:22:03.558994+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration-storage/", "/service-areas/somerville-nj/", "/service-areas/somerville-nj/fire-damage-restoration/", "/service-areas/somerville-nj/mold-remediation/", "/service-areas/avenel-nj/contents-restoration-storage/", "/service-areas/bayonne-nj/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Somerville", "url": "/service-areas/somerville-nj/"}, {"name": "Contents Restoration & Storage"}]

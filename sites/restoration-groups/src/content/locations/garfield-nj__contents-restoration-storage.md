@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "186ebfcb3d3867be"
-generated_at: "2026-09-23T14:12:06.515335+00:00"
+generated_at: "2026-09-24T23:22:03.542206+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration-storage/", "/service-areas/garfield-nj/", "/service-areas/garfield-nj/fire-damage-restoration/", "/service-areas/garfield-nj/mold-remediation/", "/service-areas/avenel-nj/contents-restoration-storage/", "/service-areas/bayonne-nj/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Garfield", "url": "/service-areas/garfield-nj/"}, {"name": "Contents Restoration & Storage"}]

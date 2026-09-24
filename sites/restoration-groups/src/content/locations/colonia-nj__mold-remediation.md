@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "02fb78d54321e0d4"
-generated_at: "2026-09-23T14:12:06.558757+00:00"
+generated_at: "2026-09-24T23:22:03.597373+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/colonia-nj/", "/service-areas/colonia-nj/fire-damage-restoration/", "/service-areas/colonia-nj/water-damage-restoration/", "/service-areas/avenel-nj/mold-remediation/", "/service-areas/bayonne-nj/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Colonia", "url": "/service-areas/colonia-nj/"}, {"name": "Mold Remediation"}]

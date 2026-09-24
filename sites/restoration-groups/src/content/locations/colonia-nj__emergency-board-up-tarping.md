@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "1b3d7c34db56db8e"
-generated_at: "2026-09-23T14:12:06.557494+00:00"
+generated_at: "2026-09-24T23:22:03.596176+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/colonia-nj/", "/service-areas/colonia-nj/fire-damage-restoration/", "/service-areas/colonia-nj/mold-remediation/", "/service-areas/avenel-nj/emergency-board-up-tarping/", "/service-areas/bayonne-nj/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Colonia", "url": "/service-areas/colonia-nj/"}, {"name": "Emergency Board-Up and Tarping"}]

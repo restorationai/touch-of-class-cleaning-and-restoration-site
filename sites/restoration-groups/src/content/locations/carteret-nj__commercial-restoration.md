@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "965431e3b42b2558"
-generated_at: "2026-09-23T14:12:06.589032+00:00"
+generated_at: "2026-09-24T23:22:03.625697+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/carteret-nj/", "/service-areas/carteret-nj/fire-damage-restoration/", "/service-areas/carteret-nj/mold-remediation/", "/service-areas/avenel-nj/commercial-restoration/", "/service-areas/bayonne-nj/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Carteret", "url": "/service-areas/carteret-nj/"}, {"name": "Commercial Restoration"}]

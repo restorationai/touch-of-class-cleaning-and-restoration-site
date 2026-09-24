@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "5f924b606a9024a2"
-generated_at: "2026-09-23T14:12:06.556502+00:00"
+generated_at: "2026-09-24T23:22:03.594955+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/colonia-nj/", "/service-areas/colonia-nj/fire-damage-restoration/", "/service-areas/colonia-nj/mold-remediation/", "/service-areas/avenel-nj/commercial-restoration/", "/service-areas/bayonne-nj/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Colonia", "url": "/service-areas/colonia-nj/"}, {"name": "Commercial Restoration"}]

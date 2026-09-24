@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "f7b28bb36a6503d8"
-generated_at: "2026-09-23T14:12:06.532374+00:00"
+generated_at: "2026-09-24T23:22:03.562958+00:00"
 manual_override: false
 internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/paterson-nj/", "/service-areas/paterson-nj/fire-damage-restoration/", "/service-areas/paterson-nj/mold-remediation/", "/service-areas/avenel-nj/crawl-space-encapsulation/", "/service-areas/bayonne-nj/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Paterson", "url": "/service-areas/paterson-nj/"}, {"name": "Crawl Space Encapsulation"}]

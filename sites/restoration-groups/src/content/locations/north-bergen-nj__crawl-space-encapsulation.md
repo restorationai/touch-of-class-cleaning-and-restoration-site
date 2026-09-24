@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "de1b8a5615f19bd5"
-generated_at: "2026-09-23T14:12:06.541530+00:00"
+generated_at: "2026-09-24T23:22:03.573589+00:00"
 manual_override: false
 internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/north-bergen-nj/", "/service-areas/north-bergen-nj/fire-damage-restoration/", "/service-areas/north-bergen-nj/mold-remediation/", "/service-areas/avenel-nj/crawl-space-encapsulation/", "/service-areas/bayonne-nj/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Bergen", "url": "/service-areas/north-bergen-nj/"}, {"name": "Crawl Space Encapsulation"}]

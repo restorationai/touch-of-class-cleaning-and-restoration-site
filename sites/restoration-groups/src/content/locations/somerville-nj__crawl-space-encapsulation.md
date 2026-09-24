@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "5f4e962ca25d665e"
-generated_at: "2026-09-23T14:12:06.529322+00:00"
+generated_at: "2026-09-24T23:22:03.559301+00:00"
 manual_override: false
 internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/somerville-nj/", "/service-areas/somerville-nj/fire-damage-restoration/", "/service-areas/somerville-nj/mold-remediation/", "/service-areas/avenel-nj/crawl-space-encapsulation/", "/service-areas/bayonne-nj/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Somerville", "url": "/service-areas/somerville-nj/"}, {"name": "Crawl Space Encapsulation"}]

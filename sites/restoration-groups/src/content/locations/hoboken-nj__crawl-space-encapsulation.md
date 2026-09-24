@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "89c57c9699826f46"
-generated_at: "2026-09-23T14:12:06.538516+00:00"
+generated_at: "2026-09-24T23:22:03.570064+00:00"
 manual_override: false
 internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/hoboken-nj/", "/service-areas/hoboken-nj/fire-damage-restoration/", "/service-areas/hoboken-nj/mold-remediation/", "/service-areas/avenel-nj/crawl-space-encapsulation/", "/service-areas/bayonne-nj/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hoboken", "url": "/service-areas/hoboken-nj/"}, {"name": "Crawl Space Encapsulation"}]

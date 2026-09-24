@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "323f9e077d6bf469"
-generated_at: "2026-09-23T14:12:06.574828+00:00"
+generated_at: "2026-09-24T23:22:03.613511+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/chatham-nj/", "/service-areas/chatham-nj/fire-damage-restoration/", "/service-areas/chatham-nj/mold-remediation/", "/service-areas/avenel-nj/commercial-restoration/", "/service-areas/bayonne-nj/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Chatham", "url": "/service-areas/chatham-nj/"}, {"name": "Commercial Restoration"}]

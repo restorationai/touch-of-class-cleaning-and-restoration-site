@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "ec159c23476c9432"
-generated_at: "2026-09-23T14:12:06.504928+00:00"
+generated_at: "2026-09-24T23:22:03.529850+00:00"
 manual_override: false
 internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/millburn-nj/", "/service-areas/millburn-nj/fire-damage-restoration/", "/service-areas/millburn-nj/mold-remediation/", "/service-areas/avenel-nj/crawl-space-encapsulation/", "/service-areas/bayonne-nj/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Millburn", "url": "/service-areas/millburn-nj/"}, {"name": "Crawl Space Encapsulation"}]
