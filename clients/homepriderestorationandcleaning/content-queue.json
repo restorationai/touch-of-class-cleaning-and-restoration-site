@@ -678,10 +678,10 @@
     },
     {
       "id": "2026-08-03-does-homeowners-insurance-cover-wind-damage",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-03T00:00:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-24T16:45:50Z",
+      "post_url": "https://homepriderestorationandcleaning.com/blog/does-homeowners-insurance-cover-wind-damage/",
       "primary_keyword": "does homeowners insurance cover wind damage",
       "intent": "informational",
       "volume": 170,
@@ -1012,6 +1012,197 @@
         "https://www.ready.gov/severe-weather"
       ],
       "notes": "Give ranges, not promises: tarping and board-up same day, structural drying three to five days, repairs measured in weeks and gated by the insurance approval. Note that the drying clock does not start until the roof or window breach is closed."
+    },
+    {
+      "id": "2026-09-24-what-damage-can-a-flood-cause-saratoga-springs",
+      "status": "queued",
+      "queued_at": "2026-09-24T16:45:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what damage can a flood cause",
+      "intent": "informational",
+      "volume": 320,
+      "kd": 26,
+      "fan_out_cluster": [
+        "flood damage to house",
+        "flood damage in basement",
+        "what damage does a flood cause",
+        "mold cleanup after flood",
+        "is flood water category 3",
+        "flood damage repair"
+      ],
+      "suggested_slug": "what-damage-can-a-flood-cause-saratoga-springs",
+      "suggested_title": "What damage can a flood cause to a Saratoga Springs home?",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/basement-flooding-cleanup/",
+        "/services/mold-remediation/",
+        "/services/sewage-cleanup/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "basement-flooding-cleanup",
+        "mold-remediation",
+        "sewage-cleanup"
+      ],
+      "city_anchor": "saratoga-springs-ut",
+      "external_authority_candidates": [
+        "https://www.epa.gov/emergencies-iaq/flooded-home",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Walk the damage layer by layer: drywall wicking, subfloor and hardwood cupping, insulation, electrical, HVAC ducts, contents, then mold at 24-48 hours. Tie to Utah flash flooding and snowmelt runoff. Utah search volume is seasonal (peaks spring)."
+    },
+    {
+      "id": "2026-09-24-basement-flood-cleanup-cost-lehi",
+      "status": "queued",
+      "queued_at": "2026-09-24T16:45:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "basement flood cleanup cost",
+      "intent": "commercial",
+      "volume": 210,
+      "kd": 0,
+      "fan_out_cluster": [
+        "cost of basement flood cleanup",
+        "flood cleanup cost",
+        "how much does flood cleanup cost",
+        "basement flood cleanup near me",
+        "does insurance pay for basement flood cleanup"
+      ],
+      "suggested_slug": "basement-flood-cleanup-cost-lehi",
+      "suggested_title": "Basement flood cleanup cost in Lehi, UT: what drives the price",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/lehi-ut/basement-flooding-cleanup/",
+        "/services/water-damage-restoration/",
+        "/services/sewage-cleanup/"
+      ],
+      "service_tags": [
+        "basement-flooding-cleanup",
+        "water-damage-restoration",
+        "sewage-cleanup"
+      ],
+      "city_anchor": "lehi-ut",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Give ranges by square footage and water category, not quotes. Separate extraction and drying from rebuild (drywall, carpet, pad). Clean water vs sewage backup changes the price most. CPC 31 confirms buyer intent."
+    },
+    {
+      "id": "2026-09-24-what-to-do-if-your-house-is-flooded-eagle-mountain",
+      "status": "queued",
+      "queued_at": "2026-09-24T16:45:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to do if your house is flooded",
+      "intent": "informational",
+      "volume": 110,
+      "kd": 16,
+      "fan_out_cluster": [
+        "house flooded what to do",
+        "my house is flooded what do i do",
+        "is it safe to stay in a flooded house",
+        "how to clean up after a flood",
+        "what to throw away after a flood",
+        "how to document flood damage for insurance"
+      ],
+      "suggested_slug": "what-to-do-if-your-house-is-flooded-eagle-mountain",
+      "suggested_title": "What to do if your house is flooded: a first-day guide for Eagle Mountain homeowners",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/service-areas/eagle-mountain-ut/water-damage-restoration/",
+        "/services/basement-flooding-cleanup/",
+        "/services/sewage-cleanup/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "basement-flooding-cleanup",
+        "sewage-cleanup"
+      ],
+      "city_anchor": "eagle-mountain-ut",
+      "external_authority_candidates": [
+        "https://www.floodsmart.gov/recover/checklist",
+        "https://beready.utah.gov/utah-hazards/flood/",
+        "https://www.epa.gov/emergencies-iaq/flooded-home"
+      ],
+      "notes": "Must differentiate from /blog/what-to-do-first-24-hours-water-damage/ (pipe leaks): this one is whole-house flooding, so lead with safety (power, gas, structural), treat water as contaminated, document before removal, and call insurers early. Link to the first-24-hours post. Order: safety, documentation, drying, repair."
+    },
+    {
+      "id": "2026-09-24-water-mitigation-cost-american-fork",
+      "status": "queued",
+      "queued_at": "2026-09-24T16:45:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water mitigation cost",
+      "intent": "commercial",
+      "volume": 110,
+      "kd": 0,
+      "fan_out_cluster": [
+        "water mitigation vs remediation",
+        "how much does water extraction cost",
+        "dehumidifier and air mover rental cost",
+        "who pays for flood cleanup",
+        "flood damage restoration cost"
+      ],
+      "suggested_slug": "water-mitigation-cost-american-fork",
+      "suggested_title": "Water mitigation cost in American Fork: what the dry-out phase really costs",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/service-areas/american-fork-ut/water-damage-restoration/",
+        "/services/water-cleanup/",
+        "/services/water-leak-detection/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "water-cleanup",
+        "water-leak-detection"
+      ],
+      "city_anchor": "american-fork-ut",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Scope is mitigation only (extraction, drying equipment, monitoring, demo of wet materials), not rebuild. Link to the published water damage restoration cost post for the full-job view and avoid repeating its numbers. CPC 64 is high."
+    },
+    {
+      "id": "2026-09-24-water-mitigation-vs-remediation-saratoga-springs",
+      "status": "queued",
+      "queued_at": "2026-09-24T16:45:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water mitigation vs remediation",
+      "intent": "informational",
+      "volume": 70,
+      "kd": 0,
+      "fan_out_cluster": [
+        "remediation vs mitigation",
+        "mitigation vs remediation vs restoration",
+        "what is water mitigation",
+        "what does water remediation include",
+        "water mitigation cost"
+      ],
+      "suggested_slug": "water-mitigation-vs-remediation-saratoga-springs",
+      "suggested_title": "Water mitigation vs remediation: what Saratoga Springs homeowners are actually paying for",
+      "target_word_count": 1200,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-cleanup/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation",
+        "water-cleanup"
+      ],
+      "city_anchor": "saratoga-springs-ut",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "Define the three phases plainly (mitigation stops the damage, remediation removes contamination such as mold or sewage, restoration rebuilds) and show how each shows up on an insurance estimate. Short definitions near the top for AI answer lift."
     }
   ]
 }
