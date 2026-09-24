@@ -58,7 +58,7 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.9",
-  gbpReviewCount: "604",
+  gbpReviewCount: "605",
   gbpReviews: [
     { author: "Gina", rating: 5, text: "The most respectful company I’ve had the pleasure to work with. Everyone i either spoke with, worked with in my home was considerate, polite, thourough and on time. The pricing was fair and the work seems like it will be complete in a fair amount of time. Alfonso was AMAZING!", when: "September 2026" },
     { author: "Michelle", rating: 5, text: "I always have a great experience with RT Olson plumbing and their technicians. Today Mike came out for a routine service, he showed up on time, was extremely knowledgeable and very pleasant. I will always recommend RT Olson to others as well.", when: "September 2026" },
