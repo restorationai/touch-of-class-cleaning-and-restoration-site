@@ -425,10 +425,10 @@
     },
     {
       "id": "2026-07-30-should-i-file-home-insurance-claim-water-damage",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-30T18:15:58Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-24T20:09:22Z",
+      "post_url": "https://therestorationgroup.com/blog/should-i-file-home-insurance-claim-water-damage/",
       "primary_keyword": "should i file a home insurance claim for water damage",
       "intent": "informational",
       "volume": 210,
@@ -723,6 +723,196 @@
         "https://www.iii.org/"
       ],
       "notes": "Cost transparency is the commercial-intent counterpart to the insurance guides and the water-damage cost post already queued, so keep the ranges structured the same way (small kitchen fire vs single room vs whole-structure, plus board-up, contents and reconstruction as separate lines). Say plainly that most of the bill goes through the insurer and that the deductible is usually the homeowner's real out-of-pocket. Use ranges only, never quote a fixed price."
+    },
+    {
+      "id": "2026-09-24-mold-remediation-cost-nj",
+      "status": "queued",
+      "queued_at": "2026-09-24T06:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "mold remediation cost",
+      "intent": "commercial",
+      "volume": 9900,
+      "kd": 3,
+      "fan_out_cluster": [
+        "how much does mold remediation cost",
+        "mold remediation cost per square foot",
+        "mold remediation cost basement",
+        "black mold removal cost",
+        "whole-house mold remediation cost",
+        "mold remediation cost nj"
+      ],
+      "suggested_slug": "mold-remediation-cost-nj",
+      "suggested_title": "Mold remediation cost in Kenilworth, NJ: what homeowners actually pay",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/mold-inspection-testing/",
+        "/services/crawl-space-encapsulation/",
+        "/blog/does-homeowners-insurance-cover-black-mold/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "mold-inspection-testing",
+        "crawl-space-encapsulation"
+      ],
+      "city_anchor": "kenilworth-nj",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-remediation-schools-and-commercial-buildings-guide-chapter-1",
+        "https://iicrc.org/s520/"
+      ],
+      "notes": "Highest-volume commercial term in the family (9,900/mo, KD 3) with no commercial page targeting cost. Structure ranges like the water and fire cost posts: small area under 10 sq ft (the EPA DIY threshold), single room or basement section, attic, crawl space, whole house, plus testing and rebuild as separate lines. Ranges only, never a fixed price. Absorb the per-square-foot, basement and black mold cost variants as H2s so they do not get separate posts later."
+    },
+    {
+      "id": "2026-09-24-mold-in-basement",
+      "status": "queued",
+      "queued_at": "2026-09-24T06:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "mold in basement",
+      "intent": "informational",
+      "volume": 1900,
+      "kd": 0,
+      "fan_out_cluster": [
+        "basement mold remediation",
+        "basement mold removal",
+        "mold remediation cost basement",
+        "what kills mold permanently",
+        "how to get rid of mold inside a wall"
+      ],
+      "suggested_slug": "mold-in-basement",
+      "suggested_title": "Mold in basement walls and floors: causes, risks and fixes for Cranford homes",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/basement-flooding-cleanup/",
+        "/services/water-damage-restoration/",
+        "/blog/signs-of-hidden-mold/",
+        "/blog/mold-after-water-damage/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "basement-flooding-cleanup",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "cranford-nj",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-remediation-schools-and-commercial-buildings-guide-chapter-1",
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
+      ],
+      "notes": "1,900/mo, KD 0. Anchor to Cranford: Rahway River flooding and older finished basements make this a real local story. Lead with the moisture source (per the ChatGPT decomposition, fixing moisture is step one), then the 10 sq ft DIY line, when finished drywall and carpet have to come out, and humidity below 60 percent afterward. Link to the basement flooding service and the existing hidden-mold post."
+    },
+    {
+      "id": "2026-09-24-how-long-does-mold-remediation-take",
+      "status": "queued",
+      "queued_at": "2026-09-24T06:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how long does mold remediation take",
+      "intent": "informational",
+      "volume": 720,
+      "kd": 0,
+      "fan_out_cluster": [
+        "can i stay in my house during mold remediation",
+        "how to prepare for mold remediation",
+        "what to expect during mold remediation",
+        "how long after mold remediation can i return home",
+        "does mold come back after remediation"
+      ],
+      "suggested_slug": "how-long-does-mold-remediation-take",
+      "suggested_title": "How long does mold remediation take? A day-by-day timeline for Union, NJ homes",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/mold-inspection-testing/",
+        "/blog/how-to-test-for-mold/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "mold-inspection-testing"
+      ],
+      "city_anchor": "union-nj",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-remediation-schools-and-commercial-buildings-guide-chapter-1",
+        "https://iicrc.org/s520/"
+      ],
+      "notes": "720/mo, KD 0, and a pure question-format term AI engines lift. Give the direct answer first (small jobs 1 to 3 days, larger contained jobs up to a week or more plus drying and clearance testing). Fold in the zero-volume ChatGPT questions (staying home during work, prep, returning after) as H2s; they are the passages answer engines quote."
+    },
+    {
+      "id": "2026-09-24-who-pays-for-mold-remediation",
+      "status": "queued",
+      "queued_at": "2026-09-24T06:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "who pays for mold remediation",
+      "intent": "informational",
+      "volume": 880,
+      "kd": 9,
+      "fan_out_cluster": [
+        "who pays for mold remediation landlord or tenant",
+        "does homeowners insurance cover mold remediation",
+        "is mold remediation worth it",
+        "mold remediation after water damage"
+      ],
+      "suggested_slug": "who-pays-for-mold-remediation",
+      "suggested_title": "Who pays for mold remediation in Elizabeth, NJ: insurance, landlords and tenants",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/blog/does-homeowners-insurance-cover-black-mold/",
+        "/blog/mold-after-water-damage/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "elizabeth-nj",
+      "external_authority_candidates": [
+        "https://www.iii.org/",
+        "https://www.nj.gov/dca/codes/offices/landlord_tenant_information.shtml"
+      ],
+      "notes": "880/mo, KD 9, decision-stage. Elizabeth has a high renter share, so cover landlord versus tenant responsibility alongside homeowners insurance (sudden-and-accidental versus long-term leak). Do not duplicate the published black mold insurance post: link to it for the policy detail and keep this post about who ends up with the bill. Informational only, no legal advice language."
+    },
+    {
+      "id": "2026-09-24-mold-remediation-process",
+      "status": "queued",
+      "queued_at": "2026-09-24T06:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "mold remediation process",
+      "intent": "informational",
+      "volume": 720,
+      "kd": 16,
+      "fan_out_cluster": [
+        "what is mold remediation",
+        "how is mold remediation done",
+        "when is mold remediation required",
+        "mold remediation vs mold removal",
+        "epa mold remediation guidelines",
+        "black mold remediation process"
+      ],
+      "suggested_slug": "mold-remediation-process",
+      "suggested_title": "The mold remediation process step by step: what happens in a Westfield home",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/mold-inspection-testing/",
+        "/blog/black-mold-vs-regular-mold/",
+        "/blog/signs-of-hidden-mold/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "mold-inspection-testing"
+      ],
+      "city_anchor": "westfield-nj",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-remediation-schools-and-commercial-buildings-guide-chapter-1",
+        "https://iicrc.org/s520/"
+      ],
+      "notes": "Combines 'mold remediation process' (720) with 'what is mold remediation' (1,000) and 'how is mold remediation done' (140) so they do not compete. Follow the ChatGPT decomposition order: find and fix moisture, assess, contain, remove porous materials, clean salvageable surfaces, dry to under 60 percent RH, verify with clearance testing. Cite IICRC S520 and the EPA guide. Westfield's older housing stock is the local hook."
     }
   ]
 }
