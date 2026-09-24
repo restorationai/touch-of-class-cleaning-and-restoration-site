@@ -298,6 +298,16 @@
     ],
     "missing_stubs": []
   },
+  "/services/vandalism-cleanup/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/services/water-cleanup/": {
     "archetype": "service-landing",
     "stubs": [
@@ -757,6 +767,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/oildale-ca/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/oildale-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1018,6 +1038,16 @@
     "missing_stubs": []
   },
   "/service-areas/rosedale-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rosedale-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1297,6 +1327,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/delano-ca/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/delano-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1558,6 +1598,16 @@
     "missing_stubs": []
   },
   "/service-areas/shafter-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/shafter-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1837,6 +1887,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/wasco-ca/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/wasco-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2098,6 +2158,16 @@
     "missing_stubs": []
   },
   "/service-areas/taft-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/taft-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2377,6 +2447,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/tehachapi-ca/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/tehachapi-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2638,6 +2718,16 @@
     "missing_stubs": []
   },
   "/service-areas/arvin-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/arvin-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2917,6 +3007,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/lamont-ca/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/lamont-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3178,6 +3278,16 @@
     "missing_stubs": []
   },
   "/service-areas/lake-isabella-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/lake-isabella-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3457,6 +3567,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/east-niles-ca/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/east-niles-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3718,6 +3838,16 @@
     "missing_stubs": []
   },
   "/service-areas/tarina-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/tarina-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3997,6 +4127,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/weedpatch-ca/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/weedpatch-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4258,6 +4398,16 @@
     "missing_stubs": []
   },
   "/service-areas/buttonwillow-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/buttonwillow-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4537,6 +4687,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/dustin-acres-ca/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/dustin-acres-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4798,6 +4958,16 @@
     "missing_stubs": []
   },
   "/service-areas/mcfarland-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/mcfarland-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5077,6 +5247,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/valley-acres-ca/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/valley-acres-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5338,6 +5518,16 @@
     "missing_stubs": []
   },
   "/service-areas/woody-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/woody-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5617,6 +5807,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/bear-valley-springs-ca/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/bear-valley-springs-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5887,6 +6087,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/keene-ca/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/keene-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6148,6 +6358,16 @@
     "missing_stubs": []
   },
   "/service-areas/maricopa-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/maricopa-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

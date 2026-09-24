@@ -29,6 +29,7 @@
     "/services/air-duct-cleaning/",
     "/services/contents-restoration-storage/",
     "/services/crawl-space-encapsulation/",
+    "/services/vandalism-cleanup/",
     "/services/carpet-cleaning/",
     "/services/post-construction-cleaning/",
     "/service-areas/arvin-ca/",
@@ -80,6 +81,7 @@
     "/services/air-duct-cleaning/",
     "/services/contents-restoration-storage/",
     "/services/crawl-space-encapsulation/",
+    "/services/vandalism-cleanup/",
     "/services/carpet-cleaning/",
     "/services/post-construction-cleaning/"
   ],
@@ -529,6 +531,22 @@
     "/service-areas/oildale-ca/storm-damage-restoration/",
     "/blog/storm-damage-insurance-claim-checklist/"
   ],
+  "/services/vandalism-cleanup/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/arvin-ca/vandalism-cleanup/",
+    "/service-areas/bear-valley-springs-ca/vandalism-cleanup/",
+    "/service-areas/buttonwillow-ca/vandalism-cleanup/",
+    "/service-areas/delano-ca/vandalism-cleanup/",
+    "/service-areas/dustin-acres-ca/vandalism-cleanup/",
+    "/service-areas/east-niles-ca/vandalism-cleanup/",
+    "/service-areas/keene-ca/vandalism-cleanup/",
+    "/service-areas/lake-isabella-ca/vandalism-cleanup/",
+    "/service-areas/lamont-ca/vandalism-cleanup/",
+    "/service-areas/maricopa-ca/vandalism-cleanup/",
+    "/service-areas/mcfarland-ca/vandalism-cleanup/",
+    "/service-areas/oildale-ca/vandalism-cleanup/"
+  ],
   "/services/water-cleanup/": [
     "/services/",
     "/contact/",
@@ -610,6 +628,7 @@
     "/service-areas/oildale-ca/air-duct-cleaning/",
     "/service-areas/oildale-ca/contents-restoration-storage/",
     "/service-areas/oildale-ca/crawl-space-encapsulation/",
+    "/service-areas/oildale-ca/vandalism-cleanup/",
     "/service-areas/oildale-ca/carpet-cleaning/",
     "/service-areas/oildale-ca/post-construction-cleaning/",
     "/service-areas/arvin-ca/",
@@ -644,6 +663,7 @@
     "/service-areas/rosedale-ca/air-duct-cleaning/",
     "/service-areas/rosedale-ca/contents-restoration-storage/",
     "/service-areas/rosedale-ca/crawl-space-encapsulation/",
+    "/service-areas/rosedale-ca/vandalism-cleanup/",
     "/service-areas/rosedale-ca/carpet-cleaning/",
     "/service-areas/rosedale-ca/post-construction-cleaning/",
     "/service-areas/arvin-ca/",
@@ -678,6 +698,7 @@
     "/service-areas/delano-ca/air-duct-cleaning/",
     "/service-areas/delano-ca/contents-restoration-storage/",
     "/service-areas/delano-ca/crawl-space-encapsulation/",
+    "/service-areas/delano-ca/vandalism-cleanup/",
     "/service-areas/delano-ca/carpet-cleaning/",
     "/service-areas/delano-ca/post-construction-cleaning/",
     "/service-areas/arvin-ca/",
@@ -712,6 +733,7 @@
     "/service-areas/shafter-ca/air-duct-cleaning/",
     "/service-areas/shafter-ca/contents-restoration-storage/",
     "/service-areas/shafter-ca/crawl-space-encapsulation/",
+    "/service-areas/shafter-ca/vandalism-cleanup/",
     "/service-areas/shafter-ca/carpet-cleaning/",
     "/service-areas/shafter-ca/post-construction-cleaning/",
     "/service-areas/arvin-ca/",
@@ -746,6 +768,7 @@
     "/service-areas/wasco-ca/air-duct-cleaning/",
     "/service-areas/wasco-ca/contents-restoration-storage/",
     "/service-areas/wasco-ca/crawl-space-encapsulation/",
+    "/service-areas/wasco-ca/vandalism-cleanup/",
     "/service-areas/wasco-ca/carpet-cleaning/",
     "/service-areas/wasco-ca/post-construction-cleaning/",
     "/service-areas/arvin-ca/",
@@ -780,6 +803,7 @@
     "/service-areas/taft-ca/air-duct-cleaning/",
     "/service-areas/taft-ca/contents-restoration-storage/",
     "/service-areas/taft-ca/crawl-space-encapsulation/",
+    "/service-areas/taft-ca/vandalism-cleanup/",
     "/service-areas/taft-ca/carpet-cleaning/",
     "/service-areas/taft-ca/post-construction-cleaning/",
     "/service-areas/arvin-ca/",
@@ -814,6 +838,7 @@
     "/service-areas/tehachapi-ca/air-duct-cleaning/",
     "/service-areas/tehachapi-ca/contents-restoration-storage/",
     "/service-areas/tehachapi-ca/crawl-space-encapsulation/",
+    "/service-areas/tehachapi-ca/vandalism-cleanup/",
     "/service-areas/tehachapi-ca/carpet-cleaning/",
     "/service-areas/tehachapi-ca/post-construction-cleaning/",
     "/service-areas/arvin-ca/",
@@ -848,6 +873,7 @@
     "/service-areas/arvin-ca/air-duct-cleaning/",
     "/service-areas/arvin-ca/contents-restoration-storage/",
     "/service-areas/arvin-ca/crawl-space-encapsulation/",
+    "/service-areas/arvin-ca/vandalism-cleanup/",
     "/service-areas/arvin-ca/carpet-cleaning/",
     "/service-areas/arvin-ca/post-construction-cleaning/",
     "/service-areas/bear-valley-springs-ca/",
@@ -882,6 +908,7 @@
     "/service-areas/lamont-ca/air-duct-cleaning/",
     "/service-areas/lamont-ca/contents-restoration-storage/",
     "/service-areas/lamont-ca/crawl-space-encapsulation/",
+    "/service-areas/lamont-ca/vandalism-cleanup/",
     "/service-areas/lamont-ca/carpet-cleaning/",
     "/service-areas/lamont-ca/post-construction-cleaning/",
     "/service-areas/arvin-ca/",
@@ -916,6 +943,7 @@
     "/service-areas/lake-isabella-ca/air-duct-cleaning/",
     "/service-areas/lake-isabella-ca/contents-restoration-storage/",
     "/service-areas/lake-isabella-ca/crawl-space-encapsulation/",
+    "/service-areas/lake-isabella-ca/vandalism-cleanup/",
     "/service-areas/lake-isabella-ca/carpet-cleaning/",
     "/service-areas/lake-isabella-ca/post-construction-cleaning/",
     "/service-areas/arvin-ca/",
@@ -950,6 +978,7 @@
     "/service-areas/east-niles-ca/air-duct-cleaning/",
     "/service-areas/east-niles-ca/contents-restoration-storage/",
     "/service-areas/east-niles-ca/crawl-space-encapsulation/",
+    "/service-areas/east-niles-ca/vandalism-cleanup/",
     "/service-areas/east-niles-ca/carpet-cleaning/",
     "/service-areas/east-niles-ca/post-construction-cleaning/",
     "/service-areas/arvin-ca/",
@@ -984,6 +1013,7 @@
     "/service-areas/tarina-ca/air-duct-cleaning/",
     "/service-areas/tarina-ca/contents-restoration-storage/",
     "/service-areas/tarina-ca/crawl-space-encapsulation/",
+    "/service-areas/tarina-ca/vandalism-cleanup/",
     "/service-areas/tarina-ca/carpet-cleaning/",
     "/service-areas/tarina-ca/post-construction-cleaning/",
     "/service-areas/arvin-ca/",
@@ -1018,6 +1048,7 @@
     "/service-areas/weedpatch-ca/air-duct-cleaning/",
     "/service-areas/weedpatch-ca/contents-restoration-storage/",
     "/service-areas/weedpatch-ca/crawl-space-encapsulation/",
+    "/service-areas/weedpatch-ca/vandalism-cleanup/",
     "/service-areas/weedpatch-ca/carpet-cleaning/",
     "/service-areas/weedpatch-ca/post-construction-cleaning/",
     "/service-areas/arvin-ca/",
@@ -1052,6 +1083,7 @@
     "/service-areas/buttonwillow-ca/air-duct-cleaning/",
     "/service-areas/buttonwillow-ca/contents-restoration-storage/",
     "/service-areas/buttonwillow-ca/crawl-space-encapsulation/",
+    "/service-areas/buttonwillow-ca/vandalism-cleanup/",
     "/service-areas/buttonwillow-ca/carpet-cleaning/",
     "/service-areas/buttonwillow-ca/post-construction-cleaning/",
     "/service-areas/arvin-ca/",
@@ -1086,6 +1118,7 @@
     "/service-areas/dustin-acres-ca/air-duct-cleaning/",
     "/service-areas/dustin-acres-ca/contents-restoration-storage/",
     "/service-areas/dustin-acres-ca/crawl-space-encapsulation/",
+    "/service-areas/dustin-acres-ca/vandalism-cleanup/",
     "/service-areas/dustin-acres-ca/carpet-cleaning/",
     "/service-areas/dustin-acres-ca/post-construction-cleaning/",
     "/service-areas/arvin-ca/",
@@ -1120,6 +1153,7 @@
     "/service-areas/mcfarland-ca/air-duct-cleaning/",
     "/service-areas/mcfarland-ca/contents-restoration-storage/",
     "/service-areas/mcfarland-ca/crawl-space-encapsulation/",
+    "/service-areas/mcfarland-ca/vandalism-cleanup/",
     "/service-areas/mcfarland-ca/carpet-cleaning/",
     "/service-areas/mcfarland-ca/post-construction-cleaning/",
     "/service-areas/arvin-ca/",
@@ -1154,6 +1188,7 @@
     "/service-areas/valley-acres-ca/air-duct-cleaning/",
     "/service-areas/valley-acres-ca/contents-restoration-storage/",
     "/service-areas/valley-acres-ca/crawl-space-encapsulation/",
+    "/service-areas/valley-acres-ca/vandalism-cleanup/",
     "/service-areas/valley-acres-ca/carpet-cleaning/",
     "/service-areas/valley-acres-ca/post-construction-cleaning/",
     "/service-areas/arvin-ca/",
@@ -1188,6 +1223,7 @@
     "/service-areas/woody-ca/air-duct-cleaning/",
     "/service-areas/woody-ca/contents-restoration-storage/",
     "/service-areas/woody-ca/crawl-space-encapsulation/",
+    "/service-areas/woody-ca/vandalism-cleanup/",
     "/service-areas/woody-ca/carpet-cleaning/",
     "/service-areas/woody-ca/post-construction-cleaning/",
     "/service-areas/arvin-ca/",
@@ -1222,6 +1258,7 @@
     "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
     "/service-areas/bear-valley-springs-ca/contents-restoration-storage/",
     "/service-areas/bear-valley-springs-ca/crawl-space-encapsulation/",
+    "/service-areas/bear-valley-springs-ca/vandalism-cleanup/",
     "/service-areas/bear-valley-springs-ca/carpet-cleaning/",
     "/service-areas/bear-valley-springs-ca/post-construction-cleaning/",
     "/service-areas/arvin-ca/",
@@ -1256,6 +1293,7 @@
     "/service-areas/keene-ca/air-duct-cleaning/",
     "/service-areas/keene-ca/contents-restoration-storage/",
     "/service-areas/keene-ca/crawl-space-encapsulation/",
+    "/service-areas/keene-ca/vandalism-cleanup/",
     "/service-areas/keene-ca/carpet-cleaning/",
     "/service-areas/keene-ca/post-construction-cleaning/",
     "/service-areas/arvin-ca/",
@@ -1290,6 +1328,7 @@
     "/service-areas/maricopa-ca/air-duct-cleaning/",
     "/service-areas/maricopa-ca/contents-restoration-storage/",
     "/service-areas/maricopa-ca/crawl-space-encapsulation/",
+    "/service-areas/maricopa-ca/vandalism-cleanup/",
     "/service-areas/maricopa-ca/carpet-cleaning/",
     "/service-areas/maricopa-ca/post-construction-cleaning/",
     "/service-areas/arvin-ca/",
@@ -1510,6 +1549,15 @@
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/oildale-ca/vandalism-cleanup/": [
+    "/services/vandalism-cleanup/",
+    "/service-areas/oildale-ca/",
+    "/service-areas/oildale-ca/fire-damage-restoration/",
+    "/service-areas/oildale-ca/home-remodeling/",
+    "/service-areas/arvin-ca/vandalism-cleanup/",
+    "/service-areas/bear-valley-springs-ca/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/water-cleanup/": [
@@ -1755,6 +1803,15 @@
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/rosedale-ca/vandalism-cleanup/": [
+    "/services/vandalism-cleanup/",
+    "/service-areas/rosedale-ca/",
+    "/service-areas/rosedale-ca/fire-damage-restoration/",
+    "/service-areas/rosedale-ca/home-remodeling/",
+    "/service-areas/arvin-ca/vandalism-cleanup/",
+    "/service-areas/bear-valley-springs-ca/vandalism-cleanup/",
+    "/contact/"
+  ],
   "/service-areas/rosedale-ca/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/rosedale-ca/",
@@ -1996,6 +2053,15 @@
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/delano-ca/vandalism-cleanup/": [
+    "/services/vandalism-cleanup/",
+    "/service-areas/delano-ca/",
+    "/service-areas/delano-ca/fire-damage-restoration/",
+    "/service-areas/delano-ca/home-remodeling/",
+    "/service-areas/arvin-ca/vandalism-cleanup/",
+    "/service-areas/bear-valley-springs-ca/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/delano-ca/water-cleanup/": [
@@ -2241,6 +2307,15 @@
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/shafter-ca/vandalism-cleanup/": [
+    "/services/vandalism-cleanup/",
+    "/service-areas/shafter-ca/",
+    "/service-areas/shafter-ca/fire-damage-restoration/",
+    "/service-areas/shafter-ca/home-remodeling/",
+    "/service-areas/arvin-ca/vandalism-cleanup/",
+    "/service-areas/bear-valley-springs-ca/vandalism-cleanup/",
+    "/contact/"
+  ],
   "/service-areas/shafter-ca/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/shafter-ca/",
@@ -2482,6 +2557,15 @@
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/wasco-ca/vandalism-cleanup/": [
+    "/services/vandalism-cleanup/",
+    "/service-areas/wasco-ca/",
+    "/service-areas/wasco-ca/fire-damage-restoration/",
+    "/service-areas/wasco-ca/home-remodeling/",
+    "/service-areas/arvin-ca/vandalism-cleanup/",
+    "/service-areas/bear-valley-springs-ca/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/water-cleanup/": [
@@ -2727,6 +2811,15 @@
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/taft-ca/vandalism-cleanup/": [
+    "/services/vandalism-cleanup/",
+    "/service-areas/taft-ca/",
+    "/service-areas/taft-ca/fire-damage-restoration/",
+    "/service-areas/taft-ca/home-remodeling/",
+    "/service-areas/arvin-ca/vandalism-cleanup/",
+    "/service-areas/bear-valley-springs-ca/vandalism-cleanup/",
+    "/contact/"
+  ],
   "/service-areas/taft-ca/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/taft-ca/",
@@ -2968,6 +3061,15 @@
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/tehachapi-ca/vandalism-cleanup/": [
+    "/services/vandalism-cleanup/",
+    "/service-areas/tehachapi-ca/",
+    "/service-areas/tehachapi-ca/fire-damage-restoration/",
+    "/service-areas/tehachapi-ca/home-remodeling/",
+    "/service-areas/arvin-ca/vandalism-cleanup/",
+    "/service-areas/bear-valley-springs-ca/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/water-cleanup/": [
@@ -3213,6 +3315,15 @@
     "/service-areas/buttonwillow-ca/storm-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/arvin-ca/vandalism-cleanup/": [
+    "/services/vandalism-cleanup/",
+    "/service-areas/arvin-ca/",
+    "/service-areas/arvin-ca/fire-damage-restoration/",
+    "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/bear-valley-springs-ca/vandalism-cleanup/",
+    "/service-areas/buttonwillow-ca/vandalism-cleanup/",
+    "/contact/"
+  ],
   "/service-areas/arvin-ca/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/arvin-ca/",
@@ -3454,6 +3565,15 @@
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/lamont-ca/vandalism-cleanup/": [
+    "/services/vandalism-cleanup/",
+    "/service-areas/lamont-ca/",
+    "/service-areas/lamont-ca/fire-damage-restoration/",
+    "/service-areas/lamont-ca/home-remodeling/",
+    "/service-areas/arvin-ca/vandalism-cleanup/",
+    "/service-areas/bear-valley-springs-ca/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/water-cleanup/": [
@@ -3699,6 +3819,15 @@
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/lake-isabella-ca/vandalism-cleanup/": [
+    "/services/vandalism-cleanup/",
+    "/service-areas/lake-isabella-ca/",
+    "/service-areas/lake-isabella-ca/fire-damage-restoration/",
+    "/service-areas/lake-isabella-ca/home-remodeling/",
+    "/service-areas/arvin-ca/vandalism-cleanup/",
+    "/service-areas/bear-valley-springs-ca/vandalism-cleanup/",
+    "/contact/"
+  ],
   "/service-areas/lake-isabella-ca/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/lake-isabella-ca/",
@@ -3940,6 +4069,15 @@
     "/service-areas/east-niles-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/east-niles-ca/vandalism-cleanup/": [
+    "/services/vandalism-cleanup/",
+    "/service-areas/east-niles-ca/",
+    "/service-areas/east-niles-ca/fire-damage-restoration/",
+    "/service-areas/east-niles-ca/home-remodeling/",
+    "/service-areas/arvin-ca/vandalism-cleanup/",
+    "/service-areas/bear-valley-springs-ca/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/east-niles-ca/water-cleanup/": [
@@ -4185,6 +4323,15 @@
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/tarina-ca/vandalism-cleanup/": [
+    "/services/vandalism-cleanup/",
+    "/service-areas/tarina-ca/",
+    "/service-areas/tarina-ca/fire-damage-restoration/",
+    "/service-areas/tarina-ca/home-remodeling/",
+    "/service-areas/arvin-ca/vandalism-cleanup/",
+    "/service-areas/bear-valley-springs-ca/vandalism-cleanup/",
+    "/contact/"
+  ],
   "/service-areas/tarina-ca/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/tarina-ca/",
@@ -4426,6 +4573,15 @@
     "/service-areas/weedpatch-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/weedpatch-ca/vandalism-cleanup/": [
+    "/services/vandalism-cleanup/",
+    "/service-areas/weedpatch-ca/",
+    "/service-areas/weedpatch-ca/fire-damage-restoration/",
+    "/service-areas/weedpatch-ca/home-remodeling/",
+    "/service-areas/arvin-ca/vandalism-cleanup/",
+    "/service-areas/bear-valley-springs-ca/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/weedpatch-ca/water-cleanup/": [
@@ -4671,6 +4827,15 @@
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/buttonwillow-ca/vandalism-cleanup/": [
+    "/services/vandalism-cleanup/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
+    "/service-areas/arvin-ca/vandalism-cleanup/",
+    "/service-areas/bear-valley-springs-ca/vandalism-cleanup/",
+    "/contact/"
+  ],
   "/service-areas/buttonwillow-ca/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/buttonwillow-ca/",
@@ -4912,6 +5077,15 @@
     "/service-areas/dustin-acres-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/dustin-acres-ca/vandalism-cleanup/": [
+    "/services/vandalism-cleanup/",
+    "/service-areas/dustin-acres-ca/",
+    "/service-areas/dustin-acres-ca/fire-damage-restoration/",
+    "/service-areas/dustin-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/vandalism-cleanup/",
+    "/service-areas/bear-valley-springs-ca/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/dustin-acres-ca/water-cleanup/": [
@@ -5157,6 +5331,15 @@
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/mcfarland-ca/vandalism-cleanup/": [
+    "/services/vandalism-cleanup/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/fire-damage-restoration/",
+    "/service-areas/mcfarland-ca/home-remodeling/",
+    "/service-areas/arvin-ca/vandalism-cleanup/",
+    "/service-areas/bear-valley-springs-ca/vandalism-cleanup/",
+    "/contact/"
+  ],
   "/service-areas/mcfarland-ca/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/mcfarland-ca/",
@@ -5398,6 +5581,15 @@
     "/service-areas/valley-acres-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/vandalism-cleanup/": [
+    "/services/vandalism-cleanup/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/fire-damage-restoration/",
+    "/service-areas/valley-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/vandalism-cleanup/",
+    "/service-areas/bear-valley-springs-ca/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/valley-acres-ca/water-cleanup/": [
@@ -5643,6 +5835,15 @@
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/woody-ca/vandalism-cleanup/": [
+    "/services/vandalism-cleanup/",
+    "/service-areas/woody-ca/",
+    "/service-areas/woody-ca/fire-damage-restoration/",
+    "/service-areas/woody-ca/home-remodeling/",
+    "/service-areas/arvin-ca/vandalism-cleanup/",
+    "/service-areas/bear-valley-springs-ca/vandalism-cleanup/",
+    "/contact/"
+  ],
   "/service-areas/woody-ca/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/woody-ca/",
@@ -5884,6 +6085,15 @@
     "/service-areas/bear-valley-springs-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
     "/service-areas/buttonwillow-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/bear-valley-springs-ca/vandalism-cleanup/": [
+    "/services/vandalism-cleanup/",
+    "/service-areas/bear-valley-springs-ca/",
+    "/service-areas/bear-valley-springs-ca/fire-damage-restoration/",
+    "/service-areas/bear-valley-springs-ca/home-remodeling/",
+    "/service-areas/arvin-ca/vandalism-cleanup/",
+    "/service-areas/buttonwillow-ca/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/bear-valley-springs-ca/water-cleanup/": [
@@ -6129,6 +6339,15 @@
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/keene-ca/vandalism-cleanup/": [
+    "/services/vandalism-cleanup/",
+    "/service-areas/keene-ca/",
+    "/service-areas/keene-ca/fire-damage-restoration/",
+    "/service-areas/keene-ca/home-remodeling/",
+    "/service-areas/arvin-ca/vandalism-cleanup/",
+    "/service-areas/bear-valley-springs-ca/vandalism-cleanup/",
+    "/contact/"
+  ],
   "/service-areas/keene-ca/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/keene-ca/",
@@ -6370,6 +6589,15 @@
     "/service-areas/maricopa-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/maricopa-ca/vandalism-cleanup/": [
+    "/services/vandalism-cleanup/",
+    "/service-areas/maricopa-ca/",
+    "/service-areas/maricopa-ca/fire-damage-restoration/",
+    "/service-areas/maricopa-ca/home-remodeling/",
+    "/service-areas/arvin-ca/vandalism-cleanup/",
+    "/service-areas/bear-valley-springs-ca/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/maricopa-ca/water-cleanup/": [

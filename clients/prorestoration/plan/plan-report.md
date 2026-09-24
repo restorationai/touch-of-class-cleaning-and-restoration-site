@@ -1,20 +1,20 @@
 # Site Plan Report — ProRestoration Services
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-23T14:11:54.780915+00:00
+- Generated: 2026-09-24T23:23:55.339330+00:00
 - Domain: `prorestorationca.com`
-- Services selected: 27 of 65 catalog entries
+- Services selected: 28 of 65 catalog entries
 - Service areas: 22
 - Cross-product enabled: True
-- Total URLs: **636**
-- Total internal links: 5220 (avg 8.2 per page)
+- Total URLs: **658**
+- Total internal links: 5404 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 567 |
-| `service-landing` | 27 |
+| `service-area-service` | 588 |
+| `service-landing` | 28 |
 | `service-area` | 21 |
 | `blog-post` | 12 |
 | `legal` | 3 |
@@ -51,6 +51,7 @@
 - `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
 - `soot-removal` — Soot Removal (specialty, priority 7)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
+- `vandalism-cleanup` — Vandalism Cleanup (specialty, priority 5)
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 - `water-leak-detection` — Water Leak Detection (core, priority 7)
