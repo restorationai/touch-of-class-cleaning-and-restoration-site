@@ -137,8 +137,19 @@ jobs:
           if git diff --cached --quiet; then
             echo "Nothing to checkpoint."
           else
+            # same hardening as the final commit step (3rd failure 09-24
+            # was THIS step hitting the stamp-conflict rebase)
+            git symbolic-ref -q HEAD >/dev/null || git checkout -B main
             git commit -m "chore: content checkpoint $(date +%Y-%m-%d) [automated]"
-            git push || (git pull --rebase && git push)
+            if ! git push origin HEAD:main; then
+              git fetch origin main
+              if ! git rebase origin/main; then
+                git checkout --theirs -- clients/ 2>/dev/null || true
+                git add -A
+                GIT_EDITOR=true git rebase --continue || { git rebase --abort; exit 1; }
+              fi
+              git push origin HEAD:main
+            fi
           fi
 
       - name: NAP consistency audit (monthly — first Monday; results feed the coverage gate)
