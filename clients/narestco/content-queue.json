@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-22-who-to-call-for-water-damage-restoration-in-federal-way-wa",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-22T15:26:29Z",
       "priority": 1,
       "prioritized": true,
@@ -27,7 +27,9 @@
         "water damage cleanup Federal Way",
         "water cleanup Federal Way"
       ],
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-24T10:28:56Z",
+      "post_url": "https://narestco.com/blog/who-to-call-for-water-damage-restoration-in-federal-way-wa/"
     },
     {
       "id": "2026-07-23-water-damage-restoration-cost-wa",
