@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+mold test near me,transactional,27100,5,25.38,3,mold testing,,/services/mold-inspection-testing/,no
+mold testing,transactional,22200,32,10.47,3,mold testing,,/services/mold-inspection-testing/,no
+mold test service,transactional,1900,8,19.32,3,mold testing,,/services/mold-inspection-testing/,no
+black mold test near me,transactional,720,7,19.67,3,mold testing,,/services/mold-inspection-testing/,no
+mold inspection las vegas,transactional,320,0,46.72,3,mold testing,Las Vegas,/services/mold-inspection-testing/,no
+mold testing las vegas,transactional,210,0,15.47,3,mold testing,Las Vegas,/services/mold-inspection-testing/,no
+mold testing in las vegas,transactional,210,,15.47,3,mold testing,Las Vegas,/services/mold-inspection-testing/,no
+las vegas mold testing,transactional,210,0,15.47,3,mold testing,Las Vegas,/services/mold-inspection-testing/,no
+air quality testing las vegas,transactional,20,5,9.18,3,mold testing,Las Vegas,,no
+mold testing henderson nv,transactional,10,,55.71,3,mold testing,Henderson,/service-areas/henderson-nv/mold-inspection-testing/,no
+emergency mold testing las vegas,transactional,,,,3,mold testing,Las Vegas,/services/mold-inspection-testing/,no
+mold testing north las vegas,transactional,,,,3,mold testing,North Las Vegas,/service-areas/north-las-vegas-nv/mold-inspection-testing/,no
+mold testing spring valley nv,transactional,,,,3,mold testing,Spring Valley,/service-areas/spring-valley-nv/mold-inspection-testing/,no
+free mold testing,commercial,480,0,35.73,1,mold testing,,,yes
+mold test cost,commercial,4400,0,15.22,2,mold testing,,,no
+how much does a mold test cost,commercial,1600,5,9.27,2,mold testing,,,no
+mold test home inspection,commercial,1000,11,16.91,2,mold testing,,,no
+mold clearance testing,commercial,110,1,27.46,2,mold testing,,,no
+mold test cost las vegas,commercial,,,,2,mold testing,Las Vegas,,no
+mold testing kit,commercial,49500,5,1.62,3,mold testing,,,no
+professional mold test,commercial,4400,22,11.83,3,mold testing,,/services/mold-inspection-testing/,no
+companies that test for mold,commercial,2400,2,35.17,3,mold testing,,/services/mold-inspection-testing/,no
+indoor air quality test for mold,commercial,1900,13,8.36,3,mold testing,,/services/mold-inspection-testing/,no
+ermi mold test,informational,3600,0,3.6,1,mold testing,,,yes
+how to test for mold in apartment,informational,720,21,2.44,1,mold testing,,,yes
+how long does a mold test take,informational,140,0,3.2,1,mold testing,,,yes
+should i get a mold inspection when buying a house,informational,50,0,5.74,1,mold testing,,,yes
+test for black mold,informational,3600,20,4.34,2,mold testing,,,no
+how to test for black mold,informational,3600,32,1.97,2,mold testing,,,no
+how to test for mold in walls,informational,1300,3,2.48,2,mold testing,,,no
+how to test for mold in the air,informational,1000,12,1.67,2,mold testing,,,no
+how to test for mold inside walls,informational,590,1,2.8,2,mold testing,,,no
+free mold testing for renters,informational,110,5,6.77,2,mold testing,,,no
+post remediation mold testing,informational,70,0,9.49,2,mold testing,,,no
+how to read mold test results,informational,50,0,,2,mold testing,,,no
+what does a mold inspector do,informational,50,12,5.93,2,mold testing,,,no
+does homeowners insurance cover mold testing,informational,30,8,6.21,2,mold testing,,,no
+is mold testing worth it,informational,30,0,,2,mold testing,,,no
+how to test for mold in your house,informational,6600,32,2.28,3,mold testing,,/blog/how-to-test-for-mold/,no
+are mold test kits accurate,informational,110,3,3.19,3,mold testing,,/blog/how-to-test-for-mold/,no

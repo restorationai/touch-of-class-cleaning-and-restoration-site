@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+mold testing near me,transactional,27100,0,25.38,3,mold testing,,,no
+mold testing fort lauderdale,transactional,880,0,88.94,3,mold testing,fort-lauderdale-fl,,no
+emergency mold testing,transactional,30,0,29.96,3,mold testing,,,no
+mold testing hollywood fl,transactional,20,0,16.13,3,mold testing,hollywood-fl,,no
+mold testing plantation fl,transactional,20,,,3,mold testing,plantation-fl,,no
+mold testing broward county,transactional,20,0,29.65,3,mold testing,,,no
+mold testing davie fl,transactional,10,,,3,mold testing,davie-fl,,no
+mold testing pembroke pines,transactional,10,,,3,mold testing,pembroke-pines-fl,,no
+mold testing cost,commercial,4400,0,15.22,2,mold testing,,,no
+how much does mold testing cost,commercial,1600,6,9.27,2,mold testing,,,no
+mold testing and remediation,commercial,1000,50,41.6,2,mold testing,,,no
+mold remediation testing,commercial,170,18,31.81,2,mold testing,,,no
+mold test kit,commercial,49500,5,1.62,3,mold testing,,,no
+mold testing,commercial,22200,32,10.47,3,mold testing,,,no
+professional mold testing,commercial,4400,22,11.83,3,mold testing,,,no
+mold testing company,commercial,2400,9,35.17,3,mold testing,,,no
+mold testing services,commercial,1900,8,19.32,3,mold testing,,,no
+best home mold test kit,commercial,1600,8,1.88,3,mold testing,,,no
+mold assessment,commercial,720,25,26.69,3,mold testing,,,no
+mold testing florida,commercial,50,7,28.8,3,mold testing,,,no
+mold clearance testing,informational,110,1,27.46,1,mold testing,,,yes
+how to read mold test results,informational,50,0,,1,mold testing,,,yes
+do i need a mold test before remediation,informational,,,,1,mold testing,,,yes
+can the same company test and remediate mold in florida,informational,,,,1,mold testing,,,yes
+mold air test,informational,2900,14,4.85,2,mold testing,,,no
+mold air quality test,informational,1900,11,8.36,2,mold testing,,,no
+moisture meter mold testing,informational,260,0,1.29,2,mold testing,,,no
+mold readings,informational,260,5,2.65,2,mold testing,,,no
+how long does mold testing take,informational,210,0,6.81,2,mold testing,,,no
+how do mold tests work,informational,110,15,3.46,2,mold testing,,,no
+free mold testing for renters,informational,110,5,6.77,2,mold testing,,,no
+post mold remediation testing,informational,70,0,9.49,2,mold testing,,,no
+is mold testing worth it,informational,30,0,,2,mold testing,,,no
+types of mold testing,informational,30,10,5.57,2,mold testing,,,no
+how accurate are mold tests,informational,20,,,2,mold testing,,,no
+does homeowners insurance cover mold testing,informational,,8,,2,mold testing,,,no
+mold testing for home,informational,8100,15,5.38,3,mold testing,,/blog/how-to-test-for-mold/,no
+house mold test,informational,1300,34,6.78,3,mold testing,,/blog/how-to-test-for-mold/,no
+diy mold testing,informational,720,3,0.93,3,mold testing,,/blog/how-to-test-for-mold/,no
+florida mold assessor license,informational,90,0,7.93,3,mold testing,,,no

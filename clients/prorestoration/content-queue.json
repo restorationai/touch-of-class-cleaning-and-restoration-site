@@ -622,7 +622,7 @@
     },
     {
       "id": "2026-08-09-sewage-backup-in-house",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-10T00:58:00Z",
       "written_at": "2026-09-24T19:33:01Z",
       "post_url": "https://prorestorationca.com/blog/sewage-backup-in-house/",
@@ -655,7 +655,8 @@
         "https://www.iicrc.org/page/IICRCS500"
       ],
       "notes": "$31.80 CPC panicked-homeowner query. Kern County angle: slab-on-grade homes back up into tubs and showers rather than basements, and Oildale's cast-iron and Orangeburg laterals are the usual culprits per plan notes. Category 3 black water: do not DIY, what gets removed vs disinfected, and the water backup endorsement most standard policies need. Keep tone practical, not alarmist.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "published_verified_at": "2026-09-24T19:33:21Z"
     },
     {
       "id": "2026-08-09-what-to-do-after-a-house-fire",

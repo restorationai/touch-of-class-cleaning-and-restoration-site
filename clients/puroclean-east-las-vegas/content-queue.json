@@ -925,7 +925,7 @@
     },
     {
       "id": "2026-08-09-unattended-death-cleanup",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-10T00:57:00Z",
       "written_at": "2026-09-24T19:26:05Z",
       "post_url": "https://purocleaneastlasvegas.com/blog/unattended-death-cleanup/",
@@ -977,7 +977,8 @@
           "context": "PuroClean of East Las Vegas is an IICRC-certified restoration company based at 2777 N Lamb Blvd, Las",
           "reason": "names a certification not present in brand.certifications"
         }
-      ]
+      ],
+      "published_verified_at": "2026-09-24T19:26:25Z"
     },
     {
       "id": "2026-08-09-diy-mold-remediation",

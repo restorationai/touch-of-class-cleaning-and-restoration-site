@@ -1,0 +1,43 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+rodent droppings cleanup,transactional,320,,17.78,2,biohazard cleanup,,,no
+biohazard cleanup near me,transactional,1600,1,70.96,3,biohazard cleanup,,/services/biohazard-cleanup/,no
+biohazard remediation,transactional,590,14,63.45,3,biohazard cleanup,,/services/biohazard-cleanup/,no
+blood cleanup,transactional,590,0,43.42,3,biohazard cleanup,,/services/biohazard-cleanup/,no
+bodily fluid cleanup,transactional,90,0,58.87,3,biohazard cleanup,,/services/biohazard-cleanup/,no
+blood cleanup service,transactional,70,,116.06,3,biohazard cleanup,,/services/biohazard-cleanup/,no
+needle cleanup,transactional,10,,,3,biohazard cleanup,,/services/biohazard-cleanup/,no
+biohazard cleanup bakersfield,transactional,10,,,3,biohazard cleanup,Bakersfield,/services/biohazard-cleanup/,no
+sharps cleanup,transactional,,,,3,biohazard cleanup,,/services/biohazard-cleanup/,no
+biohazard cleanup kern county,transactional,,,,3,biohazard cleanup,,/services/biohazard-cleanup/,no
+biohazard cleanup in bakersfield,transactional,,,,3,biohazard cleanup,Bakersfield,/services/biohazard-cleanup/,no
+bakersfield biohazard cleanup,transactional,,,,3,biohazard cleanup,Bakersfield,/services/biohazard-cleanup/,no
+emergency biohazard cleanup bakersfield,transactional,,,,3,biohazard cleanup,Bakersfield,/services/biohazard-cleanup/,no
+biohazard cleanup bakersfield ca,transactional,,,,3,biohazard cleanup,Bakersfield,/services/biohazard-cleanup/,no
+blood cleanup bakersfield,transactional,,,,3,biohazard cleanup,Bakersfield,/services/biohazard-cleanup/,no
+biohazard remediation bakersfield,transactional,,,,3,biohazard cleanup,Bakersfield,/services/biohazard-cleanup/,no
+biohazard cleanup delano,transactional,,,,3,biohazard cleanup,Delano,/service-areas/delano-ca/biohazard-cleanup/,no
+biohazard cleanup tehachapi,transactional,,,,3,biohazard cleanup,Tehachapi,/service-areas/tehachapi-ca/biohazard-cleanup/,no
+biohazard cleanup oildale,transactional,,,,3,biohazard cleanup,Oildale,/service-areas/oildale-ca/biohazard-cleanup/,no
+biohazard cleanup cost,commercial,70,0,84.96,1,biohazard cleanup,,,yes
+how much does biohazard cleanup cost,commercial,70,0,14.2,2,biohazard cleanup,,,no
+biohazard cleanup cost per hour,commercial,40,0,29.94,2,biohazard cleanup,,,no
+biohazard cleanup cost bakersfield,commercial,,,,2,biohazard cleanup,Bakersfield,,no
+biohazard cleanup companies,commercial,2400,18,73.81,3,biohazard cleanup,,/services/biohazard-cleanup/,no
+how to clean up mouse droppings,informational,1300,7,3.18,1,biohazard cleanup,,,yes
+is blood a biohazard,informational,480,8,119.44,1,biohazard cleanup,,,yes
+how to clean up blood,informational,320,4,20.25,1,biohazard cleanup,,,yes
+examples of biohazard,informational,590,18,,2,biohazard cleanup,,,no
+vomit clean up,informational,590,0,3.95,2,biohazard cleanup,,,no
+is urine biohazard,informational,480,0,,2,biohazard cleanup,,,no
+what does rodent droppings look like,informational,480,0,10.94,2,biohazard cleanup,,,no
+is vomit a biohazard,informational,320,0,,2,biohazard cleanup,,,no
+is feces a biohazard,informational,140,0,,2,biohazard cleanup,,,no
+how to clean up rat droppings safely,informational,90,7,14.63,2,biohazard cleanup,,,no
+does homeowners insurance cover biohazard cleanup,informational,20,0,,2,biohazard cleanup,,,no
+who pays for biohazard cleanup,informational,,,,2,biohazard cleanup,,,no
+how long does biohazard cleanup take,informational,,,,2,biohazard cleanup,,,no
+what is considered biohazard cleanup,informational,,,,2,biohazard cleanup,,,no
+how to dispose of needles found in house,informational,,,,2,biohazard cleanup,,,no
+how to clean vomit from carpet,informational,6600,0,0.43,3,biohazard cleanup,,,no
+what are biohazard materials,informational,10,19,,3,biohazard cleanup,,,no
+servpro biohazard cleanup cost,navigational,50,0,10.33,3,biohazard cleanup,,,no

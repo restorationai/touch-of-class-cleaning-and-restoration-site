@@ -1,0 +1,40 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+biohazard cleanup,transactional,2400,8,73.81,2,biohazard cleanup,,,no
+biohazard cleanup companies,transactional,2400,40,73.81,2,biohazard cleanup,,,no
+biohazard cleanup services,transactional,2400,20,62.63,2,biohazard cleanup,,,no
+biohazard cleanup company,transactional,2400,18,73.81,2,biohazard cleanup,,,no
+biohazard cleanup service,transactional,2400,38,62.63,2,biohazard cleanup,,,no
+biohazard clean up,transactional,1900,17,73.44,2,biohazard cleanup,,,no
+biohazard clean,transactional,1600,15,64.7,2,biohazard cleanup,,,no
+biohazard cleanup near me,transactional,1600,1,70.96,2,biohazard cleanup,,,no
+unattended death cleanup,transactional,480,0,86.02,2,biohazard cleanup,,,no
+biohazard cleanup service near me,transactional,140,15,65.17,2,biohazard cleanup,,,no
+biohazard cleanup services near me,transactional,140,9,65.17,2,biohazard cleanup,,,no
+biohazard cleanup companies near me,transactional,110,6,98.35,2,biohazard cleanup,,,no
+biohazard cleanup company near me,transactional,110,15,98.35,2,biohazard cleanup,,,no
+biohazard cleanup crew,transactional,70,59,81.83,2,biohazard cleanup,,,no
+biohazard clean up after death,transactional,50,0,89.92,2,biohazard cleanup,,,no
+biohazard cleanup professionals,transactional,50,5,,2,biohazard cleanup,,,no
+biohazard crime scene cleanup,transactional,50,35,53.1,2,biohazard cleanup,,,no
+biohazard waste cleanup,transactional,40,0,29.85,2,biohazard cleanup,,,no
+biohazard restoration cleanup,transactional,30,0,,2,biohazard cleanup,,,no
+biohazard cleanup after death,transactional,20,0,86.21,2,biohazard cleanup,,,no
+residential biohazard cleanup,transactional,20,20,75.6,2,biohazard cleanup,,,no
+biohazard and crime scene cleanup,transactional,20,,92.13,2,biohazard cleanup,,,no
+biohazard blood cleanup,transactional,20,20,13.89,2,biohazard cleanup,,,no
+biohazard hoarding cleanup,transactional,20,,32.93,2,biohazard cleanup,,,no
+biohazard cleanup cost,commercial,70,0,84.96,2,biohazard cleanup,,,no
+how much does biohazard cleanup cost,commercial,70,0,14.2,2,biohazard cleanup,,,no
+biohazard cleanup cost per hour,commercial,40,0,29.94,2,biohazard cleanup,,,no
+how much is biohazard cleanup,commercial,30,0,11.94,2,biohazard cleanup,,,no
+cost of biohazard cleanup,commercial,20,9,39.96,2,biohazard cleanup,,,no
+average cost of biohazard cleanup,commercial,20,0,17.49,2,biohazard cleanup,,,no
+how much does a biohazard cleanup cost,commercial,20,0,90.71,2,biohazard cleanup,,,no
+how to clean up blood,informational,320,4,20.25,2,biohazard cleanup,,,no
+biohazard cleanup insurance,informational,30,0,,2,biohazard cleanup,,,no
+what is biohazard cleanup,informational,20,0,,2,biohazard cleanup,,,no
+does homeowners insurance cover biohazard cleanup,informational,20,0,,2,biohazard cleanup,,,no
+homeowners insurance biohazard cleanup,informational,20,,,2,biohazard cleanup,,,no
+does renters insurance cover biohazard cleanup,informational,10,0,,2,biohazard cleanup,,,no
+servpro biohazard cleanup,navigational,110,,18.78,3,biohazard cleanup,,,no
+servpro biohazard cleanup cost,navigational,50,,10.33,3,biohazard cleanup,,,no

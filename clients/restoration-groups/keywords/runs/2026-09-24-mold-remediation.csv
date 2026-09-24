@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+black mold remediation,transactional,12100,34,17.63,2,mold remediation,,,no
+basement mold remediation,transactional,1900,4,18.73,2,mold remediation,,,no
+basement mold removal,transactional,1900,4,18.73,2,mold remediation,,,no
+emergency mold remediation,transactional,590,9,76.51,2,mold remediation,,,no
+mold remediation companies near me,transactional,33100,2,32.97,3,mold remediation,,/services/mold-remediation/,no
+mold remediation nj,transactional,590,17,43.04,3,mold remediation,,/services/mold-remediation/,no
+mold remediation new jersey,transactional,590,17,43.04,3,mold remediation,,/services/mold-remediation/,no
+mold removal nj,transactional,590,21,43.04,3,mold remediation,,/services/mold-remediation/,no
+mold remediation north jersey,transactional,590,,43.04,3,mold remediation,,/services/mold-remediation/,no
+mold remediation elizabeth nj,transactional,20,0,1.08,3,mold remediation,Elizabeth,/service-areas/elizabeth-nj/mold-remediation/,no
+mold remediation union nj,transactional,10,14,,3,mold remediation,Union,/service-areas/union-nj/mold-remediation/,no
+mold remediation westfield nj,transactional,10,13,,3,mold remediation,Westfield,/service-areas/westfield-nj/mold-remediation/,no
+westfield mold remediation,transactional,10,,,3,mold remediation,Westfield,/service-areas/westfield-nj/mold-remediation/,no
+mold remediation cost,commercial,9900,3,20.04,1,mold remediation,,,yes
+attic mold remediation cost,commercial,1000,5,15.58,1,mold remediation,,,no
+crawl space mold remediation cost,commercial,260,5,24.9,1,mold remediation,,,no
+best mold remediation companies,commercial,210,18,21.25,1,mold remediation,,,no
+hvac mold remediation cost,commercial,140,13,45.85,1,mold remediation,,,no
+how much does mold remediation cost,commercial,3600,13,14.45,2,mold remediation,,,no
+black mold removal cost,commercial,1300,7,14.21,2,mold remediation,,,no
+mold remediation cost basement,commercial,880,1,16.74,2,mold remediation,,,no
+mold remediation cost per square foot,commercial,720,6,21.15,2,mold remediation,,,no
+whole-house mold remediation cost,commercial,50,10,12.56,2,mold remediation,,,no
+mold remediation cost nj,commercial,40,0,12.98,2,mold remediation,,,no
+how to get rid of mold inside a wall,informational,8100,26,1.77,1,mold remediation,,,no
+mold in basement,informational,1900,0,13.41,1,mold remediation,,,yes
+who pays for mold remediation,informational,880,9,14.28,1,mold remediation,,,yes
+how long does mold remediation take,informational,720,0,12.3,1,mold remediation,,,yes
+mold remediation process,informational,720,16,16.01,1,mold remediation,,,yes
+what kills mold permanently,informational,3600,23,3.26,2,mold remediation,,,no
+what is mold remediation,informational,1000,18,8.21,2,mold remediation,,,no
+when is mold remediation required,informational,390,27,14.81,2,mold remediation,,,no
+epa mold remediation guidelines,informational,320,42,21.8,2,mold remediation,,,no
+how is mold remediation done,informational,140,,11.11,2,mold remediation,,,no
+is mold remediation worth it,informational,40,18,,2,mold remediation,,,no
+mold remediation after water damage,informational,30,,,2,mold remediation,,,no
+how to prepare for mold remediation,informational,20,17,,2,mold remediation,,,no
+what to expect during mold remediation,informational,10,,,2,mold remediation,,,no
+can i stay in my house during mold remediation,informational,,,,2,mold remediation,,,no
+does homeowners insurance cover mold remediation,informational,1000,17,9.74,3,mold remediation,,/blog/does-homeowners-insurance-cover-black-mold/,no

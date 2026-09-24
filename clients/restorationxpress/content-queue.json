@@ -762,7 +762,7 @@
     },
     {
       "id": "2026-08-09-who-pays-for-water-damage-in-a-condo",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-10T00:52:00Z",
       "written_at": "2026-09-24T20:02:48Z",
       "post_url": "https://restorationxpress.com/blog/who-pays-for-water-damage-in-a-condo/",
@@ -806,7 +806,8 @@
           "context": "orationXpress** RestorationXpress is a certified restoration company serving Fort Lauderdale, Davie,",
           "reason": "names a certification not present in brand.certifications"
         }
-      ]
+      ],
+      "published_verified_at": "2026-09-24T20:03:08Z"
     },
     {
       "id": "2026-08-09-sewage-backup-in-house",

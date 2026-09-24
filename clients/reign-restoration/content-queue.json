@@ -206,7 +206,7 @@
     },
     {
       "id": "2026-08-26-water-damage-baseboard",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-26T22:20:00Z",
       "written_at": "2026-09-24T19:55:38Z",
       "post_url": "https://reign-restoration.com/blog/water-damage-baseboard/",
@@ -243,7 +243,8 @@
       ],
       "notes": "Combined uncovered cluster worth roughly 5,000/mo at KD 0 (baseboard 1,300, wall 880, drywall 590 + 880 repair). Swelling or dark-staining baseboard is the single most common early tell of a slab leak in this market, so make the post the diagnostic: swollen MDF trim, soft drywall at 2-4 inches, a warm spot on the floor. Explain flood cuts and why a restoration firm removes trim and drills the wall cavity instead of just repainting. Ties to general contracting for the rebuild.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "published_verified_at": "2026-09-24T19:55:58Z"
     },
     {
       "id": "2026-08-26-water-damage-restoration-cost",

@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+black mold removal,transactional,12100,17,17.63,1,mold remediation,,,no
+attic mold remediation,transactional,2900,0,24.07,1,mold remediation,,,yes
+crawl space mold remediation,transactional,1900,0,23.55,1,mold remediation,,,no
+hvac mold remediation,transactional,1300,0,28.74,1,mold remediation,,,yes
+emergency mold remediation,transactional,590,9,76.51,1,mold remediation,,,no
+mold remediation,transactional,165000,35,39.69,3,mold remediation,,/services/mold-remediation/,no
+professional mold remediation,transactional,33100,26,20.6,3,mold remediation,,/services/mold-remediation/,no
+mold remediation companies,transactional,22200,14,39.78,3,mold remediation,,/services/mold-remediation/,no
+mold removal company,transactional,5400,14,46.87,3,mold remediation,,/services/mold-remediation/,no
+mold remediation experts,transactional,5400,14,10.35,3,mold remediation,,/services/mold-remediation/,no
+mold removal dallas,transactional,1600,0,24.73,3,mold remediation,dallas,/service-areas/dallas-tx/mold-remediation/,no
+mold remediation dallas tx,transactional,590,6,29.94,3,mold remediation,dallas,/service-areas/dallas-tx/mold-remediation/,no
+mold remediation companies dallas,transactional,590,,29.94,3,mold remediation,dallas,/service-areas/dallas-tx/mold-remediation/,no
+black mold removal dallas,transactional,390,15,,3,mold remediation,dallas,/service-areas/dallas-tx/mold-remediation/,no
+mold remediation rockwall,transactional,110,,41.17,3,mold remediation,rockwall,/service-areas/rockwall-tx/mold-remediation/,no
+mold remediation plano,transactional,110,0,7.85,3,mold remediation,plano,/service-areas/plano-tx/mold-remediation/,no
+mold remediation garland tx,transactional,90,,184.57,3,mold remediation,garland,/service-areas/garland-tx/mold-remediation/,no
+mold remediation mckinney,transactional,50,,40.6,3,mold remediation,mckinney,/service-areas/mckinney-tx/mold-remediation/,no
+mold remediation royse city,transactional,,,,3,mold remediation,royse city,/services/mold-remediation/,no
+mold remediation cost,commercial,9900,3,20.04,1,mold remediation,,,yes
+mold removal cost,commercial,9900,18,20.04,1,mold remediation,,,no
+how much does mold remediation cost,commercial,3600,13,14.45,1,mold remediation,,,no
+black mold removal cost,commercial,1300,7,14.21,1,mold remediation,,,no
+attic mold removal cost,commercial,1000,5,15.58,1,mold remediation,,,no
+mold remediation cost basement,commercial,880,1,16.74,1,mold remediation,,,no
+mold remediation cost per square foot,commercial,720,6,21.15,1,mold remediation,,,no
+best mold remediation companies,commercial,210,18,21.25,1,mold remediation,,,no
+hvac mold remediation cost,commercial,140,13,45.85,1,mold remediation,,,no
+does homeowners insurance cover mold,informational,5400,11,10.08,1,mold remediation,,,yes
+mold in attic,informational,1600,0,15.14,1,mold remediation,,,no
+does homeowners insurance cover mold remediation,informational,1000,17,9.74,1,mold remediation,,,no
+what is mold remediation,informational,1000,18,8.21,1,mold remediation,,,no
+who pays for mold remediation,informational,880,9,14.28,1,mold remediation,,,no
+how long does mold remediation take,informational,720,0,12.3,1,mold remediation,,,yes
+mold remediation process,informational,720,16,16.01,1,mold remediation,,,no
+when is mold remediation required,informational,390,27,14.81,1,mold remediation,,,no
+is mold remediation covered by insurance,informational,320,20,10.84,1,mold remediation,,,no
+mold behind drywall,informational,390,0,25.56,2,mold remediation,,,no
+mold assessment texas,informational,170,,1.51,2,mold remediation,,,no
+servpro mold remediation cost,navigational,720,30,14.7,3,mold remediation,,,no

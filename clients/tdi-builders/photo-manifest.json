@@ -300,6 +300,87 @@
       "triaged_at": "2026-09-17T19:30:12Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "web:2a61013aeebba3e6": {
+      "source": "website",
+      "storage": "site-assets/web/web-2a61013aeebba3e6.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/site-assets/web/web-2a61013aeebba3e6.jpg",
+      "origin_url": "https://tdiusa.com/images/before-after/garage-after.webp",
+      "found_on": "https://tdiusa.com/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 214622,
+      "sha1": "2a61013aeebba3e6",
+      "exif": {},
+      "category": "building",
+      "subject": "Newly built detached two-car garage exterior sunny day",
+      "quality": 82,
+      "slots": {
+        "hero": 55,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "garage-construction"
+      ],
+      "flags": [],
+      "reason": "Clean finished garage, good light, solid portfolio proof-of-work shot.",
+      "triaged_at": "2026-09-24T19:08:32Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:382513bfcb6cf4ce": {
+      "source": "website",
+      "storage": "site-assets/web/web-382513bfcb6cf4ce.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/site-assets/web/web-382513bfcb6cf4ce.jpg",
+      "origin_url": "https://tdiusa.com/images/team.webp",
+      "found_on": "https://tdiusa.com/",
+      "width": 1264,
+      "height": 848,
+      "bytes": 116394,
+      "sha1": "382513bfcb6cf4ce",
+      "exif": {},
+      "category": "crew",
+      "subject": "Five uniformed TDI crew members posed before branded vans",
+      "quality": 72,
+      "slots": {
+        "hero": 55,
+        "team": 88,
+        "services": 30
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Too polished and art-directed; appears AI-generated or staged promo shoot, not real crew.",
+      "triaged_at": "2026-09-24T19:08:32Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:3dfd97e8d6ef4566": {
+      "source": "website",
+      "storage": "site-assets/web/web-3dfd97e8d6ef4566.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/site-assets/web/web-3dfd97e8d6ef4566.jpg",
+      "origin_url": "https://tdiusa.com/images/before-after/bathroom-after.webp",
+      "found_on": "https://tdiusa.com/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 55456,
+      "sha1": "3dfd97e8d6ef4566",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Modern renovated bathroom with floating vanity and glass shower",
+      "quality": 88,
+      "slots": {
+        "hero": 62,
+        "team": 0,
+        "services": 78
+      },
+      "service_slugs": [
+        "bathroom-remodeling"
+      ],
+      "flags": [],
+      "reason": "Sharp, well-lit finished bathroom remodel; strong services card candidate.",
+      "triaged_at": "2026-09-24T19:08:32Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "web:4e3ebf49c2314a8f": {
       "source": "website",
       "storage": "site-assets/web/web-4e3ebf49c2314a8f.jpg",
@@ -330,6 +411,90 @@
       "triaged_at": "2026-09-17T19:30:12Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "web:587154631c9b20b1": {
+      "source": "website",
+      "storage": "site-assets/web/web-587154631c9b20b1.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/site-assets/web/web-587154631c9b20b1.jpg",
+      "origin_url": "https://tdiusa.com/images/before-after/remodel-before.webp",
+      "found_on": "https://tdiusa.com/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 201156,
+      "sha1": "587154631c9b20b1",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Dated 1970s living room interior before renovation work",
+      "quality": 55,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "home-remodeling"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Useful before-state image but dark, cluttered, and low hero appeal.",
+      "triaged_at": "2026-09-24T19:08:32Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:5936f3c7d852e84b": {
+      "source": "website",
+      "storage": "site-assets/web/web-5936f3c7d852e84b.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/site-assets/web/web-5936f3c7d852e84b.jpg",
+      "origin_url": "https://tdiusa.com/images/before-after/addition-before.webp",
+      "found_on": "https://tdiusa.com/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 202208,
+      "sha1": "5936f3c7d852e84b",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Wood-framed room addition under construction beside existing home",
+      "quality": 80,
+      "slots": {
+        "hero": 58,
+        "team": 0,
+        "services": 72
+      },
+      "service_slugs": [
+        "room-addition",
+        "general-contracting"
+      ],
+      "flags": [],
+      "reason": "Well-composed active construction shot; good services and hero candidate.",
+      "triaged_at": "2026-09-24T19:08:32Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:5b0253bdcc6c9fce": {
+      "source": "website",
+      "storage": "site-assets/web/web-5b0253bdcc6c9fce.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/site-assets/web/web-5b0253bdcc6c9fce.jpg",
+      "origin_url": "https://tdiusa.com/images/before-after/kitchen-after.webp",
+      "found_on": "https://tdiusa.com/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 76010,
+      "sha1": "5b0253bdcc6c9fce",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Completed white kitchen remodel with stainless appliances and backsplash",
+      "quality": 85,
+      "slots": {
+        "hero": 60,
+        "team": 0,
+        "services": 80
+      },
+      "service_slugs": [
+        "kitchen-remodeling"
+      ],
+      "flags": [],
+      "reason": "Sharp, bright finished kitchen; excellent services card, decent hero potential.",
+      "triaged_at": "2026-09-24T19:08:32Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "web:6e4a184eed992609": {
       "source": "website",
       "storage": "site-assets/web/web-6e4a184eed992609.jpg",
@@ -357,6 +522,121 @@
       ],
       "reason": "Branding visible but scene feels AI-generated; still usable for garage service card.",
       "triaged_at": "2026-09-17T19:30:12Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:73b7e19433a9b619": {
+      "source": "website",
+      "storage": "site-assets/web/web-73b7e19433a9b619.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/site-assets/web/web-73b7e19433a9b619.jpg",
+      "origin_url": "https://tdiusa.com/images/before-after/addition-after.webp",
+      "found_on": "https://tdiusa.com/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 177116,
+      "sha1": "73b7e19433a9b619",
+      "exif": {},
+      "category": "building",
+      "subject": "Neat single-storey stucco home exterior with patio and lawn",
+      "quality": 82,
+      "slots": {
+        "hero": 72,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "home-remodeling",
+        "new-construction"
+      ],
+      "flags": [],
+      "reason": "Clean exterior shot; good hero candidate but no crew or activity visible.",
+      "triaged_at": "2026-09-24T19:08:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:9a73c917383875bb": {
+      "source": "website",
+      "storage": "site-assets/web/web-9a73c917383875bb.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/site-assets/web/web-9a73c917383875bb.jpg",
+      "origin_url": "https://tdiusa.com/images/services/new-construction.webp",
+      "found_on": "https://tdiusa.com/",
+      "width": 1200,
+      "height": 896,
+      "bytes": 177352,
+      "sha1": "9a73c917383875bb",
+      "exif": {},
+      "category": "crew",
+      "subject": "Three TDI crew framing walls on concrete slab with branded van",
+      "quality": 88,
+      "slots": {
+        "hero": 85,
+        "team": 78,
+        "services": 82
+      },
+      "service_slugs": [
+        "new-construction",
+        "general-contracting",
+        "commercial-construction"
+      ],
+      "flags": [],
+      "reason": "Excellent: branded van, uniformed crew, active framing work, wide composition.",
+      "triaged_at": "2026-09-24T19:08:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:a1812e4bfaa9fc57": {
+      "source": "website",
+      "storage": "site-assets/web/web-a1812e4bfaa9fc57.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/site-assets/web/web-a1812e4bfaa9fc57.jpg",
+      "origin_url": "https://tdiusa.com/images/services/room-addition.webp",
+      "found_on": "https://tdiusa.com/",
+      "width": 1200,
+      "height": 896,
+      "bytes": 131502,
+      "sha1": "a1812e4bfaa9fc57",
+      "exif": {},
+      "category": "crew",
+      "subject": "Three uniformed crew lifting timber wall frame at golden hour",
+      "quality": 90,
+      "slots": {
+        "hero": 80,
+        "team": 85,
+        "services": 85
+      },
+      "service_slugs": [
+        "new-construction",
+        "general-contracting",
+        "room-addition"
+      ],
+      "flags": [],
+      "reason": "Strong action shot; warm light, team effort, clean uniforms; slightly portrait crop.",
+      "triaged_at": "2026-09-24T19:08:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:a63ea780cefd4a12": {
+      "source": "website",
+      "storage": "site-assets/web/web-a63ea780cefd4a12.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/site-assets/web/web-a63ea780cefd4a12.jpg",
+      "origin_url": "https://tdiusa.com/images/before-after/kitchen-before.webp",
+      "found_on": "https://tdiusa.com/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 147140,
+      "sha1": "a63ea780cefd4a12",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Dated kitchen interior before renovation, cluttered countertops",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "kitchen-remodeling"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Useful as before-state for kitchen remodel; clutter and flat lighting limit appeal.",
+      "triaged_at": "2026-09-24T19:08:52Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "web:a64255b09252048b": {
@@ -415,6 +695,91 @@
       "triaged_at": "2026-09-17T19:30:12Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "web:aa20802e03ecd76f": {
+      "source": "website",
+      "storage": "site-assets/web/web-aa20802e03ecd76f.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/site-assets/web/web-aa20802e03ecd76f.jpg",
+      "origin_url": "https://tdiusa.com/images/before-after/newbuild-after.webp",
+      "found_on": "https://tdiusa.com/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 133884,
+      "sha1": "aa20802e03ecd76f",
+      "exif": {},
+      "category": "building",
+      "subject": "New two-storey craftsman home front exterior with landscaping",
+      "quality": 88,
+      "slots": {
+        "hero": 80,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "new-construction",
+        "home-remodeling"
+      ],
+      "flags": [],
+      "reason": "Photogenic completed home; wide, clean, good light; strong hero or portfolio image.",
+      "triaged_at": "2026-09-24T19:08:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:ace39e79af8fc8cc": {
+      "source": "website",
+      "storage": "site-assets/web/web-ace39e79af8fc8cc.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/site-assets/web/web-ace39e79af8fc8cc.jpg",
+      "origin_url": "https://tdiusa.com/images/before-after/garage-before.webp",
+      "found_on": "https://tdiusa.com/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 250404,
+      "sha1": "ace39e79af8fc8cc",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Timber-framed garage structure under construction in backyard",
+      "quality": 75,
+      "slots": {
+        "hero": 40,
+        "team": 0,
+        "services": 70
+      },
+      "service_slugs": [
+        "garage-construction",
+        "general-contracting",
+        "room-addition"
+      ],
+      "flags": [],
+      "reason": "Clear garage framing progress; good services image but no crew or branding present.",
+      "triaged_at": "2026-09-24T19:08:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:ad5fedc660743076": {
+      "source": "website",
+      "storage": "site-assets/web/web-ad5fedc660743076.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/site-assets/web/web-ad5fedc660743076.jpg",
+      "origin_url": "https://tdiusa.com/images/before-after/remodel-after.webp",
+      "found_on": "https://tdiusa.com/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 74682,
+      "sha1": "ad5fedc660743076",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Finished living room with fireplace and sliding glass door",
+      "quality": 82,
+      "slots": {
+        "hero": 65,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "home-remodeling",
+        "general-contracting"
+      ],
+      "flags": [],
+      "reason": "Clean after-renovation interior shot; good composition, no people or branding.",
+      "triaged_at": "2026-09-24T19:09:04Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "web:b5f0ecc20009bd93": {
       "source": "website",
       "storage": "site-assets/web/web-b5f0ecc20009bd93.jpg",
@@ -441,6 +806,63 @@
       "flags": [],
       "reason": "Bright, spacious construction scene; good for services cards, no crew present.",
       "triaged_at": "2026-09-17T19:30:12Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:ba1c9032f533eeb4": {
+      "source": "website",
+      "storage": "site-assets/web/web-ba1c9032f533eeb4.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/site-assets/web/web-ba1c9032f533eeb4.jpg",
+      "origin_url": "https://tdiusa.com/images/before-after/newbuild-before.webp",
+      "found_on": "https://tdiusa.com/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 169616,
+      "sha1": "ba1c9032f533eeb4",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Two-story house framed and wrapped under new construction",
+      "quality": 78,
+      "slots": {
+        "hero": 60,
+        "team": 0,
+        "services": 70
+      },
+      "service_slugs": [
+        "new-construction",
+        "general-contracting"
+      ],
+      "flags": [],
+      "reason": "Well-lit framing-stage exterior; readable context for new-construction service card.",
+      "triaged_at": "2026-09-24T19:09:04Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:c421dd8fa33288d1": {
+      "source": "website",
+      "storage": "site-assets/web/web-c421dd8fa33288d1.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/site-assets/web/web-c421dd8fa33288d1.jpg",
+      "origin_url": "https://tdiusa.com/images/before-after/bathroom-before.webp",
+      "found_on": "https://tdiusa.com/",
+      "width": 1376,
+      "height": 768,
+      "bytes": 85588,
+      "sha1": "c421dd8fa33288d1",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Dated bathroom with double vanity and shower tub combo",
+      "quality": 65,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "bathroom-remodeling"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Useful before-state bathroom photo; modest quality, fits remodeling service card.",
+      "triaged_at": "2026-09-24T19:09:04Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "web:d808bd7f0623c2ef": {
@@ -509,5 +931,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-17T19:30:29Z"
+  "triaged_at": "2026-09-24T19:09:04Z"
 }

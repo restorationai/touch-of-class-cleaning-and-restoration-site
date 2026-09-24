@@ -3,7 +3,7 @@
   "slug": "quality-contracting-inc",
   "origin": "https://staging.rankai-quality-contracting-inc.pages.dev",
   "origin_source": "staging",
-  "generated_at": "2026-09-14T20:22:51+00:00",
+  "generated_at": "2026-09-24T19:40:28+00:00",
   "stale_threshold_days": 365,
   "aging_threshold_days": 305,
   "gsc_enabled": false,
@@ -12,15 +12,15 @@
     "See docs/system-4-v2-activation.md for GSC v2 setup."
   ],
   "inspected_count": 120,
-  "fetched_html_count": 118,
-  "failed_html_count": 2,
+  "fetched_html_count": 78,
+  "failed_html_count": 42,
   "flag_counts": {},
   "candidates": [
     {
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/",
       "date": "2026-07-28",
       "date_source": "sitemap_lastmod",
-      "age_days": 48,
+      "age_days": 58,
       "flags": [],
       "sitemap_lastmod": "2026-07-28T15:01:14.821Z",
       "html_dates": {
@@ -37,7 +37,7 @@
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/about/",
       "date": "2026-07-28",
       "date_source": "sitemap_lastmod",
-      "age_days": 48,
+      "age_days": 58,
       "flags": [],
       "sitemap_lastmod": "2026-07-28T15:04:18.068Z",
       "html_dates": {
@@ -54,7 +54,7 @@
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/accessibility/",
       "date": "2026-08-01",
       "date_source": "sitemap_lastmod",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T20:09:21.960Z",
       "html_dates": {
@@ -71,7 +71,7 @@
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/blog/",
       "date": "2026-07-28",
       "date_source": "sitemap_lastmod",
-      "age_days": 48,
+      "age_days": 58,
       "flags": [],
       "sitemap_lastmod": "2026-07-28T15:03:51.032Z",
       "html_dates": {
@@ -88,7 +88,7 @@
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/blog/best-water-damage-restoration-company-in-auburn-ma/",
       "date": "2026-08-27",
       "date_source": "json_ld_date_modified",
-      "age_days": 18,
+      "age_days": 28,
       "flags": [],
       "sitemap_lastmod": "2026-08-27T00:00:00.000Z",
       "html_dates": {
@@ -105,7 +105,7 @@
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/blog/black-mold-vs-regular-mold/",
       "date": "2026-07-15",
       "date_source": "json_ld_date_modified",
-      "age_days": 61,
+      "age_days": 71,
       "flags": [],
       "sitemap_lastmod": "2026-07-15T00:00:00.000Z",
       "html_dates": {
@@ -122,7 +122,7 @@
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/blog/burst-pipe-emergency-checklist/",
       "date": "2026-07-13",
       "date_source": "json_ld_date_modified",
-      "age_days": 63,
+      "age_days": 73,
       "flags": [],
       "sitemap_lastmod": "2026-07-13T00:00:00.000Z",
       "html_dates": {
@@ -139,7 +139,7 @@
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/blog/choosing-a-restoration-company/",
       "date": "2026-07-20",
       "date_source": "json_ld_date_modified",
-      "age_days": 56,
+      "age_days": 66,
       "flags": [],
       "sitemap_lastmod": "2026-07-20T00:00:00.000Z",
       "html_dates": {
@@ -156,7 +156,7 @@
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/blog/does-homeowners-insurance-cover-water-damage/",
       "date": "2026-07-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 65,
+      "age_days": 75,
       "flags": [],
       "sitemap_lastmod": "2026-07-11T00:00:00.000Z",
       "html_dates": {
@@ -170,10 +170,21 @@
       "search_signals": null
     },
     {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/blog/does-renters-insurance-cover-water-damage/",
+      "date": "2026-09-24",
+      "date_source": "sitemap_lastmod",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T00:00:00.000Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/blog/fire-damage-restoration-process/",
       "date": "2026-07-22",
       "date_source": "json_ld_date_modified",
-      "age_days": 54,
+      "age_days": 64,
       "flags": [],
       "sitemap_lastmod": "2026-07-22T00:00:00.000Z",
       "html_dates": {
@@ -190,7 +201,7 @@
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/blog/how-to-test-for-mold/",
       "date": "2026-07-15",
       "date_source": "json_ld_date_modified",
-      "age_days": 61,
+      "age_days": 71,
       "flags": [],
       "sitemap_lastmod": "2026-07-15T00:00:00.000Z",
       "html_dates": {
@@ -207,7 +218,7 @@
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/blog/signs-of-hidden-mold/",
       "date": "2026-07-15",
       "date_source": "json_ld_date_modified",
-      "age_days": 61,
+      "age_days": 71,
       "flags": [],
       "sitemap_lastmod": "2026-07-15T00:00:00.000Z",
       "html_dates": {
@@ -221,13 +232,53 @@
       "search_signals": null
     },
     {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/blog/water-damage-hardwood-floors/",
+      "date": "2026-09-22",
+      "date_source": "json_ld_date_modified",
+      "age_days": 2,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-22T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-22",
+        "json_ld_date_modified": "2026-09-22",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/blog/water-damage-restoration-cost-ma/",
       "date": "2026-09-07",
-      "date_source": "sitemap_lastmod",
-      "age_days": 7,
+      "date_source": "json_ld_date_modified",
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-07T00:00:00.000Z",
-      "html_dates": {},
+      "html_dates": {
+        "json_ld_date_published": "2026-09-07",
+        "json_ld_date_modified": "2026-09-07",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/blog/water-damage-restoration-cost/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-20T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-20",
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
       "gsc": null,
       "search_signals": null
     },
@@ -235,7 +286,7 @@
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/blog/what-to-do-first-24-hours-water-damage/",
       "date": "2026-07-25",
       "date_source": "json_ld_date_modified",
-      "age_days": 51,
+      "age_days": 61,
       "flags": [],
       "sitemap_lastmod": "2026-07-25T00:00:00.000Z",
       "html_dates": {
@@ -250,22 +301,28 @@
     },
     {
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/blog/who-to-call-for-water-damage-restoration-in-auburn-ma/",
-      "date": "2026-09-14",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-09-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 6,
       "flags": [],
-      "sitemap_lastmod": "2026-09-14T00:00:00.000Z",
-      "html_dates": {},
+      "sitemap_lastmod": "2026-09-18T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-18",
+        "json_ld_date_modified": "2026-09-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
       "gsc": null,
       "search_signals": null
     },
     {
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/case-studies/",
-      "date": "2026-09-14",
+      "date": "2026-09-24",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-09-14T11:18:18.562Z",
+      "sitemap_lastmod": "2026-09-24T17:33:37.632Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -278,11 +335,11 @@
     },
     {
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/certifications/",
-      "date": "2026-09-14",
+      "date": "2026-09-24",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-09-14T11:18:18.562Z",
+      "sitemap_lastmod": "2026-09-24T17:33:37.632Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -297,7 +354,7 @@
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/contact/",
       "date": "2026-07-28",
       "date_source": "sitemap_lastmod",
-      "age_days": 48,
+      "age_days": 58,
       "flags": [],
       "sitemap_lastmod": "2026-07-28T15:04:29.698Z",
       "html_dates": {
@@ -311,12 +368,23 @@
       "search_signals": null
     },
     {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/emergency/",
-      "date": "2026-09-14",
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/embed/estimate/",
+      "date": "2026-09-24",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-09-14T11:18:18.562Z",
+      "sitemap_lastmod": "2026-09-24T17:33:37.632Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/emergency/",
+      "date": "2026-09-24",
+      "date_source": "sitemap_lastmod",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:33:37.632Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -331,7 +399,7 @@
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/privacy/",
       "date": "2026-07-28",
       "date_source": "sitemap_lastmod",
-      "age_days": 48,
+      "age_days": 58,
       "flags": [],
       "sitemap_lastmod": "2026-07-28T15:04:33.665Z",
       "html_dates": {
@@ -346,11 +414,11 @@
     },
     {
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/reviews/",
-      "date": "2026-09-14",
+      "date": "2026-09-24",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-09-14T11:18:18.562Z",
+      "sitemap_lastmod": "2026-09-24T17:33:37.632Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -365,7 +433,7 @@
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/",
       "date": "2026-07-28",
       "date_source": "sitemap_lastmod",
-      "age_days": 48,
+      "age_days": 58,
       "flags": [],
       "sitemap_lastmod": "2026-07-28T15:03:05.462Z",
       "html_dates": {
@@ -379,10 +447,919 @@
       "search_signals": null
     },
     {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/bellingham-ma/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.462Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/bellingham-ma/air-duct-cleaning/",
+      "date": "2026-09-21",
+      "date_source": "json_ld_date_modified",
+      "age_days": 3,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.545Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-21",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/bellingham-ma/asbestos-abatement/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.546Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/bellingham-ma/biohazard-cleanup/",
+      "date": "2026-09-21",
+      "date_source": "json_ld_date_modified",
+      "age_days": 3,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.546Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-21",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/bellingham-ma/carpet-cleaning/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.546Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/bellingham-ma/contents-restoration-storage/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.547Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/bellingham-ma/contents-restoration/",
+      "date": "2026-09-21",
+      "date_source": "json_ld_date_modified",
+      "age_days": 3,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.546Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-21",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/bellingham-ma/crawl-space-encapsulation/",
+      "date": "2026-09-21",
+      "date_source": "json_ld_date_modified",
+      "age_days": 3,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.547Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-21",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/bellingham-ma/emergency-board-up-tarping/",
+      "date": "2026-09-21",
+      "date_source": "json_ld_date_modified",
+      "age_days": 3,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.547Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-21",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/bellingham-ma/emergency-plumbing/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.548Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/bellingham-ma/fire-damage-restoration/",
+      "date": "2026-09-21",
+      "date_source": "json_ld_date_modified",
+      "age_days": 3,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.548Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-21",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/bellingham-ma/general-contracting/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.548Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/bellingham-ma/mold-remediation/",
+      "date": "2026-09-21",
+      "date_source": "json_ld_date_modified",
+      "age_days": 3,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.548Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-21",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/bellingham-ma/odor-removal/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.549Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/bellingham-ma/post-construction-cleaning/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.549Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/bellingham-ma/roofing/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.549Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/bellingham-ma/sewage-cleanup/",
+      "date": "2026-09-21",
+      "date_source": "json_ld_date_modified",
+      "age_days": 3,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.549Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-21",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/bellingham-ma/storm-damage-restoration/",
+      "date": "2026-09-21",
+      "date_source": "json_ld_date_modified",
+      "age_days": 3,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.549Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-21",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/bellingham-ma/water-cleanup/",
+      "date": "2026-09-21",
+      "date_source": "json_ld_date_modified",
+      "age_days": 3,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.550Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-21",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/bellingham-ma/water-damage-restoration/",
+      "date": "2026-09-21",
+      "date_source": "json_ld_date_modified",
+      "age_days": 3,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.550Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-21",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/bellingham-ma/water-leak-detection/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.550Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/east-douglas-ma/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.459Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/east-douglas-ma/air-duct-cleaning/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.503Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/east-douglas-ma/asbestos-abatement/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.503Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/east-douglas-ma/biohazard-cleanup/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.503Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/east-douglas-ma/carpet-cleaning/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.504Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/east-douglas-ma/contents-restoration-storage/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.504Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/east-douglas-ma/contents-restoration/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.504Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/east-douglas-ma/crawl-space-encapsulation/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.504Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/east-douglas-ma/emergency-board-up-tarping/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.505Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/east-douglas-ma/emergency-plumbing/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.505Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/east-douglas-ma/fire-damage-restoration/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.505Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/east-douglas-ma/general-contracting/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.505Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/east-douglas-ma/mold-remediation/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.506Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/east-douglas-ma/odor-removal/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.506Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/east-douglas-ma/post-construction-cleaning/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.506Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/east-douglas-ma/roofing/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.506Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/east-douglas-ma/sewage-cleanup/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.506Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/east-douglas-ma/storm-damage-restoration/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.507Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/east-douglas-ma/water-cleanup/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.508Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/east-douglas-ma/water-damage-restoration/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.507Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/east-douglas-ma/water-leak-detection/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.507Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/fiskdale-ma/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.460Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/fiskdale-ma/air-duct-cleaning/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.525Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/fiskdale-ma/asbestos-abatement/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.525Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/fiskdale-ma/biohazard-cleanup/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.525Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/fiskdale-ma/carpet-cleaning/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.526Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/fiskdale-ma/contents-restoration-storage/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.526Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/fiskdale-ma/contents-restoration/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.526Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/fiskdale-ma/crawl-space-encapsulation/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.526Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/fiskdale-ma/emergency-board-up-tarping/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.527Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/fiskdale-ma/emergency-plumbing/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.527Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/fiskdale-ma/fire-damage-restoration/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.527Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/fiskdale-ma/general-contracting/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.527Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/fiskdale-ma/mold-remediation/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.528Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/fiskdale-ma/odor-removal/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.528Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/fiskdale-ma/post-construction-cleaning/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.528Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/fiskdale-ma/roofing/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.528Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/fiskdale-ma/sewage-cleanup/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.528Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/fiskdale-ma/storm-damage-restoration/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.529Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/fiskdale-ma/water-cleanup/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.530Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/fiskdale-ma/water-damage-restoration/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.529Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/fiskdale-ma/water-leak-detection/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.529Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/framingham-ma/",
       "date": "2026-08-11",
       "date_source": "sitemap_lastmod",
-      "age_days": 34,
+      "age_days": 44,
       "flags": [],
       "sitemap_lastmod": "2026-08-11T17:43:25.501Z",
       "html_dates": {
@@ -399,7 +1376,7 @@
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/framingham-ma/air-duct-cleaning/",
       "date": "2026-08-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 34,
+      "age_days": 44,
       "flags": [],
       "sitemap_lastmod": "2026-08-11T17:46:14.220Z",
       "html_dates": {
@@ -413,10 +1390,21 @@
       "search_signals": null
     },
     {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/framingham-ma/asbestos-abatement/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.477Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/framingham-ma/biohazard-cleanup/",
       "date": "2026-08-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 34,
+      "age_days": 44,
       "flags": [],
       "sitemap_lastmod": "2026-08-11T17:40:03.290Z",
       "html_dates": {
@@ -430,10 +1418,32 @@
       "search_signals": null
     },
     {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/framingham-ma/carpet-cleaning/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.477Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/framingham-ma/contents-restoration-storage/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.477Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/framingham-ma/contents-restoration/",
       "date": "2026-08-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 34,
+      "age_days": 44,
       "flags": [],
       "sitemap_lastmod": "2026-08-11T17:46:16.804Z",
       "html_dates": {
@@ -450,7 +1460,7 @@
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/framingham-ma/crawl-space-encapsulation/",
       "date": "2026-08-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 34,
+      "age_days": 44,
       "flags": [],
       "sitemap_lastmod": "2026-08-11T17:46:24.137Z",
       "html_dates": {
@@ -467,7 +1477,7 @@
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/framingham-ma/emergency-board-up-tarping/",
       "date": "2026-08-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 34,
+      "age_days": 44,
       "flags": [],
       "sitemap_lastmod": "2026-08-11T17:41:51.885Z",
       "html_dates": {
@@ -481,10 +1491,21 @@
       "search_signals": null
     },
     {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/framingham-ma/emergency-plumbing/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.478Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/framingham-ma/fire-damage-restoration/",
       "date": "2026-08-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 34,
+      "age_days": 44,
       "flags": [],
       "sitemap_lastmod": "2026-08-11T17:33:03.666Z",
       "html_dates": {
@@ -498,10 +1519,21 @@
       "search_signals": null
     },
     {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/framingham-ma/general-contracting/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.478Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/framingham-ma/mold-remediation/",
       "date": "2026-08-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 34,
+      "age_days": 44,
       "flags": [],
       "sitemap_lastmod": "2026-08-11T17:32:57.407Z",
       "html_dates": {
@@ -515,10 +1547,43 @@
       "search_signals": null
     },
     {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/framingham-ma/odor-removal/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.478Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/framingham-ma/post-construction-cleaning/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.478Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/framingham-ma/roofing/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.478Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/framingham-ma/sewage-cleanup/",
       "date": "2026-08-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 34,
+      "age_days": 44,
       "flags": [],
       "sitemap_lastmod": "2026-08-11T17:37:31.606Z",
       "html_dates": {
@@ -535,7 +1600,7 @@
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/framingham-ma/storm-damage-restoration/",
       "date": "2026-08-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 34,
+      "age_days": 44,
       "flags": [],
       "sitemap_lastmod": "2026-08-11T17:37:29.881Z",
       "html_dates": {
@@ -549,10 +1614,27 @@
       "search_signals": null
     },
     {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/framingham-ma/water-cleanup/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.479Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/framingham-ma/water-damage-restoration/",
       "date": "2026-08-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 34,
+      "age_days": 44,
       "flags": [],
       "sitemap_lastmod": "2026-08-11T17:33:01.258Z",
       "html_dates": {
@@ -566,12 +1648,23 @@
       "search_signals": null
     },
     {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/hopkinton-ma/",
-      "date": "2026-08-11",
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/framingham-ma/water-leak-detection/",
+      "date": "2026-09-23",
       "date_source": "sitemap_lastmod",
-      "age_days": 34,
+      "age_days": 1,
       "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:43:23.471Z",
+      "sitemap_lastmod": "2026-09-23T14:11:58.479Z",
+      "html_dates": {},
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/franklin-town-ma/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:58.463Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -583,15 +1676,15 @@
       "search_signals": null
     },
     {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/hopkinton-ma/air-duct-cleaning/",
-      "date": "2026-08-11",
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/franklin-town-ma/air-duct-cleaning/",
+      "date": "2026-09-22",
       "date_source": "json_ld_date_modified",
-      "age_days": 34,
+      "age_days": 2,
       "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:45:42.966Z",
+      "sitemap_lastmod": "2026-09-23T14:11:58.561Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
+        "json_ld_date_modified": "2026-09-22",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -600,185 +1693,26 @@
       "search_signals": null
     },
     {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/hopkinton-ma/biohazard-cleanup/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:39:57.479Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/hopkinton-ma/contents-restoration/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:45:32.941Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/hopkinton-ma/crawl-space-encapsulation/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:45:52.537Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/hopkinton-ma/emergency-board-up-tarping/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:41:25.592Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/hopkinton-ma/fire-damage-restoration/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T16:13:00.850Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/hopkinton-ma/mold-remediation/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T16:13:47.831Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/hopkinton-ma/sewage-cleanup/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:36:58.849Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/hopkinton-ma/storm-damage-restoration/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:37:00.733Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/hopkinton-ma/water-damage-restoration/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T16:12:17.627Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/natick-ma/",
-      "date": "2026-08-11",
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/franklin-town-ma/asbestos-abatement/",
+      "date": "2026-09-23",
       "date_source": "sitemap_lastmod",
-      "age_days": 34,
+      "age_days": 1,
       "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:43:30.650Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
+      "sitemap_lastmod": "2026-09-23T14:11:58.561Z",
+      "html_dates": {},
       "gsc": null,
       "search_signals": null
     },
     {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/natick-ma/air-duct-cleaning/",
-      "date": "2026-08-11",
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/franklin-town-ma/biohazard-cleanup/",
+      "date": "2026-09-22",
       "date_source": "json_ld_date_modified",
-      "age_days": 34,
+      "age_days": 2,
       "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:46:57.316Z",
+      "sitemap_lastmod": "2026-09-23T14:11:58.561Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
+        "json_ld_date_modified": "2026-09-22",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -787,372 +1721,37 @@
       "search_signals": null
     },
     {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/natick-ma/biohazard-cleanup/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:40:29.195Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/natick-ma/contents-restoration/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:46:37.818Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/natick-ma/crawl-space-encapsulation/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:47:01.754Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/natick-ma/emergency-board-up-tarping/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:42:01.291Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/natick-ma/fire-damage-restoration/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:33:42.417Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/natick-ma/mold-remediation/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:33:44.778Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/natick-ma/sewage-cleanup/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:37:48.452Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/natick-ma/storm-damage-restoration/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:37:42.491Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/natick-ma/water-damage-restoration/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:32:58.712Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/needham-ma/",
-      "date": "2026-08-11",
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/franklin-town-ma/carpet-cleaning/",
+      "date": "2026-09-23",
       "date_source": "sitemap_lastmod",
-      "age_days": 34,
+      "age_days": 1,
       "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:44:06.252Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
+      "sitemap_lastmod": "2026-09-23T14:11:58.562Z",
+      "html_dates": {},
       "gsc": null,
       "search_signals": null
     },
     {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/needham-ma/air-duct-cleaning/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:47:50.768Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/needham-ma/biohazard-cleanup/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:40:38.843Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/needham-ma/contents-restoration/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:47:47.742Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/needham-ma/crawl-space-encapsulation/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:48:11.456Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/needham-ma/emergency-board-up-tarping/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:42:10.407Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/needham-ma/fire-damage-restoration/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:34:41.150Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/needham-ma/mold-remediation/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:34:41.217Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/needham-ma/sewage-cleanup/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:38:34.968Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/needham-ma/storm-damage-restoration/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:38:26.541Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/needham-ma/water-damage-restoration/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:34:33.306Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/newton-ma/",
-      "date": "2026-08-11",
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/franklin-town-ma/contents-restoration-storage/",
+      "date": "2026-09-23",
       "date_source": "sitemap_lastmod",
-      "age_days": 34,
+      "age_days": 1,
       "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:44:05.251Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
+      "sitemap_lastmod": "2026-09-23T14:11:58.562Z",
+      "html_dates": {},
       "gsc": null,
       "search_signals": null
     },
     {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/newton-ma/air-duct-cleaning/",
-      "date": "2026-08-11",
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/franklin-town-ma/contents-restoration/",
+      "date": "2026-09-22",
       "date_source": "json_ld_date_modified",
-      "age_days": 34,
+      "age_days": 2,
       "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:48:32.269Z",
+      "sitemap_lastmod": "2026-09-23T14:11:58.562Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
+        "json_ld_date_modified": "2026-09-22",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1161,15 +1760,15 @@
       "search_signals": null
     },
     {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/newton-ma/biohazard-cleanup/",
-      "date": "2026-08-11",
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/franklin-town-ma/crawl-space-encapsulation/",
+      "date": "2026-09-22",
       "date_source": "json_ld_date_modified",
-      "age_days": 34,
+      "age_days": 2,
       "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:40:42.426Z",
+      "sitemap_lastmod": "2026-09-23T14:11:58.562Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
+        "json_ld_date_modified": "2026-09-22",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1178,15 +1777,15 @@
       "search_signals": null
     },
     {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/newton-ma/contents-restoration/",
-      "date": "2026-08-11",
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/franklin-town-ma/emergency-board-up-tarping/",
+      "date": "2026-09-22",
       "date_source": "json_ld_date_modified",
-      "age_days": 34,
+      "age_days": 2,
       "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:48:29.240Z",
+      "sitemap_lastmod": "2026-09-23T14:11:58.563Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
+        "json_ld_date_modified": "2026-09-22",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1195,852 +1794,13 @@
       "search_signals": null
     },
     {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/newton-ma/crawl-space-encapsulation/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:48:35.445Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/newton-ma/emergency-board-up-tarping/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:42:40.170Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/newton-ma/fire-damage-restoration/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:35:17.196Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/newton-ma/mold-remediation/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:35:30.474Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/newton-ma/sewage-cleanup/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:39:04.123Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/newton-ma/storm-damage-restoration/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:39:07.301Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/newton-ma/water-damage-restoration/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:35:09.623Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/shrewsbury-ma/",
-      "date": "2026-08-01",
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/franklin-town-ma/emergency-plumbing/",
+      "date": "2026-09-23",
       "date_source": "sitemap_lastmod",
-      "age_days": 44,
+      "age_days": 1,
       "flags": [],
-      "sitemap_lastmod": "2026-08-01T20:00:41.054Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/shrewsbury-ma/air-duct-cleaning/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T20:03:57.051Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/shrewsbury-ma/biohazard-cleanup/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T19:56:42.692Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/shrewsbury-ma/contents-restoration/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T20:03:37.371Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/shrewsbury-ma/crawl-space-encapsulation/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T20:04:07.794Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/shrewsbury-ma/emergency-board-up-tarping/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T19:59:30.046Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/shrewsbury-ma/fire-damage-restoration/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T19:50:08.731Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/shrewsbury-ma/mold-remediation/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T19:50:11.467Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/shrewsbury-ma/sewage-cleanup/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T19:54:05.293Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/shrewsbury-ma/storm-damage-restoration/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T19:53:22.031Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/shrewsbury-ma/water-damage-restoration/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T19:49:24.670Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/southborough-ma/",
-      "date": "2026-08-11",
-      "date_source": "sitemap_lastmod",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:42:55.538Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/southborough-ma/air-duct-cleaning/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:45:06.022Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/southborough-ma/biohazard-cleanup/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:39:49.999Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/southborough-ma/contents-restoration/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:45:02.878Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/southborough-ma/crawl-space-encapsulation/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:45:31.417Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/southborough-ma/emergency-board-up-tarping/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:41:26.049Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/southborough-ma/fire-damage-restoration/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T16:10:40.834Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/southborough-ma/mold-remediation/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T16:11:28.342Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/southborough-ma/sewage-cleanup/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:36:46.183Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/southborough-ma/storm-damage-restoration/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:36:43.406Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/southborough-ma/water-damage-restoration/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T16:09:55.600Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/wellesley-ma/",
-      "date": "2026-08-11",
-      "date_source": "sitemap_lastmod",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:43:37.038Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/wellesley-ma/air-duct-cleaning/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:47:24.504Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/wellesley-ma/biohazard-cleanup/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:40:34.162Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/wellesley-ma/contents-restoration/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:47:06.192Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/wellesley-ma/crawl-space-encapsulation/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:47:41.034Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/wellesley-ma/emergency-board-up-tarping/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:42:13.530Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/wellesley-ma/fire-damage-restoration/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:33:52.640Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/wellesley-ma/mold-remediation/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:34:27.079Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/wellesley-ma/sewage-cleanup/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:38:17.098Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/wellesley-ma/storm-damage-restoration/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:38:16.028Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/wellesley-ma/water-damage-restoration/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:33:50.720Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/westborough-ma/",
-      "date": "2026-08-11",
-      "date_source": "sitemap_lastmod",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:42:48.970Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/westborough-ma/air-duct-cleaning/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:44:48.741Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/westborough-ma/biohazard-cleanup/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:39:47.301Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/westborough-ma/contents-restoration/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:44:22.296Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/westborough-ma/crawl-space-encapsulation/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:44:49.872Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/westborough-ma/emergency-board-up-tarping/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:41:15.853Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/westborough-ma/fire-damage-restoration/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T16:08:27.380Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/westborough-ma/mold-remediation/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T16:09:11.902Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/westborough-ma/sewage-cleanup/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:36:14.304Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/westborough-ma/storm-damage-restoration/",
-      "date": "2026-08-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 34,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-11T17:36:13.684Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
+      "sitemap_lastmod": "2026-09-23T14:11:58.563Z",
+      "html_dates": {},
       "gsc": null,
       "search_signals": null
     }

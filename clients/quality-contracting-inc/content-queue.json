@@ -435,7 +435,7 @@
     },
     {
       "id": "2026-08-27-does-renters-insurance-cover-water-damage",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-27T06:15:00Z",
       "written_at": "2026-09-24T19:39:54Z",
       "post_url": "https://qualitycontracting.us/blog/does-renters-insurance-cover-water-damage/",
@@ -485,7 +485,8 @@
           "context": "er extraction, structural drying to the IICRC S500 standard, mold prevention, and the",
           "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
         }
-      ]
+      ],
+      "published_verified_at": "2026-09-24T19:40:13Z"
     },
     {
       "id": "2026-08-27-how-to-fix-water-damage-on-ceiling",
