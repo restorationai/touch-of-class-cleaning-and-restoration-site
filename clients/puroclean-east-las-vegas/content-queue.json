@@ -925,10 +925,10 @@
     },
     {
       "id": "2026-08-09-unattended-death-cleanup",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-10T00:57:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-24T19:26:05Z",
+      "post_url": "https://purocleaneastlasvegas.com/blog/unattended-death-cleanup/",
       "priority": 1,
       "primary_keyword": "unattended death cleanup",
       "intent": "transactional",
@@ -957,7 +957,27 @@
         "https://www.cdc.gov/niosh/topics/bbp/"
       ],
       "notes": "SENSITIVE TOPIC: writer must apply sensitive-content guardrails. Compassionate, practical, zero graphic detail. 480/mo at $110 CPC, the highest-value biohazard term in the pool, and the site has no dedicated page for it: this post carries the query until one exists. Cover who to call first, what not to do, insurance, and discretion.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/unattended-death-cleanup.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "as** PuroClean of East Las Vegas is an IICRC-certified restoration company based at",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/unattended-death-cleanup.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified restoration",
+          "context": "PuroClean of East Las Vegas is an IICRC-certified restoration company based at 2777 N Lamb Blvd, Las",
+          "reason": "names a certification not present in brand.certifications"
+        }
+      ]
     },
     {
       "id": "2026-08-09-diy-mold-remediation",
@@ -1305,6 +1325,192 @@
         }
       ],
       "published_verified_at": "2026-09-22T15:31:41Z"
+    },
+    {
+      "id": "2026-09-24-free-mold-testing-las-vegas",
+      "status": "queued",
+      "queued_at": "2026-09-24T19:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "free mold testing",
+      "intent": "commercial",
+      "volume": 480,
+      "kd": 0,
+      "fan_out_cluster": [
+        "mold test cost",
+        "how much does a mold test cost",
+        "companies that test for mold",
+        "is mold testing worth it",
+        "mold testing las vegas",
+        "post remediation mold testing"
+      ],
+      "suggested_slug": "free-mold-testing-las-vegas",
+      "suggested_title": "Free mold testing in Las Vegas: what you actually get (and when to pay for an independent test)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-inspection-testing/",
+        "/services/mold-remediation/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/"
+      ],
+      "service_tags": [
+        "mold-inspection-testing",
+        "mold-remediation"
+      ],
+      "city_anchor": "las-vegas-nv",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-testing-or-sampling",
+        "https://www.epa.gov/mold/samplingtesting-mold-necessary"
+      ],
+      "notes": "Commercial query with a $35.73 CPC, which means competitors pay heavily for it; own it organically. Angle comes straight from the ChatGPT decomposition: be upfront about the conflict of interest when the company that tests also sells remediation, explain what a free visual inspection covers versus lab-analyzed samples, and say when an independent assessor makes sense. Keep cost talk to ranges and send the full pricing breakdown to the banked 'mold inspection cost' item so the two posts don't compete. The goals list names Mold Remediation as a stated target."
+    },
+    {
+      "id": "2026-09-24-how-to-test-for-mold-in-apartment-las-vegas",
+      "status": "queued",
+      "queued_at": "2026-09-24T19:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to test for mold in apartment",
+      "intent": "informational",
+      "volume": 720,
+      "kd": 21,
+      "fan_out_cluster": [
+        "free mold testing for renters",
+        "how to test for mold inside walls",
+        "how to test for mold in the air",
+        "are mold test kits accurate",
+        "how to read mold test results",
+        "what does a mold inspector do"
+      ],
+      "suggested_slug": "how-to-test-for-mold-in-apartment-las-vegas",
+      "suggested_title": "How to test for mold in an apartment in Las Vegas (and who pays for it)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/mold-inspection-testing/",
+        "/services/mold-remediation/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/",
+        "/blog/mold-after-water-damage/"
+      ],
+      "service_tags": [
+        "mold-inspection-testing",
+        "mold-remediation"
+      ],
+      "city_anchor": "las-vegas-nv",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+        "https://www.leg.state.nv.us/nrs/nrs-118a.html"
+      ],
+      "notes": "Renter-focused angle the existing how-to-test post only touches in passing. Las Vegas has a large renter population. Cover: documenting the problem, giving written notice to the landlord, Nevada habitability duties under NRS 118A (describe these accurately, no legal advice), who usually pays for testing, and why AC condensate lines and shared walls between units are the common moisture sources. Fold in 'free mold testing for renters' as an H2."
+    },
+    {
+      "id": "2026-09-24-ermi-mold-test-las-vegas",
+      "status": "queued",
+      "queued_at": "2026-09-24T19:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "ermi mold test",
+      "intent": "informational",
+      "volume": 3600,
+      "kd": 0,
+      "fan_out_cluster": [
+        "what does a mold inspector do",
+        "how to test for mold in the air",
+        "how to read mold test results",
+        "test for black mold",
+        "is mold testing worth it"
+      ],
+      "suggested_slug": "ermi-mold-test-las-vegas",
+      "suggested_title": "ERMI mold test explained: is it worth it for a Las Vegas home?",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/mold-inspection-testing/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/black-mold-vs-regular-mold/",
+        "/services/mold-remediation/"
+      ],
+      "service_tags": [
+        "mold-inspection-testing"
+      ],
+      "city_anchor": "las-vegas-nv",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-testing-or-sampling",
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
+      ],
+      "notes": "3,600 searches a month with KD 0 and no local competitor explaining it. Be accurate: ERMI is a DNA-based dust analysis developed as a research index, and EPA does not endorse it for routine homeowner decisions. Contrast it with air sampling, surface sampling and a moisture-led inspection. The desert angle: baseline outdoor spore counts in Las Vegas are low, so indoor comparisons read differently than they do in humid markets."
+    },
+    {
+      "id": "2026-09-24-how-long-does-a-mold-test-take-henderson",
+      "status": "queued",
+      "queued_at": "2026-09-24T19:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how long does a mold test take",
+      "intent": "informational",
+      "volume": 140,
+      "kd": 0,
+      "fan_out_cluster": [
+        "how to read mold test results",
+        "what does a mold inspector do",
+        "post remediation mold testing",
+        "mold clearance testing",
+        "how to test for mold in the air"
+      ],
+      "suggested_slug": "how-long-does-a-mold-test-take-henderson",
+      "suggested_title": "How long does a mold test take? Timeline from inspection to lab results in Henderson",
+      "target_word_count": 1100,
+      "internal_link_targets": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/henderson-nv/mold-inspection-testing/",
+        "/blog/how-to-test-for-mold/",
+        "/services/mold-remediation/"
+      ],
+      "service_tags": [
+        "mold-inspection-testing",
+        "mold-remediation"
+      ],
+      "city_anchor": "henderson-nv",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-testing-or-sampling"
+      ],
+      "notes": "Question-format page built for AI retrieval. Lead with a direct answer in the first two sentences (typically 1 to 3 hours on site, plus lab turnaround), then break down the on-site visit, sample types, the lab window and what happens next. Anchored to Henderson because the client's goals list it as a priority area. Mention clearance testing after remediation as its own timeline."
+    },
+    {
+      "id": "2026-09-24-should-i-get-a-mold-inspection-when-buying-a-house-henderson",
+      "status": "queued",
+      "queued_at": "2026-09-24T19:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "should i get a mold inspection when buying a house",
+      "intent": "informational",
+      "volume": 50,
+      "kd": 0,
+      "fan_out_cluster": [
+        "mold test home inspection",
+        "how to test for mold inside walls",
+        "how much does a mold test cost",
+        "what does a mold inspector do",
+        "how long does a mold test take"
+      ],
+      "suggested_slug": "should-i-get-a-mold-inspection-when-buying-a-house-henderson",
+      "suggested_title": "Should I get a mold inspection when buying a house in Henderson?",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/henderson-nv/mold-inspection-testing/",
+        "/blog/signs-of-hidden-mold/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/mold-after-water-damage/"
+      ],
+      "service_tags": [
+        "mold-inspection-testing"
+      ],
+      "city_anchor": "henderson-nv",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+        "https://www.epa.gov/mold/samplingtesting-mold-necessary"
+      ],
+      "notes": "Buyer-stage query. Fold in 'mold test home inspection' (1,000 searches a month, KD 11) as the main H2: a standard home inspection usually does NOT include mold sampling. Cover red flags in Henderson resale homes (water heater closets, AC air handlers, slab-leak history, stucco staining), inspection timing within the option period, and what to ask for in the report."
     }
   ]
 }
