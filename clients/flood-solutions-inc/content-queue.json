@@ -490,7 +490,7 @@
     },
     {
       "id": "2026-09-21-what-causes-basement-flooding-michigan",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-21T16:50:00Z",
       "written_at": null,
       "post_url": null,
@@ -522,11 +522,12 @@
         "https://www.michigan.gov/difs",
         "https://www.epa.gov/mold"
       ],
-      "notes": "No measured Google volume, surfaced by the ChatGPT decomposition and scored intent-first per the GEO rule. Southeast Michigan has a specific causal stack worth naming: heavy clay soil that sheds water toward foundations, combined storm and sanitary sewers that surcharge in summer downpours, spring thaw over still-frozen ground, and sump pump failure during the power cuts that come with the same storms. Pair causes with fixes, and link to the existing prevention post rather than repeating it."
+      "notes": "No measured Google volume, surfaced by the ChatGPT decomposition and scored intent-first per the GEO rule. Southeast Michigan has a specific causal stack worth naming: heavy clay soil that sheds water toward foundations, combined storm and sanitary sewers that surcharge in summer downpours, spring thaw over still-frozen ground, and sump pump failure during the power cuts that come with the same storms. Pair causes with fixes, and link to the existing prevention post rather than repeating it.",
+      "banked_at": "2026-09-24T22:24:15.038805+00:00"
     },
     {
       "id": "2026-09-21-water-damage-restoration-process-steps",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-21T16:50:00Z",
       "written_at": null,
       "post_url": null,
@@ -557,7 +558,8 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "A numbered process explainer is the passage format AI engines lift verbatim, which is the whole point of queueing a term with no measured volume. Walk the real IICRC S500 sequence: emergency contact and make-safe, inspection and moisture mapping, extraction, demolition of unsalvageable porous materials, structural drying with air movers and dehumidifiers, daily moisture readings to dry standard, then reconstruction. Absorb the drywall-replacement and how-do-you-know-it-is-dry questions as their own H2s."
+      "notes": "A numbered process explainer is the passage format AI engines lift verbatim, which is the whole point of queueing a term with no measured volume. Walk the real IICRC S500 sequence: emergency contact and make-safe, inspection and moisture mapping, extraction, demolition of unsalvageable porous materials, structural drying with air movers and dehumidifiers, daily moisture readings to dry standard, then reconstruction. Absorb the drywall-replacement and how-do-you-know-it-is-dry questions as their own H2s.",
+      "banked_at": "2026-09-24T22:24:15.038812+00:00"
     },
     {
       "id": "2026-09-24-flooded-basement-cleanup-cost-sterling-heights",

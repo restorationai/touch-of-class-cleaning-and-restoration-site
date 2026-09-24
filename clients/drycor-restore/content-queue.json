@@ -288,7 +288,7 @@
     },
     {
       "id": "2026-09-03-how-soon-can-mold-grow-after-water-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-03T20:29:00Z",
       "written_at": null,
       "post_url": null,
@@ -321,7 +321,8 @@
         "https://www.epa.gov/mold/mold-cleanup-your-home"
       ],
       "notes": "No Google volume, surfaced by the ChatGPT decomposition: queued as AI-retrieval fuel, not for classic search traffic. Answer the timeline question in the first two sentences so an AI engine can lift the passage verbatim. Existing blog posts cover hidden mold signs, testing, and black mold, but none cover the growth timeline. Lean on the Tampa humidity angle and DRYCOR's NAERMC mold credential.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-24T22:24:15.035300+00:00"
     },
     {
       "id": "2026-09-03-how-to-file-a-water-damage-insurance-claim",
@@ -438,7 +439,7 @@
     },
     {
       "id": "2026-09-24-what-to-do-after-a-house-fire-tampa",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T21:41:56Z",
       "written_at": null,
       "post_url": null,
@@ -474,11 +475,12 @@
         "https://www.myfloridacfo.com/division/consumers/consumerprotections/assignmentofbenefits"
       ],
       "notes": "Decision-stage, KD 0, 260/mo. ChatGPT's Tampa fire answer already cites drycor.com, so a structured first-72-hours checklist reinforces that citation. Lead with fire-department clearance, then insurer contact, documentation, board-up, and firefighting water. Emotionally sensitive: calm tone, no scare tactics.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-24T22:24:15.035306+00:00"
     },
     {
       "id": "2026-09-24-does-homeowners-insurance-cover-fire-damage-florida",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T21:41:56Z",
       "written_at": null,
       "post_url": null,
@@ -510,11 +512,12 @@
         "https://www.iii.org/article/what-covered-standard-homeowners-policy"
       ],
       "notes": "Insurance decision-stage rule: readers hire within 24 to 48 hours. Cluster absorbs homeowners insurance for fire damage (1000/mo). Explain dwelling, contents, and loss-of-use categories; Florida AOB limits. No legal or coverage advice, always defer to the policy. Cross-link the existing water-damage insurance post.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-24T22:24:15.035308+00:00"
     },
     {
       "id": "2026-09-24-fire-damage-restoration-cost-thonotosassa",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T21:41:56Z",
       "written_at": null,
       "post_url": null,
@@ -546,7 +549,8 @@
         "https://www.iicrc.org/page/IICRCS700"
       ],
       "notes": "Commercial intent, KD 1, no cost page exists (mirrors the written water damage cost post). Present cost drivers and mitigation vs reconstruction split rather than hard price promises. Do not quote specific prices unless sourced.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-24T22:24:15.035310+00:00"
     }
   ]
 }

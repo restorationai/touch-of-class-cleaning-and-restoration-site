@@ -135,7 +135,7 @@
           "severity": "error",
           "matched": "56 reviews",
           "context": "a holds a 4.9-star Google rating across 56 reviews, making them one of the better-reviewed",
-          "reason": "claims 56 reviews but synced gbpReviewCount is 29 (allowed ±20%: 23-34)"
+          "reason": "claims 56 reviews but synced gbpReviewCount is 29 (allowed \u00b120%: 23-34)"
         },
         {
           "file": "src/content/blog/best-water-damage-restoration-company-in-santa-maria-ca.md",
@@ -144,7 +144,7 @@
           "severity": "error",
           "matched": "56 reviews",
           "context": "d losses in the Santa Maria area. With 56 reviews at 4.9 stars, they have a consistent tr",
-          "reason": "claims 56 reviews but synced gbpReviewCount is 29 (allowed ±20%: 23-34)"
+          "reason": "claims 56 reviews but synced gbpReviewCount is 29 (allowed \u00b120%: 23-34)"
         },
         {
           "file": "src/content/blog/best-water-damage-restoration-company-in-santa-maria-ca.md",
@@ -153,7 +153,7 @@
           "severity": "error",
           "matched": "80 Google reviews",
           "context": "twork, holding a 4.8-star rating across 80 Google reviews, the highest review count of any compan",
-          "reason": "claims 80 reviews but synced gbpReviewCount is 29 (allowed ±20%: 23-34)"
+          "reason": "claims 80 reviews but synced gbpReviewCount is 29 (allowed \u00b120%: 23-34)"
         },
         {
           "file": "src/content/blog/best-water-damage-restoration-company-in-santa-maria-ca.md",
@@ -162,7 +162,7 @@
           "severity": "error",
           "matched": "55 reviews",
           "context": "ta Maria holds a 4.9-star rating across 55 reviews. Their name suggests a primary focus on",
-          "reason": "claims 55 reviews but synced gbpReviewCount is 29 (allowed ±20%: 23-34)"
+          "reason": "claims 55 reviews but synced gbpReviewCount is 29 (allowed \u00b120%: 23-34)"
         },
         {
           "file": "src/content/blog/best-water-damage-restoration-company-in-santa-maria-ca.md",
@@ -171,7 +171,7 @@
           "severity": "error",
           "matched": "55 reviews",
           "context": "suppression and water intrusion. With 55 reviews at 4.9 stars, they have a strong local",
-          "reason": "claims 55 reviews but synced gbpReviewCount is 29 (allowed ±20%: 23-34)"
+          "reason": "claims 55 reviews but synced gbpReviewCount is 29 (allowed \u00b120%: 23-34)"
         }
       ]
     },
@@ -609,7 +609,7 @@
     },
     {
       "id": "2026-08-26-call-insurance-or-restoration-company-first",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T14:20:00Z",
       "written_at": null,
       "post_url": null,
@@ -643,11 +643,12 @@
       ],
       "notes": "Decision-stage: this gets asked in the 24-48 hours before anyone hires. The existing insurance blog answers what is covered, not the sequencing. Key point to lead with: the policy's duty-to-mitigate means calling a mitigation crew immediately does not void a claim, and the homeowner picks the contractor, not the carrier. Link to the CDI page.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-24T22:24:15.032482+00:00"
     },
     {
       "id": "2026-08-26-water-damage-categories-and-classes",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T14:20:00Z",
       "written_at": null,
       "post_url": null,
@@ -683,11 +684,12 @@
       ],
       "notes": "Definition content is what AI assistants quote verbatim, and this one has no coverage in the editorial partition. Absorbs the gray-water DIY-safety question as a section. Make the clean-water-degrades-to-category-2-in-48-hours point explicit: it is the single best argument for calling fast.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-24T22:24:15.032488+00:00"
     },
     {
       "id": "2026-08-26-dry-out-water-damage-yourself-or-hire-a-pro",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T14:20:00Z",
       "written_at": null,
       "post_url": null,
@@ -722,11 +724,12 @@
       ],
       "notes": "Last query before the phone call. Be honest about the DIY-viable case (small, clean-water, caught inside a few hours) so the pro case reads as advice instead of a pitch. Anchor the cut-off on measurable things: standing water over a small footprint, water in wall cavities or subfloor, any category 2 or 3 source, anyone in the house with asthma.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-24T22:24:15.032490+00:00"
     },
     {
       "id": "2026-08-26-signs-of-hidden-water-damage-behind-walls",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T14:20:00Z",
       "written_at": null,
       "post_url": null,
@@ -761,7 +764,8 @@
       ],
       "notes": "/blog/signs-of-hidden-mold/ covers hidden mold, which is the downstream problem, not the leak itself. Write this as the upstream piece and interlink both ways. Central Coast angle: slab-on-grade construction is common here, so cover slab leaks and the warm-floor tell.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-24T22:24:15.032492+00:00"
     },
     {
       "id": "2026-09-15-coastal-restoration",

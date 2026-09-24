@@ -576,7 +576,7 @@
     },
     {
       "id": "2026-08-27-does-homeowners-insurance-cover-fire-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T06:37:05Z",
       "written_at": null,
       "post_url": null,
@@ -609,11 +609,12 @@
         "https://www.iii.org/article/what-covered-standard-homeowners-policy",
         "https://www.nj.gov/dobi/"
       ],
-      "notes": "Decision-stage insurance content, the highest-converting informational family in this vertical (the water-damage version of this post already exists, so cross-link the two and keep the structure parallel). Cover dwelling vs contents vs loss-of-use, smoke and soot damage without flame contact, arson and vacancy exclusions, and the NJ FAIR Plan for hard-to-insure homes. Do not give legal or coverage advice: frame as 'what policies typically say, read yours'."
+      "notes": "Decision-stage insurance content, the highest-converting informational family in this vertical (the water-damage version of this post already exists, so cross-link the two and keep the structure parallel). Cover dwelling vs contents vs loss-of-use, smoke and soot damage without flame contact, arson and vacancy exclusions, and the NJ FAIR Plan for hard-to-insure homes. Do not give legal or coverage advice: frame as 'what policies typically say, read yours'.",
+      "banked_at": "2026-09-24T22:24:15.051572+00:00"
     },
     {
       "id": "2026-08-27-fire-damage-insurance-claim",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T06:37:05Z",
       "written_at": null,
       "post_url": null,
@@ -646,11 +647,12 @@
         "https://www.iii.org/article/settling-insurance-claims-after-disaster",
         "https://www.nj.gov/dobi/"
       ],
-      "notes": "Pairs with the coverage guide as the 'now do it' half. Give a documentation checklist (photos before cleanup, contents inventory, receipts, emergency mitigation invoices) and explain the mitigation duty: insurers expect prompt board-up and drying, which is why the emergency call comes before the claim is settled. Mirror the storm-damage claim checklist post's format so the two read as a series."
+      "notes": "Pairs with the coverage guide as the 'now do it' half. Give a documentation checklist (photos before cleanup, contents inventory, receipts, emergency mitigation invoices) and explain the mitigation duty: insurers expect prompt board-up and drying, which is why the emergency call comes before the claim is settled. Mirror the storm-damage claim checklist post's format so the two read as a series.",
+      "banked_at": "2026-09-24T22:24:15.051578+00:00"
     },
     {
       "id": "2026-08-27-what-to-throw-away-after-smoke-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T06:37:05Z",
       "written_at": null,
       "post_url": null,
@@ -684,11 +686,12 @@
         "https://www.usfa.fema.gov/prevention/home-fires/after-a-fire/",
         "https://www.cdc.gov/"
       ],
-      "notes": "Keep-vs-toss content is the highest-utility question in the smoke family and it feeds the contents-cleaning conversation directly. Hard categories: food, medication, cosmetics and anything porous that absorbed smoke go; hard surfaces, most textiles and most electronics are cleanable by a pro. Sensitive framing matters here, people are throwing out belongings days after a fire. Point to the odor-removal page for the ozone and thermal-fogging step rather than repeating it, that ground is covered by the smoke-odor blog post."
+      "notes": "Keep-vs-toss content is the highest-utility question in the smoke family and it feeds the contents-cleaning conversation directly. Hard categories: food, medication, cosmetics and anything porous that absorbed smoke go; hard surfaces, most textiles and most electronics are cleanable by a pro. Sensitive framing matters here, people are throwing out belongings days after a fire. Point to the odor-removal page for the ozone and thermal-fogging step rather than repeating it, that ground is covered by the smoke-odor blog post.",
+      "banked_at": "2026-09-24T22:24:15.051580+00:00"
     },
     {
       "id": "2026-08-27-fire-damage-restoration-cost",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T06:37:05Z",
       "written_at": null,
       "post_url": null,
@@ -723,7 +726,8 @@
         "https://www.iicrc.org/",
         "https://www.iii.org/"
       ],
-      "notes": "Cost transparency is the commercial-intent counterpart to the insurance guides and the water-damage cost post already queued, so keep the ranges structured the same way (small kitchen fire vs single room vs whole-structure, plus board-up, contents and reconstruction as separate lines). Say plainly that most of the bill goes through the insurer and that the deductible is usually the homeowner's real out-of-pocket. Use ranges only, never quote a fixed price."
+      "notes": "Cost transparency is the commercial-intent counterpart to the insurance guides and the water-damage cost post already queued, so keep the ranges structured the same way (small kitchen fire vs single room vs whole-structure, plus board-up, contents and reconstruction as separate lines). Say plainly that most of the bill goes through the insurer and that the deductible is usually the homeowner's real out-of-pocket. Use ranges only, never quote a fixed price.",
+      "banked_at": "2026-09-24T22:24:15.051582+00:00"
     },
     {
       "id": "2026-09-24-mold-remediation-cost-nj",

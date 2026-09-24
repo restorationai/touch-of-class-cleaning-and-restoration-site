@@ -493,7 +493,7 @@
     },
     {
       "id": "2026-09-24-what-to-do-after-a-house-fire-biloxi-ms",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T16:31:03Z",
       "written_at": null,
       "post_url": null,
@@ -531,11 +531,12 @@
         "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire/recovering-from-fire.html"
       ],
       "notes": "Client goal: Fire; Biloxi is a stated priority area. ChatGPT answer for this query cites Mississippi Insurance Department guidance (report loss, ALE, emergency repairs only, beware storm-chaser contractors): cover all of those. Emotional topic, keep tone calm and practical. HomeLyft is currently the first local business ChatGPT lists for this query.",
-      "source": "keyword-researcher 2026-09-24 seed=fire damage restoration"
+      "source": "keyword-researcher 2026-09-24 seed=fire damage restoration",
+      "banked_at": "2026-09-24T22:24:15.042183+00:00"
     },
     {
       "id": "2026-09-24-does-homeowners-insurance-cover-fire-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T16:31:03Z",
       "written_at": null,
       "post_url": null,
@@ -572,11 +573,12 @@
         "https://www.iii.org/article/what-covered-standard-homeowners-policy"
       ],
       "notes": "Insurance-policy explainer, so city_anchor left null; use Mississippi Insurance Department as the state angle. Pair with the existing water damage insurance post. Do not promise coverage outcomes; no claims about direct billing unless client confirms.",
-      "source": "keyword-researcher 2026-09-24 seed=fire damage restoration"
+      "source": "keyword-researcher 2026-09-24 seed=fire damage restoration",
+      "banked_at": "2026-09-24T22:24:15.042189+00:00"
     },
     {
       "id": "2026-09-24-commercial-fire-damage-restoration-pascagoula-ms",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T16:31:03Z",
       "written_at": null,
       "post_url": null,
@@ -614,11 +616,12 @@
         "https://www.nfpa.org/"
       ],
       "notes": "No url-plan page targets commercial fire work (service page is residential-default), so this fills a real gap. Client goals emphasize commercial work and name Pascagoula as a priority area (industrial and shipyard base). Volume 320, KD 0 nationally. Do not claim specific commercial jobs or certifications unless in the client record.",
-      "source": "keyword-researcher 2026-09-24 seed=fire damage restoration"
+      "source": "keyword-researcher 2026-09-24 seed=fire damage restoration",
+      "banked_at": "2026-09-24T22:24:15.042191+00:00"
     },
     {
       "id": "2026-09-24-what-to-throw-away-after-smoke-damage-ocean-springs-ms",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T16:31:03Z",
       "written_at": null,
       "post_url": null,
@@ -656,7 +659,8 @@
         "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire/recovering-from-fire.html"
       ],
       "notes": "Ocean Springs is a stated priority area. KD 0, volume 210. Lead with: do not discard anything before the adjuster sees it unless it is a health hazard (MID guidance surfaced by ChatGPT). Food exposed to heat or smoke is a discard; many contents are restorable via pack-out.",
-      "source": "keyword-researcher 2026-09-24 seed=fire damage restoration"
+      "source": "keyword-researcher 2026-09-24 seed=fire damage restoration",
+      "banked_at": "2026-09-24T22:24:15.042193+00:00"
     }
   ]
 }

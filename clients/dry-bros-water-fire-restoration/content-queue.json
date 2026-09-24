@@ -1,729 +1,730 @@
 {
- "items": [
-  {
-   "id": "2026-09-24-water-damage-restoration-cost-il",
-   "status": "queued",
-   "queued_at": "2026-09-24T15:28:56Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "cost_guide",
-   "combo_key": "water-damage-restoration-cost-il",
-   "primary_keyword": "water damage restoration cost IL",
-   "intent": "transactional",
-   "target_word_count": 1500,
-   "city_anchor": "chicago-il",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "Chicago",
-    "state": "IL",
-    "competitors": []
-   },
-   "fan_out_cluster": [
-    "how much does water damage restoration cost in IL",
-    "water damage restoration price IL",
-    "average cost of water damage restoration IL",
-    "water damage cleanup IL",
-    "water cleanup IL",
-    "water removal IL"
-   ],
-   "source": "best-of-seeder"
-  },
-  {
-   "id": "2026-09-10-best-water-damage-restoration-in-chicago-il",
-   "status": "written",
-   "queued_at": "2026-09-10T10:24:27Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "best_of_comparison",
-   "combo_key": "best-water-damage-restoration-in-chicago-il",
-   "primary_keyword": "best water damage restoration company in Chicago, IL",
-   "intent": "commercial",
-   "target_word_count": 1600,
-   "city_anchor": "chicago-il",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "Chicago",
-    "state": "IL",
-    "competitors": [
-     {
-      "name": "PuroClean of Downtown Chicago",
-      "google_rating": 4.9,
-      "review_count": 105
-     },
-     {
-      "name": "SERVPRO of Downtown Chicago/Team Nichols",
-      "google_rating": 4.7,
-      "review_count": 38
-     },
-     {
-      "name": "SERVPRO of West Loop / Bucktown / Greektown",
-      "google_rating": 4.7,
-      "review_count": 104
-     },
-     {
-      "name": "Restore It Chicago",
-      "google_rating": 4.9,
-      "review_count": 49
-     }
-    ]
-   },
-   "fan_out_cluster": [
-    "best water damage restoration companies Chicago",
-    "top rated water damage restoration Chicago IL",
-    "who is the best water damage restoration company in Chicago",
-    "flood cleanup Chicago",
-    "water damage repair Chicago",
-    "water damage cleanup Chicago"
-   ],
-   "source": "best-of-seeder",
-   "written_at": "2026-09-10T10:26:51Z",
-   "post_url": "https://None/blog/best-water-damage-restoration-company-in-chicago-il/",
-   "claims_flags": [
+  "items": [
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
-     "part": "frontmatter",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "documentation. The process follows the IICRC S500 standard. Skipping moisture mappin",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+      "id": "2026-09-24-water-damage-restoration-cost-il",
+      "status": "queued",
+      "queued_at": "2026-09-24T15:28:56Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "cost_guide",
+      "combo_key": "water-damage-restoration-cost-il",
+      "primary_keyword": "water damage restoration cost IL",
+      "intent": "transactional",
+      "target_word_count": 1500,
+      "city_anchor": "chicago-il",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Chicago",
+        "state": "IL",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "how much does water damage restoration cost in IL",
+        "water damage restoration price IL",
+        "average cost of water damage restoration IL",
+        "water damage cleanup IL",
+        "water cleanup IL",
+        "water removal IL"
+      ],
+      "source": "best-of-seeder"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "IICRC",
-     "context": "reviews) **24/7 emergency:** Unknown **IICRC certified:** Unknown --- ## #3: Resto",
-     "reason": "names a certification not present in brand.certifications"
+      "id": "2026-09-10-best-water-damage-restoration-in-chicago-il",
+      "status": "written",
+      "queued_at": "2026-09-10T10:24:27Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-water-damage-restoration-in-chicago-il",
+      "primary_keyword": "best water damage restoration company in Chicago, IL",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "chicago-il",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Chicago",
+        "state": "IL",
+        "competitors": [
+          {
+            "name": "PuroClean of Downtown Chicago",
+            "google_rating": 4.9,
+            "review_count": 105
+          },
+          {
+            "name": "SERVPRO of Downtown Chicago/Team Nichols",
+            "google_rating": 4.7,
+            "review_count": 38
+          },
+          {
+            "name": "SERVPRO of West Loop / Bucktown / Greektown",
+            "google_rating": 4.7,
+            "review_count": 104
+          },
+          {
+            "name": "Restore It Chicago",
+            "google_rating": 4.9,
+            "review_count": 49
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best water damage restoration companies Chicago",
+        "top rated water damage restoration Chicago IL",
+        "who is the best water damage restoration company in Chicago",
+        "flood cleanup Chicago",
+        "water damage repair Chicago",
+        "water damage cleanup Chicago"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-09-10T10:26:51Z",
+      "post_url": "https://None/blog/best-water-damage-restoration-company-in-chicago-il/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "documentation. The process follows the IICRC S500 standard. Skipping moisture mappin",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "reviews) **24/7 emergency:** Unknown **IICRC certified:** Unknown --- ## #3: Resto",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "reviews) **24/7 emergency:** Unknown **IICRC certified:** Unknown --- ## #4: SERVP",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "reviews) **24/7 emergency:** Unknown **IICRC certified:** Unknown --- ## #5: SERVP",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "reviews) **24/7 emergency:** Unknown **IICRC certified:** Unknown --- ## Compariso",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "gle Rating | Reviews | 24/7 Emergency | IICRC Certified | Licensed and Insured | |---",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "s. Dry Bros is licensed and insured. **IICRC certification.** The [IICRC S500 Standa",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "insured. **IICRC certification.** The [IICRC S500 Standard for Professional Water Da",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "ore they leave. Ask whether the crew is IICRC-trained. **Insurance documentation.**",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "s a structured process governed by the [IICRC S500 standard](https://www.iicrc.org),",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "105 reviews",
+          "context": "o holds a 4.9-star Google rating across 105 reviews, making it one of the highest-rated res",
+          "reason": "claims 105 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "105 reviews",
+          "context": "ing processes. **Google rating:** 4.9 (105 reviews) **24/7 emergency:** Unknown **IICRC ce",
+          "reason": "claims 105 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "49 reviews",
+          "context": "o holds a 4.9-star Google rating across 49 reviews. That rating is strong, though the revi",
+          "reason": "claims 49 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "49 reviews",
+          "context": "hicago market. **Google rating:** 4.9 (49 reviews) **24/7 emergency:** Unknown **IICRC ce",
+          "reason": "claims 49 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "104 reviews",
+          "context": "n holds a 4.7-star Google rating across 104 reviews. SERVPRO is one of the largest restorat",
+          "reason": "claims 104 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "104 reviews",
+          "context": "wner-operator. **Google rating:** 4.7 (104 reviews) **24/7 emergency:** Unknown **IICRC ce",
+          "reason": "claims 104 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "38 reviews",
+          "context": "s holds a 4.7-star Google rating across 38 reviews. This is the lowest review count on thi",
+          "reason": "claims 38 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "38 reviews",
+          "context": "ional network. **Google rating:** 4.7 (38 reviews) **24/7 emergency:** Unknown **IICRC ce",
+          "reason": "claims 38 reviews but no synced gbpReviewCount exists for this site"
+        }
+      ]
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "IICRC",
-     "context": "reviews) **24/7 emergency:** Unknown **IICRC certified:** Unknown --- ## #4: SERVP",
-     "reason": "names a certification not present in brand.certifications"
+      "id": "2026-09-18-water-damage-restoration-cost-chicago",
+      "status": "published",
+      "queued_at": "2026-09-18T22:55:00Z",
+      "written_at": "2026-09-18T23:01:38Z",
+      "post_url": "https://drybros.com/blog/water-damage-restoration-cost-chicago/",
+      "primary_keyword": "water damage restoration cost",
+      "intent": "commercial",
+      "volume": 720,
+      "kd": 0,
+      "fan_out_cluster": [
+        "how much does water damage restoration cost",
+        "water mitigation cost",
+        "water damage restoration cost per square foot",
+        "what does water damage restoration include",
+        "water extraction services"
+      ],
+      "suggested_slug": "water-damage-restoration-cost-chicago",
+      "suggested_title": "Water damage restoration cost in Chicago: what homeowners actually pay",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/water-cleanup/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "city_anchor": "chicago-il",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Highest-value uncovered term in the seed family: 720/mo at KD 0 with a $43 CPC, and no page on the site targets cost intent (the service landing page targets 'water damage restoration chicago'). Break price out by water category (1/2/3), affected square footage and drying days, and say plainly what a Chicago homeowner pays out of pocket versus what the carrier covers. Link the insurance blog post rather than re-explaining coverage. Absorbs the whole cost cluster, so do not queue a second cost post.",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-chicago.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "tandard residential loss, following the IICRC S500 drying standard. Larger losses, ca",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-chicago.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "e backup is a category 3 loss under the IICRC S500 standard, meaning the water carrie",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-chicago.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "osses of the same square footage. The [IICRC S500 standard](https://www.iicrc.org/pa",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-chicago.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified restoration",
+          "context": "fines three water categories that every certified restoration company uses to scope and price a job:",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-chicago.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "ctural drying is not a one-day job. The IICRC S500 standard calls for drying to pre-l",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-chicago.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified restoration",
+          "context": "restoration estimate first. 4. **Call a certified restoration company.** Mitigation needs to start wi",
+          "reason": "names a certification not present in brand.certifications"
+        }
+      ],
+      "published_verified_at": "2026-09-18T23:02:48Z"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "IICRC",
-     "context": "reviews) **24/7 emergency:** Unknown **IICRC certified:** Unknown --- ## #5: SERVP",
-     "reason": "names a certification not present in brand.certifications"
+      "id": "2026-09-18-water-damage-restoration-process-naperville",
+      "status": "published",
+      "queued_at": "2026-09-18T22:55:00Z",
+      "written_at": "2026-09-21T00:24:02Z",
+      "post_url": "https://drybros.com/blog/water-damage-restoration-process-naperville/",
+      "primary_keyword": "water damage restoration process",
+      "intent": "informational",
+      "volume": 110,
+      "kd": 1,
+      "fan_out_cluster": [
+        "what does water damage restoration include",
+        "water extraction services",
+        "when to call a water damage restoration company",
+        "who do i call for water damage",
+        "water damage restoration near me"
+      ],
+      "suggested_slug": "water-damage-restoration-process-naperville",
+      "suggested_title": "The water damage restoration process, step by step (Naperville, IL)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/service-areas/naperville-il/water-damage-restoration/",
+        "/services/mold-remediation/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "water-cleanup",
+        "mold-remediation"
+      ],
+      "city_anchor": "naperville-il",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Fills the obvious gap next to the existing /blog/fire-damage-restoration-process/ post: there is a fire process explainer and no water one. Structure as inspection, extraction, structural drying, dehumidification, antimicrobial treatment, reconstruction, with IICRC S500 as the spine. Anchored to Naperville to spread city coverage off Chicago.",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-damage-restoration-process-naperville.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "meline. Every phase is governed by the [IICRC S500 Standard for Professional Water Da",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-process-naperville.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "n-type or pinless moisture meters. The IICRC S500 standard defines three water categ",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-process-naperville.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "re content for the region, a number the IICRC S500 defines specifically for different",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-process-naperville.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified technician",
+          "context": "ater category. General guidelines that certified technicians follow: - **Drywall:** Drywall that h",
+          "reason": "names a certification not present in brand.certifications"
+        }
+      ],
+      "published_verified_at": "2026-09-21T00:26:19Z"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "IICRC",
-     "context": "reviews) **24/7 emergency:** Unknown **IICRC certified:** Unknown --- ## Compariso",
-     "reason": "names a certification not present in brand.certifications"
+      "id": "2026-09-18-how-long-does-water-damage-restoration-take-chicago",
+      "status": "published",
+      "queued_at": "2026-09-18T22:55:00Z",
+      "written_at": "2026-09-23T00:45:48Z",
+      "post_url": "https://drybros.com/blog/how-long-does-water-damage-restoration-take-chicago/",
+      "primary_keyword": "how long does water damage restoration take",
+      "intent": "informational",
+      "volume": 50,
+      "kd": 3,
+      "fan_out_cluster": [
+        "how long does it take to dry out a house after water damage",
+        "how long after water damage does mold grow",
+        "wet drywall how long before mold",
+        "musty smell after water damage",
+        "what does water damage restoration include"
+      ],
+      "suggested_slug": "how-long-does-water-damage-restoration-take-chicago",
+      "suggested_title": "How long does water damage restoration take in Chicago? A day-by-day timeline",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/odor-removal/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation",
+        "odor-removal"
+      ],
+      "city_anchor": "chicago-il",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
+      ],
+      "notes": "Timeline question with a $64 CPC behind it, which is unusually commercial for an informational query. Lead with the 24 to 48 hour mold window (EPA), then give realistic day ranges: 3 to 5 days of drying for a contained loss, longer once drywall, hardwood or a finished basement is involved. Set expectations about moisture readings rather than promising dates.",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/how-long-does-water-damage-restoration-take-chicago.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "ings at every monitored point reach the IICRC S500 dry standard for that material, ty",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/how-long-does-water-damage-restoration-take-chicago.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "tructure's moisture content down to the IICRC S500 standard for dry conditions, which",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/how-long-does-water-damage-restoration-take-chicago.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "d after 48 hours of active drying, most IICRC-trained technicians will recommend remo",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/how-long-does-water-damage-restoration-take-chicago.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "just drying. A full-scope job under the IICRC S500 standard includes: 1. **Emergency",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ],
+      "published_verified_at": "2026-09-23T00:47:08Z"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "IICRC",
-     "context": "gle Rating | Reviews | 24/7 Emergency | IICRC Certified | Licensed and Insured | |---",
-     "reason": "names a certification not present in brand.certifications"
+      "id": "2026-09-18-how-to-dry-out-a-flooded-basement-oak-park",
+      "status": "banked",
+      "queued_at": "2026-09-18T22:55:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to dry out a flooded basement",
+      "intent": "informational",
+      "volume": 50,
+      "kd": 7,
+      "fan_out_cluster": [
+        "what to do after water damage in basement",
+        "basement flooding cleanup chicago",
+        "wet drywall how long before mold",
+        "when to call a water damage restoration company",
+        "musty smell after water damage"
+      ],
+      "suggested_slug": "how-to-dry-out-a-flooded-basement-oak-park",
+      "suggested_title": "How to dry out a flooded basement in Oak Park, IL (and when to call a pro)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/oak-park-il/basement-flooding-cleanup/",
+        "/services/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "basement-flooding-cleanup",
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": "oak-park-il",
+      "external_authority_candidates": [
+        "https://www.epa.gov/emergencies-iaq/flood-cleanup-protect-indoor-air-and-your-health"
+      ],
+      "notes": "DIY-intent query that has to hand off to the service page honestly: shop vac and fans are fine for clean water in a small area, but sewer backup (category 3) and anything under wall cavities is professional work per EPA guidance. Oak Park and the near-west suburbs flood through sewer backups during heavy rain, so cover the backup scenario explicitly and cross-link sewage cleanup.",
+      "banked_at": "2026-09-24T22:24:15.034252+00:00"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "IICRC",
-     "context": "s. Dry Bros is licensed and insured. **IICRC certification.** The [IICRC S500 Standa",
-     "reason": "names a certification not present in brand.certifications"
+      "id": "2026-09-24-does-renters-insurance-cover-water-damage-chicago",
+      "status": "queued",
+      "queued_at": "2026-09-24T20:28:17Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does renters insurance cover water damage",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": 21,
+      "fan_out_cluster": [
+        "does renters insurance cover water leak damage",
+        "will renters insurance cover water damage from upstairs neighbor",
+        "who is responsible for water damage in a condo",
+        "water damage from upstairs neighbor",
+        "renters insurance water damage chicago",
+        "does renters insurance cover mold from a leak"
+      ],
+      "suggested_slug": "does-renters-insurance-cover-water-damage-chicago",
+      "suggested_title": "Does Renters Insurance Cover Water Damage? What Chicago Renters Need to Know",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/water-cleanup/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/what-to-do-first-24-hours-water-damage/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "city_anchor": "chicago-il",
+      "external_authority_candidates": [
+        "https://insurance.illinois.gov/",
+        "https://content.naic.org/consumer/renters-insurance",
+        "https://www.iii.org/article/renters-insurance"
+      ],
+      "notes": "HO-4 covers the renter's personal property and loss of use, not the building (landlord's policy). Cover sudden-and-accidental vs gradual leaks, upstairs-unit leaks in Chicago two-flats and condo buildings, and the landlord/HOA notification step. Contrast with the existing homeowners insurance post and link to it.",
+      "source": "keyword-researcher",
+      "seed": "what to do after water damage"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "insured. **IICRC certification.** The [IICRC S500 Standard for Professional Water Da",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+      "id": "2026-09-24-how-to-fix-water-damage-on-ceiling-evanston",
+      "status": "queued",
+      "queued_at": "2026-09-24T20:28:17Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to fix water damage on ceiling",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": 0,
+      "fan_out_cluster": [
+        "how to repair ceiling water damage",
+        "ceiling water damage repair chicago",
+        "fixing ceiling after water damage",
+        "how to repair ceiling after water damage",
+        "signs a water damaged ceiling may collapse",
+        "water damage from upstairs neighbor"
+      ],
+      "suggested_slug": "how-to-fix-water-damage-on-ceiling-evanston",
+      "suggested_title": "How to Fix Water Damage on Ceiling Drywall in Evanston (and When It Needs a Pro)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/service-areas/evanston-il/water-damage-restoration/",
+        "/services/burst-pipe-repair/",
+        "/services/mold-remediation/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "burst-pipe-repair"
+      ],
+      "city_anchor": "evanston-il",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Lead with finding and stopping the source (roof, upstairs bath, pipe), sagging-ceiling safety, and moisture readings before any patching. Stain-only DIY vs saturated drywall that must come down. Evanston's older housing stock (plaster and lath) is a good local angle.",
+      "source": "keyword-researcher",
+      "seed": "what to do after water damage"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "IICRC",
-     "context": "ore they leave. Ask whether the crew is IICRC-trained. **Insurance documentation.**",
-     "reason": "names a certification not present in brand.certifications"
+      "id": "2026-09-24-drywall-repair-after-water-damage-naperville",
+      "status": "queued",
+      "queued_at": "2026-09-24T20:28:17Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "drywall repair after water damage",
+      "intent": "informational",
+      "volume": 880,
+      "kd": 0,
+      "fan_out_cluster": [
+        "does drywall need to be replaced after water damage",
+        "replacing drywall after water damage",
+        "how to dry drywall after water damage",
+        "wet drywall how long before mold",
+        "how to dry out walls after water damage",
+        "drywall repair after water damage chicago"
+      ],
+      "suggested_slug": "drywall-repair-after-water-damage-naperville",
+      "suggested_title": "Drywall Repair After Water Damage in Naperville: Dry It, Cut It, or Replace It?",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/service-areas/naperville-il/water-damage-restoration/",
+        "/services/basement-flooding-cleanup/",
+        "/services/mold-remediation/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "basement-flooding-cleanup"
+      ],
+      "city_anchor": "naperville-il",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
+      ],
+      "notes": "Frame from the mitigation side: water category, moisture mapping, flood cuts at 2 ft/4 ft, when drywall can be dried in place. Reconstruction is not a planned service, so stop at 'dried and ready for rebuild'; do not promise drywall hanging/finishing. Naperville finished basements are the local angle.",
+      "source": "keyword-researcher",
+      "seed": "what to do after water damage"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "s a structured process governed by the [IICRC S500 standard](https://www.iicrc.org),",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+      "id": "2026-09-24-how-fast-does-mold-grow-after-water-damage-chicago",
+      "status": "queued",
+      "queued_at": "2026-09-24T20:28:17Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how fast does mold grow after water damage",
+      "intent": "informational",
+      "volume": 110,
+      "kd": 1,
+      "fan_out_cluster": [
+        "how long after water damage does mold grow",
+        "is mold from water damage dangerous",
+        "what to spray to prevent mold after water damage",
+        "how to prevent mold after water damage",
+        "how to check for mold after water damage",
+        "wet drywall how long before mold",
+        "mold after water damage chicago"
+      ],
+      "suggested_slug": "how-fast-does-mold-grow-after-water-damage-chicago",
+      "suggested_title": "How Fast Does Mold Grow After Water Damage? A Chicago Homeowner's 48-Hour Guide",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/blog/signs-of-hidden-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "chicago-il",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+        "https://www.cdc.gov/mold-health/about/index.html"
+      ],
+      "notes": "Lead with the EPA 24-48 hour drying window (ChatGPT cites it verbatim). Cover humid Chicago summers vs heated winter basements, why bleach sprays do not fix wet porous materials, and health risk framing without fear-mongering. Consolidates bank items on mold timing.",
+      "source": "keyword-researcher",
+      "seed": "what to do after water damage"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "105 reviews",
-     "context": "o holds a 4.9-star Google rating across 105 reviews, making it one of the highest-rated res",
-     "reason": "claims 105 reviews but no synced gbpReviewCount exists for this site"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "105 reviews",
-     "context": "ing processes. **Google rating:** 4.9 (105 reviews) **24/7 emergency:** Unknown **IICRC ce",
-     "reason": "claims 105 reviews but no synced gbpReviewCount exists for this site"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "49 reviews",
-     "context": "o holds a 4.9-star Google rating across 49 reviews. That rating is strong, though the revi",
-     "reason": "claims 49 reviews but no synced gbpReviewCount exists for this site"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "49 reviews",
-     "context": "hicago market. **Google rating:** 4.9 (49 reviews) **24/7 emergency:** Unknown **IICRC ce",
-     "reason": "claims 49 reviews but no synced gbpReviewCount exists for this site"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "104 reviews",
-     "context": "n holds a 4.7-star Google rating across 104 reviews. SERVPRO is one of the largest restorat",
-     "reason": "claims 104 reviews but no synced gbpReviewCount exists for this site"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "104 reviews",
-     "context": "wner-operator. **Google rating:** 4.7 (104 reviews) **24/7 emergency:** Unknown **IICRC ce",
-     "reason": "claims 104 reviews but no synced gbpReviewCount exists for this site"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "38 reviews",
-     "context": "s holds a 4.7-star Google rating across 38 reviews. This is the lowest review count on thi",
-     "reason": "claims 38 reviews but no synced gbpReviewCount exists for this site"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-chicago-il.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "38 reviews",
-     "context": "ional network. **Google rating:** 4.7 (38 reviews) **24/7 emergency:** Unknown **IICRC ce",
-     "reason": "claims 38 reviews but no synced gbpReviewCount exists for this site"
+      "id": "2026-09-24-how-to-repair-water-damage-hardwood-floor-oak-park",
+      "status": "queued",
+      "queued_at": "2026-09-24T20:28:17Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to repair water damage hardwood floor",
+      "intent": "informational",
+      "volume": 590,
+      "kd": 0,
+      "fan_out_cluster": [
+        "hardwood floor cupping after water damage",
+        "how to fix hardwood floor after water damage",
+        "can hardwood floors be saved after water damage",
+        "how long to run fans after water damage",
+        "should carpet be replaced after water damage",
+        "can carpet be saved after water damage"
+      ],
+      "suggested_slug": "how-to-repair-water-damage-hardwood-floor-oak-park",
+      "suggested_title": "How to Repair Water Damage Hardwood Floor Boards in Oak Park Homes",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/service-areas/oak-park-il/water-damage-restoration/",
+        "/services/water-cleanup/",
+        "/services/burst-pipe-repair/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "city_anchor": "oak-park-il",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.nwfa.org/"
+      ],
+      "notes": "Cupping vs crowning vs buckling, why floor drying mats and dehumidification come before sanding, and when boards must be pulled. Oak Park's century-old oak floors (Prairie School homes) make the save-vs-replace decision high-stakes. Stay on the drying/mitigation side, no refinishing promises.",
+      "source": "keyword-researcher",
+      "seed": "what to do after water damage"
     }
-   ]
-  },
-  {
-   "id": "2026-09-18-water-damage-restoration-cost-chicago",
-   "status": "published",
-   "queued_at": "2026-09-18T22:55:00Z",
-   "written_at": "2026-09-18T23:01:38Z",
-   "post_url": "https://drybros.com/blog/water-damage-restoration-cost-chicago/",
-   "primary_keyword": "water damage restoration cost",
-   "intent": "commercial",
-   "volume": 720,
-   "kd": 0,
-   "fan_out_cluster": [
-    "how much does water damage restoration cost",
-    "water mitigation cost",
-    "water damage restoration cost per square foot",
-    "what does water damage restoration include",
-    "water extraction services"
-   ],
-   "suggested_slug": "water-damage-restoration-cost-chicago",
-   "suggested_title": "Water damage restoration cost in Chicago: what homeowners actually pay",
-   "target_word_count": 1600,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/water-cleanup/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "water-cleanup"
-   ],
-   "city_anchor": "chicago-il",
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Highest-value uncovered term in the seed family: 720/mo at KD 0 with a $43 CPC, and no page on the site targets cost intent (the service landing page targets 'water damage restoration chicago'). Break price out by water category (1/2/3), affected square footage and drying days, and say plainly what a Chicago homeowner pays out of pocket versus what the carrier covers. Link the insurance blog post rather than re-explaining coverage. Absorbs the whole cost cluster, so do not queue a second cost post.",
-   "claims_flags": [
-    {
-     "file": "src/content/blog/water-damage-restoration-cost-chicago.md",
-     "part": "frontmatter",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "tandard residential loss, following the IICRC S500 drying standard. Larger losses, ca",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/water-damage-restoration-cost-chicago.md",
-     "part": "frontmatter",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "e backup is a category 3 loss under the IICRC S500 standard, meaning the water carrie",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/water-damage-restoration-cost-chicago.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "osses of the same square footage. The [IICRC S500 standard](https://www.iicrc.org/pa",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/water-damage-restoration-cost-chicago.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "certified restoration",
-     "context": "fines three water categories that every certified restoration company uses to scope and price a job:",
-     "reason": "names a certification not present in brand.certifications"
-    },
-    {
-     "file": "src/content/blog/water-damage-restoration-cost-chicago.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "ctural drying is not a one-day job. The IICRC S500 standard calls for drying to pre-l",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/water-damage-restoration-cost-chicago.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "certified restoration",
-     "context": "restoration estimate first. 4. **Call a certified restoration company.** Mitigation needs to start wi",
-     "reason": "names a certification not present in brand.certifications"
-    }
-   ],
-   "published_verified_at": "2026-09-18T23:02:48Z"
-  },
-  {
-   "id": "2026-09-18-water-damage-restoration-process-naperville",
-   "status": "published",
-   "queued_at": "2026-09-18T22:55:00Z",
-   "written_at": "2026-09-21T00:24:02Z",
-   "post_url": "https://drybros.com/blog/water-damage-restoration-process-naperville/",
-   "primary_keyword": "water damage restoration process",
-   "intent": "informational",
-   "volume": 110,
-   "kd": 1,
-   "fan_out_cluster": [
-    "what does water damage restoration include",
-    "water extraction services",
-    "when to call a water damage restoration company",
-    "who do i call for water damage",
-    "water damage restoration near me"
-   ],
-   "suggested_slug": "water-damage-restoration-process-naperville",
-   "suggested_title": "The water damage restoration process, step by step (Naperville, IL)",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/service-areas/naperville-il/water-damage-restoration/",
-    "/services/mold-remediation/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "water-cleanup",
-    "mold-remediation"
-   ],
-   "city_anchor": "naperville-il",
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Fills the obvious gap next to the existing /blog/fire-damage-restoration-process/ post: there is a fire process explainer and no water one. Structure as inspection, extraction, structural drying, dehumidification, antimicrobial treatment, reconstruction, with IICRC S500 as the spine. Anchored to Naperville to spread city coverage off Chicago.",
-   "claims_flags": [
-    {
-     "file": "src/content/blog/water-damage-restoration-process-naperville.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "meline. Every phase is governed by the [IICRC S500 Standard for Professional Water Da",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/water-damage-restoration-process-naperville.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "n-type or pinless moisture meters. The IICRC S500 standard defines three water categ",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/water-damage-restoration-process-naperville.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "re content for the region, a number the IICRC S500 defines specifically for different",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/water-damage-restoration-process-naperville.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "certified technician",
-     "context": "ater category. General guidelines that certified technicians follow: - **Drywall:** Drywall that h",
-     "reason": "names a certification not present in brand.certifications"
-    }
-   ],
-   "published_verified_at": "2026-09-21T00:26:19Z"
-  },
-  {
-   "id": "2026-09-18-how-long-does-water-damage-restoration-take-chicago",
-   "status": "published",
-   "queued_at": "2026-09-18T22:55:00Z",
-   "written_at": "2026-09-23T00:45:48Z",
-   "post_url": "https://drybros.com/blog/how-long-does-water-damage-restoration-take-chicago/",
-   "primary_keyword": "how long does water damage restoration take",
-   "intent": "informational",
-   "volume": 50,
-   "kd": 3,
-   "fan_out_cluster": [
-    "how long does it take to dry out a house after water damage",
-    "how long after water damage does mold grow",
-    "wet drywall how long before mold",
-    "musty smell after water damage",
-    "what does water damage restoration include"
-   ],
-   "suggested_slug": "how-long-does-water-damage-restoration-take-chicago",
-   "suggested_title": "How long does water damage restoration take in Chicago? A day-by-day timeline",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/",
-    "/services/odor-removal/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "mold-remediation",
-    "odor-removal"
-   ],
-   "city_anchor": "chicago-il",
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
-   ],
-   "notes": "Timeline question with a $64 CPC behind it, which is unusually commercial for an informational query. Lead with the 24 to 48 hour mold window (EPA), then give realistic day ranges: 3 to 5 days of drying for a contained loss, longer once drywall, hardwood or a finished basement is involved. Set expectations about moisture readings rather than promising dates.",
-   "claims_flags": [
-    {
-     "file": "src/content/blog/how-long-does-water-damage-restoration-take-chicago.md",
-     "part": "frontmatter",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "ings at every monitored point reach the IICRC S500 dry standard for that material, ty",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/how-long-does-water-damage-restoration-take-chicago.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "tructure's moisture content down to the IICRC S500 standard for dry conditions, which",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/how-long-does-water-damage-restoration-take-chicago.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "IICRC",
-     "context": "d after 48 hours of active drying, most IICRC-trained technicians will recommend remo",
-     "reason": "names a certification not present in brand.certifications"
-    },
-    {
-     "file": "src/content/blog/how-long-does-water-damage-restoration-take-chicago.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "just drying. A full-scope job under the IICRC S500 standard includes: 1. **Emergency",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    }
-   ],
-   "published_verified_at": "2026-09-23T00:47:08Z"
-  },
-  {
-   "id": "2026-09-18-how-to-dry-out-a-flooded-basement-oak-park",
-   "status": "queued",
-   "queued_at": "2026-09-18T22:55:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "how to dry out a flooded basement",
-   "intent": "informational",
-   "volume": 50,
-   "kd": 7,
-   "fan_out_cluster": [
-    "what to do after water damage in basement",
-    "basement flooding cleanup chicago",
-    "wet drywall how long before mold",
-    "when to call a water damage restoration company",
-    "musty smell after water damage"
-   ],
-   "suggested_slug": "how-to-dry-out-a-flooded-basement-oak-park",
-   "suggested_title": "How to dry out a flooded basement in Oak Park, IL (and when to call a pro)",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/basement-flooding-cleanup/",
-    "/service-areas/oak-park-il/basement-flooding-cleanup/",
-    "/services/water-damage-restoration/"
-   ],
-   "service_tags": [
-    "basement-flooding-cleanup",
-    "water-damage-restoration",
-    "mold-remediation"
-   ],
-   "city_anchor": "oak-park-il",
-   "external_authority_candidates": [
-    "https://www.epa.gov/emergencies-iaq/flood-cleanup-protect-indoor-air-and-your-health"
-   ],
-   "notes": "DIY-intent query that has to hand off to the service page honestly: shop vac and fans are fine for clean water in a small area, but sewer backup (category 3) and anything under wall cavities is professional work per EPA guidance. Oak Park and the near-west suburbs flood through sewer backups during heavy rain, so cover the backup scenario explicitly and cross-link sewage cleanup."
-  },
-  {
-   "id": "2026-09-24-does-renters-insurance-cover-water-damage-chicago",
-   "status": "queued",
-   "queued_at": "2026-09-24T20:28:17Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "does renters insurance cover water damage",
-   "intent": "informational",
-   "volume": 1000,
-   "kd": 21,
-   "fan_out_cluster": [
-    "does renters insurance cover water leak damage",
-    "will renters insurance cover water damage from upstairs neighbor",
-    "who is responsible for water damage in a condo",
-    "water damage from upstairs neighbor",
-    "renters insurance water damage chicago",
-    "does renters insurance cover mold from a leak"
-   ],
-   "suggested_slug": "does-renters-insurance-cover-water-damage-chicago",
-   "suggested_title": "Does Renters Insurance Cover Water Damage? What Chicago Renters Need to Know",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/water-cleanup/",
-    "/blog/does-homeowners-insurance-cover-water-damage/",
-    "/blog/what-to-do-first-24-hours-water-damage/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "water-cleanup"
-   ],
-   "city_anchor": "chicago-il",
-   "external_authority_candidates": [
-    "https://insurance.illinois.gov/",
-    "https://content.naic.org/consumer/renters-insurance",
-    "https://www.iii.org/article/renters-insurance"
-   ],
-   "notes": "HO-4 covers the renter's personal property and loss of use, not the building (landlord's policy). Cover sudden-and-accidental vs gradual leaks, upstairs-unit leaks in Chicago two-flats and condo buildings, and the landlord/HOA notification step. Contrast with the existing homeowners insurance post and link to it.",
-   "source": "keyword-researcher",
-   "seed": "what to do after water damage"
-  },
-  {
-   "id": "2026-09-24-how-to-fix-water-damage-on-ceiling-evanston",
-   "status": "queued",
-   "queued_at": "2026-09-24T20:28:17Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "how to fix water damage on ceiling",
-   "intent": "informational",
-   "volume": 1000,
-   "kd": 0,
-   "fan_out_cluster": [
-    "how to repair ceiling water damage",
-    "ceiling water damage repair chicago",
-    "fixing ceiling after water damage",
-    "how to repair ceiling after water damage",
-    "signs a water damaged ceiling may collapse",
-    "water damage from upstairs neighbor"
-   ],
-   "suggested_slug": "how-to-fix-water-damage-on-ceiling-evanston",
-   "suggested_title": "How to Fix Water Damage on Ceiling Drywall in Evanston (and When It Needs a Pro)",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/service-areas/evanston-il/water-damage-restoration/",
-    "/services/burst-pipe-repair/",
-    "/services/mold-remediation/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "burst-pipe-repair"
-   ],
-   "city_anchor": "evanston-il",
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Lead with finding and stopping the source (roof, upstairs bath, pipe), sagging-ceiling safety, and moisture readings before any patching. Stain-only DIY vs saturated drywall that must come down. Evanston's older housing stock (plaster and lath) is a good local angle.",
-   "source": "keyword-researcher",
-   "seed": "what to do after water damage"
-  },
-  {
-   "id": "2026-09-24-drywall-repair-after-water-damage-naperville",
-   "status": "queued",
-   "queued_at": "2026-09-24T20:28:17Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "drywall repair after water damage",
-   "intent": "informational",
-   "volume": 880,
-   "kd": 0,
-   "fan_out_cluster": [
-    "does drywall need to be replaced after water damage",
-    "replacing drywall after water damage",
-    "how to dry drywall after water damage",
-    "wet drywall how long before mold",
-    "how to dry out walls after water damage",
-    "drywall repair after water damage chicago"
-   ],
-   "suggested_slug": "drywall-repair-after-water-damage-naperville",
-   "suggested_title": "Drywall Repair After Water Damage in Naperville: Dry It, Cut It, or Replace It?",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/service-areas/naperville-il/water-damage-restoration/",
-    "/services/basement-flooding-cleanup/",
-    "/services/mold-remediation/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "basement-flooding-cleanup"
-   ],
-   "city_anchor": "naperville-il",
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500",
-    "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
-   ],
-   "notes": "Frame from the mitigation side: water category, moisture mapping, flood cuts at 2 ft/4 ft, when drywall can be dried in place. Reconstruction is not a planned service, so stop at 'dried and ready for rebuild'; do not promise drywall hanging/finishing. Naperville finished basements are the local angle.",
-   "source": "keyword-researcher",
-   "seed": "what to do after water damage"
-  },
-  {
-   "id": "2026-09-24-how-fast-does-mold-grow-after-water-damage-chicago",
-   "status": "queued",
-   "queued_at": "2026-09-24T20:28:17Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "how fast does mold grow after water damage",
-   "intent": "informational",
-   "volume": 110,
-   "kd": 1,
-   "fan_out_cluster": [
-    "how long after water damage does mold grow",
-    "is mold from water damage dangerous",
-    "what to spray to prevent mold after water damage",
-    "how to prevent mold after water damage",
-    "how to check for mold after water damage",
-    "wet drywall how long before mold",
-    "mold after water damage chicago"
-   ],
-   "suggested_slug": "how-fast-does-mold-grow-after-water-damage-chicago",
-   "suggested_title": "How Fast Does Mold Grow After Water Damage? A Chicago Homeowner's 48-Hour Guide",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/services/water-damage-restoration/",
-    "/blog/signs-of-hidden-mold/",
-    "/blog/black-mold-vs-regular-mold/"
-   ],
-   "service_tags": [
-    "mold-remediation",
-    "water-damage-restoration"
-   ],
-   "city_anchor": "chicago-il",
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
-    "https://www.cdc.gov/mold-health/about/index.html"
-   ],
-   "notes": "Lead with the EPA 24-48 hour drying window (ChatGPT cites it verbatim). Cover humid Chicago summers vs heated winter basements, why bleach sprays do not fix wet porous materials, and health risk framing without fear-mongering. Consolidates bank items on mold timing.",
-   "source": "keyword-researcher",
-   "seed": "what to do after water damage"
-  },
-  {
-   "id": "2026-09-24-how-to-repair-water-damage-hardwood-floor-oak-park",
-   "status": "queued",
-   "queued_at": "2026-09-24T20:28:17Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "how to repair water damage hardwood floor",
-   "intent": "informational",
-   "volume": 590,
-   "kd": 0,
-   "fan_out_cluster": [
-    "hardwood floor cupping after water damage",
-    "how to fix hardwood floor after water damage",
-    "can hardwood floors be saved after water damage",
-    "how long to run fans after water damage",
-    "should carpet be replaced after water damage",
-    "can carpet be saved after water damage"
-   ],
-   "suggested_slug": "how-to-repair-water-damage-hardwood-floor-oak-park",
-   "suggested_title": "How to Repair Water Damage Hardwood Floor Boards in Oak Park Homes",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/service-areas/oak-park-il/water-damage-restoration/",
-    "/services/water-cleanup/",
-    "/services/burst-pipe-repair/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "water-cleanup"
-   ],
-   "city_anchor": "oak-park-il",
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500",
-    "https://www.nwfa.org/"
-   ],
-   "notes": "Cupping vs crowning vs buckling, why floor drying mats and dehumidification come before sanding, and when boards must be pulled. Oak Park's century-old oak floors (Prairie School homes) make the save-vs-replace decision high-stakes. Stay on the drying/mitigation side, no refinishing promises.",
-   "source": "keyword-researcher",
-   "seed": "what to do after water damage"
-  }
- ]
+  ]
 }

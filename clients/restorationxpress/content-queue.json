@@ -811,7 +811,7 @@
     },
     {
       "id": "2026-08-09-sewage-backup-in-house",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-10T00:53:00Z",
       "written_at": null,
       "post_url": null,
@@ -844,11 +844,12 @@
         "https://www.iicrc.org/"
       ],
       "notes": "260/mo, KD 20, $32 CPC. Category 3 water under IICRC S500: keep the tone factual, health-first. South Florida angle: intense summer downpours can overwhelm older sewer laterals. Cover the sewer backup insurance endorsement (usually optional, not automatic) and why gloves-and-bleach DIY is not enough for porous materials.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-24T22:24:15.052641+00:00"
     },
     {
       "id": "2026-08-09-mold-remediation-process",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-10T00:54:00Z",
       "written_at": null,
       "post_url": null,
@@ -882,7 +883,8 @@
         "https://www2.myfloridalicense.com/"
       ],
       "notes": "720/mo, KD 16. Walk containment, negative air, removal, HEPA cleaning, and independent clearance testing, and answer the stay-home question early (10/mo but a real pre-hire anxiety). Florida licensure and the assessor versus remediator separation is the differentiator competitors skip.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-24T22:24:15.052647+00:00"
     },
     {
       "id": "2026-08-28-what-is-a-slab-leak",
@@ -960,7 +962,7 @@
     },
     {
       "id": "2026-08-28-does-homeowners-insurance-cover-plumbing-leaks",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-28T01:12:00Z",
       "written_at": null,
       "post_url": null,
@@ -993,7 +995,8 @@
         "https://www.iii.org/article/what-does-standard-homeowners-policy-cover",
         "https://www.floir.com/consumers/homeowners-insurance"
       ],
-      "notes": "590/mo, KD 13, CPC 30.93. Decision-stage insurance content, which the methodology flags as the highest-value informational tier. Must be clearly differentiated from the planned /blog/does-homeowners-insurance-cover-water-damage/ post: that one is the general water damage guide, this one is specifically the sudden-and-accidental vs gradual-seepage line that decides most denied plumbing claims. Add a Florida note on the 14-day and 35-day repeated-seepage limits that many FL carriers now write into policies. Do not give legal or coverage advice: describe how carriers typically treat these claims and tell the reader to read their own policy."
+      "notes": "590/mo, KD 13, CPC 30.93. Decision-stage insurance content, which the methodology flags as the highest-value informational tier. Must be clearly differentiated from the planned /blog/does-homeowners-insurance-cover-water-damage/ post: that one is the general water damage guide, this one is specifically the sudden-and-accidental vs gradual-seepage line that decides most denied plumbing claims. Add a Florida note on the 14-day and 35-day repeated-seepage limits that many FL carriers now write into policies. Do not give legal or coverage advice: describe how carriers typically treat these claims and tell the reader to read their own policy.",
+      "banked_at": "2026-09-24T22:24:15.052649+00:00"
     },
     {
       "id": "2026-08-28-pipe-burst-in-wall",

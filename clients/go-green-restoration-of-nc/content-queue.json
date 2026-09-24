@@ -1124,7 +1124,7 @@
     },
     {
       "id": "2026-09-10-homeowners-insurance-storm-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-10T20:25:00Z",
       "written_at": null,
       "post_url": null,
@@ -1159,11 +1159,12 @@
         "https://www.ncdoi.gov/documents/consumer/publications/after-disaster-brochure/open",
         "https://www.floodsmart.gov/"
       ],
-      "notes": "KD 22 at 590 a month, and the whole term is decision-stage: people read this before they call anyone. Do NOT rewrite the existing water damage insurance post: the storm angle is the separate-perils problem. Wind driven rain through a damaged roof is usually covered, rising surface water is not and needs a separate NFIP flood policy, and NC coastal and windstorm deductibles are a percentage of dwelling value rather than a flat number. Cite NC DOI, not a carrier blog. Link across to /blog/does-homeowners-insurance-cover-water-damage/ for the non-storm causes."
+      "notes": "KD 22 at 590 a month, and the whole term is decision-stage: people read this before they call anyone. Do NOT rewrite the existing water damage insurance post: the storm angle is the separate-perils problem. Wind driven rain through a damaged roof is usually covered, rising surface water is not and needs a separate NFIP flood policy, and NC coastal and windstorm deductibles are a percentage of dwelling value rather than a flat number. Cite NC DOI, not a carrier blog. Link across to /blog/does-homeowners-insurance-cover-water-damage/ for the non-storm causes.",
+      "banked_at": "2026-09-24T22:24:15.040000+00:00"
     },
     {
       "id": "2026-09-10-storm-damage-insurance-claim",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-10T20:25:00Z",
       "written_at": null,
       "post_url": null,
@@ -1197,11 +1198,12 @@
         "https://www.ncdoi.gov/consumers/disaster/how-deal-aftermath-disaster",
         "https://www.ncdoi.gov/documents/consumer/publications/after-disaster-brochure/open"
       ],
-      "notes": "KD 4 with a 21 dollar CPC: the ads side is paying for this intent, so own it organically. Structure as the actual sequence: photograph everything before touching it, make temporary repairs only (tarp, board up, extract standing water) and keep receipts, do not make permanent repairs until the adjuster has agreed scope. Note that mitigation is a policy DUTY, so delaying drying can reduce the payout, which is the honest reason to call fast. Same-topic siblings 'how to file a storm damage insurance claim' stay in the bank as H2s."
+      "notes": "KD 4 with a 21 dollar CPC: the ads side is paying for this intent, so own it organically. Structure as the actual sequence: photograph everything before touching it, make temporary repairs only (tarp, board up, extract standing water) and keep receipts, do not make permanent repairs until the adjuster has agreed scope. Note that mitigation is a policy DUTY, so delaying drying can reduce the payout, which is the honest reason to call fast. Same-topic siblings 'how to file a storm damage insurance claim' stay in the bank as H2s.",
+      "banked_at": "2026-09-24T22:24:15.040006+00:00"
     },
     {
       "id": "2026-09-10-what-to-do-after-storm-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-10T20:25:00Z",
       "written_at": null,
       "post_url": null,
@@ -1235,7 +1237,8 @@
         "https://www.ncdoi.gov/consumers/disaster/how-deal-aftermath-disaster",
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "Zero measured Google volume, queued on AI-retrieval demand: this was the top decomposition ChatGPT produced for a storm damage prompt, so it is the passage an assistant lifts. Safety first and concretely: downed lines, gas smell, sagging ceilings holding water. Then document, then temporary repairs only. Distinct from /blog/what-to-do-first-24-hours-water-damage/ because the storm version has an exterior-hazard and power-outage phase before any drying starts. Ties to the US-264 corridor and the Nash and Johnston county line for response time."
+      "notes": "Zero measured Google volume, queued on AI-retrieval demand: this was the top decomposition ChatGPT produced for a storm damage prompt, so it is the passage an assistant lifts. Safety first and concretely: downed lines, gas smell, sagging ceilings holding water. Then document, then temporary repairs only. Distinct from /blog/what-to-do-first-24-hours-water-damage/ because the storm version has an exterior-hazard and power-outage phase before any drying starts. Ties to the US-264 corridor and the Nash and Johnston county line for response time.",
+      "banked_at": "2026-09-24T22:24:15.040009+00:00"
     },
     {
       "id": "2026-09-10-how-to-dry-out-house-after-storm",
@@ -1463,7 +1466,7 @@
     },
     {
       "id": "2026-09-24-cleaning-a-flooded-house",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T16:30:00Z",
       "written_at": null,
       "post_url": null,
@@ -1497,7 +1500,8 @@
         "https://www.cdc.gov/floods/safety/index.html",
         "https://www.fema.gov/pdf/rebuild/recover/fema_mold_brochure_english.pdf"
       ],
-      "notes": "Safety first (power, PPE, Category 3). Document before discarding (ChatGPT lead point). Porous vs non-porous discard list. Clear point where DIY stops and a pro is needed. Durham older housing stock and crawl spaces."
+      "notes": "Safety first (power, PPE, Category 3). Document before discarding (ChatGPT lead point). Porous vs non-porous discard list. Clear point where DIY stops and a pro is needed. Durham older housing stock and crawl spaces.",
+      "banked_at": "2026-09-24T22:24:15.040011+00:00"
     }
   ]
 }

@@ -547,7 +547,7 @@
     },
     {
       "id": "2026-09-21-test-indoor-air-quality-for-mold",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-21T17:55:00Z",
       "written_at": null,
       "post_url": null,
@@ -583,8 +583,7 @@
       ],
       "notes": "The musty-smell, nothing-visible entry point, which is the most common first call in this vertical. Explain spore trap air sampling, why an outdoor control sample is mandatory for the indoor result to mean anything, and how to read elevated Aspergillus/Penicillium counts. Distinct from the existing air-vs-surface-sampling post: that one compares methods, this one starts from the symptom. Clovis and Fresno County note: evaporative coolers and crawl spaces are the usual hidden sources.",
       "source": "keyword-researcher",
-      "seed": "indoor air quality testing",
-      "banked_at": "2026-09-21T22:24:17.175466+00:00"
+      "seed": "indoor air quality testing"
     }
   ]
 }

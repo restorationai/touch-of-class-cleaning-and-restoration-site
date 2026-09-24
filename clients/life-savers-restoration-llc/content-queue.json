@@ -490,7 +490,7 @@
     },
     {
       "id": "2026-09-24-does-homeowners-insurance-cover-fire-damage-nevada",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -524,11 +524,12 @@
         "https://doi.nv.gov/Consumers/Wildfire_Recovery/",
         "https://www.iii.org/article/what-covered-standard-homeowners-policy"
       ],
-      "notes": "260/mo, KD 30. Decision-stage insurance topic, 24 to 48 hours before hire. Sister post to the existing water damage insurance guide. ChatGPT cited the Nevada Division of Insurance guidance (document damage, keep receipts, do not discard property before inspection): lift those points and cite doi.nv.gov. No policy promises: frame as typical coverage, advise reading the policy."
+      "notes": "260/mo, KD 30. Decision-stage insurance topic, 24 to 48 hours before hire. Sister post to the existing water damage insurance guide. ChatGPT cited the Nevada Division of Insurance guidance (document damage, keep receipts, do not discard property before inspection): lift those points and cite doi.nv.gov. No policy promises: frame as typical coverage, advise reading the policy.",
+      "banked_at": "2026-09-24T22:24:15.044520+00:00"
     },
     {
       "id": "2026-09-24-fire-damage-restoration-cost-henderson-nv",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -563,11 +564,12 @@
         "https://www.iicrc.org/page/IICRCS700",
         "https://www.nvcontractorsboard.com/resources/working-with-contractors/"
       ],
-      "notes": "260/mo, KD 1. Commercial intent with no cost page on the site. Mirror the structure of the published water damage cost post. Use cost drivers and ranges only if sourced; do not invent prices. Note Nevada license verification and written scope of work, both surfaced by the ChatGPT scraper as what Henderson homeowners ask about."
+      "notes": "260/mo, KD 1. Commercial intent with no cost page on the site. Mirror the structure of the published water damage cost post. Use cost drivers and ranges only if sourced; do not invent prices. Note Nevada license verification and written scope of work, both surfaced by the ChatGPT scraper as what Henderson homeowners ask about.",
+      "banked_at": "2026-09-24T22:24:15.044527+00:00"
     },
     {
       "id": "2026-09-24-fire-damage-insurance-claim-north-las-vegas",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -600,11 +602,12 @@
         "https://doi.nv.gov/Consumers/Wildfire_Recovery/",
         "https://www.naic.org/"
       ],
-      "notes": "170/mo, KD 18, CPC about $71 (high commercial value). ChatGPT decomposition stressed the homeowner keeping control of the claim, not auto-signing an AOB, and getting the estimate in writing: build H2s around those. No legal advice framing."
+      "notes": "170/mo, KD 18, CPC about $71 (high commercial value). ChatGPT decomposition stressed the homeowner keeping control of the claim, not auto-signing an AOB, and getting the estimate in writing: build H2s around those. No legal advice framing.",
+      "banked_at": "2026-09-24T22:24:15.044529+00:00"
     },
     {
       "id": "2026-09-24-how-to-get-rid-of-smoke-smell-after-a-fire-henderson",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -638,7 +641,8 @@
         "https://www.iicrc.org/page/IICRCS700",
         "https://www.epa.gov/indoor-air-quality-iaq/ozone-generators-are-sold-air-cleaners"
       ],
-      "notes": "90/mo, KD 8. Bridges fire into odor-removal, a planned service with no editorial support yet. Cite EPA caution on ozone generators in occupied homes. HVAC angle matters in Henderson where AC runs most of the year and spreads odor."
+      "notes": "90/mo, KD 8. Bridges fire into odor-removal, a planned service with no editorial support yet. Cite EPA caution on ozone generators in occupied homes. HVAC angle matters in Henderson where AC runs most of the year and spreads odor.",
+      "banked_at": "2026-09-24T22:24:15.044531+00:00"
     }
   ]
 }

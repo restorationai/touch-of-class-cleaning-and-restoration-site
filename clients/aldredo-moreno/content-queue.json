@@ -445,7 +445,7 @@
     },
     {
       "id": "2026-09-24-does-homeowners-insurance-cover-burst-pipes-texas",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T21:00:42Z",
       "written_at": null,
       "post_url": null,
@@ -482,7 +482,8 @@
       ],
       "notes": "590/mo at KD 26, plus 'does insurance cover burst pipes' (170). Surfaced by the ChatGPT scraper on a burst-pipe prompt, which cited Texas Department of Insurance twice. Decision-stage insurance topic. Keep it Texas-specific (TDI guidance, sudden vs gradual, duty to mitigate) so it does not cannibalize the generic homeowners-insurance blog post. Do not give legal advice.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-24T22:24:15.028183+00:00"
     }
   ]
 }

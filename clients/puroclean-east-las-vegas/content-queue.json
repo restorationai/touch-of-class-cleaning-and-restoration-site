@@ -982,7 +982,7 @@
     },
     {
       "id": "2026-08-09-diy-mold-remediation",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-10T00:58:00Z",
       "written_at": null,
       "post_url": null,
@@ -1016,11 +1016,12 @@
         "https://www.epa.gov/mold/mold-cleanup-your-home"
       ],
       "notes": "1,900/mo, KD 9. Honest-broker post: EPA's roughly 10 square feet guidance is the dividing line. DIY-appropriate cases, the mistakes that spread spores (dry scraping, bleach on porous drywall), and the Vegas wrinkles: swamp-cooler duct mold and post-monsoon wall cavities are never DIY jobs. CTA wording rule for this client: always say free assessment; never pair the word free with the e-word for quotes.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-24T22:24:15.048299+00:00"
     },
     {
       "id": "2026-08-27-homeowners-insurance-for-storm-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T05:45:00Z",
       "written_at": null,
       "post_url": null,
@@ -1055,11 +1056,12 @@
         "https://www.iii.org/article/understanding-your-insurance-deductible",
         "https://www.floodsmart.gov/"
       ],
-      "notes": "Highest-volume in-scope keyword this seed produced (590/mo, KD 22). Companion piece to the existing /blog/does-homeowners-insurance-cover-water-damage/ post: that one covers water specifically, this one covers the storm/monsoon claim path end to end (wind-driven rain vs flood exclusion, ACV vs replacement cost, mitigation duty). Nevada angle: standard HO-3 policies exclude flood, and Clark County monsoon flash flooding is the exact scenario homeowners assume is covered but is not. Link the mitigation-duty section straight to the water damage restoration service page: insurers require prompt mitigation, which is the client's actual product."
+      "notes": "Highest-volume in-scope keyword this seed produced (590/mo, KD 22). Companion piece to the existing /blog/does-homeowners-insurance-cover-water-damage/ post: that one covers water specifically, this one covers the storm/monsoon claim path end to end (wind-driven rain vs flood exclusion, ACV vs replacement cost, mitigation duty). Nevada angle: standard HO-3 policies exclude flood, and Clark County monsoon flash flooding is the exact scenario homeowners assume is covered but is not. Link the mitigation-duty section straight to the water damage restoration service page: insurers require prompt mitigation, which is the client's actual product.",
+      "banked_at": "2026-09-24T22:24:15.048305+00:00"
     },
     {
       "id": "2026-08-27-does-homeowners-insurance-cover-wind-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T05:45:00Z",
       "written_at": null,
       "post_url": null,
@@ -1092,11 +1094,12 @@
         "https://www.weather.gov/vef/monsoon",
         "https://www.iii.org/article/what-is-covered-by-standard-homeowners-policy"
       ],
-      "notes": "170/mo, KD 19. Scope guard for the writer: PuroClean of East Las Vegas does NOT do roofing. Cover wind damage from the interior-damage angle only (wind lifts tile or flashing, rain gets in, ceiling and drywall soak, mold follows in 24 to 48 hours). Point roof repair itself at a roofer and keep the CTA on water intrusion drying and mold prevention. Las Vegas monsoon microbursts routinely hit 60 to 80 mph, which is the local hook."
+      "notes": "170/mo, KD 19. Scope guard for the writer: PuroClean of East Las Vegas does NOT do roofing. Cover wind damage from the interior-damage angle only (wind lifts tile or flashing, rain gets in, ceiling and drywall soak, mold follows in 24 to 48 hours). Point roof repair itself at a roofer and keep the CTA on water intrusion drying and mold prevention. Las Vegas monsoon microbursts routinely hit 60 to 80 mph, which is the local hook.",
+      "banked_at": "2026-09-24T22:24:15.048307+00:00"
     },
     {
       "id": "2026-08-27-hidden-water-damage-after-a-storm",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T05:45:00Z",
       "written_at": null,
       "post_url": null,
@@ -1131,7 +1134,8 @@
         "https://www.epa.gov/mold/mold-cleanup-your-home",
         "https://www.weather.gov/vef/monsoon"
       ],
-      "notes": "Zero measured Google volume, queued on AI-retrieval value: surfaced directly by the ChatGPT decomposition of the storm-damage prompt, and question pages are what AI engines lift verbatim. Structure it as a checklist with one short answer paragraph per room (attic, ceilings, exterior walls, around windows, under flooring, HVAC closet) so each block is independently quotable. Vegas specifics: stucco staining, swamp cooler pans on the roof, and flat or low-slope tile roofs that pond after a monsoon cell."
+      "notes": "Zero measured Google volume, queued on AI-retrieval value: surfaced directly by the ChatGPT decomposition of the storm-damage prompt, and question pages are what AI engines lift verbatim. Structure it as a checklist with one short answer paragraph per room (attic, ceilings, exterior walls, around windows, under flooring, HVAC closet) so each block is independently quotable. Vegas specifics: stucco staining, swamp cooler pans on the roof, and flat or low-slope tile roofs that pond after a monsoon cell.",
+      "banked_at": "2026-09-24T22:24:15.048308+00:00"
     },
     {
       "id": "2026-08-27-can-a-monsoon-cause-mold-in-your-house",

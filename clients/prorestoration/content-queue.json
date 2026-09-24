@@ -660,7 +660,7 @@
     },
     {
       "id": "2026-08-09-what-to-do-after-a-house-fire",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-10T00:59:00Z",
       "written_at": null,
       "post_url": null,
@@ -694,11 +694,12 @@
         "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire.html"
       ],
       "notes": "Checklist companion to the existing restoration-process post: safety, insurance first call, securing the property, what not to touch, temporary housing coverage. Local loss drivers per plan notes: space-heater fires in winter tule fog season and aging electrical in Oildale and Taft housing stock.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-24T22:24:15.047097+00:00"
     },
     {
       "id": "2026-08-09-swamp-cooler-leaking-water",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-10T01:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -732,7 +733,8 @@
         "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHLB/AQS/Pages/Frequently-Asked-Questions-about-Mold.aspx"
       ],
       "notes": "The most Bakersfield-specific topic in the pool. Annual average is only 50/mo but Ads monthly data shows the summer spike (140/mo in June and July), and plan notes ground it: aging evaporative coolers leak through roofs and attics every summer. ChatGPT fan-out's key distinction: fixing the cooler vs fixing the wet insulation, drywall, and ceiling it leaves behind. Cover the shutoff step, who to call, and the attic mold risk.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-24T22:24:15.047103+00:00"
     },
     {
       "id": "2026-08-27-storm-damage-to-roof",
@@ -811,7 +813,7 @@
     },
     {
       "id": "2026-08-27-wind-damage-on-roofs",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T05:22:00Z",
       "written_at": null,
       "post_url": null,
@@ -844,7 +846,8 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "KD 0 with 1300 a month is the easiest win in this seed family. Show homeowners what lifted, creased and missing shingles look like from the ground so they can document before calling. Local hook: Bakersfield and the Tehachapi pass get sustained wind events that peel shingles without a named storm, and insurers often push back on wear and tear."
+      "notes": "KD 0 with 1300 a month is the easiest win in this seed family. Show homeowners what lifted, creased and missing shingles look like from the ground so they can document before calling. Local hook: Bakersfield and the Tehachapi pass get sustained wind events that peel shingles without a named storm, and insurers often push back on wear and tear.",
+      "banked_at": "2026-09-24T22:24:15.047105+00:00"
     },
     {
       "id": "2026-08-27-how-to-tarp-a-roof",

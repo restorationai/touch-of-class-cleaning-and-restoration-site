@@ -873,7 +873,7 @@
     },
     {
       "id": "2026-08-27-wind-damage-to-roof-what-to-do",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T03:05:00Z",
       "written_at": null,
       "post_url": null,
@@ -904,11 +904,12 @@
         "https://www.iicrc.org/page/IICRCS500",
         "https://www.ready.gov/severe-weather"
       ],
-      "notes": "Canyon winds off the Wasatch Front are the local angle (Saratoga Springs, Eagle Mountain, Lehi). Cover safe temporary tarping versus calling a crew, and link the insurance-claim checklist post rather than repeating it."
+      "notes": "Canyon winds off the Wasatch Front are the local angle (Saratoga Springs, Eagle Mountain, Lehi). Cover safe temporary tarping versus calling a crew, and link the insurance-claim checklist post rather than repeating it.",
+      "banked_at": "2026-09-24T22:24:15.043086+00:00"
     },
     {
       "id": "2026-08-27-basement-flooded-after-heavy-rain",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T03:05:00Z",
       "written_at": null,
       "post_url": null,
@@ -941,11 +942,12 @@
         "https://www.iicrc.org/page/IICRCS500",
         "https://www.ready.gov/severe-weather"
       ],
-      "notes": "Utah County clay soil plus fast spring runoff is the local cause. Separate clean rainwater intrusion (category 1) from ground-water and sewer backup (category 3) early, because the category drives what gets saved versus removed."
+      "notes": "Utah County clay soil plus fast spring runoff is the local cause. Separate clean rainwater intrusion (category 1) from ground-water and sewer backup (category 3) early, because the category drives what gets saved versus removed.",
+      "banked_at": "2026-09-24T22:24:15.043091+00:00"
     },
     {
       "id": "2026-08-27-what-does-storm-damage-restoration-include",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T03:05:00Z",
       "written_at": null,
       "post_url": null,
@@ -977,11 +979,12 @@
         "https://www.iicrc.org/page/IICRCS500",
         "https://www.ready.gov/severe-weather"
       ],
-      "notes": "Straight answer-format page built for AI retrieval: emergency stabilization, assessment and documentation, water extraction and structural drying, then repairs. ChatGPT already cites the storm service page for this client, so mirror that phrasing and link back to it."
+      "notes": "Straight answer-format page built for AI retrieval: emergency stabilization, assessment and documentation, water extraction and structural drying, then repairs. ChatGPT already cites the storm service page for this client, so mirror that phrasing and link back to it.",
+      "banked_at": "2026-09-24T22:24:15.043093+00:00"
     },
     {
       "id": "2026-08-27-how-long-does-storm-damage-restoration-take",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T03:05:00Z",
       "written_at": null,
       "post_url": null,
@@ -1012,7 +1015,8 @@
         "https://www.iicrc.org/page/IICRCS500",
         "https://www.ready.gov/severe-weather"
       ],
-      "notes": "Give ranges, not promises: tarping and board-up same day, structural drying three to five days, repairs measured in weeks and gated by the insurance approval. Note that the drying clock does not start until the roof or window breach is closed."
+      "notes": "Give ranges, not promises: tarping and board-up same day, structural drying three to five days, repairs measured in weeks and gated by the insurance approval. Note that the drying clock does not start until the roof or window breach is closed.",
+      "banked_at": "2026-09-24T22:24:15.043095+00:00"
     },
     {
       "id": "2026-09-24-what-damage-can-a-flood-cause-saratoga-springs",

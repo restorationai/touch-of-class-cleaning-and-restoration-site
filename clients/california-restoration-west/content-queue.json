@@ -102,7 +102,7 @@
             "review_count": 59
           },
           {
-            "name": "Ventura’s 24 Hr Flood Cleanup",
+            "name": "Ventura\u2019s 24 Hr Flood Cleanup",
             "google_rating": 5,
             "review_count": 3
           },
@@ -364,7 +364,7 @@
     },
     {
       "id": "2026-09-14-mold-remediation-ventura",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-14T00:00:00Z",
       "priority": 1,
       "content_type": "target_term",
@@ -373,11 +373,12 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": "ventura-ca",
-      "source": "dev-agent geo-target (gameplan-2026-09-4)"
+      "source": "dev-agent geo-target (gameplan-2026-09-4)",
+      "banked_at": "2026-09-24T22:24:15.031556+00:00"
     },
     {
       "id": "2026-09-14-water-damage-restoration-ventura",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-14T00:00:00Z",
       "priority": 1,
       "content_type": "target_term",
@@ -386,7 +387,8 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": "ventura-ca",
-      "source": "dev-agent geo-target (gameplan-2026-09-4)"
+      "source": "dev-agent geo-target (gameplan-2026-09-4)",
+      "banked_at": "2026-09-24T22:24:15.031562+00:00"
     },
     {
       "id": "2026-09-24-mold-remediation-cost",
@@ -544,7 +546,7 @@
     },
     {
       "id": "2026-09-24-how-long-does-mold-remediation-take",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T21:30:00Z",
       "written_at": null,
       "post_url": null,
@@ -578,7 +580,8 @@
         "https://iicrc.org/s520/"
       ],
       "notes": "KD 0 with 720/mo. Give phase-by-phase timeline (assessment, containment, removal, drying, clearance, rebuild) and what extends it (hidden growth, HVAC involvement, insurance approval). Cover whether a family can stay home during the work and when contents need to be moved out.",
-      "source": "keyword-researcher seed=mold remediation"
+      "source": "keyword-researcher seed=mold remediation",
+      "banked_at": "2026-09-24T22:24:15.031565+00:00"
     }
   ]
 }

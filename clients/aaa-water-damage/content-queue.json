@@ -456,7 +456,7 @@
     },
     {
       "id": "2026-08-17-does-homeowners-insurance-cover-mold-remediation",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-17T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -490,11 +490,12 @@
       ],
       "notes": "Decision-stage insurance query, exactly the 24-48-hours-before-they-hire moment the methodology flags as high value: 1,000/mo at KD 26. The existing planned post covers insurance for WATER damage, not mold, so this is a genuine gap rather than a duplicate; cross-link the two. Core explanation: coverage usually turns on whether the mold resulted from a sudden accidental discharge that was addressed promptly versus long-term seepage or deferred maintenance, and most policies carry a mold sublimit. Hawaii angle: ambient humidity means insurers scrutinise the 'sudden vs gradual' line harder here. Keep it educational and state plainly this is not legal or insurance advice and the policy language controls.",
       "source": "keyword-researcher",
-      "seed": "mold remediation"
+      "seed": "mold remediation",
+      "banked_at": "2026-09-24T22:24:15.025827+00:00"
     },
     {
       "id": "2026-08-17-who-pays-for-mold-remediation",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-17T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -528,11 +529,12 @@
       ],
       "notes": "Strongest local fit in the fan-out at 880/mo, KD 9, $14.41 CPC. Urban Honolulu is condo country (Waikiki, Kakaako, Ala Moana, the Diamond Head Gold Coast co-ops) where a riser or supply-line failure seeds mold in units below and pulls the AOAO master policy in alongside the owner's HO-6. Direct sibling to the already-queued 'who is responsible for water damage in a condo' post: cross-link them and keep the scopes distinct (that one is the water loss, this one is the mold that follows). Also cover the landlord/tenant split given Kaneohe and Mililani rental turnover. Educational framing only, governing documents control, not legal advice.",
       "source": "keyword-researcher",
-      "seed": "mold remediation"
+      "seed": "mold remediation",
+      "banked_at": "2026-09-24T22:24:15.025838+00:00"
     },
     {
       "id": "2026-08-17-how-long-does-mold-remediation-take",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-17T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -566,11 +568,12 @@
       ],
       "notes": "720/mo at KD 0 with a $17.80 CPC: the easiest ranking target in the set and high commercial value. The planned blog covers how long WATER DAMAGE restoration takes, not mold, so this is uncovered. Walk the reader through assessment, containment, HEPA filtration, removal of affected materials, cleaning, drying, and post-remediation verification, giving realistic day ranges per phase rather than one number. Hawaii angle: trade-wind humidity keeps ambient moisture high year-round, so the drying and clearance phases routinely run longer than mainland timelines. Do not promise a specific turnaround, and do not claim IICRC certification or any cert number: none are on file for this client.",
       "source": "keyword-researcher",
-      "seed": "mold remediation"
+      "seed": "mold remediation",
+      "banked_at": "2026-09-24T22:24:15.025841+00:00"
     },
     {
       "id": "2026-08-17-mold-remediation-oahu",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-17T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -604,7 +607,8 @@
       ],
       "notes": "Island-wide gap that mirrors the one the water damage run found: the url-plan has mold-remediation pages for all 13 cities but nothing at Oahu or Hawaii scope, so 'mold remediation oahu' (170/mo, KD 12) and 'mold remediation hawaii' (50/mo, KD 16) have no target. Frame around what makes island mold different: year-round trade-wind humidity that collapses the 24-48 hour growth window, single-wall construction in Kaimuki, Aina Haina and Kailua that wicks water into cavities, the Koolau windward face making Kaneohe the wettest market served, and salt-air corrosion seeding slow leaks. Route readers out to the per-city mold pages. Truth gate: 'over 25 years' phrasing only, no founding year, no license or IICRC claims, no commercial client name-drops.",
       "source": "keyword-researcher",
-      "seed": "mold remediation"
+      "seed": "mold remediation",
+      "banked_at": "2026-09-24T22:24:15.025843+00:00"
     },
     {
       "id": "2026-08-26-flood-insurance-hawaii",

@@ -416,7 +416,7 @@
     },
     {
       "id": "2026-08-26-what-certifications-water-damage-restoration-company",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-26T13:20:00Z",
       "written_at": null,
       "post_url": null,
@@ -452,7 +452,8 @@
       ],
       "notes": "Decision-stage question straight out of the ChatGPT decomposition. Air Care is an IICRC certified firm holding WRT and FSRT plus Texas mold remediation contractor licence MRC2262 and EPA Lead-Safe: name each credential, say what it actually covers, and link the TDLR licence lookup so the reader can verify. Do not claim credentials outside the plan-input list.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration"
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-24T22:24:15.027214+00:00"
     },
     {
       "id": "2026-08-26-should-i-replace-drywall-that-got-wet",
@@ -787,7 +788,7 @@
     },
     {
       "id": "2026-09-24-what-to-do-after-a-house-fire",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T21:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -826,11 +827,12 @@
       ],
       "notes": "KD 0, 260/mo. Structure follows the ChatGPT decomposition: wait for the fire department to clear re-entry, call the insurer, secure the property (board-up, tarp), document room by room, then restoration. Add a printable checklist section. Sensitive topic: calm, practical tone, no fear selling.",
       "source": "keyword-researcher",
-      "seed": "fire damage restoration"
+      "seed": "fire damage restoration",
+      "banked_at": "2026-09-24T22:24:15.027220+00:00"
     },
     {
       "id": "2026-09-24-fire-damage-restoration-cost",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T21:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -868,11 +870,12 @@
       ],
       "notes": "KD 1, 260/mo, commercial intent with no commercial-partition page. Explain cost drivers (affected square footage, soot type, water from firefighting, contents pack-out, odor treatment, rebuild) rather than inventing price quotes. Any number cited must be sourced. Mirror the structure of the live water cost TX post and cross-link it.",
       "source": "keyword-researcher",
-      "seed": "fire damage restoration"
+      "seed": "fire damage restoration",
+      "banked_at": "2026-09-24T22:24:15.027223+00:00"
     },
     {
       "id": "2026-09-24-should-i-clean-air-ducts-after-a-fire",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T21:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -909,7 +912,8 @@
       ],
       "notes": "ChatGPT-surfaced (smoke residue damages HVAC systems). No Google volume, scored intent-first as a question-format AI-retrieval target. Joins two client goals (fire/soot and air duct cleaning). Cite EPA's balanced guidance on duct cleaning; do not claim NADCA certification (not in plan-input).",
       "source": "keyword-researcher",
-      "seed": "fire damage restoration"
+      "seed": "fire damage restoration",
+      "banked_at": "2026-09-24T22:24:15.027225+00:00"
     }
   ]
 }

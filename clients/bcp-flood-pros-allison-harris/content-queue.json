@@ -464,7 +464,7 @@
     },
     {
       "id": "2026-09-21-do-i-need-to-replace-drywall-after-water-damage",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-21T18:30:00Z",
       "written_at": null,
       "post_url": null,
@@ -496,8 +496,7 @@
         "https://www.epa.gov/mold/mold-cleanup-your-home"
       ],
       "notes": "Decision-stage question that comes up on nearly every estimate. Explain clean water versus sewage, the flood-cut rule of thumb, and when drying in place is legitimate. Sewage cases must point to the sewage-cleanup service. Brand has no certifications on file: do not state or imply IICRC certification. Cite IICRC S500/S520 only as an industry standard, and prefer EPA / CDC / Utah state sources for authority links. Do not cite competitor review counts.",
-      "source": "rank-ai-keyword-researcher (seed: water damage restoration)",
-      "banked_at": "2026-09-23T22:24:04.935656+00:00"
+      "source": "rank-ai-keyword-researcher (seed: water damage restoration)"
     }
   ]
 }

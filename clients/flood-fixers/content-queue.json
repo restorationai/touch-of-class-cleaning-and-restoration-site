@@ -1105,7 +1105,7 @@
     },
     {
       "id": "2026-09-10-does-commercial-property-insurance-cover-water-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-10T20:15:00Z",
       "written_at": null,
       "post_url": null,
@@ -1138,11 +1138,12 @@
         "https://www.iii.org/",
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "The live insurance post is homeowners-only, so the commercial policy question is wide open. Decision-stage: these readers are 24 to 48 hours from hiring someone. Cover the sudden-and-accidental vs long-term-seepage split, business interruption as a separate coverage, deductible structure on a commercial policy, and flood exclusion (San Diego coastal and canyon properties). Do not give legal or coverage advice: frame as what to check in your policy and what to document."
+      "notes": "The live insurance post is homeowners-only, so the commercial policy question is wide open. Decision-stage: these readers are 24 to 48 hours from hiring someone. Cover the sudden-and-accidental vs long-term-seepage split, business interruption as a separate coverage, deductible structure on a commercial policy, and flood exclusion (San Diego coastal and canyon properties). Do not give legal or coverage advice: frame as what to check in your policy and what to document.",
+      "banked_at": "2026-09-24T22:24:15.037409+00:00"
     },
     {
       "id": "2026-09-10-who-is-responsible-for-water-damage-in-a-rental-property",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-10T20:15:00Z",
       "written_at": null,
       "post_url": null,
@@ -1175,11 +1176,12 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "Landlord and property-manager query with no coverage on the site. Both audiences convert: the landlord books the job, the tenant refers the landlord. Split the piece by who pays for the structure vs the contents, habitability and relocation timelines, and why a documented IICRC S500 dry log protects the landlord in a dispute. Chula Vista anchor because the multifamily stock there is the natural reader. Keep it descriptive, not legal advice: point readers to their lease and their carrier."
+      "notes": "Landlord and property-manager query with no coverage on the site. Both audiences convert: the landlord books the job, the tenant refers the landlord. Split the piece by who pays for the structure vs the contents, habitability and relocation timelines, and why a documented IICRC S500 dry log protects the landlord in a dispute. Chula Vista anchor because the multifamily stock there is the natural reader. Keep it descriptive, not legal advice: point readers to their lease and their carrier.",
+      "banked_at": "2026-09-24T22:24:15.037414+00:00"
     },
     {
       "id": "2026-09-10-how-to-prevent-water-damage-in-a-commercial-building",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-10T20:15:00Z",
       "written_at": null,
       "post_url": null,
@@ -1212,11 +1214,12 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "The live prevention post (/blog/basement-flooding-prevention/) is residential, so the commercial angle is uncovered. Make it an actual checklist a property manager can run quarterly: roof drains and scuppers, water heaters and boiler rooms, supply lines to break rooms and ice machines, fire sprinkler line inspections, shutoff valve mapping and labeling, leak sensors on upper floors. Carlsbad anchor: coastal corrosion on supply lines and winter storm runoff are the local hooks."
+      "notes": "The live prevention post (/blog/basement-flooding-prevention/) is residential, so the commercial angle is uncovered. Make it an actual checklist a property manager can run quarterly: roof drains and scuppers, water heaters and boiler rooms, supply lines to break rooms and ice machines, fire sprinkler line inspections, shutoff valve mapping and labeling, leak sensors on upper floors. Carlsbad anchor: coastal corrosion on supply lines and winter storm runoff are the local hooks.",
+      "banked_at": "2026-09-24T22:24:15.037416+00:00"
     },
     {
       "id": "2026-09-10-what-to-do-when-a-pipe-bursts-in-a-commercial-building",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-10T20:15:00Z",
       "written_at": null,
       "post_url": null,
@@ -1248,7 +1251,8 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "Do not rewrite /blog/burst-pipe-emergency-checklist/: that one is written for homeowners. This is the multi-tenant version, ordered by minute: kill power to affected panels, find and close the building shutoff, notify tenants and the building owner, photograph before anything moves, call the carrier and the restoration contractor in that order. Add the after-hours case (burst at 2am, nobody on site) because that is the panic search. 24/7 emergency service is a verified brand fact."
+      "notes": "Do not rewrite /blog/burst-pipe-emergency-checklist/: that one is written for homeowners. This is the multi-tenant version, ordered by minute: kill power to affected panels, find and close the building shutoff, notify tenants and the building owner, photograph before anything moves, call the carrier and the restoration contractor in that order. Add the after-hours case (burst at 2am, nobody on site) because that is the panic search. 24/7 emergency service is a verified brand fact.",
+      "banked_at": "2026-09-24T22:24:15.037418+00:00"
     },
     {
       "id": "2026-09-24-ceiling-water-damage-repair-san-diego",

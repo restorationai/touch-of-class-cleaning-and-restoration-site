@@ -323,7 +323,7 @@
     },
     {
       "id": "2026-08-27-does-homeowners-insurance-cover-water-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-08-27T04:40:00Z",
       "written_at": null,
       "post_url": null,
@@ -356,7 +356,8 @@
         "https://www.floodsmart.gov/"
       ],
       "notes": "Highest-value decision-stage query in the seed family (1,900/mo, KD 10, $27 CPC). Lead with the sudden-and-accidental vs gradual-damage distinction, then the flood exclusion, which matters more in Charleston than almost anywhere: NFIP flood policies are separate and tidal/storm-surge flooding is never covered by a standard HO-3. Note that Paul Davis works directly with adjusters and documents moisture readings for the claim.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-24T22:24:15.045805+00:00"
     },
     {
       "id": "2026-08-27-water-damage-and-mold",
@@ -551,7 +552,7 @@
     },
     {
       "id": "2026-09-10-does-homeowners-insurance-cover-fire-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-10T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -584,11 +585,12 @@
         "https://www.naic.org/consumer_home.htm"
       ],
       "notes": "Decision-stage insurance query: readers are 24 to 48 hours from hiring someone. Cover the four coverage buckets (dwelling, other structures, contents, and Additional Living Expenses), then replacement cost versus actual cash value, then the exclusions people get surprised by (arson, vacancy clauses, and the fact that firefighting water damage IS covered as part of the fire loss). Explain Assignment of Benefits plainly and tell readers to understand what rights they sign away: the ChatGPT decomposition flagged AOB as a top homeowner question and a common red flag. Note that Paul Davis writes itemized Xactimate estimates and works directly with adjusters. Left city_anchor null on purpose: this is a national policy explainer and localizing it would read absurd.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-24T22:24:15.045811+00:00"
     },
     {
       "id": "2026-09-10-what-to-throw-away-after-smoke-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-10T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -621,11 +623,12 @@
         "https://www.epa.gov/indoor-air-quality-iaq"
       ],
       "notes": "KD 0 at 210/mo and the single most list-shaped query in the family, which makes it strong AI-retrieval fuel. Organise as keep-versus-discard by category: food and medication and cosmetics (always discard), porous soft goods, mattresses, electronics, and hard non-porous surfaces (usually cleanable). Critical claim-protection message: photograph and inventory everything BEFORE discarding, because an insurer will not reimburse what was never documented. Tie to contents pack-out and note that professional cleaning saves more than homeowners expect.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-24T22:24:15.045813+00:00"
     },
     {
       "id": "2026-09-10-fire-damage-restoration-cost",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-10T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -657,11 +660,12 @@
         "https://www.iicrc.org/page/IICRCS700"
       ],
       "notes": "Commercial money page: 260/mo at KD 1, the easiest ranking win in the run. Price by the real drivers (affected square footage, soot type from protein versus synthetic versus wood smoke, whether framing and drywall come out, contents pack-out volume, and days of odor treatment) and give honest ranges rather than one number. Note that soot removal cost carries a 292 dollar CPC, so the cost cluster is where competitors are spending real ad money. Close on the point that most jobs run through insurance, so the homeowner's real number is the deductible plus any coverage gap.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-24T22:24:15.045814+00:00"
     },
     {
       "id": "2026-09-10-how-to-clean-smoke-damage-on-walls-and-ceiling",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-10T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -694,7 +698,8 @@
         "https://www.epa.gov/indoor-air-quality-iaq"
       ],
       "notes": "KD 0 at 170/mo, DIY-flavoured so pivot on the triage test. Give the honest DIY path for light residue (dry soot sponge first, never wet, then a degreaser), then the hard limit: painting or sealing over soot without cleaning traps odor and it bleeds back through within weeks. Escalation triggers are protein smoke, soot in the HVAC returns, and odor that returns when the house warms up, all of which need thermal fogging or hydroxyl treatment rather than scrubbing. Anchored to Mount Pleasant to rotate the city coverage away from Charleston.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-24T22:24:15.045816+00:00"
     },
     {
       "id": "2026-09-24-mold-remediation-cost-charleston-sc",
