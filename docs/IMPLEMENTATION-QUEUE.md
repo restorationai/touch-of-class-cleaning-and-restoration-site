@@ -133,3 +133,20 @@ when that race fires.
       flags slugless companies; the meeting path should too).
 - [x] (2026-09-24) Cleanup: move Daniel's booked follow-up from the Follow Up calendar
       to LIVE Support (verify time + attendee unchanged).
+
+## 7. Group chat for client outreach (queued 09-24, phased)
+GHL now supports native Group Chat for SMS: up to 9 contacts, one true
+thread, US/CA numbers, LONG-CODE senders only (toll-free cannot group-text;
+Monica's 805 qualifies). Public API support for group threads is
+UNDOCUMENTED — Phase 0 doubles as the API experiment. Monica's rails are
+all contact-scoped (wrong-name guard, reply attribution, quiet-window,
+send-locks, canary) so group support is a model change, phased:
+- [ ] Phase 0: manual pilot — group thread in GHL UI for BCP Flood Pros
+      (Santino + Scott + Chris), human-driven, Monica out. Inspect what
+      the v2 API exposes for the thread (conversation shape, send path).
+- [ ] Phase 1: Monica READ-ONLY — group messages ingest into company
+      context; no group sends.
+- [ ] Phase 2: Monica announce-only in groups (previews, completions):
+      no personal greeting in groups; decisions/asks stay 1:1 with the
+      preferred contact (group = visibility channel, 1:1 = decision
+      channel). Per-client opt-in, never fleet default.
