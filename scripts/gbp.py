@@ -2396,7 +2396,12 @@ def optimize(slug: str) -> dict:
         "company_id": cid, "item": it.get("item"), "item_type": it.get("item_type"),
         "source": it.get("source"), "verdict": it.get("verdict"), "reason": it.get("reason"),
         "confidence": it.get("confidence"), "canonical": it.get("canonical"),
-        "auto_safe": it.get("auto_safe", False), "status": "open",
+        "auto_safe": it.get("auto_safe", False),
+        # KEEP is an audit RECORD ("this is correct"), not an action. As
+        # status='open' 1,532 of them inflated every board count and pinned
+        # the fleet in "Listing synced" (Santino 2026-09-24, RX "45" badge
+        # = 40 KEEPs + 5 real). Recorded as 'noted'; open = actionable.
+        "status": "noted" if it.get("verdict") == "KEEP" else "open",
     } for it in items if it.get("item")]
 
     # NEW-category proposals (Santino 2026-07-25): the audit above only
