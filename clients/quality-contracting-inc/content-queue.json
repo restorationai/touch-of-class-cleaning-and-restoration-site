@@ -435,10 +435,10 @@
     },
     {
       "id": "2026-08-27-does-renters-insurance-cover-water-damage",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-27T06:15:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-24T19:39:54Z",
+      "post_url": "https://qualitycontracting.us/blog/does-renters-insurance-cover-water-damage/",
       "primary_keyword": "does renters insurance cover water damage",
       "intent": "informational",
       "volume": 1000,
@@ -465,7 +465,27 @@
       "external_authority_candidates": [
         "https://www.mass.gov/info-details/massachusetts-law-about-landlord-and-tenant-law"
       ],
-      "notes": "Complements the existing homeowners-insurance post rather than repeating it: tenant vs landlord responsibility is the gap. Worcester and Framingham have heavy multi-family stock, so the upstairs-unit leak scenario is the local hook."
+      "notes": "Complements the existing homeowners-insurance post rather than repeating it: tenant vs landlord responsibility is the gap. Worcester and Framingham have heavy multi-family stock, so the upstairs-unit leak scenario is the local hook.",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/does-renters-insurance-cover-water-damage.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified restoration",
+          "context": "additional time. A written scope from a certified restoration contractor will give you a clearer time",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/does-renters-insurance-cover-water-damage.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "er extraction, structural drying to the IICRC S500 standard, mold prevention, and the",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
     },
     {
       "id": "2026-08-27-how-to-fix-water-damage-on-ceiling",
@@ -536,6 +556,203 @@
         "https://www.iicrc.org/page/IICRCS500"
       ],
       "notes": "CPC of 67.75 on this term: adjusters and homeowners both use the word mitigation, and nothing on the site explains it. Map the two phases to what appears on an insurance estimate, since that is the question behind the query."
+    },
+    {
+      "id": "2026-09-24-fire-damage-restoration-cost-auburn-ma",
+      "status": "queued",
+      "queued_at": "2026-09-24T19:40:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "fire damage restoration cost",
+      "intent": "commercial",
+      "volume": 260,
+      "kd": 1,
+      "fan_out_cluster": [
+        "fire restoration cost per square foot",
+        "smoke damage restoration cost",
+        "fire damage restoration rates",
+        "house fire debris removal cost",
+        "does homeowners insurance cover fire damage"
+      ],
+      "suggested_slug": "fire-damage-restoration-cost-auburn-ma",
+      "suggested_title": "Fire damage restoration cost in Auburn, MA: what homeowners actually pay in 2026",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/odor-removal/",
+        "/services/contents-restoration/",
+        "/services/general-contracting/",
+        "/blog/fire-damage-restoration-process/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "odor-removal",
+        "contents-restoration",
+        "general-contracting"
+      ],
+      "city_anchor": "auburn-ma",
+      "external_authority_candidates": [
+        "https://www.iii.org/article/what-covered-standard-homeowners-policy",
+        "https://www.mass.gov/info-details/hic-homeowner-resources"
+      ],
+      "notes": "Companion to the published water damage restoration cost MA post. Break cost into mitigation (board-up, soot and smoke cleanup, odor, water from firefighting) vs reconstruction, and show per-square-foot ranges. Mention the MA one-third upfront payment cap on home improvement contracts. Commercial intent, KD 1, CPC $3.69."
+    },
+    {
+      "id": "2026-09-24-what-to-do-after-a-house-fire-worcester-ma",
+      "status": "queued",
+      "queued_at": "2026-09-24T19:40:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to do after a house fire",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 0,
+      "fan_out_cluster": [
+        "what to do after a house fire checklist",
+        "what happens after a house fire",
+        "what to do after a house fire with no insurance",
+        "how to deal with insurance adjuster after a house fire",
+        "do you need a permit to repair fire damage in worcester ma",
+        "help after a house fire"
+      ],
+      "suggested_slug": "what-to-do-after-a-house-fire-worcester-ma",
+      "suggested_title": "What to do after a house fire in Worcester, MA: the first 72 hours checklist",
+      "target_word_count": 1800,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/emergency-board-up-tarping/",
+        "/services/contents-restoration-storage/",
+        "/services/odor-removal/",
+        "/service-areas/worcester-ma/fire-damage-restoration/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "emergency-board-up-tarping",
+        "contents-restoration-storage",
+        "odor-removal"
+      ],
+      "city_anchor": "worcester-ma",
+      "external_authority_candidates": [
+        "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire/recovering-from-a-fire.html",
+        "https://www.worcesterma.gov/building-zoning",
+        "https://www.worcesterma.gov/fire/prevention"
+      ],
+      "notes": "Sensitive, emotional topic: calm, practical tone. ChatGPT's Worcester answer leans on the city's Inspectional Services (permits must be issued before repair work) and Fire Prevention Division; include both with phone numbers verified at write time. Quality Contracting did not appear in ChatGPT's local list for Worcester fire restoration (SERVPRO, Paul Davis, J. Brian Day, PuroClean Auburn did), so this is a GEO priority."
+    },
+    {
+      "id": "2026-09-24-does-renters-insurance-cover-fire-damage",
+      "status": "queued",
+      "queued_at": "2026-09-24T19:40:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does renters insurance cover fire damage",
+      "intent": "informational",
+      "volume": 390,
+      "kd": 10,
+      "fan_out_cluster": [
+        "renters insurance for fire damage",
+        "will renters insurance cover fire damage",
+        "is smoke damage covered by insurance",
+        "fire damage insurance claim",
+        "what to do after a house fire"
+      ],
+      "suggested_slug": "does-renters-insurance-cover-fire-damage",
+      "suggested_title": "Does renters insurance cover fire damage? What is covered, what is not, and what to do next",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/contents-restoration/",
+        "/services/odor-removal/",
+        "/blog/does-renters-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "contents-restoration",
+        "odor-removal"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iii.org/article/renters-insurance",
+        "https://www.mass.gov/orgs/division-of-insurance"
+      ],
+      "notes": "National insurance-policy explainer, so city_anchor left null. Pairs with the queued renters-water-damage post; cross-link both. Cluster head 'renters insurance for fire damage' has 1,300/mo (KD 8), so work that exact phrase into the H1 area and an H2. Lead with personal property plus loss-of-use (ALE) coverage; landlord's policy covers the structure."
+    },
+    {
+      "id": "2026-09-24-does-homeowners-insurance-cover-fire-damage",
+      "status": "queued",
+      "queued_at": "2026-09-24T19:40:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover fire damage",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 30,
+      "fan_out_cluster": [
+        "does home insurance cover fire damage",
+        "fire damage insurance claim",
+        "fire damage insurance coverage",
+        "is smoke damage covered by insurance",
+        "how to deal with insurance adjuster after a house fire"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-fire-damage",
+      "suggested_title": "Does homeowners insurance cover fire damage? A plain-English guide to your policy",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/emergency-board-up-tarping/",
+        "/services/contents-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "emergency-board-up-tarping",
+        "contents-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iii.org/article/what-covered-standard-homeowners-policy",
+        "https://www.mass.gov/orgs/division-of-insurance"
+      ],
+      "notes": "National insurance-policy explainer, so city_anchor left null. Mirror the structure of the existing homeowners-insurance water damage post. Cover dwelling, other structures, personal property, ALE, and the duty to mitigate (board-up and tarping). Decision-stage topic that attracts homeowners 24 to 48 hours before hiring."
+    },
+    {
+      "id": "2026-09-24-what-to-throw-away-after-smoke-damage-shrewsbury-ma",
+      "status": "queued",
+      "queued_at": "2026-09-24T19:40:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to throw away after smoke damage",
+      "intent": "informational",
+      "volume": 210,
+      "kd": 0,
+      "fan_out_cluster": [
+        "what can be salvaged after a house fire",
+        "does smoke damage electronics",
+        "smoke damage to clothes",
+        "what needs to be replaced after a house fire",
+        "smoke damage odor removal"
+      ],
+      "suggested_slug": "what-to-throw-away-after-smoke-damage-shrewsbury-ma",
+      "suggested_title": "What to throw away after smoke damage (and what can be saved) in Shrewsbury, MA",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/contents-restoration/",
+        "/services/contents-restoration-storage/",
+        "/services/odor-removal/",
+        "/services/fire-damage-restoration/"
+      ],
+      "service_tags": [
+        "contents-restoration",
+        "contents-restoration-storage",
+        "odor-removal",
+        "fire-damage-restoration"
+      ],
+      "city_anchor": "shrewsbury-ma",
+      "external_authority_candidates": [
+        "https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage",
+        "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire/recovering-from-a-fire.html"
+      ],
+      "notes": "Strong tie-in to the contents restoration and pack-out/storage services. Food, medicine, and cosmetics exposed to heat or soot get discarded; hard goods, many textiles, and electronics can often be professionally cleaned. Warn not to discard items before the adjuster documents them."
     }
   ]
 }
