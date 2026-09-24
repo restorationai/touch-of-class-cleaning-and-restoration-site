@@ -49,7 +49,7 @@ export const brand = {
   certifications: ["LICENSED & INSURED", "COMMERCIAL, INDUSTRIAL & RESIDENTIAL", "40+ YEARS OF CONSTRUCTION & REBUILDING EXPERIENCE"] as string[],
   trustBadges: ["Commercial, Industrial & Residential", "Licensed & Insured", "40+ Years of Construction Experience", "Insurance Rebuilds Handled Direct"] as string[],
   jobPhotos: [] as string[],
-  sameAsUrls: ["facebook.com/TDIBuilders", "https://www.instagram.com/tdi_usa/", "https://x.com/tdi_usa", "https://www.linkedin.com/company/tdi-usa-inc", "https://www.youtube.com/@TDIUSA", "https://www.tiktok.com/@tdiusa"] as string[],
+  sameAsUrls: ["facebook.com/TDIBuilders", "https://www.instagram.com/tdi_usa/", "https://x.com/tdi_usa", "https://www.linkedin.com/company/tdi-usa-inc", "https://www.youtube.com/@TDIUSA", "https://www.tiktok.com/@tdiusa", "https://maps.google.com/maps?cid=8191992345660170943"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "5.0",
