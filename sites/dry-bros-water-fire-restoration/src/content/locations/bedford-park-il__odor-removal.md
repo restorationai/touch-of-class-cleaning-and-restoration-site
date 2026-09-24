@@ -7,10 +7,10 @@ primary_keyword: "odor removal and deodorization bedford park"
 secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
 search_intent: "local_specialty"
 priority: 4.9
-plan_hash: "8f4825e7df1470ba"
-generated_at: "2026-09-20T14:13:04.891103+00:00"
+plan_hash: "3adce00621846903"
+generated_at: "2026-09-24T17:27:58.242685+00:00"
 manual_override: false
-internal_links: ["/services/odor-removal/", "/service-areas/bedford-park-il/", "/service-areas/bedford-park-il/fire-damage-restoration/", "/service-areas/bedford-park-il/mold-remediation/", "/service-areas/berwyn-il/odor-removal/", "/service-areas/cicero-il/odor-removal/", "/contact/"]
+internal_links: ["/services/odor-removal/", "/service-areas/bedford-park-il/", "/service-areas/bedford-park-il/fire-damage-restoration/", "/service-areas/bedford-park-il/mold-remediation/", "/service-areas/berwyn-il/odor-removal/", "/service-areas/brookfield-il/odor-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bedford Park", "url": "/service-areas/bedford-park-il/"}, {"name": "Odor Removal and Deodorization"}]
 faq: []
 area_slug: "bedford-park-il"

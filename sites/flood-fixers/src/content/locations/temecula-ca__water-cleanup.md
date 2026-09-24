@@ -7,10 +7,10 @@ primary_keyword: "emergency water cleanup temecula"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "0b68bb609e933b26"
-generated_at: "2026-09-20T14:13:11.328590+00:00"
+plan_hash: "0ed8fbd78523ba60"
+generated_at: "2026-09-24T17:22:06.412205+00:00"
 manual_override: false
-internal_links: ["/services/water-cleanup/", "/service-areas/temecula-ca/", "/service-areas/temecula-ca/water-damage-restoration/", "/service-areas/temecula-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/water-cleanup/", "/service-areas/carlsbad-ca/water-cleanup/", "/contact/"]
+internal_links: ["/services/water-cleanup/", "/service-areas/temecula-ca/", "/service-areas/temecula-ca/water-damage-restoration/", "/service-areas/temecula-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/water-cleanup/", "/service-areas/camp-pendleton-mainside-ca/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Temecula", "url": "/service-areas/temecula-ca/"}, {"name": "water-cleanup"}]
 faq: []
 area_slug: "temecula-ca"

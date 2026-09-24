@@ -7,10 +7,10 @@ primary_keyword: "reconstruction services camp pendleton mainside"
 secondary_keywords: ["post-damage reconstruction", "rebuild services", "structural reconstruction", "post-disaster rebuilding", "fire damage reconstruction"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "92fc4ad10008a9f7"
-generated_at: "2026-09-20T19:36:58.369669+00:00"
+plan_hash: "292057e01d61d9d0"
+generated_at: "2026-09-24T17:22:06.422678+00:00"
 manual_override: false
-internal_links: ["/services/reconstruction/", "/service-areas/camp-pendleton-mainside-ca/", "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/reconstruction/", "/service-areas/carlsbad-ca/reconstruction/", "/contact/"]
+internal_links: ["/services/reconstruction/", "/service-areas/camp-pendleton-mainside-ca/", "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/reconstruction/", "/service-areas/camp-pendleton-south-ca/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Camp Pendleton Mainside", "url": "/service-areas/camp-pendleton-mainside-ca/"}, {"name": "Reconstruction Services"}]
 faq: []
 area_slug: "camp-pendleton-mainside-ca"

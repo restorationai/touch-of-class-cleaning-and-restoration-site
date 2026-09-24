@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "dbc017fe8e1a7a22"
-generated_at: "2026-09-20T17:29:31.474512+00:00"
+generated_at: "2026-09-24T17:27:58.252542+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/riverside-il/", "/service-areas/riverside-il/fire-damage-restoration/", "/service-areas/riverside-il/mold-remediation/", "/service-areas/bedford-park-il/burst-pipe-repair/", "/service-areas/berwyn-il/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Riverside", "url": "/service-areas/riverside-il/"}, {"name": "Burst Pipe Cleanup and Repair"}]

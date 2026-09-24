@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "4e1439a4acc8aa5a"
-generated_at: "2026-09-23T14:11:34.812583+00:00"
+generated_at: "2026-09-24T17:21:47.699741+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/hermitage-pa/", "/service-areas/hermitage-pa/fire-damage-restoration/", "/service-areas/hermitage-pa/mold-remediation/", "/service-areas/austintown-oh/asbestos-abatement/", "/service-areas/boardman-oh/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hermitage", "url": "/service-areas/hermitage-pa/"}, {"name": "Asbestos Abatement"}]

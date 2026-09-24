@@ -7,10 +7,10 @@ primary_keyword: "restoration services rancho santa fe"
 secondary_keywords: ["rancho santa fe restoration company", "damage restoration rancho santa fe", "rancho santa fe disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "ecf0149891abdb3f"
-generated_at: "2026-09-20T14:13:11.324526+00:00"
+plan_hash: "8a8f0b131cc63d36"
+generated_at: "2026-09-24T17:22:06.403573+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/rancho-santa-fe-ca/water-damage-restoration/", "/service-areas/rancho-santa-fe-ca/flood-damage-restoration/", "/service-areas/rancho-santa-fe-ca/reconstruction/", "/service-areas/rancho-santa-fe-ca/water-cleanup/", "/service-areas/rancho-santa-fe-ca/basement-flooding-cleanup/", "/service-areas/rancho-santa-fe-ca/burst-pipe-repair/", "/service-areas/rancho-santa-fe-ca/general-contracting/", "/service-areas/bonsall-ca/", "/service-areas/carlsbad-ca/", "/service-areas/chula-vista-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/rancho-santa-fe-ca/water-damage-restoration/", "/service-areas/rancho-santa-fe-ca/flood-damage-restoration/", "/service-areas/rancho-santa-fe-ca/reconstruction/", "/service-areas/rancho-santa-fe-ca/water-cleanup/", "/service-areas/rancho-santa-fe-ca/basement-flooding-cleanup/", "/service-areas/rancho-santa-fe-ca/burst-pipe-repair/", "/service-areas/rancho-santa-fe-ca/general-contracting/", "/service-areas/bonsall-ca/", "/service-areas/camp-pendleton-mainside-ca/", "/service-areas/camp-pendleton-south-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rancho Santa Fe"}]
 faq: []
 area_slug: "rancho-santa-fe-ca"

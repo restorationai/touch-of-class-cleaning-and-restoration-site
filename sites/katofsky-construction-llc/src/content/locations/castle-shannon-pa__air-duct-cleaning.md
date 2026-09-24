@@ -7,10 +7,10 @@ primary_keyword: "air duct cleaning castle shannon"
 secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitization", "dryer vent cleaning", "residential duct cleaning"]
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "187205e44ed2c5d4"
-generated_at: "2026-09-22T18:10:17.099762+00:00"
+plan_hash: "7c64a44e7373e60f"
+generated_at: "2026-09-24T17:23:44.553059+00:00"
 manual_override: false
-internal_links: ["/services/air-duct-cleaning/", "/service-areas/castle-shannon-pa/", "/service-areas/castle-shannon-pa/fire-damage-restoration/", "/service-areas/castle-shannon-pa/roofing/", "/service-areas/baldwin-pa/air-duct-cleaning/", "/service-areas/bethel-park-pa/air-duct-cleaning/", "/contact/"]
+internal_links: ["/services/air-duct-cleaning/", "/service-areas/castle-shannon-pa/", "/service-areas/castle-shannon-pa/fire-damage-restoration/", "/service-areas/castle-shannon-pa/roofing/", "/service-areas/allison-park-pa/air-duct-cleaning/", "/service-areas/baldwin-pa/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Castle Shannon", "url": "/service-areas/castle-shannon-pa/"}, {"name": "Air Duct Cleaning"}]
 faq: []
 area_slug: "castle-shannon-pa"

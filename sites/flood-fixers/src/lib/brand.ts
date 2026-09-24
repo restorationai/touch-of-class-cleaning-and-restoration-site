@@ -7,12 +7,28 @@ export const brand = {
   displayName: "Flood Fixers",
   shortName: "Flood Fixers",
   legalName: "Flood Fixers",
+  // Registered DBA / trade name — filled by rename_site_sync.py the moment
+  // the state approves the client's DBA filing (empty until then). When set,
+  // the footer carries the "[legal] doing business as [DBA]" line and schema
+  // declares it as the business name, so Google/BrightLocal find the new
+  // name corroborated on the site before and during the GBP rename.
+  dbaName: "",
   domain: "flood-fixers.com",
   canonicalUrl: "https://flood-fixers.com",
   phone: "(855) 204-1124",
   phoneRaw: "+18552041124",
-  // Sitewide call-tracking display number (DNI — see BaseLayout).
-  // Schema/NAP keep the canonical number above.
+  hideMobileHeaderCall: false,
+  // A2P/SMS-registration legal entity. When set, the estimate forms render
+  // the carrier-compliant consent checkbox naming this entity (exact wording
+  // matters to reviewers — do not paraphrase). Empty = generic consent only.
+  smsConsentEntity: "",
+  // Sitewide call-tracking number (2026-08-24). When BOTH fields are set,
+  // a tiny inline script in BaseLayout swaps every visible phone mention
+  // and tel: link to this number AFTER the page renders. The HTML source,
+  // the JSON-LD in schema.ts, and anything crawlers/citation-checkers read
+  // keep the canonical NAP number above — humans dial the tracked line,
+  // Google sees consistent NAP. Empty = feature off (default at scaffold;
+  // filled by the call-tracking provisioning step).
   trackingPhone: "(858) 371-5656",
   trackingPhoneRaw: "+18583715656",
   email: "",
@@ -28,32 +44,30 @@ export const brand = {
   addressState: "CA",
   streetAddress: "",
   postalCode: "",
-  lat: "",
-  lng: "",
-  placeId: "",
+  lat: "33.1434",
+  lng: "-117.1661",
+  placeId: "ChIJJ3gQpF913IAR-Hs5M4WEiAs",
   googleCid: "",
   imagesBase: "https://images.flood-fixers.com",
   googleMapsApiKey: "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "G-BPB9R60M10",
   clarityProjectId: "",
-  logoUrl: "/images/logo.webp",
+  logoUrl: "https://images.flood-fixers.com/brand/logo.png",
   licenseNumbers: [] as string[],
   licenseAuthority: "",
+  // State license-verification page — the footer links the license number here.
+  licenseLookupUrl: "",
   licenseType: "",
-  // Operator-confirmed "licensed & insured" attestation (plan-input.json
-  // brand.licensed_insured_attested) — gates the TrustStrip badge when no
-  // license number is on file yet.
-  licensedInsuredAttested: true,
-  // "EPA Lead-Safe Certified" is also on file (plan-input truth data); the
-  // TrustStrip is operator-specced to 4 badges, so only IICRC renders there.
-  certifications: ["IICRC Certified"] as string[],
+  // Operator-confirmed "licensed & insured" attestation from plan-input.json —
+  // lets the TrustStrip show the badge before a license number is on file.
+  licensedInsuredAttested: true as boolean,
+  certifications: ["IICRC Certified", "EPA Lead-Safe Certified"] as string[],
   trustBadges: [] as string[],
-  sameAsUrls: ["https://www.facebook.com/100067690656701/", "https://maps.google.com/maps?cid=831059838874778616", "https://www.yelp.com/biz/flood-fixers-san-diego", "https://www.bing.com/maps?ss=ypid.YN98B76BD2E3E0D8A0"] as string[],
+  jobPhotos: [] as string[],
+  sameAsUrls: [] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
-  // Empty for this client: no GBP profile row yet, so no AggregateRating is
-  // published and the ReviewsStrip renders nothing.
   gbpRatingValue: "5.0",
   gbpReviewCount: "9",
   gbpReviews: [
@@ -64,7 +78,17 @@ export const brand = {
     { author: "Jeffrey", rating: 5, text: "Absolutely blown away by Flood Fixers! ⭐⭐⭐⭐⭐ They swooped in after our disaster like a team of caffeinated superheroes and brought a level of creative flair I didn’t even know my home needed. The floors? Let’s just say they now have a one-of-a-kind, “you’ll never see this anywhere else” finish. The…", when: "May 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in San Diego, CA.",
-  ctaLabel: "24/7 Emergency Hotline",
+  ctaLabel: "24/7 Emergency Line",
+  // Vertical trade-identity copy — resolved at scaffold time from
+  // templates/{vertical}/vertical-tokens.json (see scripts/verticals.py).
+  // Components must use these instead of hardcoding a trade phrase.
+  // vertical gates layout too: restoration is call-first, so the homepage
+  // hero renders NO estimate form there (Santino 2026-09-11).
+  vertical: "restoration",
+  tradeNoun: "restoration",
+  specialistPhrase: "Damage Restoration Specialists",
+  announcementSuffix: "24/7 Emergency Response",
+  homeAboutBlurb: "Flood Fixers serves San Diego and the surrounding CA area with professional damage restoration for homes and businesses. From the first emergency call to the final walkthrough, our team manages the entire recovery — and we answer the phone 24/7, so help is on the way the moment something goes wrong.",
 } as const;
 
 export const entityId = `${brand.canonicalUrl}/#identity`;

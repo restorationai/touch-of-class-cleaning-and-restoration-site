@@ -8,7 +8,7 @@ secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "ca
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "cec57e1fa594b3cb"
-generated_at: "2026-09-23T14:11:34.840115+00:00"
+generated_at: "2026-09-24T17:21:47.713437+00:00"
 manual_override: false
 internal_links: ["/services/carpet-cleaning/", "/service-areas/mercer-pa/", "/service-areas/mercer-pa/fire-damage-restoration/", "/service-areas/mercer-pa/mold-remediation/", "/service-areas/austintown-oh/carpet-cleaning/", "/service-areas/boardman-oh/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mercer", "url": "/service-areas/mercer-pa/"}, {"name": "Carpet Cleaning"}]

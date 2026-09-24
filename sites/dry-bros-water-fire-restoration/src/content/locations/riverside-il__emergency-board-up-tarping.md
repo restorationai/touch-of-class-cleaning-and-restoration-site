@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "1acd0a9373e47804"
-generated_at: "2026-09-20T17:29:31.475604+00:00"
+generated_at: "2026-09-24T17:27:58.253361+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/riverside-il/", "/service-areas/riverside-il/fire-damage-restoration/", "/service-areas/riverside-il/mold-remediation/", "/service-areas/bedford-park-il/emergency-board-up-tarping/", "/service-areas/berwyn-il/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Riverside", "url": "/service-areas/riverside-il/"}, {"name": "Emergency Board-Up and Tarping"}]

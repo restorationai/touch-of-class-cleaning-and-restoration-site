@@ -7,10 +7,10 @@ primary_keyword: "renovations, remodels and general contracting glenshaw"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "1bf4d4fe328c8f9a"
-generated_at: "2026-09-23T14:30:06.905719+00:00"
+plan_hash: "0c4127b0d0b8359d"
+generated_at: "2026-09-24T17:23:44.557236+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/glenshaw-pa/", "/service-areas/glenshaw-pa/fire-damage-restoration/", "/service-areas/glenshaw-pa/roofing/", "/service-areas/baldwin-pa/general-contracting/", "/service-areas/bethel-park-pa/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/glenshaw-pa/", "/service-areas/glenshaw-pa/fire-damage-restoration/", "/service-areas/glenshaw-pa/roofing/", "/service-areas/allison-park-pa/general-contracting/", "/service-areas/baldwin-pa/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Glenshaw", "url": "/service-areas/glenshaw-pa/"}, {"name": "Renovations, Remodels and General Contracting"}]
 faq: []
 area_slug: "glenshaw-pa"

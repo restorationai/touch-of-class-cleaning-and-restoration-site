@@ -8,7 +8,7 @@ secondary_keywords: ["water removal", "water extraction", "water cleanup", "stru
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "f39650e753eb860c"
-generated_at: "2026-09-21T19:18:42.235984+00:00"
+generated_at: "2026-09-24T17:22:06.425136+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/pala-ca/", "/service-areas/pala-ca/flood-damage-restoration/", "/service-areas/pala-ca/reconstruction/", "/service-areas/bonsall-ca/water-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pala", "url": "/service-areas/pala-ca/"}, {"name": "Water Damage Restoration"}]

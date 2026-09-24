@@ -7,10 +7,10 @@ primary_keyword: "lead paint abatement glenshaw"
 secondary_keywords: ["lead paint removal", "lead paint testing", "lead-safe renovation", "lead paint remediation", "EPA RRP certified"]
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "47ca516105cc3835"
-generated_at: "2026-09-23T14:30:06.906631+00:00"
+plan_hash: "7a9d9453c1c77f5a"
+generated_at: "2026-09-24T17:23:44.557963+00:00"
 manual_override: false
-internal_links: ["/services/lead-paint-abatement/", "/service-areas/glenshaw-pa/", "/service-areas/glenshaw-pa/fire-damage-restoration/", "/service-areas/glenshaw-pa/roofing/", "/service-areas/baldwin-pa/lead-paint-abatement/", "/service-areas/bethel-park-pa/lead-paint-abatement/", "/contact/"]
+internal_links: ["/services/lead-paint-abatement/", "/service-areas/glenshaw-pa/", "/service-areas/glenshaw-pa/fire-damage-restoration/", "/service-areas/glenshaw-pa/roofing/", "/service-areas/allison-park-pa/lead-paint-abatement/", "/service-areas/baldwin-pa/lead-paint-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Glenshaw", "url": "/service-areas/glenshaw-pa/"}, {"name": "Lead Paint Abatement"}]
 faq: []
 area_slug: "glenshaw-pa"

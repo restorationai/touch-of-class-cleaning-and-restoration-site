@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "2ef92a7f55192717"
-generated_at: "2026-09-23T14:11:34.795653+00:00"
+generated_at: "2026-09-24T17:21:47.691232+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/campbell-oh/", "/service-areas/campbell-oh/fire-damage-restoration/", "/service-areas/campbell-oh/mold-remediation/", "/service-areas/austintown-oh/asbestos-abatement/", "/service-areas/boardman-oh/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Campbell", "url": "/service-areas/campbell-oh/"}, {"name": "Asbestos Abatement"}]

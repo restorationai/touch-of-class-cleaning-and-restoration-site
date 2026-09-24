@@ -8,7 +8,7 @@ secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic over
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "96325462af1e9bac"
-generated_at: "2026-09-21T14:13:07.676513+00:00"
+generated_at: "2026-09-24T17:27:58.261384+00:00"
 manual_override: false
 internal_links: ["/services/sewage-cleanup/", "/service-areas/burbank-il/", "/service-areas/burbank-il/fire-damage-restoration/", "/service-areas/burbank-il/mold-remediation/", "/service-areas/bedford-park-il/sewage-cleanup/", "/service-areas/berwyn-il/sewage-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Burbank", "url": "/service-areas/burbank-il/"}, {"name": "Sewage Cleanup and Sanitization"}]

@@ -7,10 +7,10 @@ primary_keyword: "contents restoration & storage forest hills"
 secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "cf7f2cc311273adb"
-generated_at: "2026-09-23T22:09:55.967846+00:00"
+plan_hash: "70a8c866201ee28a"
+generated_at: "2026-09-24T17:23:44.563891+00:00"
 manual_override: false
-internal_links: ["/services/contents-restoration-storage/", "/service-areas/forest-hills-pa/", "/service-areas/forest-hills-pa/fire-damage-restoration/", "/service-areas/forest-hills-pa/roofing/", "/service-areas/baldwin-pa/contents-restoration-storage/", "/service-areas/bethel-park-pa/contents-restoration-storage/", "/contact/"]
+internal_links: ["/services/contents-restoration-storage/", "/service-areas/forest-hills-pa/", "/service-areas/forest-hills-pa/fire-damage-restoration/", "/service-areas/forest-hills-pa/roofing/", "/service-areas/allison-park-pa/contents-restoration-storage/", "/service-areas/baldwin-pa/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Forest Hills", "url": "/service-areas/forest-hills-pa/"}, {"name": "Contents Restoration & Storage"}]
 faq: []
 area_slug: "forest-hills-pa"

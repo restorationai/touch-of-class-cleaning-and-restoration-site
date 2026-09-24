@@ -8,7 +8,7 @@ secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitizati
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "e00e89ecb97ead39"
-generated_at: "2026-09-23T14:11:34.843706+00:00"
+generated_at: "2026-09-24T17:21:47.715002+00:00"
 manual_override: false
 internal_links: ["/services/air-duct-cleaning/", "/service-areas/new-castle-pa/", "/service-areas/new-castle-pa/fire-damage-restoration/", "/service-areas/new-castle-pa/mold-remediation/", "/service-areas/austintown-oh/air-duct-cleaning/", "/service-areas/boardman-oh/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "New Castle", "url": "/service-areas/new-castle-pa/"}, {"name": "Air Duct Cleaning"}]

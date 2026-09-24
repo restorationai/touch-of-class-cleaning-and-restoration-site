@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration castle shannon"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "5ccabc9c228ebb62"
-generated_at: "2026-09-22T18:10:17.098026+00:00"
+plan_hash: "3b6b77762e5853e7"
+generated_at: "2026-09-24T17:23:44.550698+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/castle-shannon-pa/", "/service-areas/castle-shannon-pa/roofing/", "/service-areas/castle-shannon-pa/sewage-cleanup/", "/service-areas/baldwin-pa/fire-damage-restoration/", "/service-areas/bethel-park-pa/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/castle-shannon-pa/", "/service-areas/castle-shannon-pa/roofing/", "/service-areas/castle-shannon-pa/sewage-cleanup/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/service-areas/baldwin-pa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Castle Shannon", "url": "/service-areas/castle-shannon-pa/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "castle-shannon-pa"

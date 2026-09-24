@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "c0a152a2ef73c886"
-generated_at: "2026-09-23T14:11:34.803230+00:00"
+generated_at: "2026-09-24T17:21:47.695017+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/farrell-pa/", "/service-areas/farrell-pa/fire-damage-restoration/", "/service-areas/farrell-pa/mold-remediation/", "/service-areas/austintown-oh/asbestos-abatement/", "/service-areas/boardman-oh/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Farrell", "url": "/service-areas/farrell-pa/"}, {"name": "Asbestos Abatement"}]

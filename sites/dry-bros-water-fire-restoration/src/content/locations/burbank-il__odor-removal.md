@@ -8,7 +8,7 @@ secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodoriz
 search_intent: "local_specialty"
 priority: 4.9
 plan_hash: "e2fab121c603fe11"
-generated_at: "2026-09-21T14:13:07.676920+00:00"
+generated_at: "2026-09-24T17:27:58.261660+00:00"
 manual_override: false
 internal_links: ["/services/odor-removal/", "/service-areas/burbank-il/", "/service-areas/burbank-il/fire-damage-restoration/", "/service-areas/burbank-il/mold-remediation/", "/service-areas/bedford-park-il/odor-removal/", "/service-areas/berwyn-il/odor-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Burbank", "url": "/service-areas/burbank-il/"}, {"name": "Odor Removal and Deodorization"}]

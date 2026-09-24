@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "55e4f16715e80dd3"
-generated_at: "2026-09-21T14:13:07.675634+00:00"
+generated_at: "2026-09-24T17:27:58.260201+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/burbank-il/", "/service-areas/burbank-il/fire-damage-restoration/", "/service-areas/burbank-il/water-damage-restoration/", "/service-areas/bedford-park-il/mold-remediation/", "/service-areas/berwyn-il/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Burbank", "url": "/service-areas/burbank-il/"}, {"name": "Mold Remediation"}]

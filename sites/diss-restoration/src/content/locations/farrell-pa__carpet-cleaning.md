@@ -8,7 +8,7 @@ secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "ca
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "af6cf88b3a82c196"
-generated_at: "2026-09-23T14:11:34.803926+00:00"
+generated_at: "2026-09-24T17:21:47.695358+00:00"
 manual_override: false
 internal_links: ["/services/carpet-cleaning/", "/service-areas/farrell-pa/", "/service-areas/farrell-pa/fire-damage-restoration/", "/service-areas/farrell-pa/mold-remediation/", "/service-areas/austintown-oh/carpet-cleaning/", "/service-areas/boardman-oh/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Farrell", "url": "/service-areas/farrell-pa/"}, {"name": "Carpet Cleaning"}]

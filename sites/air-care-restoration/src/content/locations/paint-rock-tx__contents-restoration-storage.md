@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "0f07824f79cc0afc"
-generated_at: "2026-09-23T14:11:24.698235+00:00"
+generated_at: "2026-09-24T17:23:55.841736+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration-storage/", "/service-areas/paint-rock-tx/", "/service-areas/paint-rock-tx/fire-damage-restoration/", "/service-areas/paint-rock-tx/mold-remediation/", "/service-areas/albany-tx/contents-restoration-storage/", "/service-areas/anson-tx/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Paint Rock", "url": "/service-areas/paint-rock-tx/"}, {"name": "Contents Restoration & Storage"}]

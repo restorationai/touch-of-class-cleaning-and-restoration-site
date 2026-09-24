@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "65572b1027067410"
-generated_at: "2026-09-23T14:11:24.716794+00:00"
+generated_at: "2026-09-24T17:23:55.855464+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration-storage/", "/service-areas/baird-tx/", "/service-areas/baird-tx/fire-damage-restoration/", "/service-areas/baird-tx/mold-remediation/", "/service-areas/albany-tx/contents-restoration-storage/", "/service-areas/anson-tx/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Baird", "url": "/service-areas/baird-tx/"}, {"name": "Contents Restoration & Storage"}]

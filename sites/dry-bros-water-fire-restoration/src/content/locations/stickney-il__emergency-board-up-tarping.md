@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "9aaf108351e97a3b"
-generated_at: "2026-09-20T14:13:04.889240+00:00"
+generated_at: "2026-09-24T17:27:58.240835+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/stickney-il/", "/service-areas/stickney-il/fire-damage-restoration/", "/service-areas/stickney-il/mold-remediation/", "/service-areas/bedford-park-il/emergency-board-up-tarping/", "/service-areas/berwyn-il/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Stickney", "url": "/service-areas/stickney-il/"}, {"name": "Emergency Board-Up and Tarping"}]

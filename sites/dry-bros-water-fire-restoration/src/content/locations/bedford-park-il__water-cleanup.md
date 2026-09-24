@@ -7,10 +7,10 @@ primary_keyword: "emergency water cleanup bedford park"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "248869776b8caf6e"
-generated_at: "2026-09-20T14:13:04.890090+00:00"
+plan_hash: "d18d39a73f18b7b2"
+generated_at: "2026-09-24T17:27:58.241754+00:00"
 manual_override: false
-internal_links: ["/services/water-cleanup/", "/service-areas/bedford-park-il/", "/service-areas/bedford-park-il/fire-damage-restoration/", "/service-areas/bedford-park-il/mold-remediation/", "/service-areas/berwyn-il/water-cleanup/", "/service-areas/cicero-il/water-cleanup/", "/contact/"]
+internal_links: ["/services/water-cleanup/", "/service-areas/bedford-park-il/", "/service-areas/bedford-park-il/fire-damage-restoration/", "/service-areas/bedford-park-il/mold-remediation/", "/service-areas/berwyn-il/water-cleanup/", "/service-areas/brookfield-il/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bedford Park", "url": "/service-areas/bedford-park-il/"}, {"name": "Emergency Water Cleanup"}]
 faq: []
 area_slug: "bedford-park-il"

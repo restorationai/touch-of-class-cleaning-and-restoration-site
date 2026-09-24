@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "e87582b0dee40317"
-generated_at: "2026-09-21T19:18:34.638125+00:00"
+generated_at: "2026-09-24T17:27:58.262860+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/evergreen-park-il/", "/service-areas/evergreen-park-il/fire-damage-restoration/", "/service-areas/evergreen-park-il/mold-remediation/", "/service-areas/bedford-park-il/burst-pipe-repair/", "/service-areas/berwyn-il/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Evergreen Park", "url": "/service-areas/evergreen-park-il/"}, {"name": "Burst Pipe Cleanup and Repair"}]

@@ -7,10 +7,10 @@ primary_keyword: "renovations, remodels and general contracting pleasant hills"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "dddf9d662a85b82e"
-generated_at: "2026-09-23T17:47:58.142859+00:00"
+plan_hash: "1480e812e36823af"
+generated_at: "2026-09-24T17:23:44.559160+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/pleasant-hills-pa/", "/service-areas/pleasant-hills-pa/fire-damage-restoration/", "/service-areas/pleasant-hills-pa/roofing/", "/service-areas/baldwin-pa/general-contracting/", "/service-areas/bethel-park-pa/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/pleasant-hills-pa/", "/service-areas/pleasant-hills-pa/fire-damage-restoration/", "/service-areas/pleasant-hills-pa/roofing/", "/service-areas/allison-park-pa/general-contracting/", "/service-areas/baldwin-pa/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pleasant Hills", "url": "/service-areas/pleasant-hills-pa/"}, {"name": "Renovations, Remodels and General Contracting"}]
 faq: []
 area_slug: "pleasant-hills-pa"

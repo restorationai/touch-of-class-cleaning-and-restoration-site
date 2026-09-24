@@ -36,38 +36,50 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `` | brand.founded_year | `2004` |
 | `San Diego` / `CA` | derived from primary area | `Federal Way` / `WA` |
 | `` / `` | brand.street_address / brand.postal_code | |
-| `` / `` | brand.lat / brand.lng | from GBP |
-| `` / `` | brand.place_id / brand.google_cid | from GBP |
+| `33.1434` / `-117.1661` | brand.lat / brand.lng | from GBP |
+| `ChIJJ3gQpF913IAR-Hs5M4WEiAs` / `` | brand.place_id / brand.google_cid | from GBP |
 | `[]` | brand.license_numbers (JSON-encoded array) | `["NATIORC792M6"]` |
 | `` / `` | brand.license_authority / brand.license_type | |
-| `[]` | brand.certifications (JSON-encoded array) | `["IICRC", "BBB Accredited"]` |
+| `["IICRC Certified", "EPA Lead-Safe Certified"]` | brand.certifications (JSON-encoded array) | `["IICRC", "BBB Accredited"]` |
 | `[]` | brand.same_as_urls (JSON-encoded array) | |
 | `` / `` | from GBP | `5.0` / `31` |
 | `24/7 restoration services in San Diego, CA.` | brand.tagline | short marketing line |
-| `#dc2626` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
+| `#171717` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
 | `Inter` / `Inter` | brand.fonts | `Inter` / `Inter` |
 | `https://images.flood-fixers.com/brand/logo.png` / `FF` | derived; logo lives on the per-client R2 bucket | |
 | `https://images.flood-fixers.com` | `https://images.{domain}` | |
-| `- Water Damage Restoration: https://flood-fixers.com/services/water-damage-restoration/
-- Flood Damage Restoration: https://flood-fixers.com/services/flood-damage-restoration/
-- Burst Pipe Cleanup and Repair: https://flood-fixers.com/services/burst-pipe-repair/
-- Basement Flooding Cleanup: https://flood-fixers.com/services/basement-flooding-cleanup/
-- Reconstruction Services: https://flood-fixers.com/services/reconstruction/
-- Renovations, Remodels and General Contracting: https://flood-fixers.com/services/general-contracting/` / `- San Diego, CA: https://flood-fixers.com/service-areas/san-diego-ca/
-- Chula Vista, CA: https://flood-fixers.com/service-areas/chula-vista-ca/
-- Oceanside, CA: https://flood-fixers.com/service-areas/oceanside-ca/
-- Escondido, CA: https://flood-fixers.com/service-areas/escondido-ca/
-- Carlsbad, CA: https://flood-fixers.com/service-areas/carlsbad-ca/
-- El Cajon, CA: https://flood-fixers.com/service-areas/el-cajon-ca/
-- Vista, CA: https://flood-fixers.com/service-areas/vista-ca/
-- San Marcos, CA: https://flood-fixers.com/service-areas/san-marcos-ca/
-- Encinitas, CA: https://flood-fixers.com/service-areas/encinitas-ca/
-- La Mesa, CA: https://flood-fixers.com/service-areas/la-mesa-ca/
-- Santee, CA: https://flood-fixers.com/service-areas/santee-ca/
-- Poway, CA: https://flood-fixers.com/service-areas/poway-ca/
-- National City, CA: https://flood-fixers.com/service-areas/national-city-ca/
-- Spring Valley, CA: https://flood-fixers.com/service-areas/spring-valley-ca/
-- Temecula, CA: https://flood-fixers.com/service-areas/temecula-ca/` / `Licensed and insured` / `Greater San Diego region` | computed at scaffold from plan + brand | |
+| `- [Water Damage Restoration](https://flood-fixers.com/services/water-damage-restoration/)
+- [Flood Damage Restoration](https://flood-fixers.com/services/flood-damage-restoration/)
+- [Burst Pipe Cleanup and Repair](https://flood-fixers.com/services/burst-pipe-repair/)
+- [Basement Flooding Cleanup](https://flood-fixers.com/services/basement-flooding-cleanup/)
+- [Reconstruction Services](https://flood-fixers.com/services/reconstruction/)
+- [Renovations, Remodels and General Contracting](https://flood-fixers.com/services/general-contracting/)` / `- [San Diego, CA](https://flood-fixers.com/service-areas/san-diego-ca/)
+- [Chula Vista, CA](https://flood-fixers.com/service-areas/chula-vista-ca/)
+- [Oceanside, CA](https://flood-fixers.com/service-areas/oceanside-ca/)
+- [Escondido, CA](https://flood-fixers.com/service-areas/escondido-ca/)
+- [Carlsbad, CA](https://flood-fixers.com/service-areas/carlsbad-ca/)
+- [El Cajon, CA](https://flood-fixers.com/service-areas/el-cajon-ca/)
+- [Vista, CA](https://flood-fixers.com/service-areas/vista-ca/)
+- [San Marcos, CA](https://flood-fixers.com/service-areas/san-marcos-ca/)
+- [Encinitas, CA](https://flood-fixers.com/service-areas/encinitas-ca/)
+- [La Mesa, CA](https://flood-fixers.com/service-areas/la-mesa-ca/)
+- [Santee, CA](https://flood-fixers.com/service-areas/santee-ca/)
+- [Poway, CA](https://flood-fixers.com/service-areas/poway-ca/)
+- [National City, CA](https://flood-fixers.com/service-areas/national-city-ca/)
+- [Spring Valley, CA](https://flood-fixers.com/service-areas/spring-valley-ca/)
+- [Temecula, CA](https://flood-fixers.com/service-areas/temecula-ca/)
+- [Harmony Grove, CA](https://flood-fixers.com/service-areas/harmony-grove-ca/)
+- [Hidden Meadows, CA](https://flood-fixers.com/service-areas/hidden-meadows-ca/)
+- [Bonsall, CA](https://flood-fixers.com/service-areas/bonsall-ca/)
+- [Rancho Santa Fe, CA](https://flood-fixers.com/service-areas/rancho-santa-fe-ca/)
+- [Valley Center, CA](https://flood-fixers.com/service-areas/valley-center-ca/)
+- [Fairbanks Ranch, CA](https://flood-fixers.com/service-areas/fairbanks-ranch-ca/)
+- [Solana Beach, CA](https://flood-fixers.com/service-areas/solana-beach-ca/)
+- [Del Mar, CA](https://flood-fixers.com/service-areas/del-mar-ca/)
+- [Camp Pendleton Mainside, CA](https://flood-fixers.com/service-areas/camp-pendleton-mainside-ca/)
+- [Camp Pendleton South, CA](https://flood-fixers.com/service-areas/camp-pendleton-south-ca/)
+- [Fallbrook, CA](https://flood-fixers.com/service-areas/fallbrook-ca/)
+- [Pala, CA](https://flood-fixers.com/service-areas/pala-ca/)` / `IICRC Certified, EPA Lead-Safe Certified` / `Greater San Diego region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

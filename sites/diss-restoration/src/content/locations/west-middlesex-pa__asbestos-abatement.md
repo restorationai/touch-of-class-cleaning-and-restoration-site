@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "1cf1282e4b72d528"
-generated_at: "2026-09-23T14:11:34.825608+00:00"
+generated_at: "2026-09-24T17:21:47.706431+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/west-middlesex-pa/", "/service-areas/west-middlesex-pa/fire-damage-restoration/", "/service-areas/west-middlesex-pa/mold-remediation/", "/service-areas/austintown-oh/asbestos-abatement/", "/service-areas/boardman-oh/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "West Middlesex", "url": "/service-areas/west-middlesex-pa/"}, {"name": "Asbestos Abatement"}]

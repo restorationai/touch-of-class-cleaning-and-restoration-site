@@ -7,10 +7,10 @@ primary_keyword: "renovations, remodels and general contracting solana beach"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "69097c2da9bd241f"
-generated_at: "2026-09-20T17:29:38.240966+00:00"
+plan_hash: "2b6c77eb9a7071b6"
+generated_at: "2026-09-24T17:22:06.420190+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/solana-beach-ca/", "/service-areas/solana-beach-ca/water-damage-restoration/", "/service-areas/solana-beach-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/general-contracting/", "/service-areas/carlsbad-ca/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/solana-beach-ca/", "/service-areas/solana-beach-ca/water-damage-restoration/", "/service-areas/solana-beach-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/general-contracting/", "/service-areas/camp-pendleton-mainside-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Solana Beach", "url": "/service-areas/solana-beach-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]
 faq: []
 area_slug: "solana-beach-ca"

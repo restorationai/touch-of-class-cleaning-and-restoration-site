@@ -102,12 +102,21 @@ const {
         {/* Min-render-time token — set by the inline script below at page load. */}
         <input type="hidden" name="fets" value="" />
 
+        {brand.smsConsentEntity && (
+          <label class="flex items-start gap-2.5 text-xs leading-snug text-white/70 cursor-pointer">
+            <input type="checkbox" name="sms_consent" value="yes" class="mt-0.5 h-4 w-4 shrink-0 rounded border-white/30 accent-primary-600" />
+            <span>By checking this box, I consent to receive SMS messages from {brand.smsConsentEntity} related to Customer care or Marketing at the phone number provided above. The SMS frequency may vary. Data rates may apply. For assistance reply HELP. Reply STOP to opt out of receiving text messages. Please review our <a href="/privacy/" class="underline">Privacy Policy</a> and <a href="/terms/" class="underline">Terms &amp; Conditions</a>.</span>
+          </label>
+        )}
         <button
           type="submit"
           class="inline-flex items-center justify-center font-bold px-8 py-4 rounded-md transition-all text-lg shadow-lg bg-primary-600 text-white hover:bg-primary-700 disabled:opacity-60 disabled:cursor-not-allowed"
         >
           Get My Free Estimate
         </button>
+        {brand.smsConsentEntity && (
+          <p class="text-[11px] leading-snug text-white/50">Submitting this form or calling us is how you request service. If you check the SMS box above, our team will text you about your request from our business line. Message and data rates may apply; reply STOP any time to opt out.</p>
+        )}
 
         <p data-estimate-status class="hidden m-0 rounded-md px-4 py-3 text-base font-medium" role="status" aria-live="polite"></p>
       </form>
@@ -191,6 +200,17 @@ const {
           .then(function (r) { return r.json().catch(function () { return {}; }).then(function (j) { return { ok: r.ok && j.ok !== false, j: j }; }); })
           .then(function (res) {
             if (res.ok) {
+              // Cross-frame conversion event (BDA/Jared 2026-09-23): the
+              // form lives in an iframe on OUR domain, so the host page's
+              // GTM cannot see the submit. Announce it to the parent —
+              // their container listens for "rankai_lead_submit".
+              try {
+                if (window.parent !== window) {
+                  window.parent.postMessage(
+                    { event: "rankai_lead_submit",
+                      lead_source: data.lead_source || "embed" }, "*");
+                }
+              } catch (err) {}
               show("Thanks — your request is in. We'll call you back shortly. For emergencies, call us now.", true);
               form.reset();
               if (ts) ts.value = String(Date.now());

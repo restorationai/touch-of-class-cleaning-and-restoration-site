@@ -7,10 +7,10 @@ primary_keyword: "air duct cleaning whitehall"
 secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitization", "dryer vent cleaning", "residential duct cleaning"]
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "36c3c5db2dc18a72"
-generated_at: "2026-09-22T20:03:18.106568+00:00"
+plan_hash: "4707e5cf36f221ed"
+generated_at: "2026-09-24T17:23:44.554850+00:00"
 manual_override: false
-internal_links: ["/services/air-duct-cleaning/", "/service-areas/whitehall-pa/", "/service-areas/whitehall-pa/fire-damage-restoration/", "/service-areas/whitehall-pa/roofing/", "/service-areas/baldwin-pa/air-duct-cleaning/", "/service-areas/bethel-park-pa/air-duct-cleaning/", "/contact/"]
+internal_links: ["/services/air-duct-cleaning/", "/service-areas/whitehall-pa/", "/service-areas/whitehall-pa/fire-damage-restoration/", "/service-areas/whitehall-pa/roofing/", "/service-areas/allison-park-pa/air-duct-cleaning/", "/service-areas/baldwin-pa/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Whitehall", "url": "/service-areas/whitehall-pa/"}, {"name": "Air Duct Cleaning"}]
 faq: []
 area_slug: "whitehall-pa"

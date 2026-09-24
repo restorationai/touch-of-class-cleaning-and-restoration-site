@@ -7,10 +7,10 @@ primary_keyword: "reconstruction services del mar"
 secondary_keywords: ["post-damage reconstruction", "rebuild services", "structural reconstruction", "post-disaster rebuilding", "fire damage reconstruction"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "29d319d6c9bfcab8"
-generated_at: "2026-09-20T19:17:21.682404+00:00"
+plan_hash: "3ca4f152b82fcb13"
+generated_at: "2026-09-24T17:22:06.421224+00:00"
 manual_override: false
-internal_links: ["/services/reconstruction/", "/service-areas/del-mar-ca/", "/service-areas/del-mar-ca/water-damage-restoration/", "/service-areas/del-mar-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/reconstruction/", "/service-areas/carlsbad-ca/reconstruction/", "/contact/"]
+internal_links: ["/services/reconstruction/", "/service-areas/del-mar-ca/", "/service-areas/del-mar-ca/water-damage-restoration/", "/service-areas/del-mar-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/reconstruction/", "/service-areas/camp-pendleton-mainside-ca/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Del Mar", "url": "/service-areas/del-mar-ca/"}, {"name": "Reconstruction Services"}]
 faq: []
 area_slug: "del-mar-ca"

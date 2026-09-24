@@ -7,10 +7,10 @@ primary_keyword: "basement flooding cleanup camp pendleton mainside"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
 priority: 5.6
-plan_hash: "d9e2c42c5e0fd730"
-generated_at: "2026-09-20T19:36:58.369546+00:00"
+plan_hash: "ddecaa448125e97c"
+generated_at: "2026-09-24T17:22:06.422493+00:00"
 manual_override: false
-internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/camp-pendleton-mainside-ca/", "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/basement-flooding-cleanup/", "/service-areas/carlsbad-ca/basement-flooding-cleanup/", "/contact/"]
+internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/camp-pendleton-mainside-ca/", "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/basement-flooding-cleanup/", "/service-areas/camp-pendleton-south-ca/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Camp Pendleton Mainside", "url": "/service-areas/camp-pendleton-mainside-ca/"}, {"name": "Basement Flooding Cleanup"}]
 faq: []
 area_slug: "camp-pendleton-mainside-ca"

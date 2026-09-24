@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "bc9caf3fb6a39dbe"
-generated_at: "2026-09-21T14:13:14.466375+00:00"
+generated_at: "2026-09-24T17:22:06.424692+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/fallbrook-ca/", "/service-areas/fallbrook-ca/water-damage-restoration/", "/service-areas/fallbrook-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/reconstruction/", "/service-areas/camp-pendleton-mainside-ca/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fallbrook", "url": "/service-areas/fallbrook-ca/"}, {"name": "Reconstruction Services"}]

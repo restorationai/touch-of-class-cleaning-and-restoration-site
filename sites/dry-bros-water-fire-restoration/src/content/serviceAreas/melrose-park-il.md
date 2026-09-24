@@ -7,10 +7,10 @@ primary_keyword: "restoration services melrose park"
 secondary_keywords: ["melrose park restoration company", "damage restoration melrose park", "melrose park disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "6d08c18a37b82d22"
-generated_at: "2026-09-20T20:41:41.862499+00:00"
+plan_hash: "b4e53ba328c63a2c"
+generated_at: "2026-09-24T17:27:58.231481+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/melrose-park-il/fire-damage-restoration/", "/service-areas/melrose-park-il/mold-remediation/", "/service-areas/melrose-park-il/water-damage-restoration/", "/service-areas/melrose-park-il/flood-damage-restoration/", "/service-areas/melrose-park-il/sewage-cleanup/", "/service-areas/melrose-park-il/smoke-damage-restoration/", "/service-areas/melrose-park-il/storm-damage-restoration/", "/service-areas/melrose-park-il/water-cleanup/", "/service-areas/melrose-park-il/basement-flooding-cleanup/", "/service-areas/melrose-park-il/burst-pipe-repair/", "/service-areas/melrose-park-il/emergency-board-up-tarping/", "/service-areas/melrose-park-il/odor-removal/", "/service-areas/melrose-park-il/contents-restoration/", "/service-areas/bedford-park-il/", "/service-areas/berwyn-il/", "/service-areas/cicero-il/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/melrose-park-il/fire-damage-restoration/", "/service-areas/melrose-park-il/mold-remediation/", "/service-areas/melrose-park-il/water-damage-restoration/", "/service-areas/melrose-park-il/flood-damage-restoration/", "/service-areas/melrose-park-il/sewage-cleanup/", "/service-areas/melrose-park-il/smoke-damage-restoration/", "/service-areas/melrose-park-il/storm-damage-restoration/", "/service-areas/melrose-park-il/water-cleanup/", "/service-areas/melrose-park-il/basement-flooding-cleanup/", "/service-areas/melrose-park-il/burst-pipe-repair/", "/service-areas/melrose-park-il/emergency-board-up-tarping/", "/service-areas/melrose-park-il/odor-removal/", "/service-areas/melrose-park-il/contents-restoration/", "/service-areas/bedford-park-il/", "/service-areas/berwyn-il/", "/service-areas/brookfield-il/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Melrose Park"}]
 faq: []
 area_slug: "melrose-park-il"

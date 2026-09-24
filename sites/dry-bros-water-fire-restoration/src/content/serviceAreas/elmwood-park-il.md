@@ -7,10 +7,10 @@ primary_keyword: "restoration services elmwood park"
 secondary_keywords: ["elmwood park restoration company", "damage restoration elmwood park", "elmwood park disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "5f9bb403d31d771d"
-generated_at: "2026-09-20T19:17:14.585651+00:00"
+plan_hash: "86cef14dacfbdde0"
+generated_at: "2026-09-24T17:27:58.230925+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/elmwood-park-il/fire-damage-restoration/", "/service-areas/elmwood-park-il/mold-remediation/", "/service-areas/elmwood-park-il/water-damage-restoration/", "/service-areas/elmwood-park-il/flood-damage-restoration/", "/service-areas/elmwood-park-il/sewage-cleanup/", "/service-areas/elmwood-park-il/smoke-damage-restoration/", "/service-areas/elmwood-park-il/storm-damage-restoration/", "/service-areas/elmwood-park-il/water-cleanup/", "/service-areas/elmwood-park-il/basement-flooding-cleanup/", "/service-areas/elmwood-park-il/burst-pipe-repair/", "/service-areas/elmwood-park-il/emergency-board-up-tarping/", "/service-areas/elmwood-park-il/odor-removal/", "/service-areas/elmwood-park-il/contents-restoration/", "/service-areas/bedford-park-il/", "/service-areas/berwyn-il/", "/service-areas/cicero-il/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/elmwood-park-il/fire-damage-restoration/", "/service-areas/elmwood-park-il/mold-remediation/", "/service-areas/elmwood-park-il/water-damage-restoration/", "/service-areas/elmwood-park-il/flood-damage-restoration/", "/service-areas/elmwood-park-il/sewage-cleanup/", "/service-areas/elmwood-park-il/smoke-damage-restoration/", "/service-areas/elmwood-park-il/storm-damage-restoration/", "/service-areas/elmwood-park-il/water-cleanup/", "/service-areas/elmwood-park-il/basement-flooding-cleanup/", "/service-areas/elmwood-park-il/burst-pipe-repair/", "/service-areas/elmwood-park-il/emergency-board-up-tarping/", "/service-areas/elmwood-park-il/odor-removal/", "/service-areas/elmwood-park-il/contents-restoration/", "/service-areas/bedford-park-il/", "/service-areas/berwyn-il/", "/service-areas/brookfield-il/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elmwood Park"}]
 faq: []
 area_slug: "elmwood-park-il"

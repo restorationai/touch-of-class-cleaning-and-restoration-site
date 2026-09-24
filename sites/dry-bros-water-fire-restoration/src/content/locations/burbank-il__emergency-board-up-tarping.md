@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "59824759061942e9"
-generated_at: "2026-09-21T14:13:07.677267+00:00"
+generated_at: "2026-09-24T17:27:58.261930+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/burbank-il/", "/service-areas/burbank-il/fire-damage-restoration/", "/service-areas/burbank-il/mold-remediation/", "/service-areas/bedford-park-il/emergency-board-up-tarping/", "/service-areas/berwyn-il/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Burbank", "url": "/service-areas/burbank-il/"}, {"name": "Emergency Board-Up and Tarping"}]

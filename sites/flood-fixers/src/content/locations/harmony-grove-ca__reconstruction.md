@@ -7,10 +7,10 @@ primary_keyword: "reconstruction services harmony grove"
 secondary_keywords: ["post-damage reconstruction", "rebuild services", "structural reconstruction", "post-disaster rebuilding", "fire damage reconstruction"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "b4155b208c65fd4e"
-generated_at: "2026-09-20T14:13:11.329468+00:00"
+plan_hash: "0c6525dc91febc62"
+generated_at: "2026-09-24T17:22:06.413067+00:00"
 manual_override: false
-internal_links: ["/services/reconstruction/", "/service-areas/harmony-grove-ca/", "/service-areas/harmony-grove-ca/water-damage-restoration/", "/service-areas/harmony-grove-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/reconstruction/", "/service-areas/carlsbad-ca/reconstruction/", "/contact/"]
+internal_links: ["/services/reconstruction/", "/service-areas/harmony-grove-ca/", "/service-areas/harmony-grove-ca/water-damage-restoration/", "/service-areas/harmony-grove-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/reconstruction/", "/service-areas/camp-pendleton-mainside-ca/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Harmony Grove", "url": "/service-areas/harmony-grove-ca/"}, {"name": "Reconstruction Services"}]
 faq: []
 area_slug: "harmony-grove-ca"

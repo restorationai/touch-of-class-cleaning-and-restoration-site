@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration wilkinsburg"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "b9d6c02133b569bd"
-generated_at: "2026-09-23T18:46:20.042946+00:00"
+plan_hash: "90941051a6040880"
+generated_at: "2026-09-24T17:23:44.561175+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/wilkinsburg-pa/", "/service-areas/wilkinsburg-pa/roofing/", "/service-areas/wilkinsburg-pa/sewage-cleanup/", "/service-areas/baldwin-pa/fire-damage-restoration/", "/service-areas/bethel-park-pa/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/wilkinsburg-pa/", "/service-areas/wilkinsburg-pa/roofing/", "/service-areas/wilkinsburg-pa/sewage-cleanup/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/service-areas/baldwin-pa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wilkinsburg", "url": "/service-areas/wilkinsburg-pa/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "wilkinsburg-pa"

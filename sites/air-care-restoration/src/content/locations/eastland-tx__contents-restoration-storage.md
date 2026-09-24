@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "376e78217e582112"
-generated_at: "2026-09-23T14:11:24.707647+00:00"
+generated_at: "2026-09-24T17:23:55.849627+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration-storage/", "/service-areas/eastland-tx/", "/service-areas/eastland-tx/fire-damage-restoration/", "/service-areas/eastland-tx/mold-remediation/", "/service-areas/albany-tx/contents-restoration-storage/", "/service-areas/anson-tx/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Eastland", "url": "/service-areas/eastland-tx/"}, {"name": "Contents Restoration & Storage"}]

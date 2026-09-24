@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "1fa8e2b19d1fbbe4"
-generated_at: "2026-09-23T14:11:24.696835+00:00"
+generated_at: "2026-09-24T17:23:55.840507+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration-storage/", "/service-areas/eden-tx/", "/service-areas/eden-tx/fire-damage-restoration/", "/service-areas/eden-tx/mold-remediation/", "/service-areas/albany-tx/contents-restoration-storage/", "/service-areas/anson-tx/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Eden", "url": "/service-areas/eden-tx/"}, {"name": "Contents Restoration & Storage"}]

@@ -7,10 +7,10 @@ primary_keyword: "restoration services pleasant hills"
 secondary_keywords: ["pleasant hills restoration company", "damage restoration pleasant hills", "pleasant hills disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "216a3cd2700e3ab6"
-generated_at: "2026-09-23T17:47:58.138095+00:00"
+plan_hash: "8937ff9a89279d67"
+generated_at: "2026-09-24T17:23:44.535215+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/pleasant-hills-pa/fire-damage-restoration/", "/service-areas/pleasant-hills-pa/roofing/", "/service-areas/pleasant-hills-pa/sewage-cleanup/", "/service-areas/pleasant-hills-pa/biohazard-cleanup/", "/service-areas/pleasant-hills-pa/general-contracting/", "/service-areas/pleasant-hills-pa/emergency-board-up-tarping/", "/service-areas/pleasant-hills-pa/asbestos-abatement/", "/service-areas/pleasant-hills-pa/air-duct-cleaning/", "/service-areas/pleasant-hills-pa/contents-restoration-storage/", "/service-areas/pleasant-hills-pa/lead-paint-abatement/", "/service-areas/pleasant-hills-pa/carpet-cleaning/", "/service-areas/pleasant-hills-pa/upholstery-cleaning/", "/service-areas/baldwin-pa/", "/service-areas/bethel-park-pa/", "/service-areas/carnegie-pa/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/pleasant-hills-pa/fire-damage-restoration/", "/service-areas/pleasant-hills-pa/roofing/", "/service-areas/pleasant-hills-pa/sewage-cleanup/", "/service-areas/pleasant-hills-pa/biohazard-cleanup/", "/service-areas/pleasant-hills-pa/general-contracting/", "/service-areas/pleasant-hills-pa/emergency-board-up-tarping/", "/service-areas/pleasant-hills-pa/asbestos-abatement/", "/service-areas/pleasant-hills-pa/air-duct-cleaning/", "/service-areas/pleasant-hills-pa/contents-restoration-storage/", "/service-areas/pleasant-hills-pa/lead-paint-abatement/", "/service-areas/pleasant-hills-pa/carpet-cleaning/", "/service-areas/pleasant-hills-pa/upholstery-cleaning/", "/service-areas/allison-park-pa/", "/service-areas/baldwin-pa/", "/service-areas/bethel-park-pa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pleasant Hills"}]
 faq: []
 area_slug: "pleasant-hills-pa"

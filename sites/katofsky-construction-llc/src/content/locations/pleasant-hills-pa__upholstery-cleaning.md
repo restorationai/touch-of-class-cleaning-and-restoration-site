@@ -7,10 +7,10 @@ primary_keyword: "upholstery cleaning pleasant hills"
 secondary_keywords: ["sofa cleaning", "couch cleaning", "furniture steam cleaning", "leather upholstery cleaning", "fabric upholstery cleaning"]
 search_intent: "local_specialty"
 priority: 2.8
-plan_hash: "016d8fba8c204b92"
-generated_at: "2026-09-23T17:47:58.144751+00:00"
+plan_hash: "258fe5fa008bc3e7"
+generated_at: "2026-09-24T17:23:44.561036+00:00"
 manual_override: false
-internal_links: ["/services/upholstery-cleaning/", "/service-areas/pleasant-hills-pa/", "/service-areas/pleasant-hills-pa/fire-damage-restoration/", "/service-areas/pleasant-hills-pa/roofing/", "/service-areas/baldwin-pa/upholstery-cleaning/", "/service-areas/bethel-park-pa/upholstery-cleaning/", "/contact/"]
+internal_links: ["/services/upholstery-cleaning/", "/service-areas/pleasant-hills-pa/", "/service-areas/pleasant-hills-pa/fire-damage-restoration/", "/service-areas/pleasant-hills-pa/roofing/", "/service-areas/allison-park-pa/upholstery-cleaning/", "/service-areas/baldwin-pa/upholstery-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pleasant Hills", "url": "/service-areas/pleasant-hills-pa/"}, {"name": "Upholstery Cleaning"}]
 faq: []
 area_slug: "pleasant-hills-pa"

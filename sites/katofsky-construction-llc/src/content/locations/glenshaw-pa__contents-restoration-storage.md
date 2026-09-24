@@ -7,10 +7,10 @@ primary_keyword: "contents restoration & storage glenshaw"
 secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "ec7ac891ad9901bf"
-generated_at: "2026-09-23T14:30:06.906985+00:00"
+plan_hash: "d858959749ed9564"
+generated_at: "2026-09-24T17:23:44.558238+00:00"
 manual_override: false
-internal_links: ["/services/contents-restoration-storage/", "/service-areas/glenshaw-pa/", "/service-areas/glenshaw-pa/fire-damage-restoration/", "/service-areas/glenshaw-pa/roofing/", "/service-areas/baldwin-pa/contents-restoration-storage/", "/service-areas/bethel-park-pa/contents-restoration-storage/", "/contact/"]
+internal_links: ["/services/contents-restoration-storage/", "/service-areas/glenshaw-pa/", "/service-areas/glenshaw-pa/fire-damage-restoration/", "/service-areas/glenshaw-pa/roofing/", "/service-areas/allison-park-pa/contents-restoration-storage/", "/service-areas/baldwin-pa/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Glenshaw", "url": "/service-areas/glenshaw-pa/"}, {"name": "Contents Restoration & Storage"}]
 faq: []
 area_slug: "glenshaw-pa"

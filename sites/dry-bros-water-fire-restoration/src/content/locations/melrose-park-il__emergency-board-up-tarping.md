@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "9b677ab6b971ebc6"
-generated_at: "2026-09-20T20:41:41.867828+00:00"
+generated_at: "2026-09-24T17:27:58.259417+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/melrose-park-il/", "/service-areas/melrose-park-il/fire-damage-restoration/", "/service-areas/melrose-park-il/mold-remediation/", "/service-areas/bedford-park-il/emergency-board-up-tarping/", "/service-areas/berwyn-il/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Melrose Park", "url": "/service-areas/melrose-park-il/"}, {"name": "Emergency Board-Up and Tarping"}]

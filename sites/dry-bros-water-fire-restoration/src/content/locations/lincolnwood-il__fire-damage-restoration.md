@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "9994e822552cf704"
-generated_at: "2026-09-20T14:13:04.891982+00:00"
+generated_at: "2026-09-24T17:27:58.243464+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/lincolnwood-il/", "/service-areas/lincolnwood-il/mold-remediation/", "/service-areas/lincolnwood-il/water-damage-restoration/", "/service-areas/bedford-park-il/fire-damage-restoration/", "/service-areas/berwyn-il/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lincolnwood", "url": "/service-areas/lincolnwood-il/"}, {"name": "Fire Damage Restoration"}]

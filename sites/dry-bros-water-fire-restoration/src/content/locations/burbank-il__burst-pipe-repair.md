@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "84dd6891584e8a4c"
-generated_at: "2026-09-21T14:13:07.676159+00:00"
+generated_at: "2026-09-24T17:27:58.261049+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/burbank-il/", "/service-areas/burbank-il/fire-damage-restoration/", "/service-areas/burbank-il/mold-remediation/", "/service-areas/bedford-park-il/burst-pipe-repair/", "/service-areas/berwyn-il/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Burbank", "url": "/service-areas/burbank-il/"}, {"name": "Burst Pipe Cleanup and Repair"}]

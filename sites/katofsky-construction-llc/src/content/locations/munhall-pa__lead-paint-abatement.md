@@ -7,10 +7,10 @@ primary_keyword: "lead paint abatement munhall"
 secondary_keywords: ["lead paint removal", "lead paint testing", "lead-safe renovation", "lead paint remediation", "EPA RRP certified"]
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "b157bd7f6dbb94b5"
-generated_at: "2026-09-22T20:18:34.323049+00:00"
+plan_hash: "bd180ee7ea993dff"
+generated_at: "2026-09-24T17:23:44.556183+00:00"
 manual_override: false
-internal_links: ["/services/lead-paint-abatement/", "/service-areas/munhall-pa/", "/service-areas/munhall-pa/fire-damage-restoration/", "/service-areas/munhall-pa/roofing/", "/service-areas/baldwin-pa/lead-paint-abatement/", "/service-areas/bethel-park-pa/lead-paint-abatement/", "/contact/"]
+internal_links: ["/services/lead-paint-abatement/", "/service-areas/munhall-pa/", "/service-areas/munhall-pa/fire-damage-restoration/", "/service-areas/munhall-pa/roofing/", "/service-areas/allison-park-pa/lead-paint-abatement/", "/service-areas/baldwin-pa/lead-paint-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Munhall", "url": "/service-areas/munhall-pa/"}, {"name": "Lead Paint Abatement"}]
 faq: []
 area_slug: "munhall-pa"

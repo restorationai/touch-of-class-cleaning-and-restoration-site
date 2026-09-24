@@ -7,10 +7,10 @@ primary_keyword: "emergency board-up and tarping whitehall"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
 priority: 4.9
-plan_hash: "5bee810b55a9063b"
-generated_at: "2026-09-22T20:03:18.106185+00:00"
+plan_hash: "485b0308c0257a1c"
+generated_at: "2026-09-24T17:23:44.554519+00:00"
 manual_override: false
-internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/whitehall-pa/", "/service-areas/whitehall-pa/fire-damage-restoration/", "/service-areas/whitehall-pa/roofing/", "/service-areas/baldwin-pa/emergency-board-up-tarping/", "/service-areas/bethel-park-pa/emergency-board-up-tarping/", "/contact/"]
+internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/whitehall-pa/", "/service-areas/whitehall-pa/fire-damage-restoration/", "/service-areas/whitehall-pa/roofing/", "/service-areas/allison-park-pa/emergency-board-up-tarping/", "/service-areas/baldwin-pa/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Whitehall", "url": "/service-areas/whitehall-pa/"}, {"name": "Emergency Board-Up and Tarping"}]
 faq: []
 area_slug: "whitehall-pa"

@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "426e47503f53505c"
-generated_at: "2026-09-23T14:11:34.836975+00:00"
+generated_at: "2026-09-24T17:21:47.712022+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/grove-city-pa/", "/service-areas/grove-city-pa/fire-damage-restoration/", "/service-areas/grove-city-pa/mold-remediation/", "/service-areas/austintown-oh/general-contracting/", "/service-areas/boardman-oh/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Grove City", "url": "/service-areas/grove-city-pa/"}, {"name": "Renovations, Remodels and General Contracting"}]

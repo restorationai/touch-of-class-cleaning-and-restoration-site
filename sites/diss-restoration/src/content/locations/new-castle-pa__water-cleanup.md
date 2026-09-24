@@ -8,7 +8,7 @@ secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "180c591201dd267a"
-generated_at: "2026-09-23T14:11:34.847731+00:00"
+generated_at: "2026-09-24T17:21:47.716794+00:00"
 manual_override: false
 internal_links: ["/services/water-cleanup/", "/service-areas/new-castle-pa/", "/service-areas/new-castle-pa/fire-damage-restoration/", "/service-areas/new-castle-pa/mold-remediation/", "/service-areas/austintown-oh/water-cleanup/", "/service-areas/boardman-oh/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "New Castle", "url": "/service-areas/new-castle-pa/"}, {"name": "Emergency Water Cleanup"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet 
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "0f59d09e2c78ce16"
-generated_at: "2026-09-20T14:13:04.899542+00:00"
+generated_at: "2026-09-24T17:27:58.250772+00:00"
 manual_override: false
 internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/lyons-il/", "/service-areas/lyons-il/fire-damage-restoration/", "/service-areas/lyons-il/mold-remediation/", "/service-areas/bedford-park-il/basement-flooding-cleanup/", "/service-areas/berwyn-il/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lyons", "url": "/service-areas/lyons-il/"}, {"name": "Basement Flooding Cleanup"}]

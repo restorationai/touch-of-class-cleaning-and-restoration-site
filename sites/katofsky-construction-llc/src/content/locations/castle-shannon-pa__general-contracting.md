@@ -7,10 +7,10 @@ primary_keyword: "renovations, remodels and general contracting castle shannon"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "43d3a4cf092c1c84"
-generated_at: "2026-09-22T18:10:17.098236+00:00"
+plan_hash: "a14695578e2f2f88"
+generated_at: "2026-09-24T17:23:44.551390+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/castle-shannon-pa/", "/service-areas/castle-shannon-pa/fire-damage-restoration/", "/service-areas/castle-shannon-pa/roofing/", "/service-areas/baldwin-pa/general-contracting/", "/service-areas/bethel-park-pa/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/castle-shannon-pa/", "/service-areas/castle-shannon-pa/fire-damage-restoration/", "/service-areas/castle-shannon-pa/roofing/", "/service-areas/allison-park-pa/general-contracting/", "/service-areas/baldwin-pa/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Castle Shannon", "url": "/service-areas/castle-shannon-pa/"}, {"name": "Renovations, Remodels and General Contracting"}]
 faq: []
 area_slug: "castle-shannon-pa"

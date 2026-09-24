@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "689c49e7c29ab30b"
-generated_at: "2026-09-22T14:27:23.601945+00:00"
+generated_at: "2026-09-24T17:27:58.268581+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/maywood-il/", "/service-areas/maywood-il/fire-damage-restoration/", "/service-areas/maywood-il/mold-remediation/", "/service-areas/bedford-park-il/emergency-board-up-tarping/", "/service-areas/berwyn-il/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Maywood", "url": "/service-areas/maywood-il/"}, {"name": "Emergency Board-Up and Tarping"}]

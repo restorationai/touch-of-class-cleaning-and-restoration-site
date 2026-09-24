@@ -8,7 +8,7 @@ secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet 
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "0ce0b9c80fd27910"
-generated_at: "2026-09-21T14:13:07.676335+00:00"
+generated_at: "2026-09-24T17:27:58.261234+00:00"
 manual_override: false
 internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/burbank-il/", "/service-areas/burbank-il/fire-damage-restoration/", "/service-areas/burbank-il/mold-remediation/", "/service-areas/bedford-park-il/basement-flooding-cleanup/", "/service-areas/berwyn-il/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Burbank", "url": "/service-areas/burbank-il/"}, {"name": "Basement Flooding Cleanup"}]

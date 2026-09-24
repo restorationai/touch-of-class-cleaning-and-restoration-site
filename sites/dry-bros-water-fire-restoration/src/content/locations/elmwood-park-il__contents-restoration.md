@@ -8,7 +8,7 @@ secondary_keywords: ["contents pack-out", "contents cleaning", "belongings resto
 search_intent: "local_service"
 priority: 3.5
 plan_hash: "5b45e9570bc5d899"
-generated_at: "2026-09-20T19:17:14.588439+00:00"
+generated_at: "2026-09-24T17:27:58.255170+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration/", "/service-areas/elmwood-park-il/", "/service-areas/elmwood-park-il/fire-damage-restoration/", "/service-areas/elmwood-park-il/mold-remediation/", "/service-areas/bedford-park-il/contents-restoration/", "/service-areas/berwyn-il/contents-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elmwood Park", "url": "/service-areas/elmwood-park-il/"}, {"name": "Contents Restoration and Storage"}]

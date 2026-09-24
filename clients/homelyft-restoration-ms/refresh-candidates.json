@@ -3,7 +3,7 @@
   "slug": "homelyft-restoration-ms",
   "origin": "https://homelyft.net",
   "origin_source": "apex",
-  "generated_at": "2026-09-14T20:25:29+00:00",
+  "generated_at": "2026-09-24T16:36:23+00:00",
   "stale_threshold_days": 365,
   "aging_threshold_days": 305,
   "gsc_enabled": false,
@@ -20,7 +20,7 @@
       "url": "https://homelyft.net/",
       "date": "2026-08-01",
       "date_source": "sitemap_lastmod",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T21:48:27.449Z",
       "html_dates": {
@@ -37,7 +37,7 @@
       "url": "https://homelyft.net/about/",
       "date": "2026-08-01",
       "date_source": "sitemap_lastmod",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T23:16:32.704Z",
       "html_dates": {
@@ -54,7 +54,7 @@
       "url": "https://homelyft.net/accessibility/",
       "date": "2026-08-01",
       "date_source": "sitemap_lastmod",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T23:17:01.139Z",
       "html_dates": {
@@ -71,7 +71,7 @@
       "url": "https://homelyft.net/blog/",
       "date": "2026-08-01",
       "date_source": "sitemap_lastmod",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T22:51:15.198Z",
       "html_dates": {
@@ -88,7 +88,7 @@
       "url": "https://homelyft.net/blog/best-water-damage-restoration-company-in-gulfport-ms/",
       "date": "2026-08-27",
       "date_source": "json_ld_date_modified",
-      "age_days": 18,
+      "age_days": 28,
       "flags": [],
       "sitemap_lastmod": "2026-08-27T00:00:00.000Z",
       "html_dates": {
@@ -105,7 +105,7 @@
       "url": "https://homelyft.net/blog/black-mold-vs-regular-mold/",
       "date": "2026-07-19",
       "date_source": "json_ld_date_modified",
-      "age_days": 57,
+      "age_days": 67,
       "flags": [],
       "sitemap_lastmod": "2026-07-19T00:00:00.000Z",
       "html_dates": {
@@ -122,7 +122,7 @@
       "url": "https://homelyft.net/blog/burst-pipe-emergency-checklist/",
       "date": "2026-07-17",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 69,
       "flags": [],
       "sitemap_lastmod": "2026-07-17T00:00:00.000Z",
       "html_dates": {
@@ -139,7 +139,7 @@
       "url": "https://homelyft.net/blog/choosing-a-restoration-company/",
       "date": "2026-07-24",
       "date_source": "json_ld_date_modified",
-      "age_days": 52,
+      "age_days": 62,
       "flags": [],
       "sitemap_lastmod": "2026-07-24T00:00:00.000Z",
       "html_dates": {
@@ -156,7 +156,7 @@
       "url": "https://homelyft.net/blog/does-homeowners-insurance-cover-water-damage/",
       "date": "2026-07-15",
       "date_source": "json_ld_date_modified",
-      "age_days": 61,
+      "age_days": 71,
       "flags": [],
       "sitemap_lastmod": "2026-07-15T00:00:00.000Z",
       "html_dates": {
@@ -173,7 +173,7 @@
       "url": "https://homelyft.net/blog/fire-damage-restoration-process/",
       "date": "2026-07-26",
       "date_source": "json_ld_date_modified",
-      "age_days": 50,
+      "age_days": 60,
       "flags": [],
       "sitemap_lastmod": "2026-07-26T00:00:00.000Z",
       "html_dates": {
@@ -190,12 +190,29 @@
       "url": "https://homelyft.net/blog/how-to-test-for-mold/",
       "date": "2026-07-19",
       "date_source": "json_ld_date_modified",
-      "age_days": 57,
+      "age_days": 67,
       "flags": [],
       "sitemap_lastmod": "2026-07-19T00:00:00.000Z",
       "html_dates": {
         "json_ld_date_published": "2026-07-19",
         "json_ld_date_modified": "2026-07-19",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://homelyft.net/blog/roofing/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-20T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-20",
+        "json_ld_date_modified": "2026-09-20",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -207,7 +224,7 @@
       "url": "https://homelyft.net/blog/signs-of-hidden-mold/",
       "date": "2026-07-19",
       "date_source": "json_ld_date_modified",
-      "age_days": 57,
+      "age_days": 67,
       "flags": [],
       "sitemap_lastmod": "2026-07-19T00:00:00.000Z",
       "html_dates": {
@@ -221,10 +238,27 @@
       "search_signals": null
     },
     {
+      "url": "https://homelyft.net/blog/water-damage-insurance-claim-tips/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-24",
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://homelyft.net/blog/water-damage-restoration-cost-ms/",
       "date": "2026-08-31",
       "date_source": "json_ld_date_modified",
-      "age_days": 14,
+      "age_days": 24,
       "flags": [],
       "sitemap_lastmod": "2026-08-31T00:00:00.000Z",
       "html_dates": {
@@ -239,14 +273,31 @@
     },
     {
       "url": "https://homelyft.net/blog/water-damage-restoration-cost/",
-      "date": "2026-09-14",
+      "date": "2026-09-22",
       "date_source": "json_ld_date_modified",
-      "age_days": 0,
+      "age_days": 2,
       "flags": [],
-      "sitemap_lastmod": "2026-09-14T00:00:00.000Z",
+      "sitemap_lastmod": "2026-09-22T00:00:00.000Z",
       "html_dates": {
-        "json_ld_date_published": "2026-09-14",
-        "json_ld_date_modified": "2026-09-14",
+        "json_ld_date_published": "2026-09-22",
+        "json_ld_date_modified": "2026-09-22",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://homelyft.net/blog/water-damage-restoration-gulfport/",
+      "date": "2026-09-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 6,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-18T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-18",
+        "json_ld_date_modified": "2026-09-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -258,7 +309,7 @@
       "url": "https://homelyft.net/blog/what-to-do-first-24-hours-water-damage/",
       "date": "2026-07-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 47,
+      "age_days": 57,
       "flags": [],
       "sitemap_lastmod": "2026-07-29T00:00:00.000Z",
       "html_dates": {
@@ -275,7 +326,7 @@
       "url": "https://homelyft.net/blog/who-to-call-for-water-damage-restoration-in-gulfport-ms/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 13,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T00:00:00.000Z",
       "html_dates": {
@@ -290,11 +341,11 @@
     },
     {
       "url": "https://homelyft.net/case-studies/",
-      "date": "2026-09-14",
+      "date": "2026-09-24",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-09-14T11:56:05.226Z",
+      "sitemap_lastmod": "2026-09-24T16:34:06.047Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -307,11 +358,11 @@
     },
     {
       "url": "https://homelyft.net/certifications/",
-      "date": "2026-09-14",
+      "date": "2026-09-24",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-09-14T11:56:05.226Z",
+      "sitemap_lastmod": "2026-09-24T16:34:06.047Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -326,7 +377,7 @@
       "url": "https://homelyft.net/contact/",
       "date": "2026-08-01",
       "date_source": "sitemap_lastmod",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T23:16:30.724Z",
       "html_dates": {
@@ -340,12 +391,29 @@
       "search_signals": null
     },
     {
-      "url": "https://homelyft.net/emergency/",
-      "date": "2026-09-14",
+      "url": "https://homelyft.net/embed/estimate/",
+      "date": "2026-09-24",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-09-14T11:56:05.226Z",
+      "sitemap_lastmod": "2026-09-24T16:34:06.047Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://homelyft.net/emergency/",
+      "date": "2026-09-24",
+      "date_source": "sitemap_lastmod",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T16:34:06.047Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -360,7 +428,7 @@
       "url": "https://homelyft.net/privacy/",
       "date": "2026-08-01",
       "date_source": "sitemap_lastmod",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T23:16:45.571Z",
       "html_dates": {
@@ -375,11 +443,11 @@
     },
     {
       "url": "https://homelyft.net/reviews/",
-      "date": "2026-09-14",
+      "date": "2026-09-24",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-09-14T11:56:05.226Z",
+      "sitemap_lastmod": "2026-09-24T16:34:06.047Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -394,7 +462,7 @@
       "url": "https://homelyft.net/service-areas/",
       "date": "2026-08-01",
       "date_source": "sitemap_lastmod",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T22:26:44.420Z",
       "html_dates": {
@@ -411,7 +479,7 @@
       "url": "https://homelyft.net/service-areas/agricola-ms/",
       "date": "2026-08-01",
       "date_source": "sitemap_lastmod",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T22:11:54.275Z",
       "html_dates": {
@@ -428,7 +496,7 @@
       "url": "https://homelyft.net/service-areas/agricola-ms/asbestos-abatement/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T22:24:28.041Z",
       "html_dates": {
@@ -445,7 +513,7 @@
       "url": "https://homelyft.net/service-areas/agricola-ms/biohazard-cleanup/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T21:43:21.194Z",
       "html_dates": {
@@ -462,7 +530,7 @@
       "url": "https://homelyft.net/service-areas/agricola-ms/carpet-cleaning/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T23:12:46.858Z",
       "html_dates": {
@@ -476,10 +544,27 @@
       "search_signals": null
     },
     {
+      "url": "https://homelyft.net/service-areas/agricola-ms/contents-restoration-storage/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T20:11:15.250Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://homelyft.net/service-areas/agricola-ms/contents-restoration/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T22:47:34.876Z",
       "html_dates": {
@@ -496,7 +581,7 @@
       "url": "https://homelyft.net/service-areas/agricola-ms/crawl-space-encapsulation/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T22:47:47.023Z",
       "html_dates": {
@@ -513,7 +598,7 @@
       "url": "https://homelyft.net/service-areas/agricola-ms/emergency-board-up-tarping/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T22:00:46.866Z",
       "html_dates": {
@@ -530,7 +615,7 @@
       "url": "https://homelyft.net/service-areas/agricola-ms/fire-damage-restoration/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T20:51:59.988Z",
       "html_dates": {
@@ -547,7 +632,7 @@
       "url": "https://homelyft.net/service-areas/agricola-ms/general-contracting/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T21:43:13.634Z",
       "html_dates": {
@@ -564,7 +649,7 @@
       "url": "https://homelyft.net/service-areas/agricola-ms/mold-remediation/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T20:52:01.377Z",
       "html_dates": {
@@ -578,10 +663,27 @@
       "search_signals": null
     },
     {
+      "url": "https://homelyft.net/service-areas/agricola-ms/odor-removal/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T20:11:15.250Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://homelyft.net/service-areas/agricola-ms/post-construction-cleaning/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T23:12:48.590Z",
       "html_dates": {
@@ -595,10 +697,27 @@
       "search_signals": null
     },
     {
+      "url": "https://homelyft.net/service-areas/agricola-ms/roofing/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T20:11:15.250Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://homelyft.net/service-areas/agricola-ms/sewage-cleanup/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T21:19:12.598Z",
       "html_dates": {
@@ -615,7 +734,7 @@
       "url": "https://homelyft.net/service-areas/agricola-ms/storm-damage-restoration/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T21:19:15.625Z",
       "html_dates": {
@@ -629,10 +748,27 @@
       "search_signals": null
     },
     {
+      "url": "https://homelyft.net/service-areas/agricola-ms/water-cleanup/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T20:11:15.251Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://homelyft.net/service-areas/agricola-ms/water-damage-restoration/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T20:51:42.109Z",
       "html_dates": {
@@ -646,10 +782,27 @@
       "search_signals": null
     },
     {
+      "url": "https://homelyft.net/service-areas/agricola-ms/water-leak-detection/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T20:11:15.251Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://homelyft.net/service-areas/bay-st-louis-ms/",
       "date": "2026-08-01",
       "date_source": "sitemap_lastmod",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T22:06:29.116Z",
       "html_dates": {
@@ -666,7 +819,7 @@
       "url": "https://homelyft.net/service-areas/bay-st-louis-ms/asbestos-abatement/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T22:18:58.851Z",
       "html_dates": {
@@ -683,7 +836,7 @@
       "url": "https://homelyft.net/service-areas/bay-st-louis-ms/biohazard-cleanup/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T21:32:17.655Z",
       "html_dates": {
@@ -700,7 +853,7 @@
       "url": "https://homelyft.net/service-areas/bay-st-louis-ms/carpet-cleaning/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T23:00:49.572Z",
       "html_dates": {
@@ -714,10 +867,27 @@
       "search_signals": null
     },
     {
+      "url": "https://homelyft.net/service-areas/bay-st-louis-ms/contents-restoration-storage/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T20:11:15.215Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://homelyft.net/service-areas/bay-st-louis-ms/contents-restoration/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T22:35:53.243Z",
       "html_dates": {
@@ -734,7 +904,7 @@
       "url": "https://homelyft.net/service-areas/bay-st-louis-ms/crawl-space-encapsulation/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T22:35:53.218Z",
       "html_dates": {
@@ -751,7 +921,7 @@
       "url": "https://homelyft.net/service-areas/bay-st-louis-ms/emergency-board-up-tarping/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T21:54:31.452Z",
       "html_dates": {
@@ -768,7 +938,7 @@
       "url": "https://homelyft.net/service-areas/bay-st-louis-ms/fire-damage-restoration/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T20:34:04.613Z",
       "html_dates": {
@@ -785,7 +955,7 @@
       "url": "https://homelyft.net/service-areas/bay-st-louis-ms/general-contracting/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T21:32:13.838Z",
       "html_dates": {
@@ -802,7 +972,7 @@
       "url": "https://homelyft.net/service-areas/bay-st-louis-ms/mold-remediation/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T20:34:30.716Z",
       "html_dates": {
@@ -816,10 +986,27 @@
       "search_signals": null
     },
     {
+      "url": "https://homelyft.net/service-areas/bay-st-louis-ms/odor-removal/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T20:11:15.215Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://homelyft.net/service-areas/bay-st-louis-ms/post-construction-cleaning/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T23:00:54.686Z",
       "html_dates": {
@@ -833,10 +1020,27 @@
       "search_signals": null
     },
     {
+      "url": "https://homelyft.net/service-areas/bay-st-louis-ms/roofing/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T20:11:15.216Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://homelyft.net/service-areas/bay-st-louis-ms/sewage-cleanup/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T21:07:14.326Z",
       "html_dates": {
@@ -853,7 +1057,7 @@
       "url": "https://homelyft.net/service-areas/bay-st-louis-ms/storm-damage-restoration/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T21:07:12.413Z",
       "html_dates": {
@@ -867,10 +1071,27 @@
       "search_signals": null
     },
     {
+      "url": "https://homelyft.net/service-areas/bay-st-louis-ms/water-cleanup/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T20:11:15.216Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://homelyft.net/service-areas/bay-st-louis-ms/water-damage-restoration/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T20:33:54.798Z",
       "html_dates": {
@@ -884,10 +1105,27 @@
       "search_signals": null
     },
     {
+      "url": "https://homelyft.net/service-areas/bay-st-louis-ms/water-leak-detection/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T20:11:15.216Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://homelyft.net/service-areas/benndale-ms/",
       "date": "2026-08-01",
       "date_source": "sitemap_lastmod",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T22:11:55.312Z",
       "html_dates": {
@@ -904,7 +1142,7 @@
       "url": "https://homelyft.net/service-areas/benndale-ms/asbestos-abatement/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T22:24:30.389Z",
       "html_dates": {
@@ -921,7 +1159,7 @@
       "url": "https://homelyft.net/service-areas/benndale-ms/biohazard-cleanup/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T21:43:43.667Z",
       "html_dates": {
@@ -938,7 +1176,7 @@
       "url": "https://homelyft.net/service-areas/benndale-ms/carpet-cleaning/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T23:12:48.546Z",
       "html_dates": {
@@ -952,10 +1190,27 @@
       "search_signals": null
     },
     {
+      "url": "https://homelyft.net/service-areas/benndale-ms/contents-restoration-storage/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T20:11:15.251Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://homelyft.net/service-areas/benndale-ms/contents-restoration/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T22:48:02.970Z",
       "html_dates": {
@@ -972,7 +1227,7 @@
       "url": "https://homelyft.net/service-areas/benndale-ms/crawl-space-encapsulation/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T22:48:09.354Z",
       "html_dates": {
@@ -989,7 +1244,7 @@
       "url": "https://homelyft.net/service-areas/benndale-ms/emergency-board-up-tarping/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T22:00:50.215Z",
       "html_dates": {
@@ -1006,7 +1261,7 @@
       "url": "https://homelyft.net/service-areas/benndale-ms/fire-damage-restoration/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T20:52:29.871Z",
       "html_dates": {
@@ -1023,7 +1278,7 @@
       "url": "https://homelyft.net/service-areas/benndale-ms/general-contracting/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T21:43:46.069Z",
       "html_dates": {
@@ -1040,7 +1295,7 @@
       "url": "https://homelyft.net/service-areas/benndale-ms/mold-remediation/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T20:52:45.475Z",
       "html_dates": {
@@ -1054,10 +1309,27 @@
       "search_signals": null
     },
     {
+      "url": "https://homelyft.net/service-areas/benndale-ms/odor-removal/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T20:11:15.252Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://homelyft.net/service-areas/benndale-ms/post-construction-cleaning/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T23:13:04.747Z",
       "html_dates": {
@@ -1071,10 +1343,27 @@
       "search_signals": null
     },
     {
+      "url": "https://homelyft.net/service-areas/benndale-ms/roofing/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T20:11:15.252Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://homelyft.net/service-areas/benndale-ms/sewage-cleanup/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T21:19:51.205Z",
       "html_dates": {
@@ -1091,7 +1380,7 @@
       "url": "https://homelyft.net/service-areas/benndale-ms/storm-damage-restoration/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T21:19:42.173Z",
       "html_dates": {
@@ -1105,10 +1394,27 @@
       "search_signals": null
     },
     {
+      "url": "https://homelyft.net/service-areas/benndale-ms/water-cleanup/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T20:11:15.252Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://homelyft.net/service-areas/benndale-ms/water-damage-restoration/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T20:52:16.430Z",
       "html_dates": {
@@ -1122,10 +1428,27 @@
       "search_signals": null
     },
     {
+      "url": "https://homelyft.net/service-areas/benndale-ms/water-leak-detection/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T20:11:15.252Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://homelyft.net/service-areas/big-point-ms/",
       "date": "2026-08-01",
       "date_source": "sitemap_lastmod",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T22:09:04.212Z",
       "html_dates": {
@@ -1142,7 +1465,7 @@
       "url": "https://homelyft.net/service-areas/big-point-ms/asbestos-abatement/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T22:21:17.638Z",
       "html_dates": {
@@ -1159,7 +1482,7 @@
       "url": "https://homelyft.net/service-areas/big-point-ms/biohazard-cleanup/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T21:37:23.765Z",
       "html_dates": {
@@ -1176,7 +1499,7 @@
       "url": "https://homelyft.net/service-areas/big-point-ms/carpet-cleaning/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T23:06:21.523Z",
       "html_dates": {
@@ -1190,10 +1513,27 @@
       "search_signals": null
     },
     {
+      "url": "https://homelyft.net/service-areas/big-point-ms/contents-restoration-storage/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T20:11:15.230Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://homelyft.net/service-areas/big-point-ms/contents-restoration/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T22:41:20.869Z",
       "html_dates": {
@@ -1210,7 +1550,7 @@
       "url": "https://homelyft.net/service-areas/big-point-ms/crawl-space-encapsulation/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T22:41:29.937Z",
       "html_dates": {
@@ -1227,7 +1567,7 @@
       "url": "https://homelyft.net/service-areas/big-point-ms/emergency-board-up-tarping/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T21:57:35.504Z",
       "html_dates": {
@@ -1244,7 +1584,7 @@
       "url": "https://homelyft.net/service-areas/big-point-ms/fire-damage-restoration/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T20:42:24.826Z",
       "html_dates": {
@@ -1261,7 +1601,7 @@
       "url": "https://homelyft.net/service-areas/big-point-ms/general-contracting/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T21:37:20.887Z",
       "html_dates": {
@@ -1278,7 +1618,7 @@
       "url": "https://homelyft.net/service-areas/big-point-ms/mold-remediation/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T20:42:35.937Z",
       "html_dates": {
@@ -1292,10 +1632,27 @@
       "search_signals": null
     },
     {
+      "url": "https://homelyft.net/service-areas/big-point-ms/odor-removal/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T20:11:15.231Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://homelyft.net/service-areas/big-point-ms/post-construction-cleaning/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T23:06:21.689Z",
       "html_dates": {
@@ -1309,10 +1666,27 @@
       "search_signals": null
     },
     {
+      "url": "https://homelyft.net/service-areas/big-point-ms/roofing/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T20:11:15.231Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://homelyft.net/service-areas/big-point-ms/sewage-cleanup/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T21:12:59.779Z",
       "html_dates": {
@@ -1329,7 +1703,7 @@
       "url": "https://homelyft.net/service-areas/big-point-ms/storm-damage-restoration/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T21:12:48.257Z",
       "html_dates": {
@@ -1343,10 +1717,27 @@
       "search_signals": null
     },
     {
+      "url": "https://homelyft.net/service-areas/big-point-ms/water-cleanup/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T20:11:15.232Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://homelyft.net/service-areas/big-point-ms/water-damage-restoration/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T20:42:18.584Z",
       "html_dates": {
@@ -1360,10 +1751,27 @@
       "search_signals": null
     },
     {
+      "url": "https://homelyft.net/service-areas/big-point-ms/water-leak-detection/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T20:11:15.231Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://homelyft.net/service-areas/biloxi-ms/",
       "date": "2026-08-01",
       "date_source": "sitemap_lastmod",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T22:09:11.718Z",
       "html_dates": {
@@ -1380,7 +1788,7 @@
       "url": "https://homelyft.net/service-areas/biloxi-ms/asbestos-abatement/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T22:21:29.850Z",
       "html_dates": {
@@ -1397,7 +1805,7 @@
       "url": "https://homelyft.net/service-areas/biloxi-ms/biohazard-cleanup/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T21:37:55.420Z",
       "html_dates": {
@@ -1414,7 +1822,7 @@
       "url": "https://homelyft.net/service-areas/biloxi-ms/carpet-cleaning/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T23:06:23.136Z",
       "html_dates": {
@@ -1428,10 +1836,27 @@
       "search_signals": null
     },
     {
+      "url": "https://homelyft.net/service-areas/biloxi-ms/contents-restoration-storage/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T20:11:15.196Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://homelyft.net/service-areas/biloxi-ms/contents-restoration/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T22:41:50.766Z",
       "html_dates": {
@@ -1448,7 +1873,7 @@
       "url": "https://homelyft.net/service-areas/biloxi-ms/crawl-space-encapsulation/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T22:41:54.259Z",
       "html_dates": {
@@ -1465,7 +1890,7 @@
       "url": "https://homelyft.net/service-areas/biloxi-ms/emergency-board-up-tarping/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T21:57:37.845Z",
       "html_dates": {
@@ -1482,7 +1907,7 @@
       "url": "https://homelyft.net/service-areas/biloxi-ms/fire-damage-restoration/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T20:43:01.983Z",
       "html_dates": {
@@ -1499,7 +1924,7 @@
       "url": "https://homelyft.net/service-areas/biloxi-ms/general-contracting/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T21:37:47.817Z",
       "html_dates": {
@@ -1516,7 +1941,7 @@
       "url": "https://homelyft.net/service-areas/biloxi-ms/mold-remediation/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T20:43:10.404Z",
       "html_dates": {
@@ -1530,10 +1955,27 @@
       "search_signals": null
     },
     {
+      "url": "https://homelyft.net/service-areas/biloxi-ms/odor-removal/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T20:11:15.197Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://homelyft.net/service-areas/biloxi-ms/post-construction-cleaning/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T23:06:52.754Z",
       "html_dates": {
@@ -1547,10 +1989,27 @@
       "search_signals": null
     },
     {
+      "url": "https://homelyft.net/service-areas/biloxi-ms/roofing/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T20:11:15.197Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://homelyft.net/service-areas/biloxi-ms/sewage-cleanup/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T21:13:35.632Z",
       "html_dates": {
@@ -1567,7 +2026,7 @@
       "url": "https://homelyft.net/service-areas/biloxi-ms/storm-damage-restoration/",
       "date": "2026-08-01",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 54,
       "flags": [],
       "sitemap_lastmod": "2026-08-01T21:13:23.219Z",
       "html_dates": {
@@ -1581,474 +2040,15 @@
       "search_signals": null
     },
     {
-      "url": "https://homelyft.net/service-areas/biloxi-ms/water-damage-restoration/",
-      "date": "2026-08-01",
+      "url": "https://homelyft.net/service-areas/biloxi-ms/water-cleanup/",
+      "date": "2026-09-23",
       "date_source": "json_ld_date_modified",
-      "age_days": 44,
+      "age_days": 1,
       "flags": [],
-      "sitemap_lastmod": "2026-08-01T20:42:56.201Z",
+      "sitemap_lastmod": "2026-09-23T20:11:15.197Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homelyft.net/service-areas/d-iberville-ms/",
-      "date": "2026-08-01",
-      "date_source": "sitemap_lastmod",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T22:09:16.143Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homelyft.net/service-areas/d-iberville-ms/asbestos-abatement/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T22:21:56.908Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homelyft.net/service-areas/d-iberville-ms/biohazard-cleanup/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T21:38:05.289Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homelyft.net/service-areas/d-iberville-ms/carpet-cleaning/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T23:07:11.042Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homelyft.net/service-areas/d-iberville-ms/contents-restoration/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T22:42:06.652Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homelyft.net/service-areas/d-iberville-ms/crawl-space-encapsulation/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T22:42:15.883Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homelyft.net/service-areas/d-iberville-ms/emergency-board-up-tarping/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T21:57:54.356Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homelyft.net/service-areas/d-iberville-ms/fire-damage-restoration/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T20:43:44.089Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homelyft.net/service-areas/d-iberville-ms/general-contracting/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T21:38:08.188Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homelyft.net/service-areas/d-iberville-ms/mold-remediation/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T20:43:49.499Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homelyft.net/service-areas/d-iberville-ms/post-construction-cleaning/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T23:07:11.433Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homelyft.net/service-areas/d-iberville-ms/sewage-cleanup/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T21:13:46.661Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homelyft.net/service-areas/d-iberville-ms/storm-damage-restoration/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T21:13:36.215Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homelyft.net/service-areas/d-iberville-ms/water-damage-restoration/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T20:43:23.927Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homelyft.net/service-areas/delisle-ms/",
-      "date": "2026-08-01",
-      "date_source": "sitemap_lastmod",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T22:04:58.956Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homelyft.net/service-areas/delisle-ms/asbestos-abatement/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T22:16:38.892Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homelyft.net/service-areas/delisle-ms/biohazard-cleanup/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T21:28:24.647Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homelyft.net/service-areas/delisle-ms/carpet-cleaning/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T22:56:43.593Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homelyft.net/service-areas/delisle-ms/contents-restoration/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T22:31:58.215Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homelyft.net/service-areas/delisle-ms/crawl-space-encapsulation/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T22:32:08.721Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homelyft.net/service-areas/delisle-ms/emergency-board-up-tarping/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T21:52:41.684Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homelyft.net/service-areas/delisle-ms/fire-damage-restoration/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T20:28:26.072Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homelyft.net/service-areas/delisle-ms/general-contracting/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T21:28:34.483Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homelyft.net/service-areas/delisle-ms/mold-remediation/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T20:28:29.177Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homelyft.net/service-areas/delisle-ms/post-construction-cleaning/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T22:56:51.177Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homelyft.net/service-areas/delisle-ms/sewage-cleanup/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T21:03:08.659Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://homelyft.net/service-areas/delisle-ms/storm-damage-restoration/",
-      "date": "2026-08-01",
-      "date_source": "json_ld_date_modified",
-      "age_days": 44,
-      "flags": [],
-      "sitemap_lastmod": "2026-08-01T21:03:12.840Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-08-01",
+        "json_ld_date_modified": "2026-09-23",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null

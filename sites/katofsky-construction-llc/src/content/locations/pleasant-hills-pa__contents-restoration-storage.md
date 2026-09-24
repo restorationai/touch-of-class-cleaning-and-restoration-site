@@ -7,10 +7,10 @@ primary_keyword: "contents restoration & storage pleasant hills"
 secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "82cabb2e7c859e6f"
-generated_at: "2026-09-23T17:47:58.144211+00:00"
+plan_hash: "18bace4579bb1ce4"
+generated_at: "2026-09-24T17:23:44.560623+00:00"
 manual_override: false
-internal_links: ["/services/contents-restoration-storage/", "/service-areas/pleasant-hills-pa/", "/service-areas/pleasant-hills-pa/fire-damage-restoration/", "/service-areas/pleasant-hills-pa/roofing/", "/service-areas/baldwin-pa/contents-restoration-storage/", "/service-areas/bethel-park-pa/contents-restoration-storage/", "/contact/"]
+internal_links: ["/services/contents-restoration-storage/", "/service-areas/pleasant-hills-pa/", "/service-areas/pleasant-hills-pa/fire-damage-restoration/", "/service-areas/pleasant-hills-pa/roofing/", "/service-areas/allison-park-pa/contents-restoration-storage/", "/service-areas/baldwin-pa/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pleasant Hills", "url": "/service-areas/pleasant-hills-pa/"}, {"name": "Contents Restoration & Storage"}]
 faq: []
 area_slug: "pleasant-hills-pa"

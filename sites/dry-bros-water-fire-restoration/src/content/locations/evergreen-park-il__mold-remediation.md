@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "037198ecd6515948"
-generated_at: "2026-09-21T19:18:34.637885+00:00"
+generated_at: "2026-09-24T17:27:58.262440+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/evergreen-park-il/", "/service-areas/evergreen-park-il/fire-damage-restoration/", "/service-areas/evergreen-park-il/water-damage-restoration/", "/service-areas/bedford-park-il/mold-remediation/", "/service-areas/berwyn-il/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Evergreen Park", "url": "/service-areas/evergreen-park-il/"}, {"name": "Mold Remediation"}]

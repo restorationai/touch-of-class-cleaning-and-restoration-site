@@ -8,7 +8,7 @@ secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "2ba469ba0f75d32a"
-generated_at: "2026-09-23T14:11:34.806900+00:00"
+generated_at: "2026-09-24T17:21:47.697138+00:00"
 manual_override: false
 internal_links: ["/services/water-cleanup/", "/service-areas/farrell-pa/", "/service-areas/farrell-pa/fire-damage-restoration/", "/service-areas/farrell-pa/mold-remediation/", "/service-areas/austintown-oh/water-cleanup/", "/service-areas/boardman-oh/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Farrell", "url": "/service-areas/farrell-pa/"}, {"name": "Emergency Water Cleanup"}]

@@ -7,10 +7,10 @@ primary_keyword: "air duct cleaning munhall"
 secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitization", "dryer vent cleaning", "residential duct cleaning"]
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "ff633b2124fb6426"
-generated_at: "2026-09-22T20:18:34.323665+00:00"
+plan_hash: "d42d6d9876b2d020"
+generated_at: "2026-09-24T17:23:44.556618+00:00"
 manual_override: false
-internal_links: ["/services/air-duct-cleaning/", "/service-areas/munhall-pa/", "/service-areas/munhall-pa/fire-damage-restoration/", "/service-areas/munhall-pa/roofing/", "/service-areas/baldwin-pa/air-duct-cleaning/", "/service-areas/bethel-park-pa/air-duct-cleaning/", "/contact/"]
+internal_links: ["/services/air-duct-cleaning/", "/service-areas/munhall-pa/", "/service-areas/munhall-pa/fire-damage-restoration/", "/service-areas/munhall-pa/roofing/", "/service-areas/allison-park-pa/air-duct-cleaning/", "/service-areas/baldwin-pa/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Munhall", "url": "/service-areas/munhall-pa/"}, {"name": "Air Duct Cleaning"}]
 faq: []
 area_slug: "munhall-pa"

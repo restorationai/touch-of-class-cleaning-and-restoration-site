@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration valley center"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "e2039e89103e40a8"
-generated_at: "2026-09-20T14:13:11.333568+00:00"
+plan_hash: "e8409c8a80185b1c"
+generated_at: "2026-09-24T17:22:06.416923+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/valley-center-ca/", "/service-areas/valley-center-ca/flood-damage-restoration/", "/service-areas/valley-center-ca/reconstruction/", "/service-areas/bonsall-ca/water-damage-restoration/", "/service-areas/carlsbad-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/valley-center-ca/", "/service-areas/valley-center-ca/flood-damage-restoration/", "/service-areas/valley-center-ca/reconstruction/", "/service-areas/bonsall-ca/water-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Valley Center", "url": "/service-areas/valley-center-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "valley-center-ca"

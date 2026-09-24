@@ -7,10 +7,10 @@ primary_keyword: "renovations, remodels and general contracting valley center"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "7e115d45aaa574a3"
-generated_at: "2026-09-20T14:13:11.334423+00:00"
+plan_hash: "0cffaf4072360c87"
+generated_at: "2026-09-24T17:22:06.417810+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/valley-center-ca/", "/service-areas/valley-center-ca/water-damage-restoration/", "/service-areas/valley-center-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/general-contracting/", "/service-areas/carlsbad-ca/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/valley-center-ca/", "/service-areas/valley-center-ca/water-damage-restoration/", "/service-areas/valley-center-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/general-contracting/", "/service-areas/camp-pendleton-mainside-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Valley Center", "url": "/service-areas/valley-center-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]
 faq: []
 area_slug: "valley-center-ca"

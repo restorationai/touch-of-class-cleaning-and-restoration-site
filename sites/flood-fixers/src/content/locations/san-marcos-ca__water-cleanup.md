@@ -7,10 +7,10 @@ primary_keyword: "emergency water cleanup san marcos"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "8e414d033fb287af"
-generated_at: "2026-09-20T14:13:11.326839+00:00"
+plan_hash: "fb3b390bcea9dab6"
+generated_at: "2026-09-24T17:22:06.408893+00:00"
 manual_override: false
-internal_links: ["/services/water-cleanup/", "/service-areas/san-marcos-ca/", "/service-areas/san-marcos-ca/water-damage-restoration/", "/service-areas/san-marcos-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/water-cleanup/", "/service-areas/carlsbad-ca/water-cleanup/", "/contact/"]
+internal_links: ["/services/water-cleanup/", "/service-areas/san-marcos-ca/", "/service-areas/san-marcos-ca/water-damage-restoration/", "/service-areas/san-marcos-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/water-cleanup/", "/service-areas/camp-pendleton-mainside-ca/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Marcos", "url": "/service-areas/san-marcos-ca/"}, {"name": "water-cleanup"}]
 faq: []
 area_slug: "san-marcos-ca"

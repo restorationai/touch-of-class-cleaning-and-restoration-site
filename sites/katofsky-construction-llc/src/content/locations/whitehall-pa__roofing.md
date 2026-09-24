@@ -7,10 +7,10 @@ primary_keyword: "roofing installation and replacement whitehall"
 secondary_keywords: ["roofing contractor", "roof replacement", "new roof installation", "residential roofing", "roof repair"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "687cb45465898146"
-generated_at: "2026-09-22T20:03:18.105218+00:00"
+plan_hash: "88a39e6732dc78de"
+generated_at: "2026-09-24T17:23:44.553881+00:00"
 manual_override: false
-internal_links: ["/services/roofing/", "/service-areas/whitehall-pa/", "/service-areas/whitehall-pa/fire-damage-restoration/", "/service-areas/whitehall-pa/sewage-cleanup/", "/service-areas/baldwin-pa/roofing/", "/service-areas/bethel-park-pa/roofing/", "/contact/"]
+internal_links: ["/services/roofing/", "/service-areas/whitehall-pa/", "/service-areas/whitehall-pa/fire-damage-restoration/", "/service-areas/whitehall-pa/sewage-cleanup/", "/service-areas/allison-park-pa/roofing/", "/service-areas/baldwin-pa/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Whitehall", "url": "/service-areas/whitehall-pa/"}, {"name": "Roofing Installation and Replacement"}]
 faq: []
 area_slug: "whitehall-pa"

@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "21c478d77182504e"
-generated_at: "2026-09-20T14:13:04.898828+00:00"
+generated_at: "2026-09-24T17:27:58.250182+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/lyons-il/", "/service-areas/lyons-il/fire-damage-restoration/", "/service-areas/lyons-il/water-damage-restoration/", "/service-areas/bedford-park-il/mold-remediation/", "/service-areas/berwyn-il/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lyons", "url": "/service-areas/lyons-il/"}, {"name": "Mold Remediation"}]

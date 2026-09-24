@@ -7,10 +7,10 @@ primary_keyword: "flood damage restoration harmony grove"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "1899afba6e70e04d"
-generated_at: "2026-09-20T14:13:11.328977+00:00"
+plan_hash: "6be4fe41eb2b36bd"
+generated_at: "2026-09-24T17:22:06.412527+00:00"
 manual_override: false
-internal_links: ["/services/flood-damage-restoration/", "/service-areas/harmony-grove-ca/", "/service-areas/harmony-grove-ca/water-damage-restoration/", "/service-areas/harmony-grove-ca/reconstruction/", "/service-areas/bonsall-ca/flood-damage-restoration/", "/service-areas/carlsbad-ca/flood-damage-restoration/", "/contact/"]
+internal_links: ["/services/flood-damage-restoration/", "/service-areas/harmony-grove-ca/", "/service-areas/harmony-grove-ca/water-damage-restoration/", "/service-areas/harmony-grove-ca/reconstruction/", "/service-areas/bonsall-ca/flood-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Harmony Grove", "url": "/service-areas/harmony-grove-ca/"}, {"name": "Flood Damage Restoration"}]
 faq: []
 area_slug: "harmony-grove-ca"

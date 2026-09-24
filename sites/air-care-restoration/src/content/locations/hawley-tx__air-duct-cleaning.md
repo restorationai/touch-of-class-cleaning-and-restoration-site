@@ -8,7 +8,7 @@ secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitizati
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "1fd5d8175309f57d"
-generated_at: "2026-09-23T14:11:24.713803+00:00"
+generated_at: "2026-09-24T17:23:55.853901+00:00"
 manual_override: false
 internal_links: ["/services/air-duct-cleaning/", "/service-areas/hawley-tx/", "/service-areas/hawley-tx/fire-damage-restoration/", "/service-areas/hawley-tx/mold-remediation/", "/service-areas/albany-tx/air-duct-cleaning/", "/service-areas/anson-tx/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hawley", "url": "/service-areas/hawley-tx/"}, {"name": "Air Duct Cleaning"}]

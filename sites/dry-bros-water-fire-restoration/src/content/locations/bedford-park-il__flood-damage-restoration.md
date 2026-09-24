@@ -7,10 +7,10 @@ primary_keyword: "flood damage restoration bedford park"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "4025b53a86b20c5f"
-generated_at: "2026-09-20T14:13:04.890256+00:00"
+plan_hash: "a39eedb4549d61a3"
+generated_at: "2026-09-24T17:27:58.241898+00:00"
 manual_override: false
-internal_links: ["/services/flood-damage-restoration/", "/service-areas/bedford-park-il/", "/service-areas/bedford-park-il/fire-damage-restoration/", "/service-areas/bedford-park-il/mold-remediation/", "/service-areas/berwyn-il/flood-damage-restoration/", "/service-areas/cicero-il/flood-damage-restoration/", "/contact/"]
+internal_links: ["/services/flood-damage-restoration/", "/service-areas/bedford-park-il/", "/service-areas/bedford-park-il/fire-damage-restoration/", "/service-areas/bedford-park-il/mold-remediation/", "/service-areas/berwyn-il/flood-damage-restoration/", "/service-areas/brookfield-il/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bedford Park", "url": "/service-areas/bedford-park-il/"}, {"name": "Flood Damage Restoration"}]
 faq: []
 area_slug: "bedford-park-il"

@@ -8,7 +8,7 @@ secondary_keywords: ["brookfield restoration company", "damage restoration brook
 search_intent: "local_commercial"
 priority: 4.8
 plan_hash: "c673ced8f8665605"
-generated_at: "2026-09-22T02:11:09.547879+00:00"
+generated_at: "2026-09-24T17:27:58.232451+00:00"
 manual_override: false
 internal_links: ["/service-areas/", "/contact/", "/service-areas/brookfield-il/fire-damage-restoration/", "/service-areas/brookfield-il/mold-remediation/", "/service-areas/brookfield-il/water-damage-restoration/", "/service-areas/brookfield-il/flood-damage-restoration/", "/service-areas/brookfield-il/sewage-cleanup/", "/service-areas/brookfield-il/smoke-damage-restoration/", "/service-areas/brookfield-il/storm-damage-restoration/", "/service-areas/brookfield-il/water-cleanup/", "/service-areas/brookfield-il/basement-flooding-cleanup/", "/service-areas/brookfield-il/burst-pipe-repair/", "/service-areas/brookfield-il/emergency-board-up-tarping/", "/service-areas/brookfield-il/odor-removal/", "/service-areas/brookfield-il/contents-restoration/", "/service-areas/bedford-park-il/", "/service-areas/berwyn-il/", "/service-areas/burbank-il/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Brookfield"}]

@@ -7,10 +7,10 @@ primary_keyword: "contents restoration & storage castle shannon"
 secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "dde9f73ef54407ce"
-generated_at: "2026-09-22T18:10:17.099590+00:00"
+plan_hash: "d413d4ba4c93e780"
+generated_at: "2026-09-24T17:23:44.552761+00:00"
 manual_override: false
-internal_links: ["/services/contents-restoration-storage/", "/service-areas/castle-shannon-pa/", "/service-areas/castle-shannon-pa/fire-damage-restoration/", "/service-areas/castle-shannon-pa/roofing/", "/service-areas/baldwin-pa/contents-restoration-storage/", "/service-areas/bethel-park-pa/contents-restoration-storage/", "/contact/"]
+internal_links: ["/services/contents-restoration-storage/", "/service-areas/castle-shannon-pa/", "/service-areas/castle-shannon-pa/fire-damage-restoration/", "/service-areas/castle-shannon-pa/roofing/", "/service-areas/allison-park-pa/contents-restoration-storage/", "/service-areas/baldwin-pa/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Castle Shannon", "url": "/service-areas/castle-shannon-pa/"}, {"name": "Contents Restoration & Storage"}]
 faq: []
 area_slug: "castle-shannon-pa"

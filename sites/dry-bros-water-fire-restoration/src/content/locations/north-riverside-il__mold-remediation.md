@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "431f8fe83cdf9aba"
-generated_at: "2026-09-20T19:36:52.612932+00:00"
+generated_at: "2026-09-24T17:27:58.255594+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/north-riverside-il/", "/service-areas/north-riverside-il/fire-damage-restoration/", "/service-areas/north-riverside-il/water-damage-restoration/", "/service-areas/bedford-park-il/mold-remediation/", "/service-areas/berwyn-il/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Riverside", "url": "/service-areas/north-riverside-il/"}, {"name": "Mold Remediation"}]

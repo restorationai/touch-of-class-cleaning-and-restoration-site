@@ -7,10 +7,10 @@ primary_keyword: "renovations, remodels and general contracting harmony grove"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "7a8ec74a6bf4fff0"
-generated_at: "2026-09-20T14:13:11.329644+00:00"
+plan_hash: "8414b69e2dc6e6b0"
+generated_at: "2026-09-24T17:22:06.413225+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/harmony-grove-ca/", "/service-areas/harmony-grove-ca/water-damage-restoration/", "/service-areas/harmony-grove-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/general-contracting/", "/service-areas/carlsbad-ca/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/harmony-grove-ca/", "/service-areas/harmony-grove-ca/water-damage-restoration/", "/service-areas/harmony-grove-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/general-contracting/", "/service-areas/camp-pendleton-mainside-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Harmony Grove", "url": "/service-areas/harmony-grove-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]
 faq: []
 area_slug: "harmony-grove-ca"

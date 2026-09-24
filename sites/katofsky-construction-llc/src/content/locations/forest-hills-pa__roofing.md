@@ -7,10 +7,10 @@ primary_keyword: "roofing installation and replacement forest hills"
 secondary_keywords: ["roofing contractor", "roof replacement", "new roof installation", "residential roofing", "roof repair"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "d9dd715d4608ad24"
-generated_at: "2026-09-23T22:09:55.966713+00:00"
+plan_hash: "25e4c3ec3fab9e8a"
+generated_at: "2026-09-24T17:23:44.563038+00:00"
 manual_override: false
-internal_links: ["/services/roofing/", "/service-areas/forest-hills-pa/", "/service-areas/forest-hills-pa/fire-damage-restoration/", "/service-areas/forest-hills-pa/sewage-cleanup/", "/service-areas/baldwin-pa/roofing/", "/service-areas/bethel-park-pa/roofing/", "/contact/"]
+internal_links: ["/services/roofing/", "/service-areas/forest-hills-pa/", "/service-areas/forest-hills-pa/fire-damage-restoration/", "/service-areas/forest-hills-pa/sewage-cleanup/", "/service-areas/allison-park-pa/roofing/", "/service-areas/baldwin-pa/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Forest Hills", "url": "/service-areas/forest-hills-pa/"}, {"name": "Roofing Installation and Replacement"}]
 faq: []
 area_slug: "forest-hills-pa"

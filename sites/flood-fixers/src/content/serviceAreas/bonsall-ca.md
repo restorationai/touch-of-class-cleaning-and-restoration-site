@@ -7,10 +7,10 @@ primary_keyword: "restoration services bonsall"
 secondary_keywords: ["bonsall restoration company", "damage restoration bonsall", "bonsall disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "37610926b8be39b0"
-generated_at: "2026-09-20T14:13:11.324357+00:00"
+plan_hash: "1ac07dbd4d63bbce"
+generated_at: "2026-09-24T17:22:06.403440+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/bonsall-ca/water-damage-restoration/", "/service-areas/bonsall-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/reconstruction/", "/service-areas/bonsall-ca/water-cleanup/", "/service-areas/bonsall-ca/basement-flooding-cleanup/", "/service-areas/bonsall-ca/burst-pipe-repair/", "/service-areas/bonsall-ca/general-contracting/", "/service-areas/carlsbad-ca/", "/service-areas/chula-vista-ca/", "/service-areas/el-cajon-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/bonsall-ca/water-damage-restoration/", "/service-areas/bonsall-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/reconstruction/", "/service-areas/bonsall-ca/water-cleanup/", "/service-areas/bonsall-ca/basement-flooding-cleanup/", "/service-areas/bonsall-ca/burst-pipe-repair/", "/service-areas/bonsall-ca/general-contracting/", "/service-areas/camp-pendleton-mainside-ca/", "/service-areas/camp-pendleton-south-ca/", "/service-areas/carlsbad-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bonsall"}]
 faq: []
 area_slug: "bonsall-ca"

@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "c40876c3b134ffd9"
-generated_at: "2026-09-23T14:11:24.709039+00:00"
+generated_at: "2026-09-24T17:23:55.850678+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration-storage/", "/service-areas/colorado-city-tx/", "/service-areas/colorado-city-tx/fire-damage-restoration/", "/service-areas/colorado-city-tx/mold-remediation/", "/service-areas/albany-tx/contents-restoration-storage/", "/service-areas/anson-tx/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Colorado City", "url": "/service-areas/colorado-city-tx/"}, {"name": "Contents Restoration & Storage"}]

@@ -7,10 +7,10 @@ primary_keyword: "contents restoration and storage bedford park"
 secondary_keywords: ["contents pack-out", "contents cleaning", "belongings restoration", "furniture restoration after fire", "contents storage"]
 search_intent: "local_service"
 priority: 3.5
-plan_hash: "50c6c0e5e37fb01c"
-generated_at: "2026-09-20T14:13:04.891594+00:00"
+plan_hash: "4b1bc4fb469bb6f6"
+generated_at: "2026-09-24T17:27:58.243168+00:00"
 manual_override: false
-internal_links: ["/services/contents-restoration/", "/service-areas/bedford-park-il/", "/service-areas/bedford-park-il/fire-damage-restoration/", "/service-areas/bedford-park-il/mold-remediation/", "/service-areas/berwyn-il/contents-restoration/", "/service-areas/cicero-il/contents-restoration/", "/contact/"]
+internal_links: ["/services/contents-restoration/", "/service-areas/bedford-park-il/", "/service-areas/bedford-park-il/fire-damage-restoration/", "/service-areas/bedford-park-il/mold-remediation/", "/service-areas/berwyn-il/contents-restoration/", "/service-areas/brookfield-il/contents-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bedford Park", "url": "/service-areas/bedford-park-il/"}, {"name": "Contents Restoration and Storage"}]
 faq: []
 area_slug: "bedford-park-il"

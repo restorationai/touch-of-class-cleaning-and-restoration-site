@@ -18,6 +18,10 @@ export const brand = {
   phone: "(325) 339-8723",
   phoneRaw: "+13253398723",
   hideMobileHeaderCall: false,
+  // A2P/SMS-registration legal entity. When set, the estimate forms render
+  // the carrier-compliant consent checkbox naming this entity (exact wording
+  // matters to reviewers — do not paraphrase). Empty = generic consent only.
+  smsConsentEntity: "",
   // Sitewide call-tracking number (2026-08-24). When BOTH fields are set,
   // a tiny inline script in BaseLayout swaps every visible phone mention
   // and tel: link to this number AFTER the page renders. The HTML source,
@@ -36,7 +40,7 @@ export const brand = {
   // copy). addressCity/addressState = where the business PHYSICALLY is.
   // They are usually the same and often diverge (DISS: Farrell PA office,
   // Youngstown OH target) — only the address pair may go in a PostalAddress.
-  addressCity: "ABILENE",
+  addressCity: "Abilene",
   addressState: "TX",
   streetAddress: "2241 S 41ST ST SUITE A",
   postalCode: "79602",
@@ -61,7 +65,7 @@ export const brand = {
   certifications: ["IICRC CERTIFIED FIRM", "OSHA TRAINED", "IICRC WRT (WATER)", "IICRC FSRT (FIRE & SMOKE)", "EPA LEAD-SAFE CERTIFIED", "MRC2262-RCO1798-TCST-HST-OCT"] as string[],
   trustBadges: ["IICRC Certified Firm", "Licensed & Insured", "24/7 Emergency Service", "Locally Owned & Operated"] as string[],
   jobPhotos: [] as string[],
-  sameAsUrls: ["https://www.facebook.com/aircarerestorationtx", "https://www.youtube.com/@AirCareRestorationLLC", "https://www.instagram.com/aircarerestoration/", "https://www.tiktok.com/@aircarerestoration", "https://www.linkedin.com/company/air-care-restoration/", "https://maps.google.com/maps?cid=8729630138777523223", "https://www.linkedin.com/in/sarha-boyd-45b165352"] as string[],
+  sameAsUrls: [] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "5.0",

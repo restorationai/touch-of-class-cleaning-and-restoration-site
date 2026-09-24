@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration rancho santa fe"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "fd1f1f24d48fc66b"
-generated_at: "2026-09-20T14:13:11.332361+00:00"
+plan_hash: "4af3fef0e13f870e"
+generated_at: "2026-09-24T17:22:06.415834+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/rancho-santa-fe-ca/", "/service-areas/rancho-santa-fe-ca/flood-damage-restoration/", "/service-areas/rancho-santa-fe-ca/reconstruction/", "/service-areas/bonsall-ca/water-damage-restoration/", "/service-areas/carlsbad-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/rancho-santa-fe-ca/", "/service-areas/rancho-santa-fe-ca/flood-damage-restoration/", "/service-areas/rancho-santa-fe-ca/reconstruction/", "/service-areas/bonsall-ca/water-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rancho Santa Fe", "url": "/service-areas/rancho-santa-fe-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "rancho-santa-fe-ca"

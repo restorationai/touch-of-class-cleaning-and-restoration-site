@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "f6a2c399dd0d6837"
-generated_at: "2026-09-20T19:36:52.613984+00:00"
+generated_at: "2026-09-24T17:27:58.256997+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/north-riverside-il/", "/service-areas/north-riverside-il/fire-damage-restoration/", "/service-areas/north-riverside-il/mold-remediation/", "/service-areas/bedford-park-il/emergency-board-up-tarping/", "/service-areas/berwyn-il/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Riverside", "url": "/service-areas/north-riverside-il/"}, {"name": "Emergency Board-Up and Tarping"}]

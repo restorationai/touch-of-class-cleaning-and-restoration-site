@@ -7,10 +7,10 @@ primary_keyword: "restoration services del mar"
 secondary_keywords: ["del mar restoration company", "damage restoration del mar", "del mar disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "343b46d2ec88f99a"
-generated_at: "2026-09-20T19:17:21.680569+00:00"
+plan_hash: "12ca3e373b12f304"
+generated_at: "2026-09-24T17:22:06.404106+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/del-mar-ca/water-damage-restoration/", "/service-areas/del-mar-ca/flood-damage-restoration/", "/service-areas/del-mar-ca/reconstruction/", "/service-areas/del-mar-ca/water-cleanup/", "/service-areas/del-mar-ca/basement-flooding-cleanup/", "/service-areas/del-mar-ca/burst-pipe-repair/", "/service-areas/del-mar-ca/general-contracting/", "/service-areas/bonsall-ca/", "/service-areas/carlsbad-ca/", "/service-areas/chula-vista-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/del-mar-ca/water-damage-restoration/", "/service-areas/del-mar-ca/flood-damage-restoration/", "/service-areas/del-mar-ca/reconstruction/", "/service-areas/del-mar-ca/water-cleanup/", "/service-areas/del-mar-ca/basement-flooding-cleanup/", "/service-areas/del-mar-ca/burst-pipe-repair/", "/service-areas/del-mar-ca/general-contracting/", "/service-areas/bonsall-ca/", "/service-areas/camp-pendleton-mainside-ca/", "/service-areas/camp-pendleton-south-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Del Mar"}]
 faq: []
 area_slug: "del-mar-ca"

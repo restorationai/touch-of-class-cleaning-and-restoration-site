@@ -4812,6 +4812,11 @@ def send_message(contact: dict, channel: str, body: str,
         live_claim = site_live_claim_violation(company, body)
         if live_claim:
             raise SendBlocked(live_claim)
+        # SITE-SHOWS CLAIM — "it shows <address> on the site" must be true
+        # in the page's VISIBLE text (DISS/Addi 2026-09-24).
+        shows_claim = site_shows_claim_violation(company, body)
+        if shows_claim:
+            raise SendBlocked(shows_claim)
         # INTERNAL LEAK — last line, same standing as the topic ban.
         leak = internal_leak_violation(body, fetch_internal_work(company["id"]),
                                        company)
@@ -5597,6 +5602,102 @@ _SITE_LIVE_CLAIM_RE = re.compile(
     r"(?:now\s+|officially\s+|actually\s+)?live\b"
     r"|\bsite\s+is\s+live\s+now\b",
     re.I)
+
+
+_SITE_SHOWS_CLAIM_RE = re.compile(
+    r"\b(?:site|website|page|homepage)\b[^!\n]{0,90}\b"
+    r"(?:shows?|displays?|now says|is (?:fixed|updated|changed|corrected))\b"
+    r"|\b(?:is|are) (?:fixed|updated|changed|corrected)\b[^!\n]{0,90}"
+    r"\b(?:site|website|page)\b"
+    r"|\b(?:it |now |page )?(?:shows?|displays?|says)\b[^!\n]{0,90}"
+    r"\bon (?:the|your|our) (?:site|website|page)\b", re.I)
+# A US street/city-state-zip literal the claim stakes itself on.
+_NAP_LITERAL_RE = re.compile(
+    r"\d{1,6}\s+[A-Za-z][A-Za-z .'\-]{2,40}"
+    r"(?:Avenue|Ave|Street|St|Road|Rd|Boulevard|Blvd|Drive|Dr|Lane|Ln|"
+    r"Way|Court|Ct|Highway|Hwy|Place|Pl)\b\.?"
+    r"|[A-Za-z .'\-]{3,30},\s*[A-Z]{2}\.?\s+\d{5}")
+
+
+def site_shows_claim_violation(company: dict, body: str) -> str | None:
+    """Refusal reason when body asserts the client's site VISIBLY shows a
+    specific NAP literal that the live page does not actually render
+    (DISS/Addi 2026-09-24: Monica texted 'it shows 712 Spearman Avenue,
+    Farrell, PA 16121 on the site' while the visible footer said
+    'Youngstown, OH 16121' — the schema JSON-LD said Farrell, which is
+    exactly how the false confirmation got past a data-level check).
+
+    Rule: claim-phrase + NAP literal in the body -> fetch the live site,
+    strip scripts/tags (VISIBLE text only — the schema must not vouch for
+    the footer), and require the literal present. Absent literal or no
+    claim-phrase -> not our case, allow. Fetch failure -> BLOCK (cannot
+    verify means cannot confirm)."""
+    if not _SITE_SHOWS_CLAIM_RE.search(body or ""):
+        return None
+    literals = _NAP_LITERAL_RE.findall(body or "")
+    if not literals:
+        return None
+    domain = ""
+    try:
+        cmap = json.loads((Path(__file__).resolve().parent.parent
+                           / "clients" / "company_map.json").read_text())
+        slug = next((k for k, v in cmap.items()
+                     if v == (company or {}).get("id")), None)
+        if slug:
+            cj = json.loads((Path(__file__).resolve().parent.parent
+                             / "clients" / f"{slug}.json").read_text())
+            domain = cj.get("domain") or ""
+    except Exception:  # noqa: BLE001
+        pass
+    if not domain:
+        return ("SITE-SHOWS CLAIM: body asserts the site shows "
+                f"{literals[0]!r} but I can't resolve the client's domain "
+                "to verify — rephrase without the claim or escalate.")
+    import urllib.request as _urlreq
+    pages = []
+    for path_ in ("/", "/contact/"):
+        try:
+            req = _urlreq.Request(
+                f"https://{domain}{path_}",
+                headers={"User-Agent": "rankai-claim-gate"})
+            pages.append(_urlreq.urlopen(req, timeout=15)
+                         .read().decode("utf-8", "ignore"))
+        except Exception:  # noqa: BLE001
+            continue
+    if not pages:
+        return ("SITE-SHOWS CLAIM: body asserts the live site shows "
+                f"{literals[0]!r} but the site could not be fetched to "
+                "verify — cannot confirm what we cannot see.")
+    visible = " ".join(
+        re.sub(r"<[^>]+>", " ",
+               re.sub(r"<script[^>]*>.*?</script>", " ", h,
+                      flags=re.S | re.I)) for h in pages)
+    norm = re.sub(r"[\s,]+", " ", visible).lower()
+    for lit in literals:
+        lit_n = re.sub(r"[\s,]+", " ", str(lit)).lower().strip(". ")
+        if lit_n not in norm:
+            return ("SITE-SHOWS CLAIM: body asserts the site shows "
+                    f"{str(lit)[:60]!r} but the live page's VISIBLE text "
+                    "does not contain it — the claim is false or not yet "
+                    "deployed. Verify render-level before confirming.")
+        # CONFLICT rule (the actual Addi shape): the claimed pairing WAS on
+        # the contact page while the footer still showed 'Youngstown, OH
+        # 16121'. A claim of "fixed" is only true when NO visible pairing
+        # with the same ZIP names a different city.
+        cm = re.search(r"([a-z .'\-]{3,30}) ([a-z]{2}) (\d{5})$", lit_n)
+        if cm:
+            city, zip_ = cm.group(1).strip(), cm.group(3)
+            for pm in re.finditer(r"([a-z .'\-]{3,40}) ([a-z]{2}) (%s)\b"
+                                  % zip_, norm):
+                blob = pm.group(1)
+                if city not in blob:
+                    return ("SITE-SHOWS CLAIM: the claimed address "
+                            f"{str(lit)[:50]!r} is on the site, but another "
+                            f"visible pairing '{blob.strip()[-30:]}, "
+                            f"{pm.group(2).upper()} {zip_}' contradicts it "
+                            "on the same site — do not confirm 'fixed' "
+                            "while conflicting addresses render.")
+    return None
 
 
 def site_live_claim_violation(company: dict, body: str,

@@ -8,7 +8,7 @@ secondary_keywords: ["water removal", "water extraction", "water cleanup", "stru
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "9b40cd9c66f29b8c"
-generated_at: "2026-09-21T14:13:07.675214+00:00"
+generated_at: "2026-09-24T17:27:58.259783+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/burbank-il/", "/service-areas/burbank-il/fire-damage-restoration/", "/service-areas/burbank-il/mold-remediation/", "/service-areas/bedford-park-il/water-damage-restoration/", "/service-areas/berwyn-il/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Burbank", "url": "/service-areas/burbank-il/"}, {"name": "Water Damage Restoration"}]

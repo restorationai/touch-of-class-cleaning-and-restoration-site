@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration munhall"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "f731e16097ecd3e1"
-generated_at: "2026-09-22T20:18:34.321903+00:00"
+plan_hash: "d01990330d8a66e1"
+generated_at: "2026-09-24T17:23:44.555268+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/munhall-pa/", "/service-areas/munhall-pa/roofing/", "/service-areas/munhall-pa/sewage-cleanup/", "/service-areas/baldwin-pa/fire-damage-restoration/", "/service-areas/bethel-park-pa/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/munhall-pa/", "/service-areas/munhall-pa/roofing/", "/service-areas/munhall-pa/sewage-cleanup/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/service-areas/baldwin-pa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Munhall", "url": "/service-areas/munhall-pa/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "munhall-pa"

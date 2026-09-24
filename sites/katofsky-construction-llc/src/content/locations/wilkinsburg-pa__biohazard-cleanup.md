@@ -7,10 +7,10 @@ primary_keyword: "biohazard cleanup wilkinsburg"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
 priority: 5.6
-plan_hash: "18447d92b0f135d3"
-generated_at: "2026-09-23T18:46:20.043641+00:00"
+plan_hash: "16dcfd2902d9073c"
+generated_at: "2026-09-24T17:23:44.561683+00:00"
 manual_override: false
-internal_links: ["/services/biohazard-cleanup/", "/service-areas/wilkinsburg-pa/", "/service-areas/wilkinsburg-pa/fire-damage-restoration/", "/service-areas/wilkinsburg-pa/roofing/", "/service-areas/baldwin-pa/biohazard-cleanup/", "/service-areas/bethel-park-pa/biohazard-cleanup/", "/contact/"]
+internal_links: ["/services/biohazard-cleanup/", "/service-areas/wilkinsburg-pa/", "/service-areas/wilkinsburg-pa/fire-damage-restoration/", "/service-areas/wilkinsburg-pa/roofing/", "/service-areas/allison-park-pa/biohazard-cleanup/", "/service-areas/baldwin-pa/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wilkinsburg", "url": "/service-areas/wilkinsburg-pa/"}, {"name": "Biohazard Cleanup"}]
 faq: []
 area_slug: "wilkinsburg-pa"

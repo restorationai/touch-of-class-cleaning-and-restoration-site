@@ -8,7 +8,7 @@ secondary_keywords: ["contents pack-out", "contents cleaning", "belongings resto
 search_intent: "local_service"
 priority: 3.5
 plan_hash: "b5df73933344674e"
-generated_at: "2026-09-20T14:13:04.900606+00:00"
+generated_at: "2026-09-24T17:27:58.251652+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration/", "/service-areas/lyons-il/", "/service-areas/lyons-il/fire-damage-restoration/", "/service-areas/lyons-il/mold-remediation/", "/service-areas/bedford-park-il/contents-restoration/", "/service-areas/berwyn-il/contents-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lyons", "url": "/service-areas/lyons-il/"}, {"name": "Contents Restoration and Storage"}]

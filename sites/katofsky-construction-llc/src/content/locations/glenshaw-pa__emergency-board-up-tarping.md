@@ -7,10 +7,10 @@ primary_keyword: "emergency board-up and tarping glenshaw"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
 priority: 4.9
-plan_hash: "1c01a67be960ebb9"
-generated_at: "2026-09-23T14:30:06.906816+00:00"
+plan_hash: "9e4d581a21b3bbd4"
+generated_at: "2026-09-24T17:23:44.558102+00:00"
 manual_override: false
-internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/glenshaw-pa/", "/service-areas/glenshaw-pa/fire-damage-restoration/", "/service-areas/glenshaw-pa/roofing/", "/service-areas/baldwin-pa/emergency-board-up-tarping/", "/service-areas/bethel-park-pa/emergency-board-up-tarping/", "/contact/"]
+internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/glenshaw-pa/", "/service-areas/glenshaw-pa/fire-damage-restoration/", "/service-areas/glenshaw-pa/roofing/", "/service-areas/allison-park-pa/emergency-board-up-tarping/", "/service-areas/baldwin-pa/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Glenshaw", "url": "/service-areas/glenshaw-pa/"}, {"name": "Emergency Board-Up and Tarping"}]
 faq: []
 area_slug: "glenshaw-pa"

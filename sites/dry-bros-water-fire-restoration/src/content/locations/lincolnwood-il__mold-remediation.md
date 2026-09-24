@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "efaaba60a8d034c6"
-generated_at: "2026-09-20T14:13:04.892146+00:00"
+generated_at: "2026-09-24T17:27:58.243611+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/lincolnwood-il/", "/service-areas/lincolnwood-il/fire-damage-restoration/", "/service-areas/lincolnwood-il/water-damage-restoration/", "/service-areas/bedford-park-il/mold-remediation/", "/service-areas/berwyn-il/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lincolnwood", "url": "/service-areas/lincolnwood-il/"}, {"name": "Mold Remediation"}]

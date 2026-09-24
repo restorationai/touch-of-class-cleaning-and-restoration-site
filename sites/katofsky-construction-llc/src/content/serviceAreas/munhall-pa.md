@@ -7,10 +7,10 @@ primary_keyword: "restoration services munhall"
 secondary_keywords: ["munhall restoration company", "damage restoration munhall", "munhall disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "9870f8c6ff5bc2dd"
-generated_at: "2026-09-22T20:18:34.317942+00:00"
+plan_hash: "4010f6a7a648033b"
+generated_at: "2026-09-24T17:23:44.534686+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/munhall-pa/fire-damage-restoration/", "/service-areas/munhall-pa/roofing/", "/service-areas/munhall-pa/sewage-cleanup/", "/service-areas/munhall-pa/biohazard-cleanup/", "/service-areas/munhall-pa/general-contracting/", "/service-areas/munhall-pa/emergency-board-up-tarping/", "/service-areas/munhall-pa/asbestos-abatement/", "/service-areas/munhall-pa/air-duct-cleaning/", "/service-areas/munhall-pa/contents-restoration-storage/", "/service-areas/munhall-pa/lead-paint-abatement/", "/service-areas/munhall-pa/carpet-cleaning/", "/service-areas/munhall-pa/upholstery-cleaning/", "/service-areas/baldwin-pa/", "/service-areas/bethel-park-pa/", "/service-areas/carnegie-pa/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/munhall-pa/fire-damage-restoration/", "/service-areas/munhall-pa/roofing/", "/service-areas/munhall-pa/sewage-cleanup/", "/service-areas/munhall-pa/biohazard-cleanup/", "/service-areas/munhall-pa/general-contracting/", "/service-areas/munhall-pa/emergency-board-up-tarping/", "/service-areas/munhall-pa/asbestos-abatement/", "/service-areas/munhall-pa/air-duct-cleaning/", "/service-areas/munhall-pa/contents-restoration-storage/", "/service-areas/munhall-pa/lead-paint-abatement/", "/service-areas/munhall-pa/carpet-cleaning/", "/service-areas/munhall-pa/upholstery-cleaning/", "/service-areas/allison-park-pa/", "/service-areas/baldwin-pa/", "/service-areas/bethel-park-pa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Munhall"}]
 faq: []
 area_slug: "munhall-pa"

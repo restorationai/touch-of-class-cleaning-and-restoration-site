@@ -7,10 +7,10 @@ primary_keyword: "emergency water cleanup national city"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "b49e9e91be4dd020"
-generated_at: "2026-09-20T14:13:11.328095+00:00"
+plan_hash: "0be62f0b973e7b6e"
+generated_at: "2026-09-24T17:22:06.411241+00:00"
 manual_override: false
-internal_links: ["/services/water-cleanup/", "/service-areas/national-city-ca/", "/service-areas/national-city-ca/water-damage-restoration/", "/service-areas/national-city-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/water-cleanup/", "/service-areas/carlsbad-ca/water-cleanup/", "/contact/"]
+internal_links: ["/services/water-cleanup/", "/service-areas/national-city-ca/", "/service-areas/national-city-ca/water-damage-restoration/", "/service-areas/national-city-ca/flood-damage-restoration/", "/service-areas/bonsall-ca/water-cleanup/", "/service-areas/camp-pendleton-mainside-ca/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "National City", "url": "/service-areas/national-city-ca/"}, {"name": "water-cleanup"}]
 faq: []
 area_slug: "national-city-ca"

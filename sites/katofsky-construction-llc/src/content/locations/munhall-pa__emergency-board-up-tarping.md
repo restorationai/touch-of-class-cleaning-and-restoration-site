@@ -7,10 +7,10 @@ primary_keyword: "emergency board-up and tarping munhall"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
 priority: 4.9
-plan_hash: "069a64f27cf4970b"
-generated_at: "2026-09-22T20:18:34.323293+00:00"
+plan_hash: "3d9ab4f8110cd4f3"
+generated_at: "2026-09-24T17:23:44.556326+00:00"
 manual_override: false
-internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/munhall-pa/", "/service-areas/munhall-pa/fire-damage-restoration/", "/service-areas/munhall-pa/roofing/", "/service-areas/baldwin-pa/emergency-board-up-tarping/", "/service-areas/bethel-park-pa/emergency-board-up-tarping/", "/contact/"]
+internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/munhall-pa/", "/service-areas/munhall-pa/fire-damage-restoration/", "/service-areas/munhall-pa/roofing/", "/service-areas/allison-park-pa/emergency-board-up-tarping/", "/service-areas/baldwin-pa/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Munhall", "url": "/service-areas/munhall-pa/"}, {"name": "Emergency Board-Up and Tarping"}]
 faq: []
 area_slug: "munhall-pa"

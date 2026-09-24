@@ -7,10 +7,10 @@ primary_keyword: "emergency water cleanup bonsall"
 secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", "emergency water cleanup", "flood water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "be62435197726cfb"
-generated_at: "2026-09-20T14:13:11.332195+00:00"
+plan_hash: "524c80a53abd63fe"
+generated_at: "2026-09-24T17:22:06.415660+00:00"
 manual_override: false
-internal_links: ["/services/water-cleanup/", "/service-areas/bonsall-ca/", "/service-areas/bonsall-ca/water-damage-restoration/", "/service-areas/bonsall-ca/flood-damage-restoration/", "/service-areas/carlsbad-ca/water-cleanup/", "/service-areas/chula-vista-ca/water-cleanup/", "/contact/"]
+internal_links: ["/services/water-cleanup/", "/service-areas/bonsall-ca/", "/service-areas/bonsall-ca/water-damage-restoration/", "/service-areas/bonsall-ca/flood-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/water-cleanup/", "/service-areas/camp-pendleton-south-ca/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bonsall", "url": "/service-areas/bonsall-ca/"}, {"name": "water-cleanup"}]
 faq: []
 area_slug: "bonsall-ca"

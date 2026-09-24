@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "15a28edf3da20406"
-generated_at: "2026-09-23T14:11:34.818942+00:00"
+generated_at: "2026-09-24T17:21:47.702700+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/sharpsville-pa/", "/service-areas/sharpsville-pa/fire-damage-restoration/", "/service-areas/sharpsville-pa/mold-remediation/", "/service-areas/austintown-oh/general-contracting/", "/service-areas/boardman-oh/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sharpsville", "url": "/service-areas/sharpsville-pa/"}, {"name": "Renovations, Remodels and General Contracting"}]

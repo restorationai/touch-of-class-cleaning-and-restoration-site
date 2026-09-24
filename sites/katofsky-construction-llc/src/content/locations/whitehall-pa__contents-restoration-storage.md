@@ -7,10 +7,10 @@ primary_keyword: "contents restoration & storage whitehall"
 secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "b713ca9051a6e7b4"
-generated_at: "2026-09-22T20:03:18.106392+00:00"
+plan_hash: "d03ba8a08af51b85"
+generated_at: "2026-09-24T17:23:44.554688+00:00"
 manual_override: false
-internal_links: ["/services/contents-restoration-storage/", "/service-areas/whitehall-pa/", "/service-areas/whitehall-pa/fire-damage-restoration/", "/service-areas/whitehall-pa/roofing/", "/service-areas/baldwin-pa/contents-restoration-storage/", "/service-areas/bethel-park-pa/contents-restoration-storage/", "/contact/"]
+internal_links: ["/services/contents-restoration-storage/", "/service-areas/whitehall-pa/", "/service-areas/whitehall-pa/fire-damage-restoration/", "/service-areas/whitehall-pa/roofing/", "/service-areas/allison-park-pa/contents-restoration-storage/", "/service-areas/baldwin-pa/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Whitehall", "url": "/service-areas/whitehall-pa/"}, {"name": "Contents Restoration & Storage"}]
 faq: []
 area_slug: "whitehall-pa"

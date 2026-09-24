@@ -7,10 +7,10 @@ primary_keyword: "biohazard cleanup munhall"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
 priority: 5.6
-plan_hash: "b03d1417a5dd74ca"
-generated_at: "2026-09-22T20:18:34.322694+00:00"
+plan_hash: "8dd23a038da97356"
+generated_at: "2026-09-24T17:23:44.555872+00:00"
 manual_override: false
-internal_links: ["/services/biohazard-cleanup/", "/service-areas/munhall-pa/", "/service-areas/munhall-pa/fire-damage-restoration/", "/service-areas/munhall-pa/roofing/", "/service-areas/baldwin-pa/biohazard-cleanup/", "/service-areas/bethel-park-pa/biohazard-cleanup/", "/contact/"]
+internal_links: ["/services/biohazard-cleanup/", "/service-areas/munhall-pa/", "/service-areas/munhall-pa/fire-damage-restoration/", "/service-areas/munhall-pa/roofing/", "/service-areas/allison-park-pa/biohazard-cleanup/", "/service-areas/baldwin-pa/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Munhall", "url": "/service-areas/munhall-pa/"}, {"name": "Biohazard Cleanup"}]
 faq: []
 area_slug: "munhall-pa"

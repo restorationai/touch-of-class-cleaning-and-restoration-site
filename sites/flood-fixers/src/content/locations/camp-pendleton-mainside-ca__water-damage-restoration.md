@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration camp pendleton mainside"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "ca92078cfc713f3f"
-generated_at: "2026-09-20T19:36:58.369105+00:00"
+plan_hash: "4f04a72ffbe0e6c0"
+generated_at: "2026-09-24T17:22:06.421698+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/", "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/reconstruction/", "/service-areas/bonsall-ca/water-damage-restoration/", "/service-areas/carlsbad-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/", "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/reconstruction/", "/service-areas/bonsall-ca/water-damage-restoration/", "/service-areas/camp-pendleton-south-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Camp Pendleton Mainside", "url": "/service-areas/camp-pendleton-mainside-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "camp-pendleton-mainside-ca"

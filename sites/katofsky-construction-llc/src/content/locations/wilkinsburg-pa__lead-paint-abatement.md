@@ -7,10 +7,10 @@ primary_keyword: "lead paint abatement wilkinsburg"
 secondary_keywords: ["lead paint removal", "lead paint testing", "lead-safe renovation", "lead paint remediation", "EPA RRP certified"]
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "e5891c2ff3684f1e"
-generated_at: "2026-09-23T18:46:20.043934+00:00"
+plan_hash: "30fb1f1a3b6baefc"
+generated_at: "2026-09-24T17:23:44.561943+00:00"
 manual_override: false
-internal_links: ["/services/lead-paint-abatement/", "/service-areas/wilkinsburg-pa/", "/service-areas/wilkinsburg-pa/fire-damage-restoration/", "/service-areas/wilkinsburg-pa/roofing/", "/service-areas/baldwin-pa/lead-paint-abatement/", "/service-areas/bethel-park-pa/lead-paint-abatement/", "/contact/"]
+internal_links: ["/services/lead-paint-abatement/", "/service-areas/wilkinsburg-pa/", "/service-areas/wilkinsburg-pa/fire-damage-restoration/", "/service-areas/wilkinsburg-pa/roofing/", "/service-areas/allison-park-pa/lead-paint-abatement/", "/service-areas/baldwin-pa/lead-paint-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wilkinsburg", "url": "/service-areas/wilkinsburg-pa/"}, {"name": "Lead Paint Abatement"}]
 faq: []
 area_slug: "wilkinsburg-pa"

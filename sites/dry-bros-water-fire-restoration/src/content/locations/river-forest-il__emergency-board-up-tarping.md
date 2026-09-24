@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "811ee1c60dc6df02"
-generated_at: "2026-09-20T14:13:04.895933+00:00"
+generated_at: "2026-09-24T17:27:58.247665+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/river-forest-il/", "/service-areas/river-forest-il/fire-damage-restoration/", "/service-areas/river-forest-il/mold-remediation/", "/service-areas/bedford-park-il/emergency-board-up-tarping/", "/service-areas/berwyn-il/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "River Forest", "url": "/service-areas/river-forest-il/"}, {"name": "Emergency Board-Up and Tarping"}]

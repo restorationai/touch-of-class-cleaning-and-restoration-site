@@ -7,10 +7,10 @@ primary_keyword: "renovations, remodels and general contracting bonsall"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "204a553722c28184"
-generated_at: "2026-09-20T14:13:11.332031+00:00"
+plan_hash: "c1cc6a19217ad69c"
+generated_at: "2026-09-24T17:22:06.415437+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/bonsall-ca/", "/service-areas/bonsall-ca/water-damage-restoration/", "/service-areas/bonsall-ca/flood-damage-restoration/", "/service-areas/carlsbad-ca/general-contracting/", "/service-areas/chula-vista-ca/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/bonsall-ca/", "/service-areas/bonsall-ca/water-damage-restoration/", "/service-areas/bonsall-ca/flood-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/general-contracting/", "/service-areas/camp-pendleton-south-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bonsall", "url": "/service-areas/bonsall-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]
 faq: []
 area_slug: "bonsall-ca"

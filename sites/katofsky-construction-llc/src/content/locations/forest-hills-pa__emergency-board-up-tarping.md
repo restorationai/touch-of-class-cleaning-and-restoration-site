@@ -7,10 +7,10 @@ primary_keyword: "emergency board-up and tarping forest hills"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
 priority: 4.9
-plan_hash: "373982ad073bd4fb"
-generated_at: "2026-09-23T22:09:55.967665+00:00"
+plan_hash: "456a3c16ae95a3ab"
+generated_at: "2026-09-24T17:23:44.563723+00:00"
 manual_override: false
-internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/forest-hills-pa/", "/service-areas/forest-hills-pa/fire-damage-restoration/", "/service-areas/forest-hills-pa/roofing/", "/service-areas/baldwin-pa/emergency-board-up-tarping/", "/service-areas/bethel-park-pa/emergency-board-up-tarping/", "/contact/"]
+internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/forest-hills-pa/", "/service-areas/forest-hills-pa/fire-damage-restoration/", "/service-areas/forest-hills-pa/roofing/", "/service-areas/allison-park-pa/emergency-board-up-tarping/", "/service-areas/baldwin-pa/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Forest Hills", "url": "/service-areas/forest-hills-pa/"}, {"name": "Emergency Board-Up and Tarping"}]
 faq: []
 area_slug: "forest-hills-pa"
