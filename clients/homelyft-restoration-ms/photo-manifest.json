@@ -1,6 +1,34 @@
 {
   "slug": "homelyft-restoration-ms",
   "assets": {
+    "crew:1790261618409-IMG_1745": {
+      "source": "crew",
+      "storage": "job-photos/1790261618409-IMG_1745.jpeg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785514205030/job-photos/1790261618409-IMG_1745.jpeg",
+      "width": 3088,
+      "height": 2316,
+      "bytes": 1978928,
+      "sha1": "fbd810c9798c32f5",
+      "exif": {
+        "taken_at": "2026:09:23 15:45:53",
+        "camera": "Apple iPhone 14 Pro Max"
+      },
+      "category": "crew",
+      "subject": "Two smiling crew members posing in front of branded van",
+      "quality": 62,
+      "slots": {
+        "hero": 18,
+        "team": 72,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Good brand visibility, but portrait crop and selfie angle limit hero use.",
+      "triaged_at": "2026-09-24T17:24:35Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipM0A5PqtjBwTcEMC5btgDAEJOpUmK2ChHe-hgrL": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipM0A5PqtjBwTcEMC5btgDAEJOpUmK2ChHe-hgrL.jpg",
@@ -7253,5 +7281,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-06T14:06:32Z"
+  "triaged_at": "2026-09-24T17:24:35Z"
 }
