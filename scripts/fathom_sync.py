@@ -640,7 +640,12 @@ def _appointment_anchor(m: dict) -> dict | None:
                              "title": e.get("title")})
     ids = {h["contact_id"] for h in hits}
     if len(ids) == 1:
-        return hits[0]
+        # One contact, possibly several calendars (Daniel Restum 2026-09-24:
+        # a kickoff AND a stale sales follow-up shared the 9:00 slot; dict
+        # order made "sales" win and the client got prospect handling).
+        # Client-calendar kinds outrank sales.
+        rank = {"kickoff": 0, "support": 1, "sales": 2}
+        return sorted(hits, key=lambda h: rank.get(h["kind"], 9))[0]
     if len(ids) > 1:
         # two bookings share the slot (e.g. Patti + a follow-up call at the
         # same 9am): the recording's calendar invitees name the real one
@@ -711,6 +716,96 @@ def handle_unmatched(m: dict, rid: str, title: str, when: str,
     except Exception:  # noqa: BLE001
         anchor = None
     kind = cls.get("kind") or "other"
+    # CLIENT OVERRIDE (Daniel Restum / RestoPros 2026-09-24): a meeting
+    # ANCHORED to the Kickoff or LIVE Support calendar is a CLIENT call by
+    # definition, even when bootstrap hasn't minted the slug yet — a
+    # brand-new client is indistinguishable from a prospect here, and the
+    # LLM read Daniel's kickoff as a sales prospect, so the prospect lane
+    # booked his follow-up on the SALES calendar. Same override when an
+    # invitee email matches an active companies row. The client lane books
+    # Live Support and flags the missing bootstrap; never the sales lane.
+    if (anchor and anchor.get("kind") in ("kickoff", "support")) or kind == "sales_prospect":
+        co = None
+        invitee_emails = []
+        for i in (m.get("calendar_invitees") or []):
+            e = ((i.get("email") if isinstance(i, dict) else str(i)) or "").strip().lower()
+            if "@" in e and not any(d in e for d in
+                                    ("restorationai.io", "getrestorationai.com",
+                                     "ignitesystems", "bdadigital.us")):
+                invitee_emails.append(e)
+        person_names = {str(p.get("name") or "").strip().lower()
+                        for p in (cls.get("people") or [])}
+        for i in (m.get("calendar_invitees") or []):
+            if isinstance(i, dict) and i.get("name"):
+                person_names.add(str(i["name"]).strip().lower())
+        try:
+            for e in invitee_emails:
+                rows = _sb("GET", "/rest/v1/companies?email=ilike."
+                           + urllib.parse.quote(e)
+                           + "&select=*&order=created_at.desc") or []
+                if rows:
+                    # a sales-signup stub named after the PERSON can share
+                    # the email with the real bootstrap row (Daniel Restum
+                    # stub vs RestoPros of Central Maryland) — prefer the
+                    # row that reads as a company, newest first.
+                    co = next((r for r in rows
+                               if str(r.get("name") or "").strip().lower()
+                               not in person_names), rows[0])
+                    break
+                # companies.email is the signup owner's — the invitee may be
+                # a synced CRM contact instead (Daniel: drestum@restopros.co
+                # lived on the contacts row, not the company row)
+                crows = _sb("GET", "/rest/v1/contacts?email=ilike."
+                            + urllib.parse.quote(e)
+                            + "&select=client_id&limit=1") or []
+                if crows and crows[0].get("client_id"):
+                    rows = _sb("GET", "/rest/v1/companies?id=eq."
+                               + str(crows[0]["client_id"]) + "&select=*") or []
+                    if rows:
+                        co = rows[0]
+                        break
+            if co is None and (cls.get("company_name") or "").strip():
+                frag = urllib.parse.quote(
+                    "*" + str(cls["company_name"]).strip().split()[0] + "*")
+                rows = _sb("GET", f"/rest/v1/companies?name=ilike.{frag}"
+                           "&select=*") or []
+                active = [r for r in rows if str(r.get("status") or "").lower()
+                          not in ("inactive", "cancelled", "canceled",
+                                  "suspended", "paused")]
+                if len(active) == 1:
+                    co = active[0]
+        except Exception as ex:  # noqa: BLE001
+            print(f"    client-override lookup warn: {str(ex)[:80]}")
+        anchored_client = anchor and anchor.get("kind") in ("kickoff", "support")
+        if co is not None or anchored_client:
+            if co is not None:
+                print(f"    CLIENT (not prospect): {co.get('name')} — "
+                      "running the client booking lane")
+                try:
+                    book_agreed_followup(co, co.get("name") or "unslugged", m,
+                                         title=title, dry_run=dry_run,
+                                         state=state)
+                except Exception as ex:  # noqa: BLE001
+                    print(f"    client booking warn: {str(ex)[:100]}")
+                if not dry_run:
+                    sb_insert_note(co["id"], (
+                        "[PIPELINE ALERT] client meeting matched no rank-ai "
+                        f"slug ({title!r} on {when}) — bootstrap missing for "
+                        f"{co.get('name')}. Meeting intel was NOT mined; "
+                        "bootstrap this client, then re-run: python3 "
+                        f"scripts/fathom_sync.py sync --send --since {when} "
+                        "--reprocess"))
+            else:
+                print("    kickoff/support-anchored meeting with NO companies "
+                      "row — flagged for Santino, prospect lane SKIPPED")
+                if not dry_run and anchor.get("contact_id"):
+                    sb_insert_note("CO-0000000000000", (
+                        f"[TODO-SANTINO] {title!r} on {when} sat on the "
+                        f"{anchor['kind']} calendar but matches no company "
+                        "row — check who this client is and bootstrap them."))
+            bookings[rid] = "client-anchored"
+            save_state(state, dry_run)
+            return
     if kind != "sales_prospect" and not (anchor and anchor["kind"] == "sales"):
         print(f"    classified {kind} — no prospect handling")
         bookings[rid] = f"unmatched-{kind}"
