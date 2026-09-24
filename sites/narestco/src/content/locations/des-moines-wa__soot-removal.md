@@ -8,7 +8,7 @@ secondary_keywords: ["soot cleaning", "soot residue removal", "post-fire soot cl
 search_intent: "local_specialty"
 priority: 4.9
 plan_hash: "722a8cbfa0185b69"
-generated_at: "2026-09-23T14:11:54.106950+00:00"
+generated_at: "2026-09-24T23:27:17.402984+00:00"
 manual_override: false
 internal_links: ["/services/soot-removal/", "/service-areas/des-moines-wa/", "/service-areas/des-moines-wa/fire-damage-restoration/", "/service-areas/des-moines-wa/mold-remediation/", "/service-areas/algona-wa/soot-removal/", "/service-areas/auburn-wa/soot-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Des Moines", "url": "/service-areas/des-moines-wa/"}, {"name": "Soot Removal"}]

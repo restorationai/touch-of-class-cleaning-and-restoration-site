@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "1f2adb270643d5db"
-generated_at: "2026-09-23T14:11:54.063475+00:00"
+generated_at: "2026-09-24T23:27:17.352886+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/renton-wa/", "/service-areas/renton-wa/fire-damage-restoration/", "/service-areas/renton-wa/mold-remediation/", "/service-areas/algona-wa/emergency-board-up-tarping/", "/service-areas/auburn-wa/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Renton", "url": "/service-areas/renton-wa/"}, {"name": "Emergency Board-Up and Tarping"}]

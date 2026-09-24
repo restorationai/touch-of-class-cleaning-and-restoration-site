@@ -8,7 +8,7 @@ secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed 
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "51ad7bbd4a8581de"
-generated_at: "2026-09-23T14:11:54.149112+00:00"
+generated_at: "2026-09-24T23:27:17.445869+00:00"
 manual_override: false
 internal_links: ["/services/frozen-pipe-restoration/", "/service-areas/seatac-wa/", "/service-areas/seatac-wa/fire-damage-restoration/", "/service-areas/seatac-wa/mold-remediation/", "/service-areas/algona-wa/frozen-pipe-restoration/", "/service-areas/auburn-wa/frozen-pipe-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "SeaTac", "url": "/service-areas/seatac-wa/"}, {"name": "Frozen Pipe Restoration"}]

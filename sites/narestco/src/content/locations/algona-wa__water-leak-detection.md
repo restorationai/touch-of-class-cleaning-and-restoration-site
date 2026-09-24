@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "727464b4e7ab682c"
-generated_at: "2026-09-23T14:11:54.127502+00:00"
+generated_at: "2026-09-24T23:27:17.423478+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/algona-wa/", "/service-areas/algona-wa/fire-damage-restoration/", "/service-areas/algona-wa/mold-remediation/", "/service-areas/auburn-wa/water-leak-detection/", "/service-areas/bellevue-wa/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Algona", "url": "/service-areas/algona-wa/"}, {"name": "Water Leak Detection"}]

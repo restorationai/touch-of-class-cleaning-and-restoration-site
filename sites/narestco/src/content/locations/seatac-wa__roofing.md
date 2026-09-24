@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "2fb672b989ad0f73"
-generated_at: "2026-09-23T14:11:54.151918+00:00"
+generated_at: "2026-09-24T23:27:17.448500+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/seatac-wa/", "/service-areas/seatac-wa/fire-damage-restoration/", "/service-areas/seatac-wa/mold-remediation/", "/service-areas/algona-wa/roofing/", "/service-areas/auburn-wa/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "SeaTac", "url": "/service-areas/seatac-wa/"}, {"name": "Roofing Installation and Replacement"}]

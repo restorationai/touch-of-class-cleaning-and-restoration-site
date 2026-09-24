@@ -8,7 +8,7 @@ secondary_keywords: ["crime scene cleaning", "forensic cleanup", "post-crime cle
 search_intent: "local_sensitive"
 priority: 4.2
 plan_hash: "3f1c8d6f60179ea4"
-generated_at: "2026-09-23T14:11:54.212805+00:00"
+generated_at: "2026-09-24T23:27:17.510150+00:00"
 manual_override: false
 internal_links: ["/services/crime-scene-cleanup/", "/service-areas/waller-wa/", "/service-areas/waller-wa/fire-damage-restoration/", "/service-areas/waller-wa/mold-remediation/", "/service-areas/algona-wa/crime-scene-cleanup/", "/service-areas/auburn-wa/crime-scene-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Waller", "url": "/service-areas/waller-wa/"}, {"name": "Crime Scene Cleanup"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "95ed023c227e5212"
-generated_at: "2026-09-23T14:11:54.179075+00:00"
+generated_at: "2026-09-24T23:27:17.476778+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/normandy-park-wa/", "/service-areas/normandy-park-wa/fire-damage-restoration/", "/service-areas/normandy-park-wa/mold-remediation/", "/service-areas/algona-wa/roofing/", "/service-areas/auburn-wa/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Normandy Park", "url": "/service-areas/normandy-park-wa/"}, {"name": "Roofing Installation and Replacement"}]

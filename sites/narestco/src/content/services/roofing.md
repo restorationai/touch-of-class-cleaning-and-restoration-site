@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 9.0
 plan_hash: "3d8bc0d00382aa94"
-generated_at: "2026-09-23T14:11:54.038254+00:00"
+generated_at: "2026-09-24T23:27:17.322003+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/algona-wa/roofing/", "/service-areas/auburn-wa/roofing/", "/service-areas/bellevue-wa/roofing/", "/service-areas/bremerton-wa/roofing/", "/service-areas/burien-wa/roofing/", "/service-areas/des-moines-wa/roofing/", "/service-areas/edgewood-wa/roofing/", "/service-areas/everett-wa/roofing/", "/service-areas/fife-wa/roofing/", "/service-areas/gig-harbor-wa/roofing/", "/service-areas/kent-wa/roofing/", "/service-areas/kirkland-wa/roofing/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Roofing Installation and Replacement"}]

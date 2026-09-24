@@ -76,6 +76,7 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 - [Storm Damage Restoration](https://narestco.com/services/storm-damage-restoration/)
 - [Trauma Scene Cleanup](https://narestco.com/services/trauma-scene-cleanup/)
 - [Unattended Death Cleanup](https://narestco.com/services/unattended-death-cleanup/)
+- [Vandalism Cleanup](https://narestco.com/services/vandalism-cleanup/)
 - [Emergency Water Cleanup](https://narestco.com/services/water-cleanup/)
 - [Water Damage Restoration](https://narestco.com/services/water-damage-restoration/)
 - [Water Leak Detection](https://narestco.com/services/water-leak-detection/)` / `- [Federal Way, WA](https://narestco.com/service-areas/federal-way-wa/)

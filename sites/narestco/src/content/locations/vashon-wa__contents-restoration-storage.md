@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "a40843757e900bd7"
-generated_at: "2026-09-23T14:11:54.183741+00:00"
+generated_at: "2026-09-24T23:27:17.481627+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration-storage/", "/service-areas/vashon-wa/", "/service-areas/vashon-wa/fire-damage-restoration/", "/service-areas/vashon-wa/mold-remediation/", "/service-areas/algona-wa/contents-restoration-storage/", "/service-areas/auburn-wa/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Vashon", "url": "/service-areas/vashon-wa/"}, {"name": "Contents Restoration & Storage"}]

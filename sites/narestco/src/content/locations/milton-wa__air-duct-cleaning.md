@@ -8,7 +8,7 @@ secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitizati
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "4be58e646fe0525e"
-generated_at: "2026-09-23T14:11:54.127677+00:00"
+generated_at: "2026-09-24T23:27:17.423768+00:00"
 manual_override: false
 internal_links: ["/services/air-duct-cleaning/", "/service-areas/milton-wa/", "/service-areas/milton-wa/fire-damage-restoration/", "/service-areas/milton-wa/mold-remediation/", "/service-areas/algona-wa/air-duct-cleaning/", "/service-areas/auburn-wa/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Milton", "url": "/service-areas/milton-wa/"}, {"name": "Air Duct Cleaning"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitizati
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "3ce0e15d5ad27e99"
-generated_at: "2026-09-23T14:11:54.065750+00:00"
+generated_at: "2026-09-24T23:27:17.355661+00:00"
 manual_override: false
 internal_links: ["/services/air-duct-cleaning/", "/service-areas/auburn-wa/", "/service-areas/auburn-wa/fire-damage-restoration/", "/service-areas/auburn-wa/mold-remediation/", "/service-areas/algona-wa/air-duct-cleaning/", "/service-areas/bellevue-wa/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Auburn", "url": "/service-areas/auburn-wa/"}, {"name": "Air Duct Cleaning"}]

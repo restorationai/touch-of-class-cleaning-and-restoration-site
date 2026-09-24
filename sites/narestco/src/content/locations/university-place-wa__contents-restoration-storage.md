@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "173b63fd2cda8f6e"
-generated_at: "2026-09-23T14:11:54.086349+00:00"
+generated_at: "2026-09-24T23:27:17.383144+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration-storage/", "/service-areas/university-place-wa/", "/service-areas/university-place-wa/fire-damage-restoration/", "/service-areas/university-place-wa/mold-remediation/", "/service-areas/algona-wa/contents-restoration-storage/", "/service-areas/auburn-wa/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "University Place", "url": "/service-areas/university-place-wa/"}, {"name": "Contents Restoration & Storage"}]

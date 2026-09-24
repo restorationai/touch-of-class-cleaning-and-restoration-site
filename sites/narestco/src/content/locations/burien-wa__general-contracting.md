@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "6d6cd569f035b7f4"
-generated_at: "2026-09-23T14:11:54.195185+00:00"
+generated_at: "2026-09-24T23:27:17.493047+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/burien-wa/", "/service-areas/burien-wa/fire-damage-restoration/", "/service-areas/burien-wa/mold-remediation/", "/service-areas/algona-wa/general-contracting/", "/service-areas/auburn-wa/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Burien", "url": "/service-areas/burien-wa/"}, {"name": "Renovations, Remodels and General Contracting"}]

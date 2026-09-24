@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "4f0e6672d569b8aa"
-generated_at: "2026-09-23T14:11:54.082254+00:00"
+generated_at: "2026-09-24T23:27:17.377567+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/bremerton-wa/", "/service-areas/bremerton-wa/fire-damage-restoration/", "/service-areas/bremerton-wa/mold-remediation/", "/service-areas/algona-wa/water-leak-detection/", "/service-areas/auburn-wa/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bremerton", "url": "/service-areas/bremerton-wa/"}, {"name": "Water Leak Detection"}]

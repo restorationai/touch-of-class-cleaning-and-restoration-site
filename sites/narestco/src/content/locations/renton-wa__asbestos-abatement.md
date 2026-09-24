@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "888e26e9b3a2bfe2"
-generated_at: "2026-09-23T14:11:54.062680+00:00"
+generated_at: "2026-09-24T23:27:17.351717+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/renton-wa/", "/service-areas/renton-wa/fire-damage-restoration/", "/service-areas/renton-wa/mold-remediation/", "/service-areas/algona-wa/asbestos-abatement/", "/service-areas/auburn-wa/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Renton", "url": "/service-areas/renton-wa/"}, {"name": "Asbestos Abatement"}]

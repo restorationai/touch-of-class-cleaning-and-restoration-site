@@ -8,7 +8,7 @@ secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic over
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "a8e46311ddf9d682"
-generated_at: "2026-09-23T14:11:54.197892+00:00"
+generated_at: "2026-09-24T23:27:17.495643+00:00"
 manual_override: false
 internal_links: ["/services/sewage-cleanup/", "/service-areas/burien-wa/", "/service-areas/burien-wa/fire-damage-restoration/", "/service-areas/burien-wa/mold-remediation/", "/service-areas/algona-wa/sewage-cleanup/", "/service-areas/auburn-wa/sewage-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Burien", "url": "/service-areas/burien-wa/"}, {"name": "Sewage Cleanup and Sanitization"}]

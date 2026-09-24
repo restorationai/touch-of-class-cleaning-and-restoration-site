@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 5.4
 plan_hash: "a75e35db739dbfd1"
-generated_at: "2026-09-23T14:11:54.036356+00:00"
+generated_at: "2026-09-24T23:27:17.319501+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/algona-wa/asbestos-abatement/", "/service-areas/auburn-wa/asbestos-abatement/", "/service-areas/bellevue-wa/asbestos-abatement/", "/service-areas/bremerton-wa/asbestos-abatement/", "/service-areas/burien-wa/asbestos-abatement/", "/service-areas/des-moines-wa/asbestos-abatement/", "/service-areas/edgewood-wa/asbestos-abatement/", "/service-areas/everett-wa/asbestos-abatement/", "/service-areas/fife-wa/asbestos-abatement/", "/service-areas/gig-harbor-wa/asbestos-abatement/", "/service-areas/kent-wa/asbestos-abatement/", "/service-areas/kirkland-wa/asbestos-abatement/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Asbestos Abatement"}]

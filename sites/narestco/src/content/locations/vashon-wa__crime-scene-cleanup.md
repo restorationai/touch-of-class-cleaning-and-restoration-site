@@ -8,7 +8,7 @@ secondary_keywords: ["crime scene cleaning", "forensic cleanup", "post-crime cle
 search_intent: "local_sensitive"
 priority: 4.2
 plan_hash: "3230795f23fd288f"
-generated_at: "2026-09-23T14:11:54.184167+00:00"
+generated_at: "2026-09-24T23:27:17.482201+00:00"
 manual_override: false
 internal_links: ["/services/crime-scene-cleanup/", "/service-areas/vashon-wa/", "/service-areas/vashon-wa/fire-damage-restoration/", "/service-areas/vashon-wa/mold-remediation/", "/service-areas/algona-wa/crime-scene-cleanup/", "/service-areas/auburn-wa/crime-scene-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Vashon", "url": "/service-areas/vashon-wa/"}, {"name": "Crime Scene Cleanup"}]

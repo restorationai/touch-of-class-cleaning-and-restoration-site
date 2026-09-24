@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "c5492b67c0ab0058"
-generated_at: "2026-09-23T14:11:54.071148+00:00"
+generated_at: "2026-09-24T23:27:17.362964+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/kirkland-wa/", "/service-areas/kirkland-wa/fire-damage-restoration/", "/service-areas/kirkland-wa/mold-remediation/", "/service-areas/algona-wa/roofing/", "/service-areas/auburn-wa/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Kirkland", "url": "/service-areas/kirkland-wa/"}, {"name": "Roofing Installation and Replacement"}]

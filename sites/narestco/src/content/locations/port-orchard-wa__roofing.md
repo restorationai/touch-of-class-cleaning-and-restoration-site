@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "06ec08cf323162c5"
-generated_at: "2026-09-23T14:11:54.084524+00:00"
+generated_at: "2026-09-24T23:27:17.380680+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/port-orchard-wa/", "/service-areas/port-orchard-wa/fire-damage-restoration/", "/service-areas/port-orchard-wa/mold-remediation/", "/service-areas/algona-wa/roofing/", "/service-areas/auburn-wa/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Port Orchard", "url": "/service-areas/port-orchard-wa/"}, {"name": "Roofing Installation and Replacement"}]

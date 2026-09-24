@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "2ee1f754f0c40c41"
-generated_at: "2026-09-23T14:11:54.050203+00:00"
+generated_at: "2026-09-24T23:27:17.335317+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/bellevue-wa/", "/service-areas/bellevue-wa/fire-damage-restoration/", "/service-areas/bellevue-wa/mold-remediation/", "/service-areas/algona-wa/emergency-board-up-tarping/", "/service-areas/auburn-wa/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bellevue", "url": "/service-areas/bellevue-wa/"}, {"name": "Emergency Board-Up and Tarping"}]

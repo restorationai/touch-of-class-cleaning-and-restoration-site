@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "def8a1b6a2cdbdbb"
-generated_at: "2026-09-23T14:11:54.085554+00:00"
+generated_at: "2026-09-24T23:27:17.381940+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/port-orchard-wa/", "/service-areas/port-orchard-wa/fire-damage-restoration/", "/service-areas/port-orchard-wa/mold-remediation/", "/service-areas/algona-wa/water-leak-detection/", "/service-areas/auburn-wa/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Port Orchard", "url": "/service-areas/port-orchard-wa/"}, {"name": "Water Leak Detection"}]

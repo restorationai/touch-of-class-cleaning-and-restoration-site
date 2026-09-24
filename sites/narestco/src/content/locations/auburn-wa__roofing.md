@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "b3b0031845415daa"
-generated_at: "2026-09-23T14:11:54.067849+00:00"
+generated_at: "2026-09-24T23:27:17.358520+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/auburn-wa/", "/service-areas/auburn-wa/fire-damage-restoration/", "/service-areas/auburn-wa/mold-remediation/", "/service-areas/algona-wa/roofing/", "/service-areas/bellevue-wa/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Auburn", "url": "/service-areas/auburn-wa/"}, {"name": "Roofing Installation and Replacement"}]

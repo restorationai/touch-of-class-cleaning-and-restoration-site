@@ -24,26 +24,26 @@
   },
   "status": "active",
   "created_at": "2026-05-10T03:18:58.761481+00:00",
-  "updated_at": "2026-09-24T10:29:20.157119+00:00",
+  "updated_at": "2026-09-24T23:27:18.142974+00:00",
   "plan_status": "planned",
   "plan": {
     "template": "restoration",
     "template_version": "0.3.0",
-    "url_count": 980,
-    "generated_at": "2026-09-23T14:11:52.964993+00:00"
+    "url_count": 1010,
+    "generated_at": "2026-09-24T23:27:16.072833+00:00"
   },
   "build": {
-    "scaffolded_at": "2026-05-13T22:59:47.536189+00:00",
+    "scaffolded_at": "2026-09-24T23:27:18.142842+00:00",
     "github_repo": "restorationai/narestco-site",
     "pages_project": "rankai-narestco",
     "starter_version": "0.1.0",
-    "url_count": 229,
-    "pages_status": "created",
+    "url_count": 1010,
+    "pages_status": "exists",
     "last_rendered_at": "2026-07-15T05:38:19.287586+00:00",
     "last_pushed_main_at": "2026-09-24T10:29:20.157102+00:00",
     "last_pushed_staging_at": "2026-09-14T16:03:52.203683+00:00"
   },
-  "build_status": "pushed_main",
+  "build_status": "scaffolded",
   "cut_over_at": "2026-05-17T22:11:55+00:00",
   "deploy_url": "https://narestco.com",
   "audit": {

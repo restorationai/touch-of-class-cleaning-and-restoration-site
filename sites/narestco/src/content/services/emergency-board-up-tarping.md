@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "733e81d0de46493c"
-generated_at: "2026-09-23T14:11:54.037211+00:00"
+generated_at: "2026-09-24T23:27:17.320735+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/algona-wa/emergency-board-up-tarping/", "/service-areas/auburn-wa/emergency-board-up-tarping/", "/service-areas/bellevue-wa/emergency-board-up-tarping/", "/service-areas/bremerton-wa/emergency-board-up-tarping/", "/service-areas/burien-wa/emergency-board-up-tarping/", "/service-areas/des-moines-wa/emergency-board-up-tarping/", "/service-areas/edgewood-wa/emergency-board-up-tarping/", "/service-areas/everett-wa/emergency-board-up-tarping/", "/service-areas/fife-wa/emergency-board-up-tarping/", "/service-areas/gig-harbor-wa/emergency-board-up-tarping/", "/service-areas/kent-wa/emergency-board-up-tarping/", "/service-areas/kirkland-wa/emergency-board-up-tarping/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Emergency Board-Up and Tarping"}]

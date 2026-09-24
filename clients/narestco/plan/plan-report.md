@@ -1,20 +1,20 @@
 # Site Plan Report — National Restoration Construction
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-23T14:11:52.964302+00:00
+- Generated: 2026-09-24T23:27:16.072035+00:00
 - Domain: `narestco.com`
-- Services selected: 31 of 65 catalog entries
+- Services selected: 32 of 65 catalog entries
 - Service areas: 30
 - Cross-product enabled: True
-- Total URLs: **980**
-- Total internal links: 7994 (avg 8.2 per page)
+- Total URLs: **1010**
+- Total internal links: 8242 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 899 |
-| `service-landing` | 31 |
+| `service-area-service` | 928 |
+| `service-landing` | 32 |
 | `service-area` | 29 |
 | `blog-post` | 12 |
 | `legal` | 3 |
@@ -55,6 +55,7 @@
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `trauma-scene-cleanup` — Trauma Scene Cleanup (specialty, priority 7)
 - `unattended-death-cleanup` — Unattended Death Cleanup (specialty, priority 6)
+- `vandalism-cleanup` — Vandalism Cleanup (specialty, priority 5)
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 - `water-leak-detection` — Water Leak Detection (core, priority 7)

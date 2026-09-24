@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "04c8f4f9a22e180d"
-generated_at: "2026-09-23T14:11:54.049391+00:00"
+generated_at: "2026-09-24T23:27:17.334139+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/bellevue-wa/", "/service-areas/bellevue-wa/fire-damage-restoration/", "/service-areas/bellevue-wa/mold-remediation/", "/service-areas/algona-wa/asbestos-abatement/", "/service-areas/auburn-wa/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bellevue", "url": "/service-areas/bellevue-wa/"}, {"name": "Asbestos Abatement"}]

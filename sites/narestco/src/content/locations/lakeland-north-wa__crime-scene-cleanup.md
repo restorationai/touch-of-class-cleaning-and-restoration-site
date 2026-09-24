@@ -8,7 +8,7 @@ secondary_keywords: ["crime scene cleaning", "forensic cleanup", "post-crime cle
 search_intent: "local_sensitive"
 priority: 4.2
 plan_hash: "19ce5c4ba2556564"
-generated_at: "2026-09-23T14:11:54.091180+00:00"
+generated_at: "2026-09-24T23:27:17.389015+00:00"
 manual_override: false
 internal_links: ["/services/crime-scene-cleanup/", "/service-areas/lakeland-north-wa/", "/service-areas/lakeland-north-wa/fire-damage-restoration/", "/service-areas/lakeland-north-wa/mold-remediation/", "/service-areas/algona-wa/crime-scene-cleanup/", "/service-areas/auburn-wa/crime-scene-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lakeland North", "url": "/service-areas/lakeland-north-wa/"}, {"name": "Crime Scene Cleanup"}]

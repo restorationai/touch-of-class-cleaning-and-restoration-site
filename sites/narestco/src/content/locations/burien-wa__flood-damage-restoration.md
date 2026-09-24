@@ -8,7 +8,7 @@ secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restorati
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "9a23ed0fe591223d"
-generated_at: "2026-09-23T14:11:54.194571+00:00"
+generated_at: "2026-09-24T23:27:17.492464+00:00"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/service-areas/burien-wa/", "/service-areas/burien-wa/fire-damage-restoration/", "/service-areas/burien-wa/mold-remediation/", "/service-areas/algona-wa/flood-damage-restoration/", "/service-areas/auburn-wa/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Burien", "url": "/service-areas/burien-wa/"}, {"name": "Flood Damage Restoration"}]
