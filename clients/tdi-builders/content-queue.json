@@ -319,7 +319,11 @@
     },
     {
       "id": "2026-09-15-new-home-construction-roseville",
+<<<<<<< HEAD
       "status": "published",
+=======
+      "status": "written",
+>>>>>>> 8dd499549 (Content writer: publish new home construction roseville for tdi-builders)
       "queued_at": "2026-09-15T14:24:35Z",
       "priority": 1,
       "prioritized": true,
@@ -330,6 +334,7 @@
       "target_word_count": 1400,
       "city_anchor": "roseville-ca",
       "source": "gameplan-2026-09-5 (dev-agent)",
+<<<<<<< HEAD
       "written_at": "2026-09-24T20:23:43Z",
       "post_url": "https://tdiusa.com/blog/new-home-construction-roseville/",
       "published_verified_at": "2026-09-24T20:24:03Z"
@@ -353,15 +358,43 @@
       ],
       "suggested_slug": "how-much-does-it-cost-to-remodel-a-house-sacramento",
       "suggested_title": "How much does it cost to remodel a house in Sacramento (2026 budget ranges)",
+=======
+      "written_at": "2026-09-24T21:15:07Z",
+      "post_url": "https://tdiusa.com/blog/new-home-construction-roseville/"
+    },
+    {
+      "id": "2026-09-24-cost-to-remodel-a-house-sacramento",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:11:18Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "cost to remodel a house",
+      "intent": "commercial",
+      "volume": 2400,
+      "kd": 16,
+      "fan_out_cluster": [
+        "home remodel cost per square foot",
+        "how much does a home remodel cost in sacramento",
+        "how much do remodeling contractors charge",
+        "how much deposit can a contractor ask for in california",
+        "what should be in a home remodeling contract"
+      ],
+      "suggested_slug": "cost-to-remodel-a-house-sacramento",
+      "suggested_title": "Cost to remodel a house in Sacramento: real numbers for 2026",
+>>>>>>> 8dd499549 (Content writer: publish new home construction roseville for tdi-builders)
       "target_word_count": 1600,
       "internal_link_targets": [
         "/services/home-remodeling/",
         "/services/kitchen-remodeling/",
         "/services/bathroom-remodeling/",
+<<<<<<< HEAD
         "/services/room-addition/",
         "/blog/kitchen-remodel-cost-breakdown/",
         "/blog/how-to-plan-a-home-remodel/",
         "/contact/"
+=======
+        "/services/room-addition/"
+>>>>>>> 8dd499549 (Content writer: publish new home construction roseville for tdi-builders)
       ],
       "service_tags": [
         "home-remodeling",
@@ -371,6 +404,7 @@
       ],
       "city_anchor": "sacramento-ca",
       "external_authority_candidates": [
+<<<<<<< HEAD
         "https://www.cslb.ca.gov/",
         "https://www.nahb.org/"
       ],
@@ -380,6 +414,54 @@
       "id": "2026-09-24-design-build-vs-general-contractor-folsom",
       "status": "queued",
       "queued_at": "2026-09-24T12:00:00Z",
+=======
+        "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/",
+        "https://www.remodeling.hw.net/cost-vs-value/"
+      ],
+      "notes": "Lead with a cost-per-square-foot table by remodel scope (cosmetic, mid-range, full gut). Cover older Sacramento housing stock and concealed-condition allowances, and the CA deposit cap ($1,000 or 10%, whichever is less). Link the kitchen cost breakdown post rather than duplicating it.",
+      "source": "keyword-researcher seed=remodeling contractor"
+    },
+    {
+      "id": "2026-09-24-what-is-a-change-order-in-construction-folsom",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:11:18Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what is a change order in construction",
+      "intent": "informational",
+      "volume": 720,
+      "kd": 26,
+      "fan_out_cluster": [
+        "what should be in a home remodeling contract",
+        "how change orders are priced",
+        "written change order requirements in california",
+        "what conditions are excluded from a remodeling estimate",
+        "how to avoid remodel cost overruns"
+      ],
+      "suggested_slug": "what-is-a-change-order-in-construction-folsom",
+      "suggested_title": "What is a change order in construction? A guide for Folsom homeowners",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/home-remodeling/",
+        "/services/general-contracting/",
+        "/blog/questions-to-ask-before-signing-contract/"
+      ],
+      "service_tags": [
+        "home-remodeling",
+        "general-contracting"
+      ],
+      "city_anchor": "folsom-ca",
+      "external_authority_candidates": [
+        "https://www2.cslb.ca.gov/Consumers/Hire_A_Contractor/Contracts_And_Binding_Agreements.aspx"
+      ],
+      "notes": "ChatGPT decomposition of the seed flagged change orders as a top remodel cost driver. Show a worked example (original price, change, added cost, new total). Cite the CSLB rule that scope and price changes must be in a signed written change order.",
+      "source": "keyword-researcher seed=remodeling contractor"
+    },
+    {
+      "id": "2026-09-24-design-build-vs-general-contractor-rocklin",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:11:18Z",
+>>>>>>> 8dd499549 (Content writer: publish new home construction roseville for tdi-builders)
       "written_at": null,
       "post_url": null,
       "primary_keyword": "design build vs general contractor",
@@ -387,6 +469,7 @@
       "volume": 50,
       "kd": 0,
       "fan_out_cluster": [
+<<<<<<< HEAD
         "general contractor vs remodeling contractor",
         "what does a remodeling contractor do",
         "how to choose a remodeling contractor",
@@ -413,6 +496,32 @@
         "https://dbia.org/"
       ],
       "notes": "Comparison post: KD 0 with steady volume. Explain design-bid-build vs design-build vs a remodeling contractor in plain terms with a side-by-side table (who designs, who holds the contract, change-order risk, typical timeline). Cover the 'general contractor vs remodeling contractor' question in its own H2 since it had no measurable Google volume but surfaced in the AI decomposition. Link to the existing what-does-a-general-contractor-do and choosing-a-general-contractor posts rather than repeating them."
+=======
+        "remodeling contractor vs general contractor",
+        "what does a remodeling contractor do",
+        "how many bids should i get for a remodel",
+        "what is a b general building contractor"
+      ],
+      "suggested_slug": "design-build-vs-general-contractor-rocklin",
+      "suggested_title": "Design build vs general contractor: which fits your Rocklin remodel",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/general-contracting/",
+        "/services/home-remodeling/",
+        "/services/room-addition/"
+      ],
+      "service_tags": [
+        "general-contracting",
+        "home-remodeling",
+        "room-addition"
+      ],
+      "city_anchor": "rocklin-ca",
+      "external_authority_candidates": [
+        "https://www.cslb.ca.gov/consumers/hire_a_contractor/What_Kind_Of_Contractor.aspx"
+      ],
+      "notes": "KD 0 decision-stage query. Compare single-contract design-build against design-bid-build with a separate architect. Explain the CSLB B General Building classification for multi-trade remodels. Keep it vendor-neutral.",
+      "source": "keyword-researcher seed=remodeling contractor"
+>>>>>>> 8dd499549 (Content writer: publish new home construction roseville for tdi-builders)
     }
   ]
 }
