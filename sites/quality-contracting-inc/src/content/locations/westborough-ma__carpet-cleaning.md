@@ -8,7 +8,7 @@ secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "ca
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "13d2f494b932a39b"
-generated_at: "2026-09-23T14:11:58.469710+00:00"
+generated_at: "2026-09-24T23:31:33.012120+00:00"
 manual_override: false
 internal_links: ["/services/carpet-cleaning/", "/service-areas/westborough-ma/", "/service-areas/westborough-ma/fire-damage-restoration/", "/service-areas/westborough-ma/mold-remediation/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/east-douglas-ma/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Westborough", "url": "/service-areas/westborough-ma/"}, {"name": "Carpet Cleaning"}]

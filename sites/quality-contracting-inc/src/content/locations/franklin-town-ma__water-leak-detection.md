@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "f095d39c7b40c7b8"
-generated_at: "2026-09-23T14:11:58.566072+00:00"
+generated_at: "2026-09-24T23:31:33.133683+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/franklin-town-ma/", "/service-areas/franklin-town-ma/fire-damage-restoration/", "/service-areas/franklin-town-ma/mold-remediation/", "/service-areas/bellingham-ma/water-leak-detection/", "/service-areas/east-douglas-ma/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Franklin Town", "url": "/service-areas/franklin-town-ma/"}, {"name": "Water Leak Detection"}]

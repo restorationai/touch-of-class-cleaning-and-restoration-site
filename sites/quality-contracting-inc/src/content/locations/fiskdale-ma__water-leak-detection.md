@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "d4889e2fdf400395"
-generated_at: "2026-09-23T14:11:58.529897+00:00"
+generated_at: "2026-09-24T23:31:33.090195+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/fiskdale-ma/", "/service-areas/fiskdale-ma/fire-damage-restoration/", "/service-areas/fiskdale-ma/mold-remediation/", "/service-areas/bellingham-ma/water-leak-detection/", "/service-areas/east-douglas-ma/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fiskdale", "url": "/service-areas/fiskdale-ma/"}, {"name": "Water Leak Detection"}]

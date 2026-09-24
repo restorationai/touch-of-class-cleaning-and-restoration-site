@@ -228,6 +228,16 @@
     ],
     "missing_stubs": []
   },
+  "/services/vandalism-cleanup/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/services/water-damage-restoration/": {
     "archetype": "service-landing",
     "stubs": [
@@ -671,6 +681,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/worcester-ma/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/worcester-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -862,6 +882,16 @@
     "missing_stubs": []
   },
   "/service-areas/shrewsbury-ma/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/shrewsbury-ma/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1071,6 +1101,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/westborough-ma/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/westborough-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1262,6 +1302,16 @@
     "missing_stubs": []
   },
   "/service-areas/southborough-ma/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/southborough-ma/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1471,6 +1521,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/hopkinton-ma/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/hopkinton-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1662,6 +1722,16 @@
     "missing_stubs": []
   },
   "/service-areas/framingham-ma/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/framingham-ma/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1871,6 +1941,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/natick-ma/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/natick-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2062,6 +2142,16 @@
     "missing_stubs": []
   },
   "/service-areas/wellesley-ma/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/wellesley-ma/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2271,6 +2361,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/needham-ma/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/needham-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2462,6 +2562,16 @@
     "missing_stubs": []
   },
   "/service-areas/newton-ma/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/newton-ma/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2671,6 +2781,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/weston-ma/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/weston-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2862,6 +2982,16 @@
     "missing_stubs": []
   },
   "/service-areas/oxford-ma/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oxford-ma/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3071,6 +3201,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/whitinsville-ma/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/whitinsville-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3262,6 +3402,16 @@
     "missing_stubs": []
   },
   "/service-areas/east-douglas-ma/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/east-douglas-ma/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3471,6 +3621,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/northborough-ma/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/northborough-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3662,6 +3822,16 @@
     "missing_stubs": []
   },
   "/service-areas/southbridge-town-ma/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/southbridge-town-ma/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3871,6 +4041,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/sturbridge-ma/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/sturbridge-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4062,6 +4242,16 @@
     "missing_stubs": []
   },
   "/service-areas/fiskdale-ma/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fiskdale-ma/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4271,6 +4461,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/milford-ma/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/milford-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4462,6 +4662,16 @@
     "missing_stubs": []
   },
   "/service-areas/marlborough-ma/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/marlborough-ma/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4671,6 +4881,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/hudson-ma/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/hudson-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4862,6 +5082,16 @@
     "missing_stubs": []
   },
   "/service-areas/bellingham-ma/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/bellingham-ma/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5071,6 +5301,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/ware-ma/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/ware-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5262,6 +5502,16 @@
     "missing_stubs": []
   },
   "/service-areas/leominster-ma/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/leominster-ma/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5471,6 +5721,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/franklin-town-ma/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/franklin-town-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5671,6 +5931,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/palmer-town-ma/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/palmer-town-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5862,6 +6132,16 @@
     "missing_stubs": []
   },
   "/service-areas/maynard-ma/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/maynard-ma/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

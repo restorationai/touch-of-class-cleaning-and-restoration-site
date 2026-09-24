@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "a738bca57ac2c063"
-generated_at: "2026-09-23T14:11:58.512184+00:00"
+generated_at: "2026-09-24T23:31:33.067861+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/northborough-ma/", "/service-areas/northborough-ma/mold-remediation/", "/service-areas/northborough-ma/roofing/", "/service-areas/bellingham-ma/fire-damage-restoration/", "/service-areas/east-douglas-ma/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Northborough", "url": "/service-areas/northborough-ma/"}, {"name": "Fire Damage Restoration"}]

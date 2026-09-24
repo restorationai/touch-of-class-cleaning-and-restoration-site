@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "021bf5b3c78a0d27"
-generated_at: "2026-09-23T14:11:58.570080+00:00"
+generated_at: "2026-09-24T23:31:33.138745+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/palmer-town-ma/", "/service-areas/palmer-town-ma/fire-damage-restoration/", "/service-areas/palmer-town-ma/mold-remediation/", "/service-areas/bellingham-ma/roofing/", "/service-areas/east-douglas-ma/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Palmer Town", "url": "/service-areas/palmer-town-ma/"}, {"name": "Roofing Installation and Replacement"}]

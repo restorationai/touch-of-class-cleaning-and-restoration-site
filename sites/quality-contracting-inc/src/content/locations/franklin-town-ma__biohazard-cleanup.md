@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "06d74a637bfa20a1"
-generated_at: "2026-09-23T14:11:58.561911+00:00"
+generated_at: "2026-09-24T23:31:33.128799+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/franklin-town-ma/", "/service-areas/franklin-town-ma/fire-damage-restoration/", "/service-areas/franklin-town-ma/mold-remediation/", "/service-areas/bellingham-ma/biohazard-cleanup/", "/service-areas/east-douglas-ma/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Franklin Town", "url": "/service-areas/franklin-town-ma/"}, {"name": "Biohazard Cleanup"}]

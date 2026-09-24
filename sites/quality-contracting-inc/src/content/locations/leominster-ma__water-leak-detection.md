@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "d39f1dac72481524"
-generated_at: "2026-09-23T14:11:58.560877+00:00"
+generated_at: "2026-09-24T23:31:33.127635+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/leominster-ma/", "/service-areas/leominster-ma/fire-damage-restoration/", "/service-areas/leominster-ma/mold-remediation/", "/service-areas/bellingham-ma/water-leak-detection/", "/service-areas/east-douglas-ma/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Leominster", "url": "/service-areas/leominster-ma/"}, {"name": "Water Leak Detection"}]

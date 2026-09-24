@@ -8,7 +8,7 @@ secondary_keywords: ["roof tarping", "fire damage board up", "broken window boar
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "70d3da7104f10be5"
-generated_at: "2026-09-23T14:11:58.511696+00:00"
+generated_at: "2026-09-24T23:31:33.067271+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/northborough-ma/", "/service-areas/northborough-ma/fire-damage-restoration/", "/service-areas/northborough-ma/mold-remediation/", "/service-areas/bellingham-ma/emergency-board-up-tarping/", "/service-areas/east-douglas-ma/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Northborough", "url": "/service-areas/northborough-ma/"}, {"name": "Emergency Board-Up and Tarping"}]

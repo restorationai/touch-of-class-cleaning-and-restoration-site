@@ -8,7 +8,7 @@ secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "ca
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "eafc61600ff8b517"
-generated_at: "2026-09-23T14:11:58.526127+00:00"
+generated_at: "2026-09-24T23:31:33.085525+00:00"
 manual_override: false
 internal_links: ["/services/carpet-cleaning/", "/service-areas/fiskdale-ma/", "/service-areas/fiskdale-ma/fire-damage-restoration/", "/service-areas/fiskdale-ma/mold-remediation/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/east-douglas-ma/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fiskdale", "url": "/service-areas/fiskdale-ma/"}, {"name": "Carpet Cleaning"}]

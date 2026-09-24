@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "046a9a4e2a173d36"
-generated_at: "2026-09-23T14:11:58.517145+00:00"
+generated_at: "2026-09-24T23:31:33.073638+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/southbridge-town-ma/", "/service-areas/southbridge-town-ma/fire-damage-restoration/", "/service-areas/southbridge-town-ma/mold-remediation/", "/service-areas/bellingham-ma/emergency-plumbing/", "/service-areas/east-douglas-ma/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Southbridge Town", "url": "/service-areas/southbridge-town-ma/"}, {"name": "Emergency Plumbing"}]

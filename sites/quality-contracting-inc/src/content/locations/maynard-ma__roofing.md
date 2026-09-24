@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "408b68a234373639"
-generated_at: "2026-09-23T14:11:58.575253+00:00"
+generated_at: "2026-09-24T23:31:33.144807+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/maynard-ma/", "/service-areas/maynard-ma/fire-damage-restoration/", "/service-areas/maynard-ma/mold-remediation/", "/service-areas/bellingham-ma/roofing/", "/service-areas/east-douglas-ma/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Maynard", "url": "/service-areas/maynard-ma/"}, {"name": "Roofing Installation and Replacement"}]

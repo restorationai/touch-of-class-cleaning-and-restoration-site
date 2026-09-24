@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "2a11a1c9b4878701"
-generated_at: "2026-09-23T14:11:58.506815+00:00"
+generated_at: "2026-09-24T23:31:33.063283+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/east-douglas-ma/", "/service-areas/east-douglas-ma/fire-damage-restoration/", "/service-areas/east-douglas-ma/mold-remediation/", "/service-areas/bellingham-ma/roofing/", "/service-areas/fiskdale-ma/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "East Douglas", "url": "/service-areas/east-douglas-ma/"}, {"name": "Roofing Installation and Replacement"}]

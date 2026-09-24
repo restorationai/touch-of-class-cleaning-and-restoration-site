@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "d43e6f4a9aba618a"
-generated_at: "2026-09-23T14:11:58.492329+00:00"
+generated_at: "2026-09-24T23:31:33.046283+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/weston-ma/", "/service-areas/weston-ma/fire-damage-restoration/", "/service-areas/weston-ma/mold-remediation/", "/service-areas/bellingham-ma/water-leak-detection/", "/service-areas/east-douglas-ma/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Weston", "url": "/service-areas/weston-ma/"}, {"name": "Water Leak Detection"}]

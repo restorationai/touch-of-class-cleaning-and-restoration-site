@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "d1499e1fa41f44f7"
-generated_at: "2026-09-23T14:11:58.518508+00:00"
+generated_at: "2026-09-24T23:31:33.075411+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/southbridge-town-ma/", "/service-areas/southbridge-town-ma/fire-damage-restoration/", "/service-areas/southbridge-town-ma/mold-remediation/", "/service-areas/bellingham-ma/roofing/", "/service-areas/east-douglas-ma/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Southbridge Town", "url": "/service-areas/southbridge-town-ma/"}, {"name": "Roofing Installation and Replacement"}]

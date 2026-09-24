@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "399fba4f909a87ff"
-generated_at: "2026-09-23T14:11:58.489765+00:00"
+generated_at: "2026-09-24T23:31:33.042394+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/newton-ma/", "/service-areas/newton-ma/fire-damage-restoration/", "/service-areas/newton-ma/mold-remediation/", "/service-areas/bellingham-ma/water-leak-detection/", "/service-areas/east-douglas-ma/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Newton", "url": "/service-areas/newton-ma/"}, {"name": "Water Leak Detection"}]

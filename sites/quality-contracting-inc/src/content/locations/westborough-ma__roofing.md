@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "1f1b45ae58ee8b75"
-generated_at: "2026-09-23T14:11:58.471057+00:00"
+generated_at: "2026-09-24T23:31:33.014361+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/westborough-ma/", "/service-areas/westborough-ma/fire-damage-restoration/", "/service-areas/westborough-ma/mold-remediation/", "/service-areas/bellingham-ma/roofing/", "/service-areas/east-douglas-ma/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Westborough", "url": "/service-areas/westborough-ma/"}, {"name": "Roofing Installation and Replacement"}]

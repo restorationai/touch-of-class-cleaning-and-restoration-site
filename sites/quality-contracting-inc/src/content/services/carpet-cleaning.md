@@ -8,7 +8,7 @@ secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "ca
 search_intent: "local_specialty"
 priority: 3.6
 plan_hash: "b1a223e12a40bd56"
-generated_at: "2026-09-23T14:11:58.455577+00:00"
+generated_at: "2026-09-24T23:31:32.994635+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/east-douglas-ma/carpet-cleaning/", "/service-areas/fiskdale-ma/carpet-cleaning/", "/service-areas/framingham-ma/carpet-cleaning/", "/service-areas/franklin-town-ma/carpet-cleaning/", "/service-areas/hopkinton-ma/carpet-cleaning/", "/service-areas/hudson-ma/carpet-cleaning/", "/service-areas/leominster-ma/carpet-cleaning/", "/service-areas/marlborough-ma/carpet-cleaning/", "/service-areas/maynard-ma/carpet-cleaning/", "/service-areas/milford-ma/carpet-cleaning/", "/service-areas/natick-ma/carpet-cleaning/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Carpet Cleaning"}]

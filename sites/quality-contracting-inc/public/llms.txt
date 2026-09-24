@@ -26,6 +26,7 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Roofing Installation and Replacement](https://qualitycontracting.us/services/roofing/)
 - [Sewage Cleanup and Sanitization](https://qualitycontracting.us/services/sewage-cleanup/)
 - [Storm Damage Restoration](https://qualitycontracting.us/services/storm-damage-restoration/)
+- [Vandalism Cleanup](https://qualitycontracting.us/services/vandalism-cleanup/)
 - [Water Damage Restoration](https://qualitycontracting.us/services/water-damage-restoration/)
 - [Water Leak Detection](https://qualitycontracting.us/services/water-leak-detection/)
 

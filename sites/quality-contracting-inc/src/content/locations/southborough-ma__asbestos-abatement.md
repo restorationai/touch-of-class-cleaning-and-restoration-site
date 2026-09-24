@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "1547d1ccfa59edee"
-generated_at: "2026-09-23T14:11:58.472017+00:00"
+generated_at: "2026-09-24T23:31:33.015732+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/southborough-ma/", "/service-areas/southborough-ma/fire-damage-restoration/", "/service-areas/southborough-ma/mold-remediation/", "/service-areas/bellingham-ma/asbestos-abatement/", "/service-areas/east-douglas-ma/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Southborough", "url": "/service-areas/southborough-ma/"}, {"name": "Asbestos Abatement"}]

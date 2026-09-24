@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "a32bc1cb6472c966"
-generated_at: "2026-09-23T14:11:58.506175+00:00"
+generated_at: "2026-09-24T23:31:33.062399+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/east-douglas-ma/", "/service-areas/east-douglas-ma/fire-damage-restoration/", "/service-areas/east-douglas-ma/roofing/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/fiskdale-ma/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "East Douglas", "url": "/service-areas/east-douglas-ma/"}, {"name": "Mold Remediation"}]

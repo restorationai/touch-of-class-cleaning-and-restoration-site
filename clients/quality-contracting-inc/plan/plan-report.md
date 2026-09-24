@@ -1,21 +1,21 @@
 # Site Plan Report — Quality Contracting, Inc.
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-23T14:11:56.710709+00:00
+- Generated: 2026-09-24T23:31:30.671503+00:00
 - Domain: `qualitycontracting.us`
-- Services selected: 20 of 65 catalog entries
+- Services selected: 21 of 65 catalog entries
 - Service areas: 28
 - Cross-product enabled: True
-- Total URLs: **604**
-- Total internal links: 4900 (avg 8.1 per page)
+- Total URLs: **632**
+- Total internal links: 5132 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 540 |
+| `service-area-service` | 567 |
 | `service-area` | 27 |
-| `service-landing` | 20 |
+| `service-landing` | 21 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -44,6 +44,7 @@
 - `roofing` — Roofing Installation and Replacement (construction, priority 10)
 - `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
+- `vandalism-cleanup` — Vandalism Cleanup (specialty, priority 5)
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 - `water-leak-detection` — Water Leak Detection (core, priority 7)
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)

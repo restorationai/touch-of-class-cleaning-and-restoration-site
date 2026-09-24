@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "0e971a27fd8661d3"
-generated_at: "2026-09-23T14:11:58.545380+00:00"
+generated_at: "2026-09-24T23:31:33.109059+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/hudson-ma/", "/service-areas/hudson-ma/fire-damage-restoration/", "/service-areas/hudson-ma/mold-remediation/", "/service-areas/bellingham-ma/water-leak-detection/", "/service-areas/east-douglas-ma/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hudson", "url": "/service-areas/hudson-ma/"}, {"name": "Water Leak Detection"}]

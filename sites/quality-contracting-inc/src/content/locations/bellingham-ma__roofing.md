@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "b7ce49f00f482586"
-generated_at: "2026-09-23T14:11:58.549461+00:00"
+generated_at: "2026-09-24T23:31:33.113772+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/bellingham-ma/", "/service-areas/bellingham-ma/fire-damage-restoration/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/roofing/", "/service-areas/fiskdale-ma/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bellingham", "url": "/service-areas/bellingham-ma/"}, {"name": "Roofing Installation and Replacement"}]

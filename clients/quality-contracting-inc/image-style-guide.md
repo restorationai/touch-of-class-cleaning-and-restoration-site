@@ -220,7 +220,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Air Duct Cleaning, Asbestos Abatement, Biohazard Cleanup, Carpet Cleaning, Contents Restoration and Storage, Contents Restoration & Storage, Crawl Space Encapsulation, Emergency Board-Up and Tarping, Emergency Plumbing, Fire Damage Restoration, Renovations, Remodels and General Contracting, Mold Remediation, Odor Removal and Deodorization, Post-Construction and Specialty Cleaning, Roofing Installation and Replacement, Sewage Cleanup and Sanitization, Storm Damage Restoration, Water Damage Restoration, Water Leak Detection, Emergency Water Cleanup)
+- [ ] (continue for each of Air Duct Cleaning, Asbestos Abatement, Biohazard Cleanup, Carpet Cleaning, Contents Restoration and Storage, Contents Restoration & Storage, Crawl Space Encapsulation, Emergency Board-Up and Tarping, Emergency Plumbing, Fire Damage Restoration, Renovations, Remodels and General Contracting, Mold Remediation, Odor Removal and Deodorization, Post-Construction and Specialty Cleaning, Roofing Installation and Replacement, Sewage Cleanup and Sanitization, Storm Damage Restoration, Vandalism Cleanup, Water Damage Restoration, Water Leak Detection, Emergency Water Cleanup)
 
 ### Service area pages (one image per city served)
 - [ ] Auburn hero — exterior shot, regional housing stock, evocative of the city

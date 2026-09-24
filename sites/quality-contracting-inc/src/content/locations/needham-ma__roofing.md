@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "25f874bdf6d9068c"
-generated_at: "2026-09-23T14:11:58.486833+00:00"
+generated_at: "2026-09-24T23:31:33.037844+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/needham-ma/", "/service-areas/needham-ma/fire-damage-restoration/", "/service-areas/needham-ma/mold-remediation/", "/service-areas/bellingham-ma/roofing/", "/service-areas/east-douglas-ma/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Needham", "url": "/service-areas/needham-ma/"}, {"name": "Roofing Installation and Replacement"}]

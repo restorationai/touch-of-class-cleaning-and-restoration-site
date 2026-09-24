@@ -8,7 +8,7 @@ secondary_keywords: ["roof tarping", "fire damage board up", "broken window boar
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "1248b35f9e63544c"
-generated_at: "2026-09-23T14:11:58.573615+00:00"
+generated_at: "2026-09-24T23:31:33.142763+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/maynard-ma/", "/service-areas/maynard-ma/fire-damage-restoration/", "/service-areas/maynard-ma/mold-remediation/", "/service-areas/bellingham-ma/emergency-board-up-tarping/", "/service-areas/east-douglas-ma/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Maynard", "url": "/service-areas/maynard-ma/"}, {"name": "Emergency Board-Up and Tarping"}]

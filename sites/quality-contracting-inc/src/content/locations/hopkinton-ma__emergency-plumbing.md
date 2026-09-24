@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "31dc15ffa21dc17a"
-generated_at: "2026-09-23T14:11:58.475449+00:00"
+generated_at: "2026-09-24T23:31:33.020810+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/hopkinton-ma/", "/service-areas/hopkinton-ma/fire-damage-restoration/", "/service-areas/hopkinton-ma/mold-remediation/", "/service-areas/bellingham-ma/emergency-plumbing/", "/service-areas/east-douglas-ma/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hopkinton", "url": "/service-areas/hopkinton-ma/"}, {"name": "Emergency Plumbing"}]

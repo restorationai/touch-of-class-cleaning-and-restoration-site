@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Vandalism Cleanup in Needham, MA | Quality Contracting, Inc."
+h1: "Vandalism Cleanup in Needham"
+meta_description: "Vandalism cleanup in Needham, MA. Insurance billing accepted. Call (508) 756-8800."
+primary_keyword: "vandalism cleanup needham"
+secondary_keywords: ["vandalism cleanup", "graffiti removal", "post-vandalism restoration", "vandalism damage repair", "broken glass cleanup"]
+search_intent: "local_specialty"
+priority: 3.5
+plan_hash: "f278518959b2d9c5"
+generated_at: "2026-09-24T23:31:33.038263+00:00"
+manual_override: false
+internal_links: ["/services/vandalism-cleanup/", "/service-areas/needham-ma/", "/service-areas/needham-ma/fire-damage-restoration/", "/service-areas/needham-ma/mold-remediation/", "/service-areas/bellingham-ma/vandalism-cleanup/", "/service-areas/east-douglas-ma/vandalism-cleanup/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Needham", "url": "/service-areas/needham-ma/"}, {"name": "Vandalism Cleanup"}]
+faq: []
+area_slug: "needham-ma"
+service_slug: "vandalism-cleanup"
+city: "Needham"
+state: "MA"
+service_display: "Vandalism Cleanup"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug quality-contracting-inc` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Vandalism Cleanup in Needham.

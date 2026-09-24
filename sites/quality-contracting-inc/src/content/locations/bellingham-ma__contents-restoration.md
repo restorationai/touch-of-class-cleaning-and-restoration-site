@@ -8,7 +8,7 @@ secondary_keywords: ["contents pack-out", "contents cleaning", "belongings resto
 search_intent: "local_service"
 priority: 3.5
 plan_hash: "904f56b2584db528"
-generated_at: "2026-09-23T14:11:58.546935+00:00"
+generated_at: "2026-09-24T23:31:33.110819+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration/", "/service-areas/bellingham-ma/", "/service-areas/bellingham-ma/fire-damage-restoration/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/contents-restoration/", "/service-areas/fiskdale-ma/contents-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bellingham", "url": "/service-areas/bellingham-ma/"}, {"name": "Contents Restoration and Storage"}]

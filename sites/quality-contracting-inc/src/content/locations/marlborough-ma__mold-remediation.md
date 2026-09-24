@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "87517377ca7c9b08"
-generated_at: "2026-09-23T14:11:58.538445+00:00"
+generated_at: "2026-09-24T23:31:33.100176+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/marlborough-ma/", "/service-areas/marlborough-ma/fire-damage-restoration/", "/service-areas/marlborough-ma/roofing/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Marlborough", "url": "/service-areas/marlborough-ma/"}, {"name": "Mold Remediation"}]

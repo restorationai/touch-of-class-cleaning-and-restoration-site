@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "695d8f83e2663d77"
-generated_at: "2026-09-23T14:11:58.470504+00:00"
+generated_at: "2026-09-24T23:31:33.013385+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/westborough-ma/", "/service-areas/westborough-ma/fire-damage-restoration/", "/service-areas/westborough-ma/mold-remediation/", "/service-areas/bellingham-ma/general-contracting/", "/service-areas/east-douglas-ma/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Westborough", "url": "/service-areas/westborough-ma/"}, {"name": "Renovations, Remodels and General Contracting"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "9dc19d9f371d65c7"
-generated_at: "2026-09-23T14:11:58.520606+00:00"
+generated_at: "2026-09-24T23:31:33.077984+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/sturbridge-ma/", "/service-areas/sturbridge-ma/fire-damage-restoration/", "/service-areas/sturbridge-ma/mold-remediation/", "/service-areas/bellingham-ma/biohazard-cleanup/", "/service-areas/east-douglas-ma/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sturbridge", "url": "/service-areas/sturbridge-ma/"}, {"name": "Biohazard Cleanup"}]

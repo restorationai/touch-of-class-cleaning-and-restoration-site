@@ -8,7 +8,7 @@ secondary_keywords: ["roof tarping", "fire damage board up", "broken window boar
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "32fad6126922e5de"
-generated_at: "2026-09-23T14:11:58.500013+00:00"
+generated_at: "2026-09-24T23:31:33.055077+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/whitinsville-ma/", "/service-areas/whitinsville-ma/fire-damage-restoration/", "/service-areas/whitinsville-ma/mold-remediation/", "/service-areas/bellingham-ma/emergency-board-up-tarping/", "/service-areas/east-douglas-ma/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Whitinsville", "url": "/service-areas/whitinsville-ma/"}, {"name": "Emergency Board-Up and Tarping"}]

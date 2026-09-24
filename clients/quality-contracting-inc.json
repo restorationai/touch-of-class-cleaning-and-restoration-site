@@ -10,17 +10,17 @@
   "plan": {
     "template": "restoration",
     "template_version": "0.3.0",
-    "url_count": 604,
-    "generated_at": "2026-09-23T14:11:56.711216+00:00"
+    "url_count": 632,
+    "generated_at": "2026-09-24T23:31:30.672183+00:00"
   },
-  "updated_at": "2026-09-24T19:41:04Z",
+  "updated_at": "2026-09-24T23:31:33.761875+00:00",
   "build": {
-    "scaffolded_at": "2026-07-28T14:55:43.298632+00:00",
+    "scaffolded_at": "2026-09-24T23:31:33.761745+00:00",
     "github_repo": "restorationai/quality-contracting-inc-site",
     "pages_project": "rankai-quality-contracting-inc",
     "starter_version": "0.1.0",
-    "url_count": 46,
-    "pages_status": "created",
+    "url_count": 632,
+    "pages_status": "exists",
     "last_rendered_at": "2026-08-11T17:49:16.619771+00:00",
     "last_pushed_staging_at": "2026-09-06T13:02:35.493322+00:00",
     "last_pushed_main_at": "2026-09-24T19:40:08.944968+00:00",
@@ -28,7 +28,7 @@
     "cut_over_at": "2026-09-10T21:30:00+00:00",
     "cut_over_note": "backfilled: apex found serving the new build 2026-09-10; actual cutover date earlier and unrecorded"
   },
-  "build_status": "pushed_main",
+  "build_status": "scaffolded",
   "company_id": "CO-1785180744028",
   "gbp": {
     "place_id": "ChIJ9wuzUNMF5IkR23w7vv0t_Hc",

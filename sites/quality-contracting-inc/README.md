@@ -65,6 +65,7 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 - [Roofing Installation and Replacement](https://qualitycontracting.us/services/roofing/)
 - [Sewage Cleanup and Sanitization](https://qualitycontracting.us/services/sewage-cleanup/)
 - [Storm Damage Restoration](https://qualitycontracting.us/services/storm-damage-restoration/)
+- [Vandalism Cleanup](https://qualitycontracting.us/services/vandalism-cleanup/)
 - [Water Damage Restoration](https://qualitycontracting.us/services/water-damage-restoration/)
 - [Water Leak Detection](https://qualitycontracting.us/services/water-leak-detection/)` / `- [Auburn, MA](https://qualitycontracting.us/service-areas/auburn-ma/)
 - [Worcester, MA](https://qualitycontracting.us/service-areas/worcester-ma/)

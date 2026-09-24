@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 9.0
 plan_hash: "b3f40abfc801cda2"
-generated_at: "2026-09-23T14:11:58.456943+00:00"
+generated_at: "2026-09-24T23:31:32.996979+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/bellingham-ma/roofing/", "/service-areas/east-douglas-ma/roofing/", "/service-areas/fiskdale-ma/roofing/", "/service-areas/framingham-ma/roofing/", "/service-areas/franklin-town-ma/roofing/", "/service-areas/hopkinton-ma/roofing/", "/service-areas/hudson-ma/roofing/", "/service-areas/leominster-ma/roofing/", "/service-areas/marlborough-ma/roofing/", "/service-areas/maynard-ma/roofing/", "/service-areas/milford-ma/roofing/", "/service-areas/natick-ma/roofing/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Roofing Installation and Replacement"}]

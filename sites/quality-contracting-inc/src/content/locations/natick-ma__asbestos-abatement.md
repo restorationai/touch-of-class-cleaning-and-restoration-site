@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "28d8024d720630e3"
-generated_at: "2026-09-23T14:11:58.479905+00:00"
+generated_at: "2026-09-24T23:31:33.027402+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/natick-ma/", "/service-areas/natick-ma/fire-damage-restoration/", "/service-areas/natick-ma/mold-remediation/", "/service-areas/bellingham-ma/asbestos-abatement/", "/service-areas/east-douglas-ma/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Natick", "url": "/service-areas/natick-ma/"}, {"name": "Asbestos Abatement"}]
