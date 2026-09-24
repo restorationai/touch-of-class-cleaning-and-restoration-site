@@ -1,0 +1,90 @@
+# Implementation Queue
+
+Living queue of approved-for-build items. Each entry: what, why (the incident),
+and the shape of the fix. Check off + date when shipped. Santino curates
+priority; agents work top-down unless told otherwise.
+
+## 1. Build Pipeline GBP board — truthful stages + health visibility
+- [ ] **Fix the 1,000-row truncation** in the build-stages edge function:
+      2,285 open `marketing_gbp_suggestions` rows fleet-wide vs PostgREST's
+      1,000-row cap — clients whose rows fall past the cap read as "0 open
+      items" and float into "Listing optimized" (Arch: 20 open service items
+      + score 62; Heritage: 24 open). Fix server-side: per-company aggregate
+      counts (SQL group-by / RPC), never raw rows.
+- [ ] **GBP health chip on every board card**: ONE number (the worse of
+      conversion/ranking sub-scores), color-banded — >=90 green "dialed",
+      75-89 neutral, 60-74 amber "needs work", <60 red "needs attention".
+      Click-through = Profile Health card with both sub-scores + components.
+      Board shows one number for glanceability; detail lives one click in.
+- [ ] **Stage gate**: "Listing optimized" additionally requires health >= 75
+      when an audit exists (no-audit-yet clients keep item-count-only gate).
+      NOT a 100-only bar: always-red signals die; the optimizer's component
+      model (photo counts, review velocity) makes 100 a moving target.
+- [ ] Kick fresh Heritage GBP sync + face audit (their 09-16 sync is thin:
+      no rating/review_count captured; no face audit row at all).
+
+## 2. Monica — attachments and action claims
+- [ ] **Widen the bodyless-attachment gate** (client_concierge ~11295):
+      screenshots/documents/contact-cards that ingest fine currently still
+      ping Santino "couldn't auto-file". Treat ANY successfully-filed kind as
+      handled — synthesize a body from the vision tag so Monica answers it
+      herself; escalate only when ingest genuinely failed.
+- [ ] **Email-endpoint attachments**: messages whose attachments ride the
+      email endpoint (body AND attachments null in the SMS payload) show
+      media zeros -> false "couldn't auto-file" pings (DISS 09-24). Fetch
+      via the email endpoint before deciding.
+- [ ] **Execution-or-escalation contract**: Monica may not acknowledge an
+      action request ("we're getting Chris added now") unless the same turn
+      either (a) invokes a real tool that does it, or (b) files an ops task
+      + says "passing this to Santino". Wire an allowlist of doable actions;
+      everything else = (b). Incidents: Chris Pappas add (BCP/Scott 09-23,
+      never executed), RX/Barbara opt-out 09-09.
+- [ ] **New tool: add secondary contact** (the Chris Pappas class): create
+      contact on the account, mark as additional point of contact, add to
+      concierge allowlist. Then actually add Chris Pappas (910-448-2930).
+- [ ] **Attachment-first resolution rule**: when a client sends photo proof
+      contradicting a Monica claim, Monica must read the image BEFORE
+      re-asserting. DISS 09-24: site + GBP both already correct; Addi's
+      screenshot is a THIRD surface (branded info card pairing 712 Spearman
+      Ave with "Youngstown, OH" + info@dissrestoration.com). Action: pull
+      the image via the email endpoint, identify the surface (citation
+      listing / email signature / client's own graphic), fix or advise.
+
+## 3. Arch Environmental — profile rename
+- [ ] DBA status: NOT filed as of 09-24. Santino asked Mike to file the
+      revised string "Arch Environmental - Mold Testing, Asbestos Testing,
+      Lead and Air Quality Testing" (drops "Group"); awaiting confirmation.
+- [ ] **Add INSERT RLS policy** on `marketing_gbp_suggestions`: table has
+      SELECT + UPDATE policies only — NO insert policy exists, so the app's
+      "Add" button RLS-fails for every user. Company-scoped WITH CHECK
+      (company_id = get_effective_company_id()), item_type='name',
+      source='manual', status='candidate' defaults via the app.
+- [ ] Once Mike confirms the filing: update the chosen DB name row + sync
+      docs/gbp-rename-candidates.md + the rank-ai-gbp-rename skill records
+      (three-record law), then normal rename sequence (citations -> GBP).
+
+## 4. Spam shield v2 (clients report "calls from Google", ~8/day at Arch)
+Context: E1 (repeat-caller blocklist) works — 263 numbers blocked. E2
+(first-time Nomorobo lookup) has blocked 0 of 476 lookups — add-on works but
+scores rotating lead-farm numbers 0; wrong data source for this spam class.
+Arch: 17 of last 25 GBP-line calls are short-duration spam-pattern.
+- [ ] **Lookup v2 upgrade**: line_type_intelligence + SHAKEN/STIR
+      attestation; VOIP + attestation C on first contact -> risk pool.
+- [ ] **Prefix-velocity blocking**: 3+ spam-classified calls from one
+      NPA-NXX within 7 days -> auto-block that prefix on GBP lines (allow
+      known-customer numbers through by CRM match).
+- [ ] **Instant E1 feed**: verify call-intel spam verdicts land in the
+      blocklist on the immediate post-call run (not just the 30-min cron).
+- [ ] **AI-dispatcher absorption**: clients with the AI receptionist —
+      route first-time risk-pool callers to the AI line first; real
+      customers get handled, farms hang up. NO keypress gates (law 08-10).
+- [ ] Seed the blocklist from Arch's current wave (classification pass over
+      their last ~50 calls) so Mike feels the drop this week.
+
+## 5. Carried from 09-23/24 sessions
+- [ ] Remaining ~9 n8n dispatcher lanes still hardcode restorationai.io/s/
+      short links (Post Call Analysis is fixed + verified; per-lane audit in
+      WORKING-STATE.md). Supervised pass — live emergency dispatch lanes.
+- [ ] Optional: API skips call-intel workflow_dispatch when a run is already
+      queued (quiets the cancelled-run noise in Actions; no lost work today).
+- [ ] HomeLyft Meet-the-Team section when Josiah sends headshots/bios.
