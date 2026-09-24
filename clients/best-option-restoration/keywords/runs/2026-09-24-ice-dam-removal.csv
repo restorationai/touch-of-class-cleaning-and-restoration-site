@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,would_be_priority,fan_out_parent,city_modifier,covered_by,queued
+ice dam leak,transactional,480,15,,2,1,ice dam removal,,,no
+ice dam repair,transactional,480,7,8.52,2,1,ice dam removal,,,no
+ice dam water damage,transactional,90,15,,2,1,ice dam removal,,,no
+fix ice dam,transactional,70,16,,2,1,ice dam removal,,,no
+ice dam removal,transactional,4400,10,2.13,2,2,ice dam removal,,,no
+ice dam removal near me,transactional,2900,,2.43,2,2,ice dam removal,,,no
+professional ice dam removal,transactional,880,,,2,2,ice dam removal,,,no
+steam ice dam removal near me,transactional,170,,14.05,2,2,ice dam removal,,,no
+ice dam removal companies near me,transactional,110,,26.58,2,2,ice dam removal,,,no
+emergency ice dam removal,transactional,90,,,2,2,ice dam removal,,,no
+ice dam damage repair,transactional,30,,,2,2,ice dam removal,,,no
+professional ice dam removal near me,transactional,20,,,2,2,ice dam removal,,,no
+fixing ice dam damage,transactional,10,,,2,2,ice dam removal,,,no
+residential ice dam removal near me,transactional,10,,,2,2,ice dam removal,,,no
+ice dam removal cost,commercial,720,,92.57,2,2,ice dam removal,,,no
+ice dam removal companies,commercial,480,12,28.03,2,2,ice dam removal,,,no
+ice dam removal rates,commercial,20,,,2,2,ice dam removal,,,no
+ice dam removal near me prices,commercial,10,,,2,2,ice dam removal,,,no
+how much does ice dam damage repair cost,commercial,,,,2,2,ice dam removal,,,no
+what is an ice dam,informational,1300,34,0.03,2,1,ice dam removal,,,no
+does homeowners insurance cover ice dam damage,informational,90,,,2,1,ice dam removal,,,no
+why do ice dams form,informational,70,16,,2,1,ice dam removal,,,no
+ice dam problems,informational,50,22,,2,1,ice dam removal,,,no
+ice dam issues,informational,50,20,,2,1,ice dam removal,,,no
+does insurance pay for ice dam removal,informational,,,,2,1,ice dam removal,,,no
+should i file an insurance claim for an ice dam,informational,,,,2,1,ice dam removal,,,no
+what to do if an ice dam is leaking into your house,informational,,,,2,1,ice dam removal,,,no
+gutter ice dam,informational,1600,10,2.62,2,2,ice dam removal,,,no
+how to remove ice dam in gutter,informational,480,,0.22,2,2,ice dam removal,,,no
+ice dam removal tool,informational,260,,0.25,2,2,ice dam removal,,,no
+diy ice dam removal,informational,210,1,,2,2,ice dam removal,,,no
+what damage can ice dams cause,informational,20,,,2,2,ice dam removal,,,no
+ice dam build up,informational,10,15,,2,2,ice dam removal,,,no
+how do i know if an ice dam is damaging my home,informational,,,,2,2,ice dam removal,,,no
+do ice dams damage gutters,informational,,,,2,2,ice dam removal,,,no
+how can i prevent ice dams,informational,,,,2,2,ice dam removal,,,no
+how to remove ice dam from metal roof,informational,20,44,,3,3,ice dam removal,,,no
+do heat cables prevent ice dams,informational,20,28,0.08,3,3,ice dam removal,,,no
+ice dams new construction,informational,10,3,,3,3,ice dam removal,,,no
+can i remove an ice dam myself,informational,,,,3,3,ice dam removal,,,no
