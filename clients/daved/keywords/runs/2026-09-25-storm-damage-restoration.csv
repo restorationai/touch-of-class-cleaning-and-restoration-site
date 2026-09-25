@@ -1,0 +1,38 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+storm damage restoration,transactional,90500,,20.29,2,storm damage restoration,,,no
+storm damage restoration near me,transactional,4400,,11.31,2,storm damage restoration,,,no
+storm damage repair,transactional,3600,,25.92,2,storm damage restoration,,,no
+storm damage cleanup,transactional,880,,4.93,2,storm damage restoration,,,no
+storm damage restoration services,transactional,590,,27.59,2,storm damage restoration,,,no
+storm damage contractors,transactional,590,,28.83,2,storm damage restoration,,,no
+storm restoration,transactional,480,,24.29,2,storm damage restoration,,,no
+storm damage repair contractors,transactional,480,,32.16,2,storm damage restoration,,,no
+storm damage restoration companies,transactional,260,,57.05,2,storm damage restoration,,,no
+storm damage repair companies,transactional,260,,,2,storm damage restoration,,,no
+storm damage restoration company,transactional,260,5,57.05,2,storm damage restoration,,,no
+storm damage cleanup near me,transactional,260,,5.87,2,storm damage restoration,,,no
+storm damage restoration contractors,transactional,260,,,2,storm damage restoration,,,no
+commercial storm damage restoration,transactional,170,,,2,storm damage restoration,,,no
+storm damage cleanup services,transactional,140,,22.45,2,storm damage restoration,,,no
+storm damage restoration companies near me,transactional,50,,32.65,2,storm damage restoration,,,no
+residential storm damage restoration,transactional,30,,,2,storm damage restoration,,,no
+emergency storm damage restoration,transactional,10,,,2,storm damage restoration,,,no
+storm damage restoration cost,commercial,10,,,2,storm damage restoration,,,no
+storm damage,informational,3600,20,32.16,2,storm damage restoration,,,no
+storm damage insurance,informational,390,9,74.44,2,storm damage restoration,,,no
+storm damage insurance coverage,informational,390,3,74.44,2,storm damage restoration,,,no
+storm damage insurance claims,informational,260,4,3.39,2,storm damage restoration,,,no
+hail damage house,informational,210,,41.78,2,storm damage restoration,,,no
+flood house damage,informational,90,1,150.84,2,storm damage restoration,,,no
+flood damage to house,informational,90,9,150.84,2,storm damage restoration,,,no
+does homeowners insurance cover storm damage,informational,90,22,0.03,2,storm damage restoration,,,no
+house insurance storm damage,informational,70,4,34.73,2,storm damage restoration,,,no
+home storm damage,informational,30,22,,2,storm damage restoration,,,no
+how to file an insurance claim for storm damage,informational,10,44,2.17,2,storm damage restoration,,,no
+what to do after storm damage to your house,informational,,,,2,storm damage restoration,,,no
+what should i do if a tree falls on my house,informational,,,,2,storm damage restoration,,,no
+how long does storm damage restoration take,informational,,,,2,storm damage restoration,,,no
+signs of water damage after a storm,informational,,,,2,storm damage restoration,,,no
+storm debris,informational,320,,,3,storm damage restoration,,,no
+tornado house damage,informational,170,,,3,storm damage restoration,,,no
+hurricane house damage,informational,90,2,,3,storm damage restoration,,,no
