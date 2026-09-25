@@ -1,7 +1,7 @@
 {
-  "last_kind": "blog",
-  "cycle_pos": 1,
-  "geo_cursor": 2,
+  "last_kind": "geo",
+  "cycle_pos": 2,
+  "geo_cursor": 3,
   "history": [
     {
       "ts": "2026-09-21T16:53:22.617357+00:00",
@@ -34,6 +34,14 @@
       "service": null,
       "city": null,
       "youtube_id": "zrD_nSHP598"
+    },
+    {
+      "ts": "2026-09-25T16:19:43.644795+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "roofing",
+      "city": "Petal",
+      "youtube_id": "c8qlExOoF7s"
     }
   ]
 }
