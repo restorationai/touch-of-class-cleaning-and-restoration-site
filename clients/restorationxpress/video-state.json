@@ -1,6 +1,6 @@
 {
-  "last_kind": "geo",
-  "cycle_pos": 0,
+  "last_kind": "blog",
+  "cycle_pos": 1,
   "geo_cursor": 4,
   "history": [
     {
@@ -50,6 +50,14 @@
       "service": "water-damage-restoration",
       "city": "Weston",
       "youtube_id": "81IOJV-SRWg"
+    },
+    {
+      "ts": "2026-09-25T20:14:01.395039+00:00",
+      "kind": "blog",
+      "post": "who-pays-for-water-damage-in-a-condo",
+      "service": null,
+      "city": null,
+      "youtube_id": "2AalDU3_rZU"
     }
   ]
 }
