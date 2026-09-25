@@ -1,6 +1,6 @@
 {
-  "last_kind": "geo",
-  "cycle_pos": 0,
+  "last_kind": "blog",
+  "cycle_pos": 1,
   "geo_cursor": 8,
   "history": [
     {
@@ -98,6 +98,14 @@
       "service": "water-damage-restoration",
       "city": "SeaTac",
       "youtube_id": "5TrSorBBDI0"
+    },
+    {
+      "ts": "2026-09-25T20:04:51.677531+00:00",
+      "kind": "blog",
+      "post": "who-to-call-for-water-damage-restoration-in-federal-way-wa",
+      "service": null,
+      "city": null,
+      "youtube_id": "MR10BRAeXF4"
     }
   ]
 }
