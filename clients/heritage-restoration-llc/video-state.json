@@ -1,7 +1,7 @@
 {
-  "last_kind": "blog",
-  "cycle_pos": 1,
-  "geo_cursor": 2,
+  "last_kind": "geo",
+  "cycle_pos": 2,
+  "geo_cursor": 3,
   "history": [
     {
       "ts": "2026-09-21T16:54:45.401488+00:00",
@@ -34,6 +34,14 @@
       "service": null,
       "city": null,
       "youtube_id": "niozp9v7-g8"
+    },
+    {
+      "ts": "2026-09-25T16:20:42.729009+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "water-damage-restoration",
+      "city": "Sartell",
+      "youtube_id": "yalXpZ1STzU"
     }
   ]
 }
