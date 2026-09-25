@@ -246,3 +246,17 @@ filed ALL into branding/{cid}/docs/ where no team-photo consumer looks.
       LOCAL numbers where available (conversion play); toll-free approved
       stays the floor. sender_preflight already hard-gates activation on an
       approved sender — this only changes which approved sender wins.
+
+## 16. Rename Intelligence v2 — priority ladder + brand compression + exact-phrase engineering (OUTLINED 2026-09-25, awaiting go)
+
+Trigger: PuroClean LV autoseed led every option with mold (NV volume 480/mo beats water 320/mo; `rename_autoseed.py` sorts covered terms purely by volume — the unused `water_first` variable shows the intent existed but was never wired). Arch's good name ("Arch Environmental - Mold Testing, Asbestos Testing, Lead and Air Quality Testing") had to be hand-added; system kept "Group" and compacted to one "Testing".
+
+Santino's doctrine (2 reference cases: PuroClean LV, Arch):
+1. CATEGORY PRIORITY LADDER (restoration): 24/7 Emergency Plumbing (license gate still rides) → Water Damage Restoration → Fire Damage Restoration → then mold/others. Volume breaks ties INSIDE the ladder, never reorders it. Mold trails even when volume is higher.
+2. BRAND COMPRESSION: trim non-identity words to buy characters — "Group", "LLC", "of", optionally narrow geo ("East Las Vegas"→"Las Vegas"). Reason field must list what was trimmed.
+3. EXACT-PHRASE ENGINEERING: descriptors are complete search phrases; repeat the noun when budget allows ("Mold Testing, Asbestos Testing" beats "Mold, Asbestos ... Testing"). Maximize count of complete high-volume phrases within 90.
+4. COVERAGE-FIRST: top option = max sold-lane coverage within 90 chars (also kills Send Pitch coverage-gap refusals at the source).
+5. 90-char budget algorithm: compressed brand stem + ladder-ordered phrases until budget spent; emit full-coverage / plumbing+water / water+fire / conservative variants.
+
+Touch points (all 3 synced records + seeder): scripts/rename_autoseed.py (composition rewrite), ~/.claude/skills/rank-ai-gbp-rename/SKILL.md (doctrine section), docs/gbp-rename-candidates.md (canonical record), optional: char counter on the app rename card.
+Then: reseed PuroClean with the 4 Santino examples, he clicks Send Pitch, monitor end-to-end.
