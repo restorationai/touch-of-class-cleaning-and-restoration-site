@@ -3,3 +3,12 @@
 # Scaffold + light-overlay refreshes must not restore the 5-step template.
 src/components/ui/ProcessSection.astro
 src/components/Header.astro
+# Santino 2026-09-25: FFS art direction — neutral paragraph text
+# (text-dark-900), blue service label bars, white compact insurance banner.
+src/components/ui/InsuranceBanner.astro
+src/components/ui/ServicesStrip.astro
+src/components/ui/Hero.astro
+src/components/ui/BeforeAfterSection.astro
+src/components/ui/GallerySection.astro
+src/components/ui/ProudlyServing.astro
+src/components/ui/GbpCityProof.astro

@@ -1,22 +1,23 @@
 ---
-/* Insurance compatibility as a PROMINENT full-width banner, not fine print
-   (Santino 2026-09-22, refined same day: shield icon + deep brand tone,
-   distinct from the navy trust strip above it). Lives directly under the
-   trust strip on the homepage; the old one-line hero mention is retired. */
+/* FFS variant (Santino 2026-09-25): white background, tighter padding.
+   Copy note: "handle the claim paperwork" is BANNED for this client (Will's
+   review doc — they legally cannot handle claims; they converse with the
+   carrier and provide paperwork), so the subline says "work with your
+   carrier" instead. Protected via .rank-ai/protected-paths.txt. */
 import { ShieldCheck } from '@lucide/astro';
 ---
 
-<div class="bg-gradient-to-r from-primary-900 via-primary-800 to-primary-900 border-y border-white/10 py-6 px-4">
-  <div class="max-w-3xl mx-auto flex flex-col items-center gap-3 text-center">
-    <span class="rounded-full bg-white/10 p-2.5 text-white">
-      <ShieldCheck size={28} />
+<div class="bg-white border-y border-gray-200 py-3 px-4">
+  <div class="max-w-3xl mx-auto flex flex-col items-center gap-2 text-center">
+    <span class="rounded-full bg-[#1273b8]/10 p-2 text-[#1273b8]">
+      <ShieldCheck size={24} />
     </span>
     <div>
-      <p class="text-lg sm:text-xl font-extrabold tracking-tight text-white uppercase">
+      <p class="text-lg sm:text-xl font-extrabold tracking-tight text-dark-900 uppercase">
         We work with all insurance carriers
       </p>
-      <p class="mt-1 text-sm font-medium text-white/75">
-        Direct insurance billing &middot; We handle the claim paperwork with your carrier from start to finish
+      <p class="mt-0.5 text-sm font-medium text-dark-500">
+        Direct insurance billing &middot; We work with your carrier from start to finish
       </p>
     </div>
   </div>

@@ -34,5 +34,131 @@
       768,
       1200
     ]
+  },
+  "/images/services/basement-flooding-cleanup.webp": {
+    "width": 1376,
+    "height": 764,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/burst-pipe-repair.webp": {
+    "width": 1376,
+    "height": 764,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/ceiling-water-damage-repair.webp": {
+    "width": 1376,
+    "height": 764,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/commercial-restoration.webp": {
+    "width": 1376,
+    "height": 764,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/emergency-water-removal.webp": {
+    "width": 1376,
+    "height": 764,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/flood-damage-restoration.webp": {
+    "width": 1376,
+    "height": 764,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/industrial-restoration.webp": {
+    "width": 1376,
+    "height": 764,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/large-loss-response.webp": {
+    "width": 1376,
+    "height": 764,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/mold-inspection-testing.webp": {
+    "width": 1376,
+    "height": 764,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/mold-remediation.webp": {
+    "width": 1376,
+    "height": 764,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/smoke-damage-restoration.webp": {
+    "width": 1376,
+    "height": 764,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/storm-damage-restoration.webp": {
+    "width": 1376,
+    "height": 764,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/water-heater-flood-cleanup.webp": {
+    "width": 1376,
+    "height": 764,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/water-leak-detection.webp": {
+    "width": 1376,
+    "height": 764,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
   }
 }

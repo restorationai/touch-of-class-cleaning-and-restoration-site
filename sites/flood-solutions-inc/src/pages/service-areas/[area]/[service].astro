@@ -94,7 +94,7 @@ const faq = [...responseFaq, ...baseFaq, ...insuranceFaq];
       <div class="max-w-2xl">
         <div class="eyebrow">{data.city}, {data.state} · {data.service_display}</div>
         <h1 class="mb-6">{data.h1}</h1>
-        <p class="text-lg text-dark/85 mb-8 leading-relaxed">{data.meta_description}</p>
+        <p class="text-lg text-dark-900/85 mb-8 leading-relaxed">{data.meta_description}</p>
         <div class="flex flex-col sm:flex-row gap-4">
           <a href={`tel:${brand.phoneRaw}`} class={sensitive ? "btn-primary" : "btn-accent"}>
             {sensitive ? "Request Discreet Help" : `📞 Call ${brand.phone}`}
