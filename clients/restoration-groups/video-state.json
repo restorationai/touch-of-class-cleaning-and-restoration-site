@@ -1,7 +1,7 @@
 {
   "last_kind": "geo",
-  "cycle_pos": 2,
-  "geo_cursor": 3,
+  "cycle_pos": 0,
+  "geo_cursor": 4,
   "history": [
     {
       "ts": "2026-09-21T17:11:27.089527+00:00",
@@ -42,6 +42,14 @@
       "service": "appliance-leak-cleanup",
       "city": "Elizabeth",
       "youtube_id": "d5mkivBEMZQ"
+    },
+    {
+      "ts": "2026-09-25T20:05:17.954942+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "appliance-leak-cleanup",
+      "city": "Westfield",
+      "youtube_id": "5RWXdBw2pDE"
     }
   ]
 }
