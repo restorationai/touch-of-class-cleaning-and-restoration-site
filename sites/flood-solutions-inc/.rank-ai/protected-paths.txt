@@ -12,3 +12,5 @@ src/components/ui/BeforeAfterSection.astro
 src/components/ui/GallerySection.astro
 src/components/ui/ProudlyServing.astro
 src/components/ui/GbpCityProof.astro
+src/components/ui/ReviewsSection.astro
+src/components/ui/TrustStrip.astro
