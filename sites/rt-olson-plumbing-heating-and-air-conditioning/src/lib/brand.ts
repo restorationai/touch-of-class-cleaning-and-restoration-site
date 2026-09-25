@@ -58,7 +58,7 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.9",
-  gbpReviewCount: "605",
+  gbpReviewCount: "606",
   gbpReviews: [
     { author: "Jim", rating: 5, text: "Insurance agent here. Bob is a complete pro, with a well trained staff. 5 Stars!", when: "September 2026" },
     { author: "Gina", rating: 5, text: "The most respectful company I’ve had the pleasure to work with. Everyone i either spoke with, worked with in my home was considerate, polite, thourough and on time. The pricing was fair and the work seems like it will be complete in a fair amount of time. Alfonso was AMAZING!", when: "September 2026" },

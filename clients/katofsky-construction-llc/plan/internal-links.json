@@ -63,6 +63,7 @@
     "/service-areas/pleasant-hills-pa/",
     "/service-areas/plum-pa/",
     "/service-areas/ross-township-pa/",
+    "/service-areas/sewickley-hills-pa/",
     "/service-areas/shaler-township-pa/",
     "/service-areas/west-mifflin-pa/",
     "/service-areas/whitehall-pa/",
@@ -132,6 +133,7 @@
     "/service-areas/pleasant-hills-pa/",
     "/service-areas/plum-pa/",
     "/service-areas/ross-township-pa/",
+    "/service-areas/sewickley-hills-pa/",
     "/service-areas/shaler-township-pa/",
     "/service-areas/west-mifflin-pa/",
     "/service-areas/whitehall-pa/",
@@ -1867,6 +1869,43 @@
     "/service-areas/jefferson-hills-pa/lead-paint-abatement/",
     "/service-areas/jefferson-hills-pa/carpet-cleaning/",
     "/service-areas/jefferson-hills-pa/upholstery-cleaning/",
+    "/service-areas/allison-park-pa/",
+    "/service-areas/baldwin-pa/",
+    "/service-areas/bethel-park-pa/"
+  ],
+  "/service-areas/sewickley-hills-pa/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/sewickley-hills-pa/roofing/",
+    "/service-areas/sewickley-hills-pa/water-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/commercial-restoration/",
+    "/service-areas/sewickley-hills-pa/emergency-plumbing/",
+    "/service-areas/sewickley-hills-pa/emergency-water-removal/",
+    "/service-areas/sewickley-hills-pa/flood-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/reconstruction/",
+    "/service-areas/sewickley-hills-pa/sewage-cleanup/",
+    "/service-areas/sewickley-hills-pa/smoke-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/storm-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/water-cleanup/",
+    "/service-areas/sewickley-hills-pa/basement-flooding-cleanup/",
+    "/service-areas/sewickley-hills-pa/biohazard-cleanup/",
+    "/service-areas/sewickley-hills-pa/burst-pipe-repair/",
+    "/service-areas/sewickley-hills-pa/ceiling-water-damage-repair/",
+    "/service-areas/sewickley-hills-pa/general-contracting/",
+    "/service-areas/sewickley-hills-pa/large-loss-response/",
+    "/service-areas/sewickley-hills-pa/mold-inspection-testing/",
+    "/service-areas/sewickley-hills-pa/emergency-board-up-tarping/",
+    "/service-areas/sewickley-hills-pa/industrial-restoration/",
+    "/service-areas/sewickley-hills-pa/water-heater-flood-cleanup/",
+    "/service-areas/sewickley-hills-pa/water-leak-detection/",
+    "/service-areas/sewickley-hills-pa/asbestos-abatement/",
+    "/service-areas/sewickley-hills-pa/air-duct-cleaning/",
+    "/service-areas/sewickley-hills-pa/contents-restoration-storage/",
+    "/service-areas/sewickley-hills-pa/lead-paint-abatement/",
+    "/service-areas/sewickley-hills-pa/carpet-cleaning/",
+    "/service-areas/sewickley-hills-pa/upholstery-cleaning/",
     "/service-areas/allison-park-pa/",
     "/service-areas/baldwin-pa/",
     "/service-areas/bethel-park-pa/"
@@ -10777,6 +10816,276 @@
     "/service-areas/jefferson-hills-pa/",
     "/service-areas/jefferson-hills-pa/fire-damage-restoration/",
     "/service-areas/jefferson-hills-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/emergency-plumbing/",
+    "/service-areas/baldwin-pa/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/sewickley-hills-pa/roofing/",
+    "/service-areas/allison-park-pa/fire-damage-restoration/",
+    "/service-areas/baldwin-pa/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/general-contracting/",
+    "/service-areas/baldwin-pa/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/roofing/": [
+    "/services/roofing/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/roofing/",
+    "/service-areas/baldwin-pa/roofing/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/sewage-cleanup/",
+    "/service-areas/baldwin-pa/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/biohazard-cleanup/": [
+    "/services/biohazard-cleanup/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/biohazard-cleanup/",
+    "/service-areas/baldwin-pa/biohazard-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/asbestos-abatement/": [
+    "/services/asbestos-abatement/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/asbestos-abatement/",
+    "/service-areas/baldwin-pa/asbestos-abatement/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/lead-paint-abatement/": [
+    "/services/lead-paint-abatement/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/lead-paint-abatement/",
+    "/service-areas/baldwin-pa/lead-paint-abatement/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/emergency-board-up-tarping/": [
+    "/services/emergency-board-up-tarping/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/emergency-board-up-tarping/",
+    "/service-areas/baldwin-pa/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/contents-restoration-storage/": [
+    "/services/contents-restoration-storage/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/contents-restoration-storage/",
+    "/service-areas/baldwin-pa/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/air-duct-cleaning/": [
+    "/services/air-duct-cleaning/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/air-duct-cleaning/",
+    "/service-areas/baldwin-pa/air-duct-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/carpet-cleaning/": [
+    "/services/carpet-cleaning/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/carpet-cleaning/",
+    "/service-areas/baldwin-pa/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/upholstery-cleaning/",
+    "/service-areas/baldwin-pa/upholstery-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/water-damage-restoration/",
+    "/service-areas/baldwin-pa/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/water-cleanup/": [
+    "/services/water-cleanup/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/water-cleanup/",
+    "/service-areas/baldwin-pa/water-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/flood-damage-restoration/": [
+    "/services/flood-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/flood-damage-restoration/",
+    "/service-areas/baldwin-pa/flood-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/burst-pipe-repair/": [
+    "/services/burst-pipe-repair/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/burst-pipe-repair/",
+    "/service-areas/baldwin-pa/burst-pipe-repair/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/basement-flooding-cleanup/": [
+    "/services/basement-flooding-cleanup/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/basement-flooding-cleanup/",
+    "/service-areas/baldwin-pa/basement-flooding-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/smoke-damage-restoration/": [
+    "/services/smoke-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/smoke-damage-restoration/",
+    "/service-areas/baldwin-pa/smoke-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/roofing/",
+    "/service-areas/allison-park-pa/mold-remediation/",
+    "/service-areas/baldwin-pa/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/mold-inspection-testing/",
+    "/service-areas/baldwin-pa/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/storm-damage-restoration/",
+    "/service-areas/baldwin-pa/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/commercial-restoration/": [
+    "/services/commercial-restoration/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/commercial-restoration/",
+    "/service-areas/baldwin-pa/commercial-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/industrial-restoration/": [
+    "/services/industrial-restoration/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/industrial-restoration/",
+    "/service-areas/baldwin-pa/industrial-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/reconstruction/": [
+    "/services/reconstruction/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/reconstruction/",
+    "/service-areas/baldwin-pa/reconstruction/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/large-loss-response/": [
+    "/services/large-loss-response/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/large-loss-response/",
+    "/service-areas/baldwin-pa/large-loss-response/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/ceiling-water-damage-repair/": [
+    "/services/ceiling-water-damage-repair/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/ceiling-water-damage-repair/",
+    "/service-areas/baldwin-pa/ceiling-water-damage-repair/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/water-heater-flood-cleanup/": [
+    "/services/water-heater-flood-cleanup/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/water-heater-flood-cleanup/",
+    "/service-areas/baldwin-pa/water-heater-flood-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/water-leak-detection/": [
+    "/services/water-leak-detection/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/water-leak-detection/",
+    "/service-areas/baldwin-pa/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
+    "/service-areas/allison-park-pa/emergency-water-removal/",
+    "/service-areas/baldwin-pa/emergency-water-removal/",
+    "/contact/"
+  ],
+  "/service-areas/sewickley-hills-pa/emergency-plumbing/": [
+    "/services/emergency-plumbing/",
+    "/service-areas/sewickley-hills-pa/",
+    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
+    "/service-areas/sewickley-hills-pa/mold-remediation/",
     "/service-areas/allison-park-pa/emergency-plumbing/",
     "/service-areas/baldwin-pa/emergency-plumbing/",
     "/contact/"

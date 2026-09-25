@@ -1,20 +1,20 @@
 # Site Plan Report — Katofsky Construction LLC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-25T14:14:32.485190+00:00
+- Generated: 2026-09-25T16:20:23.524415+00:00
 - Domain: `katofskyconstruction.com`
 - Services selected: 30 of 65 catalog entries
-- Service areas: 34
+- Service areas: 35
 - Cross-product enabled: True
-- Total URLs: **1070**
-- Total internal links: 8706 (avg 8.1 per page)
+- Total URLs: **1101**
+- Total internal links: 8953 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 990 |
-| `service-area` | 33 |
+| `service-area-service` | 1020 |
+| `service-area` | 34 |
 | `service-landing` | 30 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -94,6 +94,7 @@
 - `churchill-pa` — Churchill, PA
 - `duquesne-pa` — Duquesne, PA
 - `jefferson-hills-pa` — Jefferson Hills, PA
+- `sewickley-hills-pa` — Sewickley Hills, PA
 
 ## Top 10 priority pages
 
