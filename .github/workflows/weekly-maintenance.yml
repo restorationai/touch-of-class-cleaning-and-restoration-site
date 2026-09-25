@@ -141,15 +141,19 @@ jobs:
             # was THIS step hitting the stamp-conflict rebase)
             git symbolic-ref -q HEAD >/dev/null || git checkout -B main
             git commit -m "chore: content checkpoint $(date +%Y-%m-%d) [automated]"
-            if ! git push origin HEAD:main; then
+            # retry LOOP (09-25: single retry lost a race — another bot
+            # pushed in the 1s window after a successful rebase)
+            for attempt in 1 2 3 4; do
+              git push origin HEAD:main && break
               git fetch origin main
               if ! git rebase origin/main; then
                 git checkout --theirs -- clients/ 2>/dev/null || true
                 git add -A
                 GIT_EDITOR=true git rebase --continue || { git rebase --abort; exit 1; }
               fi
-              git push origin HEAD:main
-            fi
+              [ "$attempt" = "4" ] && exit 1
+              sleep $((attempt * 5))
+            done
           fi
 
       - name: NAP consistency audit (monthly — first Monday; results feed the coverage gate)
@@ -383,15 +387,17 @@ jobs:
             # stamps refresh on the next sync either way).
             git symbolic-ref -q HEAD >/dev/null || git checkout -B main
             git commit -m "chore: weekly maintenance run $(date +%Y-%m-%d) [automated]"
-            if ! git push origin HEAD:main; then
+            for attempt in 1 2 3 4; do
+              git push origin HEAD:main && break
               git fetch origin main
               if ! git rebase origin/main; then
                 git checkout --theirs -- clients/ 2>/dev/null || true
                 git add -A
                 GIT_EDITOR=true git rebase --continue || { git rebase --abort; exit 1; }
               fi
-              git push origin HEAD:main
-            fi
+              [ "$attempt" = "4" ] && exit 1
+              sleep $((attempt * 5))
+            done
           fi
 
       - name: Alert on failure
