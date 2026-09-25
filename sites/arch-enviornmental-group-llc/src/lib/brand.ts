@@ -58,14 +58,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "5.0",
-  gbpReviewCount: "31",
+  gbpReviewCount: "33",
   gbpReviews: [
+    { author: "Natalie", rating: 5, text: "Arch and Environmental were efficient and professional with their work. Results were amazing highly recommend.", when: "September 2026" },
+    { author: "J", rating: 5, text: "Very impressed with Arch Environmental's professionalism. I called during the week, forget which day, but they had somebody out here in Bakersfield the following day to do the testing. Overall I'm satisfied. It didn't take much effort from my part. 5/5", when: "September 2026" },
     { author: "Alicia", rating: 5, text: "Arch Environmental did mold testing at my place in Visalia. They were fast and great to work with.", when: "September 2026" },
     { author: "Austin", rating: 5, text: "Mike Luna is the guy to go to if you need fast, professional, or even education about testing. Mike patiently explained how pricing could vary depending on our specific needs. If you aren’t sure about the process, Arch environmental will make sure you have the right tools to make the right…", when: "July 2026" },
     { author: "Hani", rating: 5, text: "My experience with Mike (the owner) was completely not what I expected. Having dealt with a couple environmental company executives for our buisness in the area, I was expecting to be met with a driver form, but he was and still has been so amazing and helpful. Constant follow ups and…", when: "July 2026" },
     { author: "Carlos", rating: 5, text: "Arch Environmental is a great, reliable company! Their process is smooth, and they thoroughly explain every procedure from start to finish, with efficient scheduling and quick results. Highly recommend!", when: "July 2026" },
-    { author: "Anthony", rating: 5, text: "I’ve worked with Rob and Mike from Arch Environmental on quite a few asbestos and lead testing jobs, including clearances. Rob knows his stuff and is always thorough with his testing and inspections. Mike is also great to work with and is always easy to get ahold of. They’ve always been…", when: "July 2026" },
-    { author: "Jack", rating: 5, text: "I have use Arch environmental for testing for lead as asbestos also Mold clearances. My experience has always been fast service and great communication.Definitely recommend Mike Luna and his team.", when: "July 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "Independent environmental testing and inspections across California's Central Valley.",
   ctaLabel: "Schedule an Inspection",

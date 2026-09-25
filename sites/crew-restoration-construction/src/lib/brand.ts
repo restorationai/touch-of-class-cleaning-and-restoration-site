@@ -65,14 +65,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.9",
-  gbpReviewCount: "577",
+  gbpReviewCount: "582",
   gbpReviews: [
+    { author: "Kennedi", rating: 5, text: "We had some water damage in our house and Crew Construction did a great job getting everything taken care of and got our place back to normal. Zach is the best!", when: "September 2026" },
+    { author: "Amanda", rating: 5, text: "Zach is absolutely wonderful! Always willing to go above and beyond and get the job done!!!", when: "September 2026" },
     { author: "Cole", rating: 5, text: "Great, reliable service from the team at CREW. Zach is communicative and a pleasure to work with!", when: "September 2026" },
     { author: "Mallory", rating: 5, text: "Zack genuinely cares about his customers satisfaction which is a rare quality these days", when: "September 2026" },
     { author: "Eden", rating: 5, text: "Zac does a great job communicating with customers! Really enjoyed the service!", when: "September 2026" },
     { author: "Summer", rating: 5, text: "Zach- Great guy, great work. ⭐️⭐️⭐️⭐️⭐️", when: "September 2026" },
-    { author: "Sam", rating: 5, text: "Crew is such an amazing company!! I think Sy is the guy!! He’s super professional and always kind and friendly!!!", when: "September 2026" },
-    { author: "Kaycee", rating: 5, text: "Zach is always such a joy to work with. He's helpful, upbeat, and professional.", when: "September 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Sioux Falls, SD.",
   ctaLabel: "24/7 Emergency Line",
