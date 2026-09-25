@@ -1,7 +1,7 @@
 {
-  "last_kind": "blog",
-  "cycle_pos": 1,
-  "geo_cursor": 6,
+  "last_kind": "geo",
+  "cycle_pos": 2,
+  "geo_cursor": 7,
   "history": [
     {
       "ts": "2026-07-10T17:55:04.571937+00:00",
@@ -82,6 +82,14 @@
       "service": null,
       "city": null,
       "youtube_id": "E1hvtTIWpiI"
+    },
+    {
+      "ts": "2026-09-25T16:21:56.472151+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "appliance-leak-cleanup",
+      "city": "Provo",
+      "youtube_id": "BWy1eBDFdiI"
     }
   ]
 }
