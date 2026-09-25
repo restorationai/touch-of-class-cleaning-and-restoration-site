@@ -14,19 +14,29 @@ from connect to populated card):
   RENAME  every Active company with a Google integration whose
           connection_metadata carries a selected_location_id and with ZERO
           open item_type='name' rows in marketing_gbp_suggestions gets the
-          house candidate set seeded deterministically:
-            1. aggressive plumbing-first (0.91, license-gate wording) —
-               house stance 2026-09-12 for water-damage clients
-            2. top covered service terms w/ 24/7 Emergency prefix (0.90)
-            3. conservative two-term fallback (0.80)
-          Volumes come from one DataForSEO google_ads search_volume call
-          scoped to the client's STATE (the same pools the manual seeds
-          quote), and every reason carries its numbers (volumes-in-reasons
-          law). SERVICE COVERAGE LAW: a term never enters a candidate
-          unless the matching service is on the company row — no mold for
-          non-mold shops (Frontline/Flood-and-Fire precedent). Verticals
-          outside restoration/plumbing are SKIPPED with a log line —
-          those stay manual (Arch-style custom research).
+          house candidate set seeded deterministically.
+
+          RENAME INTELLIGENCE v2 (Santino 2026-09-25; PuroClean LV + Arch
+          reference cases — see docs/gbp-rename-candidates.md):
+            1. PRIORITY LADDER, never raw volume: restoration names order
+               lanes plumbing -> water -> fire; mold and the rest TRAIL
+               even when their volume is higher (NV case: mold 480/mo
+               outsearches water 320/mo, water still leads — identity
+               beats volume). Volume only orders the trailing tier.
+            2. BRAND COMPRESSION: strip non-identity filler ("of",
+               "Group", legal suffixes, leading "The") from the stem
+               before composing; every trim is listed in the reason.
+            3. Existing laws hold: hard 90-char cap, "&" not "and",
+               never 4+ terms, 24/7 free modifier, volumes in every
+               reason (one DataForSEO call scoped to the client's STATE).
+            4. COVERAGE-FIRST: lanes count as sold via companies.services
+               OR live GBP categories, and the slate names every major
+               lane so the pitch coverage gate passes by construction.
+            5. Plumbing is UNCONDITIONAL for restoration slates (Santino
+               09-25): no license-gate wording anywhere — the pitch
+               conversation handles the license question.
+          Verticals outside restoration/plumbing are SKIPPED with a log
+          line — those stay manual (Arch-style custom research).
 
   SCOUT   the same newly-connected companies get location_scout.py --slug
           invoked once (best-effort) so the Locations panel isn't empty
@@ -40,6 +50,7 @@ CLI: python3 scripts/rename_autoseed.py [--dry-run] [--slug SLUG]
 from __future__ import annotations
 
 import argparse
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -123,62 +134,139 @@ def seed_company(co: dict, dry_run: bool) -> bool:
     return _seed_with_vols(co, vols, dry_run)
 
 
+_STEM_SUFFIX_RE = re.compile(r"[\s,]+(?:LLC|L\.L\.C\.|Inc\.?|Corp\.?|Co\.)$",
+                             re.IGNORECASE)
+# trailing tier: everything a restoration name may carry AFTER the ladder,
+# ordered by state volume at compose time. Mold lives here BY DESIGN.
+_TRAILING = ("mold remediation", "storm damage restoration",
+             "sewage cleanup", "basement flooding")
+
+
+def _compress_stem(base: str) -> tuple[str, list[str]]:
+    """Brand compression (v2): strip non-identity filler, report the trims."""
+    out, trims = base.strip(), []
+    if _STEM_SUFFIX_RE.search(out):
+        trims.append("legal suffix")
+        out = _STEM_SUFFIX_RE.sub("", out).strip()
+    if re.search(r"(?i)\s+Group$", out):
+        trims.append("Group")
+        out = re.sub(r"(?i)\s+Group$", "", out).strip()
+    if re.match(r"(?i)^The\s+", out):
+        trims.append("The")
+        out = re.sub(r"(?i)^The\s+", "", out).strip()
+    if re.search(r"(?i)\s+of\s+", out):
+        trims.append("of")
+        out = re.sub(r"(?i)\s+of\s+", " ", out).strip()
+    return out, trims
+
+
+def _narrow_geo(stem: str) -> str:
+    """Metro narrowing (v2, the PuroClean 'East Las Vegas' -> 'Las Vegas'
+    move): drop one directional/qualifier word to buy characters when a
+    candidate would otherwise blow the 90-char cap."""
+    return re.sub(r"(?i)\b(?:East|West|North|South|Greater|Central)\s+",
+                  "", stem, count=1).strip()
+
+
 def _seed_with_vols(co, vols, dry_run) -> bool:
     cid, name = co["id"], (co.get("name") or "").strip()
     services_l = " ".join(co.get("services") or []).lower()
-    base = name.split(" - ")[0].strip()
+    # Coverage haystack includes live GBP categories (coverage law: a lane
+    # counts as sold via category even without a services row — the exact
+    # gap that made the pitch worker refuse PuroClean's fire lane).
+    try:
+        prof = _sb("GET", "/rest/v1/marketing_gbp_profiles"
+                   f"?company_id=eq.{cid}"
+                   "&select=primary_category,additional_categories") or []
+        for p in prof:
+            cats = [p.get("primary_category") or ""]
+            cats += [str(c) for c in (p.get("additional_categories") or [])]
+            services_l += " " + " ".join(cats).lower()
+    except Exception:  # noqa: BLE001 — coverage widening is best-effort
+        pass
+    stem_raw = name.split(" - ")[0].strip()
+    stem, trims = _compress_stem(stem_raw)
     vol_note = ", ".join(f"{k} {v:,}/mo" for k, v in
                          sorted(vols.items(), key=lambda kv: -kv[1]) if v)
-    plumb = max(vols.get("emergency plumber", 0),
-                vols.get("emergency plumbing", 0))
-    ranked = sorted(((t, v) for t, v in vols.items()
-                     if t not in ("emergency plumber", "emergency plumbing")
-                     and _covered(t, services_l) and v),
-                    key=lambda kv: -kv[1])
-    if not ranked:
-        print(f"  [{cid}] {name}: no covered terms with volume — skipped")
-        return False
-    top = [t.title() for t, _ in ranked[:2]]
-    water_first = vols.get("water damage restoration", 0)
-    rows = []
-    if plumb:
-        rows.append({
-            "confidence": 0.91,
-            "item": f"{base} - 24/7 Emergency Plumbing & {top[0]}",
-            "reason": ("AGGRESSIVE FIRST OPTION (house stance 2026-09-12 "
-                       "for water-damage clients): the state plumbing pool "
-                       f"is {plumb:,}/mo, the biggest urgent-intent demand "
-                       "a restoration name can capture. HARD GATE: "
-                       "advertising plumbing in the name requires a "
-                       "plumbing license connected to the business or a "
-                       "licensed partner — ask before committing. State "
-                       f"pools (DataForSEO): {vol_note}.")})
-    if len(top) >= 2:
-        mid_item = f"{base} - 24/7 Emergency {top[0]} & {top[1]}"
+    trim_note = (f" Brand stem compressed ('{stem_raw}' -> '{stem}': "
+                 f"dropped {', '.join(trims)})." if trims else "")
+
+    water = _covered("water damage restoration", services_l)
+    fire = _covered("fire damage restoration", services_l)
+    trailing = sorted((t for t in _TRAILING
+                       if _covered(t, services_l) and vols.get(t)),
+                      key=lambda t: -vols[t])
+    tail = trailing[0].title() if trailing else None
+
+    rows: list[dict] = []
+
+    def add(conf: float, item: str, why: str) -> None:
+        # hard 90-char cap (LAW 2026-09-19) enforced at composition
+        if len(item) <= 90 and all(r["item"] != item for r in rows):
+            rows.append({"confidence": conf, "item": item,
+                         "reason": (f"{why} State pools (DataForSEO): "
+                                    f"{vol_note}.{trim_note}")})
+
+    ladder_why = ("PRIORITY LADDER (v2, Santino 2026-09-25): plumbing "
+                  "leads unconditionally for restoration, then water, "
+                  "then fire; mold-class terms trail regardless of "
+                  "volume — identity beats volume.")
+    if water and fire:
+        add(0.95, f"{stem} - 24/7 Emergency Plumbing, Water & Fire Damage "
+                  f"Restoration", ladder_why)
+        if tail:
+            mc_why = ("MAX-COVERAGE name: water + fire + the top trailing "
+                      "lane in one string; trailing seat is by design, "
+                      "not volume.")
+            mc = (f"{stem} - 24/7 Emergency Water & Fire Damage "
+                  f"Restoration, {tail}")
+            if len(mc) > 90 and _narrow_geo(stem) != stem:
+                nstem = _narrow_geo(stem)
+                mc = (f"{nstem} - 24/7 Emergency Water & Fire Damage "
+                      f"Restoration, {tail}")
+                mc_why += (f" Geo narrowed ('{stem}' -> '{nstem}') to fit "
+                           "the 90-char cap.")
+            add(0.9, mc, mc_why)
+        add(0.85, f"{stem} - 24/7 Emergency Plumbing & Water Damage "
+                  f"Restoration",
+            "Two-term plumbing + water form: the two biggest "
+            "urgent-intent pools a restoration name can carry.")
+        add(0.8, f"{stem} - 24/7 Emergency Water & Fire Damage Restoration",
+            "Category-true fallback: water + fire, no plumbing.")
+    elif water:
+        add(0.95, f"{stem} - 24/7 Emergency Plumbing & Water Damage "
+                  f"Restoration", ladder_why)
+        if tail:
+            add(0.9, f"{stem} - 24/7 Emergency Water Damage Restoration "
+                     f"& {tail}",
+                "Water + top trailing lane; trailing seat by design.")
+        add(0.8, f"{stem} - Water Damage Restoration"
+                 + (f" & {tail}" if tail else ""),
+            "Conservative fallback, shortest usable form.")
     else:
-        mid_item = f"{base} - 24/7 Emergency {top[0]}"
-    rows.append({
-        "confidence": 0.9,
-        "item": mid_item,
-        "reason": (f"Top searched terms the business actually performs "
-                   f"(service-coverage checked). State pools (DataForSEO): "
-                   f"{vol_note}.")})
-    cons = (f"{base} - {top[0]}"
-            + (f" & {top[1]}" if len(top) >= 2 else ""))
-    rows.append({
-        "confidence": 0.8,
-        "item": cons,
-        "reason": (f"Conservative fallback, shortest usable form. "
-                   f"State pools (DataForSEO): {vol_note}.")})
+        if not trailing:
+            print(f"  [{cid}] {name}: no covered lanes with volume — "
+                  "skipped")
+            return False
+        t1 = trailing[0].title()
+        t2 = trailing[1].title() if len(trailing) > 1 else None
+        add(0.9, f"{stem} - 24/7 Emergency {t1}"
+                 + (f" & {t2}" if t2 else ""),
+            "Top covered lanes for a non-water restoration shop.")
+        add(0.8, f"{stem} - {t1}" + (f" & {t2}" if t2 else ""),
+            "Conservative fallback, shortest usable form.")
+    if not rows:
+        print(f"  [{cid}] {name}: nothing fit the 90-char cap — manual")
+        return False
     for r in rows:
-        print(f"  [{cid}] {name}: {r['confidence']} {r['item']}")
+        print(f"  [{cid}] {name}: {r['confidence']} ({len(r['item'])}ch) "
+              f"{r['item']}")
         if dry_run:
             continue
         _sb("POST", "/rest/v1/marketing_gbp_suggestions",
             {"company_id": cid, "item_type": "name", "source": "autoseed",
              "verdict": "ADD", "status": "open", **r},
             prefer="return=minimal")
-    _ = water_first  # noqa: F841
     return True
 
 

@@ -247,3 +247,28 @@ Fire Damage Restoration" / 0.80 conservative water+sewage.
 (coverage-gated, plumbing-aggressive-first) + first Location Scout pass.
 Autoseeded rows carry source='autoseed'; this doc records manual/corrected
 research only.
+
+## Rename Intelligence v2 — 2026-09-25 (PuroClean LV + Arch reference cases)
+
+Doctrine (Santino, live session): PRIORITY LADDER plumbing -> water ->
+fire with mold trailing regardless of volume (identity beats volume);
+BRAND COMPRESSION (Group/LLC/"of"/leading-The, geo narrowing when a
+string blows the cap); EXACT-PHRASE repetition when budget allows (repeat
+"Testing" per lane, Arch case); plumbing UNCONDITIONAL in restoration
+slates, no license caveat (the pitch conversation carries the question).
+rename_autoseed.py composes by ladder now — the old raw-volume sort is
+what produced the NV mold-first slate.
+
+### PuroClean of East Las Vegas (CO-1784594708149) — reseeded 2026-09-25
+
+NV pools: emergency plumber/plumbing 720/mo, mold remediation 480/mo,
+water damage restoration 320/mo, fire damage restoration 70/mo.
+1. 0.95 PuroClean East Las Vegas - 24/7 Emergency Plumbing, Water & Fire Damage Restoration (83)
+2. 0.90 PuroClean Las Vegas - 24/7 Emergency Water & Fire Damage Restoration, Mold Remediation (86, geo narrowed)
+3. 0.85 PuroClean East Las Vegas - 24/7 Emergency Plumbing & Water Damage Restoration (77)
+4. 0.80 PuroClean East Las Vegas - 24/7 Emergency Water & Fire Damage Restoration (73)
+
+Old mold-first autoseed slate dismissed. Fire is covered in 3 of 4
+candidates, so the pitch coverage gate passes. Franchise note on record:
+franchisor nominally controls naming; Santino chose PuroClean as the
+Send Pitch test case knowingly.
