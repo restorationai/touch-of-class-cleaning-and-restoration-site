@@ -1,6 +1,6 @@
 {
   "slug": "homepriderestorationandcleaning",
-  "checked_at": "2026-09-24T22:58:59.574819+00:00",
+  "checked_at": "2026-09-25T16:49:15.696873+00:00",
   "canonical": {
     "name": "Home Pride Restoration and Cleaning",
     "phone": "(801) 995-2437",
@@ -37,19 +37,8 @@
     {
       "platform": "bbb",
       "url": "https://www.bbb.org/us/id/rigby/profile/cleaning-services/home-pride-restoration-and-cleaning-1296-1000143094",
-      "status": "ok",
-      "fetch": "wayback:2025-05-13",
-      "phones_found": [
-        "(208) 604-4411",
-        "(208) 821-7484",
-        "(208) 516-2529",
-        "(208) 516-3384",
-        "(208) 334-2300",
-        "(208) 334-3233"
-      ],
-      "phone_match": false,
-      "address_match": false,
-      "notes": "via Wayback capture 2025-05-13 (page bot-blocked); canonical phone absent; page shows (208) 604-4411, (208) 821-7484, (208) 516-2529"
+      "status": "unverified",
+      "notes": "unverifiable \u2014 every fetch tier failed (http 403; dfs_content_parsing Page content is empty; google_serp_snippet: page not indexed; wayback: no 200 capture)"
     },
     {
       "platform": "angi",
@@ -107,19 +96,7 @@
       "platform": "gbp-profile",
       "target": "gbp-profile",
       "title": "Fix wrong phone number on gbp-profile"
-    },
-    {
-      "kind": "phone",
-      "platform": "bbb",
-      "target": "https://www.bbb.org/us/id/rigby/profile/cleaning-services/home-pride-restoration-and-cleaning-1296-1000143094",
-      "title": "Fix wrong phone number on bbb"
-    },
-    {
-      "kind": "address",
-      "platform": "bbb",
-      "target": "https://www.bbb.org/us/id/rigby/profile/cleaning-services/home-pride-restoration-and-cleaning-1296-1000143094",
-      "title": "Fix address on bbb"
     }
   ],
-  "actions_upserted": 1
+  "actions_upserted": 0
 }

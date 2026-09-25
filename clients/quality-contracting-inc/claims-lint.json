@@ -1,6 +1,6 @@
 {
   "slug": "quality-contracting-inc",
-  "generated_at": "2026-09-24T23:05:27Z",
+  "generated_at": "2026-09-25T16:54:43Z",
   "truth": {
     "hours": "",
     "is_247": false,
@@ -13,8 +13,8 @@
     "gbp_review_count": 108,
     "vertical": "restoration"
   },
-  "errors": 18,
-  "review_flags": 29,
+  "errors": 17,
+  "review_flags": 32,
   "violations": [
     {
       "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
@@ -253,15 +253,6 @@
     {
       "file": "src/content/blog/water-damage-restoration-cost-ma.md",
       "part": "body",
-      "family": "24/7",
-      "severity": "error",
-      "matched": "24 hours",
-      "context": "rted. A Category 1 loss caught in under 24 hours costs a fraction of the same loss disco",
-      "reason": "claims round-the-clock availability but brand.hours is \"(unset)\""
-    },
-    {
-      "file": "src/content/blog/water-damage-restoration-cost-ma.md",
-      "part": "body",
       "family": "certification",
       "severity": "review",
       "matched": "IICRC",
@@ -320,6 +311,33 @@
       "severity": "review",
       "matched": "IICRC",
       "context": "footage and the class of loss, per the [IICRC S500 Standard for Professional Water Da",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/fiskdale-ma__water-damage-restoration.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "rying on a schedule consistent with the IICRC S500 standard. If readings plateau, the",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/northborough-ma__mold-remediation.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "ruction begins. The process follows the IICRC S520 standard for mold remediation, whi",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/southbridge-town-ma__water-damage-restoration.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "djusted as materials dry, following the IICRC S500 standard for water damage restorat",
       "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
     },
     {

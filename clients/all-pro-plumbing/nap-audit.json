@@ -1,6 +1,6 @@
 {
   "slug": "all-pro-plumbing",
-  "checked_at": "2026-09-24T22:51:50.682263+00:00",
+  "checked_at": "2026-09-25T16:38:14.080828+00:00",
   "canonical": {
     "name": "All Pro Plumbing Heating and Air",
     "phone": "(661) 863-9242",
@@ -16,7 +16,7 @@
       "url": null,
       "source": "dataforseo maps live",
       "status": "not_found",
-      "notes": "listing not found in top 2 maps results for brand query"
+      "notes": "listing not found in top 1 maps results for brand query"
     },
     {
       "platform": "gbp-profile",
@@ -32,12 +32,8 @@
     {
       "platform": "bbb",
       "url": "https://www.bbb.org/us/ca/ontario/profile/plumber/all-pro-plumbing-heating-cooling-electrical-llc-1126-13063515/complaints",
-      "status": "ok",
-      "fetch": "google_serp_snippet",
-      "phones_found": [],
-      "phone_match": null,
-      "address_match": null,
-      "notes": "via Google snippet (page bot-blocked); no phone number found on page; canonical street address not found on page"
+      "status": "unverified",
+      "notes": "unverifiable \u2014 every fetch tier failed (http 403; dfs_content_parsing Page content is empty; google_serp_snippet: page not indexed; wayback: no 200 capture)"
     },
     {
       "platform": "angi",
@@ -72,7 +68,7 @@
         "(888) 610-7168",
         "(800) 340-9610",
         "(888) 316-6960",
-        "(218) 967-4118"
+        "(714) 689-6633"
       ],
       "phone_match": false,
       "address_match": null,

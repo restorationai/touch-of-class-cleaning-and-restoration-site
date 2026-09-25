@@ -1,6 +1,6 @@
 {
   "slug": "flood-fixers",
-  "generated_at": "2026-09-24T23:05:25Z",
+  "generated_at": "2026-09-25T16:54:39Z",
   "truth": {
     "hours": "24/7 Emergency Service",
     "is_247": true,
@@ -17,7 +17,7 @@
     "vertical": "restoration"
   },
   "errors": 1,
-  "review_flags": 157,
+  "review_flags": 163,
   "violations": [
     {
       "file": "src/content/blog/best-water-damage-restoration-company-in-san-diego-ca.md",
@@ -447,9 +447,63 @@
       "part": "frontmatter",
       "family": "service-scope",
       "severity": "review",
+      "matched": "fire and smoke damage",
+      "context": "des water damage extraction and drying, fire and smoke damage cleanup, mold remediation, biohazard cl",
+      "reason": "names the 'fire' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
+    },
+    {
+      "file": "src/content/serviceAreas/bonsall-ca.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
       "matched": "storm damage restoration",
       "context": "ll, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 204-1",
       "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
+    },
+    {
+      "file": "src/content/serviceAreas/bonsall-ca.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "biohazard cleanup",
+      "context": "smoke damage cleanup, mold remediation, biohazard cleanup, and reconstruction after remediation i",
+      "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
+    },
+    {
+      "file": "src/content/serviceAreas/bonsall-ca.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "drying, fire and smoke damage cleanup, mold remediation, biohazard cleanup, and reconstruction",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
+    },
+    {
+      "file": "src/content/serviceAreas/bonsall-ca.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Fire and smoke damage",
+      "context": "before extraction and drying begin. **Fire and smoke damage restoration** in Bonsall often involves",
+      "reason": "names the 'fire' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
+    },
+    {
+      "file": "src/content/serviceAreas/bonsall-ca.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "smoke damage restoration",
+      "context": "xtraction and drying begin. **Fire and smoke damage restoration** in Bonsall often involves rural or se",
+      "reason": "names the 'fire' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
+    },
+    {
+      "file": "src/content/serviceAreas/bonsall-ca.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Mold remediation",
+      "context": "s to painted surfaces and cabinetry. **Mold remediation** is particularly relevant in Bonsall h",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
     },
     {
       "file": "src/content/serviceAreas/camp-pendleton-mainside-ca.md",

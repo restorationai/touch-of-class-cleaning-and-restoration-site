@@ -1,11 +1,13 @@
 {
   "slug": "coastal-restoration-services",
-  "generated_at": "2026-09-24T23:05:24Z",
+  "generated_at": "2026-09-25T16:54:38Z",
   "truth": {
     "hours": "",
     "is_247": false,
     "certifications": [
-      "IICRC Certified Firm; WRT (Water Damage Restoration Technician); ASD (Applied Structural Drying)"
+      "IICRC Certified Firm",
+      "WRT (Water Damage Restoration Technician)",
+      "ASD (Applied Structural Drying)"
     ],
     "license_numbers": [
       "11245226"
@@ -17,8 +19,8 @@
     "gbp_review_count": 29,
     "vertical": "restoration"
   },
-  "errors": 12,
-  "review_flags": 14,
+  "errors": 7,
+  "review_flags": 13,
   "violations": [
     {
       "file": "src/content/blog/best-water-damage-restoration-company-in-santa-maria-ca.md",
@@ -84,24 +86,6 @@
       "reason": "claims 40 reviews but synced gbpReviewCount is 29 (allowed \u00b120%: 23-34)"
     },
     {
-      "file": "src/content/blog/does-homeowners-insurance-cover-water-damage.md",
-      "part": "body",
-      "family": "24/7",
-      "severity": "review",
-      "matched": "24-hour",
-      "context": "insurance company.** Most carriers have 24-hour claims lines. Report the loss promptly,",
-      "reason": "24-hour availability statement appears to describe a third party (carrier/utility) \u2014 verify it is not about the brand"
-    },
-    {
-      "file": "src/content/blog/water-damage-restoration-equipment.md",
-      "part": "body",
-      "family": "24/7",
-      "severity": "error",
-      "matched": "24 hours",
-      "context": "e loss dries faster than one that waits 24 hours. The crew checks readings daily and re",
-      "reason": "claims round-the-clock availability but brand.hours is \"(unset)\""
-    },
-    {
       "file": "src/content/locations/atascadero-ca__water-damage-restoration.md",
       "part": "frontmatter",
       "family": "certification",
@@ -126,33 +110,6 @@
       "severity": "error",
       "matched": "around the clock",
       "context": "14 dehumidifiers and air movers running around the clock \\u2014 rather than simply opening windo",
-      "reason": "claims round-the-clock availability but brand.hours is \"(unset)\""
-    },
-    {
-      "file": "src/content/locations/cambria-ca__post-construction-cleaning.md",
-      "part": "frontmatter",
-      "family": "24/7",
-      "severity": "error",
-      "matched": "24 hours",
-      "context": "ier or HVAC system running for at least 24 hours beforehand. This stabilizes the interio",
-      "reason": "claims round-the-clock availability but brand.hours is \"(unset)\""
-    },
-    {
-      "file": "src/content/locations/cambria-ca__post-construction-cleaning.md",
-      "part": "body",
-      "family": "24/7",
-      "severity": "error",
-      "matched": "24-hour",
-      "context": "and windows sealed, and ideally after a 24-hour period of interior climate control, eve",
-      "reason": "claims round-the-clock availability but brand.hours is \"(unset)\""
-    },
-    {
-      "file": "src/content/locations/guadalupe-ca__post-construction-cleaning.md",
-      "part": "body",
-      "family": "24/7",
-      "severity": "error",
-      "matched": "24 hours",
-      "context": "nd running the HVAC system for at least 24 hours beforehand to bring interior humidity d",
       "reason": "claims round-the-clock availability but brand.hours is \"(unset)\""
     },
     {
@@ -244,15 +201,6 @@
       "matched": "structural reconstruction",
       "context": "age restoration, biohazard cleanup, and structural reconstruction for residential and commercial properti",
       "reason": "names the 'reconstruction' service family but plan-input services are only: biohazard-cleanup, contents-restoration, contents-restoration-storage, crawl-space-encapsulation, emergency-board-up-tarping, fire-damage-restoration"
-    },
-    {
-      "file": "src/content/services/water-damage-restoration.md",
-      "part": "frontmatter",
-      "family": "24/7",
-      "severity": "error",
-      "matched": "24 hours",
-      "context": "ter the loss \\u2014 a loss that sat for 24 hours before extraction starts will take mean",
-      "reason": "claims round-the-clock availability but brand.hours is \"(unset)\""
     }
   ]
 }
