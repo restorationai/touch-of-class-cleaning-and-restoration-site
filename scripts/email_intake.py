@@ -431,6 +431,14 @@ def _file_attachments(tok: str, msg_id: str, parsed: dict, company_id: str,
         blob = _g(tok, f"/messages/{msg_id}/attachments/{a['attachmentId']}")
         data = base64.urlsafe_b64decode(blob["data"])
         fname = a["filename"]
+        # STORAGE-SAFE NAME (narestco 2026-09-25: an em dash in "...Widget
+        # — Developer...pdf" made Supabase reject the key as InvalidKey
+        # and the RuntimeError killed the WHOLE 40-message poll). Keys are
+        # ASCII-slugged; the pretty original stays in the note text.
+        import re as _re
+        _stem, _dot, _ext = fname.rpartition(".")
+        _safe = _re.sub(r"[^A-Za-z0-9._-]+", "-", (_stem or fname)).strip("-.")
+        fname = (_safe or "attachment") + ((_dot + _ext) if _dot else "")
         low = fname.lower()
         if (low in ("image.png", "image001.png", "image002.png")
                 or low.startswith("outlook-") or low.endswith(".ics")):
