@@ -1,6 +1,6 @@
 {
-  "last_kind": "geo",
-  "cycle_pos": 0,
+  "last_kind": "blog",
+  "cycle_pos": 1,
   "geo_cursor": 2,
   "history": [
     {
@@ -26,6 +26,14 @@
       "service": "biohazard-cleanup",
       "city": "Santa Maria",
       "youtube_id": "nCiePIcWk4Y"
+    },
+    {
+      "ts": "2026-09-25T16:17:02.038419+00:00",
+      "kind": "blog",
+      "post": "water-damage-restoration-process",
+      "service": null,
+      "city": null,
+      "youtube_id": "Dfs9UB74bZk"
     }
   ]
 }
