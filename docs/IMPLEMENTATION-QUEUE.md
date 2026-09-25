@@ -260,3 +260,17 @@ Santino's doctrine (2 reference cases: PuroClean LV, Arch):
 
 Touch points (all 3 synced records + seeder): scripts/rename_autoseed.py (composition rewrite), ~/.claude/skills/rank-ai-gbp-rename/SKILL.md (doctrine section), docs/gbp-rename-candidates.md (canonical record), optional: char counter on the app rename card.
 Then: reseed PuroClean with the 4 Santino examples, he clicks Send Pitch, monitor end-to-end.
+
+## 17. Topic Discipline Engine — thread topic ledger + agenda quarantine + departure gate (OUTLINED 2026-09-25, DO NOT BUILD YET)
+
+Trigger: Air Care / Sarah Boyd 09-25 (3rd rename-agenda hijack: Jim Salsbury LSA->DBA fee, Air Care 09-14 verification->names, Air Care 09-25 LSA->DBA). Common shape: the RENAME agenda state (stage=pitched + pending options) is injected into every compose and seizes any ambiguous inbound. REPLY BINDING only covers short/deictic replies <=15min; Sarah's 26-word LSA follow-up sailed past it.
+
+Strategy (gates, not prompting — prompting has failed 3x):
+1. THREAD TOPIC LEDGER: per contact-thread, Haiku classifies last ~6 messages every turn -> {topic, client_initiated_turn, confidence} in ops_kv thread-topic:{contact_id}. (Santino's own spec: "go back and evaluate a few messages before to determine what the conversation is about.")
+2. AGENDA QUARANTINE: program agendas (rename options, review asks, etc.) excluded from the compose context while a topic is live; eligible only when thread idle or topic explicitly closed, with an explicit "Separately, ..." transition.
+3. TOPIC-DEPARTURE GATE (the enforcement): post-compose deterministic check — draft topic vs ledger topic; mismatch without explicit client invitation = block + recompose with hard constraint. Same class as canary/link/claim gates.
+4. STAMP-AFTER-SEND: rename-convo last_outbound currently stamped PRE-gate (client_concierge.py ~10406) — Monica's blocked 21:08 message is recorded as said; Sarah never got it. Move stamp post-send-confirm. (Monica-never-claims-actions, internal-state edition.)
+5. PER-CONTACT AWARENESS: program states record which contact_id saw them; never assume company-level context in a thread whose contact hasn't seen it. Also dedupe Sarah Boyd's two GHL contact rows.
+6. WATCHER: extend reply_binding_audit into a topic-departure audit (retro-scan sends for topic switches without invitation).
+
+Flagged same-day: Air Care rename agenda should be PAUSED regardless (trust shaky); Sarah owed a human recovery message + a precise LSA-timeline answer.
