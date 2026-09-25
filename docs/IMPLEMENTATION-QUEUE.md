@@ -252,7 +252,7 @@ filed ALL into branding/{cid}/docs/ where no team-photo consumer looks.
 Trigger: PuroClean LV autoseed led every option with mold (NV volume 480/mo beats water 320/mo; `rename_autoseed.py` sorts covered terms purely by volume — the unused `water_first` variable shows the intent existed but was never wired). Arch's good name ("Arch Environmental - Mold Testing, Asbestos Testing, Lead and Air Quality Testing") had to be hand-added; system kept "Group" and compacted to one "Testing".
 
 Santino's doctrine (2 reference cases: PuroClean LV, Arch):
-1. CATEGORY PRIORITY LADDER (restoration): 24/7 Emergency Plumbing (license gate still rides) → Water Damage Restoration → Fire Damage Restoration → then mold/others. Volume breaks ties INSIDE the ladder, never reorders it. Mold trails even when volume is higher.
+1. CATEGORY PRIORITY LADDER (restoration): 24/7 Emergency Plumbing (UNCONDITIONAL for restoration — Santino 09-25: always present as a suggestion, drop the autoseed HARD GATE language) → Water Damage Restoration → Fire Damage Restoration → then mold/others. Volume breaks ties INSIDE the ladder, never reorders it. Mold trails even when volume is higher.
 2. BRAND COMPRESSION: trim non-identity words to buy characters — "Group", "LLC", "of", optionally narrow geo ("East Las Vegas"→"Las Vegas"). Reason field must list what was trimmed.
 3. EXACT-PHRASE ENGINEERING: descriptors are complete search phrases; repeat the noun when budget allows ("Mold Testing, Asbestos Testing" beats "Mold, Asbestos ... Testing"). Maximize count of complete high-volume phrases within 90.
 4. COVERAGE-FIRST: top option = max sold-lane coverage within 90 chars (also kills Send Pitch coverage-gap refusals at the source).
