@@ -1,7 +1,7 @@
 {
   "last_kind": "geo",
-  "cycle_pos": 2,
-  "geo_cursor": 3,
+  "cycle_pos": 0,
+  "geo_cursor": 4,
   "history": [
     {
       "ts": "2026-09-21T17:18:44.003503+00:00",
@@ -42,6 +42,14 @@
       "service": "leak-detection",
       "city": "Anaheim",
       "youtube_id": "swpgVV_eUXA"
+    },
+    {
+      "ts": "2026-09-25T20:08:04.826193+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "leak-detection",
+      "city": "Santa Ana",
+      "youtube_id": "qb2YhwzL2XU"
     }
   ]
 }
