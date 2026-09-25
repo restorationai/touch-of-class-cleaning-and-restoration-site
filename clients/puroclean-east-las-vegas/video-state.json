@@ -1,7 +1,7 @@
 {
   "last_kind": "geo",
-  "cycle_pos": 2,
-  "geo_cursor": 3,
+  "cycle_pos": 0,
+  "geo_cursor": 4,
   "history": [
     {
       "ts": "2026-07-29T18:18:59.774470+00:00",
@@ -42,6 +42,14 @@
       "service": "mold-remediation",
       "city": "Nelson",
       "youtube_id": "EGa86Jhy_hU"
+    },
+    {
+      "ts": "2026-09-25T16:24:18.936154+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "mold-remediation",
+      "city": "Sandy Valley",
+      "youtube_id": "fgUm6btP288"
     }
   ]
 }
