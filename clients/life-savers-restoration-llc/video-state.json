@@ -1,7 +1,7 @@
 {
-  "last_kind": "blog",
-  "cycle_pos": 1,
-  "geo_cursor": 2,
+  "last_kind": "geo",
+  "cycle_pos": 2,
+  "geo_cursor": 3,
   "history": [
     {
       "ts": "2026-09-21T16:54:07.305902+00:00",
@@ -34,6 +34,14 @@
       "service": null,
       "city": null,
       "youtube_id": "q6xUkNB-evw"
+    },
+    {
+      "ts": "2026-09-25T16:27:29.258065+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "biohazard-cleanup",
+      "city": "North Las Vegas",
+      "youtube_id": "yCR2rvfs_CQ"
     }
   ]
 }
