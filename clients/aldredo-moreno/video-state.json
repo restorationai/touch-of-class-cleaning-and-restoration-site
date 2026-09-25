@@ -1,7 +1,7 @@
 {
-  "last_kind": "blog",
-  "cycle_pos": 1,
-  "geo_cursor": 2,
+  "last_kind": "geo",
+  "cycle_pos": 2,
+  "geo_cursor": 3,
   "history": [
     {
       "ts": "2026-09-21T16:26:28.519727+00:00",
@@ -34,6 +34,14 @@
       "service": null,
       "city": null,
       "youtube_id": "WgzRYufZCw0"
+    },
+    {
+      "ts": "2026-09-25T16:09:12.452632+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "water-damage-restoration",
+      "city": "Big Spring",
+      "youtube_id": "XjFAqV9OM2w"
     }
   ]
 }
