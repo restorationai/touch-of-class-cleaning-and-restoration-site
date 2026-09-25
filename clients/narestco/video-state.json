@@ -1,7 +1,7 @@
 {
   "last_kind": "geo",
-  "cycle_pos": 2,
-  "geo_cursor": 7,
+  "cycle_pos": 0,
+  "geo_cursor": 8,
   "history": [
     {
       "ts": "2026-07-08T17:38:06.395033+00:00",
@@ -90,6 +90,14 @@
       "service": "water-damage-restoration",
       "city": "Pacific",
       "youtube_id": "_BgWlP7WMG0"
+    },
+    {
+      "ts": "2026-09-25T16:24:58.668986+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "water-damage-restoration",
+      "city": "SeaTac",
+      "youtube_id": "5TrSorBBDI0"
     }
   ]
 }
