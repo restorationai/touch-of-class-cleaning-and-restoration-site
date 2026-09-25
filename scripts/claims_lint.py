@@ -133,8 +133,15 @@ def load_truth(slug: str) -> dict:
 # ----------------------------------------------------------------------------
 
 F247_RE = re.compile(
-    r"24\s*/\s*7|24[- ]hours?\b|around[-. ]the[-. ]clock|day or night"
-    r"|open 24|staffed 24|any time of (?:day|night)",
+    # 2026-09-24 (FFS false positives): "not a 24-hour process" and
+    # "another 24 hours for colonies" are DURATIONS, not availability
+    # claims. Availability = "24-hour(s)" followed by a service/response
+    # noun or preceded by open/staffed/available; bare durations pass.
+    r"24\s*/\s*7|around[-. ]the[-. ]clock|day or night"
+    r"|open 24|staffed 24|any time of (?:day|night)"
+    r"|24[- ]hours?\b[- ](?:emergency|service|response|availability|line"
+    r"|dispatch|team|crew|support)"
+    r"|(?:available|answer|respond|reach(?:able)?)\D{0,20}24[- ]hours?\b",
     re.I,
 )
 # Temporal references like "mold grows within 24 hours" or ranges like

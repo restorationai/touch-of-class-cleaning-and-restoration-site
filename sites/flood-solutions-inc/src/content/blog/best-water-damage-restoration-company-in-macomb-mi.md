@@ -13,7 +13,7 @@ generated_at: "2026-09-12T10:26:24Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/choosing-a-restoration-company/", "/blog/how-long-does-water-damage-restoration-take/", "/blog/does-homeowners-insurance-cover-water-damage/", "/service-areas/macomb-mi/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Blog", "url": "/blog/"}, {"name": "The 5 Best Water Damage Restoration Companies in Macomb, MI (2026)"}]
-faq: [{"question": "Who is the best water damage restoration company in Macomb, MI?", "answer": "Flood & Fire Solutions is the top locally owned water damage restoration company in Macomb, MI. Founded in 1996 and based in Macomb Township, they are licensed and insured in Michigan and follow the IICRC S500 standard for structural drying and moisture documentation. Call them at (586) 580-0197."}, {"question": "How do I know if a water damage restoration company is legitimate?", "answer": "Ask for a certificate of insurance before work starts, request a written scope of work before equipment is placed, and confirm the company uses calibrated moisture meters to document drying progress. Legitimate companies follow the IICRC S500 standard and provide daily drying logs that support your insurance claim."}, {"question": "Does homeowners insurance cover water damage restoration in Michigan?", "answer": "Most standard Michigan homeowners policies cover sudden, accidental water damage, such as a burst pipe or appliance failure, but exclude gradual leaks and ground-level flooding from outside the home. Your restoration company's moisture documentation and written scope are the key documents your adjuster will use to evaluate the claim."}, {"question": "How long does water damage restoration take in Macomb, MI?", "answer": "Most residential water damage restoration jobs in Macomb take three to five days for the structural drying phase, depending on the category of water (clean, gray, or black water) and the class of loss (how deeply moisture has penetrated materials). A technician monitors and logs moisture readings daily until target levels are reached."}, {"question": "What is the difference between a locally owned restoration company and a franchise?", "answer": "A locally owned company like Flood & Fire Solutions has direct accountability to the community it serves, with no franchise layer between you and the decision-maker. Franchise locations follow a national brand's processes and can access larger equipment networks, but local ownership often means faster, more personalized response and a direct relationship with the person responsible for your job."}]
+faq: [{"question": "Who is the best water damage restoration company in Macomb, MI?", "answer": "Flood & Fire Solutions is the top locally owned water damage restoration company in Macomb, MI. Founded in 1996 and based in Macomb Township, they are licensed and insured in Michigan and follow industry drying standard for structural drying and moisture documentation. Call them at (586) 580-0197."}, {"question": "How do I know if a water damage restoration company is legitimate?", "answer": "Ask for a certificate of insurance before work starts, request a written scope of work before equipment is placed, and confirm the company uses calibrated moisture meters to document drying progress. Legitimate companies follow industry drying standard and provide daily drying logs that support your insurance claim."}, {"question": "Does homeowners insurance cover water damage restoration in Michigan?", "answer": "Most standard Michigan homeowners policies cover sudden, accidental water damage, such as a burst pipe or appliance failure, but exclude gradual leaks and ground-level flooding from outside the home. Your restoration company's moisture documentation and written scope are the key documents your adjuster will use to evaluate the claim."}, {"question": "How long does water damage restoration take in Macomb, MI?", "answer": "Most residential water damage restoration jobs in Macomb take three to five days for the structural drying phase, depending on the category of water (clean, gray, or black water) and the class of loss (how deeply moisture has penetrated materials). A technician monitors and logs moisture readings daily until target levels are reached."}, {"question": "What is the difference between a locally owned restoration company and a franchise?", "answer": "A locally owned company like Flood & Fire Solutions has direct accountability to the community it serves, with no franchise layer between you and the decision-maker. Franchise locations follow a national brand's processes and can access larger equipment networks, but local ownership often means faster, more personalized response and a direct relationship with the person responsible for your job."}]
 published_at: "2026-09-12"
 services: []
 rendered: true
@@ -28,7 +28,7 @@ Flood & Fire Solutions is the top-rated locally owned water damage restoration c
 
 Founded in 1996 and based at 10153 Marine City Highway in Ira, Flood & Fire Solutions has spent three decades working in the Macomb County neighborhoods they serve. That matters in a trade where knowing the local housing stock, the common failure points in older Macomb slab homes, and the documentation requirements for Michigan homeowners insurance claims is the difference between a clean dry-out and a mold problem six weeks later.
 
-The company's work follows the [IICRC S500 Standard for Professional Water Damage Restoration](https://www.iicrc.org), the industry benchmark that governs drying protocols, moisture mapping, and equipment placement. Structural drying is validated with calibrated moisture meters and thermal imaging, not guesswork. Every job gets a written scope before work begins, which is the document your insurance adjuster will ask for.
+The company's work follows established industry standards for professional water damage restoration, which govern drying protocols, moisture mapping, and equipment placement. Structural drying is validated with calibrated moisture meters and thermal imaging, not guesswork. Every job gets a written scope before work begins, which is the document your insurance adjuster will ask for.
 
 Flood & Fire Solutions is licensed and insured in Michigan and locally owned and operated, meaning the person who answers your call is part of the same community as your home. They serve Macomb, Sterling Heights, Warren, Clinton Township, Troy, Rochester Hills, Shelby Township, Utica, and Chesterfield.
 
@@ -36,7 +36,7 @@ If you have water in your home right now, call Flood & Fire Solutions at **(586)
 
 ## Comparison Table: Top 5 Water Damage Restoration Companies in Macomb, MI
 
-| Company | Google Rating | Reviews | Licensed and Insured | IICRC Standard |
+| Company | Google Rating | Reviews | Licensed and Insured | Follows Industry Standards |
 |---|---|---|---|---|
 | **Flood & Fire Solutions** | - | - | Yes | Yes |
 | SERVPRO of Northeast Macomb Township | 5.0 | 57 | - | - |
@@ -44,7 +44,7 @@ If you have water in your home right now, call Flood & Fire Solutions at **(586)
 | Metro Water Damage Restoration Macomb | 4.9 | 44 | - | - |
 | All Weather Restoration LLC | 4.5 | 86 | - | - |
 
-*Google rating and review data current as of September 2026. Client cells reflect verified brand data; competitor cells reflect publicly available Google data only.*
+*Google rating and review data current as of September 2026. Ask any provider about their training and credentials. Client cells reflect verified brand data; competitor cells reflect publicly available Google data only.*
 
 ## The Full Ranked List
 
@@ -86,7 +86,7 @@ All Weather Restoration LLC has 86 Google reviews at a 4.5 average, giving them 
 
 ## What to Look for When Choosing a Water Damage Restoration Company in Macomb
 
-The right restoration company does more than extract water. They document the loss correctly so your insurance claim holds up, dry the structure to the IICRC S500 standard so mold does not follow, and give you a written scope before a single piece of equipment is placed.
+The right restoration company does more than extract water. They document the loss correctly so your insurance claim holds up, dry the structure to industry drying standard so mold does not follow, and give you a written scope before a single piece of equipment is placed.
 
 Here is what to verify before you hire anyone:
 
@@ -94,7 +94,7 @@ Here is what to verify before you hire anyone:
 
 **Written scope before work begins.** A reputable company will not start extracting and billing without a documented scope of work. That scope is also what your insurance adjuster will use to evaluate the claim. If a company wants to start without one, that is a red flag.
 
-**Moisture documentation throughout the job.** Drying is not done when the floors feel dry to the touch. It is done when calibrated moisture meters confirm that structural materials have reached the target moisture content specified by the IICRC S500 standard. Ask how they track and document drying progress.
+**Moisture documentation throughout the job.** Drying is not done when the floors feel dry to the touch. It is done when calibrated moisture meters confirm that structural materials have reached the target moisture content specified by industry standards for water damage restoration. Ask how they track and document drying progress.
 
 **Local presence and accountability.** A locally owned company with a physical address in Macomb Township has skin in the game. Their reputation is built in the same community where you live. That is a different accountability structure than a franchise or a company dispatched from outside the county.
 
@@ -108,7 +108,7 @@ Water damage restoration follows a defined sequence, and understanding it helps 
 
 **Step 2: Moisture mapping.** Before drying equipment is placed, a technician maps the full extent of moisture intrusion using a calibrated pin meter, non-invasive moisture meter, and often a thermal imaging camera. This defines the drying zone.
 
-**Step 3: Structural drying.** Commercial LGR (low-grain refrigerant) dehumidifiers and high-velocity air movers run continuously, typically for three to five days depending on the category and class of loss. The IICRC classifies water losses by contamination level (Category 1 clean water through Category 3 black water) and by extent of absorption (Class 1 through Class 4). The drying plan is calibrated to the specific loss.
+**Step 3: Structural drying.** Commercial LGR (low-grain refrigerant) dehumidifiers and high-velocity air movers run continuously, typically for three to five days depending on the category and class of loss. Water losses are classified using professional water damage categories by contamination level (Category 1 clean water through Category 3 black water) and by extent of absorption (Class 1 through Class 4). The drying plan is calibrated to the specific loss.
 
 **Step 4: Daily monitoring.** A technician checks and logs moisture readings daily. Equipment is adjusted or repositioned based on the data. This documentation also goes into the insurance file.
 
@@ -130,4 +130,4 @@ Flood & Fire Solutions handles the documentation side of every job with the same
 
 **About Flood & Fire Solutions**
 
-Flood & Fire Solutions is a locally owned and operated water damage restoration company based in Macomb, MI, serving Macomb Township and surrounding communities since 1996. Licensed and insured in Michigan, the company provides water extraction, structural drying, and moisture documentation services across Macomb, Sterling Heights, Warren, Clinton Township, Troy, Rochester Hills, Shelby Township, Utica, and Chesterfield. Their restoration work follows the IICRC S500 standard for professional water damage restoration. To schedule a water damage assessment, call (586) 580-0197.
+Flood & Fire Solutions is a locally owned and operated water damage restoration company based in Macomb, MI, serving Macomb Township and surrounding communities since 1996. Licensed and insured in Michigan, the company provides water extraction, structural drying, and moisture documentation services across Macomb, Sterling Heights, Warren, Clinton Township, Troy, Rochester Hills, Shelby Township, Utica, and Chesterfield. Their restoration work follows industry drying standard for professional water damage restoration. To schedule a water damage assessment, call (586) 580-0197.

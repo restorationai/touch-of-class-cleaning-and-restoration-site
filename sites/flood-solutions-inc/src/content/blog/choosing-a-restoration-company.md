@@ -25,7 +25,7 @@ When water is soaking into your subfloor or smoke residue is coating your walls,
 
 Anyone can wrap a van and print business cards. The difference shows up in credentials, equipment, and process, not in how fast they answer the phone.
 
-**Certifications matter.** The restoration industry's professional standard-setter is the IICRC (Institute of Inspection, Cleaning and Restoration Certification). Their S500 standard governs water damage drying; their S520 covers mold remediation. A company whose technicians hold IICRC certification has been trained to dry a structure to measurable moisture targets, not just until it looks dry. Ask directly: "Are your technicians IICRC-certified?" A yes should come with a credential number you can verify at iicrc.org.
+**Training matters.** The restoration industry relies on established professional standards for proper cleaning and restoration practices. Their S500 standard governs water damage drying; their S520 covers mold remediation. A company whose technicians have proper training will dry a structure to measurable moisture targets, not just until it looks dry. Ask directly: "Are your technicians professionally trained?" A yes should come with details about their training and credentials that you can verify.
 
 **Equipment tells you a lot.** Legitimate drying requires commercial-grade dehumidifiers, air movers, and thermal hygrometers, not shop fans and a prayer. If a crew shows up without moisture meters, they have no way to confirm the structure is actually dry before they pack up. That matters because water behind plaster can read dry at the surface while the lath and framing behind it stay saturated, setting the stage for mold growth within days.
 
@@ -46,7 +46,7 @@ These aren't edge cases. They're common, especially in the days after a signific
 You don't need to spend hours researching. Here's a focused checklist:
 
 1. **Search their name on the Michigan Department of Licensing and Regulatory Affairs (LARA) website.** Confirm any required contractor license is active.
-2. **Ask for their IICRC firm number** and verify it at iicrc.org. This takes two minutes.
+2. **Ask about the company's training and credentials** and take time to verify them. This takes two minutes.
 3. **Check Google and the Better Business Bureau.** Look at how the company responds to negative reviews, that tells you more than the star rating.
 4. **Call your insurance carrier before signing anything.** Ask your adjuster if the company is on their preferred vendor list, and whether an AOB is required. (It almost never is.)
 5. **Request a written estimate that references industry standards**, specifically the Xactimate pricing software most carriers use. A company that bills in Xactimate is working within the same framework your adjuster uses, which reduces disputes.

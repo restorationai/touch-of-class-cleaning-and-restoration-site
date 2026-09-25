@@ -5,7 +5,7 @@ title: "About Flood & Fire Solutions | Macomb Restoration Company"
 h1: "About Flood & Fire Solutions"
 meta_description: "Flood & Fire Solutions has served Macomb since 1996. Meet our restoration team. Licensed, insured, locally owned."
 primary_keyword: "flood solutions inc macomb"
-secondary_keywords: ["local restoration company", "iicrc certified restoration", "licensed restoration contractor"]
+secondary_keywords: ["local restoration company", "professional restoration credentials", "licensed restoration contractor"]
 search_intent: "navigational_trust"
 priority: 2.5
 plan_hash: "30d85289a776fc4e"
@@ -26,7 +26,7 @@ Insurance claims are a significant part of what we handle. We photograph and doc
 
 ## Our certifications and licensing
 
-The restoration industry has standards, the IICRC (Institute of Inspection, Cleaning and Restoration Certification) sets the technical benchmarks that define how water damage is categorized, how drying is validated, and what constitutes a completed remediation. Working to those standards matters because it's the difference between a structure that reads dry and one that actually is dry.
+The restoration industry follows recognized industry standards that set the technical benchmarks defining professional water damage categories, how drying is validated, and what constitutes a completed remediation. Ask us about our training and credentials to learn more. Working to those standards matters because it's the difference between a structure that reads dry and one that actually is dry.
 
 For homes built before 1978, lead paint is a real concern any time demolition or controlled demolition is involved. Federal law requires specific handling protocols for pre-1978 properties, and certification under the EPA's Renovation, Repair and Painting (RRP) rule governs how that work is done safely. Macomb County has substantial housing stock from the postwar decades, ranch homes, brick colonials, and Cape Cods built in the 1950s and 1960s, so this comes up regularly.
 
