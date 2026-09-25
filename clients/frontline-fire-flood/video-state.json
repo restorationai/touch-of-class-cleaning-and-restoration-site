@@ -1,7 +1,7 @@
 {
   "last_kind": "geo",
-  "cycle_pos": 2,
-  "geo_cursor": 3,
+  "cycle_pos": 0,
+  "geo_cursor": 4,
   "history": [
     {
       "ts": "2026-09-21T16:39:56.197822+00:00",
@@ -42,6 +42,14 @@
       "service": "water-damage-restoration",
       "city": "Puyallup",
       "youtube_id": "SHPoTVANZiQ"
+    },
+    {
+      "ts": "2026-09-25T19:50:38.057956+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "water-damage-restoration",
+      "city": "University Place",
+      "youtube_id": "13Cc6fdBGSo"
     }
   ]
 }
