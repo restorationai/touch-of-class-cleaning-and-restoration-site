@@ -1,7 +1,7 @@
 {
   "last_kind": "geo",
-  "cycle_pos": 2,
-  "geo_cursor": 3,
+  "cycle_pos": 0,
+  "geo_cursor": 4,
   "history": [
     {
       "ts": "2026-09-21T17:08:21.595940+00:00",
@@ -42,6 +42,14 @@
       "service": "water-damage-restoration",
       "city": "Henderson",
       "youtube_id": "L-CNlffR5cg"
+    },
+    {
+      "ts": "2026-09-25T20:00:24.763115+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "water-damage-restoration",
+      "city": "Paradise",
+      "youtube_id": "Cfl7Yk5f190"
     }
   ]
 }
