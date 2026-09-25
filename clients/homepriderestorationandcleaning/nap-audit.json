@@ -1,6 +1,6 @@
 {
   "slug": "homepriderestorationandcleaning",
-  "checked_at": "2026-09-24T20:20:55.296066+00:00",
+  "checked_at": "2026-09-24T22:58:59.574819+00:00",
   "canonical": {
     "name": "Home Pride Restoration and Cleaning",
     "phone": "(801) 995-2437",
@@ -38,13 +38,18 @@
       "platform": "bbb",
       "url": "https://www.bbb.org/us/id/rigby/profile/cleaning-services/home-pride-restoration-and-cleaning-1296-1000143094",
       "status": "ok",
-      "fetch": "google_serp_snippet",
+      "fetch": "wayback:2025-05-13",
       "phones_found": [
-        "(208) 604-4411"
+        "(208) 604-4411",
+        "(208) 821-7484",
+        "(208) 516-2529",
+        "(208) 516-3384",
+        "(208) 334-2300",
+        "(208) 334-3233"
       ],
       "phone_match": false,
-      "address_match": null,
-      "notes": "via Google snippet (page bot-blocked); canonical phone absent; page shows (208) 604-4411; canonical street address not found on page"
+      "address_match": false,
+      "notes": "via Wayback capture 2025-05-13 (page bot-blocked); canonical phone absent; page shows (208) 604-4411, (208) 821-7484, (208) 516-2529"
     },
     {
       "platform": "angi",
@@ -69,8 +74,14 @@
     {
       "platform": "facebook",
       "url": "https://www.facebook.com/Homepride247/",
-      "status": "unverified",
-      "notes": "unverifiable \u2014 every fetch tier failed (http 400; dfs_content_parsing Page content is empty; google_serp_snippet: page not indexed; wayback: no 200 capture)"
+      "status": "ok",
+      "fetch": "google_serp_snippet",
+      "phones_found": [
+        "(801) 995-2437"
+      ],
+      "phone_match": true,
+      "address_match": true,
+      "notes": "via Google snippet (page bot-blocked)"
     },
     {
       "platform": "bing_places",
@@ -102,7 +113,13 @@
       "platform": "bbb",
       "target": "https://www.bbb.org/us/id/rigby/profile/cleaning-services/home-pride-restoration-and-cleaning-1296-1000143094",
       "title": "Fix wrong phone number on bbb"
+    },
+    {
+      "kind": "address",
+      "platform": "bbb",
+      "target": "https://www.bbb.org/us/id/rigby/profile/cleaning-services/home-pride-restoration-and-cleaning-1296-1000143094",
+      "title": "Fix address on bbb"
     }
   ],
-  "actions_upserted": 0
+  "actions_upserted": 1
 }
