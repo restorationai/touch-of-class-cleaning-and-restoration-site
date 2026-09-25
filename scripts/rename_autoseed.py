@@ -157,6 +157,14 @@ def _compress_stem(base: str) -> tuple[str, list[str]]:
     if re.search(r"(?i)\s+of\s+", out):
         trims.append("of")
         out = re.sub(r"(?i)\s+of\s+", " ", out).strip()
+    # NEVER compress a brand into a single generic word ("The Restoration
+    # Group" must become "Restoration Group", not "Restoration") — restore
+    # "Group" when the trims left fewer than two words.
+    if len(out.split()) < 2 and "Group" in trims:
+        trims.remove("Group")
+        out = f"{out} Group"
+    if len(out.split()) < 2:
+        return base.strip(), []
     return out, trims
 
 
@@ -263,10 +271,20 @@ def _seed_with_vols(co, vols, dry_run) -> bool:
               f"{r['item']}")
         if dry_run:
             continue
-        _sb("POST", "/rest/v1/marketing_gbp_suggestions",
-            {"company_id": cid, "item_type": "name", "source": "autoseed",
-             "verdict": "ADD", "status": "open", **r},
-            prefer="return=minimal")
+        try:
+            _sb("POST", "/rest/v1/marketing_gbp_suggestions",
+                {"company_id": cid, "item_type": "name",
+                 "source": "autoseed", "verdict": "ADD", "status": "open",
+                 **r}, prefer="return=minimal")
+        except Exception:  # noqa: BLE001 — unique (company,item): a prior
+            # dismissed row already carries this exact string; revive it.
+            from urllib.parse import quote
+            _sb("PATCH", "/rest/v1/marketing_gbp_suggestions"
+                f"?company_id=eq.{cid}&item_type=eq.name"
+                f"&item=eq.{quote(r['item'])}",
+                {"status": "open", "confidence": r["confidence"],
+                 "reason": r["reason"]}, prefer="return=minimal")
+            print(f"  [{cid}]   ^ revived existing row")
     return True
 
 

@@ -272,3 +272,21 @@ Old mold-first autoseed slate dismissed. Fire is covered in 3 of 4
 candidates, so the pitch coverage gate passes. Franchise note on record:
 franchisor nominally controls naming; Santino chose PuroClean as the
 Send Pitch test case knowingly.
+
+### Fleet v2 resweep — 2026-09-25 (18 accounts, Researched + Choosing-a-name)
+
+Every Researched + outreach-stage slate rebuilt to the v2 ladder (Santino:
+"any account thats already selected a name, do not repopulate" — chosen
+names untouched; the stage machine guarantees these 18 had none). Old
+mold-first autoseed slates dismissed fleet-wide. Notables:
+- The Restoration Group: composer guard added — never compress a brand to
+  one generic word ("Restoration Group", not "Restoration").
+- AAA (HI, state backfilled to companies row): hand slate, carpet lane
+  kept at 0.85, no fire (not on their lanes), "Hawaii" trimmed from stem.
+- Home Pride ("and Cleaning" trimmed) + NaRestCo ("Construction" trimmed)
+  needed stem compression to fit ladder-first options under 90.
+- RestoPros of Central Maryland: franchise, same knowing-choice note as
+  PuroClean.
+- Outreach five (Air Care, Coastal, HomeLyft, QCI, RX): conversations were
+  opened under OLD mold-first options; Monica's next touch presents the
+  refreshed slate. Coastal had a fully-dismissed empty card, now restocked.
