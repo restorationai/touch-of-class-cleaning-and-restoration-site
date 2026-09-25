@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 9.0
 plan_hash: "00c37fdbc8705f88"
-generated_at: "2026-09-23T20:11:15.163933+00:00"
+generated_at: "2026-09-25T17:36:24.184279+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/agricola-ms/roofing/", "/service-areas/bay-st-louis-ms/roofing/", "/service-areas/benndale-ms/roofing/", "/service-areas/big-point-ms/roofing/", "/service-areas/biloxi-ms/roofing/", "/service-areas/d-iberville-ms/roofing/", "/service-areas/delisle-ms/roofing/", "/service-areas/diamondhead-ms/roofing/", "/service-areas/eastabuchie-ms/roofing/", "/service-areas/ellisville-ms/roofing/", "/service-areas/escatawpa-ms/roofing/", "/service-areas/gautier-ms/roofing/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Roofing Installation and Replacement"}]

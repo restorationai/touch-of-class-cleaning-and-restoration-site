@@ -8,7 +8,7 @@ secondary_keywords: ["vandalism cleanup", "graffiti removal", "post-vandalism re
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "42dfa86fe2e2e4f5"
-generated_at: "2026-09-24T23:23:06.055971+00:00"
+generated_at: "2026-09-25T17:36:24.258092+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-cleanup/", "/service-areas/vancleave-ms/", "/service-areas/vancleave-ms/fire-damage-restoration/", "/service-areas/vancleave-ms/mold-remediation/", "/service-areas/agricola-ms/vandalism-cleanup/", "/service-areas/bay-st-louis-ms/vandalism-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Vancleave", "url": "/service-areas/vancleave-ms/"}, {"name": "Vandalism Cleanup"}]

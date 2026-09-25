@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "00100f5e85e79ab0"
-generated_at: "2026-09-23T20:11:15.200934+00:00"
+generated_at: "2026-09-25T17:36:24.206941+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/delisle-ms/", "/service-areas/delisle-ms/fire-damage-restoration/", "/service-areas/delisle-ms/mold-remediation/", "/service-areas/agricola-ms/roofing/", "/service-areas/bay-st-louis-ms/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "DeLisle", "url": "/service-areas/delisle-ms/"}, {"name": "Roofing Installation and Replacement"}]

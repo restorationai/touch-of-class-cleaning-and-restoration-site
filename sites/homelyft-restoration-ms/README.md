@@ -63,6 +63,7 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 - [Roofing Installation and Replacement](https://homelyft.net/services/roofing/)
 - [Sewage Cleanup and Sanitization](https://homelyft.net/services/sewage-cleanup/)
 - [Storm Damage Restoration](https://homelyft.net/services/storm-damage-restoration/)
+- [Vandalism Cleanup](https://homelyft.net/services/vandalism-cleanup/)
 - [Water Damage Restoration](https://homelyft.net/services/water-damage-restoration/)
 - [Water Leak Detection](https://homelyft.net/services/water-leak-detection/)` / `- [Eastabuchie, MS](https://homelyft.net/service-areas/eastabuchie-ms/)
 - [Hattiesburg, MS](https://homelyft.net/service-areas/hattiesburg-ms/)

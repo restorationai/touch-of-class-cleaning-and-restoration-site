@@ -8,7 +8,7 @@ secondary_keywords: ["vandalism cleanup", "graffiti removal", "post-vandalism re
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "29e6557db955cbab"
-generated_at: "2026-09-24T23:23:06.051020+00:00"
+generated_at: "2026-09-25T17:36:24.235932+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-cleanup/", "/service-areas/lumberton-ms/", "/service-areas/lumberton-ms/fire-damage-restoration/", "/service-areas/lumberton-ms/mold-remediation/", "/service-areas/agricola-ms/vandalism-cleanup/", "/service-areas/bay-st-louis-ms/vandalism-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lumberton", "url": "/service-areas/lumberton-ms/"}, {"name": "Vandalism Cleanup"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["vandalism cleanup", "graffiti removal", "post-vandalism re
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "7e64cea9db883696"
-generated_at: "2026-09-24T23:23:06.057193+00:00"
+generated_at: "2026-09-25T17:36:24.264017+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-cleanup/", "/service-areas/benndale-ms/", "/service-areas/benndale-ms/fire-damage-restoration/", "/service-areas/benndale-ms/mold-remediation/", "/service-areas/agricola-ms/vandalism-cleanup/", "/service-areas/bay-st-louis-ms/vandalism-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Benndale", "url": "/service-areas/benndale-ms/"}, {"name": "Vandalism Cleanup"}]

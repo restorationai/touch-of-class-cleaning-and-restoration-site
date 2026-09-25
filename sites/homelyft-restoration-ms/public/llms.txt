@@ -24,6 +24,7 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Roofing Installation and Replacement](https://homelyft.net/services/roofing/)
 - [Sewage Cleanup and Sanitization](https://homelyft.net/services/sewage-cleanup/)
 - [Storm Damage Restoration](https://homelyft.net/services/storm-damage-restoration/)
+- [Vandalism Cleanup](https://homelyft.net/services/vandalism-cleanup/)
 - [Water Damage Restoration](https://homelyft.net/services/water-damage-restoration/)
 - [Water Leak Detection](https://homelyft.net/services/water-leak-detection/)
 
@@ -88,7 +89,7 @@ This file is intended for AI assistants and language models to efficiently inges
 
 ## Key facts
 
-- Rated 5.0/5 from 56 Google reviews
+- Rated 5.0/5 from 57 Google reviews
 - **Founded:** 2022
 - **Licenses:**  · 
 - **Certifications:** IICRC CERTIFIED FIRM, IICRC WRT (WATER), IICRC ASD (STRUCTURAL DRYING), EPA LEAD-SAFE CERTIFIED, IICRC FSRT (FIRE & SMOKE), IICRC AMRT (MOLD), OSHA TRAINED, FORTIFIED-BUILDING-ROOFING-MS-WINDSTORM-CERTIFIED

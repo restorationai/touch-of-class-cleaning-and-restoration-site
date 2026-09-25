@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "2c3563218ea70966"
-generated_at: "2026-09-23T20:11:15.224559+00:00"
+generated_at: "2026-09-25T17:36:24.230224+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration-storage/", "/service-areas/wiggins-ms/", "/service-areas/wiggins-ms/fire-damage-restoration/", "/service-areas/wiggins-ms/mold-remediation/", "/service-areas/agricola-ms/contents-restoration-storage/", "/service-areas/bay-st-louis-ms/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wiggins", "url": "/service-areas/wiggins-ms/"}, {"name": "Contents Restoration & Storage"}]

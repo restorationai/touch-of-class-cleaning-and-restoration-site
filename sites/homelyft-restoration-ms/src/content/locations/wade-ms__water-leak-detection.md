@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "166f8ac0a7edf5e4"
-generated_at: "2026-09-23T20:11:15.249780+00:00"
+generated_at: "2026-09-25T17:36:24.260350+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/wade-ms/", "/service-areas/wade-ms/fire-damage-restoration/", "/service-areas/wade-ms/mold-remediation/", "/service-areas/agricola-ms/water-leak-detection/", "/service-areas/bay-st-louis-ms/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wade", "url": "/service-areas/wade-ms/"}, {"name": "Water Leak Detection"}]

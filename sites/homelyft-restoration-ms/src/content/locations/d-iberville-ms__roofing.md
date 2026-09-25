@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "8f1ed6442f2486d7"
-generated_at: "2026-09-23T20:11:15.199376+00:00"
+generated_at: "2026-09-25T17:36:24.204878+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/d-iberville-ms/", "/service-areas/d-iberville-ms/fire-damage-restoration/", "/service-areas/d-iberville-ms/mold-remediation/", "/service-areas/agricola-ms/roofing/", "/service-areas/bay-st-louis-ms/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "D'Iberville", "url": "/service-areas/d-iberville-ms/"}, {"name": "Roofing Installation and Replacement"}]

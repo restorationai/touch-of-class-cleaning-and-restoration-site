@@ -34,7 +34,7 @@ The information you submit is used to respond to your inquiry, schedule an on-si
 
 ## How We Share Your Information
 
-**SMS and mobile information is never shared.** No mobile information, phone numbers collected for SMS, or text messaging originator opt-in data and consent will be shared with, sold to, or transferred to any third parties, affiliates, or partner companies for marketing or promotional purposes under any circumstances. SMS opt-in consent is used solely by MULTIGLOBAL SERVICES LLC (HomeLyft Restoration) to communicate with you.
+**SMS and mobile information is never shared.** No mobile information, phone numbers collected for SMS, or text messaging originator opt-in data and consent will be shared with, sold to, or transferred to any third parties, affiliates, or partner companies for marketing or promotional purposes under any circumstances. SMS opt-in consent is used solely by Homelyft Restoration LLC to communicate with you.
 
 We do not sell, rent, or trade your personal information to third parties. The only circumstance in which we share your information with an outside party is when you explicitly authorize us to communicate with your insurance carrier or adjuster as part of the claims process. We may also share information if required by law or a valid legal process.
 

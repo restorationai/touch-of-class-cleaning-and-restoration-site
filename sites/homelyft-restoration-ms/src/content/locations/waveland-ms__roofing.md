@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "1ca0663326022fb9"
-generated_at: "2026-09-23T20:11:15.223163+00:00"
+generated_at: "2026-09-25T17:36:24.229284+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/waveland-ms/", "/service-areas/waveland-ms/fire-damage-restoration/", "/service-areas/waveland-ms/mold-remediation/", "/service-areas/agricola-ms/roofing/", "/service-areas/bay-st-louis-ms/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Waveland", "url": "/service-areas/waveland-ms/"}, {"name": "Roofing Installation and Replacement"}]

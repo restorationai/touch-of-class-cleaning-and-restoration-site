@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "9519d4c7f67911a3"
-generated_at: "2026-09-23T20:11:15.219549+00:00"
+generated_at: "2026-09-25T17:36:24.226215+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/pearlington-ms/", "/service-areas/pearlington-ms/fire-damage-restoration/", "/service-areas/pearlington-ms/mold-remediation/", "/service-areas/agricola-ms/water-leak-detection/", "/service-areas/bay-st-louis-ms/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pearlington", "url": "/service-areas/pearlington-ms/"}, {"name": "Water Leak Detection"}]

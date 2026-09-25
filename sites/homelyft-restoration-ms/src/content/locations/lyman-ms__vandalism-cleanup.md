@@ -8,7 +8,7 @@ secondary_keywords: ["vandalism cleanup", "graffiti removal", "post-vandalism re
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "01b4ef6163a33243"
-generated_at: "2026-09-24T23:23:06.046453+00:00"
+generated_at: "2026-09-25T17:36:24.215596+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-cleanup/", "/service-areas/lyman-ms/", "/service-areas/lyman-ms/fire-damage-restoration/", "/service-areas/lyman-ms/mold-remediation/", "/service-areas/agricola-ms/vandalism-cleanup/", "/service-areas/bay-st-louis-ms/vandalism-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lyman", "url": "/service-areas/lyman-ms/"}, {"name": "Vandalism Cleanup"}]

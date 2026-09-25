@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "a41e2b568a0cb518"
-generated_at: "2026-09-23T20:11:15.199754+00:00"
+generated_at: "2026-09-25T17:36:24.205509+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/d-iberville-ms/", "/service-areas/d-iberville-ms/fire-damage-restoration/", "/service-areas/d-iberville-ms/mold-remediation/", "/service-areas/agricola-ms/water-leak-detection/", "/service-areas/bay-st-louis-ms/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "D'Iberville", "url": "/service-areas/d-iberville-ms/"}, {"name": "Water Leak Detection"}]

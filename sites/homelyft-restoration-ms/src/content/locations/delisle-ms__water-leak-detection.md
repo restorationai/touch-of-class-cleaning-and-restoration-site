@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "b995b227c4553e03"
-generated_at: "2026-09-23T20:11:15.201257+00:00"
+generated_at: "2026-09-25T17:36:24.207400+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/delisle-ms/", "/service-areas/delisle-ms/fire-damage-restoration/", "/service-areas/delisle-ms/mold-remediation/", "/service-areas/agricola-ms/water-leak-detection/", "/service-areas/bay-st-louis-ms/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "DeLisle", "url": "/service-areas/delisle-ms/"}, {"name": "Water Leak Detection"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["vandalism cleanup", "graffiti removal", "post-vandalism re
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "8b35d78cb610380d"
-generated_at: "2026-09-24T23:23:06.059656+00:00"
+generated_at: "2026-09-25T17:36:24.275834+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-cleanup/", "/service-areas/sandersville-ms/", "/service-areas/sandersville-ms/fire-damage-restoration/", "/service-areas/sandersville-ms/mold-remediation/", "/service-areas/agricola-ms/vandalism-cleanup/", "/service-areas/bay-st-louis-ms/vandalism-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sandersville", "url": "/service-areas/sandersville-ms/"}, {"name": "Vandalism Cleanup"}]

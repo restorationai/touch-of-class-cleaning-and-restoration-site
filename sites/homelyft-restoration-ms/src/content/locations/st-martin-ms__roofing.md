@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "bb5acc16d607380a"
-generated_at: "2026-09-23T20:11:15.214428+00:00"
+generated_at: "2026-09-25T17:36:24.220422+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/st-martin-ms/", "/service-areas/st-martin-ms/fire-damage-restoration/", "/service-areas/st-martin-ms/mold-remediation/", "/service-areas/agricola-ms/roofing/", "/service-areas/bay-st-louis-ms/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "St. Martin", "url": "/service-areas/st-martin-ms/"}, {"name": "Roofing Installation and Replacement"}]

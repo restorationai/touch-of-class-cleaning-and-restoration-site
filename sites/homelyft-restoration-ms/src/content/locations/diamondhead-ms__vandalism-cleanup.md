@@ -8,7 +8,7 @@ secondary_keywords: ["vandalism cleanup", "graffiti removal", "post-vandalism re
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "b30cfdc80372c0a9"
-generated_at: "2026-09-24T23:23:06.044737+00:00"
+generated_at: "2026-09-25T17:36:24.208703+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-cleanup/", "/service-areas/diamondhead-ms/", "/service-areas/diamondhead-ms/fire-damage-restoration/", "/service-areas/diamondhead-ms/mold-remediation/", "/service-areas/agricola-ms/vandalism-cleanup/", "/service-areas/bay-st-louis-ms/vandalism-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Diamondhead", "url": "/service-areas/diamondhead-ms/"}, {"name": "Vandalism Cleanup"}]

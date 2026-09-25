@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "e4cdb1f6a8176b29"
-generated_at: "2026-09-23T20:11:15.261144+00:00"
+generated_at: "2026-09-25T17:36:24.273805+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/ovett-ms/", "/service-areas/ovett-ms/fire-damage-restoration/", "/service-areas/ovett-ms/mold-remediation/", "/service-areas/agricola-ms/roofing/", "/service-areas/bay-st-louis-ms/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ovett", "url": "/service-areas/ovett-ms/"}, {"name": "Roofing Installation and Replacement"}]
