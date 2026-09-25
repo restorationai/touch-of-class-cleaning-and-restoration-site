@@ -60,12 +60,12 @@ export const brand = {
   gbpRatingValue: "4.9",
   gbpReviewCount: "605",
   gbpReviews: [
+    { author: "Jim", rating: 5, text: "Insurance agent here. Bob is a complete pro, with a well trained staff. 5 Stars!", when: "September 2026" },
     { author: "Gina", rating: 5, text: "The most respectful company I’ve had the pleasure to work with. Everyone i either spoke with, worked with in my home was considerate, polite, thourough and on time. The pricing was fair and the work seems like it will be complete in a fair amount of time. Alfonso was AMAZING!", when: "September 2026" },
     { author: "Michelle", rating: 5, text: "I always have a great experience with RT Olson plumbing and their technicians. Today Mike came out for a routine service, he showed up on time, was extremely knowledgeable and very pleasant. I will always recommend RT Olson to others as well.", when: "September 2026" },
     { author: "Lonnie", rating: 5, text: "Quick response, quality work and courteous.", when: "September 2026" },
     { author: "Zoe", rating: 5, text: "I purchased a condo this spring that didn't have air conditioning and had been putting off installing a system. When the California heat wave hit, it stopped being optional - for me and for my French Bulldog, who can't tolerate that kind of heat. I called RT Olson and had a full HVAC system…", when: "September 2026" },
     { author: "Ara", rating: 5, text: "We have used RT Olson for both plumbing and A/C at our house and always feel taken care of - Super happy with the work they have done and highly recommend them !!", when: "September 2026" },
-    { author: "Melissa", rating: 5, text: "We have used RT Olson many times for plumbing issues and have always been impressed by the quality of work and fairness of price. We completed an A/C service contract with another company that was a nightmare experience, so we were very happy to hear that RT Olson offerred HVAC services. From the…", when: "September 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "Plumbing, heating & air services in Corona, CA.",
   ctaLabel: "24/7 Emergency Line",

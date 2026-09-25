@@ -207,6 +207,11 @@
       "city": "Duquesne",
       "state": "PA",
       "slug": "duquesne-pa"
+    },
+    {
+      "city": "Jefferson Hills",
+      "state": "PA",
+      "slug": "jefferson-hills-pa"
     }
   ],
   "template": "restoration",

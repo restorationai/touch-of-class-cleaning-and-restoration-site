@@ -65,14 +65,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.9",
-  gbpReviewCount: "557",
+  gbpReviewCount: "558",
   gbpReviews: [
+    { author: "Eden", rating: 5, text: "Zac does a great job communicating with customers! Really enjoyed the service!", when: "September 2026" },
+    { author: "Summer", rating: 5, text: "Zach- Great guy, great work. ⭐️⭐️⭐️⭐️⭐️", when: "September 2026" },
     { author: "Sam", rating: 5, text: "Crew is such an amazing company!! I think Sy is the guy!! He’s super professional and always kind and friendly!!!", when: "September 2026" },
     { author: "Kaycee", rating: 5, text: "Zach is always such a joy to work with. He's helpful, upbeat, and professional.", when: "September 2026" },
     { author: "Chloe", rating: 5, text: "Zach was very professional and on time, he was great to work with i definitely would recommend", when: "September 2026" },
     { author: "Austin", rating: 5, text: "Zach was professional, punctual, helpful, and great to work with throughout the process. He was always responsive and made everything easy from start to finish.", when: "September 2026" },
-    { author: "Selena", rating: 5, text: "Zach with Crew is amazing. He is kind, welcoming, and easy to work with. Extremely professional and helpful. You can tell CREW genuinely cares about the people they work with. Highly recommend!", when: "September 2026" },
-    { author: "Thomas", rating: 5, text: "Amazing people and amazing work. The hospitality is unmatched. 10/10", when: "September 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Sioux Falls, SD.",
   ctaLabel: "24/7 Emergency Line",

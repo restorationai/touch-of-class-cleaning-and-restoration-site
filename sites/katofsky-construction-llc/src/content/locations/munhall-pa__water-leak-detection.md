@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Water Leak Detection in Munhall, PA | Katofsky Construction LLC"
+h1: "Water Leak Detection in Munhall"
+meta_description: "24/7 water leak detection in Munhall, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
+primary_keyword: "water leak detection munhall"
+secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection", "water leak in wall", "leak detection service"]
+search_intent: "local_emergency"
+priority: 4.9
+plan_hash: "c0aa553dafc2f2d2"
+generated_at: "2026-09-25T14:14:32.680670+00:00"
+manual_override: false
+internal_links: ["/services/water-leak-detection/", "/service-areas/munhall-pa/", "/service-areas/munhall-pa/fire-damage-restoration/", "/service-areas/munhall-pa/mold-remediation/", "/service-areas/allison-park-pa/water-leak-detection/", "/service-areas/baldwin-pa/water-leak-detection/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Munhall", "url": "/service-areas/munhall-pa/"}, {"name": "water-leak-detection"}]
+faq: []
+area_slug: "munhall-pa"
+service_slug: "water-leak-detection"
+city: "Munhall"
+state: "PA"
+service_display: "water-leak-detection"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug katofsky-construction-llc` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Water Leak Detection in Munhall.

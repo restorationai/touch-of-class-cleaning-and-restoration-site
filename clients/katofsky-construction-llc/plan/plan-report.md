@@ -1,22 +1,22 @@
 # Site Plan Report — Katofsky Construction LLC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-24T21:59:36.982666+00:00
+- Generated: 2026-09-25T14:14:32.485190+00:00
 - Domain: `katofskyconstruction.com`
-- Services selected: 12 of 65 catalog entries
-- Service areas: 33
+- Services selected: 30 of 65 catalog entries
+- Service areas: 34
 - Cross-product enabled: True
-- Total URLs: **442**
-- Total internal links: 3532 (avg 8.0 per page)
+- Total URLs: **1070**
+- Total internal links: 8706 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 384 |
-| `service-area` | 32 |
-| `service-landing` | 12 |
-| `blog-post` | 5 |
+| `service-area-service` | 990 |
+| `service-area` | 33 |
+| `service-landing` | 30 |
+| `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -39,6 +39,24 @@
 - `air-duct-cleaning` — Air Duct Cleaning (adjacent, priority 5)
 - `carpet-cleaning` — Carpet Cleaning (adjacent, priority 4)
 - `upholstery-cleaning` — Upholstery Cleaning (adjacent, priority 4)
+- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
+- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
+- `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
+- `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
+- `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
+- `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
+- `mold-remediation` — Mold Remediation (core, priority 10)
+- `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
+- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
+- `commercial-restoration` — Commercial Restoration (core, priority 9)
+- `industrial-restoration` — Industrial Restoration (core, priority 7)
+- `reconstruction` — Reconstruction Services (core, priority 9)
+- `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
+- `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
+- `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
+- `water-leak-detection` — Water Leak Detection (core, priority 7)
+- `emergency-water-removal` — 24/7 Emergency Water Removal (core, priority 9)
+- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 
 ## Service areas
 
@@ -75,21 +93,22 @@
 - `fox-chapel-pa` — Fox Chapel, PA
 - `churchill-pa` — Churchill, PA
 - `duquesne-pa` — Duquesne, PA
+- `jefferson-hills-pa` — Jefferson Hills, PA
 
 ## Top 10 priority pages
 
 | URL | Archetype | Priority | Primary keyword |
 | --- | --- | --- | --- |
 | `/services/fire-damage-restoration/` | `service-landing` | 9.0 | fire damage restoration pittsburgh |
+| `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation pittsburgh |
 | `/services/roofing/` | `service-landing` | 9.0 | roofing installation and replacement pittsburgh |
+| `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration pittsburgh |
+| `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration pittsburgh |
+| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing pittsburgh |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | 24/7 emergency water removal pittsburgh |
+| `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration pittsburgh |
+| `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services pittsburgh |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization pittsburgh |
-| `/services/biohazard-cleanup/` | `service-landing` | 7.2 | biohazard cleanup pittsburgh |
-| `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting pittsburgh |
-| `/service-areas/allison-park-pa/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration allison park |
-| `/service-areas/allison-park-pa/roofing/` | `service-area-service` | 7.0 | roofing installation and replacement allison park |
-| `/service-areas/baldwin-pa/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration baldwin |
-| `/service-areas/baldwin-pa/roofing/` | `service-area-service` | 7.0 | roofing installation and replacement baldwin |
-| `/service-areas/bethel-park-pa/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration bethel park |
 
 ## Validation
 
