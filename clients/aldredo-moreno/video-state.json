@@ -1,7 +1,7 @@
 {
   "last_kind": "geo",
-  "cycle_pos": 2,
-  "geo_cursor": 3,
+  "cycle_pos": 0,
+  "geo_cursor": 4,
   "history": [
     {
       "ts": "2026-09-21T16:26:28.519727+00:00",
@@ -42,6 +42,14 @@
       "service": "water-damage-restoration",
       "city": "Big Spring",
       "youtube_id": "XjFAqV9OM2w"
+    },
+    {
+      "ts": "2026-09-25T19:44:48.282032+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "water-damage-restoration",
+      "city": "Stanton",
+      "youtube_id": "kZchQytRYP0"
     }
   ]
 }
