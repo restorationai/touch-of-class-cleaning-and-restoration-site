@@ -1,7 +1,7 @@
 {
   "last_kind": "geo",
-  "cycle_pos": 2,
-  "geo_cursor": 3,
+  "cycle_pos": 0,
+  "geo_cursor": 4,
   "history": [
     {
       "ts": "2026-09-21T17:05:54.182636+00:00",
@@ -42,6 +42,14 @@
       "service": "air-duct-cleaning",
       "city": "Shrewsbury",
       "youtube_id": "MdVSLr3c_Ww"
+    },
+    {
+      "ts": "2026-09-25T20:00:01.164172+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "air-duct-cleaning",
+      "city": "Westborough",
+      "youtube_id": "FXxJQ1kgAAo"
     }
   ]
 }
