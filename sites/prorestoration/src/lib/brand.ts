@@ -18,6 +18,10 @@ export const brand = {
   phone: "(661) 393-9306",
   phoneRaw: "+16613939306",
   hideMobileHeaderCall: false,
+  // A2P/SMS-registration legal entity. When set, the estimate forms render
+  // the carrier-compliant consent checkbox naming this entity (exact wording
+  // matters to reviewers — do not paraphrase). Empty = generic consent only.
+  smsConsentEntity: "",
   // Sitewide call-tracking number (2026-08-24). When BOTH fields are set,
   // a tiny inline script in BaseLayout swaps every visible phone mention
   // and tel: link to this number AFTER the page renders. The HTML source,
@@ -64,17 +68,12 @@ export const brand = {
   sameAsUrls: ["https://www.google.com/maps?cid=13005947795120549086", "https://www.facebook.com/prorestorationservices", "https://www.yelp.com/biz/prorestoration-services-bakersfield-3", "https://www.homeadvisor.com/rated.ProRestorationServices.16241626.html", "https://www.bing.com/maps?ss=ypid.YN415B85C2894CF025"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
-  gbpRatingValue: "4.8",
-  gbpReviewCount: "115",
-  gbpReviews: [
-    { author: "Angela", rating: 5, text: "Our house flood on Christmas Eve, I called them first thing the morning after Christmas and they showed up within 2 hours and got to work. It took several days to get things cleaned up and dried out. Jack (the owner) stopped by everyday to make sure things were being taken care of. They did a great…", when: "September 2026" },
-    { author: "David", rating: 5, text: "Great service, great communication", when: "September 2026" },
-    { author: "Francisca", rating: 5, text: "Due to being a homeowners insurance claim, Pro Restoration responded as quickly as they could. Once everything was approved, this team did their best to offer a great price with just as much attention to detail at getting the job completed.", when: "September 2026" },
-    { author: "Carol", rating: 4, text: "Showed up on time & great service & very friendly. I would certainly used them again", when: "September 2026" },
-    { author: "Kim", rating: 5, text: "Noticed a leak at 6:00 pm on a Friday. ProRestoration came out immediately and stayed until well after midnight to make sure all the damaged drywall was removed. They were professional and courteous.", when: "September 2026" },
-    { author: "Aubrey", rating: 5, text: "Was in contact with Jack, he was able to answer all my questions regarding restoration. Very pleased with his service! such a great company to work with. Thank you Jack!", when: "June 2026" },
-  ] as { author: string; rating: number; text: string; when: string }[],
+  gbpRatingValue: "",
+  gbpReviewCount: "",
+  gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Bakersfield, CA.",
+  // optional custom insurance positioning line (Hero renders only when set)
+  insuranceTrustLine: "",
   ctaLabel: "24/7 Emergency Line",
   // Vertical trade-identity copy — resolved at scaffold time from
   // templates/{vertical}/vertical-tokens.json (see scripts/verticals.py).
