@@ -76,7 +76,7 @@ textarea{width:100%;padding:14px;border:1px solid #cbd5e1;border-radius:12px;fon
 ${reviewUrl ? `<button class="tile" onclick="document.getElementById('qr').classList.add('open')"><span class="ic">⭐</span>Show Review QR<small>Hand your phone to the customer to scan</small></button>` : ""}
 <button class="tile" onclick="document.getElementById('rr').classList.add('open')"><span class="ic">💬</span>Request a Review<small>We'll text the customer a review link for you</small></button>
 <a class="tile" href="/gbpphotos/${slug}"><span class="ic">📷</span>Upload Photos<small>Job shots, before &amp; afters, any photos &mdash; they go to Google and the website</small></a>
-<a class="tile" href="/logo/${slug}"><span class="ic">📎</span>Send Us Files<small>Logo or other files for the marketing team</small></a>
+<button class="tile" onclick="document.getElementById('sf').style.display='block'"><span class="ic">📎</span>Send Us Files<small>Logo or other files for the marketing team</small></button>
 <button class="tile" onclick="document.getElementById('js').classList.add('open')"><span class="ic">📝</span>Add a Job Story<small>Tell us about a job you just finished, we turn it into a website story</small></button>
 <button class="tile" style="border:2px solid #dc2626" onclick="document.getElementById('db').style.display='block'"><span class="ic">📄</span>DBA / Trade Name Certificate<small>Snap a photo of your filed DBA paperwork &mdash; we verify the name and take it from there</small></button>
 <div id="qr"><button class="close" onclick="this.parentElement.classList.remove('open')">✕</button>
@@ -97,6 +97,24 @@ ${qrImg ? `<img src="${qrImg}" alt="Review QR code" onerror="this.onerror=null;t
 <form id="dbf" style="width:100%;max-width:340px;display:flex;flex-direction:column;gap:10px">
 <label class="pick" style="border-color:#dc2626;color:#b91c1c">＋ Add the certificate photo<span id="dbcount">The whole page, name readable</span><input id="dbfile" type="file" accept="image/*"></label>
 <button class="btn" type="submit" id="dbbtn" style="background:#dc2626">Send certificate</button><div class="msg" id="dbmsg"></div></form></div></div>
+<div id="sf" style="display:none;position:fixed;inset:0;background:#fff;z-index:50;padding:56px 16px 32px;overflow:auto"><button class="close" onclick="this.parentElement.style.display='none'">✕</button>
+<div style="max-width:380px;margin:0 auto;display:flex;flex-direction:column;gap:12px">
+<div class="qrcap">Send Us Files</div>
+<div class="qrsub" style="max-width:none">Pick what you're sending first so it lands with the right team, then choose the file.</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+<button class="sfcat" data-cat="logo">🖼️ Logo / Brand Files</button>
+<button class="sfcat" data-cat="license">📜 Contractor's License</button>
+<button class="sfcat" data-cat="insurance">🛡️ Insurance (COI)</button>
+<button class="sfcat" data-cat="registration">🏢 Business Registration</button>
+<button class="sfcat" data-cat="certification">🎓 Certifications</button>
+<button class="sfcat" data-cat="customerlist">📇 Customer List (for reviews)</button>
+<button class="sfcat" data-cat="other">📎 Other</button></div>
+<label id="sflbl" style="opacity:.45;pointer-events:none;display:block;border:2px dashed #cbd5e1;border-radius:14px;padding:18px;text-align:center;cursor:pointer;font-weight:700;color:#334155">📤 <span id="sftitle">Choose the file</span><small id="sfhint" style="display:block;font-weight:500;color:#64748b;font-size:12px;margin-top:4px">Select a category above first</small>
+<input id="sff" type="file" style="display:none" accept=".png,.jpg,.jpeg,.svg,.webp,.pdf,.doc,.docx,.xls,.xlsx,.csv,.heic,.zip,.mp4,.mov,.m4v,.webm,.avi,.ai,.eps,.ttf,.otf"></label>
+<div id="sfprog" style="display:none;height:8px;background:#e2e8f0;border-radius:99px;overflow:hidden"><i id="sffill" style="display:block;height:100%;width:0;background:#2563eb"></i></div>
+<div class="msg" id="sfmsg"></div>
+<div class="qrsub" style="max-width:none">Your file is uploaded exactly as-is — quality preserved. Up to 250MB.</div></div>
+<style>.sfcat{border:1px solid #cbd5e1;background:#fff;border-radius:12px;padding:12px 8px;font-size:13px;font-weight:700;color:#334155;cursor:pointer;text-align:left}.sfcat.sel{border-color:#2563eb;background:#eff6ff;color:#1d4ed8}</style></div>
 <div id="js"><button class="close" onclick="this.parentElement.classList.remove('open')">✕</button>
 <div class="qrcap">Add a job story</div>
 <div class="qrsub">A couple of quick questions while the job is fresh. We turn your answers into a story on the website.</div>
@@ -224,6 +242,49 @@ document.getElementById('jsf').addEventListener('submit', async (e) => {
   } catch (err) { m.className = 'msg err'; m.textContent = 'Network error, try again.'; }
   b.disabled = false;
 });
+// ---- Send Us Files overlay (2026-09-26): same endpoints as /logo/{slug},
+// the worker signs every call; the client never leaves the hub page.
+(function(){
+  var LOGO_BASE='/logo/${slug}';
+  var TYPES={png:'image/png',jpg:'image/jpeg',jpeg:'image/jpeg',svg:'image/svg+xml',webp:'image/webp',pdf:'application/pdf',doc:'application/msword',docx:'application/vnd.openxmlformats-officedocument.wordprocessingml.document',xls:'application/vnd.ms-excel',xlsx:'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',csv:'text/csv',heic:'image/heic',zip:'application/zip',mp4:'video/mp4',mov:'video/quicktime',m4v:'video/x-m4v',webm:'video/webm',avi:'video/x-msvideo',ai:'application/postscript',eps:'application/postscript',ttf:'font/ttf',otf:'font/otf'};
+  var LOGO_IMG=['png','jpg','jpeg','svg','webp'];
+  var MAX=250*1024*1024, INLINE=8*1024*1024, cat='';
+  var msg=document.getElementById('sfmsg'), prog=document.getElementById('sfprog'), fill=document.getElementById('sffill');
+  function say(s,ok){msg.textContent=s;msg.className='msg '+(ok?'ok':'err');}
+  function pct(f){if(f==null){prog.style.display='none';return}prog.style.display='block';fill.style.width=Math.round(f*100)+'%';}
+  document.querySelectorAll('.sfcat').forEach(function(b){b.addEventListener('click',function(){
+    document.querySelectorAll('.sfcat').forEach(function(x){x.classList.remove('sel')});
+    b.classList.add('sel'); cat=b.dataset.cat;
+    var l=document.getElementById('sflbl'); l.style.opacity='1'; l.style.pointerEvents='auto';
+    document.getElementById('sftitle').textContent = cat==='logo'?'Choose your logo or brand kit':'Choose the file';
+    document.getElementById('sfhint').textContent = cat==='logo'?'Logo (PNG, JPG, SVG, WebP) or brand kit (ZIP, PDF, video)':'PDF, photo, video or ZIP';
+  })});
+  function putProg(u,file,type){return new Promise(function(res,rej){var x=new XMLHttpRequest();x.open('PUT',u);x.setRequestHeader('Content-Type',type);x.upload.onprogress=function(e){if(e.lengthComputable)pct(e.loaded/e.total)};x.onload=function(){(x.status>=200&&x.status<300)?res():rej(new Error('storage_'+x.status))};x.onerror=function(){rej(new Error('network'))};x.send(file)})}
+  document.getElementById('sff').addEventListener('change', async function(){
+    var f=this.files&&this.files[0]; this.value=''; if(!f)return;
+    if(!cat){say("Pick what you're sending first.",false);return}
+    var ext=(f.name.split('.').pop()||'').toLowerCase(); var type=f.type||TYPES[ext]||'';
+    if(!TYPES[ext]){say("That file type isn't supported. PDF, image, video or ZIP please.",false);return}
+    if(f.size>MAX){say('That file is too big. 250MB max per file.',false);return}
+    say('Uploading…',true); pct(0);
+    try{
+      var inlineOk=f.size<=INLINE&&cat==='logo'&&LOGO_IMG.indexOf(ext)>=0;
+      var smallDoc=f.size<=INLINE&&cat!=='logo'&&['pdf','doc','docx','xls','xlsx','csv','heic','png','jpg','jpeg','svg','webp'].indexOf(ext)>=0;
+      var fn=f.name.replace(/[^a-zA-Z0-9._-]/g,'_').slice(0,80);
+      if(inlineOk||smallDoc){
+        var r=await fetch(LOGO_BASE+'?cat='+encodeURIComponent(cat)+'&fn='+encodeURIComponent(fn),{method:'POST',headers:{'Content-Type':type},body:f});
+        if(!r.ok)throw new Error('upload failed');
+      }else{
+        var sr=await fetch(LOGO_BASE+'?action=sign',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({cat:cat,fn:f.name,size:f.size,type:type})});
+        var sd=await sr.json().catch(function(){return{}});
+        if(!sr.ok||!sd.ok){say(sd.error||'Upload failed. Please try again.',false);pct(null);return}
+        await putProg(sd.url,f,sd.contentType||type);
+        await fetch(LOGO_BASE+'?action=complete',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({path:sd.path})}).catch(function(){});
+      }
+      pct(null); say('✓ Uploaded. Thank you! Send more anytime.',true);
+    }catch(e){pct(null); say(/storage_413/.test(String(e&&e.message))?'That file is too big. 250MB max per file.':'Upload failed. Please check your connection and try again.',false);}
+  });
+})();
 </script></div></body></html>`;
 }
 
