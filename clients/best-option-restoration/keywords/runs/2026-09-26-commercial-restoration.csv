@@ -1,0 +1,38 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+commercial mold removal,transactional,880,21,26.45,2,commercial restoration,,,false
+disaster restoration company,transactional,720,19,38.31,2,commercial restoration,,,false
+commercial restoration services,transactional,320,7,25.08,2,commercial restoration,,,false
+emergency restoration company,transactional,260,18,20.12,2,commercial restoration,,,false
+emergency restoration companies,transactional,260,8,20.12,2,commercial restoration,,,false
+commercial restoration near me,transactional,140,41,,2,commercial restoration,,,false
+commercial fire restoration,transactional,110,,5.56,2,commercial restoration,,,false
+emergency restoration contractors,transactional,40,32,,2,commercial restoration,,,false
+commercial restoration contractors near me,transactional,10,44,,2,commercial restoration,,,false
+commercial restoration companies,commercial,720,6,17.58,2,commercial restoration,,,false
+commercial restoration,commercial,390,,95.25,2,commercial restoration,,,false
+building restoration services,commercial,260,14,21.96,2,commercial restoration,,,false
+remediation contractors,commercial,170,,27.47,2,commercial restoration,,,false
+structural restoration services,commercial,140,11,2.8,2,commercial restoration,,,false
+commercial property restoration,commercial,110,,6.02,2,commercial restoration,,,false
+commercial building repair,commercial,110,,13.06,2,commercial restoration,,,false
+commercial building restoration,commercial,50,,,2,commercial restoration,,,false
+commercial disaster recovery,commercial,50,,8.61,2,commercial restoration,,,false
+large loss restoration,commercial,30,,,2,commercial restoration,,,false
+commercial restoration contractors,commercial,20,28,10.13,2,commercial restoration,,,false
+commercial disaster restoration services,commercial,20,66,,3,commercial restoration,,,false
+business interruption insurance,informational,3600,21,24.24,2,commercial restoration,,,false
+emergency response plan for business,informational,20,33,,2,commercial restoration,,,false
+sprinkler water damage,informational,10,,,2,commercial restoration,,,false
+what questions to ask a commercial restoration company,informational,,,,2,commercial restoration,,,false
+how to choose a commercial restoration company,informational,,,,2,commercial restoration,,,false
+does business interruption insurance cover fire damage,informational,,,,2,commercial restoration,,,false
+can my business stay open during fire damage restoration,informational,,,,2,commercial restoration,,,false
+how long does commercial fire damage restoration take,informational,,,,2,commercial restoration,,,false
+what is the difference between mitigation and restoration,informational,,,,2,commercial restoration,,,false
+who pays for restoration in a leased commercial building,informational,,,,2,commercial restoration,,,false
+what documentation do i need for a commercial property insurance claim,informational,,,,2,commercial restoration,,,false
+how do you know if smoke damaged the hvac in a commercial building,informational,,,,2,commercial restoration,,,false
+what happens to inventory after a fire in a business,informational,,,,2,commercial restoration,,,false
+what is an emergency response plan for commercial property,informational,,,,2,commercial restoration,,,false
+restoration building services,navigational,2400,3,3.37,3,commercial restoration,,,false
+national restoration companies,navigational,110,15,15.36,3,commercial restoration,,,false
