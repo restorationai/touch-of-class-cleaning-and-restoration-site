@@ -1,6 +1,6 @@
 {
   "slug": "frontline-fire-flood",
-  "checked_at": "2026-09-26T03:39:18.208218+00:00",
+  "checked_at": "2026-09-26T14:26:19.354691+00:00",
   "canonical": {
     "name": "Frontline Fire & Flood",
     "phone": "(253) 200-0503",
@@ -37,8 +37,15 @@
     {
       "platform": "angi",
       "url": "https://frontlinefireflood.com/meet-the-team/",
-      "status": "unverified",
-      "notes": "unverifiable \u2014 every fetch tier failed (http 404; dfs_content_parsing Page content is empty; google_serp_snippet: page not indexed; wayback: no 200 capture)"
+      "status": "ok",
+      "fetch": "wayback:2026-02-22",
+      "phones_found": [
+        "(253) 235-1077",
+        "(999) 999-9999"
+      ],
+      "phone_match": false,
+      "address_match": false,
+      "notes": "via Wayback capture 2026-02-22 (page bot-blocked); canonical phone absent; page shows (253) 235-1077, (999) 999-9999"
     }
   ],
   "duplicates": [],
@@ -54,7 +61,19 @@
       "platform": "gbp-profile",
       "target": "gbp-profile",
       "title": "Fix wrong phone number on gbp-profile"
+    },
+    {
+      "kind": "phone",
+      "platform": "angi",
+      "target": "https://frontlinefireflood.com/meet-the-team/",
+      "title": "Fix wrong phone number on angi"
+    },
+    {
+      "kind": "address",
+      "platform": "angi",
+      "target": "https://frontlinefireflood.com/meet-the-team/",
+      "title": "Fix address on angi"
     }
   ],
-  "actions_upserted": 0
+  "actions_upserted": 1
 }
