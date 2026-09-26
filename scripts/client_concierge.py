@@ -10113,6 +10113,142 @@ Answer questions ONLY from the knowledge above; anything outside it is
 RENAME_REPLY_SYSTEM = RENAME_REPLY_SYSTEM.replace(
     "<<RENAME_TRUTH>>", RENAME_TRUTH)
 
+# ---- Rename Conversation v2 (Santino 2026-09-26, Greg/PuroClean) ----------
+# "Number 2 probably best ... Any results on hoarding cleanup?" locked the
+# name, recorded the hedge as consent, and dropped both questions. Law:
+# HEDGE IS NOT CONSENT, QUESTIONS COME FIRST, objections get the playbook
+# once (informed choice, never pressure twice).
+
+_HEDGE_RE = re.compile(
+    r"\b(probably|maybe|leaning|i think|possibly|might|likely|not sure|"
+    r"i guess|perhaps)\b", re.I)
+_PLUMBING_OBJ_RE = re.compile(r"plumb|licen[cs]e", re.I)
+_QUESTION_TERM_RE = re.compile(
+    r"\b([a-z]+(?:\s[a-z]+)?)\s+(cleanup|remediation|removal|restoration|"
+    r"cleaning|repair|testing|abatement)\b", re.I)
+
+# Client-facing essence, Santino's framing 2026-09-26. Two accurate risk
+# channels, "very unlikely" explicit, ask-forgiveness stance, and the
+# plumber-intent leverage story. No em dashes anywhere (house law; the
+# send chokepoint strips them too).
+PLUMBING_NAME_PLAYBOOK = (
+    "A plumbing license is not required to put plumbing words in a Google "
+    "Business Profile name. Google does not check licenses for names. The "
+    "real risk is another company reporting the listing, and that is very "
+    "unlikely. If a report went to Google, the worst case is the name gets "
+    "reverted. If it went to the state contractors board, the worst case "
+    "is a citation: you drop the word and pay a small fine. Clients "
+    "generally take that trade because the extra business is pennies on "
+    "the dollar against the risk; we move with ask forgiveness, not ask "
+    "permission. And the bigger point: people with a burst pipe search "
+    "for an emergency plumber when what they really need is water damage "
+    "restoration. The plumber gets the call first and hands the job to a "
+    "restoration company second. With plumbing in the listing name you "
+    "get those calls first, which also gives you jobs to hand TO "
+    "plumbers, so referral relationships start flowing your direction.")
+
+RENAME_LEANING_SYSTEM = """\
+You are Monica, the client concierge, mid-conversation about renaming the
+client's Google Business Profile. The client just gave a TENTATIVE pick
+(hedged, or with open questions). Your job, in ONE short SMS:
+1. Answer EVERY question they asked, directly, first. When search volumes
+   are provided below, cite them plainly; NEVER invent a number. If no
+   data is provided for something they asked, say you'll pull the numbers
+   and follow up, honestly.
+2. If an OBJECTION PLAYBOOK is provided, work its substance in naturally,
+   once. Never argue twice; after this message their choice stands.
+3. End with exactly ONE short lock-in question that quotes their tentative
+   pick VERBATIM in double quotes.
+Rules: plain SMS under 900 characters, warm and human, no em dashes, no
+emoji, no bullet lists, never claim an action was taken, never pressure.
+Return JSON only: {"message": "..."}"""
+
+
+def _extract_questions(text: str) -> list[str]:
+    return [s.strip() for s in re.split(r"(?<=[.?!])\s+", text or "")
+            if s.strip().endswith("?")]
+
+
+def _svc_volume(company: dict, term: str):
+    """Statewide monthly search volume for one term, or None (fail-open)."""
+    try:
+        from gbp_name_suggest import load_dfs_creds
+        from rename_autoseed import STATE_FULL
+        st = (company.get("state") or "").strip()
+        if not st:
+            return None
+        u, p = load_dfs_creds()
+        r = requests.post(
+            "https://api.dataforseo.com/v3/keywords_data/google_ads/"
+            "search_volume/live", auth=(u, p),
+            json=[{"keywords": [term.lower()], "language_code": "en",
+                   "location_name":
+                       f"{STATE_FULL.get(st.upper(), st)},United States"}],
+            timeout=60)
+        for tk in r.json().get("tasks") or []:
+            for res in tk.get("result") or []:
+                return res.get("search_volume") or 0
+    except Exception:  # noqa: BLE001 — volumes are best-effort
+        return None
+    return None
+
+
+def _rename_leaning_reply(company, contact, msg, pend, cands, item,
+                          questions, hedged, state, dry_run) -> bool:
+    """Answer-first reply for a hedged pick or a pick carrying questions.
+    Sets stage back to options with pend['leaning'] so a clean unhedged
+    yes afterwards locks the name through the normal confirm path."""
+    body_txt = msg.get("body") or ""
+    playbook = ""
+    if (_PLUMBING_OBJ_RE.search(body_txt)
+            and any("plumbing" in c["item"].lower() for c in cands)):
+        playbook = PLUMBING_NAME_PLAYBOOK
+    vols = []
+    for m in _QUESTION_TERM_RE.finditer(" ".join(questions)):
+        term = f"{m.group(1)} {m.group(2)}".lower()
+        v = _svc_volume(company, term)
+        if v is not None:
+            vols.append(f"{term}: {v:,} searches/mo statewide")
+    cand_lines = "\n".join(
+        f"- {c['item']}"
+        + (f"\n  research: {_clip(str(c.get('reason') or ''), 200)}"
+           if c.get("reason") else "") for c in cands)
+    result = anthropic_json(
+        RENAME_LEANING_SYSTEM,
+        f"Their tentative pick: {item}\n"
+        f"Client message: {body_txt[:600]}\n"
+        f"Their questions: {questions or '(none, hedged pick)'}\n"
+        f"Search volumes pulled for their questions: "
+        f"{'; '.join(vols) if vols else '(none available)'}\n"
+        + (f"OBJECTION PLAYBOOK:\n{playbook}\n" if playbook else "")
+        + f"Candidates on record:\n{cand_lines}")
+    reply = str((result or {}).get("message") or "").strip()
+    if not reply:
+        reply = (f'Good questions, let me pull exact numbers and get right '
+                 f'back to you. Meanwhile, want me to pencil in "{item}"?')
+    reply = re.sub(r"\s*[\u2014\u2013]\s*", ", ", reply)
+    for q in questions:
+        keys = re.findall(r"[a-z]{5,}", q.lower())
+        key = max(keys, key=len) if keys else ""
+        if key and key not in reply.lower():
+            print(f"    RENAME leaning: reply may not cover {key!r} "
+                  f"(question: {q[:60]!r})")
+    if "?" not in reply[-140:]:
+        reply += f' Want me to lock in "{item}"?'
+    sent = _rename_send(company, contact, reply, state, dry_run,
+                        "leaning", pend)
+    if sent and pend is not None:
+        pend["stage"] = "options"
+        pend["leaning"] = item
+        pend.pop("chosen", None)
+        _rename_save(company["id"], pend, dry_run)
+        print(f"    RENAME leaning: answered first, lock-in pending on "
+              f"{item!r} (hedged={bool(hedged)}, "
+              f"questions={len(questions)})")
+    return True
+
+
+
 
 # 2B: DBA DOCUMENT INTAKE (Santino 2026-09-12). When the filing paperwork
 # arrives as a texted photo, vision reads the document, extracts the
@@ -10551,6 +10687,13 @@ def handle_rename_reply(company: dict, contact: dict, msg: dict,
                   "message to the normal composer")
             return False
         want = _norm_name(result.get("confirmed_name"))
+        # A clean short yes after a LEANING exchange locks the pending pick
+        # (v2: the leaning reply promised exactly this).
+        if not want and pend.get("leaning") and len(quote_txt.split()) <= 8 \
+                and re.search(r"\b(yes|yep|yeah|lock|confirmed|go with|"
+                              r"sounds good|do it|let'?s do)\b",
+                              quote_txt, re.I):
+            want = _norm_name(pend["leaning"])
         match = next((c for c in cands if _norm_name(c["item"]) == want), None)
         if not match:
             # CLIENT-AUTHORED NAME (Amin 09-13 proposed his own variant):
@@ -10580,6 +10723,14 @@ def handle_rename_reply(company: dict, contact: dict, msg: dict,
                         "before we start the paperwork.")
                 _rename_send(company, contact, body, state, dry_run, "re-ask", pend)
                 return True
+        # v2 GATE (Santino 2026-09-26): hedge or open questions = NOT
+        # consent. Answer first, then one clean lock-in.
+        _qs = _extract_questions(msg.get("body") or "")
+        _hedged = bool(_HEDGE_RE.search(quote_txt))
+        if _qs or _hedged:
+            return _rename_leaning_reply(company, contact, msg, pend,
+                                         cands, match["item"], _qs,
+                                         _hedged, state, dry_run)
         _choose_candidate(company["id"], match["item"], dry_run)
         _merge_rename_intent(company["id"], {
             "decision": "rename",
