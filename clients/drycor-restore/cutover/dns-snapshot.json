@@ -1,6 +1,6 @@
 {
  "domain": "drycor.com",
- "captured_at": "2026-09-26T19:52:24+00:00",
+ "captured_at": "2026-09-26T19:56:57+00:00",
  "authoritative": {
   "ns": [
    "ns63.domaincontrol.com",
@@ -30,6 +30,23 @@
    "amos.ns.cloudflare.com",
    "anastasia.ns.cloudflare.com"
   ],
-  "records": []
+  "records": [
+   {
+    "id": "8402787a7668e6ad12a66b709543f115",
+    "type": "MX",
+    "name": "drycor.com",
+    "content": "drycor-com.mail.protection.outlook.com",
+    "priority": 0,
+    "proxied": false
+   },
+   {
+    "id": "78d97656dccf3dd9f60dd4553896de3d",
+    "type": "TXT",
+    "name": "drycor.com",
+    "content": "v=spf1 include:spf.protection.outlook.com -all",
+    "priority": null,
+    "proxied": false
+   }
+  ]
  }
 }

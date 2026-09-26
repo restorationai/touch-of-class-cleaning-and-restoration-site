@@ -13,7 +13,7 @@
     "url_count": 764,
     "generated_at": "2026-09-23T14:11:36.494282+00:00"
   },
-  "updated_at": "2026-09-26T18:25:34.064902+00:00",
+  "updated_at": "2026-09-26T19:56:58+00:00",
   "indexnow_key": "240bb5d741474b6c82ce0287639ce378",
   "build": {
     "scaffolded_at": "2026-09-11T21:37:06.902807+00:00",
@@ -43,5 +43,17 @@
     "last_audit_at": "2026-09-24T21:46:01Z",
     "last_audit_verdict": "red",
     "last_audit_report_path": "audit-runs/2026-09-24-onsite-audit.md"
+  },
+  "zone": {
+    "id": "ef28e8140740f6ad391564f7de1a2e39",
+    "name": "drycor.com",
+    "status": "active",
+    "name_servers": [
+      "amos.ns.cloudflare.com",
+      "anastasia.ns.cloudflare.com"
+    ]
+  },
+  "apex_cutover": {
+    "legacy_origin": "192.0.79.180"
   }
 }
