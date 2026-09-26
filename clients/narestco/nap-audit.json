@@ -1,6 +1,6 @@
 {
   "slug": "narestco",
-  "checked_at": "2026-09-25T19:09:30.068746+00:00",
+  "checked_at": "2026-09-26T03:53:42.098077+00:00",
   "canonical": {
     "name": "National Restoration Construction",
     "phone": "(206) 883-0333",
@@ -37,8 +37,14 @@
     {
       "platform": "yelp",
       "url": "https://www.yelp.com/biz/national-restoration-construction-federal-way-3",
-      "status": "unverified",
-      "notes": "unverifiable \u2014 every fetch tier failed (http 403; dfs_content_parsing Page content is empty; google_serp_snippet: page not indexed; wayback: no 200 capture)"
+      "status": "ok",
+      "fetch": "google_serp_snippet",
+      "phones_found": [
+        "(206) 756-3668"
+      ],
+      "phone_match": false,
+      "address_match": true,
+      "notes": "via Google snippet (page bot-blocked); canonical phone absent; page shows (206) 756-3668"
     },
     {
       "platform": "yelp",
@@ -50,11 +56,18 @@
       "platform": "bbb",
       "url": "https://www.bbb.org/us/wa/federal-way/profile/fire-water-damage-restoration/national-restoration-construction-llc-1296-1000167537",
       "status": "ok",
-      "fetch": "google_serp_snippet",
-      "phones_found": [],
-      "phone_match": null,
+      "fetch": "wayback:2026-04-18",
+      "phones_found": [
+        "(844) 672-2424",
+        "(800) 647-0982",
+        "(202) 393-8000",
+        "(202) 393-1198",
+        "(215) 985-9313",
+        "(215) 563-4907"
+      ],
+      "phone_match": false,
       "address_match": null,
-      "notes": "via Google snippet (page bot-blocked); no phone number found on page; canonical street address not found on page"
+      "notes": "via Wayback capture 2026-04-18 (page bot-blocked); canonical phone absent; page shows (844) 672-2424, (800) 647-0982, (202) 393-8000; canonical street address not found on page"
     },
     {
       "platform": "homeadvisor",
@@ -169,6 +182,18 @@
       "platform": "gbp-profile",
       "target": "gbp-profile",
       "title": "Fix wrong phone number on gbp-profile"
+    },
+    {
+      "kind": "phone",
+      "platform": "yelp",
+      "target": "https://www.yelp.com/biz/national-restoration-construction-federal-way-3",
+      "title": "Fix wrong phone number on yelp"
+    },
+    {
+      "kind": "phone",
+      "platform": "bbb",
+      "target": "https://www.bbb.org/us/wa/federal-way/profile/fire-water-damage-restoration/national-restoration-construction-llc-1296-1000167537",
+      "title": "Fix wrong phone number on bbb"
     },
     {
       "kind": "phone",

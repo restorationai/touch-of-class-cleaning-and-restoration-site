@@ -1,6 +1,6 @@
 {
   "slug": "restoration-groups",
-  "checked_at": "2026-09-25T19:13:59.223499+00:00",
+  "checked_at": "2026-09-26T03:56:56.828391+00:00",
   "canonical": {
     "name": "The Restoration Group",
     "phone": "(855) 650-7422",
@@ -38,17 +38,26 @@
       "platform": "angi",
       "url": "https://www.angi.com/companylist/us/il/chicago/blackstone-restoration-group%2Cinc-reviews-7833358.htm",
       "status": "ok",
-      "fetch": "google_serp_snippet",
-      "phones_found": [],
-      "phone_match": null,
+      "fetch": "wayback:2023-06-09",
+      "phones_found": [
+        "(773) 252-3200",
+        "(773) 750-3812"
+      ],
+      "phone_match": false,
       "address_match": null,
-      "notes": "via Google snippet (page bot-blocked); no phone number found on page; canonical street address not found on page"
+      "notes": "via Wayback capture 2023-06-09 (page bot-blocked); canonical phone absent; page shows (773) 252-3200, (773) 750-3812; canonical street address not found on page"
     },
     {
       "platform": "yelp",
       "url": "https://www.yelp.com/biz/the-restoration-group-highland-park",
-      "status": "unverified",
-      "notes": "unverifiable \u2014 every fetch tier failed (http 403; dfs_content_parsing Page content is empty; google_serp_snippet: page not indexed; wayback: no 200 capture)"
+      "status": "ok",
+      "fetch": "google_serp_snippet",
+      "phones_found": [
+        "(973) 587-2139"
+      ],
+      "phone_match": false,
+      "address_match": null,
+      "notes": "via Google snippet (page bot-blocked); canonical phone absent; page shows (973) 587-2139; canonical street address not found on page"
     },
     {
       "platform": "houzz",
@@ -72,10 +81,12 @@
       "url": "https://www.facebook.com/KenilworthTAP/posts/mike-young-from-the-restoration-group-located-in-kenilworth-was-honored-with-the/879540930853556/",
       "status": "ok",
       "fetch": "google_serp_snippet",
-      "phones_found": [],
-      "phone_match": null,
+      "phones_found": [
+        "(302) 664-1700"
+      ],
+      "phone_match": false,
       "address_match": null,
-      "notes": "via Google snippet (page bot-blocked); no phone number found on page; canonical street address not found on page"
+      "notes": "via Google snippet (page bot-blocked); canonical phone absent; page shows (302) 664-1700; canonical street address not found on page"
     },
     {
       "platform": "homeguide",
@@ -106,6 +117,18 @@
     },
     {
       "kind": "phone",
+      "platform": "angi",
+      "target": "https://www.angi.com/companylist/us/il/chicago/blackstone-restoration-group%2Cinc-reviews-7833358.htm",
+      "title": "Fix wrong phone number on angi"
+    },
+    {
+      "kind": "phone",
+      "platform": "yelp",
+      "target": "https://www.yelp.com/biz/the-restoration-group-highland-park",
+      "title": "Fix wrong phone number on yelp"
+    },
+    {
+      "kind": "phone",
       "platform": "houzz",
       "target": "https://www.houzz.com/professionals/general-contractors/north-jersey-restoration-group-pfvwus-pf~1892966983",
       "title": "Fix wrong phone number on houzz"
@@ -115,6 +138,12 @@
       "platform": "houzz",
       "target": "https://www.houzz.com/professionals/general-contractors/north-jersey-restoration-group-pfvwus-pf~1892966983",
       "title": "Fix address on houzz"
+    },
+    {
+      "kind": "phone",
+      "platform": "facebook",
+      "target": "https://www.facebook.com/KenilworthTAP/posts/mike-young-from-the-restoration-group-located-in-kenilworth-was-honored-with-the/879540930853556/",
+      "title": "Fix wrong phone number on facebook"
     },
     {
       "kind": "phone",
