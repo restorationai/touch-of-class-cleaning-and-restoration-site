@@ -278,3 +278,19 @@ Flagged same-day: Air Care rename agenda should be PAUSED regardless (trust shak
 ## 18. Fleet audit: dead imagesBase refs on preview-phase clients (FOUND 2026-09-26, ProRest/Davis fixed)
 
 ProRest: images.{domain} had NO DNS (preview client, zone not delegated) — logo, homepage hero and 11 blog images all hung/broken; Davis: domain resolved but brand/logo.png object missing. Both localized + plan-input logo pins. TODO: sweep every non-cutover client's sites/ for images.{domain} references, verify each URL resolves + returns 200, localize failures (wrangler r2 object get -> public/images/, rewrite refs). Also: content_writer should emit LOCAL image paths for preview-phase clients (check its imagesBase logic) so new posts do not reintroduce dead refs.
+
+## 19. Rename Conversation v2 — multi-intent replies, hedge-aware consent (OUTLINED 2026-09-26, Greg/PuroClean case — DO NOT BUILD YET)
+
+Incident: Greg replied "Number 2 probably best. Takes years to get plumbing license out here. Any results on low hanging fruit like hoarding cleanup?" + "Or focus more on mold remediation" — the rename lane classified the batch as a CHOICE, fired the fixed "Perfect, we'll move forward..." DBA template, recorded the hedged quote as consent (stage=awaiting_dba), and both questions vanished. His 23:13 booked-calls attribution dispute ("both are customers already") also went unacknowledged.
+
+Root cause: the rename lane is a single-intent state machine with FIXED response templates — multi-intent inbounds collapse to whichever intent advances the pipeline. Same agenda-hijack family as queue 17 (Sarah Boyd), living inside the rename lane.
+
+Build outline (merge with queue 17's gates where natural):
+1. MULTI-INTENT DECOMPOSITION: classify returns a LIST (choice_signal, questions[], objection, side_topic) per inbound batch; a deterministic post-compose gate verifies the draft addresses every extracted question or explicitly defers it.
+2. HEDGE IS NOT CONSENT: "probably/maybe/leaning/I think" or any unanswered question in the batch = new state "leaning", never "confirmed". Monica answers first, then asks one clean lock-in question. Hard regex gate: consent_quote may not contain hedge words.
+3. QUESTIONS-FIRST: answers precede any pipeline advancement in the same message.
+4. VOLUMES-IN-ANSWERS: name-strategy counter-proposals (hoarding, mold-focus) get real DFS numbers — extend the lane with a volume lookup so Monica quotes data, not silence (extends the volumes-in-reasons law).
+5. SIDE-TOPIC DISPOSITION: non-rename content in an inbound is answered or explicitly escalated (append_escalation), never dropped — Greg's attribution dispute is the test case.
+6. TEMPLATES BECOME SKELETONS: fixed bodies (confirm/re-ask/decline) become required elements the composer extends; string-bound exact-name law unchanged.
+
+Current Greg state needing human-directed repair: stage=awaiting_dba on a hedged consent; owed answers on hoarding volume + mold-weighting; booked-calls dispute unaddressed (also FOR SANTINO: he is disputing that the 2 "booked" calls were new business).
