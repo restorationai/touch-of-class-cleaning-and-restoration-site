@@ -65,14 +65,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.9",
-  gbpReviewCount: "596",
+  gbpReviewCount: "598",
   gbpReviews: [
+    { author: "Jeffery", rating: 5, text: "Sy is amazing at his job highly recommend!!", when: "September 2026" },
+    { author: "Maureen", rating: 5, text: "Sy is extremely professional and easy to work with! Definitely the best!!! Thank you Sy for all you do in and out of work!", when: "September 2026" },
     { author: "Faith", rating: 5, text: "Zach was professional, on time, helpful, and great to work with! He made the whole experience easy and pleasant. Highly recommend!", when: "September 2026" },
     { author: "Joey", rating: 5, text: "Zach is literally the best, there is not another person who has made me feel better about where I am at then him", when: "September 2026" },
     { author: "Jackson", rating: 5, text: "I reached out to Zach for a quote after my basement flooded, and I couldn’t be more impressed with the service he and his company provided. From start to finish, they went above and beyond to make sure everything was taken care of. What truly sets them apart is their commitment to their customers…", when: "September 2026" },
     { author: "Jay", rating: 5, text: "Zach and Jayden helped me with my flooding situation and did a great job. Both were very nice and helped with any questions I had. Would recommend!", when: "September 2026" },
-    { author: "Sheila", rating: 5, text: "Zac is the bestest person ever. He saved the day!", when: "September 2026" },
-    { author: "Kyle", rating: 5, text: "Zach was amazing in helping me with everything to help restoring my family home after a terrible flood. He walked me through every step of the process and was paramount in recovering my house back to what it was originally. I would suggest Zach always to help anytime you’re in the same situation.", when: "September 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Sioux Falls, SD.",
   ctaLabel: "24/7 Emergency Line",
