@@ -274,3 +274,7 @@ Strategy (gates, not prompting — prompting has failed 3x):
 6. WATCHER: extend reply_binding_audit into a topic-departure audit (retro-scan sends for topic switches without invitation).
 
 Flagged same-day: Air Care rename agenda should be PAUSED regardless (trust shaky); Sarah owed a human recovery message + a precise LSA-timeline answer.
+
+## 18. Fleet audit: dead imagesBase refs on preview-phase clients (FOUND 2026-09-26, ProRest/Davis fixed)
+
+ProRest: images.{domain} had NO DNS (preview client, zone not delegated) — logo, homepage hero and 11 blog images all hung/broken; Davis: domain resolved but brand/logo.png object missing. Both localized + plan-input logo pins. TODO: sweep every non-cutover client's sites/ for images.{domain} references, verify each URL resolves + returns 200, localize failures (wrangler r2 object get -> public/images/, rewrite refs). Also: content_writer should emit LOCAL image paths for preview-phase clients (check its imagesBase logic) so new posts do not reintroduce dead refs.
