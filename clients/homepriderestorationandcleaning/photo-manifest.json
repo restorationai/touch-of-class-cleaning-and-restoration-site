@@ -811,8 +811,8 @@
         "text_overlay",
         "logo_card"
       ],
-      "reason": "Designed review card with overlaid text and Google logo; no photographic content.",
-      "triaged_at": "2026-09-26T03:12:35Z",
+      "reason": "Designed marketing card with overlaid review text and Google logo; no photo content.",
+      "triaged_at": "2026-09-26T03:17:35Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipMCZHxK2zWM_TZtSoxvjFKNrAYSBZMVzido6bmJ": {
@@ -5424,5 +5424,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-26T03:12:35Z"
+  "triaged_at": "2026-09-26T03:17:35Z"
 }

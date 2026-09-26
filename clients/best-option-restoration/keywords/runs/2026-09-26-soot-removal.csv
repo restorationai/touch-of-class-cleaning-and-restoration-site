@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,would_be_priority,fan_out_parent,city_modifier,covered_by,queued
+soot removal,transactional,320,,40.55,2,1,soot removal,,,no
+soot clean up,transactional,140,,13.6,2,1,soot removal,,,no
+fire soot removal,transactional,90,2,,2,1,soot removal,,,no
+puffback cleanup,transactional,70,,51.97,2,1,soot removal,,,no
+soot cleaning company,transactional,50,,24.48,2,1,soot removal,,,no
+soot removal company,transactional,30,,13.68,2,2,soot removal,,,no
+soot cleaning services near me,transactional,20,10,20.06,2,2,soot removal,,,no
+soot removal from walls,commercial,390,,5.68,2,1,soot removal,,,no
+soot damage restoration,commercial,260,6,,2,1,soot removal,,,no
+professional soot removal,commercial,50,,14.92,2,1,soot removal,,,no
+soot remediation,commercial,20,,,2,2,soot removal,,,no
+smoke and soot cleanup,commercial,20,,,2,2,soot removal,,,no
+black soot on plastic in house,informational,2400,,,2,1,soot removal,,,no
+soot from a fire,informational,1000,,35.04,2,1,soot removal,,,no
+how to clean soot off walls,informational,590,,1.28,2,1,soot removal,,,no
+candle soot damage,informational,590,,,2,1,soot removal,,,no
+how to remove soot from walls,informational,390,,0.94,2,1,soot removal,,,no
+black soot on walls,informational,390,,,2,1,soot removal,,,no
+candle soot on walls,informational,210,,0.44,2,1,soot removal,,,no
+ghosting on walls,informational,210,,,2,1,soot removal,,,no
+how to get soot out of carpet,informational,210,,51.51,2,1,soot removal,,,no
+furnace puff back,informational,170,,,2,1,soot removal,,,no
+soot damage,informational,140,,,2,1,soot removal,,,no
+soot on ceiling,informational,110,,,2,1,soot removal,,,no
+is soot harmful,informational,70,,,2,1,soot removal,,,no
+black dust on walls,informational,50,,,2,1,soot removal,,,no
+should you wipe soot off walls after a fire,informational,,,,2,1,soot removal,,,no
+can i clean soot myself or do i need a professional,informational,,,,2,1,soot removal,,,no
+does homeowners insurance cover soot damage,informational,,,,2,1,soot removal,,,no
+can soot get into hvac ducts after a fire,informational,,,,2,1,soot removal,,,no
+why does my house still smell like smoke after soot cleanup,informational,,,,2,1,soot removal,,,no
+is it safe to stay in a house with soot damage,informational,,,,2,1,soot removal,,,no
+how to clean soot off brick,informational,480,,0.56,2,2,soot removal,,,no
+how to remove soot from clothes,informational,70,,0.18,2,2,soot removal,,,no
+how to clean soot off ceiling,informational,40,,0.95,2,2,soot removal,,,no
+is soot toxic,informational,40,6,,2,2,soot removal,,,no
+smoke and soot damage,informational,30,,,2,2,soot removal,,,no
+soot damage cleanup,informational,10,44,,2,2,soot removal,,,no
+how to clean soot after a fire,informational,10,26,,2,2,soot removal,,,no
+is soot dangerous to breathe,informational,10,1,,2,2,soot removal,,,no
