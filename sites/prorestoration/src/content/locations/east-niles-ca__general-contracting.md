@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "513b389e7d3793a9"
-generated_at: "2026-09-23T14:11:55.952928+00:00"
+generated_at: "2026-09-26T17:45:52.555683+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/east-niles-ca/", "/service-areas/east-niles-ca/fire-damage-restoration/", "/service-areas/east-niles-ca/home-remodeling/", "/service-areas/arvin-ca/general-contracting/", "/service-areas/bear-valley-springs-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "East Niles", "url": "/service-areas/east-niles-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]

@@ -1272,8 +1272,8 @@
     },
     "gbp:gbp-AF1QipMUOSwTSfN4Pow4ijvOBsYsyzw9YZ3CcKuK9eGi": {
       "source": "gbp",
-      "storage": "job-photos/posted/gbp-AF1QipMUOSwTSfN4Pow4ijvOBsYsyzw9YZ3CcKuK9eGi.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipMUOSwTSfN4Pow4ijvOBsYsyzw9YZ3CcKuK9eGi.jpg",
+      "storage": "job-photos/posted/r1790433589_gbp-AF1QipMUOSwTSfN4Pow4ijvOBsYsyzw9YZ3CcKuK9eGi.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/r1790433589_gbp-AF1QipMUOSwTSfN4Pow4ijvOBsYsyzw9YZ3CcKuK9eGi.jpg",
       "width": 1200,
       "height": 900,
       "bytes": 89588,
@@ -4267,6 +4267,17 @@
       "triaged_at": "2026-08-05T06:06:29Z",
       "triage_model": "claude-sonnet-4-6",
       "duplicate_of": "gbp:gbp-AF1QipMdli4M3U0k_wKR2-SQRLxsvf_XlhVPQ7nNvvvJ"
+    },
+    "gbp:gbp-AF1QipOuVi9rd7NSUwusb1fmKUEvePejtpk8QsXR40yT": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOuVi9rd7NSUwusb1fmKUEvePejtpk8QsXR40yT.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipOuVi9rd7NSUwusb1fmKUEvePejtpk8QsXR40yT.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 28675,
+      "sha1": "640808fbb8f573ec",
+      "exif": {},
+      "duplicate_of": "gbp:gbp-AF1QipMCX7jFEHvXeiVzOgacZXShBhFoc9e8w8WKZZwx"
     },
     "gbp:gbp-AF1QipOuyLi0GGnQRjFoH4HhqXaT7z0C1HkDfdzcu__x": {
       "source": "gbp",

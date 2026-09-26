@@ -787,9 +787,9 @@
       "triage_model": "claude-sonnet-4-6"
     },
     "crew:1789510891021-b1477828": {
-      "source": "crew",
-      "storage": "job-photos/1789510891021-b1477828.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510891021-b1477828.jpg",
+      "source": "gbp",
+      "storage": "job-photos/posted/1789510891021-b1477828.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/1789510891021-b1477828.jpg",
       "width": 720,
       "height": 960,
       "bytes": 53827,
@@ -813,9 +813,9 @@
       "triage_model": "claude-sonnet-4-6"
     },
     "crew:1789510891391-1dcd3e0f": {
-      "source": "crew",
-      "storage": "job-photos/1789510891391-1dcd3e0f.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510891391-1dcd3e0f.jpg",
+      "source": "gbp",
+      "storage": "job-photos/posted/1789510891391-1dcd3e0f.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/1789510891391-1dcd3e0f.jpg",
       "width": 1280,
       "height": 720,
       "bytes": 208408,
@@ -839,9 +839,9 @@
       "triage_model": "claude-sonnet-4-6"
     },
     "crew:1789510891913-5fdff5c7": {
-      "source": "crew",
-      "storage": "job-photos/1789510891913-5fdff5c7.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/1789510891913-5fdff5c7.jpg",
+      "source": "gbp",
+      "storage": "job-photos/posted/1789510891913-5fdff5c7.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/1789510891913-5fdff5c7.jpg",
       "width": 1280,
       "height": 720,
       "bytes": 201985,

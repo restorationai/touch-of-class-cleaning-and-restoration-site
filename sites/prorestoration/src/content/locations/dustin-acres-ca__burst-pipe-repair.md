@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "61edd90406b434ac"
-generated_at: "2026-09-23T14:11:55.981785+00:00"
+generated_at: "2026-09-26T17:45:52.577961+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/dustin-acres-ca/", "/service-areas/dustin-acres-ca/fire-damage-restoration/", "/service-areas/dustin-acres-ca/home-remodeling/", "/service-areas/arvin-ca/burst-pipe-repair/", "/service-areas/bear-valley-springs-ca/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Dustin Acres", "url": "/service-areas/dustin-acres-ca/"}, {"name": "Burst Pipe Cleanup and Repair"}]

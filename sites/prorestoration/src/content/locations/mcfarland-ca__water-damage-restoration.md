@@ -8,7 +8,7 @@ secondary_keywords: ["water removal", "water extraction", "water cleanup", "stru
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "ccb0682f9aefc0ee"
-generated_at: "2026-09-23T14:11:55.995080+00:00"
+generated_at: "2026-09-26T17:45:52.587988+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/mcfarland-ca/", "/service-areas/mcfarland-ca/fire-damage-restoration/", "/service-areas/mcfarland-ca/home-remodeling/", "/service-areas/arvin-ca/water-damage-restoration/", "/service-areas/bear-valley-springs-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McFarland", "url": "/service-areas/mcfarland-ca/"}, {"name": "Water Damage Restoration"}]

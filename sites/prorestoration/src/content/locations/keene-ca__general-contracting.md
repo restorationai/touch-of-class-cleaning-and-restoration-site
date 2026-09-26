@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "5c4b58783ecdb252"
-generated_at: "2026-09-23T14:11:56.020507+00:00"
+generated_at: "2026-09-26T17:45:52.609034+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/keene-ca/", "/service-areas/keene-ca/fire-damage-restoration/", "/service-areas/keene-ca/home-remodeling/", "/service-areas/arvin-ca/general-contracting/", "/service-areas/bear-valley-springs-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Keene", "url": "/service-areas/keene-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]

@@ -1,20 +1,20 @@
 # Site Plan Report — ProRestoration Services
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-24T23:23:55.339330+00:00
+- Generated: 2026-09-26T17:45:51.526371+00:00
 - Domain: `prorestorationca.com`
-- Services selected: 28 of 65 catalog entries
+- Services selected: 34 of 65 catalog entries
 - Service areas: 22
 - Cross-product enabled: True
-- Total URLs: **658**
-- Total internal links: 5404 (avg 8.2 per page)
+- Total URLs: **790**
+- Total internal links: 6508 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 588 |
-| `service-landing` | 28 |
+| `service-area-service` | 714 |
+| `service-landing` | 34 |
 | `service-area` | 21 |
 | `blog-post` | 12 |
 | `legal` | 3 |
@@ -51,10 +51,16 @@
 - `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
 - `soot-removal` — Soot Removal (specialty, priority 7)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
-- `vandalism-cleanup` — Vandalism Cleanup (specialty, priority 5)
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 - `water-leak-detection` — Water Leak Detection (core, priority 7)
+- `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
+- `commercial-restoration` — Commercial Restoration (core, priority 9)
+- `industrial-restoration` — Industrial Restoration (core, priority 7)
+- `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
+- `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
+- `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
+- `emergency-water-removal` — 24/7 Emergency Water Removal (core, priority 9)
 
 ## Service areas
 
@@ -90,11 +96,11 @@
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation bakersfield |
 | `/services/roofing/` | `service-landing` | 9.0 | roofing installation and replacement bakersfield |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration bakersfield |
+| `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration bakersfield |
 | `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing bakersfield |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | 24/7 emergency water removal bakersfield |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration bakersfield |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services bakersfield |
-| `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization bakersfield |
-| `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration bakersfield |
 
 ## Validation
 

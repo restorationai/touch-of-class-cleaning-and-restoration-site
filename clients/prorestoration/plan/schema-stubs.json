@@ -298,16 +298,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/vandalism-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/water-cleanup/": {
     "archetype": "service-landing",
     "stubs": [
@@ -329,6 +319,76 @@
     "missing_stubs": []
   },
   "/services/water-leak-detection/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/basement-flooding-cleanup/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/commercial-restoration/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/industrial-restoration/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/large-loss-response/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/ceiling-water-damage-repair/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/water-heater-flood-cleanup/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/emergency-water-removal/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -767,16 +827,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/oildale-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/oildale-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -798,6 +848,76 @@
     "missing_stubs": []
   },
   "/service-areas/oildale-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oildale-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oildale-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oildale-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oildale-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oildale-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oildale-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oildale-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1047,16 +1167,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/rosedale-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/rosedale-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1078,6 +1188,76 @@
     "missing_stubs": []
   },
   "/service-areas/rosedale-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rosedale-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rosedale-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rosedale-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rosedale-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rosedale-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rosedale-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rosedale-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1327,16 +1507,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/delano-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/delano-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1358,6 +1528,76 @@
     "missing_stubs": []
   },
   "/service-areas/delano-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/delano-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/delano-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/delano-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/delano-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/delano-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/delano-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/delano-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1607,16 +1847,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/shafter-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/shafter-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1638,6 +1868,76 @@
     "missing_stubs": []
   },
   "/service-areas/shafter-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/shafter-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/shafter-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/shafter-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/shafter-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/shafter-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/shafter-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/shafter-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1887,16 +2187,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/wasco-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/wasco-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1918,6 +2208,76 @@
     "missing_stubs": []
   },
   "/service-areas/wasco-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/wasco-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/wasco-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/wasco-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/wasco-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/wasco-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/wasco-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/wasco-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2167,16 +2527,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/taft-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/taft-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2198,6 +2548,76 @@
     "missing_stubs": []
   },
   "/service-areas/taft-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/taft-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/taft-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/taft-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/taft-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/taft-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/taft-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/taft-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2447,16 +2867,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/tehachapi-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/tehachapi-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2478,6 +2888,76 @@
     "missing_stubs": []
   },
   "/service-areas/tehachapi-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/tehachapi-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/tehachapi-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/tehachapi-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/tehachapi-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/tehachapi-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/tehachapi-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/tehachapi-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2727,16 +3207,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/arvin-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/arvin-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2758,6 +3228,76 @@
     "missing_stubs": []
   },
   "/service-areas/arvin-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/arvin-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/arvin-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/arvin-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/arvin-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/arvin-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/arvin-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/arvin-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3007,16 +3547,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lamont-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lamont-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3038,6 +3568,76 @@
     "missing_stubs": []
   },
   "/service-areas/lamont-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/lamont-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/lamont-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/lamont-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/lamont-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/lamont-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/lamont-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/lamont-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3287,16 +3887,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lake-isabella-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lake-isabella-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3318,6 +3908,76 @@
     "missing_stubs": []
   },
   "/service-areas/lake-isabella-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/lake-isabella-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/lake-isabella-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/lake-isabella-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/lake-isabella-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/lake-isabella-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/lake-isabella-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/lake-isabella-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3567,16 +4227,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/east-niles-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/east-niles-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3598,6 +4248,76 @@
     "missing_stubs": []
   },
   "/service-areas/east-niles-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/east-niles-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/east-niles-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/east-niles-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/east-niles-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/east-niles-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/east-niles-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/east-niles-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3847,16 +4567,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/tarina-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/tarina-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3878,6 +4588,76 @@
     "missing_stubs": []
   },
   "/service-areas/tarina-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/tarina-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/tarina-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/tarina-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/tarina-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/tarina-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/tarina-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/tarina-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4127,16 +4907,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/weedpatch-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/weedpatch-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4158,6 +4928,76 @@
     "missing_stubs": []
   },
   "/service-areas/weedpatch-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/weedpatch-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/weedpatch-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/weedpatch-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/weedpatch-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/weedpatch-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/weedpatch-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/weedpatch-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4407,16 +5247,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/buttonwillow-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/buttonwillow-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4438,6 +5268,76 @@
     "missing_stubs": []
   },
   "/service-areas/buttonwillow-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/buttonwillow-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/buttonwillow-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/buttonwillow-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/buttonwillow-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/buttonwillow-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/buttonwillow-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/buttonwillow-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4687,16 +5587,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/dustin-acres-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/dustin-acres-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4718,6 +5608,76 @@
     "missing_stubs": []
   },
   "/service-areas/dustin-acres-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/dustin-acres-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/dustin-acres-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/dustin-acres-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/dustin-acres-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/dustin-acres-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/dustin-acres-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/dustin-acres-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4967,16 +5927,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/mcfarland-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/mcfarland-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4998,6 +5948,76 @@
     "missing_stubs": []
   },
   "/service-areas/mcfarland-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/mcfarland-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/mcfarland-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/mcfarland-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/mcfarland-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/mcfarland-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/mcfarland-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/mcfarland-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5247,16 +6267,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/valley-acres-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/valley-acres-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5278,6 +6288,76 @@
     "missing_stubs": []
   },
   "/service-areas/valley-acres-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/valley-acres-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/valley-acres-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/valley-acres-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/valley-acres-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/valley-acres-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/valley-acres-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/valley-acres-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5527,16 +6607,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/woody-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/woody-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5558,6 +6628,76 @@
     "missing_stubs": []
   },
   "/service-areas/woody-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/woody-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/woody-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/woody-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/woody-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/woody-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/woody-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/woody-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5807,16 +6947,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bear-valley-springs-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/bear-valley-springs-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5838,6 +6968,76 @@
     "missing_stubs": []
   },
   "/service-areas/bear-valley-springs-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/bear-valley-springs-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/bear-valley-springs-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/bear-valley-springs-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/bear-valley-springs-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/bear-valley-springs-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/bear-valley-springs-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6087,16 +7287,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/keene-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/keene-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6118,6 +7308,76 @@
     "missing_stubs": []
   },
   "/service-areas/keene-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/keene-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/keene-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/keene-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/keene-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/keene-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/keene-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/keene-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6367,16 +7627,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/maricopa-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/maricopa-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6398,6 +7648,76 @@
     "missing_stubs": []
   },
   "/service-areas/maricopa-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/maricopa-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/maricopa-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/maricopa-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/maricopa-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/maricopa-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/maricopa-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/maricopa-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

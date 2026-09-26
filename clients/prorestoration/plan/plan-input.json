@@ -35,7 +35,6 @@
     "smoke-damage-restoration",
     "soot-removal",
     "storm-damage-restoration",
-    "vandalism-cleanup",
     "water-cleanup",
     "water-damage-restoration",
     "water-leak-detection"
@@ -393,7 +392,9 @@
     ],
     "google_maps_api_key": "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
     "licensed_insured_attested": true,
-    "ga4_measurement_id": "G-LQE0DXHG08"
+    "ga4_measurement_id": "G-LQE0DXHG08",
+    "primary_color": "#dc2626",
+    "theme": "light"
   },
   "cross_product": true,
   "keyword_strategy": "conservative",

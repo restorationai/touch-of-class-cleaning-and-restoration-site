@@ -65,14 +65,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.9",
-  gbpReviewCount: "590",
+  gbpReviewCount: "596",
   gbpReviews: [
+    { author: "Faith", rating: 5, text: "Zach was professional, on time, helpful, and great to work with! He made the whole experience easy and pleasant. Highly recommend!", when: "September 2026" },
+    { author: "Joey", rating: 5, text: "Zach is literally the best, there is not another person who has made me feel better about where I am at then him", when: "September 2026" },
+    { author: "Jackson", rating: 5, text: "I reached out to Zach for a quote after my basement flooded, and I couldn’t be more impressed with the service he and his company provided. From start to finish, they went above and beyond to make sure everything was taken care of. What truly sets them apart is their commitment to their customers…", when: "September 2026" },
+    { author: "Jay", rating: 5, text: "Zach and Jayden helped me with my flooding situation and did a great job. Both were very nice and helped with any questions I had. Would recommend!", when: "September 2026" },
+    { author: "Sheila", rating: 5, text: "Zac is the bestest person ever. He saved the day!", when: "September 2026" },
     { author: "Kyle", rating: 5, text: "Zach was amazing in helping me with everything to help restoring my family home after a terrible flood. He walked me through every step of the process and was paramount in recovering my house back to what it was originally. I would suggest Zach always to help anytime you’re in the same situation.", when: "September 2026" },
-    { author: "Jaide", rating: 5, text: "Zach did an amazing job at my house, he checked for mold and found some water damage and gave me an estimate within 3 days. They took care of all of the work within a week and made my home… home again! God Bless 💕", when: "September 2026" },
-    { author: "Amy", rating: 5, text: "Zach with Crew has been nothing but helpful! Every single person that has come to help with our floodedbasement has been professional and handled everything with ease. Zach has been communicating the entire time even letting me know when people are on their way. My dog was not a fan of strange guys…", when: "September 2026" },
-    { author: "Dylan", rating: 5, text: "Bob is very knowledgeable and professional. Was a massive help getting our issues resolved.", when: "September 2026" },
-    { author: "Kennedi", rating: 5, text: "We had some water damage in our house and Crew Construction did a great job getting everything taken care of and got our place back to normal. Zach is the best!", when: "September 2026" },
-    { author: "Amanda", rating: 5, text: "Zach is absolutely wonderful! Always willing to go above and beyond and get the job done!!!", when: "September 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Sioux Falls, SD.",
   ctaLabel: "24/7 Emergency Line",

@@ -8,7 +8,7 @@ secondary_keywords: ["water removal", "water extraction", "water cleanup", "stru
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "3ab256072cce7d3d"
-generated_at: "2026-09-23T14:11:55.973172+00:00"
+generated_at: "2026-09-26T17:45:52.570385+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/weedpatch-ca/", "/service-areas/weedpatch-ca/fire-damage-restoration/", "/service-areas/weedpatch-ca/home-remodeling/", "/service-areas/arvin-ca/water-damage-restoration/", "/service-areas/bear-valley-springs-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Weedpatch", "url": "/service-areas/weedpatch-ca/"}, {"name": "Water Damage Restoration"}]

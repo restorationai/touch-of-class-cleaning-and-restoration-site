@@ -8,7 +8,7 @@ secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restorati
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "5d2217c42c85c908"
-generated_at: "2026-09-23T14:11:55.976151+00:00"
+generated_at: "2026-09-26T17:45:52.573254+00:00"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/fire-damage-restoration/", "/service-areas/buttonwillow-ca/home-remodeling/", "/service-areas/arvin-ca/flood-damage-restoration/", "/service-areas/bear-valley-springs-ca/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buttonwillow", "url": "/service-areas/buttonwillow-ca/"}, {"name": "Flood Damage Restoration"}]
