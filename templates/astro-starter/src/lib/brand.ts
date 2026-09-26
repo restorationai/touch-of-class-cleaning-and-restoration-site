@@ -72,6 +72,8 @@ export const brand = {
   gbpReviewCount: "{{BRAND_GBP_REVIEW_COUNT}}",
   gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
   tagline: "{{BRAND_TAGLINE}}",
+  // optional custom insurance positioning line (Hero renders only when set)
+  insuranceTrustLine: "{{BRAND_INSURANCE_TRUST_LINE}}",
   ctaLabel: "{{BRAND_CTA_LABEL}}",
   // Vertical trade-identity copy — resolved at scaffold time from
   // templates/{vertical}/vertical-tokens.json (see scripts/verticals.py).

@@ -389,6 +389,7 @@ def resolve_tokens(client: dict, plan_input: dict, allow_missing_domain: bool = 
         "BRAND_VERTICAL": (verticals.get_vertical(slug, client, required=False)
                            or "restoration"),
         "BRAND_TAGLINE": _vertical_copy("tagline"),
+        "BRAND_INSURANCE_TRUST_LINE": str(brand.get("insurance_trust_line") or ""),
         "BRAND_CTA_LABEL": _vertical_copy("cta_label"),
         "BRAND_TRADE_NOUN": _vertical_copy("trade_noun"),
         "BRAND_SPECIALIST_PHRASE": _vertical_copy("specialist_phrase"),

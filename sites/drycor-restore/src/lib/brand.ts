@@ -75,6 +75,8 @@ export const brand = {
     { author: "Cindy", rating: 5, text: "I highly recommend Drycor Restore, and Showalter Construction and Restoration. I had a plumbing issue that allowed water to run unseen throughout the house for months, damaging all of my floors, and leaving mold in my bathroom and bedroom. The slab had to be dried throughout, sealed, and new floors…", when: "May 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Thonotosassa, FL.",
+  // Rob 2026-09-15: replaces "we work with all insurance carriers" (no carrier logos/names)
+  insuranceTrustLine: "Managed Repair Preferred Vendor for 34 Insurance Carriers in the State of Florida",
   ctaLabel: "24/7 Emergency Line",
   // Vertical trade-identity copy — resolved at scaffold time from
   // templates/{vertical}/vertical-tokens.json (see scripts/verticals.py).
