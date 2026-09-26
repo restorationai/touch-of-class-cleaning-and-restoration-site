@@ -48,6 +48,23 @@ def pull_bucket_logo(cid: str, slug: str) -> str | None:
     originals get downscaled via Pillow (fail-open to raw bytes for png/webp;
     a JPEG we cannot convert is skipped — the pipelines read logo.png/webp).
     Returns the written filename or None."""
+    # LOGO PIN GUARD (Santino 2026-09-26: "we definitely don't want the
+    # logo importer to swap the pinned logo's file"). When plan-input pins
+    # brand.logo_url to a local path and that file exists, the logo is a
+    # settled human decision — the puller never touches it again.
+    try:
+        import json as _json
+        _pi = ROOT / "clients" / slug / "plan-input.json"
+        if _pi.exists():
+            _pin = ((_json.loads(_pi.read_text()).get("brand") or {})
+                    .get("logo_url") or "")
+            if _pin.startswith("/"):
+                _pinned_file = SITES_DIR / slug / "public" / _pin.lstrip("/")
+                if _pinned_file.exists():
+                    print(f"    logo: pinned ({_pin}) — puller skipped")
+                    return None
+    except Exception:  # noqa: BLE001 — guard must never block a pull
+        pass
     sb_url = os.environ.get("SUPABASE_URL", "").rstrip("/")
     sb_key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
     hdrs = {"apikey": sb_key, "Authorization": f"Bearer {sb_key}",

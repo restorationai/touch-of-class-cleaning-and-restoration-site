@@ -708,12 +708,37 @@ def _site_protected_extra(site_dir: Path) -> list[str]:
     return out
 
 
-def copy_starter(site_dir: Path) -> None:
+def copy_starter(site_dir: Path, refresh_design: bool = False) -> None:
     if not site_dir.exists():
         site_dir.mkdir(parents=True, exist_ok=True)
         shutil.copytree(STARTER_DIR, site_dir, dirs_exist_ok=True)
         return
-    # Existing site: refresh CODE from the starter, preserve PRODUCT.
+    # DESIGN LOCK (Santino 2026-09-26, after the 09-23 sweep damage): an
+    # EXISTING site's files are locked in. The nightly lanes (service
+    # ripple / parity engine) re-scaffold to ADD stub pages — that must
+    # never rewrite colors, components, logos or any other existing file
+    # as collateral. Default = ADDITIVE ONLY: create what's missing, touch
+    # nothing that exists. A full design refresh from the starter is a
+    # deliberate human dev task: pass --refresh-design (or set
+    # RANKAI_REFRESH_DESIGN=1), which restores the old refresh behavior
+    # (still honoring protected paths).
+    if not refresh_design:
+        added = 0
+        for f in STARTER_DIR.rglob("*"):
+            if not f.is_file():
+                continue
+            rel = f.relative_to(STARTER_DIR).as_posix()
+            dst = site_dir / rel
+            if dst.exists():
+                continue
+            dst.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(f, dst)
+            added += 1
+        print(f"    starter copy ADDITIVE (design lock): {added} missing "
+              "file(s) added, all existing files untouched "
+              "(--refresh-design for a full template refresh)")
+        return
+    # --refresh-design: refresh CODE from the starter, preserve PRODUCT.
     # (node_modules / .astro survive too — never part of the starter.)
     kept = 0
     extra = _site_protected_extra(site_dir)
@@ -742,7 +767,7 @@ def copy_starter(site_dir: Path) -> None:
 LIGHT_OVERLAY_DIR = TEMPLATES_DIR / "astro-starter-light"
 
 
-def apply_light_overlay(site_dir: Path) -> int:
+def apply_light_overlay(site_dir: Path, refresh_design: bool = False) -> int:
     """Overlay the light-theme file variants (brand.theme == 'light').
 
     The starter is dark-navy by design; the overlay is the proven light
@@ -765,6 +790,10 @@ def apply_light_overlay(site_dir: Path) -> int:
                 and (site_dir / rel).exists()):
             continue
         dst = site_dir / rel
+        # DESIGN LOCK: without an explicit refresh, the overlay may only
+        # ADD missing files — never rewrite an existing one.
+        if dst.exists() and not refresh_design:
+            continue
         dst.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(f, dst)
         n += 1
@@ -2058,9 +2087,11 @@ def cmd_scaffold(args) -> int:
 
     # Step 1: Copy starter + substitute tokens
     print("[1/5] Copying starter and substituting brand tokens...")
-    copy_starter(site_dir)
+    _refresh = bool(getattr(args, "refresh_design", False)) or \
+        os.environ.get("RANKAI_REFRESH_DESIGN") == "1"
+    copy_starter(site_dir, refresh_design=_refresh)
     if (plan_input.get("brand", {}) or {}).get("theme") == "light":
-        n = apply_light_overlay(site_dir)
+        n = apply_light_overlay(site_dir, refresh_design=_refresh)
         print(f"      light theme: {n} overlay file(s) applied")
 
     # VERTICAL RENDER PROMPTS (2026-08-19, the rt-olson lesson: a plumbing
@@ -3089,6 +3120,9 @@ def build_parser() -> argparse.ArgumentParser:
 
     ps = sub.add_parser("scaffold", help="Copy starter, substitute tokens, push to GitHub, create Pages project")
     ps.add_argument("--slug", required=True)
+    ps.add_argument("--refresh-design", action="store_true",
+                    help="Full template refresh over an existing site "
+                         "(default is ADDITIVE-only design lock)")
     ps.add_argument("--private", action="store_true", help="Create the GitHub repo as private (default public)")
     ps.add_argument("--message", help="Override the commit message")
     ps.set_defaults(func=cmd_scaffold)
