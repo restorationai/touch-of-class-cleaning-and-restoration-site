@@ -45,5 +45,19 @@ export const workPairs: BeforeAfterPair[] = [
     beforeAlt: "HVAC duct interior caked with dust before cleaning",
     afterSrc: "/images/before-after/duct-after.webp",
     afterAlt: "Same duct interior spotless after professional cleaning",
-  }
+  },
+  {
+    label: "Remodeling & Renovation",
+    beforeSrc: "/images/before-after/remodel-before.webp",
+    beforeAlt: "Dated kitchen mid-teardown with worn oak cabinets and exposed wall studs before remodel",
+    afterSrc: "/images/before-after/remodel-after.webp",
+    afterAlt: "Same kitchen fully remodeled with white shaker cabinets, quartz counters and new flooring",
+  },
+  {
+    label: "Roofing",
+    beforeSrc: "/images/before-after/roofing-before.webp",
+    beforeAlt: "House with badly worn shingle roof, curling and missing shingles exposing underlayment",
+    afterSrc: "/images/before-after/roofing-after.webp",
+    afterAlt: "Same house with a brand new architectural shingle roof and straightened gutters",
+  },
 ];
