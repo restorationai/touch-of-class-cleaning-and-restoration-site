@@ -65,14 +65,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.8",
-  gbpReviewCount: "114",
+  gbpReviewCount: "115",
   gbpReviews: [
+    { author: "Angela", rating: 5, text: "Our house flood on Christmas Eve, I called them first thing the morning after Christmas and they showed up within 2 hours and got to work. It took several days to get things cleaned up and dried out. Jack (the owner) stopped by everyday to make sure things were being taken care of. They did a great…", when: "September 2026" },
     { author: "David", rating: 5, text: "Great service, great communication", when: "September 2026" },
     { author: "Francisca", rating: 5, text: "Due to being a homeowners insurance claim, Pro Restoration responded as quickly as they could. Once everything was approved, this team did their best to offer a great price with just as much attention to detail at getting the job completed.", when: "September 2026" },
     { author: "Carol", rating: 4, text: "Showed up on time & great service & very friendly. I would certainly used them again", when: "September 2026" },
     { author: "Kim", rating: 5, text: "Noticed a leak at 6:00 pm on a Friday. ProRestoration came out immediately and stayed until well after midnight to make sure all the damaged drywall was removed. They were professional and courteous.", when: "September 2026" },
     { author: "Aubrey", rating: 5, text: "Was in contact with Jack, he was able to answer all my questions regarding restoration. Very pleased with his service! such a great company to work with. Thank you Jack!", when: "June 2026" },
-    { author: "Pedro", rating: 5, text: "I am writing to express my sincere gratitude for the exceptional service your team has provided. I have been a customer since the beginning of 2023, when I first found your company through a Google search following water damage in my home. I was very happy with the service and the quick turnaround…", when: "June 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Bakersfield, CA.",
   ctaLabel: "24/7 Emergency Line",

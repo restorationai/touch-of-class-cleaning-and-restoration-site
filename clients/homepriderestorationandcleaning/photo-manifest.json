@@ -789,6 +789,32 @@
       "triaged_at": "2026-08-05T06:00:37Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMCX7jFEHvXeiVzOgacZXShBhFoc9e8w8WKZZwx": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMCX7jFEHvXeiVzOgacZXShBhFoc9e8w8WKZZwx.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipMCX7jFEHvXeiVzOgacZXShBhFoc9e8w8WKZZwx.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 28675,
+      "sha1": "640808fbb8f573ec",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Google five-star review card with customer quote text",
+      "quality": 40,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay",
+        "logo_card"
+      ],
+      "reason": "Designed review card with overlaid text and Google logo; no photographic content.",
+      "triaged_at": "2026-09-26T03:12:35Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipMCZHxK2zWM_TZtSoxvjFKNrAYSBZMVzido6bmJ": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMCZHxK2zWM_TZtSoxvjFKNrAYSBZMVzido6bmJ.jpg",
@@ -4144,8 +4170,8 @@
     },
     "gbp:gbp-AF1QipOp8s2KKY1VrVxEpIO9Ac1IirWJjWgbZCfrVPdh": {
       "source": "gbp",
-      "storage": "job-photos/posted/gbp-AF1QipOp8s2KKY1VrVxEpIO9Ac1IirWJjWgbZCfrVPdh.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipOp8s2KKY1VrVxEpIO9Ac1IirWJjWgbZCfrVPdh.jpg",
+      "storage": "job-photos/posted/r1790362965_gbp-AF1QipOp8s2KKY1VrVxEpIO9Ac1IirWJjWgbZCfrVPdh.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/r1790362965_gbp-AF1QipOp8s2KKY1VrVxEpIO9Ac1IirWJjWgbZCfrVPdh.jpg",
       "width": 928,
       "height": 1080,
       "bytes": 929570,
@@ -5398,5 +5424,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-24T14:11:58Z"
+  "triaged_at": "2026-09-26T03:12:35Z"
 }

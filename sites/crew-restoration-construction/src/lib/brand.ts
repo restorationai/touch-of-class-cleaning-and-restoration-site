@@ -65,7 +65,7 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.9",
-  gbpReviewCount: "582",
+  gbpReviewCount: "586",
   gbpReviews: [
     { author: "Kennedi", rating: 5, text: "We had some water damage in our house and Crew Construction did a great job getting everything taken care of and got our place back to normal. Zach is the best!", when: "September 2026" },
     { author: "Amanda", rating: 5, text: "Zach is absolutely wonderful! Always willing to go above and beyond and get the job done!!!", when: "September 2026" },
