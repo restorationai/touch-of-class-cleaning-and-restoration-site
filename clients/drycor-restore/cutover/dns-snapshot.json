@@ -1,0 +1,35 @@
+{
+ "domain": "drycor.com",
+ "captured_at": "2026-09-26T19:52:24+00:00",
+ "authoritative": {
+  "ns": [
+   "ns63.domaincontrol.com",
+   "ns64.domaincontrol.com"
+  ],
+  "mx": [
+   {
+    "priority": 0,
+    "exchange": "drycor-com.mail.protection.outlook.com"
+   }
+  ],
+  "apex_txt": [
+   "v=spf1 include:spf.protection.outlook.com -all"
+  ],
+  "dmarc_txt": [],
+  "dkim": {},
+  "apex_a": [
+   "192.0.79.180",
+   "192.0.79.135"
+  ],
+  "apex_cname": [],
+  "www_cname": []
+ },
+ "cf_zone": {
+  "zone_id": "ef28e8140740f6ad391564f7de1a2e39",
+  "name_servers": [
+   "amos.ns.cloudflare.com",
+   "anastasia.ns.cloudflare.com"
+  ],
+  "records": []
+ }
+}
