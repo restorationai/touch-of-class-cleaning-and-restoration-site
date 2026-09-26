@@ -48,12 +48,9 @@ const services = (allServices as CollectionEntry<"services">[])
       R2 at brand/hero-fleet.webp and referenced via brand.imagesBase — or
       dropped into public/images/hero-bg.webp if R2 isn't provisioned yet. */}
   <Hero title={data.h1} subtitle={data.meta_description} backgroundImage="/images/hero-bg.webp">
-    {/* Restoration is call-first (Santino 2026-09-11): an emergency lead
-        should dial, not fill a form — the Get a Free Estimate button still
-        covers the form path lower on the page. Other verticals keep it. */}
-    {brand.vertical !== "restoration" ? (
-      <FreeEstimateForm slot="form" variant="hero" />
-    ) : null}
+    {/* Davis exception (Santino 2026-09-25): hero quote form ON despite the
+        call-first default — no GBP, lead capture is this site's job. */}
+    <FreeEstimateForm slot="form" variant="hero" />
   </Hero>
 
   <TrustStrip />

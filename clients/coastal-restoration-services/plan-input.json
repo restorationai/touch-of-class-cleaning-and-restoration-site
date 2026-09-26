@@ -11,8 +11,12 @@
     "state": "ca",
     "postal_code": "93454",
     "theme": "light",
-    "primary_color": "#e6ac1a",
-    "certifications": ["IICRC Certified Firm", "WRT (Water Damage Restoration Technician)", "ASD (Applied Structural Drying)"],
+    "primary_color": "#14144a",
+    "certifications": [
+      "IICRC Certified Firm",
+      "WRT (Water Damage Restoration Technician)",
+      "ASD (Applied Structural Drying)"
+    ],
     "license_numbers": [
       "11245226"
     ],

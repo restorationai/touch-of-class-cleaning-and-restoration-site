@@ -193,7 +193,8 @@
     "ga4_measurement_id": "G-BRL1Q2KTGV",
     "clarity_project_id": "xdoje59wr1",
     "family_owned": true,
-    "licensed_insured_attested": true
+    "licensed_insured_attested": true,
+    "primary_color": "#dc2626"
   },
   "cross_product": true,
   "keyword_strategy": "conservative",
