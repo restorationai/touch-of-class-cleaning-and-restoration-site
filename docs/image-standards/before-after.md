@@ -58,3 +58,27 @@ plausible REPLACEMENT, not magical cleaning:
 - QC every pair side by side: (a) same room? (b) anything damaged that came
   back identical? (c) any set-dressing that survived impossibly? (d) outside
   weather coherent? (e) base imagery rules.
+
+## Per-service scene rules (added 2026-09-26, Katofsky review)
+
+7. **Native landscape only.** Every pair image is generated 16:9 landscape
+   (1376x768). NEVER a portrait phone photo pillarboxed with blurred or
+   scenic side bars — the slider needs edge-to-edge landscape scenes.
+8. **Air duct cleaning**: shoot the duct from INSIDE the room — a wall or
+   ceiling register opening with the grille swung aside, interior of the
+   duct lit hard by camera flash / technician flashlight (the ACS
+   Enterprise reference look: sites/aldredo-moreno duct pair). Before =
+   matted dust, lint webs, debris lining the metal; after = same register,
+   clean bright galvanized interior, same flash lighting. NEVER a duct
+   tube you can see straight through with houses/scenery on the far side —
+   ducts connect to the HVAC system, not to the neighborhood.
+9. **Sewage cleanup**: interior spaces only (basement floor drain, bath,
+   laundry). No outdoor backdrop, no houses.
+10. **Fire scenes must burn coherently.** Char is heaviest at a plausible
+    origin and gradients outward; drywall/plaster near the origin shows
+    real burn-through or deep scorching, not just uniform soot. Any
+    combustion appliance at or near the origin (fireplace, stove, space
+    heater) is destroyed in the before and REPLACED or absent in the
+    after — never the identical unit. No chimney-less open-coal
+    fireplaces: open solid-fuel grates need a flue; if a heater is shown,
+    make it a plausibly enclosed unit, and it still gets replaced.
