@@ -54,7 +54,7 @@ Hourly billing shows up more often on larger, open-ended jobs: repiping, sewer l
 
 Either way, the right question isn't "hourly or flat-rate", it's "what is the total price for this specific job, in writing, before you start?"
 
-![Flat-rate pricing vs. hourly billing: what's the difference: how much does a plumber cost per hour](https://images.allproplumbingheatingandair.com/blog/2026/07/how-much-does-a-plumber-cost-per-hour/section.webp)
+![Flat-rate pricing vs. hourly billing: what's the difference: how much does a plumber cost per hour](/images/blog/2026/07/how-much-does-a-plumber-cost-per-hour/section.webp)
 
 ## What drives plumbing costs up or down?
 

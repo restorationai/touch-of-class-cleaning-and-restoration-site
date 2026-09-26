@@ -7,8 +7,8 @@ primary_keyword: "what does a plumber do"
 secondary_keywords: ["what jobs does a residential plumber handle", "when should you call a plumber instead of a handyman", "what is the difference between a plumber and a drain cleaning company", "what does a plumber do on a service call", "what plumbing work requires a permit in california", "what can a plumber fix that you cannot fix yourself"]
 search_intent: "informational"
 priority: 7
-hero: "https://images.allproplumbingheatingandair.com/blog/2026/09/what-does-a-plumber-do/hero.webp"
-og: "https://images.allproplumbingheatingandair.com/blog/2026/09/what-does-a-plumber-do/hero.webp"
+hero: "/images/blog/2026/09/what-does-a-plumber-do/hero.webp"
+og: "/images/blog/2026/09/what-does-a-plumber-do/hero.webp"
 generated_at: "2026-09-18T12:15:21Z"
 manual_override: false
 internal_links: ["/services/", "/services/drain-cleaning/", "/services/water-heater-repair/", "/services/sewer-line-repair/", "/services/emergency-plumbing/", "/services/leak-detection/"]
@@ -44,7 +44,7 @@ Here's the practical difference: in California, plumbing work beyond simple fixt
 
 The risk is real. An improperly seated wax ring causes slow slab damage. A supply line overtightened without a proper ferrule fails under pressure. These are not hypothetical scenarios; they're the calls plumbers get after a handyman visit.
 
-![When should you call a plumber instead of a handyman: what does a plumber do](https://images.allproplumbingheatingandair.com/blog/2026/09/what-does-a-plumber-do/section.webp)
+![When should you call a plumber instead of a handyman: what does a plumber do](/images/blog/2026/09/what-does-a-plumber-do/section.webp)
 
 ## What is the difference between a plumber and a drain-cleaning company?
 

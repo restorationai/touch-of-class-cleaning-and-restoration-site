@@ -7,8 +7,8 @@ primary_keyword: "why is my ac not turning on"
 secondary_keywords: ["thermostat set to cool but ac not turning on", "ac not turning on but fan works", "what does an ac capacitor do when it fails", "ac not blowing cold air reset", "thermostat clicks but ac does not turn on"]
 search_intent: "informational"
 priority: 7
-hero: "https://images.allproplumbingheatingandair.com/blog/2026/09/why-is-my-ac-not-turning-on/hero.webp"
-og: "https://images.allproplumbingheatingandair.com/blog/2026/09/why-is-my-ac-not-turning-on/hero.webp"
+hero: "/images/blog/2026/09/why-is-my-ac-not-turning-on/hero.webp"
+og: "/images/blog/2026/09/why-is-my-ac-not-turning-on/hero.webp"
 generated_at: "2026-09-13T14:36:42Z"
 manual_override: false
 internal_links: ["/services/ac-repair/", "/services/ac-installation/", "/blog/air-conditioner-not-cooling/", "/blog/how-much-does-ac-repair-cost/", "/contact/"]
@@ -40,7 +40,7 @@ If the breaker trips again within a few minutes of resetting, stop there. A brea
 
 Note that central AC systems often have two breakers: one for the outdoor condenser and one for the indoor air handler. Check both.
 
-![Did a breaker trip: why is my ac not turning on](https://images.allproplumbingheatingandair.com/blog/2026/09/why-is-my-ac-not-turning-on/section.webp)
+![Did a breaker trip: why is my ac not turning on](/images/blog/2026/09/why-is-my-ac-not-turning-on/section.webp)
 
 ## Is the condensate float switch tripped?
 

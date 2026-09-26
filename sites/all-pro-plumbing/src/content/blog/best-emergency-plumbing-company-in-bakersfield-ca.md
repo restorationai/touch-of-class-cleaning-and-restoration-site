@@ -54,7 +54,7 @@ Most emergency plumbing calls in Bakersfield fall into a handful of categories. 
 
 **Gas line concerns.** If you smell gas, that rotten-egg odor added to natural gas as a safety odorant, leave the building immediately without flipping any light switches or creating any sparks. Call 911 or SoCalGas's 24-hour emergency line from outside the building. Only after the utility has confirmed the scene is safe should you call a licensed plumber for the repair or pressure test. All Pro handles gas line repairs and pressure testing, but the gas utility makes the first call in an active leak situation, that's not negotiable.
 
-![What Bakersfield Plumbing Emergencies Actually Look Like: best emergency plumbing company in Bakersfield, CA](https://images.allproplumbingheatingandair.com/blog/2026/07/best-emergency-plumbing-company-in-bakersfield-ca/section.webp)
+![What Bakersfield Plumbing Emergencies Actually Look Like: best emergency plumbing company in Bakersfield, CA](/images/blog/2026/07/best-emergency-plumbing-company-in-bakersfield-ca/section.webp)
 
 ## How To Evaluate Any Emergency Plumbing Company Before You Commit
 

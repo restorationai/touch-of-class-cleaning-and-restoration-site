@@ -53,7 +53,7 @@ export const brand = {
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "G-BPB9R60M10",
   clarityProjectId: "",
-  logoUrl: "https://images.flood-fixers.com/brand/logo.png",
+  logoUrl: "/images/logo.webp", // brand/logo.png missing from R2 (404); pinned to local file
   licenseNumbers: [] as string[],
   licenseAuthority: "",
   // State license-verification page — the footer links the license number here.

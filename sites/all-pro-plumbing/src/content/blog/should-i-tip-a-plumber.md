@@ -7,8 +7,8 @@ primary_keyword: "should i tip a plumber"
 secondary_keywords: ["do you tip a plumber", "how much do you tip a plumber", "do you tip plumbers who come to your house", "should i tip a plumber for a water heater install", "is tipping expected on an after-hours emergency plumbing call", "better ways to thank a plumber than cash"]
 search_intent: "informational"
 priority: 7
-hero: "https://images.allproplumbingheatingandair.com/blog/2026/09/should-i-tip-a-plumber/hero.webp"
-og: "https://images.allproplumbingheatingandair.com/blog/2026/09/should-i-tip-a-plumber/hero.webp"
+hero: "/images/blog/2026/09/should-i-tip-a-plumber/hero.webp"
+og: "/images/blog/2026/09/should-i-tip-a-plumber/hero.webp"
 generated_at: "2026-09-22T15:08:49Z"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/services/water-heater-installation/", "/services/", "/contact/", "/blog/how-much-does-a-plumber-cost-per-hour/"]

@@ -38,7 +38,7 @@ This matters more than it sounds. If an uninsured worker slips on your wet floor
 
 Some solo operators are legitimately exempt from workers' comp if they have no employees, but they should be able to explain that clearly. Vague answers or resistance to the question are warning signs.
 
-![Does the contractor carry workers' compensation and general liability insurance: how to find a good plumber](https://images.allproplumbingheatingandair.com/blog/2026/08/how-to-find-a-good-plumber/section.webp)
+![Does the contractor carry workers' compensation and general liability insurance: how to find a good plumber](/images/blog/2026/08/how-to-find-a-good-plumber/section.webp)
 
 ## Will the plumber provide a written, itemized estimate before starting?
 

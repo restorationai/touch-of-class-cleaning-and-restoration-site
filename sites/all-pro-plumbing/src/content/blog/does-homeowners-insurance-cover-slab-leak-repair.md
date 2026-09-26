@@ -41,7 +41,7 @@ Bakersfield also has some of the hardest municipal water in California. High min
 
 If you have not yet confirmed you have a slab leak but something feels off, our post on [7 Warning Signs of a Slab Leak](/blog/signs-of-a-slab-leak/) covers the symptoms in detail before you get to the insurance question.
 
-![Why Bakersfield homes are especially prone to slab leaks: does homeowners insurance cover slab leak repair](https://images.allproplumbingheatingandair.com/blog/2026/08/does-homeowners-insurance-cover-slab-leak-repair/section.webp)
+![Why Bakersfield homes are especially prone to slab leaks: does homeowners insurance cover slab leak repair](/images/blog/2026/08/does-homeowners-insurance-cover-slab-leak-repair/section.webp)
 
 ## What does a slab leak repair actually cost?
 

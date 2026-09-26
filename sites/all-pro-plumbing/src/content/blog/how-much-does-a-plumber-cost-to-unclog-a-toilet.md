@@ -7,8 +7,8 @@ primary_keyword: "how much does a plumber cost to unclog a toilet"
 secondary_keywords: ["how much does it cost for plumber to unclog toilet", "toilet auger vs plunger when to call a plumber", "why does my toilet keep clogging", "how much does it cost to remove and reset a toilet", "clogged toilet emergency after hours cost", "signs a toilet clog is actually a main line clog"]
 search_intent: "commercial"
 priority: 7
-hero: "https://images.allproplumbingheatingandair.com/blog/2026/09/how-much-does-a-plumber-cost-to-unclog-a-toilet/hero.webp"
-og: "https://images.allproplumbingheatingandair.com/blog/2026/09/how-much-does-a-plumber-cost-to-unclog-a-toilet/hero.webp"
+hero: "/images/blog/2026/09/how-much-does-a-plumber-cost-to-unclog-a-toilet/hero.webp"
+og: "/images/blog/2026/09/how-much-does-a-plumber-cost-to-unclog-a-toilet/hero.webp"
 generated_at: "2026-09-20T14:21:13Z"
 manual_override: false
 internal_links: ["/services/toilet-faucet-repair/", "/services/drain-cleaning/", "/services/sewer-line-repair/", "/blog/how-much-does-a-plumber-cost-per-hour/", "/blog/how-much-does-a-plumber-cost-to-unclog-a-drain/", "/blog/how-to-find-a-good-plumber/", "/contact/"]
@@ -49,7 +49,7 @@ If the tub gurgles when the toilet flushes, or if multiple fixtures are slow at 
 **Tier 5: Camera inspection ($150-$350 standalone, often bundled)**
 If a toilet keeps clogging every few months, a camera inspection tells you why. The plumber runs a small camera through the drain and records what it finds: root intrusion, a collapsed section, an offset joint, heavy scale. Without a camera, you're guessing. Most plumbers will bundle the camera fee into the repair quote if they find something that needs fixing.
 
-![What are the five cost tiers for a toilet clog: how much does a plumber cost to unclog a toilet](https://images.allproplumbingheatingandair.com/blog/2026/09/how-much-does-a-plumber-cost-to-unclog-a-toilet/section.webp)
+![What are the five cost tiers for a toilet clog: how much does a plumber cost to unclog a toilet](/images/blog/2026/09/how-much-does-a-plumber-cost-to-unclog-a-toilet/section.webp)
 
 ## How much extra does an after-hours toilet clog cost?
 

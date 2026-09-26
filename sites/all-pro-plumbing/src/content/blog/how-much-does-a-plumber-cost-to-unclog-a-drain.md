@@ -40,7 +40,7 @@ Main line clogs are a different job. The plumber accesses a cleanout (usually ne
 
 In older Bakersfield neighborhoods like Oleander, Westchester, and East Bakersfield, the mature tree canopy is beautiful and the sewer laterals are not. Ficus, pepper, and elm roots find hairline cracks in aging cast-iron or clay pipe and grow into them over years. A cable machine can cut through a root mass and restore flow, but it doesn't fix the crack the roots entered through. If your main line clogs repeatedly, say, every 6 to 18 months, that's the sewer telling you it needs more than a snake. See the section below on when snaking isn't enough.
 
-![How much does it cost to clear a branch line or main sewer line: how much does a plumber cost to unclog a drain](https://images.allproplumbingheatingandair.com/blog/2026/08/how-much-does-a-plumber-cost-to-unclog-a-drain/section.webp)
+![How much does it cost to clear a branch line or main sewer line: how much does a plumber cost to unclog a drain](/images/blog/2026/08/how-much-does-a-plumber-cost-to-unclog-a-drain/section.webp)
 
 ## What does a camera inspection cost, and do I need one?
 

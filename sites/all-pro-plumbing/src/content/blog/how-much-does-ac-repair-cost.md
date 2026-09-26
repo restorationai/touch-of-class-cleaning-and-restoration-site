@@ -7,8 +7,8 @@ primary_keyword: "how much does ac repair cost"
 secondary_keywords: ["central ac repair cost", "average hvac service call cost", "hvac diagnostic cost", "hvac repair cost calculator", "is it worth repairing a 15 year old air conditioner", "should i repair or replace my air conditioner"]
 search_intent: "informational"
 priority: 7
-hero: "https://images.allproplumbingheatingandair.com/blog/2026/09/how-much-does-ac-repair-cost/hero.webp"
-og: "https://images.allproplumbingheatingandair.com/blog/2026/09/how-much-does-ac-repair-cost/hero.webp"
+hero: "/images/blog/2026/09/how-much-does-ac-repair-cost/hero.webp"
+og: "/images/blog/2026/09/how-much-does-ac-repair-cost/hero.webp"
 generated_at: "2026-09-03T19:22:21Z"
 manual_override: false
 internal_links: ["/services/ac-repair/", "/services/ac-installation/", "/services/heat-pump-services/", "/blog/air-conditioner-not-cooling/", "/blog/how-much-does-a-new-ac-cost/"]
@@ -58,7 +58,7 @@ The compressor is the heart of the refrigerant circuit. When it fails, the syste
 **Thermostat or control board: $200-$600**
 Control boards and smart thermostats fall in the mid-range. A faulty control board can cause erratic behavior (short-cycling, failure to start, incorrect staging). Thermostat replacement is on the lower end; a control board on a communicating system can push toward the higher end.
 
-![What do common AC repairs cost by part: how much does ac repair cost](https://images.allproplumbingheatingandair.com/blog/2026/09/how-much-does-ac-repair-cost/section.webp)
+![What do common AC repairs cost by part: how much does ac repair cost](/images/blog/2026/09/how-much-does-ac-repair-cost/section.webp)
 
 ## How do you decide whether to repair or replace?
 

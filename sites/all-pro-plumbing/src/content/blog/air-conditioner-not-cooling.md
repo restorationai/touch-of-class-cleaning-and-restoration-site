@@ -7,8 +7,8 @@ primary_keyword: "air conditioner not cooling"
 secondary_keywords: ["why is my ac running but not cooling the house", "air conditioner not blowing cold air but running", "air conditioner not cooling but fan is running", "central air conditioner not cooling", "split ac not cooling but fan is running", "why is my ac blowing warm air"]
 search_intent: "informational"
 priority: 7
-hero: "https://images.allproplumbingheatingandair.com/blog/2026/08/air-conditioner-not-cooling/hero.webp"
-og: "https://images.allproplumbingheatingandair.com/blog/2026/08/air-conditioner-not-cooling/hero.webp"
+hero: "/images/blog/2026/08/air-conditioner-not-cooling/hero.webp"
+og: "/images/blog/2026/08/air-conditioner-not-cooling/hero.webp"
 generated_at: "2026-08-31T21:40:27Z"
 manual_override: false
 internal_links: ["/services/ac-repair/", "/services/ac-installation/", "/services/ductless-mini-splits/", "/blog/how-much-does-a-new-ac-cost/", "/contact/"]
@@ -38,7 +38,7 @@ Three causes are safe for a homeowner to check without tools: thermostat setting
 
 **3. Tripped breaker on the outdoor unit.** Most central AC systems have two breakers: one for the air handler and one for the outdoor condenser. If the condenser breaker tripped, the fan inside keeps running but the compressor and outdoor fan are off. Check your electrical panel for a breaker that is in the middle position (tripped) and reset it once. If it trips again immediately, stop and call a technician. A breaker that keeps tripping means a short or an overloaded component, and forcing it is a fire risk.
 
-![What can I check myself before calling a technician: air conditioner not cooling](https://images.allproplumbingheatingandair.com/blog/2026/08/air-conditioner-not-cooling/section.webp)
+![What can I check myself before calling a technician: air conditioner not cooling](/images/blog/2026/08/air-conditioner-not-cooling/section.webp)
 
 ## What are the mechanical causes that need a technician?
 

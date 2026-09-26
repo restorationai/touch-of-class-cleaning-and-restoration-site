@@ -605,6 +605,27 @@ def generate_and_upload_hero(slug: str, item: dict, image_prompt: str, *, use_pr
         raise RuntimeError(f"R2 upload failed for {r2_key}")
 
     public_url = f"https://images.{domain}/{r2_key}"
+    # LOCAL-FIRST GUARD (queue 18, Santino 2026-09-26): images.{domain}
+    # only resolves once the client's apex is on our DNS. Probe the URL we
+    # are about to emit; if it is not reachable (preview-phase client, the
+    # all-pro case: 19 dead blog refs shipped this way), keep the R2 copy
+    # for cutover but serve the image FROM THE SITE — write the bytes into
+    # public/images/{r2_key} and return a site-relative path. BaseLayout
+    # absolutizes relative og paths, so frontmatter stays valid. A live
+    # probe beats gating on apex_live (that flag is unreliable).
+    try:
+        import requests as _rq
+        ok = _rq.head(public_url, timeout=10,
+                      allow_redirects=True).status_code == 200
+    except Exception:  # noqa: BLE001 — unreachable == not ok
+        ok = False
+    if not ok:
+        local = SITES_DIR / slug / "public" / "images" / r2_key
+        local.parent.mkdir(parents=True, exist_ok=True)
+        local.write_bytes(webp_bytes)
+        print(f"      Public URL unreachable — serving locally: "
+              f"/images/{r2_key} (R2 copy kept for cutover)")
+        return f"/images/{r2_key}"
     print(f"      Public URL: {public_url}")
     return public_url
 

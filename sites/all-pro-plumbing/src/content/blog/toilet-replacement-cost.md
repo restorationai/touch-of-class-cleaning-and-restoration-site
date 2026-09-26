@@ -56,7 +56,7 @@ What pushes labor cost up:
 
 A written quote should itemize: labor (flat or hourly), the fixture if the plumber is supplying it, any parts (wax ring, supply line, bolts), and haul-away. If a quote is verbal only, ask for it in writing.
 
-![What's the labor cost to replace a toilet specifically: toilet replacement cost](https://images.allproplumbingheatingandair.com/blog/2026/08/toilet-replacement-cost/section.webp)
+![What's the labor cost to replace a toilet specifically: toilet replacement cost](/images/blog/2026/08/toilet-replacement-cost/section.webp)
 
 ## When is a repair cheaper than replacing the toilet?
 

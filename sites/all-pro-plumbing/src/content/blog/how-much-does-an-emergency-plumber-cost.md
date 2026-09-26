@@ -7,8 +7,8 @@ primary_keyword: "how much does an emergency plumber cost"
 secondary_keywords: ["emergency plumber call out fee vs hourly rate", "after hours plumber rates explained", "weekend and holiday plumbing rates", "what counts as a plumbing emergency", "how much does a burst pipe repair cost at 2am", "does homeowners insurance cover an emergency plumber", "how to keep an emergency plumbing call from getting expensive"]
 search_intent: "informational"
 priority: 7
-hero: "https://images.allproplumbingheatingandair.com/blog/2026/09/how-much-does-an-emergency-plumber-cost/hero.webp"
-og: "https://images.allproplumbingheatingandair.com/blog/2026/09/how-much-does-an-emergency-plumber-cost/hero.webp"
+hero: "/images/blog/2026/09/how-much-does-an-emergency-plumber-cost/hero.webp"
+og: "/images/blog/2026/09/how-much-does-an-emergency-plumber-cost/hero.webp"
 generated_at: "2026-09-24T15:22:11Z"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/services/burst-pipe-repair/", "/services/leak-detection/", "/blog/what-to-do-burst-pipe/", "/blog/how-much-does-a-plumber-cost-per-hour/", "/blog/does-homeowners-insurance-cover-slab-leak-repair/"]
@@ -40,7 +40,7 @@ The specific thresholds vary by company. Some define after-hours as anything aft
 
 For a full breakdown of what plumbers charge during normal business hours, see our post [How Much Does a Plumber Cost Per Hour in Bakersfield? (2026 Price Ranges)](/blog/how-much-does-a-plumber-cost-per-hour/).
 
-![How do after-hours, weekend, and holiday rates work: how much does an emergency plumber cost](https://images.allproplumbingheatingandair.com/blog/2026/09/how-much-does-an-emergency-plumber-cost/section.webp)
+![How do after-hours, weekend, and holiday rates work: how much does an emergency plumber cost](/images/blog/2026/09/how-much-does-an-emergency-plumber-cost/section.webp)
 
 ## What does the full emergency plumber bill actually look like?
 
