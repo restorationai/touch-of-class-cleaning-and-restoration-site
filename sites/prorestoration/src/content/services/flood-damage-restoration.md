@@ -6,7 +6,7 @@ meta_description: "24/7 flood damage restoration in Bakersfield and surrounding 
 primary_keyword: "flood damage restoration bakersfield"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
-priority: 8.1
+priority: 9.5
 plan_hash: "d0494340c61da1d6"
 generated_at: "2026-07-08T19:34:39.251138+00:00"
 manual_override: false

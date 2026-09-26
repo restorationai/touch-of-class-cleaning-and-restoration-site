@@ -6,7 +6,7 @@ meta_description: "24/7 storm damage restoration in Bakersfield and surrounding 
 primary_keyword: "storm damage restoration bakersfield"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
-priority: 8.1
+priority: 4.5
 plan_hash: "edb49b9cceb8b685"
 generated_at: "2026-07-08T19:34:38.884760+00:00"
 manual_override: false

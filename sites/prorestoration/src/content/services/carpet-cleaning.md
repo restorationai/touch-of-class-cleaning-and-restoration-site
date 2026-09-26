@@ -6,7 +6,7 @@ meta_description: "24/7 carpet cleaning in Bakersfield and surrounding areas. II
 primary_keyword: "carpet cleaning bakersfield"
 secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "carpet stain removal", "commercial carpet cleaning", "carpet sanitization"]
 search_intent: "local_specialty"
-priority: 3.6
+priority: 4.0
 plan_hash: "c806cef764e8a01d"
 generated_at: "2026-07-08T19:35:40.789666+00:00"
 manual_override: false

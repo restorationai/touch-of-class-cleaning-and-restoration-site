@@ -6,7 +6,7 @@ meta_description: "24/7 burst pipe cleanup and repair in Bakersfield and surroun
 primary_keyword: "burst pipe cleanup and repair bakersfield"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
-priority: 7.2
+priority: 9.0
 plan_hash: "34db0058fe5f932f"
 generated_at: "2026-07-08T19:35:35.974009+00:00"
 manual_override: false

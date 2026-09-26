@@ -6,7 +6,7 @@ meta_description: "24/7 smoke damage restoration in Bakersfield and surrounding 
 primary_keyword: "smoke damage restoration bakersfield"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
-priority: 8.1
+priority: 7.0
 plan_hash: "f028cbfbe3a5de56"
 generated_at: "2026-07-08T19:34:43.973029+00:00"
 manual_override: false

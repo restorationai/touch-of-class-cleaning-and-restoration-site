@@ -6,7 +6,7 @@ meta_description: "24/7 mold inspection and testing in Bakersfield and surroundi
 primary_keyword: "mold inspection and testing bakersfield"
 secondary_keywords: ["mold inspection", "mold testing", "indoor air quality testing", "mold spore testing", "mold assessment"]
 search_intent: "local_health"
-priority: 7.2
+priority: 5.0
 plan_hash: "47194c3a2e1207f5"
 generated_at: "2026-07-08T19:35:31.117028+00:00"
 manual_override: false

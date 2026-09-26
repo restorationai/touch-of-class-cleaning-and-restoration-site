@@ -6,7 +6,7 @@ meta_description: "24/7 home remodeling in Bakersfield and surrounding areas. II
 primary_keyword: "home remodeling bakersfield"
 secondary_keywords: ["home renovation", "kitchen remodel", "bathroom remodel", "whole home remodel", "interior remodeling contractor"]
 search_intent: "local_commercial"
-priority: 9.0
+priority: 3.0
 plan_hash: "0d6e22ff11d876cb"
 generated_at: "2026-07-08T19:34:40.220373+00:00"
 manual_override: false

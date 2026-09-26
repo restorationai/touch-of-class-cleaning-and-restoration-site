@@ -6,7 +6,7 @@ meta_description: "24/7 sewage cleanup and sanitization in Bakersfield and surro
 primary_keyword: "sewage cleanup and sanitization bakersfield"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
-priority: 8.1
+priority: 8.0
 plan_hash: "d8e7495170429a4a"
 generated_at: "2026-07-08T19:34:37.900842+00:00"
 manual_override: false

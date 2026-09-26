@@ -6,7 +6,7 @@ meta_description: "24/7 appliance leak cleanup in Bakersfield and surrounding ar
 primary_keyword: "appliance leak cleanup bakersfield"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
-priority: 5.4
+priority: 8.5
 plan_hash: "a1218b59d268fc90"
 generated_at: "2026-07-08T19:35:36.243358+00:00"
 manual_override: false

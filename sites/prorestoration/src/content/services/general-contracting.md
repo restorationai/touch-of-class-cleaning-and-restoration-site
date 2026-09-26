@@ -6,7 +6,7 @@ meta_description: "24/7 renovations, remodels and general contracting in Bakersf
 primary_keyword: "renovations, remodels and general contracting bakersfield"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
-priority: 7.2
+priority: 2.5
 plan_hash: "0703e95b9f2e8d7e"
 generated_at: "2026-07-08T19:35:36.089833+00:00"
 manual_override: false

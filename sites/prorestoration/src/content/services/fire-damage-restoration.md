@@ -6,7 +6,7 @@ meta_description: "24/7 fire damage restoration in Bakersfield and surrounding a
 primary_keyword: "fire damage restoration bakersfield"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
-priority: 9.0
+priority: 7.5
 plan_hash: "db1219dc29410ce1"
 generated_at: "2026-07-08T19:34:45.019715+00:00"
 manual_override: false

@@ -6,7 +6,7 @@ meta_description: "24/7 mold remediation in Bakersfield and surrounding areas. I
 primary_keyword: "mold remediation bakersfield"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
-priority: 9.0
+priority: 5.5
 plan_hash: "655d7ff8bd699fba"
 generated_at: "2026-07-08T19:34:38.615745+00:00"
 manual_override: false

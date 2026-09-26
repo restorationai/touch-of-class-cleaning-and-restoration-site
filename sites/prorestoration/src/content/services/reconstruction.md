@@ -6,7 +6,7 @@ meta_description: "24/7 reconstruction services in Bakersfield and surrounding a
 primary_keyword: "reconstruction services bakersfield"
 secondary_keywords: ["post-damage reconstruction", "rebuild services", "structural reconstruction", "post-disaster rebuilding", "fire damage reconstruction"]
 search_intent: "local_commercial"
-priority: 8.1
+priority: 3.5
 plan_hash: "c01e7d14397bcc87"
 generated_at: "2026-07-08T19:35:33.622860+00:00"
 manual_override: false

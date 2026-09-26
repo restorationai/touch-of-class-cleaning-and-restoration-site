@@ -6,7 +6,7 @@ meta_description: "24/7 odor removal and deodorization in Bakersfield and surrou
 primary_keyword: "odor removal and deodorization bakersfield"
 secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
 search_intent: "local_specialty"
-priority: 6.3
+priority: 6.0
 plan_hash: "8611825428681f32"
 generated_at: "2026-07-08T19:35:35.111449+00:00"
 manual_override: false

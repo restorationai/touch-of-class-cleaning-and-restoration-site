@@ -6,7 +6,7 @@ meta_description: "24/7 soot removal in Bakersfield and surrounding areas. IICRC
 primary_keyword: "soot removal bakersfield"
 secondary_keywords: ["soot cleaning", "soot residue removal", "post-fire soot cleanup", "soot damage cleanup", "soot wall cleaning"]
 search_intent: "local_specialty"
-priority: 6.3
+priority: 6.5
 plan_hash: "a74713dd51ed6614"
 generated_at: "2026-07-08T19:35:32.551610+00:00"
 manual_override: false

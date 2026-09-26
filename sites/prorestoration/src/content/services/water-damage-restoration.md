@@ -6,7 +6,7 @@ meta_description: "24/7 water damage restoration in Bakersfield and surrounding 
 primary_keyword: "water damage restoration bakersfield"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
-priority: 9.0
+priority: 10.0
 plan_hash: "005dd9649bda9aac"
 generated_at: "2026-07-08T19:34:39.033042+00:00"
 manual_override: false
