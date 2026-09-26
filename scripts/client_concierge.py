@@ -2705,6 +2705,31 @@ def fetch_pending_intake(company_id: str | None = None) -> list[dict]:
     return out
 
 
+_REVIEW_ASK_RE = re.compile(r"\breview|customer list", re.I)
+_REVIEWS_OPTOUT_CACHE: dict[str, bool] = {}
+
+
+def _reviews_opted_out(company_id: str) -> bool:
+    """True when the client said NO review outreach (TDI/Rob 2026-09-26:
+    he told Santino directly he has no list and wants no campaign, but
+    nothing recorded it and Monica kept asking). Source of truth:
+    integration_settings.reviews_intent.decision == "none" — set from the
+    Build Stages reviews board or by hand. Cached per run; fail-open."""
+    if company_id not in _REVIEWS_OPTOUT_CACHE:
+        try:
+            rows = _sb("GET", f"/rest/v1/companies?id=eq.{company_id}"
+                       "&select=integration_settings") or []
+            ints = (rows[0].get("integration_settings") if rows else {}) or {}
+            if isinstance(ints, str):
+                ints = json.loads(ints)
+            _REVIEWS_OPTOUT_CACHE[company_id] = (
+                str(((ints.get("reviews_intent") or {}).get("decision")
+                     or "")).lower() == "none")
+        except Exception:  # noqa: BLE001 — fail-open, never block asks
+            _REVIEWS_OPTOUT_CACHE[company_id] = False
+    return _REVIEWS_OPTOUT_CACHE[company_id]
+
+
 def fetch_open_asks(company_id: str | None = None) -> list[dict]:
     q = ("/rest/v1/marketing_action_plan?action_type=eq.client_input"
          "&status=eq.planned"
@@ -2715,8 +2740,14 @@ def fetch_open_asks(company_id: str | None = None) -> list[dict]:
     rows = _sb("GET", q) or []
     # "Client answered 'yes': …" rows are team notifications produced when a
     # gating intake answer lands — nothing to ask the client. Skip them.
-    return [r for r in rows
+    rows = [r for r in rows
             if not (r.get("title") or "").startswith("Client answered")]
+    # REVIEWS OPT-OUT (2026-09-26): review-flavored asks never reach a
+    # client who declined review campaigns.
+    return [r for r in rows
+            if not (_REVIEW_ASK_RE.search(str(r.get("title") or ""))
+                    and r.get("company_id")
+                    and _reviews_opted_out(r["company_id"]))]
 
 
 # WORK THAT IS OURS, surfaced to Monica READ-ONLY (Santino 2026-08-08).

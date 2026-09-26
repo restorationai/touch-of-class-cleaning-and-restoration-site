@@ -81,6 +81,9 @@ def stage_pins(dry: bool, only_cid: str | None) -> None:
     print(f"review-list-stage: {len(pins)} unprocessed pin(s)")
     for p in pins:
         cid = p["company_id"]
+        if _reviews_opted_out(cid):
+            print(f"  {cid}: reviews opt-out — pin left untouched, no asks")
+            continue
         slug = smap.get(cid)
         target = str(p.get("target") or "")
         if not slug:
@@ -269,6 +272,7 @@ def seed_readiness_asks(dry: bool, only_cid: str | None) -> None:
     cids = sorted({p["company_id"] for p in pins})
     if only_cid:
         cids = [c for c in cids if c == only_cid]
+    cids = [c for c in cids if not _reviews_opted_out(c)]
     for cid in cids:
         slug = smap.get(cid) or cid
         ph = (_sb("GET", f"/rest/v1/company_phone_setup?id=eq.{cid}"
@@ -467,6 +471,23 @@ def photo_timeout_sweep(dry: bool, only_cid: str | None) -> None:
             {"k": _PHOTO_ASKED_KV, "v": asked},
             prefer="resolution=merge-duplicates")
 
+
+
+
+def _reviews_opted_out(cid: str) -> bool:
+    """Client declined review campaigns (integration_settings.reviews_intent
+    .decision == 'none') — B1 loading and B2 asks both skip (2026-09-26)."""
+    try:
+        rows = _sb("GET", f"/rest/v1/companies?id=eq.{cid}"
+                   "&select=integration_settings") or []
+        ints = (rows[0].get("integration_settings") if rows else {}) or {}
+        if isinstance(ints, str):
+            import json as _j
+            ints = _j.loads(ints)
+        return str(((ints.get("reviews_intent") or {}).get("decision")
+                    or "")).lower() == "none"
+    except Exception:  # noqa: BLE001
+        return False
 
 def main() -> int:
     ap = argparse.ArgumentParser()
