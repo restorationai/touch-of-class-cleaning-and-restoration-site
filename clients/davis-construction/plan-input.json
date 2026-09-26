@@ -194,7 +194,8 @@
     "clarity_project_id": "xdoje59wr1",
     "family_owned": true,
     "licensed_insured_attested": true,
-    "primary_color": "#dc2626"
+    "primary_color": "#dc2626",
+    "logo_url": "/images/logo.webp"
   },
   "cross_product": true,
   "keyword_strategy": "conservative",

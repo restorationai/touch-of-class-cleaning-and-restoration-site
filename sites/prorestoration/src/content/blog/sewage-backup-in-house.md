@@ -7,8 +7,8 @@ primary_keyword: "sewage backup in house"
 secondary_keywords: ["sewage backup in bathtub", "sewage backup what to do first", "does insurance cover sewer backup", "is the backup my sewer line or the city's", "category 3 water damage"]
 search_intent: "informational"
 priority: 7
-hero: "https://images.prorestorationca.com/blog/2026/09/sewage-backup-in-house/hero.webp"
-og: "https://images.prorestorationca.com/blog/2026/09/sewage-backup-in-house/hero.webp"
+hero: "/images/blog/2026/09/sewage-backup-in-house/hero.webp"
+og: "/images/blog/2026/09/sewage-backup-in-house/hero.webp"
 generated_at: "2026-09-24T19:33:01Z"
 manual_override: false
 internal_links: ["/services/sewage-cleanup/", "/services/water-damage-restoration/", "/services/odor-removal/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/what-to-do-first-24-hours-water-damage/"]
@@ -49,7 +49,7 @@ Here's what professional sewage cleanup actually involves:
 
 For persistent odor after the structural work is done, [odor removal](/services/odor-removal/) using hydroxyl generators or thermal fogging addresses what antimicrobials alone cannot reach inside wall cavities and ductwork.
 
-![Is sewage backup a DIY cleanup job: sewage backup in house](https://images.prorestorationca.com/blog/2026/09/sewage-backup-in-house/section.webp)
+![Is sewage backup a DIY cleanup job: sewage backup in house](/images/blog/2026/09/sewage-backup-in-house/section.webp)
 
 ## Is this my sewer line or the city's problem?
 

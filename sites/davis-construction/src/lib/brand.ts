@@ -49,7 +49,7 @@ export const brand = {
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "G-BRL1Q2KTGV",
   clarityProjectId: "xdoje59wr1",
-  logoUrl: "https://images.davisconstructioncontractors.com/brand/logo.png",
+  logoUrl: "/images/logo.webp",
   licenseNumbers: [] as string[],
   licenseAuthority: "",
   // State license-verification page — the footer links the license number here.

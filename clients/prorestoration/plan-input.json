@@ -383,7 +383,8 @@
     "licensed_insured_attested": true,
     "ga4_measurement_id": "G-LQE0DXHG08",
     "primary_color": "#dc2626",
-    "theme": "light"
+    "theme": "light",
+    "logo_url": "/images/logo.png"
   },
   "cross_product": true,
   "keyword_strategy": "conservative",

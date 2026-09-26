@@ -62,7 +62,7 @@ Paul Davis Restoration of Bakersfield holds a 5.0-star Google rating across 46 r
 
 Rainbow International of Bakersfield carries a 4.9-star Google rating with 18 reviews. The lower review count makes the average harder to assess statistically, but the rating is consistent with the other top companies in the market. Rainbow International is a Neighborly-brand franchise. If you have used other Neighborly services (Molly Maid, Mr. Rooter, etc.) and had a good experience, the brand's service standards may carry over.
 
-![How the Other Top Companies in Bakersfield Compare: best water damage restoration company in Bakersfield, CA](https://images.prorestorationca.com/blog/2026/08/best-water-damage-restoration-company-in-bakersfield-ca/section.webp)
+![How the Other Top Companies in Bakersfield Compare: best water damage restoration company in Bakersfield, CA](/images/blog/2026/08/best-water-damage-restoration-company-in-bakersfield-ca/section.webp)
 
 ## Side-by-Side Comparison
 

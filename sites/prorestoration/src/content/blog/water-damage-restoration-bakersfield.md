@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration bakersfield"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: "https://images.prorestorationca.com/blog/2026/09/water-damage-restoration-bakersfield/hero.webp"
-og: "https://images.prorestorationca.com/blog/2026/09/water-damage-restoration-bakersfield/hero.webp"
+hero: "/images/blog/2026/09/water-damage-restoration-bakersfield/hero.webp"
+og: "/images/blog/2026/09/water-damage-restoration-bakersfield/hero.webp"
 generated_at: "2026-09-20T14:40:26Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/mold-remediation/", "/services/burst-pipe-repair/", "/services/reconstruction/", "/blog/how-long-does-water-damage-restoration-take/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/best-water-damage-restoration-company-in-bakersfield-ca/"]
@@ -48,7 +48,7 @@ Professional water damage restoration follows a defined sequence. Knowing the st
 
 **6. Reconstruction.** Once the structure passes final moisture readings, the rebuild begins: new drywall, insulation, flooring, paint, and any finish work. If your restoration company also holds a general contractor license, they can handle the full scope without you managing a second contractor.
 
-![How Does the Water Damage Restoration Process Work: water damage restoration bakersfield](https://images.prorestorationca.com/blog/2026/09/water-damage-restoration-bakersfield/section.webp)
+![How Does the Water Damage Restoration Process Work: water damage restoration bakersfield](/images/blog/2026/09/water-damage-restoration-bakersfield/section.webp)
 
 ## Will Homeowners Insurance Cover This?
 

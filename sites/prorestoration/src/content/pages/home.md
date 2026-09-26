@@ -1,4 +1,5 @@
 ---
+hero: /images/hero-bg.webp
 archetype: "home"
 title: "ProRestoration Services | Restoration Services in Bakersfield, CA"
 h1: "24/7 Restoration Services in Bakersfield"

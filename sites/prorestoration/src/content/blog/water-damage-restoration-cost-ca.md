@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration cost CA"
 secondary_keywords: ["how much does water damage restoration cost in CA", "water damage restoration price CA", "average cost of water damage restoration CA", "water damage cleanup CA", "water cleanup CA", "water removal CA"]
 search_intent: "transactional"
 priority: 7
-hero: "https://images.prorestorationca.com/blog/2026/09/water-damage-restoration-cost-ca/hero.webp"
-og: "https://images.prorestorationca.com/blog/2026/09/water-damage-restoration-cost-ca/hero.webp"
+hero: "/images/blog/2026/09/water-damage-restoration-cost-ca/hero.webp"
+og: "/images/blog/2026/09/water-damage-restoration-cost-ca/hero.webp"
 generated_at: "2026-09-07T20:21:48Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/burst-pipe-repair/", "/services/mold-remediation/", "/blog/mold-after-water-damage/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/burst-pipe-emergency-checklist/", "/blog/what-to-do-first-24-hours-water-damage/", "/contact/"]
@@ -44,7 +44,7 @@ The table below reflects typical industry ranges for California residential loss
 
 These are mitigation-only figures. If damaged drywall, flooring, or cabinetry needs to be rebuilt after drying, reconstruction costs are separate and depend on finish levels and material costs in your area.
 
-![Water Damage Restoration Cost by Scenario: water damage restoration cost CA](https://images.prorestorationca.com/blog/2026/09/water-damage-restoration-cost-ca/section.webp)
+![Water Damage Restoration Cost by Scenario: water damage restoration cost CA](/images/blog/2026/09/water-damage-restoration-cost-ca/section.webp)
 
 ## What Factors Drive the Cost Up or Down?
 

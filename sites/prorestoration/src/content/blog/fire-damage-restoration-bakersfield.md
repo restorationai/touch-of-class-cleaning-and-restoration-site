@@ -7,8 +7,8 @@ primary_keyword: "fire damage restoration bakersfield"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: "https://images.prorestorationca.com/blog/2026/09/fire-damage-restoration-bakersfield/hero.webp"
-og: "https://images.prorestorationca.com/blog/2026/09/fire-damage-restoration-bakersfield/hero.webp"
+hero: "/images/blog/2026/09/fire-damage-restoration-bakersfield/hero.webp"
+og: "/images/blog/2026/09/fire-damage-restoration-bakersfield/hero.webp"
 generated_at: "2026-09-22T15:30:23Z"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/services/smoke-damage-restoration/", "/services/odor-removal/", "/services/reconstruction/", "/blog/smoke-odor-removal-techniques/", "/blog/storm-damage-insurance-claim-checklist/", "/blog/choosing-a-restoration-company/"]
@@ -47,7 +47,7 @@ Here is how a typical job moves:
 
 The [IICRC S700 Standard for Professional Smoke and Soot Restoration](https://www.iicrc.org) governs how certified technicians assess and clean fire-damaged structures. If your contractor cannot reference this standard, ask why.
 
-![What Does the Fire Damage Restoration Process Look Like: fire damage restoration bakersfield](https://images.prorestorationca.com/blog/2026/09/fire-damage-restoration-bakersfield/section.webp)
+![What Does the Fire Damage Restoration Process Look Like: fire damage restoration bakersfield](/images/blog/2026/09/fire-damage-restoration-bakersfield/section.webp)
 
 ## Will Homeowners Insurance Cover Fire Damage Restoration in Bakersfield?
 

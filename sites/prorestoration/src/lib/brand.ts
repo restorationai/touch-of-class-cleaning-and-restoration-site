@@ -49,7 +49,7 @@ export const brand = {
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "G-LQE0DXHG08",
   clarityProjectId: "",
-  logoUrl: "https://images.prorestorationca.com/brand/logo.png",
+  logoUrl: "/images/logo.png",
   licenseNumbers: ["960566"] as string[],
   licenseAuthority: "Contractors State License Board (CSLB), State of California",
   // State license-verification page — the footer links the license number here.

@@ -7,8 +7,8 @@ primary_keyword: "who to call for water damage restoration in Bakersfield, CA"
 secondary_keywords: ["who do you call for water damage restoration Bakersfield", "who do I call for water damage restoration in Bakersfield", "water damage restoration emergency number Bakersfield CA", "water cleanup Bakersfield", "flood cleanup Bakersfield", "water damage repair Bakersfield"]
 search_intent: "transactional"
 priority: 7
-hero: "https://images.prorestorationca.com/blog/2026/09/who-to-call-for-water-damage-restoration-in-bakersfield-ca/hero.webp"
-og: "https://images.prorestorationca.com/blog/2026/09/who-to-call-for-water-damage-restoration-in-bakersfield-ca/hero.webp"
+hero: "/images/blog/2026/09/who-to-call-for-water-damage-restoration-in-bakersfield-ca/hero.webp"
+og: "/images/blog/2026/09/who-to-call-for-water-damage-restoration-in-bakersfield-ca/hero.webp"
 generated_at: "2026-09-18T10:58:44Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/burst-pipe-repair/", "/services/sewage-cleanup/", "/services/reconstruction/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/burst-pipe-emergency-checklist/", "/blog/storm-damage-insurance-claim-checklist/", "/blog/how-long-does-water-damage-restoration-take/", "/contact/"]
@@ -46,7 +46,7 @@ Most water damage calls involve more than one type of professional. Knowing who 
 
 **Your property manager or HOA** if the loss originated in a shared space (roof, common-area plumbing, neighboring unit). Document everything before anyone starts cleanup so liability stays clear.
 
-![Who Else Might I Need to Call, and When: who to call for water damage restoration in Bakersfield, CA](https://images.prorestorationca.com/blog/2026/09/who-to-call-for-water-damage-restoration-in-bakersfield-ca/section.webp)
+![Who Else Might I Need to Call, and When: who to call for water damage restoration in Bakersfield, CA](/images/blog/2026/09/who-to-call-for-water-damage-restoration-in-bakersfield-ca/section.webp)
 
 ## What Happens When You Call a Restoration Company?
 
