@@ -503,6 +503,16 @@ def _file_attachments(tok: str, msg_id: str, parsed: dict, company_id: str,
                         "status": "open", "body": _note},
                         prefer="return=minimal")
                 print(f"    {_note[:110]}")
+        # DBA EMAIL DOOR (2026-09-26): while the rename waits on a DBA,
+        # every emailed pdf/image also runs the rename-verify flow.
+        try:
+            _dv = _dba_email_bridge(company_id, company_name or company_id,
+                                    sender or "", fname, data, mime,
+                                    dry_run)
+            if _dv:
+                filed_notes.append(f"{fname}: DBA lane -> {_dv}")
+        except Exception as _e:  # noqa: BLE001 — bridge never blocks filing
+            print(f"    dba-bridge error: {str(_e)[:90]}")
         print(f"    attachment: {fname} [{kind}]"
               + ("" if dry_run else
                  (f" -> branding/{company_id}/{dest}/" if dest
@@ -1087,6 +1097,111 @@ def cmd_install_cron(_args) -> int:
     return 0
 
 
+
+
+def _dba_email_bridge(company_id: str, company_name: str, sender: str,
+                      fname: str, data: bytes, mime: str,
+                      dry_run: bool) -> str | None:
+    """EMAIL DOOR for the DBA lane (Santino 2026-09-26, Will Clark case:
+    his LARA receipt was correctly filed to docs/ but the rename sat
+    silent for 3 days and Monica asked him for photos instead — the
+    texted and hub doors reach the verify machinery, contact@ email never
+    did). While a company's rename stage is awaiting_dba, every emailed
+    pdf/image runs the SAME flow the texted lane uses:
+      certificate + exact match -> stage advances (dba_verified)
+      receipt / kin paperwork  -> the what-arrived-what's-still-owed
+                                  reply (Jim/CRW 09-21 behavior) + a
+                                  context note on the conversation
+      mismatch                 -> _dba_apply's escalation
+    Returns the verdict string or None when not applicable."""
+    low = fname.lower()
+    is_pdf = mime == "application/pdf" or low.endswith(".pdf")
+    if not (is_pdf or mime.startswith("image/") or low.endswith(IMG_EXTS)):
+        return None
+    try:
+        import client_concierge as cc
+    except Exception as e:  # noqa: BLE001
+        print(f"    dba-bridge: concierge unavailable ({str(e)[:60]})")
+        return None
+    try:
+        pend = cc._rename_state(company_id)
+    except Exception:  # noqa: BLE001
+        return None
+    if not pend or str(pend.get("stage")) != "awaiting_dba":
+        return None
+    cands = cc._rename_candidates(company_id)
+    chosen = cc._dba_chosen_name(pend, cands)
+    if not chosen:
+        return None
+    rows = _sb("GET", f"/rest/v1/companies?id=eq.{company_id}"
+               "&select=id,name,state") or []
+    company = rows[0] if rows else {"id": company_id, "name": company_name}
+    import base64 as _b64
+    media = "application/pdf" if is_pdf else mime
+    images = [{"media_type": media, "data": _b64.b64encode(data).decode()}]
+    doc = cc._dba_extract(company, images)
+    if not doc:
+        print(f"    dba-bridge: {fname} not readable as DBA paperwork")
+        return None
+    # Reply rides the client's normal Monica thread; need a real contact.
+    contact = None
+    try:
+        g = cc._ghl("GET", "/contacts/", params={
+            "locationId": cc._loc(), "query": sender, "limit": 3}) or {}
+        for c in g.get("contacts") or []:
+            if c.get("phone"):
+                contact = c
+                break
+    except Exception:  # noqa: BLE001
+        pass
+    state: dict = {}
+    if not doc.get("is_dba_document"):
+        kind = str(doc.get("document_kind") or "dba-related paperwork")
+        note = (f"{fname}: {kind} arrived by EMAIL from {sender} — "
+                "recorded, certificate still owed")
+        pend.setdefault("notes", []).append(note)
+        cc._rename_save(company_id, pend, dry_run)
+        if contact is not None:
+            cc._dba_related_reply(company, contact, doc,
+                                  "the emailed document", state, dry_run,
+                                  pend)
+        else:
+            print("    dba-bridge: no texting contact found — note filed, "
+                  "no auto-reply")
+        return "related"
+    doc_url = f"{company_id}/docs/{fname}"
+    if contact is None:
+        print("    dba-bridge: certificate detected but no texting "
+              "contact — escalating without auto-reply")
+    verdict = cc._dba_apply(company, contact or {}, chosen, doc, doc_url,
+                            "an emailed filing", state, dry_run)
+    if verdict == "match":
+        pend["stage"] = "dba_verified"
+        cc._rename_save(company_id, pend, dry_run)
+    return verdict
+
+
+def cmd_dba_check(args) -> int:
+    """Manual/catch-up runner: feed an ALREADY-STORED branding doc through
+    the DBA email bridge. Dry-run by default (prints Monica's would-be
+    reply); --send delivers it."""
+    key = f"{args.company}/{args.file.lstrip('/')}"
+    import urllib.parse as _up
+    _sk = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+    url = (os.environ["SUPABASE_URL"].rstrip("/")
+           + f"/storage/v1/object/branding/{_up.quote(key)}")
+    req = urllib.request.Request(url, headers={
+        "apikey": _sk, "Authorization": f"Bearer {_sk}"})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        data = r.read()
+    mime = "application/pdf" if key.lower().endswith(".pdf") else "image/jpeg"
+    fname = key.rsplit("/", 1)[-1]
+    v = _dba_email_bridge(args.company, args.company, args.sender or "",
+                          fname, data, mime, dry_run=not args.send)
+    print(f"dba-check verdict: {v}")
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -1096,6 +1211,12 @@ def main() -> int:
                     help="really record/label/ping (default: dry run)")
     sub.add_parser("install-cron", help="launchd every 5 min")
     lb = sub.add_parser("lookback", help="search mailbox history for a client's past mail and file it")
+    dc = sub.add_parser("dba-check", help="run a stored branding doc through the DBA bridge (dry-run default)")
+    dc.add_argument("--company", required=True)
+    dc.add_argument("--file", required=True, help="path under branding/{company}/, e.g. docs/x.pdf")
+    dc.add_argument("--sender", default="")
+    dc.add_argument("--send", action="store_true")
+    dc.set_defaults(func=cmd_dba_check)
     lb.add_argument("--company-id", required=True)
     lb.add_argument("--keywords", default="", help="space-separated search hints (COI, license...)")
     lb.add_argument("--send", action="store_true")
@@ -1109,6 +1230,7 @@ def main() -> int:
         print("\n".join(notes) if notes else "(nothing found)")
         return 0
     return {"auth": cmd_auth, "poll": cmd_poll,
+            "dba-check": cmd_dba_check,
             "install-cron": cmd_install_cron}[args.cmd](args)
 
 
