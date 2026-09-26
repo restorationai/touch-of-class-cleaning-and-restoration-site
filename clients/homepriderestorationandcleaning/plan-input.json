@@ -175,7 +175,9 @@
     "place_id": "ChIJGzr1iePDLCsR1fkC5O33F10",
     "google_cid": "6708102771096353237",
     "ga4_measurement_id": "G-6X1L63FBE5",
-    "clarity_project_id": "xdojyl8enb"
+    "clarity_project_id": "xdojyl8enb",
+    "primary_color": "#c2410c",
+    "logo_url": "/images/logo.png"
   },
   "cross_product": true,
   "keyword_strategy": "conservative",
