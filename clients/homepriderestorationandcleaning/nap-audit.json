@@ -1,6 +1,6 @@
 {
   "slug": "homepriderestorationandcleaning",
-  "checked_at": "2026-09-26T14:29:38.299981+00:00",
+  "checked_at": "2026-09-26T18:17:45.549759+00:00",
   "canonical": {
     "name": "Home Pride Restoration and Cleaning",
     "phone": "(801) 995-2437",
@@ -43,8 +43,12 @@
     {
       "platform": "angi",
       "url": "https://www.angi.com/companylist/us/ut/west-jordan/voda-cleaning-and-restoration-llc-reviews-11091724.htm",
-      "status": "unverified",
-      "notes": "unverifiable \u2014 every fetch tier failed (http 403; dfs_content_parsing Page content is empty; google_serp_snippet: page not indexed; wayback: no 200 capture)"
+      "status": "ok",
+      "fetch": "google_serp_snippet",
+      "phones_found": [],
+      "phone_match": null,
+      "address_match": null,
+      "notes": "via Google snippet (page bot-blocked); no phone number found on page; canonical street address not found on page"
     },
     {
       "platform": "yelp",
