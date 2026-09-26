@@ -65,14 +65,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.9",
-  gbpReviewCount: "586",
+  gbpReviewCount: "590",
   gbpReviews: [
+    { author: "Kyle", rating: 5, text: "Zach was amazing in helping me with everything to help restoring my family home after a terrible flood. He walked me through every step of the process and was paramount in recovering my house back to what it was originally. I would suggest Zach always to help anytime you’re in the same situation.", when: "September 2026" },
+    { author: "Jaide", rating: 5, text: "Zach did an amazing job at my house, he checked for mold and found some water damage and gave me an estimate within 3 days. They took care of all of the work within a week and made my home… home again! God Bless 💕", when: "September 2026" },
+    { author: "Amy", rating: 5, text: "Zach with Crew has been nothing but helpful! Every single person that has come to help with our floodedbasement has been professional and handled everything with ease. Zach has been communicating the entire time even letting me know when people are on their way. My dog was not a fan of strange guys…", when: "September 2026" },
+    { author: "Dylan", rating: 5, text: "Bob is very knowledgeable and professional. Was a massive help getting our issues resolved.", when: "September 2026" },
     { author: "Kennedi", rating: 5, text: "We had some water damage in our house and Crew Construction did a great job getting everything taken care of and got our place back to normal. Zach is the best!", when: "September 2026" },
     { author: "Amanda", rating: 5, text: "Zach is absolutely wonderful! Always willing to go above and beyond and get the job done!!!", when: "September 2026" },
-    { author: "Cole", rating: 5, text: "Great, reliable service from the team at CREW. Zach is communicative and a pleasure to work with!", when: "September 2026" },
-    { author: "Mallory", rating: 5, text: "Zack genuinely cares about his customers satisfaction which is a rare quality these days", when: "September 2026" },
-    { author: "Eden", rating: 5, text: "Zac does a great job communicating with customers! Really enjoyed the service!", when: "September 2026" },
-    { author: "Summer", rating: 5, text: "Zach- Great guy, great work. ⭐️⭐️⭐️⭐️⭐️", when: "September 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Sioux Falls, SD.",
   ctaLabel: "24/7 Emergency Line",
