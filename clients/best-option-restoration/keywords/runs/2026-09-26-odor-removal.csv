@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,would_be_priority,fan_out_parent,city_modifier,covered_by,queued
+smoke odor removal,transactional,1600,18,19.19,2,1,odor removal,,,no
+cigarette smoke odor removal,transactional,1000,,2.62,2,1,odor removal,,,no
+pet odor removal,transactional,880,6,2.29,2,1,odor removal,,,no
+odor removal service,transactional,880,3,13.43,2,1,odor removal,,,no
+odor removal,transactional,880,4,3.45,2,1,odor removal,,,no
+dead animal odor removal,transactional,390,,0.97,2,1,odor removal,,,no
+smoke odor removal service,transactional,390,,25.86,2,1,odor removal,,,no
+basement odor removal,transactional,320,,2.51,2,1,odor removal,,,no
+professional odor removal services,transactional,260,,9.53,2,1,odor removal,,,no
+pet urine odor removal,transactional,210,3,2.63,2,1,odor removal,,,no
+odor removal near me,transactional,210,,2.1,2,1,odor removal,,,no
+pet odor removal service near me,transactional,90,2,12.06,2,1,odor removal,,,no
+odor remediation,transactional,90,,28.67,2,1,odor removal,,,no
+fire smoke odor removal,transactional,40,16,0.07,2,2,odor removal,,,no
+carpet odor removal,commercial,2400,2,1.27,2,1,odor removal,,,no
+ozone treatment for house,commercial,1300,15,5.45,2,1,odor removal,,,no
+urine odor removal,commercial,1300,,1.97,2,1,odor removal,,,no
+ozone odor removal,commercial,590,8,1.32,2,1,odor removal,,,no
+ozone treatment cost,commercial,590,,6.68,2,1,odor removal,,,no
+smoke odor removal cost,commercial,50,,5.86,2,1,odor removal,,,no
+what questions should i ask before hiring an odor removal company,commercial,,,,2,1,odor removal,,,no
+ozone treatment for smoke smell,commercial,40,1,127.92,2,2,odor removal,,,no
+what does mold smell like,informational,14800,,3.22,2,1,odor removal,,,no
+how to get rid of smoke smell in house,informational,6600,2,1.75,2,1,odor removal,,,no
+mold smell in house,informational,5400,4,3.21,2,1,odor removal,,,no
+sewage smell in house,informational,3600,,16.17,2,1,odor removal,,,no
+how to get rid of musty smell in house,informational,2900,,1.68,2,1,odor removal,,,no
+how to get rid of musty smell in basement,informational,2400,,1.86,2,1,odor removal,,,no
+musty basement smell,informational,1900,,4.3,2,1,odor removal,,,no
+thermal fogging,informational,880,,2.37,2,1,odor removal,,,no
+how to get rid of cigarette smoke smell in house,informational,390,,1.26,2,1,odor removal,,,no
+is ozone treatment safe,informational,140,,0.13,2,1,odor removal,,,no
+dead animal smell in wall,informational,70,4,0.92,2,1,odor removal,,,no
+house smells like smoke,informational,70,3,10.62,2,1,odor removal,,,no
+is ozone or fogging enough to remove odor from a house,informational,,,,2,1,odor removal,,,no
+why does my house still smell after water damage,informational,,,,2,1,odor removal,,,no
+do air scrubbers remove odors without removing the source,informational,,,,2,1,odor removal,,,no
+how do you know when professional odor removal is complete,informational,,,,2,1,odor removal,,,no
+what happens to carpet pad and drywall during odor remediation,informational,,,,2,1,odor removal,,,no
+how to get rid of water damage smell,informational,40,,0.76,2,2,odor removal,,,no
