@@ -27,6 +27,8 @@ Usage:
 from __future__ import annotations
 
 import argparse
+
+FORCE = False
 import base64
 import io
 import sys
@@ -38,8 +40,81 @@ ROOT = Path(__file__).resolve().parent.parent
 SITES = ROOT / "sites"
 
 
+def _extract_icon(im: Image.Image) -> Image.Image:
+    """Wide horizontal lockups (icon + wordmark) make unreadable favicons —
+    at 16px the text is a smear. For aspect > 1.6, isolate the ICON mark:
+    scan column content (non-background), split into contiguous segments,
+    and take the squarest segment (w/h 0.4-2.2) nearest the left edge —
+    wordmarks read as wide segments and lose. Fail back to the full logo
+    (Santino 2026-09-26, DryCor/Heritage/Frontline)."""
+    w, h = im.size
+    if w / h <= 1.6:
+        return im
+    px = im.load()
+    # background = transparent, or the corner color
+    corner = px[0, 0]
+    def is_content(x):
+        step = max(1, h // 64)
+        for y in range(0, h, step):
+            p = px[x, y]
+            if len(p) == 4 and p[3] < 16:
+                continue
+            if all(abs(p[i] - corner[i]) < 24 for i in range(3)):
+                continue
+            return True
+        return False
+    cols = [is_content(x) for x in range(0, w, 2)]
+    segs, start = [], None
+    for i, c in enumerate(cols):
+        if c and start is None:
+            start = i
+        elif not c and start is not None:
+            segs.append((start * 2, i * 2)); start = None
+    if start is not None:
+        segs.append((start * 2, w))
+    # merge segments separated by < 2% width (letter gaps)
+    merged = []
+    for s in segs:
+        if merged and s[0] - merged[-1][1] < w * 0.02:
+            merged[-1] = (merged[-1][0], s[1])
+        else:
+            merged.append(list(s))
+    best = None
+    for x0, x1 in merged:
+        crop = im.crop((x0, 0, x1, h))
+        bb = crop.getbbox()
+        if not bb:
+            continue
+        cw, ch = bb[2] - bb[0], bb[3] - bb[1]
+        if ch == 0 or not (0.4 <= cw / ch <= 2.2):
+            continue
+        if best is None or x0 < best[0]:
+            best = (x0, crop.crop(bb))
+    if best:
+        return best[1]
+    # Fallback (Frontline: icon nearly touches the wordmark, so segments
+    # merge into one). Split at the WIDEST empty-column run in the left
+    # 70% and keep the left piece when it is roughly square.
+    runs, start = [], None
+    for i, c in enumerate(cols):
+        if not c and start is None:
+            start = i
+        elif c and start is not None:
+            runs.append((start * 2, i * 2)); start = None
+    runs = [r for r in runs if r[0] > 0 and r[1] < w * 0.7]
+    if runs:
+        gap = max(runs, key=lambda r: r[1] - r[0])
+        crop = im.crop((0, 0, gap[0] + (gap[1] - gap[0]) // 2, h))
+        bb = crop.getbbox()
+        if bb:
+            cw, ch = bb[2] - bb[0], bb[3] - bb[1]
+            if ch and 0.3 <= cw / ch <= 2.5:
+                return crop.crop(bb)
+    return im
+
+
 def build_square(logo_path: Path, size: int) -> Image.Image:
-    im = Image.open(logo_path).convert("RGBA")
+    im = _extract_icon(Image.open(logo_path).convert("RGBA"))
     canvas = Image.new("RGBA", (max(im.size),) * 2, (255, 255, 255, 255))
     canvas.paste(im, ((canvas.width - im.width) // 2,
                       (canvas.height - im.height) // 2), im)
@@ -51,8 +126,8 @@ def sync_site(site: Path, dry: bool) -> str:
     fav = pub / "favicon.svg"
     if not fav.exists():
         return "no favicon.svg (not a scaffolded site?)"
-    if "<text" not in fav.read_text(errors="ignore"):
-        return "custom favicon — untouched"
+    if "<text" not in fav.read_text(errors="ignore") and not FORCE:
+        return "custom favicon — untouched (--force rebuilds from logo)"
     logo = next((p for n in ("logo.png", "logo.webp")
                  if (p := pub / "images" / n).exists()), None)
     if not logo:
@@ -75,8 +150,11 @@ def sync_site(site: Path, dry: bool) -> str:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--slug")
+    ap.add_argument("--force", action="store_true")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
+    global FORCE
+    FORCE = args.force
     changed = []
     for site in sorted(SITES.iterdir()):
         if not site.is_dir():

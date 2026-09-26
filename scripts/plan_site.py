@@ -275,8 +275,15 @@ def expand_inputs(template: Template, plan_input: dict, client: dict) -> dict:
     # FFS: no rebuild, no plumbing). Specialty-tier services (biohazard,
     # trauma, abatement) stay opt-IN, never defaulted.
     excluded = set(plan_input.get("excluded_services") or [])
-    if str(inputs.get("vertical") or client.get("vertical")
-           or "restoration") == "restoration":
+    # GATE (Katofsky 2026-09-26): the floor only applies to companies that
+    # actually DO water restoration — evidenced by a water lane already in
+    # their selected services. Katofsky (construction/abatement/cleaning on
+    # the restoration template, zero water services) got 18 defaulted water
+    # pages from this rule via the nightly sync; template choice is not
+    # proof of vertical.
+    _does_water = any("water" in s or "flood" in s for s in selected_slugs)
+    if _does_water and str(inputs.get("vertical") or client.get("vertical")
+                           or "restoration") == "restoration":
         floor_added = []
         for s in template.services_by_slug.values():
             slug_ = s.get("slug")
