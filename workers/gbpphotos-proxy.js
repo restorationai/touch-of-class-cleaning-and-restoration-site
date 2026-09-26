@@ -75,7 +75,7 @@ textarea{width:100%;padding:14px;border:1px solid #cbd5e1;border-radius:12px;fon
 <h1>${name}</h1><div class="sub">Crew hub, bookmark this page</div>
 ${reviewUrl ? `<button class="tile" onclick="document.getElementById('qr').classList.add('open')"><span class="ic">⭐</span>Show Review QR<small>Hand your phone to the customer to scan</small></button>` : ""}
 <button class="tile" onclick="document.getElementById('rr').classList.add('open')"><span class="ic">💬</span>Request a Review<small>We'll text the customer a review link for you</small></button>
-<a class="tile" href="/gbpphotos/${slug}"><span class="ic">📷</span>Upload Photos<small>Job shots, before &amp; afters, any photos &mdash; they go to Google and the website</small></a>
+<a class="tile" href="/gbpphotos/${slug}?hub=${token}&hubslug=${slug}"><span class="ic">📷</span>Upload Photos<small>Job shots, before &amp; afters, any photos &mdash; they go to Google and the website</small></a>
 <button class="tile" onclick="document.getElementById('sf').style.display='block'"><span class="ic">📎</span>Send Us Files<small>Logo or other files for the marketing team</small></button>
 <button class="tile" onclick="document.getElementById('js').classList.add('open')"><span class="ic">📝</span>Add a Job Story<small>Tell us about a job you just finished, we turn it into a website story</small></button>
 <button class="tile" style="border:2px solid #dc2626" onclick="document.getElementById('db').style.display='block'"><span class="ic">📄</span>DBA / Trade Name Certificate<small>Snap a photo of your filed DBA paperwork &mdash; we verify the name and take it from there</small></button>
