@@ -174,12 +174,30 @@ real profile URLs count as found.
 
 ## 5b. The full platform registry (Connect-tab owners, snapshot 09-26)
 
-**WE HANDLE (owner: us — the Mini's full lane list):** Bing Places,
-Apple Maps (Business Connect), BBB, Expertise.com, Houzz, Porch,
-HomeGuide, MapQuest, Foursquare (direct listing; the aggregator feed is
-separate), ContractorsRanked, ChamberofCommerce.com — plus the two
-EARNED (no submit form, picked up from review volume + consistent NAP):
+**WE HANDLE (owner: us — the Mini's lane list, DEDUPED 09-26 against
+the aggregator feeds):** Bing Places, Apple Maps (Business Connect),
+BBB, Expertise.com, Houzz, Porch, HomeGuide,
+**yellowpagesdirectory.com** (added 09-26 — the unrelated third YP
+company; free manual listing, Life Savers precedent),
+ContractorsRanked, ChamberofCommerce.com — plus the two EARNED (no
+submit form, picked up from review volume + consistent NAP):
 ThreeBestRated, TrustAnalytica.
+
+**REMOVED AS REDUNDANT (aggregator-covered, 09-26):**
+- *Manual Foursquare* — the Foursquare aggregator feed (month 2) IS the
+  FS listing plus its whole Places network; a hand-made page adds
+  nothing. Wrong-data corrections stay a manual lane.
+- *Manual MapQuest* — MapQuest sources from Neustar/Localeze, which
+  rides month 1. Same corrections carve-out (the Reign fix was exactly
+  this).
+- *YellowPages off the client list entirely* — YP Network aggregator
+  creates yellowpages.com (+dexknows +superpages), proven live.
+Overlap guards that stay: yelp stays in BL picks ONLY until the owned
+lane graduates, then flips out; Apple never bought through BL (ABC is
+the owned listing; the GPS Network feed complements it by pushing NAP
+into navigation data, different consumers); BL orders always send
+remove_duplicates so month-3 top-offs never re-buy what a feed already
+propagated.
 
 **YOURS TO SET UP (owner: client — the supervised RE-TEST batch, now
 with the code-relay concept sanctioned):** Yelp, Angi (free claim),
