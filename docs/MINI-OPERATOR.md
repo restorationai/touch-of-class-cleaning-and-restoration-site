@@ -32,7 +32,14 @@ same way — git is the message channel between the two machines.
 - **Supervised-first rule:** any playbook that has not yet had 3 clean runs
   ON THIS MACHINE runs only while Santino is present and watching. Houzz,
   Spotify/Apple podcast connects, Yelp edits, wrong-data fixes are all still
-  in supervised phase here.
+  in supervised phase here — and so are the NEW citation lanes added
+  2026-09-26: BBB claim/create, chamberofcommerce.com,
+  yellowpagesdirectory.com, Porch, Apple Business Connect, and the
+  client-identity re-test batch. Before ANY citation lane, read
+  docs/CITATIONS-REBUILD.md — it carries the lane list (deduped: no
+  manual Foursquare/MapQuest creations, they ride aggregator feeds), the
+  NAP phone policy (REAL business number on listings, never a tracking
+  number), and the per-client pilot assignments.
 - **Daytime only** for citation submissions (the sweep window is ~11:30
   Pacific for a reason — daytime traffic looks human). Autonomous overnight
   runs are not enabled yet.
