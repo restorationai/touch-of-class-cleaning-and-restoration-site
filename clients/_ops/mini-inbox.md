@@ -1,6 +1,6 @@
 # Mini inbox — current assignments (newest at top)
 
-- [ ] **CLAIM chamberofcommerce.com listing 37998255 — rachelle-elliston
+- [x] **CLAIM chamberofcommerce.com listing 37998255 — rachelle-elliston
   (UNSUPERVISED, Santino decided 2026-09-27: "definitely claim the existing
   listing"):** claim the pre-existing unclaimed record
   .../contractor/37998255-desert-valley-contracting (real phone
@@ -16,6 +16,7 @@
   list it under ## Needs — do not improvise. record_listing on success.
   NOTE: the plus-address probe from your last report is CANCELLED — we
   standardized on dash aliases setup-{slug}@ (rule live, see MINI-OPERATOR).
+  → RESULT (mini 2026-09-27 10:43–10:47 PDT): DONE. Claimed 10:43 (certification checkbox + ONE reCAPTCHA checkbox click, green, no phone/SMS). NAP edited 10:45 to the DBA / 3808 N Octagon Rd 89030 / 7026335033 (saved, up to 24h to go live; website + categories left as-is; map pin locked on Basic). One support message sent 10:46 asking chamber to remove 2034512140 and move the pin. record_listing written. NEW FLAG: both our records are duplicate-flagged against a THIRD record, 2001319165, a "Verified Member" listing (3808 Octagon Rd Suite 2, 69 reviews) that someone already owns. Decision parked in Needs. Report: clients/_ops/mini-reports/2026-09-27-1038-chamber-claim-37998255.md
 
 - [x] **EMAIL ACCESS SELF-CHECK (UNSUPERVISED, read-only, 2026-09-27):**
   confirm you can read verification codes on your own. Using the repo's
