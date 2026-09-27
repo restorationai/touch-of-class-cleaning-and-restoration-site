@@ -8,6 +8,10 @@ via the Google-account handshake.
 Flow (selectors get pinned during the SUPERVISED first run — this playbook
 runs supervised until three clean completions, then it earns unattended):
   1. bingplaces.com → signed in as the agency Microsoft account (profile).
+     LOGIN URL (Santino 2026-09-27): Bing Places now lives at
+     https://www.bing.com/forbusiness/multipleEntities — sign in THERE
+     (Bing for Business / Microsoft Advertising account), not at a generic
+     Microsoft login page.
   2. Search for the business (name + city) — if a listing already exists,
      switch to CLAIM path; ledger 'exists'.
   3. Else "Import from Google" → pick the client's GBP location → verify the

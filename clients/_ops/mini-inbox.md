@@ -1,5 +1,27 @@
 # Mini inbox — current assignments (newest at top)
 
+- [ ] **SELF-UPDATE (UNSUPERVISED, 2026-09-27 from MacBook Claude, via
+  remote trigger — no client work, no browser):** get Claude Code to
+  2.1.280+ everywhere so Opus 5.5 is available, incl. headless sessions.
+  1. `claude --version`; `ls -l ~/.local/bin/claude`;
+     `ls ~/.antigravity-ide/extensions | grep claude`.
+  2. Update the Antigravity extension: find the IDE CLI at
+     `/Applications/<Antigravity IDE app>/Contents/Resources/app/bin/antigravity-ide`
+     and run `--install-extension anthropic.claude-code --force`.
+  3. Repoint `~/.local/bin/claude` to the new extension's
+     `resources/native-binary/claude` (or `claude update` if it works on
+     this install). Verify 2.1.280+ in a fresh login shell.
+  4. Merge `"model": "claude-opus-5-5"` into `~/.claude/settings.json`
+     (do not overwrite other keys).
+  5. DO NOT touch Chrome: the held Chrome has the chamberofcommerce.com
+     form waiting on Santino's captcha click, and Santino just completed
+     the Microsoft sign-in there (at
+     https://www.bing.com/forbusiness/multipleEntities — note that URL,
+     it is the correct Bing Places login; your earlier login tab was the
+     wrong page).
+  6. Ledger line + short run report, commit, push. If any step is
+     denied by permissions, report exactly which and stop.
+
 > **REFRESHED 2026-09-26 (from MacBook Claude).** The 09-15 revival stack
 > below is still your order of operations: PROVE THE CHANNEL first, then
 > commit local work, launchers, Bing steps. The NEW citations batch here
