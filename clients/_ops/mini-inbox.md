@@ -23,8 +23,9 @@
   run report per directory batch; end-of-day DAILY with per-directory
   counts (attempted / created / claimed / parked / blocked).
 
-- [ ] **APPLE PODCASTS CONNECT TEST — narestco (SUPERVISED, Santino
-  present; 2026-09-27):** Spotify is DROPPED (nofollow — see
+- [ ] **APPLE PODCASTS CONNECT TEST — narestco (NO LONGER SUPERVISED as of
+  14:05 PT 09-27: the only reason was the 2FA code, which you now fetch with
+  scripts/verification_code.py; run it whenever you reach it; 2026-09-27):** Spotify is DROPPED (nofollow — see
   docs/BACKLINKS-REBUILD.md DECISIONS); Apple Podcasts is the one podcast
   link that counts (show-page website link verified followed). Submit
   NaRestCo's existing feed https://podcasts.restorationai.io/narestco/feed.xml
