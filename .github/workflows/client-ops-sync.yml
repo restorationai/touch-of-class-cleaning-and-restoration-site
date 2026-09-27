@@ -214,6 +214,8 @@ jobs:
           # new name corroborated on the site. Stamps
           # rename_intent.site_synced_at; quiet when nothing is pending.
           python3 scripts/rename_site_sync.py || true
+          # 2026-09-27: surface the Mini's Problems/Flags as ops notes
+          python3 scripts/mini_report_watch.py || true
           # C11 (2026-09-16): agency toll-free verification watch. On
           # TWILIO_APPROVED it sets ESTIMATE_SMS_* on every rankai-* Pages
           # project (idempotent, self-heals new scaffolds), unlocking office
