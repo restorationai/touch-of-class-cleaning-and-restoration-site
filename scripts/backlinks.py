@@ -154,14 +154,90 @@ def cmd_check(slug: str | None) -> int:
     return 0
 
 
+# DISCOVERY (Santino 2026-09-27: "the system should find them on its own").
+# For targets with no saved URL, search Google (DataForSEO SERP) for the
+# client's profile on the target's own domain. A hit fills `url` only —
+# `check` then fetches it and promotes to live ONLY if the page actually
+# links the client's domain. Discovery never marks anything live itself.
+DISCOVERY_DOMAINS = {
+    "iicrc": ["iicrc.org"],
+    "ria": ["restorationindustry.org"],
+    "rr-magazine": ["randrmagazine.com", "restorationandremediation.com"],
+    "cr-magazine": ["candrmagazine.com"],
+    "spotify": ["open.spotify.com"],
+    "apple-podcasts": ["podcasts.apple.com"],
+}
+
+
+def cmd_discover(slug: str | None) -> int:
+    from citations_audit import DFS_SERP, _name_tokens, _guard_ok
+    from lead_audit import _dfs, _dfs_auth
+    auth = _dfs_auth()
+    cos = {c["id"]: c for c in _companies(slug)}
+    if not cos:
+        print("no matching companies")
+        return 0
+    ids = ",".join(f'"{c}"' for c in cos)
+    keys = ",".join(DISCOVERY_DOMAINS)
+    rows = _sb("GET", "/rest/v1/marketing_backlinks?status=in.(target,requested)"
+               f"&url=is.null&company_id=in.({ids})&target_key=in.({keys})"
+               "&select=id,company_id,target_key") or []
+    found = spent = 0
+    for r in rows:
+        co = cos.get(r["company_id"]) or {}
+        name = (co.get("name") or "").strip()
+        if not name:
+            continue
+        sites = " OR ".join(f"site:{d}" for d in DISCOVERY_DOMAINS[r["target_key"]])
+        try:
+            items, cost, _ = _dfs(DFS_SERP, [{
+                "keyword": f'({sites}) "{name}"', "location_code": 2840,
+                "language_code": "en", "depth": 10}], auth)
+            spent += cost or 0
+        except Exception as e:  # noqa: BLE001
+            print(f"  search failed {r['target_key']} {name[:30]}: {str(e)[:60]}")
+            continue
+        # Distinctive-token guard: industry words match every page on these
+        # sites (NaRestCo's first run matched RIA's convention page on
+        # "National Restoration"). Require the brand's DISTINCTIVE words in
+        # the result title/url, and never accept a site's home/section root.
+        generic = {"restoration", "restorations", "construction", "national",
+                   "services", "service", "company", "group", "llc", "inc",
+                   "contracting", "contractors", "cleaning", "the", "and",
+                   "water", "fire", "damage", "mold", "flood", "pros"}
+        distinct = [w for w in _name_tokens(name) if w not in generic]
+        def _ok(i):
+            url_ = str(i.get("url") or "")
+            hay = f"{i.get('title', '')} {url_}".lower()
+            path = url_.split("://", 1)[-1].split("/", 1)[-1] if "/" in url_.split("://", 1)[-1] else ""
+            if len(path.strip("/")) < 3:
+                return False
+            need = distinct or list(_name_tokens(name))
+            return all(w in hay for w in need[:2])
+        hits = [i for i in items if isinstance(i, dict)
+                and i.get("type") == "organic" and i.get("url") and _ok(i)]
+        if not hits:
+            continue
+        _sb("PATCH", f"/rest/v1/marketing_backlinks?id=eq.{r['id']}",
+            {"url": hits[0]["url"],
+             "note": f"auto-discovered {datetime.now(timezone.utc).date()} "
+                     "(unverified until the checker sees a link)"})
+        found += 1
+        print(f"  FOUND {r['target_key']} for {name[:30]}: {hits[0]['url'][:80]}")
+    print(f"discover: searched {len(rows)} target(s), {found} candidate URL(s) "
+          f"saved, ~${spent:.2f}")
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     sub = ap.add_subparsers(dest="cmd", required=True)
-    for name in ("seed", "check"):
+    for name in ("seed", "check", "discover"):
         p = sub.add_parser(name)
         p.add_argument("--slug")
     a = ap.parse_args()
-    return {"seed": cmd_seed, "check": cmd_check}[a.cmd](a.slug)
+    return {"seed": cmd_seed, "check": cmd_check,
+            "discover": cmd_discover}[a.cmd](a.slug)
 
 
 if __name__ == "__main__":

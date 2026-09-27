@@ -170,6 +170,7 @@ jobs:
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: |
           python3 scripts/backlinks.py seed || true
+          python3 scripts/backlinks.py discover || true
           python3 scripts/backlinks.py check || true
 
       - name: Citations -> site schema sameAs reconciliation
