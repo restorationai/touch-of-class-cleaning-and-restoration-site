@@ -16,3 +16,6 @@
 
 ## 2026-09-27 20:23 UTC — 0 fulfilled, 1 routed
 - NEED-20260927-1323-chamber-drybros [~] human dry-bros-water-fire-restoration: routed to Santino (judgment call)
+
+## 2026-09-27 21:15 UTC — 0 fulfilled, 1 routed
+- NEED-20260927-1417-apple-media-activation [~] human narestco: routed to Santino (judgment call)
