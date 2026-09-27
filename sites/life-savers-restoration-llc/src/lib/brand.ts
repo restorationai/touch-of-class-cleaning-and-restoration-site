@@ -65,7 +65,7 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.8",
-  gbpReviewCount: "247",
+  gbpReviewCount: "246",
   gbpReviews: [
     { author: "Gena", rating: 5, text: "Excellent and professional technicians, whom came in assessed the damages and got to work in a very well planned timeline. Although the fans are very noisy, we would have to watch out for any kind of water flow if there’s any water you used with tubes.", when: "September 2026" },
     { author: "Marcia", rating: 5, text: "I highly recommend Rudy and Life Savers Restoration! I had sudden water damage emergency at my townhome while living out of town, and Rudy came through on very short notice after being recommended by a friend. He kept me informed every step of the way, did an excellent job, and took the time to…", when: "July 2026" },
