@@ -170,7 +170,9 @@ jobs:
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: |
           python3 scripts/backlinks.py seed || true
-          python3 scripts/backlinks.py discover || true
+          # backlinks discover PAUSED 2026-09-27: SERP discovery missed Air
+          # Care's real RIA profile and saved 2 false podcast matches. Rebuild
+          # as direct-directory lookup before re-enabling.
           python3 scripts/backlinks.py check || true
 
       - name: Citations -> site schema sameAs reconciliation
