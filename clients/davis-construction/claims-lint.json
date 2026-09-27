@@ -1,6 +1,6 @@
 {
   "slug": "davis-construction",
-  "generated_at": "2026-09-27T14:44:59Z",
+  "generated_at": "2026-09-27T18:48:00Z",
   "truth": {
     "hours": "Monday\u2013Friday, 8:00 AM \u2013 5:00 PM",
     "is_247": false,
@@ -13,7 +13,7 @@
     "gbp_review_count": null,
     "vertical": "construction"
   },
-  "errors": 6,
+  "errors": 7,
   "review_flags": 9,
   "violations": [
     {
@@ -114,6 +114,15 @@
       "matched": "structural reconstruction",
       "context": "ation), cleaning and deodorization, and structural reconstruction. The reconstruction phase, which invol",
       "reason": "names the 'reconstruction' service family but plan-input services are only: decks-pergolas-fences, fire-smoke-rebuilding, home-remodeling, mold-remediation, new-construction, painting-trim"
+    },
+    {
+      "file": "src/content/locations/hazel-green-al__home-remodeling.md",
+      "part": "body",
+      "family": "response-time",
+      "severity": "error",
+      "matched": "on-site within",
+      "context": "oward the county line, we are typically on-site within a reasonable drive for scheduled work a",
+      "reason": "promises response/arrival timing but brand is neither 24/7 nor has brand.response_minutes set"
     },
     {
       "file": "src/content/locations/huntsville-al__painting-trim.md",
