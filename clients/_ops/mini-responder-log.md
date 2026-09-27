@@ -4,3 +4,6 @@
 
 ## 2026-09-27 18:42 UTC — 0 fulfilled, 1 routed
 - NEED-20260927-1140-sweep [~] human _ops: routed to Santino (judgment call)
+
+## 2026-09-27 19:45 UTC — 0 fulfilled, 1 routed
+- NEED-20260927-1250-apple-podcasts [~] human narestco: routed to Santino (judgment call)
