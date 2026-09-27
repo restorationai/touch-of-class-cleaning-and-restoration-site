@@ -65,6 +65,13 @@ CATEGORY_TARGETS: dict[str, list[tuple[str, str, str, str]]] = {
         ("cr-magazine", "C&R Magazine", "press",
          "Cleaning & Restoration, RIA's magazine (candrmagazine.com) — "
          "member article contribution."),
+        # 2026-09-27 (Santino, backlinks badges): the podcast pair the Mini
+        # connects from the client's RSS feed (podcasts.restorationai.io).
+        ("spotify", "Spotify podcast", "podcast",
+         "Client show on Spotify via our RSS feed — Mini lane, verified "
+         "live on open.spotify.com."),
+        ("apple-podcasts", "Apple Podcasts", "podcast",
+         "Client show on Apple Podcasts via the same RSS feed — Mini lane."),
     ],
 }
 
