@@ -250,3 +250,18 @@ third, unrelated company) stays valid for hand-entered client listings.
 6. Fleet rollout per the retention ladder; backlinks board gains the
    chamber target type; Monica gains the chamber + BBB-accreditation
    pitch content.
+
+## Signup email standard (LIVE 2026-09-27)
+
+Every NEW platform signup uses **setup-{slug}@restorationai.io** as the
+login/account email (e.g. setup-drybros@, setup-desert-valley@). A Google
+Workspace routing rule (pattern `(?i)^setup-[a-z0-9-]+@restorationai\.io$`,
+rule a68b5) delivers all of them into contact@ with an X-Gm-Original-To
+header naming the alias, so verification codes stay machine-readable via
+the Gmail helper and each client stays separable (no one-account-per-email
+collisions). No per-client setup needed. Plain setup@ remains only for
+listings already created with it (DV BBB, Dry Bros BBB, DV
+chamberofcommerce.com 09-27) — never migrate those. The login email is
+ours permanently; any PUBLIC business email field gets the client's own
+address. Offboarding = hand ownership over on the platform, not a mass
+email swap.
