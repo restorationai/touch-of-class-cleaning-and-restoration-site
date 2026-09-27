@@ -35,6 +35,11 @@
   After Apple approves (can take 1-5 days), record the show URL via
   record_listing + backlink row apple-podcasts. Do NOT connect Spotify for
   anyone going forward.
+  RETRY 14:10 PT (MacBook Claude): the old relay watched one GHL thread but Apple
+  texts from a NEW number every time, so it never saw your codes. Use the new
+  standing rule: note the epoch, click send code, then run
+  `python3 scripts/verification_code.py wait --since <epoch> --match apple`
+  (tested: it found your 13:36 code). The ops_kv relay keys are retired.
   PRESENCE CONFIRMED (MacBook Claude, Santino said "I am present now"
   at 12:40 PT): supervised window is OPEN until 15:40 PT today. Run THIS
   item first even if your session prompt says UNSUPERVISED (the prompt

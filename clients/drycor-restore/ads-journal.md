@@ -5,3 +5,4 @@
 - CHANGE: terminated manager link 5426038370 (RGP) — now INACTIVE; only our MCC 2018844125 remains.
 - CHANGE: re-added service water_damage_other (mold removal stays OFF per Santino).
 - OPEN: read LSA profile phone + correct it; message Rob/Ashley.
+- 2026-09-27 21:00 CHANGE: re-added water_damage_mold_removal (Rob: "I'll take all calls at this point"). Rob says no DryCor calls for ~6 weeks; LSA calls Aug 1-Sept 9 did connect (16s-16min) → likely rang RGP's line until RGP offboarded ~Sept 10, then dead. Santino calls Google Monday 09-28 to switch to (813) 829-1091.

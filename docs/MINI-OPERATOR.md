@@ -44,6 +44,16 @@ same way — git is the message channel between the two machines.
   robot" checkbox yourself, once, normal click (see browser_agent/README.md
   rule 2). Image/audio puzzles, solving services and retry loops are
   forbidden — park and list under ## Needs.
+- **VERIFICATION CODES: fetch them yourself (Santino 2026-09-27).** Any
+  SMS 2FA / verification code sent to the agency line (..49 / the 805) or a
+  client's Twilio tracking number: note the unix time right BEFORE you click
+  "send code", then run
+  `python3 scripts/verification_code.py wait --since <that epoch> --match <service word, e.g. apple>`
+  It prints `CODE <digits> ...` within seconds of the text landing (it
+  searches every GHL thread; Apple uses a NEW sender number each time, so
+  never watch a single thread). Type it, finish, move on. Never ask Santino
+  for a code, never write a code into git. If the script errors (e.g. no
+  GHL_API_KEY in your .env), post a structured Need and park.
 - **Sweep graduated to unattended (Santino 2026-09-27: "yes allow it"):**
   the 11:30 launchd sweep runs unattended from now on (LSA is skipped on
   this machine in code).

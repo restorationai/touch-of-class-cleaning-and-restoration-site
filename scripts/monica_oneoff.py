@@ -8,7 +8,7 @@ to Rachelle's answer was held by the 60-min quiet window and the follow-up
 by the 12h human-defer, and she had no idea what the question was about.
 
 This wrapper fixes both halves:
-  1. CONTEXT FIRST — files a [CONTEXT] ops note on the company (rides into
+  1. CONTEXT — right after a successful send, files a [CONTEXT] ops note on the company (rides into
      every compose, never read as an order to text) so Monica can answer
      the client's reply herself.
   2. SENT AS MONICA — delivers through cc.send_message (canary allowlist,
@@ -61,14 +61,17 @@ def main() -> int:
     if not a.send:
         print("[dry run] nothing filed, nothing sent")
         return 0
-    cc._sb("POST", "/rest/v1/marketing_ops_notes",
-           {"company_id": a.company, "author": "claude-macbook",
-            "status": "open", "body": note[:1900]}, prefer="return=minimal")
+    # Send FIRST: a blocked send (allowlist, send lock) must not leave a
+    # context note behind, or a retry files a duplicate (DryCor 09-27).
+    # Monica's reply path debounces 100s, so the note still lands first.
     r = cc.send_message(contact, a.channel, a.body, subject=a.subject,
                         company=comp, human_hold_exempt=True)
     state = cc.load_state()
     cc.record_sent_message(state, r)
     cc.save_state(state, dry_run=False)
+    cc._sb("POST", "/rest/v1/marketing_ops_notes",
+           {"company_id": a.company, "author": "claude-macbook",
+            "status": "open", "body": note[:1900]}, prefer="return=minimal")
     print("sent + context filed:", r.get("messageId") or r)
     return 0
 
