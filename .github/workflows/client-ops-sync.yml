@@ -209,6 +209,12 @@ jobs:
           # only rode Mon/Thu weekly-maintenance; review counts move daily
           # and a fresh build could preview ratings-less for 4 days).
           python3 scripts/sync_brand_reviews.py --all || true
+          # AI answers + awards (Santino 2026-09-27, Restoration Masters
+          # teardown): llms.txt "Who is the best X in Y?" Q&A with live
+          # rating/review proof, and any plan-input awards pushed into
+          # brand.ts / schema award / trust strip / home meta. Runs after
+          # review sync so answers carry today's counts. Idempotent.
+          python3 scripts/ai_answers.py --all || true
           # Rename A2 (2026-09-16): the sweep behind Monica's DBA
           # vision-verify — puts "[legal] doing business as [DBA]" in the
           # footer + the DBA as the schema.org business name, so BL's

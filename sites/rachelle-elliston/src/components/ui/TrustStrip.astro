@@ -36,7 +36,11 @@ const defaultBadges: string[] = [
           ? ["Free Estimates"] : []),
         ...certBadges,
       ];
-const badges: string[] = [...(brand.trustBadges || [])];
+// AWARDS LEAD (Santino 2026-09-27): a named award is the strongest trust +
+// AI-citation signal we can show; it always takes the first slot.
+const awardBadges: string[] = ((brand as { awards?: { name: string; year?: string | number }[] }).awards || [])
+  .slice(0, 1).map((a) => `${a.name}${a.year && !String(a.name).includes(String(a.year)) ? ` ${a.year}` : ""} Winner`);
+const badges: string[] = [...awardBadges, ...(brand.trustBadges || [])];
 for (const d of defaultBadges) {
   if (badges.length >= 4) break;
   // containment dedupe: "Locally Owned" must not ride next to the
@@ -47,6 +51,7 @@ for (const d of defaultBadges) {
 
 function iconFor(label: string) {
   const t = label.toLowerCase();
+  if (t.includes("winner") || t.includes("best of")) return Award;
   if (t.includes("star") || t.includes("rated")) return Star;
   if (t.includes("guarantee") || t.includes("award") || t.includes("voted") || t.includes("#1")) return Award;
   if (t.includes("year") || t.includes("since") || t.includes("est.") || t.includes("24") || t.includes("emergency")) return Clock;

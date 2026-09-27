@@ -30,11 +30,14 @@ const allServices = await getCollection("services");
 const services = (allServices as CollectionEntry<"services">[])
   .sort((a, b) => (b.data.priority || 0) - (a.data.priority || 0))
   .slice(0, 6);
+// Award-led meta description (Santino 2026-09-27, Restoration Masters pattern).
+const _aw = ((brand as { awards?: { name: string; year?: string | number }[] }).awards || [])[0];
+const awardMeta = _aw ? `${_aw.name}${_aw.year && !String(_aw.name).includes(String(_aw.year)) ? ` ${_aw.year}` : ""} Winner.` : "";
 ---
 
 <BaseLayout
   title={data.title}
-  meta_description={data.meta_description}
+  meta_description={awardMeta ? `${awardMeta} ${data.meta_description}` : data.meta_description}
   hero_image_url={heroImage}
   schema_stubs={["organization", "website", "local-business"]}
   schema_ctx={{ archetype: "home" }}

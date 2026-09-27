@@ -36,7 +36,15 @@
     "accent_color": "#f28536",
     "dark_color": "#161618",
     "logo_url": "/images/logo.png",
-    "palette_source": "auto: site CSS + logo (retint 2026-09-27, Santino flagged all-black template)"
+    "palette_source": "auto: site CSS + logo (retint 2026-09-27, Santino flagged all-black template)",
+    "awards": [
+      {
+        "name": "BusinessRate Best of 2026",
+        "year": 2026,
+        "category": "Contractor, North Las Vegas",
+        "organizer": "BusinessRate"
+      }
+    ]
   },
   "services": [
     "biohazard-cleanup",
