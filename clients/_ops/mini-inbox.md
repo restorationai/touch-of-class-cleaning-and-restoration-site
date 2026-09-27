@@ -7,10 +7,19 @@
 > (Santino present). Full program context: docs/CITATIONS-REBUILD.md —
 > read it before the batch.
 
-- [ ] **BBB CLAIM — narestco (supervised, first run of the lane):** their
-  real unclaimed profile is bbb.org/us/wa/federal-way/... (see the
-  citations audit / CITATIONS-REBUILD.md section 5). Claim it with the
-  setup@ identity. Verification: prefer email; if BBB texts a code to a
+- [ ] **BBB CLAIM — rachelle-elliston / Desert Valley (supervised, first
+  run of the lane; PILOT SWAPPED from narestco 09-26 — DV is the full
+  lifecycle test):** their real profile is
+  bbb.org/us/nv/north-las-vegas/profile/fire-water-damage-restoration/desert-valley-contracting-inc-1086-78265
+  (phone on it matches their real line 702-633-5033, so it is genuinely
+  theirs). Claim it with the setup@ identity. BONUS SECOND STEP once
+  claimed: their DBA is FILED AND VERIFIED ("Desert Valley
+  Restoration-24/7 Emergency Plumbing, Water and Fire Damage
+  Restoration", NV FFN cert at
+  branding/CO-1789170047342/docs/DVC FEN Firm Name Desert Valley Restoration.pdf)
+  — request the profile NAME EDIT to that exact string with the cert as
+  documentation. That is the fleet's first BBB rename edit. narestco
+  (bbb.org/us/wa/federal-way/...) stays as the BACKUP claim candidate. Verification: prefer email; if BBB texts a code to a
   number on the profile, Santino is present and coordinates the client
   live (the automated code relay is not built yet — do NOT attempt codes
   unsupervised). After claim: update NAP per the CORRECTED phone policy
@@ -23,8 +32,9 @@
   takes days-weeks and may call — our answered lines are the contact.
   Start it this sitting so the clock runs. Report what the flow asked
   for.
-- [ ] **chamberofcommerce.com — narestco (supervised, quick):** free-tier
-  listing via standard signup with setup@. This is an existing handled
+- [ ] **chamberofcommerce.com — rachelle-elliston / Desert Valley
+  (supervised, quick):** free-tier listing via standard signup with
+  setup@, under the NEW DBA name (it is final and filed). This is an existing handled
   Connect-tab slot — record the listing URL into the run report so the
   audit picks it up.
 
