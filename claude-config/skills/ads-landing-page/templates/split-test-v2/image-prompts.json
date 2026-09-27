@@ -1,0 +1,27 @@
+{
+  "_comment": "Nano Banana (Gemini image) prompts for the split-test-v2 'Plumbera' LP. Generate one set PER CLIENT, save under sites/{slug}/public/images/lp/, then wire the two URLs into the manifest entry (heroImageUrl = technician portrait, featureImageUrl = team photo). Use model 'pro'. People-focused imagery (not flood scenes) — this design leans on a friendly-technician trust angle. The hero box crops with object-top, so frame faces in the upper-center with headroom. Adjust nouns for the client's niche.",
+  "model": "pro",
+  "mcp_tool": "mcp__nanobanana-mcp__gemini_generate_image",
+  "images": [
+    {
+      "key": "heroImageUrl",
+      "filename": "v3-hero-tech.png",
+      "aspect_ratio": "3:4",
+      "prompt": "Photorealistic portrait of a friendly professional male restoration technician, short hair, clean navy uniform shirt and cap, smiling warmly at the camera, standing in a bright living room holding a moisture meter, his full head and face clearly visible with comfortable empty space above his head, framed from mid-thigh up, centered composition, soft natural lighting, approachable and trustworthy, no text, no logos, professional commercial photography."
+    },
+    {
+      "key": "featureImageUrl",
+      "filename": "v3-team.png",
+      "aspect_ratio": "4:3",
+      "prompt": "Photorealistic photo of two professional male restoration technicians in matching navy uniforms working together in a residential home, one operating a commercial dehumidifier and the other holding a clipboard, drying equipment and air movers around them, plastic containment sheeting on furniture, friendly and competent, natural lighting, landscape composition, no text, no logos, professional commercial photography."
+    }
+  ],
+  "niche_overrides": {
+    "fire-damage-restoration": {
+      "heroImageUrl": "Photorealistic portrait of a friendly male fire-damage restoration technician in a clean uniform and cap, smiling at the camera, standing in a home with subtle soot/smoke damage softly blurred behind him, full face visible with headroom, framed mid-thigh up, natural lighting, no text, no logos, professional photography."
+    },
+    "mold-remediation": {
+      "heroImageUrl": "Photorealistic portrait of a friendly male mold-remediation technician in clean white protective coveralls (hood down, no mask covering face), smiling at the camera, containment sheeting softly blurred behind, full face visible with headroom, framed mid-thigh up, natural lighting, no text, no logos, professional photography."
+    }
+  }
+}
