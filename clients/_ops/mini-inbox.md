@@ -1,5 +1,28 @@
 # Mini inbox — current assignments (newest at top)
 
+- [ ] **ALL-DAY DIRECTORY BLITZ — 2026-09-27 (Santino: "run tests all day on
+  every directory until exhausted"):** AFTER the Apple Podcasts test, work
+  every "we handle" directory lane across all active clients until each
+  directory's daily allowance is spent or nothing is left, until 7pm PT.
+  Rules: MINI-OPERATOR "ALL-DAY DIRECTORY BLITZ mode" (max 2 new per
+  directory per day, 20+ min spacing per directory, stop a directory on
+  any throttle signal). Lanes (docs/CITATIONS-REBUILD.md registry):
+  HomeGuide (sweep queue), Houzz, Porch, BBB (claim if a real profile
+  exists, else create), chamberofcommerce.com (claim existing first),
+  yellowpagesdirectory.com, Expertise, ContractorsRanked, Apple Business
+  Connect, Nextdoor. NOT: Foursquare/MapQuest (aggregator-covered),
+  Spotify (dropped), Yelp (stays BrightLocal until phone-code test),
+  Thumbtack/HomeAdvisor (hard-blocked), anything LSA. Pick clients by gaps
+  (citation_listings missing/none, highest-value first; skip clients whose
+  rename DBA is not final — listings must use the settled name). New
+  accounts use setup-{slug}@restorationai.io (routing rule live). Phone =
+  REAL business line. Any phone/SMS code: if the platform offers a
+  separate account phone use the client's Twilio tracking number (codes are
+  captured in ops_kv verification-codes:{cid}, never forwarded); otherwise
+  park it as a structured Need. Ledger + record_listing on every event; one
+  run report per directory batch; end-of-day DAILY with per-directory
+  counts (attempted / created / claimed / parked / blocked).
+
 - [ ] **APPLE PODCASTS CONNECT TEST — narestco (SUPERVISED, Santino
   present; 2026-09-27):** Spotify is DROPPED (nofollow — see
   docs/BACKLINKS-REBUILD.md DECISIONS); Apple Podcasts is the one podcast

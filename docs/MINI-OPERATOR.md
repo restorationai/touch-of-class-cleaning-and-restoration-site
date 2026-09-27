@@ -44,6 +44,20 @@ same way — git is the message channel between the two machines.
   robot" checkbox yourself, once, normal click (see browser_agent/README.md
   rule 2). Image/audio puzzles, solving services and retry loops are
   forbidden — park and list under ## Needs.
+- **Sweep graduated to unattended (Santino 2026-09-27: "yes allow it"):**
+  the 11:30 launchd sweep runs unattended from now on (LSA is skipped on
+  this machine in code).
+- **ALL-DAY DIRECTORY BLITZ mode (Santino 2026-09-27):** when the inbox
+  carries an ALL-DAY BLITZ item, keep working directory lanes across all
+  clients until every directory's daily allowance is used or nothing is
+  left to do, within 8am-7pm PT. Per-directory guardrails: max 2 NEW
+  listings per directory per day (PORTAL_NIGHTLY_CAP — Houzz throttled us
+  faster), 20+ minutes between submissions to the
+  same directory, never two submissions for one client on one directory,
+  stop that directory for the day on any rate-limit/"too many" signal or
+  unfamiliar challenge. Everything else in these orders still applies
+  (real phone, setup-{slug}@ logins, checkbox-only CAPTCHA, park + Needs
+  on anything you can't satisfy, ledger every event immediately).
 - **Daytime only** for citation submissions (the sweep window is ~11:30
   Pacific for a reason — daytime traffic looks human). Autonomous overnight
   runs are not enabled yet.
