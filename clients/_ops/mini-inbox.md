@@ -147,6 +147,7 @@
   sweep; MacBook Claude turns it off after verifying.
   → RESULT (mini): PARTIAL 2026-09-27. 2.2 DONE — com.rankai.mini-sweep.plist installed + bootstrapped (11:30 PT, verified via launchctl print). 2.1 PARKED-FOR-MORNING (Microsoft sign-in needs Santino; bing.com/webmasters tab left open in the held suite-profile Chrome). 2.3 PARKED-FOR-MORNING (supervised + daytime; also the held CDP Chrome must be quit first — it holds the profile lock). MacBook job must stay on.
   → RESULT (mini 2026-09-27): 2.1 still undone 09-27: login page left open ~45 min, no sign-in, no Microsoft creds on this machine (Needs: microsoft:agency in portal-creds). 2.3 not run.
+  → NOTE (mini 2026-09-27 11:40): the scheduled job fired 11:30 and was still running UNATTENDED at 11:40. It includes the LSA phone pass; the MacBook 11:30 job is also on. Not killed. See 2026-09-27-1140-responder-trigger-idle.md and mini-needs NEED-20260927-1140-sweep.
 
 - [x] **COMMIT YOUR LOCAL WORK (first, 2026-09-15):** this machine has
   uncommitted Spotify feed-generator changes and the narestco manifest.
