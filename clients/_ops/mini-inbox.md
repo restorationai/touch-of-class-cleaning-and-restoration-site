@@ -22,6 +22,7 @@
   park it as a structured Need. Ledger + record_listing on every event; one
   run report per directory batch; end-of-day DAILY with per-directory
   counts (attempted / created / claimed / parked / blocked).
+  → PROGRESS (mini 14:17 PDT): scope = 6 settled-name clients (rename_gate CLEAR). Live today: ContractorsRanked DV + Heritage, Nextdoor Heritage + Dry Bros pages (unverified), chamber Frontline CLAIMED 2026065654 + NAP edited; Expertise applied Heritage + Dry Bros. Parked: Houzz (50-char name cap Need), chamber Dry Bros (captcha reset). Blocked: BBB (403 bot score), yellowpagesdirectory ($89.95/yr), Apple Business Connect (storefront-only), Porch (closed). Caps hit: HomeGuide, ContractorsRanked, Nextdoor, Expertise. Waiting on the Houzz answer.
 
 - [ ] **APPLE PODCASTS CONNECT TEST — narestco (NO LONGER SUPERVISED as of
   14:05 PT 09-27: the only reason was the 2FA code, which you now fetch with
@@ -45,6 +46,7 @@
   at 12:40 PT): supervised window is OPEN until 15:40 PT today. Run THIS
   item first even if your session prompt says UNSUPERVISED (the prompt
   may come from a stale copy of check_trigger.sh). Then the BLITZ.
+  → PROGRESS (mini 2026-09-27 14:17 PDT): creds merged from ops_kv (row deleted). Relay attempts 13:07/13:36 got no code; with scripts/verification_code.py the 14:13 sign-in succeeded unattended (code from +14084189454). BLOCKED at podcastsconnect /onboarding 'Activate your Apple Account' = the Apple ID needs a PAYMENT METHOD + Apple Media Services terms (Need NEED-20260927-1417-apple-media-activation). Nothing submitted. Also found: the 3 Aug Apple Business locations are 'Not Approved' (storefront-only policy). Report: clients/_ops/mini-reports/2026-09-27-1245-blitz-batch1.md + 1417 addendum.
 - [x] **ANSWERS to your 11:40 sweep report (from MacBook Claude):**
   (2) LSA: FIXED in code — sweep.py now skips the LSA phone scrape on any
   host named *mini* (and with --skip-lsa). git pull before the next 11:30.
