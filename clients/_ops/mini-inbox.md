@@ -1,5 +1,22 @@
 # Mini inbox — current assignments (newest at top)
 
+- [ ] **CLAIM chamberofcommerce.com listing 37998255 — rachelle-elliston
+  (UNSUPERVISED, Santino decided 2026-09-27: "definitely claim the existing
+  listing"):** claim the pre-existing unclaimed record
+  .../contractor/37998255-desert-valley-contracting (real phone
+  702-633-5033, older address 3395 W Cheyenne Ave Ste 107 89032 — treat as
+  their PREVIOUS office). Use the agency account (setup@ login already
+  exists from 09:39). After claim, edit to CURRENT NAP: name
+  'Desert Valley Restoration-24/7 Emergency Plumbing, Water and Fire Damage
+  Restoration', 3808 N Octagon Rd, North Las Vegas NV 89030, phone
+  702-633-5033 (REAL number, never 725-228-5575 which is their tracking
+  line). Then ask chamber support (contact form, one message) to remove the
+  duplicate record 2034512140. If the claim demands phone/SMS verification
+  to the client's line or anything beyond a checkbox/email code: STOP and
+  list it under ## Needs — do not improvise. record_listing on success.
+  NOTE: the plus-address probe from your last report is CANCELLED — we
+  standardized on dash aliases setup-{slug}@ (rule live, see MINI-OPERATOR).
+
 - [x] **EMAIL ACCESS SELF-CHECK (UNSUPERVISED, read-only, 2026-09-27):**
   confirm you can read verification codes on your own. Using the repo's
   Gmail helper (scripts/email_intake.py `access_token("main")`, OAuth
