@@ -26,7 +26,7 @@
   unsupervised). After claim: update NAP per the CORRECTED phone policy
   (REAL business number, never a tracking number — CITATIONS-REBUILD.md
   section 3). File the run verdict in your daily report.
-- [ ] **BBB CREATE — dry-bros-water-fire-restoration (supervised, same
+- [x] **BBB CREATE — dry-bros-water-fire-restoration (supervised, same
   sitting):** no profile exists. Submit BBB's add-a-business flow under
   the FILED DBA string VERBATIM (confirmed from rename_intent 09-27,
   dba_filed=true, vision-verified):
@@ -36,7 +36,7 @@
   takes days-weeks and may call — our answered lines are the contact.
   Start it this sitting so the clock runs. Report what the flow asked
   for.
-- [ ] **chamberofcommerce.com — rachelle-elliston / Desert Valley
+- [x] **chamberofcommerce.com — rachelle-elliston / Desert Valley
   (supervised, quick):** free-tier listing via standard signup with
   setup@, under the NEW DBA name (it is final and filed). This is an existing handled
   Connect-tab slot — record the listing URL into the run report so the
@@ -44,6 +44,9 @@
   → PARKED-FOR-MORNING (mini, 2026-09-27): supervised + daytime. Needs Santino watching + the NV FFN cert PDF on this machine (inbox path branding/CO-1789170047342/docs/… is not in this checkout).
   → PARKED-FOR-MORNING (mini, 2026-09-27): supervised + daytime. Needs the FILED DBA string confirmed verbatim (gbp-rename-candidates.md lists ranked candidates only).
   → PARKED-FOR-MORNING (mini, 2026-09-27): supervised + daytime; ~10 min once BBB is running.
+  → RESULT (mini 2026-09-27): CLAIM SUBMITTED 07:58 PDT via get-listed 'Request Access' (setup@, real phone, no accreditation); BBB Southern Nevada reviews and emails setup@. RENAME EDIT parked until access is granted — cert ready in repo. Note the profile's alternate name 'Servpro of Downtown Las Vegas'. Lane run 1/3.
+  → RESULT (mini 2026-09-27): CREATE SUBMITTED 08:12 PDT under the verbatim DBA; BBB: 'Your request has been sent to the BBB.' No account/code step; no URL until vetting clears (record_listing waits). Lane run 1/3.
+  → RESULT (mini 2026-09-27): FILLED (new DBA, real phone, category Water Damage Restoration Service, agency account setup@), STOPPED at Google reCAPTCHA — needs one human click in the open tab; not submitted.
 
 > **RESUMED 2026-09-15 — Santino is ON-SITE at this machine right now.**
 > Work top to bottom. Supervised items are GO today (he is present).
@@ -70,6 +73,7 @@
   The MacBook's 11:30am job stays ON until your first clean scheduled
   sweep; MacBook Claude turns it off after verifying.
   → RESULT (mini): PARTIAL 2026-09-27. 2.2 DONE — com.rankai.mini-sweep.plist installed + bootstrapped (11:30 PT, verified via launchctl print). 2.1 PARKED-FOR-MORNING (Microsoft sign-in needs Santino; bing.com/webmasters tab left open in the held suite-profile Chrome). 2.3 PARKED-FOR-MORNING (supervised + daytime; also the held CDP Chrome must be quit first — it holds the profile lock). MacBook job must stay on.
+  → RESULT (mini 2026-09-27): 2.1 still undone 09-27: login page left open ~45 min, no sign-in, no Microsoft creds on this machine (Needs: microsoft:agency in portal-creds). 2.3 not run.
 
 - [x] **COMMIT YOUR LOCAL WORK (first, 2026-09-15):** this machine has
   uncommitted Spotify feed-generator changes and the narestco manifest.
@@ -162,5 +166,6 @@
   wall. The goal is reclassifying "yours to set up" rows into
   agent-buildable wherever the blocker has dissolved.
   → PARKED-FOR-MORNING (mini, 2026-09-27): supervised + daytime; whole batch untouched — nothing logged into tonight.
+  → RESULT (mini 2026-09-27): RECON DONE 09-27 (read-only to first gate, narestco): Nextdoor US-BUILDABLE; Yelp US-BUILDABLE pending phone-code test; Angi NEEDS-CLIENT-STEP; Facebook NEEDS-CLIENT-STEP / agency-profile decision; Thumbtack HARD-BLOCKED; HomeAdvisor HARD-BLOCKED (paid). Full table in 2026-09-27-0748 run report.
 
 <!-- completed items get [x] + a one-line result; MacBook Claude prunes -->
