@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+apartment water damage,commercial,260,,144.42,2,apartment water damage,,,false
+water damage apartment,commercial,260,,144.42,2,apartment water damage,,,false
+apartment water damage cost,commercial,10,44,,2,apartment water damage,,,false
+renters insurance water damage,informational,1900,15,16.18,2,apartment water damage,,,false
+apartment flooded,informational,880,,180.26,2,apartment water damage,,,false
+flooded apartment,informational,880,,180.26,2,apartment water damage,,,false
+leak in ceiling apartment,informational,590,,4.49,2,apartment water damage,,,false
+leak in apartment ceiling,informational,590,,4.49,2,apartment water damage,,,false
+apartment flooded carpet,informational,590,,,2,apartment water damage,,,false
+does renters insurance cover flood damage,informational,480,14,6.36,2,apartment water damage,,,false
+how long does my landlord have to fix mold,informational,390,,7.66,2,apartment water damage,,,false
+water damage in apartment,informational,260,,144.42,2,apartment water damage,,,false
+my apartment flooded what are my rights,informational,260,,8.06,2,apartment water damage,,,false
+my apartment flooded,informational,210,,225.21,2,apartment water damage,,,false
+water leak in apartment,informational,170,,194.87,2,apartment water damage,,,false
+apartment water leak,informational,170,,194.87,2,apartment water damage,,,false
+how long does a landlord have to fix water damage,informational,170,2,17.27,2,apartment water damage,,,false
+pipe burst flooded apartment,informational,140,,,2,apartment water damage,,,false
+flooded apartment bathroom,informational,110,,,2,apartment water damage,,,false
+water leak in apartment ceiling,informational,110,,5.33,2,apartment water damage,,,false
+flooded basement apartment,informational,90,3,6.26,2,apartment water damage,,,false
+basement apartment flooded,informational,90,9,6.26,2,apartment water damage,,,false
+leak in apartment,informational,90,,,2,apartment water damage,,,false
+apartment bathroom flooded,informational,90,,,2,apartment water damage,,,false
+water damage in apartment who is responsible,informational,70,,202.75,2,apartment water damage,,,false
+water leak in apartment who is responsible,informational,70,3,13.52,2,apartment water damage,,,false
+leak in apartment ceiling who is responsible,informational,70,,25.37,2,apartment water damage,,,false
+flooded apartment what to do,informational,70,,48.57,2,apartment water damage,,,false
+my apartment flooded what do i do,informational,70,,35.98,2,apartment water damage,,,false
+flooded apartment kitchen,informational,70,,,2,apartment water damage,,,false
+apartment flooded from upstairs,informational,70,,41.48,2,apartment water damage,,,false
+upstairs neighbor flooded my apartment,informational,50,,,2,apartment water damage,,,false
+water damage in apartment ceiling,informational,50,,40.37,2,apartment water damage,,,false
+tenant negligence water damage,informational,50,,,2,apartment water damage,,,false
+apartment flooded no renters insurance,informational,40,,,2,apartment water damage,,,false
+do i have to pay rent if my apartment flooded,informational,30,,,2,apartment water damage,,,false
+how long does it take to dry out an apartment after a leak,informational,,,,2,apartment water damage,,,false
+is it safe to stay in an apartment with water damage,informational,,,,2,apartment water damage,,,false
+does renters insurance pay for a hotel if my apartment floods,informational,,,,2,apartment water damage,,,false
+should a landlord paint over a water stain on the ceiling,informational,,,,2,apartment water damage,,,false
