@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>Label</key><string>com.rankai.daily-backup</string>
+  <key>ProgramArguments</key><array>
+    <string>/bin/zsh</string><string>-lc</string>
+    <string>$HOME/Desktop/mywebsitecode/rank-ai/scripts/macbook/daily_backup.sh</string>
+  </array>
+  <key>StartCalendarInterval</key><dict><key>Hour</key><integer>21</integer><key>Minute</key><integer>17</integer></dict>
+  <key>StandardOutPath</key><string>/tmp/rankai-daily-backup.log</string>
+  <key>StandardErrorPath</key><string>/tmp/rankai-daily-backup.log</string>
+</dict></plist>

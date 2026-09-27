@@ -55,7 +55,19 @@ TARGETS = [
      "rankai/portal-creds.json"),
     (Path.home() / ".rankai" / "domain-creds.key",
      "rankai/domain-creds.key"),
+    # 2026-09-27 (Santino: "everything in GitHub, pick up on a new computer"):
+    # every remaining gitignored secret + Claude's own config.
+    (ROOT / ".gsc-oauth-client.json", "repo/.gsc-oauth-client.json"),
+    (ROOT / ".secrets" / "ga4-sa.json", "repo/.secrets/ga4-sa.json"),
+    (ROOT / ".secrets" / "geocoding-key", "repo/.secrets/geocoding-key"),
+    (ROOT / "kpi-dashboard" / "config.env", "repo/kpi-dashboard/config.env"),
+    (Path.home() / ".claude" / "settings.json", "claude/settings.json"),
+    (Path.home() / ".claude" / "settings.local.json",
+     "claude/settings.local.json"),
 ]
+# Per-client Google Ads OAuth tokens (clients/{slug}/.ads-token.json).
+TARGETS += [(p, f"repo/{p.relative_to(ROOT)}")
+            for p in sorted(ROOT.glob("clients/*/.ads-token.json"))]
 
 
 def _headers() -> dict:
@@ -73,6 +85,18 @@ def passphrase(confirm: bool) -> str:
     p = os.environ.get("SECRETS_BACKUP_PASSPHRASE")
     if p:
         return p
+    # Unattended daily refresh (2026-09-27): the passphrase may live in the
+    # macOS login keychain (service rankai-secrets-backup) — never in git or
+    # .env. Add once with:
+    #   security add-generic-password -a "$USER" -s rankai-secrets-backup -w
+    try:
+        r = subprocess.run(["security", "find-generic-password", "-s",
+                            "rankai-secrets-backup", "-w"],
+                           capture_output=True, text=True, timeout=10)
+        if r.returncode == 0 and r.stdout.strip():
+            return r.stdout.strip()
+    except Exception:  # noqa: BLE001 — fall through to interactive prompt
+        pass
     p = getpass.getpass("backup passphrase: ")
     if confirm and getpass.getpass("confirm passphrase: ") != p:
         sys.exit("passphrases do not match")
