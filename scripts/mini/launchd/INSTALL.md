@@ -18,8 +18,13 @@ Notes:
   IDE extension's native build, symlinked at `~/.local/bin/claude`
   (2.1.272, authenticated — verified with a `-p` call 2026-09-15). Both
   plists put `~/.local/bin` first on PATH. `Start Rank AI Agent.command`
-  on the Desktop relies on the Terminal shell's PATH — if double-click says
-  `claude: command not found`, also `sudo ln -sf ~/.local/bin/claude /usr/local/bin/claude`.
+  on the Desktop relies on the Terminal shell's PATH, and `claude` is NOT on
+  it (the agent's attempt to prepend `~/.local/bin` in the launcher copy was
+  also refused). Fix with ONE of:
+  `sudo ln -sf ~/.local/bin/claude /usr/local/bin/claude`  (preferred) or
+  `echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc`.
+- The 5-minute trigger watcher runs `claude -p` headless; the same PATH fix
+  is already baked into the plist's EnvironmentVariables.
 - The sweep job needs a live Microsoft session on the suite Chrome
   profile first (Bing step 2.1) and must not overlap the held CDP Chrome
   on that profile (SingletonLock) — quit that Chrome before 11:30.
