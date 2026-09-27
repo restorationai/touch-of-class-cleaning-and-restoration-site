@@ -15,6 +15,13 @@ One chassis owns the safety machinery; each portal task is a thin playbook.
    (`ops_kv key 'browser-agent-paused'` empty). No exceptions.
 2. NEVER bypass CAPTCHAs, login prompts, 2FA, or anti-abuse controls. On any
    security challenge: screenshot, pause the run, file a [TODO-SANTINO] note.
+   ONE NARROW EXCEPTION (Santino 2026-09-27, for unattended operation): the
+   agent MAY click a reCAPTCHA / Turnstile "I'm not a robot" CHECKBOX once,
+   with a normal click, from its own persistent signed-in profile — that is
+   ordinary use of the page. If the checkbox resolves green, continue. If it
+   escalates to an image/audio puzzle or any other challenge: do NOT attempt
+   it, never use a solving service or human-mimicry tricks — screenshot,
+   park, and file it under ## Needs. One attempt per form, no retry loops.
 3. Audit screenshots before and after every live write → runtime/audit/.
 4. Every action (attempted or done) is ledgered with company_id + playbook +
    outcome; a playbook marks its setup-ledger item done ONLY after verified

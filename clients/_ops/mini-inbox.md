@@ -1,5 +1,21 @@
 # Mini inbox — current assignments (newest at top)
 
+- [ ] **CAPTCHA CHECKBOX TEST — chamberofcommerce.com Desert Valley
+  (UNSUPERVISED, remote trigger 2026-09-27, Santino authorized):** read the
+  new rule 2 exception in browser_agent/README.md first. Attach to the held
+  CDP Chrome where the filled form is waiting. Click the reCAPTCHA checkbox
+  ONCE with a normal click. Outcomes:
+  - resolves green -> submit the form, verify the listing, record the URL
+    via listings.record_listing (platform chamberofcommerce) + ledger line.
+  - image/audio challenge appears -> STOP, screenshot, do not touch it,
+    list it under ## Needs. That result is valuable data, not a failure.
+  - form lost/expired -> report it, do not refill unattended.
+  Also: Santino DID complete the Microsoft sign-in this morning at
+  https://www.bing.com/forbusiness/multipleEntities — remove the stale
+  "Microsoft credentials" Need. AFTER the chamber step (either outcome),
+  quit the held CDP Chrome cleanly so the 11:30 sweep can open the profile
+  (sessions persist in the profile). Report + commit + push.
+
 - [x] **SELF-UPDATE (UNSUPERVISED, 2026-09-27 from MacBook Claude, via
   remote trigger — no client work, no browser):** get Claude Code to
   2.1.280+ everywhere so Opus 5.5 is available, incl. headless sessions.

@@ -40,6 +40,10 @@ same way — git is the message channel between the two machines.
   manual Foursquare/MapQuest creations, they ride aggregator feeds), the
   NAP phone policy (REAL business number on listings, never a tracking
   number), and the per-client pilot assignments.
+- **CAPTCHA checkbox rule (2026-09-27):** you may click an "I'm not a
+  robot" checkbox yourself, once, normal click (see browser_agent/README.md
+  rule 2). Image/audio puzzles, solving services and retry loops are
+  forbidden — park and list under ## Needs.
 - **Daytime only** for citation submissions (the sweep window is ~11:30
   Pacific for a reason — daytime traffic looks human). Autonomous overnight
   runs are not enabled yet.
