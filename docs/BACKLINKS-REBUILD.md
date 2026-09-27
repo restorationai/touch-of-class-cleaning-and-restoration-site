@@ -4,6 +4,28 @@ Companion to docs/ai-citation-roadmap.md (the AI-citation gameplan) and
 docs/CITATIONS-REBUILD.md. Catalog + badges: scripts/backlinks.py and the
 Build Stages Backlinks board (inline editor + nightly discover -> check).
 
+## CORRECTIONS (same day, after Santino's checks — these supersede the table)
+
+- **C&R directory is a VENDOR directory** (categories: certification &
+  training, equipment, marketing, professional services, software,
+  supplies). Free + dofollow, but NOT for restoration contractors — it fits
+  Rank AI only (Restoration AI already listed). For clients, C&R = articles.
+- **R&R**: the listing anchor itself has no nofollow (what browser
+  extensions show), but every listing page carries
+  `<meta name="robots" content="nofollow">`, which Google applies to all
+  links on the page. Listings = no SEO credit. **R&R ARTICLES still have
+  value** (article pages have no robots meta, author-page links verified
+  followed on one example, plus brand/AI-citation value) — keep as a
+  lower-priority editorial lane after C&R.
+- **Spotify**: show pages render NO website link at all (RSS <link> is not
+  displayed) — presence/entity signal only, not a backlink.
+- **Apple Podcasts**: show pages render the website link with
+  rel="noopener noreferrer" (no nofollow, no robots meta) — a real
+  followed link. NaRestCo is NOT on Apple yet (connect never completed).
+- **RIA existing members** (discover v2, direct directory lookup, verified
+  live 09-27): Air Care, Life Savers, QCI, NaRestCo. NaRestCo's profile
+  link is malformed ("http:// www.narestco.com") — fix on the profile.
+
 ## Verified facts (research 2026-09-27 — rel attributes inspected, not assumed)
 
 | Source | Cost | Link | Verdict |

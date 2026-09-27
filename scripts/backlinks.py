@@ -154,80 +154,83 @@ def cmd_check(slug: str | None) -> int:
     return 0
 
 
-# DISCOVERY (Santino 2026-09-27: "the system should find them on its own").
-# For targets with no saved URL, search Google (DataForSEO SERP) for the
-# client's profile on the target's own domain. A hit fills `url` only —
-# `check` then fetches it and promotes to live ONLY if the page actually
-# links the client's domain. Discovery never marks anything live itself.
-DISCOVERY_DOMAINS = {
-    "iicrc": ["iicrc.org"],
-    "ria": ["restorationindustry.org"],
-    "rr-magazine": ["randrmagazine.com", "restorationandremediation.com"],
-    "cr-magazine": ["candrmagazine.com"],
-    "spotify": ["open.spotify.com"],
-    "apple-podcasts": ["podcasts.apple.com"],
-}
+# DISCOVERY v2 (Santino 2026-09-27). v1 searched Google and failed both
+# ways: it MISSED Air Care's real RIA profile (thin directory indexing) and
+# saved two false podcast matches. v2 = direct lookup on the source itself:
+#   ria: RIA's own directory — name search (?name=) + slug guesses from the
+#        company name (air-care-restoration-llc) — then the profile must
+#        actually link the client's domain (checked here AND by `check`).
+# Spotify/Apple are NOT discovered (we create those; the Mini records the
+# URL). C&R/R&R are article lanes (URL recorded at publication). Existing
+# memberships are flagged so we never buy a membership they already have.
+RIA_BASE = "https://pro.restorationindustry.org/find-a-member"
+_UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+       "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36"}
+
+
+def _slug(s: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
+
+
+def _ria_candidates(name: str) -> list[str]:
+    base = re.sub(r"(?i)[,.]?\s*(llc|l\.l\.c\.|inc\.?|corp\.?|co\.)\s*$", "",
+                  name.strip())
+    slugs = {_slug(name), _slug(base), f"{_slug(base)}-llc",
+             f"{_slug(base)}-inc"}
+    urls = [f"{RIA_BASE}/{s}" for s in slugs if s]
+    try:
+        html = requests.get(RIA_BASE, params={"name": base}, headers=_UA,
+                            timeout=25).text
+        for s in sorted(set(re.findall(r"find-a-member/([a-z0-9-]+)", html))):
+            urls.insert(0, f"{RIA_BASE}/{s}")
+    except Exception:  # noqa: BLE001 — slug guesses still run
+        pass
+    return list(dict.fromkeys(urls))
 
 
 def cmd_discover(slug: str | None) -> int:
-    from citations_audit import DFS_SERP, _name_tokens, _guard_ok
-    from lead_audit import _dfs, _dfs_auth
-    auth = _dfs_auth()
     cos = {c["id"]: c for c in _companies(slug)}
     if not cos:
         print("no matching companies")
         return 0
     ids = ",".join(f'"{c}"' for c in cos)
-    keys = ",".join(DISCOVERY_DOMAINS)
-    rows = _sb("GET", "/rest/v1/marketing_backlinks?status=in.(target,requested)"
-               f"&url=is.null&company_id=in.({ids})&target_key=in.({keys})"
-               "&select=id,company_id,target_key") or []
-    found = spent = 0
+    rows = _sb("GET", "/rest/v1/marketing_backlinks?target_key=eq.ria"
+               f"&url=is.null&company_id=in.({ids})&select=id,company_id") or []
+    found = 0
     for r in rows:
         co = cos.get(r["company_id"]) or {}
-        name = (co.get("name") or "").strip()
-        if not name:
+        name, dom = (co.get("name") or "").strip(), _norm_domain(co.get("website"))
+        if not (name and dom):
             continue
-        sites = " OR ".join(f"site:{d}" for d in DISCOVERY_DOMAINS[r["target_key"]])
-        try:
-            items, cost, _ = _dfs(DFS_SERP, [{
-                "keyword": f'({sites}) "{name}"', "location_code": 2840,
-                "language_code": "en", "depth": 10}], auth)
-            spent += cost or 0
-        except Exception as e:  # noqa: BLE001
-            print(f"  search failed {r['target_key']} {name[:30]}: {str(e)[:60]}")
-            continue
-        # Distinctive-token guard: industry words match every page on these
-        # sites (NaRestCo's first run matched RIA's convention page on
-        # "National Restoration"). Require the brand's DISTINCTIVE words in
-        # the result title/url, and never accept a site's home/section root.
-        generic = {"restoration", "restorations", "construction", "national",
-                   "services", "service", "company", "group", "llc", "inc",
-                   "contracting", "contractors", "cleaning", "the", "and",
-                   "water", "fire", "damage", "mold", "flood", "pros"}
-        distinct = [w for w in _name_tokens(name) if w not in generic]
-        def _ok(i):
-            url_ = str(i.get("url") or "")
-            hay = f"{i.get('title', '')} {url_}".lower()
-            path = url_.split("://", 1)[-1].split("/", 1)[-1] if "/" in url_.split("://", 1)[-1] else ""
-            if len(path.strip("/")) < 3:
-                return False
-            need = distinct or list(_name_tokens(name))
-            return all(w in hay for w in need[:2])
-        hits = [i for i in items if isinstance(i, dict)
-                and i.get("type") == "organic" and i.get("url") and _ok(i)]
-        if not hits:
-            continue
-        _sb("PATCH", f"/rest/v1/marketing_backlinks?id=eq.{r['id']}",
-            {"url": hits[0]["url"],
-             "note": f"auto-discovered {datetime.now(timezone.utc).date()} "
-                     "(unverified until the checker sees a link)"})
-        found += 1
-        print(f"  FOUND {r['target_key']} for {name[:30]}: {hits[0]['url'][:80]}")
-    print(f"discover: searched {len(rows)} target(s), {found} candidate URL(s) "
-          f"saved, ~${spent:.2f}")
+        for url in _ria_candidates(name):
+            try:
+                resp = requests.get(url, headers=_UA, timeout=25)
+            except Exception:  # noqa: BLE001
+                continue
+            if resp.status_code != 200:
+                continue
+            html = resp.text.lower()
+            # The profile must name THIS client's domain — slug collisions
+            # between similarly named companies are rejected here.
+            if dom not in html:
+                continue
+            hrefs = re.findall(r'href="([^"]*' + re.escape(dom) + r'[^"]*)"', html)
+            broken = any(" " in h for h in hrefs)
+            note = ("existing RIA member, found in RIA's own directory "
+                    f"{datetime.now(timezone.utc).date()} — no membership "
+                    "purchase needed")
+            if broken:
+                note += ("; WARNING: profile website link is malformed "
+                         f"({hrefs[0]!r}) — fix on the profile so the link counts")
+            _sb("PATCH", f"/rest/v1/marketing_backlinks?id=eq.{r['id']}",
+                {"url": url, "note": note})
+            found += 1
+            print(f"  RIA MEMBER: {name[:35]} -> {url}"
+                  + ("  [malformed link]" if broken else ""))
+            break
+    print(f"discover: checked {len(rows)} client(s) against RIA's directory, "
+          f"{found} existing member(s) found")
     return 0
-
 
 def main() -> int:
     ap = argparse.ArgumentParser()
