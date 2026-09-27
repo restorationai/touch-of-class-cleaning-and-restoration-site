@@ -1,4 +1,10 @@
-# Mini launchd jobs — install by hand (one paste, Terminal on the Mini)
+# Mini launchd jobs
+
+**STATUS 2026-09-27: both jobs INSTALLED and bootstrapped by the operator agent
+(session switched to bypass mode). PATH for `claude` set in `~/.zshrc`. The
+recipe below stays for reinstalls / a fresh machine.**
+
+## Install by hand (one paste, Terminal on the Mini)
 
 The operator agent's permission classifier refuses to write into
 `~/Library/LaunchAgents` or run `launchctl bootstrap` (flagged as

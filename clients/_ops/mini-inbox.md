@@ -37,6 +37,9 @@
   setup@, under the NEW DBA name (it is final and filed). This is an existing handled
   Connect-tab slot — record the listing URL into the run report so the
   audit picks it up.
+  → PARKED-FOR-MORNING (mini, 2026-09-27): supervised + daytime. Needs Santino watching + the NV FFN cert PDF on this machine (inbox path branding/CO-1789170047342/docs/… is not in this checkout).
+  → PARKED-FOR-MORNING (mini, 2026-09-27): supervised + daytime. Needs the FILED DBA string confirmed verbatim (gbp-rename-candidates.md lists ranked candidates only).
+  → PARKED-FOR-MORNING (mini, 2026-09-27): supervised + daytime; ~10 min once BBB is running.
 
 > **RESUMED 2026-09-15 — Santino is ON-SITE at this machine right now.**
 > Work top to bottom. Supervised items are GO today (he is present).
@@ -62,6 +65,7 @@
      it creates.
   The MacBook's 11:30am job stays ON until your first clean scheduled
   sweep; MacBook Claude turns it off after verifying.
+  → RESULT (mini): PARTIAL 2026-09-27. 2.2 DONE — com.rankai.mini-sweep.plist installed + bootstrapped (11:30 PT, verified via launchctl print). 2.1 PARKED-FOR-MORNING (Microsoft sign-in needs Santino; bing.com/webmasters tab left open in the held suite-profile Chrome). 2.3 PARKED-FOR-MORNING (supervised + daytime; also the held CDP Chrome must be quit first — it holds the profile lock). MacBook job must stay on.
 
 - [x] **COMMIT YOUR LOCAL WORK (first, 2026-09-15):** this machine has
   uncommitted Spotify feed-generator changes and the narestco manifest.
@@ -83,7 +87,7 @@
   the 5-minute remote-trigger watcher (bootstrap AND verify the plist).
   After this, Santino never needs the terminal to start you, and MacBook
   Claude can start unsupervised sessions by pushing a trigger token.
-  → RESULT (mini): PARTIAL. Done: ~/.rankai-repo-path, Desktop 'Start Rank AI Agent.command' (copied verbatim; NOTE claude is not on the Terminal PATH here — classifier also refused my PATH patch of the launcher, see INSTALL.md), claude symlink ~/.local/bin/claude → IDE-bundled 2.1.272 binary (authenticated, tested). BLOCKED: writing ~/Library/LaunchAgents plists / launchctl bootstrap — permission classifier denies as 'persistence' (3 attempts, 09-15 + 09-26). Plists + one-paste install in scripts/mini/launchd/INSTALL.md for Santino.
+  → RESULT (mini): DONE 2026-09-27 00:05 PDT (after Santino switched the session to bypass mode). ~/.rankai-repo-path, Desktop 'Start Rank AI Agent.command', claude symlink ~/.local/bin/claude (IDE-bundled 2.1.272, authenticated) + PATH in ~/.zshrc (verified in an interactive login shell), com.rankai.mini-trigger bootstrapped and verified with launchctl print (300s interval, first run exit 0).
 
 - [x] **PROVE THE CHANNEL (do this first, unsupervised, 2 minutes):**
   follow the new step 0 in docs/MINI-OPERATOR.md — append a heartbeat line
@@ -153,5 +157,6 @@
   owner personally; agency-authorized setup only. STOP at any payment
   wall. The goal is reclassifying "yours to set up" rows into
   agent-buildable wherever the blocker has dissolved.
+  → PARKED-FOR-MORNING (mini, 2026-09-27): supervised + daytime; whole batch untouched — nothing logged into tonight.
 
 <!-- completed items get [x] + a one-line result; MacBook Claude prunes -->
