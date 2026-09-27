@@ -34,6 +34,7 @@ Usage:
   python3 scripts/lsa_lead_review.py list-due                 # JSON slugs
   python3 scripts/lsa_lead_review.py review --slug X [--days 14] [--apply]
   python3 scripts/lsa_lead_review.py profile --slug X [--reseed]
+  python3 scripts/lsa_lead_review.py approve --slug X [--confirm-profile] [--dry-run]
 """
 from __future__ import annotations
 
@@ -53,6 +54,13 @@ import client_concierge as cc  # noqa: E402
 from client_ops_sync import _sb, slug_map  # noqa: E402
 
 KV = "lsa-lead-review"
+# SAFE MODE (default for --apply, Santino 2026-09-27 first dry runs): only
+# verdicts that cannot misteach Google go out automatically — GOOD leads and
+# unmistakable junk. JOB_TYPE / GEO / NOT_READY judgments depend on the
+# client profile being right (ACS: carpet-cleaning calls read as "wrong job"
+# though ACS bids on carpet cleaning), so they are HELD for approval until the
+# client's lead_profile carries "confirmed": true, or --mode all is passed.
+AUTO_BAD = {"SPAM", "SOLICITATION", "DUPLICATE"}
 MIN_CONF_GOOD = 0.75
 MIN_CONF_BAD = 0.85          # a wrong "bad" costs the client goodwill with Google
 MAX_TRANSCRIBE_S = 900       # skip absurdly long recordings
@@ -380,7 +388,14 @@ def cmd_review(a) -> int:
         print(f"  {when} {verdict.upper():8} {conf:.2f} {why or ''} | "
               f"{v.get('caller_need') or '-'} | {v.get('summary', '')[:140]}")
         decision = None
-        if a.apply and verdict in ("good", "bad"):
+        held = (verdict == "bad" and a.mode == "safe"
+                and not prof.get("confirmed")
+                and (v.get("dissatisfied_reason") or "") not in AUTO_BAD)
+        if held:
+            tally["held"] = tally.get("held", 0) + 1
+            decision = "HELD for approval (profile not confirmed)"
+            print(f"      -> held: {decision}")
+        if a.apply and verdict in ("good", "bad") and not held:
             try:
                 decision = _submit(cl, acid, l.resource_name, {**v, "verdict": verdict})
                 tally["submitted"] += 1
@@ -392,6 +407,10 @@ def cmd_review(a) -> int:
                 print(f"      -> feedback FAILED: {decision}")
         if a.apply:
             cc.kv_set(key, {"verdict": verdict, "confidence": conf, "why": why,
+                            "rn": l.resource_name, "acid": acid,
+                            "survey_answer": v.get("survey_answer"),
+                            "dissatisfied_reason": v.get("dissatisfied_reason"),
+                            "satisfied_reason": v.get("satisfied_reason"),
                             "need": v.get("caller_need"),
                             "summary": v.get("summary"),
                             "location": v.get("location_mentioned"),
@@ -413,6 +432,41 @@ def cmd_review(a) -> int:
                          "seconds. The LSA profile may forward to a dead number; "
                          "check Profile & budget > Phone."},
                 prefer="return=minimal")
+    return 0
+
+
+def cmd_approve(a) -> int:
+    """Send the HELD verdicts for one client (after Santino confirms its
+    lead_profile). --confirm-profile also stamps lead_profile.confirmed so
+    future nights send every verdict automatically."""
+    cid = _cid_for(a.slug)
+    co = _company(cid)
+    cl = _mcc()
+    if a.confirm_profile:
+        row = (_sb("GET", f"/rest/v1/companies?id=eq.{cid}&select=integration_settings") or [{}])[0]
+        ints = row.get("integration_settings") or {}
+        if ints.get("lead_profile"):
+            ints["lead_profile"]["confirmed"] = True
+            ints["lead_profile"]["confirmed_at"] = datetime.now(timezone.utc).isoformat()
+            _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}",
+                {"integration_settings": ints}, prefer="return=minimal")
+            print(f"{a.slug}: lead profile confirmed")
+    n = 0
+    for k, v in (cc.kv_prefix(f"{KV}:{cid}:") or {}).items():
+        if not str(v.get("credit_decision") or "").startswith("HELD"):
+            continue
+        if a.dry_run:
+            print(f"  would send {v.get('why')} | {v.get('summary', '')[:100]}")
+            continue
+        try:
+            dec = _submit(cl, v["acid"], v["rn"], {**v, "verdict": "bad"})
+        except Exception as e:  # noqa: BLE001
+            dec = f"error: {str(e)[:120]}"
+        v["credit_decision"] = dec
+        cc.kv_set(k, v)
+        n += 1
+        print(f"  sent {v.get('why')} -> {dec} | {v.get('summary', '')[:100]}")
+    print(f"{a.slug} ({co.get('name')}): {n} held verdict(s) sent")
     return 0
 
 
@@ -447,11 +501,19 @@ def main() -> int:
     r.add_argument("--days", type=int, default=14)
     r.add_argument("--apply", action="store_true",
                    help="send feedback to Google + record verdicts (default: dry run)")
+    r.add_argument("--mode", choices=("safe", "all"), default="safe",
+                   help="safe: auto-send GOOD + spam/solicitation/duplicate; hold "
+                        "job-type/geo/not-ready until lead_profile.confirmed")
     r.set_defaults(func=cmd_review)
     p = sub.add_parser("profile")
     p.add_argument("--slug", required=True)
     p.add_argument("--reseed", action="store_true")
     p.set_defaults(func=cmd_profile)
+    ap_ = sub.add_parser("approve")
+    ap_.add_argument("--slug", required=True)
+    ap_.add_argument("--confirm-profile", action="store_true")
+    ap_.add_argument("--dry-run", action="store_true")
+    ap_.set_defaults(func=cmd_approve)
     sub.add_parser("list-due").set_defaults(func=cmd_list_due)
     a = ap.parse_args()
     cc.load_env()
