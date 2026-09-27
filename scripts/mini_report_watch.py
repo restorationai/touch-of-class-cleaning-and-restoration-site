@@ -44,6 +44,13 @@ def main() -> int:
             if line.startswith("- ") and len(line) > 8:
                 tag = section.lower().rstrip("s")
                 items.append(f"[{tag}] {line[2:]}")
+    # Responder health (2026-09-27): any structured need still open or
+    # failed means the automated loop stalled — surface it.
+    needs = ROOT / "clients" / "_ops" / "mini-needs.md"
+    if needs.exists():
+        for line in needs.read_text().splitlines():
+            if line.startswith("- [ ]") or line.startswith("- [!]"):
+                items.append(f"[responder-stalled] {line[2:200]}")
     if not items:
         print(f"mini-report-watch: {latest.name} clean")
         return 0
