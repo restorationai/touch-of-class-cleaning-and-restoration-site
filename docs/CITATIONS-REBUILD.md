@@ -172,6 +172,32 @@ sometimes carry junk URLs (FFS -> a Facebook post, MCC -> YouTube,
 Davis -> their own site) — tighten the audit's URL validation so only
 real profile URLs count as found.
 
+## 5b. The full platform registry (Connect-tab owners, snapshot 09-26)
+
+**WE HANDLE (owner: us — the Mini's full lane list):** Bing Places,
+Apple Maps (Business Connect), BBB, Expertise.com, Houzz, Porch,
+HomeGuide, MapQuest, Foursquare (direct listing; the aggregator feed is
+separate), ContractorsRanked, ChamberofCommerce.com — plus the two
+EARNED (no submit form, picked up from review volume + consistent NAP):
+ThreeBestRated, TrustAnalytica.
+
+**YOURS TO SET UP (owner: client — the supervised RE-TEST batch, now
+with the code-relay concept sanctioned):** Yelp, Angi (free claim),
+HomeAdvisor (paid tier, existing-only check), Thumbtack, Facebook Page,
+Nextdoor, YellowPages*. Re-test goal per platform: US-BUILDABLE /
+NEEDS-CLIENT-STEP (named — usually just a texted code, which the relay
+covers) / HARD-BLOCKED.
+
+**YellowPages — DETERMINED 09-26:** *yellowpages.com listings are
+created by the YP NETWORK AGGREGATOR* (15 credits via BL — Kenneth +
+Heritage have live yellowpages/dexknows/superpages pages to prove it).
+Never use yellowpages.com's own claim flow (it is a Thryv sales funnel
+that creates nothing, case e11a81a6); ignore yellowpages.net in the BL
+directory menu (unrelated low-value site). The Connect-tab slot's
+"client" badge predates the aggregator finding — re-badge to
+us-via-aggregator on the next app pass. yellowpagesdirectory.com (a
+third, unrelated company) stays valid for hand-entered client listings.
+
 ## 6. Chamber lanes
 
 - **chamberofcommerce.com** (the directory): ours, free tier, Mini lane,
