@@ -117,6 +117,19 @@ LOCAL NOTES LAW: nothing you learn may live only on this machine. Any
 local .md/notes file you have kept (Spotify feed details included) gets
 committed into `clients/_ops/mini-reports/` the same session you write it.
 
+## The Needs loop (Santino 2026-09-27)
+
+You never fetch task inputs from the app/database yourself. When a task
+is missing an input (a document, an exact string, a credential step, a
+human decision), PARK the task and add a bullet to a `## Needs` section
+of your DAILY report: one line per item, naming the task, exactly what
+is missing, and where you believe it lives. The MacBook side reads your
+report daily (mini_report_watch), retrieves and VERIFIES the mechanical
+items, and commits them into the repo — your next `git pull` has them.
+Judgment items route to Santino or Monica the same way (the Crew zip
+question went to the client within hours of your flag). Park-and-report
+is the designed behavior, not a failure.
+
 ## Daily report (last action of every day you run, 2026-09-14)
 
 Write `clients/_ops/mini-reports/DAILY-YYYY-MM-DD.md` with exactly three

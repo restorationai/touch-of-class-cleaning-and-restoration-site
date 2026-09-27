@@ -35,14 +35,15 @@ def main() -> int:
     latest = dailies[-1]
     text = latest.read_text()
     items: list[str] = []
-    for section in ("Problems", "Flags"):
+    for section in ("Problems", "Flags", "Needs"):
         m = re.search(rf"##\s*{section}(.*?)(?=\n## |\Z)", text, re.S)
         if not m:
             continue
         for line in m.group(1).splitlines():
             line = line.strip()
             if line.startswith("- ") and len(line) > 8:
-                items.append(f"[{section.lower()[:-1]}] {line[2:]}")
+                tag = section.lower().rstrip("s")
+                items.append(f"[{tag}] {line[2:]}")
     if not items:
         print(f"mini-report-watch: {latest.name} clean")
         return 0
