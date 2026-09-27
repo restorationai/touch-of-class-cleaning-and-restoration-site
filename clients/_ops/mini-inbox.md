@@ -1,6 +1,6 @@
 # Mini inbox — current assignments (newest at top)
 
-- [ ] **EMAIL ACCESS SELF-CHECK (UNSUPERVISED, read-only, 2026-09-27):**
+- [x] **EMAIL ACCESS SELF-CHECK (UNSUPERVISED, read-only, 2026-09-27):**
   confirm you can read verification codes on your own. Using the repo's
   Gmail helper (scripts/email_intake.py `access_token("main")`, OAuth
   refresh token in ~/.config/rankai — never print or commit the token):
@@ -13,8 +13,9 @@
   4. Report whether a message to a PLUS address (setup+test@...) would be
      found by your code-reader query (check the query logic, don't send).
   No sends, no label changes, no deletes. Report + ledger + commit + push.
+  → RESULT (mini 2026-09-27 09:45 PDT): PASS. Token mint OK; scope gmail.modify; mailbox contact@restorationai.io; 5 newest to:setup@ listed (all addressed to setup@). Plus-address: code reader (from:+after:) finds it regardless of recipient; intake's `to:setup@` match is unverified (no plus mail exists to test). Proved live: chamber activation key read from setup@ unattended. Report: clients/_ops/mini-reports/2026-09-27-0945-email-check-and-chamber-captcha.md
 
-- [ ] **CAPTCHA CHECKBOX TEST — chamberofcommerce.com Desert Valley
+- [x] **CAPTCHA CHECKBOX TEST — chamberofcommerce.com Desert Valley
   (UNSUPERVISED, remote trigger 2026-09-27, Santino authorized):** read the
   new rule 2 exception in browser_agent/README.md first. Attach to the held
   CDP Chrome where the filled form is waiting. Click the reCAPTCHA checkbox
@@ -29,6 +30,7 @@
   "Microsoft credentials" Need. AFTER the chamber step (either outcome),
   quit the held CDP Chrome cleanly so the 11:30 sweep can open the profile
   (sessions persist in the profile). Report + commit + push.
+  → RESULT (mini 2026-09-27 09:45 PDT): Checkbox resolved GREEN on one normal click (no puzzle). Submitted 09:37, account activated with emailed key 09:39. BUT chamber flagged 'Duplicate Business Found': our record 2034512140 now shows old data (Desert Valley Contracting, 725-228-5575) and its public page redirects to pre-existing UNCLAIMED listing 37998255 (3395 W Cheyenne Ave). No edits and no record_listing; parked under Needs. Held Chrome quit (it auto-relaunched for an update; closed again; profile lock released). Microsoft Need removed. (This item's 09:29 trigger was overwritten by the 09:34 one and never fired alone.)
 
 - [x] **SELF-UPDATE (UNSUPERVISED, 2026-09-27 from MacBook Claude, via
   remote trigger — no client work, no browser):** get Claude Code to
