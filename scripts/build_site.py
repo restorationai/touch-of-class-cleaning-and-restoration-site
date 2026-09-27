@@ -117,7 +117,7 @@ DEFAULTS = {
     # never see it: scaffold auto-extracts the palette from the client's logo
     # (see _palette_from_logo) and plan-input overrides always win. The black
     # default is the no-logo/no-colors fallback only.
-    "BRAND_DARK_COLOR": "#111827",      # dark.DEFAULT — dominant background (gray-900)
+    "BRAND_DARK_COLOR": "#161718",      # dark.DEFAULT — NEUTRAL charcoal (Santino 09-27: gray-900 #111827 read blue next to charcoal)
     "BRAND_PRIMARY_COLOR": "#171717",   # primary.DEFAULT — the client's ACTUAL brand hex
     "BRAND_PRIMARY_CTA": "#171717",     # primary-600 — solid fills that carry WHITE text
     "BRAND_PRIMARY_DARK": "#000000",    # primary-700 — hover state

@@ -23,7 +23,10 @@
     ],
     "cta_fill": "#fbbf24",
     "cta_fg": "#171717",
-    "cta_hover": "#f59e0b"
+    "cta_hover": "#f59e0b",
+    "dark_color": "#161718",
+    "logo_url": "/images/logo.png",
+    "palette_source": "hand-tuned black+gold site; dark neutralized 2026-09-27 (Santino flagged blue strip)"
   },
   "services": [
     "water-damage-restoration",

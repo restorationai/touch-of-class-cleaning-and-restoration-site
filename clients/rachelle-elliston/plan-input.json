@@ -31,7 +31,12 @@
       "Licensed & Insured",
       "24/7 Emergency Service",
       "Locally Owned & Operated"
-    ]
+    ],
+    "primary_color": "#557cd3",
+    "accent_color": "#f28536",
+    "dark_color": "#161618",
+    "logo_url": "/images/logo.png",
+    "palette_source": "auto: site CSS + logo (retint 2026-09-27, Santino flagged all-black template)"
   },
   "services": [
     "biohazard-cleanup",
