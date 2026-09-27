@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+apartment mold remediation,transactional,720,,18.13,2,multi family restoration,,,false
+apartment mold removal,transactional,20,32,42.35,2,multi family restoration,,,false
+apartment restoration,transactional,20,2,13.93,2,multi family restoration,,,false
+apartment restoration services,transactional,20,,,2,multi family restoration,,,false
+condo restoration,transactional,10,,27.49,2,multi family restoration,,,false
+condo water damage restoration,transactional,10,,,2,condo water damage,,,false
+multi family property restoration,transactional,10,,,2,multi family restoration,,,false
+apartment flood cleanup,transactional,10,,,2,multi family restoration,,,false
+condo water damage,commercial,20,,242.51,2,condo water damage,,,false
+multifamily water damage,commercial,10,,,2,multi family restoration,,,false
+apartment complex water damage,commercial,10,,,2,multi family restoration,,,false
+hoa water damage,commercial,10,,,2,multi family restoration,,,false
+condo water damage repair,commercial,10,,,2,condo water damage,,,false
+mold in apartment,informational,1900,,5.96,2,multi family restoration,,,false
+does renters insurance cover water damage,informational,1000,21,15.62,2,multi family restoration,,,false
+condo insurance water damage,informational,1000,,0.67,2,condo water damage,,,false
+landlord responsibility for mold,informational,170,,3.41,2,multi family restoration,,,false
+tenant rights after apartment fire,informational,140,,8.63,2,apartment fire,,,false
+does condo insurance cover water damage,informational,110,,,2,condo water damage,,,false
+water damage from condo above me,informational,110,,142.9,2,condo water damage,,,false
+does condo insurance cover water damage to other units,informational,70,,20.07,2,condo water damage,,,false
+who is responsible for water damage in an apartment,informational,70,,202.75,2,multi family restoration,,,false
+ceiling leak from upstairs apartment,informational,70,,,2,multi family restoration,,,false
+who pays for water damage in a condo,informational,50,,,2,condo water damage,,,false
+who is responsible for water damage in a condo,informational,40,,43.83,2,condo water damage,,,false
+condo water damage from roof,informational,30,,,2,condo water damage,,,false
+tenant rights water damage,informational,20,,,2,multi family restoration,,,false
+condo water damage from unit above,informational,20,52,,2,condo water damage,,,false
+water damage from upstairs apartment,informational,10,,,2,multi family restoration,,,false
+water damage from neighbor,informational,10,,211.58,2,multi family restoration,,,false
+landlord responsibility for water damage,informational,10,37,,2,multi family restoration,,,false
+how to get rid of fire smoke smell in apartment,informational,10,,,2,apartment fire,,,false
+what should a property manager do after water damage in an apartment building,informational,,,,2,multi family restoration,,,false
+how does water damage spread between apartment units,informational,,,,2,multi family restoration,,,false
+what is the difference between mitigation and reconstruction in apartment restoration,informational,,,,2,multi family restoration,,,false
+what questions should a property manager ask a restoration contractor,informational,,,,2,multi family restoration,,,false
+how should property managers communicate with residents after building water damage,informational,,,,2,multi family restoration,,,false
+what documentation do property managers need for an apartment insurance claim,informational,,,,2,multi family restoration,,,false
+can hvac spread smoke damage to other apartments after a fire,informational,,,,2,apartment fire,,,false
+when can residents return to an apartment after fire or water damage,informational,,,,2,multi family restoration,,,false

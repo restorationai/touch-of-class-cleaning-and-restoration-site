@@ -1,0 +1,39 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+death cleanup services,transactional,880,28,83.63,2,death cleanup,,,no
+blood cleanup,transactional,590,0,43.42,2,blood cleanup,,,no
+unattended death cleanup,transactional,480,0,86.02,2,unattended death cleanup,,,no
+trauma cleanup services,transactional,390,17,53.51,2,trauma cleanup,,,no
+death cleanup,transactional,390,21,94.57,2,death cleanup,,,no
+after death cleanup,transactional,320,3,57.78,2,death cleanup,,,no
+blood cleanup near me,transactional,320,2,98.31,2,blood cleanup,,,no
+blood spill cleanup,transactional,320,17,35.3,2,blood cleanup,,,no
+trauma scene cleanup,transactional,260,8,50.8,2,trauma scene cleanup,,,no
+trauma cleanup,transactional,210,5,55.47,2,trauma cleanup,,,no
+unattended death cleanup near me,transactional,210,2,58.42,2,unattended death cleanup,,,no
+trauma scene cleaning,transactional,110,18,101.02,2,trauma scene cleanup,,,no
+blood cleanup services near me,transactional,110,3,,2,blood cleanup,,,no
+trauma cleanup near me,transactional,70,22,37.69,2,trauma cleanup,,,no
+trauma scene cleanup near me,transactional,70,0,15.18,2,trauma scene cleanup,,,no
+undiscovered death cleanup,transactional,70,0,16.88,2,death cleanup,,,no
+blood cleanup services,transactional,70,0,116.06,2,blood cleanup,,,no
+death scene cleanup,transactional,50,28,63.49,2,death cleanup,,,no
+death cleanup near me,transactional,50,3,44.79,2,death cleanup,,,no
+trauma cleanup company,transactional,40,12,28.62,2,trauma cleanup,,,no
+cleanup after death,transactional,30,0,97.41,2,death cleanup,,,no
+blood cleanup company,transactional,30,8,105.58,2,blood cleanup,,,no
+death cleanup services near me,transactional,20,28,57.77,2,death cleanup,,,no
+unattended death cleanup cost,commercial,40,0,27.94,2,unattended death cleanup,,,no
+how much does unattended death cleanup cost,commercial,10,,,2,unattended death cleanup,,,no
+trauma scene cleanup cost,commercial,,,,2,trauma scene cleanup,,,no
+how much does trauma scene cleanup cost,commercial,,,,2,trauma scene cleanup,,,no
+does homeowners insurance cover death cleanup,informational,10,5,,2,death cleanup,,,no
+who pays for unattended death cleanup,informational,,,,2,unattended death cleanup,,,no
+is trauma scene cleanup covered by insurance,informational,,,,2,trauma scene cleanup,,,no
+how long does trauma scene cleanup take,informational,,,,2,trauma scene cleanup,,,no
+what does trauma scene cleanup include,informational,,,,2,trauma scene cleanup,,,no
+can family members clean up after a death at home,informational,,,,2,death cleanup,,,no
+how to get rid of death smell in house,informational,,,,2,death cleanup,,,no
+how long does death smell last in a house,informational,,,,2,death cleanup,,,no
+what can be saved after an unattended death,informational,,,,2,death cleanup,,,no
+what happens to a house when someone dies and is not found,informational,,,,2,trauma scene cleanup,,,no
+what should i do before the trauma cleanup crew arrives,informational,,,,2,trauma cleanup,,,no
