@@ -153,6 +153,25 @@ queued.)
 - Both supervised-first per the 3-runs rule; file per-run verdicts in
   the Mini daily report.
 
+### Wrong-entity namesakes — QUEUED FOR REVIEW (Santino, get back to this)
+
+Three clients have BBB profiles that belong to DIFFERENT companies with
+similar names. Never claim these; review later and decide per case
+(ignore / monitor for confusion / disambiguation steps):
+
+1. **All Pro Plumbing Heating and Air** — bbb.org/us/ca/ontario/...
+   (an Ontario, CA plumber that is not Jack's company)
+2. **California Restoration West** — bbb.org/us/ca/camarillo/...
+   (a Camarillo restoration co; Chris's CRW is not this entity)
+3. **Home Pride Restoration and Cleaning** — bbb.org/us/id/rigby/...
+   (an IDAHO namesake — same one that likely caused the wrong-logo
+   bucket file in August)
+
+Related data-quality item queued with it: citations_audit "found" rows
+sometimes carry junk URLs (FFS -> a Facebook post, MCC -> YouTube,
+Davis -> their own site) — tighten the audit's URL validation so only
+real profile URLs count as found.
+
 ## 6. Chamber lanes
 
 - **chamberofcommerce.com** (the directory): ours, free tier, Mini lane,

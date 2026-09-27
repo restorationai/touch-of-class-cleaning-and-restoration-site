@@ -1,5 +1,33 @@
 # Mini inbox — current assignments (newest at top)
 
+> **REFRESHED 2026-09-26 (from MacBook Claude).** The 09-15 revival stack
+> below is still your order of operations: PROVE THE CHANNEL first, then
+> commit local work, launchers, Bing steps. The NEW citations batch here
+> runs AFTER the revival stack, in your first supervised sitting
+> (Santino present). Full program context: docs/CITATIONS-REBUILD.md —
+> read it before the batch.
+
+- [ ] **BBB CLAIM — narestco (supervised, first run of the lane):** their
+  real unclaimed profile is bbb.org/us/wa/federal-way/... (see the
+  citations audit / CITATIONS-REBUILD.md section 5). Claim it with the
+  setup@ identity. Verification: prefer email; if BBB texts a code to a
+  number on the profile, Santino is present and coordinates the client
+  live (the automated code relay is not built yet — do NOT attempt codes
+  unsupervised). After claim: update NAP per the CORRECTED phone policy
+  (REAL business number, never a tracking number — CITATIONS-REBUILD.md
+  section 3). File the run verdict in your daily report.
+- [ ] **BBB CREATE — dry-bros-water-fire-restoration (supervised, same
+  sitting):** no profile exists. Submit BBB's add-a-business flow under
+  the FULL chosen DBA string exactly as filed (check
+  docs/gbp-rename-candidates.md for the verbatim name). BBB vetting
+  takes days-weeks and may call — our answered lines are the contact.
+  Start it this sitting so the clock runs. Report what the flow asked
+  for.
+- [ ] **chamberofcommerce.com — narestco (supervised, quick):** free-tier
+  listing via standard signup with setup@. This is an existing handled
+  Connect-tab slot — record the listing URL into the run report so the
+  audit picks it up.
+
 > **RESUMED 2026-09-15 — Santino is ON-SITE at this machine right now.**
 > Work top to bottom. Supervised items are GO today (he is present).
 > Start with PROVE THE CHANNEL, then continue straight down.
