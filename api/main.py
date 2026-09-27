@@ -1911,6 +1911,27 @@ def _db_safe_source(source: str) -> str:
         return "facebook"
     return "website"
 
+_CODE_WORDS = re.compile(
+    r"(?i)\b(verification|verify|passcode|one[- ]time|security code|"
+    r"confirmation code|login code|sign[- ]in code|your code|code is|otp|pin)\b")
+_CODE_NUM = re.compile(r"(?<!\d)(\d{4,8})(?!\d)")
+
+
+def _verification_code(from_num: str, body: str) -> str | None:
+    """Return the one-time code if this inbound text is a platform
+    verification message, else None. Requires BOTH a machine sender
+    (short code, toll-free, or alphanumeric id) AND code language + a 4-8
+    digit number, so an ordinary customer text is never swallowed."""
+    digits = re.sub(r"\D", "", from_num or "")
+    machine = (len(digits) <= 6 or not digits
+               or digits[-10:-7] in ("800", "833", "844", "855", "866",
+                                     "877", "888"))
+    if not machine or not _CODE_WORDS.search(body or ""):
+        return None
+    m = _CODE_NUM.search(body or "")
+    return m.group(1) if m else None
+
+
 @app.post("/call-tracking/sms/{company_id}/{source}")
 async def call_tracking_sms(company_id: str, source: str, request: Request):
     """Twilio SMS webhook for DNI tracking numbers (Rita Look 2026-09-18:
@@ -1932,6 +1953,29 @@ async def call_tracking_sms(company_id: str, source: str, request: Request):
         }).execute()
     except Exception as e:  # noqa: BLE001
         print("[tracking-sms] log failed:", str(e)[:120])
+    # VERIFICATION-CODE CATCHER (Santino 2026-09-27): platforms we sign
+    # clients up on can text their one-time codes to OUR Twilio numbers.
+    # Those must be captured for the Mini (ops_kv verification-codes:{cid})
+    # and must NOT be forwarded to the owner as a "customer texted you".
+    # Real customer texts are untouched. Log-only in `messages` either way.
+    code = _verification_code(from_num, body)
+    if code:
+        try:
+            k = f"verification-codes:{company_id}"
+            rows = sb().table("ops_kv").select("v").eq("k", k).execute().data
+            items = ((rows[0].get("v") if rows else None) or {}).get("codes", [])
+            items = (items + [{
+                "code": code, "from": from_num, "to": to_num,
+                "body": body[:300], "source": source,
+                "at": datetime.now(timezone.utc).isoformat()}])[-20:]
+            sb().table("ops_kv").upsert({"k": k, "v": {"codes": items}},
+                                        on_conflict="k").execute()
+            print(f"[tracking-sms] verification code captured for "
+                  f"{company_id} from {from_num} (not forwarded)")
+        except Exception as e:  # noqa: BLE001
+            print("[tracking-sms] code capture failed:", str(e)[:150])
+        from fastapi.responses import Response as _Resp
+        return _Resp(content="<Response/>", media_type="application/xml")
     try:
         co = (sb().table("companies")
               .select("phone,integration_settings,name")
