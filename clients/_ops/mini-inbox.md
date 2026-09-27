@@ -1,6 +1,6 @@
 # Mini inbox — current assignments (newest at top)
 
-- [ ] **SELF-UPDATE (UNSUPERVISED, 2026-09-27 from MacBook Claude, via
+- [x] **SELF-UPDATE (UNSUPERVISED, 2026-09-27 from MacBook Claude, via
   remote trigger — no client work, no browser):** get Claude Code to
   2.1.280+ everywhere so Opus 5.5 is available, incl. headless sessions.
   1. `claude --version`; `ls -l ~/.local/bin/claude`;
@@ -21,6 +21,7 @@
      wrong page).
   6. Ledger line + short run report, commit, push. If any step is
      denied by permissions, report exactly which and stop.
+  → RESULT (mini 2026-09-27 09:05 PDT): DONE. claude 2.1.272 → 2.1.283 (symlink repointed, verified in fresh login shell; trigger + Desktop launchers use PATH so headless is covered). settings.json model → claude-opus-5-5 (ID verified in the 2.1.283 binary), other keys kept. Extension was already 2.1.283 (IDE auto-downloaded 00:03). Chrome untouched. No permission denials. Report: clients/_ops/mini-reports/2026-09-27-0918-self-update-claude-code.md
 
 > **REFRESHED 2026-09-26 (from MacBook Claude).** The 09-15 revival stack
 > below is still your order of operations: PROVE THE CHANNEL first, then
