@@ -61,15 +61,27 @@ months gets the full stack.
 6. Wire BL create-secondary-campaign (a location's first campaign is
    one-shot; months 2/3 need it).
 
-## 3. NAP phone policy (BBB question, 2026-09-26)
+## 3. NAP phone policy (CORRECTED 2026-09-26 — Santino overruled the tracking-number idea, and he is right)
 
-Citations carry **the same number the GBP shows as primary** — for
-activated call-tracking clients that IS their dedicated tracking number.
-One number everywhere = NAP-consistent AND attributable (citation calls
-become measurable). Never a per-directory number, never a second
-tracking line. Caveat recorded: tracking numbers are agency-owned — on
-churn, port or forward the number so citations never point at a dead
-line. Clients without call tracking use their real line until activated.
+System truth (verified): the canonical NAP number is the REAL business
+line — it is what the website JSON-LD/schema carries (DNI displays the
+tracker visually but schema keeps the real number), and on GBP the
+tracker is primary ONLY because Google explicitly sanctions that pattern
+via the real number sitting as the additional/secondary number.
+
+Policy: **citations and aggregators carry the REAL business number.**
+Reasons: (1) it matches the site schema and the GBP additional number —
+the two anchors Google reconciles against; (2) aggregator feeds
+propagate for months and are nearly impossible to claw back — an
+agency-owned tracking number pushed through Data Axle/Neustar becomes a
+churn liability with a huge blast radius; (3) citation-call attribution
+is low-volume nice-to-have, not worth the risk.
+
+Tracking numbers in citations are allowed in exactly ONE role: as the
+**verification/account contact** during signup (the number that rings
+lines we answer), wherever a platform distinguishes contact phone from
+displayed business phone. Where a platform has only one phone field, the
+real number goes in and verification rides the code-relay instead.
 
 ## 4. Verification-code relay (outline — TESTS FIRST)
 
@@ -117,6 +129,29 @@ MINI-CITATIONS-PROGRAM.md.
 
 BBB Accreditation (~$500-1,000/yr, chapter-dependent, seal only, no
 citation value) = client-paid upsell, never our cost.
+
+### BBB pilot tests (Santino 2026-09-26)
+
+Audit data (40 clients): real unclaimed bbb.org profiles exist for
+Coastal, Crew, DISS, Desert Valley, Heritage, Life Savers, NaRestCo
+(+ hands-off Go Green, Paul Davis). Wrong-entity namesakes flagged for
+All Pro, CRW, Home Pride (Idaho) — NEVER claim those. (Audit noise: a
+few "found" rows point at Facebook/YouTube — audit URL-quality fix
+queued.)
+
+- **Claim test: NaRestCo** (real profile, bbb.org/us/wa/federal-way, and
+  already the designated supervised re-test client). Flow: claim ->
+  email/phone verification (setup@ + answered lines; code-relay if it
+  texts the client) -> update NAP per policy above. Backup candidate:
+  Heritage — bonus value there is testing the RENAME EDIT on a claimed
+  profile later (DBA cert as documentation).
+- **Creation test: Dry Bros** (no profile, brand-new company). BBB
+  add-a-business flow under the final keyworded DBA name — a BBB profile
+  born under the exact chosen string, the founding-client pattern at its
+  best. Expect BBB vetting (days-to-weeks, possible verification call ->
+  our answered lines).
+- Both supervised-first per the 3-runs rule; file per-run verdicts in
+  the Mini daily report.
 
 ## 6. Chamber lanes
 
