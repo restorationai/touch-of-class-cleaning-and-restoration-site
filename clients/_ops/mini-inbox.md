@@ -15,8 +15,9 @@
   theirs). Claim it with the setup@ identity. BONUS SECOND STEP once
   claimed: their DBA is FILED AND VERIFIED ("Desert Valley
   Restoration-24/7 Emergency Plumbing, Water and Fire Damage
-  Restoration", NV FFN cert at
-  branding/CO-1789170047342/docs/DVC FEN Firm Name Desert Valley Restoration.pdf)
+  Restoration", NV FFN cert NOW IN THIS REPO at
+  clients/rachelle-elliston/docs/DVC-FFN-Desert-Valley-Restoration.pdf
+  — fetched from the bucket for you 09-27 morning, just git pull)
   — request the profile NAME EDIT to that exact string with the cert as
   documentation. That is the fleet's first BBB rename edit. narestco
   (bbb.org/us/wa/federal-way/...) stays as the BACKUP claim candidate. Verification: prefer email; if BBB texts a code to a
@@ -27,8 +28,11 @@
   section 3). File the run verdict in your daily report.
 - [ ] **BBB CREATE — dry-bros-water-fire-restoration (supervised, same
   sitting):** no profile exists. Submit BBB's add-a-business flow under
-  the FULL chosen DBA string exactly as filed (check
-  docs/gbp-rename-candidates.md for the verbatim name). BBB vetting
+  the FILED DBA string VERBATIM (confirmed from rename_intent 09-27,
+  dba_filed=true, vision-verified):
+  `Dry Bros - 24/7 Emergency Water Damage Restoration & Mold Remediation`
+  (the state record carries it uppercase; use the mixed-case form, same
+  string). BBB vetting
   takes days-weeks and may call — our answered lines are the contact.
   Start it this sitting so the clock runs. Report what the flow asked
   for.
