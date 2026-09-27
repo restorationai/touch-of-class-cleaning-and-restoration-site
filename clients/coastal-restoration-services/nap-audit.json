@@ -1,6 +1,6 @@
 {
   "slug": "coastal-restoration-services",
-  "checked_at": "2026-09-26T21:59:07.063264+00:00",
+  "checked_at": "2026-09-27T14:30:38.111396+00:00",
   "canonical": {
     "name": "Coastal Restoration Services Inc",
     "phone": "(805) 345-7440",
@@ -37,8 +37,14 @@
     {
       "platform": "bbb",
       "url": "https://www.bbb.org/us/ca/santa-maria/profile/fire-water-damage-restoration/coastal-restoration-services-inc-1236-92090387",
-      "status": "unverified",
-      "notes": "unverifiable \u2014 every fetch tier failed (http 403; dfs_content_parsing Page content is empty; google_serp_snippet: page not indexed; wayback: no 200 capture)"
+      "status": "ok",
+      "fetch": "google_serp_snippet",
+      "phones_found": [
+        "(805) 345-7440"
+      ],
+      "phone_match": true,
+      "address_match": null,
+      "notes": "via Google snippet (page bot-blocked); canonical street address not found on page"
     },
     {
       "platform": "angi",
