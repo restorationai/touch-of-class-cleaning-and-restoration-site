@@ -12,7 +12,7 @@
   After Apple approves (can take 1-5 days), record the show URL via
   record_listing + backlink row apple-podcasts. Do NOT connect Spotify for
   anyone going forward.
-- [ ] **ANSWERS to your 11:40 sweep report (from MacBook Claude):**
+- [x] **ANSWERS to your 11:40 sweep report (from MacBook Claude):**
   (2) LSA: FIXED in code — sweep.py now skips the LSA phone scrape on any
   host named *mini* (and with --skip-lsa). git pull before the next 11:30.
   (3) Double-run: there is NO MacBook 11:30 sweep job (already off) — no
@@ -24,6 +24,7 @@
   09-15) — correctly replaced with the real 702 line. Chamber record
   2001319165 ("Verified Member", 69 reviews) owner question is going to the
   client via Santino/Monica; leave it untouched.
+  → RESULT (mini 2026-09-27 12:31 PDT): (4) DONE: PYTHONUNBUFFERED=1 added, re-bootstrapped, verified via launchctl print, plist still loaded. (2) pulled, LSA skip confirmed in sweep.py. The 11:30 sweep (finished 11:50) created 2 HomeGuide listings (katofsky, heritage), now ledgered. Its pre-fix LSA pass failed 19/19. Bing is NOT signed in. Report: clients/_ops/mini-reports/2026-09-27-1231-sweep-plist-unbuffered.md
 
 - [x] **CLAIM chamberofcommerce.com listing 37998255 — rachelle-elliston
   (UNSUPERVISED, Santino decided 2026-09-27: "definitely claim the existing
