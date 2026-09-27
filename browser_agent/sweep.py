@@ -664,6 +664,8 @@ def main() -> int:
                     help="print tonight's creation-queue selection and exit "
                          "(no browser, no writes)")
     ap.add_argument("--skip-bing", action="store_true")
+    ap.add_argument("--skip-lsa", action="store_true",
+                    help="skip the LSA phone scrape (always skipped on the Mini)")
     ap.add_argument("--lsa-phones-only", action="store_true",
                     help="run ONLY the read-only LSA dashboard-phone capture")
     ap.add_argument("--skip-access", action="store_true",
@@ -748,11 +750,18 @@ def main() -> int:
                 if attention:
                     detail += " | ATTENTION: " + ", ".join(attention)
             print("bing:", detail)
-            try:
-                for ln in lsa_phone_sweep(s):
-                    print("  LSA-PHONE:", ln)
-            except Exception as _pe:  # noqa: BLE001
-                print(f"  LSA-PHONE: sweep errored: {str(_pe)[:100]}")
+            # Mini hard policy "No LSA anything" (2026-09-27, Mini flagged the
+            # conflict on its first scheduled sweep): the LSA phone scrape is
+            # skipped on the Mac Mini, or anywhere with --skip-lsa.
+            import socket as _sock
+            if a.skip_lsa or "mini" in _sock.gethostname().lower():
+                print("  LSA-PHONE: skipped (Mini policy / --skip-lsa)")
+            else:
+                try:
+                    for ln in lsa_phone_sweep(s):
+                        print("  LSA-PHONE:", ln)
+                except Exception as _pe:  # noqa: BLE001
+                    print(f"  LSA-PHONE: sweep errored: {str(_pe)[:100]}")
             if pending:
                 # Bing-side publish queue (7-12 day ETA, verification already
                 # done). Informational — nobody should action these.

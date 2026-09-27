@@ -4,6 +4,21 @@ Companion to docs/ai-citation-roadmap.md (the AI-citation gameplan) and
 docs/CITATIONS-REBUILD.md. Catalog + badges: scripts/backlinks.py and the
 Build Stages Backlinks board (inline editor + nightly discover -> check).
 
+## DECISIONS (Santino 2026-09-27, final)
+
+- **Spotify: DROPPED.** Episode links are nofollow, show pages have no
+  link. No new podcast episodes for anyone (podcast_feed.py was never on a
+  schedule; it simply stops being run). NaRestCo's existing feed stays live.
+- **Apple Podcasts: KEPT as a one-time task** (followed link on the show
+  page). First test: finish NaRestCo's Apple connect on the Mini.
+- **RIA: DETECT + RECOMMEND, never purchase.** discover v2 finds existing
+  members (4 found); non-members get a client-paid recommendation from
+  Monica. Generalizes per vertical as we expand (plumbing PHCC, roofing
+  NRCA, HVAC ACCA — catalog is already keyed by category). RIA bulk email
+  shelved; $3k-tier "industry association listing" = recommendation-led.
+- **Mozilla add-ons: never built, not pursued** (links nofollow + routed
+  through Mozilla's outgoing redirector, verified).
+
 ## CORRECTIONS (same day, after Santino's checks — these supersede the table)
 
 - **C&R directory is a VENDOR directory** (categories: certification &

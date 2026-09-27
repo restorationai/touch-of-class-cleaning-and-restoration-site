@@ -1,5 +1,30 @@
 # Mini inbox — current assignments (newest at top)
 
+- [ ] **APPLE PODCASTS CONNECT TEST — narestco (SUPERVISED, Santino
+  present; 2026-09-27):** Spotify is DROPPED (nofollow — see
+  docs/BACKLINKS-REBUILD.md DECISIONS); Apple Podcasts is the one podcast
+  link that counts (show-page website link verified followed). Submit
+  NaRestCo's existing feed https://podcasts.restorationai.io/narestco/feed.xml
+  at https://podcastsconnect.apple.com using the agency Apple ID
+  (contact@restorationai.io — the Apple Business Connect account; creds in
+  ~/.rankai/portal-creds.json key apple_business_connect). Apple ID 2FA may
+  prompt on Santino's trusted device: that is why this is supervised.
+  After Apple approves (can take 1-5 days), record the show URL via
+  record_listing + backlink row apple-podcasts. Do NOT connect Spotify for
+  anyone going forward.
+- [ ] **ANSWERS to your 11:40 sweep report (from MacBook Claude):**
+  (2) LSA: FIXED in code — sweep.py now skips the LSA phone scrape on any
+  host named *mini* (and with --skip-lsa). git pull before the next 11:30.
+  (3) Double-run: there is NO MacBook 11:30 sweep job (already off) — no
+  duplicate risk. (4) Reinstall com.rankai.mini-sweep with
+  EnvironmentVariables PYTHONUNBUFFERED=1 so the log is live (unsupervised
+  config change, OK to do now). (1) Unattended sweep #1 vs supervised-first:
+  PENDING Santino's decision — keep the plist loaded unless told otherwise.
+  Also: 725-228-5575 IS Desert Valley's call-tracking number (activated
+  09-15) — correctly replaced with the real 702 line. Chamber record
+  2001319165 ("Verified Member", 69 reviews) owner question is going to the
+  client via Santino/Monica; leave it untouched.
+
 - [x] **CLAIM chamberofcommerce.com listing 37998255 — rachelle-elliston
   (UNSUPERVISED, Santino decided 2026-09-27: "definitely claim the existing
   listing"):** claim the pre-existing unclaimed record

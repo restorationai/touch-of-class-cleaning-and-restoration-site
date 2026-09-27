@@ -50,7 +50,9 @@ CATEGORY_TARGETS: dict[str, list[tuple[str, str, str, str]]] = {
          "Free with the certification they already hold — the single most "
          "authoritative restoration link there is."),
         ("ria", "RIA member directory", "association",
-         "Restoration Industry Association membership listing."),
+         "DETECT + RECOMMEND (2026-09-27): discover finds existing RIA "
+         "members (Find a Pro link is followed); non-members get a "
+         "client-paid recommendation. We do NOT buy memberships."),
         ("chamber", "Local Chamber of Commerce", "local",
          "Paid membership the owner signs off on; the best NAP + backlink "
          "combo available locally."),
@@ -67,11 +69,12 @@ CATEGORY_TARGETS: dict[str, list[tuple[str, str, str, str]]] = {
          "member article contribution."),
         # 2026-09-27 (Santino, backlinks badges): the podcast pair the Mini
         # connects from the client's RSS feed (podcasts.restorationai.io).
-        ("spotify", "Spotify podcast", "podcast",
-         "Client show on Spotify via our RSS feed — Mini lane, verified "
-         "live on open.spotify.com."),
+        # Spotify DROPPED 2026-09-27: episode-description links render
+        # rel="noopener nofollow" and show pages carry no website link at
+        # all (verified on rendered DOM) — no backlink value.
         ("apple-podcasts", "Apple Podcasts", "podcast",
-         "Client show on Apple Podcasts via the same RSS feed — Mini lane."),
+         "One-time: a single-episode show submitted to Apple Podcasts "
+         "(show page website link verified FOLLOWED). No recurring episodes."),
     ],
 }
 
