@@ -422,6 +422,8 @@ def cmd_review(a) -> int:
         print(f"  ALERT: last {zero_streak} LSA calls connected for 0 seconds — "
               "the LSA profile may be forwarding to a dead number")
     if a.apply:
+        cc.kv_set("heartbeat:lsa-lead-review", {
+            "at": datetime.now(timezone.utc).isoformat(), "last_slug": a.slug})
         cc.kv_set(f"{KV}-summary:{cid}", {
             **tally, "zero_streak": zero_streak, "days": a.days,
             "at": datetime.now(timezone.utc).isoformat()})

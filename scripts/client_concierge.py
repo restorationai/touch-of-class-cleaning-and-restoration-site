@@ -12012,6 +12012,12 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
                         or "?" in (msg["body"] or ""))
         needs_santino = (bool(result.get("needs_santino"))
                          or resp_need == "answer_by_boss")
+        answers_ours = (not matched_ids and not needs_answer
+                        and _replies_to_our_question(contact_for_flow, msg))
+        if answers_ours:
+            needs_answer = True
+            print("    answers OUR last question (one-off offer/ask) — "
+                  "owed the follow-through")
         # BEING ASKED FOR A CALL IS A needs_santino EVENT BY DEFINITION
         # (Santino 2026-08-05, Tony/Coastal: "Call me when u have a minute"
         # classified as an ordinary question and Monica promised the call
@@ -12041,7 +12047,7 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
         # (negative, explicit escalate) still apply to card messages.
         if (result.get("escalate") or negative
                 or (not result.get("matches") and not had_cards
-                    and not matched_ids)):
+                    and not matched_ids and not answers_ours)):
             reason = result.get("escalate_reason") or (
                 "negative sentiment" if negative
                 else "no open item matched")
@@ -13015,6 +13021,37 @@ _ACK_WORDS = {
     "do", "cool", "no", "problem", "np", "yes", "sir", "yup", "yep",
     "yeah", "sure", "appreciate", "appreciated", "that", "works", "all",
     "right", "alright", "roger", "bet", "10-4", "ty", "tysm"}
+
+
+# YES/NO TO OUR OWN QUESTION (Santino 2026-09-27, Ashley/DryCor): a one-off
+# offer ("Want the callers' numbers so you can reach back out?") is not one
+# of Monica's open asks, so Ashley's bare "Yes please" matched nothing, had no
+# "?", and was filed to the digest instead of answered. A short affirmative /
+# negative arriving right after OUR outbound that ended in a question IS an
+# answer we owe follow-through on; compose then acts on it with the thread +
+# [CONTEXT] notes (which carry what was offered).
+_SHORT_ANSWER_RE = re.compile(
+    r"^\s*(?:yes|yeah|yea|yep|yup|sure|please|ok(?:ay)?|definitely|absolutely"
+    r"|of course|go ahead|do it|that works|sounds good|no|nope|nah|not now"
+    r"|no thanks)\b", re.I)
+
+
+def _replies_to_our_question(contact: dict | None, msg: dict) -> bool:
+    body = (msg.get("body") or "").strip()
+    if not contact or len(body) > 80 or not _SHORT_ANSWER_RE.search(body):
+        return False
+    at = msg.get("ts") or msg.get("when")
+    try:
+        hist = fetch_history(contact["id"], 8)
+    except Exception:  # noqa: BLE001 — never blocks inbound handling
+        return False
+    for m in hist:                      # newest first
+        if m.get("direction") != "out":
+            continue
+        if at and m.get("when") and m["when"] > at:
+            continue
+        return "?" in (m.get("body") or "")
+    return False
 
 
 def _bare_ack(body: str) -> bool:

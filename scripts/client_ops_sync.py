@@ -365,8 +365,49 @@ def send_email(subject: str, html: str, do_send: bool) -> None:
         print(f"  SendGrid error {resp.status_code}: {resp.text[:200]}", file=sys.stderr)
 
 
+def _lsa_review_digest_lines() -> list[str]:
+    """LSA daily AI lead review watcher (Santino 2026-09-27: "add a watcher
+    ... keep an eye on it since we just built it"). One line per client from
+    ops_kv lsa-lead-review-summary:{cid} (written by lsa_lead_review.py), plus
+    a loud line when the review has not run in 26h."""
+    try:
+        rows = _sb("GET", "/rest/v1/ops_kv?k=like.lsa-lead-review-summary:*&select=k,v") or []
+    except Exception:  # noqa: BLE001 — the digest must never be fatal
+        return ["LSA lead review: summary unreadable"]
+    names = {}
+    try:
+        names = {c["id"]: c.get("name") or c["id"] for c in
+                 (_sb("GET", "/rest/v1/companies?select=id,name") or [])}
+    except Exception:  # noqa: BLE001
+        pass
+    out, newest = [], None
+    for r in sorted(rows, key=lambda r: names.get(r["k"].split(":", 1)[1], "")):
+        v = r.get("v") or {}
+        at = v.get("at")
+        if at and (newest is None or at > newest):
+            newest = at
+        cid = r["k"].split(":", 1)[1]
+        line = (f"{names.get(cid, cid)}: {v.get('good', 0)} good, {v.get('bad', 0)} bad, "
+                f"{v.get('held', 0)} held for approval, {v.get('unclear', 0)} unclear, "
+                f"{v.get('missed', 0)} missed calls, {v.get('submitted', 0)} sent to Google, "
+                f"{v.get('credits', 0)} credited")
+        if (v.get("zero_streak") or 0) >= 2:
+            line += f" | ALERT: last {v['zero_streak']} calls 0s (dead forwarding?)"
+        out.append(line)
+    if not newest:
+        out.insert(0, "LSA lead review has NEVER completed an apply run")
+    else:
+        age_h = (datetime.now(timezone.utc) - datetime.fromisoformat(newest)).total_seconds() / 3600
+        if age_h > 26:
+            out.insert(0, f"LSA lead review STALE: last run {age_h:.0f}h ago (should be daily 06:17 PT)")
+    return out
+
+
 def digest_markdown(date_str: str, per_client: dict[str, dict]) -> str:
     lines = [f"# Client Ops Digest — {date_str}", ""]
+    _lsa = _lsa_review_digest_lines()
+    if _lsa:
+        lines += ["## LSA lead review (daily AI)"] + [f"- {x}" for x in _lsa] + [""]
     for client in sorted(per_client):
         d = per_client[client]
         lines.append(f"## {client}")
@@ -392,6 +433,11 @@ def digest_html(date_str: str, per_client: dict[str, dict]) -> str:
     parts = ['<div style="font-family:-apple-system,Segoe UI,Roboto,sans-serif;'
              'max-width:640px;margin:0 auto;color:#0f172a">',
              f'<h2 style="letter-spacing:-.01em">Client Ops Digest — {esc(date_str)}</h2>']
+    _lsa = _lsa_review_digest_lines()
+    if _lsa:
+        parts.append('<h3 style="color:#0f766e;margin-bottom:2px">LSA lead review (daily AI)</h3><ul style="margin:2px 0">')
+        parts.extend(f"<li>{esc(x)}</li>" for x in _lsa)
+        parts.append("</ul>")
     for client in sorted(per_client):
         d = per_client[client]
         parts.append(f'<h3 style="color:#7c3aed;margin-bottom:2px">{esc(client)}</h3>')
