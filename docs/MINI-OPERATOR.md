@@ -134,6 +134,17 @@ Judgment items route to Santino or Monica the same way (the Crew zip
 question went to the client within hours of your flag). Park-and-report
 is the designed behavior, not a failure.
 
+**Structured Needs (2026-09-27, automated):** in ADDITION to the report
+bullet, append each need as one line to `clients/_ops/mini-needs.md` and
+push immediately:
+`- [ ] NEED-<yyyymmdd-hhmm-short> | type=<type> | client=<slug> | <key=value> | for=<task>`
+Types the responder answers automatically (usually within ~1 minute of
+your push, then it fires your trigger): `fetch-doc` (path=branding/<cid>/...
+-> file lands in clients/<slug>/docs/), `dba-name` (verbatim filed DBA),
+`company-nap` (name/address/REAL phone/website). Anything else:
+`type=human | question=<text>` — routed to Santino. On your next run, read
+the line's `->` answer and continue the parked task.
+
 ## Daily report (last action of every day you run, 2026-09-14)
 
 Write `clients/_ops/mini-reports/DAILY-YYYY-MM-DD.md` with exactly three
