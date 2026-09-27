@@ -386,9 +386,12 @@ CLIENT_VERIFY_PENALTY = 10     # sites that need the client to verify
 # The per-client $100/month ladder (rebuild §1). Publishers are EXPLICIT per
 # month; nothing is ever re-bought (state + live campaign are checked).
 LADDER: dict[int, dict] = {
-    1: {"package": "cb10",
+    # Month 1 = AGGREGATORS ONLY by default (Santino 2026-09-27: ~$103 vs
+    # ~$127; months 2/3 cover the directories). --with-directories restores
+    # the old cb10 + trio order.
+    1: {"package": "cb0",
         "publishers": ("dataaxle", "neustar", "ypnetwork"),
-        "label": "rename authority wall: aggregator trio"},
+        "label": "rename authority wall: aggregator trio (aggregators only)"},
     2: {"package": "cb10",
         "publishers": ("foursquare", "gpsnetwork"),
         "label": "remaining feeds + visible breadth"},
@@ -594,8 +597,8 @@ def build_plan(month: int, ctx: dict, taken: set[str], bought: dict,
     spec = LADDER[month]
     notes_out: list[str] = []
     pkg = (getattr(args, "package", None) or spec["package"])
-    if month == 1 and getattr(args, "aggregators_only", False):
-        pkg = "cb0"
+    if month == 1 and getattr(args, "with_directories", False):
+        pkg = "cb10"
     if getattr(args, "publishers", None) is not None:
         want = [p.strip() for p in args.publishers.split(",") if p.strip()]
     elif getattr(args, "no_aggregators", False):
@@ -1288,14 +1291,16 @@ def main() -> int:
     po.add_argument("--slug", required=True)
     po.add_argument("--month", type=int, required=True, choices=(1, 2, 3),
                     help="ladder month: 1 = primary order (aggregator trio "
-                         "+ cb10), 2 = secondary (foursquare+gpsnetwork + "
+                         "only by default), 2 = secondary (foursquare+gpsnetwork + "
                          "cb10), 3 = secondary (cb25 top-off)")
     po.add_argument("--package", default=None,
                     help="override the month's default package (cb10/cb25/"
                          "...; cb0 = aggregators only)")
     po.add_argument("--aggregators-only", action="store_true",
-                    help="month 1 only: cb0 package, the aggregator trio "
-                         "with no directories")
+                    help="(now the month-1 DEFAULT; kept for compatibility)")
+    po.add_argument("--with-directories", action="store_true",
+                    help="month 1 only: add the cb10 directory package to "
+                         "the aggregator trio (old default, ~$127)")
     po.add_argument("--express", action="store_true")
     # DEFAULT is hand-pick (Santino 2026-09-13: "we choose the sources").
     # BL's auto_select is NEVER sent: --let-bl-pick takes BL's own menu
