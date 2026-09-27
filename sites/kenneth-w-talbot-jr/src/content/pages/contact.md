@@ -23,7 +23,7 @@ When a pipe bursts at 2 a.m. smoke is still settling, or you've discovered somet
 
 ## For estimates and non-urgent inquiries
 
-If you're planning ahead, a mold inspection before listing a property, a reconstruction estimate after an insurance settlement, or questions about a slow leak you noticed last week, email **veteranspcusa@gmail.com** or use the contact form on this page. Non-emergency inquiries typically receive a response within one business day. Having photos of the affected area ready will help us give you a more accurate preliminary assessment before we schedule a site visit.
+If you're planning ahead, a mold inspection before listing a property, help lining up a rebuild contractor after an insurance settlement, or questions about a slow leak you noticed last week, email **veteranspcusa@gmail.com** or use the contact form on this page. Non-emergency inquiries typically receive a response within one business day. Having photos of the affected area ready will help us give you a more accurate preliminary assessment before we schedule a site visit.
 
 ## Where we're located
 

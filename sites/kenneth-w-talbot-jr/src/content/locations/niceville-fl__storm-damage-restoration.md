@@ -37,7 +37,9 @@ From there, the process moves in a deliberate sequence:
 - **Emergency stabilization**, tarping breached roofs, boarding compromised openings, and stopping active water intrusion before it spreads further.
 - **Water extraction and drying**, commercial extractors pull standing water, and industrial air movers with desiccant or refrigerant dehumidifiers bring structural materials down to safe moisture levels. In the Panhandle's high ambient humidity, drying equipment runs longer than it would in a drier climate; we monitor daily readings rather than pulling equipment on a fixed schedule.
 - **Debris and tree damage removal**, downed trees and limbs are cleared in coordination with structural assessment so we're not disturbing load-bearing elements before they're evaluated.
-- **Structural repair and reconstruction**, once materials are dry and stable, damaged framing, sheathing, drywall, insulation, and roofing are repaired or replaced to current Florida Building Code standards.
+- **Demolition and tear-out**, once materials are dry and stable, damaged framing, sheathing, drywall, insulation, and roofing that can't be salvaged are removed so the structure is ready for the rebuild phase.
+
+We don't perform the rebuild ourselves, but once the mitigation and tear-out are done, we can connect you with a trusted contractor to handle the reconstruction to current Florida Building Code standards.
 
 ## Reaching Niceville from Freeport
 

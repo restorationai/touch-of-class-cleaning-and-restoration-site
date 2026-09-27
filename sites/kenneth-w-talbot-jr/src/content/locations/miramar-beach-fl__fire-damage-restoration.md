@@ -38,7 +38,8 @@ From there, the process moves through several distinct phases:
 - **Odor neutralization**, thermal fogging and hydroxyl generation to reach smoke molecules embedded in wall cavities, ductwork, and subfloor assemblies
 - **Structural drying**, fire suppression water is treated the same as any water intrusion; affected materials are dried to IICRC S500 standards before reconstruction begins
 - **Debris removal and selective demolition**, charred materials are documented, photographed, and removed in compliance with local waste disposal requirements
-- **Reconstruction coordination**, framing, drywall, flooring, and finish work staged to match the property's original specifications
+
+Once the mitigation and tear-out are complete, we don't perform the rebuild ourselves, but we can connect you with a trusted contractor to handle framing, drywall, flooring, and finish work.
 
 For vacation rental properties, we understand the pressure to get a unit back online. The process doesn't compress safely, but we work in parallel phases wherever the scope allows.
 

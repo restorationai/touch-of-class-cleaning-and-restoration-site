@@ -37,7 +37,7 @@ The first priority on any fire loss is emergency board-up and tarping to secure 
 - **Soot and smoke residue cleaning**, dry chemical sponges for dry smoke, alkaline cleaners for wet smoke, and HEPA-filtered negative air machines to capture airborne particulates during the process.
 - **Odor neutralization**, thermal fogging and hydroxyl treatment reach inside wall cavities and ductwork where spray-on deodorizers cannot penetrate.
 - **Structural drying**, if suppression water is present, drying runs concurrently with smoke remediation rather than waiting until cleaning is complete.
-- **Rebuild coordination**, once the structure passes clearance, reconstruction scoping begins so there is no gap between remediation and repair.
+- **Rebuild referral**, once the structure passes clearance, Veterans Remediation & Restoration can connect you with a trusted outside contractor for the rebuild, though the rebuild work itself is handled by that contractor rather than by our crew.
 
 The OSHA-trained crew at Veterans Remediation & Restoration follows established industry protocols for personal protective equipment and containment throughout, which matters when working in homes where occupants may return during the process.
 

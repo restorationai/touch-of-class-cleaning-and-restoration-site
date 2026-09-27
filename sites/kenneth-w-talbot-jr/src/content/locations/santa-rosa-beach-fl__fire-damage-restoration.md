@@ -38,7 +38,7 @@ The first priority on any fire loss is stabilization, boarding openings, tarping
 
 **Odor neutralization** goes beyond masking. Thermal fogging and hydroxyl generation reach into wall cavities and ductwork where spray-applied deodorizers cannot. In Santa Rosa Beach homes with spray-foam insulation, smoke odor can penetrate into the foam itself, which may require foam removal in heavily affected areas.
 
-**Structural drying and reconstruction** closes out the project. Because fire suppression soaks materials, drying runs concurrently with debris removal. Our OSHA-trained crews coordinate the sequence so reconstruction can begin as soon as affected assemblies reach acceptable moisture levels.
+**Structural drying** closes out our part of the project. Because fire suppression soaks materials, drying runs concurrently with debris removal and the necessary demolition of unsalvageable materials. We do not perform the rebuild ourselves, but our OSHA-trained crews get affected assemblies to acceptable moisture levels and can connect you with a trusted contractor for the reconstruction work.
 
 ## Reaching Santa Rosa Beach from Freeport
 

@@ -39,7 +39,7 @@ Timeline matters here. The Gulf Coast's humidity means wet building materials ca
 
 4. **Structural drying and content protection**, Commercial dehumidifiers and air movers are placed to dry affected building materials in place where possible. Contents in the damage path are moved, protected, or documented. Drying logs are maintained daily and shared with the adjuster.
 
-5. **Reconstruction scope and repair**, Once materials are confirmed dry, damaged roofing, siding, drywall, flooring, and framing are repaired or replaced. Work is scoped in writing before it starts.
+5. **Demolition and tear-out**, Once materials are confirmed dry, unsalvageable roofing, siding, drywall, flooring, and framing are removed so the structure is ready for repairs. Veterans Remediation & Restoration does not perform the rebuild, but documents the scope in writing and can connect you with a trusted contractor to complete the reconstruction.
 
 ## What separates a good storm damage response from a bad one
 
@@ -62,7 +62,6 @@ Typical costs for storm damage restoration vary significantly based on the size 
 | Roof tarp, debris removal, and interior drying (1–2 rooms) | $3,500 – $8,000 |
 | Significant tree impact with framing damage | $8,000 – $20,000 |
 | Whole-roof failure with multi-room water intrusion | $15,000 – $40,000+ |
-| Full reconstruction after major structural storm damage | $40,000 – $120,000+ |
 
 ## Seasonal and regional considerations
 
