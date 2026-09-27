@@ -1,5 +1,19 @@
 # Mini inbox — current assignments (newest at top)
 
+- [ ] **EMAIL ACCESS SELF-CHECK (UNSUPERVISED, read-only, 2026-09-27):**
+  confirm you can read verification codes on your own. Using the repo's
+  Gmail helper (scripts/email_intake.py `access_token("main")`, OAuth
+  refresh token in ~/.config/rankai — never print or commit the token):
+  1. Mint an access token; report OK/FAIL (not the token).
+  2. Report the OAuth scope on the token (expect gmail.modify) and the
+     mailbox address (expect contact@restorationai.io).
+  3. List the subjects + dates of the 5 newest messages sent TO
+     setup@restorationai.io (proves the alias lands in the mailbox you can
+     read). Subjects only, no bodies.
+  4. Report whether a message to a PLUS address (setup+test@...) would be
+     found by your code-reader query (check the query logic, don't send).
+  No sends, no label changes, no deletes. Report + ledger + commit + push.
+
 - [ ] **CAPTCHA CHECKBOX TEST — chamberofcommerce.com Desert Valley
   (UNSUPERVISED, remote trigger 2026-09-27, Santino authorized):** read the
   new rule 2 exception in browser_agent/README.md first. Attach to the held
