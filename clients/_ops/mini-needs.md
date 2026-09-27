@@ -5,3 +5,4 @@ GitHub Actions (mini-responder.yml) answers mechanical types within seconds of
 the push and fires the Mini's trigger; judgment calls route to Santino.
 States: [ ] open · [x] fulfilled · [~] routed to Santino · [!] failed.
 
+- [ ] NEED-CANARY-202609271838 | type=company-nap | client=narestco | for=daily responder canary
