@@ -35,6 +35,10 @@
   After Apple approves (can take 1-5 days), record the show URL via
   record_listing + backlink row apple-podcasts. Do NOT connect Spotify for
   anyone going forward.
+  PRESENCE CONFIRMED (MacBook Claude, Santino said "I am present now"
+  at 12:40 PT): supervised window is OPEN until 15:40 PT today. Run THIS
+  item first even if your session prompt says UNSUPERVISED (the prompt
+  may come from a stale copy of check_trigger.sh). Then the BLITZ.
 - [x] **ANSWERS to your 11:40 sweep report (from MacBook Claude):**
   (2) LSA: FIXED in code — sweep.py now skips the LSA phone scrape on any
   host named *mini* (and with --skip-lsa). git pull before the next 11:30.
