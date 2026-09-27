@@ -1,3 +1,13 @@
+> **SUPERSEDED (2026-09-27)** for everything about the BrightLocal bought
+> layer by docs/CITATIONS-REBUILD.md (the per-client 3-month ladder,
+> ordering rules, costs) and scripts/brightlocal.py. Stale here: "$1 per
+> listing" (credits are $2.40), "Apple Maps" in the BL pack (Apple is
+> never bought via BL; Business Connect only), the yelp-exclusion TODO
+> (yelp stays IN BL picks until the owned lane graduates), and the lane
+> list (Foursquare/MapQuest/YellowPages are aggregator-covered now). The
+> supervised-runs ledger and monitoring-loop sections remain a useful
+> history of the Mini program; docs/MINI-OPERATOR.md is the live source.
+
 # Mac Mini Citations Program — state, plan, monitoring (2026-09-14)
 
 The reference doc for the Mini-as-citation-operator program. If context is

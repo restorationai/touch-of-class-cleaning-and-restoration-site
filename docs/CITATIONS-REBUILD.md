@@ -5,42 +5,64 @@ docs/MINI-CITATIONS-PROGRAM.md (Mini operator program),
 docs/MINI-OPERATOR.md (standing orders), scripts/brightlocal.py (bought
 layer), scripts/citations_audit.py + citations_sync.py (feedback loop).
 
-Confirmed facts this plan stands on (verified 09-26): credits cost
-$2.40 each ($1,200 / 500 bundle, Harvey Godden email 09-04); balance 236;
-each aggregator = 15 credits ($36), annual, ladder discount at 3+;
-BL menu = ~117 sites, scored tier tops out ~DA 87 after Google/Yelp;
-BBB, Angi, Facebook, Nextdoor, Thumbtack, Houzz are NOT BL-orderable;
-maps.apple.com is in the menu but unscored (was never auto-picked);
-BL attempted to CREATE a Google listing for Dry Bros (duplicate risk).
+Confirmed facts this plan stands on (verified 09-26, corrected 09-27
+against the live API): credits cost $2.40 each ($1,200 / 500 bundle,
+Harvey Godden email 09-04); balance **183** on 09-27 (236 on 09-26 minus
+Desert Valley's 53-credit month-1 order); each aggregator = 15 credits
+($36), annual (expiration date on every publisher row), ladder discount
+5% at 3, 10% at 4; BL menu = ~99-117 sites, scored tier tops out ~DA 87
+after Google/Yelp; BBB, Angi, Facebook, Nextdoor, Thumbtack, Houzz are
+NOT BL-orderable; **maps.apple.com IS scored (DA 99, second only to
+google.com) and not SAB-supported**, so any top-by-score pick would buy
+it (now hard-excluded in code); BL attempted to CREATE a Google listing
+for Dry Bros (duplicate risk). **Duplicate removal is a paid add-on**
+(~20% of the package: cb10 +2 credits, cb25 +5), per GET
+/citation-builder/{id}/packages.
 
 ## 1. The $100/month ladder (confirmed)
 
 Fired per client when their name is settled (rename-complete or launch).
-Never exceeds ~$108 in a month; total ~$264 over three months; a real
-deliverable every month. Aligned to retention: a client who stays 3
-months gets the full stack.
+Real costs (corrected 09-27, $2.40/credit; duplicate removal included
+because it is always on): month 1 ~$127-132, month 2 ~$96-101, month 3
+~$60-72, so **~$283-305 over three months** (not $264), then **~$180/yr
+aggregator renewals from year 2** (5 feeds x 15 credits; the trio renews
+with its -5% ladder). Aligned to retention: a client who stays 3 months
+gets the full stack. Command: `brightlocal.py order --slug X --month N`
+(dry-run by default; `--confirm` spends).
 
-- **Month 1 — rename authority wall (~$108 paid + $0 owned layer)**
+- **Month 1 — rename authority wall (~$127 paid + $0 owned layer)**
   - BUY: aggregator trio in ONE order (3+ ladder discount): Data Axle,
-    Neustar/Localeze, YP Network (45 credits). YP goes live fast
+    Neustar/Localeze, YP Network (45 credits -5% = 43). YP goes live fast
     (yellowpages + dexknows + superpages — Kenneth proof, live under his
     full keyworded name).
+  - BL's default order also needs a directory package: trio + hand-picked
+    cb10 = 53 credits = **$127.20** (+2 credits duplicate removal =
+    $132). The API DOES allow aggregators-only (`package_id: cb0`):
+    `--aggregators-only` = 43 credits = **$103.20**, i.e. ~$24-29 less.
+    It is a flag, not the default (pending Santino's call).
   - MINI (free, same month): Bing Places, BBB claim/create,
     chamberofcommerce.com (already a Connect-tab handled listing),
-    Houzz, and **Apple Business Connect directly** (owned listing beats
-    BL's Apple data submission; skip Apple in BL orders entirely).
+    Houzz. **Apple is NOT a month-1 item** (see month 2).
 - **Month 2 — remaining feeds + visible breadth (~$96)**
-  - BUY: Foursquare + GPS Network (30 credits — eligible now that
-    addresses are visible) + hand-picked cb10 of the top-scored
-    directories (10 credits).
+  - BUY: Foursquare + GPS Network (30 credits, no ladder discount at 2 —
+    eligible only with a visible address) + hand-picked cb10 of the
+    top-scored directories (10 credits) = 40 credits = $96 (+2 duplicate
+    removal = $100.80). Placed as a BL **secondary campaign**, which BL
+    only accepts once the month-1 order has COMPLETED (~2 weeks after
+    purchase; Desert Valley's est. completion is 2026-10-11).
+  - MINI: Apple Business Connect directly (owned listing; Apple rejects
+    service-area businesses, so it rides with the visible-address feeds
+    and is skipped for address-hidden opt-outs). Never via BL credits.
 - **Month 3 — completion (~$60)**
   - BUY: cb25 top-off of the remaining scored tier, deduped against
-    everything already live.
+    everything already ordered/held = 25 credits = $60 (+5 duplicate
+    removal = $72). Secondary campaign, same completion rule.
   - MINI: editorial one-offs (ThreeBestRated, TrustAnalytica — the
     AI-citation gold).
-- After month 3: NOTHING recurring except the annual aggregator renewal.
-  The live-checker triggers reactive gap-fills only when listings die.
-  Recurring budget goes to the reviews program instead (decided 09-26).
+- After month 3: NOTHING recurring except the annual aggregator renewal
+  (~$180/yr per client from year 2). The live-checker triggers reactive
+  gap-fills only when listings die. Recurring budget goes to the reviews
+  program instead (decided 09-26).
 
 ## 2. Ordering rules (bake into brightlocal.py)
 
@@ -54,12 +76,53 @@ months gets the full stack.
 4. **Addresses VISIBLE by default** (makes Apple + Foursquare + GPS
    Network viable and strengthens every submission). Per-client opt-out
    reserved for genuine home-address privacy cases only — record the
-   opt-out on plan-input, and those clients skip Apple + the two
-   non-SAB feeds.
+   opt-out on plan-input as `brand.citations_hide_address: true`, and
+   those clients skip Apple + the two non-SAB feeds (code sends the
+   hide-address note and drops SAB-unsupported directories for them).
 5. **Dedupe before every order** against citation_listings + prior BL
    campaigns + the audit's found listings.
 6. Wire BL create-secondary-campaign (a location's first campaign is
-   one-shot; months 2/3 need it).
+   one-shot; months 2/3 need it). **DONE 09-27** (see §2b).
+7. **Junk directories never picked**: B2B/export marketplaces (ec21.com
+   was bought for Desert Valley on 09-27), bookmark/link farms,
+   wrong-niche verticals, yellowpages.net. Home-services/local
+   directories rank ahead of generic ones at similar DA.
+
+## 2b. Code state (scripts/brightlocal.py, 09-27)
+
+- `order --slug X --month {1,2,3}`: **dry-run is the default** and prints
+  the exact directories, aggregators, credits and dollars, plus any
+  blockers; `--confirm` is required to spend. Month 1 = PUT
+  `/citation-builder/{id}/confirm`; months 2/3 = POST
+  `/citation-builder/{id}/secondary-campaigns` (same body).
+- Ladder state per client in `clients/{slug}.json` ->
+  `brightlocal.ladder["1"|"2"|"3"]` (ordered_at, package, citations,
+  publishers, credits, usd, BL order id), mirrored to
+  `user_integrations[citations].connection_metadata.bl_ladder`. Pre-ladder
+  orders (top-level ordered_at) count as month 1.
+- Aggregators are explicit per month (LADDER table) and never re-bought:
+  checked against the ladder state AND every paid order's publishers on
+  the live campaign. Legacy clients whose month 1 predates the trio
+  (Dry Bros, Frontline, Restoration Groups) get a dry-run note; add the
+  trio with `--publishers` if wanted.
+- `EXCLUDED_DOMAINS` (google.com, apple.com / maps.apple.com) and
+  `JUNK_DOMAINS` apply on EVERY path; `auto_select` is never sent
+  (`--let-bl-pick` just uses BL's menu order, which is effectively
+  alphabetical, with the same filters), and a final guard refuses any
+  order containing an excluded or junk domain.
+- Dedupe: every directory already ordered on the campaign (all orders),
+  citation_listings rows (non-missing), the Listings card URLs, audit
+  "found" slots and BL-built listings.
+- `remove_duplicates: true` on every directory order (cb0 has no
+  directories, so it sends false). Notes tell BL never to touch Google or
+  Apple, and to publish the full address (or hide it for an opt-out).
+- `--confirm` refuses when: rename gate blocked, month already ordered,
+  earlier month missing, previous BL order not completed, lookup not
+  complete, credits short, or too few eligible directories. Location
+  enrichment and the NAME FINAL rename PUT run only after all of those
+  pass.
+- The app's "Order citations" click (rename_pitch_worker.py) now runs
+  `--month 1 --confirm` (was `--package cb25 --apply`).
 
 ## 3. NAP phone policy (CORRECTED 2026-09-26 — Santino overruled the tracking-number idea, and he is right)
 
@@ -123,7 +186,8 @@ Test plan (in order, before any client):
 Bing Places (GBP import), BBB claim-or-create (+ rename edits through
 the claimed profile — DBA certificate is the documentation BBB wants),
 chamberofcommerce.com (already a handled Connect-tab listing — badge
-"we handle this"), Houzz, Apple Business Connect. Client-identity
+"we handle this"), Houzz. (Apple Business Connect moved to month 2, 09-27:
+Apple rejects service-area businesses.) Client-identity
 re-test batch (Angi, Nextdoor, Thumbtack, Facebook) continues per
 MINI-CITATIONS-PROGRAM.md.
 
@@ -195,9 +259,10 @@ ThreeBestRated, TrustAnalytica.
 Overlap guards that stay: yelp stays in BL picks ONLY until the owned
 lane graduates, then flips out; Apple never bought through BL (ABC is
 the owned listing; the GPS Network feed complements it by pushing NAP
-into navigation data, different consumers); BL orders always send
-remove_duplicates so month-3 top-offs never re-buy what a feed already
-propagated.
+into navigation data, different consumers). BL orders always send
+remove_duplicates — note (09-27): that is BL's PAID duplicate-listing
+suppression on the ordered sites (~20% surcharge), it does NOT stop a
+re-buy; re-buy prevention is the ladder dedupe in brightlocal.py.
 
 **YOURS TO SET UP (owner: client — the supervised RE-TEST batch, now
 with the code-relay concept sanctioned):** Yelp, Angi (free claim),
@@ -232,9 +297,11 @@ third, unrelated company) stays valid for hand-entered client listings.
   itemized, ticket 743649) — BL replied 09-17/18, unanswered by us since
   09-16. Aggregator charges (~45 credits) likely explain it; reconcile
   and close.
-- Credits runway: 236 on hand. Month-1 ladder = 45/client -> ~5 clients
-  per bundle-refill at current balance. Top-ups ping Santino (no
-  auto-purchase) until told otherwise.
+- Credits runway (corrected 09-27): **183 on hand**. Month 1 = 53
+  credits/client (55 with duplicate removal) -> **~3 month-1 clients**
+  (4 if aggregators-only at 43). A full 3-month ladder is ~118-127
+  credits/client, so 183 covers ONE client end-to-end plus change. Top-ups
+  ping Santino (no auto-purchase) until told otherwise.
 
 ## 8. Dependencies + rollout order
 
