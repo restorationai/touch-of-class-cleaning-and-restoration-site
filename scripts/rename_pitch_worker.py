@@ -225,8 +225,10 @@ def process_site_syncs(dry: bool) -> None:
 def process_citation_orders(dry: bool) -> None:
     """App 'Order citations' clicks — the ONE sanctioned credit-spend path
     (Santino 2026-09-19: spends always ride an explicit human click).
-    Runs setup when the campaign is missing, then the cb25 order; the
-    rename gate inside brightlocal.py still has final say."""
+    Runs setup when the campaign is missing, then ladder MONTH 1 (aggregator
+    trio + cb10, docs/CITATIONS-REBUILD.md); the click IS the approval, so
+    it passes --confirm. The rename gate inside brightlocal.py still has
+    final say, and months 2/3 are never fired from here."""
     def cmd(slug):
         import json as _j
         bl = {}
@@ -242,7 +244,7 @@ def process_citation_orders(dry: bool) -> None:
                            capture_output=True, text=True, timeout=600,
                            cwd=str(ROOT))
         return [sys.executable, str(ROOT / "scripts" / "brightlocal.py"),
-                "order", "--slug", slug, "--package", "cb25", "--apply"]
+                "order", "--slug", slug, "--month", "1", "--confirm"]
     _process_action_queue(ORDER_KV, "citation-order", cmd, dry)
 
 

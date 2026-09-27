@@ -17,23 +17,34 @@ auto-selected):
          {ordered,to_do,submitted,pending,live,...} for progress polling
 
 Auth: x-api-key header ONLY (BRIGHTLOCAL_API_KEY). One CB campaign per
-location. Top-ups after the first order go via create-secondary-campaign
-(not yet wired). Aggregator (publisher) submissions cost extra credits, we
-default to none. developer.brightlocal.com docs are a JS-only SPA: render
-with playwright, plain curl gets a stub.
+location; the first order confirms it (PUT .../confirm), every later ladder
+month is a SECONDARY order on the same campaign (POST
+/citation-builder/{id}/secondary-campaigns, same body as confirm; BL only
+allows it once the previous order has completed). package_id cb0 =
+aggregators only. Duplicate removal is a paid add-on (~20% of the package
+credits). developer.brightlocal.com is a Stoplight SPA; the raw operation
+specs are at stoplight.io/api/v1/projects/cHJqOjMxMzc4OA/nodes/{node_id}.
 
 Commands:
-  audit                        fleet table: who has location/campaign/order
+  audit                        fleet table: who has location/campaign/ladder
   setup   --slug X [--apply]   create location + campaign for one client
-  order   --slug X --package cb25 [--express] [--apply]   spend credits
-  status  [--slug X]           submission progress for ordered campaigns
+  order   --slug X --month N [--confirm]   ladder month 1/2/3 (see LADDER);
+          DRY-RUN by default: prints directories, aggregators, credits and
+          dollars; nothing is spent without --confirm. Month 1 options:
+          --aggregators-only (cb0). Overrides: --package, --publishers,
+          --no-aggregators, --let-bl-pick, --express.
+  status  [--slug X]           submission progress for every order
 State lives in clients/{slug}.json under "brightlocal":
-  {location_id, campaign_id, ordered_at, package_id}
+  {location_id, campaign_id, ordered_at, package_id, publishers,
+   ladder: {"1": {...}, "2": {...}, "3": {...}}, ladder_month, last_ordered_at}
+  (ordered_at/package_id/publishers = month 1, kept for older readers;
+   ladder is mirrored to user_integrations[citations].bl_ladder)
 """
 from __future__ import annotations
 
 import argparse
 import json
+import math
 import os
 import re
 import sys
@@ -314,149 +325,562 @@ def rename_gate(slug: str) -> tuple[bool, str]:
     return True, "KEEPING the current name (all candidates dismissed)"
 
 
-def cmd_order(args) -> int:
-    slug = args.slug
-    if args.package not in PACKAGES:
-        print(f"package must be one of {PACKAGES}")
-        return 1
-    ok, why = rename_gate(slug)
-    print(f"[{slug}] rename gate: {'CLEAR' if ok else 'BLOCKED'} — {why}")
-    if not ok:
-        return 1
-    # SYSTEM enrichment (Santino 2026-09-16): every order self-enriches the
-    # location first — description, services, socials, contact — so no
-    # campaign ever submits a bare-NAP listing again. Never blocks an order.
+# ------------------------------------------------------------ order policy
+# ONE place for every rule that decides what a Citation Builder order may
+# contain (docs/CITATIONS-REBUILD.md §1-2). Every order path, including the
+# BL-ordering fallback, goes through pick_citations() + _assert_clean().
+
+CREDIT_USD = 2.40  # $1,200 per 500-credit bundle (Harvey Godden, 09-04)
+
+# NEVER bought through Citation Builder, on ANY path.
+EXCLUDED_DOMAINS: dict[str, str] = {
+    # Santino 09-19 + rebuild rule 1: we own and API-manage every GBP; BL
+    # tried to CREATE a Google listing for Dry Bros (duplicate/suspension
+    # risk).
+    "google.com": "we own every GBP; BL spawns duplicate Google listings",
+    # Rebuild rule 3: Apple goes through Business Connect (Mini lane). Apple
+    # rejects service-area businesses, and it scores DA 99 in the menu, so a
+    # top-by-score pick would otherwise buy it.
+    "apple.com": "Apple via Business Connect (Mini), never BL credits",
+    "maps.apple.com": "Apple via Business Connect (Mini), never BL credits",
+}
+
+# Junk for a restoration trade: B2B/export marketplaces, bookmark and
+# link-building farms, wrong-niche verticals. ec21.com (a B2B export
+# marketplace) was top-by-DA-picked for Desert Valley on 09-27. Extend here.
+JUNK_DOMAINS: dict[str, str] = {
+    "ec21.com": "B2B export marketplace",
+    "b2bmap.com": "B2B marketplace",
+    "b2bco.com": "B2B marketplace",
+    "onestopb2b.com": "B2B marketplace",
+    "dealerbaba.com": "B2B wholesale marketplace",
+    "trepup.com": "B2B marketplace",
+    "industryhuddle.com": "B2B industrial network",
+    "supplyautonomy.com": "B2B supplier directory",
+    "anibookmark.com": "social bookmarking",
+    "linkcentre.com": "link directory",
+    "bizlinkbuilder.com": "link-building directory",
+    "directory-seo.com": "SEO link directory",
+    "blogbangboom.com": "blog/link farm",
+    "smallbizblog.net": "blog/link farm",
+    "bizcoupon.directory": "coupon directory",
+    "autopros411.com": "wrong niche (automotive)",
+    "selfemployedai.com": "wrong niche (freelancer AI directory)",
+    # rebuild §5b: unrelated low-value site, never the YP we want (the YP
+    # Network aggregator creates yellowpages.com)
+    "yellowpages.net": "unrelated YP namesake (doc §5b)",
+}
+
+# Consumer/home-services + local directories get a ranking bonus over
+# generic business directories of similar authority.
+HOME_SERVICES_DOMAINS = {
+    "yelp.com", "trustburn.com", "manta.com", "merchantcircle.com",
+    "hotfrog.com", "n49.com", "citysquares.com", "ezlocal.com",
+    "cylex.us.com", "brownbook.net", "provenexpert.com", "bubblelife.com",
+    "trustlink.org", "chamberofcommerce.com", "cybo.com",
+}
+HOME_SERVICES_BONUS = 15
+LOCAL_TYPE_BONUS = 10          # BL types general_+_local / local+_niche
+CLIENT_VERIFY_PENALTY = 10     # sites that need the client to verify
+
+# The per-client $100/month ladder (rebuild §1). Publishers are EXPLICIT per
+# month; nothing is ever re-bought (state + live campaign are checked).
+LADDER: dict[int, dict] = {
+    1: {"package": "cb10",
+        "publishers": ("dataaxle", "neustar", "ypnetwork"),
+        "label": "rename authority wall: aggregator trio"},
+    2: {"package": "cb10",
+        "publishers": ("foursquare", "gpsnetwork"),
+        "label": "remaining feeds + visible breadth"},
+    3: {"package": "cb25", "publishers": (),
+        "label": "completion top-off of the remaining scored tier"},
+}
+# Not SAB-supported by BL: only orderable with a VISIBLE street address.
+VISIBLE_ADDRESS_ONLY_PUBS = {"foursquare", "gpsnetwork"}
+# A secondary campaign can only be created once the previous one completed
+# (BL docs, Create Secondary Campaign). BL stays the final arbiter.
+COMPLETED_STATUSES = {"submissions_complete", "complete", "finished"}
+# Fallback surcharge table (GET /packages 409s once a campaign is bought);
+# live values 09-27: cb10 2, cb15 3, cb25 5, cb35 10/7, cb50 10, cb75 15.
+DEDUPE_CREDITS = {"cb10": 2, "cb15": 3, "cb25": 5, "cb30": 6, "cb50": 10,
+                  "cb75": 15, "cb100": 20}
+EXPRESS_CREDITS = dict(DEDUPE_CREDITS)
+
+
+def _norm_domain(d: str) -> str:
+    d = re.sub(r"^https?://", "", str(d or "").strip().lower())
+    d = d.split("/")[0].split("?")[0]
+    return d[4:] if d.startswith("www.") else d
+
+
+def is_excluded(domain: str) -> str | None:
+    d = _norm_domain(domain)
+    for bad, why in EXCLUDED_DOMAINS.items():
+        if d == bad or d.endswith("." + bad):
+            return why
+    return None
+
+
+def _assert_clean(citations: list[str]) -> None:
+    """Last line of defence right before any spend call."""
+    bad = [d for d in citations if is_excluded(d)
+           or _norm_domain(d) in JUNK_DOMAINS]
+    if bad:
+        raise SystemExit(f"REFUSING: excluded/junk domain(s) in order: {bad}")
+
+
+def hide_address_optout(slug: str) -> bool:
+    """Rebuild rule 4: addresses VISIBLE by default. The only opt-out is a
+    genuine home-address privacy case, recorded on plan-input as
+    brand.citations_hide_address = true."""
+    pi = CLIENTS / slug / "plan-input.json"
     try:
-        print("  " + enrich_location(slug, apply=args.apply))
-    except Exception as e:  # noqa: BLE001
+        return bool(((json.loads(pi.read_text()).get("brand") or {})
+                     .get("citations_hide_address")))
+    except (OSError, json.JSONDecodeError):
+        return False
+
+
+def order_notes(hide_address: bool) -> str:
+    base = ("Do NOT create or submit listings on google.com or Apple Maps "
+            "(maps.apple.com): we manage those directly. ")
+    if hide_address:
+        return base + ("Home-address privacy case: hide the street address "
+                       "on directories where possible.")
+    return base + ("Publish the full street address exactly as on the "
+                   "location (storefront-visible NAP).")
+
+
+def ladder_state(bl: dict) -> dict[str, dict]:
+    """Per-client ladder ledger. Orders placed before the ladder existed
+    (top-level ordered_at/package_id/publishers) count as month 1."""
+    lad = {str(k): v for k, v in (bl.get("ladder") or {}).items()}
+    if "1" not in lad and bl.get("ordered_at"):
+        lad["1"] = {"ordered_at": bl["ordered_at"],
+                    "package_id": bl.get("package_id"),
+                    "publishers": bl.get("publishers") or [],
+                    "campaign_id": str(bl.get("campaign_id") or ""),
+                    "legacy": True}
+    return lad
+
+
+def campaign_facts(campaign_id) -> dict:
+    """What the LIVE campaign already holds, across the primary order and
+    every secondary order in campaigns[]."""
+    d = _bl("GET", f"/citation-builder/{campaign_id}")
+    orders = d.get("campaigns") or []
+    ordered, pubs = set(), {}
+    for o in orders:
+        if not o.get("paid"):
+            continue
+        for cit in o.get("citations") or []:
+            if isinstance(cit, dict) and cit.get("domain"):
+                ordered.add(_norm_domain(cit["domain"]))
+        for p in o.get("publishers") or []:
+            if isinstance(p, dict) and p.get("type"):
+                pubs[p["type"]] = p.get("expiration") or ""
+    return {"detail": d, "orders": orders, "ordered_domains": ordered,
+            "bought_pubs": pubs}
+
+
+def known_listing_domains(slug: str) -> set[str]:
+    """Rebuild rule 5: listings we already hold or found — citation_listings
+    rows, the Business Listings card URLs, audit 'found' slots, BL-built."""
+    cid = _company_id(slug)
+    out: set[str] = set()
+    if not cid:
+        return out
+    try:
+        sys.path.insert(0, str(ROOT / "scripts"))
+        from listings import PLATFORMS
+    except ImportError:
+        PLATFORMS = {}
+    try:
+        rows = _sb_req("GET", f"/rest/v1/citation_listings?company_id=eq.{cid}"
+                       "&select=directory,status,listing_url") or []
+        for r in rows:
+            if (r.get("status") or "") == "missing":
+                continue
+            if r.get("listing_url"):
+                out.add(_norm_domain(r["listing_url"]))
+            for dom in (PLATFORMS.get(r.get("directory") or "") or ("", ()))[1]:
+                out.add(dom)
+        md = (_sb_req("GET", "/rest/v1/user_integrations?client_id=eq." + cid
+                      + "&provider=eq.citations&select=connection_metadata")
+              or [{}])[0].get("connection_metadata") or {}
+        for url in (md.get("citation_urls") or {}).values():
+            if url:
+                out.add(_norm_domain(url))
+        for slot, v in (md.get("nap_audit") or {}).items():
+            if isinstance(v, dict) and v.get("status") == "found":
+                out.update((PLATFORMS.get(slot) or ("", ()))[1])
+        out.update(_norm_domain(k) for k in (md.get("built_listings") or {}))
+    except Exception as e:  # noqa: BLE001 — dedupe is best-effort, BL is not
+        print(f"  (known-listing dedupe partial: {str(e)[:80]})")
+    return {d for d in out if d}
+
+
+def pick_citations(menu: list[dict], n: int, taken: set[str],
+                   allow_non_sab: bool, bl_order: bool = False):
+    """Choose n directories. Hand-pick (default): DA + home-services/local
+    bonus. bl_order: BrightLocal's own menu order. EITHER WAY the exclusion
+    list, junk list and dedupe apply — auto_select is never sent."""
+    skipped: dict[str, list[str]] = {"excluded": [], "junk": [],
+                                     "already held/ordered": [],
+                                     "not SAB-supported": []}
+    cands = []
+    for i, a in enumerate(menu):
+        d = _norm_domain(a.get("domain") or "")
+        if not d:
+            continue
+        if is_excluded(d):
+            skipped["excluded"].append(d)
+            continue
+        if d in JUNK_DOMAINS:
+            skipped["junk"].append(d)
+            continue
+        if d in taken:
+            skipped["already held/ordered"].append(d)
+            continue
+        if not allow_non_sab and a.get("is_sab_supported") is False:
+            skipped["not SAB-supported"].append(d)
+            continue
+        da = a.get("domain_authority") or 0
+        score = da
+        if d in HOME_SERVICES_DOMAINS:
+            score += HOME_SERVICES_BONUS
+        if "local" in str(a.get("type") or ""):
+            score += LOCAL_TYPE_BONUS
+        if a.get("client_verification"):
+            score -= CLIENT_VERIFY_PENALTY
+        cands.append((i, score, da, d))
+    cands.sort(key=(lambda t: t[0]) if bl_order
+               else (lambda t: (-t[1], -t[2], t[3])))
+    return [(d, da, score) for _i, score, da, d in cands[:n]], skipped
+
+
+def _pub_credits(pubs: list[str], pinfo: dict) -> tuple[int, int, int]:
+    by_id = {p["id"]: p for p in (pinfo.get("publishers") or [])}
+    base = sum((by_id.get(p) or {}).get("credits") or 15 for p in pubs)
+    disc = max((d["discount"] for d in (pinfo.get("discount_ladder") or [])
+                if len(pubs) >= d["count"]), default=0)
+    # rachelle 09-27: trio 45 credits at -5% debited 43 -> round UP
+    return math.ceil(base * (100 - disc) / 100), base, disc
+
+
+def _surcharges(campaign_id, package: str) -> tuple[int, int, bool]:
+    """(dedupe credits, express credits, live?) for a package."""
+    if package == "cb0":
+        return 0, 0, True
+    try:
+        rows = _bl("GET", f"/citation-builder/{campaign_id}/packages").get(
+            "data") or []
+        for r in rows:
+            if r.get("package_name") == package:
+                comp = r.get("components") or {}
+                return (int((comp.get("duplicates_removal") or {})
+                            .get("credits") or 0),
+                        int((comp.get("express") or {}).get("credits") or 0),
+                        True)
+    except RuntimeError:
+        pass  # 409 "already purchased" on every bought campaign
+    return DEDUPE_CREDITS.get(package, 0), EXPRESS_CREDITS.get(package, 0), False
+
+
+def build_plan(month: int, ctx: dict, taken: set[str], bought: dict,
+               args=None) -> dict:
+    """Pure: what month N would order given what is already taken/bought.
+    args (only for the month actually being ordered) carries overrides."""
+    spec = LADDER[month]
+    notes_out: list[str] = []
+    pkg = (getattr(args, "package", None) or spec["package"])
+    if month == 1 and getattr(args, "aggregators_only", False):
+        pkg = "cb0"
+    if getattr(args, "publishers", None) is not None:
+        want = [p.strip() for p in args.publishers.split(",") if p.strip()]
+    elif getattr(args, "no_aggregators", False):
+        want = []
+    else:
+        want = list(spec["publishers"])
+    pubs = []
+    for p in want:
+        if p in bought:
+            notes_out.append(f"aggregator {p} already bought (expires "
+                             f"{bought[p] or '?'}) — NOT re-buying")
+        elif ctx["hide_address"] and p in VISIBLE_ADDRESS_ONLY_PUBS:
+            notes_out.append(f"aggregator {p} skipped: address-hidden opt-out "
+                             "(needs a visible street address)")
+        elif not (ctx["pub_by_id"].get(p) or {}):
+            notes_out.append(f"aggregator {p} not offered for this campaign")
+        else:
+            pubs.append(p)
+    if month > 1:
+        missing_trio = [p for p in LADDER[1]["publishers"] if p not in bought]
+        if missing_trio and getattr(args, "publishers", None) is None:
+            notes_out.append("month-1 aggregators never bought for this "
+                             f"client: {', '.join(missing_trio)} (legacy "
+                             "order) — add via --publishers if wanted")
+    n = 0 if pkg == "cb0" else int(pkg[2:])
+    picks, skipped = pick_citations(ctx["menu"], n, taken,
+                                    allow_non_sab=not ctx["sab_only"],
+                                    bl_order=ctx["bl_order"])
+    pub_cr, pub_base, disc = _pub_credits(pubs, ctx["pinfo"])
+    dd_cr, ex_cr, live = _surcharges(ctx["campaign_id"], pkg)
+    ex_cr = ex_cr if getattr(args, "express", False) else 0
+    total = n + pub_cr + dd_cr + ex_cr
+    return {"month": month, "package": pkg, "n": n, "picks": picks,
+            "skipped": skipped, "publishers": pubs, "pub_credits": pub_cr,
+            "pub_base": pub_base, "discount": disc, "dedupe_credits": dd_cr,
+            "express_credits": ex_cr, "surcharge_live": live,
+            "total": total, "usd": round(total * CREDIT_USD, 2),
+            "notes": notes_out, "short": len(picks) < n}
+
+
+def _print_plan(plan: dict, title: str) -> None:
+    m = plan["month"]
+    print(f"  --- {title}: month {m} ({LADDER[m]['label']}) ---")
+    print(f"  package: {plan['package']}"
+          + (" (aggregators only, no directories)" if plan["package"] == "cb0"
+             else f" -> {plan['n']} directories"))
+    for i, (d, da, score) in enumerate(plan["picks"], 1):
+        tag = (" [home-svc]" if d in HOME_SERVICES_DOMAINS else "")
+        print(f"    {i:2}. {d:32} DA {da:3}  score {score:3}{tag}")
+    if plan["short"]:
+        print(f"    !! only {len(plan['picks'])} eligible directories for "
+              f"{plan['n']} — drop the package size")
+    for k, v in plan["skipped"].items():
+        if v:
+            print(f"    skipped {k}: {', '.join(sorted(set(v)))}")
+    print(f"  aggregators: {', '.join(plan['publishers']) or 'none'}"
+          + ((f" ({plan['pub_base']} cr, -{plan['discount']}% ladder = "
+              f"{plan['pub_credits']} cr)" if plan["discount"]
+              else f" ({plan['pub_credits']} cr)")
+             if plan["publishers"] else ""))
+    for note in plan["notes"]:
+        print(f"    note: {note}")
+    print(f"  credits: {plan['n']} directories + {plan['pub_credits']} "
+          f"aggregators + {plan['dedupe_credits']} duplicate-removal"
+          + ("" if plan["surcharge_live"] else " (table est.)")
+          + (f" + {plan['express_credits']} express"
+             if plan["express_credits"] else "")
+          + f" = {plan['total']} credits = ${plan['usd']:.2f} "
+          f"@ ${CREDIT_USD:.2f}/cr")
+
+
+def _pre_spend_location_sync(slug: str, bl: dict, why: str,
+                             apply: bool) -> None:
+    """SYSTEM enrichment (Santino 2026-09-16) + NAME FINAL flip: every order
+    self-enriches the BL location (description, services, socials,
+    contact) and, when the rename gate cleared on NAME FINAL, sets the
+    location's business_name to the chosen string (house sequence: DBA ->
+    citations -> ONE GBP change). apply=False only reports."""
+    try:
+        print("  " + enrich_location(slug, apply=apply))
+    except Exception as e:  # noqa: BLE001 — never blocks an order
         print(f"  (enrich warn: {str(e)[:80]})")
+    if "NAME FINAL" not in why or not bl.get("location_id"):
+        return
+    m = re.search(r"NAME FINAL: '([^']+)'", why)
+    if not m:
+        return
+    new_name = m.group(1)
+    # BrightLocal hard-caps business_name at 90 chars (Kenny 2026-09-19:
+    # his 94-char chosen name 400'd the whole order). Trim at a word
+    # boundary; the full string stays canonical everywhere else.
+    if len(new_name) > 90:
+        cut = new_name[:90]
+        cut = cut[:cut.rfind(" ")].rstrip(" ,;-&")
+        print(f"  NAME >90 chars for directories — trimmed to {cut!r} "
+              f"({len(cut)})")
+        new_name = cut
+    loc = _bl("GET", f"/locations/{bl['location_id']}")
+    cur = ((loc.get("location") or loc) or {}).get("business_name") or ""
+    if cur.strip().lower() == new_name.strip().lower():
+        return
+    if apply:
+        _bl("PUT", f"/locations/{bl['location_id']}",
+            {"business_name": new_name})
+        print(f"  BL location name updated: {cur!r} -> {new_name!r}")
+    else:
+        print(f"  would update BL location name: {cur!r} -> {new_name!r}")
+
+
+def cmd_order(args) -> int:
+    slug, month = args.slug, args.month
+    confirm = bool(args.confirm)
+    if args.package and args.package not in PACKAGES + ("cb0",):
+        print(f"package must be one of {PACKAGES + ('cb0',)}")
+        return 1
+    print(f"[{slug}] ORDER month {month} — "
+          + ("CONFIRM: credits WILL be spent" if confirm
+             else "DRY-RUN: nothing is ordered (add --confirm to spend)"))
+    blockers: list[str] = []
+    ok, why = rename_gate(slug)
+    print(f"  rename gate: {'CLEAR' if ok else 'BLOCKED'} — {why}")
+    if not ok:
+        blockers.append("rename gate")
     c = load_client(slug)
     bl = c.get("brightlocal") or {}
-    # NAME FINAL but GBP not yet renamed: the citations must print the NEW
-    # name — flip the BrightLocal location's business_name to the chosen
-    # string before a single credit is spent (house sequence: DBA ->
-    # citations -> ONE GBP change).
-    if "NAME FINAL" in why and bl.get("location_id"):
-        m = re.search(r"NAME FINAL: '([^']+)'", why)
-        if m:
-            new_name = m.group(1)
-            # BrightLocal hard-caps business_name at 90 chars (Kenny
-            # 2026-09-19: his 94-char chosen name 400'd the whole order).
-            # Trim at a word boundary and say so loudly — the directories
-            # carry the closest printable variant of the DBA name; the
-            # full string stays canonical everywhere else.
-            if len(new_name) > 90:
-                cut = new_name[:90]
-                cut = cut[:cut.rfind(" ")].rstrip(" ,;-&")
-                print(f"  NAME >90 chars for directories — trimmed to "
-                      f"{cut!r} ({len(cut)})")
-                new_name = cut
-            loc = _bl("GET", f"/locations/{bl['location_id']}")
-            cur = ((loc.get("location") or loc) or {}).get("business_name") or ""
-            if cur.strip().lower() != new_name.strip().lower():
-                _bl("PUT", f"/locations/{bl['location_id']}",
-                    {"business_name": new_name})
-                print(f"  BL location name updated: {cur!r} -> {new_name!r}")
     if not bl.get("campaign_id"):
         print(f"[{slug}] no campaign — run setup first")
         return 1
-    if bl.get("ordered_at"):
-        print(f"[{slug}] already ordered {bl.get('package_id')} at "
-              f"{bl['ordered_at']} — top-ups need the secondary-campaign "
-              "flow (unwired); refusing")
+    # Location sync (enrich + final-name flip) is REPORTED here and only
+    # APPLIED after every blocker has cleared, right before the spend.
+    _pre_spend_location_sync(slug, bl, why if ok else "", apply=False)
+    lad = ladder_state(bl)
+    if str(month) in lad:
+        e = lad[str(month)]
+        print(f"[{slug}] month {month} already ordered {e.get('package_id')} "
+              f"at {e.get('ordered_at')} — refusing (never re-order a month)")
         return 1
-    cid = bl["campaign_id"]
-    detail = _bl("GET", f"/citation-builder/{cid}")
-    if detail.get("lookup_status") != "complete":
-        print(f"[{slug}] citation lookup still "
-              f"{detail.get('lookup_status')} — try again in a few minutes")
+    camp_id = bl["campaign_id"]
+    facts = campaign_facts(camp_id)
+    detail = facts["detail"]
+    primary_paid = any(o.get("paid") for o in facts["orders"])
+    if month == 1 and primary_paid:
+        print(f"[{slug}] the campaign already holds a paid order but the "
+              f"ladder has no month 1 — reconcile clients/{slug}.json first")
         return 1
+    if month == 1 and detail.get("lookup_status") != "complete":
+        blockers.append(f"citation lookup still {detail.get('lookup_status')}")
+    try:
+        loc = _bl("GET", f"/locations/{bl['location_id']}")
+        loc = loc.get("location") or loc
+    except RuntimeError:
+        loc = {}
+    hide = hide_address_optout(slug)
+    pinfo = _bl("GET", f"/citation-builder/{camp_id}/publishers")
+    menu = _bl("GET", f"/citation-builder/{camp_id}/citations").get("data") or []
+    ctx = {"menu": menu, "pinfo": pinfo, "campaign_id": camp_id,
+           "pub_by_id": {p["id"]: p for p in (pinfo.get("publishers") or [])},
+           "hide_address": hide,
+           "sab_only": hide or bool(loc.get("is_service_area_business")),
+           "bl_order": not args.pick_top}
+    known = known_listing_domains(slug)
+    taken = set(facts["ordered_domains"]) | known
+    for e in lad.values():
+        taken.update(_norm_domain(d) for d in (e.get("citations") or []))
+    bought = dict(facts["bought_pubs"])
+    for e in lad.values():
+        for p in e.get("publishers") or []:
+            bought.setdefault(p, "")
+    print(f"  address: {'HIDDEN (plan-input opt-out)' if hide else 'VISIBLE'}"
+          f" | BL location SAB flag: {loc.get('is_service_area_business')}")
+    print(f"  already ordered on BL: {len(facts['ordered_domains'])} "
+          f"directories, aggregators {sorted(bought) or 'none'}; "
+          f"{len(known)} listing domains on file (dedupe)")
+    # Earlier months not yet ordered: dry-run projects them first so the
+    # target month is shown net of them; --confirm refuses.
+    for prev in range(1, month):
+        if str(prev) in lad:
+            continue
+        blockers.append(f"month {prev} not ordered yet")
+        pplan = build_plan(prev, ctx, taken, bought)
+        _print_plan(pplan, "PROJECTED prerequisite (not ordered)")
+        taken.update(d for d, _da, _s in pplan["picks"])
+        bought.update({p: "(projected)" for p in pplan["publishers"]})
+    if month > 1:
+        last = next((o for o in reversed(facts["orders"]) if o.get("paid")),
+                    None)
+        st = (last or {}).get("status")
+        if st not in COMPLETED_STATUSES:
+            blockers.append(
+                f"previous BL order {(last or {}).get('campaign_id')} is "
+                f"'{st}' (est. completion "
+                f"{((last or {}).get('dates') or {}).get('completion_date')})"
+                " — BL only allows a secondary campaign once it completes")
+    plan = build_plan(month, ctx, taken, bought, args)
+    _print_plan(plan, "THIS ORDER")
     bal = credits()
-    cost = int(args.package[2:])
-    # A3 (Santino 2026-09-16): data-aggregator submissions ride EVERY order
-    # by default — Data Axle, Neustar/Localeze and YP Network push the (new)
-    # NAP into the feeds Google and the directories cross-check: the deepest
-    # layer of the rename evidence stack, and the first thing that
-    # propagates a DBA beyond the sites we hand-pick. SAB-supported only:
-    # Foursquare and GPS Network are not, and this fleet is service-area
-    # businesses with hidden addresses. 15 credits each, ladder discount
-    # from 3 up. --no-aggregators opts out; --publishers overrides.
-    pinfo = _bl("GET", f"/citation-builder/{cid}/publishers")
-    by_id = {p["id"]: p for p in (pinfo.get("publishers") or [])}
-    if args.publishers is not None:
-        pubs = [p.strip() for p in args.publishers.split(",") if p.strip()]
-        not_sab = [p for p in pubs
-                   if not (by_id.get(p) or {}).get("is_sab_supported")]
-        if not_sab:
-            print(f"  WARNING: not SAB-supported: {', '.join(not_sab)}")
-    elif args.no_aggregators:
-        pubs = []
-    else:
-        pubs = [p for p in ("dataaxle", "neustar", "ypnetwork")
-                if (by_id.get(p) or {}).get("is_sab_supported")]
-    pub_credits = sum((by_id.get(p) or {}).get("credits") or 15 for p in pubs)
-    disc = max((d["discount"] for d in (pinfo.get("discount_ladder") or [])
-                if len(pubs) >= d["count"]), default=0)
-    total = cost + pub_credits
-    print(f"[{slug}] campaign {cid}: ordering {args.package} "
-          f"({cost} credits)"
-          + (f" + aggregators {'+'.join(pubs)} ({pub_credits} credits"
-             + (f", -{disc}% ladder" if disc else "") + ")" if pubs else "")
-          + f" | {total} of {bal} available"
-          + (" EXPRESS" if args.express else ""))
-    if bal < total:
-        print("  insufficient credits — refusing")
+    print(f"  balance: {bal} credits -> {bal - plan['total']} after")
+    if bal < plan["total"]:
+        blockers.append("insufficient credits")
+    if plan["short"]:
+        blockers.append("not enough eligible directories")
+    if plan["total"] == 0:
+        blockers.append("nothing to order")
+    citations_out = [d for d, _da, _s in plan["picks"]]
+    body = {"package_id": plan["package"], "auto_select": False,
+            "citations": citations_out, "publishers": plan["publishers"],
+            # rebuild §2: always on for directory packages (+~20% credits,
+            # BL finds+suppresses duplicate listings on the ordered sites).
+            # cb0 has no directories to dedupe (no surcharge component).
+            "remove_duplicates": plan["package"] != "cb0",
+            "express": bool(args.express),
+            "notes": order_notes(hide)}
+    endpoint = (f"PUT /citation-builder/{camp_id}/confirm" if month == 1
+                else f"POST /citation-builder/{camp_id}/secondary-campaigns")
+    print(f"  would call: {endpoint}")
+    print(f"  remove_duplicates={body['remove_duplicates']} | notes: "
+          f"{body['notes']}")
+    if blockers:
+        print(f"  BLOCKERS: {'; '.join(blockers)}")
+    if not confirm:
+        print("  [dry-run] nothing ordered. Re-run with --confirm once this "
+              "month is approved.")
+        return 0 if not blockers else 2
+    if blockers:
+        print("  refusing to spend")
         return 1
-    if not args.apply:
-        print("  [dry-run] would confirm with credits")
-        return 0
-    picked: list[str] = []
-    # NEVER submit google.com through Citation Builder (Santino 2026-09-19:
-    # "definitely exclude Google"). We hold owner access + API write on every
-    # client's GBP and execute the rename ourselves — BL's Google line only
-    # adds an owner-verification chore for a surface we already control.
-    # yelp.com stays IN pending Santino's separate call on it.
-    pick_exclude = {"google.com"}
-    if args.pick_top:
-        # Hand-pick: highest domain-authority SAB-supported sites first
-        # (Santino 2026-09-03: we choose the sources, not their picker)
-        avail = _bl("GET", f"/citation-builder/{cid}/citations").get("data") or []
-        ranked = sorted(
-            (a for a in avail if a.get("is_sab_supported") is not False
-             and a.get("domain") not in pick_exclude),
-            key=lambda a: -(a.get("domain_authority") or 0))
-        picked = [a["domain"] for a in ranked[:cost]]
-        print(f"  hand-picked top {len(picked)} by DA: "
-              + ", ".join(picked[:8]) + (" ..." if len(picked) > 8 else ""))
-        if len(picked) < cost:
-            print(f"  only {len(picked)} SAB-suitable sites available — "
-                  "refusing (drop the package size)")
-            return 1
-    _bl("PUT", f"/citation-builder/{cid}/confirm", {
-        "package_id": args.package, "auto_select": not picked,
-        "citations": picked, "publishers": pubs,
-        "remove_duplicates": False, "express": bool(args.express),
-        "notes": "Service-area business (SAB): hide the street address on "
-                 "directories where possible.",
-    })
-    after = _bl("GET", f"/citation-builder/{cid}")["campaigns"][0]
-    print(f"  paid: {after['paid']} | ordered: {after['citations_ordered']} "
-          f"| credits left: {credits()}")
-    bl["ordered_at"] = datetime.now(timezone.utc).isoformat()
-    bl["package_id"] = args.package
-    bl["publishers"] = pubs
+    _assert_clean(citations_out)
+    _pre_spend_location_sync(slug, bl, why, apply=True)
+    before = {str(o.get("campaign_id")) for o in facts["orders"]}
+    if month == 1:
+        res = _bl("PUT", f"/citation-builder/{camp_id}/confirm", body)
+    else:
+        res = _bl("POST", f"/citation-builder/{camp_id}/secondary-campaigns",
+                  body)
+    after = campaign_facts(camp_id)
+    new = [o for o in after["orders"] if str(o.get("campaign_id")) not in before]
+    order = (new or after["orders"][:1])[0] if after["orders"] else {}
+    left = credits()
+    print(f"  paid: {order.get('paid')} | order {order.get('campaign_id')} "
+          f"| ordered: {order.get('citations_ordered')} | credits left: {left}"
+          f" (spent {bal - left})")
+    now = datetime.now(timezone.utc).isoformat()
+    lad[str(month)] = {
+        "ordered_at": now, "package_id": plan["package"],
+        "citations": citations_out, "publishers": plan["publishers"],
+        "credits_est": plan["total"], "credits_spent": bal - left,
+        "usd": round((bal - left) * CREDIT_USD, 2),
+        "campaign_id": str(order.get("campaign_id") or camp_id),
+        "parent_campaign_id": str(camp_id),
+        "remove_duplicates": body["remove_duplicates"],
+        "express": body["express"],
+        "response": res if isinstance(res, dict) and len(str(res)) < 800
+        else str(res)[:800],
+    }
+    bl["ladder"] = {k: v for k, v in lad.items()}
+    bl["ladder_month"] = month
+    bl["last_ordered_at"] = now
+    if month == 1:  # legacy keys other scripts read (watchdog, rename)
+        bl["ordered_at"] = now
+        bl["package_id"] = plan["package"]
+        bl["publishers"] = plan["publishers"]
     c["brightlocal"] = bl
     save_client(slug, c)
     cid = _company_id(slug)
     if cid:
+        try:
+            _merge_citations_meta(cid, lambda md: md.__setitem__(
+                "bl_ladder", bl["ladder"]))
+        except Exception as e:  # noqa: BLE001
+            print(f"  (bl_ladder meta mirror failed: {str(e)[:80]})")
+        parts = []
+        if plan["n"]:
+            parts.append(f"{plan['n']} new business listings")
+        if plan["publishers"]:
+            parts.append(f"{len(plan['publishers'])} data-aggregator "
+                         "submissions (the feeds maps and directories copy)")
         _work_log(cid, "citations-building",
-                  f"Building {cost} new business listings for your company. "
-                  "Each one will be listed here and in your Listings view "
-                  "as it goes live over the next few weeks",
-                  {"campaign_id": bl["campaign_id"],
-                   "package_id": args.package, "credits_spent": cost})
+                  f"Building {' and '.join(parts)} for your company. Each "
+                  "one will be listed here and in your Listings view as it "
+                  "goes live over the next few weeks",
+                  {"campaign_id": camp_id, "ladder_month": month,
+                   "package_id": plan["package"],
+                   "publishers": plan["publishers"],
+                   "credits_spent": bal - left})
     return 0
-
 
 
 def _sb_req(method: str, path: str, body=None, prefer="return=representation"):
@@ -541,17 +965,20 @@ def cmd_sync(_args) -> int:
         slug = f.stem
         cid = _company_id(slug)
         d = _bl("GET", f"/citation-builder/{bl['campaign_id']}")
-        camp = d["campaigns"][0]
         synced = set(bl.get("synced_live") or [])
         ordered_rows, new_live = [], []
-        for cit in camp.get("citations") or []:
+        # primary + every secondary (ladder months 2/3) order
+        all_cits = [cit for camp in (d.get("campaigns") or [])
+                    for cit in (camp.get("citations") or [])]
+        for cit in all_cits:
             if not isinstance(cit, dict):
                 continue
             domain = cit.get("domain") or cit.get("site")
             if not domain:
                 continue
             status = str(cit.get("status") or "").lower()
-            url = cit.get("url") or cit.get("live_url") or ""
+            url = (cit.get("profile_url") or cit.get("url")
+                   or cit.get("live_url") or "")
             ordered_rows.append({"domain": domain, "status": status,
                                  "url": url})
             if status in ("live", "updated") and domain not in synced:
@@ -816,11 +1243,12 @@ def cmd_status(args) -> int:
         if args.slug and f.stem != args.slug:
             continue
         d = _bl("GET", f"/citation-builder/{bl['campaign_id']}")
-        camp = d["campaigns"][0]
-        s = camp["citations_submission_status"]
-        print(f"{f.stem:42} {camp['status']:8} "
-              f"ordered={s['ordered']} submitted={s['submitted']} "
-              f"pending={s['pending']} live={s['live']}")
+        for camp in d.get("campaigns") or []:
+            s = camp.get("citations_submission_status") or {}
+            print(f"{f.stem:42} {camp.get('campaign_id')!s:8} "
+                  f"{camp.get('status')!s:8} "
+                  f"ordered={s.get('ordered')} submitted={s.get('submitted')} "
+                  f"pending={s.get('pending')} live={s.get('live')}")
     return 0
 
 
@@ -836,10 +1264,13 @@ def cmd_audit(_args) -> int:
             continue
         bl = c.get("brightlocal") or {}
         nap_ok = nap_for(f.stem, c) is not None
+        lad = ladder_state(bl)
         rows.append((f.stem, nap_ok, bl.get("location_id"),
-                     bl.get("campaign_id"), bl.get("package_id")))
+                     bl.get("campaign_id"),
+                     "+".join(f"m{k}:{v.get('package_id')}"
+                              for k, v in sorted(lad.items()))))
     for slug, nap_ok, loc, camp, pkg in rows:
-        state = (f"ordered {pkg}" if pkg else "campaign ready" if camp
+        state = (f"ladder {pkg}" if pkg else "campaign ready" if camp
                  else "location only" if loc
                  else "NAP ready" if nap_ok else "NAP INCOMPLETE")
         print(f"  {slug:44} {state}")
@@ -855,22 +1286,34 @@ def main() -> int:
     ps.add_argument("--apply", action="store_true")
     po = sub.add_parser("order")
     po.add_argument("--slug", required=True)
-    po.add_argument("--package", required=True)
+    po.add_argument("--month", type=int, required=True, choices=(1, 2, 3),
+                    help="ladder month: 1 = primary order (aggregator trio "
+                         "+ cb10), 2 = secondary (foursquare+gpsnetwork + "
+                         "cb10), 3 = secondary (cb25 top-off)")
+    po.add_argument("--package", default=None,
+                    help="override the month's default package (cb10/cb25/"
+                         "...; cb0 = aggregators only)")
+    po.add_argument("--aggregators-only", action="store_true",
+                    help="month 1 only: cb0 package, the aggregator trio "
+                         "with no directories")
     po.add_argument("--express", action="store_true")
-    # DEFAULT is hand-pick (Santino 2026-09-13: "we choose the sources" —
-    # BL's auto-select must never run by accident; opting into it takes an
-    # explicit flag).
+    # DEFAULT is hand-pick (Santino 2026-09-13: "we choose the sources").
+    # BL's auto_select is NEVER sent: --let-bl-pick takes BL's own menu
+    # order but still passes an explicit, exclusion-filtered list.
     po.add_argument("--pick-top", action="store_true", default=True,
-                    help="hand-pick highest-DA SAB sites (DEFAULT)")
+                    help="hand-pick by DA + home-services/local bonus "
+                         "(DEFAULT)")
     po.add_argument("--let-bl-pick", dest="pick_top", action="store_false",
-                    help="let BrightLocal auto-select the sites instead")
+                    help="use BrightLocal's menu order (exclusions, junk "
+                         "list and dedupe still apply)")
     po.add_argument("--publishers", default=None,
-                    help="comma list overriding the aggregator default "
-                         "(dataaxle,neustar,ypnetwork); see also "
-                         "--no-aggregators")
+                    help="comma list overriding the month's aggregators "
+                         "(already-bought ones are still never re-bought)")
     po.add_argument("--no-aggregators", action="store_true",
-                    help="order citations only, skip aggregator submissions")
-    po.add_argument("--apply", action="store_true")
+                    help="skip the month's aggregator submissions")
+    # FREEZE GUARD: dry-run is the default; spending needs --confirm.
+    po.add_argument("--confirm", action="store_true",
+                    help="actually place the order and spend credits")
     pt = sub.add_parser("status")
     pt.add_argument("--slug")
     sub.add_parser("sync")
