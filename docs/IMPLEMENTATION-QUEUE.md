@@ -294,3 +294,13 @@ Build outline (merge with queue 17's gates where natural):
 6. TEMPLATES BECOME SKELETONS: fixed bodies (confirm/re-ask/decline) become required elements the composer extends; string-bound exact-name law unchanged.
 
 Current Greg state needing human-directed repair: stage=awaiting_dba on a hedged consent; owed answers on hoarding volume + mold-weighting; booked-calls dispute unaddressed (also FOR SANTINO: he is disputing that the 2 "booked" calls were new business).
+
+## 20. NEXT SYSTEM: AI-answer citations + awards + Facebook posting (QUEUED 2026-09-27, Santino: "cue and keep in mind")
+Source: 5 James Ranks videos (0Rij_qPK4DA, KgouhWFQR6o, WO0ZBXMP3mk, 0QIpI9ODeQw, nMlnn9KQUOY; transcripts reviewed 09-27). The one Santino remembered is **nMlnn9KQUOY 2:20-3:13**: Google AI Mode listed an awards page (qualitybusinessawards.com "#1 Best Air Duct Cleaning in Enid") and the business's own Facebook PAGE post as sources; ChatGPT leaned on BBB + Angi; Gemini on the GBP. Evidence is single-query, small-town, brand-name-match, no before/after (seller channel), so treat as hypotheses to TEST with our own ai_search_scan.py before/after.
+Build (legit tactics only):
+1. **Per-engine AI source tracking**: extend ai_search_scan.py to store cited SOURCE domains per engine per client; report which citation gaps (BBB, Angi, Yelp, Birdeye, Bark, MapQuest, YP, LinkedIn) block each engine. Feeds the citations ladder priorities.
+2. **Awards lane**: discover existing award pages naming the client (brand search + backlink scan; e.g. Desert Valley's BusinessRate "Best of 2026"), add each to the site's sameAs schema + an awards badge. Pursue REAL awards (Angi Super Service, BBB Torch, Nextdoor Neighborhood Faves, local "Best of [City]" reader polls, chamber awards). Pay-to-verify vanity awards: client's choice, low priority.
+3. **Facebook page connect + organic posting**: "Connect your Facebook Page" in the app (Meta Pages API), then auto-post the same way as GBP posts/YouTube (city x service Q&A posts, project photos). Measure with the AI scan whether page posts get cited. Group posting is NOT in the videos; if ever done, only genuine answers by the owner's own account, never astroturf.
+4. **Press releases for AI**: API vendor (PRNow has API + white label; 38 Digital has none). Releases about REAL news (awards won, projects, hires). Test: one DoFollow + one Standard for one client, AI scan before/after.
+5. **sameAs everywhere**: every live citation + award URL in site schema (cheap, legit).
+NEVER (flagged in the videos): fake/friend reviews (FTC 2024 rule), taking over dead businesses' GBPs, building our own award sites or self-crowning "#1" releases (fake third-party endorsement), link blasts / spun content / parasite Web 2.0s.
