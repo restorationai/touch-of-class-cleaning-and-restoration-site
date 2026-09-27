@@ -23,6 +23,7 @@
   run report per directory batch; end-of-day DAILY with per-directory
   counts (attempted / created / claimed / parked / blocked).
   → PROGRESS (mini 14:17 PDT): scope = 6 settled-name clients (rename_gate CLEAR). Live today: ContractorsRanked DV + Heritage, Nextdoor Heritage + Dry Bros pages (unverified), chamber Frontline CLAIMED 2026065654 + NAP edited; Expertise applied Heritage + Dry Bros. Parked: Houzz (50-char name cap Need), chamber Dry Bros (captcha reset). Blocked: BBB (403 bot score), yellowpagesdirectory ($89.95/yr), Apple Business Connect (storefront-only), Porch (closed). Caps hit: HomeGuide, ContractorsRanked, Nextdoor, Expertise. Waiting on the Houzz answer.
+  → WRAP (mini 15:28 PDT): Houzz answer did not arrive before the 15:40 presence window closed; Houzz NOT run. All other lanes are capped or blocked for today; blitz ended. Per-directory counts are in DAILY-2026-09-27.md.
 
 - [ ] **APPLE PODCASTS CONNECT TEST — narestco (NO LONGER SUPERVISED as of
   14:05 PT 09-27: the only reason was the 2FA code, which you now fetch with
