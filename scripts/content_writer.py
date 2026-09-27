@@ -56,7 +56,7 @@ TEMPLATES_DIR = REPO_ROOT / "templates"
 CONTENT_WRITER_PROMPT_REL = "prompts/content-writer.md"
 
 ANTHROPIC_API = "https://api.anthropic.com/v1/messages"
-ANTHROPIC_MODEL = "claude-sonnet-4-6"
+ANTHROPIC_MODEL = "claude-sonnet-5"
 
 GEMINI_API_BASE = "https://generativelanguage.googleapis.com/v1beta/models"
 GEMINI_PRO_MODEL = "gemini-3-pro-image-preview"      # Nano Banana Pro

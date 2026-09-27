@@ -64,7 +64,7 @@ SB_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
 TABLE = "marketing_press_releases"
 
 ANTHROPIC_API = "https://api.anthropic.com/v1/messages"
-ANTHROPIC_MODEL = "claude-sonnet-4-6"
+ANTHROPIC_MODEL = "claude-sonnet-5"
 
 MAX_ATTEMPTS = 3          # generation attempts before refusing to save
 # 300 floor: brand-new clients have thin truth tables — an honest 300-word

@@ -50,7 +50,7 @@ G_SECRET = os.environ.get("GOOGLE_OAUTH_CLIENT_SECRET", "")
 DFS_USER = os.environ.get("DATAFORSEO_USERNAME") or os.environ.get("DATAFORSEO_LOGIN", "")
 DFS_PASS = os.environ.get("DATAFORSEO_PASSWORD", "")
 ANTHROPIC_API = "https://api.anthropic.com/v1/messages"
-ANTHROPIC_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-4-6")
+ANTHROPIC_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5")
 GBP_RULES = ROOT / "GBP" / "rank-ai-gbp-best-practices.md"
 
 # Performance API daily metric -> marketing_gbp_daily column

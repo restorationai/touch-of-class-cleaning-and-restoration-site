@@ -46,7 +46,7 @@ REPO_ROOT = SCRIPT_DIR.parent
 CLIENTS_DIR = REPO_ROOT / "clients"
 
 ANTHROPIC_API = "https://api.anthropic.com/v1/messages"
-ANTHROPIC_MODEL = "claude-sonnet-4-6"
+ANTHROPIC_MODEL = "claude-sonnet-5"
 
 ADS_SCOPES = ["https://www.googleapis.com/auth/adwords"]
 

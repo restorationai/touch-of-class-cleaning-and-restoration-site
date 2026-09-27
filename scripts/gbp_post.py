@@ -21,7 +21,7 @@ import gbp
 
 GBP_V4 = "https://mybusiness.googleapis.com/v4"
 ANTHROPIC_API = "https://api.anthropic.com/v1/messages"
-ANTHROPIC_MODEL = "claude-sonnet-4-6"
+ANTHROPIC_MODEL = "claude-sonnet-5"
 
 
 def _resolve(slug):

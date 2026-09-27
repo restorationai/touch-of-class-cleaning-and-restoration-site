@@ -1278,7 +1278,7 @@ def cf_creds() -> tuple[str, str]:
 # ----------------------------------------------------------------------------
 
 ANTHROPIC_API = "https://api.anthropic.com/v1/messages"
-ANTHROPIC_DEFAULT_MODEL = "claude-sonnet-4-6"
+ANTHROPIC_DEFAULT_MODEL = "claude-sonnet-5"
 
 
 def scrub_em_dashes(text: str) -> str:

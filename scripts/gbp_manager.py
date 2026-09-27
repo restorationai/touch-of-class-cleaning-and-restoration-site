@@ -39,7 +39,7 @@ CLIENTS_DIR = REPO_ROOT / "clients"
 SITES_DIR = REPO_ROOT / "sites"
 
 ANTHROPIC_API = "https://api.anthropic.com/v1/messages"
-ANTHROPIC_MODEL = "claude-sonnet-4-6"
+ANTHROPIC_MODEL = "claude-sonnet-5"
 
 # Google Business Profile APIs
 ACCOUNT_MGMT_API = "https://mybusinessaccountmanagement.googleapis.com/v1"

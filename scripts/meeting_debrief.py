@@ -45,7 +45,7 @@ SB_URL = os.environ.get("SUPABASE_URL", "").rstrip("/")
 SB_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
 FATHOM = os.environ.get("FATHOM_API_KEY", "")
 ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
-MODEL = "claude-sonnet-4-6"
+MODEL = "claude-sonnet-5"
 CURSOR_KEY = "meeting_debrief_cursor"
 
 

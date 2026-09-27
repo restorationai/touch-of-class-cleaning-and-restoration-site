@@ -52,7 +52,7 @@ KEY = (os.environ.get("SUPABASE_SERVICE_ROLE_KEY")
 HDR = {"apikey": KEY, "Authorization": f"Bearer {KEY}",
        "Content-Type": "application/json"}
 ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
-MODEL = "claude-sonnet-4-6"
+MODEL = "claude-sonnet-5"
 
 
 def _get(path: str):

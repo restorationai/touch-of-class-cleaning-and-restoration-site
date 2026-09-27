@@ -46,7 +46,7 @@ import requests  # noqa: E402
 import claims_lint  # noqa: E402
 
 API = "https://api.anthropic.com/v1/messages"
-MODEL = os.environ.get("RANKAI_RENDER_MODEL", "claude-sonnet-4-6")
+MODEL = os.environ.get("RANKAI_RENDER_MODEL", "claude-sonnet-5")
 
 # Question-type rotation — the seed picks a SUBSET so sibling pages ask
 # different things (the uniqueness rule applies to FAQs too).

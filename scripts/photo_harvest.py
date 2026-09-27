@@ -92,7 +92,7 @@ import gbp  # noqa: E402  — company_id_for, get_access_token, find_location, _
 SB_URL = os.environ.get("SUPABASE_URL", "").rstrip("/")
 SB_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
 ANTHROPIC_API = "https://api.anthropic.com/v1/messages"
-VISION_MODEL = os.environ.get("PHOTO_TRIAGE_MODEL", "claude-sonnet-4-6")
+VISION_MODEL = os.environ.get("PHOTO_TRIAGE_MODEL", "claude-sonnet-5")
 
 BUCKET = "branding"
 WEB_PREFIX = "site-assets/web"        # never read by gbp_post / gbp_photos

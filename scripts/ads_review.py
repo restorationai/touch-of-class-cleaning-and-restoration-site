@@ -42,7 +42,7 @@ import ads_manager as am  # noqa: E402  (build_ads_client, gaql, get_customer_id
 
 DEFAULT_TO = "contact@restorationai.io"
 ANTHROPIC_API = "https://api.anthropic.com/v1/messages"
-ANTHROPIC_MODEL = "claude-sonnet-4-6"
+ANTHROPIC_MODEL = "claude-sonnet-5"
 B6_FILE = ROOT / "Ads" / "universal-negative-keywords.md"
 
 

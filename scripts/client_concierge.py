@@ -202,7 +202,9 @@ COMPANY_MAP_PATH = ROOT / "clients" / "company_map.json"
 GHL_BASE = "https://services.leadconnectorhq.com"
 GHL_VERSION = "2021-07-28"
 ANTHROPIC_API = "https://api.anthropic.com/v1/messages"
-ANTHROPIC_MODEL = "claude-sonnet-5"
+# Opus 5.5 (Santino 2026-09-27): Monica's compose + intent/topic reads are
+# where the judgment failures happened (Sarah/Greg conflation); upgraded.
+ANTHROPIC_MODEL = "claude-opus-5-5"
 UA = "rank-ai-client-concierge/1.0"
 
 # Client-facing persona (Santino 2026-07-13): a named human assistant, and

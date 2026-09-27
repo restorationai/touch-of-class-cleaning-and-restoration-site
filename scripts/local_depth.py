@@ -67,7 +67,7 @@ from claims_lint import load_truth, lint_text  # noqa: E402
 # Model config
 # ----------------------------------------------------------------------------
 
-MODEL = "claude-opus-5"
+MODEL = "claude-opus-5-5"
 EFFORT = "medium"
 MAX_TOKENS = 6000
 
