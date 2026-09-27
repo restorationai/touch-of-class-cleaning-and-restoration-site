@@ -61,12 +61,12 @@
     "starter_version": "0.1.0",
     "url_count": 204,
     "pages_status": "local-only",
-    "last_rendered_at": "2026-09-26T14:31:48.129464+00:00",
+    "last_rendered_at": "2026-09-27T15:10:42.871513+00:00",
     "github_repo": "restorationai/all-pro-plumbing-site",
     "last_pushed_staging_at": "2026-09-17T23:15:02.446546+00:00",
     "last_pushed_main_at": "2026-09-26T20:06:21.403303+00:00"
   },
-  "build_status": "pushed_main",
+  "build_status": "content_rendered",
   "indexnow_key": "39ec3a0fa4c14d2f99f975c9f2f61739",
   "apex_cutover": {
     "completed_at": "2026-07-23T06:30:00+00:00"
