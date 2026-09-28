@@ -21,7 +21,7 @@ The goal is **digital real estate**: most restoration jobs come from Google (map
 |---|---|---|---|
 | 1 | **Which towns** are worth a pin (outside current reach, clustered demand) | `scripts/location_scout.py` -> table `marketing_location_scout` -> app Locations tab | BUILT (geocode guard fixed 09-27) |
 | 2 | **Which spaces** can we get in each town: flex/office suites, coworking private offices, storage units, brokers | `scripts/office_scout.py` -> table `marketing_office_scout` -> "Office options" in the Locations tab | BUILT (branch `feat/office-scout-panel`, awaiting merge) |
-| 3 | **Contacts** for each space: broker/manager name, phone (mobile vs landline), email | office_scout `--contacts` | IN PROGRESS |
+| 3 | **Contacts** for each space: broker/manager name, phone (mobile vs landline), email | office_scout `--contacts` (default on with `--apply`) -> contact columns on `marketing_office_scout` -> contact block per option in the app | BUILT 09-28 (same app branch) |
 | 4 | **Outreach** to lock an address: small monthly fee for address + mail + staging access | see "Outreach" below | TO BUILD |
 | 5 | **Name + DBA:** client files "{Brand} of {City}" | Monica asks; DBA intake already exists | Existing flow |
 | 6 | **Identity per location:** own email alias, own local Twilio number, own page on the client's site | alias routing + Twilio + site build | TO BUILD (pieces exist) |
@@ -29,6 +29,8 @@ The goal is **digital real estate**: most restoration jobs come from Google (map
 | 8 | **Create + verify the GBP** (new name applied before verification) | GBP Profile Planner (queue #21) | NEXT BUILD |
 | 9 | **Citations** under the location's DBA | `brightlocal.py` ladder + Mini lanes | BUILT (per client; per-location variant TO BUILD) |
 | 10 | **Reviews** routed per location (customers served from that town review that profile) | review reactivation + ongoing review campaigns | EXISTING (routing TO BUILD) |
+
+**Contacts (built 2026-09-28):** Google Maps options get the Maps phone plus an email from the business's own site (homepage, /contact, /contact-us, /about). CRE listings (LoopNet, Crexi, CityFeet, Showcase, CommercialCafe) block every fetcher, DataForSEO OnPage included (tested: 403 / empty), so the broker comes from Google snippets ("Contact Colliers for more information", CityFeet broker names) plus the brokerage's own property page (vCard / agent block), then one SERP on the broker's name for phone/email. Craigslist records the post as a relay link only. Twilio Lookup sets mobile/landline/voip; the app shows a Text link only for mobiles. Never invented: blank means not found. ProRestoration run (33 options): 18 phone, 10 email, 8 named broker; contacts pass $0.22 (SERP $0.09 + Twilio $0.13), whole run $0.64.
 
 ## Decisions (Santino 2026-09-27)
 

@@ -60,6 +60,12 @@ Store (only with --apply; default is a dry-run print):
    "towns": [{"town", "state", "lat", "lng", "source", "would_cover",
               "distance_from_pin_mi", "options": [...], "excluded": [...]}]}
 
+CONTACTS (2026-09-28, --contacts, default ON with --apply): who to call per
+option (listing broker / facility office): name, role, company, phone (E.164
++ Twilio line type mobile|landline|voip), email, and the page it was found on.
+See the "contacts" section below for how each source is handled; capped by
+--contacts-cap ($0.40, SERP + Twilio); fail-open per option; never invented.
+
 Usage:
   python3 scripts/office_scout.py --slug prorestoration
   python3 scripts/office_scout.py --slug prorestoration --towns "Delano, CA; Tehachapi, CA" --apply
@@ -75,6 +81,7 @@ import math
 import os
 import re
 import sys
+import threading
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
@@ -276,16 +283,22 @@ class DFS:
         u, p = gs.load_dfs_creds()
         self.auth = base64.b64encode(f"{u}:{p}".encode()).decode()
         self.cost = 0.0
+        self.cost_maps = 0.0
+        self.cost_serp = 0.0
         self.calls = 0
         self.cap = cap
         self.skipped = 0
+        self.lock = threading.Lock()   # contact enrichment calls organic() from threads
+        self.reserve = 0.0             # other spend (Twilio) counted against the same cap
 
     def organic(self, keyword: str) -> list[dict]:
         """Google organic top 10. `site:` queries bill ~5x (~$0.01)."""
         est = COST_PER_SITE_QUERY if "site:" in keyword else COST_PER_QUERY
-        if self.cost + est > self.cap + 1e-9:
-            self.skipped += 1
-            return []
+        with self.lock:
+            if self.cost + self.reserve + est > self.cap + 1e-9:
+                self.skipped += 1
+                return []
+            self.reserve += est        # held until the real cost is known
         try:
             r = requests.post(DFS_ORGANIC, timeout=120, headers={
                 "Authorization": "Basic " + self.auth, "Content-Type": "application/json"},
@@ -294,9 +307,15 @@ class DFS:
             task = (r.json().get("tasks") or [{}])[0]
         except Exception as e:  # noqa: BLE001
             print(f"  [dfs] error on '{keyword}': {str(e)[:80]}")
+            with self.lock:
+                self.reserve -= est
             return []
-        self.calls += 1
-        self.cost += float(task.get("cost") or 0)
+        with self.lock:
+            self.reserve -= est
+            self.calls += 1
+            c = float(task.get("cost") or 0)
+            self.cost += c
+            self.cost_serp += c
         items = (((task.get("result") or [{}])[0] or {}).get("items")) or []
         return [{"title": it.get("title") or "", "url": it.get("url") or "",
                  "snippet": it.get("description") or ""}
@@ -315,8 +334,11 @@ class DFS:
         except Exception as e:  # noqa: BLE001
             print(f"  [dfs] error on '{keyword}': {str(e)[:80]}")
             return []
-        self.calls += 1
-        self.cost += float(task.get("cost") or 0)
+        with self.lock:
+            self.calls += 1
+            c = float(task.get("cost") or 0)
+            self.cost += c
+            self.cost_maps += c
         return (((task.get("result") or [{}])[0] or {}).get("items")) or []
 
 
@@ -1095,6 +1117,13 @@ def render(out: dict) -> None:
                 print(f"       {o['address']}  |  {o.get('phone') or 'no phone'}  |  {rv}  |  "
                       f"{o['distance_from_town_mi']}mi from center"
                       + (f", {o['distance_from_pin_mi']}mi from pin" if o.get("distance_from_pin_mi") else ""))
+            c = o.get("contact")
+            if c is not None:
+                bits = [x for x in (c.get("contact_name"), c.get("contact_role"), c.get("company"),
+                                    (f"{c['phone_display']} [{c.get('phone_type') or '?'}]"
+                                     if c.get("phone") else None), c.get("email")) if x]
+                print(f"       contact: {' | '.join(bits) if bits and (c.get('phone') or c.get('email') or c.get('contact_name')) else 'none found'}"
+                      + (f"  (via {c['contact_source']})" if c.get("contact_source") else ""))
             print(f"       why: {o['verification_reason']}")
             print(f"       ask: {o['notes']}")
             if o.get("website"):
@@ -1109,6 +1138,724 @@ def render(out: dict) -> None:
     print(f"\n  DataForSEO: {out['dfs_calls']} queries, ${out['spend_usd']:.3f} spent "
           f"(cap ${out['cap_usd']:.2f})"
           + (f"; {out['dfs_skipped']} queries SKIPPED at the cap" if out.get("dfs_skipped") else ""))
+    cs = out.get("contacts")
+    if cs:
+        print(f"  Contacts: {cs['with_phone']}/{cs['options']} phone, {cs['with_email']}/{cs['options']} email, "
+              f"{cs['with_name']}/{cs['options']} named person; SERP {cs['serp_calls']} queries "
+              f"${cs['serp_usd']:.3f}, Twilio {cs['twilio_lookups']} lookups ${cs['twilio_usd']:.3f} "
+              f"({cs['twilio_reused']} reused), {cs['fetches']} page GETs")
+    sp = out.get("spend_breakdown") or {}
+    if sp:
+        print(f"  SPEND: Maps ${sp['maps']:.3f} + SERP ${sp['serp']:.3f} + contacts SERP "
+              f"${sp['contacts_serp']:.3f} + OnPage ${sp['onpage']:.3f} + Twilio ${sp['twilio']:.3f} "
+              f"= ${sp['total']:.3f}")
+
+
+# ------------------------------------------------------------- contacts
+# WHO TO CALL about each option (--contacts, default on with --apply). Every
+# lookup is fail-open per option and nothing is ever invented: a field we did
+# not see on a real page or SERP snippet stays null.
+#
+#   google maps options  phone from the Maps result; email from the business's
+#                        own website (homepage, /contact, /contact-us, /about;
+#                        10s timeout each, stops at the first usable email).
+#   CRE listings         LoopNet / Crexi / CityFeet / Showcase / CommercialCafe
+#                        403 every fetcher we tried, DataForSEO's OnPage crawler
+#                        included (tested 2026-09-28: content_parsing "empty",
+#                        instant_pages 403 even with browser rendering). So:
+#                        one plain SERP for '"{street}" {city} {st} for lease'
+#                        reads the broker out of Google's snippets ("Contact
+#                        Colliers for more information", CityFeet's "Oscar
+#                        Baltazar; Marco Petrini. 701 Bailey Ave") and finds the
+#                        brokerage's OWN property page (daumcommercial.com...),
+#                        which is fetched directly (vCard, agent block, Cloudflare-
+#                        protected emails decoded). If a broker is named but no
+#                        phone/email turned up, one more SERP on the broker's
+#                        name reads phone/email from snippets that name them.
+#   sparefoot/liquidspace/coworker  the facility's own site via one SERP.
+#   craigslist           contact sits behind Craigslist's relay: the post URL
+#                        is recorded as contact_url, nothing is fetched.
+#   phone line type      Twilio Lookup v2 line_type_intelligence ($0.008 each,
+#                        cached per number and reused from the previous run).
+COST_TWILIO_LOOKUP = 0.008
+US_STATES = {"CA": "California", "AZ": "Arizona", "NV": "Nevada", "OR": "Oregon", "WA": "Washington",
+             "TX": "Texas", "FL": "Florida", "CO": "Colorado", "UT": "Utah", "ID": "Idaho",
+             "NM": "New Mexico", "GA": "Georgia", "NC": "North Carolina", "NY": "New York"}
+CONTACTS_CAP = 0.40          # SERP + Twilio spend cap for the contacts pass
+FETCH_TIMEOUT = 10
+CONTACT_PATHS = ("", "/contact", "/contact-us", "/about")
+TWILIO_TYPES = {"mobile": "mobile", "landline": "landline", "fixedVoip": "voip",
+                "nonFixedVoip": "voip", "tollFree": "voip", "voicemail": "voip",
+                "personal": "mobile", "pager": "unknown", "sharedCost": "unknown",
+                "uan": "unknown", "unknown": "unknown"}
+# Never fetched: bot-protected listing portals, residential portals, social,
+# people-search / data brokers, documents. Their SERP snippets are still read.
+NO_FETCH = re.compile(
+    r"loopnet\.|crexi\.|showcase\.com|cityfeet\.|commercialcafe\.|officespace\.com|commercialsearch\.|"
+    r"realmo\.|propertyshark\.|craigslist\.|zillow\.|redfin\.|trulia\.|realtor\.com|homes\.com|movoto\.|"
+    r"highrises\.|apartments\.com|yelp\.|facebook\.|instagram\.|linkedin\.|youtube\.|tiktok\.|x\.com|"
+    r"twitter\.|nextdoor\.|rocketreach\.|zoominfo\.|signalhire\.|contactout\.|apollo\.io|experience\.com|"
+    r"mapquest\.|bizapedia\.|opencorporates\.|manta\.com|bbb\.org|yellowpages\.|google\.|bing\.|"
+    r"cloudinary\.|blob\.core\.|amazonaws\.|\.gov\b|wikipedia\.|sparefoot\.|liquidspace\.|coworker\.com|"
+    r"warehousespaces\.|storageunits\.|storagearea\.|storagecafe\.|storageseeker\.|selfstorage\.com|storagefront\.|\.pdf(?:$|\?)", re.I)
+PHONE_RE = re.compile(r"(?<![\d-])(?:\+?1[\s.-]?)?\(?([2-9]\d{2})\)?[\s.-]?([2-9]\d{2})[\s.-]?(\d{4})(?![\d-])")
+EMAIL_RE = re.compile(r"[A-Za-z0-9._%+-]+\s?@\s?[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)*\.[A-Za-z]{2,10}")
+EMAIL_JUNK = re.compile(
+    r"\.(?:png|jpe?g|gif|webp|svg|css|js|ico)$|noreply|no-reply|donotreply|example\.|@example|wix|sentry|"
+    r"godaddy|domain\.com|email\.com|yourname|your-?email|@yoursite|test@|user@|name@|placeholder|"
+    r"schema\.org|cloudflare|u00|@2x|@3x|ingest|jquery|bootstrap|@sentry|privacy@|abuse@|webmaster@|"
+    r"support@(?:squarespace|shopify)|@mysite|@company\.com", re.I)
+EMAIL_PREFER = ("leasing", "info", "office", "manager", "rentals", "rent", "contact", "hello",
+                "admin", "storage", "sales", "frontdesk")
+NAME_RE = re.compile(r"^[A-Z][a-z]+(?:\s[A-Z]\.?)?\s(?:(?:Mc|Mac|O')?[A-Z][a-zA-Z'’-]+)(?:\s(?:Jr|Sr|II|III)\.?)?$")
+NAME_STOP = re.compile(
+    r"\b(?:street|st|ave|avenue|road|rd|blvd|drive|suite|ste|real|estate|commercial|property|properties|"
+    r"group|company|partners|realty|office|lease|sale|california|los|san|santa|new|north|south|east|west|"
+    r"county|center|centre|storage|self|mini|home|homes|privacy|policy|terms|contact|about|services|"
+    r"management|investments?|capital|markets|industrial|retail|view|listing|listings|search|more|"
+    r"learn|read|click|call|email|phone|fax|main|menu|back|results|download|brochure|share|print|"
+    r"inland|empire|valley|beach|hills|city|bakersfield|delano|wasco|tehachapi|lamont|mcfarland|"
+    r"arvin|shafter|fresno|angeles|diego|francisco|orange|ventura|woodland|phoenix|headquarters|parcel|"
+    r"id|request|info|square|world|rent|truck|official|website|saved|searches|opportunity|zone|tires?|"
+    r"wheels|market|plaza|mall|shopping|professional|medical|dental|building|land|lot|acres?|free|"
+    r"now|today|open|hours|map|directions|photos|details|price|reduced|new|sold|available|for|"
+    r"vice|president|principal|senior|associate|leasing|central|sales|team|work|mobile|direct)\b", re.I)
+BROKER_TITLE = re.compile(r"licen[cs]e|\bdre\b|\blic\b|vice president|\bsvp\b|\bevp\b|principal|associate|"
+                          r"broker|agent|director|managing|senior|advisor|realtor", re.I)
+CONTACT_CO_RE = re.compile(r"Contact ([A-Z][\w&.,'’ -]{2,60}?) for more\b")
+LISTED_BY_RE = re.compile(r"(?:Listed by|Listing (?:courtesy of|provided by|agent|broker|office)|"
+                          r"Presented by|Courtesy of)[:\s]+([A-Z][^.|•·\n<>]{2,80})")
+
+
+def _e164(raw: str | None) -> str | None:
+    m = PHONE_RE.search(raw or "")
+    return f"+1{m.group(1)}{m.group(2)}{m.group(3)}" if m else None
+
+
+def _display(e164: str | None) -> str | None:
+    if not e164 or len(e164) != 12:
+        return e164
+    return f"({e164[2:5]}) {e164[5:8]}-{e164[8:]}"
+
+
+def _host(url: str) -> str:
+    return re.sub(r"^https?://", "", url or "").split("/")[0].split(":")[0].lower().removeprefix("www.")
+
+
+def _root(host: str) -> str:
+    parts = host.split(".")
+    return ".".join(parts[-2:]) if len(parts) >= 2 else host
+
+
+class Contacts:
+    """Shared state for one contacts pass: page cache, Twilio cache, spend."""
+
+    def __init__(self, dfs: DFS, prev_types: dict | None = None):
+        self.dfs = dfs                          # a DFS with its own (contacts) cap
+        self.pages: dict[str, str | None] = {}
+        self.memo: dict[str, tuple[threading.Event, dict]] = {}
+        self.inflight: dict[str, threading.Event] = {}
+        self.types: dict[str, dict] = dict(prev_types or {})
+        self.twilio_calls = 0
+        self.twilio_reused = 0
+        self.lock = threading.Lock()
+        self.fetches = 0
+        sid, tok = os.environ.get("TWILIO_MASTER_ACCOUNT_SID"), os.environ.get("TWILIO_MASTER_AUTH_TOKEN")
+        self.twilio = (sid, tok) if sid and tok else None
+
+    @property
+    def twilio_cost(self) -> float:
+        return round(self.twilio_calls * COST_TWILIO_LOOKUP, 4)
+
+    # ---- fetch
+    def get(self, url: str) -> str | None:
+        """One polite GET (10s, first 1.5MB). Cached; None on any failure."""
+        if not url or not url.startswith("http") or NO_FETCH.search(url):
+            return None
+        with self.lock:
+            ev = self.inflight.get(url)
+            mine = ev is None
+            if mine:
+                ev = self.inflight[url] = threading.Event()
+        if not mine:                             # another thread is fetching it: wait
+            ev.wait(FETCH_TIMEOUT + 5)
+            return self.pages.get(url)
+        html = None
+        try:
+            r = requests.get(url, timeout=FETCH_TIMEOUT, stream=True, headers={
+                "User-Agent": UA, "Accept": "text/html,application/xhtml+xml,text/vcard;q=0.9,*/*;q=0.5",
+                "Accept-Language": "en-US,en;q=0.8"})
+            ct = r.headers.get("content-type", "")
+            if r.status_code < 400 and ("html" in ct or "vcard" in ct or "text" in ct):
+                html = r.raw.read(1_500_000, decode_content=True).decode("utf-8", "ignore")
+        except Exception:  # noqa: BLE001
+            html = None
+        with self.lock:
+            self.fetches += 1
+            self.pages[url] = html
+        ev.set()
+        return html
+
+    # ---- Twilio
+    def line_type(self, e164: str | None) -> str | None:
+        if not e164:
+            return None
+        with self.lock:
+            hit = self.types.get(e164)
+        if hit:
+            return hit.get("phone_type")
+        if not self.twilio:
+            return "unknown"
+        with self.dfs.lock:
+            if self.dfs.cost + self.dfs.reserve + COST_TWILIO_LOOKUP > self.dfs.cap + 1e-9:
+                return "unknown"
+            self.dfs.reserve += COST_TWILIO_LOOKUP
+        t = "unknown"
+        carrier = None
+        try:
+            r = requests.get(f"https://lookups.twilio.com/v2/PhoneNumbers/{e164}",
+                             params={"Fields": "line_type_intelligence"}, auth=self.twilio, timeout=15)
+            if r.status_code == 200:
+                lti = r.json().get("line_type_intelligence") or {}
+                t = TWILIO_TYPES.get(lti.get("type") or "unknown", "unknown")
+                carrier = lti.get("carrier_name")
+                with self.lock:
+                    self.twilio_calls += 1
+        except Exception:  # noqa: BLE001
+            pass
+        with self.dfs.lock:
+            self.dfs.reserve -= COST_TWILIO_LOOKUP
+        with self.lock:
+            self.types[e164] = {"phone_type": t, "carrier": carrier}
+        return t
+
+
+def _cf_decode(hexstr: str) -> str:
+    try:
+        key = int(hexstr[:2], 16)
+        return "".join(chr(int(hexstr[i:i + 2], 16) ^ key) for i in range(2, len(hexstr), 2))
+    except ValueError:
+        return ""
+
+
+def _page_text(html: str) -> str:
+    """HTML -> ' | '-separated text, Cloudflare-protected emails decoded."""
+    html = re.sub(r'<a[^>]*data-cfemail="([0-9a-fA-F]+)"[^>]*>.*?</a>',
+                  lambda m: " " + _cf_decode(m.group(1)) + " ", html, flags=re.S)
+    html = re.sub(r'<span[^>]*data-cfemail="([0-9a-fA-F]+)"[^>]*>.*?</span>',
+                  lambda m: " " + _cf_decode(m.group(1)) + " ", html, flags=re.S)
+    html = re.sub(r"/cdn-cgi/l/email-protection#([0-9a-fA-F]+)", lambda m: "mailto:" + _cf_decode(m.group(1)), html)
+    t = re.sub(r"<script.*?</script>|<style.*?</style>|<noscript.*?</noscript>|<!--.*?-->", " ", html,
+               flags=re.S | re.I)
+    t = re.sub(r"<(?:br|/p|/div|/li|/h\d|/td|/tr|/span|/a)[^>]*>", " | ", t, flags=re.I)
+    t = re.sub(r"<[^>]+>", " ", t)
+    t = (t.replace("&nbsp;", " ").replace("&#160;", " ").replace("&amp;", "&").replace("&#8211;", "-")
+         .replace("&#39;", "'").replace("&#x27;", "'"))
+    t = re.sub(r"\s+", " ", t)
+    return re.sub(r"(?:\s*\|\s*)+", " | ", t)
+
+
+def _emails(html: str, text: str) -> list[str]:
+    raw = re.findall(r'mailto:([^"\'?<>\s]+)', html, re.I) + EMAIL_RE.findall(text)
+    out = []
+    for e in raw:
+        e = _clean_email(requests.utils.unquote(e))
+        if not e or len(e) > 80:
+            continue
+        if e not in out:
+            out.append(e)
+    return out
+
+
+def _best_email(emails: list[str], site_host: str | None) -> str | None:
+    if not emails:
+        return None
+    root = _root(site_host) if site_host else None
+
+    def key(e):
+        local, _, dom = e.partition("@")
+        same = bool(root) and _root(dom) == root
+        pref = next((i for i, p in enumerate(EMAIL_PREFER) if local.startswith(p)), len(EMAIL_PREFER))
+        return (not same, pref)
+    return sorted(emails, key=key)[0]
+
+
+def _tel_links(html: str) -> list[str]:
+    out = []
+    for t in re.findall(r'href=["\']tel:([^"\']+)', html, re.I):
+        e = _e164(requests.utils.unquote(t))
+        if e and e not in out:
+            out.append(e)
+    return out
+
+
+def _vcard(ctx: Contacts, html: str, base: str) -> dict | None:
+    m = re.search(r'href=["\']([^"\']+\.vcf(?:\?[^"\']*)?|[^"\']*vcard[^"\']*)["\']', html, re.I)
+    if not m:
+        return None
+    href = requests.compat.urljoin(base, m.group(1).replace("&amp;", "&"))
+    if _root(_host(href)) != _root(_host(base)):
+        return None
+    raw = ctx.get(href)
+    if not raw or "BEGIN:VCARD" not in raw.upper():
+        return None
+    out: dict = {}
+    tels = []
+    for line in raw.splitlines():
+        k, _, v = line.partition(":")
+        ku, v = k.upper(), v.strip()
+        if ku == "FN" and v:
+            out["contact_name"] = v
+        elif ku.startswith("N") and ku[:2] in ("N", "N;") and v and "contact_name" not in out:
+            last, first = (v.split(";") + [""])[:2]
+            if first and last:
+                out["contact_name"] = f"{first} {last}"
+        elif ku.startswith("ORG") and v:
+            out["company"] = v.split(";")[0]
+        elif ku.startswith("TITLE") and v:
+            out["title"] = v
+        elif ku.startswith("TEL") and _e164(v):
+            tels.append((0 if "CELL" in ku else 1 if "WORK" in ku else 2, _e164(v)))
+        elif ku.startswith("EMAIL") and "@" in v:
+            out.setdefault("email", v.lower())
+    if tels:
+        out["phone"] = sorted(tels)[0][1]
+    if not (out.get("phone") or out.get("email")):
+        return None
+    out["contact_url"] = href
+    return out
+
+
+def _is_name(seg: str) -> bool:
+    seg = seg.strip(" ,.-")
+    return bool(NAME_RE.match(seg)) and not NAME_STOP.search(seg)
+
+
+def _split_camel(s: str) -> str:
+    return re.sub(r"([a-z])([A-Z])", r"\1 \2", s)
+
+
+def _agent_block(html: str, text: str, site_host: str) -> dict:
+    """Name + phone + email of the agent on a brokerage's own property page.
+    The name is kept only when the page backs it (email local part carries
+    the name, or a licence/title line sits beside it)."""
+    emails = [e for e in _emails(html, text)]
+    tels = _tel_links(html)
+    out: dict = {}
+    person_emails = [e for e in emails if not e.split("@")[0].startswith(EMAIL_PREFER)]
+    segs = [s.strip() for s in text.split(" | ")]
+    anchor = None
+    for i, sg in enumerate(segs):
+        low = sg.lower()
+        if any(e in low for e in person_emails) or (tels and _e164(sg) in tels) or \
+                re.search(r"licen[cs]e|\bdre\b", sg, re.I):
+            anchor = i
+            break
+    if anchor is not None:
+        window = segs[max(0, anchor - 8): anchor + 6]
+        for sg in window:
+            for part in re.split(r"\s{2,}|,\s(?=[A-Z])", sg):
+                if not _is_name(part):
+                    continue
+                first, last = part.split()[0].lower(), part.split()[-1].lower()
+                backed = any(last in e.split("@")[0] or (first in e.split("@")[0] and len(first) > 3)
+                             for e in person_emails) or any(BROKER_TITLE.search(w) for w in window)
+                if backed:
+                    out["contact_name"] = part.strip(" ,.-")
+                    break
+            if out.get("contact_name"):
+                break
+    nm = out.get("contact_name")
+    if nm:
+        first, last = nm.split()[0].lower(), nm.split()[-1].lower()
+        mine = [e for e in person_emails if last in e.split("@")[0] or first in e.split("@")[0]]
+        out["email"] = (mine or [None])[0] or _best_email(emails, site_host)
+        # the phone printed next to the agent's name ("P (310) 883-8476")
+        i = text.find(nm)
+        near = PHONE_RE.search(text[i: i + 400]) if i >= 0 else None
+        out["phone"] = _e164(near.group(0)) if near else (tels[0] if tels else None)
+    else:
+        out["email"] = _best_email(emails, site_host)
+        out["phone"] = tels[0] if tels else None
+    return out
+
+
+def _site_contacts(ctx: Contacts, website: str) -> dict:
+    """Email (+ a tel: link when there is one) from a business's own site."""
+    if not website:
+        return {}
+    if not website.startswith("http"):
+        website = "https://" + website
+    host = _host(website)
+    origin = re.match(r"https?://[^/]+", website).group(0)
+    found: dict = {}
+    urls = [website] + [origin + p for p in CONTACT_PATHS if origin + p != website.rstrip("/")]
+    for u in urls[:5]:
+        html = ctx.get(u)
+        if not html:
+            continue
+        text = _page_text(html)
+        em = _best_email(_emails(html, text), host)
+        if not found.get("phone"):
+            tl = _tel_links(html)
+            if tl:
+                found["phone"], found["phone_url"] = tl[0], u
+        if em:
+            local = em.split("@")[0]
+            same = _root(em.split("@")[1]) == _root(host)
+            if same or not found.get("email"):
+                found["email"], found["contact_url"] = em, u
+            if same and local.startswith(EMAIL_PREFER):
+                break
+            if same:
+                break
+    return found
+
+
+def _street(addr: str) -> str:
+    return (addr or "").split(",")[0].strip()
+
+
+# People-search / directory sites: their "Name | Phone Number" pages are about
+# whoever shares the name, never read for a broker.
+PEOPLE_SITES = re.compile(r"whitepages|spokeo|fastpeoplesearch|truepeoplesearch|radaris|peoplefinder|"
+                          r"beenverified|intelius|mylife|thatsthem|clustrmaps|nuwber|411\.com|"
+                          r"yellowpages|yelp\.|mapquest|rocketreach|zoominfo|signalhire|contactout|"
+                          r"apollo\.io|lusha|bizapedia|opencorporates|manta\.com", re.I)
+RE_CONTEXT = re.compile(r"real estate|realty|broker|leasing|commercial|\bdre\b|lic(?:ense)?\b|colliers|cbre|"
+                        r"cushman|marcus|svn|kw commercial|nai\b|lee & associates|associate|vice president", re.I)
+IDX_HINT = re.compile(r"\bIDX\b|brivity|MLS ?#|listing courtesy|multiple listing|mls data", re.I)
+BROKER_NAME_RE = re.compile(r"([A-Z][a-z]+(?: [A-Z]\.)? [A-Z][A-Za-z'’-]+),? (?:Commercial )?(?:Real Estate )?"
+                            r"(?:Broker|Agent|Associate|Realtor|Salesperson)\b|"
+                            r"([A-Z][a-z]+(?: [A-Z]\.)? [A-Z][A-Za-z'’-]+),? (?:CA )?DRE\b")
+CO_STOP = re.compile(r"^(?:the|us|our|customer|support|zillow|loopnet|crexi|a|an)\b", re.I)
+
+
+def _about(r: dict, street: str) -> bool:
+    """Is this SERP result about this address (its own URL or title names it)?"""
+    num, *rest = street.lower().split()
+    word = next((w for w in rest if len(w) > 1 and w not in ("n", "s", "e", "w")), "")
+    blob = (r["title"] + " " + re.sub(r"%20|[-_/+]", " ", r["url"])).lower()
+    return bool(re.search(r"(?<!\d)" + re.escape(num) + r"(?!\d)", blob)) and word in blob
+
+
+def _phone_after(blob: str, anchor: str, span: int = 200) -> str | None:
+    """First phone within `span` chars after `anchor`, unless another person's
+    name sits in between (team pages list several brokers in a row)."""
+    i = blob.lower().find(anchor.lower())
+    if i < 0:
+        return None
+    seg = blob[i + len(anchor): i + len(anchor) + span]
+    m = PHONE_RE.search(seg)
+    if not m:
+        return None
+    between = seg[: m.start()]
+    for nm in re.findall(r"[A-Z][a-z]+(?: [A-Z]\.)? [A-Z][A-Za-z'’-]+", between):
+        if _is_name(nm) and nm.lower() != anchor.lower():
+            return None
+    return _e164(m.group(0))
+
+
+def _clean_email(e: str) -> str | None:
+    e = re.sub(r"\s", "", e).strip(".,;:\\\"'").lower()
+    if re.fullmatch(r"[a-z0-9._%+-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*\.[a-z]{2,10}", e) and not EMAIL_JUNK.search(e):
+        return e
+    return None
+
+
+def _serp_broker(results: list[dict], street: str) -> dict:
+    """Broker name / brokerage from the SERP snippets of THIS listing's pages
+    (LoopNet's "Contact Colliers for more information", CityFeet's "Oscar
+    Baltazar; Marco Petrini. 701 Bailey Ave", a post signed "Gary Mittin,
+    Commercial Real Estate Broker")."""
+    out: dict = {"names": [], "company": None, "url": None, "src": None}
+    num = street.split()[0]
+    for r in results:
+        if PEOPLE_SITES.search(r["url"]):
+            continue
+        blob = f"{r['title']}. {r['snippet']}"
+        own = _about(r, street)
+        src = _src(r["url"])
+        if own:
+            m = CONTACT_CO_RE.search(blob)
+            if m and not out["company"] and not CO_STOP.search(m.group(1)):
+                out["company"] = m.group(1).strip(" ,.")
+                out["url"], out["src"] = r["url"], f"{src} via Google"
+        if src in ("cityfeet", "showcase", "commercialcafe") and street.lower() in blob.lower():
+            for m in re.finditer(r"((?:[A-Z][a-z]+(?: [A-Z]\.)? [A-Z][A-Za-z'’-]+)(?:;\s*[A-Z][a-z]+(?: [A-Z]\.)? "
+                                 r"[A-Z][A-Za-z'’-]+)*)\.\s*" + re.escape(num) + r"\s", blob):
+                names = [n.strip() for n in m.group(1).split(";") if _is_name(n)]
+                if names and not out["names"]:
+                    out["names"] = names
+                    out["url"] = out["url"] or r["url"]
+                    out["src"] = out["src"] or f"{src} via Google"
+        if own or street.lower() in blob.lower():
+            m = BROKER_NAME_RE.search(blob)
+            nm = m and (m.group(1) or m.group(2))
+            if nm and _is_name(nm) and not out["names"]:
+                out["names"] = [nm]
+                out["url"], out["src"] = out["url"] or r["url"], out["src"] or f"{src} via Google"
+    return out
+
+
+def listing_contact(ctx: Contacts, o: dict, town: dict) -> dict:
+    st = (town.get("state") or "").upper()
+    street = _street(o.get("address") or o.get("name"))
+    city = o.get("city") or town["town"]
+    if not re.match(r"\d", street) or len(street.split()) < 2:
+        return {}
+    res = ctx.dfs.organic(f'"{street}" {city} {st} lease contact broker')
+    sb = _serp_broker(res, street)
+    if not sb["names"]:
+        # Google words the snippets per query: the plain "for lease" form is
+        # the one that surfaces CityFeet's broker-name strip.
+        res2 = ctx.dfs.organic(f'"{street}" {city} {st} for lease')
+        sb2 = _serp_broker(res2, street)
+        sb = {"names": sb2["names"], "company": sb["company"] or sb2["company"],
+              "url": sb["url"] or sb2["url"], "src": sb["src"] or sb2["src"]}
+        res = res + [r for r in res2 if r["url"] not in {x["url"] for x in res}]
+    c: dict = {"contact_role": "listing broker"}
+    if sb["names"]:
+        c["contact_name"] = sb["names"][0]
+    if sb["company"]:
+        c["company"] = sb["company"]
+    if sb["url"]:
+        c["contact_url"], c["contact_source"] = sb["url"], sb["src"]
+    # The brokerage's own page for this property (not a portal): fetch it.
+    for r in res:
+        if NO_FETCH.search(r["url"]) or not _about(r, street):
+            continue
+        html = ctx.get(r["url"])
+        if not html:
+            continue
+        text = _page_text(html)
+        if street.split()[0] not in text or not re.search(r"lease|for rent", text, re.I):
+            continue
+        host = _host(r["url"])
+        if IDX_HINT.search(text) or LISTED_BY_RE.search(text):
+            # MLS/IDX syndication page ("Listed by Compass, Edgar Torossian"):
+            # the page's own phone/email belong to the IDX host, not the broker.
+            lb = LISTED_BY_RE.search(text)
+            if lb:
+                for part in [p.strip() for p in _split_camel(lb.group(1)).split(",")]:
+                    if _is_name(part) and not c.get("contact_name"):
+                        c["contact_name"] = part
+                    elif not _is_name(part) and 2 < len(part) < 60 and not c.get("company") \
+                            and not CO_STOP.search(part):
+                        c["company"] = part
+                c["contact_url"], c["contact_source"] = r["url"], f"{host} (MLS listing attribution)"
+            continue
+        vc = _vcard(ctx, html, r["url"])
+        if vc:
+            c.update({k: v for k, v in vc.items() if k != "title" and v})
+            c.setdefault("company", host)
+            c["contact_url"] = r["url"]          # the property page, not the .vcf download
+            c["contact_source"] = f"{host} (brokerage page, vCard)"
+            break
+        ab = _agent_block(html, text, host)
+        # A property page without a named agent is a franchise/IDX template
+        # (eXp's 833 line + info@): not the listing broker.
+        if ab.get("contact_name") and (ab.get("phone") or ab.get("email")):
+            if ab.get("contact_name"):
+                c["contact_name"] = ab["contact_name"]
+            c["phone"], c["email"] = ab.get("phone"), ab.get("email")
+            og = re.search(r'property=["\']og:site_name["\']\s+content=["\']([^"\']{2,60})', html)
+            c["company"] = c.get("company") or (og.group(1) if og else host)
+            c["contact_url"], c["contact_source"] = r["url"], f"{host} (brokerage page)"
+            break
+    # A named broker but no way to reach them yet: one SERP on the name.
+    if c.get("contact_name") and not (c.get("phone") or c.get("email")):
+        nm = c["contact_name"]
+        first, last = nm.split()[0].lower(), nm.split()[-1].lower()
+        for r in ctx.dfs.organic(f'"{nm}" {c.get("company") or st} commercial real estate broker'):
+            blob = f"{r['title']}. {r['snippet']}"
+            if nm.lower() not in blob.lower() or PEOPLE_SITES.search(r["url"]) or not RE_CONTEXT.search(blob):
+                continue
+            prof = re.match(re.escape(nm) + r"\s*\|\s*([^|]{2,50}?)\s*\|", r["title"])
+            if prof and not c.get("company"):
+                c["company"] = prof.group(1).strip()
+            ph = _phone_after(blob, nm, 160)
+            if ph and not c.get("phone"):
+                c["phone"] = ph
+                c["contact_url"], c["contact_source"] = r["url"], f"{_host(r['url'])} via Google"
+            for e in EMAIL_RE.findall(blob):
+                e = _clean_email(e)
+                if e and not c.get("email") and (last in e.split("@")[0] or first in e.split("@")[0]):
+                    c["email"] = e
+                    if not c.get("phone"):
+                        c["contact_url"], c["contact_source"] = r["url"], f"{_host(r['url'])} via Google"
+            if c.get("phone") and c.get("email"):
+                break
+    # Only the brokerage is known: its office line / email (the broker's desk
+    # is one transfer away).
+    if c.get("company") and not (c.get("phone") or c.get("email")):
+        co = c["company"]
+        toks = [w for w in re.findall(r"[a-z]{3,}", co.lower()) if w not in ("the", "and", "inc", "llc", "group")]
+        for r in ctx.dfs.organic(f'"{co}" {city} {st} commercial real estate phone'):
+            blob = f"{r['title']}. {r['snippet']}"
+            if co.lower() not in blob.lower() or PEOPLE_SITES.search(r["url"]):
+                continue
+            ph = _phone_after(blob, co, 200)
+            # National brands (Cushman & Wakefield, Colliers) have hundreds of
+            # offices: only a local area code or a snippet naming the town counts.
+            if ph and not (ph[2:5] in (town.get("_area_codes") or ()) or city.lower() in blob.lower()):
+                ph = None
+            if ph and not c.get("phone"):
+                c["phone"] = ph
+                c["contact_url"], c["contact_source"] = r["url"], f"{_host(r['url'])} via Google"
+                if not c.get("contact_name"):
+                    c["contact_role"] = "listing brokerage (office line)"
+            host = _host(r["url"])
+            ini = "".join(w[0] for w in toks)
+            if not c.get("email") and not NO_FETCH.search(r["url"]) and toks and \
+                    (any(len(t) > 3 and t in host for t in toks) or (len(ini) >= 3 and host.startswith(ini))):
+                sc = _site_contacts(ctx, r["url"])
+                page = ctx.pages.get(sc.get("contact_url") or "") or ""
+                if sc.get("email") and not re.search(r",\s?" + st + r"\b|" + US_STATES.get(st, "@@"), page):
+                    sc = {}          # same initials, different country/state (cwedm.com = Edmonton)
+                if sc.get("email"):
+                    c["email"] = sc["email"]
+                    if not c.get("phone") and sc.get("phone"):
+                        c["phone"] = sc["phone"]
+                        c["contact_role"] = "listing brokerage (office line)"
+                    c["contact_url"], c["contact_source"] = sc["contact_url"], f"{host} (brokerage website)"
+            if c.get("phone") and c.get("email"):
+                break
+    if not any(c.get(k) for k in ("contact_name", "company", "phone", "email")):
+        return {}
+    return c
+
+
+def facility_contact(ctx: Contacts, o: dict, town: dict) -> dict:
+    """SpareFoot / LiquidSpace / Coworker option: the facility's own website."""
+    st = (town.get("state") or "").upper()
+    nm = re.split(r"\s+[|-]\s+|,", o.get("name") or "")[0].strip()
+    if not nm:
+        return {}
+    city = o.get("city") or town["town"]
+    res = ctx.dfs.organic(f'"{nm}" {city} {st}')
+    generic = {"storage", "self", "mini", "store", "office", "offices", "suite", "suites", "space",
+               "spaces", "center", "centre", "business", "executive", "coworking", "private", "units"}
+    towns = {w for t in (town.get("would_cover") or []) + [town["town"]] for w in re.findall(r"[a-z]+", t.lower())}
+    words = [w for w in re.findall(r"[a-z]+", nm.lower()) if len(w) > 2]
+    toks = {w for w in words if w not in generic and w not in towns}
+    if not toks:
+        return {}                     # "Delano Storage": nothing distinctive to match a site on
+    joined = "".join(w for w in words if w not in towns)
+    c: dict = {"contact_role": "facility office" if o.get("tier") == "storage" else "leasing office",
+               "company": nm}
+    for r in res:
+        if NO_FETCH.search(r["url"]):
+            continue
+        host = _host(r["url"])
+        if joined not in host.replace("-", "") and not all(t in host for t in toks):
+            continue
+        sc = _site_contacts(ctx, r["url"])
+        if sc.get("phone") or sc.get("email"):
+            c.update({"phone": sc.get("phone"), "email": sc.get("email"),
+                      "contact_url": sc.get("contact_url") or sc.get("phone_url") or r["url"],
+                      "contact_source": f"{host} (own website via Google)"})
+            break
+    return c if (c.get("phone") or c.get("email")) else {}
+
+
+def maps_contact(ctx: Contacts, o: dict) -> dict:
+    tier = o.get("tier")
+    c = {"contact_role": {"storage": "facility office", "coworking": "leasing office",
+                          "office": "leasing office", "flex": "leasing office",
+                          "broker": "broker office"}.get(tier, "office"),
+         "company": o.get("name"), "phone": _e164(o.get("phone")),
+         "contact_url": f"https://www.google.com/maps?cid={o['cid']}" if o.get("cid") else None,
+         "contact_source": "google maps"}
+    sc = _site_contacts(ctx, o.get("website") or "")
+    if sc.get("email"):
+        c["email"] = sc["email"]
+        c["contact_url"] = sc.get("contact_url")
+        c["contact_source"] = f"google maps + {_host(sc['contact_url'])}"
+    if not c["phone"] and sc.get("phone"):
+        c["phone"] = sc["phone"]
+        c["contact_url"] = c["contact_url"] or sc.get("phone_url")
+        c["contact_source"] = f"{_host(sc.get('phone_url') or '')} (website)"
+    return c
+
+
+def _memo(ctx: Contacts, key: str, fn) -> dict:
+    """One lookup per address per run: the same suite shows up under two
+    towns (911-913 Main St under McFarland AND Delano)."""
+    with ctx.lock:
+        hit = ctx.memo.get(key)
+        if hit is None:
+            ev = threading.Event()
+            ctx.memo[key] = (ev, {})
+    if hit is not None:
+        hit[0].wait(120)
+        return dict(hit[1])
+    out = {}
+    try:
+        out = fn()
+    finally:
+        ctx.memo[key][1].update(out)
+        ev.set()
+    return dict(out)
+
+
+def enrich_option(ctx: Contacts, o: dict, town: dict) -> None:
+    now = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    src = o.get("source") or "google maps"
+    mkey = (addr_key(o.get("address")) or re.sub(r"[^a-z0-9]", "", (o.get("name") or "").lower())) + \
+        "|" + (o.get("city") or town["town"]).lower()
+    try:
+        if src == "craigslist":
+            c = {"contact_role": "poster (craigslist relay)", "contact_url": o.get("website"),
+                 "contact_source": "craigslist relay"}
+        elif src == "google maps":
+            c = maps_contact(ctx, o)
+        elif src in ("sparefoot", "liquidspace", "coworker"):
+            c = _memo(ctx, "f:" + mkey, lambda: facility_contact(ctx, o, town))
+        else:
+            c = _memo(ctx, "l:" + mkey, lambda: listing_contact(ctx, o, town))
+    except Exception as e:  # noqa: BLE001   fail-open per option
+        print(f"    [contacts] {o.get('name', '')[:50]}: {str(e)[:100]}")
+        c = {}
+    if c.get("phone"):
+        c["phone_display"] = _display(c["phone"])
+        c["phone_type"] = ctx.line_type(c["phone"])
+        c["carrier"] = (ctx.types.get(c["phone"]) or {}).get("carrier")
+    c["checked_at"] = now
+    o["contact"] = c
+
+
+def enrich_contacts(ctx: Contacts, results: list[dict]) -> None:
+    # Local area codes (from the Maps phones of this run) vet a brokerage's
+    # office line found in a SERP snippet.
+    codes = {e[2:5] for t in results for o in t["options"] for e in [_e164(o.get("phone"))] if e}
+    for t in results:
+        t["_area_codes"] = codes
+    jobs = [(o, t) for t in results for o in t["options"]]
+    try:
+        with ThreadPoolExecutor(max_workers=6) as ex:
+            list(ex.map(lambda ot: enrich_option(ctx, *ot), jobs))
+    finally:
+        for t in results:
+            t.pop("_area_codes", None)
+
+
+def prev_phone_types(key: str | None) -> dict:
+    """Line types from the previous run's blob, so an unchanged number is not
+    looked up (and paid for) again."""
+    if not key:
+        return {}
+    try:
+        prev = kv_get(key) or {}
+    except Exception:  # noqa: BLE001
+        return {}
+    out = {}
+    for t in prev.get("towns") or []:
+        for o in t.get("options") or []:
+            c = o.get("contact") or {}
+            if c.get("phone") and c.get("phone_type") and c["phone_type"] != "unknown":
+                out[c["phone"]] = {"phone_type": c["phone_type"], "carrier": c.get("carrier")}
+    return out
 
 
 # ------------------------------------------------------------- app table
@@ -1154,9 +1901,8 @@ def table_rows(out: dict) -> list[dict]:
                 extra.append(f"Maps category: {o['category']}")
             if o.get("rating"):
                 extra.append(f"{o['rating']} stars ({o.get('reviews') or 0} reviews)")
-            if o.get("phone"):
-                extra.append(f"phone {o['phone']}")
             extra.append(f"found by: {o.get('found_by')}")
+            c = o.get("contact") or {}
             rows.append({
                 "company_id": out["company_id"], "town": t["town"], "town_rank": t.get("town_rank"),
                 "option_rank": i, "name": o.get("name"), "address": o.get("address"),
@@ -1170,6 +1916,11 @@ def table_rows(out: dict) -> list[dict]:
                 "distance_pin_mi": o.get("distance_from_pin_mi"),
                 "ask_for": o.get("notes"), "notes": "; ".join(extra),
                 "scanned_at": out["generated_at"],
+                **({"contact_name": c.get("contact_name"), "contact_role": c.get("contact_role"),
+                    "company": c.get("company"), "phone": c.get("phone"),
+                    "phone_type": c.get("phone_type"), "email": c.get("email"),
+                    "contact_url": c.get("contact_url"), "contact_source": c.get("contact_source"),
+                    "contact_checked_at": c.get("checked_at")} if "contact" in o else {}),
             })
     return rows
 
@@ -1195,6 +1946,11 @@ def main() -> int:
                     help="re-run location_scout live instead of reading the saved shortlist")
     ap.add_argument("--cap", type=float, default=MAX_RUN_COST, help="DataForSEO spend cap in USD")
     ap.add_argument("--json", action="store_true")
+    ap.add_argument("--contacts", action=argparse.BooleanOptionalAction, default=None,
+                    help="find who to call per option (phone/email/broker + Twilio line type); "
+                         "default ON with --apply, off for a dry-run")
+    ap.add_argument("--contacts-cap", type=float, default=CONTACTS_CAP,
+                    help=f"contacts-pass spend cap in USD, SERP + Twilio (default {CONTACTS_CAP})")
     ap.add_argument("--apply", action="store_true",
                     help="write marketing_office_scout rows + ops_kv office-scout:{company_id}")
     a = ap.parse_args()
@@ -1208,17 +1964,42 @@ def main() -> int:
     dfs = DFS(cap=a.cap)
     pin = (ctx or {}).get("pin") or (None, None)
     results = [scout_town(dfs, t, pin, reach if ctx else 0) for t in towns]
+    key = f"office-scout:{ctx['company_id']}" if ctx and ctx.get("company_id") else None
+    do_contacts = a.apply if a.contacts is None else a.contacts
+    cinfo = None
+    cdfs = None
+    if do_contacts:
+        cdfs = DFS(cap=a.contacts_cap)
+        cx = Contacts(cdfs, prev_phone_types(key))
+        prev_keys = set(cx.types)
+        enrich_contacts(cx, results)
+        opts = [o for t in results for o in t["options"]]
+        cc = [o.get("contact") or {} for o in opts]
+        cinfo = {"options": len(opts), "with_phone": sum(1 for c in cc if c.get("phone")),
+                 "with_email": sum(1 for c in cc if c.get("email")),
+                 "with_name": sum(1 for c in cc if c.get("contact_name")),
+                 "serp_calls": cdfs.calls, "serp_usd": round(cdfs.cost, 4),
+                 "serp_skipped": cdfs.skipped, "twilio_lookups": cx.twilio_calls,
+                 "twilio_usd": cx.twilio_cost,
+                 "twilio_reused": len({c["phone"] for c in cc if c.get("phone") in prev_keys}),
+                 "fetches": cx.fetches, "cap_usd": a.contacts_cap}
     out = {"slug": a.slug, "company_id": (ctx or {}).get("company_id"),
            "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
            "pin": {"lat": pin[0], "lng": pin[1]} if pin[0] is not None else None,
            "reach_mi": reach if ctx else None,
            "spend_usd": round(dfs.cost, 4), "cap_usd": a.cap, "dfs_calls": dfs.calls,
            "dfs_skipped": dfs.skipped, "towns": results}
+    if cinfo:
+        out["contacts"] = cinfo
+    out["spend_breakdown"] = {
+        "maps": round(dfs.cost_maps, 4), "serp": round(dfs.cost_serp, 4),
+        "contacts_serp": round(cdfs.cost, 4) if cdfs else 0.0, "onpage": 0.0,
+        "twilio": cinfo["twilio_usd"] if cinfo else 0.0}
+    out["spend_breakdown"]["total"] = round(sum(out["spend_breakdown"].values()), 4)
     if a.json:
         print(json.dumps(out, indent=2))
     else:
         render(out)
-    key = f"office-scout:{out['company_id']}" if out.get("company_id") else None
     log = sys.stderr if a.json else sys.stdout      # keep --json stdout parseable
     if a.apply:
         if not key:
