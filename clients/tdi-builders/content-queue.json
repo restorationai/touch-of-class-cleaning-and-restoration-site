@@ -319,11 +319,7 @@
     },
     {
       "id": "2026-09-15-new-home-construction-roseville",
-<<<<<<< HEAD
       "status": "published",
-=======
-      "status": "written",
->>>>>>> 8dd499549 (Content writer: publish new home construction roseville for tdi-builders)
       "queued_at": "2026-09-15T14:24:35Z",
       "priority": 1,
       "prioritized": true,
@@ -334,7 +330,6 @@
       "target_word_count": 1400,
       "city_anchor": "roseville-ca",
       "source": "gameplan-2026-09-5 (dev-agent)",
-<<<<<<< HEAD
       "written_at": "2026-09-24T20:23:43Z",
       "post_url": "https://tdiusa.com/blog/new-home-construction-roseville/",
       "published_verified_at": "2026-09-24T20:24:03Z"
@@ -358,9 +353,28 @@
       ],
       "suggested_slug": "how-much-does-it-cost-to-remodel-a-house-sacramento",
       "suggested_title": "How much does it cost to remodel a house in Sacramento (2026 budget ranges)",
-=======
-      "written_at": "2026-09-24T21:15:07Z",
-      "post_url": "https://tdiusa.com/blog/new-home-construction-roseville/"
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/home-remodeling/",
+        "/services/kitchen-remodeling/",
+        "/services/bathroom-remodeling/",
+        "/services/room-addition/",
+        "/blog/kitchen-remodel-cost-breakdown/",
+        "/blog/how-to-plan-a-home-remodel/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "home-remodeling",
+        "kitchen-remodeling",
+        "bathroom-remodeling",
+        "room-addition"
+      ],
+      "city_anchor": "sacramento-ca",
+      "external_authority_candidates": [
+        "https://www.cslb.ca.gov/",
+        "https://www.nahb.org/"
+      ],
+      "notes": "Whole-house cost post, distinct from the kitchen-only cost breakdown and from the banked 'how much does a general contractor cost' item (that one is about contractor fees; this one is about total project cost). Lead with a cost table by scope: bathroom, kitchen, whole-home per square foot, room addition. The ChatGPT decomposition quoted Sacramento planning ranges of roughly 12k to 55k for baths, 25k to 100k+ for kitchens, 150 to 300+ per sq ft for substantial whole-home work, and 250 to 450+ per sq ft for additions: use as context, do not present as TDI quotes. Include a 10 to 20 percent contingency section for older Sacramento homes, a payment-schedule section (California caps the down payment on home improvement contracts at 1,000 dollars or 10 percent, whichever is less: verify on CSLB before publishing), and a timeline section."
     },
     {
       "id": "2026-09-24-cost-to-remodel-a-house-sacramento",
@@ -381,20 +395,12 @@
       ],
       "suggested_slug": "cost-to-remodel-a-house-sacramento",
       "suggested_title": "Cost to remodel a house in Sacramento: real numbers for 2026",
->>>>>>> 8dd499549 (Content writer: publish new home construction roseville for tdi-builders)
       "target_word_count": 1600,
       "internal_link_targets": [
         "/services/home-remodeling/",
         "/services/kitchen-remodeling/",
         "/services/bathroom-remodeling/",
-<<<<<<< HEAD
-        "/services/room-addition/",
-        "/blog/kitchen-remodel-cost-breakdown/",
-        "/blog/how-to-plan-a-home-remodel/",
-        "/contact/"
-=======
         "/services/room-addition/"
->>>>>>> 8dd499549 (Content writer: publish new home construction roseville for tdi-builders)
       ],
       "service_tags": [
         "home-remodeling",
@@ -404,22 +410,49 @@
       ],
       "city_anchor": "sacramento-ca",
       "external_authority_candidates": [
-<<<<<<< HEAD
-        "https://www.cslb.ca.gov/",
-        "https://www.nahb.org/"
-      ],
-      "notes": "Whole-house cost post, distinct from the kitchen-only cost breakdown and from the banked 'how much does a general contractor cost' item (that one is about contractor fees; this one is about total project cost). Lead with a cost table by scope: bathroom, kitchen, whole-home per square foot, room addition. The ChatGPT decomposition quoted Sacramento planning ranges of roughly 12k to 55k for baths, 25k to 100k+ for kitchens, 150 to 300+ per sq ft for substantial whole-home work, and 250 to 450+ per sq ft for additions: use as context, do not present as TDI quotes. Include a 10 to 20 percent contingency section for older Sacramento homes, a payment-schedule section (California caps the down payment on home improvement contracts at 1,000 dollars or 10 percent, whichever is less: verify on CSLB before publishing), and a timeline section."
-    },
-    {
-      "id": "2026-09-24-design-build-vs-general-contractor-folsom",
-      "status": "queued",
-      "queued_at": "2026-09-24T12:00:00Z",
-=======
         "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/",
         "https://www.remodeling.hw.net/cost-vs-value/"
       ],
       "notes": "Lead with a cost-per-square-foot table by remodel scope (cosmetic, mid-range, full gut). Cover older Sacramento housing stock and concealed-condition allowances, and the CA deposit cap ($1,000 or 10%, whichever is less). Link the kitchen cost breakdown post rather than duplicating it.",
       "source": "keyword-researcher seed=remodeling contractor"
+    },
+    {
+      "id": "2026-09-24-design-build-vs-general-contractor-folsom",
+      "status": "queued",
+      "queued_at": "2026-09-24T12:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "design build vs general contractor",
+      "intent": "commercial",
+      "volume": 50,
+      "kd": 0,
+      "fan_out_cluster": [
+        "general contractor vs remodeling contractor",
+        "what does a remodeling contractor do",
+        "how to choose a remodeling contractor",
+        "what should a remodeling contract include",
+        "remodeling contractor red flags"
+      ],
+      "suggested_slug": "design-build-vs-general-contractor-folsom",
+      "suggested_title": "Design build vs general contractor: which fits your Folsom remodel",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/general-contracting/",
+        "/services/home-remodeling/",
+        "/service-areas/folsom-ca/home-remodeling/",
+        "/blog/what-does-a-general-contractor-do/",
+        "/blog/choosing-a-general-contractor/"
+      ],
+      "service_tags": [
+        "general-contracting",
+        "home-remodeling"
+      ],
+      "city_anchor": "folsom-ca",
+      "external_authority_candidates": [
+        "https://www.cslb.ca.gov/",
+        "https://dbia.org/"
+      ],
+      "notes": "Comparison post: KD 0 with steady volume. Explain design-bid-build vs design-build vs a remodeling contractor in plain terms with a side-by-side table (who designs, who holds the contract, change-order risk, typical timeline). Cover the 'general contractor vs remodeling contractor' question in its own H2 since it had no measurable Google volume but surfaced in the AI decomposition. Link to the existing what-does-a-general-contractor-do and choosing-a-general-contractor posts rather than repeating them."
     },
     {
       "id": "2026-09-24-what-is-a-change-order-in-construction-folsom",
@@ -461,7 +494,6 @@
       "id": "2026-09-24-design-build-vs-general-contractor-rocklin",
       "status": "queued",
       "queued_at": "2026-09-24T21:11:18Z",
->>>>>>> 8dd499549 (Content writer: publish new home construction roseville for tdi-builders)
       "written_at": null,
       "post_url": null,
       "primary_keyword": "design build vs general contractor",
@@ -469,34 +501,6 @@
       "volume": 50,
       "kd": 0,
       "fan_out_cluster": [
-<<<<<<< HEAD
-        "general contractor vs remodeling contractor",
-        "what does a remodeling contractor do",
-        "how to choose a remodeling contractor",
-        "what should a remodeling contract include",
-        "remodeling contractor red flags"
-      ],
-      "suggested_slug": "design-build-vs-general-contractor-folsom",
-      "suggested_title": "Design build vs general contractor: which fits your Folsom remodel",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/general-contracting/",
-        "/services/home-remodeling/",
-        "/service-areas/folsom-ca/home-remodeling/",
-        "/blog/what-does-a-general-contractor-do/",
-        "/blog/choosing-a-general-contractor/"
-      ],
-      "service_tags": [
-        "general-contracting",
-        "home-remodeling"
-      ],
-      "city_anchor": "folsom-ca",
-      "external_authority_candidates": [
-        "https://www.cslb.ca.gov/",
-        "https://dbia.org/"
-      ],
-      "notes": "Comparison post: KD 0 with steady volume. Explain design-bid-build vs design-build vs a remodeling contractor in plain terms with a side-by-side table (who designs, who holds the contract, change-order risk, typical timeline). Cover the 'general contractor vs remodeling contractor' question in its own H2 since it had no measurable Google volume but surfaced in the AI decomposition. Link to the existing what-does-a-general-contractor-do and choosing-a-general-contractor posts rather than repeating them."
-=======
         "remodeling contractor vs general contractor",
         "what does a remodeling contractor do",
         "how many bids should i get for a remodel",
@@ -521,7 +525,6 @@
       ],
       "notes": "KD 0 decision-stage query. Compare single-contract design-build against design-bid-build with a separate architect. Explain the CSLB B General Building classification for multi-trade remodels. Keep it vendor-neutral.",
       "source": "keyword-researcher seed=remodeling contractor"
->>>>>>> 8dd499549 (Content writer: publish new home construction roseville for tdi-builders)
     }
   ]
 }
