@@ -1,6 +1,71 @@
 {
   "items": [
     {
+      "id": "2026-09-28-storm-damage-roof-tarping-lakewood-wa",
+      "status": "queued",
+      "queued_at": "2026-09-28T09:27:46Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "storm-damage-roof-tarping-lakewood-wa",
+      "primary_keyword": "storm damage roof tarping Lakewood WA",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "lakewood-wa",
+      "source": "app target-term (dev-agent-gameplan)"
+    },
+    {
+      "id": "2026-09-28-mold-remediation-rainy-climate-lakewood-wa",
+      "status": "queued",
+      "queued_at": "2026-09-28T09:27:46Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "mold-remediation-rainy-climate-lakewood-wa",
+      "primary_keyword": "mold remediation rainy climate Lakewood WA",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "lakewood-wa",
+      "source": "app target-term (dev-agent-gameplan)"
+    },
+    {
+      "id": "2026-09-28-fire-damage-restoration-process-lakewood-wa",
+      "status": "queued",
+      "queued_at": "2026-09-28T09:27:46Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "fire-damage-restoration-process-lakewood-wa",
+      "primary_keyword": "fire damage restoration process Lakewood WA",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "lakewood-wa",
+      "source": "app target-term (dev-agent-gameplan)"
+    },
+    {
+      "id": "2026-09-28-how-to-prevent-frozen-pipe-damage-lakewood-wa",
+      "status": "queued",
+      "queued_at": "2026-09-28T09:27:46Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "how-to-prevent-frozen-pipe-damage-lakewood-wa",
+      "primary_keyword": "how to prevent frozen pipe damage Lakewood WA",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "lakewood-wa",
+      "source": "app target-term (dev-agent-gameplan)"
+    },
+    {
+      "id": "2026-09-28-water-damage-restoration-cost-lakewood-wa",
+      "status": "queued",
+      "queued_at": "2026-09-28T09:27:46Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "water-damage-restoration-cost-lakewood-wa",
+      "primary_keyword": "water damage restoration cost Lakewood WA",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "lakewood-wa",
+      "source": "app target-term (dev-agent-gameplan)"
+    },
+    {
       "id": "2026-09-20-water-damage-restoration-cost-wa",
       "status": "published",
       "queued_at": "2026-09-20T14:28:52Z",
