@@ -22,8 +22,10 @@ const sectionHeading =
 const hqCity = brand.addressCity || brand.primaryCity;
 const hqState = brand.addressState || brand.primaryState;
 const remote = hqCity && city && hqCity.toLowerCase() !== city.toLowerCase();
+// CLIENT DIRECTION (Robert, 2026-09-27): do not name a dispatch/office
+// origin on city pages — it pigeonholes a business that serves a large area.
 const servingLine = remote
-  ? `Serving ${city} from our ${hqCity}, ${hqState} office`
+  ? `Serving ${city} and the surrounding area`
   : `Serving ${city} and surrounding neighborhoods`;
 
 // Free Google Maps embed of the client's REAL Business Profile — no API key needed,

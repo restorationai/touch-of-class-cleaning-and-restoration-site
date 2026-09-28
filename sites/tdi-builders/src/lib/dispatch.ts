@@ -22,16 +22,20 @@ export function isHqCity(city: string): boolean {
 // The dispatch sentence — repeated verbatim on-page (DispatchCallout) and in
 // the LocalBusiness schema description so engines see one consistent claim.
 // The 60-minute figure matches the emergency-page standard claim.
+// CLIENT DIRECTION (Robert, 2026-09-27): do NOT name a dispatch origin on
+// city pages. Stating "dispatched from our Sacramento HQ" was both wrong
+// (crews dispatch from Manteca) and pigeonholed a business that serves a
+// large area. Non-HQ sentences state the response, never the origin.
 export function dispatchSentence(city: string): string {
   const hq = isHqCity(city);
   if (is247) {
     return hq
       ? `Our ${crewLabel} are headquartered right here in ${city} and are typically on-site within 60 minutes of your call.`
-      : `Our ${crewLabel} are dispatched from our ${brand.primaryCity}, ${brand.primaryState} headquarters and are typically on-site in ${city} within 60 minutes of your call.`;
+      : `Our ${crewLabel} serve ${city} and are typically on-site within 60 minutes of your call.`;
   }
   return hq
     ? `Our ${crewLabel} are headquartered right here in ${city} and take on projects across the surrounding area.`
-    : `Our ${crewLabel} are dispatched from our ${brand.primaryCity}, ${brand.primaryState} headquarters and respond quickly to projects across ${city}.`;
+    : `Our ${crewLabel} respond quickly to projects across ${city} and the surrounding area.`;
 }
 
 // Deterministic review rotation: stable per city (same snippet every build for
